@@ -1,4 +1,6 @@
 import { Card } from "@/components/ui/card";
+import { EmptyState } from "@/components/shared/EmptyState";
+import { TrendingUp } from "lucide-react";
 
 interface DailyPoint {
   day: string;
@@ -9,10 +11,15 @@ export function DailyProgressCard({ data }: { data: DailyPoint[] }) {
   const max = Math.max(1, ...data.map((d) => d.count));
 
   return (
-    <Card>
+    <Card className="p-4 sm:p-5">
       <p className="font-medium mb-3">Daily Progress</p>
       {data.length === 0 ? (
-        <p className="text-sm text-muted-foreground">No activity yet — attempt a test to start your streak.</p>
+        <EmptyState
+          icon={TrendingUp}
+          title="No activity yet"
+          description="Attempt a test to start your daily streak."
+          className="py-6"
+        />
       ) : (
         <div className="flex items-end gap-1 h-20">
           {data.map((d) => (

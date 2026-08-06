@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* 
+  Quizzer Design System & Density Conventions:
+  - Page card padding: p-4 sm:p-5
+  - Inline card padding: p-3 sm:p-3.5
+  - Chip / badge padding: px-2.5 py-0.5
+  - Hierarchy: rounded-xl for page-level cards; rounded-lg/rounded-md for chips, buttons, and sub-elements.
+*/
+
 :root {
   --background: 0 0% 100%;
   --foreground: 222 20% 12%;
@@ -13,6 +21,12 @@
   --success-foreground: 0 0% 100%;
   --border: 220 15% 88%;
   --radius: 0.75rem;
+  --radius-sm: 0.5rem;
+  --spacing-card: 0.875rem;
+}
+
+.font-hindi {
+  font-family: var(--font-hindi), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 * {

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/lib/utils";
+import { cn, containsDevanagari } from "@/lib/utils";
 
 interface OptionButtonProps {
   id: string;
@@ -18,6 +18,8 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
   else if (id === "opt3") badgeLabel = "C";
   else if (id === "opt4") badgeLabel = "D";
 
+  const isHindi = containsDevanagari(text);
+
   return (
     <button
       type="button"
@@ -27,11 +29,11 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
       }}
       disabled={disabled}
       className={cn(
-        "flex w-full items-center gap-3.5 rounded-xl border px-4 py-3.5 text-left text-sm transition-all duration-150 min-h-14 select-none cursor-pointer group",
-        selected && !correctness && "border-2 border-primary bg-primary/10 ring-2 ring-primary/20 shadow-md font-semibold text-foreground scale-[1.005]",
+        "flex w-full items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-sm transition-all duration-150 min-h-12.5 select-none cursor-pointer group",
+        selected && !correctness && "border-primary bg-primary/10 ring-2 ring-primary/20 shadow-md font-semibold text-foreground",
         !selected && !correctness && "border-border bg-card hover:bg-muted/60 hover:border-primary/40 active:scale-[0.995]",
-        correctness === "correct" && "border-2 border-success bg-success/15 ring-2 ring-success/20 font-semibold text-foreground shadow-sm",
-        correctness === "incorrect" && "border-2 border-destructive bg-destructive/15 ring-2 ring-destructive/20 font-semibold text-foreground shadow-sm",
+        correctness === "correct" && "border-success bg-success/15 ring-2 ring-success/20 font-semibold text-foreground shadow-sm",
+        correctness === "incorrect" && "border-destructive bg-destructive/15 ring-2 ring-destructive/20 font-semibold text-foreground shadow-sm",
         disabled && "cursor-default opacity-90"
       )}
     >
@@ -49,13 +51,15 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
       </span>
 
       {/* Option Content Text */}
-      <span className="flex-1 leading-snug text-sm sm:text-base">{text}</span>
+      <span className={cn("flex-1 leading-snug text-sm sm:text-base", isHindi && "font-hindi")}>
+        {text}
+      </span>
 
       {/* Radio Circle Indicator */}
       <div className="shrink-0 pl-1">
         <span
           className={cn(
-            "flex h-5 w-5 items-center justify-center rounded-full border-blac transition-all",
+            "flex h-5 w-5 items-center justify-center rounded-full border transition-all",
             selected && !correctness && "border-primary bg-primary text-primary-foreground ring-2 ring-primary/30",
             !selected && !correctness && "border-muted-foreground/40 bg-background group-hover:border-primary",
             correctness === "correct" && "border-success bg-success text-success-foreground",

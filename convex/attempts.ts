@@ -202,8 +202,21 @@ export const recentByUser = query({
       .filter((q) => q.eq(q.field("status"), "submitted"))
       .collect();
 
-    return attempts
+    const sorted = attempts
       .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
       .slice(0, args.limit ?? 10);
+
+    return await Promise.all(
+      sorted.map(async (attempt) => {
+        const testSet = await ctx.db.get(attempt.testSetId);
+        const topic = testSet ? await ctx.db.get(testSet.topicId) : null;
+        const subject = topic ? await ctx.db.get(topic.subjectId) : null;
+        return {
+          ...attempt,
+          testSetName: testSet?.name ?? "Practice Set",
+          subjectName: subject?.name ?? "General",
+        };
+      })
+    );
   },
 });

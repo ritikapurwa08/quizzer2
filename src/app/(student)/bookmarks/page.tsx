@@ -1,18 +1,23 @@
 "use client";
 
-import { useQuery } from "convex/react";
+import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
-import { QUESTION_TYPE_LABELS } from "@/lib/constants";
+import { QuestionReviewCard } from "@/components/quiz";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { Card } from "@/components/ui/card";
 import { Bookmark } from "lucide-react";
 
 export default function BookmarksPage() {
   const bookmarks = useQuery(api.bookmarks.listByUser);
+  const toggleBookmark = useMutation(api.bookmarks.toggle);
 
   return (
-    <div className="space-y-4">
-      <h1 className="text-xl font-semibold">Bookmarks</h1>
+    <div className="space-y-4 pb-12">
+      <div>
+        <h1 className="text-xl font-semibold">Bookmarks</h1>
+        <p className="text-sm text-muted-foreground">
+          Questions you've bookmarked for later review.
+        </p>
+      </div>
 
       {bookmarks && bookmarks.length === 0 && (
         <EmptyState
@@ -22,15 +27,19 @@ export default function BookmarksPage() {
         />
       )}
 
-      <div className="space-y-3">
-        {bookmarks?.map(({ bookmark, question }) => (
+      <div className="space-y-4">
+        {bookmarks?.map(({ bookmark, question }, idx) => (
           question && (
-            <Card key={bookmark._id}>
-              <p className="text-xs text-muted-foreground mb-1">
-                {QUESTION_TYPE_LABELS[question.type]} · {question.difficulty}
-              </p>
-              <p className="whitespace-pre-line text-sm">{question.questionText}</p>
-            </Card>
+            <QuestionReviewCard
+              key={bookmark._id}
+              number={idx + 1}
+              question={question}
+              selectedAnswer={undefined}
+              isBookmarked={true}
+              onToggleBookmark={() => {
+                toggleBookmark({ questionId: question._id });
+              }}
+            />
           )
         ))}
       </div>

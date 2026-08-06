@@ -1,7 +1,7 @@
 "use client";
 
-import { Bookmark } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Bookmark, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
+import { cn, containsDevanagari } from "@/lib/utils";
 import { QUESTION_TYPE_LABELS, QuestionType } from "@/lib/constants";
 import { useToast } from "@/components/ui/Toast";
 
@@ -13,6 +13,8 @@ interface QuestionShellProps {
   onToggleBookmark: () => void;
   children: React.ReactNode;
   reviewBadge?: "correct" | "incorrect" | "unanswered";
+  missCount?: number;
+  unwrapped?: boolean;
 }
 
 export function QuestionShell({
@@ -23,6 +25,8 @@ export function QuestionShell({
   onToggleBookmark,
   children,
   reviewBadge,
+  missCount,
+  unwrapped = false,
 }: QuestionShellProps) {
   const { showToast } = useToast();
 
@@ -35,9 +39,11 @@ export function QuestionShell({
     }
   };
 
-  return (
-    <div className="rounded-xl border border-border bg-card p-4 sm:p-6 shadow-sm">
-      <div className="flex items-start justify-between gap-3 mb-4">
+  const isHindi = containsDevanagari(questionText);
+
+  const content = (
+    <>
+      <div className="flex items-start justify-between gap-3 mb-3">
         <div className="flex flex-wrap items-center gap-2">
           <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-bold shrink-0">
             {number}
@@ -45,15 +51,23 @@ export function QuestionShell({
           <span className="text-xs font-medium text-muted-foreground bg-muted px-2.5 py-0.5 rounded-md">
             {QUESTION_TYPE_LABELS[type]}
           </span>
+          {missCount !== undefined && missCount > 0 && (
+            <span className="text-xs font-medium text-destructive bg-destructive/10 px-2.5 py-0.5 rounded-md border border-destructive/20">
+              Missed {missCount}x
+            </span>
+          )}
           {reviewBadge && (
             <span
               className={cn(
-                "text-xs font-semibold px-2.5 py-0.5 rounded-full capitalize",
+                "inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full capitalize",
                 reviewBadge === "correct" && "bg-success/15 text-success border border-success/30",
                 reviewBadge === "incorrect" && "bg-destructive/15 text-destructive border border-destructive/30",
                 reviewBadge === "unanswered" && "bg-muted text-muted-foreground"
               )}
             >
+              {reviewBadge === "correct" && <CheckCircle2 className="h-3.5 w-3.5" />}
+              {reviewBadge === "incorrect" && <XCircle className="h-3.5 w-3.5" />}
+              {reviewBadge === "unanswered" && <HelpCircle className="h-3.5 w-3.5" />}
               {reviewBadge}
             </span>
           )}
@@ -80,11 +94,26 @@ export function QuestionShell({
         </button>
       </div>
 
-      <p className="whitespace-pre-line font-semibold text-base mb-5 leading-relaxed text-foreground">
+      <p
+        className={cn(
+          "whitespace-pre-line font-semibold text-base mb-4 leading-relaxed text-foreground",
+          isHindi && "font-hindi"
+        )}
+      >
         {questionText}
       </p>
 
       {children}
+    </>
+  );
+
+  if (unwrapped) {
+    return <div>{content}</div>;
+  }
+
+  return (
+    <div className="rounded-xl border border-border bg-card p-3.5 sm:p-5 shadow-sm">
+      {content}
     </div>
   );
 }

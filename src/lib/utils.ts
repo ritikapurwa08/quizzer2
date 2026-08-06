@@ -20,3 +20,7 @@ export function formatAccuracy(accuracy: number): string {
 export function formatScore(score: number): string {
   return Number.isInteger(score) ? String(score) : score.toFixed(2);
 }
+
+export function containsDevanagari(text: string): boolean {
+  return /[\u0900-\u097F]/.test(text);
+}

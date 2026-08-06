@@ -1,11 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useQuery } from "convex/react";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useRouter } from "next/navigation";
 import { SearchBar } from "./SearchBar";
-import { Bookmark, GraduationCap, History, LayoutDashboard, LogOut, User } from "lucide-react";
+import { Bookmark, GraduationCap, History, LayoutDashboard, LogOut, Search, User, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { api } from "../../../convex/_generated/api";
 
@@ -13,6 +14,7 @@ export function Navbar() {
   const me = useQuery(api.users.me);
   const { signOut } = useAuthActions();
   const router = useRouter();
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
 
   async function handleSignOut() {
     await signOut();
@@ -31,19 +33,29 @@ export function Navbar() {
           <SearchBar />
         </div>
 
-        <nav className="ml-auto flex items-center gap-1.5 text-sm">
-          <Link href="/dashboard" className="p-2 rounded-md hover:bg-muted" title="Dashboard">
+        <nav className="ml-auto flex items-center gap-1 text-sm">
+          {/* Mobile search toggle button */}
+          <button
+            onClick={() => setMobileSearchOpen((prev) => !prev)}
+            className="p-2 rounded-md hover:bg-muted sm:hidden text-muted-foreground hover:text-foreground cursor-pointer"
+            title="Search"
+            aria-label="Toggle search"
+          >
+            {mobileSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
+          </button>
+
+          <Link href="/dashboard" className="p-2 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground" title="Dashboard">
             <LayoutDashboard className="h-5 w-5" />
           </Link>
-          <Link href="/wrong-questions" className="p-2 rounded-md hover:bg-muted" title="Wrong Questions">
+          <Link href="/wrong-questions" className="p-2 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground" title="Wrong Questions">
             <History className="h-5 w-5" />
           </Link>
-          <Link href="/bookmarks" className="p-2 rounded-md hover:bg-muted" title="Bookmarks">
+          <Link href="/bookmarks" className="p-2 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground" title="Bookmarks">
             <Bookmark className="h-5 w-5" />
           </Link>
 
           {me?.role === "admin" && (
-            <Link href="/admin" className="text-xs font-medium px-2.5 py-1.5 rounded-md bg-primary text-primary-foreground">
+            <Link href="/admin" className="text-xs font-medium px-2.5 py-1.5 rounded-md bg-primary text-primary-foreground ml-1">
               Admin
             </Link>
           )}
@@ -69,9 +81,11 @@ export function Navbar() {
         </nav>
       </div>
 
-      <div className="sm:hidden px-4 pb-3">
-        <SearchBar />
-      </div>
+      {mobileSearchOpen && (
+        <div className="sm:hidden px-4 pb-3 pt-1 border-t border-border/50 animate-in slide-in-from-top-1">
+          <SearchBar />
+        </div>
+      )}
     </header>
   );
 }

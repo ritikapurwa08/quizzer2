@@ -70,17 +70,17 @@ export function MatchFollowingRenderer({
     <div className="space-y-4">
       {/* Side-by-side Column Reference Display */}
       {(columnA.length > 0 || columnB.length > 0) && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-muted/40 p-4 rounded-xl border border-border">
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 bg-muted/40 p-2.5 sm:p-4 rounded-xl border border-border">
           {/* Column A (List I) */}
-          <div className="space-y-2">
-            <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+          <div className="space-y-1.5 sm:space-y-2 min-w-0">
+            <h4 className="text-[10px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider truncate">
               List - I (सूची - I)
             </h4>
-            <ul className="space-y-1.5 text-xs text-foreground font-medium">
+            <ul className="space-y-1 sm:space-y-1.5 text-[11px] sm:text-xs text-foreground font-medium">
               {columnA.map((item) => (
                 <li
                   key={item.id}
-                  className="bg-card p-2 rounded border border-border/60"
+                  className="bg-card p-1.5 sm:p-2 rounded border border-border/60 break-words leading-tight"
                 >
                   {item.text}
                 </li>
@@ -89,15 +89,15 @@ export function MatchFollowingRenderer({
           </div>
 
           {/* Column B (List II) */}
-          <div className="space-y-2">
-            <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+          <div className="space-y-1.5 sm:space-y-2 min-w-0">
+            <h4 className="text-[10px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider truncate">
               List - II (सूची - II)
             </h4>
-            <ul className="space-y-1.5 text-xs text-foreground font-medium">
+            <ul className="space-y-1 sm:space-y-1.5 text-[11px] sm:text-xs text-foreground font-medium">
               {columnB.map((item) => (
                 <li
                   key={item.id}
-                  className="bg-card p-2 rounded border border-border/60"
+                  className="bg-card p-1.5 sm:p-2 rounded border border-border/60 break-words leading-tight"
                 >
                   {item.text}
                 </li>

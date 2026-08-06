@@ -22,3 +22,4 @@ export const QUESTION_RENDERERS: Record<QuestionType, React.ComponentType<Questi
 export { QuestionShell } from "./QuestionShell";
 export { OptionButton } from "./OptionButton";
 export { QuestionPalette } from "./QuestionPalette";
+export { QuestionReviewCard } from "./QuestionReviewCard";
