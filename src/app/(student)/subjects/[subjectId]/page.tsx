@@ -69,19 +69,19 @@ export default function SubjectDetailPage() {
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {topics?.map((t, index) => (
             <Link key={t._id} href={`/subjects/${id}/${t._id}`}>
-              <Card className="flex items-center justify-between p-3.5 hover:border-primary hover:shadow-sm transition-all group">
-                <div className="flex items-center gap-3">
+              <Card className="flex items-center justify-between p-3.5 hover:border-primary hover:shadow-sm transition-all group min-h-14">
+                <div className="flex items-center gap-3 min-w-0">
                   <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-bold shrink-0">
                     {index + 1}
                   </span>
-                  <p className="font-semibold text-sm group-hover:text-primary transition-colors">
+                  <p className="font-semibold text-sm group-hover:text-primary transition-colors truncate">
                     {t.name}
                   </p>
                 </div>
-                <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0" />
+                <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
               </Card>
             </Link>
           ))}

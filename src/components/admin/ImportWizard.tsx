@@ -357,29 +357,29 @@ export function ImportWizard() {
 
         {/* First 5 Preview Cards */}
         {parsed && (
-          <div className="space-y-3">
+          <div className="space-y-4 pt-2">
             <h3 className="text-sm font-bold flex items-center gap-2">
               <Layers className="h-4 w-4 text-primary" /> Questions Preview (Showing first 5 of {parsed.questions.length})
             </h3>
-            <div className="space-y-3 max-h-80 overflow-y-auto pr-1">
+            <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
               {parsed.questions.slice(0, 5).map((q, i) => (
-                <div key={i} className="rounded-xl border border-border p-4 text-sm bg-muted/20 space-y-2">
-                  <div className="flex items-center justify-between text-xs font-mono text-muted-foreground">
-                    <span>Q{i + 1} · TYPE: {q.type.toUpperCase()}</span>
-                    <span className="capitalize font-bold text-foreground">{q.difficulty}</span>
+                <div key={i} className="rounded-xl border border-border p-5 text-sm bg-card shadow-sm space-y-3">
+                  <div className="flex items-center justify-between text-xs font-mono text-muted-foreground pb-2 border-b border-border/50">
+                    <span className="font-semibold text-primary">Q{i + 1} · TYPE: {q.type.toUpperCase()}</span>
+                    <span className="capitalize font-bold px-2 py-0.5 rounded bg-muted text-foreground">{q.difficulty}</span>
                   </div>
-                  <p className="font-semibold whitespace-pre-line leading-relaxed">{q.questionText}</p>
-                  <div className="grid grid-cols-2 gap-2 text-xs pt-1">
+                  <p className="font-semibold whitespace-pre-line leading-relaxed text-foreground">{q.questionText}</p>
+                  <div className="grid sm:grid-cols-2 gap-2.5 text-xs pt-1">
                     {q.options.map((opt) => (
                       <div
                         key={opt.id}
-                        className={`p-2.5 rounded-lg border ${
+                        className={`p-3 rounded-lg border leading-snug ${
                           opt.id === q.correctAnswer
-                            ? "border-success bg-success/15 font-bold text-success"
-                            : "border-border bg-card"
+                            ? "border-success bg-success/15 font-semibold text-success shadow-xs"
+                            : "border-border/60 bg-muted/30 text-foreground"
                         }`}
                       >
-                        <span className="mr-1.5 font-mono">{opt.id}:</span> {opt.text}
+                        <span className="mr-1.5 font-bold font-mono">{opt.id}:</span> {opt.text}
                       </div>
                     ))}
                   </div>

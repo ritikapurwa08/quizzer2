@@ -59,30 +59,19 @@ export default function DashboardPage() {
             description="Run the database seed to load all fixed subjects and topics."
           />
         ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
             {subjects.map((s) => (
               <Link key={s._id} href={`/subjects/${s._id}`}>
-                <Card className="h-full p-3.5 hover:border-primary hover:shadow-md transition-all flex flex-col justify-between group">
-                  <div>
-                    <div className="flex items-start justify-between gap-2 mb-1.5">
-                      <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-primary/10 text-primary">
-                        Subject {s.order + 1}
-                      </span>
-                      <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                    </div>
-                    <h3 className="font-bold text-base group-hover:text-primary transition-colors leading-snug">
+                <Card className="flex items-center justify-between p-3.5 hover:border-primary hover:shadow-md transition-all group min-h-14">
+                  <div className="flex items-center gap-3 min-w-0">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-bold shrink-0">
+                      {s.order + 1}
+                    </span>
+                    <h3 className="font-bold text-sm sm:text-base group-hover:text-primary transition-colors truncate">
                       {s.name}
                     </h3>
-                    {s.description && (
-                      <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
-                        {s.description}
-                      </p>
-                    )}
                   </div>
-                  <div className="hidden sm:flex items-center gap-1 text-xs font-medium text-muted-foreground mt-3 pt-2 border-t border-border">
-                    <Layers className="h-3.5 w-3.5 text-primary" />
-                    <span>Fixed Syllabus Topics</span>
-                  </div>
+                  <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
                 </Card>
               </Link>
             ))}
