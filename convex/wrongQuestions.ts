@@ -20,6 +20,11 @@ export const listByUser = query({
 
     return withQuestions
       .filter((w) => w.question !== null)
-      .sort((a, b) => b.wrongQuestion.lastMissedAt - a.wrongQuestion.lastMissedAt);
+      .sort((a, b) => {
+        if (b.wrongQuestion.missCount !== a.wrongQuestion.missCount) {
+          return b.wrongQuestion.missCount - a.wrongQuestion.missCount;
+        }
+        return b.wrongQuestion.lastMissedAt - a.wrongQuestion.lastMissedAt;
+      });
   },
 });

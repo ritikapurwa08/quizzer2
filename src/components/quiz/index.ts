@@ -23,3 +23,4 @@ export { QuestionShell } from "./QuestionShell";
 export { OptionButton } from "./OptionButton";
 export { QuestionPalette } from "./QuestionPalette";
 export { QuestionReviewCard } from "./QuestionReviewCard";
+export { QuestionShellSkeleton } from "./QuestionShellSkeleton";

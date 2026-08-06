@@ -68,11 +68,15 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   // 5. Timer counter for quiz duration
   useEffect(() => {
     if (!attemptId || data?.attempt?.status === "submitted") return;
+    if (data?.attempt?.startedAt && elapsedSeconds === 0) {
+      const initial = Math.max(0, Math.floor((Date.now() - data.attempt.startedAt) / 1000));
+      setElapsedSeconds(initial);
+    }
     const interval = setInterval(() => {
       setElapsedSeconds((prev) => prev + 1);
     }, 1000);
     return () => clearInterval(interval);
-  }, [attemptId, data?.attempt?.status]);
+  }, [attemptId, data?.attempt?.status, data?.attempt?.startedAt]);
 
   // 6. Select answer handler
   const selectAnswer = useCallback(

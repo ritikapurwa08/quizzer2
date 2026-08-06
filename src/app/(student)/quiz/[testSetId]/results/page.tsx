@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
-import { QuestionReviewCard } from "@/components/quiz";
+import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore } from "@/lib/utils";
@@ -19,17 +19,10 @@ export default function ResultsPage() {
   const toggleBookmark = useMutation(api.bookmarks.toggle);
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
 
-  if (data === undefined) {
+  if (data === undefined || data === null) {
     return (
-      <div className="flex min-h-[50vh] items-center justify-center">
-        <p className="text-sm text-muted-foreground animate-pulse">Loading attempt results...</p>
-      </div>
-    );
-  }
-  if (data === null) {
-    return (
-      <div className="flex min-h-[50vh] items-center justify-center">
-        <p className="text-sm text-muted-foreground">Scoring your attempt...</p>
+      <div className="max-w-3xl mx-auto space-y-4 pt-4">
+        <QuestionShellSkeleton />
       </div>
     );
   }

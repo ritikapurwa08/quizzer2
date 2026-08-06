@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
 import { api } from "../../../../../convex/_generated/api";
 import { Id } from "../../../../../convex/_generated/dataModel";
 import { useQuizSession } from "@/hooks/useQuizSession";
-import { QUESTION_RENDERERS, QuestionShell, QuestionPalette } from "@/components/quiz";
+import { QUESTION_RENDERERS, QuestionShell, QuestionPalette, QuestionShellSkeleton } from "@/components/quiz";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { Clock } from "lucide-react";
@@ -38,15 +38,59 @@ export default function QuizPage() {
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const current = questions[currentIndex];
+
+  // Keyboard Shortcuts Handler (1-4/A-D for options, ArrowLeft/Right for nav, Enter to advance/submit)
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        confirmSubmitOpen
+      ) {
+        return;
+      }
+
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        setCurrentIndex((i) => Math.max(0, i - 1));
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        setCurrentIndex((i) => Math.min(questions.length - 1, i + 1));
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (currentIndex < questions.length - 1) {
+          setCurrentIndex((i) => i + 1);
+        } else {
+          setConfirmSubmitOpen(true);
+        }
+      } else if (current && current.options) {
+        const key = e.key.toLowerCase();
+        let targetOptIdx = -1;
+        if (key === "1" || key === "a") targetOptIdx = 0;
+        else if (key === "2" || key === "b") targetOptIdx = 1;
+        else if (key === "3" || key === "c") targetOptIdx = 2;
+        else if (key === "4" || key === "d") targetOptIdx = 3;
+
+        if (targetOptIdx >= 0 && current.options[targetOptIdx]) {
+          e.preventDefault();
+          selectAnswer(current._id, current.options[targetOptIdx].id);
+        }
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex, questions.length, current, selectAnswer, confirmSubmitOpen]);
+
   if (isLoading || questions.length === 0) {
     return (
-      <div className="flex min-h-[50vh] items-center justify-center">
-        <p className="text-sm text-muted-foreground animate-pulse">Loading quiz questions...</p>
+      <div className="max-w-3xl mx-auto space-y-4 pt-4">
+        <QuestionShellSkeleton />
       </div>
     );
   }
 
-  const current = questions[currentIndex];
   const Renderer = current ? QUESTION_RENDERERS[current.type] : null;
   const answeredCount = Object.keys(localAnswers).length;
 
