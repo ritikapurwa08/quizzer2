@@ -1,28 +1,36 @@
 @import "tailwindcss";
 
 /* 
-  Quizzer Design System & Density Conventions:
+  Stitch Unified Design System & Density Conventions:
   - Page card padding: p-4 sm:p-5
-  - Inline card padding: p-3 sm:p-3.5
+  - Inline card padding: p-3.5
   - Chip / badge padding: px-2.5 py-0.5
-  - Hierarchy: rounded-xl for page-level cards; rounded-lg/rounded-md for chips, buttons, and sub-elements.
+  - Hierarchy: rounded-xl / rounded-2xl for top-level cards; rounded-lg / rounded-md for chips and buttons.
 */
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222 20% 12%;
-  --primary: 221 83% 53%;
-  --primary-foreground: 0 0% 100%;
-  --muted: 220 20% 96%;
-  --muted-foreground: 220 10% 45%;
-  --destructive: 0 72% 51%;
-  --destructive-foreground: 0 0% 100%;
-  --success: 142 71% 40%;
-  --success-foreground: 0 0% 100%;
-  --border: 220 15% 88%;
+  --background: 220 20% 98%;
+  --foreground: 224 71% 4%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 71% 4%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 224 71% 4%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 220 14.3% 95.9%;
+  --secondary-foreground: 220.9 39.3% 11%;
+  --muted: 220 14.3% 95.9%;
+  --muted-foreground: 220 8.9% 46.1%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --success: 142.1 76.2% 36.3%;
+  --success-foreground: 210 40% 98%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 221.2 83.2% 53.3%;
   --radius: 0.75rem;
   --radius-sm: 0.5rem;
-  --spacing-card: 0.875rem;
+  --radius-lg: 1rem;
 }
 
 .font-hindi {
@@ -35,9 +43,10 @@
 }
 
 body {
-  background: hsl(var(--background));
+  background-color: hsl(var(--background));
   color: hsl(var(--foreground));
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Prevent iOS auto-zoom on inputs per SRD Section 13 */

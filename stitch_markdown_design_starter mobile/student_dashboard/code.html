@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quizzer - Student Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary": "#004ac6",
+                      "on-tertiary-fixed-variant": "#7d2d00",
+                      "surface-container-lowest": "#ffffff",
+                      "primary-fixed-dim": "#b4c5ff",
+                      "on-surface-variant": "#434655",
+                      "secondary-container": "#dedfe3",
+                      "error": "#ba1a1a",
+                      "surface-container-high": "#e6e7f4",
+                      "status-destructive": "#DC2626",
+                      "surface-dim": "#d8d9e6",
+                      "status-warning": "#F59E0B",
+                      "primary-container": "#2563eb",
+                      "tertiary-fixed": "#ffdbcd",
+                      "inverse-primary": "#b4c5ff",
+                      "on-primary": "#ffffff",
+                      "surface": "#faf8ff",
+                      "status-success": "#16A34A",
+                      "on-primary-fixed-variant": "#003ea8",
+                      "text-muted": "#6B7280",
+                      "surface-bright": "#faf8ff",
+                      "inverse-surface": "#2d303a",
+                      "on-secondary": "#ffffff",
+                      "on-background": "#181b24",
+                      "border-hairline": "#DCDFE6",
+                      "on-primary-container": "#eeefff",
+                      "surface-variant": "#e0e2ef",
+                      "outline-variant": "#c3c6d7",
+                      "outline": "#737686",
+                      "on-error-container": "#93000a",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed": "#191c1f",
+                      "surface-container-low": "#f2f3ff",
+                      "tertiary": "#943700",
+                      "on-primary-fixed": "#00174b",
+                      "surface-container-highest": "#e0e2ef",
+                      "white": "#FFFFFF",
+                      "background": "#faf8ff",
+                      "error-container": "#ffdad6",
+                      "on-surface": "#181b24",
+                      "on-tertiary-container": "#ffede6",
+                      "on-tertiary-fixed": "#360f00",
+                      "secondary-fixed": "#e1e2e6",
+                      "on-error": "#ffffff",
+                      "surface-tint": "#0053db",
+                      "tertiary-fixed-dim": "#ffb596",
+                      "on-secondary-fixed-variant": "#44474a",
+                      "secondary": "#5c5e62",
+                      "surface-container": "#ecedfa",
+                      "secondary-fixed-dim": "#c5c6ca",
+                      "primary-fixed": "#dbe1ff",
+                      "inverse-on-surface": "#eff0fd",
+                      "on-secondary-container": "#606366",
+                      "tertiary-container": "#bc4800"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-sm": "0.5rem",
+                      "tap-target-min": "44px",
+                      "top-bar-height": "56px",
+                      "gutter-md": "1rem",
+                      "margin-mobile": "1rem",
+                      "stack-md": "0.75rem"
+              },
+              "fontFamily": {
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "display-hindi": [
+                              "Noto Sans Devanagari"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "headline-sm": [
+                              "Inter"
+                      ],
+                      "body-hindi": [
+                              "Noto Sans Devanagari"
+                      ]
+              },
+              "fontSize": {
+                      "label-sm": [
+                              "11px",
+                              {
+                                      "lineHeight": "14px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-hindi": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-md": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.02em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "15px",
+                              {
+                                      "lineHeight": "22px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-sm": [
+                              "18px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-hindi": [
+                              "15px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body-md min-h-screen flex flex-col md:hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full h-[56px] z-50 border-b border-border-hairline dark:border-outline-variant bg-surface dark:bg-surface-dim text-primary dark:text-primary-fixed flex items-center justify-between px-margin-mobile">
+<button class="w-tap-target-min h-tap-target-min flex items-center justify-center hover:bg-surface-container-low dark:hover:bg-surface-container-high transition-colors active:scale-95 duration-100 rounded-full text-on-surface-variant dark:text-outline">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">school</span>
+</button>
+<div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed">Quizzer</div>
+<button class="w-tap-target-min h-tap-target-min flex items-center justify-center hover:bg-surface-container-low dark:hover:bg-surface-container-high transition-colors active:scale-95 duration-100 rounded-full text-on-surface-variant dark:text-outline">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">search</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-1 mt-[56px] mb-[64px] pb-[80px] p-margin-mobile flex flex-col gap-stack-md overflow-y-auto">
+<!-- Page Header -->
+<div class="mb-stack-sm">
+<h1 class="font-headline-sm text-headline-sm text-on-surface">Hello, Student 👋</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Let's continue your preparation.</p>
+</div>
+<!-- Bento Grid: Stat Cards -->
+<div class="grid grid-cols-2 gap-stack-sm">
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-sm flex flex-col justify-between h-24">
+<span class="material-symbols-outlined text-primary mb-1">assignment</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Tests Attempted</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">42</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-sm flex flex-col justify-between h-24">
+<span class="material-symbols-outlined text-primary mb-1">fact_check</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Questions Solved</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">850+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-sm flex flex-col justify-between h-24">
+<span class="material-symbols-outlined text-status-success mb-1">track_changes</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Accuracy</div>
+<div class="font-headline-sm text-headline-sm text-status-success">78%</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-sm flex flex-col justify-between h-24">
+<span class="material-symbols-outlined text-status-warning mb-1">bookmark</span>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Bookmarks</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">124</div>
+</div>
+</div>
+</div>
+<!-- Subject Cards Section -->
+<section class="mt-stack-md flex flex-col gap-stack-sm">
+<h2 class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mb-1">Subjects</h2>
+<a class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-md flex items-center justify-between active:bg-surface-container-low transition-colors min-h-[56px]" href="#">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">calculate</span>
+</div>
+<div class="font-body-md text-body-md font-medium text-on-surface">Mathematics</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="bg-primary-container text-on-primary-container font-label-sm text-label-sm px-2 py-0.5 rounded-full">New Tests</span>
+<span class="material-symbols-outlined text-on-surface-variant">chevron_right</span>
+</div>
+</a>
+<a class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-md flex items-center justify-between active:bg-surface-container-low transition-colors min-h-[56px]" href="#">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">science</span>
+</div>
+<div class="font-body-md text-body-md font-medium text-on-surface">Physics</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">chevron_right</span>
+</a>
+<a class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-md flex items-center justify-between active:bg-surface-container-low transition-colors min-h-[56px]" href="#">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">biotech</span>
+</div>
+<div class="font-body-md text-body-md font-medium text-on-surface">Chemistry</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">chevron_right</span>
+</a>
+</section>
+<!-- Recent Test Attempts Section -->
+<section class="mt-stack-md flex flex-col gap-stack-sm">
+<div class="flex justify-between items-center mb-1">
+<h2 class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Recent Attempts</h2>
+<a class="font-label-sm text-label-sm text-primary" href="#">View All</a>
+</div>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-md flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<div>
+<div class="font-body-md text-body-md font-medium text-on-surface">Mock Test 4 - JEE Advanced</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Today, 10:30 AM</div>
+</div>
+<div class="text-right">
+<div class="font-label-md text-label-md text-status-success">180/300</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Score</div>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2">
+<div class="bg-status-success h-1.5 rounded-full" style="width: 60%"></div>
+</div>
+</div>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-lg p-stack-md flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<div>
+<div class="font-body-md text-body-md font-medium text-on-surface">Chapter Wise: Mechanics</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Yesterday</div>
+</div>
+<div class="text-right">
+<div class="font-label-md text-label-md text-status-warning">45/100</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Score</div>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-1.5 mt-2">
+<div class="bg-status-warning h-1.5 rounded-full" style="width: 45%"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 border-t border-border-hairline dark:border-outline-variant bg-surface dark:bg-surface-dim shadow-sm flex justify-around items-center h-[64px] px-2 pb-safe font-label-sm text-label-sm">
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-full px-4 py-1 active:opacity-80 transition-all min-w-[64px] h-[48px]" href="#">
+<span class="material-symbols-outlined mb-0.5" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline hover:bg-surface-variant dark:hover:bg-surface-container-highest rounded-lg active:opacity-80 transition-all min-w-[64px] h-[48px]" href="#">
+<span class="material-symbols-outlined mb-0.5">assignment_late</span>
+<span>Review</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline hover:bg-surface-variant dark:hover:bg-surface-container-highest rounded-lg active:opacity-80 transition-all min-w-[64px] h-[48px]" href="#">
+<span class="material-symbols-outlined mb-0.5">bookmark</span>
+<span>Saved</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline hover:bg-surface-variant dark:hover:bg-surface-container-highest rounded-lg active:opacity-80 transition-all min-w-[64px] h-[48px]" href="#">
+<span class="material-symbols-outlined mb-0.5">history</span>
+<span>History</span>
+</a>
+</nav>
+</body></html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quizzer - Student Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Noto+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#f8f9fd",
+                        "on-secondary-fixed-variant": "#444651",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#181b24",
+                        "on-primary-fixed": "#00174b",
+                        "error": "#DC2626",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "primary": "#004ac6",
+                        "primary-container": "#2563eb",
+                        "success": "#16A34A",
+                        "tertiary": "#4e5562",
+                        "surface": "#f8f9fd",
+                        "warning": "#F59E0B",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#191c1f",
+                        "inverse-on-surface": "#eff1f5",
+                        "border-hairline": "#DCDFE6",
+                        "secondary-fixed": "#e0e2ef",
+                        "inverse-surface": "#2e3134",
+                        "inverse-primary": "#b4c5ff",
+                        "secondary-fixed-dim": "#c4c6d2",
+                        "surface-container-high": "#e7e8ec",
+                        "on-tertiary-container": "#eaf0ff",
+                        "surface-variant": "#e1e2e6",
+                        "background": "#f8f9fd",
+                        "surface-dim": "#d9dade",
+                        "outline": "#737686",
+                        "on-tertiary": "#ffffff",
+                        "page-bg": "#FFFFFF",
+                        "on-surface-variant": "#434655",
+                        "tertiary-container": "#666d7b",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#61646f",
+                        "on-primary-container": "#eeefff",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-container-low": "#f2f3f7",
+                        "secondary-container": "#e0e2ef",
+                        "on-background": "#191c1f",
+                        "outline-variant": "#c3c6d7",
+                        "on-tertiary-fixed": "#151c27",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#0053db",
+                        "secondary": "#5b5e69",
+                        "tertiary-fixed-dim": "#c0c7d6",
+                        "surface-container-highest": "#e1e2e6",
+                        "surface-container": "#edeef2",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "on-tertiary-fixed-variant": "#404754",
+                        "tertiary-fixed": "#dce2f3",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "quiz-sidebar": "260px",
+                        "margin-page": "24px",
+                        "target-icon": "40px",
+                        "gutter": "16px",
+                        "sidebar-width": "240px",
+                        "container-max": "1024px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Noto Sans"],
+                        "label-micro": ["Inter"],
+                        "meta": ["Inter"],
+                        "timer": ["JetBrains Mono"],
+                        "body-lg": ["Noto Sans"],
+                        "headline-lg": ["Inter"],
+                        "header-sm": ["Inter"],
+                        "header-xs": ["Inter"],
+                        "headline-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "600" }],
+                        "label-micro": ["11px", { "lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "meta": ["13px", { "lineHeight": "18px", "fontWeight": "500" }],
+                        "timer": ["14px", { "lineHeight": "20px", "fontWeight": "500" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }],
+                        "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "header-sm": ["18px", { "lineHeight": "24px", "fontWeight": "700" }],
+                        "header-xs": ["16px", { "lineHeight": "22px", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "30px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[data-weight="fill"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface-bright text-on-surface font-body-md min-h-screen">
+<!-- TopNavBar from JSON -->
+<header class="bg-surface/80 dark:bg-surface/80 backdrop-blur-md sticky top-0 w-full z-50 flex justify-between items-center px-margin-page h-16 max-w-container-max mx-auto border-b border-border-hairline dark:border-outline-variant flat no shadows">
+<div class="flex items-center gap-4">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">Quizzer</span>
+<div class="relative ml-4 hidden md:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+<input class="pl-10 pr-4 py-2 bg-surface-container-low border border-border-hairline rounded-lg text-body-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary w-64 transition-all" placeholder="Search..." type="text"/>
+</div>
+</div>
+<nav class="hidden md:flex gap-6 items-center">
+<!-- Navigation links would go here if they weren't empty in JSON, 
+                 using style_active_navigation / style_inactive_navigation -->
+</nav>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<button class="w-target-icon h-target-icon flex items-center justify-center rounded-full hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+</button>
+<button class="w-target-icon h-target-icon flex items-center justify-center rounded-full hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+</button>
+<button class="w-target-icon h-target-icon flex items-center justify-center rounded-full hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+</div>
+<div class="flex items-center gap-3 border-l border-border-hairline pl-4">
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg font-body-md hover:opacity-90 transition-opacity">
+                    Admin
+                </button>
+<button class="text-on-surface-variant hover:text-on-surface font-body-md px-2 py-2">
+                    Logout
+                </button>
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden border border-border-hairline ml-2">
+<img alt="User Avatar" class="w-full h-full object-cover" data-alt="A small, professional user avatar portrait. The image is a close-up of a person looking forward, suitable for a profile picture. The lighting is studio quality, clean and bright, fitting a modern corporate or academic application. The background is a solid, neutral color." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5vJbu3qqsX7AEBnyFJaPOkFPrdkc3r_w_Sz6LHzuv0iqtWxZQ2G5HYDhTmEpXQrR0Jt7UC9IA25pHMZ0mqsulqfMLHD2_0LcCICwN4-AzycbTWGocPyns7pp7D0nRVCyHUrmahfEHA86vtDW6oFWfgNuDqWzWpLnWf_U6QVVpeVWzd3sjDe35o7WDeXA-sp48nUGvsUe8kyWdobrxrOllAOBm2mTRdTb9Dn4ziQggWPsubltDRBF8"/>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-margin-page py-8">
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface mb-2">Syllabus Revision Dashboard</h1>
+<p class="font-meta text-meta text-on-surface-variant">Track your academic progress and identify areas for improvement.</p>
+</div>
+<button class="bg-surface-container-lowest border border-border-hairline text-on-secondary-fixed px-4 py-2 rounded-full font-body-md flex items-center gap-2 hover:bg-surface-variant transition-colors shadow-sm w-fit">
+                View All Subjects
+                <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<!-- Stat Grid (4 columns) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter mb-8">
+<!-- Stat Card 1 -->
+<div class="bg-surface-container-low border border-border-hairline rounded-xl p-4 flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-meta text-meta uppercase tracking-wider">Tests Attempted</span>
+<span class="material-symbols-outlined text-tertiary" data-icon="assignment">assignment</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface mt-2">24</div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface-container-low border border-border-hairline rounded-xl p-4 flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-meta text-meta uppercase tracking-wider">Questions Solved</span>
+<span class="material-symbols-outlined text-tertiary" data-icon="quiz">quiz</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface mt-2">480</div>
+</div>
+<!-- Stat Card 3 -->
+<div class="bg-surface-container-low border border-border-hairline rounded-xl p-4 flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-meta text-meta uppercase tracking-wider">Accuracy</span>
+<span class="material-symbols-outlined text-success" data-icon="check_circle">check_circle</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface mt-2 flex items-baseline gap-2">
+                    78%
+                    <span class="font-meta text-meta text-success flex items-center"><span class="material-symbols-outlined text-[16px]" data-icon="trending_up">trending_up</span>+2%</span>
+</div>
+</div>
+<!-- Stat Card 4 -->
+<div class="bg-surface-container-low border border-border-hairline rounded-xl p-4 flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-meta text-meta uppercase tracking-wider">Bookmarks</span>
+<span class="material-symbols-outlined text-warning" data-icon="bookmark">bookmark</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface mt-2">12</div>
+</div>
+</div>
+<!-- Subjects Grid (3 columns) -->
+<h2 class="font-header-sm text-header-sm text-on-surface mb-4">Core Subjects</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-8">
+<!-- Subject Card 1 -->
+<div class="group bg-surface-container-lowest border border-border-hairline rounded-xl p-5 hover:border-primary hover:shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] transition-all cursor-pointer relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1 h-full bg-primary rounded-l-xl"></div>
+<h3 class="font-header-xs text-header-xs text-on-surface mb-2">Mathematics</h3>
+<p class="font-meta text-meta text-on-surface-variant mb-6 line-clamp-2">Calculus, Algebra, and Statistical analysis fundamentals.</p>
+<div class="mt-auto pt-4 border-t border-border-hairline flex justify-between items-center">
+<span class="font-label-micro text-label-micro text-on-surface-variant bg-surface-container px-2 py-1 rounded">Fixed Syllabus Topics</span>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Subject Card 2 -->
+<div class="group bg-surface-container-lowest border border-border-hairline rounded-xl p-5 hover:border-primary hover:shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] transition-all cursor-pointer relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1 h-full bg-[#8B5CF6] rounded-l-xl"></div>
+<h3 class="font-header-xs text-header-xs text-on-surface mb-2">Physics</h3>
+<p class="font-meta text-meta text-on-surface-variant mb-6 line-clamp-2">Mechanics, Thermodynamics, and Electromagnetism concepts.</p>
+<div class="mt-auto pt-4 border-t border-border-hairline flex justify-between items-center">
+<span class="font-label-micro text-label-micro text-on-surface-variant bg-surface-container px-2 py-1 rounded">Fixed Syllabus Topics</span>
+<span class="material-symbols-outlined text-[#8B5CF6] group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+<!-- Subject Card 3 -->
+<div class="group bg-surface-container-lowest border border-border-hairline rounded-xl p-5 hover:border-primary hover:shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] transition-all cursor-pointer relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1 h-full bg-[#10B981] rounded-l-xl"></div>
+<h3 class="font-header-xs text-header-xs text-on-surface mb-2">Chemistry</h3>
+<p class="font-meta text-meta text-on-surface-variant mb-6 line-clamp-2">Organic, Inorganic, and Physical Chemistry principles.</p>
+<div class="mt-auto pt-4 border-t border-border-hairline flex justify-between items-center">
+<span class="font-label-micro text-label-micro text-on-surface-variant bg-surface-container px-2 py-1 rounded">Fixed Syllabus Topics</span>
+<span class="material-symbols-outlined text-[#10B981] group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Two-column section: Weak Subjects & Daily Progress -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter mb-8">
+<!-- Weak Subjects Card -->
+<div class="bg-surface-container-lowest border border-border-hairline rounded-xl p-6 flex flex-col">
+<h3 class="font-header-sm text-header-sm text-on-surface mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-warning" data-icon="warning">warning</span>
+                    Weak Subjects Analysis
+                </h3>
+<div class="flex flex-col gap-5">
+<!-- Progress Item -->
+<div>
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-md text-body-md text-on-surface">Physics - Electromagnetism</span>
+<span class="font-meta text-meta text-error">42%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-error rounded-full" style="width: 42%;"></div>
+</div>
+</div>
+<!-- Progress Item -->
+<div>
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-md text-body-md text-on-surface">Math - Calculus</span>
+<span class="font-meta text-meta text-warning">58%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-warning rounded-full" style="width: 58%;"></div>
+</div>
+</div>
+<!-- Progress Item -->
+<div>
+<div class="flex justify-between items-center mb-2">
+<span class="font-body-md text-body-md text-on-surface">Chemistry - Organic</span>
+<span class="font-meta text-meta text-[#8B5CF6]">65%</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-[#8B5CF6] rounded-full" style="width: 65%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Daily Progress Chart Placeholder (Bar Chart visual) -->
+<div class="bg-surface-container-lowest border border-border-hairline rounded-xl p-6 flex flex-col">
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-header-sm text-header-sm text-on-surface">Daily Progress</h3>
+<select class="bg-surface-container-low border border-border-hairline rounded text-meta font-meta text-on-surface px-2 py-1">
+<option>This Week</option>
+<option>This Month</option>
+</select>
+</div>
+<div class="flex-grow flex items-end justify-between gap-2 h-40 mt-4 border-b border-border-hairline pb-2">
+<!-- Mock Bars -->
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[40%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Mon</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[65%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Tue</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[85%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Wed</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary rounded-t-sm h-[95%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant font-bold">Thu</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[50%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Fri</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[20%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Sat</span>
+</div>
+<div class="w-1/7 flex flex-col items-center gap-2 group">
+<div class="w-8 bg-primary/20 group-hover:bg-primary transition-colors rounded-t-sm h-[10%]"></div>
+<span class="font-label-micro text-label-micro text-on-surface-variant">Sun</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Attempts List -->
+<h2 class="font-header-sm text-header-sm text-on-surface mb-4">Recent Attempts</h2>
+<div class="bg-surface-container-lowest border border-border-hairline rounded-xl overflow-hidden mb-8">
+<div class="flex flex-col">
+<!-- Row 1 -->
+<div class="flex items-center justify-between p-4 border-b border-border-hairline hover:bg-surface-bright transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface">Mock Test - Full Syllabus Math</p>
+<p class="font-meta text-meta text-on-surface-variant">Today, 10:30 AM</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex gap-1 items-center">
+<span class="w-2 h-2 rounded-full bg-success"></span>
+<span class="font-meta text-meta text-on-surface-variant">32</span>
+<span class="w-2 h-2 rounded-full bg-error ml-2"></span>
+<span class="font-meta text-meta text-on-surface-variant">8</span>
+</div>
+<span class="bg-success/10 text-success border border-success/20 px-3 py-1 rounded-full font-meta text-meta">80%</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="flex items-center justify-between p-4 border-b border-border-hairline hover:bg-surface-bright transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded bg-[#8B5CF6]/10 flex items-center justify-center text-[#8B5CF6]">
+<span class="material-symbols-outlined" data-icon="science">science</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface">Topic Test - Thermodynamics</p>
+<p class="font-meta text-meta text-on-surface-variant">Yesterday, 02:15 PM</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex gap-1 items-center">
+<span class="w-2 h-2 rounded-full bg-success"></span>
+<span class="font-meta text-meta text-on-surface-variant">18</span>
+<span class="w-2 h-2 rounded-full bg-error ml-2"></span>
+<span class="font-meta text-meta text-on-surface-variant">12</span>
+</div>
+<span class="bg-warning/10 text-warning border border-warning/20 px-3 py-1 rounded-full font-meta text-meta">60%</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="flex items-center justify-between p-4 hover:bg-surface-bright transition-colors">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded bg-[#10B981]/10 flex items-center justify-center text-[#10B981]">
+<span class="material-symbols-outlined" data-icon="biotech">biotech</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface">Chapter Quiz - Organic Chemistry</p>
+<p class="font-meta text-meta text-on-surface-variant">Oct 12, 09:00 AM</p>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex gap-1 items-center">
+<span class="w-2 h-2 rounded-full bg-success"></span>
+<span class="font-meta text-meta text-on-surface-variant">28</span>
+<span class="w-2 h-2 rounded-full bg-error ml-2"></span>
+<span class="font-meta text-meta text-on-surface-variant">2</span>
+</div>
+<span class="bg-success/10 text-success border border-success/20 px-3 py-1 rounded-full font-meta text-meta">93%</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-3 text-center border-t border-border-hairline">
+<button class="font-meta text-meta text-primary hover:underline">View All History</button>
+</div>
+</div>
+</main>
+</body></html>

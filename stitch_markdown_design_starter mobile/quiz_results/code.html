@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quizzer - Quiz Results</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary": "#004ac6",
+                      "on-tertiary-fixed-variant": "#7d2d00",
+                      "surface-container-lowest": "#ffffff",
+                      "primary-fixed-dim": "#b4c5ff",
+                      "on-surface-variant": "#434655",
+                      "secondary-container": "#dedfe3",
+                      "error": "#ba1a1a",
+                      "surface-container-high": "#e6e7f4",
+                      "status-destructive": "#DC2626",
+                      "surface-dim": "#d8d9e6",
+                      "status-warning": "#F59E0B",
+                      "primary-container": "#2563eb",
+                      "tertiary-fixed": "#ffdbcd",
+                      "inverse-primary": "#b4c5ff",
+                      "on-primary": "#ffffff",
+                      "surface": "#faf8ff",
+                      "status-success": "#16A34A",
+                      "on-primary-fixed-variant": "#003ea8",
+                      "text-muted": "#6B7280",
+                      "surface-bright": "#faf8ff",
+                      "inverse-surface": "#2d303a",
+                      "on-secondary": "#ffffff",
+                      "on-background": "#181b24",
+                      "border-hairline": "#DCDFE6",
+                      "on-primary-container": "#eeefff",
+                      "surface-variant": "#e0e2ef",
+                      "outline-variant": "#c3c6d7",
+                      "outline": "#737686",
+                      "on-error-container": "#93000a",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed": "#191c1f",
+                      "surface-container-low": "#f2f3ff",
+                      "tertiary": "#943700",
+                      "on-primary-fixed": "#00174b",
+                      "surface-container-highest": "#e0e2ef",
+                      "white": "#FFFFFF",
+                      "background": "#faf8ff",
+                      "error-container": "#ffdad6",
+                      "on-surface": "#181b24",
+                      "on-tertiary-container": "#ffede6",
+                      "on-tertiary-fixed": "#360f00",
+                      "secondary-fixed": "#e1e2e6",
+                      "on-error": "#ffffff",
+                      "surface-tint": "#0053db",
+                      "tertiary-fixed-dim": "#ffb596",
+                      "on-secondary-fixed-variant": "#44474a",
+                      "secondary": "#5c5e62",
+                      "surface-container": "#ecedfa",
+                      "secondary-fixed-dim": "#c5c6ca",
+                      "primary-fixed": "#dbe1ff",
+                      "inverse-on-surface": "#eff0fd",
+                      "on-secondary-container": "#606366",
+                      "tertiary-container": "#bc4800"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-sm": "0.5rem",
+                      "tap-target-min": "44px",
+                      "top-bar-height": "56px",
+                      "gutter-md": "1rem",
+                      "margin-mobile": "1rem",
+                      "stack-md": "0.75rem"
+              },
+              "fontFamily": {
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "display-hindi": [
+                              "Noto Sans Devanagari"
+                      ],
+                      "label-md": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "headline-sm": [
+                              "Inter"
+                      ],
+                      "body-hindi": [
+                              "Noto Sans Devanagari"
+                      ]
+              },
+              "fontSize": {
+                      "label-sm": [
+                              "11px",
+                              {
+                                      "lineHeight": "14px",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "display-hindi": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-md": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.02em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "15px",
+                              {
+                                      "lineHeight": "22px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-sm": [
+                              "18px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-hindi": [
+                              "15px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen pb-[80px]">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface-dim fixed top-0 w-full h-[56px] z-50 border-b border-border-hairline dark:border-outline-variant flex items-center justify-between px-margin-mobile w-full">
+<button aria-label="Go back" class="w-tap-target-min h-tap-target-min flex items-center justify-center text-on-surface-variant dark:text-outline hover:bg-surface-container-low dark:hover:bg-surface-container-high transition-colors active:scale-95 duration-100 rounded-full">
+<span class="material-symbols-outlined" data-icon="arrow_back" data-weight="regular">arrow_back</span>
+</button>
+<h1 class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed text-center flex-1">Results</h1>
+<div class="w-tap-target-min h-tap-target-min"></div> <!-- Spacer for center alignment -->
+</header>
+<main class="pt-[72px] px-margin-mobile flex flex-col gap-stack-md max-w-md mx-auto">
+<!-- Score Summary Card -->
+<section class="bg-surface-container-lowest rounded-xl p-gutter-md border border-border-hairline flex flex-col items-center text-center gap-stack-sm">
+<h2 class="font-label-md text-label-md text-on-surface-variant">General Knowledge Quiz</h2>
+<div class="flex items-end justify-center gap-2 mt-2">
+<span class="text-[48px] font-bold leading-none text-primary">16</span>
+<span class="font-body-lg text-body-lg text-on-surface-variant pb-1">/ 20</span>
+</div>
+<div class="flex gap-4 w-full mt-4 justify-center">
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-status-success">Correct</span>
+<span class="font-body-md text-body-md font-semibold">16</span>
+</div>
+<div class="w-px bg-border-hairline"></div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-status-destructive">Incorrect</span>
+<span class="font-body-md text-body-md font-semibold">4</span>
+</div>
+<div class="w-px bg-border-hairline"></div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Unanswered</span>
+<span class="font-body-md text-body-md font-semibold">0</span>
+</div>
+</div>
+<div class="mt-4 inline-flex items-center gap-2 bg-surface-container-low rounded-full px-4 py-1.5 border border-outline-variant">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="track_changes" data-weight="fill" style="font-variation-settings: 'FILL' 1;">track_changes</span>
+<span class="font-label-md text-label-md text-on-surface">80% Accuracy</span>
+</div>
+</section>
+<!-- Actions -->
+<section class="flex flex-col gap-3 mt-2">
+<button class="bg-primary hover:bg-primary-container text-white font-label-md text-label-md h-tap-target-min rounded-lg flex items-center justify-center gap-2 transition-colors w-full">
+<span class="material-symbols-outlined text-[18px]" data-icon="replay" data-weight="regular">replay</span>
+                Practice Wrong Questions
+            </button>
+<button class="bg-surface-container-lowest border border-primary text-primary font-label-md text-label-md h-tap-target-min rounded-lg flex items-center justify-center gap-2 transition-colors w-full hover:bg-surface-container-low">
+<span class="material-symbols-outlined text-[18px]" data-icon="grid_view" data-weight="regular">grid_view</span>
+                Browse Other Subjects
+            </button>
+</section>
+<hr class="border-border-hairline my-2"/>
+<h3 class="font-headline-sm text-headline-sm mb-2">Question Review</h3>
+<!-- Review Cards List -->
+<div class="flex flex-col gap-stack-md">
+<!-- Incorrect Card -->
+<article class="bg-surface-container-lowest border border-status-destructive rounded-lg overflow-hidden">
+<div class="p-gutter-md border-b border-border-hairline bg-[#fff9f9]">
+<div class="flex items-start gap-3">
+<div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-error-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px] text-error" data-icon="close" data-weight="regular">close</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1 block">Question 3</span>
+<p class="font-body-md text-body-md text-on-surface">Which planet is known as the Red Planet?</p>
+</div>
+</div>
+<div class="mt-4 flex flex-col gap-2">
+<!-- User's wrong answer -->
+<div class="flex items-center gap-3 p-2 rounded bg-surface border border-status-destructive">
+<div class="w-6 h-6 rounded flex items-center justify-center bg-surface-container-high border border-border-hairline font-label-sm text-label-sm text-on-surface-variant">B</div>
+<span class="font-body-md text-body-md text-on-surface line-through text-on-surface-variant">Venus</span>
+</div>
+<!-- Correct answer -->
+<div class="flex items-center gap-3 p-2 rounded bg-[#f6fdf9] border border-status-success">
+<div class="w-6 h-6 rounded flex items-center justify-center bg-surface-container-high border border-border-hairline font-label-sm text-label-sm text-on-surface-variant">C</div>
+<span class="font-body-md text-body-md text-on-surface font-semibold text-status-success">Mars</span>
+<span class="material-symbols-outlined ml-auto text-status-success text-[18px]" data-icon="check_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+</div>
+<div class="p-gutter-md bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant block mb-1 uppercase tracking-wider">Explanation</span>
+<p class="font-body-md text-body-md text-on-surface">Mars is often called the "Red Planet" because the iron oxide prevalent on its surface gives it a reddish appearance that is distinctive among the astronomical bodies visible to the naked eye.</p>
+</div>
+</article>
+<!-- Correct Card -->
+<article class="bg-surface-container-lowest border border-border-hairline rounded-lg overflow-hidden">
+<div class="p-gutter-md border-b border-border-hairline">
+<div class="flex items-start gap-3">
+<div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-[#dcfce7] flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px] text-status-success" data-icon="check" data-weight="regular">check</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mb-1 block">Question 4</span>
+<p class="font-body-md text-body-md text-on-surface">What is the chemical symbol for Gold?</p>
+</div>
+</div>
+<div class="mt-4">
+<!-- User's correct answer -->
+<div class="flex items-center gap-3 p-2 rounded bg-[#f6fdf9] border border-status-success">
+<div class="w-6 h-6 rounded flex items-center justify-center bg-surface-container-high border border-border-hairline font-label-sm text-label-sm text-on-surface-variant">A</div>
+<span class="font-body-md text-body-md text-on-surface font-semibold text-status-success">Au</span>
+<span class="material-symbols-outlined ml-auto text-status-success text-[18px]" data-icon="check_circle" data-weight="fill" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+</div>
+</div>
+<div class="p-gutter-md bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-on-surface-variant block mb-1 uppercase tracking-wider">Explanation</span>
+<p class="font-body-md text-body-md text-on-surface">The symbol Au comes from the Latin word for gold, "aurum", which means "shining dawn".</p>
+</div>
+</article>
+</div>
+</main>
+</body></html>

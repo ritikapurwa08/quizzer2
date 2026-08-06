@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Quiz Results - Quizzer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#f8f9fd",
+                        "on-secondary-fixed-variant": "#444651",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#181b24",
+                        "on-primary-fixed": "#00174b",
+                        "error": "#DC2626",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "primary": "#004ac6",
+                        "primary-container": "#2563eb",
+                        "success": "#16A34A",
+                        "tertiary": "#4e5562",
+                        "surface": "#f8f9fd",
+                        "warning": "#F59E0B",
+                        "surface-container-lowest": "#ffffff",
+                        "on-surface": "#191c1f",
+                        "inverse-on-surface": "#eff1f5",
+                        "border-hairline": "#DCDFE6",
+                        "secondary-fixed": "#e0e2ef",
+                        "inverse-surface": "#2e3134",
+                        "inverse-primary": "#b4c5ff",
+                        "secondary-fixed-dim": "#c4c6d2",
+                        "surface-container-high": "#e7e8ec",
+                        "on-tertiary-container": "#eaf0ff",
+                        "surface-variant": "#e1e2e6",
+                        "background": "#f8f9fd",
+                        "surface-dim": "#d9dade",
+                        "outline": "#737686",
+                        "on-tertiary": "#ffffff",
+                        "page-bg": "#FFFFFF",
+                        "on-surface-variant": "#434655",
+                        "tertiary-container": "#666d7b",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#61646f",
+                        "on-primary-container": "#eeefff",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-container-low": "#f2f3f7",
+                        "secondary-container": "#e0e2ef",
+                        "on-background": "#191c1f",
+                        "outline-variant": "#c3c6d7",
+                        "on-tertiary-fixed": "#151c27",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#0053db",
+                        "secondary": "#5b5e69",
+                        "tertiary-fixed-dim": "#c0c7d6",
+                        "surface-container-highest": "#e1e2e6",
+                        "surface-container": "#edeef2",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "on-tertiary-fixed-variant": "#404754",
+                        "tertiary-fixed": "#dce2f3",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "quiz-sidebar": "260px",
+                        "margin-page": "24px",
+                        "target-icon": "40px",
+                        "gutter": "16px",
+                        "sidebar-width": "240px",
+                        "container-max": "1024px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Noto Sans"],
+                        "label-micro": ["Inter"],
+                        "meta": ["Inter"],
+                        "timer": ["JetBrains Mono"],
+                        "body-lg": ["Noto Sans"],
+                        "headline-lg": ["Inter"],
+                        "header-sm": ["Inter"],
+                        "header-xs": ["Inter"],
+                        "headline-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "600" }],
+                        "label-micro": ["11px", { "lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "meta": ["13px", { "lineHeight": "18px", "fontWeight": "500" }],
+                        "timer": ["14px", { "lineHeight": "20px", "fontWeight": "500" }],
+                        "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "600" }],
+                        "headline-lg": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "header-sm": ["18px", { "lineHeight": "24px", "fontWeight": "700" }],
+                        "header-xs": ["16px", { "lineHeight": "22px", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "30px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&amp;family=JetBrains+Mono:wght@500&amp;family=Noto+Sans:wght@600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-page-bg text-on-surface min-h-screen">
+<!-- TopNavBar (Shared Component) -->
+<nav class="sticky top-0 w-full z-50 flex justify-between items-center px-margin-page h-16 max-w-container-max mx-auto bg-surface/80 dark:bg-surface/80 backdrop-blur-md border-b border-border-hairline dark:border-outline-variant">
+<div class="flex items-center gap-4">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">Quizzer</span>
+</div>
+<div class="flex-1 flex justify-center">
+<div class="relative w-full max-w-md hidden md:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-surface-container-low border border-border-hairline rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary font-body-md text-body-md text-on-surface" placeholder="Search..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button aria-label="dashboard" class="p-2 text-on-secondary-fixed-variant dark:text-on-secondary-fixed hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+</button>
+<button aria-label="history" class="p-2 text-on-secondary-fixed-variant dark:text-on-secondary-fixed hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+</button>
+<button aria-label="bookmark" class="p-2 text-on-secondary-fixed-variant dark:text-on-secondary-fixed hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors rounded-full">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span>
+</button>
+<button class="ml-2 font-body-md text-body-md text-primary dark:text-primary-fixed-dim px-4 py-2 hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors rounded">Admin</button>
+<button class="font-body-md text-body-md text-on-secondary-fixed-variant dark:text-on-secondary-fixed px-4 py-2 hover:bg-surface-container-high dark:hover:bg-surface-variant transition-colors rounded">Logout</button>
+<img alt="User Avatar" class="w-8 h-8 rounded-full ml-2 object-cover border border-border-hairline" data-alt="A small, professional headshot of an academic user, bright clean lighting, minimalist background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGcjT5oFa2x-lNilIDFDKWue8Uq_VUV1FLipOS82JvXRfwwYXqw_7dtYalCDTHvPiz2sl00jUB3EqpMnyHRNeZjuxan3oCKCJcTHlzn3m1oMY3COe8RiChI3uHOqoRr-QMXUGXk4AZPaSH0aPB69WgIdmm_g7BdO59rjVP36IwJuWPlRXvEMKPdo36Wq0-HBeY5_t5WW-Xk5bmhu6CMH-o4RcvIv8-UOSfrENNXANMqsdnZO3cR_vz"/>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-margin-page py-8">
+<!-- Back Link -->
+<a class="inline-flex items-center gap-2 text-primary font-body-md text-body-md hover:underline mb-8" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="arrow_back">arrow_back</span>
+            Back to Dashboard
+        </a>
+<!-- Score Summary -->
+<section class="bg-surface-container-lowest border border-border-hairline rounded-xl p-8 mb-12 flex flex-col items-center justify-center text-center max-w-2xl mx-auto shadow-sm">
+<h1 class="font-headline-lg text-headline-lg text-on-surface mb-2">Quiz Results</h1>
+<div class="flex items-center gap-3 mb-6">
+<span class="text-6xl font-bold text-on-surface tracking-tight">14</span>
+<span class="text-3xl text-outline font-medium">/ 20</span>
+</div>
+<div class="bg-primary-fixed text-on-primary-fixed-variant font-meta text-meta px-4 py-1.5 rounded-full mb-8">
+                70.0% Accuracy
+            </div>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="px-6 py-3 bg-surface-container-lowest border border-border-hairline text-on-secondary-fixed font-body-md text-body-md rounded-lg hover:bg-surface-container-low transition-colors">
+                    Practice Wrong Questions
+                </button>
+<button class="px-6 py-3 bg-primary-container text-on-primary font-body-md text-body-md rounded-lg hover:bg-primary-container/90 transition-colors shadow-sm">
+                    Browse Other Subjects
+                </button>
+</div>
+</section>
+<!-- Review Section Header -->
+<div class="mb-6 border-b border-border-hairline pb-4">
+<h2 class="font-headline-md text-headline-md text-on-surface">Detailed Question Review</h2>
+<p class="font-meta text-meta text-outline mt-1">20 Questions Reviewed</p>
+</div>
+<!-- Question List -->
+<div class="space-y-6">
+<!-- Question Card #1 (Correct) -->
+<article class="bg-surface-container-lowest border border-border-hairline rounded-lg p-6">
+<header class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<span class="font-header-sm text-header-sm text-on-surface">Question 1</span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-micro text-label-micro px-2 py-1 rounded uppercase tracking-wider">MCQ</span>
+</div>
+<span class="bg-success/10 text-success border border-success/20 font-meta text-meta px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="check_circle">check_circle</span>
+                        Correct
+                    </span>
+</header>
+<div class="mb-6">
+<p class="font-body-lg text-body-lg text-on-surface">Which of the following sorting algorithms has the best average-case time complexity?</p>
+</div>
+<div class="space-y-3">
+<div class="flex items-center p-4 border border-border-hairline rounded-lg bg-surface-container-lowest">
+<div class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-4">
+<span class="font-meta text-meta text-outline">A</span>
+</div>
+<span class="font-body-md text-body-md flex-1">Bubble Sort</span>
+</div>
+<div class="flex items-center p-4 border border-border-hairline rounded-lg bg-surface-container-lowest">
+<div class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-4">
+<span class="font-meta text-meta text-outline">B</span>
+</div>
+<span class="font-body-md text-body-md flex-1">Insertion Sort</span>
+</div>
+<div class="flex items-center p-4 border border-success bg-success/5 rounded-lg">
+<div class="w-6 h-6 rounded-full bg-success text-on-primary flex items-center justify-center mr-4">
+<span class="font-meta text-meta">C</span>
+</div>
+<span class="font-body-md text-body-md flex-1 text-on-surface">Merge Sort</span>
+<span class="material-symbols-outlined text-success" data-icon="check">check</span>
+</div>
+<div class="flex items-center p-4 border border-border-hairline rounded-lg bg-surface-container-lowest">
+<div class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-4">
+<span class="font-meta text-meta text-outline">D</span>
+</div>
+<span class="font-body-md text-body-md flex-1">Selection Sort</span>
+</div>
+</div>
+<div class="mt-6 pt-4 border-t border-border-hairline">
+<h4 class="font-meta text-meta text-on-surface font-semibold mb-2">Explanation &amp; Context</h4>
+<p class="font-body-md text-body-md text-on-surface-variant font-normal">Merge Sort consistently provides an average and worst-case time complexity of O(n log n), making it superior to Bubble, Insertion, and Selection sorts which generally have O(n²) average and worst-case complexities.</p>
+</div>
+</article>
+<!-- Question Card #2 (Incorrect) -->
+<article class="bg-surface-container-lowest border border-border-hairline rounded-lg p-6">
+<header class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<span class="font-header-sm text-header-sm text-on-surface">Question 2</span>
+<span class="bg-surface-container-high text-on-surface-variant font-label-micro text-label-micro px-2 py-1 rounded uppercase tracking-wider">MCQ</span>
+</div>
+<span class="bg-error-container text-on-error-container border border-error/20 font-meta text-meta px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="cancel">cancel</span>
+                        Incorrect
+                    </span>
+</header>
+<div class="mb-6">
+<p class="font-body-lg text-body-lg text-on-surface">In a relational database, what is the primary purpose of a Foreign Key?</p>
+</div>
+<div class="space-y-3">
+<div class="flex items-center p-4 border border-error bg-error-container/30 rounded-lg">
+<div class="w-6 h-6 rounded-full bg-error text-on-error flex items-center justify-center mr-4">
+<span class="font-meta text-meta">A</span>
+</div>
+<span class="font-body-md text-body-md flex-1 text-on-surface">To uniquely identify each record in a table.</span>
+<span class="material-symbols-outlined text-error" data-icon="close">close</span>
+</div>
+<div class="flex items-center p-4 border border-success bg-success/5 rounded-lg">
+<div class="w-6 h-6 rounded-full bg-success text-on-primary flex items-center justify-center mr-4">
+<span class="font-meta text-meta">B</span>
+</div>
+<span class="font-body-md text-body-md flex-1 text-on-surface">To establish a link between data in two tables.</span>
+<span class="material-symbols-outlined text-success" data-icon="check">check</span>
+</div>
+<div class="flex items-center p-4 border border-border-hairline rounded-lg bg-surface-container-lowest">
+<div class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-4">
+<span class="font-meta text-meta text-outline">C</span>
+</div>
+<span class="font-body-md text-body-md flex-1">To automatically generate sequential numbers.</span>
+</div>
+<div class="flex items-center p-4 border border-border-hairline rounded-lg bg-surface-container-lowest">
+<div class="w-6 h-6 rounded-full border border-outline flex items-center justify-center mr-4">
+<span class="font-meta text-meta text-outline">D</span>
+</div>
+<span class="font-body-md text-body-md flex-1">To encrypt sensitive data within a column.</span>
+</div>
+</div>
+<div class="mt-6 pt-4 border-t border-border-hairline">
+<h4 class="font-meta text-meta text-on-surface font-semibold mb-2">Explanation &amp; Context</h4>
+<p class="font-body-md text-body-md text-on-surface-variant font-normal">A Foreign Key is a column or group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a relationship between them. Option A describes a Primary Key.</p>
+</div>
+</article>
+</div>
+</main>
+</body></html>

@@ -11,23 +11,24 @@ export function DailyProgressCard({ data }: { data: DailyPoint[] }) {
   const max = Math.max(1, ...data.map((d) => d.count));
 
   return (
-    <Card className="p-4 sm:p-5">
-      <p className="font-medium mb-3">Daily Progress</p>
+    <Card className="p-4 sm:p-5 rounded-xl shadow-xs">
+      <p className="font-semibold text-sm mb-3 text-foreground">Daily Progress</p>
       {data.length === 0 ? (
         <EmptyState
           icon={TrendingUp}
-          title="No activity yet"
-          description="Attempt a test to start your daily streak."
+          title="Daily activity shows up here"
+          description="Attempt a test set to build your revision streak."
           className="py-6"
         />
       ) : (
-        <div className="flex items-end gap-1 h-20">
+        <div className="flex items-end gap-1.5 h-24 pt-2">
           {data.map((d) => (
-            <div key={d.day} className="flex-1 flex flex-col items-center gap-1" title={`${d.day}: ${d.count} questions`}>
+            <div key={d.day} className="flex-1 flex flex-col items-center gap-1.5 h-full justify-end" title={`${d.day}: ${d.count} questions`}>
               <div
-                className="w-full rounded-sm bg-primary/70"
-                style={{ height: `${(d.count / max) * 100}%`, minHeight: 2 }}
+                className="w-full rounded-md bg-primary/80 hover:bg-primary transition-all shadow-2xs cursor-pointer"
+                style={{ height: `${(d.count / max) * 100}%`, minHeight: 4 }}
               />
+              <span className="text-[10px] text-muted-foreground font-medium">{d.day.slice(0, 3)}</span>
             </div>
           ))}
         </div>
