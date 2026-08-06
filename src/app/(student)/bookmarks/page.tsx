@@ -11,11 +11,11 @@ export default function BookmarksPage() {
   const toggleBookmark = useMutation(api.bookmarks.toggle);
 
   return (
-    <div className="space-y-4 pb-12">
+    <div className="space-y-5 pb-12">
       <div>
-        <h1 className="text-xl font-semibold">Bookmarks</h1>
-        <p className="text-sm text-muted-foreground">
-          Questions you've bookmarked for later review.
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Bookmarks</h1>
+        <p className="text-sm text-muted-foreground mt-0.5">
+          Questions you&apos;ve saved for later review.
         </p>
       </div>
 
@@ -23,13 +23,13 @@ export default function BookmarksPage() {
         <EmptyState
           icon={Bookmark}
           title="No bookmarks yet"
-          description="Tap the bookmark icon on any question during a quiz to save it here."
+          description="Tap the bookmark icon on any question during a quiz or in the review screen to save it here."
         />
       )}
 
       <div className="space-y-4">
-        {bookmarks?.map(({ bookmark, question }, idx) => (
-          question && (
+        {bookmarks?.map(({ bookmark, question }, idx) =>
+          question ? (
             <QuestionReviewCard
               key={bookmark._id}
               number={idx + 1}
@@ -40,8 +40,8 @@ export default function BookmarksPage() {
                 toggleBookmark({ questionId: question._id });
               }}
             />
-          )
-        ))}
+          ) : null
+        )}
       </div>
     </div>
   );

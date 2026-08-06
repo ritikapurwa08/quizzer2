@@ -7,8 +7,7 @@ import { useConvexAuth } from "convex/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Card } from "@/components/ui/card";
-import { GraduationCap, User, Mail, Lock, Shield } from "lucide-react";
+import { GraduationCap, User, Mail, Lock, Shield, AlertCircle } from "lucide-react";
 
 export default function LoginPage() {
   const { isAuthenticated, isLoading } = useConvexAuth();
@@ -60,7 +59,7 @@ export default function LoginPage() {
       router.push("/dashboard");
     } catch (err: unknown) {
       if (mode === "signIn") {
-        setError("Invalid email or password.");
+        setError("Invalid email or password. Please try again.");
       } else {
         const message = err instanceof Error ? err.message : "Failed to create account.";
         setError(
@@ -79,29 +78,30 @@ export default function LoginPage() {
   }
 
   return (
-    <Card className="w-full max-w-md p-6 shadow-lg border border-border bg-card">
+    <div className="w-full max-w-md rounded-xl border border-border bg-card p-6 sm:p-8 shadow-lg">
+      {/* Brand badge */}
       <div className="flex flex-col items-center gap-2 mb-6 text-center">
         <div className="p-3 rounded-full bg-primary/10 text-primary mb-1">
           <GraduationCap className="h-8 w-8" />
         </div>
-        <h1 className="text-2xl font-bold tracking-tight">
+        <h1 className="text-2xl font-bold tracking-tight text-foreground">
           {mode === "signIn" ? "Welcome back to Quizzer" : "Create a Quizzer Account"}
         </h1>
         <p className="text-sm text-muted-foreground">
           {mode === "signIn"
-            ? "Enter your email and password to access your dashboard"
+            ? "Enter your credentials to access your dashboard"
             : "Fill in the details below to register a new account"}
         </p>
       </div>
 
-      {/* Mode Switcher Tabs */}
-      <div className="grid grid-cols-2 gap-1 p-1 mb-6 rounded-lg bg-muted text-sm font-medium">
+      {/* Mode Switcher — pill container with white active tab */}
+      <div className="grid grid-cols-2 gap-1 p-1 mb-6 rounded-xl bg-muted text-sm font-medium">
         <button
           type="button"
           onClick={() => toggleMode("signIn")}
-          className={`py-2 px-3 rounded-md transition-all ${
+          className={`py-2.5 px-3 rounded-lg transition-all font-semibold ${
             mode === "signIn"
-              ? "bg-background text-foreground shadow-sm font-semibold"
+              ? "bg-card text-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
@@ -110,9 +110,9 @@ export default function LoginPage() {
         <button
           type="button"
           onClick={() => toggleMode("signUp")}
-          className={`py-2 px-3 rounded-md transition-all ${
+          className={`py-2.5 px-3 rounded-lg transition-all font-semibold ${
             mode === "signUp"
-              ? "bg-background text-foreground shadow-sm font-semibold"
+              ? "bg-card text-foreground shadow-sm"
               : "text-muted-foreground hover:text-foreground"
           }`}
         >
@@ -123,15 +123,15 @@ export default function LoginPage() {
       <form onSubmit={handleSubmit} className="space-y-4">
         {mode === "signUp" && (
           <div className="space-y-1.5">
-            <Label htmlFor="name">Full Name</Label>
+            <Label htmlFor="name" className="text-sm font-semibold">Full Name</Label>
             <div className="relative">
-              <User className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+              <User className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
               <Input
                 id="name"
                 type="text"
                 placeholder="Jane Doe"
                 required
-                className="pl-9"
+                className="pl-9 h-11 rounded-lg border-border bg-background"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -140,15 +140,15 @@ export default function LoginPage() {
         )}
 
         <div className="space-y-1.5">
-          <Label htmlFor="email">Email</Label>
+          <Label htmlFor="email" className="text-sm font-semibold">Email</Label>
           <div className="relative">
-            <Mail className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+            <Mail className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
             <Input
               id="email"
               type="email"
               placeholder="you@example.com"
               required
-              className="pl-9"
+              className="pl-9 h-11 rounded-lg border-border bg-background"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -156,15 +156,15 @@ export default function LoginPage() {
         </div>
 
         <div className="space-y-1.5">
-          <Label htmlFor="password">Password</Label>
+          <Label htmlFor="password" className="text-sm font-semibold">Password</Label>
           <div className="relative">
-            <Lock className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+            <Lock className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
             <Input
               id="password"
               type="password"
               placeholder="••••••••"
               required
-              className="pl-9"
+              className="pl-9 h-11 rounded-lg border-border bg-background"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
@@ -174,15 +174,15 @@ export default function LoginPage() {
         {mode === "signUp" && (
           <>
             <div className="space-y-1.5">
-              <Label htmlFor="confirmPassword">Confirm Password</Label>
+              <Label htmlFor="confirmPassword" className="text-sm font-semibold">Confirm Password</Label>
               <div className="relative">
-                <Lock className="absolute left-3 top-2.5 h-4 w-4 text-muted-foreground" />
+                <Lock className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
                 <Input
                   id="confirmPassword"
                   type="password"
                   placeholder="••••••••"
                   required
-                  className="pl-9"
+                  className="pl-9 h-11 rounded-lg border-border bg-background"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />
@@ -190,15 +190,15 @@ export default function LoginPage() {
             </div>
 
             <div className="space-y-1.5">
-              <Label>Account Role</Label>
+              <Label className="text-sm font-semibold">Account Role</Label>
               <div className="grid grid-cols-2 gap-2 pt-1">
                 <button
                   type="button"
                   onClick={() => setRole("student")}
-                  className={`flex items-center justify-center gap-2 p-2.5 rounded-md border text-sm font-medium transition-all ${
+                  className={`flex items-center justify-center gap-2 h-11 rounded-lg border text-sm font-semibold transition-all ${
                     role === "student"
-                      ? "border-primary bg-primary/10 text-primary font-semibold"
-                      : "border-input bg-background text-muted-foreground hover:bg-muted"
+                      ? "border-primary bg-primary/10 text-primary shadow-sm"
+                      : "border-border bg-background text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
                   <User className="h-4 w-4" />
@@ -207,10 +207,10 @@ export default function LoginPage() {
                 <button
                   type="button"
                   onClick={() => setRole("admin")}
-                  className={`flex items-center justify-center gap-2 p-2.5 rounded-md border text-sm font-medium transition-all ${
+                  className={`flex items-center justify-center gap-2 h-11 rounded-lg border text-sm font-semibold transition-all ${
                     role === "admin"
-                      ? "border-primary bg-primary/10 text-primary font-semibold"
-                      : "border-input bg-background text-muted-foreground hover:bg-muted"
+                      ? "border-primary bg-primary/10 text-primary shadow-sm"
+                      : "border-border bg-background text-muted-foreground hover:bg-muted hover:text-foreground"
                   }`}
                 >
                   <Shield className="h-4 w-4" />
@@ -222,12 +222,17 @@ export default function LoginPage() {
         )}
 
         {error && (
-          <div className="p-3 rounded-md bg-destructive/10 text-destructive text-sm font-medium">
+          <div className="flex items-center gap-2.5 p-3 rounded-lg bg-destructive/10 border border-destructive/20 text-destructive text-sm font-medium">
+            <AlertCircle className="h-4 w-4 shrink-0" />
             {error}
           </div>
         )}
 
-        <Button type="submit" className="w-full font-medium" disabled={isSubmitting}>
+        <Button
+          type="submit"
+          className="w-full h-11 font-semibold text-sm rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-sm transition-all cursor-pointer"
+          disabled={isSubmitting}
+        >
           {isSubmitting
             ? mode === "signIn"
               ? "Signing in..."
@@ -241,11 +246,11 @@ export default function LoginPage() {
       <div className="mt-6 text-center text-sm text-muted-foreground">
         {mode === "signIn" ? (
           <p>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <button
               type="button"
               onClick={() => toggleMode("signUp")}
-              className="text-primary underline font-medium hover:text-primary/80"
+              className="text-primary font-semibold hover:underline cursor-pointer"
             >
               Sign up
             </button>
@@ -256,13 +261,13 @@ export default function LoginPage() {
             <button
               type="button"
               onClick={() => toggleMode("signIn")}
-              className="text-primary underline font-medium hover:text-primary/80"
+              className="text-primary font-semibold hover:underline cursor-pointer"
             >
               Sign in
             </button>
           </p>
         )}
       </div>
-    </Card>
+    </div>
   );
 }

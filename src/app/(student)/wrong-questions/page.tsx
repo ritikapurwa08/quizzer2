@@ -7,28 +7,33 @@ import { QuestionReviewCard } from "@/components/quiz";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { History } from "lucide-react";
 
-/** Auto-populated on every incorrect answer during Attempt Submit (SRD Section 9). */
 export default function WrongQuestionsPage() {
   const wrongQuestions = useQuery(api.wrongQuestions.listByUser);
   const toggleBookmark = useMutation(api.bookmarks.toggle);
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
 
   return (
-    <div className="space-y-4 pb-12">
+    <div className="space-y-5 pb-12">
       <div>
-        <h1 className="text-xl font-semibold">Wrong Questions</h1>
-        <p className="text-sm text-muted-foreground">
-          Questions you've missed, auto-saved for focused practice.
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+          Wrong Questions
+        </h1>
+        <p className="text-sm text-muted-foreground mt-0.5">
+          Questions you&apos;ve missed, auto-saved for focused practice. Sorted by most missed.
         </p>
       </div>
 
       {wrongQuestions && wrongQuestions.length === 0 && (
-        <EmptyState icon={History} title="No wrong questions — nice work!" />
+        <EmptyState
+          icon={History}
+          title="No wrong questions — nice work!"
+          description="Incorrect answers from your test attempts will appear here for targeted revision."
+        />
       )}
 
       <div className="space-y-4">
-        {wrongQuestions?.map(({ wrongQuestion, question }, idx) => (
-          question && (
+        {wrongQuestions?.map(({ wrongQuestion, question }, idx) =>
+          question ? (
             <QuestionReviewCard
               key={wrongQuestion._id}
               number={idx + 1}
@@ -46,8 +51,8 @@ export default function WrongQuestionsPage() {
               reviewBadge="incorrect"
               missCount={wrongQuestion.missCount}
             />
-          )
-        ))}
+          ) : null
+        )}
       </div>
     </div>
   );

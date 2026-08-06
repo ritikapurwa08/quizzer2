@@ -28,34 +28,37 @@ export function QuestionReviewCard({
   const isHindiExplanation = question.explanation ? containsDevanagari(question.explanation) : false;
 
   return (
-    <Card className="p-3.5 sm:p-5 space-y-4 shadow-sm">
-      <QuestionShell
-        number={number}
-        type={question.type}
-        questionText={question.questionText}
-        isBookmarked={isBookmarked}
-        onToggleBookmark={onToggleBookmark}
-        reviewBadge={reviewBadge}
-        missCount={missCount}
-        unwrapped
-      >
-        {Renderer ? (
-          <Renderer
-            question={question}
-            selected={selectedAnswer}
-            onSelect={() => {}}
-            mode="review"
-          />
-        ) : null}
-      </QuestionShell>
+    <Card className="border border-border bg-card shadow-xs rounded-xl overflow-hidden">
+      {/* Main question + options */}
+      <div className="p-4 sm:p-5">
+        <QuestionShell
+          number={number}
+          type={question.type}
+          questionText={question.questionText}
+          isBookmarked={isBookmarked}
+          onToggleBookmark={onToggleBookmark}
+          reviewBadge={reviewBadge}
+          missCount={missCount}
+          unwrapped
+        >
+          {Renderer ? (
+            <Renderer
+              question={question}
+              selected={selectedAnswer}
+              onSelect={() => {}}
+              mode="review"
+            />
+          ) : null}
+        </QuestionShell>
+      </div>
 
-      {/* Explanation Divider & Section */}
+      {/* Explanation — separated by hairline divider, muted background tint */}
       {question.explanation && (
-        <div className="pt-3 border-t border-border/60 text-xs sm:text-sm text-muted-foreground leading-relaxed">
-          <span className="font-bold text-foreground block mb-1">
-            Explanation & Context:
-          </span>
-          <p className={cn(isHindiExplanation && "font-hindi")}>
+        <div className="px-4 sm:px-5 py-3.5 border-t border-border/60 bg-muted/30">
+          <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+            Explanation &amp; Context
+          </p>
+          <p className={cn("text-xs sm:text-sm text-foreground leading-relaxed", isHindiExplanation && "font-hindi")}>
             {question.explanation}
           </p>
         </div>
