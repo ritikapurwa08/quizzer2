@@ -2,11 +2,59 @@
 
 /*
   Quizzer — Stitch Unified Design System
-  Exact color tokens from Stitch proctor_precision/DESIGN.md
-  Background: #FFFFFF | Primary: #2563EB | Text: #181B24
-  Muted: #F1F2F6 | Border: #DCDFE6 | Success: #16A34A | Destructive: #DC2626
+  Tailwind v4: color utilities (bg-primary, text-primary, etc.) require @theme inline.
+  CSS vars in :root alone do NOT create Tailwind utility classes in v4.
+  Stitch color tokens: #2563EB primary | #F1F2F6 muted | #DCDFE6 border | #16A34A success | #DC2626 destructive
 */
 
+/* ─── Register color tokens as Tailwind v4 utilities via @theme inline ─── */
+@theme inline {
+  /* Colors */
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(222 20% 12%);
+
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(222 20% 12%);
+
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(222 20% 12%);
+
+  /* Primary: #2563EB */
+  --color-primary: hsl(221 83% 53%);
+  --color-primary-foreground: hsl(0 0% 100%);
+
+  /* Secondary / Muted: #F1F2F6 */
+  --color-secondary: hsl(220 14% 96%);
+  --color-secondary-foreground: hsl(222 20% 12%);
+  --color-muted: hsl(220 14% 96%);
+  --color-muted-foreground: hsl(220 9% 46%);
+
+  /* Destructive: #DC2626 */
+  --color-destructive: hsl(0 72% 51%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+
+  /* Success: #16A34A */
+  --color-success: hsl(142 71% 36%);
+  --color-success-foreground: hsl(0 0% 100%);
+
+  /* Warning/Bookmark amber: #F59E0B */
+  --color-warning: hsl(38 92% 50%);
+  --color-warning-foreground: hsl(0 0% 100%);
+
+  /* Border: #DCDFE6 */
+  --color-border: hsl(220 14% 89%);
+  --color-input: hsl(220 14% 89%);
+  --color-ring: hsl(221 83% 53%);
+
+  /* Border radius */
+  --radius-sm: 0.5rem;
+  --radius: 0.75rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+}
+
+/* ─── Also set legacy :root vars for any hsl(var(--x)) usage in old components ─── */
 :root {
   --background: 0 0% 100%;
   --foreground: 222 20% 12%;
@@ -14,48 +62,37 @@
   --card-foreground: 222 20% 12%;
   --popover: 0 0% 100%;
   --popover-foreground: 222 20% 12%;
-
-  /* Primary blue: #2563EB */
   --primary: 221 83% 53%;
   --primary-foreground: 0 0% 100%;
-
-  /* Muted surface: #F1F2F6 */
   --secondary: 220 14% 96%;
   --secondary-foreground: 222 20% 12%;
   --muted: 220 14% 96%;
   --muted-foreground: 220 9% 46%;
-
-  /* Destructive: #DC2626 */
   --destructive: 0 72% 51%;
   --destructive-foreground: 0 0% 100%;
-
-  /* Success: #16A34A */
   --success: 142 71% 36%;
   --success-foreground: 0 0% 100%;
-
-  /* Warning/Bookmark: #F59E0B */
   --warning: 38 92% 50%;
   --warning-foreground: 0 0% 100%;
-
-  /* Border: #DCDFE6 */
   --border: 220 14% 89%;
   --input: 220 14% 89%;
   --ring: 221 83% 53%;
-
-  /* Shape: 12px cards, 8-10px buttons/inputs/options, full pill badges */
   --radius: 0.75rem;
   --radius-sm: 0.5rem;
-  --radius-lg: 0.875rem;
 }
 
-/* Hindi / Devanagari font utility — weight must always stay at 400 */
+/* ─── Hindi/Devanagari font — weight must stay at 400 always ─── */
 .font-hindi {
   font-family: var(--font-hindi), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400 !important;
 }
 
-* {
+/* ─── Base resets ─── */
+*,
+::before,
+::after {
   border-color: hsl(var(--border));
+  box-sizing: border-box;
 }
 
 body {
@@ -66,14 +103,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Prevent iOS auto-zoom on inputs (min font-size 16px) */
+/* ─── Prevent iOS auto-zoom on form inputs ─── */
 input, select, textarea {
   font-size: 16px;
-}
-
-/* Smooth focus ring for keyboard nav */
-:focus-visible {
-  outline: 2px solid hsl(var(--primary));
-  outline-offset: 2px;
-  border-radius: var(--radius-sm);
 }
