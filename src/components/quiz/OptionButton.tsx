@@ -51,7 +51,7 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
       </span>
 
       {/* Option Content Text */}
-      <span className={cn("flex-1 leading-snug text-sm sm:text-base", isHindi && "font-hindi")}>
+      <span className={cn("flex-1 leading-snug text-sm sm:text-base font-normal text-foreground", isHindi && "font-hindi")}>
         {text}
       </span>
 
