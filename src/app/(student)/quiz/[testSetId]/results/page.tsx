@@ -109,13 +109,13 @@ export default function ResultsPage() {
                 }}
                 reviewBadge={badge}
               >
-                <Renderer question={q} selected={answer?.selected} onSelect={() => {}} mode="review" />
+                <Renderer question={q} selected={answer?.selected} onSelect={() => { }} mode="review" />
               </QuestionShell>
 
               {/* Explicit Answer Comparison Box */}
               <div className="rounded-xl border border-border bg-card p-4 text-xs sm:text-sm space-y-2.5 shadow-sm">
                 <div className="flex items-start gap-2.5">
-                  <span className="font-bold text-muted-foreground min-w-[110px] shrink-0">You Selected:</span>
+                  <span className="font-bold text-muted-foreground min-w-27.5 shrink-0">You Selected:</span>
                   <div className="flex items-center gap-1.5 font-medium flex-1">
                     <span>{userSelText}</span>
                     {answer?.isCorrect ? (
@@ -129,7 +129,7 @@ export default function ResultsPage() {
                 </div>
 
                 <div className="flex items-start gap-2.5 pt-2 border-t border-border/60">
-                  <span className="font-bold text-muted-foreground min-w-[110px] shrink-0">Correct Answer:</span>
+                  <span className="font-bold text-muted-foreground min-w-27.5 shrink-0">Correct Answer:</span>
                   <div className="flex items-center gap-1.5 font-medium text-success flex-1">
                     <span>{correctAnsText}</span>
                     <CheckCircle2 className="h-4 w-4 text-success shrink-0" />
