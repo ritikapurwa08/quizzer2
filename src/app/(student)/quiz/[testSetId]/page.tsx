@@ -106,19 +106,25 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="grid lg:grid-cols-[1fr_260px] gap-6">
-      <div className="space-y-4 pb-24 lg:pb-4">
-        <div className="flex flex-wrap items-center justify-between gap-2 bg-card p-3 rounded-lg border border-border">
+    <div className="flex flex-col lg:flex-row gap-6">
+      <div className="flex-1 space-y-4 min-w-0 pb-20 lg:pb-0">
+        {/* Mobile Header Bar */}
+        <div className="flex lg:hidden flex-wrap items-center justify-between gap-2 bg-card p-3 rounded-lg border border-border">
           <div>
-            <h1 className="font-bold text-base">{testSet?.name}</h1>
+            <h1 className="font-bold text-sm sm:text-base">{testSet?.name}</h1>
             <span className="text-xs text-muted-foreground">
               {answeredCount} of {questions.length} answered
             </span>
           </div>
-          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-muted font-mono text-sm font-medium">
-            <Clock className="h-4 w-4 text-primary" />
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-muted font-mono text-xs font-semibold">
+            <Clock className="h-3.5 w-3.5 text-primary" />
             <span>{formatTime(elapsedSeconds)}</span>
           </div>
+        </div>
+
+        {/* Desktop Header Title */}
+        <div className="hidden lg:block border-b border-border/60 pb-2">
+          <h1 className="font-bold text-lg tracking-tight">{testSet?.name}</h1>
         </div>
 
         {current && Renderer && (
@@ -138,7 +144,8 @@ export default function QuizPage() {
           </QuestionShell>
         )}
 
-        <div className="flex items-center justify-between gap-3 pt-2">
+        {/* Mobile Navigation Buttons */}
+        <div className="flex lg:hidden items-center justify-between gap-3 pt-2">
           <Button
             variant="outline"
             onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
@@ -158,8 +165,32 @@ export default function QuizPage() {
         </div>
       </div>
 
-      <div className="hidden lg:block">
+      {/* Desktop Sidebar (Progress, Timer, Palette & Navigation Controls) */}
+      <div className="hidden lg:block w-[280px] shrink-0">
         <div className="sticky top-20 space-y-4">
+          {/* Progress & Time Card */}
+          <div className="rounded-xl border border-border bg-card p-4 space-y-3 shadow-sm">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Progress
+              </span>
+              <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full">
+                {answeredCount} / {questions.length} Answered
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between pt-2 border-t border-border/60">
+              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Time Elapsed
+              </span>
+              <div className="flex items-center gap-1.5 font-mono text-sm font-bold text-foreground">
+                <Clock className="h-4 w-4 text-primary" />
+                <span>{formatTime(elapsedSeconds)}</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Question Palette Grid */}
           <QuestionPalette
             questions={questions.map((q) => ({
               id: q._id,
@@ -169,9 +200,36 @@ export default function QuizPage() {
             currentIndex={currentIndex}
             onJump={setCurrentIndex}
           />
-          <Button className="w-full" onClick={() => setConfirmSubmitOpen(true)}>
-            Submit Test
-          </Button>
+
+          {/* Navigation Controls & Submit Test */}
+          <div className="space-y-2 pt-1">
+            <div className="grid grid-cols-2 gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
+                disabled={currentIndex === 0}
+                className="font-semibold text-xs h-9 cursor-pointer"
+              >
+                Previous
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
+                disabled={currentIndex === questions.length - 1}
+                className="font-semibold text-xs h-9 cursor-pointer"
+              >
+                Next
+              </Button>
+            </div>
+            <Button
+              className="w-full bg-primary hover:bg-primary/90 font-bold text-xs h-10 shadow-sm cursor-pointer"
+              onClick={() => setConfirmSubmitOpen(true)}
+            >
+              Submit Test
+            </Button>
+          </div>
         </div>
       </div>
 
