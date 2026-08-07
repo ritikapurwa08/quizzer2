@@ -1,36 +1,14 @@
-import {
-  convexAuthNextjsMiddleware,
-  createRouteMatcher,
-  nextjsMiddlewareRedirect,
-} from "@convex-dev/auth/nextjs/server";
-
-// Routes that don't require authentication
-const isPublicRoute = createRouteMatcher(["/login(.*)", "/api/auth(.*)"]);
-
-// 1 week in seconds
-const ONE_WEEK = 60 * 60 * 24 * 7;
+import { convexAuthNextjsMiddleware } from "@convex-dev/auth/nextjs/server";
 
 export default convexAuthNextjsMiddleware(
-  async (request, { convexAuth }) => {
-    // If the route requires auth and user is not authenticated, redirect to /login
-    if (!isPublicRoute(request) && !(await convexAuth.isAuthenticated())) {
-      return nextjsMiddlewareRedirect(request, "/login");
-    }
-
-    // If user is already authenticated and visits /login, send them to /dashboard
-    if (isPublicRoute(request) && (await convexAuth.isAuthenticated())) {
-      return nextjsMiddlewareRedirect(request, "/dashboard");
-    }
+  (_request, _ctx) => {
+    // Route protection is handled by AuthGuard on the client.
+    // This middleware exists solely to refresh auth cookies on every request
+    // and to set the cookie maxAge so the session persists for 7 days.
   },
-  {
-    cookieConfig: {
-      // Keep the session alive for 1 week across reloads and browser restarts
-      maxAge: ONE_WEEK,
-    },
-  }
+  { cookieConfig: { maxAge: 60 * 60 * 24 * 7 } }, // 7 days
 );
 
 export const config = {
-  // Run middleware on all routes except static files and Next.js internals
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };
