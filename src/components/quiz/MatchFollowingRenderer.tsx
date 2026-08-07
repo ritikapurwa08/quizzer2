@@ -20,7 +20,7 @@ export function MatchFollowingRenderer({
   const rawLeft = metaObj.left ?? metaObj.columnA ?? [];
   const rawRight = metaObj.right ?? metaObj.columnB ?? [];
 
-  // Normalize columnA items
+  // Normalize columnA items this 
   const columnA: MatchItem[] = rawLeft.map((item: any, idx: number) => {
     if (typeof item === "string") {
       const match = item.match(/^([A-Za-z0-9]+)[\.\:-]?\s*(.*)/);
