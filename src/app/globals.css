@@ -85,6 +85,9 @@
 .font-hindi {
   font-family: var(--font-hindi), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-weight: 400 !important;
+  /* Devanagari needs slightly more spacing for legibility */
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
 }
 
 /* ─── Base resets ─── */
@@ -95,15 +98,103 @@
   box-sizing: border-box;
 }
 
+/* ══════════════════════════════════════════════════════════════════
+   TEXT RENDERING — QUALITY IMPROVEMENTS (no size overrides)
+   ══════════════════════════════════════════════════════════════════
+   Font sizes are controlled by Tailwind utility classes (text-sm etc.).
+   These rules only improve rendering quality — kerning, smoothing,
+   OpenType features — without touching any size or weight.
+   ═══════════════════════════════════════════════════════════════════ */
+
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+
+  /* ── Font stack ──
+     var(--font-inter) is injected by next/font onto <html>.
+     Falls back gracefully to system-ui before Inter loads. */
+  font-family: var(--font-inter), "Inter", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+
+  /* ── Rendering quality (no size changes) ── */
+  -webkit-font-smoothing: antialiased;   /* greyscale AA on macOS/iOS */
+  -moz-osx-font-smoothing: grayscale;    /* Firefox on macOS */
+  text-rendering: optimizeLegibility;    /* kerning pairs + ligatures */
+  font-optical-sizing: auto;             /* variable-font optical hints */
+
+  /* ── OpenType features ──
+     kern = kerning | liga/clig/calt = ligatures & contextual alternates
+     lnum = lining numerals | pnum = proportional-width numerals */
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1, "lnum" 1, "pnum" 1;
+
+  /* ── Prevent iOS auto-zoom after orientation change ── */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ─── Numerics — tabular lining in data/stats contexts ─── */
+/* tnum = tabular (fixed-width) digits so columns don't jitter */
+.tabular-nums,
+[class*="stat"],
+[class*="score"],
+[class*="count"],
+[class*="accuracy"],
+[class*="percent"] {
+  font-feature-settings: "kern" 1, "tnum" 1, "lnum" 1;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* ─── Small / helper text — faster rendering at tiny sizes ─── */
+small {
+  text-rendering: optimizeSpeed;
+}
+
+/* ─── Devanagari — re-engage ligatures for complex conjuncts ─── */
+:lang(hi), .font-hindi {
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Code / mono ─── */
+code, kbd, samp, pre {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace, "Cascadia Code",
+    "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* font-size intentionally NOT set — let Tailwind text-* classes control it */
+  font-feature-settings: "kern" 0, "liga" 1, "calt" 1, "zero" 1;
+  /* "zero" = slashed zero to distinguish 0 from O in code */
 }
 
 /* ─── Prevent iOS auto-zoom on form inputs ─── */
+/* iOS Safari zooms the viewport when a focused input has font-size < 16px.
+   Setting 16px here prevents that. We use max() to ensure it never goes
+   below 1rem even if a component tries to override it. */
 input, select, textarea {
-  font-size: 16px;
+  font-size: max(1rem, 16px);
+  /* Inputs also benefit from sub-pixel sharpness at their small size */
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* ─── Selection highlight ─── */
+::selection {
+  background-color: hsl(221 83% 53% / 0.18);
+  color: hsl(222 20% 12%);
+}
+
+/* ─── Print: ensure crisp serif fallback ─── */
+@media print {
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 12pt;
+    -webkit-font-smoothing: auto;
+  }
+}
+
+/* ─── High-DPI (Retina): revert antialiased → subpixel for crisper thin weights ─── */
+/* On non-retina screens sub-pixel rendering CAN look worse; on retina it gives
+   crisper strokes especially at font-weight 400–500. */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  body {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
 }

@@ -211,7 +211,7 @@ export function QuestionImportEditor({
         </div>
 
         {/* Input Parameters Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {/* Subject */}
           <div className="space-y-1.5">
             <Label className="text-xs font-semibold text-muted-foreground">Subject</Label>
@@ -268,34 +268,8 @@ export function QuestionImportEditor({
             )}
           </div>
 
-          {/* Difficulty */}
-          <div className="space-y-1.5">
-            <Label className="text-xs font-semibold text-muted-foreground">Difficulty (Optional)</Label>
-            <select
-              value={promptDifficulty}
-              onChange={(e) => setPromptDifficulty(e.target.value)}
-              className="w-full h-9 rounded-md border border-input bg-background px-3 py-1 text-xs shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-            >
-              <option value="mixed">Mixed / Balanced</option>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
-            </select>
-          </div>
 
-          {/* Language */}
-          <div className="space-y-1.5">
-            <Label className="text-xs font-semibold text-muted-foreground">Language</Label>
-            <select
-              value={promptLanguage}
-              onChange={(e) => setPromptLanguage(e.target.value)}
-              className="w-full h-9 rounded-md border border-input bg-background px-3 py-1 text-xs shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-            >
-              <option value="English">English</option>
-              <option value="Hindi">Hindi</option>
-              <option value="Bilingual (English & Hindi)">Bilingual (English & Hindi)</option>
-            </select>
-          </div>
+
 
           {/* Number of Questions */}
           <div className="space-y-1.5">
@@ -369,17 +343,6 @@ export function QuestionImportEditor({
             Format JSON
           </Button>
 
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={handleAutoFix}
-            className="h-8 gap-1.5 text-xs font-semibold border-primary/40 text-primary hover:bg-primary/10"
-            title="Auto-repair quotes, commas, comments, and brackets"
-          >
-            <Wand2 className="h-3.5 w-3.5" />
-            Fix Common Errors
-          </Button>
 
           <Button
             type="button"
@@ -421,7 +384,7 @@ export function QuestionImportEditor({
           placeholder={`Paste JSON from ChatGPT / Gemini / Claude / DeepSeek here...\n\n{\n  "subject": "Rajasthan Geography & Economy",\n  "topic": "Physical Features",\n  "testSet": "Set 1",\n  "negativeMarking": true,\n  "questions": [\n    {\n      "type": "mcq",\n      "questionText": "What is the capital of Rajasthan?",\n      "options": [\n        { "id": "opt1", "text": "Jodhpur" },\n        { "id": "opt2", "text": "Jaipur" },\n        { "id": "opt3", "text": "Udaipur" },\n        { "id": "opt4", "text": "Kota" }\n      ],\n      "correctAnswer": "opt2",\n      "explanation": "Jaipur is the capital city of Rajasthan.",\n      "difficulty": "easy"\n    }\n  ]\n}`}
           rows={20}
           spellCheck={false}
-          className="flex-1 p-3.5 bg-transparent font-mono text-xs focus:outline-none resize-y leading-relaxed text-foreground placeholder:text-muted-foreground/50"
+          className="flex-1 p-3.5 bg-transparent max-h-80 overflow-y-scroll font-mono text-xs focus:outline-none resize-y leading-relaxed text-foreground placeholder:text-muted-foreground/50"
         />
       </div>
 
