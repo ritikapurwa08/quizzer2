@@ -9,43 +9,43 @@ export interface PromptOptions {
 export const QUESTION_TYPES_EXAMPLES = {
   mcq: {
     type: "mcq",
-    questionText: "What is the capital of Rajasthan?",
+    questionText: "Which of the following dynasties ruled the region of Marwar before the Rathores?",
     options: [
-      { id: "opt1", text: "Jodhpur" },
-      { id: "opt2", text: "Jaipur" },
-      { id: "opt3", text: "Udaipur" },
-      { id: "opt4", text: "Kota" }
+      { id: "opt1", text: "Guhilas" },
+      { id: "opt2", text: "Pratiharas" },
+      { id: "opt3", text: "Chauhans" },
+      { id: "opt4", text: "Paramaras" }
     ],
     correctAnswer: "opt2",
-    explanation: "Jaipur is the capital city of Rajasthan.",
-    difficulty: "easy",
-    reference: "Rajasthan Geography"
+    explanation: "Before the establishment of Rathore rule in Marwar by Rao Siha, the Mandore region was ruled by the Gurjara-Pratiharas.",
+    difficulty: "medium",
+    reference: "Rajasthan History - Dynasties of Rajasthan"
   },
   sequence: {
     type: "sequence",
-    questionText: "Arrange the following acts in chronological order (oldest to newest):",
+    questionText: "Arrange the following peasant movements of Rajasthan in chronological order (oldest to newest):",
     options: [
-      { id: "opt1", text: "Regulating Act (1773) → Pitt's India Act (1784) → Charter Act (1813) → Charter Act (1833)" },
-      { id: "opt2", text: "Pitt's India Act (1784) → Regulating Act (1773) → Charter Act (1833) → Charter Act (1813)" },
-      { id: "opt3", text: "Regulating Act (1773) → Charter Act (1813) → Pitt's India Act (1784) → Charter Act (1833)" },
-      { id: "opt4", text: "Charter Act (1813) → Regulating Act (1773) → Pitt's India Act (1784) → Charter Act (1833)" }
+      { id: "opt1", text: "Bijolia (1897) → Begun (1921) → Neemuchana (1925) → Dhabhra (1947)" },
+      { id: "opt2", text: "Begun (1921) → Bijolia (1897) → Neemuchana (1925) → Dhabhra (1947)" },
+      { id: "opt3", text: "Bijolia (1897) → Neemuchana (1925) → Begun (1921) → Dhabhra (1947)" },
+      { id: "opt4", text: "Neemuchana (1925) → Bijolia (1897) → Begun (1921) → Dhabhra (1947)" }
     ],
     correctAnswer: "opt1",
-    explanation: "Chronological order: Regulating Act (1773) -> Pitt's India Act (1784) -> Charter Act (1813) -> Charter Act (1833).",
-    difficulty: "medium",
-    reference: "Constitutional Development",
+    explanation: "Chronological timeline: Bijolia Peasant Movement started in 1897, Begun in 1921, Neemuchana massacre took place in 1925, and Dhabhra incident occurred in 1947.",
+    difficulty: "hard",
+    reference: "Rajasthan Freedom Movement - Peasant Movements",
     meta: {
       items: [
-        "Regulating Act (1773)",
-        "Pitt's India Act (1784)",
-        "Charter Act (1813)",
-        "Charter Act (1833)"
+        "Bijolia Peasant Movement (1897)",
+        "Begun Peasant Movement (1921)",
+        "Neemuchana Incident (1925)",
+        "Dhabhra Incident (1947)"
       ]
     }
   },
   match_following: {
     type: "match_following",
-    questionText: "Match List-I with List-II correctly:",
+    questionText: "Match List-I (Prajamandal) with List-II (Founder) correctly:",
     options: [
       { id: "opt1", text: "A-2, B-1, C-4, D-3" },
       { id: "opt2", text: "A-1, B-2, C-3, D-4" },
@@ -53,17 +53,17 @@ export const QUESTION_TYPES_EXAMPLES = {
       { id: "opt4", text: "A-4, B-3, C-1, D-2" }
     ],
     correctAnswer: "opt1",
-    explanation: "Warren Hastings -> 1st Governor-General of Bengal (A-2), Sir Elijah Impey -> 1st Chief Justice (B-1)...",
+    explanation: "Marwar Prajamandal was founded by Jayanarayan Vyas (A-2), Mewar Prajamandal by Manikya Lal Verma (B-1), Bundi Prajamandal by Kanti Lal (C-4), and Bikaner Prajamandal by Magaram Vaidya (D-3).",
     difficulty: "medium",
-    reference: "Constitutional Development",
+    reference: "Rajasthan Freedom Movement - Prajamandals",
     meta: {
-      left: ["A. Warren Hastings", "B. Sir Elijah Impey", "C. Lord William Bentinck", "D. Lord Macaulay"],
-      right: ["1. First Chief Justice", "2. First Governor-General of Bengal", "3. First Law Member", "4. First Governor-General of India"]
+      left: ["A. Marwar Prajamandal", "B. Mewar Prajamandal", "C. Bundi Prajamandal", "D. Bikaner Prajamandal"],
+      right: ["1. Manikya Lal Verma", "2. Jayanarayan Vyas", "3. Magaram Vaidya", "4. Kanti Lal"]
     }
   },
   statement_reason: {
     type: "statement_reason",
-    questionText: "Statement (A): Board of Control was established by Pitt's India Act 1784.\n\nReason (R): It aimed to establish British government control over political affairs.",
+    questionText: "Statement (A): Rajasthan receiving maximum rain from the South-West Monsoon (Arabian Sea branch) is largely confined to Southern Rajasthan.\n\nReason (R): The Aravalli range lies parallel to the direction of the South-West Arabian Sea monsoon winds.",
     options: [
       { id: "opt1", text: "Both A and R are true and R is the correct explanation of A." },
       { id: "opt2", text: "Both A and R are true but R is NOT the correct explanation of A." },
@@ -71,9 +71,9 @@ export const QUESTION_TYPES_EXAMPLES = {
       { id: "opt4", text: "A is false but R is true." }
     ],
     correctAnswer: "opt1",
-    explanation: "Board of Control was established in 1784 specifically for political oversight.",
-    difficulty: "medium",
-    reference: "Pitt's India Act 1784"
+    explanation: "Because the Aravalli range lies parallel to the Arabian Sea monsoon branch, the winds pass without obstacle, resulting in lower rainfall in western/central regions.",
+    difficulty: "hard",
+    reference: "Geography of Rajasthan - Climate & Monsoons"
   }
 };
 
@@ -88,21 +88,43 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
 
   const difficultyText =
     difficulty === "any" || difficulty === "mixed" || !difficulty
-      ? "Balanced mix of easy, medium, and hard difficulty questions"
-      : `${difficulty.toUpperCase()} difficulty only`;
+      ? "Balanced mix of easy, medium, and hard difficulty questions aligned with RPSC 2nd Grade standards"
+      : `${difficulty.toUpperCase()} difficulty level aligned with RPSC 2nd Grade standard`;
 
-  return `You are an expert educational content creator and assessment generator.
+  return `You are an expert assessment generator specializing in RPSC (Rajasthan Public Service Commission) 2nd Grade (Senior Teacher) Competitive Examinations.
 
-Generate exactly ${count} high-quality, accurate, and unique questions for competitive examinations.
+Generate exactly ${count} high-quality, authentic, and conceptual questions adhering strictly to RPSC examination standards.
 
 ==================================================
-TARGET SPECIFICATIONS:
+TARGET EXAM SPECIFICATIONS:
 ==================================================
-- Subject: ${subject || "General Knowledge"}
-- Topic: ${topic || "General"}
+- Target Exam: RPSC 2nd Grade (Senior Teacher) Examination
+- Subject: ${subject || "General Knowledge (Paper 1)"}
+- Topic: ${topic || "General Topic"}
 - Language: ${language}
-- Difficulty Level: ${difficultyText}
-- Number of Questions: ${count}
+- Difficulty Standard: ${difficultyText}
+- Total Questions Needed: ${count}
+
+==================================================
+EXAM BENCHMARK & QUALITY STANDARDS:
+==================================================
+1. Align with authentic RPSC 2nd Grade Paper-1 (GK, Rajasthan History/Art/Culture/Geography, Polity, Educational Psychology) and Paper-2 Subject standards.
+2. Questions must test factual accuracy, logical reasoning, and analytical depth—avoid overly simplistic or trivial one-line trivia unless difficulty is set to easy.
+3. Distractors (incorrect options) must be highly plausible and representative of typical competitive exam traps.
+
+==================================================
+STRICT LOGIC FOR "sequence" (KRAMWAR / CHRONOLOGICAL) QUESTIONS:
+==================================================
+Do NOT generate arbitrary or random lists of items for sequence questions.
+When generating a "sequence" question, you MUST follow these logical rules:
+1. ANCHOR ON INDISPUTABLE LOGIC: The items must have an objective, indisputable sequence criterion:
+   - Historical Timeline (e.g., Year of occurrence, reign period of rulers, act/treaty enactments).
+   - Geographical / Spatial Progression (e.g., North to South, West to East, River flow sequence).
+   - Biological / Process Order (e.g., Stages of Educational Psychology development models, constitutional procedural steps).
+2. EXPLICIT CONTEXT / DATES IN META:
+   - For historical or event sequences, include years or dates inside the "meta.items" array elements whenever relevant (e.g., ["Bijolia Movement (1897)", "Begun Movement (1921)"]).
+   - For geographical or procedural sequences, state the progression axis clearly in the "questionText" (e.g., "Arrange the following Aravalli peaks in descending order of height:").
+3. DO NOT use subjective orderings like "importance" or "popularity".
 
 ==================================================
 OUTPUT FORMAT REQUIREMENT:
@@ -122,25 +144,25 @@ ${JSON.stringify([QUESTION_TYPES_EXAMPLES.mcq, QUESTION_TYPES_EXAMPLES.sequence,
 MANDATORY RULES FOR QUESTION TYPES & META FIELD:
 ==================================================
 1. IF TYPE IS "sequence":
-   - YOU MUST INCLUDE THE "meta" OBJECT WITH AN "items" ARRAY.
-   - Example: "meta": { "items": ["Step 1", "Step 2", "Step 3", "Step 4"] }
+   - YOU MUST INCLUDE THE "meta" OBJECT WITH AN "items" ARRAY containing strictly logical sequential items.
+   - Example: "meta": { "items": ["Step 1 / Event (Year 1)", "Step 2 / Event (Year 2)", "Step 3 / Event (Year 3)", "Step 4 / Event (Year 4)"] }
 
 2. IF TYPE IS "match_following":
-   - YOU MUST INCLUDE THE "meta" OBJECT WITH "left" AND "right" ARRAYS.
-   - Example: "meta": { "left": ["A. Item 1", "B. Item 2"], "right": ["1. Def 1", "2. Def 2"] }
+   - YOU MUST INCLUDE THE "meta" OBJECT WITH "left" AND "right" ARRAYS containing exactly matched pairs before option generation.
+   - Example: "meta": { "left": ["A. Item 1", "B. Item 2"], "right": ["1. Pair 1", "2. Pair 2"] }
 
 3. IF YOU DO NOT INCLUDE A "meta" OBJECT FOR SEQUENCE OR MATCH FOLLOWING:
    - YOU MUST SET "type": "mcq" INSTEAD OF "sequence" OR "match_following".
 
 ==================================================
-CRITICAL RULES & CONSTRAINTS:
+CRITICAL CONSTRAINTS (STRICT COMPLIANCE):
 ==================================================
 THINGS YOU MUST DO:
 1. Return ONLY a raw valid JSON Array of question objects: [ { ... }, { ... } ].
 2. Ensure EXACTLY 4 options for every question ("opt1", "opt2", "opt3", "opt4").
 3. Ensure EXACTLY 1 correct answer referencing a valid option ID ("opt1", "opt2", "opt3", or "opt4").
-4. Provide comprehensive explanations in ${language}.
-5. Ensure all questions are factual, accurate, and unique.
+4. Provide comprehensive explanations in ${language} detailing why the correct option is right and referencing standard textbook facts.
+5. Ensure all questions are factual, accurate, and relevant to RPSC 2nd Grade syllabus.
 6. Match the requested difficulty level (${difficultyText}).
 7. Generate content strictly in the specified language (${language}).
 8. Include required "meta" fields whenever using "sequence" or "match_following" types.

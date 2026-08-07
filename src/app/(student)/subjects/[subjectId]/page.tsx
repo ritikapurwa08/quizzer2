@@ -72,17 +72,17 @@ export default function SubjectDetailPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {topics?.map((t, index) => (
             <Link key={t._id} href={`/subjects/${id}/${t._id}`}>
-              <Card className="flex items-center justify-between p-3.5 hover:border-primary hover:shadow-sm transition-all group min-h-14">
-                <div className="flex items-center gap-3 min-w-0">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-bold shrink-0">
+              <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-primary/60 hover:shadow-md transition-all group min-h-[3.5rem] rounded-xl select-none">
+                <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200">
                     {index + 1}
                   </span>
-                  <p className="font-semibold text-sm group-hover:text-primary transition-colors truncate">
+                  <p className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
                     {t.name}
                   </p>
                 </div>
-                <ChevronRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
-              </Card>
+                <ChevronRight className="h-4 w-4 text-muted-foreground/70 group-hover:text-primary group-hover:translate-x-1 transition-all duration-200 shrink-0 ml-2" />
+              </div>
             </Link>
           ))}
         </div>

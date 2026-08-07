@@ -37,9 +37,9 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      {/* Stat cards — 2×2 on mobile, 4-column on desktop */}
+      {/* Stat cards — 1-col on tiny mobile, 2-col on sm, 4-col on lg desktop */}
       {stats && (
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
           <StatCard icon={ListChecks} label="Tests Attempted" value={stats.testsAttempted} />
           <StatCard icon={CheckCircle2} label="Questions Solved" value={stats.questionsSolved} />
           <StatCard icon={Percent} label="Accuracy" value={formatAccuracy(stats.overallAccuracy)} />
@@ -47,7 +47,7 @@ export default function DashboardPage() {
         </div>
       )}
 
-      {/* Fixed Subjects — single-col mobile, 3-col desktop */}
+      {/* Fixed Subjects — 1-col mobile, 2-col sm, 3-col desktop */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
@@ -67,17 +67,17 @@ export default function DashboardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
             {subjects.map((s) => (
               <Link key={s._id} href={`/subjects/${s._id}`}>
-                <Card className="flex items-center justify-between p-3.5 border border-border hover:border-primary hover:shadow-md transition-all group min-h-[3.25rem] rounded-xl">
-                  <div className="flex items-center gap-3 min-w-0">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-bold shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all">
+                <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-primary/60 hover:shadow-md transition-all group min-h-[3.5rem] rounded-xl select-none">
+                  <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200">
                       {s.order + 1}
                     </span>
-                    <h3 className="font-semibold text-sm sm:text-base group-hover:text-primary transition-colors truncate">
+                    <h3 className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
                       {s.name}
                     </h3>
                   </div>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
-                </Card>
+                  <ArrowRight className="h-4 w-4 text-muted-foreground/70 group-hover:text-primary group-hover:translate-x-1 transition-all duration-200 shrink-0 ml-2" />
+                </div>
               </Link>
             ))}
           </div>

@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <ConvexAuthNextjsServerProvider>
       <html lang="en" className={notoSansDevanagari.variable}>
-        <body>
+        <body className="antialiased">
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </body>
       </html>
