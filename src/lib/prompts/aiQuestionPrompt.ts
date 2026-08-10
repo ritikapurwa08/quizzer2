@@ -81,8 +81,8 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
   const {
     subject,
     topic,
-    difficulty = "mixed",
-    language = "English",
+    difficulty = "hard",
+    language = "Hindi",
     count = 10,
   } = options;
 
