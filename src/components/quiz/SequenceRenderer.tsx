@@ -1,7 +1,6 @@
 "use client";
 
-import { ArrowDown, ArrowUp } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, containsDevanagari } from "@/lib/utils";
 import { QuestionRendererProps } from "@/types";
 import { OptionButton } from "./OptionButton";
 
@@ -29,16 +28,34 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
     <div className="space-y-4">
       {/* Items Reference Display */}
       {items.length > 0 && (
-        <div className="space-y-2 bg-muted/40 p-4 rounded-xl border border-border">
-          <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+        <div className="space-y-2 rounded-xl border border-border bg-muted/30 p-3.5">
+          <h4 className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mb-2.5">
             Sequence Items (क्रमानुसार सूची):
           </h4>
-          <ol className="space-y-1.5 list-decimal pl-5 text-xs text-foreground font-medium">
-            {items.map((item) => (
-              <li key={item.id} className="bg-card p-2 rounded border border-border/60">
-                {item.text}
-              </li>
-            ))}
+          <ol className="space-y-2">
+            {items.map((item, idx) => {
+              const isHindi = containsDevanagari(item.text);
+              return (
+                <li
+                  key={item.id}
+                  className="flex items-start gap-3 rounded-lg border border-border/70 bg-card px-3.5 py-2.5"
+                >
+                  {/* Sequence number badge */}
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] font-bold mt-0.5">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  {/* Item text */}
+                  <span
+                    className={cn(
+                      "flex-1 text-sm text-foreground leading-relaxed break-words overflow-wrap-anywhere",
+                      isHindi && "font-hindi"
+                    )}
+                  >
+                    {item.text}
+                  </span>
+                </li>
+              );
+            })}
           </ol>
         </div>
       )}

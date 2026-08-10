@@ -6,9 +6,24 @@ import { useQuery } from "convex/react";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useRouter, usePathname } from "next/navigation";
 import { SearchBar } from "./SearchBar";
-import { Bookmark, GraduationCap, History, LayoutDashboard, LogOut, Search, User, X } from "lucide-react";
+import {
+  Bookmark,
+  GraduationCap,
+  History,
+  LayoutDashboard,
+  LogOut,
+  Search,
+  User,
+  X,
+} from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
+import { Separator } from "@/components/ui/separator";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const NAV_LINKS = [
   { href: "/dashboard", icon: LayoutDashboard, label: "Dashboard" },
@@ -41,40 +56,57 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop search — always visible, max-width ~380px */}
+        {/* Desktop search */}
         <div className="hidden sm:block flex-1 max-w-sm">
           <SearchBar />
         </div>
 
         {/* Nav actions */}
         <nav className="ml-auto flex items-center gap-0.5">
-          {/* Mobile search toggle */}
-          <button
-            onClick={() => setMobileSearchOpen((prev) => !prev)}
-            className="flex h-10 w-10 items-center justify-center rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground sm:hidden transition-colors cursor-pointer"
-            aria-label="Toggle search"
-          >
-            {mobileSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
-          </button>
 
-          {/* Nav icon links */}
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              title={link.label}
-              className={cn(
-                "flex h-10 w-10 items-center justify-center rounded-lg transition-colors",
-                pathname === link.href
-                  ? "bg-primary/10 text-primary"
-                  : "text-muted-foreground hover:bg-muted hover:text-foreground"
-              )}
+          {/*
+            Mobile search toggle.
+            TooltipTrigger IS the button — no child <Button> to avoid button-in-button.
+          */}
+          <Tooltip>
+            <TooltipTrigger
+              aria-label="Toggle search"
+              onClick={() => setMobileSearchOpen((prev) => !prev)}
+              className="sm:hidden flex h-10 w-10 items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground transition-colors cursor-pointer"
             >
-              <link.icon className="h-5 w-5" />
-            </Link>
+              {mobileSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
+            </TooltipTrigger>
+            <TooltipContent>Search</TooltipContent>
+          </Tooltip>
+
+          {/*
+            Nav icon links.
+            Use render prop (base-ui pattern) so the TooltipTrigger renders AS the <a>
+            element instead of wrapping it — avoids <button><a> nesting.
+          */}
+          {NAV_LINKS.map((link) => (
+            <Tooltip key={link.href}>
+              <TooltipTrigger
+                render={
+                  <Link
+                    href={link.href}
+                    aria-label={link.label}
+                    className={cn(
+                      "flex h-10 w-10 items-center justify-center rounded-lg transition-colors",
+                      pathname === link.href
+                        ? "bg-primary/10 text-primary"
+                        : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                    )}
+                  />
+                }
+              >
+                <link.icon className="h-5 w-5" />
+              </TooltipTrigger>
+              <TooltipContent>{link.label}</TooltipContent>
+            </Tooltip>
           ))}
 
-          {/* Admin pill */}
+          {/* Admin pill — plain link, no tooltip needed */}
           {me?.role === "admin" && (
             <Link
               href="/admin"
@@ -86,20 +118,26 @@ export function Navbar() {
 
           {/* User + Logout */}
           {me && (
-            <div className="flex items-center gap-1.5 pl-2 border-l border-border ml-1.5">
+            <>
+              <Separator orientation="vertical" className="mx-2 h-5" />
               <span className="hidden lg:flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
                 <User className="h-3.5 w-3.5" />
                 {me.name || me.email.split("@")[0]}
               </span>
-              <button
-                onClick={handleSignOut}
-                title="Sign Out"
-                className="flex h-9 items-center gap-1.5 px-2 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors text-xs font-medium cursor-pointer"
-              >
-                <LogOut className="h-4 w-4" />
-                <span className="hidden sm:block">Logout</span>
-              </button>
-            </div>
+
+              {/* Logout — TooltipTrigger IS the button, no nested Button component */}
+              <Tooltip>
+                <TooltipTrigger
+                  onClick={handleSignOut}
+                  aria-label="Sign Out"
+                  className="flex h-9 items-center gap-1.5 px-2 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors text-xs font-medium cursor-pointer"
+                >
+                  <LogOut className="h-4 w-4" />
+                  <span className="hidden sm:block">Logout</span>
+                </TooltipTrigger>
+                <TooltipContent>Sign out</TooltipContent>
+              </Tooltip>
+            </>
           )}
         </nav>
       </div>

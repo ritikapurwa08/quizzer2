@@ -1,5 +1,14 @@
 "use client";
 
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+
 interface Column<T> {
   header: string;
   render: (row: T) => React.ReactNode;
@@ -13,36 +22,43 @@ interface DataTableProps<T> {
   emptyMessage?: string;
 }
 
-/** Dense, scannable admin table per SRD Section 6. */
-export function DataTable<T>({ columns, rows, rowKey, emptyMessage = "No data yet." }: DataTableProps<T>) {
+/** Admin data table using shadcn Table primitives. */
+export function DataTable<T>({
+  columns,
+  rows,
+  rowKey,
+  emptyMessage = "No data yet.",
+}: DataTableProps<T>) {
   if (rows.length === 0) {
-    return <p className="text-sm text-muted-foreground py-8 text-center">{emptyMessage}</p>;
+    return (
+      <p className="text-sm text-muted-foreground py-10 text-center">
+        {emptyMessage}
+      </p>
+    );
   }
 
   return (
-    <div className="overflow-x-auto rounded-md border border-border">
-      <table className="w-full text-sm">
-        <thead className="bg-muted">
-          <tr>
+    <div className="rounded-lg border border-border overflow-hidden">
+      <Table>
+        <TableHeader>
+          <TableRow className="hover:bg-transparent">
             {columns.map((col) => (
-              <th key={col.header} className="px-3 py-2 text-left font-medium whitespace-nowrap">
-                {col.header}
-              </th>
+              <TableHead key={col.header}>{col.header}</TableHead>
             ))}
-          </tr>
-        </thead>
-        <tbody>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
           {rows.map((row) => (
-            <tr key={rowKey(row)} className="border-t border-border hover:bg-muted/50">
+            <TableRow key={rowKey(row)}>
               {columns.map((col) => (
-                <td key={col.header} className={col.className ?? "px-3 py-2"}>
+                <TableCell key={col.header} className={col.className}>
                   {col.render(row)}
-                </td>
+                </TableCell>
               ))}
-            </tr>
+            </TableRow>
           ))}
-        </tbody>
-      </table>
+        </TableBody>
+      </Table>
     </div>
   );
 }

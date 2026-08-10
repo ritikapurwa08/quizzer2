@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { Target } from "lucide-react";
 
@@ -10,7 +11,8 @@ interface WeakSubject {
 function DonutRing({ percentage }: { percentage: number }) {
   const radius = 15;
   const circumference = 2 * Math.PI * radius;
-  const strokeDashoffset = circumference * (1 - Math.min(100, Math.max(0, percentage)) / 100);
+  const strokeDashoffset =
+    circumference * (1 - Math.min(100, Math.max(0, percentage)) / 100);
   const formatted = Math.round(percentage);
 
   return (
@@ -53,9 +55,9 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
           Weak Subjects
         </h2>
         {subjects.length > 0 && (
-          <span className="text-[11px] font-medium text-destructive bg-destructive/10 px-2 py-0.5 rounded-full">
+          <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full">
             Needs Practice
-          </span>
+          </Badge>
         )}
       </div>
 
@@ -89,5 +91,3 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
     </Card>
   );
 }
-
-

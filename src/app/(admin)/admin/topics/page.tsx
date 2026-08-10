@@ -8,14 +8,16 @@ import { DataTable } from "@/components/admin/DataTable";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { slugify } from "@/lib/utils";
 import { Trash2 } from "lucide-react";
 
 export default function AdminTopicsPage() {
   const subjects = useQuery(api.subjects.list) ?? [];
-  const [subjectId, setSubjectId] = useState<Id<"subjects"> | null>(null);
+  const [subjectId, setSubjectId] = useState<Id<"subjects"> | "">("");
 
-  const topics = useQuery(api.topics.listBySubject, subjectId ? { subjectId } : "skip") ?? [];
+  const topics =
+    useQuery(api.topics.listBySubject, subjectId ? { subjectId } : "skip") ?? [];
   const createTopic = useMutation(api.topics.create);
   const removeTopic = useMutation(api.topics.remove);
 
@@ -33,21 +35,28 @@ export default function AdminTopicsPage() {
     <div className="space-y-6 max-w-3xl">
       <h1 className="text-xl font-semibold">Topics</h1>
 
-      <select
-        className="h-11 rounded-md border border-border bg-background px-3 text-sm w-full sm:w-64"
-        value={subjectId ?? ""}
-        onChange={(e) => setSubjectId((e.target.value || null) as Id<"subjects"> | null)}
-      >
-        <option value="">Select a subject...</option>
-        {subjects.map((s) => (
-          <option key={s._id} value={s._id}>{s.name}</option>
-        ))}
-      </select>
+      <div className="space-y-1.5 w-full sm:w-72">
+        <Label className="text-xs font-semibold text-muted-foreground">Filter by Subject</Label>
+        <select
+          value={subjectId}
+          onChange={(e) => setSubjectId(e.target.value as Id<"subjects">)}
+          className="select-native"
+        >
+          <option value="" disabled>Select a subject…</option>
+          {subjects.map((s) => (
+            <option key={s._id} value={s._id}>{s.name}</option>
+          ))}
+        </select>
+      </div>
 
       {subjectId && (
         <>
           <form onSubmit={handleCreate} className="flex gap-2">
-            <Input placeholder="New topic name" value={name} onChange={(e) => setName(e.target.value)} />
+            <Input
+              placeholder="New topic name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
             <Button type="submit">Add</Button>
           </form>
 
@@ -59,9 +68,14 @@ export default function AdminTopicsPage() {
               {
                 header: "",
                 render: (t) => (
-                  <button onClick={() => setDeleteTarget(t._id)} className="p-1.5 rounded hover:bg-destructive/10 text-destructive">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    onClick={() => setDeleteTarget(t._id)}
+                    className="h-8 w-8 text-destructive hover:bg-destructive/10"
+                  >
                     <Trash2 className="h-4 w-4" />
-                  </button>
+                  </Button>
                 ),
               },
             ]}

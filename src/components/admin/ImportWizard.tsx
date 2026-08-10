@@ -1,16 +1,40 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
+import { Switch } from "@/components/ui/switch";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import {
+  Alert,
+  AlertTitle,
+  AlertDescription,
+} from "@/components/ui/alert";
+
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/components/ui/toggle-group";
+import { Card, CardContent } from "@/components/ui/card";
 import { QuestionImportEditor } from "./QuestionImportEditor";
 import { importJsonSchema, ImportJson } from "@/lib/validators/question";
 import { slugify } from "@/lib/utils";
 import { Id } from "../../../convex/_generated/dataModel";
-import { AlertTriangle, CheckCircle2, FileText, Layers, ArrowRight } from "lucide-react";
+import {
+  AlertTriangle,
+  CheckCircle2,
+  Layers,
+  ArrowRight,
+  SkipForward,
+  RefreshCw,
+  CopyPlus,
+} from "lucide-react";
+import { containsDevanagari } from "@/lib/utils";
 
 type Step = "editor" | "preview" | "done";
 type DuplicateStrategy = "skip" | "replace" | "keep";
@@ -27,7 +51,6 @@ export function ImportWizard() {
   const [negativeMarking, setNegativeMarking] = useState(true);
   const [duplicateStrategy, setDuplicateStrategy] = useState<DuplicateStrategy>("skip");
 
-  // Completion Report state
   const [report, setReport] = useState<{
     found: number;
     imported: number;
@@ -46,28 +69,38 @@ export function ImportWizard() {
   const bulkImport = useMutation(api.questions.bulkImport);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
-  // Auto-seed fixed syllabus if no subjects exist yet
+  // Tracks which subjectId the last auto-topic-select was done for.
+  // Prevents stale topics from a previous subject auto-populating after subject change.
+  const lastAutoSelectedSubjectRef = useRef<string>("");
+
   useEffect(() => {
-    if (subjects && subjects.length === 0) {
-      seedFixedSyllabus();
-    }
+    if (subjects && subjects.length === 0) seedFixedSyllabus();
   }, [subjects, seedFixedSyllabus]);
 
-  // Auto-select first subject if none selected
   useEffect(() => {
     if (subjects.length > 0 && !selectedSubjectId && subjects[0]) {
       setSelectedSubjectId(subjects[0]._id);
     }
   }, [subjects, selectedSubjectId]);
 
-  // Auto-select first topic if none selected for current subject
+  // Auto-select first topic ONLY when:
+  // 1. Topics have loaded for the currently selected subject
+  // 2. No topic is currently selected
+  // 3. We haven't already auto-selected for this subject
+  // This prevents stale topics from a previous subject being auto-selected
+  // during the brief window before new subject's topics arrive.
   useEffect(() => {
-    if (topics.length > 0 && !selectedTopicId && topics[0]) {
+    if (
+      topics.length > 0 &&
+      !selectedTopicId &&
+      selectedSubjectId &&
+      lastAutoSelectedSubjectRef.current !== selectedSubjectId
+    ) {
+      lastAutoSelectedSubjectRef.current = selectedSubjectId;
       setSelectedTopicId(topics[0]._id);
     }
-  }, [topics, selectedTopicId]);
+  }, [topics, selectedTopicId, selectedSubjectId]);
 
-  // Auto-match topic when topics list loads and parsed payload is available
   useEffect(() => {
     if (parsed && parsed.topic && topics.length > 0 && !selectedTopicId) {
       const topicStr = parsed.topic;
@@ -77,22 +110,21 @@ export function ImportWizard() {
           t.name.toLowerCase().includes(topicStr.toLowerCase()) ||
           topicStr.toLowerCase().includes(t.name.toLowerCase())
       );
-      if (matchedTopic) {
-        setSelectedTopicId(matchedTopic._id);
-      }
+      if (matchedTopic) setSelectedTopicId(matchedTopic._id);
     }
   }, [topics, parsed, selectedTopicId]);
 
   function handleSubjectChange(subjectId: Id<"subjects">) {
     setSelectedSubjectId(subjectId);
     setSelectedTopicId("");
+    // Reset the auto-select guard so the new subject's topics will be auto-selected
+    lastAutoSelectedSubjectRef.current = "";
   }
 
   function handleProceedToPreview() {
     if (!parsed) return;
     setTestSetName(parsed.testSet || "Practice Set 1");
 
-    // Auto match subject if possible
     if (parsed.subject) {
       const subjStr = parsed.subject;
       const matchedSubject = subjects.find(
@@ -101,9 +133,7 @@ export function ImportWizard() {
           s.name.toLowerCase().includes(subjStr.toLowerCase()) ||
           subjStr.toLowerCase().includes(s.name.toLowerCase())
       );
-      if (matchedSubject) {
-        setSelectedSubjectId(matchedSubject._id);
-      }
+      if (matchedSubject) setSelectedSubjectId(matchedSubject._id);
     }
 
     setStep("preview");
@@ -146,7 +176,6 @@ export function ImportWizard() {
     }
   }
 
-  // Calculate difficulty distribution
   const difficultyCounts = parsed
     ? parsed.questions.reduce(
         (acc, q) => {
@@ -157,11 +186,14 @@ export function ImportWizard() {
       )
     : { easy: 0, medium: 0, hard: 0 };
 
-  const handleEditorChange = useCallback((code: string, parsedData: ImportJson | null, errs: string[]) => {
-    setEditorCode(code);
-    setParsed(parsedData);
-    setErrors(errs);
-  }, []);
+  const handleEditorChange = useCallback(
+    (code: string, parsedData: ImportJson | null, errs: string[]) => {
+      setEditorCode(code);
+      setParsed(parsedData);
+      setErrors(errs);
+    },
+    []
+  );
 
   const selectedSubject = subjects.find((s) => s._id === selectedSubjectId);
   const selectedTopic = topics.find((t) => t._id === selectedTopicId);
@@ -176,12 +208,10 @@ export function ImportWizard() {
 
   function handleTopicChangeName(name: string) {
     const found = topics.find((t) => t.name === name);
-    if (found) {
-      setSelectedTopicId(found._id);
-    }
+    if (found) setSelectedTopicId(found._id);
   }
 
-  // Step 1: Full-Screen Question Import Editor Workspace
+  // ── Step 1: Editor ──
   if (step === "editor") {
     return (
       <div className="space-y-4">
@@ -200,9 +230,9 @@ export function ImportWizard() {
           <Button
             onClick={handleProceedToPreview}
             disabled={!parsed || errors.length > 0}
-            className="w-full sm:w-auto font-semibold px-8 py-3 text-sm flex items-center justify-center gap-2"
+            className="w-full sm:w-auto font-semibold px-8 gap-2"
           >
-            <span>Proceed to Preview ({parsed?.questions.length ?? 0} Questions)</span>
+            Proceed to Preview ({parsed?.questions.length ?? 0} Questions)
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
@@ -210,234 +240,261 @@ export function ImportWizard() {
     );
   }
 
-  // Step 2: Destination & Preview Step
+  // ── Step 2: Preview & Destination ──
   if (step === "preview") {
     return (
       <div className="space-y-6">
+        {/* Page header */}
         <div className="flex items-center justify-between">
-          <h2 className="font-bold text-xl tracking-tight">Question Set Target & Preview</h2>
-          <Button variant="ghost" size="sm" onClick={() => setStep("editor")} className="text-xs">
-            ← Back to Full-Screen Editor
+          <div>
+            <h2 className="font-bold text-xl tracking-tight">Question Set Target &amp; Preview</h2>
+            <p className="text-xs text-muted-foreground mt-0.5">
+              Review parsed questions and choose where to store them.
+            </p>
+          </div>
+          <Button variant="ghost" size="sm" onClick={() => setStep("editor")} className="text-xs shrink-0">
+            ← Back to Editor
           </Button>
         </div>
 
+        {/* Error alert */}
         {errors.length > 0 && (
-          <div className="rounded-lg border border-destructive bg-destructive/10 p-4">
-            <div className="flex items-center gap-2 font-medium text-destructive mb-1 text-sm">
-              <AlertTriangle className="h-4 w-4" />
-              {errors.length} error(s) must be resolved
-            </div>
-            <ul className="text-xs space-y-1 list-disc pl-5">
-              {errors.map((e, i) => (
-                <li key={i}>{e}</li>
-              ))}
-            </ul>
-          </div>
+          <Alert variant="destructive">
+            <AlertTriangle className="h-4 w-4" />
+            <AlertTitle>{errors.length} error(s) must be resolved</AlertTitle>
+            <AlertDescription>
+              <ul className="list-disc pl-4 space-y-0.5 mt-1 text-xs font-mono">
+                {errors.map((e, i) => <li key={i}>{e}</li>)}
+              </ul>
+            </AlertDescription>
+          </Alert>
         )}
 
         {parsed && (
-          <div className="grid gap-4 rounded-xl border border-border p-5 bg-card shadow-sm">
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="space-y-1.5">
-                <Label htmlFor="subject-select" className="font-semibold text-sm">Target Syllabus Subject</Label>
-                <select
-                  id="subject-select"
-                  value={selectedSubjectId}
-                  onChange={(e) => handleSubjectChange(e.target.value as Id<"subjects">)}
-                  className="w-full h-11 rounded-lg border border-input bg-background px-3 text-sm font-medium focus:ring-2 focus:ring-primary"
-                >
-                  <option value="" disabled>Select Fixed Subject</option>
-                  {subjects.map((s) => (
-                    <option key={s._id} value={s._id}>{s.name}</option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="space-y-1.5">
-                <Label htmlFor="topic-select" className="font-semibold text-sm">Target Fixed Topic</Label>
-                <select
-                  id="topic-select"
-                  disabled={!selectedSubjectId}
-                  value={selectedTopicId}
-                  onChange={(e) => setSelectedTopicId(e.target.value as Id<"topics">)}
-                  className="w-full h-11 rounded-lg border border-input bg-background px-3 text-sm font-medium disabled:opacity-50 focus:ring-2 focus:ring-primary"
-                >
-                  <option value="" disabled>
-                    {!selectedSubjectId ? "Select a Subject first" : "Select Topic"}
-                  </option>
-                  {topics.map((t) => (
-                    <option key={t._id} value={t._id}>{t.name}</option>
-                  ))}
-                </select>
-              </div>
-            </div>
-
-            <div className="grid sm:grid-cols-2 gap-4 pt-2 border-t border-border mt-2">
-              <div className="space-y-1.5">
-                <Label htmlFor="set-name" className="font-semibold text-sm">Question Set Name</Label>
-                <Input
-                  id="set-name"
-                  value={testSetName}
-                  onChange={(e) => setTestSetName(e.target.value)}
-                  placeholder="Practice Set 1 / Set A"
-                  className="h-11"
-                />
-              </div>
-
-              <div className="space-y-1.5 flex flex-col justify-end">
-                <label className="flex items-center gap-2 text-sm font-semibold cursor-pointer py-2">
-                  <input
-                    type="checkbox"
-                    checked={negativeMarking}
-                    onChange={(e) => setNegativeMarking(e.target.checked)}
-                    className="h-4 w-4 rounded border-input text-primary focus:ring-primary"
-                  />
-                  Enable Negative Marking (-0.25)
-                </label>
-              </div>
-            </div>
-
-            {/* Duplicate Strategy */}
-            <div className="space-y-2 pt-2 border-t border-border mt-2">
-              <Label className="font-semibold text-sm">Duplicate Handling Strategy</Label>
-              <div className="grid grid-cols-3 gap-2">
-                <button
-                  type="button"
-                  onClick={() => setDuplicateStrategy("skip")}
-                  className={`py-2.5 px-3 rounded-lg border text-xs font-semibold transition-all ${
-                    duplicateStrategy === "skip"
-                      ? "border-primary bg-primary/10 text-primary ring-2 ring-primary/20 shadow-sm"
-                      : "border-input bg-background hover:bg-muted"
-                  }`}
-                >
-                  Skip Duplicates
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setDuplicateStrategy("replace")}
-                  className={`py-2.5 px-3 rounded-lg border text-xs font-semibold transition-all ${
-                    duplicateStrategy === "replace"
-                      ? "border-primary bg-primary/10 text-primary ring-2 ring-primary/20 shadow-sm"
-                      : "border-input bg-background hover:bg-muted"
-                  }`}
-                >
-                  Replace Duplicates
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setDuplicateStrategy("keep")}
-                  className={`py-2.5 px-3 rounded-lg border text-xs font-semibold transition-all ${
-                    duplicateStrategy === "keep"
-                      ? "border-primary bg-primary/10 text-primary ring-2 ring-primary/20 shadow-sm"
-                      : "border-input bg-background hover:bg-muted"
-                  }`}
-                >
-                  Keep Both
-                </button>
-              </div>
-            </div>
-
-            {/* Stats Breakdown Badges */}
-            <div className="flex flex-wrap items-center justify-between gap-2 pt-3 border-t border-border mt-2 text-xs">
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-foreground text-sm">{parsed.questions.length} Total Questions</span>
-                <span className="px-2.5 py-1 rounded-full bg-success/15 text-success font-bold">
-                  Easy: {difficultyCounts.easy}
-                </span>
-                <span className="px-2.5 py-1 rounded-full bg-primary/15 text-primary font-bold">
-                  Medium: {difficultyCounts.medium}
-                </span>
-                <span className="px-2.5 py-1 rounded-full bg-destructive/15 text-destructive font-bold">
-                  Hard: {difficultyCounts.hard}
-                </span>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* First 5 Preview Cards */}
-        {parsed && (
-          <div className="space-y-4 pt-2">
-            <h3 className="text-sm font-bold flex items-center gap-2">
-              <Layers className="h-4 w-4 text-primary" /> Questions Preview (Showing first 5 of {parsed.questions.length})
-            </h3>
-            <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
-              {parsed.questions.slice(0, 5).map((q, i) => (
-                <div key={i} className="rounded-xl border border-border p-5 text-sm bg-card shadow-sm space-y-3">
-                  <div className="flex items-center justify-between text-xs font-mono text-muted-foreground pb-2 border-b border-border/50">
-                    <span className="font-semibold text-primary">Q{i + 1} · TYPE: {q.type.toUpperCase()}</span>
-                    <span className="capitalize font-bold px-2 py-0.5 rounded bg-muted text-foreground">{q.difficulty}</span>
-                  </div>
-                  <p className="font-semibold whitespace-pre-line leading-relaxed text-foreground">{q.questionText}</p>
-                  <div className="grid sm:grid-cols-2 gap-2.5 text-xs pt-1">
-                    {q.options.map((opt) => (
-                      <div
-                        key={opt.id}
-                        className={`p-3 rounded-lg border leading-snug ${
-                          opt.id === q.correctAnswer
-                            ? "border-success bg-success/15 font-semibold text-success shadow-xs"
-                            : "border-border/60 bg-muted/30 text-foreground"
-                        }`}
-                      >
-                        <span className="mr-1.5 font-bold font-mono">{opt.id}:</span> {opt.text}
-                      </div>
+          <Card className="rounded-xl shadow-sm">
+            <CardContent className="px-5 py-5 space-y-5">
+              {/* Subject + Topic selects */}
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="space-y-1.5">
+                  <Label htmlFor="subject-select" className="font-semibold text-sm">
+                    Target Syllabus Subject
+                  </Label>
+                  <select
+                    id="subject-select"
+                    value={selectedSubjectId}
+                    onChange={(e) => handleSubjectChange(e.target.value as Id<"subjects">)}
+                    className={`select-native${subjects.some((s) => containsDevanagari(s.name)) ? " font-hindi" : ""}`}
+                  >
+                    <option value="" disabled>Select Subject</option>
+                    {subjects.map((s) => (
+                      <option key={s._id} value={s._id}>{s.name}</option>
                     ))}
+                  </select>
+                </div>
+
+                <div className="space-y-1.5">
+                  <Label htmlFor="topic-select" className="font-semibold text-sm">
+                    Target Fixed Topic
+                  </Label>
+                  <select
+                    id="topic-select"
+                    value={selectedTopicId}
+                    onChange={(e) => setSelectedTopicId(e.target.value as Id<"topics">)}
+                    disabled={!selectedSubjectId}
+                    className={`select-native${topics.some((t) => containsDevanagari(t.name)) ? " font-hindi" : ""}`}
+                  >
+                    <option value="" disabled>
+                      {!selectedSubjectId ? "Select a Subject first" : "Select Topic"}
+                    </option>
+                    {topics.map((t) => (
+                      <option key={t._id} value={t._id}>{t.name}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              <Separator />
+
+              {/* Set name + negative marking */}
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="space-y-1.5">
+                  <Label htmlFor="set-name" className="font-semibold text-sm">
+                    Question Set Name
+                  </Label>
+                  <Input
+                    id="set-name"
+                    value={testSetName}
+                    onChange={(e) => setTestSetName(e.target.value)}
+                    placeholder="Practice Set 1 / Set A"
+                    className="h-10"
+                  />
+                </div>
+
+                <div className="space-y-1.5 flex flex-col justify-center">
+                  <Label className="font-semibold text-sm">Negative Marking</Label>
+                  <div className="flex items-center gap-3">
+                    <Switch
+                      checked={negativeMarking}
+                      onCheckedChange={setNegativeMarking}
+                      id="negative-marking"
+                    />
+                    <label
+                      htmlFor="negative-marking"
+                      className="text-sm text-muted-foreground cursor-pointer select-none"
+                    >
+                      {negativeMarking ? "Enabled (−0.25 per wrong)" : "Disabled"}
+                    </label>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+
+              <Separator />
+
+              {/* Duplicate strategy — ToggleGroup */}
+              <div className="space-y-2">
+                <Label className="font-semibold text-sm">Duplicate Handling</Label>
+                <ToggleGroup
+                  value={duplicateStrategy ? [duplicateStrategy] : []}
+                  onValueChange={(v) => {
+                    if (v.length > 0) setDuplicateStrategy(v[0] as DuplicateStrategy);
+                  }}
+                  variant="outline"
+                  spacing={0}
+                  className="w-full"
+                >
+                  <ToggleGroupItem value="skip" className="flex-1 gap-1.5 text-xs font-semibold h-9">
+                    <SkipForward className="h-3.5 w-3.5" />
+                    Skip Duplicates
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="replace" className="flex-1 gap-1.5 text-xs font-semibold h-9">
+                    <RefreshCw className="h-3.5 w-3.5" />
+                    Replace
+                  </ToggleGroupItem>
+                  <ToggleGroupItem value="keep" className="flex-1 gap-1.5 text-xs font-semibold h-9">
+                    <CopyPlus className="h-3.5 w-3.5" />
+                    Keep Both
+                  </ToggleGroupItem>
+                </ToggleGroup>
+              </div>
+
+              <Separator />
+
+              {/* Stats badges */}
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="font-bold text-sm text-foreground">
+                  {parsed.questions.length} Total Questions
+                </span>
+                <Badge className="bg-success/15 text-success border border-success/20 px-2 py-0.5 rounded-full text-[10px]">
+                  Easy: {difficultyCounts.easy}
+                </Badge>
+                <Badge className="bg-primary/15 text-primary border border-primary/20 px-2 py-0.5 rounded-full text-[10px]">
+                  Medium: {difficultyCounts.medium}
+                </Badge>
+                <Badge variant="destructive" className="bg-destructive/15 text-destructive border border-destructive/20 px-2 py-0.5 rounded-full text-[10px]">
+                  Hard: {difficultyCounts.hard}
+                </Badge>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Question preview cards */}
+        {parsed && (
+          <div className="space-y-3">
+            <h3 className="text-sm font-bold flex items-center gap-2">
+              <Layers className="h-4 w-4 text-primary" />
+              Preview (first 5 of {parsed.questions.length})
+            </h3>
+            <ScrollArea className="h-[26rem] pr-3">
+              <div className="space-y-4">
+                {parsed.questions.slice(0, 5).map((q, i) => (
+                  <Card key={i} className="rounded-xl shadow-sm">
+                    <CardContent className="px-5 py-4 space-y-3">
+                      <div className="flex items-center justify-between text-xs font-mono text-muted-foreground pb-2 border-b border-border/50">
+                        <span className="font-semibold text-primary">
+                          Q{i + 1} · {q.type.toUpperCase()}
+                        </span>
+                        <Badge className="capitalize text-[10px] px-2 py-0.5 rounded-full bg-muted text-foreground">
+                          {q.difficulty}
+                        </Badge>
+                      </div>
+                      <p className="font-semibold text-sm whitespace-pre-line leading-relaxed text-foreground">
+                        {q.questionText}
+                      </p>
+                      <div className="grid sm:grid-cols-2 gap-2 text-xs pt-1">
+                        {q.options.map((opt) => (
+                          <div
+                            key={opt.id}
+                            className={`p-3 rounded-lg border leading-snug ${
+                              opt.id === q.correctAnswer
+                                ? "border-success bg-success/15 font-semibold text-success"
+                                : "border-border/60 bg-muted/30 text-foreground"
+                            }`}
+                          >
+                            <span className="mr-1.5 font-bold font-mono">{opt.id}:</span>
+                            {opt.text}
+                          </div>
+                        ))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </ScrollArea>
           </div>
         )}
 
+        {/* Actions */}
         <div className="flex gap-3 pt-2">
           <Button variant="outline" onClick={() => setStep("editor")}>
-            Back to Full-Screen Editor
+            ← Back to Editor
           </Button>
           <Button
             onClick={handleImport}
             disabled={!parsed || !selectedTopicId || !testSetName.trim()}
-            className="flex-1 font-bold text-sm py-3"
+            className="flex-1 font-bold"
           >
-            Confirm & Import {parsed?.questions.length ?? 0} Questions
+            Confirm &amp; Import {parsed?.questions.length ?? 0} Questions
           </Button>
         </div>
       </div>
     );
   }
 
-  // Step 3: Completion Report View
+  // ── Step 3: Done ──
   return (
     <div className="space-y-6">
-      <div className="flex flex-col items-center gap-3 py-10 text-center bg-card rounded-xl border border-border shadow-sm">
-        <div className="p-4 rounded-full bg-success/15 text-success">
-          <CheckCircle2 className="h-12 w-12" />
-        </div>
-        <div>
-          <h2 className="text-2xl font-bold tracking-tight">Questions Imported Successfully!</h2>
-          <p className="text-sm text-muted-foreground mt-1">
-            Question Set "{testSetName}" is live under the selected topic.
-          </p>
-        </div>
-      </div>
+      {/* Success banner */}
+      <Card className="rounded-xl shadow-sm">
+        <CardContent className="px-5 py-10 flex flex-col items-center gap-4 text-center">
+          <div className="p-4 rounded-full bg-success/15 text-success">
+            <CheckCircle2 className="h-12 w-12" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold tracking-tight">Questions Imported!</h2>
+            <p className="text-sm text-muted-foreground mt-1">
+              Question Set &ldquo;{testSetName}&rdquo; is live under the selected topic.
+            </p>
+          </div>
+        </CardContent>
+      </Card>
 
+      {/* Report grid */}
       {report && (
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <div className="p-4 rounded-xl border border-border bg-card text-center shadow-sm">
-            <p className="text-xs text-muted-foreground font-semibold">Total Found</p>
-            <p className="text-3xl font-bold mt-1">{report.found}</p>
-          </div>
-          <div className="p-4 rounded-xl border border-border bg-card text-center shadow-sm">
-            <p className="text-xs text-muted-foreground font-semibold">Successfully Imported</p>
-            <p className="text-3xl font-bold text-success mt-1">{report.imported}</p>
-          </div>
-          <div className="p-4 rounded-xl border border-border bg-card text-center shadow-sm">
-            <p className="text-xs text-muted-foreground font-semibold">Duplicates Handled</p>
-            <p className="text-3xl font-bold text-primary mt-1">{report.duplicates}</p>
-          </div>
-          <div className="p-4 rounded-xl border border-border bg-card text-center shadow-sm">
-            <p className="text-xs text-muted-foreground font-semibold">Time Elapsed</p>
-            <p className="text-3xl font-bold mt-1">{report.timeSeconds}s</p>
-          </div>
+          {[
+            { label: "Total Found", value: report.found, color: "text-foreground" },
+            { label: "Imported", value: report.imported, color: "text-success" },
+            { label: "Duplicates", value: report.duplicates, color: "text-primary" },
+            { label: "Time", value: `${report.timeSeconds}s`, color: "text-foreground" },
+          ].map(({ label, value, color }) => (
+            <Card key={label} className="rounded-xl shadow-sm text-center">
+              <CardContent className="px-4 py-4">
+                <p className="text-xs text-muted-foreground font-semibold">{label}</p>
+                <p className={`text-3xl font-bold mt-1 tabular-nums ${color}`}>{value}</p>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       )}
 
@@ -451,7 +508,7 @@ export function ImportWizard() {
           setTestSetName("");
           setReport(null);
         }}
-        className="w-full font-semibold py-3"
+        className="w-full font-semibold"
       >
         Import Another Question Set
       </Button>
