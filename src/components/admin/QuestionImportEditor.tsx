@@ -78,8 +78,8 @@ export function QuestionImportEditor({
   // AI Prompt Generator Parameters
   const [promptSubject, setPromptSubject] = useState(selectedSubjectName || "Indian Polity & Foreign Policy");
   const [promptTopic, setPromptTopic] = useState(selectedTopicName || "Constitutional Development");
-  const [promptDifficulty, setPromptDifficulty] = useState<string>("mixed");
-  const [promptLanguage, setPromptLanguage] = useState<string>("English");
+  const [promptDifficulty, setPromptDifficulty] = useState<string>("hard");
+  const [promptLanguage, setPromptLanguage] = useState<string>("hindi");
   const [promptCount, setPromptCount] = useState<number>(10);
 
   const [showPreviewModal, setShowPreviewModal] = useState(false);
