@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_Devanagari } from "next/font/google";
+import { Inter, Anek_Devanagari } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -18,8 +18,8 @@ const inter = Inter({
   display: "optional",
 });
 
-/** Noto Sans Devanagari — Hindi/Devanagari content only */
-const notoSansDevanagari = Noto_Sans_Devanagari({
+/** Anek Devanagari — Hindi/Devanagari content only */
+const anekDevanagari = Anek_Devanagari({
   subsets: ["devanagari"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-hindi",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="en" className={`${inter.variable} ${notoSansDevanagari.variable}`}>
+      <html lang="en" className={`${inter.variable} ${anekDevanagari.variable}`}>
         <body className="antialiased">
           <ConvexClientProvider>
             <TooltipProvider delay={300}>
