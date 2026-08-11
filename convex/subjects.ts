@@ -10,6 +10,31 @@ export const list = query({
   },
 });
 
+/** Returns { subjectId -> setCount } across all subjects for the listing page badge. */
+export const setCountsAllSubjects = query({
+  args: {},
+  handler: async (ctx) => {
+    const subjects = await ctx.db.query("subjects").collect();
+    const result: Record<string, number> = {};
+    for (const subject of subjects) {
+      const topics = await ctx.db
+        .query("topics")
+        .withIndex("by_subject", (q) => q.eq("subjectId", subject._id))
+        .collect();
+      let count = 0;
+      for (const topic of topics) {
+        const sets = await ctx.db
+          .query("testSets")
+          .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
+          .collect();
+        count += sets.length;
+      }
+      result[subject._id] = count;
+    }
+    return result;
+  },
+});
+
 export const get = query({
   args: { id: v.id("subjects") },
   handler: async (ctx, args) => await ctx.db.get(args.id),

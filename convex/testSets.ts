@@ -1,4 +1,5 @@
 import { v } from "convex/values";
+import { Id } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 
@@ -10,6 +11,60 @@ export const listByTopic = query({
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
       .collect();
     return sets.sort((a, b) => a.order - b.order);
+  },
+});
+
+/** Returns { topicId -> setCount } for all topics in a subject. */
+export const countsBySubject = query({
+  args: { subjectId: v.id("subjects") },
+  handler: async (ctx, args) => {
+    const topics = await ctx.db
+      .query("topics")
+      .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId))
+      .collect();
+
+    const result: Record<string, number> = {};
+    for (const topic of topics) {
+      const sets = await ctx.db
+        .query("testSets")
+        .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
+        .collect();
+      result[topic._id] = sets.length;
+    }
+    return result;
+  },
+});
+
+/** IDs of test sets the current user has submitted at least once. */
+export const completedSetIds = query({
+  args: {},
+  handler: async (ctx) => {
+    const identity = await ctx.auth.getUserIdentity();
+    if (!identity) return [] as string[];
+    const user = await ctx.db
+      .query("users")
+      .withIndex("by_email", (q) => q.eq("email", identity.email ?? ""))
+      .unique();
+    if (!user) return [] as string[];
+
+    const submitted = await ctx.db
+      .query("attempts")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .collect();
+
+    return [...new Set(submitted.map((a) => a.testSetId as string))];
+  },
+});
+
+/** Site-wide totals: total practice sets and total questions. */
+export const siteStats = query({
+  args: {},
+  handler: async (ctx) => {
+    const sets = await ctx.db.query("testSets").collect();
+    const totalSets = sets.length;
+    const totalQuestions = sets.reduce((sum, s) => sum + s.questionCount, 0);
+    return { totalSets, totalQuestions };
   },
 });
 

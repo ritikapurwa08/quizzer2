@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useQuery } from "convex/react";
 
-import { Card } from "@/components/ui/card";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { FileText, Play } from "lucide-react";
+import { FileText, Play, CheckCircle2 } from "lucide-react";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../../convex/_generated/api";
+import { cn } from "@/lib/utils";
 
 export default function TopicDetailPage() {
   const { subjectId, topicId } = useParams<{ subjectId: string; topicId: string }>();
@@ -19,6 +19,11 @@ export default function TopicDetailPage() {
   const subject = useQuery(api.subjects.get, { id: sId });
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
+  const completedIds = useQuery(api.testSets.completedSetIds) ?? [];
+  const completedSet = new Set(completedIds);
+
+  const totalSets = testSets?.length ?? 0;
+  const completedCount = testSets?.filter((s) => completedSet.has(s._id)).length ?? 0;
 
   return (
     <div className="space-y-5">
@@ -40,46 +45,100 @@ export default function TopicDetailPage() {
         </p>
       </div>
 
+      {/* No sets yet — clear, friendly message */}
       {testSets && testSets.length === 0 && (
         <EmptyState
           icon={FileText}
-          title="No question sets uploaded for this topic yet"
-          description="Question sets will appear here once uploaded by the administrator."
+          title="No practice sets yet"
+          description="Sets will appear here once uploaded by the administrator. Check back soon!"
         />
       )}
 
       {testSets && testSets.length > 0 && (
         <div className="space-y-3">
-          <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-            Question Sets ({testSets.length})
-          </h2>
+          {/* Header row: count + progress */}
+          <div className="flex items-center justify-between">
+            <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+              Practice Sets ({totalSets})
+            </h2>
+            {completedCount > 0 && (
+              <span className="flex items-center gap-1 text-[11px] font-medium text-emerald-600 dark:text-emerald-400">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                {completedCount}/{totalSets} completed
+              </span>
+            )}
+          </div>
 
-          {/* Stitch spec: horizontal card — icon chip + name/meta on left, Start pill on right. Single column on mobile, 2-col on desktop. */}
+          {/* Stitch spec: horizontal card — icon chip + name/meta on left, Start/Review pill on right. */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {testSets.map((set) => (
-              <Link key={set._id} href={`/quiz/${set._id}`}>
-                <div className="flex flex-row items-center justify-between p-4 border border-border/80 bg-card hover:border-primary/60 hover:shadow-md transition-all group rounded-xl min-h-[4rem] select-none">
-                  <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                    <div className="p-2 rounded-lg bg-primary/10 text-primary shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200">
-                      <FileText className="h-4.5 w-4.5" />
+            {testSets.map((set) => {
+              const isDone = completedSet.has(set._id);
+              return (
+                <Link key={set._id} href={`/quiz/${set._id}`}>
+                  <div
+                    className={cn(
+                      "flex flex-row items-center justify-between p-4 border bg-card hover:shadow-md transition-all group rounded-xl min-h-[4rem] select-none",
+                      isDone
+                        ? "border-emerald-400/50 dark:border-emerald-500/40 hover:border-emerald-500/70"
+                        : "border-border/80 hover:border-primary/60"
+                    )}
+                  >
+                    <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
+                      {/* Icon chip — green if done, primary if not */}
+                      <div
+                        className={cn(
+                          "p-2 rounded-lg shrink-0 transition-all duration-200",
+                          isDone
+                            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white"
+                            : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground"
+                        )}
+                      >
+                        {isDone ? (
+                          <CheckCircle2 className="h-4 w-4" />
+                        ) : (
+                          <FileText className="h-4 w-4" />
+                        )}
+                      </div>
+
+                      <div className="min-w-0 flex-1">
+                        <h3
+                          className={cn(
+                            "font-semibold text-xs sm:text-sm transition-colors truncate",
+                            isDone
+                              ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
+                              : "text-foreground group-hover:text-primary"
+                          )}
+                        >
+                          {set.name}
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-0.5">
+                          {set.questionCount} Questions
+                          {set.negativeMarking && " · −0.25 marking"}
+                          {isDone && (
+                            <span className="ml-1.5 text-emerald-600 dark:text-emerald-400 font-medium">
+                              · Attempted
+                            </span>
+                          )}
+                        </p>
+                      </div>
                     </div>
-                    <div className="min-w-0 flex-1">
-                      <h3 className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
-                        {set.name}
-                      </h3>
-                      <p className="text-xs text-muted-foreground mt-0.5">
-                        {set.questionCount} Questions
-                        {set.negativeMarking && " · Negative Marking (−0.25)"}
-                      </p>
+
+                    {/* CTA pill */}
+                    <div
+                      className={cn(
+                        "flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full shrink-0 ml-3 transition-all",
+                        isDone
+                          ? "text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 group-hover:bg-emerald-500 group-hover:text-white"
+                          : "text-primary bg-primary/10 group-hover:bg-primary group-hover:text-primary-foreground"
+                      )}
+                    >
+                      <Play className="h-3.5 w-3.5 fill-current" />
+                      <span>{isDone ? "Redo" : "Start"}</span>
                     </div>
                   </div>
-                  <div className="flex items-center gap-1.5 text-xs font-semibold text-primary bg-primary/10 px-3 py-1.5 rounded-full group-hover:bg-primary group-hover:text-primary-foreground transition-all shrink-0 ml-3">
-                    <Play className="h-3.5 w-3.5 fill-current" />
-                    <span>Start</span>
-                  </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
       )}
