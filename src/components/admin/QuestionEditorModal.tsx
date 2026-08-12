@@ -261,7 +261,7 @@ export function QuestionEditorModal({
     }
   }
 
-  // Devanagari typography check
+  // Devanagari typography checks
   const isQuestionHindi = containsDevanagari(questionText);
   const isExplanationHindi = containsDevanagari(explanation);
 
@@ -750,14 +750,14 @@ export function QuestionEditorModal({
                 type={type}
                 questionText={questionText || "Question text will appear here..."}
                 isBookmarked={false}
-                onToggleBookmark={() => {}}
+                onToggleBookmark={() => { }}
                 reviewBadge="correct"
               >
                 {type === "mcq" && (
                   <McqRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -765,7 +765,7 @@ export function QuestionEditorModal({
                   <StatementReasonRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -773,7 +773,7 @@ export function QuestionEditorModal({
                   <AssertionReasonRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -781,7 +781,7 @@ export function QuestionEditorModal({
                   <MatchFollowingRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -789,7 +789,7 @@ export function QuestionEditorModal({
                   <SequenceRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -797,7 +797,7 @@ export function QuestionEditorModal({
                   <TableRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
@@ -805,7 +805,7 @@ export function QuestionEditorModal({
                   <TrueFalseRenderer
                     question={previewQuestion}
                     selected={correctAnswer}
-                    onSelect={() => {}}
+                    onSelect={() => { }}
                     mode="review"
                   />
                 )}
