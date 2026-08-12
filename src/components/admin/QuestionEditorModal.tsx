@@ -113,11 +113,11 @@ export function QuestionEditorModal({
       question.options && question.options.length > 0
         ? question.options.map((o, idx) => ({ id: o.id || `opt${idx + 1}`, text: o.text || "" }))
         : [
-            { id: "opt1", text: "" },
-            { id: "opt2", text: "" },
-            { id: "opt3", text: "" },
-            { id: "opt4", text: "" },
-          ]
+          { id: "opt1", text: "" },
+          { id: "opt2", text: "" },
+          { id: "opt3", text: "" },
+          { id: "opt4", text: "" },
+        ]
     );
 
     setCorrectAnswer(
