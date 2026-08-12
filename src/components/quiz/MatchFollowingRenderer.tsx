@@ -17,8 +17,31 @@ export function MatchFollowingRenderer({
 }: QuestionRendererProps) {
   const isReview = mode === "review";
   const metaObj = (question.meta as any) || {};
-  const rawLeft = metaObj.left ?? metaObj.columnA ?? [];
-  const rawRight = metaObj.right ?? metaObj.columnB ?? [];
+  let rawLeft = metaObj.left ?? metaObj.columnA ?? [];
+  let rawRight = metaObj.right ?? metaObj.columnB ?? [];
+
+  if ((!rawLeft || rawLeft.length === 0) && (!rawRight || rawRight.length === 0) && question.questionText) {
+    const text = question.questionText;
+    const list2Regex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:]?\s*(?:II|2|B)\b/i;
+    const match2 = text.match(list2Regex);
+    if (match2 && match2.index !== undefined) {
+      const part1 = text.slice(0, match2.index);
+      const part2 = text.slice(match2.index);
+      const itemRegex = /^(?:[A-D1-4][\.\):]|\([A-D1-4]\))\s*(.*)/;
+      const extractedLeft: string[] = [];
+      const extractedRight: string[] = [];
+      part1.split(/\r?\n/).forEach((line) => {
+        const trimmed = line.trim();
+        if (itemRegex.test(trimmed)) extractedLeft.push(trimmed);
+      });
+      part2.split(/\r?\n/).forEach((line) => {
+        const trimmed = line.trim();
+        if (itemRegex.test(trimmed)) extractedRight.push(trimmed);
+      });
+      if (extractedLeft.length > 0) rawLeft = extractedLeft;
+      if (extractedRight.length > 0) rawRight = extractedRight;
+    }
+  }
 
   // Normalize columnA items
   const columnA: MatchItem[] = rawLeft.map((item: any, idx: number) => {

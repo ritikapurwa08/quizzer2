@@ -38,7 +38,7 @@ function DonutRing({ percentage }: { percentage: number }) {
         />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <span className="text-[10.5px] font-bold text-foreground leading-none tabular-nums tracking-tighter">
+        <span className="text-[8.5px] font-bold text-foreground leading-none tabular-nums tracking-tighter">
           {formatted}%
         </span>
       </div>

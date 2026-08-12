@@ -1,7 +1,7 @@
 "use client";
 
 import { Bookmark, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
-import { cn, containsDevanagari } from "@/lib/utils";
+import { cn, containsDevanagari, cleanQuestionPrompt } from "@/lib/utils";
 import { QUESTION_TYPE_LABELS, QuestionType } from "@/lib/constants";
 import { useToast } from "@/components/ui/Toast";
 import { Badge } from "@/components/ui/badge";
@@ -44,7 +44,8 @@ export function QuestionShell({
     );
   }
 
-  const isHindi = containsDevanagari(questionText);
+  const cleanedText = cleanQuestionPrompt(questionText, type);
+  const isHindi = containsDevanagari(cleanedText || questionText);
 
   const content = (
     <>
@@ -115,14 +116,16 @@ export function QuestionShell({
       </div>
 
       {/* Question text */}
-      <p
-        className={cn(
-          "whitespace-pre-line font-semibold text-sm sm:text-base mb-4 leading-relaxed text-foreground",
-          isHindi && "font-hindi"
-        )}
-      >
-        {questionText}
-      </p>
+      {cleanedText ? (
+        <p
+          className={cn(
+            "whitespace-pre-line font-semibold text-sm sm:text-base mb-4 leading-relaxed text-foreground",
+            isHindi && "font-hindi"
+          )}
+        >
+          {cleanedText}
+        </p>
+      ) : null}
 
       {children}
     </>
