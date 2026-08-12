@@ -1,7 +1,7 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
-import { questionInputValidator } from "./lib/validators";
+import { questionInputValidator, questionTypeValidator } from "./lib/validators";
 
 export const listByTestSet = query({
   args: { testSetId: v.id("testSets") },
@@ -14,7 +14,7 @@ export const listByTestSet = query({
   },
 });
 
-/** Admin-only: search question text across the whole bank. */
+/** Admin-only: search question text, options, and explanation across the whole bank. */
 export const search = query({
   args: { term: v.string() },
   handler: async (ctx, args) => {
@@ -22,19 +22,31 @@ export const search = query({
     if (args.term.trim().length === 0) return [];
     const all = await ctx.db.query("questions").collect();
     const term = args.term.toLowerCase();
-    return all.filter((q) => q.questionText.toLowerCase().includes(term)).slice(0, 100);
+    return all
+      .filter((q) => {
+        // Search questionText
+        if (q.questionText.toLowerCase().includes(term)) return true;
+        // Search each option's text
+        if (q.options?.some((o) => o.text.toLowerCase().includes(term))) return true;
+        // Search explanation
+        if (q.explanation && q.explanation.toLowerCase().includes(term)) return true;
+        return false;
+      })
+      .slice(0, 100);
   },
 });
 
 export const update = mutation({
   args: {
     id: v.id("questions"),
+    type: v.optional(questionTypeValidator),
     questionText: v.optional(v.string()),
     options: v.optional(v.array(v.object({ id: v.string(), text: v.string() }))),
     correctAnswer: v.optional(v.union(v.string(), v.array(v.string()))),
     explanation: v.optional(v.string()),
     reference: v.optional(v.string()),
     difficulty: v.optional(v.union(v.literal("easy"), v.literal("medium"), v.literal("hard"))),
+    meta: v.optional(v.any()),
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
