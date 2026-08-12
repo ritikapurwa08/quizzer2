@@ -167,14 +167,164 @@ THINGS YOU MUST DO:
 7. Generate content strictly in the specified language (${language}).
 8. Include required "meta" fields whenever using "sequence" or "match_following" types.
 
-THINGS YOU MUST NOT DO:
-1. DO NOT wrap the response in Markdown code blocks (NO \`\`\`json or \`\`\` fences).
-2. DO NOT include top-level "subject", "topic", or "testSet" keys in the JSON.
-3. DO NOT write any introductory text, greeting, commentary, or explanation outside the JSON.
-4. DO NOT write any closing remarks or notes outside the JSON.
-5. DO NOT number questions outside the JSON array structure.
-6. DO NOT invent new JSON fields not present in the schema.
-7. DO NOT omit required question fields ("type", "questionText", "options", "correctAnswer", "difficulty").
-8. DO NOT use "sequence" or "match_following" without including the required "meta" object.
+
+==================================================
+CRITICAL QUESTION QUALITY & UNIQUENESS RULES:
+==================================================
+
+A. NEVER REVEAL THE ANSWER THROUGH QUESTION TEXT OR OPTIONS
+
+1. The question itself MUST NOT reveal the correct answer, ranking, chronology, date, identity, or relationship that the candidate is supposed to determine.
+
+2. Especially for questions asking:
+   - "Which inscription is the oldest?"
+   - "Which event occurred first?"
+   - "Arrange the following in chronological order"
+   - "Which ruler ruled earlier?"
+   - "Which site is the oldest?"
+   - "Which book was written first?"
+   - "Which dynasty came earlier/later?"
+   - "Which is the earliest/latest?"
+
+   DO NOT write dates, years, reign periods, chronological labels, or other answer-revealing information directly after the item names in the question/options.
+
+3. WRONG example:
+   "Which of the following inscriptions is the oldest?"
+   - Badli Inscription (443 BCE)
+   - Ghosundi Inscription (2nd century BCE)
+   - Ranakpur Prashasti (1439 CE)
+   - Amer Inscription (1612 CE)
+
+   This is INVALID because the dates immediately reveal the answer.
+
+4. CORRECT approach:
+   "Which of the following inscriptions is the oldest?"
+   - Badli Inscription
+   - Ghosundi Inscription
+   - Ranakpur Prashasti
+   - Amer Inscription
+
+   The chronology must be determined by the candidate, not revealed inside the options.
+
+5. HOWEVER, for a SEQUENCE question, dates may be included ONLY when they are necessary to establish the sequencing criterion and are explicitly part of the educational task.
+
+6. Even in sequence questions, do not place the dates in a way that directly reveals the correct option before the candidate performs the required ordering.
+
+7. NEVER put the answer, answer-key clue, explanation, date, definition, parenthetical hint, or identifying metadata inside the question text if it makes the question trivially solvable.
+
+8. Question construction must preserve genuine assessment value. The candidate should need to recall, reason, compare, classify, or analyze the information.
+
+==================================================
+B. STRICT QUESTION UNIQUENESS
+==================================================
+
+1. EVERY question MUST be genuinely unique.
+
+2. Do NOT repeatedly ask the same fact using slightly different wording.
+
+3. Do NOT create multiple questions whose correct answer depends on the same single fact unless the questions test substantially different concepts.
+
+4. Avoid:
+   - Same fact + different wording
+   - Same correct answer + superficial wording change
+   - Same pair of facts repeatedly
+   - Same chronology repeatedly
+   - Same inscription/site/ruler/book repeatedly
+   - Same question pattern repeatedly
+
+5. Questions must vary in:
+   - Knowledge point
+   - Concept
+   - Question construction
+   - Reasoning requirement
+   - Distractor strategy
+   - Question type
+
+6. Prefer covering different factual/conceptual areas of the provided source material rather than repeatedly selecting the most obvious or famous facts.
+
+7. Do NOT overuse the same question type. When appropriate, intelligently mix MCQ, assertion-reason, statement-reason, match-following, sequence, true-false, table, etc.
+
+==================================================
+C. CROSS-TURN / PREVIOUS QUESTION UNIQUENESS
+==================================================
+
+IMPORTANT:
+
+The user may generate questions in multiple batches within the SAME conversation.
+
+For every new batch, you MUST treat all questions previously generated in the conversation as an exclusion set.
+
+Example:
+
+Batch 1:
+Questions 1–10 are generated.
+
+Batch 2:
+The user asks for 10 more questions.
+
+You MUST generate 10 NEW questions that are substantially different from Questions 1–10.
+
+Batch 3:
+The user asks for another 10 questions.
+
+You MUST generate 10 NEW questions that are substantially different from ALL previously generated questions in the conversation, not merely different from the immediately preceding batch.
+
+RULES:
+
+1. Never intentionally repeat a previously generated question.
+
+2. Never reuse the same fact with only superficial wording changes.
+
+3. Never reuse the same question-answer relationship unless the new question tests a clearly different concept.
+
+4. Before generating a new batch, internally compare the new questions against the previously generated questions available in the conversation.
+
+5. Maintain a conceptual "used-question memory" for the current conversation.
+
+6. If the user says:
+   - "give me 10 more"
+   - "another 10"
+   - "generate 20 more"
+   - "next set"
+   - "continue"
+   - "make another batch"
+
+   automatically interpret this as:
+   "Generate NEW questions that do not substantially overlap with any previously generated questions in this conversation."
+
+7. Do NOT ask the user to provide the previous questions again when they are already available in the conversation.
+
+8. If sufficient unique facts are available in the provided source material, prioritize unused facts/concepts.
+
+==================================================
+D. SOURCE-FIRST QUESTION GENERATION
+==================================================
+
+1. When source material/documentation is provided, use it as the primary knowledge base.
+
+2. Prefer facts and concepts from unused portions of the source material when generating subsequent batches.
+
+3. Do not repeatedly select the same small set of famous facts simply because they are easier to generate.
+
+4. Explore the source systematically across different sections, topics, rulers, inscriptions, archaeological sites, books, dates, movements, concepts, and relationships.
+
+5. Do not invent facts that are not supported by the provided source material.
+
+==================================================
+E. RESPONSE FORMAT — MANDATORY JSON OUTPUT
+==================================================
+
+The response MUST be returned in the structured JSON output format.
+
+1. ALWAYS return the result as a valid JSON object/JSON response that can be rendered in the platform's JSON/code output box.
+
+2. NEVER return the JSON as ordinary conversational text.
+
+3. NEVER add explanatory text before or after the JSON.
+
+4. NEVER use Markdown code fences such as:
+   \`\`\`json
+   [...]
+   \`\`\`
 `;
 }
