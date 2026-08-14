@@ -314,7 +314,7 @@ D. SOURCE-FIRST QUESTION GENERATION
 E. RESPONSE FORMAT — MANDATORY JSON OUTPUT
 ==================================================
 
-The response MUST be returned in the structured JSON output format.
+The response MUST be returned in the structured JSON output format and in markdown json format json as we already talked .
 
 1. ALWAYS return the result as a valid JSON object/JSON response that can be rendered in the platform's JSON/code output box.
 
@@ -323,6 +323,8 @@ The response MUST be returned in the structured JSON output format.
 3. NEVER add explanatory text before or after the JSON.
 
 4. NEVER use Markdown code fences such as:
+
+5. "Rule for this chat: Whenever I ask for JSON, always output it directly inside a Markdown code block with no extra fluff."
    \`\`\`json
    [...]
    \`\`\`
