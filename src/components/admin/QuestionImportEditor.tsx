@@ -274,25 +274,26 @@ export function QuestionImportEditor({
           </div>
 
           {/* Negative Marking & Prompt Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-border/80">
-            <div className="flex items-center gap-2.5">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-3 border-t border-border/80">
+            <div className="flex items-center justify-between sm:justify-start gap-2.5 py-1">
+              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground order-1 sm:order-2">
+                Negative Marking <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 per wrong)</span>
+              </Label>
               <Switch
                 id="neg-marking"
                 checked={negativeMarking}
                 onCheckedChange={onNegativeMarkingChange}
+                className="order-2 sm:order-1"
               />
-              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground">
-                Negative Marking <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 per wrong)</span>
-              </Label>
             </div>
 
-            <div className="flex items-center gap-2 w-full sm:w-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full sm:w-auto">
               <Button
                 type="button"
                 variant="outline"
                 size="sm"
                 onClick={() => setShowPreviewModal(true)}
-                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold rounded-xl"
+                className="w-full sm:w-auto h-10 sm:h-9 gap-1.5 text-xs font-semibold rounded-xl justify-center"
               >
                 <Eye className="h-3.5 w-3.5" />
                 Preview Prompt
@@ -302,7 +303,7 @@ export function QuestionImportEditor({
                 type="button"
                 size="sm"
                 onClick={handleCopyAiPrompt}
-                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs"
+                className="w-full sm:w-auto h-10 sm:h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs justify-center"
               >
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
                 {copied ? "Copied!" : "Copy AI Prompt"}
@@ -381,9 +382,9 @@ export function QuestionImportEditor({
         </div>
 
         {/* ── 3. Bottom Action Bar: Target Info + Direct "✓ Import" Button ── */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-muted/40 px-5 py-3 border-t border-border">
-          <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0">
-            <span className="font-semibold text-foreground">Target:</span>
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-muted/40 px-4 sm:px-5 py-3 border-t border-border">
+          <div className="text-xs text-muted-foreground flex items-center justify-center sm:justify-start gap-1.5 min-w-0 text-center sm:text-left">
+            <span className="font-semibold text-foreground shrink-0">Target:</span>
             <span className="truncate">
               {activeSubject?.name || "Subject"} &rarr; {activeTopic?.name || "Topic"} &rarr; <span className="font-semibold text-foreground">{subtopicName || "Part 1"}</span>
             </span>
@@ -393,10 +394,10 @@ export function QuestionImportEditor({
             type="button"
             onClick={onImportClick}
             disabled={!isValid || !selectedTopicId || !subtopicName.trim() || isImporting}
-            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer"
+            className="w-full sm:w-auto h-11 sm:h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer justify-center shrink-0"
           >
-            <Check className="h-4 w-4 stroke-[3]" />
-            {isImporting ? "Importing..." : "✓ Import"}
+            <Check className="h-4 w-4 stroke-[2.5]" />
+            {isImporting ? "Importing..." : "Import"}
           </Button>
         </div>
       </div>
