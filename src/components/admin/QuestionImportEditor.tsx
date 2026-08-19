@@ -78,8 +78,7 @@ export function QuestionImportEditor({
   // AI Prompt Generator Parameters
   const [promptSubject, setPromptSubject] = useState(selectedSubjectName || "Indian Polity & Foreign Policy");
   const [promptTopic, setPromptTopic] = useState(selectedTopicName || "Constitutional Development");
-  const [promptDifficulty, setPromptDifficulty] = useState<string>("hard");
-  const [promptLanguage, setPromptLanguage] = useState<string>("hindi");
+  const [promptSubtopic, setPromptSubtopic] = useState<string>("");
   const [promptCount, setPromptCount] = useState<number>(10);
 
   const [showPreviewModal, setShowPreviewModal] = useState(false);
@@ -158,8 +157,7 @@ export function QuestionImportEditor({
   const currentPrompt = generateAiQuestionPrompt({
     subject: promptSubject,
     topic: promptTopic,
-    difficulty: promptDifficulty,
-    language: promptLanguage,
+    subtopic: promptSubtopic || undefined,
     count: promptCount,
   });
 
@@ -287,19 +285,30 @@ export function QuestionImportEditor({
                 max={100}
                 value={promptCount}
                 onChange={(e) => setPromptCount(Math.max(1, parseInt(e.target.value, 10) || 1))}
-                className="h-9 text-xs"
+                className="h-10 text-sm px-4"
+              />
+            </div>
+
+            {/* Subtopic (optional) */}
+            <div className="space-y-1.5 col-span-1 sm:col-span-2 md:col-span-3">
+              <Label className="text-xs font-semibold text-muted-foreground">Sub-topic <span className="font-normal text-muted-foreground/60">(optional)</span></Label>
+              <Input
+                value={promptSubtopic}
+                onChange={(e) => setPromptSubtopic(e.target.value)}
+                placeholder="e.g. Prajamandal Movement, Rajput Administration..."
+                className="h-10 text-sm px-4"
               />
             </div>
           </div>
 
-          {/* Action buttons */}
-          <div className="flex flex-wrap items-center justify-end gap-2 pt-2 border-t">
+          {/* Action buttons — full width */}
+          <div className="flex flex-col sm:flex-row gap-2 pt-2 border-t">
             <Button
               type="button"
               variant="outline"
               size="sm"
               onClick={() => setShowPreviewModal(true)}
-              className="h-9 gap-1.5 text-xs font-semibold"
+              className="w-full h-10 gap-1.5 text-sm font-semibold"
             >
               <Eye className="h-4 w-4" />
               Preview Prompt
@@ -309,7 +318,7 @@ export function QuestionImportEditor({
               type="button"
               size="sm"
               onClick={handleCopyAiPrompt}
-              className="h-9 gap-1.5 text-xs font-semibold px-4 bg-primary text-primary-foreground hover:bg-primary/90"
+              className="w-full h-10 gap-1.5 text-sm font-semibold px-4 bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <Copy className="h-4 w-4" />
               Copy AI Prompt
@@ -342,7 +351,7 @@ export function QuestionImportEditor({
             )}
           </div>
 
-          {/* Toolbar actions */}
+          {/* Toolbar actions — Format only; Copy is removed from here */}
           <div className="flex items-center gap-1.5 shrink-0">
             <Button
               type="button"
@@ -354,18 +363,6 @@ export function QuestionImportEditor({
             >
               <AlignLeft className="h-3.5 w-3.5" />
               Format
-            </Button>
-
-            <Button
-              type="button"
-              variant="ghost"
-              size="sm"
-              onClick={handleCopy}
-              disabled={!code.trim()}
-              className="h-8 gap-1 text-xs"
-            >
-              {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-              {copied ? "Copied!" : "Copy"}
             </Button>
           </div>
         </div>

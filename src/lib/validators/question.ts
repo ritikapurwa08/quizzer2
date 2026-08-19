@@ -1,21 +1,30 @@
 import { z } from "zod";
 
-/** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard. */
+/** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
+ *  Supports both v2 canonical types and the new minified AI prompt schema:
+ *    q → questionText, o → options[], a → correctAnswer index (0-3), e → explanation, t → type
+ */
 
 export const optionSchema = z.object({
   id: z.string().min(1),
   text: z.string().min(1),
 });
 
+// All accepted type strings (v2 canonical + legacy aliases)
 export const questionTypeSchema = z.enum([
   "mcq",
-  "statement_reason",
-  "match_following",
-  "table",
-  "assertion_reason",
-  "sequence",
+  "match",
+  "assertion",
   "true_false",
+  // legacy aliases — kept for backward compat
+  "match_following",
+  "assertion_reason",
+  "statement_reason",
+  "sequence",
+  "table",
 ]);
+
+export type AcceptedQuestionType = z.infer<typeof questionTypeSchema>;
 
 export const difficultySchema = z.enum(["easy", "medium", "hard"]);
 
@@ -31,7 +40,7 @@ export const questionSchema = z
     meta: z.any().optional(),
   })
   .superRefine((q, ctx) => {
-    const needsOptions = ["mcq", "true_false", "assertion_reason", "statement_reason"];
+    const needsOptions = ["mcq", "true_false", "assertion", "assertion_reason", "statement_reason"];
     if (needsOptions.includes(q.type) && q.options.length === 0) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
@@ -42,7 +51,7 @@ export const questionSchema = z
 
     if (typeof q.correctAnswer === "string" && needsOptions.includes(q.type)) {
       const validIds = q.options.map((o) => o.id);
-      if (!validIds.includes(q.correctAnswer)) {
+      if (validIds.length > 0 && !validIds.includes(q.correctAnswer)) {
         ctx.addIssue({
           code: z.ZodIssueCode.custom,
           message: `correctAnswer "${q.correctAnswer}" not found in options`,
@@ -51,18 +60,10 @@ export const questionSchema = z
       }
     }
 
-    if (q.type === "match_following" && !(q.meta?.columnA || q.meta?.left)) {
+    if ((q.type === "match" || q.type === "match_following") && !(q.meta?.columnA || q.meta?.left)) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
-        message: `match_following requires meta.left and meta.right (or meta.columnA and meta.columnB)`,
-        path: ["meta"],
-      });
-    }
-
-    if (q.type === "sequence" && !q.meta?.items) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message: `sequence requires meta.items`,
+        message: `match requires meta.left and meta.right (or meta.columnA and meta.columnB)`,
         path: ["meta"],
       });
     }
@@ -97,3 +98,98 @@ export type ImportJson = {
   questions: z.infer<typeof questionSchema>[];
 };
 export type QuestionInput = z.infer<typeof questionSchema>;
+
+// ── Minified JSON key mapping (new AI prompt schema) ────────────────────────
+// Maps: q→questionText, o→options, a→correctAnswer index, e→explanation, t→type
+const MINIFIED_INDEX_TO_OPT: Record<number, string> = {
+  0: "opt1",
+  1: "opt2",
+  2: "opt3",
+  3: "opt4",
+};
+
+const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
+  mcq: "mcq",
+  match: "match",
+  match_following: "match",
+  assertion: "assertion",
+  assertion_reason: "assertion",
+  statement_reason: "assertion",
+  true_false: "true_false",
+  sequence: "mcq", // downgrade to mcq safely
+  table: "mcq",    // downgrade to mcq safely
+};
+
+/** Converts a raw minified AI output question object to standard QuestionInput.
+ *  Handles both minified keys (q/o/a/e/t) and full keys (questionText/options/etc.).
+ */
+export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInput | null {
+  try {
+    // Detect minified format by presence of 'q' key
+    const isMinified = "q" in raw && !("questionText" in raw);
+
+    const questionText: string = isMinified
+      ? String(raw.q ?? "").trim()
+      : String(raw.questionText ?? "").trim();
+
+    if (!questionText) return null;
+
+    // Options: minified = string[], full = {id, text}[]
+    let options: { id: string; text: string }[] = [];
+    if (isMinified && Array.isArray(raw.o)) {
+      options = raw.o.slice(0, 4).map((text: any, i: number) => ({
+        id: `opt${i + 1}`,
+        text: String(text ?? "").trim(),
+      }));
+    } else if (Array.isArray(raw.options)) {
+      options = raw.options.map((o: any, i: number) => ({
+        id: o.id || `opt${i + 1}`,
+        text: String(o.text ?? "").trim(),
+      }));
+    }
+
+    // Pad to 4 options
+    while (options.length < 4) {
+      options.push({ id: `opt${options.length + 1}`, text: `Option ${options.length + 1}` });
+    }
+
+    // Correct answer: minified = integer index 0-3, full = "opt1" etc.
+    let correctAnswer: string = "opt1";
+    if (isMinified && typeof raw.a === "number") {
+      correctAnswer = MINIFIED_INDEX_TO_OPT[raw.a] ?? "opt1";
+    } else if (typeof raw.correctAnswer === "string") {
+      correctAnswer = raw.correctAnswer;
+    }
+
+    // Type: map minified or legacy type to canonical
+    const rawType: string = isMinified
+      ? String(raw.t ?? "mcq").toLowerCase()
+      : String(raw.type ?? "mcq").toLowerCase();
+    const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? "mcq";
+
+    const explanation: string | undefined = isMinified
+      ? (raw.e ? String(raw.e).trim() : undefined)
+      : (raw.explanation ? String(raw.explanation).trim() : undefined);
+
+    const difficulty = (raw.difficulty as "easy" | "medium" | "hard") ?? "medium";
+
+    // Meta handling for match type
+    let meta: any = raw.meta ?? undefined;
+    if ((type === "match" || type === "match_following") && !meta?.left && !meta?.columnA) {
+      meta = { left: [], right: [] };
+    }
+
+    return {
+      type,
+      questionText,
+      options,
+      correctAnswer,
+      explanation,
+      reference: raw.reference,
+      difficulty,
+      meta,
+    };
+  } catch {
+    return null;
+  }
+}

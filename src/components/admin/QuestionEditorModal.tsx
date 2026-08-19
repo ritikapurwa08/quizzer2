@@ -6,11 +6,13 @@ import { api } from "../../../convex/_generated/api";
 import { Question } from "@/types";
 import {
   QUESTION_TYPE_LABELS,
+  LEGACY_TYPE_LABELS,
   QUESTION_TYPES,
   DIFFICULTIES,
   QuestionType,
   Difficulty,
 } from "@/lib/constants";
+import { AcceptedQuestionType } from "@/lib/validators/question";
 import { cn, containsDevanagari } from "@/lib/utils";
 import { useToast } from "@/components/ui/Toast";
 
@@ -41,15 +43,10 @@ import {
   FileText,
 } from "lucide-react";
 
-// Student-view renderers
+// Student-view renderers — all accessed via the shared QUESTION_RENDERERS map
 import { QuestionShell } from "@/components/quiz/QuestionShell";
-import { McqRenderer } from "@/components/quiz/McqRenderer";
-import { MatchFollowingRenderer } from "@/components/quiz/MatchFollowingRenderer";
-import { SequenceRenderer } from "@/components/quiz/SequenceRenderer";
-import { TableRenderer } from "@/components/quiz/TableRenderer";
-import { TrueFalseRenderer } from "@/components/quiz/TrueFalseRenderer";
-import { StatementReasonRenderer } from "@/components/quiz/StatementReasonRenderer";
-import { AssertionReasonRenderer } from "@/components/quiz/AssertionReasonRenderer";
+import { McqRenderer } from "@/components/quiz/McqRenderer"; // fallback default
+import { QUESTION_RENDERERS } from "@/components/quiz";
 
 interface OptionItem {
   id: string;
@@ -85,8 +82,8 @@ export function QuestionEditorModal({
   const [isSaving, setIsSaving] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-  // Form states
-  const [type, setType] = useState<QuestionType>("mcq");
+  // Form states — AcceptedQuestionType covers both v2 canonical + legacy aliases from old DB rows
+  const [type, setType] = useState<AcceptedQuestionType>("mcq");
   const [difficulty, setDifficulty] = useState<Difficulty>("medium");
   const [questionText, setQuestionText] = useState("");
   const [options, setOptions] = useState<OptionItem[]>([
@@ -102,7 +99,7 @@ export function QuestionEditorModal({
 
   useEffect(() => {
     if (!question) return;
-    setType(question.type as QuestionType);
+    setType(question.type as AcceptedQuestionType);
     setDifficulty(question.difficulty as Difficulty);
     setQuestionText(question.questionText || "");
     setExplanation(question.explanation || "");
@@ -270,7 +267,7 @@ export function QuestionEditorModal({
               {/* Inline meta chips */}
               <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
                 <Badge variant="secondary" className="text-[10px] px-1.5 py-0 uppercase tracking-wide font-semibold">
-                  {QUESTION_TYPE_LABELS[type]}
+                  {QUESTION_TYPE_LABELS[type as QuestionType] ?? LEGACY_TYPE_LABELS[type] ?? type.replace(/_/g, " ")}
                 </Badge>
                 <span className={cn(
                   "inline-flex items-center rounded px-1.5 py-0 text-[10px] font-semibold border capitalize",
@@ -396,8 +393,8 @@ export function QuestionEditorModal({
                   />
                 </section>
 
-                {/* ── Section 2b: Type-Specific Metadata (match_following / sequence) ── */}
-                {type === "match_following" && (
+                {/* ── Section 2b: Type-Specific Metadata (match / match_following) ── */}
+                {(type === "match" || type === "match_following") && (
                   <>
                     <Separator />
                     <section>
@@ -421,48 +418,6 @@ export function QuestionEditorModal({
                           onChange={(i, v) => handleMetaListChange("right", i, v)}
                           getLabel={(i) => String(i + 1)}
                         />
-                      </div>
-                    </section>
-                  </>
-                )}
-
-                {type === "sequence" && (
-                  <>
-                    <Separator />
-                    <section>
-                      <div className="flex items-center justify-between mb-2.5">
-                        <SectionHeading icon={<BookOpen className="h-3.5 w-3.5" />} label="Sequence Items (क्रमानुसार सूची)" />
-                        <Button
-                          type="button" variant="outline" size="sm"
-                          onClick={() => handleAddMetaListItem("items")}
-                          className="h-7 text-xs gap-1 shrink-0"
-                        >
-                          <Plus className="h-3 w-3" /> Add Item
-                        </Button>
-                      </div>
-                      <div className="space-y-2">
-                        {((meta.items || []) as any[]).map((item: any, idx: number) => {
-                          const txt = typeof item === "string" ? item : item?.text || "";
-                          return (
-                            <div key={idx} className="flex items-center gap-2">
-                              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold">
-                                {idx + 1}
-                              </span>
-                              <Input
-                                value={txt}
-                                onChange={(e) => handleMetaListChange("items", idx, e.target.value)}
-                                className={cn("h-9 text-sm flex-1", containsDevanagari(txt) && "font-hindi")}
-                              />
-                              <button
-                                type="button"
-                                onClick={() => handleRemoveMetaListItem("items", idx)}
-                                className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors"
-                              >
-                                <Trash2 className="h-3.5 w-3.5" />
-                              </button>
-                            </div>
-                          );
-                        })}
                       </div>
                     </section>
                   </>
@@ -636,27 +591,11 @@ export function QuestionEditorModal({
                   onToggleBookmark={() => { }}
                   reviewBadge="correct"
                 >
-                  {type === "mcq" && (
-                    <McqRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "statement_reason" && (
-                    <StatementReasonRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "assertion_reason" && (
-                    <AssertionReasonRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "match_following" && (
-                    <MatchFollowingRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "sequence" && (
-                    <SequenceRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "table" && (
-                    <TableRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
-                  {type === "true_false" && (
-                    <TrueFalseRenderer question={previewQuestion} selected={correctAnswer} onSelect={() => { }} mode="review" />
-                  )}
+                  {/* Use the shared QUESTION_RENDERERS map for all types incl. legacy */}
+                  {(() => {
+                    const Renderer = QUESTION_RENDERERS[type] ?? McqRenderer;
+                    return <Renderer question={previewQuestion} selected={correctAnswer} onSelect={() => {}} mode="review" />;
+                  })()}
 
                   {explanation && (
                     <div className="mt-4 rounded-xl border border-primary/20 bg-primary/5 px-4 py-3.5 space-y-1.5">

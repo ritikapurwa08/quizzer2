@@ -4,7 +4,7 @@
   Quizzer — Stitch Unified Design System
   Tailwind v4: color utilities (bg-primary, text-primary, etc.) require @theme inline.
   CSS vars in :root alone do NOT create Tailwind utility classes in v4.
-  Stitch color tokens: #2563EB primary | #F1F2F6 muted | #DCDFE6 border | #16A34A success | #DC2626 destructive
+  Stitch color tokens: #7e22ce primary (Deep Violet) | #F1F2F6 muted | #DCDFE6 border | #16A34A success | #DC2626 destructive
 */
 
 /* ─── Register color tokens as Tailwind v4 utilities via @theme inline ─── */
@@ -19,9 +19,10 @@
   --color-popover: hsl(0 0% 100%);
   --color-popover-foreground: hsl(222 20% 12%);
 
-  /* Primary: #2563EB */
-  --color-primary: hsl(221 83% 53%);
+  /* Primary: #7e22ce — Deep Purple / Violet */
+  --color-primary: hsl(271 76% 53%);
   --color-primary-foreground: hsl(0 0% 100%);
+  --color-ring: hsl(271 76% 53%);
 
   /* Secondary / Muted: #F1F2F6 */
   --color-secondary: hsl(220 14% 96%);
@@ -44,7 +45,7 @@
   /* Border: #DCDFE6 */
   --color-border: hsl(220 14% 89%);
   --color-input: hsl(220 14% 89%);
-  --color-ring: hsl(221 83% 53%);
+  --color-ring: hsl(271 76% 53%);
 
   /* Border radius */
   --radius-sm: 0.5rem;
@@ -62,7 +63,7 @@
   --card-foreground: 222 20% 12%;
   --popover: 0 0% 100%;
   --popover-foreground: 222 20% 12%;
-  --primary: 221 83% 53%;
+  --primary: 271 76% 53%;
   --primary-foreground: 0 0% 100%;
   --secondary: 220 14% 96%;
   --secondary-foreground: 222 20% 12%;
@@ -76,7 +77,7 @@
   --warning-foreground: 0 0% 100%;
   --border: 220 14% 89%;
   --input: 220 14% 89%;
-  --ring: 221 83% 53%;
+  --ring: 271 76% 53%;
   --radius: 0.75rem;
   --radius-sm: 0.5rem;
 }
@@ -177,7 +178,7 @@ input, select, textarea {
 
 /* ─── Selection highlight ─── */
 ::selection {
-  background-color: hsl(221 83% 53% / 0.18);
+  background-color: hsl(271 76% 53% / 0.18);
   color: hsl(222 20% 12%);
 }
 
@@ -211,8 +212,8 @@ input, select, textarea {
 
 .select-native:focus-visible,
 .select-native:focus {
-  border-color: hsl(221 83% 53%);
-  box-shadow: 0 0 0 1px hsl(221 83% 53%);
+  border-color: hsl(271 76% 53%);
+  box-shadow: 0 0 0 1px hsl(271 76% 53%);
 }
 
 .select-native:disabled {

@@ -10,7 +10,7 @@ import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { QuestionEditorModal } from "@/components/admin/QuestionEditorModal";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { QUESTION_TYPE_LABELS } from "@/lib/constants";
+import { QUESTION_TYPE_LABELS, LEGACY_TYPE_LABELS, QuestionType } from "@/lib/constants";
 import { containsDevanagari, cn } from "@/lib/utils";
 import { Trash2, Pencil } from "lucide-react";
 
@@ -74,7 +74,7 @@ export default function AdminQuestionsPage() {
               header: "Type",
               render: (q) => (
                 <Badge variant="secondary" className="text-[10px] uppercase tracking-wide">
-                  {QUESTION_TYPE_LABELS[q.type]}
+                  {QUESTION_TYPE_LABELS[q.type as QuestionType] ?? LEGACY_TYPE_LABELS[q.type] ?? q.type.replace(/_/g, " ")}
                 </Badge>
               ),
             },

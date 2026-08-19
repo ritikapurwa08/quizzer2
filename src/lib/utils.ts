@@ -32,7 +32,7 @@ export function containsDevanagari(text: string): boolean {
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  if (type && type !== "match_following" && type !== "sequence") {
+  if (type && type !== "match_following" && type !== "match") {
     return text;
   }
 

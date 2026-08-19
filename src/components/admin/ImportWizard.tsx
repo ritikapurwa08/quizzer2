@@ -503,8 +503,7 @@ export function ImportWizard() {
           setStep("editor");
           setParsed(null);
           setEditorCode("");
-          setSelectedSubjectId("");
-          setSelectedTopicId("");
+          // Retain Subject & Topic selection — only reset test set name and report
           setTestSetName("");
           setReport(null);
         }}

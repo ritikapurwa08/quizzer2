@@ -1,4 +1,19 @@
-import { importJsonSchema, ImportJson, QuestionInput } from "./validators/question";
+import { importJsonSchema, ImportJson, QuestionInput, normalizeMinifiedQuestion } from "./validators/question";
+
+/**
+ * Strips markdown code fences from LLM output, e.g.:
+ * ```json
+ * [...]
+ * ```
+ */
+export function stripMarkdownFences(raw: string): string {
+  // Remove ```json ... ``` or ``` ... ``` wrappers
+  return raw
+    .trim()
+    .replace(/^```(?:json)?\s*\n?/i, "")
+    .replace(/\n?```\s*$/i, "")
+    .trim();
+}
 
 /**
  * Automatically fixes common JSON syntax errors:
@@ -8,17 +23,18 @@ import { importJsonSchema, ImportJson, QuestionInput } from "./validators/questi
  * - Unbalanced closing brackets/braces
  */
 export function autoFixJson(rawJson: string): { fixedText: string; success: boolean } {
-  let cleaned = rawJson.trim();
+  // First strip markdown fences if present
+  let cleaned = stripMarkdownFences(rawJson);
 
   // 1. Strip single-line comments // ...
   cleaned = cleaned.replace(/^\s*\/\/.*$/gm, "");
 
   // 2. Fix trailing commas before } or ]
-  cleaned = cleaned.replace(/,(\s*[\}\]])/g, "$1");
+  cleaned = cleaned.replace(/(,)(\s*[\}\]])/g, "$2");
 
   // 3. Replace single quotes around keys or string values with double quotes
   // Replace 'key': with "key":
-  cleaned = cleaned.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'\s*:/g, '"$1":');
+  cleaned = cleaned.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'(\s*):/g, '"$1"$2:');
   // Replace : 'value' with : "value"
   cleaned = cleaned.replace(/:\s*'([^'\\]*(?:\\.[^'\\]*)*)'/g, ': "$1"');
   // Replace array items 'item' with "item"
@@ -70,33 +86,40 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
     const qArray = Array.isArray(obj) ? obj : Array.isArray(obj?.questions) ? obj.questions : null;
 
     if (qArray) {
-      for (const q of qArray) {
-        if (q && typeof q === "object") {
-          // Fix sequence without meta.items
-          if (q.type === "sequence" && !q.meta?.items) {
-            const extractedItems = Array.isArray(q.options)
-              ? q.options.map((o: any) => o?.text || String(o)).filter(Boolean)
-              : [];
-            q.meta = {
-              ...(q.meta || {}),
-              items: extractedItems.length > 0 ? extractedItems : ["Item 1", "Item 2", "Item 3", "Item 4"],
-            };
-            modified = true;
-          }
+      for (let i = 0; i < qArray.length; i++) {
+        const q = qArray[i];
+        if (!q || typeof q !== "object") continue;
 
-          // Fix match_following without meta.left/right or columnA/columnB
-          if (q.type === "match_following" && !(q.meta?.left || q.meta?.columnA)) {
-            const optTexts = Array.isArray(q.options)
-              ? q.options.map((o: any) => o?.text || String(o)).filter(Boolean)
-              : [];
-            q.meta = {
-              ...(q.meta || {}),
-              left: optTexts.slice(0, 2).length > 0 ? optTexts.slice(0, 2) : ["List I - Item A", "List I - Item B"],
-              right: optTexts.slice(2, 4).length > 0 ? optTexts.slice(2, 4) : ["List II - Item 1", "List II - Item 2"],
-            };
+        // Detect and normalize minified format in-place
+        if ("q" in q && !("questionText" in q)) {
+          const normalized = normalizeMinifiedQuestion(q);
+          if (normalized) {
+            qArray[i] = normalized;
             modified = true;
           }
+          continue;
         }
+
+        // Legacy: fix match_following without meta
+        if (
+          (q.type === "match_following" || q.type === "match") &&
+          !(q.meta?.left || q.meta?.columnA)
+        ) {
+          q.meta = {
+            ...(q.meta || {}),
+            left: [],
+            right: [],
+          };
+          modified = true;
+        }
+      }
+
+      // Wrap array into object if needed
+      if (Array.isArray(obj)) {
+        const finalResult = modified ? JSON.stringify({ questions: qArray }, null, 2) : cleaned;
+        // But keep array format if it's already valid
+        const asArray = JSON.stringify(qArray, null, 2);
+        return { fixedText: modified ? asArray : cleaned, success: true };
       }
     }
 
@@ -212,8 +235,8 @@ export function parsePlainTextQuestions(
     }
 
     // Check for Question start: "Question:", "Q1.", "Q1:", "1.", "1)"
-    const qMatch = line.match(/^(?:Question\s*\d*[:.]?|Q\d*[:.]?|\d+[\).])\s*(.*)/i);
-    if (qMatch && !/^A[\).]/i.test(line) && !/^B[\).]/i.test(line) && !/^C[\).]/i.test(line) && !/^D[\).]/i.test(line)) {
+    const qMatch = line.match(/^(?:Question\s*\d*[:.]?|Q\d*[:.]?|\d+[\).?])\s*(.*)/i);
+    if (qMatch && !/^A[\.)] /i.test(line) && !/^B[\.)] /i.test(line) && !/^C[\.)] /i.test(line) && !/^D[\.)] /i.test(line)) {
       // If we already had a question, finalize it
       if (currentQuestionText) {
         finalizeQuestion();

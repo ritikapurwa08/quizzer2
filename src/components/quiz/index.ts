@@ -1,22 +1,26 @@
-import { QuestionType } from "@/lib/constants";
 import { QuestionRendererProps } from "@/types";
 import { McqRenderer } from "./McqRenderer";
 import { TrueFalseRenderer } from "./TrueFalseRenderer";
-import { StatementReasonRenderer } from "./StatementReasonRenderer";
-import { AssertionReasonRenderer } from "./AssertionReasonRenderer";
-import { TableRenderer } from "./TableRenderer";
 import { MatchFollowingRenderer } from "./MatchFollowingRenderer";
-import { SequenceRenderer } from "./SequenceRenderer";
+import { AssertionReasonRenderer } from "./AssertionReasonRenderer";
 
-/** SRD Section 10 — one shared prop shape, one renderer per question type. */
-export const QUESTION_RENDERERS: Record<QuestionType, React.ComponentType<QuestionRendererProps>> = {
+/** v2 — four canonical question types + legacy aliases that fall back to the
+ *  nearest equivalent renderer. This allows old imported questions (that may
+ *  still carry legacy type strings) to render correctly without crashing.
+ */
+export const QUESTION_RENDERERS: Record<string, React.ComponentType<QuestionRendererProps>> = {
+  // ── v2 canonical types ──────────────────────────────────────────────────
   mcq: McqRenderer,
+  match: MatchFollowingRenderer,
+  assertion: AssertionReasonRenderer,
   true_false: TrueFalseRenderer,
-  statement_reason: StatementReasonRenderer,
-  assertion_reason: AssertionReasonRenderer,
-  table: TableRenderer,
+
+  // ── legacy aliases ──────────────────────────────────────────────────────
   match_following: MatchFollowingRenderer,
-  sequence: SequenceRenderer,
+  assertion_reason: AssertionReasonRenderer,
+  statement_reason: McqRenderer,
+  sequence: McqRenderer,   // renders MCQ options; sequence items shown via meta display
+  table: McqRenderer,      // renders MCQ options; table rendered via meta display
 };
 
 export { QuestionShell } from "./QuestionShell";
