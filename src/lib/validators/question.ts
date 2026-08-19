@@ -36,11 +36,11 @@ export const questionSchema = z
     correctAnswer: z.union([z.string(), z.array(z.string())]),
     explanation: z.string().optional(),
     reference: z.string().optional(),
-    difficulty: difficultySchema,
+    difficulty: difficultySchema.default("medium"),
     meta: z.any().optional(),
   })
   .superRefine((q, ctx) => {
-    const needsOptions = ["mcq", "true_false", "assertion", "assertion_reason", "statement_reason"];
+    const needsOptions = ["mcq", "true_false", "assertion", "assertion_reason", "statement_reason", "match", "match_following"];
     if (needsOptions.includes(q.type) && q.options.length === 0) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
@@ -59,47 +59,9 @@ export const questionSchema = z
         });
       }
     }
-
-    if ((q.type === "match" || q.type === "match_following") && !(q.meta?.columnA || q.meta?.left)) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message: `match requires meta.left and meta.right (or meta.columnA and meta.columnB)`,
-        path: ["meta"],
-      });
-    }
   });
 
-export const importObjectSchema = z.object({
-  subject: z.string().optional(),
-  topic: z.string().optional(),
-  testSet: z.string().optional(),
-  negativeMarking: z.boolean().optional(),
-  questions: z.array(questionSchema).min(1, "At least one question is required"),
-});
-
-export const importArraySchema = z.array(questionSchema).min(1, "At least one question is required");
-
-export const importJsonSchema = z.union([
-  importArraySchema.transform((questions) => ({
-    subject: undefined,
-    topic: undefined,
-    testSet: undefined,
-    negativeMarking: undefined,
-    questions,
-  })),
-  importObjectSchema,
-]);
-
-export type ImportJson = {
-  subject?: string;
-  topic?: string;
-  testSet?: string;
-  negativeMarking?: boolean;
-  questions: z.infer<typeof questionSchema>[];
-};
-export type QuestionInput = z.infer<typeof questionSchema>;
-
-// ── Minified JSON key mapping (new AI prompt schema) ────────────────────────
+// ── Minified JSON key mapping (AI prompt schema) ────────────────────────
 // Maps: q→questionText, o→options, a→correctAnswer index, e→explanation, t→type
 const MINIFIED_INDEX_TO_OPT: Record<number, string> = {
   0: "opt1",
@@ -120,12 +82,39 @@ const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
   table: "mcq",    // downgrade to mcq safely
 };
 
+/** Extracts List-I and List-II text lines from question text for match questions */
+export function extractMatchListsFromText(text: string): { left: string[]; right: string[] } {
+  if (!text) return { left: [], right: [] };
+  const list2Regex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:]?\s*(?:II|2|B)\b/i;
+  const match2 = text.match(list2Regex);
+  if (match2 && match2.index !== undefined) {
+    const part1 = text.slice(0, match2.index);
+    const part2 = text.slice(match2.index);
+    const itemRegex = /^(?:[A-D1-4][\.\):]|\([A-D1-4]\))\s*(.*)/;
+    const extractedLeft: string[] = [];
+    const extractedRight: string[] = [];
+    part1.split(/\r?\n/).forEach((line) => {
+      const trimmed = line.trim();
+      if (itemRegex.test(trimmed)) extractedLeft.push(trimmed);
+    });
+    part2.split(/\r?\n/).forEach((line) => {
+      const trimmed = line.trim();
+      if (itemRegex.test(trimmed)) extractedRight.push(trimmed);
+    });
+    if (extractedLeft.length > 0 || extractedRight.length > 0) {
+      return { left: extractedLeft, right: extractedRight };
+    }
+  }
+  return { left: [], right: [] };
+}
+
 /** Converts a raw minified AI output question object to standard QuestionInput.
  *  Handles both minified keys (q/o/a/e/t) and full keys (questionText/options/etc.).
  */
 export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInput | null {
+  if (!raw || typeof raw !== "object") return null;
+
   try {
-    // Detect minified format by presence of 'q' key
     const isMinified = "q" in raw && !("questionText" in raw);
 
     const questionText: string = isMinified
@@ -134,18 +123,19 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
 
     if (!questionText) return null;
 
-    // Options: minified = string[], full = {id, text}[]
+    // Options: string[] or {id, text}[]
     let options: { id: string; text: string }[] = [];
-    if (isMinified && Array.isArray(raw.o)) {
-      options = raw.o.slice(0, 4).map((text: any, i: number) => ({
-        id: `opt${i + 1}`,
-        text: String(text ?? "").trim(),
-      }));
-    } else if (Array.isArray(raw.options)) {
-      options = raw.options.map((o: any, i: number) => ({
-        id: o.id || `opt${i + 1}`,
-        text: String(o.text ?? "").trim(),
-      }));
+    const rawOptions = raw.o ?? raw.options;
+    if (Array.isArray(rawOptions)) {
+      options = rawOptions.map((item: any, i: number) => {
+        if (typeof item === "string") {
+          return { id: `opt${i + 1}`, text: item.trim() };
+        }
+        if (item && typeof item === "object") {
+          return { id: item.id || `opt${i + 1}`, text: String(item.text ?? "").trim() };
+        }
+        return { id: `opt${i + 1}`, text: String(item ?? "").trim() };
+      });
     }
 
     // Pad to 4 options
@@ -153,30 +143,40 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       options.push({ id: `opt${options.length + 1}`, text: `Option ${options.length + 1}` });
     }
 
-    // Correct answer: minified = integer index 0-3, full = "opt1" etc.
-    let correctAnswer: string = "opt1";
-    if (isMinified && typeof raw.a === "number") {
-      correctAnswer = MINIFIED_INDEX_TO_OPT[raw.a] ?? "opt1";
-    } else if (typeof raw.correctAnswer === "string") {
-      correctAnswer = raw.correctAnswer;
+    // Correct answer: integer index (0-3), option ID string ("opt1", "A"), or array
+    let correctAnswer: string | string[] = "opt1";
+    const rawAnswer = raw.a !== undefined ? raw.a : raw.correctAnswer;
+    if (typeof rawAnswer === "number") {
+      correctAnswer = MINIFIED_INDEX_TO_OPT[rawAnswer] ?? `opt${rawAnswer + 1}`;
+    } else if (typeof rawAnswer === "string") {
+      const trimmed = rawAnswer.trim();
+      const upper = trimmed.toUpperCase();
+      if (upper === "A" || upper === "1") correctAnswer = "opt1";
+      else if (upper === "B" || upper === "2") correctAnswer = "opt2";
+      else if (upper === "C" || upper === "3") correctAnswer = "opt3";
+      else if (upper === "D" || upper === "4") correctAnswer = "opt4";
+      else correctAnswer = trimmed;
+    } else if (Array.isArray(rawAnswer)) {
+      correctAnswer = rawAnswer.map(String);
     }
 
     // Type: map minified or legacy type to canonical
-    const rawType: string = isMinified
-      ? String(raw.t ?? "mcq").toLowerCase()
-      : String(raw.type ?? "mcq").toLowerCase();
+    const rawType: string = String(raw.t ?? raw.type ?? "mcq").toLowerCase().trim();
     const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? "mcq";
 
-    const explanation: string | undefined = isMinified
-      ? (raw.e ? String(raw.e).trim() : undefined)
-      : (raw.explanation ? String(raw.explanation).trim() : undefined);
+    const explanation: string | undefined =
+      (raw.e !== undefined ? String(raw.e).trim() : undefined) ??
+      (raw.explanation !== undefined ? String(raw.explanation).trim() : undefined);
 
     const difficulty = (raw.difficulty as "easy" | "medium" | "hard") ?? "medium";
 
-    // Meta handling for match type
+    // Meta handling for match questions
     let meta: any = raw.meta ?? undefined;
-    if ((type === "match" || type === "match_following") && !meta?.left && !meta?.columnA) {
-      meta = { left: [], right: [] };
+    if (type === "match" || type === "match_following") {
+      if (!meta || (!meta.left && !meta.columnA)) {
+        const extracted = extractMatchListsFromText(questionText);
+        meta = { left: extracted.left, right: extracted.right };
+      }
     }
 
     return {
@@ -184,8 +184,8 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       questionText,
       options,
       correctAnswer,
-      explanation,
-      reference: raw.reference,
+      explanation: explanation || undefined,
+      reference: raw.reference ? String(raw.reference).trim() : undefined,
       difficulty,
       meta,
     };
@@ -193,3 +193,42 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     return null;
   }
 }
+
+/** Preprocesses any raw question object, adapting minified schema automatically */
+export const adaptableQuestionSchema = z.preprocess((val) => {
+  if (val && typeof val === "object") {
+    const normalized = normalizeMinifiedQuestion(val as Record<string, any>);
+    if (normalized) return normalized;
+  }
+  return val;
+}, questionSchema);
+
+export const importObjectSchema = z.object({
+  subject: z.string().optional(),
+  topic: z.string().optional(),
+  testSet: z.string().optional(),
+  negativeMarking: z.boolean().optional(),
+  questions: z.array(adaptableQuestionSchema).min(1, "At least one question is required"),
+});
+
+export const importArraySchema = z.array(adaptableQuestionSchema).min(1, "At least one question is required");
+
+export const importJsonSchema = z.union([
+  importArraySchema.transform((questions) => ({
+    subject: undefined,
+    topic: undefined,
+    testSet: undefined,
+    negativeMarking: undefined,
+    questions,
+  })),
+  importObjectSchema,
+]);
+
+export type ImportJson = {
+  subject?: string;
+  topic?: string;
+  testSet?: string;
+  negativeMarking?: boolean;
+  questions: z.infer<typeof questionSchema>[];
+};
+export type QuestionInput = z.infer<typeof questionSchema>;
