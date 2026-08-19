@@ -9,7 +9,7 @@ import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
-import { formatAccuracy, cn } from "@/lib/utils";
+import { formatAccuracy, formatScore, cn } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
 
 export default function DashboardPage() {
@@ -151,7 +151,7 @@ export default function DashboardPage() {
                       {accuracy.toFixed(0)}%
                     </span>
                     <span className="font-semibold text-xs px-2.5 py-1 rounded-lg bg-muted text-foreground tabular-nums">
-                      {a.score} / {a.totalQuestions}
+                      {formatScore(a.score ?? 0)} / {a.totalQuestions * 2}
                     </span>
                   </div>
                 </li>

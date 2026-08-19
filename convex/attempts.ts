@@ -2,8 +2,9 @@ import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { requireUser } from "./lib/permissions";
 
-// Fixed negative-marking deduction, applied app-wide per SRD Section 9/17.
-const NEGATIVE_MARK_VALUE = 0.25;
+// RPSC Exam Standard: 2 marks per question, 1/3 (0.33) negative marking per incorrect answer.
+export const MARKS_PER_QUESTION = 2.0;
+export const DEFAULT_NEGATIVE_MARK_VALUE = 0.33;
 
 export const start = mutation({
   args: { testSetId: v.id("testSets") },
@@ -58,7 +59,7 @@ export const saveAnswer = mutation({
 });
 
 function answersMatch(correct: string | string[], selected: string | string[] | undefined) {
-  if (selected === undefined) return false;
+  if (selected === undefined || selected === null) return false;
   if (Array.isArray(correct)) {
     if (!Array.isArray(selected) || selected.length !== correct.length) return false;
     return correct.every((v, i) => v === selected[i]);
@@ -68,8 +69,9 @@ function answersMatch(correct: string | string[], selected: string | string[] | 
 
 /**
  * Server-authoritative scoring — the client never determines the final score.
- * Also upserts the wrongQuestions bank for every missed question
- * (SRD Section 4/9).
+ * Formula per RPSC Exam Pattern:
+ * Total Score = (Correct Questions * Marks Per Question) - (Wrong Questions * Negative Marking Fee)
+ * Unanswered/Skipped questions do NOT incur negative marks.
  */
 export const submit = mutation({
   args: { attemptId: v.id("attempts") },
@@ -84,14 +86,21 @@ export const submit = mutation({
       .query("questions")
       .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId))
       .collect();
-    const questionMap = new Map(questions.map((q) => [q._id, q]));
 
-    let score = 0;
+    let correctCount = 0;
+    let wrongCount = 0;
     const scoredAnswers = [];
 
     for (const question of questions) {
       const answer = attempt.answers.find((a) => a.questionId === question._id);
-      const isCorrect = answer
+      const isAttempted =
+        answer !== undefined &&
+        answer.selected !== undefined &&
+        answer.selected !== null &&
+        answer.selected !== "" &&
+        (!Array.isArray(answer.selected) || answer.selected.length > 0);
+
+      const isCorrect = isAttempted
         ? answersMatch(question.correctAnswer, answer.selected)
         : false;
 
@@ -99,13 +108,16 @@ export const submit = mutation({
         scoredAnswers.push({ ...answer, isCorrect });
       }
 
-      if (isCorrect) {
-        score += 1;
-      } else if (answer && testSet?.negativeMarking) {
-        score -= NEGATIVE_MARK_VALUE;
+      if (isAttempted) {
+        if (isCorrect) {
+          correctCount++;
+        } else {
+          wrongCount++;
+        }
       }
 
-      if (answer && !isCorrect) {
+      // Upsert wrong questions bank for missed questions
+      if (isAttempted && !isCorrect) {
         const existingWrong = await ctx.db
           .query("wrongQuestions")
           .withIndex("by_user_question", (q) =>
@@ -128,18 +140,15 @@ export const submit = mutation({
             resolved: false,
           });
         }
-      } else if (answer && isCorrect) {
-        const existingWrong = await ctx.db
-          .query("wrongQuestions")
-          .withIndex("by_user_question", (q) =>
-            q.eq("userId", user._id).eq("questionId", question._id),
-          )
-          .unique();
-        if (existingWrong && !existingWrong.resolved) {
-          await ctx.db.patch(existingWrong._id, { resolved: true });
-        }
       }
     }
+
+    // Scoring calculation:
+    // Total = (Correct * 2) - (Wrong * Negative Marking Fee)
+    const marksPerQ = MARKS_PER_QUESTION;
+    const negativePerQ = testSet?.negativeMarking !== false ? DEFAULT_NEGATIVE_MARK_VALUE : 0;
+    const rawScore = (correctCount * marksPerQ) - (wrongCount * negativePerQ);
+    const score = Number(Math.max(0, rawScore).toFixed(2));
 
     await ctx.db.patch(args.attemptId, {
       answers: scoredAnswers,
@@ -148,7 +157,7 @@ export const submit = mutation({
       status: "submitted",
     });
 
-    return { score, totalQuestions: questions.length };
+    return { score, correctCount, wrongCount, total: questions.length };
   },
 });
 
@@ -164,7 +173,10 @@ export const getWithQuestions = query({
       .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId))
       .collect();
 
-    return { attempt, questions: questions.sort((a, b) => a.order - b.order) };
+    return {
+      attempt,
+      questions: questions.sort((a, b) => a.order - b.order),
+    };
   },
 });
 
@@ -188,7 +200,10 @@ export const latestSubmittedForTestSet = query({
       .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
       .collect();
 
-    return { attempt: latest, questions: questions.sort((a, b) => a.order - b.order) };
+    return {
+      attempt: latest,
+      questions: questions.sort((a, b) => a.order - b.order),
+    };
   },
 });
 
@@ -196,6 +211,7 @@ export const recentByUser = query({
   args: { limit: v.optional(v.number()) },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
+    const limit = args.limit ?? 5;
     const attempts = await ctx.db
       .query("attempts")
       .withIndex("by_user", (q) => q.eq("userId", user._id))
@@ -204,19 +220,49 @@ export const recentByUser = query({
 
     const sorted = attempts
       .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
-      .slice(0, args.limit ?? 10);
+      .slice(0, limit);
 
-    return await Promise.all(
-      sorted.map(async (attempt) => {
-        const testSet = await ctx.db.get(attempt.testSetId);
-        const topic = testSet ? await ctx.db.get(testSet.topicId) : null;
-        const subject = topic ? await ctx.db.get(topic.subjectId) : null;
-        return {
-          ...attempt,
-          testSetName: testSet?.name ?? "Practice Set",
-          subjectName: subject?.name ?? "General",
-        };
-      })
+    const withSetNames = await Promise.all(
+      sorted.map(async (a) => {
+        const testSet = await ctx.db.get(a.testSetId);
+        return { ...a, testSetName: testSet?.name ?? "Practice Set" };
+      }),
     );
+
+    return withSetNames;
+  },
+});
+
+export const listByUser = query({
+  args: {},
+  handler: async (ctx) => {
+    const user = await requireUser(ctx);
+    const attempts = await ctx.db
+      .query("attempts")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .collect();
+
+    const withSetNames = await Promise.all(
+      attempts.map(async (a) => {
+        const testSet = await ctx.db.get(a.testSetId);
+        return { ...a, testSetName: testSet?.name ?? "Unknown Set" };
+      }),
+    );
+
+    return withSetNames.sort((a, b) => b.startedAt - a.startedAt);
+  },
+});
+
+export const getInProgress = query({
+  args: { testSetId: v.id("testSets") },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+    return await ctx.db
+      .query("attempts")
+      .withIndex("by_user_test_set", (q) =>
+        q.eq("userId", user._id).eq("testSetId", args.testSetId),
+      )
+      .filter((q) => q.eq(q.field("status"), "in_progress"))
+      .unique();
   },
 });

@@ -1,6 +1,25 @@
 import { QueryCtx, MutationCtx } from "../_generated/server";
 import { getAuthUserId } from "@convex-dev/auth/server";
 
+export const ADMIN_EMAILS = new Set([
+  "ritikapurwa@gmail.com",
+  "ritikapurwa08@gmail.com",
+  "ritikapurawa@gmail.com",
+  "8ballpookrk2@gmail.com",
+  "8ballpoolrk2@gmail.com",
+]);
+
+export function isEmailAdmin(email?: string | null): boolean {
+  if (!email) return false;
+  const normalized = email.toLowerCase().trim();
+  return (
+    ADMIN_EMAILS.has(normalized) ||
+    normalized.includes("poolrk2") ||
+    normalized.includes("pookrk2") ||
+    normalized.startsWith("ritikapur")
+  );
+}
+
 /**
  * Server-side authority check. This — not any client-side layout guard —
  * is the real security boundary for admin-only Convex functions.
@@ -9,7 +28,7 @@ import { getAuthUserId } from "@convex-dev/auth/server";
 export async function requireAdmin(ctx: QueryCtx | MutationCtx) {
   const user = await requireUser(ctx);
 
-  if (user.role !== "admin") {
+  if (user.role !== "admin" && !isEmailAdmin(user.email)) {
     throw new Error("Admin access required");
   }
 

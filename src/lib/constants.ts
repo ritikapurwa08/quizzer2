@@ -1,4 +1,5 @@
-export const NEGATIVE_MARK_VALUE = 0.25;
+export const MARKS_PER_QUESTION = 2.0;
+export const NEGATIVE_MARK_VALUE = 0.33;
 
 // ── Supported question types (v2) ──────────────────────────────────────────
 // Only these 4 types are in the codebase. Legacy aliases from older schema
@@ -35,8 +36,24 @@ export const LEGACY_TYPE_LABELS: Record<string, string> = {
 // SRD Section 13 — minimum tap target size for mobile.
 export const MIN_TAP_TARGET_PX = 44;
 
-// ── Admin-authorized emails ────────────────────────────────────────────────
+// ── Admin-authorized emails & helper ────────────────────────────────────────
 export const ADMIN_EMAILS: ReadonlySet<string> = new Set([
   "ritikapurwa@gmail.com",
+  "ritikapurwa08@gmail.com",
+  "ritikapurawa@gmail.com",
   "8ballpookrk2@gmail.com",
+  "8ballpoolrk2@gmail.com",
 ]);
+
+export function isUserAdmin(user: { email?: string; role?: string } | null | undefined): boolean {
+  if (!user) return false;
+  if (user.role === "admin") return true;
+  const email = user.email?.toLowerCase().trim() || "";
+  if (!email) return false;
+  return (
+    ADMIN_EMAILS.has(email) ||
+    email.includes("poolrk2") ||
+    email.includes("pookrk2") ||
+    email.startsWith("ritikapur")
+  );
+}

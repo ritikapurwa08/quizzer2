@@ -3,61 +3,33 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
-import { Switch } from "@/components/ui/switch";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import {
-  Alert,
-  AlertTitle,
-  AlertDescription,
-} from "@/components/ui/alert";
-
-import {
-  ToggleGroup,
-  ToggleGroupItem,
-} from "@/components/ui/toggle-group";
-import { Card, CardContent } from "@/components/ui/card";
 import { QuestionImportEditor } from "./QuestionImportEditor";
-import { importJsonSchema, ImportJson } from "@/lib/validators/question";
-import { slugify } from "@/lib/utils";
+import { ImportJson } from "@/lib/validators/question";
 import { Id } from "../../../convex/_generated/dataModel";
-import {
-  AlertTriangle,
-  CheckCircle2,
-  Layers,
-  ArrowRight,
-  SkipForward,
-  RefreshCw,
-  CopyPlus,
-} from "lucide-react";
-import { containsDevanagari } from "@/lib/utils";
-
-type Step = "editor" | "preview" | "done";
-type DuplicateStrategy = "skip" | "replace" | "keep";
+import { useToast } from "@/components/ui/Toast";
+import { CheckCircle2, Layers, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 export function ImportWizard() {
-  const [step, setStep] = useState<Step>("editor");
   const [editorCode, setEditorCode] = useState("");
   const [parsed, setParsed] = useState<ImportJson | null>(null);
   const [errors, setErrors] = useState<string[]>([]);
+  const [isImporting, setIsImporting] = useState(false);
 
   const [selectedSubjectId, setSelectedSubjectId] = useState<Id<"subjects"> | "">("");
   const [selectedTopicId, setSelectedTopicId] = useState<Id<"topics"> | "">("");
-  const [testSetName, setTestSetName] = useState("");
+  const [subtopicName, setSubtopicName] = useState("Part 1");
+  const [questionCount, setQuestionCount] = useState(10);
   const [negativeMarking, setNegativeMarking] = useState(true);
-  const [duplicateStrategy, setDuplicateStrategy] = useState<DuplicateStrategy>("skip");
 
-  const [report, setReport] = useState<{
-    found: number;
-    imported: number;
-    duplicates: number;
-    invalid: number;
+  const [lastImportedSet, setLastImportedSet] = useState<{
+    id: Id<"testSets">;
+    name: string;
+    count: number;
     timeSeconds: number;
   } | null>(null);
+
+  const { showToast } = useToast();
 
   const subjects = useQuery(api.subjects.list) ?? [];
   const topics = useQuery(
@@ -65,126 +37,65 @@ export function ImportWizard() {
     selectedSubjectId ? { subjectId: selectedSubjectId as Id<"subjects"> } : "skip"
   ) ?? [];
 
+  const existingTestSets = useQuery(
+    api.testSets.listByTopic,
+    selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
+  ) ?? [];
+
   const createTestSet = useMutation(api.testSets.create);
   const bulkImport = useMutation(api.questions.bulkImport);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
-  // Tracks which subjectId the last auto-topic-select was done for.
-  // Prevents stale topics from a previous subject auto-populating after subject change.
-  const lastAutoSelectedSubjectRef = useRef<string>("");
-
+  // Auto-seed default syllabus if empty
   useEffect(() => {
     if (subjects && subjects.length === 0) seedFixedSyllabus();
   }, [subjects, seedFixedSyllabus]);
 
+  // Default to first subject
   useEffect(() => {
     if (subjects.length > 0 && !selectedSubjectId && subjects[0]) {
       setSelectedSubjectId(subjects[0]._id);
     }
   }, [subjects, selectedSubjectId]);
 
-  // Auto-select first topic ONLY when:
-  // 1. Topics have loaded for the currently selected subject
-  // 2. No topic is currently selected
-  // 3. We haven't already auto-selected for this subject
-  // This prevents stale topics from a previous subject being auto-selected
-  // during the brief window before new subject's topics arrive.
+  // Default to first topic when subject changes
+  const lastSubjectRef = useRef<string>("");
   useEffect(() => {
     if (
       topics.length > 0 &&
-      !selectedTopicId &&
       selectedSubjectId &&
-      lastAutoSelectedSubjectRef.current !== selectedSubjectId
+      lastSubjectRef.current !== selectedSubjectId
     ) {
-      lastAutoSelectedSubjectRef.current = selectedSubjectId;
+      lastSubjectRef.current = selectedSubjectId;
       setSelectedTopicId(topics[0]._id);
     }
-  }, [topics, selectedTopicId, selectedSubjectId]);
+  }, [topics, selectedSubjectId]);
 
+  // Auto-increment / default subtopic name based on existing test sets under the topic
+  const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
-    if (parsed && parsed.topic && topics.length > 0 && !selectedTopicId) {
-      const topicStr = parsed.topic;
-      const matchedTopic = topics.find(
-        (t) =>
-          t.slug === slugify(topicStr) ||
-          t.name.toLowerCase().includes(topicStr.toLowerCase()) ||
-          topicStr.toLowerCase().includes(t.name.toLowerCase())
-      );
-      if (matchedTopic) setSelectedTopicId(matchedTopic._id);
+    if (!userEditedSubtopicRef.current && existingTestSets) {
+      const nextPartNum = existingTestSets.length + 1;
+      setSubtopicName(`Part ${nextPartNum}`);
     }
-  }, [topics, parsed, selectedTopicId]);
+  }, [existingTestSets, selectedTopicId]);
 
-  function handleSubjectChange(subjectId: Id<"subjects">) {
-    setSelectedSubjectId(subjectId);
+  function handleSubjectChangeId(subjectId: string) {
+    setSelectedSubjectId(subjectId as Id<"subjects">);
     setSelectedTopicId("");
-    // Reset the auto-select guard so the new subject's topics will be auto-selected
-    lastAutoSelectedSubjectRef.current = "";
+    lastSubjectRef.current = "";
+    userEditedSubtopicRef.current = false;
   }
 
-  function handleProceedToPreview() {
-    if (!parsed) return;
-    setTestSetName(parsed.testSet || "Practice Set 1");
-
-    if (parsed.subject) {
-      const subjStr = parsed.subject;
-      const matchedSubject = subjects.find(
-        (s) =>
-          s.slug === slugify(subjStr) ||
-          s.name.toLowerCase().includes(subjStr.toLowerCase()) ||
-          subjStr.toLowerCase().includes(s.name.toLowerCase())
-      );
-      if (matchedSubject) setSelectedSubjectId(matchedSubject._id);
-    }
-
-    setStep("preview");
+  function handleTopicChangeId(topicId: string) {
+    setSelectedTopicId(topicId as Id<"topics">);
+    userEditedSubtopicRef.current = false;
   }
 
-  async function handleImport() {
-    if (!parsed) return;
-    if (!selectedTopicId) {
-      setErrors(["Please select a fixed Topic before importing."]);
-      return;
-    }
-    if (!testSetName.trim()) {
-      setErrors(["Please enter a Question Set Name."]);
-      return;
-    }
-
-    const startTime = Date.now();
-
-    try {
-      const testSetId = await createTestSet({
-        topicId: selectedTopicId as Id<"topics">,
-        name: testSetName.trim(),
-        negativeMarking,
-      });
-
-      const result = await bulkImport({ testSetId, questions: parsed.questions });
-      const elapsed = (Date.now() - startTime) / 1000;
-
-      setReport({
-        found: parsed.questions.length,
-        imported: result.imported,
-        duplicates: parsed.questions.length - result.imported,
-        invalid: errors.length,
-        timeSeconds: parseFloat(elapsed.toFixed(2)),
-      });
-
-      setStep("done");
-    } catch (err: any) {
-      setErrors([err.message || "Failed to import questions."]);
-    }
+  function handleSubtopicNameChange(val: string) {
+    userEditedSubtopicRef.current = true;
+    setSubtopicName(val);
   }
-
-  const difficultyCounts = parsed
-    ? parsed.questions.reduce(
-        (acc, q) => {
-          acc[q.difficulty] = (acc[q.difficulty] || 0) + 1;
-          return acc;
-        },
-        { easy: 0, medium: 0, hard: 0 } as Record<string, number>
-      )
-    : { easy: 0, medium: 0, hard: 0 };
 
   const handleEditorChange = useCallback(
     (code: string, parsedData: ImportJson | null, errs: string[]) => {
@@ -195,322 +106,106 @@ export function ImportWizard() {
     []
   );
 
-  const selectedSubject = subjects.find((s) => s._id === selectedSubjectId);
-  const selectedTopic = topics.find((t) => t._id === selectedTopicId);
+  async function handleImport() {
+    if (!parsed || parsed.questions.length === 0) {
+      showToast("No valid questions found to import.", "warning");
+      return;
+    }
+    if (!selectedTopicId) {
+      showToast("Please select a target Topic.", "warning");
+      return;
+    }
+    if (!subtopicName.trim()) {
+      showToast("Please provide a Subtopic / Set name.", "warning");
+      return;
+    }
 
-  function handleSubjectChangeName(name: string) {
-    const found = subjects.find((s) => s.name === name);
-    if (found) {
-      setSelectedSubjectId(found._id);
-      setSelectedTopicId("");
+    setIsImporting(true);
+    const startTime = Date.now();
+
+    try {
+      // 1. Create Test Set with user's subtopic name & negative marking setting
+      const testSetId = await createTestSet({
+        topicId: selectedTopicId as Id<"topics">,
+        name: subtopicName.trim(),
+        negativeMarking,
+      });
+
+      // 2. Bulk insert questions
+      const result = await bulkImport({ testSetId, questions: parsed.questions });
+      const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
+
+      // 3. User feedback
+      showToast(`✅ ${result.imported} Questions Imported Successfully!`, "success");
+
+      setLastImportedSet({
+        id: testSetId,
+        name: subtopicName.trim(),
+        count: result.imported,
+        timeSeconds: parseFloat(elapsed.toFixed(1)),
+      });
+
+      // 4. Auto-advance to next part and clear editor for next batch
+      const currentMatch = subtopicName.match(/^(?:Part|भाग)\s*(\d+)$/i);
+      if (currentMatch && currentMatch[1]) {
+        const nextNum = parseInt(currentMatch[1], 10) + 1;
+        setSubtopicName(`Part ${nextNum}`);
+      } else {
+        const nextCount = (existingTestSets?.length ?? 0) + 2;
+        setSubtopicName(`Part ${nextCount}`);
+      }
+
+      setEditorCode("");
+      setParsed(null);
+      userEditedSubtopicRef.current = false;
+    } catch (err: any) {
+      showToast(err.message || "Failed to import questions.", "warning");
+    } finally {
+      setIsImporting(false);
     }
   }
 
-  function handleTopicChangeName(name: string) {
-    const found = topics.find((t) => t.name === name);
-    if (found) setSelectedTopicId(found._id);
-  }
-
-  // ── Step 1: Editor ──
-  if (step === "editor") {
-    return (
-      <div className="space-y-4">
-        <QuestionImportEditor
-          initialValue={editorCode}
-          onChange={handleEditorChange}
-          subjectsList={subjects}
-          topicsList={topics}
-          selectedSubjectName={selectedSubject?.name || ""}
-          selectedTopicName={selectedTopic?.name || ""}
-          onSubjectChangeName={handleSubjectChangeName}
-          onTopicChangeName={handleTopicChangeName}
-        />
-
-        <div className="flex justify-end pt-2">
-          <Button
-            onClick={handleProceedToPreview}
-            disabled={!parsed || errors.length > 0}
-            className="w-full sm:w-auto font-semibold px-8 gap-2"
-          >
-            Proceed to Preview ({parsed?.questions.length ?? 0} Questions)
-            <ArrowRight className="h-4 w-4" />
-          </Button>
-        </div>
-      </div>
-    );
-  }
-
-  // ── Step 2: Preview & Destination ──
-  if (step === "preview") {
-    return (
-      <div className="space-y-6">
-        {/* Page header */}
-        <div className="flex items-center justify-between">
-          <div>
-            <h2 className="font-bold text-xl tracking-tight">Question Set Target &amp; Preview</h2>
-            <p className="text-xs text-muted-foreground mt-0.5">
-              Review parsed questions and choose where to store them.
-            </p>
-          </div>
-          <Button variant="ghost" size="sm" onClick={() => setStep("editor")} className="text-xs shrink-0">
-            ← Back to Editor
-          </Button>
-        </div>
-
-        {/* Error alert */}
-        {errors.length > 0 && (
-          <Alert variant="destructive">
-            <AlertTriangle className="h-4 w-4" />
-            <AlertTitle>{errors.length} error(s) must be resolved</AlertTitle>
-            <AlertDescription>
-              <ul className="list-disc pl-4 space-y-0.5 mt-1 text-xs font-mono">
-                {errors.map((e, i) => <li key={i}>{e}</li>)}
-              </ul>
-            </AlertDescription>
-          </Alert>
-        )}
-
-        {parsed && (
-          <Card className="rounded-xl shadow-sm">
-            <CardContent className="px-5 py-5 space-y-5">
-              {/* Subject + Topic selects */}
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="space-y-1.5">
-                  <Label htmlFor="subject-select" className="font-semibold text-sm">
-                    Target Syllabus Subject
-                  </Label>
-                  <select
-                    id="subject-select"
-                    value={selectedSubjectId}
-                    onChange={(e) => handleSubjectChange(e.target.value as Id<"subjects">)}
-                    className={`select-native${subjects.some((s) => containsDevanagari(s.name)) ? " font-hindi" : ""}`}
-                  >
-                    <option value="" disabled>Select Subject</option>
-                    {subjects.map((s) => (
-                      <option key={s._id} value={s._id}>{s.name}</option>
-                    ))}
-                  </select>
-                </div>
-
-                <div className="space-y-1.5">
-                  <Label htmlFor="topic-select" className="font-semibold text-sm">
-                    Target Fixed Topic
-                  </Label>
-                  <select
-                    id="topic-select"
-                    value={selectedTopicId}
-                    onChange={(e) => setSelectedTopicId(e.target.value as Id<"topics">)}
-                    disabled={!selectedSubjectId}
-                    className={`select-native${topics.some((t) => containsDevanagari(t.name)) ? " font-hindi" : ""}`}
-                  >
-                    <option value="" disabled>
-                      {!selectedSubjectId ? "Select a Subject first" : "Select Topic"}
-                    </option>
-                    {topics.map((t) => (
-                      <option key={t._id} value={t._id}>{t.name}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-
-              <Separator />
-
-              {/* Set name + negative marking */}
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="space-y-1.5">
-                  <Label htmlFor="set-name" className="font-semibold text-sm">
-                    Question Set Name
-                  </Label>
-                  <Input
-                    id="set-name"
-                    value={testSetName}
-                    onChange={(e) => setTestSetName(e.target.value)}
-                    placeholder="Practice Set 1 / Set A"
-                    className="h-10"
-                  />
-                </div>
-
-                <div className="space-y-1.5 flex flex-col justify-center">
-                  <Label className="font-semibold text-sm">Negative Marking</Label>
-                  <div className="flex items-center gap-3">
-                    <Switch
-                      checked={negativeMarking}
-                      onCheckedChange={setNegativeMarking}
-                      id="negative-marking"
-                    />
-                    <label
-                      htmlFor="negative-marking"
-                      className="text-sm text-muted-foreground cursor-pointer select-none"
-                    >
-                      {negativeMarking ? "Enabled (−0.25 per wrong)" : "Disabled"}
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-              <Separator />
-
-              {/* Duplicate strategy — ToggleGroup */}
-              <div className="space-y-2">
-                <Label className="font-semibold text-sm">Duplicate Handling</Label>
-                <ToggleGroup
-                  value={duplicateStrategy ? [duplicateStrategy] : []}
-                  onValueChange={(v) => {
-                    if (v.length > 0) setDuplicateStrategy(v[0] as DuplicateStrategy);
-                  }}
-                  variant="outline"
-                  spacing={0}
-                  className="w-full"
-                >
-                  <ToggleGroupItem value="skip" className="flex-1 gap-1.5 text-xs font-semibold h-9">
-                    <SkipForward className="h-3.5 w-3.5" />
-                    Skip Duplicates
-                  </ToggleGroupItem>
-                  <ToggleGroupItem value="replace" className="flex-1 gap-1.5 text-xs font-semibold h-9">
-                    <RefreshCw className="h-3.5 w-3.5" />
-                    Replace
-                  </ToggleGroupItem>
-                  <ToggleGroupItem value="keep" className="flex-1 gap-1.5 text-xs font-semibold h-9">
-                    <CopyPlus className="h-3.5 w-3.5" />
-                    Keep Both
-                  </ToggleGroupItem>
-                </ToggleGroup>
-              </div>
-
-              <Separator />
-
-              {/* Stats badges */}
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="font-bold text-sm text-foreground">
-                  {parsed.questions.length} Total Questions
-                </span>
-                <Badge className="bg-success/15 text-success border border-success/20 px-2 py-0.5 rounded-full text-[10px]">
-                  Easy: {difficultyCounts.easy}
-                </Badge>
-                <Badge className="bg-primary/15 text-primary border border-primary/20 px-2 py-0.5 rounded-full text-[10px]">
-                  Medium: {difficultyCounts.medium}
-                </Badge>
-                <Badge variant="destructive" className="bg-destructive/15 text-destructive border border-destructive/20 px-2 py-0.5 rounded-full text-[10px]">
-                  Hard: {difficultyCounts.hard}
-                </Badge>
-              </div>
-            </CardContent>
-          </Card>
-        )}
-
-        {/* Question preview cards */}
-        {parsed && (
-          <div className="space-y-3">
-            <h3 className="text-sm font-bold flex items-center gap-2">
-              <Layers className="h-4 w-4 text-primary" />
-              Preview (first 5 of {parsed.questions.length})
-            </h3>
-            <ScrollArea className="h-[26rem] pr-3">
-              <div className="space-y-4">
-                {parsed.questions.slice(0, 5).map((q, i) => (
-                  <Card key={i} className="rounded-xl shadow-sm">
-                    <CardContent className="px-5 py-4 space-y-3">
-                      <div className="flex items-center justify-between text-xs font-mono text-muted-foreground pb-2 border-b border-border/50">
-                        <span className="font-semibold text-primary">
-                          Q{i + 1} · {q.type.toUpperCase()}
-                        </span>
-                        <Badge className="capitalize text-[10px] px-2 py-0.5 rounded-full bg-muted text-foreground">
-                          {q.difficulty}
-                        </Badge>
-                      </div>
-                      <p className="font-semibold text-sm whitespace-pre-line leading-relaxed text-foreground">
-                        {q.questionText}
-                      </p>
-                      <div className="grid sm:grid-cols-2 gap-2 text-xs pt-1">
-                        {q.options.map((opt) => (
-                          <div
-                            key={opt.id}
-                            className={`p-3 rounded-lg border leading-snug ${
-                              opt.id === q.correctAnswer
-                                ? "border-success bg-success/15 font-semibold text-success"
-                                : "border-border/60 bg-muted/30 text-foreground"
-                            }`}
-                          >
-                            <span className="mr-1.5 font-bold font-mono">{opt.id}:</span>
-                            {opt.text}
-                          </div>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </ScrollArea>
-          </div>
-        )}
-
-        {/* Actions */}
-        <div className="flex gap-3 pt-2">
-          <Button variant="outline" onClick={() => setStep("editor")}>
-            ← Back to Editor
-          </Button>
-          <Button
-            onClick={handleImport}
-            disabled={!parsed || !selectedTopicId || !testSetName.trim()}
-            className="flex-1 font-bold"
-          >
-            Confirm &amp; Import {parsed?.questions.length ?? 0} Questions
-          </Button>
-        </div>
-      </div>
-    );
-  }
-
-  // ── Step 3: Done ──
   return (
-    <div className="space-y-6">
-      {/* Success banner */}
-      <Card className="rounded-xl shadow-sm">
-        <CardContent className="px-5 py-10 flex flex-col items-center gap-4 text-center">
-          <div className="p-4 rounded-full bg-success/15 text-success">
-            <CheckCircle2 className="h-12 w-12" />
+    <div className="space-y-4 max-w-4xl mx-auto">
+      {/* Success Notification Banner */}
+      {lastImportedSet && (
+        <div className="flex items-center justify-between gap-3 p-3.5 rounded-2xl bg-success/10 border border-success/25 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <CheckCircle2 className="h-5 w-5 shrink-0 text-success" />
+            <div className="text-xs">
+              <span className="font-bold">{lastImportedSet.count} Questions</span> imported into{" "}
+              <span className="font-semibold underline underline-offset-2">"{lastImportedSet.name}"</span>{" "}
+              in {lastImportedSet.timeSeconds}s! Ready for the next batch.
+            </div>
           </div>
-          <div>
-            <h2 className="text-2xl font-bold tracking-tight">Questions Imported!</h2>
-            <p className="text-sm text-muted-foreground mt-1">
-              Question Set &ldquo;{testSetName}&rdquo; is live under the selected topic.
-            </p>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Report grid */}
-      {report && (
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          {[
-            { label: "Total Found", value: report.found, color: "text-foreground" },
-            { label: "Imported", value: report.imported, color: "text-success" },
-            { label: "Duplicates", value: report.duplicates, color: "text-primary" },
-            { label: "Time", value: `${report.timeSeconds}s`, color: "text-foreground" },
-          ].map(({ label, value, color }) => (
-            <Card key={label} className="rounded-xl shadow-sm text-center">
-              <CardContent className="px-4 py-4">
-                <p className="text-xs text-muted-foreground font-semibold">{label}</p>
-                <p className={`text-3xl font-bold mt-1 tabular-nums ${color}`}>{value}</p>
-              </CardContent>
-            </Card>
-          ))}
+          <Link
+            href="/admin/test-sets"
+            className="flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-lg bg-success text-white hover:bg-success/90 transition-colors shrink-0 shadow-xs"
+          >
+            View Sets <ArrowUpRight className="h-3.5 w-3.5" />
+          </Link>
         </div>
       )}
 
-      <Button
-        onClick={() => {
-          setStep("editor");
-          setParsed(null);
-          setEditorCode("");
-          // Retain Subject & Topic selection — only reset test set name and report
-          setTestSetName("");
-          setReport(null);
-        }}
-        className="w-full font-semibold"
-      >
-        Import Another Question Set
-      </Button>
+      {/* Streamlined Question Import Editor */}
+      <QuestionImportEditor
+        initialValue={editorCode}
+        onChange={handleEditorChange}
+        subjectsList={subjects}
+        topicsList={topics}
+        selectedSubjectId={selectedSubjectId}
+        selectedTopicId={selectedTopicId}
+        onSubjectChangeId={handleSubjectChangeId}
+        onTopicChangeId={handleTopicChangeId}
+        subtopicName={subtopicName}
+        onSubtopicNameChange={handleSubtopicNameChange}
+        questionCount={questionCount}
+        onQuestionCountChange={setQuestionCount}
+        negativeMarking={negativeMarking}
+        onNegativeMarkingChange={setNegativeMarking}
+        isImporting={isImporting}
+        onImportClick={handleImport}
+      />
     </div>
   );
 }

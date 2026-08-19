@@ -54,7 +54,7 @@ export default function ResultsPage() {
         <div className="flex flex-wrap items-center justify-center gap-3 mb-1">
           <p className="text-4xl sm:text-5xl font-extrabold tracking-tight text-foreground tabular-nums">
             {formatScore(attempt.score ?? 0)}
-            <span className="text-xl text-muted-foreground font-semibold"> / {attempt.totalQuestions}</span>
+            <span className="text-xl text-muted-foreground font-semibold"> / {attempt.totalQuestions * 2} Marks</span>
           </p>
           <span
             className={cn(
