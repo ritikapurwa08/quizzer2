@@ -232,3 +232,116 @@ export type ImportJson = {
   questions: z.infer<typeof questionSchema>[];
 };
 export type QuestionInput = z.infer<typeof questionSchema>;
+
+export interface QualityIssue {
+  questionIndex: number;
+  questionText: string;
+  severity: "error" | "warning";
+  code:
+    | "DUPLICATE_OPTION"
+    | "INVALID_OPTION_COUNT"
+    | "MISSING_CORRECT_ANSWER"
+    | "LENGTH_SKEW"
+    | "DUPLICATE_QUESTION"
+    | "EMPTY_FIELD";
+  message: string;
+}
+
+/**
+ * Validates a batch of questions against quality gate standards:
+ * - Exactly 4 options
+ * - Unique options
+ * - Valid answer key
+ * - No extreme length skew (where correct option is artificially 3x longer than distractors)
+ * - No duplicate questions
+ */
+export function validateBatchQuality(questions: QuestionInput[]): {
+  isValid: boolean;
+  issues: QualityIssue[];
+} {
+  const issues: QualityIssue[] = [];
+  const seenQuestionTexts = new Map<string, number>();
+
+  questions.forEach((q, idx) => {
+    const qNum = idx + 1;
+    const cleanText = q.questionText.trim().toLowerCase();
+
+    // 1. Duplicate question check
+    if (seenQuestionTexts.has(cleanText)) {
+      issues.push({
+        questionIndex: idx,
+        questionText: q.questionText,
+        severity: "warning",
+        code: "DUPLICATE_QUESTION",
+        message: `Q${qNum} is very similar or duplicate to Q${seenQuestionTexts.get(cleanText)! + 1}`,
+      });
+    } else {
+      seenQuestionTexts.set(cleanText, idx);
+    }
+
+    // 2. Option count check
+    if (!q.options || q.options.length !== 4) {
+      issues.push({
+        questionIndex: idx,
+        questionText: q.questionText,
+        severity: "error",
+        code: "INVALID_OPTION_COUNT",
+        message: `Q${qNum} has ${q.options?.length ?? 0} options (expected exactly 4)`,
+      });
+    }
+
+    if (q.options && q.options.length > 0) {
+      // 3. Duplicate options check
+      const optTexts = new Set<string>();
+      for (const opt of q.options) {
+        const textKey = opt.text.trim().toLowerCase();
+        if (optTexts.has(textKey)) {
+          issues.push({
+            questionIndex: idx,
+            questionText: q.questionText,
+            severity: "error",
+            code: "DUPLICATE_OPTION",
+            message: `Q${qNum} has duplicate option: "${opt.text}"`,
+          });
+        }
+        optTexts.add(textKey);
+      }
+
+      // 4. Correct answer check
+      if (typeof q.correctAnswer === "string") {
+        const validIds = q.options.map((o) => o.id);
+        if (!validIds.includes(q.correctAnswer)) {
+          issues.push({
+            questionIndex: idx,
+            questionText: q.questionText,
+            severity: "error",
+            code: "MISSING_CORRECT_ANSWER",
+            message: `Q${qNum} answer key "${q.correctAnswer}" does not match any option`,
+          });
+        }
+
+        // 5. Length skew / obvious answer check
+        const correctOpt = q.options.find((o) => o.id === q.correctAnswer);
+        const distractors = q.options.filter((o) => o.id !== q.correctAnswer);
+        if (correctOpt && distractors.length === 3) {
+          const correctLen = correctOpt.text.trim().length;
+          const avgDistractorLen =
+            distractors.reduce((sum, d) => sum + d.text.trim().length, 0) / 3;
+
+          if (avgDistractorLen > 5 && correctLen > avgDistractorLen * 3.5) {
+            issues.push({
+              questionIndex: idx,
+              questionText: q.questionText,
+              severity: "warning",
+              code: "LENGTH_SKEW",
+              message: `Q${qNum} correct option is significantly longer than distractors (${correctLen} vs avg ${Math.round(avgDistractorLen)} chars), making it predictable.`,
+            });
+          }
+        }
+      }
+    }
+  });
+
+  const hasErrors = issues.some((i) => i.severity === "error");
+  return { isValid: !hasErrors, issues };
+}

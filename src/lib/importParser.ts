@@ -130,6 +130,115 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
   }
 }
 
+export interface IsolatedImportResult {
+  validQuestions: QuestionInput[];
+  invalidQuestions: { index: number; raw: any; reason: string }[];
+  totalParsed: number;
+  metadata?: {
+    subject?: string;
+    topic?: string;
+    testSet?: string;
+    negativeMarking?: boolean;
+  };
+}
+
+/**
+ * Validates an import payload and isolates valid vs invalid questions.
+ * This prevents a single malformed question from failing the entire import batch.
+ */
+export function validateAndIsolateQuestions(rawJsonOrObj: string | any): IsolatedImportResult {
+  let parsedObj: any = rawJsonOrObj;
+
+  if (typeof rawJsonOrObj === "string") {
+    const trimmed = rawJsonOrObj.trim();
+    if (!trimmed) {
+      return { validQuestions: [], invalidQuestions: [], totalParsed: 0 };
+    }
+    try {
+      parsedObj = JSON.parse(trimmed);
+    } catch {
+      const { fixedText, success } = autoFixJson(trimmed);
+      if (success) {
+        try {
+          parsedObj = JSON.parse(fixedText);
+        } catch {
+          return {
+            validQuestions: [],
+            invalidQuestions: [{ index: 1, raw: trimmed, reason: "Invalid JSON syntax." }],
+            totalParsed: 0,
+          };
+        }
+      } else {
+        return {
+          validQuestions: [],
+          invalidQuestions: [{ index: 1, raw: trimmed, reason: "Invalid JSON syntax." }],
+          totalParsed: 0,
+        };
+      }
+    }
+  }
+
+  const rawQuestions: any[] = Array.isArray(parsedObj)
+    ? parsedObj
+    : Array.isArray(parsedObj?.questions)
+    ? parsedObj.questions
+    : [];
+
+  const metadata = Array.isArray(parsedObj)
+    ? undefined
+    : {
+        subject: parsedObj?.subject,
+        topic: parsedObj?.topic,
+        testSet: parsedObj?.testSet,
+        negativeMarking: parsedObj?.negativeMarking,
+      };
+
+  const validQuestions: QuestionInput[] = [];
+  const invalidQuestions: { index: number; raw: any; reason: string }[] = [];
+
+  rawQuestions.forEach((item, idx) => {
+    const qNum = idx + 1;
+    if (!item || typeof item !== "object") {
+      invalidQuestions.push({
+        index: qNum,
+        raw: item,
+        reason: `Question ${qNum}: Item is not a valid question object.`,
+      });
+      return;
+    }
+
+    const rawOpts = item.o ?? item.options;
+    if (!Array.isArray(rawOpts) || rawOpts.length < 2) {
+      invalidQuestions.push({
+        index: qNum,
+        raw: item,
+        reason: `Question ${qNum}: Invalid options — expected 4 options, received ${Array.isArray(rawOpts) ? rawOpts.length : 0}.`,
+      });
+      return;
+    }
+
+    // Try normalizing and parsing with schema
+    const normalized = normalizeMinifiedQuestion(item);
+    if (!normalized) {
+      invalidQuestions.push({
+        index: qNum,
+        raw: item,
+        reason: `Question ${qNum}: Missing question text or invalid structure.`,
+      });
+      return;
+    }
+
+    validQuestions.push(normalized);
+  });
+
+  return {
+    validQuestions,
+    invalidQuestions,
+    totalParsed: rawQuestions.length,
+    metadata,
+  };
+}
+
 /**
  * Parses raw plain text question blocks into standard ImportJson format.
  *

@@ -99,7 +99,6 @@ export function ImportWizard() {
 
   const handleEditorChange = useCallback(
     (code: string, parsedData: ImportJson | null, errs: string[]) => {
-      setEditorCode(code);
       setParsed(parsedData);
       setErrors(errs);
     },
@@ -136,7 +135,8 @@ export function ImportWizard() {
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
       // 3. User feedback
-      showToast(`✅ ${result.imported} Questions Imported Successfully!`, "success");
+      const skippedNote = errors.length > 0 ? ` (${errors.length} malformed question(s) skipped)` : "";
+      showToast(`✅ ${result.imported} Questions Imported Successfully!${skippedNote}`, "success");
 
       setLastImportedSet({
         id: testSetId,
@@ -159,7 +159,7 @@ export function ImportWizard() {
       setParsed(null);
       userEditedSubtopicRef.current = false;
     } catch (err: any) {
-      showToast(err.message || "Failed to import questions.", "warning");
+      showToast(err.message || "Failed to import questions. Your text has been preserved.", "warning");
     } finally {
       setIsImporting(false);
     }

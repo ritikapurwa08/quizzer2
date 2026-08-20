@@ -7,7 +7,7 @@ import { useQuery } from "convex/react";
 
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { Layers, ChevronRight } from "lucide-react";
+import { Layers, ChevronRight, CheckCircle2, Clock } from "lucide-react";
 import { Id } from "../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -40,6 +40,7 @@ export default function SubjectDetailPage() {
   const subject = useQuery(api.subjects.get, { id });
   const topics = useQuery(api.topics.listBySubject, { subjectId: id });
   const setCounts = useQuery(api.testSets.countsBySubject, { subjectId: id }) ?? {};
+  const progressMap = useQuery(api.topics.progressBySubject, { subjectId: id }) ?? {};
 
   return (
     <div className="space-y-5">
@@ -72,22 +73,76 @@ export default function SubjectDetailPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {topics?.map((t, index) => {
             const setCount = setCounts[t._id] ?? 0;
+            const progress = progressMap[t._id];
+            const isCompleted = progress?.status === "completed";
+            const isInProgress = progress?.status === "in_progress";
+
             return (
               <Link key={t._id} href={`/subjects/${id}/${t._id}`}>
-                <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-primary/60 hover:shadow-md transition-all group min-h-[3.5rem] rounded-xl select-none">
+                <div
+                  className={cn(
+                    "flex flex-row items-center justify-between p-3.5 border bg-card hover:shadow-md transition-all group min-h-[4rem] rounded-xl select-none",
+                    isCompleted
+                      ? "border-emerald-400/50 dark:border-emerald-500/40 hover:border-emerald-500/70"
+                      : isInProgress
+                      ? "border-amber-400/50 dark:border-amber-500/40 hover:border-amber-500/70"
+                      : "border-border/80 hover:border-primary/60"
+                  )}
+                >
                   <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200">
-                      {index + 1}
+                    <span
+                      className={cn(
+                        "flex h-7 w-7 items-center justify-center rounded-lg text-xs font-bold shrink-0 transition-all duration-200",
+                        isCompleted
+                          ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white"
+                          : isInProgress
+                          ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-white"
+                          : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground"
+                      )}
+                    >
+                      {isCompleted ? (
+                        <CheckCircle2 className="h-4 w-4" />
+                      ) : (
+                        index + 1
+                      )}
                     </span>
                     <div className="min-w-0 flex-1">
-                      <p className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
-                        {t.name}
-                      </p>
-                      {setCount === 0 ? (
-                        <p className="text-[10px] text-muted-foreground/60 mt-0.5">No sets yet</p>
-                      ) : (
-                        <p className="text-[10px] text-muted-foreground mt-0.5">{setCount} practice set{setCount !== 1 ? "s" : ""}</p>
-                      )}
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <p
+                          className={cn(
+                            "font-semibold text-xs sm:text-sm transition-colors truncate",
+                            isCompleted
+                              ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
+                              : isInProgress
+                              ? "text-foreground group-hover:text-amber-600 dark:group-hover:text-amber-400"
+                              : "text-foreground group-hover:text-primary"
+                          )}
+                        >
+                          {t.name}
+                        </p>
+                      </div>
+
+                      <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                        {setCount === 0 ? (
+                          <p className="text-[10px] text-muted-foreground/60">No sets yet</p>
+                        ) : (
+                          <p className="text-[10px] text-muted-foreground">
+                            {setCount} practice set{setCount !== 1 ? "s" : ""}
+                          </p>
+                        )}
+
+                        {isCompleted && (
+                          <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded">
+                            <CheckCircle2 className="h-3 w-3" /> Completed
+                          </span>
+                        )}
+
+                        {isInProgress && (
+                          <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-1.5 py-0.2 rounded">
+                            <Clock className="h-3 w-3" /> Attempted ({progress.completedSets}/{progress.totalSets})
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-muted-foreground/70 group-hover:text-primary group-hover:translate-x-1 transition-all duration-200 shrink-0 ml-2" />

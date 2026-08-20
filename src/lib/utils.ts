@@ -62,3 +62,102 @@ export function cleanQuestionPrompt(text: string, type?: string): string {
   return promptLines.join("\n").trim();
 }
 
+/**
+ * Intelligently shuffles options and balances correct answer distribution (A, B, C, D)
+ * across an entire set of questions, eliminating repetitive answer keys (e.g. A-A-A-A).
+ */
+export function distributeAndShuffleAnswers<T extends {
+  type: string;
+  options: { id: string; text: string }[];
+  correctAnswer: string | string[];
+  [key: string]: any;
+}>(questions: T[]): {
+  shuffledQuestions: T[];
+  distribution: { opt1: number; opt2: number; opt3: number; opt4: number };
+} {
+  if (!questions || questions.length === 0) {
+    return { shuffledQuestions: [], distribution: { opt1: 0, opt2: 0, opt3: 0, opt4: 0 } };
+  }
+
+  const distribution = { opt1: 0, opt2: 0, opt3: 0, opt4: 0 };
+  const targetSlots = [0, 1, 2, 3]; // 0=opt1 (A), 1=opt2 (B), 2=opt3 (C), 3=opt4 (D)
+
+  // Generate a pseudo-random balanced sequence of target slots for the question set
+  const balancedSlots: number[] = [];
+  let lastSlot = -1;
+
+  while (balancedSlots.length < questions.length) {
+    // Shuffle slots
+    const round = [...targetSlots].sort(() => Math.random() - 0.5);
+    // Prevent immediate repeat at boundary
+    if (round[0] === lastSlot && round.length > 1) {
+      const temp = round[0];
+      round[0] = round[1];
+      round[1] = temp;
+    }
+    for (const slot of round) {
+      if (balancedSlots.length < questions.length) {
+        balancedSlots.push(slot);
+        lastSlot = slot;
+      }
+    }
+  }
+
+  const shuffledQuestions = questions.map((q, idx) => {
+    // Only shuffle single-choice options with 4 options
+    if (
+      (q.type === "mcq" || q.type === "true_false" || q.type === "assertion" || q.type === "match") &&
+      Array.isArray(q.options) &&
+      q.options.length === 4 &&
+      typeof q.correctAnswer === "string"
+    ) {
+      const currentOptions = [...q.options];
+      const correctOptIndex = currentOptions.findIndex((o) => o.id === q.correctAnswer);
+
+      if (correctOptIndex !== -1) {
+        const correctOpt = currentOptions[correctOptIndex];
+        const distractors = currentOptions.filter((_, i) => i !== correctOptIndex);
+        // Shuffle distractors
+        distractors.sort(() => Math.random() - 0.5);
+
+        const targetIndex = balancedSlots[idx];
+        const newOptionsList: { text: string }[] = [];
+
+        let distractorIdx = 0;
+        for (let i = 0; i < 4; i++) {
+          if (i === targetIndex) {
+            newOptionsList.push({ text: correctOpt.text });
+          } else {
+            newOptionsList.push({ text: distractors[distractorIdx].text });
+            distractorIdx++;
+          }
+        }
+
+        // Reassign clean IDs: opt1, opt2, opt3, opt4
+        const finalOptions = newOptionsList.map((item, i) => ({
+          id: `opt${i + 1}`,
+          text: item.text,
+        }));
+
+        const newCorrectId = `opt${targetIndex + 1}`;
+        distribution[newCorrectId as keyof typeof distribution]++;
+
+        return {
+          ...q,
+          options: finalOptions,
+          correctAnswer: newCorrectId,
+        };
+      }
+    }
+
+    // Default tracking for un-shuffled questions
+    if (typeof q.correctAnswer === "string" && q.correctAnswer in distribution) {
+      distribution[q.correctAnswer as keyof typeof distribution]++;
+    }
+
+    return { ...q };
+  });
+
+  return { shuffledQuestions, distribution };
+}
+

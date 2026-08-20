@@ -19,11 +19,13 @@ export default function TopicDetailPage() {
   const subject = useQuery(api.subjects.get, { id: sId });
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
+  const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
   const completedIds = useQuery(api.testSets.completedSetIds) ?? [];
   const completedSet = new Set(completedIds);
 
   const totalSets = testSets?.length ?? 0;
   const completedCount = testSets?.filter((s) => completedSet.has(s._id)).length ?? 0;
+  const isTopicCompleted = topicProgress?.status === "completed";
 
   return (
     <div className="space-y-5">
@@ -36,13 +38,28 @@ export default function TopicDetailPage() {
         ]}
       />
 
-      <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-          {topic?.name}
-        </h1>
-        <p className="text-sm text-muted-foreground mt-0.5">
-          Available question sets for practice and self-assessment
-        </p>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-2.5 flex-wrap">
+            <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+              {topic?.name}
+            </h1>
+            {isTopicCompleted && (
+              <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                <CheckCircle2 className="h-3.5 w-3.5" /> Topic Completed
+              </span>
+            )}
+          </div>
+          <p className="text-sm text-muted-foreground mt-0.5">
+            Available question sets for practice and self-assessment
+            {topicProgress && topicProgress.attemptCount > 0 && (
+              <span className="ml-2 text-foreground font-medium">
+                · {topicProgress.attemptCount} attempt{topicProgress.attemptCount !== 1 ? "s" : ""} recorded
+                {topicProgress.latestScore !== undefined ? ` · Latest: ${topicProgress.latestScore}` : ""}
+              </span>
+            )}
+          </p>
+        </div>
       </div>
 
       {/* No sets yet — clear, friendly message */}
