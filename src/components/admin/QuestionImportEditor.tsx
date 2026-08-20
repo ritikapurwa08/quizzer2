@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { autoFixJson, validateAndIsolateQuestions, IsolatedImportResult } from "@/lib/importParser";
-import { ImportJson, validateBatchQuality, QualityIssue } from "@/lib/validators/question";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { autoFixJson } from "@/lib/importParser";
+import { importJsonSchema, ImportJson } from "@/lib/validators/question";
 import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
-import { distributeAndShuffleAnswers } from "@/lib/utils";
 import { PromptPreviewDialog } from "./PromptPreviewDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,8 +22,6 @@ import {
   Eye,
   Check,
   FileCode2,
-  Shuffle,
-  Info,
 } from "lucide-react";
 import { containsDevanagari } from "@/lib/utils";
 
@@ -42,12 +39,7 @@ interface TopicOption {
 
 interface QuestionImportEditorProps {
   initialValue?: string;
-  onChange: (
-    value: string,
-    parsed: ImportJson | null,
-    errors: string[],
-    isolated?: IsolatedImportResult
-  ) => void;
+  onChange: (value: string, parsed: ImportJson | null, errors: string[]) => void;
   subjectsList?: SubjectOption[];
   topicsList?: TopicOption[];
   selectedSubjectId?: string;
@@ -85,42 +77,26 @@ export function QuestionImportEditor({
   const [code, setCode] = useState(initialValue);
   const [syntaxError, setSyntaxError] = useState<{ line: number | null; message: string } | null>(null);
   const [schemaErrors, setSchemaErrors] = useState<string[]>([]);
-  const [qualityIssues, setQualityIssues] = useState<QualityIssue[]>([]);
-  const [isolatedData, setIsolatedData] = useState<IsolatedImportResult | null>(null);
+  const [parsedData, setParsedData] = useState<ImportJson | null>(null);
   const [copied, setCopied] = useState(false);
   const [showPreviewModal, setShowPreviewModal] = useState(false);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const lineNumbersRef = useRef<HTMLDivElement>(null);
-  const codeRef = useRef(code);
   const { showToast } = useToast();
 
-  // Keep codeRef updated without causing re-render
+  // Keep internal code synced when initialValue is cleared from outside
   useEffect(() => {
-    codeRef.current = code;
-  }, [code]);
-
-  // Synchronize from parent only when value genuinely changes externally (e.g. cleared on import)
-  useEffect(() => {
-    if (initialValue !== codeRef.current) {
-      setCode(initialValue);
-    }
+    setCode(initialValue);
   }, [initialValue]);
 
   const onChangeRef = useRef(onChange);
-  useEffect(() => {
-    onChangeRef.current = onChange;
-  }, [onChange]);
+  useEffect(() => { onChangeRef.current = onChange; }, [onChange]);
 
-  // Compute line count safely with upper cap to prevent DOM thrashing
-  const lineCount = useMemo(() => {
-    const rawLines = code.split("\n").length;
-    return Math.min(Math.max(rawLines, 14), 500);
-  }, [code]);
-
-  const lineNumbers = useMemo(() => {
-    return Array.from({ length: lineCount }, (_, i) => i + 1);
-  }, [lineCount]);
+  // Derived: line numbers
+  const lines = code.split("\n").length;
+  const lineCount = Math.max(lines, 16);
+  const lineNumbers = Array.from({ length: lineCount }, (_, i) => i + 1);
 
   // Sync line-number scroll with textarea scroll
   const syncScroll = useCallback(() => {
@@ -129,81 +105,46 @@ export function QuestionImportEditor({
     }
   }, []);
 
-  // Debounced parsing and validation to prevent UI freeze and unblock navigation links
+  // Validate JSON on every code change
   useEffect(() => {
-    const timer = setTimeout(() => {
-      const trimmed = code.trim();
-      if (!trimmed) {
-        setSyntaxError(null);
+    if (!code.trim()) {
+      setSyntaxError(null);
+      setSchemaErrors([]);
+      setParsedData(null);
+      onChangeRef.current(code, null, []);
+      return;
+    }
+
+    try {
+      const obj = JSON.parse(code);
+      setSyntaxError(null);
+
+      const result = importJsonSchema.safeParse(obj);
+      if (!result.success) {
+        const errs = result.error.issues.map(
+          (issue) => `${issue.path.join(".") || "root"}: ${issue.message}`
+        );
+        setSchemaErrors(errs);
+        setParsedData(null);
+        onChangeRef.current(code, null, errs);
+      } else {
         setSchemaErrors([]);
-        setQualityIssues([]);
-        setIsolatedData(null);
-        onChangeRef.current(code, null, [], undefined);
-        return;
+        setParsedData(result.data);
+        onChangeRef.current(code, result.data, []);
       }
+    } catch (err: any) {
+      let line: number | null = null;
+      const match =
+        err.message?.match(/at line (\d+) column (\d+)/i) ||
+        err.message?.match(/line (\d+)/i);
+      if (match && match[1]) line = parseInt(match[1], 10);
 
-      try {
-        const isolated = validateAndIsolateQuestions(code);
-        setIsolatedData(isolated);
-
-        if (isolated.invalidQuestions.length > 0) {
-          const errs = isolated.invalidQuestions.map((iq) => iq.reason);
-          setSchemaErrors(errs);
-        } else {
-          setSchemaErrors([]);
-        }
-
-        if (isolated.validQuestions.length > 0) {
-          const { issues } = validateBatchQuality(isolated.validQuestions);
-          setQualityIssues(issues);
-          setSyntaxError(null);
-
-          const fullPayload: ImportJson = {
-            subject: isolated.metadata?.subject,
-            topic: isolated.metadata?.topic,
-            testSet: isolated.metadata?.testSet,
-            negativeMarking: isolated.metadata?.negativeMarking,
-            questions: isolated.validQuestions,
-          };
-
-          onChangeRef.current(
-            code,
-            fullPayload,
-            isolated.invalidQuestions.map((iq) => iq.reason),
-            isolated
-          );
-        } else {
-          setQualityIssues([]);
-          if (isolated.invalidQuestions.length > 0) {
-            setSyntaxError({
-              line: isolated.invalidQuestions[0].index,
-              message: isolated.invalidQuestions[0].reason,
-            });
-          }
-          onChangeRef.current(
-            code,
-            null,
-            isolated.invalidQuestions.map((iq) => iq.reason),
-            isolated
-          );
-        }
-      } catch (err: any) {
-        let line: number | null = null;
-        const match =
-          err.message?.match(/at line (\d+) column (\d+)/i) ||
-          err.message?.match(/line (\d+)/i);
-        if (match && match[1]) line = parseInt(match[1], 10);
-
-        const errMsg = err.message || "Invalid JSON syntax.";
-        setSyntaxError({ line, message: errMsg });
-        setSchemaErrors([]);
-        setQualityIssues([]);
-        setIsolatedData(null);
-        onChangeRef.current(code, null, [errMsg], undefined);
-      }
-    }, 200);
-
-    return () => clearTimeout(timer);
+      const errMsg = err.message || "Invalid JSON syntax.";
+      setSyntaxError({ line, message: errMsg });
+      setSchemaErrors([]);
+      setParsedData(null);
+      onChangeRef.current(code, null, [errMsg]);
+    }
   }, [code]);
 
   // Selected subject & topic objects for prompt generation
@@ -220,7 +161,7 @@ export function QuestionImportEditor({
   function handleCopyAiPrompt() {
     navigator.clipboard.writeText(currentPrompt);
     setCopied(true);
-    showToast("📋 Exam-grade AI Prompt copied to clipboard!", "success");
+    showToast("📋 AI Prompt copied to clipboard!", "success");
     setTimeout(() => setCopied(false), 2500);
   }
 
@@ -229,7 +170,7 @@ export function QuestionImportEditor({
     const { fixedText, success } = autoFixJson(code);
     if (success) {
       setCode(fixedText);
-      showToast("✨ JSON formatted and cleaned successfully!", "success");
+      showToast("✨ JSON formatted and validated cleanly!", "success");
     } else {
       try {
         const parsed = JSON.parse(code);
@@ -241,43 +182,7 @@ export function QuestionImportEditor({
     }
   }
 
-  function handleShuffleAnswers() {
-    if (!isolatedData || isolatedData.validQuestions.length === 0) {
-      showToast("No valid questions found to shuffle.", "warning");
-      return;
-    }
-
-    const { shuffledQuestions, distribution } = distributeAndShuffleAnswers(
-      isolatedData.validQuestions
-    );
-
-    // Format minified or standard array
-    const formatted = shuffledQuestions.map((q) => {
-      // Map option ID back to 0-3 index for minified format
-      let ansIdx = 0;
-      if (q.correctAnswer === "opt2") ansIdx = 1;
-      else if (q.correctAnswer === "opt3") ansIdx = 2;
-      else if (q.correctAnswer === "opt4") ansIdx = 3;
-
-      return {
-        q: q.questionText,
-        o: q.options.map((o) => o.text),
-        a: ansIdx,
-        e: q.explanation || "",
-        t: q.type,
-      };
-    });
-
-    setCode(JSON.stringify(formatted, null, 2));
-    showToast(
-      `🎲 Shuffled & Balanced! (A:${distribution.opt1}, B:${distribution.opt2}, C:${distribution.opt3}, D:${distribution.opt4})`,
-      "success"
-    );
-  }
-
-  const validCount = isolatedData?.validQuestions.length ?? 0;
-  const invalidCount = isolatedData?.invalidQuestions.length ?? 0;
-  const isValid = validCount > 0;
+  const isValid = parsedData !== null && !syntaxError && schemaErrors.length === 0;
 
   return (
     <div className="space-y-4">
@@ -287,7 +192,7 @@ export function QuestionImportEditor({
           <div className="flex items-center gap-2">
             <Sparkles className="h-4 w-4 text-primary" />
             <span className="font-bold text-sm tracking-tight text-foreground">
-              Target Syllabus &amp; Exam-Grade AI Prompt
+              Target Syllabus &amp; AI Prompt Generator
             </span>
           </div>
           <span className="text-[11px] font-medium text-muted-foreground">
@@ -369,26 +274,25 @@ export function QuestionImportEditor({
           </div>
 
           {/* Negative Marking & Prompt Buttons */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-3 border-t border-border/80">
-            <div className="flex items-center justify-between sm:justify-start gap-2.5 py-1">
-              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground order-1 sm:order-2">
-                Negative Marking <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 per wrong)</span>
-              </Label>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-border/80">
+            <div className="flex items-center gap-2.5">
               <Switch
                 id="neg-marking"
                 checked={negativeMarking}
                 onCheckedChange={onNegativeMarkingChange}
-                className="order-2 sm:order-1"
               />
+              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground">
+                Negative Marking <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 per wrong)</span>
+              </Label>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full sm:w-auto">
+            <div className="flex  flex-col items-center gap-2 w-full sm:w-auto">
               <Button
                 type="button"
                 variant="outline"
                 size="sm"
                 onClick={() => setShowPreviewModal(true)}
-                className="w-full sm:w-auto h-10 sm:h-9 gap-1.5 text-xs font-semibold rounded-xl justify-center"
+                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold rounded-xl"
               >
                 <Eye className="h-3.5 w-3.5" />
                 Preview Prompt
@@ -398,7 +302,7 @@ export function QuestionImportEditor({
                 type="button"
                 size="sm"
                 onClick={handleCopyAiPrompt}
-                className="w-full sm:w-auto h-10 sm:h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs justify-center"
+                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs"
               >
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
                 {copied ? "Copied!" : "Copy AI Prompt"}
@@ -412,26 +316,18 @@ export function QuestionImportEditor({
       <div className="flex flex-col rounded-2xl border border-border overflow-hidden shadow-sm bg-card">
         {/* Editor Toolbar */}
         <div className="flex flex-wrap items-center justify-between gap-3 bg-muted/60 px-4 py-2.5 border-b border-border">
-          <div className="flex items-center gap-2 min-w-0 flex-wrap">
+          <div className="flex items-center gap-2 min-w-0">
             <FileCode2 className="h-4 w-4 text-muted-foreground shrink-0" />
-            {syntaxError ? (
+            {syntaxError || schemaErrors.length > 0 ? (
               <Badge variant="destructive" className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md font-semibold">
                 <AlertCircle className="h-3 w-3 shrink-0" />
-                JSON Syntax Error
+                {syntaxError ? "JSON Syntax Error" : `${schemaErrors.length} Issue(s)`}
               </Badge>
-            ) : validCount > 0 ? (
-              <div className="flex items-center gap-1.5 flex-wrap">
-                <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-semibold">
-                  <CheckCircle2 className="h-3 w-3 shrink-0" />
-                  {validCount} Question{validCount !== 1 ? "s" : ""} Ready
-                </Badge>
-                {invalidCount > 0 && (
-                  <Badge variant="destructive" className="gap-1 text-[11px] px-2 py-0.5 rounded-md font-semibold">
-                    <AlertCircle className="h-3 w-3 shrink-0" />
-                    {invalidCount} Skipped
-                  </Badge>
-                )}
-              </div>
+            ) : parsedData ? (
+              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-semibold">
+                <CheckCircle2 className="h-3 w-3 shrink-0" />
+                Ready · {parsedData.questions.length} Questions
+              </Badge>
             ) : (
               <span className="text-muted-foreground text-xs truncate">
                 Paste JSON response from ChatGPT / Gemini / Claude below
@@ -440,19 +336,6 @@ export function QuestionImportEditor({
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
-            {validCount > 0 && (
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={handleShuffleAnswers}
-                className="h-8 gap-1.5 text-xs font-semibold rounded-lg text-primary hover:text-primary"
-                title="Intelligently shuffle options and balance A/B/C/D correct answer distribution"
-              >
-                <Shuffle className="h-3.5 w-3.5" />
-                Balance &amp; Shuffle (A/B/C/D)
-              </Button>
-            )}
             <Button
               type="button"
               variant="outline"
@@ -467,8 +350,8 @@ export function QuestionImportEditor({
           </div>
         </div>
 
-        {/* Textarea Code Workspace (Stable Fixed Height on Mobile & Desktop) */}
-        <div className="relative flex h-[380px] min-h-[380px] max-h-[380px] bg-card font-mono text-xs overflow-hidden">
+        {/* Textarea Code Workspace */}
+        <div className="relative flex h-[380px] bg-card font-mono text-xs overflow-hidden">
           {/* Line Numbers */}
           <div
             ref={lineNumbersRef}
@@ -491,16 +374,16 @@ export function QuestionImportEditor({
             value={code}
             onChange={(e) => setCode(e.target.value)}
             onScroll={syncScroll}
-            placeholder={`[\n  {\n    "q": "राजस्थान का राज्य पक्षी कौन सा है?",\n    "o": ["गोडावण", "मोर", "तोता", "कबूतर"],\n    "a": 0,\n    "e": "गोडावण (Great Indian Bustard) राजस्थान का राज्य पक्षी है।",\n    "t": "mcq"\n  }\n]`}
+            placeholder={`[\n  {\n    "q": "प्रश्न यहाँ लिखें...",\n    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],\n    "a": 0,\n    "e": "विस्तृत व्याख्या...",\n    "t": "mcq"\n  }\n]`}
             spellCheck={false}
-            className="flex-1 resize-none bg-transparent p-3.5 font-mono text-xs sm:text-[13px] leading-[1.625rem] text-foreground focus:outline-none placeholder:text-muted-foreground/40 overflow-y-auto h-full box-border"
+            className="flex-1 resize-none bg-transparent p-3.5 font-mono text-xs sm:text-[13px] leading-[1.625rem] text-foreground focus:outline-none placeholder:text-muted-foreground/40 overflow-y-auto"
           />
         </div>
 
         {/* ── 3. Bottom Action Bar: Target Info + Direct "✓ Import" Button ── */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-muted/40 px-4 sm:px-5 py-3 border-t border-border">
-          <div className="text-xs text-muted-foreground flex items-center justify-center sm:justify-start gap-1.5 min-w-0 text-center sm:text-left">
-            <span className="font-semibold text-foreground shrink-0">Target:</span>
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-muted/40 px-5 py-3 border-t border-border">
+          <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0">
+            <span className="font-semibold text-foreground">Target:</span>
             <span className="truncate">
               {activeSubject?.name || "Subject"} &rarr; {activeTopic?.name || "Topic"} &rarr; <span className="font-semibold text-foreground">{subtopicName || "Part 1"}</span>
             </span>
@@ -510,21 +393,21 @@ export function QuestionImportEditor({
             type="button"
             onClick={onImportClick}
             disabled={!isValid || !selectedTopicId || !subtopicName.trim() || isImporting}
-            className="w-full sm:w-auto h-11 sm:h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer justify-center shrink-0"
+            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer"
           >
-            <Check className="h-4 w-4 stroke-[2.5]" />
-            {isImporting ? "Importing..." : `Import ${validCount > 0 ? `(${validCount})` : ""}`}
+            <Check className="h-4 w-4 stroke-[3]" />
+            {isImporting ? "Importing..." : "✓ Import"}
           </Button>
         </div>
       </div>
 
-      {/* Warnings & Diagnostics: Schema / Syntax Errors Display */}
+      {/* Schema / Syntax Errors Display */}
       {syntaxError && (
         <Alert variant="destructive" className="rounded-xl">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle className="text-xs font-bold">JSON Syntax Issue</AlertTitle>
+          <AlertTitle className="text-xs font-bold">JSON Syntax Error</AlertTitle>
           <AlertDescription className="text-xs mt-0.5">
-            {syntaxError.line ? `Question / Line ${syntaxError.line}: ` : ""}
+            {syntaxError.line ? `Line ${syntaxError.line}: ` : ""}
             {syntaxError.message}
           </AlertDescription>
         </Alert>
@@ -533,37 +416,14 @@ export function QuestionImportEditor({
       {schemaErrors.length > 0 && (
         <Alert variant="destructive" className="rounded-xl">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle className="text-xs font-bold">
-            {schemaErrors.length} Malformed Question(s) Isolated
-          </AlertTitle>
+          <AlertTitle className="text-xs font-bold">{schemaErrors.length} Schema Issue(s)</AlertTitle>
           <AlertDescription className="text-xs mt-1">
-            <p className="mb-1 text-[11px] font-medium text-foreground">
-              Valid questions will still import safely. The following items have issues:
-            </p>
             <ul className="list-disc pl-4 space-y-0.5 font-mono text-[11px]">
               {schemaErrors.slice(0, 5).map((e, idx) => (
                 <li key={idx}>{e}</li>
               ))}
               {schemaErrors.length > 5 && (
                 <li className="italic text-muted-foreground">...and {schemaErrors.length - 5} more issues</li>
-              )}
-            </ul>
-          </AlertDescription>
-        </Alert>
-      )}
-
-      {/* Quality Gate Warnings */}
-      {qualityIssues.length > 0 && (
-        <Alert className="rounded-xl border-amber-500/30 bg-amber-500/10 text-amber-900 dark:text-amber-200">
-          <Info className="h-4 w-4 text-amber-600 dark:text-amber-400" />
-          <AlertTitle className="text-xs font-bold">Exam Quality Advisory</AlertTitle>
-          <AlertDescription className="text-xs mt-1">
-            <ul className="list-disc pl-4 space-y-0.5 text-[11px]">
-              {qualityIssues.slice(0, 3).map((qi, idx) => (
-                <li key={idx}>{qi.message}</li>
-              ))}
-              {qualityIssues.length > 3 && (
-                <li className="italic">...and {qualityIssues.length - 3} other advisory points</li>
               )}
             </ul>
           </AlertDescription>
