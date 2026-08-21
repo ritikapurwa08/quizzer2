@@ -238,12 +238,12 @@ export interface QualityIssue {
   questionText: string;
   severity: "error" | "warning";
   code:
-    | "DUPLICATE_OPTION"
-    | "INVALID_OPTION_COUNT"
-    | "MISSING_CORRECT_ANSWER"
-    | "LENGTH_SKEW"
-    | "DUPLICATE_QUESTION"
-    | "EMPTY_FIELD";
+  | "DUPLICATE_OPTION"
+  | "INVALID_OPTION_COUNT"
+  | "MISSING_CORRECT_ANSWER"
+  | "LENGTH_SKEW"
+  | "DUPLICATE_QUESTION"
+  | "EMPTY_FIELD";
   message: string;
 }
 
