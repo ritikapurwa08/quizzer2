@@ -36,11 +36,11 @@ export function PromptPreviewDialog({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[85vh] flex flex-col space-y-4">
-        <div className="flex items-center justify-between border-b pb-3">
+      <DialogContent className="max-w-3xl max-h-[85vh] flex flex-col space-y-4 p-4 sm:p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b pb-3">
           <div>
-            <DialogTitle className="text-lg font-bold flex items-center gap-2">
-              <Eye className="h-5 w-5 text-primary" />
+            <DialogTitle className="text-base sm:text-lg font-bold flex items-center gap-2">
+              <Eye className="h-5 w-5 text-primary shrink-0" />
               Preview AI Generation Prompt
             </DialogTitle>
             <DialogDescription className="text-xs text-muted-foreground mt-1">
@@ -52,7 +52,7 @@ export function PromptPreviewDialog({
             type="button"
             size="sm"
             onClick={handleCopy}
-            className="gap-1.5 font-semibold shrink-0"
+            className="w-full sm:w-auto gap-1.5 font-semibold shrink-0"
           >
             {copied ? (
               <>
@@ -68,7 +68,7 @@ export function PromptPreviewDialog({
           </Button>
         </div>
 
-        <div className="flex-1 overflow-y-auto bg-muted/60 border rounded-lg p-4 font-mono text-xs text-foreground leading-relaxed whitespace-pre-wrap select-all">
+        <div className="flex-1 overflow-y-auto bg-muted/60 border rounded-lg p-3 sm:p-4 font-mono text-xs text-foreground leading-relaxed whitespace-pre-wrap select-all">
           {promptText}
         </div>
 
@@ -78,6 +78,7 @@ export function PromptPreviewDialog({
             variant="outline"
             size="sm"
             onClick={() => onOpenChange(false)}
+            className="w-full sm:w-auto"
           >
             Close
           </Button>

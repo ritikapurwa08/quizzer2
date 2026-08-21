@@ -274,7 +274,7 @@ export function QuestionImportEditor({
           </div>
 
           {/* Negative Marking & Prompt Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-3 border-t border-border/80">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 pt-3.5 border-t border-border/80">
             <div className="flex items-center gap-2.5">
               <Switch
                 id="neg-marking"
@@ -286,26 +286,26 @@ export function QuestionImportEditor({
               </Label>
             </div>
 
-            <div className="flex  flex-col items-center gap-2 w-full sm:w-auto">
+            <div className="grid grid-cols-2 gap-2.5 w-full sm:w-auto sm:flex sm:items-center">
               <Button
                 type="button"
                 variant="outline"
                 size="sm"
                 onClick={() => setShowPreviewModal(true)}
-                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold rounded-xl"
+                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold rounded-xl active:scale-[0.98] transition-transform"
               >
                 <Eye className="h-3.5 w-3.5" />
-                Preview Prompt
+                Preview
               </Button>
 
               <Button
                 type="button"
                 size="sm"
                 onClick={handleCopyAiPrompt}
-                className="flex-1 sm:flex-initial h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs"
+                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-[0.98] transition-transform"
               >
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-                {copied ? "Copied!" : "Copy AI Prompt"}
+                {copied ? "Copied!" : "Copy"}
               </Button>
             </div>
           </div>
@@ -315,16 +315,16 @@ export function QuestionImportEditor({
       {/* ── 2. Direct JSON Paste Code Editor ── */}
       <div className="flex flex-col rounded-2xl border border-border overflow-hidden shadow-sm bg-card">
         {/* Editor Toolbar */}
-        <div className="flex flex-wrap items-center justify-between gap-3 bg-muted/60 px-4 py-2.5 border-b border-border">
-          <div className="flex items-center gap-2 min-w-0">
+        <div className="flex items-center justify-between gap-2.5 bg-muted/60 px-3.5 sm:px-4 py-2.5 border-b border-border">
+          <div className="flex items-center gap-2 min-w-0 flex-1">
             <FileCode2 className="h-4 w-4 text-muted-foreground shrink-0" />
             {syntaxError || schemaErrors.length > 0 ? (
-              <Badge variant="destructive" className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md font-semibold">
+              <Badge variant="destructive" className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md font-semibold shrink-0">
                 <AlertCircle className="h-3 w-3 shrink-0" />
                 {syntaxError ? "JSON Syntax Error" : `${schemaErrors.length} Issue(s)`}
               </Badge>
             ) : parsedData ? (
-              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-semibold">
+              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-semibold shrink-0">
                 <CheckCircle2 className="h-3 w-3 shrink-0" />
                 Ready · {parsedData.questions.length} Questions
               </Badge>
@@ -341,7 +341,7 @@ export function QuestionImportEditor({
               variant="outline"
               size="sm"
               onClick={handleFormat}
-              className="h-8 gap-1.5 text-xs font-semibold rounded-lg"
+              className="h-8 gap-1.5 text-xs font-semibold rounded-lg shrink-0 active:scale-95 transition-transform"
               title="Beautify & Auto-Fix JSON"
             >
               <AlignLeft className="h-3.5 w-3.5" />
@@ -381,9 +381,9 @@ export function QuestionImportEditor({
         </div>
 
         {/* ── 3. Bottom Action Bar: Target Info + Direct "✓ Import" Button ── */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-muted/40 px-5 py-3 border-t border-border">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-muted/40 px-4 sm:px-5 py-3 border-t border-border">
           <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0">
-            <span className="font-semibold text-foreground">Target:</span>
+            <span className="font-semibold text-foreground shrink-0">Target:</span>
             <span className="truncate">
               {activeSubject?.name || "Subject"} &rarr; {activeTopic?.name || "Topic"} &rarr; <span className="font-semibold text-foreground">{subtopicName || "Part 1"}</span>
             </span>
@@ -393,7 +393,7 @@ export function QuestionImportEditor({
             type="button"
             onClick={onImportClick}
             disabled={!isValid || !selectedTopicId || !subtopicName.trim() || isImporting}
-            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer"
+            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer shrink-0"
           >
             <Check className="h-4 w-4 stroke-[3]" />
             {isImporting ? "Importing..." : "✓ Import"}
