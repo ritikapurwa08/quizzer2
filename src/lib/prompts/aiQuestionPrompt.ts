@@ -554,5 +554,8 @@ Do not return:
 - markdown explanation
 
 The output must be directly parseable and markdown JSON format .
+
+- Test बनाते समय दिए गए PDF/Notes को primary content source मानो; साथ में YouTube पर Topic से संबंधित 10 videos के transcripts/content और उपलब्ध relevant knowledge का analysis करो।
+- YouTube videos का उपयोग मुख्यतः question-pattern, language, framing और options के style/variety को समझने के लिए करो; final questions केवल YouTube से copy न हों, बल्कि PDF/Notes + relevant knowledge + YouTube-derived patterns को मिलाकर original exam-quality questions बनें।
 `;
 }
