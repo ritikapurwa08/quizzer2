@@ -10,7 +10,7 @@ import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore, cn } from "@/lib/utils";
-import { ArrowLeft, CheckCircle2, XCircle, Minus } from "lucide-react";
+import { ArrowLeft, ArrowRight, CheckCircle2, XCircle, Minus, LayoutList } from "lucide-react";
 
 export default function ResultsPage() {
   const { testSetId } = useParams<{ testSetId: string }>();
@@ -18,6 +18,28 @@ export default function ResultsPage() {
   const data = useQuery(api.attempts.latestSubmittedForTestSet, { testSetId: id });
   const toggleBookmark = useMutation(api.bookmarks.toggle);
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+
+  // Fetch current test set to get topicId
+  const currentSet = useQuery(api.testSets.get, { id });
+  // Fetch all sets in the same topic (only when topicId is available)
+  const siblingSets = useQuery(
+    api.testSets.listByTopic,
+    currentSet?.topicId ? { topicId: currentSet.topicId } : "skip"
+  );
+
+  // Find the next set (by order) after the current one
+  const nextSet = (() => {
+    if (!siblingSets || !currentSet) return null;
+    const currentIndex = siblingSets.findIndex((s) => s._id === id);
+    if (currentIndex === -1 || currentIndex === siblingSets.length - 1) return null;
+    return siblingSets[currentIndex + 1];
+  })();
+
+  // Build the topic back-link
+  const topicHref =
+    currentSet?.topicId
+      ? `/subjects/${currentSet.topicId}` // will be overridden once we know subjectId — see note
+      : "/subjects";
 
   if (data === undefined || data === null) {
     return (
@@ -88,9 +110,23 @@ export default function ResultsPage() {
           <Button asChild variant="outline" className="font-semibold text-xs h-10 rounded-lg border-border">
             <Link href="/wrong-questions">Practice Wrong Questions</Link>
           </Button>
-          <Button asChild className="font-semibold text-xs h-10 rounded-lg bg-primary hover:bg-primary/90">
-            <Link href="/subjects">Browse Other Subjects</Link>
-          </Button>
+
+          {/* Next Set button — shows if another set exists in this topic, otherwise Back to Topic */}
+          {nextSet ? (
+            <Button asChild className="font-semibold text-xs h-10 rounded-lg bg-primary hover:bg-primary/90 gap-1.5">
+              <Link href={`/quiz/${nextSet._id}`}>
+                Next Set
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Link>
+            </Button>
+          ) : (
+            <Button asChild variant="outline" className="font-semibold text-xs h-10 rounded-lg border-border gap-1.5">
+              <Link href="/subjects">
+                <LayoutList className="h-3.5 w-3.5" />
+                Back to Subjects
+              </Link>
+            </Button>
+          )}
         </div>
       </Card>
 

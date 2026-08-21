@@ -6,7 +6,7 @@ import { useQuery } from "convex/react";
 
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
-import { FileText, Play, CheckCircle2 } from "lucide-react";
+import { FileText, Play, CheckCircle2, Sparkles } from "lucide-react";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -118,24 +118,33 @@ export default function TopicDetailPage() {
                       </div>
 
                       <div className="min-w-0 flex-1">
-                        <h3
-                          className={cn(
-                            "font-semibold text-xs sm:text-sm transition-colors truncate",
-                            isDone
-                              ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
-                              : "text-foreground group-hover:text-primary"
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <h3
+                            className={cn(
+                              "font-semibold text-xs sm:text-sm transition-colors truncate",
+                              isDone
+                                ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
+                                : "text-foreground group-hover:text-primary"
+                            )}
+                          >
+                            {set.name}
+                          </h3>
+                          {/* Completed / New Badge */}
+                          {isDone ? (
+                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0">
+                              <CheckCircle2 className="h-2.5 w-2.5" />
+                              Completed
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0">
+                              <Sparkles className="h-2.5 w-2.5" />
+                              New
+                            </span>
                           )}
-                        >
-                          {set.name}
-                        </h3>
+                        </div>
                         <p className="text-xs text-muted-foreground mt-0.5">
                           {set.questionCount} Questions
                           {set.negativeMarking && " · −0.25 marking"}
-                          {isDone && (
-                            <span className="ml-1.5 text-emerald-600 dark:text-emerald-400 font-medium">
-                              · Attempted
-                            </span>
-                          )}
                         </p>
                       </div>
                     </div>

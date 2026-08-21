@@ -7,7 +7,7 @@ import { useConvexAuth } from "convex/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { GraduationCap, User, Mail, Lock, Shield, AlertCircle } from "lucide-react";
+import { GraduationCap, User, Mail, Lock, Shield, AlertCircle, Loader2 } from "lucide-react";
 
 export default function LoginPage() {
   const { isAuthenticated, isLoading } = useConvexAuth();
@@ -189,6 +189,16 @@ export default function LoginPage() {
               </div>
             </div>
 
+            {/*
+              ============================================================
+              ROLE_SELECTOR_START
+              Student / Admin role selection UI — currently hidden.
+              To re-enable: uncomment the JSX block below.
+              File: src/app/(auth)/login/page.tsx
+              The `role` state, `setRole`, and signIn call remain intact.
+              Default role while hidden: "student"
+              ============================================================
+
             <div className="space-y-1.5">
               <Label className="text-sm font-semibold">Account Role</Label>
               <div className="grid grid-cols-2 gap-2 pt-1">
@@ -218,6 +228,10 @@ export default function LoginPage() {
                 </button>
               </div>
             </div>
+
+              ROLE_SELECTOR_END
+              ============================================================
+            */}
           </>
         )}
 
@@ -233,13 +247,16 @@ export default function LoginPage() {
           className="w-full h-11 font-semibold text-sm rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-sm transition-all cursor-pointer"
           disabled={isSubmitting}
         >
-          {isSubmitting
-            ? mode === "signIn"
-              ? "Signing in..."
-              : "Creating account..."
-            : mode === "signIn"
-            ? "Sign In"
-            : "Create Account"}
+          {isSubmitting ? (
+            <span className="flex items-center justify-center gap-2">
+              <Loader2 className="h-4 w-4 animate-spin" />
+              {mode === "signIn" ? "Signing in..." : "Creating account..."}
+            </span>
+          ) : mode === "signIn" ? (
+            "Sign In"
+          ) : (
+            "Create Account"
+          )}
         </Button>
       </form>
 
