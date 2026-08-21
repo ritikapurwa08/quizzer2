@@ -1,7 +1,7 @@
 import { v } from "convex/values";
 import { Id } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
-import { requireAdmin } from "./lib/permissions";
+import { requireAdmin, requireUser } from "./lib/permissions";
 
 export const listByTopic = query({
   args: { topicId: v.id("topics") },
@@ -39,13 +39,16 @@ export const countsBySubject = query({
 export const completedSetIds = query({
   args: {},
   handler: async (ctx) => {
-    const identity = await ctx.auth.getUserIdentity();
-    if (!identity) return [] as string[];
-    const user = await ctx.db
-      .query("users")
-      .withIndex("by_email", (q) => q.eq("email", identity.email ?? ""))
-      .unique();
-    if (!user) return [] as string[];
+    // Use requireUser() — the canonical user-resolution path used across the
+    // entire backend. The old ctx.auth.getUserIdentity().email lookup was
+    // unreliable: it could silently return [] if the email was missing or
+    // mismatched, causing "Completed" badges to never appear after submission.
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [] as string[];
+    }
 
     const submitted = await ctx.db
       .query("attempts")
