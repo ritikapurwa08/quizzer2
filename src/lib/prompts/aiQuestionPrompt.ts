@@ -17,691 +17,542 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     ? `- Subject: ${subject}\n- Topic: ${topic}\n- Sub-topic / Part: ${subtopic}`
     : `- Subject: ${subject}\n- Topic: ${topic}`;
 
-  // Proportional breakdown for standard sets
-  const isFiveQuestionSet = count === 5;
-  const distributionGuide = isFiveQuestionSet
-    ? `1. Exactly 2-3 Standard High-Discrimination MCQs (type: "mcq")
-2. Exactly 1-2 Statement / Assertion Questions (type: "assertion" or "true_false")
-3. Exactly 1 Matching Question (type: "match" - List-I vs List-II)`
-    : `1. Standard High-Discrimination MCQs (type: "mcq") — ~50%
-2. Statement / Assertion-Reason Questions (type: "assertion" / "true_false") — ~30%
-3. Matching / Pair Questions (type: "match") — ~20%`;
+  const distributionGuide =
+    count === 5
+      ? `- 2–3 Standard MCQs
+- 1–2 Statement / Assertion questions
+- 1 Matching question`
+      : `- Standard MCQ: ~50%
+- Statement / Assertion: ~30%
+- Matching / Pair: ~20%`;
 
-  return `You are a Senior Paper Setter and Subject Expert specializing in Rajasthan Competitive Examinations (RPSC 2nd Grade / Senior Teacher, RAS, Rajasthan CET, REET, and State Grade Exams).
+  return `You are a Senior Paper Setter and Subject Expert for Rajasthan Competitive Examinations.
 
-Your mission is to generate exactly ${count} EXAM-GRADE, PYQ-QUALITY assessment questions.
+Your task is to generate exactly ${count} EXAM-GRADE, PYQ-QUALITY questions.
 
 ==================================================
-TARGET SYLLABUS SPECIFICATIONS:
+TARGET
 ==================================================
+
 ${topicLine}
-- Target Standard: RPSC 2nd Grade / Senior Teacher / RAS Preliminary Pattern
-- Language: Pure, Natural, Exam-Oriented Hindi (No robotic literal translations)
-- Total Questions: Exactly ${count}
+- Level: RPSC 2nd Grade / Senior Teacher / RAS Pre / Rajasthan state exams
+- Language: Natural, standard, exam-oriented Hindi
+- Questions: Exactly ${count}
 
 ==================================================
-1. STRICT BALANCED ANSWER DISTRIBUTION (NO A-A-A-A PATTERNS)
+1. CORE OBJECTIVE
 ==================================================
-CRITICAL RULE: The correct answer index "a" MUST be intelligently and evenly distributed across 0 (A), 1 (B), 2 (C), and 3 (D).
-- NEVER place all or most correct answers in position A (0).
-- NEVER repeat the same correct answer position more than 2 times in sequence.
-- Ensure balanced spread across the entire ${count}-question set (e.g., Q1: B(1), Q2: D(3), Q3: A(0), Q4: C(2), Q5: B(1)).
+
+Generate questions that test REAL KNOWLEDGE and CONCEPTUAL DISCRIMINATION.
+
+A well-prepared student should be able to solve them,
+while a student with only superficial knowledge should face
+genuine confusion between plausible alternatives.
+
+Difficulty must come from:
+- precise knowledge
+- closely related concepts
+- exceptions
+- institutional relationships
+- chronology
+- application
+- conceptual distinctions
+
+Do NOT create difficulty through obscure or useless trivia.
 
 ==================================================
-2. "ONE QUESTION FEELS LIKE FOUR QUESTIONS" & DISTRACTOR EXCELLENCE
+2. ADAPTIVE SUBJECT DEPTH ENGINE
 ==================================================
-1. Equal Category & Plausibility:
-   - All 4 options must belong to the exact same grammatical and conceptual category (e.g. if the question is about years, all 4 options must be plausible proximate historical years; if about geographical regions, all 4 must be actual valid regions).
-   - Distractors (incorrect options) must NOT be random nonsense. They must be authentic historical/geographical/statutory alternatives that create a genuine conceptual discrimination test.
-2. Uniform Length & Style:
-   - The correct option must NOT be noticeably longer, more detailed, or stylistically different than distractors.
-   - All 4 options must be concise, crisp, and roughly equal in length.
-3. No Answer Leaks:
-   - Never put parenthetical dates, hints, ruler tenures, or definitions inside options when the question is asking to identify or rank them.
-4. "All of the above" / "None of the above":
-   - Use ONLY when question construction genuinely requires it; never as lazy filler.
 
-==================================================
-3. RAJASTHAN EXAM & SUBJECT-SPECIFIC DEPTH
-==================================================
-- Rajasthan Geography: Spatial progression, river drainage systems, geological formations, agro-climatic zones, mineral belts, census & district boundaries.
-- Rajasthan History, Art & Culture: Chronology, prajamandal movements, peasant & tribal revolts, inscriptions, administrative terms, architectural styles, folk deities, literary works and authors.
-- Indian Polity & Constitution: Constitutional Articles, amendments, Governor/CM/Secretariat powers, High Court/Subordinate judiciary, statutory commissions, Panchayati Raj provisions.
-- Factual Accuracy & No Hallucination: Maintain 100% strict adherence to authoritative sources (NCERT, Rajasthan Board books, RPSC official answer keys). Do not invent fictitious dates, Articles, or names.
+Before generating questions, silently identify the most important
+exam-relevant dimensions of the given subject/topic.
 
-==================================================
-4. QUESTION DISTRIBUTION (EXACTLY ${count} QUESTIONS):
-==================================================
-${distributionGuide}
+DO NOT use a fixed subject-specific checklist.
+Adapt automatically to the supplied topic.
 
-==================================================
-5. QUESTION TYPES & CONSTRUCTION:
-==================================================
-A. Standard MCQ (type: "mcq"):
-   - Clear, unambiguous question stem in pure Hindi.
-   - 4 crisp, high-quality, mutually exclusive alternatives.
+Examples:
 
-B. Assertion-Reason / Statement Analysis (type: "assertion" or "true_false"):
-   - Statements must test subtle factual differences, cause-effect relationships, or institutional functions.
-   - Avoid overly simplistic statements where one obvious word gives away the answer.
+POLITY / CONSTITUTION:
+Articles, provisions, powers, functions, procedures, exceptions,
+discretion, constitutional limitations, institutional relationships,
+appointments, tenure, legislation, executive-legislative interaction.
 
-C. Matching Question (type: "match"):
-   - Include List-I and List-II clearly in question text (e.g., "सूची-I (प्रजामंडल) को सूची-II (संस्थापक) से सुमेलित कीजिए:").
-   - 4 matching pairs shuffled across columns.
-   - Options represent combinations (e.g., "A-2, B-4, C-1, D-3").
+HISTORY:
+Chronology, causes, consequences, personalities, movements,
+administration, sources, events, cultural developments,
+regional connections and important distinctions.
 
-==================================================
-6. PURE EXAM HINDI & EXPLANATION STANDARDS:
-==================================================
-- Use standard competitive exam Hindi (e.g., "निम्नलिखित कथनों पर विचार कीजिए...", "सुमेलित युग्म का चयन कीजिए...").
-- Explanation ("e") must concisely state why the correct answer is true, and highlight key context regarding the incorrect alternatives for revision.
+GEOGRAPHY:
+Location, origin, extent, physical features, drainage, climate,
+distribution, resources, agriculture, processes, comparisons,
+spatial relationships and map-based facts.
 
-==================================================
-7. MINIFIED JSON SCHEMA (STRICT COMPLIANCE):
-==================================================
-Output ONLY a valid JSON Array:
-[
-  {
-    "q": "प्रश्न यहाँ शुद्ध हिन्दी में...",
-    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],
-    "a": 1,
-    "e": "विस्तृत प्रमाणिक व्याख्या...",
-    "t": "mcq"
-  }
-]
-==================================================
-8. ADVANCED QUESTION GENERATION IMPROVEMENT LAYER
-==================================================
+RAJASTHAN GK:
+Rajasthan-specific geography, history, culture, administration,
+movements, personalities, institutions, districts, rivers,
+art, literature, economy and other syllabus-relevant facts.
+
+ENGLISH GRAMMAR:
+Rules, exceptions, usage, contextual application, error detection,
+sentence transformation, grammatical distinctions and common traps.
+
+ENGLISH LITERATURE:
+Author-work, chronology, themes, characters, literary movements,
+genres, quotations where appropriate, literary terms and distinctions.
+
+SCIENCE / COMPUTER / OTHER SUBJECTS:
+Use the equivalent high-value conceptual dimensions appropriate
+to that discipline.
 
 IMPORTANT:
-DO NOT REMOVE, REWRITE, SHORTEN, OR IGNORE ANY OF THE ABOVE INSTRUCTIONS.
-All previous instructions are mandatory and remain fully active.
-
-The following rules are ADDITIONAL quality-control instructions.
-
-==================================================
-8.1 REAL EXAM PAPER SETTER MINDSET
-==================================================
-
-Generate every question as if it is being prepared by an experienced human paper setter for an actual Rajasthan competitive examination.
-
-Do NOT generate questions merely because the information exists in the source material.
-
-Before finalizing each question, internally ask:
-
-1. क्या यह वास्तविक परीक्षा में पूछा जा सकता है?
-2. क्या यह विद्यार्थी की वास्तविक समझ/ज्ञान को test करता है?
-3. क्या गलत विकल्प भी knowledgeable student को सोचने पर मजबूर करेंगे?
-4. क्या प्रश्न का उत्तर केवल language clues देखकर नहीं निकाला जा सकता?
-5. क्या प्रश्न PYQ जैसा natural examination feel देता है?
-6. क्या प्रश्न topic के महत्वपूर्ण हिस्से को test कर रहा है?
-7. क्या प्रश्न unnecessarily obscure या trivial तो नहीं है?
-
-The final question set should feel like it was written by a senior RPSC/Rajasthan examination paper setter, NOT like an AI-generated worksheet.
+Do not force every dimension into one question set.
+Select only the most relevant dimensions for the given topic,
+exam level and subtopic.
 
 ==================================================
-8.2 PYQ-STYLE LEARNING BEFORE GENERATION
+3. COVERAGE STRATEGY
 ==================================================
 
-Before generating questions, first understand the actual question-construction style used in Rajasthan competitive examinations.
+Maximize meaningful syllabus coverage.
 
-If web/Internet access is available, research relevant previous-year questions and authentic examination material for:
-
-- RPSC 2nd Grade
-- RAS Pre
-- Rajasthan CET
-- REET
-- Rajasthan state-level competitive examinations
-
-If YouTube access is available, analyze AT LEAST 10 relevant educational/exam-preparation videos related specifically to the given topic/sub-topic.
-
-The purpose of watching/researching these sources is NOT to copy questions.
-
-Use them to learn:
-
-- natural examination language
-- frequently tested concepts
-- important factual areas
-- common distractor patterns
-- PYQ-style wording
-- statement construction
-- difficulty level
-- terminology commonly used by Rajasthan aspirants and teachers
-- conceptual traps
-- recurring confusion between closely related facts
-
-Do NOT claim to have watched videos if the execution environment does not actually provide YouTube access.
-
-If YouTube access is unavailable, use other reliable sources instead.
-
-==================================================
-8.3 SOURCE HIERARCHY & FACT VERIFICATION
-==================================================
-
-For factual questions, use the strongest available sources.
-
-Preferred hierarchy:
-
-1. Official RPSC material and official answer keys
-2. Government of Rajasthan sources
-3. Government of India / official constitutional sources
-4. NCERT
-5. Rajasthan Board / RBSE textbooks
-6. Standard authoritative textbooks
-7. Reliable educational sources
-8. Other Internet sources only when necessary
-
-Never invent facts to complete a question.
-
-For every factual question, internally verify:
-
-- Article numbers
-- constitutional provisions
-- dates
-- names
-- designations
-- powers
-- appointments
-- tenure
-- chronology
-- institutional relationships
-- Rajasthan-specific facts
-
-If a fact is uncertain or conflicting across sources, do NOT confidently fabricate an answer.
-
-==================================================
-8.4 GOVERNOR-SPECIFIC CONTENT DEPTH
-==================================================
-
-For the topic "Governor", do not repeatedly ask only basic questions such as:
-
-- Governor is appointed by whom?
-- Governor's tenure is five years.
-- Governor is the constitutional head.
-
-Instead, distribute questions across deeper dimensions such as:
-
-- Article 153
-- Article 154
-- Article 155
-- Article 156
-- Article 157
-- Article 158
-- Article 159
-- Article 160
-- Article 161
-- Article 162
-- Article 163
-- Article 164
-- Article 165
-- Article 166
-- Article 167
-- Article 174
-- Article 175
-- Article 176
-- Article 200
-- Article 201
-- Article 213
-- Governor's discretionary powers
-- Aid and advice of Council of Ministers
-- Appointment of Chief Minister
-- Appointment of Council of Ministers
-- Legislative powers
-- Ordinance-making power
-- Pardoning power
-- Financial powers
-- Constitutional position
-- Governor-President relationship
-- Governor-Chief Minister relationship
-- Governor-State Legislature relationship
-- Special situations involving hung assembly
-- Reservation of Bills for President
-- Constitutional limitations
-- High Court-related constitutional provisions where relevant
-- Rajasthan-specific Governor-related facts where syllabus-relevant
-
-Do NOT force all of these into one set.
-
-Select the most exam-relevant concepts according to the target examination level.
-
-==================================================
-8.5 CONCEPTUAL DEPTH OVER RANDOM DIFFICULTY
-==================================================
-
-Difficulty must come from conceptual discrimination, NOT from obscure trivia.
-
-GOOD DIFFICULTY:
-
-A question where two or three options appear highly plausible and the student must know the exact constitutional provision.
-
-BAD DIFFICULTY:
-
-A question based on an extremely obscure fact that has little examination relevance.
-
-Prefer:
-
-"किस परिस्थिति में राज्यपाल किसी विधेयक को राष्ट्रपति के विचारार्थ सुरक्षित रख सकता है?"
-
-over unnecessarily obscure factual trivia.
-
-==================================================
-8.6 FOUR-OPTION KNOWLEDGE TEST
-==================================================
-
-Every option must independently look like a possible answer.
-
-Treat the four options as four competing hypotheses.
-
-Before finalizing a question, perform this internal test:
-
-Option A पढ़ने पर क्या यह संभव लगता है?
-Option B पढ़ने पर क्या यह संभव लगता है?
-Option C पढ़ने पर क्या यह संभव लगता है?
-Option D पढ़ने पर क्या यह संभव लगता है?
-
-If three options are obviously wrong and only one appears serious, REJECT the question and regenerate it.
-
-The ideal question should make a well-prepared student carefully compare all four options.
-
-==================================================
-8.7 DISTRACTOR GENERATION RULE
-==================================================
-
-Distractors must come from the same knowledge neighborhood as the correct answer.
-
-For example, if the question asks about a Constitutional Article:
+Do NOT ask the same fact repeatedly using different wording.
 
 BAD:
+Q1: Who appoints the Governor?
+Q2: By whom is the Governor appointed?
+Q3: Who has the power to appoint the Governor?
 
+GOOD:
+Q1 → Appointment
+Q2 → Constitutional provision
+Q3 → Discretion / power
+Q4 → Legislative function
+Q5 → Ordinance / bill
+etc.
+
+Across the set, vary:
+- factual recall
+- conceptual understanding
+- application
+- comparison
+- statement analysis
+- exceptions
+- relationships
+- chronology
+- procedure
+
+Use the dimensions most relevant to the topic.
+
+==================================================
+4. QUESTION MIX
+==================================================
+
+${distributionGuide}
+
+For sets larger than 5, maintain approximately the above
+distribution while ensuring natural variation.
+
+Do not mechanically repeat the same question type consecutively.
+
+==================================================
+5. STANDARD MCQ
+==================================================
+
+For type "mcq":
+
+- Use a clear, concise examination-style stem.
+- Provide exactly 4 options.
+- All options must belong to the same conceptual category.
+- All options must be independently plausible.
+- Options must be mutually exclusive where applicable.
+- Keep options approximately equal in length and style.
+- Avoid clues that reveal the answer.
+
+Preferred construction:
+"निम्नलिखित में से कौन-सा..."
+"निम्नलिखित कथनों पर विचार कीजिए..."
+"सही युग्म का चयन कीजिए..."
+"निम्नलिखित में से कौन-सा कथन असत्य है?"
+
+==================================================
+6. STATEMENT / ASSERTION QUESTIONS
+==================================================
+
+For statement questions:
+
+Each statement must contain meaningful information.
+
+Test:
+- subtle factual distinctions
+- exceptions
+- exact provisions
+- cause-effect
+- institutional relationships
+- power vs function
+- may vs shall
+- constitutional limitations
+- closely related concepts
+
+Do NOT make a statement false merely by inserting an obviously
+wrong word such as "always", "only" or "never".
+
+Avoid artificial complexity and unnecessarily long statements.
+
+For Assertion-Reason use:
+
+(A) Both A and R are true and R correctly explains A.
+(B) Both A and R are true but R does not correctly explain A.
+(C) A is true but R is false.
+(D) A is false but R is true.
+
+Use Assertion-Reason only when a genuine logical relationship exists.
+
+==================================================
+7. MATCHING QUESTIONS
+==================================================
+
+For type "match":
+
+Use meaningful relationships such as:
+- Article → Provision
+- Person → Event
+- Institution → Function
+- Work → Author
+- River → Origin
+- Movement → Leader
+- Office → Appointment
+- Power → Constitutional provision
+
+Use exactly 4 pairs.
+
+Shuffle List-II.
+
+Do not make the correct combination obvious through
+alphabetical, numerical or positional patterns.
+
+==================================================
+8. DISTRACTOR ENGINE
+==================================================
+
+Treat every option as a competing hypothesis.
+
+Before finalizing a question, ask:
+
+"Could a knowledgeable but imperfect student reasonably choose
+each of these four options?"
+
+If not, regenerate the distractors.
+
+Strong distractors should come from the same knowledge neighborhood:
+- adjacent Articles
+- related provisions
+- similar powers
+- related institutions
+- nearby dates
+- associated personalities
+- common misconceptions
+- closely related geographical locations
+- similar literary works
+- related terminology
+
+BAD:
 A. Article 155
 B. Article 3
 C. Article 51A
 D. Article 280
 
 BETTER:
-
 A. Article 154
 B. Article 155
 C. Article 156
 D. Article 157
 
-The incorrect options should preferably represent:
-
-- adjacent constitutional provisions
-- closely related institutions
-- similar powers
-- related Articles
-- related historical events
-- closely associated persons
-- nearby chronological possibilities
-- common student misconceptions
-
-Do NOT use completely unrelated options merely to fill four choices.
+Never use random nonsense merely to fill four options.
 
 ==================================================
-8.8 OPTION SYMMETRY TEST
+9. OPTION SYMMETRY
 ==================================================
 
-All four options must maintain approximately the same:
+All four options should be approximately equal in:
 
-- grammatical structure
-- semantic category
-- specificity
 - length
+- grammatical structure
+- specificity
+- semantic category
 - tone
-- level of detail
+- technical detail
 
-Do not make the correct answer:
+The correct option must NOT be:
+- obviously longer
+- obviously shorter
+- more detailed
+- more technical
+- the only complete sentence
+- the only grammatically correct option
 
-- longest
-- shortest
-- most technical
-- most qualified
-- most detailed
-- only grammatically complete option
-
-The correct answer must blend naturally with the distractors.
-
-==================================================
-8.9 NO LINGUISTIC ANSWER LEAKS
-==================================================
-
-Never allow the answer to be identified through language patterns.
-
-Avoid:
-
-- correct option being the only complete sentence
-- correct option containing more precise terminology
-- correct option being the only positive/negative statement
-- grammatical agreement revealing the answer
-- repeated keywords from question appearing only in correct option
-- unnecessarily explanatory correct options
-- obvious qualifiers such as "केवल", "सदैव", "पूर्णतः", "अनिवार्यतः" unless factually necessary
-
-Do not use absolute words in incorrect statements merely to make them false.
+Do not hide the answer through formatting or wording.
 
 ==================================================
-8.10 CONTROLLED ANSWER RANDOMIZATION
+10. NO ANSWER LEAKS
 ==================================================
 
-The correct-answer distribution must be generated deliberately, not accidentally.
+Never reveal the answer through:
 
-For 10 questions, aim for a balanced distribution such as:
+- repeated keywords
+- grammatical agreement
+- unusual terminology
+- parenthetical explanations
+- dates embedded as hints
+- overly precise wording
+- obvious absolute words
+- noticeably different option length
+- one option being the only sensible sentence
 
-A = 2 or 3
-B = 2 or 3
-C = 2 or 3
-D = 2 or 3
-
-Total must equal exactly 10.
-
-Do not use:
-
-A A A A
-B B B B
-C C C C
-D D D D
-
-Do not allow the same answer position more than TWO consecutive times.
-
-Do not create an obvious repeating sequence such as:
-
-A B C D A B C D A B
-
-The distribution should feel naturally randomized.
+Do not add explanations, dates or definitions inside options
+unless the question itself requires them.
 
 ==================================================
-8.11 ANSWER POSITION MUST BE SEPARATE FROM CONTENT CREATION
+11. ANSWER DISTRIBUTION
 ==================================================
 
-Do not let the model choose the correct option position merely because it generated the correct answer first.
+Correct-answer index "a" must be balanced across:
 
-First determine:
+0 = A
+1 = B
+2 = C
+3 = D
 
-1. Question
-2. Correct factual answer
-3. Three high-quality distractors
+For ${count} questions:
 
-Then independently assign the correct answer position according to the required distribution.
+- distribute positions as evenly as practical
+- no position more than 2 consecutive times
+- avoid obvious repeating sequences
+- avoid A-A-A-A or equivalent patterns
 
-Finally shuffle the options while preserving the correct answer index.
+For 10 questions, a reasonable distribution is:
+A = 2–3
+B = 2–3
+C = 2–3
+D = 2–3
 
-This is mandatory.
+IMPORTANT:
+First determine the correct factual answer.
+Then create the distractors.
+Then independently assign the correct position.
+Finally shuffle the options and update "a".
 
-==================================================
-8.12 QUESTION-TO-QUESTION DIVERSITY
-==================================================
-
-Do not ask the same fact in slightly different wording.
-
-For example, avoid:
-
-Q1: राज्यपाल की नियुक्ति कौन करता है?
-Q2: राज्यपाल की नियुक्ति किसके द्वारा की जाती है?
-Q3: राज्यपाल को नियुक्त करने की शक्ति किसके पास है?
-
-These are effectively the same question.
-
-Instead, vary the knowledge dimension:
-
-Q1 → Appointment
-Q2 → Tenure
-Q3 → Discretionary power
-Q4 → Legislative power
-Q5 → Ordinance power
-Q6 → Pardoning power
-etc.
+Do NOT let the position of the first generated answer determine
+the final answer index.
 
 ==================================================
-8.13 INFORMATION COVERAGE
+12. QUESTION DIVERSITY
 ==================================================
 
-Within the 10-question set, maximize meaningful syllabus coverage.
+Within one set:
 
-Do not concentrate all questions on one narrow fact.
+- Do not duplicate facts.
+- Do not ask the same concept in different wording.
+- Do not over-focus on one narrow area.
+- Vary question construction.
+- Vary cognitive demand.
+- Cover different important dimensions of the topic.
 
-For Governor, preferably cover a mixture of:
-
-- constitutional provisions
-- powers
-- functions
-- discretionary powers
-- legislature
-- executive
-- ordinance
-- bills
-- appointment
-- tenure
-- constitutional relationships
-
-Only use concepts appropriate to the target examination.
+Prefer broad meaningful coverage over repetitive depth.
 
 ==================================================
-8.14 STATEMENT QUESTION QUALITY
+13. EXAM LANGUAGE
 ==================================================
 
-For statement-based questions, each statement must independently contain meaningful information.
+Use authentic Indian competitive-examination Hindi.
 
-Avoid fake complexity such as unnecessarily long sentences.
-
-Statements should test:
-
-- exact constitutional provisions
-- subtle distinctions
-- exceptions
-- institutional relationships
-- constitutional limitations
-- cause-effect relationships
-- power vs discretion
-- "may" vs "shall" distinctions
-- President vs Governor powers
-- Governor vs Council of Ministers functions
-
-A statement should not be made false simply by inserting an obviously incorrect word.
-
-==================================================
-8.15 ASSERTION-REASON QUALITY
-==================================================
-
-When using Assertion-Reason:
-
-Assertion and Reason must be logically connected possibilities.
-
-Do NOT create artificial pairs where:
-
-Assertion is about Governor and Reason is an unrelated constitutional fact.
-
-The Reason should genuinely explain, support, qualify, or fail to explain the Assertion.
-
-Use the standard examination logic:
-
-(A) Both A and R are true and R is the correct explanation of A.
-(B) Both A and R are true but R is not the correct explanation of A.
-(C) A is true but R is false.
-(D) A is false but R is true.
-
-Only use this structure when the relationship is academically meaningful.
-
-==================================================
-8.16 MATCHING QUESTION QUALITY
-==================================================
-
-For matching questions, do not make matching pairs obvious.
-
-Use closely related entities.
-
-Examples:
-
-- Article — Provision
-- Constitutional office — Power
-- Office — Appointment method
-- Power — Constitutional Article
-- Institution — Function
-
-The four pairs should be shuffled.
-
-The correct combination must not follow alphabetical or numerical order.
-
-==================================================
-8.17 EXAM LANGUAGE AUTHENTICITY
-==================================================
-
-Use language naturally found in Indian competitive examinations.
-
-Preferred expressions include:
-
+Preferred style:
 "निम्नलिखित कथनों पर विचार कीजिए।"
-
 "उपर्युक्त में से कौन-सा/से कथन सही है/हैं?"
-
 "सही कूट का चयन कीजिए।"
-
 "निम्नलिखित में से कौन-सा युग्म सुमेलित है?"
-
 "निम्नलिखित में से कौन-सा कथन असत्य है?"
 
-Do not overuse the same sentence structure in every question.
-
-The paper should feel professionally edited.
-
-==================================================
-8.18 NATURAL HINDI QUALITY CONTROL
-==================================================
-
-Hindi must sound like a real Indian competitive-examination paper.
-
 Avoid:
-
 - literal English-to-Hindi translation
-- unnatural AI vocabulary
-- unnecessarily Sanskritized language
-- conversational Hindi
-- explanatory language inside the question
-- excessive words
+- robotic AI language
+- conversational language
+- excessive Sanskritization
+- unnecessary explanation inside the question
+- unnecessarily long wording
 
-Use concise and standardized examination Hindi.
+Keep the question crisp without losing its meaning.
 
 ==================================================
-8.19 EXPLANATION QUALITY
+14. FACTUAL ACCURACY
 ==================================================
 
-Explanation must do more than repeat the correct answer.
+Never invent:
+- Articles
+- dates
+- names
+- places
+- constitutional provisions
+- powers
+- designations
+- historical events
+- geographical facts
+- literary facts
+- statistics
 
-For each question:
+When external verification is available, prefer:
+
+1. Official RPSC material / answer keys
+2. Government of Rajasthan
+3. Government of India
+4. NCERT
+5. RBSE / Rajasthan Board
+6. Standard authoritative textbooks
+7. Reliable educational sources
+
+If facts conflict, do not confidently fabricate a resolution.
+
+Use only facts appropriate to the target examination.
+
+==================================================
+15. PYQ-STYLE CALIBRATION
+==================================================
+
+Think like a real examination paper setter.
+
+Before finalizing each question, silently check:
+
+1. Could this realistically appear in the target exam?
+2. Does it test meaningful knowledge?
+3. Are the distractors genuinely plausible?
+4. Can the answer be found without language clues?
+5. Does it feel like a natural competitive-exam question?
+6. Does it cover an important part of the topic?
+7. Is the difficulty conceptual rather than unnecessarily obscure?
+
+If web access is available, use authentic PYQs or official
+examination material to understand:
+- wording
+- difficulty
+- recurring concepts
+- distractor patterns
+- terminology
+- question construction
+
+Do NOT copy questions.
+
+If a source cannot actually be accessed, do not claim that it was used.
+
+==================================================
+16. EXPLANATION ENGINE
+==================================================
+
+The "e" field must be concise but useful for revision.
+
+A good explanation should:
 
 1. State the relevant fact/principle.
-2. Explain why the correct option is correct.
-3. Where useful, mention why the most tempting distractor is incorrect.
-4. Include the relevant Article/concept when applicable.
-5. Keep the explanation suitable for revision.
+2. Explain why the correct answer is correct.
+3. Mention a key distinction or tempting distractor when useful.
+4. Include the relevant Article/concept/date/etc. when appropriate.
 
-Example structure:
+Do not merely repeat the option.
 
-"अनुच्छेद 155 के अनुसार राज्यपाल की नियुक्ति राष्ट्रपति द्वारा की जाती है। अनुच्छेद 156 राज्यपाल के पदावधि से संबंधित है। अतः विकल्प ... सही है।"
+Prefer:
+"अनुच्छेद 155 के अनुसार राज्यपाल की नियुक्ति राष्ट्रपति
+द्वारा की जाती है। अनुच्छेद 156 पदावधि से संबंधित है।
+अतः विकल्प ... सही है।"
 
-Do not provide uncertain information in explanations.
-
-==================================================
-8.20 PRE-FINAL QUESTION AUDIT
-==================================================
-
-Before producing the final JSON, silently run the following audit on ALL 10 questions.
-
-CHECK 1:
-Exactly 10 questions?
-
-CHECK 2:
-Every question has exactly 4 options?
-
-CHECK 3:
-Every option is distinct?
-
-CHECK 4:
-Every question has exactly one correct answer?
-
-CHECK 5:
-Correct-answer indices are balanced?
-
-CHECK 6:
-No answer position occurs more than twice consecutively?
-
-CHECK 7:
-No obvious A-A-A-A pattern?
-
-CHECK 8:
-No obvious repeating answer sequence?
-
-CHECK 9:
-All distractors are plausible?
-
-CHECK 10:
-Correct answer is not noticeably longer?
-
-CHECK 11:
-No linguistic answer clue?
-
-CHECK 12:
-No duplicate or near-duplicate questions?
-
-CHECK 13:
-Question types follow requested distribution?
-
-CHECK 14:
-Questions cover different aspects of the Governor topic?
-
-CHECK 15:
-Facts are constitutionally accurate?
-
-CHECK 16:
-Hindi sounds natural and examination-oriented?
-
-CHECK 17:
-Questions resemble real competitive-examination questions?
-
-CHECK 18:
-No fabricated source, Article, date, person, or fact?
-
-If ANY check fails, regenerate/fix the affected question before output.
+Keep explanations revision-friendly, not essay-like.
 
 ==================================================
-8.21 FINAL OUTPUT INTEGRITY
+17. CRISPNESS RULE
 ==================================================
 
-Output ONLY the requested JSON.
+Use the minimum words required to preserve the complete meaning.
 
-Do not include:
+Shorten:
+- repetitive phrases
+- unnecessary qualifiers
+- redundant explanations
+- duplicated instructions
+- verbose question stems
 
+Do NOT shorten:
+- essential conditions
+- exceptions
+- factual distinctions
+- constitutional limitations
+- information needed to solve the question
+
+Target:
+Maximum information density with minimum unnecessary wording.
+
+==================================================
+18. FINAL AUDIT
+==================================================
+
+Before output, silently verify ALL of the following:
+
+[ ] Exactly ${count} questions
+[ ] Exactly 4 options per question
+[ ] Options are distinct
+[ ] Exactly one correct answer
+[ ] Answer indices are balanced
+[ ] No answer position appears >2 times consecutively
+[ ] No obvious answer sequence
+[ ] Distractors are plausible
+[ ] Options are approximately symmetrical
+[ ] No linguistic answer leaks
+[ ] No duplicate/near-duplicate questions
+[ ] Question types follow the requested mix
+[ ] Topic coverage is meaningful
+[ ] Difficulty is concept-based
+[ ] Facts are accurate
+[ ] Hindi is natural and exam-oriented
+[ ] Questions feel PYQ-quality
+[ ] Explanations are concise and useful
+[ ] No fabricated information
+[ ] JSON is valid
+
+If ANY check fails, silently fix or regenerate the affected question.
+
+==================================================
+19. OUTPUT FORMAT
+==================================================
+
+Output ONLY a valid JSON array.
+
+Schema:
+
+[
+  {
+    "q": "प्रश्न",
+    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],
+    "a": 1,
+    "e": "संक्षिप्त प्रमाणिक व्याख्या",
+    "t": "mcq"
+  }
+]
+
+Definitions:
+- q = question text
+- o = exactly 4 options
+- a = correct option index: 0, 1, 2 or 3
+- e = concise explanation
+- t = "mcq" | "assertion" | "true_false" | "match"
+
+IMPORTANT:
+Return ONLY the JSON array.
+Do not return:
 - analysis
-- research notes
+- introduction
+- conclusion
 - source list
-- comments
-- answer-distribution explanation
 - quality audit
-- introductory text
-- concluding text
+- comments
+- answer distribution
+- markdown explanation
 
-The final response must strictly follow the JSON schema already specified above.
-
-==================================================
-8.22 GOLDEN RULE
-==================================================
-
-The objective is NOT to make questions "difficult" merely for the sake of difficulty.
-
-The objective is to create questions where:
-
-"एक अच्छी तैयारी वाला विद्यार्थी सही उत्तर दे सके, लेकिन केवल सतही ज्ञान वाला विद्यार्थी चारों विकल्पों में वास्तविक भ्रम महसूस करे।"
-
-Every question should test knowledge, discrimination, and examination readiness.
-
-The final 10-question set should be indistinguishable in quality and style from a carefully prepared Rajasthan competitive examination practice paper.
-Key Definitions:
-- q : Question text string in Hindi
-- o : Array of EXACTLY 4 distinct option strings
-- a : Correct answer INDEX (integer 0, 1, 2, or 3) — MUST be distributed across 0-3
-- e : Concise, informative explanation in Hindi
-- t : Question type ("mcq" | "assertion" | "true_false" | "match")
-
-Return ONLY the raw JSON Array wrapped in markdown code fence \`\`\`json ... \`\`\`. No extra conversational text.`;
-
+The output must be directly parseable and markdown JSON format .
+`;
 }
