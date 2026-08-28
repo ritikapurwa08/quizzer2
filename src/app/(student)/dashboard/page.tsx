@@ -23,10 +23,10 @@ export default function DashboardPage() {
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-            Syllabus Revision Dashboard
+            पाठ्यक्रम अभ्यास
           </h1>
           <p className="text-sm text-muted-foreground mt-0.5">
-            Select a subject to practice predefined topics and test sets.
+            विषय चुनें और अभ्यास प्रश्न-सेट हल करें।
           </p>
         </div>
         <Link
@@ -52,7 +52,7 @@ export default function DashboardPage() {
         <div className="flex items-center justify-between">
           <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
             <BookOpen className="h-4 w-4 text-primary" />
-            Fixed Syllabus Subjects
+            पाठ्यक्रम के विषय
             <span className="font-semibold text-foreground tabular-nums">({subjects.length})</span>
           </h2>
         </div>
@@ -73,7 +73,7 @@ export default function DashboardPage() {
                       {s.order + 1}
                     </span>
                     <h3 className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
-                      {s.name}
+                      {s.nameHindi || s.name}
                     </h3>
                   </div>
                   <ArrowRight className="h-4 w-4 text-muted-foreground/70 group-hover:text-primary group-hover:translate-x-1 transition-all duration-200 shrink-0 ml-2" />

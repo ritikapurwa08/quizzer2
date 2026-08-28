@@ -39,7 +39,7 @@ export default function AdminOverviewPage() {
             <div>
               <p className="font-bold text-base group-hover:text-primary transition-colors">Import Questions</p>
               <p className="text-xs text-muted-foreground mt-0.5">
-                Paste JSON → Auto-Detect → Validate → Bulk Import into test sets
+                Bulk upload questions using AI-generated JSON
               </p>
             </div>
           </div>

@@ -47,13 +47,13 @@ export default function SubjectDetailPage() {
       <BreadcrumbNav
         items={[
           { label: "Dashboard", href: "/dashboard" },
-          { label: "Subjects", href: "/subjects" },
-          { label: subject?.name ?? "..." },
+          { label: "विषय", href: "/subjects" },
+          { label: (subject?.nameHindi || subject?.name) ?? "..." },
         ]}
       />
 
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">{subject?.name}</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">{subject?.nameHindi || subject?.name}</h1>
         {subject?.description && (
           <CollapsibleDescription text={subject.description} />
         )}
@@ -118,7 +118,7 @@ export default function SubjectDetailPage() {
                               : "text-foreground group-hover:text-primary"
                           )}
                         >
-                          {t.name}
+                          {t.nameHindi || t.name}
                         </p>
                       </div>
 

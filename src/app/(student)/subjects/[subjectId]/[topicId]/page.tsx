@@ -32,9 +32,9 @@ export default function TopicDetailPage() {
       <BreadcrumbNav
         items={[
           { label: "Dashboard", href: "/dashboard" },
-          { label: "Subjects", href: "/subjects" },
-          { label: subject?.name ?? "...", href: `/subjects/${sId}` },
-          { label: topic?.name ?? "..." },
+          { label: "विषय", href: "/subjects" },
+          { label: (subject?.nameHindi || subject?.name) ?? "...", href: `/subjects/${sId}` },
+          { label: (topic?.nameHindi || topic?.name) ?? "..." },
         ]}
       />
 
@@ -42,7 +42,7 @@ export default function TopicDetailPage() {
         <div>
           <div className="flex items-center gap-2.5 flex-wrap">
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-              {topic?.name}
+              {topic?.nameHindi || topic?.name}
             </h1>
             {isTopicCompleted && (
               <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">

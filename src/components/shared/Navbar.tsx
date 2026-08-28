@@ -5,16 +5,13 @@ import Link from "next/link";
 import { useQuery } from "convex/react";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { useRouter, usePathname } from "next/navigation";
-import { SearchBar } from "./SearchBar";
 import {
   Bookmark,
   GraduationCap,
   History,
   LayoutDashboard,
   LogOut,
-  Search,
   User,
-  X,
   ChevronDown,
   Shield,
   FileUp,
@@ -29,7 +26,6 @@ export function Navbar() {
   const { signOut } = useAuthActions();
   const router = useRouter();
   const pathname = usePathname();
-  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
 
@@ -68,23 +64,8 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* ── Desktop Search Bar ── */}
-        <div className="hidden sm:block flex-1 max-w-md mx-auto">
-          <SearchBar />
-        </div>
-
-        {/* ── Right side: Search Toggle (Mobile) + Profile Dropdown Menu ── */}
+        {/* ── Right side: Profile Dropdown Menu ── */}
         <div className="flex items-center gap-2">
-
-          {/* Mobile search toggle */}
-          <button
-            type="button"
-            aria-label="Toggle search"
-            onClick={() => setMobileSearchOpen((prev) => !prev)}
-            className="sm:hidden flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground transition-colors cursor-pointer"
-          >
-            {mobileSearchOpen ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
-          </button>
 
           {/* ── Profile Dropdown Menu ── */}
           {me !== undefined && (
@@ -221,12 +202,6 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Mobile search drawer */}
-      {mobileSearchOpen && (
-        <div className="sm:hidden px-4 pb-3 pt-1 border-t border-border/60 animate-in slide-in-from-top-1">
-          <SearchBar />
-        </div>
-      )}
     </header>
   );
 }

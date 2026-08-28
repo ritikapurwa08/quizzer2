@@ -17,9 +17,9 @@ export default function SubjectsPage() {
       <BreadcrumbNav items={[{ label: "Dashboard", href: "/dashboard" }, { label: "Subjects" }]} />
 
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">All Syllabus Subjects</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">सभी विषय</h1>
         <p className="text-sm text-muted-foreground mt-0.5">
-          Structured exam syllabus divided into fixed subjects and topics.
+          निर्धारित पाठ्यक्रम के अनुसार विषयवार अभ्यास सामग्री।
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function SubjectsPage() {
                   </span>
                   <div className="min-w-0 flex-1">
                     <h2 className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate">
-                      {s.name}
+                      {s.nameHindi || s.name}
                     </h2>
                     {setCount === 0 ? (
                       <p className="text-[10px] text-muted-foreground/60 mt-0.5">No sets yet</p>

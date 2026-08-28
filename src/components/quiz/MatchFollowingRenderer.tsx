@@ -91,53 +91,63 @@ export function MatchFollowingRenderer({
 
   return (
     <div className="space-y-4">
-      {/* Side-by-side Column Reference Display */}
+      {/* Paired Row Layout — A/B/C/D clearly aligned with their List II match */}
       {(columnA.length > 0 || columnB.length > 0) && (
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 bg-muted/40 p-3 sm:p-5 rounded-2xl border border-border">
-          {/* Column A (List I) */}
-          <div className="space-y-2 min-w-0">
-            <h4 className="text-xs sm:text-sm font-bold text-muted-foreground uppercase tracking-wider">
-              List - I (सूची - I)
-            </h4>
-            <ul className="space-y-2">
-              {columnA.map((item) => {
-                const isHindi = containsDevanagari(item.text);
-                return (
-                  <li
-                    key={item.id}
-                    className={cn(
-                      "flex items-start gap-2.5 rounded-xl border-2 border-border bg-card px-3 py-2.5 text-sm sm:text-base text-foreground leading-snug break-words",
-                      isHindi && "font-hindi"
-                    )}
-                  >
-                    {item.text}
-                  </li>
-                );
-              })}
-            </ul>
+        <div className="rounded-xl border border-border bg-muted/30 overflow-hidden">
+          {/* Header row */}
+          <div className="grid grid-cols-[2rem_1fr_1.25rem_1fr] items-center gap-x-2 px-3 py-2 border-b border-border bg-muted/60">
+            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider text-center">—</span>
+            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">सूची - I</span>
+            <span />
+            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">सूची - II</span>
           </div>
 
-          {/* Column B (List II) */}
-          <div className="space-y-2 min-w-0">
-            <h4 className="text-xs sm:text-sm font-bold text-muted-foreground uppercase tracking-wider">
-              List - II (सूची - II)
-            </h4>
-            <ul className="space-y-2">
-              {columnB.map((item) => {
-                const isHindi = containsDevanagari(item.text);
-                return (
-                  <li
-                    key={item.id}
+          {/* Paired data rows */}
+          <div className="divide-y divide-border">
+            {columnA.map((itemA, idx) => {
+              const itemB = columnB[idx];
+              const isHindiA = containsDevanagari(itemA.text);
+              const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
+
+              return (
+                <div
+                  key={itemA.id}
+                  className="grid grid-cols-[2rem_1fr_1.25rem_1fr] items-start gap-x-2 px-3 py-2.5"
+                >
+                  {/* Letter badge */}
+                  <span className="flex h-6 w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-xs font-bold shrink-0 mt-0.5">
+                    {itemA.id.replace(/[^A-Za-z0-9]/, "")}
+                  </span>
+
+                  {/* List I text */}
+                  <p
                     className={cn(
-                      "flex items-start gap-2.5 rounded-xl border-2 border-border bg-card px-3 py-2.5 text-sm sm:text-base text-foreground leading-snug break-words",
-                      isHindi && "font-hindi"
+                      "text-sm text-foreground leading-snug break-words overflow-wrap-anywhere",
+                      isHindiA && "font-hindi"
                     )}
                   >
-                    {item.text}
-                  </li>
-                );
-              })}
-            </ul>
+                    {itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
+                  </p>
+
+                  {/* Arrow connector */}
+                  <span className="text-muted-foreground text-sm font-medium text-center mt-0.5 select-none">→</span>
+
+                  {/* List II text */}
+                  {itemB ? (
+                    <p
+                      className={cn(
+                        "text-sm text-foreground leading-snug break-words overflow-wrap-anywhere",
+                        isHindiB && "font-hindi"
+                      )}
+                    >
+                      {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
+                    </p>
+                  ) : (
+                    <span className="text-sm text-muted-foreground/50">—</span>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}

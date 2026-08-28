@@ -150,15 +150,16 @@ export default function QuizPage() {
             variant="outline"
             onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
             disabled={currentIndex === 0}
+            className="font-semibold"
           >
             Previous
           </Button>
           {currentIndex < questions.length - 1 ? (
-            <Button onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}>
+            <Button onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))} className="font-semibold">
               Next
             </Button>
           ) : (
-            <Button onClick={() => setConfirmSubmitOpen(true)} className="bg-primary">
+            <Button onClick={() => setConfirmSubmitOpen(true)} className="bg-primary font-semibold">
               Submit Test
             </Button>
           )}

@@ -82,6 +82,54 @@
   --radius-sm: 0.5rem;
 }
 
+/* ═══════════════════════════════════════════════════════════════════
+   DARK THEME — triggered by OS preference (prefers-color-scheme: dark)
+   All semantic tokens flip here; Tailwind utilities propagate automatically
+   because they reference these CSS vars via @theme inline above.
+   ═══════════════════════════════════════════════════════════════════ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Base */
+    --background: 222 20% 8%;
+    --foreground: 220 15% 93%;
+
+    /* Card — slightly lighter than background */
+    --card: 222 20% 11%;
+    --card-foreground: 220 15% 93%;
+
+    /* Popover — same as card */
+    --popover: 222 20% 11%;
+    --popover-foreground: 220 15% 93%;
+
+    /* Primary stays vibrant (violet) — lighten slightly for dark bg contrast */
+    --primary: 271 76% 62%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary / Muted — dark surface */
+    --secondary: 222 20% 16%;
+    --secondary-foreground: 220 15% 93%;
+    --muted: 222 20% 14%;
+    --muted-foreground: 220 10% 58%;
+
+    /* Destructive — slightly softer red on dark */
+    --destructive: 0 68% 56%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Success stays green */
+    --success: 142 65% 42%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning stays amber */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Border — subtle on dark */
+    --border: 222 20% 20%;
+    --input: 222 20% 20%;
+    --ring: 271 76% 62%;
+  }
+}
+
 /* ─── Hindi/Devanagari font — weight must stay at 400 always ─── */
 .font-hindi {
   font-family: var(--font-hindi), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -182,6 +230,13 @@ input, select, textarea {
   color: hsl(222 20% 12%);
 }
 
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: hsl(271 76% 62% / 0.28);
+    color: hsl(220 15% 93%);
+  }
+}
+
 /*
   ─── Native <select> styled to match shadcn Input ───
   Use class="select-native" on any <select> that needs
@@ -225,6 +280,27 @@ input, select, textarea {
   font-size: 0.875rem;
   background-color: hsl(0 0% 100%);
   color: hsl(222 20% 12%);
+}
+
+/* Dark mode overrides for select-native */
+@media (prefers-color-scheme: dark) {
+  .select-native {
+    border-color: hsl(222 20% 20%);
+    background-color: hsl(222 20% 11%);
+    color: hsl(220 15% 93%);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%239ca3af' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+  }
+
+  .select-native:focus-visible,
+  .select-native:focus {
+    border-color: hsl(271 76% 62%);
+    box-shadow: 0 0 0 1px hsl(271 76% 62%);
+  }
+
+  .select-native option {
+    background-color: hsl(222 20% 11%);
+    color: hsl(220 15% 93%);
+  }
 }
 
 /* Hindi/Devanagari variant for select-native */

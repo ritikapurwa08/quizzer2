@@ -9,6 +9,7 @@ import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { slugify } from "@/lib/utils";
 import { Trash2 } from "lucide-react";
 
@@ -36,17 +37,13 @@ export default function AdminTopicsPage() {
       <h1 className="text-xl font-semibold">Topics</h1>
 
       <div className="space-y-1.5 w-full sm:w-72">
-        <Label className="text-xs font-semibold text-muted-foreground">Filter by Subject</Label>
-        <select
+        <Label className="text-xs font-semibold text-muted-foreground">विषय चुनें</Label>
+        <SyllabusSelect
+          options={subjects}
           value={subjectId}
-          onChange={(e) => setSubjectId(e.target.value as Id<"subjects">)}
-          className="select-native"
-        >
-          <option value="" disabled>Select a subject…</option>
-          {subjects.map((s) => (
-            <option key={s._id} value={s._id}>{s.name}</option>
-          ))}
-        </select>
+          onValueChange={(v) => setSubjectId(v as Id<"subjects">)}
+          placeholder="विषय चुनें…"
+        />
       </div>
 
       {subjectId && (

@@ -23,7 +23,7 @@ import {
   Check,
   FileCode2,
 } from "lucide-react";
-import { containsDevanagari } from "@/lib/utils";
+import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 
 interface SubjectOption {
   _id: string;
@@ -206,42 +206,28 @@ export function QuestionImportEditor({
             {/* Subject */}
             <div className="space-y-1.5">
               <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-                Subject (विषय)
+                विषय
               </Label>
-              <select
+              <SyllabusSelect
+                options={subjectsList}
                 value={selectedSubjectId}
-                onChange={(e) => onSubjectChangeId?.(e.target.value)}
-                className={`select-native h-10 text-xs font-medium${subjectsList.some((s) => containsDevanagari(s.name)) ? " font-hindi" : ""}`}
-              >
-                <option value="" disabled>Select Subject</option>
-                {subjectsList.map((s) => (
-                  <option key={s._id} value={s._id}>
-                    {s.name}{s.nameHindi ? ` (${s.nameHindi})` : ""}
-                  </option>
-                ))}
-              </select>
+                onValueChange={(v) => onSubjectChangeId?.(v)}
+                placeholder="विषय चुनें…"
+              />
             </div>
 
             {/* Topic */}
             <div className="space-y-1.5">
               <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-                Topic (टॉपिक)
+                टॉपिक
               </Label>
-              <select
+              <SyllabusSelect
+                options={topicsList}
                 value={selectedTopicId}
-                onChange={(e) => onTopicChangeId?.(e.target.value)}
+                onValueChange={(v) => onTopicChangeId?.(v)}
+                placeholder={topicsList.length === 0 ? "पहले विषय चुनें" : "टॉपिक चुनें…"}
                 disabled={topicsList.length === 0}
-                className={`select-native h-10 text-xs font-medium${topicsList.some((t) => containsDevanagari(t.name)) ? " font-hindi" : ""}`}
-              >
-                <option value="" disabled>
-                  {topicsList.length === 0 ? "Select a Subject first" : "Select Topic"}
-                </option>
-                {topicsList.map((t) => (
-                  <option key={t._id} value={t._id}>
-                    {t.name}{t.nameHindi ? ` (${t.nameHindi})` : ""}
-                  </option>
-                ))}
-              </select>
+              />
             </div>
 
             {/* Subtopic / Test Set Name */}
@@ -396,7 +382,7 @@ export function QuestionImportEditor({
             className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer shrink-0"
           >
             <Check className="h-4 w-4 stroke-[3]" />
-            {isImporting ? "Importing..." : "✓ Import"}
+            {isImporting ? "Importing..." : "Import"}
           </Button>
         </div>
       </div>

@@ -7,7 +7,7 @@ import { QuestionImportEditor } from "./QuestionImportEditor";
 import { ImportJson } from "@/lib/validators/question";
 import { Id } from "../../../convex/_generated/dataModel";
 import { useToast } from "@/components/ui/Toast";
-import { CheckCircle2, Layers, ArrowUpRight } from "lucide-react";
+import { CheckCircle2, Play } from "lucide-react";
 import Link from "next/link";
 
 export function ImportWizard() {
@@ -179,10 +179,10 @@ export function ImportWizard() {
             </div>
           </div>
           <Link
-            href="/admin/test-sets"
+            href={`/quiz/${lastImportedSet.id}`}
             className="flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-lg bg-success text-white hover:bg-success/90 transition-colors shrink-0 shadow-xs"
           >
-            View Sets <ArrowUpRight className="h-3.5 w-3.5" />
+            <Play className="h-3.5 w-3.5 fill-current" /> Start Test
           </Link>
         </div>
       )}

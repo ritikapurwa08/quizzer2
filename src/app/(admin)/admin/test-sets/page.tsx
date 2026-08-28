@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { Trash2 } from "lucide-react";
 
 export default function AdminTestSetsPage() {
@@ -42,37 +43,27 @@ export default function AdminTestSetsPage() {
       {/* Subject + Topic filter row */}
       <div className="grid sm:grid-cols-2 gap-3">
         <div className="space-y-1.5">
-          <Label className="text-xs font-semibold text-muted-foreground">Subject</Label>
-          <select
+          <Label className="text-xs font-semibold text-muted-foreground">विषय</Label>
+          <SyllabusSelect
+            options={subjects}
             value={subjectId}
-            onChange={(e) => {
-              setSubjectId(e.target.value as Id<"subjects">);
+            onValueChange={(v) => {
+              setSubjectId(v as Id<"subjects">);
               setTopicId("");
             }}
-            className="select-native"
-          >
-            <option value="" disabled>Select a subject…</option>
-            {subjects.map((s) => (
-              <option key={s._id} value={s._id}>{s.name}</option>
-            ))}
-          </select>
+            placeholder="विषय चुनें…"
+          />
         </div>
 
         <div className="space-y-1.5">
-          <Label className="text-xs font-semibold text-muted-foreground">Topic</Label>
-          <select
+          <Label className="text-xs font-semibold text-muted-foreground">टॉपिक</Label>
+          <SyllabusSelect
+            options={topics}
             value={topicId}
-            onChange={(e) => setTopicId(e.target.value as Id<"topics">)}
+            onValueChange={(v) => setTopicId(v as Id<"topics">)}
+            placeholder={!subjectId ? "पहले विषय चुनें" : "टॉपिक चुनें…"}
             disabled={!subjectId}
-            className="select-native"
-          >
-            <option value="" disabled>
-              {!subjectId ? "Select a subject first" : "Select a topic…"}
-            </option>
-            {topics.map((t) => (
-              <option key={t._id} value={t._id}>{t.name}</option>
-            ))}
-          </select>
+          />
         </div>
       </div>
 
