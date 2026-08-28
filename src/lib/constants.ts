@@ -24,6 +24,22 @@ export const QUESTION_TYPE_LABELS: Record<QuestionType, string> = {
   true_false: "True / False",
 };
 
+export const QUESTION_TYPE_HINDI_LABELS: Record<string, string> = {
+  mcq: "बहुविकल्पीय (MCQ)",
+  match: "सुमेलित करें (Match)",
+  assertion: "कथन एवं कारण (Assertion)",
+  true_false: "सत्य / असत्य",
+  match_following: "सुमेलित करें (Match)",
+  assertion_reason: "कथन एवं कारण",
+  statement_reason: "कथन एवं निष्कर्ष",
+  sequence: "क्रमबद्धता (Sequence)",
+  table: "तालिका आधारित (Table)",
+};
+
+export function getQuestionTypeLabel(type: string): string {
+  return QUESTION_TYPE_HINDI_LABELS[type] || QUESTION_TYPE_LABELS[type as QuestionType] || LEGACY_TYPE_LABELS[type] || type.replace(/_/g, " ");
+}
+
 // Backward-compat display names for legacy types still persisted in DB
 export const LEGACY_TYPE_LABELS: Record<string, string> = {
   match_following: "Match the Following",

@@ -118,7 +118,9 @@ export default function AdminTestSetsPage() {
                     variant="ghost"
                     size="icon"
                     onClick={() => setDeleteTarget(s._id)}
-                    className="h-8 w-8 text-destructive hover:bg-destructive/10"
+                    className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
+                    aria-label="Delete test set"
+                    title="Delete test set"
                   >
                     <Trash2 className="h-4 w-4" />
                   </Button>

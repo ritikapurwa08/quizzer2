@@ -10,7 +10,7 @@ import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { QuestionEditorModal } from "@/components/admin/QuestionEditorModal";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { QUESTION_TYPE_LABELS, LEGACY_TYPE_LABELS, QuestionType } from "@/lib/constants";
+import { getQuestionTypeLabel, QuestionType } from "@/lib/constants";
 import { containsDevanagari, cn } from "@/lib/utils";
 import { Trash2, Pencil } from "lucide-react";
 
@@ -73,8 +73,8 @@ export default function AdminQuestionsPage() {
             {
               header: "Type",
               render: (q) => (
-                <Badge variant="secondary" className="text-[10px] uppercase tracking-wide">
-                  {QUESTION_TYPE_LABELS[q.type as QuestionType] ?? LEGACY_TYPE_LABELS[q.type] ?? q.type.replace(/_/g, " ")}
+                <Badge variant="secondary" className="text-xs px-2.5 py-0.5 rounded-full font-hindi font-medium">
+                  {getQuestionTypeLabel(q.type)}
                 </Badge>
               ),
             },
@@ -89,18 +89,22 @@ export default function AdminQuestionsPage() {
             {
               header: "",
               render: (q) => (
-                <div className="flex gap-1">
+                <div className="flex items-center gap-1">
                   <button
+                    type="button"
                     onClick={() => openEdit(q)}
-                    className="p-1.5 rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
+                    className="p-2 rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
                     title="Edit question"
+                    aria-label="Edit question"
                   >
                     <Pencil className="h-4 w-4" />
                   </button>
                   <button
+                    type="button"
                     onClick={() => setDeleteTarget(q._id)}
-                    className="p-1.5 rounded-lg hover:bg-destructive/10 text-destructive transition-colors"
+                    className="p-2 rounded-lg hover:bg-destructive/10 text-destructive transition-colors cursor-pointer"
                     title="Delete question"
+                    aria-label="Delete question"
                   >
                     <Trash2 className="h-4 w-4" />
                   </button>

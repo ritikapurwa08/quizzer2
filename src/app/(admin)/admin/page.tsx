@@ -8,24 +8,45 @@ import { BookOpen, Layers, FileText, HelpCircle, Upload, ArrowRight } from "luci
 
 export default function AdminOverviewPage() {
   const subjects = useQuery(api.subjects.list);
+  const stats = useQuery(api.testSets.siteStats);
 
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-xl font-bold tracking-tight">Admin Console Overview</h1>
+        <h1 className="text-xl font-bold tracking-tight text-foreground">Admin Console Overview</h1>
         <p className="text-xs text-muted-foreground mt-0.5">
           Manage exam subjects, topics, test sets, and bulk import questions.
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <Card className="flex items-center gap-3.5 p-4 bg-card border border-border shadow-sm rounded-xl">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
+        <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
           <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
-            <BookOpen className="h-6 w-6" />
+            <BookOpen className="h-5 w-5" />
           </div>
           <div>
             <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Total Subjects</p>
-            <p className="text-2xl font-bold tracking-tight mt-0.5">{subjects?.length ?? "..."}</p>
+            <p className="text-2xl font-bold tracking-tight mt-0.5 tabular-nums text-foreground">{subjects?.length ?? "..."}</p>
+          </div>
+        </Card>
+
+        <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
+          <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+            <FileText className="h-5 w-5" />
+          </div>
+          <div>
+            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Total Test Sets</p>
+            <p className="text-2xl font-bold tracking-tight mt-0.5 tabular-nums text-foreground">{stats?.totalSets ?? "..."}</p>
+          </div>
+        </Card>
+
+        <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
+          <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+            <HelpCircle className="h-5 w-5" />
+          </div>
+          <div>
+            <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Total Questions</p>
+            <p className="text-2xl font-bold tracking-tight mt-0.5 tabular-nums text-foreground">{stats?.totalQuestions ?? "..."}</p>
           </div>
         </Card>
       </div>

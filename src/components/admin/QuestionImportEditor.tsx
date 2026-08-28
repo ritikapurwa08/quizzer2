@@ -390,27 +390,29 @@ export function QuestionImportEditor({
 
       {/* Schema / Syntax Errors Display */}
       {syntaxError && (
-        <Alert variant="destructive" className="rounded-xl">
+        <Alert variant="destructive" className="rounded-xl border border-destructive/30 bg-destructive/10">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle className="text-xs font-bold">JSON Syntax Error</AlertTitle>
+          <AlertTitle className="text-xs font-bold font-hindi">JSON में सिंटैक्स त्रुटि (Syntax Error)</AlertTitle>
           <AlertDescription className="text-xs mt-0.5">
-            {syntaxError.line ? `Line ${syntaxError.line}: ` : ""}
+            {syntaxError.line ? `पंक्ति ${syntaxError.line}: ` : ""}
             {syntaxError.message}
           </AlertDescription>
         </Alert>
       )}
 
       {schemaErrors.length > 0 && (
-        <Alert variant="destructive" className="rounded-xl">
+        <Alert variant="destructive" className="rounded-xl border border-destructive/30 bg-destructive/10">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle className="text-xs font-bold">{schemaErrors.length} Schema Issue(s)</AlertTitle>
+          <AlertTitle className="text-xs font-bold font-hindi">
+            JSON में {schemaErrors.length} त्रुटि(याँ) मिलीं (Schema Validation)
+          </AlertTitle>
           <AlertDescription className="text-xs mt-1">
-            <ul className="list-disc pl-4 space-y-0.5 font-mono text-[11px]">
+            <ul className="list-disc pl-4 space-y-0.5 font-mono text-xs">
               {schemaErrors.slice(0, 5).map((e, idx) => (
                 <li key={idx}>{e}</li>
               ))}
               {schemaErrors.length > 5 && (
-                <li className="italic text-muted-foreground">...and {schemaErrors.length - 5} more issues</li>
+                <li className="italic text-muted-foreground font-hindi">...और {schemaErrors.length - 5} अन्य त्रुटियाँ</li>
               )}
             </ul>
           </AlertDescription>

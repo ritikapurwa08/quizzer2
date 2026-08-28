@@ -44,7 +44,13 @@ export default function AdminSubjectsPage() {
           {
             header: "",
             render: (s) => (
-              <button onClick={() => setDeleteTarget(s._id)} className="p-1.5 rounded hover:bg-destructive/10 text-destructive">
+              <button
+                type="button"
+                onClick={() => setDeleteTarget(s._id)}
+                className="p-2 rounded-lg hover:bg-destructive/15 text-destructive transition-colors cursor-pointer"
+                aria-label="Delete subject"
+                title="Delete subject"
+              >
                 <Trash2 className="h-4 w-4" />
               </button>
             ),

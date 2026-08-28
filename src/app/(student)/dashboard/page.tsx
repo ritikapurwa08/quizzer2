@@ -114,50 +114,52 @@ export default function DashboardPage() {
               const isPassed = accuracy >= 60;
 
               return (
-                <li
-                  key={a._id}
-                  className="flex items-center justify-between text-sm py-2.5 px-3 rounded-lg border border-border bg-card hover:bg-muted/40 transition-all"
-                >
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <span
-                      className={cn(
-                        "h-2 w-2 rounded-full shrink-0",
-                        isPassed ? "bg-success" : "bg-destructive"
-                      )}
-                    />
-                    <div className="min-w-0">
-                      <p className="font-semibold text-xs truncate text-foreground font-hindi">
-                        {a.testSetName || "Practice Set"}
-                        {a.subjectName && (
-                          <span className="font-normal text-muted-foreground ml-1.5">
-                            {a.subjectName}
-                          </span>
+                <li key={a._id}>
+                  <Link
+                    href={`/quiz/${a.testSetId}/results`}
+                    className="flex items-center justify-between text-sm py-2.5 px-3 rounded-xl border border-border/80 bg-card hover:bg-muted/40 hover:border-primary/50 transition-all select-none group"
+                  >
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <span
+                        className={cn(
+                          "h-2 w-2 rounded-full shrink-0",
+                          isPassed ? "bg-success" : "bg-destructive"
                         )}
-                      </p>
-                      <p className="text-[11px] text-muted-foreground mt-0.5">
-                        {new Date(a.submittedAt ?? 0).toLocaleDateString("hi-IN", {
-                          day: "numeric",
-                          month: "short",
-                          year: "numeric",
-                        })}
-                      </p>
+                      />
+                      <div className="min-w-0">
+                        <p className="font-semibold text-xs truncate text-foreground group-hover:text-primary transition-colors font-hindi">
+                          {a.testSetName || "अभ्यास सेट"}
+                          {a.subjectName && (
+                            <span className="font-normal text-muted-foreground ml-1.5">
+                              {a.subjectName}
+                            </span>
+                          )}
+                        </p>
+                        <p className="text-xs text-muted-foreground mt-0.5">
+                          {new Date(a.submittedAt ?? 0).toLocaleDateString("hi-IN", {
+                            day: "numeric",
+                            month: "short",
+                            year: "numeric",
+                          })}
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex items-center gap-2 shrink-0 ml-2">
-                    <span
-                      className={cn(
-                        "text-[11px] font-semibold px-2 py-0.5 rounded-full",
-                        isPassed
-                          ? "bg-success/10 text-success"
-                          : "bg-destructive/10 text-destructive"
-                      )}
-                    >
-                      {accuracy.toFixed(0)}%
-                    </span>
-                    <span className="font-semibold text-xs px-2.5 py-1 rounded-lg bg-muted text-foreground tabular-nums">
-                      {formatScore(a.score ?? 0)} / {a.totalQuestions * 2}
-                    </span>
-                  </div>
+                    <div className="flex items-center gap-2 shrink-0 ml-2">
+                      <span
+                        className={cn(
+                          "text-xs font-bold px-2 py-0.5 rounded-full font-hindi",
+                          isPassed
+                            ? "bg-success/15 text-success border border-success/20"
+                            : "bg-destructive/15 text-destructive border border-destructive/20"
+                        )}
+                      >
+                        {accuracy.toFixed(0)}%
+                      </span>
+                      <span className="font-bold text-xs px-2.5 py-1 rounded-lg bg-muted text-foreground tabular-nums font-hindi">
+                        {formatScore(a.score ?? 0)} / {a.totalQuestions * 2} अंक
+                      </span>
+                    </div>
+                  </Link>
                 </li>
               );
             })}

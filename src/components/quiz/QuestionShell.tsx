@@ -2,7 +2,7 @@
 
 import { Bookmark, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
 import { cn, containsDevanagari, cleanQuestionPrompt } from "@/lib/utils";
-import { QUESTION_TYPE_LABELS, LEGACY_TYPE_LABELS, QuestionType } from "@/lib/constants";
+import { getQuestionTypeLabel, QuestionType } from "@/lib/constants";
 import { useToast } from "@/components/ui/Toast";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -58,8 +58,8 @@ export function QuestionShell({
           </span>
 
           {/* Question type badge */}
-          <Badge variant="secondary" className="text-[10px] tracking-wide uppercase px-2 py-0.5 rounded-full font-hindi">
-            {QUESTION_TYPE_LABELS[type as QuestionType] ?? LEGACY_TYPE_LABELS[type] ?? type.replace(/_/g, " ")}
+          <Badge variant="secondary" className="text-xs tracking-wide px-2.5 py-0.5 rounded-full font-hindi font-medium">
+            {getQuestionTypeLabel(type)}
           </Badge>
 
           {/* Miss count badge */}
