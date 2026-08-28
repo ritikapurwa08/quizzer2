@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Select,
   SelectContent,
@@ -7,7 +5,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { cn } from "@/lib/utils";
+import { cn, getSubjectDisplayName } from "@/lib/utils";
 
 interface SyllabusOption {
   _id: string;
@@ -26,18 +24,14 @@ interface SyllabusSelectProps {
 
 /**
  * Shared ShadCN/base-ui Select for subject/topic dropdowns.
- * Displays nameHindi || name as the visible label.
+ * Displays nameHindi || name as the visible label via getSubjectDisplayName.
  * Keeps the internal Convex _id as the Select value — no DB identifiers are altered.
- *
- * Note: this project uses @base-ui/react/select (not Radix).
- * base-ui onValueChange passes (value: string | null, eventDetails).
- * We normalize null → "" before calling the consumer.
  */
 export function SyllabusSelect({
   options,
   value,
   onValueChange,
-  placeholder = "Select…",
+  placeholder = "चुनें…",
   disabled = false,
   className,
 }: SyllabusSelectProps) {
@@ -49,20 +43,20 @@ export function SyllabusSelect({
     >
       <SelectTrigger
         className={cn(
-          "h-10 w-full text-sm font-medium bg-background border border-input rounded-md px-3",
+          "h-10 w-full text-sm font-medium bg-card border border-border rounded-xl px-3 font-hindi",
           className
         )}
       >
         <SelectValue placeholder={placeholder} />
       </SelectTrigger>
-      <SelectContent className="bg-popover border-border">
+      <SelectContent className="bg-popover border-border max-h-60">
         {options.map((opt) => {
-          const displayLabel = opt.nameHindi || opt.name;
+          const displayLabel = getSubjectDisplayName(opt);
           return (
             <SelectItem
               key={opt._id}
               value={opt._id}
-              className="text-sm font-medium cursor-pointer"
+              className="text-sm font-medium cursor-pointer font-hindi"
             >
               {displayLabel}
             </SelectItem>

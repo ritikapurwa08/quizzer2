@@ -169,20 +169,19 @@ export function ImportWizard() {
     <div className="space-y-4 max-w-4xl mx-auto">
       {/* Success Notification Banner */}
       {lastImportedSet && (
-        <div className="flex items-center justify-between gap-3 p-3.5 rounded-2xl bg-success/10 border border-success/25 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-success/15 border border-success/30 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200 shadow-xs">
           <div className="flex items-center gap-2.5 min-w-0">
             <CheckCircle2 className="h-5 w-5 shrink-0 text-success" />
-            <div className="text-xs">
-              <span className="font-bold">{lastImportedSet.count} Questions</span> imported into{" "}
-              <span className="font-semibold underline underline-offset-2">"{lastImportedSet.name}"</span>{" "}
-              in {lastImportedSet.timeSeconds}s! Ready for the next batch.
+            <div className="text-xs font-hindi">
+              <span className="font-bold">{lastImportedSet.count} प्रश्न</span> सफलतापूर्वक{" "}
+              <span className="font-semibold underline underline-offset-2">"{lastImportedSet.name}"</span> में जोड़े गए ({lastImportedSet.timeSeconds}s)!
             </div>
           </div>
           <Link
             href={`/quiz/${lastImportedSet.id}`}
-            className="flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-lg bg-success text-white hover:bg-success/90 transition-colors shrink-0 shadow-xs"
+            className="flex items-center justify-center gap-1.5 text-xs font-bold px-3.5 py-1.5 rounded-xl bg-success text-success-foreground hover:bg-success/90 transition-colors shrink-0 shadow-xs font-hindi"
           >
-            <Play className="h-3.5 w-3.5 fill-current" /> Start Test
+            <Play className="h-3.5 w-3.5 fill-current" /> अभी टेस्ट दें →
           </Link>
         </div>
       )}

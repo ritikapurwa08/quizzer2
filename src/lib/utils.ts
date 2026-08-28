@@ -26,6 +26,26 @@ export function containsDevanagari(text: string): boolean {
 }
 
 /**
+ * Standardized display helper for Subjects.
+ * Returns Hindi title if present, otherwise English title.
+ * Keeps internal DB keys and slugs unchanged.
+ */
+export function getSubjectDisplayName(subject?: { name: string; nameHindi?: string } | null): string {
+  if (!subject) return "";
+  return subject.nameHindi?.trim() || subject.name || "";
+}
+
+/**
+ * Standardized display helper for Topics.
+ * Returns Hindi title if present, otherwise English title.
+ * Keeps internal DB keys and slugs unchanged.
+ */
+export function getTopicDisplayName(topic?: { name: string; nameHindi?: string } | null): string {
+  if (!topic) return "";
+  return topic.nameHindi?.trim() || topic.name || "";
+}
+
+/**
  * For match_following (and similar list-based) questions, questionText often contains
  * both the instruction prompt and the raw text lists (List I / List II / सूची-I / सूची-II).
  * This function strips out the embedded raw text lists so only the clean instruction prompt is shown above the rendered boxes.

@@ -24,6 +24,7 @@ import {
   FileCode2,
 } from "lucide-react";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
+import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 
 interface SubjectOption {
   _id: string;
@@ -187,16 +188,16 @@ export function QuestionImportEditor({
   return (
     <div className="space-y-4">
       {/* ── 1. Target Syllabus & AI Prompt Form ── */}
-      <Card className="rounded-2xl border border-border shadow-sm overflow-hidden bg-card">
+      <Card className="rounded-2xl border border-border shadow-xs overflow-hidden bg-card">
         <div className="px-5 py-3.5 bg-muted/40 border-b border-border flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-4 w-4 text-primary" />
-            <span className="font-bold text-sm tracking-tight text-foreground">
-              Target Syllabus &amp; AI Prompt Generator
+            <span className="font-bold text-sm tracking-tight text-foreground font-hindi">
+              लक्षित पाठ्यक्रम एवं AI प्रॉम्प्ट
             </span>
           </div>
-          <span className="text-[11px] font-medium text-muted-foreground">
-            Step 1: Configure &amp; Copy Prompt
+          <span className="text-[11px] font-medium text-muted-foreground font-hindi">
+            चरण 1: प्रॉम्प्ट तैयार एवं कॉपी करें
           </span>
         </div>
 
@@ -205,7 +206,7 @@ export function QuestionImportEditor({
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3.5">
             {/* Subject */}
             <div className="space-y-1.5">
-              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
                 विषय
               </Label>
               <SyllabusSelect
@@ -218,7 +219,7 @@ export function QuestionImportEditor({
 
             {/* Topic */}
             <div className="space-y-1.5">
-              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
                 टॉपिक
               </Label>
               <SyllabusSelect
@@ -232,21 +233,21 @@ export function QuestionImportEditor({
 
             {/* Subtopic / Test Set Name */}
             <div className="space-y-1.5">
-              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-                Subtopic / Part (उप-टॉपिक)
+              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+                उप-टॉपिक / भाग
               </Label>
               <Input
                 value={subtopicName}
                 onChange={(e) => onSubtopicNameChange(e.target.value)}
-                placeholder="e.g. Part 1, Part 2, Prajamandal..."
-                className="h-10 text-xs font-semibold px-3"
+                placeholder="उदा. Part 1, प्रजामंडल..."
+                className="h-10 text-xs font-semibold px-3 font-hindi"
               />
             </div>
 
             {/* Questions Count */}
             <div className="space-y-1.5">
-              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
-                Questions Count
+              <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+                प्रश्नों की संख्या
               </Label>
               <Input
                 type="number"
@@ -254,7 +255,7 @@ export function QuestionImportEditor({
                 max={100}
                 value={questionCount}
                 onChange={(e) => onQuestionCountChange(Math.max(1, parseInt(e.target.value, 10) || 1))}
-                className="h-10 text-xs font-semibold px-3"
+                className="h-10 text-xs font-semibold px-3 tabular-nums"
               />
             </div>
           </div>
@@ -267,8 +268,8 @@ export function QuestionImportEditor({
                 checked={negativeMarking}
                 onCheckedChange={onNegativeMarkingChange}
               />
-              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground">
-                Negative Marking <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 per wrong)</span>
+              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground font-hindi">
+                ऋणात्मक अंकन (Negative Marking) <span className="text-[11px] font-normal text-muted-foreground/70">(-0.33 प्रति गलत)</span>
               </Label>
             </div>
 
@@ -278,20 +279,20 @@ export function QuestionImportEditor({
                 variant="outline"
                 size="sm"
                 onClick={() => setShowPreviewModal(true)}
-                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold rounded-xl active:scale-[0.98] transition-transform"
+                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold rounded-xl active:scale-[0.98] transition-transform font-hindi"
               >
                 <Eye className="h-3.5 w-3.5" />
-                Preview
+                प्रॉम्प्ट देखें
               </Button>
 
               <Button
                 type="button"
                 size="sm"
                 onClick={handleCopyAiPrompt}
-                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-[0.98] transition-transform"
+                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-bold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-[0.98] transition-transform font-hindi"
               >
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-                {copied ? "Copied!" : "Copy"}
+                {copied ? "कॉपी हो गया!" : "प्रॉम्प्ट कॉपी करें"}
               </Button>
             </div>
           </div>
@@ -299,7 +300,7 @@ export function QuestionImportEditor({
       </Card>
 
       {/* ── 2. Direct JSON Paste Code Editor ── */}
-      <div className="flex flex-col rounded-2xl border border-border overflow-hidden shadow-sm bg-card">
+      <div className="flex flex-col rounded-2xl border border-border overflow-hidden shadow-xs bg-card">
         {/* Editor Toolbar */}
         <div className="flex items-center justify-between gap-2.5 bg-muted/60 px-3.5 sm:px-4 py-2.5 border-b border-border">
           <div className="flex items-center gap-2 min-w-0 flex-1">
@@ -310,13 +311,13 @@ export function QuestionImportEditor({
                 {syntaxError ? "JSON Syntax Error" : `${schemaErrors.length} Issue(s)`}
               </Badge>
             ) : parsedData ? (
-              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-semibold shrink-0">
+              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-bold shrink-0 font-hindi">
                 <CheckCircle2 className="h-3 w-3 shrink-0" />
-                Ready · {parsedData.questions.length} Questions
+                तैयार · {parsedData.questions.length} प्रश्न
               </Badge>
             ) : (
-              <span className="text-muted-foreground text-xs truncate">
-                Paste JSON response from ChatGPT / Gemini / Claude below
+              <span className="text-muted-foreground text-xs truncate font-hindi">
+                ChatGPT / Gemini / Claude से प्राप्त JSON यहाँ पेस्ट करें
               </span>
             )}
           </div>
@@ -342,7 +343,7 @@ export function QuestionImportEditor({
           <div
             ref={lineNumbersRef}
             aria-hidden="true"
-            className="w-11 shrink-0 select-none bg-muted/30 border-r border-border/60 py-3.5 text-right font-mono text-[11px] text-muted-foreground/50 overflow-hidden leading-[1.625rem]"
+            className="w-11 shrink-0 select-none bg-muted/30 border-r border-border/60 py-3.5 text-right font-mono text-[11px] text-muted-foreground/60 overflow-hidden leading-[1.625rem]"
           >
             {lineNumbers.map((num) => (
               <div
@@ -366,12 +367,12 @@ export function QuestionImportEditor({
           />
         </div>
 
-        {/* ── 3. Bottom Action Bar: Target Info + Direct "✓ Import" Button ── */}
+        {/* ── 3. Bottom Action Bar: Target Info + Direct "Import" Button ── */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-muted/40 px-4 sm:px-5 py-3 border-t border-border">
-          <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0">
-            <span className="font-semibold text-foreground shrink-0">Target:</span>
+          <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0 font-hindi">
+            <span className="font-bold text-foreground shrink-0">लक्ष्य:</span>
             <span className="truncate">
-              {activeSubject?.name || "Subject"} &rarr; {activeTopic?.name || "Topic"} &rarr; <span className="font-semibold text-foreground">{subtopicName || "Part 1"}</span>
+              {getSubjectDisplayName(activeSubject) || "विषय"} &rarr; {getTopicDisplayName(activeTopic) || "टॉपिक"} &rarr; <span className="font-bold text-foreground">{subtopicName || "Part 1"}</span>
             </span>
           </div>
 
@@ -379,10 +380,10 @@ export function QuestionImportEditor({
             type="button"
             onClick={onImportClick}
             disabled={!isValid || !selectedTopicId || !subtopicName.trim() || isImporting}
-            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-md active:scale-95 transition-all cursor-pointer shrink-0"
+            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-95 transition-all cursor-pointer shrink-0 font-hindi"
           >
             <Check className="h-4 w-4 stroke-[3]" />
-            {isImporting ? "Importing..." : "Import"}
+            {isImporting ? "आयात हो रहे हैं…" : "प्रश्न आयात करें (Import)"}
           </Button>
         </div>
       </div>

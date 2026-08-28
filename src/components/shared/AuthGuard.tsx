@@ -29,33 +29,30 @@ export function AuthGuard({ children, requireAdmin = false }: AuthGuardProps) {
   if (authLoading || (isAuthenticated && user === undefined)) {
     return (
       <div className="flex min-h-screen w-full items-center justify-center overflow-hidden bg-background px-4">
-        <div className="flex flex-col items-center gap-5 text-center">
-          {/* Animated spinner — two concentric rings */}
-          <div className="relative flex h-14 w-14 shrink-0 items-center justify-center">
-            {/* Outer ring */}
+        <div className="flex flex-col items-center gap-4 text-center">
+          {/* Animated spinner — subtle ring */}
+          <div className="relative flex h-12 w-12 shrink-0 items-center justify-center">
             <span
               className="absolute inset-0 rounded-full border-2 border-primary/20"
               aria-hidden="true"
             />
-            {/* Spinning arc */}
             <span
               className="absolute inset-0 rounded-full border-2 border-transparent border-t-primary animate-spin"
               aria-hidden="true"
             />
-            {/* Inner dot */}
             <span
-              className="h-3 w-3 rounded-full bg-primary/40"
+              className="h-2 w-2 rounded-full bg-primary"
               aria-hidden="true"
             />
           </div>
 
-          {/* Text */}
-          <div className="space-y-1.5">
-            <p className="text-base font-semibold tracking-tight text-foreground">
-              Verify Session
+          {/* Hindi-first session verification text */}
+          <div className="space-y-1">
+            <p className="text-sm font-semibold tracking-tight text-foreground font-hindi">
+              सत्र सत्यापित किया जा रहा है…
             </p>
-            <p className="text-sm text-muted-foreground">
-              Checking your session, please wait…
+            <p className="text-xs text-muted-foreground">
+              कृपया प्रतीक्षा करें…
             </p>
           </div>
         </div>

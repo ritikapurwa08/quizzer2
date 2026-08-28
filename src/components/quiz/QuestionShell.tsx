@@ -95,14 +95,14 @@ export function QuestionShell({
             className={cn(
               "flex h-8 items-center gap-1.5 px-2.5 rounded-lg border text-xs font-semibold transition-all active:scale-95 shrink-0 cursor-pointer",
               isBookmarked
-                ? "bg-amber-50 border-amber-300 text-amber-600 hover:bg-amber-100"
+                ? "bg-amber-500/15 border-amber-500/35 text-amber-400 hover:bg-amber-500/25"
                 : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
             )}
           >
             <Bookmark
               className={cn(
                 "h-4 w-4 transition-all",
-                isBookmarked && "fill-amber-500 text-amber-500"
+                isBookmarked && "fill-amber-400 text-amber-400"
               )}
             />
             <span className="hidden sm:inline">
@@ -115,12 +115,12 @@ export function QuestionShell({
         </Tooltip>
       </div>
 
-      {/* Question text */}
+      {/* Question text — visually prominent, comfortable Devanagari line height */}
       {cleanedText ? (
         <p
           className={cn(
-            "whitespace-pre-line font-semibold text-sm sm:text-base mb-4 leading-relaxed text-foreground",
-            isHindi && "font-hindi"
+            "whitespace-pre-line font-semibold text-sm sm:text-base md:text-[1.05rem] mb-4.5 leading-relaxed text-foreground",
+            isHindi && "font-hindi font-medium"
           )}
         >
           {cleanedText}

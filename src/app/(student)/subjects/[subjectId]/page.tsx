@@ -10,7 +10,7 @@ import { EmptyState } from "@/components/shared/EmptyState";
 import { Layers, ChevronRight, CheckCircle2, Clock } from "lucide-react";
 import { Id } from "../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../convex/_generated/api";
-import { cn } from "@/lib/utils";
+import { cn, getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 
 function CollapsibleDescription({ text }: { text: string }) {
   const [expanded, setExpanded] = useState(false);
@@ -18,15 +18,15 @@ function CollapsibleDescription({ text }: { text: string }) {
 
   return (
     <div className="mt-1">
-      <p className={cn("text-sm text-muted-foreground transition-all", !expanded && "line-clamp-1")}>
+      <p className={cn("text-sm text-muted-foreground transition-all font-hindi leading-relaxed", !expanded && "line-clamp-1")}>
         {text}
       </p>
       {isLong && (
         <button
           onClick={() => setExpanded(!expanded)}
-          className="text-xs font-semibold text-primary hover:underline mt-0.5 cursor-pointer"
+          className="text-xs font-semibold text-primary hover:underline mt-0.5 cursor-pointer font-hindi"
         >
-          {expanded ? "Show less" : "More..."}
+          {expanded ? "कम दिखाएं" : "और पढ़ें..."}
         </button>
       )}
     </div>
@@ -42,31 +42,33 @@ export default function SubjectDetailPage() {
   const setCounts = useQuery(api.testSets.countsBySubject, { subjectId: id }) ?? {};
   const progressMap = useQuery(api.topics.progressBySubject, { subjectId: id }) ?? {};
 
+  const subjectTitle = getSubjectDisplayName(subject) || "लोड हो रहा है…";
+
   return (
     <div className="space-y-5">
       <BreadcrumbNav
         items={[
-          { label: "Dashboard", href: "/dashboard" },
+          { label: "डैशबोर्ड", href: "/dashboard" },
           { label: "विषय", href: "/subjects" },
-          { label: (subject?.nameHindi || subject?.name) ?? "..." },
+          { label: subjectTitle },
         ]}
       />
 
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">{subject?.nameHindi || subject?.name}</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">{subjectTitle}</h1>
         {subject?.description && (
           <CollapsibleDescription text={subject.description} />
         )}
       </div>
 
       {topics && topics.length === 0 && (
-        <EmptyState icon={Layers} title="No topics in this subject yet" />
+        <EmptyState icon={Layers} title="इस विषय में अभी कोई टॉपिक नहीं है" description="जल्द ही टॉपिक और प्रश्न सेट जोड़े जाएंगे।" />
       )}
 
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-            Fixed Topics ({topics?.length ?? 0})
+          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+            पाठ्यक्रम टॉपिक ({topics?.length ?? 0})
           </h2>
         </div>
 
@@ -110,7 +112,7 @@ export default function SubjectDetailPage() {
                       <div className="flex items-center gap-1.5 flex-wrap">
                         <p
                           className={cn(
-                            "font-semibold text-xs sm:text-sm transition-colors truncate",
+                            "font-semibold text-xs sm:text-sm transition-colors truncate font-hindi",
                             isCompleted
                               ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
                               : isInProgress
@@ -118,34 +120,34 @@ export default function SubjectDetailPage() {
                               : "text-foreground group-hover:text-primary"
                           )}
                         >
-                          {t.nameHindi || t.name}
+                          {getTopicDisplayName(t)}
                         </p>
                       </div>
 
                       <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
                         {setCount === 0 ? (
-                          <p className="text-[10px] text-muted-foreground/60">No sets yet</p>
+                          <p className="text-[10px] text-muted-foreground/60 font-hindi">अभी कोई सेट नहीं</p>
                         ) : (
-                          <p className="text-[10px] text-muted-foreground">
-                            {setCount} practice set{setCount !== 1 ? "s" : ""}
+                          <p className="text-[10px] text-muted-foreground font-hindi">
+                            {setCount} अभ्यास सेट
                           </p>
                         )}
 
                         {isCompleted && (
-                          <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded">
-                            <CheckCircle2 className="h-3 w-3" /> Completed
+                          <span className="inline-flex items-center gap-0.5 text-[10px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded font-hindi">
+                            <CheckCircle2 className="h-3 w-3" /> पूर्ण
                           </span>
                         )}
 
                         {isInProgress && (
-                          <span className="inline-flex items-center gap-0.5 text-[10px] font-semibold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-1.5 py-0.2 rounded">
-                            <Clock className="h-3 w-3" /> Attempted ({progress.completedSets}/{progress.totalSets})
+                          <span className="inline-flex items-center gap-0.5 text-[10px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-1.5 py-0.2 rounded font-hindi">
+                            <Clock className="h-3 w-3" /> प्रगति पर ({progress.completedSets}/{progress.totalSets})
                           </span>
                         )}
                       </div>
                     </div>
                   </div>
-                  <ChevronRight className="h-4 w-4 text-muted-foreground/70 group-hover:text-primary group-hover:translate-x-1 transition-all duration-200 shrink-0 ml-2" />
+                  <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-primary group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
                 </div>
               </Link>
             );

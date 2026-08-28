@@ -106,42 +106,42 @@ export function Navbar() {
                       href="/dashboard"
                       onClick={() => setProfileOpen(false)}
                       className={cn(
-                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/dashboard"
                           ? "bg-primary/10 text-primary font-semibold"
                           : "text-muted-foreground hover:bg-muted hover:text-foreground"
                       )}
                     >
                       <LayoutDashboard className="h-4 w-4" />
-                      Dashboard
+                      डैशबोर्ड (Dashboard)
                     </Link>
 
                     <Link
                       href="/bookmarks"
                       onClick={() => setProfileOpen(false)}
                       className={cn(
-                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/bookmarks"
                           ? "bg-primary/10 text-primary font-semibold"
                           : "text-muted-foreground hover:bg-muted hover:text-foreground"
                       )}
                     >
                       <Bookmark className="h-4 w-4" />
-                      Saved Bookmarks
+                      सहेजे गए बुकमार्क
                     </Link>
 
                     <Link
                       href="/wrong-questions"
                       onClick={() => setProfileOpen(false)}
                       className={cn(
-                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/wrong-questions"
                           ? "bg-primary/10 text-primary font-semibold"
                           : "text-muted-foreground hover:bg-muted hover:text-foreground"
                       )}
                     >
                       <History className="h-4 w-4" />
-                      Wrong Questions
+                      गलत प्रश्न (Revision)
                     </Link>
                   </div>
 
@@ -189,10 +189,10 @@ export function Navbar() {
                     <button
                       type="button"
                       onClick={() => { setProfileOpen(false); handleSignOut(); }}
-                      className="flex w-full items-center gap-2.5 px-3.5 py-2 text-xs font-medium text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors cursor-pointer"
+                      className="flex w-full items-center gap-2.5 px-3.5 py-2 text-xs font-medium text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors cursor-pointer font-hindi"
                     >
                       <LogOut className="h-4 w-4" />
-                      Sign Out
+                      लॉग आउट (Sign Out)
                     </button>
                   </div>
                 </div>

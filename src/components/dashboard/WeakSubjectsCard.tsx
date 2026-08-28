@@ -50,13 +50,13 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
   return (
     <Card className="p-4 sm:p-5 rounded-xl border border-border shadow-xs flex flex-col justify-between">
       <div className="flex flex-row items-center justify-between mb-3.5">
-        <h2 className="text-sm font-semibold text-foreground flex items-center gap-2">
+        <h2 className="text-sm font-semibold text-foreground flex items-center gap-2 font-hindi">
           <Target className="h-4 w-4 text-destructive" />
-          Weak Subjects
+          कमजोर विषय (Weak Areas)
         </h2>
         {subjects.length > 0 && (
-          <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full">
-            Needs Practice
+          <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full font-hindi">
+            अभ्यास की आवश्यकता
           </Badge>
         )}
       </div>
@@ -64,8 +64,8 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
       {subjects.length === 0 ? (
         <EmptyState
           icon={Target}
-          title="Weak subjects show up here"
-          description="Complete a few practice tests to pinpoint low-accuracy topics."
+          title="कमजोर विषय यहाँ दिखेंगे"
+          description="कम सटीकता वाले विषयों की पहचान के लिए कुछ टेस्ट हल करें।"
           className="py-6"
         />
       ) : (
@@ -79,7 +79,7 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
                 <span className="flex h-5.5 w-5.5 items-center justify-center rounded-full bg-destructive/10 text-destructive text-[11px] font-bold shrink-0">
                   {idx + 1}
                 </span>
-                <span className="text-xs sm:text-sm font-semibold truncate text-foreground group-hover:text-destructive transition-colors">
+                <span className="text-xs sm:text-sm font-semibold truncate text-foreground group-hover:text-destructive transition-colors font-hindi">
                   {s.name}
                 </span>
               </div>

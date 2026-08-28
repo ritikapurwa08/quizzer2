@@ -21,6 +21,13 @@ import {
   DialogContent,
   DialogTitle,
 } from "@/components/ui/dialog";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -330,30 +337,42 @@ export function QuestionEditorModal({
                       <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
                         Question Type
                       </Label>
-                      <select
+                      <Select
                         value={type}
-                        onChange={(e) => setType(e.target.value as QuestionType)}
-                        className="select-native"
+                        onValueChange={(val: string | null) => val && setType(val as AcceptedQuestionType)}
                       >
-                        {QUESTION_TYPES.map((t) => (
-                          <option key={t} value={t}>{QUESTION_TYPE_LABELS[t]}</option>
-                        ))}
-                      </select>
+                        <SelectTrigger className="h-10 text-xs font-semibold bg-card border-border">
+                          <SelectValue placeholder="Type..." />
+                        </SelectTrigger>
+                        <SelectContent className="bg-popover border-border">
+                          {QUESTION_TYPES.map((t) => (
+                            <SelectItem key={t} value={t} className="text-xs font-semibold">
+                              {QUESTION_TYPE_LABELS[t]}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
                     </div>
                     {/* Difficulty */}
                     <div className="space-y-1">
                       <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
                         Difficulty
                       </Label>
-                      <select
+                      <Select
                         value={difficulty}
-                        onChange={(e) => setDifficulty(e.target.value as Difficulty)}
-                        className="select-native capitalize"
+                        onValueChange={(val: string | null) => val && setDifficulty(val as Difficulty)}
                       >
-                        {DIFFICULTIES.map((d) => (
-                          <option key={d} value={d} className="capitalize">{d}</option>
-                        ))}
-                      </select>
+                        <SelectTrigger className="h-10 text-xs font-semibold capitalize bg-card border-border">
+                          <SelectValue placeholder="Difficulty..." />
+                        </SelectTrigger>
+                        <SelectContent className="bg-popover border-border">
+                          {DIFFICULTIES.map((d) => (
+                            <SelectItem key={d} value={d} className="text-xs font-semibold capitalize">
+                              {d}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
                     </div>
                     {/* Reference */}
                     <div className="space-y-1">

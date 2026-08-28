@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
-import { slugify } from "@/lib/utils";
+import { slugify, getTopicDisplayName } from "@/lib/utils";
 import { Trash2 } from "lucide-react";
 
 export default function AdminTopicsPage() {
@@ -61,7 +61,7 @@ export default function AdminTopicsPage() {
             rows={topics}
             rowKey={(t) => t._id}
             columns={[
-              { header: "Name", render: (t) => t.name },
+              { header: "Name", render: (t) => getTopicDisplayName(t) },
               {
                 header: "",
                 render: (t) => (

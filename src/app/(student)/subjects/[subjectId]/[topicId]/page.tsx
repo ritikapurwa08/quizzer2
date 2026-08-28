@@ -9,7 +9,7 @@ import { EmptyState } from "@/components/shared/EmptyState";
 import { FileText, Play, CheckCircle2, Sparkles } from "lucide-react";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../../convex/_generated/api";
-import { cn } from "@/lib/utils";
+import { cn, getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 
 export default function TopicDetailPage() {
   const { subjectId, topicId } = useParams<{ subjectId: string; topicId: string }>();
@@ -27,35 +27,38 @@ export default function TopicDetailPage() {
   const completedCount = testSets?.filter((s) => completedSet.has(s._id)).length ?? 0;
   const isTopicCompleted = topicProgress?.status === "completed";
 
+  const subjectTitle = getSubjectDisplayName(subject) || "विषय";
+  const topicTitle = getTopicDisplayName(topic) || "टॉपिक";
+
   return (
     <div className="space-y-5">
       <BreadcrumbNav
         items={[
-          { label: "Dashboard", href: "/dashboard" },
+          { label: "डैशबोर्ड", href: "/dashboard" },
           { label: "विषय", href: "/subjects" },
-          { label: (subject?.nameHindi || subject?.name) ?? "...", href: `/subjects/${sId}` },
-          { label: (topic?.nameHindi || topic?.name) ?? "..." },
+          { label: subjectTitle, href: `/subjects/${sId}` },
+          { label: topicTitle },
         ]}
       />
 
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="flex items-center gap-2.5 flex-wrap">
-            <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-              {topic?.nameHindi || topic?.name}
+            <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
+              {topicTitle}
             </h1>
             {isTopicCompleted && (
-              <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
-                <CheckCircle2 className="h-3.5 w-3.5" /> Topic Completed
+              <span className="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 font-hindi">
+                <CheckCircle2 className="h-3.5 w-3.5" /> टॉपिक पूर्ण (Completed)
               </span>
             )}
           </div>
-          <p className="text-sm text-muted-foreground mt-0.5">
-            Available question sets for practice and self-assessment
+          <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
+            स्व-मूल्यांकन एवं परीक्षा अभ्यास के लिए उपलब्ध प्रश्न-सेट
             {topicProgress && topicProgress.attemptCount > 0 && (
               <span className="ml-2 text-foreground font-medium">
-                · {topicProgress.attemptCount} attempt{topicProgress.attemptCount !== 1 ? "s" : ""} recorded
-                {topicProgress.latestScore !== undefined ? ` · Latest: ${topicProgress.latestScore}` : ""}
+                · {topicProgress.attemptCount} प्रयास दर्ज
+                {topicProgress.latestScore !== undefined ? ` · नवीनतम अंक: ${topicProgress.latestScore}` : ""}
               </span>
             )}
           </p>
@@ -66,8 +69,8 @@ export default function TopicDetailPage() {
       {testSets && testSets.length === 0 && (
         <EmptyState
           icon={FileText}
-          title="No practice sets yet"
-          description="Sets will appear here once uploaded by the administrator. Check back soon!"
+          title="अभी कोई अभ्यास सेट उपलब्ध नहीं है"
+          description="इस टॉपिक के प्रश्न-सेट जल्द ही उपलब्ध होंगे। कृपया प्रतीक्षा करें।"
         />
       )}
 
@@ -75,18 +78,17 @@ export default function TopicDetailPage() {
         <div className="space-y-3">
           {/* Header row: count + progress */}
           <div className="flex items-center justify-between">
-            <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-              Practice Sets ({totalSets})
+            <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+              अभ्यास सेट ({totalSets})
             </h2>
             {completedCount > 0 && (
-              <span className="flex items-center gap-1 text-[11px] font-medium text-emerald-600 dark:text-emerald-400">
+              <span className="flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 font-hindi">
                 <CheckCircle2 className="h-3.5 w-3.5" />
-                {completedCount}/{totalSets} completed
+                {completedCount}/{totalSets} पूर्ण
               </span>
             )}
           </div>
 
-          {/* Stitch spec: horizontal card — icon chip + name/meta on left, Start/Review pill on right. */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {testSets.map((set) => {
               const isDone = completedSet.has(set._id);
@@ -101,7 +103,7 @@ export default function TopicDetailPage() {
                     )}
                   >
                     <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                      {/* Icon chip — green if done, primary if not */}
+                      {/* Icon chip */}
                       <div
                         className={cn(
                           "p-2 rounded-lg shrink-0 transition-all duration-200",
@@ -121,7 +123,7 @@ export default function TopicDetailPage() {
                         <div className="flex items-center gap-2 flex-wrap">
                           <h3
                             className={cn(
-                              "font-semibold text-xs sm:text-sm transition-colors truncate",
+                              "font-semibold text-xs sm:text-sm transition-colors truncate font-hindi",
                               isDone
                                 ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
                                 : "text-foreground group-hover:text-primary"
@@ -131,20 +133,20 @@ export default function TopicDetailPage() {
                           </h3>
                           {/* Completed / New Badge */}
                           {isDone ? (
-                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0">
+                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0 font-hindi">
                               <CheckCircle2 className="h-2.5 w-2.5" />
-                              Completed
+                              पूर्ण
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0">
+                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0 font-hindi">
                               <Sparkles className="h-2.5 w-2.5" />
-                              New
+                              नया
                             </span>
                           )}
                         </div>
-                        <p className="text-xs text-muted-foreground mt-0.5">
-                          {set.questionCount} Questions
-                          {set.negativeMarking && " · −0.25 marking"}
+                        <p className="text-xs text-muted-foreground mt-0.5 font-hindi">
+                          {set.questionCount} प्रश्न
+                          {set.negativeMarking && " · −0.33 ऋणात्मक अंकन"}
                         </p>
                       </div>
                     </div>
@@ -152,14 +154,14 @@ export default function TopicDetailPage() {
                     {/* CTA pill */}
                     <div
                       className={cn(
-                        "flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full shrink-0 ml-3 transition-all",
+                        "flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full shrink-0 ml-3 transition-all font-hindi",
                         isDone
                           ? "text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 group-hover:bg-emerald-500 group-hover:text-white"
                           : "text-primary bg-primary/10 group-hover:bg-primary group-hover:text-primary-foreground"
                       )}
                     >
                       <Play className="h-3.5 w-3.5 fill-current" />
-                      <span>{isDone ? "Redo" : "Start"}</span>
+                      <span>{isDone ? "पुनः हल करें" : "शुरू करें"}</span>
                     </div>
                   </div>
                 </Link>

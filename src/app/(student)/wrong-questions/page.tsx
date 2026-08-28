@@ -6,6 +6,7 @@ import { api } from "../../../../convex/_generated/api";
 import { QuestionReviewCard } from "@/components/quiz";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { History } from "lucide-react";
+import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 
 export default function WrongQuestionsPage() {
   const wrongQuestions = useQuery(api.wrongQuestions.listByUser);
@@ -14,20 +15,22 @@ export default function WrongQuestionsPage() {
 
   return (
     <div className="space-y-5 pb-12">
+      <BreadcrumbNav items={[{ label: "डैशबोर्ड", href: "/dashboard" }, { label: "गलत प्रश्न अभ्यास" }]} />
+
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-          Wrong Questions
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
+          गलत प्रश्न अभ्यास (Revision Bank)
         </h1>
-        <p className="text-sm text-muted-foreground mt-0.5">
-          Questions you&apos;ve missed, auto-saved for focused practice. Sorted by most missed.
+        <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
+          टेस्ट में आपके द्वारा गलत किए गए प्रश्न, लक्षित अभ्यास एवं सुधार के लिए स्वतः सहेजे गए हैं।
         </p>
       </div>
 
       {wrongQuestions && wrongQuestions.length === 0 && (
         <EmptyState
           icon={History}
-          title="No wrong questions — nice work!"
-          description="Incorrect answers from your test attempts will appear here for targeted revision."
+          title="कोई गलत प्रश्न नहीं — बहुत बढ़िया!"
+          description="टेस्ट में आपके द्वारा गलत किए गए प्रश्न लक्षित सुधार के लिए यहाँ स्वतः जुड़ेंगे।"
         />
       )}
 

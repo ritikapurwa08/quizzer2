@@ -93,17 +93,17 @@ export function MatchFollowingRenderer({
     <div className="space-y-4">
       {/* Paired Row Layout — A/B/C/D clearly aligned with their List II match */}
       {(columnA.length > 0 || columnB.length > 0) && (
-        <div className="rounded-xl border border-border bg-muted/30 overflow-hidden">
+        <div className="rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
           {/* Header row */}
-          <div className="grid grid-cols-[2rem_1fr_1.25rem_1fr] items-center gap-x-2 px-3 py-2 border-b border-border bg-muted/60">
-            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider text-center">—</span>
-            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">सूची - I</span>
-            <span />
-            <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">सूची - II</span>
+          <div className="grid grid-cols-[1.75rem_minmax(0,1fr)_1.25rem_minmax(0,1.2fr)] sm:grid-cols-[2.25rem_minmax(0,1fr)_1.75rem_minmax(0,1.2fr)] items-center gap-x-2 sm:gap-x-3 px-3 sm:px-4 py-2 border-b border-border bg-muted/40 text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
+            <span className="text-center">—</span>
+            <span>सूची – I</span>
+            <span className="text-center" />
+            <span>सूची – II</span>
           </div>
 
           {/* Paired data rows */}
-          <div className="divide-y divide-border">
+          <div className="divide-y divide-border/60">
             {columnA.map((itemA, idx) => {
               const itemB = columnB[idx];
               const isHindiA = containsDevanagari(itemA.text);
@@ -111,18 +111,18 @@ export function MatchFollowingRenderer({
 
               return (
                 <div
-                  key={itemA.id}
-                  className="grid grid-cols-[2rem_1fr_1.25rem_1fr] items-start gap-x-2 px-3 py-2.5"
+                  key={itemA.id || idx}
+                  className="grid grid-cols-[1.75rem_minmax(0,1fr)_1.25rem_minmax(0,1.2fr)] sm:grid-cols-[2.25rem_minmax(0,1fr)_1.75rem_minmax(0,1.2fr)] items-center gap-x-2 sm:gap-x-3 px-3 sm:px-4 py-2.5 hover:bg-muted/20 transition-colors"
                 >
                   {/* Letter badge */}
-                  <span className="flex h-6 w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-xs font-bold shrink-0 mt-0.5">
+                  <span className="flex h-6 w-6 sm:h-7 sm:w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0">
                     {itemA.id.replace(/[^A-Za-z0-9]/, "")}
                   </span>
 
                   {/* List I text */}
                   <p
                     className={cn(
-                      "text-sm text-foreground leading-snug break-words overflow-wrap-anywhere",
+                      "text-xs sm:text-sm text-foreground font-medium leading-relaxed break-words",
                       isHindiA && "font-hindi"
                     )}
                   >
@@ -130,20 +130,20 @@ export function MatchFollowingRenderer({
                   </p>
 
                   {/* Arrow connector */}
-                  <span className="text-muted-foreground text-sm font-medium text-center mt-0.5 select-none">→</span>
+                  <span className="text-muted-foreground/60 text-sm font-semibold text-center select-none">→</span>
 
                   {/* List II text */}
                   {itemB ? (
                     <p
                       className={cn(
-                        "text-sm text-foreground leading-snug break-words overflow-wrap-anywhere",
+                        "text-xs sm:text-sm text-foreground font-medium leading-relaxed break-words",
                         isHindiB && "font-hindi"
                       )}
                     >
                       {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
                     </p>
                   ) : (
-                    <span className="text-sm text-muted-foreground/50">—</span>
+                    <span className="text-xs sm:text-sm text-muted-foreground/50">—</span>
                   )}
                 </div>
               );
@@ -153,37 +153,39 @@ export function MatchFollowingRenderer({
       )}
 
       {/* Multiple-Choice Option Buttons */}
-      <div className="space-y-2.5">
-        <h4 className="text-xs font-semibold text-muted-foreground">
-          Select the correct combination:
+      <div className="space-y-2.5 pt-1">
+        <h4 className="text-xs font-bold text-muted-foreground font-hindi">
+          सही कूट (उत्तर विकल्प) चुनें:
         </h4>
-        {question.options.map((option) => {
-          const isSelected = selectedValue === option.id;
-          let correctness: "correct" | "incorrect" | "neutral" | undefined =
-            undefined;
+        <div className="space-y-2">
+          {question.options.map((option) => {
+            const isSelected = selectedValue === option.id;
+            let correctness: "correct" | "incorrect" | "neutral" | undefined =
+              undefined;
 
-          if (isReview) {
-            if (option.id === question.correctAnswer) {
-              correctness = "correct";
-            } else if (isSelected && option.id !== question.correctAnswer) {
-              correctness = "incorrect";
-            } else {
-              correctness = "neutral";
+            if (isReview) {
+              if (option.id === question.correctAnswer) {
+                correctness = "correct";
+              } else if (isSelected && option.id !== question.correctAnswer) {
+                correctness = "incorrect";
+              } else {
+                correctness = "neutral";
+              }
             }
-          }
 
-          return (
-            <OptionButton
-              key={option.id}
-              id={option.id}
-              text={option.text}
-              selected={isSelected}
-              disabled={isReview}
-              correctness={correctness}
-              onClick={() => onSelect(option.id)}
-            />
-          );
-        })}
+            return (
+              <OptionButton
+                key={option.id}
+                id={option.id}
+                text={option.text}
+                selected={isSelected}
+                disabled={isReview}
+                correctness={correctness}
+                onClick={() => onSelect(option.id)}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

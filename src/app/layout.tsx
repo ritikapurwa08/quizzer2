@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="en" className={`${inter.variable} ${anekDevanagari.variable}`}>
+      <html lang="hi" className={`${inter.variable} ${anekDevanagari.variable}`}>
         <body className="antialiased">
           <ConvexClientProvider>
             <TooltipProvider delay={300}>

@@ -8,7 +8,7 @@ import { DataTable } from "@/components/admin/DataTable";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { slugify } from "@/lib/utils";
+import { slugify, getSubjectDisplayName } from "@/lib/utils";
 import { Trash2 } from "lucide-react";
 
 export default function AdminSubjectsPage() {
@@ -39,7 +39,7 @@ export default function AdminSubjectsPage() {
         rows={subjects}
         rowKey={(s) => s._id}
         columns={[
-          { header: "Name", render: (s) => s.name },
+          { header: "Name", render: (s) => getSubjectDisplayName(s) },
           { header: "Slug", render: (s) => <span className="text-muted-foreground">{s.slug}</span> },
           {
             header: "",
