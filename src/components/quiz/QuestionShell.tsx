@@ -39,7 +39,7 @@ export function QuestionShell({
   function handleBookmarkClick() {
     onToggleBookmark();
     showToast(
-      isBookmarked ? "Bookmark removed" : "Question bookmarked",
+      isBookmarked ? "बुकमार्क हटा दिया गया" : "प्रश्न बुकमार्क में सहेजा गया",
       isBookmarked ? "info" : "success"
     );
   }
@@ -58,14 +58,14 @@ export function QuestionShell({
           </span>
 
           {/* Question type badge */}
-          <Badge variant="secondary" className="text-[10px] tracking-wide uppercase px-2 py-0.5 rounded-full">
+          <Badge variant="secondary" className="text-[10px] tracking-wide uppercase px-2 py-0.5 rounded-full font-hindi">
             {QUESTION_TYPE_LABELS[type as QuestionType] ?? LEGACY_TYPE_LABELS[type] ?? type.replace(/_/g, " ")}
           </Badge>
 
           {/* Miss count badge */}
           {missCount !== undefined && missCount > 0 && (
-            <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full">
-              Missed {missCount}×
+            <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full font-hindi">
+              {missCount}× गलत
             </Badge>
           )}
 
@@ -73,7 +73,7 @@ export function QuestionShell({
           {reviewBadge && (
             <Badge
               className={cn(
-                "inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full capitalize border",
+                "inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full capitalize border font-hindi",
                 reviewBadge === "correct" && "bg-success/15 text-success border-success/25",
                 reviewBadge === "incorrect" && "bg-destructive/15 text-destructive border-destructive/25",
                 reviewBadge === "unanswered" && "bg-muted text-muted-foreground border-border"
@@ -82,7 +82,7 @@ export function QuestionShell({
               {reviewBadge === "correct" && <CheckCircle2 className="h-3 w-3" />}
               {reviewBadge === "incorrect" && <XCircle className="h-3 w-3" />}
               {reviewBadge === "unanswered" && <HelpCircle className="h-3 w-3" />}
-              {reviewBadge}
+              {reviewBadge === "correct" ? "सही" : reviewBadge === "incorrect" ? "गलत" : "छोड़ा गया"}
             </Badge>
           )}
         </div>
@@ -91,9 +91,9 @@ export function QuestionShell({
         <Tooltip>
           <TooltipTrigger
             onClick={handleBookmarkClick}
-            aria-label={isBookmarked ? "Remove bookmark" : "Bookmark question"}
+            aria-label={isBookmarked ? "बुकमार्क हटाएं" : "प्रश्न सहेजें"}
             className={cn(
-              "flex h-8 items-center gap-1.5 px-2.5 rounded-lg border text-xs font-semibold transition-all active:scale-95 shrink-0 cursor-pointer",
+              "flex h-8 items-center gap-1.5 px-2.5 rounded-lg border text-xs font-semibold transition-all active:scale-95 shrink-0 cursor-pointer font-hindi",
               isBookmarked
                 ? "bg-amber-500/15 border-amber-500/35 text-amber-400 hover:bg-amber-500/25"
                 : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"
@@ -106,11 +106,11 @@ export function QuestionShell({
               )}
             />
             <span className="hidden sm:inline">
-              {isBookmarked ? "Saved" : "Bookmark"}
+              {isBookmarked ? "सहेजा गया" : "बुकमार्क"}
             </span>
           </TooltipTrigger>
-          <TooltipContent side="left">
-            {isBookmarked ? "Remove bookmark" : "Save for later"}
+          <TooltipContent side="left" className="font-hindi">
+            {isBookmarked ? "बुकमार्क हटाएं" : "रिवीजन के लिए सहेजें"}
           </TooltipContent>
         </Tooltip>
       </div>

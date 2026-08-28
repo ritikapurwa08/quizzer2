@@ -55,8 +55,8 @@ export function QuestionReviewCard({
       {/* Explanation — separated by hairline divider, muted background tint */}
       {question.explanation && (
         <div className="px-4 sm:px-5 py-3.5 border-t border-border/60 bg-muted/30">
-          <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-            Explanation &amp; Context
+          <p className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mb-1 font-hindi">
+            विस्तृत व्याख्या एवं संदर्भ
           </p>
           <p className={cn("text-xs sm:text-sm text-foreground leading-relaxed", isHindiExplanation && "font-hindi")}>
             {question.explanation}

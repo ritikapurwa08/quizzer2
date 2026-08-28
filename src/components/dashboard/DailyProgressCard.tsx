@@ -13,17 +13,17 @@ export function DailyProgressCard({ data }: { data: DailyPoint[] }) {
   return (
     <Card className="p-4 sm:p-5 rounded-xl border border-border shadow-xs flex flex-col justify-between">
       <div className="flex items-center justify-between mb-3.5">
-        <h2 className="text-sm font-semibold text-foreground flex items-center gap-2">
+        <h2 className="text-sm font-semibold text-foreground flex items-center gap-2 font-hindi">
           <TrendingUp className="h-4 w-4 text-primary" />
-          Daily Progress
+          दैनिक अभ्यास प्रगति (Daily Streak)
         </h2>
       </div>
 
       {data.length === 0 ? (
         <EmptyState
           icon={TrendingUp}
-          title="Daily activity shows up here"
-          description="Attempt a test set to build your revision streak."
+          title="दैनिक अभ्यास यहाँ दिखेगा"
+          description="प्रतिदिन प्रश्न हल करके अपनी अध्ययन निरंतरता बनाए रखें।"
           className="py-6"
         />
       ) : (

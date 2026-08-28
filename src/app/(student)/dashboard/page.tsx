@@ -37,22 +37,12 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      {/* Stat cards — 1-col on tiny mobile, 2-col on sm, 4-col on lg desktop */}
-      {stats && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
-          <StatCard icon={ListChecks} label="दिए गए टेस्ट" value={stats.testsAttempted} />
-          <StatCard icon={CheckCircle2} label="हल किए गए प्रश्न" value={stats.questionsSolved} />
-          <StatCard icon={Percent} label="सटीकता (Accuracy)" value={formatAccuracy(stats.overallAccuracy)} />
-          <StatCard icon={Bookmark} label="बुकमार्क" value={stats.bookmarkCount} />
-        </div>
-      )}
-
-      {/* Fixed Subjects — 1-col mobile, 2-col sm, 3-col desktop */}
+      {/* 1. Subjects Grid (Primary Study Entry) — 1-col mobile, 2-col sm, 3-col desktop */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 font-hindi">
             <BookOpen className="h-4 w-4 text-primary" />
-            पाठ्यक्रम के विषय
+            पाठ्यक्रम के विषय (Subjects)
             <span className="font-bold text-foreground tabular-nums">({subjects.length})</span>
           </h2>
         </div>
@@ -84,7 +74,17 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {/* Weak Subjects & Daily Progress — stacked on mobile, side-by-side on desktop */}
+      {/* 2. Supporting Stat Cards — Compact 2-col on mobile, 4-col on desktop */}
+      {stats && (
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
+          <StatCard icon={ListChecks} label="दिए गए टेस्ट" value={stats.testsAttempted} />
+          <StatCard icon={CheckCircle2} label="हल किए प्रश्न" value={stats.questionsSolved} />
+          <StatCard icon={Percent} label="सटीकता" value={formatAccuracy(stats.overallAccuracy)} />
+          <StatCard icon={Bookmark} label="बुकमार्क" value={stats.bookmarkCount} />
+        </div>
+      )}
+
+      {/* 3. Weak Subjects & Daily Progress — stacked on mobile, side-by-side on desktop */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {stats && <WeakSubjectsCard subjects={stats.weakSubjects} />}
         {stats && <DailyProgressCard data={stats.dailyProgress} />}

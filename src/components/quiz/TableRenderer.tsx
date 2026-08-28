@@ -16,22 +16,22 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
   return (
     <div className="space-y-4">
       {meta?.headers && (
-        <div className="overflow-x-auto rounded-md border border-border">
-          <table className="w-full text-sm">
-            <thead className="bg-muted">
+        <div className="overflow-x-auto rounded-xl border border-border bg-card/60 shadow-2xs">
+          <table className="w-full text-xs sm:text-sm">
+            <thead className="bg-muted/50 border-b border-border">
               <tr>
                 {meta.headers.map((h, i) => (
-                  <th key={i} className="px-3 py-2 text-left font-medium whitespace-nowrap">
+                  <th key={i} className="px-3.5 py-2.5 text-left font-bold text-muted-foreground uppercase tracking-wider whitespace-nowrap">
                     {h}
                   </th>
                 ))}
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-border/60">
               {meta.rows.map((row, i) => (
-                <tr key={i} className="border-t border-border">
+                <tr key={i} className="hover:bg-muted/20 transition-colors">
                   {row.map((cell, j) => (
-                    <td key={j} className="px-3 py-2 whitespace-nowrap">
+                    <td key={j} className="px-3.5 py-2.5 text-foreground">
                       {cell}
                     </td>
                   ))}

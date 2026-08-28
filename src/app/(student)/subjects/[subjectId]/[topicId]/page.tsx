@@ -133,13 +133,13 @@ export default function TopicDetailPage() {
                           </h3>
                           {/* Completed / New Badge */}
                           {isDone ? (
-                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0 font-hindi">
-                              <CheckCircle2 className="h-2.5 w-2.5" />
+                            <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0 font-hindi">
+                              <CheckCircle2 className="h-3 w-3" />
                               पूर्ण
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0 font-hindi">
-                              <Sparkles className="h-2.5 w-2.5" />
+                            <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0 font-hindi">
+                              <Sparkles className="h-3 w-3" />
                               नया
                             </span>
                           )}

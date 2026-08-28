@@ -37,15 +37,15 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
       disabled={disabled}
       className={cn(
         // Base: fixed layout, constant border-2, never changes box size
-        "flex w-full items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-sm transition-colors duration-100 min-h-[3rem] select-none group",
+        "flex w-full items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-sm transition-colors duration-100 min-h-[3rem] select-none group outline-none focus-visible:ring-2 focus-visible:ring-primary/50 focus-visible:border-primary",
         // Default state
         !selected && !correctness && "border-border bg-card hover:bg-muted/50 hover:border-primary/40 cursor-pointer",
-        // Selected (during quiz — blue tint)
-        selected && !correctness && "border-primary bg-primary/8 ring-2 ring-primary/15 cursor-pointer",
+        // Selected (during quiz — violet tint)
+        selected && !correctness && "border-primary bg-primary/10 ring-1 ring-primary/30 cursor-pointer",
         // Review: correct (green tint)
-        correctness === "correct" && "border-success bg-success/10 ring-2 ring-success/15",
+        correctness === "correct" && "border-success bg-success/15 ring-1 ring-success/30",
         // Review: incorrect (red tint)
-        correctness === "incorrect" && "border-destructive bg-destructive/10 ring-2 ring-destructive/15",
+        correctness === "incorrect" && "border-destructive bg-destructive/15 ring-1 ring-destructive/30",
         // Disabled
         disabled && "cursor-default"
       )}

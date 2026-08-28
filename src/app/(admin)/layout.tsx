@@ -5,6 +5,8 @@ import { useAdminGuard } from "@/hooks/useAdminGuard";
 import { ToastProvider } from "@/components/ui/Toast";
 import { LayoutGrid, Upload, BookOpen, Layers, FileText, HelpCircle, ArrowLeft, Home } from "lucide-react";
 
+import { LoadingState } from "@/components/shared/LoadingState";
+
 const NAV = [
   { href: "/admin", label: "Overview", icon: LayoutGrid },
   { href: "/admin/import", label: "Import", icon: Upload },
@@ -17,7 +19,13 @@ const NAV = [
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   const { isAdmin, isLoading } = useAdminGuard();
 
-  if (isLoading) return <p className="p-6 text-sm text-muted-foreground animate-pulse">Loading Admin Console...</p>;
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <LoadingState message="Admin Console लोड हो रहा है…" />
+      </div>
+    );
+  }
   if (!isAdmin) return null;
 
   return (

@@ -152,14 +152,14 @@ export default function QuizPage() {
             disabled={currentIndex === 0}
             className="h-10 px-4 font-semibold text-xs rounded-xl border-border cursor-pointer font-hindi"
           >
-            ← पिछला (Prev)
+            ← पिछला
           </Button>
           {currentIndex < questions.length - 1 ? (
             <Button
               onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
               className="h-10 px-4 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer font-hindi"
             >
-              अगला (Next) →
+              अगला →
             </Button>
           ) : (
             <Button
@@ -179,7 +179,7 @@ export default function QuizPage() {
           <div className="rounded-xl border border-border bg-card p-4 space-y-3 shadow-xs">
             <div className="flex items-center justify-between">
               <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider font-hindi">
-                प्रगति (Progress)
+                प्रगति
               </span>
               <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full font-hindi">
                 {answeredCount} / {questions.length} हल
@@ -188,7 +188,7 @@ export default function QuizPage() {
 
             <div className="flex items-center justify-between pt-2 border-t border-border/60">
               <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider font-hindi">
-                समय (Time)
+                समय
               </span>
               <div className="flex items-center gap-1.5 font-mono text-sm font-bold text-foreground">
                 <Clock className="h-4 w-4 text-primary" />
@@ -234,7 +234,7 @@ export default function QuizPage() {
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs h-10 rounded-xl shadow-xs cursor-pointer font-hindi"
               onClick={() => setConfirmSubmitOpen(true)}
             >
-              टेस्ट सबमिट करें (Submit)
+              टेस्ट सबमिट करें
             </Button>
           </div>
         </div>

@@ -124,23 +124,23 @@ export default function SubjectDetailPage() {
                         </p>
                       </div>
 
-                      <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
+                      <div className="flex items-center gap-2 mt-0.5 flex-wrap">
                         {setCount === 0 ? (
-                          <p className="text-[10px] text-muted-foreground/60 font-hindi">अभी कोई सेट नहीं</p>
+                          <p className="text-xs text-muted-foreground/60 font-hindi">अभी कोई सेट नहीं</p>
                         ) : (
-                          <p className="text-[10px] text-muted-foreground font-hindi">
+                          <p className="text-xs text-muted-foreground font-hindi">
                             {setCount} अभ्यास सेट
                           </p>
                         )}
 
                         {isCompleted && (
-                          <span className="inline-flex items-center gap-0.5 text-[10px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.2 rounded font-hindi">
+                          <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full font-hindi border border-emerald-500/20">
                             <CheckCircle2 className="h-3 w-3" /> पूर्ण
                           </span>
                         )}
 
                         {isInProgress && (
-                          <span className="inline-flex items-center gap-0.5 text-[10px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-1.5 py-0.2 rounded font-hindi">
+                          <span className="inline-flex items-center gap-1 text-xs font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full font-hindi border border-amber-500/20">
                             <Clock className="h-3 w-3" /> प्रगति पर ({progress.completedSets}/{progress.totalSets})
                           </span>
                         )}

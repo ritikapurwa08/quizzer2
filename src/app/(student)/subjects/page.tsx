@@ -58,9 +58,9 @@ export default function SubjectsPage() {
                       {getSubjectDisplayName(s)}
                     </h2>
                     {setCount === 0 ? (
-                      <p className="text-[10px] text-muted-foreground/60 mt-0.5 font-hindi">अभी कोई सेट नहीं</p>
+                      <p className="text-xs text-muted-foreground/60 mt-0.5 font-hindi">अभी कोई सेट नहीं</p>
                     ) : (
-                      <p className="text-[10px] text-muted-foreground mt-0.5 font-hindi">{setCount} अभ्यास सेट</p>
+                      <p className="text-xs text-muted-foreground mt-0.5 font-hindi">{setCount} अभ्यास सेट</p>
                     )}
                   </div>
                 </div>
