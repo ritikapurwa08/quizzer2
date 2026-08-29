@@ -153,54 +153,62 @@ export function MatchFollowingRenderer({
             </div>
           </div>
 
-          {/* ── MOBILE: Stacked Semantic Pairs (No horizontal squeezing) ── */}
-          <div className="block sm:hidden space-y-2">
-            <div className="flex items-center justify-between px-1 text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+          {/* ── MOBILE: Single Compact Container with Paired Rows ── */}
+          <div className="block sm:hidden rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
+            {/* Header row */}
+            <div className="flex items-center justify-between px-3 py-2 border-b border-border bg-muted/40 text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
               <span>सूची – I</span>
+              <span className="text-muted-foreground/50">→</span>
               <span>सूची – II</span>
             </div>
-            {columnA.map((itemA, idx) => {
-              const itemB = columnB[idx];
-              const isHindiA = containsDevanagari(itemA.text);
-              const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
 
-              return (
-                <div
-                  key={itemA.id || idx}
-                  className="rounded-xl border border-border/80 bg-card/60 p-3 space-y-2 shadow-2xs"
-                >
-                  {/* List I Header */}
-                  <div className="flex items-start gap-2.5">
-                    <span className="flex h-6 w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-xs font-bold shrink-0 mt-0.5">
-                      {itemA.id.replace(/[^A-Za-z0-9]/, "")}
-                    </span>
-                    <p
-                      className={cn(
-                        "text-xs font-semibold text-foreground leading-snug break-words flex-1",
-                        isHindiA && "font-hindi"
-                      )}
-                    >
-                      {itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
-                    </p>
-                  </div>
+            {/* Paired data rows */}
+            <div className="divide-y divide-border/60">
+              {columnA.map((itemA, idx) => {
+                const itemB = columnB[idx];
+                const isHindiA = containsDevanagari(itemA.text);
+                const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
 
-                  {/* List II Sub-row */}
-                  {itemB && (
-                    <div className="flex items-start gap-2 pl-3 pt-1 border-t border-border/40 text-xs">
-                      <span className="text-primary font-bold select-none shrink-0">↳</span>
+                return (
+                  <div
+                    key={itemA.id || idx}
+                    className="p-3 hover:bg-muted/20 transition-colors space-y-1.5"
+                  >
+                    {/* List I Item */}
+                    <div className="flex items-start gap-2.5">
+                      <span className="flex h-6 w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-xs font-bold shrink-0 mt-0.5">
+                        {itemA.id.replace(/[^A-Za-z0-9]/, "")}
+                      </span>
                       <p
                         className={cn(
-                          "text-xs text-muted-foreground font-medium leading-relaxed break-words flex-1",
-                          isHindiB && "font-hindi"
+                          "text-xs font-medium text-foreground leading-relaxed break-words flex-1",
+                          isHindiA && "font-hindi"
                         )}
                       >
-                        {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
+                        {itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
                       </p>
                     </div>
-                  )}
-                </div>
-              );
-            })}
+
+                    {/* Connected List II Item */}
+                    {itemB && (
+                      <div className="flex items-start gap-2 pl-8 text-xs">
+                        <span className="text-primary font-bold select-none shrink-0 mt-0.5">
+                          →
+                        </span>
+                        <p
+                          className={cn(
+                            "text-xs text-muted-foreground font-medium leading-relaxed break-words flex-1",
+                            isHindiB && "font-hindi"
+                          )}
+                        >
+                          {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       )}
