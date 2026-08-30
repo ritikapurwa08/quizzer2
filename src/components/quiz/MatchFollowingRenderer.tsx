@@ -16,9 +16,9 @@ export function MatchFollowingRenderer({
   mode,
 }: QuestionRendererProps) {
   const isReview = mode === "review";
-  const metaObj = (question.meta as any) || {};
-  let rawLeft = metaObj.left ?? metaObj.columnA ?? [];
-  let rawRight = metaObj.right ?? metaObj.columnB ?? [];
+  const metaObj = (question.meta as Record<string, unknown>) || {};
+  let rawLeft = (metaObj.left ?? metaObj.columnA ?? []) as unknown[];
+  let rawRight = (metaObj.right ?? metaObj.columnB ?? []) as unknown[];
 
   if ((!rawLeft || rawLeft.length === 0) && (!rawRight || rawRight.length === 0) && question.questionText) {
     const text = question.questionText;
@@ -44,21 +44,22 @@ export function MatchFollowingRenderer({
   }
 
   // Normalize columnA items
-  const columnA: MatchItem[] = rawLeft.map((item: any, idx: number) => {
+  const columnA: MatchItem[] = rawLeft.map((item: unknown, idx: number) => {
     if (typeof item === "string") {
       const match = item.match(/^([A-Za-z0-9]+)[\.:-]?\s*(.*)/);
       const matchedId =
         match && match[1] ? match[1].toUpperCase() : String.fromCharCode(65 + idx);
       return { id: matchedId, text: item };
     }
+    const itemObj = (item && typeof item === "object" ? item : {}) as Record<string, unknown>;
     return {
-      id: item.id || String.fromCharCode(65 + idx),
-      text: item.text || String(item),
+      id: String(itemObj.id || String.fromCharCode(65 + idx)),
+      text: String(itemObj.text || item),
     };
   });
 
   // Normalize columnB items
-  const columnB: MatchItem[] = rawRight.map((item: any, idx: number) => {
+  const columnB: MatchItem[] = rawRight.map((item: unknown, idx: number) => {
     if (typeof item === "string") {
       const match = item.match(/^([A-Za-z0-9]+)[\.:-]?\s*(.*)/);
       return {
@@ -66,149 +67,97 @@ export function MatchFollowingRenderer({
         text: item,
       };
     }
+    const itemObj = (item && typeof item === "object" ? item : {}) as Record<string, unknown>;
     return {
-      id: item.id || String(idx + 1),
-      text: item.text || String(item),
+      id: String(itemObj.id || String(idx + 1)),
+      text: String(itemObj.text || item),
     };
   });
-
-  // Safely extract correct pairs array
-  let correctPairs: string[] = [];
-  if (Array.isArray(question.correctAnswer)) {
-    correctPairs = question.correctAnswer as string[];
-  } else if (typeof question.correctAnswer === "string") {
-    const matchedOpt = question.options?.find(
-      (o) => o.id === question.correctAnswer
-    );
-    const optText = matchedOpt ? matchedOpt.text : question.correctAnswer;
-    correctPairs =
-      optText
-        .match(/[A-Za-z0-9]+\s*-\s*[A-Za-z0-9]+/g)
-        ?.map((p) => p.replace(/\s+/g, "")) || [];
-  }
 
   const selectedValue = typeof selected === "string" ? selected : "";
 
   return (
     <div className="space-y-4">
-      {/* Paired Row Layout — Desktop balanced columns & Mobile stacked semantic pairs */}
+      {/* Side-by-side List I and List II with row-by-row vertical alignment */}
       {(columnA.length > 0 || columnB.length > 0) && (
-        <div className="space-y-2">
-          {/* ── DESKTOP / TABLET: 4-Column Balanced Grid ── */}
-          <div className="hidden sm:block rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
-            {/* Header row */}
-            <div className="grid grid-cols-[2.5rem_minmax(0,1fr)_1.5rem_minmax(0,1.4fr)] items-center gap-x-3 px-4 py-2 border-b border-border bg-muted/40 text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-              <span className="text-center">—</span>
+        <div className="rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
+          {/* Header Row */}
+          <div className="grid grid-cols-2 border-b border-border bg-muted/40 text-[11px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi divide-x divide-border/60">
+            <div className="px-3 sm:px-4 py-2 flex items-center">
               <span>सूची – I</span>
-              <span className="text-center" />
-              <span>सूची – II</span>
             </div>
-
-            {/* Paired data rows */}
-            <div className="divide-y divide-border/60">
-              {columnA.map((itemA, idx) => {
-                const itemB = columnB[idx];
-                const isHindiA = containsDevanagari(itemA.text);
-                const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
-
-                return (
-                  <div
-                    key={itemA.id || idx}
-                    className="grid grid-cols-[2.5rem_minmax(0,1fr)_1.5rem_minmax(0,1.4fr)] items-center gap-x-3 px-4 py-2.5 hover:bg-muted/20 transition-colors"
-                  >
-                    {/* Letter badge */}
-                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0">
-                      {itemA.id.replace(/[^A-Za-z0-9]/, "")}
-                    </span>
-
-                    {/* List I text */}
-                    <p
-                      className={cn(
-                        "text-sm text-foreground font-medium leading-relaxed break-words",
-                        isHindiA && "font-hindi"
-                      )}
-                    >
-                      {itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
-                    </p>
-
-                    {/* Arrow connector */}
-                    <span className="text-muted-foreground/60 text-sm font-semibold text-center select-none">→</span>
-
-                    {/* List II text */}
-                    {itemB ? (
-                      <p
-                        className={cn(
-                          "text-sm text-foreground font-medium leading-relaxed break-words",
-                          isHindiB && "font-hindi"
-                        )}
-                      >
-                        {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
-                      </p>
-                    ) : (
-                      <span className="text-sm text-muted-foreground/50">—</span>
-                    )}
-                  </div>
-                );
-              })}
+            <div className="px-3 sm:px-4 py-2 flex items-center">
+              <span>सूची – II</span>
             </div>
           </div>
 
-          {/* ── MOBILE: Single Compact Container with Paired Rows ── */}
-          <div className="block sm:hidden rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
-            {/* Header row */}
-            <div className="flex items-center justify-between px-3 py-2 border-b border-border bg-muted/40 text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-              <span>सूची – I</span>
-              <span className="text-muted-foreground/50">→</span>
-              <span>सूची – II</span>
-            </div>
+          {/* Data Rows — Row-by-row vertical alignment so A=1, B=2, C=3, D=4 share the same horizontal row and height */}
+          <div className="divide-y divide-border/60">
+            {Array.from({ length: Math.max(columnA.length, columnB.length) }).map((_, idx) => {
+              const itemA = columnA[idx];
+              const itemB = columnB[idx];
+              const isHindiA = itemA ? containsDevanagari(itemA.text) : false;
+              const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
 
-            {/* Paired data rows */}
-            <div className="divide-y divide-border/60">
-              {columnA.map((itemA, idx) => {
-                const itemB = columnB[idx];
-                const isHindiA = containsDevanagari(itemA.text);
-                const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
+              const displayIdA = itemA
+                ? itemA.id.replace(/[^A-Za-z0-9]/, "") || String.fromCharCode(65 + idx)
+                : "";
+              const displayTextA = itemA ? itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "") : "";
 
-                return (
-                  <div
-                    key={itemA.id || idx}
-                    className="p-3 hover:bg-muted/20 transition-colors space-y-1.5"
-                  >
-                    {/* List I Item */}
-                    <div className="flex items-start gap-2.5">
-                      <span className="flex h-6 w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-xs font-bold shrink-0 mt-0.5">
-                        {itemA.id.replace(/[^A-Za-z0-9]/, "")}
-                      </span>
-                      <p
-                        className={cn(
-                          "text-xs font-medium text-foreground leading-relaxed break-words flex-1",
-                          isHindiA && "font-hindi"
-                        )}
-                      >
-                        {itemA.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
-                      </p>
-                    </div>
+              const displayIdB = itemB
+                ? itemB.id.replace(/[^A-Za-z0-9]/, "") || String(idx + 1)
+                : "";
+              const displayTextB = itemB ? itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "") : "";
 
-                    {/* Connected List II Item */}
-                    {itemB && (
-                      <div className="flex items-start gap-2 pl-8 text-xs">
-                        <span className="text-primary font-bold select-none shrink-0 mt-0.5">
-                          →
+              return (
+                <div
+                  key={itemA?.id || itemB?.id || idx}
+                  className="grid grid-cols-2 divide-x divide-border/60 hover:bg-muted/20 transition-colors"
+                >
+                  {/* Left Column Item (List I) */}
+                  <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
+                    {itemA ? (
+                      <>
+                        <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                          {displayIdA}
                         </span>
-                        <p
+                        <span
                           className={cn(
-                            "text-xs text-muted-foreground font-medium leading-relaxed break-words flex-1",
+                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
+                            isHindiA && "font-hindi"
+                          )}
+                        >
+                          {displayTextA}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-xs text-muted-foreground/40">—</span>
+                    )}
+                  </div>
+
+                  {/* Right Column Item (List II) */}
+                  <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
+                    {itemB ? (
+                      <>
+                        <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-secondary text-secondary-foreground text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                          {displayIdB}
+                        </span>
+                        <span
+                          className={cn(
+                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
                             isHindiB && "font-hindi"
                           )}
                         >
-                          {itemB.text.replace(/^[A-Za-z0-9][.):]\s*/, "")}
-                        </p>
-                      </div>
+                          {displayTextB}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-xs text-muted-foreground/40">—</span>
                     )}
                   </div>
-                );
-              })}
-            </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
