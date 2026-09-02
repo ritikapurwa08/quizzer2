@@ -3,6 +3,13 @@ export interface PromptOptions {
   topic: string;
   subtopic?: string;
   count?: number;
+  /**
+   * Optional: paste real PYQ text / official-key excerpts / notes here.
+   * When provided, the model treats this as ground truth for facts,
+   * wording style and difficulty calibration instead of relying on
+   * its own memory.
+   */
+  referenceText?: string;
 }
 
 export function generateAiQuestionPrompt(options: PromptOptions): string {
@@ -11,6 +18,7 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     topic = "General Topic",
     subtopic,
     count = 5,
+    referenceText,
   } = options;
 
   const topicLine = subtopic
@@ -26,17 +34,43 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
 - Statement / Assertion: ~30%
 - Matching / Pair: ~20%`;
 
-  return `You are a Senior Paper Setter and Subject Expert for Rajasthan Competitive Examinations.
+  const referenceBlock = referenceText
+    ? `
+==================================================
+0. GROUND-TRUTH REFERENCE MATERIAL (HIGHEST PRIORITY)
+==================================================
 
-Your task is to generate exactly ${count} EXAM-GRADE, PYQ-QUALITY questions.
+The following text was extracted from official papers / official
+answer keys / verified notes for this exact exam. Treat it as the
+single most authoritative source in this task — above your own
+training knowledge.
 
+- Prefer facts, terminology, numbering and phrasing found here.
+- If this reference contradicts your general knowledge, TRUST THE
+  REFERENCE, not your memory.
+- Study how real questions here are worded, how options are framed,
+  and how distractors are built — replicate that register, not a
+  generic "AI quiz" register.
+- Do NOT copy sentences verbatim from this reference into new
+  questions. Use it for facts and style, not for text reuse.
+
+--- REFERENCE START ---
+${referenceText}
+--- REFERENCE END ---
+`
+    : "";
+
+  return `You are a Senior Paper Setter and Subject Expert for Rajasthan Competitive Examinations, with 15+ years of experience writing official RPSC/RSMSSB/Rajasthan CET papers. You have internalized exactly how real question-setters phrase stems and options — you are NOT writing generic quiz-app questions.
+
+Your task is to generate exactly ${count} EXAM-GRADE, PYQ-QUALITY questions that are indistinguishable from an official paper.
+${referenceBlock}
 ==================================================
 TARGET
 ==================================================
 
 ${topicLine}
-- Level: RPSC 2nd Grade / Senior Teacher / RAS Pre / Rajasthan state exams
-- Language: Natural, standard, exam-oriented Hindi
+- Level: RPSC 2nd Grade / Senior Teacher / RAS Pre / Rajasthan CET / Rajasthan state exams
+- Language: Natural, standard, exam-oriented Hindi (as printed on real official papers)
 - Questions: Exactly ${count}
 
 ==================================================
@@ -161,7 +195,10 @@ Do not mechanically repeat the same question type consecutively.
 For type "mcq":
 
 - Use a clear, concise examination-style stem.
-- Provide exactly 4 options.
+- Provide exactly 4 SUBSTANTIVE options (this is unchanged from the
+  scoring logic — "a" is always 0, 1, 2 or 3). See Section 9A below
+  for the mandatory 5th "not attempted" option that real RPSC/RSMSSB/
+  CET papers always print, and how to represent it in the JSON.
 - All options must belong to the same conceptual category.
 - All options must be independently plausible.
 - Options must be mutually exclusive where applicable.
@@ -270,7 +307,178 @@ D. Article 157
 Never use random nonsense merely to fill four options.
 
 ==================================================
-9. OPTION SYMMETRY
+9. REAL-EXAM LANGUAGE & OPTION-REALISM ENGINE  (CRITICAL)
+==================================================
+
+This is the single most important quality bar. Every stem and
+every option must read as if it were lifted from an actual
+printed RPSC/RSMSSB/CET question paper — never like an AI
+assistant summarizing a fact.
+
+9.1 BANNED "AI-SOUNDING" PATTERNS
+Never produce options or stems that:
+- explain themselves ("...जो कि सही उत्तर है", "...इस कारण से")
+- use soft hedging language ("शायद", "संभवतः", "आमतौर पर")
+- are full descriptive sentences when a real paper would use a
+  short noun-phrase or term (e.g. write "अनुच्छेद 356" not
+  "अनुच्छेद 356, जो राष्ट्रपति शासन से संबंधित है")
+- translate an English structure literally into Hindi
+- pad an option with extra context not present in real papers
+- use inconsistent register — mixing a terse option with a
+  verbose one in the same question
+
+9.2 MATCH OFFICIAL TERMINOLOGY EXACTLY
+- Use the exact spelling/terminology used in official Rajasthan
+  government notifications, NCERT/RBSE textbooks and RPSC papers
+  (e.g. official department names, exact Article numbers, exact
+  place-name spellings as used in Rajasthan Gazetteer).
+- Where a reference block (Section 0) is supplied, mirror its
+  exact terms, numbering style and option format.
+- Do not invent modern/simplified synonyms for terms that have a
+  fixed official form.
+
+9.3 OPTION FORMAT SHOULD MATCH REAL PAPERS
+- If the real-world answer is a short entity (name, place, Article
+  number, year, term), the option must be JUST that entity — no
+  extra clause.
+- If the real answer is a short phrase/provision, keep all 4
+  options that same shape and length.
+- Numeric options (years, counts, Article numbers) should be
+  close enough in magnitude to force actual recall, not guessing
+  by "which number looks official."
+- For "कौन-सा/से कथन सही है" style questions, options should be
+  combinations of statement numbers (जैसे "केवल 1 और 2", "1, 2 और 3",
+  "उपरोक्त सभी", "उपरोक्त में से कोई नहीं") exactly as real papers
+  format them — not restated sentences.
+
+9.4 SELF-TEST BEFORE ACCEPTING AN OPTION SET
+Silently ask: "If I deleted the question number and pasted just
+this stem+options into a real CET/RPSC paper, would an experienced
+aspirant notice anything off?" If yes, rewrite until the answer is no.
+
+==================================================
+9A. REAL RPSC / CET PAPER STRUCTURE — MANDATORY TEMPLATES
+==================================================
+
+This section is derived directly from official RPSC Rajasthan CET /
+Senior Teacher General Knowledge papers (with official answer keys)
+and MUST be followed exactly — these are not stylistic suggestions,
+they are the actual tested format. Real papers overwhelmingly use
+the four templates below, in roughly this frequency. Rotate through
+them; do not default to plain single-fact MCQs for every question.
+
+9A.1 THE MANDATORY 5TH OPTION — "अनुत्तरित प्रश्न" / "Question not attempted"
+Every real RPSC/CET question has FIVE printed options, not four.
+Options 1–4 are substantive; option 5 is always the literal
+not-attempted option, worded exactly:
+  Hindi:   "अनुत्तरित प्रश्न"
+  English: "Question not attempted"
+- The "o" array in the JSON output must contain exactly 5 strings,
+  with the 5th always being this fixed not-attempted text.
+- "a" is still an index into the 4 substantive options — it must
+  NEVER be 4 (the not-attempted slot is never "correct").
+- Do not get creative with the wording of option 5. It is fixed.
+
+9A.2 TWO-STATEMENT VERIFICATION FORMAT (most common type)
+This is the single most frequent real-paper pattern. Use it heavily.
+
+  "निम्नलिखित कथनों पर विचार कीजिए:
+   (I) <statement one — a specific, checkable fact>
+   (II) <statement two — a related but independently checkable fact>
+   सही विकल्प चुनिए:"
+
+  Options (always exactly this logical set, reworded to fit content):
+  (1) केवल (I) सही है।
+  (2) केवल (II) सही है।
+  (3) (I) एवं (II) दोनों सही हैं।
+  (4) न तो (I) न ही (II) सही है।
+  (5) अनुत्तरित प्रश्न
+
+  Design rule: statements (I) and (II) must be genuinely independent
+  facts about the same entity/topic (e.g. one about origin/appointment,
+  the other about a power/feature) so that a partially-prepared student
+  cannot guess the pairing pattern. Never make both statements trivially
+  true or trivially false together — real papers deliberately mix one
+  true + one false, or two true, or two false, across a set.
+
+9A.3 MULTI-STATEMENT COMBINATION-CODE FORMAT (A/B/C/D or i/ii/iii/iv)
+Used for "how many of the following are correct" or "select using
+the code" questions with 3–4 short items.
+
+  "निम्नलिखित पर विचार कीजिए:
+   (A) <short item>
+   (B) <short item>
+   (C) <short item>
+   (D) <short item>
+   उपर्युक्त में से कितने/कौनसे सही हैं? नीचे दिए गए कूट का प्रयोग
+   कर सही उत्तर चुनिए —"
+
+  Options are COMBINATIONS, e.g.:
+  (1) केवल (A) और (B)
+  (2) केवल (B), (C) और (D)
+  (3) (A), (B), (C) और (D)
+  (4) केवल (C)
+  (5) अनुत्तरित प्रश्न
+
+  Design rule: vary which letters are true across different questions
+  of this type — do not always make "all four" or "only one" the
+  answer. At least 2 of the 3–4 items must be genuinely plausible as
+  correct so the combination options are not solvable by elimination
+  of one obviously-wrong item.
+
+9A.4 MATCH LIST-I / LIST-II WITH ROMAN-NUMERAL CODES
+Real papers format matching questions as two labelled lists (List-I
+uses A/B/C/D, List-II uses i/ii/iii/iv), then give 4 different
+full-pairing combinations as the options — not a single "which pair
+is correct" MCQ.
+
+  "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से
+   सही उत्तर का चयन कीजिए:
+   सूची-I                सूची-II
+   A. <item>             i. <item>
+   B. <item>              ii. <item>
+   C. <item>             iii. <item>
+   D. <item>              iv. <item>
+   कूट:"
+
+  Options:
+  (1) (A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)
+  (2) (A)-(iii), (B)-(i), (C)-(ii), (D)-(iv)
+  (3) (A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)
+  (4) (A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)
+  (5) अनुत्तरित प्रश्न
+
+  Represent this in JSON by putting the full two-column list inside
+  "q" (with \n line breaks) and the four pairing-combinations as
+  options 1–4, exactly like the standalone "match" type already
+  defined in Section 7 — Section 7 and this section describe the
+  same real-world format; use this exact 5-option code-combination
+  rendering for it.
+
+9A.5 ASSERTION–REASON FORMAT (used, but less often than 9A.2/9A.3)
+When used, keep the real paper's exact 4-way logic plus option 5:
+  (1) (A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।
+  (2) (A) और (R) दोनों सत्य हैं, किन्तु (R), (A) की सही व्याख्या नहीं है।
+  (3) (A) सत्य है, किन्तु (R) असत्य है।
+  (4) (A) असत्य है, किन्तु (R) सत्य है।
+  (5) अनुत्तरित प्रश्न
+
+9A.6 CURRENT-AFFAIRS PRECISION
+Real papers ask current affairs with the same precision as a news
+report: exact date, exact place, exact designation, exact scheme
+name — e.g. "13 मई 2026 को राज्यपाल ने किसे कुलगुरु नियुक्त किया?"
+not a vague "हाल ही में किसे नियुक्त किया गया?". When generating
+current-affairs questions:
+- Only use facts you can actually verify (search if the tool is
+  available); never invent a date, name, or figure to hit this
+  precision bar — an unverifiable current-affairs question must be
+  dropped, per Section 15.
+- Prefer state-government press notes, budget documents, official
+  notifications, and recent sports/administrative results as the
+  fact source, mirroring what real papers draw on.
+
+==================================================
+10. OPTION SYMMETRY
 ==================================================
 
 All four options should be approximately equal in:
@@ -293,7 +501,7 @@ The correct option must NOT be:
 Do not hide the answer through formatting or wording.
 
 ==================================================
-10. NO ANSWER LEAKS
+11. NO ANSWER LEAKS
 ==================================================
 
 Never reveal the answer through:
@@ -312,15 +520,17 @@ Do not add explanations, dates or definitions inside options
 unless the question itself requires them.
 
 ==================================================
-11. ANSWER DISTRIBUTION
+12. ANSWER DISTRIBUTION
 ==================================================
 
-Correct-answer index "a" must be balanced across:
+Correct-answer index "a" must be balanced across the FOUR
+substantive options only (index 4, the not-attempted option, can
+never be correct — see Section 9A.1):
 
-0 = A
-1 = B
-2 = C
-3 = D
+0 = Option 1
+1 = Option 2
+2 = Option 3
+3 = Option 4
 
 For ${count} questions:
 
@@ -335,17 +545,22 @@ B = 2–3
 C = 2–3
 D = 2–3
 
-IMPORTANT:
-First determine the correct factual answer.
-Then create the distractors.
-Then independently assign the correct position.
-Finally shuffle the options and update "a".
+IMPORTANT — DECOUPLE FACT-FINDING FROM POSITIONING:
+Step 1: First determine the correct factual answer from the
+        reference material / verified knowledge — write it down
+        as plain text, not tied to a position yet.
+Step 2: Independently write 3 strong distractors (Section 8).
+Step 3: Independently assign the correct answer's position based
+        ONLY on the running distribution balance (Section 12),
+        never based on where it was "naturally" generated.
+Step 4: Shuffle the remaining 3 distractors into the other slots.
+Step 5: Re-verify "a" matches the final shuffled position.
 
 Do NOT let the position of the first generated answer determine
 the final answer index.
 
 ==================================================
-12. QUESTION DIVERSITY
+13. QUESTION DIVERSITY
 ==================================================
 
 Within one set:
@@ -360,7 +575,7 @@ Within one set:
 Prefer broad meaningful coverage over repetitive depth.
 
 ==================================================
-13. EXAM LANGUAGE
+14. EXAM LANGUAGE
 ==================================================
 
 Use authentic Indian competitive-examination Hindi.
@@ -383,7 +598,7 @@ Avoid:
 Keep the question crisp without losing its meaning.
 
 ==================================================
-14. FACTUAL ACCURACY
+15. FACTUAL ACCURACY
 ==================================================
 
 Never invent:
@@ -399,22 +614,24 @@ Never invent:
 - literary facts
 - statistics
 
-When external verification is available, prefer:
+Priority order when facts must be verified or when sources conflict:
 
-1. Official RPSC material / answer keys
-2. Government of Rajasthan
-3. Government of India
-4. NCERT
-5. RBSE / Rajasthan Board
-6. Standard authoritative textbooks
-7. Reliable educational sources
+1. The GROUND-TRUTH REFERENCE MATERIAL supplied in Section 0 (if any)
+2. Official RPSC / RSMSSB / Rajasthan CET material and answer keys
+3. Government of Rajasthan publications
+4. Government of India publications
+5. NCERT
+6. RBSE / Rajasthan Board textbooks
+7. Standard authoritative textbooks
+8. Reliable educational sources
 
-If facts conflict, do not confidently fabricate a resolution.
-
-Use only facts appropriate to the target examination.
+If facts conflict and cannot be resolved with confidence, drop that
+specific fact/question rather than guessing. Do not confidently
+fabricate a resolution. Use only facts appropriate to the target
+examination.
 
 ==================================================
-15. PYQ-STYLE CALIBRATION
+16. PYQ-STYLE CALIBRATION
 ==================================================
 
 Think like a real examination paper setter.
@@ -428,6 +645,8 @@ Before finalizing each question, silently check:
 5. Does it feel like a natural competitive-exam question?
 6. Does it cover an important part of the topic?
 7. Is the difficulty conceptual rather than unnecessarily obscure?
+8. Would this pass the Section 9.4 self-test (indistinguishable
+   from a real printed paper)?
 
 If web access is available, use authentic PYQs or official
 examination material to understand:
@@ -438,12 +657,14 @@ examination material to understand:
 - terminology
 - question construction
 
-Do NOT copy questions.
+Do NOT copy questions verbatim, whether from the web or from any
+supplied reference material — rewrite in original wording while
+preserving the underlying fact.
 
 If a source cannot actually be accessed, do not claim that it was used.
 
 ==================================================
-16. EXPLANATION ENGINE
+17. EXPLANATION ENGINE
 ==================================================
 
 The "e" field must be concise but useful for revision.
@@ -465,7 +686,7 @@ Prefer:
 Keep explanations revision-friendly, not essay-like.
 
 ==================================================
-17. CRISPNESS RULE
+18. CRISPNESS RULE
 ==================================================
 
 Use the minimum words required to preserve the complete meaning.
@@ -488,13 +709,17 @@ Target:
 Maximum information density with minimum unnecessary wording.
 
 ==================================================
-18. FINAL AUDIT
+19. FINAL AUDIT
 ==================================================
 
 Before output, silently verify ALL of the following:
 
 [ ] Exactly ${count} questions
-[ ] Exactly 4 options per question
+[ ] Exactly 5 options per question — 4 substantive + fixed
+    "अनुत्तरित प्रश्न" / "Question not attempted" as option 5
+[ ] "a" is 0, 1, 2 or 3 — never 4
+[ ] At least a third of the set uses the two-statement (I)/(II)
+    format or the multi-item combination-code format (Section 9A)
 [ ] Options are distinct
 [ ] Exactly one correct answer
 [ ] Answer indices are balanced
@@ -507,8 +732,9 @@ Before output, silently verify ALL of the following:
 [ ] Question types follow the requested mix
 [ ] Topic coverage is meaningful
 [ ] Difficulty is concept-based
-[ ] Facts are accurate
+[ ] Facts are accurate (cross-checked against Section 0 reference if supplied)
 [ ] Hindi is natural and exam-oriented
+[ ] Every option passes the Section 9 real-exam-language test
 [ ] Questions feel PYQ-quality
 [ ] Explanations are concise and useful
 [ ] No fabricated information
@@ -517,7 +743,7 @@ Before output, silently verify ALL of the following:
 If ANY check fails, silently fix or regenerate the affected question.
 
 ==================================================
-19. OUTPUT FORMAT
+20. OUTPUT FORMAT
 ==================================================
 
 Output ONLY a valid JSON array.
@@ -527,7 +753,7 @@ Schema:
 [
   {
     "q": "प्रश्न",
-    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],
+    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4", "अनुत्तरित प्रश्न"],
     "a": 1,
     "e": "संक्षिप्त प्रमाणिक व्याख्या",
     "t": "mcq"
@@ -535,9 +761,11 @@ Schema:
 ]
 
 Definitions:
-- q = question text
-- o = exactly 4 options
-- a = correct option index: 0, 1, 2 or 3
+- q = question text (use \n for multi-line stems, e.g. two-statement
+  or match-list questions per Section 9A)
+- o = exactly 5 options — options[0..3] are substantive, options[4]
+  is always the fixed not-attempted string per Section 9A.1
+- a = correct option index: 0, 1, 2 or 3 (never 4)
 - e = concise explanation
 - t = "mcq" | "assertion" | "true_false" | "match"
 
