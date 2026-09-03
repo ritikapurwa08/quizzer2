@@ -20,8 +20,9 @@ export default function AdminTestSetsPage() {
     useQuery(api.topics.listBySubject, subjectId ? { subjectId } : "skip") ?? [];
   const [topicId, setTopicId] = useState<Id<"topics"> | "">("");
 
-  const testSets =
-    useQuery(api.testSets.listByTopic, topicId ? { topicId } : "skip") ?? [];
+  const rawTestSets = useQuery(api.testSets.listByTopic, topicId ? { topicId } : "skip");
+  const isTestSetsLoading = topicId ? rawTestSets === undefined : false;
+  const testSets = rawTestSets ?? [];
   const createTestSet = useMutation(api.testSets.create);
   const removeTestSet = useMutation(api.testSets.remove);
 
@@ -97,37 +98,44 @@ export default function AdminTestSetsPage() {
             </Button>
           </form>
 
-          <DataTable
-            rows={testSets}
-            rowKey={(s) => s._id}
-            columns={[
-              { header: "Name", render: (s) => s.name },
-              { header: "Questions", render: (s) => s.questionCount },
-              {
-                header: "Neg. Marking",
-                render: (s) => (
-                  <span className={s.negativeMarking ? "text-destructive font-semibold" : "text-muted-foreground"}>
-                    {s.negativeMarking ? "Yes" : "No"}
-                  </span>
-                ),
-              },
-              {
-                header: "",
-                render: (s) => (
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => setDeleteTarget(s._id)}
-                    className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
-                    aria-label="Delete test set"
-                    title="Delete test set"
-                  >
-                    <Trash2 className="h-4 w-4" />
-                  </Button>
-                ),
-              },
-            ]}
-          />
+          {isTestSetsLoading ? (
+            <div className="flex items-center justify-center py-8 text-sm text-muted-foreground gap-2 font-hindi">
+              <span className="h-4 w-4 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+              लोड हो रहा है…
+            </div>
+          ) : (
+            <DataTable
+              rows={testSets}
+              rowKey={(s) => s._id}
+              columns={[
+                { header: "Name", render: (s) => s.name },
+                { header: "Questions", render: (s) => s.questionCount },
+                {
+                  header: "Neg. Marking",
+                  render: (s) => (
+                    <span className={s.negativeMarking ? "text-destructive font-semibold" : "text-muted-foreground"}>
+                      {s.negativeMarking ? "Yes" : "No"}
+                    </span>
+                  ),
+                },
+                {
+                  header: "",
+                  render: (s) => (
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => setDeleteTarget(s._id)}
+                      className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
+                      aria-label="Delete test set"
+                      title="Delete test set"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
+                  ),
+                },
+              ]}
+            />
+          )}
         </>
       )}
 

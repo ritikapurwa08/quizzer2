@@ -16,7 +16,9 @@ import { Trash2, Pencil } from "lucide-react";
 
 export default function AdminQuestionsPage() {
   const [term, setTerm] = useState("");
-  const results = useQuery(api.questions.search, { term }) ?? [];
+  const rawResults = useQuery(api.questions.search, { term });
+  const isSearching = term.trim().length > 0 && rawResults === undefined;
+  const results = rawResults ?? [];
   const removeQuestion = useMutation(api.questions.remove);
 
   const [deleteTarget, setDeleteTarget] = useState<Id<"questions"> | null>(null);
@@ -47,6 +49,11 @@ export default function AdminQuestionsPage() {
         <p className="text-sm text-muted-foreground py-8 text-center">
           Type to search — results appear across all subjects and topics.
         </p>
+      ) : isSearching ? (
+        <div className="flex items-center justify-center py-12 text-sm text-muted-foreground gap-2 font-hindi">
+          <span className="h-4 w-4 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+          खोज रहे हैं…
+        </div>
       ) : (
         <DataTable
           rows={results}

@@ -7,8 +7,10 @@ import { QuestionImportEditor } from "./QuestionImportEditor";
 import { ImportJson } from "@/lib/validators/question";
 import { Id } from "../../../convex/_generated/dataModel";
 import { useToast } from "@/components/ui/Toast";
-import { CheckCircle2, Play } from "lucide-react";
+import { getTopicDisplayName } from "@/lib/utils";
+import { CheckCircle2, Play, Plus } from "lucide-react";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function ImportWizard() {
   const [editorCode, setEditorCode] = useState("");
@@ -71,14 +73,23 @@ export function ImportWizard() {
     }
   }, [topics, selectedSubjectId]);
 
+  // Derive the active topic object for Hindi display
+  const activeTopic = topics.find((t) => t._id === selectedTopicId);
+
   // Auto-increment / default subtopic name based on existing test sets under the topic
+  // Uses Hindi topic name + भाग N
   const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
-    if (!userEditedSubtopicRef.current && existingTestSets) {
+    if (!userEditedSubtopicRef.current && existingTestSets && selectedTopicId) {
+      const topicDisplay = getTopicDisplayName(activeTopic);
       const nextPartNum = existingTestSets.length + 1;
-      setSubtopicName(`Part ${nextPartNum}`);
+      if (topicDisplay) {
+        setSubtopicName(`${topicDisplay} भाग ${nextPartNum}`);
+      } else {
+        setSubtopicName(`Part ${nextPartNum}`);
+      }
     }
-  }, [existingTestSets, selectedTopicId]);
+  }, [existingTestSets, selectedTopicId, activeTopic]);
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
@@ -145,14 +156,23 @@ export function ImportWizard() {
         timeSeconds: parseFloat(elapsed.toFixed(1)),
       });
 
-      // 4. Auto-advance to next part and clear editor for next batch
-      const currentMatch = subtopicName.match(/^(?:Part|भाग)\s*(\d+)$/i);
-      if (currentMatch && currentMatch[1]) {
-        const nextNum = parseInt(currentMatch[1], 10) + 1;
-        setSubtopicName(`Part ${nextNum}`);
+      // 4. Auto-advance to next part name using Hindi topic name
+      const topicDisplay = getTopicDisplayName(activeTopic);
+      const partMatch = subtopicName.match(/(?:Part|भाग)\s*(\d+)$/i);
+      if (partMatch && partMatch[1]) {
+        const nextNum = parseInt(partMatch[1], 10) + 1;
+        if (topicDisplay) {
+          setSubtopicName(`${topicDisplay} भाग ${nextNum}`);
+        } else {
+          setSubtopicName(`Part ${nextNum}`);
+        }
       } else {
         const nextCount = (existingTestSets?.length ?? 0) + 2;
-        setSubtopicName(`Part ${nextCount}`);
+        if (topicDisplay) {
+          setSubtopicName(`${topicDisplay} भाग ${nextCount}`);
+        } else {
+          setSubtopicName(`Part ${nextCount}`);
+        }
       }
 
       setEditorCode("");
@@ -169,20 +189,32 @@ export function ImportWizard() {
     <div className="space-y-4 max-w-4xl mx-auto">
       {/* Success Notification Banner */}
       {lastImportedSet && (
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-success/15 border border-success/30 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200 shadow-xs">
+        <div className="flex flex-col gap-3 p-4 rounded-2xl bg-success/15 border border-success/30 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200 shadow-xs">
           <div className="flex items-center gap-2.5 min-w-0">
             <CheckCircle2 className="h-5 w-5 shrink-0 text-success" />
-            <div className="text-xs font-hindi">
-              <span className="font-bold">{lastImportedSet.count} प्रश्न</span> सफलतापूर्वक{" "}
-              <span className="font-semibold underline underline-offset-2">"{lastImportedSet.name}"</span> में जोड़े गए ({lastImportedSet.timeSeconds}s)!
+            <div className="text-sm font-hindi">
+              <span className="font-bold">✓ {lastImportedSet.count} प्रश्न सफलतापूर्वक आयात किए गए</span>{" "}
+              <span className="text-xs opacity-80">({lastImportedSet.timeSeconds}s)</span>
             </div>
           </div>
-          <Link
-            href={`/quiz/${lastImportedSet.id}`}
-            className="flex items-center justify-center gap-1.5 text-xs font-bold px-3.5 py-1.5 rounded-xl bg-success text-success-foreground hover:bg-success/90 transition-colors shrink-0 shadow-xs font-hindi"
-          >
-            <Play className="h-3.5 w-3.5 fill-current" /> अभी टेस्ट दें →
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-2">
+            {/* Primary action: take the test now */}
+            <Link
+              href={`/quiz/${lastImportedSet.id}`}
+              className="flex items-center justify-center gap-1.5 text-sm font-bold px-5 py-2.5 rounded-xl bg-success text-success-foreground hover:bg-success/90 transition-colors shadow-xs font-hindi"
+            >
+              <Play className="h-4 w-4 fill-current" /> अभी टेस्ट दें →
+            </Link>
+            {/* Secondary action: add next batch */}
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setLastImportedSet(null)}
+              className="h-10 text-xs font-semibold rounded-xl border-success/40 text-success hover:bg-success/10 font-hindi gap-1.5"
+            >
+              <Plus className="h-3.5 w-3.5" /> अगला बैच जोड़ें
+            </Button>
+          </div>
         </div>
       )}
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { cn, containsDevanagari } from "@/lib/utils";
+import { cn, containsDevanagari, getOptionLabel } from "@/lib/utils";
 
 interface OptionButtonProps {
   id: string;
@@ -19,11 +19,7 @@ interface OptionButtonProps {
  * - Font weight is ALWAYS normal (400) — no bold on selection.
  */
 export function OptionButton({ id, text, selected, onClick, disabled, correctness }: OptionButtonProps) {
-  let badgeLabel = id;
-  if (id === "opt1") badgeLabel = "A";
-  else if (id === "opt2") badgeLabel = "B";
-  else if (id === "opt3") badgeLabel = "C";
-  else if (id === "opt4") badgeLabel = "D";
+  const badgeLabel = getOptionLabel(id);
 
   const isHindi = containsDevanagari(text);
 

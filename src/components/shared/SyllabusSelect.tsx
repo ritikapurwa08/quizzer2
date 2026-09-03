@@ -26,6 +26,9 @@ interface SyllabusSelectProps {
  * Shared ShadCN/base-ui Select for subject/topic dropdowns.
  * Displays nameHindi || name as the visible label via getSubjectDisplayName.
  * Keeps the internal Convex _id as the Select value — no DB identifiers are altered.
+ *
+ * Uses the @base-ui/react SelectValue children render function to resolve
+ * the Convex ID to a human-readable Hindi display name.
  */
 export function SyllabusSelect({
   options,
@@ -47,7 +50,13 @@ export function SyllabusSelect({
           className
         )}
       >
-        <SelectValue placeholder={placeholder} />
+        <SelectValue placeholder={placeholder}>
+          {(selectedValue: any) => {
+            if (!selectedValue) return placeholder;
+            const selectedOpt = options.find((o) => o._id === selectedValue);
+            return selectedOpt ? getSubjectDisplayName(selectedOpt) : placeholder;
+          }}
+        </SelectValue>
       </SelectTrigger>
       <SelectContent className="bg-popover border-border max-h-60">
         {options.map((opt) => {

@@ -2,7 +2,7 @@ import { z } from "zod";
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
- *    q → questionText, o → options[], a → correctAnswer index (0-3), e → explanation, t → type
+ *    q → questionText, o → options[], a → correctAnswer index (0-4), e → explanation, t → type
  */
 
 export const optionSchema = z.object({
@@ -68,6 +68,7 @@ const MINIFIED_INDEX_TO_OPT: Record<number, string> = {
   1: "opt2",
   2: "opt3",
   3: "opt4",
+  4: "opt5",
 };
 
 const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
@@ -82,29 +83,67 @@ const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
   table: "mcq",    // downgrade to mcq safely
 };
 
-/** Extracts List-I and List-II text lines from question text for match questions */
-export function extractMatchListsFromText(text: string): { left: string[]; right: string[] } {
+// ── Match list item interfaces ──────────────────────────────────────────
+interface MatchListItem {
+  id: string;
+  text: string;
+}
+
+/**
+ * Extracts List-I and List-II structured items from question text for match questions.
+ * Supports all common formats:
+ *  Headers: सूची-I, सूची – I, सूची-I:, List I, List-II, Column A/B
+ *  Items: A. text, A) text, (A) text, A - text, A: text, 1. text, (i) text, (ii) text
+ */
+export function extractMatchListsFromText(text: string): { left: MatchListItem[]; right: MatchListItem[] } {
   if (!text) return { left: [], right: [] };
-  const list2Regex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:]?\s*(?:II|2|B)\b/i;
-  const match2 = text.match(list2Regex);
-  if (match2 && match2.index !== undefined) {
-    const part1 = text.slice(0, match2.index);
-    const part2 = text.slice(match2.index);
-    const itemRegex = /^(?:[A-D1-4][\.\):]|\([A-D1-4]\))\s*(.*)/;
-    const extractedLeft: string[] = [];
-    const extractedRight: string[] = [];
-    part1.split(/\r?\n/).forEach((line) => {
-      const trimmed = line.trim();
-      if (itemRegex.test(trimmed)) extractedLeft.push(trimmed);
-    });
-    part2.split(/\r?\n/).forEach((line) => {
-      const trimmed = line.trim();
-      if (itemRegex.test(trimmed)) extractedRight.push(trimmed);
-    });
-    if (extractedLeft.length > 0 || extractedRight.length > 0) {
-      return { left: extractedLeft, right: extractedRight };
-    }
+
+  // Find the split point between List-I and List-II sections
+  const list2HeaderRegex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B)\b/im;
+  const match2 = text.match(list2HeaderRegex);
+
+  if (!match2 || match2.index === undefined) {
+    return { left: [], right: [] };
   }
+
+  const part1 = text.slice(0, match2.index);
+  const part2 = text.slice(match2.index);
+
+  // Regex for list items — supports:
+  //   A. text, A) text, (A) text, A - text, A: text
+  //   1. text, 2. text, 3. text, 4. text, 5. text
+  //   (i) text, (ii) text, (iii) text, (iv) text, (v) text
+  //   i. text, ii. text, iii. text, iv. text
+  const itemRegex = /^(?:(?:\(([A-Ea-e])\)|([A-Ea-e])\s*[.)\-:])|([\divxlc]+)\s*[.)\-:]|\(([\divxlc]+)\))\s*(.*)/;
+
+  function extractItems(section: string): MatchListItem[] {
+    const items: MatchListItem[] = [];
+    for (const line of section.split(/\r?\n/)) {
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+
+      const m = trimmed.match(itemRegex);
+      if (m) {
+        // Determine the identifier from capture groups
+        const id = m[1] || m[2] || m[3] || m[4] || "";
+        const text = (m[5] || "").trim();
+
+        // Skip if no actual text content (just the header)
+        if (!text) continue;
+
+        items.push({ id: id.trim(), text });
+      }
+    }
+    return items;
+  }
+
+  const left = extractItems(part1);
+  const right = extractItems(part2);
+
+  if (left.length > 0 || right.length > 0) {
+    return { left, right };
+  }
+
   return { left: [], right: [] };
 }
 
@@ -138,12 +177,13 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       });
     }
 
-    // Pad to 4 options
-    while (options.length < 4) {
-      options.push({ id: `opt${options.length + 1}`, text: `Option ${options.length + 1}` });
-    }
+    // Filter out empty-text options instead of padding to 4
+    options = options.filter(o => o.text.length > 0);
 
-    // Correct answer: integer index (0-3), option ID string ("opt1", "A"), or array
+    // Minimum 2 options required for a valid question
+    if (options.length < 2) return null;
+
+    // Correct answer: integer index (0-4), option ID string ("opt1", "A"), or array
     let correctAnswer: string | string[] = "opt1";
     const rawAnswer = raw.a !== undefined ? raw.a : raw.correctAnswer;
     if (typeof rawAnswer === "number") {
@@ -155,6 +195,7 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       else if (upper === "B" || upper === "2") correctAnswer = "opt2";
       else if (upper === "C" || upper === "3") correctAnswer = "opt3";
       else if (upper === "D" || upper === "4") correctAnswer = "opt4";
+      else if (upper === "E" || upper === "5") correctAnswer = "opt5";
       else correctAnswer = trimmed;
     } else if (Array.isArray(rawAnswer)) {
       correctAnswer = rawAnswer.map(String);
@@ -173,9 +214,33 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     // Meta handling for match questions
     let meta: any = raw.meta ?? undefined;
     if (type === "match" || type === "match_following") {
-      if (!meta || (!meta.left && !meta.columnA)) {
+      const existingLeft = meta?.left ?? meta?.columnA;
+      const existingRight = meta?.right ?? meta?.columnB;
+
+      // Check if existing meta has valid, non-empty lists
+      const hasValidMeta =
+        Array.isArray(existingLeft) && existingLeft.length > 0 &&
+        Array.isArray(existingRight) && existingRight.length > 0;
+
+      if (hasValidMeta) {
+        // Normalize existing lists to { id, text } format
+        meta = {
+          ...(meta || {}),
+          left: normalizeMetaList(existingLeft, "left"),
+          right: normalizeMetaList(existingRight, "right"),
+        };
+      } else {
+        // Extract from questionText
         const extracted = extractMatchListsFromText(questionText);
-        meta = { left: extracted.left, right: extracted.right };
+        if (extracted.left.length > 0 || extracted.right.length > 0) {
+          meta = {
+            ...(meta || {}),
+            left: extracted.left,
+            right: extracted.right,
+          };
+        } else {
+          meta = { ...(meta || {}), left: [], right: [] };
+        }
       }
     }
 
@@ -192,6 +257,42 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
   } catch {
     return null;
   }
+}
+
+/**
+ * Normalizes a meta list (left/right) to { id, text }[] format.
+ * Handles both string arrays and object arrays.
+ */
+function normalizeMetaList(arr: any[], side: "left" | "right"): MatchListItem[] {
+  return arr.map((item: any, idx: number) => {
+    if (typeof item === "string") {
+      // Parse "A. text" or "(i) text" or "1. text" format
+      const m = item.match(/^(?:\(([A-Ea-e\divxlc]+)\)|([A-Ea-e\divxlc]+)\s*[.)\-:])\s*(.*)/);
+      if (m) {
+        const id = (m[1] || m[2] || "").trim();
+        const text = (m[3] || "").trim();
+        if (id && text) return { id, text };
+      }
+      // Fallback: use default ID, full text
+      const defaultId = side === "left"
+        ? String.fromCharCode(65 + idx)
+        : String(idx + 1);
+      return { id: defaultId, text: item.trim() };
+    }
+    if (item && typeof item === "object") {
+      const defaultId = side === "left"
+        ? String.fromCharCode(65 + idx)
+        : String(idx + 1);
+      return {
+        id: String(item.id || defaultId),
+        text: String(item.text || item),
+      };
+    }
+    return {
+      id: side === "left" ? String.fromCharCode(65 + idx) : String(idx + 1),
+      text: String(item ?? ""),
+    };
+  });
 }
 
 /** Preprocesses any raw question object, adapting minified schema automatically */
@@ -249,7 +350,7 @@ export interface QualityIssue {
 
 /**
  * Validates a batch of questions against quality gate standards:
- * - Exactly 4 options
+ * - 2–5 options (type-dependent)
  * - Unique options
  * - Valid answer key
  * - No extreme length skew (where correct option is artificially 3x longer than distractors)
@@ -279,14 +380,15 @@ export function validateBatchQuality(questions: QuestionInput[]): {
       seenQuestionTexts.set(cleanText, idx);
     }
 
-    // 2. Option count check
-    if (!q.options || q.options.length !== 4) {
+    // 2. Option count check — support 2–5 options
+    const optCount = q.options?.length ?? 0;
+    if (optCount < 2 || optCount > 5) {
       issues.push({
         questionIndex: idx,
         questionText: q.questionText,
         severity: "error",
         code: "INVALID_OPTION_COUNT",
-        message: `Q${qNum} has ${q.options?.length ?? 0} options (expected exactly 4)`,
+        message: `Q${qNum}: ${optCount} विकल्प — मान्य सीमा 2–5 है (${optCount} options, expected 2–5)`,
       });
     }
 
@@ -316,17 +418,17 @@ export function validateBatchQuality(questions: QuestionInput[]): {
             questionText: q.questionText,
             severity: "error",
             code: "MISSING_CORRECT_ANSWER",
-            message: `Q${qNum} answer key "${q.correctAnswer}" does not match any option`,
+            message: `Q${qNum}: सही उत्तर "${q.correctAnswer}" दिया गया है लेकिन विकल्पों में मौजूद नहीं है`,
           });
         }
 
         // 5. Length skew / obvious answer check
         const correctOpt = q.options.find((o) => o.id === q.correctAnswer);
         const distractors = q.options.filter((o) => o.id !== q.correctAnswer);
-        if (correctOpt && distractors.length === 3) {
+        if (correctOpt && distractors.length >= 2) {
           const correctLen = correctOpt.text.trim().length;
           const avgDistractorLen =
-            distractors.reduce((sum, d) => sum + d.text.trim().length, 0) / 3;
+            distractors.reduce((sum, d) => sum + d.text.trim().length, 0) / distractors.length;
 
           if (avgDistractorLen > 5 && correctLen > avgDistractorLen * 3.5) {
             issues.push({

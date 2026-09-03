@@ -34,7 +34,7 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
 
   // 3. Replace single quotes around keys or string values with double quotes
   // Replace 'key': with "key":
-  cleaned = cleaned.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'(\s*):/g, '"$1"$2:');
+  cleaned = cleaned.replace(/'([^'\\]*(?:\\.[^'\\]*)*)'\s*:/g, '"$1":');
   // Replace : 'value' with : "value"
   cleaned = cleaned.replace(/:\s*'([^'\\]*(?:\\.[^'\\]*)*)'/g, ': "$1"');
   // Replace array items 'item' with "item"
@@ -116,8 +116,6 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
 
       // Wrap array into object if needed
       if (Array.isArray(obj)) {
-        const finalResult = modified ? JSON.stringify({ questions: qArray }, null, 2) : cleaned;
-        // But keep array format if it's already valid
         const asArray = JSON.stringify(qArray, null, 2);
         return { fixedText: modified ? asArray : cleaned, success: true };
       }
@@ -202,7 +200,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: item,
-        reason: `Question ${qNum}: Item is not a valid question object.`,
+        reason: `प्रश्न ${qNum}: मान्य प्रश्न ऑब्जेक्ट नहीं है।`,
       });
       return;
     }
@@ -212,7 +210,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: item,
-        reason: `Question ${qNum}: Invalid options — expected 4 options, received ${Array.isArray(rawOpts) ? rawOpts.length : 0}.`,
+        reason: `प्रश्न ${qNum}: अमान्य विकल्प — कम से कम 2 विकल्प आवश्यक हैं, ${Array.isArray(rawOpts) ? rawOpts.length : 0} मिले।`,
       });
       return;
     }
@@ -223,7 +221,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: item,
-        reason: `Question ${qNum}: Missing question text or invalid structure.`,
+        reason: `प्रश्न ${qNum}: प्रश्न का पाठ गायब है या संरचना अमान्य है।`,
       });
       return;
     }
@@ -248,6 +246,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
  * B. Jaipur
  * C. Udaipur
  * D. Kota
+ * E. Ajmer
  * Answer: B
  * Explanation: Jaipur is the capital city of Rajasthan.
  */
@@ -285,8 +284,8 @@ export function parsePlainTextQuestions(
     if (!finalAnswerId) {
       finalAnswerId = currentOptions[0]?.id ?? "opt1";
     } else {
-      // If Answer is "A", "B", "C", "D", map to option id if options use opt1..opt4 or A..D
-      const upperAns = finalAnswerId.toUpperCase().replace(/[^A-D1-4]/g, "");
+      // Map A/B/C/D/E or 1/2/3/4/5 to option IDs
+      const upperAns = finalAnswerId.toUpperCase().replace(/[^A-E1-5]/g, "");
       if (upperAns === "A" || upperAns === "1") {
         finalAnswerId = currentOptions[0]?.id ?? "opt1";
       } else if (upperAns === "B" || upperAns === "2") {
@@ -295,6 +294,8 @@ export function parsePlainTextQuestions(
         finalAnswerId = currentOptions[2]?.id ?? "opt3";
       } else if (upperAns === "D" || upperAns === "4") {
         finalAnswerId = currentOptions[3]?.id ?? "opt4";
+      } else if (upperAns === "E" || upperAns === "5") {
+        finalAnswerId = currentOptions[4]?.id ?? "opt5";
       } else {
         // Try matching option ID directly
         const matchOpt = currentOptions.find((o) => o.id.toLowerCase() === finalAnswerId.toLowerCase());
@@ -302,16 +303,10 @@ export function parsePlainTextQuestions(
       }
     }
 
-    // Standardize to 4 options if fewer exist
-    while (currentOptions.length < 4) {
-      const id = `opt${currentOptions.length + 1}`;
-      currentOptions.push({ id, text: `Option ${currentOptions.length + 1}` });
-    }
-
     questions.push({
       type: "mcq",
       questionText: currentQuestionText.trim(),
-      options: currentOptions.slice(0, 4),
+      options: currentOptions,
       correctAnswer: finalAnswerId,
       explanation: currentExplanation.trim() || undefined,
       difficulty: currentDifficulty,
@@ -344,8 +339,8 @@ export function parsePlainTextQuestions(
     }
 
     // Check for Question start: "Question:", "Q1.", "Q1:", "1.", "1)"
-    const qMatch = line.match(/^(?:Question\s*\d*[:.]?|Q\d*[:.]?|\d+[\).?])\s*(.*)/i);
-    if (qMatch && !/^A[\.)] /i.test(line) && !/^B[\.)] /i.test(line) && !/^C[\.)] /i.test(line) && !/^D[\.)] /i.test(line)) {
+    const qMatch = line.match(/^(?:Question\s*\d*[:.?]?|Q\d*[:.?]?|\d+[\).?])\s*(.*)/i);
+    if (qMatch && !/^[A-E][.)] /i.test(line)) {
       // If we already had a question, finalize it
       if (currentQuestionText) {
         finalizeQuestion();
@@ -354,16 +349,16 @@ export function parsePlainTextQuestions(
       continue;
     }
 
-    // Check for Options: A. / B. / C. / D. or (A) / (B) / (C) / (D) or 1. / 2. / 3. / 4.
-    const optMatch = line.match(/^(?:(?:[A-D1-4][\).])|(?:\([A-D1-4]\)))\s*(.*)/i);
+    // Check for Options: A. / B. / C. / D. / E. or (A)/(B)/(C)/(D)/(E) or 1./2./3./4./5.
+    const optMatch = line.match(/^(?:(?:[A-E1-5][).])|(?:\([A-E1-5]\)))\s*(.*)/i);
     if (optMatch && currentQuestionText) {
-      const rawOptId = line.substring(0, 3).replace(/[^A-D1-4]/gi, "").toUpperCase();
-      let optId = "opt1";
+      const rawOptId = line.substring(0, 3).replace(/[^A-E1-5]/gi, "").toUpperCase();
+      let optId = `opt${currentOptions.length + 1}`;
       if (rawOptId === "A" || rawOptId === "1") optId = "opt1";
       else if (rawOptId === "B" || rawOptId === "2") optId = "opt2";
       else if (rawOptId === "C" || rawOptId === "3") optId = "opt3";
       else if (rawOptId === "D" || rawOptId === "4") optId = "opt4";
-      else optId = `opt${currentOptions.length + 1}`;
+      else if (rawOptId === "E" || rawOptId === "5") optId = "opt5";
 
       currentOptions.push({
         id: optId,

@@ -46,6 +46,24 @@ export function getTopicDisplayName(topic?: { name: string; nameHindi?: string }
 }
 
 /**
+ * Derives a display letter from a zero-based option index.
+ * 0 → A, 1 → B, 2 → C, 3 → D, 4 → E, etc.
+ * Also handles "opt1".."opt5" ID strings.
+ */
+export function getOptionLabel(indexOrId: number | string): string {
+  if (typeof indexOrId === "number") {
+    return String.fromCharCode(65 + indexOrId);
+  }
+  // Handle "opt1" → 0, "opt2" → 1, etc.
+  const match = indexOrId.match(/^opt(\d+)$/);
+  if (match && match[1]) {
+    const idx = parseInt(match[1], 10) - 1;
+    if (idx >= 0 && idx < 26) return String.fromCharCode(65 + idx);
+  }
+  return indexOrId;
+}
+
+/**
  * For match_following (and similar list-based) questions, questionText often contains
  * both the instruction prompt and the raw text lists (List I / List II / सूची-I / सूची-II).
  * This function strips out the embedded raw text lists so only the clean instruction prompt is shown above the rendered boxes.
@@ -65,26 +83,28 @@ export function cleanQuestionPrompt(text: string, type?: string): string {
     if (mainPrompt) return mainPrompt;
   }
 
-  // 2. Fallback: If no explicit header, check if lines start with list item bullets (A., B., 1., 2., etc.)
+  // 2. Fallback: If no explicit header, check if lines start with list item bullets (A., B., 1., 2., (i), etc.)
   const lines = text.split(/\r?\n/);
   const promptLines: string[] = [];
 
   for (const line of lines) {
     const trimmed = line.trim();
     if (
-      /^(?:(?:[A-D1-4][\.\):])|(?:\([A-D1-4]\))|(?:सूची|List|Column))\s+/i.test(trimmed)
+      /^(?:(?:[A-E1-5][\.\):])|(?:\([A-E1-5a-e\divxlc]+\))|(?:[\divxlc]+[\.\):])|(?:सूची|List|Column))\s+/i.test(trimmed)
     ) {
       break;
     }
     promptLines.push(line);
   }
 
-  return promptLines.join("\n").trim();
+  const promptResult = promptLines.join("\n").trim();
+  return promptResult || text;
 }
 
 /**
- * Intelligently shuffles options and balances correct answer distribution (A, B, C, D)
- * across an entire set of questions, eliminating repetitive answer keys (e.g. A-A-A-A).
+ * Intelligently shuffles options and balances correct answer distribution
+ * across an entire set of questions, eliminating repetitive answer keys.
+ * Supports both 4-option and 5-option questions dynamically.
  */
 export function distributeAndShuffleAnswers<T extends {
   type: string;
@@ -93,42 +113,43 @@ export function distributeAndShuffleAnswers<T extends {
   [key: string]: any;
 }>(questions: T[]): {
   shuffledQuestions: T[];
-  distribution: { opt1: number; opt2: number; opt3: number; opt4: number };
+  distribution: Record<string, number>;
 } {
   if (!questions || questions.length === 0) {
-    return { shuffledQuestions: [], distribution: { opt1: 0, opt2: 0, opt3: 0, opt4: 0 } };
+    return { shuffledQuestions: [], distribution: { opt1: 0, opt2: 0, opt3: 0, opt4: 0, opt5: 0 } };
   }
 
-  const distribution = { opt1: 0, opt2: 0, opt3: 0, opt4: 0 };
-  const targetSlots = [0, 1, 2, 3]; // 0=opt1 (A), 1=opt2 (B), 2=opt3 (C), 3=opt4 (D)
+  const distribution: Record<string, number> = { opt1: 0, opt2: 0, opt3: 0, opt4: 0, opt5: 0 };
 
-  // Generate a pseudo-random balanced sequence of target slots for the question set
-  const balancedSlots: number[] = [];
-  let lastSlot = -1;
-
-  while (balancedSlots.length < questions.length) {
-    // Shuffle slots
-    const round = [...targetSlots].sort(() => Math.random() - 0.5);
-    // Prevent immediate repeat at boundary
-    if (round[0] === lastSlot && round.length > 1) {
-      const temp = round[0];
-      round[0] = round[1];
-      round[1] = temp;
-    }
-    for (const slot of round) {
-      if (balancedSlots.length < questions.length) {
-        balancedSlots.push(slot);
-        lastSlot = slot;
+  // Pre-compute balanced slot sequences for 4 and 5 option lengths
+  function buildBalancedSlots(slotCount: number, total: number): number[] {
+    const slots = Array.from({ length: slotCount }, (_, i) => i);
+    const balanced: number[] = [];
+    let last = -1;
+    while (balanced.length < total) {
+      const round = [...slots].sort(() => Math.random() - 0.5);
+      if (round[0] === last && round.length > 1) {
+        [round[0], round[1]] = [round[1], round[0]];
+      }
+      for (const slot of round) {
+        if (balanced.length < total) {
+          balanced.push(slot);
+          last = slot;
+        }
       }
     }
+    return balanced;
   }
 
+  const slots4 = buildBalancedSlots(4, questions.length);
+  const slots5 = buildBalancedSlots(5, questions.length);
+
   const shuffledQuestions = questions.map((q, idx) => {
-    // Only shuffle single-choice options with 4 options
+    const optCount = Array.isArray(q.options) ? q.options.length : 0;
+    // Only shuffle single-choice MCQ-style options with 4 or 5 options
     if (
       (q.type === "mcq" || q.type === "true_false" || q.type === "assertion" || q.type === "match") &&
-      Array.isArray(q.options) &&
-      q.options.length === 4 &&
+      (optCount === 4 || optCount === 5) &&
       typeof q.correctAnswer === "string"
     ) {
       const currentOptions = [...q.options];
@@ -137,14 +158,13 @@ export function distributeAndShuffleAnswers<T extends {
       if (correctOptIndex !== -1) {
         const correctOpt = currentOptions[correctOptIndex];
         const distractors = currentOptions.filter((_, i) => i !== correctOptIndex);
-        // Shuffle distractors
         distractors.sort(() => Math.random() - 0.5);
 
-        const targetIndex = balancedSlots[idx];
+        const targetIndex = optCount === 5 ? slots5[idx] : slots4[idx];
         const newOptionsList: { text: string }[] = [];
 
         let distractorIdx = 0;
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < optCount; i++) {
           if (i === targetIndex) {
             newOptionsList.push({ text: correctOpt.text });
           } else {
@@ -153,14 +173,13 @@ export function distributeAndShuffleAnswers<T extends {
           }
         }
 
-        // Reassign clean IDs: opt1, opt2, opt3, opt4
         const finalOptions = newOptionsList.map((item, i) => ({
           id: `opt${i + 1}`,
           text: item.text,
         }));
 
         const newCorrectId = `opt${targetIndex + 1}`;
-        distribution[newCorrectId as keyof typeof distribution]++;
+        distribution[newCorrectId] = (distribution[newCorrectId] || 0) + 1;
 
         return {
           ...q,
@@ -171,8 +190,8 @@ export function distributeAndShuffleAnswers<T extends {
     }
 
     // Default tracking for un-shuffled questions
-    if (typeof q.correctAnswer === "string" && q.correctAnswer in distribution) {
-      distribution[q.correctAnswer as keyof typeof distribution]++;
+    if (typeof q.correctAnswer === "string") {
+      distribution[q.correctAnswer] = (distribution[q.correctAnswer] || 0) + 1;
     }
 
     return { ...q };

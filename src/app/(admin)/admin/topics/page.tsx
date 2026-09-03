@@ -17,8 +17,12 @@ export default function AdminTopicsPage() {
   const subjects = useQuery(api.subjects.list) ?? [];
   const [subjectId, setSubjectId] = useState<Id<"subjects"> | "">("");
 
-  const topics =
-    useQuery(api.topics.listBySubject, subjectId ? { subjectId } : "skip") ?? [];
+  const rawTopics = useQuery(
+    api.topics.listBySubject,
+    subjectId ? { subjectId } : "skip"
+  );
+  const isTopicsLoading = subjectId ? rawTopics === undefined : false;
+  const topics = rawTopics ?? [];
   const createTopic = useMutation(api.topics.create);
   const removeTopic = useMutation(api.topics.remove);
 
@@ -57,28 +61,35 @@ export default function AdminTopicsPage() {
             <Button type="submit">Add</Button>
           </form>
 
-          <DataTable
-            rows={topics}
-            rowKey={(t) => t._id}
-            columns={[
-              { header: "Name", render: (t) => getTopicDisplayName(t) },
-              {
-                header: "",
-                render: (t) => (
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    onClick={() => setDeleteTarget(t._id)}
-                    className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
-                    aria-label="Delete topic"
-                    title="Delete topic"
-                  >
-                    <Trash2 className="h-4 w-4" />
-                  </Button>
-                ),
-              },
-            ]}
-          />
+          {isTopicsLoading ? (
+            <div className="flex items-center justify-center py-8 text-sm text-muted-foreground gap-2 font-hindi">
+              <span className="h-4 w-4 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+              लोड हो रहा है…
+            </div>
+          ) : (
+            <DataTable
+              rows={topics}
+              rowKey={(t) => t._id}
+              columns={[
+                { header: "Name", render: (t) => getTopicDisplayName(t) },
+                {
+                  header: "",
+                  render: (t) => (
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => setDeleteTarget(t._id)}
+                      className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
+                      aria-label="Delete topic"
+                      title="Delete topic"
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
+                  ),
+                },
+              ]}
+            />
+          )}
         </>
       )}
 

@@ -161,12 +161,13 @@ Do not mechanically repeat the same question type consecutively.
 For type "mcq":
 
 - Use a clear, concise examination-style stem.
-- Provide exactly 4 options.
+- Provide exactly 4 options (or 5 if the exam pattern requires it).
 - All options must belong to the same conceptual category.
 - All options must be independently plausible.
 - Options must be mutually exclusive where applicable.
 - Keep options approximately equal in length and style.
 - Avoid clues that reveal the answer.
+- Do not add filler or duplicate options to reach a target count.
 
 Preferred construction:
 "निम्नलिखित में से कौन-सा..."
@@ -273,7 +274,7 @@ Never use random nonsense merely to fill four options.
 9. OPTION SYMMETRY
 ==================================================
 
-All four options should be approximately equal in:
+All options should be approximately equal in:
 
 - length
 - grammatical structure
@@ -321,6 +322,7 @@ Correct-answer index "a" must be balanced across:
 1 = B
 2 = C
 3 = D
+4 = E (only when 5 options are used)
 
 For ${count} questions:
 
@@ -329,7 +331,7 @@ For ${count} questions:
 - avoid obvious repeating sequences
 - avoid A-A-A-A or equivalent patterns
 
-For 10 questions, a reasonable distribution is:
+For 10 questions with 4 options, a reasonable distribution is:
 A = 2–3
 B = 2–3
 C = 2–3
@@ -494,8 +496,8 @@ Maximum information density with minimum unnecessary wording.
 Before output, silently verify ALL of the following:
 
 [ ] Exactly ${count} questions
-[ ] Exactly 4 options per question
-[ ] Options are distinct
+[ ] 4 or 5 options per question (as appropriate)
+[ ] Options are distinct — no filler options
 [ ] Exactly one correct answer
 [ ] Answer indices are balanced
 [ ] No answer position appears >2 times consecutively
@@ -534,10 +536,14 @@ Schema:
   }
 ]
 
+For 5-option questions:
+  "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4", "विकल्प 5"]
+  "a": 0–4
+
 Definitions:
 - q = question text
-- o = exactly 4 options
-- a = correct option index: 0, 1, 2 or 3
+- o = 4 or 5 options (no filler, all meaningful)
+- a = correct option index: 0, 1, 2, 3 (or 4 for 5-option questions)
 - e = concise explanation
 - t = "mcq" | "assertion" | "true_false" | "match"
 

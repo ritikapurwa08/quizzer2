@@ -153,8 +153,8 @@ export function QuestionImportEditor({
   const activeTopic = topicsList.find((t) => t._id === selectedTopicId);
 
   const currentPrompt = generateAiQuestionPrompt({
-    subject: activeSubject?.name || "Rajasthan General Knowledge",
-    topic: activeTopic?.name || "General Topic",
+    subject: getSubjectDisplayName(activeSubject) || "Rajasthan General Knowledge",
+    topic: getTopicDisplayName(activeTopic) || "General Topic",
     subtopic: subtopicName.trim() || undefined,
     count: questionCount,
   });

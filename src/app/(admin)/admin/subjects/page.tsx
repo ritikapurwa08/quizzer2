@@ -12,7 +12,9 @@ import { slugify, getSubjectDisplayName } from "@/lib/utils";
 import { Trash2 } from "lucide-react";
 
 export default function AdminSubjectsPage() {
-  const subjects = useQuery(api.subjects.list) ?? [];
+  const rawSubjects = useQuery(api.subjects.list);
+  const isSubjectsLoading = rawSubjects === undefined;
+  const subjects = rawSubjects ?? [];
   const createSubject = useMutation(api.subjects.create);
   const removeSubject = useMutation(api.subjects.remove);
 
@@ -35,28 +37,35 @@ export default function AdminSubjectsPage() {
         <Button type="submit">Add</Button>
       </form>
 
-      <DataTable
-        rows={subjects}
-        rowKey={(s) => s._id}
-        columns={[
-          { header: "Name", render: (s) => getSubjectDisplayName(s) },
-          { header: "Slug", render: (s) => <span className="text-muted-foreground">{s.slug}</span> },
-          {
-            header: "",
-            render: (s) => (
-              <button
-                type="button"
-                onClick={() => setDeleteTarget(s._id)}
-                className="p-2 rounded-lg hover:bg-destructive/15 text-destructive transition-colors cursor-pointer"
-                aria-label="Delete subject"
-                title="Delete subject"
-              >
-                <Trash2 className="h-4 w-4" />
-              </button>
-            ),
-          },
-        ]}
-      />
+      {isSubjectsLoading ? (
+        <div className="flex items-center justify-center py-8 text-sm text-muted-foreground gap-2 font-hindi">
+          <span className="h-4 w-4 rounded-full border-2 border-primary border-t-transparent animate-spin" />
+          लोड हो रहा है…
+        </div>
+      ) : (
+        <DataTable
+          rows={subjects}
+          rowKey={(s) => s._id}
+          columns={[
+            { header: "Name", render: (s) => getSubjectDisplayName(s) },
+            { header: "Slug", render: (s) => <span className="text-muted-foreground">{s.slug}</span> },
+            {
+              header: "",
+              render: (s) => (
+                <button
+                  type="button"
+                  onClick={() => setDeleteTarget(s._id)}
+                  className="p-2 rounded-lg hover:bg-destructive/15 text-destructive transition-colors cursor-pointer"
+                  aria-label="Delete subject"
+                  title="Delete subject"
+                >
+                  <Trash2 className="h-4 w-4" />
+                </button>
+              ),
+            },
+          ]}
+        />
+      )}
 
       <ConfirmDialog
         open={deleteTarget !== null}
