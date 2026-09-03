@@ -84,64 +84,131 @@ const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
 };
 
 // ── Match list item interfaces ──────────────────────────────────────────
-interface MatchListItem {
+export interface MatchListItem {
   id: string;
   text: string;
 }
 
+export interface ExtractedMatchLists {
+  left: MatchListItem[];
+  right: MatchListItem[];
+  leftTitle?: string;
+  rightTitle?: string;
+}
+
+function extractTitles(text: string): { leftTitle?: string; rightTitle?: string } {
+  // 1. Parenthesized descriptions in question prompt sentence: e.g. "सूची-I (समिति) को सूची-II (विशेषता) से..."
+  const promptM = text.match(/(?:सूची|List)\s*[-–—:\s]*(?:I{1,3}|[12]|A)\s*\(([^)]+)\).*?(?:सूची|List)\s*[-–—:\s]*(?:II|2|B)\s*\(([^)]+)\)/i);
+  if (promptM) {
+    const leftSub = promptM[1]?.trim();
+    const rightSub = promptM[2]?.trim();
+    const isEng = /List/i.test(promptM[0]);
+    return {
+      leftTitle: leftSub ? `${isEng ? "List – I" : "सूची – I"} (${leftSub})` : undefined,
+      rightTitle: rightSub ? `${isEng ? "List – II" : "सूची – II"} (${rightSub})` : undefined,
+    };
+  }
+
+  // 2. Standalone table header line: e.g. "सूची-I (समिति)   सूची-II (विशेषता)"
+  const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  for (const line of lines) {
+    const m = line.match(/^(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|A)\b(?:\s*\(([^)]+)\))?.*?[\s\t]{2,}(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B)\b(?:\s*\(([^)]+)\))?/i);
+    if (m) {
+      const leftSub = m[1]?.trim();
+      const rightSub = m[2]?.trim();
+      const isEng = /^List/i.test(line);
+      return {
+        leftTitle: leftSub ? `${isEng ? "List – I" : "सूची – I"} (${leftSub})` : undefined,
+        rightTitle: rightSub ? `${isEng ? "List – II" : "सूची – II"} (${rightSub})` : undefined,
+      };
+    }
+  }
+  return {};
+}
+
 /**
  * Extracts List-I and List-II structured items from question text for match questions.
- * Supports all common formats:
- *  Headers: सूची-I, सूची – I, सूची-I:, List I, List-II, Column A/B
- *  Items: A. text, A) text, (A) text, A - text, A: text, 1. text, (i) text, (ii) text
+ * Robustly supports:
+ *  1. Side-by-side lines (e.g. "A. समिति ...   i. सिफारिश ...") with single/multi space or tab separators
+ *  2. Sequential blocks (List-I block followed by List-II block)
+ *  3. All marker varieties: A-E, 1-5, (A)-(E), (i)-(v), i-v, (क)-(घ)
+ *  4. Dynamic column title extraction from prompt/header
  */
-export function extractMatchListsFromText(text: string): { left: MatchListItem[]; right: MatchListItem[] } {
+export function extractMatchListsFromText(text: string): ExtractedMatchLists {
   if (!text) return { left: [], right: [] };
 
-  // Find the split point between List-I and List-II sections
-  const list2HeaderRegex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B)\b/im;
-  const match2 = text.match(list2HeaderRegex);
+  const lines = text.split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
+  const titles = extractTitles(text);
 
-  if (!match2 || match2.index === undefined) {
-    return { left: [], right: [] };
-  }
+  // ── Strategy 1: Side-by-side lines ──
+  const sideBySideRegex =
+    /^(?:(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:]))\s*(.*?)(?:\s{2,}|\t|\s+(?=\([a-zA-Z0-9ivxlc\u0900-\u097F]+\)|(?:[\divxlc]+|[a-eA-E\u0915-\u0918])\s*[.)\-:]))(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)$/i;
 
-  const part1 = text.slice(0, match2.index);
-  const part2 = text.slice(match2.index);
+  const leftItems: MatchListItem[] = [];
+  const rightItems: MatchListItem[] = [];
 
-  // Regex for list items — supports:
-  //   A. text, A) text, (A) text, A - text, A: text
-  //   1. text, 2. text, 3. text, 4. text, 5. text
-  //   (i) text, (ii) text, (iii) text, (iv) text, (v) text
-  //   i. text, ii. text, iii. text, iv. text
-  const itemRegex = /^(?:(?:\(([A-Ea-e])\)|([A-Ea-e])\s*[.)\-:])|([\divxlc]+)\s*[.)\-:]|\(([\divxlc]+)\))\s*(.*)/;
+  for (const line of lines) {
+    // Skip headers or codes lines
+    if (/^(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB])\b/i.test(line)) continue;
+    if (/^(?:कूट|Codes?)\s*[:=]?$/i.test(line)) continue;
 
-  function extractItems(section: string): MatchListItem[] {
-    const items: MatchListItem[] = [];
-    for (const line of section.split(/\r?\n/)) {
-      const trimmed = line.trim();
-      if (!trimmed) continue;
+    const m = line.match(sideBySideRegex);
+    if (m) {
+      const leftId = (m[1] || m[2] || "").trim();
+      const leftText = (m[3] || "").trim();
+      const rightId = (m[4] || m[5] || "").trim();
+      const rightText = (m[6] || "").trim();
 
-      const m = trimmed.match(itemRegex);
-      if (m) {
-        // Determine the identifier from capture groups
-        const id = m[1] || m[2] || m[3] || m[4] || "";
-        const text = (m[5] || "").trim();
-
-        // Skip if no actual text content (just the header)
-        if (!text) continue;
-
-        items.push({ id: id.trim(), text });
+      if (leftText && rightText) {
+        leftItems.push({ id: leftId, text: leftText });
+        rightItems.push({ id: rightId, text: rightText });
       }
     }
-    return items;
   }
 
-  const left = extractItems(part1);
-  const right = extractItems(part2);
+  if (leftItems.length >= 2 && rightItems.length >= 2) {
+    return { left: leftItems, right: rightItems, ...titles };
+  }
 
-  if (left.length > 0 || right.length > 0) {
-    return { left, right };
+  // ── Strategy 2: Sequential blocks (List-I block ... List-II block) ──
+  const isList2Header = (line: string) =>
+    /^(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B)\b(?!.*(?:को|से|with|and|from|सुमेलित))/i.test(line);
+
+  let splitIdx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (isList2Header(lines[i])) {
+      splitIdx = i;
+      break;
+    }
+  }
+
+  if (splitIdx !== -1) {
+    const part1Lines = lines.slice(0, splitIdx);
+    const part2Lines = lines.slice(splitIdx);
+
+    const itemRegex =
+      /^(?:(?:(?:\(([A-Ea-e\divxlc\u0915-\u0918]+)\)|([A-Ea-e\divxlc\u0915-\u0918]+)\s*[.)\-:]))|([\divxlc]+)\s*[.)\-:]|\(([\divxlc]+)\))\s*(.*)/i;
+
+    const extractFromLines = (arr: string[]): MatchListItem[] => {
+      const items: MatchListItem[] = [];
+      for (const line of arr) {
+        if (/^(?:सूची|List|Column|कूट|Codes)/i.test(line)) continue;
+        const m = line.match(itemRegex);
+        if (m) {
+          const id = (m[1] || m[2] || m[3] || m[4] || "").trim();
+          const itemText = (m[5] || "").trim();
+          if (itemText) items.push({ id, text: itemText });
+        }
+      }
+      return items;
+    };
+
+    const seqLeft = extractFromLines(part1Lines);
+    const seqRight = extractFromLines(part2Lines);
+
+    if (seqLeft.length >= 2 || seqRight.length >= 2) {
+      return { left: seqLeft, right: seqRight, ...titles };
+    }
   }
 
   return { left: [], right: [] };
@@ -237,6 +304,8 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
             ...(meta || {}),
             left: extracted.left,
             right: extracted.right,
+            ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
+            ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
           };
         } else {
           meta = { ...(meta || {}), left: [], right: [] };

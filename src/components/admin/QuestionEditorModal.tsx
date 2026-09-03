@@ -12,7 +12,7 @@ import {
   QuestionType,
   Difficulty,
 } from "@/lib/constants";
-import { AcceptedQuestionType } from "@/lib/validators/question";
+import { AcceptedQuestionType, extractMatchListsFromText } from "@/lib/validators/question";
 import { cn, containsDevanagari } from "@/lib/utils";
 import { useToast } from "@/components/ui/Toast";
 
@@ -202,7 +202,20 @@ export function QuestionEditorModal({
 
   async function handleSave() {
     if (!validateForm()) return;
-    setIsSaving(true);
+    let finalMeta = meta;
+    if ((type === "match" || type === "match_following") && (!finalMeta?.left?.length || !finalMeta?.right?.length)) {
+      const extracted = extractMatchListsFromText(questionText);
+      if (extracted.left.length > 0 || extracted.right.length > 0) {
+        finalMeta = {
+          ...(finalMeta || {}),
+          left: extracted.left,
+          right: extracted.right,
+          ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
+          ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
+        };
+      }
+    }
+
     try {
       await updateQuestion({
         id: question!._id,
@@ -213,7 +226,7 @@ export function QuestionEditorModal({
         correctAnswer,
         explanation: explanation.trim() || undefined,
         reference: reference.trim() || undefined,
-        meta,
+        meta: finalMeta,
       });
       showToast("✅ Question updated successfully!", "success");
       onSaveSuccess?.();
@@ -229,6 +242,20 @@ export function QuestionEditorModal({
   const isQuestionHindi = containsDevanagari(questionText);
   const isExplanationHindi = containsDevanagari(explanation);
 
+  let previewMeta = meta;
+  if ((type === "match" || type === "match_following") && (!previewMeta?.left?.length || !previewMeta?.right?.length)) {
+    const extracted = extractMatchListsFromText(questionText);
+    if (extracted.left.length > 0 || extracted.right.length > 0) {
+      previewMeta = {
+        ...(previewMeta || {}),
+        left: extracted.left,
+        right: extracted.right,
+        ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
+        ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
+      };
+    }
+  }
+
   const previewQuestion: Question = {
     ...question,
     type,
@@ -238,7 +265,7 @@ export function QuestionEditorModal({
     correctAnswer,
     explanation,
     reference,
-    meta,
+    meta: previewMeta,
   };
 
   // ── Render ────────────────────────────────────────────────────────────────

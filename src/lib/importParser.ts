@@ -1,4 +1,4 @@
-import { importJsonSchema, ImportJson, QuestionInput, normalizeMinifiedQuestion } from "./validators/question";
+import { importJsonSchema, ImportJson, QuestionInput, normalizeMinifiedQuestion, extractMatchListsFromText } from "./validators/question";
 
 /**
  * Strips markdown code fences from LLM output, e.g.:
@@ -103,12 +103,15 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
         // Legacy: fix match_following without meta
         if (
           (q.type === "match_following" || q.type === "match") &&
-          !(q.meta?.left || q.meta?.columnA)
+          !(q.meta?.left?.length || q.meta?.columnA?.length)
         ) {
+          const extracted = extractMatchListsFromText(q.questionText || "");
           q.meta = {
             ...(q.meta || {}),
-            left: [],
-            right: [],
+            left: extracted.left,
+            right: extracted.right,
+            ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
+            ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
           };
           modified = true;
         }

@@ -21,12 +21,21 @@ export function MatchFollowingRenderer({
   let rawLeft = (metaObj.left ?? metaObj.columnA ?? []) as unknown[];
   let rawRight = (metaObj.right ?? metaObj.columnB ?? []) as unknown[];
 
+  let leftHeader = metaObj.leftTitle ? String(metaObj.leftTitle) : undefined;
+  let rightHeader = metaObj.rightTitle ? String(metaObj.rightTitle) : undefined;
+
   // Fallback: if meta lists are missing/empty, extract from questionText
   if ((!rawLeft || rawLeft.length === 0) && (!rawRight || rawRight.length === 0) && question.questionText) {
     const extracted = extractMatchListsFromText(question.questionText);
     if (extracted.left.length > 0) rawLeft = extracted.left;
     if (extracted.right.length > 0) rawRight = extracted.right;
+    if (extracted.leftTitle && !leftHeader) leftHeader = extracted.leftTitle;
+    if (extracted.rightTitle && !rightHeader) rightHeader = extracted.rightTitle;
   }
+
+  const isDevanagari = containsDevanagari(question.questionText || "");
+  const finalLeftHeader = leftHeader || (isDevanagari ? "सूची – I" : "List – I");
+  const finalRightHeader = rightHeader || (isDevanagari ? "सूची – II" : "List – II");
 
   // Normalize columnA items to { id, text } without duplicated prefixes
   const columnA: MatchItem[] = rawLeft.map((item: unknown, idx: number) => {
@@ -40,8 +49,8 @@ export function MatchFollowingRenderer({
       }
     }
     if (typeof item === "string") {
-      // Parse "A. text" or "(A) text" etc.
-      const m = item.match(/^(?:\(([A-Ea-e])\)|([A-Ea-e])\s*[.)\-:])\s*(.*)/);
+      // Parse "A. text" or "(A) text" or "1. text" or "(क) text" etc.
+      const m = item.match(/^(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:])\s*(.*)/);
       if (m) {
         const id = (m[1] || m[2] || "").trim().toUpperCase();
         const text = (m[3] || "").trim();
@@ -65,8 +74,8 @@ export function MatchFollowingRenderer({
       }
     }
     if (typeof item === "string") {
-      // Parse "(i) text" or "1. text" or "i. text"
-      const m = item.match(/^(?:\(([\divxlc]+)\)|([\divxlc]+)\s*[.)\-:])\s*(.*)/i);
+      // Parse "(i) text" or "1. text" or "i. text" etc.
+      const m = item.match(/^(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)/i);
       if (m) {
         const id = (m[1] || m[2] || "").trim();
         const text = (m[3] || "").trim();
@@ -91,10 +100,10 @@ export function MatchFollowingRenderer({
             {/* Header Row */}
             <div className="grid grid-cols-2 border-b border-border bg-muted/40 text-[11px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi divide-x divide-border/60">
               <div className="px-3 sm:px-4 py-2 flex items-center">
-                <span>सूची – I</span>
+                <span>{finalLeftHeader}</span>
               </div>
               <div className="px-3 sm:px-4 py-2 flex items-center">
-                <span>सूची – II</span>
+                <span>{finalRightHeader}</span>
               </div>
             </div>
 

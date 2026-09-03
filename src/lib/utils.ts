@@ -63,6 +63,35 @@ export function getOptionLabel(indexOrId: number | string): string {
   return indexOrId;
 }
 
+function isInstructionLine(line: string): boolean {
+  return /(?:सुमेलित|मिलान|कीजिए|करें|चुनिए|उत्तर|match|following|select|below|code|कूट|(?:को|से|with|and)\s*(?:सूची|List|Column))/i.test(line);
+}
+
+function isTableOrItemLine(line: string): boolean {
+  const trimmed = line.trim();
+  if (!trimmed) return false;
+
+  // Standalone list header: e.g. "सूची-I                 सूची-II", "सूची-I:", "List-I List-II", "Column A"
+  // but NOT instruction sentences like "सूची-I को सूची-II से सुमेलित कीजिए"
+  if (/(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB])\b/i.test(trimmed)) {
+    if (!isInstructionLine(trimmed)) {
+      return true;
+    }
+  }
+
+  // List bullet items: "A. ...", "(A) ...", "1. ...", "(i) ...", "i. ...", "(क) ..."
+  if (/^(?:(?:\([A-Ea-e1-5\divxlc\u0915-\u0918]+\))|(?:[A-Ea-e1-5\divxlc\u0915-\u0918]+[\.\):]))\s+/i.test(trimmed)) {
+    return true;
+  }
+
+  // Standalone "कूट:" / "Codes:"
+  if (/^(?:कूट|Codes?)\s*[:=]?$/i.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
 /**
  * For match_following (and similar list-based) questions, questionText often contains
  * both the instruction prompt and the raw text lists (List I / List II / सूची-I / सूची-II).
@@ -74,27 +103,17 @@ export function cleanQuestionPrompt(text: string, type?: string): string {
     return text;
   }
 
-  // 1. Look for the start of List-I / सूची-I / List 1 / Column A header
-  const listHeaderRegex = /(?:\r?\n|^)\s*(?:सूची|List|Column)\s*[-–—:]?\s*(?:I{1,3}|[12]|[AB])\b/i;
-  const match = text.match(listHeaderRegex);
-
-  if (match && match.index !== undefined) {
-    const mainPrompt = text.slice(0, match.index).trim();
-    if (mainPrompt) return mainPrompt;
-  }
-
-  // 2. Fallback: If no explicit header, check if lines start with list item bullets (A., B., 1., 2., (i), etc.)
   const lines = text.split(/\r?\n/);
   const promptLines: string[] = [];
 
   for (const line of lines) {
     const trimmed = line.trim();
-    if (
-      /^(?:(?:[A-E1-5][\.\):])|(?:\([A-E1-5a-e\divxlc]+\))|(?:[\divxlc]+[\.\):])|(?:सूची|List|Column))\s+/i.test(trimmed)
-    ) {
+    if (!trimmed) continue;
+
+    if (isTableOrItemLine(trimmed)) {
       break;
     }
-    promptLines.push(line);
+    promptLines.push(trimmed);
   }
 
   const promptResult = promptLines.join("\n").trim();
