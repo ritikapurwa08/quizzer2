@@ -22,9 +22,10 @@ import {
   Eye,
   Check,
   FileCode2,
+  Loader2,
 } from "lucide-react";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
-import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
 
 interface SubjectOption {
   _id: string;
@@ -380,10 +381,25 @@ export function QuestionImportEditor({
             type="button"
             onClick={onImportClick}
             disabled={!isValid || !selectedTopicId || !subtopicName.trim() || isImporting}
-            className="w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-95 transition-all cursor-pointer shrink-0 font-hindi"
+            className={cn(
+              "w-full sm:w-auto h-10 px-6 font-bold text-sm rounded-xl gap-2 bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-95 transition-all shrink-0 font-hindi relative overflow-hidden",
+              isImporting ? "cursor-wait opacity-90" : "cursor-pointer"
+            )}
           >
-            <Check className="h-4 w-4 stroke-[3]" />
-            {isImporting ? "आयात हो रहे हैं…" : "प्रश्न आयात करें (Import)"}
+            {isImporting ? (
+              <span className="flex items-center gap-2">
+                <Loader2 className="h-4 w-4 animate-spin shrink-0 text-primary-foreground" />
+                <span className="inline-flex items-center">
+                  <span>प्रश्न आयात हो रहे हैं</span>
+                  <span className="inline-flex tracking-widest animate-pulse ml-0.5">…</span>
+                </span>
+              </span>
+            ) : (
+              <span className="flex items-center gap-2">
+                <Check className="h-4 w-4 stroke-[3]" />
+                <span>प्रश्न आयात करें (Import)</span>
+              </span>
+            )}
           </Button>
         </div>
       </div>

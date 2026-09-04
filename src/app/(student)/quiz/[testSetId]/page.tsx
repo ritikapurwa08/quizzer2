@@ -9,7 +9,7 @@ import { useQuizSession } from "@/hooks/useQuizSession";
 import { QUESTION_RENDERERS, QuestionShell, QuestionPalette, QuestionShellSkeleton } from "@/components/quiz";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
-import { Clock } from "lucide-react";
+import { Clock, Loader2 } from "lucide-react";
 
 function formatTime(seconds: number): string {
   const mins = Math.floor(seconds / 60);
@@ -164,9 +164,17 @@ export default function QuizPage() {
           ) : (
             <Button
               onClick={() => setConfirmSubmitOpen(true)}
+              disabled={isSubmitting}
               className="h-10 px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer font-hindi"
             >
-              टेस्ट सबमिट करें ✓
+              {isSubmitting ? (
+                <span className="flex items-center gap-1.5">
+                  <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" />
+                  <span>सबमिट हो रहा है…</span>
+                </span>
+              ) : (
+                "टेस्ट सबमिट करें ✓"
+              )}
             </Button>
           )}
         </div>
@@ -233,8 +241,16 @@ export default function QuizPage() {
             <Button
               className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs h-10 rounded-xl shadow-xs cursor-pointer font-hindi"
               onClick={() => setConfirmSubmitOpen(true)}
+              disabled={isSubmitting}
             >
-              टेस्ट सबमिट करें
+              {isSubmitting ? (
+                <span className="flex items-center justify-center gap-1.5">
+                  <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" />
+                  <span>सबमिट हो रहा है…</span>
+                </span>
+              ) : (
+                "टेस्ट सबमिट करें"
+              )}
             </Button>
           </div>
         </div>
@@ -242,11 +258,20 @@ export default function QuizPage() {
 
       <ConfirmDialog
         open={confirmSubmitOpen}
-        onOpenChange={setConfirmSubmitOpen}
+        onOpenChange={(open) => {
+          if (!isSubmitting) setConfirmSubmitOpen(open);
+        }}
         title="टेस्ट सबमिट करें?"
         description={`आपने ${questions.length} में से ${answeredCount} प्रश्नों के उत्तर दिए हैं। क्या आप टेस्ट समाप्त करना चाहते हैं?`}
         onConfirm={handleSubmit}
-        confirmLabel={isSubmitting ? "सबमिट हो रहा है…" : "हाँ, सबमिट करें"}
+        isLoading={isSubmitting}
+        confirmLabel="हाँ, सबमिट करें"
+        loadingLabel={
+          <span className="flex items-center gap-1.5">
+            <span>सबमिट हो रहा है</span>
+            <span className="inline-flex tracking-widest animate-pulse ml-0.5">…</span>
+          </span>
+        }
       />
     </div>
   );

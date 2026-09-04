@@ -2,19 +2,22 @@
 
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { AlertTriangle } from "lucide-react";
+import { AlertTriangle, Loader2 } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface ConfirmDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   title: string;
   description: string;
-  onConfirm: () => void;
-  confirmLabel?: string;
-  variant?: "destructive" | "primary";
+  onConfirm: () => any;
+  confirmLabel?: React.ReactNode;
+  variant?: "destructive" | "primary" | "default";
+  isLoading?: boolean;
+  loadingLabel?: React.ReactNode;
 }
 
-/** Stitch-spec confirm dialog: backdrop blur, rounded-xl card, colored action button */
+/** Stitch-spec confirm dialog: backdrop blur, rounded-xl card, colored action button with animated loading state */
 export function ConfirmDialog({
   open,
   onOpenChange,
@@ -23,9 +26,11 @@ export function ConfirmDialog({
   onConfirm,
   confirmLabel = "Delete",
   variant = "destructive",
+  isLoading = false,
+  loadingLabel,
 }: ConfirmDialogProps) {
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
+    <Dialog open={open} onOpenChange={(val) => !isLoading && onOpenChange(val)}>
       <DialogContent className="rounded-xl border border-border bg-card shadow-xl max-w-sm p-6">
         <div className="flex items-start gap-3 mb-2">
           {variant === "destructive" && (
@@ -45,20 +50,38 @@ export function ConfirmDialog({
         <div className="flex justify-end gap-2 mt-5 pt-4 border-t border-border/60">
           <Button
             variant="outline"
-            className="h-9 text-xs font-semibold rounded-lg border-border cursor-pointer"
+            disabled={isLoading}
+            className="h-9 text-xs font-semibold rounded-lg border-border cursor-pointer disabled:opacity-50"
             onClick={() => onOpenChange(false)}
           >
-            Cancel
+            रद्द करें (Cancel)
           </Button>
           <Button
             variant={variant === "destructive" ? "destructive" : "default"}
-            className="h-9 text-xs font-semibold rounded-lg cursor-pointer"
-            onClick={() => {
-              onConfirm();
-              onOpenChange(false);
+            disabled={isLoading}
+            className={cn(
+              "h-9 text-xs font-semibold rounded-lg cursor-pointer transition-all gap-1.5",
+              isLoading && "cursor-wait opacity-90"
+            )}
+            onClick={async () => {
+              if (isLoading) return;
+              const result = onConfirm();
+              if (result instanceof Promise) {
+                await result;
+              }
+              if (!isLoading) {
+                onOpenChange(false);
+              }
             }}
           >
-            {confirmLabel}
+            {isLoading ? (
+              <span className="flex items-center gap-1.5">
+                <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" />
+                <span>{loadingLabel || "प्रतीक्षा करें…"}</span>
+              </span>
+            ) : (
+              confirmLabel
+            )}
           </Button>
         </div>
       </DialogContent>
