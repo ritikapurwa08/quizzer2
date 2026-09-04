@@ -92,83 +92,21 @@ export function MatchFollowingRenderer({
 
   return (
     <div className="space-y-4">
-      {/* Match Lists — Desktop: side-by-side grid | Mobile: stacked pairs */}
+      {/* Match Lists — Side-by-side two-column table */}
       {(columnA.length > 0 || columnB.length > 0) && (
-        <>
-          {/* ── Desktop/Tablet: Side-by-side grid ── */}
-          <div className="hidden sm:block rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
-            {/* Header Row */}
-            <div className="grid grid-cols-2 border-b border-border bg-muted/40 text-[11px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi divide-x divide-border/60">
-              <div className="px-3 sm:px-4 py-2 flex items-center">
-                <span>{finalLeftHeader}</span>
-              </div>
-              <div className="px-3 sm:px-4 py-2 flex items-center">
-                <span>{finalRightHeader}</span>
-              </div>
+        <div className="rounded-xl border border-border/80 bg-card/60 overflow-hidden shadow-2xs">
+          {/* Header Row */}
+          <div className="grid grid-cols-2 border-b border-border bg-muted/40 text-[11px] sm:text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi divide-x divide-border/60">
+            <div className="px-3 sm:px-4 py-2 flex items-center">
+              <span>{finalLeftHeader}</span>
             </div>
-
-            {/* Data Rows — each row shares height for vertical alignment */}
-            <div className="divide-y divide-border/60">
-              {Array.from({ length: rowCount }).map((_, idx) => {
-                const itemA = columnA[idx];
-                const itemB = columnB[idx];
-                const isHindiA = itemA ? containsDevanagari(itemA.text) : false;
-                const isHindiB = itemB ? containsDevanagari(itemB.text) : false;
-
-                return (
-                  <div
-                    key={itemA?.id || itemB?.id || idx}
-                    className="grid grid-cols-2 divide-x divide-border/60 hover:bg-muted/20 transition-colors"
-                  >
-                    {/* Left Column Item (List I) */}
-                    <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
-                      {itemA ? (
-                        <>
-                          <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
-                            {itemA.id}
-                          </span>
-                          <span
-                            className={cn(
-                              "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
-                              isHindiA && "font-hindi"
-                            )}
-                          >
-                            {itemA.text}
-                          </span>
-                        </>
-                      ) : (
-                        <span className="text-xs text-muted-foreground/40">—</span>
-                      )}
-                    </div>
-
-                    {/* Right Column Item (List II) */}
-                    <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
-                      {itemB ? (
-                        <>
-                          <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-secondary text-secondary-foreground text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
-                            {itemB.id}
-                          </span>
-                          <span
-                            className={cn(
-                              "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
-                              isHindiB && "font-hindi"
-                            )}
-                          >
-                            {itemB.text}
-                          </span>
-                        </>
-                      ) : (
-                        <span className="text-xs text-muted-foreground/40">—</span>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
+            <div className="px-3 sm:px-4 py-2 flex items-center">
+              <span>{finalRightHeader}</span>
             </div>
           </div>
 
-          {/* ── Mobile: Stacked pairs — each A↔i pair is a single group ── */}
-          <div className="sm:hidden space-y-2">
+          {/* Data Rows — each row shares height for vertical alignment */}
+          <div className="divide-y divide-border/60">
             {Array.from({ length: rowCount }).map((_, idx) => {
               const itemA = columnA[idx];
               const itemB = columnB[idx];
@@ -178,51 +116,54 @@ export function MatchFollowingRenderer({
               return (
                 <div
                   key={itemA?.id || itemB?.id || idx}
-                  className="rounded-lg border border-border/70 bg-card/60 overflow-hidden"
+                  className="grid grid-cols-2 divide-x divide-border/60 hover:bg-muted/20 transition-colors"
                 >
-                  {/* List I item */}
-                  {itemA && (
-                    <div className="flex items-start gap-2 p-2.5">
-                      <span className="flex h-5 w-5 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] font-bold shrink-0 mt-0.5">
-                        {itemA.id}
-                      </span>
-                      <span
-                        className={cn(
-                          "text-xs leading-snug font-medium text-foreground flex-1",
-                          isHindiA && "font-hindi"
-                        )}
-                      >
-                        {itemA.text}
-                      </span>
-                    </div>
-                  )}
-                  {/* Arrow separator */}
-                  {itemA && itemB && (
-                    <div className="flex items-center px-2.5 pb-0.5">
-                      <span className="text-[10px] text-muted-foreground/50">↓</span>
-                    </div>
-                  )}
-                  {/* List II item */}
-                  {itemB && (
-                    <div className="flex items-start gap-2 px-2.5 pb-2.5 pl-5">
-                      <span className="flex h-5 w-5 items-center justify-center rounded-md bg-secondary text-secondary-foreground text-[11px] font-bold shrink-0 mt-0.5">
-                        {itemB.id}
-                      </span>
-                      <span
-                        className={cn(
-                          "text-xs leading-snug font-medium text-foreground flex-1",
-                          isHindiB && "font-hindi"
-                        )}
-                      >
-                        {itemB.text}
-                      </span>
-                    </div>
-                  )}
+                  {/* Left Column Item (List I) */}
+                  <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
+                    {itemA ? (
+                      <>
+                        <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                          {itemA.id}
+                        </span>
+                        <span
+                          className={cn(
+                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
+                            isHindiA && "font-hindi"
+                          )}
+                        >
+                          {itemA.text}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-xs text-muted-foreground/40">—</span>
+                    )}
+                  </div>
+
+                  {/* Right Column Item (List II) */}
+                  <div className="p-2 sm:p-3 flex items-start gap-1.5 sm:gap-2.5">
+                    {itemB ? (
+                      <>
+                        <span className="flex h-5 w-5 sm:h-6 sm:w-6 items-center justify-center rounded-md bg-secondary text-secondary-foreground text-[11px] sm:text-xs font-bold shrink-0 mt-0.5">
+                          {itemB.id}
+                        </span>
+                        <span
+                          className={cn(
+                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-medium text-foreground flex-1 pt-0.5",
+                            isHindiB && "font-hindi"
+                          )}
+                        >
+                          {itemB.text}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-xs text-muted-foreground/40">—</span>
+                    )}
+                  </div>
                 </div>
               );
             })}
           </div>
-        </>
+        </div>
       )}
 
       {/* Multiple-Choice Option Buttons */}
