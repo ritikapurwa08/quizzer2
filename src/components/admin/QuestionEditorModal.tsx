@@ -423,8 +423,8 @@ export function QuestionEditorModal({
                   <div className="flex items-center justify-between mb-2.5">
                     <SectionHeading icon={<FileText className="h-3.5 w-3.5" />} label="Question Text" />
                     {isQuestionHindi && (
-                      <span className="text-[10px] text-primary font-semibold bg-primary/8 border border-primary/20 rounded px-1.5 py-0.5">
-                        Anek Devanagari
+                      <span className="text-[10px] text-primary font-semibold bg-primary/8 border border-primary/20 rounded px-1.5 py-0.5 font-hindi">
+                        Google Sans
                       </span>
                     )}
                   </div>
@@ -603,8 +603,8 @@ export function QuestionEditorModal({
                   <div className="flex items-center justify-between mb-2.5">
                     <SectionHeading icon={<HelpCircle className="h-3.5 w-3.5" />} label="Explanation (व्याख्या)" />
                     {isExplanationHindi && (
-                      <span className="text-[10px] text-primary font-semibold bg-primary/8 border border-primary/20 rounded px-1.5 py-0.5">
-                        Anek Devanagari
+                      <span className="text-[10px] text-primary font-semibold bg-primary/8 border border-primary/20 rounded px-1.5 py-0.5 font-hindi">
+                        Google Sans
                       </span>
                     )}
                   </div>
