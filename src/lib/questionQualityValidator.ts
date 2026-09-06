@@ -150,8 +150,8 @@ export function validateQuestionBank(
         stemHasArtifact
           ? "stem में artifact"
           : explanationHasArtifact
-          ? "explanation में artifact"
-          : "option में artifact"
+            ? "explanation में artifact"
+            : "option में artifact"
       );
     }
 
@@ -354,8 +354,8 @@ export function validateSingleQuestion(q: QuestionForValidation): SingleQuestion
   }
 
   if (ARTIFACT_PATTERN.test(q.questionText ?? "") ||
-      ARTIFACT_PATTERN.test(q.explanation ?? "") ||
-      q.options?.some((o) => ARTIFACT_PATTERN.test(o.text ?? ""))) {
+    ARTIFACT_PATTERN.test(q.explanation ?? "") ||
+    q.options?.some((o) => ARTIFACT_PATTERN.test(o.text ?? ""))) {
     issues.push({
       severity: "error",
       message: "Citation/artifact ([cite:], markdown, source:) मिला — regenerate करें।",
