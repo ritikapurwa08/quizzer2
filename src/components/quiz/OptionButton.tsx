@@ -59,10 +59,10 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
         {badgeLabel}
       </span>
 
-      {/* Option text — ALWAYS font-normal (400), never bold on selection */}
+      {/* Option text — font-medium (500) + Google Sans always applied via font-sans */}
       <span
         className={cn(
-          "flex-1 leading-snug text-sm sm:text-base font-normal text-foreground",
+          "flex-1 leading-snug text-sm sm:text-base font-medium text-foreground font-sans",
           isHindi && "font-hindi"
         )}
       >
