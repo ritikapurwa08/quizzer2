@@ -120,7 +120,7 @@ export function QuestionShell({
         <p
           className={cn(
             "whitespace-pre-line font-semibold text-sm sm:text-base md:text-[1.05rem] mb-4.5 leading-relaxed text-foreground",
-            isHindi && "font-hindi font-medium"
+            isHindi && "font-hindi"
           )}
         >
           {cleanedText}

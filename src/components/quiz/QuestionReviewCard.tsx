@@ -58,7 +58,7 @@ export function QuestionReviewCard({
           <p className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mb-1 font-hindi">
             विस्तृत व्याख्या एवं संदर्भ
           </p>
-          <p className={cn("text-xs sm:text-sm text-foreground leading-relaxed", isHindiExplanation && "font-hindi")}>
+          <p className={cn("text-xs sm:text-sm text-foreground font-semibold leading-relaxed font-hindi", isHindiExplanation && "font-hindi")}>
             {question.explanation}
           </p>
         </div>

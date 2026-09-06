@@ -24,7 +24,7 @@ export function TrueFalseRenderer({ question, selected, onSelect, mode }: Questi
               if (!isReview) onSelect(opt.id);
             }}
             className={cn(
-              "rounded-lg border py-4 text-center text-sm font-semibold min-h-12 transition-all duration-150 cursor-pointer select-none",
+              "rounded-lg border py-4 text-center text-sm font-semibold min-h-12 transition-all duration-150 cursor-pointer select-none font-hindi",
               isSelected && !isReview && "border-primary bg-primary/10 ring-2 ring-primary/30 shadow-sm text-primary font-bold",
               !isSelected && !isReview && "border-border bg-card hover:bg-muted/60 active:scale-[0.995]",
               isCorrect && "border-success bg-success/15 ring-2 ring-success/30 font-bold text-success",
