@@ -7,7 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 const googleSans = Google_Sans({
   subsets: ["latin", "devanagari"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
   variable: "--font-google-sans",
   display: "swap",
 });
@@ -21,11 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <ConvexAuthNextjsServerProvider>
       <html lang="hi" className={googleSans.variable}>
-        <body className="antialiased">
+        <body>
           <ConvexClientProvider>
-            <TooltipProvider delay={300}>
-              {children}
-            </TooltipProvider>
+            <TooltipProvider delay={300}>{children}</TooltipProvider>
           </ConvexClientProvider>
         </body>
       </html>

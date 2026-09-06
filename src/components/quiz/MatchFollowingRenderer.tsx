@@ -127,7 +127,7 @@ export function MatchFollowingRenderer({
                         </span>
                         <span
                           className={cn(
-                            "leading-snug sm:leading-relaxed wrap-break-word text-xs sm:text-sm font-semibold text-foreground flex-1 pt-0.5",
+                            "leading-snug sm:leading-relaxed wrap-break-word text-xs sm:text-sm font-normal text-foreground flex-1 pt-0.5",
                             isHindiA && "font-hindi"
                           )}
                         >
@@ -148,7 +148,7 @@ export function MatchFollowingRenderer({
                         </span>
                         <span
                           className={cn(
-                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-semibold text-foreground flex-1 pt-0.5",
+                            "leading-snug sm:leading-relaxed break-words text-xs sm:text-sm font-normal text-foreground flex-1 pt-0.5",
                             isHindiB && "font-hindi"
                           )}
                         >

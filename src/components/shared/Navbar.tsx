@@ -59,7 +59,7 @@ export function Navbar() {
           <div className="p-1.5 rounded-lg bg-primary/10 text-primary transition-all group-hover:bg-primary group-hover:text-primary-foreground">
             <GraduationCap className="h-5 w-5" />
           </div>
-          <span className="font-bold text-base tracking-tight text-foreground group-hover:text-primary transition-colors">
+          <span className="font-semibold text-base tracking-tight text-foreground group-hover:text-primary transition-colors">
             Quizzer
           </span>
         </Link>
@@ -74,7 +74,7 @@ export function Navbar() {
                 type="button"
                 onClick={() => setProfileOpen((p) => !p)}
                 aria-label="User menu"
-                className="flex items-center gap-2 h-9 px-2.5 rounded-xl border border-border/80 bg-background/80 hover:bg-muted text-foreground transition-all cursor-pointer text-xs font-semibold shadow-xs active:scale-95"
+                className="flex items-center gap-2 h-9 px-2.5 rounded-xl border border-border/80 bg-background/80 hover:bg-muted text-foreground transition-all cursor-pointer text-xs font-medium shadow-xs active:scale-95"
               >
                 {/* Avatar chip */}
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/15 text-primary text-[10px] font-bold shrink-0">
@@ -91,10 +91,10 @@ export function Navbar() {
                 <div className="absolute right-0 top-full mt-2 w-60 rounded-2xl border border-border bg-popover text-popover-foreground shadow-2xl py-1.5 z-50 animate-in fade-in-0 zoom-in-95 duration-100">
                   {/* User info header */}
                   <div className="px-3.5 py-2.5 border-b border-border/70 mb-1">
-                    <p className="text-xs font-bold text-foreground truncate">{displayName}</p>
+                    <p className="text-xs font-medium text-foreground truncate">{displayName}</p>
                     <p className="text-[11px] text-muted-foreground truncate">{me?.email || "No email"}</p>
                     {isAdmin && (
-                      <span className="inline-flex items-center gap-1 mt-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-primary/15 text-primary border border-primary/25">
+                      <span className="inline-flex items-center gap-1 mt-1.5 text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded-md bg-primary/15 text-primary border border-primary/25">
                         <Shield className="h-3 w-3" /> Admin
                       </span>
                     )}
@@ -108,7 +108,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/dashboard"
-                          ? "bg-primary/15 text-primary font-bold"
+                          ? "bg-primary/15 text-primary font-medium"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -122,7 +122,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/bookmarks"
-                          ? "bg-primary/15 text-primary font-bold"
+                          ? "bg-primary/15 text-primary font-medium"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -136,7 +136,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/wrong-questions"
-                          ? "bg-primary/15 text-primary font-bold"
+                          ? "bg-primary/15 text-primary font-medium"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -150,7 +150,7 @@ export function Navbar() {
                     <>
                       <Separator className="my-1 opacity-70" />
                       <div className="py-1">
-                        <div className="px-3.5 py-1 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/70">
+                        <div className="px-3.5 py-1 text-[10px] font-medium uppercase tracking-wider text-muted-foreground/70">
                           Administration
                         </div>
                         <Link
@@ -159,7 +159,7 @@ export function Navbar() {
                           className={cn(
                             "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
                             pathname === "/admin"
-                              ? "bg-primary/15 text-primary font-bold"
+                              ? "bg-primary/15 text-primary font-medium"
                               : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                           )}
                         >
@@ -172,7 +172,7 @@ export function Navbar() {
                           className={cn(
                             "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
                             pathname === "/admin/import"
-                              ? "bg-primary/15 text-primary font-bold"
+                              ? "bg-primary/15 text-primary font-medium"
                               : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                           )}
                         >

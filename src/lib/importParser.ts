@@ -209,11 +209,40 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
     }
 
     const rawOpts = item.o ?? item.options;
+    const isMinified = "q" in item && !("questionText" in item);
+
     if (!Array.isArray(rawOpts) || rawOpts.length < 2) {
       invalidQuestions.push({
         index: qNum,
         raw: item,
         reason: `प्रश्न ${qNum}: अमान्य विकल्प — कम से कम 2 विकल्प आवश्यक हैं, ${Array.isArray(rawOpts) ? rawOpts.length : 0} मिले।`,
+      });
+      return;
+    }
+
+    // New AI contract: exactly four substantive options.
+    // Do not silently repair bad model output; reject it for regeneration.
+    if (isMinified && rawOpts.length !== 4) {
+      invalidQuestions.push({
+        index: qNum,
+        raw: item,
+        reason: `प्रश्न ${qNum}: AI प्रश्न में ठीक 4 substantive विकल्प होने चाहिए; ${rawOpts.length} मिले।`,
+      });
+      return;
+    }
+
+    const artifactPattern = /\[cite\s*:|\[span[_-]|<citation|```/i;
+    const rawText = String(item.q ?? item.questionText ?? "");
+    const rawExplanation = String(item.e ?? item.explanation ?? "");
+    const rawOptionText = Array.isArray(rawOpts)
+      ? rawOpts.map((o: any) => typeof o === "string" ? o : String(o?.text ?? "")).join(" ")
+      : "";
+
+    if (artifactPattern.test(rawText) || artifactPattern.test(rawExplanation) || artifactPattern.test(rawOptionText)) {
+      invalidQuestions.push({
+        index: qNum,
+        raw: item,
+        reason: `प्रश्न ${qNum}: source/citation artifact मिला; प्रश्न पुनः generate करें।`,
       });
       return;
     }

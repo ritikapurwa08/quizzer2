@@ -2,7 +2,7 @@ import { z } from "zod";
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
- *    q → questionText, o → options[], a → correctAnswer index (0-4), e → explanation, t → type
+ *    q → questionText, o → options[], a → correctAnswer index (0-3), e → explanation, t → type
  */
 
 export const optionSchema = z.object({
@@ -62,13 +62,12 @@ export const questionSchema = z
   });
 
 // ── Minified JSON key mapping (AI prompt schema) ────────────────────────
-// Maps: q→questionText, o→options, a→correctAnswer index, e→explanation, t→type
+// Maps: q→questionText, o→options, a→correctAnswer index (0-3), e→explanation, t→type
 const MINIFIED_INDEX_TO_OPT: Record<number, string> = {
   0: "opt1",
   1: "opt2",
   2: "opt3",
   3: "opt4",
-  4: "opt5",
 };
 
 const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
@@ -244,16 +243,32 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       });
     }
 
-    // Filter out empty-text options instead of padding to 4
+    // The AI contract is exactly four substantive options.
+    // Legacy/full imports may still contain other shapes, but minified AI output
+    // is rejected instead of silently repaired into a lower-quality question.
     options = options.filter(o => o.text.length > 0);
 
-    // Minimum 2 options required for a valid question
+    if (isMinified && options.length !== 4) return null;
     if (options.length < 2) return null;
 
-    // Correct answer: integer index (0-4), option ID string ("opt1", "A"), or array
+    const allOptionText = options.map((o) => o.text.trim().toLowerCase());
+    if (new Set(allOptionText).size !== allOptionText.length) return null;
+
+    const artifactPattern = /\[cite\s*:|\[span[_-]|<citation|```|\bsource\s*:/i;
+    if (
+      artifactPattern.test(questionText) ||
+      options.some((o) => artifactPattern.test(o.text)) ||
+      (typeof raw.e === "string" && artifactPattern.test(raw.e))
+    ) {
+      return null;
+    }
+
+    // Correct answer: integer index (0-3), option ID string ("opt1", "A"), or array
     let correctAnswer: string | string[] = "opt1";
     const rawAnswer = raw.a !== undefined ? raw.a : raw.correctAnswer;
     if (typeof rawAnswer === "number") {
+      if (isMinified && !Number.isInteger(rawAnswer)) return null;
+      if (isMinified && (rawAnswer < 0 || rawAnswer > 3)) return null;
       correctAnswer = MINIFIED_INDEX_TO_OPT[rawAnswer] ?? `opt${rawAnswer + 1}`;
     } else if (typeof rawAnswer === "string") {
       const trimmed = rawAnswer.trim();

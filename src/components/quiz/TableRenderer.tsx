@@ -31,7 +31,7 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
               {meta.rows.map((row, i) => (
                 <tr key={i} className="hover:bg-muted/20 transition-colors">
                   {row.map((cell, j) => (
-                    <td key={j} className="px-3.5 py-2.5 text-foreground font-semibold font-hindi">
+                    <td key={j} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
                       {cell}
                     </td>
                   ))}

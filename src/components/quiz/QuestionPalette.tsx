@@ -31,7 +31,7 @@ export function QuestionPalette({
             aria-label={`प्रश्न ${i + 1}${q.answered ? " (हल किया गया)" : ""}${q.bookmarked ? " (बुकमार्क)" : ""}`}
             className={cn(
               // Base: 40-44px touch target, tabular-nums
-              "relative flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl border text-xs sm:text-sm font-bold tabular-nums transition-all select-none cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary",
+              "relative flex h-10 w-10 sm:h-11 sm:w-11 items-center justify-center rounded-xl border text-xs sm:text-sm font-medium tabular-nums transition-all select-none cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary",
               // Current Active Question
               isCurrent
                 ? "border-primary bg-primary/20 text-primary ring-2 ring-primary ring-offset-1 ring-offset-background z-10 shadow-xs"

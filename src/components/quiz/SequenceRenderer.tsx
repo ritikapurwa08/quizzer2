@@ -47,7 +47,7 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
                   {/* Item text */}
                   <span
                     className={cn(
-                      "flex-1 text-sm text-foreground font-semibold leading-relaxed break-words overflow-wrap-anywhere",
+                      "flex-1 text-sm text-foreground font-normal leading-relaxed break-words overflow-wrap-anywhere",
                       isHindi && "font-hindi"
                     )}
                   >
