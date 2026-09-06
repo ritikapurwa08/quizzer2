@@ -16,7 +16,7 @@ interface OptionButtonProps {
  * - Fixed height regardless of state — NO layout shift ever.
  * - border-2 is constant across ALL states.
  * - Only background tint, border color, and ring change between states.
- * - Font weight is ALWAYS normal (400) — no bold on selection.
+ * - Font weight is ALWAYS font-semibold (600) — consistent across all states.
  */
 export function OptionButton({ id, text, selected, onClick, disabled, correctness }: OptionButtonProps) {
   const badgeLabel = getOptionLabel(id);
@@ -59,10 +59,10 @@ export function OptionButton({ id, text, selected, onClick, disabled, correctnes
         {badgeLabel}
       </span>
 
-      {/* Option text — font-medium (500) + Google Sans always applied via font-sans */}
+      {/* Option text — font-semibold (600) + Google Sans always applied via font-sans */}
       <span
         className={cn(
-          "flex-1 leading-snug text-sm sm:text-base font-medium text-foreground font-sans",
+          "flex-1 leading-snug text-sm sm:text-base font-semibold text-foreground font-sans",
           isHindi && "font-hindi"
         )}
       >
