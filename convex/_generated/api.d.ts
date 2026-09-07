@@ -13,6 +13,7 @@ import type * as attempts from "../attempts.js";
 import type * as auth from "../auth.js";
 import type * as bookmarks from "../bookmarks.js";
 import type * as http from "../http.js";
+import type * as leaderboard from "../leaderboard.js";
 import type * as lib_permissions from "../lib/permissions.js";
 import type * as lib_validators from "../lib/validators.js";
 import type * as questions from "../questions.js";
@@ -36,6 +37,7 @@ declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   bookmarks: typeof bookmarks;
   http: typeof http;
+  leaderboard: typeof leaderboard;
   "lib/permissions": typeof lib_permissions;
   "lib/validators": typeof lib_validators;
   questions: typeof questions;

@@ -143,6 +143,20 @@ export function Navbar() {
                       <History className="h-4 w-4" />
                       गलत प्रश्न अभ्यास
                     </Link>
+
+                    <Link
+                      href="/history"
+                      onClick={() => setProfileOpen(false)}
+                      className={cn(
+                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
+                        pathname === "/history"
+                          ? "bg-primary/15 text-primary font-medium"
+                          : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                      )}
+                    >
+                      <History className="h-4 w-4" />
+                      परीक्षा इतिहास
+                    </Link>
                   </div>
 
                   {/* Admin Section — STRICTLY ONLY for authorized admins */}

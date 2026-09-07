@@ -6,10 +6,12 @@ import { useQuery } from "convex/react";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { WeakSubjectsCard } from "@/components/dashboard/WeakSubjectsCard";
 import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
+import { LeaderboardCard } from "@/components/shared/LeaderboardCard";
+import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
-import { formatAccuracy, formatScore, getSubjectDisplayName, cn } from "@/lib/utils";
+import { formatAccuracy, getSubjectDisplayName, cn } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
 
 export default function DashboardPage() {
@@ -87,8 +89,11 @@ export default function DashboardPage() {
       {/* 3. Weak Subjects & Daily Progress — stacked on mobile, side-by-side on desktop */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {stats && <WeakSubjectsCard subjects={stats.weakSubjects} />}
-        {stats && <DailyProgressCard data={stats.dailyProgress} />}
+        {stats && <DailyProgressCard data={stats.dailyProgress} subjects={subjects} />}
       </div>
+
+      {/* 4. Leaderboard */}
+      {subjects.length > 0 && <LeaderboardCard subjects={subjects} />}
 
       {/* Recent Test Attempts */}
       <Card className="p-4 sm:p-5 rounded-xl border border-border shadow-xs">
@@ -97,6 +102,12 @@ export default function DashboardPage() {
             <History className="h-4 w-4 text-primary" />
             हाल के टेस्ट (Recent Attempts)
           </h2>
+          <Link
+            href="/history"
+            className="text-xs font-semibold text-primary hover:text-primary/80 transition-colors flex items-center gap-1 font-hindi"
+          >
+            सभी इतिहास <ArrowRight className="h-3 w-3" />
+          </Link>
         </div>
         {recent && recent.length === 0 && (
           <EmptyState
@@ -108,61 +119,19 @@ export default function DashboardPage() {
         )}
         {recent && recent.length > 0 && (
           <ul className="space-y-2">
-            {recent.map((a: any) => {
-              const correctCount = a.answers?.filter((ans: any) => ans.isCorrect).length ?? 0;
-              const accuracy = a.totalQuestions > 0 ? (correctCount / a.totalQuestions) * 100 : 0;
-              const isPassed = accuracy >= 60;
-
-              return (
-                <li key={a._id}>
-                  <Link
-                    href={`/quiz/${a.testSetId}/results`}
-                    className="flex items-center justify-between text-sm py-2.5 px-3 rounded-xl border border-border/80 bg-card hover:bg-muted/40 hover:border-primary/50 transition-all select-none group"
-                  >
-                    <div className="flex items-center gap-2.5 min-w-0">
-                      <span
-                        className={cn(
-                          "h-2 w-2 rounded-full shrink-0",
-                          isPassed ? "bg-success" : "bg-destructive"
-                        )}
-                      />
-                      <div className="min-w-0">
-                        <p className="font-semibold text-xs truncate text-foreground group-hover:text-primary transition-colors font-hindi">
-                          {a.testSetName || "अभ्यास सेट"}
-                          {a.subjectName && (
-                            <span className="font-normal text-muted-foreground ml-1.5">
-                              {a.subjectName}
-                            </span>
-                          )}
-                        </p>
-                        <p className="text-xs text-muted-foreground mt-0.5">
-                          {new Date(a.submittedAt ?? 0).toLocaleDateString("hi-IN", {
-                            day: "numeric",
-                            month: "short",
-                            year: "numeric",
-                          })}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-2 shrink-0 ml-2">
-                      <span
-                        className={cn(
-                          "text-xs font-bold px-2 py-0.5 rounded-full font-hindi",
-                          isPassed
-                            ? "bg-success/15 text-success border border-success/20"
-                            : "bg-destructive/15 text-destructive border border-destructive/20"
-                        )}
-                      >
-                        {accuracy.toFixed(0)}%
-                      </span>
-                      <span className="font-bold text-xs px-2.5 py-1 rounded-lg bg-muted text-foreground tabular-nums font-hindi">
-                        {formatScore(a.score ?? 0)} / {a.totalQuestions * 2} अंक
-                      </span>
-                    </div>
-                  </Link>
-                </li>
-              );
-            })}
+            {recent.map((a: any) => (
+              <li key={a._id}>
+                <ResultHistoryItem
+                  attemptId={a._id}
+                  testSetId={a.testSetId}
+                  testSetName={a.testSetName}
+                  submittedAt={a.submittedAt ?? 0}
+                  score={a.score}
+                  totalQuestions={a.totalQuestions}
+                  answers={a.answers ?? []}
+                />
+              </li>
+            ))}
           </ul>
         )}
       </Card>

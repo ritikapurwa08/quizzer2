@@ -184,15 +184,19 @@ export const latestSubmittedForTestSet = query({
   args: { testSetId: v.id("testSets") },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
-    const attempts = await ctx.db
+    // Use index + desc order to get the newest submitted attempt in O(1) reads.
+    const latest = await ctx.db
       .query("attempts")
-      .withIndex("by_user_test_set", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId),
+      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
+      .filter((q) =>
+        q.and(
+          q.eq(q.field("testSetId"), args.testSetId),
+          q.eq(q.field("status"), "submitted"),
+        ),
       )
-      .filter((q) => q.eq(q.field("status"), "submitted"))
-      .collect();
+      .order("desc")
+      .first();
 
-    const latest = attempts.sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))[0];
     if (!latest) return null;
 
     const questions = await ctx.db
@@ -212,15 +216,13 @@ export const recentByUser = query({
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
     const limit = args.limit ?? 5;
-    const attempts = await ctx.db
+    // Use by_user_submitted index (newest-first) and take only what we need.
+    const sorted = await ctx.db
       .query("attempts")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
       .filter((q) => q.eq(q.field("status"), "submitted"))
-      .collect();
-
-    const sorted = attempts
-      .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
-      .slice(0, limit);
+      .order("desc")
+      .take(limit);
 
     const withSetNames = await Promise.all(
       sorted.map(async (a) => {
@@ -233,13 +235,16 @@ export const recentByUser = query({
   },
 });
 
+/** @deprecated Use historyByUser for paginated history. Kept for admin tooling. */
 export const listByUser = query({
   args: {},
   handler: async (ctx) => {
     const user = await requireUser(ctx);
     const attempts = await ctx.db
       .query("attempts")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
+      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .order("desc")
       .collect();
 
     const withSetNames = await Promise.all(
@@ -249,7 +254,45 @@ export const listByUser = query({
       }),
     );
 
-    return withSetNames.sort((a, b) => b.startedAt - a.startedAt);
+    return withSetNames;
+  },
+});
+
+/**
+ * Paginated result history — newest first.
+ * Joins testSet name per page (max `numItems` reads, not N per user).
+ */
+export const historyByUser = query({
+  args: { paginationOpts: v.object({ numItems: v.number(), cursor: v.union(v.string(), v.null()) }) },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+    const { numItems, cursor } = args.paginationOpts;
+
+    // Use by_user_submitted index, newest-first
+    const allSubmitted = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
+      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .order("desc")
+      .collect();
+
+    // Manual cursor pagination (cursor = string index)
+    const startIdx = cursor ? parseInt(cursor, 10) : 0;
+    const page = allSubmitted.slice(startIdx, startIdx + numItems);
+    const isDone = startIdx + numItems >= allSubmitted.length;
+
+    const withNames = await Promise.all(
+      page.map(async (a) => {
+        const testSet = await ctx.db.get(a.testSetId);
+        return { ...a, testSetName: testSet?.name ?? "अभ्यास सेट" };
+      }),
+    );
+
+    return {
+      page: withNames,
+      isDone,
+      continueCursor: isDone ? null : String(startIdx + numItems),
+    };
   },
 });
 

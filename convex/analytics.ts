@@ -1,3 +1,4 @@
+import { v } from "convex/values";
 import { query } from "./_generated/server";
 import { requireUser } from "./lib/permissions";
 
@@ -5,6 +6,9 @@ import { requireUser } from "./lib/permissions";
  * All analytics are computed at read-time rather than pre-aggregated —
  * appropriate for the expected Phase 1 volume (5-10 users). See SRD
  * Section 12 / 20 for when to revisit this.
+ *
+ * N+1 fix: testSet/topic/subject lookups are cached in local Maps so each
+ * entity is fetched at most once per query invocation.
  */
 export const dashboardStats = query({
   args: {},
@@ -41,34 +45,67 @@ export const dashboardStats = query({
       .filter((q) => q.eq(q.field("resolved"), false))
       .collect();
 
-    // Daily progress: questions answered per day, last 14 days.
-    const dailyMap = new Map<string, number>();
-    for (const attempt of attempts) {
-      if (!attempt.submittedAt) continue;
-      const day = new Date(attempt.submittedAt).toISOString().slice(0, 10);
-      dailyMap.set(day, (dailyMap.get(day) ?? 0) + attempt.answers.length);
-    }
+    // ── Daily progress (last 30 days) ──────────────────────────────────────
+    // Maps: day → { count: total questions answered, tests: test count }
+    const dailyMap = new Map<string, { count: number; tests: number }>();
+    // Maps: day → subjectId → { count }
+    const dailyBySubject = new Map<string, Map<string, number>>();
 
-    // Weak subjects: accuracy per subject, computed via testSet -> topic -> subject chain.
+    // ── Caches to avoid N+1 reads ──────────────────────────────────────────
+    const testSetCache = new Map<string, { topicId: string; name: string } | null>();
+    const topicCache = new Map<string, { subjectId: string; name: string } | null>();
+    const subjectCache = new Map<string, { name: string; nameHindi?: string } | null>();
+
+    // ── Weak subjects ──────────────────────────────────────────────────────
     const subjectStats = new Map<string, { correct: number; total: number; name: string }>();
+
     for (const attempt of attempts) {
-      const testSet = await ctx.db.get(attempt.testSetId);
+      // Resolve subject via cached chain
+      const testSetId = attempt.testSetId as string;
+      if (!testSetCache.has(testSetId)) {
+        const ts = await ctx.db.get(attempt.testSetId);
+        testSetCache.set(testSetId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
+      }
+      const testSet = testSetCache.get(testSetId);
       if (!testSet) continue;
-      const topic = await ctx.db.get(testSet.topicId);
+
+      if (!topicCache.has(testSet.topicId)) {
+        const t = await ctx.db.get(testSet.topicId as any);
+        const tTyped = t as { subjectId: string; name: string } | null;
+        topicCache.set(testSet.topicId, tTyped ? { subjectId: tTyped.subjectId as string, name: tTyped.name } : null);
+      }
+      const topic = topicCache.get(testSet.topicId);
       if (!topic) continue;
-      const subject = await ctx.db.get(topic.subjectId);
+
+      if (!subjectCache.has(topic.subjectId)) {
+        const s = await ctx.db.get(topic.subjectId as any);
+        const sTyped = s as { name: string; nameHindi?: string } | null;
+        subjectCache.set(topic.subjectId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
+      }
+      const subject = subjectCache.get(topic.subjectId);
       if (!subject) continue;
 
-      const stats = subjectStats.get(subject._id) ?? {
-        correct: 0,
-        total: 0,
-        name: subject.name,
-      };
+      // Accumulate weak subject stats
+      const ss = subjectStats.get(topic.subjectId) ?? { correct: 0, total: 0, name: subject.name };
       for (const answer of attempt.answers) {
-        stats.total += 1;
-        if (answer.isCorrect) stats.correct += 1;
+        ss.total += 1;
+        if (answer.isCorrect) ss.correct += 1;
       }
-      subjectStats.set(subject._id, stats);
+      subjectStats.set(topic.subjectId, ss);
+
+      // Accumulate daily progress
+      if (!attempt.submittedAt) continue;
+      const day = new Date(attempt.submittedAt).toISOString().slice(0, 10);
+      const existing = dailyMap.get(day) ?? { count: 0, tests: 0 };
+      dailyMap.set(day, {
+        count: existing.count + attempt.answers.length,
+        tests: existing.tests + 1,
+      });
+
+      // Per-subject daily breakdown for chart filtering
+      if (!dailyBySubject.has(day)) dailyBySubject.set(day, new Map());
+      const daySubjectMap = dailyBySubject.get(day)!;
+      daySubjectMap.set(topic.subjectId, (daySubjectMap.get(topic.subjectId) ?? 0) + attempt.answers.length);
     }
 
     const weakSubjects = Array.from(subjectStats.values())
@@ -76,16 +113,24 @@ export const dashboardStats = query({
       .sort((a, b) => a.accuracy - b.accuracy)
       .slice(0, 5);
 
+    // Build dailyProgress array: last 30 days, sorted ascending
+    const allDays = Array.from(dailyMap.entries())
+      .map(([day, { count, tests }]) => ({
+        day,
+        count,
+        tests,
+        bySubject: Object.fromEntries(dailyBySubject.get(day) ?? new Map()),
+      }))
+      .sort((a, b) => a.day.localeCompare(b.day))
+      .slice(-30);
+
     return {
       testsAttempted,
       questionsSolved: totalAnswered,
       overallAccuracy: Math.round(overallAccuracy * 10) / 10,
       bookmarkCount: bookmarks.length,
       wrongQuestionCount: wrongQuestions.length,
-      dailyProgress: Array.from(dailyMap.entries())
-        .map(([day, count]) => ({ day, count }))
-        .sort((a, b) => a.day.localeCompare(b.day))
-        .slice(-14),
+      dailyProgress: allDays,
       weakSubjects,
     };
   },

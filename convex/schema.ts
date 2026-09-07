@@ -85,7 +85,9 @@ export default defineSchema({
     status: v.union(v.literal("in_progress"), v.literal("submitted")),
   })
     .index("by_user", ["userId"])
-    .index("by_user_test_set", ["userId", "testSetId"]),
+    .index("by_user_test_set", ["userId", "testSetId"])
+    // Enables newest-first paginated result history without client-side sort.
+    .index("by_user_submitted", ["userId", "submittedAt"]),
 
   bookmarks: defineTable({
     userId: v.id("users"),
@@ -103,5 +105,7 @@ export default defineSchema({
     resolved: v.boolean(),
   })
     .index("by_user", ["userId"])
-    .index("by_user_question", ["userId", "questionId"]),
+    .index("by_user_question", ["userId", "questionId"])
+    // Enables newest-first default ordering in the wrong questions revision bank.
+    .index("by_user_last_missed", ["userId", "lastMissedAt"]),
 });
