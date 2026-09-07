@@ -128,20 +128,33 @@ export default function QuizPage() {
         </div>
 
         {current && Renderer && (
-          <QuestionShell
-            number={currentIndex + 1}
-            type={current.type}
-            questionText={current.questionText}
-            isBookmarked={bookmarkedIds.has(current._id)}
-            onToggleBookmark={() => toggleBookmark(current._id)}
-          >
-            <Renderer
-              question={current}
-              selected={localAnswers[current._id]}
-              onSelect={(value) => selectAnswer(current._id, value)}
-              mode="quiz"
-            />
-          </QuestionShell>
+          <>
+            <QuestionShell
+              number={currentIndex + 1}
+              type={current.type}
+              questionText={current.questionText}
+              isBookmarked={bookmarkedIds.has(current._id)}
+              onToggleBookmark={() => toggleBookmark(current._id)}
+            >
+              <Renderer
+                question={current}
+                selected={localAnswers[current._id]}
+                onSelect={(value) => selectAnswer(current._id, value)}
+                mode="quiz"
+              />
+            </QuestionShell>
+
+            {current.reference && (
+              <div className="flex items-start gap-1.5 px-1">
+                <span className="mt-0.5 shrink-0 rounded px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide bg-primary/10 text-primary font-hindi">
+                  संदर्भ
+                </span>
+                <p className="text-[11px] text-muted-foreground leading-snug font-hindi break-words">
+                  {current.reference}
+                </p>
+              </div>
+            )}
+          </>
         )}
 
         {/* Mobile Navigation Buttons */}
