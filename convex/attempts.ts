@@ -260,7 +260,7 @@ export const listByUser = query({
 
 /**
  * Paginated result history — newest first.
- * Joins testSet name per page (max `numItems` reads, not N per user).
+ * Resolves testSet name + subjectId + topicId per page for client-side filtering.
  */
 export const historyByUser = query({
   args: { paginationOpts: v.object({ numItems: v.number(), cursor: v.union(v.string(), v.null()) }) },
@@ -276,20 +276,52 @@ export const historyByUser = query({
       .order("desc")
       .collect();
 
-    // Manual cursor pagination (cursor = string index)
+    // Manual cursor pagination
     const startIdx = cursor ? parseInt(cursor, 10) : 0;
-    const page = allSubmitted.slice(startIdx, startIdx + numItems);
+    const pageSlice = allSubmitted.slice(startIdx, startIdx + numItems);
     const isDone = startIdx + numItems >= allSubmitted.length;
 
-    const withNames = await Promise.all(
-      page.map(async (a) => {
-        const testSet = await ctx.db.get(a.testSetId);
-        return { ...a, testSetName: testSet?.name ?? "अभ्यास सेट" };
+    // Caches to resolve testSet→topic→subject without N+1
+    const testSetCache = new Map<string, { name: string; topicId: string } | null>();
+    const topicCache = new Map<string, { subjectId: string } | null>();
+
+    const withMeta = await Promise.all(
+      pageSlice.map(async (a) => {
+        const tsId = a.testSetId as string;
+        if (!testSetCache.has(tsId)) {
+          const ts = await ctx.db.get(a.testSetId);
+          testSetCache.set(tsId, ts ? { name: ts.name, topicId: ts.topicId as string } : null);
+        }
+        const testSet = testSetCache.get(tsId);
+
+        let topicId: string | null = null;
+        let subjectId: string | null = null;
+
+        if (testSet) {
+          const tId = testSet.topicId;
+          if (!topicCache.has(tId)) {
+            const t = await ctx.db.get(tId as any);
+            const tTyped = t as { subjectId: string } | null;
+            topicCache.set(tId, tTyped ? { subjectId: tTyped.subjectId } : null);
+          }
+          const topic = topicCache.get(tId);
+          if (topic) {
+            topicId = tId;
+            subjectId = topic.subjectId;
+          }
+        }
+
+        return {
+          ...a,
+          testSetName: testSet?.name ?? "अभ्यास सेट",
+          topicId,
+          subjectId,
+        };
       }),
     );
 
     return {
-      page: withNames,
+      page: withMeta,
       isDone,
       continueCursor: isDone ? null : String(startIdx + numItems),
     };
