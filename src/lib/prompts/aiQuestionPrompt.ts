@@ -63,6 +63,59 @@ Language: Natural, standard competitive-examination Hindi.
 ${referenceBlock}
 
 ============================================================
+0. MANDATORY PRE-GENERATION RESEARCH (DO THIS FIRST)
+============================================================
+
+Before generating any questions, you MUST perform the following two research
+steps and report them clearly at the top of your response.
+
+─────────────────────────────────────────────
+STEP A — Rajasthan Gyan Website Verification
+─────────────────────────────────────────────
+
+Visit https://www.rajasthangyan.com and search for content related to the
+topic: "${topic}"${subtopic ? ` / "${subtopic}"` : ""}.
+
+This website has 10,000+ Rajasthan GK questions. Use its topic-specific
+question bank and articles as a factual reference for generating questions.
+
+Report what relevant content you found there (e.g., "Found 35 questions on
+this topic at rajasthangyan.com covering XYZ areas").
+
+─────────────────────────────────────────────
+STEP B — YouTube Video List (Exactly 10 Videos)
+─────────────────────────────────────────────
+
+Search YouTube for the most relevant, high-quality educational videos
+on the topic: "${topic}"${subtopic ? ` > "${subtopic}"` : ""} for Rajasthan
+competitive exam preparation.
+
+You MUST list EXACTLY 10 videos. For each video provide:
+  - Video number (1–10)
+  - Title (in Hindi or English as per the original)
+  - Channel name
+  - YouTube URL
+
+Format:
+1. [Title] — [Channel] — [URL]
+2. ...
+...
+10. ...
+
+─────────────────────────────────────────────
+STEP C — Paginated Question Delivery
+─────────────────────────────────────────────
+
+After the research output above, deliver questions in PAGES of 10.
+
+- On first response: deliver questions 1–10 ONLY as a JSON array.
+- If the user requests more, deliver 11–20 as the next JSON array.
+- Continue: 21–30, 31–40, etc.
+
+NEVER deliver more than 10 questions in a single response unless explicitly
+asked. Always start with questions 1–10.
+
+============================================================
 1. PRIMARY GOAL
 ============================================================
 
@@ -400,21 +453,30 @@ Prefer meaningful variation:
 14. OUTPUT CLEANLINESS
 ============================================================
 
-The output must contain ONLY valid JSON.
+The response has TWO parts:
 
-Absolutely NEVER output:
+PART 1 — Plain-text research report (Steps A and B from Section 0):
+  This section is plain text, NOT JSON.
+  It MUST appear BEFORE any questions.
+  It reports:
+  a) What was found on rajasthangyan.com for the topic.
+  b) Exactly 10 YouTube videos with title, channel, and URL.
+
+PART 2 — Questions JSON (Step C from Section 0):
+  This section MUST be valid JSON.
+  It must begin immediately after the research report.
+  It must contain ONLY the JSON array of 10 questions (batch 1–10).
+
+Insidethe JSON array (Part 2), NEVER output:
 - markdown
 - code fences
-- explanations outside JSON
+- explanations outside the JSON fields
 - comments
 - analysis
-- source lists
-- citations
-- citation markers
+- citations or citation markers
 - "[cite:...]"
 - "[span_...]"
 - footnotes
-- URLs
 - "According to the source..."
 - internal reasoning
 
@@ -447,10 +509,35 @@ Before returning the JSON, silently verify every question:
 If ANY condition fails, fix the question before returning it.
 
 ============================================================
-16. REQUIRED JSON FORMAT
+16. REQUIRED RESPONSE FORMAT
 ============================================================
 
-Return ONLY:
+Return your response in this EXACT structure:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 1 — RESEARCH REPORT (plain text)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 Rajasthan Gyan Website Check:
+[Report what topic-relevant content was found at rajasthangyan.com]
+
+📺 YouTube Videos (10 videos — verified for this topic):
+1. [Title] — [Channel] — https://youtube.com/...
+2. [Title] — [Channel] — https://youtube.com/...
+3. [Title] — [Channel] — https://youtube.com/...
+4. [Title] — [Channel] — https://youtube.com/...
+5. [Title] — [Channel] — https://youtube.com/...
+6. [Title] — [Channel] — https://youtube.com/...
+7. [Title] — [Channel] — https://youtube.com/...
+8. [Title] — [Channel] — https://youtube.com/...
+9. [Title] — [Channel] — https://youtube.com/...
+10. [Title] — [Channel] — https://youtube.com/...
+
+📋 Delivering Questions 1–10 (of ${count} total):
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 2 — QUESTIONS JSON (batch 1–10)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [
   {
@@ -468,6 +555,9 @@ Return ONLY:
   }
 ]
 
+For subsequent batches (11–20, 21–30, etc.), respond ONLY with the JSON
+array for that batch — no need to repeat the research report.
+
 Definitions:
 
 q = question text
@@ -477,15 +567,20 @@ e = concise explanation
 t = "mcq" | "assertion" | "true_false" | "match"
 difficulty = "easy" | "medium" | "hard"
 
-Return no other fields.
+Return no other fields inside the JSON objects.
 
 ============================================================
 FINAL INSTRUCTION
 ============================================================
 
-Generate exactly ${count} original, exam-grade questions for the specified
-topic. Prioritize factual accuracy, natural examination language,
-high-quality distractors, meaningful coverage, genuine difficulty and
-clean JSON output over quantity or superficial variation.
+1. FIRST: Check rajasthangyan.com for topic-relevant content and report findings.
+2. SECOND: List exactly 10 relevant YouTube videos (title + channel + URL).
+3. THIRD: Deliver questions 1–10 as a clean JSON array.
+4. On follow-up: deliver 11–20, then 21–30, etc. on request.
+
+For the complete set of ${count} questions, always start with batch 1–10.
+Prioritize factual accuracy (rajasthangyan.com verified), natural examination
+language, high-quality distractors, meaningful coverage, genuine difficulty
+and clean JSON output.
 `;
 }
