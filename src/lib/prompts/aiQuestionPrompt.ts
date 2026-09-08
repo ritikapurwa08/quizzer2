@@ -302,6 +302,20 @@ word such as "always", "never" or "only".
 
 Avoid unnecessarily long statements.
 
+ANTI-DEFAULT RULE (CRITICAL):
+Do NOT default to "केवल 1 और 2" / "1, 2 और 3" / "उपर्युक्त सभी" as the
+correct answer unless the facts genuinely require it.
+
+"1, 2 और 3" and "सभी कथन सही हैं" are lazy defaults that destroy
+discrimination. The correct answer must sometimes be only Statement 1,
+or only Statement 3, or only Statements 2 and 4 — driven purely by the
+facts, not by convenience.
+
+Before settling on "1, 2 और 3" as correct, ask yourself:
+  "Can I construct a set where Statement 2 OR Statement 3 is actually
+   false, making a more interesting correct answer?"
+If yes, rewrite the statements to achieve that.
+
 ============================================================
 8. MATCHING QUESTIONS
 ============================================================
@@ -321,6 +335,19 @@ Use four pairs.
 
 Shuffle the relationships so that the correct answer cannot be guessed
 from position or sequence.
+
+ANTI-SEQUENTIAL PATTERN RULE (CRITICAL):
+NEVER use the direct sequential mapping A-1, B-2, C-3, D-4 as the
+correct answer. This is the most predictable default and eliminates
+discrimination entirely.
+
+The correct matching option MUST be a non-sequential arrangement,
+e.g., A-3, B-1, C-4, D-2 or A-2, B-4, C-1, D-3.
+
+Construct the four options (including distractors) so that:
+- No option is an obvious rearrangement of the stem order.
+- At least two options share 2–3 correct pairs to create genuine
+  difficulty.
 
 ============================================================
 9. ANSWER POSITION
@@ -344,6 +371,15 @@ Across the generated set:
 
 Never choose an answer position because the correct answer happened to
 be generated first.
+
+DELIBERATE VARIATION RULE (CRITICAL):
+Actively vary the correct option across the batch. Before finalising,
+count how many questions have the correct answer at index 0 (A).
+If more than 3 out of 10 questions share the same answer position,
+reassign positions to restore balance.
+
+The correct answer must never be the "obvious" or "default" option —
+it should feel equally plausible at any position.
 
 ============================================================
 10. DIFFICULTY
@@ -505,6 +541,9 @@ Before returning the JSON, silently verify every question:
 [ ] Explanation is concise
 [ ] No citation/span/source artifacts
 [ ] Valid JSON
+[ ] Statement questions: correct answer is NOT defaulted to "1, 2 और 3" or "सभी"
+[ ] Matching questions: correct answer is NOT the sequential A-1, B-2, C-3, D-4 pattern
+[ ] Answer positions across the batch are distributed — no single index dominates
 
 If ANY condition fails, fix the question before returning it.
 
