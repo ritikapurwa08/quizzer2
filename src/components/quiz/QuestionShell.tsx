@@ -117,7 +117,7 @@ export function QuestionShell({
       {cleanedText ? (
         <p
           className={cn(
-            "mb-5 text-[1rem] leading-7 font-medium text-foreground sm:text-[1.05rem] sm:leading-8",
+            "mb-5 text-[1rem] leading-7 font-medium text-foreground sm:text-[1.05rem] sm:leading-8 whitespace-pre-wrap",
             isHindi && "font-hindi"
           )}
         >
