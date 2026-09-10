@@ -337,20 +337,21 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       ? (rawSourceType as "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW")
       : undefined;
 
-    // sourceQuestionId must be a positive integer
+    // sourceQuestionId must be a positive integer and only belongs to PYQ questions
     const rawSourceId = raw.sourceQuestionId;
+    const isPyqSource = sourceType === "PYQ_EXACT" || sourceType === "PYQ_MODIFIED";
     const sourceQuestionId =
-      typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
+      isPyqSource && typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
         ? rawSourceId
-        : typeof rawSourceId === "string" && /^\d+$/.test(rawSourceId.trim())
+        : isPyqSource && typeof rawSourceId === "string" && /^\d+$/.test(rawSourceId.trim())
           ? parseInt(rawSourceId.trim(), 10)
           : undefined;
 
     // exam: only attach if it came from a PYQ (never for AI_NEW)
     const rawExam = raw.exam != null ? String(raw.exam).trim() : undefined;
-    const examVerified = rawExam && sourceType && sourceType !== "AI_NEW" ? rawExam : undefined;
+    const examVerified = rawExam && isPyqSource ? rawExam : undefined;
 
-    if (sourceType || sourceQuestionId || examVerified) {
+    if (sourceType || sourceQuestionId !== undefined || examVerified) {
       meta = {
         ...(meta || {}),
         ...(sourceType ? { sourceType } : {}),

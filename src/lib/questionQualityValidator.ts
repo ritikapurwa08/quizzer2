@@ -18,6 +18,10 @@ export type QuestionForValidation = {
   type: string;
   difficulty?: "easy" | "medium" | "hard";
   explanation?: string;
+  sourceType?: "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW" | string;
+  sourceQuestionId?: number;
+  exam?: string;
+  meta?: Record<string, any>;
 };
 
 export type QualityIssue = {
@@ -37,6 +41,7 @@ export type ValidationReport = {
     answerDistribution: Record<string, number>;
     difficultyDistribution: Record<string, number>;
     typeDistribution: Record<string, number>;
+    sourceTypeDistribution: Record<string, number>;
     duplicateGroups: number;
     averageOptionLength: number;
     artifactCount: number;
@@ -96,6 +101,12 @@ export function validateQuestionBank(
   const answerDistribution: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, "?": 0 };
   const difficultyDistribution: Record<string, number> = { easy: 0, medium: 0, hard: 0, unknown: 0 };
   const typeDistribution: Record<string, number> = {};
+  const sourceTypeDistribution: Record<string, number> = {
+    PYQ_EXACT: 0,
+    PYQ_MODIFIED: 0,
+    AI_NEW: 0,
+    unknown: 0,
+  };
   let duplicateGroups = 0;
   let totalOptionLength = 0;
   let totalOptionCount = 0;
@@ -243,6 +254,51 @@ export function validateQuestionBank(
         seenStems.push({ normalized, original: q.questionText, index: idx, id: qId });
       }
     }
+
+    // ── 9. Provenance & Source tracking ──────────────────────────────────
+    const effectiveSourceType = q.sourceType ?? q.meta?.sourceType;
+    const effectiveSourceId = q.sourceQuestionId ?? q.meta?.sourceQuestionId;
+    const effectiveExam = q.exam ?? q.meta?.exam;
+
+    if (effectiveSourceType) {
+      if (!["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
+        addIssue(
+          "error",
+          "INVALID_SOURCE_TYPE",
+          `प्रश्न ${qNum}: अमान्य sourceType "${effectiveSourceType}" — केवल PYQ_EXACT, PYQ_MODIFIED या AI_NEW मान्य है।`
+        );
+      } else {
+        sourceTypeDistribution[effectiveSourceType] =
+          (sourceTypeDistribution[effectiveSourceType] ?? 0) + 1;
+      }
+
+      if (effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") {
+        if (typeof effectiveSourceId !== "number" || effectiveSourceId <= 0) {
+          addIssue(
+            "error",
+            "MISSING_SOURCE_ID",
+            `प्रश्न ${qNum}: ${effectiveSourceType} प्रश्न में वैध sourceQuestionId अनुपस्थित है।`
+          );
+        }
+      } else if (effectiveSourceType === "AI_NEW") {
+        if (effectiveSourceId !== undefined) {
+          addIssue(
+            "error",
+            "INVALID_AI_NEW_SOURCE_ID",
+            `प्रश्न ${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`
+          );
+        }
+        if (effectiveExam) {
+          addIssue(
+            "warning",
+            "FABRICATED_EXAM_ON_AI_NEW",
+            `प्रश्न ${qNum}: AI_NEW प्रश्न में परीक्षा संदर्भ जोड़ा गया है — यह केवल PYQ में अनुमत है।`
+          );
+        }
+      }
+    } else {
+      sourceTypeDistribution.unknown = (sourceTypeDistribution.unknown ?? 0) + 1;
+    }
   });
 
   // ── Global checks ─────────────────────────────────────────────────────────
@@ -294,6 +350,7 @@ export function validateQuestionBank(
       answerDistribution,
       difficultyDistribution,
       typeDistribution,
+      sourceTypeDistribution,
       duplicateGroups,
       averageOptionLength:
         totalOptionCount > 0
@@ -362,6 +419,33 @@ export function validateSingleQuestion(q: QuestionForValidation): SingleQuestion
     });
   }
 
+  const effectiveSourceType = q.sourceType ?? q.meta?.sourceType;
+  const effectiveSourceId = q.sourceQuestionId ?? q.meta?.sourceQuestionId;
+
+  if (effectiveSourceType) {
+    if (!["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
+      issues.push({
+        severity: "error",
+        message: `अमान्य sourceType "${effectiveSourceType}"।`,
+      });
+    }
+    if (
+      (effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") &&
+      (!effectiveSourceId || typeof effectiveSourceId !== "number")
+    ) {
+      issues.push({
+        severity: "error",
+        message: `${effectiveSourceType} प्रश्न में वैध sourceQuestionId अनुपस्थित है।`,
+      });
+    }
+    if (effectiveSourceType === "AI_NEW" && effectiveSourceId !== undefined) {
+      issues.push({
+        severity: "error",
+        message: `AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`,
+      });
+    }
+  }
+
   return issues;
 }
 
@@ -392,6 +476,13 @@ export function formatValidationReport(report: ValidationReport): string {
   Object.entries(report.stats.difficultyDistribution).forEach(([d, count]) => {
     const pct = Math.round((count / Math.max(report.totalQuestions, 1)) * 100);
     lines.push(`    ${d}: ${count} (${pct}%)`);
+  });
+
+  lines.push(``);
+  lines.push(`  Source Types:`);
+  Object.entries(report.stats.sourceTypeDistribution).forEach(([st, count]) => {
+    const pct = Math.round((count / Math.max(report.totalQuestions, 1)) * 100);
+    lines.push(`    ${st}: ${count} (${pct}%)`);
   });
 
   lines.push(``);

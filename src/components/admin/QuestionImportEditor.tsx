@@ -156,14 +156,21 @@ export function QuestionImportEditor({
   const activeTopic = topicsList.find((t) => t._id === selectedTopicId);
 
   // ── PYQ Retrieval ────────────────────────────────────────────────────────
-  // Compute relevant reference questions from the 15K corpus whenever the
-  // active topic changes. Memoized so the 15K corpus is only searched when
-  // the topic actually changes, not on every render.
+  // Compute relevant reference questions from the 17K corpus whenever the
+  // active topic, subject, or subtopic changes.
   const pyqResult = useMemo(() => {
     const topicName = getTopicDisplayName(activeTopic);
     if (!topicName) return null;
-    return getRelevantPyqQuestions(topicName, { maxResults: 100, minScore: 10 });
-  }, [activeTopic]);
+    const subjectName = getSubjectDisplayName(activeSubject);
+    return getRelevantPyqQuestions(
+      {
+        topic: topicName,
+        subject: subjectName || undefined,
+        subtopic: subtopicName.trim() || undefined,
+      },
+      { maxResults: 100, minScore: 20 }
+    );
+  }, [activeTopic, activeSubject, subtopicName]);
 
   const currentPrompt = generateAiQuestionPrompt({
     subject: getSubjectDisplayName(activeSubject) || "Rajasthan General Knowledge",
@@ -172,7 +179,12 @@ export function QuestionImportEditor({
     count: questionCount,
     pyqReferences: pyqResult?.questions,
     pyqStats: pyqResult
-      ? { totalFound: pyqResult.totalFound, sent: pyqResult.sent }
+      ? {
+          totalFound: pyqResult.totalFound,
+          sent: pyqResult.sent,
+          levelUsed: pyqResult.levelUsed,
+          retrievalStats: pyqResult.retrievalStats,
+        }
       : undefined,
   });
 
@@ -286,7 +298,7 @@ export function QuestionImportEditor({
                   📚 <span className="font-bold text-foreground">{pyqResult.sent}</span> PYQ संदर्भ प्रश्न
                   {pyqResult.totalFound > pyqResult.sent && (
                     <span className="text-muted-foreground/70">
-                      {" "}(कुल मिले: {pyqResult.totalFound})
+                      {" "}(कुल उम्मीदवार: {pyqResult.totalFound} | स्तर {pyqResult.levelUsed})
                     </span>
                   )}
                   {" — "}
