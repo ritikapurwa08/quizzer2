@@ -6,6 +6,7 @@ import { getQuestionTypeLabel, QuestionType } from "@/lib/constants";
 import { useToast } from "@/components/ui/Toast";
 import { Badge } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { QuestionSourceMeta } from "./QuestionSourceMeta";
 
 interface QuestionShellProps {
   number: number;
@@ -17,6 +18,8 @@ interface QuestionShellProps {
   reviewBadge?: "correct" | "incorrect" | "unanswered";
   missCount?: number;
   unwrapped?: boolean;
+  reference?: string | null;
+  meta?: Record<string, unknown> | null;
 }
 
 export function QuestionShell({
@@ -29,6 +32,8 @@ export function QuestionShell({
   reviewBadge,
   missCount,
   unwrapped = false,
+  reference,
+  meta,
 }: QuestionShellProps) {
   const { showToast } = useToast();
 
@@ -45,15 +50,23 @@ export function QuestionShell({
 
   const content = (
     <>
-      <div className="mb-4 flex items-start justify-between gap-3">
-        <div className="flex min-w-0 flex-wrap items-center gap-2">
-          <span className="flex h-7 min-w-7 shrink-0 items-center justify-center rounded-full bg-primary/10 px-2 text-xs font-medium tabular-nums text-primary">
+      {/* Compact Source / PYQ Reference Pill */}
+      <QuestionSourceMeta
+        reference={reference}
+        meta={meta}
+        className="mb-2.5 sm:mb-3"
+      />
+
+      {/* Compact Question Header */}
+      <div className="mb-3 sm:mb-3.5 flex items-center justify-between gap-2">
+        <div className="flex min-w-0 flex-wrap items-center gap-1.5 sm:gap-2">
+          <span className="flex h-6 min-w-6 sm:h-6.5 sm:min-w-6.5 shrink-0 items-center justify-center rounded-full bg-primary/10 px-1.5 text-[11px] sm:text-xs font-semibold tabular-nums text-primary">
             {number}
           </span>
 
           <Badge
             variant="secondary"
-            className="rounded-full px-2.5 py-1 text-xs font-medium tracking-normal font-hindi"
+            className="rounded-full px-2 py-0.5 sm:px-2.5 sm:py-0.5 text-[11px] sm:text-xs font-medium tracking-normal font-hindi"
           >
             {getQuestionTypeLabel(type)}
           </Badge>
@@ -61,7 +74,7 @@ export function QuestionShell({
           {missCount !== undefined && missCount > 0 && (
             <Badge
               variant="destructive"
-              className="rounded-full px-2 py-1 text-[11px] font-medium font-hindi"
+              className="rounded-full px-2 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi"
             >
               {missCount}× गलत
             </Badge>
@@ -70,7 +83,7 @@ export function QuestionShell({
           {reviewBadge && (
             <Badge
               className={cn(
-                "inline-flex items-center gap-1 rounded-full border px-2 py-1 text-[11px] font-medium font-hindi",
+                "inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi",
                 reviewBadge === "correct" &&
                   "border-success/25 bg-success/10 text-success",
                 reviewBadge === "incorrect" &&
@@ -96,14 +109,14 @@ export function QuestionShell({
             onClick={handleBookmarkClick}
             aria-label={isBookmarked ? "बुकमार्क हटाएं" : "प्रश्न सहेजें"}
             className={cn(
-              "flex h-9 shrink-0 items-center gap-1.5 rounded-lg border px-2.5 text-xs font-medium",
+              "flex h-7 sm:h-8 shrink-0 items-center gap-1.5 rounded-lg border px-2 sm:px-2.5 text-[11px] sm:text-xs font-medium",
               "transition-colors active:scale-[0.98] cursor-pointer font-hindi",
               isBookmarked
                 ? "border-amber-500/30 bg-amber-500/10 text-amber-400 hover:bg-amber-500/15"
                 : "border-border text-muted-foreground hover:bg-muted hover:text-foreground"
             )}
           >
-            <Bookmark className={cn("h-4 w-4", isBookmarked && "fill-amber-400 text-amber-400")} />
+            <Bookmark className={cn("h-3.5 w-3.5", isBookmarked && "fill-amber-400 text-amber-400")} />
             <span className="hidden sm:inline">
               {isBookmarked ? "सहेजा गया" : "बुकमार्क"}
             </span>
@@ -117,7 +130,7 @@ export function QuestionShell({
       {cleanedText ? (
         <p
           className={cn(
-            "mb-5 text-[1rem] leading-7 font-medium text-foreground sm:text-[1.05rem] sm:leading-8 whitespace-pre-wrap",
+            "mb-4 sm:mb-5 text-[0.975rem] leading-7 font-medium text-foreground sm:text-[1.025rem] sm:leading-8 whitespace-pre-wrap",
             isHindi && "font-hindi"
           )}
         >
@@ -132,7 +145,7 @@ export function QuestionShell({
   if (unwrapped) return <div>{content}</div>;
 
   return (
-    <div className="rounded-2xl border border-border bg-card p-4 shadow-sm sm:p-5">
+    <div className="rounded-2xl border border-border bg-card p-3.5 sm:p-5 shadow-xs">
       {content}
     </div>
   );
