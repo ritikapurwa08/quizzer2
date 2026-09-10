@@ -76,31 +76,32 @@ STEP A — Rajasthan Gyan Website Verification
 Visit https://www.rajasthangyan.com and search for content related to the
 topic: "${topic}"${subtopic ? ` / "${subtopic}"` : ""}.
 
-This website has 10,000+ Rajasthan GK questions. Use its topic-specific
+This website has 15,000+ Rajasthan GK questions. Use its topic-specific
 question bank and articles as a factual reference for generating questions.
 
 Report what relevant content you found there (e.g., "Found 35 questions on
 this topic at rajasthangyan.com covering XYZ areas").
 
 ─────────────────────────────────────────────
-STEP B — YouTube Video List (Exactly 10 Videos)
+STEP B — YouTube Video List (Exactly 5 Videos)
 ─────────────────────────────────────────────
 
 Search YouTube for the most relevant, high-quality educational videos
 on the topic: "${topic}"${subtopic ? ` > "${subtopic}"` : ""} for Rajasthan
 competitive exam preparation.
 
-You MUST list EXACTLY 10 videos. For each video provide:
-  - Video number (1–10)
+You MUST list EXACTLY 5 videos. For each video provide:
+  - Video number (1–5)
   - Title (in Hindi or English as per the original)
   - Channel name
   - YouTube URL
 
 Format:
 1. [Title] — [Channel] — [URL]
-2. ...
-...
-10. ...
+2. [Title] — [Channel] — [URL]
+3. [Title] — [Channel] — [URL]
+4. [Title] — [Channel] — [URL]
+5. [Title] — [Channel] — [URL]
 
 ─────────────────────────────────────────────
 STEP C — Paginated Question Delivery
@@ -496,7 +497,7 @@ PART 1 — Plain-text research report (Steps A and B from Section 0):
   It MUST appear BEFORE any questions.
   It reports:
   a) What was found on rajasthangyan.com for the topic.
-  b) Exactly 10 YouTube videos with title, channel, and URL.
+  b) Exactly 5 YouTube videos with title, channel, and URL.
 
 PART 2 — Questions JSON (Step C from Section 0):
   This section MUST be valid JSON.
@@ -560,17 +561,12 @@ PART 1 — RESEARCH REPORT (plain text)
 📌 Rajasthan Gyan Website Check:
 [Report what topic-relevant content was found at rajasthangyan.com]
 
-📺 YouTube Videos (10 videos — verified for this topic):
+📺 YouTube Videos (5 videos — verified for this topic):
 1. [Title] — [Channel] — https://youtube.com/...
 2. [Title] — [Channel] — https://youtube.com/...
 3. [Title] — [Channel] — https://youtube.com/...
 4. [Title] — [Channel] — https://youtube.com/...
 5. [Title] — [Channel] — https://youtube.com/...
-6. [Title] — [Channel] — https://youtube.com/...
-7. [Title] — [Channel] — https://youtube.com/...
-8. [Title] — [Channel] — https://youtube.com/...
-9. [Title] — [Channel] — https://youtube.com/...
-10. [Title] — [Channel] — https://youtube.com/...
 
 📋 Delivering Questions 1–10 (of ${count} total):
 
@@ -613,7 +609,7 @@ FINAL INSTRUCTION
 ============================================================
 
 1. FIRST: Check rajasthangyan.com for topic-relevant content and report findings.
-2. SECOND: List exactly 10 relevant YouTube videos (title + channel + URL).
+2. SECOND: List exactly 5 relevant YouTube videos (title + channel + URL).
 3. THIRD: Deliver questions 1–10 as a clean JSON array.
 4. On follow-up: deliver 11–20, then 21–30, etc. on request.
 
