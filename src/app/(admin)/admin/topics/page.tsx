@@ -11,7 +11,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { slugify, getTopicDisplayName } from "@/lib/utils";
-import { Trash2 } from "lucide-react";
+import { Trash2, RefreshCw } from "lucide-react";
+import { useToast } from "@/components/ui/Toast";
 
 export default function AdminTopicsPage() {
   const subjects = useQuery(api.subjects.list) ?? [];
@@ -25,9 +26,24 @@ export default function AdminTopicsPage() {
   const topics = rawTopics ?? [];
   const createTopic = useMutation(api.topics.create);
   const removeTopic = useMutation(api.topics.remove);
+  const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
+  const [isSyncing, setIsSyncing] = useState(false);
+  const { showToast } = useToast();
 
   const [name, setName] = useState("");
   const [deleteTarget, setDeleteTarget] = useState<Id<"topics"> | null>(null);
+
+  async function handleSyncSyllabus() {
+    setIsSyncing(true);
+    try {
+      const res = await seedFixedSyllabus();
+      showToast(`सिलेबस सिंक सफल! (${res.topicCount} नए टॉपिक्स जोड़े गए)`, "success");
+    } catch (err: any) {
+      showToast(err.message || "सिलेबस सिंक विफल रहा", "warning");
+    } finally {
+      setIsSyncing(false);
+    }
+  }
 
   async function handleCreate(e: React.FormEvent) {
     e.preventDefault();
@@ -38,7 +54,19 @@ export default function AdminTopicsPage() {
 
   return (
     <div className="space-y-6 max-w-3xl">
-      <h1 className="text-xl font-semibold">Topics</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-xl font-semibold">Topics</h1>
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={handleSyncSyllabus}
+          disabled={isSyncing}
+          className="gap-2 text-xs"
+        >
+          <RefreshCw className={`h-3.5 w-3.5 ${isSyncing ? "animate-spin" : ""}`} />
+          {isSyncing ? "सिंक हो रहा है…" : "पाठ्यक्रम सिंक करें (Sync Syllabus)"}
+        </Button>
+      </div>
 
       <div className="space-y-1.5 w-full sm:w-72">
         <Label className="text-xs font-semibold text-muted-foreground">विषय चुनें</Label>

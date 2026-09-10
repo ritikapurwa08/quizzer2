@@ -28,6 +28,10 @@ export const SYLLABUS_DATA = [
       { name: "Industries", nameHindi: "उद्योग" },
       { name: "Tourism", nameHindi: "पर्यटन" },
       { name: "Major Tourist Places", nameHindi: "प्रमुख पर्यटन स्थल" },
+      { name: "Boundaries of Rajasthan", nameHindi: "राजस्थान की सीमा" },
+      { name: "Desertification", nameHindi: "मरुस्थलीकरण" },
+      { name: "Traditional Water Management", nameHindi: "राजस्थान में परंपरागत जल प्रबंधन" },
+      { name: "Cooperatives in Rajasthan", nameHindi: "राजस्थान में सहकारिता" },
     ],
   },
   {
@@ -36,6 +40,7 @@ export const SYLLABUS_DATA = [
     slug: "rajasthan-history",
     description: "Ancient culture, archaeological sites, Rajput states, Delhi sultanate & Mughal relations, freedom struggle & integration",
     topics: [
+      { name: "Sources of Rajasthan History", nameHindi: "राजस्थान का इतिहास जानने के स्त्रोत" },
       { name: "Ancient Culture & Civilization", nameHindi: "प्राचीन संस्कृति एवं सभ्यता" },
       { name: "Archaeological Sites and Their Importance", nameHindi: "पुरातात्विक स्थल एवं उनका महत्व" },
       { name: "History of Rajasthan up to the 18th Century", nameHindi: "18वीं शताब्दी तक राजस्थान का इतिहास" },
@@ -85,6 +90,7 @@ export const SYLLABUS_DATA = [
       { name: "Folk Theatre", nameHindi: "लोक नाट्य" },
       { name: "Language", nameHindi: "बोली एवं भाषा" },
       { name: "Literature", nameHindi: "साहित्य" },
+      { name: "Major Cultural Event Venues", nameHindi: "राजस्थान के प्रमुख सांस्कृतिक कार्यक्रम स्थल" },
     ],
   },
   {
@@ -110,6 +116,10 @@ export const SYLLABUS_DATA = [
       { name: "Rajasthan State Election Commission", nameHindi: "राज्य निर्वाचन आयोग" },
       { name: "Lokayukta", nameHindi: "लोकायुक्त" },
       { name: "Rajasthan State Legal Services Authority", nameHindi: "राज्य विधिक सेवा प्राधिकरण" },
+      { name: "Local Self Government & Panchayati Raj", nameHindi: "स्थानीय स्वायत्त शासन एवं पंचायती राज" },
+      { name: "Rajasthan Public Service Guarantee Act 2011", nameHindi: "राजस्थान लोक सेवा गारंटी अधिनियम 2011" },
+      { name: "Board of Revenue Rajasthan", nameHindi: "राजस्‍व मण्‍डल राजस्‍थान" },
+      { name: "Rajasthan Contribution to Constitution Making", nameHindi: "संविधान निर्माण में राजस्थान का योगदान" },
     ],
   },
   {
@@ -130,6 +140,15 @@ export const SYLLABUS_DATA = [
       { name: "Awards", nameHindi: "पुरस्कार एवं सम्मान" },
       { name: "Books", nameHindi: "प्रमुख पुस्तकें" },
       { name: "Authors", nameHindi: "लेखक" },
+      { name: "Sports and Players of Rajasthan", nameHindi: "राजस्थान के खेल व खिलाड़ी" },
+      { name: "Development of Science & Technology", nameHindi: "राजस्थान में विज्ञान और प्रौद्योगिकी का विकास" },
+      { name: "One District One Product Scheme", nameHindi: "एक जिला एक उत्पाद योजना राजस्थान" },
+      { name: "Regional Programs in Rajasthan", nameHindi: "राजस्थान में क्षेत्रीय कार्यक्रम" },
+      { name: "Rajasthan Budget 2025-26", nameHindi: "राजस्थान बजट 2025-26" },
+      { name: "Economic Review 2024-25", nameHindi: "आर्थिक समीक्षा 2024-25" },
+      { name: "Rajasthan Budget 2026-27", nameHindi: "राजस्थान बजट 2026-27" },
+      { name: "Economic Review 2025-26", nameHindi: "आर्थिक समीक्षा 2025-26" },
+      { name: "Major Policies of Rajasthan Government", nameHindi: "राजस्थान सरकार की प्रमुख नीतियां" },
     ],
   },
   {

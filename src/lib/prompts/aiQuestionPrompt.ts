@@ -13,7 +13,7 @@ export interface PromptOptions {
   referenceText?: string;
 
   /**
-   * Pre-retrieved PYQ questions from the 15K corpus.
+   * Pre-retrieved PYQ questions from the 17K corpus.
    * These are real examination questions used as the primary evidence base.
    */
   pyqReferences?: PyqQuestion[];

@@ -2,7 +2,7 @@
  * PYQ Retrieval Engine — Phase 1
  *
  * Given a topic name, retrieves the most relevant questions from the
- * 15,554-question Rajasthan exam corpus and returns them for inclusion
+ * 17,143-question Rajasthan exam corpus and returns them for inclusion
  * in the AI generation prompt.
  *
  * Design principles:
@@ -243,7 +243,7 @@ function deduplicateQuestions(
 // ─── Main retrieval function ───────────────────────────────────────────────────
 
 /**
- * Retrieves the most relevant PYQs from the 15K corpus for a given topic.
+ * Retrieves the most relevant PYQs from the 17K corpus for a given topic.
  *
  * @param topicName - The Hindi topic name (from the app's topic selector)
  * @param options   - Optional configuration
