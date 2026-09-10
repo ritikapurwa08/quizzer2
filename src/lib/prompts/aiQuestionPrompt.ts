@@ -86,13 +86,11 @@ PYQ संदर्भ प्रश्न कोष (PREVIOUS YEAR QUESTIONS —
 ══════════════════════════════════════════════════════════════
 
 नीचे राजस्थान प्रतियोगी परीक्षाओं के ${pyqReferences!.length} वास्तविक परीक्षा प्रश्न दिए गए हैं।
-${
-  pyqStats
-    ? `(कुल कॉर्पस उम्मीदवार: ${pyqStats.totalFound} | प्रेषित: ${pyqStats.sent}${
-        pyqStats.levelUsed ? ` | प्रयुक्त रिट्रीवल स्तर: Level ${pyqStats.levelUsed}` : ""
+${pyqStats
+      ? `(कुल कॉर्पस उम्मीदवार: ${pyqStats.totalFound} | प्रेषित: ${pyqStats.sent}${pyqStats.levelUsed ? ` | प्रयुक्त रिट्रीवल स्तर: Level ${pyqStats.levelUsed}` : ""
       })`
-    : ""
-}
+      : ""
+    }
 
 ये प्रश्न परीक्षा-साक्ष्य हैं — केवल प्रेरणा नहीं।
 
@@ -281,15 +279,14 @@ Difficulty should come from:
 2. CONTENT SELECTION & COMPOSITION
 ============================================================
 
-${
-  hasPyqs
-    ? `TARGET QUESTION BREAKDOWN for this batch of ${count}:
+${hasPyqs
+      ? `TARGET QUESTION BREAKDOWN for this batch of ${count}:
 - Approximately ${targetPyq} questions derived from the supplied PYQs (${Math.round(
         targetPyq * 0.5
       )} PYQ_EXACT + ${targetPyq - Math.round(targetPyq * 0.5)} PYQ_MODIFIED)
 - Approximately ${targetAiNew} genuinely new questions (AI_NEW) covering missing topic dimensions`
-    : `All ${count} questions must be AI_NEW, testing core aspects of the topic.`
-}
+      : `All ${count} questions must be AI_NEW, testing core aspects of the topic.`
+    }
 
 Prioritize high-value material over minor trivia.
 
