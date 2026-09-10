@@ -94,15 +94,14 @@ export function AppLoadingScreen() {
       {/* Text */}
       <div className="space-y-1.5 text-center">
         <p className="text-sm font-semibold text-foreground font-hindi">
-          सत्र सत्यापित किया जा रहा है
           <span className="inline-flex ml-1 tracking-widest text-primary animate-pulse">…</span>
         </p>
-        <p className="text-xs text-muted-foreground font-hindi">कृपया प्रतीक्षा करें</p>
+
       </div>
 
       {/* Progress track */}
       <div className="w-24 h-0.5 bg-muted rounded-full overflow-hidden relative">
-        <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-transparent via-primary to-transparent animate-[shimmer_1.5s_infinite]" />
+        <div className="absolute inset-y-0 left-0 w-1/2 bg-linear-to-r from-transparent via-primary to-transparent animate-[shimmer_1.5s_infinite]" />
       </div>
     </div>
   );

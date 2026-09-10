@@ -328,6 +328,37 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       }
     }
 
+    // ── PYQ Provenance capture ───────────────────────────────────────────────
+    // Extract optional provenance fields from AI output and store in meta.
+    // Accepted sourceType values from the prompt contract.
+    const VALID_SOURCE_TYPES = new Set(["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
+    const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim() : undefined;
+    const sourceType = rawSourceType && VALID_SOURCE_TYPES.has(rawSourceType)
+      ? (rawSourceType as "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW")
+      : undefined;
+
+    // sourceQuestionId must be a positive integer
+    const rawSourceId = raw.sourceQuestionId;
+    const sourceQuestionId =
+      typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
+        ? rawSourceId
+        : typeof rawSourceId === "string" && /^\d+$/.test(rawSourceId.trim())
+          ? parseInt(rawSourceId.trim(), 10)
+          : undefined;
+
+    // exam: only attach if it came from a PYQ (never for AI_NEW)
+    const rawExam = raw.exam != null ? String(raw.exam).trim() : undefined;
+    const examVerified = rawExam && sourceType && sourceType !== "AI_NEW" ? rawExam : undefined;
+
+    if (sourceType || sourceQuestionId || examVerified) {
+      meta = {
+        ...(meta || {}),
+        ...(sourceType ? { sourceType } : {}),
+        ...(sourceQuestionId !== undefined ? { sourceQuestionId } : {}),
+        ...(examVerified ? { exam: examVerified } : {}),
+      };
+    }
+
     return {
       type,
       questionText,

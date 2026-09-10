@@ -1,3 +1,5 @@
+import { PyqQuestion, formatPyqsForPrompt } from "@/lib/pyqRetrieval";
+
 export interface PromptOptions {
   subject: string;
   topic: string;
@@ -9,6 +11,20 @@ export interface PromptOptions {
    * This is the primary factual source when supplied.
    */
   referenceText?: string;
+
+  /**
+   * Pre-retrieved PYQ questions from the 15K corpus.
+   * These are real examination questions used as the primary evidence base.
+   */
+  pyqReferences?: PyqQuestion[];
+
+  /**
+   * Stats about the retrieval (for the prompt header).
+   */
+  pyqStats?: {
+    totalFound: number;
+    sent: number;
+  };
 }
 
 export function generateAiQuestionPrompt(options: PromptOptions): string {
@@ -18,6 +34,8 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     subtopic,
     count = 5,
     referenceText,
+    pyqReferences,
+    pyqStats,
   } = options;
 
   const topicLine = subtopic
@@ -31,19 +49,15 @@ Topic: ${topic}`;
     ? `
 ==================== VERIFIED REFERENCE ====================
 
-The following material is the highest-priority factual source for this task.
+The following material is a high-priority factual source for this task.
 
 Use it to determine:
 - factual accuracy
 - official terminology
 - important facts and distinctions
-- PYQ-style wording
 - appropriate difficulty
 
 If it conflicts with your general memory, prefer the supplied reference.
-
-Do NOT copy questions or sentences verbatim. Use the information to create
-new, original questions.
 
 REFERENCE:
 ${referenceText}
@@ -52,16 +66,87 @@ ${referenceText}
 `
     : "";
 
+  // ── PYQ Reference Block ──────────────────────────────────────────────────────
+  const hasPyqs = pyqReferences && pyqReferences.length > 0;
+
+  const pyqBlock = hasPyqs
+    ? `
+══════════════════════════════════════════════════════════════
+PYQ संदर्भ प्रश्न कोष (PREVIOUS YEAR QUESTIONS — PRIMARY EVIDENCE)
+══════════════════════════════════════════════════════════════
+
+नीचे राजस्थान प्रतियोगी परीक्षाओं के ${pyqReferences!.length} वास्तविक प्रश्न दिए गए हैं।
+${pyqStats ? `(कुल मिले: ${pyqStats.totalFound} | प्रेषित: ${pyqStats.sent})` : ""}
+
+ये प्रश्न परीक्षा-साक्ष्य हैं — केवल प्रेरणा नहीं।
+
+──────────────────────────────────────────────────────────────
+PYQ उपयोग नियम (CRITICAL — इनका पालन अनिवार्य है)
+──────────────────────────────────────────────────────────────
+
+आप तीन प्रकार के प्रश्न उत्पन्न कर सकते हैं:
+
+1. PYQ_EXACT — मूल परीक्षा प्रश्न को यथावत उपयोग करें:
+   • जब प्रश्न उपयुक्त, गुणवत्तापूर्ण और विषय-प्रासंगिक हो।
+   • मूल अर्थ, सही उत्तर, तथ्य और विकल्प अपरिवर्तित रहें।
+   • छात्रों को वास्तविक परीक्षा प्रश्नों का अभ्यास मिलता है — यही लक्ष्य है।
+   • अनावश्यक पुनर्लेखन न करें।
+
+2. PYQ_MODIFIED — मूल प्रश्न में सार्थक संशोधन के साथ उपयोग करें:
+   • अनुमत: प्रश्न की भाषा में सुधार, कथन-आधारित प्रारूप में रूपांतरण,
+     प्रश्न की संरचना बदलना जबकि मूल अवधारणा वही रहे।
+   • अनुमत नहीं: तथ्यात्मक अर्थ बदलना, सही उत्तर बदलना, तुच्छ
+     पर्यायवाची शब्दों से केवल अलग दिखाना, काल्पनिक तथ्य जोड़ना।
+
+3. AI_NEW — केवल तभी नए प्रश्न बनाएं जब:
+   • दिए गए PYQs विषय की पर्याप्त कवरेज नहीं देते।
+   • महत्वपूर्ण अवधारणाएं PYQs में अनुपस्थित हैं।
+   • अतिरिक्त कठिनाई स्तर या प्रश्न-प्रकार की आवश्यकता है।
+
+──────────────────────────────────────────────────────────────
+PYQ उत्पादन प्रक्रिया (DECISION PROCESS)
+──────────────────────────────────────────────────────────────
+
+STEP 1: विषय को समझें।
+STEP 2: नीचे दिए गए PYQs का विश्लेषण करें।
+STEP 3: PYQ_EXACT के लिए उपयुक्त प्रश्नों की पहचान करें।
+STEP 4: PYQ_MODIFIED के लिए सार्थक संशोधन-योग्य प्रश्नों की पहचान करें।
+STEP 5: कवरेज अंतराल की पहचान करें।
+STEP 6: PDF/संदर्भ सामग्री से AI_NEW प्रश्न बनाएं।
+STEP 7: सभी प्रश्नों को गुणवत्ता जांच से गुजारें।
+STEP 8: JSON आउटपुट लौटाएं।
+
+──────────────────────────────────────────────────────────────
+संदर्भ प्रश्न (REFERENCE PYQs)
+──────────────────────────────────────────────────────────────
+
+${formatPyqsForPrompt(pyqReferences!)}
+
+══════════════════════════════════════════════════════════════
+END PYQ REFERENCE CORPUS
+══════════════════════════════════════════════════════════════
+`
+    : "";
+
+  const noPyqNote = !hasPyqs
+    ? `
+NOTE: इस विषय के लिए कोई PYQ संदर्भ प्रश्न नहीं मिले।
+सभी प्रश्न AI_NEW श्रेणी में होंगे। आपूर्ति की गई सामग्री और
+Rajasthan Gyan / YouTube शोध के आधार पर उच्च-गुणवत्ता प्रश्न बनाएं।
+`
+    : "";
+
   return `You are an expert examination paper setter for Rajasthan competitive
 examinations such as RPSC, RSMSSB, Rajasthan CET, RAS and Senior Teacher.
 
-Generate exactly ${count} high-quality, original, exam-grade questions.
+Generate exactly ${count} high-quality, exam-grade questions.
 
 ${topicLine}
 Language: Natural, standard competitive-examination Hindi.
 
 ${referenceBlock}
-
+${pyqBlock}
+${noPyqNote}
 ============================================================
 0. MANDATORY PRE-GENERATION RESEARCH (DO THIS FIRST)
 ============================================================
@@ -427,16 +512,22 @@ Never invent:
 Priority:
 
 1. Supplied verified reference
-2. Official RPSC/RSMSSB/Rajasthan CET material
-3. Government of Rajasthan sources
-4. Government of India sources
-5. NCERT/RBSE
-6. Standard authoritative sources
+2. PYQ corpus (verified examination questions)
+3. Official RPSC/RSMSSB/Rajasthan CET material
+4. Government of Rajasthan sources
+5. Government of India sources
+6. NCERT/RBSE
+7. Standard authoritative sources
 
 If a fact cannot be established confidently, DO NOT use it.
 
 For current affairs, use only information that can actually be verified.
 Never invent dates, names, figures or designations.
+
+EXAM VERIFICATION RULE:
+- If the original PYQ contains an exam reference, use it exactly.
+- If the original PYQ does NOT contain an exam reference, do NOT guess.
+- Never fabricate exam names or years.
 
 ============================================================
 12. EXPLANATIONS
@@ -486,6 +577,17 @@ Prefer meaningful variation:
 - exception
 - relationship with another institution
 
+PYQ DUPLICATE RULE:
+Do not generate a question that is a trivial paraphrase of a supplied
+PYQ. If you use a PYQ, mark it PYQ_EXACT or PYQ_MODIFIED. Do NOT
+create an AI_NEW question that is effectively the same as a PYQ.
+
+Example of unacceptable trivial paraphrase:
+  Original: "X का गठन कब हुआ?"
+  Rejected:  "X का निर्माण किस वर्ष हुआ?"
+If the only change is a synonym with no meaningful assessment variation,
+reject and generate a different question.
+
 ============================================================
 14. OUTPUT CLEANLINESS
 ============================================================
@@ -504,7 +606,7 @@ PART 2 — Questions JSON (Step C from Section 0):
   It must begin immediately after the research report.
   It must contain ONLY the JSON array of 10 questions (batch 1–10).
 
-Insidethe JSON array (Part 2), NEVER output:
+Inside the JSON array (Part 2), NEVER output:
 - markdown
 - code fences
 - explanations outside the JSON fields
@@ -539,14 +641,16 @@ Before returning the JSON, silently verify every question:
 [ ] Natural examination Hindi
 [ ] No unnecessary English
 [ ] No fabricated facts
+[ ] No fabricated exam names or years
 [ ] Explanation is concise
 [ ] No citation/span/source artifacts
 [ ] Valid JSON
 [ ] Statement questions: correct answer is NOT defaulted to "1, 2 और 3" or "सभी"
 [ ] Matching questions: correct answer is NOT the sequential A-1, B-2, C-3, D-4 pattern
 [ ] Answer positions across the batch are distributed — no single index dominates
-
-If ANY condition fails, fix the question before returning it.
+[ ] sourceType is one of: "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW"
+[ ] sourceQuestionId is set for PYQ_EXACT and PYQ_MODIFIED (use the ID from the PYQ block above)
+[ ] exam field is set only when verified from original PYQ — never fabricated
 
 ============================================================
 16. REQUIRED RESPONSE FORMAT
@@ -586,7 +690,10 @@ PART 2 — QUESTIONS JSON (batch 1–10)
     "a": 0,
     "e": "संक्षिप्त एवं प्रमाणिक व्याख्या।",
     "t": "mcq",
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "sourceType": "PYQ_EXACT",
+    "sourceQuestionId": 1234,
+    "exam": "RPSC 2023"
   }
 ]
 
@@ -601,6 +708,9 @@ a = correct option index: 0, 1, 2 or 3
 e = concise explanation
 t = "mcq" | "assertion" | "true_false" | "match"
 difficulty = "easy" | "medium" | "hard"
+sourceType = "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW"  (REQUIRED)
+sourceQuestionId = original PYQ id number (only for PYQ_EXACT and PYQ_MODIFIED)
+exam = original exam name if verified (only for PYQ_EXACT and PYQ_MODIFIED)
 
 Return no other fields inside the JSON objects.
 
@@ -608,14 +718,21 @@ Return no other fields inside the JSON objects.
 FINAL INSTRUCTION
 ============================================================
 
-1. FIRST: Check rajasthangyan.com for topic-relevant content and report findings.
-2. SECOND: List exactly 5 relevant YouTube videos (title + channel + URL).
-3. THIRD: Deliver questions 1–10 as a clean JSON array.
-4. On follow-up: deliver 11–20, then 21–30, etc. on request.
+SOURCE PRIORITY ORDER:
+  Primary examination evidence:  PYQ संदर्भ प्रश्न (supplied above)
+  Primary supplied knowledge:    विषय PDF / reference material
+  Supporting context:            Topic discussion
+  External verification:         Rajasthan Gyan / YouTube research
+
+1. FIRST: Analyze the supplied PYQ reference questions.
+2. SECOND: Check rajasthangyan.com for additional topic content and report findings.
+3. THIRD: List exactly 5 relevant YouTube videos (title + channel + URL).
+4. FOURTH: Deliver questions 1–10 as a clean JSON array.
+5. On follow-up: deliver 11–20, then 21–30, etc. on request.
 
 For the complete set of ${count} questions, always start with batch 1–10.
-Prioritize factual accuracy (rajasthangyan.com verified), natural examination
-language, high-quality distractors, meaningful coverage, genuine difficulty
-and clean JSON output.
+Prioritize real PYQs where appropriate, then factual accuracy (rajasthangyan.com
+verified), natural examination language, high-quality distractors, meaningful
+coverage, genuine difficulty and clean JSON output.
 `;
 }

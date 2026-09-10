@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { autoFixJson } from "@/lib/importParser";
 import { importJsonSchema, ImportJson } from "@/lib/validators/question";
 import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
+import { getRelevantPyqQuestions } from "@/lib/pyqRetrieval";
 import { PromptPreviewDialog } from "./PromptPreviewDialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,6 +24,7 @@ import {
   Check,
   FileCode2,
   Loader2,
+  BookOpen,
 } from "lucide-react";
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
@@ -153,11 +155,25 @@ export function QuestionImportEditor({
   const activeSubject = subjectsList.find((s) => s._id === selectedSubjectId);
   const activeTopic = topicsList.find((t) => t._id === selectedTopicId);
 
+  // ── PYQ Retrieval ────────────────────────────────────────────────────────
+  // Compute relevant reference questions from the 15K corpus whenever the
+  // active topic changes. Memoized so the 15K corpus is only searched when
+  // the topic actually changes, not on every render.
+  const pyqResult = useMemo(() => {
+    const topicName = getTopicDisplayName(activeTopic);
+    if (!topicName) return null;
+    return getRelevantPyqQuestions(topicName, { maxResults: 100, minScore: 10 });
+  }, [activeTopic]);
+
   const currentPrompt = generateAiQuestionPrompt({
     subject: getSubjectDisplayName(activeSubject) || "Rajasthan General Knowledge",
     topic: getTopicDisplayName(activeTopic) || "General Topic",
     subtopic: subtopicName.trim() || undefined,
     count: questionCount,
+    pyqReferences: pyqResult?.questions,
+    pyqStats: pyqResult
+      ? { totalFound: pyqResult.totalFound, sent: pyqResult.sent }
+      : undefined,
   });
 
   function handleCopyAiPrompt() {
@@ -260,6 +276,29 @@ export function QuestionImportEditor({
               />
             </div>
           </div>
+
+          {/* PYQ Reference Status Badge */}
+          {selectedTopicId && (
+            <div className="flex items-center gap-2 pt-1">
+              <BookOpen className="h-3.5 w-3.5 shrink-0 text-muted-foreground" />
+              {pyqResult && pyqResult.sent > 0 ? (
+                <span className="text-[11px] font-medium text-muted-foreground font-hindi">
+                  📚 <span className="font-bold text-foreground">{pyqResult.sent}</span> PYQ संदर्भ प्रश्न
+                  {pyqResult.totalFound > pyqResult.sent && (
+                    <span className="text-muted-foreground/70">
+                      {" "}(कुल मिले: {pyqResult.totalFound})
+                    </span>
+                  )}
+                  {" — "}
+                  <span className="text-success font-semibold">प्रॉम्प्ट में शामिल</span>
+                </span>
+              ) : (
+                <span className="text-[11px] font-medium text-muted-foreground/60 font-hindi">
+                  इस टॉपिक के लिए कोई PYQ नहीं मिला — AI_NEW प्रश्न जनरेट होंगे
+                </span>
+              )}
+            </div>
+          )}
 
           {/* Negative Marking & Prompt Buttons */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 pt-3.5 border-t border-border/80">
