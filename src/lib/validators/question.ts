@@ -359,6 +359,25 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       };
     }
 
+    // ── Reference field: human-readable attribution ──────────────────────────
+    // The existing `reference` field is already displayed in question cards.
+    // We write PYQ attribution here so exam info is immediately visible in
+    // the UI without any additional UI changes.
+    // Priority: explicit reference from AI > auto-generated from provenance.
+    const explicitReference = raw.reference ? String(raw.reference).trim() : undefined;
+    let computedReference: string | undefined = explicitReference;
+
+    if (!computedReference && sourceType) {
+      if (examVerified) {
+        // e.g. "📌 PYQ_EXACT — Food Safety Officer 2022"
+        computedReference = `📌 ${sourceType} — ${examVerified}`;
+      } else if (sourceType !== "AI_NEW") {
+        // PYQ without exam metadata
+        computedReference = `📌 ${sourceType}`;
+      }
+      // AI_NEW: no reference attribution needed
+    }
+
     return {
       type,
       questionText,
