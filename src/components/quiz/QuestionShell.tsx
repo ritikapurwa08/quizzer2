@@ -59,7 +59,7 @@ export function QuestionShell({
           </span>
 
           {/* 2. Question type: readable / non-shrinking */}
-          <Badge
+          {/* <Badge
             variant="secondary"
             className="shrink-0 rounded-full px-1.5 py-0.5 sm:px-2.5 sm:py-0.5 text-[10.5px] sm:text-xs font-medium tracking-normal font-hindi whitespace-nowrap"
           >
@@ -73,18 +73,18 @@ export function QuestionShell({
             >
               {missCount}× गलत
             </Badge>
-          )}
+          )} */}
 
           {reviewBadge && (
             <Badge
               className={cn(
                 "inline-flex shrink-0 items-center gap-1 rounded-full border px-1.5 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi whitespace-nowrap",
                 reviewBadge === "correct" &&
-                  "border-success/25 bg-success/10 text-success",
+                "border-success/25 bg-success/10 text-success",
                 reviewBadge === "incorrect" &&
-                  "border-destructive/25 bg-destructive/10 text-destructive",
+                "border-destructive/25 bg-destructive/10 text-destructive",
                 reviewBadge === "unanswered" &&
-                  "border-border bg-muted text-muted-foreground"
+                "border-border bg-muted text-muted-foreground"
               )}
             >
               {reviewBadge === "correct" && <CheckCircle2 className="h-3 w-3" />}
