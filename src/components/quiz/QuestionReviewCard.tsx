@@ -39,6 +39,8 @@ export function QuestionReviewCard({
           onToggleBookmark={onToggleBookmark}
           reviewBadge={reviewBadge}
           missCount={missCount}
+          reference={question.reference}
+          meta={question.meta}
           unwrapped
         >
           {Renderer ? (
@@ -52,29 +54,17 @@ export function QuestionReviewCard({
         </QuestionShell>
       </div>
 
-      {/* Explanation + Reference — separated by hairline divider, muted background tint */}
-      {(question.explanation || question.reference) && (
-        <div className="px-4 sm:px-5 py-3.5 border-t border-border/60 bg-muted/30 space-y-2.5">
-          {question.explanation && (
-            <div>
-              <p className="text-[11px] font-medium text-muted-foreground uppercase tracking-wider mb-1 font-hindi">
-                विस्तृत व्याख्या
-              </p>
-              <p className={cn("text-xs sm:text-sm text-foreground font-normal leading-relaxed font-hindi", isHindiExplanation && "font-hindi")}>
-                {question.explanation}
-              </p>
-            </div>
-          )}
-          {question.reference && (
-            <div className="flex items-start gap-1.5">
-              <span className="mt-0.5 shrink-0 rounded px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide bg-primary/10 text-primary font-hindi">
-                संदर्भ
-              </span>
-              <p className="text-[11px] text-muted-foreground leading-snug font-hindi break-words">
-                {question.reference}
-              </p>
-            </div>
-          )}
+      {/* Explanation — separated by hairline divider, muted background tint */}
+      {question.explanation && (
+        <div className="px-4 sm:px-5 py-3.5 border-t border-border/60 bg-muted/30">
+          <div>
+            <p className="text-[11px] font-medium text-muted-foreground uppercase tracking-wider mb-1 font-hindi">
+              विस्तृत व्याख्या
+            </p>
+            <p className={cn("text-xs sm:text-sm text-foreground font-normal leading-relaxed font-hindi", isHindiExplanation && "font-hindi")}>
+              {question.explanation}
+            </p>
+          </div>
         </div>
       )}
     </Card>

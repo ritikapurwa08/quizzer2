@@ -50,23 +50,18 @@ export function QuestionShell({
 
   const content = (
     <>
-      {/* Compact Source / PYQ Reference Pill */}
-      <QuestionSourceMeta
-        reference={reference}
-        meta={meta}
-        className="mb-2.5 sm:mb-3"
-      />
-
-      {/* Compact Question Header */}
-      <div className="mb-3 sm:mb-3.5 flex items-center justify-between gap-2">
-        <div className="flex min-w-0 flex-wrap items-center gap-1.5 sm:gap-2">
-          <span className="flex h-6 min-w-6 sm:h-6.5 sm:min-w-6.5 shrink-0 items-center justify-center rounded-full bg-primary/10 px-1.5 text-[11px] sm:text-xs font-semibold tabular-nums text-primary">
+      {/* Single Compact Question Header Row */}
+      <div className="mb-2 sm:mb-2.5 flex items-center justify-between gap-1.5 sm:gap-2 min-w-0">
+        <div className="flex min-w-0 flex-1 items-center gap-1 sm:gap-1.5 overflow-hidden">
+          {/* 1. Question number: fixed / non-shrinking */}
+          <span className="flex h-5.5 min-w-5.5 sm:h-6.5 sm:min-w-6.5 shrink-0 items-center justify-center rounded-full bg-primary/10 px-1 text-[11px] sm:text-xs font-semibold tabular-nums text-primary">
             {number}
           </span>
 
+          {/* 2. Question type: readable / non-shrinking */}
           <Badge
             variant="secondary"
-            className="rounded-full px-2 py-0.5 sm:px-2.5 sm:py-0.5 text-[11px] sm:text-xs font-medium tracking-normal font-hindi"
+            className="shrink-0 rounded-full px-1.5 py-0.5 sm:px-2.5 sm:py-0.5 text-[10.5px] sm:text-xs font-medium tracking-normal font-hindi whitespace-nowrap"
           >
             {getQuestionTypeLabel(type)}
           </Badge>
@@ -74,7 +69,7 @@ export function QuestionShell({
           {missCount !== undefined && missCount > 0 && (
             <Badge
               variant="destructive"
-              className="rounded-full px-2 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi"
+              className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi whitespace-nowrap"
             >
               {missCount}× गलत
             </Badge>
@@ -83,7 +78,7 @@ export function QuestionShell({
           {reviewBadge && (
             <Badge
               className={cn(
-                "inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi",
+                "inline-flex shrink-0 items-center gap-1 rounded-full border px-1.5 py-0.5 text-[10px] sm:text-[11px] font-medium font-hindi whitespace-nowrap",
                 reviewBadge === "correct" &&
                   "border-success/25 bg-success/10 text-success",
                 reviewBadge === "incorrect" &&
@@ -102,8 +97,12 @@ export function QuestionShell({
                   : "छोड़ा गया"}
             </Badge>
           )}
+
+          {/* 3. Inline PYQ & Exam reference (shrinkable) */}
+          <QuestionSourceMeta reference={reference} meta={meta} />
         </div>
 
+        {/* 4. Bookmark: fixed / non-shrinking on right */}
         <Tooltip>
           <TooltipTrigger
             onClick={handleBookmarkClick}
@@ -130,7 +129,7 @@ export function QuestionShell({
       {cleanedText ? (
         <p
           className={cn(
-            "mb-4 sm:mb-5 text-[0.975rem] leading-7 font-medium text-foreground sm:text-[1.025rem] sm:leading-8 whitespace-pre-wrap",
+            "mb-3.5 sm:mb-4 text-[0.95rem] leading-relaxed font-medium text-foreground sm:text-[1.025rem] sm:leading-8 whitespace-pre-wrap",
             isHindi && "font-hindi"
           )}
         >
