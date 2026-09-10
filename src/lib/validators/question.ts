@@ -384,7 +384,7 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       options,
       correctAnswer,
       explanation: explanation || undefined,
-      reference: raw.reference ? String(raw.reference).trim() : undefined,
+      reference: computedReference || undefined,
       difficulty,
       meta,
     };
