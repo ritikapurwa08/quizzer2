@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local generated datasets & scraper caches (prevent Vercel unpack error from long filenames)
+/src/xdata/prepared_tests
+/src/xdata/topics
+/src/xdata/.cache*
+/src/xdata/rajasthan_selected_topics_question_15000.json
+
