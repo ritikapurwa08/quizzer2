@@ -21,7 +21,7 @@ export function ImportWizard() {
   const [selectedSubjectId, setSelectedSubjectId] = useState<Id<"subjects"> | "">("");
   const [selectedTopicId, setSelectedTopicId] = useState<Id<"topics"> | "">("");
   const [subtopicName, setSubtopicName] = useState("Part 1");
-  const [questionCount, setQuestionCount] = useState(10);
+  const [questionCount, setQuestionCount] = useState(20);
   const [negativeMarking, setNegativeMarking] = useState(true);
 
   const [lastImportedSet, setLastImportedSet] = useState<{
@@ -144,6 +144,28 @@ export function ImportWizard() {
       // 2. Bulk insert questions
       const result = await bulkImport({ testSetId, questions: parsed.questions });
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
+
+      // Track imported source PYQ IDs so they are not retrieved again
+      if (selectedTopicId) {
+        try {
+          const storageKey = `quizzer2_used_pyqs_${selectedTopicId}`;
+          const stored = localStorage.getItem(storageKey);
+          const prevUsed: number[] = stored ? JSON.parse(stored) : [];
+          const importedSourceIds: number[] = [];
+          for (const q of parsed.questions) {
+            const sid = q.meta?.sourceQuestionId;
+            if (typeof sid === "number") importedSourceIds.push(sid);
+          }
+          if (importedSourceIds.length > 0) {
+            const merged = Array.from(new Set([...prevUsed, ...importedSourceIds]));
+            localStorage.setItem(storageKey, JSON.stringify(merged));
+            // Trigger storage event so QuestionImportEditor syncs
+            window.dispatchEvent(new Event("storage"));
+          }
+        } catch {
+          // ignore
+        }
+      }
 
       // 3. User feedback
       const skippedNote = errors.length > 0 ? ` (${errors.length} malformed question(s) skipped)` : "";

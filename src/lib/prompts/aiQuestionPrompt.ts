@@ -1,4 +1,4 @@
-import { PyqQuestion, formatPyqsForPrompt } from "@/lib/pyqRetrieval";
+import { PyqQuestion, formatPyqsForPrompt } from "@/lib/pyqTypes";
 
 export interface PromptOptions {
   subject: string;
@@ -7,31 +7,26 @@ export interface PromptOptions {
   count?: number;
 
   /**
-   * Verified PYQs, official answer keys, notes, PDFs, etc.
-   * This is the primary factual source when supplied.
+   * User-supplied study notes, official answer keys, syllabus text, PDFs, etc.
+   * Supporting factual and terminological context.
    */
   referenceText?: string;
 
   /**
-   * Pre-retrieved PYQ questions from the 17K corpus.
-   * These are real examination questions used as the primary evidence base.
+   * Pre-retrieved batch of original PYQs from the local question corpus.
+   * Primary source for 14 PYQ questions and basis for 4 PYQ_MODIFIED questions.
    */
   pyqReferences?: PyqQuestion[];
 
   /**
-   * Stats about the retrieval (for the prompt header).
+   * Stats about the retrieval batch for prompt header.
    */
   pyqStats?: {
     totalFound: number;
     sent: number;
-    levelUsed?: number;
-    retrievalStats?: {
-      exactTopicMatches: number;
-      aliasMatches: number;
-      relatedMatches: number;
-      questionTextMatches: number;
-      candidatePoolSize: number;
-    };
+    usedCount?: number;
+    remainingCount?: number;
+    batchNumber?: number;
   };
 }
 
@@ -40,571 +35,233 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     subject = "Rajasthan General Knowledge",
     topic = "General Topic",
     subtopic,
-    count = 10,
+    count = 20,
     referenceText,
-    pyqReferences,
+    pyqReferences = [],
     pyqStats,
   } = options;
 
-  const topicLine = subtopic
-    ? `Subject: ${subject}
-Topic: ${topic}
-Sub-topic: ${subtopic}`
-    : `Subject: ${subject}
-Topic: ${topic}`;
+  const hasPyqs = Boolean(pyqReferences && pyqReferences.length > 0);
 
   const referenceBlock = referenceText
     ? `
-==================== VERIFIED REFERENCE ====================
+============================================================
+USER-SUPPLIED STUDY / REFERENCE MATERIAL (PDF / TEXT)
+============================================================
 
-The following material is a high-priority factual source for this task.
+The user has attached or supplied the following reference material.
+Use it strictly as supporting study context to improve:
+- official terminology and phrasing
+- factual accuracy and depth
+- conceptual clarity
+- syllabus alignment and comprehensive explanations
 
-Use it to determine:
-- factual accuracy
-- official terminology
-- important facts and distinctions
-- appropriate difficulty
+NOTE: The supplied reference material is supporting context.
+The original PYQ data below remains the source for the 14 PYQ questions
+and the basis for the 4 PYQ_MODIFIED questions.
 
-If it conflicts with your general memory, prefer the supplied reference.
-
-REFERENCE:
+REFERENCE CONTENT:
 ${referenceText}
-
-================== END VERIFIED REFERENCE ==================
+============================================================
 `
     : "";
-
-  // ── PYQ Reference Block ──────────────────────────────────────────────────────
-  const hasPyqs = Boolean(pyqReferences && pyqReferences.length > 0);
-  const targetPyqExact = hasPyqs ? Math.min(pyqReferences!.length, Math.round(count * 0.7)) : 0;
-  const targetPyqModified = hasPyqs ? Math.round(count * 0.2) : 0;
-  const targetAiNew = count - targetPyqExact - targetPyqModified;
-  const targetPyq = targetPyqExact + targetPyqModified;
 
   const pyqBlock = hasPyqs
     ? `
-══════════════════════════════════════════════════════════════
-PYQ संदर्भ प्रश्न कोष (PREVIOUS YEAR QUESTIONS — PRIMARY EVIDENCE)
-══════════════════════════════════════════════════════════════
+============================================================
+ORIGINAL PYQ DATA (CURRENT RETRIEVAL BATCH — PRIMARY SOURCE)
+============================================================
 
-नीचे राजस्थान प्रतियोगी परीक्षाओं के ${pyqReferences!.length} वास्तविक परीक्षा प्रश्न दिए गए हैं।
-${pyqStats
-      ? `(कुल कॉर्पस उम्मीदवार: ${pyqStats.totalFound} | प्रेषित: ${pyqStats.sent}${pyqStats.levelUsed ? ` | प्रयुक्त रिट्रीवल स्तर: Level ${pyqStats.levelUsed}` : ""
-      })`
-      : ""
-    }
+Selected Subject: ${subject}
+Selected Topic: ${topic}${subtopic ? `\nSelected Sub-Topic / Set: ${subtopic}` : ""}
+${
+  pyqStats
+    ? `Corpus Statistics: Total Topic PYQs: ${pyqStats.totalFound} | Current Batch Size: ${pyqStats.sent}${
+        pyqStats.batchNumber ? ` | Batch: #${pyqStats.batchNumber}` : ""
+      }${pyqStats.usedCount !== undefined ? ` | Previously Processed: ${pyqStats.usedCount}` : ""}${
+        pyqStats.remainingCount !== undefined ? ` | Remaining Unused in Corpus: ${pyqStats.remainingCount}` : ""
+      }`
+    : `Supplied PYQ Count: ${pyqReferences.length}`
+}
 
-ये प्रश्न परीक्षा-साक्ष्य हैं — केवल प्रेरणा नहीं।
+You are receiving original PYQ data for the selected syllabus topic.
+Use this data as the source for the 14 PYQ questions and as the source material for the 4 PYQ_MODIFIED questions.
 
-──────────────────────────────────────────────────────────────
-बैच संरचना लक्ष्य (QUESTION COMPOSITION CONTRACT — 7 PYQ / 2 PYQ_MODIFIED / 1 AI_NEW)
-──────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+RETRIEVED PYQ QUESTIONS:
+────────────────────────────────────────────────────────────
 
-कुल प्रश्नों की संख्या: ${count}
-• PYQ_EXACT (वास्तविक परीक्षा प्रश्न यथावत): ठीक ${targetPyqExact} प्रश्न
-• PYQ_MODIFIED (सार्थक रूप से संशोधित प्रश्न): ठीक ${targetPyqModified} प्रश्न
-• AI_NEW (अवधारणात्मक अंतराल पर नया प्रश्न): ठीक ${targetAiNew} प्रश्न
+${formatPyqsForPrompt(pyqReferences)}
 
-10 प्रश्नों के मानक टेस्ट सेट हेतु यह अनुपात बिल्कुल 7 PYQ : 2 PYQ_MODIFIED : 1 AI_NEW होना अनिवार्य है।
-गुणवत्ता और विषय-प्रासंगिकता सर्वोच्च है।
-
-──────────────────────────────────────────────────────────────
-PYQ उपयोग नियम (CRITICAL — इनका पालन अनिवार्य है)
-──────────────────────────────────────────────────────────────
-
-आप तीन प्रकार के प्रश्न उत्पन्न कर सकते हैं:
-
-1. PYQ_EXACT — मूल परीक्षा प्रश्न को यथावत उपयोग करें:
-   • जब प्रश्न उपयुक्त, गुणवत्तापूर्ण और विषय-प्रासंगिक हो।
-   • मूल अर्थ, सही उत्तर, तथ्य और विकल्प अपरिवर्तित रहें।
-   • छात्रों को वास्तविक परीक्षा प्रश्नों का अभ्यास मिलता है — यही लक्ष्य है।
-   • अनावश्यक पुनर्लेखन न करें।
-   • sourceType: "PYQ_EXACT"
-   • sourceQuestionId: मूल प्रश्न की ID संख्या (अनिवार्य)
-   • exam: मूल परीक्षा का नाम यथावत (यदि उपलब्ध हो)
-
-2. PYQ_MODIFIED — मूल प्रश्न में सार्थक संरचनात्मक सुधार करें:
-   • अनुमत: सीधे प्रश्न को कथन-आधारित (Statements) प्रारूप में बदलना,
-     विकल्पों के distractors को अधिक विश्लेषणात्मक बनाना,
-     प्रश्न की संरचना बदलना जबकि मूल अवधारणा और सही उत्तर वही रहे।
-   • अनुमत नहीं: तथ्यात्मक अर्थ बदलना, सही उत्तर बदलना, केवल 1-2 तुच्छ
-     पर्यायवाची शब्द बदलकर नया दिखाना, काल्पनिक तथ्य जोड़ना।
-   • sourceType: "PYQ_MODIFIED"
-   • sourceQuestionId: मूल प्रश्न की ID संख्या (अनिवार्य)
-   • exam: मूल परीक्षा का नाम यथावत (यदि उपलब्ध हो)
-
-3. AI_NEW — पूर्णतः नया प्रश्न (GENUINELY NEW QUESTION):
-   • दिए गए PYQs में जो आयाम नहीं पूछे गए हैं, उन पर आधारित हो।
-   • अनुमत नहीं: किसी PYQ का केवल भाषाई पुनर्कथन या तुच्छ पर्यायवाची रूपांतरण।
-   • sourceType: "AI_NEW"
-   • sourceQuestionId: बिल्कुल न जोड़ें (यह अनुपस्थित होना चाहिए)
-   • exam: बिल्कुल न जोड़ें (यह अनुपस्थित होना चाहिए)
-
-──────────────────────────────────────────────────────────────
-PYQ उत्पादन प्रक्रिया (DECISION PROCESS)
-──────────────────────────────────────────────────────────────
-
-STEP 1: विषय एवं उप-विषय को समझें।
-STEP 2: नीचे दिए गए PYQs का विश्लेषण करें।
-STEP 3: PYQ_EXACT के लिए उपयुक्त प्रश्नों की पहचान करें (${targetPyqExact} प्रश्न)।
-STEP 4: PYQ_MODIFIED के लिए सार्थक संशोधन-योग्य प्रश्नों की पहचान करें (${targetPyqModified} प्रश्न)।
-STEP 5: अवधारणात्मक कवरेज अंतराल (Coverage Gaps) की पहचान करें।
-STEP 6: अंतराल को भरने हेतु ठीक ${targetAiNew} AI_NEW प्रश्न बनाएं।
-STEP 7: सभी प्रश्नों को गुणवत्ता जांच से गुजारें (4 विकल्प, संतुलित उत्तर स्थिति, प्राकृतिक हिंदी)।
-STEP 8: JSON आउटपुट लौटाएं।
-
-
-──────────────────────────────────────────────────────────────
-संदर्भ प्रश्न (REFERENCE PYQs)
-──────────────────────────────────────────────────────────────
-
-${formatPyqsForPrompt(pyqReferences!)}
-
-══════════════════════════════════════════════════════════════
-END PYQ REFERENCE CORPUS
-══════════════════════════════════════════════════════════════
+============================================================
+END ORIGINAL PYQ DATA BATCH
+============================================================
 `
-    : "";
+    : `
+NOTE: No prior examination PYQs were found in the local corpus for this specific topic.
+Generate questions maintaining syllabus boundaries using high-quality competitive examination standards.
+`;
 
-  const noPyqNote = !hasPyqs
-    ? `
-NOTE: बहु-स्तरीय खोज के बाद भी इस विशिष्ट विषय के लिए कोई प्रासंगिक PYQ संदर्भ प्रश्न नहीं मिले।
-सभी ${count} प्रश्न AI_NEW श्रेणी में होंगे। आपूर्ति की गई सामग्री और
-Rajasthan Gyan / YouTube शोध के आधार पर उच्च-गुणवत्ता वाले नए प्रश्न बनाएं।
-`
-    : "";
+  return `You are an expert examination paper setter for Rajasthan competitive examinations (RPSC, RSMSSB, Rajasthan CET, RAS, Senior Teacher).
 
-  return `You are an expert examination paper setter for Rajasthan competitive
-examinations such as RPSC, RSMSSB, Rajasthan CET, RAS and Senior Teacher.
+Your task is to generate a pristine, examination-ready test set of EXACTLY 20 questions for the following syllabus target:
 
-Generate exactly ${count} high-quality, exam-grade questions.
+Selected Subject: ${subject}
+Selected Topic: ${topic}${subtopic ? `\nSelected Sub-topic: ${subtopic}` : ""}
 
-${topicLine}
-Language: Natural, standard competitive-examination Hindi.
+The canonical syllabus topic is a HARD BOUNDARY. All 20 questions must strictly belong to "${topic}". Do NOT leak into unrelated topics or other geographic regions.
 
 ${referenceBlock}
 ${pyqBlock}
-${noPyqNote}
-============================================================
-0. MANDATORY PRE-GENERATION RESEARCH (DO THIS FIRST)
-============================================================
-
-Before generating any questions, you MUST perform the following two research
-steps and report them clearly at the top of your response.
-
-─────────────────────────────────────────────
-STEP A — Rajasthan Gyan Website Verification
-─────────────────────────────────────────────
-
-Visit https://www.rajasthangyan.com and verify content related to the
-topic: "${topic}"${subtopic ? ` / "${subtopic}"` : ""}.
-
-Use its topic-specific question bank and articles as supporting context.
-Report what relevant content was found or verified there (e.g., "Found 35 questions on
-this topic at rajasthangyan.com covering XYZ areas").
-
-─────────────────────────────────────────────
-STEP B — YouTube Video List (Exactly 5 Videos)
-─────────────────────────────────────────────
-
-Search YouTube for the most relevant, high-quality educational videos
-on the topic: "${topic}"${subtopic ? ` > "${subtopic}"` : ""} for Rajasthan
-competitive exam preparation.
-
-You MUST list EXACTLY 5 videos. For each video provide:
-  - Video number (1–5)
-  - Title (in Hindi or English as per the original)
-  - Channel name
-  - YouTube URL
-
-Format:
-1. [Title] — [Channel] — [URL]
-2. [Title] — [Channel] — [URL]
-3. [Title] — [Channel] — [URL]
-4. [Title] — [Channel] — [URL]
-5. [Title] — [Channel] — [URL]
-
-Note: If running in an execution environment without active real-time web browsing,
-provide verified, authentic educational channel references and established video titles
-for this Rajasthan GK topic rather than hallucinating broken URLs.
-
-─────────────────────────────────────────────
-STEP C — Paginated Question Delivery
-─────────────────────────────────────────────
-
-After the research output above, deliver questions in PAGES of 10.
-
-- On first response: deliver questions 1–10 ONLY as a JSON array.
-- If the user requests more, deliver 11–20 as the next JSON array.
-- Continue: 21–30, 31–40, etc.
-
-NEVER deliver more than 10 questions in a single response unless explicitly
-asked. Always start with questions 1–10.
 
 ============================================================
-1. PRIMARY GOAL
+CRITICAL RULES & GENERATION CONTRACT
 ============================================================
 
-Create questions that test meaningful knowledge, conceptual understanding
-and discrimination between closely related alternatives.
+1. SUPPORTING MATERIALS USAGE (PDF & YOUTUBE)
+------------------------------------------------------------
+• You may use the user's supplied PDF/reference material and the five selected YouTube videos as supporting reference/context.
+• YOUTUBE IS REFERENCE ONLY: Search for and select exactly 5 highly relevant, high-quality YouTube educational videos for "${subject} — ${topic}".
+• THE 5 YOUTUBE VIDEOS ARE NOT QUESTION SOURCES:
+  - Do NOT take questions from YouTube videos.
+  - Do NOT replace PYQs with questions found in videos.
+  - Do NOT count video-derived questions as PYQ.
+  - Use the 5 videos purely to understand key teaching terminology, conceptual depth, language, and to craft better AI_NEW questions and rich explanations.
 
-A well-prepared student should be able to solve the question through
-knowledge and reasoning.
+2. EXACT QUESTION COMPOSITION (TOTAL: EXACTLY 20 QUESTIONS)
+------------------------------------------------------------
+Every generated set MUST contain EXACTLY 20 questions in the following exact breakdown:
 
-Do NOT create difficulty through:
-- obscure trivia
-- arbitrary numbers
-- confusing wording
-- artificial traps
-- unnecessarily long statements
-- random or unrelated distractors
+  • 14 PYQ (Original Previous Year Questions)
+  • 4 PYQ_MODIFIED (Meaningfully Modified PYQs)
+  • 2 AI_NEW (Genuinely New AI Questions)
 
-Difficulty should come from:
-- precise facts
-- closely related concepts
-- chronology
-- exceptions
-- comparison
-- institutional relationships
-- application
-- cause/effect
-- procedural distinctions
+Do NOT deviate from this 14 / 4 / 2 ratio under any circumstances.
 
-============================================================
-2. CONTENT SELECTION & COMPOSITION
-============================================================
+3. RULES FOR 14 ORIGINAL "PYQ" QUESTIONS:
+------------------------------------------------------------
+• Exactly 14 questions must come directly from the supplied original PYQ data above.
+• You may improve:
+  - Hindi language and grammar
+  - Sentence clarity
+  - Option clarity
+  - Standard formatting
+• You must NOT change the factual meaning, key concept, or correct answer of the original PYQ.
+• The question must remain recognizably based on the original exam question.
+• EXAM FIELD RULE:
+  - If the original PYQ data contains a real exam name (e.g. "RPSC RAS 2023", "RSMSSB Patwar 2021"), PRESERVE it.
+  - If the original PYQ data does not contain a reliable exam name, set: "exam": null
+  - NEVER invent fake exam names (such as "Unknown Exam", "Practice Exam", "Mock Exam", or any fictional exam).
 
-${hasPyqs
-      ? `TARGET QUESTION BREAKDOWN for this batch of ${count}:
-- Approximately ${targetPyq} questions derived from the supplied PYQs (${Math.round(
-        targetPyq * 0.5
-      )} PYQ_EXACT + ${targetPyq - Math.round(targetPyq * 0.5)} PYQ_MODIFIED)
-- Approximately ${targetAiNew} genuinely new questions (AI_NEW) covering missing topic dimensions`
-      : `All ${count} questions must be AI_NEW, testing core aspects of the topic.`
-    }
+4. RULES FOR 4 "PYQ_MODIFIED" QUESTIONS:
+------------------------------------------------------------
+• Exactly 4 questions must be PYQ_MODIFIED.
+• These must be created ONLY from the supplied original PYQ data.
+• Meaningfully modify the original PYQ, for example:
+  - Change the framing or question angle
+  - Convert a direct recall question into a conceptual / statement-based question (कथन आधारित)
+  - Restructure options / test the same core concept in a different way
+  - Convert into a matching question or multi-statement question
+• Do NOT make meaningless changes (such as merely altering punctuation or changing one trivial word).
+• The modified question must remain factually correct and strictly within "${topic}".
+• IMPORTANT: The modified question must NOT be falsely presented as an actual exam question.
+  - Set "exam": null OR cite the source PYQ without claiming the modified text appeared verbatim.
 
-Prioritize high-value material over minor trivia.
+5. RULES FOR 2 "AI_NEW" QUESTIONS:
+------------------------------------------------------------
+• Exactly 2 questions must be genuinely NEW AI-generated questions.
+• Must be strictly related to the selected syllabus topic: "${topic}".
+• Must NOT simply rewrite or paraphrase the supplied PYQs.
+• Must be factually reliable, conceptually sound, and useful for competitive exam preparation.
+• Set "exam": null (Never invent an exam name for AI_NEW).
 
-Across the set:
-- do not repeatedly test the same fact
-- do not ask the same concept in different wording
-- cover different meaningful aspects of the topic
-- vary factual, conceptual, comparative and analytical questions
-- use statement-based or matching formats only when they improve the question
+6. EXPLANATIONS (MANDATORY FOR ALL 20 QUESTIONS):
+------------------------------------------------------------
+• Every single question must contain a comprehensive, factual, exam-oriented explanation in the "explanation" field.
+• Clearly explain why the correct answer is right and clarify related concepts/distractors.
 
-============================================================
-3. QUESTION QUALITY
-============================================================
-
-Every question must satisfy ALL of these:
-
-1. It must have one clearly correct answer.
-2. The other three options must be plausible.
-3. Options must belong to the same conceptual category.
-4. The question must be answerable from knowledge, not wording clues.
-5. The stem must be concise and complete.
-6. The question should realistically belong in a Rajasthan competitive exam.
-7. It must add meaningful coverage rather than repeat another question.
-8. It must be factually defensible.
-
-Before accepting a question, silently ask:
-
-"Would an experienced competitive-exam aspirant consider this a
-well-written genuine examination question?"
-
-If not, rewrite it.
-
-============================================================
-4. NATURAL EXAMINATION HINDI
-============================================================
-
-Use polished, natural Indian competitive-examination Hindi.
-
-Preferred constructions may include:
-
-- "निम्नलिखित में से कौन-सा..."
-- "निम्नलिखित कथनों पर विचार कीजिए।"
-- "उपर्युक्त में से कौन-सा/से कथन सही है/हैं?"
-- "सही विकल्प का चयन कीजिए।"
-- "निम्नलिखित में से कौन-सा युग्म सुमेलित है?"
-- "निम्नलिखित में से कौन-सा कथन असत्य है?"
-
-But DO NOT repeatedly use the same construction.
-
-Avoid:
-- robotic AI language
-- conversational language
-- unnecessary Sanskritization
-- literal English-to-Hindi translation
-- excessive phrases such as "के संदर्भ में", "विचार कीजिए" or
-  "निम्नलिखित में से" when they add no value
-- unnecessary explanations inside the stem
-
-Use English terminology only when it is an established/necessary
-technical or official term.
+7. OPTIONS & ANSWER FORMAT:
+------------------------------------------------------------
+• Every question must have EXACTLY 4 substantive options.
+• "answer" must be the zero-based integer index of the correct option: 0, 1, 2, or 3.
+• Balance answer positions across the 20 questions (distribute correct answers across A, B, C, D).
 
 ============================================================
-5. MCQ OPTIONS
+REQUIRED OUTPUT FORMAT
 ============================================================
 
-Every question MUST contain exactly 4 substantive options.
+Your response must contain TWO parts:
 
-The AI output must NEVER add:
-- "अनुत्तरित प्रश्न"
-- "Question not attempted"
-- a fifth option
-- placeholder options
+PART A: 5 YouTube Reference Videos (Plain text / Markdown)
+List exactly 5 educational videos for "${subject} — ${topic}":
+1. [Video Title] — [Channel Name] — [YouTube URL]
+2. [Video Title] — [Channel Name] — [YouTube URL]
+3. [Video Title] — [Channel Name] — [YouTube URL]
+4. [Video Title] — [Channel Name] — [YouTube URL]
+5. [Video Title] — [Channel Name] — [YouTube URL]
 
-Options must:
-- be mutually plausible
-- have similar grammatical structure
-- have reasonably similar length
-- have similar specificity
-- belong to the same knowledge category
-
-Do not make the correct answer:
-- noticeably longer
-- noticeably shorter
-- more technical
-- more detailed
-- grammatically superior
-- the only complete sentence
-
-Never use nonsense options merely to fill four slots.
-
-============================================================
-6. DISTRACTOR QUALITY
-============================================================
-
-Treat every distractor as a realistic competing answer.
-
-Good distractors may come from:
-- closely related dates
-- adjacent Articles
-- related constitutional provisions
-- similar institutions
-- associated personalities
-- nearby geographical locations
-- related literary works
-- common misconceptions
-- closely related terminology
-- similar historical events
-
-Example:
-BAD: Article 3, Article 51A, Article 280, Article 356
-BETTER: Article 154, Article 155, Article 156, Article 157
-
-The distractor should be wrong for a specific reason, not obviously wrong.
-
-============================================================
-7. STATEMENT QUESTIONS
-============================================================
-
-Use statement-based questions when they genuinely improve assessment.
-
-Statements must contain independently checkable information.
-
-ANTI-DEFAULT RULE (CRITICAL):
-Do NOT default to "केवल 1 और 2" / "1, 2 और 3" / "उपर्युक्त सभी" as the
-correct answer unless the facts genuinely require it.
-
-"1, 2 और 3" and "सभी कथन सही हैं" are lazy defaults that destroy
-discrimination. The correct answer must sometimes be only Statement 1,
-or only Statement 3, or only Statements 2 and 4 — driven purely by the
-facts, not by convenience.
-
-============================================================
-8. MATCHING QUESTIONS
-============================================================
-
-ANTI-SEQUENTIAL PATTERN RULE (CRITICAL):
-NEVER use the direct sequential mapping A-1, B-2, C-3, D-4 as the
-correct answer. This is the most predictable default and eliminates
-discrimination entirely.
-
-The correct matching option MUST be a non-sequential arrangement,
-e.g., A-3, B-1, C-4, D-2 or A-2, B-4, C-1, D-3.
-
-============================================================
-9. ANSWER POSITION
-============================================================
-
-The correct answer must be independently determined before assigning
-its position.
-
-Process:
-1. Determine the factual answer.
-2. Create three strong distractors.
-3. Place the correct answer into a balanced A/B/C/D position.
-4. Shuffle the remaining options.
-5. Re-check that the answer index matches the final option order.
-
-DELIBERATE VARIATION RULE (CRITICAL):
-Actively vary the correct option across the batch. Before finalising,
-count how many questions have the correct answer at index 0 (A), 1 (B), 2 (C), 3 (D).
-If more than 3 out of 10 questions share the same answer position,
-reassign positions to restore balance.
-
-============================================================
-10. DIFFICULTY
-============================================================
-
-Assign one of: "easy" | "medium" | "hard"
-
-Easy: Direct important fact or straightforward recognition.
-Medium: Requires distinction between related facts/concepts, chronology, application or careful statement analysis.
-Hard: Requires deeper conceptual discrimination, multiple related facts, subtle distinctions, exceptions or higher-order reasoning.
-
-Do not mark every question "medium". Aim for natural balance.
-
-============================================================
-11. FACTUAL ACCURACY & METADATA PRESERVATION
-============================================================
-
-Never invent facts, dates, names, places, Articles, or designations.
-
-EXAM METADATA RULES:
-- For PYQ_EXACT and PYQ_MODIFIED: copy the exact exam string from the reference PYQ block.
-- For AI_NEW: NEVER include an exam field. Do not invent exam names or years.
-
-SOURCE ID RULES:
-- For PYQ_EXACT and PYQ_MODIFIED: set "sourceQuestionId" to the integer ID of the reference PYQ.
-- For AI_NEW: do NOT include "sourceQuestionId".
-
-============================================================
-12. EXPLANATIONS
-============================================================
-
-The explanation must be concise and revision-friendly (1–3 sentences).
-Include the decisive fact/principle and why the correct answer is correct.
-
-============================================================
-13. ANTI-DUPLICATION & PARAPHRASE FORBIDDEN
-============================================================
-
-Within the current set, no two questions may:
-- ask the same fact
-- test the same concept through trivial rewording
-- use nearly identical stems
-
-PYQ PARAPHRASE FORBIDDEN RULE:
-Do not generate an AI_NEW question that is merely a trivial paraphrase of a supplied PYQ.
-Example of unacceptable trivial paraphrase:
-  Original PYQ: "राज्यपाल की नियुक्ति कौन करता है?"
-  Rejected AI_NEW: "राज्यपाल किसके द्वारा नियुक्त किया जाता है?"
-Instead, test an uncovered dimension:
-  Valid AI_NEW: "राज्यपाल की स्वविवेकी शक्तियों का उल्लेख संविधान के किस अनुच्छेद में है?"
-
-============================================================
-14. OUTPUT CLEANLINESS
-============================================================
-
-The response has TWO parts:
-
-PART 1 — Plain-text research report (Steps A and B from Section 0):
-  This section is plain text, NOT JSON.
-  It MUST appear BEFORE any questions.
-  It reports:
-  a) What was found/verified on rajasthangyan.com for the topic.
-  b) Exactly 5 YouTube videos with title, channel, and URL.
-
-PART 2 — Questions JSON (Step C from Section 0):
-  This section MUST be valid JSON.
-  It must begin immediately after the research report.
-  It must contain ONLY the JSON array of 10 questions (batch 1–10).
-
-Inside the JSON array (Part 2), NEVER output markdown fences, code blocks,
-citations, or text outside the JSON object fields.
-
-============================================================
-15. FINAL SILENT QUALITY CHECK
-============================================================
-
-Before returning the JSON, silently verify every question:
-
-[ ] Exactly ${count} questions
-[ ] Question composition target met (~${targetPyq} PYQ-based + ~${targetAiNew} AI_NEW)
-[ ] Exactly 4 substantive options per question
-[ ] Exactly one correct answer (index 0–3)
-[ ] Distractors are plausible
-[ ] Options are structurally balanced
-[ ] No answer-position clue
-[ ] No duplicate or near-duplicate question
-[ ] No trivial PYQ paraphrases
-[ ] Meaningful topic coverage
-[ ] Appropriate difficulty ("easy", "medium", "hard")
-[ ] Natural examination Hindi
-[ ] No fabricated facts
-[ ] No fabricated exam names or years
-[ ] Explanation is concise
-[ ] Statement questions: correct answer is NOT defaulted to "1, 2 और 3" or "सभी"
-[ ] Matching questions: correct answer is NOT the sequential A-1, B-2, C-3, D-4 pattern
-[ ] Answer positions across the batch are distributed (A/B/C/D balanced)
-[ ] sourceType is one of: "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW"
-[ ] sourceQuestionId is set for PYQ_EXACT and PYQ_MODIFIED (original corpus ID)
-[ ] sourceQuestionId is ABSENT for AI_NEW
-[ ] exam field is set only when verified from original PYQ — absent for AI_NEW
-
-============================================================
-16. REQUIRED RESPONSE FORMAT
-============================================================
-
-Return your response in this EXACT structure:
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PART 1 — RESEARCH REPORT (plain text)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📌 Rajasthan Gyan Website Check:
-[Report what topic-relevant content was found or verified at rajasthangyan.com]
-
-📺 YouTube Videos (5 videos — verified for this topic):
-1. [Title] — [Channel] — https://youtube.com/...
-2. [Title] — [Channel] — https://youtube.com/...
-3. [Title] — [Channel] — https://youtube.com/...
-4. [Title] — [Channel] — https://youtube.com/...
-5. [Title] — [Channel] — https://youtube.com/...
-
-📋 Delivering Questions 1–10 (of ${count} total):
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PART 2 — QUESTIONS JSON (batch 1–10)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART B: Exactly 20 Questions (JSON Array)
+Follow Part A immediately with the JSON array of exactly 20 questions:
 
 [
   {
-    "q": "प्रश्न",
-    "o": [
+    "question": "प्राकृतिक एवं प्रामाणिक परीक्षा प्रश्न...",
+    "options": [
       "विकल्प 1",
       "विकल्प 2",
       "विकल्प 3",
       "विकल्प 4"
     ],
-    "a": 0,
-    "e": "संक्षिप्त एवं प्रमाणिक व्याख्या।",
-    "t": "mcq",
-    "difficulty": "medium",
-    "sourceType": "PYQ_EXACT",
-    "sourceQuestionId": 12845,
-    "exam": "RPSC RAS 2023"
+    "answer": 0,
+    "sourceType": "PYQ",
+    "exam": "RPSC RAS 2023",
+    "explanation": "विस्तृत एवं तथ्यपरक परीक्षा-उपयोगी व्याख्या..."
+  },
+  {
+    "question": "सार्थक रूप से संशोधित प्रश्न...",
+    "options": [
+      "विकल्प 1",
+      "विकल्प 2",
+      "विकल्प 3",
+      "विकल्प 4"
+    ],
+    "answer": 1,
+    "sourceType": "PYQ_MODIFIED",
+    "exam": null,
+    "explanation": "विस्तृत व्याख्या..."
+  },
+  {
+    "question": "नवीनतम एवं मौलिक AI प्रश्न...",
+    "options": [
+      "विकल्प 1",
+      "विकल्प 2",
+      "विकल्प 3",
+      "विकल्प 4"
+    ],
+    "answer": 2,
+    "sourceType": "AI_NEW",
+    "exam": null,
+    "explanation": "विस्तृत व्याख्या..."
   }
 ]
 
-For subsequent batches (11–20, 21–30, etc.), respond ONLY with the JSON
-array for that batch — no need to repeat the research report.
+Allowed "sourceType" values ONLY:
+- "PYQ"
+- "PYQ_MODIFIED"
+- "AI_NEW"
 
-Definitions:
-
-q = question text
-o = exactly 4 substantive options
-a = correct option index: 0, 1, 2 or 3
-e = concise explanation
-t = "mcq" | "assertion" | "true_false" | "match"
-difficulty = "easy" | "medium" | "hard"
-sourceType = "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW"  (REQUIRED)
-sourceQuestionId = original PYQ id number (only for PYQ_EXACT and PYQ_MODIFIED)
-exam = original exam name if verified (only for PYQ_EXACT and PYQ_MODIFIED)
-
-Return no other fields inside the JSON objects.
+Verification Checklist before outputting:
+[ ] Exactly 5 YouTube reference videos listed in Part A (NOT used as question sources)
+[ ] Exactly 20 questions in JSON array in Part B
+[ ] Exactly 14 questions with "sourceType": "PYQ"
+[ ] Exactly 4 questions with "sourceType": "PYQ_MODIFIED"
+[ ] Exactly 2 questions with "sourceType": "AI_NEW"
+[ ] All 20 questions strictly within "${topic}"
+[ ] Exactly 4 substantive options per question
+[ ] "answer" is integer 0, 1, 2, or 3
+[ ] "explanation" present on every question
+[ ] Real exam name preserved where verified, otherwise "exam": null (NO fake exam names)
 `;
 }
+
+export const generateAiPrompt = generateAiQuestionPrompt;

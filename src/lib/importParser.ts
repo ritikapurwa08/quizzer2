@@ -1,6 +1,45 @@
 import { importJsonSchema, ImportJson, QuestionInput, normalizeMinifiedQuestion, extractMatchListsFromText } from "./validators/question";
 
 /**
+ * Robustly extracts the JSON array or object from raw LLM output
+ * that may include preamble text (e.g., Part A YouTube videos, greetings, explanations).
+ */
+export function extractJsonFromLlmOutput(text: string): string {
+  if (!text) return "";
+  const trimmed = text.trim();
+
+  // 1. If it already starts with [ or {, just strip markdown fences
+  if (trimmed.startsWith("[") || trimmed.startsWith("{")) {
+    return stripMarkdownFences(trimmed);
+  }
+
+  // 2. Look for ```json ... ``` or ``` ... ``` code blocks
+  const codeBlockMatch = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+  if (codeBlockMatch && codeBlockMatch[1]) {
+    const candidate = codeBlockMatch[1].trim();
+    if (candidate.startsWith("[") || candidate.startsWith("{")) {
+      return candidate;
+    }
+  }
+
+  // 3. Find outermost [ ... ] array
+  const firstBracket = trimmed.indexOf("[");
+  const lastBracket = trimmed.lastIndexOf("]");
+  if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
+    return trimmed.substring(firstBracket, lastBracket + 1).trim();
+  }
+
+  // 4. Find outermost { ... } object
+  const firstBrace = trimmed.indexOf("{");
+  const lastBrace = trimmed.lastIndexOf("}");
+  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+    return trimmed.substring(firstBrace, lastBrace + 1).trim();
+  }
+
+  return stripMarkdownFences(trimmed);
+}
+
+/**
  * Strips markdown code fences from LLM output, e.g.:
  * ```json
  * [...]
@@ -17,14 +56,15 @@ export function stripMarkdownFences(raw: string): string {
 
 /**
  * Automatically fixes common JSON syntax errors:
+ * - Extracts JSON array from preamble/surrounding text
  * - Trailing commas before } or ]
  * - Single quotes used instead of double quotes for keys/strings
  * - JS line comments (// ...)
  * - Unbalanced closing brackets/braces
  */
 export function autoFixJson(rawJson: string): { fixedText: string; success: boolean } {
-  // First strip markdown fences if present
-  let cleaned = stripMarkdownFences(rawJson);
+  // First extract JSON from LLM output if preamble/YouTube text exists
+  let cleaned = extractJsonFromLlmOutput(rawJson);
 
   // 1. Strip single-line comments // ...
   cleaned = cleaned.replace(/^\s*\/\/.*$/gm, "");
@@ -156,7 +196,8 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       return { validQuestions: [], invalidQuestions: [], totalParsed: 0 };
     }
     try {
-      parsedObj = JSON.parse(trimmed);
+      const extracted = extractJsonFromLlmOutput(trimmed);
+      parsedObj = JSON.parse(extracted);
     } catch {
       const { fixedText, success } = autoFixJson(trimmed);
       if (success) {

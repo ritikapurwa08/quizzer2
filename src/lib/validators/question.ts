@@ -216,21 +216,20 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
 /** Converts a raw minified AI output question object to standard QuestionInput.
  *  Handles both minified keys (q/o/a/e/t) and full keys (questionText/options/etc.).
  */
+/** Converts a raw AI output question object to standard QuestionInput.
+ *  Handles both the new Gemini JSON format (question/options/answer/sourceType/exam/explanation),
+ *  the minified format (q/o/a/e/t), and standard format (questionText/options/correctAnswer/etc.).
+ */
 export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInput | null {
   if (!raw || typeof raw !== "object") return null;
 
   try {
-    const isMinified = "q" in raw && !("questionText" in raw);
-
-    const questionText: string = isMinified
-      ? String(raw.q ?? "").trim()
-      : String(raw.questionText ?? "").trim();
-
+    const questionText: string = String(raw.question ?? raw.questionText ?? raw.q ?? "").trim();
     if (!questionText) return null;
 
     // Options: string[] or {id, text}[]
     let options: { id: string; text: string }[] = [];
-    const rawOptions = raw.o ?? raw.options;
+    const rawOptions = raw.options ?? raw.o;
     if (Array.isArray(rawOptions)) {
       options = rawOptions.map((item: any, i: number) => {
         if (typeof item === "string") {
@@ -243,12 +242,11 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       });
     }
 
-    // The AI contract is exactly four substantive options.
-    // Legacy/full imports may still contain other shapes, but minified AI output
-    // is rejected instead of silently repaired into a lower-quality question.
+    // Filter non-empty options
     options = options.filter(o => o.text.length > 0);
 
-    if (isMinified && options.length !== 4) return null;
+    const isAiFormat = ("q" in raw) || ("question" in raw) || ("sourceType" in raw);
+    if (isAiFormat && options.length !== 4) return null;
     if (options.length < 2) return null;
 
     const allOptionText = options.map((o) => o.text.trim().toLowerCase());
@@ -258,6 +256,7 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     if (
       artifactPattern.test(questionText) ||
       options.some((o) => artifactPattern.test(o.text)) ||
+      (typeof raw.explanation === "string" && artifactPattern.test(raw.explanation)) ||
       (typeof raw.e === "string" && artifactPattern.test(raw.e))
     ) {
       return null;
@@ -265,10 +264,10 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
 
     // Correct answer: integer index (0-3), option ID string ("opt1", "A"), or array
     let correctAnswer: string | string[] = "opt1";
-    const rawAnswer = raw.a !== undefined ? raw.a : raw.correctAnswer;
+    const rawAnswer = raw.answer !== undefined ? raw.answer : raw.a !== undefined ? raw.a : raw.correctAnswer;
     if (typeof rawAnswer === "number") {
-      if (isMinified && !Number.isInteger(rawAnswer)) return null;
-      if (isMinified && (rawAnswer < 0 || rawAnswer > 3)) return null;
+      if (!Number.isInteger(rawAnswer)) return null;
+      if (rawAnswer < 0 || rawAnswer > 3) return null;
       correctAnswer = MINIFIED_INDEX_TO_OPT[rawAnswer] ?? `opt${rawAnswer + 1}`;
     } else if (typeof rawAnswer === "string") {
       const trimmed = rawAnswer.trim();
@@ -278,7 +277,10 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
       else if (upper === "C" || upper === "3") correctAnswer = "opt3";
       else if (upper === "D" || upper === "4") correctAnswer = "opt4";
       else if (upper === "E" || upper === "5") correctAnswer = "opt5";
-      else correctAnswer = trimmed;
+      else if (/^[0-3]$/.test(trimmed)) {
+        const num = parseInt(trimmed, 10);
+        correctAnswer = MINIFIED_INDEX_TO_OPT[num] ?? `opt${num + 1}`;
+      } else correctAnswer = trimmed;
     } else if (Array.isArray(rawAnswer)) {
       correctAnswer = rawAnswer.map(String);
     }
@@ -288,8 +290,8 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? "mcq";
 
     const explanation: string | undefined =
-      (raw.e !== undefined ? String(raw.e).trim() : undefined) ??
-      (raw.explanation !== undefined ? String(raw.explanation).trim() : undefined);
+      (raw.explanation !== undefined && raw.explanation !== null ? String(raw.explanation).trim() : undefined) ??
+      (raw.e !== undefined && raw.e !== null ? String(raw.e).trim() : undefined);
 
     const difficulty = (raw.difficulty as "easy" | "medium" | "hard") ?? "medium";
 
@@ -330,16 +332,16 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
 
     // ── PYQ Provenance capture ───────────────────────────────────────────────
     // Extract optional provenance fields from AI output and store in meta.
-    // Accepted sourceType values from the prompt contract.
+    // Accepted sourceType values: "PYQ" | "PYQ_MODIFIED" | "AI_NEW" (and backward compat "PYQ_EXACT")
     const VALID_SOURCE_TYPES = new Set(["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
     const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim() : undefined;
     const sourceType = rawSourceType && VALID_SOURCE_TYPES.has(rawSourceType)
-      ? (rawSourceType as "PYQ" | "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW")
+      ? (rawSourceType === "PYQ_EXACT" ? "PYQ" : (rawSourceType as "PYQ" | "PYQ_MODIFIED" | "AI_NEW"))
       : undefined;
 
     // sourceQuestionId must be a positive integer and only belongs to PYQ questions
-    const rawSourceId = raw.sourceQuestionId;
-    const isPyqSource = sourceType === "PYQ" || sourceType === "PYQ_EXACT" || sourceType === "PYQ_MODIFIED";
+    const rawSourceId = raw.sourceQuestionId ?? raw.id;
+    const isPyqSource = sourceType === "PYQ" || sourceType === "PYQ_MODIFIED";
     const sourceQuestionId =
       isPyqSource && typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
         ? rawSourceId
@@ -347,9 +349,10 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
           ? parseInt(rawSourceId.trim(), 10)
           : undefined;
 
-    // exam: only attach if it came from a PYQ (never for AI_NEW)
+    // exam: only attach if it came from a PYQ (never for AI_NEW) and not null/fake
     const rawExam = raw.exam != null ? String(raw.exam).trim() : undefined;
-    const examVerified = rawExam && isPyqSource ? rawExam : undefined;
+    const isFake = !rawExam || rawExam.toLowerCase() === "null" || rawExam.toLowerCase() === "unknown" || rawExam.toLowerCase() === "unknown exam" || rawExam.toLowerCase() === "practice exam" || rawExam.toLowerCase() === "mock exam";
+    const examVerified = rawExam && isPyqSource && !isFake ? rawExam : undefined;
 
     if (sourceType || sourceQuestionId !== undefined || examVerified) {
       meta = {
@@ -361,22 +364,15 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     }
 
     // ── Reference field: human-readable attribution ──────────────────────────
-    // The existing `reference` field is already displayed in question cards.
-    // We write PYQ attribution here so exam info is immediately visible in
-    // the UI without any additional UI changes.
-    // Priority: explicit reference from AI > auto-generated from provenance.
     const explicitReference = raw.reference ? String(raw.reference).trim() : undefined;
     let computedReference: string | undefined = explicitReference;
 
     if (!computedReference && sourceType) {
       if (examVerified) {
-        // e.g. "📌 PYQ_EXACT — Food Safety Officer 2022"
         computedReference = `📌 ${sourceType} — ${examVerified}`;
       } else if (sourceType !== "AI_NEW") {
-        // PYQ without exam metadata
         computedReference = `📌 ${sourceType}`;
       }
-      // AI_NEW: no reference attribution needed
     }
 
     return {
@@ -392,6 +388,53 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
   } catch {
     return null;
   }
+}
+
+/**
+ * Validates whether an imported batch meets the Gemini 20-question composition contract:
+ * Exactly 20 questions = 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW.
+ */
+export function validateGeminiComposition(questions: QuestionInput[]): {
+  total: number;
+  pyqCount: number;
+  pyqModifiedCount: number;
+  aiNewCount: number;
+  isValid20: boolean;
+  warnings: string[];
+} {
+  let pyqCount = 0;
+  let pyqModifiedCount = 0;
+  let aiNewCount = 0;
+
+  for (const q of questions) {
+    const st = q.meta?.sourceType;
+    if (st === "PYQ" || st === "PYQ_EXACT") pyqCount++;
+    else if (st === "PYQ_MODIFIED") pyqModifiedCount++;
+    else if (st === "AI_NEW") aiNewCount++;
+  }
+
+  const warnings: string[] = [];
+  if (questions.length !== 20) {
+    warnings.push(`कुल प्रश्न: ${questions.length} (अपेक्षित: ठीक 20 प्रश्न)`);
+  }
+  if (pyqCount !== 14) {
+    warnings.push(`PYQ: ${pyqCount} (अपेक्षित: ठीक 14 PYQ)`);
+  }
+  if (pyqModifiedCount !== 4) {
+    warnings.push(`PYQ_MODIFIED: ${pyqModifiedCount} (अपेक्षित: ठीक 4 PYQ_MODIFIED)`);
+  }
+  if (aiNewCount !== 2) {
+    warnings.push(`AI_NEW: ${aiNewCount} (अपेक्षित: ठीक 2 AI_NEW)`);
+  }
+
+  return {
+    total: questions.length,
+    pyqCount,
+    pyqModifiedCount,
+    aiNewCount,
+    isValid20: questions.length === 20 && pyqCount === 14 && pyqModifiedCount === 4 && aiNewCount === 2,
+    warnings,
+  };
 }
 
 /**

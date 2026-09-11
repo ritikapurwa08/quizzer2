@@ -14,6 +14,7 @@ interface ImportCliOptions {
   dryRun: boolean;
   batchSize: number;
   limit?: number;
+  prod: boolean;
 }
 
 function parseCliArgs(): ImportCliOptions {
@@ -21,11 +22,14 @@ function parseCliArgs(): ImportCliOptions {
   const options: ImportCliOptions = {
     dryRun: false,
     batchSize: 20, // 20 test sets per batch
+    prod: false,
   };
 
   for (const arg of args) {
     if (arg === "--dry-run") {
       options.dryRun = true;
+    } else if (arg === "--prod") {
+      options.prod = true;
     } else if (arg.startsWith("--topic=")) {
       options.topic = arg.split("=")[1].replace(/^["']|["']$/g, "").trim();
     } else if (arg.startsWith("--file=")) {
@@ -40,7 +44,11 @@ function parseCliArgs(): ImportCliOptions {
   return options;
 }
 
-function getConvexUrl(): string {
+function getConvexUrl(options: ImportCliOptions): string {
+  if (options.prod) {
+    return "https://marvelous-chickadee-496.convex.cloud";
+  }
+
   if (process.env.NEXT_PUBLIC_CONVEX_URL) {
     return process.env.NEXT_PUBLIC_CONVEX_URL;
   }
@@ -109,13 +117,25 @@ async function importSingleTestSet(
       })),
     };
 
-    const result = await client.mutation(api.questions.importTestSetAtomic, payload);
+    let retries = 2;
+    while (retries >= 0) {
+      try {
+        const result = await client.mutation(api.questions.importTestSetAtomic, payload);
 
-    if (result.status === "already_exists") {
-      return { status: "already_exists", count: result.existingCount };
+        if (result.status === "already_exists") {
+          return { status: "already_exists", count: result.existingCount };
+        }
+
+        return { status: "imported", count: result.imported };
+      } catch (err: unknown) {
+        if (retries === 0) {
+          return { status: "error", error: (err as Error).message || String(err) };
+        }
+        retries--;
+        await new Promise((resolve) => setTimeout(resolve, 800));
+      }
     }
-
-    return { status: "imported", count: result.imported };
+    return { status: "error", error: "Exceeded retries" };
   } catch (err: unknown) {
     return { status: "error", error: (err as Error).message || String(err) };
   }
@@ -123,10 +143,12 @@ async function importSingleTestSet(
 
 async function runImporter() {
   const options = parseCliArgs();
+  const convexUrl = getConvexUrl(options);
   console.log("\n========================================================");
   console.log("   Quizzer2 — Production Batched Test Set Importer");
   console.log("========================================================");
-  console.log(`Mode       : ${options.dryRun ? "🔍 DRY-RUN (no database writes)" : "🚀 LIVE PRODUCTION IMPORT"}`);
+  console.log(`Target Env : ${options.prod ? "🔥 PRODUCTION (" + convexUrl + ")" : "🛠️ DEV (" + convexUrl + ")"}`);
+  console.log(`Mode       : ${options.dryRun ? "🔍 DRY-RUN (no database writes)" : "🚀 LIVE IMPORT"}`);
   console.log(`Batch Size : ${options.batchSize} test sets per batch`);
   if (options.topic) console.log(`Topic Filter: "${options.topic}"`);
   if (options.file) console.log(`File Filter : "${options.file}"`);
@@ -163,7 +185,6 @@ async function runImporter() {
 
   console.log(`Total test sets to process: ${totalFiles}\n`);
 
-  const convexUrl = getConvexUrl();
   const client = new ConvexHttpClient(convexUrl);
 
   let totalImported = 0;
