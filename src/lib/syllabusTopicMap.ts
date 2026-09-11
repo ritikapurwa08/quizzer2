@@ -632,12 +632,12 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────────
-  // 4. Rajasthan Polity & Administration (राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था)
+  // 4. Rajasthan Polity & Administration (राजस्थान की राजव्यवस्था)
   // ──────────────────────────────────────────────────────────────────────────
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "governor",
     topicName: "Governor",
     topicNameHindi: "राज्यपाल",
@@ -646,7 +646,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "chief-minister",
     topicName: "Chief Minister",
     topicNameHindi: "मुख्यमंत्री",
@@ -655,7 +655,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "council-of-ministers",
     topicName: "Council of Ministers",
     topicNameHindi: "मन्त्रिपरिषद",
@@ -664,7 +664,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "state-legislature",
     topicName: "State Legislature",
     topicNameHindi: "राज्य विधानमंडल",
@@ -673,7 +673,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-high-court",
     topicName: "Rajasthan High Court",
     topicNameHindi: "राजस्थान उच्च न्यायालय",
@@ -682,7 +682,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "subordinate-courts",
     topicName: "Subordinate Courts",
     topicNameHindi: "अधीनस्थ न्यायालय",
@@ -691,7 +691,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "panchayati-raj",
     topicName: "Panchayati Raj",
     topicNameHindi: "पंचायती राज",
@@ -700,7 +700,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "urban-local-government",
     topicName: "Urban Local Government",
     topicNameHindi: "नगरीय निकाय",
@@ -709,7 +709,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "state-secretariat",
     topicName: "State Secretariat",
     topicNameHindi: "राज्य सचिवालय",
@@ -718,7 +718,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "divisional-commissioner",
     topicName: "Divisional Commissioner",
     topicNameHindi: "संभाग आयुक्त",
@@ -727,7 +727,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "district-administration",
     topicName: "District Administration",
     topicNameHindi: "जिला प्रशासन",
@@ -736,7 +736,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-public-service-commission-rpsc",
     topicName: "Rajasthan Public Service Commission (RPSC)",
     topicNameHindi: "राजस्थान लोक सेवा आयोग (RPSC)",
@@ -745,7 +745,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-state-womens-commission",
     topicName: "Rajasthan State Women's Commission",
     topicNameHindi: "राज्य महिला आयोग",
@@ -754,7 +754,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-state-finance-commission",
     topicName: "Rajasthan State Finance Commission",
     topicNameHindi: "राज्य वित्त आयोग",
@@ -763,7 +763,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-state-election-commission",
     topicName: "Rajasthan State Election Commission",
     topicNameHindi: "राज्य निर्वाचन आयोग",
@@ -772,7 +772,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "lokayukta",
     topicName: "Lokayukta",
     topicNameHindi: "लोकायुक्त",
@@ -781,7 +781,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-state-legal-services-authority",
     topicName: "Rajasthan State Legal Services Authority",
     topicNameHindi: "राज्य विधिक सेवा प्राधिकरण",
@@ -790,7 +790,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "local-self-government-panchayati-raj",
     topicName: "Local Self Government & Panchayati Raj",
     topicNameHindi: "स्थानीय स्वायत्त शासन एवं पंचायती राज",
@@ -799,7 +799,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-public-service-guarantee-act-2011",
     topicName: "Rajasthan Public Service Guarantee Act 2011",
     topicNameHindi: "राजस्थान लोक सेवा गारंटी अधिनियम 2011",
@@ -808,7 +808,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "board-of-revenue-rajasthan",
     topicName: "Board of Revenue Rajasthan",
     topicNameHindi: "राजस्‍व मण्‍डल राजस्‍थान",
@@ -817,7 +817,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   {
     subjectSlug: "rajasthan-polity-administration",
     subjectName: "Rajasthan Polity & Administration",
-    subjectNameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    subjectNameHindi: "राजस्थान की राजव्यवस्था",
     topicSlug: "rajasthan-contribution-to-constitution-making",
     topicName: "Rajasthan Contribution to Constitution Making",
     topicNameHindi: "संविधान निर्माण में राजस्थान का योगदान",
@@ -1021,84 +1021,98 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────────
-  // 6. World & India General Knowledge (विश्व एवं भारत का सामान्य ज्ञान)
+  // 6. World General Knowledge (विश्व का सामान्य ज्ञान)
   // ──────────────────────────────────────────────────────────────────────────
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "world-gk",
+    subjectName: "World General Knowledge",
+    subjectNameHindi: "विश्व का सामान्य ज्ञान",
     topicSlug: "world-geography-continents",
     topicName: "World Geography - Continents",
     topicNameHindi: "विश्व भूगोल - महाद्वीप",
-    corpusTopics: ["स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।", "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें"],
+    corpusTopics: [
+      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार, मैदान एवं मरुस्थल",
+      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
+      "स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।",
+      "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें",
+    ],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "world-gk",
+    subjectName: "World General Knowledge",
+    subjectNameHindi: "विश्व का सामान्य ज्ञान",
     topicSlug: "world-geography-oceans",
     topicName: "World Geography - Oceans",
     topicNameHindi: "विश्व भूगोल - महासागर",
     corpusTopics: ["महासागर– महासागरीय जलधाराएँ एवं जलमार्ग।", "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें"],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "world-gk",
+    subjectName: "World General Knowledge",
+    subjectNameHindi: "विश्व का सामान्य ज्ञान",
     topicSlug: "world-geography-global-wind-system",
     topicName: "World Geography - Global Wind System",
     topicNameHindi: "विश्व भूगोल - पवन तंत्र",
     corpusTopics: ["प्रमुख पवन तंत्र–वैश्विक पवनें, स्थानीय पवनें।"],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "world-gk",
+    subjectName: "World General Knowledge",
+    subjectNameHindi: "विश्व का सामान्य ज्ञान",
     topicSlug: "world-geography-environmental-problems",
     topicName: "World Geography - Environmental Problems",
     topicNameHindi: "विश्व भूगोल - पर्यावरणीय समस्याएं",
     corpusTopics: ["पर्यावरणीय मुद्दे–मरुस्थलीयकरण, वनोन्मूलन, जलवायु परिवर्तन एवं ग्लोबल वार्मिंग (ऊष्मीकरण), ओजन अवक्षय"],
   },
+
+  // ──────────────────────────────────────────────────────────────────────────
+  // 7. India General Knowledge (भारत का सामान्य ज्ञान)
+  // ──────────────────────────────────────────────────────────────────────────
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "india-gk",
+    subjectName: "India General Knowledge",
+    subjectNameHindi: "भारत का सामान्य ज्ञान",
     topicSlug: "india-geography-physical-features",
     topicName: "India Geography - Physical Features",
     topicNameHindi: "भारत भूगोल - भौतिक स्वरूप",
-    corpusTopics: ["प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें", "स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।"],
+    corpusTopics: [
+      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार, मैदान एवं मरुस्थल",
+      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
+      "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें",
+      "स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।",
+    ],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "india-gk",
+    subjectName: "India General Knowledge",
+    subjectNameHindi: "भारत का सामान्य ज्ञान",
     topicSlug: "india-geography-climate",
     topicName: "India Geography - Climate",
     topicNameHindi: "भारत भूगोल - जलवायु",
     corpusTopics: ["मानसून तंत्र व वर्षा का वितरण"],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "india-gk",
+    subjectName: "India General Knowledge",
+    subjectNameHindi: "भारत का सामान्य ज्ञान",
     topicSlug: "india-geography-monsoon-system",
     topicName: "India Geography - Monsoon System",
     topicNameHindi: "भारत भूगोल - मानसून तंत्र",
     corpusTopics: ["मानसून तंत्र व वर्षा का वितरण"],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "india-gk",
+    subjectName: "India General Knowledge",
+    subjectNameHindi: "भारत का सामान्य ज्ञान",
     topicSlug: "india-geography-drainage-system",
     topicName: "India Geography - Drainage System",
     topicNameHindi: "भारत भूगोल - अपवाह तंत्र",
     corpusTopics: ["प्रमुख नदियाँ एवं झीलें"],
   },
   {
-    subjectSlug: "world-india-gk",
-    subjectName: "World & India General Knowledge",
-    subjectNameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
+    subjectSlug: "india-gk",
+    subjectName: "India General Knowledge",
+    subjectNameHindi: "भारत का सामान्य ज्ञान",
     topicSlug: "india-geography-natural-vegetation",
     topicName: "India Geography - Natural Vegetation",
     topicNameHindi: "भारत भूगोल - प्राकृतिक वनस्पति",
@@ -1106,7 +1120,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────────
-  // 7. Indian Polity & Foreign Policy (भारतीय राजव्यवस्था एवं विदेश नीति)
+  // 8. Indian Polity & Foreign Policy (भारतीय राजव्यवस्था एवं विदेश नीति)
   // ──────────────────────────────────────────────────────────────────────────
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1164,7 +1178,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
   },
 
   // ──────────────────────────────────────────────────────────────────────────
-  // 8. Educational Psychology (शिक्षा मनोविज्ञान)
+  // 9. Educational Psychology (शिक्षा मनोविज्ञान)
   // ──────────────────────────────────────────────────────────────────────────
   {
     subjectSlug: "educational-psychology",

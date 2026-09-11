@@ -139,7 +139,16 @@ export function mapSubjectForTopic(topicName: string): { name: string; slug: str
     return { name: "भारतीय राजव्यवस्था एवं विदेश नीति", slug: "indian-polity-foreign-policy" };
   }
 
-  // World & India GK / Geography / History
+  // World GK
+  if (
+    t.includes("वैश्विक") || t.includes("विश्व") || t.includes("महाद्वीप") || t.includes("महासागर") ||
+    t.includes("पवन तंत्र") || t.includes("पर्यावरणीय मुद्दे") || t.includes("ग्लोबल वार्मिंग") ||
+    t.includes("ओजन अवक्षय")
+  ) {
+    return { name: "विश्व का सामान्य ज्ञान", slug: "world-gk" };
+  }
+
+  // India GK / Geography / History / Economy
   if (
     t.includes("सिंधु घाटी") || t.includes("वैदिक काल") || t.includes("बौद्ध") ||
     t.includes("जैन धर्म") || t.includes("मौर्य") || t.includes("कुषाण") ||
@@ -148,10 +157,9 @@ export function mapSubjectForTopic(topicName: string): { name: string; slug: str
     t.includes("सूफी आन्दोलन") || t.includes("राष्ट्रीय आन्दोलन") || t.includes("स्वतंत्रता संघर्ष") ||
     t.includes("राष्ट्र निर्माण") || t.includes("आधुनिक भारत का विकास") || t.includes("बौद्धिक जागरण") ||
     t.includes("स्थलाकृतियाँ") || t.includes("पर्वत, पठार") || t.includes("औद्योगिक प्रदेश") ||
-    t.includes("मानसून तंत्र") || t.includes("परिवहन गलियारे") || t.includes("वैश्विक") ||
-    t.includes("विश्व") || t.includes("महाद्वीप") || t.includes("महासागर")
+    t.includes("मानसून तंत्र") || t.includes("परिवहन गलियारे") || t.includes("भारत")
   ) {
-    return { name: "विश्व एवं भारत का सामान्य ज्ञान", slug: "world-india-gk" };
+    return { name: "भारत का सामान्य ज्ञान", slug: "india-gk" };
   }
 
   // Rajasthan Current Affairs / Welfare schemes
@@ -175,7 +183,7 @@ export function mapSubjectForTopic(topicName: string): { name: string; slug: str
     t.includes("विधिक अधिकार") || t.includes("नागरिक अधिकार") || t.includes("लोक सेवा आयोग") ||
     t.includes("राजस्‍व मण्‍डल") || t.includes("राजस्व मंडल")
   ) {
-    return { name: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था", slug: "rajasthan-polity-administration" };
+    return { name: "राजस्थान की राजव्यवस्था", slug: "rajasthan-polity-administration" };
   }
 
   // Rajasthan Art, Culture & Society

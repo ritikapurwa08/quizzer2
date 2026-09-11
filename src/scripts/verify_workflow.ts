@@ -261,6 +261,34 @@ for (const mapping of CANONICAL_TOPIC_MAPPINGS) {
 assert(totalCanonicalTopics >= 100, `Canonical topics count is comprehensive (${totalCanonicalTopics} topics)`);
 assert(totalMappedTopics >= 100, `Mapped ${totalMappedTopics}/${totalCanonicalTopics} canonical topics to authorized corpus topics`);
 
+// -----------------------------------------------------------------------------
+// TEST 10: Strict Separation of World GK vs India GK & Rajasthan Polity Rename
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 10: World GK vs India GK Separation & Rajasthan Polity Rename ---");
+const worldGkResult = retrievePyqsForTopic({
+  subjectName: "विश्व का सामान्य ज्ञान",
+  topicName: "विश्व भूगोल - महाद्वीप",
+  batchSize: 50,
+});
+assert(worldGkResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'विश्व भूगोल - महाद्वीप'");
+assert(worldGkResult.questions.length > 0, `Found questions for World GK Continents (${worldGkResult.questions.length})`);
+
+const indiaGkResult = retrievePyqsForTopic({
+  subjectName: "भारत का सामान्य ज्ञान",
+  topicName: "भारत भूगोल - भौतिक स्वरूप",
+  batchSize: 50,
+});
+assert(indiaGkResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'भारत भूगोल - भौतिक स्वरूप'");
+assert(indiaGkResult.questions.length > 0, `Found questions for India GK Physical Features (${indiaGkResult.questions.length})`);
+
+const rajPolityResult = retrievePyqsForTopic({
+  subjectName: "राजस्थान की राजव्यवस्था",
+  topicName: "राज्यपाल",
+  batchSize: 50,
+});
+assert(rajPolityResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'राजस्थान की राजव्यवस्था' -> 'राज्यपाल'");
+assert(rajPolityResult.questions.length > 0, `Found questions for Governor in Rajasthan Polity (${rajPolityResult.questions.length})`);
+
 console.log("\n================================================================================");
 console.log(`VERIFICATION SUMMARY: ${passCount} PASSED, ${failCount} FAILED`);
 console.log("================================================================================");

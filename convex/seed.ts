@@ -95,7 +95,7 @@ export const SYLLABUS_DATA = [
   },
   {
     name: "Rajasthan Polity & Administration",
-    nameHindi: "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+    nameHindi: "राजस्थान की राजव्यवस्था",
     slug: "rajasthan-polity-administration",
     description: "Governor, CM, state legislature, High Court, Panchayati Raj, district administration, RPSC & Commissions",
     topics: [
@@ -152,10 +152,10 @@ export const SYLLABUS_DATA = [
     ],
   },
   {
-    name: "World & India General Knowledge",
-    nameHindi: "विश्व एवं भारत का सामान्य ज्ञान",
-    slug: "world-india-gk",
-    description: "World geography, Indian geography, monsoon, natural resources, biodiversity & Indian economy",
+    name: "World General Knowledge",
+    nameHindi: "विश्व का सामान्य ज्ञान",
+    slug: "world-gk",
+    description: "World geography, continents, oceans, wind system, environmental problems, strategies & population",
     topics: [
       { name: "World Geography - Continents", nameHindi: "विश्व भूगोल - महाद्वीप" },
       { name: "World Geography - Oceans", nameHindi: "विश्व भूगोल - महासागर" },
@@ -166,6 +166,14 @@ export const SYLLABUS_DATA = [
       { name: "World Geography - Major Human Occupations", nameHindi: "विश्व भूगोल - प्रमुख मानव व्यवसाय" },
       { name: "World Geography - Population Distribution", nameHindi: "विश्व भूगोल - जनसंख्या वितरण" },
       { name: "World Geography - Population Growth", nameHindi: "विश्व भूगोल - जनसंख्या वृद्धि" },
+    ],
+  },
+  {
+    name: "India General Knowledge",
+    nameHindi: "भारत का सामान्य ज्ञान",
+    slug: "india-gk",
+    description: "Indian geography, physical features, climate, monsoon, drainage, vegetation, biodiversity, energy resources & Indian economy",
+    topics: [
       { name: "India Geography - Physical Features", nameHindi: "भारत भूगोल - भौतिक स्वरूप" },
       { name: "India Geography - Climate", nameHindi: "भारत भूगोल - जलवायु" },
       { name: "India Geography - Monsoon System", nameHindi: "भारत भूगोल - मानसून तंत्र" },
@@ -266,6 +274,36 @@ export const seedFixedSyllabus = mutation({
   handler: async (ctx) => {
     let subjectCount = 0;
     let topicCount = 0;
+
+    // Clean up deprecated "world-india-gk" subject and its topics if present
+    const oldSubject = await ctx.db
+      .query("subjects")
+      .withIndex("by_slug", (q) => q.eq("slug", "world-india-gk"))
+      .unique();
+    if (oldSubject) {
+      const oldTopics = await ctx.db
+        .query("topics")
+        .withIndex("by_subject", (q) => q.eq("subjectId", oldSubject._id))
+        .collect();
+      for (const t of oldTopics) {
+        const testSets = await ctx.db
+          .query("testSets")
+          .withIndex("by_topic", (q) => q.eq("topicId", t._id))
+          .collect();
+        for (const ts of testSets) {
+          const qs = await ctx.db
+            .query("questions")
+            .withIndex("by_test_set", (q) => q.eq("testSetId", ts._id))
+            .collect();
+          for (const q of qs) {
+            await ctx.db.delete(q._id);
+          }
+          await ctx.db.delete(ts._id);
+        }
+        await ctx.db.delete(t._id);
+      }
+      await ctx.db.delete(oldSubject._id);
+    }
 
     for (let sIndex = 0; sIndex < SYLLABUS_DATA.length; sIndex++) {
       const item = SYLLABUS_DATA[sIndex];
