@@ -271,7 +271,7 @@ export const seedFixedSyllabus = mutation({
       const item = SYLLABUS_DATA[sIndex];
       if (!item) continue;
 
-      let subject = await ctx.db
+      const subject = await ctx.db
         .query("subjects")
         .withIndex("by_slug", (q) => q.eq("slug", item.slug))
         .unique();

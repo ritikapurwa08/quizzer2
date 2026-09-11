@@ -35,7 +35,7 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     subject = "Rajasthan General Knowledge",
     topic = "General Topic",
     subtopic,
-    count = 20,
+    count: _count = 20,
     referenceText,
     pyqReferences = [],
     pyqStats,

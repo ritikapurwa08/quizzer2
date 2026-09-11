@@ -25,7 +25,6 @@ import {
   PyqRetrievalQuery,
   PyqRetrievalOptions,
   PyqRetrievalResult,
-  formatPyqsForPrompt,
 } from "./pyqTypes";
 
 export * from "./pyqTypes";
