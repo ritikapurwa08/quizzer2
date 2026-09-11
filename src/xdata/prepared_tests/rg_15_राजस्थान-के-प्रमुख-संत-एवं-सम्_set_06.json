@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के प्रमुख संत एवं सम्प्रदाय",
+  "topicSlug": "राजस्थान-के-प्रमुख-संत-एवं-सम्प्रदाय",
+  "testSetName": "राजस्थान के प्रमुख संत एवं सम्प्रदाय - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान के कबीर’ के नाम से कौन विख्यात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू दयाल"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिदास"
+        },
+        {
+          "id": "opt3",
+          "text": "लालदास"
+        },
+        {
+          "id": "opt4",
+          "text": "नवल राम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संत दादू जी को राजस्थान के कबीर के रूप में जाना जाता है क्योंकि इन्होंने राजस्थान में कबीर की तरह एक भक्ति आंदोलन शुरू किया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (SWT) Exam 2024",
+      "sourceQuestionId": 4825,
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ये रामस्नेही सम्प्रदाय के संस्थापक माने जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामजनकजी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामचरणजी"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदासजी"
+        },
+        {
+          "id": "opt4",
+          "text": "बनारसीदासजी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रामस्नेही सम्प्रदाय की स्थापना रामचरणजी ने की थी। राजस्थान में रामस्नेही सम्प्रदाय की चार पीठ हैं- शाहपुरा, रेन, खेड़ाका और सिंहथल।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (PLM) Exam 2024",
+      "sourceQuestionId": 4826,
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सबदवाणी’ किसके वचनों का सामूहिक नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू"
+        },
+        {
+          "id": "opt2",
+          "text": "जसनाथजी"
+        },
+        {
+          "id": "opt3",
+          "text": "जाम्भोजी"
+        },
+        {
+          "id": "opt4",
+          "text": "मीरा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘सबदवाणी’ जाम्भोजी (बिश्नोई संप्रदाय के संस्थापक) के उपदेशों का संग्रह है, जो बिश्नोई धर्म के सिद्धांतों को दर्शाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MMV) Exam 2024",
+      "sourceQuestionId": 4827,
+      "reference": "📌 PYQ — Junior Instructor (MMV) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सलेमाबाद में निम्बार्क पीठ के संस्थापक निम्न में से कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरिव्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "दामोदर"
+        },
+        {
+          "id": "opt3",
+          "text": "विष्णु स्वामी"
+        },
+        {
+          "id": "opt4",
+          "text": "परशुराम देव"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "निम्बार्काचार्य पीठ सलेमाबाद (अजमेर) में स्थित है। इसे 36 वें निम्बार्काचार्य परशुराम देव ने बनवाया था। राजस्थान में, निम्बार्क संप्रदाय की एक और पीठ उदयपुर में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 4828,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "____ को नाथद्वारा में श्रीकृष्ण का प्रतीक रूप मान कर पूजा की जाती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांकेबिहारी"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीनाथजी"
+        },
+        {
+          "id": "opt3",
+          "text": "गोविन्ददेवजी"
+        },
+        {
+          "id": "opt4",
+          "text": "रतनबिहारी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "श्रीनाथजी नाथद्वारा (राजस्थान) में श्रीकृष्ण के प्रतीक रूप में पूजे जाते हैं। यह वैष्णव सम्प्रदाय का प्रमुख तीर्थ स्थल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COS) Exam 2024",
+      "sourceQuestionId": 4829,
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वागड़ की मीरा’ किसे कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालीबाई"
+        },
+        {
+          "id": "opt2",
+          "text": "रानीबाई"
+        },
+        {
+          "id": "opt3",
+          "text": "रुमादेवी"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरीबाई"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गवरीबाई को ‘वागड़ की मीरा’ कहा जाता है। वे वागड़ क्षेत्र (दक्षिणी राजस्थान) की प्रसिद्ध भक्ति कवयित्री थीं, जिन्हें उनकी भक्ति और काव्य के लिए मीरा बाई की तरह सम्मान दिया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COS) Exam 2024",
+      "sourceQuestionId": 4830,
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "खालसा, विरक्त, उत्तरादे, खाकी, नागा आदि किस पंथ की शाखाएँ हैं - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीरा पंथ"
+        },
+        {
+          "id": "opt2",
+          "text": "सिक्ख पंथ"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदेव पंथ"
+        },
+        {
+          "id": "opt4",
+          "text": "दादू पंथ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खालसा, विरक्त, उत्तरादे, खाकी, और नागा दादू पंथ की विभिन्न शाखाएँ हैं। दादू दयाल गुजरात के थे, लेकिन जयपुर राजस्थान के पास नारायणा चले गए, जहाँ उन्होंने अपने चारों ओर अनुयायियों का एक समूह इकट्ठा किया, जिससे एक संप्रदाय बना जो दादूपंथ के रूप में जाना जाने लगा। दादूजी की मृत्यु के बाद, दादू संप्रदाय कई शाखाओं में विभाजित हो गया, जो इस प्रकार हैं:खालसा - यह नारायणा से जुड़ा है, जो दादू संप्रदाय का मुख्य स्थान है। इस शाखा का मुखिया उनका पुत्र गरिबदास जी था।विरक्त - ये दादू संप्रदाय के चहल-पहल वाले साधु थे जो गृहस्थों को आदेश देते थे।खाकी - वह अपने शरीर पर भस्म लगाता था और खाकी कपड़े पहनता था।उत्तरादे और स्थानधारी - जो राजस्थान छोड़कर उत्तरी भारत की ओर चले गए।दादू संप्रदाय में नागा पंथ की स्थापना संत सुंदरदास जी ने की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (STE) Exam 2024",
+      "sourceQuestionId": 4831,
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निर्गुण निराकर ईश्वर में विश्वास रखने वाले मल्लीनाथजी के नाम पर ही बाड़मेर परगने का नाम पड़ा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालव प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "मालाणी प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "मल्ली प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "मल्ली मेढ़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4994,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के वे प्रसिद्ध सन्त जिन्होंने यह लिखा था कि ‘ईश्वर नित्य है, सर्वोपरि है, मनुष्य वासनाओं का दास है’ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीराबाई"
+        },
+        {
+          "id": "opt2",
+          "text": "सुन्दरदासजी"
+        },
+        {
+          "id": "opt3",
+          "text": "लालदासजी"
+        },
+        {
+          "id": "opt4",
+          "text": "रैदासजी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4995,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

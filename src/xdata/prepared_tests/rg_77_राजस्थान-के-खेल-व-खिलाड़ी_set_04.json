@@ -1,0 +1,289 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के खेल व खिलाड़ी",
+  "topicSlug": "राजस्थान-के-खेल-व-खिलाड़ी",
+  "testSetName": "राजस्थान के खेल व खिलाड़ी - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का राज्य खेल कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हॉकी"
+        },
+        {
+          "id": "opt2",
+          "text": "तीरंदाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "क्रिकेट"
+        },
+        {
+          "id": "opt4",
+          "text": "बास्केटबॉल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 16226,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कौन राजस्थान की प्रसिद्ध एथलीट है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भुवनेश्वरी कुमारी"
+        },
+        {
+          "id": "opt2",
+          "text": "मंजू बाला स्वामी"
+        },
+        {
+          "id": "opt3",
+          "text": "मंजरी भार्गव"
+        },
+        {
+          "id": "opt4",
+          "text": "सुनीता पुरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 16227,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे ‘रोलबॉल’ के क्षेत्र में गुरु वशिष्ट पुरस्कार 2017-18 प्रदान किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेव शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजेश कुमार टेलर"
+        },
+        {
+          "id": "opt3",
+          "text": "महेश कुमार रंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "रमेश सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 English L2",
+      "sourceQuestionId": 16228,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा खिलाड़ी हेमर थ्रो खेल से सम्बन्धित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीरज बलौदा"
+        },
+        {
+          "id": "opt2",
+          "text": "निलेश पूनियां"
+        },
+        {
+          "id": "opt3",
+          "text": "अंजनि कुमार"
+        },
+        {
+          "id": "opt4",
+          "text": "मन्जू बाला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+      "sourceQuestionId": 16229,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे एथलेटिक्स श्रेणी में प्रथम महाराणा प्रताप पुरस्कार 1982-83 से सम्मानित नहीं किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजकुमार अहलावत"
+        },
+        {
+          "id": "opt2",
+          "text": "हामिदा बानो"
+        },
+        {
+          "id": "opt3",
+          "text": "राजेन्द्र प्रसाद शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "गोपाल सैनी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Hindi L2",
+      "sourceQuestionId": 16230,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के अर्जुनलाल जाट ने टोक्यो ओलम्पिक 2020 में किस स्पर्धा में भाग लिया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नौकायन"
+        },
+        {
+          "id": "opt2",
+          "text": "निशानेबाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "मुक्केबाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "तीरंदाजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 L1",
+      "sourceQuestionId": 16232,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजय सिंह शेखावत ____ से सम्बद्ध है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारोत्तोलन"
+        },
+        {
+          "id": "opt2",
+          "text": "हॉकी"
+        },
+        {
+          "id": "opt3",
+          "text": "निशानेबाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "एथलेटिक्स"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 L1",
+      "sourceQuestionId": 16233,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान की निम्न में से किस महिला तैराक (swimmer) को अर्जुन पुरस्कार से सम्मानित किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्षा सोनी"
+        },
+        {
+          "id": "opt2",
+          "text": "मंजरी भार्गव"
+        },
+        {
+          "id": "opt3",
+          "text": "सुनीता पुरी"
+        },
+        {
+          "id": "opt4",
+          "text": "भुवनेश्वरी कुमारी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मंजरी भार्गव को तैराकी के क्षेत्र में अर्जुन पुरस्कार (1974) मिला है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16202,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से राजस्थान के किस क्रिकेट खिलाड़ी ने अंतरराष्ट्रीय टेस्ट क्रिकेट मैच नहीं खेला?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमन्तसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "पंकज सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गगन खोड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "पी.कृष्णकुमार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पी. कृष्ण कुमार राजस्थान के लिए रणजी स्तर के खिलाड़ी और कोच रहे, लेकिन उन्होंने अंतरराष्ट्रीय टेस्ट मैच नहीं खेला।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16203,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के खेल व खिलाड़ी\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के खेल व खिलाड़ी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के खेल व खिलाड़ी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

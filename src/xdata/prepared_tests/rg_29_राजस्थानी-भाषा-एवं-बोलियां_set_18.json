@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थानी भाषा एवं बोलियां",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियां",
+  "testSetName": "राजस्थानी भाषा एवं बोलियां - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा के छन्दों के आधार पर रचित ‘पिंगल सिरोमणि’ ग्रन्थ के रचयिता हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किसना आढ़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ईसर दास"
+        },
+        {
+          "id": "opt3",
+          "text": "करणीदान कविया"
+        },
+        {
+          "id": "opt4",
+          "text": "कुशल लाभ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 8110,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मालवा प्रदेश के राजपूतों में प्रचलित मारवाड़ी और मालवी के सम्मिश्रण से उत्पन्न बोली का क्या नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "रांगड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 8112,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन विद्वान हैं, जो राजस्थानी भाषा-बोलियों से सम्बन्धित कार्य के लिए नहीं जाने जाते -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नोम चोम्स्की"
+        },
+        {
+          "id": "opt2",
+          "text": "जाॅर्ज अब्राहम ग्रियर्सन"
+        },
+        {
+          "id": "opt3",
+          "text": "डा. मोतीलाल मेनारिया"
+        },
+        {
+          "id": "opt4",
+          "text": "डा. हीरालाल माहेश्वरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 8113,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस बोली पर मालवी का शक्तिशाली प्रभाव है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "अहोरवाटी"
+        },
+        {
+          "id": "opt3",
+          "text": "ढूंढाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (16-09-18) Paper-1",
+      "sourceQuestionId": 8120,
+      "reference": "📌 PYQ — RSMSSB LDC (16-09-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की किस बोली पर मराठी भाषा का प्रभाव है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "ढूंढाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (12-08-18) Paper-1",
+      "sourceQuestionId": 8122,
+      "reference": "📌 PYQ — RSMSSB LDC (12-08-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में से किस जिले में मेवाती भाषा बोली जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+      "sourceQuestionId": 8123,
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जगरोटी किस क्षेत्र की बोली है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जगरोटी (Jagaroti) बोली करौली क्षेत्र की प्रमुख बोली है। यह राजस्थानी भाषा की एक उपबोली है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 7925,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थानी शैलीी का उद्गम का काल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तुगलक काल"
+        },
+        {
+          "id": "opt2",
+          "text": "मुगल काल"
+        },
+        {
+          "id": "opt3",
+          "text": "मौर्य काल"
+        },
+        {
+          "id": "opt4",
+          "text": "कम्पनी काल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8128,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थानी भाषा का उत्पति काल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेहरवीं शताब्दी का प्रारम्भीक काल"
+        },
+        {
+          "id": "opt2",
+          "text": "बाहरवीं शताब्दी का अन्तिम चरण"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्याहरवीं शताब्दी"
+        },
+        {
+          "id": "opt4",
+          "text": "चैदहवीं शताब्दी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8129,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी भाषा एवं बोलियां\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थानी भाषा एवं बोलियां\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थानी भाषा एवं बोलियां\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

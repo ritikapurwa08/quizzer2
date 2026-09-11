@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "दैनिक जीवन में विज्ञान के मूलभूत तत्व",
+  "topicSlug": "दैनिक-जीवन-में-विज्ञान-के-मूलभूत-तत्व",
+  "testSetName": "दैनिक जीवन में विज्ञान के मूलभूत तत्व - अभ्यास टेस्ट 17",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "रक्त हिम घटना होती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बर्फ में मृत जीवों के रक्त के कारण"
+        },
+        {
+          "id": "opt2",
+          "text": "अम्लीय वर्षा के कारण"
+        },
+        {
+          "id": "opt3",
+          "text": "एक शैवाल के कारण"
+        },
+        {
+          "id": "opt4",
+          "text": "मृदा में लौह तत्त्व के कारण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रक्त हिम घटना एक ऐसी घटना है जो तब होती है जब बर्फ या शैवाल द्वारा लाल या गुलाबी रंग की हो जाती है। इसे तरबूज बर्फ, बर्फ शैवाल या रक्त बर्फ के रूप में भी जाता है। यह शैवाल उस मौसम में निष्क्रिय रहता है जबकि तापमान शून्य से नीचे होता है और सूर्य का प्रकाश कम होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23230,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैद्युत परिपथ हेतु किरचॉफ का प्रथम नियम आधारित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द्रव्यमान संरक्षण पर"
+        },
+        {
+          "id": "opt2",
+          "text": "आवेश संरक्षण पर"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊर्जा संरक्षण पर"
+        },
+        {
+          "id": "opt4",
+          "text": "भार संरक्षण पर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वैद्युत परिपथ हेतु किरचॉफ का प्रथम नियम आवेश संरक्षण पर आधारित है किरचॉफ के नियम का इस्तेमाल सेमी कंडक्टर वाले परिपथों में किया जा सकता है। यहACतथाDCदोनों तरह के परिपथों में लागू होता है। किरचॉफ का द्वितीय नियम को वोल्टेज का नियम भी कहते है। यह ऊर्जा के संरक्षण पर आधारित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23231,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विसरण धारा क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सामान्य विद्युत धारा"
+        },
+        {
+          "id": "opt2",
+          "text": "आवेश की ऋण से धनात्मक दिशा की ओर गति"
+        },
+        {
+          "id": "opt3",
+          "text": "आवेश की उच्च घनत्व से निम्न घनत्व की ओर गति"
+        },
+        {
+          "id": "opt4",
+          "text": "आवेश की किसी भी दिशा में गति"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विसरण धारा आवेश की उच्च घनत्व से निम्न घनत्व की ओर गति करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23232,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सामान्य तापमान पर एकमात्र तरल धातु है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताँबा"
+        },
+        {
+          "id": "opt2",
+          "text": "आर्सेनिक"
+        },
+        {
+          "id": "opt3",
+          "text": "पारा"
+        },
+        {
+          "id": "opt4",
+          "text": "सीसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सामान्य ताप पर पारा एकमात्र धातु है जो तरल अवस्था में पाया जाता है। 698",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23233,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आंत्र उपकला में श्लेष्मा स्रावित करने वाली कोशिकाएँ हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "β -कोशिकाएँ"
+        },
+        {
+          "id": "opt2",
+          "text": "T -कोशिकाएँ"
+        },
+        {
+          "id": "opt3",
+          "text": "गोबलेट कोशिकाएँ"
+        },
+        {
+          "id": "opt4",
+          "text": "बर्सा कोशिकाएँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गोबलेट कोशिकाएँ, आंत्र उपकला में श्लेष्मा स्त्रावित करने वाली कोशिकाएँ है। गोबलेट कोशिकाएँ बलगम का स्राव करती है। म्यूसिन से मिलकर बना होता है। यह श्वसन और जठरांत्र संबंधी मार्गों में पायी जाती है। यह इन मार्गों की परत को चिकना करती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23234,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रक्त में ग्लूकोज का स्तर सामान्य बनाये रखने में भूमिका निभाने वाला हार्मोन है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्लूकागोन"
+        },
+        {
+          "id": "opt2",
+          "text": "टी.एस.एच."
+        },
+        {
+          "id": "opt3",
+          "text": "नॉर-एड्रीनलीन"
+        },
+        {
+          "id": "opt4",
+          "text": "टेस्टोस्टीरोन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ग्लूकोगोन रक्त में ग्लूकोज का स्तर सामान्य बनाये रखने में भूमिका निभाने वाला हार्मोन है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23235,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैâल्विन पैमाने में पानी का क्वथन बिन्दु है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "100 K"
+        },
+        {
+          "id": "opt2",
+          "text": "273 K"
+        },
+        {
+          "id": "opt3",
+          "text": "373 K"
+        },
+        {
+          "id": "opt4",
+          "text": "50 K"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पानी का क्वथनांक100ºC अर्थात्373Kहोता है। सेन्टीगे्रेड और वैâल्विन में निम्नलिखित संबंध है। C F 32 5 9 −   =    ",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23236,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: वे तत्व जिनके परमाणु क्रमांक भिन्न-भिन्न तथा द्रव्यमान संख्या समान होती है, कहलाते है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "समस्थानिक"
+        },
+        {
+          "id": "opt2",
+          "text": "समभारिक"
+        },
+        {
+          "id": "opt3",
+          "text": "समन्यूट्रॉनिक"
+        },
+        {
+          "id": "opt4",
+          "text": "समावयवी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "समान द्रव्यमान संख्या लेकिन भिन्न परमाणु संख्या वाले विभिन्न तत्वों के परमाणुओं को समभारिक (आइसोबार) कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2013",
+      "sourceQuestionId": 23591,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सीसा पेन्सिल में सीसे की प्रतिशतता होती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शून्य"
+        },
+        {
+          "id": "opt2",
+          "text": "40%"
+        },
+        {
+          "id": "opt3",
+          "text": "80%"
+        },
+        {
+          "id": "opt4",
+          "text": "100%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लेड पेंसिल में लेड का प्रतिशत शून्य होता है। लेड पेंसिल में लेड नहीं होता है बल्कि यह ग्रेफाइट और मिट्टी के मिश्रण से बनी होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2013",
+      "sourceQuestionId": 23592,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में संगीत एवं लोकगीत",
+  "topicSlug": "राजस्थान-में-संगीत-एवं-लोकगीत",
+  "testSetName": "राजस्थान में संगीत एवं लोकगीत - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जैसलमेर के लोक संगीत में प्रमुख रूप से कौन सा ‘ख्याल’ गाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेंहेन्द्रा री ख्याल"
+        },
+        {
+          "id": "opt2",
+          "text": "हेला"
+        },
+        {
+          "id": "opt3",
+          "text": "तुर्रा-कलंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "कुचामणी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जैसलमेर के लोक संगीत में ‘मेंहेन्द्रा री ख्याल’ प्रमुख है, जो स्थानीय लोककथाओं और वीरगाथाओं पर आधारित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 2759,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित लोकगीतों में से कौन से विवाह के अवसर पर गाए जाते हैं -(i) जला (ii) परणेत(iii) गोरबन्द (iv) सीठणेनीचे दिए गए कूट की सहायता से सही विकल्प चुनिए :कूट :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(ii), (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i), (ii), (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में जला, परणेत, सीठणे विवाह गीत हैं। गोरबंद, ऊंट के गले का आभूषण है। मारवाड़ तथा शेखावटी क्षेत्र में इस आभूषण पर गीत गाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 2760,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित लोकगीतों (सूची-I) को उनसे सम्बन्धित विषयों (सूची-II) से सुमेलित कीजिए -सूची-I (लोकगीत)सूची-II (विषय)(A) बीरा(i) संस्कार गीत(B) चरुआ(ii) ऐतिहासिक घटनाओं पर लोकगीत(C) घुड़ल्यो(iii) भाई-बहिन का प्रेमगीत(D) बादली(iv) ऋतुगीत सही कूट का चयन कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(i), (B)-(iv), (C)-(ii), (D)-(iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iii), (B)-(i), (C)-(ii), (D)-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(ii), (B)-(iii), (C)-(iv), (D)-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीरा - भाई-बहिन का प्रेमगीतचरुआ - संस्कार गीतघुड़ल्यो - ऐतिहासिक घटनाओं पर लोकगीतबादली - ऋतुगीत",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 2761,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्तरी मेवाड़ के भीलों का वह प्रसिद्ध गीत बताइए, जिसे पुरुष और महिलाएँ दोनों गाते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नोखिला"
+        },
+        {
+          "id": "opt2",
+          "text": "हमसीदो"
+        },
+        {
+          "id": "opt3",
+          "text": "घुघरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मूमल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हमसीढो गीत भील स्त्री तथा पुरुष का दोनों द्वारा सम्मिलित रूप से गाया जाने वाला युग्ल गीत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "परिचालक सीधी भर्ती-2024",
+      "sourceQuestionId": 2762,
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक वाद्य यंत्र ‘अलगोजा’ निम्नलिखित में से किस श्रेणी के संगीत वाद्य यंत्रों में आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अवनद्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "घन"
+        },
+        {
+          "id": "opt3",
+          "text": "तत"
+        },
+        {
+          "id": "opt4",
+          "text": "सुषिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सुषिर वाद्ययंत्र वे होते हैं जिनमें हवा फूंककर ध्वनि उत्पन्न की जाती है। अल्गोजा (दोहरी बांसुरी) इसी श्रेणी में आता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "परिचालक सीधी भर्ती-2024",
+      "sourceQuestionId": 2763,
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी संगीत में व्यापक रूप से प्रयुक्त होने वाला निम्नलिखित में से कौन-सा वाद्य एक “सुषिर वाद्य” है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कमायचा"
+        },
+        {
+          "id": "opt2",
+          "text": "ढोल"
+        },
+        {
+          "id": "opt3",
+          "text": "पुंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "मोरचंग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सुषिर वाद्य हवा फूंककर बजाए जाते हैं। “पुंगी” (सर्प संगीत का वाद्य) राजस्थानी लोक संगीत में प्रमुख सुषिर वाद्य है। छोटी लौकी के तुम्बे से निर्मित इस वाद्य यंत्र के एक सिरे पर छेद कर दो लम्बी बांस की नलीयां लगाई जाती है जिनमे छेद होते है। कालबेलिया जाति के लोग सर्प पकड़ने के लिए तथा नृत्यों के दौरान इस वाद्य यंत्र को प्रयुक्त करते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 2764,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वाद्य यंत्र ‘खड़ताल’ सामान्यतः निम्नलिखित में से किस सामग्री से बनाया जाता है -नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चुनाव करें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चमड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "तार"
+        },
+        {
+          "id": "opt3",
+          "text": "लकड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "कपड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "खड़ताल दो लकड़ी के टुकड़ों का बना ताल वाद्य है, जिसे भजन-कीर्तन में बजाया जाता है। इसमें पीतल की घंटियाँ भी लगी होती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "sourceQuestionId": 2765,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में ‘गवरी देवी’ किस विधा के लिए जानी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ख्याल गायन"
+        },
+        {
+          "id": "opt2",
+          "text": "मांड गायन"
+        },
+        {
+          "id": "opt3",
+          "text": "भोजपुरी गायन"
+        },
+        {
+          "id": "opt4",
+          "text": "पाण्डवनी गायन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2930,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: वाद्य यंत्र टामक राजस्थान के किस सांस्कृतिक क्षेत्र से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवात"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "मेरवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2932,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में संगीत एवं लोकगीत\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में संगीत एवं लोकगीत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में संगीत एवं लोकगीत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

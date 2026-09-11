@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की हस्तकला / हस्तशिल्प",
+  "topicSlug": "राजस्थान-की-हस्तकला-हस्तशिल्प",
+  "testSetName": "राजस्थान की हस्तकला / हस्तशिल्प - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I के साथ सूची-II का मिलान कीजिए -सूची-Iलोक कलासूची-IIसामग्रीa. पाने I. लकड़ीb. फड़ II. दीवार और फर्शc. मांडना III. कपड़ाd. कावड़ IV. कागजनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर का चयन कीजिए",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a- IV, b - III, c - II, d - I"
+        },
+        {
+          "id": "opt2",
+          "text": "a - I, b - II, c - III, d - IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a - III, b - IV, c - II, d - I"
+        },
+        {
+          "id": "opt4",
+          "text": "a - II, b - III, c - I, d - IV"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोक कला और सामग्री का मिलान:पानेकागजफड़कपड़ामांडनादीवार और फर्शकावड़लकड़ी",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -Ist",
+      "sourceQuestionId": 11378,
+      "reference": "📌 PYQ — Clerk Grade-II/ Jr. Asst. 2024 Paper -Ist"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भारतीय हथकरघा प्रौद्योगिकी संस्थान की स्थापना कहाँ की गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारतीय हथकरघा प्रौद्योगिकी संस्थान, जोधपुर , वस्त्र मंत्रालय, भारत सरकार के बैनर तले तथा विकास आयुक्त, हथकरघा, नई दिल्ली के तत्वावधान में भारत के हथकरघा और वस्त्र उद्योग की आवश्यकताओं को पूरा करने के लिए 16 सितंबर 1993 को स्थापित हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 11379,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बकरी के बालों से जूट की पट्टियाँ बनाने का मुख्य केंद्र कहाँ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसोल (बालोतरा)"
+        },
+        {
+          "id": "opt2",
+          "text": "दूद्व (जयपुर)"
+        },
+        {
+          "id": "opt3",
+          "text": "खेतड़ी (झुंझुनु)"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगापुर (भीलवाड़ा)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जसोल, बालोतरा में बकरी के बालों से जूट की पट्टियाँ बनाने का प्रमुख केंद्र है। यहाँ की बकरी के बालों से बने उत्पाद उच्च गुणवत्ता के माने जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 11380,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मनोटी कला कहां प्रसिद्ध है, जिसमें ऊँट के चमड़े से सजाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बीकानेर में ऊँट की खाल पर सुनहरी नक्काशी का चित्रण करना ही मुनव्वती कला कहलाती है। यह कला ‘उस्ता कला’ के नाम से भी प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "sourceQuestionId": 11381,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सीकर जिले का कौन-सा क्षेत्र गोटा उद्योग के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खूड़"
+        },
+        {
+          "id": "opt2",
+          "text": "खण्डेला"
+        },
+        {
+          "id": "opt3",
+          "text": "पिपराली"
+        },
+        {
+          "id": "opt4",
+          "text": "नेछवा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "देश भर में गोटा-पत्ती व बूटा के लिए सीकर जिले का खंडेला (Sikar Khandela) प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Supervisor(Women) - 2024",
+      "sourceQuestionId": 11383,
+      "reference": "📌 PYQ — Supervisor(Women) - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "____ अपने काले-लाल प्रिंट के लिए प्रसिद्ध है जिसमें फूलों, पत्तियों, जानवरों और पक्षियों को मटिया (मिट्टी) रंग के आधार पर लाल और काले रंग में बनाया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगानेरी"
+        },
+        {
+          "id": "opt2",
+          "text": "कैथून"
+        },
+        {
+          "id": "opt3",
+          "text": "बगरू"
+        },
+        {
+          "id": "opt4",
+          "text": "अकोलां"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर के बगरू प्रिंट में काला व लाल रंग विशेष रूप से प्रयुक्त होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "sourceQuestionId": 11384,
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोफ्तगिरी, राजस्थान का पारंपरिक शिल्प, एक प्रकार की सजावट है जिसकी उत्पत्ति भारत में _____ साथ हुई है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुप्तों"
+        },
+        {
+          "id": "opt2",
+          "text": "मराठों"
+        },
+        {
+          "id": "opt3",
+          "text": "मुग़लों"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंधियाओं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोफ्तगिरी एक प्रकार की सजावट है जो भारत में मुगलों के साथ हथियारों और हथियारों को सजाने के साधन के रूप में उत्पन्न होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 11385,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का कौन सा क्षेत्र थेवा कला के लिए विख्यात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "रामगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "फतेहपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्ष्मणगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11501,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पद्मश्री सम्मान 2020 प्राप्त करने वाले राजस्थान के मुन्ना मास्टर का सम्बन्ध किस क्षेत्र से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजनीति"
+        },
+        {
+          "id": "opt2",
+          "text": "लोकसेवा"
+        },
+        {
+          "id": "opt3",
+          "text": "कला"
+        },
+        {
+          "id": "opt4",
+          "text": "खेल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11502,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की हस्तकला / हस्तशिल्प\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में स्थापत्य कला",
+  "topicSlug": "राजस्थान-में-स्थापत्य-कला",
+  "testSetName": "राजस्थान में स्थापत्य कला - अभ्यास टेस्ट 58",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा डूंगरपुर के ‘एक थंबिया महल’ को चारों ओर से घेरने वाले चार महलों में से एक नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजय निवास"
+        },
+        {
+          "id": "opt2",
+          "text": "उदय बिलास"
+        },
+        {
+          "id": "opt3",
+          "text": "हुकुम निवास"
+        },
+        {
+          "id": "opt4",
+          "text": "खुमान निवास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 2241,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा किला चौहान द्वारा बनवाया गया माना जाता है और जिस पर दिल्ली के शासक अला-उद-दीन खिलजी द्वारा कब्ज़ा कर लिया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर का दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "रणथंभौर का किला"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "मेहरानगढ़ किला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+      "sourceQuestionId": 2242,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर सिटी पैलेस राजस्थान के स्थापत्य अजूबो (माल) में से एक है, जो ______ के तट पर शांतिपूर्वक स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दूध तलाई झील"
+        },
+        {
+          "id": "opt2",
+          "text": "पिछोला झील"
+        },
+        {
+          "id": "opt3",
+          "text": "फतेह सागर झील"
+        },
+        {
+          "id": "opt4",
+          "text": "रंग सागर झील"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+      "sourceQuestionId": 2244,
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाड़मेर में 2019 में, 14वीं सदी के लोक बाबा रामदेव देव के जन्म स्थान पर मंदिर बनाया गया। इस मंदिर का निर्माण मुख्य रूप से ______ से किया गया।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किशनगढ़ के सफेद संगमरमर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर के पीले पत्थर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर का ग्रेनाइट पत्थर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर का लाल पत्थर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+      "sourceQuestionId": 2245,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का जल किला कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़ किला"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर किला"
+        },
+        {
+          "id": "opt3",
+          "text": "गागरौन किला"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़ किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 2246,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विशालकाय तारागढ़ किले की जमीनी स्तर से ऊंचाई कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग 1300 फीट"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग 1400 फीट"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग 1500 फीट"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग 1200 फीट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 2247,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अंबर/आमेर पैलेस, राजस्थान के ______ जिले में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 2248,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: हवामहल का निर्माण किसने करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई प्रतापसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राजा मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राय सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2390,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान का वह किला जिसे गढ़ बीठली कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आबू का किला"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर का किला"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर का किला"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भगढ़ का किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2392,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में स्थापत्य कला\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में स्थापत्य कला\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में स्थापत्य कला\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

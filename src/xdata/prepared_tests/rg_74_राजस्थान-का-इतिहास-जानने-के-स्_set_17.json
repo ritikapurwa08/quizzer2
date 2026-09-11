@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का इतिहास जानने के स्त्रोत",
+  "topicSlug": "राजस्थान-का-इतिहास-जानने-के-स्त्रोत",
+  "testSetName": "राजस्थान का इतिहास जानने के स्त्रोत - अभ्यास टेस्ट 17",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए –लेखक(a) जयानक(b) नयनचन्द्र सूरी(c) चन्द्रशेखर(d) हरिभद्र सूरीकृति(i) हम्मीर महाकाव्य(ii) समराइच्चकहा(iii) पृथ्वीराज विजय(iv) सुर्जन चरित्रकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-(i), b-(ii), c-(iii), d-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "a-(iv), b-(iii), c-(ii), d-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "a-(iii), b-(iv), c-(ii), d-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "a-(iii), b-(i), c-(iv), d-(ii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB VDO Mains 2022",
+      "sourceQuestionId": 15678,
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अभिलेख, जो प्रतिहार शासक कक्कुक की आभीरों पर विजय का दावा करता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीरवा अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "घटियाला अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "अथुणा अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "बीजोलिया अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB VDO Mains 2022",
+      "sourceQuestionId": 15679,
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कान्हड़ दे प्रबन्ध’ नामक काव्य का लेखक कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वीरभाण"
+        },
+        {
+          "id": "opt2",
+          "text": "भट्ट जगजीवन"
+        },
+        {
+          "id": "opt3",
+          "text": "पं. जीवाधर"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मनाभ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 13 September 2021 (Gk)",
+      "sourceQuestionId": 15680,
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का प्रथम ‘डिजिटल आर्काइव’ राजस्थान के किस शहर में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (12-08-18) Paper-1",
+      "sourceQuestionId": 15682,
+      "reference": "📌 PYQ — RSMSSB LDC (12-08-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राव जैतसी रो छन्द” के रचयिता हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीटू सूजा"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द बरदाई"
+        },
+        {
+          "id": "opt3",
+          "text": "मुहणोत नैणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "सूर्यमल्ल मिश्रण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+      "sourceQuestionId": 15684,
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महान कवि सूर्यमल के बारे में निम्न में से कौन सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर इनका प्रसिद्ध महाकाव्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इन्होंने बूंदी के इतिहास का वर्णन किया।"
+        },
+        {
+          "id": "opt3",
+          "text": "इनकी कविता से बहादुरी की भावना का उदय होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वे मेवाड़ के निवासी थे।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "sourceQuestionId": 15688,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मुण्डीयार री ख्यात’ का विषय है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही के चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "दूंदी के हाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ के सिसोदिया"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ के राठौड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "sourceQuestionId": 15689,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: विजयसिंह ने विजयशाही सिक्कों का प्रचलन किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15768,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सती रासो ग्रन्थ के लेखक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "शारंगधर"
+        },
+        {
+          "id": "opt3",
+          "text": "दलपत विजय"
+        },
+        {
+          "id": "opt4",
+          "text": "जाल्ह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15774,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का इतिहास जानने के स्त्रोत\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान का इतिहास जानने के स्त्रोत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान का इतिहास जानने के स्त्रोत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

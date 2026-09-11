@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topic": "स्थानीय स्वायत्त शासन एवं पंचायती राज",
+  "topicSlug": "स्थानीय-स्वायत्त-शासन-एवं-पंचायती-राज",
+  "testSetName": "स्थानीय स्वायत्त शासन एवं पंचायती राज - अभ्यास टेस्ट 20",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस अनुच्छेद के तहत् पंचायतों को संवैधानिक दर्जा दिया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "221"
+        },
+        {
+          "id": "opt2",
+          "text": "227"
+        },
+        {
+          "id": "opt3",
+          "text": "243"
+        },
+        {
+          "id": "opt4",
+          "text": "241"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "sourceQuestionId": 15982,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 की किस धारा को संशोधित कर ‘ग्राम सेवक’ के स्थान पर ‘ग्राम विकास अधिकारी’ अभिव्यक्ति को प्रतिस्थापित किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "91"
+        },
+        {
+          "id": "opt2",
+          "text": "88"
+        },
+        {
+          "id": "opt3",
+          "text": "90"
+        },
+        {
+          "id": "opt4",
+          "text": "89"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Ras Pre. Exam 2021",
+      "sourceQuestionId": 15985,
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान नगरपालिका अधिनियम, 2009 के प्रावधानों के अनुसार, राज्य सरकार द्वारा नगर परिषद में अधिकतम कितने व्यक्ति नाम निर्दिष्ट किये जा सकते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "10"
+        },
+        {
+          "id": "opt3",
+          "text": "6"
+        },
+        {
+          "id": "opt4",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Ras Pre. Exam 2021",
+      "sourceQuestionId": 15986,
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सरपंच और उप-सरपंच की अनुपस्थिति में ग्राम सभा की बैठक की अध्यक्षता कौन करेगा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खंड विकास अधिकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्राम सेवक"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्राम सभा का सबसे बुजुर्ग व्यक्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई भी उपस्थित सदस्य, जिसे ग्राम सभा के सदस्यों द्वारा इस प्रयोजन हेतु चुना गया हो।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 16005,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 के अनुसार जिला स्थापन समिति का अध्यक्ष कौन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जिला कलेक्टर"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला प्रमुख"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्य कार्यकारी अधिकारी"
+        },
+        {
+          "id": "opt4",
+          "text": "जिला शिक्षा अधिकारी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 16006,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सामाजिक अंकेक्षण का अद्देश्य जवाबदेही सुनिश्चित करना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य सरकार की"
+        },
+        {
+          "id": "opt2",
+          "text": "संघ सरकार की"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थानीय स्वशासन की"
+        },
+        {
+          "id": "opt4",
+          "text": "लोक निगम की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 16009,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार ने किस वर्ष पांच विभाग पंचायती राज संस्था को स्थानान्तरित किए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2010 में"
+        },
+        {
+          "id": "opt2",
+          "text": "2008 में"
+        },
+        {
+          "id": "opt3",
+          "text": "2012 में"
+        },
+        {
+          "id": "opt4",
+          "text": "2006 में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (29-11-18) Shift 1",
+      "sourceQuestionId": 16012,
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में पंचायती राज संस्थाओं के पुनर्गठन हेतु(2011 की जनगणना के आधार पर) कुल कितनी नई पंचायत समिती को नव सृजित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "42"
+        },
+        {
+          "id": "opt2",
+          "text": "45"
+        },
+        {
+          "id": "opt3",
+          "text": "47"
+        },
+        {
+          "id": "opt4",
+          "text": "49"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16033,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पंडित जवाहर लाल नेहरू के द्वारा राजस्थान में पंचायती राज का प्रारम्भ कब किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "24 जनवरी, 1959 को"
+        },
+        {
+          "id": "opt2",
+          "text": "1 मई, 1959 को"
+        },
+        {
+          "id": "opt3",
+          "text": "15 अगस्त, 1959 को"
+        },
+        {
+          "id": "opt4",
+          "text": "2 अक्टूबर, 1959 को"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16035,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"स्थानीय स्वायत्त शासन एवं पंचायती राज\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"स्थानीय स्वायत्त शासन एवं पंचायती राज\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"स्थानीय स्वायत्त शासन एवं पंचायती राज\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

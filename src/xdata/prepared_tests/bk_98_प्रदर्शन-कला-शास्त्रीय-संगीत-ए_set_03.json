@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "प्रदर्शन कला:-शास्त्रीय संगीत एवं शास्त्रीय नृत्य; लोक संगीत एवं वाद्य; लोक नृत्य एवं नाट्य।",
+  "topicSlug": "प्रदर्शन-कला-शास्त्रीय-संगीत-एवं-शास्त्रीय-नृत्य-लोक-संगीत-एवं-वाद्य-लोक-नृत्य-एवं-नाट्य।",
+  "testSetName": "प्रदर्शन कला:-शास्त्रीय संगीत एवं शास्त्रीय नृत्य; लोक संगीत एवं वाद्य; लोक नृत्य एवं नाट्य। - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मंजीरा, तानपुरा, चौतारा वाद्य यंत्रों का प्रयोग निम्न में से किस नृत्य में किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भवाई नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "तेरह ताली नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "घूमर नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "डांडिया नृत्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 18075,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौतारा, भपंग व कामयाचा नामक लोक वाद्य हैं:-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुषिर वाद्य"
+        },
+        {
+          "id": "opt2",
+          "text": "तत् वाद्य"
+        },
+        {
+          "id": "opt3",
+          "text": "अवनद्ध वाद्य"
+        },
+        {
+          "id": "opt4",
+          "text": "घन वाद्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चौतारा भपंग व कामयाचा तत् वाद्य है। इनमें तार बँधा होता है। इन्हीं तारों के माध्यम से अनेक सुरीली आवाजें निकाली जाती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "sourceQuestionId": 18076,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नृत्य, जो सरगड़ा और भील समुदाय के पुरुषों द्वारा विवाह के अवसर पर किया जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अग्निनृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गीदड़नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "बम नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "ढोल नृत्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ढोल नृत्य सरगड़ा और भील समुदाय के पुरुषों द्वारा विवाह के अवसर पर किया जाता है। यह नृत्य जालौर में प्रचलित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2018 Paper-I RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "sourceQuestionId": 18077,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I RPSC Asst. Agri. Officer (TSP) 2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा लोक-नृत्य जालौर जिले का प्रतिनिधित्व करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढोल"
+        },
+        {
+          "id": "opt2",
+          "text": "चंग"
+        },
+        {
+          "id": "opt3",
+          "text": "गीदड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer 2021",
+      "sourceQuestionId": 18078,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जसवंत सिंह ने, जो स्वयं एक कवि तथा विद्वान था, कई ग्रन्थ रचे। निम्नलिखित में से जसवंत द्वारा रचित ग्रन्थों को पहचानिए-(i).भाषा-भूषण(ii). प्रबोध चंद्रोदय नाटक(iii). सिद्धांत सार(iv). अनुभव प्रकाश सही कूट चुनिये-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": ", (ii),(iii) & (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": ", (iii) & (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": ", (ii) & (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": ",(iii) & (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "महाराजा जसवंत सिंह की रचनाओं में भाषा-भूषण, अनुभव प्रकाश, आनंद विलास, सिद्धान्तसार, प्रबोध चंद्रोदय और अपरीक्ष सिद्धान्त शामिल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "sourceQuestionId": 18079,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित में से कौनसा युग्म सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विद्वान (मंडन) ग्रन्थ/कृति (राजवल्लभ)"
+        },
+        {
+          "id": "opt2",
+          "text": "विद्वान (नाथा) ग्रन्थ/कृति (वास्तुमंजरी)"
+        },
+        {
+          "id": "opt3",
+          "text": "विद्वान (गोविन्द) ग्रन्थ/कृति (द्ववारदीपिका)"
+        },
+        {
+          "id": "opt4",
+          "text": "विद्वान (कान्हा व्यास) ग्रन्थ/कृति (विजयस्तम्भ का अभिलेख)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – विद्वान कृति मंडन – राजवल्लभ नाथा – वास्तुमंजरी गोविन्द – द्वारदीपिका अत्रि और महेश भट्ट – विजयस्तम्भ का अभिलेख कान्हा व्यास – एकिंलग महात्म्य",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "sourceQuestionId": 18080,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के एकमात्र शास्त्रीय नृत्य कत्थक के जयपुर घराने के प्रवर्तक माने जाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लच्छन महाराज"
+        },
+        {
+          "id": "opt2",
+          "text": "भानुजी महाराज"
+        },
+        {
+          "id": "opt3",
+          "text": "बिरजू महाराज"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयशंकर जी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "शास्त्रीय नृत्य कत्थक के प्राचीनतम जयपुर घराने के संस्थापक भानुजी थे। इनके पुत्र मालूजी भी प्रमुख नर्तक थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+      "sourceQuestionId": 18081,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का ‘राज्य लोक वाद्य यंत्र’ कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सारंगी"
+        },
+        {
+          "id": "opt2",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt3",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "झांझ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का राज्य लोक वाद्ययंत्र अलगोजा है। यह बाँस से बना एक वायु वाद्ययंत्र होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC ACF 2011",
+      "sourceQuestionId": 18159,
+      "reference": "✎ PYQ Modified · RPSC ACF 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: भील नृत्य गवरी में लोकभाषा में कविता बोलने वाला पात्र है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भौजाई"
+        },
+        {
+          "id": "opt2",
+          "text": "नट"
+        },
+        {
+          "id": "opt3",
+          "text": "झामट्या"
+        },
+        {
+          "id": "opt4",
+          "text": "राया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ क्षेत्र में किया जाने वाला गवरी नृत्य भील जनजाति का प्रसिद्ध नृत्य है। इस नृत्य को40दिन तक किया जाता है। इस नृत्य में महिलाएँ भाग नहीं लेती हैं। इसमें चार तरह के पात्र होते हैं – देवता, मनुष्य, राक्षस और पशु। मनुष्य पात्र13प्रकार के होते हैं जिनमें नट, भोपा, भूड़िया आदि हैं। लोकभाषा में कविता बोलने वाले पात्र को नट कहते हैं। 113",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Archives (Chemist) 2024",
+      "sourceQuestionId": 18160,
+      "reference": "✎ PYQ Modified · RPSC Archives (Chemist) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रदर्शन कला:-शास्त्रीय संगीत एवं शास्त्रीय नृत्य; लोक संगीत एवं वाद्य; लोक नृत्य एवं नाट्य।\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"प्रदर्शन कला:-शास्त्रीय संगीत एवं शास्त्रीय नृत्य; लोक संगीत एवं वाद्य; लोक नृत्य एवं नाट्य।\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"प्रदर्शन कला:-शास्त्रीय संगीत एवं शास्त्रीय नृत्य; लोक संगीत एवं वाद्य; लोक नृत्य एवं नाट्य।\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

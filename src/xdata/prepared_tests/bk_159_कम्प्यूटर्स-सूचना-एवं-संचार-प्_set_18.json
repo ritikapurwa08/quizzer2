@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "MS-Power Point मेंPaste Special कमान्ड उपयोग में लेने के लिये कौन-सी शार्ट-कट की प्रयोग में ली जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alt + E + S"
+        },
+        {
+          "id": "opt2",
+          "text": "Alt + P + S"
+        },
+        {
+          "id": "opt3",
+          "text": "Alt + F + U"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "MS-Power PointमेंPaste Specialकमांड उपयोग में लेने के लिएAlt + P + Sशार्ट-कट-की का प्रयोग में ली जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23810,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "MS-Word में निम्न में से कौन-सीshortcut-key किसी भीtext कोDouble Underline करने के लिए प्रयोग में ली जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ctrl + Shift + U"
+        },
+        {
+          "id": "opt2",
+          "text": "Ctrl + U"
+        },
+        {
+          "id": "opt3",
+          "text": "Ctrl + Shift + D"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "MS-Wordमें किसी भीtextकोDouble Underlineकरने के लिएCtrl + Shift + Uशार्टकट-की का प्रयोग किया जाता है, जबकिtextकोUnderlineकरने के लिए Ctrl + Uका प्रयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23811,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एम. एम. ऑफिस में किसी शब्द के समानार्थक जानने के लिए उपयोग में लाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Language, Synonyms"
+        },
+        {
+          "id": "opt2",
+          "text": "Grammar"
+        },
+        {
+          "id": "opt3",
+          "text": "Spelling and Grammar"
+        },
+        {
+          "id": "opt4",
+          "text": "Language, Thesaurus"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "एम.एम. ऑफिस में किसी शब्द के समानार्थक जानने के लिएLanguage, Thesaurusका उपयोग किया जाता है। थिसॉरस एक सॉफ्टवेयर टूल है, जो विभिन्न वर्ड प्रोसेसर के साथ आता है और इसके द्वारा टाइप किए जाने वाले शब्दों के लिए समानार्थी शब्द देता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23812,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "MS-Word में किसी फाइल काPrint Preview देखने के लिए कौन-सी शार्ट -कट की(key)प्रयोग में ली जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alt + F + V"
+        },
+        {
+          "id": "opt2",
+          "text": "Ctrl + F +V"
+        },
+        {
+          "id": "opt3",
+          "text": "Alt + F + U"
+        },
+        {
+          "id": "opt4",
+          "text": "Ctrl + F + U"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "MS-Word में किसी फाइल काPrint Preview देखने के लिएCtrl + F +Vशार्ट-कट-की(key) प्रयोग में ली जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23813,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एम. एम. एक्सल हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्ड प्रोसेिंसग एप्लीकेशन सॉफ्टवेयर"
+        },
+        {
+          "id": "opt2",
+          "text": "स्प्रेड़शीट एप्लीकेशन सॉफ्टवेयर"
+        },
+        {
+          "id": "opt3",
+          "text": "डाटाबेस मेनेजमेन्ट सिस्टम सॉफ्टवेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रजेन्टेशन एप्लीकेशन सॉफ्टवेयर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "एम. एम. एक्सल एक स्प्रेडशीट एप्लीकेशन सॉफ्यवेटर है, जो कॉलम(Colums)और पंक्तियों(Rows) में किसी भी डाटा को व्यवस्थित करता है, जिसमें विभिन्न फॉर्मूलों के माध्यम से डाटा डाला और सेट किया जा सकता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23814,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एम.एस. वर्ड में किसी पेज के मर्जिन को निश्चित करने के लिए उपयोग में लेते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फाइल मीनू"
+        },
+        {
+          "id": "opt2",
+          "text": "इनसर्ट मीनू"
+        },
+        {
+          "id": "opt3",
+          "text": "एडीट मीनू"
+        },
+        {
+          "id": "opt4",
+          "text": "वियू मीनू"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एम.एस. वर्ड में किसी पेज के मर्जिन को निश्चित करने के लिए `फाइल मीनू'(File Menu)का उपयोग किया जाता है। MS-WordकीMenu Barपर दिए गएFile Menu Clickपर करने पर प्रदर्शित होने वाले पुल डाउन मीनू में सेPage Setup ऑप्शन का प्रयोग डाक्यूमेंट के पेज की फॉर्मेिंटग करने के लिए किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23815,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "MS-Word में किसी वर्ड फाइल में टेबल इन्सर्ट करने के लिये शार्ट-कट-की प्रयोग में ली जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ALT + I + A + T"
+        },
+        {
+          "id": "opt2",
+          "text": "ALT + A + I + T"
+        },
+        {
+          "id": "opt3",
+          "text": "ALT + I + T + A"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "MS- Word में किसी वर्ड फाइल में टेबल इन्सर्ट करने के लिएALT + I + T + Aशार्ट-कट-की(Key)प्रयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 23817,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: इन्टरनेट पर किसी वेबसाइट को खोलने के लिये एक अद्वितीय पता प्रविष्ठ करना होता है। इस पते को कहते है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "HTTP"
+        },
+        {
+          "id": "opt2",
+          "text": "HTML"
+        },
+        {
+          "id": "opt3",
+          "text": "FTP"
+        },
+        {
+          "id": "opt4",
+          "text": "URL"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "इन्टरनेट पर किसी वेबसाइट का विशिष्ट पता यूआरएल (URL-यूनिफॉर्म रिसोर्स लोकेटर) कहलाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2013",
+      "sourceQuestionId": 23902,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: आधुनिक कम्प्यूटरों में सी.पी.यू. की गति को किस इकाई में मापा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किलो हटर््ज"
+        },
+        {
+          "id": "opt2",
+          "text": "गीगा बाइट"
+        },
+        {
+          "id": "opt3",
+          "text": "किलो बाइट"
+        },
+        {
+          "id": "opt4",
+          "text": "गीगा हटर््स"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आधुनिक कम्प्यूटरों में सी.पी.यू. की गति को गीगा हटर््स(GHZ) मापी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2013",
+      "sourceQuestionId": 23903,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

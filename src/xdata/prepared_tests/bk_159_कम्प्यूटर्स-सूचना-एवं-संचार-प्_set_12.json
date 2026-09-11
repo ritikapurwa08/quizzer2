@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौन सा मेमोरी का प्रकार कम्प्यूटर की मुख्य मेमोरी का हिस्सा नही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "RAM"
+        },
+        {
+          "id": "opt2",
+          "text": "ROM"
+        },
+        {
+          "id": "opt3",
+          "text": "PROM"
+        },
+        {
+          "id": "opt4",
+          "text": "Registers/रजिस्टर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उपर्युक्त विकल्पों में से रजिस्टर कम्प्यूटर की मेमोरी का मुख्य हिस्सा नहीं है। कम्प्यूटर की मुख्य मेमोरीRAM, ROM, PROM है जिसे आंतरिक मेमोरी भी कहा जाता है। यह सीपीयू मेमोरी भी कहलाती है। 752",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23764,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से डेटा की सबसे छोटी संभव इकाई क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिट"
+        },
+        {
+          "id": "opt2",
+          "text": "बाइट"
+        },
+        {
+          "id": "opt3",
+          "text": "किलोबाइट"
+        },
+        {
+          "id": "opt4",
+          "text": "मेगाबाइट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बिट(Bit)डाटा स्टोरेज की सबसे छोटी संभव इकाई है। कंप्यूटर्स बाइनरी अंको0, 1 में काम करते है। इन बाइनरी अंको को बिट्स के रूप में जाना जाता है। जो डाटा भंडारण की सबसे छोटी इकाई है। 8 बिट के संयुक्त रूप को1 बाइट कहते हैं। 1 किलोबाइट(Kb) = 1024 बाइट(Byte) 1 मेगाबाइट(Mb) = 1024 किलोबाइट(Kb) 1 गीगाबाइट(Gb) = 1024 मेगाबाइट(Mb) 1 टेराबाइट(Tb) = 1024 गीगाबाइट(Gb)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 14/09/2021",
+      "sourceQuestionId": 23767,
+      "reference": "📌 PYQ — RPSC Sub Inspector 14/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक ’निबल’ में कितनी ’बिट्स’ होती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16"
+        },
+        {
+          "id": "opt2",
+          "text": "32"
+        },
+        {
+          "id": "opt3",
+          "text": "4"
+        },
+        {
+          "id": "opt4",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1 निबल= 4 बिट 1 बाइट= 8 बिट 1 किलोबाइट= 8000 बिट 1 मेगाबाइट= 1024 किलोबाइट 1 गीगाबाइट= 1024 मेगाबाइट",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 23768,
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोबाइल संचार की4G तकनीक में'G' अक्षर निम्नलिखित में से किस शब्द हेतु प्रयुक्त किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रेड"
+        },
+        {
+          "id": "opt2",
+          "text": "गु्रप"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्लोबल"
+        },
+        {
+          "id": "opt4",
+          "text": "जेनरेशन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मोबाइल संचार की3G या4G मेंG अक्षर जेनरेशन शब्द हेतु प्रयुक्त किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 07/10/2021",
+      "sourceQuestionId": 23769,
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा एम.एस. वर्ड में फॉन्ट स्टाइल नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Bold"
+        },
+        {
+          "id": "opt2",
+          "text": "Superscript"
+        },
+        {
+          "id": "opt3",
+          "text": "Regular"
+        },
+        {
+          "id": "opt4",
+          "text": "Italics"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "Superscript एम.एस. वर्ड में फॉन्ट स्टाइल नहीं है, जबकिBold, Regular एवंItalics एम.एस. वर्ड में फॉन्ट स्टाइल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23770,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा ई-मेल का स्पेशल प्रोटोकॉल है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "SMTP"
+        },
+        {
+          "id": "opt2",
+          "text": "FTP"
+        },
+        {
+          "id": "opt3",
+          "text": "TCP/IP"
+        },
+        {
+          "id": "opt4",
+          "text": "HTTP"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सिम्पल मेल ट्रांर्सफर प्रोटोकॉल(SMTP)ई-मेल का स्पेशल प्रोटोकॉल है। जब एकSMTPसर्वर मेल क्लाइंट से एक ई-मेल प्राप्त करता है, तब सर्वर रिमोट,SMTPसर्वर के साथ मेल का आदान-प्रदान करने के लिए ई-मेल पते में डोमेन के लिएMX रिकॉर्ड (मेल एक्सचेंजर रिकॉर्ड) की जाँच करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23771,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कंप्यूटर को बूट करने के लिए क्या जरूरी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डी.बी.एम.एस."
+        },
+        {
+          "id": "opt2",
+          "text": "मोडेम"
+        },
+        {
+          "id": "opt3",
+          "text": "ऑपरेटिंग सिस्टम"
+        },
+        {
+          "id": "opt4",
+          "text": "एम.एस.ऑफिस"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कंप्यूटर को बूट करने के लिए ऑपरेिंटग सिस्टम जरूरी है। एक ऑपरेिंटग सिस्टम या ओएस एक कंप्यूटर की हार्ड ड्राइव पर स्थापित सॉफ्टवेयर है, जो कंप्यूटर हार्डवेयर को कंप्यूटर सॉफ्टवेयर के साथ संचार और संचालित करने में सक्षम बनाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23772,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: यदि कोई सूचना टेलीफोन द्वारा डायल करके अन्यत्र टेलीविजन स्क्रीन पर देखी-पढ़ी जा सके तो उसे कहते हैं─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टेलेक्स"
+        },
+        {
+          "id": "opt2",
+          "text": "टेलीपैâक्स"
+        },
+        {
+          "id": "opt3",
+          "text": "टेलीटेक्स"
+        },
+        {
+          "id": "opt4",
+          "text": "टेलीप्रोसेिंसग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "`टेलीपैâक्स' ऐसी सूचना प्रविधि है जिसके माध्यम से कोई सूचना टेलीफोन द्वारा डायल करके उसे अन्यत्र बैठे व्यक्ति द्वारा टेलीविजन के पर्दे पर देखा या पढ़ा जा सकता है। `टेलीटैक्स' सेवा में भी घर बैठे कम्प्यूटर स्क्रीन पर सूचनाओं को पढ़ा जा सकता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1994-95",
+      "sourceQuestionId": 23888,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1994-95"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: फेस बुक किसने शुरू किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जूलियन असान्जे"
+        },
+        {
+          "id": "opt2",
+          "text": "स्टीव जोब्स"
+        },
+        {
+          "id": "opt3",
+          "text": "मार्क जुर्करबर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "बिल गेट्स"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "फेसबुक की शुरुआत ४ फरवरी, २००४ को मार्क जुकरबर्ग एवं उनके साथी एडुआर्डो सैवरिन, एंड्रयू मैककलम् ने हार्वडर्् विश्वविद्यालय में की थी। इसे पहले केवल हार्वडर्् विश्वविद्यालय के छात्रों के लिए एक सोशल नेटवर्विंâग सेवा थी। वर्ष २००६ में इसे आमलोगों के लिए खोला गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC APRO 2011",
+      "sourceQuestionId": 23889,
+      "reference": "✎ PYQ Modified · RPSC APRO 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

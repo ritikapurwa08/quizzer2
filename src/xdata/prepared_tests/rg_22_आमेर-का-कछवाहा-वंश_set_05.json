@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "आमेर का कछवाहा वंश",
+  "topicSlug": "आमेर-का-कछवाहा-वंश",
+  "testSetName": "आमेर का कछवाहा वंश - अभ्यास टेस्ट 5",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किसे सवाई जय सिंह का संरक्षण प्राप्त नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रत्नाकर भट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "विद्याधर"
+        },
+        {
+          "id": "opt3",
+          "text": "बिहारी"
+        },
+        {
+          "id": "opt4",
+          "text": "जगन्नाथ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सवाई जयसिंह ने 18 नवम्बर, 1727 ई. जयपुर नगर की नींव रखी और उसे अपनी नवीन राजधानी (पहली दौसा, दूसरी जमवारामगढ़, तीसरी आमेर) बनाया। इसका वास्तुकार विद्याधर भट्टाचार्य था। नींव पंडित जगन्नाथ सम्राट द्वारा रखी गयी और इसकी जानकारी बख्तराम द्वारा रचित ग्रंथ बुद्धि विलास में मिलती है। सवाई जयसिंह के समय का प्रसिद्ध विद्वान पुण्डरिक रत्नाकर था जिसने जयसिंह कल्पद्रुम नामक ग्रन्थ की रचना की।मिर्जाराजा जयसिंह के दरबार में बिहारी नामक प्रसिद्ध कवि विद्यमान था, जिसने ‘बिहारी सतसई’ ग्रन्थ की रचना की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "sourceQuestionId": 7121,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस मुगल सम्राट ने सवाई जयसिंह को ‘राज राजेश्वर’ की उपाधि से विभूषित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "औरंगजेब"
+        },
+        {
+          "id": "opt2",
+          "text": "शाहजहां"
+        },
+        {
+          "id": "opt3",
+          "text": "बहादुर शाह"
+        },
+        {
+          "id": "opt4",
+          "text": "मुहम्मद शाह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुहम्मदशाह ने जयसिंह को सरमद-ए-राजा-ए हिंद, राज-राजेश्वर, श्री राजाधिराज सवाई की उपाधि प्रदान कर सम्मानित किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB Lab Assistant Exam 2016",
+      "sourceQuestionId": 7124,
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न जोड़ों में से कौन सा सही मेल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा प्रताप - सिसोदिया"
+        },
+        {
+          "id": "opt2",
+          "text": "राजा मान सिंह - हाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "जसवंत सिंह - राठौर"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा हम्मीर - गुहिल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मानसिंह (1589-1614 ई.) का संबंध आमेर के कछवाहा वंश से था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB Lab Assistant Exam 2016",
+      "sourceQuestionId": 7125,
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजपूताना के एक राज्य का शासक, जिसने सलीमपुर (बंगाल) और मनिहारी (बिहार) में किलों का निर्माण किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराज मानसिंह 1"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा जसवंत सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मानसिंह ने अपने समय में राजमहल/अकबरनगर (बंगाल में) और मानपुर (बिहार में) के नगरों की स्थापना की। उन्होंने सलीमपुर (बंगाल), मनिहारी (बिहार), रामगढ़ (ढूंढार) में किले भी बनवाए।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 7127,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुगलों और पेशवा के मध्य धौलपुर समझौते(1741 ई.) में किसने मध्यस्ता की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरजमल ने"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जगत सिंह-2 ने"
+        },
+        {
+          "id": "opt4",
+          "text": "मल्हार राव होल्कर ने"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पेशवा बालाजी बाजीराव तथा सवाई जयसिंह की भेंट धौलपुर में हुई। 18 मई 1741 ईस्वी तक पेशवा धौलपुर में ही रहा तथा जयसिंह से समझौते की बातचीत की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 7128,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘तुंगा का युद्ध’ किस वर्ष लड़ा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1777"
+        },
+        {
+          "id": "opt2",
+          "text": "1787"
+        },
+        {
+          "id": "opt3",
+          "text": "1789"
+        },
+        {
+          "id": "opt4",
+          "text": "1790"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तुंगा का युद्ध (1787 ई.) (जयपुर ग्रामीण) : यह युद्ध सवाई प्रतापसिंह व माधावराज सिंधिया के मध्य जयपुर ग्रामीण में लड़ा गया था। जिसमें सवाई प्रतापसिंह की विजय हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Tax Assitant Exam 2018(P1)",
+      "sourceQuestionId": 7131,
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नागौर दरबार का आयोजन किस वर्ष किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1572 ई. में"
+        },
+        {
+          "id": "opt2",
+          "text": "1570 ई. में"
+        },
+        {
+          "id": "opt3",
+          "text": "1580 ई. में"
+        },
+        {
+          "id": "opt4",
+          "text": "1576 ई. में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1570 ई. में भारमल के सहयोग से अकबर ने नागौर दरबार का आयोजन किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (20-10-18) Shift 2",
+      "sourceQuestionId": 7133,
+      "reference": "📌 PYQ — Raj Jail Warder (20-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से आमेर के किस शासक ने सर्वप्रथम मुगलों के साथ संधि की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईश्वरी सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "भगवान दास"
+        },
+        {
+          "id": "opt3",
+          "text": "मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "भारमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "20 जनवरी 1562 ई. को भारमल ने अकबर की अधीनता स्वीकार की। सांभर नामक स्थान पर 6 फरवरी, 1562 ई. को भारमल ने अपनी कन्या हरकाबाई (शाहीबाई/यौद्धाबाई) का विवाह अकबर से कर दिया। भारमल पहला राजपूत शासक था जिसने मुगलों की अधीनता को स्वीकार कर उनसे वैवाहिक सम्बन्ध स्थापित किए।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7126,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: अकबर ने सर्वोच्च मनसब (सात हजारी) किस राजपूत शासक को दिया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा भारमल"
+        },
+        {
+          "id": "opt2",
+          "text": "मोटाराजा उदयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राजा मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजा भगवन्त दास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अकबर ने मानसिंह को 7000 का मनसब व फर्जन्द (बेटा) की उपाधि प्रदान की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7129,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"आमेर का कछवाहा वंश\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"आमेर का कछवाहा वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"आमेर का कछवाहा वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

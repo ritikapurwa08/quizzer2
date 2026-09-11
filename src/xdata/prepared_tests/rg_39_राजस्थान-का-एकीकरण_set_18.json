@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का एकीकरण",
+  "topicSlug": "राजस्थान-का-एकीकरण",
+  "testSetName": "राजस्थान का एकीकरण - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कितने चरणों में सिरोही राजस्थान से एकीकृत हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चार"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "दो"
+        },
+        {
+          "id": "opt4",
+          "text": "एक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 11132,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "देशी रियासत जिसने विलय पत्र पर सर्वप्रथम हस्ताक्षर किए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 11133,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की स्वतंत्रता के बाद राजस्थान के गठन के कितने चरण थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt2",
+          "text": "सात"
+        },
+        {
+          "id": "opt3",
+          "text": "नौ"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्यारह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LSA 2022",
+      "sourceQuestionId": 11136,
+      "reference": "📌 PYQ — RSMSSB LSA 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1948 में किन चार देशी रियासतों को मिला कर मत्स्य संघ का निर्माण किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर, जयपुर, बीकानेर, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर, बाँसवाड़ा, डूंगरपुर, प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहपुरा, किशनगढ़, झालावाड़, करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर, भरतपुर, धौलपुर, करौली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 11138,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "संयुक्त राजस्थान का प्रधानमंत्री कौन नियुक्त किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बलवन्तसिंह मेहता"
+        },
+        {
+          "id": "opt2",
+          "text": "माणिकलाल वर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "जय नारायण व्यास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Geography)",
+      "sourceQuestionId": 11139,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान – एकीकरण के प्रथम चरण में मत्स्य संघ की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "30.03.1948"
+        },
+        {
+          "id": "opt2",
+          "text": "18.03.1948"
+        },
+        {
+          "id": "opt3",
+          "text": "11.11.1950"
+        },
+        {
+          "id": "opt4",
+          "text": "28.03.1949"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-IV",
+      "sourceQuestionId": 11143,
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-IV"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रियासतों के विलय के समय जोधपुर राज्य का महाराजा कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गजसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जसवंतसिंह द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "उम्मेदसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुवन्तसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 11147,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: जोधपुर के वे महाराजा, जो अपने राज्य का स्वतंत्र अस्तित्व बनाये रखना चाहते थे-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उम्मेदसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "हनवंत सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अजीतसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11254,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से किस शासक ने अपने विलय-पत्र पर हस्ताक्षर करने से पूर्व कहा था कि “में अपेन डेथ वारन्ट पर हस्ताक्षर कर रहा हूं” -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रप्रकाश सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रवीर सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "चन्द्रमोहन सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "चन्द्रकान्त सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11255,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का एकीकरण\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान का एकीकरण\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान का एकीकरण\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

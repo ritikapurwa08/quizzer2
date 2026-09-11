@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "चौहान वंश",
+  "topicSlug": "चौहान-वंश",
+  "testSetName": "चौहान वंश - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘कवि बान्धव’ की उपाधि किस चौहान शासक को प्राप्त थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज तृतिय"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज द्वितीय"
+        },
+        {
+          "id": "opt4",
+          "text": "अजयराज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विद्वानों का आश्रयदाता होने के कारण जयानक भट्ट ने विग्रहराज को ‘कवि बान्धव’ (कवि बंधु) की उपाधि प्रदान की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2015 level-2 SST",
+      "sourceQuestionId": 7268,
+      "reference": "📌 PYQ — Reet 2015 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर की विजय के उपरान्त अलाउद्दीन खिलजी ने इस दुर्ग को किसके अधिकार में सौंपा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमीर अली"
+        },
+        {
+          "id": "opt2",
+          "text": "उलुग खान"
+        },
+        {
+          "id": "opt3",
+          "text": "लियाकत खान"
+        },
+        {
+          "id": "opt4",
+          "text": "उमर अब्दुला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अलाउद्दीन ने रणथम्भौर दुर्ग उलुग खां को सौंपा। अलाउद्दीन की विजय के बाद अमीर खुसरो ने कहा था “आज कुफ्र (धर्म विरोधी) का गढ़, इस्लाम का घर हो गया”।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "sourceQuestionId": 7281,
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1300 में रणथम्भौर आक्रमण के दौरान अलाउद्दीन खिलजी का कौनसा सेनानायक मारा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उल्लुघ खां"
+        },
+        {
+          "id": "opt2",
+          "text": "नुसरत खां"
+        },
+        {
+          "id": "opt3",
+          "text": "मीर कासीम"
+        },
+        {
+          "id": "opt4",
+          "text": "खिज्र खां"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अलाउद्दीन ने 1301 में रणथंभौर पर हमला करने के लिए उलूघ खाँ और नुसरत खाँ को कमान सौंपी। घेराबंदी के दौरान नुसरत खाँ के मारे जाने के बाद अलाउद्दीन ने व्यक्तिगत रूप से घेराबंदी अभियानों की देखरेख की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "sourceQuestionId": 7290,
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा शासक जालौर के चौहान वंश से संबंधित नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वत्सराज"
+        },
+        {
+          "id": "opt2",
+          "text": "कीर्तिपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "समर सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "उदय सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वत्सराज का संबंध गुर्जर प्रतिहार वंश से था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 7292,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोमदेव नामक कवि किस राजा के दरबारी कवि थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुमारपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "जगदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "सीहा"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज चतुर्थ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "विग्रहराज चतुर्थ साहित्य प्रेमी व साहित्यकारों का आश्रयदाता भी था। इन्होंने ‘हरकेलि’ नाटक और उसके दरबारी विद्वान सोमदेव ने ‘ललित विग्रहराज’ नामक नाटक की रचना करके साहित्य स्तर को ऊँचा उठाया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable(6742)",
+      "sourceQuestionId": 7311,
+      "reference": "📌 PYQ — Raj Police Constable(6742)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कदम्बवास या केम्बवास किस राजा के समय उनके मुख्यमंत्री थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "जयमल"
+        },
+        {
+          "id": "opt3",
+          "text": "कुमारपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज तृतीय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मात्र 11 वर्ष की अल्पायु में पृथ्वीराज तृतीय अजमेर की गद्दी के स्वामी बने। उस समय कदम्बदास (कैमास) उनका सुयोग्य प्रधानमंत्री था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable(6742)",
+      "sourceQuestionId": 7312,
+      "reference": "📌 PYQ — Raj Police Constable(6742)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर का संस्थापक कौन था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वासुदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "गुवुक"
+        },
+        {
+          "id": "opt3",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्णोराज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज प्रथम के पुत्र का नाम अजयराज था। अपने साम्राज्य को सुरक्षित रखने के लिए उसने 1113 ई. में अजयमेरु (अजमेर) बसाकर उसे अपनी राजधानी बनाया। उसने अजयमेरु में दुर्ग का निर्माण करवाया जिसे गढ़बीठली कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC Exam 2011 Paper I",
+      "sourceQuestionId": 7313,
+      "reference": "📌 PYQ — RPSC LDC Exam 2011 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का प्रथम चौहान राज्य था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "रणथम्भौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाडौल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नाडौल के चौहानों की शाखा का संस्थापक शाकम्भरी नरेश वाक्पति राज का पुत्र लक्ष्मण चौहान था, जिसने 960 ई. में लगभग चावडा राजपूतों से स्वतंत्र होकर चौहान वंश की स्थापना की। शाकम्भरी के चौहानों के बाद यह प्रथम चौहान राज्य था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7309,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘कटिबन्धु’ के नाम से निम्न से कौनसा राजा प्रसिद्ध था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धारावर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "विग्रहराजा चतुर्थ"
+        },
+        {
+          "id": "opt3",
+          "text": "कुम्भा"
+        },
+        {
+          "id": "opt4",
+          "text": "सांगा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जग्गदेव के अल्पकालीन शासन (1155-1158 ई.) के पश्चात् विग्रहराज चतुर्थ (बीसलदेव) 1158 ई. के लगभग अजमेर का शासक बना। चौहान शासक विग्रहराज चतुर्थ का काल सपादलक्ष का स्वर्णयुग कहलाता है। उसे वीसलदेव और कवि बान्धव भी कहा जाता था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7310,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"चौहान वंश\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"चौहान वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"चौहान वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

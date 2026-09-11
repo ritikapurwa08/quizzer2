@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वर्ष2012और2023के प्रथम दिन अर्थात १ जनवरी को रविवार है। तब क्रमश:31दिसम्बर2015और 2025को कौन से दिन होंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंगलवार, मंगलवार"
+        },
+        {
+          "id": "opt2",
+          "text": "बुधवार, गुरूवार"
+        },
+        {
+          "id": "opt3",
+          "text": "गुरूवार, बुधवार"
+        },
+        {
+          "id": "opt4",
+          "text": "शुक्रवार, शनिवार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "Q 1जनवरी,2012को दिन=रविवार तब31दिसंबर2015का दिन=रविवार+वर्ष में अतिरिक्त दिन =रविवार+ 2 + 1 + 1 =रविवार+ 4 =गुरुवार Q 1जनवरी,2023का दिन=रविवार तब31दिसंबर,2025का दिन=रविवार+वर्ष में अतिरिक्त दिन =रविवार+ 1 + 2 =रविवार+ 3 =बुधवार अत:31दिसंबर,2015और2025को दिन=गुरुवार, बुधवार",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant jailor 2013",
+      "sourceQuestionId": 25078,
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक पासे की तीन भिन्न-भिन्न स्थितियां नीचे दिखाई गई हैं– १ की विपरीत संख्या है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पहले तथा दूसरे पासे से– एक सतह उभयनिष्ठ नियम से– अत: संख्या ‘१’ के विपरीत सतह पर संख्या ‘५’ होगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 25079,
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "64छोटे घनों से एक ठोस घन बनाया गया है। कितने छोटे घन किसी भी परिस्थिति में नहीं दिखाई देंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "6"
+        },
+        {
+          "id": "opt3",
+          "text": "4"
+        },
+        {
+          "id": "opt4",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नानुसार- बड़ा घन() 3 N 64 = = 4 अत: न दिखाई देने वाले घनों की संख्या= (N – 2)3 = (4 – 2)3 = (2)3 = 8",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2023",
+      "sourceQuestionId": 25080,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक ठोस घन आकृति जिसकी प्रत्येक भुजा8से.मी. है के परस्पर विपरीत पार्श्वों को लाल, नीले एवं काले रंगों से रंगा जाता है। तब इस ठोस को2से.मी. के घनाकृति वाले ब्लाकों में काटा जाता है। तो ज्ञात कीजिए कि कितने घन ऐसे होंगे जिनके मात्र दो पार्श्व रंगे होंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "48"
+        },
+        {
+          "id": "opt2",
+          "text": "16"
+        },
+        {
+          "id": "opt3",
+          "text": "20"
+        },
+        {
+          "id": "opt4",
+          "text": "24"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "एक किनारे पर बने भागे की संख्या() 8 n 4 2 = = दो पार्श्व रंगे घन की संख्या () n 2 12 = − × () 4 2 12 = − × 2 12 = × = 24",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 25081,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सात व्यक्तिP, Q, R, S, T, UऔरVएक पंक्ति में बैठे हुए हैं।TऔरUके मध्य एक व्यक्ति है।V, Pके एकदम दायीं ओर है।Q, Uके एकदम बायीं ओर है।S औरPके मध्य एक व्यक्ति है।S, Vका पड़ोसी नहीं है।VऔरUके मध्य दो व्यक्ति हैं।R, Pके एकदम बायीं ओर है। कौन-सा व्यक्ति पंक्ति के बिल्कुल मध्य में बैठा हुआ है? 934 YCT",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Q"
+        },
+        {
+          "id": "opt2",
+          "text": "T"
+        },
+        {
+          "id": "opt3",
+          "text": "P"
+        },
+        {
+          "id": "opt4",
+          "text": "V"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नानुसार, सात व्यक्तियों के बैठने का क्रम निम्नवत् है– अत: स्पष्ट है कि पंक्ति के बिल्कुल बीच में ‘V’ बैठा हुआ है। दी गई सूचनाओं का ध्यानपूर्वक अध्ययन करें तथा नीचे दिए गए प्रश्नों(14-15) के उत्तर दें: (i) एक कक्षा के6छात्र तथा एक अध्यापकA, B, C, D, E, FतथाGएक वृत्त पर केन्द्र की तरफ मुँहकरके बैठे हैं। (ii) E अध्यापक है जोD के तुरंत बायें है। (iii) A तथा Bके मध्य केवल C है। (iv) EतथाAके मध्य केवलFहै। (v) G, Bके बायें है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2023",
+      "sourceQuestionId": 25082,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अध्यापक के तुरन्त बायें कौन है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "F"
+        },
+        {
+          "id": "opt2",
+          "text": "D"
+        },
+        {
+          "id": "opt3",
+          "text": "A"
+        },
+        {
+          "id": "opt4",
+          "text": "G"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नानुसार बैठक व्यवस्था निम्नवत् है– चित्रानुसार अध्यापक'E' के तुरन्त बाये'F'है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 25083,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनB तथा Dके मध्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "C"
+        },
+        {
+          "id": "opt2",
+          "text": "A"
+        },
+        {
+          "id": "opt3",
+          "text": "G"
+        },
+        {
+          "id": "opt4",
+          "text": "E"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चित्रानुसारB औरD के मध्य में‘G’ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 25084,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान देश का पहला राज्य है जहाँ राजकीय विद्यालयों में ‘‘नो बेग डे’’ लागू किया गया है। इसके लिए निर्धारित दिन है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मगलवार"
+        },
+        {
+          "id": "opt2",
+          "text": "गुरुवार"
+        },
+        {
+          "id": "opt3",
+          "text": "शुक्रवार"
+        },
+        {
+          "id": "opt4",
+          "text": "शनिवार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के सरकारी स्कूलों में हर महीने के दूसरे और चौथे शनिवार को ‘नो बैग डे’ मनाया जाता है। इस दिन बच्चों से कई गतिविधियां कराई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 26060,
+      "reference": "✎ PYQ Modified · RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में प्रथम ‘‘राजस्व दिवस’’ का आयोजन कब हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15 सितम्बर, 2019"
+        },
+        {
+          "id": "opt2",
+          "text": "15 अक्टूबर, 2019"
+        },
+        {
+          "id": "opt3",
+          "text": "15 सितम्बर, 2020"
+        },
+        {
+          "id": "opt4",
+          "text": "15 अक्टूबर, 2020"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राजस्व विभाग द्वारा राज्य में १५ अक्टूबर, २०२० को पहली बार ‘राजस्व दिवस’ मनाया जाएगा। इस अवसर पर मुख्यमंत्री एवं राजस्व मंत्री हरीश चौधरी, राजस्व राज्यमंत्री भंवर सिंह भारी में कर्मचारियों से संवाद किया। 1061",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 26061,
+      "reference": "✎ PYQ Modified · RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

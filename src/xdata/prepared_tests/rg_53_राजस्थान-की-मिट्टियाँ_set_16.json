@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की मिट्टियाँ",
+  "topicSlug": "राजस्थान-की-मिट्टियाँ",
+  "testSetName": "राजस्थान की मिट्टियाँ - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में लाल - लोमी मृदा (Red Loamy Soil) पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "चूरू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (12 March 2023)",
+      "sourceQuestionId": 13297,
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ग्रेनाइट, नाइस व शिष्ट चट्टानों के विखंडन से कौन सी मृदा का निर्माण होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेतीली"
+        },
+        {
+          "id": "opt2",
+          "text": "काली"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल-पीली"
+        },
+        {
+          "id": "opt4",
+          "text": "दोमट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 13299,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी मृदा ‘स्वजोत’ के लिए जानी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कछारी"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल - रेतीली"
+        },
+        {
+          "id": "opt3",
+          "text": "भूरी-रेतीली"
+        },
+        {
+          "id": "opt4",
+          "text": "काली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 English L2",
+      "sourceQuestionId": 13301,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन सी मृदा में क्रोमोस्टर्ट्स उपमृदाकण का विशेष महत्व है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एरिडीसोल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "इन्सेप्टिसोल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "अल्फीसोल्स"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्टीसोल्स"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Hindi L2",
+      "sourceQuestionId": 13302,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कृषि विभाग, राजस्थान के मृदा वर्गीकरण के अनुसार ‘जिप्सीफेरस’ मृदा ____ में पाई जाती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Hindi L2",
+      "sourceQuestionId": 13303,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नाइट्रेट की उपस्थिति के कारण कौन सी मृदा उर्वरक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल-पीली"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल-लोमी"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल - रेतीली"
+        },
+        {
+          "id": "opt4",
+          "text": "भूरी- रेतीली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+      "sourceQuestionId": 13304,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "काली मृदा जानी जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेगुर मिट्टी से"
+        },
+        {
+          "id": "opt2",
+          "text": "बांगर एवम् खादर मिट्टी से"
+        },
+        {
+          "id": "opt3",
+          "text": "कांप मिट्टी से"
+        },
+        {
+          "id": "opt4",
+          "text": "लैटराइट मिट्टी से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 L1",
+      "sourceQuestionId": 13306,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: मृदा जो पश्चिमी राजस्थान में सर्वाधिक क्षेत्र में मिलती है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जलोढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "काली"
+        },
+        {
+          "id": "opt3",
+          "text": "रेतीली"
+        },
+        {
+          "id": "opt4",
+          "text": "लाल-पीली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13385,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में निम्न में से किस स्थान पर इनसेप्टीमोल्स मृदा नहीं पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13389,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की मिट्टियाँ\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान की मिट्टियाँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान की मिट्टियाँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

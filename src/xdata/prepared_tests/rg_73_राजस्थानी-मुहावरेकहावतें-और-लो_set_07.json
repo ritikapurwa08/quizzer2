@@ -1,0 +1,280 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ",
+  "topicSlug": "राजस्थानी-मुहावरेकहावतें-और-लोकोक्तियाँ",
+  "testSetName": "राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“तेल काढणौ” मुहावरे का तात्पर्य है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेल निकालना"
+        },
+        {
+          "id": "opt2",
+          "text": "परेशान करना"
+        },
+        {
+          "id": "opt3",
+          "text": "लाभ कमाना"
+        },
+        {
+          "id": "opt4",
+          "text": "सहायता करना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15515,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“हथेळी माथै जांन राखणी” का अर्थ है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुरक्षा करना"
+        },
+        {
+          "id": "opt2",
+          "text": "जोखिम उठाना"
+        },
+        {
+          "id": "opt3",
+          "text": "आराम करना"
+        },
+        {
+          "id": "opt4",
+          "text": "सहायता देना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15516,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“सोनै के काट कोन्या लागै” का भाव है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धन का महत्व"
+        },
+        {
+          "id": "opt2",
+          "text": "सज्जन पर कलंक नहीं लगता"
+        },
+        {
+          "id": "opt3",
+          "text": "सोना अमूल्य"
+        },
+        {
+          "id": "opt4",
+          "text": "सत्य की जीत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15517,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“सौ सोनार री अेक लुवार री” का अर्थ है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संख्या बल"
+        },
+        {
+          "id": "opt2",
+          "text": "बलवान की एक चोट पर्याप्त"
+        },
+        {
+          "id": "opt3",
+          "text": "मेहनत का महत्व"
+        },
+        {
+          "id": "opt4",
+          "text": "धैर्य जरूरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15518,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“सावळ करतां कावळ पड़ै” कहावत का भाव है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भलाई का फल"
+        },
+        {
+          "id": "opt2",
+          "text": "भलाई करने पर भी बुराई मिलना"
+        },
+        {
+          "id": "opt3",
+          "text": "छल से लाभ"
+        },
+        {
+          "id": "opt4",
+          "text": "परिश्रम का फल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15519,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“धरम री गाय रा दांत कांई देखणा” का आशय है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पशुपालन"
+        },
+        {
+          "id": "opt2",
+          "text": "दान की वस्तु के दोष न देखना"
+        },
+        {
+          "id": "opt3",
+          "text": "धर्म पालन"
+        },
+        {
+          "id": "opt4",
+          "text": "न्याय करना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15520,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“दूबला नै दो असाढ़” कहावत का भाव है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुख मिलना"
+        },
+        {
+          "id": "opt2",
+          "text": "आपत्ति पर आपत्ति आना"
+        },
+        {
+          "id": "opt3",
+          "text": "सहायता मिलना"
+        },
+        {
+          "id": "opt4",
+          "text": "स्वास्थ्य ठीक होना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 15521,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: “आग में घी पूळौ नांखणौ” का भाव है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाद शांत करना"
+        },
+        {
+          "id": "opt2",
+          "text": "झगड़ा और बढ़ाना"
+        },
+        {
+          "id": "opt3",
+          "text": "समझौता करना"
+        },
+        {
+          "id": "opt4",
+          "text": "न्याय करना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15548,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: “आँख चूकणी” मुहावरे का सही अर्थ है—",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देखना"
+        },
+        {
+          "id": "opt2",
+          "text": "सावधान रहना"
+        },
+        {
+          "id": "opt3",
+          "text": "लापरवाह होना"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्साहित होना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15549,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import {
 } from "@/lib/constants";
 import { AcceptedQuestionType, extractMatchListsFromText } from "@/lib/validators/question";
 import { cn, containsDevanagari } from "@/lib/utils";
+import { isFakeExam } from "@/components/quiz/QuestionSourceMeta";
 import { useToast } from "@/components/ui/Toast";
 
 import {
@@ -102,6 +103,8 @@ export function QuestionEditorModal({
   const [correctAnswer, setCorrectAnswer] = useState<string>("opt1");
   const [explanation, setExplanation] = useState("");
   const [reference, setReference] = useState("");
+  const [sourceType, setSourceType] = useState<"PYQ" | "PYQ_MODIFIED" | "AI_NEW">("PYQ");
+  const [exam, setExam] = useState("");
   const [meta, setMeta] = useState<any>({});
 
   useEffect(() => {
@@ -111,7 +114,17 @@ export function QuestionEditorModal({
     setQuestionText(question.questionText || "");
     setExplanation(question.explanation || "");
     setReference(question.reference || "");
-    setMeta(question.meta ? JSON.parse(JSON.stringify(question.meta)) : {});
+    const qMeta = question.meta ? JSON.parse(JSON.stringify(question.meta)) : {};
+    setMeta(qMeta);
+
+    const initialSourceType =
+      qMeta.sourceType === "AI_NEW"
+        ? "AI_NEW"
+        : qMeta.sourceType === "PYQ_MODIFIED"
+        ? "PYQ_MODIFIED"
+        : "PYQ";
+    setSourceType(initialSourceType);
+    setExam(qMeta.exam && !isFakeExam(qMeta.exam) ? qMeta.exam : "");
 
     setOptions(
       question.options && question.options.length > 0
@@ -202,12 +215,24 @@ export function QuestionEditorModal({
 
   async function handleSave() {
     if (!validateForm()) return;
-    let finalMeta = meta;
+    let finalMeta: any = { ...(meta || {}), sourceType };
+    if (sourceType !== "AI_NEW") {
+      const cleanExam = exam.trim();
+      if (cleanExam && !isFakeExam(cleanExam)) {
+        finalMeta.exam = cleanExam;
+      } else {
+        delete finalMeta.exam;
+      }
+    } else {
+      delete finalMeta.exam;
+      delete finalMeta.sourceQuestionId;
+    }
+
     if ((type === "match" || type === "match_following") && (!finalMeta?.left?.length || !finalMeta?.right?.length)) {
       const extracted = extractMatchListsFromText(questionText);
       if (extracted.left.length > 0 || extracted.right.length > 0) {
         finalMeta = {
-          ...(finalMeta || {}),
+          ...finalMeta,
           left: extracted.left,
           right: extracted.right,
           ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
@@ -242,12 +267,21 @@ export function QuestionEditorModal({
   const isQuestionHindi = containsDevanagari(questionText);
   const isExplanationHindi = containsDevanagari(explanation);
 
-  let previewMeta = meta;
+  let previewMeta: any = {
+    ...(meta || {}),
+    sourceType,
+    ...(sourceType !== "AI_NEW" && exam.trim() && !isFakeExam(exam.trim()) ? { exam: exam.trim() } : {}),
+  };
+  if (sourceType === "AI_NEW") {
+    delete previewMeta.exam;
+    delete previewMeta.sourceQuestionId;
+  }
+
   if ((type === "match" || type === "match_following") && (!previewMeta?.left?.length || !previewMeta?.right?.length)) {
     const extracted = extractMatchListsFromText(questionText);
     if (extracted.left.length > 0 || extracted.right.length > 0) {
       previewMeta = {
-        ...(previewMeta || {}),
+        ...previewMeta,
         left: extracted.left,
         right: extracted.right,
         ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
@@ -358,7 +392,7 @@ export function QuestionEditorModal({
                 {/* ── Section 1: Metadata ── */}
                 <section>
                   <SectionHeading icon={<Layers className="h-3.5 w-3.5" />} label="Metadata" />
-                  <div className="mt-2.5 grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="mt-2.5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
                     {/* Type */}
                     <div className="space-y-1">
                       <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
@@ -401,18 +435,62 @@ export function QuestionEditorModal({
                         </SelectContent>
                       </Select>
                     </div>
-                    {/* Reference */}
+                    {/* Source Type */}
                     <div className="space-y-1">
                       <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
-                        Reference <span className="normal-case font-normal">(optional)</span>
+                        Source Type
                       </Label>
-                      <Input
-                        value={reference}
-                        onChange={(e) => setReference(e.target.value)}
-                        placeholder="e.g. NCERT Class 11"
-                        className="h-10 text-sm"
-                      />
+                      <Select
+                        value={sourceType}
+                        onValueChange={(val: string | null) => {
+                          if (!val) return;
+                          const st = val as "PYQ" | "PYQ_MODIFIED" | "AI_NEW";
+                          setSourceType(st);
+                          if (st === "AI_NEW") setExam("");
+                        }}
+                      >
+                        <SelectTrigger className="h-10 text-xs font-semibold bg-card border-border">
+                          <SelectValue placeholder="Source..." />
+                        </SelectTrigger>
+                        <SelectContent className="bg-popover border-border">
+                          <SelectItem value="PYQ" className="text-xs font-semibold">
+                            PYQ
+                          </SelectItem>
+                          <SelectItem value="PYQ_MODIFIED" className="text-xs font-semibold">
+                            PYQ Modified
+                          </SelectItem>
+                          <SelectItem value="AI_NEW" className="text-xs font-semibold">
+                            AI Generated
+                          </SelectItem>
+                        </SelectContent>
+                      </Select>
                     </div>
+                    {/* Exam Name or Reference */}
+                    {sourceType !== "AI_NEW" ? (
+                      <div className="space-y-1">
+                        <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
+                          Exam Name <span className="normal-case font-normal">(real exam)</span>
+                        </Label>
+                        <Input
+                          value={exam}
+                          onChange={(e) => setExam(e.target.value)}
+                          placeholder="e.g. Forester Exam 2026"
+                          className="h-10 text-sm font-hindi"
+                        />
+                      </div>
+                    ) : (
+                      <div className="space-y-1">
+                        <Label className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider">
+                          Reference <span className="normal-case font-normal">(optional)</span>
+                        </Label>
+                        <Input
+                          value={reference}
+                          onChange={(e) => setReference(e.target.value)}
+                          placeholder="e.g. NCERT Class 11"
+                          className="h-10 text-sm"
+                        />
+                      </div>
+                    )}
                   </div>
                 </section>
 

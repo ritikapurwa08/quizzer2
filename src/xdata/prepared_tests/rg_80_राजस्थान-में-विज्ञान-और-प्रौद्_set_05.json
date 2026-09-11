@@ -1,0 +1,286 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में विज्ञान और प्रौद्योगिकी का विकास",
+  "topicSlug": "राजस्थान-में-विज्ञान-और-प्रौद्योगिकी-का-विकास",
+  "testSetName": "राजस्थान में विज्ञान और प्रौद्योगिकी का विकास - अभ्यास टेस्ट 5",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर सौर वेधशाला को किस अंतर्राष्ट्रीय वेधशाला के मॉडल के अनुसार डिज़ाइन किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सौर वेधशाला, बिग बियर लेक, कैलिफोर्निया"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रीय सौर वेधशाला, सनस्पाट, न्यू मैक्सिको"
+        },
+        {
+          "id": "opt3",
+          "text": "किट पीक राष्ट्रीय बेधशाला, टकसन, अरिजोना"
+        },
+        {
+          "id": "opt4",
+          "text": "अपाचे पाइट वेधशाला, सनस्पाट, न्यू मैक्सिको"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Supervisor (women empowerment) Exam 2018",
+      "sourceQuestionId": 16400,
+      "reference": "📌 PYQ — Supervisor (women empowerment) Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में विज्ञान एवं प्रौद्योगिकी विभाग किस वर्ष में स्थापित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2019"
+        },
+        {
+          "id": "opt2",
+          "text": "1983"
+        },
+        {
+          "id": "opt3",
+          "text": "1996"
+        },
+        {
+          "id": "opt4",
+          "text": "1972"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 13 September 2021 (Gk)",
+      "sourceQuestionId": 16405,
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में NBPGR का प्रादेशिक केन्द्र कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 13 September 2021 (Gk)",
+      "sourceQuestionId": 16406,
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर पुलिस द्वारा नौकर-किरायेदार के ऑनलाइन सत्यापन हेतु जारी किये मोबाइल एप का नाम क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दृष्टि"
+        },
+        {
+          "id": "opt2",
+          "text": "नज़र"
+        },
+        {
+          "id": "opt3",
+          "text": "आंख"
+        },
+        {
+          "id": "opt4",
+          "text": "चक्षु"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जयपुर पुलिस ने घरेलू नौकरों और किरायेदारों के पुलिस वेरिफिकेशन के लिए ‘नजर’ (Nazar Citizen App) लॉन्च किया है। इससे मकान मालिक घर बैठे ही सत्यापन कर सकते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 16371,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस वर्ष में राजस्थान में पेटेंट सूचना केंद्र (PIC) की स्थापना की गई-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1998"
+        },
+        {
+          "id": "opt2",
+          "text": "1999"
+        },
+        {
+          "id": "opt3",
+          "text": "2000"
+        },
+        {
+          "id": "opt4",
+          "text": "2002"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पेटेंट सूचना केंद्र (PIC) की स्थापना 1998 में प्रौद्योगिकी सूचना, पूर्वानुमान और मूल्यांकन परिषद (TIFAC), विज्ञान और प्रौद्योगिकी विभाग, भारत सरकार और राजस्थान सरकार की एक संयुक्त परियोजना के रूप में की गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 16396,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सैटकाॅम परियोजना का सम्बन्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सेटेलाईट आधारित मानचित्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "सेटेलाईट आधारित प्रशिक्षण"
+        },
+        {
+          "id": "opt3",
+          "text": "सेटेलाईट आधारित भूमापीकरण"
+        },
+        {
+          "id": "opt4",
+          "text": "सेटेलाईट आधारित रिकाॅर्ड कम्प्यूटरीकरण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपग्रह संचार प्रणाली (सेटेलाईट कम्यूनिकेषन) आधारित संचार तंत्र की राज्य में विभिन्न विभागों के प्रषिक्षण व प्रचार प्रसार की गतिविधियों हेतु DECU (Development and Educational Communication Unit) इसरो, भारत सरकार, अहमदाबाद के साथ परियोजना की स्थापना वर्ष 2005 में हुई थी। विज्ञान एवं प्रौद्योगिकी विभाग इस योजना के लिये नोडल विभाग है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 16403,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वह राजस्थान पोर्टल जो राजकीय दस्तावेज व प्रमाण पत्रों को डिजिटली सत्यापित करने की सुविधा देता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आई-फेक्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "राज ई-वॉल्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "राजनेट"
+        },
+        {
+          "id": "opt4",
+          "text": "ई-संचार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 16397,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: खगोल विज्ञान की अवधारणा प्रस्तुत करने वाला ‘तारामण्डल’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16414,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में पेटेन्ट सूचना केन्द्र स्थापित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1993"
+        },
+        {
+          "id": "opt2",
+          "text": "1998"
+        },
+        {
+          "id": "opt3",
+          "text": "2007"
+        },
+        {
+          "id": "opt4",
+          "text": "2013"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16415,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में विज्ञान और प्रौद्योगिकी का विकास\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में विज्ञान और प्रौद्योगिकी का विकास\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में विज्ञान और प्रौद्योगिकी का विकास\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

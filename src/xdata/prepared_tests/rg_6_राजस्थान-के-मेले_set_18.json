@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के मेले",
+  "topicSlug": "राजस्थान-के-मेले",
+  "testSetName": "राजस्थान के मेले - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस स्थान पर तेजाजी की स्मृति में पशु मेला आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तिलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "परबतसर"
+        },
+        {
+          "id": "opt3",
+          "text": "आसीन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "देशनोक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 15 September 2021 (Gk)",
+      "sourceQuestionId": 1466,
+      "reference": "📌 PYQ — Police SI 15 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्री मल्‍लीनाथ पशु मेला कहां आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुष्कर (अजमेर)"
+        },
+        {
+          "id": "opt2",
+          "text": "तिलवाड़ा (बाड़मेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "झालरापाटन (झालावाड़)"
+        },
+        {
+          "id": "opt4",
+          "text": "परबतसर (नागौर)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan High Court LDC 2020",
+      "sourceQuestionId": 1471,
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, वार्षिक शीतकालीन उत्सव ___ में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माउंट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "sourceQuestionId": 1473,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, पतंग उत्सव _____ के महीने में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अप्रैल"
+        },
+        {
+          "id": "opt2",
+          "text": "जून"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "सितंबर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "sourceQuestionId": 1474,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर ऊंट त्योहार _____ के महीने में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जून"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्च"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "अगस्त"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "sourceQuestionId": 1475,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस शहर में प्रत्येक वर्ष विश्व प्रसिद्ध उर्स का आयोजन किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 1477,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लाल्या-काल्या मेला आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "sourceQuestionId": 1480,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कपिल मुनि मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत में"
+        },
+        {
+          "id": "opt2",
+          "text": "तिलवाड़ा में"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्कर में"
+        },
+        {
+          "id": "opt4",
+          "text": "देशनोक में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1568,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कजली तीज मेला कहां आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1571,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के मेले\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के मेले\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के मेले\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

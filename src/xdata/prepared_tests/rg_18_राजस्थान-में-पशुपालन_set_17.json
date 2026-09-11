@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 17",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सोनाड़ी नस्ल की भेड़ें राजस्थान के किस जिले में पाई जाती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 14 September 2021 (Gk)",
+      "sourceQuestionId": 6065,
+      "reference": "📌 PYQ — Police SI 14 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I का सूची-II से मिलान कीजिए तथा नीचे दिए गए कूट का उपयोग करके सही उत्तर का चयन कीजिए –सूची-I (पशु मेला)1. वीर तेजाजी2. शिवरात्रि3. चन्द्रभागा4. मल्लीनाथसूची-II (स्थान)(i) बाड़मेर(ii) भरतपुर(iii) परबतसर(iv) झालरापाटनकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(iii), 2-(ii), 3-(iv), 4-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(i), 2-(ii), 3-(iv), 4-(iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(i), 2-(iii), 3-(iv), 4-(ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(iii), 2-(i), 3-(iv), 4-(ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 27 Dec 2021",
+      "sourceQuestionId": 6072,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस शहर में आईसीएआर-केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान (ICAR-CSWRI) स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "मालपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "sourceQuestionId": 6077,
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में इनमें से कौन-सी एक भेड़ की नस्ल पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौरी"
+        },
+        {
+          "id": "opt2",
+          "text": "राठी"
+        },
+        {
+          "id": "opt3",
+          "text": "चौकला"
+        },
+        {
+          "id": "opt4",
+          "text": "मुर्रा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+      "sourceQuestionId": 6095,
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन सी राजस्थान की भेड़ की किस्म नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt2",
+          "text": "पुगल"
+        },
+        {
+          "id": "opt3",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt4",
+          "text": "बरबरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 6106,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशुओं में खुपरका-मुँहपका बीमारी का कारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वायरस (विषाणु)"
+        },
+        {
+          "id": "opt2",
+          "text": "जीवाणु"
+        },
+        {
+          "id": "opt3",
+          "text": "फफूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रोटोजोआ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 6112,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दुग्ध बुखार बीमारी का कारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जीवाणुजनित"
+        },
+        {
+          "id": "opt2",
+          "text": "विषाणुजनित"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रोटोजोआजनित"
+        },
+        {
+          "id": "opt4",
+          "text": "उपापचयी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 6113,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान सरकार द्वारा निम्न में से किसके दूध का प्रसंस्करण एवं वितरण करने हेतु जयपुर में मिनी प्लांट की स्थापना किये जाने की घोषणा की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गाय"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊंट"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6188,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के उक्त मानचित्रों में पशुओं की प्रसिद्ध नस्लों के क्षेत्रिय वितरण को (i), (ii), (iii) और (iv) से अंकित किया गया है। नीचे दी गई क्रमावली से इनका अनुक्रम पहचानिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "थारपरकार, राठी, गीर, कांकरेज"
+        },
+        {
+          "id": "opt2",
+          "text": "कांकरेज, गीर, थारपरकार, राठी"
+        },
+        {
+          "id": "opt3",
+          "text": "थारपरकार, कांकरेज, गीर, राठी"
+        },
+        {
+          "id": "opt4",
+          "text": "राठी, थारपरकार, कांकरेज, गीर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6190,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

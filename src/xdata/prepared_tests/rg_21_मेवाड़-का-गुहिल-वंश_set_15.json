@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "मेवाड़ का गुहिल वंश",
+  "topicSlug": "मेवाड़-का-गुहिल-वंश",
+  "testSetName": "मेवाड़ का गुहिल वंश - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजगुरू, दानगुरू, हालगुरू एवं परमगुरू नामक उपाधियां किस शासक की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बप्पा रावल"
+        },
+        {
+          "id": "opt2",
+          "text": "राणा सांगा"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा हम्मीर"
+        },
+        {
+          "id": "opt4",
+          "text": "राणा कुम्भा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कुम्भा को अभिनव भरताचार्य, राणा रासौ, दानगुरू, हालगुरू, रामरायण, महाराजाधिराज, राजगुरू, परमगुरू, छापगुरू आदि उपाधियां प्राप्त थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (28-10-18) Shift 2",
+      "sourceQuestionId": 6824,
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शासक के कार्यकाल में मेवाड भील कोर का गठन किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा जगतसिंह द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा भीमसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा सरदार सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महाराणा सरदार सिंह के समय में भोमट आदिवासी क्षेत्र में भील जनजाति का उपद्रव तेज हो गया था। अतः जनजातीय उपद्रव को दबाने की आड लेकर ब्रिटिश ईस्ट इण्डिया कम्पनी ने 1841 ई. में इनके साथ में ‘मेवाड़ भील कोर’ का गठन किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (28-10-18) Shift 2",
+      "sourceQuestionId": 6825,
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राणा सांगा और बाबर के मध्य खानवा का युद्ध कब लड़ा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "13 मार्च, 1527"
+        },
+        {
+          "id": "opt2",
+          "text": "17 मार्च, 1527"
+        },
+        {
+          "id": "opt3",
+          "text": "16 फरवरी, 1527"
+        },
+        {
+          "id": "opt4",
+          "text": "18 फरवरी, 1527"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खानवा युद्ध राणा सांगा एवं मुगल सम्राट जहीरुद्दीन मुहम्मद बाबर के मध्य 17 मार्च, 1527 ई. को बयाना के पास (वर्तमान रूपबास) हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 6847,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1582 ई. में महाराणा प्रताप की दिबेर-विजय के समय वहां के अधिकारी थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुल्तान खान गोरी"
+        },
+        {
+          "id": "opt2",
+          "text": "अब्दुर्रहीम खानखाना"
+        },
+        {
+          "id": "opt3",
+          "text": "अब्दुल्ला खान"
+        },
+        {
+          "id": "opt4",
+          "text": "शाहबाज खान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘अमरकाव्य’ के अनुसार 1582 ई. में राणा प्रताप ने मुगलों के विरुद्ध दिवेर (कुंभलगढ़) पर जबरदस्त आक्रमण किया। यहाँ का सूबेदार अकबर का काका सेरिमा सुल्तान खां था। जब कुंवर अमरसिंह ने अपना भाला सेरिमा सुल्तान पर मारा तो भाला सेरिमा के लोहे के बख्तर को चीरते हुए उसके शरीर में प्रवेश कर पार हो गया। यह देख बाकी मुगल सेना भाग खड़ी हुई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 6848,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगरपुर राज्य में गुहिल राजवंश का संस्थापक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आसकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "सेसमल"
+        },
+        {
+          "id": "opt3",
+          "text": "सामन्तसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महारावल उदयसिंह ने अपने जीवनकाल में ही अपना राज्य दो भागों में बांट दिया था। - पश्चिमी भाग (डूंगरपुर) ज्येष्ठ पुत्र पृथ्वीराज को तथा पूर्वी भाग (बांसवाड़ा) दूसरे पुत्र जगमाल को दे दिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+      "sourceQuestionId": 6849,
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुम्भा का गुजरात के साथ संघर्ष का प्रारंभिक कारण क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईडर की समस्या"
+        },
+        {
+          "id": "opt2",
+          "text": "चूण्डा को शरण"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर विवाद"
+        },
+        {
+          "id": "opt4",
+          "text": "गुजरात द्वारा बूंदी के साथ संधि"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेवाङ और गुजरात के संघर्ष का मुख्य कारण नागौर की राजनीतिक स्थिति थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 6850,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ के महाराणा प्रताप के विरूद्ध अंतिम मुगल आक्रमण का नेतृत्व किसने किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भगवन्त दास"
+        },
+        {
+          "id": "opt2",
+          "text": "अब्दुल रहीम खानखाना"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहबाज खां"
+        },
+        {
+          "id": "opt4",
+          "text": "जगन्नाथ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "5 दिसम्बर, 1584 को कछवाह जगन्नाथ के नतृत्व में एक सशक्त सेना मेवाड़ भेजी गयी। जगन्नाथ कछवाहा को भी सफलता नहीं मिली अपितु उसकी मांडलगढ़ में मृत्यु हो गई। जहां पर महाराणा प्रताप ने बदला लेने के लिए आमेर के क्षेत्र पर आक्रमण कर मालपुरा को लूटा व झालरा तालाब के निकट शिव मंदिर ‘नीलकण्ठ महादेव’ का निर्माण करवाया। सन् 1585 के बाद अकबर ने मेवाड़ पर कोई आक्रमण नहीं किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 6851,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: यह किसने कहा था कि ‘राणा सांगा सैनिक का भग्नावशेष’ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डा. ओझा"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल टाॅड"
+        },
+        {
+          "id": "opt3",
+          "text": "विलियम जोन्स"
+        },
+        {
+          "id": "opt4",
+          "text": "मुहणोत नैणसी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इतिहास में महाराणा सांगा का नाम ‘अन्तिम भारतीय हिन्दू सम्राट’ के रूप में अमर है। कर्नल टॉड ने राणा सांगा को ‘सैनिक भग्नावशेष’ कहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6839,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: बप्पा रावल मेवाड़ के किस शासक का अन्य नाम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुहादित्य"
+        },
+        {
+          "id": "opt2",
+          "text": "अल्लट"
+        },
+        {
+          "id": "opt3",
+          "text": "मोकल"
+        },
+        {
+          "id": "opt4",
+          "text": "कालभोज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बप्पा रावल के द्वारा ही मौर्य शासक मान से चित्तौड़गढ़ दुर्ग जीता गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6840,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"मेवाड़ का गुहिल वंश\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"मेवाड़ का गुहिल वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"मेवाड़ का गुहिल वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

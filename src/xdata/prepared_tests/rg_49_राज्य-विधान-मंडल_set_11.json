@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राज्य विधान मंडल",
+  "topicSlug": "राज्य-विधान-मंडल",
+  "testSetName": "राज्य विधान मंडल - अभ्यास टेस्ट 11",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन राजस्थान की प्रथम महिला राज्यसभा सदस्य थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गायत्री देवी"
+        },
+        {
+          "id": "opt2",
+          "text": "शारदा भार्गव"
+        },
+        {
+          "id": "opt3",
+          "text": "सोनल मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रियंका चतुर्वेदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "sourceQuestionId": 12906,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन, राजस्थान से राज्यसभा चुनाव 2022 में निर्वाचित नहीं हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री मुकुल बालकृष्ण"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री घनश्याम तिवारी वासनिक"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री प्रमोद कुमार"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री सुभाष चन्द्रा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "sourceQuestionId": 12907,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विधान सभा चुनाव में अस्पष्ट बहुमत के कारण राजस्थान में राष्ट्रपति शासन कब लगाया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1977"
+        },
+        {
+          "id": "opt2",
+          "text": "1967"
+        },
+        {
+          "id": "opt3",
+          "text": "1992"
+        },
+        {
+          "id": "opt4",
+          "text": "1980"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "sourceQuestionId": 12908,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "………….. विधान सभा निर्वाचन क्षेत्र अनुसूचित जनजाति के लिए आरक्षित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 12912,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में सबसे अधिक विधानसभा सीटें हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 12914,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन राजस्थान के प्रथम विपक्ष के नेता थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसवंत सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "लक्ष्मण सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "परसराम मदेरणा"
+        },
+        {
+          "id": "opt4",
+          "text": "रामनारायण चौधरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 12915,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा का अध्यक्ष निम्नांकित में से किस समिति का पदेन अध्यक्ष होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विशेषाधिकार समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "नियम समिति और नियम उप समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "अधीनस्थ विधान समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रश्न संदर्भ समिति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "sourceQuestionId": 12916,
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में अब तक कितनी बार राष्ट्रपति शासन लागु हो चुका हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 बार"
+        },
+        {
+          "id": "opt2",
+          "text": "4 बार"
+        },
+        {
+          "id": "opt3",
+          "text": "5 बार"
+        },
+        {
+          "id": "opt4",
+          "text": "एक बार भी नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12958,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान को अवांटित राज्यसभा सीटों की संख्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12959,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राज्य विधान मंडल\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राज्य विधान मंडल\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राज्य विधान मंडल\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

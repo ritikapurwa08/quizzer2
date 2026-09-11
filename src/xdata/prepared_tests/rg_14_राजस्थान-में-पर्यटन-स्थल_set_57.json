@@ -1,0 +1,280 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पर्यटन स्थल",
+  "topicSlug": "राजस्थान-में-पर्यटन-स्थल",
+  "testSetName": "राजस्थान में पर्यटन स्थल - अभ्यास टेस्ट 57",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस दुर्ग में जय बाण तोप स्थापित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "नहारगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "शेरगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4450,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हर्षमाता मंदिर एवं चांद बावरी किस जिले में स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4451,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘आभानेरी’ बावड़ी की अवस्थिती, निम्न में से किस जिले में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt3",
+          "text": "बून्दी"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4452,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नौ मंजिल के विशाल ‘कीर्ति-स्तंभ’ को राणा कुम्भा ने अपने किस उपास्यदेव को समर्पित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिव"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमान"
+        },
+        {
+          "id": "opt3",
+          "text": "राम"
+        },
+        {
+          "id": "opt4",
+          "text": "विष्णु"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4453,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जसवंत थड़ा कहां अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4454,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुम्भलगढ़ के दुर्ग का मुख्य शिल्पी कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मण्डन"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "नापा"
+        },
+        {
+          "id": "opt4",
+          "text": "पूंजा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4455,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महामारू मंदिर निर्माण वास्तुशैली के संरक्षक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुहिल"
+        },
+        {
+          "id": "opt2",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "परमार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 4456,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: 'राजस्थान का शिमला' उपनाम से मशहुर कौनसा शहर है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "चितौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4771,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सुपारी महल स्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़ दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "चितौड़ दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4772,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पर्यटन स्थल\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में पर्यटन स्थल\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में पर्यटन स्थल\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

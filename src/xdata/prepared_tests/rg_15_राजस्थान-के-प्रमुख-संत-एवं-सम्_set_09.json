@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के प्रमुख संत एवं सम्प्रदाय",
+  "topicSlug": "राजस्थान-के-प्रमुख-संत-एवं-सम्प्रदाय",
+  "testSetName": "राजस्थान के प्रमुख संत एवं सम्प्रदाय - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन निर्गुण उपासना का अनुयायी था - (निम्न में से सबसे उपयुक्त विकल्प चुनेः)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू दयाल"
+        },
+        {
+          "id": "opt2",
+          "text": "रतन सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राम चरनजी"
+        },
+        {
+          "id": "opt4",
+          "text": "मीरा बाई"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दादू दयाल निर्गुण भक्ति आंदोलन के प्रमुख संत थे।निर्गुण भक्ति धारा : दादू सम्प्रदाय, लालदासी सम्प्रदाय, प्राणना थी सम्प्रदाय, रामस्नेही सम्प्रदाय, राजा राम सम्प्रदाय, अलखिया सम्प्रदाय, निरजंनी सम्प्रदायदादू सम्प्रदायसंस्थापक - दादू दयाल जीदादूदयाल जी का जन्म 1544 ई. में अहमदाबाद (गुजरात) में हुआ।इस सम्प्रदाय का उपनाम कबीरपंथी सम्प्रदाय है।दादूदयाल जी के गुरू वृद्धानंद जी (कबीर वास जी के शिष्य) थे।ग्रन्थ -दादू वाणी, दादू जी रा दोहा",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-I",
+      "sourceQuestionId": 4852,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादू दयाल का जन्म हुआ था:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt2",
+          "text": "अहमदाबाद में"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संत दादू दयाल का जन्म अहमदाबाद, गुजरात में हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 23 October Shift-II",
+      "sourceQuestionId": 4853,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी रचना (Text) जम्भोजी द्वारा रचित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुकाम"
+        },
+        {
+          "id": "opt2",
+          "text": "विश्रोई धर्मप्रकाश"
+        },
+        {
+          "id": "opt3",
+          "text": "अमावस्या ऑफ फागुन"
+        },
+        {
+          "id": "opt4",
+          "text": "अलख निरंजन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जंभोजी (विश्नोई समाज के संस्थापक) ने “विश्नोई धर्मप्रकाश” की रचना की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 23 October Shift-I",
+      "sourceQuestionId": 4854,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "धन्ना किसका शिष्य था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कबीर"
+        },
+        {
+          "id": "opt2",
+          "text": "पीपा"
+        },
+        {
+          "id": "opt3",
+          "text": "रामानन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "दादू दयाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "संत धन्ना, संत रामानंद के शिष्य थे। वे भक्ति आंदोलन के प्रमुख संतों में से एक हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 23 October Shift-I",
+      "sourceQuestionId": 4855,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "संतों का जीवन वृत्तांत जो राजस्थानी भाषा में काव्य रुप में उपलब्ध है, कहलाता है: ______",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वचनिका"
+        },
+        {
+          "id": "opt2",
+          "text": "दावावैत"
+        },
+        {
+          "id": "opt3",
+          "text": "परची"
+        },
+        {
+          "id": "opt4",
+          "text": "वात"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "परची एक साहित्यिक रूप है जिसमें संतों के जीवन और शिक्षाओं का विवरण होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 22 October Shift-II",
+      "sourceQuestionId": 4856,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं :कथन (I): दादूदयाल (राजस्थान के कबीर) का जन्म अलवर के धोलीदुब/दोलीदुब गाँव में 1542 AD में फाल्गुन शुक्ल नवमी को हुआ था।कथन (II): दादू ने सामान्य भाषा (साधुक्कडी) में ब्रह्म, जीव, जगत और मोक्ष पर अपने उपदेश दिए।उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथन (I) गलत है, लेकिन कथन (II) सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "कथन (I) और कथन (II) दोनों सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "कथन (I) और कथन (II) दोनों गलत हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "कथन (I) सही है, लेकिन कथन (II) गलत है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के कबीर कहे जाने वाले संत दादू दयाल का जन्म चैत्र शुक्ला अष्टमी वि. सं. 1601 (सन् 1544) को अहमदाबाद में हुआ था परंतु इनकी कर्मभूमि राजस्थान ही रही। उन्होंने अपने उपदेश साधुक्कड़ी (ढुढाडी व हिन्दी का मिश्रण) भाषा में दिए।संत लाल दास जी का जन्म अलवर के पास धोलीदुब नामक ग्राम में हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "sourceQuestionId": 4857,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वागड़ की मीरा’ के नाम से कौन प्रसिद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवरी बाई"
+        },
+        {
+          "id": "opt2",
+          "text": "पन्ना धाय"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा बाई"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्मावती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गवरी बाई को उनकी भक्ति और समर्पण के कारण ‘वागड़ की मीरा’ कहा जाता है। उन्होंने मीरा बाई की तरह अपनी भक्ति और रचनाओं से प्रसिद्धि पाई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "sourceQuestionId": 4858,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कौनसा कूट सुमेलित नहीं है -लोक सन्त - जन्म वर्ष",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीरा - 1498 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "दादू दयाल - 1544 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "सन्त जसनाथ जी - 1482 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "सन्त चरणदास जी - 1503 ई."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5012,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्बार्क सम्प्रदाय की प्रमुख पीठ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिहाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "गलता"
+        },
+        {
+          "id": "opt3",
+          "text": "मौजमांबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "सलेमाबाद"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5021,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

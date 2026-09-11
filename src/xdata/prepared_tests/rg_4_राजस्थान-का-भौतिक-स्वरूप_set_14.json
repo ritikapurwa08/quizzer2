@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान का भौतिक स्वरूप",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप",
+  "testSetName": "राजस्थान का भौतिक स्वरूप - अभ्यास टेस्ट 14",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के इन क्षेत्रों में से कौन सा ‘शुष्क उत्तर पश्चिमी मैदान’ का एक भाग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर पश्चिमी बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाड़मेर शुष्क उत्तर-पश्चिमी मैदान क्षेत्र में आता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-II",
+      "sourceQuestionId": 662,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्न में से कौनसा स्थान भारत के अनुसूचित मरुस्थल क्षेत्रों में नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उदयपुर राजस्थान के अनुसूचित मरुस्थल क्षेत्रों में शामिल नहीं है। जैसलमेर, झुंझुनू और जोधपुर शामिल हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-II",
+      "sourceQuestionId": 663,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से अरावली पर्वतमाला का सबसे ऊँचा शिखर कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ऋषिकेश"
+        },
+        {
+          "id": "opt3",
+          "text": "सेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गुरुशिखर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुरुशिखर अरावली पर्वतमाला का सबसे ऊँचा शिखर है। इसकी ऊँचाई 1,722 मीटर है और यह माउंट आबू में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-I",
+      "sourceQuestionId": 664,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का सबसे बड़ा भौगोलिक क्षेत्र (क्षेत्रफल के अनुसार) कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरावली क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "पश्चिमी मरुस्थलीय मैदानी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी मैदानी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्ध शुष्क क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी मरुस्थलीय मैदानी क्षेत्र राजस्थान का सबसे बड़ा क्षेत्र है, जो राज्य का लगभग 60% हिस्सा कवर करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 22 October Shift-I",
+      "sourceQuestionId": 665,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिये तथा सही उत्तर का चयन नीचे दिये कूट से कीजिये :A. उड़िया पठार गुरुशिखर के नीचे स्थित है।B. छप्पन का मैदान बनास बेसिन का भाग है।C. गिरवा की पहाड़ियाँ उदयपुर बेसिन का विशिष्ट भू रूप है।D. मुकन्दरा की पहाड़ियाँ कोटा और बारां जिलों के मध्य स्थित हैं।कूट :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B और C"
+        },
+        {
+          "id": "opt2",
+          "text": "A और C"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C और D"
+        },
+        {
+          "id": "opt4",
+          "text": "C और D"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उड़िया पठार गुरुशिखर के नीचे स्थित है।छप्पन का मैदान राजस्थान के माही बेसिन में स्थित है।गिरवा की पहाड़ियाँ उदयपुर बेसिन का विशिष्ट भू रूप है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024",
+      "sourceQuestionId": 666,
+      "reference": "📌 PYQ — SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली श्रृंखला के निम्नलिखित शिखरों में सबसे ऊँची चोटी कौन सी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जागरा"
+        },
+        {
+          "id": "opt2",
+          "text": "कमलनाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "गुरुशिखर"
+        },
+        {
+          "id": "opt4",
+          "text": "रघुनाथगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गुरुशिखर अरावली पर्वत श्रृंखला की सबसे ऊँची चोटी है, जिसकी ऊँचाई 1722 मीटर है। यह माउंट आबू में स्थित है और यह राजस्थान का सबसे ऊँचा स्थल भी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "sourceQuestionId": 667,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से भू-आकृतिक क्षेत्र में मुकुन्दरा और बून्दी पहाड़ियाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरावली क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "पश्चिमी मरुस्थल मैदानी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी मैदानी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिणी-पूर्वी पठार क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुकुन्दरा और बून्दी की पहाड़ियाँ राजस्थान के दक्षिणी-पूर्वी पठार क्षेत्र में स्थित हैं। यह क्षेत्र अपनी प्राकृतिक सुंदरता और ऐतिहासिक महत्व के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Exam 2024 (Paper - I)",
+      "sourceQuestionId": 668,
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन सा सर्वोच्च शिखर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रोजा भाकर"
+        },
+        {
+          "id": "opt2",
+          "text": "इसराना भाकर"
+        },
+        {
+          "id": "opt3",
+          "text": "झारोला पहाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "तारागढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "झारोला पहाड़ राजस्थान के जालौर जिले में स्थित है जिसकी ऊंचाई 588 मीटर है।रोजा भाखर - जालौर - 730 मी.इसराना भाकर - जालौर - 839 मी.तारागढ़ - अजमेर - 873 मी.",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 959,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के निम्न में से किस जिले में सेवण घास उगायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पश्चिमी रेगीस्तान क्षेत्र के जैसलमेर जिले में सेवण घास के मैदान पाए जाते है। जो कि भूगर्भिय जल पट्टी के रूप में प्रसिद्ध है। जिसे लाठी सीरिज कहलाते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 960,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का भौतिक स्वरूप\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान का भौतिक स्वरूप\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान का भौतिक स्वरूप\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

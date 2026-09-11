@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 22",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से इनपुट डिवाइसेज का उचित समूह कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाइट पेन, स्वैâनर, प्लॉटर"
+        },
+        {
+          "id": "opt2",
+          "text": "OCR, मॉनिटर, MICR"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वैâनर,MICR,टच स्क्रीन"
+        },
+        {
+          "id": "opt4",
+          "text": "OMR,प्रिंटर, बारकोड रीडर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त विकल्पों में से इनपुट डिवाइसेज का सही समूह स्वैâनर,MICR, टच स्क्रीन है। कंप्यूटर में काम करने के लिए हमें दो तरह के डिवाइसेज की जरूरत होती है, पहली इनपुट डिवाइस व दूसरी आउटपुट डिवाइस। इनपुट डिवाइस के द्वारा हम कंप्यूटर द्वारा कर चुके कार्यों के रिजल्ट या परिणाम को देख सकते हैं। या प्रिंट करके प्राप्त कर सकते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+      "sourceQuestionId": 23842,
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "USBपोर्ट का तात्पर्य है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यूनाइटेड सीरियल बस पोर्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "यूनिवर्सल सीरियल बस पोर्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "यूनिवर्सल सिक्वेंशियल बस पोर्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "यूनिवर्सल सीरियलBIOSपोर्ट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "USBपोर्ट का तात्पर्य यूनिवर्सल सीरियल बस पोर्ट (Universal Serial Bus Port)है। यह एक उद्योग मानक है, जो कंप्यूटर, बाध्य उपकरणों और अन्य उपकरणों के बीच कनेक्शन और संचार तथा बिजली की आपूर्ति के लिए केबल और कनेक्टर और प्रोटोकॉल के लिए विशिष्टताओं को स्थापित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+      "sourceQuestionId": 23843,
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "MS-Windowsमें कट, कॉपी तथा पेस्ट कमांड्स के लिए, क्रमश: निम्न शॉर्टकट कुंजियों का प्रयोग किया जाता हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ctrl + Z, Ctrl + X, Ctrl + V"
+        },
+        {
+          "id": "opt2",
+          "text": "Ctrl + V, Ctrl + Z, Ctrl + C"
+        },
+        {
+          "id": "opt3",
+          "text": "Ctrl + C, Ctrl + V, Ctrl + X"
+        },
+        {
+          "id": "opt4",
+          "text": "Ctrl + X, Ctrl + C, Ctrl + V"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "MS-Windowsमें कट, कॉपी तथा पेस्ट कमांड्स के लिए, क्रमश: निम्न शॉर्टकट कुंजियों का प्रयोग किया जाता हैं। कट करने के लिए– Ctrl + X कॉपी करने के लिए– Ctrl + C पेस्ट करने के लिए– Ctrl + V",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+      "sourceQuestionId": 23845,
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एम.एस. वर्ड, एक उदाहरण है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऑपरेटिंग सिस्टम"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रोसेसिंग डिवाइस"
+        },
+        {
+          "id": "opt3",
+          "text": "एप्लीकेशन सॉफ्टवेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "इनपुट डिवाइस"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "एम.एस. वर्ड माइक्रोसॉफ्ट कंपनी द्वारा विकसित एप्लीकेशन सॉफ्टवेयर का एक उदाहरण है, यह उपयोगकर्ताओं के डॉक्यूमेंटों को मुद्रित करने और सहेजने की अनुमति देता है। यह मूल रूप से चार्ल्स सिमोनी और रिचर्ड ब्रॉडी द्वारा विकसित किया गया है, इसे पहली बार १९८३ में जारी किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+      "sourceQuestionId": 23846,
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्लॉउड कम्प्यूटिंग के संबंध में'IaaS' किसका संक्षिप्तीकरण है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इन्टरनेट एज ए सर्विस"
+        },
+        {
+          "id": "opt2",
+          "text": "इनफॉरमेशन एज ए सर्विस"
+        },
+        {
+          "id": "opt3",
+          "text": "इन्प्रâास्ट्रॅक्चर एज ए सर्विस"
+        },
+        {
+          "id": "opt4",
+          "text": "इनफॉरमेशन एण्ड एडवरटाइजिंग सिस्टम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "Iaas का पूर्णरूप इंन्प्रâास्ट्रक्चर एज ए सर्विस है। 760",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Hospital Care Taker-2022",
+      "sourceQuestionId": 23847,
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राजीव गाँधी फिनटेक डिजिटल संस्थान की स्थापना की जा रही है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में राजीव गाँधी फिनटेक डिजिटल संस्थान की स्थापनाजोधपुर में की गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Hospital Care Taker-2022",
+      "sourceQuestionId": 23848,
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजनेट मे कनेक्टिविटी के लिए किस विधि का उपयोग किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उपग्रह"
+        },
+        {
+          "id": "opt2",
+          "text": "लैन"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वान"
+        },
+        {
+          "id": "opt4",
+          "text": "यह सभी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजनेट एक एकीकृत नेटवर्क है जो कई नेटवर्क LAN, SWAN, Satellite से जुड़ा हुआ है। राजनेट,VSAT, केप्टिव ओ.एञसी. आरएफ और टेरेस्ट्रियल कनेक्टिविटी से परिपूर्ण है जिसकी देखरेख के लिए एकीकृत नेटवर्क संचालन केन्द्र है।VSAT के माध्यम से ग्राम पंचायतों तक कनेक्टिविटी को बढ़ाया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 23849,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ़कौन-सा एक प्राथमिक स्मृति(मेमोरी) है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रैंडम एक्सेस मेमोरी (रैम: आर ए एम)"
+        },
+        {
+          "id": "opt2",
+          "text": "कॉम्पैक्ट डिस्क(सीडी)"
+        },
+        {
+          "id": "opt3",
+          "text": "डिजिटल वीडियों डिस्क(डीवीडी)"
+        },
+        {
+          "id": "opt4",
+          "text": "हार्ड डिस्क"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्राथमिक मेमोरी, जिसे मुख्य मेमोरी याRAM (रैंडम एक्सेस मेमोरी) के नाम से भी जाना जाता है। यह एक मेमोरी है, जिसेCPU सीधे एक्सेस कर सकता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Head Master (S.S.) 2011",
+      "sourceQuestionId": 23910,
+      "reference": "✎ PYQ Modified · RPSC Head Master (S.S.) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ़कौन-सा दोनों निवेश और निर्गम युक्ति(डिवाइस) के रूप में कार्य नहीं कर सकता?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टच स्क्रीन"
+        },
+        {
+          "id": "opt2",
+          "text": "मोडेम"
+        },
+        {
+          "id": "opt3",
+          "text": "नेटवर्क इंटरफेस कार्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "माउस"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दिये गये विकल्पों में मोडेम(Modem) इनपुट आउटपुट दोनों डिवाइस है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Head Master (S.S.) 2011",
+      "sourceQuestionId": 23911,
+      "reference": "✎ PYQ Modified · RPSC Head Master (S.S.) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

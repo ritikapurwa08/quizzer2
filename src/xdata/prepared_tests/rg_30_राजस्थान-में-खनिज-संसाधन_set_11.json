@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में खनिज संसाधन",
+  "topicSlug": "राजस्थान-में-खनिज-संसाधन",
+  "testSetName": "राजस्थान में खनिज संसाधन - अभ्यास टेस्ट 11",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "खदान ‘नाथरा की पाल’ संबंधित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt2",
+          "text": "ऐलुमिनियम"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह अयस्क"
+        },
+        {
+          "id": "opt4",
+          "text": "ताँबा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नाथरा-का-पाल: - लौह अयस्क का यह भंडार उदयपुर शहर के दक्षिण-पूर्व में लगभग 61 किमी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MDE) Exam 2024",
+      "sourceQuestionId": 8234,
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नाथरा-की-पाल एवं थूर-हूंडेर क्षेत्र, निम्न में से किस खनिज संसाधन हेतु जाने जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तांबा"
+        },
+        {
+          "id": "opt2",
+          "text": "यूरेनियम"
+        },
+        {
+          "id": "opt3",
+          "text": "जिप्सम"
+        },
+        {
+          "id": "opt4",
+          "text": "लौह-अयस्क"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नाथरा-का-पाल: - लौह-अयस्क का यह भंडार उदयपुर शहर के दक्षिण-पूर्व में लगभग 61 किमी है।थुर-हुंडर निक्षेप: ये लौह-अयस्क निक्षेप उदयपुर में स्थित हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 8235,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-सा खनिज नाभिकीय संयंत्रों में काम आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैंगनीज़"
+        },
+        {
+          "id": "opt2",
+          "text": "यूरेनियम"
+        },
+        {
+          "id": "opt3",
+          "text": "चाँदी"
+        },
+        {
+          "id": "opt4",
+          "text": "टिन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "यूरेनियम का उपयोग नाभिकीय संयंत्रों में ऊर्जा उत्पादन के लिए किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (ED) Exam 2024",
+      "sourceQuestionId": 8236,
+      "reference": "📌 PYQ — Junior Instructor (ED) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित ज़िलों में से किसमें, ‘लोहारपुरा लौह खनन क्षेत्र’ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोहारपुरा लौह खनन क्षेत्र राजस्थान के बूंदी जिले में स्थित है, जहाँ लौह अयस्क के महत्वपूर्ण भंडार पाए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EC) Exam 2024",
+      "sourceQuestionId": 8237,
+      "reference": "📌 PYQ — Junior Instructor (EC) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डेगाना खनन क्षेत्र स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डेगाना (नागौर ज़िला) टंगस्टन खनन के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(CLIT) Exam 2024",
+      "sourceQuestionId": 8238,
+      "reference": "📌 PYQ — Junior Instructor(CLIT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मार्बल डम्पिंग यार्ड कहाँ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "किशनगढ़ को राजस्थान का मार्बल हब कहा जाता है और यहाँ मार्बल डंपिंग यार्ड स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 22 October Shift-I",
+      "sourceQuestionId": 8239,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ताँबे की खानें कुशलगढ़, सेनपरी व भगत का बास निम्नलिखित में से किस जिले में स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुन्झुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खो दरीबा, थानागाजी, कुशलगढ़, सेनपरी तथा भगत का बास अलवर जिले में स्थित हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024",
+      "sourceQuestionId": 8240,
+      "reference": "📌 PYQ — SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में लिग्नाइट कोयला के प्रमुख जमाव कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पलाना, कपूरड़ी, सोनू"
+        },
+        {
+          "id": "opt2",
+          "text": "पलाना, आगूचा, मेड़ता"
+        },
+        {
+          "id": "opt3",
+          "text": "कपूरड़ी, मेड़ता, सोनू"
+        },
+        {
+          "id": "opt4",
+          "text": "कपूरड़ी, मेड़ता, पलाना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8415,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में लिग्नाइट कोयला उत्पादन के प्रमुख क्षेत्र हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांदर सिंदरी एवं मेड़ता"
+        },
+        {
+          "id": "opt2",
+          "text": "आगूचा एवं सोनू"
+        },
+        {
+          "id": "opt3",
+          "text": "कोलायत एवं किशनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बरसिंगसर एवं कपूरड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8416,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में खनिज संसाधन\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में खनिज संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में खनिज संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

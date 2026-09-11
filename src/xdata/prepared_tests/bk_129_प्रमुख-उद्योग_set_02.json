@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख उद्योग",
+  "topicSlug": "प्रमुख-उद्योग",
+  "testSetName": "प्रमुख उद्योग - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक युग्म सही सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हिन्दुस्तान जिंक लिमिटेड – देवारी"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान इलेक्ट्रॉनिक्स एवं इन्स्ट्रूमेन्टेशन लिमिटेड–जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "मोदी अल्केलाइन एवं केमिकल लिमिटेड – भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "ओरियन्टल पॉवर केबिल लिमिटेड – कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मोदी अल्केलाइन एवं केमिकल लिमिटेड़ अलवर जिले में स्थित है, शेष सभी विकल्प सही सुमेलित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 20786,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सर्वप्रथम किस उद्योग की स्थापना हुई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीमेन्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "चीनी"
+        },
+        {
+          "id": "opt3",
+          "text": "सूती-वस्त्र"
+        },
+        {
+          "id": "opt4",
+          "text": "काँच उद्योग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में सर्वप्रथम सूती वस्त्र उद्योग की स्थापना हुई थी। राज्य की पहली सूती वस्त्र मिल कृष्णा कॉटन मिल थी, जिसकी स्थापना १८८९ में ब्यावर अजमेर में हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 20787,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बायतू, कांसल एवं कपूरड़ी क्षेत्र किसके उत्पादन के लिए प्रसिद्ध हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पवन ऊर्जा"
+        },
+        {
+          "id": "opt2",
+          "text": "भू-तापीय ऊर्जा"
+        },
+        {
+          "id": "opt3",
+          "text": "तेल एवं गैस"
+        },
+        {
+          "id": "opt4",
+          "text": "जल-विद्युत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बायतू कांसल एवं कपूरड़ी तेल एवं गैस उत्पादन के लिए प्रसिद्ध है। 399",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 20788,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत सरकार के खाद्य प्रसंस्करण उद्योग मंत्रालय के सहयोग से ग्रीनटेक मेगा फूड पार्क ने अपनी इकाई स्थापित की है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूपनगढ़, अजमेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "झोटवाड़ा, जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक में"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खाद्य प्रसंस्करण उद्योग मंत्रालय (भारत सरकार) के सहयोग से ग्रीनटेक मेगा फूड पार्क ने अपनी इकाई रुपनगढ़ अजमेर में में स्थापित की है। यह राजस्थान का पहला मेगा फूड पार्क है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 20789,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची को सूची से सुमेलित करें तथा नीचे दिए गए कुट से अपने उत्तर का चयन करें: सूची-I (स्थान) सूची -II (उद्योग) A. ब्यावर 1. सरसों तेल B. भरतपुर 2. चीनी C. गंगानगर 3. वस्त्र D. केश्वानागुजर 4. कागज कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 4 2"
+        },
+        {
+          "id": "opt2",
+          "text": "1 2 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1 2 3"
+        },
+        {
+          "id": "opt4",
+          "text": "3 2 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलित है- स्थान उद्योग a.ब्यावर ३. वस्त्र b.भरतपुर १. सरसों का तेल c.गंगानगर २. चीनी d.केश्वानागुजर ४. कागज",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 20790,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में कौन सा राजस्थान के सूती-वस्त्र उद्योग से संबंधित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रिलायंस कॉमटेक्स, उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़ टेक्सटाइल, भीडवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "बिड़ला कार्पोरेशन, चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "एडवर्ड मिल्स, ब्यावर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बिरला कारपोरेशन लिमिटेड चितौड़गढ़ सीमेंट उद्योग से संबधित है। शेष सभी इकाईयों सूती वस्त्र उद्योग से संबधित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 20791,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ शुगर मिल अवस्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूपाल सागर में"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री गंगानगर में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "केशोरायपाटन में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेवाड़ शुगर मिल भोपाल सागर चित्तौड़गढ़ में स्थित है। यह राजस्थान में निजी क्षेत्र की पहली चीनी मिल है, जिसकी स्थापना १९३२ में हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 20792,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: रीको द्वारा विकसित निम्नलिखित में से कौनसा एग्रोफूड पार्क क्षेत्रफल के अनुसार सबसे बड़ा है/",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उद्योग विहार (श्रीगंगानगर)"
+        },
+        {
+          "id": "opt2",
+          "text": "रनपूर-१ (कोटा)"
+        },
+        {
+          "id": "opt3",
+          "text": "बोरानाडा (जोधपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "एम़ आई़ ए ़(अलवर)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "RIICO द्वारा राजस्थान के जोधपुर, कोटा, अलवर, श्री गंगा नगर में ४ एग्रो फूड पार्क विकसित किए गए हैंं। इनमें बारानाडा जोधपुर एग्रोफूड पार्क (१९३.५४ एकड़) क्षेत्रफल की दृष्टि से सबसे बड़ा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Curator 2023",
+      "sourceQuestionId": 20856,
+      "reference": "✎ PYQ Modified · RPSC Curator 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में दिए गए विकल्पों में गलत मिलान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा उम्मेद मिल्स-जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान स्पिनिंग एण्ड वीविंग मिल्स- गुलाबपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "शार्दुल टेक्सटाइल मिल्स-श्रीगंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ टेक्सटाइल मिल्स -भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है- महाराजा उम्मेद मिल्स - पाली राजस्थान स्पिनिंग एंड वीविंग मिल्स - गुलाबपुरा (भीलवाड़ा) शार्दुल टेक्सटाइल्स मिल्स - श्री गंगानगर मेवाड़ टेक्सटाइल्स मिल्स - भीलवाड़ा",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Curator 2023",
+      "sourceQuestionId": 20857,
+      "reference": "✎ PYQ Modified · RPSC Curator 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख उद्योग\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"प्रमुख उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"प्रमुख उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान में 1857 की क्रांति",
+  "topicSlug": "राजस्थान-में-1857-की-क्रांति",
+  "testSetName": "राजस्थान में 1857 की क्रांति - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा स्थान 1857 की क्रांति का केन्द्र नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "आउवा"
+        },
+        {
+          "id": "opt3",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 की क्रांति का प्रभाव राजस्थान के आउवा, नीमच, और अजमेर जैसे स्थानों पर पड़ा था, जहाँ स्थानीय शासकों और सैनिकों ने अंग्रेजों के खिलाफ विद्रोह किया। लेकिन जयपुर में उस समय कोई प्रमुख विद्रोह नहीं हुआ था, इसलिए इसे 1857 की क्रांति का केंद्र नहीं माना जाता।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Exam 2024 (Paper - I)",
+      "sourceQuestionId": 9676,
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेरठ से 1857 के विप्लव का प्रभाव राजस्थान में निम्नलिखित में से किसके माध्यम से आया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ भील कोर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर लीजियन"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल नेटिव इन्फैंट्री"
+        },
+        {
+          "id": "opt4",
+          "text": "मेरवाड़ा बटालियन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेरठ में हुए विद्रोह (10 मई,1857) की सूचना राजस्थान के ए.जी.जी. (एजेन्ट टू गवर्नर जनरल) जार्ज पैट्रिक लॉरेन्स को 19 मई, 1857 को प्राप्त हुई। अजमेर स्थित भारतीय सैनिकों की दो कम्पनियाँ हाल ही में मेरठ से आयी थी और ए.जी.जी. ने सोचा कि सम्भव है यह इन्फेन्ट्री (15वीं बंगाल नेटिव इन्फेन्ट्री) मेरठ से विद्रोह की भावना लेकर आयी हो, अतः इस इन्फेन्ट्री को नसीराबाद भेज दिया तथा ब्यावर से दो मेर रेजीमेन्ट बुला ली गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "sourceQuestionId": 9677,
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के स्वतन्त्रता संग्राम में कोटा महाराव की सहायता के लिए किस राज्य ने सैनिक सहायता भेजी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "करौली राज्य ने 1857 के स्वतंत्रता संग्राम में कोटा के महाराव की सहायता के लिए सैनिक सहायता भेजी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 9678,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 ई. में राजपूताना की छः ब्रिटिश छावनियों में से कौन सी सबसे शक्तिशाली छावनी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt2",
+          "text": "एरिनपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "खैरवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सबसे बड़ी व सबसे शक्तिशाली छावनी नसीराबाद थी। राजस्थान में क्रांति की शुरुआत 28 मई, 1857 को नसीराबाद छावनी की 15वीं बंगाल नेटिव इन्फेंट्री के सैनिकों ने की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 9679,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के स्वतन्त्रता संघर्ष के समय मेवाड़ का पॉलिटिकल एजेण्ट था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर शॉवर्स"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल मैलीसन"
+        },
+        {
+          "id": "opt4",
+          "text": "मेजर मैक्मेसन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 के स्वतन्त्रता संघर्ष के समय मेवाड़ का पॉलिटिकल एजेण्ट शावर्स और शासक स्वरूप सिंह सिंह थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "sourceQuestionId": 9681,
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय निम्नांकित में से कौन टोंक का नवाब था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिराजुद्दौला"
+        },
+        {
+          "id": "opt2",
+          "text": "मीर आलम"
+        },
+        {
+          "id": "opt3",
+          "text": "वजीरूद्दौला"
+        },
+        {
+          "id": "opt4",
+          "text": "जहानखाँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "टोंक का नवाब वजीरुद्दौला अंग्रेज समर्थक था। लेकिन टोंक की जनता एवं सेना की सहानुभूति क्रांतिकारियों के साथ थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+      "sourceQuestionId": 9682,
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रान्ति के समय कोटा का पोलिटिकल एजेण्ट कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मॉरिसन"
+        },
+        {
+          "id": "opt2",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt3",
+          "text": "विलियम ईडन"
+        },
+        {
+          "id": "opt4",
+          "text": "मैक मेसन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1857 की क्रान्ति के समय कोटा का पोलिटिकल एजेण्ट मेजर बर्टन था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+      "sourceQuestionId": 9683,
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कुशालसिंह की पराजय के बाद ब्रिटिश सेना ने आहूआ पर कब्जा किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "24 जन. 1858 ई. में"
+        },
+        {
+          "id": "opt2",
+          "text": "26 फर. 1858 ई. में"
+        },
+        {
+          "id": "opt3",
+          "text": "20 जन. 1858 ई. में"
+        },
+        {
+          "id": "opt4",
+          "text": "24 जन. 1859 ई. में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ब्रिगेडियर होम्स के अधीन एक सेना ने 20 जनवरी, 1858 को आउवा पर आक्रमण कर दिया। विजय की उम्मीद न रहने पर कुशालसिंह ने सलूंबर (केसरी सिंह) में शरण ली। उसके बाद ठाकुर पृथ्वीसिंह (कुशालसिंह का छोटा भाई) ने विद्रोहियों का नेतृत्व किया। अन्त में, आउवा के किलेदार को रिश्वत देकर अंग्रेजों ने अपनी ओर मिला लिया और किले पर अधिकार कर लिया। अंग्रेजों ने यहाँ अमानवीय अत्याचार किए एवं आउवा की महाकाली की मूर्ति (सुगाली माता) को अजमेर ले गये।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9799,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: 1857 की क्रान्ति के समय धौलपुर का शासक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयभान सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "कीरत सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "भगवन्त सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "धौलपुर महाराजा भगवन्त सिंह अंग्रेजों का पक्षधर था। अक्टूबर, 1857 में ग्वालियर तथा इंदौर के क्रांतिकारी सैनिकों ने धौलपुर में प्रवेश किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9800,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में 1857 की क्रांति\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में 1857 की क्रांति\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में 1857 की क्रांति\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

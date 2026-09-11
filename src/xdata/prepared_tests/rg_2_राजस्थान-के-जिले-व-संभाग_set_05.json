@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के जिले व संभाग",
+  "topicSlug": "राजस्थान-के-जिले-व-संभाग",
+  "testSetName": "राजस्थान के जिले व संभाग - अभ्यास टेस्ट 5",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "गंगानगर से हनुमानगढ़ जिले का गठन कब हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12.07.94"
+        },
+        {
+          "id": "opt2",
+          "text": "01.08.94"
+        },
+        {
+          "id": "opt3",
+          "text": "18.04.96"
+        },
+        {
+          "id": "opt4",
+          "text": "18.04.95"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हनुमानगढ़ 12 जुलाई, 1994, यह श्री गंगानगर से अलग होकर नया जिला बना।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+      "sourceQuestionId": 197,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से राजस्थान के संलग्न जिले हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही, बाड़मेर, जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़, बूंदी, टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, पाली, जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरू, झुंझुनूं, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सिरोही, पाली, जालौर संलग्न जिले हैं जो जोधपुर संभाग में आते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "sourceQuestionId": 198,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्षेत्रफल के अनुसार दिए हुए जिलों का सही अवरोही क्रम है -(i) जैसलमेर(ii) नागौर(iii) टोंक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii), (i), (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii), (ii), (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii), (iii), (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i). (ii), (iii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अभी इन जिलों का क्षेत्रफल से संबंधित डाटा उपलब्‍ध नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 203,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामदेवरा, जैसलमेर जिला मुख्यालय से किस दिशा में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिम"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्व"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रामदेवरा जैसलमेर जिला मुख्यालय से पूर्व में और पोखरण के उत्तर में लगभग 12 किमी दूर स्थित एक गाँव है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (28-10-18) Shift 3",
+      "sourceQuestionId": 233,
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सवाई माधोपुर जिले की सीमा राजस्थान के किस जिले से नहीं लगती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई माधोपुर जिले की सीमा टोंक, दौसा, कोटा, बूंदी, करौली से लगती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (28-10-18) Shift 2",
+      "sourceQuestionId": 235,
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा जिला मुख्यालय शहर 72º पूर्व देशान्तर एवं 74º पुर्व देशान्तर के मध्य स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हनुमानगढ़ जिले का गठन 12.7.1994 को गंगानगर जिले से राजस्थान राज्य के 31 वें जिले के रूप में किया गया था। हनुमानगढ़ जिला मुख्यालय लगभग 74° 20' पूर्व देशान्तर पर है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 236,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगला एवं कापासन किस जिले की तहसीले है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाडा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चित्तौड़गढ़ जिले की तहसीलें : बड़ीसादड़ी, बस्सी, बेगूं, भदेसर, भूपालसागर, चित्तौड़गढ़, डूंगला, गंगरार, कपासन, निम्बाहेड़ा, राशमी, रावतभाटा",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 237,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: जिला प्रतापगढ़ कब अस्तित्व में आया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2007"
+        },
+        {
+          "id": "opt2",
+          "text": "2008"
+        },
+        {
+          "id": "opt3",
+          "text": "2006"
+        },
+        {
+          "id": "opt4",
+          "text": "2009"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रतापगढ़ 26 जनवरी,2008, यह तीन जिलों से अलग होकर नया जिला बना। प्रतापगढ जिला परमेशचन्द कमेटी की सिफारिश पर बनाया गया। प्रतापगढ जिले ने अपना कार्य 1 अप्रैल, 2008 से शुरू किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 224,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: झालावाड़ राजस्थान के किस भाग में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी-पूर्वी"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तरी"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "झालावाड़ राजस्थान के दक्षिणी-पूर्वी भाग में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 225,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के जिले व संभाग\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के जिले व संभाग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के जिले व संभाग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

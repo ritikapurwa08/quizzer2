@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "ऊर्जा संसाधन–परम्परागत एवं गैर–परम्परागत",
+  "topicSlug": "ऊर्जा-संसाधनपरम्परागत-एवं-गैरपरम्परागत",
+  "testSetName": "ऊर्जा संसाधन–परम्परागत एवं गैर–परम्परागत - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "गिरल लिग्नाईट थर्मल पावर प्लांट अवस्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गिरल लिग्नाइट थर्मल पावर प्लांट बाड़मेर राजस्थान में स्थित हैं। इसकी स्थापित क्षमता २५०MW है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Garden Superintendent 2021",
+      "sourceQuestionId": 21286,
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "2024 तक, भारत की नवीकरणीय ऊर्जा क्षमता में सबसे बड़ा योगदानकर्ता निम्नलिखित में से कौन है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सौर ऊर्जा"
+        },
+        {
+          "id": "opt2",
+          "text": "पवन ऊर्जा"
+        },
+        {
+          "id": "opt3",
+          "text": "जलविद्युत"
+        },
+        {
+          "id": "opt4",
+          "text": "बायोमास ऊर्जा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "२०२४ तक, भारत की नवीकरणीय ऊर्जा क्षमता में सबसे बड़ा योगदान सौर ऊर्जा का रहा। २०२४ में भारत की सौर क्षमता ३०.२³ बढ़कर ९४.१७ गीगावाट हो जायेगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lecturer (Sanskrit Edu.) 2024",
+      "sourceQuestionId": 21287,
+      "reference": "📌 PYQ — RPSC School Lecturer (Sanskrit Edu.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में किस जिले में द्वितीय वायु ऊर्जा प्लान्ट स्थापित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में दूसरा वायु ऊर्जा प्लांट जैसलमेर जिले में स्थापित किया गया है। अन्य प्रमुख तथ्य- क्षमता - ४७.६ मेगावाट कंपनी - नाल्को जगह - लुदर्वा, जैसलमेर जिला।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 21288,
+      "reference": "📌 PYQ — RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नए और अक्षय ऊर्जा मंत्रालय के अनुसार सौर ऊर्जा से बिजली की क्षमता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "182 GW"
+        },
+        {
+          "id": "opt2",
+          "text": "190 GW"
+        },
+        {
+          "id": "opt3",
+          "text": "142 GW"
+        },
+        {
+          "id": "opt4",
+          "text": "153 GW"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नवीन एवं नवीकरणीय ऊर्जा मंत्रालय के अनुसार, राजस्थान में सौर ऊर्जा की क्षमता लगभग १४२ गीगावाट है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 21289,
+      "reference": "📌 PYQ — RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार द्वारा ‘‘राजस्थान पवन एवं हाईब्रिड ऊर्जा नीति’’ किस वर्ष में घोषित की गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2015"
+        },
+        {
+          "id": "opt2",
+          "text": "2017"
+        },
+        {
+          "id": "opt3",
+          "text": "2018"
+        },
+        {
+          "id": "opt4",
+          "text": "2019"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान सरकार द्वारा ‘‘राजस्थान पवन एवं हाइब्रिड ऊर्जा नीति’’ दिसम्बर, २०१९ में जारी की। ऊर्जा सुरक्षा बढ़ाने, प्रदूषण कम करने और स्वच्छ ऊर्जा बनाने के लिए यह नीति लागू की गई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 21290,
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को समुमेलित कीजिये तथा नीचे दिये गये कूटों में से सही उत्तर चुनिये– (सौर ऊर्जा प्लांट) अवस्थिति(जिला) A खींवसर प्लांट i जैसलमेर B धूनिया प्लांट ii नागौर C अगोरिया प्लांट iii जोधपुर D मोकला प्लांट iv बाड़मेर कूट– A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii iv i"
+        },
+        {
+          "id": "opt2",
+          "text": "iii i iv"
+        },
+        {
+          "id": "opt3",
+          "text": "ii iv i"
+        },
+        {
+          "id": "opt4",
+          "text": "ii iii iv"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "निम्नलिखित सूचियों, सूची-I और सूची-II का सही सुमेलित क्रमद संबंधित तथ्य इस प्रकार है- सूची-I सूची-II सौर ऊर्जा प्लांट अवस्थिति (जिला) खींवसर प्लांट नागौर- रिलायंस द्वारा स्थापित धूनिया प्लांट जोधपुर- सोलर पावर लि. मुंबई स्थापित अगोरिया प्लांट बाड़मेर- सनसोर्स इंडिया लि. द्वारा स्थापित मोकला प्लांट जैसलमेर- एनरॉन एनर्जी लि.USA द्वारा स्थापित",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 21291,
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नात-की-नेरी, टुनका, सिंदरियास निम्नलिखित में से किस खनिज, के खनन क्षेत्र हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभ्रक"
+        },
+        {
+          "id": "opt2",
+          "text": "यूरेरियम"
+        },
+        {
+          "id": "opt3",
+          "text": "पन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "ताँबा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नात-की-नेरी, टुनका, सिंदरियास, अभ्रक के खनन् क्षेत्र है। अभ्रक के अन्य महत्वपूर्ण खनिज क्षेत्र- भीलवाड़ा -दांता, फूलिया, भुनास, बनेड़ी, शाहपुरा, प्रतापपुरा उदयपुर -चम्पागुढ़ा, सरकड़गढ़, भगतपुरा",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. (Sanskrit Educ.) 2024",
+      "sourceQuestionId": 21292,
+      "reference": "📌 PYQ — RPSC Asst. Prof. (Sanskrit Educ.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कवई विद्युत परियोजना सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा जिले में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँरा जिले में"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर जिले में"
+        },
+        {
+          "id": "opt4",
+          "text": "बाँसवाड़ा जिले में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कवई विद्युत परियोजना राजस्थान के बारा जिले में अतरु तहसील के कवई गाँव में स्थापित की गई है। यह812 हेक्टेयर में विस्तृत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC ACF 2011",
+      "sourceQuestionId": 21343,
+      "reference": "✎ PYQ Modified · RPSC ACF 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: छबडा पॉवर परियोजना स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा जिले में"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड जिले में"
+        },
+        {
+          "id": "opt3",
+          "text": "बॉरा जिले में"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई-माधोपुर जिले में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "छाबरा विद्युत परियोजना बारा जिले के छाबड़ा तहसील के मोतीपुरा में स्थित है। यह राजस्थान का प्रथम सुपर क्रिटीकल विद्युत संयंत्र है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC ACF 2011",
+      "sourceQuestionId": 21344,
+      "reference": "✎ PYQ Modified · RPSC ACF 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"ऊर्जा संसाधन–परम्परागत एवं गैर–परम्परागत\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"ऊर्जा संसाधन–परम्परागत एवं गैर–परम्परागत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"ऊर्जा संसाधन–परम्परागत एवं गैर–परम्परागत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

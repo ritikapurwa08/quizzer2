@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान जनगणना व साक्षरता - 2011",
+  "topicSlug": "राजस्थान-जनगणना-व-साक्षरता-2011",
+  "testSetName": "राजस्थान जनगणना व साक्षरता - 2011 - अभ्यास टेस्ट 23",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार राजस्थान की ग्रामीण जनसंख्या लगभग कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "66.3%"
+        },
+        {
+          "id": "opt2",
+          "text": "75.1%"
+        },
+        {
+          "id": "opt3",
+          "text": "55.4%"
+        },
+        {
+          "id": "opt4",
+          "text": "88.2%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+      "sourceQuestionId": 8802,
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के संदर्भ में कौन-सा विकल्प सही सुमेलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सबसे अधिक जनसंख्या वाला जिला – उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सबसे कम जनसँख्या वाला जिला – जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "सबसे कम साक्षरता दर वाला जिला – जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "सबसे अधिक साक्षरता दर वाला जिला – जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 8807,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "2001 की तुलना में, 2011 की जनगणना के अनुसार, राजस्थान के नगरीय क्षेत्रों में लिंगानुपात प्रति 1000 पुरुषों पर कितनी महिलाओं से बढ़ा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18"
+        },
+        {
+          "id": "opt2",
+          "text": "24"
+        },
+        {
+          "id": "opt3",
+          "text": "21"
+        },
+        {
+          "id": "opt4",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 27 Dec 2021",
+      "sourceQuestionId": 8813,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, निम्न में से राजस्थान के कौन से जिले में अधिकतम जनजाति जनसंख्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इनमें से कोई नहीं"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "sourceQuestionId": 8821,
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अनुसूचित जनजाति जनसंख्या का द्वितीय स्थान पर सर्वाधिक प्रतिशत है (2011) –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा जिले में"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा जिले में"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर जिले में"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़ जिले में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Ras Pre. Exam 2021",
+      "sourceQuestionId": 8823,
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जनसंख्या प्रवृत्तियों के सम्बन्ध में निम्नलिखत में से कोन-सा/कौन-से कथन सत्य हैं? नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए -1. राज्य में जनसंख्या की दशकीय वृद्धि दर 1991-2011 के दौरान 9.97 प्रतिशत घटी है।2. राज्य में जनसंख्या का घनत्व 1901-2011 के दौरान छः गुणा से अधिक बढ़ा है।3. राज्य में लिंगानुपात की प्रवृत्ति 1901-2011 के दौरान एक समान रही है।4. राज्य में साक्षरता दर 1951-2011 के दौरान आठ गुणा से अधिक बढ़ी है।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 और 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1 और 2"
+        },
+        {
+          "id": "opt3",
+          "text": "3 और 4"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2 और 4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Gram Sevak 2016",
+      "sourceQuestionId": 8832,
+      "reference": "📌 PYQ — Gram Sevak 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 में राजस्थान के कौन से जिलों में 500 से अधिक जनसंख्या घनत्व है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर-अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर-दौसा"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर-भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर-दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2015 level-2 SST",
+      "sourceQuestionId": 8833,
+      "reference": "📌 PYQ — Reet 2015 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का न्यूनत्तम शहरी साक्षरता दर वाला जिला है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8919,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: 2001 से 2011 के मध्य राजस्थान के किन जिलो की साक्षरता दर में गिरावट आई है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर और चूरू"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू और बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर और चूरू"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर और बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8920,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान जनगणना व साक्षरता - 2011\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान जनगणना व साक्षरता - 2011\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान जनगणना व साक्षरता - 2011\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

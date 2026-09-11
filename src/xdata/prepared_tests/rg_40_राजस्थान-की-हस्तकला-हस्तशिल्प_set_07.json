@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की हस्तकला / हस्तशिल्प",
+  "topicSlug": "राजस्थान-की-हस्तकला-हस्तशिल्प",
+  "testSetName": "राजस्थान की हस्तकला / हस्तशिल्प - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में मीनाकारी की कला महाराजा मानसिंह -प्रथम द्वारा कहाँ से लाई गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईरान"
+        },
+        {
+          "id": "opt2",
+          "text": "बलूचिस्तान"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "लाहौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर मे मीनाकारी की कला महाराजा मानसिंह प्रथम (1589-1614 ई.) द्वारा लाहौर से लाइ गई थी। परम्परागत रूप से सोने पर मौनाकारी के लिए काले, नीले, गहरे, पीले, नारंगी और गुलाबी रंग का प्रयोग किया जाता है। लाल रंग बनाने मे जयपुर के मीनाकार कुशल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COS) Exam 2024",
+      "sourceQuestionId": 11342,
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मोकड़ी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काँच की चूड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "लाख की चूड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "एक परिधान"
+        },
+        {
+          "id": "opt4",
+          "text": "मृद्भाण्ड"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मोकड़ी राजस्थान में पारंपरिक लाख की चूड़ियों को कहा जाता है, जो विशेष रूप से विवाहित महिलाओं द्वारा पहनी जाती हैं। जयपुर और जोधपुर इस कला के प्रसिद्ध केंद्र हैं, जबकि करौली जिले में लाख की चूड़ियों पर कांच की सजावट की जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (STE) Exam 2024",
+      "sourceQuestionId": 11343,
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कृपाल सिंह शेखावत को किस कला को देश-विदेश में पहचान दिलाने के लिए ‘पद्मश्री’ से सम्मानित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीनाकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "ऊस्ता कला"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्लू पॉटरी"
+        },
+        {
+          "id": "opt4",
+          "text": "थेवा कला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कृपाल सिंह शेखावत को जयपुर की ब्लू पॉटरी कला को पुनर्जनन और विश्व स्तर पर पहचान दिलाने के लिए 1974 में पद्मश्री से सम्मानित किया गया। 2002 में उन्हें भारत सरकार ने शिल्प गुरु की उपाधि से सम्मानित किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (ICTSM) Exam 2024",
+      "sourceQuestionId": 11344,
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ ज़िले का बस्सी गांव किस हस्तशिल्प के लिए प्रसिद्ध है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फड"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडणा"
+        },
+        {
+          "id": "opt3",
+          "text": "थेवा"
+        },
+        {
+          "id": "opt4",
+          "text": "कावड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बस्सी गांव (चित्तौड़गढ़) कावड़ हस्तशिल्प के लिए प्रसिद्ध है, जो लकड़ी पर रंगीन चित्रकारी और धार्मिक कथाओं को दर्शाने वाली कला है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EM) Exam 2024",
+      "sourceQuestionId": 11345,
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़ की कावड़ कला से किस कलाकार का नाम जुड़ा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बक्साराम"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीलाल जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "मांगीलाल मिस्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "साहिबराम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मांगीलाल मिस्त्री प्रसिद्ध कावड़ कला के लिए जाने जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COPA) Exam 2024",
+      "sourceQuestionId": 11346,
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऊँट की खाल पर स्वर्ण मीनाकारी और मुनव्वती कला का कार्य ____ के नाम से जाना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीनाकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "थेवा कला"
+        },
+        {
+          "id": "opt3",
+          "text": "उस्ता कला"
+        },
+        {
+          "id": "opt4",
+          "text": "लाख कला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ऊंट के चमड़े पर गोल्डन मीनाकारी कार्य को उस्ता कला के रूप में जाना जाता है। कला का विकास बीकानेर के पद्मश्री हिसामुद्दीन उस्ता ने किया था। अगस्त 1975 में उस्ता कैमल हाइड ट्रेनिंग सेंटर की स्थापना बीकानेर में की गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 11347,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "फड़ के वाचक कौन थे -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनजारा"
+        },
+        {
+          "id": "opt2",
+          "text": "भोपा"
+        },
+        {
+          "id": "opt3",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt4",
+          "text": "सग्रादा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भोपा राजस्थान में फड़ चित्रकला के कथावाचक होते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+      "sourceQuestionId": 11348,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में हस्तशिल्प के बारे में निम्नलिखित कथनों पर विचार कीजिए: 1. ब्लू पॉटरी मंगोलियाई कारीगरों द्वारा उत्पन्न हुई थी, जिन्होंने चीनी ग्लेज़िंग तकनीक को फारसी सजावटी कलाओं के साथ जोड़ा।2. ऊंट के चमड़े पर गोल्डन मीनाकारी कार्य को उस्ता कला के रूप में जाना जाता है।बयान में से कौन सा सही है/हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1 और 2 दोनों"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11483,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में ऊनी कम्बल एवं नमदे बनाने का प्रमुख केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11484,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की हस्तकला / हस्तशिल्प\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

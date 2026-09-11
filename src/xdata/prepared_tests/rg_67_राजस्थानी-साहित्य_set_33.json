@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थानी साहित्य",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "testSetName": "राजस्थानी साहित्य - अभ्यास टेस्ट 33",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज राठौड़ द्वारा रचित पुस्तक ‘वेलि कृष्ण रूखमणी री’ किस भाषा में लिखी गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पिंगल"
+        },
+        {
+          "id": "opt2",
+          "text": "डिंगल"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "संस्कृत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 15099,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित सूची - 1 (साहित्यिक कार्यं) का सूची- 2 (लेखकों) के साथ मिलान करें और नीचे दिये गए कोड में से सही उत्तर का चयन करें।सूची - 1 सूची - 2P. राम रणजाट i. मणि मधुकरQ. लीलतांस ii. सूर्य मल्ल मिश्रणR. पग फेरोiii. कन्हैया लाल सेठिया",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "P i Q iii R ii"
+        },
+        {
+          "id": "opt2",
+          "text": "P ii Q i R iii"
+        },
+        {
+          "id": "opt3",
+          "text": "P iii Q ii R i"
+        },
+        {
+          "id": "opt4",
+          "text": "P ii Q iii R i"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable(7981)",
+      "sourceQuestionId": 15103,
+      "reference": "📌 PYQ — Raj Police Constable(7981)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रमुख कहानीकार हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मी कुमारी चूंडावत"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "सुन्दरदास"
+        },
+        {
+          "id": "opt4",
+          "text": "मण्डन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2011",
+      "sourceQuestionId": 15126,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "साहित्य अकादमी पुरस्कृत कृति ‘पगफेरो’ रचना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गुलाबचंद"
+        },
+        {
+          "id": "opt4",
+          "text": "मणि मधुकर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2011",
+      "sourceQuestionId": 15127,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी ‘शब्दकोश’ का निर्माण किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांकीदास"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीलाल"
+        },
+        {
+          "id": "opt3",
+          "text": "सीताराम लालस"
+        },
+        {
+          "id": "opt4",
+          "text": "मुन्नालाल पुरोहित"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2011",
+      "sourceQuestionId": 15128,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कौन सा युग्म सही सुमेलित नहीं है -लेखक - कृतियां",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा कुभा - संगीतराज"
+        },
+        {
+          "id": "opt2",
+          "text": "उस्ताद चांद खां - स्वरसागर"
+        },
+        {
+          "id": "opt3",
+          "text": "द्वारका प्रसाद भट्ट - राग चन्द्रिका"
+        },
+        {
+          "id": "opt4",
+          "text": "राधा कृष्ण - मुरली प्रकाश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 15129,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा क्षेत्र मीरा पुरस्कार से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साहित्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गायन"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्रण"
+        },
+        {
+          "id": "opt4",
+          "text": "हस्तशिल्प"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Informatics Assistant Exam 2018",
+      "sourceQuestionId": 15130,
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘राव जैतसी रो छंद’ के लेखक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जी. एच. ओझा"
+        },
+        {
+          "id": "opt2",
+          "text": "बीठू सूजा"
+        },
+        {
+          "id": "opt3",
+          "text": "बांकीदास"
+        },
+        {
+          "id": "opt4",
+          "text": "नरपति नाल्ह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15144,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कौन सा रासो राजपूतों की उत्पत्ति को ‘अग्निकुंड’ से सम्बन्धित करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज रासो"
+        },
+        {
+          "id": "opt2",
+          "text": "हम्मीर रासो"
+        },
+        {
+          "id": "opt3",
+          "text": "बीसलदेव रासो"
+        },
+        {
+          "id": "opt4",
+          "text": "खुमान रासो"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15145,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी साहित्य\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थानी साहित्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थानी साहित्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

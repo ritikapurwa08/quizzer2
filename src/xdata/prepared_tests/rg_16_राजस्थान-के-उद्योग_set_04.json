@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के उद्योग",
+  "topicSlug": "राजस्थान-के-उद्योग",
+  "testSetName": "राजस्थान के उद्योग - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस स्थान पर रीको (आर.आई.आई.सी.ओ.) द्वारा कृषि एवं खाद्य प्रसंस्करण क्षेत्र विकसित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिलोरा, किशनगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "तिंवरी, जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बिश्नोदा, धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "थौलाई, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "RIICO ने जोधपुर, कोटा, अलवर, श्रीगंगानगर में चार एग्रो फूड पार्क विकसित किए हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 5182,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म सही सुमेलित नहीं है -(सूती वस्त्र उद्योग) (स्थान)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शार्दुल टेक्सटाइल लिमिटेड - श्रीगंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "आदित्य मिल्स - किशनगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ टेक्सटाइल्स - चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान टेक्सटाइल्स - भवानी मंडी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेवाड़ टेक्सटाइल मिल्स भीलवाड़ा में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 5183,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में से किस जिले में रीको ने ‘मैडटैक मेडिकल डिवाइस पार्क’ विकसित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रीको ने जोधपुर जिले के बोरानाडा में यह पार्क विकसित किया है, जो चिकित्सा उपकरण उद्योग को बढ़ावा देता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)",
+      "sourceQuestionId": 5184,
+      "reference": "📌 PYQ — Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस क्षेत्र में एक एग्रो फ़ूड पार्क स्थापित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में 6 फ़ूड पार्क हैं। एक मेगा फ़ूड पार्क अजमेर में और पांच अन्य अलवर, कोटा, जोधपुर और श्री गंगानगर में हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5186,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में SEZ (विशेष आर्थिक क्षेत्र) के विकास के लिए निम्नलिखित में से कौनसा निकाय जिम्मेदार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "RIICO"
+        },
+        {
+          "id": "opt2",
+          "text": "SEBI"
+        },
+        {
+          "id": "opt3",
+          "text": "IIRC"
+        },
+        {
+          "id": "opt4",
+          "text": "SIDBI"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान राज्य औद्योगिक विकास एवं निवेश निगम (RIICO) ही राज्य में सभी SEZ (महिंद्रा वर्ल्ड सिटी जयपुर, नीमराना जापानी जोन आदि) का विकास करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5187,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सीमेंट उद्योग के तीव्र विकास में निम्नलिखित में से कौन-सी एक मुख्य बाधा है -(निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अद्यतन उत्पादन तकनीक"
+        },
+        {
+          "id": "opt2",
+          "text": "विद्युत की अनियमित आपूर्ति"
+        },
+        {
+          "id": "opt3",
+          "text": "सीमेंट की पर्याप्त मांग"
+        },
+        {
+          "id": "opt4",
+          "text": "कोयले की कमी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में चूना पत्थर प्रचुर है, मांग भी है, तकनीक भी आधुनिक है, लेकिन सीमेंट बनाने में कोयला (ईंधन) बहुत लगता है और राजस्थान में कोयला नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5188,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान की पहली सूती वस्त्र मिल कौन सी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत मिल्स लिमिटेड"
+        },
+        {
+          "id": "opt2",
+          "text": "कृष्णा मिल्स लिमिटेड"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री महालक्ष्मी मिल्स लिमिटेड"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा उम्मेद मिल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सूती वस्त्र उद्योग की शुरूआत दामोदर दास द्वारा 1889 में ब्यावर में द कृष्णा मिल स्थापित करके की गई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5189,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: एक संस्था जो लघु उद्योगों तथा शिल्पकारों को उचित कीमत पर कच्चा माल एवं उनके उत्पादों के विपणन के लिए सुविधाएं प्रदान करती है एवं प्रदर्शनी व प्रशिक्षण कार्यक्रम का आयोजन करती है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसीको"
+        },
+        {
+          "id": "opt2",
+          "text": "रीको"
+        },
+        {
+          "id": "opt3",
+          "text": "आर.एफ.सी"
+        },
+        {
+          "id": "opt4",
+          "text": "आर.के.वी.आई.वी."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5369,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान की हीरो गार्डन फैक्ट्री कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली"
+        },
+        {
+          "id": "opt3",
+          "text": "नीमराना"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5372,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के उद्योग\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

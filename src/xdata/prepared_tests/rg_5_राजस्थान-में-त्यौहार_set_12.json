@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में त्यौहार",
+  "topicSlug": "राजस्थान-में-त्यौहार",
+  "testSetName": "राजस्थान में त्यौहार - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ऊभ छठ पर्व कब मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण शुक्ला - 6"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद शुक्ला - 6"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद कृष्णा - 6"
+        },
+        {
+          "id": "opt4",
+          "text": "आश्विन कृष्णा - 6"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 1251,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रत्येक वर्ष चैत्र मास में गणगौर पूजन उत्सव की तिथि है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र शुक्ल पक्ष पंचमी"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र कृष्ण पक्ष पंचमी"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र शुक्ल पक्ष तृतीय"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र कृष्ण पक्ष तृतीय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 1255,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अंचल, जिसमें होली के अवसर पर ईलोजी की सवारी निकालने की परम्परा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भिनाय"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 1258,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पर्युषण पर्व’ किस धर्म से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बौद्ध धर्म"
+        },
+        {
+          "id": "opt2",
+          "text": "हिंदु धर्म"
+        },
+        {
+          "id": "opt3",
+          "text": "सिक्ख धर्म"
+        },
+        {
+          "id": "opt4",
+          "text": "जैन धर्म"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (19-08-18) Paper-1",
+      "sourceQuestionId": 1259,
+      "reference": "📌 PYQ — RSMSSB LDC (19-08-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में तीज की सवारी किस माह में निकाली जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt2",
+          "text": "बैसाख"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद/भादौं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "sourceQuestionId": 1265,
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा त्यौहार होली के लगभग एक पखवाड़ा बाद मनाया जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घुड़ला"
+        },
+        {
+          "id": "opt2",
+          "text": "अक्षय तृतीया"
+        },
+        {
+          "id": "opt3",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt4",
+          "text": "तीज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+      "sourceQuestionId": 1274,
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "देवउठनी एकादशी के बारे में निम्न में से कौन-सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इस दिन चतुर्मास अवधि समाप्त होती है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इस दिन भगवान विष्णु चार महीने की निद्रा के बाद जागते हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "इस दिन तुलसी और शालिग्राम का विवाह संपन्न होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "यह दिन आषाढ़ शुक्ल एकादशी को मनाया जाता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "देवउठनी एकादशी तिथि पर चतुर्मास अवधि खत्म हो जाती है। कहा जाता है कि भगवान विष्णु आषाढ़ मास के शुक्ल पक्ष की एकादशी को सो जाते हैं और देवउठनी एकादशी के दिन जागते हैं। इस दिन मां लक्ष्मी और भगवान विष्णु की पूजा की जाती है। इस दिन तुलसी व शालिग्राम विवाह भी संपन्न किया जाता है। इस तिथि से ही मांगलिक कार्यों प्रारंभ हो जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1156,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: धुलंडी का त्यौहार कब मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र कृष्णा एकम"
+        },
+        {
+          "id": "opt2",
+          "text": "फाल्गुन पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रावण पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "बैसाख कृष्णा एकम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1285,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थानी त्यौहारों में सबसे ज्यादा गीतों वाला त्यौहार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीज"
+        },
+        {
+          "id": "opt2",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt3",
+          "text": "दीपावली"
+        },
+        {
+          "id": "opt4",
+          "text": "होली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1287,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में त्यौहार\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में त्यौहार\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में त्यौहार\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

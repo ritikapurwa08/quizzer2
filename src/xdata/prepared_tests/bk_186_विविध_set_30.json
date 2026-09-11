@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 30",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत में2011और2001की जनगणनाओं में साक्षरता दर की गणना करने में निम्न आयु वर्ग के बच्चों को सम्मिलित नहीं किया गया था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0 – 6"
+        },
+        {
+          "id": "opt2",
+          "text": "0 – 4"
+        },
+        {
+          "id": "opt3",
+          "text": "0 – 5"
+        },
+        {
+          "id": "opt4",
+          "text": "0 – 7"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जनगणना में साक्षरता दर की गणना करने में ७ वर्ष से अधिक के बच्चों को सम्मिलित किया जाता है। ७ वर्ष से कम आयु के बच्चों को साक्षरता में सम्मिलित नहीं किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (Agri. Dept.) - 2020",
+      "sourceQuestionId": 25939,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (Agri. Dept.) - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "केन्द्र में बहु-उद्देशीय सामाजिक-आर्थिक सर्वेक्षणों का आयोजन करना मुख्य रूप से निम्न संस्था का कार्य है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "CSO"
+        },
+        {
+          "id": "opt2",
+          "text": "ISI"
+        },
+        {
+          "id": "opt3",
+          "text": "NIC"
+        },
+        {
+          "id": "opt4",
+          "text": "NSSO"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रीय प्रतिदर्श सर्वेक्षण कार्यालय(NSSO)द्वारा केंद्रीय स्तर बहुउद्देशीय सामाजिक-आर्थिक सर्वेक्षण आयोजित किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (Agri. Dept.) - 2020",
+      "sourceQuestionId": 25940,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (Agri. Dept.) - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में पशुधन की गणना कितने वर्षों के अन्तराल से की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2वर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "3वर्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "7 वर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "5 वर्ष"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत में पशुधन की जनगणना हर पाँच साल में की जाती है। २१वीं पशुधन जनगणना अक्टूबर २०२४ में फरवरी २०२५ के बीच होगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (Agri. Dept.) - 2020",
+      "sourceQuestionId": 25941,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (Agri. Dept.) - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आर्थिक एवं सांख्यिकी निदेशालय का गठन किस वर्ष में किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1950-51"
+        },
+        {
+          "id": "opt2",
+          "text": "1955-56"
+        },
+        {
+          "id": "opt3",
+          "text": "1952-53"
+        },
+        {
+          "id": "opt4",
+          "text": "1947-48"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वर्ष १९४७ में नागरिक सचिवालय में एक पूर्ण विभाग के साथ आर्थिक सलाहकार और अर्थशास्त्र और सांख्यिकी निदेशक का एक पद बनाया गया था। १९६१ में अर्थशास्त्र और सांख्यिकी विभाग को बदलकर अर्थशास्त्र और सांख्यिकी निदेशालय कर दिया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (Agri. Dept.) - 2020",
+      "sourceQuestionId": 25942,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (Agri. Dept.) - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष2010-11तक भारत में कितनी बार कृषि गणना हो चुकी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "11"
+        },
+        {
+          "id": "opt4",
+          "text": "13"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष २०१०-१० तक भारत में ९ बार कृषि गणना कराई गई थीं। वर्ष २०२१-२२ में ११वीं कृषि गणना करायी जा चुकी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (Agri. Dept.) - 2020",
+      "sourceQuestionId": 25943,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (Agri. Dept.) - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "संशोधित क्षेत्र विकास कार्यक्रम किस वर्ष में शुरू हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1978-79"
+        },
+        {
+          "id": "opt2",
+          "text": "1980-81"
+        },
+        {
+          "id": "opt3",
+          "text": "1985-86"
+        },
+        {
+          "id": "opt4",
+          "text": "1974-75"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संशोधित क्षेत्र विकास दृष्टिकोण(MADA) एक योजना है, जिसका मकसद आदिवासियों के विकास के लिए कृषि, उद्योग, सेवाओं और व्यापार को बढ़ावा देना है। इसे साल १९८० में बनाया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+      "sourceQuestionId": 25944,
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामसर(अजमेर)में स्थित ‘बकरी विकास एवं चारा उत्पादन परियोजना’ हेतु वित्तीय सहयोग किस देश से प्राप्त हुआ है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रâांस"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वीडन"
+        },
+        {
+          "id": "opt3",
+          "text": "डेनमार्क"
+        },
+        {
+          "id": "opt4",
+          "text": "स्विट्जरलैण्ड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रामसर (अजमेर) में स्थित ‘बकरी विकास एवं चारा उत्पादन परियोजना’ हेतु वित्तीय सहायता हेतु स्विट्जरलैण्ड से प्राप्त हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+      "sourceQuestionId": 25945,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: संस्थान, जिसके साथ राजस्थान सरकार ने सड़क सुरक्षा की एक नवीन पद्धति को लागू करने के लिए गठजोड़ किया है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एम.एन.आई.टी., जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "आई.आई.टी., मुम्बई"
+        },
+        {
+          "id": "opt3",
+          "text": "आई.आई.टी.दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "आई.आई.टी., मद्रास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "23 दिसंबर,2020 भारतीय प्रौद्योगिकी संस्थान मद्रास, राजस्थान सरकार से सहमति करार कर सड़क सुरक्षा का सुनियोजित ढाँचा बनाने के लक्ष्य से डेटा-आधारित व्यवस्था कायम करने में राज्य सरकार की मदद करेगा। इसका मुख्य उद्देश्य सड़क सुरक्षा के उपायों को बढ़ाना, सड़क पर दुर्घटना ग्रस्त लोगों की जान बचाना तथा राज्य में दुर्घटना के मामलों में कमी लाना। 1068",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 26117,
+      "reference": "✎ PYQ Modified · RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पंडित राजन मिश्र के बारे में निम्नलिखित को पढ़िए: A. वे ़खयाल शैली के शास्त्रीय गायक थे। B. उन्हें वर्ष २००७ में पद्मश्री पुरस्कार प्रदान किया गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल कथन(A) सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल कथन(B) सही है।"
+        },
+        {
+          "id": "opt3",
+          "text": "ना तो(A) ना ही(B) सही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "दोनों कथन सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पंडित राजन मिश्र भारतीय शास्त्रीय संगीत, ़ख्याल शैली के गायक थे। उन्हें भारत सरकार द्वारा वर्ष2007 में पद्म भूषण से सम्मानित किया गया था, न कि पद्मश्री थे। वर्ष1998 में संगीत नाटक अकादमी पुरस्कार,1994-95 के लिये गंधर्व राष्ट्रीय पुरस्कार तथा2012में राष्ट्रीय तानसेन सम्मान से सम्मानित किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 26118,
+      "reference": "✎ PYQ Modified · RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

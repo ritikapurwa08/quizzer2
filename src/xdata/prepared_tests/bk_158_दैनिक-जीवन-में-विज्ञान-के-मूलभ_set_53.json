@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "दैनिक जीवन में विज्ञान के मूलभूत तत्व",
+  "topicSlug": "दैनिक-जीवन-में-विज्ञान-के-मूलभूत-तत्व",
+  "testSetName": "दैनिक जीवन में विज्ञान के मूलभूत तत्व - अभ्यास टेस्ट 53",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में सत्य कथन है (A)बैगनी रंग का तरंगदैर्ध्य सबसे कम तथा आवृत्ति सबसे अधिक है। (B)लाल रंग का तरंगदैर्ध्य अधिकतम तथा आवृत्ति न्यूनतम होती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एवं(B)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल(A)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल(B)"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लाल रंग का तरंगदैर्ध्य सबसे ज्यादा तथा इसका आवृत्ति सबसे कम होता है जबकि बैंगनी रंग का तरंगदैर्ध्य सबसे कम तथा आवृत्ति सबसे अधिक होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23495,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसको ऊर्जा का प्राथमिक स्रोत कहते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वसा"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्बोहाइड्रेट"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रोटीन"
+        },
+        {
+          "id": "opt4",
+          "text": "विटामिन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कार्बोहाइड्रेट मानव शरीर के लिए ऊर्जा का प्राथमिक स्रोत है। यह कार्बन, हाइड्रोजन और आक्सीजन से मिलकर बनता है। शरीर कार्बोहाइड्रेट को मोनोमेरिक में तोड़ देता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23496,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नेत्र परत जो प्रकाश के प्रति संवेदनशील होती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दृढ़ पटल"
+        },
+        {
+          "id": "opt2",
+          "text": "वर्णक पटल"
+        },
+        {
+          "id": "opt3",
+          "text": "दृष्टि पटल"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नेत्र परत जो प्रकाश के प्रति संवेदनशील होता है। उसका नाम रेटिना है। रेटिना में फोटोरिसेप्टर कोशिकाएँ होती है। जो आने वाले प्रकाश को विद्युत आवेगों में परिवर्तित करती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23497,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रत्यावर्ती घारा को दिष्टधारा में परिवर्तित करने वाला उपरकण है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ट्रान्सफारमर"
+        },
+        {
+          "id": "opt2",
+          "text": "डायनेमो"
+        },
+        {
+          "id": "opt3",
+          "text": "दिष्टकारी"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रत्यावर्ती धारा को दृष्टधारा में परिवर्तित रेक्टिफायर करता है। डायनमों यान्त्रिक ऊर्जा को विद्युत ऊर्जा में परिवर्तित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23498,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजाबी वर्षा का काण है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "O2 एवं CO2"
+        },
+        {
+          "id": "opt2",
+          "text": "NO2 एवं SO2"
+        },
+        {
+          "id": "opt3",
+          "text": "O3 एवं CFC"
+        },
+        {
+          "id": "opt4",
+          "text": "N2O एवं CH4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तेजीबी वर्षा एक पर्यावरणीय समस्या है जिसमें बारिश के पानी में सल्फ्यूरिक अम्ल और नाइट्रिक अम्ल जैसे अम्लों की मात्रा अधिक हो जाता है। यह समस्या वायुमण्डल में सल्फर डाइऑक्साइड और नाइट्रोजन ऑक्साइड की उपस्थिति के कारण होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23499,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "के जलीय विलयन का होगा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12"
+        },
+        {
+          "id": "opt2",
+          "text": "10"
+        },
+        {
+          "id": "opt3",
+          "text": "8"
+        },
+        {
+          "id": "opt4",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "pH स्केल जल में युक्त हाइड्रोजन आयनों की संख्या मापता है। ७ से कमpH मान अम्लीय विलयन को इंगित करता है, pH7 एक उदासीन विलयन को इंगित करता है, ७ से अधिकpH मान, क्षारीय विलयन को इंगित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23500,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से एक को ‘‘भारी जल’’ कहते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "H2O"
+        },
+        {
+          "id": "opt2",
+          "text": "T2O"
+        },
+        {
+          "id": "opt3",
+          "text": "D2O"
+        },
+        {
+          "id": "opt4",
+          "text": "H3O"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारी जल का रासायनिक सूत्रD2Oहोता है। इसे ड्यूटिरियम ऑक्साइड कहा जाता है। भारी जल का घनत्व सामान्य जल से ११³ अधिक होता है। भारी जल न्यूट्रान माडरेटर के रूप में कार्य करता है, जो न्यूट्रानों के गति को धीमा करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23501,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: OF2 में ऑक्सीजन का ऑक्सीकरण अंक है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "–3"
+        },
+        {
+          "id": "opt2",
+          "text": "+1"
+        },
+        {
+          "id": "opt3",
+          "text": "–1"
+        },
+        {
+          "id": "opt4",
+          "text": "+2"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "OF2 में F (फ्लोरीन) की ऑक्सीकरण संख्या(–1)है इस प्रकार ऑक्सीजन की ऑक्सीकरण संख्या निम्न होगी। OF2 = 0 x + (–1)×2 = 0 x –2 = 0 x= +2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 23671,
+      "reference": "✎ PYQ Modified · RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: हीमोग्लोबिन में निम्न धातु होती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैग्नीशियम"
+        },
+        {
+          "id": "opt2",
+          "text": "आयरन"
+        },
+        {
+          "id": "opt3",
+          "text": "वैâल्सियम"
+        },
+        {
+          "id": "opt4",
+          "text": "कोबाल्ट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हीमोग्लोबिन में हिम नामक वर्णक एवं ग्लोबिन प्रोटीन होती है। इसका मुख्य कार्य गैसो का परिवहन है। इस प्रकार हीमोग्लोबिन में लोहा पाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 23672,
+      "reference": "✎ PYQ Modified · RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

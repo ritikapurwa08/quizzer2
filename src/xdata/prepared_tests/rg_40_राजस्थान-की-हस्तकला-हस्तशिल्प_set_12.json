@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की हस्तकला / हस्तशिल्प",
+  "topicSlug": "राजस्थान-की-हस्तकला-हस्तशिल्प",
+  "testSetName": "राजस्थान की हस्तकला / हस्तशिल्प - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौनसा वित्तीय संस्थान राजस्थान के हस्तशिल्प के विकास के लिए उत्तरदायी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसीको"
+        },
+        {
+          "id": "opt2",
+          "text": "रिको"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान वित्त निगम"
+        },
+        {
+          "id": "opt4",
+          "text": "रिडकोर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजसीको संस्थान शिल्पकारों से सीधे हस्तशिल्प वस्तुओं की खरीद करते हैं। राजस्थान लघु उद्योग निगम लिमिटेड (आरएसआईसी) का गठन 1961 में राजस्थान सरकार के उपक्रम के रूप में किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 11424,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चाँदी के आभूषणों की तारकशी के लिए राजस्थान का कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "खण्डेला"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नाथद्वारा में चाँदी के बारीक तारों से विभिन्न आभूषण एवं कलात्मक वस्तुएँ बनाई जाती हैं। यह कला तारकशी तथा इन जेवरों कों तारकशी के जेवर कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 2",
+      "sourceQuestionId": 11428,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मीनाकारी की थेवा कला के लिए राजस्थान का कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "जोबनेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का प्रतापगढ़ “थेवा कला” के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 1",
+      "sourceQuestionId": 11432,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पिछवाइयाँ’ हस्तशिल्प कला निम्न क्षेत्र से सम्बन्धित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "बागरू"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पिछवाइयाँ एक पारंपरिक चित्रकला शैली है, जो राजस्थान के नाथद्वारा से संबंधित है। यह कला मुख्य रूप से भगवान श्रीनाथजी (कृष्ण) की पूजा से जुड़ी है और मंदिरों में पृष्ठभूमि के रूप में उपयोग की जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 11434,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘उस्ता कला’ के विकास के लिए ‘उस्ता कैमल हाइड केन्द्र’ की स्थापना 1975 ई. में कहाँ की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऊंट के चमड़े पर गोल्डन मीनाकारी कार्य को उस्ता कला के रूप में जाना जाता है। कला का विकास बीकानेर के पद्मश्री हिसामुद्दीन उस्ता ने किया था। अगस्त 1975 में उस्ता कैमल हाइड ट्रेनिंग सेंटर की स्थापना बीकानेर में की गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 11437,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चंदूजी का गढ़ा और बोडीगामा’ स्थान किस लिए प्रसिद्ध हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीर बनाने के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "जाजम प्रिंटिंग के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "कुंदन कला के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "तामचीनी के लिए"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंदूजी का गढ़ा बाँसवाड़ा जिले में घाटोल तहसील का एक गाँव है, जो राजस्थान का सबसे दक्षिणी भाग है। बोडिगामा, डूंगरपुर जिले का एक गाँव है। ये दोनों गाँव तीर-कमान के निर्माण के लिए प्रसिद्ध हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 11439,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मोती भारत’ किस जिले में पारंपरिक कढ़ाई का नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मोती भारत की शुरुआत 19वीं सदी में मोची कारीगरों द्वारा निर्मित की गई थी। मोती भारत कला का एक रूप है, जो राजस्थान के जालौर क्षेत्र के लिए अद्वितीय है। इस कढ़ाई में पारदर्शी मोतियों को नामय कहते हैं और उन पर अपारदर्शी सफ़ेद मोतियों को जोड़कर विभिन्न आकृतियों और रूपों को बनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 11440,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: पीतल पर नक्काशी की एक विशिष्ट परम्परा को ‘मरोड़ी कला’ कहते हैं, यह कला कहां की प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11524,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में कहां की 250 ग्राम की रूई की बनी ‘पाव रजाई’ विश्व प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11525,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की हस्तकला / हस्तशिल्प\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

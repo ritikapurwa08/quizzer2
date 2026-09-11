@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "शिक्षा",
+  "topicSlug": "शिक्षा",
+  "testSetName": "शिक्षा - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान माध्यमिक शिक्षा बोर्ड के संगठनात्मक ढाँचे में राज्य सरकार द्वारा नामित सदस्यों की संख्या कितनी होती है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "11"
+        },
+        {
+          "id": "opt2",
+          "text": "15"
+        },
+        {
+          "id": "opt3",
+          "text": "07"
+        },
+        {
+          "id": "opt4",
+          "text": "17"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (GS) 2020",
+      "sourceQuestionId": 12791,
+      "reference": "📌 PYQ — SCHOOL LECTURER (GS) 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा राजस्थान राज्य के सन्दर्भ में आर टी ई एक्ट नियमों का सही नाम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान निःशुल्क और अनिवार्य बाल शिक्षा का अधिकार नियम 2009"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान निःशुल्क और अनिवार्य बाल शिक्षा का अधिकार नियम 2010"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान निःशुल्क और अनिवार्य बाल शिक्षा का अधिकार नियम 2011"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान निःशुल्क और अनिवार्य बाल शिक्षा का अधिकार नियम 2009-10"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (GS) 2020",
+      "sourceQuestionId": 12792,
+      "reference": "📌 PYQ — SCHOOL LECTURER (GS) 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस स्थान का नाम बताइये जहां कालीबाई शहीद हुयी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सागवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "खड़लाई"
+        },
+        {
+          "id": "opt3",
+          "text": "खेरवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "रास्तापाल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Serology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 12798,
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1905 में जयपुर में वर्धमान पाठशाला की स्थापना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर शैतान सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "गुलाब चंद काललबाल"
+        },
+        {
+          "id": "opt3",
+          "text": "मास्टर भोलेनाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्जुनलाल सेठी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 12799,
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कालीबाई सम्बन्धित थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ राज्य से"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर राज्य से"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर राज्य से"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़ राज्य से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Biology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 12800,
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हरिशचन्द्र माथुर राजस्थान राज्य लोक प्रशासन संस्थान कहां है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (29-11-18) Shift 1",
+      "sourceQuestionId": 12806,
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराणा मेवाड फाउन्डेशन पुरस्कारों की स्थापना कब की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1960 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1965 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1980 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1970 ई."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (29-11-18) Shift 1",
+      "sourceQuestionId": 12807,
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: बनस्थली विद्यापीठ की स्थापना निम्न वर्ष में हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1934"
+        },
+        {
+          "id": "opt2",
+          "text": "1935"
+        },
+        {
+          "id": "opt3",
+          "text": "1936"
+        },
+        {
+          "id": "opt4",
+          "text": "1937"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12803,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से सर्वप्रथम किसने राजस्थान के राजसी शासक वर्ग के लिये पृथक शिक्षा संस्थान की आवश्यकता पर बल दिया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्नल लोच"
+        },
+        {
+          "id": "opt2",
+          "text": "लाॅर्ड लैंसडाऊन"
+        },
+        {
+          "id": "opt3",
+          "text": "कैप्टन वाल्टर"
+        },
+        {
+          "id": "opt4",
+          "text": "लाॅर्ड मेयो"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12804,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"शिक्षा\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"शिक्षा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"शिक्षा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

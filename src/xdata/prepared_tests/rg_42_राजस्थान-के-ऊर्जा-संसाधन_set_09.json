@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के ऊर्जा संसाधन",
+  "topicSlug": "राजस्थान-के-ऊर्जा-संसाधन",
+  "testSetName": "राजस्थान के ऊर्जा संसाधन - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जलीपा-कपूरडी तापीय विद्युत परियोजना का सम्बन्ध राजस्थान के किस जिले से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जलीपा-कपूरडी थर्मल पावर प्रोजेक्ट को JSW बाड़मेर पावर स्टेशन के रूप में भी जाना जाता है। JSW बाड़मेर पावर स्टेशन एक कोयला आधारित थर्मल पावर प्लांट है जो बाड़मेर जिले राजस्थान के भद्रेश गाँव में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Evaluation Officer 2020",
+      "sourceQuestionId": 12080,
+      "reference": "📌 PYQ — Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान ऊर्जा विकास एजेन्सी की स्थापना किस वर्ष में हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1995"
+        },
+        {
+          "id": "opt2",
+          "text": "1983"
+        },
+        {
+          "id": "opt3",
+          "text": "1992"
+        },
+        {
+          "id": "opt4",
+          "text": "1985"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान ऊर्जा विकास एजेंसी की स्थापना वर्ष 1985 में की गई थी। राजस्थान अक्षय ऊर्जा निगम लिमिटेड (RRECL) का गठन अगस्त 2002 में पूर्ववर्ती REDA (राजस्थान ऊर्जा विकास एजेंसी) और राजस्थान राज्य विद्युत निगम लिमिटेड (RSPCL) को मिलाकर किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 2",
+      "sourceQuestionId": 12081,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पवन ऊर्जा फार्म परियोजना के तहत राजस्थान में पवन ऊर्जा के लिए एक्सपोजर/ मार्गदर्शन के लिए किन स्थानों की पहचान की गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाडमेर, ब्यावर, जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर, देवगढ़, फलोदी"
+        },
+        {
+          "id": "opt3",
+          "text": "राजगढ़, नागौर, चुरू"
+        },
+        {
+          "id": "opt4",
+          "text": "फलोदी, माउण्ट आबू, पाली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में पवन ऊर्जा के मार्गदर्शन/संसर्ग के लिए जैसलमेर, फलौदी, और देवगढ़ को चुना गया है:",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 12083,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (सौर ऊर्जा प्लाण्ट - स्थान (जिला)) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोरीर प्लाण्ट - झुंझुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "नोख प्लाण्ट - जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अगोरिया प्लाण्ट - बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "खीमसर प्लाण्ट - नागौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी राजस्थान में जैसलमेर जिले में नोख सोलर पार्क है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 12084,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिये तथा नीचे दिये गये कूटों में से सही उत्तर चुनिये - सौर ऊर्जा प्लांट अवस्थिति (जिला)A खींवसर प्लांट i जैसलमेरB धूनिया प्लांट ii नागौरC अगोरिया प्लांट iii जोधपुरD मोकला प्लांट iv बाडमेरकूट - A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii iii iv i"
+        },
+        {
+          "id": "opt2",
+          "text": "ii iii i iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iii ii iv i"
+        },
+        {
+          "id": "opt4",
+          "text": "i ii iii iv"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सौर ऊर्जा प्लांट अवस्थिति (जिला) खींवसर प्लांट नागौर धूनिया प्लांट जोधपुर अगोरिया प्लांट बाड़मेर मोकला प्लांट जैसलमेर",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 12085,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "देवगढ़ पवन ऊर्जा परियोजना ______ में अवस्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बारां"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "देवगढ़ पवन ऊर्जा परियोजना राजस्थान के प्रतापगढ़ जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Statistical Officer 2021",
+      "sourceQuestionId": 12087,
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गिरल लिग्नाईट थर्मल पावर प्लांट अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गिरल लिग्नाइट थर्मल पावर प्लांट बाड़मेर में अवस्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Superintendent Gar. 2021 (GK)",
+      "sourceQuestionId": 12088,
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: पवन ऊर्जा की दृष्टि से राजस्थान के किस हिस्से में आदर्श दशाएं जाती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिणी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12117,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में परमाणु केन्द्र कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावतभाटा"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरतगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12125,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के ऊर्जा संसाधन\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के ऊर्जा संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के ऊर्जा संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भेड़ की किस नस्ल को भारतीय मेरिनो कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt2",
+          "text": "मालपुरी"
+        },
+        {
+          "id": "opt3",
+          "text": "पूगल"
+        },
+        {
+          "id": "opt4",
+          "text": "मगरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Electrical Degree (GK)",
+      "sourceQuestionId": 6040,
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘थारपारकर’ ______ एक नस्ल है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt2",
+          "text": "गाय"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊँट"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 6042,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘आॅपरेशन फ्लड’ किससे संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आपद प्रबंधन"
+        },
+        {
+          "id": "opt2",
+          "text": "नदी जल संवर्धन"
+        },
+        {
+          "id": "opt3",
+          "text": "वनीकरण"
+        },
+        {
+          "id": "opt4",
+          "text": "दुग्ध उत्पादन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 6044,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशुपालन एक उदाहरण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्राथमिक व्यवसाय का"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वितीयक व्यवसाय का"
+        },
+        {
+          "id": "opt3",
+          "text": "तृतीयक व्यवसाय का"
+        },
+        {
+          "id": "opt4",
+          "text": "चतुर्थक व्यवसाय का"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Geography)",
+      "sourceQuestionId": 6045,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मालपुरा’ ____ की एक नस्ल है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt2",
+          "text": "गाय"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 6050,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पशुधन की थरपारकर नस्ल ____ से जुड़ी है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घोड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ऊँट"
+        },
+        {
+          "id": "opt3",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt4",
+          "text": "गाय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 6051,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "थारपारकर किस पशु की नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गाय"
+        },
+        {
+          "id": "opt2",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt3",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt4",
+          "text": "भेड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 14 September 2021 (Gk)",
+      "sourceQuestionId": 6064,
+      "reference": "📌 PYQ — Police SI 14 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से किस मवेशी की प्रजातियां चोकला, मगरा व नाली है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt3",
+          "text": "गाय"
+        },
+        {
+          "id": "opt4",
+          "text": "भैंस"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6163,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान का “तेजाजी पशु मेला” निम्नांकित नस्लों में से किस एक के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोखला भेड़"
+        },
+        {
+          "id": "opt2",
+          "text": "मुर्रा भैंस"
+        },
+        {
+          "id": "opt3",
+          "text": "नाचना ऊट"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौरी गाय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6183,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

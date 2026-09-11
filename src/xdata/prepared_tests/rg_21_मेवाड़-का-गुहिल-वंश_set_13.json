@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "मेवाड़ का गुहिल वंश",
+  "topicSlug": "मेवाड़-का-गुहिल-वंश",
+  "testSetName": "मेवाड़ का गुहिल वंश - अभ्यास टेस्ट 13",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कहां के शासकों द्वारा रावल तथा महारावल की उपाधियां ग्रहण की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डूंगरपुर शासकों ने रावल और महारावल की उपाधि धारण की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB Lab Assistant Exam 2016",
+      "sourceQuestionId": 6800,
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राणा कुम्भा को निम्न वाद्ययंत्रों में किस में दक्षता हासिल थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीतार"
+        },
+        {
+          "id": "opt2",
+          "text": "गीटार"
+        },
+        {
+          "id": "opt3",
+          "text": "वीणा"
+        },
+        {
+          "id": "opt4",
+          "text": "सारंगी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "महाराणा कुम्भा न केवल वीर, युद्धकौशल में निपुण तथा कला प्रेमी थे वरन् एक विद्वान तथा विद्यानुरागी भी थे। महाराणा कुम्भा स्वंय वीणा बजाया करते थे। इनके संगीत गुरू सारंग व्यास थे। जबकी इनके गुरू जैन आचार्य हीरानंद थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB Lab Assistant Exam 2016",
+      "sourceQuestionId": 6801,
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राणा सांगा और बाबर के बीच ऐतिहासिक युद्ध कहां लड़ा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हल्दीघाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "खानवा"
+        },
+        {
+          "id": "opt3",
+          "text": "रातीघाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "पानीपत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खानवा युद्ध राणा सांगा एवं मुगल सम्राट जहीरुद्दीन मुहम्मद बाबर के मध्य 17 मार्च, 1527 ई. को बयाना के पास (वर्तमान रूपबास) हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 6802,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "खतौली(1517 ई.) की लड़ाई में राणासांगा ने किसको पराजित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोदिनी राय"
+        },
+        {
+          "id": "opt2",
+          "text": "महमूद खलजी"
+        },
+        {
+          "id": "opt3",
+          "text": "बहादुर शाह"
+        },
+        {
+          "id": "opt4",
+          "text": "इब्राहीम लोदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खातोली का युद्ध (1517 ई.) : मेवाड़ के महाराणा सांगा एवं दिल्ली के सुल्तान इब्राहिम लोदी की महत्त्वाकांक्षाओं के फलस्वरूप दोनों के मध्य 1517 ई. में ‘खातोली’ (पीपल्दा तहसील, कोटा) में युद्ध हुआ। महाराणा सांगा ने इब्राहिम लोदी को पराजित किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 6805,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राणा सांगा के मेवाड़ के शासक बनने के समय दिल्ली सल्तनत का सुल्तान कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महमूद लोद"
+        },
+        {
+          "id": "opt2",
+          "text": "सिकंदर लोदी"
+        },
+        {
+          "id": "opt3",
+          "text": "इब्राहीम लोदी"
+        },
+        {
+          "id": "opt4",
+          "text": "बहलोल लोदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कुंवर संग्रामसिंह महाराणा सांगा के नाम से मशहूर हुए। महाराणा सांगा के राज्याभिषेक के समय दिल्ली पर सुल्तान सिकन्दर लोदी, गुजरात पर महमूद बेगड़ा और मालवा पर नासिर शाह/नासिरूद्दीन खिलजी का राज था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 6806,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस स्थान पर भामाशाह वित्तीय सहायता देने हेतु राणा प्रताप से मिले थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावंड"
+        },
+        {
+          "id": "opt2",
+          "text": "चूलिया"
+        },
+        {
+          "id": "opt3",
+          "text": "खमनौर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जब महाराणा प्रताप इधर से उधर सुरक्षा की खोज में भाग रहे थे तथा उनके पास धन का भी अभाव होने लगा। इसी समय (1578 ई. में) ‘चूलिया ग्राम’ में राणा को उसका मंत्री भामाशाह मिला। भामाशाह उसके भाई ताराचन्द ने पच्चीस लाख रुपय एवं बीस हजार अशर्फियां राणा को भेंट की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 6807,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराणा प्रताप की मृत्यु के बाद उनका स्मारक बनाया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावंड में"
+        },
+        {
+          "id": "opt2",
+          "text": "बान्दोली में"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तोड़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "हल्दीघाटी में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रताप का चावण्ड के पास बाण्डोली गाँव के निकट बहने वाले नाले के तट पर अग्नि संस्कार हुआ। खेजड़ बांध के किनारे 8 खम्भों की छतरी उस महान योद्धा की याद दिलाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 6808,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: उस व्यक्ति का नाम बताइये जिसे रतनसिंह ने अपने दरबार से निकाल दिया था, तथा बाद में वह अलाउद्दीन खिलजी की शरण में चला गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुन्दर लाल"
+        },
+        {
+          "id": "opt2",
+          "text": "मदनलाल"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुजी"
+        },
+        {
+          "id": "opt4",
+          "text": "चेतन राघव"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राघव चेतन को महाराजा रतन सिंह ने राज्य से निष्कासित कर दिया था। चित्तौड़ से बेदखल होने के बाद राघव चेतन ने दिल्ली में शरण ली और अलाउद्दीन खिलजी को रानी पद्मावती की सुंदरता के बारे में बताया। जिसके बाद अलाउद्दीन खिलजी ने रानी पद्मावती को पाने के लिए चित्तौड़ पर आक्रमण किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6835,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: योगेश्वर भट्ट व विष्णु भट्ट संगीतज्ञ किसके दरबार की शोभा बढ़ाते थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा कुम्भा"
+        },
+        {
+          "id": "opt2",
+          "text": "राणा मोकल"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा सांगा"
+        },
+        {
+          "id": "opt4",
+          "text": "राणा राखा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराणा मोकल के दरबार में मना, फना व विसल जैसे शिल्पी तथा योगेश्वर व भट्ट विष्णु जैसे विद्वान थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6836,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"मेवाड़ का गुहिल वंश\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"मेवाड़ का गुहिल वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"मेवाड़ का गुहिल वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

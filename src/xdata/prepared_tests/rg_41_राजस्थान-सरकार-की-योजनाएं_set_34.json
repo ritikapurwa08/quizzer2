@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "राजस्थान सरकार की योजनाएं",
+  "topicSlug": "राजस्थान-सरकार-की-योजनाएं",
+  "testSetName": "राजस्थान सरकार की योजनाएं - अभ्यास टेस्ट 34",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सहयोग योजना के तहत बी.पी.एल. (BPL) परिवारों की लड़कियों के विवाह पर दो लड़कियों तक को सहायता प्रदान की जाती है। इसमें सहायता राशि कितनी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹10,000"
+        },
+        {
+          "id": "opt2",
+          "text": "₹20,000"
+        },
+        {
+          "id": "opt3",
+          "text": "₹12,000"
+        },
+        {
+          "id": "opt4",
+          "text": "₹15,000"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 11863,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘जीवन धारा योजना’ का संबंध है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गरीबों हेतु बीमा से"
+        },
+        {
+          "id": "opt2",
+          "text": "एस.सी. और एस.टी. हेतु स्वास्थ्य सुविधा से"
+        },
+        {
+          "id": "opt3",
+          "text": "नगरीय क्षेत्रों हेतु पीने के पानी से"
+        },
+        {
+          "id": "opt4",
+          "text": "एस.सी. और एस.टी. हेतु सिंचाई कुओं के निर्माण"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB VDO Mains 2022",
+      "sourceQuestionId": 11864,
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा औषधि पौधा राजस्थान घर-घर औषधि योजना में शामिल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मूसली"
+        },
+        {
+          "id": "opt2",
+          "text": "कालमेघ"
+        },
+        {
+          "id": "opt3",
+          "text": "अश्वगंधा"
+        },
+        {
+          "id": "opt4",
+          "text": "गिलोय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB VDO Mains 2022",
+      "sourceQuestionId": 11865,
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान मुख्यमंत्री किसान मित्र ऊर्जा योजना 2021 के सम्बन्ध में कौन से कथन सही हैं ?(A) मीटर्ड कृषि उपभोक्ताओं को राज्य सरकार बिजली के बिल पर अधिकतम ₹ 12,000 प्रति वर्ष अनुदान प्रदान करेगी।(B) इस योजना पर सालाना ₹ 600 करोड़ खर्च किए जायेंगे।(C) इस योजना का लाभ मई 2021 से प्रारम्भ हो जाएगा।(D) केन्द्र या राज्य सरकार के कर्मचारी व आयकर देने वाले इस योजना के तहत कृषि उपभोक्ता अनुदान के लिए पात्र नहीं होंगे।नीचे दिए गए कूटों का प्रयोग करके सही उत्तर चुनिए :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (A), (C) और (D)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (A), (B) और (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (A), (B) और (C)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (A) और (B)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 15 September 2021 (Gk)",
+      "sourceQuestionId": 11867,
+      "reference": "📌 PYQ — Police SI 15 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की कामधेनू डेयरी योजना 2021 के सम्बन्ध में निम्नलिखित में से कौन सा कथन सही हैं ?(A) लाभार्थी के पास हरा चारा उत्पादन करने के लिए कम से कम एक एकड़ भूमि होनी चाहिए।(B) दुग्ध उत्पादन 10-12 लीटर प्रतिदिन होना चाहिए।(C) लाभार्थी को इस क्षेत्र में कम से कम तीन वर्ष का अनुभव होना आवश्यक हैं।नीचे दिए गए कूटों का प्रयोग करके सही उत्तर दें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A), (B) तथा (C)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (A) और (C)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (B) और (C)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (A) और (B)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 15 September 2021 (Gk)",
+      "sourceQuestionId": 11868,
+      "reference": "📌 PYQ — Police SI 15 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में इंदिरा महिला शक्ति निधि योजना कब प्रारम्भ की गई ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 अप्रैल, 2019"
+        },
+        {
+          "id": "opt2",
+          "text": "18 मार्च, 2019"
+        },
+        {
+          "id": "opt3",
+          "text": "18 नवम्बर, 2019"
+        },
+        {
+          "id": "opt4",
+          "text": "18 दिसम्बर, 2019"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 15 September 2021 (Gk)",
+      "sourceQuestionId": 11869,
+      "reference": "📌 PYQ — Police SI 15 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आयुष्मान भारत महात्मा गांधी राजस्थान स्वास्थ्य बीमा योजना के तहत, एक एम.ओ.यू (MoU) किनके मध्य निष्पादित हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओरिएण्टल इंश्योरेंस कंपनी लिमिटेड और मैक्स लाइफ इंश्योरेंस"
+        },
+        {
+          "id": "opt2",
+          "text": "एच.डी.एफ.सी. लाइफ इंश्योरेंस और आईसीआईसीआई प्रूडेंशियल लाइफ इंश्योरेंस कम्पनी"
+        },
+        {
+          "id": "opt3",
+          "text": "मैक्स लाइफ इंश्योरेंस और लाइफ इंश्योरेंस कार्पोरेशन"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान स्टेट हेल्थ एश्योरेंस एजेंसी तथा न्यू इंडिया एश्योरेंस कम्पनी लिमिटेड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 15 September 2021 (Gk)",
+      "sourceQuestionId": 11870,
+      "reference": "📌 PYQ — Police SI 15 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान अरबन इन्फ्रास्ट्रक्चर फाइनेंस डवलपमेन्ट कॉरपोरेशन ( RUIFDC ) के गठन का वर्ष है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8 नवम्बर, 2002"
+        },
+        {
+          "id": "opt2",
+          "text": "18 सितंबर, 2005"
+        },
+        {
+          "id": "opt3",
+          "text": "8 दिसम्बर, 2004"
+        },
+        {
+          "id": "opt4",
+          "text": "19 जुलाई, 2006"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11972,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘दिव्यांग सारथी’ है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोबाइल एप्प"
+        },
+        {
+          "id": "opt2",
+          "text": "मोबाइल एम्बुलेंस"
+        },
+        {
+          "id": "opt3",
+          "text": "इन्टरनेट पोर्टल"
+        },
+        {
+          "id": "opt4",
+          "text": "पुनर्वास केन्द्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11973,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान सरकार की योजनाएं\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान सरकार की योजनाएं\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान सरकार की योजनाएं\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

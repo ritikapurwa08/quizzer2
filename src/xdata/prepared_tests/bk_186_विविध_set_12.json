@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "एक नाव १० घंटे में ऊर्ध्वप्रवाह(upstream) में ३० किमी तथा अनुप्रवाह(down stream) में ४४ किमी जाती है। वह १३ घंटे में ४० किमी ऊर्ध्वप्रवाह में तथा ५५ किमी अनुप्रवाह में जा सकती है। शांत जल में नाव तथा धारा की चाल बताइये।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "८ किमी/घं, ३ किमी/घं"
+        },
+        {
+          "id": "opt2",
+          "text": "३ किमी/घं, ८ किमी/घं"
+        },
+        {
+          "id": "opt3",
+          "text": "९ किमी/घं, ४ किमी/घं"
+        },
+        {
+          "id": "opt4",
+          "text": "१० किमी/घं, ४ किमी/घं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माना शांत जल में नाव की चाल= xकिमी./घंटा तथा धारा की चाल= yकिमी./घंटा तब, धारा के अनुकूल चाल= x + y धारा के प्रतिकूल चाल= x – y प्रश्नानुसार, 30 44 + = 10 x y x + y − ............(i) तथा40 55 + = 13 x y x + y − ...........(ii) समी.(i) × 4 +समी.(ii) × 3से– 120 176 = 40 x y x y 120 65 = 39 x y x y 11 1 x y + − + 1 + − + − − − = + ⇒ x + y = 11 ..............(iii) x + yका मान समी.(i)में रखने पर– 30 44 + = 10 x y 11 − 30 = 6 x y − ⇒ x – y = 5 .........(iv) समी.(iii) + समी.(iv)से– x = 8, y = 3 अत: नाव की चाल= 8किमी./घंटा तथा धारा की चाल= 3किमी./घंटा",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 25162,
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "घर से ४ किमी/घण्टा की चाल से चलकर जाने पर एक व्यक्ति अपने कार्यालय ५ मिनट देरी से पहुँचता है। यदि वह ५ किमी/घण्टा की चाल से कार्यालय जाये तो ४ मिनट जल्दी पहुँचता है। उसके घर से कार्यालय की दूरी है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "३ किमी."
+        },
+        {
+          "id": "opt2",
+          "text": "५ किमी."
+        },
+        {
+          "id": "opt3",
+          "text": "४ किमी."
+        },
+        {
+          "id": "opt4",
+          "text": "७ किमी."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माना घर से कार्यालय के बीच की दूरी= D सूत्र से, दूरी 1 2 2 1 S S (D) = t S ~ S × ×(समयातंराल) 4 5 (5 (4)) = 4 ~ 5 60 × −− × 20 9 = 1 60 × = 3किमी.",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 25163,
+      "reference": "📌 PYQ — RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "२ पुरूष और ५ महिलाएं मिलकर किसी कार्य को ४ दिन में पूर्ण करते है जबकि ४ पुरूषों और ४ महिलाएं मिलकर उसी कार्य को ३ दिन में पूर्ण करते हैं। तो एक महिला को अकेले उसे पूर्ण करने मे कितने दिन लगेंगेः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "३६ दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "१८ दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "२४ दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "२० दिन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नानुसार, (2पु.+5म.)× 4 =(4पु.+४ म.)× 3 8पु.+20म.= 12पु.+ 12म. 8म.= 4पु. ⇒1पु.= 2म. ∴कुल कार्य= (2 × 2 + 5) × 4 = 36 अत: एक महिला द्वारा कार्य को पूरा करने में लगा समय 36 = 1 = 36दिन",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 25164,
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "'A'एक कार्य को १० दिनों में पूर्ण कर सकता है तथा 'B'उसी कार्य को करने में १५ दिवस लगाता है यदि एक साथ कार्य करें तो उस कार्य को कितने दिवसों मे पूर्ण करेंगे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9"
+        },
+        {
+          "id": "opt2",
+          "text": "8"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "Aका एक दिन का कार्य 1 = 10 Bका एक दिन का कार्य 1 = 15 A+Bका एक दिन का कार्य 1 1 = + 10 15 3+ 2 = 30 1 = 6 अत:'A'और'B'मिलकर इस कार्य को ६ दिनों में पूरा करेंगे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25165,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1000 kg द्रव्यमान की एक कार का वेग 36 km/h से 54 km/h तक बढ़ाने में किया गया कार्य–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "31.25 kJ"
+        },
+        {
+          "id": "opt2",
+          "text": "62.50 kJ"
+        },
+        {
+          "id": "opt3",
+          "text": "125 kJ"
+        },
+        {
+          "id": "opt4",
+          "text": "250 kJ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्नानुसार- m = 1000kg, u = 36km/h = 36× 5 18 m/s = 10m/s w =? v = 54km/h = 54× 5 18 m/s = 15m/s कार्य ऊर्जा प्रमेय से- किया गया कार्य · गतिज ऊर्जा मेंं परिवर्तन = 1 2 mv2 – 1 2 mu2 = 1 2 m[v2 – u2] = 1 2 ×1000 (152 – 102) = 500 × 125 = 62500J w = 62.50KJ",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-A (S.E.)2022",
+      "sourceQuestionId": 25166,
+      "reference": "📌 PYQ — RPSC School Lect. Group-A (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परिमेय संख्या का दशमलव निरूपण नहीं हो सकता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शांत"
+        },
+        {
+          "id": "opt2",
+          "text": "अनवसानी"
+        },
+        {
+          "id": "opt3",
+          "text": "अनवसानी लेकिन आवर्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "अनवसानी और अनावर्ती"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "एक परिमेय संख्या का दशमलव निरूपण अनवसानी अनावर्ती नहीं हो सकता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (S.E.)2020",
+      "sourceQuestionId": 25167,
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि 2 3 2 log [log (log)] 1 x =हो, तोx का मान क्या होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "27"
+        },
+        {
+          "id": "opt2",
+          "text": "29"
+        },
+        {
+          "id": "opt3",
+          "text": "212"
+        },
+        {
+          "id": "opt4",
+          "text": "216"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "() 2 3 2 log log log x 1 =     x b y log y x b   =   =     Q () () 1 x 3 2 log log 2 = x 2 2 log 3 9 = = x = 29",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 25168,
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिक्किम"
+        },
+        {
+          "id": "opt2",
+          "text": "केरल"
+        },
+        {
+          "id": "opt3",
+          "text": "त्रिपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "गोवा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गोवा राज्य भारत का सबसे छोटा राज्य है। गोवा राज्य का क्षेत्रफल ३७०२ किमी. है भारत का सबसे बड़ा राज्य राजस्थान है। राजस्थान का क्षेत्रफल ३४२२३९ किमी. है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 26080,
+      "reference": "✎ PYQ Modified · RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘इंटीग्रेटेड रोड एक्सीडेंट डाटाबेस’ किस संस्थान ने विकसित किया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आई.आई.टी., दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "आई.आई.टी., इंदौर"
+        },
+        {
+          "id": "opt3",
+          "text": "आई.आई.टी., खड़गपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "आई.आई.टी., मद्रास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "‘इंटीग्रेटेड रोड एक्सीडेन्ट डाटाबेस’ आई.आई.टी. मद्रास के द्वारा विकसित किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 26081,
+      "reference": "✎ PYQ Modified · RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

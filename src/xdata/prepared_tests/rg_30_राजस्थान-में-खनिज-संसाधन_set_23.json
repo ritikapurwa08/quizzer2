@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में खनिज संसाधन",
+  "topicSlug": "राजस्थान-में-खनिज-संसाधन",
+  "testSetName": "राजस्थान में खनिज संसाधन - अभ्यास टेस्ट 23",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बेरिलियम के प्रमुख उत्पादक जिले हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा और सवाई माधोपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां और करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर और उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर और नागौर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 3",
+      "sourceQuestionId": 8313,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आनन्दपुर भुकिया और तिमारन माता प्रसिद्ध है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यूरेनियम निक्षेपों हेतु"
+        },
+        {
+          "id": "opt2",
+          "text": "सीसा एवं जस्ता के निक्षेपों हेतु"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वर्ण निक्षेपों हेतु"
+        },
+        {
+          "id": "opt4",
+          "text": "एस्बेस्टस के निक्षेपों हेतु"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 8315,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वरमीक्यूलाइट कहाँ पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 2",
+      "sourceQuestionId": 8320,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किन खनिजों में राजस्थान भारत में एकल उत्पादनकर्ता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभ्रक, वोलेस्टोनाइट तथा जिंक अयस्क"
+        },
+        {
+          "id": "opt2",
+          "text": "अभ्रक, जिप्सम तथा यूरेनियम"
+        },
+        {
+          "id": "opt3",
+          "text": "जिप्सम, वोलेस्टोनाइट तथा यूरेनियम"
+        },
+        {
+          "id": "opt4",
+          "text": "सीसा एवं जिक अयस्क, सेलेनाइट तथा वोलेस्टोनाइट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 8322,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए - जिला तांबा भंडार क्षेत्र(A) अलवर (1) पादर की पाल(B) डूंगरपुर (2) मदन कुदान(C) झुंझुनू (3) भगोनी(D) सीकर (4) बालेश्वरकूट - A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 1 2 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4 1 2 3"
+        },
+        {
+          "id": "opt3",
+          "text": "3 2 1 4"
+        },
+        {
+          "id": "opt4",
+          "text": "2 1 4 3"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Statistical Officer 2021",
+      "sourceQuestionId": 8324,
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मंगला, भाग्यम और ऐश्वर्य हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर के क्रूड तेल भण्डार क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर के क्रूड तेल भण्डार क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर के क्रूड तेल भण्डार क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "बाजरे की किस्में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 8325,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नाथरा की पाल’ और ‘थूर हुण्डेर’ स्थान किस खनिज से संबंधित हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टंगस्टन"
+        },
+        {
+          "id": "opt2",
+          "text": "कॉपर"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह अयस्क"
+        },
+        {
+          "id": "opt4",
+          "text": "मैंगनीज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 8326,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: मंगला तेल क्षेत्र जिस राज्य में स्थित है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "असम"
+        },
+        {
+          "id": "opt4",
+          "text": "त्रिपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8477,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: बैलाडीला खान सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तांबा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाॅक्साइट"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह अयस्क"
+        },
+        {
+          "id": "opt4",
+          "text": "जिप्सम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8478,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में खनिज संसाधन\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में खनिज संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में खनिज संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

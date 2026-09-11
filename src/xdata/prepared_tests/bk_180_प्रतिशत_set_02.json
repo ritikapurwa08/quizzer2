@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रतिशत",
+  "topicSlug": "प्रतिशत",
+  "testSetName": "प्रतिशत - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "दो उम्मीदवारों के चुनाव में जिस उम्मीदवार को39% मत प्राप्त हुए वह19800 मतों से पराजित हुआ। कुल डाले गये मतों की संख्या थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "90,000"
+        },
+        {
+          "id": "opt2",
+          "text": "1,65000"
+        },
+        {
+          "id": "opt3",
+          "text": "72,000"
+        },
+        {
+          "id": "opt4",
+          "text": "61,875"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माना डाले गये मतों की कुल संख्या100% थी। प्रश्नानुसार, 61% – 39% = 19800 22% = 19800 ∴ 100% = 19800 ×100 22 = 90,000 अत: डाले गए मतों की कुल संख्या90,000 थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 07/10/2021",
+      "sourceQuestionId": 24916,
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक कोट को १३५३ रुपये के बजाय १४२५ रुपये में बेचने पर ६ प्रतिशत ज्यादा प्राप्ति होती है तो कोट की लागत मूल्य क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1000 रुपये"
+        },
+        {
+          "id": "opt2",
+          "text": "१२५० रुपये"
+        },
+        {
+          "id": "opt3",
+          "text": "१५०० रुपये"
+        },
+        {
+          "id": "opt4",
+          "text": "१२०० रुपये"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दिया है, कोट का विक्रय मूल्य= 1353 कोट का नया विक्रय मूल्य= 1425 नए विक्रय मूल्य और पुराने विक्रय मूल्य में अंतर= 1425 – 1353 = 72 प्रश्नानुसार, क्रय मूल्य का6% = 72 तो क्रय मूल्य 72 = ×100 6 = `1200",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 24917,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी आयत की भुजायें नापते समय एक भुजा ५³ अधिक एवं अन्य भुजा ४³ कम नापी गई। गणना किये गये क्षेत्रफल की अशुद्धि होगी–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1%अधिक"
+        },
+        {
+          "id": "opt2",
+          "text": "20%कम"
+        },
+        {
+          "id": "opt3",
+          "text": "% 5 अधिक"
+        },
+        {
+          "id": "opt4",
+          "text": "5 % 4 अधिक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माना आयत की भुजाx वy सेमी है। ∵ x + y + xy 100 = 5 – 4 + 5 4 100 ×− = 5 – 4 – 20 100 = 1 1 5 − = 4 % 5 अधिक 899",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 24918,
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि एक आयत के प्रत्येक भुजा १०³ से बढ़ती है, तो उसके क्षेत्रफल में कितनी प्रतिशत वृद्धि होगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२०³"
+        },
+        {
+          "id": "opt2",
+          "text": "२१³"
+        },
+        {
+          "id": "opt3",
+          "text": "४२³"
+        },
+        {
+          "id": "opt4",
+          "text": "४४³"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "क्षेत्रफल में वृद्धि= l + b + b 100 l = 10 + 10 + 10 10 100 × = 21%",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 24919,
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दो विद्यार्थीX औरY एक परीक्षा में सम्मिलित हुये।X नेY के अंकों से ९ अंक ज्यादा प्राप्त किये तथाX के अंक दोनों विद्यार्थियों के अंकों के जोड़ का56% थे। X तथाY द्वारा प्राप्त अंक क्रमश: हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "39, 30"
+        },
+        {
+          "id": "opt2",
+          "text": "41, 32"
+        },
+        {
+          "id": "opt3",
+          "text": "42, 33"
+        },
+        {
+          "id": "opt4",
+          "text": "43, 34"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मानाY का अंक= a तथाX का अंक= a+9 प्रश्नानुसार, a+9 = (a+a+9) 56 100 a + 9 = (2a + 9) 14 25 25 (a+9) = (2a +9) 14 25a +225 = 28a + 126 3 a = 99 a = 33 Y का अंक= 33 तथाX का अंक=a+9 = 33 + 9 = 42 ∴ X तथाY का अंक क्रमश:42, 33है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2016",
+      "sourceQuestionId": 24920,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक शहर की जनसंख्या किसी वर्ष में2,50,000थी तथा उस वर्ष में मृतकों की संख्या3,000थी, तो शहर की अशोधित मृत्यु दर होगी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12%"
+        },
+        {
+          "id": "opt2",
+          "text": "11.2%"
+        },
+        {
+          "id": "opt3",
+          "text": "88%"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अशोधित मृत्यु दर = ×1000 मृतकोें की संख्या उस वर्ष की कुल जनसंख्या 3000 = ×1000 2,50,000 300 = 25 = 12%",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 24921,
+      "reference": "📌 PYQ — RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक विद्यार्थी ने किसी संख्या को5 3के बजाय3 5से गुणा कर दिया। इस गणना में प्रतिशत त्रुटि क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "64%"
+        },
+        {
+          "id": "opt2",
+          "text": "54%"
+        },
+        {
+          "id": "opt3",
+          "text": "44%"
+        },
+        {
+          "id": "opt4",
+          "text": "34%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नानुसार, % त्रुटि 16 100 25 = × = 64%",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2023",
+      "sourceQuestionId": 24922,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: यदि किसी लम्ब वृत्तीय बेलन की त्रिज्या और उसकी ऊँचाई प्रत्येक में १०³ की वृद्धि कर दी जाती है, तो उसके आयतन में कितने प्रतिशत वृद्धि होगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "121%"
+        },
+        {
+          "id": "opt2",
+          "text": "24%"
+        },
+        {
+          "id": "opt3",
+          "text": "33.1%"
+        },
+        {
+          "id": "opt4",
+          "text": "72.8%"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माना लंबवृत्तीय बेलन की त्रिज्याrतथा ऊंचाईhहै। बेलन का आयतन= πr2h 10%वृद्धि के बाद त्रिज्या 11r = 10 तथा ऊँचाई 11 = h 10 तब बेलन का आयतन 2 11r 11h = π 10 10          2 1331 = .πr h 1000 आयतन में वृद्धि · 2 2 1331 r h r h 1000 π −π = 2 2 1331 r h 1000 r h 1000 π − π = 2 331 r h 1000 π आयतन में वृद्धि 2 2 331πr h 1000 % = ×100 πr h 2 2 331πr h 1 = × ×100 1000 πr h 331 = 10 = 33.1%",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (Group-D) 2022",
+      "sourceQuestionId": 24925,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (Group-D) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: एक शर्ट विक्रेता अंकित मूल्य पर २५³ बट्टा देता है, फिर भी वह २०³ लाभ कमाता है। उस शर्ट का क्रय मूल्य क्या होगा, यदि उसे`६० का लाभ हुआ हो?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "` ४८०"
+        },
+        {
+          "id": "opt2",
+          "text": "` ३००"
+        },
+        {
+          "id": "opt3",
+          "text": "` १५०"
+        },
+        {
+          "id": "opt4",
+          "text": "` २००"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बट्टा= 25% लाभ= 20% क्रय मूल्य=? लाभ= ` 60 प्रश्नानुसार, २०³ · ६० १००³ ·60 100 20 × · ३०० अत: क्रय मूल्य`300 होगा",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 24926,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रतिशत\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"प्रतिशत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"प्रतिशत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

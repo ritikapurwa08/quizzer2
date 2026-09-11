@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "पशु में गलघोंटू बीमारी का कारण है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जीवाणु"
+        },
+        {
+          "id": "opt2",
+          "text": "विषाणु"
+        },
+        {
+          "id": "opt3",
+          "text": "फफूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रोटोजोआ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 6114,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस पशु के दूध में इन्सुलिन की मात्रा ज्यादा होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt2",
+          "text": "गाय"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊँटनी"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 6116,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य डेयरी विकास निगम की स्थापना किस वर्ष में की गयी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1970"
+        },
+        {
+          "id": "opt2",
+          "text": "1975"
+        },
+        {
+          "id": "opt3",
+          "text": "1980"
+        },
+        {
+          "id": "opt4",
+          "text": "1985"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 6117,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बरबरी एक प्रजाति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊंट"
+        },
+        {
+          "id": "opt4",
+          "text": "गधा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2018",
+      "sourceQuestionId": 6119,
+      "reference": "📌 PYQ — Librarian Grade III 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भेड़ों की कितनी नस्लें पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पांच"
+        },
+        {
+          "id": "opt2",
+          "text": "छः"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "आठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 6120,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा कथन सत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केंद्रीय ऊंट प्रजनन एवं अनुसंधान संस्थान बीकानेर में स्थि है।"
+        },
+        {
+          "id": "opt2",
+          "text": "केंद्रीय अश्व अनुसंधान केन्द्र बारां में स्थित है।"
+        },
+        {
+          "id": "opt3",
+          "text": "केंद्रीय गोधन प्रजनन केन्द्र चित्तौड़गढ़ में स्थित है।"
+        },
+        {
+          "id": "opt4",
+          "text": "केंद्रीय भेड़ प्रजनन केन्द्र चुरू में स्थित है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Jr. Acctt/TRA Re-Exam 2013 (Paper-2)",
+      "sourceQuestionId": 6129,
+      "reference": "📌 PYQ — Jr. Acctt/TRA Re-Exam 2013 (Paper-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सहकारी डेयरी फेडरेशन लिमिटेड का मुख्यालय कहां है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 6143,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: केन्द्रीय मत्स्यकी शिक्षण संस्थान, मुम्बई के द्वारा किए गए अध्ययन (2010) के अनुसार राजस्थान में मत्स्य उत्पादन की वार्षिक क्षमता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "70,000 मैट्रिक टन"
+        },
+        {
+          "id": "opt2",
+          "text": "20,000 मैट्रिक टन"
+        },
+        {
+          "id": "opt3",
+          "text": "80,000 मैट्रिक टन से अधिक"
+        },
+        {
+          "id": "opt4",
+          "text": "50,000 मैट्रिक टन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6191,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पश्चिमी राजस्थान में दूधारू पशुओं के लिए निम्न में से कौन सा एक चारा सर्वश्रेेष्ठ है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दूब"
+        },
+        {
+          "id": "opt2",
+          "text": "खस-खस"
+        },
+        {
+          "id": "opt3",
+          "text": "धामण"
+        },
+        {
+          "id": "opt4",
+          "text": "सेवण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6192,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

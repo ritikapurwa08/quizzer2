@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "दैनिक जीवन में विज्ञान के मूलभूत तत्व",
+  "topicSlug": "दैनिक-जीवन-में-विज्ञान-के-मूलभूत-तत्व",
+  "testSetName": "दैनिक जीवन में विज्ञान के मूलभूत तत्व - अभ्यास टेस्ट 54",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस को मैग्नीशियम का दूध कहते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Mg(OH)2"
+        },
+        {
+          "id": "opt2",
+          "text": "MgO"
+        },
+        {
+          "id": "opt3",
+          "text": "MgCl"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "Mg(OH)2को मैग्नीशियम का दूध (Milk of Maginifia) कहा जाता है। यह एक मैग्नीशियम हाइड्रॉक्साइड है जो एंटासिड और रेचक के रूप में उपयोग होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23502,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रासायनिक रूप से जल होता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक पेरोक्साइड"
+        },
+        {
+          "id": "opt2",
+          "text": "एक ऑक्साइड"
+        },
+        {
+          "id": "opt3",
+          "text": "एक हाइड्रोक्साइड"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रासायनिक रूप से जल एक हाइड्रोक्साइड होता है जल का उपयोग पीने और विलायक के रूप में किया जा सकता है। जल का रासायनिक सूत्रH2Oहै।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23503,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दूर की वस्तु देखने की मानक दूरी है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२५ से.मी."
+        },
+        {
+          "id": "opt2",
+          "text": "२५ मी."
+        },
+        {
+          "id": "opt3",
+          "text": "६ मी."
+        },
+        {
+          "id": "opt4",
+          "text": "१६ मी."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एक सामान्य स्वस्थ्य मनुष्य की आँखे कम से कम २५ सेंटीमीटर की दूरी पर स्पष्ट रूप से देख सकती है। इस दूरी को निकट बिन्दु कहा जाता है। अधिकतम दूरी तक जो आँखें वस्तुओं को स्पष्ट रूप से देख सकती है, उसे दूर बिन्दु कहा जाता है। एक सामान्य मनुष्य की आँखों का दूर बिन्दु अनंत होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23504,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डायनेमो कार्य है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यांत्रिक ऊर्जा को विद्युत ऊर्जा में बदलना"
+        },
+        {
+          "id": "opt2",
+          "text": "ACकोDCमें बदलना"
+        },
+        {
+          "id": "opt3",
+          "text": "विद्युत भण्डारण करना"
+        },
+        {
+          "id": "opt4",
+          "text": "काई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "डायनमों का मुख्य कार्य यान्त्रिक ऊर्जा को विद्युत ऊर्जा में परिवर्तित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23505,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "\"CaOCl2\" कहलाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्लीचिंग पाण्डर"
+        },
+        {
+          "id": "opt2",
+          "text": "बेकिंग पाण्डर"
+        },
+        {
+          "id": "opt3",
+          "text": "कॉस्टिंक सोडा"
+        },
+        {
+          "id": "opt4",
+          "text": "रेड ऑक्साइड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ब्लीचिंग पाउडर का रासायनिक सूत्रCaOCl2होता है। यह एक सफेद या हल्का पीला ठोस पदार्थ है। इसका उपयोग मुख्य रूप से कीटाणुनाशक के रूप में भी होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23506,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दृष्टि दोष निवारण में किस का उपयोग किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लैन्सों का"
+        },
+        {
+          "id": "opt2",
+          "text": "दपर्ण का"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रिज्म का"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दृष्टिदोष निवारण के उपयोग हेतु लेन्सों का प्रयोग किया जाता है। निकट दृष्टिदोष हेतु अवतल लेन्स का तथा दूर दृष्टि दोष को दूर के लिए उत्तल लेन्सका उपयोग करते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23507,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विद्युत बल्ब में भरी जाने वाली गैस है A- O2, B – CO2, C-आर्गन, D – N2",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "AएवंB"
+        },
+        {
+          "id": "opt2",
+          "text": "Bकेवल"
+        },
+        {
+          "id": "opt3",
+          "text": "या D"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विद्युत बल्ब में भरी जाने वाली गैसे आर्गन व नाइट्रोजन है बल्ब का फिलामेन्ट टंगस्टन धातु से बना होता है जो विद्युत धारा प्रवाहित होकर गर्म होकर चमकता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 23508,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: एम्पीसिलीन दवाई है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वैंâसररोधी"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतिजैविक"
+        },
+        {
+          "id": "opt3",
+          "text": "निद्राकारी"
+        },
+        {
+          "id": "opt4",
+          "text": "दर्दनाशक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "एम्पीसिलीन दवाई का प्रयोग जीवाणु संक्रमणों के उपचार हेतु किया जाता है। इस प्रकार यह एक प्रतिजैविक के रूप में प्रयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 23673,
+      "reference": "✎ PYQ Modified · RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: हेरोइन का रसायनिक नाम है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मार्फीन डाइएसीटेट"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्फीन मोनोएसीटेट"
+        },
+        {
+          "id": "opt3",
+          "text": "मार्फिन डाइबेन्जोएट"
+        },
+        {
+          "id": "opt4",
+          "text": "मार्फिन मोनाबेन्जोएट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हेरोइन का रासायनिक नाम मार्फीन डाइएसीटेट है।यह मार्फीन से बनाया गया एक अर्ध संश्लेषित ओपिओइड है, जो अफीम के पौधे से प्राप्त होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Clerk Gr-II (P-I) 2013",
+      "sourceQuestionId": 23674,
+      "reference": "✎ PYQ Modified · RPSC Clerk Gr-II (P-I) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"दैनिक जीवन में विज्ञान के मूलभूत तत्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

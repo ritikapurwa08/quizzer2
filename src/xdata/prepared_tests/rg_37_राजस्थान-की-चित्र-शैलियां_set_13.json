@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की चित्र शैलियां",
+  "topicSlug": "राजस्थान-की-चित्र-शैलियां",
+  "testSetName": "राजस्थान की चित्र शैलियां - अभ्यास टेस्ट 13",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“अटपटी पगड़ी” चित्रकला की किस शैली से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "आमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अटपटी पगड़ी चित्रकला की मेवाड़ शैली से संबंधित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 14 September 2021 (Gk)",
+      "sourceQuestionId": 10658,
+      "reference": "📌 PYQ — Police SI 14 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी चित्रकला शैली राजस्थान से संबंधित नहीं थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावटी"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ोती"
+        },
+        {
+          "id": "opt3",
+          "text": "कांगड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कांगड़ा चित्रकला शैली, हिमाचल प्रदेश के कांगड़ा ज़िले से जुड़ी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "sourceQuestionId": 10665,
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चावंड शैली की चित्रकला किसके शासन काल में प्रारंभ हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रताप"
+        },
+        {
+          "id": "opt3",
+          "text": "अमरसिंह द्वितीय"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चावंड शैली की चित्रकला, मेवाड़ के महाराणा प्रताप और अमर सिंह प्रथम के शासनकाल में शुरू हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 10666,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अठारहवीं शताब्दी में जयपुर का प्रख्यात पोट्रेंट चित्रकार कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साहिब राम"
+        },
+        {
+          "id": "opt2",
+          "text": "रामजी दास"
+        },
+        {
+          "id": "opt3",
+          "text": "रामगोपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरानन्द"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर शासक ईश्वरी सिंह के समय के प्रसिद्ध चित्रकार लालचंद व साहिबराम थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 10688,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘प्रतिक्रमण चूर्णि’ ग्रंथ किस चित्रशैली से समबन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "ढूंढाड़ शैली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1260 ई. में मेवाड़ के राजा तेजसिंह के शासन काल में आहड़ में जैनो द्वारा “श्रावक प्रतिक्रमण सूत्र चूर्णि” नामक पुस्तक लिखी गई जिसका चित्रकार ‘कमलचन्द्र’ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 10691,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ चित्रकला शैली से संबंधित रचना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनी-ठनी"
+        },
+        {
+          "id": "opt2",
+          "text": "विलावल रागिनी"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्यातिष रत्नाकर"
+        },
+        {
+          "id": "opt4",
+          "text": "गीत गोविन्द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेवाड़, “राजस्थान की चित्रकला की जन्मभूमि” है। शैली का प्रारम्भिक विकास कुम्भा के काल में हुआ। संग्राम सिंह-द्वितीय इसके शासन काल में अलग-अलग विषय से संबंधित चित्र बनाये गये। जैसे- गीत गोविन्द, बिहारी सतसई, कलीला-दमना, मुल्ला दो प्याजा के लतीफे आदि पुस्तकों पर चित्र बनाये गये।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2011",
+      "sourceQuestionId": 10702,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मारवाड़ म्यूरल्स’ के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयसिंह नीरज"
+        },
+        {
+          "id": "opt2",
+          "text": "रामावतार अग्रवाल"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा बख्तसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "सावंतसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रामावतार अग्रवाल द्वारा मारवाड़ के भित्ती चित्रों पर “Murals in Marwar” नामक पुस्तक लिखी गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 10735,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान की फड चित्रकारी, चित्रकला के किस स्कूल से जुड़ी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10740,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पिछवाई चित्रकला कहां की प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बून्दी"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10753,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की चित्र शैलियां\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान की चित्र शैलियां\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान की चित्र शैलियां\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

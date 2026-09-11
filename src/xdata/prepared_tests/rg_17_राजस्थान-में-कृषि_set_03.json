@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं : एक अभिकथन (Assertion A) के रूप में लिखित है और दूसरा उसके कारण (Reason R) के रूप में।अभिकथन A: राजस्थान की 70% आबादी कृषि से जीविकोपार्जन करती है।कारण R: 2010-11 में औसत कृषि जोत का आकार राजस्थान में 3.07 हैक्टेयर था वहीं भारत में यह 1.15 हैक्टेयर था।उपरोक्त कथन के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान की 70% आबादी कृषि से जीविकोपार्जन करती है। 2010-11 में औसत कृषि जोत का आकार राजस्थान में 3.07 हैक्टेयर था वहीं भारत में यह 1.15 हैक्टेयर था। दोनों सत्य हैं, लेकिन R (बड़ी जोत) A (कृषि निर्भरता) की व्याख्या नहीं करता।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Jamadar Grade II Exam 2025",
+      "sourceQuestionId": 5540,
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वालरा’ क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मत्स्यन"
+        },
+        {
+          "id": "opt2",
+          "text": "स्थानांतरित कृषि"
+        },
+        {
+          "id": "opt3",
+          "text": "खनन"
+        },
+        {
+          "id": "opt4",
+          "text": "वाणिज्यिक कृषि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वालरा (Valra) दक्षिणी राजस्थान (वागड़ क्षेत्र) में भील आदिवासियों की स्थानांतरित कृषि (shifting cultivation) है, जहां जंगल काटकर खेती की जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Jamadar Grade II Exam 2025",
+      "sourceQuestionId": 5541,
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मक्का की कौनसी एक किस्म नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नवज्योत"
+        },
+        {
+          "id": "opt2",
+          "text": "धवल"
+        },
+        {
+          "id": "opt3",
+          "text": "माही-कंचन"
+        },
+        {
+          "id": "opt4",
+          "text": "आर.सी.बी .- 911"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आरसीबी-911 (RCB 911) बाजरा (Pearl Millet) की एक संकर (hybrid) किस्म है, जो बेहतर उपज और कीट प्रतिरोधक क्षमता के लिए जानी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "sourceQuestionId": 5543,
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान कितने कृषि-जलवायु क्षेत्रों में विभाजित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आठ"
+        },
+        {
+          "id": "opt2",
+          "text": "दस"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्यारह"
+        },
+        {
+          "id": "opt4",
+          "text": "सात"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज्य को जलवायु के आधार पर 10 कृषि जलवायु क्षेत्रों में विभाजित किया गया है:शुष्क पश्चिमी मैदानी क्षेत्र (I-A)उत्तरी पश्चिमी सिंचित मैदानी क्षेत्र (I-B)अति शुष्क आंशिक सिंचित पश्चिमी मैदानी क्षेत्र (I-C)अन्तः स्थलीय जलोत्सरण के अन्तवर्ती मैदानी क्षेत्र (II-A)लूनी नदी का अन्तवर्ती मैदानी क्षेत्र (II-B)अर्द्ध शुष्क पूर्वी मैदानी क्षेत्र (III-A)बाढ़ सम्भाव्य पूर्वी मैदानी क्षेत्र (III-B)अर्द्ध आर्द्र दक्षिणी मैदानी क्षेत्र (IV-A)आर्द्र दक्षिणी मैदानी क्षेत्र (IV-B)आर्द्र दक्षिणी पूर्वी मैदानी क्षेत्र (V)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "वाहन चालक सीधी भर्ती-2024",
+      "sourceQuestionId": 5544,
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें - (राजस्थान की कृषिगत सांख्यिकी 2022-23 के अनुसार)सूची I (राजस्थान में सिंचाई के स्त्रोत)सूची II (अंदाजित शुद्ध सिंचित क्षेत्र (% में))a. खुले कुएँI. 49.94b. ट्यूबवैलII. 23.05c. नहरेंIII. 0.43d. टैंकIV. 24.17नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-IV, b-I, c-II, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-I, c-IV, d-II"
+        },
+        {
+          "id": "opt4",
+          "text": "a-II, b-III, c-IV, d-I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की कृषि सांख्यिकी 2022-23 के अनुसार, शुद्ध सिंचित क्षेत्र में खुले कुओं का योगदान 24.17%, ट्यूबवेल का 49.94%, नहरों का 23.05%, और टैंकों का 0.43% है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Platoon Commander Exam 2025",
+      "sourceQuestionId": 5545,
+      "reference": "📌 PYQ — Platoon Commander Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राजस्थान-3077” किस्म का सम्बन्ध किस फसल से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt4",
+          "text": "मूँग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान-3077 गेहूं की एक HYV (उच्च उपज वाली) किस्म है, जो 1989 में जारी की गई, जल्दी पकने वाली (115-120 दिन) और राजस्थान के लिए उपयुक्त।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 5546,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राज-171’ तथा ‘मोती’ उन्नत किस्में हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का की"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा की"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्वार की"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज-171 और मोती राजस्थान में बाजरा (Pearl Millet) की प्रसिद्ध उन्नत किस्में हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 5547,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन सी फसल भीलवाड़ा में सबसे अधिक उगाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt3",
+          "text": "चावल"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्वार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5776,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: प्रमुख बाजरा उत्पादक जिले की सही जोड़ी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर - जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर - बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर - गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर - अलवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5777,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 11",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से सबसे तेज गति से डेटा ट्रांसफर करने वाली केबल कौनसी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोएक्सिअल केबल"
+        },
+        {
+          "id": "opt2",
+          "text": "ट्विस्टेड पेअर केबल"
+        },
+        {
+          "id": "opt3",
+          "text": "ऑप्टिकल फाइबर केबल"
+        },
+        {
+          "id": "opt4",
+          "text": "Cat 6केबल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त विकल्पों में सबसे तेज गति से डेटा ट्रांसफर करने वाली केवल आप्टिकल फाइबर केबल है। इसकी डेटा ट्रांसफर की स्पीड100 Cbps से अधिक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "sourceQuestionId": 23755,
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्कूल में ई- लर्निंग के लिए प्रोजेक्टSMILEका पूर्णरूप है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Social Media Interface for learning Enhancement"
+        },
+        {
+          "id": "opt2",
+          "text": "Social Media Interaction for Learning Enhancement"
+        },
+        {
+          "id": "opt3",
+          "text": "Social Media Interface for Learning Engagement"
+        },
+        {
+          "id": "opt4",
+          "text": "Social Media Interaction for Learning Engagement"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रोजेक्ट स्माइल(SMILE) का पूर्ण रूपSocial Media Interface For Learning Engagement है। यह एक डिजिटल प्लेटफार्म है जिसका प्रयोग राजस्थान के शिक्षा विभाग द्वारा किया जाता है। इसकी शुरूआत राजस्थान सरकार ने १३ अप्रैल २०२० को की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "sourceQuestionId": 23757,
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक श्रव्य-दृश्य साधन नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विडियो"
+        },
+        {
+          "id": "opt2",
+          "text": "माईक"
+        },
+        {
+          "id": "opt3",
+          "text": "साउंड मोंशन पिक्चर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "टेलीविजन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त विकल्पों में माइकएक श्रव्य-दृश्य साधन नहीं है। माइक मुख्यत: इनपुट डिवाइस है, जिसका उपयोग कम्प्यूटर में किसी व्यक्ति की आवाज सेव करने हेतु किया जाता है। •वीडियो, साउंड मोशन पिक्चर्स तथा टेलीविजन श्रव्य-दृश्य साधन है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Garden Superintendent 2021",
+      "sourceQuestionId": 23759,
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मस्कोवाइट में निम्न में से कौनसा विदलन पाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "००१ में परिपूर्ण"
+        },
+        {
+          "id": "opt2",
+          "text": "०१० के समांतर"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुपस्थित"
+        },
+        {
+          "id": "opt4",
+          "text": "०११ के समांतर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मस्कोवाइट इसे सामान्यत: अभ्रक, इसिंगलास या पोटाश अभ्रक के नाम से जाना जाता है। इसका सूत्रKAl2 (AL Si3O10) (F, ox)2है, इसमें अत्यधिक उत्तम बेसल दरार होती है। इसमें001में परिपूर्ण विदलन पाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 23760,
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा वेक्टर आधारित सॉफ्टवेयर नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर्क व्यू"
+        },
+        {
+          "id": "opt2",
+          "text": "आर्क जी.आई.एस."
+        },
+        {
+          "id": "opt3",
+          "text": "इरदास इमेजिन"
+        },
+        {
+          "id": "opt4",
+          "text": "मैप इन्फो"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ERDASइयेजिन एक रास्टर आधारित साफ्टवेयर पैकेज है जिसका उपयोग भू-स्थानिक छवि प्रसंस्करण और विश्लेषण के लिए किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 23761,
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ट्रांजिस्टर का आविष्कार किसने किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्लीडन एवं श्वान ने"
+        },
+        {
+          "id": "opt2",
+          "text": "न्यूटन ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जे. बारडीन, डब्ल्यू बारटेन तथा डब्ल्यू. शोक्ले ने"
+        },
+        {
+          "id": "opt4",
+          "text": "सी.वी. रमन ने"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ट्रांजिस्टर का आविष्कार तीन व्यक्तियों वाल्टर बै्रटन, जॉन बार्डीन और विलियन शॉकली ने सन् १९४८ में किया था। इस हेतु इन तीनों को सन् १९५६ में नोबेल पुरस्कार दिया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23762,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ENIAC कम्प्यूटर था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रथम पीढ़ी का"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वितीय पीढ़ी का"
+        },
+        {
+          "id": "opt3",
+          "text": "तृतीय पीढ़ी का"
+        },
+        {
+          "id": "opt4",
+          "text": "चतुर्थ पीढ़ी का"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ENIACप्रथम पीढ़ी का कम्प्यूटर था जिसका पूर्ण रूप इलेक्ट्रॉनिक न्यूमेरिक इंटीग्रेटर एंड कम्प्यूटर है। इसका वजन ३० टन तथा इसमें १८,००० वैक्यूम ट्यूब का इस्तेमाल हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 23763,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: एक इलेक्ट्रॉनिक पुंज को फॉस्फोरस कोटेड पर्दे पर फोकस कर प्रतिबिम्बों को पर्दे पर जनित करना कहलाता है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मास्टर स्वैâन"
+        },
+        {
+          "id": "opt2",
+          "text": "टोटल स्वैâन"
+        },
+        {
+          "id": "opt3",
+          "text": "रोस्टर स्वैâन"
+        },
+        {
+          "id": "opt4",
+          "text": "राडार स्वैâन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "स्वैâिंनग, एक्स-रे द्वारा प्राप्त चित्रों को कम्प्यूटर के द्वारा द्विविमीय अथवा त्रिविमीय चित्रों का रूप देकर शरीर के किसी अंग में उपस्थित ट्यूमर या अन्य बीमारियों का पता लगाने का चिकित्सकीय उपकरण है। किसी इलेक्ट्रानिक पुंज को फास्फोरस कोटेड पर्दे पर फोकस करके प्रतिबिम्बों को पर्दे प्राप्त करना `टोटल स्वैâिंनग' कहलाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1994-95",
+      "sourceQuestionId": 23886,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1994-95"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: यदि आपEIOBइलेक्ट्रॉनिक एक्सचेन्ज से जुड़े टेलीफोन की एस०टी०डी० बन्द(लॉक)करना चाहें तो कौन-सा कोड इस्तेमाल होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "124, ABCD, 1"
+        },
+        {
+          "id": "opt2",
+          "text": "124, ABCD, 2"
+        },
+        {
+          "id": "opt3",
+          "text": "124, ABCD, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "124, ABCD, 0"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "124, ABCD, 3 से EIOBइलेक्ट्रानिक एक्सचेन्ज से जुड़े टेलिफोन की एस०टी०डी० बन्द की जा सकती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1994-95",
+      "sourceQuestionId": 23887,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1994-95"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

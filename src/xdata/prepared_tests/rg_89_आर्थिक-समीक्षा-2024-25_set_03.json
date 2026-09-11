@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "आर्थिक समीक्षा 2024-25",
+  "topicSlug": "आर्थिक-समीक्षा-2024-25",
+  "testSetName": "आर्थिक समीक्षा 2024-25 - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सकल घरेलू उत्पाद में सबसे कम अंशदान किस क्षेत्र से आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृषि"
+        },
+        {
+          "id": "opt2",
+          "text": "विनिर्माण"
+        },
+        {
+          "id": "opt3",
+          "text": "सेवा"
+        },
+        {
+          "id": "opt4",
+          "text": "खदान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के सकल घरेलू उत्पाद (GSDP) में खनन क्षेत्र का योगदान सबसे कम है, क्योंकि यह सीमित क्षेत्रों तक ही फैला है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+      "sourceQuestionId": 16668,
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "इकनॉमिक रिव्यू, 2024-25 के अनुसार राजस्थान में WPI के अंतर्गत कितनी वस्तुएँ आती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "134"
+        },
+        {
+          "id": "opt2",
+          "text": "154"
+        },
+        {
+          "id": "opt3",
+          "text": "174"
+        },
+        {
+          "id": "opt4",
+          "text": "114"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इकनॉमिक रिव्यू, 2024-25 के अनुसार, राजस्थान में थोक मूल्य सूचकांक (WPI) के अंतर्गत 154 वस्तुएँ शामिल हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+      "sourceQuestionId": 16669,
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "इकनॉमिक रिव्यू, 2024-25 के अनुसार राजस्थान के GSVA में किस क्षेत्र ने सबसे बड़ा योगदान दिया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृषि"
+        },
+        {
+          "id": "opt2",
+          "text": "सेवाएँ"
+        },
+        {
+          "id": "opt3",
+          "text": "उद्योग"
+        },
+        {
+          "id": "opt4",
+          "text": "एमएसएमई"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इकनॉमिक रिव्यू 2024-25 के अनुसार, राजस्थान के सकल राज्य मूल्य वर्धित (GSVA) में सेवाएँ क्षेत्र का सबसे बड़ा योगदान है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+      "sourceQuestionId": 16670,
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2023-24 के लिए भारत में कुल तिलहन उत्पादन में राजस्थान का स्थान क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तृतीय"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "चौथा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रथम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान भारत में तिलहन उत्पादन (विशेष रूप से सरसों) में पहले स्थान पर है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+      "sourceQuestionId": 16671,
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान आर्थिक समीक्षा 2024-25 में उल्लेख के अनुसार, राजस्थान किस वर्ष तक 350 बिलियन डालर की अर्थव्यवस्था बनने का लक्ष्य रखता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2027"
+        },
+        {
+          "id": "opt2",
+          "text": "2029"
+        },
+        {
+          "id": "opt3",
+          "text": "2025"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का लक्ष्य वर्ष 2029 तक 350 बिलियन डॉलर की अर्थव्यवस्था हासिल करना है। इसके लिये कृषि गतिविधियों में तकनीकी नवाचार, औद्योगिक उत्पादन का विस्तार, नवीकरणीय ऊर्जा में निवेश और समृद्ध सांस्कृतिक विरासत का उपयोग करके पर्यटन को बढ़ावा देने पर ध्यान केंद्रित किया जा रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+      "sourceQuestionId": 16673,
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वित्तीय वर्ष 2023-24 में राजस्थान का राजस्व घाटा कितना था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹ 32,500 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹ 38,955 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹ 35,000 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वित्तीय वर्ष 2023-24 में राजस्थान का राजस्व घाटा अनुमानित ₹ 38,955 करोड़ करोड़ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+      "sourceQuestionId": 16675,
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार थोक मूल्य सूचकांक (WPI) कितनी बार जारी करती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सालाना"
+        },
+        {
+          "id": "opt2",
+          "text": "मासिक"
+        },
+        {
+          "id": "opt3",
+          "text": "त्रैमासिक"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "थोक मूल्य सूचकांक (Wholesale Price Index - WPI) माल की थोक कीमतों में परिवर्तन को मापता है और भारत में इसे मासिक आधार पर जारी किया जाता है। राजस्थान सरकार भी केंद्र सरकार के दिशानिर्देशों के अनुसार इसे मासिक रूप से जारी करती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+      "sourceQuestionId": 16676,
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान ई-व्हीकल नीति 2022 के तहत इलेक्ट्रिक वाहन प्रोत्साहन कोष में कितनी राशि आवंटित की गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹100 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹150 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹200 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "₹250 करोड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान ई-व्हीकल नीति 2022, 1 सितम्बर 2022 को लागू। 5 वर्ष की अवधि के लिए लागू। राज्य में इलेक्ट्रिक वाहनों को बढ़ावा देने के लिए 14 नवंबर 2024 को इलेक्ट्रिक वाहन नीति के तहत ₹200 करोड़ का ई-वाहन प्रमोशन कोष स्थापित किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16855,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान राज्य पथ परिवहन निगम (RSRTC) की स्थापना कब हुई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 सितंबर 2022"
+        },
+        {
+          "id": "opt2",
+          "text": "1 अक्टूबर 1964"
+        },
+        {
+          "id": "opt3",
+          "text": "24 जुलाई 2024"
+        },
+        {
+          "id": "opt4",
+          "text": "14 नवंबर 2024"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य पथ परिवहन निगम (RSRTC) की स्थापना 1 अक्टूबर 1964 (सड़क परिवहन निगम अधिनियम 1950 के अधीन) की गई। 24 जुलाई 2024 को निगम की सेवाओं से जुड़ी यात्रियों की शिकायतों के समाधान के लिए समाधान नामक ऑनलाइन पोर्टल लॉन्च किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16856,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"आर्थिक समीक्षा 2024-25\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"आर्थिक समीक्षा 2024-25\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"आर्थिक समीक्षा 2024-25\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

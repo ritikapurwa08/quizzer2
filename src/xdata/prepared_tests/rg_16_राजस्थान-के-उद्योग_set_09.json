@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के उद्योग",
+  "topicSlug": "राजस्थान-के-उद्योग",
+  "testSetName": "राजस्थान के उद्योग - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अर्थव्यवस्था को बढ़ावा देने और राज्य सरकार से मंजूरी लेने के लिए राजस्थान सूक्ष्म, लघु और मध्यम उद्यम (स्थापना और प्रवर्तन और सुकरीकरण संशोधन अधिनियम, 2023) ने एम एस एम ई (MSME) को छूट की अवधि बढ़ा दी है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 से 4 वर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "4 से 5 वर्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "3 से 5 वर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "3 से 4 वर्ष"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इस अधिनियम के तहत MSME इकाइयों को विशेष छूट अवधि 3 से बढ़ाकर 5 वर्ष कर दी गई है ताकि उन्हें अधिक समय तक सरकारी लाभ प्राप्त हो सके और व्यवसाय में वृद्धि हो सके।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 22 October Shift-I",
+      "sourceQuestionId": 5220,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा उद्योग राजस्थान के कृषि आधारित उद्योग पर आधारित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कपड़ा उद्योग"
+        },
+        {
+          "id": "opt2",
+          "text": "रबड़ उद्योग"
+        },
+        {
+          "id": "opt3",
+          "text": "चमड़ा उद्योग"
+        },
+        {
+          "id": "opt4",
+          "text": "सीमेंट उद्योग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सीमेंट उद्योग राजस्थान की खनिज संपदा पर आधारित है, जबकि अन्य उद्योग कृषि उत्पादों से संबंधित हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "sourceQuestionId": 5221,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महिंद्रा वर्ल्ड सिटी राजस्थान के निम्न में से किस शहर में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महिंद्रा वर्ल्ड सिटी, जयपुर में स्थित है और यह एक विशेष आर्थिक क्षेत्र (SEZ) के रूप में कार्य करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "sourceQuestionId": 5222,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सीकर के इलाके में कौन सा स्थान गोटा उद्योग हेतु प्रसिद्ध है -(निम्न में से सबसे उपयुक्त विकल्य चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निचवा"
+        },
+        {
+          "id": "opt2",
+          "text": "खूर"
+        },
+        {
+          "id": "opt3",
+          "text": "पिपराली"
+        },
+        {
+          "id": "opt4",
+          "text": "खण्डेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खण्डेला, सीकर जिले का एक प्रमुख स्थान है, जो अपने गोटा उद्योग के लिए जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "sourceQuestionId": 5223,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य में निम्न में से कौन सा क्षेत्र, अत्यधिक रूप से आर्थिक महत्व का माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिक्षा क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "उद्योग क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वास्थ्य क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषि क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में खनन, सीमेंट, और कपड़ा जैसे उद्योगों का आर्थिक महत्व सबसे अधिक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "sourceQuestionId": 5224,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "RIICO ने राजस्थान के निम्न में से किस शहर (या उसके पास) में रत्न और आभूषण पार्क तथा वस्त्र पार्क (टेक्सटाईल पार्क) स्थापित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमराना"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "RIICO ने राजस्थान के जयपुर में रत्न और आभूषण पार्क और वस्त्र पार्क स्थापित किया है। जयपुर आभूषण और वस्त्र उद्योग का एक प्रमुख केंद्र है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Hostel Supt(Minority Affairs) 2024",
+      "sourceQuestionId": 5226,
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य के किस क्षेत्र में पहली चीनी मिल स्थापित की गयी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तोड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "मकराना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में पहली चीनी मिल ‘द मेवाड़ शुगर मिल्स’ की स्थापना 1932 में चित्तौड़गढ़ जिले के भोपाल सागर में हुई थी, जो वर्तमान में बंद है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Hostel Supt(Minority Affairs) 2024",
+      "sourceQuestionId": 5227,
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में औद्योगिक विकास के लिये 1969 में रीको स्थापित किया गया। इसके कार्यों के सन्दर्भ में निम्न कथनों पर विचार कीजिये -1. रीको राजस्थान में औद्योगिक क्षेत्रों की स्थापना करता है।2. रीको उद्योगों को वित्तीय सुविधा प्रदान करता है।3. रीको राजस्थान में सभी विनियोग प्रस्तावों का अनुमोदन करता है।उपर्युक्त में से कौन-सा/कौन से कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 1 व 2"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 2 व 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2 और 3"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5398,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राज्य में वनस्पति घी बनाने का सर्वप्रथम कारखाना कहां खोला गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5401,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के उद्योग\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

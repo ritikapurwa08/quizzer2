@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राज्य विधान मंडल",
+  "topicSlug": "राज्य-विधान-मंडल",
+  "testSetName": "राज्य विधान मंडल - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "केन्द्रीय विधानसभा का/के निम्नांकित में से कौन सा/से निर्वाचन भारत शासन अधिनियम, 1919 के तहत हुआ/हुए -अ. 1926 ब. 1937 स. 1945सही उत्तर का चयन नीचे दिए गए कूट से कीजिए -कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल अ"
+        },
+        {
+          "id": "opt2",
+          "text": "ब और स"
+        },
+        {
+          "id": "opt3",
+          "text": "अ और स"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब और स"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "sourceQuestionId": 12981,
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "14वीं राजस्थान विधान-सभा में प्रतिपक्ष के नेता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामेश्वर लाल डूडी"
+        },
+        {
+          "id": "opt2",
+          "text": "अशोक गहलोत"
+        },
+        {
+          "id": "opt3",
+          "text": "सचिन पायलट"
+        },
+        {
+          "id": "opt4",
+          "text": "भंवर लाल शर्मा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 12984,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "14वीं विधानसभा में राजस्थान के किस जिले से सर्वाधिक महिला विधायक निर्वाचित हुई हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 12988,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "14वीं राजस्थान विधानसभा की कार्य-संचालन परामर्शदात्री समिति के अध्यक्ष कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैलाश चंद्र मेघवाल"
+        },
+        {
+          "id": "opt2",
+          "text": "गुलाब चंद कटारिया"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीचरण सर्राफ"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रद्युम्न सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 12989,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा विधानसभा क्षेत्र एक से अधिक जिले में फैला हुआ है(2013 विधानसभा चुनाव में) -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "छबड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "जहाजपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सिवाना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 12990,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अनुसूचित जाति की कितनी महिलायें 14वीं राजस्थान विधान सभा की सदस्य हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12"
+        },
+        {
+          "id": "opt2",
+          "text": "11"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 12991,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा के द्वारों के नामकरण के संबंध में निम्नलिखित युग्मों पर विचार कीजिए:1. द्वार संख्या 1 — बृज द्वार 2. द्वार संख्या 2 — शेखावाटी द्वार 3. द्वार संख्या 8 — ढूंढाड़ द्वारउपरोक्त में से कौन-सा/से युग्म सही सुमेलित है/हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1 और 2"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 2 और 3"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1 और 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2 और 3"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "विधानसभा भवन के बाहरी द्वारों को राजस्थान के अंचलों बृज, शेखावाटी, वागड़, हाड़ौती, मारवाड़, मेवाड़, मेरवाड़ा और ढूंढाड़ के नाम समर्पित किया गया है। द्वार संख्या एक को बृज द्वार, दो को शेखावाटी द्वार, तीन को वागड द्वार, चार को मेवाड द्वार, पांच को मारवाड द्वारा, छः को हाडौती द्वार, सात को मेरवाडा द्वार और द्वार संख्या आठ को ढूंढाड द्वार नाम दिया गया है।राजस्थान विधान सभा में उत्तरी द्वार (पीतल) जहां से राज्यपाल, स्पीकर, मुख्यमंत्री और नेता प्रतिपक्ष प्रवेश करते है उसे कर्त्तव्य द्वार, दक्षिणी द्वार जहां से विधायिका की असली शक्ति जनता का प्रवेश होता है उसे शक्ति द्वार, पश्चिमी द्वार जहां से विधायकगण प्रवेश करते है उसे सुशासन द्वार, पूर्वी द्वार जहां से अधिकारीगण प्रवेश करते है उसे संकल्प द्वार और उत्तरी द्वार (मंदिर) जहां से विशिष्ट व्यक्तियों का आगमन होता है उसे शौर्य द्वार नाम दिया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 12843,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान विकास पार्टी की स्थापना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बृजमोहन लाल शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "बूटा सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरा लाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "छोटूराम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12970,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के किस वर्तमान विधायक ने काॅमनवेल्थ गेम्स 2010 में स्वर्ण पदक जीता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खुशवीर सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "कृष्णा पूनिया"
+        },
+        {
+          "id": "opt3",
+          "text": "महादेव सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजेन्द्र राठौड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12973,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राज्य विधान मंडल\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राज्य विधान मंडल\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राज्य विधान मंडल\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

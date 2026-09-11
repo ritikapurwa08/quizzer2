@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "समतलीय चित्रों के परिमाप एवं क्षेत्र",
+  "topicSlug": "समतलीय-चित्रों-के-परिमाप-एवं-क्षेत्र",
+  "testSetName": "समतलीय चित्रों के परिमाप एवं क्षेत्र - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "एक त्रिभुज की दो भुजाओं का माप5तथा12 है। त्रिभुज की तीसरी भुजा की लम्बाई जिस अन्तराल में है, वह है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "13 से23"
+        },
+        {
+          "id": "opt2",
+          "text": "6 से10"
+        },
+        {
+          "id": "opt3",
+          "text": "से8"
+        },
+        {
+          "id": "opt4",
+          "text": "7 से17"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मानाa, b, cत्रिभुज की तीन भुजाए है तब a – b < C < a + b तो तीसरी भुजा की लम्बाई का अन्तराल 12 – 5 < C < 12 + 5 7 < C < 17",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programer 2024",
+      "sourceQuestionId": 24949,
+      "reference": "📌 PYQ — RPSC Programer 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस त्रिभुज का क्षेत्रफल क्या होगा जिसकी भुजाएँ ८४ मीटर, ८० एवं ५२ मीटर हो",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1620मीटर२"
+        },
+        {
+          "id": "opt2",
+          "text": "2016मीटर२"
+        },
+        {
+          "id": "opt3",
+          "text": "1818मीटर२"
+        },
+        {
+          "id": "opt4",
+          "text": "1616मीटर२"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "Heron's formula के अनुसार, किसी त्रिभुज का क्षेत्रफल = s(s a)(s b)(s c) − − − जहाँs = अर्द्धपरिमाप a, b, c = त्रिभुज की भुजाएँ तो, 84 +80 + 52 216 s = = =108m 2 2 a = 84 m, b = 80 m, c = 52 m त्रिभुज का क्षेत्रफल = 108(108 84)(108 80)(108 52) − − − = 108×24×28×56 = 2016 m2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 24950,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक समचतुर्भुज का क्षेत्रफल २५६ से.मी.२है। यदि इसके एक विकर्ण की लम्बाई दूसरे विकर्ण की लम्बाई की आधी हो तो विकर्णों की लम्बाई का योग होगा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "३८ से. मी."
+        },
+        {
+          "id": "opt2",
+          "text": "४८ से. मी."
+        },
+        {
+          "id": "opt3",
+          "text": "२८ से. मी."
+        },
+        {
+          "id": "opt4",
+          "text": "५६ से. मी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "समचतुर्भुज का क्षेत्रफल 1 = × 2विकर्ण१×विकर्ण२ प्रश्न के अनुसार, २ विकर्ण१=विकर्ण२ 906 ∴ 1 256 = ×2 2 विकर्ण१× विकर्ण१ (विकर्ण१)२= 256 सेमी.२ विकर्ण१= 16 सेमी. तो, विकर्ण२= 32 सेमी. विकर्ण१+विकर्ण२= 16 + 32 = 48 cm",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 24951,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक समकोण त्रिभुज की ऊँचाई एवं आधार क्रमश:(x + 2) एवं (2x + 3) (से. मी. में) हैं। यदि त्रिभुज का क्षेत्रफल ६० से.मी२हो तो कर्ण की लम्बाई होगी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२१ से. मी."
+        },
+        {
+          "id": "opt2",
+          "text": "१३ से. मी."
+        },
+        {
+          "id": "opt3",
+          "text": "१७ से. मी."
+        },
+        {
+          "id": "opt4",
+          "text": "१५ से. मी."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्न के अनुसार, त्रिभुज का क्षेत्रफल 1 = × 2आधार×ऊँचाई ⇒ 1 60 = ×(2x +3)×(x + 2) 2 ⇒ 120 = 2x2 + 4x + 3x + 6 ⇒ 120 = 2x2 + 7x + 6 ⇒ 2x2 + 7x – 114 = 0 ⇒ 7 49 (4×2×(114)) x = 2×2 −± − − 7 49 +912 = 4 −± ⇒ 7 961 x = 4 −± ⇒ 7 31 x = 4 −± ⇒ 24 x = = 6 4 सेमी. तो, कर्ण 2 2 = + (आधार) (ऊँचाई) 2 2 = 15 +8 = 225+ 64 = 289 = 17cm.",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 24952,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि उपयुक्त घन की प्रत्येक कोर की लम्बाईn हो तो चतुर्भुजABDE का परिमाप होगा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "() 2n 1+ 2"
+        },
+        {
+          "id": "opt2",
+          "text": "n 2"
+        },
+        {
+          "id": "opt3",
+          "text": "4n 2"
+        },
+        {
+          "id": "opt4",
+          "text": "4n"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्न के अनुसार, AE औरBD वर्ग के विकर्ण हैं, वर्ग का विकर्ण = side 2 = n 2 चतुर्भुजABDEका परिमाप= AB + DE + AE + BD = n + n + n 2 + n 2 = 2n + 2 2n = 2n(1+ 2)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 24953,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक घन की भुजा एक सम अभाज्य संख्या (मीटर में) है। घन का विकर्ण है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२ मीटर"
+        },
+        {
+          "id": "opt2",
+          "text": "३ मीटर"
+        },
+        {
+          "id": "opt3",
+          "text": "2मीटर"
+        },
+        {
+          "id": "opt4",
+          "text": "3मीटर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दिया है घन की भुजा=एक सम अभाज्य संख्या = 2 घन का विकर्ण=भुजा 3 = 2 3m",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher sanskrit-2018",
+      "sourceQuestionId": 24954,
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "२ सेमी त्रिज्या एवं ३ सेमी की ऊँचाई वाले एक लंबवृत्तीय बेलन में से २ सेमी आधार की त्रिज्या एवं ३ सेमी की ऊँचाई वाला एक लंबवृत्तीय शंकु हटा दिया जाता हो तो बेलन के शेष भाग का आयतन है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12π"
+        },
+        {
+          "id": "opt2",
+          "text": "8π"
+        },
+        {
+          "id": "opt3",
+          "text": "6π"
+        },
+        {
+          "id": "opt4",
+          "text": "4π"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बेलन के शेष भाग का आयतन = बेलन का आयतन – शंकु का आयतन 2 2 1 = r h r h 3 π − π 1 = 4 3 4 3 3 π× × − π× × 12 = 12 3 π − π = 12π – 4π = 8π",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lecturer -2015",
+      "sourceQuestionId": 24955,
+      "reference": "📌 PYQ — RPSC School Lecturer -2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: १२ से. मी. व्यास का एक वृत्तीय बेलन जल से अंशत: भरा हुआ है। यदि इसमें, ६ से. मी. व्यास का एक गोला पूर्णत: डूबा दिया जाता है, तो बेलन में जल की सतह कितनी ऊँचाई से उठ जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२ से.मी."
+        },
+        {
+          "id": "opt2",
+          "text": "५ से.मी."
+        },
+        {
+          "id": "opt3",
+          "text": "१ से. मी."
+        },
+        {
+          "id": "opt4",
+          "text": "३ से. मी."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जल की सतह की उठी ऊँचाई(h) गोले के डुबने से होगी ∵ 2 3 4 6 h 3 3 π = π h = 1 से. मी.",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 24981,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: २० से. मी. व्यास के एक गोलार्ध पर शंकु रखा है। यदि शंकु के पेंदे का व्यास गोलार्ध के व्यास के बराबर हो और शंकु की ऊँचाई पेंदे के व्यास की दुगनी हो, तो दोनों पिंडों का सम्मिलित आयतन निम्न में से कौन सा होंगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२००πघन से.मी."
+        },
+        {
+          "id": "opt2",
+          "text": "२०००πघन से.मी."
+        },
+        {
+          "id": "opt3",
+          "text": "१०००πघन से.मी."
+        },
+        {
+          "id": "opt4",
+          "text": "५००πघन से.मी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दिया है- r = 10 से.मी. h = 2d = 2 × 20 = 40 सेमी. दोनों पिण्डों का सम्मिलित आयतन- = 3 2 2 10 10 40 3 3 π ×π× + × × = 2000 4000 3 3 π π + = 2000π घन सेमी.",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 24982,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"समतलीय चित्रों के परिमाप एवं क्षेत्र\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"समतलीय चित्रों के परिमाप एवं क्षेत्र\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"समतलीय चित्रों के परिमाप एवं क्षेत्र\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

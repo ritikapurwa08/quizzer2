@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की चित्र शैलियां",
+  "topicSlug": "राजस्थान-की-चित्र-शैलियां",
+  "testSetName": "राजस्थान की चित्र शैलियां - अभ्यास टेस्ट 21",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न सभी शैलियाँ ढूंढाड़ चित्रकला स्कूल के अंतर्गत आती हैं, सिवाय :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "उनियारा शैली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 10686,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी चित्रकला की जन्मभूमि है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "आम्बेर"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 10687,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मारवाड़ चित्रकला शैली के प्रसिद्ध चित्रकारों में कौन नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमरदास"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनदास"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगाराम"
+        },
+        {
+          "id": "opt4",
+          "text": "कालूराम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 10689,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित चित्रकारों को उनकी चित्रशैली/उपशैली से सुमेलित कीजिए एवं नीचे दिये गये कूट से सही उत्तर का चयन कीजिए -शैली/उपशैली चित्रकारअ. तिजारा 1. बलदेव, गुलाम अलीब. अलवर 2. साहिबराय, मुहम्मदशाहस. जयपुर 3. नंदराम, जमुनादासद. किशनगढ़ 4. मूलराज, भीकचन्दकूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 1, 2, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 4, 3, 2"
+        },
+        {
+          "id": "opt3",
+          "text": "4, 2, 1, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 4, 1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 10690,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 1628 ई. में मेवाड़ में रागमाला चित्रांकन को किसने चित्रित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नसीरुद्दीन"
+        },
+        {
+          "id": "opt2",
+          "text": "शफी मुहम्मद"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीरंगधर"
+        },
+        {
+          "id": "opt4",
+          "text": "बिशनदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF FRO 2021",
+      "sourceQuestionId": 10692,
+      "reference": "📌 PYQ — RPSC ACF FRO 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्रकला शैली ‘बणी-ठणी’ सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सतवन्त प्रसाद"
+        },
+        {
+          "id": "opt2",
+          "text": "नागरीदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मृगावती"
+        },
+        {
+          "id": "opt4",
+          "text": "शिव-पार्वती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2017 level-2 SST",
+      "sourceQuestionId": 10693,
+      "reference": "📌 PYQ — Reet 2017 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निहालचन्द किस चित्र शैली का चित्रकार था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बुन्दी"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 10700,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सुमेलित कीजिए -सूची -1सूची -2अ. भैंसों का चितेरा1. परमानन्द चोयलब. भीलों का चितेरा2. सौभाग्यमल गहलोतस. नीड़ का चितेरा3. गोवर्द्धन लाल बाबाद. नागरीदास4. सावन्त सिंहकुट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 2, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 3, 1, 4"
+        },
+        {
+          "id": "opt4",
+          "text": "3, ,2 ,1, 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10781,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: भित्ति चित्रण की आरायश पद्धति भारत में कहां से आई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईरान"
+        },
+        {
+          "id": "opt2",
+          "text": "चीन"
+        },
+        {
+          "id": "opt3",
+          "text": "इटली"
+        },
+        {
+          "id": "opt4",
+          "text": "मिश्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10782,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की चित्र शैलियां\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान की चित्र शैलियां\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान की चित्र शैलियां\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

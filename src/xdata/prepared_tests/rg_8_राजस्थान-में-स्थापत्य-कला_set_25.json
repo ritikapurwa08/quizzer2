@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में स्थापत्य कला",
+  "topicSlug": "राजस्थान-में-स्थापत्य-कला",
+  "testSetName": "राजस्थान में स्थापत्य कला - अभ्यास टेस्ट 25",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस किले में किशोरी महल, महल खास, कोठी ख़ास, जवाहर बुर्ज और फतेह बुर्ज स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयगढ़ किला"
+        },
+        {
+          "id": "opt2",
+          "text": "जूनागढ़ किला"
+        },
+        {
+          "id": "opt3",
+          "text": "लोहागढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "किशोरी महल, महल खास, और अन्य महल लोहागढ़ किले में स्थित हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-1",
+      "sourceQuestionId": 1939,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "इन दो शहरों में जन्तर मन्तर स्थित है- (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर एवं आगरा"
+        },
+        {
+          "id": "opt2",
+          "text": "मथुरा एवं जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर एवं दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "दिल्ली एवं ग्वालियर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कुल 5 जंतर मंतर हैं। वे जयपुर, दिल्ली, मथुरा, उज्जैन और वाराणसी में स्थित हैं। जयपुर में जंतर मंतर सबसे बड़ा है। ये जंतर मंतर महाराजा जय सिंह द्वितीय की खगोलीय वेधशालाएं थीं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-1",
+      "sourceQuestionId": 1940,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नाटाणियों की हवेली कहाँ पर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मणगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नाटाणियों की हवेली राजस्थान के जयपुर में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "sourceQuestionId": 1941,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस किले की सुंदरता से अभिभूत होकर ब्रिटिश इतिहासकार जेम्स टॉड ने कहा कि, “यदि उन्हें राजस्थान में किसी जागीर की पेशकश की जाएगी, तब वह इस किले को चुनेंगे?”",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाहरगढ़ किला"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़ किला"
+        },
+        {
+          "id": "opt3",
+          "text": "तारागढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "भैंसरोडगढ़ किला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जेम्स टॉड ने भैंसरोडगढ़ किले की सुंदरता की प्रशंसा की और इसे राजस्थान में अपनी पसंदीदा जागीर बताया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "sourceQuestionId": 1942,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I के साथ सूची-II का मिलान कीजिएसूची-I (छतरी)सूची-II (स्थान)a. सवाई ज़य सिंह की छतरीI. अलवरb. मूसी रानी की छतरीII. रामगढ़c. गोपाल सिंह की छतरीIII. गैटोरd. सेठों की छतरीIV. करौलीनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a - IV, b - III, c - I, d - II"
+        },
+        {
+          "id": "opt2",
+          "text": "a - III, b - I, c - IV, d - II"
+        },
+        {
+          "id": "opt3",
+          "text": "a - I, b - II, c - III, d - IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a - II, b - I, c 4 IV, d - III"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सवाई जय सिंह की छतरी गैटोर (जयपुर)मूसी रानी की छतरी अलवरगोपाल सिंह की छतरी करौलीसेठों की छतरी रामगढ़",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "sourceQuestionId": 1943,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से बोहरा मुस्लिम संत अब्दुल रसूल के प्रसिद्ध मकबरे का नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अहमद पीर"
+        },
+        {
+          "id": "opt2",
+          "text": "रसूल उर्फ मौलाना पीर"
+        },
+        {
+          "id": "opt3",
+          "text": "अब्दुल्लाह पीर"
+        },
+        {
+          "id": "opt4",
+          "text": "बोहरा पीर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बोहरा मुस्लिम संत अब्दुल रसूल का प्रसिद्ध मकबरा अब्दुल्लाह पीर के नाम से जाना जाता है। अब्दुल्ला पीर दरगाह बांसवाड़ा में सबसे प्रसिद्ध तीर्थस्थलों में से एक है ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Hostel Supt(Minority Affairs) 2024",
+      "sourceQuestionId": 1944,
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किराडू के मंदिरों के बारे में निम्नलिखित में से कौन सा एक कथन सही नहीं है -(निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह पाँच वैष्णव और शेव मंदिरों का समूह है।"
+        },
+        {
+          "id": "opt2",
+          "text": "किराडू को प्रसिद्ध रूप से राजस्थान का खजुराहो भी कहा जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इनका निर्माण 14वीं से लेकर 15वीं शताब्दी में हुआ था।"
+        },
+        {
+          "id": "opt4",
+          "text": "किराडू का प्राचीन नाम “किरात कूप” था।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "किराडू के मंदिरों का निर्माण 11वीं और 12वीं शताब्दी में हुआ था। यह मंदिरों का समूह है और इसे “राजस्थान का खजुराहो” कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Hostel Supt(Minority Affairs) 2024",
+      "sourceQuestionId": 1945,
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सूची-A को सूची-B के साथ मिलाएं एवं निम्न दिए गए कूट से सही उत्तर का चयन करें –सूची -A(i) खजुराहो (सोमेश्वर मंदिर)(ii) हर्षद माता का मंदिर(iii) जूना पत्रसर मंदिर(iv) पारा नगर मंदिर(v) श्रृंगार चंवारी मंदिरसूची -B(1) किराडु(2) आभानेरी(3) बाड़मेर(4) अलंवर(5) चित्तौड़गढ़कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(1)-5, (II)-4, (III)-3, (IV)-2, (V)-1"
+        },
+        {
+          "id": "opt2",
+          "text": "(1)-3, (11)-1, (III)-2, (IV)-4, (V)-5"
+        },
+        {
+          "id": "opt3",
+          "text": "(1)-2, (II)-3, (III)-4, (IV)-5, (V)-1"
+        },
+        {
+          "id": "opt4",
+          "text": "(1)-1, (II)-2, (III)-3, (IV)-4, (V)-5"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2198,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राठौर शासक राव जोधा ने जोधपुर में 1458 में किस किले की नींव रखी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाहरगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जयगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अम्बर"
+        },
+        {
+          "id": "opt4",
+          "text": "मेहरानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2237,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में स्थापत्य कला\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में स्थापत्य कला\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में स्थापत्य कला\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

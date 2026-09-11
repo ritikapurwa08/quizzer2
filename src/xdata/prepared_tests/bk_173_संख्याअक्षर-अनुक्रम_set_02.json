@@ -1,0 +1,298 @@
+{
+  "subject": "तार्किक विवेचन एवं मानसिक योग्यता",
+  "subjectSlug": "reasoning-mental-ability",
+  "topic": "संख्या/अक्षर अनुक्रम",
+  "topicSlug": "संख्याअक्षर-अनुक्रम",
+  "testSetName": "संख्या/अक्षर अनुक्रम - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "6,10,18,?,66,130,258 नीचे दी गई श्रेणी में एक पद लुप्त है। लुप्त पद है– 6,10,18,?,66,130,258",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "32"
+        },
+        {
+          "id": "opt2",
+          "text": "28"
+        },
+        {
+          "id": "opt3",
+          "text": "50"
+        },
+        {
+          "id": "opt4",
+          "text": "34"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दी गई श्रेणी निम्नवत् है- अत:? 34 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programer 2024",
+      "sourceQuestionId": 24772,
+      "reference": "📌 PYQ — RPSC Programer 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दी गई संख्या श्रेणी में प्रश्नचिन्ह(?) के स्थान पर आने वाली संख्या को बताएँ: 12, 6, 18, 9, 26, 13, 36, 18,?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "48"
+        },
+        {
+          "id": "opt2",
+          "text": "21"
+        },
+        {
+          "id": "opt3",
+          "text": "46"
+        },
+        {
+          "id": "opt4",
+          "text": "60"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दी गई संख्या शृंखला निम्नवत् है- अत:? = 48",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 14/09/2021",
+      "sourceQuestionId": 24773,
+      "reference": "📌 PYQ — RPSC Sub Inspector 14/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न शृंखला में लुप्त संख्या को ज्ञात कीजिए: 4, 18? 100, 180, 294, 448",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "60"
+        },
+        {
+          "id": "opt2",
+          "text": "50"
+        },
+        {
+          "id": "opt3",
+          "text": "58"
+        },
+        {
+          "id": "opt4",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दी गई संख्या शृंखला निम्नवत् है- अत:? = 48",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 24774,
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शृंखला15, 35, 77, 143, ............ में आगे की संख्या है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "179"
+        },
+        {
+          "id": "opt2",
+          "text": "197"
+        },
+        {
+          "id": "opt3",
+          "text": "219"
+        },
+        {
+          "id": "opt4",
+          "text": "221"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दी गई शृंखला निम्नवत् है- Note- दी गई शृंखला में क्रमश: अभाज्य संख्याओं का गुणा किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 07/10/2021",
+      "sourceQuestionId": 24775,
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न श्रेणी का अगला पद क्या होगा? 7, 6, 10, 27, _____",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "51"
+        },
+        {
+          "id": "opt2",
+          "text": "104"
+        },
+        {
+          "id": "opt3",
+          "text": "114"
+        },
+        {
+          "id": "opt4",
+          "text": "96"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "7, 6, 10, 27,_____ 7 × 1 – 1 = 6 6 × 2 – 2 = 10 10 × 3 – 3 = 27 27 × 4 – 4 = 104",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher sanskrit-2018",
+      "sourceQuestionId": 24776,
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न अक्षरों के श्रेणी विन्यास में कुछ अक्षर अनुपस्थित हैं जिन्हें उसी क्रम में नीचे दिये गये विकल्पों में से एक में दिया गया है। सही विकल्प चुनिए– adb ac da cddcb dbc cbda",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "bccba"
+        },
+        {
+          "id": "opt2",
+          "text": "ccbba"
+        },
+        {
+          "id": "opt3",
+          "text": "cbbaa"
+        },
+        {
+          "id": "opt4",
+          "text": "bbcad"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अत: रिक्त स्थान= cbbaa",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2015",
+      "sourceQuestionId": 24778,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अनुक्रम1039, 2247, 3455, 4663,.... का अगला पद है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5772"
+        },
+        {
+          "id": "opt2",
+          "text": "5871"
+        },
+        {
+          "id": "opt3",
+          "text": "5782"
+        },
+        {
+          "id": "opt4",
+          "text": "5881"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दिया गया अनुक्रम निम्नवत् है– अत: अगला पद= 5871",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2016",
+      "sourceQuestionId": 24779,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न क्रम में लुप्त संख्या(?)है-2, 3, 5, 9, 17, ____",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "33"
+        },
+        {
+          "id": "opt2",
+          "text": "29"
+        },
+        {
+          "id": "opt3",
+          "text": "30"
+        },
+        {
+          "id": "opt4",
+          "text": "23"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दी गई संख्या शृंखला निम्नवत् है– अत:? = 33",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 24783,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित अनुक्रम में लुप्त पद है– 2 4? 11 16,,,, 3 7 21 31",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7 13"
+        },
+        {
+          "id": "opt2",
+          "text": "7 9"
+        },
+        {
+          "id": "opt3",
+          "text": "7 11"
+        },
+        {
+          "id": "opt4",
+          "text": "7 15"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संख्या अनुक्रम निम्नवत् है– +5 +4 +3 +2 +4 +6 +8 +10 4 7 2 3 7 13 11 21 16 31 अत:? = 7/13",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-A (S.E.)2018",
+      "sourceQuestionId": 24784,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-A (S.E.)2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"संख्या/अक्षर अनुक्रम\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"संख्या/अक्षर अनुक्रम\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"संख्या/अक्षर अनुक्रम\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

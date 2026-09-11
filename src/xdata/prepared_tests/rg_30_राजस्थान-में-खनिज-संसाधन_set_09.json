@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में खनिज संसाधन",
+  "topicSlug": "राजस्थान-में-खनिज-संसाधन",
+  "testSetName": "राजस्थान में खनिज संसाधन - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित खनिजों में से कौन-सा राजस्थान के मरुस्थल में नहीं पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एन्थ्रासाइट-कोयला"
+        },
+        {
+          "id": "opt2",
+          "text": "पेट्रोलियम"
+        },
+        {
+          "id": "opt3",
+          "text": "प्राकृतिक गैस"
+        },
+        {
+          "id": "opt4",
+          "text": "चूने का पत्थर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एन्थ्रासाइट-कोयला (उच्च गुणवत्ता वाला कोयला) राजस्थान में नहीं पाया जाता। यह मुख्य रूप से झारखंड या पश्चिम बंगाल में मिलता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EM) Exam 2024",
+      "sourceQuestionId": 8219,
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पलाना एवं कपूरडी खानें ____ के लिए जानी जाती हैं। (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोहा"
+        },
+        {
+          "id": "opt2",
+          "text": "पेट्रोलियम"
+        },
+        {
+          "id": "opt3",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt4",
+          "text": "कोयला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पलाना और कपूरडी खानें राजस्थान के बीकानेर जिले में स्थित हैं और लिग्नाइट कोयले (भूरा कोयला) के लिए प्रसिद्ध हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EM) Exam 2024",
+      "sourceQuestionId": 8220,
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा खनिज बाँसवाड़ा जिले के लीलवानी एवं नराड़िया क्षेत्र में पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोना"
+        },
+        {
+          "id": "opt2",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt3",
+          "text": "मैंगनीज़"
+        },
+        {
+          "id": "opt4",
+          "text": "बेरिलियम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बांसवाड़ा(सर्वाधिक भण्डार) में मैंगनीज़ उत्पादक क्षेत्र लीलवाना, तलवाड़ा, सागवा, तामेसर, कालाखुटा। उदयपुर में देबारी, स्वरूपपुरा, नैगाडि़या।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+      "sourceQuestionId": 8221,
+      "reference": "📌 PYQ — AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लिग्नाइट ___ का प्रकार है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोयला"
+        },
+        {
+          "id": "opt2",
+          "text": "इस्पात"
+        },
+        {
+          "id": "opt3",
+          "text": "संगमरमर"
+        },
+        {
+          "id": "opt4",
+          "text": "ऐस्बेस्टस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लिग्नाइट एक प्रकार का कोयला है, जिसे भूरा कोयला भी कहते हैं। यह निम्न गुणवत्ता का कोयला है और इसका उपयोग मुख्यतः बिजली उत्पादन में होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COPA) Exam 2024",
+      "sourceQuestionId": 8222,
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "खो-दरीबा खानें ____ के लिए जानी जाती हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताँबा"
+        },
+        {
+          "id": "opt2",
+          "text": "लौह-अयस्क"
+        },
+        {
+          "id": "opt3",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt4",
+          "text": "सीसा और जस्ता"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खो-दरीबा (अलवर) ताँबे की खानों के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 8223,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में खेतड़ी खदान निम्न में से किसकी प्रमुख उत्पादक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताँबा"
+        },
+        {
+          "id": "opt2",
+          "text": "बॉक्साइट"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह अयस्क"
+        },
+        {
+          "id": "opt4",
+          "text": "अभ्रक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खेतड़ी (झुंझुनू) राजस्थान में ताँबे की खदान के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 8224,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिये तथा सही उत्तर का चयन नीचे दिये कूट से कीजिये -सूची-I (खनिज)सूची-II (खनन क्षेत्र)(A) लौह अयस्क(i) रेवत पहाड़ियाँ(B) मैंगनीज(ii) काली पहाड़ी(C) टंगस्टन(iii) सागवाड़ा(D) बेरिलियम(iv) काला खूंटाकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(iii), (B)-(i), (C)-(ii), (D)-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(ii), (B)-(iii), (C)-(iv), (D)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(iv), (B)-(ii), (C)-(iii), (D)-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लौह अयस्क - काली पहाड़ीमैंगनीज - काला खूंटाटंगस्टन - रेवत पहाड़ियाँबेरिलियम - सागवाड़ा",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC EO/RO Re-Exam - 2022",
+      "sourceQuestionId": 8225,
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से कौन सा केन्द्र जिप्सम का बाड़मेर स्थित उत्पादक केन्द्र नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुरला"
+        },
+        {
+          "id": "opt2",
+          "text": "श्योकर"
+        },
+        {
+          "id": "opt3",
+          "text": "खूटानी"
+        },
+        {
+          "id": "opt4",
+          "text": "पार की धानी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8403,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: भारत की खनिज सम्पदाओं के संदर्भ में राजस्थान निम्न में से कौन सी खनिज सम्पदा में एकाधिकार नहीं रखता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt2",
+          "text": "पेट्रोलियम"
+        },
+        {
+          "id": "opt3",
+          "text": "संगमरमर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीसा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8404,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में खनिज संसाधन\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में खनिज संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में खनिज संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

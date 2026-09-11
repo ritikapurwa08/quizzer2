@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के आभूषण एवं वेशभूषा",
+  "topicSlug": "राजस्थान-के-आभूषण-एवं-वेशभूषा",
+  "testSetName": "राजस्थान के आभूषण एवं वेशभूषा - अभ्यास टेस्ट 22",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘पोमचा’ (स्त्री परिधान) को बोलचाल की भाषा में कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीला"
+        },
+        {
+          "id": "opt2",
+          "text": "कंवर जोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "फेटिया"
+        },
+        {
+          "id": "opt4",
+          "text": "कटकी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पोमचा महिलाओं की विशेष प्रकार की ओढ़नी पोमचा बच्चे के जन्म पर शिशु की मां के लिए मातृ पक्ष की ओर से लाया जाता है। सद्यः प्रसूता को पहनाया जाता है। बोलचाल भाषा में ‘पीला’ कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9100,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा राजस्थानी पगड़ी का एक प्रकार नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मदील"
+        },
+        {
+          "id": "opt2",
+          "text": "मोठड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "लहरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "चूनड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "विवाह में मोठड़े की पगड़ी, श्रावण में लहरिया पगड़ी और दशहरे पर मदील पगड़ी पहनी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9117,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तागड़ी शरीर के किस भाग पर पहनी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कमर"
+        },
+        {
+          "id": "opt2",
+          "text": "गले"
+        },
+        {
+          "id": "opt3",
+          "text": "पैर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कमर के आभूषण - कंदोरा और कर्धनी, तागडी, कणकती, मेखला, सटका - लहंगे के नेफे में अटकाकर लटकाया जाने वाला आभूषण",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9124,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अंगरखी / बुगतरी के ऊपर पहने जाने वाला वस्त्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिरजस"
+        },
+        {
+          "id": "opt2",
+          "text": "चुग्गा / चोगा"
+        },
+        {
+          "id": "opt3",
+          "text": "घाघरा"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलका"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चोगा सम्पन्न वर्ग द्वारा अगरखी के ऊपर पहने जाने वाला वस्त्र है। तनजेब व जामदानी के चौगे- गर्मियों में पहने जाते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9127,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तिलका क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "पुरूषों का वस्त्र"
+        },
+        {
+          "id": "opt3",
+          "text": "महिलाओं का वस्त्र"
+        },
+        {
+          "id": "opt4",
+          "text": "एक कर का नाम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मुसलमान स्त्रियां चूड़ीदार पाजामें पर तिलका नामक एक चोगा-सा पहनती हैं और ऊपर से ओढ़नी ओढ़ लेती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9128,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ढेपाड़ा क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलों की तंग धोती"
+        },
+        {
+          "id": "opt2",
+          "text": "अंगरखी"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलों की ओढ़नी"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलों का लूंगड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आदिवासी क्षेत्रों में भीलों द्वारा पहनी जाने वाली तंग धोती ढेपाड़ा कहलाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9129,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालौर का लेटा गांव प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेसले के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "दरियों के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "ओढ़नियों के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "गलीचों के लिए"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ओढ़ने की मोटी सूती चादर को खेसला कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 9130,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से महिलाओं के पैरो के आभूषण कौनसे है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खांच, अड़कनी, डोडी, बहरखौ"
+        },
+        {
+          "id": "opt2",
+          "text": "चोप, चुनी, लटकन, खींवनी"
+        },
+        {
+          "id": "opt3",
+          "text": "लंगर, छड, नेवरी, बिन्छुड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "कंदोरो, जंजीर, तागड़ी, वसन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9242,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से 'मेख' है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पांवो में पहने जाने वाला एक आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "स्त्री-पुरुष के दांत में जड़ी सोने की चूंप"
+        },
+        {
+          "id": "opt3",
+          "text": "आभूषण में लटकाई जाने वाली छोटी लड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "अंगुली में पहने जाने वाला आभूषण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9243,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के आभूषण एवं वेशभूषा\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के आभूषण एवं वेशभूषा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के आभूषण एवं वेशभूषा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के अन्य राजवंश",
+  "topicSlug": "राजस्थान-के-अन्य-राजवंश",
+  "testSetName": "राजस्थान के अन्य राजवंश - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "महाराजा सूरजमल ने राजस्थान में कौन-सा शहर बसाया था -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जाट शासक सूरजमल ने 18वीं सदी में भरतपुर शहर की स्थापना की।सूरजमल को ‘जाटों का अफलातून’ और ‘प्लेटो’ कहा जाता है।सूरजमल ने भरतपुर के प्रसिद्ध लोहागढ़ दुर्ग का निर्माण 1733 से 1741 ई. के मध्य करवाया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+      "sourceQuestionId": 7769,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शासन करने वाले राजवंश ये थे :(a) गुहिला राजवंश (b) गहलौत राजवंश (c) परमार राजवंश(d) सिनसिनवार राजवंश (e) हरिहर राजवंशनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (a), (c), (d) और (e)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (a), (b), (c) और (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (c), (d) और (e)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (b), (c), (d) और (e)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में गुहिला, गहलौत, परमार और सिनसिनवार राजवंशों ने शासन किया। हरिहर राजवंश राजस्थान का हिस्सा नहीं था। हरिहर प्रथम, विजयनगर साम्राज्य के संस्थापक थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Exam 2024 (Paper - I)",
+      "sourceQuestionId": 7770,
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजपूताना के किस क्षेत्र पर वरीक वंश ने शासन किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बदनौर"
+        },
+        {
+          "id": "opt2",
+          "text": "ओसियां"
+        },
+        {
+          "id": "opt3",
+          "text": "बयाना"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बयाना पर वारिक वंश का शासन था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "sourceQuestionId": 7772,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जवाहर सिंह एवं रणजीत सिंह किस रियासत के शासक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जवाहर सिंह एवं रणजीत सिंह भरतपुर रियासत के शासक थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (28-10-18) Shift 3",
+      "sourceQuestionId": 7784,
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में यादव राजवंश कहां शासनकर्ता थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली, जैसलमेर एवं बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली एवं जैसलमेर दोनों में"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल करौली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जैसलमेर के भाटी चन्द्रवंशीय यादव थे और अपना सम्बन्ध भगवान कृष्ण से जोड़ते थे।करौली के यादव राजवंश की स्थापना 1040 ई. में विजयपाल ने की। वह मधुरा के यादव वंश से सम्बन्धित था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 1",
+      "sourceQuestionId": 7785,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराजा सूरजमल किसके पुत्र थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चूडामन जाट के"
+        },
+        {
+          "id": "opt2",
+          "text": "बदन सिंह के"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुल जाट के"
+        },
+        {
+          "id": "opt4",
+          "text": "राजाराम जाटा के"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सूरजमल बदन सिंह के सबसे योग्य पुत्र थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 7786,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परमार राजाओं द्वारा निर्मित मंदिरों के लिए प्रसिद्ध अर्थूणा(अर्थपूर्णा) नगर राजस्थान के किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वागड़ के परमार मालवा के परमार राजा कृष्णराज के पुत्र डंबरसिंह के वंशज है । इनकी राजधानी अर्थूणा (बांसवाड़ा) थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+      "sourceQuestionId": 7789,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: जाट वंश का 18वीं शताब्दी के मध्य में किन भू-भागों पर आधिपत्य था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर एवं धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर एवं करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली एवं सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर एवं भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "18वीं शताब्दी के मध्य में, भरतपुर और धौलपुर पर जाटों ने नियंत्रण कर लिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7776,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: टोंक राज्य की स्थापना किसके द्वारा की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमीर खां पिण्डारी"
+        },
+        {
+          "id": "opt2",
+          "text": "मुहम्मद शाह पिण्डारी"
+        },
+        {
+          "id": "opt3",
+          "text": "उलुग खां पिण्डारी"
+        },
+        {
+          "id": "opt4",
+          "text": "करीम खां पिण्डारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बनास नदी के किनारे पर बसा टोंक, पश्तून मूल के नवाब, मोहम्मद अमीर खान ने 1746 - 1834 में बसाया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7777,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के अन्य राजवंश\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के अन्य राजवंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के अन्य राजवंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "आमेर का कछवाहा वंश",
+  "topicSlug": "आमेर-का-कछवाहा-वंश",
+  "testSetName": "आमेर का कछवाहा वंश - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "हल्दीघाटी के युद्ध में मुगल सम्राट अकबर की सेना का नेतृत्व किसने किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बहलोल खान"
+        },
+        {
+          "id": "opt2",
+          "text": "जय सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "अमीर खान"
+        },
+        {
+          "id": "opt4",
+          "text": "मान सिंह प्रथम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हल्दीघाटी का युद्ध 1576 ई . में लड़ा गया था। मान सिंह अकबर का सेनापति था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 7175,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसने जयपुर शहर की स्थापना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई राजा जय सिंह द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "ईश्वर सिंह द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "माधोसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने 18 नवम्बर, 1727 ई. जयपुर नगर की नींव रखी और उसे अपनी नवीन राजधानी (पहली दौसा, दूसरी जमवारामगढ़, तीसरी आमेर) बनाया। इसका वास्तुकार विद्याधर भट्टाचार्य था। नींव पंडित जगन्नाथ सम्राट द्वारा रखी गयी और इसकी जानकारी बख्तराम द्वारा रचित ग्रंथ बुद्धि विलास में मिलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 7176,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस राजपूत राजा ने “गंधर्व बाइसी” के नाम से विद्वानों का एक समूह बनाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सावई प्रताप सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "अजित सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई जय सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अमर सिंह द्वितीय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई प्रतापसिंह के दरबार में 22 कवि, 22 संगीतज्ञ, 22 नाटककार थे जिसे संयुक्त रूप से गंधर्व बाईसी कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 7177,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शहर में जयपुर नरेश द्वारा वेधशाला का निर्माण नहीं कराया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाराणसी"
+        },
+        {
+          "id": "opt2",
+          "text": "उज्जैन"
+        },
+        {
+          "id": "opt3",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सवाई जयसिंह ने जयपुर, दिल्ली, मथुरा, उज्जैन, और बनारस में पाँच वैद्यशालाएँ स्थापित की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 7178,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुगल बादशाह अकबर की राजस्थान के राजाओं के साथ मित्रता और वैवाहिक संबंधों की नीति को किस रूप में नामित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान नीति"
+        },
+        {
+          "id": "opt2",
+          "text": "राजपूत नीति"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ नीति"
+        },
+        {
+          "id": "opt4",
+          "text": "राजपूताना नीति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अकबर की राजपूत नीति अद्वितीय थी क्योंकि इसने न केवल राजपूतों और मुगल शासकों के बीच लंबे समय से चले आ रहे संघर्ष को समाप्त करने में मदद की बल्कि अकबर को अपने साम्राज्य के समेकन में भी मदद की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+      "sourceQuestionId": 7180,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "____ के स्वागत के लिए जयपुर शहर को गुलाबी रंग में रंगा गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अल्बर्ट एडवर्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "हेनरी VIII"
+        },
+        {
+          "id": "opt3",
+          "text": "एलिज़ाबेथ द्वितीय"
+        },
+        {
+          "id": "opt4",
+          "text": "क्वीन विक्टोरिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जब प्रिंस अल्बर्ट जयपुर आये तो उनके सम्मान में जयपुर शहर को गुलाबी रंग से रंगवाया। गुलाबी रंग स्वागत् तथा सेवा भाव का प्रतीक है। वर्तमान में यह गुलाबी नगर के नाम से विश्व भर में प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+      "sourceQuestionId": 7182,
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस राजपूत शासक को अकबर ने “अमीर-उल-उमरा” की उपाधि दी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रामसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "भगवन्तदास"
+        },
+        {
+          "id": "opt4",
+          "text": "जसवन्तसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अकबर ने भारमल की मृत्यु उपरान्त उसके पुत्र भगवानदास को ‘राजा’ की उपाधि से विभूषित कर आमेर का शासक घोषित कर दिया। अकबर ने भगवानदास को 5000 का मनसब तथा पंजाब का सूबेदार (1582-89 ई.) नियुक्त किया। मुगल सम्राट अकबर ने राजा भारमल को अमीर-उल-उमरा की उपाधि से सम्मानित किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 7186,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: दौराई का युद्ध किसके मध्य हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अकबर और हेमूं"
+        },
+        {
+          "id": "opt2",
+          "text": "बाबर और राणा सांगा"
+        },
+        {
+          "id": "opt3",
+          "text": "शेरशाह और हुमायू"
+        },
+        {
+          "id": "opt4",
+          "text": "औरंगजेब और दारा शिकोह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "14 मार्च 1659 को औरंगजेब व दारा शिकोह के मध्य दौराई (अजमेर के निकट) का युद्ध लड़ा गया जिसमें औरंगजेब विजयी हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7140,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: 1733ई. में ‘जीज मुहम्मदशाही’ पुस्तक जो नक्षत्रों सम्बन्धी ज्ञान से सम्बन्धित है, के लेखक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसवन्त सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा अमरसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा गंगासिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सवाई जयसिंह ने 1725ई. में नक्षत्रों की शुद्ध सारणी बनवायी और उसका नाम तत्कालीन मुगल सम्राट मुहम्मदशाह के नाम से ‘जीज मुहम्मद शाही’ रखा। यह 1733 में प्रकाशित हुई। जयसिंह ने ‘जयसिंह कारिका’ नामक ज्योतिष ग्रन्थ की रचना भी की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7141,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"आमेर का कछवाहा वंश\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"आमेर का कछवाहा वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"आमेर का कछवाहा वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

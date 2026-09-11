@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prepare:tests": "bun run src/scripts/pipeline/prepare_tests.ts",
+    "validate:tests": "bun run src/scripts/pipeline/validate_tests.ts",
+    "import:tests": "bun run src/scripts/pipeline/import_convex.ts"
   },
   "dependencies": {
     "@auth/core": "0.41.1",

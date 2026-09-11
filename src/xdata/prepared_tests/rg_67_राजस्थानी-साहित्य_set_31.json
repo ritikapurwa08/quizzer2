@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थानी साहित्य",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "testSetName": "राजस्थानी साहित्य - अभ्यास टेस्ट 31",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वंशावलियों का पीढ़ी-दर-पीढ़ी लेखन करने वाला कौन वर्ग था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जागा"
+        },
+        {
+          "id": "opt2",
+          "text": "पुजारी"
+        },
+        {
+          "id": "opt3",
+          "text": "महाजन"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त सभी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 15074,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस रासो साहित्य में अलवर की स्थापना का विवरण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानचित्र रासो"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रताप रासो"
+        },
+        {
+          "id": "opt3",
+          "text": "लछिमनगढ़ रासो"
+        },
+        {
+          "id": "opt4",
+          "text": "रतन रासो"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 15078,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुप्रसिद्ध कायाबेलि ग्रंथ की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरदास"
+        },
+        {
+          "id": "opt2",
+          "text": "दादू दयाल"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "रहीम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 3",
+      "sourceQuestionId": 15079,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दरखत पर टंगी रोटी’ के रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामकुमार ओझा"
+        },
+        {
+          "id": "opt2",
+          "text": "सुषमा चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्पा रघु"
+        },
+        {
+          "id": "opt4",
+          "text": "श्याम जांगिड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 15081,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किर्तिस्तम्भ की प्रशस्ति की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कवि एवं अत्रि ने"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल महेश ने"
+        },
+        {
+          "id": "opt3",
+          "text": "कवि, अत्रि एवं महेश ने"
+        },
+        {
+          "id": "opt4",
+          "text": "कवि एवं महेश ने"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 3",
+      "sourceQuestionId": 15085,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादू पंथ का अधिकांश साहित्य किस बोली में लिपिबद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढूंढाडी बोली"
+        },
+        {
+          "id": "opt2",
+          "text": "बागडी बोली"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाडी बोली"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाती बोली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 3",
+      "sourceQuestionId": 15086,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दलपतविलास’ का प्रकाशन राजस्थान के किस स्थान पर स्थित रिसर्च इन्टीट्यूट द्वारा किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 3",
+      "sourceQuestionId": 15087,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: “राव जैतसी रो छन्द” के रचयिता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीढू सूजा"
+        },
+        {
+          "id": "opt2",
+          "text": "कन्हैयालाल सेठिया"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रताप सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "दुर्गादास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15134,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘जुलगमैन चरित्र’ की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू"
+        },
+        {
+          "id": "opt2",
+          "text": "रामप्रसाद"
+        },
+        {
+          "id": "opt3",
+          "text": "रामचरण"
+        },
+        {
+          "id": "opt4",
+          "text": "कृष्णदास पयहारी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15136,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी साहित्य\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थानी साहित्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थानी साहित्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

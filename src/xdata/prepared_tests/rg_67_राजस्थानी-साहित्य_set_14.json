@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थानी साहित्य",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "testSetName": "राजस्थानी साहित्य - अभ्यास टेस्ट 14",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कुवलयमाला नामक कथा संग्रह में कितनी देशी भाषाओं के नाम का उल्लेख हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18"
+        },
+        {
+          "id": "opt2",
+          "text": "17"
+        },
+        {
+          "id": "opt3",
+          "text": "16"
+        },
+        {
+          "id": "opt4",
+          "text": "15"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कुवलयमाला में राजस्थान की 18 भाषाओं का उल्लेख मिलता है। उद्योतन सूरी जैन साहित्य कुवलयमाला के रचयिता हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "sourceQuestionId": 14924,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित को सुमेलित कीजिए :लेखक ग्रंथI. श्रीधर A. रणमल्ल छंदII. नरपति नाल्ह B. विजयपाल रासोIII. नल्ल सिंह C. बीसलदेव रासोIV. बादर D. वीरमायणसही कूट का चुनाव कीजिए :I II III IV",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A B C D"
+        },
+        {
+          "id": "opt2",
+          "text": "D B C A"
+        },
+        {
+          "id": "opt3",
+          "text": "A C B D"
+        },
+        {
+          "id": "opt4",
+          "text": "D C B A"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बीसलदेव रासौ - नरपति नाल्हरणमल्ल छंद - श्रीधर व्यासवीरमायण- बादर ढाढ़ीविजयपाल रासौ- नल्ल",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 14925,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिये और सूचियों के नीचे किये गये कूट का प्रयोग करके सही उत्तर को चुनिये :सूची-I (पुस्तकें) सूची-II (लेखक)(a) हम्मीरायण (i) चारण शिवदास(b) रणमल रौ छन्द (ii) बीठू सूजा(c) अचलदास खींची री वचनिका (iii) पद्मनाभ(d) राव जैतसी रौ छन्द (iv) श्रीधर व्यासकूट : (a) (b) (c) (d)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii) (iv) (i) (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) (iii) (iv) (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (i) (iii) (ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कवि पद्मनाभ द्वारा रचित हम्मीरायण ग्रंथ में जालोर रियासत के शासकों का वर्णन किया गया है।रणमल छंद की रचना श्रीधर व्यास ने की थी। रणमल छंद वीर काव्य हैं।अचलदास खींची री वचनिका चारण कवि शिवदास गाडण द्वारा रचित एक ऐतिहासिक कृति है। इसकी कृति की रचना डिंगल भाषा में की गई है।राव जैतसी रो छंद एक ऐतिहासिक कृति है, जिसकी रचना बिठू सूजा ने की थी।डिंगल (राजस्थानी) भाषा में यह ग्रंथ मुगल सम्राट बाबर के पुत्र शाहजादा कामरान के आक्रमण और बीकानेर के शासक राव जैतसी द्वारा पराजित होने का एक महत्वपूर्ण विवरण देता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Food Safety Officer - 2022",
+      "sourceQuestionId": 14926,
+      "reference": "📌 PYQ — Food Safety Officer - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रिन्द्रोही’ के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेज सिंह जोधा"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्जुनदेव चारण"
+        },
+        {
+          "id": "opt3",
+          "text": "मलचंद तिवारी"
+        },
+        {
+          "id": "opt4",
+          "text": "मणि मधुकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रिन्दरोही, अर्जनदेव चारण की रचना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+      "sourceQuestionId": 14928,
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी रा पैला कहाणीकार किणनैं मान्या जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैजनाथ पंवार"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवचन्द भरतिया"
+        },
+        {
+          "id": "opt3",
+          "text": "दामोदर शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीलाल नथमल जोशी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी भाषा का पहला उपन्यास – शिवचंद भरतिया का कनक सुंदर माना जाता है। शिवचंद्र भरतिया को राजस्थान का भारतेंदु हरिश्चंद्र कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 14941,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैन कवि समयसुन्दर री रचना नीं हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीताराम चौपाई"
+        },
+        {
+          "id": "opt2",
+          "text": "मृगावती रास"
+        },
+        {
+          "id": "opt3",
+          "text": "नल दमयन्ती चौपाई"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मिनी चरित चौपाई"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महोपाध्याय समयसुंदर राजस्थानी भाषा के सबसे बड़े जैन संत कवि और गीतकार थे। इनका जन्म सांचोर नगर में वि.सं. 1610 में पोरवाल जाति में हुआ था। इनकी प्रमुख रचनाएँ : समयाचारी शतक, क्षमा बत्तीसी, विशेष शतक, सिंहल सुत- प्रिय मेलक रास, नल दमयंती रास, शत्रुंजयरास, सीताराम प्रबंध चौपाई",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 14945,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वीर सतसई’ रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथूसिंह महियारिया"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयराज ऊजळ"
+        },
+        {
+          "id": "opt3",
+          "text": "केसरीसिंह बारहठ"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंगळाज दान कविया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कविराज नाथूसिंह महियारिआ ने डिंगल भाषा में अनेकों रचनाएं लिखी हैं जिनमे करणी शतक, वीर सतसई, चूण्डा शतक, हाड़ी शतक, झाला मान शतक अत्यंत प्रदिद्ध हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 14948,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: गिरधर आसियां द्वारा लिखित डिंगल भाषा का ग्रंथ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खुमाण रासो"
+        },
+        {
+          "id": "opt2",
+          "text": "हम्मीर रासो"
+        },
+        {
+          "id": "opt3",
+          "text": "संगत सिंह रासो"
+        },
+        {
+          "id": "opt4",
+          "text": "सगत रासो"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15035,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थानी हिंदी शब्दकोष (Hindi dictionary) के संपादक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूजाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "सीताराम लालस"
+        },
+        {
+          "id": "opt3",
+          "text": "दलपत विजय"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्रज सैन सूरि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15040,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी साहित्य\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थानी साहित्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थानी साहित्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

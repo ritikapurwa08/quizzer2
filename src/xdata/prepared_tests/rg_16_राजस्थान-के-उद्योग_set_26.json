@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के उद्योग",
+  "topicSlug": "राजस्थान-के-उद्योग",
+  "testSetName": "राजस्थान के उद्योग - अभ्यास टेस्ट 26",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सार्वजनिक क्षेत्र के विभिन्न संगठनों (RICO, RFC,RAJSICO आदि) द्वारा आकलित औद्योगिक सम्भावनाओं के आधार पर ‘अ’ श्रेणी में राजस्थान के कौन-से जिले सम्मिलित किए गए हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर, पाली, अजमेर, अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर, जोधपुर, भीलवाड़ा, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर, टोंक, चित्तौड़गढ़, अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा, अजमेर, उदयपुर, भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Gram Sevak 2016",
+      "sourceQuestionId": 5376,
+      "reference": "📌 PYQ — Gram Sevak 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सा सूती वस्त्र उद्योग का केन्द्र नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्यावर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+      "sourceQuestionId": 5379,
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रथम चीनी मिल प्रारम्भ की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भोपालसागर"
+        },
+        {
+          "id": "opt4",
+          "text": "केशोरायपाटन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+      "sourceQuestionId": 5380,
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान में राजस्थान में कौन सी संस्था उद्योगों के लिए मूलभूत सुविधाएं मुहैया कराती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "RAJSICO"
+        },
+        {
+          "id": "opt2",
+          "text": "RIICO"
+        },
+        {
+          "id": "opt3",
+          "text": "DIC"
+        },
+        {
+          "id": "opt4",
+          "text": "RFC"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 5382,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किन स्थानों पर चमड़ा आधारित लघु उद्योग स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली और अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर और जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा और गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर और जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 5383,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सेज के विकास के लिए निम्न में से कौन सी एक केन्द्रीय/प्रमुख एजेन्सी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "RIICO"
+        },
+        {
+          "id": "opt2",
+          "text": "RFC"
+        },
+        {
+          "id": "opt3",
+          "text": "IDBI"
+        },
+        {
+          "id": "opt4",
+          "text": "SIDBI"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF FRO 2021",
+      "sourceQuestionId": 5384,
+      "reference": "📌 PYQ — RPSC ACF FRO 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का प्रथम वस्त्र उद्योग स्थापित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्यावर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2017 level-2 SST",
+      "sourceQuestionId": 5385,
+      "reference": "📌 PYQ — Reet 2017 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: रेशम के कीड़े पाले जाते है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शहतुत के पेड़ पर"
+        },
+        {
+          "id": "opt2",
+          "text": "साल के पेड़ पर"
+        },
+        {
+          "id": "opt3",
+          "text": "अशोक के पेड़ पर"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्जुन के पेड़ पर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5495,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कुंदन कार्य किस क्षेत्र में अधिक प्रचलित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "नाथद्वार"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5496,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के उद्योग\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

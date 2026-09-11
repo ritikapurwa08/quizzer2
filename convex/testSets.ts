@@ -76,6 +76,17 @@ export const get = query({
   handler: async (ctx, args) => await ctx.db.get(args.id),
 });
 
+export const getByTopicAndName = query({
+  args: { topicId: v.id("topics"), name: v.string() },
+  handler: async (ctx, args) => {
+    const sets = await ctx.db
+      .query("testSets")
+      .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
+      .collect();
+    return sets.find((s) => s.name.trim() === args.name.trim()) ?? null;
+  },
+});
+
 export const create = mutation({
   args: {
     topicId: v.id("topics"),

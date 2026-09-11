@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख उद्योग",
+  "topicSlug": "प्रमुख-उद्योग",
+  "testSetName": "प्रमुख उद्योग - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "रीको ने अलवर जिले के किन औद्योगिक क्षेत्र में जापानी ़जोन स्थापित नहीं किए हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीमराना औद्योगिक क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "घिलोठ औद्योगिक क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "थाना गा़जी औद्योगिक क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "नीमराना तथा घिलोठ औद्योगिक क्षैत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "थाना गाजी औद्योगिक क्षेत्र में जापानी जोन स्थापित नहीं किए गए है। नीमराणा औद्योगिक क्षेत्र में पहला तथा घिलोठ औद्योगिक क्षेत्र में दूसरा जापानी जोन स्थापित किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. 2020 Paper-III",
+      "sourceQuestionId": 20816,
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जेट्रोफा आधारित बायो-डीजल पायलट प्लांट अवस्थित है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झामरकोटड़ा, उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलायत, बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बिट्ठलदेव, बाँसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बेरी, अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झामरकोटड़ा (उदयपुर) में जेट्रोफा आधारित बायो डीजल पायलट प्लांट अवस्थित है। जेट्रोफा उच्च गुणवत्ता वाले बायों डीजल का एक स्रोत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. 2020 Paper-III",
+      "sourceQuestionId": 20818,
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा जिला बंधेज साड़ियों के लिए प्रसिद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उच्च गुणवत्ता वाली बंधेज साड़ियाँ जोधपुर, बीकानेर और सीकर जिलों में बनाई जाती है। ये साड़ियाँ ‘टाई एण्ड डाई’ की प्राचीन तकनीक से बनाई जाती है। इन साड़ियो के निर्माण में पांरपरिक रूप से महीन कपास या मलमल का उपयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RO&EO 2022 Shift-I",
+      "sourceQuestionId": 20819,
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पहला सीमेंट उद्योग १९१६ में________ में स्थापित किया गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोटन"
+        },
+        {
+          "id": "opt2",
+          "text": "खारिया खंगार"
+        },
+        {
+          "id": "opt3",
+          "text": "लखेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "पैंटाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में लखेरी (बूँदी) में पहला सीमेंट उद्योग स्थापित किया गया था। यह एसीसी के द्वारा स्थापित किया था। चित्तौड़गढ़ और सवाई माधोपुर सीमेंट उत्पादन हेतु उपयुक्त क्षेत्र है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RO&EO 2022 Shift-I",
+      "sourceQuestionId": 20820,
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सफेद सीमेंट बनाने का पहला कारखाना १९८४ में कहाँ स्थापित किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केकड़ी (अजमेर)"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर (अजमेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "रींगस (जयपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "गोटन (नागौर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में सफेद सीमेंट का पहला कारखाना १९८४ ई. में गोटन (नागौर) में जे.के सीमेंट द्वारा स्थापित किया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant Engineer (Civil)2022",
+      "sourceQuestionId": 20821,
+      "reference": "📌 PYQ — RPSC Assistant Engineer (Civil)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोको तथा वैâरिज वर्कशॉप अवस्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लोको तथा वैâरिज वर्कशॉप अजमेर में स्थित है। इसकी स्थापना १८७९ में की गई थी। यहाँ १८९५ में पहला रेलवे इंजन बनकर तैयार हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "sourceQuestionId": 20822,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुकंदर पर आधारित प्रथम चीनी उद्योग स्थापित हुआ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री गंगानगर में"
+        },
+        {
+          "id": "opt2",
+          "text": "भोपालसागर में"
+        },
+        {
+          "id": "opt3",
+          "text": "केशोरायपाटन में"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चुकन्दर पर आधारित राजस्थान की प्रथम चीनी मिल की स्थापना श्रीगंगानगर में की गई थी। इसमें चुकंदर से चीनी बनाने का कार्य1968में शुरू हुआ। राजस्थान में पहली चीनी मिल ‘द मेवाड़ शुगर मिल्स’1932में चित्तौड़गढ़ में स्थापित की गयी थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2023 RPSC LDC (P-I) 2011 RPSC Stenographer 2011",
+      "sourceQuestionId": 20823,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2023 RPSC LDC (P-I) 2011 RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: भिवाड़ी औद्योगिक क्षेत्र किस जिले में है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भिवाड़ी औद्योगिक क्षेत्र राष्ट्रीय राजधानी क्षेत्र का हिस्सा है। यह राजस्थान के अलवर जिले में अवस्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 20867,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: इनमें से हाथ से कागज निर्माण का कार्य कहाँ किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बालोत्तरा"
+        },
+        {
+          "id": "opt3",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "वैâथून"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सवाईमाधोपुर के सांगानेर में हाथ से कागज निर्माण का कार्य किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 20868,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख उद्योग\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"प्रमुख उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"प्रमुख उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में परिवहन",
+  "topicSlug": "राजस्थान-में-परिवहन",
+  "testSetName": "राजस्थान में परिवहन - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य के अधिकतम क्षेत्र कौन-से रेलवे क्षेत्र के अंतर्गत आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी रेलवे"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर-पश्चिमी रेलवे"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्य रेलवे"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तर-मध्य रेलवे"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का रेल नेटवर्क उत्तर पश्चिम रेलवे के अंतर्गत आता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer 2022 Gk (G-A)",
+      "sourceQuestionId": 10891,
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर मेट्रो रेल की व्यावसायिक सेवाओं की शुरुआत किस वर्ष में हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2011"
+        },
+        {
+          "id": "opt2",
+          "text": "2013"
+        },
+        {
+          "id": "opt3",
+          "text": "2015"
+        },
+        {
+          "id": "opt4",
+          "text": "2010"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर मेट्रो ने 3 जून 2015 को चांदपोल और मानसरोवर के बीच वाणिज्यिक सेवा शुरू की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 10893,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य सड़क विकास कोष अधिनियम कब लागू हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2007"
+        },
+        {
+          "id": "opt2",
+          "text": "1999"
+        },
+        {
+          "id": "opt3",
+          "text": "2000"
+        },
+        {
+          "id": "opt4",
+          "text": "2004"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य सड़क विकास निधि अधिनियम, 2004 (2004 का अधिनियम सं. 13) के तहत, राज्य सरकार नियम बनाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+      "sourceQuestionId": 10910,
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1874 में, आगरा किला (उत्तर प्रदेश) और राजस्थान के निम्नलिखित स्टेशनों में से किस स्टेशन के बीच पहली ट्रेन चलती थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांदीकुई (दौसा)"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत में औपनिवेशिक सरकार द्वारा अप्रैल 1874 को राजस्थान में बांदीकुई जंक्शन से आगरा किले तक पहली ट्रेन चलाई गई थी। इसने बांदीकुई (दौसा) से आगरा किला (उत्तर प्रदेश) तक यात्रा की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 10917,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस वर्ष राज्य सड़क नीति की घोषणा की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1949 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1994 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1998 में"
+        },
+        {
+          "id": "opt4",
+          "text": "2001 में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1994 में राज्य सड़क नीति की घोषणा करने वाला राजस्थान देश का पहला राज्य था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "sourceQuestionId": 10921,
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम रेलमार्ग को निम्नलिखित में से किस वर्ष खोला गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1873"
+        },
+        {
+          "id": "opt2",
+          "text": "1853"
+        },
+        {
+          "id": "opt3",
+          "text": "1893"
+        },
+        {
+          "id": "opt4",
+          "text": "1899"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "​राजस्थान में प्रथम रेलमार्ग खोला गया था 11 अगस्त 1873 को।​ यह भरतपुर में स्थापित किया गया था और राज्य में रेल सेवा की शुरुआत हुई थी। 20 अप्रेल 1874 में आगरा से बांदीकुई के बीच प्रदेश में सबसे पहले ट्रेन दौड़ी थी। ब्रिटिशकालीन रेल नगरी बांदीकुई के सिर पर सूबे में पहली बार ट्रेन चलने का ताज बंधा था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+      "sourceQuestionId": 10957,
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की प्रथम महिला पायलट कौन थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कल्पना चावला"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतिभा पूनियां"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रिया शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "नम्रता भट्ट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नम्रता भट्ट राजस्थान की पहली महिला पायलट थीं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(fitter)",
+      "sourceQuestionId": 10960,
+      "reference": "📌 PYQ — Junior Instructor(fitter)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राष्ट्रीय सड़क मार्ग नं. 3 पर कौनसा नगर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10952,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में पाक सीमा का सबसे करीबी स्टेशन मुनाबाव किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10954,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में परिवहन\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में परिवहन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में परिवहन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

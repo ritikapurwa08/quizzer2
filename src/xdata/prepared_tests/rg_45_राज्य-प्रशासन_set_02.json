@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topic": "राज्य प्रशासन",
+  "topicSlug": "राज्य-प्रशासन",
+  "testSetName": "राज्य प्रशासन - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सचिवालय पुनर्गठन समिति (1969) का मुख्य उद्देश्य क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सचिवालय भवन निर्माण"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्मचारियों की भर्ती"
+        },
+        {
+          "id": "opt3",
+          "text": "सेल सिस्टम की समीक्षा"
+        },
+        {
+          "id": "opt4",
+          "text": "बजट निर्माण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1969 की समिति (मुख्यतः प्रशासनिक सुधार के लिए) का उद्देश्य सचिवालय में सेल सिस्टम (विभागीय सेल व्यवस्था) की समीक्षा और सुधार था, न कि भवन निर्माण या भर्ती।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 12398,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीति और प्रशासन से संबंधित सभी मामलों में, मुख्यमंत्री का मुख्य सलाहकार कौन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्य के मुख्य सचिव"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य उच्च न्यायालय के मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt4",
+          "text": "गृह मंत्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मुख्य सचिव (Chief Secretary) राज्य का सर्वोच्च नौकरशाह होता है। वह मुख्यमंत्री को नीति निर्माण, प्रशासनिक कार्यों, फाइलों और सभी सरकारी मामलों में मुख्य सलाह देता है। राज्यपाल संवैधानिक प्रमुख होता है, पर प्रशासनिक सलाहकार नहीं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 12399,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में किसी राज्य के महाधिवक्ता (ऐड्वोकेट जनरल) की नियुक्ति कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य का कानून मंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "उस राज्य का राज्यपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "उस राज्य का मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुसार, राज्य का सर्वोच्च विधिक अधिकारी महाधिवक्ता राज्यपाल द्वारा नियुक्त किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 12400,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान राज्य में सर्वोच्च श्रेणी वाला पुलिस अधिकारी पद है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुलिस महानिरीक्षक (IGP)"
+        },
+        {
+          "id": "opt2",
+          "text": "पुलिस महानिदेशक (DGP)"
+        },
+        {
+          "id": "opt3",
+          "text": "वरिष्ठ पुलिस अधीक्षक (SSP)"
+        },
+        {
+          "id": "opt4",
+          "text": "पुलिस उप महानिरीक्षक (डिप्टी IGP)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "DGP (Director General of Police) किसी राज्य का सर्वोच्च पुलिस अधिकारी होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 12401,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन-सा विभाग विभिन्न राज्य सेवाओं में भर्ती के प्रबंधन के लिए जिम्मेदार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रम विभाग"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्मिक विभाग (DoP)"
+        },
+        {
+          "id": "opt3",
+          "text": "गृह मंत्रालय"
+        },
+        {
+          "id": "opt4",
+          "text": "उद्योग विभाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कार्मिक विभाग (DoP) विभिन्न राज्य सेवाओं में भर्ती के प्रबंधन के लिए जिम्मेदार है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+      "sourceQuestionId": 12402,
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के प्रथम मुख्य सचिव थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री एस.डब्ल्यू. शिवेशकर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री के. राधाकृष्णन"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री वी. नारायण"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री बी. जी. राव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के पहले मुख्य सचिव श्री के. राधाकृष्णन (1949) थे। राजस्थान की पहली महिला मुख्य सचिव श्रीमती कुशलसिंह थीं। 1973 के बाद इस पद को केंद्र सरकार के सचिव के समकक्ष मानकीकृत किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Prahari 2024 Shift 2",
+      "sourceQuestionId": 12403,
+      "reference": "📌 PYQ — Prahari 2024 Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पुलिस में आरएसी (RAC) क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt2",
+          "text": "राजगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt3",
+          "text": "आरक्षित सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान सशस्त्र कांस्टेबुलरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आरएसी (RAC) का पूर्ण रूप राजस्थान सशस्त्र कांस्टेबुलरी (Rajasthan Armed Constabulary) है। यह राजस्थान पुलिस का एक विशेष सशस्त्र बल है, जो दंगों, भीड़ नियंत्रण, और अन्य सुरक्षा कार्यों के लिए जिम्मेदार है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Prahari 2024 Shift 1",
+      "sourceQuestionId": 12404,
+      "reference": "📌 PYQ — Prahari 2024 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: मुख्य सचिव के पद पर नियुक्त होने वाले अधिकारी का चयन किसके द्वारा किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गृहमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्यपाल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "Raj Jail Warder (28-10-18) Shift 2",
+      "sourceQuestionId": 12466,
+      "reference": "✎ PYQ Modified · Raj Jail Warder (28-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में कार्यरत भारतीय प्रशासनिक सेवा के अधिकारियों का चयन कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विश्वविद्यालय अनुदान आयोग"
+        },
+        {
+          "id": "opt2",
+          "text": "गृह मंत्रालय"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान लोक सेवा आयोग"
+        },
+        {
+          "id": "opt4",
+          "text": "संघ लोक सेवा आयोग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में कार्यरत भारतीय प्रशासनिक सेवा (आईएएस) अधिकारियों का चयन राजस्थान लोक सेवा आयोग (आरपीएससी) करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12442,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राज्य प्रशासन\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राज्य प्रशासन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राज्य प्रशासन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

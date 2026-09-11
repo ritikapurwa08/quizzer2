@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "थारपारकर नस्ल के गौवंश का उत्पत्ति स्थल माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालाणी"
+        },
+        {
+          "id": "opt2",
+          "text": "हरियाणा"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "दरीबा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "थारपारकर नस्ल की गाय का उत्पत्ति स्थल बाड़मेर के मालाणी गांव को माना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 5997,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बड़वारी नस्ल संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गौवंश"
+        },
+        {
+          "id": "opt2",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt3",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt4",
+          "text": "भेड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बकरी की प्रमुख नस्लें : शेखावाटी, लोही, जमनापरी, बड़वारी, अलवरी (जखराना)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 5998,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए:सूची-I (पशु) सूची-II (नस्ल)A. भेड़ 1. मुर्राB. गोवंश 2. नाचनाC. ऊँट 3. राठीD. भैंस 4. नालीकूट : A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4 3 2 1"
+        },
+        {
+          "id": "opt2",
+          "text": "4 3 1 2"
+        },
+        {
+          "id": "opt3",
+          "text": "3 4 2 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2 3 4 1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भेड़ की नस्लें : चोकला(शेखावटी), जैसलमेरी, नाली, मगरा, मारवाड़ी, सोनाड़ी/चनोथर, पूगल, मालपुरी/अविका नगरी, खेरी नस्लऊँट की नस्लें : नांचना, गोमठ, बीकानेरी, जैसलमेरी, मेवाड़ी ऊँटगोवंश की नस्लें : गिर गाय, राठी, थारपारकर, नागौरी, कांकरेज, मेवाती/कोठी, मालवी, हरियाणवीभैंस की नस्लें : मुर्रा(कुन्नी), बदावरी, जाफाराबादी, सूरती",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 5999,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न कथनों पर विचार कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए:A. राजस्थान में प्रति व्यक्ति दुग्ध उपलब्धता राष्ट्रीय औसत से अधिक है।B. राजस्थान में ऑपरेशन फ्लड-I का प्रारंभ 1970 में हुआ।C. राजस्थान में डेयरी विकास के लिए राजस्थान सहकारी डेयरी फेडरेशन शीर्ष निकाय है । कूट :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल A तथा B सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल B तथा C सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "सभी सही हैं"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल A तथा C सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "देश में दुग्ध उत्पादन में राज्य दूसरे स्थान पर है। ऑपरेशन फ्लड कार्यक्रम 1970 में शुरू हुआ था। राजस्थान सहकारी डेयरी फेडरेशन (RCDF) ने राजस्थान में डेयरी विकास कार्यक्रमों के कार्यान्वयन एजेंसी के रूप में 1977 में स्थापना की । यह राजस्थान सहकारी समितियों अधिनियम 1965 के तहत एक सोसायटी के रूप में पंजीकृत है।फेडरेशन एक राज्य स्तरीय शीर्ष सहकारी संगठन है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 6000,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए एवं नीचे दिए कूट से सही उत्तर का चयन कीजिए: सूची-I (पशुधन) सूची-II (नस्ल) A. भेड़ (i) सूरती B. गौवंश (ii) नाली C. भैंस (iii) बरबरी D. बकरी (iv) सांचोरीकूट : A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii) (i) (iv) (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(ii) (iv) (iii) (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) (iv) (i) (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (iii) (i) (ii)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भेड़ नालीगौवंश सांचोरीभैंस सूरतीबकरी बरबरी",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "sourceQuestionId": 6001,
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "19वीं पशुधन गणना (2012) से 20वीं पशुधन गणना (2019) में राजस्थान में पशुधन की कुल संख्या में परिवर्तन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2.66% की कमी"
+        },
+        {
+          "id": "opt2",
+          "text": "1.66% की वृद्धि"
+        },
+        {
+          "id": "opt3",
+          "text": "1.66% की कमी"
+        },
+        {
+          "id": "opt4",
+          "text": "4.2% की वृद्धि"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "20 वीं पशुगणना के अनुसार राजस्थान में कुल पशुधन 56.8 मिलियन(5.68 करोड़) है। जो कि 2012 की 57.7 मिलियन(5.77 करोड़) था। इस प्रकार 2019 में कुल पशुओं की संख्या में 1.66 प्रतिशत की कमी देखी गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "sourceQuestionId": 6006,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘कांकरेज’ नस्ल का प्रमुख केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कांकरेज (Kankrej) : यह गुजरात में बनासकांठा जिले के भौगोलिक क्षेत्र कंक तालुका के नाम से इसका नाम कांकरेज पड़ा है। राजस्थान के दक्षिण-पश्चिमी भागों बाड़मेर, जोधपुर, सिरोही तथा जालौर जिलों में पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2021",
+      "sourceQuestionId": 6008,
+      "reference": "📌 PYQ — Computor Exam 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘राष्ट्रीय बकरी अनुसंधान संस्थान’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तारानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "अविकानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजनगर(राजसमंद)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6125,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: जैसलमेर जिले की मुख्य मवैशी की नस्ल का नाम बताइए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिर"
+        },
+        {
+          "id": "opt2",
+          "text": "थारपारकर"
+        },
+        {
+          "id": "opt3",
+          "text": "कांकरेज"
+        },
+        {
+          "id": "opt4",
+          "text": "राठी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6126,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

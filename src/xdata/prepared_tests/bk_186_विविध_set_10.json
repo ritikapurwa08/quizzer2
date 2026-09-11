@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "(x4 + 1) में क्या जोड़ा जाए कि यह(x + 1) से पूर्ण विभाजित हो जाए?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "–2"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "–1"
+        },
+        {
+          "id": "opt4",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "Q x + 1 = 0 x = – 1 P (x) = x4 + 1 शून्य होना चाहिए मानाP(x)मेंAजोड़ने पर– P (x) + A = 0 x4 + 1 + A = 0 (– 1)4 + 1 + A = 0 [Q x = – 1] 1 + 1 + A = 0 2 + A = 0 ⇒ A = – 2 अत:(x4 + 1)में–2जोड़ने पर यह(x + 1)से पूर्णत: विभाजित हो जाएगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. 2011",
+      "sourceQuestionId": 25147,
+      "reference": "📌 PYQ — RPSC School Lect. 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि n एक प्राकृत संख्या है, तो (92n–42n) हमेशा किससे विभाजित होती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 केवल"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 13"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 5 और 13"
+        },
+        {
+          "id": "opt4",
+          "text": "5, 13 और 19"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "Q (a2n – b2n) तब,(a – b), (a + b) प्रश्नानुसार, (92n – 42n) ⇒ (9 – 4), (9 + 4) = 5, 13 अत: यदिnप्राकृतिक संख्या है, तो(92n – 42n)हमेशा5और 13से विभाजित होगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-A (S.E.)2022",
+      "sourceQuestionId": 25148,
+      "reference": "📌 PYQ — RPSC School Lect. Group-A (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि2x= 3y = 12z, हो तोxy =?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "z(x + 2y)"
+        },
+        {
+          "id": "opt2",
+          "text": "z(x + y)"
+        },
+        {
+          "id": "opt3",
+          "text": "z(2x + y)"
+        },
+        {
+          "id": "opt4",
+          "text": "z2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2x = 3y = 12z = k 2x = k, 3y = k, 12z = k 2 = 1 x k,3 = 1 y k,12 = 1 z k 12 = 1 z k 2²2²3 = 1 z k 1 x k² 1 x k² 1 y k= 1 z k 2 1 1 x y z + = z(2y + x) = xy",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (S.E.) 2018",
+      "sourceQuestionId": 25149,
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "aके किस मान के लिये, बहुपद4x3–ax2+ 2x – 1 और3x3 + 7x2 – 8x + a, (x–1) द्वारा भाग दिया जाता है, तो समान शेषफल रहता है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1"
+        },
+        {
+          "id": "opt2",
+          "text": "3/2"
+        },
+        {
+          "id": "opt3",
+          "text": "5/2"
+        },
+        {
+          "id": "opt4",
+          "text": "7/2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "P(x) = 4x3 – ax2 + 2x –1, q(x) = 3x3 +7x2 – 8x + a g(x) = x–1 प्रश्नानुसार, p(x) तथा q(x) में g(x)से भाग देने पर शेषफल समान रहता है। x –1 = 0 x = 1 4(1)3 – a(1)2 + 2²1–1 = 3(1)3 + 7(1)2 – 8²1 + a 4 – a +2 –1 = 3+ 7 –8 +a 5–2 = 2a 3 a 2 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (S.E.) 2018",
+      "sourceQuestionId": 25150,
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि5X.3Y = 225 × 405 हो, तोX2Y–3Xका मान है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "81"
+        },
+        {
+          "id": "opt3",
+          "text": "125"
+        },
+        {
+          "id": "opt4",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "5x.3y = 225× 405 = 3×3×5×5×3×3×3×3×5 = 53.36 x = 3, y = 6 x2y–3x (3)2×6–3×3 = 312–9 = 33 = 27",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (S.E.)2020",
+      "sourceQuestionId": 25152,
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "63×314×117×654में अभाज्य गुणनखंडों की संख्या है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "35"
+        },
+        {
+          "id": "opt2",
+          "text": "21"
+        },
+        {
+          "id": "opt3",
+          "text": "28"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्ञात नहीं कर सकते"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "क्रमश: अभाज्य संख्याएँ= 2, 3, 5, 7, 11, 13....... प्रश्नानुसार, 63 × 314 × 117 × 654 ⇒ (2 × 3)3 × 314 × 117 × (5 × 13)4 ⇒ 23 × 33 × 314 × 117 × 54 × 134 अत: अभाज्य गुणनखंडों की संख्या घातों का योग = 3 + 3 + 14 + 7 + 4 + 4 = 35",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. 2015",
+      "sourceQuestionId": 25153,
+      "reference": "📌 PYQ — RPSC School Lect. 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदिx2-3x+1 = 0 हो, तो 5 5 1 + x xका मान होगा:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "97"
+        },
+        {
+          "id": "opt2",
+          "text": "108"
+        },
+        {
+          "id": "opt3",
+          "text": "126"
+        },
+        {
+          "id": "opt4",
+          "text": "123"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "x2 – 3x + 1 = 0 2 x 3x 1 + = 0 x x x − (xसे भाग देने पर) 1 x 3+ = 0 x − ⇒ 1 x + = 3 x सूत्र से– 5 2 3 5 2 3 1 1 1 1 x + = x + x + x + x x x x        −              2 2 2 1 x + = 3 2 = 9 2 = 7 x − − 3 3 3 1 x + = 3 (3×3) = 27 9 =18 x − − ∴ 2 5 3 5 2 3 1 1 1 1 x + = x + x + x + x x x x        −              = (7 × 18) – 3 = 126 – 3 = 123",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. 2015",
+      "sourceQuestionId": 25154,
+      "reference": "📌 PYQ — RPSC School Lect. 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में बेर एवं खजूर अनुसंधान केद्र स्थित है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में बेट एवं खजूर अनुसंधान संस्थान राजस्थान के बीका नेट में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 26076,
+      "reference": "✎ PYQ Modified · RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मानगढ़ हत्याकाण्ड किस वर्ष में हुआ था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1908 A.D"
+        },
+        {
+          "id": "opt2",
+          "text": "1905 A.D"
+        },
+        {
+          "id": "opt3",
+          "text": "1915 A.D"
+        },
+        {
+          "id": "opt4",
+          "text": "1913 A.D"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मानगढ़ हत्याकाण्ड १७ नवम्बर, १९१३ को हुआ था। यह हत्याकाण्ड भील विद्रोह के अन्त में ब्रिटिश और भारतीय सैनिकों के हमले के बाद हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 26077,
+      "reference": "✎ PYQ Modified · RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

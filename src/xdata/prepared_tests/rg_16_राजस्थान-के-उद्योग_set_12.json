@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के उद्योग",
+  "topicSlug": "राजस्थान-के-उद्योग",
+  "testSetName": "राजस्थान के उद्योग - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सफेद सीमेंट बनाने का पहला कारखाना 1984 में कहाँ स्थापित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केकड़ी (अजमेर)"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर (अजमेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "रींगस (जयपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "गोटन (नागौर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में सफेद सीमेंट का प्रथम कारखाना जे. के. व्हाईट. सीमेंट वर्क्स, गोटन (नागौर) में 1984 में स्थापित किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "sourceQuestionId": 5245,
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची -I को सूची -II से सुमेलित कीजिए तथा नीचे दिये कूट से सही उत्तर का चयन कीजिए :सूची-I (सीमेण्ट उद्योग)सूची-II (स्थान)A. जे.के. सीमेण्ट i. मोडकB. बिरला सीमेण्ट ii. पिण्डवाड़ाC. बिनानी सीमेण्ट iii. चितौड़गढ़D. नीर श्री सीमेण्ट iv. निम्बाहेडाकूट : A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii i iv ii"
+        },
+        {
+          "id": "opt2",
+          "text": "iv iii ii i"
+        },
+        {
+          "id": "opt3",
+          "text": "iv ii i iii"
+        },
+        {
+          "id": "opt4",
+          "text": "i ii iii iv"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सीमेण्ट उद्योगस्थानजे. के. सीमेन्ट निम्बाहेड़ाबिनानी सीमेंट पिन्डवाड़ाबिरला सीमेण्ट चित्तौड़गढ़नीर श्री सीमेण्ट मोडक",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 5246,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस वर्ष में राजस्थान सूक्ष्म, लघु और मध्यम उद्यम नीति शुरू की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2020"
+        },
+        {
+          "id": "opt2",
+          "text": "2021"
+        },
+        {
+          "id": "opt3",
+          "text": "2022"
+        },
+        {
+          "id": "opt4",
+          "text": "2019"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान सरकार ने साल 2022-23 में सूक्ष्म, लघु और मध्यम उद्यमों (एमएसएमई) के विकास और प्रोत्साहन के लिए ‘राजस्थान सूक्ष्म, लघु एवं मध्यम उद्यम नीति - 2022’ लागू करने का फ़ैसला लिया था",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 5247,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से, किस शहर में ‘इन्द्रप्रस्थ औद्योगिक क्षेत्र’ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "इंद्रप्रस्थ औद्योगिक क्षेत्र कोटा शहर में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2023",
+      "sourceQuestionId": 5249,
+      "reference": "📌 PYQ — Computor Exam 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मिशन निर्यातक बनो’, राजस्थान में किस वर्ष प्रारम्भ की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2020 में"
+        },
+        {
+          "id": "opt2",
+          "text": "2021 में"
+        },
+        {
+          "id": "opt3",
+          "text": "2022 में"
+        },
+        {
+          "id": "opt4",
+          "text": "2023 में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इसे 28 जुलाई, 2021 को शुरू किया गया था। राजस्थान सरकार के उद्योग विभाग और राजस्थान राज्य औद्योगिक विकास और निवेश निगम (RIICO) ने राज्य में महत्वाकांक्षी निर्यातकों को बढ़ावा देने के लिए मिशन निर्यातक बनो अभियान शुरू किया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Statistical Office Exam - 2023 (GK)",
+      "sourceQuestionId": 5250,
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुकन्दर पर आधारित प्रथम चीनी उद्योग स्थापित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री गंगानगर में"
+        },
+        {
+          "id": "opt2",
+          "text": "भोपालसागर में"
+        },
+        {
+          "id": "opt3",
+          "text": "केशोरायपाटन में"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्रीगंगानगर शुगर मिल्स लिमिटेड में चुकन्दर से चीनी बनाने के लिए एक योजना 1968 में आरम्भ की गई थी जो अनार्थिक होने के कारण अब बंद कर दी गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS (Pre) Exam - 2023",
+      "sourceQuestionId": 5251,
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक रीको (RIICO) कृषि खाद्य फार्म केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रीको, भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उद्योगविहार, जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "एम आइ ए, कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बोरानाडा, जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रीको ने राजस्थान में चार एग्रो-फूड पार्क विकसित किए हैं। ये हैं- रानपुर (कोटा), बोरानाडा (जोधपुर), श्रीगंगानगर तथा अलवर।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Food Safety Officer - 2022",
+      "sourceQuestionId": 5252,
+      "reference": "📌 PYQ — Food Safety Officer - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राज्य में हैण्डीका्रफ्ट के लिए टाउन आॅफ एक्सपोर्ट एक्सीलेंस का दर्जा किसे मिला हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5409,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: औद्योगिक विकास संवर्द्धन हेतु राजस्थान में निम्न संस्था सक्रिय है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर. आई. आई. सी. ओ"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसीको"
+        },
+        {
+          "id": "opt3",
+          "text": "राजकोन"
+        },
+        {
+          "id": "opt4",
+          "text": "आरएफसी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5417,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के उद्योग\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

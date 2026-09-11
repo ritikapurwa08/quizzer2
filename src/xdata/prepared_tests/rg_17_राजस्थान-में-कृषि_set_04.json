@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए -सूची-Iसूची-II(A) I-A(i) अर्द्ध-शुष्क पूर्वी मैदान(B) II-A(ii) शुष्क उत्तर-पश्चिमी मैदान(C) III-A(iii) उप-आर्द्र दक्षिणी मैदान(D) IV-A(iv) अन्तः प्रवाह शुष्क प्रदेशकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "I-A: शुष्क पश्चिमी मैदान (उत्तर-पश्चिमी शुष्क)II-A: अन्तः प्रवाह शुष्क प्रदेश (internal drainage arid)III-A: अर्द्ध-शुष्क पूर्वी मैदानIV-A: उप-आर्द्र दक्षिणी मैदान (sub-humid southern)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 5548,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कृषि सांख्यिकी 2022-23 के अनुसार राजस्थान में सबसे बड़ी भूमि उपयोग श्रेणी कौन सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सकल फसल क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "वन"
+        },
+        {
+          "id": "opt3",
+          "text": "सकल सिंचित क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2022-23 में राजस्थान की कुल रिपोर्टिंग क्षेत्र में सकल फसल क्षेत्र (Gross Cropped Area) सबसे बड़ा था। यह दोहरी फसल वाली भूमि को शामिल करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5549,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किन क्षेत्रों को कृत्रिम रेशम (तसर) के लिए विकसित किया जा रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा, कोटा और उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर, जालौर और बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर और पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर और डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कोटा, उदयपुर और बांसवाड़ा जिलों में कृत्रिम रेशम जिसे ‘टसर’ कहा जाता है, विकसित किया जा रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5550,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस कृषि-जलवायु क्षेत्र में कपास एक प्रमुख खरीफ फसल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंचित उत्तर-पश्चिमी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "आंतरिक जल निकासी शुष्क क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "लूनी बेसिन का परिवर्ती मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "उप-आर्द्र दक्षिणी मैदान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्रीगंगानगर, हनुमानगढ़, बीकानेर आदि सिंचित उत्तर-पश्चिमी मैदानी क्षेत्र में नहर सिंचाई से अमेरिकन कपास (Bt cotton) बहुत होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5551,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के शुष्क पश्चिमी मैदान कृषि-जलवायु क्षेत्र में निम्नलिखित में से कौनसी एक प्रमुख रबी फसल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "मोठ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी शुष्क मैदान (बीकानेर, श्रीगंगानगर, हनुमानगढ़ आदि) में इंदिरा गांधी नहर से सिंचाई होने के कारण रबी में गेहूँ प्रमुख फसल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 5552,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सूखे पश्चिमी जिलों में जल के अभाव को सहन करने वाले वे कौन से दो फसल हैं जिन्हें खरीफ ऋतु में मुख्य खाद्यान के रूप में उगाया जाता है -नीचे दिए गए विकल्पों में से सही उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गन्ना और कपास"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ और बार्ली"
+        },
+        {
+          "id": "opt3",
+          "text": "धान और मक्का"
+        },
+        {
+          "id": "opt4",
+          "text": "बाजरा (पर्ल मिलेट) और मुंग (ग्रीन ग्राम)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के पश्चिमी सूखाग्रस्त जिलों (जैसे बाड़मेर, जैसलमेर) में खरीफ मौसम (जून-सितंबर) में कम वर्षा के कारण बाजरा (पर्ल मिलेट) और मुंग (ग्रीन ग्राम) जैसी सूखा-सहनशील फसलें मुख्य खाद्यान्न के रूप में उगाई जाती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "परिचालक सीधी भर्ती-2024",
+      "sourceQuestionId": 5553,
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के अर्द्धशुष्क पूर्वी मैदान (III-A), कृषि जलवायु प्रदेश के संदर्भ में कौनसा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यहाँ सिंचित और असिंचित दोनों प्रकार की कृषि की जाती है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका विस्तार जयपुर, अजमेर, दौसा व टोंक जिलों में है।"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का, मूंगफली तथा ज्वार रबी की प्रमुख फसलें हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "यहाँ 50 से.मी. से 70 से.मी. औसत वर्षा होती है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अर्द्ध शुष्क पूर्वी मैदानी क्षेत्र (III-A) का विस्तार अजमेर, ब्यावर, जयपुर, जयपुर ग्रामीण, दौसा, टोंक, खैरथल तिजारा, कोटपूतली बहरोड़ जिलों में है। गेहूं, सरसों एवं चना रबी की प्रमुख फसलें हैं। बाजरा, ग्वार एवं ज्वार खरीफ की प्रमुख फसलें हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+      "sourceQuestionId": 5554,
+      "reference": "📌 PYQ — CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: जालोर और बाड़मेर जिले राजस्थान में किस फसल के उत्पादक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आलू"
+        },
+        {
+          "id": "opt2",
+          "text": "इसबगोल"
+        },
+        {
+          "id": "opt3",
+          "text": "लहसुन"
+        },
+        {
+          "id": "opt4",
+          "text": "धनियाँ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5778,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘वालरा’ पद्धति जो कि पर्यावरणीय अवनयन का कारण है, का एक प्रकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्राकृतिक वनस्पति"
+        },
+        {
+          "id": "opt2",
+          "text": "जंगली जानवर"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि"
+        },
+        {
+          "id": "opt4",
+          "text": "चिकित्सकीय उपचार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5781,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

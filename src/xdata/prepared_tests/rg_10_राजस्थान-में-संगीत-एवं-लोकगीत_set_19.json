@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में संगीत एवं लोकगीत",
+  "topicSlug": "राजस्थान-में-संगीत-एवं-लोकगीत",
+  "testSetName": "राजस्थान में संगीत एवं लोकगीत - अभ्यास टेस्ट 19",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्नलिखित में से कौन सा (प्रसिद्ध संगीतकार – विशेषज्ञता) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुल्तान खां – कमायचा"
+        },
+        {
+          "id": "opt2",
+          "text": "जिया फरीदुद्दीन डागर – ध्रुपद"
+        },
+        {
+          "id": "opt3",
+          "text": "चतुर लाल – तबला"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्वमोहन भट्ट – मोहन वीणा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 2881,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘झोरवा’ गीत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक विरह गीत"
+        },
+        {
+          "id": "opt2",
+          "text": "परिवार में गाया जाने वाला एक जन्मोत्सव गीत"
+        },
+        {
+          "id": "opt3",
+          "text": "वधू विदाई गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "फसल रोपने के समय गाया जाने वाला गीत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WC&S)2018",
+      "sourceQuestionId": 2883,
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न प्रसिद्ध गजल गायकों में से कौन राजस्थान से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनूप जलोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जगजीत सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "पंकज उधास"
+        },
+        {
+          "id": "opt4",
+          "text": "गुलाम अली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LSA 2022",
+      "sourceQuestionId": 2887,
+      "reference": "📌 PYQ — RSMSSB LSA 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जहूर खान किस लोकवाद्य से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भपंग"
+        },
+        {
+          "id": "opt2",
+          "text": "नड़"
+        },
+        {
+          "id": "opt3",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt4",
+          "text": "खड़ताल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+      "sourceQuestionId": 2888,
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘ओल्यू’ राजस्थानी लोक जीवन के किस अवसर से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुत्र जन्मोत्सव गीत"
+        },
+        {
+          "id": "opt2",
+          "text": "पुत्री विवाह का विदाई गीत"
+        },
+        {
+          "id": "opt3",
+          "text": "होली पर किया जाने वाला लोक नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "बारात की आगवानी का गीत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Electrical Degree (GK)",
+      "sourceQuestionId": 2891,
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा घन लोक वाद्य यन्त्र नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंजीरा"
+        },
+        {
+          "id": "opt2",
+          "text": "चीपिया"
+        },
+        {
+          "id": "opt3",
+          "text": "बांकिया"
+        },
+        {
+          "id": "opt4",
+          "text": "हांकल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Civil Diploma (GK)",
+      "sourceQuestionId": 2893,
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पटेल्या, बीछियो, लालर व माछर क्या हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ के प्रसिद्ध गीत"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ के प्रसिद्ध गीत"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवात के प्रसिद्ध गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती के प्रसिद्ध गीत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+      "sourceQuestionId": 2895,
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से कौन सा वाद्य यन्त्र खाल से मंढ़ा नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नगाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt3",
+          "text": "खंजरी"
+        },
+        {
+          "id": "opt4",
+          "text": "चंग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 3019,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: वह वाद्य यन्त्र जिसमें सांप को मोहित करने की शक्ति होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसूरी"
+        },
+        {
+          "id": "opt2",
+          "text": "शहनाई"
+        },
+        {
+          "id": "opt3",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "भपंग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 3020,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में संगीत एवं लोकगीत\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में संगीत एवं लोकगीत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में संगीत एवं लोकगीत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

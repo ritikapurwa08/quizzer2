@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन्यजीव",
+  "topicSlug": "राजस्थान-में-वन्यजीव",
+  "testSetName": "राजस्थान में वन्यजीव - अभ्यास टेस्ट 13",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का मनसा माता संरक्षण रिजर्व अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली में"
+        },
+        {
+          "id": "opt2",
+          "text": "झुन्झुनू में"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मनसा माता संरक्षण रिजर्व राजस्थान के झुन्झुनू जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "sourceQuestionId": 13824,
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ग्रेट इंडियन बस्टर्ड किस अभयारण्य में पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाहरगढ़ अभयारण्य"
+        },
+        {
+          "id": "opt2",
+          "text": "चंबल अभयारण्य"
+        },
+        {
+          "id": "opt3",
+          "text": "शेरग्रह अभयारण्य"
+        },
+        {
+          "id": "opt4",
+          "text": "सरिस्का अभयारण्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "‘ग्रेट इंडियन बस्टर्ड’ भारत और पाकिस्तान की भूमि पर पाया जाने वाला एक विशाल पक्षी है। यह विश्व में पाए जाने वाली सबसे बड़ी उड़ने वाली पक्षी प्रजातियों में से एक है। यह मुख्य रूप से डेजर्ट नेशनल पार्क और सरिस्का अभयारण्य में संरक्षित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 13829,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आकाल वन अभिलेख पार्क किस प्राकृतिक क्षेत्र में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आकल जीवाश्म उद्यान भारत का एक राष्ट्रीय भूवैज्ञानिक स्मारक है, जो राजस्थान के जैसलमेर जिले में स्थित है। यह एक जैव विविधता विरासत स्थल भी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "sourceQuestionId": 13830,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में सर्प अभयारण्य स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का सर्प अभयारण्य कोटा जिले में स्थित है। यह संरक्षित क्षेत्र सर्पों की विभिन्न प्रजातियों का संरक्षण करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "sourceQuestionId": 13831,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में क्षेत्रफल के हिसाब से सबसे बड़ा नेशनल पार्क कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवलादेव राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt2",
+          "text": "दरा राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt3",
+          "text": "रणथंभौर राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt4",
+          "text": "डेज़र्ट राष्ट्रीय उद्यान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "डेज़र्ट नेशनल पार्क, जो जैसलमेर और बाड़मेर जिलों में फैला हुआ है, राजस्थान का सबसे बड़ा राष्ट्रीय उद्यान है। यह पार्क थार मरुस्थल की अनूठी जैव विविधता को संरक्षित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "sourceQuestionId": 13832,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कोटा में स्थित टाइगर रिज़र्व के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाहरगढ़ जैविक उद्यान"
+        },
+        {
+          "id": "opt2",
+          "text": "मछिया सफारी पार्क"
+        },
+        {
+          "id": "opt3",
+          "text": "केवलादेव राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt4",
+          "text": "मुकुंदरा रिज़र्व पार्क"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुकुंदरा टाइगर रिजर्व (टीआर) राजस्थान के कोटा के पास स्थित है। यह पार्क दो समानांतर पहाड़ों मुकुंदरा और गर्गोला से बनी घाटी में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "sourceQuestionId": 13834,
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा वन्यजीव अभयारण्य एक से अधिक जिलों में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फुलवाड़ी-की-नाल"
+        },
+        {
+          "id": "opt2",
+          "text": "टॉडगढ़-रावली"
+        },
+        {
+          "id": "opt3",
+          "text": "रामसागर वन विहार"
+        },
+        {
+          "id": "opt4",
+          "text": "भैंसरोडगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "टाडगगढ़ रावली ब्यावर, पाली व राजसमन्द में फैला हुआ हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 13835,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: हाल ही में वन विभाग राजस्थान ने गोडावण के अंडे सेने की कृत्रिम विधि हेतु निम्न में से जिस संस्था से सहयोग करार किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाइल्डलाइफ इन्स्टीट्यूट आॅफ इंडिया, देहरादून"
+        },
+        {
+          "id": "opt2",
+          "text": "बाॅम्बे नेचुरल हिस्ट्री सोसाइटी, मुंबई"
+        },
+        {
+          "id": "opt3",
+          "text": "बर्ड कन्जर्वेशन सोसायटी, नई दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "वल्र्डवाइड फंड फाॅर नेचर, स्विट्जरलैण्ड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13996,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: हरे कबूतर राजस्थान में किस अभयारण्य में पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बन्द बारेठा"
+        },
+        {
+          "id": "opt2",
+          "text": "केवलादेव"
+        },
+        {
+          "id": "opt3",
+          "text": "नाहरगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सरिस्का"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13999,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन्यजीव\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में वन्यजीव\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में वन्यजीव\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

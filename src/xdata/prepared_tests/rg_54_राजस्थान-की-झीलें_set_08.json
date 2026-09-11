@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की झीलें",
+  "topicSlug": "राजस्थान-की-झीलें",
+  "testSetName": "राजस्थान की झीलें - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए:सूची-I (झील)सूची-II (स्थित / के निकट)(a) जयसमंद झील(i) नागौर(b) सांभर झील(ii) बारमेर(c) डिडवाना झील(iii) उदयपुर(d) पंचपंद्रा झील(iv) जयपुरनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(i), (b)-(iv), (c)-(iii), (d)-(ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जयसमंद झील - उदयपुरसांभर झील - जयपुरडिडवाना झील - नागौरपंचपंद्रा झील - बारमेर",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-II",
+      "sourceQuestionId": 13525,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कोलायत झील” राजस्थान के निम्नलिखित में से किस स्थान में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरु"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कोलायत झील राजस्थान के बीकानेर जिले में स्थित है। झील के समीप साख्य दर्शन के प्रणेता कपिल मुनि का आश्रम है। इस आश्रम को “राजस्थान का सुन्दर मरूद्यान” भी कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 23 October Shift-I",
+      "sourceQuestionId": 13526,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी ताजा पानी की झील है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डिडवाना"
+        },
+        {
+          "id": "opt2",
+          "text": "पचपदरा"
+        },
+        {
+          "id": "opt3",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदेई सागर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उदयसागर झील उदयपुर की पांच प्रमुख झीलों में से एक है। उदयपुर शहर में पाँच प्रमुख झीलें हैं, जिनमें से एक उदयसागर झील है। शहर से लगभग 13 किलोमीटर पूर्व में स्थित इस झील का निर्माण महाराणा उदय सिंह के शासनकाल के दौरान हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-1",
+      "sourceQuestionId": 13527,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पिचौला (पिछौला) झील, राजस्थान के निम्नलिखित में से किस स्थान में पायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पिछोला झील राजस्थान के उदयपुर में स्थित है और अपनी प्राकृतिक सुंदरता और आकर्षक महलों के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "sourceQuestionId": 13529,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस स्थान पर आनासागर झील स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा शहर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर शहर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर शहर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर शहर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आनासागर झील राजस्थान के अजमेर शहर में स्थित है। इसका निर्माण राजा अर्णोराज चौहान ने 12वीं शताब्दी में करवाया था। यह झील अजमेर का प्रमुख पर्यटन स्थल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Exam 2024 (Paper - I)",
+      "sourceQuestionId": 13530,
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सरदार समंद झील तथा जैत सागर झील क्रमशः अवस्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद तथा अलवर में"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली तथा नागौर में"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर तथा अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली तथा बूंदी में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "डॉ. हरिमोहन सक्सेना की पुस्तक ‘राजस्थान का भूगोल’ और माध्यमिक शिक्षा बोर्ड की कक्षा 10 की ‘राजस्थान अध्ययन’ की पुस्तक के अनुसार पाली जिले में स्थित सरदार समंद झील का निर्माण सन 1933 में महाराजा उम्मेद सिंह ने करवाया था।जैत सागर झील बूंदी जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "sourceQuestionId": 13537,
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस झील का क्षेत्रफल संकुचित हो रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बजाज सागर का"
+        },
+        {
+          "id": "opt2",
+          "text": "तालछापर का"
+        },
+        {
+          "id": "opt3",
+          "text": "बालसमन्द का"
+        },
+        {
+          "id": "opt4",
+          "text": "भूपाल सागर का"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तालछापर झील, राजस्थान के चुरू ज़िले में स्थित है और ताल छपर पक्षी अभयारण्य का हिस्सा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 13541,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजसमंद झील के किनारे स्थित राजप्रशस्ति किस पुस्तक पर आधारित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजीतोदय"
+        },
+        {
+          "id": "opt2",
+          "text": "अमर काव्य वंशावली"
+        },
+        {
+          "id": "opt3",
+          "text": "अमरसार"
+        },
+        {
+          "id": "opt4",
+          "text": "एकलिंग महात्म्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजप्रशस्ति अमरकाव्य वंशावली नामक पुस्तक पर आधारित है जिसके लेखक - रणछोड़ भट्ट तैलंग है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13659,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से किस झील से श्यामपुरा व भट्टा/भाट दो नहरें निकली हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt3",
+          "text": "पिछोला"
+        },
+        {
+          "id": "opt4",
+          "text": "आनासागर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में मीठे पानी की सबसे बड़ी कृत्रिम झील जयसमंद है। सलूम्‍बर में स्थित इस झील का निर्माण मेवाड़ के राणा जयसिंह ने गोमती नदी का पानी रोककर(1687-91) कराया गया। जयसमंद झील से 1950 में सिंचाई के लिए दो नहरे श्यामपुरा व भाट नहर बनाई गई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13660,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की झीलें\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान की झीलें\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान की झीलें\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

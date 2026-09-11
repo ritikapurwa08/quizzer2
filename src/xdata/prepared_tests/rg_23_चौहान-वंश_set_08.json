@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "चौहान वंश",
+  "topicSlug": "चौहान-वंश",
+  "testSetName": "चौहान वंश - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अजमेर का चौहान राजा जिसने अजमेर में संस्कृत महाविद्यालय स्थापित किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजय राज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णो राज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विग्रहराज चतुर्थ ने अजमेर में एक संस्कृत पाठशाला का निर्माण करवाया। (अढ़ाई दिन के झोपड़ें की सीढ़ियों में मिले दो पाषाण अभिलेखों के अनुसार) जिसे कालांतर में मुहम्मद गौरी के सेनापति कुतुबुद्दीन ऐबक ने अढ़ाई दिन के झोंपड़े में परिवर्तित कर दिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 7336,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर नगर की स्थापना के पहले अजमेर के चौहानों की राजधानी कौन-सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt2",
+          "text": "नाड़ोल"
+        },
+        {
+          "id": "opt3",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भोर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी,देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था, इस क्षेत्र को सपादलक्ष(सपादलक्ष का अर्थ सवा लाख गांवों का समूह) के नाम से जानते थे, प्रारम्भिक चौहान राजाओं की राजधानी अहिच्छत्रपुर (हर्षनाथ की प्रशस्ति) थी जिसे वर्तमान में नागौर के नाम से जानते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(Eco. Investigator)",
+      "sourceQuestionId": 7337,
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहान शासक ने 1192 ई. में तराइन का दूसरा युद्ध लड़ा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयपाल चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज चौहान III"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्णोराज चौहान"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज चौहान IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पृथ्वीराज चौहान III और मुहम्मद गौरी की सेनाओं के मध्य तराइन का द्वितीय युद्ध (1192 ई.) हुआ जिसमें मुहम्मद गौरी की विजय हुई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 7338,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहान शासक द्वारा 'जवालिपुर' को ‘ज्वालापुर' परिवर्तित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरणोराज"
+        },
+        {
+          "id": "opt2",
+          "text": "जग्गदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "देवदत्त"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विग्रहराज चतुर्थ (बीसलदेव) 1158 ई. के लगभग अजमेर का शासक बना। चौहान शासक विग्रहराज चतुर्थ का काल सपादलक्ष का स्वर्णयुग कहलाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -A)",
+      "sourceQuestionId": 7344,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गुर्जर प्रतिहारों की राजधानी कौन सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पी-लो-मो-लो(भीनमाल)"
+        },
+        {
+          "id": "opt2",
+          "text": "बूढ़ा पुष्कर(अजमेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "मांडव्यपुर(जोधपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "जांगल(बीकानेर)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चीनी यात्री ह्वेनसांग जब भीनमाल आया तो उसने अपने 72 देशों के वर्णन में इसे कू-चे-लो(गुर्जर) बताया तथा उसकी राजधानी का नाम ‘पीलोमोलो/भीलामाल’ यानि भीनमाल बताया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 7345,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हरकेलि’ संस्कृत नाटक के रचयिता कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "विग्रहराज प्रथम"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज चौहान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हरकेलि संस्कृत नाटक के लेखक विग्रहराज चतुर्थ थे। विग्रहराज चहमान वंश के एक हिन्दू राजा थे, जिन्होंने 1153-1163 तक उत्तर-पश्चिमी भारत पर शासन किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "sourceQuestionId": 7346,
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस राजपूत शासक द्वारा ‘नेह तरंग’ रचित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव बुद्धसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा जसवंतसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजा सावंतसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नेह तरंग के रचयिता राव बुद्ध सिंह हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "sourceQuestionId": 7357,
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: जाला जालिम सिंह के बारे में कौनसा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वह कोटा राज्य का शासक था।"
+        },
+        {
+          "id": "opt2",
+          "text": "वह कोटा का फौजदार एवं महान् कूटनीतिज्ञ एवं राजनेता था।"
+        },
+        {
+          "id": "opt3",
+          "text": "आपने पिण्डारियों के साथ मित्रतापूर्ण संबंध स्थापित किये।"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा राज्य का शासन पूर्णतः उनमें निहित था।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कोटा राज्य के प्रधानमंत्री झाला जालिमसिंह को कोटा राज्य का वीर दुर्गादास राठौड़ कहते है। मराठों, अंग्रेजों एवं पिंडारियों से अच्छे संबंध होने के कारण कोटा इनसे बचा रहा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7327,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: रणथम्भौर के शासक हम्मीर चौहान की किस वर्ष दिल्ली के सुल्तान जलालुद्दीन खिलजी की सेना के साथ प्रथम बार मुठभेड़ हुयी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1290 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1292 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1299 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1301 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1290 में, दिल्ली सल्तनत के शासक जलालुद्दीन खिलजी ने हम्मीर के क्षेत्र पर आक्रमण किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 7329,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"चौहान वंश\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"चौहान वंश\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"चौहान वंश\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

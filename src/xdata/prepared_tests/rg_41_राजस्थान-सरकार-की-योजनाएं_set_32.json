@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "राजस्थान सरकार की योजनाएं",
+  "topicSlug": "राजस्थान-सरकार-की-योजनाएं",
+  "testSetName": "राजस्थान सरकार की योजनाएं - अभ्यास टेस्ट 32",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में विधायक स्थानीय क्षेत्र विकास कार्यक्रम (MLALAD) के तहत अनुसूचित जाति/अनुसूचित जनजाति (SC/ST) की बस्तियों के विकास के लिए कुल वार्षिक आवंटित राशि के कम से कम कितने प्रतिशत की अनुशंसा की जानी चाहिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10"
+        },
+        {
+          "id": "opt2",
+          "text": "20"
+        },
+        {
+          "id": "opt3",
+          "text": "30"
+        },
+        {
+          "id": "opt4",
+          "text": "40"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 11849,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘बस्ता मुक्त दिवस (नो बैग डे) ‘ पहल निम्नलिखित में से किस क्षेत्र/योजना से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिक्षा"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वास्थ्य"
+        },
+        {
+          "id": "opt3",
+          "text": "सार्वजनिक वितरण प्रणाली"
+        },
+        {
+          "id": "opt4",
+          "text": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार योजना (मनरेगा)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 11850,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "खादी और ग्रामोद्योग आयोग (KVIC) ने सीमा सुरक्षा बल (BSF) के सहयोग से जुलाई 2021 में जैसलमेर में किस उद्देश्य हेतु परियोजना BOLD का शुभारंभ किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मरुस्थलीकरण को प्रतिबंध और ग्रामीण अर्थव्यवस्था का समर्थन करना"
+        },
+        {
+          "id": "opt2",
+          "text": "महिलाओं और बालिकाओं को शोषण से बचाना"
+        },
+        {
+          "id": "opt3",
+          "text": "हथकरघा और सूक्ष्म उद्योगों को लोकप्रिय बनाना"
+        },
+        {
+          "id": "opt4",
+          "text": "बेरोजगार युवाओं के लिए रोजगार के नए अवसर खोलना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+      "sourceQuestionId": 11851,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विधवाओं के पुनर्विवाह को प्रोत्साहित करने की दृष्टि से राजस्थान राज्य सरकार ने विधवा पेंशन पाने वाली या विधवा पेंशन की पात्र विधवाओं को पुनर्विवाह पर अनुदान देने की योजना प्रारंभ की है। यह अनुदान की राशि कितनी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹50,000"
+        },
+        {
+          "id": "opt2",
+          "text": "₹ 12,000"
+        },
+        {
+          "id": "opt3",
+          "text": "₹ 15,000"
+        },
+        {
+          "id": "opt4",
+          "text": "₹20,000"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+      "sourceQuestionId": 11852,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "द्रव्यवती नदी पुनर्जीवन परियोजना के विषय के संबंध में कौन सा कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इसका शुभारंभ राजस्थान की मुख्यमंत्री वसुंधरा राजे द्वारा अजमेर में किया गया है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उद्देश्य शहर के घटते भूजल को पुनर्जीवित करना है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसे 2017 में पूर्ण किया गया था।"
+        },
+        {
+          "id": "opt4",
+          "text": "योजना के अनुसार इसके उद्देश्य की पूर्ति हुई है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+      "sourceQuestionId": 11853,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार की आस्था कार्ड योजना का उद्देश्य ______ लाभ पहुंचाना है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालिकाओं"
+        },
+        {
+          "id": "opt2",
+          "text": "दिव्यांग व्यक्तियों"
+        },
+        {
+          "id": "opt3",
+          "text": "भूतपूर्व सैनिकों"
+        },
+        {
+          "id": "opt4",
+          "text": "गर्भवती महिलाओं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+      "sourceQuestionId": 11854,
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान उड़ान योजना ______ से सम्बंधित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुसूचित जाति के लिए नि:शुल्क शिक्षा"
+        },
+        {
+          "id": "opt2",
+          "text": "सेनेटरी नैपकिन के नि:शुल्क वितरण"
+        },
+        {
+          "id": "opt3",
+          "text": "गरीबों के लिए निःशुल्क अनाज"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्रामीण आबादी के लिए नि:शुल्क आवास सुविधा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+      "sourceQuestionId": 11855,
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सीमा क्षेत्र विकास कार्यक्रम राज्य के कितने जिलों में संचालित किया जा रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11968,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: साखमय अनुदान योजना के प्रारंभ किए जाने का वर्ष है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1995-96"
+        },
+        {
+          "id": "opt2",
+          "text": "2001-02"
+        },
+        {
+          "id": "opt3",
+          "text": "1999-2000"
+        },
+        {
+          "id": "opt4",
+          "text": "2004-05"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11969,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान सरकार की योजनाएं\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान सरकार की योजनाएं\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान सरकार की योजनाएं\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

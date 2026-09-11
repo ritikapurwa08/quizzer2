@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान में 1857 की क्रांति",
+  "topicSlug": "राजस्थान-में-1857-की-क्रांति",
+  "testSetName": "राजस्थान में 1857 की क्रांति - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के दौरान (देशी रियासत - पॉलिटिकल एजेंट) का कौनसा युग्म, असंगत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर – सी. एल. शॉवर्स"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर – कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर – कैप्टन जे. डी. हॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर – मैक मेसन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जे.डी. हॉल सिरोही के पॉलिटिकल एजेन्ट थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 9708,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के दौरान डूंगरपुर का शासक कौन था, जिसने अंग्रेजों की सहायता की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फतेह सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जसवंत सिंह- II"
+        },
+        {
+          "id": "opt3",
+          "text": "उदय सिंह – II"
+        },
+        {
+          "id": "opt4",
+          "text": "विजय सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डूंगरपुर के शासक उदय सिंह द्वितीय ने 1857 के विद्रोह के दौरान अंग्रेजों की मदद की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 9709,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "करौली राज्य ने 1857 के विद्रोह के दौरान किस राज्य की सहायता हेतु अपनी सेना भेजी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जनवरी, 1858 में करौली से सैनिक सहायता मिलने पर महाराव के सैनिकों ने क्रांतिकारियों को गढ़ से खदेड़ दिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 3",
+      "sourceQuestionId": 9711,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयदयाल एवं मेहराब खाँ ने 1857 के विप्लव का नेतृत्व कहाँ किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे। कोटा महाराव की स्थिति असहाय हो गयी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer 2022 History (Group - C)",
+      "sourceQuestionId": 9712,
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1822 में बनायी गई मेरवाड़ा बटालियन का मुख्यालय था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर में"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1822 में गठित मेरवाड़ बटालियन का मुख्यालय ब्यावर था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "sourceQuestionId": 9713,
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस रियासत ने 1857 की क्रांति के दौरान अंग्रेजों की सहायता नहीं की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 2",
+      "sourceQuestionId": 9714,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 का विप्लव सर्वप्रथम कहाँ प्रारम्भ हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt3",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "आऊवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 9716,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: तात्यां टोपे 1857 की क्रान्ति के समय कितनी बार राजस्थान आए-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "3"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तात्या टोये 2 बार राजस्थान आया था। सबसे पहले भीलवाड़ा के माण्डलगढ़ आया था। दूसरी बार तात्या ने राजस्थान में 11 सितम्बर को बाँसवाड़ा से प्रवेश किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9812,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘आयो इंगरैज मुल्क रै ऊपर’ किसकी रचना है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बांकीदास"
+        },
+        {
+          "id": "opt3",
+          "text": "केसरीसिंह बारहठ"
+        },
+        {
+          "id": "opt4",
+          "text": "गिरधर आसिंया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बांकीदास, जोधपुर महाराजा मानसिंह राठौड़ के दरबारी कवि थे। इन्हें मारवाड़ का बीरबल कहा जाता है। इन्होंने ‘आयो अंग्रेज मुलक रै ऊपर’ कविता लिखी थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9813,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में 1857 की क्रांति\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में 1857 की क्रांति\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में 1857 की क्रांति\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

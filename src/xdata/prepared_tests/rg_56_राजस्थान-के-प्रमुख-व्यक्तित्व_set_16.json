@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+  "topicSlug": "राजस्थान-के-प्रमुख-व्यक्तित्व",
+  "testSetName": "राजस्थान के प्रमुख व्यक्तित्व - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सामाजिक सुधारक गोविन्द गुरू का जन्म हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंडित परिवार में"
+        },
+        {
+          "id": "opt2",
+          "text": "किसान परिवार में"
+        },
+        {
+          "id": "opt3",
+          "text": "बंजारा परिवार में"
+        },
+        {
+          "id": "opt4",
+          "text": "जमींदार परिवार में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2017 level-2 SST",
+      "sourceQuestionId": 14227,
+      "reference": "📌 PYQ — Reet 2017 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जीवन कुटीर के गीत’ निम्न में से किसके द्वारा लिखा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिभाऊ उपाध्याय"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "गोकुलभाई भट्ट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 14233,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नसीराबाद छावनी को लूटने वाला राजपूत सरदार -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किशनसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जुझारसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अनाड़सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Agriculture Officer - 2011",
+      "sourceQuestionId": 14234,
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिद्धराज ढ़ड्ढ़ा कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैनधर्म के विद्धान"
+        },
+        {
+          "id": "opt2",
+          "text": "गांधीवादी एवं सर्वोदयी नेता"
+        },
+        {
+          "id": "opt3",
+          "text": "कूटनीतिज्ञ"
+        },
+        {
+          "id": "opt4",
+          "text": "महान शिक्षाशास्त्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 14242,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भवानी सहाय शर्मा, राजस्थान के स्वतंत्रता सेनानी सम्बन्धित थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर से"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर से"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर से"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Biology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 14243,
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किसके द्वारा ‘वीर भारत सभा’ का गठन किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केसरी सिंह बारठ"
+        },
+        {
+          "id": "opt2",
+          "text": "रामनारायण चौधरी"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप सिंह बारठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "sourceQuestionId": 14255,
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस राजस्थानी विभूति पर डाक टिकट जारी नहीं हुआ है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ"
+        },
+        {
+          "id": "opt2",
+          "text": "मीराबाई"
+        },
+        {
+          "id": "opt3",
+          "text": "कन्हैयालाल सेठिया"
+        },
+        {
+          "id": "opt4",
+          "text": "अल्लाह जिलाई बाई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मीराबाई, माघ और अल्लाह जिलाई बाई पर डाक टिकट जारी हो चुके हैं, लेकिन कन्हैयालाल सेठिया (प्रसिद्ध राजस्थानी कवि) पर अभी तक डाक टिकट जारी नहीं हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 14107,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: 1920 ई. में जब अर्जुनलाल सेठी को बेलूर जेल से रिहा किया गया तब किस रेलवे स्टेशन पर छात्रों ने उनके सम्मान में बग्गी को अपने हाथों से खींचा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेलूर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बरेली"
+        },
+        {
+          "id": "opt4",
+          "text": "पूना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14249,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मदन पराजय, पाश्व यज्ञ किस स्वतंत्रता सेनानी की कृतियां है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्जुनलाल सेठी"
+        },
+        {
+          "id": "opt2",
+          "text": "विजय सिंह पथिक"
+        },
+        {
+          "id": "opt3",
+          "text": "जमनालाल बजाज"
+        },
+        {
+          "id": "opt4",
+          "text": "मोतीलाल तेजावत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14252,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख व्यक्तित्व\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के प्रमुख व्यक्तित्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के प्रमुख व्यक्तित्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

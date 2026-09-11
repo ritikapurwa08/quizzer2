@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "राजस्थान सरकार की योजनाएं",
+  "topicSlug": "राजस्थान-सरकार-की-योजनाएं",
+  "testSetName": "राजस्थान सरकार की योजनाएं - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "डॉ. सविता बेन अम्बेडकर अन्तर्जातीय विवाह प्रोत्साहन योजना में सूची-I व सूची-II में से सही मेल बताइये -सूची-I(A) आर्थिक पिछड़ा हिन्दू(B) सवर्ण हिन्दू(C) आर्थिक पिछड़ा मुस्लिम(D) अन्य पिछड़ी जातियाँसूची-II(E) अनुसूचित जाति(F) अनुसूचित जनजाति(G) आर्थिक पिछड़ा हिन्दू(H) आर्थिक पिछड़ा मुस्लिमसही विकल्प चुनिये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) - (H)"
+        },
+        {
+          "id": "opt2",
+          "text": "(B) - (E)"
+        },
+        {
+          "id": "opt3",
+          "text": "(C) - (F)"
+        },
+        {
+          "id": "opt4",
+          "text": "(D) - (G)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अनुसूचित जाति वर्ग का युवक अथवा युवती, जिसने किसी सवर्ण हिन्दू युवती अथवा युवक से विवाह किया हो। दोनों ही राजस्थान के मूल निवासी हो।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 11687,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘शुभ-शक्ति योजना’ के अन्तर्गत किसे /किन्हें लाभ प्राप्त होता है -(A) महिला निर्माण मजदूर(B) कृषिगत श्रमिक की अविवाहित बेटी(C) श्रम परिवारों की वयस्क अविवाहित बेटियां(D) असंगठित क्षेत्र की महिला श्रमिक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) तथा (D)"
+        },
+        {
+          "id": "opt2",
+          "text": "(D) तथा (B)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (B)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (C)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान शुभ शक्ति योजना राजस्थान सरकार द्वारा राज्य में पंजीकृत निर्माण श्रमिकों की अविवाहित बेटियों को वित्तीय सहायता प्रदान करने के लिए शुरू की गई एक कल्याणकारी योजना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 11688,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "केन्द्र प्रवर्तित ‘उल्लास - नव भारत साक्षरता कार्यक्रम’ में, राज्य के किस आयु समूह को साक्षर करने का प्रावधान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "21 वर्ष व अधिक आयु के व्यक्ति"
+        },
+        {
+          "id": "opt2",
+          "text": "15 वर्ष व अधिक आयु के व्यक्ति"
+        },
+        {
+          "id": "opt3",
+          "text": "45 वर्ष व अधिक आयु के व्यक्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "35 वर्ष व अधिक आयु के व्यक्ति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उल्लास - नव भारत साक्षरता कार्यक्रम (ULLAS- NIPL) 15 वर्ष और उससे अधिक आयु के लोगों के लिए है। यह कार्यक्रम उन लोगों को लक्षित करता है जो स्कूल नहीं जा पाए हैं या जिनके पास साक्षरता और संख्या ज्ञान का अभाव है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 11689,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में श्री अन्नपूर्णा रसोई योजना (इंदिरा रसोई योजना) प्रारम्भ हुई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "02 अक्टूबर, 2020"
+        },
+        {
+          "id": "opt2",
+          "text": "25 दिसम्बर, 2020"
+        },
+        {
+          "id": "opt3",
+          "text": "20 अगस्त, 2020"
+        },
+        {
+          "id": "opt4",
+          "text": "30 मार्च, 2020"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "श्री अन्नपूर्णा रसोई योजना (इंदिरा रसोई योजना) 20 अगस्त, 2020 को शुरू हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 11690,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान निवेश प्रोत्साहन योजना (RIPS) 2022 में निम्न में से कौन-कौनसे उद्देश्य सम्मिलित हैं -(a) विनिर्माण और सेवा क्षेत्रों का विकास।(b) प्रत्यक्ष विदेशी निवेश को आकर्षित करना।(c) संतुलित व समावेशी क्षेत्रीय विकास।(d) पर्यावरण संरक्षण प्रयासों को प्रोत्साहित करना।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a), (b) व (c)"
+        },
+        {
+          "id": "opt2",
+          "text": "(b), (c) व (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a), (c) व (d)"
+        },
+        {
+          "id": "opt4",
+          "text": "(c), (b) व (d)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्य में निवेश एवं रोजगार को बढावा देने के उदेद्श्य से राजस्थान निवेश प्रोत्साहन योजना-2022 दिनांक 07.10.2022 को जारी की गई है। योजना की प्रभावी अवधि मार्च 2027 तक है। विश्लेषण: RIPS 2022 में शामिल हैं: विनिर्माण और सेवा क्षेत्रों का विकास।संतुलित व समावेशी क्षेत्रीय विकास।पर्यावरण संरक्षण प्रयासों को प्रोत्साहित करना।प्रत्यक्ष विदेशी निवेश मुख्य उद्देश्य नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 11691,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार ने जल के समुचित प्रबंधन के लिए स्थानीय स्तर पर कार्यक्रम की शुरूआत की है।कार्यक्रम की पहचान कीजिए।निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान जल संरक्षण मिशन"
+        },
+        {
+          "id": "opt2",
+          "text": "जल क्रांति अभियान"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रधानमंत्री जल स्वावलम्बन"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्यमंत्री जल स्वावलम्बन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान सरकार मुख्यमंत्री जल स्वावलंबन अभियान 2.0 के तहत जल संरचनाओं का संरक्षण करते हुए वर्षा जल को सहेजने का महत्वपूर्ण कार्य कर रही है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+      "sourceQuestionId": 11692,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जन कल्याण योजना “श्री अन्नपूर्णा रसोई योजना”, के अन्तर्गत गरीब व जरुरतमंदों की भोजन की थाली की कीमत (सितम्बर 2024 के अनुसार) कितनी है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनेः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹ 11"
+        },
+        {
+          "id": "opt2",
+          "text": "₹ 12"
+        },
+        {
+          "id": "opt3",
+          "text": "₹8"
+        },
+        {
+          "id": "opt4",
+          "text": "₹ 22"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "श्री अन्नपूर्णा रसोई योजना के तहत गरीबों को सस्ता भोजन उपलब्ध कराया जाता है। सितंबर 2024 तक इसकी कीमत ₹ 8 प्रति थाली है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+      "sourceQuestionId": 11693,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘मुख्यमंत्री पर्यटन उद्योग संबल योजना-2021’ के संदर्भ में निम्न कथनों पर विचार करें-(i) योजना का विमोचन 27 सितम्बर, 2021 को किया गया।(ii) पर्यटन उद्यमियों को 25 लाख रु. तक के ऋण के ब्याज पर तीन वर्ष तक के लिए एक प्रतिशत अतिरिक्त ब्याज अनुदान दिया जाएगा।निम्न में से कौनसा कूट सत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल कथन (i) सत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (ii) सत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "(i). (ii), दोनों असत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii), दोनों सत्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11819,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘राजस्थान राज्य महिला नीति, 2021’ का लोकार्पण किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 मार्च, 2021"
+        },
+        {
+          "id": "opt2",
+          "text": "1 अप्रैल, 2021"
+        },
+        {
+          "id": "opt3",
+          "text": "10 मार्च, 2021"
+        },
+        {
+          "id": "opt4",
+          "text": "11 अप्रैल, 2021"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11820,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान सरकार की योजनाएं\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान सरकार की योजनाएं\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान सरकार की योजनाएं\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

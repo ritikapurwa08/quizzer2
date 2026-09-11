@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "एम.एस. वर्ड में, टेक्स्ट को मध्य में ऑनलाइन करने के लिए जो की-बोर्ड कमांड काम में आती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ctrl + C"
+        },
+        {
+          "id": "opt2",
+          "text": "Ctrl + T"
+        },
+        {
+          "id": "opt3",
+          "text": "Ctrl + E"
+        },
+        {
+          "id": "opt4",
+          "text": "Ctrl + Y"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "एम.एस. वर्ड में, टेक्स्ट को मध्य में ऑनलाइन करने के लिएCtrl + Eकी-बोर्ड कमांड काम में आती है। Ctrl + Cचयनित टेक्स्ट को कॉपी करने का शॉर्टकट Ctrl + Tएक नया टैब खोलने के लिए Ctrl + Yअंतिम क्रिया को फिर से करना (रिडू के लिए शॉर्टकट की)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23787,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक्सेल (पुराना व़र्जन) की वर्कशीट में_____कॉलम होते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "256"
+        },
+        {
+          "id": "opt2",
+          "text": "255"
+        },
+        {
+          "id": "opt3",
+          "text": "156"
+        },
+        {
+          "id": "opt4",
+          "text": "158"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एक्सेल (पुराना वर्जन २००३) की वर्कशीट में २५६ कॉलम होते हैं। माइक्रोसॉफ्ट एक्सेल २००७ – १६३८४ कॉलम माइक्रोसॉफ्ट एक्सेल २०१० – १६३८४ कॉलम माइक्रोसॉफ्ट एक्सेल २०१३ – १६३८४ कॉलम माइक्रोसॉफ्ट एक्सेल २०१६ – १६३८४ कॉलम",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23788,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "______ऑपरेटिंग सिस्टम में, रेस्पोंस टाइम बहुत क्रिटिकल होता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मल्टी-टास्ंिकग"
+        },
+        {
+          "id": "opt2",
+          "text": "बैच"
+        },
+        {
+          "id": "opt3",
+          "text": "रियल टाइम"
+        },
+        {
+          "id": "opt4",
+          "text": "ऑनलाइन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रियल टाइम ऑपरेिंटग सिस्टम में रेस्पोंस टाइम बहुत क्रिटिकल होता है। ऑपरेिंटग सिस्टम के कुछ महत्वपूर्ण उदाहरण– Apple MaeOS, Microsoft Windows, Google का Android OS, Linux अपडेिंटग सिस्टम औरApple iOSशामिल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23789,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ड व्रैप फीचर होता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जरूरत के अनुसार टेक्स्ट को अपने आप दूसरी लाइन में ले जाता है"
+        },
+        {
+          "id": "opt2",
+          "text": "डॉक्यूमेंट के सबसे नीचे आता है"
+        },
+        {
+          "id": "opt3",
+          "text": "टेक्स्ट के ऊपर लिखने को अनुमत करता है"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्ड वै्रप फीचर जरूरत के अनुसार टेक्स्ट को अपने आप दूसरी लाइन में ले जाता है। वर्ड व्रैप, टेक्स्ट को नजरअंदाज होने या क्लिप होने से बचाने के साथ-साथ उसे एक निश्चित क्षेत्र में समाहित करने की तकनीक है। साथ ही, जब कर्सर पंक्ति समाप्त करना है, तो आप को एंटर कुंजी दबाने की आवश्यकता नहीं होती।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23790,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैâप्स लॉक जैसे कीबोर्ड के फीचर को शुरू या बंद करने वाले बटन को कहते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नेविगेशन की"
+        },
+        {
+          "id": "opt2",
+          "text": "स्पेशल पर्पस की"
+        },
+        {
+          "id": "opt3",
+          "text": "फंक्शन की"
+        },
+        {
+          "id": "opt4",
+          "text": "टॉगल की"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वैâप्स लॉक जैसे कीबोर्ड के फीचर को शुरू या बंद करने वाले बटन को टॉगल या इंडीकेटर की कहते हैं। वैâप्स लॉक बंटन की मदद से हम अक्षरों को बड़े या छोटे के बीच स्विच कर सकते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23791,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पिक्सेल्स किनके साथ जुड़ा हुआ है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रा़िफक्स"
+        },
+        {
+          "id": "opt2",
+          "text": "साउंड"
+        },
+        {
+          "id": "opt3",
+          "text": "बाइट्स"
+        },
+        {
+          "id": "opt4",
+          "text": "डाटा प्रोसेसिंग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पिक्सेल को ग्राफिक्स के साथ जोड़ा जाता है। पिक्सेल शब्द वास्तव मेंPicture (Pix) औरElement (Ex)से मिलकर बना है। पिक्सेल वो छोटे-छोटे िंबदु(Dots)और एलिमेंट्स है, जिनसे मिलाकर स्क्रीन बनी होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23792,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "माइक्रोसॉफ्ट वर्ड महीने की स्पेलिंग का अपने आप अंदा़जा लगा लेता है, जब आप महीने के पहले_____ करेक्टर टाइप करते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दो"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "चार"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "माइक्रोसॉफ्ट वर्ड महीने की स्पेिंलग का अपने आप अंदाजा लगा लेता है, जब आप महीने के पहले तीन करेक्ट टाइप करते हैं, तो वो अपने आप ही पूरा शो(Slow) करने लगात है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 23793,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित सूची- का मिलान सूची से कीजिए और सही उत्तर का मिलान नीचे दिए गए कूट से कीजिए: सूची-I सूची-II (A) कॉपीराइट कानून (1) 1867 (B) प्रेस परिषद कानून (2) 1986 (C) प्रेस एवं पुस्तक पंजीकरण कानून (3) 1957 (D) महिलाओं के अभद्र प्रस्तुतिकरण कानून (4) 1978 कोड: (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 2 1"
+        },
+        {
+          "id": "opt2",
+          "text": "3 4 1"
+        },
+        {
+          "id": "opt3",
+          "text": "4 1 2"
+        },
+        {
+          "id": "opt4",
+          "text": "4 3 1"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न है- सूची-I सूची-II कॉपीराइट - १९५७ प्रेस परिषद कानून - १९७८ प्रेस एवं पुस्तक - १८६७ महिलाओं पर अभद्र प्रस्तुतिकरण कानून - १९८६",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC APRO 2011",
+      "sourceQuestionId": 23894,
+      "reference": "✎ PYQ Modified · RPSC APRO 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कम्प्यूटर की आई सी चिप बनी होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिलिकॉन"
+        },
+        {
+          "id": "opt2",
+          "text": "बोरोन"
+        },
+        {
+          "id": "opt3",
+          "text": "सिलिका"
+        },
+        {
+          "id": "opt4",
+          "text": "आयरन ऑक्साइड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कम्प्यूटर की आईसी चिप सिलिकॉन की बनी होती है। इसका उपयोग विविध इलेक्ट्रॉनिक उपकरणों, वाहनों आदि में किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC ACF 2011",
+      "sourceQuestionId": 23896,
+      "reference": "✎ PYQ Modified · RPSC ACF 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

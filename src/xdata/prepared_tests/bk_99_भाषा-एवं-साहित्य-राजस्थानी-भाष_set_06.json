@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।",
+  "topicSlug": "भाषा-एवं-साहित्य-राजस्थानी-भाषा-की-बोलियाँ।-राजस्थानी-भाषा-का-साहित्य-एवं-लोक-साहित्य।",
+  "testSetName": "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य। - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘किरतार’ बावनी’ के लेखक हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिरधर"
+        },
+        {
+          "id": "opt2",
+          "text": "नल्लसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "करणीदान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "किरतार बावनी के लेखक दुरसा आढ़ा थे। दुरसा आढ़ा राजस्थानी भाषा के कवि, योद्धा और सलाहकार थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 18217,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘खेराड़ी’ बोली जिस क्षेत्र में प्रचलित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर-धोलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक-भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर-चित्तौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर-बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खैराड़ी मेवाड़ी, ढूँढ़ाड़ी व हड़ौती का मिश्रण है। यह बोली बूँदी भीलवाड़ा, टोंक में प्रचलित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 18218,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सूड़ प्रबन्ध’ के लेखक हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रताप"
+        },
+        {
+          "id": "opt2",
+          "text": "सांगा"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सूड़ प्रबंध के लेखक महाराणा कुंभा थे। इनकी अन्य रचनाओं में संगीतराज, संगीत मीमांसा, संगीत रत्नाकर, सुधा प्रबंध इत्यादि शामिल हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 18219,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी रचना मीराबाई की है/",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सखी"
+        },
+        {
+          "id": "opt2",
+          "text": "बीजक"
+        },
+        {
+          "id": "opt3",
+          "text": "शबद"
+        },
+        {
+          "id": "opt4",
+          "text": "पदावली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मीराबाई की रचनाओं और पदों का संग्रह मीराबाई की पदावली में संकलित है। नरसीजी की मायरा, राग गोविन्द, गीत गोविन्द की टीका, राग विराग इत्यादि अन्य रचनाएँ हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 18220,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसने यूक्लिड की रेखागणित का संस्कृत में अनुवाद किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जगन्नाथ"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल राम"
+        },
+        {
+          "id": "opt4",
+          "text": "विद्याधर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "यूक्लिड की रेखागणित का संस्कृत में अनुवाद सवाई जयसिंह ने किया था। इनकी गणित और खगोल में विशेष रुचि थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 18221,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा का प्रथम राजनीतिक समाचार-पत्र म्निलिखित में से कौन सा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोकवाणी"
+        },
+        {
+          "id": "opt2",
+          "text": "आगीवाण"
+        },
+        {
+          "id": "opt3",
+          "text": "जयध्वनी"
+        },
+        {
+          "id": "opt4",
+          "text": "जयभूमि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी भाषा का प्रथम राजनीतिक समाचार पत्र आगीवाण था। इसका प्रकाशन १९३२ में शुरू किया गया था। 119",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lecturer (Sanskrit Edu.) 17/11/2024",
+      "sourceQuestionId": 18222,
+      "reference": "📌 PYQ — RPSC School Lecturer (Sanskrit Edu.) 17/11/2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस/उन चित्रशैली/शैलियों को चिह्रित कीजिए, जहाँ मतिराम की साहित्यिक रचना रसराज का विषयवस्तु के रूप में उपयोग हुआ है: (i) जोधपुर (ii) जयपुर (iii) अलवर (iv) बीकानेर सही कूट का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "और (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "और (iii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मतिराम की साहित्यिक कृति रसराज की विषय वस्तु का चित्रण मारवाड़ की जोधपुर शैली में उपयोग किया गया है। यह शैली साहित्यिक और कलात्मक अभिव्यक्ति के लिए जानी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lecturer (Sanskrit Edu.) 17/11/2024",
+      "sourceQuestionId": 18223,
+      "reference": "📌 PYQ — RPSC School Lecturer (Sanskrit Edu.) 17/11/2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘जिन भद्रसूरी ग्रंथ भण्डार’ राजस्थान के किस शहर में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘जिन भद्रसूरी ग्रंथ भंडार’ राजस्थान के जैसलमेर शहर में स्थित है। जैसलमेर के मठ पुस्तकालय में जैन पांडुलिपियों का सबसे बड़ा भंडार है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-A (S.E.)2022 RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "sourceQuestionId": 18333,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-A (S.E.)2022 RPSC Head Master Prav. (San. Edu) 2021 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘अर्ली चौहान डायनेस्टीज’ पुस्तक के लेखक हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जी.एन. शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "दशरथ शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "के.एस.गुप्ता"
+        },
+        {
+          "id": "opt4",
+          "text": "जी.एच.ओझा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अर्ली चौहान डायनेस्टीज पुस्तक के लेखक दशरथ शर्मा हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-A (S.E.)2022",
+      "sourceQuestionId": 18334,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-A (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

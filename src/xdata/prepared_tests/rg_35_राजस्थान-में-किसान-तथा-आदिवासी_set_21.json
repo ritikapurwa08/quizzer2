@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में किसान तथा आदिवासी आन्दोलन",
+  "topicSlug": "राजस्थान-में-किसान-तथा-आदिवासी-आन्दोलन",
+  "testSetName": "राजस्थान में किसान तथा आदिवासी आन्दोलन - अभ्यास टेस्ट 21",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "गोविन्द गिरि ने किस सभा की स्थापना की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धर्म सभा"
+        },
+        {
+          "id": "opt2",
+          "text": "भील सभा"
+        },
+        {
+          "id": "opt3",
+          "text": "राज सभा"
+        },
+        {
+          "id": "opt4",
+          "text": "सम्प सभा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 10047,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीमुचणा कांड के समय अलवर का शासक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा बन्नेसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा तेजसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा विनयसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा जयसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Biology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 10049,
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिजौलिया किसान आन्दोलन के दौरान ‘प्रवर्तित विद्या प्रचारिणी सभा’ के प्रवर्तक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामनारायण चौधरी"
+        },
+        {
+          "id": "opt2",
+          "text": "विजयसिंह पथिक"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "जमना लाल बजाज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+      "sourceQuestionId": 10050,
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "माधोसिंह व गोविन्द सिंह का सम्बन्ध निम्नलिखित में से किस किसान आन्दोलन से था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिजौलिया किसान आन्दोलन"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़ भील आन्दोलन"
+        },
+        {
+          "id": "opt3",
+          "text": "बेगू किसान आन्दोलन"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर किसान आन्दोलन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable(7981)",
+      "sourceQuestionId": 10060,
+      "reference": "📌 PYQ — Raj Police Constable(7981)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एकी आन्दोलन का प्रारम्भिक नेतृत्व किसने किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नानक भील"
+        },
+        {
+          "id": "opt2",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt3",
+          "text": "भोगीलाल पाड्या"
+        },
+        {
+          "id": "opt4",
+          "text": "गोविंद गिरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (29-11-18) Shift 1",
+      "sourceQuestionId": 10067,
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऐतिहासिक महत्व का स्थल बिजौलिया किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाडा"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (29-11-18) Shift 1",
+      "sourceQuestionId": 10068,
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भगत आंदोलन किसके द्वारा प्रारम्भ किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान सेवा संघ"
+        },
+        {
+          "id": "opt2",
+          "text": "भोगीलाल पांड्या"
+        },
+        {
+          "id": "opt3",
+          "text": "भूरेलाल बया"
+        },
+        {
+          "id": "opt4",
+          "text": "गुरू गोविन्द गिरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2018",
+      "sourceQuestionId": 10070,
+      "reference": "📌 PYQ — Lab Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से कौन सा समाचार-पत्र 1920 में विजयसिंह पथिक ने वर्धा से प्रकाशित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नवीन राजस्थान"
+        },
+        {
+          "id": "opt2",
+          "text": "तरूण राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान केसरी"
+        },
+        {
+          "id": "opt4",
+          "text": "नवजीवन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10097,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: बांसवाड़ा में स्थापित राजस्थान के राज्य जनजातीय विश्वविद्यालय का नाम बदलकर ............. के नाम पर रखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोगीलाल पंड्या"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविंद गुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt4",
+          "text": "माणिक्य लाल वर्मा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10103,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में किसान तथा आदिवासी आन्दोलन\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में किसान तथा आदिवासी आन्दोलन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में किसान तथा आदिवासी आन्दोलन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

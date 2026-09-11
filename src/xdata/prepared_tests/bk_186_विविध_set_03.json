@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "P, Q, R, S को एक पंक्ति में बैठाना है। परन्तुR औरS एक साथ नहीं बैठ सकते।Q भी तीसरे स्थान पर नहीं बैठ सकता। तो निम्न मे से कौन सा असत्य होना चाहिये? 1 2 3 4",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "P प्रथम स्थान पर बैठा हुआ है।"
+        },
+        {
+          "id": "opt2",
+          "text": "P द्वितीय स्थान पर बैठा हुआ है।"
+        },
+        {
+          "id": "opt3",
+          "text": "P तृतीय स्थान पर बैठा हुआ है।"
+        },
+        {
+          "id": "opt4",
+          "text": "P चतुर्थ स्थान पर बैठा हुआ है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नानुसार, क्रम: निम्नवत् है– R Q S P Q R P S S P R Q अत: क्रम से स्पष्ट है कि ‘P प्रथम स्थान पर बैठा है’ यह असत्य है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 25085,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "300तथा500 के बीच कितनी ऐसी संख्याएं होगी जिसमें ४ केवल एक बार आयेगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "98"
+        },
+        {
+          "id": "opt2",
+          "text": "99"
+        },
+        {
+          "id": "opt3",
+          "text": "100"
+        },
+        {
+          "id": "opt4",
+          "text": "101"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "३०० से ३९९ तक संख्या ४ के एक बार आने की संख्या= 19 400 से ४९९ तक संख्या ४ के एक बार आने की संख्या= 80 अभीष्ट ४ के आने की संख्या= 80 + 19 = 99",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programmer 2013 Paper-I",
+      "sourceQuestionId": 25086,
+      "reference": "📌 PYQ — RPSC Programmer 2013 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक परीक्षा में प्रदीप का अपनी कक्षा में सबसे नीचे से छब्बीसवाँ एवं सबसे ऊपर से सातवाँ स्थान है, तो उसकी कक्षा में कुल कितने विद्यार्थी हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "34"
+        },
+        {
+          "id": "opt2",
+          "text": "33"
+        },
+        {
+          "id": "opt3",
+          "text": "32"
+        },
+        {
+          "id": "opt4",
+          "text": "31"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्नानुसार क्रम निम्नवत् है। प्रदीप का नीचे से स्थान= 26th प्रदीप का ऊपर से स्थान= 7th कक्षा मे कुल विधार्थी = (26 + 7) – 1 = 33 – 1 = 32",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 25087,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अपनी कक्षा में शालिनी की रैंक ऊपर से सातवीं एवं नीचे से सत्ताईसवाँ है, तो कक्षा में कुल कितने विद्यार्थी हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "33"
+        },
+        {
+          "id": "opt2",
+          "text": "34"
+        },
+        {
+          "id": "opt3",
+          "text": "35"
+        },
+        {
+          "id": "opt4",
+          "text": "32"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कक्षा में कुल विद्यार्थी = (ऊपर से शालिनी की रैंक+नीचे से रैंक)– 1 ⇒ 7 + 27 – 1 ⇒ 33 अत: कक्षा में कुल विद्यार्थी= 33",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2015",
+      "sourceQuestionId": 25088,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक वर्ष में निम्नलिखित में से कौन से दो महीनों का वैâलेण्डर समान होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जून और अक्टूबर"
+        },
+        {
+          "id": "opt2",
+          "text": "अप्रैल और नवम्बर"
+        },
+        {
+          "id": "opt3",
+          "text": "अप्रैल और जुलाई"
+        },
+        {
+          "id": "opt4",
+          "text": "अक्टूबर और दिसम्बर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "एक साल में अप्रैल और जुलाई महीनों का वैâलेंडर एक जैसा होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (SE) G-B 2022",
+      "sourceQuestionId": 25089,
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "घड़ी की सुईयाँ एक दिन में कितनी बार परस्पर ३० डिग्री का कोण बनायेंगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "23"
+        },
+        {
+          "id": "opt2",
+          "text": "44"
+        },
+        {
+          "id": "opt3",
+          "text": "46"
+        },
+        {
+          "id": "opt4",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "१२ घंटे की अवधि में · २२ बार में ३०°का कोण बनायेंगी। अत: एक दिन में ४४ बार ३०°का कोण बनायेंगी। 935",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant jailor 2013",
+      "sourceQuestionId": 25090,
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि17दिसंबर,1899को शनिवार था तो22 दिसम्बर,1901को कौन सा दिवस होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुक्रवार"
+        },
+        {
+          "id": "opt2",
+          "text": "शनिवार"
+        },
+        {
+          "id": "opt3",
+          "text": "रविवार"
+        },
+        {
+          "id": "opt4",
+          "text": "सोमवार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "17दिसंबर,1899 –शनिवार साधारण वर्ष में केवल एक अतिरिक्त दिन होता है, जबकि लीप वर्ष में दो अतिरिक्त दिन होता है। वे शताब्दी वर्ष लीप वर्ष माने जाते हैं जो400से विभाज्य हैं। 17दिसंबर,1899 –शनिवार 17दिसंबर,1900 –रविवार 17दिसंबर,1901 –सोमवार १७ दिसंबर से २२ दिसंबर तक कुल विषम दिन= 5 अत: 22दिसंबर,1901 –शनिवार",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2013",
+      "sourceQuestionId": 25091,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान सरकार ने सरकारी नौकरी में शिलाड़ियों के लिए कितने प्रतिशत आरक्षण का प्रावधान किया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1%"
+        },
+        {
+          "id": "opt2",
+          "text": "2%"
+        },
+        {
+          "id": "opt3",
+          "text": "3%"
+        },
+        {
+          "id": "opt4",
+          "text": "4%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान सरकार ने खेल प्रतिभाओं को प्रोत्साहन देने के लिए सरकारी सेवाओं में २³ का आरक्षण देने प्रावधान किया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 26062,
+      "reference": "✎ PYQ Modified · RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सन-2020में भीलवाड़ा मॉडल किस प्रकार के नियंत्रण/प्रबन्धन के लिए विख््यात है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंचाई प्रबन्धन"
+        },
+        {
+          "id": "opt2",
+          "text": "मृदा संरक्षण"
+        },
+        {
+          "id": "opt3",
+          "text": "कोरोना नियंत्रण"
+        },
+        {
+          "id": "opt4",
+          "text": "बाढ़ नियंत्रण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोरोन के खिलाफ लड़ाई में राजस्थान के भीलवाड़ा जिले में कोरोना वायरस के बढ़ते मामलों के चलते इस शहर को इटली की तरह कहा जाने लगा है। कोरोना से बचने के प्रयासों को प्रशासन द्वारा एक व्यवस्थित रूप देकर काफी हद तक कोरोना पर काबू पा लिया गया है, जिसकी चर्चा पूरे भारत वर्ष में किया जाने लगा था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 26063,
+      "reference": "✎ PYQ Modified · RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

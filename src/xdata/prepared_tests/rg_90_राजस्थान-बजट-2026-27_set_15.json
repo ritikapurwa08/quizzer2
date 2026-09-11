@@ -1,0 +1,289 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान बजट 2026-27",
+  "topicSlug": "राजस्थान-बजट-2026-27",
+  "testSetName": "राजस्थान बजट 2026-27 - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "STEM विषयों में रुचि बढ़ाने हेतु Space Gallery का निर्माण कहाँ किया जायेगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर स्थित विज्ञान केंद्र में"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर स्थित State Remote Sensing Application Centre (SRSAC) में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा विश्वविद्यालय में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर साइंस पार्क में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "विद्यार्थियों एवं आमजन की STEM (Science, Technology, Engineering and Mathematics) विषयों में रूचि बढ़ाने तथा अपने देश की अंतरिक्ष उपलब्धियों से परिचय करवाने के लिए जोधपुर स्थित State Remote Sensing Application Centre (SRSAC) में Space Gallery का निर्माण करवाया जायेगा। साथ ही, Science Park, जयपुर में Space Gallery एवं Children Gallery का निर्माण किया जायेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17008,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कक्षा 6 से 8 तक के विद्यार्थियों के learning gaps को दूर करने हेतु कितने विद्यालयों में AI आधारित Personalised Learning Labs स्थापित किये जायेंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "500"
+        },
+        {
+          "id": "opt2",
+          "text": "750"
+        },
+        {
+          "id": "opt3",
+          "text": "1000"
+        },
+        {
+          "id": "opt4",
+          "text": "1500"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रदेश में कक्षा 6 से 8वीं तक के विद्यार्थियों के भाषा एवं गणित में learning gaps को पूरा करने, Smart Learning Eco-system को बढ़ावा देने तथा व्यक्तिगत सहायता उपलब्ध कराने के उद्देश्य से प्रदेश के एक हजार विद्यालयों में AI आधारित Personalised Learning Labs की स्थापना की जायेगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17009,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "घुमन्तू एवं अर्द्ध-घुमन्तू समुदाय वर्ग के परिवारों के बच्चों की औपचारिक शिक्षा सुनिश्चित करने हेतु Raj PAHAL कार्यक्रम आरम्भ किया जाएगा। Raj PAHAL का पूर्ण रूप क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Public Access for Higher and Advanced Learning"
+        },
+        {
+          "id": "opt2",
+          "text": "Portable Access for Holistic and Assisted Learning"
+        },
+        {
+          "id": "opt3",
+          "text": "Progressive Approach for Holistic Academic Literacy"
+        },
+        {
+          "id": "opt4",
+          "text": "Primary Assistance for Holistic and Adaptive Learning"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "घुमन्तू एवं अर्द्ध-घुमन्तू समुदाय यथा-गाड़िया लोहार, बंजारा इत्यादि एवं मजदूर वर्ग के परिवारों को जीवनयापन के लिए एक स्थान से दूसरे स्थान पर जाना पड़ता है। इन परिवारों के बच्चे औपचारिक शिक्षा से वंचित न रह जायें, इस दृष्टि आगामी वर्ष Raj PAHAL (Portable Access for Holistic and Assisted Learning) कार्यक्रम आरम्भ करने की घोषणा। इस योजनान्तर्गत प्रथम चरण में प्रत्येक जिले में एक School on Wheels स्थापित किया जायेगा तथा migration prone क्षेत्रों में अस्थायी शिक्षा शिविर संचालित किये जायेंगे। साथ ही, शैक्षिक संभागों पर 6 माह के School Readiness Camps आयोजित किये जायेंगे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17010,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रदेश में विद्यालयों के साथ संचालित आंगनबाड़ी केन्द्रों में खेल सामग्री एवं “जादुई पिटारा” उपलब्ध कराने हेतु लगभग कितनी राशि व्यय की जाएगी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग 223 करोड़ रुपये"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग 323 करोड़ रुपये"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग 423 करोड़ रुपये"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग 523 करोड़ रुपये"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रदेश में विद्यालयों के साथ संचालित 22 हजार 746 (बाइस हजार सात सौ छियालिस) आंगनबाड़ी केन्द्रों में बच्चों के समग्र विकास तथा खेल आधारित शिक्षा के लिए खेल सामग्री एवं “जादुई पिटारा” उपलब्ध करवाया जाना प्रस्तावित है। इस हेतु लगभग 323 करोड़ (तीन सौ तेईस करोड़) रुपये का व्यय किया जायेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17011,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेधावी विद्यार्थियों को Tablet/Laptop क्रय हेतु e-Voucher के माध्यम से अधिकतम कितनी सहायता दी जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10,000 रुपये"
+        },
+        {
+          "id": "opt2",
+          "text": "15,000 रुपये"
+        },
+        {
+          "id": "opt3",
+          "text": "20,000 रुपये"
+        },
+        {
+          "id": "opt4",
+          "text": "25,000 रुपये"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कक्षा 8वीं, 10वीं एवं 12वीं में अध्ययन करने वाले चयनित मेधावी विद्यार्थियों को स्वयं के स्तर पर Tablet/Laptop क्रय किये जाने के लिए e-Voucher के माध्यम से 20 हजार (बीस हजार) रुपये तक की सहायता उपलब्ध करायी जायेगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17012,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "Ajmer, Bharatpur एवं Kota में स्थापित किये जाने वाले Techno Hubs हेतु कितनी राशि व्यय की जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20 करोड़ रुपये"
+        },
+        {
+          "id": "opt2",
+          "text": "25 करोड़ रुपये"
+        },
+        {
+          "id": "opt3",
+          "text": "30 करोड़ रुपये"
+        },
+        {
+          "id": "opt4",
+          "text": "50 करोड़ रुपये"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "Startups को बढ़ावा देने के लिए अजमेर, भरतपुर एवं कोटा में Tinkering Lab, Deep-Tech Labs, Data व AI Labs जैसी Next Generation Technology से युक्त नवीन Techno Hubs स्थापित किये जायेंगे। इस हेतु 30 करोड़ (तीस करोड़) रुपये का व्यय किया जायेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17013,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "iStart कार्यक्रम के तहत वर्तमान में लगभग कितने registered startups हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5,000"
+        },
+        {
+          "id": "opt2",
+          "text": "6,500"
+        },
+        {
+          "id": "opt3",
+          "text": "7,500"
+        },
+        {
+          "id": "opt4",
+          "text": "10,000"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आज प्रदेश में iStart कार्यक्रम के तहत 7 हजार 500 (सात हजार पांच सौ) registered startups का एक समृद्ध Startup Eco-system तैयार हो गया है। इसे और अधिक व्यापक बनाये जाने के उद्देश्य से उभरते Startups की Mentorship व Scaling के लिए ‘iStart Ambassador Programme’ प्रारम्भ किया जायेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 17014,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सुमेलित किजिए -औद्योगिक क्षेत्र जिलाa. धरमपुरा 1. भीलवाड़ाb. मसूदा 2. ब्यावरc. कन्याखेड़ी 3. बाड़मेरa, b, c",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "3, 2, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 1, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रदेश में तीव्र औद्योगिक विकास के लिए धरमपुरा-बाड़मेर; मसूदा-ब्यावर; कन्याखेड़ी-भीलवाड़ा सहित विभिन्न औद्योगिक क्षेत्रों एवं Logistic Parks के पहुँच मार्गों के विकास के लिए 400 करोड़ (चार सौ करोड़) रुपये का व्यय किया जाना प्रस्तावित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 17044,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: अटल प्रगति पथों के लिए आगामी वर्ष कितना व्यय प्रस्तावित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "300 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "500 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "700 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "400 करोड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष 2024-25 एवं 2025-26 में क्रमशः 10 हजार व 5 हजार से अधिक आबादी वाले ग्रामीण कस्बों में Cement Concrete के अटल प्रगति पथ के निर्माण करवाये जाने की घोषणा की गयी थी। इसी कड़ी में, आगामी वर्ष 250 (दो सौ पचास) अटल प्रगति पथों के 500 करोड़ (पांच सौ करोड़) रुपये की लागत के कार्य हाथ में लिये जाने प्रस्तावित हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 17045,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान बजट 2026-27\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान बजट 2026-27\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान बजट 2026-27\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

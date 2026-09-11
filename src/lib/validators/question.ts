@@ -331,15 +331,15 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
     // ── PYQ Provenance capture ───────────────────────────────────────────────
     // Extract optional provenance fields from AI output and store in meta.
     // Accepted sourceType values from the prompt contract.
-    const VALID_SOURCE_TYPES = new Set(["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
+    const VALID_SOURCE_TYPES = new Set(["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
     const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim() : undefined;
     const sourceType = rawSourceType && VALID_SOURCE_TYPES.has(rawSourceType)
-      ? (rawSourceType as "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW")
+      ? (rawSourceType as "PYQ" | "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW")
       : undefined;
 
     // sourceQuestionId must be a positive integer and only belongs to PYQ questions
     const rawSourceId = raw.sourceQuestionId;
-    const isPyqSource = sourceType === "PYQ_EXACT" || sourceType === "PYQ_MODIFIED";
+    const isPyqSource = sourceType === "PYQ" || sourceType === "PYQ_EXACT" || sourceType === "PYQ_MODIFIED";
     const sourceQuestionId =
       isPyqSource && typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
         ? rawSourceId

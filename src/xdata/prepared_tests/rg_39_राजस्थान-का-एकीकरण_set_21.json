@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का एकीकरण",
+  "topicSlug": "राजस्थान-का-एकीकरण",
+  "testSetName": "राजस्थान का एकीकरण - अभ्यास टेस्ट 21",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान यूनियन’ का भाग कौन सा नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 11184,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की रियासतों के एकीकरण का आरोही क्रम हैं -1. टोंक2. उदयपुर3. जैसलमेर4. अजमेर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 1, 3, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 2, 4, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 1, 4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 11185,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ के महाराणा भूपालसिंह किस वर्ष में राजस्थान के महाराज प्रमुख बने -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1947"
+        },
+        {
+          "id": "opt2",
+          "text": "1948"
+        },
+        {
+          "id": "opt3",
+          "text": "1949"
+        },
+        {
+          "id": "opt4",
+          "text": "1956"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 11193,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरोही का राजस्थान संघ में विलय कितने चरणों में हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दो"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "चार"
+        },
+        {
+          "id": "opt4",
+          "text": "पांच"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 11194,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वृहत्तर राजस्थान का उद्घाटन किसने किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाहरलाल नेहरू"
+        },
+        {
+          "id": "opt2",
+          "text": "सरदार वल्लभभाई पटेल"
+        },
+        {
+          "id": "opt3",
+          "text": "बाबू राजेन्द्र प्रसाद"
+        },
+        {
+          "id": "opt4",
+          "text": "वी.पी. मेनन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Serology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 11211,
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान निर्माण के प्रथम में मत्स्य संघ नाम रखने का सुझाव किसने दिया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पी. सत्यनारायण राव"
+        },
+        {
+          "id": "opt2",
+          "text": "के. एम. मुंशी"
+        },
+        {
+          "id": "opt3",
+          "text": "एन. बी. गाडगिल"
+        },
+        {
+          "id": "opt4",
+          "text": "वल्लभभाई पटेल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+      "sourceQuestionId": 11212,
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य संघ का कौन सा राज्य जनता के बहुमत के आधार पर उत्तर प्रदेश के साथ विलीनीकरण के लिए तैयार था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 11221,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: वर्तमान राजस्थान राज्य का निर्माण कितने चरणों में पूर्ण हुआ-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पांच"
+        },
+        {
+          "id": "opt2",
+          "text": "छः"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "आठ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11265,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘मत्स्य संघ’ के प्रधानमंत्री बनाये गए-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयमान सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "के.एम. मुंशी"
+        },
+        {
+          "id": "opt3",
+          "text": "शोभाराम"
+        },
+        {
+          "id": "opt4",
+          "text": "मास्टर आदित्येन्द्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11266,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का एकीकरण\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान का एकीकरण\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान का एकीकरण\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

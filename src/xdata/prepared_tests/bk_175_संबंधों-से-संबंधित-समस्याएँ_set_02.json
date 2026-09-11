@@ -1,0 +1,298 @@
+{
+  "subject": "तार्किक विवेचन एवं मानसिक योग्यता",
+  "subjectSlug": "reasoning-mental-ability",
+  "topic": "संबंधों से संबंधित समस्याएँ",
+  "topicSlug": "संबंधों-से-संबंधित-समस्याएँ",
+  "testSetName": "संबंधों से संबंधित समस्याएँ - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिए गए रिक्त स्थान पर आने वाला अक्षर समूह है: TVXZ: MQUY:: QSUW: _______",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "IMQU"
+        },
+        {
+          "id": "opt2",
+          "text": "JNRV"
+        },
+        {
+          "id": "opt3",
+          "text": "JMQV"
+        },
+        {
+          "id": "opt4",
+          "text": "JNQV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जिस प्रकार, उसी प्रकार, अत: रिक्त स्थान= J N R V",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24824,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से एक समान वर्ग से सम्बन्धित नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "35, 24"
+        },
+        {
+          "id": "opt2",
+          "text": "79, 68"
+        },
+        {
+          "id": "opt3",
+          "text": "57, 46"
+        },
+        {
+          "id": "opt4",
+          "text": "59, 37"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दिये गए विकल्पों से- (a) 35 – 24 = 11 (b) 79 – 68 = 11 (c) 57 – 46 = 11 (d) 59 – 37 = 22",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24825,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "असंगत को चुनिये।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "GMANO"
+        },
+        {
+          "id": "opt2",
+          "text": "JSAIMNE"
+        },
+        {
+          "id": "opt3",
+          "text": "RANOEG"
+        },
+        {
+          "id": "opt4",
+          "text": "AABANN"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दिए गए विकल्पों को अर्थपूर्ण शब्दों में व्यवस्थित करने पर- (a) MANGO (b) JASMINE (c) ORANGE (d) BANANA विकल्प(a), (c) तथा(d)फलों के नाम है जबकि विकल्प(b) फूल का नाम है अत: विकल्प(b)अन्य से भिन्न है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020 RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24826,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020 RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न संख्याएं एक विशेष प्रकार से लिखी गई है, अज्ञात संख्या होगी- 84 81 88 14 12 18 9? 11 (i) (ii) (iii)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "12"
+        },
+        {
+          "id": "opt3",
+          "text": "16"
+        },
+        {
+          "id": "opt4",
+          "text": "22"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जिस प्रकार, (i) 14 12 7 12 84 2 × = × = तथा (ii) 18 9 9 9 81 2 × = × = उसी प्रकार(iii)में-? 11 88 2 × = 88 2? 11 × =? 16 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programmer 2013 Paper-I",
+      "sourceQuestionId": 24827,
+      "reference": "📌 PYQ — RPSC Programmer 2013 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जिस प्रकार ‘कमीज’ का संबंध ‘बंटन’ से है, उसी प्रकार ‘जूतों’ का संबंध है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Colour/रंग"
+        },
+        {
+          "id": "opt2",
+          "text": "Pocket/जेब"
+        },
+        {
+          "id": "opt3",
+          "text": "Wash/सफाई"
+        },
+        {
+          "id": "opt4",
+          "text": "Laces/फीते"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जिस प्रकार ‘कमीज’ का संबंध ‘बंटन’ से है, उसी प्रकार `जूतों' का संबंध ‘फीते’ से है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 24829,
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लुप्त पद ज्ञात कीजिए: 24: 25:: 80:?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "90"
+        },
+        {
+          "id": "opt2",
+          "text": "99"
+        },
+        {
+          "id": "opt3",
+          "text": "120"
+        },
+        {
+          "id": "opt4",
+          "text": "124"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिस प्रकार, 24: 25 (2 + 4): (2 + 5) ⇒ 6 7 = +1: उसी प्रकार(a)से– 80:? (8 + 0): (9 + 0) ⇒ 8 9 = +1: अत:? = 90",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. 2011",
+      "sourceQuestionId": 24830,
+      "reference": "📌 PYQ — RPSC School Lect. 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लापता संख्या है- 2 3 6 7 2 6 9 11 4 5 20?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16"
+        },
+        {
+          "id": "opt2",
+          "text": "15"
+        },
+        {
+          "id": "opt3",
+          "text": "17"
+        },
+        {
+          "id": "opt4",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जिस प्रकार प्रथम पंक्ति में- (2, 3, 6, 7) ⇒ 2 2 2 2 3 6 7 + + = ⇒ 4 9 36 7 + + = ⇒ 49 7 = 7 = 7 L.H.S. = R.H.S तथा दूसरी पंक्ति में- (2, 6, 9, 11) ⇒ 2 2 2 2 6 9 11 + + = ⇒ 4 36 81 11 + + = ⇒ 121 11 = 11 = 11 L.H.S. = R.H.S उसी प्रकार तीसरी पंक्ति में- (4, 5, 20,?) ⇒ 2 2 2 4 5 20? + + = ⇒ 16 25 400? + + = ⇒ 441? =? = 21 अत:? = 21",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant jailor 2013",
+      "sourceQuestionId": 24831,
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: वीरेन्द्र राजेन्द्र के पिता का लड़का है। राजेन्द्र की बुआ मंजू है। आदर्श मंजू का पति है और प्रकाश का दामाद है। प्रकाश राजेन्द्र से वैâसे संबंधित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भतीजा"
+        },
+        {
+          "id": "opt2",
+          "text": "पुत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "भाई"
+        },
+        {
+          "id": "opt4",
+          "text": "दादा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नानुसार, सम्बन्ध आरेख निम्नवत् है- अत: आरेख से स्पष्ट है कि प्रकाश, राजेन्द्र के दादा हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2021",
+      "sourceQuestionId": 24842,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: श्रीमानA, श्रीमानB से मिलते हैं।B, एक पुत्रC और एक पुत्रीD का पिता है।E, A की माता है।C विवाहित है और उसके एक पुत्र है।E, B की पुत्रवधू है।A किस प्रकारB से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंकल"
+        },
+        {
+          "id": "opt2",
+          "text": "पौत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पुत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "भतीजा/भाँजा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्नानुसार, रक्त सम्बन्ध आरेख निम्नवत् है- उपरोक्त रक्त सम्बन्ध आरेख से स्पष्ट है कि A, Bका पौत्र है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2018",
+      "sourceQuestionId": 24843,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"संबंधों से संबंधित समस्याएँ\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"संबंधों से संबंधित समस्याएँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"संबंधों से संबंधित समस्याएँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

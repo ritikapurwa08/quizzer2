@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में त्यौहार",
+  "topicSlug": "राजस्थान-में-त्यौहार",
+  "testSetName": "राजस्थान में त्यौहार - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन-सा दिन सबसे महत्वपूर्ण अबूझ सावा (शुभ) विवाह के लिए मान्य है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आखा तीज"
+        },
+        {
+          "id": "opt2",
+          "text": "निर्जला एकादशी"
+        },
+        {
+          "id": "opt3",
+          "text": "करवा चौथ"
+        },
+        {
+          "id": "opt4",
+          "text": "शरद पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अखा तीज (अक्षय तृतीया) को राजस्थान में सबसे शुभ विवाह तिथि माना जाता है। इस दिन बिना मुहूर्त निकाले विवाह किए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (RAT) Exam 2024",
+      "sourceQuestionId": 1163,
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कजली तीज का पर्व किस माह में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt2",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद"
+        },
+        {
+          "id": "opt4",
+          "text": "वैशाख"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कजली तीज राजस्थान में मुख्य रूप से भाद्रपद मास के कृष्ण पक्ष की तृतीया तिथि को मनाई जाती है। कजरी तीज के दिन सुहागिनें पति की लंबी की कामना के लिए व्रत रखती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 1164,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किन महीनों में भारतीय परम्परा अनुसार ‘बसंत’ ऋतु आती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मार्च-अप्रैल"
+        },
+        {
+          "id": "opt2",
+          "text": "जुलाई-अगस्त"
+        },
+        {
+          "id": "opt3",
+          "text": "मई-जून"
+        },
+        {
+          "id": "opt4",
+          "text": "जनवरी-फरवरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारतीय कैलेंडर के अनुसार, बसंत ऋतु फाल्गुन और चैत्र (मार्च-अप्रैल) महीनों में आती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(CLIT) Exam 2024",
+      "sourceQuestionId": 1165,
+      "reference": "📌 PYQ — Junior Instructor(CLIT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस महीने में कजली तीज का त्योहार बूंदी में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt2",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कजली तीज भाद्रपद माह के कृष्ण पक्ष की तृतीया (जुलाई अगस्त) को मनाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "sourceQuestionId": 1167,
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस क्षेत्र में “गुलाबी गनगौर” चैत्र शुक्ल पंचमी को मनायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाथद्वारा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुलाबी गणगौर नाथद्वारा में मनायी जाती है जहाँ लड़कियां एवं महिलाएँ ईसर-पार्वती की पूजा करती हैं और गुलाबी कपड़े पहनती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Exam 2024 (Paper - I)",
+      "sourceQuestionId": 1168,
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर पर्व के दौरान गाए जाने वाले गीत में ‘गिन्दोली’ का नाम प्रयुक्त होता है। यह ‘गिन्दोली’ कौन थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव सातल की पुत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "बहादुर शाह की पुत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "अहमदाबाद के सूबेदार, महमूद बेग की पुत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "मालाणी के शासक, मल्लिनाथ की पुत्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गणगौर उत्सव के दौरान, गीतों में ‘गिंदोली’ का उल्लेख होता है, जो अहमदाबाद के सूबेदार महमूद बेग की बेटी थी। यह संदर्भ गणगौर उत्सव से जुड़ी लोककथाओं का एक हिस्सा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "sourceQuestionId": 1169,
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर पर्व समर्पित है ___",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवी लक्ष्मी"
+        },
+        {
+          "id": "opt2",
+          "text": "देवी पार्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "भगवान राम"
+        },
+        {
+          "id": "opt4",
+          "text": "भगवान कृष्ण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गणगौर राजस्थान का प्रमुख पर्व है, जो मुख्य रूप से देवी पार्वती को समर्पित होता है। इसे विवाहित और अविवाहित महिलाएं धूमधाम से मनाती हैं। गणगौर हिंदू कैलेंडर के पहले महीने चैत्र (मार्च-अप्रैल) के महीने में मनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -Ist",
+      "sourceQuestionId": 1170,
+      "reference": "📌 PYQ — Clerk Grade-II/ Jr. Asst. 2024 Paper -Ist"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: शीतला अष्टमी किस दिन मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आश्विन शुक्ल अष्टमी"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र कृष्ण अष्टमी"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र शुक्ल अष्टमी"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद शुक्ल अष्टमी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1220,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: किस एकादशी को प्रबोधिनी ग्यारस के नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ कृष्ण एकादशी"
+        },
+        {
+          "id": "opt2",
+          "text": "फाल्गुन शुक्ल एकादशी"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक शुक्ल एकादशी"
+        },
+        {
+          "id": "opt4",
+          "text": "आषाढ़ शुक्ल एकादशी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1221,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में त्यौहार\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में त्यौहार\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में त्यौहार\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

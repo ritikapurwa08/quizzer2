@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के ऊर्जा संसाधन",
+  "topicSlug": "राजस्थान-के-ऊर्जा-संसाधन",
+  "testSetName": "राजस्थान के ऊर्जा संसाधन - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में से किस जिले में द्वितीय वायु ऊर्जा प्लान्ट स्थापित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 12063,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नए और अक्षय ऊर्जा मंत्रालय के अनुसार सौर ऊर्जा से बिजली की क्षमता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "182 GW"
+        },
+        {
+          "id": "opt2",
+          "text": "190 GW"
+        },
+        {
+          "id": "opt3",
+          "text": "142 GW"
+        },
+        {
+          "id": "opt4",
+          "text": "153 GW"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 12064,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में ‘देवगढ़ पवन ऊर्जा परियोजना’ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer (Sanskrit Edu.) 2022",
+      "sourceQuestionId": 12065,
+      "reference": "📌 PYQ — School Lecturer (Sanskrit Edu.) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गिरल लिग्नाइट ताप शक्ति परियोजना किस गांव में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामसर (अजमेर)"
+        },
+        {
+          "id": "opt2",
+          "text": "सिवाणा (जालौर)"
+        },
+        {
+          "id": "opt3",
+          "text": "समदड़ी (बाड़मेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "थुम्बली गांव (बाड़मेर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "sourceQuestionId": 12066,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अडानी हाइब्रिड एनर्जी की सहायक कंपनी ने किस स्थान पर भारत का पहला पवन-सौर हाइब्रिड पावर प्लांट स्थापित किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "रायपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "हैदराबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "sourceQuestionId": 12068,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस कम्पनी ने भारत का पहला 390 एम. डब्ल्यू का पवन और हाइब्रिड पावर प्लान्ट जैसलमेर में शुरू किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रिलांयस पावर लिमिटेड"
+        },
+        {
+          "id": "opt2",
+          "text": "सुजलॉन एनर्जी"
+        },
+        {
+          "id": "opt3",
+          "text": "टाटा पावर क.लि."
+        },
+        {
+          "id": "opt4",
+          "text": "“ए.एच.ई.जे.ओ.एल.” अडानी ग्रीन एनर्जी लिमिटेड की सहायक कम्पनी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer 2022 Gk (G-B)",
+      "sourceQuestionId": 12070,
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान बायो-मास ऊर्जा उत्पादन विशाल संभावनायें किस कारण से हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रत्यक्ष सूर्य किरणें"
+        },
+        {
+          "id": "opt2",
+          "text": "वन"
+        },
+        {
+          "id": "opt3",
+          "text": "सूखी लकड़ियां (सरसों की लकड़ियां) एवं पशुधन"
+        },
+        {
+          "id": "opt4",
+          "text": "मरुस्थलीय भूखंड"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "sourceQuestionId": 12075,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का द्वितीय परमाणु ऊर्जा संयंत्र प्रस्तावित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा में"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12130,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: एक ही स्थान पर पवन ऊर्जा उत्पादन की सबसे बड़ी सुविधा का विकास जिस जिले में हो रहा है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12132,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के ऊर्जा संसाधन\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के ऊर्जा संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के ऊर्जा संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

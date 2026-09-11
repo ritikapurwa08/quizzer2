@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "शिक्षा",
+  "topicSlug": "शिक्षा",
+  "testSetName": "शिक्षा - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार ने कौन सा दिन विद्यालय में बच्चों के लिये “नो-बैग डे” घोषित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुक्रवार"
+        },
+        {
+          "id": "opt2",
+          "text": "शनिवार"
+        },
+        {
+          "id": "opt3",
+          "text": "सोमवार"
+        },
+        {
+          "id": "opt4",
+          "text": "मंगलवार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "sourceQuestionId": 12759,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का राज्यपाल निम्नांकित में से किस विश्वविद्यालय का कुलाधिपति नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान तकनीकी विश्वविद्यालय, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जगद्गुरु रामानंदाचार्य राजस्थान संस्कृत विश्वविद्यालय, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान केंद्रीय विश्वविद्यालय, अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिदेव जोशी पत्रकारिता और जनसंचार विश्वविद्यालय, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "sourceQuestionId": 12760,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान मदरसा बोर्ड कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 12761,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मरूविधि रत्नाकर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान विधानसभा का एक ई-जर्नल"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर के एक तेल क्षेत्र का नाम"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान स्टेट जुड़िसियल अकादमी का एक ई-न्यूजलेटर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान में दिये जाने वाले एक साहित्यिक पुरस्कार का नाम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+      "sourceQuestionId": 12762,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान देश का पहला राज्य है जहाँ राजकीय विद्यालयों में “नो बेग डे” लागू किया गया है। इसके लिये निर्धारित दिन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंगलवार"
+        },
+        {
+          "id": "opt2",
+          "text": "गुरुवार"
+        },
+        {
+          "id": "opt3",
+          "text": "शुक्रवार"
+        },
+        {
+          "id": "opt4",
+          "text": "शनिवार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 12763,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "समग्र शिक्षा अभियान के लक्ष्य हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्कूल शिक्षा में सामाजिक और लैंगिक अंतराल को पाटना"
+        },
+        {
+          "id": "opt2",
+          "text": "शिक्षा में व्यावसायिकता को बढ़ावा देना"
+        },
+        {
+          "id": "opt3",
+          "text": "शिक्षा में गुणवत्ता प्रावधान"
+        },
+        {
+          "id": "opt4",
+          "text": "ये सभी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 12764,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा ‘डिग्री कॉलेज’ राजस्थान में सबसे पुराना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसवंत कॉलेज, जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "गवर्नमेंट कॉलेज, अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा कॉलेज, जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कनोरिया कॉलेज, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "A.A.R.O. (GK and Botany) 2022",
+      "sourceQuestionId": 12765,
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन एसआईईआरटी, उदयपुर का विभाग नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिक्षक शिक्षा विभाग"
+        },
+        {
+          "id": "opt2",
+          "text": "विज्ञान और गणित विभाग"
+        },
+        {
+          "id": "opt3",
+          "text": "पाठ्यक्रम और मूल्यांकन विभाग"
+        },
+        {
+          "id": "opt4",
+          "text": "महिला अध्ययन विभाग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12780,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: उदयपुर में ‘परोपकारिणी सभा’ कब पंजीकृत की गयी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फरवरी, 1883"
+        },
+        {
+          "id": "opt2",
+          "text": "फरवरी, 1881"
+        },
+        {
+          "id": "opt3",
+          "text": "10 अप्रैल, 1875"
+        },
+        {
+          "id": "opt4",
+          "text": "अक्टूबर, 1883"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12784,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"शिक्षा\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"शिक्षा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"शिक्षा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

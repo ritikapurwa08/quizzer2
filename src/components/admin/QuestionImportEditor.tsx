@@ -363,10 +363,17 @@ export function QuestionImportEditor({
                 {syntaxError ? "JSON Syntax Error" : `${schemaErrors.length} Issue(s)`}
               </Badge>
             ) : parsedData ? (
-              <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-bold shrink-0 font-hindi">
-                <CheckCircle2 className="h-3 w-3 shrink-0" />
-                तैयार · {parsedData.questions.length} प्रश्न
-              </Badge>
+              <div className="flex items-center gap-2 flex-wrap">
+                <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-bold shrink-0 font-hindi">
+                  <CheckCircle2 className="h-3 w-3 shrink-0" />
+                  तैयार · {parsedData.questions.length} प्रश्न
+                </Badge>
+                {parsedData.questions.length > 30 && (
+                  <Badge variant="outline" className="text-[10px] px-2 py-0.5 border-warning/50 text-warning bg-warning/10 font-medium">
+                    ⚠️ Large Batch: Recommend CLI pipeline for &gt;30 Qs
+                  </Badge>
+                )}
+              </div>
             ) : (
               <span className="text-muted-foreground text-xs truncate font-hindi">
                 ChatGPT / Gemini / Claude से प्राप्त JSON यहाँ पेस्ट करें

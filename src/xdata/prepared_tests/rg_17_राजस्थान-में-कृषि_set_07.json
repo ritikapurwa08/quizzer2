@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "प्रधानमंत्री फसल बीमा योजना (प्र.फ.बी.यो. - PMFBY) किस वर्ष में लागू की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2015"
+        },
+        {
+          "id": "opt2",
+          "text": "2016"
+        },
+        {
+          "id": "opt3",
+          "text": "2017"
+        },
+        {
+          "id": "opt4",
+          "text": "2018"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "18 फरवरी 2016 को शुरू की गई “प्रधानमंत्री फसल बीमा योजना” कृषि मंत्रालय के कृषि, सहकारिता और किसान कल्याण विभाग द्वारा शुरू की गई एक फसल बीमा योजना है। PMFBY का उद्देश्य प्राकृतिक आपदाओं (ओलावृष्टि, सूखा, अकाल), कीटों और बीमारियों के कारण फसल के नुकसान के खिलाफ किसानों को वित्तीय सुरक्षा प्रदान करना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (STE) Exam 2024",
+      "sourceQuestionId": 5569,
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोयाबीन की पैदावार के लिये किस प्रकार की मृदा सर्वोपयुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल-पीली"
+        },
+        {
+          "id": "opt2",
+          "text": "जलोढ"
+        },
+        {
+          "id": "opt3",
+          "text": "काली"
+        },
+        {
+          "id": "opt4",
+          "text": "लैटेराइट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सोयाबीन के लिए काली मिट्टी सबसे उपयुक्त है, क्योंकि इसमें अच्छी जल धारण क्षमता और पोषक तत्व होते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (STE) Exam 2024",
+      "sourceQuestionId": 5570,
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी एक ‘रबी’ की फसल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "जौ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "दालें"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रबी फसलें सर्दियों में बोई जाती हैं और गर्मियों में काटी जाती हैं, जैसे गेहूँ, जौ, और दालें। बाजरा एक खरीफ फसल है, जो मानसून के दौरान बोई जाती है और सर्दियों से पहले काटी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (ICTSM) Exam 2024",
+      "sourceQuestionId": 5571,
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘शरबती’ एक किस्म है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सरसों की"
+        },
+        {
+          "id": "opt2",
+          "text": "कपास की"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ की"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "शरबती एक उच्च गुणवत्ता वाली गेहूँ की किस्म है, जो अपनी उच्च गुणवत्ता, मोटे दानों और स्वाद में बेमिसाल होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EM) Exam 2024",
+      "sourceQuestionId": 5572,
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पीली क्रान्ति’ का सम्बन्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कपास से"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल से"
+        },
+        {
+          "id": "opt3",
+          "text": "सरसों से (तिलहन)"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पीली क्रांति तिलहन उत्पादन, विशेष रूप से सरसों, को बढ़ावा देने से संबंधित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 5574,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीरनार और वरलक्ष्मी उन्नत किस्में हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जौ"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "गन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में देशी तथा नरमा किस्म की कपास का उत्पादन किया जाता है। राजस्थान में प्रमुख रूप से बीकानेरी नरमा, आर.एस.टी.-9,अमेरिकन कपास की किस्म आर.एस.875 16 एस.टी.9 संकर4,वीरनार, वराह लक्ष्मी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC EO/RO Re-Exam - 2022",
+      "sourceQuestionId": 5575,
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में उगने वाली रबरी फसल का चयन कीजिए:निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "जौ"
+        },
+        {
+          "id": "opt4",
+          "text": "बाजरा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रबी फसलें सर्दियों में बोई जाती हैं। जौ एक रबी फसल है जो राजस्थान में उगाई जाती है। मक्का, चावल, और बाजरा खरीफ फसलें हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+      "sourceQuestionId": 5576,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से किसके द्वारा कमांड एरिया डेवलपमेंट प्रोग्राम (सीएडीपी) प्रारंभ किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान सरकार एवं विश्व बैंक"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान सरकार एवं रिजर्व बैंक आॅफ इंडिया"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत सरकार एवं विश्व बैंक"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान सरकार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5787,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सा जिला शुष्क मैदानी कृषि जलवायु प्रदेश का भाग नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5788,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

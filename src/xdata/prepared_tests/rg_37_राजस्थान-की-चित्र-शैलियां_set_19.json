@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की चित्र शैलियां",
+  "topicSlug": "राजस्थान-की-चित्र-शैलियां",
+  "testSetName": "राजस्थान की चित्र शैलियां - अभ्यास टेस्ट 19",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "चित्रकार अली रजा, हामिद रूकनुद्दीन, रामलाल किस चित्रकला शैली से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूँदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+      "sourceQuestionId": 10637,
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोटा के किस शासक के काल को कोटा स्कूल की चित्रशैली का उत्कृष्ट काल माना जा सकता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराव शत्रुसाल सिंह I"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराव किशोर सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराव उम्मेद सिंह I"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराव शत्रुसाल सिंह II"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Electrical Degree (GK)",
+      "sourceQuestionId": 10640,
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दुगारी किले की चित्रकला सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर शैली से"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी शैली से"
+        },
+        {
+          "id": "opt3",
+          "text": "किशनगढ़ शैली से"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ शैली से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Civil Degree (GK)",
+      "sourceQuestionId": 10642,
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस विद्वान ने अपनी पुस्तक “राजपूत पेंटिंग्स” में राजस्थानी चित्र शैलियों का वैज्ञानिक विभाजन असंगत हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डॉ. श्रीधर अंधारे"
+        },
+        {
+          "id": "opt2",
+          "text": "आनंद कुमार स्वामी"
+        },
+        {
+          "id": "opt3",
+          "text": "डॉ. फैयाज अली"
+        },
+        {
+          "id": "opt4",
+          "text": "एरिक डिकिन्सन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+      "sourceQuestionId": 10643,
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हवेली चित्रकला किस शताब्दी की देन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "17वीं शताब्दी"
+        },
+        {
+          "id": "opt2",
+          "text": "20वीं शताब्दी"
+        },
+        {
+          "id": "opt3",
+          "text": "18वीं शत्ताब्दी"
+        },
+        {
+          "id": "opt4",
+          "text": "19वीं शताब्दी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+      "sourceQuestionId": 10644,
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर चित्र शैली में किस बीकानेर शासक के समय उस्ता परिवार ने हिन्दू कथाओं को आधार बनाकर बहुत चित्र बनाए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करणसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रायसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "अनूपसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जैतसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 10645,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की ______ पेंटिंग रागों और रागिनी की सचित्र व्याख्या है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गीत गोविंद"
+        },
+        {
+          "id": "opt2",
+          "text": "रागमाला"
+        },
+        {
+          "id": "opt3",
+          "text": "रसमंजरी"
+        },
+        {
+          "id": "opt4",
+          "text": "रसिकप्रिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+      "sourceQuestionId": 10653,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: चांदनी रात की संगोष्ठी किस चित्रकला शैली का चित्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़ शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "देवगढ़ शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी शैली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10777,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थानी चित्रकला का पहला वैज्ञानिक विभाजन किसने किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कमल चन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "आनन्द कुमार स्वामी"
+        },
+        {
+          "id": "opt3",
+          "text": "महारावल रामसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "साहिबदीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10778,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की चित्र शैलियां\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान की चित्र शैलियां\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान की चित्र शैलियां\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

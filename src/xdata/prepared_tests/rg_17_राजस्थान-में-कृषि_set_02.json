@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2022-23 में राजस्थान में किस जिले में मक्का के अन्तर्गत क्षेत्रफल (हेक्टेयर में) सर्वाधिक था ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बाँसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भीलवाड़ा जिला मक्का उत्पादन के क्षेत्रफल में राजस्थान में सबसे आगे रहा। भीलवाड़ा जिले में दो किस्म देशी व हाइब्रिड मक्का का उत्पादन हो रहा है। इनमें देशी मक्का का उपयोग खाने तथा हाइब्रिड मक्का का उपयोग मुयत: पोल्ट्री फार्म हाउस, पशुआहार संयत्र तथा एथेनॉल प्लांट में हो रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+      "sourceQuestionId": 5533,
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लाँच की गई गेहूँ की संवर्धित किस्में हैं:a. कल्याण सोना b. माही धवलc. गंगा सुनहरी d. कोहीनूरनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, c, d"
+        },
+        {
+          "id": "opt3",
+          "text": "a और b"
+        },
+        {
+          "id": "opt4",
+          "text": "c और d"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कल्याण सोना, गंगा सुनहरी, कोहीनूर — गेहूँ की प्रसिद्ध किस्में हैं।माही धवल — मक्का (Maize) की किस्म है, गेहूँ की नहीं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "sourceQuestionId": 5534,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कृषि फसली उत्पादन को भारत में उसके स्थान (रैंकिंग) के अनुसार घटते क्रम में व्यवस्थित करें:a. सोयाबीन b. जीराc. हिना (मेहदी) d. मक्कानीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, a, d, c"
+        },
+        {
+          "id": "opt3",
+          "text": "c, b, a, d"
+        },
+        {
+          "id": "opt4",
+          "text": "d, c, b, a"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हिना (मेहंदी) > जीरा > सोयाबीन > मक्का",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "sourceQuestionId": 5535,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान देश में किस फसल का सबसे बड़ा उत्पादक है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "अलसी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान बाजरा (Pearl Millet) का भारत का सबसे बड़ा उत्पादक राज्य है। शुष्क जलवायु और रेतीली मिट्टी बाजरे की खेती के लिए उपयुक्त है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "sourceQuestionId": 5536,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें -सूची I (उत्पाद)सूची II (शहर/क्षेत्र)a. गुड़I. कोटाb. धनियाII. नागौरc. मेथीIII. चित्तौड़नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-I, c-II"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-I, c-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-III, b-II, c-I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चित्तौड़गढ़ जिला गुड़ उत्पादन के लिए प्रसिद्ध है।कोटा जिला धनिया (coriander) उत्पादन के लिए जाना जाता है।नागौर जिला मेथी के लिए पूरे भारत में प्रसिद्ध है (नागौर मेथी की सबसे अच्छी किस्म)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "sourceQuestionId": 5537,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करे -सूची I (राजस्थान में फसल)सची II (आवश्यक वर्षा)a. मक्काI. 100 सेमी - 120 सेमीb. ज्वारII. 50 सेमी- 100 सेमीc. गन्नाIII. 50 सेमी - 125 सेमीd. मूंगफलीIV. 40 सेमी - 80 सेमीनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-IV, c-I, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-I, b-IV, c-II, d-III"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-III, c-II, d-I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मक्का → 50-100 सेमीज्वार → 40-80 सेमीगन्ना → 100-120 सेमीमूंगफली → 50-125 सेमी",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "sourceQuestionId": 5538,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित फसलों को उगने के लिए आवश्यक वर्षा की मात्रा के अनुसार आरोही क्रम में व्यवस्थित करें।a. चावल b. जौc. मक्का d. बाजरानीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, d, c"
+        },
+        {
+          "id": "opt2",
+          "text": "b, c, d, a"
+        },
+        {
+          "id": "opt3",
+          "text": "d, b, c, a"
+        },
+        {
+          "id": "opt4",
+          "text": "a, b, c, d"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाजरा सबसे कम वर्षा में उगता है, शुष्क क्षेत्रों की फसल।जौ : 400-600 मिमी वर्षा।मक्का : 500-800 मिमी वर्षा।चावल : सबसे अधिक वर्षा (1000 मिमी से ऊपर) चाहिए।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "sourceQuestionId": 5539,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान निम्नलिखित में से किस फसल का सबसे बड़ा उत्पादक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अदरक"
+        },
+        {
+          "id": "opt2",
+          "text": "प्याज"
+        },
+        {
+          "id": "opt3",
+          "text": "सरसों"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5773,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में परिचालन जोत के संदर्भ में, निम्नलिखित में से कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृषि जनगणना 2015-16 के अनुसार, राज्य में कुल परिचालन भूमि जोतों की संख्या 65.86 लाख हेक्टेयर थी।"
+        },
+        {
+          "id": "opt2",
+          "text": "सीमांत और छोटी जोत क्रमशः 40.12% और 21.9% है।"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि जनगणना 2015-16 के अनुसार, राज्य में महिला परिचालन जोत की कुल संख्या 7.75 लाख हेक्टेयर थी।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्ष 2010-11 में 13.30 लाख हेक्टेयर की तुलना में वर्ष 2015-16 में महिला जोत का कुल क्षेत्रफल बढ़कर 16.55 लाख हेक्टेयर हो गया है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5775,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

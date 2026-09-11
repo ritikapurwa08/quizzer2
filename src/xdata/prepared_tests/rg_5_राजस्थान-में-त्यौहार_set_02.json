@@ -1,0 +1,295 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में त्यौहार",
+  "topicSlug": "राजस्थान-में-त्यौहार",
+  "testSetName": "राजस्थान में त्यौहार - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "होली के अवसर पर ‘न्हाण’ का आयोजन निम्न में से कहाँ किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भिनाय"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt3",
+          "text": "सांगोद"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री महावीर जी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘न्हाण’ होली का एक पारंपरिक आयोजन है, जिसमें लोग रंगों से खेलते हैं और लोकगीत गाते हैं। यह मुख्य रूप से कोटा जिले के सांगोद में मनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 1144,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस क्षेत्र में “कजली तीज महोत्सव” विशेष रूप से भव्यता के साथ मनाया जाता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कजली तीज (भाद्रपद कृष्ण तृतीया) का सबसे भव्य महोत्सव बूंदी में होता है, जहाँ शाही सवारी और मेला 15 दिनों तक चलता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 1145,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध ‘गणगौर’ त्योहार किस देवी को समर्पित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt2",
+          "text": "सरस्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "लक्ष्मी"
+        },
+        {
+          "id": "opt4",
+          "text": "काली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पार्वती: गणगौर राजस्थान का एक प्रमुख त्योहार है, जो देवी पार्वती को समर्पित है। यह त्योहार वैवाहिक सुख और समृद्धि के लिए मनाया जाता है। गणगौर उत्सव राजस्थान के साथ-साथ गुजरात, पश्चिम बंगाल और मध्य प्रदेश के कुछ क्षेत्रों में मनाया जाता है। “गण” और “गौर” शब्द “गणगौर” नाम बनाते हैं, जिसमें पूर्व में शिव और बाद में गौरी या देवी पार्वती का उल्लेख है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+      "sourceQuestionId": 1146,
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से उस त्यौहार को चुनिए, जो कार्तिक मास की अमावस्या को मनाया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "होली"
+        },
+        {
+          "id": "opt2",
+          "text": "दिवाली"
+        },
+        {
+          "id": "opt3",
+          "text": "दशहरा"
+        },
+        {
+          "id": "opt4",
+          "text": "रक्षाबंधन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दिवाली हिंदू कैलेंडर के अनुसार कार्तिक मास की अमावस्या को मनाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "REET‐2024 LEVEL‐1 (Math&Env. Studies)",
+      "sourceQuestionId": 1147,
+      "reference": "📌 PYQ — REET‐2024 LEVEL‐1 (Math&Env. Studies)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कजली तीज भाद्रपद कृष्ण तृतीया को राजस्थान के किस क्षेत्र में मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कजली तीज को बूढ़ी तीज, सतूरी तीज और कजरी तीज के नाम से भी जाना जाता है। यह राजस्थान के बूंदी जिले में प्रसिद्ध है। भाद्रपद मास के कृष्ण पक्ष की तृतीया को कजरी तीज मनाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Patwar Exam 2025 1st Shift",
+      "sourceQuestionId": 1148,
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 1st Shift"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का त्यौहार ‘तीज’ किस माह में मनाया जाता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तीज त्यौहार राजस्थान में श्रावण मास (जुलाई-अगस्त) में मनाया जाता है। तीज की सवारी के लिए जयपुर प्रसिद्ध है।कजली तीज/बडी तीज/सातुडी तीजः- भाद्र कृष्ण तीज कोकजली तीज बूंदी की प्रसिद्ध है।अक्षय तृतीयाः- वैषाख शुक्ल तृतीयाइसे आखा तीज भी कहते है। इस दिन राजस्थान में सर्वाधिक बाल-विवाह होते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+      "sourceQuestionId": 1149,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरोही जिले में मनाया जाने वाला समदरिया हिलोर निम्न में से किस त्योहार से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "होली"
+        },
+        {
+          "id": "opt2",
+          "text": "तीज"
+        },
+        {
+          "id": "opt3",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंडोला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सिरोही का समदरिया हिलोर पर्व श्रावण तीज से सम्बंधित है",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+      "sourceQuestionId": 1150,
+      "reference": "📌 PYQ — Deputy Jailor (Jail Deptt.) Comp. Exam-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: यमराज की पुजा करने का प्रचलन निम्न में से किस त्योहार को है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साझी"
+        },
+        {
+          "id": "opt2",
+          "text": "बछबारस"
+        },
+        {
+          "id": "opt3",
+          "text": "दशहरा"
+        },
+        {
+          "id": "opt4",
+          "text": "धनतेरस"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "धनतेरस(धन्वंतरि जयंती) को मृत्यु के देवता यमराज जी की पूजा की जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1318,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सा त्योहार अपनी तिथि के साथ सही ढंग से मेल नहीं खाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुरु पूर्णिमा - आषाढ़ शुक्ल पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "पीपल पूर्णिमा - श्रावण शुक्ल पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "शरद पूर्णिमा - आश्विन शुक्ल पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "होली - फाल्गुन शुक्ल पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1216,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में त्यौहार\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में त्यौहार\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में त्यौहार\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

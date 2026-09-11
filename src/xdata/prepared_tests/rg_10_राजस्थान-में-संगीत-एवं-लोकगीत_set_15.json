@@ -1,0 +1,290 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में संगीत एवं लोकगीत",
+  "topicSlug": "राजस्थान-में-संगीत-एवं-लोकगीत",
+  "testSetName": "राजस्थान में संगीत एवं लोकगीत - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "रतवाई लोक गीत किस क्षेत्र में गाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवात"
+        },
+        {
+          "id": "opt4",
+          "text": "हाडौती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रतवाई नृत्य राज्य के मेवात क्षेत्र में प्रसिद्ध है। बरसात के मौसम में पुरुष और महिलाएं मिलकर इस नृत्य को करते हैं। यह नृत्य गुड़गांव क्षेत्र के नूंह और फिरोजपुर ज़िरका में लोकप्रिय है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 2982,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक लोकगीत राजस्थान के पर्वतीय क्षेत्र का नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पटेल्या"
+        },
+        {
+          "id": "opt2",
+          "text": "कुरजां"
+        },
+        {
+          "id": "opt3",
+          "text": "बिछीयो"
+        },
+        {
+          "id": "opt4",
+          "text": "लालर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जैसलमेर, बाड़मेर, बीकानेर, जोधपुर क्षेत्रों में गाये जाने वाले गीत – कुरजां पीपली, रतन राणो, मूमल, घूघरी केवड़ा आदि।कुरजाँ गीत में नायिका द्वारा परदेस में रहने वाले अपने प्रियतम को संदेश भिजवाने के लिए कुरजां पक्षी के माध्यम से यह गीत गाया जाता है- कुरजां ए म्हारौ भंवर मिलादयो ए।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "sourceQuestionId": 2984,
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवरी देवी जिस गायन शैली से संबद्ध थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "मांड"
+        },
+        {
+          "id": "opt3",
+          "text": "तालबंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "ठुमरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीकानेर से अल्लाह जिलई बाई (लोक संगीत में पद्म श्री-1982 और संगीत नाटक अकादमी पुरस्कार-1988 से सम्मानित), उदयपुर से मांगी बाई आर्य (लोक संगीत में संगीत नाटक अकादमी पुरस्कार -2008 से सम्मानित), और जोधपुर से गवरी बाई (लोक संगीत में संगीत नाटक अकादमी पुरस्कार-1975-76 और 1986 द्वारा सम्मानित) माण्ड गायकों में शामिल हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "sourceQuestionId": 2999,
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मचर, बिछियों और लालार से क्या तात्पर्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोक नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक नाटक"
+        },
+        {
+          "id": "opt3",
+          "text": "लोक गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "संगीत वाद्ययंत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+      "sourceQuestionId": 2833,
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर की गायिका अल्लाहजिलाई बाई किस राग गाने के लिए प्रसिद्ध थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बसंती"
+        },
+        {
+          "id": "opt2",
+          "text": "जैजेवंती"
+        },
+        {
+          "id": "opt3",
+          "text": "मल्हार"
+        },
+        {
+          "id": "opt4",
+          "text": "माण्ड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2018",
+      "sourceQuestionId": 2835,
+      "reference": "📌 PYQ — Computor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस लोक वाद्य को ज्यूज़ हार्प भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt2",
+          "text": "मोर चंग"
+        },
+        {
+          "id": "opt3",
+          "text": "रावण हत्था"
+        },
+        {
+          "id": "opt4",
+          "text": "कमायचा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2018",
+      "sourceQuestionId": 2836,
+      "reference": "📌 PYQ — Computor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस वाद्य यंत्र को “भेरीं” भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt2",
+          "text": "बांकिया"
+        },
+        {
+          "id": "opt3",
+          "text": "भूंगल"
+        },
+        {
+          "id": "opt4",
+          "text": "मशक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "sourceQuestionId": 2840,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘होलार’ राजस्थानी लोक गीत है जो ............... के अवसर पर गाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किसी को विवाह के लिए प्रस्ताव देने"
+        },
+        {
+          "id": "opt2",
+          "text": "शिशु का जन्म होने"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगौर उत्सवों"
+        },
+        {
+          "id": "opt4",
+          "text": "विवाह के समापन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 3007,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से किस लोक वाद्य यंत्र में बांस का लंबा तना होता है जिसमें बकरी के चमड़े की परत से ढका आधे नारियल का खोल जुड़ा होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt2",
+          "text": "धाप"
+        },
+        {
+          "id": "opt3",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt4",
+          "text": "भपंग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 3008,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में संगीत एवं लोकगीत\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में संगीत एवं लोकगीत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में संगीत एवं लोकगीत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 11",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "यदि व्यंजकx3+ ax2+ x–6 कोx–1 से विभाजित किया जाता है और शेषफल शून्य है तोaका मान है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "3"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "Q x – 1 = 0 ⇒ x = 1 व्यंजक मेंxका मान रखने पर ⇒ (1)3 + a (1)2 + 1 – 6 = 0 ⇒ 1 + a + (– 5) = 0 ⇒ a = 5 – 1 ⇒ a = 4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 25155,
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "५० और ८० के मध्य सभी अभाज्य संख्याओं का योग क्या होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "463"
+        },
+        {
+          "id": "opt2",
+          "text": "396"
+        },
+        {
+          "id": "opt3",
+          "text": "410"
+        },
+        {
+          "id": "opt4",
+          "text": "520"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "50और80के मध्य सभी अभाज्य संख्याओं का योग = 53 + 59 + 61 + 67 + 71 + 73 + 79 = 463",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 25156,
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित संख्याओं में () 2 4 9 0.8,0.45,, 9 49से सबसे बड़ी संख्या है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9 49"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "0.45"
+        },
+        {
+          "id": "opt4",
+          "text": "(0.8)2"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "(0.8)2 = 0.64, 0.45 4 = 0.444 9 9 3 = = 0.428 49 7 अत: सबसे बड़ी संख्या= (0.8)2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 25157,
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक बालक ने सात दिन तक लगातार सिक्के एकत्र किये। एक दिन में एकत्र किये गये सिक्कों की संख्या तारीख के बराबर है। यदि बालक ने कुल १०० सिक्के एकत्र किये तो उसने छठे दिन कितने सिक्के एकत्र किये?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "24"
+        },
+        {
+          "id": "opt2",
+          "text": "31"
+        },
+        {
+          "id": "opt3",
+          "text": "1"
+        },
+        {
+          "id": "opt4",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्नानुसार एक दिन में एकत्र किए गए सिक्कों की संख्या उस दिन की तारीख के बराबर है छठवें दिन उसने3सिक्के एकत्रित किए अर्थात् उस दिन3तारीख थी। इस प्रकार सिक्के एवं दिनों की संख्या निम्न है– 7वें दिन 4सिक्के 6वें दिन 3सिक्के 5वें दिन 2सिक्के 4वें दिन 1सिक्के 3वें दिन 31सिक्के 2वें दिन 30सिक्के 1वें दिन 29सिक्के 100 योग सिक्के",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant jailor 2013",
+      "sourceQuestionId": 25158,
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चार अलग-अलग महीनों में दूध`८, १०, १२ तथा १५ प्रति लीटर की दर से बेचा गया। यह मानते हुए कि एक परिवार प्रत्येक महीने में दूध पर समान खर्च करता हो, तो दूध का औसत मूल्य प्रतिमाह`होगा:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10.67"
+        },
+        {
+          "id": "opt2",
+          "text": "11.25"
+        },
+        {
+          "id": "opt3",
+          "text": "10.25"
+        },
+        {
+          "id": "opt4",
+          "text": "11.00"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मान प्रत्येक महीने खर्च'x'` है प्रश्नानुसार- औसत मूल्य= x x x x x x x x 8 10 12 15 + + + + + + 4x 90x 72x 60x 48x 720 = + + + 10.67 = `",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 25159,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आठ संख्याओं का औसत ९९ है। सबसे बड़ी संख्या, द्वितीय सबसे बड़ी संख्या से १८ अधिक है। यदि इन दोनों संख्याओं को हटा दिया जाए तो शेष संख्याओं का औसत ८७ है। सबसे बड़ी संख्या का मान बराबर है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "126"
+        },
+        {
+          "id": "opt2",
+          "text": "138"
+        },
+        {
+          "id": "opt3",
+          "text": "144"
+        },
+        {
+          "id": "opt4",
+          "text": "154"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माना द्वितीय सबसे बड़ी संख्याxहै। प्रश्नानुसार, सबसे बड़ी संख्या= x + 18 x + x + 18 + 87 × 6 = 99 × 8 2x + 18 = 792 – 522 2x = 270 – 18 2x = 252 x = 126 अत: सबसे बड़ी संख्या= x + 18 = 126 + 18 = 144",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher sanskrit-2018",
+      "sourceQuestionId": 25160,
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक शून्य परिकल्पना को परिभाषित किया जाता है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परीक्षण के हेतु परिकल्पना"
+        },
+        {
+          "id": "opt2",
+          "text": "परिकल्पना परीक्षण जिसे संभावित स्वीकार करना हैं"
+        },
+        {
+          "id": "opt3",
+          "text": "ऋणात्मक परिकल्पना"
+        },
+        {
+          "id": "opt4",
+          "text": "एक परिकल्पना जो कि ऋणात्मक है और उसे परीक्षण में संभावित अस्वीकार करने के लिये प्रस्तुत किया जाता है"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शून्य परिकल्पना ऐसी परिकल्पना है, जो कि ऋणात्मक है और उसे परीक्षण में संभावित अस्वीकार करने के लिए प्रस्तुत किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ASO (Agri.) 2024",
+      "sourceQuestionId": 25161,
+      "reference": "📌 PYQ — RPSC ASO (Agri.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: हिन्दू विधवा विवाह अधिनियम कब पारित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1835"
+        },
+        {
+          "id": "opt2",
+          "text": "1839"
+        },
+        {
+          "id": "opt3",
+          "text": "1856"
+        },
+        {
+          "id": "opt4",
+          "text": "1929"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हिन्दू विधवा विवाह अधिनियम ईश्वर चन्द्र विद्यासागर के प्रयास से वर्ष १८५६ में पारित हुआ था। इस समय भारत का वायसराय लार्ड वैâनिंग था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 26078,
+      "reference": "✎ PYQ Modified · RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: दुनिया में हाइड्रोक्सी क्लोरोक्विन के उत्पादन व निर्यात में कौन सा देश जून,2020तक शीर्ष स्थान पर रहा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूस"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत"
+        },
+        {
+          "id": "opt3",
+          "text": "अमेरिका(U.S.A.)"
+        },
+        {
+          "id": "opt4",
+          "text": "जापान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दुनिया में हाइड्रोक्सी क्लोरोक्विन के उत्पादन व निर्यात में जून २०२० तक भारत का स्थान शीर्ष पर रहा था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 26079,
+      "reference": "✎ PYQ Modified · RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 33",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "इनमें से किस जिले में चावल का उत्पादन होता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC Exam 2011 Paper I",
+      "sourceQuestionId": 5898,
+      "reference": "📌 PYQ — RPSC LDC Exam 2011 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कुल स्वीकृत स्पेशल आर्थिक क्षेत्र(सेज) कितने हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "7"
+        },
+        {
+          "id": "opt3",
+          "text": "6"
+        },
+        {
+          "id": "opt4",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC Exam 2011 Paper I",
+      "sourceQuestionId": 5899,
+      "reference": "📌 PYQ — RPSC LDC Exam 2011 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्न में से कौन सी संस्था शीत भण्डार गृह और मण्डी यार्ड बनाने से संबद्ध है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाबार्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्य सहकारी बैंक"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि विपणन बोर्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "क्रय-विक्रय समितियां"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+      "sourceQuestionId": 5900,
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय कृषि विकास येाजना के अंतर्गत राजस्थान को केंद्रीय सहायता के रूप में भारत सरकार के प्रतिशत योगदान को बताइये-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "60 प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "75 प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "80 प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "शत प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+      "sourceQuestionId": 5901,
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जनसंख्या का कितना प्रतिशत अपनी आजीविका के लिए कृषि और सहायक गतिविधियों पर निर्भर करता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "52 प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "62 प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "72 प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "68 प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+      "sourceQuestionId": 5904,
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "RHB-273 बाजरा किस्म के संदर्भ में निम्न कथनों पर विचार करें —1. यह दुनिया की पहली थ्री-वे हाइब्रिड बाजरा किस्म है।2. इसे RARI दुर्गापुरा और ICRISAT ने विकसित किया है।सही विकल्प चुनें —",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1 और 2 दोनों"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आरएचबी 273 (RHB 273) बाजरे की एक क्रांतिकारी नई किस्म है, जिसे जनवरी 2026 में खेती के लिए जारी किया गया है। इसे राजस्थान कृषि अनुसंधान संस्थान (RARI), दुर्गापुरा और अंतरराष्ट्रीय संस्थान ICRISAT ने मिलकर विकसित किया है।दुनिया का पहला थ्री-वे हाइब्रिड: यह दुनिया की पहली ‘थ्री-वे’ (त्रिधा) संकर बाजरा किस्म है, जो विशेष रूप से सूखे के प्रति अत्यधिक प्रतिरोधी है। यह दुनिया का पहला ऐसा बाजरा है जो दो के बजाय तीन माता-पिता (parental lines) के मेल से विकसित किया गया है। यह राजस्थान, गुजरात और हरियाणा के उन अति-शुष्क क्षेत्रों (A1 जोन) के लिए उपयुक्त है जहाँ वार्षिक वर्षा 400 मिमी से कम होती है। यह फसल मात्र 75-76 दिनों में पककर तैयार हो जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 5542,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘RF-290’ किस फसल की विकसित उन्नत किस्म है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सौंफ"
+        },
+        {
+          "id": "opt2",
+          "text": "अफीम"
+        },
+        {
+          "id": "opt3",
+          "text": "कपास"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रधानमंत्री नरेंद्र मोदी ने जोबनेर कृषि विश्वविद्यालय में विकसित सौंफ की किस्म RF 290 को राष्ट्र को समर्पित 109 किस्मों में शामिल किया है। सौंफ की किस्म आरएफ 290 क्लाइमेट रेजिलेंट, अधिक उपज देने वाली, रोग प्रतिरोधी, अधिक तेल वाली एक किस्म है, जिसकी उपज क्षमता 2065 किलोग्राम प्रति हेक्टेयर है। यह किस्म 145-150 दिन में पककर तैयार हो जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 5573,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: उनालु की फसलें सामान्यतः बोई जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अक्टुबर-नवम्बर"
+        },
+        {
+          "id": "opt2",
+          "text": "जुन-जुलाई"
+        },
+        {
+          "id": "opt3",
+          "text": "अगस्त-सितंम्बर"
+        },
+        {
+          "id": "opt4",
+          "text": "मार्च-अप्रैल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5923,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: स्यालु व उनालु है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्वार की दो किस्में"
+        },
+        {
+          "id": "opt2",
+          "text": "सिचांई के साधनों के प्रकार"
+        },
+        {
+          "id": "opt3",
+          "text": "क्रमशः खरीफ व रबी की फसल"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल की दो किस्में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5924,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

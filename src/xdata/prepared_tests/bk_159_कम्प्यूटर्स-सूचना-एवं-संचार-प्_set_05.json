@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 5",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "ascii का पूरा नाम क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "American standard code for information intechange"
+        },
+        {
+          "id": "opt2",
+          "text": "American standard code for information internet"
+        },
+        {
+          "id": "opt3",
+          "text": "automatic simple code for information intranet"
+        },
+        {
+          "id": "opt4",
+          "text": "Australian standard code for information interconversion"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ASII का पूर्ण रूप अमेरिकन स्टैर्ण्ड कोड फार इन्फार्मेशन इन्टरचेन्ज है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23713,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा वेब ब्राउ़जर नही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "opera"
+        },
+        {
+          "id": "opt2",
+          "text": "safari"
+        },
+        {
+          "id": "opt3",
+          "text": "firefox"
+        },
+        {
+          "id": "opt4",
+          "text": "acrobat reader"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ओपेरा, सफारी, फायरफाक्स, क्रोम आदि वेब, ब्राउजर है जबकि एक्रोवेट रीडर नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23714,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन साbcc का पूरा नाम है. ई-मेल के परिपेक्ष में-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "bold carbon copy"
+        },
+        {
+          "id": "opt2",
+          "text": "blind carbon copy"
+        },
+        {
+          "id": "opt3",
+          "text": "blocked copy content"
+        },
+        {
+          "id": "opt4",
+          "text": "blue copy content"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ई-मेल के परिप्रेक्ष्य में बी सी सी(bcc)का पूर्ण रूप प्लाइड कार्बन कापी(Blind Cavbon Copy)है। इसका(bcc)उपयोग किसी ई-मेल के गुप्त प्राप्तकर्ताओं को जोड़ने के लिए किया जाता है। वी सी सी में जो लोग जोड़े जाते हैं। वे मुख्य प्राप्तकर्त्ताओं(To)और कार्बन कॉपी (cc)में जोड़े गए अन्य लोगों को दिखाई नहीं देते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23715,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन साinternetworking device नहीं हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "hub"
+        },
+        {
+          "id": "opt2",
+          "text": "bridge"
+        },
+        {
+          "id": "opt3",
+          "text": "switch"
+        },
+        {
+          "id": "opt4",
+          "text": "usb"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हब(Hub), व्रिज(Bridge)तथा स्विच(Switch) सभी इन्टरवर्विंâग डिवाइस है जबकि यू एस बी(USB)इन्टरवर्विंâग डिवाइस नहीं है। यू एस बी (यूनिवर्सल सीरियल बस) एक मानक तकनीक है, जिसका उपयोग कंप्यूटर और अन्य डिवाइसों को जोड़ने, डेटा ट्रान्सफर करने और पावर सप्लाई के लिए किया जाता है। 747",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23716,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा डेटाबेस मैनेजमेंट सापॅäटवेयर है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "mysql"
+        },
+        {
+          "id": "opt2",
+          "text": "db2"
+        },
+        {
+          "id": "opt3",
+          "text": "ms-access"
+        },
+        {
+          "id": "opt4",
+          "text": "all of these"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "MySQL, DB2, MS-access सभी डेटाबेस मैनेजमेंट सॉफ्टवेयर है। डेटावेस मैनेजमेंट सिस्टम एक सॉफ्टवेयर है। इसका उपयोग डेटा स्टोर, प्रबंधित और पुन: प्राप्त करने के लिए किया जाता है। यह डेटा को व्यवस्थित तरीके से संग्रहित करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23717,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा फार्मूलाms excel 2010में सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "= a1 + a2"
+        },
+        {
+          "id": "opt2",
+          "text": "= add al/+a2"
+        },
+        {
+          "id": "opt3",
+          "text": "al+a2"
+        },
+        {
+          "id": "opt4",
+          "text": "sum al & a2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एक्सेल २०१० का सही फार्मूलाSUM (AI: A5), = AVERAGE (A1: A5), = PRODUCT (A1: A5), = MOD (1,0,3), = a1 + a2 इत्यादि है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23718,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न मेमोरी मानकों को बढ़ते हुए क्रम में जमायेंgiga, tera, kilo, mega",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "mega, tera, giga, kilo"
+        },
+        {
+          "id": "opt2",
+          "text": "kilo, mega, giga, tera"
+        },
+        {
+          "id": "opt3",
+          "text": "kilo, mega, tera, giga"
+        },
+        {
+          "id": "opt4",
+          "text": "kilo, tera, mega, giga"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेमोरी मानकों को बढ़ते क्रम में निम्नलिखित है– किलोबाइट>मेगाबाइट> गीगाबाइट>टेराबाइट>पेटाबाइट> हेक्साबाइट।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 23719,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: नवीनतम ऐण्ड्रॉयड चलदूरभाष प्रचालन पद्धति- ६.० का नाम है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किटकेट"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्शमैलो"
+        },
+        {
+          "id": "opt3",
+          "text": "लॉलीपॉप"
+        },
+        {
+          "id": "opt4",
+          "text": "जेली बीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गूगल द्वारा अक्टूबर2015में जारी किया गया मार्शमेलों एण्ड्रायड का6वां वर्जन है जिसका आधिकारिक नाम ‘एण्ड्राएड6.0-6.0.1मार्शमेलो है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2016",
+      "sourceQuestionId": 23873,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: यूनीकोड इनकोड परियोजना एक वर्ण अथवा अंक का कितने के समूह में प्रतिनिधित्व करती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4बिट"
+        },
+        {
+          "id": "opt2",
+          "text": "8बिट"
+        },
+        {
+          "id": "opt3",
+          "text": "12बिट"
+        },
+        {
+          "id": "opt4",
+          "text": "16बिट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "यूनीकोड इनकोड परियोजना एक वर्ण अथवा अंक के लिये ८ से ३२ बिट के समूह का इस्तेमाल करती है। इसमें तीन प्रकार की इनकोडिंग का इस्तेमाल होता है।UTF-8 (८ बिट का इस्तेमाल),UTF-16 (१६ बिट समूह का इस्तेमाल),UTF-32 (३२ बिट समूह का इस्तेमाल)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2015",
+      "sourceQuestionId": 23874,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

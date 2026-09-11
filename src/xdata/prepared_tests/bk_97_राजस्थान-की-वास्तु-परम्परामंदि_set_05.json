@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।",
+  "topicSlug": "राजस्थान-की-वास्तु-परम्परामंदिर-किले-महल-एवं-मानव-निर्मित-जलीय-संरचनाएँ-चित्रकला-की-विभिन्न-शैलियाँ-और-हस्तशिल्प।",
+  "testSetName": "राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प। - अभ्यास टेस्ट 5",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अंबिका माता मंदिर अवस्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चारचौमा, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाडौली, चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नागदा, उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जगत, उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अंबिका माता मंदिर राजस्थान के उदयपुर जिले में जगत गाँव में स्थित है। देवी दुर्गा के एक रूप अंबिका देवी की प्रतिमा स्थापित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Veterinary Officer 2019",
+      "sourceQuestionId": 17868,
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा राजप्रासाद छीतर पैलेस के नाम से विख्यात है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीजोलाई महल, बीजोलाई"
+        },
+        {
+          "id": "opt2",
+          "text": "उम्मेद भवन पैलेस, जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "शिव निवास, उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जलमहल, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जोधपुर स्थित उम्मेद भवन पैलेस छीतर महल के नाम से जाना जाता है। यह विश्व का सबसे बड़ा निजी महल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 17869,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष १६२८ ई. में मेवाड़ में रागमाला चित्रांकन को किसने चित्रित किया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साहेबदीन"
+        },
+        {
+          "id": "opt2",
+          "text": "शफी मुहम्मद"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीरंगधर"
+        },
+        {
+          "id": "opt4",
+          "text": "बिशनदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रागमाला का चित्रांकन1628ई. में मेवाड़ चित्रकला शैली में बनाया गया एक चित्र संग्रह है। इस चित्र का चित्रकार साहिबद्दीन थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 17870,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गुप्तकालीन ‘भ्रमर माता का मंदिर’ कहाँ पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोजत"
+        },
+        {
+          "id": "opt2",
+          "text": "छोटी सादड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "पेरवा"
+        },
+        {
+          "id": "opt4",
+          "text": "ऐरणपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भ्रमर माता का मंदिर राजस्थान के चित्तौड़गढ़ जिले के छोटी सादड़ी में स्थित है। इस मंदिर में संवत547का एक शिलालेख भी प्राप्त हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 17871,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘प्रतिक्रमण चूर्णि’ ग्रंथ किस चित्रशैली से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "ढूँढाड़ शैली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेवाड़ शैली राजस्थानी चित्रकला का मौलिक स्वरूप है। इस स्कूल के स्वरूप निर्धारण में चांवद, उदयपुर और नाथकारा का प्रमुख योगदान रहा है। इस शैली के अंतर्गत गीत गोविन्द, रागमाला, श्रावक प्रतिक्रमण सूत्र चूर्णी एवं सुपार्श्वनाथचरितम् का चित्रण किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020 RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 17872,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020 RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित चित्रकारों को उनकी चित्रशैली/उपशैली से सुमेतलित कीजिए एवं नीचे दिये गये कूट से सही उत्तर का चयन कीजिए: 85 YCT शैली/उपशैली चित्रकार A.तिजारा I. बलदेव, गुलाब अली B. अलवर II. साहिबराय, मुहम्मदशाह C.जयपुर III.नंदराम, जमुनादास D.किशनगढ़ IV.मूलराज, भीकचन्द कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I II IV"
+        },
+        {
+          "id": "opt2",
+          "text": "IV III II"
+        },
+        {
+          "id": "opt3",
+          "text": "II I III"
+        },
+        {
+          "id": "opt4",
+          "text": "III IV I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – शैली/उपशैली चित्रकार तिजारा – नंदराम, जमुनादास अलवर – बलदेव, गुलाब अली जयपुर – साहिबराय, मुहम्मदशाह किशनगढ़ – मूलराज, भीकचन्द",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 17873,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध ‘डिग्गी’ तालाब स्थित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "टोडारायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रसिद्ध डिग्गी तालाब राजस्थान के अजमेर जिले में स्थित है। इस तालाब का निर्माण चौहान वंश के राजाओं ने कराया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 17874,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: अभानेरी तथा राजौगढ़ के कलात्मक वैभव किस काल के हैंः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुर्जर-प्रतिहार"
+        },
+        {
+          "id": "opt2",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "गुहिल-सिसोदिया"
+        },
+        {
+          "id": "opt4",
+          "text": "राठौड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II 31/10/2018",
+      "sourceQuestionId": 18017,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II 31/10/2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नांकित में से किस दुर्ग को यूनेस्को ने विरासत दुर्ग घोषित नहीं किया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "मांडलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "गागरोन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "यूनेस्को द्वारा घोषित विरासत स्थलों में मांडलगढ़ शामिल नहीं है। जबकि जैसलमेर, आमेर, गागरोन किलों को वर्ष 2013में यूनेस्को ने विरासत स्थल घोषित किया है। इसके अलावा यूनेस्को ने चित्तौड़ किला(2013), कुंभलगढ़ किला(2013), रणथम्भौर किला(2013), केवलादेव राष्ट्रीय उद्यान(1985), जंतर- मंतर(2010), जयपुर हेरिटेज सिटी(2019)को विरासत स्थल घोषित किया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RO&EO 2022 Shift-II RPSC ACF & Forest Range officer Gr-I 2018 RPSC Sr. Teacher Gr.-II (G-2) 2016",
+      "sourceQuestionId": 18018,
+      "reference": "✎ PYQ Modified · RPSC RO&EO 2022 Shift-II RPSC ACF & Forest Range officer Gr-I 2018 RPSC Sr. Teacher Gr.-II (G-2) 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

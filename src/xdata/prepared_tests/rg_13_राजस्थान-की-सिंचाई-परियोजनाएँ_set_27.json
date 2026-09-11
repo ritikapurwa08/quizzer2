@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "राजस्थान की सिंचाई परियोजनाएँ",
+  "topicSlug": "राजस्थान-की-सिंचाई-परियोजनाएँ",
+  "testSetName": "राजस्थान की सिंचाई परियोजनाएँ - अभ्यास टेस्ट 27",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा जिला ‘माही हाई लेवल कैनाल शुद्ध पेयजल प्रोजेक्ट’ से प्रत्यक्ष रूप से सम्बन्धित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान बजट 2018-19 में रीजन वाटर ग्रिड बनाकर, राज्य में पेयजल की उपलब्धता एव आपूर्ति का दूरगामी समाधान करने के लिए राजसमंद, चितोड़गढ़ और उदयपुर की ग्रामीण क्षेत्रों में शुद्ध पेयजल के लिए 450 करोड़ की लागत से ‘Mahi High Leval Canal Water Project’ शुरू किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Informatics Assistant Exam 2018",
+      "sourceQuestionId": 4024,
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पीललड़ा लिफ्ट सिंचाई अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पीललड़ा (पीपलदा) लिफ्ट नहर सवाईमाधोपुर जिले में चम्बल नदी से निकाली गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Physics-2019(Rajasthan Gk)",
+      "sourceQuestionId": 4050,
+      "reference": "📌 PYQ — JSA Physics-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गांधी सागर बांध अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही परियोजना पर"
+        },
+        {
+          "id": "opt2",
+          "text": "चम्बल परियोजना पर"
+        },
+        {
+          "id": "opt3",
+          "text": "जवाई परियोजना पर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीसलपुर परियोजना पर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गांधीसागर बांध 1960 में चम्बल परियोजना पर मध्यप्रदेश की भानुपुरा तहसील में बनाया गया है। यह बांध चैरासीगढ़ से 8 कि.मी. पहले एक घाटी में बना हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+      "sourceQuestionId": 4052,
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेजा बांध कौनसी नदी पर निर्मित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कोठारी नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "पार्वती नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेज नदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेजा बांध भीलवाड़ा के माण्डलगढ़ कस्बे में कोठारी नदी पर है। इससे भीलवाड़ा शहर को पेयजल की आपूर्ति होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 4053,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शेखावाटी के अन्तःप्रवाही क्षेत्र में निर्मित कच्चे जल स्त्रोत को किस नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुआं"
+        },
+        {
+          "id": "opt2",
+          "text": "तालाब"
+        },
+        {
+          "id": "opt3",
+          "text": "कुण्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "नाड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नाड़ी एक प्रकार का पोखर होता है। जल प्रबंधन की यह विधि पश्चिम राजस्थान प्रचलित हैं। नाड़ी का प्रथम उदाहरण राव जोधा द्वारा निर्मित नाड़ी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 4054,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान का धान्यागार’ कहा जाने वाला क्षेत्र सिंचाई के लिए पानी कहां से लेता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंग नहर"
+        },
+        {
+          "id": "opt2",
+          "text": "यमुना नहर"
+        },
+        {
+          "id": "opt3",
+          "text": "गुड़गांव नहर"
+        },
+        {
+          "id": "opt4",
+          "text": "भाकड़ा नहर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गंगनहर भारत की प्रथम नहर सिंचाई परियोजना है। बीकानेर के महाराजा गंगासिंह के प्रयासों से गंगनहर के निर्माण द्वारा सतलज नदी का पानी राजस्थान में लाने हेतु 4 दिसम्बर 1920 को बीकानेर, भावलपुर और पंजाब राज्यों के बीच सतलज नदी घाटी समझौता हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 4055,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन-से जिलों में नर्मदा घाटी परियोजना से जल प्राप्त होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही व जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "सांचौर व बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली व जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर व पाली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नर्मदा नहर परियोजना गुजरात, मध्यप्रदेश, महाराष्ट्र और राजस्थान की संयुक्त परियोजना है। इस परियोजना में राजस्थान के लिए 0.5 एम. ए. फ.(मिलियन एकड़ फीट) निर्धारित की गई है। सांचौर व बाड़मेर की गुढ़ा मलानी तहसील लाभान्वित होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(fitter)",
+      "sourceQuestionId": 4057,
+      "reference": "📌 PYQ — Junior Instructor(fitter)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: इंदिरा गांधी नहर राजस्थान में कहां प्रवेश करती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोणां गांव, गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "मसीतावाली, हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "हिन्दुमलकोट, गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "रावतसर, हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इन्दिरा गांधी नहर का उद्गम पंजाब में फिरोजपुर के निकट सतलज-व्यास नदियों के संगम पर बने हरिके बैराज से है। IGNP के दो भाग हैं। प्रथम भाग राजस्थान फीडर कहलाता है इसकी लम्बाई 204 कि.मी.(170 कि.मी. पंजाब व हरियाणा + 34 कि.मी. राजस्थान) है। जो हरिकै बैराज से हनुमानगढ़ के मसीतावाली हैड तक विस्तारित है। नहर के इस भाग में जल का दोहन नहीं होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4153,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: भारत का सर्वाधिक फ्लोराइड प्रभावित राज्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंजाब"
+        },
+        {
+          "id": "opt2",
+          "text": "हरियाणा"
+        },
+        {
+          "id": "opt3",
+          "text": "बिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत में फ्लोराइड से सबसे ज़्यादा प्रभावित राज्य राजस्थान है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4154,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की सिंचाई परियोजनाएँ\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान की सिंचाई परियोजनाएँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान की सिंचाई परियोजनाएँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

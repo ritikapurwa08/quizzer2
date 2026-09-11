@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "माध्य (समांतर, गुणोत्तर एवं हरात्मक), माध्यिका एवं बहुलक",
+  "topicSlug": "माध्य-समांतर-गुणोत्तर-एवं-हरात्मक-माध्यिका-एवं-बहुलक",
+  "testSetName": "माध्य (समांतर, गुणोत्तर एवं हरात्मक), माध्यिका एवं बहुलक - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "यदिXएवंYदो स्वतंत्र मानक प्रसामान्य चर हैं, तो X/Yका बंटन होगा:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानक कॉशी बंटन"
+        },
+        {
+          "id": "opt2",
+          "text": "मानक प्रसामान्य बंटन"
+        },
+        {
+          "id": "opt3",
+          "text": "गामा बंटन"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रथम प्रकार का बीटा बंटन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "यदिxएवंyदो स्वतंत्र मानक प्रसामान्य चर है, तो x/yका बंटन मानक कॉशी बंटन होगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 25021,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक अपूर्ण आवृत्ति बंटन निम्न प्रकार से दिया गया है: X: 0-10 10-20 20-30 30-40 40-50 f: 1 2 X 2 Y 16 कूल माध्यिका का मान ३५ दिया गया है। लुप्त आवृत्तियाँ (X, Y)हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(5, 6)"
+        },
+        {
+          "id": "opt2",
+          "text": "(6, 5)"
+        },
+        {
+          "id": "opt3",
+          "text": "(7, 4)"
+        },
+        {
+          "id": "opt4",
+          "text": "(4, 7)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "x f CF 0 10 1 1 10 20 2 3 20 30 x 3 x C 30 40 2 f 5 x 40 50 y 5 x y CF 5 x y 16 − − − + = − = + − + + + + = 5 + x + y = 16 x + y = 11 .........(i) QN 16 8 2 2 = =है अत: माध्यिका वर्ग30-40होगा। माध्यिका= n c 2 h   −     + × l f जहाँ⇒ l = वर्ग माध्यिका की निम्न सीमा c = वर्ग माध्यिका से पहले n = कुल आवृत्ति f = वर्ग माध्यिका की आवृत्ति h = कक्षा की सीमा 16 (3 x) 10 2 35 30 2   − + ×     = + 5 (5 x) 5 = − × 1 5 x = − x 4 = समी.(1)सेy 11 4 7 = − = अत: (x, y) (4,7) ⇒",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher sanskrit-2018",
+      "sourceQuestionId": 25022,
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि एक चर राशि के () 7 5 1 1 x + 4,x -,x -,x - 3,x - 2,x +,x,x -,x + 5, x > 0 2 2 2 2 भिन्न भिन्न मान प्राप्त होते है तो उनकी माध्यिका होगी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 x - 4"
+        },
+        {
+          "id": "opt2",
+          "text": "x - 2"
+        },
+        {
+          "id": "opt3",
+          "text": "– 2"
+        },
+        {
+          "id": "opt4",
+          "text": "5 x + 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्न के अनुसार, 7 5 x 4,x,x, x 3,x 2, 2 2 + − − − − 1 1 x,x,x,x 5(x 0) 2 2 + − + > आरोही क्रम में व्यवस्थित करने पर, 7 5 x,x 3,x,x 2, 2 2 − − − − 1 1 x,x,x,x 4,x 5 2 2 − + + + n = 9 (विषम) माध्यिका= th n 1 2 +      पद = th 9 1 2 +      पद माध्यिका= 5th term 1 = x 2 −",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25023,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "योग ज्ञात कीजिए222, 224, 226, ..., 888",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1,85,370"
+        },
+        {
+          "id": "opt2",
+          "text": "1,95,300"
+        },
+        {
+          "id": "opt3",
+          "text": "1,83,000"
+        },
+        {
+          "id": "opt4",
+          "text": "8,99,300"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्न के अनुसार, 222, 224, 226, ...., 888 प्रथम पद,a = a1 = 222 सर्वांतर,d = a2 – a1 = 224 – 222 = 2 nth पद Tn = a + (n – 1) d 888 = 222 + (n – 1)2 888 – 222 = 2n – 2 923 666 + 2 = 2n 668 n = 2 n = 334 पदों की संख्या (n)= 334 कुल पदों का योग, Sn = [] n 2a (n 1)d 2 + − S334 334 = [2 222 (334 1)2] 2 × + − = 167 (444 + 333 × 2) = 167 (444 + 666) = 167 × 1110 S334= 185370",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25024,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि दो संख्याओं का समान्तर माध्य ५ है तथा उनका गुणोत्तर माध्य ३ है, तो वे दो संख्याएँ होंगी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(8, 2)"
+        },
+        {
+          "id": "opt2",
+          "text": "(6, 4)"
+        },
+        {
+          "id": "opt3",
+          "text": "(7, 3)"
+        },
+        {
+          "id": "opt4",
+          "text": "(9, 1)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नानुसार, a b A.M. 2 + = a b 5 2 + = a b 10 + = ...(i) G.M. ab = ab 3 = ab 9 = ...(ii) समी.(i)और(ii)हल करने पर a = 9, b = 1 अत:, दोनो संख्याए(9, 1)है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 25025,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्रेणी का ७वां पद ज्ञात कीजिए1 1 1 - + - + 1.... 8 4 2",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "–16"
+        },
+        {
+          "id": "opt3",
+          "text": "–8"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्न के अनुसार, 1 1 1 + +1+... 8 4 2 − − प्रथम पद, 1 1 a = t = 8 − सर्वानुपात 2 1 t 1/4 8 r = = = = 2 t 1/8 4 − − − 3 2 t 1/2 4 r = = = = 2 t 1/4 2 − − − r = 2 − n = 7 7thपद = t7 = a rn–1 = () 7 1 1 2 8 − − − 6 1 = (2) 8 − − 1 = ×64 8 − t7 = – 8",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25026,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदिa + b + c = m तथा 1 1 1 0 a b c + + =तबa2, b2, c2 का समान्तर माध्य है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "m2"
+        },
+        {
+          "id": "opt2",
+          "text": "m 3"
+        },
+        {
+          "id": "opt3",
+          "text": "m 6"
+        },
+        {
+          "id": "opt4",
+          "text": "m 9"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्नानुसार, a + b + c = m यदि1 1 1 0 a b c + + = तबab + bc + ca= 0 माध्य= () () 2 2 2 2 a b c 2 ab bc ca a b c 3 3 + + − + + + + = 2 m 0 3 − = माध्य 2 m 3 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lecturer (Sanskrit Edu.) 17/11/2024",
+      "sourceQuestionId": 25027,
+      "reference": "📌 PYQ — RPSC School Lecturer (Sanskrit Edu.) 17/11/2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: दो धनात्मक संख्याओं'x' एवं'y' का समान्तर माध्य 29.5 है। यदि एक तीसरी संख्या'z' को भी सम्मिलित किया जाता है तो संयुक्त समान्तर माध्य20.5 होता है, यह तीसरी संख्या…………. है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "16.67"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्नानुसार, दो धनात्मक संख्याओं(x) एवं (y) का समान्तर माध्य= 29.5 x y 29.5 2 + = x + y = 59.0 यदि एक तीसरी संख्या सम्मिलित करने पर समान्तर माध्य= 20.5 x y z 20.5 3 + + = x + y + z = 61.5 z = 61.5 – 59.0 z = 2.5 अत: तीसरी संख्या2.5है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. 2011",
+      "sourceQuestionId": 25051,
+      "reference": "✎ PYQ Modified · RPSC School Lect. 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: १० संख्याओं का माध्य १२.५ है, उनमें से प्रथम ६ संख्याओं का माध्य १५ है एवं अन्तिम ५ संख्याओं का माध्य १० है, तो छठी संख्या निम्न में से कौन सी होगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१०"
+        },
+        {
+          "id": "opt2",
+          "text": "१५"
+        },
+        {
+          "id": "opt3",
+          "text": "१२"
+        },
+        {
+          "id": "opt4",
+          "text": "१३"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "१० संख्याओं का माध्य · १२.५ १० संख्याओं का योगफल= 10 × 12.5 = 125 सभा r पदा ें का योगफल माध्य · पदोंका r संख्या प्रथम ६ संख्याओं का माध्य · १५ प्रथम ६ संख्याओं का योगफल ·6 × 15 = 90 अन्तिम ५ संख्याओं का माध्य · १० अन्तिम ५ संख्याओं का योगफल · ५×१० = 50 छठी संख्या ·(प्रथम ६ संख्या का योगफल ± ५ संख्या का योगफल) – १० संख्याओं का योगफल = (90 + 50) – 125 = 140 – 125? = 15 छठी संख्या १५ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC LDC (P-I) 2011",
+      "sourceQuestionId": 25052,
+      "reference": "✎ PYQ Modified · RPSC LDC (P-I) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"माध्य (समांतर, गुणोत्तर एवं हरात्मक), माध्यिका एवं बहुलक\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"माध्य (समांतर, गुणोत्तर एवं हरात्मक), माध्यिका एवं बहुलक\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"माध्य (समांतर, गुणोत्तर एवं हरात्मक), माध्यिका एवं बहुलक\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

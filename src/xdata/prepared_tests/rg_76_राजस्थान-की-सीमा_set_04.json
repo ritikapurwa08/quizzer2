@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की सीमा",
+  "topicSlug": "राजस्थान-की-सीमा",
+  "testSetName": "राजस्थान की सीमा - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा ज़िला करौली ज़िले के साथ सीमा रखता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "करौली जिला दौसा जिले के साथ सीमा साझा करता है। करौली जिला सवाई माधोपुर, धौलपुर और भरतपुर के साथ भी सीमा साझा करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 16075,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पश्चिमी सीमा जो पाकिस्तान से सटी है उस पर निम्नलिखित में से कौन-से ज़िले स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर, बीकानेर, श्री गंगानगर, जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "चुरू, बीकानेर, जैसलमेर, बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर, बाड़मेर, जैसलमेर, जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर, जैसलमेर, बीकानेर, श्री गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की पश्चिमी सीमा पर बाड़मेर, जैसलमेर, बीकानेर और श्री गंगानगर जिले स्थित हैं, जो पाकिस्तान से सटे हुए हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor ((ESR) Exam 2024",
+      "sourceQuestionId": 16080,
+      "reference": "📌 PYQ — Junior Instructor ((ESR) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौनसा भौगोलिक क्षेत्र हरियाणा राज्य के साथ अपनी सीमा साझा नहीं करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरावली क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण पूर्वी पठारी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्धशुष्क क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी मैदानी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का दक्षिण-पूर्वी पठारी क्षेत्र (कोटा-बूँदी क्षेत्र) हरियाणा के साथ सीमा साझा नहीं करता।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2024 (12th Level) 24 October Shift-II",
+      "sourceQuestionId": 16081,
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन सा शहर पाकिस्तानी सीमा के सबसे निकट है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपरोक्त में में पाकिस्तान की सीमा के सबसे निकट श्रीगंगानगर स्थित है। अब पांचवां जिला अनूपगढ़ पाकिस्तान सीमा से सबसे नजदीकी जिला मुख्यालय है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 16086,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हरियाणा का कौन सा एक नवगठित जिला है जिसकी सीमाएं राजस्थान को छूती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झज्जर"
+        },
+        {
+          "id": "opt2",
+          "text": "नोहरा"
+        },
+        {
+          "id": "opt3",
+          "text": "बावल"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवात"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेवात हरियाणा का नवगठित जिला है, जो राजस्थान की सीमा से सटा हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 16087,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की स्थलीय सीमा की लम्बाई क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5920 कि.मी।"
+        },
+        {
+          "id": "opt2",
+          "text": "5940 कि.मी।"
+        },
+        {
+          "id": "opt3",
+          "text": "6920 कि.मी।"
+        },
+        {
+          "id": "opt4",
+          "text": "5990 कि.मी।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "sourceQuestionId": 16088,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा जिला भौगोलिक, सामाजिक, और राजनीतिक सीमाएं उत्तर प्रदेश और मध्य प्रदेश के साथ साझा करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बाराँ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "धौलपुर जिला राजस्थान का एकमात्र जिला है जो उत्तर प्रदेश और मध्य प्रदेश दोनों राज्यों के साथ अपनी सीमाएं साझा करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "sourceQuestionId": 16089,
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में अन्तर्राज्यीय सीमा वोले जिलों की संख्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "23"
+        },
+        {
+          "id": "opt3",
+          "text": "21"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के अन्तर्राज्जीय सीमा वाले जिले - 25(गंगानगर, हनुमानगढ़, चूरू, झुंझुनू, नीम का थाना, कोटपूतली बहरोड, खेरथाल तिजारा, अलवर, डीग, भरतपुर, धौलपुर, करौली, सवाई-माधोपुर, बारां, झालावाड़, कोटा, भीलवाड़ा, चित्तौड़गढ़, प्रतापगढ़, बांसवाड़ा, डूंगरपुर, उदयपुर, सिरोही, सांचौर, बाड़मेर।)राजस्थान के केवल अन्तर्राज्जीय सीमा वाले जिले - 23",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16156,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान की सीमा पूर्व में किस राज्य से संयुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंजाब"
+        },
+        {
+          "id": "opt2",
+          "text": "हरियाणा"
+        },
+        {
+          "id": "opt3",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तर प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान पांच राज्यों के साथ अन्तर्राज्यीय सीमा बनाता है। यह उत्तर में पंजाब, उत्तर-पूर्व में हरियाणा, पूर्व में उत्तर प्रदेश, दक्षिण-पूर्व में मध्यप्रदेश एवं दक्षिण में गुजरात के साथ अन्तर्राज्यीय सीमाएं बनाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16157,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की सीमा\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान की सीमा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान की सीमा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की हस्तकला / हस्तशिल्प",
+  "topicSlug": "राजस्थान-की-हस्तकला-हस्तशिल्प",
+  "testSetName": "राजस्थान की हस्तकला / हस्तशिल्प - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सांझी के रूप में किस देवी की पूजा की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt2",
+          "text": "दुर्गा"
+        },
+        {
+          "id": "opt3",
+          "text": "सरस्वती"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्ष्मी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "sourceQuestionId": 11389,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर एवं जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा एवं बून्दी"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर एवं जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरापाटन एवं बाराँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2018",
+      "sourceQuestionId": 11390,
+      "reference": "📌 PYQ — Computor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से जयपुर का परम्परागत हस्तउद्योग कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्रकला"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्लू पॉटरी"
+        },
+        {
+          "id": "opt3",
+          "text": "उनी खादी"
+        },
+        {
+          "id": "opt4",
+          "text": "थेवा कला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "sourceQuestionId": 11391,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा कथन राजस्थान की ब्लॉक छपाई के बारे में सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इसकी प्रक्रिया की शुरुआत 12वीं सदी से हुई थी ।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसमें प्राकृतिक रंगों का उपयोग नहीं किया जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह राजस्थान का एक प्राचीन शिल्प रूप है।"
+        },
+        {
+          "id": "opt4",
+          "text": "इसे सूती कपडे पर किया जाता है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "sourceQuestionId": 11392,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दाबू प्रिंट’ के लिए कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "आकोला"
+        },
+        {
+          "id": "opt3",
+          "text": "बालोतरा"
+        },
+        {
+          "id": "opt4",
+          "text": "बगरू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 11393,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘थेवा कला’ के लिए प्रसिद्ध परिवार कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोनी परिवार"
+        },
+        {
+          "id": "opt2",
+          "text": "खण्डेलवाल परिवार"
+        },
+        {
+          "id": "opt3",
+          "text": "गहलोत परिवार"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावत परिवार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 11395,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य हस्तकर्घा विकास निगम किस वर्ष में संविधित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1986"
+        },
+        {
+          "id": "opt2",
+          "text": "1984"
+        },
+        {
+          "id": "opt3",
+          "text": "1983"
+        },
+        {
+          "id": "opt4",
+          "text": "1985"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 11396,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘इंडिगो कला’ के लिए प्रसिद्ध स्थान कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालोतरा"
+        },
+        {
+          "id": "opt2",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "मण्डोर"
+        },
+        {
+          "id": "opt4",
+          "text": "बहरोड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11537,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: धौलपुर में नकली जेवर बनाने की कला को क्या कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीदड़"
+        },
+        {
+          "id": "opt2",
+          "text": "तुड़ियां"
+        },
+        {
+          "id": "opt3",
+          "text": "पेसुरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मुकेश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11540,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की हस्तकला / हस्तशिल्प\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान की हस्तकला / हस्तशिल्प\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

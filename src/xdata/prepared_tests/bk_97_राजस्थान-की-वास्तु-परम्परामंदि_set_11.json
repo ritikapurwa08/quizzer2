@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।",
+  "topicSlug": "राजस्थान-की-वास्तु-परम्परामंदिर-किले-महल-एवं-मानव-निर्मित-जलीय-संरचनाएँ-चित्रकला-की-विभिन्न-शैलियाँ-और-हस्तशिल्प।",
+  "testSetName": "राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प। - अभ्यास टेस्ट 11",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "झाला हवेली किस किले/महल में अवस्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झाला हवेली कोटा रियासत में स्थित है। इसका निर्माण दीवान जालीम सिंह ने कराया था। 89",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "sourceQuestionId": 17913,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit-2022 Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में12वाँ ज्योतिर्लिंग कहाँ पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवाड"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री कोलायत"
+        },
+        {
+          "id": "opt4",
+          "text": "आमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के शिवाड़ में12वाँ ज्योतिा\\लग अवस्थित है। यहाँ श्री घुश्मेश्वर ज्योतिा\\लग है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "sourceQuestionId": 17914,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ओसियां के जैन मन्दिर किस जिले में स्थित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ओसियां का जैन मंदिर जोधपुर में स्थित है। इस मंदिर का निर्माण783ई. में गुर्जर प्रतिहार शासक वत्सराज ने कराया था। यह श्वेताम्बर जैन तीर्थंकर महावीर को सर्मिपत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "sourceQuestionId": 17915,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा कृत्रिम दुर्ग का भाग नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलक"
+        },
+        {
+          "id": "opt2",
+          "text": "पंक"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थानीय"
+        },
+        {
+          "id": "opt4",
+          "text": "द्रोणक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोलक, स्थानीय तथा द्रोणक कृत्रिम दुर्ग के भाग हैं। जबकि पंक कृत्रिम दुर्ग का भाग नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17916,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्रकला की कौनसी शैली में ‘‘श्रावक प्रतिक्रमण सूत्र चूर्णी’’ ग्रंथ चित्रित किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेवाड़ चित्रकला शैली के अंतर्गत प्रतिक्रमण सूत्र चूर्णी एवं सुपर्श्वनाथचरितम् चित्रित किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17917,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "_____भारत का पहला निजी नियोजित पहाड़ी शहर है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंडीगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "लवासा"
+        },
+        {
+          "id": "opt3",
+          "text": "गांधीनगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर को भारत का पहला निजी पहाड़ी नियोजित शहर माना जाता है। जयपुर के संस्थापक महाराजा सवाई जय सिंह हैं। इस शहर का निर्माण1726में किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Town Planner-2022",
+      "sourceQuestionId": 17918,
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान की प्रसिद्ध हैंड ब्लॉक प्रिंटिंग तकनीक का नाम है, जिसमें सफेद या ऑफ-व्हाइट पृष्ठभूमि पर दबाए गए जटिल पुष्प पैटर्न्स होते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाघनी"
+        },
+        {
+          "id": "opt2",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "लहरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "पटोला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सांगानेरी प्रिंट में रंग और छापे का सबसे ज्यादा महत्त्व है। रंगों में काला व लाल रंग मुख्य है। संगानेरी छपाई लठ्ठे और मलमल पर की जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Town Planner-2022",
+      "sourceQuestionId": 17919,
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान के कुदरत सिंह किस हस्तशिल्प से सम्बद्ध हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उस्ता कला"
+        },
+        {
+          "id": "opt2",
+          "text": "बंधेज"
+        },
+        {
+          "id": "opt3",
+          "text": "बल्यू पॉटरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मीनाकारी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कुदरत सिंह का संबंध मीनाकारी हस्तशिल्प से है। मीनाकारी हस्तशिल्प में उल्लेखनीय योगदान हेतु कुदरत सिंह को पदम श्री पुरस्कार से सम्मानित किया जा चुका है। मीनाकारी, धातुओं और सिरेमिक टाइलों की सतहों पर एनामेिंलग के माध्यम से पेिंटग और रंग चढ़ाने की प्रक्रिया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (SE) G-B 2022",
+      "sourceQuestionId": 18029,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (SE) G-B 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कपड़े पर चित्रित........... नाथद्वारा चित्रकला शैली का सजीव उदाहरण है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंहासन"
+        },
+        {
+          "id": "opt2",
+          "text": "पिछवाई"
+        },
+        {
+          "id": "opt3",
+          "text": "फड़"
+        },
+        {
+          "id": "opt4",
+          "text": "घोड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कपड़े पर चित्र नाथद्वारा शैली की मुख्य विशेषता है इसे पिछवाई के चित्र भी कहा जाता है। इस शैली के प्रसिद्ध चित्रकार देवकृष्ण, चतुर्भुज और रामिंलग थे। यह मेवाड़ स्कूल ऑफ पेंिंटग की एक उप शैली है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam RPSC School Lect. Group-A (S.E.) 2022",
+      "sourceQuestionId": 18030,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam RPSC School Lect. Group-A (S.E.) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान की वास्तु परम्परा–मंदिर, किले, महल एवं मानव निर्मित जलीय संरचनाएँ, चित्रकला की विभिन्न शैलियाँ और हस्तशिल्प।\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

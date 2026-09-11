@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में लोक देवता व देवियाँ",
+  "topicSlug": "राजस्थान-में-लोक-देवता-व-देवियाँ",
+  "testSetName": "राजस्थान में लोक देवता व देवियाँ - अभ्यास टेस्ट 17",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर के निकट सम्भराथल को किस लोकदेवता ने अपना कर्म-स्थल बनाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धन्नाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "जाम्भोजी"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 L1",
+      "sourceQuestionId": 2519,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजाजी .......... के देवता के रूप में पूजे जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गायों"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़ों"
+        },
+        {
+          "id": "opt3",
+          "text": "घोड़ों"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊटों"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "A.A.R.O. (GK and Ag. Che.) 2022",
+      "sourceQuestionId": 2521,
+      "reference": "📌 PYQ — A.A.R.O. (GK and Ag. Che.) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित (लोक देवता – मुख्य तीर्थस्थल) में से कौनसा युग्म असंगत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेजाजी परबतसर – (नागौर)"
+        },
+        {
+          "id": "opt2",
+          "text": "देवनारायण जी – आसींद (भीलवाड़ा)"
+        },
+        {
+          "id": "opt3",
+          "text": "तल्लीनाथ जी – कतरियासर (बीकानेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी – कोलू गाँव (फलोदी)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "sourceQuestionId": 2523,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कनफटे जोगी’ डमरू एवं सारंगी वाद्य यन्त्रों के साथ किस देवी के गीत गाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागणेची माता"
+        },
+        {
+          "id": "opt2",
+          "text": "शीतला माता"
+        },
+        {
+          "id": "opt3",
+          "text": "सकराय माता"
+        },
+        {
+          "id": "opt4",
+          "text": "जीण माता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "sourceQuestionId": 2525,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बेंगती गाँव (फलौदी) में किस लोक देवता का मुख्य मन्दिर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मल्लीनाथजी"
+        },
+        {
+          "id": "opt2",
+          "text": "तल्लीनाथजी"
+        },
+        {
+          "id": "opt3",
+          "text": "हड़बूजी"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "sourceQuestionId": 2526,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजाजी की पत्नी का नाम _____ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैणा दे"
+        },
+        {
+          "id": "opt2",
+          "text": "नेतल दे"
+        },
+        {
+          "id": "opt3",
+          "text": "फूलम दे"
+        },
+        {
+          "id": "opt4",
+          "text": "पेमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer 2022 Gk (G-C)",
+      "sourceQuestionId": 2530,
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-C)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कामडिया पंथ’ के संस्थापक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संत रामदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "संत धन्ना"
+        },
+        {
+          "id": "opt3",
+          "text": "संत पीपा"
+        },
+        {
+          "id": "opt4",
+          "text": "संत रामचरण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "sourceQuestionId": 2532,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘भूरिया बाबा’ आराध्य देवता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोड़वाड़ के मीणाओं के"
+        },
+        {
+          "id": "opt2",
+          "text": "देवड़ा राजपूतों के"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर के चौहानों के"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर के सिसोदियों के"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2700,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सांभर झील में निम्न में से किस देवी का मंदिर स्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुंजल माता"
+        },
+        {
+          "id": "opt2",
+          "text": "शीला देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "बवन देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "शाकम्भरी माता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2702,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में लोक देवता व देवियाँ\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में लोक देवता व देवियाँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में लोक देवता व देवियाँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

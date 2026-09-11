@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "कृषि–विज्ञान, उद्यान–विज्ञान, वानिकी एवं पशुपालन राजस्थान के विशेष संदर्भ में",
+  "topicSlug": "कृषिविज्ञान-उद्यानविज्ञान-वानिकी-एवं-पशुपालन-राजस्थान-के-विशेष-संदर्भ-में",
+  "testSetName": "कृषि–विज्ञान, उद्यान–विज्ञान, वानिकी एवं पशुपालन राजस्थान के विशेष संदर्भ में - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "लाख कीट कौन से कुल में आता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वैâरिडी"
+        },
+        {
+          "id": "opt2",
+          "text": "केरमेसडी"
+        },
+        {
+          "id": "opt3",
+          "text": "लेकानोडाइस्पोइडी"
+        },
+        {
+          "id": "opt4",
+          "text": "स्टीटोकोकसीडी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लाख कीट वैâरिडी कुल से संबंधित है। लाख, लाख कीट से ही प्राप्त होता है। लाख का स्रवण सुर्ख रंग की मादा कीट करती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24519,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "30 सेमी. आकार का हल5किमी प्रति घंटा की गति से चलने पर प्रति घंटा जुताई क्षेत्र की गणना कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0.15 हेक्टेयर"
+        },
+        {
+          "id": "opt2",
+          "text": "5 हेक्टेयर"
+        },
+        {
+          "id": "opt3",
+          "text": "0.015 हेक्टेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "15.0 हेक्टेयर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जुताई क्षेत्र=चौड़ाई× 1घण्टे में चली दूरी = 30सेमी= 0.3मीटर = 5किमी/घण्टा= 5000मी/घण्टा जुताई क्षेत्र=0.3मी.× 5000मी.= 1500वर्ग मीटर इसलिए1500 10,000 = 0.15हेक्टेयर",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24520,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिलेण्डर में ईंधन_______ के बाद छिड़का जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंतग्रर्हण स्ट्रोक"
+        },
+        {
+          "id": "opt2",
+          "text": "संपीडन स्ट्रोक"
+        },
+        {
+          "id": "opt3",
+          "text": "शक्ति स्ट्रोक"
+        },
+        {
+          "id": "opt4",
+          "text": "निकास स्ट्रोक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डीजल इंजन में संपीडन स्ट्रोक के बाद सिलेंडर में ईंधन इंजेक्ट किया जाता है। यह इंजेक्टर के माध्यम से सिलेंडर में स्प्रे किया जाता है। उच्च तापमान के कारण ईंधन स्वत: प्रज्वलित होकर दहन प्रक्रिया शुरू करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24521,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में पशु गणना कितने वर्श के अंतराल में की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "05"
+        },
+        {
+          "id": "opt2",
+          "text": "04"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "07"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रत्येक पाँच वर्ष में मत्स्य पालन, पशुपालन ओर डेयरी मंत्रालय के पशुपालन और डेयरी विभाग के द्वारा पशुधन गणना करायी जाती है। २१वीं पशुधन गणना अक्टूबर २०२४ से फरवरी २०२५ के बीच संपन्न की जाएगी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24522,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रभावित और संदिग्ध पशु को अलग करने की प्रक्रिया को कहते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एकांत"
+        },
+        {
+          "id": "opt2",
+          "text": "संगरोध"
+        },
+        {
+          "id": "opt3",
+          "text": "कीटाणुनाशन"
+        },
+        {
+          "id": "opt4",
+          "text": "चयन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रभावित और संदिग्ध पशु को अलग करने की प्रक्रिया को एकांत कहते है। आइसोलेशन में प्रभावित व संदिग्ध पशुओं को स्वस्थ पशुओं से पृथक वार्ड में रखा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24523,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशु समूह में से अलाभकारी पशु को हटाने को कहते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रजनन"
+        },
+        {
+          "id": "opt2",
+          "text": "खिलाना"
+        },
+        {
+          "id": "opt3",
+          "text": "वीडिंग"
+        },
+        {
+          "id": "opt4",
+          "text": "हीडिंग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आयोग की उत्तरकुंजी के अनुसार सही उत्तर(c)है: परन्तु पशुधन प्रबंधन में, झुंड से अलाभकारी या अनुत्पादक जानवरों को हटाने के लिए कुलिंग(Culling)शब्द का प्रयोग करते है जबकि कृषि और बागवानी में अवांछित पौधो को हटाने के लिए वीडिंग का प्रयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24524,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुर्गी में किसकी कमी से क्रेजी चीक डीजीज होती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विटामिनE"
+        },
+        {
+          "id": "opt2",
+          "text": "विटामिनC"
+        },
+        {
+          "id": "opt3",
+          "text": "विटामिनD"
+        },
+        {
+          "id": "opt4",
+          "text": "विटामिनB"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मुर्गी में विटामिनEकी कमी से क्रेजी चिक रोग हो जाता है। यह2से3सप्ताह की उम्र की मुर्गियों में होता है, इसमें मुर्गी की मांसपेशियाँ कमजोर हो जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 24525,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में 2019 की 20वीं पशुधन गणना के अनुसार, सर्वाधिक भेड़ें पाई जाती हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में वर्ष २०१९ की २०वीं पशुधन गणना के अनुसार सर्वाधिक भेड़ें बाड़मेर में पाली जाती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (SE) G-B 2022",
+      "sourceQuestionId": 24663,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (SE) G-B 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सूची-Iको सूची-IIसे सुमेलित कीजिए एवं नीचे दिए कूट से सही उत्तर का चयन कीजिए: सूची-I (पशुधन) सूची-II (नस्ल) Aभेड़ 1सुरती Bगौवंश 2नाली Cभैंस 3बरबरी Dबकरी 4सांचोरी A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 4 2"
+        },
+        {
+          "id": "opt2",
+          "text": "4 3 1"
+        },
+        {
+          "id": "opt3",
+          "text": "4 1 3"
+        },
+        {
+          "id": "opt4",
+          "text": "3 1 2"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न हैं- पशुधन नस्ल भेड़ - नाली गोवंश - सांचोरी भैस - सुरती बकरी - बरबरी",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "sourceQuestionId": 24665,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कृषि–विज्ञान, उद्यान–विज्ञान, वानिकी एवं पशुपालन राजस्थान के विशेष संदर्भ में\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"कृषि–विज्ञान, उद्यान–विज्ञान, वानिकी एवं पशुपालन राजस्थान के विशेष संदर्भ में\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"कृषि–विज्ञान, उद्यान–विज्ञान, वानिकी एवं पशुपालन राजस्थान के विशेष संदर्भ में\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

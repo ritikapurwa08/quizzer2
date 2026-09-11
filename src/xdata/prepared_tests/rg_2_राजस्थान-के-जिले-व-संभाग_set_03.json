@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के जिले व संभाग",
+  "topicSlug": "राजस्थान-के-जिले-व-संभाग",
+  "testSetName": "राजस्थान के जिले व संभाग - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "क्षेत्रफल की दृष्टि से सबसे बड़ा जिला कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कच्छ"
+        },
+        {
+          "id": "opt4",
+          "text": "लेह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जैसलमेर भारत का तीसरा सबसे बड़ा जिला है। सबसे बड़ा जिला गुजरात का कच्छ(45,612 वर्ग किमी.) जिला है। दुसरा सबसे बड़ा जिला लद्दाख का लेह जिला है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (19 March 2023)",
+      "sourceQuestionId": 179,
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न जिलों को पूर्व से पश्चिम दिशा अनुसार सुव्यवस्थित कीजिये । नीचे दिये हुए कोड का प्रयोग करें:अ. करौलीब. अजमेरस. जोधपुरद. सवाई माधोपुर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब, अ, द, स"
+        },
+        {
+          "id": "opt2",
+          "text": "अ, द, ब, स"
+        },
+        {
+          "id": "opt3",
+          "text": "स, अ, ब, द"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब, स, द"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "करौली राजस्‍थान के पूर्व मेें है इसके बाद सवाई माधोपुर करौली के पश्चिम में है। अजमेर लगभग राजस्‍थान के मध्‍य में है। और जोधपुर पश्चिम में है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 180,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौनसा संभाग राज्य में सर्वाधिक क्षेत्रफल घेरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जोधपुर संभाग राज्य में सर्वाधिक क्षेत्रफल घेरता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "School Lecturer 2022 Gk (Group D)",
+      "sourceQuestionId": 181,
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group D)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित जिलों को पूर्व से पश्चिम की ओर सही क्रम में व्यवस्थित करें –(i) जैसलमेर(ii) पाली(iii) अजमेर(iv) धौलपुरकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iii), (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (iii), (ii), (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iv), (iii), (ii), (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv), (ii), (iii), (i)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "धौलपुर राजस्‍थान के सबसे पूर्व में है इसके बाद अजमेर राजस्‍थान के लगभग मध्‍य में है। पाली राजस्‍थान के मध्‍य से पश्चिम में है और जैसलमेर राजस्‍थान का सबसे पश्चिमी जिला है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 182,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "70° पूर्वी देशांतर _________ जिले से होकर गुज़रता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "70° पूर्वी देशांतर जैसलमेर जिले से होकर गुज़रती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 184,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अक्षय तृतीया निम्न में से किस शहर का स्थापना दिवस है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बीकानेर शहर की स्थापना 1487 ई. में राठौड़ राजा राव बीका जी ने की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 185,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में संभागीय आयुक्त व्यवस्था को कब पुनर्जीवित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1977"
+        },
+        {
+          "id": "opt2",
+          "text": "1985"
+        },
+        {
+          "id": "opt3",
+          "text": "1987"
+        },
+        {
+          "id": "opt4",
+          "text": "1989"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में संभागीय व्यवस्था की शुरूआत 1949 में हीरालाल शास्त्री सरकार द्वारा की गई। अप्रैल, 1962 में मोहनलाल सुखाडि़या सरकार के द्वारा संभागीय व्यवस्था को समाप्त कर दिया गया। 15 जनवरी, 1987 में हरि देव जोशी सरकार के द्वारा संभागीय व्यवस्था की शुरूआत दुबारा की गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+      "sourceQuestionId": 186,
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान के सबसे बड़े जिले जैसलमेर का क्षेत्रफल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "38401 वर्ग किमी."
+        },
+        {
+          "id": "opt2",
+          "text": "30450 वर्ग किमी."
+        },
+        {
+          "id": "opt3",
+          "text": "14540 वर्ग किमी."
+        },
+        {
+          "id": "opt4",
+          "text": "3450 वर्ग किमी."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जैसलमेर ज़िले का क्षेत्रफल 38,401 वर्ग किलोमीटर है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 219,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के परिधिय जिलों की संख्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "21"
+        },
+        {
+          "id": "opt2",
+          "text": "23"
+        },
+        {
+          "id": "opt3",
+          "text": "29"
+        },
+        {
+          "id": "opt4",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के परिधिय जिले - 27",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 221,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के जिले व संभाग\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान के जिले व संभाग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान के जिले व संभाग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

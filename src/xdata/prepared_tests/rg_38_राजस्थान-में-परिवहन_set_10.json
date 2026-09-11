@@ -1,0 +1,293 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में परिवहन",
+  "topicSlug": "राजस्थान-में-परिवहन",
+  "testSetName": "राजस्थान में परिवहन - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "दिल्ली-जयपुर-चित्तौड़गढ़ राष्ट्रीय राजमार्ग का नया नम्बर क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एन.एच.-62"
+        },
+        {
+          "id": "opt2",
+          "text": "एन.एच.-82"
+        },
+        {
+          "id": "opt3",
+          "text": "एन.एच.-48"
+        },
+        {
+          "id": "opt4",
+          "text": "एन.एच.-68"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "NH48 जयपुर को नई दिल्ली से जोड़ता है। यह भारत का एक राष्ट्रीय राजमार्ग है जो दिल्ली से शुरू होता है और भारत के सात राज्यों से होते हुए चेन्नई में समाप्त होता है। इसे दिल्ली-जयपुर एक्सप्रेसवे के नाम से भी जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(electrician)",
+      "sourceQuestionId": 10962,
+      "reference": "📌 PYQ — Junior Instructor(electrician)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नाल’ हवाईअड्डा अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर में"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नाल हवाई अड्डा बीकानेर में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+      "sourceQuestionId": 10965,
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय मार्ग 48, 58 का संबंध पूर्व के किस राष्ट्रीय मार्ग से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एनएच 8"
+        },
+        {
+          "id": "opt2",
+          "text": "एनएच 3"
+        },
+        {
+          "id": "opt3",
+          "text": "एनएच 11"
+        },
+        {
+          "id": "opt4",
+          "text": "एनएच 15"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "NH 8 राजस्थान राज्य का सबसे व्यस्ततम राष्ट्रीय राजमार्ग है। राज्य का सबसे व्यस्त राष्ट्रीय राजमार्ग - NH 48, 58 (पहले यह NH 8 था)। राज्य का दूसरा सबसे लंबा राजमार्ग NH-8 है जो राजस्थान को दिल्ली और मुंबई से जोड़ता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 10970,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्तर-पश्चिम रेलवे जोन का गठन कब हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2002"
+        },
+        {
+          "id": "opt2",
+          "text": "2001"
+        },
+        {
+          "id": "opt3",
+          "text": "2003"
+        },
+        {
+          "id": "opt4",
+          "text": "2004"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इसे लघुरूप में उपरे कहा जाता है। इसकी स्थापना 1 अक्टूबर 2002 में हुई थी। इसका मुख्यालय जयपुर में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 1",
+      "sourceQuestionId": 10971,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित राष्ट्रीय राजमार्गो में से कौन-सा एक राजस्थान में अजमेर को बीकानेर से जोड़ता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एन. एच. 89"
+        },
+        {
+          "id": "opt2",
+          "text": "एन. एच. 79"
+        },
+        {
+          "id": "opt3",
+          "text": "एन. एच. 59"
+        },
+        {
+          "id": "opt4",
+          "text": "एन. एच. 69"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नये नंम्बर के अनुसार NH-89, NH-58(अजमेर से नागौर) और NH-62(नागौर से बीकानेर) में विभक्त है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2018",
+      "sourceQuestionId": 10973,
+      "reference": "📌 PYQ — Lab Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर से आगरा राष्ट्रीय राजमार्ग-11 का नया नम्बर क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एन. एच.-12"
+        },
+        {
+          "id": "opt2",
+          "text": "एन. एच.-48"
+        },
+        {
+          "id": "opt3",
+          "text": "एन. एच.-21"
+        },
+        {
+          "id": "opt4",
+          "text": "एन. एच.-76"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर से आगरा जाने वाले राष्ट्रीय राजमार्ग 11 का नया नाम राष्ट्रीय राजमार्ग 21 (NH 21) है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Livestock Assistant Exam 2018",
+      "sourceQuestionId": 10976,
+      "reference": "📌 PYQ — Livestock Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय राजमार्ग - 27 किस जिले से होकर नहीं गुजरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (12 March 2023)",
+      "sourceQuestionId": 10879,
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कौन सा युग्म सही नहीं है -नगर - उड्डन केन्द्र",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर - सांगानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर - डबोक हवाईअड्डा"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा - कोटा हवाईअड्डा"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर - पालम हवाईअड्डा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10955,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के किस जिले में देश का दूसरा और उत्तर पश्चिम रेलवे का सबसे लंबा फुटओवर ब्रिज बनाने का रिकॉर्ड बनाया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10966,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में परिवहन\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में परिवहन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में परिवहन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

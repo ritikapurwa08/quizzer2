@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "जैव-विविधता एवं इनका संरक्षण",
+  "topicSlug": "जैव-विविधता-एवं-इनका-संरक्षण",
+  "testSetName": "जैव-विविधता एवं इनका संरक्षण - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अलवर जिले का स्थान जो प्रोजेक्ट टाइगर योजना में सम्मिलित किया गया है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिली सेड"
+        },
+        {
+          "id": "opt2",
+          "text": "सरिस्का राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt3",
+          "text": "राजमहल"
+        },
+        {
+          "id": "opt4",
+          "text": "पाण्डुपोल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सरिस्का उद्यान को १९५५ में वन्यजीव अभयारण्य घोषित किया गया था। इसके बाद १९७८ में इसे बाघ अभयारण्य घोषित किया गया। वर्ष १९९० में इसे राष्ट्रीय उद्यान का दर्जा मिला।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2011 Paper-I",
+      "sourceQuestionId": 21372,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "केसर बाग वन्यजीव अभ्यारण्य राजस्थान के कौन से जिले में अवस्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "केसर बाग वन्यजीव अभयारण्य राजस्थान के धौलपुर जिले में है। यह अभयारण्य १४.७६ वर्ग किमी. में पैâला हुआ है। वर्ष १९५५ में इस वन्यजीव अभयारण्य घोषित किया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agriculture Officer 2021",
+      "sourceQuestionId": 21373,
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से लवणीय गर्त नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt2",
+          "text": "कायलाना"
+        },
+        {
+          "id": "opt3",
+          "text": "सुजानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "तालछापर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कायलाना झील राजस्थान के जोधपुर में स्थित है। १८७२ में प्रताप सिंह ने इस झील को बनवाया था। डीडवाना, सुजानगढ़ और तालछापर राजस्थान में स्थित लवणीय झील है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 21374,
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का मनसा माता संरक्षण रिजर्व अवस्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली में"
+        },
+        {
+          "id": "opt2",
+          "text": "झुन्झुनू में"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मनसा माता संरक्षण रिजर्व राजस्थान के झुंझुनू में स्थित है। इस संरक्षण रिजर्व में तेंदुआ संरक्षण किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. (Sanskrit Educ.) 2024",
+      "sourceQuestionId": 21375,
+      "reference": "📌 PYQ — RPSC Asst. Prof. (Sanskrit Educ.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आम लोगों के वन्यजीव के प्रति जागरूकता हेतु वन विभाग, राजस्थान के द्वारा जालौर जिले के लिए निम्नलिखित में से कौन सा शुभंकर निर्धारित किया गया हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नेवला"
+        },
+        {
+          "id": "opt2",
+          "text": "भालू"
+        },
+        {
+          "id": "opt3",
+          "text": "गोडावण"
+        },
+        {
+          "id": "opt4",
+          "text": "खरगोश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पक्षियों और जानवरों के प्रति जागरुकता पैदा करने के लिए राजस्थान सरकार के वन विभाग ने मार्च २०१६ में राजस्थान के जिलों का शुभंकर निर्धारित किया। राजस्थान वन विभाग ने जालौर का शुभंकर ‘भालू’ को बनाया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. (Sanskrit Educ.) 2024",
+      "sourceQuestionId": 21376,
+      "reference": "📌 PYQ — RPSC Asst. Prof. (Sanskrit Educ.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "फॉरेस्ट सर्वे ऑफ इंडिया द्वारा जारी ’’स्टेट ऑफ फॉरेस्ट रिपोर्ट-२०१७’’ के अनुसार राजस्थान का कुल वन क्षेत्र है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10.23%"
+        },
+        {
+          "id": "opt2",
+          "text": "9.57%"
+        },
+        {
+          "id": "opt3",
+          "text": "9.18%"
+        },
+        {
+          "id": "opt4",
+          "text": "8.34%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "फॉरेस्ट सर्वे ऑफ इंडिया द्वारा जारी स्टेट ऑफ फॉरेस्ट रिपोर्ट-2017’ के अनुसार राजस्थान का कुल वन क्षेत्र9.57% है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sub Inspector 07/10/2021",
+      "sourceQuestionId": 21377,
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामसागर वन्यजीव अभयारण्य स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा में"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "बारां में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रामसागर वन्यजीव अभयारण्य राजस्थान राज्य के पूर्वी जिले धौलपुर में स्थित है। यह अभयारण्य झील के किनारे बसा हुआ है, जिस कारण पानी के पास रहने वाले अधिकांश पक्षी यहाँ मिलते हैं। यहाँ पर अनेक वन्य जीव जैसे – जंगली सूअर, साँभर, नीलगाय, चीतर, तीतर, मोर आदि देखे जा सकते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "sourceQuestionId": 21378,
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से राजस्थान में कौन से टाइगर रिजर्व हैंः (A) सरिस्का (B) रामगढ़ विषधारी (C) रणथम्मौर (D) मुकुन्दरा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B, C एवं D"
+        },
+        {
+          "id": "opt2",
+          "text": "A, B, एवं C"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C एवं D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, C एवं D"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्तमान में राजस्थान में कुल5टाइगर रिजर्व स्थापित किए गए हैं – रणथंभौर, सरिस्का, मुकुंदा हिल्स, रामगढ़ विषधारी और धौलपुर-करौली टाइगर रिजर्व।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 21406,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: टाईगर रिजर्व परियोजना राजस्थान में स्थित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीतानदी"
+        },
+        {
+          "id": "opt2",
+          "text": "माही"
+        },
+        {
+          "id": "opt3",
+          "text": "काजीरंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "सरिस्का"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उपरोक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2011",
+      "sourceQuestionId": 21407,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"जैव-विविधता एवं इनका संरक्षण\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"जैव-विविधता एवं इनका संरक्षण\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"जैव-विविधता एवं इनका संरक्षण\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

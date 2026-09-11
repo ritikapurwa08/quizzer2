@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के ऊर्जा संसाधन",
+  "topicSlug": "राजस्थान-के-ऊर्जा-संसाधन",
+  "testSetName": "राजस्थान के ऊर्जा संसाधन - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस स्थान पर राजस्थान का सबसे बड़ा थर्मल पावर स्टेशन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छाबड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरतगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "कालीसिंध"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सूरतगढ़ सुपर थर्मल पावर प्लांट की क्षमता राजस्थान में सबसे अधिक है। सूरतगढ़ सुपर थर्मल पावर स्टेशन राजस्थान का पहला सुपर थर्मल पावर स्टेशन है। इस पावर प्लांट का संचालन राजस्थान राज्य विद्युत उत्पादन निगम लिमिटेड ( RVUNL ) द्वारा किया जाता है। इस पावर प्लांट में 6 यूनिट हैं जो 250 मेगावाट बिजली उत्पादन कर सकती हैं और 2 यूनिट 660 मेगावाट बिजली उत्पादन कर सकती हैं। सूरतगढ़ सुपर थर्मल पावर प्लांट की कुल क्षमता 2820 मेगावाट है। Present Capacity",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LSA 2022",
+      "sourceQuestionId": 12089,
+      "reference": "📌 PYQ — RSMSSB LSA 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा राजस्थान का सबसे बड़ा तापीय विद्युत ग्रह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरतगढ़ थर्मल"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा थर्मल"
+        },
+        {
+          "id": "opt3",
+          "text": "गिराल थर्मल"
+        },
+        {
+          "id": "opt4",
+          "text": "बरसिंहसर थर्मल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सूरतगढ़ थर्मल पावर स्टेशन (श्रीगंगानगर जिला): यह राजस्थान का सबसे बड़ा तापीय विद्युत संयंत्र है, जिसकी कुल स्थापित क्षमता 1500 मेगावाट से अधिक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+      "sourceQuestionId": 12090,
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन से वर्ष में राजस्थान सौर ऊर्जा नीति घोषित की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2017"
+        },
+        {
+          "id": "opt2",
+          "text": "2019"
+        },
+        {
+          "id": "opt3",
+          "text": "2018"
+        },
+        {
+          "id": "opt4",
+          "text": "2015"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "18 दिसंबर 2019 को राजस्थान पवन एवं हाइब्रिड ऊर्जा नीति 2019 जारी की गई।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Ras Pre. Exam 2021",
+      "sourceQuestionId": 12107,
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में स्थित विश्व के सबसे बड़े सोलर प्लांट में से एक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भड़ाला (जोधपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "पोखरण (जैसलमेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरतगढ़ (गंगानगर)"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भड़ला सोलर पार्क, राजस्थान के फलौदी ज़िले में स्थित दुनिया का सबसे बड़ा सोलर पार्क है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (GS) 2020",
+      "sourceQuestionId": 12119,
+      "reference": "📌 PYQ — SCHOOL LECTURER (GS) 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के कौन से जिले बनासकांठा (गुजरात) से मोगा (पंजाब) तक जाने वाले ग्रीन एनर्जी कोरिडोर पर अवस्थित है ? नीचे दिये गये कूटों में से सही उत्तर चुनिए -अ. जोधपुरब. अजमेरस. जयपुरद. बीकानेरय. नागौरकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ, ब, स एवं द"
+        },
+        {
+          "id": "opt2",
+          "text": "ब, स, द एवं य"
+        },
+        {
+          "id": "opt3",
+          "text": "अ, ब, द एवं य"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब, स एवं य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गुजरात के बनासकांठा से पंजाब के मोगा तक बनने वाला ग्रीन एनर्जी कॉरिडोर बीकानेर सहित अजमेर, चित्तौडग़ढ़, नागौर, जोधपुर आदि जिलों से गुजरेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 12121,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न तापीय बिजली घरों में से किसकी प्रस्थापित क्षमता सर्वाधिक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरतगढ़ ताप बिजली घर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा ताप विजली घर"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीसिन्ध ताप विजली घर"
+        },
+        {
+          "id": "opt4",
+          "text": "छबड़ा ताप बिजली घर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के तापीय बिजली घरों में से छबड़ा थर्मल पावर प्रोजेक्ट की स्थापित क्षमता सबसे ज़्यादा है। छबड़ा थर्मल पावर परियोजना राजस्थान का पहला सुपर-क्रिटिकल थर्मल पावर प्लांट है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF FRO 2021",
+      "sourceQuestionId": 12122,
+      "reference": "📌 PYQ — RPSC ACF FRO 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बरसिंगसर ताप परियोजना किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इस स्थान पर भारत सरकार के उपक्रम नेवेली लिग्नाइट काॅरपोरेशन द्वारा लिग्नाइट आधारित पाॅवर प्रोजेक्ट संयंत्र का निर्माण किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC  Exam 2011 Paper I",
+      "sourceQuestionId": 12144,
+      "reference": "📌 PYQ — RPSC LDC  Exam 2011 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: प्राकृति गैस आधारित ‘शक्ति परियोजना’ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भिवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "रामगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12126,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राणा प्रताप सागर पन - विद्युत गृह स्थापित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "रावतभाटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12127,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के ऊर्जा संसाधन\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के ऊर्जा संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के ऊर्जा संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

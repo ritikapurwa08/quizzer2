@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख नदियाँ एवं झीलें",
+  "topicSlug": "प्रमुख-नदियाँ-एवं-झीलें",
+  "testSetName": "प्रमुख नदियाँ एवं झीलें - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौन सा (उद्गम स्थल - नदी) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिवेर – कोठारी"
+        },
+        {
+          "id": "opt2",
+          "text": "खमनौर - लूनी"
+        },
+        {
+          "id": "opt3",
+          "text": "बिजराल - खारी"
+        },
+        {
+          "id": "opt4",
+          "text": "बिछमेड़ा- सोम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेल है- उद्गम स्थल नदी (a) दिवेर – कोठारी (b) खमनौर – बनास (c) बिजराल – खारी (d)बिछमेड़ा – सोम",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agriculture Officer 2021",
+      "sourceQuestionId": 20533,
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्यामपुरा एवं भाट नहर निकलती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद झील"
+        },
+        {
+          "id": "opt2",
+          "text": "पिछोला झील"
+        },
+        {
+          "id": "opt3",
+          "text": "फतह सागर झील"
+        },
+        {
+          "id": "opt4",
+          "text": "जयसमंद झील"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्यामपुरा और भाट नहर जयसमंद झील से निकलती हैं। जयसमंद झील को ढ़ेबर झील भी कहा जाता है। यह झील उदयपुर जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 20534,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पूर्णत: राजस्थान में बहने वाली सबसे लम्बी नदी का नाम",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बनास नदी की लम्बाई लगभग ५१२ किमी है। यह पूर्णत: राज्य में बहने वाली सबसे लम्बी नदी है। बनास नदी अरावली की खमनौर की पहाड़ियों से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 20535,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की कौन सी एक मात्र नदी, जो कि केवल राजस्थान राज्य में ही बहती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोठारी"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "पारबती"
+        },
+        {
+          "id": "opt4",
+          "text": "माही"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नगत विकल्प में कोठारी तथा बनास दोनो ही नदियाँ पूर्णत: राजस्थान में बहती हैं। अत: विकल्पa वb दोनों सही है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 20536,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘धाभाई कुण्ड’ अवस्थित है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी में"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "धाभाई कुण्ड बूँदी में रानी जी की बावड़ी के दक्षिण में स्थित है। इसे राजस्थान का सबसे बड़ा कुण्ड माना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programer 2024",
+      "sourceQuestionId": 20537,
+      "reference": "📌 PYQ — RPSC Programer 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सरदार समंद झील तथा जैंत सागर झील क्रमश: अवस्थित है।-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद तथा अलवर में"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली तथा नागौर में"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर तथा अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली तथा बूंदी में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सरदार समंद झील पाली जिले तथा जैत सागर झील बूँदी जिले में स्थित है। 373",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. (Sanskrit Educ.) 2024",
+      "sourceQuestionId": 20538,
+      "reference": "📌 PYQ — RPSC Asst. Prof. (Sanskrit Educ.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस नदी को वराह या लासवारी के नाम से भी जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूपारेल"
+        },
+        {
+          "id": "opt2",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रूपारेल नदी को लसवारी, और वराह नदी के नाम से भी जाना जाता है। यह अलवर जिले में उदयनाथ की पहाड़ियों से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. (Sanskrit Educ.) 2024",
+      "sourceQuestionId": 20539,
+      "reference": "📌 PYQ — RPSC Asst. Prof. (Sanskrit Educ.) 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कौन सी चम्बल नदी की सहायक नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाई"
+        },
+        {
+          "id": "opt2",
+          "text": "माही"
+        },
+        {
+          "id": "opt3",
+          "text": "काली सिन्ध"
+        },
+        {
+          "id": "opt4",
+          "text": "जा़खम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चम्बल नदी का उद्गम मध्यप्रदेश में महू के पास जानापाव पहाड़ी से होता है। चम्बल की दाएँ तट की सहायक नदियां पार्वती, कालीसिंध, शिप्रा तथा बांए तट की सहायक नदियां बनास, मेज हैं। बनास चम्बल की सबसे बड़ी सहायक नदी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (Group-D) 2022",
+      "sourceQuestionId": 20599,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (Group-D) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सी नदियों का उद्गम रास्थान से नहीं हुआ हैः (A) चम्बल (B) पश्चिमी बनास (C) माही (D)साबरमती",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B एवं C"
+        },
+        {
+          "id": "opt2",
+          "text": "A, C एवं D"
+        },
+        {
+          "id": "opt3",
+          "text": "A, एवं C"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B एवं D"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चम्बल व माही नदियों का उद्गम मध्यप्रदेश से होता है। जबकि पश्चिमी बनास तथा साबरमती नदियों का उद्गम राजस्थान में होता है। चम्बल नदी का उद्गम मध्य प्रदेश में महू के पास जानापाव पहाड़ी से तथा माही नदी का उद्गम मध्यप्रदेश के धार जिले के सरदारपुर गांव के पास होता है। इसकी लंबाई ५८३ किमी. है। साबरमती नदी का उदगम अरावली पर्वतमाला से उदयपुर जिले में होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 20600,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख नदियाँ एवं झीलें\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"प्रमुख नदियाँ एवं झीलें\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"प्रमुख नदियाँ एवं झीलें\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

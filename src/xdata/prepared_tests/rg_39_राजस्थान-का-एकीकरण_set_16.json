@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का एकीकरण",
+  "topicSlug": "राजस्थान-का-एकीकरण",
+  "testSetName": "राजस्थान का एकीकरण - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य संघ को बृहत् राजस्थान में किस समिति की सिफारिशों पर मिलाया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्मा समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "फजल अली समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "व्यास समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "शंकरराव देव समिति"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 11099,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का एकीकरण कितने चरणों में पूरा हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छः"
+        },
+        {
+          "id": "opt2",
+          "text": "आठ"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "पाँच"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 3",
+      "sourceQuestionId": 11100,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "30 मार्च, 1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1 मई, 1949"
+        },
+        {
+          "id": "opt3",
+          "text": "31 मई, 1950"
+        },
+        {
+          "id": "opt4",
+          "text": "1 जुलाई, 1956"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (12 March 2023)",
+      "sourceQuestionId": 11104,
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "25 मार्च, 1948 को राजस्थान संघ के निर्माण के समय देशी रियासतों के निम्न समूहों में से कौन सा संघ का हिस्सा नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर, डूंगरपुर, बांसवाड़ा, प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा, बूंदी, किशनगढ़, शाहपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा, बूंदी, झालावाड़, शाहपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर, बांसवाड़ा, प्रतापगढ़, टोंक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 11105,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आज़ादी के बाद जोधपुर के कौन से शासक अपनी रियासत को एक स्वतंत्र इकाई रखना चाहते थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा भीम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा भोपाल सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा हनुवन्त सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा उम्मेद सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 11106,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1956 ईस्वी में किन क्षेत्रों के विलय के बाद राजस्थान का एकीकरण पूर्ण हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आबू, झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "आबू, देलवाड़ा, अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "आबू,देलवाड़ा, कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "आबू, कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+      "sourceQuestionId": 11107,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य संघ में कौन सा राज्य सम्मिलित नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "sourceQuestionId": 11109,
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: भारत की आजादी के समय राजपूताना की देशी रियासतों की संख्या कितनी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "19"
+        },
+        {
+          "id": "opt3",
+          "text": "22"
+        },
+        {
+          "id": "opt4",
+          "text": "29"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11244,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: किस समिति की सिफारिशों के आधार पर शेष बचा हुआ भू-भाग(अजमेर व आबू) राजस्थान में मिलाया गया-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फजल अली समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "शंकरराव देव समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "सत्यनारायण राव समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "देवनारायण राव समिति"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11251,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का एकीकरण\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान का एकीकरण\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान का एकीकरण\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

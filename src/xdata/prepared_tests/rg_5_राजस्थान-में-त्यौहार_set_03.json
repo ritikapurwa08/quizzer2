@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में त्यौहार",
+  "topicSlug": "राजस्थान-में-त्यौहार",
+  "testSetName": "राजस्थान में त्यौहार - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के शेखावाटी क्षेत्र में किस त्यौहार पर पुरुष संगीत का एक उपकरण जो चंग कहलाता है, बजाते हुए घेरे में नृत्य करते हैं -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "होली"
+        },
+        {
+          "id": "opt2",
+          "text": "तीज़"
+        },
+        {
+          "id": "opt3",
+          "text": "दिवाली"
+        },
+        {
+          "id": "opt4",
+          "text": "विवाह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शेखावाटी क्षेत्र में होली के अवसर पर पुरुष चंग (एक प्रकार का ढोल) बजाते हुए घेरे में नृत्य करते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 2 Shift II)",
+      "sourceQuestionId": 1151,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“सात वार नौ त्यौहार” यह कहावत भारत के किस राज्य से संबंधित है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओडिशा"
+        },
+        {
+          "id": "opt2",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान"
+        },
+        {
+          "id": "opt4",
+          "text": "बिहार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान अपनी रंग-बिरंगी संस्कृति के लिए पूरे भारत में प्रसिद्ध है, जो यहां के मेलों और त्योहारों में झलकती है, इसलिए एक लोकप्रिय कहावत है “सात वार नौ त्यौहार”।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 2 Shift II)",
+      "sourceQuestionId": 1152,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा त्यौहार चैत्र माह में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागपंचमी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगा नवमी"
+        },
+        {
+          "id": "opt3",
+          "text": "तीज"
+        },
+        {
+          "id": "opt4",
+          "text": "घुड़ला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "घुड़ला त्यौहार राजस्थान का प्रमुख त्यौहार है, जिसमें महिलाएं एकत्रित होकर कुम्हार के घर आती हैं, एक छेद वाले बर्तन में दीपक रखकर अपने घर का गीत गाती हैं। घुड़ला एक मिट्टी का घड़ा होता है, जिसे महिलाएं कुम्हार के घर से खरीदती हैं और फिर उसमें एक छेद करके उसमें एक जला हुआ दीपक रख देती हैं और उसे अपने सिर पर रखकर मोहल्ले में घूमती हैं। मोहल्ले में घूमने के बाद वे गुरला को लोकगीत गाते हुए अपने रिश्तेदार के घर ले जाते हैं और सुख-समृद्धि की प्रार्थना करते हैं। यह त्यौहार मुख्य रूप से मारवाड़ के जोधपुर, बाड़मेर और जैसलमेर जिलों में शीतला सप्तमी से चैत्र शुक्ल तृतीया तक मनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 1153,
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हरियाली तीज का त्यौहार किस माह में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद माह"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण माह"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक माह"
+        },
+        {
+          "id": "opt4",
+          "text": "फाल्गुन माह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हरियाली तीज श्रावण मास में शुक्ल पक्ष में तृतीया को मनाई जाती है, जो पति की लंबी आयु के लिए महिलाओं द्वारा मनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Wireman) Exam 2024",
+      "sourceQuestionId": 1154,
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लट्ठमार होली कहाँ खेली जाती है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भिनाय"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीमहावीरजी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्रीमहावीरजी (करौली जिला) में लट्ठमार होली की परंपरा प्रसिद्ध है।उन्नीसवीं सदी में बना, बेजोड़ वास्तुशिल्प की संरचना है, श्री महावीर जी का मंदिर, जो कि एक जैन तीर्थस्थल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+      "sourceQuestionId": 1155,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रति वर्ष 14 जनवरी, मकर संक्रान्ति के दिन मनाए जाने वाले त्यौहार का चयन कीजिए:निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुब्बारा उत्सव"
+        },
+        {
+          "id": "opt2",
+          "text": "गुलाब उत्सव"
+        },
+        {
+          "id": "opt3",
+          "text": "पतंग उत्सव"
+        },
+        {
+          "id": "opt4",
+          "text": "रंग उत्सव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मकर संक्रांति (14 जनवरी) के दिन राजस्थान में “पतंग उत्सव” मनाया जाता है, जिसमें लोग पतंगबाजी करते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+      "sourceQuestionId": 1161,
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में स्थान को कॉलम II में त्यौहार से मिलान कीजिए।कॉलम I (स्थान)कॉलम II (त्यौहार)1. अजमेरa. सालासर हनुमान का त्यौहार2. चूरूb. कैलादेवी का त्यौहार3. करौलीc. धुलेव का त्यौहार4. केसरियाजीd. पुष्करजी का त्यौहार",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-d, 2-a, 3-b, 4-c"
+        },
+        {
+          "id": "opt2",
+          "text": "1-c, 2-a, 3-d, 4-b"
+        },
+        {
+          "id": "opt3",
+          "text": "1-d, 2-c, 3-b, 4-a"
+        },
+        {
+          "id": "opt4",
+          "text": "1-b, 2-c, 3-a, 4-d"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अजमेर → पुष्कर मेलाचूरू → सालासर हनुमान मेलाकरौली → कैलादेवी मेलाकेसरियाजी → धुलेव मेला",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (RAT) Exam 2024",
+      "sourceQuestionId": 1162,
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का निम्नलिखित में से कौनसा शहर 'पत्थर मार होली’ के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1218,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित त्योहारों को उनकी संबंधित तिथियों से मिलाएं - त्यौहार तिथि1. आखा तीज A. वैसाख शुक्ल तृतीया2. छोटी तीज B. भाद्रपद कृष्ण तृतीया3. बदी तीज C. श्रावण शुक्ल तृतीया4. हरतालिका तीज D. भाद्रपद शुक्ल तृतीया",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-A, 2-B, 3-C, 4-D"
+        },
+        {
+          "id": "opt2",
+          "text": "1-A, 2-C, 3-B, 4-D"
+        },
+        {
+          "id": "opt3",
+          "text": "1-D, 2-C, 3-B, 4-A"
+        },
+        {
+          "id": "opt4",
+          "text": "1-D, 2-B, 3-C, 4-A"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1219,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में त्यौहार\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में त्यौहार\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में त्यौहार\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

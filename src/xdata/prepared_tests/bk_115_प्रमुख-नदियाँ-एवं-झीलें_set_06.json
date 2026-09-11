@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख नदियाँ एवं झीलें",
+  "topicSlug": "प्रमुख-नदियाँ-एवं-झीलें",
+  "testSetName": "प्रमुख नदियाँ एवं झीलें - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नदी को ‘‘बंगाल का शोक’’ भी कहा जाता था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंडक"
+        },
+        {
+          "id": "opt2",
+          "text": "सोन"
+        },
+        {
+          "id": "opt3",
+          "text": "दामोदर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोसी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दामोदर नदी को ‘बंगाल का शोक’ कहा जाता है। यह छोटा नागपुर पठार के पलामू पहाड़ियों से निकलती है। यह हुगली की सहायक नदी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 20043,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिवालिक पादीय क्षेत्र के सहारे का वह भाग जहाँ अधिकांशत: नदियाँ अत्यधिक संरध्रता के कारण विलुप्त हो जाती हैं, कहलाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाभर"
+        },
+        {
+          "id": "opt2",
+          "text": "तराई"
+        },
+        {
+          "id": "opt3",
+          "text": "धांध"
+        },
+        {
+          "id": "opt4",
+          "text": "धोरोस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भाभर शिवालिक की पदस्थली में पूर्व से पश्चिम दिशा में स्थित एक संकरी पट्टी है। जो सिंधु नदी से तीस्ता नदी के बीच पैâली है। यह कंकड़, बजरी आदि से निर्मित है। छिदृमयता के कारण यहाँ नदियाँ विलुप्त हो जाती है और दक्षिण में स्थित तराई क्षेत्र में पुन: सतह पर आ जाती है। 320",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "sourceQuestionId": 20044,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit-2022 Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की कौन सी नदी प्रायद्वीपीय पठार को तेलंगाना पठार तथा रायलसीमा पठार में विभक्त करती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महानदी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोदावरी नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "कृष्णा नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "कावेरी नदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कृष्णा नदी प्रायद्वीपीय पठार को दो भागों (उत्तर में तेलंगाना तथा दक्षिण में रायलसीमा का पठार) में बाँटती है। यह महाराष्ट्र में महाबलेश्वर शृंखला से निकलती है। घाटप्रभा, मालप्रभा, भीमा, मूसी आदि कृष्णा की सहायक नदियाँ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "sourceQuestionId": 20045,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit-2022 Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भागीरथी अलकनन्दा से मिलती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देव प्रयाग में"
+        },
+        {
+          "id": "opt2",
+          "text": "विष्णु प्रयाग में"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्ण प्रयाग में"
+        },
+        {
+          "id": "opt4",
+          "text": "रुद्र प्रयाग में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उत्तराखण्ड के टिहरी गढ़वाल जिले में स्थित देवप्रयाग नामक स्थान पर भागीरथी एवं अलकनंदा धाराएँ मिलकर गंगा का रूप लेती है। जबकि विष्णुप्रयाग में अलकनंदा व धौलीगंगा, कर्णप्रयाग में अलकनंदा व पिंडार और रूद्रप्रयाग में मंदाकिनी और अलकनंदा नदी मिलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "sourceQuestionId": 20046,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों में से कौन सी एक गंगा में दक्षिण की ओर से नहीं मिलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोन"
+        },
+        {
+          "id": "opt2",
+          "text": "यमुना"
+        },
+        {
+          "id": "opt3",
+          "text": "गोमती"
+        },
+        {
+          "id": "opt4",
+          "text": "पुनपुन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गोमती नदी वैâथी गाजीपुर में उत्तर की ओर से गंगा में मिलती है। गोमती नदी उत्तर प्रदेश के पीलीभीत जिले में गोमत ताल (फुल्हर झील) से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "sourceQuestionId": 20047,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सी नदी का उद्गम भारत में नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झेलम"
+        },
+        {
+          "id": "opt2",
+          "text": "सतलुज"
+        },
+        {
+          "id": "opt3",
+          "text": "चिनाब"
+        },
+        {
+          "id": "opt4",
+          "text": "रावी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सतलज नदी तिब्बत में मानसरोवर के निकट राकसताल झील से निकलती है, जबकि झेलम नदी वेरीनाग झरना (जम्मू कश्मीर), चेनाब (हिमांचल प्रदेश) तथा रावी नदी रोहतांग दर्रा हिमाचल प्रदेश से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+      "sourceQuestionId": 20048,
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी नदियाँ कच्छ के रण में गिरती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी बनास औ लूनी"
+        },
+        {
+          "id": "opt2",
+          "text": "माही और पश्चिमी बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती और लूनी"
+        },
+        {
+          "id": "opt4",
+          "text": "माही और लूनी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी बनास तथा लूनी ऐसी नदियाँ है जो कच्छ के रण में गिरती है। लूनी नदीं अरावली पहाडियों के निकट से निकलती है जबकि पश्चिमी बनास अरावली पर्वतमाला के दक्षिणी भाग के सिरोही जिले से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 20049,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: भारत के कुल नमक उत्पादन का सांभर झील में कितना उत्पादन होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8.7%"
+        },
+        {
+          "id": "opt2",
+          "text": "19.2%"
+        },
+        {
+          "id": "opt3",
+          "text": "31.3%"
+        },
+        {
+          "id": "opt4",
+          "text": "41.7%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नमक सोडियम और क्लोरीन का यौगिक होता है। राजस्थान में नमक का उत्पादन सांभर, डीडवाना एवं डिगना झीलों में होता है। जयपुर से65 किमी. दूर स्थित सांभर झील भारत की खारे पानी की सबसे बड़ी झील है। यहाँ हिन्दुस्तान साल्ट्स लिमिटेड द्वारा नमक उत्पादन किया जाता है। सांभर झील राजस्थान की नमक उत्पादन करने वाली सबसे बड़ी झील है। यहां देश के कुल नमक उत्पादन का8 प्रतिशत नमक उत्पादित होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1992",
+      "sourceQuestionId": 20574,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1992"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: अपवाह क्षेत्र की दृष्टि से राजस्थान की नदी प्रणालियों का सही अवरोही क्रम है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल, लूनी, माही, बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "चम्बल, लूनी, बनास, माही"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास, चम्बल, लूनी, माही"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास, चम्बल, माही, लूनी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अपवाह क्षेत्र की दृष्टि से उपयुक्त नदियोंं का अवरोही क्रम इस प्रकार है- बनास, चम्बल, लूनी, माही।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (SE) G-B 2022 RPSC Sr. Teacher Grade-II 2013",
+      "sourceQuestionId": 20576,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (SE) G-B 2022 RPSC Sr. Teacher Grade-II 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख नदियाँ एवं झीलें\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"प्रमुख नदियाँ एवं झीलें\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"प्रमुख नदियाँ एवं झीलें\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

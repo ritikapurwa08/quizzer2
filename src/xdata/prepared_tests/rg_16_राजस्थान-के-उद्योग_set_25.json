@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के उद्योग",
+  "topicSlug": "राजस्थान-के-उद्योग",
+  "testSetName": "राजस्थान के उद्योग - अभ्यास टेस्ट 25",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन सा जिला सीमेंट उद्योग के लिए एक आदर्श स्थान माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 5353,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा उद्योग राजस्थान में उत्पादित चूना पत्थर का मुख्य ग्राहक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इस्पात संयंत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "विदयुत संयंत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पीतल निर्माण"
+        },
+        {
+          "id": "opt4",
+          "text": "चर्म उद्योग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 5354,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कोटा को ____ के रूप में भी जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांस्कृतिक राजधानी"
+        },
+        {
+          "id": "opt2",
+          "text": "राजनीतिक पूंजी"
+        },
+        {
+          "id": "opt3",
+          "text": "औद्योगिक राजधानी"
+        },
+        {
+          "id": "opt4",
+          "text": "लोगों की राजधानी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "sourceQuestionId": 5356,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस वर्ष में राजस्थान वित्तीय निगम गठित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1959 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1955 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1965 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1958 में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "sourceQuestionId": 5357,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित विकल्पों में से किस शहर को राजस्थान का ‘मैनचेस्टर’ कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 5358,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान में कौन सा विकल्प पारंपरिक कुटीर उद्योग का एक उदाहरण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीमेंट"
+        },
+        {
+          "id": "opt2",
+          "text": "ईंट निर्माण"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्मीना शॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "हस्तनिर्मित कालीन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "sourceQuestionId": 5359,
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शहर को राजस्थान का औद्योगिक शहर कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "चितौड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "sourceQuestionId": 5365,
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राज्य का पहला गाँव जहाँ 'साइबर कियोस्क' की स्थापना की गई-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालाडेरा"
+        },
+        {
+          "id": "opt2",
+          "text": "नायला"
+        },
+        {
+          "id": "opt3",
+          "text": "खानपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "कैथून"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5493,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: धुसर क्रांति संबंधित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खनिज पदार्थ से"
+        },
+        {
+          "id": "opt2",
+          "text": "सीमेंट उत्पादन से"
+        },
+        {
+          "id": "opt3",
+          "text": "फलों से"
+        },
+        {
+          "id": "opt4",
+          "text": "मिट्टी के प्रकारों से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5494,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के उद्योग\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के उद्योग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के उद्योग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

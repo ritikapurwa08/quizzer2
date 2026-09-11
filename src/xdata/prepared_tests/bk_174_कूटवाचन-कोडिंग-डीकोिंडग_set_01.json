@@ -1,0 +1,298 @@
+{
+  "subject": "तार्किक विवेचन एवं मानसिक योग्यता",
+  "subjectSlug": "reasoning-mental-ability",
+  "topic": "कूटवाचन (कोडिंग-डीकोिंडग)",
+  "topicSlug": "कूटवाचन-कोडिंग-डीकोिंडग",
+  "testSetName": "कूटवाचन (कोडिंग-डीकोिंडग) - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक श्रेणीPMT, OOS, NQR, MSQको पूर्ण करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "LWP"
+        },
+        {
+          "id": "opt2",
+          "text": "LVR"
+        },
+        {
+          "id": "opt3",
+          "text": "LUP"
+        },
+        {
+          "id": "opt4",
+          "text": "LVP"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अक्षर शृंखला निम्नवत् है– अत:LUPश्रेणी को पूर्ण करता है। 2. कूटवाचन (कोडिंग-डीकोिंडग)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 24792,
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि'GOLD' को किसी कूट भाषा में'HOME' लिखें, 'COME'को उसी कूट भाषा में'DONE' लिखें एवं'CORD'को उसी कूट भाषा में'DOSE' लिखें, तो'SONS' को इस कूट भाषा में क्या लिखेंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "TPOT"
+        },
+        {
+          "id": "opt2",
+          "text": "TOOS"
+        },
+        {
+          "id": "opt3",
+          "text": "TOOT"
+        },
+        {
+          "id": "opt4",
+          "text": "TONT"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जिस प्रकार, तथा एवं उसी प्रकार, नोट:-स्वर अक्षर ±०, व्यंजन अक्षर ±१",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 24793,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी कूट भाषा में'ROAD' को'URDG' लिखा गया; तो उसी भाषा में'SWAN' को क्या लिखेंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "VYDQ"
+        },
+        {
+          "id": "opt2",
+          "text": "VZDQ"
+        },
+        {
+          "id": "opt3",
+          "text": "WZDQ"
+        },
+        {
+          "id": "opt4",
+          "text": "VZDR"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जिस प्रकार, उसी प्रकार,",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 24794,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि किसी कूट भाषा में MINERAL को QRSTUVW औरSOUND कोABCSD के रूप में लिखा जाए, तो इस समान कूट भाषा मेंREADERS को किस प्रकार लिखा जाएगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "SBFEESW"
+        },
+        {
+          "id": "opt2",
+          "text": "TUDVUTR"
+        },
+        {
+          "id": "opt3",
+          "text": "UTVDYUA"
+        },
+        {
+          "id": "opt4",
+          "text": "QDZCDQC"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिया गया कूट- तथा उपर्युक्त से कूट- 873",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24795,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि a ∆ b = a2 + b2 – a – b तथा a ⊕ b = ab – a – b, तो (3 ∆ 4) ⊕ 5 = ________ है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15"
+        },
+        {
+          "id": "opt2",
+          "text": "67"
+        },
+        {
+          "id": "opt3",
+          "text": "121"
+        },
+        {
+          "id": "opt4",
+          "text": "152"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्नानुसार- a ∆ b = a2 + b2 – a – b, a ⊕ b = ab – a – b 3 ∆ 4 = 32 + 42 – 3 – 4 = 18 (3 ∆ 4) ⊕ 5 = 18 × 5 – 18 – 5 = 90 – 23 = 67",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24796,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यहाँ दो स्तम्भ हैं जिसमें स्तम्भ-IIमें दी गई संख्याएँ स्तम्भ-Iमें दिए गए अक्षरों के कूट हैं। प्रत्येक अक्षर तथा इनके कूट को ध्यान से देखें। स्तम्भ-I स्तम्भ-II SHOP 3479 PENTER 122356 OUT 689 TEST 2466 \"RENT\" का कूट है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1256"
+        },
+        {
+          "id": "opt2",
+          "text": "2356"
+        },
+        {
+          "id": "opt3",
+          "text": "1246"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्ञात नहीं किया जा सकता"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "स्तम्भ-I वII से- अत: उपर्युक्त सेRENT का कूट = 1256",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Deputy Commandant 2020",
+      "sourceQuestionId": 24797,
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक निश्चित भाषा में, NOIDA को QLLAD में कूट किया गया है। इस भाषा मेंAJMER का कूट क्या होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "DHOAC"
+        },
+        {
+          "id": "opt2",
+          "text": "DGPBU"
+        },
+        {
+          "id": "opt3",
+          "text": "DMOBC"
+        },
+        {
+          "id": "opt4",
+          "text": "DNPAU"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जिस प्रकार, उसी प्रकार,",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programer 2024",
+      "sourceQuestionId": 24798,
+      "reference": "📌 PYQ — RPSC Programer 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: माना किसी कूट(कोड)विशेष में,TIGERको QDFHSकी तरह तथाMERITकोSHQDLकी तरह लिखा जाता है, तब इसी कूट(कोड)में FROZENको इस तरह लिखा जायेगा-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "MEYNQD"
+        },
+        {
+          "id": "opt2",
+          "text": "MDEZOR"
+        },
+        {
+          "id": "opt3",
+          "text": "MDYNQE"
+        },
+        {
+          "id": "opt4",
+          "text": "EQNYDM"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जिस प्रकार, तथा उसी प्रकार, अत:F R O Z E N कोM D Y N Q E लिखा जायेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2021",
+      "sourceQuestionId": 24806,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: एक कूट भाषा में, I. \"lew nas hsi ploy\" का अर्थ\"she is bringing coffee\". II. \"wir sut lew ploy\" का अर्थ\"he is bringing tea\". III. \"sut lim nas\" का अर्थ\"tea and coffee\". तो\"he\" के लिए कौन-से शब्द का प्रयोग किया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "wir"
+        },
+        {
+          "id": "opt2",
+          "text": "sut"
+        },
+        {
+          "id": "opt3",
+          "text": "lew"
+        },
+        {
+          "id": "opt4",
+          "text": "ploy"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दिए गए कूट भाषा से- Sut = tea lew ploy = is bringing अत:उपर्युक्त कूट भाषा से स्पष्ट है किhe के लिएwirका प्रयोग किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2018",
+      "sourceQuestionId": 24807,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कूटवाचन (कोडिंग-डीकोिंडग)\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"कूटवाचन (कोडिंग-डीकोिंडग)\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"कूटवाचन (कोडिंग-डीकोिंडग)\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

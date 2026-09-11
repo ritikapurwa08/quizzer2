@@ -1,0 +1,280 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में रीति -रिवाज एवं प्रथाएं",
+  "topicSlug": "राजस्थान-में-रीति-रिवाज-एवं-प्रथाएं",
+  "testSetName": "राजस्थान में रीति -रिवाज एवं प्रथाएं - अभ्यास टेस्ट 14",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘सामेला’ शब्द किस अवसर पर प्रयुक्त होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्म के समय"
+        },
+        {
+          "id": "opt2",
+          "text": "विवाह के समय"
+        },
+        {
+          "id": "opt3",
+          "text": "गौना के समय"
+        },
+        {
+          "id": "opt4",
+          "text": "मृत्यु के समय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1649,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्ना में से राजस्थान के लोकजीवन में ‘नारचारी’ शब्द किससे सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गृह क्रीडा"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt4",
+          "text": "परम्परा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1658,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शारदा एक्ट का संबंध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाल विवाह से"
+        },
+        {
+          "id": "opt2",
+          "text": "सती प्रथा से"
+        },
+        {
+          "id": "opt3",
+          "text": "बहुपत्नी विवाह से"
+        },
+        {
+          "id": "opt4",
+          "text": "विधवा पुनर्विवाह से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1661,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शारदा एक्ट के प्रणेता थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्जुन लाल सेठी"
+        },
+        {
+          "id": "opt2",
+          "text": "रायबहादुर हरविलास"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुल भाई भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "मोहनलाल सुखाड़िया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1662,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जीवित व्यक्ति द्वारा स्वयं का मृत्यु से पहले ही किया गया भोज क्या कहलाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मौसर"
+        },
+        {
+          "id": "opt2",
+          "text": "बढ़ार"
+        },
+        {
+          "id": "opt3",
+          "text": "कांदिया"
+        },
+        {
+          "id": "opt4",
+          "text": "जौसर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1664,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बखेर(उछाल) रस्म है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खुशी की रस्म"
+        },
+        {
+          "id": "opt2",
+          "text": "शोक की रस्म"
+        },
+        {
+          "id": "opt3",
+          "text": "विवाह की रस्म"
+        },
+        {
+          "id": "opt4",
+          "text": "जन्म की रस्म"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1666,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा सावा शादियों के लिए उत्तम माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आखातीज"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "अनन्त चतुर्दशी"
+        },
+        {
+          "id": "opt4",
+          "text": "शरद पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 1667,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: हिन्दु कानून का पोषक किस प्रथा को माना जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्यारहवां"
+        },
+        {
+          "id": "opt2",
+          "text": "मोसर"
+        },
+        {
+          "id": "opt3",
+          "text": "अन्त्येष्टि"
+        },
+        {
+          "id": "opt4",
+          "text": "पगड़ी दस्तूर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1747,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मृत्यु के तिसरे दिन मृतक की हड्डियो को इकट्ठा किया जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फूज चुनना"
+        },
+        {
+          "id": "opt2",
+          "text": "पिण्डदान"
+        },
+        {
+          "id": "opt3",
+          "text": "तीये की बैठक"
+        },
+        {
+          "id": "opt4",
+          "text": "श्राद्ध"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 1748,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में रीति -रिवाज एवं प्रथाएं\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में रीति -रिवाज एवं प्रथाएं\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में रीति -रिवाज एवं प्रथाएं\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+  "topicSlug": "राजस्थान-के-प्रमुख-व्यक्तित्व",
+  "testSetName": "राजस्थान के प्रमुख व्यक्तित्व - अभ्यास टेस्ट 15",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर में ‘परोपकारिणी सभा’ किसने स्थापित की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्योतिबा फुले"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वामी दयानंद सरस्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वामी विवेकानंद"
+        },
+        {
+          "id": "opt4",
+          "text": "ईश्वर चंद्र विद्यासागर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 14213,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसने, ‘अमरदास वैरागी’ छद्म नाम रखकर अपना अधिकांश समय मालवा और वागर के क्षेत्र में व्यतीत किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोरावर सिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "राव गोपाल सिंह खारवा"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रताप सिंह बारहठ"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्जुन लाल सेठी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 14214,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्रांतिकारी, जो उस दल का सदस्य था, जिसने लाॅर्ड लाॅर्डिंग की हत्या का प्रयास किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोरावर सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "केसरी सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गोपाल सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "विजय सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "SCHOOL LECTURER (GS) 2020",
+      "sourceQuestionId": 14222,
+      "reference": "📌 PYQ — SCHOOL LECTURER (GS) 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "शेखावटी ब्रिगेड का मुख्यालय कहाँ स्थित था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फतेहपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "खेतड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "झुंझुनू"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "sourceQuestionId": 14223,
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पीड़ितों का पंछीड़ा’ नामक किसकी रचना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "नयनूराम शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "विजयसिंह पथिक"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवराज जोशी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 14224,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लन्दन में वीर विनायक दामोदर सावरकर के लिए आगे अध्ययन हेतु छात्रवृत्ति की व्यवस्था किसने की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्यामजी कृष्ण वर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "सुभाष चन्द्र बोस"
+        },
+        {
+          "id": "opt3",
+          "text": "रासबिहारी बोस"
+        },
+        {
+          "id": "opt4",
+          "text": "मोहनसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2017 level-2 SST",
+      "sourceQuestionId": 14225,
+      "reference": "📌 PYQ — Reet 2017 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चेतावनी रा चूंगट्या’ किसने लिखें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापसिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "जोरावरसिंह बारहठ"
+        },
+        {
+          "id": "opt3",
+          "text": "राव गोपालसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "केसरीसिंह बारहठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Reet 2017 level-2 SST",
+      "sourceQuestionId": 14226,
+      "reference": "📌 PYQ — Reet 2017 level-2 SST"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान के स्वतंत्रता सेनानियों तथा उनके द्वारा स्थापित संस्थाओं को सुमेलित कीजिए -अ. विजयसिंह पथिक 1. वीर भारत सभाब. चांद मल सुराणा 2. गांधी आश्रम, हटूण्डीस. केसरी सिंह बारहठ 3. सेवा समितिद. हरिभाऊ उपाध्याय 4. मारवाड़ हितकारिणी सभासही उत्तर का चयन निम्न कूटों की सहायता से कीजिए -कूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 4, 2, 1"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 2, 4, 3"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 4, 1, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2, 3, 4"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14244,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: विजयसिंह पथिक ने राजस्थान केसरी समाचार-पत्र का प्रकाशन कहां से किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूना"
+        },
+        {
+          "id": "opt2",
+          "text": "वर्धा"
+        },
+        {
+          "id": "opt3",
+          "text": "लखनऊ"
+        },
+        {
+          "id": "opt4",
+          "text": "कानपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14247,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख व्यक्तित्व\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान के प्रमुख व्यक्तित्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान के प्रमुख व्यक्तित्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

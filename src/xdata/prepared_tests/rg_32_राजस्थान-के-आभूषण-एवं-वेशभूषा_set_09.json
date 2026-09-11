@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के आभूषण एवं वेशभूषा",
+  "topicSlug": "राजस्थान-के-आभूषण-एवं-वेशभूषा",
+  "testSetName": "राजस्थान के आभूषण एवं वेशभूषा - अभ्यास टेस्ट 9",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित आभुषण समूहों में से कौन सा समूह सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंगोट्या, कर्णफूल, पीपलपत्रा, झेला"
+        },
+        {
+          "id": "opt2",
+          "text": "तिमणिया, तुलसी, बजट्टी, हालरो"
+        },
+        {
+          "id": "opt3",
+          "text": "कंगन, नोगरी, गजरा, नेवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "लंगर, पायल, नुपूर, झांझर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पैरों में कड़ा, लंगर पायल, पायजेब, नूपुर, घुँघरु झाँझर, नेवरी आदि पहने जाते है। हाथों में कड़ा, कंगन, नोगरी, चाँट, गजरा, चूड़ी आदि पहने जाते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Statistical Office Exam - 2023 (GK)",
+      "sourceQuestionId": 8995,
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पोमचा, एक प्रकार की ओढ़नी पहनी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माँ बनने के उत्सव पर"
+        },
+        {
+          "id": "opt2",
+          "text": "विवाह के अवसर पर"
+        },
+        {
+          "id": "opt3",
+          "text": "एक अविवाहित कन्या द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "एक विधवा द्वारा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पोमचा का इस्तेमाल नवविवाहित गर्भवती महिलाओं के लिए किया जाता है। जब नवविवाहित महिला लड़के को जन्म देती है, तो उसे पीला पोमचा दिया जाता है। पोमचा पद्म या कमल से संबद्ध है, अर्थात इसमें कमल के फूल बने होते है। यह बच्चे के जन्म के अवसर पर पीहर पक्ष की ओर बच्चे की माँ को दिया जाता है। पुत्र एक जन्म होने पर पीला पोमचा तथा पुत्री के जन्म पर लाल पोमचा देने का रिवाज है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 8996,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "आभूषण, जो सिर पर नहीं पहना जाता -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "बोर"
+        },
+        {
+          "id": "opt3",
+          "text": "रखड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "कंदोरा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कंदोरा आभूषण कमर पर पहना जाता है। कंदोरा, करधनी के समान है लेकिन इसका डिज़ाइन अलग है। सिर के आभूषण - चूड़ारत्न, मुकुट, बोर, शीशफूल ,रखड़ी और टिकड़ा,मेमंद, टीडीभलको",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 8997,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निबोरी नामक आभूषण पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गला"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "दाँत"
+        },
+        {
+          "id": "opt4",
+          "text": "नाक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नेवरी: आंवले के साथ पहना जाने वाला पायल जैसा आभूषण।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+      "sourceQuestionId": 9000,
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अनवट, अनोटा, जरा और पोलरा शरीर के किस अंग के आभूषण हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँव"
+        },
+        {
+          "id": "opt2",
+          "text": "नाक"
+        },
+        {
+          "id": "opt3",
+          "text": "सिर"
+        },
+        {
+          "id": "opt4",
+          "text": "कान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पैर के आभूषण - खड़वे, पिंजणियाँ, कड़ा, लंगर, पायल, पायजेब, नूपुर, घुँघरु झाँझर, नेवरी, फोलरी, आंवला, तेधड़, हिरना मैन",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "sourceQuestionId": 9001,
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चोल, निकोल, पट्टा, दुकूल, चोरसो ___ के विभिन्न नाम हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घाघरा"
+        },
+        {
+          "id": "opt2",
+          "text": "अंगरखा"
+        },
+        {
+          "id": "opt3",
+          "text": "ओढ़नी"
+        },
+        {
+          "id": "opt4",
+          "text": "चोली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ओढ़नी/साड़ियों के नाम - चोल, निचोल, पट, दुकूल, अंसुक, वसन, चीर - पटोरी, चोरसो, ओड़नी, चूँदड़ी, धोरीवाला, साड़ी आदि",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 9007,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मध्यकाल में खन्गा एक प्रकार का _____ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "वस्त्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पगड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "जूता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मध्यकाल में “खन्गा पगड़ी” एक विशेष प्रकार की पगड़ी थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 9011,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राज्य में पोमचा प्रसिद्ध है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9194,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: विधवा महिलाअें द्वारा ओढ़े जाने वाली काले रंग की ओढ़नी कहलाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीड़ का पोमचा"
+        },
+        {
+          "id": "opt2",
+          "text": "केरी-भांत का पोमचा"
+        },
+        {
+          "id": "opt3",
+          "text": "गुलाबी पोमचा"
+        },
+        {
+          "id": "opt4",
+          "text": "तारा-भांत का पोमचा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9195,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के आभूषण एवं वेशभूषा\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान के आभूषण एवं वेशभूषा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान के आभूषण एवं वेशभूषा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

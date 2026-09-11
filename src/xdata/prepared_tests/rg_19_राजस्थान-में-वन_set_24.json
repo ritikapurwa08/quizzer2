@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन",
+  "topicSlug": "राजस्थान-में-वन",
+  "testSetName": "राजस्थान में वन - अभ्यास टेस्ट 24",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बांस मुख्यतः कहां पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बारां"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(welder)",
+      "sourceQuestionId": 6470,
+      "reference": "📌 PYQ — Junior Instructor(welder)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कौन-सा पेड़ गोंद का अच्छा स्त्रोत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सागवान"
+        },
+        {
+          "id": "opt2",
+          "text": "सालर"
+        },
+        {
+          "id": "opt3",
+          "text": "तेन्दू"
+        },
+        {
+          "id": "opt4",
+          "text": "गुरजन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(fitter)",
+      "sourceQuestionId": 6476,
+      "reference": "📌 PYQ — Junior Instructor(fitter)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली पहाड़ियों में सालर वृक्ष किस ऊंचाई पर मिलते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "750 मीटर से अधिक"
+        },
+        {
+          "id": "opt2",
+          "text": "450 मीटर से अधिक"
+        },
+        {
+          "id": "opt3",
+          "text": "750 मीटर से कम"
+        },
+        {
+          "id": "opt4",
+          "text": "450 मीटर से कम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(fitter)",
+      "sourceQuestionId": 6477,
+      "reference": "📌 PYQ — Junior Instructor(fitter)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कमरों को खुशबूदार एवं ठण्डा करने के लिए किस घास का उपयोग किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सेवण"
+        },
+        {
+          "id": "opt2",
+          "text": "धामण"
+        },
+        {
+          "id": "opt3",
+          "text": "खस"
+        },
+        {
+          "id": "opt4",
+          "text": "अन्जन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(copa)",
+      "sourceQuestionId": 6478,
+      "reference": "📌 PYQ — Junior Instructor(copa)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा केर व थोर का पसंदिदा प्राकृतिक निवास क्षेत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पर्वतीय व वर्षा क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "रेतीले मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "जलीय"
+        },
+        {
+          "id": "opt4",
+          "text": "जमाव क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(Eco. Investigator)",
+      "sourceQuestionId": 6479,
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय वन नीति के अनुसार अरावली पहाड़ियों में कितनी प्रतिशत वनच्छादित होनी चाहिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "33 प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "20 प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "65 प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "50 प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor(Eco. Investigator)",
+      "sourceQuestionId": 6480,
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "JFM का पूरा नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संयुक्त वन प्रबंधन"
+        },
+        {
+          "id": "opt2",
+          "text": "कनिष्ठ वन प्रबंधन"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्यूरी वन प्रबंधन"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर वन प्रबंधन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+      "sourceQuestionId": 6487,
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से राजस्थान के हाॅट-स्पाॅट कौन से हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर झील, सरिस्का वन व थार रेगिस्तान"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर झली, सरिस्का वन व ताल छापर"
+        },
+        {
+          "id": "opt3",
+          "text": "सांभर झील, सिरोही वन व टाडगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सांभर झील, सिरोही वन व तिजारा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6532,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: रूख भायला का आशय है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनचाहा मित्र"
+        },
+        {
+          "id": "opt2",
+          "text": "वृक्ष मित्र"
+        },
+        {
+          "id": "opt3",
+          "text": "रेगिस्तान में सुखा"
+        },
+        {
+          "id": "opt4",
+          "text": "उपयुक्त सभी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6534,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में वन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में वन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

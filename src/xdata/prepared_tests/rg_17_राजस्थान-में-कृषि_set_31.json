@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 31",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मरूस्थल विकास कार्यक्रम किस वर्ष में प्रारम्भ किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1991-92"
+        },
+        {
+          "id": "opt2",
+          "text": "1974-75"
+        },
+        {
+          "id": "opt3",
+          "text": "1984-85"
+        },
+        {
+          "id": "opt4",
+          "text": "1977-78"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 5854,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा समूह राजस्थान में खरीफ की फसलों से संबंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरहर, चना, जौ, बाजरा"
+        },
+        {
+          "id": "opt2",
+          "text": "अरहर, मक्का, बाजरा, सरसों"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का, बाजरा, ज्वार, अरहर"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का, बाजरा, सरसों, जौ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 5855,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘माही कंचन’ एक किस्म हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल की"
+        },
+        {
+          "id": "opt2",
+          "text": "मक्का की"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्वार की"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूं की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 5856,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय सरसों अनुसंधान केन्द्र की ‘सेवर’ में स्थापना हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1993"
+        },
+        {
+          "id": "opt2",
+          "text": "2003"
+        },
+        {
+          "id": "opt3",
+          "text": "2004"
+        },
+        {
+          "id": "opt4",
+          "text": "2007"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 5872,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "APMC अधिनियम राजस्थान में किस उद्देश्य से लागू किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निर्यात को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "आयात को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि उत्पादों के विपणन को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषि उत्पादकता बढ़ाने के लिए"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 5873,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय कृषि अनुसंधान परिषद ने राजस्थान में सरसों अनुसंधान निदेशालय जहां स्थापित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंता, जिला बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "बोरखेडा, जिला कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोबनेर, जिला जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सेवर, जिला भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Jailor Exam 2013(paper-II)",
+      "sourceQuestionId": 5876,
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "केंद्रीय शुष्क क्षेत्र अनुसंधान संस्थान का गठन कब किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1959"
+        },
+        {
+          "id": "opt2",
+          "text": "1985"
+        },
+        {
+          "id": "opt3",
+          "text": "1971"
+        },
+        {
+          "id": "opt4",
+          "text": "1966"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (09-09-18) Paper-1",
+      "sourceQuestionId": 5880,
+      "reference": "📌 PYQ — RSMSSB LDC (09-09-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: प्रदेश के प्रथम कृषि विज्ञान केन्द्र की स्थापना की गई-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बोरखेड़ा(कोटा)"
+        },
+        {
+          "id": "opt2",
+          "text": "फतेहपुर(सिकर)"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्गापुरा(जयपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "ढंढ(जयपुर)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5918,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कृषि वानिकी क्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक विशेष प्रकार की खेती जिसमें रबड़,चाय,कहवा आदि बड़े पैमाने पर उगाये जाते है-"
+        },
+        {
+          "id": "opt2",
+          "text": "एक वर्ष में एक ही खेती में चार फसले लेना"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि व पशुपालन कार्य एक साथ करना"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषि के साथ-साथ फसल चक्र में पेड़ों,बागवानी व झाडि़यों की खेती कर फसल व चारा उत्पादित करना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5919,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

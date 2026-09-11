@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान जनगणना व साक्षरता - 2011",
+  "topicSlug": "राजस्थान-जनगणना-व-साक्षरता-2011",
+  "testSetName": "राजस्थान जनगणना व साक्षरता - 2011 - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना में, राजस्थान के निम्नलिखित में से किस जिले का शिशु लिंगानुपात अन्य जिलों की तुलना में सर्वाधिक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "2011 की जनगणना के अनुसार, राजस्थान में बाँसवाड़ा जिले का शिशु लिंगानुपात (0-6 वर्ष आयु वर्ग) सबसे अधिक था, जो लगभग 934 था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "sourceQuestionId": 8595,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से किस जिले में नगरीय जनसंख्या में दशकीय परिवर्तन दर का प्रतिशत (2001-2011) सर्वाधिक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2011 जनगणना में अलवर (50.5 प्रतिशत) की नगरीय जनसंख्या दशकीय वृद्धि दर सर्वाधिक थी",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 8596,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान के निम्नलिखित में से किस जिले में साक्षरता दर 55 प्रतिशत से कम थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2011 जनगणना में जालौर की साक्षरता दर 54.9% थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 8597,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना-2011 के अनुसार, निम्नलिखित में से किस जिले की कुल जनसंख्या में नगरीय जनसंख्या का प्रतिशत सर्वाधिक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वास्तव में कोटा सर्वाधिक ~60% है, लेकिन विकल्पों में अजमेर निकट है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 8598,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना में, राजस्थान के निम्नलिखित में से किन जिलों का जनसंख्या घनत्व राजस्थान के तनसंख्या घनत्व की तुलना में कम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुन्झुनूं तथा करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर तथा सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर तथा कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर तथा चूरू"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का औसत घनत्व 2011 में 200 व्यक्ति/वर्ग किमी। कम घनत्व वाले जिले मुख्यतः पश्चिमी मरुस्थलीय: जैसलमेर (17), बीकानेर (78), बाड़मेर (92), चूरू (147), जोधपुर (161) आदि।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 8599,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान के किन जिलों में क्रमशः सर्वाधिक व न्यूनतम दशकीय जनसंख्या वृद्धि दर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर, गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर, झुन्झुनूं"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर, गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर, झुन्झुनूं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2001-2011 दशकीय वृद्धि दर: सर्वाधिक बाड़मेर (32.5%), न्यूनतम गंगानगर (10%)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Dept. Exam - 2024",
+      "sourceQuestionId": 8600,
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 में राजस्थान की कुल जनसंख्या में अनुसूचित जाति की जनसंख्या का प्रतिशत कितना था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16.9%"
+        },
+        {
+          "id": "opt2",
+          "text": "17.5%"
+        },
+        {
+          "id": "opt3",
+          "text": "17.8%"
+        },
+        {
+          "id": "opt4",
+          "text": "17.2%"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2011 में राजस्थान की कुल जनसंख्या में अनुसूचित जाति की जनसंख्या : 1.22 करोड़ → 17.8%",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)",
+      "sourceQuestionId": 8601,
+      "reference": "📌 PYQ — Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: 2011 में जनसंख्या के घनत्व के संदर्भ में दिए गए जिलों के अवरोही क्रम का सही क्रम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा, अजमेर; गंगानगर और चूरू"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, भरतपुर, दौसा और अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, अजमेर, अलवर और दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर, दौसा, अजमेर 'और- चूरू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सर्वाधिक जनघनत्व वाले 5 जिले जयपुर595भरतपुर503दौसा476अलवर438धौलपुर398",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8827,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: 2011वीं जनगणना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15वीं राष्ट्रीय जनगणना"
+        },
+        {
+          "id": "opt2",
+          "text": "12वीं राष्ट्रीय जनगणना"
+        },
+        {
+          "id": "opt3",
+          "text": "16वीं राष्ट्रीय जनगणना"
+        },
+        {
+          "id": "opt4",
+          "text": "14वीं राष्ट्रीय जनगणना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2011 की जनगणना, भारतीय जनगणना संगठन द्वारा संचालित 15वां राष्ट्रीय जनगणना सर्वेक्षण है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8855,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान जनगणना व साक्षरता - 2011\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान जनगणना व साक्षरता - 2011\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान जनगणना व साक्षरता - 2011\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

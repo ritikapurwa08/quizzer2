@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के प्रमुख अनुसंधान केन्द्र",
+  "topicSlug": "राजस्थान-के-प्रमुख-अनुसंधान-केन्द्र",
+  "testSetName": "राजस्थान के प्रमुख अनुसंधान केन्द्र - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय उष्ट्र अनुसंधान केन्द्र स्थित है :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अविकानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राष्ट्रीय उष्ट्र अनुसंधान केन्द्र जोड़बीड़ क्षेत्र बीकानेर में स्थित है। 5 जुलाई 1984 में इसकी स्थापना एक ऊंट निदेशालय के रूप में की थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS (Pre) Exam - 2023",
+      "sourceQuestionId": 14789,
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरैमिक इलेक्ट्रिकल रिसर्च एण्ड डेवलपमेंट सेंटर कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सेरेमिक इलेक्ट्रिकल रिसर्च एंड डेवलपमेंट सेंटर बीकानेर, राजस्थान में स्थित है, जो सिरेमिक और संबंधित तकनीकों में अपनी विशेषज्ञता के लिए जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Hindi L2",
+      "sourceQuestionId": 14797,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘काजरी’ अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "CAZRI (काजरी) सेंट्रल एरिड जोन रिसर्च इंस्टिट्यूट है। केन्द्रीय शुष्क क्षेत्र अनुसन्धान संस्थान की स्थापना भारत सरकार ने 1959 में जोधपुर में की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "sourceQuestionId": 14803,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बेर एवं खजूर अनुसंधान केन्द्र स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बेर एवं खजूर अनुसंधान केंद्र राजस्थान के बीकानेर जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 14810,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रीय ऊंट अनुसंधान केंद्र बीकानेर में स्थित है"
+        },
+        {
+          "id": "opt2",
+          "text": "केन्द्रीय पशु प्रजनन केन्द्र चित्तौड़गढ़ में स्थित है"
+        },
+        {
+          "id": "opt3",
+          "text": "केंद्रीय भेड़ प्रजनन केंद्र चूरू में स्थित है"
+        },
+        {
+          "id": "opt4",
+          "text": "राष्ट्रीय अश्व अनुसंधान केन्द्र बारां में स्थित है"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राष्ट्रीय ऊंट अनुसंधान केंद्र, बीकानेर, भारतीय कृषि अनुसंधान परिषद (ICAR) का एक प्रमुख अनुसंधान केंद्र है। भारत सरकार ने 5 जुलाई 1984 को भारतीय कृषि अनुसंधान परिषद (ICAR) के तत्वावधान में बीकानेर (भारत) में ऊंट पर एक परियोजना निदेशालय की स्थापना की, जिसे 20 सितंबर, 1995 को राष्ट्रीय ऊंट अनुसंधान केंद्र (NRCC) में अपग्रेड किया गया। NRCC एक कूबड़ वाले ऊंट (कैमलस ड्रोमेडेरियस) पर बुनियादी और अनुप्रयुक्त अनुसंधान पर ध्यान केंद्रित कर रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 14811,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में केन्द्रीय भेड़ एवं ऊन शोध संस्थान कहाँ स्थापित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओसियां"
+        },
+        {
+          "id": "opt2",
+          "text": "अविकानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 14791,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस शहर में 1952 में मरु वनीकरण शोध स्टेशन की स्थापना की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 14792,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राष्ट्रीय बकरी अनुसंधान संस्थान स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तारानगर में"
+        },
+        {
+          "id": "opt2",
+          "text": "अविकानगर में"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरतगढ़ में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "Agriculture Supervisor Exam 2018",
+      "sourceQuestionId": 14802,
+      "reference": "✎ PYQ Modified · Agriculture Supervisor Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में हाइड्रोलॉजी एण्ड वॉटर मैनेजमेंट इंस्टीट्यूट अवस्थित है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 14804,
+      "reference": "✎ PYQ Modified · Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख अनुसंधान केन्द्र\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के प्रमुख अनुसंधान केन्द्र\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के प्रमुख अनुसंधान केन्द्र\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

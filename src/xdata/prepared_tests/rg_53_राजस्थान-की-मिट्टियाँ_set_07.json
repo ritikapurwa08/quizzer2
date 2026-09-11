@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान की मिट्टियाँ",
+  "topicSlug": "राजस्थान-की-मिट्टियाँ",
+  "testSetName": "राजस्थान की मिट्टियाँ - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जयपुर, दौसा और अलवर जिलों में किस मृदा की प्रधानता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एन्टीसोल"
+        },
+        {
+          "id": "opt2",
+          "text": "इनसेप्टीसोल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्टीसोल्स"
+        },
+        {
+          "id": "opt4",
+          "text": "अल्फीसोल्स"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अल्फीसोल्स मृदा जयपुर, दौसा, अलवर, भरतपुर, सवाई माधोपुर, करौली, टोंक, भीलवाड़ा, चित्तौड़गढ़, बांसवाड़ा, राजसमन्द, उदयपुर, डूंगरपुर, बूंदी, कोटा, बारां, झालावाड़ जिलों में पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+      "sourceQuestionId": 13263,
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा मृदा में लवणीयता एवं क्षारीयता का समाधान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यूरिया"
+        },
+        {
+          "id": "opt2",
+          "text": "जिप्सम"
+        },
+        {
+          "id": "opt3",
+          "text": "पोटाश"
+        },
+        {
+          "id": "opt4",
+          "text": "रॉक फॉस्फेट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जिप्सम (CaSO₄·2H₂O) मृदा सुधारक के रूप में काम करता है और मृदा की लवणीयता को कम करने में सहायक होता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WCS) Exam 2024",
+      "sourceQuestionId": 13264,
+      "reference": "📌 PYQ — Junior Instructor (WCS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मिट्टी का लाल रंग ____ के आधिक्य के कारण होता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैल्सियम"
+        },
+        {
+          "id": "opt2",
+          "text": "लौह"
+        },
+        {
+          "id": "opt3",
+          "text": "ताम्र"
+        },
+        {
+          "id": "opt4",
+          "text": "मैग्नेशियम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लौह ऑक्साइड (Fe₂O₃) मिट्टी को लाल रंग प्रदान करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (RAT) Exam 2024",
+      "sourceQuestionId": 13265,
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसी मृदा, राजस्थान के पश्चिमी मरूस्थल से मूलतः संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अल्फीसॉल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "एरिडीसॉल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "इन्सेप्टीसॉल्स"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्टीसॉल्स"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के पश्चिमी भाग में एरिडीसॉल्स (बालु मिट्टी) प्रकार की मृदा पाई जाती है, जो शुष्क जलवायु में विकसित होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 13266,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से वह जिला युग्म जहाँ लाल व पीली मृदा पाई जाती है, है - (सबसे उपयुक्त चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर - भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा - बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही - सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर - पाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के सिरोही और सवाई माधोपुर जिलों में लाल एवं पीली मृदा पाई जाती है, जो लोहा व एल्यूमिनियम ऑक्साइड की उपस्थिति के कारण रंगीन होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 13267,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा मृदा अपरदन का प्रत्यक्ष कारण नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अत्याधिक पशुचारण"
+        },
+        {
+          "id": "opt2",
+          "text": "स्थानान्तरित कृषि"
+        },
+        {
+          "id": "opt3",
+          "text": "वैश्विक तापमान वृद्धि"
+        },
+        {
+          "id": "opt4",
+          "text": "वन विनाश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वैश्विक तापमान वृद्धि मृदा अपरदन का प्रत्यक्ष कारण नहीं है, बल्कि यह एक अप्रत्यक्ष कारक है। अत्याधिक पशुचारण, स्थानान्तरित कृषि और वन विनाश मृदा अपरदन के प्रत्यक्ष कारण हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor ((ESR) Exam 2024",
+      "sourceQuestionId": 13268,
+      "reference": "📌 PYQ — Junior Instructor ((ESR) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दोमट मृदा में _____ कमी होती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फास्फेट की"
+        },
+        {
+          "id": "opt2",
+          "text": "पोटाश की"
+        },
+        {
+          "id": "opt3",
+          "text": "नाइट्रोजन की"
+        },
+        {
+          "id": "opt4",
+          "text": "सिलिका की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दोमट या दोमट मिट्टी रेत, गाद और चिकनी मिट्टी से बनी होती है। रेतीली मिट्टी की तुलना में दोमट मिट्टी में अधिक खाद (ह्यूमस), पोषक तत्व और नमी होती हैं। दोमट मृदा में जल धारण करने की क्षमता अच्छी होती है, लेकिन इसमें नाइट्रोजन की कमी पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (ED) Exam 2024",
+      "sourceQuestionId": 13269,
+      "reference": "📌 PYQ — Junior Instructor (ED) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: नाइट्रोजन एवं फास्फोरस तत्वों का अभाव होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मध्य काली मिट्टी में"
+        },
+        {
+          "id": "opt2",
+          "text": "पथरीली मिट्टी में"
+        },
+        {
+          "id": "opt3",
+          "text": "जलोढ़ कछारी मिट्टी"
+        },
+        {
+          "id": "opt4",
+          "text": "लाल-लोमी मिट्टी में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13346,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘सेम’ से क्या आशय है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जलमग्नता से उत्पन्न समस्या"
+        },
+        {
+          "id": "opt2",
+          "text": "रासायनिक उर्वरक"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थानान्तरित कृषि का प्रकार"
+        },
+        {
+          "id": "opt4",
+          "text": "मृदा वर्ग का नाम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 13347,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की मिट्टियाँ\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान की मिट्टियाँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान की मिट्टियाँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के प्रमुख संत एवं सम्प्रदाय",
+  "topicSlug": "राजस्थान-के-प्रमुख-संत-एवं-सम्प्रदाय",
+  "testSetName": "राजस्थान के प्रमुख संत एवं सम्प्रदाय - अभ्यास टेस्ट 20",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "धन्ना भगत के गुरु कौन थे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कबीर"
+        },
+        {
+          "id": "opt2",
+          "text": "नानक"
+        },
+        {
+          "id": "opt3",
+          "text": "रामानंद"
+        },
+        {
+          "id": "opt4",
+          "text": "नामदेव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "sourceQuestionId": 4922,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की दूसरी मीरा संत रानाबाई का जन्म कहाँ हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कापडोद"
+        },
+        {
+          "id": "opt2",
+          "text": "साबला"
+        },
+        {
+          "id": "opt3",
+          "text": "हरनावा"
+        },
+        {
+          "id": "opt4",
+          "text": "कुडकी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "sourceQuestionId": 4924,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन दादू दयाल जी का शिष्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुंदर दास जी"
+        },
+        {
+          "id": "opt2",
+          "text": "गरीबदास जी"
+        },
+        {
+          "id": "opt3",
+          "text": "रज्जब जी"
+        },
+        {
+          "id": "opt4",
+          "text": "लालदास जी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 4926,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कतरियासर प्रमुख गद्दी है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसनाथी सम्प्रदाय की"
+        },
+        {
+          "id": "opt2",
+          "text": "लालदासी सम्प्रदाय की"
+        },
+        {
+          "id": "opt3",
+          "text": "दादू पंथ की"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्नोई सम्प्रदाय की"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 3",
+      "sourceQuestionId": 4927,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लालनाथ जी निम्नलिखित में से किस संप्रदाय के संत थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गूदड़ सम्प्रदाय"
+        },
+        {
+          "id": "opt2",
+          "text": "नवल सम्प्रदाय"
+        },
+        {
+          "id": "opt3",
+          "text": "जसनाथी सम्प्रदाय"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्नोई सम्प्रदाय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 1",
+      "sourceQuestionId": 4928,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (सम्प्रदाय-प्रमुख मंदिर/पीठ) असंगत युग्म है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलखिया सम्प्रदाय - बिलाड़ा (जोधपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "निरंजनी सम्प्रदाय - गाढा गांव (डीडवाना)"
+        },
+        {
+          "id": "opt3",
+          "text": "लालदासी सम्प्रदाय - धोलीदूब (अलवर)"
+        },
+        {
+          "id": "opt4",
+          "text": "गूदड़ सम्प्रदाय - दाँतड़ा (भीलवाड़ा)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Computer Instructor 2022 Paper 1",
+      "sourceQuestionId": 4930,
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादूपंथ में नागा उप संप्रदाय के प्रवर्तक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रज्जब"
+        },
+        {
+          "id": "opt2",
+          "text": "गरीबदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मलूकदास"
+        },
+        {
+          "id": "opt4",
+          "text": "सुंदरदास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 4933,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: संत मीरां बाई का बचपन का नाम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निहाल दे"
+        },
+        {
+          "id": "opt2",
+          "text": "पेमल"
+        },
+        {
+          "id": "opt3",
+          "text": "करमेती बाई"
+        },
+        {
+          "id": "opt4",
+          "text": "रत्नावती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5110,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में ‘ऊंदरिया पंथ’ किनमें प्रचलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीणाओं में"
+        },
+        {
+          "id": "opt2",
+          "text": "सहरियों में"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलों में"
+        },
+        {
+          "id": "opt4",
+          "text": "गरासियों में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5111,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

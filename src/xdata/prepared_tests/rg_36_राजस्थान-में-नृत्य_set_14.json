@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में नृत्य",
+  "topicSlug": "राजस्थान-में-नृत्य",
+  "testSetName": "राजस्थान में नृत्य - अभ्यास टेस्ट 14",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसे क्षेत्र में रतवाई लोकगीत गाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदी"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रतवई नृत्य मेवात क्षेत्र में लोकप्रिय है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Computor Exam 2023",
+      "sourceQuestionId": 10252,
+      "reference": "📌 PYQ — Computor Exam 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“गीदड़ नृत्य” राजस्थान के कौन से क्षेत्र में किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागड़"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ोती"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गीदड़ नृत्य राजस्थान का प्रसिद्ध लोक नृत्य है। यह नृत्य राजस्थान के शेखावटी क्षेत्र में प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+      "sourceQuestionId": 10253,
+      "reference": "📌 PYQ — Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस संप्रदाय के पुरुषों द्वारा अग्नि नृत्य किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिश्नोई संप्रदाय"
+        },
+        {
+          "id": "opt2",
+          "text": "रामस्नेही संप्रदाय"
+        },
+        {
+          "id": "opt3",
+          "text": "जसनाथी सिद्ध"
+        },
+        {
+          "id": "opt4",
+          "text": "दादू पंथ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अग्नि नृत्य राजस्थान के जसनाथी सिद्ध संप्रदाय के पुरुषों द्वारा किया जाता है। यह नृत्य बीकानेर के कतरियासर गाँव में शुरू हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS (Pre) Exam - 2023",
+      "sourceQuestionId": 10254,
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा नृत्य जनजाति नृत्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वालर"
+        },
+        {
+          "id": "opt2",
+          "text": "गवरी"
+        },
+        {
+          "id": "opt3",
+          "text": "मांदल"
+        },
+        {
+          "id": "opt4",
+          "text": "घूमर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का वालर नृत्य एक खूबसूरत और उत्साही आदिवासी नृत्य है, जो विशेष रूप से महिलाओं के द्वारा किया जाता है। गरासिया जनजाति का एक महत्वपूर्ण नृत्य है। गवरी नृत्य भील जनजाति द्वारा किया जाता है। मांदल नृत्य गरासिया जाति की स्त्रियों द्वारा वृत्ताकार घेरा बनाकर किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 10255,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुचामनी ख्याल के प्रवर्तक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लच्छीराम"
+        },
+        {
+          "id": "opt2",
+          "text": "अली बक्श"
+        },
+        {
+          "id": "opt3",
+          "text": "नानूराम"
+        },
+        {
+          "id": "opt4",
+          "text": "दुलिया राणा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कुचामनी ख्याल के प्रवर्तक लच्छीराम है। इनमें पुरुष पात्र ही स्त्री चरित्र का अभिनय करते हैं। इनमें नर्तक ही गाना गाते हैं। कुचामणि ख्याल का रूप एक संगीत नाटक या ओपेरा की तरह है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 10256,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बालर नृत्य, मांदल नृत्य, लूर नृत्य और कूद नृत्य किस जनजाति के नृत्य हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भील जनजाति"
+        },
+        {
+          "id": "opt2",
+          "text": "गरासिया जनजाति"
+        },
+        {
+          "id": "opt3",
+          "text": "सहरिया जनजाति"
+        },
+        {
+          "id": "opt4",
+          "text": "कंजर जनजाति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गरासियों के नृत्य : वालर, कूद, मांदल, गौर, मोरिया, जवारा और लूर",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Food Safety Officer - 2022",
+      "sourceQuestionId": 10257,
+      "reference": "📌 PYQ — Food Safety Officer - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवरी नृत्य का संबंध किस जनजाति से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "भील"
+        },
+        {
+          "id": "opt3",
+          "text": "बनजारा"
+        },
+        {
+          "id": "opt4",
+          "text": "गरासिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान की समृद्ध लोक परम्पराओं में यह नृत्य नाटिका सबसे अनूठी है। यह भील जनजाति का लोक नाट्य नृत्यानुष्ठान है, जो सैकड़ों वर्षों से प्रतिवर्ष नियमित रूप से मनाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "sourceQuestionId": 10258,
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न को सुमेलित कीजिये -सूची -1सूची -2अ. नौटंकी 1. मेवाड़ब. रम्मत 2. बीकानेरस. तमाशा 3. जयपुरद. तुर्रा कलंगी 4. धौलपुर-भरतपुरकूट अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 2, 3, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2, 4, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "4, 3, 2, 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नौटंकी मूलरूप से उत्तर-प्रदेश की है। राजस्थान में भरतपुर की नौटंकी प्रसिद्ध है।रम्मत होली के अवसर पर खेली जाती है। मूलस्थान बीकानेर व जैसलमेर है।तमाशा मूलरूप से महाराष्ट्र का का लोक नाट्य है। जयपुर के भूतपूर्व शासक सवाई प्रताप सिंह के शासक यह लोकनाट्य आरम्भ हुआ।तुर्रा कंलगी ख्याल घोसुण्डी (निम्बाहेडा- चित्तौडगढ) की प्रसिद्ध है। यह ख्याल हिन्दू-मुस्लिम एकता की परिचायक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10479,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के किस क्षेत्र में होली के अवसर पर पुरुषों द्वारा वृताकार नृत्य हाथों में चंग लेकर किया जाता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावटी"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवात"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ोती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंग नृत्य: यह नृत्य शेखावाटी क्षेत्र में होली के त्यौहार के दौरान पुरुषों द्वारा किया जाता है। इस नृत्य में प्रत्येक पुरुष चंग बजाते हुए एक घेरे में नृत्य करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 10501,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में नृत्य\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में नृत्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में नृत्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान में प्रजामंडल आंदोलन",
+  "topicSlug": "राजस्थान-में-प्रजामंडल-आंदोलन",
+  "testSetName": "राजस्थान में प्रजामंडल आंदोलन - अभ्यास टेस्ट 13",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन प्रजामंडल से संबद्ध नहीं रहे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जमनालाल बजाज"
+        },
+        {
+          "id": "opt2",
+          "text": "जय नारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुलभाई भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "गोविंद गुरु"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 1",
+      "sourceQuestionId": 12243,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सुमेलित नहीं है -प्रजामण्डल - नेता",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर - मीठालाल व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा - भूपेन्द्रनाथ त्रिवेदी"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़ - रमेश चन्द्र ओझा"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली - त्रिलोक चन्द्र माथुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Superintendent Gar. 2021 (GK)",
+      "sourceQuestionId": 12247,
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "माणिक्यलाल वर्मा किस प्रजामण्डल के संस्थापकों में एक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "शाहपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+      "sourceQuestionId": 12248,
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुशीला और भगवती का सम्बन्ध किस प्रजामण्डल से था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ प्रजामण्डल"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर प्रजामण्डल"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ प्रजामण्डल"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर प्रजामण्डल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Geography)",
+      "sourceQuestionId": 12251,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के गाँधी के रूप में किसे जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माणिक्य लाल वर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "गोकुल भाई भट"
+        },
+        {
+          "id": "opt3",
+          "text": "आर्जुन लाल सेठी"
+        },
+        {
+          "id": "opt4",
+          "text": "विजयसिंह पथिक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Rajasthan High Court LDC 2020",
+      "sourceQuestionId": 12257,
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय डाक और तार विभाग ने पंडित हीरालाल शास्त्री के सम्मान में किस वर्ष एक स्मारक डाक टिकट जारी किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1976 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1979 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1967 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1966 में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "sourceQuestionId": 12259,
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ प्रजामण्डल का अस्थायी कार्यालय कहां स्थापित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 12269,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘सर्व सेवा संघ सर्वोदयी’ के संस्थापक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जमनालाल बजाज"
+        },
+        {
+          "id": "opt2",
+          "text": "भोगीलाल पण्डया"
+        },
+        {
+          "id": "opt3",
+          "text": "सिद्धराज ढड्ढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "गोकुल भाई भट्ट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12260,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कौन 1938 में भरतपुर में स्थापित प्रजामण्डल के अध्यक्ष बनें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोपीलाल यादव"
+        },
+        {
+          "id": "opt2",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "मास्टर आदित्येन्द्र"
+        },
+        {
+          "id": "opt4",
+          "text": "जुगलकिशोर चतुर्वेदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 12265,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में प्रजामंडल आंदोलन\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थान में प्रजामंडल आंदोलन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थान में प्रजामंडल आंदोलन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

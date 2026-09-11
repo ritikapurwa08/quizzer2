@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन",
+  "topicSlug": "राजस्थान-में-वन",
+  "testSetName": "राजस्थान में वन - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वार्षिक प्रशासनिक प्रतिवेदन 2022-23 के अनुसार निम्नलिखित में से किस जिले में 2019 से 2021 तक वन क्षेत्र में 30% से अधिक की नकारत्मक वृद्धि दर दर्ज की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वार्षिक प्रशासनिक प्रतिवेदन 2022-23 के अनुसार जालौर जिले में 2019 से 2021 तक 32.46 वर्ग किमी की कमी हुई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+      "sourceQuestionId": 6321,
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस क्षेत्र में उपोष्ण-कटिबंधीय सदाबहार वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt3",
+          "text": "आबू"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरतगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ये वन केवल माउंट आबू के चारों तरफ ही पाये जाते हैं। ये सघन वन वर्ष भर हरे - भरे रहते है। इन वनो का क्षेत्रफल मात्र 0.4 प्रतिशत है। इन वनों में आम, धाक, जामुन, सिरिस, अम्बरतरी, बेल के वृक्ष मिलते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Statistical Office Exam - 2023 (GK)",
+      "sourceQuestionId": 6322,
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रथम 'वन नीति' की घोषणा कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2008"
+        },
+        {
+          "id": "opt2",
+          "text": "2010"
+        },
+        {
+          "id": "opt3",
+          "text": "2012"
+        },
+        {
+          "id": "opt4",
+          "text": "2014"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान सरकार ने फरवरी 2010 में पहली राज्य वन नीति के साथ पशुधन विकास और जल पर नई नीतियों को मंजूरी दी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Supervisor Exam 2023",
+      "sourceQuestionId": 6323,
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के वे जिले जिनमें खस नाम की सुगन्धित घास प्रचुरता से उगती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़, बूंदी, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा, अजमेर, चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर, टोंक, सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली, अलवर, धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "खस घास की जड़ों से सुगंधित तेल निकाला जाता है, जो इत्र और शरबत बनाने के काम आता है। यह घास मुख्यतः भरतपुर, सवाई माधोपुर व टोंक जिलों में उत्पन्न होती है। इस घास के तनों से कूलर की टाटिया और कमरो को ठंडा रखने वाले परदे बनाए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB Lab Assistant Exam 2016",
+      "sourceQuestionId": 6326,
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत राज्य वन रिपोर्ट 2021 के अनुसार, वनस्पति आवरण के संदर्भ में वन क्षेत्र 16,654 वर्ग किमी है व राजस्थान के भौगोलिक क्षेत्र का प्रतिशत है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "6.74"
+        },
+        {
+          "id": "opt2",
+          "text": "7.48"
+        },
+        {
+          "id": "opt3",
+          "text": "8.47"
+        },
+        {
+          "id": "opt4",
+          "text": "4.87"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वन रिपोर्ट 2021 के अनुसार राजस्थान में कुल वनावरण 16654.96 वर्ग किमी. (16655 वर्ग किमी.) है, जो राज्य के कुल क्षेत्रफल का 4.87 प्रतिशत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS (Pre) Exam - 2023",
+      "sourceQuestionId": 6329,
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 75 से 110 सेन्टीमीटर औसत वर्षा वाले क्षेत्रों में निम्न में से किस प्रकार की वनस्पति पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उष्ण कटिबंधीय काँटेदार वन"
+        },
+        {
+          "id": "opt2",
+          "text": "गुल्म तथा झाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "शुष्क वन"
+        },
+        {
+          "id": "opt4",
+          "text": "शुष्क सागवान वन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शुष्क सागवान के वन राजस्थान के दक्षिणी भाग में स्थित हैं। सागवान के जंगल 75 से 110 सेमी वार्षिक औसत वर्षा वाले क्षेत्रों में पाए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Veterinary Officer Exam 2019",
+      "sourceQuestionId": 6330,
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान स्टेट इनवायरमेन्ट पॉलिसी सर्वप्रथम किस वर्ष लागू की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2011"
+        },
+        {
+          "id": "opt2",
+          "text": "2016"
+        },
+        {
+          "id": "opt3",
+          "text": "2010"
+        },
+        {
+          "id": "opt4",
+          "text": "2014"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान राज्य पर्यावरण नीति (एसईपी) 2010 में घोषित की गई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Food Safety Officer - 2022",
+      "sourceQuestionId": 6331,
+      "reference": "📌 PYQ — Food Safety Officer - 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन सा वनोत्पाद राजस्थान के ग्रामीण क्षेत्रों में शराब बनाने में काम लिया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांस"
+        },
+        {
+          "id": "opt2",
+          "text": "महुआ"
+        },
+        {
+          "id": "opt3",
+          "text": "सेब"
+        },
+        {
+          "id": "opt4",
+          "text": "आम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6441,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के किस जिले में उष्णकटिबन्धीय शुष्क कंटीले वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6443,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में वन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में वन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

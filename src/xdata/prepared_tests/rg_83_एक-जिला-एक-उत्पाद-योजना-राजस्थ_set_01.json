@@ -1,0 +1,297 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "एक जिला एक उत्पाद योजना राजस्थान",
+  "topicSlug": "एक-जिला-एक-उत्पाद-योजना-राजस्थान",
+  "testSetName": "एक जिला एक उत्पाद योजना राजस्थान - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जयपुर के पंच गौरव में सम्मिलित हैं :a. एक ज़िला-एक उपज -आंवलाb. एक ज़िला-एक खेल - कबड्डीc. एक ज़िला-एक पर्यटक स्थल-आमेर दुर्गd. एक ज़िला-एक पादप प्रजाति -जौनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a और b"
+        },
+        {
+          "id": "opt2",
+          "text": "a, b और c"
+        },
+        {
+          "id": "opt3",
+          "text": "b और c"
+        },
+        {
+          "id": "opt4",
+          "text": "b, c और d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "एक उपज → आंवलाएक खेल → कबड्डीएक पर्यटक स्थल → आमेर दुर्ग एक ज़िला-एक पादप प्रजाति → लेसुआ",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "sourceQuestionId": 16493,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य के लिए “पीएम सूक्ष्म खाद्य प्रसंस्करण उद्यम योजना (पीएम एफएमई योजना) का संरूपण” के तहत एक जिला एक उत्पाद दृष्टिकोण के अंतर्गत चिह्नित कॉलम-I में दिए गए जिलों को कॉलम-II में दिए गए उत्पादों से सुमेलित करें : कॉलम-Iकॉलम-IIA. जालौरi. तिलB. पालीii. आलू आधारित उत्पादC. करौलीiii. सौंफD. सिरोहीiv. दूध आधारित उत्पादE. धौलपुरv. ईसबगोलA B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "i ii iii iv v"
+        },
+        {
+          "id": "opt2",
+          "text": "iv iii ii i v"
+        },
+        {
+          "id": "opt3",
+          "text": "v iv i iii ii"
+        },
+        {
+          "id": "opt4",
+          "text": "ii iv v iii i"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जालौर ईसबगोल (psyllium husk, प्रमुख उत्पाद)पाली दूध आधारित उत्पाद (डेयरी हब)करौली तिल (sesame, कृषि आधारित)सिरोही सौंफ (fennel seeds)धौलपुर आलू आधारित उत्पाद (potato processing)",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)",
+      "sourceQuestionId": 16494,
+      "reference": "📌 PYQ — Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्यमों की औपचारिकीकरण योजना (PMFME) के तहत एक ज़िला, एक उत्पाद (ODOP) पहल के अंतर्गत, राजस्थान के सवाई माधोपुर ज़िले के लिए मुख्य उत्पाद के रूप में निम्न में से कौन-सा उत्पाद चुना गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लहसुन"
+        },
+        {
+          "id": "opt2",
+          "text": "अमरूद"
+        },
+        {
+          "id": "opt3",
+          "text": "सौंफ आधारित उत्पाद"
+        },
+        {
+          "id": "opt4",
+          "text": "मेथी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "PMFME के ODOP के तहत सवाई माधोपुर का मुख्य उत्पाद अमरूद (Guava) है, जो स्थानीय कृषि पर आधारित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 16495,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I में दिए गए राजस्थान के जिलों का मिलान सूची II में दिए गए ODOP उत्पादों के साथ कीजिए।सूची I (राजस्थान के जिले) सूची II (ODOP उत्पाद)a. चुरु I. नारंगी / संतराb. जयपुर II. धनियाc. झालावाड़ III. मूंगफली उत्पादd. कोटा IV. टमाटरनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a - I, b - II, c - III, d - IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a - II, b - IV, c - I, d - III"
+        },
+        {
+          "id": "opt3",
+          "text": "a - IV, b - III, c - II, d - I"
+        },
+        {
+          "id": "opt4",
+          "text": "a - III, b - IV, c - I, d - II"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चुरू → मूंगफली उत्पादजयपुर → टमाटरझालावाड़ → नारंगी/संतराकोटा → धनिया",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 16496,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्योग उन्नयन योजना (PMFME) के अंतर्गत स्वीकृत “वन डिस्ट्रिक्ट वन प्रोडक्ट” (ODOP) में, राजस्थान के किस क्षेत्र को सौंफ आधारित उत्पादों के लिए नामित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सीकर सरसोंसिरोही सौंफ आधारित उत्पादटोंक सरसों आधारित उत्पादझालावाड धनिया",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "परिचालक सीधी भर्ती-2024",
+      "sourceQuestionId": 16497,
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार द्वारा पंच गौरव योजना के तहत श्रीगंगानगर जिले के लिए कौन-सा उत्पाद चुना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ का आटा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा पत्थर उत्पाद"
+        },
+        {
+          "id": "opt3",
+          "text": "सरसों का तेल"
+        },
+        {
+          "id": "opt4",
+          "text": "कशीदा किए हुए वस्त्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्य में पंचमुखी विकास को बढ़ावा देने के लिए यह योजना प्रारम्भ की गयी है , इसके तहत प्रत्येक जिले से 5 तत्व / उत्पाद चयनित किये गए है जिन्हें ‘पंचगौरव’ कहा गया है। प्रत्येक तत्व / उत्पाद हेतु नोडल विभाग निर्धारित किये गए है –एक उपज – कृषि विभाग एक प्रजाति – वन विभाग एक खेल – खेल विभाग एक उत्पाद – उद्योग विभाग एक पर्यटन स्थल – पर्यटन विभाग श्रीगंगानगर के लिए “किनू संतरा” के साथ-साथ सरसों का तेल भी प्रमुख है। अन्य तीन : बकायन, एथलेटिक्स, हिन्दूमल कोट",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "sourceQuestionId": 16498,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से, किस पर्यटन स्थल को, “पंच गौरव” पहल के तहत, जयपुर जिले का प्रतिनिधित्व करने के लिए चुना गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "जंतर मंतर"
+        },
+        {
+          "id": "opt3",
+          "text": "नाहरगढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "हवा महल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान सरकार की “पंच गौरव पहल” के तहत प्रत्येक जिले से एक प्रमुख ऐतिहासिक/पर्यटन स्थल को चुना गया है। जयपुर जिले का प्रतिनिधित्व आमेर दुर्ग (Amber Fort) करता है, जो यूनेस्को विश्व धरोहर स्थल भी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "sourceQuestionId": 16499,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: एक जिला एक उत्पादक स्कीम के अन्तर्गत चिन्हित हस्तकला उत्पाद एवं जिले के नाम के युग्म दिये गये हैं। सही युग्म का चयन कीजिए -(a) काष्ठ हस्तकला उत्पाद - झुन्झुनू(b) फर्नीचर एवं हस्तकला उत्पाद - जोधपुर(c) ब्ल्यू पॉटरी – हनुमानगढ़(d) मोजड़ी जूतियाँ - जालौरकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (a), (b) व (c) सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (a), (b) व (d) सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (b), (c) व (d) सही हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (a), (c) व (d) सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ब्ल्यू पॉटरी जयपुर से संबंधित है। नील मृद्भाण्ड को व्यापक रूप से जयपुर के पारंपरिक शिल्प के रूप में मान्यता प्राप्त है। यह मूल रूप से तुर्क-फ़ारसी का है। अकबर के शासनकाल में यह कला फारस से लाहौर आई थी। इसके बाद राम सिंह प्रथम इसे लाहौर से जयपुर ले आया। हालाँकि, इस कला का सबसे अधिक विकास राम सवाई सिंह द्वितीय के दौरान हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "sourceQuestionId": 16500,
+      "reference": "✎ PYQ Modified · PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: प्रधानमंत्री सूक्ष्म खाद्य उद्योग उन्नयन योजना के ‘एक जिला एक उत्पाद’ के सन्दर्भ में निम्नांकित में से कौन सा युग्म सुमेलित नहीं है -(जिला) (उत्पाद)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर - नींबू"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर - प्याज"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर - गुलाब"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर - आम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+      "sourceQuestionId": 16501,
+      "reference": "✎ PYQ Modified · Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"एक जिला एक उत्पाद योजना राजस्थान\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"एक जिला एक उत्पाद योजना राजस्थान\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"एक जिला एक उत्पाद योजना राजस्थान\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

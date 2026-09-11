@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन",
+  "topicSlug": "राजस्थान-में-वन",
+  "testSetName": "राजस्थान में वन - अभ्यास टेस्ट 23",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सी परियोजना जापान इन्टरनेशनल कोआपरेशन ऐजेन्सी के सहयोग से चलायी जा रही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मरूस्थलीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान वानिकी एवं जैवविविधता परियोजना"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रीय उद्यानों का विकास"
+        },
+        {
+          "id": "opt4",
+          "text": "हरित राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+      "sourceQuestionId": 6428,
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान वन विभाग की प्रशासनिक रिपोर्ट 2019-20 के अनुसार वह जिला जिसमें वन क्षेत्र प्रतिशत सर्वाधिक है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 6445,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान में राजस्थान में कुल वन क्षेत्र का कितने प्रतिशत सुरक्षित वन क्षेत्र के अंतर्गत आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग 38 प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग 27 प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग 56 प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग 33 प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Research Officer - 2020",
+      "sourceQuestionId": 6447,
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में शुष्क सागवान वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer 2020",
+      "sourceQuestionId": 6448,
+      "reference": "📌 PYQ — Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय वन सर्वेक्षण रिपोर्ट 2017 के अनुसार राजस्थान के किन जिलों में सर्वाधिक व न्यूनतम वन क्षेत्र पाया जाता है - सर्वाधिक – न्यूनतम",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां – चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर – चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँसवाड़ा – सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर – जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF FRO 2021",
+      "sourceQuestionId": 6451,
+      "reference": "📌 PYQ — RPSC ACF FRO 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में कौन-से जिले में 3 प्रतिशत से भी कम वन क्षेत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बुन्दी"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Agriculture Officer - 2 0 1 1",
+      "sourceQuestionId": 6453,
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार द्वारा ‘पहली वन नीति’ का अनुमोदन कब किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फरवरी 2010"
+        },
+        {
+          "id": "opt2",
+          "text": "अगस्त 2010"
+        },
+        {
+          "id": "opt3",
+          "text": "मार्च 2011"
+        },
+        {
+          "id": "opt4",
+          "text": "जून 2012"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JSA Serology-2019(Rajasthan Gk)",
+      "sourceQuestionId": 6466,
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: वन नीति के अनुसार कितना प्रतिशत क्षेत्र वनों से आच्छादित होना चाहिये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15 प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "25 प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "33 प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "20 प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6519,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान के दक्षिणी भाग में 250 से 450 मी. की ऊंचाई पर सर्वाधिक संख्याा में पाए जाने वाले वृक्ष है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धोकड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "सालर"
+        },
+        {
+          "id": "opt3",
+          "text": "सागवान"
+        },
+        {
+          "id": "opt4",
+          "text": "पलाश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6521,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में वन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में वन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

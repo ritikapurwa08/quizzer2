@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में खनिज संसाधन",
+  "topicSlug": "राजस्थान-में-खनिज-संसाधन",
+  "testSetName": "राजस्थान में खनिज संसाधन - अभ्यास टेस्ट 31",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2017-18(दिसम्बर 2017 तक) में राजस्थान के कौन से क्षेत्र से सर्वाधिक कच्चे तेल का उत्पादन प्राप्त हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर-नागौर बेसिन"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर-सांचोर बेसिन"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "sourceQuestionId": 8499,
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन से कथन सत्य हैं -अ. संगमरमर विकास एवं संरक्षण नियमावली-2002ब. राजस्थान खनिज नीति-2015स. जिला खनिज फाउंडेशन ट्रस्ट नियमावली-2016द. राजस्थान अप्रधान खनिज रिआयत नियमावली(संशोधित मई 2016 तक)कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल अ, स, एवं द"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल अ, ब, एवं द"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल अ एवं द"
+        },
+        {
+          "id": "opt4",
+          "text": "ये सभी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "sourceQuestionId": 8501,
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राकृतिक संसाधनों की प्रकृति एवं उपलब्धता के आधार पर वर्तमान में राजस्थान के औद्योगिक विकास में निम्न में से किस निवेश-आधारित उद्योगों का समूह सर्वाधिक महत्वपूर्ण भूमिका अदा कर सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पशुधन आधारित"
+        },
+        {
+          "id": "opt2",
+          "text": "खनिज आधारित"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषिगत पदार्थ आधारित"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलहन आधारित"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lect. College Edu. EXAM 2014(GK)",
+      "sourceQuestionId": 8510,
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा जिला राॅक-फाॅस्फेट खनिज का उत्पादक नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Jailor Exam 2013(paper-II)",
+      "sourceQuestionId": 8512,
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अगूचा-गुलाबपुरा किस खनिज का खनन केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीसा और जस्ता"
+        },
+        {
+          "id": "opt2",
+          "text": "तांबा"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह-अयस्क"
+        },
+        {
+          "id": "opt4",
+          "text": "मैंगनीज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Jailor Exam 2013(paper-II)",
+      "sourceQuestionId": 8513,
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिन्दुस्तान जिंक लिमिटेड का जिंक स्मेल्टर उदयपुर में कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देबारी"
+        },
+        {
+          "id": "opt2",
+          "text": "निम्बाहेड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "खेतड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "नीमराना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (16-09-18) Paper-1",
+      "sourceQuestionId": 8516,
+      "reference": "📌 PYQ — RSMSSB LDC (16-09-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नाथरा की पाल’ खान किस जिले में अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB LDC (09-09-18) Paper-1",
+      "sourceQuestionId": 8520,
+      "reference": "📌 PYQ — RSMSSB LDC (09-09-18) Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान के किस जिले में देबारी जस्ता प्रगालक (स्मेल्टर) स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8535,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से राजस्थान का कौन सा जिला मैंगनीज खनिज के लिए प्रसिद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 8537,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में खनिज संसाधन\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में खनिज संसाधन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में खनिज संसाधन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

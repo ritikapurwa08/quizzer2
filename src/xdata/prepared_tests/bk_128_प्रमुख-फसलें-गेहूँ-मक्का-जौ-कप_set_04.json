@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा",
+  "topicSlug": "प्रमुख-फसलें-गेहूँ-मक्का-जौ-कपास-गन्ना-एवं-बाजरा",
+  "testSetName": "प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौन सी फसल का उत्पादन आहड़ में नहीं होता था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt3",
+          "text": "चावल"
+        },
+        {
+          "id": "opt4",
+          "text": "जौ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आहड़ सभ्यता का समय काल १९०० ईसा पूर्व से १२०० ईसा पूर्व माना जाता है। इस सभ्यता में गेहूँ, बाजरा और जौ सहित कई फसलों का उत्पादन होता था, लेकिन इसमें चावल का उल्लेख नहीं मिलता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "sourceQuestionId": 20744,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एग्रो फूड पार्क, रानपुर स्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "एग्रो फूड पार्क, रानपुर भारत के राजस्थान के कोटा जिले में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 20745,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मक्का राजस्थान के मुख्यत: कौन से भाग में उत्पादित किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी–पश्चिमी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण-पश्चिमी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण एवं दक्षिण पूर्वी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मक्का राजस्थान के दक्षिणी और दक्षिण-पूर्वी भाग में मुख्यत: बांसवाड़ा जिले में उगाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Prof. 2020 Paper-III",
+      "sourceQuestionId": 20746,
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सालार वन निम्नलिखित में से किन जिलों में मिलते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा, बूँदी, झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर, चित्तौड़गढ़, उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, पाली, डूँगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक, नागौर, करौली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सालार वन राजस्थान के उदयपुर, राजसमंद, चित्तौडगढ़, सिरोही, पाली, अजमेर, जयपुर, अलवर आदि जिलों में विस्तृत है। इन वनों में प्राप्त लकड़ी द्वारा सामानों की पैकिंग एवं फर्नीचर उद्योग में काम आती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Hospital Care Taker-2022",
+      "sourceQuestionId": 20747,
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मक्का मुख्यत: उत्पादित किया जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर-पश्चिमी राजस्थान में"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर-पूर्वी राजस्थान में"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्यवर्ती राजस्थान में"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिणी राजस्थान में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मक्का मुख्यत: राजस्थान के दक्षिणी क्षेत्र में उगाया जाता है। मक्का मुख्यत: बांसवाड़ा, चित्तौड़गढ़, भीलवाड़ा में उगाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Statistical Officer 2023",
+      "sourceQuestionId": 20748,
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा जिला राज्य के कुल उत्पादन का30%कपास का उत्पादन करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दिए गये विकल्पों में राजस्थान का हनुमानगढ़ जिला राज्य के कुल कपास उत्पादन का ३०³ उत्पादन करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RO&EO 2022 Shift-I",
+      "sourceQuestionId": 20749,
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही की रिपोर्ट के अनुसार, राजस्थान भारत में बाजरा फसल के उत्पादन में किस स्थान पर है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहला"
+        },
+        {
+          "id": "opt2",
+          "text": "दूसरा"
+        },
+        {
+          "id": "opt3",
+          "text": "तीसरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सातवाँ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आर्थिक समीक्षा २०२२-२३ के अनुसार देश (वर्ष 2021-22)में सबसे बड़े बाजरा उत्पादक राज्यों में राजस्थान का प्रथम स्थान है। द्वितीय एवं तृतीय स्थान क्रमश: उत्तर प्रदेश एवं महाराष्ट्र है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant Engineer (Civil)2022",
+      "sourceQuestionId": 20750,
+      "reference": "📌 PYQ — RPSC Assistant Engineer (Civil)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: आर्थिक सर्वेक्षण 2022-23 के अनुसार, वर्ष 2021-22 में देश में मूँगफली उत्पादन में राजस्थान का कौन सा स्थान था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहला"
+        },
+        {
+          "id": "opt2",
+          "text": "दूसरा"
+        },
+        {
+          "id": "opt3",
+          "text": "तीसरा"
+        },
+        {
+          "id": "opt4",
+          "text": "चौथा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान आर्थिक समीक्षा २०२३-२४ के अनुसार देश में मूंगफली उत्पादन की दृष्टि से गुजरात के बाद राजस्थान द्वितीय स्थान पर रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "sourceQuestionId": 20772,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मक्का के अन्तर्गत सर्वाधिक कृषि भूमिवाला राजस्थान का क्षेत्र है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिणी"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मक्का के अंतर्गत सर्वाधिक कृषि भूमिवाला राजस्थान का दक्षिणी क्षेत्र हैं। दक्षिणी राजस्थान का प्रमुख खाद्यान मक्का है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC M.V.S.I. (P-1) 2013",
+      "sourceQuestionId": 20773,
+      "reference": "✎ PYQ Modified · RPSC M.V.S.I. (P-1) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

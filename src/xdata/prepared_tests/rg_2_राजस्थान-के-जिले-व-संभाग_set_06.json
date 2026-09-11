@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान के जिले व संभाग",
+  "topicSlug": "राजस्थान-के-जिले-व-संभाग",
+  "testSetName": "राजस्थान के जिले व संभाग - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बांरा जिले की सीमा राजस्थान के कितने जिलों से लगती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बारां जिले की सीमा केवल दो जिलों कोटा और झालावाड़ से लगती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (27-10-18) Shift 2",
+      "sourceQuestionId": 238,
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की संभागीय व्यवस्था के बारे में कौनसा कथन असत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर संभाग में 5 जिले हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर में 6 जिले है तथा यह केन्द्रिय स्थिति वाला संभाग है।"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान में किसी भी संभाग में 6 से ज्यादा जिले नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान में 4 जिले वाले संभागों की संख्या 2 है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर एवं उदयपुर संभाग में 7-7 जिले हैं। बीकानेर, कोटा में 4-4 जिले हैं। भरतपुर संभाग में 5 जिले (भरतपुर, धौलपुर, करौली, डीग, सवाई माधोपुर) हैं। जोधपुर संभाग में 8 जिले (जोधपुर, फलौदी, जैसलमेर, बाड़मेर, बालोतरा, पाली, जालौर, सिरोही) हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 3",
+      "sourceQuestionId": 239,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में अधिकतम भौगोलिक दूरी वाला समूह कौनसा है -(हवाई दूरी)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर-जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर-कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर-बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर-उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर से उदयपुर की हवाई दूरी अधिकतम (लगभग 327Km) है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 240,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के संभागों का वह समूह जिसका क्षेत्रफल 50000 वर्ग किमी. से ज्यादा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर-जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर-उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर-कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर-बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जोधपुर-बीकानेर संभाग का क्षेत्रफल 50000 वर्ग किमी. से अधिक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 241,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में किस जिले का क्षेत्रफल सबसे कम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रतापगढ़ जिले का क्षेत्रफल सबसे कम है। इन जिलों में पुनर्गठन के बाद कोई बदलाव नहीं हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 2",
+      "sourceQuestionId": 242,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले की सीमा पाली जिले की सीमा से नहीं लगती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाडा"
+        },
+        {
+          "id": "opt2",
+          "text": "बालोतरा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमन्द"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भीलवाडा की सीमा पाली जिले से नहीं लगती।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (21-10-18) Shift 1",
+      "sourceQuestionId": 243,
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के जिले जहां से कर्क रेखा गुजरती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर, जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर, बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर, भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाडा, डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कर्क रेखा राजस्थान के बांसवाड़ा के मध्य से होकर गुजरती है। डूंगरपूर जिले को स्पर्श(चिखली गांव के नजदीक से) करती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Jail Warder (20-10-18) Shift 2",
+      "sourceQuestionId": 244,
+      "reference": "📌 PYQ — Raj Jail Warder (20-10-18) Shift 2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: चित्तौड़गढ़ का सीमावर्ती जिला समूह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़, उदयपुर, कोटा, बूंदी, भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द, प्रतापगढ़, उदयपुर, भीलवाड़ा, डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़, राजसमन्द, उदयपुर, डूंगरपुर, बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त सभी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चित्तौड़गढ़ जिले की सीमा कोटा, बूंदी, भीलवाड़ा, राजसमंद, उदयपुर, सलूम्‍बर और प्रतापगढ़ से लगती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 226,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सर्वाधिक अनुसूचित जनजाति वाला संभाग -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सर्वाधिक अनुसूचित जनजाति वाला संभाग उदयपुर है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 227,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के जिले व संभाग\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के जिले व संभाग\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के जिले व संभाग\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

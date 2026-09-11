@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में स्थापत्य कला",
+  "topicSlug": "राजस्थान-में-स्थापत्य-कला",
+  "testSetName": "राजस्थान में स्थापत्य कला - अभ्यास टेस्ट 40",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘दिलवाड़ा मंदिर’ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही में"
+        },
+        {
+          "id": "opt3",
+          "text": "माउन्ट आबू में"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री महावीरजी में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 2060,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "झालीबाब बावड़ी और मामादेव का कुण्ड निम्नलिखित में से किस दुर्ग में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गागरीण दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़ दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "तारागढ़ (बूंदी)"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "sourceQuestionId": 2062,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तरताई माता जिसका मन्दिर तलवाड़ा (बांसवाड़ा) में स्थित है, उन्हें किस और नाम से भी जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गजलक्ष्मी"
+        },
+        {
+          "id": "opt2",
+          "text": "महाकाली"
+        },
+        {
+          "id": "opt3",
+          "text": "त्रिपुरा सुन्दरी"
+        },
+        {
+          "id": "opt4",
+          "text": "आवरी माता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "sourceQuestionId": 2064,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जोधपुर के जसवंत थड़ा का निर्माण ________ ने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा जसवन्तसिंह द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा सरदारसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा हनुवन्तसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा उम्मेदसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "sourceQuestionId": 2065,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गंभीरी तथा बेड़च नदियों के संगम पर कौनसा किला स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर किला"
+        },
+        {
+          "id": "opt2",
+          "text": "कुंभलगढ़ किला"
+        },
+        {
+          "id": "opt3",
+          "text": "टाड़गढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़ किला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "sourceQuestionId": 2066,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर की प्रसिद्ध दरगाह निम्न में से किससे सम्बन्धित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेख बुरहान चिश्ती"
+        },
+        {
+          "id": "opt2",
+          "text": "ख्वाजा रसूल शाह"
+        },
+        {
+          "id": "opt3",
+          "text": "ख्वाजा मोइनुद्दीन चिश्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "शेख हमीमुद्दीन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (19 March 2023)",
+      "sourceQuestionId": 2068,
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सब ही गढां सिरोमणि, अति ही ऊँचो जाण।अनड़ पहाड़ां ऊपरै, जबरो गढ़ जोधाण।। यह उक्ति किस किले के बारे में प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर का किला"
+        },
+        {
+          "id": "opt2",
+          "text": "लोहागढ़ का किला"
+        },
+        {
+          "id": "opt3",
+          "text": "मेहरानगढ़ का किला"
+        },
+        {
+          "id": "opt4",
+          "text": "भटनेर का किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "High Court LDC 2022 (19 March 2023)",
+      "sourceQuestionId": 2069,
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान का कौन-सा किला(दुर्ग) सुवर्णगिरी के नाम से प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी किला(दुर्ग)"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर किला(दुर्ग)"
+        },
+        {
+          "id": "opt3",
+          "text": "सिवाणा किला(दुर्ग)"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर किला(दुर्ग)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2308,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ‘गढ़ बीठली’ नाम से कौन-सा दुर्ग प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "तारागढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "कटारगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2309,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में स्थापत्य कला\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में स्थापत्य कला\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में स्थापत्य कला\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

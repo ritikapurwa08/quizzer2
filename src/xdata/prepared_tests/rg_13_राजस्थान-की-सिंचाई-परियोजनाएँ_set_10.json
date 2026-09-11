@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान समसामयिकी",
+  "subjectSlug": "rajasthan-current-affairs",
+  "topic": "राजस्थान की सिंचाई परियोजनाएँ",
+  "topicSlug": "राजस्थान-की-सिंचाई-परियोजनाएँ",
+  "testSetName": "राजस्थान की सिंचाई परियोजनाएँ - अभ्यास टेस्ट 10",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "इंदिरा गाँधी नहर का उद्गम स्थल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरिके बैराज"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यास कुंड"
+        },
+        {
+          "id": "opt3",
+          "text": "गोविंद सागर"
+        },
+        {
+          "id": "opt4",
+          "text": "रेणुका झील"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इंदिरा गांधी नहर का उद्गम स्थल हरिके बैराज है। इस नहर का उद्गम पंजाब में फिरोजपुर के निकट सतलज-व्यास नदियों के संगम पर बने हरिके बैराज से है। IGNP के दो भाग हैं। प्रथम भाग राजस्थान फीडर कहलाता है इसकी लम्बाई 204 कि.मी.(170 कि.मी. पंजाब व हरियाणा + 34 कि.मी. राजस्थान) है। जो हरिकै बैराज से हनुमानगढ़ के मसीतावाली हैड तक विस्तारित है। नहर के इस भाग में जल का दोहन नहीं होता है। IGNP का दुसरा भाग मुख्य नहर है। इसकी लम्बाई 445 किमी. है। यह मसीतावाली से जैसलमेर के मोहनगढ़ कस्बे तक विस्तारित है। इस प्रकार IGNP की कुल लम्बाई 649 किमी. है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WCS) Exam 2024",
+      "sourceQuestionId": 3826,
+      "reference": "📌 PYQ — Junior Instructor (WCS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित सिंचाई परियोजनाओं में से कौन-सी बारां ज़िले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँचना"
+        },
+        {
+          "id": "opt2",
+          "text": "चँवली"
+        },
+        {
+          "id": "opt3",
+          "text": "बेथली"
+        },
+        {
+          "id": "opt4",
+          "text": "कागदर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बैथली पार्वती नदी की सहायक नदी है, जो बारां जिले में बहती है। इस पर बैथली लघु सिंचाई परियोजना बारां जिले में अवस्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (RAT) Exam 2024",
+      "sourceQuestionId": 3827,
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "द्रव्यवती नदी योजना संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर से"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर से"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर से"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर से"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर की द्रव्यवती नदी पुनरुद्धार योजना एक महत्वपूर्ण पर्यावरणीय योजना है, जिसका उद्देश्य जल निकासी सुधार और सौंदर्यीकरण करना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MDE) Exam 2024",
+      "sourceQuestionId": 3829,
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस नदी पर ईसरदा परियोजना का निर्माण किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "गम्भीरी"
+        },
+        {
+          "id": "opt4",
+          "text": "चंबल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बनास नदी के अतिरिक्त जल को लेने के लिए यह परियोजना सवाई माधोपुर के ईसरदा गांव में बनी हुई है। इससे सवाईमाधोपुर, टोंक, जयपुर की जलापूर्ति होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MDE) Exam 2024",
+      "sourceQuestionId": 3830,
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किन राज्यों का संयुक्त साहस चम्बल बहुउद्देशीय परियोजना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुजरात तथा मध्य प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य प्रदेश तथा राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान तथा उत्तर प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान तथा गुजरात"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चम्बल परियोजना का कार्य 1952 -54 में प्रारम्भ हुआ। यह राजस्थान व मध्यप्रदेश की संयुक्त परियोजना है। इसमें दानों राज्यों की हिस्सेदारी 50-50 प्रतिशत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MDE) Exam 2024",
+      "sourceQuestionId": 3831,
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पांचना बाँध राजस्थान के निम्न में से किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पंचना बाँध या पंचान बाँध राजस्थान के करौली जिले के गुदला नामक गाँव में स्थित है। यह बलुई मिट्टी से बना बांध है। इस बांध में, भद्रावती, बरखेड़ा, अता, माची और भैसावर - ये पाँच नदियाँ गिरती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 3832,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजीव गाँधी लिफ्ट नहर चरण - III का सम्बन्ध निम्न में से किस जिले से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजीव गांधी लिफ्ट नहर से जोधपुर शहर व रास्ते के 158 गांवों को पेयजल दिया जाता है। इसे जोधपुर नगर की जीवन रेखा कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (Fitter) Exam 2024",
+      "sourceQuestionId": 3833,
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘लखवाड़ बहुउद्देशीय बांध परियोजना’ का निर्माण निम्न में से किस नदी पर किया जाना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "यमुना"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्रह्मपुत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "कावेरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लखवाड़ परियोजना के अंतर्गत उत्‍तराखंड में देहरादून जिले के लोहारी गांव के नजदीक यमुना नदी पर 204 मीटर ऊंचा कंक्रीट का बांध बनना है। परियोजना के तहत बनने वाली पूरी 300 मेगावाट बिजली उत्तराखंड को मिलेगी, जिस पर लगभग 1400 करोड़ रुपये खर्च होंगे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4093,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्न में से किस नदी से धौलपुर लिफ्ट सिंचाई परियोजना को पानी मिलेगा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "पार्बती"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt4",
+          "text": "बाणगंगा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "धौलपुर लिफ़्ट सिंचाई परियोजना को चंबल नदी से पानी मिलेगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 4094,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान की सिंचाई परियोजनाएँ\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान की सिंचाई परियोजनाएँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान की सिंचाई परियोजनाएँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

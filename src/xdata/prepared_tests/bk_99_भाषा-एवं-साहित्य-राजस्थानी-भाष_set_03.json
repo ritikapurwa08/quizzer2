@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।",
+  "topicSlug": "भाषा-एवं-साहित्य-राजस्थानी-भाषा-की-बोलियाँ।-राजस्थानी-भाषा-का-साहित्य-एवं-लोक-साहित्य।",
+  "testSetName": "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य। - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान की राजनीति: सामन्तवाद से जातिवाद के भँवर में’ पुस्तक के लेखक कौन है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजय भण्डारी"
+        },
+        {
+          "id": "opt2",
+          "text": "विजय कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "जगदीश चन्द्र"
+        },
+        {
+          "id": "opt4",
+          "text": "मिलाप कोठारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की राजनीति: सामंतवाद से जातिवाद के भँवर में पुस्तक विजय भंडारी द्वारा लिखित है। यह पुस्तक २००७ में वाणी प्रकाशन से प्रकाशित हुई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 18196,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "काव्य संग्रह ‘‘ढ़ाणी का आदमी’’ रचना है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नंद चतुर्वेदी"
+        },
+        {
+          "id": "opt2",
+          "text": "तारा प्रकाश जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "जयसिंह नीरज"
+        },
+        {
+          "id": "opt4",
+          "text": "नंद भारद्वाज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ढ़ाणी का आदमी काव्य संग्रह जयसिंह नीरज की रचना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 18197,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सही सुमेलित कीजिए और नीचे दिये गये कूट से उत्तर दीजिए: (रचनाकार) (साहित्य) A. दलपतविजय i. हम्मीर रासो B. नरपति नाल्ह ii. खुमाण रासो C. जोधराज iii. विजयपाल रासो D. नल्लसिंह iv. बीसलदेव रासो कूट A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii ii i"
+        },
+        {
+          "id": "opt2",
+          "text": "iv i iii"
+        },
+        {
+          "id": "opt3",
+          "text": "i ii iv"
+        },
+        {
+          "id": "opt4",
+          "text": "ii iii iv"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – रचनाकार साहित्य दलपतिविजय – खुमाण रासो नरपतिनाल्ह – बीसलदेव रासो जोधराज – हम्मीर रासो नल्लसिंह – विजयपाल रासो",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 18198,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-Iव सूची-IIका मिलान कीजिए और नीचे दिए गए कूट के आधार पर सही उत्तर चुनिए- सूची-I (पुस्तकों के नाम) सूची-II (लेखकों के नाम) A. शृंगार हार i. कुम्भा B. राग मंजरी ii. हम्मीर C. संगीत मीमांसा iii. पं. भावभट्ट D. भाव मंजरी iv. पुण्डरीक विट्ठल कूट- A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii iii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "ii i iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iv ii iii"
+        },
+        {
+          "id": "opt4",
+          "text": "iv i iii"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – पुस्तक लेखक शृंगार हार – हम्मीर राग मंजरी – पुंडरिक विट्ठल संगीत मीमांसा – राणा कुंभा भाव मंजरी – पंडित भावभट्ट",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer 2021",
+      "sourceQuestionId": 18199,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा युग्म सुमेलित नहीं है? पुस्तके लेखक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागदमण सायां झूला"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरसिंह रऊ छन्द माधोदास चारण"
+        },
+        {
+          "id": "opt3",
+          "text": "जसरत्नाकर विट्ठलदास"
+        },
+        {
+          "id": "opt4",
+          "text": "राजविनोद जगजीवन भट्ट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – पुस्तकें लेखक नागरमण – सायां झूला सूरसिंह रऊ छंद – माधोदास चारण जस रत्नाकर – विट्ठलदास राज विनोद – सदाशिव भट्ट",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer 2021",
+      "sourceQuestionId": 18200,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा का पहला माने जाने वाला नाटक किसने लिखा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालकृष्ण लाहौटी"
+        },
+        {
+          "id": "opt2",
+          "text": "मदनमोहन सिद्ध"
+        },
+        {
+          "id": "opt3",
+          "text": "जमनाप्रसाद पचोरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवचन्द्र भरतिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थानी भाषा का प्रथम नाटक केसर विलास है। जिसके रचनाकार शिवचंद्र भरतिया थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 18201,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘धरती धोरां री’ के कवि",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कन्हैया सेठिया"
+        },
+        {
+          "id": "opt2",
+          "text": "गजानन्द वर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "मेघराज मुकुल"
+        },
+        {
+          "id": "opt4",
+          "text": "सधुीन्द्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "धरती धोरां री कविता कन्हैया लाल सेठिया की रचना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Garden Superintendent 2021 RPSC Public Relation Officer 2021",
+      "sourceQuestionId": 18202,
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021 RPSC Public Relation Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित संगीत ग्रन्थों में से कौन से ग्रन्थ राणा कुम्भा कृत हैं? (1)संगीतराज (2)संगीत मीमांसा (3)सुधप्रबन्ध (4)कलानिधि Codes:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 4, 3, 4"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राणा कुंभा, मेवाड़ के राजपूत सिसोदिया वंश के शासक थे। संगीतराज, संगीत मीमांसा, संगीत रत्नाकर और शुद्धप्रबंध ग्रंथ संगीत पर उनकी अन्य रचनाओं में से है। मंडन के पुत्र गोविन्द ने कलानिधि और द्वारिका दीपिका को लिखा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "sourceQuestionId": 18326,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II (G-I) 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सा समाचार-पत्र १९२० में विजय सिंह पथिक ने वर्धा से प्रकाशित किया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नवीन राजस्थान"
+        },
+        {
+          "id": "opt2",
+          "text": "तरुण राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान केसरी"
+        },
+        {
+          "id": "opt4",
+          "text": "नवजीवन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान केसरी समाचार पत्र का प्रकाशन वर्ष1920 में शुरू हुआ था, इसे राजस्थान के स्वतंत्रता सेनानी विजय सिंह पथिक ने निकाला था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "sourceQuestionId": 18328,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr.-II (G-2)2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

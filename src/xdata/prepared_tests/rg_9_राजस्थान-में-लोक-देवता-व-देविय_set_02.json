@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में लोक देवता व देवियाँ",
+  "topicSlug": "राजस्थान-में-लोक-देवता-व-देवियाँ",
+  "testSetName": "राजस्थान में लोक देवता व देवियाँ - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“गोगामेडी” (गोगाजी का मुख्य स्थान) कहां स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भटनेर दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "इंदरमानगढ़ दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "गागरोण दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गोगाजी (लोकदेवता) का मुख्य स्थान इंदरमानगढ़ दुर्ग से संबंधित माना जाता है। लोकपूज्य देवता गोगाजी (जाहरवीर गोगाजी) को लोग गोगाजी चौहान, गुग्गा, जाहिर वीर, जाहर पीर व गोगा पीर के नामों से भी पुकारते है। वीर गोगाजी के पिता का नाम जेवरसिंह (जैबर व जीवराज) था, जो कि राजस्थान के ददरेवा (चुरू) के चौहान वंष के राजपूत शासक थे। वीर गोगाजी की माता का नाम बाछल देवी था। वीर गोगाजी का जन्म राजस्थान में चुरू जिले के दत्तखेड़ा, ददरेवा (दद्दरपुर, दारिद्रेरक) में हुआ था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "sourceQuestionId": 2428,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें।सूची Iसूची II(a) गोगाजी(i) भीलवाड़ा(b) तेजाजी(ii) शीर्षमेड़ी(c) पाबूजी(iii) कोलू(d) देवनारायणजी(iv) खरनालनीचे दिए गए विकल्पों में से सही उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a) - (ii), (b) - (i), (c) - (iv), (d) - (iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a) - (ii), (b) - (iv), (c) - (iii), (d) - (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a) - (iv), (b) - (ii), (c) - (iii), (d) - (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a) - (i), (b) - (iii), (c) - (ii), (d) - (iv)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गोगाजी - शीर्षमेड़ी (चुरू), तेजाजी - खरनाल (नागौर), पाबूजी - कोलू (फलोदी), देवनारायणजी - भीलवाड़ा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Jamadar Grade II Exam 2025",
+      "sourceQuestionId": 2429,
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस देवी के तीर्थ तरताई देवी के रूप में जाने जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जमवाय माता"
+        },
+        {
+          "id": "opt2",
+          "text": "कैला देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "त्रिपुरा सुंदरी"
+        },
+        {
+          "id": "opt4",
+          "text": "जीण माता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के बांसवाड़ा जिले में त्रिपुरा सुंदरी मंदिर को तरताई देवी (Tartai Mata) के रूप में जाना जाता है, जहां देवी तुरंत फल देने वाली मानी जाती हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Platoon Commander Exam 2025",
+      "sourceQuestionId": 2430,
+      "reference": "📌 PYQ — Platoon Commander Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक देवताओं एवं उनके पूजा स्थल/मंदिर के संबंध में कौनसा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूरिया बाबा - पांचोटा (जालौर)"
+        },
+        {
+          "id": "opt2",
+          "text": "मल्लिनाथ जी - तिलवाड़ा (बाड़मेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "हड़बूजी - बेंगटी (फलोदी)"
+        },
+        {
+          "id": "opt4",
+          "text": "वीर फत्ताजी - सांथू (जालौर)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भूरिया बाबा मीणा जाती के इष्टदेव है। इनका मंदिर गौतमेश्वर महादेव सिरोही जिले में पहाड़ों के बीच सूकड़ी नदी के किनारे गौड़वाड़ क्षेत्र में स्थित है। मीणा जाति के लोग इनकी झूठी कसम नहीं खाते।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)",
+      "sourceQuestionId": 2431,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रक्षाबंधन के दिन बांधी गई राखियों को निम्नलिखित में से किस लोक देवता को अर्पित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt2",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt4",
+          "text": "गोगाजी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में रक्षाबंधन पर बांधी गई राखियां गोगाजी को अर्पित की जाती हैं। गोगाजी लोक देवता हैं, जो सर्पदंश से रक्षा के लिए पूजे जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "sourceQuestionId": 2432,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पाबूजी के बारे में निम्नलिखित में से कौन सा/से कथन सही है/हैं -A. पाबूजी के पास कालमी नाम की घोड़ी थी।B. पाबूजी का विवाह पूगल की भाटी राजकुमारी के साथ हुआ था।C. उन्होंने देवल चारणी की गायों के रक्षार्थ बलिदान दिया था।सही कूट का चयन कीजिए :कूट :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल A"
+        },
+        {
+          "id": "opt2",
+          "text": "B और C"
+        },
+        {
+          "id": "opt3",
+          "text": "A और C"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B और C"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पाबूजी राजस्थान के लोक देवता थे। उनके पास केसर कालमी (कालमी) नाम की घोड़ी थी। पाबूजी का विवाह अमरकोट के राजा सूरजमल सोढा की पुत्री सुपियारदे से हुआ था। उन्होंने देवल चारणी की गायों के रक्षार्थ बलिदान दिया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 2433,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक देवताओं के निम्नांकित युग्मों में से कौन सा सुमेलित नहीं है -लोक देवता वंश",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हड़बूजी - पँवार"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबूजी - राठौड़"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगाजी - चौहान"
+        },
+        {
+          "id": "opt4",
+          "text": "रामदेवजी - तँवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हड़बूजी सांखला गोत्र के राजपूत थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 2434,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से किसे मारवाड़ में सर्वप्रथम ऊँट लाने का श्रेय दिया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt3",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "देवनारायण जी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2572,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सा कथन सही है/हैं - 1. आशापुरा माता भोसले की कुलदेवी हैं। 2. जगदंबा माता चौहान की कुलदेवी हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 केवल"
+        },
+        {
+          "id": "opt2",
+          "text": "2 केवल"
+        },
+        {
+          "id": "opt3",
+          "text": "दोनों 1 और 2"
+        },
+        {
+          "id": "opt4",
+          "text": "न तो 1 और न ही 2"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2577,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में लोक देवता व देवियाँ\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में लोक देवता व देवियाँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में लोक देवता व देवियाँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

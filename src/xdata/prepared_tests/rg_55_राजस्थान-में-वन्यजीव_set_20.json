@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन्यजीव",
+  "topicSlug": "राजस्थान-में-वन्यजीव",
+  "testSetName": "राजस्थान में वन्यजीव - अभ्यास टेस्ट 20",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“घडियाल” के संरक्षण के लिए राजस्थान राज्य में कौन सा अभयारण्य स्थापित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल अभयारण्य"
+        },
+        {
+          "id": "opt2",
+          "text": "मुकुंदरा पहाडियां अभयारण्य"
+        },
+        {
+          "id": "opt3",
+          "text": "जयसमंद अभयारण्य"
+        },
+        {
+          "id": "opt4",
+          "text": "नाहरगढ़ अभयारण्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "sourceQuestionId": 13854,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तालछापर अभयारण्य किसके लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरा कबूतर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाघ"
+        },
+        {
+          "id": "opt3",
+          "text": "काला हिरण"
+        },
+        {
+          "id": "opt4",
+          "text": "मगरमच्छ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "sourceQuestionId": 13856,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेन्दुआ पुनर्वास कार्यक्रम शुरू किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर जन्तुआलय से"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर जन्तुआलय से"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर नागफनी बगीचे से"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा जन्तुआलय से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 13857,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राष्ट्रीय मरुउद्यान’ कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर – जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर – जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर – बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर – जालोर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 13859,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में, राज्य की दूसरी लेपर्ड सफारी शुरू की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+      "sourceQuestionId": 13860,
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गोंडावन’ कहाँ पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवलादेव"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रीय मरु उद्यान"
+        },
+        {
+          "id": "opt3",
+          "text": "सज्जनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "sourceQuestionId": 13861,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कैलाश सांखला’ सम्बन्धित थे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साँप संरक्षण से"
+        },
+        {
+          "id": "opt2",
+          "text": "बिश्नोई जाति से"
+        },
+        {
+          "id": "opt3",
+          "text": "बाघ संरक्षण से"
+        },
+        {
+          "id": "opt4",
+          "text": "काले हिरण संरक्षण से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "sourceQuestionId": 13862,
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: इनमे से कौनसा अभयारण धौलपुर जिले में नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केशरबाग"
+        },
+        {
+          "id": "opt2",
+          "text": "रामसागर"
+        },
+        {
+          "id": "opt3",
+          "text": "वनविहार"
+        },
+        {
+          "id": "opt4",
+          "text": "शेरगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14031,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: जंगली मुर्गे कौनसे अभयारण्यों में मिलते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आबू व कुम्भलगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "आबू व जयसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "सीतामाता व सरिस्का"
+        },
+        {
+          "id": "opt4",
+          "text": "सीतामाता व कुम्भलगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 14033,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन्यजीव\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में वन्यजीव\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में वन्यजीव\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान में 1857 की क्रांति",
+  "topicSlug": "राजस्थान-में-1857-की-क्रांति",
+  "testSetName": "राजस्थान में 1857 की क्रांति - अभ्यास टेस्ट 12",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 के विद्रोह का प्रथम संघर्ष कहाँ हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऐरिनपुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt3",
+          "text": "डूगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 9724,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 में आहुवा ठाकुर के विद्रोह के समय जोधपुर का महाराज कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मान सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जसवंत सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "तखत सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "भीम सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ठाकुर कुशालसिंह की सेना ने जोधपुर की राजकीय सेना को 8 सितम्बर, 1857 को बिथोड़ा नामक स्थान पर पराजित किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "sourceQuestionId": 9726,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 की क्रांति के समय सिरोही रियासत का पॉलिटिकल एजेंट कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जे.डी. हॉल"
+        },
+        {
+          "id": "opt2",
+          "text": "ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt4",
+          "text": "मैक मैसन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जे.डी. हॉल राजस्थान में 1857 के विद्रोह के समय सिरोही रियासत के राजनीतिक एजेंट थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III",
+      "sourceQuestionId": 9728,
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय उदयपुर के महाराणा कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसवंतसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वरूपसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "रतनसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1857 के स्वतन्त्रता संघर्ष के समय मेवाड़ का पॉलिटिकल एजेण्ट शावर्स और शासक स्वरूप सिंह सिंह थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+      "sourceQuestionId": 9729,
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन कोटा में 1857 के विद्रोह का नेता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहराब खाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "नवी शेरखाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "कुशलसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "नंदलाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे। कोटा महाराव की स्थिति असहाय हो गयी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 9731,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसी जगह 1857 की क्रान्ति से संबंधित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवली"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जैसलमेर 1857 की क्रान्ति से संबंधित नहीं है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 9732,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के विद्रोह के समय कोटा प्रान्त का राजनीतिक एजेंट कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt2",
+          "text": "मैक मेसों"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल मोरिसन"
+        },
+        {
+          "id": "opt4",
+          "text": "जे.डी. हॉल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया। 14 अक्टूबर, 1857 को कोटा के पोलिटिकल एजेन्ट मेजर बर्टन ने कोटा महाराव रामसिंह द्वितीय से भेंट कर अंग्रेज विरोधी अधिकारियों को दण्डित करने का सुझाव दिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+      "sourceQuestionId": 9733,
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थानी लोकगीतों में किस युद्ध को ‘गौरों व कालों के युद्ध’ के नाम से जाना जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ठाकुर कुशालसिंह व कर्नल होम्स के बीच हुए युद्ध को"
+        },
+        {
+          "id": "opt2",
+          "text": "काकुर कुशालसिंह व माॅक मैंसन के बीच हुए युद्ध को"
+        },
+        {
+          "id": "opt3",
+          "text": "ठाकुर कुशालसिंह व कैप्टन हीथकोट के बीच हुए युद्ध को"
+        },
+        {
+          "id": "opt4",
+          "text": "ठाकुर कुशालसिंह व लाॅर्ड कैनिंग के बीच हुए युद्ध को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चेलावास का युद्ध (उपनाम - गौरों व कालों का युद्ध) : जोधपुर की सेना की पराजय की खबर पाकर ए.जी.जी. जॉर्ज लारेन्स स्वयं एक सेना लेकर आउवा पहुँचा। मगर 18 सितम्बर, 1857 को वह विद्रोहियों से परास्त हुआ।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9816,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: किस आयेाग की सिफारिशों पर ठाकुर कुशालसिंह को रिहा किया गया-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ट्रेन्च आयोग"
+        },
+        {
+          "id": "opt2",
+          "text": "टेलर आयोग"
+        },
+        {
+          "id": "opt3",
+          "text": "आऊवा आयोग"
+        },
+        {
+          "id": "opt4",
+          "text": "बर्टन आयोग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अगस्त 1860 में कुशाल सिंह आत्मसमर्पण कर दिया। कुशाल सिंह के विद्रोह की जांच के लिए मेजर टेलर आयोग का गठन किया। साक्ष्यों के अभाव में कुशाल सिंह को रिहा कर दिया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 9817,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में 1857 की क्रांति\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में 1857 की क्रांति\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में 1857 की क्रांति\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

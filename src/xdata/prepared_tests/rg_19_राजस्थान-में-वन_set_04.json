@@ -1,0 +1,296 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में वन",
+  "topicSlug": "राजस्थान-में-वन",
+  "testSetName": "राजस्थान में वन - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 2023-24 में किस श्रेणी के वनों का क्षेत्र, कुल वन क्षेत्र का 50% से अधिक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आरक्षित वन"
+        },
+        {
+          "id": "opt2",
+          "text": "रक्षित वन"
+        },
+        {
+          "id": "opt3",
+          "text": "पर्वतीय वन"
+        },
+        {
+          "id": "opt4",
+          "text": "अवर्गीकृत वन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ISFR 2023 के अनुसार, राजस्थान में कुल वन क्षेत्र में रक्षित वन (Protected Forests) का हिस्सा 50% से अधिक है (लगभग 55-60%)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "sourceQuestionId": 6252,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "धोकड़ा, पलाश, तेंदू और सेमल के वृक्ष किस प्रकार के वन में पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क सागवान वन"
+        },
+        {
+          "id": "opt2",
+          "text": "उष्णकटिबन्धीय कंटीले वन"
+        },
+        {
+          "id": "opt3",
+          "text": "मिश्रित पतझड़ वन"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्द्ध-उष्ण सदाबहार वन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ये वृक्ष उष्णकटिबंधीय मिश्रित पतझड़ वन (Tropical Dry Deciduous Forests) में पाए जाते हैं, जहाँ पेड़ वर्षा ऋतु के बाद पत्ते झड़ते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "sourceQuestionId": 6253,
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का खेजड़ी पेड़ निम्नलिखित में से किस प्रकार के वन से संबंधित है? निम्नलिखित में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उष्णकटिबंधीय कांटेदार वन"
+        },
+        {
+          "id": "opt2",
+          "text": "उष्णकटिबंधीय शुष्क पर्णपाती वन"
+        },
+        {
+          "id": "opt3",
+          "text": "उप-उष्णकटिबंधीय पर्वतीय बन"
+        },
+        {
+          "id": "opt4",
+          "text": "मैंग्रोव वन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खेजड़ी (Prosopis cineraria) राजस्थान के पश्चिमी शुष्क क्षेत्रों में उष्णकटिबंधीय कांटेदार वन (Tropical Thorn Forest) का सबसे प्रमुख और राज्य वृक्ष है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 6255,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में उप-उष्णकटिबंधीय पर्वतीय वन निम्नलिखित में से किस क्षेत्र में पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "माउंट आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "माउंट आबू (सिरोही) राजस्थान का एकमात्र पर्वतीय क्षेत्र है जहाँ ऊँचाई और ठंडक के कारण उप-उष्णकटिबंधीय पर्वतीय वन मिलते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Village Development Officer Exam 2025",
+      "sourceQuestionId": 6256,
+      "reference": "📌 PYQ — Village Development Officer Exam 2025"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी वृक्ष प्रजाति राजस्थान में सामान्यतः पाई जाती है, लेकिन यह राज्य की देशज (स्थानीय) प्रजाति नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विलायती कीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौ"
+        },
+        {
+          "id": "opt3",
+          "text": "रौंझ/सफेद कीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "कुमटिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विलायती कीकर मेक्सिको-अमेरिका मूल की विदेशी प्रजाति है जो 20वीं सदी में राजस्थान में लाई गई थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "sourceQuestionId": 6257,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान वन विभाग की वार्षिक रिपोर्ट 2024-25 के अनुसार, निम्नलिखित क्षेत्रों में से किसमें कुल वन क्षेत्रफल, सर्वाधिक है -निम्नलिखित विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उदयपुर जिले में सर्वाधिक वन क्षेत्र है (लगभग 23-24% भौगोलिक क्षेत्र वनाच्छादित)।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "sourceQuestionId": 6258,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित ज़िलों में सागवान (सागौन) के वृक्षों का वन सर्वाधिक पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर, डूंगरपुर, झालावाड़, चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही, पाली, अजमेर, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर, बाड़मेर, जोधपुर, चूरू"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर, झुंझुनू, कोटा, नागौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शुष्क सागौन के जंगल मुख्य रूप से राजस्थान के दक्षिण भाग में, विशेष रूप से उदयपुर, डूंगरपुर, झालावाड़, चित्तौड़गढ़ जिलों में पाए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "sourceQuestionId": 6259,
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान की प्रथम वन निती कब घोषित की गई-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2006"
+        },
+        {
+          "id": "opt2",
+          "text": "2008"
+        },
+        {
+          "id": "opt3",
+          "text": "2009"
+        },
+        {
+          "id": "opt4",
+          "text": "2010"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य की प्रथम वन नीति 17 फरवरी, 2010 को लागु की गई। 4 मार्च, 2014 से राजस्थान वन (संशोधन) अधिनियम, 2014 लागू किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6553,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में देश कुल वनक्षेत्र का कितने प्रतिशत है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3.5"
+        },
+        {
+          "id": "opt2",
+          "text": "4.8"
+        },
+        {
+          "id": "opt3",
+          "text": "4.23"
+        },
+        {
+          "id": "opt4",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान, भारत के भौगोलिक क्षेत्र के अनुसार, आरक्षित वन क्षेत्र में 15वां स्थान रखता है , वन अभाव वाला राज्य है। प्रदेश में कुल अभिलेखित वन क्षेत्र 32863 वर्ग किमी. हैं, जो राज्य के भौगोलिक क्षेत्रफल का 9.60 प्रतिशत है। जो कि देश के कुल वन क्षेत्र का 4.23% है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6558,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में वन\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में वन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में वन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

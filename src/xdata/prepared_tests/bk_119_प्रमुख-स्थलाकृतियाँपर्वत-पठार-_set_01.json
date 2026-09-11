@@ -1,0 +1,298 @@
+{
+  "subject": "विश्व एवं भारत का सामान्य ज्ञान",
+  "subjectSlug": "world-india-gk",
+  "topic": "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
+  "topicSlug": "प्रमुख-स्थलाकृतियाँपर्वत-पठार-एवं-मैदान",
+  "testSetName": "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "आबू पर्वत क्षेत्र मुख्यत: निर्मित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रेनाइट से"
+        },
+        {
+          "id": "opt2",
+          "text": "बेसासल्ट से"
+        },
+        {
+          "id": "opt3",
+          "text": "ऑब्सीडियन से"
+        },
+        {
+          "id": "opt4",
+          "text": "बिटुमिनस चट्टानों से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आबू पर्वत क्षेत्र मुख्यत: ग्रेनाइट से निर्मित है। यह अरावली पर्वतमाला के दक्षिण-पश्चिम छोर पर स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 19918,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का पश्चिमी तटीय मैदान का दक्षिणी भाग जाना जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कौणकन"
+        },
+        {
+          "id": "opt2",
+          "text": "कोरोमण्डल तट"
+        },
+        {
+          "id": "opt3",
+          "text": "गोआ तट"
+        },
+        {
+          "id": "opt4",
+          "text": "मलाबार तट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत का पश्चिमी तटीय मैदान का दक्षिणी भाग मालाबार तट के नाम से जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 19919,
+      "reference": "📌 PYQ — RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा एक सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लूनी-जवाई बेसिन – गोडवाड़ प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "चम्बल बेसिन – उत्खात भूमि"
+        },
+        {
+          "id": "opt3",
+          "text": "माही बेसिन – छप्पन मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास बेसिन – बांगड़ प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "निम्नलिखित सही सुमेलित है- लूनी जवाई बेसिन - गोडवाड़ प्रदेश चम्बल भूमि - उत्खात भूमि माही बेसिन - छप्पन मैदान बनास मैदान - मेवाड़ प्रदेश",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 19920,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का कितना क्षेत्र गंभीर सूखे की पुनरावृत्ति की दशा से प्रभावित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग16%"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग25%"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग33%"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग50%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत का लगभग २५³ क्षेत्र गंभीर सूखा से प्रभावित है। इस क्षेत्र में एक बार से अधिक सूखे का आंकड़ा दर्ज किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 19921,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के कौन-से भाग में सर्वाधिक बाढ़ प्रभावित क्षेत्र पाये जाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ट्रांस गंगा मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य एवं निचला गंगा मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी तटीय मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "गुजरात का दक्षिण पश्चिमी भाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत में सबसे ज्यादा बाढ़ प्रभावित क्षेत्र मध्य एवं निचला गंगा मैदान में स्थित है। यहाँ गंगा-ब्रह्मपुत्र का निचला भाग स्थित है। यह भाग देश की कुल नदी अपवाह का ६० प्रतिशत वहन करता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 19922,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-कौन से पठार प्रायद्वीपीय पठार प्रदेश में अवस्थित हैं? (A)बुन्देलखण्ड उच्च्भूमि (B)मेघालय पठार (C)मालवा वठार (D)दक्कन पठार (E) लद्दाख पठार कोड:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B, D एवं E"
+        },
+        {
+          "id": "opt2",
+          "text": "A, C एवं D"
+        },
+        {
+          "id": "opt3",
+          "text": "A, B, C एवं D"
+        },
+        {
+          "id": "opt4",
+          "text": "B, C एवं D"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय प्रायद्वीपीय पठार भारत के ५ भौगोलिक विशेषताओं में से एक है। इस भाग में बुदेलखण्ड उच्चभूमि, मेघालय का पठार, मालवा का पठार, दक्कन का पठार, छोटानागपुर का पठार, मध्य भारत उच्च भूमि और मारवाड़ उच्च भूमि आदि आते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 19923,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डफला व मिरि पहाड़ियाँ स्थित हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागालैण्ड में"
+        },
+        {
+          "id": "opt2",
+          "text": "अरुणाचल प्रदेश में"
+        },
+        {
+          "id": "opt3",
+          "text": "मणिपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "असम में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डफला और मिरि पहाड़ियाँ अरुणाचल प्रदेश में स्थित है। ये पहाड़ियाँ तेजपुर और उत्तरी लखीमपुर उपविभागों के उत्तर में है। मिरि पहाड़ियाँ अबोर पहाड़ियों के पास स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 19924,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: प्रायद्वीपीय भारत के पठारों का पश्चिम से पूर्व सही क्रम क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्कन पठार, छोटा नागपुर पठार, दंडाकरण्य पठार एवं मेघालय पठार"
+        },
+        {
+          "id": "opt2",
+          "text": "मेघालय पठार, छोटा नागपुर पठार, दण्डाकरण्य पठार एवं दक्कन पठार"
+        },
+        {
+          "id": "opt3",
+          "text": "मेघालय पठार, दण्डाकरण्य पठार, छोटा नागपुर पठार एवं दक्कन पठार"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्कन पठार, दण्डाकरण्य पठार, छोटा नागपुर पठार एवं मेघालय पठार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रायद्वीपीय भारत के पठारों का पश्चिम से पूर्व सही क्रम- दक्कन पठार→दंडाकरण्य पठार→छोटा नागपुर का पठार→ मेघालय का पठार है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "sourceQuestionId": 19977,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr II (SE) Group-C 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: शिवालिक पूर्वपाद के साथ कंकड़ पत्थरों से भरा क्षेत्र, जहाँ अनेक सरिताएं विलुप्त हो जात्ी हैं कहलाती है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाबर"
+        },
+        {
+          "id": "opt2",
+          "text": "तराई"
+        },
+        {
+          "id": "opt3",
+          "text": "भांगर"
+        },
+        {
+          "id": "opt4",
+          "text": "खादर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शिवालिक पर्वत पदीय के साथ क्षैतिज रूप से विस्तृत कंकण पत्थरों से भरा क्षेत्र भाबर क्षेत्र कहलाता है इस क्षेत्र में नदियॉ विलुप्त हो जाती है, और आगे पुन: तराई क्षेत्र में ऊपर आ जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-E (S.E.)2022",
+      "sourceQuestionId": 19978,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-E (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के प्रमुख व्यक्तित्व",
+  "topicSlug": "राजस्थान-के-प्रमुख-व्यक्तित्व",
+  "testSetName": "राजस्थान के प्रमुख व्यक्तित्व - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी कवियों में नवजागरण के प्रथम कवि किसे माना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "मेघराज मुकुल"
+        },
+        {
+          "id": "opt3",
+          "text": "मुहणोत नैणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज राठौड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थानी कवियों में सूर्यमल्ल मिश्रण को नवजागरण का प्रथम कवि माना जाता है। वह बूँदी के महाराव रामसिंह के दरबारी कवि थे। इन्होंने वंषभास्कर, वीर सतसई, बलवंत विलास एवं छन्द मयूख नाम ग्रन्थों की रचना की।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 18646,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हल्दीघाटी में महाराणा प्रताप संग्रहालय की स्थापना जिसके द्वारा की गयी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोहन श्रीमाली"
+        },
+        {
+          "id": "opt2",
+          "text": "आर.टी.डी.सी."
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ फाउन्डेशन"
+        },
+        {
+          "id": "opt4",
+          "text": "टेम्पल बोर्ड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हल्दीघाटी में महाराणा प्रताप संग्रहालय की स्थापना मोहन श्रीमाली ने की थी। यह संग्रहालय राजस्थान के राजसमंद और उदयपुर जिले की सीमा पर स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 18647,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के चारण साहित्यकार नहीं हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पसाईत"
+        },
+        {
+          "id": "opt2",
+          "text": "बिठू मेहा"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज राठोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "जयमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गाढण पसाइत, बिठू मेहा तथा पृथ्वीराज राठोड़ राजस्थान के चारण साहित्यकार हैं। जबकि जयमल मेड़ता के शासक राव वीरम देव के पुत्र थे। महाराणा उदय सिंह ने जयमल को चित्तौड़ का दुर्गाध्यक्ष नियुक्त किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 18648,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से गलत युग्म को चिन्हित कीजिए-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिला देवी आमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "संचियाय माता ओसियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "सकाराय माता सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "करणी माता देशनोक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – शिला देवी मन्दिर – जयपुर संचियाय माता – ओसियाँ सकाराय माता – सीकर करणी माता मन्दिर – देशनोक",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Engineer 2018 Paper-I",
+      "sourceQuestionId": 18649,
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मीरां ने अपना अन्तिम समय किस स्थान पर बिताया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द्वारिका"
+        },
+        {
+          "id": "opt2",
+          "text": "चितोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेड़ता"
+        },
+        {
+          "id": "opt4",
+          "text": "मथुरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मीराबाई ने अपना अंतिम समय द्वारिका में बिताया था। मान्यता के अनुसार मीरा ने द्वारिका में भगवान कृष्ण के मन्दिर में समाधि ली थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2011 Paper-I",
+      "sourceQuestionId": 18650,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "ब्रह्म सिद्धान्तों के लेखक ब्रह्मगुप्त ने किस शहर में रहकर गणित सम्बन्धी ज्ञान का प्रसार किया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "भीनमाल"
+        },
+        {
+          "id": "opt4",
+          "text": "आबू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ब्रह्मगुप्त ने राजस्थान के जालौर जिले के भीनमाल में रहकर गणित सम्बन्धी ज्ञान का प्रसार किया। ब्रह्मगुप्त की सबसे प्रसिद्ध रचना ‘ब्रह्मगुप्त सिद्धान्त’ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Lecturer 2020",
+      "sourceQuestionId": 18653,
+      "reference": "📌 PYQ — RPSC Lecturer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिंदू राजा हेमचन्द्र विक्रमादित्य का संबंध राजस्थान के किस जिले से है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हिन्दू राजा हेमचन्द्र विक्रमादित्य का सम्बन्ध राजस्थान के अलवर जिला से है। हेमचन्द्र विक्रमादित्य को हेमू के नाम से जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Programer 2024",
+      "sourceQuestionId": 18654,
+      "reference": "📌 PYQ — RPSC Programer 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: क्रान्तिकारी रचना `चेतावनीरा का चूंगटिया' के रचयिता थे─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्यामजी कृष्ण वर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "दामोदर दास राठी"
+        },
+        {
+          "id": "opt3",
+          "text": "केसरी िंसह `बारहठ’"
+        },
+        {
+          "id": "opt4",
+          "text": "राव गोपाल सिहं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "केशरी िंसह बारहठ क्रांतिकारी रचना `चेतावणी रा’ चूंगटिया के रचयिता थे। केशरी सिंह राजस्थान के स्वतंत्रता संग्राम सेनानियों में प्रमुख थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1996",
+      "sourceQuestionId": 18678,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1996"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में राजनीतिक चेतना को सर्वप्रथम जन्म देने वाले थे─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजय िंसह पथिक"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्जुन लाल सेठी"
+        },
+        {
+          "id": "opt3",
+          "text": "सेठ दामोदर दास"
+        },
+        {
+          "id": "opt4",
+          "text": "सहसमल बोहरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में राजनीतिक चेतना को सर्वप्रथम जन्म देने वाले विजय िंसह पथिक थे। इनका जन्म १८८२ बुलंदशहर में हुआ था। इनका अन्य नाम भूपसिंह गुर्जर था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1993",
+      "sourceQuestionId": 18679,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1993"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख व्यक्तित्व\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान के प्रमुख व्यक्तित्व\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान के प्रमुख व्यक्तित्व\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

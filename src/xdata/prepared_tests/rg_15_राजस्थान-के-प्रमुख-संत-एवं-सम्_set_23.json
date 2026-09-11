@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान के प्रमुख संत एवं सम्प्रदाय",
+  "topicSlug": "राजस्थान-के-प्रमुख-संत-एवं-सम्प्रदाय",
+  "testSetName": "राजस्थान के प्रमुख संत एवं सम्प्रदाय - अभ्यास टेस्ट 23",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘ख्वाजा मोइनुद्दीन चिश्ती की दरगाह’ के लिए मुगल बादशाह अकबर द्वारा व्यवस्थार्थ दिए गए गाँवों की संख्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12"
+        },
+        {
+          "id": "opt2",
+          "text": "15"
+        },
+        {
+          "id": "opt3",
+          "text": "18"
+        },
+        {
+          "id": "opt4",
+          "text": "09"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 13 September 2021 (Gk)",
+      "sourceQuestionId": 4961,
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादू पंथ की प्रमुख पीठ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नरैना"
+        },
+        {
+          "id": "opt2",
+          "text": "मण्डोर"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "आमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police SI 13 September 2021 (Gk)",
+      "sourceQuestionId": 4962,
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न को सुमेलित कीजिए –सूची – I (रामस्नेही सम्प्रदाय की शाखा)(1) शाहपुरा(2) सिंहथल(3) खेड़ापा(4) रेणसूची – II (स्थापनाकर्ता)(i) संत हरिराम दास जी(ii) संत रामदास जी(iii) संत दरियाव जी(iv) संत रामचरण जीकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(1)-(ii), (2)-(iii), (3)-(iv), (4)-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "(1)-(iv), (2)-(i), (3)-(iii), (4)-(ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(1)-(iv), (2)-(i), (3)-(ii), (4)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(1)-(i), (2)-(ii), (3)-(iii), (4)-(iv)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+      "sourceQuestionId": 4966,
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस सूफी संत को ‘सुल्तान-ए-तारिकिन’ की उपाधि प्राप्त थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेख हमिदुद्दीन नागौरी"
+        },
+        {
+          "id": "opt2",
+          "text": "ख्वाजा मोइनुद्दीन चिश्ती."
+        },
+        {
+          "id": "opt3",
+          "text": "काज़ी हमिदुद्दीन नागौरी"
+        },
+        {
+          "id": "opt4",
+          "text": "शेख बुरहान चिश्ती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 28 Dec 2021",
+      "sourceQuestionId": 4968,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पाशुपत नामक शैव सम्प्रदाय के प्रवर्तक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शंकराचार्य"
+        },
+        {
+          "id": "opt2",
+          "text": "माध्वाचार्य"
+        },
+        {
+          "id": "opt3",
+          "text": "लकुलिश"
+        },
+        {
+          "id": "opt4",
+          "text": "ईशान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+      "sourceQuestionId": 4969,
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I का सूची-II से मिलान कीजिए तथा नीचे दिए गए कूट का उपयोग करके सही उत्तर का चयन कीजिए –सूची-I (संत)I. रामानुज II. माधवाचार्यIII. निम्बार्कIV. वल्लभाचार्यसूची-II (सम्प्रदाय)(A)शुद्धाद्वैत(B)द्वैताद्वैत(C)विशिष्टाद्वैत(D) द्वैत कूट",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I – (C), II – (D), III – (B), IV – (A)"
+        },
+        {
+          "id": "opt2",
+          "text": "I – (D), II – (C), Ill – (B), IV – (A)"
+        },
+        {
+          "id": "opt3",
+          "text": "I – (A), II – (B), Ill – (C), IV – (D)"
+        },
+        {
+          "id": "opt4",
+          "text": "I – (C), II – (B), Ill – (D), IV – (A)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 27 Dec 2021",
+      "sourceQuestionId": 4970,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर शरीफ किस प्रसिद्ध सूफी संत की दरगाह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निजामुद्दीन औलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "शेख हमीदुद्दीन"
+        },
+        {
+          "id": "opt3",
+          "text": "मोइनुद्दीन चिश्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "शेख सलीम चिश्ती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 4971,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: नागौर में किस सूफी सन्त की मजार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेख हमीद्दीन"
+        },
+        {
+          "id": "opt2",
+          "text": "निजामुद्दीन"
+        },
+        {
+          "id": "opt3",
+          "text": "ख्वाजा मुईनुद्दीन चिश्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "ख्वाजा कुतुबुद्दीन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5118,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में वल्लभ सम्प्रदाय की प्रमुख पीठ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5119,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान के प्रमुख संत एवं सम्प्रदाय\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

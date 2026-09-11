@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्राकृतिक वनस्पति एवं मृदा",
+  "topicSlug": "प्राकृतिक-वनस्पति-एवं-मृदा",
+  "testSetName": "प्राकृतिक वनस्पति एवं मृदा - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत-वन स्थिति रिपोर्ट २०१७ के अनुसार राजस्थान के निम्न में से किस जिले में उसके भौगोलिक क्षेत्र का सबसे न्यून वनावरण(% में)रहा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर तथा गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक तथा झुन्झुनूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसमंद तथा टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरू तथा जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नानुसार विकल्प(d) सही है। अत: वर्ष २०२३ की भारत-वन स्थिति रिपोर्ट के अनुसार न्यूनतम वन प्रतिशत वाले राजस्थान राज्य के जिले जोधपुर (०.४९³) तथा चुरू (०.४५³) है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Veterinary Officer 2019",
+      "sourceQuestionId": 20631,
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुन्धामाता कन्जर्वेशन रिजर्व स्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही, जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर, जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर, जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर, झुंझुनूं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सुन्धामाता कन्जर्वेशन रिजर्व राजस्थान के सिरोही एवं जालौर जिले में है। यह राजस्थान का पहला तथा देश का चौथा भालू संरक्षण रिजर्व है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 20632,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय वन सर्वेक्षण रिपोर्ट2017के अनुसार राजस्थान के किन जिलों में सर्वाधिक व न्यूनतम वन क्षेत्र पाया जाता है? सर्वाधिक न्यूनतम",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां – चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर – चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँसवाड़ा – सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर – जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय वन सर्वेक्षण रिपोर्ट २०२३ के अनुसार राजस्थान में सर्वाधिक वन वाला जिला उदयपुर(2766.30) वर्ग किमी तथा न्यूनतम वन वाला जिला चुरू(62.73)वर्ग किमी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 20633,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में शुष्क सागवन वन पाए जाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शुष्क सागवान वन मुख्य तौर पर बांसवाड़ा तथा डूँगरपुर जिलो में पाए जाते है। इसके अलावा उदयपुर झालावाड़, चित्तौड़गढ़ व बारां जिलों में भी ये वन पाए जाते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 20634,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से सालार वन किस जिले मे नहीं पाए जाते है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सालार वन राजस्थान के उदयपुर, राजसमंद, चित्तौड़गढ़, सिरोही, पाली, अजमेर, जयपुर, अलवर व सीकर जिलों में पाए जाते है। सालार वृक्ष गोंद का अच्छा स्रोत है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Agriculture Officer 2020",
+      "sourceQuestionId": 20635,
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लाल-चिकनी बलुई मिट्टी (लाल-लोमी) राजस्थान के कौन से जिलों में पायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा – चित्ताड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां – झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर – डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर – पाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "लाल चिकनी बलुई मिट्टी डूँगरपुर, बांसवाड़ा, उदयपुर तथा चित्तौड़गढ़ में पाई जाती है। पाली व अजमेर में पहाड़ी मिट्टी, बारां व झालावाड़ में वर्टीसोल्स मृदा पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Engineer 2018 Paper-I",
+      "sourceQuestionId": 20636,
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में जिप्सीफेरस मृदा मिलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिप्सीफेरस मृदा राजस्थान के बीकानेर जिले में पाई जाती है, इसमें जिप्सम की पर्याप्त मात्रा होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "sourceQuestionId": 20637,
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: भूमि की उर्वरता बढ़ाने के लिए निम्न में से कौन-सी फसल उगाई जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "उड़द"
+        },
+        {
+          "id": "opt4",
+          "text": "गन्ना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उड़द की फसल उगाकर भूमि की उर्वरता शक्ति बढ़ाई जा सकती है। निश्चित समय में भूमि की उर्वरा शक्ति का उपयोग करते हुए अधिक से अधिक उपज प्राप्त करने को सघन खेती कहते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1996",
+      "sourceQuestionId": 20698,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1996"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मिट्टी में खारापन एवं क्षारीयता की समस्या का समाधान है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क-कृषि विधि"
+        },
+        {
+          "id": "opt2",
+          "text": "खेतों में जिप्सम का उपयोग"
+        },
+        {
+          "id": "opt3",
+          "text": "वृक्षारोपण"
+        },
+        {
+          "id": "opt4",
+          "text": "समोच्च रेखाओं के अनुसार कृषि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मिट्टी में खारापन एवं क्षरीयता की समस्या से निपटने के लिए खेतों में जिप्सम का उपयोग किया जाता है। भारत में इस प्रकार की मिट्टियों का विस्तार राजस्थान, उत्तर प्रदेश, बिहार, पंजाब, हरियाणा एवं महाराष्ट्र के कुछ हिस्सों में पाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1996",
+      "sourceQuestionId": 20699,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1996"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्राकृतिक वनस्पति एवं मृदा\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"प्राकृतिक वनस्पति एवं मृदा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"प्राकृतिक वनस्पति एवं मृदा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

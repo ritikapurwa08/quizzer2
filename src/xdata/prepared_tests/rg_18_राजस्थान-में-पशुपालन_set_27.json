@@ -1,0 +1,280 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 27",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मवेशियों की गिर नस्ल के बारे में निम्नलिखित में से कौन सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौड़ खेल के लिए बैल का उपयोग किया जाता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "सौराष्ट्र से उत्पन्न"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर में पालन"
+        },
+        {
+          "id": "opt4",
+          "text": "मालाणी के रूप में भी जाना जाता है"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6068,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-1 को सूची-2 से सुमेलित कीजिये तथा उत्तर का चयन नीचे दिये गये कोड से कीजिये -सूची-1 (पशु) सूची-2 (नस्ल)1. गौवंश अ. मालपुरा2. भैंस ब. मारवाड़ी3. बकरी स. मुर्राह4. भेड़ द. काॅकरेजकोड - 1, 2, 3, 4",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द, ब, अ, स"
+        },
+        {
+          "id": "opt2",
+          "text": "स, ब, द, अ"
+        },
+        {
+          "id": "opt3",
+          "text": "द, स, ब, अ"
+        },
+        {
+          "id": "opt4",
+          "text": "ब, स, अ, द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6069,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की सबसे पुरानी डेयरी ‘पद्मा’ कहां है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6074,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाड़मेर का ‘मालणी’ क्षेत्र किस गौवंश का उत्पत्ति क्षेत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "थारपारकर"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt4",
+          "text": "काॅकरेज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6078,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी नस्ल अन्य से भिन्न है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांचौरी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt4",
+          "text": "बदावरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6079,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुरू और झुंझुनू राजस्थान में किस किस्म की भेड़ के लिए प्रसिद्ध हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेगरा"
+        },
+        {
+          "id": "opt2",
+          "text": "राठी"
+        },
+        {
+          "id": "opt3",
+          "text": "पुगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6083,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भेड़ की निम्नलिखित में से किस नस्ल को भारत की मेरिनो के रूप में जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt2",
+          "text": "नालिक"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मगरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "sourceQuestionId": 6084,
+      "reference": "📌 PYQ"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: एशिया में ऊन की सबसे बड़ी मंडी कहाँ है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6217,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राज्य में पशुओं की कौनसी जाती सर्वाधिक पाई जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊट"
+        },
+        {
+          "id": "opt4",
+          "text": "गाय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6219,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

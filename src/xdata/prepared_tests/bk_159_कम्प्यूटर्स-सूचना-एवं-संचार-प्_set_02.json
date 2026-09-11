@@ -1,0 +1,298 @@
+{
+  "subject": "सामान्य विज्ञान एवं प्रौद्योगिकी",
+  "subjectSlug": "general-science-technology",
+  "topic": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी",
+  "topicSlug": "कम्प्यूटर्स-सूचना-एवं-संचार-प्रौद्योगिकी",
+  "testSetName": "कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी - अभ्यास टेस्ट 2",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "यू.आर.एल होता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यूनिफॉर्म रिसोर्स लोकेटर"
+        },
+        {
+          "id": "opt2",
+          "text": "यूनिफाइड रिसोर्स लोकेटर"
+        },
+        {
+          "id": "opt3",
+          "text": "यूनिफॉर्म रिसर्च लोकेटर"
+        },
+        {
+          "id": "opt4",
+          "text": "यूनिफाइड रिव्यू लोकेटर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "URL का फूलफार्म यूनिफार्म रिसोर्स लोकेटर है। यूआर एल किसी वेब पेज या फाइल का पता होता है जिसे इटरनेट पर एक्सेस किया जा सकता है। जिसे आमतौर पर वेब एड्रेस भी कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+      "sourceQuestionId": 23692,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ल्ड वाईड वेब किसके द्वारा प्रस्तावित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विल गेट"
+        },
+        {
+          "id": "opt2",
+          "text": "बिल रोजर्स"
+        },
+        {
+          "id": "opt3",
+          "text": "टिम बर्नर्स ली"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वर्ल्ड वाईड वेब टिम बर्नर ली द्वारा प्रस्तावित किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+      "sourceQuestionId": 23693,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एम एस वर्ड में बनी हुई फाईल कहलाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लॉग"
+        },
+        {
+          "id": "opt2",
+          "text": "आरकाइव"
+        },
+        {
+          "id": "opt3",
+          "text": "टेस्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "डॉक्यूमेन्ट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "एम.एस.वर्ल्ड को डॉक्यूमेन्ट कहते हैं। 745",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+      "sourceQuestionId": 23694,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डिफोल्ट रूप से एम.एस. ऑफिस में_________हैडर या फुटर को प्रदर्शित किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहले पृष्ठ पर"
+        },
+        {
+          "id": "opt2",
+          "text": "सभी पृष्ठों पर"
+        },
+        {
+          "id": "opt3",
+          "text": "अंतिम पृष्ठ पर"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डिफोल्ट रूप से एम.एस. आफिस में सभी पृष्ठोंं पर हैडर या फुटर को प्रदर्शित किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+      "sourceQuestionId": 23695,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गूगल इंडिया द्वारा ‘बोलो’ ऐप तैयार किया गया, जो मदद देगा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बच्चों को केवल हिन्दी अच्छी तरह पढ़ने में"
+        },
+        {
+          "id": "opt2",
+          "text": "बच्चों को सभी भारतीय भाषाएँ अच्छी तरह पढ़ने में"
+        },
+        {
+          "id": "opt3",
+          "text": "लोगों को अपने भाषण तैयार करने में"
+        },
+        {
+          "id": "opt4",
+          "text": "बच्चों को अपने हिन्दी और अंग्रेजी पठन कौशल सुधारने में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गूगल बोलो एक शिक्षा ऐप है जिसे गूगल ने बच्चों के पढ़ने की क्षमता सुधारने के लिए विकसित किया है। जो ५-१० वर्ष के बच्चों के लिए बनाया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+      "sourceQuestionId": 23696,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कम्प्यूटर वायरस होता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक प्रोटीन"
+        },
+        {
+          "id": "opt2",
+          "text": "एक प्रकार का प्रोग्राम"
+        },
+        {
+          "id": "opt3",
+          "text": "DNAवायरस"
+        },
+        {
+          "id": "opt4",
+          "text": "चुम्बकीय संकेत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कम्प्यूटर वायरस एक मालवेयर होता है जो कम्प्यूटर सिस्टम को संक्रमित करके उन्हें नुकसान पहुँचाता है। यह एक प्रोग्राम या कोड होता है जो स्वयं को दोहराने की क्षमता रखता है और अन्य फाइलो सॉफ्टवेयर या कम्प्यूटर सिस्टम में पैâलता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Engineer 2013",
+      "sourceQuestionId": 23697,
+      "reference": "📌 PYQ — RPSC Asst. Engineer 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कम्पयूटर की सबसे बड़ी इकाई है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाइट"
+        },
+        {
+          "id": "opt2",
+          "text": "बिट"
+        },
+        {
+          "id": "opt3",
+          "text": "गीगाबाइट"
+        },
+        {
+          "id": "opt4",
+          "text": "मेगाबाइट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिये गये विकल्पों में कम्प्यूटर की सबसे बड़ी इकाई गीगाबाइट(GB)है तथा कम्प्यूटर की सबसे छोटी विट होती है १०२४ किलो बाइट में एक मेगा बाइट तथा १०२४ मेटा बाइट में एक बीगाबाइट होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Engineer 2013",
+      "sourceQuestionId": 23698,
+      "reference": "📌 PYQ — RPSC Asst. Engineer 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्न में से कौन सा आउटपुट डिवाइस है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुंजी पटल"
+        },
+        {
+          "id": "opt2",
+          "text": "िंप्रटर"
+        },
+        {
+          "id": "opt3",
+          "text": "माउस"
+        },
+        {
+          "id": "opt4",
+          "text": "स्टाइलस"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रिन्टर एक बाहरी हार्डवेयर आउटपुट डिवाइस है जो कम्प्यूटर या अन्य डिवाइस पर संग्रहित इलेक्ट्रॉनिक डेटा लेता है और एक हार्ड कापी बनाता है। प्रिन्टर सबसे लोकप्रिय कम्यूटर बाह्य उपकरणों में से एक है और आमतौर पर टेक्स्ट और फोटो प्रिंट करने के लिए उपयोग किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Librarian Grade-II 02/08/2020",
+      "sourceQuestionId": 23867,
+      "reference": "✎ PYQ Modified · RPSC Librarian Grade-II 02/08/2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कम्प्यूटर हार्डवेयर निम्नलिखित में से किसके बिना कार्य नहीं कर सकता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाई-फाई"
+        },
+        {
+          "id": "opt2",
+          "text": "इंटरनेट"
+        },
+        {
+          "id": "opt3",
+          "text": "सॉफ्टवेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "पेन ड्राइव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हार्डवेयर बिना दिशा निर्देशों के कार्य नहीं करते है। साफ्टवेयर सीपीयू सहित प्रत्येक डिवाइस के संचालन का मार्गदर्शन करता है। प्रोग्राम का सेट जो कम्प्यूटर सिस्टम की गतिविधियों को नियंत्रित करता है। या जिन्हें कुछ उपयोगी कार्य करने के लिए कम्प्यूटर पर संसाधित किया जा सकता है, साफ्टवेयर कहलाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Librarian Grade-II 02/08/2020",
+      "sourceQuestionId": 23868,
+      "reference": "✎ PYQ Modified · RPSC Librarian Grade-II 02/08/2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"कम्प्यूटर्स, सूचना एवं संचार प्रौद्योगिकी\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

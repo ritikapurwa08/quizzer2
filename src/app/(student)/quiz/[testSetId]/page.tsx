@@ -180,6 +180,19 @@ export default function QuizPage() {
             </Button>
           )}
         </div>
+
+        {/* Mobile Question Palette Strip */}
+        <div className="block lg:hidden pt-3">
+          <QuestionPalette
+            questions={questions.map((q) => ({
+              id: q._id,
+              answered: localAnswers[q._id] !== undefined,
+              bookmarked: bookmarkedIds.has(q._id),
+            }))}
+            currentIndex={currentIndex}
+            onJump={setCurrentIndex}
+          />
+        </div>
       </div>
 
       {/* Desktop Sidebar (Progress, Timer, Palette & Navigation Controls) */}

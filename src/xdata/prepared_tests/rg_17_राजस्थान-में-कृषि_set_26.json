@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 26",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (अनुसंधान संस्थान – अवस्थिति) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रीय बीज मसाला अनुसंधान केन्द्र – तिजारा"
+        },
+        {
+          "id": "opt2",
+          "text": "केन्द्रीय शुष्क क्षेत्र अनुसंधान संस्थान – जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रीय शुष्क क्षेत्र उद्यानिकी अनुसंधान केन्द्र – बीछवाल"
+        },
+        {
+          "id": "opt4",
+          "text": "राष्ट्रीय सरसों अनुसंधान केन्द्र – सेवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 28 Dec 2021",
+      "sourceQuestionId": 5742,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कृषि-जलवायु खण्ड (क्षेत्रफलानुसार) राजस्थान में सबसे बड़ा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "II-बी"
+        },
+        {
+          "id": "opt2",
+          "text": "II-ए"
+        },
+        {
+          "id": "opt3",
+          "text": "I-बी"
+        },
+        {
+          "id": "opt4",
+          "text": "I-सी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+      "sourceQuestionId": 5743,
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किसानों हेतु कृषि में आसानी के लिए “कृषक कल्याण कोष” का गठन……….किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16 अगस्त, 2017 को"
+        },
+        {
+          "id": "opt2",
+          "text": "16 दिसम्बर, 2019 को"
+        },
+        {
+          "id": "opt3",
+          "text": "16 अगस्त, 2018 को"
+        },
+        {
+          "id": "opt4",
+          "text": "26 जनवरी, 2019 को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+      "sourceQuestionId": 5744,
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य में कृषि गणना 2015-16 के अनुसार कुल पुरुष प्रचालित जोतों की संख्या है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7.75 लाख"
+        },
+        {
+          "id": "opt2",
+          "text": "196.6 लाख"
+        },
+        {
+          "id": "opt3",
+          "text": "68.66 लाख"
+        },
+        {
+          "id": "opt4",
+          "text": "6.86 लाख"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "VDO Exam 1st Shift 27 Dec 2021",
+      "sourceQuestionId": 5745,
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सरकार ने राजस्थान जागीर उन्मूलन अधिनियम किस वर्ष पारित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1952 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1925 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1962 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1972 में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-2)",
+      "sourceQuestionId": 5748,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सरकार ने ग्रामीण गैर-कृषि विकास अभिकरण किस वर्ष में स्थापित किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1961 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1971 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1951 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1995 में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-2)",
+      "sourceQuestionId": 5749,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ____ सीजन की फसल होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "sourceQuestionId": 5751,
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राज्य में सरसों तेल उद्योग का प्रमुख केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5907,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: कृषक साथी योजना का सम्बन्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फसलों के उत्पादन से"
+        },
+        {
+          "id": "opt2",
+          "text": "बीजों के विपणन से"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषकों की बीमा से"
+        },
+        {
+          "id": "opt4",
+          "text": "फसलों के विक्रय से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5908,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

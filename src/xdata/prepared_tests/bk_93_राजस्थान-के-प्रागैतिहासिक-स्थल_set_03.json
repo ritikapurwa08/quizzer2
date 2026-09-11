@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक",
+  "topicSlug": "राजस्थान-के-प्रागैतिहासिक-स्थल-पुरापाषाण-से-ताम्र-पाषाण-एवं-कांस्य-युग-तक",
+  "testSetName": "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक ताम्रपाषाणिक स्थल है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालीबंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "आहड़"
+        },
+        {
+          "id": "opt3",
+          "text": "तिलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "जसोल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "आहड़ एक ताम्र पाषाणिक स्थल है। इस सभ्यता का विकास बनास नदी घाटी में हुआ है। दक्षिण-पूर्वी राजस्थान में आहड़ व गिलुण्ड ताम्र पाषाणिक स्थल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 17158,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की ‘बनास संस्कृति’ संबद्ध है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नवपाषाण काल से"
+        },
+        {
+          "id": "opt2",
+          "text": "पुरापाषाण काल से"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्यपाषाण काल से"
+        },
+        {
+          "id": "opt4",
+          "text": "ताम्रपाषाण काल से"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "sourceQuestionId": 17159,
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुरातात्विक स्थल गिलुण्ड संबद्ध है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताम्रपाषाणिक संस्कृत से"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्यपाषाणिक संस्कृत से"
+        },
+        {
+          "id": "opt3",
+          "text": "नवपाषाणिक संस्कृति से"
+        },
+        {
+          "id": "opt4",
+          "text": "पुरापाषाणिक संस्कृति से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Veterinary Officer 2019",
+      "sourceQuestionId": 17160,
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में से किस कस्बे को प्राचीन स्त्रोतों में ‘चम्पावती’ के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागोर"
+        },
+        {
+          "id": "opt2",
+          "text": "चाकसू"
+        },
+        {
+          "id": "opt3",
+          "text": "जहाजपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बैराठ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चाकसू राजस्थान के जयपुर जिले में स्थित एक तहसील है। चाकसू का प्राचीन नाम चम्पावती था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 17161,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में डडीकर शैलकला पुरास्थल स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के अलवर जिले में डडीकर शैलाश्रम स्थित है। यहाँ प्राचीन कालीन शैल चित्रकला पाई जाती है। इस स्थल पर पशु-पक्षी, मानव, जल जन्तुओं के चित्र प्राप्त होते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Food Safety Officer 2019",
+      "sourceQuestionId": 17162,
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुरातात्विक स्थल बागोर अवस्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लूणी नदी पर"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास नदी पर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोठारी नदी पर"
+        },
+        {
+          "id": "opt4",
+          "text": "चंबल नदी पर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बागोर राजस्थान के भीलवाड़ा जिले में कोठारी नदी के बाएँ किनारे पर स्थित प्रागैतिहासिक स्थल है। यहाँ मध्य पाषाण काल के अवशेष बड़ी मात्रा में पाए गए हैं। यहाँ पशुपालन के साक्ष्य भी प्राप्त हुए हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 17163,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हड़प्पा का प्रसिद्ध पुरुष धड़ निर्मित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाषाण"
+        },
+        {
+          "id": "opt2",
+          "text": "कांस्य"
+        },
+        {
+          "id": "opt3",
+          "text": "मृत्तिका"
+        },
+        {
+          "id": "opt4",
+          "text": "चाँदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हड़प्पा से लाल जैस्पर पत्थर की नग्न पुरुष धड़ वाली र्मूित प्राप्त हुई है। इसे1928-29में भारतीय पुरातत्वविद माधो स्वरूप वत्स ने हड़प्पा से प्राप्त हुई है। यह र्मूित9.2सेमी. लंबी, 5.5सेमी. चौड़ी और3सेमी. गहरी है। वत्स का मानना है कि यह र्मूित सिन्धु घाटी सभ्यता की परिपक्व हड़प्पा चरण की है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+      "sourceQuestionId": 17164,
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: 4000वर्ष पुरानी सभ्यता के पुरातात्विक अवशेष उदयपुर के समीप एक गांव में पाए गए हैं, वह गांव है─ (a)जगत (b)दिलवाड़ा (c) एकिंलगजी (d)आहड़ RPSC RO&EO 2022 Shift-II RPSC Sr. Teacher Gr II (SE) Group-C 2022 RPSC Sr. Teacher Gr II S.E. (TSP) - 2018 RPSC RAS/RTS Pre 1997-98 उत्तर -(d) व्याख्या─उदयपुर जिले में आहड़ नदी के आसपास आहड़ सभ्यता पैâली हुई थी। यह सभ्यता करीब4000वर्ष पुरानी है। आहड़ का प्राचीन नाम ताम्रवती नगरी था। आहड़ गांव - उत्तर पाषाणकालीन ताम्र युगीन संस्कृति का द्योतक है। 16 YCT 72. निम्नलिखित में से राजस्थान में किस स्थान में सैन्धव कालीन अवशेष प्राप्त हुए हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालाथल"
+        },
+        {
+          "id": "opt2",
+          "text": "गणेशवर"
+        },
+        {
+          "id": "opt3",
+          "text": "गिलुण्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "कालीबंगा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कालीबंगा सैंधव सभ्यता का एक प्रमुख स्थल है। यह राजस्थान के हनुमानगढ़ जिले में स्थित है। यह मिट्टी के बर्तन और काँच की चूडियों के लिए प्रसिद्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Stenographer 2011",
+      "sourceQuestionId": 17214,
+      "reference": "✎ PYQ Modified · RPSC Stenographer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नांकित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गणेश्वर एक उत्खनन स्थल नहीं है।"
+        },
+        {
+          "id": "opt2",
+          "text": "बैराठ एक ग्राम्य-संस्कृतिक केंद्र था।"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीबंगा लौह-युग संस्कृति का एक उदाहरण था।"
+        },
+        {
+          "id": "opt4",
+          "text": "आहड़वासियों का महत्वपूर्ण व्यवसाय अयस्क तांबे का गलाना तथा ताम्र वस्तुएँ बनाना था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अहाड का प्राचीन नाम ताम्रवती था। यह वर्तमान में राजस्थान के उदयपुर जिले में स्थित है। आहाडवासियों का प्रमुख व्यवसाय अयस्क ताँबे को गलाना तथा ताम्र वस्तुएं बनाना था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Grade-II 2013",
+      "sourceQuestionId": 17215,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Grade-II 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

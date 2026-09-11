@@ -27,7 +27,7 @@ interface FilterBarProps {
 }
 
 const selectBase =
-  "h-8 rounded-lg border border-border bg-card text-xs font-medium text-foreground px-2.5 pr-7 appearance-none cursor-pointer transition-colors hover:border-primary/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30 font-hindi";
+  "h-9 max-w-full rounded-xl border border-border bg-card text-xs sm:text-sm font-medium text-foreground pl-3 pr-8 appearance-none cursor-pointer transition-colors hover:border-primary/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30 font-hindi shadow-xs";
 
 export function FilterBar({
   subjects,

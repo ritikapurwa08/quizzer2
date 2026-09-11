@@ -1,0 +1,293 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का एकीकरण",
+  "topicSlug": "राजस्थान-का-एकीकरण",
+  "testSetName": "राजस्थान का एकीकरण - अभ्यास टेस्ट 14",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अजमेर के विलय के समय वहां का मुख्यमंत्री कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरविलास शारदा"
+        },
+        {
+          "id": "opt2",
+          "text": "बालकृष्ण कौल"
+        },
+        {
+          "id": "opt3",
+          "text": "हरिभाऊ उपाध्याय"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरालाल शास्त्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हरिभाऊ उपाध्याय राजस्थान में अजमेर के विलय के समय वहां के मुख्यमंत्री थे। वह अजमेर-मेरवाड़ा के पहले और एकमात्र मुख्यमंत्री थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2018",
+      "sourceQuestionId": 11231,
+      "reference": "📌 PYQ — Lab Assistant Exam 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वृहत राजस्थान (30 मार्च 1949) का उद्घाटन किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वी. एन. गाडगिल ने"
+        },
+        {
+          "id": "opt2",
+          "text": "जवाहर लाल नेहरू ने"
+        },
+        {
+          "id": "opt3",
+          "text": "वल्लभ भाई पटेल ने"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरालाल शास्त्री ने"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "30 मार्च, 1949 को जोधपुर, जयपुर, जैसलमेर और बीकानेर रियासतों का विलय होकर ‘वृहत्तर राजस्थान संघ’ बना था। यही राजस्थान की स्थापना का दिन माना जाता है। उद्घाटन सरदार वल्लभ भाई पटेल ने किया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 11241,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य संघ का प्रधानमंत्री किसे नियुक्त किया गया(18 मार्च, 1948) -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंगल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "शोभा राम"
+        },
+        {
+          "id": "opt3",
+          "text": "जुगल किशोर चतुर्वेदी"
+        },
+        {
+          "id": "opt4",
+          "text": "चिरंजी लाल शर्मा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मत्स्य संघ के प्रधानमंत्री शोभाराम कुमावत थे। संयुक्त राज्य मत्स्य, जिसे मत्स्य यूनियन या मत्स्य संघ भी कहा जाता है, भारत का राज्य था जिसे 18 मार्च 1948 को चार पूर्ववर्ती रियासतों अलवर, भरतपुर, धौलपुर और करौली के विलय के बाद बनाया गया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "sourceQuestionId": 11246,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की किस रियासत को पं. जवाहर लाल नेहरू ने विश्व का आठवां आश्चर्य कहा था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पंडित जवाहर लाल नेहरू ने राजस्थान की जैसलमेर रियासत को ‘दुनिया का आठवां आश्चर्य’ कहा था। ऐसा इसलिए कहा गया था क्योंकि आज़ादी से पहले जैसलमेर ने उत्तरदायी शासन स्थापित करने के लिए कोई कदम नहीं उठाया था। बाकी हर रियासत ने कोई न कोई कदम उठाया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Patwar Main Exam 2015",
+      "sourceQuestionId": 11248,
+      "reference": "📌 PYQ — Patwar Main Exam 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "रियासतों से सम्बंधित समस्याओं के समाधान के लिए “रियासती विभाग” की स्थापना कब की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 जुलाई 1947 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "10 अक्टूबर 1946 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "31 मार्च 1948 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "4 जनवरी 1947 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "5 जुलाई 1947 को रियासती विभाग की स्थापना की गई। जिसके अध्यक्ष वल्लभ भाई पटेल व सचिव वी.पी. मेनन थे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Patwar Main Exam 2015",
+      "sourceQuestionId": 11250,
+      "reference": "📌 PYQ — Patwar Main Exam 2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान के एकीकरण से संबंधित कौन सा युग्म सुमेलित नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर, भरतपुर, धौलपुर व करौली - मत्स्य संघ"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़, बूंदी, बांसवाड़ा, डूंगरपुर, कोटा, प्रतापगढ़, किशनगढ़, टोंक, शाहपुरा व कुशलगढ़ - राजस्थान संघ"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान संघ व उदयपुर - संयुक्त राजस्थान"
+        },
+        {
+          "id": "opt4",
+          "text": "संयुक्त राजस्थान व मत्स्य संघ - वृहत् राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वृहद राजस्थान - संयुक्त राजस्थान + जयपुर + जोधपुर + जैसलमेर + बीकानेर + लावा ठिकाना - 14 रियासत + 2 ठिकाने",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC LDC Exam 2011 Paper I",
+      "sourceQuestionId": 11261,
+      "reference": "📌 PYQ — RPSC LDC Exam 2011 Paper I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरोही राज्य का राजस्थान में पूर्ण विलय कब हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 जनवरी, 1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1 नवम्बर, 1956"
+        },
+        {
+          "id": "opt3",
+          "text": "15 जनवरी, 1950"
+        },
+        {
+          "id": "opt4",
+          "text": "25 जनवरी, 1950"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "sourceQuestionId": 11086,
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान के एकीकरण की प्रक्रिया में सर्वप्रथम गठित होने वाली इकाई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान संघ"
+        },
+        {
+          "id": "opt2",
+          "text": "वृहत् राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "मत्स्य संघ"
+        },
+        {
+          "id": "opt4",
+          "text": "संयुक्त राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11217,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: 18 अप्रैल, 1948 को गठित ‘संयुक्त राजस्थान’ के राजप्रमुख बनाये गये थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा महाराव भीमसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा धौलपुर उदयमानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर महाराणा भूपालसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी महाराजा बहादुर सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 11218,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का एकीकरण\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान का एकीकरण\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान का एकीकरण\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

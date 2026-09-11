@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में स्थापत्य कला",
+  "topicSlug": "राजस्थान-में-स्थापत्य-कला",
+  "testSetName": "राजस्थान में स्थापत्य कला - अभ्यास टेस्ट 34",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित को सुमेलित कीजिए - प्रसिद्ध स्थल जिलाa. अमरेश्वर महादेव i. टोंकb. देवी कुण्ड ii. बीकानेरc. अन्देश्वर पार्श्वनाथजी iii. सवाई माधोपुरd. बीसलदेव iv. बांसवाड़ासही कूट का चयन कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-iii, b-iv, c-i, d-ii"
+        },
+        {
+          "id": "opt2",
+          "text": "a-iii, b-ii, c-iv, d-i"
+        },
+        {
+          "id": "opt3",
+          "text": "a-iv, b-i, c-ii, d-iii"
+        },
+        {
+          "id": "opt4",
+          "text": "a-ii, b-iii, c-i, d-iv"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अमरेश्वर महादेव - सवाई माधोपुरदेवी कुण्ड - बीकानेरअन्देश्वर पार्श्वनाथजी - बांसवाड़ाबीसलदेव - टोंक",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 2082,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘देवयानी कुण्ड’ ........ में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "देवयानी कुंड को छोटे पुष्कर के नाम से भी जाना जाता है, यह सांभर झील के आसपास के कई मीठे पानी के कुंडों में से एक है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "sourceQuestionId": 2086,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैन तीर्थस्थल रणकपुर मंदिर के प्रमुख शिल्पकार कोन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देपाक"
+        },
+        {
+          "id": "opt2",
+          "text": "मण्डन"
+        },
+        {
+          "id": "opt3",
+          "text": "तेजपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "वास्तुपाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माना जाता है कि रणकपुर जैन मंदिर का निर्माण 15वीं शताब्दी ईस्वी में मेवाड़ के तत्कालीन शासक राणा कुंभा के मंत्री धरन शाह ने एक दिव्य वाहन का सपना देखने के बाद करवाया था। इस मंदिर के प्रमुख वास्तुकार देपाक हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+      "sourceQuestionId": 2094,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गुरुद्वारा बुद्ध जोहड’ ______ ज़िले में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुरुद्वारा बुद्ध जोहड़ गुरुद्वारा श्रीगंगानगर जिले में स्थित है। यह श्रीगंगानगर जिले की रायसिंहनगर तहसील में स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+      "sourceQuestionId": 2103,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ के किले में त्रिभुवन नारायण मन्दिर का निर्माता कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा अरिसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "नागभट्ट प्रथम"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा मोकल"
+        },
+        {
+          "id": "opt4",
+          "text": "भोज परमार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "त्रिभुवन नारायण मंदिर चित्तौड़ के चित्तौड़ किले में स्थित है। कई शिलालेखों से पता चलता है कि मंदिर का निर्माण 11वीं शताब्दी में तत्कालीन परमार वंश के राजा- राजा भोज ने करवाया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "3rd Grade Teacher 2022 L1",
+      "sourceQuestionId": 2112,
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस मंदिर को मामादेव का मंदिर भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भास्वामी मंदिर - चित्तौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भश्याम मंदिर - कुम्भलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रृंगार चौरी मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "एकलिंगजी का मंदिर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कुंभलगढ़ शिलालेख कुंभलगढ़ क्षेत्र के ममादेव मंदिर में पाए गए थे। मामादेव मंदिर को कुंभा श्याम मंदिर के रूप में भी जाना जाता है। 1460 ई. में कुंभलगढ़ शिलालेख उत्कीर्ण किया गया था और इस शिलालेख में मेवाड़ की स्थापना करने वाले गुहिल के काल से राणा कुंभा के क्षेत्र का इतिहास दर्ज है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "A.A.R.O. (GK and Entomology) 2022",
+      "sourceQuestionId": 2116,
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘भारतीय लोक कला मण्डल संस्थान’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लोक कला मंडल उदयपुर, राजस्थान में स्थापित एक सांस्कृतिक संगठन है, जो मध्य प्रदेश, गुजरात और राजस्थान के लोकगीतों, संगीत और समारोहों पर शोध करने पर केंद्रित है। इसका प्राथमिक लक्ष्य लोक संगीत, नृत्य और साहित्य को बढ़ावा देना और लोकप्रिय बनाना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "sourceQuestionId": 2126,
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: नाथद्वारा में श्रीनाथ जी की मूर्ति किसने स्थापित करवायी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा कुंभा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसिंह प्रथम"
+        },
+        {
+          "id": "opt3",
+          "text": "सुरजन"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा जयसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2284,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: मेहरानगढ़ दुर्ग निर्मित करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव जोधा ने"
+        },
+        {
+          "id": "opt2",
+          "text": "राव मालदेव ने"
+        },
+        {
+          "id": "opt3",
+          "text": "राव बीका ने"
+        },
+        {
+          "id": "opt4",
+          "text": "राव सीहा ने"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2285,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में स्थापत्य कला\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में स्थापत्य कला\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में स्थापत्य कला\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान का इतिहास जानने के स्त्रोत",
+  "topicSlug": "राजस्थान-का-इतिहास-जानने-के-स्त्रोत",
+  "testSetName": "राजस्थान का इतिहास जानने के स्त्रोत - अभ्यास टेस्ट 16",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "घटियाला प्राकृत अभिलेख किस प्रतिहार शासक से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दद्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "वत्सराज"
+        },
+        {
+          "id": "opt3",
+          "text": "नागभट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "कक्कुका"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "sourceQuestionId": 15670,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीर विनोद का लेखक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "गौरीशंकर हीराचंद ओझा"
+        },
+        {
+          "id": "opt3",
+          "text": "कविराज श्यामलदास"
+        },
+        {
+          "id": "opt4",
+          "text": "केशरीसिंह बारहठ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "sourceQuestionId": 15671,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी पुस्तक चौहानों के इतिहास के बारे में जानकारी का स्रोत नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हर्ष चरित"
+        },
+        {
+          "id": "opt2",
+          "text": "सुर्जन चरित्र"
+        },
+        {
+          "id": "opt3",
+          "text": "हम्मीर महाकाव्य"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज विजय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 15673,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "घटियाला शिलालेख किस भाषा में लिखा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "फ़ारसी"
+        },
+        {
+          "id": "opt3",
+          "text": "संस्कृत"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "sourceQuestionId": 15674,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूर्यमल्ल मिश्रण (मीसण), जो राजस्थान की एक रियासत के 19वीं सदी के दरबारी कवि थे, उन्होंने एक उत्कृष्ट कृति ‘वंश भास्कर’ लिखी, जिसका मुख्य विषय ______ वंश का इतिहास है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परमार"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ा चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "सोलंकी"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिहार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+      "sourceQuestionId": 15675,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिए गए विकल्पों में से लेखक और उनके लेखन के साथ सही मिलान की पहचान कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर – केसरी सिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "चेतावनी रा चूंगट्या – मलिक मोहम्मद जायसी"
+        },
+        {
+          "id": "opt3",
+          "text": "वीर विनोद (मेवाड़ का इतिहास) – श्यामल दास"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मावत – सूर्यमल मिश्रण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+      "sourceQuestionId": 15676,
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कंत घरे किम आविया, तेहां रौ घण त्रास।लहँगे मूझ लुकीजियै, बैरी रौ न विसास॥”उपरोक्त दोहा _____ द्वारा लिखा गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधराज"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "चंद बरदाई"
+        },
+        {
+          "id": "opt4",
+          "text": "दलपत विजय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+      "sourceQuestionId": 15677,
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘शेखावाटी’ शब्द का सर्वप्रथम प्रयोग 1803 ई. में किसने किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्नल गार्डन"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल टाॅड"
+        },
+        {
+          "id": "opt3",
+          "text": "स्टेनले रीड"
+        },
+        {
+          "id": "opt4",
+          "text": "जाॅर्ज थाॅमस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15739,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सूर्यमिल मिश्रण कहा के दरवारी कवि थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15763,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान का इतिहास जानने के स्त्रोत\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान का इतिहास जानने के स्त्रोत\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान का इतिहास जानने के स्त्रोत\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

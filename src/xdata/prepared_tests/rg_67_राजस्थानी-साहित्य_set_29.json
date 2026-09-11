@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थानी साहित्य",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "testSetName": "राजस्थानी साहित्य - अभ्यास टेस्ट 29",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को मिलाएं –संस्थान(i) राजस्थान कला विद्यालय(ii) राजस्थान ललित कला अकादमी(iii) जवाहर कला केंद्र(iv) रवींद्र मंचस्थापना वर्ष(1) 1963(2) 1957(3) 1993(4) 1888कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(I)-4, (II)-2, (III)-3, (IV)-1"
+        },
+        {
+          "id": "opt2",
+          "text": "(I)-4, (II)-3, (III)-1, (IV)-2"
+        },
+        {
+          "id": "opt3",
+          "text": "(I)-4, (I)-3, (II)-2, (IV)-1"
+        },
+        {
+          "id": "opt4",
+          "text": "(I)-3, (II)-4, (III)-1, (IV)-2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Librarian Grade III 2022 (Paper 1)",
+      "sourceQuestionId": 15023,
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "खगोल विज्ञान के बारे में ‘जिज मुहम्मद शाही’ पुस्तक किसने लिखी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर के शासक जसवंत सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर के शासक भारमल"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर के सवाई जय सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर के महाराणा उदय सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WC&S)2018",
+      "sourceQuestionId": 15024,
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नृत्यरत्नकोष’ का रचयिता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज-3"
+        },
+        {
+          "id": "opt2",
+          "text": "महेन्द्रपाल-2"
+        },
+        {
+          "id": "opt3",
+          "text": "अमोघवर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "sourceQuestionId": 15030,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीरवांण का रचनाकार कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बादर ढाढी"
+        },
+        {
+          "id": "opt2",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "किसना आढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "हेमरत्न सूरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Jailor Exam 2013(paper-II)",
+      "sourceQuestionId": 15038,
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस राजपूत शासक द्वारा ‘नेह तरंग’ रचित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा सावन्तसिंह(नागरीदास)"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा जसवन्तसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राव बुद्धसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "sourceQuestionId": 15039,
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित में से कौनसा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विद्वान (मंडन) ग्रन्थ/कृति (राजवल्लभ)"
+        },
+        {
+          "id": "opt2",
+          "text": "विद्वान (नाथ) ग्रन्थ/कृति(वास्तुमंजरी)"
+        },
+        {
+          "id": "opt3",
+          "text": "विद्वान(गोविन्द) ग्रन्थ/कृति(द्वारदीपिका)"
+        },
+        {
+          "id": "opt4",
+          "text": "विद्वान(कान्हा व्यास) ग्रन्थ/कृति(विजयस्तम्भ का अभिलेख)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 15041,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जसवंत सिंह ने, जो स्वंय एक कवि तथा विद्वान था, कई ग्रन्थ रचे। निम्न में से जसवंत द्वारा रचित ग्रन्थों को पहचानिए - 1. भाषा-भूषण 2. प्रबोध चंद्रोदय नाटक 3. सिद्धांत सार 4. अनुभव प्रकाश सही कूट चुनिये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3 व 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3 व 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2 व 4"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3 व 4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "sourceQuestionId": 15042,
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन राजस्थान के चारण साहित्यकार नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पसाईत"
+        },
+        {
+          "id": "opt2",
+          "text": "बिठू मेहा"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज राठोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "जयमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15118,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: संगीत पर लिखे गए निम्नलिखित ग्रंथों में से कौन से राणा कुम्भा द्वारा रचित है -अ. संगीतराजब. संगीत मीमांसास. सूड़ प्रबंधद. रसिक प्रिया",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ, ब"
+        },
+        {
+          "id": "opt2",
+          "text": "अ, स, द"
+        },
+        {
+          "id": "opt3",
+          "text": "ब, स, द"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब, स, द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15119,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी साहित्य\" के विभिन्न आयामों एवं प्रभावों के आधार पर सर्वाधिक प्रमाणिक निष्कर्ष कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"राजस्थानी साहित्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"राजस्थानी साहित्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

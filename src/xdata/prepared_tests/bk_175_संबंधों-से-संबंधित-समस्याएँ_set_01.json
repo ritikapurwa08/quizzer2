@@ -1,0 +1,298 @@
+{
+  "subject": "तार्किक विवेचन एवं मानसिक योग्यता",
+  "subjectSlug": "reasoning-mental-ability",
+  "topic": "संबंधों से संबंधित समस्याएँ",
+  "topicSlug": "संबंधों-से-संबंधित-समस्याएँ",
+  "testSetName": "संबंधों से संबंधित समस्याएँ - अभ्यास टेस्ट 1",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "यदि‘+’का अर्थ‘÷’, ‘÷’ का अर्थ‘×’ ‘–’ का अर्थ ‘+’ तथा‘×’ का अर्थ‘–’ हो, तो20 – 16 + 4 × 3 ÷ 2 का मान है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16"
+        },
+        {
+          "id": "opt2",
+          "text": "30"
+        },
+        {
+          "id": "opt3",
+          "text": "18"
+        },
+        {
+          "id": "opt4",
+          "text": "24"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिया है– + → ÷, ÷ → ×, – → +, × → – समी.‘20 – 16 + 4 × 3 ÷ 2’में चिह्न परिवर्तित करने पर ⇒? = 20 + 16 ÷ 4 – 3 × 2 = 20 + 4 – 6 = 18",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (S.E.)2020",
+      "sourceQuestionId": 24817,
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी निश्चित कूट भाषा में'4×6'का मतलब'34', '9×6'का मतलब'69'और'8×9'का मतलब89तो उसी भाषा में'7×7'का क्या मतलब होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "63"
+        },
+        {
+          "id": "opt2",
+          "text": "56"
+        },
+        {
+          "id": "opt3",
+          "text": "59"
+        },
+        {
+          "id": "opt4",
+          "text": "67"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिस प्रकार, (4 × 6) ⇒ (4 × 6) + (4 + 6) = 24 + 10 = 34 तथा (9 × 6) ⇒ (9 × 6) + (9 + 6) = 54 + 15 = 69 एवं (8 × 9) ⇒ (8 × 9) + (8 + 9) = 72 + 17 = 89 उसी प्रकार, (7 × 7) ⇒ (7 × 7) + (7 + 7) = 49 + 14 = 63",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Assistant jailor 2013",
+      "sourceQuestionId": 24818,
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि7×3÷8 का मान ८० माने तो8÷2×9 का मान क्या होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "90"
+        },
+        {
+          "id": "opt2",
+          "text": "25"
+        },
+        {
+          "id": "opt3",
+          "text": "19"
+        },
+        {
+          "id": "opt4",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "7 × 3 ÷ 8 = 80 (×) → (+) तथा (÷) →(×) प्रतिस्थापित करने पर– जिस प्रकार, (7 + 3) × 8 = 80 10 × 8 = 80 80 = 80 उसी प्रकार, 8 ÷ 2 × 9 ⇒ 8 × 2 + 9 = 25",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. 2011",
+      "sourceQuestionId": 24819,
+      "reference": "📌 PYQ — RPSC School Lect. 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि4 ±5 –2·33और10±12–5·119, तो6 ±8–3·?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "73"
+        },
+        {
+          "id": "opt2",
+          "text": "85"
+        },
+        {
+          "id": "opt3",
+          "text": "67"
+        },
+        {
+          "id": "opt4",
+          "text": "57"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिस प्रकार, 42 + 52 – 23 ⇒16 + 25 – 8 ⇒41 – 8 = 33 तथा 102 + 122 – 53 ⇒100 + 144 – 125 ⇒ 244 – 125 = 119 उसी प्रकार, 62 + 82 – 33 ⇒ 36 + 64 – 27 ⇒ 100 – 27 = 73",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 2018",
+      "sourceQuestionId": 24820,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणितीय संक्रियाओं का सही संयोग जो चिन्ह'*'की जगह समीकरण15*5*3*25में रखने पर उसे संतुलित करता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "= ÷ ×"
+        },
+        {
+          "id": "opt2",
+          "text": "÷ × ="
+        },
+        {
+          "id": "opt3",
+          "text": "× ÷ ="
+        },
+        {
+          "id": "opt4",
+          "text": "× = ÷"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिए गए विकल्प(c)से चिन्हों को समीकरण में प्रतिस्थापित करने पर– 15 * 5 * 3 * 25 ⇒ 15 × 5 ÷ 3 = 25 ⇒ 5 15 25 3 × = ⇒ 25 = 25 L.H.S = R.H.S 3. संबंधों से संबंधित समस्याएँ",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Coach) 2013",
+      "sourceQuestionId": 24821,
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "संलग्न चित्र में लुप्त संख्या को ज्ञात कीजिये।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "625"
+        },
+        {
+          "id": "opt2",
+          "text": "313"
+        },
+        {
+          "id": "opt3",
+          "text": "1"
+        },
+        {
+          "id": "opt4",
+          "text": "900"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिस प्रकार, 2 3 5 25 + = → वर्ग 15 6 21 441 + = → वर्ग 10 7 17 289 + = → वर्ग 12 13 25 625 वर्ग + = → अत:? 625 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 24822,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से उस शब्द का चयन करें जो समूह के शेष शब्दों से भिन्न हो:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीला"
+        },
+        {
+          "id": "opt2",
+          "text": "हरा"
+        },
+        {
+          "id": "opt3",
+          "text": "सफेद"
+        },
+        {
+          "id": "opt4",
+          "text": "पीला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सफेद भिन्न है क्योंकि नीला, हरा और पीला इन्द्र धनुष के रंग हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Evaluation Officer 2020",
+      "sourceQuestionId": 24823,
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: X ने एक चित्र की ओर इशारा करते हुए कहा ’’इसकी माँ मेरे पिता के पुत्र की पत्नी है। मेरा न कोई भाई है न बहन।’’ X किसके चित्र की ओर इशारा कर रहा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चचेरा भाई"
+        },
+        {
+          "id": "opt2",
+          "text": "भतीजा"
+        },
+        {
+          "id": "opt3",
+          "text": "चाचा"
+        },
+        {
+          "id": "opt4",
+          "text": "पुत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नानुसार, रक्त संबंध आरेख निम्नवत है– अत: ‘X’ अपने पुत्र की ओर इशारा कर रहा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lecturer -2015",
+      "sourceQuestionId": 24840,
+      "reference": "✎ PYQ Modified · RPSC School Lecturer -2015"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: एक परिवार में आठ सदस्य हैं।E, FऔरGकी माता है।A, Eका जँवाई है।C, Gकी पुत्री है।D, Cके नाना है।Dके एक पुत्र और एक पुत्री है।H, Gकी भाभी है।B, Fकी भांजी है।F, Aसे किस प्रकार संबंधित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाभी/ननद"
+        },
+        {
+          "id": "opt2",
+          "text": "बहन"
+        },
+        {
+          "id": "opt3",
+          "text": "जीजा/साला"
+        },
+        {
+          "id": "opt4",
+          "text": "भ्राता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्नानुसार, रक्त सम्बन्ध आरेख निम्नवत् है- अत: स्पष्ट है किF काAसे जीजा/साला का सम्बन्ध है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 2023",
+      "sourceQuestionId": 24841,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"संबंधों से संबंधित समस्याएँ\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"संबंधों से संबंधित समस्याएँ\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"संबंधों से संबंधित समस्याएँ\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

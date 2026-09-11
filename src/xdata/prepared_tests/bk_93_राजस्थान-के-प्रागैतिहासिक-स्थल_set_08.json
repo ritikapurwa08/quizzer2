@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topic": "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक",
+  "topicSlug": "राजस्थान-के-प्रागैतिहासिक-स्थल-पुरापाषाण-से-ताम्र-पाषाण-एवं-कांस्य-युग-तक",
+  "testSetName": "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बीजक पहाड़ी (बैराठ) पर अशोक के अभिलेख को किसने और कब खोजा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर बर्ट ने १८४० ई."
+        },
+        {
+          "id": "opt2",
+          "text": "अलेक्जैण्डर कनिंघम ने १८६४ ई. में"
+        },
+        {
+          "id": "opt3",
+          "text": "के.एन. दीक्षित ने १९३७ ई. में"
+        },
+        {
+          "id": "opt4",
+          "text": "डी.आर. साहनी ने १९३६ ई. में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बैराठ शिलालेख (भाब्रू शिलालेख) अशोक कालीन शिलालेख है। यह राजस्थान के जयपुर में बीजक की पहाड़ियों पर स्थित है। इस शिलालेख की खोज1840में मेजर बर्ट ने की थी। इस शिलालेख में बुद्ध, धम्म और संघ (त्रिरत्न) का उल्लेख है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17196,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अशोक का अभिलेख कहाँ प्राप्त हुआ था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बड़ली"
+        },
+        {
+          "id": "opt2",
+          "text": "बरनाला"
+        },
+        {
+          "id": "opt3",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt4",
+          "text": "बुचकला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Collage Lect. 2014 (P-III)",
+      "sourceQuestionId": 17197,
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न स्थलों में से कौनसा ‘आहड़-बनास’ संस्कृति से संबंधित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तारावट"
+        },
+        {
+          "id": "opt2",
+          "text": "बालाकोट"
+        },
+        {
+          "id": "opt3",
+          "text": "ओझियाना"
+        },
+        {
+          "id": "opt4",
+          "text": "बालाथल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "आहाड़-बनास संस्कृति के प्रमुख स्थलों में गिलुंड, ओझियाना, बालाथल, बानसेन, केली, अलोद, पालोद, खोर, अमादा, तारावट शामिल हैं। आहाड़-बनास संस्कृति एक ताम्रकालीन सभ्यता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17198,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गोला धोरो’,जो अपने प्राचीन मनका-उद्योग के लिए प्रसिद्ध है, स्थित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरियाणा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "सिंध"
+        },
+        {
+          "id": "opt4",
+          "text": "गुजरात"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गोलाधोरो गुजरात में कच्छ की खाड़ी में बागसरा गाँव के पास स्थित है। यह हड़प्पाकालीन स्थल है। यहाँ से मनका बनाने का कारखाना प्राप्त हुआ है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17199,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कोैनसा स्थल सावल्दा संस्कृति से संबंधित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बहुरूप"
+        },
+        {
+          "id": "opt2",
+          "text": "दायमाबाद"
+        },
+        {
+          "id": "opt3",
+          "text": "कोरित"
+        },
+        {
+          "id": "opt4",
+          "text": "बालू"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सावल्दा संस्कृति(2300–2200ई.पू.)महाराष्ट्र के धुले जिले में विस्तृत थी। यह दक्कन में सबसे प्रारंभिक कृषक समुदाय है। सावल्दा संस्कृति के अन्तर्गत बहुरूप, कोरित और दायमाबाद शामिल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17200,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सभामण्डप गुहा’ मिलती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाखाजोअर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीमबेटका"
+        },
+        {
+          "id": "opt3",
+          "text": "बागोर"
+        },
+        {
+          "id": "opt4",
+          "text": "कुर्नूल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भीमबेटका मध्य प्रदेश के रायसेन जिले में स्थित शैलाश्रय है। यहाँ पाषाणकालीन चित्रित दीवारें प्राप्त हुई हैं। सभामण्डप गुहा भी भीमबेटका में पाई गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17201,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘‘आहड़ सभ्यता’’ के सन्दर्भ में निम्न में से कौनसा कथन सत्य नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताँबा गलाने के पश्चात् बचा कचरा प्राप्त हुआ है।"
+        },
+        {
+          "id": "opt2",
+          "text": "काटने एवं भेदने के लिए छोटे तीखे पत्थरों की पूर्णत: अनुपस्थिति।"
+        },
+        {
+          "id": "opt3",
+          "text": "ताँबे की चादरें मिली हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "लोहे की कुल्हाड़ियाँ मिली हैं।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आहड़ सभ्यता एक ताम्रपाषाण कालीन सभ्यता है। यहाँ से ताँबे और पाषाण के उपकरण प्राप्त हुए हैं। लोहे की कुल्हाड़ियाँ नहीं मिली है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023",
+      "sourceQuestionId": 17202,
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: गणेश्वर से प्राप्त मृदभाण्ड किस प्रकार के हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गैरिक मृदभाण्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल बर्तन"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तरी कृष्ण र्मािजत मृदभाण्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "धूसर चित्रित मृदभाण्ड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गणेश्वर से गैरिक मृदभांड (मृदभांड- मिट्टी के बर्तन) पाए गए है। इनका रंग हल्का पीला या लालिमा लिए होता है। यह बर्तन ताम्रयुग की विशेषता को दर्शाता है। यह सभ्यता हडप्पा संस्कृति से पूर्व की सभ्यता मानी जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Excavation officer (Arch. & Muse.) 2023 RPSC School Lect. (Group-D) 2022",
+      "sourceQuestionId": 17224,
+      "reference": "✎ PYQ Modified · RPSC Excavation officer (Arch. & Muse.) 2023 RPSC School Lect. (Group-D) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: किस सभ्यता स्थल में उत्खनन से चांदी की आठ पंचमार्क मुद्राएं मिली हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालाथल"
+        },
+        {
+          "id": "opt2",
+          "text": "गणेश्वर"
+        },
+        {
+          "id": "opt3",
+          "text": "गिलुण्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "बैराठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चाँदी की आठ पंचमार्क मुद्राएं जयपुर जिले में बैराठ नामक स्थल से प्राप्त हुई है। इन मुद्राओं के माध्यम से प्राचीन भारत में मुद्रा के रूप और प्रतीकों के बारे में जानकारी प्राप्त होती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 17225,
+      "reference": "✎ PYQ Modified · RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

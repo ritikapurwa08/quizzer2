@@ -1,0 +1,298 @@
+{
+  "subject": "विश्व एवं भारत का सामान्य ज्ञान",
+  "subjectSlug": "world-india-gk",
+  "topic": "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
+  "topicSlug": "प्रमुख-स्थलाकृतियाँपर्वत-पठार-एवं-मैदान",
+  "testSetName": "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान - अभ्यास टेस्ट 4",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत के निम्नलिखित में से कौन से राज्य की सीमा बांग्लादेश से संयुक्त नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेघालय"
+        },
+        {
+          "id": "opt2",
+          "text": "त्रिपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिम बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नागालैंड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पाँच भारतीय राज्य हैं जो बांग्लादेश के साथ सीमा साझा करते है। ये पश्चिम बंगाल, मिजोरम, मेघालय, त्रिपुरा और असम है। भारत और बांग्लादेश के बीच ४०९६ किमी. लम्बी सीमा है। यह भारत की सबसे बड़ी स्थलीय सीमा साझा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "sourceQuestionId": 19940,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में कौन से भारतीय राज्य की ना तो तटरेखा है ना अंतर्राष्ट्रीय सीमा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंजाब"
+        },
+        {
+          "id": "opt2",
+          "text": "तेलंगाना"
+        },
+        {
+          "id": "opt3",
+          "text": "असम"
+        },
+        {
+          "id": "opt4",
+          "text": "हिमाचल प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तेलंगाना राज्य की सीमा से न तो कोई अंतर्राष्ट्रीय सीमा लगती है और न ही इस राज्य की कोई तटरेखा है। पंजाब राज्य की सीमा पाकिस्तान से लगती है। हिमालय प्रदेश और असम की सीमा क्रमश: चीन और बांग्लादेश से लगती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "sourceQuestionId": 19941,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "तालिका-Iको तालिका-IIसे सुमेलित करते हुए पर्वतों के शिखरों की ऊँचाई (मीटर में) का सही कूट चयनित कीजिए: तालिका-I(शिखर) सूची-II(ऊँचाई मीटर में) A.नन्दा देवी I. 6510 B. गंगोत्री II. 6945 C. बद्रीनाथ III. 7817 D.केदारनाथ IV. 7138 कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii iii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "i iv ii"
+        },
+        {
+          "id": "opt3",
+          "text": "ii i iii"
+        },
+        {
+          "id": "opt4",
+          "text": "i iv iii"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "निम्नलिखित सूचियों का सही सुमेलन इस प्रकार है- शिखर ऊँचाई (मीटर) नन्दा देवी - ७८१७ गंगोत्री - ६५१० बद्रीनाथ - ७१३८ केदारनाथ - ६९४५",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+      "sourceQuestionId": 19942,
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "धौलाधर शृंखला अवस्थित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिवालिक हिमालय में"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वांचल हिमालय में"
+        },
+        {
+          "id": "opt3",
+          "text": "बृहत् हिमालय में"
+        },
+        {
+          "id": "opt4",
+          "text": "लघु हिमालय में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "धौलाधार शृंखला लघु हिमालय में स्थित है। हिमालय पर्वत का वर्गीकरण वृहत् हिमालय, लघु हिमालय का मध्य हिमालय और शिवालिक हिमालय में किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Protection Officer-2022",
+      "sourceQuestionId": 19943,
+      "reference": "📌 PYQ — RPSC Protection Officer-2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित अरावली पर्वत शिखरें हैं। इन शिखरों को ऊँचाई के अनुसार घटते क्रम में क्रमबद्ध करिये: (A)गुरुशिखर (B)अचलगढ़ (C)कुम्भलगढ़ (D)सेर (E)दिलवाड़ा कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(D) (E) (B) (C)"
+        },
+        {
+          "id": "opt2",
+          "text": "(B) (C) (D) (E)"
+        },
+        {
+          "id": "opt3",
+          "text": "(E) (D) (C) (B) (A)"
+        },
+        {
+          "id": "opt4",
+          "text": "(D) (B) (C) (E)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली पर्वत के शिखरों का अवरोही क्रम निम्नलिखित है- शिखर ऊँचाई (मीटर) गुरु शिखर - १७२२ सेर - १५९७ दिलवाड़ा - १४४२ अचलगढ़ - १३८० कुम्भलगढ़ - १२२४",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "sourceQuestionId": 19944,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "समुद्र तल से ५०० से १३७० मीटर की ऊँचाई वाले पश्चिमी घाट के पश्चिमी भाग पर पाए जाते हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उष्णकटिबंधीय आर्द्र पर्णपाती वन"
+        },
+        {
+          "id": "opt2",
+          "text": "पर्वतीय आर्द्र शीतोष्ण वन"
+        },
+        {
+          "id": "opt3",
+          "text": "उपोष्ण शुष्क सदाबहार वन"
+        },
+        {
+          "id": "opt4",
+          "text": "उष्णकटिबंधीय आर्द्र सदाबहार वन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "समुद्र तल से ३०० से १३७० मी. की ऊँचाई वाले पश्चिमी घाट के पश्चिमी भाग पर उष्णकटिबंधीय आर्द्र सदाबहार वन पाये जाते है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "sourceQuestionId": 19945,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिमालय चोटियों का निम्नलिखित में से कौन-सा एक दक्षिण से उत्तर की ओर सही क्रम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काराकोरम – लद्दाख – जास्कर – पीर पंजाल"
+        },
+        {
+          "id": "opt2",
+          "text": "लद्दाख – जास्कर – पीर पंजाल – काराकोरम"
+        },
+        {
+          "id": "opt3",
+          "text": "जास्कर – पीर पंजाल – काराकोरम – लद्दाख"
+        },
+        {
+          "id": "opt4",
+          "text": "पीर पंजाल – जास्कर – लद्दाख – काराकोरम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हिमालय चोटियों का दक्षिण से उत्तर की ओर सही क्रम है- पीर पंजाल – जास्कर – लद्दाख – काराकोरम। 310",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "sourceQuestionId": 19946,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कोंकण, कनारा और मालाबार उप-प्रदेश हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी घाट के"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी तटीय मैदान के"
+        },
+        {
+          "id": "opt3",
+          "text": "गुजरात तटीय मैदान के"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी तटीय मैदान के"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोंकण, कनारा और मालाबार पश्चिमी तटीय मैदान का उपक्षेत्र है। पश्चिमी मैदान को तीन भागों में बांटा गया हैं। महाराष्ट्र गोवा तक कोंकण, उसके नीचे का भाग कनारा जो कर्नाटक में उसके नीचे मालाबार तट है जों केरल के पश्चिमी तट पर स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "sourceQuestionId": 19983,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: नर्मदा और तापी की घाटियों के मध्य कौन सी श्रेणी स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रायलसीमा"
+        },
+        {
+          "id": "opt2",
+          "text": "सहयाद्री"
+        },
+        {
+          "id": "opt3",
+          "text": "विन्ध्यन"
+        },
+        {
+          "id": "opt4",
+          "text": "सतपुड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नर्मदा नदी और तापी नदियों के मध्य पूर्व-पश्चिम दिशा मे पैâला सतपुडापर्वत श्रेणी है। नर्मदा के उत्तर में विध्य पर्वत श्रेणी है। नर्मदा और तापी दोनों नदियॉ पश्चिम की ओर प्रवाहित होते हुए अरब सागर में गिरती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "sourceQuestionId": 19984,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

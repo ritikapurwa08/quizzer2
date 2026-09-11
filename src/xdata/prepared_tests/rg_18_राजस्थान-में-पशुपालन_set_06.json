@@ -1,0 +1,294 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में पशुपालन",
+  "topicSlug": "राजस्थान-में-पशुपालन",
+  "testSetName": "राजस्थान में पशुपालन - अभ्यास टेस्ट 6",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा एक सही सुमेलित है -नस्ल - पशु",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेरी - भेड़"
+        },
+        {
+          "id": "opt2",
+          "text": "लोही - गाय"
+        },
+        {
+          "id": "opt3",
+          "text": "नाचना - बकरी"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनाडी - भैंस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोही भेड़ की नस्ल है, गाय की नहीं।नाचना ऊंट की नस्ल है। सोनाड़ी भेड़ों की एक नस्ल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (STE) Exam 2024",
+      "sourceQuestionId": 5974,
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशुगणना 2019 के अनुसार, राजस्थान में सर्वाधिक भैंसों की संख्या वाला जिला है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2019 की पशुगणना के अनुसार, जयपुर जिले में भैंसों की संख्या सबसे अधिक थी।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (ICTSM) Exam 2024",
+      "sourceQuestionId": 5975,
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पूगल’ नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बकरी की"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़ की"
+        },
+        {
+          "id": "opt3",
+          "text": "गाय की"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊँट की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पूगल राजस्थान की एक प्रसिद्ध भेड़ नस्ल है, जो बीकानेर और आसपास के क्षेत्रों में पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (EM) Exam 2024",
+      "sourceQuestionId": 5976,
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी भेड़ की नस्लें हैं -1. मगरा2. चोकला3. जैसलमेरी4 .मालपुरानिम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 2, 3 और 4"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 1, 2 और 3"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1, 3 और 4"
+        },
+        {
+          "id": "opt4",
+          "text": "सभी 1, 2, 3 और 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मगरा, चोकला, जैसलमेरी, और मालपुरा सभी राजस्थान में पाई जाने वाली भेड़ की नस्लें हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (COPA) Exam 2024",
+      "sourceQuestionId": 5977,
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "चोकला नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोवंश"
+        },
+        {
+          "id": "opt2",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चोकला भेड़ की नस्ल है। भेड़ की इस नस्ल को सर्वश्रेष्ठ कालीन ऊन नस्ल के रूप में जाना जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WCS) Exam 2024",
+      "sourceQuestionId": 5978,
+      "reference": "📌 PYQ — Junior Instructor (WCS) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राठी’ _____ की प्रसिद्ध नस्ल है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊँट"
+        },
+        {
+          "id": "opt2",
+          "text": "गाय"
+        },
+        {
+          "id": "opt3",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt4",
+          "text": "भेड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "यह राजस्थान और हरियाणा में पाई जाने वाली एक महत्वपूर्ण दुधारू नस्ल है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (RAT) Exam 2024",
+      "sourceQuestionId": 5979,
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "पूगल एक प्रसिद्ध नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भैंस की"
+        },
+        {
+          "id": "opt2",
+          "text": "ऊँट की"
+        },
+        {
+          "id": "opt3",
+          "text": "गाय की"
+        },
+        {
+          "id": "opt4",
+          "text": "भेड़ की"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पूगल भेड़ की एक प्रसिद्ध नस्ल है, जो राजस्थान के बीकानेर जिले में पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (MDE) Exam 2024",
+      "sourceQuestionId": 5980,
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: निम्नलिखित में से कौन सी भेड़ अधिक ऊन उत्पादन के लिए विख्यात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोखला"
+        },
+        {
+          "id": "opt2",
+          "text": "पूगल"
+        },
+        {
+          "id": "opt3",
+          "text": "मालपुरी"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6102,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान में भारतीय कृषि अनुसन्धान परिषद् द्वारा केन्द्रीय ऊँट अनुसन्धान संस्थान कहाँ स्थापित किया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt2",
+          "text": "जोड़-बीड़"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरतगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "रामगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 6109,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में पशुपालन\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"राजस्थान में पशुपालन\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"राजस्थान में पशुपालन\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

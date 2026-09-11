@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "राजस्थान में कृषि",
+  "topicSlug": "राजस्थान-में-कृषि",
+  "testSetName": "राजस्थान में कृषि - अभ्यास टेस्ट 23",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मक्का राजस्थान के मुख्यतः कौन से भाग में उत्पादित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी-पश्चिमी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण-पश्चिमी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण एवं दक्षिण पूर्वी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 5691,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भीलवाड़ा, चित्तौड़गढ़ तथा राजसमन्द जिले राजस्थान के किस कृषि जलवायु प्रदेश के अन्तर्गत आते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उप-आर्द्र दक्षिणी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "बाढ़ प्रभावित पूर्वी मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "आर्द्र दक्षिणी मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "आर्द्र दक्षिणी पूर्वी प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 5694,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में सेम की समस्या द्वारा कृषि को क्षति पहुँची है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Statistical Officer 2021",
+      "sourceQuestionId": 5695,
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘खस’ का सर्वाधिक उत्पादन राजस्थान के किस बैल्ट से होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा, बूंदी और झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर, करौली और अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, भीलवाड़ा और चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर, भरतपुर और टोंक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Junior Instructor (WC&S)2018",
+      "sourceQuestionId": 5696,
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्पादन के अनुसार, राजस्थान में कौन सी प्रमुख दालें उत्पादित की जाती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चना एवं तूर"
+        },
+        {
+          "id": "opt2",
+          "text": "चना एवं मूंग"
+        },
+        {
+          "id": "opt3",
+          "text": "चना एवं मटर"
+        },
+        {
+          "id": "opt4",
+          "text": "मूंग एवं मसूर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Superintendent Gar. 2021 (GK)",
+      "sourceQuestionId": 5697,
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान के किस कृषि जलवायु क्षेत्र में ‘किन्नू’ की पैदावार की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I बी"
+        },
+        {
+          "id": "opt2",
+          "text": "II बी"
+        },
+        {
+          "id": "opt3",
+          "text": "III बी"
+        },
+        {
+          "id": "opt4",
+          "text": "IV बी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Home Science)",
+      "sourceQuestionId": 5706,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थ्ज्ञान में सबसे छोटा कृषि-जलवायु प्रदेश है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क पश्चिमी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "आर्द्र दक्षिणी मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्द्धशुष्क पूर्वी मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "आर्द्र दक्षिणी-पूर्वी मैदान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Lab Assistant Exam 2022 (Geography)",
+      "sourceQuestionId": 5708,
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: राजस्थान में सरसों के सबसे बड़े उत्पादक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीगंगानगर, अलवर, भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक, बूंदी, जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, पाली, दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा, जयपुर, धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5891,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पिंक बाॅलवर्ग हाल ही में खबरों में था, ये निम्न में से किस फसल के लिए हानिकारक है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सरसों"
+        },
+        {
+          "id": "opt2",
+          "text": "रेशम"
+        },
+        {
+          "id": "opt3",
+          "text": "कपास"
+        },
+        {
+          "id": "opt4",
+          "text": "सेब"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 5892,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में कृषि\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"राजस्थान में कृषि\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"राजस्थान में कृषि\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

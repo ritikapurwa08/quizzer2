@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थान में स्थापत्य कला",
+  "topicSlug": "राजस्थान-में-स्थापत्य-कला",
+  "testSetName": "राजस्थान में स्थापत्य कला - अभ्यास टेस्ट 52",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "औदक दुर्ग से आपका अभिप्राय क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिरि दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "धान्वन दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "सैन्य दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "जल दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 1",
+      "sourceQuestionId": 2182,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "औरंगजेब द्वारा निर्मित ‘बुलंद दरवाजा’ अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गागरौण किले में"
+        },
+        {
+          "id": "opt2",
+          "text": "जूनागढ़ किले में"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़ किले में"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़ किले में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 2183,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा प्राचीनतम मंदिर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा का श्रीनाथजी मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "रणकपुर का पार्श्वनाथ मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर का जगदीश मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "आभानेरी का हर्षद माता मंदिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 2184,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "मामादेव कुण्ड स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोनारगढ़ में"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़ में"
+        },
+        {
+          "id": "opt3",
+          "text": "जयगढ़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "जुनागढ़ में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 2185,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महामारु मंदिर निर्माण वास्तुशैली के संरक्षक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुहिल"
+        },
+        {
+          "id": "opt2",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "परमार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 2187,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "त्रिनेत्र गणेशजी का मंदिर कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़ दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़ दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "जयगढ़ दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 2188,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस मंदिर को ‘हाडौती का खजुराहो’ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिव मंदिर, बाडौली"
+        },
+        {
+          "id": "opt2",
+          "text": "शिव मंदिर, भण्डदेवरा"
+        },
+        {
+          "id": "opt3",
+          "text": "शिव मंदिर, मेनाल"
+        },
+        {
+          "id": "opt4",
+          "text": "शिव मंदिर, कंसुआ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 2189,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: बीकानेर के प्रसिद्ध किले का निर्माणकर्ता किसे कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगासिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रत्नसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2376,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सोनारगढ़ दुर्ग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धान्व दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "गिरि दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "जल दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "पारिख दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 2377,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थान में स्थापत्य कला\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थान में स्थापत्य कला\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थान में स्थापत्य कला\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

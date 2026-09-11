@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 38",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "ऋषिपंचमी मनायी जाती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण शुक्ला-५"
+        },
+        {
+          "id": "opt2",
+          "text": "आश्विन शुक्ला-५"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद शुक्ला-५"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक शुक्ला-५"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ऋषि पंचमी का दिन हिन्दू धर्म में बेहद महत्वपूर्ण माना जाता है। यह दिन सप्त ऋषियों को समर्पित है। वैदिक पंचाग के अनुसार, यह हर साल भाद्रपद माह के शुक्ल पक्ष के पांचवें दिन मनाया जाता है। आमतौर पर यह दिन गणेश चतुर्थी एक और हरतलिका तीज के दो दिन बाद आता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Agri. Officer 2011",
+      "sourceQuestionId": 25998,
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011"
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्टेनलेस स्टीन बनाने के लिए क्या प्रयोग में लाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "क्रोमियम और निकेल"
+        },
+        {
+          "id": "opt2",
+          "text": "निकेल और ताम्बा"
+        },
+        {
+          "id": "opt3",
+          "text": "क्रोमियम और ग्रेफाइट"
+        },
+        {
+          "id": "opt4",
+          "text": "बेंजीन और एसीटोन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "स्टेनलेस स्टील में लोहा(Fe), क्रोमियम(Cr) और निकेल(Ni) होता है। यह एक लौह मिश्र धातु है। लोहे में जंग लगने से रोकने के लिए निकेल और क्रोमियम मिलाया जाता है। 1054",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 25999,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "pH स्केल की खोज किसने की थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एस.पी.एल. सोलेनसन"
+        },
+        {
+          "id": "opt2",
+          "text": "बैंजामिन प्रैंâकलिन"
+        },
+        {
+          "id": "opt3",
+          "text": "हेनरी मोसले"
+        },
+        {
+          "id": "opt4",
+          "text": "विलहम रोंटजेन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पी.एच. स्केल का आविष्कार डेनमार्क के रसायनज्ञ सॉरेन पेडर लॉरिट्ज सॉरनसेन(S.P.L. Sorensen) ने किया था। उन्होंने साल १९०९ में पी.एच. स्केल को विकसित किया था।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 26000,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "धातुओं में जंग लगना किस प्रकार की अभिक्रिया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भौतिक अभिक्रिया"
+        },
+        {
+          "id": "opt2",
+          "text": "रासायनिक अभिक्रिया"
+        },
+        {
+          "id": "opt3",
+          "text": "दोनों"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई भी नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "धातुओं में जंग लगना एक रासायनिक अभिक्रिया कहलाती है। धातुओं की सतह पर वायु, नमी ओर रसायनों के प्रभाव से होने वाली क्षति या नष्ट होने की प्रक्रिया है। यह एक रासायनिक या वैद्युत रासायनिक क्रिया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 26001,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा अम्ल सबसे प्रबल है/",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "HClO4"
+        },
+        {
+          "id": "opt2",
+          "text": "HClO3"
+        },
+        {
+          "id": "opt3",
+          "text": "HClO2"
+        },
+        {
+          "id": "opt4",
+          "text": "HF"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ऑक्सीएसिड की ताकत ऑक्सीजन परमाणुओं की संख्या के साथ बढ़ती है। इसका मतलब है कि परक्लोरिक एसिड (HCIO4) हाइपोक्लोरस एसिड(HCIO)की तुलना में बहुत ज्यादा मजबूत एसिड है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 26002,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "वाशिंग पाउडर को सूखा रखने के लिए कौन-सा रसायन मिलाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोडियम सिलिकेट"
+        },
+        {
+          "id": "opt2",
+          "text": "अकार्बनिक फॉसफेट"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्बोक्सी-मिथाइल सेल्यूलोज"
+        },
+        {
+          "id": "opt4",
+          "text": "सोडियम परबोरेट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वांशिग पाउडर को सूखा रखने के लिए सोडियम सल्फेट और सोडियम सिलिकेट मिलाया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 26003,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में प्रचुर मात्रा में पाया जाने वाला अयस्क है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोनो़जाइट"
+        },
+        {
+          "id": "opt2",
+          "text": "फ्लूर्स्पार"
+        },
+        {
+          "id": "opt3",
+          "text": "बॉक्साइट"
+        },
+        {
+          "id": "opt4",
+          "text": "मैगनेटाइट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मोनाजाइट रेट, दुर्लभ मृदा तत्वों का एक अयस्क है। यह रेडियोधर्मी होती है और इसमें थोरियम की मात्रा ज्यादा होती है। मोनाजाइट रेत में लैंटानम, सेरियम प्रेसियोडीमियम, नियोडिमियम जैसे तत्व भी पाए जाते हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+      "sourceQuestionId": 26004,
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘जुकोटी पार्क’ स्थित है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बर्लिन में"
+        },
+        {
+          "id": "opt2",
+          "text": "जीनिवा में"
+        },
+        {
+          "id": "opt3",
+          "text": "न्यूयॉक में"
+        },
+        {
+          "id": "opt4",
+          "text": "पेरिस में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "`जुकोटी पार्क' न्यूयॉर्क शहर के लोअर मैनहट्टन जिले में ३३,००० वर्ग फीट में स्थित है। इस पार्क का निर्माण १९६८ में पिट्सबर्ग स्थित यूनाइटेड स्टेट्स स्टीफ द्वारा किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 26133,
+      "reference": "✎ PYQ Modified · RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: उत्तर पूर्वी क्षेत्रीय शिक्षा संस्थान शिलाँग की स्थापना कौन से वर्ष हुई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1985"
+        },
+        {
+          "id": "opt2",
+          "text": "1995"
+        },
+        {
+          "id": "opt3",
+          "text": "1978"
+        },
+        {
+          "id": "opt4",
+          "text": "1975"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उत्तर पूर्वी क्षेत्रीय शिक्षा संस्थान, शिलांग की स्थापना वर्ष १९९५ में उमियम गांव, शिलांग में की गयी। इसने अपना कार्य २२ मार्च, १९९६ से शुरू किया। पूर्वोत्तर राज्यों जैसे- असम, मणिपुर, मेघालय, मिजोरम, त्रिपुरा नागालैण्ड, सिक्किम एवं अरूणाचल प्रदेश की शैक्षिक आवश्यकताओं को पूरा करने के लिए इसकी स्थापना की गयी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher sanskrit-2018",
+      "sourceQuestionId": 26135,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher sanskrit-2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" परीक्षोपयोगी दृष्टि से इसके मुख्य घटकों से संबंधित सही तथ्य की पहचान कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

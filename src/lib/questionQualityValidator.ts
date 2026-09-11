@@ -10,6 +10,8 @@
  *  - Citation/artifact contamination
  */
 
+import { isFakeExam } from "@/components/quiz/QuestionSourceMeta";
+
 export type QuestionForValidation = {
   _id?: string;
   questionText: string;
@@ -18,11 +20,12 @@ export type QuestionForValidation = {
   type: string;
   difficulty?: "easy" | "medium" | "hard";
   explanation?: string;
-  sourceType?: "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW" | string;
+  sourceType?: "PYQ" | "PYQ_EXACT" | "PYQ_MODIFIED" | "AI_NEW" | string;
   sourceQuestionId?: number;
   exam?: string;
   meta?: Record<string, any>;
 };
+
 
 export type QualityIssue = {
   severity: "error" | "warning" | "info";
@@ -102,6 +105,7 @@ export function validateQuestionBank(
   const difficultyDistribution: Record<string, number> = { easy: 0, medium: 0, hard: 0, unknown: 0 };
   const typeDistribution: Record<string, number> = {};
   const sourceTypeDistribution: Record<string, number> = {
+    PYQ: 0,
     PYQ_EXACT: 0,
     PYQ_MODIFIED: 0,
     AI_NEW: 0,
@@ -257,40 +261,32 @@ export function validateQuestionBank(
 
     // ── 9. Provenance & Source tracking ──────────────────────────────────
     const effectiveSourceType = q.sourceType ?? q.meta?.sourceType;
-    const effectiveSourceId = q.sourceQuestionId ?? q.meta?.sourceQuestionId;
     const effectiveExam = q.exam ?? q.meta?.exam;
 
     if (effectiveSourceType) {
-      if (!["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
+      if (!["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
         addIssue(
           "error",
           "INVALID_SOURCE_TYPE",
-          `प्रश्न ${qNum}: अमान्य sourceType "${effectiveSourceType}" — केवल PYQ_EXACT, PYQ_MODIFIED या AI_NEW मान्य है।`
+          `प्रश्न ${qNum}: अमान्य sourceType "${effectiveSourceType}" — केवल PYQ, PYQ_MODIFIED या AI_NEW मान्य है।`
         );
       } else {
         sourceTypeDistribution[effectiveSourceType] =
           (sourceTypeDistribution[effectiveSourceType] ?? 0) + 1;
       }
 
-      if (effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") {
-        if (typeof effectiveSourceId !== "number" || effectiveSourceId <= 0) {
+      if (effectiveSourceType === "PYQ" || effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") {
+        if (effectiveExam && isFakeExam(effectiveExam)) {
           addIssue(
             "error",
-            "MISSING_SOURCE_ID",
-            `प्रश्न ${qNum}: ${effectiveSourceType} प्रश्न में वैध sourceQuestionId अनुपस्थित है।`
+            "FABRICATED_EXAM",
+            `प्रश्न ${qNum}: अमान्य या नकली परीक्षा नाम "${effectiveExam}" पाया गया। केवल वास्तविक परीक्षा नाम मान्य हैं।`
           );
         }
       } else if (effectiveSourceType === "AI_NEW") {
-        if (effectiveSourceId !== undefined) {
-          addIssue(
-            "error",
-            "INVALID_AI_NEW_SOURCE_ID",
-            `प्रश्न ${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`
-          );
-        }
         if (effectiveExam) {
           addIssue(
-            "warning",
+            "error",
             "FABRICATED_EXAM_ON_AI_NEW",
             `प्रश्न ${qNum}: AI_NEW प्रश्न में परीक्षा संदर्भ जोड़ा गया है — यह केवल PYQ में अनुमत है।`
           );
@@ -300,6 +296,23 @@ export function validateQuestionBank(
       sourceTypeDistribution.unknown = (sourceTypeDistribution.unknown ?? 0) + 1;
     }
   });
+
+  // ── Global checks ─────────────────────────────────────────────────────────
+
+  // Strict 7:2:1 ratio check for 10-question tests
+  if (questions.length === 10) {
+    const pyqs = (sourceTypeDistribution["PYQ"] ?? 0) + (sourceTypeDistribution["PYQ_EXACT"] ?? 0);
+    const modified = sourceTypeDistribution["PYQ_MODIFIED"] ?? 0;
+    const ai = sourceTypeDistribution["AI_NEW"] ?? 0;
+    if (pyqs !== 7 || modified !== 2 || ai !== 1) {
+      issues.push({
+        severity: "error",
+        code: "INVALID_RATIO_CONTRACT",
+        message: `10-प्रश्न टेस्ट अनुबंध उल्लंघन: ठीक 7 PYQ, 2 PYQ_MODIFIED, 1 AI_NEW होने चाहिए। वर्तमान: ${pyqs} PYQ, ${modified} MODIFIED, ${ai} AI।`,
+        detail: `Found: PYQ=${pyqs}, MODIFIED=${modified}, AI_NEW=${ai}`,
+      });
+    }
+  }
 
   // ── Global checks ─────────────────────────────────────────────────────────
 

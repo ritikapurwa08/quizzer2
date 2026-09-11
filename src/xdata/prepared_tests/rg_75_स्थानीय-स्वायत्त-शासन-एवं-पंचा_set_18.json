@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की राजव्यवस्था एवं प्रशासनिक व्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topic": "स्थानीय स्वायत्त शासन एवं पंचायती राज",
+  "topicSlug": "स्थानीय-स्वायत्त-शासन-एवं-पंचायती-राज",
+  "testSetName": "स्थानीय स्वायत्त शासन एवं पंचायती राज - अभ्यास टेस्ट 18",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "यदि कोई पंचायत राज संस्था अपनी अवधि समाप्त होने से पूर्व भंग कर दी जाती है, तो उसका निर्वाचन ____ होना चाहिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विघटन से तीन माह के अंदर"
+        },
+        {
+          "id": "opt2",
+          "text": "विघटन से छ: माह के अंदर"
+        },
+        {
+          "id": "opt3",
+          "text": "विघटन से एक वर्ष के अंदर"
+        },
+        {
+          "id": "opt4",
+          "text": "कभी भी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 4",
+      "sourceQuestionId": 15941,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा कार्य नगरीय निकायों का नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गरीबी निवारण"
+        },
+        {
+          "id": "opt2",
+          "text": "आबकारी नियमन"
+        },
+        {
+          "id": "opt3",
+          "text": "जनस्वास्थ्य एवं सफाई"
+        },
+        {
+          "id": "opt4",
+          "text": "अग्निशमन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forest Guard Exam 2022 Shift 3",
+      "sourceQuestionId": 15942,
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नांकित में से किस / किन जिला/ जिलों के सभी स्तरों पर पंचायती राज संस्थाओं के अध्यक्षों के सभी स्थान अनुसूचित जनजाति के व्यक्तियों के लिए आरक्षित हैं -(A) बाँसवाड़ा(B) डूंगरपुर(C) प्रतापगढ़(D) सिरोहीसही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (A), (B) और (C)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (A), (B) और (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (B), (C) और (D)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A), (B), (C) और (D)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Evaluation Officer 2020",
+      "sourceQuestionId": 15947,
+      "reference": "📌 PYQ — Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नगरपालिका के सदस्य के रूप में किसी व्यक्ति के निर्वाचन को किसके समक्ष निर्वाचन याचिका प्रस्तुत कर प्रश्नगत किया जा सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जिला न्यायाधीश"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला निर्वाचन अधिकारी"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्य निर्वाचन अधिकारी"
+        },
+        {
+          "id": "opt4",
+          "text": "निर्वाचन अधिकारी (रिटर्निंग अधिकारी)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Evaluation Officer 2020",
+      "sourceQuestionId": 15949,
+      "reference": "📌 PYQ — Evaluation Officer 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 राज्य में कब अस्तित्व में आया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "23 अप्रैल, 1994"
+        },
+        {
+          "id": "opt2",
+          "text": "23 अप्रैल, 1995"
+        },
+        {
+          "id": "opt3",
+          "text": "24 अप्रैल, 1994"
+        },
+        {
+          "id": "opt4",
+          "text": "24 अप्रैल, 1995"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RSMSSB PTI Grade-III P1",
+      "sourceQuestionId": 15953,
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नगर परिषदों की कुल संख्या (1 जनवरी, 2022 को यथाविद्यमान) है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "30"
+        },
+        {
+          "id": "opt2",
+          "text": "34"
+        },
+        {
+          "id": "opt3",
+          "text": "35"
+        },
+        {
+          "id": "opt4",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+      "sourceQuestionId": 15955,
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "74वाँ संविधान संशोधन अधिनियम कब अस्तित्व में आया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 जून, 1993 को"
+        },
+        {
+          "id": "opt2",
+          "text": "20 अप्रैल, 1992 को"
+        },
+        {
+          "id": "opt3",
+          "text": "2 अक्टूबर, 1993 को"
+        },
+        {
+          "id": "opt4",
+          "text": "30 जनवरी, 1993 को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN 2022: Civil Degree (GK)",
+      "sourceQuestionId": 15956,
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: पंचायती राज अधिनियम के अनुसार पंच, उपसरपंच व सरपंच अपना त्यागपत्र किसको सौंपते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उपखण्ड अधिकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला प्रमुख"
+        },
+        {
+          "id": "opt3",
+          "text": "विकास अधिकारी"
+        },
+        {
+          "id": "opt4",
+          "text": "जिला कलेक्टर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16025,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: पंचायती राज संस्था के चुनाव लड़ने हेतु प्रत्याशी की निर्धारित न्यूनतम आयु सीमा क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 वर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "21 वर्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "25 वर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "30 वर्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 16027,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"स्थानीय स्वायत्त शासन एवं पंचायती राज\" के प्रमुख व्यावहारिक एवं अवधारणात्मक संदर्भ में सही विकल्प का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "\"स्थानीय स्वायत्त शासन एवं पंचायती राज\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "\"स्थानीय स्वायत्त शासन एवं पंचायती राज\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

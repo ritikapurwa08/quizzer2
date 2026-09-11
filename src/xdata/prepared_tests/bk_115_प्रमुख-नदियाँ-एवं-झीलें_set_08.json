@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्रमुख नदियाँ एवं झीलें",
+  "topicSlug": "प्रमुख-नदियाँ-एवं-झीलें",
+  "testSetName": "प्रमुख नदियाँ एवं झीलें - अभ्यास टेस्ट 8",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जो नदी शेष अन्य से भिन्न है, वह है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नर्मदा"
+        },
+        {
+          "id": "opt2",
+          "text": "सिन्धु"
+        },
+        {
+          "id": "opt3",
+          "text": "ताप्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "महानदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महानदी बंगाल की खाड़ी में गिरती है, जबकि नर्मदा, सिन्धु तथा ताप्ती नदियाँ अरब सागर में गिरती हैं। इस आधार पर महानदी अन्य नदियों से भिन्न है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 1999-2000",
+      "sourceQuestionId": 20057,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000"
+    },
+    {
+      "type": "mcq",
+      "questionText": "महानदी पर र्नििमत बांध का नाम है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाखड़ा नांगल"
+        },
+        {
+          "id": "opt2",
+          "text": "गांधी सागर"
+        },
+        {
+          "id": "opt3",
+          "text": "हीराकुंड"
+        },
+        {
+          "id": "opt4",
+          "text": "तुंगभद्रा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हीराकुण्ड बांध का निर्माण महानदी पर ओडिशा राज्य में किया गया है। हीराकुण्ड परियोजना के अंतर्गत टिकरपाड़ा और नराज के पास भी बांध बनाए गए हैं। इस परियोजना से बिजली उत्पादन तथा डेल्टाई भागों में सिंचाई की जाती है। भाखड़ा नांगल परियोजना पंजाब, हरियाणा तथा राजस्थान राज्यों का संयुक्त उपक्रम है। जो सतलज नदी पर निर्मित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC RAS/RTS Pre 1994-95",
+      "sourceQuestionId": 20058,
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1994-95"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नदी को ‘दक्षिण की गंगा के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृष्णा"
+        },
+        {
+          "id": "opt2",
+          "text": "गोदावरी"
+        },
+        {
+          "id": "opt3",
+          "text": "महानदी"
+        },
+        {
+          "id": "opt4",
+          "text": "परियार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गोदावरी नदी को ‘दक्षिण की गंगा’ के नाम से जाना जाता है। यह प्रायद्वीपीय भारत की सबसे लम्बी नदी है। इसकी लम्बाई १४६५ किमी. है। यह पश्चिमी घाट ने त्रयंबक पहाड़ी से निकलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "sourceQuestionId": 20059,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोसी एवं कालीसिन्ध नदियाँ जिस प्रवाह-तंत्र से जुड़ी हैं, वह है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिन्ध नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "आन्तरिक प्रवाह"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्रह्म्मपुत्र नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगा नदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोसी और कालीसिन्ध दोनों नदियाँ गंगा अपवाह तंत्र का हिस्सा हैं, जिन्हें विशेष रूप से गंगा नदी बेसिन की सहायक नदियाँ माना जाता है। कालीसिंध नदी चंबल जल निकासी प्रणाली के अंतर्गत एक बारहमासी धारा है, जो यमुना बेसिन का हिस्सा है और अंतत: गंगा में मिल जाती है। कोसी नदी गंगा नदी तत्व का हिस्सा है। अत: विकल्प(d) सही है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Grade-II 2013",
+      "sourceQuestionId": 20060,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Grade-II 2013"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सही सुमेलित हैः नदी सहायक नदी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महानदी हसदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "कृष्णा प्राणहिता"
+        },
+        {
+          "id": "opt3",
+          "text": "गोदावरी मूसी"
+        },
+        {
+          "id": "opt4",
+          "text": "तापी उंग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "महानदी पूर्व की ओर बहने वाली प्रमुख प्रायद्वीपीय नदी है। इसकी सहायक नदी-हसदेव, जोंक, तेल आदि है। प्राणहिता गोदावरी नदी की सहायक नदी है। मूसी, कृष्णा नदी की सहायक नदी है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+      "sourceQuestionId": 20061,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 28/10/2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नदी जो कि गंगा नदी तन्त्र का अंग नहीं है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घाघरा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोसी"
+        },
+        {
+          "id": "opt3",
+          "text": "गण्डक"
+        },
+        {
+          "id": "opt4",
+          "text": "चिनाब"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चिनाव नदी, सिन्धु नदी तंत्र का अंग है। झेलम, सतलज रावी और व्यास सिन्घु नदी तंत्र की अन्य नदियाँ है। घाघरा, कोसी और गण्डक गंगा नदी तंत्र का अंग है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (G-E) 2022",
+      "sourceQuestionId": 20062,
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "गंगा की सहायक नदी नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोमती"
+        },
+        {
+          "id": "opt2",
+          "text": "मानस"
+        },
+        {
+          "id": "opt3",
+          "text": "घाधरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सोन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मानस नदी ब्रह्मपुत्र नदी, की सहायक है न कि गंगा नदी की। गोमती, घाघरा और सोन गंगा नदी की सहायक नदी है। 322",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "sourceQuestionId": 20063,
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सोम एक सहायक नदी है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबरमती की"
+        },
+        {
+          "id": "opt2",
+          "text": "माही की"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सोम नदी उदयपुर में ऋषभदेव के पास विछामेड़ा पहाड़ियाों से निककलती है। सोम नदी वेणेश्वर में माही नदी में मिलती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+      "sourceQuestionId": 20579,
+      "reference": "✎ PYQ Modified · RPSC Sr. Teacher Gr-II 28/10/2018"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: घग्गर मैदान के विस्तार वाले जिले हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर-भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर -नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली-सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर-हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "घग्गर का मैदान गंगानगर एवं हनुमानगढ़ जिलों में विस्तृत है। यह मैदान घग्गर और हाकरा का संयुक्त मैदान है। 378",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC School Lect. (G-E) 2022",
+      "sourceQuestionId": 20581,
+      "reference": "✎ PYQ Modified · RPSC School Lect. (G-E) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्रमुख नदियाँ एवं झीलें\" के समग्र विकास एवं व्यावहारिक प्रासंगिकता के संबंध में निम्नलिखित में से सही कथन है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"प्रमुख नदियाँ एवं झीलें\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"प्रमुख नदियाँ एवं झीलें\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

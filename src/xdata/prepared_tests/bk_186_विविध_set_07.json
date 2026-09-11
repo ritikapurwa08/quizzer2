@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 7",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "αतथाβदो धनात्मक पूर्णांकों मेंαका न्यूनतम अभाज्य गुणनफल ३ तथाβका न्यूनतम अभाज्य गुणनखण्ड ५ हो, तो (α +β) का न्यूनतम अभाज्य गुणनखण्ड होगा–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2"
+        },
+        {
+          "id": "opt2",
+          "text": "3"
+        },
+        {
+          "id": "opt3",
+          "text": "11"
+        },
+        {
+          "id": "opt4",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "α का न्यूनतम अभाज्य गुणनफल ३ है ∴ मानα = 3k तथाβ का न्यूनतम गुणनफल ५ है। ∴ मानाβ = 5L α + β = 3k + 5L = विषम ± विषम= सम संख्या ∵ α + β एक सम संख्या है जिसका न्यूनतम अभाज्य गुणनखण्ड २ होगा। अत: विकल्प(a)सही उत्तर होगा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (SE) 2022",
+      "sourceQuestionId": 25121,
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि समीकरणx2 – x – 2 = 0 के मूलα और βहो तो x में वह द्विघात समीकरण ज्ञात कीजिए जिसके मूल (2α + 1) और (2β + 1) हो",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "x2+ 5x – 4 = 0"
+        },
+        {
+          "id": "opt2",
+          "text": "x2– 4x – 5 = 0"
+        },
+        {
+          "id": "opt3",
+          "text": "x2+ 4x – 5 = 0"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "x2 – x – 2 = 0 तो,α + β = 1 αβ = – 2 वह द्विघात समीकरण जिसके मूल(2α + 1)एवं(2β + 1) हो, वह है– x2 – (2α + 1 + 2β + 1) x + {(2α + 1) (2β + 1)}=0 ⇒ x2 – {2 (α + β) + 2} x + {4αβ + 2α + 2β + 1} = 0 ⇒ x2 – {2 (α + β) + 2} x + {4αβ + 2 (α + β) + 1}=0 ......(1) α + β औरαβका मूल समीकरण(1) में रखने पर, x2 – {2 (1) + 2} x + {4 (–2) + 2 (1) + 1}=0 ⇒x2 – 4x – 5=0",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25122,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि समीकरणx2 – x – 4 = 0 के मूलα एवं β हो तो 1 1 + -αβ α β का मान होगा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16 7"
+        },
+        {
+          "id": "opt2",
+          "text": "8 5"
+        },
+        {
+          "id": "opt3",
+          "text": "15 4"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "द्विघात समीकरण, x2 – (मूलों का योगफल) x + (मूलों का गुणनफल) = 0 प्रश्न के अनुसार, x2 – (α + β) x + (αβ) = 0 दिया गया समीकरण, x2 – x – 4 = 0 तो तो, α + β = 1 αβ = – 4 अब1 1 + + = b α β −αβ −αβ α β α 1 = (4) 4 −− − 1 = + 4 4 − 15 = 4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Accountant & Jr. Acct. Paper-I",
+      "sourceQuestionId": 25123,
+      "reference": "📌 PYQ — RPSC Accountant & Jr. Acct. Paper-I"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि बहुपद2x2+5x+kके शून्यकα, β इस प्रकार हैं कि α2+β2+αβ =21, 4तोk = …….",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7"
+        },
+        {
+          "id": "opt2",
+          "text": "–7"
+        },
+        {
+          "id": "opt3",
+          "text": "–2"
+        },
+        {
+          "id": "opt4",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "समीकरण-2x2 + 5x + k से a = 2, b = 5, c = k α + β = b 5 a 2 − − = αβ = c k a 2 = 2 2 2 2 5 k () 2 2 2 2 −   α +β = α +β −αβ = −×     = 25 k 4 − तो 2 2 21 4 α +β + αβ = 25 k 21 k 4 2 4 − + = 25 – 4k + 2k = 21 2k = 4 k = 2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (SE) 2022",
+      "sourceQuestionId": 25124,
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदिa, b, c अशून्य अपरिमेय इस प्रकार है किabc = 1, तो-       -1 -1 -1 1 1 1 + + 1+ a + b 1+c +a 1+b +c का मान बराबर है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0"
+        },
+        {
+          "id": "opt2",
+          "text": "1"
+        },
+        {
+          "id": "opt3",
+          "text": "+ b + c"
+        },
+        {
+          "id": "opt4",
+          "text": "1 1 a b c + +"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "∵ abc = 1तोc = 1 1,c ab ab −= = 1 1 1 1 1 1 1 a b 1 c a 1 b c − − − + + + + + + + + = 1 1 1 1 1 1 1 b ab 1 a 1 b ab a + + + + + + + + = b ab 1 b ab 1 ab 1 b 1 b ab + + + + + + + + = b ab 1 b ab 1 + + + + = 1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (Group-D) 2022",
+      "sourceQuestionId": 25127,
+      "reference": "📌 PYQ — RPSC School Lect. (Group-D) 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि27x–y = 243 और7x+y = 2401, हो, तोxऔरy का मान है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "= 3, y = 2"
+        },
+        {
+          "id": "opt2",
+          "text": "= 3, y = 1"
+        },
+        {
+          "id": "opt3",
+          "text": "17 7 x, y 6 6 = ="
+        },
+        {
+          "id": "opt4",
+          "text": "7 17 x, y 6 6 = ="
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "27x–y = 243 ⇒ 33(x–y)= 35 ⇒3(x –y) = 5 –––––––– समी(i) ∵ 7x+y = 2401 ⇒ 7x+y = 74 ⇒ x + y = 4 ––––––––– (ii) समी.(i) तथा(ii) को हल करने पर- x = 17 7, y 6 6 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. Group-C (S.E.)2022",
+      "sourceQuestionId": 25128,
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि0.dcabdcabdcab...... 31, 1111 = तो ad bc a c + + मान है: (a,b,c और d अलग-अलग अंक हैं, जिनमें से सभी शून्य नहीं हैं)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "6"
+        },
+        {
+          "id": "opt4",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "0.dcabdcabdcab............= 31 1111 31 0.dcab 1111 = dcab 31 9999 1111 = dcab 31 9 1111 1111 = × dcab = 31 × 9 ∵ dcab = 0279 अत: d = 0, c = 2, a = 7, b = 9 ad bc 7 0 9 2 a c 7 2 + × + × = + + = 18 2 9 =",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC School Lect. (SE) G-B 2022",
+      "sourceQuestionId": 25129,
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: ‘अटल टनल’ किस राज्य में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मि़जोरम"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt4",
+          "text": "हिमाचल प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अटल टनल हिमाचल प्रदेश के लाहौल क्षेत्र में है। यह टनल रोहतांग दरें में बनाई गई है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 26070,
+      "reference": "✎ PYQ Modified · RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: सामाजिक सेवा क्षेत्र में कितने पद्म श्री सम्मान २०२१ प्राप्त किया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाखा खान"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्जुन सिंह शेखावत"
+        },
+        {
+          "id": "opt3",
+          "text": "मगन बिस्सा"
+        },
+        {
+          "id": "opt4",
+          "text": "श्याम सुन्दर पालीवाल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष २०२१ में सामाजिक सेवा क्षेत्र में अर्जुन सिंह शेखावत को पद्मश्री सम्मान से सम्मानित किया गया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Asst. Testing Officer 2021",
+      "sourceQuestionId": 26071,
+      "reference": "✎ PYQ Modified · RPSC Asst. Testing Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" की संरचनात्मक विशेषताओं के संदर्भ में निम्नलिखित में से कौन-सा विकल्प उपयुक्त है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

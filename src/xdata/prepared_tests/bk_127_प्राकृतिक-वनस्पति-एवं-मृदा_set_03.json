@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "प्राकृतिक वनस्पति एवं मृदा",
+  "topicSlug": "प्राकृतिक-वनस्पति-एवं-मृदा",
+  "testSetName": "प्राकृतिक वनस्पति एवं मृदा - अभ्यास टेस्ट 3",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "वर्टीसोल मृदा मुख्य रूप से पाई जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़, कोटा, बून्दी, बारां जिलों में"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू, सीकर, झुन्झुनू, नागौर जिलों में"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, पाली, उदयपुर, चित्तौड़गढ़ जिलों में"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर, बाड़मेर बीकानेर, जोधपुर जिलों में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्टीसोल मृदा राजस्थान के झालावाड़ कोटा, बूँदी बारां जिलों में पाई जाती है। इस मृदा में अत्यधिक क्ले उपस्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Asst. Statistical Officer 2021",
+      "sourceQuestionId": 20624,
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस प्रदेश में शुष्क सागवान के वन पाये जाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी-पूर्वी"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिणी"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "शुष्क सागवान के वन राजस्थान के दक्षिणी भाग में पाए जाते है। मुख्यत: बांसवाडा और डूँगरपुर जिलों में इन वनों का विस्तार है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 20625,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाड़ौती पठार पर निम्नलिखित में से कौन-सी मृदा पाई जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्टीसोल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "इन्सेप्टीसोल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "अल्फीसोल्स"
+        },
+        {
+          "id": "opt4",
+          "text": "एन्टीसोल्स"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हड़ौती के पठार में मुख्यत: वर्टीसोल्स मृदा पाई जाती है। इस पठारी क्षेत्र का विस्तार झालावाड़, कोटी बूँदी एवं बारां जिलों में है। यह आर्द्र व अति आर्द्र, जलवायु में पाई जाने वाली मृदा है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 20626,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का ‘‘कल्पवृक्ष है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रोहिड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "महुआ"
+        },
+        {
+          "id": "opt3",
+          "text": "खेजड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "नीम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "खेजड़ी को राजस्थान का कल्पवृक्ष कहा जाता है। खेजड़ी या शमी राजस्थान का राज्य वृक्ष है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 20627,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "जिप्सीफेरस मृदा पाई जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जिप्सीफेरस मृदा राजस्थान के बीकानेर जिले में पाई जाती है, इसमें जिप्सम की पर्याप्त मात्रा होती है। आमतौर पर यह नम जलवायु में नही पाई जाती है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Yoga & Prakritik Chikista Adhikari 2020",
+      "sourceQuestionId": 20628,
+      "reference": "📌 PYQ — RPSC Yoga & Prakritik Chikista Adhikari 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डीडवाना, पचदरा, सांभर झीलों में मृदा पायी जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लिथोसोल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "सोलनचॉक"
+        },
+        {
+          "id": "opt3",
+          "text": "सीरोजेम्स"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्राउन मृदा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सोलनचॉक मृदा राजस्थान के पचपदरा सांभर, डीडवाना, जालौर के रण और बाड़मेर में पाई जाती है। इस मृदा को लवणीय सोड़िक/सेलाइन सोड़िक मृदा भी कहा जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Veterinary Officer 2019",
+      "sourceQuestionId": 20629,
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगरपुर तथा बाँसवाड़ा के अधिकांश में है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवरिना मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल दोमट (लोम) मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्रे ब्राउन जलोढ़ मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "जिप्सीफेरस मृदा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लाल दोमट मृदा राजस्थान के डूँगरपुर व बाँसवाड़ा में मुख्य रूप से तथा उदयपुर व चित्तौगढ़ के कुछ हिस्सों में पाई जाती है। 383",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Veterinary Officer 2019",
+      "sourceQuestionId": 20630,
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: सागवन-रोपण हेतु सबसेउपयुक्त जिले हैं─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर एवं अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीगंगानगर एवं बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर एंव सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "बाँसवाड़ा एवं उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सागवन रोपण हेतु90सेंटीमीटर से अधिक वर्षा वाले क्षेत्र उपयुक्त माने जाते हैं। सागवन वन राज्य के दक्षिणी भाग में बांसवाड़ा वन विभाग के अन्तर्गत लगभग5,200वर्ग किमी० क्षेत्र में विस्तृत हैं। इनमें मुख्यत: सागवन के वृक्षों का रोपण किया जाता है। इसके अतिरिक्त चितौड़गढ़, उदयपुर और बारां के वन भी सागवन-रोपण हेतु उपयुक्त हैं।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1996",
+      "sourceQuestionId": 20696,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1996"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: ``सेवण घास''किस जिले में विस्तृत रूप से उगती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पाकिस्तान की अन्तर्राष्ट्रीय सीमा से सटे हुए राजस्थान के जैसेलमेर जिले के विस्तृत क्षेत्र में सेंवण घास उगाई जाती है। सेंवण घास का उपयोग रस्सियाँ बनाने तथा लुग्दी बनाने में किया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC RAS/RTS Pre 1996",
+      "sourceQuestionId": 20697,
+      "reference": "✎ PYQ Modified · RPSC RAS/RTS Pre 1996"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"प्राकृतिक वनस्पति एवं मृदा\" के प्रासंगिक तथ्यों एवं महत्वपूर्ण निष्कर्षों का परीक्षण कर सही विकल्प चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "\"प्राकृतिक वनस्पति एवं मृदा\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "\"प्राकृतिक वनस्पति एवं मृदा\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

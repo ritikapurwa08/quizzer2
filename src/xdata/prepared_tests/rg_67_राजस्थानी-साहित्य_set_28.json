@@ -1,0 +1,287 @@
+{
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topic": "राजस्थानी साहित्य",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "testSetName": "राजस्थानी साहित्य - अभ्यास टेस्ट 28",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘सफेद मेमने’ और ‘पत्तों की विरादरी’ किस उपन्यासकार की रचनायें है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रांगेय राघव"
+        },
+        {
+          "id": "opt2",
+          "text": "मणि मधुकर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजेन्द्र मोहन भटनागर"
+        },
+        {
+          "id": "opt4",
+          "text": "रामप्रताप शर्मा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Forester Exam 2020 Shift 1",
+      "sourceQuestionId": 15013,
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी की एक प्रारंभिक रचना, रणमल छंद के रचनाकार थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिवदास"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिभद्र सूरि"
+        },
+        {
+          "id": "opt3",
+          "text": "बादर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीधर व्यास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "sourceQuestionId": 15014,
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020"
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जागती जोत’ पत्रिका का प्रकाशन किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी भाषा, साहित्य एवं संस्कृति अकादमी, बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान साहित्य अकादमी, उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान हिन्दी ग्रंथ अकादमी, जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान ललित कला अकादमी, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 15015,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन विजयदान देथा द्वारा नहीं लिखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बातां री फुलवारी"
+        },
+        {
+          "id": "opt2",
+          "text": "रूख"
+        },
+        {
+          "id": "opt3",
+          "text": "माँ रो बदलो"
+        },
+        {
+          "id": "opt4",
+          "text": "बलवंत विलास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "JEN Agriculture 2022",
+      "sourceQuestionId": 15016,
+      "reference": "📌 PYQ — JEN Agriculture 2022"
+    },
+    {
+      "type": "mcq",
+      "questionText": "विग्रहराज- IV की साहित्यिक रचना-- हरकेली है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भजनों का संग्रह"
+        },
+        {
+          "id": "opt2",
+          "text": "नाटक"
+        },
+        {
+          "id": "opt3",
+          "text": "कविता"
+        },
+        {
+          "id": "opt4",
+          "text": "धार्मिक ग्रंथ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "ASSI. TESTING OFFICER 2021",
+      "sourceQuestionId": 15020,
+      "reference": "📌 PYQ — ASSI. TESTING OFFICER 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I व सूची-II का मिलान कीजिए और नीचे दिए गए कूट के आधार पर सही उत्तर चुनिए -सूची-I (पुस्तकों के नाम)(A) श्रृंगार हार(B) राग मंजरी(C) संगीत मीमांसा(D) भाव मंजरीसूची-II (लेखकों के नाम )(i) कुम्भा (ii) हम्मीर(iii) पं. भावभट्ट(iv) पुण्डरीक विट्ठलकूट - A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii) (ii) (i) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) (iv) (ii) (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(ii) (iv) (i) (iii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Statistical Officer 2021",
+      "sourceQuestionId": 15021,
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा युग्म सुमेलित नहीं है -(पुस्तकें) (लेखक)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागदमण - सायां झूला"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरसिंह रऊ छन्द - माधोदास चारण"
+        },
+        {
+          "id": "opt3",
+          "text": "जसरत्नाकर - विट्ठलदास"
+        },
+        {
+          "id": "opt4",
+          "text": "राजविनोद - जगजीवन भट्ट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "Asst. Statistical Officer 2021",
+      "sourceQuestionId": 15022,
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: महाराणा प्रताप के दरबारी विद्वान जिसने ‘मुहुत्र्तमाला’ ग्रन्थ की रचना की, वह था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामा सान्दु"
+        },
+        {
+          "id": "opt2",
+          "text": "माला सान्दु"
+        },
+        {
+          "id": "opt3",
+          "text": "चक्रपाणि मिश्र"
+        },
+        {
+          "id": "opt4",
+          "text": "ताराचंद"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15116,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: निम्नलिखित में से कौन सी रचना मीराबाई की है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सखी"
+        },
+        {
+          "id": "opt2",
+          "text": "बीजक"
+        },
+        {
+          "id": "opt3",
+          "text": "शबद"
+        },
+        {
+          "id": "opt4",
+          "text": "पदावली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "sourceQuestionId": 15117,
+      "reference": "✎ PYQ Modified"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"राजस्थानी साहित्य\" की ऐतिहासिक एवं भौगोलिक प्रासंगिकता के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "\"राजस्थानी साहित्य\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "\"राजस्थानी साहित्य\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}

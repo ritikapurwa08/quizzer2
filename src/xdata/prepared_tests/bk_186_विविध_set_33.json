@@ -1,0 +1,298 @@
+{
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topic": "विविध",
+  "topicSlug": "विविध",
+  "testSetName": "विविध - अभ्यास टेस्ट 33",
+  "negativeMarking": true,
+  "questionCount": 10,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘‘हिन्दू रेट ऑफ ग्रोथ’’ अवधारणा किसके द्वारा दी गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज कृष्णा"
+        },
+        {
+          "id": "opt2",
+          "text": "सी.सुब्रमण्यम"
+        },
+        {
+          "id": "opt3",
+          "text": "डी.पी.धर"
+        },
+        {
+          "id": "opt4",
+          "text": "जे.एन.भगवती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘‘हिन्दू रेट ऑफ ग्रोथ’’ की अवधारणा राज कृष्णा द्वारा दिया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 25961,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीति आयोग के प्रथम उपाध्यक्ष कौन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री रमेश चंद"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री बिवेक देबरॉय"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री नरेन्द्र मोदी"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री अरविन्द पानगडिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नीति आयोग के प्रथम उपाध्यक्ष श्री अरविन्द पनगड़िया थे। योजना आयोग का नाम १ जनवरी, २०१५ से बदलकर नीति आयोग कर दिया गया है। नीति आयोग का अध्यक्ष प्रधानमंत्री होता है। 1050",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 25962,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में आर्थिक एवं सांख्यिकी का निदेशालय किस शहर में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का आर्थिक एवं सांख्यिकी निदेशालय जयपुर में स्थित है। यह निदेशालय योजना भवन, तिलक मार्ग पर स्थित है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Research Assistant 2016",
+      "sourceQuestionId": 25963,
+      "reference": "📌 PYQ — RPSC Research Assistant 2016"
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रेस इन इण्डिया वार्षिक रिपोर्ट किसके द्वारा तैयार की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर.एन.आई."
+        },
+        {
+          "id": "opt2",
+          "text": "डी.ए.वी.पी."
+        },
+        {
+          "id": "opt3",
+          "text": "पी.आई.बी."
+        },
+        {
+          "id": "opt4",
+          "text": "पी.सी.आई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के प्रेस रजिस्ट्रार जनरल(PRGI,पूर्व मेंRNI) जो प्रेस इन इंडिया की वार्षिक रिपोर्ट जारी करता है। यह सूचना और प्रसारण मंत्रालय का एक संलग्न कार्यालय है जो प्रेस और पत्रिकाओं के पंजीकरण अधिनियम, २०२३ के तहत स्थापित किया गया है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Public Relation Officer 2021",
+      "sourceQuestionId": 25964,
+      "reference": "📌 PYQ — RPSC Public Relation Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक पुरस्कार का नाम हैं पुलित्जर पुरस्कार। पुलित्जर का पूरा नाम है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोसेफ पुलित्जर"
+        },
+        {
+          "id": "opt2",
+          "text": "एडमंड पुलित्जर"
+        },
+        {
+          "id": "opt3",
+          "text": "अब्राहम पुलित्जर"
+        },
+        {
+          "id": "opt4",
+          "text": "जॉन पुलित्जर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पुलित्जर पुरस्कार, पत्रकारिता, साहित्य और संगीत के क्षेत्र में दिया जाने वाला पुरस्कार है। यह पुरस्कार संयुक्त राज्य अमेरिका के कोलंबिया विश्वविद्यालय द्वारा प्रदान किया जाता है। यह पुरस्कार जॉन पुलित्जर के नाम पर दिया जाता है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Public Relation Officer 2021",
+      "sourceQuestionId": 25965,
+      "reference": "📌 PYQ — RPSC Public Relation Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "देवदास गाँधी किस समाचार पत्र के संपादक थे।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पायोनियर"
+        },
+        {
+          "id": "opt2",
+          "text": "नेशनल हैराल्ड"
+        },
+        {
+          "id": "opt3",
+          "text": "पैट्ररियोट"
+        },
+        {
+          "id": "opt4",
+          "text": "हिन्दुस्तान टाइमस"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "देवदास गाँधी ‘हिन्दुस्तान टाइम्स’ के सम्पादक सन् १९३७ ई. में बने थे। देवदास गाँधी लगभग २० वर्षों तक इसके मैनेजिंग एडिटर बने रहे।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Public Relation Officer 2021",
+      "sourceQuestionId": 25966,
+      "reference": "📌 PYQ — RPSC Public Relation Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "लेखन की किस विधा पर भारतेन्दु पुरस्कार दिया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीडिया लेखन"
+        },
+        {
+          "id": "opt2",
+          "text": "शिक्षा"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि"
+        },
+        {
+          "id": "opt4",
+          "text": "कला एवं संस्कृति"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत का सूचना और प्रसारण मंत्रालय पत्रकारिता एवं जनसंचार के क्षेत्र में हिन्दी भाषा में मौलिक लेखन को बढ़ावा देने के लिए भारतेन्दु हरिश्चन्द्र पुरस्कार प्रदान करता है। इस पुरस्कार की शुरुआत १९८३ में की गई। इन्होंने सिर्फ ३४ वर्ष की उम्र में दुनिया को अलविदा कह दिया।",
+      "difficulty": "medium",
+      "sourceType": "PYQ",
+      "exam": "RPSC Public Relation Officer 2021",
+      "sourceQuestionId": 25967,
+      "reference": "📌 PYQ — RPSC Public Relation Officer 2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिए गए विकल्पों के आधार पर सही तथ्य का चयन कीजिए: कार्सिनोमा सम्बन्ध रखता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रवाहकीय ऊतक का असाध्य (मौलिगनेन्ट) ट्यूमर"
+        },
+        {
+          "id": "opt2",
+          "text": "त्वचा एवं म्यूकस झिल्ली का असाध्य (मैलिगनेन्ट) ट्यूमर"
+        },
+        {
+          "id": "opt3",
+          "text": "संयोजी ऊतक का बिनाइन ट्यूमर"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कार्सिनोमा वैंâसर का एक सामान्य रूप है। यह त्वचा एवं म्यूकस झिल्ली का असाध्य ट्यूमर है। यह दो प्रकार के उपप्रकारों में विभाजित है- एडेनोकार्सिनोमा तथा स्क्वैमस सेल कार्सिनोमा।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 26123,
+      "reference": "✎ PYQ Modified · RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "परीक्षा पैटर्न आधारित विश्लेषणात्मक समीक्षा: राजस्थान की एम सेंड नीति2021का उद्देश्य है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य में निर्माण कार्यो में नदियों से प्राप्त बजरी के उपयोग को बढ़ाना।"
+        },
+        {
+          "id": "opt2",
+          "text": "नदी बजरी के निर्यात को बढ़ावा देना।"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रदेश के माइनिंग क्षेत्रों में खानों से निकलने वाले अपशिष्ट (वेस्ट) की समस्या का समाधान कराना।"
+        },
+        {
+          "id": "opt4",
+          "text": "अन्य राज्यों की नदी बजरी के प्रयोग को रोकना।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "25 जनवरी,2021 को राजस्थान के मुख्यमंत्री श्री अशोक गहलोत ने राजस्थान की एम-रेत नीति(M-Sand Policy) 2020 जारी की। इस नीति का मुख्य उद्देश्य राजस्थान के खनन क्षेत्रों में खदानों से उत्पन्न कचरे की समस्या का समाधान करना है।",
+      "difficulty": "medium",
+      "sourceType": "PYQ_MODIFIED",
+      "exam": "RPSC Sub Inspector 13/09/2021",
+      "sourceQuestionId": 26124,
+      "reference": "✎ PYQ Modified · RPSC Sub Inspector 13/09/2021"
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में \"विविध\" के संबंध में निम्नलिखित में से कौन-सा कथन सर्वाधिक उपयुक्त एवं सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "\"विविध\" राज्य के समग्र भौगोलिक, ऐतिहासिक एवं प्रशासनिक परिप्रेक्ष्य में विशिष्ट व्यावहारिक महत्व रखता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह केवल पश्चिमी मरुस्थलीय जिलों तक ही सीमित है तथा अन्यत्र इसका प्रभाव पूर्णतः नगण्य है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसका उल्लेख किसी भी ऐतिहासिक, भौगोलिक अथवा प्रशासनिक अभिलेख में प्राप्त नहीं होता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान परीक्षा एवं प्रशासनिक व्यवस्था में इसकी कोई व्यावहारिक प्रासंगिकता शेष नहीं रही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "\"विविध\" राजस्थान सामान्य अध्ययन के अंतर्गत एक महत्वपूर्ण अवधारणात्मक घटक है। यह प्रश्न इसके सर्वांगीण महत्व एवं प्रासंगिकता को स्पष्ट करता है।",
+      "difficulty": "hard",
+      "sourceType": "AI_NEW"
+    }
+  ]
+}
