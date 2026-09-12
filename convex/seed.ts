@@ -20,6 +20,7 @@ export const SYLLABUS_DATA = [
       { name: "Climate", nameHindi: "जलवायु" },
       { name: "Drainage System", nameHindi: "अपवाह तंत्र" },
       { name: "Natural Vegetation", nameHindi: "प्राकृतिक वनस्पति" },
+      { name: "Soils of Rajasthan", nameHindi: "राजस्थान की मृदा" },
       { name: "Agriculture", nameHindi: "कृषि" },
       { name: "Animal Husbandry", nameHindi: "पशुपालन" },
       { name: "Dairy Development", nameHindi: "डेयरी विकास" },
@@ -75,9 +76,7 @@ export const SYLLABUS_DATA = [
       { name: "Folk Deities", nameHindi: "लोक देवता एवं देवियां" },
       { name: "Saints of Rajasthan", nameHindi: "राजस्थान के संत" },
       { name: "Temple Architecture", nameHindi: "मंदिर स्थापत्य" },
-      { name: "Forts", nameHindi: "दुर्ग एवं किले" },
-      { name: "Palaces", nameHindi: "महल" },
-      { name: "Monuments", nameHindi: "स्मारक एवं हवेलियां" },
+      { name: "Architecture", nameHindi: "स्थापत्य कला" },
       { name: "Painting Schools", nameHindi: "चित्रकला शैलियां" },
       { name: "Fairs", nameHindi: "मेले" },
       { name: "Festivals", nameHindi: "त्योहार" },
@@ -100,11 +99,9 @@ export const SYLLABUS_DATA = [
     description: "Governor, CM, state legislature, High Court, Panchayati Raj, district administration, RPSC & Commissions",
     topics: [
       { name: "Governor", nameHindi: "राज्यपाल" },
-      { name: "Chief Minister", nameHindi: "मुख्यमंत्री" },
-      { name: "Council of Ministers", nameHindi: "मन्त्रिपरिषद" },
+      { name: "Chief Minister & Council of Ministers", nameHindi: "मुख्यमंत्री एवं मंत्रिपरिषद" },
       { name: "State Legislature", nameHindi: "राज्य विधानमंडल" },
-      { name: "Rajasthan High Court", nameHindi: "राजस्थान उच्च न्यायालय" },
-      { name: "Subordinate Courts", nameHindi: "अधीनस्थ न्यायालय" },
+      { name: "Rajasthan High Court & Subordinate Courts", nameHindi: "राजस्थान उच्च न्यायालय एवं अधीनस्थ न्यायालय" },
       { name: "Panchayati Raj", nameHindi: "पंचायती राज" },
       { name: "Urban Local Government", nameHindi: "नगरीय निकाय" },
       { name: "State Secretariat", nameHindi: "राज्य सचिवालय" },
@@ -363,6 +360,18 @@ export const seedFixedSyllabus = mutation({
             order: tIndex,
           });
           topicCount++;
+        }
+      }
+
+      // Clean up deprecated canonical topic entries no longer present in syllabus
+      const validSlugs = new Set(item.topics.map((t) => slugify(typeof t === "string" ? t : t.name)));
+      const existingTopics = await ctx.db
+        .query("topics")
+        .withIndex("by_subject", (q) => q.eq("subjectId", subjectId))
+        .collect();
+      for (const et of existingTopics) {
+        if (!validSlugs.has(et.slug)) {
+          await ctx.db.delete(et._id);
         }
       }
     }
