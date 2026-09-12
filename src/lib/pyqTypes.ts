@@ -49,6 +49,8 @@ export interface PyqRetrievalResult {
   totalFound: number;
   /** Number of questions previously marked used */
   usedCount: number;
+  /** Total unused available pool in topic before this batch (totalFound - usedCount) */
+  unusedPoolCount: number;
   /** Number of unused questions remaining after this batch */
   remainingCount: number;
   /** Number of questions sent in this batch */
@@ -63,6 +65,20 @@ export interface PyqRetrievalResult {
     topic: string;
     matchedCorpusTopics: string[];
   };
+}
+
+/**
+ * Strips all occurrences of Rajasthan Gyan / rajasthangyan URLs & mentions from explanations.
+ */
+export function cleanCorpusExplanation(explanation?: string): string {
+  if (!explanation) return "";
+  return explanation
+    .replace(/https?:\/\/(?:www\.)?rajasthangyan\.com[^\s]*/gi, "")
+    .replace(/more\s*detail\s*:\s*[^\n]*rajasthangyan[^\n]*/gi, "")
+    .replace(/rajasthangyan(?:\.com)?/gi, "")
+    .replace(/rajasthan\s+gyan/gi, "")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim();
 }
 
 /**
@@ -87,8 +103,9 @@ export function formatPyqsForPrompt(questions: PyqQuestion[]): string {
       lines.push(`  ${marker} ${opt}${isCorrect ? " ✓ [सही उत्तर]" : ""}`);
     });
 
-    if (q.explanation) {
-      lines.push(`व्याख्या: ${q.explanation}`);
+    const cleanExp = cleanCorpusExplanation(q.explanation);
+    if (cleanExp) {
+      lines.push(`व्याख्या: ${cleanExp}`);
     }
 
     lines.push("");

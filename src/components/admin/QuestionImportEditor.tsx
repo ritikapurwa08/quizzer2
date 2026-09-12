@@ -197,58 +197,61 @@ export function QuestionImportEditor({
   const activeSubject = subjectsList.find((s) => s._id === selectedSubjectId);
   const activeTopic = topicsList.find((t) => t._id === selectedTopicId);
 
+  // ── PYQ Retrieval Batch Size (Flexible: 50, 100, 200, 300, 500, Custom) ──
+  const [batchPreset, setBatchPreset] = useState<string>("100");
+  const [customBatchSize, setCustomBatchSize] = useState<number>(100);
+
+  const effectiveBatchSize = useMemo(() => {
+    if (batchPreset === "custom") {
+      return Math.max(1, Math.min(1000, Number(customBatchSize) || 100));
+    }
+    return Math.max(1, Math.min(1000, parseInt(batchPreset, 10) || 100));
+  }, [batchPreset, customBatchSize]);
+
   // ── PYQ Retrieval (Syllabus-Locked from 26k corpus via /api/admin/pyq) ─────────
   const [pyqResult, setPyqResult] = useState<PyqRetrievalResult | null>(null);
   const [isLoadingPyq, setIsLoadingPyq] = useState(false);
 
-  useEffect(() => {
-    const topicName = getTopicDisplayName(activeTopic);
-    if (!topicName) {
-      setPyqResult(null);
-      return;
-    }
-    const subjectName = getSubjectDisplayName(activeSubject);
+  const fetchPyqBatch = useCallback(
+    async (batchSizeToUse = effectiveBatchSize) => {
+      const topicName = getTopicDisplayName(activeTopic);
+      if (!topicName) {
+        setPyqResult(null);
+        return;
+      }
+      const subjectName = getSubjectDisplayName(activeSubject);
 
-    let cancelled = false;
-    setIsLoadingPyq(true);
+      setIsLoadingPyq(true);
 
-    fetch("/api/admin/pyq", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        subject: subjectName || undefined,
-        topic: topicName,
-        subtopic: subtopicName.trim() || undefined,
-        maxResults: 100,
-        usedQuestionIds,
-      }),
-    })
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data) => {
-        if (!cancelled && data) {
+      try {
+        const res = await fetch("/api/admin/pyq", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            subject: subjectName || undefined,
+            topic: topicName,
+            subtopic: subtopicName.trim() || undefined,
+            maxResults: batchSizeToUse,
+            usedQuestionIds,
+          }),
+        });
+
+        if (res.ok) {
+          const data: PyqRetrievalResult = await res.json();
           setPyqResult(data);
         }
-      })
-      .catch((err) => {
+      } catch (err) {
         console.error("Failed to fetch PYQ batch:", err);
-      })
-      .finally(() => {
-        if (!cancelled) setIsLoadingPyq(false);
-      });
+      } finally {
+        setIsLoadingPyq(false);
+      }
+    },
+    [activeTopic, activeSubject, subtopicName, usedQuestionIds, effectiveBatchSize]
+  );
 
-    return () => {
-      cancelled = true;
-    };
-  }, [activeTopic, activeSubject, subtopicName, usedQuestionIds]);
-
-  // Advance to next unused PYQ batch
-  function handleAdvanceBatch() {
-    if (!pyqResult || pyqResult.questions.length === 0) return;
-    const currentBatchIds = pyqResult.questions.map((q: PyqQuestion) => q.id);
-    const merged = Array.from(new Set([...usedQuestionIds, ...currentBatchIds]));
-    saveUsedIds(merged);
-    showToast(`✅ अगला बैच लोड हुआ (${pyqResult.questions.length} प्रश्न प्रयुक्त मार्क हुए)`, "success");
-  }
+  useEffect(() => {
+    fetchPyqBatch(effectiveBatchSize);
+  }, [fetchPyqBatch, effectiveBatchSize]);
 
   // Reset used PYQ list for this topic
   function handleResetUsed() {
@@ -256,25 +259,25 @@ export function QuestionImportEditor({
     showToast("🔄 इस टॉपिक का प्रयुक्त PYQs ट्रैकर रीसेट किया गया", "info");
   }
 
-  // Generate 20-Question Gemini Prompt
+  // Generate 20-Question Gemini Prompt (Generation set size is strictly fixed at 20)
   const currentPrompt = useMemo(() => {
     return generateAiQuestionPrompt({
       subject: getSubjectDisplayName(activeSubject) || "Rajasthan General Knowledge",
       topic: getTopicDisplayName(activeTopic) || "General Topic",
       subtopic: subtopicName.trim() || undefined,
-      count: questionCount || 20,
+      count: 20, // Generation set size is ALWAYS exactly 20
       pyqReferences: pyqResult?.questions,
       pyqStats: pyqResult
         ? {
             totalFound: pyqResult.totalFound,
             sent: pyqResult.sent,
             usedCount: pyqResult.usedCount,
-            remainingCount: pyqResult.remainingCount,
+            remainingCount: pyqResult.unusedPoolCount ?? Math.max(0, pyqResult.totalFound - pyqResult.usedCount),
             batchNumber: pyqResult.batchNumber,
           }
         : undefined,
     });
-  }, [activeSubject, activeTopic, subtopicName, questionCount, pyqResult]);
+  }, [activeSubject, activeTopic, subtopicName, pyqResult]);
 
   // Question Composition validation for 20-question rule
   const composition = useMemo(() => {
@@ -300,8 +303,8 @@ export function QuestionImportEditor({
         const parsed = JSON.parse(code);
         setCode(JSON.stringify(parsed, null, 2));
         showToast("✨ JSON formatted successfully!", "success");
-      } catch (err: any) {
-        showToast(err.message || "Cannot format invalid JSON.", "warning");
+      } catch (err: unknown) {
+        showToast(err instanceof Error ? err.message : "Cannot format invalid JSON.", "warning");
       }
     }
   }
@@ -326,11 +329,11 @@ export function QuestionImportEditor({
 
         <CardContent className="p-5 space-y-4">
           {/* Inputs Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3.5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3.5">
             {/* Subject */}
             <div className="space-y-1.5">
               <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-                विषय
+                Subject (विषय)
               </Label>
               <SyllabusSelect
                 options={subjectsList}
@@ -340,10 +343,10 @@ export function QuestionImportEditor({
               />
             </div>
 
-            {/* Topic */}
+            {/* Canonical Topic */}
             <div className="space-y-1.5">
               <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-                टॉपिक
+                Topic (प्रामाणिक टॉपिक)
               </Label>
               <SyllabusSelect
                 options={topicsList}
@@ -366,77 +369,130 @@ export function QuestionImportEditor({
                 className="h-10 text-xs font-semibold px-3 font-hindi"
               />
             </div>
+          </div>
 
-            {/* Questions Count */}
+          {/* Sizing Controls Grid: Generation Set vs PYQ Retrieval Batch */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2 border-t border-border/60">
+            {/* Generation Set Size (Strictly Fixed at 20) */}
             <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-                  प्रश्नों की संख्या
+                  Generation Set Size
                 </Label>
-                <span className="text-[10px] text-muted-foreground font-hindi font-medium">
-                  मानक: 20 प्रश्न
+                <Badge variant="outline" className="text-[10px] font-bold text-primary border-primary/40 bg-primary/5 font-hindi">
+                  Fixed: 20
+                </Badge>
+              </div>
+              <div
+                className="h-10 flex items-center justify-between px-3 rounded-md border border-input bg-muted/40 text-xs font-bold text-foreground cursor-not-allowed"
+                title="Gemini जनरेशन इकाई ठीक 20 प्रश्न निर्धारित है (14 PYQ + 4 Modified + 2 AI)"
+              >
+                <span>20 प्रश्न (Fixed)</span>
+                <span className="text-[11px] font-normal text-muted-foreground font-hindi">
+                  14 PYQ · 4 Modified · 2 AI
                 </span>
               </div>
-              <Input
-                type="number"
-                min={20}
-                max={20}
-                disabled
-                value={20}
-                className="h-10 text-xs font-bold px-3 tabular-nums bg-muted/30 cursor-not-allowed text-foreground"
-                title="इस वर्कफ़्लो हेतु प्रश्नों की संख्या ठीक 20 निर्धारित है (14 PYQ + 4 Modified + 2 AI)"
-              />
+            </div>
+
+            {/* PYQ Retrieval Batch Size (Flexible) */}
+            <div className="space-y-1.5">
+              <div className="flex items-center justify-between">
+                <Label className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
+                  PYQ Retrieval Batch Size
+                </Label>
+                <span className="text-[10px] text-muted-foreground font-hindi font-medium">
+                  प्रॉम्प्ट हेतु PYQ पूल
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <select
+                  value={batchPreset}
+                  onChange={(e) => setBatchPreset(e.target.value)}
+                  className="h-10 flex-1 rounded-md border border-input bg-background px-3 py-1 text-xs font-semibold text-foreground shadow-xs focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                >
+                  <option value="50">50 PYQs</option>
+                  <option value="100">100 PYQs (Recommended)</option>
+                  <option value="200">200 PYQs</option>
+                  <option value="300">300 PYQs</option>
+                  <option value="500">500 PYQs</option>
+                  <option value="custom">Custom Value...</option>
+                </select>
+                {batchPreset === "custom" && (
+                  <Input
+                    type="number"
+                    min={1}
+                    max={1000}
+                    value={customBatchSize}
+                    onChange={(e) => setCustomBatchSize(Math.max(1, parseInt(e.target.value, 10) || 1))}
+                    className="h-10 w-24 text-xs font-bold tabular-nums"
+                    placeholder="उदा. 150"
+                  />
+                )}
+              </div>
             </div>
           </div>
 
-          {/* PYQ Batch Status & Navigation Bar */}
+          {/* PYQ Retrieval Status (Section 15 format) */}
           {selectedTopicId && (
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3 rounded-xl bg-muted/30 border border-border/80">
-              <div className="flex items-center gap-2.5 min-w-0">
-                <BookOpen className="h-4 w-4 shrink-0 text-primary" />
-                <div className="text-xs font-hindi min-w-0">
-                  <span className="font-bold text-foreground">
-                    बैच #{pyqResult?.batchNumber || 1}:
-                  </span>{" "}
-                  {pyqResult && pyqResult.sent > 0 ? (
-                    <span className="text-muted-foreground">
-                      वर्तमान बैच में <span className="font-bold text-primary">{pyqResult.sent} PYQs</span>{" "}
-                      (कुल उपलब्ध: <span className="font-semibold text-foreground">{pyqResult.totalFound}</span> | प्रयुक्त: {pyqResult.usedCount} | शेष: {pyqResult.remainingCount})
-                    </span>
-                  ) : (
-                    <span className="text-muted-foreground">
-                      इस टॉपिक के सभी उपलब्ध PYQs प्रयुक्त हो चुके हैं या उपलब्ध नहीं हैं।
-                    </span>
-                  )}
+            <div className="p-4 rounded-xl bg-muted/40 border border-border space-y-3">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <BookOpen className="h-4 w-4 text-primary shrink-0" />
+                  <span className="font-bold text-xs text-foreground font-hindi">
+                    PYQ रिट्रीवल स्थिति (Retrieval Status)
+                  </span>
                 </div>
-              </div>
-
-              <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
-                {pyqResult && pyqResult.remainingCount > 0 && (
-                  <Button
-                    type="button"
-                    variant="outline"
-                    size="sm"
-                    onClick={handleAdvanceBatch}
-                    className="h-8 px-3 text-xs font-hindi font-semibold rounded-lg gap-1.5 border-primary/40 hover:bg-primary/10 text-primary shadow-2xs"
-                    title="वर्तमान बैच को प्रयुक्त मार्क करें और अगले 100 प्रश्न लोड करें"
-                  >
-                    <RotateCw className="h-3.5 w-3.5" />
-                    अगला बैच लाएं (+{Math.min(100, pyqResult.remainingCount)})
-                  </Button>
-                )}
                 {usedQuestionIds.length > 0 && (
                   <Button
                     type="button"
                     variant="ghost"
                     size="sm"
                     onClick={handleResetUsed}
-                    className="h-8 px-2 text-[11px] font-hindi text-muted-foreground hover:text-foreground"
+                    className="h-7 px-2 text-[11px] font-hindi text-muted-foreground hover:text-foreground self-start sm:self-auto"
                     title="प्रयुक्त PYQs की सूची रीसेट करें"
                   >
-                    <RefreshCw className="h-3 w-3 mr-1" /> रीसेट ({usedQuestionIds.length})
+                    <RefreshCw className="h-3 w-3 mr-1" /> रीसेट प्रयुक्त ट्रैकर ({usedQuestionIds.length})
                   </Button>
                 )}
+              </div>
+
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs font-hindi">
+                <div className="p-2.5 rounded-lg bg-card border border-border/80">
+                  <div className="text-[11px] text-muted-foreground font-medium">Topic</div>
+                  <div className="font-bold text-foreground truncate mt-0.5" title={getTopicDisplayName(activeTopic)}>
+                    {getTopicDisplayName(activeTopic)}
+                  </div>
+                </div>
+
+                <div className="p-2.5 rounded-lg bg-card border border-border/80">
+                  <div className="text-[11px] text-muted-foreground font-medium">Available relevant PYQs</div>
+                  <div className="font-bold text-primary text-sm tabular-nums mt-0.5">
+                    {pyqResult?.totalFound ?? 0}
+                  </div>
+                </div>
+
+                <div className="p-2.5 rounded-lg bg-card border border-border/80">
+                  <div className="text-[11px] text-muted-foreground font-medium">Previously used</div>
+                  <div className="font-bold text-muted-foreground text-sm tabular-nums mt-0.5">
+                    {pyqResult?.usedCount ?? usedQuestionIds.length}
+                  </div>
+                </div>
+
+                <div className="p-2.5 rounded-lg bg-card border border-border/80">
+                  <div className="text-[11px] text-muted-foreground font-medium">Remaining</div>
+                  <div className="font-bold text-success text-sm tabular-nums mt-0.5">
+                    {pyqResult ? Math.max(0, pyqResult.totalFound - (pyqResult.usedCount || 0)) : 0}
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-between text-xs font-hindi pt-1 border-t border-border/60">
+                <span className="text-muted-foreground">
+                  Current batch (Gemini प्रॉम्प्ट में शामिल PYQs):
+                </span>
+                <span className="font-bold text-foreground tabular-nums">
+                  {isLoadingPyq ? "लोड हो रहा है..." : `${pyqResult?.sent ?? 0} PYQs`}
+                </span>
               </div>
             </div>
           )}
@@ -454,7 +510,24 @@ export function QuestionImportEditor({
               </Label>
             </div>
 
-            <div className="grid grid-cols-2 gap-2.5 w-full sm:w-auto sm:flex sm:items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 w-full sm:w-auto">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => fetchPyqBatch(effectiveBatchSize)}
+                disabled={isLoadingPyq || !selectedTopicId}
+                className="w-full sm:w-auto h-9 gap-1.5 text-xs font-semibold rounded-xl font-hindi shadow-2xs"
+                title="चयनित बैच आकार के साथ PYQ पुनः रिट्रीव करें और प्रॉम्प्ट तैयार करें"
+              >
+                {isLoadingPyq ? (
+                  <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                ) : (
+                  <RotateCw className="h-3.5 w-3.5" />
+                )}
+                Retrieve / Prepare Gemini Prompt
+              </Button>
+
               <Button
                 type="button"
                 variant="outline"
@@ -473,7 +546,7 @@ export function QuestionImportEditor({
                 className="w-full sm:w-auto h-9 gap-1.5 text-xs font-bold px-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-[0.98] transition-transform font-hindi"
               >
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
-                {copied ? "कॉपी हो गया!" : "प्रॉम्प्ट कॉपी करें"}
+                {copied ? "कॉपी हो गया!" : "Copy Gemini Prompt"}
               </Button>
             </div>
           </div>

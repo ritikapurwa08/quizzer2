@@ -1,8 +1,9 @@
-import { retrievePyqsForTopic } from "../lib/pyqRetrieval";
+import { retrievePyqsForTopic, getRelevantPyqQuestions } from "../lib/pyqRetrieval";
 import { getCorpusTopicsForCanonical, CANONICAL_TOPIC_MAPPINGS } from "../lib/syllabusTopicMap";
 import { generateAiPrompt } from "../lib/prompts/aiQuestionPrompt";
-import { extractJsonFromLlmOutput } from "../lib/importParser";
-import { normalizeMinifiedQuestion, validateGeminiComposition } from "../lib/validators/question";
+import { extractJsonFromLlmOutput, sanitizeLlmArtifacts, validateAndIsolateQuestions, autoFixJson } from "../lib/importParser";
+import { normalizeMinifiedQuestion, validateGeminiComposition, importJsonSchema } from "../lib/validators/question";
+import { cleanCorpusExplanation } from "../lib/pyqTypes";
 
 console.log("================================================================================");
 console.log("STARTING FULL VERIFICATION SUITE — SYLLABUS-LOCKED PYQ + GEMINI 20-Q WORKFLOW");
@@ -288,6 +289,137 @@ const rajPolityResult = retrievePyqsForTopic({
 });
 assert(rajPolityResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'राजस्थान की राजव्यवस्था' -> 'राज्यपाल'");
 assert(rajPolityResult.questions.length > 0, `Found questions for Governor in Rajasthan Polity (${rajPolityResult.questions.length})`);
+
+// -----------------------------------------------------------------------------
+// TEST 11: Flexible PYQ Retrieval Batch Size (50, 100, 200, 300)
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 11: Flexible PYQ Retrieval Batch Size ---");
+const batch50 = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 50 });
+assert(batch50.questions.length === 50, `Requested 50, retrieved exactly ${batch50.questions.length}`);
+assert(batch50.sent === 50, `Sent count reports 50`);
+
+const batch200 = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 200 });
+assert(batch200.questions.length === 200, `Requested 200, retrieved exactly ${batch200.questions.length}`);
+assert(batch200.sent === 200, `Sent count reports 200`);
+
+const batch300 = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 300 });
+assert(batch300.questions.length === 300, `Requested 300, retrieved exactly ${batch300.questions.length}`);
+assert(batch300.sent === 300, `Sent count reports 300`);
+
+// All 200 retrieved questions are included in Gemini prompt without truncation
+const promptWith200 = generateAiPrompt({
+  subject: "राजस्थान का भूगोल",
+  topic: "भौतिक स्वरूप",
+  count: 20, // Generation set size remains strictly 20
+  pyqReferences: batch200.questions,
+  pyqStats: {
+    totalFound: batch200.totalFound,
+    sent: batch200.sent,
+    usedCount: batch200.usedCount,
+    remainingCount: batch200.unusedPoolCount ?? Math.max(0, batch200.totalFound - batch200.usedCount),
+  },
+});
+assert(promptWith200.includes("PYQ #200"), "Gemini prompt includes all 200 retrieved PYQs (no truncation of batch)");
+assert(promptWith200.includes("EXACTLY 20 QUESTIONS"), "Generated set size remains strictly 20 even when 200 PYQs retrieved");
+
+// -----------------------------------------------------------------------------
+// TEST 12: Retrieved ≠ Used & Exact Exclusions
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 12: Retrieved ≠ Used Principle ---");
+// Retrieving 100 questions does NOT make them used in the next query unless explicitly passed
+const initialBatch = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 100, usedQuestionIds: [] });
+const unspentBatch = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 100, usedQuestionIds: [] });
+assert(initialBatch.questions[0].id === unspentBatch.questions[0].id, "Retrieval does NOT mark questions as used without import");
+
+// Only actually imported IDs become excluded
+const importedIds = [initialBatch.questions[0].id, initialBatch.questions[1].id, initialBatch.questions[2].id];
+const nextBatch = getRelevantPyqQuestions({ subject: "राजस्थान का भूगोल", topic: "भौतिक स्वरूप" }, { maxResults: 100, usedQuestionIds: importedIds });
+assert(!nextBatch.questions.some(q => importedIds.includes(q.id)), "Next retrieval excludes genuinely used imported IDs");
+assert(nextBatch.usedCount === 3, `Reports exactly 3 used questions in topic`);
+
+// -----------------------------------------------------------------------------
+// TEST 13: Automatic Gemini Citation Cleaning ([cite: 1], [cite: 11], [cite : 1], [cite:11])
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 13: Automatic Citation Cleaning ---");
+const rawQuestionWithCitations = {
+  question: "राजस्थान में स्थानीय स्वशासन विभाग और स्थानीय निकाय निदेशालय का मुख्यालय कहाँ स्थित है?[cite: 11]",
+  options: [
+    "जयपुर[cite: 1]",
+    "जोधपुर [cite : 1]",
+    "उदयपुर[cite:11]",
+    "कोटा [cite: 1, 11]"
+  ],
+  answer: 0,
+  sourceType: "PYQ",
+  sourceQuestionId: 101,
+  exam: "RAS Pre 2021",
+  explanation: "यह मुख्यालय जयपुर में स्थित है।[cite: 11]"
+};
+
+// 1. Direct sanitizer check
+const sanitized = sanitizeLlmArtifacts(rawQuestionWithCitations);
+assert(
+  sanitized.question === "राजस्थान में स्थानीय स्वशासन विभाग और स्थानीय निकाय निदेशालय का मुख्यालय कहाँ स्थित है?",
+  "Question text citation [cite: 11] removed cleanly without trailing space before question mark"
+);
+assert(sanitized.options[0] === "जयपुर", "Option 1 [cite: 1] removed cleanly");
+assert(sanitized.options[1] === "जोधपुर", "Option 2 [cite : 1] removed cleanly");
+assert(sanitized.options[2] === "उदयपुर", "Option 3 [cite:11] removed cleanly");
+assert(sanitized.options[3] === "कोटा", "Option 4 [cite: 1, 11] removed cleanly");
+assert(
+  sanitized.explanation === "यह मुख्यालय जयपुर में स्थित है।",
+  "Explanation citation [cite: 11] removed cleanly"
+);
+
+// 2. Schema parse check (DO NOT REJECT normal questions just because of citations)
+const parseResult = importJsonSchema.safeParse([rawQuestionWithCitations]);
+assert(parseResult.success === true, "importJsonSchema accepts questions with citations after automatic sanitization");
+if (parseResult.success && parseResult.data.questions[0]) {
+  const importedQ = parseResult.data.questions[0];
+  assert(!importedQ.questionText.includes("cite"), "Imported question text has zero citation markers");
+  assert(!importedQ.explanation?.includes("cite"), "Imported explanation has zero citation markers");
+  assert(importedQ.options.every(o => !o.text.includes("cite")), "All imported options have zero citation markers");
+}
+
+// 3. validateAndIsolateQuestions check
+const isolationResult = validateAndIsolateQuestions([rawQuestionWithCitations]);
+assert(isolationResult.validQuestions.length === 1, "validateAndIsolateQuestions parsed question with citations successfully");
+assert(isolationResult.invalidQuestions.length === 0, "validateAndIsolateQuestions did NOT reject question with citations");
+
+// -----------------------------------------------------------------------------
+// TEST 14: Preservation of Legitimate Brackets
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 14: Preservation of Legitimate Brackets ---");
+const legitimateBracketsQ = {
+  question: "अरावली पर्वतमाला (1722 मीटर) और [कथन 1] के संदर्भ में (A) तथा (B) पर विचार कीजिए। [cite: 5]",
+  options: ["(A) सही है", "(B) सही है", "दोनों सही हैं", "कोई नहीं"],
+  answer: 0,
+  sourceType: "PYQ",
+  explanation: "गुरुशिखर (1722 मी) सिरोही [राजस्थान] में है। [cite: 5]"
+};
+const cleanedBrackets = sanitizeLlmArtifacts(legitimateBracketsQ);
+assert(cleanedBrackets.question.includes("(1722 मीटर)"), "Preserves parenthetical heights (1722 मीटर)");
+assert(cleanedBrackets.question.includes("[कथन 1]"), "Preserves bracketed statement tokens [कथन 1]");
+assert(cleanedBrackets.question.includes("(A) तथा (B)"), "Preserves statement references (A) तथा (B)");
+assert(!cleanedBrackets.question.includes("cite"), "Stripped [cite: 5] cleanly");
+assert(cleanedBrackets.explanation.includes("[राजस्थान]"), "Preserves bracketed location [राजस्थान]");
+
+// -----------------------------------------------------------------------------
+// TEST 15: Clean Corpus Explanations & Rajasthan Gyan Removal
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 15: Clean Corpus Explanations ---");
+const dirtyExp = "भानगढ़ का किला अलवर में है। more Detail : https://www.rajasthangyan.com/fact?fac_id=5";
+const cleanExp = cleanCorpusExplanation(dirtyExp);
+assert(!cleanExp.includes("rajasthangyan"), "cleanCorpusExplanation strips rajasthangyan URLs");
+assert(!cleanExp.includes("Rajasthan Gyan"), "cleanCorpusExplanation strips Rajasthan Gyan");
+assert(cleanExp.includes("भानगढ़ का किला अलवर में है।"), "cleanCorpusExplanation preserves factual explanation content");
+
+// -----------------------------------------------------------------------------
+// TEST 16: Prompt No-Citation Instruction
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 16: Prompt No-Citation Instruction ---");
+assert(prompt.includes("NO INLINE CITATIONS") || prompt.includes("Do not add citations"), "Prompt instructs Gemini not to add citations");
+assert(prompt.includes("[cite: 1]"), "Prompt specifically warns against tokens like [cite: 1]");
 
 console.log("\n================================================================================");
 console.log(`VERIFICATION SUMMARY: ${passCount} PASSED, ${failCount} FAILED`);

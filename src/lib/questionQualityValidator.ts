@@ -11,6 +11,7 @@
  */
 
 import { isFakeExam } from "@/components/quiz/QuestionSourceMeta";
+import { sanitizeLlmArtifacts } from "./sanitizer";
 
 export type QuestionForValidation = {
   _id?: string;
@@ -98,8 +99,9 @@ function getAnswerPosition(
 // ─── Main Validator ───────────────────────────────────────────────────────────
 
 export function validateQuestionBank(
-  questions: QuestionForValidation[]
+  questionsRaw: QuestionForValidation[]
 ): ValidationReport {
+  const questions = questionsRaw.map((q) => sanitizeLlmArtifacts(q));
   const issues: QualityIssue[] = [];
   const answerDistribution: Record<string, number> = { A: 0, B: 0, C: 0, D: 0, "?": 0 };
   const difficultyDistribution: Record<string, number> = { easy: 0, medium: 0, hard: 0, unknown: 0 };
@@ -382,7 +384,8 @@ export type SingleQuestionIssue = {
   message: string;
 };
 
-export function validateSingleQuestion(q: QuestionForValidation): SingleQuestionIssue[] {
+export function validateSingleQuestion(qRaw: QuestionForValidation): SingleQuestionIssue[] {
+  const q = sanitizeLlmArtifacts(qRaw);
   const issues: SingleQuestionIssue[] = [];
 
   if (!q.questionText?.trim()) {

@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { sanitizeLlmArtifacts } from "../sanitizer";
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
@@ -220,10 +221,11 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
  *  Handles both the new Gemini JSON format (question/options/answer/sourceType/exam/explanation),
  *  the minified format (q/o/a/e/t), and standard format (questionText/options/correctAnswer/etc.).
  */
-export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInput | null {
-  if (!raw || typeof raw !== "object") return null;
+export function normalizeMinifiedQuestion(rawInput: Record<string, any>): QuestionInput | null {
+  if (!rawInput || typeof rawInput !== "object") return null;
 
   try {
+    const raw = sanitizeLlmArtifacts(rawInput);
     const questionText: string = String(raw.question ?? raw.questionText ?? raw.q ?? "").trim();
     if (!questionText) return null;
 
@@ -251,16 +253,6 @@ export function normalizeMinifiedQuestion(raw: Record<string, any>): QuestionInp
 
     const allOptionText = options.map((o) => o.text.trim().toLowerCase());
     if (new Set(allOptionText).size !== allOptionText.length) return null;
-
-    const artifactPattern = /\[cite\s*:|\[span[_-]|<citation|```|\bsource\s*:/i;
-    if (
-      artifactPattern.test(questionText) ||
-      options.some((o) => artifactPattern.test(o.text)) ||
-      (typeof raw.explanation === "string" && artifactPattern.test(raw.explanation)) ||
-      (typeof raw.e === "string" && artifactPattern.test(raw.e))
-    ) {
-      return null;
-    }
 
     // Correct answer: integer index (0-3), option ID string ("opt1", "A"), or array
     let correctAnswer: string | string[] = "opt1";
@@ -476,8 +468,10 @@ function normalizeMetaList(arr: any[], side: "left" | "right"): MatchListItem[] 
 /** Preprocesses any raw question object, adapting minified schema automatically */
 export const adaptableQuestionSchema = z.preprocess((val) => {
   if (val && typeof val === "object") {
-    const normalized = normalizeMinifiedQuestion(val as Record<string, any>);
+    const sanitized = sanitizeLlmArtifacts(val);
+    const normalized = normalizeMinifiedQuestion(sanitized as Record<string, any>);
     if (normalized) return normalized;
+    return sanitized;
   }
   return val;
 }, questionSchema);

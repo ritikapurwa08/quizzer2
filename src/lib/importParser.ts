@@ -1,4 +1,7 @@
 import { importJsonSchema, ImportJson, QuestionInput, normalizeMinifiedQuestion, extractMatchListsFromText } from "./validators/question";
+import { sanitizeLlmArtifacts, sanitizeStringArtifacts } from "./sanitizer";
+
+export { sanitizeLlmArtifacts, sanitizeStringArtifacts };
 
 /**
  * Robustly extracts the JSON array or object from raw LLM output
@@ -8,35 +11,41 @@ export function extractJsonFromLlmOutput(text: string): string {
   if (!text) return "";
   const trimmed = text.trim();
 
+  let extracted = "";
+
   // 1. If it already starts with [ or {, just strip markdown fences
   if (trimmed.startsWith("[") || trimmed.startsWith("{")) {
-    return stripMarkdownFences(trimmed);
-  }
+    extracted = stripMarkdownFences(trimmed);
+  } else {
+    // 2. Look for ```json ... ``` or ``` ... ``` code blocks
+    const codeBlockMatch = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
+    if (codeBlockMatch && codeBlockMatch[1]) {
+      const candidate = codeBlockMatch[1].trim();
+      if (candidate.startsWith("[") || candidate.startsWith("{")) {
+        extracted = candidate;
+      }
+    }
 
-  // 2. Look for ```json ... ``` or ``` ... ``` code blocks
-  const codeBlockMatch = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
-  if (codeBlockMatch && codeBlockMatch[1]) {
-    const candidate = codeBlockMatch[1].trim();
-    if (candidate.startsWith("[") || candidate.startsWith("{")) {
-      return candidate;
+    if (!extracted) {
+      // 3. Find outermost [ ... ] array
+      const firstBracket = trimmed.indexOf("[");
+      const lastBracket = trimmed.lastIndexOf("]");
+      if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
+        extracted = trimmed.substring(firstBracket, lastBracket + 1).trim();
+      } else {
+        // 4. Find outermost { ... } object
+        const firstBrace = trimmed.indexOf("{");
+        const lastBrace = trimmed.lastIndexOf("}");
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+          extracted = trimmed.substring(firstBrace, lastBrace + 1).trim();
+        } else {
+          extracted = stripMarkdownFences(trimmed);
+        }
+      }
     }
   }
 
-  // 3. Find outermost [ ... ] array
-  const firstBracket = trimmed.indexOf("[");
-  const lastBracket = trimmed.lastIndexOf("]");
-  if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
-    return trimmed.substring(firstBracket, lastBracket + 1).trim();
-  }
-
-  // 4. Find outermost { ... } object
-  const firstBrace = trimmed.indexOf("{");
-  const lastBrace = trimmed.lastIndexOf("}");
-  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-    return trimmed.substring(firstBrace, lastBrace + 1).trim();
-  }
-
-  return stripMarkdownFences(trimmed);
+  return sanitizeStringArtifacts(extracted);
 }
 
 /**
@@ -249,13 +258,15 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       return;
     }
 
-    const rawOpts = item.o ?? item.options;
-    const isMinified = "q" in item && !("questionText" in item);
+    // Clean known Gemini citation artifacts prior to normalization & validation
+    const cleanItem = sanitizeLlmArtifacts(item);
+    const rawOpts = cleanItem.o ?? cleanItem.options;
+    const isMinified = "q" in cleanItem && !("questionText" in cleanItem);
 
     if (!Array.isArray(rawOpts) || rawOpts.length < 2) {
       invalidQuestions.push({
         index: qNum,
-        raw: item,
+        raw: cleanItem,
         reason: `प्रश्न ${qNum}: अमान्य विकल्प — कम से कम 2 विकल्प आवश्यक हैं, ${Array.isArray(rawOpts) ? rawOpts.length : 0} मिले।`,
       });
       return;
@@ -266,34 +277,18 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
     if (isMinified && rawOpts.length !== 4) {
       invalidQuestions.push({
         index: qNum,
-        raw: item,
+        raw: cleanItem,
         reason: `प्रश्न ${qNum}: AI प्रश्न में ठीक 4 substantive विकल्प होने चाहिए; ${rawOpts.length} मिले।`,
       });
       return;
     }
 
-    const artifactPattern = /\[cite\s*:|\[span[_-]|<citation|```/i;
-    const rawText = String(item.q ?? item.questionText ?? "");
-    const rawExplanation = String(item.e ?? item.explanation ?? "");
-    const rawOptionText = Array.isArray(rawOpts)
-      ? rawOpts.map((o: any) => typeof o === "string" ? o : String(o?.text ?? "")).join(" ")
-      : "";
-
-    if (artifactPattern.test(rawText) || artifactPattern.test(rawExplanation) || artifactPattern.test(rawOptionText)) {
-      invalidQuestions.push({
-        index: qNum,
-        raw: item,
-        reason: `प्रश्न ${qNum}: source/citation artifact मिला; प्रश्न पुनः generate करें।`,
-      });
-      return;
-    }
-
     // Try normalizing and parsing with schema
-    const normalized = normalizeMinifiedQuestion(item);
+    const normalized = normalizeMinifiedQuestion(cleanItem);
     if (!normalized) {
       invalidQuestions.push({
         index: qNum,
-        raw: item,
+        raw: cleanItem,
         reason: `प्रश्न ${qNum}: प्रश्न का पाठ गायब है या संरचना अमान्य है।`,
       });
       return;

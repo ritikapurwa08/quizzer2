@@ -153,8 +153,10 @@ export function ImportWizard() {
           const prevUsed: number[] = stored ? JSON.parse(stored) : [];
           const importedSourceIds: number[] = [];
           for (const q of parsed.questions) {
-            const sid = q.meta?.sourceQuestionId;
-            if (typeof sid === "number") importedSourceIds.push(sid);
+            const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
+            if (typeof sid === "number" && Number.isInteger(sid) && sid > 0) {
+              importedSourceIds.push(sid);
+            }
           }
           if (importedSourceIds.length > 0) {
             const merged = Array.from(new Set([...prevUsed, ...importedSourceIds]));

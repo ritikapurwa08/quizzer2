@@ -25,6 +25,7 @@ import {
   PyqRetrievalQuery,
   PyqRetrievalOptions,
   PyqRetrievalResult,
+  cleanCorpusExplanation,
 } from "./pyqTypes";
 
 export * from "./pyqTypes";
@@ -262,6 +263,7 @@ export function getRelevantPyqQuestions(
       questions: [],
       totalFound: 0,
       usedCount: 0,
+      unusedPoolCount: 0,
       remainingCount: 0,
       sent: 0,
       batchNumber: 1,
@@ -308,6 +310,7 @@ export function getRelevantPyqQuestions(
       totalFound: 0,
       usedCount: 0,
       remainingCount: 0,
+      unusedPoolCount: 0,
       sent: 0,
       batchNumber: 1,
       duplicatesRemoved: 0,
@@ -417,6 +420,7 @@ export function getRelevantPyqQuestions(
   }
 
   const batchNumber = Math.floor(usedCountForTopic / maxResults) + 1;
+  const unusedPoolCount = Math.max(0, totalFound - usedCountForTopic);
   const remainingCount = Math.max(0, totalFound - usedCountForTopic - selectedRaw.length);
 
   // 5. Enrich with clean options and 0-based answer index
@@ -432,7 +436,7 @@ export function getRelevantPyqQuestions(
       answerIndex,
       answerText: q.answer,
       exam: q.combinedExam,
-      explanation: q.explanation ? q.explanation.trim() : "",
+      explanation: cleanCorpusExplanation(q.explanation),
       repeatCount: q.repeatCount,
       _score: q._score,
     };
@@ -442,6 +446,7 @@ export function getRelevantPyqQuestions(
     questions: enriched,
     totalFound,
     usedCount: usedCountForTopic,
+    unusedPoolCount,
     remainingCount,
     sent: enriched.length,
     batchNumber,

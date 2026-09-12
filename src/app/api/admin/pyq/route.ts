@@ -10,6 +10,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Topic is required." }, { status: 400 });
     }
 
+    const safeMax = Math.min(1000, Math.max(1, Number(maxResults) || 100));
     const result = getRelevantPyqQuestions(
       {
         subject: subject || undefined,
@@ -17,7 +18,7 @@ export async function POST(req: NextRequest) {
         subtopic: subtopic || undefined,
       },
       {
-        maxResults: Math.min(200, Math.max(1, Number(maxResults) || 100)),
+        maxResults: safeMax,
         usedQuestionIds: Array.isArray(usedQuestionIds) ? usedQuestionIds : [],
       }
     );
@@ -37,7 +38,7 @@ export async function GET(req: NextRequest) {
   const subject = searchParams.get("subject") || undefined;
   const topic = searchParams.get("topic") || "";
   const subtopic = searchParams.get("subtopic") || undefined;
-  const maxResults = parseInt(searchParams.get("maxResults") || "100", 10);
+  const maxResults = Math.min(1000, Math.max(1, parseInt(searchParams.get("maxResults") || "100", 10)));
   const usedIdsStr = searchParams.get("usedIds");
   const usedQuestionIds = usedIdsStr
     ? usedIdsStr.split(",").map((id) => parseInt(id.trim(), 10)).filter((n) => !isNaN(n))

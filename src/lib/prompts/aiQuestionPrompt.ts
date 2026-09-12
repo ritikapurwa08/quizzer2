@@ -186,6 +186,11 @@ Do NOT deviate from this 14 / 4 / 2 ratio under any circumstances.
 • "answer" must be the zero-based integer index of the correct option: 0, 1, 2, or 3.
 • Balance answer positions across the 20 questions (distribute correct answers across A, B, C, D).
 
+8. NO INLINE CITATIONS OR BRACKETED CITATION ARTIFACTS:
+------------------------------------------------------------
+• Do not add citations, citation markers, source-reference markers, footnote markers, or bracketed citation tokens such as [cite: 1] anywhere inside the JSON.
+• Return clean JSON without inline citations.
+
 ============================================================
 REQUIRED OUTPUT FORMAT
 ============================================================
@@ -193,7 +198,7 @@ REQUIRED OUTPUT FORMAT
 Your response must contain TWO parts:
 
 PART A: 5 YouTube Reference Videos (Plain text / Markdown)
-List exactly 5 educational videos for "${subject} — ${topic}":
+List exactly 5 educational videos for "${subject} — ${topic}" as SUPPORTING REFERENCE ONLY (NOT question sources):
 1. [Video Title] — [Channel Name] — [YouTube URL]
 2. [Video Title] — [Channel Name] — [YouTube URL]
 3. [Video Title] — [Channel Name] — [YouTube URL]
@@ -214,6 +219,7 @@ Follow Part A immediately with the JSON array of exactly 20 questions:
     ],
     "answer": 0,
     "sourceType": "PYQ",
+    "sourceQuestionId": 101,
     "exam": "RPSC RAS 2023",
     "explanation": "विस्तृत एवं तथ्यपरक परीक्षा-उपयोगी व्याख्या..."
   },
@@ -227,6 +233,7 @@ Follow Part A immediately with the JSON array of exactly 20 questions:
     ],
     "answer": 1,
     "sourceType": "PYQ_MODIFIED",
+    "sourceQuestionId": 105,
     "exam": null,
     "explanation": "विस्तृत व्याख्या..."
   },
@@ -251,16 +258,18 @@ Allowed "sourceType" values ONLY:
 - "AI_NEW"
 
 Verification Checklist before outputting:
-[ ] Exactly 5 YouTube reference videos listed in Part A (NOT used as question sources)
-[ ] Exactly 20 questions in JSON array in Part B
-[ ] Exactly 14 questions with "sourceType": "PYQ"
-[ ] Exactly 4 questions with "sourceType": "PYQ_MODIFIED"
-[ ] Exactly 2 questions with "sourceType": "AI_NEW"
-[ ] All 20 questions strictly within "${topic}"
+[ ] Exactly 5 YouTube reference videos listed in Part A (SUPPORTING REFERENCE ONLY — NOT used as question sources)
+[ ] Exactly 20 questions in JSON array in Part B (14 PYQ, 4 PYQ_MODIFIED, 2 AI_NEW)
+[ ] Exactly 14 questions with "sourceType": "PYQ" (from supplied PYQ data)
+[ ] Exactly 4 questions with "sourceType": "PYQ_MODIFIED" (modified from supplied PYQ data)
+[ ] Exactly 2 questions with "sourceType": "AI_NEW" (genuinely new AI questions)
+[ ] "sourceQuestionId" matches original Corpus ID for PYQ and PYQ_MODIFIED
+[ ] All 20 questions strictly within canonical topic "${topic}"
 [ ] Exactly 4 substantive options per question
 [ ] "answer" is integer 0, 1, 2, or 3
 [ ] "explanation" present on every question
 [ ] Real exam name preserved where verified, otherwise "exam": null (NO fake exam names)
+[ ] Clean JSON without inline citations, footnote markers, or bracketed tokens such as [cite: 1]
 `;
 }
 
