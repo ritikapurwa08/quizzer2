@@ -382,50 +382,97 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
   }
 }
 
-/**
- * Validates whether an imported batch meets the Gemini 20-question composition contract:
- * Exactly 20 questions = 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW.
- */
-export function validateGeminiComposition(questions: QuestionInput[]): {
+export interface GeminiCompositionResult {
   total: number;
   pyqCount: number;
   pyqModifiedCount: number;
   aiNewCount: number;
   isValid20: boolean;
+  sourceIdValid: boolean;
+  isValid: boolean;
+  errorMessage?: string;
+  errors: string[];
   warnings: string[];
-} {
+}
+
+/**
+ * Validates whether an imported batch meets the Gemini 20-question composition contract:
+ * Exactly 20 questions = 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW.
+ * Also verifies that every PYQ and PYQ_MODIFIED has a valid sourceQuestionId,
+ * and if allowedSourceIds is provided, ensures that sourceQuestionId exists in that pool.
+ */
+export function validateGeminiComposition(
+  questions: QuestionInput[],
+  allowedSourceIds?: Set<number> | number[]
+): GeminiCompositionResult {
   let pyqCount = 0;
   let pyqModifiedCount = 0;
   let aiNewCount = 0;
 
-  for (const q of questions) {
-    const st = q.meta?.sourceType;
-    if (st === "PYQ" || st === "PYQ_EXACT") pyqCount++;
-    else if (st === "PYQ_MODIFIED") pyqModifiedCount++;
-    else if (st === "AI_NEW") aiNewCount++;
+  const allowedSet = allowedSourceIds
+    ? (allowedSourceIds instanceof Set ? allowedSourceIds : new Set(allowedSourceIds))
+    : undefined;
+
+  const sourceErrors: string[] = [];
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    const qNum = i + 1;
+    const qRecord = q as Record<string, unknown>;
+    const st = q.meta?.sourceType ?? qRecord.sourceType;
+    const sid = q.meta?.sourceQuestionId ?? qRecord.sourceQuestionId;
+
+    if (st === "PYQ" || st === "PYQ_EXACT") {
+      pyqCount++;
+      if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+        sourceErrors.push(`Question #${qNum} (${st}): Requires a valid positive integer sourceQuestionId.`);
+      } else if (allowedSet && !allowedSet.has(sid)) {
+        sourceErrors.push(`Question #${qNum} (${st}): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+      }
+    } else if (st === "PYQ_MODIFIED") {
+      pyqModifiedCount++;
+      if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+        sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): Requires a valid positive integer sourceQuestionId.`);
+      } else if (allowedSet && !allowedSet.has(sid)) {
+        sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+      }
+    } else if (st === "AI_NEW") {
+      aiNewCount++;
+      if (sid !== undefined && sid !== null) {
+        sourceErrors.push(`Question #${qNum} (AI_NEW): AI_NEW question must NOT have a sourceQuestionId.`);
+      }
+      const ex = q.meta?.exam ?? qRecord.exam;
+      if (ex && typeof ex === "string" && ex.trim() !== "" && ex.trim().toLowerCase() !== "null") {
+        sourceErrors.push(`Question #${qNum} (AI_NEW): AI_NEW question must have exam: null.`);
+      }
+    } else {
+      sourceErrors.push(`Question #${qNum}: Invalid or missing sourceType "${st ?? "unknown"}". Expected "PYQ", "PYQ_MODIFIED", or "AI_NEW".`);
+    }
   }
 
-  const warnings: string[] = [];
-  if (questions.length !== 20) {
-    warnings.push(`कुल प्रश्न: ${questions.length} (अपेक्षित: ठीक 20 प्रश्न)`);
+  const compositionErrors: string[] = [];
+  const isValid20 = questions.length === 20 && pyqCount === 14 && pyqModifiedCount === 4 && aiNewCount === 2;
+
+  if (!isValid20) {
+    const compErrorMsg = `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW. Received: ${pyqCount} PYQ + ${pyqModifiedCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW (Total: ${questions.length}).`;
+    compositionErrors.push(compErrorMsg);
   }
-  if (pyqCount !== 14) {
-    warnings.push(`PYQ: ${pyqCount} (अपेक्षित: ठीक 14 PYQ)`);
-  }
-  if (pyqModifiedCount !== 4) {
-    warnings.push(`PYQ_MODIFIED: ${pyqModifiedCount} (अपेक्षित: ठीक 4 PYQ_MODIFIED)`);
-  }
-  if (aiNewCount !== 2) {
-    warnings.push(`AI_NEW: ${aiNewCount} (अपेक्षित: ठीक 2 AI_NEW)`);
-  }
+
+  const allErrors = [...compositionErrors, ...sourceErrors];
+  const sourceIdValid = sourceErrors.length === 0;
+  const isValid = isValid20 && sourceIdValid;
 
   return {
     total: questions.length,
     pyqCount,
     pyqModifiedCount,
     aiNewCount,
-    isValid20: questions.length === 20 && pyqCount === 14 && pyqModifiedCount === 4 && aiNewCount === 2,
-    warnings,
+    isValid20,
+    sourceIdValid,
+    isValid,
+    errorMessage: allErrors[0],
+    errors: allErrors,
+    warnings: allErrors,
   };
 }
 

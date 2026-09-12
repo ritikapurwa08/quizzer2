@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { QuestionImportEditor } from "./QuestionImportEditor";
-import { ImportJson } from "@/lib/validators/question";
+import { ImportJson, validateGeminiComposition } from "@/lib/validators/question";
 import { Id } from "../../../convex/_generated/dataModel";
 import { useToast } from "@/components/ui/Toast";
 import { getTopicDisplayName } from "@/lib/utils";
@@ -127,6 +127,38 @@ export function ImportWizard() {
     }
     if (!subtopicName.trim()) {
       showToast("Please provide a Subtopic / Set name.", "warning");
+      return;
+    }
+
+    // Critical Validation: Block import if composition contract is violated (14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW = 20)
+    const composition = validateGeminiComposition(parsed.questions);
+    if (!composition.isValid20) {
+      showToast(
+        `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW. Received: ${composition.pyqCount} PYQ + ${composition.pyqModifiedCount} PYQ_MODIFIED + ${composition.aiNewCount} AI_NEW.`,
+        "warning"
+      );
+      return;
+    }
+
+    // Source Question Validation: Every PYQ and PYQ_MODIFIED must have a valid sourceQuestionId
+    const missingSource = parsed.questions.find((q) => {
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
+      return (st === "PYQ" || st === "PYQ_MODIFIED") && (!sid || typeof sid !== "number" || sid <= 0);
+    });
+    if (missingSource) {
+      showToast("Invalid import: Every PYQ and PYQ_MODIFIED question must contain a valid sourceQuestionId.", "warning");
+      return;
+    }
+
+    // Source Question Validation: AI_NEW must not have a sourceQuestionId
+    const invalidAi = parsed.questions.find((q) => {
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
+      return st === "AI_NEW" && sid !== undefined && sid !== null;
+    });
+    if (invalidAi) {
+      showToast("Invalid import: AI_NEW questions must not have a sourceQuestionId.", "warning");
       return;
     }
 

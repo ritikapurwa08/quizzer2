@@ -279,11 +279,17 @@ export function QuestionImportEditor({
     });
   }, [activeSubject, activeTopic, subtopicName, pyqResult]);
 
-  // Question Composition validation for 20-question rule
+  // Set of valid sourceQuestionIds from currently retrieved PYQ batch
+  const validSourceQuestionIds = useMemo(() => {
+    if (!pyqResult?.questions || pyqResult.questions.length === 0) return undefined;
+    return new Set(pyqResult.questions.map((q) => q.id));
+  }, [pyqResult]);
+
+  // Question Composition validation for 20-question rule (14 PYQ + 4 Modified + 2 AI)
   const composition = useMemo(() => {
     if (!parsedData || !parsedData.questions) return null;
-    return validateGeminiComposition(parsedData.questions);
-  }, [parsedData]);
+    return validateGeminiComposition(parsedData.questions, validSourceQuestionIds);
+  }, [parsedData, validSourceQuestionIds]);
 
   function handleCopyAiPrompt() {
     navigator.clipboard.writeText(currentPrompt);
@@ -309,7 +315,12 @@ export function QuestionImportEditor({
     }
   }
 
-  const isValid = parsedData !== null && !syntaxError && schemaErrors.length === 0;
+  const isValid =
+    parsedData !== null &&
+    !syntaxError &&
+    schemaErrors.length === 0 &&
+    composition !== null &&
+    composition.isValid === true;
 
   return (
     <div className="space-y-4">
@@ -566,14 +577,15 @@ export function QuestionImportEditor({
               </Badge>
             ) : parsedData ? (
               <div className="flex items-center gap-2 flex-wrap">
-                {composition && composition.isValid20 ? (
+                {composition && composition.isValid ? (
                   <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/30 font-bold shrink-0 font-hindi">
                     <CheckCircle2 className="h-3 w-3 shrink-0" />
                     तैयार · ठीक 20 प्रश्न (14 PYQ · 4 Modified · 2 AI)
                   </Badge>
                 ) : composition ? (
-                  <Badge variant="outline" className="gap-1 text-[11px] px-2 py-0.5 border-warning/50 text-warning bg-warning/10 font-semibold shrink-0 font-hindi">
-                    ⚠️ {composition.total} प्रश्न ({composition.pyqCount} PYQ, {composition.pyqModifiedCount} Mod, {composition.aiNewCount} AI)
+                  <Badge variant="destructive" className="gap-1 text-[11px] px-2 py-0.5 font-semibold shrink-0 font-hindi">
+                    <AlertCircle className="h-3 w-3 shrink-0" />
+                    ब्लॉक · {composition.total} प्रश्न ({composition.pyqCount} PYQ, {composition.pyqModifiedCount} Mod, {composition.aiNewCount} AI)
                   </Badge>
                 ) : (
                   <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-success/15 text-success border border-success/20 font-bold shrink-0 font-hindi">
@@ -701,22 +713,30 @@ export function QuestionImportEditor({
         </Alert>
       )}
 
-      {/* Composition Warning (if parsed successfully but does not match 14/4/2 contract) */}
-      {composition && !composition.isValid20 && schemaErrors.length === 0 && !syntaxError && (
-        <Alert className="rounded-xl border border-amber-500/30 bg-amber-500/10 text-amber-950 dark:text-amber-200">
-          <AlertCircle className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+      {/* Composition & Provenance Error Display (Blocking: import disabled unless 14 PYQ + 4 Modified + 2 AI with valid batch IDs) */}
+      {composition && !composition.isValid && schemaErrors.length === 0 && !syntaxError && (
+        <Alert variant="destructive" className="rounded-xl border border-destructive/40 bg-destructive/10 text-destructive dark:text-destructive-foreground">
+          <AlertCircle className="h-4 w-4" />
           <AlertTitle className="text-xs font-bold font-hindi flex items-center justify-between">
-            <span>20-प्रश्न संरचना सूचना (Gemini Composition Notice)</span>
+            <span>अमान्य प्रश्न संरचना (Invalid Question Composition — Import Blocked)</span>
             <span className="text-[11px] font-mono font-normal">
               कुल: {composition.total}/20 (PYQ: {composition.pyqCount}/14, Mod: {composition.pyqModifiedCount}/4, AI: {composition.aiNewCount}/2)
             </span>
           </AlertTitle>
           <AlertDescription className="text-xs mt-1">
-            <ul className="list-disc pl-4 space-y-0.5 text-xs font-hindi">
-              {composition.warnings.map((w, idx) => (
-                <li key={idx}>{w}</li>
-              ))}
-            </ul>
+            <div className="font-semibold text-xs mb-1 font-mono">
+              {composition.errorMessage || `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW. Received: ${composition.pyqCount} PYQ + ${composition.pyqModifiedCount} PYQ_MODIFIED + ${composition.aiNewCount} AI_NEW.`}
+            </div>
+            {composition.errors.length > 1 && (
+              <ul className="list-disc pl-4 space-y-0.5 text-xs font-mono">
+                {composition.errors.slice(1, 6).map((err, idx) => (
+                  <li key={idx}>{err}</li>
+                ))}
+                {composition.errors.length > 6 && (
+                  <li className="italic">...and {composition.errors.length - 6} more issue(s)</li>
+                )}
+              </ul>
+            )}
           </AlertDescription>
         </Alert>
       )}

@@ -415,11 +415,208 @@ assert(!cleanExp.includes("Rajasthan Gyan"), "cleanCorpusExplanation strips Raja
 assert(cleanExp.includes("भानगढ़ का किला अलवर में है।"), "cleanCorpusExplanation preserves factual explanation content");
 
 // -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // TEST 16: Prompt No-Citation Instruction
 // -----------------------------------------------------------------------------
 console.log("\n--- TEST 16: Prompt No-Citation Instruction ---");
-assert(prompt.includes("NO INLINE CITATIONS") || prompt.includes("Do not add citations"), "Prompt instructs Gemini not to add citations");
+assert(prompt.includes("NO INLINE CITATIONS") || prompt.includes("Do not include citations"), "Prompt instructs Gemini not to add citations");
+assert(prompt.includes("Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON"), "Prompt includes exact requested citation prohibition phrase");
 assert(prompt.includes("[cite: 1]"), "Prompt specifically warns against tokens like [cite: 1]");
+
+// -----------------------------------------------------------------------------
+// TEST 17: Critical Composition Validation & Source Provenance Enforcement
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 17: Critical Composition & Source ID Validation ---");
+
+// Mock retrieved batch with IDs 101 through 200
+const allowedIds = new Set<number>(Array.from({ length: 100 }, (_, i) => 101 + i));
+
+// 17.1: Invalid composition (0 PYQ + 2 MOD + 18 AI)
+const composition_0_2_18 = [
+  ...Array.from({ length: 2 }, (_, i) => ({
+    type: "mcq",
+    questionText: `Modified question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 101 + i },
+  })),
+  ...Array.from({ length: 18 }, (_, i) => ({
+    type: "mcq",
+    questionText: `AI question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "AI_NEW" },
+  })),
+];
+
+const result_0_2_18 = validateGeminiComposition(composition_0_2_18 as any, allowedIds);
+assert(result_0_2_18.isValid20 === false, "0 PYQ + 2 MOD + 18 AI evaluates to isValid20 = FALSE");
+assert(result_0_2_18.isValid === false, "0 PYQ + 2 MOD + 18 AI evaluates to isValid = FALSE (Import BLOCKED)");
+assert(
+  Boolean(result_0_2_18.errorMessage?.includes("Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW")),
+  "Clear error message specifies expected 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW"
+);
+assert(
+  Boolean(result_0_2_18.errorMessage?.includes("Received: 0 PYQ + 2 PYQ_MODIFIED + 18 AI_NEW")),
+  "Clear error message specifies received 0 PYQ + 2 PYQ_MODIFIED + 18 AI_NEW"
+);
+
+// 17.2: Missing sourceQuestionId on PYQ
+const missingSourceBatch = [
+  ...Array.from({ length: 14 }, (_, i) => ({
+    type: "mcq",
+    questionText: `PYQ question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    // First question lacks sourceQuestionId
+    meta: { sourceType: "PYQ", ...(i > 0 ? { sourceQuestionId: 101 + i } : {}) },
+  })),
+  ...Array.from({ length: 4 }, (_, i) => ({
+    type: "mcq",
+    questionText: `MOD question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 115 + i },
+  })),
+  ...Array.from({ length: 2 }, (_, i) => ({
+    type: "mcq",
+    questionText: `AI question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "AI_NEW" },
+  })),
+];
+
+const resultMissingSource = validateGeminiComposition(missingSourceBatch as any, allowedIds);
+assert(resultMissingSource.isValid20 === true, "14/4/2 counts are correct (isValid20 = TRUE)");
+assert(resultMissingSource.sourceIdValid === false, "sourceIdValid = FALSE due to missing sourceQuestionId on PYQ");
+assert(resultMissingSource.isValid === false, "isValid = FALSE (Import BLOCKED when sourceQuestionId is missing)");
+
+// 17.3: sourceQuestionId NOT in retrieved batch
+const invalidSourceIdBatch = JSON.parse(JSON.stringify(missingSourceBatch));
+// Provide sourceQuestionId 9999 which does not exist in allowedIds (101..200)
+invalidSourceIdBatch[0].meta.sourceQuestionId = 9999;
+const resultNotExistingSource = validateGeminiComposition(invalidSourceIdBatch as any, allowedIds);
+assert(resultNotExistingSource.sourceIdValid === false, "sourceIdValid = FALSE when sourceQuestionId is not in batch");
+assert(resultNotExistingSource.isValid === false, "isValid = FALSE when sourceQuestionId is not in batch");
+assert(
+  resultNotExistingSource.errors.some((e) => e.includes("sourceQuestionId 9999 does not exist in the currently retrieved PYQ batch")),
+  "Error explicitly reports sourceQuestionId 9999 not in batch"
+);
+
+// 17.4: AI_NEW question with illegal sourceQuestionId
+const illegalAiSourceBatch = JSON.parse(JSON.stringify(invalidSourceIdBatch));
+illegalAiSourceBatch[0].meta.sourceQuestionId = 101; // fix question 1
+illegalAiSourceBatch[18].meta.sourceQuestionId = 102; // illegally add to AI_NEW
+const resultIllegalAiSource = validateGeminiComposition(illegalAiSourceBatch as any, allowedIds);
+assert(resultIllegalAiSource.sourceIdValid === false, "sourceIdValid = FALSE when AI_NEW has sourceQuestionId");
+assert(resultIllegalAiSource.isValid === false, "isValid = FALSE when AI_NEW has sourceQuestionId");
+
+// 17.5: Valid 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW with all valid IDs in retrieved batch
+const valid14_4_2Batch = [
+  ...Array.from({ length: 14 }, (_, i) => ({
+    type: "mcq",
+    questionText: `PYQ question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "PYQ", sourceQuestionId: 101 + i, exam: "RPSC RAS 2021" },
+  })),
+  ...Array.from({ length: 4 }, (_, i) => ({
+    type: "mcq",
+    questionText: `MOD question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 115 + i },
+  })),
+  ...Array.from({ length: 2 }, (_, i) => ({
+    type: "mcq",
+    questionText: `AI question ${i + 1}`,
+    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
+    correctAnswer: "opt1",
+    meta: { sourceType: "AI_NEW", exam: null },
+  })),
+];
+
+const resultValid = validateGeminiComposition(valid14_4_2Batch as any, allowedIds);
+assert(resultValid.isValid20 === true, "Valid batch: isValid20 = TRUE");
+assert(resultValid.sourceIdValid === true, "Valid batch: sourceIdValid = TRUE");
+assert(resultValid.isValid === true, "Valid batch: isValid = TRUE (Can be imported)");
+assert(resultValid.errors.length === 0, "Valid batch: 0 errors");
+
+// -----------------------------------------------------------------------------
+// TEST 18: End-to-End Verification on a Topic with >= 100 Available PYQs
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 18: End-to-End 100+ PYQ Topic Verification ---");
+
+// Step 1: Topic selection
+const topic100Result = retrievePyqsForTopic({
+  subjectName: "राजस्थान का इतिहास",
+  topicName: "1857 की क्रांति",
+  batchSize: 100,
+  usedQuestionIds: [],
+});
+
+assert(topic100Result.totalAvailableInTopic >= 100, `Topic has >= 100 available PYQs (actual: ${topic100Result.totalAvailableInTopic})`);
+assert(topic100Result.questions.length === 100, `Retrieved exactly 100 questions for batch (actual: ${topic100Result.questions.length})`);
+
+// Step 2: Prompt construction with all 100 retrieved PYQs + PDF study text
+const testPdfText = "1857 की क्रांति में राजस्थान के 6 सैनिक छावनियां थीं: नसीराबाद, नीमच, देवली, ब्यावर, एरिनपुरा और खेरवाड़ा।";
+const topic100Prompt = generateAiPrompt({
+  subject: "राजस्थान का इतिहास",
+  topic: "1857 की क्रांति",
+  count: 20,
+  referenceText: testPdfText,
+  pyqReferences: topic100Result.questions,
+  pyqStats: {
+    totalFound: topic100Result.totalAvailableInTopic,
+    sent: topic100Result.questions.length,
+    usedCount: 0,
+    remainingCount: topic100Result.remainingUnusedCount,
+  },
+});
+
+// Step 3: Verify all 100 PYQs are actually in the prompt
+const firstRetrievedId = topic100Result.questions[0].id;
+const lastRetrievedId = topic100Result.questions[99].id;
+assert(topic100Prompt.includes(`Corpus ID: ${firstRetrievedId}`), `First retrieved PYQ (ID: ${firstRetrievedId}) present in prompt`);
+assert(topic100Prompt.includes(`Corpus ID: ${lastRetrievedId}`), `100th retrieved PYQ (ID: ${lastRetrievedId}) present in prompt`);
+assert(topic100Prompt.includes("--- PYQ #100"), "Prompt contains all 100 formatted PYQs");
+
+// Step 4: Verify prompt contract instructions
+assert(topic100Prompt.includes("14 PYQ"), "Prompt requires 14 PYQ");
+assert(topic100Prompt.includes("4 PYQ_MODIFIED"), "Prompt requires 4 PYQ_MODIFIED");
+assert(topic100Prompt.includes("2 AI_NEW"), "Prompt requires 2 AI_NEW");
+assert(topic100Prompt.includes("YOUTUBE IS REFERENCE ONLY"), "Prompt designates YouTube as reference-only");
+assert(topic100Prompt.includes("THE 5 YOUTUBE VIDEOS ARE NOT QUESTION SOURCES"), "Prompt explicitly forbids taking questions from YouTube");
+assert(topic100Prompt.includes("USER-SUPPLIED STUDY / REFERENCE MATERIAL (PDF / TEXT)"), "Prompt includes PDF section");
+assert(topic100Prompt.includes("The user has attached or supplied the following reference material"), "PDF context is present");
+assert(topic100Prompt.includes("Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON"), "Prompt includes exact citation prohibition phrase");
+
+// Step 5: Verify Used-Question Tracking (Retrieved ≠ Used)
+// Just retrieving 100 questions does NOT mark them as used
+const topicPoolAfterRetrieval = retrievePyqsForTopic({
+  subjectName: "राजस्थान का इतिहास",
+  topicName: "1857 की क्रांति",
+  batchSize: 100,
+  usedQuestionIds: [],
+});
+assert(topicPoolAfterRetrieval.questions.length === 100, "Unused pool count is unaffected without confirmed import");
+
+// Now simulate importing a 20-question set using 14 PYQs (IDs 0..13) and 4 MODs (IDs 14..17)
+const usedIdsAfterImport = topic100Result.questions.slice(0, 18).map((q) => q.id);
+assert(usedIdsAfterImport.length === 18, "Exactly 18 source questions used in the 20-question set");
+
+const nextBatchRetrieval = retrievePyqsForTopic({
+  subjectName: "राजस्थान का इतिहास",
+  topicName: "1857 की क्रांति",
+  batchSize: 100,
+  usedQuestionIds: usedIdsAfterImport,
+});
+
+// The next batch MUST exclude the 18 used questions and continue with remaining
+const hasOverlapWithUsed = nextBatchRetrieval.questions.some((q) => usedIdsAfterImport.includes(q.id));
+assert(!hasOverlapWithUsed, "Next batch excludes the 18 genuinely used sourceQuestionIds");
+assert(nextBatchRetrieval.questions.length === 100, "Next batch retrieves 100 fresh unused questions from remaining pool");
 
 console.log("\n================================================================================");
 console.log(`VERIFICATION SUMMARY: ${passCount} PASSED, ${failCount} FAILED`);

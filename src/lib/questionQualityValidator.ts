@@ -439,15 +439,15 @@ export function validateSingleQuestion(qRaw: QuestionForValidation): SingleQuest
   const effectiveSourceId = q.sourceQuestionId ?? q.meta?.sourceQuestionId;
 
   if (effectiveSourceType) {
-    if (!["PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
+    if (!["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"].includes(effectiveSourceType)) {
       issues.push({
         severity: "error",
         message: `अमान्य sourceType "${effectiveSourceType}"।`,
       });
     }
     if (
-      (effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") &&
-      (!effectiveSourceId || typeof effectiveSourceId !== "number")
+      (effectiveSourceType === "PYQ" || effectiveSourceType === "PYQ_EXACT" || effectiveSourceType === "PYQ_MODIFIED") &&
+      (!effectiveSourceId || typeof effectiveSourceId !== "number" || !Number.isInteger(effectiveSourceId) || effectiveSourceId <= 0)
     ) {
       issues.push({
         severity: "error",

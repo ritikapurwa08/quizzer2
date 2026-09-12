@@ -188,7 +188,7 @@ Do NOT deviate from this 14 / 4 / 2 ratio under any circumstances.
 
 8. NO INLINE CITATIONS OR BRACKETED CITATION ARTIFACTS:
 ------------------------------------------------------------
-• Do not add citations, citation markers, source-reference markers, footnote markers, or bracketed citation tokens such as [cite: 1] anywhere inside the JSON.
+• Do not include citations, citation markers, footnotes, or [cite: ...] markers (such as [cite: 1] or [cite: 11]) inside the JSON.
 • Return clean JSON without inline citations.
 
 ============================================================
@@ -269,7 +269,7 @@ Verification Checklist before outputting:
 [ ] "answer" is integer 0, 1, 2, or 3
 [ ] "explanation" present on every question
 [ ] Real exam name preserved where verified, otherwise "exam": null (NO fake exam names)
-[ ] Clean JSON without inline citations, footnote markers, or bracketed tokens such as [cite: 1]
+[ ] Clean JSON without inline citations — Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON.
 `;
 }
 
