@@ -482,7 +482,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "temple-architecture",
     topicName: "Temple Architecture",
     topicNameHindi: "मंदिर स्थापत्य",
-    corpusTopics: ["राजस्थान में स्थापत्य कला"],
+    corpusTopics: ["मंदिर स्थापत्य"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
