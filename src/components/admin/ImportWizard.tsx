@@ -45,8 +45,7 @@ export function ImportWizard() {
     selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
   ) ?? [];
 
-  const createTestSet = useMutation(api.testSets.create);
-  const bulkImport = useMutation(api.questions.bulkImport);
+  const importTestSetWithPyqs = useMutation(api.questions.importTestSetWithPyqs);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
   // Auto-seed default syllabus if empty
@@ -167,36 +166,19 @@ export function ImportWizard() {
     const startTime = Date.now();
 
     try {
-      // 1. Create Test Set with user's subtopic name & negative marking setting
-      const testSetId = await createTestSet({
+      // 1. Atomically create Test Set, insert 20 questions, and track 18 usedPyqs in Convex
+      const result = await importTestSetWithPyqs({
         topicId: selectedTopicId as Id<"topics">,
         name: subtopicName.trim(),
         negativeMarking,
+        questions: parsed.questions,
       });
-
-      // 2. Bulk insert questions
-      const result = await bulkImport({ testSetId, questions: parsed.questions });
+      const testSetId = result.testSetId;
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
-      // Track imported source PYQ IDs and YouTube references so they are preserved across sets
+      // Persist YouTube references for this topic if not already stored
       if (selectedTopicId) {
         try {
-          const storageKey = `quizzer2_used_pyqs_${selectedTopicId}`;
-          const stored = localStorage.getItem(storageKey);
-          const prevUsed: number[] = stored ? JSON.parse(stored) : [];
-          const importedSourceIds: number[] = [];
-          for (const q of parsed.questions) {
-            const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
-            if (typeof sid === "number" && Number.isInteger(sid) && sid > 0) {
-              importedSourceIds.push(sid);
-            }
-          }
-          if (importedSourceIds.length > 0) {
-            const merged = Array.from(new Set([...prevUsed, ...importedSourceIds]));
-            localStorage.setItem(storageKey, JSON.stringify(merged));
-          }
-
-          // Persist YouTube references for this topic if not already stored
           const ytKey = `quizzer2_youtube_refs_${selectedTopicId}`;
           const existingYt = localStorage.getItem(ytKey);
           if (!existingYt) {
@@ -205,18 +187,14 @@ export function ImportWizard() {
               localStorage.setItem(ytKey, JSON.stringify(extractedYt));
             }
           }
-
-          // Trigger storage and custom sync event so QuestionImportEditor syncs immediately
-          window.dispatchEvent(new Event("storage"));
-          window.dispatchEvent(new CustomEvent("quizzer_pyqs_updated", { detail: { topicId: selectedTopicId } }));
         } catch {
           // ignore
         }
       }
 
-      // 3. User feedback
+      // 2. User feedback
       const skippedNote = errors.length > 0 ? ` (${errors.length} malformed question(s) skipped)` : "";
-      showToast(`✅ ${result.imported} Questions Imported Successfully!${skippedNote}`, "success");
+      showToast(`✅ ${result.imported} Questions Imported Successfully! (18 PYQs tracked)`, "success");
 
       setLastImportedSet({
         id: testSetId,
@@ -224,6 +202,9 @@ export function ImportWizard() {
         count: result.imported,
         timeSeconds: parseFloat(elapsed.toFixed(1)),
       });
+
+      // Clear the editor so user is ready for the next set
+      setEditorCode("");
 
       // 4. Auto-advance to next part name using Hindi topic name
       const topicDisplay = getTopicDisplayName(activeTopic);

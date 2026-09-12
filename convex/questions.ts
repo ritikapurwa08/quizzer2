@@ -154,9 +154,9 @@ export const remove = mutation({
 });
 
 /**
- * Bulk import — the mutation the Import wizard calls after validation
- * passes client-side. Runs atomically per test set (SRD Section 7):
- * if any insert fails, none of the batch is committed.
+ * Bulk import — runs atomically per test set:
+ * Validates composition, ensures positive integer sourceQuestionIds for PYQ/PYQ_MODIFIED,
+ * inserts questions, and tracks used sourceQuestionIds in usedPyqs table.
  */
 export const bulkImport = mutation({
   args: {
@@ -165,14 +165,78 @@ export const bulkImport = mutation({
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
+    const testSet = await ctx.db.get(args.testSetId);
+    if (!testSet) throw new Error("Test set not found");
+    const topic = await ctx.db.get(testSet.topicId);
+    const subjectId = topic?.subjectId;
+
+    let pyqCount = 0;
+    let pyqModCount = 0;
+    let aiNewCount = 0;
+    const sourceIds: number[] = [];
+
+    for (let i = 0; i < args.questions.length; i++) {
+      const q = args.questions[i];
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId;
+
+      if (st === "PYQ" || st === "PYQ_EXACT") {
+        pyqCount++;
+        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+          throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
+        }
+        sourceIds.push(sid);
+      } else if (st === "PYQ_MODIFIED") {
+        pyqModCount++;
+        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+          throw new Error(`Question #${i + 1} (PYQ_MODIFIED) requires a valid integer sourceQuestionId.`);
+        }
+        sourceIds.push(sid);
+      } else if (st === "AI_NEW") {
+        aiNewCount++;
+        if (sid !== undefined && sid !== null) {
+          throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
+        }
+      }
+    }
+
+    // For standard 20-question imports, enforce strict composition contract
+    if (args.questions.length === 20) {
+      if (pyqCount !== 14 || pyqModCount !== 4 || aiNewCount !== 2) {
+        throw new Error(
+          `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW.`
+        );
+      }
+
+      if (new Set(sourceIds).size !== sourceIds.length) {
+        throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
+      }
+
+      if (topic) {
+        for (const sid of sourceIds) {
+          const alreadyUsed = await ctx.db
+            .query("usedPyqs")
+            .withIndex("by_topic_source", (q) =>
+              q.eq("topicId", testSet.topicId).eq("sourceQuestionId", sid)
+            )
+            .first();
+          if (alreadyUsed) {
+            throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
+          }
+        }
+      }
+    }
+
     const existing = await ctx.db
       .query("questions")
       .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
       .collect();
 
     let order = existing.length;
+    const usedAt = Date.now();
+
     for (const q of args.questions) {
-      await ctx.db.insert("questions", {
+      const questionId = await ctx.db.insert("questions", {
         testSetId: args.testSetId,
         type: q.type,
         questionText: q.questionText,
@@ -184,18 +248,169 @@ export const bulkImport = mutation({
         order: order++,
         meta: q.meta,
       });
+
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId;
+      if (
+        topic &&
+        subjectId &&
+        (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") &&
+        typeof sid === "number" &&
+        Number.isInteger(sid) &&
+        sid > 0
+      ) {
+        await ctx.db.insert("usedPyqs", {
+          subjectId,
+          topicId: testSet.topicId,
+          sourceQuestionId: sid,
+          testSetId: args.testSetId,
+          questionId,
+          usedAt,
+        });
+      }
     }
 
-    const testSet = await ctx.db.get(args.testSetId);
-    if (testSet) {
-      await ctx.db.patch(testSet._id, {
-        questionCount: existing.length + args.questions.length,
-      });
-    }
+    await ctx.db.patch(testSet._id, {
+      questionCount: existing.length + args.questions.length,
+    });
 
-    return { imported: args.questions.length };
+    return { imported: args.questions.length, usedTracked: sourceIds.length };
   },
 });
+
+/**
+ * All-in-one atomic test set import mutation for Admin workflow:
+ * Atomically creates the testSet, inserts 20 questions, and records 18 usedPyqs in one transaction.
+ * If any check fails, none of the records are created.
+ */
+export const importTestSetWithPyqs = mutation({
+  args: {
+    topicId: v.id("topics"),
+    name: v.string(),
+    negativeMarking: v.boolean(),
+    questions: v.array(questionInputValidator),
+  },
+  handler: async (ctx, args) => {
+    await requireAdmin(ctx);
+    const topic = await ctx.db.get(args.topicId);
+    if (!topic) throw new Error("Topic not found");
+    const subjectId = topic.subjectId;
+
+    // 1. Strict 20-question composition check (14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW)
+    let pyqCount = 0;
+    let pyqModCount = 0;
+    let aiNewCount = 0;
+    const sourceIds: number[] = [];
+
+    for (let i = 0; i < args.questions.length; i++) {
+      const q = args.questions[i];
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId;
+
+      if (st === "PYQ" || st === "PYQ_EXACT") {
+        pyqCount++;
+        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+          throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
+        }
+        sourceIds.push(sid);
+      } else if (st === "PYQ_MODIFIED") {
+        pyqModCount++;
+        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+          throw new Error(`Question #${i + 1} (PYQ_MODIFIED) requires a valid integer sourceQuestionId.`);
+        }
+        sourceIds.push(sid);
+      } else if (st === "AI_NEW") {
+        aiNewCount++;
+        if (sid !== undefined && sid !== null) {
+          throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
+        }
+      } else {
+        throw new Error(`Question #${i + 1} has invalid or missing sourceType: ${st}`);
+      }
+    }
+
+    if (args.questions.length !== 20 || pyqCount !== 14 || pyqModCount !== 4 || aiNewCount !== 2) {
+      throw new Error(
+        `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW (Total: ${args.questions.length}).`
+      );
+    }
+
+    // 2. Duplicate protection within batch
+    if (new Set(sourceIds).size !== sourceIds.length) {
+      throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
+    }
+
+    // 3. Duplicate protection against existing usedPyqs for this topic
+    for (const sid of sourceIds) {
+      const alreadyUsed = await ctx.db
+        .query("usedPyqs")
+        .withIndex("by_topic_source", (q) =>
+          q.eq("topicId", args.topicId).eq("sourceQuestionId", sid)
+        )
+        .first();
+      if (alreadyUsed) {
+        throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
+      }
+    }
+
+    // 4. Create testSet
+    const siblings = await ctx.db
+      .query("testSets")
+      .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
+      .collect();
+
+    const testSetId = await ctx.db.insert("testSets", {
+      topicId: args.topicId,
+      name: args.name.trim(),
+      negativeMarking: args.negativeMarking,
+      order: siblings.length,
+      questionCount: args.questions.length,
+    });
+
+    // 5. Atomically insert questions and track usedPyqs
+    const usedAt = Date.now();
+    for (let i = 0; i < args.questions.length; i++) {
+      const q = args.questions[i];
+      const questionId = await ctx.db.insert("questions", {
+        testSetId,
+        type: q.type,
+        questionText: q.questionText,
+        options: q.options,
+        correctAnswer: q.correctAnswer,
+        explanation: q.explanation,
+        reference: q.reference,
+        difficulty: q.difficulty,
+        order: i,
+        meta: q.meta,
+      });
+
+      const st = q.meta?.sourceType;
+      const sid = q.meta?.sourceQuestionId;
+      if (
+        (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") &&
+        typeof sid === "number" &&
+        Number.isInteger(sid) &&
+        sid > 0
+      ) {
+        await ctx.db.insert("usedPyqs", {
+          subjectId,
+          topicId: args.topicId,
+          sourceQuestionId: sid,
+          testSetId,
+          questionId,
+          usedAt,
+        });
+      }
+    }
+
+    return {
+      testSetId,
+      imported: args.questions.length,
+      usedTracked: sourceIds.length,
+    };
+  },
+});
+
 
 /**
  * Idempotent test set import mutation for CLI/script workflow:

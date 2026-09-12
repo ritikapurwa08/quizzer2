@@ -38,6 +38,12 @@ export interface PromptOptions {
    * Pre-selected 5 YouTube videos for this topic. If provided, Gemini will not output another list of videos.
    */
   selectedYouTubeVideos?: string[] | string;
+
+  /**
+   * If true, generates instructions-only prompt without interpolating the PYQ question records.
+   * The PYQ questions will be provided separately to the LLM.
+   */
+  promptOnly?: boolean;
 }
 
 export function generateAiQuestionPrompt(options: PromptOptions): string {
@@ -51,6 +57,7 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
     pyqStats,
     usedQuestionIds = [],
     selectedYouTubeVideos,
+    promptOnly = false,
   } = options;
 
   const hasPyqs = Boolean(pyqReferences && pyqReferences.length > 0);
@@ -106,7 +113,7 @@ Use it strictly as supporting study context to improve:
 - syllabus alignment and comprehensive explanations
 
 NOTE: The supplied reference material is supporting context.
-The original PYQ data below remains the source for the 14 PYQ questions
+The original PYQ data remains the source for the 14 PYQ questions
 and the basis for the 4 PYQ_MODIFIED questions.
 
 REFERENCE CONTENT:
@@ -115,7 +122,31 @@ ${referenceText}
 `
     : "";
 
-  const pyqBlock = hasPyqs
+  const pyqBlock = promptOnly
+    ? `
+============================================================
+ORIGINAL PYQ DATA (SEPARATELY PROVIDED VIA "COPY PYQ")
+============================================================
+
+Selected Subject: ${subject}
+Selected Topic: ${topic}${subtopic ? `\nSelected Sub-Topic / Set: ${subtopic}` : ""}
+${
+  pyqStats
+    ? `Corpus Statistics: Total Topic PYQs: ${pyqStats.totalFound} | Available Unused in Corpus: ${
+        pyqStats.remainingCount ?? pyqStats.sent
+      }${pyqStats.usedCount !== undefined ? ` | Previously Used: ${pyqStats.usedCount}` : ""}`
+    : ""
+}
+
+NOTE: The authentic, unused PYQ questions pool for this topic is provided separately.
+Gemini MUST:
+- Use the separately provided PYQs as the primary source for the 14 PYQ questions and 4 PYQ_MODIFIED questions.
+- Return the exact original "sourceQuestionId" for every PYQ and PYQ_MODIFIED question.
+- Formulate 2 brand new AI_NEW questions.
+- Follow all 14 + 4 + 2 composition rules and output the required JSON format below.
+============================================================
+`
+    : hasPyqs
     ? `
 ============================================================
 ORIGINAL PYQ DATA (CURRENT RETRIEVAL BATCH — PRIMARY SOURCE)

@@ -253,7 +253,7 @@ export function getRelevantPyqQuestions(
   query: string | PyqRetrievalQuery,
   options: PyqRetrievalOptions = {}
 ): PyqRetrievalResult {
-  const { maxResults = 100, usedQuestionIds, minScore = 0 } = options;
+  const { maxResults = 100, usedQuestionIds, minScore = 0, allUnused = false } = options;
 
   const topicQuery = typeof query === "string" ? query : query.topic;
   const subjectQuery = typeof query === "object" ? query.subject : undefined;
@@ -378,7 +378,7 @@ export function getRelevantPyqQuestions(
     return a.raw.id - b.raw.id;
   });
 
-  // 4. Deduplication of near-identical questions within the unused pool
+  // 4. Selection of unused questions
   const selectedRaw: (RawCorpusQuestion & { _score: number; repeatCount: number; combinedExam: string | null })[] = [];
   const seenFactKeys = new Set<string>();
   let duplicatesRemoved = 0;
@@ -386,8 +386,8 @@ export function getRelevantPyqQuestions(
   for (const item of scoredPool) {
     if (item.isUsed) continue; // Skip used questions
 
-    // Check if near-identical fact already added to this batch
-    if (seenFactKeys.has(item.factKey)) {
+    // When NOT in allUnused mode, deduplicate near-identical questions within the batch
+    if (!allUnused && seenFactKeys.has(item.factKey)) {
       duplicatesRemoved++;
       // If the already added entry doesn't have an exam but this duplicate does, enhance it
       const existing = selectedRaw.find(
@@ -416,10 +416,10 @@ export function getRelevantPyqQuestions(
       combinedExam,
     });
 
-    if (selectedRaw.length >= maxResults) break;
+    if (!allUnused && selectedRaw.length >= maxResults) break;
   }
 
-  const batchNumber = Math.floor(usedCountForTopic / maxResults) + 1;
+  const batchNumber = Math.floor(usedCountForTopic / (maxResults || 100)) + 1;
   const unusedPoolCount = Math.max(0, totalFound - usedCountForTopic);
   const remainingCount = Math.max(0, totalFound - usedCountForTopic - selectedRaw.length);
 
@@ -471,6 +471,7 @@ export function retrievePyqsForTopic(params: {
   topicName: string;
   batchSize?: number;
   usedQuestionIds?: number[] | Set<number>;
+  allUnused?: boolean;
 }): {
   questions: PyqQuestion[];
   totalAvailableInTopic: number;
@@ -480,7 +481,11 @@ export function retrievePyqsForTopic(params: {
 } {
   const res = getRelevantPyqQuestions(
     { topic: params.topicName, subject: params.subjectName },
-    { maxResults: params.batchSize ?? 100, usedQuestionIds: params.usedQuestionIds }
+    {
+      maxResults: params.batchSize ?? 100,
+      usedQuestionIds: params.usedQuestionIds,
+      allUnused: params.allUnused,
+    }
   );
   return {
     questions: res.questions,

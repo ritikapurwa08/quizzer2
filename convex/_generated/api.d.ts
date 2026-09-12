@@ -22,6 +22,7 @@ import type * as seed from "../seed.js";
 import type * as subjects from "../subjects.js";
 import type * as testSets from "../testSets.js";
 import type * as topics from "../topics.js";
+import type * as usedPyqs from "../usedPyqs.js";
 import type * as users from "../users.js";
 import type * as wrongQuestions from "../wrongQuestions.js";
 
@@ -46,6 +47,7 @@ declare const fullApi: ApiFromModules<{
   subjects: typeof subjects;
   testSets: typeof testSets;
   topics: typeof topics;
+  usedPyqs: typeof usedPyqs;
   users: typeof users;
   wrongQuestions: typeof wrongQuestions;
 }>;

@@ -414,6 +414,7 @@ export function validateGeminiComposition(
     : undefined;
 
   const sourceErrors: string[] = [];
+  const seenSourceIds = new Set<number>();
 
   for (let i = 0; i < questions.length; i++) {
     const q = questions[i];
@@ -426,15 +427,29 @@ export function validateGeminiComposition(
       pyqCount++;
       if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
         sourceErrors.push(`Question #${qNum} (${st}): Requires a valid positive integer sourceQuestionId.`);
-      } else if (allowedSet && !allowedSet.has(sid)) {
-        sourceErrors.push(`Question #${qNum} (${st}): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+      } else {
+        if (seenSourceIds.has(sid)) {
+          sourceErrors.push(`Duplicate sourceQuestionId ${sid} found in question #${qNum}. Each source question can only be used once.`);
+        } else {
+          seenSourceIds.add(sid);
+        }
+        if (allowedSet && !allowedSet.has(sid)) {
+          sourceErrors.push(`Question #${qNum} (${st}): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+        }
       }
     } else if (st === "PYQ_MODIFIED") {
       pyqModifiedCount++;
       if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
         sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): Requires a valid positive integer sourceQuestionId.`);
-      } else if (allowedSet && !allowedSet.has(sid)) {
-        sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+      } else {
+        if (seenSourceIds.has(sid)) {
+          sourceErrors.push(`Duplicate sourceQuestionId ${sid} found in question #${qNum}. Each source question can only be used once.`);
+        } else {
+          seenSourceIds.add(sid);
+        }
+        if (allowedSet && !allowedSet.has(sid)) {
+          sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
+        }
       }
     } else if (st === "AI_NEW") {
       aiNewCount++;

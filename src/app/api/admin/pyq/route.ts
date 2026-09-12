@@ -4,13 +4,13 @@ import { getRelevantPyqQuestions } from "@/lib/pyqRetrieval";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { subject, topic, subtopic, maxResults = 100, usedQuestionIds = [] } = body;
+    const { subject, topic, subtopic, maxResults = 100, usedQuestionIds = [], allUnused = false } = body;
 
     if (!topic || typeof topic !== "string" || !topic.trim()) {
       return NextResponse.json({ error: "Topic is required." }, { status: 400 });
     }
 
-    const safeMax = Math.min(1000, Math.max(1, Number(maxResults) || 100));
+    const safeMax = allUnused ? undefined : Math.min(1000, Math.max(1, Number(maxResults) || 100));
     const result = getRelevantPyqQuestions(
       {
         subject: subject || undefined,
@@ -20,6 +20,7 @@ export async function POST(req: NextRequest) {
       {
         maxResults: safeMax,
         usedQuestionIds: Array.isArray(usedQuestionIds) ? usedQuestionIds : [],
+        allUnused: Boolean(allUnused),
       }
     );
 
@@ -38,6 +39,7 @@ export async function GET(req: NextRequest) {
   const subject = searchParams.get("subject") || undefined;
   const topic = searchParams.get("topic") || "";
   const subtopic = searchParams.get("subtopic") || undefined;
+  const allUnused = searchParams.get("allUnused") === "true";
   const maxResults = Math.min(1000, Math.max(1, parseInt(searchParams.get("maxResults") || "100", 10)));
   const usedIdsStr = searchParams.get("usedIds");
   const usedQuestionIds = usedIdsStr
@@ -50,8 +52,9 @@ export async function GET(req: NextRequest) {
 
   const result = getRelevantPyqQuestions(
     { subject, topic, subtopic },
-    { maxResults, usedQuestionIds }
+    { maxResults: allUnused ? undefined : maxResults, usedQuestionIds, allUnused }
   );
 
   return NextResponse.json(result);
 }
+

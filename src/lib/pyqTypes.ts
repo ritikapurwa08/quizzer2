@@ -41,6 +41,8 @@ export interface PyqRetrievalOptions {
   usedQuestionIds?: Set<number> | number[];
   /** Minimum score threshold (default: 0) */
   minScore?: number;
+  /** Return all currently available unused questions without a batch size limit */
+  allUnused?: boolean;
 }
 
 export interface PyqRetrievalResult {
