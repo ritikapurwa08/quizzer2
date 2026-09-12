@@ -5,6 +5,7 @@ import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { QuestionImportEditor } from "./QuestionImportEditor";
 import { ImportJson, validateGeminiComposition } from "@/lib/validators/question";
+import { extractYouTubeReferencesFromLlmOutput } from "@/lib/importParser";
 import { Id } from "../../../convex/_generated/dataModel";
 import { useToast } from "@/components/ui/Toast";
 import { getTopicDisplayName } from "@/lib/utils";
@@ -177,7 +178,7 @@ export function ImportWizard() {
       const result = await bulkImport({ testSetId, questions: parsed.questions });
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
-      // Track imported source PYQ IDs so they are not retrieved again
+      // Track imported source PYQ IDs and YouTube references so they are preserved across sets
       if (selectedTopicId) {
         try {
           const storageKey = `quizzer2_used_pyqs_${selectedTopicId}`;
@@ -193,9 +194,21 @@ export function ImportWizard() {
           if (importedSourceIds.length > 0) {
             const merged = Array.from(new Set([...prevUsed, ...importedSourceIds]));
             localStorage.setItem(storageKey, JSON.stringify(merged));
-            // Trigger storage event so QuestionImportEditor syncs
-            window.dispatchEvent(new Event("storage"));
           }
+
+          // Persist YouTube references for this topic if not already stored
+          const ytKey = `quizzer2_youtube_refs_${selectedTopicId}`;
+          const existingYt = localStorage.getItem(ytKey);
+          if (!existingYt) {
+            const extractedYt = extractYouTubeReferencesFromLlmOutput(editorCode);
+            if (extractedYt && extractedYt.length > 0) {
+              localStorage.setItem(ytKey, JSON.stringify(extractedYt));
+            }
+          }
+
+          // Trigger storage and custom sync event so QuestionImportEditor syncs immediately
+          window.dispatchEvent(new Event("storage"));
+          window.dispatchEvent(new CustomEvent("quizzer_pyqs_updated", { detail: { topicId: selectedTopicId } }));
         } catch {
           // ignore
         }

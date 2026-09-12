@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { autoFixJson } from "@/lib/importParser";
+import { autoFixJson, extractYouTubeReferencesFromLlmOutput } from "@/lib/importParser";
 import { importJsonSchema, ImportJson, validateGeminiComposition } from "@/lib/validators/question";
 import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
 import { PyqRetrievalResult, PyqQuestion } from "@/lib/pyqTypes";
@@ -113,7 +113,11 @@ export function QuestionImportEditor({
   useEffect(() => {
     loadUsedIds();
     window.addEventListener("storage", loadUsedIds);
-    return () => window.removeEventListener("storage", loadUsedIds);
+    window.addEventListener("quizzer_pyqs_updated", loadUsedIds);
+    return () => {
+      window.removeEventListener("storage", loadUsedIds);
+      window.removeEventListener("quizzer_pyqs_updated", loadUsedIds);
+    };
   }, [loadUsedIds]);
 
   const saveUsedIds = useCallback((newIds: number[]) => {
@@ -126,6 +130,59 @@ export function QuestionImportEditor({
       }
     }
   }, [selectedTopicId]);
+
+  // ── Selected YouTube videos tracking (per topic in localStorage: exactly 5 references selected once) ──
+  const [selectedYouTubeVideos, setSelectedYouTubeVideos] = useState<string[]>([]);
+
+  const loadYouTubeVideos = useCallback(() => {
+    if (!selectedTopicId) {
+      setSelectedYouTubeVideos([]);
+      return;
+    }
+    try {
+      const stored = localStorage.getItem(`quizzer2_youtube_refs_${selectedTopicId}`);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          setSelectedYouTubeVideos(parsed);
+          return;
+        }
+      }
+    } catch {
+      // ignore
+    }
+    setSelectedYouTubeVideos([]);
+  }, [selectedTopicId]);
+
+  useEffect(() => {
+    loadYouTubeVideos();
+    window.addEventListener("storage", loadYouTubeVideos);
+    window.addEventListener("quizzer_pyqs_updated", loadYouTubeVideos);
+    return () => {
+      window.removeEventListener("storage", loadYouTubeVideos);
+      window.removeEventListener("quizzer_pyqs_updated", loadYouTubeVideos);
+    };
+  }, [loadYouTubeVideos]);
+
+  const saveYouTubeVideos = useCallback((videos: string[]) => {
+    setSelectedYouTubeVideos(videos);
+    if (selectedTopicId) {
+      try {
+        localStorage.setItem(`quizzer2_youtube_refs_${selectedTopicId}`, JSON.stringify(videos));
+      } catch {
+        // ignore
+      }
+    }
+  }, [selectedTopicId]);
+
+  // Auto-collect YouTube video references as soon as raw response is pasted for a topic without saved videos
+  useEffect(() => {
+    if (!code.trim() || !selectedTopicId || selectedYouTubeVideos.length > 0) return;
+    const extracted = extractYouTubeReferencesFromLlmOutput(code);
+    if (extracted && extracted.length > 0) {
+      saveYouTubeVideos(extracted);
+    }
+  }, [code, selectedTopicId, selectedYouTubeVideos.length, saveYouTubeVideos]);
 
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const lineNumbersRef = useRef<HTMLDivElement>(null);
@@ -253,10 +310,11 @@ export function QuestionImportEditor({
     fetchPyqBatch(effectiveBatchSize);
   }, [fetchPyqBatch, effectiveBatchSize]);
 
-  // Reset used PYQ list for this topic
+  // Reset used PYQ list & YouTube videos for this topic
   function handleResetUsed() {
     saveUsedIds([]);
-    showToast("🔄 इस टॉपिक का प्रयुक्त PYQs ट्रैकर रीसेट किया गया", "info");
+    saveYouTubeVideos([]);
+    showToast("🔄 इस टॉपिक का प्रयुक्त PYQs व YouTube ट्रैकर रीसेट किया गया", "info");
   }
 
   // Generate 20-Question Gemini Prompt (Generation set size is strictly fixed at 20)
@@ -276,8 +334,10 @@ export function QuestionImportEditor({
             batchNumber: pyqResult.batchNumber,
           }
         : undefined,
+      usedQuestionIds,
+      selectedYouTubeVideos,
     });
-  }, [activeSubject, activeTopic, subtopicName, pyqResult]);
+  }, [activeSubject, activeTopic, subtopicName, pyqResult, usedQuestionIds, selectedYouTubeVideos]);
 
   // Set of valid sourceQuestionIds from currently retrieved PYQ batch
   const validSourceQuestionIds = useMemo(() => {

@@ -64,6 +64,66 @@ export function stripMarkdownFences(raw: string): string {
 }
 
 /**
+ * Robustly extracts up to 5 YouTube educational reference video lines from raw LLM output.
+ * Looks in the preamble before the JSON array for Part A or YouTube video listings.
+ */
+export function extractYouTubeReferencesFromLlmOutput(rawText: string): string[] | null {
+  if (!rawText || !rawText.trim()) return null;
+
+  // Search in the preamble before the JSON array starts
+  const jsonStart = rawText.indexOf("[");
+  const preamble = jsonStart !== -1 ? rawText.substring(0, jsonStart) : rawText;
+
+  // Look for Part A or YouTube section header
+  const partAMatch = preamble.match(
+    /(?:PART\s*A|YouTube\s*Reference\s*Videos|YouTube\s*Videos|Educational\s*YouTube\s*Videos)[\s\S]*?(?=(?:PART\s*B|```json|```\s*\[|\[|$))/i
+  );
+  const searchSection = partAMatch ? partAMatch[0] : preamble;
+
+  const lines = searchSection.split(/\r?\n/);
+  const items: string[] = [];
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    // Check if line is a numbered item (1., 2., 1), etc.) or bullet point (- , * )
+    const listMatch = trimmed.match(/^(?:(?:\d+[\.\)])|(?:[-*]))\s*(.+)/);
+    if (listMatch && listMatch[1]) {
+      const content = listMatch[1].trim();
+      // Skip empty checklist boxes like [ ]
+      if (/^\[\s*\]/.test(content)) continue;
+
+      // If we are specifically inside a Part A block, or the item mentions youtube / video / link / channel
+      if (
+        partAMatch ||
+        /youtube\.com|youtu\.be/i.test(content) ||
+        /\[.*youtube.*\]/i.test(content)
+      ) {
+        items.push(content);
+        if (items.length >= 5) break;
+      }
+    }
+  }
+
+  if (items.length >= 1) {
+    return items.slice(0, 5);
+  }
+
+  // Fallback: any line in preamble with youtube.com or youtu.be
+  const fallbackLines = lines
+    .filter((l) => /youtube\.com|youtu\.be/i.test(l))
+    .map((l) => l.replace(/^(?:(?:\d+[\.\)])|(?:[-*]))\s*/, "").trim())
+    .filter((l) => l.length > 0);
+
+  if (fallbackLines.length >= 1) {
+    return fallbackLines.slice(0, 5);
+  }
+
+  return null;
+}
+
+/**
  * Automatically fixes common JSON syntax errors:
  * - Extracts JSON array from preamble/surrounding text
  * - Trailing commas before } or ]

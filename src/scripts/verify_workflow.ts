@@ -1,7 +1,7 @@
 import { retrievePyqsForTopic, getRelevantPyqQuestions } from "../lib/pyqRetrieval";
 import { getCorpusTopicsForCanonical, CANONICAL_TOPIC_MAPPINGS } from "../lib/syllabusTopicMap";
 import { generateAiPrompt } from "../lib/prompts/aiQuestionPrompt";
-import { extractJsonFromLlmOutput, sanitizeLlmArtifacts, validateAndIsolateQuestions, autoFixJson } from "../lib/importParser";
+import { extractJsonFromLlmOutput, sanitizeLlmArtifacts, validateAndIsolateQuestions, autoFixJson, extractYouTubeReferencesFromLlmOutput } from "../lib/importParser";
 import { normalizeMinifiedQuestion, validateGeminiComposition, importJsonSchema } from "../lib/validators/question";
 import { cleanCorpusExplanation } from "../lib/pyqTypes";
 
@@ -617,6 +617,72 @@ const nextBatchRetrieval = retrievePyqsForTopic({
 const hasOverlapWithUsed = nextBatchRetrieval.questions.some((q) => usedIdsAfterImport.includes(q.id));
 assert(!hasOverlapWithUsed, "Next batch excludes the 18 genuinely used sourceQuestionIds");
 assert(nextBatchRetrieval.questions.length === 100, "Next batch retrieves 100 fresh unused questions from remaining pool");
+
+// -----------------------------------------------------------------------------
+// TEST 19: Persistent USED SOURCE QUESTION IDs Prompt Contract
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 19: Persistent USED SOURCE QUESTION IDs Contract ---");
+const sampleUsedIds = [101, 104, 108, 115, 121];
+const promptWithUsedIds = generateAiPrompt({
+  subject: "राजस्थान का इतिहास",
+  topic: "1857 की क्रांति",
+  count: 20,
+  pyqReferences: batch1.questions,
+  usedQuestionIds: sampleUsedIds,
+});
+
+assert(promptWithUsedIds.includes("USED SOURCE QUESTION IDs:\n[101, 104, 108, 115, 121]"), "Prompt explicitly contains the USED SOURCE QUESTION IDs list");
+assert(promptWithUsedIds.includes("never use any ID from this list again"), "Prompt contains rule: never use any ID from this list again");
+assert(promptWithUsedIds.includes("select PYQ and PYQ_MODIFIED questions only from the newly supplied PYQ batch"), "Prompt contains rule: select PYQ/MODIFIED only from newly supplied PYQ batch");
+assert(promptWithUsedIds.includes("return the sourceQuestionId for every PYQ and PYQ_MODIFIED question"), "Prompt contains rule: return sourceQuestionId for every PYQ/MODIFIED");
+assert(promptWithUsedIds.includes("treat the supplied USED IDs as permanently unavailable for future sets"), "Prompt contains rule: treat used IDs as permanently unavailable");
+
+// When usedQuestionIds is empty
+const promptEmptyUsedIds = generateAiPrompt({
+  subject: "राजस्थान का इतिहास",
+  topic: "1857 की क्रांति",
+  count: 20,
+  pyqReferences: batch1.questions,
+  usedQuestionIds: [],
+});
+assert(promptEmptyUsedIds.includes("USED SOURCE QUESTION IDs:\n[]"), "Prompt contains empty list when no IDs used yet");
+
+// -----------------------------------------------------------------------------
+// TEST 20: YouTube State: First Batch vs Subsequent Batches
+// -----------------------------------------------------------------------------
+console.log("\n--- TEST 20: YouTube State: Single Selection Across Sets ---");
+// Batch 1: No previous YouTube videos
+const firstBatchPrompt = generateAiPrompt({
+  subject: "राजस्थान का भूगोल",
+  topic: "भौतिक स्वरूप",
+  count: 20,
+  pyqReferences: batch1.questions,
+  selectedYouTubeVideos: [],
+});
+assert(firstBatchPrompt.includes("Search for and select exactly 5 highly relevant, high-quality YouTube educational videos"), "First batch prompt requests Gemini to select 5 YouTube videos");
+assert(firstBatchPrompt.includes("PART A: 5 YouTube Reference Videos"), "First batch prompt requires PART A in output format");
+
+// Extraction of 5 YouTube videos from LLM response
+const extractedVideos = extractYouTubeReferencesFromLlmOutput(realisticGeminiResponse);
+assert(Array.isArray(extractedVideos) && extractedVideos.length === 5, "Extracted exactly 5 YouTube reference videos from LLM response");
+assert(extractedVideos![0].includes("अरावली पर्वतमाला सम्पूर्ण भूगोल"), "First extracted video has expected title/content");
+
+// Subsequent Batch: Previously selected 5 YouTube videos supplied
+const subsequentBatchPrompt = generateAiPrompt({
+  subject: "राजस्थान का भूगोल",
+  topic: "भौतिक स्वरूप",
+  count: 20,
+  pyqReferences: batch2.questions,
+  usedQuestionIds: sampleUsedIds,
+  selectedYouTubeVideos: extractedVideos!,
+});
+
+assert(subsequentBatchPrompt.includes("These 5 YouTube videos have already been selected for this Topic. Continue using them as supporting reference material. Do not provide another YouTube list."), "Subsequent prompt includes the mandatory exact reuse instruction");
+assert(subsequentBatchPrompt.includes("DO NOT search for or output another 5 videos for every subsequent 20-question set."), "Subsequent prompt forbids searching for new videos");
+assert(subsequentBatchPrompt.includes("YouTube remains SUPPORTING CONTEXT ONLY. It is never a question source."), "Subsequent prompt affirms YouTube remains supporting context only");
+assert(subsequentBatchPrompt.includes("Your response must contain ONLY the JSON array of exactly 20 questions"), "Subsequent prompt requires ONLY JSON array (no Part A YouTube list)");
+assert(!subsequentBatchPrompt.includes("PART A: 5 YouTube Reference Videos"), "Subsequent prompt DOES NOT ask for Part A YouTube videos again");
+assert(subsequentBatchPrompt.includes("Do NOT provide another YouTube list"), "Subsequent checklist includes Do NOT provide another YouTube list");
 
 console.log("\n================================================================================");
 console.log(`VERIFICATION SUMMARY: ${passCount} PASSED, ${failCount} FAILED`);
