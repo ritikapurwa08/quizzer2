@@ -147,7 +147,13 @@ export default function AdminQuestionsPage() {
           {/* Subject Filter */}
           <Select value={selectedSubjectId || "all"} onValueChange={handleSubjectChange}>
             <SelectTrigger className="h-9 text-xs font-semibold bg-background border-border">
-              <SelectValue placeholder="All Subjects" />
+              <SelectValue placeholder="All Subjects">
+                {(selectedValue: string | null) => {
+                  if (!selectedValue || selectedValue === "all") return "All Subjects";
+                  const found = subjects.find((s) => s._id === selectedValue);
+                  return found ? (found.nameHindi || found.name) : "All Subjects";
+                }}
+              </SelectValue>
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
               <SelectItem value="all" className="text-xs font-semibold">
@@ -168,7 +174,15 @@ export default function AdminQuestionsPage() {
             disabled={!selectedSubjectId || topics.length === 0}
           >
             <SelectTrigger className="h-9 text-xs font-semibold bg-background border-border disabled:opacity-50">
-              <SelectValue placeholder={selectedSubjectId ? "All Topics" : "Select Subject First"} />
+              <SelectValue placeholder={selectedSubjectId ? "All Topics" : "Select Subject First"}>
+                {(selectedValue: string | null) => {
+                  if (!selectedValue || selectedValue === "all") {
+                    return selectedSubjectId ? "All Topics" : "Select Subject First";
+                  }
+                  const found = topics.find((t) => t._id === selectedValue);
+                  return found ? (found.nameHindi || found.name) : "All Topics";
+                }}
+              </SelectValue>
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
               <SelectItem value="all" className="text-xs font-semibold">

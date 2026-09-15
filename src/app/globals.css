@@ -35,27 +35,32 @@
 }
 
 :root {
-  --background: #0b0b10;
-  --foreground: #f3f4f6;
-  --card: #111118;
-  --card-foreground: #f3f4f6;
-  --popover: #181822;
-  --popover-foreground: #f3f4f6;
+  /* ── Base surfaces — true neutral dark, no purple tint ── */
+  --background: #0b0b0b;
+  --foreground: #f1f2f4;
+  --card: #111111;
+  --card-foreground: #f1f2f4;
+  --popover: #181818;
+  --popover-foreground: #f1f2f4;
+  /* ── Accent — purple stays ONLY here ── */
   --primary: #8b5cf6;
   --primary-foreground: #ffffff;
   --ring: #8b5cf6;
-  --secondary: #191924;
-  --secondary-foreground: #f3f4f6;
-  --muted: #181821;
-  --muted-foreground: #9da2b5;
+  /* ── Secondary / Muted surfaces ── */
+  --secondary: #191919;
+  --secondary-foreground: #f1f2f4;
+  --muted: #1a1a1a;
+  --muted-foreground: #8f9399;
+  /* ── Semantic ── */
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
   --success: #22c55e;
   --success-foreground: #ffffff;
   --warning: #f59e0b;
   --warning-foreground: #ffffff;
-  --border: #252534;
-  --input: #252534;
+  /* ── Borders / Inputs ── */
+  --border: #262626;
+  --input: #262626;
 }
 
 *,
@@ -168,12 +173,12 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #29293a;
+  background: #2e2e2e;
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #38384c;
+  background: #3a3a3a;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -27,5 +27,7 @@ export { QuestionShell } from "./QuestionShell";
 export { QuestionSourceMeta, parseQuestionSource } from "./QuestionSourceMeta";
 export { OptionButton } from "./OptionButton";
 export { QuestionPalette } from "./QuestionPalette";
+export { QuestionPaletteToggle } from "./QuestionPaletteToggle";
 export { QuestionReviewCard } from "./QuestionReviewCard";
+export { QuestionReviewFilter } from "./QuestionReviewFilter";
 export { QuestionShellSkeleton } from "./QuestionShellSkeleton";

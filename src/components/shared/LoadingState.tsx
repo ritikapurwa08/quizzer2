@@ -78,30 +78,24 @@ export function PageSkeleton() {
 /** Full-screen branded loader shown by AuthGuard while verifying session. */
 export function AppLoadingScreen() {
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background gap-5 select-none">
-      {/* Ambient glow */}
-      <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-        <div className="h-72 w-72 rounded-full bg-primary/10 blur-[80px] animate-pulse" />
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-background select-none"
+      role="status"
+      aria-label="Loading Quizzer"
+    >
+      {/* Ambient glow — very subtle */}
+      <div className="absolute inset-0 pointer-events-none flex items-center justify-center" aria-hidden="true">
+        <div className="h-64 w-64 rounded-full bg-primary/8 blur-[100px]" />
       </div>
 
-      {/* Logo mark */}
-      <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 border border-primary/20 shadow-lg">
+      {/* Q logo mark */}
+      <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 border border-primary/20">
         <span className="text-2xl font-bold text-primary">Q</span>
-        {/* Rotating ring */}
-        <div className="absolute inset-0 rounded-2xl border-2 border-transparent border-t-primary/60 animate-spin [animation-duration:1.2s]" />
-      </div>
-
-      {/* Text */}
-      <div className="space-y-1.5 text-center">
-        <p className="text-sm font-semibold text-foreground font-hindi">
-          <span className="inline-flex ml-1 tracking-widest text-primary animate-pulse">…</span>
-        </p>
-
-      </div>
-
-      {/* Progress track */}
-      <div className="w-24 h-0.5 bg-muted rounded-full overflow-hidden relative">
-        <div className="absolute inset-y-0 left-0 w-1/2 bg-linear-to-r from-transparent via-primary to-transparent animate-[shimmer_1.5s_infinite]" />
+        {/* Subtle rotating ring */}
+        <div
+          className="absolute inset-0 rounded-2xl border-2 border-transparent border-t-primary/50 animate-spin [animation-duration:1.4s]"
+          aria-hidden="true"
+        />
       </div>
     </div>
   );
