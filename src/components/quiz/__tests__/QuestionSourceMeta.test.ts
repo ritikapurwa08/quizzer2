@@ -18,11 +18,12 @@ describe("parseQuestionSource", () => {
     expect(result.badgeLabel).toBe("PYQ");
   });
 
-  it("identifies PYQ_MODIFIED prefixed reference", () => {
+  it("defensively handles legacy PYQ_MODIFIED prefixed reference as PYQ", () => {
     const result = parseQuestionSource("PYQ_MODIFIED — Chemist 2024");
     expect(result.hasSource).toBe(true);
-    expect(result.sourceType).toBe("PYQ_MODIFIED");
-    expect(result.badgeLabel).toBe("PYQ Modified");
+    expect(result.sourceType).toBe("PYQ");
+    expect(result.examReference).toBe("Chemist 2024");
+    expect(result.badgeLabel).toBe("PYQ");
   });
 
   it("extracts exam from meta.exam for PYQ", () => {
@@ -84,4 +85,3 @@ describe("parseQuestionSource", () => {
     expect(result.examReference).toBeUndefined();
   });
 });
-

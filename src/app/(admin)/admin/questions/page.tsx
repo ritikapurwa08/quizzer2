@@ -302,11 +302,7 @@ export default function AdminQuestionsPage() {
                   return (
                     <Badge
                       variant="secondary"
-                      className={cn(
-                        "text-[10px] px-2 py-0.5 rounded-full font-semibold shrink-0 whitespace-nowrap",
-                        st === "AI_NEW" && "border-primary/30 text-primary bg-primary/10",
-                        st === "PYQ_MODIFIED" && "border-amber-500/30 text-amber-500 bg-amber-500/10"
-                      )}
+                      className="text-[10px] px-2 py-0.5 rounded-full font-medium shrink-0 whitespace-nowrap border border-border bg-muted text-foreground"
                     >
                       {st === "AI_NEW" ? "AI Generated" : st === "PYQ_MODIFIED" ? "PYQ Modified" : "PYQ"}
                     </Badge>

@@ -140,9 +140,8 @@ const prompt = generateAiPrompt({
 });
 
 assert(prompt.includes("EXACTLY 20 QUESTIONS"), "Prompt specifies EXACTLY 20 QUESTIONS");
-assert(prompt.includes("14 PYQ"), "Prompt specifies 14 PYQ");
-assert(prompt.includes("4 PYQ_MODIFIED"), "Prompt specifies 4 PYQ_MODIFIED");
-assert(prompt.includes("2 AI_NEW"), "Prompt specifies 2 AI_NEW");
+assert(prompt.includes("16 PYQ"), "Prompt specifies 16 PYQ");
+assert(prompt.includes("4 AI_NEW"), "Prompt specifies 4 AI_NEW");
 assert(prompt.includes("YouTube educational videos") || prompt.includes("YouTube"), "Prompt requests 5 YouTube educational videos");
 assert(prompt.includes("REFERENCE ONLY"), "Prompt designates YouTube as REFERENCE ONLY (never question sources)");
 assert(!prompt.includes("Rajasthan Gyan"), "Prompt DOES NOT contain Rajasthan Gyan");
@@ -171,7 +170,7 @@ Here is your complete 20-question package for Rajasthan Geography:
 ### Part B: 20 Exam Questions
 \`\`\`json
 [
-  ${Array.from({ length: 14 }, (_, i) => `{
+  ${Array.from({ length: 16 }, (_, i) => `{
     "question": "राजस्थान की अरावली पर्वतमाला की सबसे ऊंची चोटी कौन सी है? (PYQ #${i + 1})",
     "options": ["गुरुशिखर", "सेर", "देलवाड़ा", "जरगा"],
     "answer": 0,
@@ -181,15 +180,6 @@ Here is your complete 20-question package for Rajasthan Geography:
     "exam": "RAS Pre 2021"
   }`).join(",\n")},
   ${Array.from({ length: 4 }, (_, i) => `{
-    "question": "कथन (A): अरावली पर्वत श्रेणी जल विभाजक का कार्य करती है। कारण (R): यह राजस्थान को दो असमान वर्षा वाले भागों में बांटती है। (Modified #${i + 1})",
-    "options": ["A और R दोनों सही हैं तथा R, A का सही स्पष्टीकरण है", "A और R दोनों सही हैं परन्तु R सही स्पष्टीकरण नहीं है", "A सही है परन्तु R गलत है", "A गलत है परन्तु R सही है"],
-    "answer": 0,
-    "explanation": "अरावली पर्वतमाला 50 सेमी समवर्षा रेखा के समानांतर स्थित होकर महान भारतीय जल विभाजक बनाती है।",
-    "sourceType": "PYQ_MODIFIED",
-    "sourceQuestionId": ${200 + i},
-    "exam": "2nd Grade Teacher 2018"
-  }`).join(",\n")},
-  ${Array.from({ length: 2 }, (_, i) => `{
     "question": "राजस्थान में नए जिलों के पुनर्गठन के उपरांत अरावली का सर्वाधिक विस्तार किस संभाग में है? (AI New #${i + 1})",
     "options": ["उदयपुर संभाग", "जयपुर संभाग", "जोधपुर संभाग", "बीकानेर संभाग"],
     "answer": 0,
@@ -222,25 +212,23 @@ assert(aiNewQ?.meta?.sourceType === "AI_NEW", "19th question has sourceType 'AI_
 assert(!aiNewQ?.meta?.exam, "AI_NEW question has NO exam attached (null handled)");
 
 // -----------------------------------------------------------------------------
-// TEST 8: Gemini Composition Validation (14/4/2 Contract)
+// TEST 8: Gemini Composition Validation (16/4 Contract)
 // -----------------------------------------------------------------------------
 console.log("\n--- TEST 8: Composition Validation ---");
 const validComposition = validateGeminiComposition(normalizedQuestions as any);
 assert(validComposition.total === 20, "Composition total is 20");
-assert(validComposition.pyqCount === 14, "Composition PYQ count is 14");
-assert(validComposition.pyqModifiedCount === 4, "Composition PYQ_MODIFIED count is 4");
-assert(validComposition.aiNewCount === 2, "Composition AI_NEW count is 2");
-assert(validComposition.isValid20 === true, "isValid20 evaluates to TRUE for 14/4/2 batch");
-assert(validComposition.warnings.length === 0, "Zero warnings for valid 14/4/2 batch");
+assert(validComposition.pyqCount === 16, "Composition PYQ count is 16");
+assert(validComposition.pyqModifiedCount === 0, "Composition PYQ_MODIFIED count is 0");
+assert(validComposition.aiNewCount === 4, "Composition AI_NEW count is 4");
+assert(validComposition.isValid20 === true, "isValid20 evaluates to TRUE for 16/4 batch");
+assert(validComposition.warnings.length === 0, "Zero warnings for valid 16/4 batch");
 
-// Test invalid composition (e.g. 10 PYQ, 5 MOD, 5 AI)
+// Test invalid composition (e.g. 10 PYQ, 10 AI)
 const invalidQuestions = [
   ...normalizedQuestions.slice(0, 10), // 10 PYQ
-  ...normalizedQuestions.slice(14, 18), // 4 MOD
-  ...normalizedQuestions.slice(14, 15), // +1 MOD = 5 MOD
-  ...normalizedQuestions.slice(18, 20), // 2 AI
-  ...normalizedQuestions.slice(18, 20), // +2 AI
-  ...normalizedQuestions.slice(18, 19), // +1 AI = 5 AI
+  ...normalizedQuestions.slice(16, 20), // 4 AI
+  ...normalizedQuestions.slice(16, 20), // +4 AI
+  ...normalizedQuestions.slice(16, 18), // +2 AI = 10 AI
 ];
 const invalidComposition = validateGeminiComposition(invalidQuestions as any);
 assert(invalidComposition.isValid20 === false, "isValid20 evaluates to FALSE for non-standard composition");
@@ -430,16 +418,16 @@ console.log("\n--- TEST 17: Critical Composition & Source ID Validation ---");
 // Mock retrieved batch with IDs 101 through 200
 const allowedIds = new Set<number>(Array.from({ length: 100 }, (_, i) => 101 + i));
 
-// 17.1: Invalid composition (0 PYQ + 2 MOD + 18 AI)
-const composition_0_2_18 = [
-  ...Array.from({ length: 2 }, (_, i) => ({
+// 17.1: Invalid composition (10 PYQ + 10 AI)
+const composition_10_10 = [
+  ...Array.from({ length: 10 }, (_, i) => ({
     type: "mcq",
-    questionText: `Modified question ${i + 1}`,
+    questionText: `PYQ question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
     correctAnswer: "opt1",
-    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 101 + i },
+    meta: { sourceType: "PYQ", sourceQuestionId: 101 + i },
   })),
-  ...Array.from({ length: 18 }, (_, i) => ({
+  ...Array.from({ length: 10 }, (_, i) => ({
     type: "mcq",
     questionText: `AI question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
@@ -448,21 +436,21 @@ const composition_0_2_18 = [
   })),
 ];
 
-const result_0_2_18 = validateGeminiComposition(composition_0_2_18 as any, allowedIds);
-assert(result_0_2_18.isValid20 === false, "0 PYQ + 2 MOD + 18 AI evaluates to isValid20 = FALSE");
-assert(result_0_2_18.isValid === false, "0 PYQ + 2 MOD + 18 AI evaluates to isValid = FALSE (Import BLOCKED)");
+const result_10_10 = validateGeminiComposition(composition_10_10 as any, allowedIds);
+assert(result_10_10.isValid20 === false, "10 PYQ + 10 AI evaluates to isValid20 = FALSE");
+assert(result_10_10.isValid === false, "10 PYQ + 10 AI evaluates to isValid = FALSE (Import BLOCKED)");
 assert(
-  Boolean(result_0_2_18.errorMessage?.includes("Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW")),
-  "Clear error message specifies expected 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW"
+  Boolean(result_10_10.errorMessage?.includes("Expected: 16 PYQ + 4 AI_NEW")),
+  "Clear error message specifies expected 16 PYQ + 4 AI_NEW"
 );
 assert(
-  Boolean(result_0_2_18.errorMessage?.includes("Received: 0 PYQ + 2 PYQ_MODIFIED + 18 AI_NEW")),
-  "Clear error message specifies received 0 PYQ + 2 PYQ_MODIFIED + 18 AI_NEW"
+  Boolean(result_10_10.errorMessage?.includes("Received: 10 PYQ + 10 AI_NEW")),
+  "Clear error message specifies received 10 PYQ + 10 AI_NEW"
 );
 
 // 17.2: Missing sourceQuestionId on PYQ
 const missingSourceBatch = [
-  ...Array.from({ length: 14 }, (_, i) => ({
+  ...Array.from({ length: 16 }, (_, i) => ({
     type: "mcq",
     questionText: `PYQ question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
@@ -472,13 +460,6 @@ const missingSourceBatch = [
   })),
   ...Array.from({ length: 4 }, (_, i) => ({
     type: "mcq",
-    questionText: `MOD question ${i + 1}`,
-    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
-    correctAnswer: "opt1",
-    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 115 + i },
-  })),
-  ...Array.from({ length: 2 }, (_, i) => ({
-    type: "mcq",
     questionText: `AI question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
     correctAnswer: "opt1",
@@ -487,7 +468,7 @@ const missingSourceBatch = [
 ];
 
 const resultMissingSource = validateGeminiComposition(missingSourceBatch as any, allowedIds);
-assert(resultMissingSource.isValid20 === true, "14/4/2 counts are correct (isValid20 = TRUE)");
+assert(resultMissingSource.isValid20 === true, "16/4 counts are correct (isValid20 = TRUE)");
 assert(resultMissingSource.sourceIdValid === false, "sourceIdValid = FALSE due to missing sourceQuestionId on PYQ");
 assert(resultMissingSource.isValid === false, "isValid = FALSE (Import BLOCKED when sourceQuestionId is missing)");
 
@@ -511,9 +492,9 @@ const resultIllegalAiSource = validateGeminiComposition(illegalAiSourceBatch as 
 assert(resultIllegalAiSource.sourceIdValid === false, "sourceIdValid = FALSE when AI_NEW has sourceQuestionId");
 assert(resultIllegalAiSource.isValid === false, "isValid = FALSE when AI_NEW has sourceQuestionId");
 
-// 17.5: Valid 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW with all valid IDs in retrieved batch
-const valid14_4_2Batch = [
-  ...Array.from({ length: 14 }, (_, i) => ({
+// 17.5: Valid 16 PYQ + 4 AI_NEW with all valid IDs in retrieved batch
+const valid16_4Batch = [
+  ...Array.from({ length: 16 }, (_, i) => ({
     type: "mcq",
     questionText: `PYQ question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
@@ -522,13 +503,6 @@ const valid14_4_2Batch = [
   })),
   ...Array.from({ length: 4 }, (_, i) => ({
     type: "mcq",
-    questionText: `MOD question ${i + 1}`,
-    options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
-    correctAnswer: "opt1",
-    meta: { sourceType: "PYQ_MODIFIED", sourceQuestionId: 115 + i },
-  })),
-  ...Array.from({ length: 2 }, (_, i) => ({
-    type: "mcq",
     questionText: `AI question ${i + 1}`,
     options: [{ id: "opt1", text: "A" }, { id: "opt2", text: "B" }, { id: "opt3", text: "C" }, { id: "opt4", text: "D" }],
     correctAnswer: "opt1",
@@ -536,7 +510,7 @@ const valid14_4_2Batch = [
   })),
 ];
 
-const resultValid = validateGeminiComposition(valid14_4_2Batch as any, allowedIds);
+const resultValid = validateGeminiComposition(valid16_4Batch as any, allowedIds);
 assert(resultValid.isValid20 === true, "Valid batch: isValid20 = TRUE");
 assert(resultValid.sourceIdValid === true, "Valid batch: sourceIdValid = TRUE");
 assert(resultValid.isValid === true, "Valid batch: isValid = TRUE (Can be imported)");
@@ -582,9 +556,8 @@ assert(topic100Prompt.includes(`Corpus ID: ${lastRetrievedId}`), `100th retrieve
 assert(topic100Prompt.includes("--- PYQ #100"), "Prompt contains all 100 formatted PYQs");
 
 // Step 4: Verify prompt contract instructions
-assert(topic100Prompt.includes("14 PYQ"), "Prompt requires 14 PYQ");
-assert(topic100Prompt.includes("4 PYQ_MODIFIED"), "Prompt requires 4 PYQ_MODIFIED");
-assert(topic100Prompt.includes("2 AI_NEW"), "Prompt requires 2 AI_NEW");
+assert(topic100Prompt.includes("16 PYQ"), "Prompt requires 16 PYQ");
+assert(topic100Prompt.includes("4 AI_NEW"), "Prompt requires 4 AI_NEW");
 assert(topic100Prompt.includes("YOUTUBE IS REFERENCE ONLY"), "Prompt designates YouTube as reference-only");
 assert(topic100Prompt.includes("THE 5 YOUTUBE VIDEOS ARE NOT QUESTION SOURCES"), "Prompt explicitly forbids taking questions from YouTube");
 assert(topic100Prompt.includes("USER-SUPPLIED STUDY / REFERENCE MATERIAL (PDF / TEXT)"), "Prompt includes PDF section");
@@ -601,9 +574,9 @@ const topicPoolAfterRetrieval = retrievePyqsForTopic({
 });
 assert(topicPoolAfterRetrieval.questions.length === 100, "Unused pool count is unaffected without confirmed import");
 
-// Now simulate importing a 20-question set using 14 PYQs (IDs 0..13) and 4 MODs (IDs 14..17)
-const usedIdsAfterImport = topic100Result.questions.slice(0, 18).map((q) => q.id);
-assert(usedIdsAfterImport.length === 18, "Exactly 18 source questions used in the 20-question set");
+// Now simulate importing a 20-question set using 16 PYQs (IDs 0..15)
+const usedIdsAfterImport = topic100Result.questions.slice(0, 16).map((q) => q.id);
+assert(usedIdsAfterImport.length === 16, "Exactly 16 source questions used in the 20-question set");
 
 const nextBatchRetrieval = retrievePyqsForTopic({
   subjectName: "राजस्थान का इतिहास",
@@ -612,9 +585,9 @@ const nextBatchRetrieval = retrievePyqsForTopic({
   usedQuestionIds: usedIdsAfterImport,
 });
 
-// The next batch MUST exclude the 18 used questions and continue with remaining
+// The next batch MUST exclude the 16 used questions and continue with remaining
 const hasOverlapWithUsed = nextBatchRetrieval.questions.some((q) => usedIdsAfterImport.includes(q.id));
-assert(!hasOverlapWithUsed, "Next batch excludes the 18 genuinely used sourceQuestionIds");
+assert(!hasOverlapWithUsed, "Next batch excludes the 16 genuinely used sourceQuestionIds");
 assert(nextBatchRetrieval.questions.length === 100, "Next batch retrieves 100 fresh unused questions from remaining pool");
 
 // -----------------------------------------------------------------------------
@@ -632,8 +605,8 @@ const promptWithUsedIds = generateAiPrompt({
 
 assert(promptWithUsedIds.includes("USED SOURCE QUESTION IDs:\n[101, 104, 108, 115, 121]"), "Prompt explicitly contains the USED SOURCE QUESTION IDs list");
 assert(promptWithUsedIds.includes("never use any ID from this list again"), "Prompt contains rule: never use any ID from this list again");
-assert(promptWithUsedIds.includes("select PYQ and PYQ_MODIFIED questions only from the newly supplied PYQ batch"), "Prompt contains rule: select PYQ/MODIFIED only from newly supplied PYQ batch");
-assert(promptWithUsedIds.includes("return the sourceQuestionId for every PYQ and PYQ_MODIFIED question"), "Prompt contains rule: return sourceQuestionId for every PYQ/MODIFIED");
+assert(promptWithUsedIds.includes("select 16 PYQ questions only from the newly supplied PYQ batch"), "Prompt contains rule: select 16 PYQ only from newly supplied PYQ batch");
+assert(promptWithUsedIds.includes("return the genuine sourceQuestionId for every PYQ question"), "Prompt contains rule: return genuine sourceQuestionId for every PYQ");
 assert(promptWithUsedIds.includes("treat the supplied USED IDs as permanently unavailable for future sets"), "Prompt contains rule: treat used IDs as permanently unavailable");
 
 // When usedQuestionIds is empty

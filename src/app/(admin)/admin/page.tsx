@@ -21,7 +21,7 @@ export default function AdminOverviewPage() {
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
         <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
-          <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+          <div className="p-3 rounded-lg bg-muted text-foreground shrink-0">
             <BookOpen className="h-5 w-5" />
           </div>
           <div>
@@ -31,7 +31,7 @@ export default function AdminOverviewPage() {
         </Card>
 
         <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
-          <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+          <div className="p-3 rounded-lg bg-muted text-foreground shrink-0">
             <FileText className="h-5 w-5" />
           </div>
           <div>
@@ -41,7 +41,7 @@ export default function AdminOverviewPage() {
         </Card>
 
         <Card className="flex items-center gap-3.5 p-4 bg-card border border-border/80 rounded-xl shadow-2xs">
-          <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+          <div className="p-3 rounded-lg bg-muted text-foreground shrink-0">
             <HelpCircle className="h-5 w-5" />
           </div>
           <div>
@@ -52,19 +52,19 @@ export default function AdminOverviewPage() {
       </div>
 
       <Link href="/admin/import" className="block">
-        <Card className="flex items-center justify-between p-4 bg-card border border-border shadow-sm rounded-xl hover:border-primary hover:shadow-md transition-all group">
+        <Card className="flex items-center justify-between p-4 bg-card border border-border shadow-xs rounded-xl hover:border-foreground/30 hover:shadow-xs transition-all group">
           <div className="flex items-center gap-3.5">
-            <div className="p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+            <div className="p-3 rounded-lg bg-muted text-foreground shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors">
               <Upload className="h-6 w-6" />
             </div>
             <div>
-              <p className="font-bold text-base group-hover:text-primary transition-colors">Import Questions</p>
+              <p className="font-bold text-base text-foreground transition-colors">Import Questions</p>
               <p className="text-xs text-muted-foreground mt-0.5">
                 Bulk upload questions using AI-generated JSON
               </p>
             </div>
           </div>
-          <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
+          <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-foreground group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
         </Card>
       </Link>
 
@@ -74,45 +74,45 @@ export default function AdminOverviewPage() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="/admin/subjects">
-            <Card className="flex items-center gap-3 p-4 hover:border-primary hover:shadow-sm transition-all rounded-xl group">
-              <div className="p-2.5 rounded-lg bg-muted group-hover:bg-primary/10 group-hover:text-primary transition-colors shrink-0">
+            <Card className="flex items-center gap-3 p-4 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group">
+              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
                 <BookOpen className="h-5 w-5" />
               </div>
               <div>
-                <p className="font-semibold text-sm group-hover:text-primary transition-colors">Manage Subjects</p>
+                <p className="font-semibold text-sm text-foreground transition-colors">Manage Subjects</p>
                 <p className="text-xs text-muted-foreground">Add & order subjects</p>
               </div>
             </Card>
           </Link>
           <Link href="/admin/topics">
-            <Card className="flex items-center gap-3 p-4 hover:border-primary hover:shadow-sm transition-all rounded-xl group">
-              <div className="p-2.5 rounded-lg bg-muted group-hover:bg-primary/10 group-hover:text-primary transition-colors shrink-0">
+            <Card className="flex items-center gap-3 p-4 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group">
+              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
                 <Layers className="h-5 w-5" />
               </div>
               <div>
-                <p className="font-semibold text-sm group-hover:text-primary transition-colors">Manage Topics</p>
+                <p className="font-semibold text-sm text-foreground transition-colors">Manage Topics</p>
                 <p className="text-xs text-muted-foreground">Fixed topic hierarchy</p>
               </div>
             </Card>
           </Link>
           <Link href="/admin/test-sets">
-            <Card className="flex items-center gap-3 p-4 hover:border-primary hover:shadow-sm transition-all rounded-xl group">
-              <div className="p-2.5 rounded-lg bg-muted group-hover:bg-primary/10 group-hover:text-primary transition-colors shrink-0">
+            <Card className="flex items-center gap-3 p-4 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group">
+              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
                 <FileText className="h-5 w-5" />
               </div>
               <div>
-                <p className="font-semibold text-sm group-hover:text-primary transition-colors">Manage Test Sets</p>
+                <p className="font-semibold text-sm text-foreground transition-colors">Manage Test Sets</p>
                 <p className="text-xs text-muted-foreground">Practice sets & scoring</p>
               </div>
             </Card>
           </Link>
           <Link href="/admin/questions">
-            <Card className="flex items-center gap-3 p-4 hover:border-primary hover:shadow-sm transition-all rounded-xl group">
-              <div className="p-2.5 rounded-lg bg-muted group-hover:bg-primary/10 group-hover:text-primary transition-colors shrink-0">
+            <Card className="flex items-center gap-3 p-4 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group">
+              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
                 <HelpCircle className="h-5 w-5" />
               </div>
               <div>
-                <p className="font-semibold text-sm group-hover:text-primary transition-colors">Manage Questions</p>
+                <p className="font-semibold text-sm text-foreground transition-colors">Manage Questions</p>
                 <p className="text-xs text-muted-foreground">View & edit question bank</p>
               </div>
             </Card>

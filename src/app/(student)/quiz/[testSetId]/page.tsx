@@ -91,8 +91,13 @@ export default function QuizPage() {
 
   if (isLoading || questions.length === 0) {
     return (
-      <div className="max-w-3xl mx-auto space-y-4 pt-4">
-        <QuestionShellSkeleton />
+      <div className="flex flex-col lg:flex-row gap-6 w-full pt-1">
+        <div className="flex-1 space-y-3 min-w-0">
+          <QuestionShellSkeleton />
+        </div>
+        <div className="hidden lg:block w-72 shrink-0 space-y-4">
+          <div className="h-64 rounded-2xl border border-border bg-card/60 p-4 animate-pulse" />
+        </div>
       </div>
     );
   }

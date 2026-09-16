@@ -88,7 +88,7 @@ export default function SubjectDetailPage() {
                       ? "border-emerald-400/50 dark:border-emerald-500/40 hover:border-emerald-500/70"
                       : isInProgress
                       ? "border-amber-400/50 dark:border-amber-500/40 hover:border-amber-500/70"
-                      : "border-border/80 hover:border-primary/60"
+                      : "border-border/80 hover:border-foreground/30 hover:shadow-xs"
                   )}
                 >
                   <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
@@ -99,7 +99,7 @@ export default function SubjectDetailPage() {
                           ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white"
                           : isInProgress
                           ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-white"
-                          : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground"
+                          : "bg-muted text-foreground group-hover:bg-foreground group-hover:text-background"
                       )}
                     >
                       {isCompleted ? (
@@ -117,7 +117,7 @@ export default function SubjectDetailPage() {
                               ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
                               : isInProgress
                               ? "text-foreground group-hover:text-amber-600 dark:group-hover:text-amber-400"
-                              : "text-foreground group-hover:text-primary"
+                              : "text-foreground"
                           )}
                         >
                           {getTopicDisplayName(t)}
@@ -147,7 +147,7 @@ export default function SubjectDetailPage() {
                       </div>
                     </div>
                   </div>
-                  <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-primary group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
+                  <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
                 </div>
               </Link>
             );

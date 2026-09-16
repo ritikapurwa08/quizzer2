@@ -44,12 +44,12 @@ export function validateTestSet(testSet: PreparedTestSet, _fileName?: string): {
   if (!testSet.topic?.trim()) errors.push("Missing topic");
   if (!testSet.testSetName?.trim()) errors.push("Missing testSetName");
 
-  // 2. Exact question count contract
-  if (testSet.questions.length !== 10) {
-    errors.push(`Exact count contract failed: Expected 10 questions, got ${testSet.questions.length}`);
+  // 2. Question count contract (20 for standard tests, 10 for legacy)
+  if (testSet.questions.length !== 20 && testSet.questions.length !== 10) {
+    errors.push(`Exact count contract failed: Expected 20 questions, got ${testSet.questions.length}`);
   }
 
-  // 3. Exact 7:2:1 ratio contract
+  // 3. Exact ratio contract
   let pyqCount = 0;
   let modCount = 0;
   let aiCount = 0;
@@ -93,8 +93,14 @@ export function validateTestSet(testSet: PreparedTestSet, _fileName?: string): {
     }
   });
 
-  if (pyqCount !== 7 || modCount !== 2 || aiCount !== 1) {
-    errors.push(`7:2:1 contract violation: Expected 7 PYQ, 2 PYQ_MODIFIED, 1 AI_NEW. Got PYQ: ${pyqCount}, MOD: ${modCount}, AI: ${aiCount}`);
+  if (testSet.questions.length === 20) {
+    if (pyqCount !== 16 || modCount !== 0 || aiCount !== 4) {
+      errors.push(`16:4 contract violation: Expected 16 PYQ, 0 PYQ_MODIFIED, 4 AI_NEW. Got PYQ: ${pyqCount}, MOD: ${modCount}, AI: ${aiCount}`);
+    }
+  } else if (testSet.questions.length === 10) {
+    if (pyqCount !== 7 || modCount !== 2 || aiCount !== 1) {
+      errors.push(`7:2:1 contract violation: Expected 7 PYQ, 2 PYQ_MODIFIED, 1 AI_NEW. Got PYQ: ${pyqCount}, MOD: ${modCount}, AI: ${aiCount}`);
+    }
   }
 
   // 4. Run question quality validator for duplicates, position bias, etc.

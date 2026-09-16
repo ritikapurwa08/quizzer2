@@ -344,7 +344,7 @@ export function getRelevantPyqQuestions(
   const canonicalDef = resolveCanonicalTopic(subjectQuery || "", topicQuery);
 
   const candidateIndices = new Set<number>();
-  let authorizedCorpusTopics: string[] = [];
+  const authorizedCorpusTopics: string[] = [];
 
   // 3. Build candidate set via subject+topic compound index
   const topicsToTry: string[] = [];

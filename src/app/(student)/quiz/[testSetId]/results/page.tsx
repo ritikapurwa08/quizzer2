@@ -67,8 +67,8 @@ export default function ResultsPage() {
   // ── Loading state ──
   if (data === undefined || data === null) {
     return (
-      <div className="max-w-3xl mx-auto space-y-4 pt-4">
-        <QuestionShellSkeleton />
+      <div className="w-full space-y-4 pt-1">
+        <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
         <QuestionShellSkeleton />
       </div>
     );

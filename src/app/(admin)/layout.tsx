@@ -40,7 +40,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               </div>
               <Link
                 href="/dashboard"
-                className="flex items-center gap-1 text-xs font-semibold text-primary hover:underline px-2 py-1 rounded bg-primary/10"
+                className="flex items-center gap-1 text-xs font-semibold text-foreground hover:bg-muted px-2.5 py-1 rounded-lg border border-border transition-colors"
                 title="Go to Student Dashboard"
               >
                 <ArrowLeft className="h-3.5 w-3.5" /> Dashboard
@@ -52,9 +52,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium hover:bg-muted hover:text-foreground text-muted-foreground whitespace-nowrap transition-colors"
+                  className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium hover:bg-muted hover:text-foreground text-muted-foreground whitespace-nowrap transition-colors group"
                 >
-                  <item.icon className="h-4 w-4 shrink-0 text-primary" />
+                  <item.icon className="h-4 w-4 shrink-0 text-muted-foreground group-hover:text-foreground transition-colors" />
                   {item.label}
                 </Link>
               ))}
@@ -64,9 +64,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <div className="pt-4 border-t border-border mt-4 hidden lg:block">
             <Link
               href="/dashboard"
-              className="flex items-center justify-center gap-2 w-full py-2.5 px-3 rounded-lg border border-border bg-card hover:bg-primary hover:text-primary-foreground text-xs font-semibold transition-all shadow-sm group"
+              className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg border border-border bg-card hover:bg-muted text-foreground text-xs font-semibold transition-colors shadow-xs group"
             >
-              <Home className="h-4 w-4 text-primary group-hover:text-primary-foreground transition-colors" />
+              <Home className="h-4 w-4 text-muted-foreground group-hover:text-foreground transition-colors" />
               Back to Dashboard
             </Link>
           </div>

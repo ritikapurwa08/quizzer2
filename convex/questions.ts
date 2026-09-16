@@ -202,9 +202,9 @@ export const bulkImport = mutation({
 
     // For standard 20-question imports, enforce strict composition contract
     if (args.questions.length === 20) {
-      if (pyqCount !== 14 || pyqModCount !== 4 || aiNewCount !== 2) {
+      if (pyqCount !== 16 || pyqModCount !== 0 || aiNewCount !== 4) {
         throw new Error(
-          `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW.`
+          `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount > 0 ? `${pyqModCount} PYQ_MODIFIED + ` : ""}${aiNewCount} AI_NEW.`
         );
       }
 
@@ -280,7 +280,7 @@ export const bulkImport = mutation({
 
 /**
  * All-in-one atomic test set import mutation for Admin workflow:
- * Atomically creates the testSet, inserts 20 questions, and records 18 usedPyqs in one transaction.
+ * Atomically creates the testSet, inserts 20 questions, and records 16 usedPyqs in one transaction.
  * If any check fails, none of the records are created.
  */
 export const importTestSetWithPyqs = mutation({
@@ -292,11 +292,12 @@ export const importTestSetWithPyqs = mutation({
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
+
     const topic = await ctx.db.get(args.topicId);
     if (!topic) throw new Error("Topic not found");
     const subjectId = topic.subjectId;
 
-    // 1. Strict 20-question composition check (14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW)
+    // 1. Verify question composition and extract sourceIds
     let pyqCount = 0;
     let pyqModCount = 0;
     let aiNewCount = 0;
@@ -329,9 +330,9 @@ export const importTestSetWithPyqs = mutation({
       }
     }
 
-    if (args.questions.length !== 20 || pyqCount !== 14 || pyqModCount !== 4 || aiNewCount !== 2) {
+    if (args.questions.length !== 20 || pyqCount !== 16 || pyqModCount !== 0 || aiNewCount !== 4) {
       throw new Error(
-        `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW (Total: ${args.questions.length}).`
+        `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount ? `${pyqModCount} PYQ_MODIFIED + ` : ""}${aiNewCount} AI_NEW (Total: ${args.questions.length}).`
       );
     }
 

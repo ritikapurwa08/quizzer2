@@ -529,14 +529,14 @@ END AVAILABLE UNUSED PYQ DATA POOL
 
                 <div className="p-2.5 rounded-lg bg-card border border-border/80 text-center">
                   <div className="text-[11px] text-muted-foreground font-medium">Used (प्रयुक्त)</div>
-                  <div className="font-bold text-amber-600 dark:text-amber-400 text-base tabular-nums mt-0.5">
+                  <div className="font-bold text-foreground text-base tabular-nums mt-0.5">
                     {usedPyqs}
                   </div>
                 </div>
 
                 <div className="p-2.5 rounded-lg bg-card border border-border/80 text-center">
                   <div className="text-[11px] text-muted-foreground font-medium">Available (उपलब्ध)</div>
-                  <div className="font-bold text-emerald-600 dark:text-emerald-400 text-base tabular-nums mt-0.5">
+                  <div className="font-bold text-foreground text-base tabular-nums mt-0.5">
                     {availablePyqs}
                   </div>
                 </div>
@@ -601,7 +601,7 @@ END AVAILABLE UNUSED PYQ DATA POOL
                 size="sm"
                 onClick={handleCopyPrompt}
                 className="w-full sm:w-auto h-9 gap-1.5 text-xs font-bold px-3.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 shadow-xs active:scale-[0.98] transition-transform font-hindi"
-                title="केवल प्रॉम्प्ट निर्देश कॉपी करें (14/4/2 संरचना, बिना PYQ डेटा)"
+                title="केवल प्रॉम्प्ट निर्देश कॉपी करें (16 PYQ + 4 AI_NEW संरचना, बिना PYQ डेटा)"
               >
                 {promptCopied ? <Check className="h-3.5 w-3.5" /> : <FileText className="h-3.5 w-3.5" />}
                 {promptCopied ? "प्रॉम्प्ट कॉपी!" : "Copy Prompt"}
@@ -617,7 +617,7 @@ END AVAILABLE UNUSED PYQ DATA POOL
                 className="w-full sm:w-auto h-9 gap-1.5 text-xs font-bold px-3.5 rounded-xl border border-border shadow-xs active:scale-[0.98] transition-transform font-hindi"
                 title="सभी उपलब्ध अप्रयुक्त PYQs कॉपी करें"
               >
-                {pyqCopied ? <Check className="h-3.5 w-3.5 text-emerald-600" /> : <Copy className="h-3.5 w-3.5" />}
+                {pyqCopied ? <Check className="h-3.5 w-3.5 text-foreground" /> : <Copy className="h-3.5 w-3.5" />}
                 {pyqCopied ? "PYQ कॉपी!" : `Copy PYQ (${availablePyqs})`}
               </Button>
             </div>
@@ -639,17 +639,17 @@ END AVAILABLE UNUSED PYQ DATA POOL
             ) : parsedData ? (
               <div className="flex items-center gap-2 flex-wrap">
                 {composition && composition.isValid ? (
-                  <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 border border-emerald-500/30 font-bold shrink-0 font-hindi">
+                  <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-muted text-foreground border border-border font-bold shrink-0 font-hindi">
                     <CheckCircle2 className="h-3 w-3 shrink-0" />
-                    तैयार · ठीक 20 प्रश्न (14 PYQ · 4 Modified · 2 AI)
+                    तैयार · ठीक 20 प्रश्न (16 PYQ · 4 AI Generated)
                   </Badge>
                 ) : composition ? (
                   <Badge variant="destructive" className="gap-1 text-[11px] px-2 py-0.5 font-semibold shrink-0 font-hindi">
                     <AlertCircle className="h-3 w-3 shrink-0" />
-                    ब्लॉक · {composition.total} प्रश्न ({composition.pyqCount} PYQ, {composition.pyqModifiedCount} Mod, {composition.aiNewCount} AI)
+                    ब्लॉक · {composition.total} प्रश्न ({composition.pyqCount} PYQ{composition.pyqModifiedCount ? `, ${composition.pyqModifiedCount} Mod` : ""}, ${composition.aiNewCount} AI)
                   </Badge>
                 ) : (
-                  <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-emerald-500/15 text-emerald-700 dark:text-emerald-400 border border-emerald-500/20 font-bold shrink-0 font-hindi">
+                  <Badge className="gap-1 text-[11px] px-2.5 py-0.5 rounded-md bg-muted text-foreground border border-border font-bold shrink-0 font-hindi">
                     <CheckCircle2 className="h-3 w-3 shrink-0" />
                     तैयार · {parsedData.questions.length} प्रश्न
                   </Badge>

@@ -301,16 +301,16 @@ export function validateQuestionBank(
 
   // ── Global checks ─────────────────────────────────────────────────────────
 
-  // Strict 7:2:1 ratio check for 10-question tests
-  if (questions.length === 10) {
+  // Strict 16 PYQ + 4 AI_NEW ratio check for 20-question tests
+  if (questions.length === 20) {
     const pyqs = (sourceTypeDistribution["PYQ"] ?? 0) + (sourceTypeDistribution["PYQ_EXACT"] ?? 0);
     const modified = sourceTypeDistribution["PYQ_MODIFIED"] ?? 0;
     const ai = sourceTypeDistribution["AI_NEW"] ?? 0;
-    if (pyqs !== 7 || modified !== 2 || ai !== 1) {
+    if (pyqs !== 16 || modified !== 0 || ai !== 4) {
       issues.push({
         severity: "error",
         code: "INVALID_RATIO_CONTRACT",
-        message: `10-प्रश्न टेस्ट अनुबंध उल्लंघन: ठीक 7 PYQ, 2 PYQ_MODIFIED, 1 AI_NEW होने चाहिए। वर्तमान: ${pyqs} PYQ, ${modified} MODIFIED, ${ai} AI।`,
+        message: `20-प्रश्न टेस्ट अनुबंध उल्लंघन: ठीक 16 PYQ और 4 AI_NEW होने चाहिए। वर्तमान: ${pyqs} PYQ, ${modified ? `${modified} MODIFIED, ` : ""}${ai} AI।`,
         detail: `Found: PYQ=${pyqs}, MODIFIED=${modified}, AI_NEW=${ai}`,
       });
     }

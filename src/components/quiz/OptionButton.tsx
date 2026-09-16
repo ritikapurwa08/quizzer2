@@ -35,11 +35,11 @@ export function OptionButton({
         "group flex min-h-12 w-full items-center gap-3 rounded-xl border px-3.5 py-3 text-left",
         "transition-[background-color,border-color,box-shadow,transform] duration-150",
         "select-none outline-none",
-        "focus-visible:ring-2 focus-visible:ring-primary/40 focus-visible:ring-offset-1 focus-visible:ring-offset-background",
+        "focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:ring-offset-1 focus-visible:ring-offset-background",
         !selected && !correctness &&
-          "border-border bg-card hover:border-primary/35 hover:bg-muted/50",
+          "border-border bg-card hover:border-foreground/30 hover:bg-muted/40",
         selected && !correctness &&
-          "border-primary bg-primary/10 shadow-sm shadow-primary/10",
+          "border-foreground bg-neutral-100 dark:bg-neutral-900 shadow-xs",
         correctness === "correct" &&
           "border-success/60 bg-success/10 shadow-sm shadow-success/10",
         correctness === "incorrect" &&
@@ -53,9 +53,9 @@ export function OptionButton({
           "flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border text-sm font-medium",
           "transition-colors",
           !selected && !correctness &&
-            "border-border bg-muted text-muted-foreground group-hover:border-primary/35",
+            "border-border bg-muted text-muted-foreground group-hover:border-foreground/30",
           selected && !correctness &&
-            "border-primary bg-primary text-primary-foreground",
+            "border-foreground bg-foreground text-background",
           correctness === "correct" &&
             "border-success bg-success text-success-foreground",
           correctness === "incorrect" &&
@@ -92,11 +92,11 @@ export function OptionButton({
             className={cn(
               "flex h-5 w-5 items-center justify-center rounded-full border transition-colors",
               selected
-                ? "border-primary bg-primary"
-                : "border-muted-foreground/35 bg-background group-hover:border-primary/50"
+                ? "border-foreground bg-foreground"
+                : "border-border bg-background group-hover:border-foreground/40"
             )}
           >
-            {selected && <span className="h-2 w-2 rounded-full bg-primary-foreground" />}
+            {selected && <span className="h-2 w-2 rounded-full bg-background" />}
           </span>
         )}
       </span>

@@ -1,9 +1,9 @@
 "use client";
 
-import { FileText, Pencil, Sparkles } from "lucide-react";
+import { FileText, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type CanonicalSourceType = "PYQ" | "PYQ_MODIFIED" | "AI_NEW";
+export type CanonicalSourceType = "PYQ" | "AI_NEW";
 
 export interface QuestionSourceMetaProps {
   reference?: string | null;
@@ -62,9 +62,13 @@ export function parseQuestionSource(
   if (rawSourceType) {
     if (rawSourceType === "AI_NEW") {
       identifiedSourceType = "AI_NEW";
-    } else if (rawSourceType === "PYQ_MODIFIED") {
-      identifiedSourceType = "PYQ_MODIFIED";
-    } else if (rawSourceType === "PYQ" || rawSourceType === "PYQ_EXACT" || rawSourceType.startsWith("PYQ")) {
+    } else if (
+      rawSourceType === "PYQ" ||
+      rawSourceType === "PYQ_EXACT" ||
+      rawSourceType === "PYQ_MODIFIED" ||
+      rawSourceType.startsWith("PYQ")
+    ) {
+      // Legacy PYQ_MODIFIED is defensively treated as PYQ for display
       identifiedSourceType = "PYQ";
     }
   }
@@ -77,9 +81,8 @@ export function parseQuestionSource(
       const typePart = match[1].toUpperCase().replace(/\s+/g, "_");
       if (typePart === "AI_NEW") {
         identifiedSourceType = "AI_NEW";
-      } else if (typePart === "PYQ_MODIFIED") {
-        identifiedSourceType = "PYQ_MODIFIED";
-      } else if (typePart.startsWith("PYQ")) {
+      } else if (typePart === "PYQ_MODIFIED" || typePart.startsWith("PYQ")) {
+        // Legacy PYQ_MODIFIED is defensively treated as PYQ for display
         identifiedSourceType = "PYQ";
       }
       if (!exam && match[2]) {
@@ -125,12 +128,7 @@ export function parseQuestionSource(
     };
   }
 
-  const badgeLabel =
-    identifiedSourceType === "PYQ"
-      ? "PYQ"
-      : identifiedSourceType === "PYQ_MODIFIED"
-      ? "PYQ Modified"
-      : "AI Generated";
+  const badgeLabel = identifiedSourceType === "PYQ" ? "PYQ" : "AI Generated";
 
   return {
     hasSource: true,
@@ -167,21 +165,10 @@ export function QuestionSourceMeta({
         ·
       </span>
 
-      {/* Inline Icon + Label */}
-      <span
-        className={cn(
-          "inline-flex shrink-0 items-center gap-1 font-medium",
-          sourceType === "AI_NEW"
-            ? "text-primary/90"
-            : sourceType === "PYQ_MODIFIED"
-            ? "text-amber-500/90 dark:text-amber-400"
-            : "text-foreground/75"
-        )}
-      >
+      {/* Inline Icon + Label in Neutral Monochrome */}
+      <span className="inline-flex shrink-0 items-center gap-1 font-medium text-muted-foreground">
         {sourceType === "AI_NEW" ? (
-          <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 text-primary/80" />
-        ) : sourceType === "PYQ_MODIFIED" ? (
-          <Pencil className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 text-amber-500/80 dark:text-amber-400" />
+          <Sparkles className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 text-muted-foreground/80" />
         ) : (
           <FileText className="h-3 w-3 sm:h-3.5 sm:w-3.5 shrink-0 text-muted-foreground/80" />
         )}
@@ -208,4 +195,3 @@ export function QuestionSourceMeta({
     </div>
   );
 }
-

@@ -397,8 +397,8 @@ export interface GeminiCompositionResult {
 
 /**
  * Validates whether an imported batch meets the Gemini 20-question composition contract:
- * Exactly 20 questions = 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW.
- * Also verifies that every PYQ and PYQ_MODIFIED has a valid sourceQuestionId,
+ * Exactly 20 questions = 16 PYQ + 4 AI_NEW (0 PYQ_MODIFIED).
+ * Also verifies that every PYQ has a valid sourceQuestionId,
  * and if allowedSourceIds is provided, ensures that sourceQuestionId exists in that pool.
  */
 export function validateGeminiComposition(
@@ -423,6 +423,13 @@ export function validateGeminiComposition(
     const st = q.meta?.sourceType ?? qRecord.sourceType;
     const sid = q.meta?.sourceQuestionId ?? qRecord.sourceQuestionId;
 
+    if (q.options && q.options.length !== 4) {
+      sourceErrors.push(`Question #${qNum}: Must have exactly 4 options.`);
+    }
+    if (Array.isArray(q.correctAnswer) && q.correctAnswer.length !== 1) {
+      sourceErrors.push(`Question #${qNum}: Must have exactly one correct answer.`);
+    }
+
     if (st === "PYQ" || st === "PYQ_EXACT") {
       pyqCount++;
       if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
@@ -439,18 +446,7 @@ export function validateGeminiComposition(
       }
     } else if (st === "PYQ_MODIFIED") {
       pyqModifiedCount++;
-      if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-        sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): Requires a valid positive integer sourceQuestionId.`);
-      } else {
-        if (seenSourceIds.has(sid)) {
-          sourceErrors.push(`Duplicate sourceQuestionId ${sid} found in question #${qNum}. Each source question can only be used once.`);
-        } else {
-          seenSourceIds.add(sid);
-        }
-        if (allowedSet && !allowedSet.has(sid)) {
-          sourceErrors.push(`Question #${qNum} (PYQ_MODIFIED): sourceQuestionId ${sid} does not exist in the currently retrieved PYQ batch.`);
-        }
-      }
+      sourceErrors.push(`Question #${qNum}: "PYQ_MODIFIED" is retired and no longer permitted. Use 16 PYQ + 4 AI_NEW.`);
     } else if (st === "AI_NEW") {
       aiNewCount++;
       if (sid !== undefined && sid !== null) {
@@ -461,15 +457,15 @@ export function validateGeminiComposition(
         sourceErrors.push(`Question #${qNum} (AI_NEW): AI_NEW question must have exam: null.`);
       }
     } else {
-      sourceErrors.push(`Question #${qNum}: Invalid or missing sourceType "${st ?? "unknown"}". Expected "PYQ", "PYQ_MODIFIED", or "AI_NEW".`);
+      sourceErrors.push(`Question #${qNum}: Invalid or missing sourceType "${st ?? "unknown"}". Expected "PYQ" or "AI_NEW".`);
     }
   }
 
   const compositionErrors: string[] = [];
-  const isValid20 = questions.length === 20 && pyqCount === 14 && pyqModifiedCount === 4 && aiNewCount === 2;
+  const isValid20 = questions.length === 20 && pyqCount === 16 && pyqModifiedCount === 0 && aiNewCount === 4;
 
   if (!isValid20) {
-    const compErrorMsg = `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW. Received: ${pyqCount} PYQ + ${pyqModifiedCount} PYQ_MODIFIED + ${aiNewCount} AI_NEW (Total: ${questions.length}).`;
+    const compErrorMsg = `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW. Received: ${pyqCount} PYQ + ${pyqModifiedCount ? `${pyqModifiedCount} PYQ_MODIFIED + ` : ""}${aiNewCount} AI_NEW (Total: ${questions.length}).`;
     compositionErrors.push(compErrorMsg);
   }
 

@@ -35,32 +35,32 @@
 }
 
 :root {
-  /* ── Base surfaces — true neutral dark, no purple tint ── */
-  --background: #0b0b0b;
-  --foreground: #f1f2f4;
-  --card: #111111;
-  --card-foreground: #f1f2f4;
-  --popover: #181818;
-  --popover-foreground: #f1f2f4;
-  /* ── Accent — purple stays ONLY here ── */
-  --primary: #8b5cf6;
+  /* ── Base surfaces — Next.js inspired clean monochrome ── */
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+  /* ── Accent — clean monochrome black / white ── */
+  --primary: #111111;
   --primary-foreground: #ffffff;
-  --ring: #8b5cf6;
+  --ring: #111111;
   /* ── Secondary / Muted surfaces ── */
-  --secondary: #191919;
-  --secondary-foreground: #f1f2f4;
-  --muted: #1a1a1a;
-  --muted-foreground: #8f9399;
-  /* ── Semantic ── */
+  --secondary: #f5f5f5;
+  --secondary-foreground: #111111;
+  --muted: #f5f5f5;
+  --muted-foreground: #737373;
+  /* ── Semantic — strictly status only ── */
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --success: #22c55e;
+  --success: #16a34a;
   --success-foreground: #ffffff;
-  --warning: #f59e0b;
+  --warning: #d97706;
   --warning-foreground: #ffffff;
   /* ── Borders / Inputs ── */
-  --border: #262626;
-  --input: #262626;
+  --border: #e5e5e5;
+  --input: #e5e5e5;
 }
 
 *,
@@ -71,7 +71,7 @@
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
   scroll-behavior: smooth;
 }
 
@@ -154,7 +154,7 @@ pre {
 }
 
 ::selection {
-  background: rgb(139 92 246 / 25%);
+  background: rgb(0 0 0 / 8%);
   color: var(--foreground);
 }
 
@@ -173,12 +173,12 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2e2e2e;
+  background: #d4d4d4;
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  background: #a3a3a3;
 }
 
 @media (prefers-reduced-motion: reduce) {

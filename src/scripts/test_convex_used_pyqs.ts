@@ -55,14 +55,13 @@ const emptyPrompt = generateAiQuestionPrompt({
   promptOnly: true,
 });
 assert(emptyPrompt.includes("EXACTLY 20 QUESTIONS"), "Prompt-only specifies EXACTLY 20 QUESTIONS for 0-PYQ topic");
-assert(emptyPrompt.includes("14 PYQ"), "Prompt-only specifies 14 PYQ");
-assert(emptyPrompt.includes("4 PYQ_MODIFIED"), "Prompt-only specifies 4 PYQ_MODIFIED");
-assert(emptyPrompt.includes("2 AI_NEW"), "Prompt-only specifies 2 AI_NEW");
+assert(emptyPrompt.includes("16 PYQ"), "Prompt-only specifies 16 PYQ");
+assert(emptyPrompt.includes("4 AI_NEW"), "Prompt-only specifies 4 AI_NEW");
 assert(!emptyPrompt.includes("RETRIEVED PYQ QUESTIONS:"), "Prompt-only contains ZERO interpolated PYQ records");
 
 
-// --- CASE 2: Topic with small PYQ pool (< 18 PYQs) ---
-console.log("\n--- CASE 2: Topic with small PYQ pool (< 18 PYQs) ---");
+// --- CASE 2: Topic with small PYQ pool (< 16 PYQs) ---
+console.log("\n--- CASE 2: Topic with small PYQ pool (< 16 PYQs) ---");
 const topicRes = getRelevantPyqQuestions(
   { topic: "भौतिक स्वरूप", subject: "राजस्थान का भूगोल एवं अर्थव्यवस्था" },
   { allUnused: true, usedQuestionIds: [] }
@@ -78,7 +77,7 @@ assert(mock10Formatted.includes(`Corpus ID: ${mock10Questions[0].id}`), "Formatt
 assert(mock10Formatted.includes(`Corpus ID: ${mock10Questions[9].id}`), "Formatted PYQs include 10th Corpus ID");
 
 
-// --- CASE 3: Topic with 50 PYQs -> First Import of 18 Source Questions ---
+// --- CASE 3: Topic with 50 PYQs -> First Import of 16 Source Questions ---
 console.log("\n--- CASE 3: 50-PYQ Topic -> First Import ---");
 const pool50 = allQuestions.slice(0, 50);
 const pool50Ids = new Set(pool50.map((q) => q.id));
@@ -89,72 +88,59 @@ const initialUsedIds: number[] = [];
 const available1 = pool50.filter((q) => !initialUsedIds.includes(q.id));
 assert(available1.length === 50, "Initially Available = 50 (Total: 50, Used: 0)");
 
-// Build Set 1: 14 PYQ + 4 PYQ_MODIFIED from first 18 available + 2 AI_NEW
-const set1Pyqs = available1.slice(0, 14);
-const set1Modified = available1.slice(14, 18);
-const set1SourceIds = [...set1Pyqs.map((q) => q.id), ...set1Modified.map((q) => q.id)];
-assert(set1SourceIds.length === 18, "First set uses exactly 18 distinct source questions");
+// Build Set 1: 16 PYQ from first 16 available + 4 AI_NEW
+const set1Pyqs = available1.slice(0, 16);
+const set1SourceIds = set1Pyqs.map((q) => q.id);
+assert(set1SourceIds.length === 16, "First set uses exactly 16 distinct source questions");
 
 // Validate composition of Set 1
 const mockSet1Questions = [
   ...set1Pyqs.map((q) => ({
     questionText: q.question,
-    options: q.options,
-    correctAnswer: q.answerIndex ?? 0,
+    options: (q.options && q.options.length >= 4 ? q.options.slice(0, 4) : ["A", "B", "C", "D"]).map((text, idx) => ({ id: `opt${idx + 1}`, text })),
+    correctAnswer: "opt1",
     explanation: q.explanation || "व्याख्या",
     type: "mcq" as const,
     meta: { sourceType: "PYQ" as const, sourceQuestionId: q.id, exam: q.exam },
   })),
-  ...set1Modified.map((q) => ({
-    questionText: `Modified: ${q.question}`,
-    options: q.options,
-    correctAnswer: q.answerIndex ?? 0,
-    explanation: q.explanation || "व्याख्या",
+  ...Array.from({ length: 4 }, (_, i) => ({
+    questionText: `AI New ${i + 1}`,
+    options: [
+      { id: "opt1", text: "A" },
+      { id: "opt2", text: "B" },
+      { id: "opt3", text: "C" },
+      { id: "opt4", text: "D" },
+    ],
+    correctAnswer: "opt1",
+    explanation: `व्याख्या ${i + 1}`,
     type: "mcq" as const,
-    meta: { sourceType: "PYQ_MODIFIED" as const, sourceQuestionId: q.id, exam: null },
+    meta: { sourceType: "AI_NEW" as const },
   })),
-  {
-    questionText: "AI New 1",
-    options: ["A", "B", "C", "D"],
-    correctAnswer: 0,
-    explanation: "व्याख्या 1",
-    type: "mcq" as const,
-    meta: { sourceType: "AI_NEW" as const },
-  },
-  {
-    questionText: "AI New 2",
-    options: ["A", "B", "C", "D"],
-    correctAnswer: 1,
-    explanation: "व्याख्या 2",
-    type: "mcq" as const,
-    meta: { sourceType: "AI_NEW" as const },
-  },
 ];
 
 const val1 = validateGeminiComposition(mockSet1Questions as any, pool50Ids);
-assert(val1.isValid === true, "Set 1 passes 14/4/2 composition and source IDs check");
-assert(val1.pyqCount === 14, "Set 1 has 14 PYQ");
-assert(val1.pyqModifiedCount === 4, "Set 1 has 4 PYQ_MODIFIED");
-assert(val1.aiNewCount === 2, "Set 1 has 2 AI_NEW");
+assert(val1.isValid === true, "Set 1 passes 16/4 composition and source IDs check");
+assert(val1.pyqCount === 16, "Set 1 has 16 PYQ");
+assert(val1.pyqModifiedCount === 0, "Set 1 has 0 PYQ_MODIFIED");
+assert(val1.aiNewCount === 4, "Set 1 has 4 AI_NEW");
 
-// After Set 1 import: used = 18, available = 32
+// After Set 1 import: used = 16, available = 34
 const usedAfterSet1 = [...set1SourceIds];
 const availableAfterSet1 = pool50.filter((q) => !usedAfterSet1.includes(q.id));
-assert(usedAfterSet1.length === 18, "Used count after Set 1 = 18");
-assert(availableAfterSet1.length === 32, "Available count after Set 1 = 32 (50 - 18)");
+assert(usedAfterSet1.length === 16, "Used count after Set 1 = 16");
+assert(availableAfterSet1.length === 34, "Available count after Set 1 = 34 (50 - 16)");
 assert(
   !availableAfterSet1.some((q) => usedAfterSet1.includes(q.id)),
-  "Zero used questions appear in the available pool of 32"
+  "Zero used questions appear in the available pool of 34"
 );
 
 
 // --- CASE 4: Second Import on Same Topic ---
 console.log("\n--- CASE 4: Second 20-Question Import on Same Topic ---");
-// Take 18 from the remaining 32
-const set2Pyqs = availableAfterSet1.slice(0, 14);
-const set2Modified = availableAfterSet1.slice(14, 18);
-const set2SourceIds = [...set2Pyqs.map((q) => q.id), ...set2Modified.map((q) => q.id)];
-assert(set2SourceIds.length === 18, "Set 2 selects 18 fresh source questions");
+// Take 16 from the remaining 34
+const set2Pyqs = availableAfterSet1.slice(0, 16);
+const set2SourceIds = set2Pyqs.map((q) => q.id);
+assert(set2SourceIds.length === 16, "Set 2 selects 16 fresh source questions");
 
 // Verify none of set2SourceIds were in set1SourceIds
 const overlapsWithSet1 = set2SourceIds.filter((id) => set1SourceIds.includes(id));
@@ -162,51 +148,48 @@ assert(overlapsWithSet1.length === 0, "Set 2 has ZERO overlap with Set 1 source 
 
 const usedAfterSet2 = [...usedAfterSet1, ...set2SourceIds];
 const availableAfterSet2 = pool50.filter((q) => !usedAfterSet2.includes(q.id));
-assert(usedAfterSet2.length === 36, "Total used after Set 2 = 36");
-assert(availableAfterSet2.length === 14, "Available count after Set 2 = 14 (50 - 36)");
+assert(usedAfterSet2.length === 32, "Total used after Set 2 = 32");
+assert(availableAfterSet2.length === 18, "Available count after Set 2 = 18 (50 - 32)");
 
 
 // --- CASE 5: Third Import Rejection (Re-using used IDs or insufficient pool) ---
 console.log("\n--- CASE 5: Third Import Rejection on Reuse ---");
 const invalidSet3Questions = [
-  ...availableAfterSet2.map((q) => ({
+  ...availableAfterSet2.slice(0, 14).map((q) => ({
     questionText: q.question,
     options: q.options,
-    correctAnswer: q.answerIndex ?? 0,
+    correctAnswer: "opt1",
     explanation: "व्याख्या",
     type: "mcq" as const,
     meta: { sourceType: "PYQ" as const, sourceQuestionId: q.id, exam: q.exam },
   })), // 14 available
-  // Reuse 4 from set 1
-  ...set1Modified.map((q) => ({
-    questionText: `Reused Modified: ${q.question}`,
+  // Reuse 2 from set 1
+  ...set1Pyqs.slice(0, 2).map((q) => ({
+    questionText: `Reused: ${q.question}`,
     options: q.options,
-    correctAnswer: q.answerIndex ?? 0,
+    correctAnswer: "opt1",
     explanation: "व्याख्या",
     type: "mcq" as const,
-    meta: { sourceType: "PYQ_MODIFIED" as const, sourceQuestionId: q.id, exam: null },
+    meta: { sourceType: "PYQ" as const, sourceQuestionId: q.id, exam: null },
   })),
-  {
-    questionText: "AI New 1",
-    options: ["A", "B", "C", "D"],
-    correctAnswer: 0,
+  ...Array.from({ length: 4 }, (_, i) => ({
+    questionText: `AI New ${i + 1}`,
+    options: [
+      { id: "opt1", text: "A" },
+      { id: "opt2", text: "B" },
+      { id: "opt3", text: "C" },
+      { id: "opt4", text: "D" },
+    ],
+    correctAnswer: "opt1",
     explanation: "व्याख्या",
     type: "mcq" as const,
     meta: { sourceType: "AI_NEW" as const },
-  },
-  {
-    questionText: "AI New 2",
-    options: ["A", "B", "C", "D"],
-    correctAnswer: 1,
-    explanation: "व्याख्या",
-    type: "mcq" as const,
-    meta: { sourceType: "AI_NEW" as const },
-  },
+  })),
 ];
 
 const availableSet3Ids = new Set(availableAfterSet2.map((q) => q.id));
 const val3 = validateGeminiComposition(invalidSet3Questions as any, availableSet3Ids);
-assert(val3.isValid === false, "Set 3 is BLOCKED because 4 questions reuse already-used IDs not in available pool");
+assert(val3.isValid === false, "Set 3 is BLOCKED because 2 questions reuse already-used IDs not in available pool");
 assert(
   val3.errors.some((e) => e.includes("does not exist in the currently retrieved PYQ batch")),
   "Error explicitly flags that reused IDs are not in the available batch"
@@ -338,16 +321,12 @@ assert(
   "Copy Prompt specifies exact 20 questions"
 );
 assert(
-  copyPromptText.includes("14 ORIGINAL \"PYQ\" QUESTIONS") || copyPromptText.includes("14 PYQ"),
-  "Copy Prompt specifies exact 14 PYQ"
+  copyPromptText.includes("16 ORIGINAL \"PYQ\" QUESTIONS") || copyPromptText.includes("16 PYQ"),
+  "Copy Prompt specifies exact 16 PYQ"
 );
 assert(
-  copyPromptText.includes("4 \"PYQ_MODIFIED\" QUESTIONS"),
-  "Copy Prompt specifies exact 4 PYQ_MODIFIED"
-);
-assert(
-  copyPromptText.includes("2 \"AI_NEW\" QUESTIONS"),
-  "Copy Prompt specifies exact 2 AI_NEW"
+  copyPromptText.includes("4 \"AI_NEW\" QUESTIONS") || copyPromptText.includes("4 AI_NEW"),
+  "Copy Prompt specifies exact 4 AI_NEW"
 );
 assert(
   copyPromptText.includes("USED SOURCE QUESTION IDs"),
@@ -365,20 +344,20 @@ assert(
 );
 assert(
   !copyPyqText.includes(`Corpus ID: ${set1SourceIds[0]}`),
-  "Copy PYQ data DOES NOT contain any of the 18 used PYQs"
+  "Copy PYQ data DOES NOT contain any of the 16 used PYQs"
 );
 
 
-// --- CASE 12: Atomic 18 Used Tracking Math ---
-console.log("\n--- CASE 12: Atomic 18 Used Tracking Math ---");
+// --- CASE 12: Atomic 16 Used Tracking Math ---
+console.log("\n--- CASE 12: Atomic 16 Used Tracking Math ---");
 const totalCorpus = 100;
-const usedSoFar = 18;
+const usedSoFar = 16;
 const availableNow = totalCorpus - usedSoFar;
-assert(availableNow === 82, "Total: 100 | Used: 18 | Available: 82");
-const afterImport2Used = usedSoFar + 18;
+assert(availableNow === 84, "Total: 100 | Used: 16 | Available: 84");
+const afterImport2Used = usedSoFar + 16;
 const afterImport2Available = totalCorpus - afterImport2Used;
-assert(afterImport2Used === 36, "Total: 100 | Used: 36 | Available: 64");
-assert(afterImport2Available === 64, "Available decreases strictly by 18 per valid import");
+assert(afterImport2Used === 32, "Total: 100 | Used: 32 | Available: 68");
+assert(afterImport2Available === 68, "Available decreases strictly by 16 per valid import");
 
 console.log("\n================================================================================");
 console.log(`TEST RESULTS: ${passed} PASSED, ${failed} FAILED`);

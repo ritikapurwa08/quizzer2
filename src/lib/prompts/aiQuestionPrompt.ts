@@ -14,7 +14,7 @@ export interface PromptOptions {
 
   /**
    * Pre-retrieved batch of original PYQs from the local question corpus.
-   * Primary source for 14 PYQ questions and basis for 4 PYQ_MODIFIED questions.
+   * Primary source for 16 PYQ questions.
    */
   pyqReferences?: PyqQuestion[];
 
@@ -77,8 +77,8 @@ USED SOURCE QUESTION IDs:
 
 Gemini MUST:
 - never use any ID from this list again
-- select PYQ and PYQ_MODIFIED questions only from the newly supplied PYQ batch
-- return the sourceQuestionId for every PYQ and PYQ_MODIFIED question
+- select 16 PYQ questions only from the newly supplied PYQ batch
+- return the genuine sourceQuestionId for every PYQ question
 - treat the supplied USED IDs as permanently unavailable for future sets
 ============================================================
 `;
@@ -113,8 +113,7 @@ Use it strictly as supporting study context to improve:
 - syllabus alignment and comprehensive explanations
 
 NOTE: The supplied reference material is supporting context.
-The original PYQ data remains the source for the 14 PYQ questions
-and the basis for the 4 PYQ_MODIFIED questions.
+The original PYQ data remains the primary source for the 16 PYQ questions.
 
 REFERENCE CONTENT:
 ${referenceText}
@@ -140,10 +139,10 @@ ${
 
 NOTE: The authentic, unused PYQ questions pool for this topic is provided separately.
 Gemini MUST:
-- Use the separately provided PYQs as the primary source for the 14 PYQ questions and 4 PYQ_MODIFIED questions.
-- Return the exact original "sourceQuestionId" for every PYQ and PYQ_MODIFIED question.
-- Formulate 2 brand new AI_NEW questions.
-- Follow all 14 + 4 + 2 composition rules and output the required JSON format below.
+- Use the separately provided PYQs as the primary source for the 16 PYQ questions.
+- Return the exact original "sourceQuestionId" for every PYQ question.
+- Formulate 4 brand new, highly accurate AI_NEW questions.
+- Follow all 16 + 4 composition rules and output the required JSON format below.
 ============================================================
 `
     : hasPyqs
@@ -165,7 +164,7 @@ ${
 }
 
 You are receiving original PYQ data for the selected syllabus topic.
-Use this data as the source for the 14 PYQ questions and as the source material for the 4 PYQ_MODIFIED questions.
+Use this data as the source for the 16 PYQ questions.
 
 ────────────────────────────────────────────────────────────
 RETRIEVED PYQ QUESTIONS:
@@ -237,20 +236,6 @@ Follow immediately with the JSON array of exactly 20 questions:
     "explanation": "विस्तृत एवं तथ्यपरक परीक्षा-उपयोगी व्याख्या..."
   },
   {
-    "question": "सार्थक रूप से संशोधित प्रश्न...",
-    "options": [
-      "विकल्प 1",
-      "विकल्प 2",
-      "विकल्प 3",
-      "विकल्प 4"
-    ],
-    "answer": 1,
-    "sourceType": "PYQ_MODIFIED",
-    "sourceQuestionId": 105,
-    "exam": null,
-    "explanation": "विस्तृत व्याख्या..."
-  },
-  {
     "question": "नवीनतम एवं मौलिक AI प्रश्न...",
     "options": [
       "विकल्प 1",
@@ -260,6 +245,7 @@ Follow immediately with the JSON array of exactly 20 questions:
     ],
     "answer": 2,
     "sourceType": "AI_NEW",
+    "sourceQuestionId": null,
     "exam": null,
     "explanation": "विस्तृत व्याख्या..."
   }
@@ -267,22 +253,21 @@ Follow immediately with the JSON array of exactly 20 questions:
 
 Allowed "sourceType" values ONLY:
 - "PYQ"
-- "PYQ_MODIFIED"
 - "AI_NEW"
 
 Verification Checklist before outputting:
 [ ] Do NOT provide another YouTube list (The 5 YouTube videos have already been selected for this Topic and used as supporting reference only)
-[ ] Exactly 20 questions in JSON array (14 PYQ, 4 PYQ_MODIFIED, 2 AI_NEW)
-[ ] Exactly 14 questions with "sourceType": "PYQ" (from supplied PYQ data)
-[ ] Exactly 4 questions with "sourceType": "PYQ_MODIFIED" (modified from supplied PYQ data)
-[ ] Exactly 2 questions with "sourceType": "AI_NEW" (genuinely new AI questions)
-[ ] "sourceQuestionId" matches original Corpus ID for every PYQ and PYQ_MODIFIED question
+[ ] Exactly 20 questions in JSON array (16 PYQ, 4 AI_NEW)
+[ ] Exactly 16 questions with "sourceType": "PYQ" (from supplied PYQ data)
+[ ] Exactly 4 questions with "sourceType": "AI_NEW" (genuinely new AI questions with sourceQuestionId: null and exam: null)
+[ ] "sourceQuestionId" matches original Corpus ID for every PYQ question
 [ ] NONE of the sourceQuestionId values are from the USED SOURCE QUESTION IDs list
 [ ] All 20 questions strictly within canonical topic "${topic}"
 [ ] Exactly 4 substantive options per question
-[ ] "answer" is integer 0, 1, 2, or 3
+[ ] Exactly ONE option is unequivocally correct; the other 3 are plausible, parallel, but definitively incorrect
+[ ] "answer" is a single integer: 0, 1, 2, or 3
 [ ] "explanation" present on every question
-[ ] Real exam name preserved where verified, otherwise "exam": null (NO fake exam names)
+[ ] Real exam name preserved where verified for PYQs, otherwise "exam": null (NO fake exam names)
 [ ] Clean JSON without inline citations — Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON.
 `
     : `============================================================
@@ -318,20 +303,6 @@ Follow Part A immediately with the JSON array of exactly 20 questions:
     "explanation": "विस्तृत एवं तथ्यपरक परीक्षा-उपयोगी व्याख्या..."
   },
   {
-    "question": "सार्थक रूप से संशोधित प्रश्न...",
-    "options": [
-      "विकल्प 1",
-      "विकल्प 2",
-      "विकल्प 3",
-      "विकल्प 4"
-    ],
-    "answer": 1,
-    "sourceType": "PYQ_MODIFIED",
-    "sourceQuestionId": 105,
-    "exam": null,
-    "explanation": "विस्तृत व्याख्या..."
-  },
-  {
     "question": "नवीनतम एवं मौलिक AI प्रश्न...",
     "options": [
       "विकल्प 1",
@@ -341,6 +312,7 @@ Follow Part A immediately with the JSON array of exactly 20 questions:
     ],
     "answer": 2,
     "sourceType": "AI_NEW",
+    "sourceQuestionId": null,
     "exam": null,
     "explanation": "विस्तृत व्याख्या..."
   }
@@ -348,22 +320,21 @@ Follow Part A immediately with the JSON array of exactly 20 questions:
 
 Allowed "sourceType" values ONLY:
 - "PYQ"
-- "PYQ_MODIFIED"
 - "AI_NEW"
 
 Verification Checklist before outputting:
 [ ] Exactly 5 YouTube reference videos listed in Part A (SUPPORTING REFERENCE ONLY — NOT used as question sources)
-[ ] Exactly 20 questions in JSON array in Part B (14 PYQ, 4 PYQ_MODIFIED, 2 AI_NEW)
-[ ] Exactly 14 questions with "sourceType": "PYQ" (from supplied PYQ data)
-[ ] Exactly 4 questions with "sourceType": "PYQ_MODIFIED" (modified from supplied PYQ data)
-[ ] Exactly 2 questions with "sourceType": "AI_NEW" (genuinely new AI questions)
-[ ] "sourceQuestionId" matches original Corpus ID for every PYQ and PYQ_MODIFIED question
+[ ] Exactly 20 questions in JSON array in Part B (16 PYQ, 4 AI_NEW)
+[ ] Exactly 16 questions with "sourceType": "PYQ" (from supplied PYQ data)
+[ ] Exactly 4 questions with "sourceType": "AI_NEW" (genuinely new AI questions with sourceQuestionId: null and exam: null)
+[ ] "sourceQuestionId" matches original Corpus ID for every PYQ question
 [ ] NONE of the sourceQuestionId values are from the USED SOURCE QUESTION IDs list
 [ ] All 20 questions strictly within canonical topic "${topic}"
 [ ] Exactly 4 substantive options per question
-[ ] "answer" is integer 0, 1, 2, or 3
+[ ] Exactly ONE option is unequivocally correct; the other 3 are plausible, parallel, but definitively incorrect
+[ ] "answer" is a single integer: 0, 1, 2, or 3
 [ ] "explanation" present on every question
-[ ] Real exam name preserved where verified, otherwise "exam": null (NO fake exam names)
+[ ] Real exam name preserved where verified for PYQs, otherwise "exam": null (NO fake exam names)
 [ ] Clean JSON without inline citations — Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON.
 `;
 
@@ -389,15 +360,15 @@ ${youtubeSection}
 ------------------------------------------------------------
 Every generated set MUST contain EXACTLY 20 questions in the following exact breakdown:
 
-  • 14 PYQ (Original Previous Year Questions)
-  • 4 PYQ_MODIFIED (Meaningfully Modified PYQs)
-  • 2 AI_NEW (Genuinely New AI Questions)
+  • 16 PYQ (Authentic Previous Year Questions from supplied data)
+  • 4 AI_NEW (Genuinely New AI Questions)
 
-Do NOT deviate from this 14 / 4 / 2 ratio under any circumstances.
+Do NOT deviate from this 16 / 4 ratio under any circumstances.
+"PYQ_MODIFIED" is completely retired and must NOT be used.
 
-3. RULES FOR 14 ORIGINAL "PYQ" QUESTIONS:
+3. RULES FOR 16 ORIGINAL "PYQ" QUESTIONS:
 ------------------------------------------------------------
-• Exactly 14 questions must come directly from the newly supplied original PYQ data above.
+• Exactly 16 questions must come directly from the newly supplied original PYQ data above.
 • NEVER use any ID from the USED SOURCE QUESTION IDs list.
 • Return the "sourceQuestionId" for every PYQ question matching its Corpus ID from the newly supplied PYQ data.
 • You may improve:
@@ -412,29 +383,21 @@ Do NOT deviate from this 14 / 4 / 2 ratio under any circumstances.
   - If the original PYQ data does not contain a reliable exam name, set: "exam": null
   - NEVER invent fake exam names (such as "Unknown Exam", "Practice Exam", "Mock Exam", or any fictional exam).
 
-4. RULES FOR 4 "PYQ_MODIFIED" QUESTIONS:
+4. RULES FOR 4 "AI_NEW" QUESTIONS:
 ------------------------------------------------------------
-• Exactly 4 questions must be PYQ_MODIFIED.
-• These must be created ONLY from the newly supplied original PYQ data above.
-• NEVER use any ID from the USED SOURCE QUESTION IDs list.
-• Return the "sourceQuestionId" for every PYQ_MODIFIED question matching its original Corpus ID from the newly supplied PYQ data.
-• Meaningfully modify the original PYQ, for example:
-  - Change the framing or question angle
-  - Convert a direct recall question into a conceptual / statement-based question (कथन आधारित)
-  - Restructure options / test the same core concept in a different way
-  - Convert into a matching question or multi-statement question
-• Do NOT make meaningless changes (such as merely altering punctuation or changing one trivial word).
-• The modified question must remain factually correct and strictly within "${topic}".
-• IMPORTANT: The modified question must NOT be falsely presented as an actual exam question.
-  - Set "exam": null OR cite the source PYQ without claiming the modified text appeared verbatim.
-
-5. RULES FOR 2 "AI_NEW" QUESTIONS:
-------------------------------------------------------------
-• Exactly 2 questions must be genuinely NEW AI-generated questions.
+• Exactly 4 questions must be genuinely NEW AI-generated questions.
 • Must be strictly related to the selected syllabus topic: "${topic}".
-• Must NOT simply rewrite or paraphrase the supplied PYQs.
+• Must NOT simply rewrite or duplicate the supplied PYQs.
 • Must be factually reliable, conceptually sound, and useful for competitive exam preparation.
 • Set "exam": null (Never invent an exam name for AI_NEW).
+• Set "sourceQuestionId": null (AI_NEW questions never have a sourceQuestionId).
+
+5. CRITICAL AI OPTION & CORRECTNESS CONTRACT:
+------------------------------------------------------------
+• Single Answer Integrity: Each question must have EXACTLY ONE unambiguously correct option.
+• Index Format: "answer" must be a single integer index (0, 1, 2, or 3) pointing to the single correct option.
+• Parallel Distractors: The 3 incorrect distractors must be plausible, grammatically parallel, and comparable in length/detail to the correct option, but CATEGORICALLY AND FACTUALLY INCORRECT.
+• Candidate Defense Test: Before returning any question, mentally test all 4 options. Ensure no distractor could be argued as correct under any reasonable interpretation, historical record, or official source. Never output multiple correct options or ambiguous phrasing.
 
 6. EXPLANATIONS (MANDATORY FOR ALL 20 QUESTIONS):
 ------------------------------------------------------------

@@ -11,13 +11,13 @@ import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
-import { formatAccuracy, getSubjectDisplayName, cn } from "@/lib/utils";
+import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
 
 export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats);
   const recent = useQuery(api.attempts.recentByUser, { limit: 5 });
-  const subjects = useQuery(api.subjects.list) ?? [];
+  const subjects = useQuery(api.subjects.list);
 
   return (
     <div className="space-y-6">
@@ -43,32 +43,52 @@ export default function DashboardPage() {
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 font-hindi">
-            <BookOpen className="h-4 w-4 text-primary" />
+            <BookOpen className="h-4 w-4 text-foreground" />
             पाठ्यक्रम के विषय (Subjects)
-            <span className="font-bold text-foreground tabular-nums">({subjects.length})</span>
+            {subjects !== undefined && (
+              <span className="font-bold text-foreground tabular-nums">({subjects.length})</span>
+            )}
           </h2>
         </div>
 
-        {subjects.length === 0 ? (
+        {subjects === undefined ? (
+          /* Exactly 12 subject-card skeleton placeholders matching real dimensions */
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
+            {Array.from({ length: 12 }).map((_, i) => (
+              <div
+                key={i}
+                className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card min-h-[3.5rem] rounded-xl animate-pulse"
+              >
+                <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-muted text-muted-foreground/50 text-xs font-bold shrink-0">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <div className="h-4 w-32 sm:w-40 rounded bg-muted" />
+                </div>
+                <div className="h-4 w-4 rounded-full bg-muted shrink-0 ml-2" />
+              </div>
+            ))}
+          </div>
+        ) : subjects.length === 0 ? (
           <EmptyState
             icon={BookOpen}
-            title="पाठ्यक्रम लोड हो रहा है…"
-            description="कृपया कुछ क्षण प्रतीक्षा करें।"
+            title="कोई विषय उपलब्ध नहीं है"
+            description="वर्तमान में कोई विषय नहीं मिला।"
           />
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
             {subjects.map((s, idx) => (
               <Link key={s._id} href={`/subjects/${s._id}`}>
-                <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-primary/60 hover:shadow-md transition-all group min-h-[3.5rem] rounded-xl select-none">
+                <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all group min-h-[3.5rem] rounded-xl select-none">
                   <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary text-xs font-bold shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200">
+                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-muted text-foreground text-xs font-bold shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors duration-200">
                       {String(idx + 1).padStart(2, "0")}
                     </span>
-                    <h3 className="font-semibold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors truncate font-hindi">
+                    <h3 className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate font-hindi">
                       {getSubjectDisplayName(s)}
                     </h3>
                   </div>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-primary group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
+                  <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
                 </div>
               </Link>
             ))}
@@ -89,22 +109,22 @@ export default function DashboardPage() {
       {/* 3. Weak Subjects & Daily Progress — stacked on mobile, side-by-side on desktop */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {stats && <WeakSubjectsCard subjects={stats.weakSubjects} />}
-        {stats && <DailyProgressCard data={stats.dailyProgress} subjects={subjects} />}
+        {stats && <DailyProgressCard data={stats.dailyProgress} subjects={subjects ?? []} />}
       </div>
 
       {/* 4. Leaderboard */}
-      {subjects.length > 0 && <LeaderboardCard subjects={subjects} />}
+      {subjects && subjects.length > 0 && <LeaderboardCard subjects={subjects} />}
 
       {/* Recent Test Attempts */}
       <Card className="p-4 sm:p-5 rounded-xl border border-border shadow-xs">
         <div className="flex items-center justify-between mb-3.5">
           <h2 className="text-sm font-semibold text-foreground flex items-center gap-2 font-hindi">
-            <History className="h-4 w-4 text-primary" />
+            <History className="h-4 w-4 text-foreground" />
             हाल के टेस्ट (Recent Attempts)
           </h2>
           <Link
             href="/history"
-            className="text-xs font-semibold text-primary hover:text-primary/80 transition-colors flex items-center gap-1 font-hindi"
+            className="text-xs font-semibold text-foreground hover:text-muted-foreground transition-colors flex items-center gap-1 font-hindi"
           >
             सभी इतिहास <ArrowRight className="h-3 w-3" />
           </Link>

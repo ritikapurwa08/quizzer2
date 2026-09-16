@@ -77,7 +77,7 @@ export function Navbar() {
                 className="flex items-center gap-2 h-9 px-2.5 rounded-xl border border-border/80 bg-background/80 hover:bg-muted text-foreground transition-all cursor-pointer text-xs font-medium shadow-xs active:scale-95"
               >
                 {/* Avatar chip */}
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/15 text-primary text-[10px] font-bold shrink-0">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-muted text-foreground text-[10px] font-bold shrink-0">
                   {initials || <User className="h-3.5 w-3.5" />}
                 </span>
                 <span className="hidden sm:block max-w-[120px] truncate">
@@ -94,7 +94,7 @@ export function Navbar() {
                     <p className="text-xs font-medium text-foreground truncate">{displayName}</p>
                     <p className="text-[11px] text-muted-foreground truncate">{me?.email || "No email"}</p>
                     {isAdmin && (
-                      <span className="inline-flex items-center gap-1 mt-1.5 text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded-md bg-primary/15 text-primary border border-primary/25">
+                      <span className="inline-flex items-center gap-1 mt-1.5 text-[10px] font-medium uppercase tracking-wider px-2 py-0.5 rounded-md bg-muted text-foreground border border-border">
                         <Shield className="h-3 w-3" /> Admin
                       </span>
                     )}
@@ -108,7 +108,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/dashboard"
-                          ? "bg-primary/15 text-primary font-medium"
+                          ? "bg-muted text-foreground font-semibold"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -122,7 +122,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/bookmarks"
-                          ? "bg-primary/15 text-primary font-medium"
+                          ? "bg-muted text-foreground font-semibold"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -136,7 +136,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/wrong-questions"
-                          ? "bg-primary/15 text-primary font-medium"
+                          ? "bg-muted text-foreground font-semibold"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -150,7 +150,7 @@ export function Navbar() {
                       className={cn(
                         "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
                         pathname === "/history"
-                          ? "bg-primary/15 text-primary font-medium"
+                          ? "bg-muted text-foreground font-semibold"
                           : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                       )}
                     >
@@ -173,11 +173,11 @@ export function Navbar() {
                           className={cn(
                             "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
                             pathname === "/admin"
-                              ? "bg-primary/15 text-primary font-medium"
+                              ? "bg-muted text-foreground font-semibold"
                               : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                           )}
                         >
-                          <Shield className="h-4 w-4 text-primary" />
+                          <Shield className="h-4 w-4 text-foreground" />
                           Admin Console
                         </Link>
                         <Link
@@ -186,11 +186,11 @@ export function Navbar() {
                           className={cn(
                             "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
                             pathname === "/admin/import"
-                              ? "bg-primary/15 text-primary font-medium"
+                              ? "bg-muted text-foreground font-semibold"
                               : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                           )}
                         >
-                          <FileUp className="h-4 w-4 text-primary" />
+                          <FileUp className="h-4 w-4 text-foreground" />
                           Import Questions
                         </Link>
                       </div>

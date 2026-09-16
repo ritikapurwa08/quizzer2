@@ -130,24 +130,24 @@ export function ImportWizard() {
       return;
     }
 
-    // Critical Validation: Block import if composition contract is violated (14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW = 20)
+    // Critical Validation: Block import if composition contract is violated (16 PYQ + 4 AI_NEW = 20)
     const composition = validateGeminiComposition(parsed.questions);
     if (!composition.isValid20) {
       showToast(
-        `Invalid question composition. Expected: 14 PYQ + 4 PYQ_MODIFIED + 2 AI_NEW. Received: ${composition.pyqCount} PYQ + ${composition.pyqModifiedCount} PYQ_MODIFIED + ${composition.aiNewCount} AI_NEW.`,
+        `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW. Received: ${composition.pyqCount} PYQ + ${composition.pyqModifiedCount ? `${composition.pyqModifiedCount} PYQ_MODIFIED + ` : ""}${composition.aiNewCount} AI_NEW.`,
         "warning"
       );
       return;
     }
 
-    // Source Question Validation: Every PYQ and PYQ_MODIFIED must have a valid sourceQuestionId
+    // Source Question Validation: Every PYQ must have a valid sourceQuestionId
     const missingSource = parsed.questions.find((q) => {
       const st = q.meta?.sourceType;
       const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
-      return (st === "PYQ" || st === "PYQ_MODIFIED") && (!sid || typeof sid !== "number" || sid <= 0);
+      return (st === "PYQ" || st === "PYQ_EXACT") && (!sid || typeof sid !== "number" || sid <= 0);
     });
     if (missingSource) {
-      showToast("Invalid import: Every PYQ and PYQ_MODIFIED question must contain a valid sourceQuestionId.", "warning");
+      showToast("Invalid import: Every PYQ question must contain a valid sourceQuestionId.", "warning");
       return;
     }
 
@@ -166,7 +166,7 @@ export function ImportWizard() {
     const startTime = Date.now();
 
     try {
-      // 1. Atomically create Test Set, insert 20 questions, and track 18 usedPyqs in Convex
+      // 1. Atomically create Test Set, insert 20 questions, and track 16 usedPyqs in Convex
       const result = await importTestSetWithPyqs({
         topicId: selectedTopicId as Id<"topics">,
         name: subtopicName.trim(),
@@ -194,7 +194,7 @@ export function ImportWizard() {
 
       // 2. User feedback
       const skippedNote = errors.length > 0 ? ` (${errors.length} malformed question(s) skipped)` : "";
-      showToast(`✅ ${result.imported} Questions Imported Successfully! (18 PYQs tracked)`, "success");
+      showToast(`✅ ${result.imported} Questions Imported Successfully! (16 PYQs tracked)`, "success");
 
       setLastImportedSet({
         id: testSetId,

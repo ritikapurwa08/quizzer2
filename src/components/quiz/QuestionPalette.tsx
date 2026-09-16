@@ -53,15 +53,15 @@ export function QuestionPalette({
               isCurrent
                 ? "border-primary bg-primary text-primary-foreground shadow-xs font-bold"
                 : q.answered
-                ? "border-success/40 bg-success/15 text-success hover:bg-success/25"
-                : "border-border/80 bg-muted/40 text-muted-foreground hover:bg-muted hover:text-foreground hover:border-border"
+                ? "border-foreground/30 bg-muted text-foreground hover:border-foreground/50 font-medium"
+                : "border-border/80 bg-background text-muted-foreground hover:bg-muted hover:text-foreground hover:border-border"
             )}
           >
             {i + 1}
             {/* Bookmark indicator */}
             {q.bookmarked && (
               <span
-                className="absolute -top-1 -right-1 h-2.5 w-2.5 rounded-full bg-amber-400 ring-2 ring-card shadow-xs"
+                className="absolute -top-1 -right-1 h-2.5 w-2.5 rounded-full bg-foreground ring-2 ring-card shadow-xs"
                 aria-hidden="true"
               />
             )}
