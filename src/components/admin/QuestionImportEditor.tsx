@@ -15,6 +15,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
+import { Switch } from "@/components/ui/switch";
 import { useToast } from "@/components/ui/Toast";
 import {
   AlertCircle,
@@ -79,8 +80,8 @@ export function QuestionImportEditor({
   onSubtopicNameChange,
   questionCount: _questionCount,
   onQuestionCountChange: _onQuestionCountChange,
-  negativeMarking: _negativeMarking,
-  onNegativeMarkingChange: _onNegativeMarkingChange,
+  negativeMarking,
+  onNegativeMarkingChange,
   isImporting = false,
   onImportClick,
 }: QuestionImportEditorProps) {
@@ -552,8 +553,19 @@ END AVAILABLE UNUSED PYQ DATA POOL
             </div>
           )}
 
-          {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row sm:items-center justify-end gap-3.5 pt-3.5 border-t border-border/80">
+          {/* Negative Marking & Dual Copy Actions */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 pt-3.5 border-t border-border/80">
+            <div className="flex items-center gap-2.5">
+              <Switch
+                id="neg-marking"
+                checked={negativeMarking}
+                onCheckedChange={onNegativeMarkingChange}
+              />
+              <Label htmlFor="neg-marking" className="text-xs font-medium cursor-pointer text-muted-foreground font-hindi">
+                ऋणात्मक अंकन (Negative Marking)
+              </Label>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-2.5 w-full sm:w-auto">
               <Button
                 type="button"
