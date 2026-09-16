@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { Id } from "../../../convex/_generated/dataModel";
@@ -707,12 +707,12 @@ END AVAILABLE UNUSED PYQ DATA POOL
           />
         </div>
 
-        {/* ── 3. Bottom Action Bar: Target Info + Direct "Import" Button ── */}
+        {/* 3. Bottom Action Bar: Target Info + Direct Import Button */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-muted/40 px-4 sm:px-5 py-3 border-t border-border">
           <div className="text-xs text-muted-foreground flex items-center gap-1.5 min-w-0 font-hindi">
             <span className="font-bold text-foreground shrink-0">लक्ष्य:</span>
             <span className="truncate">
-              {getSubjectDisplayName(activeSubject) || "विषय"} &rarr; {getTopicDisplayName(activeTopic) || "टॉपिक"} &rarr; <span className="font-bold text-foreground">{subtopicName || "Part 1"}</span>
+              {getSubjectDisplayName(activeSubject) || "विषय"} → {getTopicDisplayName(activeTopic) || "टॉपिक"} → <span className="font-bold text-foreground">{subtopicName || "Part 1"}</span>
             </span>
           </div>
 
