@@ -151,6 +151,7 @@ const compQuestions = diverseSet.map((q) => ({
   options: q.options,
   correctAnswer: q.correctAnswer,
   explanation: q.explanation,
+  difficulty: q.difficulty ?? "medium",
   sourceType: q.sourceType,
   sourceQuestionId: q.sourceQuestionId,
   exam: q.exam,
