@@ -349,6 +349,36 @@ export function validateQuestionBank(
     }
   }
 
+  // Statement pattern repetition check (Part 5/6: avoid repeatedly making all statements true / both true)
+  const isStatementQuestion = (qText: string) =>
+    /कथन|कथनों|statement/i.test(qText) || /(?:^|\n)\s*(?:[1-4ivx]|[A-D])\s*[.)\-:]\s*.+/m.test(qText);
+
+  const isAllTrueOption = (optText: string) =>
+    /(?:सभी\s*(?:कथन\s*)?सही|उपर्युक्त\s*सभी|all\s*(?:of\s*the\s*above|statements?\s*are\s*true|1,\s*2\s*and\s*3)|दोनों\s*1\s*और\s*2|1\s*और\s*2\s*दोनों|1,\s*2\s*(?:और|तथा)\s*3\s*सही|both\s*1\s*and\s*2)/i.test(optText);
+
+  let statementQuestionCount = 0;
+  let allTrueAnswerCount = 0;
+
+  questions.forEach((q) => {
+    if (isStatementQuestion(q.questionText ?? "")) {
+      statementQuestionCount++;
+      const ansId = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
+      const correctOpt = q.options?.find((o) => o.id === ansId);
+      if (correctOpt && isAllTrueOption(correctOpt.text ?? "")) {
+        allTrueAnswerCount++;
+      }
+    }
+  });
+
+  if (statementQuestionCount >= 2 && allTrueAnswerCount === statementQuestionCount) {
+    issues.push({
+      severity: "warning",
+      code: "STATEMENT_PATTERN_REPETITION",
+      message: `कथन-आधारित प्रश्नों (${statementQuestionCount}) में सभी प्रश्नों का सही उत्तर 'सभी सही / दोनों 1 और 2' पाया गया — विविधता (truth-pattern diversity) सुनिश्चित करें।`,
+      detail: `${allTrueAnswerCount}/${statementQuestionCount} statement questions have all-true answers.`,
+    });
+  }
+
   // ── Score calculation ─────────────────────────────────────────────────────
   const errorCount = issues.filter((i) => i.severity === "error").length;
   const warningCount = issues.filter((i) => i.severity === "warning").length;

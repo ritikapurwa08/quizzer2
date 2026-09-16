@@ -82,25 +82,11 @@ export default function SubjectDetailPage() {
             return (
               <Link key={t._id} href={`/subjects/${id}/${t._id}`}>
                 <div
-                  className={cn(
-                    "flex flex-row items-center justify-between p-3.5 border bg-card hover:shadow-md transition-all group min-h-[4rem] rounded-xl select-none",
-                    isCompleted
-                      ? "border-emerald-400/50 dark:border-emerald-500/40 hover:border-emerald-500/70"
-                      : isInProgress
-                      ? "border-amber-400/50 dark:border-amber-500/40 hover:border-amber-500/70"
-                      : "border-border/80 hover:border-foreground/30 hover:shadow-xs"
-                  )}
+                  className="flex flex-row items-center justify-between p-3.5 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group min-h-[4rem] rounded-xl select-none"
                 >
                   <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                     <span
-                      className={cn(
-                        "flex h-7 w-7 items-center justify-center rounded-lg text-xs font-bold shrink-0 transition-all duration-200",
-                        isCompleted
-                          ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white"
-                          : isInProgress
-                          ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 group-hover:bg-amber-500 group-hover:text-white"
-                          : "bg-muted text-foreground group-hover:bg-foreground group-hover:text-background"
-                      )}
+                      className="flex h-7 w-7 items-center justify-center rounded-lg text-xs font-semibold shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background"
                     >
                       {isCompleted ? (
                         <CheckCircle2 className="h-4 w-4" />
@@ -111,14 +97,7 @@ export default function SubjectDetailPage() {
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5 flex-wrap">
                         <p
-                          className={cn(
-                            "font-semibold text-xs sm:text-sm transition-colors truncate font-hindi",
-                            isCompleted
-                              ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
-                              : isInProgress
-                              ? "text-foreground group-hover:text-amber-600 dark:group-hover:text-amber-400"
-                              : "text-foreground"
-                          )}
+                          className="font-medium text-xs sm:text-sm transition-colors truncate font-hindi text-foreground group-hover:text-primary"
                         >
                           {getTopicDisplayName(t)}
                         </p>

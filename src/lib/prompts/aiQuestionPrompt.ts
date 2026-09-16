@@ -268,6 +268,9 @@ Verification Checklist before outputting:
 [ ] "answer" is a single integer: 0, 1, 2, or 3
 [ ] "explanation" present on every question
 [ ] Real exam name preserved where verified for PYQs, otherwise "exam": null (NO fake exam names)
+[ ] For statement-based questions: natural truth-pattern diversity (NOT repeatedly all-true or both-true; statements 1, 2, 3 vary naturally based on facts)
+[ ] Every statement is independently verifiable with clear factual truth/false status (no ambiguity, debatable claims, or misleading wording)
+[ ] Statement-based options map unambiguously to exactly ONE correct option
 [ ] Clean JSON without inline citations — Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON.
 `
     : `============================================================
@@ -335,6 +338,9 @@ Verification Checklist before outputting:
 [ ] "answer" is a single integer: 0, 1, 2, or 3
 [ ] "explanation" present on every question
 [ ] Real exam name preserved where verified for PYQs, otherwise "exam": null (NO fake exam names)
+[ ] For statement-based questions: natural truth-pattern diversity (NOT repeatedly all-true or both-true; statements 1, 2, 3 vary naturally based on facts)
+[ ] Every statement is independently verifiable with clear factual truth/false status (no ambiguity, debatable claims, or misleading wording)
+[ ] Statement-based options map unambiguously to exactly ONE correct option
 [ ] Clean JSON without inline citations — Do not include citations, citation markers, footnotes, or [cite: ...] markers inside the JSON.
 `;
 
@@ -399,18 +405,66 @@ Do NOT deviate from this 16 / 4 ratio under any circumstances.
 • Parallel Distractors: The 3 incorrect distractors must be plausible, grammatically parallel, and comparable in length/detail to the correct option, but CATEGORICALLY AND FACTUALLY INCORRECT.
 • Candidate Defense Test: Before returning any question, mentally test all 4 options. Ensure no distractor could be argued as correct under any reasonable interpretation, historical record, or official source. Never output multiple correct options or ambiguous phrasing.
 
-6. EXPLANATIONS (MANDATORY FOR ALL 20 QUESTIONS):
+6. CRITICAL FIX: STATEMENT-BASED QUESTION TRUTH-PATTERN DIVERSITY (कथन आधारित प्रश्न नियम):
+------------------------------------------------------------
+• THE PROBLEM TO ELIMINATE:
+  In statement-based questions (e.g. "निम्नलिखित कथनों पर विचार कीजिए / Consider the following statements:"), AI engines repeatedly make all statements TRUE (1=TRUE, 2=TRUE, 3=TRUE -> "1, 2 और 3" / "उपर्युक्त सभी"), or for two statements make both TRUE ("दोनों 1 और 2").
+  This creates a predictable guessing pattern for students. THIS IS STRICTLY PROHIBITED.
+
+• MANDATORY TRUTH-PATTERN DIVERSITY:
+  - The truth values of individual statements MUST vary naturally based on factual correctness.
+  - For 3 statements, naturally use diverse valid combinations:
+    * TRUE / TRUE / FALSE
+    * TRUE / FALSE / TRUE
+    * FALSE / TRUE / TRUE
+    * TRUE / FALSE / FALSE
+    * FALSE / TRUE / FALSE
+    * FALSE / FALSE / TRUE
+    * TRUE / TRUE / TRUE
+    * FALSE / FALSE / FALSE
+  - For 2 statements, naturally vary between:
+    * TRUE / FALSE
+    * FALSE / TRUE
+    * TRUE / TRUE
+    * FALSE / FALSE
+  - For 4 statements, naturally use combinations like:
+    * TRUE / TRUE / FALSE / TRUE
+    * TRUE / FALSE / FALSE / TRUE
+    * FALSE / TRUE / TRUE / FALSE
+    * TRUE / FALSE / TRUE / FALSE, etc.
+  - AVOID REPETITIVE PATTERNS:
+    * Do NOT repeatedly make all statements true.
+    * Do NOT repeatedly make all statements false.
+    * Do NOT repeatedly make two statements true.
+    * Do NOT systematically make Statement 1 (or any specific statement position) always true or always false across questions.
+    * Do NOT force a mechanical artificial quota — let the pattern emerge naturally from factual examination content.
+
+• FACTUAL CLARITY & ZERO AMBIGUITY (VERY IMPORTANT):
+  - Statement diversity does NOT mean creating tricky, debatable, or ambiguous statements.
+  - Every individual statement must have an unequivocal, independently verifiable factual status:
+    * If marked TRUE, it must be 100% indisputably true according to official government records, gazettes, standard textbooks, or authentic exam boards.
+    * If marked FALSE, it must be clearly and definitely false (e.g. incorrect year, wrong ruler, swapped district, inverted role), NOT false because of a petty grammatical trick or debatable nuance.
+    * Never use partially true, context-dependent without context, or controversial statements.
+
+• ANSWER OPTION VALIDATION FOR STATEMENT QUESTIONS:
+  - The 4 MCQ options must represent clear combinations (e.g. "केवल 1 और 2", "केवल 2 और 3", "केवल 1 और 3", "1, 2 और 3").
+  - The combination of statements MUST map to EXACTLY ONE unambiguous, correct final answer option.
+  - No two options may represent the same truth combination.
+  - Distractor options must be plausible combinations that test genuine comprehension.
+
+7. EXPLANATIONS (MANDATORY FOR ALL 20 QUESTIONS):
 ------------------------------------------------------------
 • Every single question must contain a comprehensive, factual, exam-oriented explanation in the "explanation" field.
 • Clearly explain why the correct answer is right and clarify related concepts/distractors.
+• For statement questions, explicitly state the factual truth/falsity of each individual statement in the explanation.
 
-7. OPTIONS & ANSWER FORMAT:
+8. OPTIONS & ANSWER FORMAT:
 ------------------------------------------------------------
 • Every question must have EXACTLY 4 substantive options.
 • "answer" must be the zero-based integer index of the correct option: 0, 1, 2, or 3.
-• Balance answer positions across the 20 questions (distribute correct answers across A, B, C, D).
+• Balance answer positions across the 20 questions (distribute correct answers naturally across A, B, C, D — never use predictable sequences like A->B->C->D or all A's). Factual correctness always takes priority.
 
-8. NO INLINE CITATIONS OR BRACKETED CITATION ARTIFACTS:
+9. NO INLINE CITATIONS OR BRACKETED CITATION ARTIFACTS:
 ------------------------------------------------------------
 • Do not include citations, citation markers, footnotes, or [cite: ...] markers (such as [cite: 1] or [cite: 11]) inside the JSON.
 • Return clean JSON without inline citations.

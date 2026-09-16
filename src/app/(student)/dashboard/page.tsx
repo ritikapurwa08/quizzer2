@@ -9,6 +9,7 @@ import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
 import { LeaderboardCard } from "@/components/shared/LeaderboardCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
 import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
@@ -25,18 +26,17 @@ export default function DashboardPage() {
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
-            पाठ्यक्रम अभ्यास
+            अभ्यास डैशबोर्ड (Dashboard)
           </h1>
           <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
             विषय चुनें और परीक्षा-उपयोगी अभ्यास प्रश्न-सेट हल करें।
           </p>
         </div>
-        <Link
-          href="/subjects"
-          className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold px-4 py-2 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-colors w-fit shadow-xs shrink-0 font-hindi"
-        >
-          सभी विषय देखें <ArrowRight className="h-3.5 w-3.5" />
-        </Link>
+        <Button asChild className="rounded-xl font-hindi shrink-0 shadow-xs h-9 px-4 text-xs sm:text-sm">
+          <Link href="/subjects" className="inline-flex items-center gap-1.5">
+            सभी विषय देखें <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </Button>
       </div>
 
       {/* 1. Subjects Grid (Primary Study Entry) — 1-col mobile, 2-col sm, 3-col desktop */}

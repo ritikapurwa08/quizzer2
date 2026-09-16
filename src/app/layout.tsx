@@ -4,6 +4,7 @@ import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const googleSans = Google_Sans({
   subsets: ["latin", "devanagari"],
@@ -20,11 +21,19 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="hi" className={googleSans.variable}>
+      <html lang="hi" suppressHydrationWarning className={googleSans.variable}>
         <body>
-          <ConvexClientProvider>
-            <TooltipProvider delay={300}>{children}</TooltipProvider>
-          </ConvexClientProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <ConvexClientProvider>
+
+              <TooltipProvider delay={300}>{children}</TooltipProvider>
+            </ConvexClientProvider>
+          </ThemeProvider>
         </body>
       </html>
     </ConvexAuthNextjsServerProvider>

@@ -20,6 +20,7 @@ import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
 import { Separator } from "@/components/ui/separator";
 import { isUserAdmin } from "@/lib/constants";
+import { ModeToggle } from "@/components/toggle-mode";
 
 export function Navbar() {
   const me = useQuery(api.users.me);
@@ -64,8 +65,9 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* ── Right side: Profile Dropdown Menu ── */}
+        {/* ── Right side: Theme Toggle & Profile Dropdown Menu ── */}
         <div className="flex items-center gap-2">
+          <ModeToggle />
 
           {/* ── Profile Dropdown Menu ── */}
           {me !== undefined && (

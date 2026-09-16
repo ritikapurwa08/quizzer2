@@ -95,22 +95,12 @@ export default function TopicDetailPage() {
               return (
                 <Link key={set._id} href={`/quiz/${set._id}`}>
                   <div
-                    className={cn(
-                      "flex flex-row items-center justify-between p-4 border bg-card hover:shadow-md transition-all group rounded-xl min-h-[4rem] select-none",
-                      isDone
-                        ? "border-emerald-400/50 dark:border-emerald-500/40 hover:border-emerald-500/70"
-                        : "border-border/80 hover:border-primary/60"
-                    )}
+                    className="flex flex-row items-center justify-between p-4 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group rounded-xl min-h-[4rem] select-none"
                   >
                     <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                       {/* Icon chip */}
                       <div
-                        className={cn(
-                          "p-2 rounded-lg shrink-0 transition-all duration-200",
-                          isDone
-                            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white"
-                            : "bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground"
-                        )}
+                        className="p-2 rounded-lg shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background"
                       >
                         {isDone ? (
                           <CheckCircle2 className="h-4 w-4" />
@@ -122,23 +112,18 @@ export default function TopicDetailPage() {
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center gap-2 flex-wrap">
                           <h3
-                            className={cn(
-                              "font-semibold text-xs sm:text-sm transition-colors truncate font-hindi",
-                              isDone
-                                ? "text-foreground group-hover:text-emerald-600 dark:group-hover:text-emerald-400"
-                                : "text-foreground group-hover:text-primary"
-                            )}
+                            className="font-medium text-xs sm:text-sm transition-colors truncate font-hindi text-foreground group-hover:text-primary"
                           >
                             {set.name}
                           </h3>
                           {/* Completed / New Badge */}
                           {isDone ? (
-                            <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0 font-hindi">
-                              <CheckCircle2 className="h-3 w-3" />
+                            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-muted text-foreground border border-border shrink-0 font-hindi">
+                              <CheckCircle2 className="h-3 w-3 text-emerald-500" />
                               पूर्ण
                             </span>
                           ) : (
-                            <span className="inline-flex items-center gap-1 text-xs font-bold px-2 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20 shrink-0 font-hindi">
+                            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-muted text-muted-foreground border border-border shrink-0 font-hindi">
                               <Sparkles className="h-3 w-3" />
                               नया
                             </span>
@@ -153,12 +138,7 @@ export default function TopicDetailPage() {
 
                     {/* CTA pill */}
                     <div
-                      className={cn(
-                        "flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full shrink-0 ml-3 transition-all font-hindi",
-                        isDone
-                          ? "text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 group-hover:bg-emerald-500 group-hover:text-white"
-                          : "text-primary bg-primary/10 group-hover:bg-primary group-hover:text-primary-foreground"
-                      )}
+                      className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg shrink-0 ml-3 transition-all font-hindi border border-border bg-card text-foreground group-hover:bg-foreground group-hover:text-background"
                     >
                       <Play className="h-3.5 w-3.5 fill-current" />
                       <span>{isDone ? "पुनः हल करें" : "शुरू करें"}</span>

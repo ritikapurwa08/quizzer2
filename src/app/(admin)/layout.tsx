@@ -6,6 +6,7 @@ import { ToastProvider } from "@/components/ui/Toast";
 import { LayoutGrid, Upload, BookOpen, Layers, FileText, HelpCircle, ArrowLeft, Home } from "lucide-react";
 
 import { LoadingState } from "@/components/shared/LoadingState";
+import { ModeToggle } from "@/components/toggle-mode";
 
 const NAV = [
   { href: "/admin", label: "Overview", icon: LayoutGrid },
@@ -38,13 +39,17 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <p className="font-bold text-base tracking-tight">Admin Console</p>
                 <p className="text-[11px] text-muted-foreground">System Management</p>
               </div>
-              <Link
-                href="/dashboard"
-                className="flex items-center gap-1 text-xs font-semibold text-foreground hover:bg-muted px-2.5 py-1 rounded-lg border border-border transition-colors"
-                title="Go to Student Dashboard"
-              >
-                <ArrowLeft className="h-3.5 w-3.5" /> Dashboard
-              </Link>
+              <div className="flex items-center gap-1.5">
+                <ModeToggle />
+                <Link
+                  href="/dashboard"
+                  className="flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-foreground hover:bg-muted px-2 py-1 rounded-lg border border-border transition-colors"
+                  title="Go to Student Dashboard"
+                >
+                  <ArrowLeft className="h-3.5 w-3.5" />
+                  <span className="hidden sm:inline">Dashboard</span>
+                </Link>
+              </div>
             </div>
 
             <nav className="flex lg:flex-col gap-1 overflow-x-auto pb-2 lg:pb-0">
@@ -64,7 +69,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <div className="pt-4 border-t border-border mt-4 hidden lg:block">
             <Link
               href="/dashboard"
-              className="flex items-center justify-center gap-2 w-full py-2 px-3 rounded-lg border border-border bg-card hover:bg-muted text-foreground text-xs font-semibold transition-colors shadow-xs group"
+              className="flex items-center gap-2 w-full py-2 px-3 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted text-xs font-medium transition-colors group"
             >
               <Home className="h-4 w-4 text-muted-foreground group-hover:text-foreground transition-colors" />
               Back to Dashboard
