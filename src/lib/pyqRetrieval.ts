@@ -1,19 +1,17 @@
 /**
- * PYQ Retrieval Engine — Syllabus-Locked Multi-Signal Ranked Retrieval
+ * PYQ Retrieval Engine — Subject+Topic Compound Indexed Retrieval
  *
  * Designed for Quizzer2:
- * 1. Uses the complete 26,151-question master corpus from `rajasthan_pyq_merged_26151.json`.
- * 2. Enforces a HARD CANONICAL SYLLABUS BOUNDARY via `syllabusTopicMap.ts`.
- *    Zero cross-subject leakage (Rajasthan geography never matches World/India geography).
- * 3. High-Quality Multi-Signal Ranking:
- *    - Frequently repeated PYQs across actual exams are prioritized.
- *    - Reliable, prestigious, and recent exams (e.g. RAS, RSMSSB, 2020-2026) get high weights.
- *    - Comprehensive explanations and 4 substantive options are prioritized.
- *    - Consolidates near-identical repetitions without losing their exam significance.
- * 4. Batch Processing System:
- *    - Supports `usedQuestionIds` tracking to cycle through 50, 100, 200, 500+ questions
- *      without returning the same batch repeatedly.
- *    - Default batch size: 100 questions.
+ * 1. Uses the cleaned 20,836-question master corpus from `rajasthan_gk_india_gk_clean_sorted.json`.
+ *    Production subjects: "राजस्थान GK" (18,563 Qs) and "India GK" (2,273 Qs).
+ * 2. Enforces a HARD SUBJECT BOUNDARY:
+ *    - Queries for Rajasthan GK only return questions where q.subject === "राजस्थान GK"
+ *    - Queries for India GK only return questions where q.subject === "India GK"
+ *    - Subjects with no new corpus equivalent (World GK, Educational Psychology, etc.) return 0 results.
+ *    - Zero cross-subject leakage.
+ * 3. Compound subject+topic indexing for fast O(1) retrieval.
+ * 4. Multi-signal quality ranking (exam prestige, recency, explanation quality, options completeness).
+ * 5. Batch processing with usedQuestionIds tracking.
  */
 
 import path from "path";
@@ -121,28 +119,76 @@ export function resolveAnswerIndex(answerText: string, options: string[]): numbe
   return 0;
 }
 
+// ─── New Corpus Subject Mapping ───────────────────────────────────────────────
+
+/**
+ * Maps an incoming subject slug or name to the authoritative corpus subject string.
+ * Only "राजस्थान GK" and "India GK" exist in the new corpus.
+ * Returns null for subjects with no new corpus equivalent.
+ */
+export function mapToNewCorpusSubject(subjectSlugOrName: string): string | null {
+  if (!subjectSlugOrName) return null;
+  const norm = subjectSlugOrName.toLowerCase().replace(/[\s_-]+/g, "");
+
+  // Rajasthan GK — any Rajasthan subject maps to this
+  if (
+    norm.includes("rajasthan") ||
+    norm.includes("राजस्थान")
+  ) {
+    return "राजस्थान GK";
+  }
+
+  // India GK — includes India General Knowledge and Indian Polity
+  if (
+    norm.includes("india") ||
+    norm.includes("indianpolity") ||
+    norm.includes("indiageneral") ||
+    norm.includes("भारत") ||
+    norm.includes("भारतीय")
+  ) {
+    return "India GK";
+  }
+
+  // Anything else (World GK, Educational Psychology, etc.) → no match
+  return null;
+}
+
 // ─── In-Memory Corpus Indexing ───────────────────────────────────────────────
 
 let _corpus: RawCorpusQuestion[] | null = null;
-let _topicToIndices: Map<string, number[]> | null = null;
+/** Key: `normalizedSubject||normalizedTopic` → array of corpus indices */
+let _subjectTopicIndex: Map<string, number[]> | null = null;
+/** Key: normalizedTopic → array of corpus indices (for fallback) */
+let _topicOnlyIndex: Map<string, number[]> | null = null;
+/** Key: factKey → array of corpus indices (for duplicate detection) */
 let _factToIndices: Map<string, number[]> | null = null;
+
+/** Build the compound key used in the subject+topic index */
+function subjectTopicKey(subject: string, topic: string): string {
+  return normalizeDevanagari(subject) + "||" + normalizeDevanagari(topic);
+}
 
 function loadCorpus(): {
   corpus: RawCorpusQuestion[];
-  topicToIndices: Map<string, number[]>;
+  subjectTopicIndex: Map<string, number[]>;
+  topicOnlyIndex: Map<string, number[]>;
   factToIndices: Map<string, number[]>;
 } {
-  if (_corpus && _topicToIndices && _factToIndices) {
-    return { corpus: _corpus, topicToIndices: _topicToIndices, factToIndices: _factToIndices };
+  if (_corpus && _subjectTopicIndex && _topicOnlyIndex && _factToIndices) {
+    return {
+      corpus: _corpus,
+      subjectTopicIndex: _subjectTopicIndex,
+      topicOnlyIndex: _topicOnlyIndex,
+      factToIndices: _factToIndices,
+    };
   }
 
-  // Resolve 26k corpus path
   let data: RawCorpusQuestion[] = [];
   try {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
-    data = require("@/xdata/rajasthan_pyq_merged_26151.json") as RawCorpusQuestion[];
+    data = require("@/xdata/rajasthan_gk_india_gk_clean_sorted.json") as RawCorpusQuestion[];
   } catch {
-    const fallbackPath = path.resolve(process.cwd(), "src/xdata/rajasthan_pyq_merged_26151.json");
+    const fallbackPath = path.resolve(process.cwd(), "src/xdata/rajasthan_gk_india_gk_clean_sorted.json");
     if (fs.existsSync(fallbackPath)) {
       data = JSON.parse(fs.readFileSync(fallbackPath, "utf8")) as RawCorpusQuestion[];
     } else {
@@ -151,26 +197,27 @@ function loadCorpus(): {
   }
 
   _corpus = data;
-  _topicToIndices = new Map<string, number[]>();
+  _subjectTopicIndex = new Map<string, number[]>();
+  _topicOnlyIndex = new Map<string, number[]>();
   _factToIndices = new Map<string, number[]>();
 
   for (let idx = 0; idx < data.length; idx++) {
     const q = data[idx];
 
-    // Topic indexing
-    const rawTopic = (q.topic || "UNKNOWN").trim();
-    const normTopic = normalizeDevanagari(rawTopic);
-    if (!_topicToIndices.has(normTopic)) {
-      _topicToIndices.set(normTopic, []);
+    // Compound subject+topic index
+    const stKey = subjectTopicKey(q.subject || "", q.topic || "");
+    if (!_subjectTopicIndex.has(stKey)) {
+      _subjectTopicIndex.set(stKey, []);
     }
-    _topicToIndices.get(normTopic)!.push(idx);
+    _subjectTopicIndex.get(stKey)!.push(idx);
 
-    // Also keep raw topic key
-    if (rawTopic !== normTopic) {
-      if (!_topicToIndices.has(rawTopic)) {
-        _topicToIndices.set(rawTopic, []);
+    // Topic-only index (for fallback matching)
+    const normTopic = normalizeDevanagari(q.topic || "");
+    if (normTopic) {
+      if (!_topicOnlyIndex.has(normTopic)) {
+        _topicOnlyIndex.set(normTopic, []);
       }
-      _topicToIndices.get(rawTopic)!.push(idx);
+      _topicOnlyIndex.get(normTopic)!.push(idx);
     }
 
     // Fact repetition indexing: (stem + answer)
@@ -183,7 +230,12 @@ function loadCorpus(): {
     }
   }
 
-  return { corpus: _corpus, topicToIndices: _topicToIndices, factToIndices: _factToIndices };
+  return {
+    corpus: _corpus,
+    subjectTopicIndex: _subjectTopicIndex,
+    topicOnlyIndex: _topicOnlyIndex,
+    factToIndices: _factToIndices,
+  };
 }
 
 // ─── Quality Ranking Score Calculator ────────────────────────────────────────
@@ -218,7 +270,9 @@ function calculateQualityScore(
       examUpper.includes("SUB INSPECTOR") ||
       examUpper.includes("CET") ||
       examUpper.includes("FORESTER") ||
-      examUpper.includes("CONSTABLE")
+      examUpper.includes("CONSTABLE") ||
+      examUpper.includes("UPSC") ||
+      examUpper.includes("SSC")
     ) {
       score += 25;
     }
@@ -271,7 +325,7 @@ export function getRelevantPyqQuestions(
     };
   }
 
-  const { corpus, topicToIndices, factToIndices } = loadCorpus();
+  const { corpus, subjectTopicIndex, topicOnlyIndex, factToIndices } = loadCorpus();
 
   // Convert usedQuestionIds to Set
   const usedSet = new Set<number>();
@@ -283,25 +337,70 @@ export function getRelevantPyqQuestions(
     }
   }
 
-  // 1. Resolve Canonical Topic Mapping
+  // 1. Resolve the corpus subject guard from the incoming subject query
+  const authorizedCorpusSubject: string | null = mapToNewCorpusSubject(subjectQuery || "");
+
+  // 2. Resolve canonical topic definition (for display name + additional topic hints)
   const canonicalDef = resolveCanonicalTopic(subjectQuery || "", topicQuery);
+
   const candidateIndices = new Set<number>();
   let authorizedCorpusTopics: string[] = [];
 
+  // 3. Build candidate set via subject+topic compound index
+  const topicsToTry: string[] = [];
+
   if (canonicalDef) {
-    authorizedCorpusTopics = canonicalDef.corpusTopics;
-    for (const ct of authorizedCorpusTopics) {
-      const normCt = normalizeDevanagari(ct);
-      const indices = topicToIndices.get(normCt) || topicToIndices.get(ct) || [];
+    // Primary: use canonical topic Hindi name
+    topicsToTry.push(canonicalDef.topicNameHindi);
+    // Also try English name
+    topicsToTry.push(canonicalDef.topicName);
+    // Also try each entry in corpusTopics (new corpus topic names are stored there)
+    for (const ct of canonicalDef.corpusTopics) {
+      topicsToTry.push(ct);
+    }
+  }
+  // Also always try the raw topic query itself
+  topicsToTry.push(topicQuery);
+
+  if (authorizedCorpusSubject) {
+    // Compound subject+topic lookup — primary path
+    for (const topicCandidate of topicsToTry) {
+      const key = subjectTopicKey(authorizedCorpusSubject, topicCandidate);
+      const indices = subjectTopicIndex.get(key) || [];
       indices.forEach((idx) => candidateIndices.add(idx));
+      // Track which topic strings we actually matched
+      if (indices.length > 0 && !authorizedCorpusTopics.includes(topicCandidate)) {
+        authorizedCorpusTopics.push(topicCandidate);
+      }
+    }
+
+    // Fallback: topic-only index, but apply hard subject guard
+    if (candidateIndices.size === 0) {
+      for (const topicCandidate of topicsToTry) {
+        const normTopic = normalizeDevanagari(topicCandidate);
+        const indices = topicOnlyIndex.get(normTopic) || [];
+        for (const idx of indices) {
+          // Hard subject guard — only include questions matching the authorized subject
+          if (corpus[idx].subject === authorizedCorpusSubject) {
+            candidateIndices.add(idx);
+          }
+        }
+        if (indices.length > 0 && !authorizedCorpusTopics.includes(topicCandidate)) {
+          authorizedCorpusTopics.push(topicCandidate);
+        }
+      }
     }
   } else {
-    // Strict fallback: only exact or normalized match against corpus topics
-    // Never search across unrelated topics
-    const normQ = normalizeDevanagari(topicQuery);
-    const indices = topicToIndices.get(normQ) || topicToIndices.get(topicQuery) || [];
-    indices.forEach((idx) => candidateIndices.add(idx));
-    authorizedCorpusTopics = [topicQuery];
+    // No authorized subject from new corpus — only try topic-only index without subject guard
+    // (handles subjects like World GK that have no new corpus equivalent — will return 0)
+    for (const topicCandidate of topicsToTry) {
+      const normTopic = normalizeDevanagari(topicCandidate);
+      const indices = topicOnlyIndex.get(normTopic) || [];
+      indices.forEach((idx) => candidateIndices.add(idx));
+      if (indices.length > 0 && !authorizedCorpusTopics.includes(topicCandidate)) {
+        authorizedCorpusTopics.push(topicCandidate);
+      }
+    }
   }
 
   if (candidateIndices.size === 0) {
@@ -327,7 +426,7 @@ export function getRelevantPyqQuestions(
   const totalFound = candidateIndices.size;
   let usedCountForTopic = 0;
 
-  // 2. Score and Filter candidates
+  // 4. Score and Filter candidates
   interface ScoredCandidate {
     raw: RawCorpusQuestion;
     score: number;
@@ -371,14 +470,14 @@ export function getRelevantPyqQuestions(
     }
   }
 
-  // 3. Sort: Unused first, then score descending, then id ascending
+  // 5. Sort: Unused first, then score descending, then id ascending
   scoredPool.sort((a, b) => {
     if (a.isUsed !== b.isUsed) return a.isUsed ? 1 : -1;
     if (b.score !== a.score) return b.score - a.score;
     return a.raw.id - b.raw.id;
   });
 
-  // 4. Selection of unused questions
+  // 6. Selection of unused questions
   const selectedRaw: (RawCorpusQuestion & { _score: number; repeatCount: number; combinedExam: string | null })[] = [];
   const seenFactKeys = new Set<string>();
   let duplicatesRemoved = 0;
@@ -423,13 +522,14 @@ export function getRelevantPyqQuestions(
   const unusedPoolCount = Math.max(0, totalFound - usedCountForTopic);
   const remainingCount = Math.max(0, totalFound - usedCountForTopic - selectedRaw.length);
 
-  // 5. Enrich with clean options and 0-based answer index
+  // 7. Enrich with clean options and 0-based answer index
   const enriched: PyqQuestion[] = selectedRaw.map((q) => {
     const cleanOptions = (q.options || []).map(stripOptionPrefix);
     const answerIndex = resolveAnswerIndex(q.answer, q.options || []);
 
     return {
       id: q.id,
+      subject: q.subject,
       topic: q.topic,
       question: q.question,
       options: cleanOptions,
@@ -495,4 +595,3 @@ export function retrievePyqsForTopic(params: {
     matchedCorpusTopics: res.canonicalTopic?.matchedCorpusTopics || [],
   };
 }
-

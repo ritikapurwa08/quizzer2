@@ -7,6 +7,8 @@
 
 export interface RawCorpusQuestion {
   id: number;
+  /** Corpus subject — "राजस्थान GK" or "India GK" in rajasthan_gk_india_gk_clean_sorted.json */
+  subject: string;
   topic: string;
   question: string;
   options: string[];
@@ -17,6 +19,7 @@ export interface RawCorpusQuestion {
 
 export interface PyqQuestion {
   id: number;
+  subject?: string;
   topic: string;
   question: string;
   options: string[];

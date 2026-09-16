@@ -2,12 +2,12 @@
  * Syllabus-to-Corpus Topic Mapping Dictionary
  *
  * Enforces a STRICT CANONICAL BOUNDARY between the user's canonical syllabus
- * (subjects and topics from convex/seed.ts) and the 26,151 question corpus
- * (from src/xdata/rajasthan_pyq_merged_26151.json).
+ * (subjects and topics from convex/seed.ts) and the production PYQ corpus
+ * (from src/xdata/rajasthan_gk_india_gk_clean_sorted.json).
  *
  * ZERO cross-subject or cross-topic leakage is allowed:
- * - Rajasthan Geography topics NEVER match World/India topics.
- * - Rajasthan Rivers NEVER match World Rivers or India Rivers.
+ * - Rajasthan GK topics NEVER match India GK or World GK topics.
+ * - Hard subject guard is applied in pyqRetrieval.ts via newCorpusSubject.
  * - No artificial topic names are created.
  */
 
@@ -18,7 +18,16 @@ export interface CanonicalTopicDefinition {
   topicSlug: string;
   topicName: string;
   topicNameHindi: string;
-  /** Exact corpus topic names in rajasthan_pyq_merged_26151.json genuinely belonging to this topic */
+  /**
+   * Authoritative subject string in rajasthan_gk_india_gk_clean_sorted.json.
+   * "राजस्थान GK" | "India GK" | undefined (for subjects not in new corpus)
+   */
+  newCorpusSubject?: string;
+  /**
+   * Exact corpus topic names in rajasthan_gk_india_gk_clean_sorted.json
+   * genuinely belonging to this canonical topic.
+   * Empty array means no questions in the new corpus for this topic.
+   */
   corpusTopics: string[];
 }
 
@@ -33,12 +42,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "physical-features",
     topicName: "Physical Features",
     topicNameHindi: "भौतिक स्वरूप",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान का भौतिक स्वरूप",
-      "भौतिक विशेषताएं",
-      "राजस्थान की स्थिति एवं विस्तार",
-      "राजस्थान के भौतिक प्रदेश",
-      "भौतिक स्वरूप",
+      "प्रमुख भू-आकृतिक प्रदेश एवं उनकी विशेषताएं",
+      "राजस्थान सामान्य परिचय",
     ],
   },
   {
@@ -48,7 +55,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "climate",
     topicName: "Climate",
     topicNameHindi: "जलवायु",
-    corpusTopics: ["राजस्थान की जलवायु", "जलवायु"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["जलवायु"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -57,11 +65,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "drainage-system",
     topicName: "Drainage System",
     topicNameHindi: "अपवाह तंत्र",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान की नदियां",
-      "राजस्थान की झीलें",
-      "राजस्थान की नदियां व झीलें",
-      "अपवाह तंत्र",
+      "जल संसाधन",
     ],
   },
   {
@@ -71,10 +77,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "natural-vegetation",
     topicName: "Natural Vegetation",
     topicNameHindi: "प्राकृतिक वनस्पति",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान में वन",
-      "राजस्थान में वन्यजीव",
-      "प्राकृतिक वनस्पति",
+      "वन एवं प्राकृतिक संसाधन",
+      "वन्यजीव एवं जैव-विविधता",
     ],
   },
   {
@@ -84,9 +90,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "soils-of-rajasthan",
     topicName: "Soils of Rajasthan",
     topicNameHindi: "राजस्थान की मृदा",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
       "राजस्थान की मिट्टियाँ",
-      "प्राकृतिक वनस्पति एवं मृदा",
     ],
   },
   {
@@ -96,11 +102,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "agriculture",
     topicName: "Agriculture",
     topicNameHindi: "कृषि",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान में कृषि",
-      "कृषि",
-      "प्रमुख फसलें –गेहूँ, मक्का, जौ, कपास, गन्ना एवं बाजरा",
-      "कृषि के प्रकार",
+      "कृषि एवं पशुपालन",
     ],
   },
   {
@@ -110,7 +114,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "animal-husbandry",
     topicName: "Animal Husbandry",
     topicNameHindi: "पशुपालन",
-    corpusTopics: ["राजस्थान में पशुपालन", "पशुपालन", "राजस्थान में पशु संपदा"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["कृषि एवं पशुपालन"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -119,7 +124,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "dairy-development",
     topicName: "Dairy Development",
     topicNameHindi: "डेयरी विकास",
-    corpusTopics: ["डेयरी विकास", "राजस्थान में पशुपालन"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["कृषि एवं पशुपालन"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -128,10 +134,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "demographic-characteristics",
     topicName: "Demographic Characteristics",
     topicNameHindi: "जनसांख्यिकी विशेषताएं",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान जनगणना व साक्षरता - 2011",
-      "जनगणना",
-      "जनसांख्यिकी विशेषताएं",
+      "जनसंख्या एवं जनगणना",
     ],
   },
   {
@@ -141,7 +146,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "tribes",
     topicName: "Tribes",
     topicNameHindi: "जनजातियां",
-    corpusTopics: ["राजस्थान की जनजातियाँ", "जनजातियां"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान की जनजातियां"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -150,7 +156,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "industries",
     topicName: "Industries",
     topicNameHindi: "उद्योग",
-    corpusTopics: ["राजस्थान के उद्योग", "उद्योग", "प्रमुख औद्योगिक प्रदेश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["उद्योग", "अर्थव्यवस्था एवं उद्योग"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -159,7 +166,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "tourism",
     topicName: "Tourism",
     topicNameHindi: "पर्यटन",
-    corpusTopics: ["राजस्थान में पर्यटन स्थल", "पर्यटन", "पर्यटन स्थल एवं परिपथ"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["पर्यटन"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -168,7 +176,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "major-tourist-places",
     topicName: "Major Tourist Places",
     topicNameHindi: "प्रमुख पर्यटन स्थल",
-    corpusTopics: ["राजस्थान में पर्यटन स्थल", "प्रमुख पर्यटन स्थल", "पर्यटन स्थल एवं परिपथ"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["पर्यटन"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -177,7 +186,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "boundaries-of-rajasthan",
     topicName: "Boundaries of Rajasthan",
     topicNameHindi: "राजस्थान की सीमा",
-    corpusTopics: ["राजस्थान की सीमा", "राजस्थान की स्थिति एवं विस्तार", "राजस्थान का भौतिक स्वरूप"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सामान्य परिचय", "प्रमुख भू-आकृतिक प्रदेश एवं उनकी विशेषताएं"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -186,10 +196,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "desertification",
     topicName: "Desertification",
     topicNameHindi: "मरुस्थलीकरण",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "मरुस्थलीकरण",
-      "पर्यावरणीय मुद्दे–मरुस्थलीयकरण, वनोन्मूलन, जलवायु परिवर्तन एवं ग्लोबल वार्मिंग (ऊष्मीकरण), ओजन अवक्षय",
-      "राजस्थान का भौतिक स्वरूप",
+      "पर्यावरणीय एवं पारिस्थितिकीय परिवर्तन एवं इनके प्रभाव",
     ],
   },
   {
@@ -199,7 +208,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "traditional-water-management",
     topicName: "Traditional Water Management",
     topicNameHindi: "राजस्थान में परंपरागत जल प्रबंधन",
-    corpusTopics: ["राजस्थान में परंपरागत जल प्रबंधन", "राजस्थान की सिंचाई परियोजनाएँ"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["परंपरागत जल प्रबंधन"],
   },
   {
     subjectSlug: "rajasthan-geography-economy",
@@ -208,6 +218,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "cooperatives-in-rajasthan",
     topicName: "Cooperatives in Rajasthan",
     topicNameHindi: "राजस्थान में सहकारिता",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान में सहकारिता"],
   },
 
@@ -221,7 +232,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "sources-of-rajasthan-history",
     topicName: "Sources of Rajasthan History",
     topicNameHindi: "राजस्थान का इतिहास जानने के स्त्रोत",
-    corpusTopics: ["राजस्थान का इतिहास जानने के स्त्रोत", "राजस्थान के इतिहास के स्रोत"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान का इतिहास जानने के स्त्रोत"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -230,6 +242,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "ancient-culture-civilization",
     topicName: "Ancient Culture & Civilization",
     topicNameHindi: "प्राचीन संस्कृति एवं सभ्यता",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
       "राजस्थान की प्राचीन सभ्यताएँ",
       "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक",
@@ -244,6 +257,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "archaeological-sites-and-their-importance",
     topicName: "Archaeological Sites and Their Importance",
     topicNameHindi: "पुरातात्विक स्थल एवं उनका महत्व",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
       "राजस्थान की प्राचीन सभ्यताएँ",
       "राजस्थान के प्रागैतिहासिक स्थल-पुरापाषाण से ताम्र पाषाण एवं कांस्य युग तक",
@@ -256,10 +270,11 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "history-of-rajasthan-up-to-the-18th-century",
     topicName: "History of Rajasthan up to the 18th Century",
     topicNameHindi: "18वीं शताब्दी तक राजस्थान का इतिहास",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "प्रमुख राजवंशों के महत्वपूर्ण शासकों की राजनीतिक एवं सांस्कृतिक उपलब्धियाँ–गुहिल, प्रतिहार, चौहान, परमार, राठौड़, सिसोदिया और कच्छावा। मध्यकालीन राजस्थान में प्रशासनिक तथा राजस्व व्यवस्था।",
+      "राजस्थान के राजवंश एवं इतिहास",
       "राजपूत युग",
-      "राजस्थान के अन्य राजवंश",
+      "राजस्थान का इतिहास जानने के स्त्रोत",
     ],
   },
   {
@@ -269,10 +284,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajput-states",
     topicName: "Rajput States",
     topicNameHindi: "राजपूत राज्य",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
       "राजपूत युग",
-      "प्रमुख राजवंशों के महत्वपूर्ण शासकों की राजनीतिक एवं सांस्कृतिक उपलब्धियाँ–गुहिल, प्रतिहार, चौहान, परमार, राठौड़, सिसोदिया और कच्छावा। मध्यकालीन राजस्थान में प्रशासनिक तथा राजस्व व्यवस्था।",
-      "राजस्थान के अन्य राजवंश",
+      "राजस्थान के राजवंश एवं इतिहास",
     ],
   },
   {
@@ -282,7 +297,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "relations-with-delhi-sultanate",
     topicName: "Relations with Delhi Sultanate",
     topicNameHindi: "दिल्ली सल्तनत के साथ संबंध",
-    corpusTopics: ["सल्तनतकाल:-प्रमुख सल्तनत शासकों की उपलब्धियाँ। विजयनगर की सांस्कृतिक उपलब्धियाँ।", "मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "रियासतें एवं ब्रिटिश काल"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -291,7 +307,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "mewar",
     topicName: "Mewar",
     topicNameHindi: "मेवाड़",
-    corpusTopics: ["मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -300,7 +317,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "ranthambore",
     topicName: "Ranthambore",
     topicNameHindi: "रणथंभौर",
-    corpusTopics: ["चौहान वंश", "राजस्थान के प्रमुख दुर्ग"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -309,7 +327,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "jalore",
     topicName: "Jalore",
     topicNameHindi: "जालौर",
-    corpusTopics: ["चौहान वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -318,7 +337,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-and-the-mughals",
     topicName: "Rajasthan and the Mughals",
     topicNameHindi: "राजस्थान एवं मुगल",
-    corpusTopics: ["मुगल साम्राज्य:-राजपूत राज्यों के साथ संबंध।", "मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "रियासतें एवं ब्रिटिश काल"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -327,7 +347,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "maharana-sanga",
     topicName: "Maharana Sanga",
     topicNameHindi: "महाराणा सांगा",
-    corpusTopics: ["मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -336,7 +357,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "maharana-pratap",
     topicName: "Maharana Pratap",
     topicNameHindi: "महाराणा प्रताप",
-    corpusTopics: ["मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -345,7 +367,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "raja-man-singh",
     topicName: "Raja Man Singh",
     topicNameHindi: "राजा मानसिंह",
-    corpusTopics: ["कच्छावा वंश", "प्रमुख राजवंशों के महत्वपूर्ण शासकों की राजनीतिक एवं सांस्कृतिक उपलब्धियाँ–गुहिल, प्रतिहार, चौहान, परमार, राठौड़, सिसोदिया और कच्छावा। मध्यकालीन राजस्थान में प्रशासनिक तथा राजस्व व्यवस्था।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -354,7 +377,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "chandrasen-rathore",
     topicName: "Chandrasen Rathore",
     topicNameHindi: "राव चंद्रसेन",
-    corpusTopics: ["राठौड़ वंश", "मारवाड़ का राठौड़ वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -363,7 +387,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rai-singh",
     topicName: "Rai Singh",
     topicNameHindi: "रायसिंह",
-    corpusTopics: ["राठौड़ वंश", "बीकानेर का राठौड़ वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -372,7 +397,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "raj-singh",
     topicName: "Raj Singh",
     topicNameHindi: "राजसिंह",
-    corpusTopics: ["मेवाड़ का गुहिल वंश"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के राजवंश एवं इतिहास", "राजपूत युग"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -381,10 +407,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "freedom-struggle-in-rajasthan",
     topicName: "Freedom Struggle in Rajasthan",
     topicNameHindi: "राजस्थान में स्वतंत्रता संग्राम",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान में 1857 की क्रांति",
-      "राजस्थान में स्वतंत्रता आंदोलन के दौरान गठित संगठन",
-      "आधुनिक राजस्थान का उदय:-१९वीं–२०वीं शताब्दी के दौरान राजस्थान में सामाजिक जागृति के कारक। राजनीतिक जागरण:-समाचार पत्रों एवं राजनीतिक संस्थाओं की भूमिका। २०वीं शताब्दी में जनजाति तथा किसान आन्दोलन, २०वीं शताब्दी के दौरान विभिन्न देशी रियासतों में प्रजामण्डल आन्दोलन। राजस्थान का एकीकरण।",
+      "राजस्थान का स्वतंत्रता आंदोलन",
+      "आधुनिक राजस्थान एवं एकीकरण",
     ],
   },
   {
@@ -394,7 +420,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "revolt-of-1857",
     topicName: "Revolt of 1857",
     topicNameHindi: "1857 की क्रांति",
-    corpusTopics: ["राजस्थान में 1857 की क्रांति"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान का स्वतंत्रता आंदोलन", "रियासतें एवं ब्रिटिश काल"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -403,9 +430,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "political-awakening",
     topicName: "Political Awakening",
     topicNameHindi: "राजनीतिक चेतना",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान में स्वतंत्रता आंदोलन के दौरान गठित संगठन",
-      "आधुनिक राजस्थान का उदय:-१९वीं–२०वीं शताब्दी के दौरान राजस्थान में सामाजिक जागृति के कारक। राजनीतिक जागरण:-समाचार पत्रों एवं राजनीतिक संस्थाओं की भूमिका। २०वीं शताब्दी में जनजाति तथा किसान आन्दोलन, २०वीं शताब्दी के दौरान विभिन्न देशी रियासतों में प्रजामण्डल आन्दोलन। राजस्थान का एकीकरण।",
+      "राजस्थान का स्वतंत्रता आंदोलन",
     ],
   },
   {
@@ -415,6 +442,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "prajamandal-movement",
     topicName: "Prajamandal Movement",
     topicNameHindi: "प्रजामण्डल आंदोलन",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान में प्रजामंडल आंदोलन"],
   },
   {
@@ -424,7 +452,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "peasant-movements",
     topicName: "Peasant Movements",
     topicNameHindi: "किसान आंदोलन",
-    corpusTopics: ["राजस्थान में किसान तथा आदिवासी आन्दोलन"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान का स्वतंत्रता आंदोलन"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -433,7 +462,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "tribal-movements",
     topicName: "Tribal Movements",
     topicNameHindi: "जनजातीय आंदोलन",
-    corpusTopics: ["राजस्थान में किसान तथा आदिवासी आन्दोलन"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान का स्वतंत्रता आंदोलन"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -442,7 +472,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "integration-of-rajasthan",
     topicName: "Integration of Rajasthan",
     topicNameHindi: "राजस्थान का एकीकरण",
-    corpusTopics: ["राजस्थान का एकीकरण"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["आधुनिक राजस्थान एवं एकीकरण"],
   },
   {
     subjectSlug: "rajasthan-history",
@@ -451,7 +482,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "important-personalities-of-rajasthan",
     topicName: "Important Personalities of Rajasthan",
     topicNameHindi: "राजस्थान के प्रमुख व्यक्तित्व",
-    corpusTopics: ["राजस्थान के प्रमुख व्यक्तित्व", "प्रसिद्ध महिला व्यक्तित्व"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के व्यक्तित्व"],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -464,7 +496,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "folk-deities",
     topicName: "Folk Deities",
     topicNameHindi: "लोक देवता एवं देवियां",
-    corpusTopics: ["राजस्थान में लोक देवता व देवियाँ"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["धर्म, संत एवं लोक देवता"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -473,7 +506,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "saints-of-rajasthan",
     topicName: "Saints of Rajasthan",
     topicNameHindi: "राजस्थान के संत",
-    corpusTopics: ["राजस्थान के प्रमुख संत एवं सम्प्रदाय"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["धर्म, संत एवं लोक देवता"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -482,7 +516,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "temple-architecture",
     topicName: "Temple Architecture",
     topicNameHindi: "मंदिर स्थापत्य",
-    corpusTopics: ["मंदिर स्थापत्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["स्थापत्य कला"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -491,7 +526,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "architecture",
     topicName: "Architecture",
     topicNameHindi: "स्थापत्य कला",
-    corpusTopics: ["राजस्थान में स्थापत्य कला", "राजस्थान के प्रमुख दुर्ग"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["स्थापत्य कला"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -500,7 +536,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "painting-schools",
     topicName: "Painting Schools",
     topicNameHindi: "चित्रकला शैलियां",
-    corpusTopics: ["राजस्थान की चित्र शैलियां"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["चित्रकला"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -509,6 +546,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "fairs",
     topicName: "Fairs",
     topicNameHindi: "मेले",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान के मेले"],
   },
   {
@@ -518,6 +556,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "festivals",
     topicName: "Festivals",
     topicNameHindi: "त्योहार",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान में त्यौहार"],
   },
   {
@@ -527,9 +566,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "customs-traditions",
     topicName: "Customs & Traditions",
     topicNameHindi: "रीति-रिवाज एवं परंपराएं",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
       "राजस्थान में रीति -रिवाज एवं प्रथाएं",
-      "राजस्थान में सामाजिक जीवन:-मेले एवं त्योहार; सामाजिक रीति-रिवाज तथा परम्पराये; वेशभूषा एवं आभूषण।",
     ],
   },
   {
@@ -539,9 +578,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "dresses",
     topicName: "Dresses",
     topicNameHindi: "वेशभूषा",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान के आभूषण एवं वेशभूषा",
-      "राजस्थान में सामाजिक जीवन:-मेले एवं त्योहार; सामाजिक रीति-रिवाज तथा परम्पराये; वेशभूषा एवं आभूषण।",
+      "हस्तशिल्प, वेशभूषा एवं आभूषण",
     ],
   },
   {
@@ -551,7 +590,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "ornaments",
     topicName: "Ornaments",
     topicNameHindi: "आभूषण",
-    corpusTopics: ["राजस्थान के आभूषण एवं वेशभूषा"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["हस्तशिल्प, वेशभूषा एवं आभूषण"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -560,7 +600,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "handicrafts",
     topicName: "Handicrafts",
     topicNameHindi: "हस्तशिल्प",
-    corpusTopics: ["राजस्थान की हस्तकला / हस्तशिल्प"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["हस्तशिल्प, वेशभूषा एवं आभूषण"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -569,7 +610,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "folk-music",
     topicName: "Folk Music",
     topicNameHindi: "लोक संगीत",
-    corpusTopics: ["राजस्थान में संगीत एवं लोकगीत"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["लोक कला एवं संगीत"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -578,7 +620,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "folk-dance",
     topicName: "Folk Dance",
     topicNameHindi: "लोक नृत्य",
-    corpusTopics: ["राजस्थान में नृत्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["लोक कला एवं संगीत"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -587,7 +630,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "folk-theatre",
     topicName: "Folk Theatre",
     topicNameHindi: "लोक नाट्य",
-    corpusTopics: ["राजस्थान में लोक नाट्य", "राजस्थान में नृत्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["लोक कला एवं संगीत"],
   },
   {
     subjectSlug: "rajasthan-art-culture-society",
@@ -596,11 +640,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "language",
     topicName: "Language",
     topicNameHindi: "बोली एवं भाषा",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थानी भाषा एवं बोलियां",
-      "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।",
-      "राजस्थानी शब्दावली",
-      "राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ",
+      "भाषा एवं साहित्य",
     ],
   },
   {
@@ -610,9 +652,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "literature",
     topicName: "Literature",
     topicNameHindi: "साहित्य",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थानी साहित्य",
-      "भाषा एवं साहित्य:-राजस्थानी भाषा की बोलियाँ। राजस्थानी भाषा का साहित्य एवं लोक साहित्य।",
+      "भाषा एवं साहित्य",
     ],
   },
   {
@@ -622,6 +664,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "major-cultural-event-venues",
     topicName: "Major Cultural Event Venues",
     topicNameHindi: "राजस्थान के प्रमुख सांस्कृतिक कार्यक्रम स्थल",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान के प्रमुख सांस्कृतिक कार्यक्रम स्थल"],
   },
 
@@ -635,7 +678,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "governor",
     topicName: "Governor",
     topicNameHindi: "राज्यपाल",
-    corpusTopics: ["राज्यपाल", "राज्यपाल, मुख्यमंत्री और मंत्रिपरिषद् विधानसभा, उच्च न्यायालय।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य शासन एवं प्रशासन"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -644,11 +688,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "chief-minister-council-of-ministers",
     topicName: "Chief Minister & Council of Ministers",
     topicNameHindi: "मुख्यमंत्री एवं मंत्रिपरिषद",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "मुख्यमंत्री",
-      "राज्य मंत्रिपरिषद",
       "राजस्थान मंत्रिमंडल",
-      "राज्यपाल, मुख्यमंत्री और मंत्रिपरिषद् विधानसभा, उच्च न्यायालय।",
+      "राज्य शासन एवं प्रशासन",
     ],
   },
   {
@@ -658,7 +701,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "state-legislature",
     topicName: "State Legislature",
     topicNameHindi: "राज्य विधानमंडल",
-    corpusTopics: ["राज्य विधान मंडल", "राज्यपाल, मुख्यमंत्री और मंत्रिपरिषद् विधानसभा, उच्च न्यायालय।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य विधान मंडल"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -667,9 +711,9 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-high-court-subordinate-courts",
     topicName: "Rajasthan High Court & Subordinate Courts",
     topicNameHindi: "राजस्थान उच्च न्यायालय एवं अधीनस्थ न्यायालय",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "उच्च न्यायालय",
-      "राज्यपाल, मुख्यमंत्री और मंत्रिपरिषद् विधानसभा, उच्च न्यायालय।",
+      "राज्य शासन एवं प्रशासन",
     ],
   },
   {
@@ -679,7 +723,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "panchayati-raj",
     topicName: "Panchayati Raj",
     topicNameHindi: "पंचायती राज",
-    corpusTopics: ["स्थानीय स्वायत्त शासन एवं पंचायती राज", "जिला प्रशासन, स्थानीय स्वशासन एवं पंचायती राज संस्थाएँ।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["स्थानीय शासन एवं पंचायती राज"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -688,7 +733,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "urban-local-government",
     topicName: "Urban Local Government",
     topicNameHindi: "नगरीय निकाय",
-    corpusTopics: ["स्थानीय स्वायत्त शासन एवं पंचायती राज"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["स्थानीय शासन एवं पंचायती राज"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -697,7 +743,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "state-secretariat",
     topicName: "State Secretariat",
     topicNameHindi: "राज्य सचिवालय",
-    corpusTopics: ["राज्य प्रशासन"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य शासन एवं प्रशासन"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -706,7 +753,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "divisional-commissioner",
     topicName: "Divisional Commissioner",
     topicNameHindi: "संभाग आयुक्त",
-    corpusTopics: ["राज्य प्रशासन", "राजस्थान के जिले व संभाग"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य शासन एवं प्रशासन", "राजस्थान सामान्य परिचय"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -715,7 +763,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "district-administration",
     topicName: "District Administration",
     topicNameHindi: "जिला प्रशासन",
-    corpusTopics: ["जिला प्रशासन", "जिला प्रशासन, स्थानीय स्वशासन एवं पंचायती राज संस्थाएँ।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य शासन एवं प्रशासन"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -724,7 +773,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-public-service-commission-rpsc",
     topicName: "Rajasthan Public Service Commission (RPSC)",
     topicNameHindi: "राजस्थान लोक सेवा आयोग (RPSC)",
-    corpusTopics: ["राजस्थान लोक सेवा आयोग", "राजस्थान लोक सेवा आयोग, राज्य मानवाधिकार आयोग, लोकायुक्त, राज्य निर्वाचन आयोग, राज्य सूचना आयोग।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य आयोग एवं संस्थाएँ"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -733,7 +783,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-state-womens-commission",
     topicName: "Rajasthan State Women's Commission",
     topicNameHindi: "राज्य महिला आयोग",
-    corpusTopics: ["राजस्थान राज्य महिला आयोग"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान राज्य महिला आयोग", "राज्य आयोग एवं संस्थाएँ"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -742,7 +793,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-state-finance-commission",
     topicName: "Rajasthan State Finance Commission",
     topicNameHindi: "राज्य वित्त आयोग",
-    corpusTopics: ["संवैधानिक आयोग", "स्थानीय स्वायत्त शासन एवं पंचायती राज"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य आयोग एवं संस्थाएँ", "स्थानीय शासन एवं पंचायती राज"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -751,7 +803,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-state-election-commission",
     topicName: "Rajasthan State Election Commission",
     topicNameHindi: "राज्य निर्वाचन आयोग",
-    corpusTopics: ["राजस्थान राज्य निर्वाचन आयोग", "राजस्थान लोक सेवा आयोग, राज्य मानवाधिकार आयोग, लोकायुक्त, राज्य निर्वाचन आयोग, राज्य सूचना आयोग।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य आयोग एवं संस्थाएँ"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -760,7 +813,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "lokayukta",
     topicName: "Lokayukta",
     topicNameHindi: "लोकायुक्त",
-    corpusTopics: ["राजस्थान में लोकायुक्त", "राजस्थान लोक सेवा आयोग, राज्य मानवाधिकार आयोग, लोकायुक्त, राज्य निर्वाचन आयोग, राज्य सूचना आयोग।"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य आयोग एवं संस्थाएँ"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -769,6 +823,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-state-legal-services-authority",
     topicName: "Rajasthan State Legal Services Authority",
     topicNameHindi: "राज्य विधिक सेवा प्राधिकरण",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["लोक नीति, विधिक अधिकार एवं नागरिक अधिकार–पत्र"],
   },
   {
@@ -778,7 +833,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "local-self-government-panchayati-raj",
     topicName: "Local Self Government & Panchayati Raj",
     topicNameHindi: "स्थानीय स्वायत्त शासन एवं पंचायती राज",
-    corpusTopics: ["स्थानीय स्वायत्त शासन एवं पंचायती राज"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["स्थानीय शासन एवं पंचायती राज"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -787,7 +843,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-public-service-guarantee-act-2011",
     topicName: "Rajasthan Public Service Guarantee Act 2011",
     topicNameHindi: "राजस्थान लोक सेवा गारंटी अधिनियम 2011",
-    corpusTopics: ["राजस्थान लोक सेवा गारंटी अधिनियम 2011"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राज्य शासन एवं प्रशासन"],
   },
   {
     subjectSlug: "rajasthan-polity-administration",
@@ -796,6 +853,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "board-of-revenue-rajasthan",
     topicName: "Board of Revenue Rajasthan",
     topicNameHindi: "राजस्‍व मण्‍डल राजस्‍थान",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्‍व मण्‍डल राजस्‍थान"],
   },
   {
@@ -805,7 +863,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-contribution-to-constitution-making",
     topicName: "Rajasthan Contribution to Constitution Making",
     topicNameHindi: "संविधान निर्माण में राजस्थान का योगदान",
-    corpusTopics: ["संविधान निर्माण में राजस्थान का योगदान"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सामान्य ज्ञान"],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -818,7 +877,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "important-personalities",
     topicName: "Important Personalities",
     topicNameHindi: "प्रमुख व्यक्तित्व",
-    corpusTopics: ["राजस्थान के प्रमुख व्यक्तित्व", "प्रसिद्ध महिला व्यक्तित्व", "वर्तमान में चर्चित व्यक्ति, स्थान एवं संस्थाए"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान के व्यक्तित्व"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -827,7 +887,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "important-places",
     topicName: "Important Places",
     topicNameHindi: "प्रमुख स्थान",
-    corpusTopics: ["राजस्थान के प्रमुख स्थानों के उपनाम", "वर्तमान में चर्चित व्यक्ति, स्थान एवं संस्थाए"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सामान्य परिचय", "राजस्थान सामान्य ज्ञान"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -836,7 +897,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "current-issues",
     topicName: "Current Issues",
     topicNameHindi: "समसामयिक मुद्दे",
-    corpusTopics: ["राजस्थान, भारतीय एवं अन्तर्राष्ट्रीय महत्व की प्रमुख समसामयिक घटनाएं एवं मुद्दे", "वर्तमान में चर्चित व्यक्ति, स्थान एवं संस्थाए"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान, भारतीय एवं अन्तर्राष्ट्रीय महत्व की प्रमुख समसामयिक घटनाएं एवं मुद्दे"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -845,9 +907,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "welfare-schemes",
     topicName: "Welfare Schemes",
     topicNameHindi: "कल्याणकारी योजनाएं",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: [
-      "राजस्थान सरकार की योजनाएं",
-      "राज्य सरकार की प्रमुख कल्याणकारी योजनाएँ:-अनुसूचित जाति/अनुसूचित जनजाति/पिछड़ा वर्ग/ अल्पसंख्यकों, नि:शक्तजनों, निराश्रितों, महिलाओं, बच्चों, वृद्धजनों, कृषकों एवं श्रमिकों के लिए।",
+      "राजस्थान सरकार, योजनाएँ एवं बजट",
+      "एक जिला एक उत्पाद योजना राजस्थान",
     ],
   },
   {
@@ -857,7 +920,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "development-schemes",
     topicName: "Development Schemes",
     topicNameHindi: "विकास योजनाएं",
-    corpusTopics: ["प्रमुख विकास परियोजनाएँ", "राजस्थान सरकार की योजनाएं"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["प्रमुख विकास परियोजनाएँ", "राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -866,7 +930,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "government-initiatives",
     topicName: "Government Initiatives",
     topicNameHindi: "शासकीय पहल",
-    corpusTopics: ["राजस्थान सरकार की योजनाएं", "राजस्थान सरकार की प्रमुख नीतियां"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -875,7 +940,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "economic-scenario",
     topicName: "Economic Scenario",
     topicNameHindi: "आर्थिक परिदृश्य",
-    corpusTopics: ["आर्थिक समीक्षा 2024-25", "आर्थिक समीक्षा 2025-26", "अर्थव्यवस्था का वृहत् परिदृश्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["अर्थव्यवस्था एवं उद्योग", "राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -884,6 +950,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "political-scenario",
     topicName: "Political Scenario",
     topicNameHindi: "राजनीतिक परिदृश्य",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान, भारतीय एवं अन्तर्राष्ट्रीय महत्व की प्रमुख समसामयिक घटनाएं एवं मुद्दे"],
   },
   {
@@ -893,7 +960,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "sports",
     topicName: "Sports",
     topicNameHindi: "खेलकूद",
-    corpusTopics: ["खेल एवं खेलकूद संबंधी गतिविधियाँ", "राजस्थान के खेल व खिलाड़ी"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान खेल"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -902,6 +970,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "awards",
     topicName: "Awards",
     topicNameHindi: "पुरस्कार एवं सम्मान",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान, भारतीय एवं अन्तर्राष्ट्रीय महत्व की प्रमुख समसामयिक घटनाएं एवं मुद्दे"],
   },
   {
@@ -911,7 +980,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "books",
     topicName: "Books",
     topicNameHindi: "प्रमुख पुस्तकें",
-    corpusTopics: ["राजस्थानी साहित्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["भाषा एवं साहित्य"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -920,7 +990,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "authors",
     topicName: "Authors",
     topicNameHindi: "लेखक",
-    corpusTopics: ["राजस्थानी साहित्य"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["भाषा एवं साहित्य"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -929,7 +1000,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "sports-and-players-of-rajasthan",
     topicName: "Sports and Players of Rajasthan",
     topicNameHindi: "राजस्थान के खेल व खिलाड़ी",
-    corpusTopics: ["राजस्थान के खेल व खिलाड़ी", "खेल एवं खेलकूद संबंधी गतिविधियाँ"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान खेल"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -938,7 +1010,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "development-of-science-technology",
     topicName: "Development of Science & Technology",
     topicNameHindi: "राजस्थान में विज्ञान और प्रौद्योगिकी का विकास",
-    corpusTopics: ["राजस्थान में विज्ञान और प्रौद्योगिकी का विकास", "विज्ञान एवं प्रौद्योगिकी विकास राजस्थान के विशेष संदर्भ में"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान विज्ञान एवं प्रौद्योगिकी"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -947,6 +1020,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "one-district-one-product-scheme",
     topicName: "One District One Product Scheme",
     topicNameHindi: "एक जिला एक उत्पाद योजना राजस्थान",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["एक जिला एक उत्पाद योजना राजस्थान"],
   },
   {
@@ -956,6 +1030,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "regional-programs-in-rajasthan",
     topicName: "Regional Programs in Rajasthan",
     topicNameHindi: "राजस्थान में क्षेत्रीय कार्यक्रम",
+    newCorpusSubject: "राजस्थान GK",
     corpusTopics: ["राजस्थान में क्षेत्रीय कार्यक्रम"],
   },
   {
@@ -965,7 +1040,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-budget-2025-26",
     topicName: "Rajasthan Budget 2025-26",
     topicNameHindi: "राजस्थान बजट 2025-26",
-    corpusTopics: ["राजस्थान बजट 2025-26"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -974,7 +1050,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "economic-review-2024-25",
     topicName: "Economic Review 2024-25",
     topicNameHindi: "आर्थिक समीक्षा 2024-25",
-    corpusTopics: ["आर्थिक समीक्षा 2024-25"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -983,7 +1060,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "rajasthan-budget-2026-27",
     topicName: "Rajasthan Budget 2026-27",
     topicNameHindi: "राजस्थान बजट 2026-27",
-    corpusTopics: ["राजस्थान बजट 2026-27"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -992,7 +1070,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "economic-review-2025-26",
     topicName: "Economic Review 2025-26",
     topicNameHindi: "आर्थिक समीक्षा 2025-26",
-    corpusTopics: ["आर्थिक समीक्षा 2025-26"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
   {
     subjectSlug: "rajasthan-current-affairs",
@@ -1001,7 +1080,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "major-policies-of-rajasthan-government",
     topicName: "Major Policies of Rajasthan Government",
     topicNameHindi: "राजस्थान सरकार की प्रमुख नीतियां",
-    corpusTopics: ["राजस्थान सरकार की प्रमुख नीतियां"],
+    newCorpusSubject: "राजस्थान GK",
+    corpusTopics: ["राजस्थान सरकार, योजनाएँ एवं बजट"],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -1014,12 +1094,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "world-geography-continents",
     topicName: "World Geography - Continents",
     topicNameHindi: "विश्व भूगोल - महाद्वीप",
-    corpusTopics: [
-      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार, मैदान एवं मरुस्थल",
-      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
-      "स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।",
-      "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें",
-    ],
+    // World GK is not in the new production corpus — retrieval returns 0 results
+    corpusTopics: [],
   },
   {
     subjectSlug: "world-gk",
@@ -1028,7 +1104,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "world-geography-oceans",
     topicName: "World Geography - Oceans",
     topicNameHindi: "विश्व भूगोल - महासागर",
-    corpusTopics: ["महासागर– महासागरीय जलधाराएँ एवं जलमार्ग।", "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें"],
+    corpusTopics: [],
   },
   {
     subjectSlug: "world-gk",
@@ -1037,7 +1113,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "world-geography-global-wind-system",
     topicName: "World Geography - Global Wind System",
     topicNameHindi: "विश्व भूगोल - पवन तंत्र",
-    corpusTopics: ["प्रमुख पवन तंत्र–वैश्विक पवनें, स्थानीय पवनें।"],
+    corpusTopics: [],
   },
   {
     subjectSlug: "world-gk",
@@ -1046,7 +1122,7 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "world-geography-environmental-problems",
     topicName: "World Geography - Environmental Problems",
     topicNameHindi: "विश्व भूगोल - पर्यावरणीय समस्याएं",
-    corpusTopics: ["पर्यावरणीय मुद्दे–मरुस्थलीयकरण, वनोन्मूलन, जलवायु परिवर्तन एवं ग्लोबल वार्मिंग (ऊष्मीकरण), ओजन अवक्षय"],
+    corpusTopics: [],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -1059,11 +1135,10 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "india-geography-physical-features",
     topicName: "India Geography - Physical Features",
     topicNameHindi: "भारत भूगोल - भौतिक स्वरूप",
+    newCorpusSubject: "India GK",
     corpusTopics: [
-      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार, मैदान एवं मरुस्थल",
-      "प्रमुख स्थलाकृतियाँ–पर्वत, पठार एवं मैदान",
-      "प्रमुख भौतिक लक्षण–पर्वत, पठार, मैदान एवं झीलें",
-      "स्थलाकृतियाँ– पर्वत, पठार, मैदान एवं मरुस्थल।",
+      "भौतिक भूगोल",
+      "प्रमुख भू-आकृतिक प्रदेश एवं उनकी विशेषताएं",
     ],
   },
   {
@@ -1073,7 +1148,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "india-geography-climate",
     topicName: "India Geography - Climate",
     topicNameHindi: "भारत भूगोल - जलवायु",
-    corpusTopics: ["मानसून तंत्र व वर्षा का वितरण"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["जलवायु"],
   },
   {
     subjectSlug: "india-gk",
@@ -1082,7 +1158,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "india-geography-monsoon-system",
     topicName: "India Geography - Monsoon System",
     topicNameHindi: "भारत भूगोल - मानसून तंत्र",
-    corpusTopics: ["मानसून तंत्र व वर्षा का वितरण"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["जलवायु"],
   },
   {
     subjectSlug: "india-gk",
@@ -1091,7 +1168,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "india-geography-drainage-system",
     topicName: "India Geography - Drainage System",
     topicNameHindi: "भारत भूगोल - अपवाह तंत्र",
-    corpusTopics: ["प्रमुख नदियाँ एवं झीलें"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["जल संसाधन"],
   },
   {
     subjectSlug: "india-gk",
@@ -1100,7 +1178,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "india-geography-natural-vegetation",
     topicName: "India Geography - Natural Vegetation",
     topicNameHindi: "भारत भूगोल - प्राकृतिक वनस्पति",
-    corpusTopics: ["वन एवं वन्य-जीव संरक्षण", "जैव-विविधता एवं इनका संरक्षण"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["वन एवं प्राकृतिक संसाधन", "वन्यजीव एवं जैव-विविधता"],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -1113,7 +1192,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "constituent-assembly",
     topicName: "Constituent Assembly",
     topicNameHindi: "संविधान सभा",
-    corpusTopics: ["संविधान सभा, भारतीय संविधान की विशेषताएं, संवैधानिक संशोधन।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1122,7 +1202,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "president",
     topicName: "President",
     topicNameHindi: "राष्ट्रपति",
-    corpusTopics: ["राष्ट्रपति, प्रधानमंत्री एवं मंत्रिपरिषद्, संसद, उच्चतम न्यायालय और न्यायिक पुनरावलोकन।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1131,7 +1212,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "prime-minister",
     topicName: "Prime Minister",
     topicNameHindi: "प्रधानमंत्री",
-    corpusTopics: ["राष्ट्रपति, प्रधानमंत्री एवं मंत्रिपरिषद्, संसद, उच्चतम न्यायालय और न्यायिक पुनरावलोकन।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1140,7 +1222,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "parliament",
     topicName: "Parliament",
     topicNameHindi: "संसद",
-    corpusTopics: ["राष्ट्रपति, प्रधानमंत्री एवं मंत्रिपरिषद्, संसद, उच्चतम न्यायालय और न्यायिक पुनरावलोकन।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1149,7 +1232,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "supreme-court",
     topicName: "Supreme Court",
     topicNameHindi: "उच्चतम न्यायालय",
-    corpusTopics: ["राष्ट्रपति, प्रधानमंत्री एवं मंत्रिपरिषद्, संसद, उच्चतम न्यायालय और न्यायिक पुनरावलोकन।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
   {
     subjectSlug: "indian-polity-foreign-policy",
@@ -1158,7 +1242,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "election-commission",
     topicName: "Election Commission",
     topicNameHindi: "भारत निर्वाचन आयोग",
-    corpusTopics: ["भारत निर्वाचन आयोग, नियंत्रक एवं महालेखा परीक्षण, नीति आयोग, केन्द्रीय सतकर्ता आयोग, लोकपाल, केन्द्रीय सूचना आयोग एवं राष्ट्रीय मानवाधिकार आयोग।"],
+    newCorpusSubject: "India GK",
+    corpusTopics: ["भारतीय संविधान एवं राजव्यवस्था", "भारतीय राजव्यवस्था एवं संस्थाएँ"],
   },
 
   // ──────────────────────────────────────────────────────────────────────────
@@ -1171,7 +1256,8 @@ export const CANONICAL_TOPIC_MAPPINGS: CanonicalTopicDefinition[] = [
     topicSlug: "educational-psychology-meaning-scope",
     topicName: "Educational Psychology - Meaning & Scope",
     topicNameHindi: "शिक्षा मनोविज्ञान - अर्थ एवं क्षेत्र",
-    corpusTopics: ["शिक्षा"],
+    // Educational Psychology is not in the new production corpus — retrieval returns 0 results
+    corpusTopics: [],
   },
 ];
 

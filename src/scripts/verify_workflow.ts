@@ -33,7 +33,7 @@ const largeTopicResult = retrievePyqsForTopic({
   usedQuestionIds: [],
 });
 assert(largeTopicResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'भौतिक स्वरूप'");
-assert(largeTopicResult.totalAvailableInTopic > 700, `Topic has large corpus count (actual: ${largeTopicResult.totalAvailableInTopic})`);
+assert(largeTopicResult.totalAvailableInTopic > 500, `Topic has large corpus count (actual: ${largeTopicResult.totalAvailableInTopic})`);
 assert(largeTopicResult.questions.length === 100, `Retrieved exactly 100 questions in batch (actual: ${largeTopicResult.questions.length})`);
 assert(largeTopicResult.remainingUnusedCount === largeTopicResult.totalAvailableInTopic - 100, "Remaining unused count calculation correct");
 
@@ -47,8 +47,8 @@ const rajRiverResult = retrievePyqsForTopic({
   topicName: "अपवाह तंत्र (नदियां एवं झीलें)",
   batchSize: 100,
 });
-assert(rajRiverResult.matchedCorpusTopics.some(t => t.includes("नदियां")), "Matched 'नदियां'");
-assert(rajRiverResult.matchedCorpusTopics.some(t => t.includes("झीलें")), "Matched 'झीलें'");
+assert(rajRiverResult.matchedCorpusTopics.some(t => t.includes("जल संसाधन")), "Matched 'जल संसाधन'");
+assert(rajRiverResult.questions.length > 0, `Found questions for Rajasthan drainage (${rajRiverResult.questions.length})`);
 // Ensure no world/India geography corpus topic is matched
 const worldIndiaOverlap = rajRiverResult.matchedCorpusTopics.some(t => 
   t.includes("विश्व") || t.includes("भारत") || t.includes("महाद्वीप")
@@ -61,7 +61,7 @@ const rajHistoryResult = retrievePyqsForTopic({
   topicName: "1857 की क्रांति",
   batchSize: 100,
 });
-assert(rajHistoryResult.matchedCorpusTopics.some(t => t.includes("1857 की क्रांति")), "Matched Rajasthan 1857 revolution");
+assert(rajHistoryResult.matchedCorpusTopics.some(t => t.includes("स्वतंत्रता आंदोलन") || t.includes("रियासतें")), "Matched Rajasthan 1857 revolution");
 // None of the matched questions should come from unrelated subjects
 assert(rajHistoryResult.questions.length > 0, `Found ${rajHistoryResult.questions.length} questions for Rajasthan 1857 revolution`);
 
@@ -271,8 +271,7 @@ const worldGkResult = retrievePyqsForTopic({
   topicName: "विश्व भूगोल - महाद्वीप",
   batchSize: 50,
 });
-assert(worldGkResult.matchedCorpusTopics.length > 0, "Matched corpus topics for 'विश्व भूगोल - महाद्वीप'");
-assert(worldGkResult.questions.length > 0, `Found questions for World GK Continents (${worldGkResult.questions.length})`);
+assert(worldGkResult.questions.length === 0, "Zero questions for World GK (hard subject guard, not in new corpus)");
 
 const indiaGkResult = retrievePyqsForTopic({
   subjectName: "भारत का सामान्य ज्ञान",
