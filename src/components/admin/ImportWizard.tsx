@@ -205,7 +205,10 @@ export function ImportWizard() {
       {/* Streamlined Question Import Editor */}
       <QuestionImportEditor
         initialValue={editorCode}
-        onChange={(_, parsedData) => setParsed(parsedData)}
+        onChange={(val, parsedData) => {
+          setEditorCode(val);
+          setParsed(parsedData);
+        }}
         subjectsList={subjects}
         topicsList={topics}
         selectedSubjectId={selectedSubjectId}

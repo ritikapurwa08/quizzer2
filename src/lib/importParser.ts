@@ -272,13 +272,14 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       return;
     }
 
-    // New AI contract: exactly four substantive options.
-    // Do not silently repair bad model output; reject it for regeneration.
-    if (isMinified && rawOpts.length !== 4) {
+    // Check option count based on type (2 for true_false, 4 for other competitive exam types)
+    const itemType = String(cleanItem.t ?? cleanItem.type ?? "mcq").toLowerCase().trim();
+    const expectedOpts = itemType === "true_false" ? 2 : 4;
+    if (isMinified && rawOpts.length !== expectedOpts) {
       invalidQuestions.push({
         index: qNum,
         raw: cleanItem,
-        reason: `प्रश्न ${qNum}: AI प्रश्न में ठीक 4 substantive विकल्प होने चाहिए; ${rawOpts.length} मिले।`,
+        reason: `प्रश्न ${qNum}: ठीक ${expectedOpts} substantive विकल्प होने चाहिए; ${rawOpts.length} मिले।`,
       });
       return;
     }

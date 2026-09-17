@@ -71,16 +71,34 @@ const MINIFIED_INDEX_TO_OPT: Record<number, string> = {
   3: "opt4",
 };
 
+export function isFakeExam(str?: string | null): boolean {
+  if (!str) return true;
+  const lower = str.toLowerCase().trim();
+  return (
+    !lower ||
+    lower === "unknown" ||
+    lower === "unknown exam" ||
+    lower === "practice" ||
+    lower === "practice exam" ||
+    lower === "null" ||
+    lower === "undefined" ||
+    lower === "[object object]" ||
+    lower === "object" ||
+    lower === "none" ||
+    lower === "n/a"
+  );
+}
+
 const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
   mcq: "mcq",
   match: "match",
-  match_following: "match",
+  match_following: "match_following",
   assertion: "assertion",
-  assertion_reason: "assertion",
-  statement_reason: "assertion",
+  assertion_reason: "assertion_reason",
+  statement_reason: "statement_reason",
   true_false: "true_false",
-  sequence: "mcq", // downgrade to mcq safely
-  table: "mcq",    // downgrade to mcq safely
+  sequence: "sequence",
+  table: "table",
 };
 
 // ── Match list item interfaces ──────────────────────────────────────────
@@ -247,8 +265,13 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     // Filter non-empty options
     options = options.filter(o => o.text.length > 0);
 
+    // Determine type first
+    const rawType: string = String(raw.t ?? raw.type ?? "mcq").toLowerCase().trim();
+    const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? (questionTypeSchema.options.includes(rawType as any) ? (rawType as AcceptedQuestionType) : "mcq");
+
     const isAiFormat = ("q" in raw) || ("question" in raw) || ("sourceType" in raw);
-    if (isAiFormat && options.length !== 4) return null;
+    const expectedOptCount = type === "true_false" ? 2 : 4;
+    if (isAiFormat && options.length !== expectedOptCount) return null;
     if (options.length < 2) return null;
 
     const allOptionText = options.map((o) => o.text.trim().toLowerCase());
@@ -259,7 +282,8 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     const rawAnswer = raw.answer !== undefined ? raw.answer : raw.a !== undefined ? raw.a : raw.correctAnswer;
     if (typeof rawAnswer === "number") {
       if (!Number.isInteger(rawAnswer)) return null;
-      if (rawAnswer < 0 || rawAnswer > 3) return null;
+      const maxAnswerIndex = expectedOptCount - 1;
+      if (rawAnswer < 0 || rawAnswer > maxAnswerIndex) return null;
       correctAnswer = MINIFIED_INDEX_TO_OPT[rawAnswer] ?? `opt${rawAnswer + 1}`;
     } else if (typeof rawAnswer === "string") {
       const trimmed = rawAnswer.trim();
@@ -272,14 +296,22 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
       else if (/^[0-3]$/.test(trimmed)) {
         const num = parseInt(trimmed, 10);
         correctAnswer = MINIFIED_INDEX_TO_OPT[num] ?? `opt${num + 1}`;
-      } else correctAnswer = trimmed;
+      } else {
+        const matchingId = options.find((o) => o.id.toLowerCase() === trimmed.toLowerCase());
+        if (matchingId) {
+          correctAnswer = matchingId.id;
+        } else {
+          const matchingText = options.find((o) => o.text.trim().toLowerCase() === trimmed.toLowerCase());
+          if (matchingText) {
+            correctAnswer = matchingText.id;
+          } else {
+            correctAnswer = trimmed;
+          }
+        }
+      }
     } else if (Array.isArray(rawAnswer)) {
       correctAnswer = rawAnswer.map(String);
     }
-
-    // Type: map minified or legacy type to canonical
-    const rawType: string = String(raw.t ?? raw.type ?? "mcq").toLowerCase().trim();
-    const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? "mcq";
 
     const explanation: string | undefined =
       (raw.explanation !== undefined && raw.explanation !== null ? String(raw.explanation).trim() : undefined) ??
@@ -326,13 +358,13 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     // Extract optional provenance fields from AI output and store in meta.
     // Accepted sourceType values: "PYQ" | "PYQ_MODIFIED" | "AI_NEW" (and backward compat "PYQ_EXACT")
     const VALID_SOURCE_TYPES = new Set(["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
-    const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim() : undefined;
+    const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim().toUpperCase() : (raw.meta?.sourceType ? String(raw.meta.sourceType).trim().toUpperCase() : undefined);
     const sourceType = rawSourceType && VALID_SOURCE_TYPES.has(rawSourceType)
       ? (rawSourceType === "PYQ_EXACT" ? "PYQ" : (rawSourceType as "PYQ" | "PYQ_MODIFIED" | "AI_NEW"))
       : undefined;
 
     // sourceQuestionId must be a positive integer and only belongs to PYQ questions
-    const rawSourceId = raw.sourceQuestionId ?? raw.id;
+    const rawSourceId = raw.sourceQuestionId ?? raw.meta?.sourceQuestionId ?? raw.id;
     const isPyqSource = sourceType === "PYQ" || sourceType === "PYQ_MODIFIED";
     const sourceQuestionId =
       isPyqSource && typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
@@ -342,26 +374,41 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
           : undefined;
 
     // exam: only attach if it came from a PYQ (never for AI_NEW) and not null/fake
-    const rawExam = raw.exam != null ? String(raw.exam).trim() : undefined;
-    const isFake = !rawExam || rawExam.toLowerCase() === "null" || rawExam.toLowerCase() === "unknown" || rawExam.toLowerCase() === "unknown exam" || rawExam.toLowerCase() === "practice exam" || rawExam.toLowerCase() === "mock exam";
-    const examVerified = rawExam && isPyqSource && !isFake ? rawExam : undefined;
+    const rawExam = raw.exam ?? raw.meta?.exam;
+    const cleanExamStr = rawExam != null ? String(rawExam).trim() : undefined;
+    const isFake = !cleanExamStr || isFakeExam(cleanExamStr);
+    const examVerified = cleanExamStr && isPyqSource && !isFake ? cleanExamStr : undefined;
 
-    if (sourceType || sourceQuestionId !== undefined || examVerified) {
-      meta = {
-        ...(meta || {}),
-        ...(sourceType ? { sourceType } : {}),
-        ...(sourceQuestionId !== undefined ? { sourceQuestionId } : {}),
-        ...(examVerified ? { exam: examVerified } : {}),
-      };
+    // year: numeric year between 1900 and 2100
+    const rawYear = raw.year ?? raw.meta?.year;
+    let yearVerified: number | undefined = undefined;
+    if (typeof rawYear === "number" && Number.isInteger(rawYear) && rawYear >= 1900 && rawYear <= 2100) {
+      yearVerified = rawYear;
+    } else if (typeof rawYear === "string" && /^\d{4}$/.test(rawYear.trim())) {
+      const parsedY = parseInt(rawYear.trim(), 10);
+      if (parsedY >= 1900 && parsedY <= 2100) {
+        yearVerified = parsedY;
+      }
     }
 
+    // Preserve existing meta fields if present
+    const incomingMeta = typeof raw.meta === "object" && raw.meta !== null ? { ...raw.meta } : {};
+    meta = {
+      ...incomingMeta,
+      ...(meta || {}),
+      ...(sourceType ? { sourceType } : {}),
+      ...(sourceQuestionId !== undefined ? { sourceQuestionId } : {}),
+      ...(examVerified ? { exam: examVerified } : {}),
+      ...(yearVerified !== undefined ? { year: yearVerified } : {}),
+    };
+
     // ── Reference field: human-readable attribution ──────────────────────────
-    const explicitReference = raw.reference ? String(raw.reference).trim() : undefined;
+    const explicitReference = raw.reference ? String(raw.reference).trim() : (raw.meta?.reference ? String(raw.meta.reference).trim() : undefined);
     let computedReference: string | undefined = explicitReference;
 
     if (!computedReference && sourceType) {
       if (examVerified) {
-        computedReference = `📌 ${sourceType} — ${examVerified}`;
+        computedReference = `📌 ${sourceType} — ${examVerified}${yearVerified ? ` (${yearVerified})` : ""}`;
       } else if (sourceType !== "AI_NEW") {
         computedReference = `📌 ${sourceType}`;
       }
@@ -677,3 +724,176 @@ export function validateBatchQuality(questions: QuestionInput[]): {
   const hasErrors = issues.some((i) => i.severity === "error");
   return { isValid: !hasErrors, issues };
 }
+
+export interface BatchChecklist {
+  exact20: boolean;
+  validStructure: boolean;
+  uniqueOptions: boolean;
+  validAnswers: boolean;
+  explanationsPresent: boolean;
+  noDuplicateQuestions: boolean;
+  noDuplicateSourceIds: boolean;
+}
+
+export interface BatchValidationResult {
+  total: number;
+  isExact20: boolean;
+  isValid: boolean;
+  checklist: BatchChecklist;
+  errors: string[];
+  warnings: string[];
+  sourceQuestionIds: number[];
+}
+
+export function validateImportBatch(questions: QuestionInput[]): BatchValidationResult {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const sourceQuestionIds: number[] = [];
+
+  const isExact20 = questions.length === 20;
+  if (!isExact20) {
+    errors.push(`20 प्रश्न आवश्यक हैं। अभी ${questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`);
+  }
+
+  let validStructure = true;
+  let uniqueOptions = true;
+  let validAnswers = true;
+  let explanationsPresent = true;
+  let noDuplicateQuestions = true;
+  let noDuplicateSourceIds = true;
+
+  const seenQuestionTexts = new Map<string, number>();
+  const seenSourceIds = new Map<number, number>();
+
+  for (let i = 0; i < questions.length; i++) {
+    const q = questions[i];
+    const qNum = i + 1;
+
+    // 1. Text check
+    const rawQuestionText = String(q.questionText ?? (q as any).q ?? "").trim();
+    if (!rawQuestionText) {
+      validStructure = false;
+      errors.push(`प्रश्न #${qNum}: प्रश्न का विवरण खाली है।`);
+    }
+
+    // 2. Options check
+    const qOptions = q.options ?? (q as any).o;
+    const optCount = Array.isArray(qOptions) ? qOptions.length : 0;
+    const qType = String(q.type ?? (q as any).t ?? "mcq").toLowerCase().trim();
+    const expectedOpts = qType === "true_false" ? 2 : 4;
+    if (optCount !== expectedOpts) {
+      validStructure = false;
+      errors.push(`प्रश्न #${qNum}: ठीक ${expectedOpts} विकल्प होने चाहिए, ${optCount} मिले।`);
+    }
+
+    if (Array.isArray(qOptions) && qOptions.length > 0) {
+      const optTexts = new Set<string>();
+      let hasEmpty = false;
+      let hasDup = false;
+      for (const opt of qOptions) {
+        const text = (typeof opt === "string" ? opt : opt?.text ?? "").trim();
+        if (!text) hasEmpty = true;
+        const lower = text.toLowerCase();
+        if (optTexts.has(lower)) hasDup = true;
+        optTexts.add(lower);
+      }
+      if (hasEmpty) {
+        validStructure = false;
+        errors.push(`प्रश्न #${qNum}: विकल्प खाली नहीं हो सकता।`);
+      }
+      if (hasDup) {
+        uniqueOptions = false;
+        errors.push(`प्रश्न #${qNum}: विकल्पों में दोहराव (duplicate options) है।`);
+      }
+    }
+
+    // 3. Answer check
+    const rawAns = q.correctAnswer !== undefined ? q.correctAnswer : (q as any).a !== undefined ? (q as any).a : (q as any).answer;
+    if (typeof rawAns === "number") {
+      if (!Number.isInteger(rawAns) || rawAns < 0 || rawAns >= expectedOpts) {
+        validAnswers = false;
+        errors.push(`प्रश्न #${qNum}: सही उत्तर सूचकांक अमान्य है (${rawAns})।`);
+      }
+    } else if (typeof rawAns === "string") {
+      const validIds = Array.isArray(qOptions) && typeof qOptions[0] === "object"
+        ? qOptions.map((o: any) => o.id)
+        : ["opt1", "opt2", "opt3", "opt4", "A", "B", "C", "D", "0", "1", "2", "3"];
+      if (!validIds.includes(rawAns)) {
+        validAnswers = false;
+        errors.push(`प्रश्न #${qNum}: सही उत्तर (${rawAns}) विकल्पों में मान्य नहीं है।`);
+      }
+    } else if (Array.isArray(rawAns)) {
+      if (rawAns.length === 0) {
+        validAnswers = false;
+        errors.push(`प्रश्न #${qNum}: सही उत्तर अनुपलब्ध है।`);
+      }
+    }
+
+    // 4. Explanation check
+    const explanation = String(q.explanation ?? (q as any).e ?? "").trim();
+    if (!explanation) {
+      explanationsPresent = false;
+      errors.push(`प्रश्न #${qNum}: व्याख्या (explanation) अनिवार्य है।`);
+    }
+
+    // 5. Batch duplicate question check
+    const normText = rawQuestionText.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").replace(/\s+/g, " ");
+    if (normText) {
+      if (seenQuestionTexts.has(normText)) {
+        noDuplicateQuestions = false;
+        errors.push(`प्रश्न #${qNum}: प्रश्न #${seenQuestionTexts.get(normText)! + 1} का दोहराव (duplicate question) है।`);
+      } else {
+        seenQuestionTexts.set(normText, i);
+      }
+    }
+
+    // 6. SourceQuestionId provenance check
+    const sid = q.meta?.sourceQuestionId;
+    const st = q.meta?.sourceType;
+    if (st === "PYQ" || st === "PYQ_MODIFIED" || sid !== undefined) {
+      if (typeof sid === "number" && Number.isInteger(sid) && sid > 0) {
+        if (seenSourceIds.has(sid)) {
+          noDuplicateSourceIds = false;
+          errors.push(`Duplicate sourceQuestionId: ${sid} (प्रश्न #${seenSourceIds.get(sid)! + 1} एवं #${qNum})।`);
+        } else {
+          seenSourceIds.set(sid, i);
+          sourceQuestionIds.push(sid);
+        }
+      } else if (st === "PYQ") {
+        errors.push(`प्रश्न #${qNum}: PYQ के लिए मान्य sourceQuestionId आवश्यक है।`);
+      }
+    } else if (st === "AI_NEW") {
+      if (sid !== undefined && sid !== null) {
+        errors.push(`प्रश्न #${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`);
+      }
+    }
+  }
+
+  const isValid = isExact20 &&
+    validStructure &&
+    uniqueOptions &&
+    validAnswers &&
+    explanationsPresent &&
+    noDuplicateQuestions &&
+    noDuplicateSourceIds &&
+    errors.length === 0;
+
+  return {
+    total: questions.length,
+    isExact20,
+    isValid,
+    checklist: {
+      exact20: isExact20,
+      validStructure,
+      uniqueOptions,
+      validAnswers,
+      explanationsPresent,
+      noDuplicateQuestions,
+      noDuplicateSourceIds,
+    },
+    errors,
+    warnings,
+    sourceQuestionIds,
+  };
+}
+

@@ -171,6 +171,30 @@ export const remove = mutation({
   },
 });
 
+export const checkExistingProvenance = query({
+  args: {
+    sourceQuestionIds: v.array(v.number()),
+  },
+  handler: async (ctx, args) => {
+    await requireAdmin(ctx);
+    if (!args.sourceQuestionIds || args.sourceQuestionIds.length === 0) {
+      return { existingSourceIds: [] };
+    }
+    const requested = new Set(args.sourceQuestionIds);
+    const existingQuestions = await ctx.db.query("questions").collect();
+    const existingFound: number[] = [];
+    for (const eq of existingQuestions) {
+      const sid = eq.meta?.sourceQuestionId as number | undefined;
+      if (typeof sid === "number" && requested.has(sid)) {
+        if (!existingFound.includes(sid)) {
+          existingFound.push(sid);
+        }
+      }
+    }
+    return { existingSourceIds: existingFound };
+  },
+});
+
 export const importTestSet = mutation({
   args: {
     topicId: v.id("topics"),
@@ -182,12 +206,52 @@ export const importTestSet = mutation({
     await requireAdmin(ctx);
     const topic = await ctx.db.get(args.topicId);
     if (!topic) throw new Error("Topic not found");
-    if (args.questions.length === 0) throw new Error("No questions to import");
-    if (args.questions.length > 20) throw new Error("A set cannot contain more than 20 questions.");
 
-    // Verify against every question already stored in Convex. The source ZIP is external,
-    // so the database is the durable record of what has already been imported.
+    // Enforce strictly 20 questions for standard set import
+    if (args.questions.length !== 20) {
+      throw new Error(`20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`);
+    }
+
+    // Verify against every question already stored in Convex. The database is the durable record.
     const existingQuestions = await ctx.db.query("questions").collect();
+
+    // 1. Check PYQ provenance & sourceQuestionId uniqueness against existing database
+    const existingPyqSourceIds = new Map<number, string>();
+    for (const eq of existingQuestions) {
+      const st = eq.meta?.sourceType as string | undefined;
+      const sid = eq.meta?.sourceQuestionId as number | undefined;
+      if (typeof sid === "number" && (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED" || !st)) {
+        existingPyqSourceIds.set(sid, eq.questionText);
+      }
+    }
+
+    const incomingPyqSourceIds = new Set<number>();
+    for (let i = 0; i < args.questions.length; i++) {
+      const q = args.questions[i];
+      const qNum = i + 1;
+      const st = (q.meta?.sourceType as string | undefined) ?? (q as any).sourceType;
+      const sid = (q.meta?.sourceQuestionId as number | undefined) ?? (q as any).sourceQuestionId;
+
+      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED" || sid !== undefined) {
+        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
+          throw new Error(`प्रश्न ${qNum}: PYQ के लिए मान्य सकारात्मक पूर्णांक sourceQuestionId आवश्यक है।`);
+        }
+        if (incomingPyqSourceIds.has(sid)) {
+          throw new Error(`Duplicate sourceQuestionId: ${sid} inside this set (प्रश्न ${qNum})।`);
+        }
+        incomingPyqSourceIds.add(sid);
+
+        if (existingPyqSourceIds.has(sid)) {
+          throw new Error(`यह PYQ पहले से Quizzer में imported है (sourceQuestionId: ${sid}, प्रश्न ${qNum})।`);
+        }
+      } else if (st === "AI_NEW") {
+        if (sid !== undefined && sid !== null) {
+          throw new Error(`प्रश्न ${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`);
+        }
+      }
+    }
+
+    // 2. Check question text duplicates
     const incoming = args.questions.map((q) => ({
       ...q,
       normalized: normalizeForDuplicateCheck(q.questionText),
@@ -207,8 +271,8 @@ export const importTestSet = mutation({
         if (current.normalized === existingNormalized) {
           throw new Error(`Duplicate question detected: question ${i + 1} already exists in an imported set.`);
         }
-        // High token overlap catches obvious paraphrases while avoiding aggressive fuzzy matching.
-        if (current.normalized.length >= 45 && existingNormalized.length >= 45 && tokenSimilarity(current.normalized, existingNormalized) >= 0.94) {
+        // Avoid aggressive fuzzy matching: only flag near-identical paraphrases for long questions
+        if (current.normalized.length >= 50 && existingNormalized.length >= 50 && tokenSimilarity(current.normalized, existingNormalized) >= 0.96) {
           throw new Error(`Possible repeated question detected: question ${i + 1} is too similar to an existing imported question.`);
         }
       }

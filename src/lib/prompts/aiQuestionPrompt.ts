@@ -183,24 +183,20 @@ deduplication, return fewer. Never manufacture a replacement.
 2. PYQ IDENTITY / SOURCE PRESERVATION
 ==================================================
 
-For every retained question, preserve its original identity.
+For every retained question, preserve its original identity and provenance.
 
 If the input contains:
-- id
-- sourceQuestionId
+- sourceQuestionId (or id)
+- sourceType (e.g. "PYQ")
 - exam
 - year
 - reference
-- sourceType
 
-use those values only as internal identity/reference while auditing.
+you MUST PRESERVE these fields in the returned question object whenever present in the input.
 
 Do not change the factual identity of a PYQ.
-
-Do not silently convert a PYQ into an "original" question.
-
-The final Quizzer output format is intentionally minimal, so source
-metadata must NOT be added as extra JSON fields.
+Do not silently convert a PYQ into an "original" or AI question.
+Do not fabricate missing source information. If an existing question lacks an exam or year, do not invent them.
 
 ==================================================
 3. INDIVIDUAL QUESTION AUDIT
@@ -573,7 +569,7 @@ The last character of your response MUST be:
 
 ]
 
-Each question MUST use exactly this structure:
+Each question MUST use this structure:
 
 [
   {
@@ -586,36 +582,46 @@ Each question MUST use exactly this structure:
     ],
     "a": 0,
     "e": "संक्षिप्त एवं प्रमाणिक व्याख्या",
-    "t": "mcq"
+    "t": "mcq",
+    "sourceType": "PYQ",
+    "sourceQuestionId": 13540,
+    "exam": "RPSC Sub Inspector",
+    "year": 2021,
+    "reference": "RPSC Sub Inspector 13/09/2021"
   }
 ]
 
 Field definitions:
 
 q = question text
-o = exactly 4 substantive options
+o = exactly 4 substantive options (or 2 for true_false)
 a = correct option zero-based index: 0, 1, 2 or 3
-e = concise explanation
+e = concise and factually verified explanation
 t = question type
 
-Allowed t values:
-"mcq"
-"assertion"
-"true_false"
-"match"
+Allowed t values (match the source structure):
+"mcq"               → Standard 4-option MCQ
+"assertion_reason"  → Assertion-Reason question
+"statement_reason"  → Statement-Reason question
+"match_following"   → Match the following
+"match"             → Match question
+"assertion"         → Assertion question
+"sequence"          → Chronological / logical sequence
+"table"             → Table-based question
+"true_false"        → True / False question
 
-For difficulty, do NOT add a new field unless the current importer
-explicitly supports it. The safe import format is q/o/a/e/t.
+Provenance fields (MUST be preserved when present in the input):
+- sourceType: "PYQ"
+- sourceQuestionId: original positive integer ID
+- exam: original exam name
+- year: original exam year
+- reference: original reference string
 
-DO NOT add:
-"id"
-"sourceQuestionId"
-"exam"
-"year"
-"reference"
-"sourceType"
-"meta"
-or any other field to the final JSON.
+CRITICAL RULES:
+- Preserve genuine sourceQuestionId, sourceType, exam, year, and reference whenever present in the input.
+- If source metadata is missing in the input, do NOT invent or manufacture fake metadata.
+- AI_NEW questions must NOT have sourceQuestionId or exam.
+- DO NOT wrap the output in an outer object, deliveryState, comments, markdown fences or conversational text.
 
 ==================================================
 19. JSON VALIDATION BEFORE RESPONSE
