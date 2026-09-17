@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की नदियाँ एवं जल संसाधन",
+  "batchIndex": 16,
+  "batchName": "राजस्थान की नदियाँ एवं जल संसाधन भाग 16",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-नदियाँ-एवं-जल-संसाधन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों में से राजस्थान में कोन सी रुंडित सरिता’ कहलाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाकल"
+        },
+        {
+          "id": "opt2",
+          "text": "खारी"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोठारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाणगंगा नदी को राजस्थान की रुंडित सरिता कहा जाता है। इसकी लंबाई ३८० किमी. है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4007,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केन्द्रीय भूजल बोर्ड की रिपोर्ट २०११ के अनुसार राजस्थान में सुरक्षित जल भंडार वाले विकास खण्डों की संख्या है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "30"
+        },
+        {
+          "id": "opt3",
+          "text": "35"
+        },
+        {
+          "id": "opt4",
+          "text": "40"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "केन्द्रीय भूजल बोर्ड की रिपोर्ट २०११ के अनुसार राजस्थान में सुरक्षित जल भंडार वाले ३० विकास खंड हैं। ये ३० विकास खंड भूजल के संदर्भ में सुरक्षित है। 418",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4009,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नदी को ‘दक्षिण की गंगा के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृष्णा"
+        },
+        {
+          "id": "opt2",
+          "text": "गोदावरी"
+        },
+        {
+          "id": "opt3",
+          "text": "महानदी"
+        },
+        {
+          "id": "opt4",
+          "text": "परियार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गोदावरी नदी को ‘दक्षिण की गंगा’ के नाम से जाना जाता है। यह प्रायद्वीपीय भारत की सबसे लम्बी नदी है। इसकी लम्बाई १४६५ किमी. है। यह पश्चिमी घाट ने त्रयंबक पहाड़ी से निकलती है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18918,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गंगा की सहायक नदी नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोमती"
+        },
+        {
+          "id": "opt2",
+          "text": "मानस"
+        },
+        {
+          "id": "opt3",
+          "text": "घाधरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सोन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मानस नदी ब्रह्मपुत्र नदी, की सहायक है न कि गंगा नदी की। गोमती, घाघरा और सोन गंगा नदी की सहायक नदी है। 322",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18919,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए: नदी उद्गम स्थल A. साबी i. सेवर पहाड़ियाँ B. काकनी ii. बैराठ पहाड़ियाँ C.बाणगंगा iii. खण्डेला पहाड़ियाँ D. कांतली iv. कोटड़ी गाँव Codes: कूट: a b c d",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 2 3 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1 4 2 3"
+        },
+        {
+          "id": "opt3",
+          "text": "4 1 2 3"
+        },
+        {
+          "id": "opt4",
+          "text": "3 2 4 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है- साबी - सेवर पहाड़ियां काकनी - कोट्डी गांव बाणगंगा - बैराठ पहाड़ियां कांतली - खण्डेला पहाड़ियां",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18921,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा सुमेलित नहीं है? नदी सहायक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही – जाखम"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी – सूकड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास – मेज"
+        },
+        {
+          "id": "opt4",
+          "text": "चंबल – पार्वती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन इस प्रकार है- माही - जाखम लूनी - सूकड़ी बनास - बेड़च चंबल - पार्वती",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18923,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विन्ध्यन कगार भूमि जिन नदियों के मध्य स्थित है, वह हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाणगंगा व बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीसिंध व चंबल"
+        },
+        {
+          "id": "opt3",
+          "text": "बेड़च व बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "चंबल व बनास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "विंध्यन कगार भूमि कालीसिंध और चंबल नदी के मध्य स्थित है।.",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18924,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सही युग्म नहीं है? नदी सहायक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालीसिंध – निवाज"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास – सागी"
+        },
+        {
+          "id": "opt3",
+          "text": "माही – चाप"
+        },
+        {
+          "id": "opt4",
+          "text": "साबरमती – वाकल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है- नदी सहायक नदी कालीसिंध - निवाज बनास - बेड़च माही - चाप साबरमती - वाकल",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18926,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय वर्षा सिंचित क्षेत्र प्राधिकरण स्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हैदराबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "पूना"
+        },
+        {
+          "id": "opt3",
+          "text": "लखनऊ"
+        },
+        {
+          "id": "opt4",
+          "text": "दिल्ली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रीय वर्षा सिंचित क्षेत्र प्राधिकरण ३ नवंबर, २००६ को गठित किया गया। यह कृषि एवं किसान कल्याण विभाग के अधीन कार्यरत है। इसका मुख्यालय नई दिल्ली में स्थित है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18927,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की किस नदी को ‘मृत नदी’ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाई"
+        },
+        {
+          "id": "opt2",
+          "text": "मोरेल"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt4",
+          "text": "घग्घर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "घग्घर नदी को सरस्वती, दृषद्धती, मृतनदी, नट नदी कहा जाता है। घग्घर नदी उद्गम हिमाचल प्रदेश में कालका के निकट शिवालिका की पहाड़ियों से होता है। यह नदी पंजाब व हरियाणा में बहकर हनुमानगढ़ जिले के टिब्बी नामक स्थान पर प्रवेश करती है और भटनेर दुर्ग के पास जाकर समाप्त हो जाती है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4013,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान में राजस्थान में जल की कौ-सी समस्या चिन्ताजनक बनती जा रही है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल का अति-विदोहन"
+        },
+        {
+          "id": "opt2",
+          "text": "जल का बढ़ता प्रदूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "जल की बढ़ती लवणता"
+        },
+        {
+          "id": "opt4",
+          "text": "अन्ध और धूसर क्षेत्रों की बढ़ती संख्या"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में अन्ध एवं धूसर (dark and grey) क्षेत्रों की बढ़ती हुई संख्या चिन्ताजनक है।",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4015,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इंदिरा गांधी नहर परियोजना भारत की सबसे बड़ी नहर परियोजना है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसमें आठ लिफ्ट नहरें हैं जिससे विभिन्न जिलों में पानी दिया जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसमें 204 किमी लम्बी फीडर नहर है।"
+        },
+        {
+          "id": "opt4",
+          "text": "यह पॉंग बांध से प्रारम्भ होती है जो सतलज और ब्यास नदी के संगम पर स्थित है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "इस नहर का उद्गम पंजाब में फिरोजपुर के निकट सतलज-व्यास नदियों के संगम पर बने हरिके बैराज से है। IGNP के दो भाग हैं। प्रथम भाग राजस्थान फीडर कहलाता है इसकी लम्बाई 204 कि.मी.(170 कि.मी. पंजाब व हरियाणा + 34 कि.मी. राजस्थान) है। जो हरिकै बैराज से हनुमानगढ़ के मसीतावाली हैड तक विस्तारित है।",
+      "reference": "📌 PYQ — Reet 2015 level-2 SST",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4016,
+        "exam": "Reet 2015 level-2 SST",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की किस नदी को ‘मृत नदी’ कहा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाई"
+        },
+        {
+          "id": "opt2",
+          "text": "मोरेल"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt4",
+          "text": "घग्गर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उपरोक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4017,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर बेसिन की चारो ओर की पहाड़ियाँ कहलाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिर्वा"
+        },
+        {
+          "id": "opt2",
+          "text": "नाकोडा"
+        },
+        {
+          "id": "opt3",
+          "text": "भाकर"
+        },
+        {
+          "id": "opt4",
+          "text": "मुकुंदरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उदयपुर बेसिन के चारो ओर की पहाड़ियों को गिर्वा कहते है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4018,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य में किस नदी का अपवाह क्षेत्र न्यूनतम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt2",
+          "text": "माही"
+        },
+        {
+          "id": "opt3",
+          "text": "वाकल"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी बनास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान राज्य में वाकल नदी का अपवाह क्षेत्र (१५८ किमी.) न्यूनतम है। यह साबरमती नदी की सहायिका है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4019,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के मरुस्थल में अति-उच्च दैनिक एवं वार्षिक तापान्तर हेतु उत्तरदायी सर्वप्रमुख कारण निम्नलिखित में से कौनसा हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मानसुन ऋतु में उच्च आर्द्रता"
+        },
+        {
+          "id": "opt2",
+          "text": "शुष्क ऋतु में अतिन्यून आर्द्रता"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्ष भर उच्च शुष्कता दशाएं"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के मरूस्थल में अति उच्च दैनिक एवं वार्षिक तापान्तर हेतु उत्तरदायी सर्वप्रमुख कारण शुष्क ऋतु में अति-न्यून आर्द्रता है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4020,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मरुस्थल विकास कार्यक्रम वर्ष में प्रारम्भ किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1991-92"
+        },
+        {
+          "id": "opt2",
+          "text": "1974-75"
+        },
+        {
+          "id": "opt3",
+          "text": "1984-85"
+        },
+        {
+          "id": "opt4",
+          "text": "1977-78"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में मरूस्थल विकास कार्यक्रम वर्ष १९७७-७८ में शुरू किया गया।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4021,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी राजस्थान के मरुस्थल की मुख्य विशेषताएँ है।(A) अतिशुष्क दशाएं(B) तापमान का अतिरेक(C) न्यून औसत वार्षिक वर्षा(D) कम तथा छितरा हुआ वनस्पति आवरण",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B एवं D"
+        },
+        {
+          "id": "opt2",
+          "text": "A, C, एवं D"
+        },
+        {
+          "id": "opt3",
+          "text": "A, B एवं C"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C एवं D"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के मरूस्थल की निम्न विशेषताएँ है। अतिशुष्क दशाएँ, तापमान का अतिरेक, न्यून औसत वार्षिक वर्षा, कम तथा छितरा हुआ वानस्पतिक आवरण।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4022,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न वक्तव्यों पर विचार कर सही उत्तर का चयन कीजिए– कथन(A): हिमालय से निकलने वाली नदियाँ सतत वाहिनी हैं। कारण(R): हिमालयन नदियों का उद्गम स्रोत हिमानियों में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)और(R)दोनों सही हैं और(R), (Aकी पुष्टि करता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)और(R)दोनों सही हैं परन्तु(R), (A)की पुष्टि नहीं करता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)सही है और(R)गलत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)गलत है और(R)सही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हिमालय से निकलने वाली नदियाँ सतत् वाहिनी हैं क्योंकि हिमालयन नदियों का उद्गम स्रोत हिमानियों में स्थित है। अत: कथन तथा कारण दोनों सही है और कारण, कथन की सही व्याख्या भी करता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18928,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी नदी बंगाल की खाड़ी के नदी तंत्र का भाग नहीं हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "गंभीरी"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी बनास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पश्चिमी बनास अरावली पर्वतमाला के दक्षिणी भाग सिरोही जिले से निकलकर कच्छ के रण में लुप्त हो जाती है। बनास चंबक की, चम्बल यमुना की गंभीरी शिप्रा नदी की, शिप्रा चंबल की सहायक नदी है। इस प्रकार ये नदियाँ बंगाल की खाड़ी में यमुना नदी में विलीन होकर गिरती है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18929,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    }
+  ]
+}

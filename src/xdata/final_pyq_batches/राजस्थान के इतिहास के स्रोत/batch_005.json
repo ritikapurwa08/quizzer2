@@ -1,0 +1,656 @@
+{
+  "masterTopic": "राजस्थान के इतिहास के स्रोत",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के इतिहास के स्रोत भाग 5",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-इतिहास-के-स्रोत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बड़ली का शिलालेख, जो कि अशोक काल से पूर्व का माना जाता है, कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8019,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (अभिलेख / शिलालेख - जिला / स्थान) सुमेलित नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बसन्तगढ़-सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "मानमोरी- चित्तौड़"
+        },
+        {
+          "id": "opt3",
+          "text": "घटियाल-जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "चीरवा - उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8020,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म (मुद्राएँ -रियासत) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अखैशाही - जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "झाड़शाही - जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "विजयशाही - बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गजशाही - जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8021,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मारवाड़ रा परगना री विगत’ का लेखक ________ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दयाल दास"
+        },
+        {
+          "id": "opt2",
+          "text": "चारण शिवदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मुहणोत नैणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मनाथ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8022,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजप्रशस्ति’ का रचनाकार कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सदाशिव भट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "बाण भट्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "गदाधर भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "रणछोड़ भट्ट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8023,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन ‘वंश भास्कर’ का लेखक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "श्यामलदास"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज राठौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "दादू दयाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8024,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘घोसुण्डी शिलालेख’ निम्न में से किस लिपि में लिखा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर्मेनियन"
+        },
+        {
+          "id": "opt2",
+          "text": "भाब्रू"
+        },
+        {
+          "id": "opt3",
+          "text": "देवनागरी"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्राह्मी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "घोसुंडी शिलालेख संस्कृत में लिखा गया है। घोसुंडी का शिलालेख चित्तौड़ के निकट घोसुंडी गांव में प्राप्त हुआ था। इस लेख में प्रयुक्त भाषा संस्कृत और लिपि ब्राह्मी है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8025,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूर्यमल्ल मिश्रण (मीसण) कृत ‘वीर सत्सई’ किस राजपूत राज्य के इतिहास से सरोकार रखता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8026,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "घटियाला प्राकृत अभिलेख किस प्रतिहार शासक से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दद्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "वत्सराज"
+        },
+        {
+          "id": "opt3",
+          "text": "नागभट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "कक्कुका"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8027,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीर विनोद का लेखक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt2",
+          "text": "गौरीशंकर हीराचंद ओझा"
+        },
+        {
+          "id": "opt3",
+          "text": "कविराज श्यामलदास"
+        },
+        {
+          "id": "opt4",
+          "text": "केशरीसिंह बारहठ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8028,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी पुस्तक चौहानों के इतिहास के बारे में जानकारी का स्रोत नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हर्ष चरित"
+        },
+        {
+          "id": "opt2",
+          "text": "सुर्जन चरित्र"
+        },
+        {
+          "id": "opt3",
+          "text": "हम्मीर महाकाव्य"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज विजय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8029,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "घटियाला शिलालेख किस भाषा में लिखा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "फ़ारसी"
+        },
+        {
+          "id": "opt3",
+          "text": "संस्कृत"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8030,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूर्यमल्ल मिश्रण (मीसण), जो राजस्थान की एक रियासत के 19 वीं सदी के दरबारी कवि थे, उन्होंने एक उत्कृष्ट कृति ‘वंश भास्कर’ लिखी, जिसका मुख्य विषय ______ वंश का इतिहास है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परमार"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ा चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "सोलंकी"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिहार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8031,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिए गए विकल्पों में से लेखक और उनके लेखन के साथ सही मिलान की पहचान कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर – केसरी सिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "चेतावनी रा चूंगट्या – मलिक मोहम्मद जायसी"
+        },
+        {
+          "id": "opt3",
+          "text": "वीर विनोद (मेवाड़ का इतिहास) – श्यामल दास"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मावत – सूर्यमल मिश्रण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8032,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कंत घरे किम आविया, तेहां रौ घण त्रास।लहँगे मूझ लुकीजियै, बैरी रौ न विसास॥”उपरोक्त दोहा _____ द्वारा लिखा गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधराज"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "चंद बरदाई"
+        },
+        {
+          "id": "opt4",
+          "text": "दलपत विजय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8033,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए –लेखक(a) जयानक(b) नयनचन्द्र सूरी(c) चन्द्रशेखर(d) हरिभद्र सूरीकृति(i) हम्मीर महाकाव्य(ii) समराइच्चकहा(iii) पृथ्वीराज विजय(iv) सुर्जन चरित्रकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-(i), b-(ii), c-(iii), d-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "a-(iv), b-(iii), c-(ii), d-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "a-(iii), b-(iv), c-(ii), d-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "a-(iii), b-(i), c-(iv), d-(ii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8034,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अभिलेख, जो प्रतिहार शासक कक्कुक की आभीरों पर विजय का दावा करता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीरवा अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "घटियाला अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "अथुणा अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "बीजोलिया अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8035,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मौखरी यूप अभिलेख (238 ई.) निम्न में से कहाँ से प्राप्त हुए हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बरनाला"
+        },
+        {
+          "id": "opt2",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt3",
+          "text": "बड़वा"
+        },
+        {
+          "id": "opt4",
+          "text": "बहली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बड़वा यूप अभिलेख (238-39 ई.), कोटा: बड़वा यूप अभिलेख बड़वा ग्राम कोटा में स्थित है। इसकी भाषा संस्कृत एवं लिपि ब्राह्मी उत्तरी है। मौखरी राजाओं का यह सबसे पुराना और पहला अभिलेख है। यूप एक प्रकार का स्तम्भ है।",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8036,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा युग्म सुमेलित नहीं है -लेखक - ग्रंथ(A) सूर्यमल्ल मीसण - वंशोदय(B) पद्मनाम - कान्हड़देव प्रबन्ध (C) करणीदान - सूरज प्रकाश(D) मण्डन - राजवल्लभ",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "C"
+        },
+        {
+          "id": "opt2",
+          "text": "A"
+        },
+        {
+          "id": "opt3",
+          "text": "D"
+        },
+        {
+          "id": "opt4",
+          "text": "B"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सती रासो, वीर सतसई, वंश भास्कर के लेखक सूर्यमल्ल मिश्रण हैं। वंशोदय सूर्यमल्ल मिश्रण की कृति नहीं है।",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8037,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूर्यमल्ल मीसण द्वारा अपूर्ण छोड़ी कृति ‘वंश भास्कर’ को किसने पूर्ण किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करणीदान"
+        },
+        {
+          "id": "opt2",
+          "text": "मुरारीदान"
+        },
+        {
+          "id": "opt3",
+          "text": "शिवदान"
+        },
+        {
+          "id": "opt4",
+          "text": "वीरमान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चारण कवि सूर्यमल्ल मिश्रण की अपूर्ण कृति “वंश भास्कर” को उनके दत्तक पुत्र मुरारीदान ने पूरा किया था। सूर्यमल्ल मिश्रण, बूंदी के हाड़ा शासक महाराव रामसिंह के दरबारी कवि थे।",
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8038,
+        "exam": "Superintendent Gar. 2021 (GK)",
+        "year": 2021
+      }
+    }
+  ]
+}

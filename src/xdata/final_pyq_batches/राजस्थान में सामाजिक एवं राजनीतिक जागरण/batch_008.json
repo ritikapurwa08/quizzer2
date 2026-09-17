@@ -1,0 +1,669 @@
+{
+  "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
+  "batchIndex": 8,
+  "batchName": "राजस्थान में सामाजिक एवं राजनीतिक जागरण भाग 8",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-सामाजिक-एवं-राजनीतिक-जागरण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस स्थान पर १९१३ का भील विद्रोह हुआ था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "ईड़र"
+        },
+        {
+          "id": "opt3",
+          "text": "मानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुशलगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मानगढ़ भील विद्रोह1913में मानगढ़ की पहाड़ियों में शुरू हुआ था। इस विद्रोह का नेतृत्व गोविन्द गिरी बंजारा ने किया था। इस विद्रोह में बड़ी संख्या में भील आदिवासी शहीद हुए थे। इसलिए इसे मानगढ़ नरसंहार की संज्ञा दी गई थी।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 386,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्वामी गोपालदास जी ने 1907 ई. में हितकारिणी सभा की स्थापना कहाँ की थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चूरू"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सर्व हितकारिणी सभा की स्थापना1907ई. में चुरू में स्वामी गोपाल दास द्वारा की गई थी। इन्होंने जन जागृति लाने में महत्त्वपूर्ण भूमिका निभाई थी।",
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 387,
+        "exam": "RPSC Asst. Agriculture Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म सुमेलित नहीं है? (समाचार पत्र) (प्रकाशन स्थान)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(भारतवीर) – (भरतपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "(प्रभात) – (जयपुर)"
+        },
+        {
+          "id": "opt3",
+          "text": "(आगीवाण) – (अजमेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "(नवजीवन) – (अजमेर)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन इस प्रकार है – समाचार पत्र प्रकाशन स्थान भारतवीर – भरतपुर प्रभात – जयपुर आगीवाण – ब्यावर नवजीवन – अजमेर",
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 389,
+        "exam": "RPSC Asst. Testing Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1734 ई. में आहूत हुरड़ा सम्मेलन की अध्यक्षता की-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जोरावर सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्जन साल"
+        },
+        {
+          "id": "opt4",
+          "text": "जगत सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "17 जुलाई, 1734 में आयोजित हुरडा (हुरदा) सम्मेलन जयपुर के सवाई जय सिंह के आयोजन में मराठा के खिलाफ सभा के लिए प्रथमत: नियुक्त अध्यक्ष संग्राम सिंह द्वितीय की मृत्यु के कारण जगत सिंह द्वितीय की अध्यक्षता में आयोजित किया गया था। आपसी मनमुटावों के चलते यह सम्मेलन असफल रहा। इसका उद्देश्य मराठों के विरूद्ध एक राजपूत संघ बनाने का था।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 14/09/2021",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 390,
+        "exam": "RPSC Sub Inspector 14/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस नेता को पहचानिए जो जयपुर प्रजामण्डल में सक्रिय नहीं था–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामकरण जोशी"
+        },
+        {
+          "id": "opt2",
+          "text": "दौलत मल भण्डारी"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रयागराज भण्डारी"
+        },
+        {
+          "id": "opt4",
+          "text": "देवीशंकर तिवारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर प्रजामण्डल में रामकरन जोशी, देवीशंकर तिवारी, दौलत मल भंडारी सक्रिय सदस्यता नेता थे। प्रयागराज भंडारी और दुर्गाशंकर मारवाड़ सेवा संघ के संस्थापक थे। जयपुर प्रजामण्डल की स्थापना1931में अर्जुन लाल सेठी और कपूर चंद पाटनी द्वारा की गई थी।1936 में जमनालाल बजाज और हीरालाल शास्त्री के प्रयासों से चिरंजीलाल मिश्रा की अध्यक्षता में यह पुर्नस्थापित किया गया।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 392,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "समाचार पत्र ‘म़जहरूल सरूर’ कहाँ से और कब प्रकाशित हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर, 1849"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, 1856"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, 1840"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर, 1879"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "समाचार पत्र ‘मजहरूल सरूर’ भरतपुर से1849ई. में प्रकाशित हुआ था। यह राजस्थान राज्य का प्रथम समाचार पत्र था। यह दो भाषाओं हिन्दी और उर्दू में प्रकाशित होता था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 393,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कहाँ, ‘वैदिक यंत्रालय’ छापाखाना स्थापित किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘वैदिक यंत्रालय’ छापाखाना(प्रिंटिंग प्रेस)राजस्थान के अजमेर में स्थापित किया गया था। इसकी स्थापना1880ई. में मर्हिष दयानंद सरस्वती ने की थी। आजादी से पहले यहाँ से आर्य समाज से जुड़े कई महत्वपूर्ण पत्रों को निकाला जाता था। इस छापाखाने ने आर्य समाज के संदेशों और विचारों को समाज तक पहुँचाने में अमूल्य योगदान दिया।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 394,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1977 के लोकसभा के साधारण निर्वाचक में सबसे अधिक स्थान(सीटें)हासिल करने वाला राजनीतिक दल था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारतीय जनता पार्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "जनता पार्टी"
+        },
+        {
+          "id": "opt3",
+          "text": "भारतीय जनसंघ"
+        },
+        {
+          "id": "opt4",
+          "text": "भारतीय लोक दल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष1977के लोकसभा के साधारण निर्वाचक में सबसे अधिक सीटें जनता पार्टी ने प्राप्त किया था। इस लोकसभा चुनाव में जनता पार्टी ने295सीट प्राप्त किया। इसी चुनाव में भारतीय राष्ट्रीय कांग्रेस ने154सीट, कम्युनिस्ट पार्टी ने22सीट तथा ए आई डी एम के को18सीट प्राप्त हुई थी। 529",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18734,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ में 1881 का भील विद्रोह कहाँ से शुरू हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेरवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बारापाल"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटडा"
+        },
+        {
+          "id": "opt4",
+          "text": "रिखबदेव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1872 से 1875 के बीच बांसवाड़ा में भील विद्रोह की कई घटनाएं हुईं। 1881 – 1882 में उदयपुर राज्य के भीलों ने अंग्रेजों और उदयपुर राज्य के खिलाफ विद्रोह किया, जो 19वीं सदी का सबसे भीषण भील विद्रोह साबित हुआ। 26 मार्च, 1881 को राज्य प्रतिनिधि मामा अमनसिंह और ब्रिटिश प्रतिनिधि लोनारगन के नेतृत्व में सेना बारापाल पहुंची और 27 मार्च को सैकड़ों भील झोपड़ियों को जलाकर राख कर दिया।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 398,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्वतंत्रता सेनानी विजय सिंह पथिक का वास्तविक नाम क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूप सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "भूप सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "हमीर सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अनूप सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 403,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बृहत राजस्थान का ‘राज प्रमुख’ किसे नियुक्त किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा हनुमंतसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा लक्ष्मणसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराव भीमसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा सवाई मानसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बृहत राजस्थान का गठन 30 मार्च 1949 को हुआ था, जिसमें जयपुर, बीकानेर, जोधपुर, जैसलमेर, और अन्य रियासतें शामिल थीं। महाराजा सवाई मानसिंह (जयपुर) को इसका राजप्रमुख नियुक्त किया गया था, जबकि उदयपुर के महाराणा भूपालसिंह को महाराज प्रमुख बनाया गया था।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 406,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का शाही राज्य जिसे हम आज देखते हैं, _____चरणों में बना था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चार"
+        },
+        {
+          "id": "opt2",
+          "text": "सात"
+        },
+        {
+          "id": "opt3",
+          "text": "छह"
+        },
+        {
+          "id": "opt4",
+          "text": "तीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 410,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान यूनियन’ का भाग कौन सा नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 414,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में ‘आजाद मोर्चा’ का गठन किसके नेतृत्व में हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाबा हरिशचन्द्र"
+        },
+        {
+          "id": "opt2",
+          "text": "भंवरलाल सर्राफ"
+        },
+        {
+          "id": "opt3",
+          "text": "फतह करण चारण"
+        },
+        {
+          "id": "opt4",
+          "text": "मगनलाल बीलू"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 416,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीमूचाणा घटना कब घटित हुई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25मई, 1925"
+        },
+        {
+          "id": "opt2",
+          "text": "14मई, 1925"
+        },
+        {
+          "id": "opt3",
+          "text": "13मार्च, 1947"
+        },
+        {
+          "id": "opt4",
+          "text": "28मार्च, 1947"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नीमूचाणा घटना14मई, 1925को घटित हुई थी। 13मई, 1925को अलवर राज्य की सेना ने नीमूचाणा गाँव को चारो ओर से घेर लिया था और14मई को बिना किसी चेतावनी के गोलाबारी शुरू कर दी गई, पूरा गाँव जला दिया गया था। महात्मा गांधी ने इसे जलियावाला बाग हत्याकाण्ड से भी भयानक कहा था।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020 RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 419,
+        "exam": "RPSC Deputy Commandant 2020 RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अखिल भारतीय देशी राज्य लोक परिषद् का प्रथम अधिवेशन आयोजित हुआ था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "दिल्ली में"
+        },
+        {
+          "id": "opt3",
+          "text": "बॉम्बे में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 420,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन १९३८ में भरतपुर में स्थापित प्रजामण्डल के अध्यक्ष बनें?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोपीलाल यादव"
+        },
+        {
+          "id": "opt2",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "मास्टर आदित्येन्द्र"
+        },
+        {
+          "id": "opt4",
+          "text": "जुगलकिशोर चतुर्वेदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Yoga & Prakritik Chikista Adhikari 2020",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 421,
+        "exam": "RPSC Yoga & Prakritik Chikista Adhikari 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘त्याग भूमि’ समाचार-पत्र के सम्पादक कौन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामनारायण चौधरी"
+        },
+        {
+          "id": "opt2",
+          "text": "किशोरिंसह वर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "हरिभाऊ उपाध्याय"
+        },
+        {
+          "id": "opt4",
+          "text": "विजयिंसह पथिक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "त्याग भूमि समाचार के सम्पादक हरिभाऊ उपाध्याय थे। हरिभाऊ उपाध्याय प्रसिद्ध राजनीतिज्ञ थे।1966में उन्हें पद्मभूषण से सम्मानित किया गया। त्याग भूमि एक मासिक हिन्दी समाचार पत्र है।",
+      "reference": "📌 PYQ — RPSC Yoga & Prakritik Chikista Adhikari 2020 RPSC Clerk Gr-II (P-I) 2013",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 422,
+        "exam": "RPSC Yoga & Prakritik Chikista Adhikari 2020 RPSC Clerk Gr-II (P-I) 2013",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1818 की संधि के पश्चात् ब्रिटिश विरोधी भावना रखते हुए जोधपुर के किस महाराजा ने अंतत: संन्यास ले लिया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा छत्रसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा तख्तसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा सूरतसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा मानसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जोधपुर के महाराजा मानसिंह संन्यासी राजा के नाम से जाने जाते थे। शासक बनने के बाद मानसिंह नाथ सम्प्रदाय को मानते थे।6जनवरी, 1818को जोधपुर ने सहायक संधि स्वीकार कर ली थी।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 424,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ प्रजामण्डल का अस्थायी कार्यालय कहाँ स्थापित किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ प्रजामण्डल की स्थापना माणिक्य लाल वर्मा ने 24अप्रैल, 1938को उदयपुर में की गई थी। उदयपुर में ही मेवाड़ प्रजामण्डल का अस्थायी कार्यालय स्थापित किया गया था। इस प्रजामण्डल के प्रथम अध्यक्ष बलवंत सिंह मेहता थे।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 425,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    }
+  ]
+}

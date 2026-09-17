@@ -1,0 +1,658 @@
+{
+  "masterTopic": "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ",
+  "batchIndex": 15,
+  "batchName": "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ भाग 15",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-संत-संप्रदाय-एवं-धार्मिक-परंपराएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "उस स्थान को चिह्नित कीजिए जो किसी भी प्रकार लोक देवता रामदेवजी से संबंधित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रुणेचा"
+        },
+        {
+          "id": "opt2",
+          "text": "पोकरण"
+        },
+        {
+          "id": "opt3",
+          "text": "मसूरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "बनेड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रामदेव जी का जन्म उड्डुकासमेर (शिव तहसील, बाड़मेर) में 1409 वि.स. 1352 ई. भाद्रपद शुक्ल द्वितीया (बाबे री बीज) को हुआ। अजमल तंवर इनके पिता व मेणादे इनकी माता थीं। इनकी शादी अमरकोट के दलैलसिंह की पुत्री निहालदे/नेतलदे से हुई। बालीनाथ रामदेव जी के गुरु थे। बालीनाथ की समाधि मसूरिया पहाड़ी (जोधपुर) पर स्थित है। सातलमेर कस्बे में रामदेवजी ने भैरव राक्षस का वध कर सातलमेर का नाम पोकरण किया तथा पोकरण अपने बहिन सुगणा को दहेज में दिया। भाद्रपद शुक्ल एकादशी, विक्रम संवत 1515 को रामदेवजी ने रुणिचा के रामसरोवर तालाब के किनारे जीवित समाधि ले ली।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5179,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा मंदिर, ‘चूहों का मंदिर’ कहलाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जमवाय माता गाया"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी माता मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "कैला देवी मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "जीण माता मंदिर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीकानेर के देशनाेक स्थित करणी माता मंदिर मंदिर में हजारों चूहे है इन चूहों को काबा कहा जाता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5180,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए और नीचे दिए गए कूट से सही उत्तर का चयन कीजिए -लोकदेवी स्थानअ. ज्वाला माता 1. बांसवाड़ाब. अधर देवी 2. जोबनेरस. छींछ माता 3. सरिस्का राष्ट्रीय उद्यान, अलवरद. नारायणी माता 4. आबूकूट: अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4, 2, 1, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 2, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 4, 1, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "3, 1, 4, 2"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5181,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोक देवता ने गायों की रक्षार्थ प्रत्यक्ष युद्ध नहीं किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेव जी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगा जी"
+        },
+        {
+          "id": "opt3",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5182,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोकदेवता को कपड़े और मिट्टी के घोड़े की प्रतिकृति समर्पित की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "देवनारायण जी"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगा जी"
+        },
+        {
+          "id": "opt4",
+          "text": "रामदेव जी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5183,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाड़मेर में इलोजी की बारात किस अवसर पर निकाली जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीज"
+        },
+        {
+          "id": "opt2",
+          "text": "होली"
+        },
+        {
+          "id": "opt3",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt4",
+          "text": "दशहरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5184,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादूपंथ का प्रमुख केन्द्र:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीपासर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीनमाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नारायणा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5185,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ख्वाजा मोईनुद्दीन चिश्ती के गुरु का नाम बताइए ।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ख्वाजा उस्मान हारूनी"
+        },
+        {
+          "id": "opt2",
+          "text": "अब्दुल कादिर जिलानी"
+        },
+        {
+          "id": "opt3",
+          "text": "ख्वाजा कुतुबुद्दीन"
+        },
+        {
+          "id": "opt4",
+          "text": "निजामुद्दीन औलिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5186,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘धौलीधूप’ राजस्थान के किस संत से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संत चरणदास"
+        },
+        {
+          "id": "opt2",
+          "text": "संत पीपा"
+        },
+        {
+          "id": "opt3",
+          "text": "संत रामचरण"
+        },
+        {
+          "id": "opt4",
+          "text": "संत लालदास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5187,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादूपंथ में नागा उप संप्रदाय के प्रवर्तक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रज्जब"
+        },
+        {
+          "id": "opt2",
+          "text": "गरीबदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मलूकदास"
+        },
+        {
+          "id": "opt4",
+          "text": "सुंदरदास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5188,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा वैष्णव संप्रदाय नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निम्बार्क"
+        },
+        {
+          "id": "opt2",
+          "text": "वल्लभ"
+        },
+        {
+          "id": "opt3",
+          "text": "निष्कलंक"
+        },
+        {
+          "id": "opt4",
+          "text": "लालदासी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5189,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर शरीफ किस प्रसिद्ध सूफी संत की दरगाह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निजामुद्दीन औलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "शेख हमीदुद्दीन"
+        },
+        {
+          "id": "opt3",
+          "text": "मोइनुद्दीन चिश्ती"
+        },
+        {
+          "id": "opt4",
+          "text": "शेख सलीम चिश्ती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5190,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मीराबाई ___सदी की कवयित्री थीं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16 वीं"
+        },
+        {
+          "id": "opt2",
+          "text": "19 वीं"
+        },
+        {
+          "id": "opt3",
+          "text": "18 वीं"
+        },
+        {
+          "id": "opt4",
+          "text": "14 वीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5191,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संत लालदास के सम्बन्ध में कौन सा तथ्य असत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "‘लालदास की वाणी’ नामक ग्रन्थ दो भागों में विभाजित है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इनका जन्म मेवात प्रदेश में हुआ था।"
+        },
+        {
+          "id": "opt3",
+          "text": "ये शादीशुदा थे।"
+        },
+        {
+          "id": "opt4",
+          "text": "1688 ई. में इनका देहान्त हुआ।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5192,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित संतों को उनकी जाति से सुमेलित कीजिए एवं नीचे दिये गये सही कूट का चयन कीजिए -संत जातिअ. जसनाथ 1. पठानब. लालदास 2. जाटस. रज्जब 3. मिरासीद. बखना 4. मेवकूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4, 3, 2, 1"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 4, 1, 3"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 1, 4, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2, 3, 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संत जातिअ. जसनाथ 2. जाटब. लालदास 4. मेवस. रज्जब 1. पठानद. बखना 3. मिरासी",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5193,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राठौड़ राजवंश की कुलदेवी का नाम बताइये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आशापाला"
+        },
+        {
+          "id": "opt2",
+          "text": "शाकम्भरी"
+        },
+        {
+          "id": "opt3",
+          "text": "नागणेची"
+        },
+        {
+          "id": "opt4",
+          "text": "बीजासन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5194,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजा जी के चबूतरे को ‘थान’ तथा पुजारी को ........ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शरणागत"
+        },
+        {
+          "id": "opt2",
+          "text": "सोहड़"
+        },
+        {
+          "id": "opt3",
+          "text": "घोड़ला"
+        },
+        {
+          "id": "opt4",
+          "text": "देव जी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "तेजाजी के चबूतरे को थान व पुजारी को घोड़ला कहा जाता है। तेजा दशमी (भाद्रपद शुक्ल दशमी) के अवसर पर पंचमी से पूर्णिमा तक परबतसर (नागौर) में विशाल पशु-मेला लगता है।",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5195,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म गलत सुमेलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेवजी - रामदेवरा"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबूजी - कोलू"
+        },
+        {
+          "id": "opt3",
+          "text": "मल्लीनाथजी - खरनाल"
+        },
+        {
+          "id": "opt4",
+          "text": "गोगाजी - ददरेवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मल्लीनाथजी का जन्म 1358 ई./1415 वि.सं. में तिलवाड़ा (बाड़मेर) में राठौड़ वंश में हुआ। तीड़ाजी/सलखाजी इनके पिता तथा जीणादे इनकी माता थी। उगमसी भाटी इनके गुरु थे। इन्होंने 1378 ई. में फिरोज तुगलक (दिल्ली) व निजामुद्दीन (मालवा) को पराजित किया। तिलवाड़ा (बालोतरा) में लूनी नदी के किनारे चैत्र कृष्ण एकादशी से चैत्र शुक्ल एकादशी तक पशु मेला भरता है।",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5196,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस युग्म को चुनिए जिसके दोनों संत रामानंद के शिष्य थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू एवं धन्ना"
+        },
+        {
+          "id": "opt2",
+          "text": "दादू एवं पीपा"
+        },
+        {
+          "id": "opt3",
+          "text": "दादू एवं रज्जब"
+        },
+        {
+          "id": "opt4",
+          "text": "धन्ना एवं पीपा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रामानुज सम्प्रदाय की शुरूआत दक्षिण भारत के आन्ध्रप्रदेश राज्य के अन्तर्गत आचार्य रामानुज द्वारा की गई। उत्तर भारत में इस सम्प्रदाय की शुरूआत रामानुज के परम शिष्य रामानंद जी द्वारा की गई और यह सम्प्रदाय, रामानंदी सम्प्रदाय कहलाया। कबीर जी, रैदास जी, संत धन्ना, संत पीपा आदि रामानंद जी के शिष्य रहे है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5197,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सलेमाबाद में निम्बार्कचार्य पीठ की स्थापना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरिव्यास देव"
+        },
+        {
+          "id": "opt2",
+          "text": "परशुराम देव"
+        },
+        {
+          "id": "opt3",
+          "text": "नारायण देव"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिवंश देव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5199,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "masterTopic": "राजस्थान के प्रमुख उद्योग",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के प्रमुख उद्योग भाग 5",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-प्रमुख-उद्योग",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अशोक लीलैंड फेक्ट्री राजस्थान में कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 930,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में फुटवीयर डिजाइन एण्ड डेवलपमेन्ट इन्स्टिट्यूट कहाँ पर स्थापित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 931,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान स्पिनिंग एण्ड विविंग मिल कहाँ स्थापित की गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भिवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 932,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य गंगानगर शुगर मिल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सहकारी क्षेत्र की कंपनी"
+        },
+        {
+          "id": "opt2",
+          "text": "सरकारी उपक्रम"
+        },
+        {
+          "id": "opt3",
+          "text": "सरकार व निजी क्षेत्र का संयुक्त उपक्रम"
+        },
+        {
+          "id": "opt4",
+          "text": "निजी क्षेत्र की कंपनी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 933,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा औद्योगिक क्षेत्र जोधपुर में स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बोरानाड़ा – III"
+        },
+        {
+          "id": "opt2",
+          "text": "नापासर"
+        },
+        {
+          "id": "opt3",
+          "text": "मंडोर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाल शिल्प ग्राम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 934,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान फाउण्डेशन की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2000"
+        },
+        {
+          "id": "opt2",
+          "text": "2002"
+        },
+        {
+          "id": "opt3",
+          "text": "2003"
+        },
+        {
+          "id": "opt4",
+          "text": "2001"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 935,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सार्वजनिक उपक्रम ब्यूरो का कौन सा कार्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान में निजी उपक्रमों को दिशा-निर्देश देना ।"
+        },
+        {
+          "id": "opt2",
+          "text": "सभी सार्वजनिक क्षेत्र के उपक्रमों के कार्यों की निगरानी करना ।"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य के विभिन्न उपक्रमों की कार्यप्रणाली में समन्वय करना।"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य के सभी सार्वजनिक क्षेत्र के उपक्रमों के लिए सूचना एकत्र करने हेतु समाशोधन गृह सम्बन्धी सेवा करना।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 936,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में हैवेल्स इंडिया की फैक्ट्री स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 937,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पारले बिस्किट फैक्ट्री कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "नीमराना"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 938,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रीको ने महिन्द्रा ग्रूप के सहयोग से राजस्थान में कहाँ बहुउत्पाद सेज स्थापित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमराना"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर में RIICO द्वारा महिन्द्रा समूह के सहयोग से बहु-उत्पाद SEZ की स्थापना की गई है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 939,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मुख्य मंत्री लंघु उद्योग प्रोत्साहन योजना’ का उद्देश्य है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर्थिक असमानताओं को कम करना"
+        },
+        {
+          "id": "opt2",
+          "text": "उपक्रमों की स्थापना करना"
+        },
+        {
+          "id": "opt3",
+          "text": "नये रोजगार अवसर उपलब्ध करवाना"
+        },
+        {
+          "id": "opt4",
+          "text": "उपक्रमों की स्थापना करना एवं नये रोजगार अवसर उपलब्ध करवाना दोनों"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रदेश में उद्यमों की सरल स्थापना एवं राज्य के सभी वर्गों के व्यक्तियों को रोजगार के नये अवसर उपलब्ध कराने हेतु बैंकांे के माध्यम से ब्याज अनुदान युक्त ऋण उपलब्ध कराये जाने के उद्देष्य से यह योजना प्रारम्भ की गई ।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 940,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराजा श्री उम्मेद मिल्स राजस्थान में कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 941,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-1 व सूची-2 का मिलान कीजिए तथा नीचे दिये गये कूट का उपयोग कर सही उत्तर का चयन कीजिए- सूची-1 सूची-2 अ. अल्ट्राटेक सीमेंट क. अजमेर ब. जे. के. लक्ष्मी सीमेंट ख. बूँदी स. श्री सीमेंट ग. सिरोही द. ए. सी. सी. सीमेंट घ. चित्तौड़गढ़अ ब स द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "क ख ग घ"
+        },
+        {
+          "id": "opt2",
+          "text": "क ख घ ग"
+        },
+        {
+          "id": "opt3",
+          "text": "घ ग क ख"
+        },
+        {
+          "id": "opt4",
+          "text": "घ ख ग क"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 942,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान खादी एवं ग्रामोद्योग बोर्ड द्वारा ‘खादी प्लाजा’ का निर्माण कहाँ किया जाएगा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 943,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ऑयल रिफायनरी की स्थापना कहाँ की जा रही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर."
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 944,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रीको द्वारा चार एग्रो फूड पार्क विकसित किए गए हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर, कोटा, जोधपुर, जयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर, अलवर, बाड़मेर, अजमेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर, कोटा, अलवर, श्रीगंगानगर में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर, जैसलमेर, कोटा, दौसा में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 945,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए तथा नीचे दिए गए कूट में से सही उत्तर चुनिए -सूची – I (उद्योग) (1) राजस्थान स्टेट केमिकल वर्क्स (2) हाईटेक ग्लास फैक्टरी (3) मेवाड़ शुगर मिल (4) जे. के. सीमेण्ट वर्क्स सूची – II (स्थान)(i) डीडवाना(ii) धौलपुर(iii) भूपालसागर(iv) निम्बाहेडाकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1- (ii), 2-(i), 3- (ii), 4-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "1- (iv), 2-(ii), 3-(i), 4-(iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "1- (iv), 2-(iii), 3-(ii), 4-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "1- (i), 2-(ii), 3-(iii), 4-(iv)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान स्टेट केमिकल फैक्ट्री की स्थापना वर्ष 1964 में हुई थी। यह मुख्य रूप से राजस्थान के नागौर जिले के डीडवाना गांव में स्थित है।हाईटेक ग्लास फैक्ट्री धौलपुर, राजस्थान में है। यह तृतीय वर्ष योजना के दौरान स्थापित किया गया था। हाई-टेक प्रेसिजन ग्लास फैक्ट्री ने अप्रैल 1964 में उत्पादन शुरू किया।मेवाड़ चीनी मिल भूपालसागर, राजस्थान में स्थित है। इसकी स्थापना 1932 में हुई थी। यह मिल राजस्थान की पहली निजी क्षेत्र की चीनी मिल है।जे.के. सीमेंट वर्क्स चित्तौड़गढ़ जिले के निम्बाहेड़ा में स्थित है। जेके सीमेंट का संचालन मई 1975 में निम्बाहेड़ा, राजस्थान में अपनी प्रमुख ग्रे सीमेंट इकाई में व्यावसायिक उत्पादन के साथ शुरू हुआ।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 946,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की प्रथम जैतून रिफायनरी, राजस्थान में स्थापित की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पचपद्रा में"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरतगढ़ में"
+        },
+        {
+          "id": "opt3",
+          "text": "अमरसागर में"
+        },
+        {
+          "id": "opt4",
+          "text": "लूणकरणसर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की तत्कालीन मुख्यमंत्री श्रीमती वसुंधरा राजे ने बीकानेर के लूणकरणसर क्षेत्र में 3.75 करोड़ रुपये की लागत से स्थापित की गई रिफाइनरी का 3 अक्टूबर, 2014 को उद्घाटन किया। इसके साथ ही राजस्थान इस प्रकार की रिफाइनरी स्थापित करने वाला देश का प्रथम राज्य बन गया।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 947,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान एम.एस.एम.ई. पॉलिसी-2024 की मुख्य दृष्टि क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विदेशी निवेश को मजबूत करना"
+        },
+        {
+          "id": "opt2",
+          "text": "अन्तर्राज्यीय एम.एस.एम.ई. को जोड़कर बाजारी कड़ियों को मजबूत करना"
+        },
+        {
+          "id": "opt3",
+          "text": "एम.एस.एम.ई. क्षेत्र के सरकारी बजट को बढ़ाना"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान में वैश्विक प्रतियोगी और स्थानिक प्रासंगिक एम.एस.एम.ई. क्षेत्र को सृजित करना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सूक्ष्म, लघु और मध्यम उद्यम (एमएसएमई) क्षेत्र को बढ़ावा देने के लिए, राजस्थान में भजन लाल शर्मा सरकार ने एक नई राज्य एमएसएमई नीति 2024 शुरू की है। वैश्विक स्तर पर प्रतिस्पर्धी और स्थानीय रूप से प्रासंगिक एमएसएमई क्षेत्र बनाने के दृष्टिकोण को साकार करने के लिए राजस्थान एमएसएमई नीति 2024 शुरू की है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 950,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (उद्योग - स्थान) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्टेट वूलन मिल्स - बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "सल्फ्यूरिक एसिड. प्लान्ट - अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "सीमेन्ट - लाखेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "काँच - भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "काँच उद्योग राजस्थान में धौलपुर, अलवर और कोटा जैसे क्षेत्रों में प्रसिद्ध है, न कि भीलवाड़ा में। राजस्थान के धौलपुर जिले में काँच उद्योग सर्वाधिक फैला हुआ है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 951,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

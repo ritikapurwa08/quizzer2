@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान के इतिहास के स्रोत",
+  "batchIndex": 3,
+  "batchName": "राजस्थान के इतिहास के स्रोत भाग 3",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-इतिहास-के-स्रोत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘हम्मीर हठ’ नामक ग्रन्थ किसने लिखा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रशेखर"
+        },
+        {
+          "id": "opt2",
+          "text": "केशवदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "दलपत"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधराज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हम्मीर हठ के रचयिता चन्द्रशेखर हैं।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7978,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बेली क्रिशन रुकमणी री’ के रचयिता, किस शासक के दरबारी कवि थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अकबर"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहजहाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज चतुर्थ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अकबर के दरबार में पृथ्वीराज का अच्छा सम्मान था, अकबर ने इन्हें गागरोन की जागीर दी थी, गागरोन दुर्ग में पृथ्वीराज राठौड़ ने डींगल भाषा में 1580 में ‘वेली किशन रूकमणी री’ नामक ग्रंथ लिखा था। इस ग्रंथ को दुरसाआढ़ा ने पांचवां वेद व 19 वां पुराण कहा था।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7979,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अर्ली चौहान डाइनेस्टीज़’ के लेखक हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जी. एन. शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "जी. एच. ओझा"
+        },
+        {
+          "id": "opt3",
+          "text": "दशरथ शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "जी. ए. ग्रियर्सन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के इतिहास पर काम करने वाले प्रमुख इतिहासकारों में से एक दशरथ शर्मा द्वारा लिखित प्रमुख पुस्तक ‘अर्ली चौहान डाइनेस्टीज’ है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7980,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर - सूर्यमल्ल मीसण"
+        },
+        {
+          "id": "opt2",
+          "text": "कुवलयमाला - उद्योतन सूरी"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज विजय - चन्दबरदाई"
+        },
+        {
+          "id": "opt4",
+          "text": "हम्मीर महाकाव्य - नयनचन्द्र सूरी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयानक, विद्यापति गौड़, वागीश्वर, जनार्दन तथा विश्वरूप पृथ्वीराज चौहान तृतीय के दरबारी लेखक और कवि थे, जिनकी कृतियाँ उसके समय को अमर बनाये हुए हैं। जयानक ने पृथ्वीराज विजय की रचना की थी।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7981,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा/कौनसे युग्म सही सुमेलित है/हैं -ग्रंथ - लेखक(अ) राजरूपक - कवि वीरभाण(ब) सूरज प्रकाश - करणीदान(स) रामरंजाट - सूर्यमल्ल मिश्रणकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (अ)"
+        },
+        {
+          "id": "opt2",
+          "text": "(अ), (ब) और (स)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (ब)"
+        },
+        {
+          "id": "opt4",
+          "text": "(अ) और (ब)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजरूपक - कवि वीरभाणवीर सत्सई, बलवदविलास और रामरंजत को सूर्यमल मिश्रण ने लिखा था।करणीदान की सूरज प्रकाश रचना जोधपुर नरेशों से संबंधित है। यह डिंगल काव्य राठौड़ों की तेरह शाखाओं का उल्लेख करता है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7982,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "घटियाला शिलालेख का सम्बन्ध मण्डोर शाखा के किस प्रतिहार शासक से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कक्कुक"
+        },
+        {
+          "id": "opt2",
+          "text": "बाउक"
+        },
+        {
+          "id": "opt3",
+          "text": "शीलुक"
+        },
+        {
+          "id": "opt4",
+          "text": "रज्जिल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7983,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ललित - विग्रह राज नाटक का लेखक सोमदेव किस चौहान शासक का राजकवि था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज I"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "जग्गदेव"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज IV"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बीसलदेव चौहान (विग्रहराज चतुर्थ) ने ‘हरकेलि’ नाटक और उसके दरबारी विद्वान सोमदेव ने ‘ललित विग्रहराज’ नामक नाटक की रचना करके साहित्य स्तर को ऊँचा उठाया। ललित विग्रहराज नाटक में “बीसलदेव तथा देसलदेवी” के प्रेम प्रसंगों का वर्णन किया गयां।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7984,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस अभिलेख में प्रतिहारों को सौमित्र (लक्ष्मण) उद्भूत हुआ कहा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्वालियर अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "उज्जैन अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "कन्नौज अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मिहिरभोज की ग्वालियर प्रशस्ति (880 ई.): गुर्जर प्रतिहारों के लेखों में सर्वाधिक उल्लेखनीय मिहिरभोज का ग्वालियर अभिलेष है जो एक प्रशस्ति के रूप में है। इसमें कोई तिथि अंकित नहीं है। यह प्रतिहार वंश के शासको की राजनैतिक उपलब्धियों तथा उनकी वंशावली को ज्ञात करने का मुख्य साधन है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7985,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा अभिलेख शाकम्भरी चौहानों के प्रारंभिक इतिहास का अच्छा स्रोत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीरवा अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "बिजोलिया अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "घटियाला अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "मानमोरी अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बिजौलिया शिलालेख (भीलवाड़ा 1170 ई., प्रशस्तिकार गुणभद्र): इस अभिलेख में सांभर (शाकम्भरी) एवं अजमेर के चौहानों का वर्णन है। इसके अनुसार चौहानों के आदिपुरुष वासुदेव चहमन ने 551ई. में शाकम्भरी में चहमान (चौहान) राज्य की स्थापना की तथा सांभर झील का निर्माण करवाया था।",
+      "reference": "📌 PYQ — Protection Officer - 2022 (General Studies)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7986,
+        "exam": "Protection Officer - 2022 (General Studies)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालौर के शासक और अलाउद्दीन खिलजी के मध्य संघर्ष की जानकारी निम्न में से किस ग्रंथ से मिलती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दलपत विलास"
+        },
+        {
+          "id": "opt2",
+          "text": "कान्हडदे प्रबन्ध"
+        },
+        {
+          "id": "opt3",
+          "text": "हमीर हठ"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मावत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सन् 1311 ई. में अलाउद्दीन ने जालौर दुर्ग पर आक्रमण किया और कई दिनों के घेरे के बाद अंतिम युद्ध में अलाउद्दीन की विजय हुई और सभी राजपूत शहीद हुए। इस युद्ध की जानकारी पद्मनाभ के ग्रन्थ कान्हड़दे प्रबन्ध तथा वीरमदेव सोनगरा की वात में मिलती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7987,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज राठौड़ री घणी चावी कृति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूकमणि हरण"
+        },
+        {
+          "id": "opt2",
+          "text": "वेलि क्रिसन रूकमणि री"
+        },
+        {
+          "id": "opt3",
+          "text": "सीता पुराण"
+        },
+        {
+          "id": "opt4",
+          "text": "रूकमणि मंगल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अकबर के दरबार में पृथ्वीराज का अच्छा सम्मान था, अकबर ने इन्हें गागरोन की जागीर दी थी, गागरोन दुर्ग में पृथ्वीराज राठौड़ ने डींगल भाषा में 1580 में ‘वेली किशन रूकमणी री’ नामक ग्रंथ लिखा था। इस ग्रंथ को दुरसाआढ़ा ने पांचवां वेद व 19 वां पुराण कहा था।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7988,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अचलदास खींची री वचनिका’ में किणां रै जुद्ध से बरणाव हुयो है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलदास खींची अर जहांगीर रै"
+        },
+        {
+          "id": "opt2",
+          "text": "अचलदास खींची अर मुहम्मदशाह रै"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलदास खींची अर होसंगसाह रै"
+        },
+        {
+          "id": "opt4",
+          "text": "अचलदास खींची अर सेरसाह सूरि रै"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अचलदास खींची री वचनिका चारण कवि शिवदास गाडण द्वारा रचित एक ऐतिहासिक कृति है। इस प्रसिद्ध कृति से मांडू के सुल्तान हुशंगशाह व गागरौन के शासक अचलदास खींची के मध्य हुए युद्ध (1423 ई.) की जानकारी मिलती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7989,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दयालदास री ख्यात में प्रमुखतः किस राज्य का इतिहास वर्णित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दयालदास को राजस्थान का अंतिम ख्यातकार माना जाता है। उनका जन्म 1798 ई. में बीकानेर रियासत के कुबिया गांव में हुआ था। उन्होंने बीकानेर राज्य की ख्याति लिखी, जिसे ‘बीकानेर राय राठौड़ री ख्यात’ और ‘दयालदास री ख्यात’ के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7990,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयानक रचित ‘पृथ्वीराज - विजय’ में एक शासक की प्रशंसा में लिखा है कि उसने पुष्कर पर आक्रमण करने वाले 700 चालुक्यों को मार गिराया । निम्न में से उस शासक का नाम बताइए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुर्लभराज II"
+        },
+        {
+          "id": "opt2",
+          "text": "विग्रहराज III"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज I"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज II"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इस वंश के विग्रहराज तृतीय के पुत्र पृथ्वीराज प्रथम ने 1105 ई. में 700 चालुक्यों को जो पुष्कर के ब्राह्मणों को लूटने आये थे, मौत के घाट उतारा व ‘परम भट्टारक महाराजाधिराज परमेश्वर’ की उपाधि धारण की।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7991,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस चौहान शासक को जयानक द्वारा अपने ‘पृथ्वीराज विजय’ ग्रन्थ में पृथ्वी को चाँदी की मुद्राओं से भर देने का श्रेय दिया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज प्रथम"
+        },
+        {
+          "id": "opt2",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज तृतीय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जयानक पृथ्वीराज चौहान के राजकवि थे। अजयराज ने ‘श्री अजयदेव’ नाम से चाँदी के सिक्क चलाये। कुछ मुद्राओं पर उसकी रानी सोमलेखा (सोमलवती) का नाम भी अंकित मिलता है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7992,
+        "exam": "A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पदराडा’ अभिलेख किस शासक से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुमारपाल सोलंकी"
+        },
+        {
+          "id": "opt2",
+          "text": "महारावल अजब सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा जगत सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजसमंद के पदराडा गांव से प्राप्त किस लेख में सबसे पहले कुंभा के बारे में चर्चा की गई है। इसमें पदराडा का नाम पाटकेप्रद वर्णित है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7993,
+        "exam": "A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाबर के पुत्र कामरान और बीकानेर नरेश के मध्य युद्ध का वर्णन किस ग्रंथ में मिलता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव जैतसी रो छन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "हाला - झाला"
+        },
+        {
+          "id": "opt3",
+          "text": "हरि रस"
+        },
+        {
+          "id": "opt4",
+          "text": "भक्तमाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राव जैतसी रो छंद एक ऐतिहासिक कृति है, जिसकी रचना बीठू सूजा ने की थी। यह डिंगल (राजस्थानी) भाषा में लिखा गया है। इस ग्रंथ में मुगल सम्राट बाबर के पुत्र शाहजादा कामरान के आक्रमण और बीकानेर के शासक राव जैतसी द्वारा उनकी हार का महत्वपूर्ण विवरण दिया गया है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Horticulture) 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7994,
+        "exam": "A.R.O. (GK and Horticulture) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राचीनतम ‘पंचमार्क’ सिक्को का समय क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "800 ई. पू. से 500 ई. पू."
+        },
+        {
+          "id": "opt2",
+          "text": "200 ई. पू. से 50 ई. पू."
+        },
+        {
+          "id": "opt3",
+          "text": "400 ई. पू. से 100 ई. पू."
+        },
+        {
+          "id": "opt4",
+          "text": "600 ई. पू. से 200 ई. पू."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "(Coins) सिक्को के अध्ययन न्यूमिसमेटिक्स कहा जाता है। भारत में सर्वप्रथम सिक्को का प्रचलन 2500 वर्ष पूर्व हुआ ये मुद्राऐं खुदाई के दोरान खण्डित अवस्था में प्राप्त हुई है। अतः इन्हें आहत मुद्राएं कहा जाता है। इन पर विशेष चिन्ह बने हुए है। अतः इन्हें पंचमार्क सिक्के भी कहते है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Horticulture) 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7995,
+        "exam": "A.R.O. (GK and Horticulture) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वैष्णव-धर्म का प्राचीनतम अभिलेख कहाँ से प्राप्त हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घोसुण्डी"
+        },
+        {
+          "id": "opt2",
+          "text": "नान्दसा"
+        },
+        {
+          "id": "opt3",
+          "text": "बर्नाला"
+        },
+        {
+          "id": "opt4",
+          "text": "मण्डोर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "घोसुण्डी का लेख: चित्तौडगढ़ जिले से प्राप्त यह लेख राजस्थान में वैष्णव (भागवत) संप्रदाय से संबंधित प्राचीनतम् अभिलेख है, जो द्वितीय शती ईसा पूर्व का है। इसकी भाषा संस्कृत एवं लिपि ब्राह्मी है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7996,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पृथ्वीराज विजय’ का लेखक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंदबरदाई"
+        },
+        {
+          "id": "opt2",
+          "text": "जयानक"
+        },
+        {
+          "id": "opt3",
+          "text": "नयनचन्द सूरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मलिक मुहम्मद जायसी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जयानक, विद्यापति गौड़, वागीश्वर, जनार्दन तथा विश्वरूप पृथ्वीराज चौहान तृतीय के दरबारी लेखक और कवि थे, जिनकी कृतियाँ उसके समय को अमर बनाये हुए हैं। जयानक ने पृथ्वीराज विजय की रचना की थी।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group D)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7997,
+        "exam": "School Lecturer 2022 Gk (Group D)",
+        "year": 2022
+      }
+    }
+  ]
+}

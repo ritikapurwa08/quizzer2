@@ -1,0 +1,592 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 8,
+  "batchName": "राजस्थान के मेले भाग 8",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 18,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सिता-बाड़ी का प्रसिद्ध मेला किस जिले में लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9502,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस स्थान पर बोहरा समुदाय का प्रमुख उर्स लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर में ख्याजा साहब की दरगाह पर"
+        },
+        {
+          "id": "opt2",
+          "text": "फतेहपुर सीकरी में शेख सलीम चिश्ती की दरगाह पर"
+        },
+        {
+          "id": "opt3",
+          "text": "गलियाकोट में बाबा फखरूद्दीन की दरगाह पर"
+        },
+        {
+          "id": "opt4",
+          "text": "दिल्ली में ख्वाजा मुइनुद्दीन चिश्ती की दरगाह पर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9503,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जिला, जिसमें प्रसिद्ध भर्तृहरि मेला आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भर्तृहरि मेला, अलवर ज़िले में लगता है। पत्नी के धोखे से भर्तृहरि के मन में वैराग्य जाग गया और वे अपना संपूर्ण राज्य अपने भाई विक्रमादित्य को सौंपकर गुफा में 12 वर्षों तक तपस्या की। उन्होंने वैराग्य पर 100 श्लोक लिखे, जो कि वैराग्य शतक के नाम से प्रसिद्ध हैं। उससे पहले अपने शासनकाल में वे श्रृंगार शतक और नीति शतक नामक दो संस्कृत काव्य लिख चुके थे। वहां से गुरु गोरक्षनाथ के आदेश पर बाबा भर्तृहरि ने सरिस्का की वादियों में जहां वर्तमान मन्दिर है, वहां बरसों तपस्या की। जहां आज भी बाबा का धूना अनवरत चलता रहता है। बाबा भर्तृहरि का मेला प्रतिवर्ष भाद्रपद मास के शुक्ल पक्ष की अष्टमी को भरता है",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9504,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केसरियानाथ का मेला कहाँ आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धुलेव"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवाड"
+        },
+        {
+          "id": "opt3",
+          "text": "डिग्गी"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9505,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा मेला वर्ष में दो बार आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री महावीरजी"
+        },
+        {
+          "id": "opt3",
+          "text": "कैला देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "करणी माता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बीकानेर जिले में देशनोक नामक स्थान पर करणी माता का मंदिर बना हुआ है, यहां वर्ष में दो बार चैत्र व अश्विन मास के नवरात्र के समय मेला लगता है।करणी माता का मंदिर देश-विदेश में चूहों वाला मंदिर के नाम से प्रसिद्ध है।",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9506,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘तारकीन का उर्स’ मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "सरवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9507,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मेड़ता का बलदेव पशुमेला’ लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद 1 से पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र 1 से पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रावण 1 से पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "आश्विन 1 से पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9508,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गांव मुकाम में जामेश्वर मेला वर्ष में कितनी बार लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक"
+        },
+        {
+          "id": "opt2",
+          "text": "दो"
+        },
+        {
+          "id": "opt3",
+          "text": "चार"
+        },
+        {
+          "id": "opt4",
+          "text": "तीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9554,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नागौर मेला मुख्यतः है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धार्मिक मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "राजनीतिक जमावड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "पशु मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "महिलाओं का मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9555,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शासक के शासन काल में कोटा में दशहरा मेला लगना प्रारम्भ हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उम्मेदसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रामसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्जनशाल"
+        },
+        {
+          "id": "opt4",
+          "text": "माधोसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अश्विन मास के शुक्ल पक्ष की दशमी तिथि को असत्य पर सत्य की जीत के प्रतीक विजयादशमी पर्व पर कोटा में मेला भरता है। यह भारत के प्रसिद्ध मेलों में से एक है। राव माधोसिंह जो कोटा के प्रथम शासक थे, ने रावण वध की परम्परा प्रारम्भ की एवं इस मेले की शुरुआत की। विजयादशमी को विशाल रावण का पुतला बनाकर उसे जलाया जाता है तथा दुसरे दिन से मेले का आयोजना होता है।",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9556,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामस्नेही सम्प्रदाय अपना फूलडोल महोत्सव किस स्थान पर मनाते है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9557,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘लांगुरिया’ राजस्थान के किस मेले से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुष्कर मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "दशहरा मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "भर्तृहरि मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "कैलादेवी मेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "करौली से 20 कि.मी. दूर त्रिकूट पर्वत की घाटी में कालीसिंध के तट पर कैला देवी का भव्य मंदिर है। यहाँ प्रतिवर्ष चैत्रमास की शुक्ल अष्टमी को मेला लगता है। जिसमें हजारों लाखों भक्त देवी के दर्शन करने आते हैं। मंदिर के मुख्य कक्ष में कैलादेवी व चमुंडादेवी की प्रतिमाएं प्रतिष्ठापित है। परिसर में एक हनुमान मंदिर भी बना हुआ है जिसे स्थानीय भाषा में लांगुरिया कहा जाता है। इस मेले का मुख्य आकर्षण लांगुरिया नृत्य है।",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9573,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चन्द्रभागा का प्रसिद्ध मेला कहां लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt3",
+          "text": "केशोराय पाटन"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरा पाटन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9574,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीर तेजाजी पशु मेला आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तिलवाड़ा में"
+        },
+        {
+          "id": "opt2",
+          "text": "पुष्कर में"
+        },
+        {
+          "id": "opt3",
+          "text": "परबतसर में"
+        },
+        {
+          "id": "opt4",
+          "text": "मेडता में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9579,
+        "exam": "Raj Jail Warder (28-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वृक्षों के संरक्षण से संबंधित मेला कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऋषभ देव जी का मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "शाहवा का मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "भृतहरि का मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "खेजडली का मेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9580,
+        "exam": "Raj Jail Warder (29-11-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोगाजी का मेला किस माह में भरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9581,
+        "exam": "Raj Jail Warder (27-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुष्कर का मेला किस तिथि को भरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्तिक अमावस्या"
+        },
+        {
+          "id": "opt2",
+          "text": "आसोज पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "फाल्गुन पंचमी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9582,
+        "exam": "Raj Jail Warder (27-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "घोटिया अम्बा का मेला किस जिले में आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9591,
+        "exam": "Raj Jail Warder (28-10-18) Shift 2",
+        "year": null
+      }
+    }
+  ]
+}

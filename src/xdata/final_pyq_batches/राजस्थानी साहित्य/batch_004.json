@@ -1,0 +1,654 @@
+{
+  "masterTopic": "राजस्थानी साहित्य",
+  "batchIndex": 4,
+  "batchName": "राजस्थानी साहित्य भाग 4",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कहानी कहने की वह कौन सी मौखिक परंपरा है जो राजस्थान में अभी भी अस्तित्व में है, जहां महाकाव्य महाभारत और रामायण की कहानियों के साथ पराणों की कहानियों, जाति वंशावली और लोक परंपरा की कहानियों को बताया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कावड़ संवाद"
+        },
+        {
+          "id": "opt2",
+          "text": "कावड़ बंचना (वाचन)"
+        },
+        {
+          "id": "opt3",
+          "text": "संवाद बंचना (वाचन)"
+        },
+        {
+          "id": "opt4",
+          "text": "काव्य संचना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6550,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिये और सूचियों के नीचे किये गये कूट का प्रयोग करके सही उत्तर को चुनिये: सूची-I (पुस्तकें) सूची-II (लेखक)(a) हम्मीरायण (i) चारण शिवदास(b) रणमल रौ छन्द (ii) बीठू सूजा(c) अचलदास खींची री वचनिका (iii) पद्मनाभ(d) राव जैतसी रौ छन्द (iv) श्रीधर व्यासकूट: (a) (b) (c) (d)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii) (iv) (i) (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) (iii) (iv) (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (i) (iii) (ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कवि पद्मनाभ द्वारा रचित हम्मीरायण ग्रंथ में जालोर रियासत के शासकों का वर्णन किया गया।रणमल छंद की रचना श्रीधर व्यास ने की थी। रणमल छंद वीर काव्य हैं।अचलदास खींची री वचनिका चारण कवि शिवदास गाडण द्वारा रचित एक ऐतिहासिक कृति है। इसकी कृति की रचना डिंगल भाषा में की गई है।राव जैतसी रो छंद एक ऐतिहासिक कृति है, जिसकी रचना बिठू सूजा ने की थी।डिंगल (राजस्थानी) भाषा में यह ग्रंथ मुगल सम्राट बाबर के पुत्र शाहजादा कामरान के आक्रमण और बीकानेर के शासक राव जैतसी द्वारा पराजित होने का एक महत्वपूर्ण विवरण देता है।",
+      "reference": "📌 PYQ — Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6552,
+        "exam": "Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस प्रकार के काव्य ग्रंथों में हमें एक राजा की महानता, उसकी विजयों, युद्धों, शौर्य का वर्णन मिलता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मरस्य"
+        },
+        {
+          "id": "opt2",
+          "text": "रासो"
+        },
+        {
+          "id": "opt3",
+          "text": "विगत"
+        },
+        {
+          "id": "opt4",
+          "text": "वेली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6553,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुणसी साहित्यिक कृति राजस्थानी साहित्य रै आदिकाल संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नेमिनाथ रास"
+        },
+        {
+          "id": "opt2",
+          "text": "विरुद छिहतरी"
+        },
+        {
+          "id": "opt3",
+          "text": "रुकमणी हरण"
+        },
+        {
+          "id": "opt4",
+          "text": "वेलि क्रिसन रुकमणि री"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6557,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैन कवि समयसुन्दर री रचना नीं हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीताराम चौपाई"
+        },
+        {
+          "id": "opt2",
+          "text": "मृगावती रास"
+        },
+        {
+          "id": "opt3",
+          "text": "नल दमयन्ती चौपाई"
+        },
+        {
+          "id": "opt4",
+          "text": "पद्मिनी चरित चौपाई"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महोपाध्याय समयसुंदर राजस्थानी भाषा के सबसे बड़े जैन संत कवि और गीतकार थे। इनका जन्म सांचोर नगर में वि.सं. 1610 में पोरवाल जाति में हुआ था। इनकी प्रमुख रचनाएँ: समयाचारी शतक, क्षमा बत्तीसी, विशेष शतक, सिंहल सुत- प्रिय मेलक रास, नल दमयंती रास, शत्रुंजयरास, सीताराम प्रबंध चौपाई",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6558,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक साहित्य में किणरी गिणती नीं हुवै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एकांकी"
+        },
+        {
+          "id": "opt2",
+          "text": "पहेलियां"
+        },
+        {
+          "id": "opt3",
+          "text": "लोकगीत"
+        },
+        {
+          "id": "opt4",
+          "text": "ख्याल या लोकनाटक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6559,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "असाइत कवि री रचना कुणसी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मलय सुन्दरी कथा"
+        },
+        {
+          "id": "opt2",
+          "text": "मानवती प्रबंध"
+        },
+        {
+          "id": "opt3",
+          "text": "बसन्त विलास"
+        },
+        {
+          "id": "opt4",
+          "text": "हंसावली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6562,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी साहित्य रै आदिकाल रा जैन सैली रा रचनाकार है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीधर व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "आसगु"
+        },
+        {
+          "id": "opt3",
+          "text": "नरपति नाल्ह"
+        },
+        {
+          "id": "opt4",
+          "text": "असाइत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6564,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पाल्हण कवि री ख्याति किण रचना रे पांण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जीवदया रास"
+        },
+        {
+          "id": "opt2",
+          "text": "चंदनवाला रास"
+        },
+        {
+          "id": "opt3",
+          "text": "नेमिनाथ बारहमासा"
+        },
+        {
+          "id": "opt4",
+          "text": "जम्बूस्वामी रास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6568,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भासा रो पैलो उपन्यास कुणसो मान्यो जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हूँ गोरी किण पीवरी"
+        },
+        {
+          "id": "opt2",
+          "text": "धोरां रो धोरी"
+        },
+        {
+          "id": "opt3",
+          "text": "कनक सुन्दर"
+        },
+        {
+          "id": "opt4",
+          "text": "आभै पटकी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6569,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बिज्जी’ किस साहित्यकार का उपनाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाबवजी चतुरसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt4",
+          "text": "कन्हैयालाल सेठिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6572,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वै कुणसा कवि है जकां री भगति अर चमत्कार री वजै सूं लोग बांनै ‘परमेसर’ रै समान बतावण लागा हा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारहठ ईसरदास"
+        },
+        {
+          "id": "opt2",
+          "text": "राठौड़ पृथ्वीराज"
+        },
+        {
+          "id": "opt3",
+          "text": "सायांजी झूला"
+        },
+        {
+          "id": "opt4",
+          "text": "माधोदास दधवाड़िया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6578,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बीसलदेव रासो’ में कुणसो रस प्रधान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिणगार रस"
+        },
+        {
+          "id": "opt2",
+          "text": "करुण रस"
+        },
+        {
+          "id": "opt3",
+          "text": "वीर रस"
+        },
+        {
+          "id": "opt4",
+          "text": "रौद्र रस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6580,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुणसा रचनाकार कवि रै साथै-साथै आछा गद्यकार भी हा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कवि कल्लोल"
+        },
+        {
+          "id": "opt2",
+          "text": "सिवदास गाडण"
+        },
+        {
+          "id": "opt3",
+          "text": "दलपति विजय"
+        },
+        {
+          "id": "opt4",
+          "text": "बादर ढाढी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6581,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बीसलदेव रासो’ किण भांत रो काव्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भक्ति काव्य"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रकृति काव्य"
+        },
+        {
+          "id": "opt3",
+          "text": "वीर काव्य"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रेम काव्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6586,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "19 वीं शताब्दी के किस कवि को दरबारी चाटुकारिता से दूर रहकर ब्रिटिश शासन के खिलाफ लिखने के लिए ‘लोक - कवि’ कहकर पुकारा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दयाल दास"
+        },
+        {
+          "id": "opt2",
+          "text": "श्यामल दास"
+        },
+        {
+          "id": "opt3",
+          "text": "बांकीदास"
+        },
+        {
+          "id": "opt4",
+          "text": "शंकरदान सामोर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6590,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कविराजा बांकीदास किस शासक द्वारा संरक्षित राजकवि थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर के सुजान सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर के मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर के भीमसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर के माधोसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6592,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“ललित ललाम ग्रंथ” के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मतिराम"
+        },
+        {
+          "id": "opt2",
+          "text": "लालराम"
+        },
+        {
+          "id": "opt3",
+          "text": "बिहारी लाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नन्दराम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6594,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बृहत कथा कोष’ का लेखक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरिसेन"
+        },
+        {
+          "id": "opt2",
+          "text": "राजशेखर"
+        },
+        {
+          "id": "opt3",
+          "text": "चन्द्रशेखर"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिभद्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6598,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मारवाड़ रा परगना री विगत’ के लेखक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नवीन कवि"
+        },
+        {
+          "id": "opt2",
+          "text": "नरहरिदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मुहणोत नैणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरत मिश्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6601,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    }
+  ]
+}

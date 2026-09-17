@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 6,
+  "batchName": "राजस्थान की कृषि भाग 6",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस भाग में मक्का का सर्वाधिक उत्पादन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी तथा दक्षिणी पूर्वी"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्यवर्ती"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तरी"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1583,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वीरनार और वरलक्ष्मी उन्नत किस्में हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जौ"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "गन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में देशी तथा नरमा किस्म की कपास का उत्पादन किया जाता है। राजस्थान में प्रमुख रूप से बीकानेरी नरमा, आर.एस.टी.-9, अमेरिकन कपास की किस्म आर.एस.875 16 एस.टी.9 संकर4, वीरनार, वराह लक्ष्मी है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1598,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा जिला राज्य के कुल उत्पादन का 30% कपास का उत्पादन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1600,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से जिलों के युग्म में ‘वालरा’ कृषि की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर एवं बाँसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर एवं हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा एवं बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरू एवं सीकर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1601,
+        "exam": "Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के अफीम उत्पादक जिले कौन से हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, दौसा"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर, भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़, झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के झालावाड़, बांरा, भीलवाड़ा, प्रतापगढ व चित्तौड़गढ़ जिलों के अधिसूचित क्षेत्रों में अफीम की खेती की जाती है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1602,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए तथा नीचे दिये गये कूटों में से सही उत्तर चुनिए: सूची-I (फसल) सूची-II (प्रमुख उत्पादक)A. गेहूँ i. अलवरB. बाजरा ii. भीलवाड़ाC. चावल iii. गंगानगरD. मक्का iv. बूँदी कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii iv i ii"
+        },
+        {
+          "id": "opt2",
+          "text": "iii i ii iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iii i iv ii"
+        },
+        {
+          "id": "opt4",
+          "text": "i iii iv ii"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गेहूँ गंगानगरबाजरा अलवरचावल बूँदीमक्का भीलवाड़ा",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1604,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चिरमी राज्य के कौन से क्षेत्र में मिलती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती पठार"
+        },
+        {
+          "id": "opt2",
+          "text": "पश्चिमी मरुस्थल"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तरी अर्धशुष्क"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी मैदान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1606,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान में उगाई जाने वाली धान की किस्म नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "रतना"
+        },
+        {
+          "id": "opt3",
+          "text": "बाला"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्योति"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ज्योति जौ की किस्म है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1607,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी एक बेर की किस्म नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धार सेविका"
+        },
+        {
+          "id": "opt2",
+          "text": "धार भूभराज"
+        },
+        {
+          "id": "opt3",
+          "text": "गोमा ऐश्वर्य"
+        },
+        {
+          "id": "opt4",
+          "text": "गोमा कीर्ति"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1608,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "20° से 30°C तापमान व 90 दिन पाला रहित कौन सी फसल की अच्छी गुणवत्ता के उत्पादन के लिए आवश्यक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चना"
+        },
+        {
+          "id": "opt2",
+          "text": "कपास"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt4",
+          "text": "सरसों"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कपास की कृषि के लिए 20°C से 30°c का उच्च तापमान, 200 दिन की पाला व ओला रहित अवधि, स्वच्छ आकाश, तेज व चमकदार धूप तथा 50 से 100 सेमी. वार्षिक वर्षा की आवश्यकता होती है। भूरी काली दोमट मिट्टी तथा लाल व काली मिट्टी इसके लिए सर्वाधिक उपयुक्त है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1609,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "_____ जिले में तम्बाकू की खेती प्रमुख रूप से की जाती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1610,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान मे जायद की फसल की सही अवधि कौन सी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जून से सितंबर"
+        },
+        {
+          "id": "opt2",
+          "text": "अक्टूबर से दिसंबर"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी से मार्च"
+        },
+        {
+          "id": "opt4",
+          "text": "मार्च से जून"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जायद की फसलों में शुष्क हवाएं और तेज गर्मी सहन करने की क्षमता होती हैं। इसलिए उत्तर भारत में मार्च-अप्रैल में जायद की फसलें बोई जाती हैं। इनकी कटाई जून में होती हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1611,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मूँगफली की प्रमुख मंडी कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1612,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के दक्षिण-पूर्व क्षेत्रों में आदिवासियों द्वारा उपयोग में ली जाने वाली कृषि की विधि को कहते हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दजिया"
+        },
+        {
+          "id": "opt2",
+          "text": "कुमारी"
+        },
+        {
+          "id": "opt3",
+          "text": "दिप्पा"
+        },
+        {
+          "id": "opt4",
+          "text": "खील"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1613,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के अधिकतम सोयाबीन उत्पादक जिले हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, अजमेर, नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा, बूंदी, बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर, पाली, सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर, भरतपुर, दौसा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में बारां और कोटा प्रमुख सोयाबीन उत्पादक जिले हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1614,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी तिलहनी फसल दालों के समान मृदा में नाइट्रोजन स्तर को बढ़ाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तिल"
+        },
+        {
+          "id": "opt2",
+          "text": "अरण्डी"
+        },
+        {
+          "id": "opt3",
+          "text": "मूंगफली"
+        },
+        {
+          "id": "opt4",
+          "text": "सरसों"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1615,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एशिया का सबसे बड़ा कृषि फार्म राजस्थान के निम्नलिखित में से किस स्थान पर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरतगढ़ (गंगानगर)"
+        },
+        {
+          "id": "opt2",
+          "text": "जैतसर (गंगानगर )"
+        },
+        {
+          "id": "opt3",
+          "text": "तबीजी ( अजमेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "दुर्गापुरा (जयपुर)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1616,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘वालर’ कृषि का प्रकार है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "व्यापारिक कृषि"
+        },
+        {
+          "id": "opt2",
+          "text": "बाग़ानी कृषि"
+        },
+        {
+          "id": "opt3",
+          "text": "स्थानान्तरित कृषि"
+        },
+        {
+          "id": "opt4",
+          "text": "अंतः कृषि"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1617,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस संभाग में सर्वाधिक मक्का उत्पादन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मक्का के प्रमुख उत्पादक चित्तौड़गढ़, भीलवाड़ा, राजसमंद, बांसवाड़ा, डूंगरपुर जिले आदि हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1618,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अफीम पर शाही आयोग का गठन किस वर्ष किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1858 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1893 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1895 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1902 ई."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1619,
+        "exam": "A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

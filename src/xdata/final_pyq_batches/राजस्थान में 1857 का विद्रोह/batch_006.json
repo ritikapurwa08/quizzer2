@@ -1,0 +1,78 @@
+{
+  "masterTopic": "राजस्थान में 1857 का विद्रोह",
+  "batchIndex": 6,
+  "batchName": "राजस्थान में 1857 का विद्रोह भाग 6",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-1857-का-विद्रोह",
+  "negativeMarking": true,
+  "questionCount": 2,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कोटा में 1857 की क्रांति का नेता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुशल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "नन्दकिशोर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयदयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नबी शेर खान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "15 अक्टूबर, 1857 को कोटा की सेना ने रेजीडेन्सी को घेरकर मेजर बर्टन और उसके पुत्रों तथा एक डॉक्टर की हत्या कर दी। मेजर बर्टन का सिर कोटा शहर में घुमाया गया तथा महाराव का महल घेर लिया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे।",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8394,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन कोटा में 1857 के विद्रोह का एक नेतृत्वकर्ता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कन्हैयालाल"
+        },
+        {
+          "id": "opt2",
+          "text": "कुशलसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जयदयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नन्द किशोर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "15 अक्टूबर, 1857 को कोटा की सेना ने रेजीडेन्सी को घेरकर मेजर बर्टन और उसके पुत्रों तथा एक डॉक्टर की हत्या कर दी। मेजर बर्टन का सिर कोटा शहर में घुमाया गया तथा महाराव का महल घेर लिया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे।",
+      "reference": "📌 PYQ — RSMSSB LDC (09-09-18) Paper-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8409,
+        "exam": "RSMSSB LDC (09-09-18) Paper-1",
+        "year": null
+      }
+    }
+  ]
+}

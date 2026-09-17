@@ -1,0 +1,658 @@
+{
+  "masterTopic": "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ",
+  "batchIndex": 17,
+  "batchName": "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ भाग 17",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-संत-संप्रदाय-एवं-धार्मिक-परंपराएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "नारी संत दयाबाई शिष्य थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संत चरणदास की"
+        },
+        {
+          "id": "opt2",
+          "text": "संत निम्बार्काचार्य की"
+        },
+        {
+          "id": "opt3",
+          "text": "संत रैदास की"
+        },
+        {
+          "id": "opt4",
+          "text": "संत रामचरण की"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5220,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुरू जिले के ददरेवा ग्राम से सम्बंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "हरभूजी"
+        },
+        {
+          "id": "opt4",
+          "text": "देवनारायणजी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ददरेवा गाँव गोगाजी से संबंधित है। गोगाजी राजस्थान के लोक देवता हैं। उन्हें जहरवीर गोगाजी के नाम से भी जाना जाता है। उनका जन्म चुरू जिले के ददरेवा गांव में हुआ था।",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5221,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संत मीराबाई के पति का नाम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोजराज"
+        },
+        {
+          "id": "opt2",
+          "text": "रतनसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "नरपतसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "संग्रामसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5222,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अलवर क्षेत्र की लोकदेवी के रूप में किसे मान्यता प्राप्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुगाली माता"
+        },
+        {
+          "id": "opt2",
+          "text": "सच्चिया माता"
+        },
+        {
+          "id": "opt3",
+          "text": "लटियाला माता"
+        },
+        {
+          "id": "opt4",
+          "text": "जिलाणी माता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5223,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जाहरपीर’ के नाम से कौन से लोक देवता को जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हड़बू जी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामदेव जी"
+        },
+        {
+          "id": "opt3",
+          "text": "देवनारायण जी"
+        },
+        {
+          "id": "opt4",
+          "text": "गोगा जी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5224,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लांगुरिया नृत्य होते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीनाथजी के मन्दिर में"
+        },
+        {
+          "id": "opt2",
+          "text": "कैला देवी के मन्दिर में"
+        },
+        {
+          "id": "opt3",
+          "text": "खाटू श्यामजी के मन्दिर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जीणमाता के मन्दिर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5225,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बालिन्दजी के गुरू कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू दयाल जी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामचरण जी"
+        },
+        {
+          "id": "opt3",
+          "text": "सुन्दर दास जी"
+        },
+        {
+          "id": "opt4",
+          "text": "मंगलाराम जी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दादू दयाल जीए बालिन्दजी के गुरू थे। बालिन्द जी ने ‘आरिलो’ नामक पुस्तक लिखी।",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5226,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अलखिया सम्प्रदाय’ की स्थापना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल गिरी"
+        },
+        {
+          "id": "opt2",
+          "text": "भोला नाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "चरण दास"
+        },
+        {
+          "id": "opt4",
+          "text": "संत दास जी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अलखिया संप्रदाय की स्थापना लाल गिरी ने की थी। उनका जन्म चुरू जिले के सुलखिया गांव में हुआ था, स्वामी लाल गिरि द्वारा प्रवर्तित इस निर्गुण भक्ति संप्रदाय की प्रधान पीठ बीकानेर में है। अलख स्तुति प्रकाश इस संप्रदाय का प्रमुख ग्रंथ है। गलता जी में स्वामी लाल गिरी की समाधि है।",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5227,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मलूकनाथ किस पंथ के साधु थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गरीबदासी पंथ"
+        },
+        {
+          "id": "opt2",
+          "text": "चरणदासी पंथ"
+        },
+        {
+          "id": "opt3",
+          "text": "रामानन्द पंथ"
+        },
+        {
+          "id": "opt4",
+          "text": "रामस्नेही पंथ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5228,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रसिक संप्रदाय का प्रवर्तक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलदास"
+        },
+        {
+          "id": "opt2",
+          "text": "अग्रदास"
+        },
+        {
+          "id": "opt3",
+          "text": "ईसरदास"
+        },
+        {
+          "id": "opt4",
+          "text": "गिरधरदास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5229,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन्त पाबूजी के शिष्य मुख्यतः है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेबारी"
+        },
+        {
+          "id": "opt2",
+          "text": "जाट"
+        },
+        {
+          "id": "opt3",
+          "text": "छीपा"
+        },
+        {
+          "id": "opt4",
+          "text": "गुर्जर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5230,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक शासक एवं सन्त पीपा किस स्थान से संबंधित थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आम्बेर"
+        },
+        {
+          "id": "opt2",
+          "text": "वाराणसी"
+        },
+        {
+          "id": "opt3",
+          "text": "जायल"
+        },
+        {
+          "id": "opt4",
+          "text": "गागरौन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5231,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संत मावजी का संबंध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5232,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा दादूपंथ का उप-संप्रदाय नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खालसा"
+        },
+        {
+          "id": "opt2",
+          "text": "खाकी"
+        },
+        {
+          "id": "opt3",
+          "text": "सतनामी"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तरादे"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सतनामी दादूपंथ का उप-संप्रदाय नहीं है।दादूपंथ के प्रमुख उप-संप्रदायों में निम्नलिखित संप्रदाय शामिल हैं: 1.खालसा 2. विरक्त 3. उत्तराधि 4. नागा 5. खाकी 6. स्थानधारीसतनामी एक अलग धार्मिक संप्रदाय है, जिसकी स्थापना 17वीं शताब्दी में गुरु घासीदास द्वारा छत्तीसगढ़ में की गई थी।",
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5233,
+        "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोक देवता की स्मृति में तिलवाड़ा का मेला भरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरभूजी"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "मल्लीनाथ जी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तिलवाड़ा का मेला (बालोतरा) राजस्थान के लोक देवता मल्लीनाथ जी की स्मृति में आयोजित होता है। मल्लीनाथ जी मारवाड़ के राठौड़ वंश के थे और उनकी पूजा विशेष रूप से पशुपालक समुदाय द्वारा की जाती है।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5235,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से असत्य कथन को पहचानिये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोक देवता बाबा रामदेव का जन्म पोकरण के पास रूणिचा ग्राम में हुआ था।"
+        },
+        {
+          "id": "opt2",
+          "text": "बाबा रामदेव को हिन्दू कृष्ण के अवतार के रूप में और मुस्लिम रामसा पीर के रूप में पूजते हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथ में भाला लिए एक घुड़सवार बाबा रामदेव का प्रतीक है।"
+        },
+        {
+          "id": "opt4",
+          "text": "बाबा रामदेव के मेले में तेरहताली नृत्य विशिष्ट आकर्षण होता है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तंवर वंशीय अजमालजी और मैणादे के पुत्र रामदेवजी का जन्म बाड़मेर जिले की शिव तहसील के ऊँडूकासमेर गाँव में हुआ था। इन्हें मल्लीनाथजी के समकालीन माना जाता है। बालयवस्था में ही सातलमेर (पोकरण) क्षेत्र मल्लीनाथजी से प्राप्त करने के पश्चात् भैरव नामक क्रूर व्यक्ति का अंत करके वहाँ के लोगों को अराजकता व आतंक मुक्त किया था।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5236,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा जसनाथी सम्प्रदाय का मुख्य केंद्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धोलीदूब"
+        },
+        {
+          "id": "opt2",
+          "text": "कतरियासर"
+        },
+        {
+          "id": "opt3",
+          "text": "गोठ-मांगलोद"
+        },
+        {
+          "id": "opt4",
+          "text": "मुकाम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5237,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैष्णव सम्प्रदाय के पुष्ठिमार्ग से सम्बंधित केन्द्रों को चिन्हित कीजिये-1. नाथद्वारा 2. कांकरौली 3. सलेमाबाद 4. गलतासही कूट को चुनिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 व 4"
+        },
+        {
+          "id": "opt2",
+          "text": "2 व 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1 व 2"
+        },
+        {
+          "id": "opt4",
+          "text": "3 व 4"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5238,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आचार्य तुलसी ने “आणुव्रत आन्दोलन” का सुत्रपात कब किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1942 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1949 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1945 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1952 ई."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5239,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोगाजी का मेला कहां आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फलौदी के निकट हालूगढ़ गांव में"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर के चन्दनगांव में"
+        },
+        {
+          "id": "opt3",
+          "text": "बैराठ के निकट बाणगंगा के तट पर"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़ की नोहर तहसील के एक गांव में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5241,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    }
+  ]
+}

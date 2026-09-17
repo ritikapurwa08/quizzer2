@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के मेले भाग 5",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "आदिवासियों का कुंभ कहा जाने वाला ‘बेणेश्वर मेला’ किस जिले में लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9441,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सीताबाड़ी मेला मुख्यतः _______ जनजाति से सम्बंधित हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भील"
+        },
+        {
+          "id": "opt2",
+          "text": "सहरिया"
+        },
+        {
+          "id": "opt3",
+          "text": "गरासिया"
+        },
+        {
+          "id": "opt4",
+          "text": "सांसी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सीताबाड़ी मेला सीताबाड़ी के स्थान पर आयोजित किया जाता है जो राजस्थान के केलवाड़ा कस्बा के पास बारां शहर से लगभग 45 किमी दूर है। इसे सहरियाओं का लघु कुंभ कहा जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9442,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भर्तहरि का मेला राजस्थान के किस जिले में भरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9443,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मल्लीनाथजी पशु मेला कब प्रारम्भ होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र शुक्ल एकादशी"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र कृष्ण नवमी"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र अमावस्या"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र कृष्ण एकादशी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9444,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस स्थान पर प्रति वर्ष 12 सितंबर को ‘वृक्ष महोत्सव’ मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेजड़ली"
+        },
+        {
+          "id": "opt2",
+          "text": "मंडोर"
+        },
+        {
+          "id": "opt3",
+          "text": "बिलाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "फलौदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9445,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चन्द्रभागा पशु मेला कहाँ लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालरापाटन"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमंद"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंद्रभागा पशु मेला राजस्थान के झालावाड़ ज़िले के झालरापाटन में लगता है। यह मेला हर साल कार्तिक महीने (अक्टूबर-नवंबर) में लगता है। यह मेला चंद्रभागा नदी को समर्पित है, जिसे राजस्थान के लोग पवित्र मानते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9446,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोक-संत की स्मृति में प्रतिवर्ष चैत्र अमावस्या को जोधपुर के कोलू अथवा कोलूमंड ग्राम में विशाल मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt2",
+          "text": "पीपाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt4",
+          "text": "तेजाजी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "लोकदेवता पाबूजी राठौड़ का जन्म 1299 ईस्वी में कोलूमंड (फलौदी) गांव में हुआ था। उनके पिता का नाम धांधलजी व मां का नाम कमलादे था।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9447,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोमती सागर पशु मेले का आयोजन निम्नलिखित में से किस स्थान पर होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरापाटन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9449,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (पशुमेले और स्थान) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वीर तेजाजी पशुमेला – परवतसर"
+        },
+        {
+          "id": "opt2",
+          "text": "मल्लिनाथ पशुमेला – तिलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "जसवंत पशुमेला – करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "गोमतीसागर पशुमेला – झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9450,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दधिमती माता का मेला निम्न में से किस जिले में आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9451,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बेणेश्वर का मेला कब भरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "वैशाख पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "माघ पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9452,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘लांगुरिया’ गीत किस मेले का आकर्षण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जीण माता का मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "रामदेवजी का मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "शीतला माता का मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "कैलादेवी का मेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9453,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अमृता देवी की स्मृति में खेजड़ली शहीद मेला कब लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद शुक्ल अष्टमी"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक शुक्ल दशमी"
+        },
+        {
+          "id": "opt3",
+          "text": "आषाढ़ शुक्ल दशमी"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद शुक्ल दशनी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9454,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा असत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेजाजी मेला - भाद्रपद शुक्ल दशमी"
+        },
+        {
+          "id": "opt2",
+          "text": "पुष्कर मेला - अश्विन पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "सीतामाता मेला - ज्येष्ठ अमावस्या"
+        },
+        {
+          "id": "opt4",
+          "text": "कैला देवी मेला - चैत्र शुक्ल पक्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अजमेर जिले का पुष्कर हिन्दू धर्मावलम्बियों की आस्था का एक प्रमुख केन्द्र है। इसे तीर्थराज, कोंकण तीर्थ तथा तीर्थो का मामा भी कहा जाता है। कदाचित पूरे देश में यहीं ब्रह्माजी का एकमात्र ऐसा मंदिर है जिसमें विधिवत उनकी पूजा होती है। इसी मंदिर के पीछे की पहाड़ियों पर सावित्री और गायत्री माता के मंदिर भी हैं। यहाँ का रंगनाथ मंदिर तथा 52 घाट प्रसिद्ध है। इसी तीर्थ स्थली पुष्कर में प्रति माह की पूर्णिमा को तो मेला लगता ही है किन्तु कार्तिक माह की पूर्णिमा का मेला अपनी विशालता के कारण अनुपम माना जाता है। यह मेला कार्तिक शुक्ल एकादशी से पूर्णिमा तक चलता है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9455,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गधों का मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर के पास भावगढ़ बंध्या गांव एक ऐसी जगह है जहां पिछले 500 वर्ष से गधों का मेला लगता आ रहा है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9456,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रज महोत्सव - अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्रीष्म महोत्सव - माउण्ट आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथी महोत्सव - जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "मरु महोत्सव - जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9457,
+        "exam": "School Lecturer 2022 History (Group - C)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नारायणी माता (अलवर) का मेला किस तिथि को आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र शुक्ल – 13"
+        },
+        {
+          "id": "opt2",
+          "text": "वैशाख शुक्ल – 11"
+        },
+        {
+          "id": "opt3",
+          "text": "अश्विन शुक्ल – 14"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक शुक्ल – 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वैशाख शुक्ल एकादशी को नारायणी माता का मेला लगता है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9458,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सीताबाड़ी का मेला कहाँ आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तिलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "नोखा"
+        },
+        {
+          "id": "opt3",
+          "text": "केलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोलायत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9459,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में चन्द्रभागा मेला अक्टूबर-नवम्बर में कहां पर आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कामां (भरतपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "माउण्ट आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरापाटन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9460,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सीताबाड़ी आदिवासियों का मेला’ किस जिले में लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सीताबाड़ी, केलवाड़ा कस्बा के पास बारां शहर से लगभग 45 किमी दूर स्थित है। इस स्थान पर मेले का आयोजन ज्येष्ठ अमावस्या को किया जाता है जो मई से जून के बीच पड़ती है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9461,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    }
+  ]
+}

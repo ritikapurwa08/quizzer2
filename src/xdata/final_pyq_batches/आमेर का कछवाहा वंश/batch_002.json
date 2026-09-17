@@ -1,0 +1,672 @@
+{
+  "masterTopic": "आमेर का कछवाहा वंश",
+  "batchIndex": 2,
+  "batchName": "आमेर का कछवाहा वंश भाग 2",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "आमेर-का-कछवाहा-वंश",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "उस समुच्चय को चुनिए जिसके सभी शहरों में सवाई जयसिंह द्वारा वेधशालाएँ बनवाई गई हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मथुरा, उज्जैन, दिल्ली, बनारस"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, उज्जैन, दिल्ली, आगरा"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, दिल्ली, मथुरा, इलाहाबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, मथुरा, इलाहाबाद, आगरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने जयपुर, दिल्ली, मथुरा, उज्जैन, और बनारस में पाँच वैद्यशालाएँ स्थापित की। सबसे बड़ी वैद्यशाला जयपुर का जंतरमंतर है जिसकी स्थापना 1728 ई में की गई।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9978,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मानसिंह ने किस प्रांत की सूबेदारी के दौरान ईसा खाँ, सुलेमान और केदार राय को नियंत्रित किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवा"
+        },
+        {
+          "id": "opt2",
+          "text": "काबुल"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "बिहार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मानसिंह की सेवाओं से प्रसन्न होकर 1594 ई. में सम्राट ने उसे बंगाल सूबेदार बनाया। सबसे पहले उसने सूबे की राजधानी टाण्डा से बदल कर राजमहल कर दी, जिसकी सैनिक स्थिति तका जलवायु सन्तोषजनक थी। उसने पूर्वी बंगाल के विद्रोहियों को, जिनमें ईसाखाँ, सुलेमान और केदारराय मुख्य थे, दबाया।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9979,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रथम बार सात-हजारी के मनसब और मिर्जा राजा की उपाधि प्राप्त करने वाला आमेर का शासक था:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राजा बिशन सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "भगवानदास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भगवान दास की मृत्यु के बाद अकबर ने इसके पुत्र मानसिंह को मिर्जाराजा और फर्जन्द (पुत्र) की उपाधियों से विभूषित कर आमेर का शासक घोषित कर दिया। मान सिंह अकबर के नौ रत्नों में से एक थे। अकबर ने मानसिंह को 7000 का मनसब व फर्जन्द (बेटा) की उपाधि प्रदान की।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9980,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आमेर के राजा मान सिंह 1587 से 1594 तक किस प्रांत के सूबेदार थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काबुल"
+        },
+        {
+          "id": "opt2",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt3",
+          "text": "बिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "मालवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजा मानसिंह आमेर के कच्छवाहा राजपूत थे। उसने 1589ई. से1614ई. तक राज किया था। मानसिंह ने मुगल शासन में काबुल, बल्ख, बुखारा, बंगाल, बिहार में सूबेदार के तौर पर शासन किया था। बादशाह अकबर द्वारा मानसिंह को1587में बिहार की सूबेदारी दी गई।1594में बंगाल का सूबेदार नियुक्त किया गया था।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10076,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से जयपुर के किस शासक ने सर्वप्रथम नागा दादूपंथियों को सेना में भर्ती किया थाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जय सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "ईश्वरी सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "माधो सिंह प्रथम"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने सर्वप्रथम दादूपंथियों को सेना में भर्तीं किया था। दादूपंथियों को जयपुर सेना में नागा के नाम से जाना जाता है। नागा दादूपंथी अपने सैन्य कौशल और धार्मिक भक्ति के लिए प्रसिद्ध थे।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10087,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कच्छावा राजवंश के अधोलिखित शासकों को कालक्रमानुसार व्यवस्थित कीजिए: (i) भगवन्तदास(ii) मानसिंह-I(iii) भावसिंह(iv) जयसिंह-Iसही कूट चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iii) एवं (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii), (i), (ii) एवं (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i), (ii), (iv) एवं (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii), (ii), (i) एवं (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भगवानदास / भगवन्त दास (1574-1589 ई.) > मानसिंह (1589-1614 ई.) > भावसिंह (1614 -21 ई.) > मिर्जाराजा जयसिंह (1621-1667 ई.)",
+      "reference": "📌 PYQ — RPSC ACF FRO 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10116,
+        "exam": "RPSC ACF FRO 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कछवाहा राजवंश के संस्थापक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोकिलदेव"
+        },
+        {
+          "id": "opt2",
+          "text": "दूल्हे राय"
+        },
+        {
+          "id": "opt3",
+          "text": "भारमल"
+        },
+        {
+          "id": "opt4",
+          "text": "जयसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दौसा में चौहान और बड़गुर्जरों का शासन था। लेकिन आपसी शत्रुता बढ़ने पर चौहानों ने अपने जवाई दुल्हाराय को आमंत्रित किया। दुल्हाराय ने बड़गुर्जरों को पराजित कर दिया। रालपसी ने दौसा का क्षेत्र दुल्हाराय को दे दिया। दुल्हाराय ने अपने पिता सोढ़ा देव को दौसा का शासक बनाया।",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10117,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मानसिंह को बिहार का सूबेदार किस वर्ष नियुक्त किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1587 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1588 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1589 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1585 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "काबुल से मानसिंह का स्थानान्तरण बिहार कर दिया गया, क्योंकि वहां स्थानीय जमींदारों के उपद्रव हो रहे थे और कई छोटे-छोटे राजा मुगल सत्ता की अवहेलना कर मनमानी करते थे। मानसिंह 1587 से 1594 ई. तक बिहार का सुबेदार था।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10153,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसने जयपुर शहर की स्थापना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई राजा जय सिंह द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "ईश्वर सिंह द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "माधोसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने 18 नवम्बर, 1727 ई. जयपुर नगर की नींव रखी और उसे अपनी नवीन राजधानी (पहली दौसा, दूसरी जमवारामगढ़, तीसरी आमेर) बनाया। इसका वास्तुकार विद्याधर भट्टाचार्य था। नींव पंडित जगन्नाथ सम्राट द्वारा रखी गयी और इसकी जानकारी बख्तराम द्वारा रचित ग्रंथ बुद्धि विलास में मिलती है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10155,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शहर में जयपुर नरेश द्वारा वेधशाला का निर्माण नहीं कराया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाराणसी"
+        },
+        {
+          "id": "opt2",
+          "text": "उज्जैन"
+        },
+        {
+          "id": "opt3",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सवाई जयसिंह ने जयपुर, दिल्ली, मथुरा, उज्जैन, और बनारस में पाँच वैद्यशालाएँ स्थापित की।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10157,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आमेर के किस शासक को अकबर ने ‘फर्जन्द’ की उपाधि दी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारमल"
+        },
+        {
+          "id": "opt2",
+          "text": "भगवानदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "मिर्जा राजा जयसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भगवान दास की मृत्यु के बाद अकबर ने इसके पुत्र मानसिंह को मिर्जाराजा और फर्जन्द (पुत्र) की उपाधियों से विभूषित कर आमेर का शासक घोषित कर दिया। मान सिंह अकबर के नौ रत्नों में से एक थे।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10158,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस स्थान पर सवाई जयसिंह द्वारा वेधशाला नही बनवाई गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "मथुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "उज्जैन"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्वालियर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महाराज सवाई जयसिंह द्वितीय द्वारा हिन्दू खगोलशास्त्र के आधार पर देश भर में पाँच वेधशालाओं का निर्माण कराया था। ये वेधशालाएँ जयपुर, दिल्ली, उज्जैन, बनारस और मथुरा में स्थित है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020 RPSC Evaluation Officer 2020 RPSC School Lect. (P-I) 2013 RPSC Agriculture Officer 2011 Paper-I RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10174,
+        "exam": "RPSC Deputy Commandant 2020 RPSC Evaluation Officer 2020 RPSC School Lect. (P-I) 2013 RPSC Agriculture Officer 2011 Paper-I RPSC Head Master (S.S.) 2011",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराजा मानसिंह की मृत्यु कहाँ हुई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt2",
+          "text": "बिहार"
+        },
+        {
+          "id": "opt3",
+          "text": "उड़ीसा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराष्ट्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजा मानसिंह अकबर के नौ रत्नों में शामिल थे। उन्हें अकबर ने काबुल, बंगाल, बिहार का सूबेदार नियुक्त किया था। इनकी स्वाभाविक मृत्यु एलिचपुर (महाराष्ट्र) में हुई थी।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10178,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन आमेर के शासक मानसिंह-I के संरक्षण में था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नरोत्तम कवि"
+        },
+        {
+          "id": "opt2",
+          "text": "जगन्नाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "कुलपति मिश्र"
+        },
+        {
+          "id": "opt4",
+          "text": "बिहारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आमेर के शासक मानसिंह प्रथम के संरक्षण में नरोत्तम कवि थे। ये हिन्दी साहित्य के प्रमुख कवि थे। इनका जन्म सीतापुर में हुआ था।",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10183,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अकबर द्वारा मानसिंह को निम्नलिखित में कौनसे मुगल प्रान्तों का सुबेदार(राज्यपाल) नियुक्त किया गया था -1. काबुल 2. बिहार 3. बंगाल 4. गुजरात",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 3"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मानसिंह बंगाल, बिहार और काबुल का शासक नियुक्त हुआ था।",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10191,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस समुच्चय को चुनीये जिसमें सभी स्थनों में सवाई जयसिंह II द्वारा निर्मित वेद्यशालाएं हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, दिल्ली, उज्जैन, इलाहाबाद और मथुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, आगरा, दिल्ली, मथुरा और उज्जैन"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, बनारस, उज्जैन, मथुरा, दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, दिल्ली, अजमेर, बनारस, मथुरा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सवाई जयसिंह ने जयपुर, दिल्ली, मथुरा, उज्जैन, और बनारस में पाँच वैद्यशालाएँ स्थापित की।",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10192,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कछवाहा राजवंश की प्रथम राजधानी कहाँ थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt2",
+          "text": "जमवारामगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "आम्बेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कछवाहा राजवंश की प्रथम राजधानी दौसा थी। कछवाहा राजवंश के संस्थापक दूल्हेराय ने दौसा को अपनी राजधानी बनाया था।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10197,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस सन् में अकबर ने मानसिंह को 7000 जात व 6000 सवार का मनसब प्रदान किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1599"
+        },
+        {
+          "id": "opt2",
+          "text": "1601"
+        },
+        {
+          "id": "opt3",
+          "text": "1603"
+        },
+        {
+          "id": "opt4",
+          "text": "1605"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बंगाल में भू-राजस्व के बंदोबस्त से प्रसन्न होकर सम्राट ने अपने राज्याभिषेक के 50वें वर्ष (11 मार्च, 1605) पर उसे 7000 जात और 6000 सवार का मनसब दिया।",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10206,
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर का स्थापना वर्ष है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1727 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1723 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1702 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1750 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने 18 नवम्बर, 1727 ई. जयपुर नगर की नींव रखी और उसे अपनी नवीन राजधानी (पहली दौसा, दूसरी जमवारामगढ़, तीसरी आमेर) बनाया। इसका वास्तुकार विद्याधर भट्टाचार्य था। नींव पंडित जगन्नाथ सम्राट द्वारा रखी गयी और इसकी जानकारी बख्तराम द्वारा रचित ग्रंथ बुद्धि विलास में मिलती है।",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10208,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आमेर के राजा भारमल ने अकबर की अधीनता कब स्वीकार की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1560ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1562ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1564ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1566ई."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "20 जनवरी 1562 ई. को भारमल ने अकबर की अधीनता स्वीकार की।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10266,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    }
+  ]
+}

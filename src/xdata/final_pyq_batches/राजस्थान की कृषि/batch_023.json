@@ -1,0 +1,663 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 23,
+  "batchName": "राजस्थान की कृषि भाग 23",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भूरी क्रान्ति का सम्बन्ध है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खाद्यान्न प्रसंस्करण"
+        },
+        {
+          "id": "opt2",
+          "text": "भैंस दूध उत्पादन"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊन उत्पादन"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी के बालों का उत्पादन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान सरकार द्वारा खाद्यान्न प्रसंस्करण उद्योग के विकास को जनान्दोलन का रूप देने हेतु `भूरी क्रान्ति'(Brown Revolution)नामक योजना संचालित की जा रही है। दुग्ध उत्पादन में वृद्धि हेतु राष्ट्रीय स्तर पर `श्वेतक्रांति' या `ऑपरेशन फ्लड' कार्यक्रम चलाया जा रहा है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2050,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गर्म रुधिर वाले जन्तु वे होते हैं, जो अपने शरीर के तापक्रम को─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वातावरण के तापक्रम से नीचा रखते हैं"
+        },
+        {
+          "id": "opt2",
+          "text": "वातावरण के तापक्रम से ऊँचा रखते हैं"
+        },
+        {
+          "id": "opt3",
+          "text": "हमेशा एक सा बनाये रखते हैं"
+        },
+        {
+          "id": "opt4",
+          "text": "वातावरण के तापक्रम के बराबर बनाये रखते हैं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गर्म या उच्चताप रक्त वाले जन्तु नियततापी या समतापी होते हैं अर्थात् इनके शरीर का तापमान एकसमान बना रहता है। मनुष्य, बकरी आदि गर्म रक्त वाले समतापी जीव हैं। स्तनधारी वर्ग में रक्त का सबसे अधिक तापमान(औसतन39o सेल्सियस)बकरी का होता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2052,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गेहूँ पर पाए जाने वाले दो प्रमुख कवक रोग हैं─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काला किट्ट और स्मट"
+        },
+        {
+          "id": "opt2",
+          "text": "श्वेत किट्ट और स्मट"
+        },
+        {
+          "id": "opt3",
+          "text": "स्मट और पूर्ण-कुंचन"
+        },
+        {
+          "id": "opt4",
+          "text": "काला किट्ट और श्वेत किट्ट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गेहूँ में पाये जाने वाले दो प्रमुख कवक रोग - काला किट्ट एवं स्मट हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2053,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अदरक का तना जो मिट्टी में उगता है, और खाद्य संग्रहण करता है वह कहलाता है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रकन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "राइजोफोर"
+        },
+        {
+          "id": "opt4",
+          "text": "घनकन्द"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अदरक का तना जो मिट्टी में उगता है, और खाद्य का संग्रहण करता है, प्रकन्द कहलाता है। प्रकन्द की सहायता से ही अदरक के पौधे को खनिज लवण प्राप्त होते हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2054,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के किस राज्य में कहवा, रबड़ तथा तम्बाकू की कृषि की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्नाटक"
+        },
+        {
+          "id": "opt2",
+          "text": "मेघालय"
+        },
+        {
+          "id": "opt3",
+          "text": "गोवा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराष्ट्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के कर्नाटक में कहवा, रबड़ तथा तम्बाकू की खेती की जाती है। विश्व के कुल कहवा उत्पादन में भारत का योगदान लगभग3%है। वर्तमान समय में भारत में उत्पादित होने वाले कहवा का 70.50%उत्पादन अकेले कर्नाटक में ही होता है। कहवा के अन्य उत्पादक राज्य केरल(20.68%) तथा तमिलनाडु(5.353)हैं। विदित है कि रबर उत्पादन में केरल तथा तम्बाकू उत्पादन में गुजरात राज्य का देश में प्रथम स्थान है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18813,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बहुउद्देशीय नदी घाटी योजनाओं को आधुनिक भारत के मन्दिर किसने कहा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डॉ.राजेन्द्र प्रसाद"
+        },
+        {
+          "id": "opt2",
+          "text": "जवाहर लाल नेहरू"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीमती इन्दिरा गांधी"
+        },
+        {
+          "id": "opt4",
+          "text": "महात्मा गांधी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हमारे देश का अर्थतंत्र कृषि पर टिका हुआ है। भारतीय कृषि `मानसून का जुआ’ बनकर रह गयी है। देश में औद्योगिक विकास के लिए पर्याप्त विद्युत ऊर्जा की आवश्यकता है। भारत में भी संयुक्त राज्य अमेरिका की टैनेसी घाटी योजना के तर्ज पर नदी घाटी क्षेत्रों के सर्वांगीण विकास के लिए नदियों पर बहुउद्देशीय योजनाएं स्थापित करने का निश्चय किया गया। इन्हीं बहुउद्देशीय नदी घाटी योजनाओं को पं. जवाहर लाल नेहरू ने `आधुनिक भारत के मन्दिर’ की संज्ञा दी।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1994-95",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18814,
+        "exam": "RPSC RAS/RTS Pre 1994-95",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्य आय में औद्योगिक उद्भव(प्रचलित कीमतों पर)के आधार पर 1989-90 में कृषि का हिस्सा कितना था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "40.08%"
+        },
+        {
+          "id": "opt2",
+          "text": "52.6%"
+        },
+        {
+          "id": "opt3",
+          "text": "56.4%"
+        },
+        {
+          "id": "opt4",
+          "text": "61.5%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कृषिराजस्थानकीअर्थव्यवस्थाकामुख्यआधार है। यहाँ की75%जनसंख्या कृषि एवं पशुपालन परनिर्भरहै।प्रश्न काल के दौरानराज्यमेंकृषितथाइससेसंलग्नक्षेत्रोंसेप्राप्तआय राज्यमेंऔद्योगिकउद्भवकेआधार पर कुल40.08प्रतिशत था। जबकि राज्य की सम्पूर्ण आय में कृषि का हिस्सा52% था। जबकि वर्ष2023-24में राज्य के कुल जी.एस.वी.ए. में कृषि का हिस्सा 26.21प्रतिशत तथा कृषि एवं संबद्ध क्षेत्रों को मिलाकर यह हिस्सा 26.72प्रतिशत है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1992",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2055,
+        "exam": "RPSC RAS/RTS Pre 1992",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की अर्थव्यवस्था के प्रमुख क्षेत्रों(कृषि, उद्योग एवं जनसाधारण के जीवन की गुणवत्ता)से संबंधित सर्वाधिक निर्णायक मुद्दा कौन-सा है जो र्आिथक क्रियाओं के स्तर को प्रभावित करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल का अभाव"
+        },
+        {
+          "id": "opt2",
+          "text": "पूँजी की कमी"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊर्जा की कमी"
+        },
+        {
+          "id": "opt4",
+          "text": "व्यापक निरक्षरता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "देशकेअन्यराज्योंकीतुलनामेंराजस्थानकीसाक्षरता दरबहुतकमहै।जनगणना2011मेंराष्ट्रीय साक्षरतादर73.0%है जबकिराजस्थानमेंसाक्षरताकाप्रतिशत66.1%है। इससे स्पष्ट है कि राजस्थान में अभी भी लगभग आधे से कुछ कम जनसंख्या निरक्षर है। यही व्यापक निरक्षरता एवं अशिक्षा ही राजस्थान में कृषि, उद्योग एवं जीवन स्तर में अपेक्षित वृद्धि नहीं होने का निर्णायक कारक है। 656",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1992",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2056,
+        "exam": "RPSC RAS/RTS Pre 1992",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में औद्योगिक विकास के लिए वृहद् एवं मध्यम आकार के उद्योगों को अवधि ऋण एवं अंश पूँजी प्रदान करने के लिए कार्य करने वाले संगठन का नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान एग्रो-इंडस्ट्रीज कार्पोरेशन"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसीको"
+        },
+        {
+          "id": "opt3",
+          "text": "आर. एफ. पत्थर"
+        },
+        {
+          "id": "opt4",
+          "text": "रीको"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थानमेंऔद्योगिकविकासकेलिएवृहद्एवं मध्यमआकारकेउद्योगोंकोअवधि ऋण एवं अंशपूँजीप्रदान करनेकेलिएकार्यकरनेवालेसंगठनकानाम`राजस्थानराज्य औद्योगिकविकासएवंनिवेश निगम' (रीको) है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1992",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2057,
+        "exam": "RPSC RAS/RTS Pre 1992",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में चना का सर्वाधिक उत्पादन किस जिले में होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2067,
+        "exam": "RSMSSB PTI Grade-III P1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर, अजमेर, दौसा और टोंक जिले किस कृषि जलवायु क्षेत्र के अन्तर्गत आते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "III-A"
+        },
+        {
+          "id": "opt2",
+          "text": "III-B"
+        },
+        {
+          "id": "opt3",
+          "text": "IV-A"
+        },
+        {
+          "id": "opt4",
+          "text": "IV-B"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2130,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘खस’ विशेषकर उत्पादित होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2131,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘वालर’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागवानी"
+        },
+        {
+          "id": "opt2",
+          "text": "मछली पालन"
+        },
+        {
+          "id": "opt3",
+          "text": "वैज्ञानिक खेती"
+        },
+        {
+          "id": "opt4",
+          "text": "चलायमान खेती"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2132,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी कृषि पद्धति मृदा अपरदन के लिए जिम्मेदार नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागाती कृषि"
+        },
+        {
+          "id": "opt2",
+          "text": "झूमिंग कृषि"
+        },
+        {
+          "id": "opt3",
+          "text": "गहन कृषि"
+        },
+        {
+          "id": "opt4",
+          "text": "सीढ़ीदार कृषि"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2133,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की मोठा (Motha) पादप प्रजाति किस वास का वर्ग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहाड़ीवास"
+        },
+        {
+          "id": "opt2",
+          "text": "जलवास"
+        },
+        {
+          "id": "opt3",
+          "text": "खारावास"
+        },
+        {
+          "id": "opt4",
+          "text": "रेतीलावास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का मोथा पादप समुदाय जलीय आवास श्रेणी1 से संबंधित है।",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2134,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस जिले में अफीम का सर्वाधिक उत्पादन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "चूरू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2135,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन-सा कृषि जलवायु प्रदेश सबसे बड़ा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I-A"
+        },
+        {
+          "id": "opt2",
+          "text": "III-A"
+        },
+        {
+          "id": "opt3",
+          "text": "IV-A"
+        },
+        {
+          "id": "opt4",
+          "text": "V"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2136,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा जिला उप-आर्द्र दक्षिणी-मैदानी कृषि जलवायु प्रदेश में स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अर्द्ध आर्द्र दक्षिणी मैदानी क्षेत्र (IV-A) में उदयपुर, चित्तौड़गढ़, राजसमंद, भीलवाड़ा, सिरोही स्थित हैं।",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2137,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा फल राजस्थान में मुख्यतः सिरोही जिले द्वारा उत्पादित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनार"
+        },
+        {
+          "id": "opt2",
+          "text": "चीकू"
+        },
+        {
+          "id": "opt3",
+          "text": "माल्टा"
+        },
+        {
+          "id": "opt4",
+          "text": "आम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2138,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसका प्रयोग कब्ज ठीक करने में किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरण्डी तेल"
+        },
+        {
+          "id": "opt2",
+          "text": "कत्था"
+        },
+        {
+          "id": "opt3",
+          "text": "मेंहदी"
+        },
+        {
+          "id": "opt4",
+          "text": "ढाक"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2139,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    }
+  ]
+}

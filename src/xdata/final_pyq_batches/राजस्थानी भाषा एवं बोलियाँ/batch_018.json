@@ -1,0 +1,237 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 18,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 18",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 7,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘दरखत पर टंगी रोटी’ के रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामकुमार ओझा"
+        },
+        {
+          "id": "opt2",
+          "text": "सुषमा चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्पा रघु"
+        },
+        {
+          "id": "opt4",
+          "text": "श्याम जांगिड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6989,
+        "exam": "Raj Jail Warder (27-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किर्तिस्तम्भ की प्रशस्ति की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कवि एवं अत्रि ने"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल महेश ने"
+        },
+        {
+          "id": "opt3",
+          "text": "कवि, अत्रि एवं महेश ने"
+        },
+        {
+          "id": "opt4",
+          "text": "कवि एवं महेश ने"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6990,
+        "exam": "Raj Jail Warder (27-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दलपतविलास’ का प्रकाशन राजस्थान के किस स्थान पर स्थित रिसर्च इन्टीट्यूट द्वारा किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6992,
+        "exam": "Raj Jail Warder (27-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘केसर की क्यारी में रक्त के फूल’ किस रचनाकार की कृति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजानन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "बिशन सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जगदीश बोरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सुमेर सिंह दईया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6994,
+        "exam": "Raj Jail Warder (28-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जीवन कुटीर के गीत’ निम्न में से किसके द्वारा लिखा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुल भाई भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिभाऊ उपाध्याय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6997,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजविनोद’ का रचयिता कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नरौत्तम"
+        },
+        {
+          "id": "opt2",
+          "text": "सदाशिव भट्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "श्यामल दास"
+        },
+        {
+          "id": "opt4",
+          "text": "किशोरदास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज विनोद, बीकानेर शासक महाराजा कल्याणमल के दरबारी कवि सदाशिव भट्ट द्वारा 16वीं शताब्दी में लिखी गई एक पुस्तक है।",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6998,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राम चंद्रिका’ किसके द्वारा रचित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द्वारकानाथ भट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "मिर्जा राजा जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "देवर्षि भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "माधवसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6999,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    }
+  ]
+}

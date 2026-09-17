@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+  "batchIndex": 7,
+  "batchName": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ भाग 7",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-हस्तशिल्प-एवं-हस्तकलाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "पछेवड़ा क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पगड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "ओढने वाला मोटा वस्त्र"
+        },
+        {
+          "id": "opt4",
+          "text": "एक रस्म"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पछेवड़ा, राजस्थान में पहनी जाने वाली मोटी सूती शॉल को कहते हैं। यह कंबल की तरह मोटा सूती कपड़ा होता है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18140,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चंपाकली महिलाओं के शरीर के किस भाग सुशोभित करती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कमर को"
+        },
+        {
+          "id": "opt2",
+          "text": "गले को"
+        },
+        {
+          "id": "opt3",
+          "text": "कानों को"
+        },
+        {
+          "id": "opt4",
+          "text": "बाजुओं को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18142,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोजरी का संबंध ______ से है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्रकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीन"
+        },
+        {
+          "id": "opt3",
+          "text": "जूते"
+        },
+        {
+          "id": "opt4",
+          "text": "आभूषण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मोजरी एक पारंपरिक राजस्थानी जूता है, जो चमड़े से बनाया जाता है और अक्सर इस पर सुंदर कढ़ाई की जाती है। यह राजस्थान की हस्तशिल्प कला का हिस्सा है और विशेष रूप से पुरुषों द्वारा पहना जाता है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18151,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "____ अपने काले-लाल प्रिंट के लिए प्रसिद्ध है जिसमें फूलों, पत्तियों, जानवरों और पक्षियों को मटिया (मिट्टी) रंग के आधार पर लाल और काले रंग में बनाया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगानेरी"
+        },
+        {
+          "id": "opt2",
+          "text": "कैथून"
+        },
+        {
+          "id": "opt3",
+          "text": "बगरू"
+        },
+        {
+          "id": "opt4",
+          "text": "अकोलां"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर के बगरू प्रिंट में काला व लाल रंग विशेष रूप से प्रयुक्त होता है।",
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18154,
+        "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोफ्तगिरी, राजस्थान का पारंपरिक शिल्प, एक प्रकार की सजावट है जिसकी उत्पत्ति भारत में _____ साथ हुई है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुप्तों"
+        },
+        {
+          "id": "opt2",
+          "text": "मराठों"
+        },
+        {
+          "id": "opt3",
+          "text": "मुग़लों"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंधियाओं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोफ्तगिरी एक प्रकार की सजावट है जो भारत में मुगलों के साथ हथियारों और हथियारों को सजाने के साधन के रूप में उत्पन्न होती है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18155,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वस्त्र रंगने की मलयगिरी पद्धति में किस रंग की प्रधानता होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीला"
+        },
+        {
+          "id": "opt2",
+          "text": "काला"
+        },
+        {
+          "id": "opt3",
+          "text": "भूरा"
+        },
+        {
+          "id": "opt4",
+          "text": "नीला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18156,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सांझी के रूप में किस देवी की पूजा की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt2",
+          "text": "दुर्गा"
+        },
+        {
+          "id": "opt3",
+          "text": "सरस्वती"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्ष्मी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18157,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शासक के समय राजस्थान में ब्लू पॉटरी की शुरूआत हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई रामसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18158,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजसमंद का मोलेला गाँव किस शिल्पकला के लिए विख्यात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माण्डणा शिल्प"
+        },
+        {
+          "id": "opt2",
+          "text": "काष्ठ कला"
+        },
+        {
+          "id": "opt3",
+          "text": "पटचित्र कला"
+        },
+        {
+          "id": "opt4",
+          "text": "मृण शिल्प"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18159,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोलेला ग्राम किस हस्तशिल्प कला के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कपड़े पर छपाई"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्लू पॉटरी"
+        },
+        {
+          "id": "opt3",
+          "text": "टेराकोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "आभूषण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मोलेला ग्राम, जो कि राजस्थान के राजसमंद जिले में स्थित है, मृण शिल्प (टेराकोटा) के लिए प्रसिद्ध है। मिट्टी को पकाकर मूर्तियाँ और खिलौने बनाए जाते हैं। मिट्टी को उच्च तापमान (800°C) पर पकाया जाता है। मुख्य केंद्र - मोलेला (राजसमंद), हरजी (जालौर)।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18160,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बेवाण’ कला सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रस्तर मूर्ति कला से"
+        },
+        {
+          "id": "opt2",
+          "text": "आँगन-चित्रण से"
+        },
+        {
+          "id": "opt3",
+          "text": "मृण कला से"
+        },
+        {
+          "id": "opt4",
+          "text": "काष्ठ कला से"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18161,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कुदरत सिंह किस हस्तशिल्प से सम्बद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उस्ता कला"
+        },
+        {
+          "id": "opt2",
+          "text": "बंधेज"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्ल्यू पॉटरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मीनाकारी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18163,
+        "exam": "School Lecturer 2022 Gk (G-B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "______ फड़-चित्रण के लिए जाना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शाहपुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18164,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तारकशी का संबंध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाथद्वारा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18165,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस क्षेत्र के ‘पनढारी मोदक’ प्रसिद्ध हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18166,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कावड़’ बनाने के लिए कौन प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मांगीलाल मिस्त्री"
+        },
+        {
+          "id": "opt2",
+          "text": "साहिबराम"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्पालाल"
+        },
+        {
+          "id": "opt4",
+          "text": "उस्ताद लालचन्द"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रसिद्ध काष्ठशिल्पी कावड़ निर्माता मांगीलाल मिस्त्री ने 1969 में मिस्त्री से भारतीय लोककला मण्डल में सेवाएं लेकर पारम्परिक मांगलिक काष्ठकलाएं गणगौर, ईसर, वेवाण, मुखौटा, चोपड़ा, कावड़, कठपुतलियां बनवाकर संग्रहालय में प्रदर्शित कीं।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18167,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रूपाहली और सुनहरी (स्वर्णिम) छपाई राजस्थान के किन जिलों में प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, जोधपुर और जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़, चित्तौड़गढ़ और कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, टोंक और बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी, पाली और सिरोही"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18168,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा वित्तीय संस्थान राजस्थान के हस्तशिल्प के विकास के लिए उत्तरदायी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसीको"
+        },
+        {
+          "id": "opt2",
+          "text": "रिको"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान वित्त निगम"
+        },
+        {
+          "id": "opt4",
+          "text": "रिडकोर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजसीको संस्थान शिल्पकारों से सीधे हस्तशिल्प वस्तुओं की खरीद करते हैं। राजस्थान लघु उद्योग निगम लिमिटेड (आरएसआईसी) का गठन 1961 में राजस्थान सरकार के उपक्रम के रूप में किया गया था।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18169,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले की ब्लैक पॉटरी फूलदानों, प्लेटों और मटकों के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18170,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आज़म और जाजम प्रिंट राजस्थान के किस जिले का प्रसिद्ध हस्तशिल्प है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18171,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    }
+  ]
+}

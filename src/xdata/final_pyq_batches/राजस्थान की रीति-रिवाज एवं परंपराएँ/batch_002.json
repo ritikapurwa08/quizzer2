@@ -1,0 +1,665 @@
+{
+  "masterTopic": "राजस्थान की रीति-रिवाज एवं परंपराएँ",
+  "batchIndex": 2,
+  "batchName": "राजस्थान की रीति-रिवाज एवं परंपराएँ भाग 2",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-रीति-रिवाज-एवं-परंपराएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य में प्रचलित ‘सागड़ी प्रथा’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शादी की परंपरा"
+        },
+        {
+          "id": "opt2",
+          "text": "एक विशेष प्रकार का कर"
+        },
+        {
+          "id": "opt3",
+          "text": "बंधुआ मजदूरी प्रणाली"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्व संग्रह का प्रकार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11889,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी प्रथा विवाह से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जलवा पूजन"
+        },
+        {
+          "id": "opt2",
+          "text": "जडूला"
+        },
+        {
+          "id": "opt3",
+          "text": "मूठ भराई"
+        },
+        {
+          "id": "opt4",
+          "text": "मौसर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11890,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चिकनी कोथली’ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुत्र जन्मोत्सव की एक रस्म"
+        },
+        {
+          "id": "opt2",
+          "text": "शादी की एक रस्म"
+        },
+        {
+          "id": "opt3",
+          "text": "मृत्यु पर एक रस्म"
+        },
+        {
+          "id": "opt4",
+          "text": "नए ग्रह प्रवेश की एक रस्म"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चिकनी कोथली - इसमें वर-पक्ष द्वारा सगाई होने के बाद वधू पक्ष को तीज व गणगौर पर उपहार भेजे जाते है।",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11891,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विवाह के दूसरे दिन वर पक्ष द्वारा नवदंपति के लिए आशीर्वाद समारोह व प्रीतिभोज को क्या कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कू"
+        },
+        {
+          "id": "opt2",
+          "text": "बढार"
+        },
+        {
+          "id": "opt3",
+          "text": "औलंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "आणों"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बढ़ार: विवाह के अवसर पर दुल्हन वालों की तरफ से विवाह के दूसरे दिन दिया जाने वाला सामूहिक प्रीतिभोज।",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11892,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कन्या वध को गैर कानूनी घोषित करने वाली राजस्थान की पहली रियासत थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में प्रचलित इस प्रथा में कन्या के जन्म लेते ही उसे अफीम देकर या गला दबाकर मार दिया जाता था। कन्या-वध समाज में अत्यंत ही क्रूर व भयावह कृत्य था। हाड़ौती के पॉलिटिकल एजेण्ट विलकिंसन के प्रयासों से लार्ड विलियम बैंटिक के समय में राजस्थान में सर्वप्रथम कोटा राज्य में सन् 1833 में तथा बूंदी राज्य में 1834 ई. में कन्या वध करने को गैर कानूनी घोषित कर दिया गया।",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11893,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के रीति-रिवाजों में ‘मौसर’ किसे कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गृह-प्रवेश"
+        },
+        {
+          "id": "opt2",
+          "text": "दहेज"
+        },
+        {
+          "id": "opt3",
+          "text": "विवाह के अवसर पर प्रीति भोज"
+        },
+        {
+          "id": "opt4",
+          "text": "मृत्यु-भोज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11894,
+        "exam": "VDO Exam 1st Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बढार का भोज निम्न में से किस मौके पर रखा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाह"
+        },
+        {
+          "id": "opt2",
+          "text": "जन्म"
+        },
+        {
+          "id": "opt3",
+          "text": "मृत्यु"
+        },
+        {
+          "id": "opt4",
+          "text": "तीर्थ-यात्रा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11895,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर राज्य में ‘डाकन प्रथा’ पर प्रतिबन्ध कब लगाया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1850 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1853 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1855 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1858 में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डाकन प्रथा को सर्वप्रथम उदयपुर में गैर-कानूनी घोषित किया गया था| राजस्थान की कई जातिया विशेषकर भील और मीणा जातियों में स्त्रियों पर डाकन होने का आरोप लगा कर उन्हे मार डालने की कुप्रथा व्याप्त थी। सर्वप्रथम अप्रैल, 1853 में मेवाड़ में महाराणा स्वरूप सिंह के समय में मेवाड़ भील कोर के कमान्डेन्ट जे.सी. ब्रुक ने खैरवाड़ा उदयपुर में इस प्रथा को गैर कानूनी घोषित किया था|",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11896,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘देश-हितेषणी सभा’ ......... को स्थापित की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 जुलाई, 1867"
+        },
+        {
+          "id": "opt2",
+          "text": "2 जुलाई, 1880"
+        },
+        {
+          "id": "opt3",
+          "text": "2 जुलाई, 1870"
+        },
+        {
+          "id": "opt4",
+          "text": "2 जुलाई, 1877"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11897,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आदिवासियों में प्रचलित लीला-मोरिया संस्कार किस अवसर से जुड़ा हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाह"
+        },
+        {
+          "id": "opt2",
+          "text": "सगाई"
+        },
+        {
+          "id": "opt3",
+          "text": "जन्म"
+        },
+        {
+          "id": "opt4",
+          "text": "नामकरण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लीला मोरिया संस्कार, आदिवासियों में प्रचलित विवाह से संबंधित संस्कार है।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11898,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में गोला, दरोगा, चाकर, चेला आदि सम्बोधन किसके लिए प्रयुक्त होते थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तांत्रिक के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "घरेलू दास के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "पुलिसकर्मी के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "बन्धुआ मजदूर के लिए"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दास प्रथा: राजस्थान में 19वीं सदी के अंत तक दास प्रथा का प्रचलन था। इनको दास, दासी, गोला, चाकर, खानजादा, चेला इत्यादि नामों से पुकारा जाता था। ये दास-दासी प्रायः राजपूतों की अवैध संतानें हुआ करती थी व अपने स्वामी की वंशानुगत सेवकों के रूप में सेवा करते थे।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11899,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी संस्कृति में ‘औलंदी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाह का एक प्रकार"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक संगीत का एक प्रकार"
+        },
+        {
+          "id": "opt3",
+          "text": "नववधु के साथ जाने वाला पुरुष या स्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "क्षेत्रीय खेल का एक प्रकार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“राजस्थानी संस्कृति में औलंदी” का उपयोग नवविवाहित दुल्हन के साथ जाने वाली लड़की या महिलाओं के लिए किया जाता है।",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11900,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी संस्कृति में ‘जांनोटण’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर-पक्ष की ओर से दिया जाने वाला भोज"
+        },
+        {
+          "id": "opt2",
+          "text": "भूमि का माप"
+        },
+        {
+          "id": "opt3",
+          "text": "एक प्रकार का लोक गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "एक कृषि कर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जांनोटण: वर-पक्ष की ओर से दिया जाने वाला भोज",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11901,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवर्नर जनरल लाॅर्ड बेंटिक ने निम्न स्थलों पर सती प्रथा रोकने के आदेश दिए। निम्न में से कौन सा युग्म सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर: 1830"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर: 1844"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर: 1856"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर: 1848"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ब्रिटिश शासित भारत के पहले गवर्नर जनरल लॉर्ड विलियम बेंटिंक ने दिसंबर 1829 में सती प्रथा को प्रतिबंधित कर दिया था।ब्रिटिश प्रभाव से राजस्थान में सर्वप्रथम सती प्रथा को बूँदी नरेश राव विष्णु सिंह ने 1822 ई. में गैर-कानूनी घोषित किया। तत्पश्चात् 1825 ई. में बीकानेर में, अलवर नरेश महाराजा बन्नेसिंह ने 1830 ई. में, जयपुर नरेश रामसिंह द्वितीय ने 1844 ई. में, डूंगरपुर नरेश महारावल डूंगरसिंह ने 1844 ई. में, बांसवाड़ा नरेश लक्ष्मणसिंह एवं प्रतापगढ़ महारावल गणपतसिंह ने 1846 ई. में, जोधपुर महाराजा तख्तसिंह एवं कोटा महारावल रामसिंह ने 1848 ई. में तथा मेवाड़ महाराणा स्वरूपसिंह ने 1861 ई. में सती प्रथा को गैर-कानूनी घोषित कर दण्डनीय अपराध बना दिया।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11902,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘राइका’ जाति किस पशु से संबंध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊंट"
+        },
+        {
+          "id": "opt2",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "गाय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11903,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी संस्कृति में ‘औलंदी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी लोक नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "विवाह में दुल्हे का मामा"
+        },
+        {
+          "id": "opt3",
+          "text": "नववधु के साथ जाने वाली लड़की"
+        },
+        {
+          "id": "opt4",
+          "text": "एक प्रकार का फल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“राजस्थानी संस्कृति में औलंदी” का उपयोग नवविवाहित दुल्हन के साथ जाने वाली लड़की या महिलाओं के लिए किया जाता है।",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11904,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाखड़ी शब्द प्रयुक्त किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गाय और भैंस के लिये"
+        },
+        {
+          "id": "opt2",
+          "text": "वैवाहिक रस्म के लिये"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि उपकरण के लिये"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंचाई उपकरण के लिये"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11905,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिंदोली, सामेला और पड़ला किस समारोह से संबंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्म"
+        },
+        {
+          "id": "opt2",
+          "text": "गृह प्रवेश"
+        },
+        {
+          "id": "opt3",
+          "text": "विवाह"
+        },
+        {
+          "id": "opt4",
+          "text": "उपनयन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में दूल्हे को रिश्तेदारों द्वारा विवाह से पहले आमंत्रित किया जाता है, जो बिंदोली कहलाती है। और लौटते समय “बिंदोला” गीत गाया जाता है।सामेला (मधुपर्क): जब वर वधू के घर पहुँचता है तो वधू के पिता द्वारा अपने संबंधियों के साथ वर पक्ष का स्वागत करना, ‘सामेला’ कहलाता है।बरी-पड़ला: वर पक्ष विवाह के अवसर पर वधू के लिए श्रृंगारिक सामान, गहने एवं कपड़े लाता है, जिसे ‘बरी-पड़ला’ कहते हैं।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11906,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन अ: राजस्थान की लोक परंपरा किसी एक व्यक्ति या एक व्यक्ति समूह की सर्जना नहीं है।कारण र: लोक परम्परा मानवता की स्वतः स्फूर्त अभिव्यक्ति है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "‘अ’ व ‘र’ दोनों सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "‘र’ सही है और ‘अ’ गलत है।"
+        },
+        {
+          "id": "opt3",
+          "text": "‘अ’ और ‘र’ दोनों गलत हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "‘अ’ सही है और ‘र’ गलत है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की लोक परंपरा, किसी एक व्यक्ति या समूह की रचना नहीं है, बल्कि यह समाज की सामूहिक चेतना और अनुभवों का परिणाम है, जो पीढ़ी दर पीढ़ी चली आ रही है।लोक परंपरा समाज की सामूहिक चेतना और मानवता की स्वतः स्फूर्त अभिव्यक्ति होती है, जो लोक जीवन की आवश्यकताओं और परिस्थितियों के अनुसार विकसित होती है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11907,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जडूला’ एक प्रमुख संस्कार है, इसे कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जातकर्म"
+        },
+        {
+          "id": "opt2",
+          "text": "निष्क्रमण"
+        },
+        {
+          "id": "opt3",
+          "text": "चूड़ाकर्म"
+        },
+        {
+          "id": "opt4",
+          "text": "समावत्र्तन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हिन्दू धर्म में कुल 16 संस्कार होते हैं और उन्हीं में से एक है मुंडन संस्कार। यह 8वां संस्कार माना गया है। इसे चूड़ाकर्म संस्कार के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11908,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    }
+  ]
+}

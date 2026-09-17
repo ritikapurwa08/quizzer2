@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की सिंचाई एवं सिंचाई परियोजनाएँ",
+  "batchIndex": 6,
+  "batchName": "राजस्थान की सिंचाई एवं सिंचाई परियोजनाएँ भाग 6",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-सिंचाई-एवं-सिंचाई-परियोजनाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कंवर सेन लिफ्ट नहर ______ शहर को पीने का पानी उपलब्ध करा रही है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘कंवर सेन लिफ्ट नहर’ (प्राचीन नाम लूणकरणसर लिफ्ट नहर) बीकानेर शहर को पीने का पानी उपलब्ध करा रही है।राजस्थान नहर परियोजना के मूल प्रारूप में जल वितरण शाखाओं के निर्माण की योजना थी न की लिफ्ट परियोजनाओं के निर्माण की। 1963 में पहली बार इस योजना में लिफ्ट परियोजनाएं बनाने को शामिल किया गया, जिसके तहत 1968 में प्रथम लिफ्ट नहर ‘कंवर सेन लिफ्ट नहर’ (प्राचीन नाम लूणकरणसर लिफ्ट नहर) का निर्माण शुरू हुआ।",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3804,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भाखड़ा नांगल नहर परियोजना ______ के बीच संयुक्त परियोजना है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान, पंजाब, हरियाणा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान, पंजाब, दिल्ली"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान, पंजाब, गुजरात"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान, पंजाब, उत्तर प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भाखड़ा नांगल परियोजना भारत की सबसे बड़ी नदी घाटी परियाजना है। पंजाब, हरियाणा, राजस्थान, हिमाचल प्रदेश की संयुक्त परियोजना है। इसमें राजस्थान का हिस्सा 15.2 प्रतिशत (विद्युत व जल दोनों में) है। हिमाचल प्रदेश का हिस्सा केवल जल विधुत के उत्पादन में ही है।",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3805,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोम-कागदर सिंचाई परियोजना किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उदयपुर (ऋषभदेव) में सोम नदी पर सोम-कागदर और डुंगरपुर में इस पर सोम - कमला - अम्बा परियोजना बनी है।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3806,
+        "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इंदिरा गांधी नहर का उद्गम किस बांध से होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नांगल बांध"
+        },
+        {
+          "id": "opt2",
+          "text": "भाखड़ा बांध"
+        },
+        {
+          "id": "opt3",
+          "text": "हरिके बांध"
+        },
+        {
+          "id": "opt4",
+          "text": "देहर बांध"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इस नहर का उद्गम पंजाब में फिरोजपुर के निकट सतलज-व्यास नदियों के संगम पर बने हरिके बैराज से है। IGNP के दो भाग हैं। प्रथम भाग राजस्थान फीडर कहलाता है इसकी लम्बाई 204 कि.मी.(170 कि.मी. पंजाब व हरियाणा + 34 कि.मी. राजस्थान) है। जो हरिकै बैराज से हनुमानगढ़ के मसीतावाली हैड तक विस्तारित है। नहर के इस भाग में जल का दोहन नहीं होता है।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3807,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा युग्म (बांध - जिला) सही सुमेलित नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पांचना - करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "मेजा - भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "जवाई - जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "चाकन - बूंदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जवाई बांध लूनी नदी की सहायक जवाई नदी पर पाली के सुमेरपुर में बना हुआ है। इसका निर्माण जोधपुर के महाराजा उम्मेदसिंह ने 13 मई 1946 को शुरू करवाया, 1956 में इसका निर्माण कार्य पुरा हुआ।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3808,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (लिफ्ट नहर परियोजना - पेयजल उपलब्धता क्षेत्र) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कँवर सेन - बीकानेर, गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "गंधेली साहवा - चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "गजनेर/पन्नालाल बारुपाल - बीकानेर, नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजीव गाँधी - जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "क्र. स.लिफ्ट नहर का पुराना नामलिफ्ट नहर का नया नाम लाभान्वित जिले1गंधेली(नोहर) साहवा लिफ्टचौधरी कुम्भाराम लिफ्ट नहर हनुमानगढ़, चुरू, झुंझुनू2.बीकानेर - लुणकरणसर लिफ्टकंवरसेन लिफ्ट नहरश्री गंगानगर, बीकानेर3.गजनेर लिफ्ट नहरपन्नालाल बारूपाल लिफ्ट नहर बीकानेर, नागौर4.बांगड़सर लिफ्ट नहरभैरूदम चालनी वीर तेजाजी लिफ्ट नहर बीकानेर5.कोलायत लिफ्ट नहरडा. करणी सिंह लिफ्ट नहरबीकानेर, जोधपुर6. फलौदी लिफ्ट नहरगुरू जम्भेश्वर जलो उत्थान योजनाजोधपुर, बीकानेर, जैसलमेर7.पोकरण लिफ्ट नहरजयनारायण व्यास लिफ्टजैसलमेर, जोधपुर8. जोधपुर लिफ्ट नहर(176 किमी. + 30 किमी. तक पाईप लाईन)राजीवगांधी लिफ्ट नहरजोधपुर",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3809,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन से जिले गजनेर लिफ्ट नहर से लाभांवित होते है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर - नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर - गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर - जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर - जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गजनेर लिफ्ट नहर (पन्नालाल बारूपाल लिफ्ट नहर) से बीकानेर और नागौर जिले लाभांवित होते हैं।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3810,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित (सिंचाई परियोजना - जिला / जिले) में से कौनसा सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोम-कमला-अम्बा - डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सोम कागदर - राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "नोहर-सिद्धमुख - हनुमानगढ़ और चुरू"
+        },
+        {
+          "id": "opt4",
+          "text": "सावन भादों - कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर (ऋषभदेव) में सोम नदी पर सोम-कागदर और डुंगरपुर में इस पर सोम - कमला - अम्बा परियोजना बनी है।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3811,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीसलपुर बाँध में पानी की आवक बढ़ाने हेतु निम्नलिखित में से कौनसी परियोजना तैयार की गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सेई"
+        },
+        {
+          "id": "opt2",
+          "text": "ओरई"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्राह्मणी - बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "माही - बनास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ब्राह्मणी बनास परियोजना सरकार द्वारा जयपुर और अजमेर के लिए पेय जल की आपूर्ति करने के लिए शुरू की गई है। दोनों के बीच की नहर की खुदाई से ब्राह्मणी और बनास नदियाँ आपस में जुड़ जाएँगी।",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3812,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक सुमेलित नहीं है -सिंचाई परियोजना - लाभांवित जिला",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाई - पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "सिद्धमुख - चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "बिलास - बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "बाँकली - बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जालौर के बांकली गांव में बांकली बांध बना है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3813,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही परियोजना से लाभान्वित होने वाला जिला है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इसी परियोजना के अंतर्गत बांसवाड़ा के बोरखेड़ा गांव में माही बजाज सागर बांध बना हुआ है। इस परियोजना से डुंगरपुर व बांसवाड़ा जिलों की कुछ तहसीलों को जलापूर्ति होती है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3815,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा चम्बल बहुउद्देशीय परियोजना के अन्तर्गत नहीं बना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गाँधी सागर बांध"
+        },
+        {
+          "id": "opt2",
+          "text": "राणा प्रताप सागर बाँध"
+        },
+        {
+          "id": "opt3",
+          "text": "पोग बाँध"
+        },
+        {
+          "id": "opt4",
+          "text": "जवाहर सागर बाँध"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पोंग बाँध काँगड़ा जिले के पोंग स्थान पर (हिमाचल प्रदेश) निर्मित किया गया। यह व्यास परियोजना के अन्तर्गत बना है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3816,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म सही सुमेलित नहीं है -लिफ्ट नहर लाभान्वित जिले",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पन्नालाल बारूपाल - बीकानेर, नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "वीर तेजाजी - बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बरकतुल्ला खां - जैसलमेर, बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "डाॅ. करनी सिंह - हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "क्र. स.लिफ्ट नहर का पुराना नामलिफ्ट नहर का नया नाम लाभान्वित जिले1गंधेली(नोहर) साहवा लिफ्टचौधरी कुम्भाराम लिफ्ट नहर हनुमानगढ़, चुरू, झुंझुनू2.बीकानेर - लुणकरणसर लिफ्टकंवरसेन लिफ्ट नहरश्री गंगानगर, बीकानेर3.गजनेर लिफ्ट नहरपन्नालाल बारूपाल लिफ्ट नहर बीकानेर, नागौर4.बांगड़सर लिफ्ट नहरभैरूदम चालनी वीर तेजाजी लिफ्ट नहर बीकानेर5.कोलायत लिफ्ट नहरडा. करणी सिंह लिफ्ट नहरबीकानेर, जोधपुर6. फलौदी लिफ्ट नहरगुरू जम्भेश्वर जलो उत्थान योजनाजोधपुर, बीकानेर, जैसलमेर7.पोकरण लिफ्ट नहरजयनारायण व्यास लिफ्टजैसलमेर, जोधपुर8. जोधपुर लिफ्ट नहर(176 किमी. + 30 किमी. तक पाईप लाईन)राजीवगांधी लिफ्ट नहरजोधपुर",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3818,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सेई परियोजना का संबंध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाई बांध"
+        },
+        {
+          "id": "opt2",
+          "text": "टोरडी सागर बाँध"
+        },
+        {
+          "id": "opt3",
+          "text": "खारी बाँध"
+        },
+        {
+          "id": "opt4",
+          "text": "मोरेल बाँध"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जवाई बांध में पानी की आवक कम होने पर इसे उदयपुर के कोटड़ा तहसील में निर्मित सेई परियोजना से जोड़ा गया है। 9 अगस्त 1977 को सेई का पानी पहली बार जवाई बांध में डाला गया। इस बांध के जीर्णोद्धार का कार्य 4 अप्रैल 2003 को सोनिया गांधी ने शुरू किया।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3819,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्न में से कौनसा सिंचाई स्रोत, कुल सिंचित क्षेत्र में सर्वाधिक योगदान रखता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेतीय तालाब"
+        },
+        {
+          "id": "opt2",
+          "text": "नहरें"
+        },
+        {
+          "id": "opt3",
+          "text": "तालाब"
+        },
+        {
+          "id": "opt4",
+          "text": "कुएं एवं नलकूप"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कुए एवम् नलकूप(ट्यूब्वैल) राजस्थान में सिंचाई के प्रमुख साधन है। कुल सिंचित भुमि का लगभग 66 प्रतिशत भाग कुंए एवं नलकूप से सिंचित होता है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3821,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नर्मदा नहर की लम्बाई ___ किमी है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "94"
+        },
+        {
+          "id": "opt2",
+          "text": "64"
+        },
+        {
+          "id": "opt3",
+          "text": "75"
+        },
+        {
+          "id": "opt4",
+          "text": "84"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नर्मदा नहर परियोजना गुजरात, मध्यप्रदेश, महाराष्ट्र और राजस्थान की संयुक्त परियोजना है। इस परियोजना में राजस्थान के लिए 0.5 एम. ए. फ.(मिलियन एकड़ फीट) निर्धारित की गई है। इस जल को लेने के लिए गुजरात के सरदार सरोवर बांध से नर्मदा नहर(458 कि.मी. गुजरात + 75 कि.मी. राजस्थान) निकाली गई है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3822,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चंबल घाटी विकास योजना’ एक संयुक्त बहुउद्देश्यीय परियोजना है, जिसके पानी और बिजली में ______ बराबर के हिस्सेदार हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान और गुजरात"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान और मध्य प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान और उत्तर प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान और पंजाब"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चम्बल परियोजना का कार्य 1952 -54 में प्रारम्भ हुआ। यह राजस्थान व मध्यप्रदेश की संयुक्त परियोजना है। इसमें दानों राज्यों की हिस्सेदारी 50-50 प्रतिशत है।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3824,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा (बांध – जिला) सही सुमलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोरा सागर बांध – टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "घोसुण्डा बांध – चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "पांचना बांध – करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंगोनिया बांध – जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मोरा सागर बांध गंगापुर सिटी में है।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3825,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (सिंचाई परियोजना – जिला) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिलास – बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "चौली – डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "गरडदा – बंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "पांचना – करौली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चौली परियोजना का संबंध झालावाड़ जिले से है।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3826,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में ‘पीपलखुंट हाई लेवल वैâनाल’ द्वारा सिंचाई की सुविधा प्रदान की जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पीपलखूट हाई लेवल वैâनाल सिंचाई परियोजना राजस्थान के प्रतापगढ़ जिले में शुरू की गई है। इस परियोजना के अन्तर्गत माही बेसिन के अधिशेष जल से प्रतापगढ़ जिले के अंकामंड क्षेत्र में सिंचाई सुविधा उपलब्ध करायी जाएगी।",
+      "reference": "📌 PYQ — RPSC Assistant Engineer (Civil)2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3861,
+        "exam": "RPSC Assistant Engineer (Civil)2022",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 21,
+  "batchName": "राजस्थान की कृषि भाग 21",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अगेती’ एवं ‘पछेती’ शब्द प्रयुक्त होते हैंं;",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल्दी एवं विलम्बित बीजाई"
+        },
+        {
+          "id": "opt2",
+          "text": "आना एवं जाना"
+        },
+        {
+          "id": "opt3",
+          "text": "हर्बल दवा"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्तमान एव भूतकाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अगेती’ एवं ‘पछेती’ शब्द का प्रयोग गेहूँ की जल्दी एवं विलम्बित बुआई के लिए प्रयुक्त होते है। पछेती किस्मे ठंडे क्षेत्रो में बेहतर होती है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2007,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शुष्क खेती उन भागों में की जाती है जहाँ:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्षा50से.मी. से कम हो (प्रति वर्ष)"
+        },
+        {
+          "id": "opt2",
+          "text": "झूमिंग प्रणाली प्रचलित हो"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्षा100से.मी. होती हो। (प्रति वर्ष)"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्षा100से.मी. से अधिक हो। (प्रति वर्ष)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी राजस्थान में जहाँ वर्षा ५० सेमी से कम होती है, वहाँ शुष्क खेती की जाती है। शुष्क खेती बिना सिंचाई के कृषि करने की तकनीक है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2009,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सुन्दर वन’ जाने जाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्वारीय वन"
+        },
+        {
+          "id": "opt2",
+          "text": "मानसूनी वन"
+        },
+        {
+          "id": "opt3",
+          "text": "शुष्क वन"
+        },
+        {
+          "id": "opt4",
+          "text": "पर्णपाती वन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सुंदरवन ज्वारीय वन (मैंग्रोव) हैं, जो बंगाल की खाड़ी में गंगा-बह्मपुत्र और मेघना नदियों के डेल्टा पर स्थित हैं। इस क्षेत्र का नामकरण सुंदरी वृक्षों के नाम पर पड़ा है, जो इस क्षेत्र की विशेषता है।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2011,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘ऑपरेशन फ्लड’ कार्यक्रम का उद्देश्य था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाढ़ पर नियन्त्रण करना"
+        },
+        {
+          "id": "opt2",
+          "text": "सिंचाई की सुविधाओं में वृद्धि करना"
+        },
+        {
+          "id": "opt3",
+          "text": "दुग्ध उत्पादन में वृद्धि करना"
+        },
+        {
+          "id": "opt4",
+          "text": "बाढ़ के दौरान गंगा जल की शुद्धि करना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ऑपरेशन फ्लड का संबंध दुग्ध उत्पादन में वृद्धि से है। यह श्वेत क्रांति का एक हिस्सा है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2012,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रेशम के कीट के एक कोकून से प्राप्त रेशम धागे की लम्बाई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1- 2 मीटर"
+        },
+        {
+          "id": "opt2",
+          "text": "10 – 20 मीटर"
+        },
+        {
+          "id": "opt3",
+          "text": "100- 200 मीटर"
+        },
+        {
+          "id": "opt4",
+          "text": "1000 -2000मीटर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रेशम कीट के एक कोकून से प्राप्त रेशम धागे की लम्बाई लगभग १००० से १२०० मीटर तक होती है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2013,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा संचय सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्बेट राष्ट्रीय उद्यान मध्य प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "बांदीपुर राष्ट्रीय उद्योग आंध्र प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "कान्हा राष्ट्रीय उद्यान मध्य प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "गिर राष्ट्रीय उद्यान राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न है- कार्बेट राष्ट्रीय उद्यान - उत्तराखंड बांदीपुर राष्ट्रीय उद्यान - कर्नाटक कान्हा राष्ट्रीय उद्यान - मध्य प्रदेश गिर राष्ट्रीय उद्यान - गुजरात",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2014,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सदाबहार वन यहां नहीं पाये जाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी घाट के पश्चिमी भाग में1370 फीट की ऊंचाई पर"
+        },
+        {
+          "id": "opt2",
+          "text": "असम घाटी"
+        },
+        {
+          "id": "opt3",
+          "text": "अंडमान व निकोबार द्वीप समूह"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी बिहार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सदाबहार वन ऐसे क्षेत्रों में पाये जाते हैं। जहाँ वर्षा २०० सेमी. से अधिक हो। ऐसे क्षेत्र भारत में पश्चिमी घाट का पश्चिमी क्षेत्र, असम घाटी, अंडमान निकोबार द्वीप समूह आदि हैं। पश्चिमी बिहार में उष्ण कटिबंधीय पर्णपाती वन पाये जाते हैं।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2016,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाइड्रोपोनिक्स(Hydroponics) में अध्ययन किया जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल में ध्वनि का"
+        },
+        {
+          "id": "opt2",
+          "text": "ध्वनि का जल पर प्रभाव"
+        },
+        {
+          "id": "opt3",
+          "text": "हरित गृह(Green House)में पादप संवर्धन"
+        },
+        {
+          "id": "opt4",
+          "text": "मिट्टी के बिना पादप संवर्धन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हाइड्रोपोनिक्स एक कृषि तकनीक है जिसमें पौधों को मिट्टी की पूर्ण अनुपस्थिति में पोषक तत्वों के घोल में उगाया जाता है।",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2017,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फसल को हानि पहुँचाने वाला कीट कहलाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शत्रु"
+        },
+        {
+          "id": "opt2",
+          "text": "परजीवी(Parasite)"
+        },
+        {
+          "id": "opt3",
+          "text": "परपोषक(Host)"
+        },
+        {
+          "id": "opt4",
+          "text": "पीड़(Pest)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "फसलों को नुकसान पहुंचाने वाले कीट-पारिजातों को पीड़क कहते हैं। पीड़कों को खत्म करने या उन पर नियंत्रण करने के लिए इस्तेमाल होने वाले विषैले रसायनों को पीड़कनाशी कहते हैं।",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2018,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में एक तना(stem)है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आलू"
+        },
+        {
+          "id": "opt2",
+          "text": "शलजम"
+        },
+        {
+          "id": "opt3",
+          "text": "बंदगोभी"
+        },
+        {
+          "id": "opt4",
+          "text": "टमाटर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दिये गये विकल्पों में आलू तना है। जबकि शलजम जड़ एवं टमाटर फल हैं।",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2019,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पेड़ जिसके पत्तों का उपयोग मेंहदी(Heena)के रूप में किया जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अकेसिया"
+        },
+        {
+          "id": "opt2",
+          "text": "इन्डिगोफेरा"
+        },
+        {
+          "id": "opt3",
+          "text": "फाइकस"
+        },
+        {
+          "id": "opt4",
+          "text": "लासोनिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेंहदी के पेड़ का वैज्ञानिक नाम लासोनिया इनर्मिस है। 853",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2021,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से एक खरपतवारनाशक(weedicide)है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2, 4-D"
+        },
+        {
+          "id": "opt2",
+          "text": "DDT"
+        },
+        {
+          "id": "opt3",
+          "text": "BHC"
+        },
+        {
+          "id": "opt4",
+          "text": "एल्ड्रिन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2, 4 D(डाईक्लोरो केनोक्सी एसिटिक एसिड) को खरपतवारनाशी के रूप में प्रयोग किया जाता है।",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2022,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का प्राणी है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाघ"
+        },
+        {
+          "id": "opt2",
+          "text": "चिन्कारा"
+        },
+        {
+          "id": "opt3",
+          "text": "मोर"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊंट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में चिंकारा को वर्ष १९८१ में तथा ऊँट को वर्ष २०१४ में राज्य पशु घोषित किया गया था। प्रश्नकाल के दौरान चिंकारा ही राजस्थान का राज्य पशु था।",
+      "reference": "📌 PYQ — RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2024,
+        "exam": "RPSC Head Master (S.S.) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सा राज्य भारत का अग्रणी चीनी उत्पादक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिहार"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराष्ट्र"
+        },
+        {
+          "id": "opt4",
+          "text": "तमिलनाडु"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय चीनी मिल संघ(ISMA)के आँकड़ों के अनुसार15अप्रैल, 2024तक, 2023-24सीजन के लिए भारत में शीर्ष तीन चीनी उत्पादक राज्य हैं – क्रमश: महाराष्ट्र(10.92 मिलियन टन), उत्तर प्रदेश(10.14मिलियन टन), कर्नाटक(5.06 मिलियन टन)।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18806,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में खाद्य प्रबन्धन का निम्न में से कौन-सा एक उद्देश्य नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खाद्यान्नों की खरीद"
+        },
+        {
+          "id": "opt2",
+          "text": "खाद्यान्नों का वितरण"
+        },
+        {
+          "id": "opt3",
+          "text": "खाद्यान्नों का निर्यात"
+        },
+        {
+          "id": "opt4",
+          "text": "खाद्यान्नों के बफर स्टॉफ का रखरखाव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत में खाद्यान्न प्रबंधन के प्रमुख उद्देश्य किसानों से लाभकारी मूल्य पर खाद्यान्न की खरीद, उपभोक्ताओं, विशेष रूप से समाज के कमजोर वर्गों को किफायती मूल्य पर खाद्यान्न का वितरण और खाद्य सुरक्षा एवं मूल्य स्थिरता के लिए खाद्य बफर स्टॉक का रखरखाव करना है। खाद्यान्न की खरीद, वितरण और भण्डारण का काम करने वाली नोडल एजेन्सी भारतीय खाद्य निगम(FCI)है। खाद्यान्न का वितरण मुख्य रूप से राष्ट्रीय खाद्य सुरक्षा अधिनियम, 2013और भारत सरकार की अन्य कल्याणकारी योजनाओं के तहत किया जाता है।",
+      "reference": "📌 PYQ — RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18807,
+        "exam": "RPSC Head Master (S.S.) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में हाल ही के वर्षों मेंGDP में कृषि का हिस्सा बहुत तेज गति से कम हुआ है। इसका कारण है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रामीण अर्थव्यवस्था में विविधीकरण की कमी।"
+        },
+        {
+          "id": "opt2",
+          "text": "कृषिगत वस्तुओं की कीमतों में धीमी वृद्धि।"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि के क्षेत्र में रोजगार के अवसरों की पूर्णता की स्थिति का आना।"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषिक्षेत्र में बहुत धीमी वृद्धि दर और अन्य क्षेत्रों में बहुत तेज वृद्धि दर का होना।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नकाल के दौरान भारत कीGDPमें कृषि का हिस्सा बहुत तेज गति से कम होने का कारण कृषि क्षेत्र में बहुत धीमी वृद्धि दर और अन्य क्षेत्रों में बहुत तेज वृद्धि दर का होना था। वर्तमान में औद्योगिक और सेवा क्षेत्र में तेजी से वृद्धि एवं विस्तार के कारण भारत के सकल घरेलू उत्पाद में कृषि का हिस्सा1990-91 में35%से घटकर लगभग18प्रतिशत हो गया है। र्आिथक सर्वेक्षण2023-24में रेखांकित किया गया कि वर्तमान मूल्यों पर समग्र जी.वी.ए. में कृषि, उद्योग और सेवा क्षेत्रों की हिस्सेदारी वित्त वर्ष2023-24में क्रमश: 17.7प्रतिशत, 27.6प्रतिशत और54.7 प्रतिशत है।",
+      "reference": "📌 PYQ — RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18808,
+        "exam": "RPSC Head Master (S.S.) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2011-12 में भारतीय अर्थव्यवस्था की विकास दर करीब है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5%"
+        },
+        {
+          "id": "opt2",
+          "text": "6%"
+        },
+        {
+          "id": "opt3",
+          "text": "10%"
+        },
+        {
+          "id": "opt4",
+          "text": "7%"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वर्ष २०११-१२ में भारतीय अर्थव्यवस्था की विकास दर लगभग ७ प्रतिशत अनुमानित थी। वित्त वर्ष २०२४-२५ में भारत की वास्तविक जी.डी.वी. ८.२3 की दर से बढ़ी है, वित्त वर्ष २०२४ के चार तिमाहियों में से तीन तिमाहियों में यह दर ८3 से अधिक रही है।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18809,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "धामण, करड़ एवं अंजन है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान में भेड़ों की किस्में"
+        },
+        {
+          "id": "opt2",
+          "text": "गुजरात के अरण्डी बीज की किस्में"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान में घास की किस्में"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरी नृत्य के तीन नायक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान एक शुष्क मरुस्थलीय क्षेत्र है। यहां के जंगलों में वृक्षों के साथ-साथ विभिन्न प्रकार की घासें पाई जाती हैं। जिनका उपयोग छप्पर बनाने, टटिया बनाने में किया जाता है। धामण, करड़ एवं अंजन राजस्थान घास की किस्में हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2009",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2026,
+        "exam": "RPSC RAS/RTS Pre 2009",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में मुख्य कृषि पदार्थ आयात मद है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दाले"
+        },
+        {
+          "id": "opt2",
+          "text": "कॉफी"
+        },
+        {
+          "id": "opt3",
+          "text": "चीनी"
+        },
+        {
+          "id": "opt4",
+          "text": "खाने योग्य तेल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारतीय कृषि पदार्थों में मुख्य आयात मद खाद्य तेलों का है, जिसका आयात मुख्यत: कुछ अप्रâीकी देशों, आस्ट्रेलिया व मलेशिया से किया जाता है, जबकि दालें दूसरे स्थान पर आती हैं उनका भी आयात पश्चिमी देशों से किया जाता है। वर्तमान में खाद्य पदार्थों के आयात में खाद्य तेल, चीनी, मसाले, अण्डे और सूखा दूध जैसे उत्पाद प्रमुख हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2009",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18810,
+        "exam": "RPSC RAS/RTS Pre 2009",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन-सा जिला अधिकतम मात्रा में `इसबगोल'पैदा करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में ईसबगोल का सर्वाधिक उत्पादन जालोर जिले में होता है। ईसबगोल के उत्पादन में दूसरे एवं तीसरे स्थान पर क्रमश: सिरोही और बाडमेर जिले हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2008",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2027,
+        "exam": "RPSC RAS/RTS Pre 2008",
+        "year": null
+      }
+    }
+  ]
+}

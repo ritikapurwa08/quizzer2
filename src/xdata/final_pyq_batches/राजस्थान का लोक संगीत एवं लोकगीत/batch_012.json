@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+  "batchIndex": 12,
+  "batchName": "राजस्थान का लोक संगीत एवं लोकगीत भाग 12",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-का-लोक-संगीत-एवं-लोकगीत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में रामप्रकाश थिएटर की स्थापना किसने की है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा रामसिंह द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा मानसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा प्रतापसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर का रामप्रकाश थिएटर हिंदीभाषी प्रदेश का पहला नाटक भवन था जिसे महाराजा सवाई रामसिंह द्वितीय ने 1878 में बनवाया था।",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15632,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अलीबक्षी ख्याल राजस्थान के कौन से क्षेत्र में प्रचलित लोक नाट्य शैली है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "चिड़ावा"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अली बख्शी ख्याल का मूल क्षेत्र अलवर का क्षेत्र है। ख्याल के जनक अली बक्ष है। अली बक्ष को “अलवर का रसखान” कहते है।",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15634,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन-सा लोक नाट्य “मेरू नाट्य” के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भवाई"
+        },
+        {
+          "id": "opt2",
+          "text": "ख्याल"
+        },
+        {
+          "id": "opt3",
+          "text": "गवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "तमाशा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15635,
+        "exam": "Informatics Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तुर्रा और कलंगी लोकनाट्य में तुर्रा और कलंगी प्रतीक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृष्ण और रूक्मणी के"
+        },
+        {
+          "id": "opt2",
+          "text": "राम और सीता के"
+        },
+        {
+          "id": "opt3",
+          "text": "राजा और रानी के"
+        },
+        {
+          "id": "opt4",
+          "text": "शिव और पार्वती के"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15637,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चारबैत क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथ समुदाय से जुड़ा प्रसिद्ध नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गैर नृत्य के साथ प्रयुक्त वाद्य"
+        },
+        {
+          "id": "opt3",
+          "text": "गरासिया जनजाति से जुड़ा गीता"
+        },
+        {
+          "id": "opt4",
+          "text": "काव्य से भरपूर एक लोकनाट्य विधा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15638,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संत पीर शाहअली और तुकनगीर ने 400 साल पहले मेवाड़ में किस ख्याल की रचना की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ख्याल भारमली"
+        },
+        {
+          "id": "opt2",
+          "text": "चांद नीलगिरि"
+        },
+        {
+          "id": "opt3",
+          "text": "तुर्रा कलंगी ख्याल"
+        },
+        {
+          "id": "opt4",
+          "text": "मीरा मंगल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दो पीर संतों शाहअली और तुकनगीर ने \"तुर्रा - कलंगी\" ख्यालों का प्रवर्तन किया। ये वस्तुतः एक नहीं अपितु मेवाड़ की ख्याल परंपरा के दो भाग है। कहा जाता है कि एक बार मध्यप्रदेश के चंदेरी गाँव के ठाकुर ने दंगलबाज संत तुकनगीर और फकीर शाहअली को न्यौता देकर दंगल कराया तथा तुकनगीर को तुर्रा व शाह अली को कलंगी का सम्मान दिया। तब से दो अखाड़े बने जो तुर्रा और कलंगी के नाम से प्रसिद्ध हुए। तुर्रा व कलंगी पगड़ी पर सजाए या बाँधे जाने वाले दो आभूषण हैं। तुकनगीर 'तुर्रा' के पक्षकार थे तथा शाह अली 'कलंगी' के। तुर्रा को शिव और कलंगी को पार्वती का प्रतीक माना जाता है। इन दोनों खिलाड़ियों ने 'तुर्रा - कलंगी' के माध्यम से शिव तथा शक्ति के विचारों को लोक जीवन तक पहुँचाया।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15641,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक लोकगीत राजस्थान के पर्वतीय क्षेत्र का नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पटेल्या"
+        },
+        {
+          "id": "opt2",
+          "text": "कुरजाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बिछीयो"
+        },
+        {
+          "id": "opt4",
+          "text": "Lalar/लालर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के पर्वतीय क्षेत्र में गाए जाने वाले गीतों में पटेल्या, लालर एवं बिछीयो शामिल है। लालर गले में पहना जाने वाला एक आभूषण भी है। कुरजाँ पहाड़ी लोकगीत नहीं है। इसमें एक बिरहिणी अपने प्रियतम को एक पक्षी कुरजाँ द्वारा संदेश भेजवाती है।",
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15646,
+        "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी संस्था कठपुतली-कला के राजस्थान में संरक्षण-संवर्धन में अपनी महत्त्वपूर्ण भूमिका के लिए जानी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इंडियन आर्ट पैलेस, दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "सार्दुल राजस्थानी रिसर्च इन्स्टीटयूट, बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "भारतीय लोक कला मंडल, उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थानी शोध संस्थान जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में कठपुतली कला को संरक्षित संर्विधत करने वाली संस्था भारतीय लोक कला मंडल, उदयपुर उत्तरदायी है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15648,
+        "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस क्षेत्र से अलीबक्षी ख्याल सम्बद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "चिड़ावा"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अली बक्षी ख्याल का मूल क्षेत्र अलवर का क्षेत्र है। इस ख्याल के जनक अली बक्ष हैं जिन्हें अलवर का रसखान भी कहा जाता है।",
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018 RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15649,
+        "exam": "RPSC ACF & Forest Range officer Gr-I 2018 RPSC RAS/RTS Pre 2016",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बागड़ की मीरा’ के नाम से निम्न में से कौन प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवरी बाई"
+        },
+        {
+          "id": "opt2",
+          "text": "भंवरी बाई"
+        },
+        {
+          "id": "opt3",
+          "text": "करमा बाई"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्ञानमती बाई"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15651,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा भीलों का प्रसिद्ध लोक-नाट्य है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्वांग"
+        },
+        {
+          "id": "opt2",
+          "text": "रम्मत"
+        },
+        {
+          "id": "opt3",
+          "text": "तमाशा"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेवाड़ क्षेत्र में किया जाने वाला गवरी नृत्य भील जनजाति का प्रसिद्ध नृत्य है। इस नृत्य को सावन-भादो माह में किया जाता है। इस में मांदल और थाली के प्रयोग के कारण इसे राई नृत्य के नाम से जाना जाता है।",
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15654,
+        "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौतारा, भपंग व कामयाचा नामक लोक वाद्य हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुषिर वाद्य"
+        },
+        {
+          "id": "opt2",
+          "text": "तत् वाद्य"
+        },
+        {
+          "id": "opt3",
+          "text": "अवनद्ध वाद्य"
+        },
+        {
+          "id": "opt4",
+          "text": "घन वाद्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15658,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा वाद्य घन वाद्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झांझ"
+        },
+        {
+          "id": "opt2",
+          "text": "खडताल"
+        },
+        {
+          "id": "opt3",
+          "text": "मंजीरा"
+        },
+        {
+          "id": "opt4",
+          "text": "जंतर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15660,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा तत वाद्य नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "रवाज"
+        },
+        {
+          "id": "opt3",
+          "text": "सतारा"
+        },
+        {
+          "id": "opt4",
+          "text": "चौतारा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सतारा वाद्य यंत्र अलगोजा, बांसुरी व शहनाई का मिश्रण माना जाता है। इसमें दो बाँसुरियाँ होती है जिन्हे एक साथ फूंक मारकर बजाया जाता है। इसे जैसलमेर बाड़मेर में गडरिये मेघवाल तथा मुस्लिम बजाते है।",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15661,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ख्याल, जो संत पीर शाहवली और तुकनगीर ने मेवाड़ क्षेत्र में रचा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ख्याल भारमली"
+        },
+        {
+          "id": "opt2",
+          "text": "चांद नीलगिरी"
+        },
+        {
+          "id": "opt3",
+          "text": "तुर्रा कलंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "मीरा मंगल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेवाड़ की शाहली और तुकनगरी नाम के संत पीर ने 400 साल पहले तुर्रा कलंगी की रचना की थी। तुर्रा को ‘शिव’ का प्रतीक माना जाता है और कलंगी को ‘पार्वती’ का प्रतीक माना जाता है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15664,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिये: सूची-Iसूची-IIA. नौटंकी 1.मेवाड़B. रम्मत 2. बीकानेरC. तमाशा 3. जयपुरD. तुर्रा कलंगी 4. धौलपुर-भरतपुर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A B C D 1 2 3 4"
+        },
+        {
+          "id": "opt2",
+          "text": "A B C D 4 2 3 1"
+        },
+        {
+          "id": "opt3",
+          "text": "A B C D 1 2 4 3"
+        },
+        {
+          "id": "opt4",
+          "text": "A B C D 4 3 2 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – नौटंकी – धौलपुर-भरतपुर रम्मत – बीकानेर तमाशा – जयपुर तुर्रा कलंगी – मेवाड़",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15668,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन(A): राजस्थान की लोक परंपरा किसी एक व्यक्ति या एक व्यक्ति समूह की सर्जना नहीं है। कारण (R): लोक परम्परा मानवता की स्वत: स्फूर्त अभिव्यक्ति है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "'A' व'R' दोनों सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "'R' सही है और'A' गलत है।"
+        },
+        {
+          "id": "opt3",
+          "text": "'A' और'R' दोनों गलत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "'A' सही है और'A' गलत है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की लोक परंपराएँ राजस्थानी समाज की सामूहिक प्रयासों से विकसित हुई है। इसमें किसी एक व्यक्ति या समूह का ही अधिकार नहीं है। लोक परंपराएँ स्वत: स्फूर्त मानी जाती है। इसलिए कथन कारण दोनों सत्य हैं।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15669,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोरचंग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक सुषिर वाद्य"
+        },
+        {
+          "id": "opt2",
+          "text": "एक घन वाद्य"
+        },
+        {
+          "id": "opt3",
+          "text": "एक तत वाद्य"
+        },
+        {
+          "id": "opt4",
+          "text": "एक अवनद्ध वाद्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15670,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोरचंग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नृत्य शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "गायन शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "वाद्य यंत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्र शैली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15671,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रम्मत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक लोक नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "एक लोक संगीत"
+        },
+        {
+          "id": "opt3",
+          "text": "एक लोक नाट्य"
+        },
+        {
+          "id": "opt4",
+          "text": "वाद्य यंत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "होली के अवसर पर जैसलमेर, बीकानेर में होने वाली लोक काव्य प्रतियोगिताओं से ‘रम्मत’ का उद्भव हुआ है। बीकानेर व जैसलमेर क्षेत्र के ख्याल को ही रम्मत कहते है। इसमें राजस्थान के सुविख्यात लोक नायकों एवं महापुरुषों पर रचित काव्य रचनाओं को रंगमंच के ऊपर मंचित किया जाता है।",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15672,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    }
+  ]
+}

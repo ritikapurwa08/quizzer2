@@ -1,0 +1,657 @@
+{
+  "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+  "batchIndex": 10,
+  "batchName": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ भाग 10",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-हस्तशिल्प-एवं-हस्तकलाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में मीनाकारी की कला महाराजा मानसिंह I द्वारा ____ से लाई गई।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाहौर"
+        },
+        {
+          "id": "opt2",
+          "text": "बलूचिस्तान"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "चीना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18222,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कृपाल सिंह शेखावत का संबंध है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी कविता से"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थानी ब्लू पोटरी से"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थानी चित्रकला से"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थानी नृत्य से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18224,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्रीलाल जोशी का संबंध किससे है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फड़"
+        },
+        {
+          "id": "opt2",
+          "text": "रम्मत"
+        },
+        {
+          "id": "opt3",
+          "text": "ख्याल"
+        },
+        {
+          "id": "opt4",
+          "text": "नौटंकी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18225,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर में भारतीय लोक कला मण्डल की स्थापना ____ ने की थी।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवीलाल सामर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोमल कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "करना भील"
+        },
+        {
+          "id": "opt4",
+          "text": "जनार्दनराय नागर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18226,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मीनाकारी की थेवा कला के लिए राजस्थान का कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "जोबनेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का प्रतापगढ़ “थेवा कला” के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18227,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पिछवाइयाँ’ हस्तशिल्प कला निम्न क्षेत्र से सम्बन्धित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "बागरू"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पिछवाइयाँ एक पारंपरिक चित्रकला शैली है, जो राजस्थान के नाथद्वारा से संबंधित है। यह कला मुख्य रूप से भगवान श्रीनाथजी (कृष्ण) की पूजा से जुड़ी है और मंदिरों में पृष्ठभूमि के रूप में उपयोग की जाती है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18228,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऊंट की खाल पर स्वर्णिम नक्काशी का कार्य किस नाम से किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कारचोब"
+        },
+        {
+          "id": "opt2",
+          "text": "फड़चित्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "उस्ताकला"
+        },
+        {
+          "id": "opt4",
+          "text": "मथेरण कला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18229,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिल्पग्राम कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18230,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पोमचा, एक प्रकार की ओढ़नी पहनी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माँ बनने के उत्सव पर"
+        },
+        {
+          "id": "opt2",
+          "text": "विवाह के अवसर पर"
+        },
+        {
+          "id": "opt3",
+          "text": "एक अविवाहित कन्या द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "एक विधवा द्वारा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पोमचा का इस्तेमाल नवविवाहित गर्भवती महिलाओं के लिए किया जाता है। जब नवविवाहित महिला लड़के को जन्म देती है, तो उसे पीला पोमचा दिया जाता है। पोमचा पद्म या कमल से संबद्ध है, अर्थात इसमें कमल के फूल बने होते है। यह बच्चे के जन्म के अवसर पर पीहर पक्ष की ओर बच्चे की माँ को दिया जाता है। पुत्र एक जन्म होने पर पीला पोमचा तथा पुत्री के जन्म पर लाल पोमचा देने का रिवाज है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18231,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पछेवड़ा’ संदर्भित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पगड़ी से"
+        },
+        {
+          "id": "opt2",
+          "text": "आभूषण से"
+        },
+        {
+          "id": "opt3",
+          "text": "परिधान से"
+        },
+        {
+          "id": "opt4",
+          "text": "बर्तन से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18233,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पछेवड़ा’ संदर्भित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परिधान"
+        },
+        {
+          "id": "opt2",
+          "text": "पगड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt4",
+          "text": "बर्तन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18234,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शासक ने ब्लू पॉटरी को संरक्षण दिया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर के सवाई रामसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर के सवाई जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर के महाराजा उम्मेद सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर के महाराजा हनवंत सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर के सवाई राम सिंह द्वितीय ने ब्लू पॉटरी को संरक्षण दिया। ब्लू पॉटरी को व्यापक रूप से जयपुर के पारंपरिक शिल्प के रूप में मान्यता प्राप्त है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18235,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मुर्कियाँ’ पहने जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गले में"
+        },
+        {
+          "id": "opt2",
+          "text": "नथुने पर"
+        },
+        {
+          "id": "opt3",
+          "text": "कानों में"
+        },
+        {
+          "id": "opt4",
+          "text": "कलाई में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18236,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लप्पा, लप्पी, किरण और गोखरु क्या हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी फिल्म ‘सासु माँ’ में किरदार"
+        },
+        {
+          "id": "opt2",
+          "text": "गोटा की विभिन्न किस्में"
+        },
+        {
+          "id": "opt3",
+          "text": "शेरवानी के नाम"
+        },
+        {
+          "id": "opt4",
+          "text": "अधिक उपज देने वाले कीट (किडनी बीन, फेज़ियोलस एकोनाइट फोलियस) की किस्में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18237,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पीपलपन्ना है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्त्रियों के सिर का आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "स्त्रियों के कान का आभूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "स्त्रियों के गले का आभूषण"
+        },
+        {
+          "id": "opt4",
+          "text": "स्त्रियों के कमर का आभूषण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18240,
+        "exam": "Informatics Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सन्दर्भ में ‘पीला पोमचा’ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोकगीत"
+        },
+        {
+          "id": "opt2",
+          "text": "लोकनृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "कपड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "पेन्टिंग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Livestock Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18242,
+        "exam": "Livestock Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अमरशाही किसका नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जूती"
+        },
+        {
+          "id": "opt2",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "मिट्टी का बर्तन"
+        },
+        {
+          "id": "opt4",
+          "text": "पगड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रियासती पगडि़यां: 1. जसवंत शाही 2. चुड़ावत शाही 3. भीम शाही 4. उदयशाही 5. मानशाही 6. राठौडी 7. हम्मीर -शाही 8. अमरशाही 9. स्वरूपशाही 10. शाहजहांनी 11. राजशाही",
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18243,
+        "exam": "Tax Assitant Exam 2018(P1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कोफ्तगिरी के काम के लिए कौन-से शहर प्रसिद्ध हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर एवं जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा एवं बून्दी"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर एवं जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरापाटन एवं बाराँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18244,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (कला-प्रमुख केंद्र) युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "थेवा - सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "गलीचा निर्माण - जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजरख प्रिंट - बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कठपुतली - उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18245,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोक कला के निर्माण का पुश्तैनी व्यवसाय केवल चित्तौड़गढ़ जिले के ग्राम बस्सी में ही देखा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फड़"
+        },
+        {
+          "id": "opt2",
+          "text": "सांझी"
+        },
+        {
+          "id": "opt3",
+          "text": "वील"
+        },
+        {
+          "id": "opt4",
+          "text": "कावड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18246,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थानी साहित्य",
+  "batchIndex": 9,
+  "batchName": "राजस्थानी साहित्य भाग 9",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जसवंत सिंह ने, जो स्वंय एक कवि तथा विद्वान था, कई ग्रन्थ रचे। निम्न में से जसवंत द्वारा रचित ग्रन्थों को पहचानिए - 1. भाषा-भूषण 2. प्रबोध चंद्रोदय नाटक 3. सिद्धांत सार 4. अनुभव प्रकाश सही कूट चुनिये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3 व 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3 व 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2 व 4"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3 व 4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6780,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिये– पुस्तक लेखक A.हम्मिरायण i.बादर B.वीरमायण ii.मंछाराम सेवग C.रघुनाथ रूपक iii.दुरसा आढ़ा D.किरतार बावणी iv.भाण्डऊ व्यास कूट: A B C D A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii i iv ii"
+        },
+        {
+          "id": "opt2",
+          "text": "iv i ii iii"
+        },
+        {
+          "id": "opt3",
+          "text": "iii i ii iv"
+        },
+        {
+          "id": "opt4",
+          "text": "ii i iv iii"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार होगा– पुस्तक लेखक हम्मिरायण – भाण्डऊ व्यास वीरमायण – बादर रघुनाथ रूपक – मंछाराम सेवग किरतार बावनी – दुरसा आढ़ा",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6781,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वंश भास्कर के लेखक हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्र बरदाई"
+        },
+        {
+          "id": "opt2",
+          "text": "जगजीवन"
+        },
+        {
+          "id": "opt3",
+          "text": "जयचन्द्र सूरी"
+        },
+        {
+          "id": "opt4",
+          "text": "ाूर्यमल्ल मिश्रण"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वंश भास्कर के लेखक चारण कवि सूर्यमल्ल मिश्रण है। जो बूँदी के हाड़ शासक महाराव रामिंसह के दरबारी कवि थे। अपूर्ण वंश भास्कर को महाकवि सूर्यमल्ल के दत्तक पुत्र मुरादी दान ने पुरा किया।",
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19513,
+        "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गलत युग्म को चुनिए: साहित्यिक रचना साहित्याकर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बादल: चन्द्र देवल"
+        },
+        {
+          "id": "opt2",
+          "text": "राधा: सत्य प्रकाश जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "मेघमाल: सुमेर सिंह शेखावत"
+        },
+        {
+          "id": "opt4",
+          "text": "बाथा में भूगोल: हरीश भादानी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – साहित्यिक रचनाएँ साहित्यकार कावड़ – चन्द्र देवल राधा – सत्य प्रकार जोशी मेघमाल – सुमेर सिंह शेखावत बाथा में भूगोल – हरीश भदानी 132",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6786,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित लेखकों में से कौन ’ए हिस्ट्री ऑफ राजस्थान’ के लेखक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रीमा हूजा"
+        },
+        {
+          "id": "opt2",
+          "text": "सतीश चन्द्रा"
+        },
+        {
+          "id": "opt3",
+          "text": "सुमित सरकार"
+        },
+        {
+          "id": "opt4",
+          "text": "आर. सी. मजूमदार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘ए हिस्ट्री ऑफ राजस्थान’ की लेखक रीमा हूजा हैं। रीमा हूजा राजस्थान की पुरातत्वविद् आर प्रमुख इतिहासकार हैं।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Grade-II 2013",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6792,
+        "exam": "RPSC Sr. Teacher Grade-II 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I से सूची-II से सुमेलित कीजिए और सूचियों के नीचे दिये हुए कुटों से सही उत्तर का चयन कीजिए: सूची-I (लेखक) सूची-II(ग्रन्थ) I करणीदान a अजितोदय II दोलतविजय b कान्हड़दे प्रबन्ध III पद्यनाथ c खुमाणरासो IV जगजीवन भट्ट d सूरजप्रकाश कूट: (I) (II) (III) (IV)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(d) (c) (b) (a)"
+        },
+        {
+          "id": "opt2",
+          "text": "(b) (a) (d) (c)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a) (b) (c) (d)"
+        },
+        {
+          "id": "opt4",
+          "text": "(d) (a) (b) (c)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलित है – करणीदान – सूरज प्रकाश दालपति विजय – खुमाणरासो पद्यनाभ – कान्हड़दे प्रबंध जगजीवन भट्ट – अजितोदय",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Grade-II 2013",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6793,
+        "exam": "RPSC Sr. Teacher Grade-II 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मध्यकालीन राजस्थान के निम्नलिखित साहित्यिक स्रोतों में से कौन सा सही सुमेलित नहीं हैं? ग्रंथ लेखक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज विजय - चन्द्र बरदाई"
+        },
+        {
+          "id": "opt2",
+          "text": "कान्हड़ दे प्रबन्ध - पद्मनाभ"
+        },
+        {
+          "id": "opt3",
+          "text": "वंश भाष्कर - सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड रा परगणा री विगत - मुहता नैणसी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘पृथ्वीराज विजय’ की रचना पृथ्वीराज चौहान के समकालीन कश्मीरी कवि ‘जयानक’ ने की थी। यह ग्रन्थ संस्कृत भाषा में है।",
+      "reference": "📌 PYQ — RPSC Clerk Gr-II (P-I) 2013",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6795,
+        "exam": "RPSC Clerk Gr-II (P-I) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महान संस्कृत कवि एवं नाटककार राजशेखर निम्न में से किसके दरबार से सम्बन्धित था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा भोज"
+        },
+        {
+          "id": "opt2",
+          "text": "महिपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "महेन्द्रपाल प्रथम"
+        },
+        {
+          "id": "opt4",
+          "text": "इन्द्र तृतीय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "महेन्द्रपाल प्रथम प्रतिहार वंश का शासक व मिहिर भोज का पुत्र था। इनके दरबार में संस्कृत के प्रसिद्ध कवि राजशेखर रहते थे। इन्होंने निम्न ग्रंथों की रचना की–बाल रामायण, बाल भारत(प्रचंड पांडव), विद्धशाल भंजिका, कर्पूरमंजरी व काव्य मीमांसा।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19515,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान साहित्य की कौनसी श्रेणी कहानी या कथा विधा से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वात"
+        },
+        {
+          "id": "opt2",
+          "text": "वेलि"
+        },
+        {
+          "id": "opt3",
+          "text": "वचनिका"
+        },
+        {
+          "id": "opt4",
+          "text": "विगत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान साहित्य की वात श्रेणी कहानी या कथा विधा से सम्बन्धित है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2012",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6800,
+        "exam": "RPSC RAS/RTS Pre 2012",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रमुख कहानीकार हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मी कुमारी चूंडावत"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्यमल मिश्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "सुन्दरदास"
+        },
+        {
+          "id": "opt4",
+          "text": "मण्डन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की प्रमुख कहानीकार लक्ष्मी कुमारी चूड़ावत हैं। इनकी श्रेष्ठ कहानियों में मॉझल रात, मूमल, अमोलक बातां इत्यादि है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6807,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "साहित्य अकादमी पुरस्कृत ‘पगफेरों रचना है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गुलाबचंद"
+        },
+        {
+          "id": "opt4",
+          "text": "मणि मधुकर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पगफेरो राजस्थानी भाषा के विख्यात साहित्यकार मणि मधुकर द्वारा रचित कविता संग्रह है। इसके लिए इन्हें साहित्य अकादमी पुरस्कार से सम्मानित किया गया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6808,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘किरतार’ बावनी’ के लेखक हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिरधर"
+        },
+        {
+          "id": "opt2",
+          "text": "नल्लसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "करणीदान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "किरतार बावनी के लेखक दुरसा आढ़ा थे। दुरसा आढ़ा राजस्थानी भाषा के कवि, योद्धा और सलाहकार थे।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6810,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म सही सुमेलित नहीं है? I II लेखक कृतियाँ",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा कुम्भा संगीतराज"
+        },
+        {
+          "id": "opt2",
+          "text": "उस्ताद चाँद खाँ स्वरसागर"
+        },
+        {
+          "id": "opt3",
+          "text": "द्बारका प्रसाद भट्ट राग चन्द्रिका"
+        },
+        {
+          "id": "opt4",
+          "text": "राधा कृष्ण मुरली प्रकाश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – लेखक कृतियाँ महाराणा कुंभा – संगीतराज उस्ताद चाँद खाँ – स्वरसागर द्वारका प्रसाद भट्ट – राग चंद्रिका संतोष सिंह – मुरली प्रकाश",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6812,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध हिंदी उपन्यास ‘राग दरबारी’ के लेखक हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्ञान चतुर्वेदी"
+        },
+        {
+          "id": "opt2",
+          "text": "अमरकांत"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री लाल शुक्ल"
+        },
+        {
+          "id": "opt4",
+          "text": "शरद जोशी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राग दरबारी श्री लाल शुक्ल द्वारा लिखित एक व्यंगपूर्ण हिन्दी उपन्यास है, जो1968में प्रकाशित हुआ था।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6814,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कविराज श्यामलदास द्वारा लिखित प्रसिद्ध इतिहास गं्रथ का क्या नाम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर"
+        },
+        {
+          "id": "opt2",
+          "text": "वीर-विनोद"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ राज्य का इतिहास"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरज-प्रकाश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कविराज श्यामलदास ने वीर विनोद नामक इतिहास ग्रन्थ लिखा। यह ग्रन्थ मेवाड़ का इतिहास लिखने वाला पहला ग्रन्थ है। उदयपुर के शासक महाराणा सज्जन सिंह ने मेवाड़ के इतिहास को लिखने की जिम्मेदारी इनको दी थी।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6815,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध राजस्थानी गं्रथ ‘बातां री फुलवारी’ की लेखक कौन है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्जुन देव चारण"
+        },
+        {
+          "id": "opt2",
+          "text": "विजयदान देधा"
+        },
+        {
+          "id": "opt3",
+          "text": "चन्द्रप्रकाश देवल"
+        },
+        {
+          "id": "opt4",
+          "text": "मंगत बादल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बातां री फुलवारी पुस्तक विजयदान देधा द्वारा लिखी गई थी। विजयदान देधा राजस्थानी साहित्य के एक प्रमुख साहित्यकार हैं।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6817,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रबन्धचिन्तामणि का लेखक था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उद्योतन सूरी"
+        },
+        {
+          "id": "opt2",
+          "text": "नयचन्द्र सूरी"
+        },
+        {
+          "id": "opt3",
+          "text": "मेरुतुंग"
+        },
+        {
+          "id": "opt4",
+          "text": "दलपत विजय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रबंध चिंतामणि14वीं शताब्दी के दौरान राजपूत विद्वान मेरुतुंगा द्वारा रचित भारतीय साहित्य की एक उत्कृष्ट कृति है।",
+      "reference": "📌 PYQ — RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6822,
+        "exam": "RPSC Head Master (S.S.) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अष्टाध्यायी का लेखक था─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वराहमिहिर"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीदास"
+        },
+        {
+          "id": "opt3",
+          "text": "पाणिनी"
+        },
+        {
+          "id": "opt4",
+          "text": "बलराम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अष्टाध्यायी के लेखक पाणिनी थे। यह एक व्याकरण ग्रंथ है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2008",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19526,
+        "exam": "RPSC RAS/RTS Pre 2008",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयिंसह सूरी लेखक थे─ (a)हम्मीरमदमर्दन (b)हम्मीर महाकाव्य (c)हम्मीर-हठ (d)हम्मीर रासो RPSC RAS/RTS Pre 2006-07 उत्तर─(a) व्याख्या─`हम्मीर मदमर्दन' के लेखक जयिंसह सूरी हैं। `हम्मीर रासो' के लेखक शारंगधर तथा `हम्मीरहठ' चन्द्रशेखर बाजपेयी की रचना है। `हम्मीर महाकाव्य' नयचन्द्र सूरी द्वारा लिखा गया। 117. सहकारी शिक्षा एवं प्रबंध के लिए संस्था स्थापित की गयी है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर में सहकारी शिक्षा एवं प्रबंध के लिए संस्था स्थापित की गयी है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre Re-Exam 1999-2000",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6824,
+        "exam": "RPSC RAS/RTS Pre Re-Exam 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रसिक-रत्नावली के लेखक थे─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागरिदास"
+        },
+        {
+          "id": "opt2",
+          "text": "माधोदास दधवाड़िया"
+        },
+        {
+          "id": "opt3",
+          "text": "नर हरिदास"
+        },
+        {
+          "id": "opt4",
+          "text": "कवि हरसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "`रसिक रत्नावली' के रचयिता राजस्थानी कवि नरहरिदास जी हैं जबकि `वैराग्य सागर' तथा `िंसगार सागर' नामक रचनाएँ नागरिदास की हैं। माधोदास दधवाड़िया ने `राजरूपक' नामक काव्य ग्रंथ की रचना की।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6827,
+        "exam": "RPSC RAS/RTS Pre 1999-2000",
+        "year": null
+      }
+    }
+  ]
+}

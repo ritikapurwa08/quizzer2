@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थानी साहित्य",
+  "batchIndex": 1,
+  "batchName": "राजस्थानी साहित्य भाग 1",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-साहित्य",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ी बोली की साहित्यिक रचनाएँ राजस्थानी भाषा की किस प्रमुख बोली की साहित्यिक समृद्धि के तुलनीय हैं?सबसे उपयुक्त विकल्प का चयन कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती बोली"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ी बोली"
+        },
+        {
+          "id": "opt3",
+          "text": "धुंडारी बोली"
+        },
+        {
+          "id": "opt4",
+          "text": "मालवी बोली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ी और मारवाड़ी दोनों पश्चिमी राजस्थानी की मुख्य बोलियाँ हैं। साहित्यिक दृष्टि से मेवाड़ी की समृद्धि मारवाड़ी भाषा के साहित्यिक भंडार (डिंगल) के समकक्ष मानी जाती है।",
+      "reference": "📌 PYQ — Forester Exam 2026",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6308,
+        "exam": "Forester Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित महत्वपूर्ण व्यक्तित्वों को उनके जन्म वर्ष के अनुसार कालक्रम में व्यवस्थित करें: a. गौरी शंकर हीराचंद ओझा b. बावजी चतुरसिंह c. दयालदास d. कविराज श्यामल दासनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "c, b, a, d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, c, d, a"
+        },
+        {
+          "id": "opt3",
+          "text": "c, d, a, b"
+        },
+        {
+          "id": "opt4",
+          "text": "d, b, c, a"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दयालदास: इनका जन्म 1798 में हुआ था। ये बीकानेर के दरबारी कवि थे जिन्होंने ‘दयालदास री ख्यात’ लिखी।कविराज श्यामल दास: इनका जन्म 1836 में भीलवाड़ा में हुआ था। ये मेवाड़ के महाराणा सज्जन सिंह के दरबारी कवि थे जिन्होंने प्रसिद्ध ग्रंथ ‘वीर विनोद’ लिखा।गौरी शंकर हीराचंद ओझा: इनका जन्म 1863 में सिरोही (रोहिड़ा) में हुआ था। ये श्यामल दास के शिष्य और राजस्थान के एक प्रकांड इतिहासकार थे।बावजी चतुरसिंह: इनका जन्म 1880 में मेवाड़ राजपरिवार में हुआ था। ये मेवाड़ी भाषा के प्रसिद्ध लोक-संत और दार्शनिक कवि थे।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Science)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6309,
+        "exam": "Lab Assistant Exam 2026 (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें-सूची I (रचना)सूची II (लेखक/कवि)a. गांवI. अर्जुनदेव चारणb. मारगII. गोरधन सिंह शेखावतc. जुदावIII. पारस अरोड़ाd. रिन्द्रोहीIV. चन्द्र प्रकाश देवलनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-IV, c-I, d-II"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-IV, c-III, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-IV, b-III, c-I, d-II"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गांव: यह प्रसिद्ध रचना गोरधन सिंह शेखावत की है।मारग: इस कृति के लेखक प्रसिद्ध साहित्यकार चन्द्र प्रकाश देवल हैं।जुदाव: यह रचना पारस अरोड़ा द्वारा लिखी गई है।रिन्द्रोही: आधुनिक राजस्थानी काव्य के प्रमुख हस्ताक्षर अर्जुनदेव चारण की यह बेहद चर्चित कृति है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Geography)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6310,
+        "exam": "Lab Assistant Exam 2026 (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं: एक अभिकथन (Assertion) A के रूप में लिखित है तो दूसरा उसके कारण (Reason) R के रूप में-अभिकथन A: वात, किसी कहानी को कहने और सुनने के समान विधा है तथा तीन रूपों में उपलब्ध है - गद्य, पद्य और गद्य-पद्य।कारण R: “अचलदास खींची री वचनिका” और “खिड़या जग्गा री कही” बात की कुछ महत्वपूर्ण कृत्तियां हैं।उपरोक्त कथन के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वात राजस्थानी साहित्य की एक विधा है, जिसमें कहानियाँ कही और सुनी जाती हैं। ये लोक कथाएँ और वीरगाथाएँ मौखिक परंपरा के रूप में प्रचलित हैं।अचलदास खींची री वचनिका (शिवदास गाडण) वचनिका से संबंधित है। वचनिका शब्द संस्कृत के ‘वचन’ शब्द से बना है। यह गद्य पद्य मिश्रित काव्य विधा के रूप में राजस्थानी साहित्य में प्रचलित हुआ है। इसमें अंत्यानुप्रास मिलता है, यद्यपि इसके अपवाद भी मिलते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6337,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें-सूची I (लेखक)सूची II (पुस्तक)a. विजयदान देथाI. जमारोb. यादवेन्द्र शर्मा ‘चन्द्र’II. उलझनc. मणि मधुकरIII. गांवd. गोरधन सिंह शेखावतIV. पगफेरोनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-I, c-IV, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-I, b-II, c-III, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-III, c-I, d-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a-III, b-IV, c-I, d-II"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विजयदान देथा-उलझन, यादवेन्द्र शर्मा ‘चन्द्र’-जमारो, मणि मधुकर-पगफेरो, गोरधन सिंह शेखावत-गांव",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6341,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित करें: सूची-I ग्रंथसूची-II लेखक(a) बीसल देव रासो(i) दलपत विजय(b) सागत रासो(ii) जोधराज(c) खुमाण रासो(iii) गिरधर आसिया(d) हम्मीर रासो(iv) नरपति नाल्हनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iv), (b)-(i), (c)-(ii), (d)-(iii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीसल देव रासो → नरपति नाल्हसागत रासो → गिरधर आसियाखुमाण रासो → दलपत विजयहम्मीर रासो → जोधराज",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6343,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“सेनाणी” कविता किसने लिखी थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कन्हैया लाल सेठिया"
+        },
+        {
+          "id": "opt2",
+          "text": "जय नारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "मेघराज मुकुल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "“सेनाणी” कविता मेघराज मुकुल द्वारा रचित है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6344,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कन्हैयालाल सेठिया के बारे में कौन से कथन सत्य हैं?a. कन्हैया लाल सेठिया राजस्थान के महान कवि थे।b. सेठिया जी की मुख्य कृत्तियां मींझर, लीलटांस और राधा थी।c. सेठिया जी की “राधा” का काव्यात्मक रूप 1960 में प्रकाशित हुआ था।d. बातां री फुलवारी भी सेठियाजी द्वारा रचित है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a केवल"
+        },
+        {
+          "id": "opt2",
+          "text": "d केवल"
+        },
+        {
+          "id": "opt3",
+          "text": "b, c केवल"
+        },
+        {
+          "id": "opt4",
+          "text": "a, d केवल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कन्हैयालाल सेठिया निश्चित रूप से राजस्थान के महान राजस्थानी कवि थे। प्रसिद्ध कृति मींझर और लीलटांस के लेखक कन्हैयालाल सेठिया थे। ‘राधा’ प्रसिद्ध राजस्थानी कवि सत्यप्रकाश जोशी (1960) की एक अत्यंत चर्चित और महत्वपूर्ण काव्य-कृति (खंडकाव्य) है। बातां री फुलवारी राजस्थानी भाषा के विख्यात साहित्यकार विजयदान देथा द्वारा रचित एक लोककथाएँ है जिसके लिये उन्हें सन् 1974 में राजस्थानी भाषा के लिए साहित्य अकादमी पुरस्कार से सम्मानित किया गया।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6345,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मध्ययुगीन राजस्थानी वात साहित्य पर निम्नलिखित में से किन विद्वानों ने महत्त्वपूर्ण कार्य किया हैं?(A) लक्ष्मी कुमारी चुंडावत(B) एल.पी. टेस्सीटोरी(C) मनोहर शर्मा(D) श्रीलाल नथमल जोशीसही उत्तर का चयन कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A), (C) एवं (D)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A), (B) एवं (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A), (B), (C) एवं (D)"
+        },
+        {
+          "id": "opt4",
+          "text": "(C) एवं (D)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मध्ययुगीन राजस्थानी वात (कहानी) साहित्य पर इन सभी विद्वानों ने महत्वपूर्ण योगदान दिया: लक्ष्मी कुमारी चुंडावत राजस्थान की एक भारतीय लेखिका और राजनीतिज्ञ थीं।एल.पी. टेस्सीटोरी ने राजस्थानी बोलियों को दो वर्गो में बांटा।मनोहर शर्मा: राजस्थानी बात साहित्य।श्रीलाल नथमल जोशी: राजस्थानी लोक साहित्य पर कार्य।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6346,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“अचलदास खींची री वाचनिका” के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिवदास गाडण"
+        },
+        {
+          "id": "opt2",
+          "text": "कविराजा बांकीदास"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज राठौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "माधोदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "“अचलदास खींची री वाचनिका” चारण साहित्य की प्रसिद्ध रचना है जिसके रचयिता चारण कवि शिवदास गाडण हैं।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6348,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा की पुस्तक ‘गिर ऊंचा ऊंचा गढ़ां’ के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रानी लक्ष्मी कुमारी चूंडावत"
+        },
+        {
+          "id": "opt2",
+          "text": "शिव चंद्र भारतीय"
+        },
+        {
+          "id": "opt3",
+          "text": "यद्वेंद्र शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "नथमल जोशी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लक्ष्मी कुमारी चुंडावत (24 जून 1916 - 24 मई 2014) राजस्थान की एक भारतीय लेखिका और राजनीतिज्ञ थीं। प्रमुख पुस्तकें: 1. मांझल रात (कहाणियां), 2. रवि ठाकर री वातां (अनुवाद) 3. अमोलक बातां, 4. गिर उंचा उचं गढां 5. कह रै चकवा बात 6. संसार री नामी कणियां 7. राजस्थानी दोहा संग्रह (संपादन) 8. राजस्थानी लोकगीत (संपादन) 9. मूमल 10. वीरवांण (संपादन)",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6349,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे राजस्थान से “साहित्य अकादमी युवा पुरस्कार-2024” मिला -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोनाली सुथार"
+        },
+        {
+          "id": "opt2",
+          "text": "देवीलाल महिया"
+        },
+        {
+          "id": "opt3",
+          "text": "आशीष पुरोहित"
+        },
+        {
+          "id": "opt4",
+          "text": "कीर्ति परिहार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सोनाली सुथार को उनकी काव्य कृति ‘सुध सोधूं जग आँगणे’ पर ये पुरस्कार मिला है।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6350,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1540 ई. में पद्मावत महाकाव्य किसने लिखा था, जो चित्तौड़ की रानी पद्मिनी की कहानी कहता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमीर खुसरो"
+        },
+        {
+          "id": "opt2",
+          "text": "अबुल फजल"
+        },
+        {
+          "id": "opt3",
+          "text": "मलिक मुहम्मद जायसी"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रसिद्ध पुस्तक “पद्मावत” मलिक मुहम्मद जायसी द्वारा लिखी गई थी। यह अवधी की महत्वपूर्ण रचनाओं में सबसे पुराना मौजूदा लेख है। उन्होंने इसे अवधी की हिंदुस्तानी भाषा में और मूल रूप से फारसी लिपि में लिखा था।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6364,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "साहित्यिक कृति “अमोलक वातां” के लेखक का नाम बताइए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt2",
+          "text": "शिव चंद्र भारतीय"
+        },
+        {
+          "id": "opt3",
+          "text": "लक्ष्मी कुमारी चूण्डावत"
+        },
+        {
+          "id": "opt4",
+          "text": "यादवेंद्र शर्मा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“अमोलक वातां” एक प्रसिद्ध राजस्थानी साहित्यिक कृति है, जो लक्ष्मी कुमारी चूण्डावत द्वारा लिखी गई। लक्ष्मी कुमारी चुंडावत एक राजस्थानी लेखिका, सांसद और विधायक थीं। उनका जन्म 24 जून 1916 को उदयपुर के देवगढ़ थिकाना में हुआ था। उन्हें 1984 में पद्म श्री से सम्मानित किया गया था। इसी तरह, उन्हें साहित्य महामहोपाध्याय, राजस्थान रत्न (2012), टेसिटरी स्वर्ण पुरस्कार, महाराणा कुंभा पुरस्कार और सोवियत भूमि नेहरू पुरस्कार जैसे कई पुरस्कार मिले हैं।",
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6365,
+        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे राजस्थानी साहित्य का प्रथम गद्य लेखक कहा जा सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मी कुमारी चूण्डावत"
+        },
+        {
+          "id": "opt2",
+          "text": "यादवेंद्र शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "रामेश्वर दयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "शिव चंद्र भरतिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शिव चन्द्र भारतीय को राजस्थानी साहित्य में गद्य लेखन का प्रारंभिक लेखक माना जाता है।",
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6366,
+        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी उपन्यास “धोरां रो धोरी” के लेखक का नाम बताइए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मी कुमारी चुण्डावत"
+        },
+        {
+          "id": "opt2",
+          "text": "यादवेंद्र शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीलाल नथमल जोशी"
+        },
+        {
+          "id": "opt4",
+          "text": "रामेश्वर दयाल श्रीमाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "श्रीलाल नथमल जोशी राजस्थानी साहित्यकार हैं, जिन्होंने उपन्यास “धोरां रो धोरी” लिखा। श्रीलाल नथमल जोशी का जन्म 4 फरवरी 1922 को बीकानेर जिले (राजस्थान) में हुआ था।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6352,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी सूर्यमल मिश्रान की प्रसिद्ध साहित्यिक कृति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंश भास्कर"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज राव"
+        },
+        {
+          "id": "opt3",
+          "text": "अमोलक बातां"
+        },
+        {
+          "id": "opt4",
+          "text": "बातां री फुलवारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सूर्यमल मिश्रण (1815-1868) बूंदी के राजकवि थे, जिनकी प्रसिद्ध कृति वंश भास्कर है। सूर्यमल्ल मिश्रण के मुख्य ग्रन्थ: 1. वंशभास्कर2. वीर सतसई3. धातु रूपावली4. बलवद विलास (बलवंत विलास)5. रामरंजाट6. छन्दोमयूख7. सतीरासो",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6353,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के वह प्रसिद्ध व्यक्ति जिन्होंने “लीलटांस (कविता)” लिखी थी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt2",
+          "text": "बावजी चतुर सिंहजी"
+        },
+        {
+          "id": "opt3",
+          "text": "गौरीशंकर हीराचंद ओझा"
+        },
+        {
+          "id": "opt4",
+          "text": "कन्हैयालाल सेठिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लीलटांस राजस्थानी भाषा के विख्यात साहित्यकार कन्हैयालाल सेठिया द्वारा रचित एक कविता–संग्रह है जिसके लिये उन्हें सन् 1976 में राजस्थानी भाषा के लिए साहित्य अकादमी पुरस्कार से सम्मानित किया गया।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6354,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस प्रख्यात कवि को 2025 में साहित्य और शिक्षा के क्षेत्र में उनके योगदान के लिए पद श्री से सम्मानित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शीन कॉफ निजाम"
+        },
+        {
+          "id": "opt2",
+          "text": "मोहन लाल कुम्हार"
+        },
+        {
+          "id": "opt3",
+          "text": "बैजनाथ महाराज"
+        },
+        {
+          "id": "opt4",
+          "text": "बेगम बतूल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जोधपुर के उर्दू कवि शीन काफ़ निज़ाम (शिवकिशन बिस्सा) को 2025 पद्म श्री मिला। उर्दू भाषा के विख्यात साहित्यकार व शायर जोधपुर के शीन काफ निजाम का जन्म का नाम शिव किशन बिस्सा है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6355,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी कविता संग्रह “मुगटी”, जिसने 2021 में साहित्य अकादमी पुरस्कार जीता, किसके द्वारा लिखा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीथेश निर्मोही"
+        },
+        {
+          "id": "opt2",
+          "text": "कन्हैयालाल सेठिया"
+        },
+        {
+          "id": "opt3",
+          "text": "मंगत बादल"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनाली सुथार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मीथेश निर्मोही को 2021 में उनकी राजस्थानी कविता संग्रह “मुगटी” के लिए साहित्य अकादमी पुरस्कार मिला था।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6356,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 13,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 13",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘राजपूताना मालवा टाईम्स’ और ‘राजस्थान पत्रिका’ के संपादक थे।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मणदास"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमान सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "मुराद अली"
+        },
+        {
+          "id": "opt4",
+          "text": "रामनारायण चौधरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजपूताना मालवा टाईम्स और राजस्थान पत्रिका के संपादक लक्ष्मणदास थे।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6720,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "देश हितेषीणी सभा, एक सामाजिक सुधार संगठन, स्थापित हुआ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "देश हितेषणी सभा की स्थापना २ जुलाई, १८७७ को उदयपुर में की गई थी। इसकी स्थापना महाराणा सज्जन सिंह के नेतृत्व में हुई थी।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6721,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1920 के दशक में मेवाड़ में भील आंदोलन का नेतृत्व निम्नलिखित में से किसने किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्द गुरु"
+        },
+        {
+          "id": "opt2",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "विजयसिंह पथिक"
+        },
+        {
+          "id": "opt4",
+          "text": "मोतीलाल तेजावत"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "१९२० के दशक में मेवाड़ में भील आंदोलन का नेतृत्व मोतीलाल तेजावत ने किया था। इस आंदोलन में भीलों को उनके वन अधिकार पुन: प्राप्त हुए।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6722,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा एवं संस्कृति में, डिंगल है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काव्य की शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "बोली"
+        },
+        {
+          "id": "opt3",
+          "text": "लिपि"
+        },
+        {
+          "id": "opt4",
+          "text": "गद्य-गीत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थानी की प्रमुख बोली मारवाड़ी का साहित्यिक रूप िंडगल है। इसे भाटभाषा भी कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6725,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में सुमेलित कीजिए: बोली जिला (A) बागड़ी (i) हनुमानगढ़ (B) जगरौती (ii) उदयपुर (C) धावड़ी (iii) करौली (D) गौड़वाडी (iv) सिरोही Cost: /कूट A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii) (ii) (i) (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (iii) (iv) (ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) (iii) (i) (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i) (ii) (iii) (iv)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन इस प्रकार है – बोली जिला बांगड़ी – उदयपुर जमरौती – करौली धावड़ी – करौली गौड़वाड़ी – सिरोही",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6726,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "समाचार पत्र जिसका प्रकाशन राजस्थान सेवा संघ ने अजमेर से कियाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "त्यागभूमि"
+        },
+        {
+          "id": "opt2",
+          "text": "लोकवाणी"
+        },
+        {
+          "id": "opt3",
+          "text": "नवीन राजस्थान"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सन्1922में राजस्थान सेवा संघ के द्वारा ‘नवीन राजस्थान’ का प्रकाशन शुरू किया गया था।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6727,
+        "exam": "RPSC School Lect. (S.E.)2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘‘राजस्थानी’’ का स्वतंत्र भाषा के रूप में वैज्ञानिक विश्लेषण प्रस्तुतु करने वाला प्रथम विद्वान कौन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जॉर्ज अब्राहम ग्रियर्सन"
+        },
+        {
+          "id": "opt2",
+          "text": "टेलर होमस"
+        },
+        {
+          "id": "opt3",
+          "text": "जॉर्ज गिब्सन"
+        },
+        {
+          "id": "opt4",
+          "text": "जॉर्ज सी.एल. शार्वस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जॉर्ज अब्राहम ग्रियर्सन पहले ऐसे विद्वान थे जिन्होंने राजस्थानी भाषा को ‘राजस्थानी’ नाम दिया था। उन्होंने वर्ष १९१२ में भारत के भाषाई सर्वेक्षण में राजस्थानी शब्द का इस्तेमाल किया था।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6728,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सारनाथ स्तंभ पर कुल कितने पशुओं की आकृतियाँ हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चार"
+        },
+        {
+          "id": "opt2",
+          "text": "एक"
+        },
+        {
+          "id": "opt3",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt4",
+          "text": "आठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सारनाथ के अशोक स्तंभ पर कुल चार पशुओं की आकृतियाँ हैं जो निम्नवत् हैं – घोड़ा, बैल, हाथी एवं शेर। भारत का राष्ट्रीय प्रतीक, अशोक चिह्न सारनाथ के अशोक स्तंभ से लिया गया है। राष्ट्रीय प्रतीक में मात्र तीन सिंह ही दिखाई देते हैं एवं चौथा छिपा हुआ है।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19495,
+        "exam": "RPSC School Lect. (S.E.)2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तोरावाटी बोली प्रचलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुचामन में"
+        },
+        {
+          "id": "opt2",
+          "text": "नीम का थाना में"
+        },
+        {
+          "id": "opt3",
+          "text": "बहरोड़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "झुन्झुनू में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तोरावटी झुंझुनूं जिले का दिक्षिणी भाग, सीकर जिले का पूर्वी एवं दक्षिणी-पूर्वी भाग तथा जयपुर जिले के कुछ उत्तरी भाग को तोरावाटी कहा जाता था जो अब नीम का थाना में है। अतः यहां की बोली तोरावाटी कहलाई। नीम का थाना में तोरावाटी बोली प्रचलित है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6729,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित राजस्थानी बोलियों में से किस पर गुजराती का मजबूत प्रभाव है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढुढाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "बृज"
+        },
+        {
+          "id": "opt3",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डूंगरपुर बांसवाड़ा के क्षेत्रों का प्राचीन नाम बागड़ था। अतः वहां की भाषा बागड़ी का कहलायी, जिस पर गुजराती का प्रभाव अधिक है डॉक्टर ग्रियर्सन इसे “भीली” भी कहते हैं।",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6730,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अलवर जिले के बहरोड़ और मुण्डावर में कौनसी बोली बोली जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रागड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाडी"
+        },
+        {
+          "id": "opt4",
+          "text": "अहीरवाटी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6731,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित बोलियों में से कौन-सी ढुंढाड़ी की उप बोली नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अहीरवाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "तोरावाटी"
+        },
+        {
+          "id": "opt3",
+          "text": "राजावाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "नागरचोल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6732,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तोरावाटी बोली प्रचलित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुचामन में"
+        },
+        {
+          "id": "opt2",
+          "text": "नीम का थाना में"
+        },
+        {
+          "id": "opt3",
+          "text": "बहरोड़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "झुन्झुन में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तोरावटी बोली सीकर, झुन्झुनूँ जयपुर के उत्तरी भाग में बोली जाती है। यह ढूँढ़ाड़ी की उपबोली है।",
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019 RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6735,
+        "exam": "RPSC Veterinary Officer 2019 RPSC Asst. Agri. Officer 2011",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाती बोली से सम्बन्धित जिला कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6738,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस भाषा से राजस्थानी का उद्भव हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शौरसेनी अपभ्रंश"
+        },
+        {
+          "id": "opt2",
+          "text": "मराठी"
+        },
+        {
+          "id": "opt3",
+          "text": "भोजपुरी"
+        },
+        {
+          "id": "opt4",
+          "text": "बंगाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6739,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ढूंढाड़ी बोली के प्रचलित विविध रूपों में निम्न में से कौन सा सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तोरावाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "नागरचोल"
+        },
+        {
+          "id": "opt3",
+          "text": "चौरासी"
+        },
+        {
+          "id": "opt4",
+          "text": "खेराड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पूर्वी राजस्थानी के मध्यपूर्वी भाग या प्राचीन ढूंढाड़ प्रदेश जिसका संबंध आमेर राज्य से रहा है की प्रधान बोली जयपुरी या ढूंढाड़ी है। ढूंढाड़ी की प्रमुख उपबोलियाँ – इसकी उपबोलियों में हाड़ौती, किशनगढ़ी, तोरावाटी, राजावाटी, अजमेरी, चौरासी, नागरचोल आदि प्रमुख हैं।खेराड़ी मारवाड़ी की उपबोली है।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6741,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मालवा प्रदेश के राजपूतों में प्रचलित मारवाड़ी और मालवी के सम्मिश्रण से उत्पन्न बोली का क्या नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "रांगड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6742,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘पावड़ा’ का मतलब है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोक कथा"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक गाथा"
+        },
+        {
+          "id": "opt3",
+          "text": "लोक गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "लोक साहित्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6743,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुवलयमाला किसके द्वारा लिखी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्दबरदाई"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिभद्र सूरि"
+        },
+        {
+          "id": "opt3",
+          "text": "उद्योतन सूरि"
+        },
+        {
+          "id": "opt4",
+          "text": "जी. एच. ओझा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6744,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खगोल विज्ञान के बारे में ‘जिज मुहम्मद शाही’ पुस्तक किसने लिखी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर के शासक जसवंत सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर के शासक भारमल"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर के सवाई जय सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर के महाराणा उदय सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6745,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    }
+  ]
+}

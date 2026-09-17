@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 19,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 19",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-’कौन सी जेट स्ट्रीम की चारित्रिक विशेषताएँ हैं- A.९ से १२ कि.मी. की ऊँचाई पर प्रभावशाली बहाव। B.भू-विक्षेपी पवनों के विसर्पाकार बेन्ड। C.अनियमित एवं ऋतुवत विस्थापन का प्रदर्शन। D.३००-४०० मी./घण्टा की गति से चलती है तथा भारतीय मानसून को प्रभावित करती हैं। कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B एवं D"
+        },
+        {
+          "id": "opt2",
+          "text": "A, B एवंC"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C एवं D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C एवंD"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जेट स्ट्रीम की निम्नलिखित चारित्रिक विशेषताए है। जेट स्ट्रीम तेज हवा की सकरी धाराये है। ये धाराये ९ से १२ किमी. के ऊँचाई पर पश्चिम से पूरब की ओर प्रवाहित होती है। ये भू-विक्षेपी पवनों के विसर्पाकार बेन्ड है। ये हवाये अनियमित एवं ऋतुवत विस्थापन को प्रदर्शित करती है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19549,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का कितना क्षेत्र गंभीर सूखे की पुनरावृत्ति की दशा से प्रभावित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग16%"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग25%"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग33%"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग50%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत का लगभग २५3 क्षेत्र गंभीर सूखा से प्रभावित है। इस क्षेत्र में एक बार से अधिक सूखे का आंकड़ा दर्ज किया गया।",
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19550,
+        "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के कौन-से भाग में सर्वाधिक बाढ़ प्रभावित क्षेत्र पाये जाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ट्रांस गंगा मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य एवं निचला गंगा मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी तटीय मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "गुजरात का दक्षिण पश्चिमी भाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत में सबसे ज्यादा बाढ़ प्रभावित क्षेत्र मध्य एवं निचला गंगा मैदान में स्थित है। यहाँ गंगा-ब्रह्मपुत्र का निचला भाग स्थित है। यह भाग देश की कुल नदी अपवाह का ६० प्रतिशत वहन करता है।",
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19551,
+        "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के निम्नलिखित में से कौन से राज्य की सीमा बांग्लादेश से संयुक्त नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेघालय"
+        },
+        {
+          "id": "opt2",
+          "text": "त्रिपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिम बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "नागालैंड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पाँच भारतीय राज्य हैं जो बांग्लादेश के साथ सीमा साझा करते है। ये पश्चिम बंगाल, मिजोरम, मेघालय, त्रिपुरा और असम है। भारत और बांग्लादेश के बीच ४०९६ किमी. लम्बी सीमा है। यह भारत की सबसे बड़ी स्थलीय सीमा साझा है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19552,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "घग्घर का मैदान अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर और हनुमानगढ़ जिलों में"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनू और सिकर जिलों में"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर और सिरोही जिलों में"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर और बाड़मेर जिलों में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गंगानगर, अनूपगढ़, हनुमानगढ़ जिलों के मैदानी क्षेत्र का निर्माण घग्घर के प्रवाह क्षेत्र के बाढ़ से हुआ है।",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7489,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का राज्य खेल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फुटबाॅल"
+        },
+        {
+          "id": "opt2",
+          "text": "कबड्डी"
+        },
+        {
+          "id": "opt3",
+          "text": "बास्केट-बाॅल"
+        },
+        {
+          "id": "opt4",
+          "text": "तैराकी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान राज्य का राष्ट्रीय खेल बास्केटबॉल है। राजस्थान का राजकीय पुष्प रोहिड़ा (टेकोमेला अंडुलाता) है। द ग्रेट इंडियन बस्टर्ड, जिसे कभी-कभी गोडावन के नाम से जाना जाता है, राजस्थान का राज्य पक्षी है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7490,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का मरूस्थल विश्व के इन्हीं अक्षांशों में स्थित अन्य मरूस्थलों से सर्वथा भिन्न है। यहां मरूस्थलीकरण प्रक्रिया के सम्बन्ध में क्या अवधारणा सटीक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह सूखे के कारण प्रारम्भ होती है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह ह्रदयस्थल से प्रारम्भ व प्रसारित होती है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह शुष्क क्षेत्रों से प्रारम्भ व प्रसारित होती है।"
+        },
+        {
+          "id": "opt4",
+          "text": "यह अतिचारण, अतिहलन, निर्वनीकरण, तथा मृदा व जल के अनुचित प्रबन्धन के कारण प्रारम्भ व प्रसारित होती है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का अरावली श्रेणीयों के पश्चिम का क्षेत्र शुष्क एवं अर्द्धशुष्क मरूस्थली प्रदेश है। यह एक विशिष्ठ भौगोलिक प्रदेश है। जिसे भारत का विशाल मरूस्थल अथवा थार का मरूस्थल के नाम से जाना जाता है। थार का मरूस्थल विश्व का सर्वाधिक आबाद तथा वन वनस्पति वाला मरूस्थल है। यह अतिचारण, अतिहलन, निर्वनीकरण, तथा मृदा व जल के अनुचित प्रबन्धन के कारण प्रारम्भ व प्रसारित होती है।",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7491,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालोर पहाड़ी क्षेत्र का सर्वोच्च शिखर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इसराना भाकर"
+        },
+        {
+          "id": "opt2",
+          "text": "रोजा भाकर"
+        },
+        {
+          "id": "opt3",
+          "text": "झारोला पहाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "सतूर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इसराना भाकर (839 मी.) जालोर पहाड़ी क्षेत्र का सर्वोच्च शिखर है।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7492,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में फ्ल्यूरोसिस की समस्या से पीड़ित ‘कूबड़पट्टी’ क्षेत्र कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर-अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा-डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर-अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक-दौसा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की कूबड़ पट्टी नागौर-अजमेर की सीमाओं के बीच पाई जाती है। इस क्षेत्र के पानी में फ्लोराइड की अधिकता निवासियों के बीच कुबड़ का कारण बनती है।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7493,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा पठार अरावली पर्वत से सम्बद्ध नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लासड़िया पठार"
+        },
+        {
+          "id": "opt2",
+          "text": "उड़िया पठार"
+        },
+        {
+          "id": "opt3",
+          "text": "बघेलखण्ड पठार"
+        },
+        {
+          "id": "opt4",
+          "text": "भोराट पठार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बघेलखंड के पठार का विस्तार मध्य प्रदेश और छत्तीसगढ़ राज्यों में हैं।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7494,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संरचनात्मक दृष्टि से राजस्थान के भौतिक स्वरूप भारत के निम्न में से किन उच्चावच प्रदेशों का हिस्सा हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी वृहत मैदान, प्रायद्वीपीय पठार"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी पर्वतीय प्रदेश, उत्तरी वृहत मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "तटीय मैदान, प्रायद्वीपीय पठार"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रायद्वीपीय पठार, उत्तरी पर्वतीय प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संरचनात्मक रूप से, राजस्थान की भौतिक विशेषताएं भारत के उत्तरी महान मैदानों, प्रायद्वीपीय पठार क्षेत्रों का हिस्सा हैं।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7495,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली की निम्न पर्वत - चोटियों को उनकी ऊंचाई के अवरोही क्रम में व्यवस्थित कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जरगा, अचलगढ़, कुम्भलगढ़, रघुनाथगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जरगा, रघुनाथगढ़, कुम्भलगढ़, अचलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़, रघुनाथगढ़, जरगा, कुम्भलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़, अचलगढ़, जरगा, रघुनाथगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जरगा (उदयपुर-राजसमंद), 1431 मी.अचलगढ़ (सिरोही), 1380 मी.कुंभलगढ़ (राजसमंद), 1224 मी.रघुनाथगढ़ (सीकर), 1055 मी.",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7496,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्न में से कौन से जिले मुख्यतः बीहड़ प्रभावित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा, सवाई माधोपुर, धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा, डूंगरपुर, जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा, डूंगरपूर, राजसमन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर, भीलवाड़ा, पाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चंबल घाटी राजस्थान के दक्षिण-पूर्वी भाग में स्थित है। चम्बल घाटी क्षेत्र में बीहड़ पाए जाते हैं। कोटा, सवाई माधोपुर, धौलपुर मुख्यतः बीहड़ प्रभावित हैं।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7497,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पश्चिमी राजस्थान में ‘पश्चिमी रेतीला मैदान’ की पूर्वी सीमा निम्न में से कौन सी समवर्षा रेखा बनाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15 सेमी."
+        },
+        {
+          "id": "opt2",
+          "text": "25 सेमी."
+        },
+        {
+          "id": "opt3",
+          "text": "40 सेमी."
+        },
+        {
+          "id": "opt4",
+          "text": "80 सेमी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी राजस्थान में ‘पश्चिमी रेतीला मैदान’ की पूर्वी सीमा 25 सेंटीमीटर की समवर्षा रेखा बनाती है। रेतीले शुष्क मैदानों और अर्ध-शुष्क संक्रमणकालीन मैदान को विभाजित करने वाली 25 सेंटीमीटर की समवर्षा रेखा जलवायविक है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7498,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘भोराट पठार’ जिसके मध्य स्थित है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलगढ़ एवं तारागढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगुन्दा एवं बैराठ"
+        },
+        {
+          "id": "opt3",
+          "text": "कुम्भलगढ़ एवं गोगुन्दा"
+        },
+        {
+          "id": "opt4",
+          "text": "जरगा एवं अचलगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1225 मीटर की औसत ऊंचाई के साथ भोराट पठार कुंभलगढ़ और गोगुन्दा के बीच उदयपुर के उत्तर-पश्चिम में स्थित है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7499,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी पहाड़ियां मध्य अरावली श्रेणी में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेरवाड़ा पहाड़ियां"
+        },
+        {
+          "id": "opt2",
+          "text": "रोजा भाखर पहाड़ियां"
+        },
+        {
+          "id": "opt3",
+          "text": "इसराना भाखर पहाड़ियां"
+        },
+        {
+          "id": "opt4",
+          "text": "गिर्वा पहाड़ियां"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मारवाड के मैदान को मेवाड़ के उच्च पठार से अलग करने वाली पर्वत श्रेणी मेरवाड़ा पहाड़ियाँ है| यह पहाड़ियाँ टाडगढ़ (ब्यावर) के समीप स्थित है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7501,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान के किस जिले में ‘बांका पट्टी’ पेटी फैली हुई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नागौर में, एक पूरे क्षेत्र को स्थानीय रूप से बांका पट्टी (तुड़ी पट्टी) का उपनाम दिया गया है। फ्लोरोसिस के कारण यहां के अधिकांश ग्रामीण कुबड़े हो गए हैं।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7502,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान में कौन सा क्षेत्र बालुका स्तूप मुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेरगढ़ - शिव"
+        },
+        {
+          "id": "opt2",
+          "text": "ओसियां - शेरगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बायतू - चोहटन"
+        },
+        {
+          "id": "opt4",
+          "text": "फलौदी - पोकरण"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "फलोदी - पोखरण राजस्थान का एक बालुका स्तूप मुक्त क्षेत्र है। बीकानेर, जैसलमेर, फलोदी और पोखरण जिले- चूना पत्थर और बलुआ पत्थर की चट्टानें जुरासिक और इओसीन संरचनाओं से संबंधित हैं। यह एक चट्टानी लेकिन बालुका स्तूप मुक्त क्षेत्र है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7503,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा राजस्थान में मरूस्थलीकरण का कारण नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अतिचारण"
+        },
+        {
+          "id": "opt2",
+          "text": "वनोन्मूलन"
+        },
+        {
+          "id": "opt3",
+          "text": "जनसंख्या दबाव"
+        },
+        {
+          "id": "opt4",
+          "text": "सौर्य ऊर्जा उत्पादन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मरुस्थलीकरण के कुछ कारण हैं: अतिचारण: यह भूमि की उपयोगिता, उत्पादकता और जैव विविधता को कम करता है। वनोन्मूलन: एक जंगल कार्बन सिंक के रूप में कार्य करता है। वनों की कटाई कार्बन डाइऑक्साइड को वापस वायुमंडल में छोड़ती है जो ग्रीनहाउस प्रभाव में योगदान करती है।कृषि-पद्धतिया: स्लेश एंड बर्न कृषि राज्य को मिट्टी के कटाव के खतरों के लिए उजागर करती है भारी जुताई और अधिक सिंचाई मिट्टी की खनिज संरचना को परेशान करती है।शहरीकरण: जैसे-जैसे शहरीकरण बढ़ता है, संसाधनों की मांग बढ़ती जाती है और अधिक संसाधनों को आकर्षित किया जाता है और ऐसी भूमि को छोड़ दिया जाता है जो आसानी से मरुस्थलीकरण का शिकार हो जाती है।जल अपरदन: इसके परिणामस्वरूप बैडलैंड स्थलाकृति होती है जो स्वयं मरुस्थलीकरण का प्रारंभिक चरण है।वायु अपरदन: हवा द्वारा रेत का अतिक्रमण मिट्टी की उर्वरता को कम कर देता है जिससे भूमि मरुस्थलीकरण के लिए अतिसंवेदनशील हो जाती है।सौर्य ऊर्जा उत्पादन मरूस्थलीकरण का कारण नहीं है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7505,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मरूस्थलीकरण का मूल कारण क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूमिगत जल की लवणता"
+        },
+        {
+          "id": "opt2",
+          "text": "अनियंत्रित खनन"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्षा की न्यूनता"
+        },
+        {
+          "id": "opt4",
+          "text": "जलवायु परिवर्तन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वर्षा की न्यूनता मरुस्थलीकरण का सबसे बड़ा कारण है। राजस्थान में वर्षा कम होती है क्योंकि मानसून शाखा गुजरात से प्रवेश करती है जो अरावली पर्वतमाला के समानांतर चलती है।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7506,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    }
+  ]
+}

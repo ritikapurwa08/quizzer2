@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के लोक नृत्य",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के लोक नृत्य भाग 5",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-लोक-नृत्य",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस सम्प्रदाय में पुरुषों द्वारा अग्नि नृत्य किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसनाथी सिद्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "रामस्नेही सम्प्रदाय"
+        },
+        {
+          "id": "opt3",
+          "text": "बिश्नोई सम्प्रदाय"
+        },
+        {
+          "id": "opt4",
+          "text": "दादूपंथ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15508,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान के किस लोक नृत्य में डंडों से नृत्य करते हुए विभिन्न प्रकार के चरित्रों के स्वांग करते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डांडिया"
+        },
+        {
+          "id": "opt2",
+          "text": "गैर"
+        },
+        {
+          "id": "opt3",
+          "text": "गींदड"
+        },
+        {
+          "id": "opt4",
+          "text": "चंग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गींदड़ नृत्य में पुरुष डंडों से नृत्य करते हुए विभिन्न प्रकार के चरित्रों के स्वांग करते हैं। यह राजस्थान के प्रमुख लोक नृत्यों में से एक है। इस नृत्य को शेखावाटी क्षेत्र में किया जाता है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15509,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘शंकरिया नृत्य’ सम्बन्धित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुर्जरों से"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलों से"
+        },
+        {
+          "id": "opt3",
+          "text": "गरासियों से"
+        },
+        {
+          "id": "opt4",
+          "text": "कालबेलियों से"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15510,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अग्नि नृत्य’ का उद्गम किस स्थान से हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कतरियासर"
+        },
+        {
+          "id": "opt2",
+          "text": "आहोर"
+        },
+        {
+          "id": "opt3",
+          "text": "बोरूंदा"
+        },
+        {
+          "id": "opt4",
+          "text": "रुणेचा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15511,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा नृत्य बड़े नगाड़े की थाप के साथ किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गींदड़ नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "डांडिया नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "बम नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "अग्नि नृत्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बम नृत्य अलवर, भरतपुर क्षेत्र का प्रसिद्ध लोकनृत्य है यह नृत्य पुरुषों द्वारा फालुन की मस्ती व नई फसल आने की ख़ुशी में किसी भी चौपाल में किया जाता है। इसमें एक बड़े नगाड़े(बम) को दो मोटे डंडो की सहायता से बजाया जाता है। एक नर्तक दल को तीन भागों में बांटकर यह नृत्य प्रदर्शित किया जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15513,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिकार लोकनृत्य किस जनजाति सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीना"
+        },
+        {
+          "id": "opt2",
+          "text": "कथौडी"
+        },
+        {
+          "id": "opt3",
+          "text": "सहरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "गरासिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15518,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गिरासिया जनजाति का प्रमुख नृत्य कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गैर नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गवरी नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "वालर नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "घुडला नृत्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15519,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का आधिकारिक नृत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कठपुतली"
+        },
+        {
+          "id": "opt2",
+          "text": "गैर"
+        },
+        {
+          "id": "opt3",
+          "text": "घूमर"
+        },
+        {
+          "id": "opt4",
+          "text": "भवई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "घूमर नृत्य राजस्थान का नृत्य रूप है जो सबसे पहले भील जनजाति नामक एक आदिवासी समूह द्वारा देवी सरस्वती की पूजा करने के लिए किया जाता था। यह राजस्थान का राजकीय नृत्य है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15522,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाबा रामदेव की आराधना में किया जाने वाला नृत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कामड़ नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "तेरहताली नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "रिखीया नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "ढोल नृत्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बाबा रामदेव (लोक देवता) की आराधना में मुख्य रूप से तेरहताली नृत्य और ब्यावले (भजन) गाए जाते हैं।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15523,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भीलों के किस नृत्य में नकली स्पर्धा जन्य युद्ध प्रदर्शित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागड़िया"
+        },
+        {
+          "id": "opt2",
+          "text": "गैर"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथीमना"
+        },
+        {
+          "id": "opt4",
+          "text": "नेजा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15525,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चंंग नृत्य राजस्थान के .............. क्षेत्र से संबंधित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15528,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से, लोकनृत्य एवं उसके क्षेत्र से जुड़े युग्मों में से कौन सा सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डांडिया नृत्य - मारवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बम्ब रसिया - बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "गींदड़ नृत्य - शेखावाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "ढोल नृत्य - जालौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15529,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नृत्य में किसी भी वाद्य यंत्र का प्रयोग नहीं किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वालर नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "घूमर नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "चंग नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "गेर नृत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15530,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए – (a) चरी नृत्य (1) कालबेलिया(b) रणबाजा नृत्य (2) मेव(c) शंकरिया नृत्य (3) गुर्जर(d) चकरी नृत्य (4) कंजरसही कूट चुनिए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(4), (b)-(2), (c)-(1), (d)-(3)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(3), (b)-(2), (c)-(1), (d)-(4)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(1), (b)-(2), (c)-(3), (d)-(4)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(2), (b)-(3), (c)-(1), (d)-(4)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15534,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मंजीरा, तानपुरा, चौतारा वाद्य यंत्रों का प्रयोग अधोलिखित किस नृत्य में किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेरहताली नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "वालर नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "गवरी नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "घूमर नृत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तेरहताली नृत्य में महिलाएं प्रदर्शन करती हैं। पुरुष मंजीरा, तानपुरा और चौतारा जैसे वाद्य यंत्र बजाते हैं। इस नृत्य में 13 मंजीरों का प्रयोग किया जाता है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15535,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कच्छी घोड़ी” नृत्य के संदर्भ में कौनसा/कौन-से कथन सत्य है -1. यह एक महिला प्रधान नृत्य है। 2. यह राजस्थान के शेखावाटी क्षेत्र से आरम्भ हुआ। 3. विशेषतः विवाह के अवसर पर किया जाता है। 4. यह नृत्य शाहजहाँ के शासनकाल में शुरू हुआ था।सही कूट चुनिए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 और 4"
+        },
+        {
+          "id": "opt2",
+          "text": "2 और 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1 और 4"
+        },
+        {
+          "id": "opt4",
+          "text": "1 और 2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कच्छी घोड़ी नृत्य शेखावाटी, कुचामन, परबतसर, डीडवाना आदि क्षेत्रों में विवाह व व्यावसायिक मनोरंजन हेतु किया जाने वाला प्रसिद्ध लोगनृत्य है। इसमें नर्तक कागज की लुगदी अथवा बांस का नकली घोडा अपनी कमर पर बाँध कर दूल्हे का वेश बना हाथ में नकली तलवार लिए नकली लड़ाई का स्वांग करता है। यह पुरुष प्रधान नृत्य है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15536,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तारा शर्मा निम्न में से किस नृत्य की प्रसिद्ध कलाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भवाई"
+        },
+        {
+          "id": "opt2",
+          "text": "तेरह ताली"
+        },
+        {
+          "id": "opt3",
+          "text": "कच्छी घोड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "गैर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15537,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक नृत्य सहरिया जनजाति द्वारा नहीं किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिछवा नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "झेला नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "शिकारी नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "द्विचक्री नृत्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15539,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से प्रख्यात ‘चरी नृत्यांगना’ कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मांगी बाई"
+        },
+        {
+          "id": "opt2",
+          "text": "फलकू बाई"
+        },
+        {
+          "id": "opt3",
+          "text": "गुलाबों"
+        },
+        {
+          "id": "opt4",
+          "text": "तीजन बाई"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चरी नृत्य की प्रसिद्ध नृत्यांगना फलकू बाई है और वर्तमान में नृत्यांगना सुनिता रावत है।",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15541,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ क्षेत्र में प्रसिद्ध गैर लोक नृत्य _________ के अवसर पर किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बच्चे का जन्म"
+        },
+        {
+          "id": "opt2",
+          "text": "होली"
+        },
+        {
+          "id": "opt3",
+          "text": "विवाह"
+        },
+        {
+          "id": "opt4",
+          "text": "मानसून"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15543,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

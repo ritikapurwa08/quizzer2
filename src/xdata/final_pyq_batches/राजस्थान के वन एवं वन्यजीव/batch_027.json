@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 27,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 27",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "रामस्नेही सम्प्रदाय अपना फूलडोल महोत्सव किस स्थान पर मनाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रामस्नेही सम्प्रदाय अपना फूलडोल महोत्सव राजस्थान के शाहपुरा में मनाता है। यह फूलों एवं रंगो का उत्सव है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16370,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भील जनजाति में कछावुं कौन पहनता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुरुष"
+        },
+        {
+          "id": "opt2",
+          "text": "महिलाएँ"
+        },
+        {
+          "id": "opt3",
+          "text": "नवयुवक लड़का"
+        },
+        {
+          "id": "opt4",
+          "text": "बालक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘कछावू’ भील जनजाति की महिलाओं द्वारा पहने जाने वाला एक प्रकार का घाघरा है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16371,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "छोटी तीज का त्यौहार हिन्दू पंचांग के अनुसार किस माह में मनाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद"
+        },
+        {
+          "id": "opt4",
+          "text": "र्काितक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 2011 RPSC RAS/RTS Pre 2006-07",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16372,
+        "exam": "RPSC Sr. Teacher Gr-II 2011 RPSC RAS/RTS Pre 2006-07",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "`बढ़ार' का भाेज निम्न में से किस मौके पर रखा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाह"
+        },
+        {
+          "id": "opt2",
+          "text": "जन्म"
+        },
+        {
+          "id": "opt3",
+          "text": "मृत्यु"
+        },
+        {
+          "id": "opt4",
+          "text": "तीर्थ-यात्रा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विवाह के दूसरे दिन वर पक्ष अपने सगे सम्बन्धियों को एक सामूहिक प्रीतिभोज पर आमंत्रित करता है, जिसे बढ़ार कहते हैं। 156",
+      "reference": "📌 PYQ — RPSC ACF 2011 RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16373,
+        "exam": "RPSC ACF 2011 RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोगाजी का मेला कहाँ आयोजित किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फलौदी के निकट हालूगढ़ गॉव में"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर के चन्दनगाँव में"
+        },
+        {
+          "id": "opt3",
+          "text": "बैराठ के निकट बाणगंगा के तट पर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर की नोहर तहसील के एक गाँव में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गोगाजी का मेला राजस्थान के हनुमानगढ़ जिले की नोहर तहसील के गोगामेड़ी नामक गाँव में लगता है। विकल्प में हनुमानगढ़ जिले के स्थान पर गंगानगर दिया है, क्योंकि वर्ष १९९४ में गंगानगर जिले से काटकर हनुमानगढ़ एक पृथक जिला बनाया गया था, जिसमें नोहर तहसील को भी शामिल किया गया था।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16374,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित आभूषण व उसे पहने जाने वाले अंग को सुमेलित कीजिये: सूची- I सूची-II (a) बोरला (i) पैर. (b) लटकन (ii) सिर (c) जंजीर (iii) नाक (d) तोडिया (iv) कमर Codes: कूट: a b c d",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 2 3 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4 2 3 1"
+        },
+        {
+          "id": "opt3",
+          "text": "1 2 4 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2 3 4 1"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "युग्म का सही सुमेलन- सूची-I सूची-II बोरला – सिर लटकन – नाक जंजीर – कमर तोड़िया – पैर",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16375,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस क्षेत्र में सीताबाड़ी का मेला आयोजित किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती में"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ में"
+        },
+        {
+          "id": "opt3",
+          "text": "बागड़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सीताबाड़ी का मेला बारा जिले में आयोजित होता है। यह हड़ौती क्षेत्र में स्थित है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 2011",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16376,
+        "exam": "RPSC Sr. Teacher Gr-II 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में अधिकांश सांस्कृतिक गतिविधियाँ आयोजित होती है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाहर कला केन्द्र"
+        },
+        {
+          "id": "opt2",
+          "text": "सेन्ट्रल पार्क"
+        },
+        {
+          "id": "opt3",
+          "text": "नाहरगढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "सिटी पेलेस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर के जवाहर कला केंद्र में ही अधिकांश सांस्कृतिक गतिविधियों का आयोजन होता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 2011",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16377,
+        "exam": "RPSC Sr. Teacher Gr-II 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महिलायें ’नथ’ धारण करती हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गले में"
+        },
+        {
+          "id": "opt2",
+          "text": "अंगुली में"
+        },
+        {
+          "id": "opt3",
+          "text": "अंगूठे में"
+        },
+        {
+          "id": "opt4",
+          "text": "नाक में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सांखली, नथ, बाली, फिनी, नाक के महत्वपूर्ण आभूषण है। 157",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 2011",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16378,
+        "exam": "RPSC Sr. Teacher Gr-II 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी राजस्थानी महिलाओं की वेशभूषा नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लहरिया"
+        },
+        {
+          "id": "opt2",
+          "text": "बन्धेज"
+        },
+        {
+          "id": "opt3",
+          "text": "पटका"
+        },
+        {
+          "id": "opt4",
+          "text": "चूँदड़ी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पटका सिक्ख बच्चों द्वारा पहनी जाने वाली छोटी पगड़ी होती होती है। जबकि लहरिया, बन्धेज व चूँदड़ी राजस्थानी महिलाओं की वेशभूषा है। 158",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16379,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची- IIके साथ सुमेलित कीजिए और सूचियों के नीचे दिये गए कूट का प्रयोग कर सही उत्तर चुनिए - सूची- I सूची-II (A) गणेश मेला (i) बीकानेर (B) बेणेश्वर मेला (ii) डूंगरपुर (C) साहब मेला (iii) रणथम्भौर (D) कपिल मुनि का मेला (iv) चूरू कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii)(i) (iv) (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii) (ii) (iv) (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) (iii) (i) (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (ii) (i) (iii)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है- सूची-I सूची-II गणेश मेला – रणथम्भौर बेणेश्वर मेला – डूंगरपुर साहब मेला – चुरू कपिल मुनि का मेला – बीकानेर",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16380,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘तनसुख’ गदर’, गाबा’ एवं डोढ़ी क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साड़ियों के नाम"
+        },
+        {
+          "id": "opt2",
+          "text": "पुरुषों के वस्त्र"
+        },
+        {
+          "id": "opt3",
+          "text": "मनोरंजन के साधन"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थानी व्यंजन की किस्में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तनसुख, गाबा, गदर डोढ़ी, मिरजाई, डागला आदि अंगरखा के उदाहरण है। ये सामान्यत: पुरुषों द्वारा पहने जाने वाले पारम्परिक ऊपरी वस्र को सन्दर्भित करता है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16381,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्न में से किस जिले में सेवण घास उगायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16382,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में तेजी से वन क्षेत्र की गिरावट का कारण है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लवणीय जल"
+        },
+        {
+          "id": "opt2",
+          "text": "उच्च तापमान"
+        },
+        {
+          "id": "opt3",
+          "text": "पेड़ों की अनियंत्रित कटाई"
+        },
+        {
+          "id": "opt4",
+          "text": "वायु अपरदन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के वन उत्तरी, दक्षिणी, पूर्वी और दक्षिण पूर्वी भागों में असमान रुप से पैâले हुए हैं। राजस्थान में जलवायु संबंधी बाधाएं वन उत्पादक्ता को प्रभावित करती हैं। उच्च तापमान भी वन क्षेत्र की गिरावट का कारण है, पेड़ों की अनियंत्रित कटाई, वायु अपरदन इनमें प्रमुख कारण हैं।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16384,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में सरिस्का बाघ परियोजना स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधौपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सारिस्का वन्य जीव अभ्यारण्य अलवर जिले में स्थित है। 1900 में इसकी स्थापना की गई। 1955 में इसे वन्य जीव अभ्यारण्य का दर्जा दिया गया। 1978-79 में यहां टाइगर रिजर्व प्रोजेक्ट शुरू किया गया। यह राजस्थान का दुसरा टाइगर रिजर्व प्रोजेक्ट है। यह अभयारण्य हरे कबूतरों के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16776,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘साइबेरियन सारस’ के लिये प्रसिद्ध पक्षी विहार -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खींचन"
+        },
+        {
+          "id": "opt2",
+          "text": "केवलादेव घना"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भोर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16778,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन से पशु का गिरावट का दौर है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घोड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ऊंट"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में ऊँटों की संख्या में गिरावट का दौर चल रहा है। ऊँटों को बचाने के लिए ऊँट अधिनियम पारित किया गया।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16780,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गिर राष्ट्रीय उद्यान किस राज्य में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराष्ट्र"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्नाटक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गिर राष्ट्रीय उद्यान गुजरात के सौराष्ट्र में स्थित है। यह एशियाई शेरों का वास स्थान है।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19013,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में ‘बाघ परियोजना’ का प्रारम्भ किस वर्ष में किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1975"
+        },
+        {
+          "id": "opt2",
+          "text": "1983"
+        },
+        {
+          "id": "opt3",
+          "text": "1973"
+        },
+        {
+          "id": "opt4",
+          "text": "1978"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘बाघ परियोजना’ वर्ष १९७३ में उत्तराखंड के जिम कॉर्बेट राष्ट्रीय उद्यान से की गई थी। इस परियोजना का उद्देश्य बाघों की गिरती हुई संख्या को बचाना था।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19014,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय जलीय प्राणी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "व्हेल"
+        },
+        {
+          "id": "opt2",
+          "text": "डॉल्फिन"
+        },
+        {
+          "id": "opt3",
+          "text": "शार्क"
+        },
+        {
+          "id": "opt4",
+          "text": "टर्टल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गंगा नदी डॉल्फिन, जिसे ‘सुसु’ भी कहा जाता है। इसे भारत का राष्ट्रीय जलीय जीव वर्ष २००९ में घोषित किया गया। डॉल्फिन के बारे में जागरुकता बढ़ाने एवं संरक्षित करने के उद्देश्य से भारत सरकार द्वारा ५ अक्टूबर को राष्ट्रीय डॉल्फिन दिवस के रुप में घोषित किया गया।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19015,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    }
+  ]
+}

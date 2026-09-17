@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ भाग 5",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-के-संवैधानिक-आयोग-एवं-संस्थाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जन सूचना पोर्टल के संबंध में त्रुटिपूर्ण कथन को पहचानिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इससे सूचना पाने के लिए एसएसओ आईडी आवश्यक है।"
+        },
+        {
+          "id": "opt2",
+          "text": "ई-मित्र पर इसके माध्यम से सूचना प्राप्त करने का कोई शुल्क वसूला नहीं जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह सार्वजनिक वितरण प्रणाली से संबंधित सूचना प्रदान करता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "यह आरटीआई अधिनियम, 2005 की धारा 4(2) के अंतर्गत माँगी गई सूचना प्रदान करने का एक प्रयास है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इससे सूचना पाने के लिए एसएसओ आईडी आवश्यक नहीं है।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14155,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित वाक्यों पर विचार कीजिए: I. राजस्थान लोक सेवा के प्रदान की गारण्टी अधिनियम, 2011 उपबंधित करता है कि प्रथम अपील अधिकारी के निर्णय के विरुद्ध, निर्णय के तीस दिनों के भीतर द्वितीय अपील अधिकारी के पास दूसरी अपील की जा सकती है।II. राजस्थान लोक सेवा के प्रदान की गारण्टी अधिनियम, 2011 उपबंधित करता है कि द्वितीय अपील अधिकारी तीस दिन के बाद भी अपील ले सकता है यदि वह संतुष्ट हो जाता है कि आवेदक के समय पर अपील नहीं कर पाने के पर्याप्त कारण हैं।सही उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I तथा II दोनों सही नहीं हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "I सही है, किन्तु II सही नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "I सही नहीं है, किन्तु II सही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "I तथा II दोनों सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14156,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के छठे राज्य वित्त आयोग के अध्यक्ष कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अशोक लाहोटी"
+        },
+        {
+          "id": "opt2",
+          "text": "बी डी कल्ला"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रद्युमन सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "ज्योति किरण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14132,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम वित्त आयोग का अध्यक्ष कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृष्ण कुमार गोयल"
+        },
+        {
+          "id": "opt2",
+          "text": "ज्योति किरण"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक चंद सुराणा"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरालाल देवपुरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कृष्ण कुमार गोयल राजस्थान के प्रथम वित्त आयोग के अध्यक्ष थे।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14133,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य सूचना आयोग, सूचना नहीं देने पर अधिकतम कितनी राशि का जुर्माना आरोपित कर सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "15000 ₹"
+        },
+        {
+          "id": "opt2",
+          "text": "30000₹"
+        },
+        {
+          "id": "opt3",
+          "text": "25000₹"
+        },
+        {
+          "id": "opt4",
+          "text": "20000 ₹"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14134,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नियोजन विभाग की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1955"
+        },
+        {
+          "id": "opt2",
+          "text": "1956"
+        },
+        {
+          "id": "opt3",
+          "text": "1953"
+        },
+        {
+          "id": "opt4",
+          "text": "1954"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14135,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राज्य वित्त आयोग के प्रथम अध्यक्ष कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एस. के. घोष"
+        },
+        {
+          "id": "opt2",
+          "text": "के. के. गोयल"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरालाल देवपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "एम. सी. सुराणा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कृष्ण कुमार गोयल राजस्थान के प्रथम वित्त आयोग के अध्यक्ष थे।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14136,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य मानव अधिकार आयोग अपना वार्षिक प्रतिवेदन प्रस्तुत करता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य के महाधिवक्ता को"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रीय मानव अधिकार आयोग को"
+        },
+        {
+          "id": "opt3",
+          "text": "उच्च न्यायालय को"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य सरकार को"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य आयोग राज्य सरकार को अपनी वार्षिक रिपोर्ट प्रस्तुत करता है। यह राज्य विधानसभाओं को उनकी सिफारिशों पर की गई कार्रवाई और सलाह को अस्वीकार करने के कारणों के साथ विशेष या वार्षिक रिपोर्ट प्रस्तुत करता है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14142,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राजस्व बोर्ड की स्थापना कब हुई;",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1948"
+        },
+        {
+          "id": "opt2",
+          "text": "1949"
+        },
+        {
+          "id": "opt3",
+          "text": "1950"
+        },
+        {
+          "id": "opt4",
+          "text": "1951"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14166,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राजस्व मण्डल की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1959"
+        },
+        {
+          "id": "opt3",
+          "text": "1969"
+        },
+        {
+          "id": "opt4",
+          "text": "1979"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संयुक्त राजस्थान राज्य के निर्माण के पश्चात महामहिम राजप्रमुख ने 7 अप्रैल 1949 को अध्यादेश की उद्घोषणा द्वारा राजस्थान के राजस्व मंडल (Board of Revenue for Rajasthan) की स्थापना की।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14167,
+        "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य सूचना आयोग का गठन कब किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 अप्रैल, 2006"
+        },
+        {
+          "id": "opt2",
+          "text": "2 अक्टूबर, 2005"
+        },
+        {
+          "id": "opt3",
+          "text": "5 जून, 2006"
+        },
+        {
+          "id": "opt4",
+          "text": "12 मई, 2005"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14168,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सूचना आयोग (RIC) का गठन किस वर्ष किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2005"
+        },
+        {
+          "id": "opt2",
+          "text": "2006"
+        },
+        {
+          "id": "opt3",
+          "text": "2007"
+        },
+        {
+          "id": "opt4",
+          "text": "2008"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14169,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मानव अधिकार संरक्षण अधिनियम, 1993 की निम्नलिखित में से किस धारा में राज्य मानव - अधिकार आयोग के अध्यक्ष की नियुक्ति के प्रावधान का उल्लेख है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "22"
+        },
+        {
+          "id": "opt2",
+          "text": "23"
+        },
+        {
+          "id": "opt3",
+          "text": "24"
+        },
+        {
+          "id": "opt4",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14173,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान लोकसेवा आयोग से संबंधित निम्न कथनों पर विचार कीजिए -(i) राजस्थान लोकसेवा आयोग का सदस्य अपने पद ग्रहण की तारीख से छह वर्ष की अवधि तक या बासठ वर्ष की आयु प्राप्त कर लेने तक इनमें से जो भी पहले हो अपना पद धारण करेगा।(ii) कोई व्यक्ति जो राजस्थान लोकसेवा आयोग के सदस्य के रूप में पद धारण करता है, अपनी पदावधि की समाप्ति पर, उस पद पर पुनर्नियुक्ति का पात्र नहीं होगा।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (i) सही है"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (ii) सही है"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) व (ii) दोनों सही हैं"
+        },
+        {
+          "id": "opt4",
+          "text": "न तो (i) और ना ही (ii) सही है"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आयोग के अध्यक्ष और सदस्य छह वर्ष या 62 वर्ष की आयु, जो भी पहले हो, की अवधि के लिए पद धारण करते हैं। जो भी व्यक्ति राजस्थान लोक सेवा आयोग (RPSC) का सदस्य होता है, अपनी पदावधि की समाप्ति पर, उस पद पर पुनः नियुक्त होने का पात्र नहीं होता है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14196,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हरिशचन्द्र माथुर राजस्थान राज्य लोक प्रशासन संस्थान का प्रमुख कार्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भर्ती"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रशिक्षण"
+        },
+        {
+          "id": "opt3",
+          "text": "सामाजिक विकास"
+        },
+        {
+          "id": "opt4",
+          "text": "जनगणना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हरीश चंद्र माथुर राजस्थान राज्य लोक प्रशासन संस्थान (HCM RIPA) सिविल सेवकों के प्रशिक्षण के लिए राजस्थान सरकार का एक शीर्ष स्तरीय प्रशिक्षण संस्थान है। यह जयपुर में स्थित है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14197,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य चुनाव आयोग के संबंध में निम्नलिखित में से कौनसा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य चुनाव आयुक्त को राजस्थान सरकार या भारत सरकार के शासन सचिव या समान वेतन श्रृंखला के समकक्ष, पद का न्यूनतम पांच साल का अनुभव होना चाहिए।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह मतदाता सूची तैयार करता है और पंचायती राज संस्थाओं के साथ-साथ नगर निकायों के लिए भी चुनाव कराता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत के संविधान के अनुच्छेद 243-K के तहत एकल सदस्यीय निकाय के रूप में राज्य चुनाव आयुक्त की नियुक्ति राज्यपाल द्वारा की जाती है।"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान राज्य चुनाव आयोग का गठन जुलाई 1995 में किया गया था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य निर्वाचन आयोग का गठन जुलाई 1994 में किया गया था। इसका अध्यक्ष राज्य चुनाव आयुक्त होता है और इसका एक सचिव होता है जो राज्य का मुख्य निर्वाचन अधिकारी भी होता है। आयोग मतदाता सूची तैयार करने तथा पंचायती राज संस्थाओं के साथ-साथ नगर निकायों के लिए चुनाव कराने के माध्यम से अपने संवैधानिक कर्तव्य का निर्वहन करता है। संविधान (73 वें और 74 वें – अनुच्छेद 243K) संशोधन अधिनियम, 1992 के तहत प्रत्येक राज्य/संघ शासित प्रदेश के लिए गठित राज्य चुनाव आयोग को निगमों, नगर पालिकाओं, जिला परिषदों, जिला पंचायतों, पंचायत समितियों, ग्राम पंचायतों और अन्य स्थानीय निकायों के चुनाव कराने की शक्तियाँ दी गई हैं। यह भारत के चुनाव आयोग से स्वतंत्र है। राज्य चुनाव आयुक्त की नियुक्ति संबंधित राज्य के राज्यपाल द्वारा राज्य विधानमंडल द्वारा बनाए गए कानून (अनुच्छेद 243k(2)) के अनुसार की जाती है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14199,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस प्राधिकरण को एक ऐसे व्यक्ति से शिकायत प्राप्त करने और पूछताछ करने का अधिकार दिया गया है जो लोक सूचना अधिकारी से जानकारी प्राप्त करने में असमर्थ रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आरएसबीबी (RSBB)"
+        },
+        {
+          "id": "opt2",
+          "text": "आरएसटीसी (RSTC)"
+        },
+        {
+          "id": "opt3",
+          "text": "आरपीएससी (RPSC)"
+        },
+        {
+          "id": "opt4",
+          "text": "आरआईसी (RIC)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य सूचना आयोग (RIC) एक वैधानिक आयोग है जो 18 अप्रैल 2006 को सूचना का अधिकार अधिनियम 2005 की धारा 15 के तहत स्थापित किया गया था। इसका मुख्यालय जयपुर में है। यह किसी ऐसे व्यक्ति से शिकायत प्राप्त करने और पूछताछ करने का अधिकार रखता है जो किसी जन सूचना अधिकारी (पीआईओ) से जानकारी प्राप्त करने में असमर्थ रहा है। श्री एम डी कौराणी राजस्थान राज्य के पहले मुख्य सूचना आयुक्त थे।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14203,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक सेवाओं के प्रदान की गारंटी अधिनियम, राजस्थान के बारे में निम्नलिखित कंथनों पर विचार कीजिए और नीचे दिए गए कूट में से सही उत्तर का चयन कीजिए: (a) यह अधिनियम वर्ष 2011 का 50 वां था।(b) इस अधिनियम को राज्यपाल की स्वीकृति 30 सितम्बर, 2011 को प्राप्त हुई।(c) इस अधिनियम को राज्य विधान सभा द्वारा भारत के गणतंत्र के 62 वें वर्ष में पारित किया गया।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (c) सही है"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (a) सही है"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (b) और (c) सही हैं"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (b) सही है"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान लोक सेवा गारंटी अधिनियम 2011, 14 नवम्बर 2011 को लागू किया गया था, जिससे नागरिकों को सरकारी सेवाएँ समय पर उपलब्ध हो सकें। जो गणतंत्र का 62वां वर्ष था। प्रारंभिक अधिनियम में 15 प्रमुख सरकारी विभागों की 108 सेवाओं को शामिल किया गया था, जिसमें सरकारी अधिकारियों द्वारा कर्तव्यों के समयबद्ध प्रदर्शन की परिकल्पना की गई थी और अपराधियों के लिए नकद दंड का प्रावधान था।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14206,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्या नागरिक अधिकार-पत्र (सिटिजन चार्टर) कानूनी रूप से लागू करने योग्य हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल कुछ राज्यों में"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल केंद्रशासित प्रदेशों में"
+        },
+        {
+          "id": "opt3",
+          "text": "हाँ, पूरे देश में"
+        },
+        {
+          "id": "opt4",
+          "text": "बिलकुल नहीं"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नहीं, नागरिक अधिकार-पत्र (सिटीजन चार्टर) कानूनी रूप से लागू करने योग्य नहीं है। हालांकि, यह मौजूदा अधिकारों को लागू करने में मदद करता है।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14207,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान लोक सेवाओं की गारंटी अधिनियम कब लागू किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2005"
+        },
+        {
+          "id": "opt2",
+          "text": "2011"
+        },
+        {
+          "id": "opt3",
+          "text": "2014"
+        },
+        {
+          "id": "opt4",
+          "text": "2017"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज्य में संवेदनशील, उत्तरदायी, जवाबदेह, पारदर्शी और भ्रष्टाचार मुक्त शासन उपलब्ध कराने के उद्देश्य से राज्य सरकार द्वारा “राजस्थान लोक सेवाओं के प्रदान की गारन्टी अधिनियम 2011” दिनांक 14 नवम्बर, 2011 से प्रभावशील किया जा रहा है। इस अधिनियम का प्रकाशन राजस्थान राजपत्र में दिनांक 21.09.2011 को दिया जा चुका है।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14208,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+        "year": 2022
+      }
+    }
+  ]
+}

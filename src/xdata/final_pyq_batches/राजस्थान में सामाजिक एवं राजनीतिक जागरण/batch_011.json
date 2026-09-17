@@ -1,0 +1,669 @@
+{
+  "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
+  "batchIndex": 11,
+  "batchName": "राजस्थान में सामाजिक एवं राजनीतिक जागरण भाग 11",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-सामाजिक-एवं-राजनीतिक-जागरण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "शेखावटी ब्रिगेड का मुख्यालय कहाँ स्थित था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनूं"
+        },
+        {
+          "id": "opt3",
+          "text": "खेतड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "फतेहपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में अंग्रेजों के हस्तक्षेप का विरोध शेखावटी के छोटे सामन्तों ने किया। आतंकित होकर अंग्रेजों ने मेजर फोरेस्टर के नेतृत्व में अंग्रेज सरकार द्वारा झुंझनू में शेखावटी ब्रिगेड की स्थापना की गई थी।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 505,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगरपुर प्रजामण्डल की स्थापना 1946 ई. में की गई थी─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राम नारायण चौधरी द्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रताप सिंह बारहठ द्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "भोगी लाल पण्ड्या द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "माणिक लाल वर्मा द्वारा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डूंगरपुर प्रजामण्डल की स्थापना1946ई. में श्री भोगीलाल पाण्ड्या, नाना भाई व हरिदेव जोशी द्वारा की गई थी। डूंगरपुर राज्य प्रजामण्डल के प्रथम अध्यक्ष भोगी लाल पण्ड्या थे। माणिक लाल वर्मा ने मेवाड़ प्रजामण्डल की स्थापना24अप्रैल, 1938को की थी। ये जैसलमेर प्रजा परिषद(1939)से भी सम्बन्धित थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016 RPSC Sr. Teacher Gr.-II (G-2)2016 RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 506,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016 RPSC Sr. Teacher Gr.-II (G-2)2016 RPSC RAS/RTS Pre 1999-2000",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित घटनाओं पर विचार कीजिये: (i) डाबरा काण्ड (ii) नीमूचना काण्ड (iii) चण्डावल काण्ड (iv) मानगढ़ पहाड़ी हत्याकाण्ड इन घटनाओं का सही कालानुक्रम क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iv) (iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (ii), (iii) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iv), (ii), (iii) (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii), (i), (iv) (ii)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "घटनाक्रम इस प्रकार है – डाबरा काण्ड – 13मार्च, 1947 नीमूचना काण्ड – 14मई, 1925 चण्डावल काण्ड – 28मार्च, 1942 मानगढ़ पहाड़ी हत्याकाण्ड – 17नवंबर, 1913",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 507,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन् 1947 ई. में वीरबाला कालीबाई किस घटना में शहीद हुई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुनवाड़ा काण्ड में"
+        },
+        {
+          "id": "opt2",
+          "text": "काब्जा काण्ड में"
+        },
+        {
+          "id": "opt3",
+          "text": "रास्तापाल काण्ड में"
+        },
+        {
+          "id": "opt4",
+          "text": "डाबरा काण्ड में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1947ई. में बीरबाला कालीबाई रास्तापाल काण्ड में शहीद हुई थीं। रास्तापाल राजस्थान के डूंगरपुर जिले का एक गाँव है। कालीबाई ने अपने शिक्षक सेंगाभाई को बचाने के लिए अपनी जान दे दी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 508,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन महन्त प्यारेलाल हत्याकाण्ड से सम्बद्ध नहीं था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "मोहनलाल जालोरी"
+        },
+        {
+          "id": "opt3",
+          "text": "ठाकुर केसरीसिंह बारहठ"
+        },
+        {
+          "id": "opt4",
+          "text": "सोमदत्त लहरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मोहनलाल जालौरी महंत प्यारेलाल हत्याकाण्ड से संबद्ध नहीं थे। महंत प्यारेलाल हत्याकाण्ड में रामकरन ठाकुर केसरी सिंह बरहठ और सोमदत लहरी शामिल थे। जोधपुर के व्यापारी प्यारेलाल की हत्या25जून, 1912को की गई थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (G-I) 2016",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 510,
+        "exam": "RPSC Sr. Teacher Gr-II (G-I) 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१ नवम्बर, १९५६ से पहले राजस्थान राज्य के प्रमुख जाने जाते थे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवर्नर जनरल"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "राज प्रमुख"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजाधिराज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1नवंबर, 1956से पहले राजस्थान राज्य के प्रमुख राज्य प्रमुख के नाम से जाने जाते थे। राजस्थान के पहले राज्यपाल गुरुमुख निहाल सिंह थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 511,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शंकर राव दवे समिति का गठन धौलपुर एवं भरतपुर राज्यों की जनता की इस बात के लिए राय जानने के लिए किया गया था कि-वे राजस्थान अथवा उत्तर प्रदेश किसमें मिलना चाहते हैं? इस समिति में अध्यक्ष सहित कितने सदस्य थे।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चार"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "दो"
+        },
+        {
+          "id": "opt4",
+          "text": "पाँच"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "शंकर राव देव समिति का गठन धौलपुर एवं भरतपुर राज्यों की जनता की राय जानने के लिए किया गया था। इस समिति के अध्यक्ष सहित तीन सदस्य थे। डॉ. शंकर राव देव अध्यक्ष, प्रभु दयाल और आर.के. सिंह सदस्य थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 512,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पंडित नैनूराम शर्मा किस प्रजा मण्डल से संबंधित थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पंडित नयनूराम शर्मा कोटा राज्य प्रजामण्डल से संबंधित थे। पंडित नयनूराम शर्मा की अध्यक्षता में1939में कोटा राज्य प्रजामण्डल का गठन किया गया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 513,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किसने मेव कृषक आन्दोलन का नेतृत्व किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुकर्रब खां"
+        },
+        {
+          "id": "opt2",
+          "text": "बख्तावर खां"
+        },
+        {
+          "id": "opt3",
+          "text": "अशफाकउल्ला खां"
+        },
+        {
+          "id": "opt4",
+          "text": "यासीन खां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 514,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पोपाबाई की पोल’ नामक पुस्तिका की रचना की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चांदमल सुराना"
+        },
+        {
+          "id": "opt2",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "केसरी सिंह बारठ"
+        },
+        {
+          "id": "opt4",
+          "text": "बाल मुकुन्द बिस्सा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 515,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन ‘बीकानेर षड्यंत्र मुकदमा’ से सम्बद्ध नहीं था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्वामी गोपाद दास"
+        },
+        {
+          "id": "opt2",
+          "text": "रघुवर दयाल गोयल"
+        },
+        {
+          "id": "opt3",
+          "text": "बद्री प्रसाद"
+        },
+        {
+          "id": "opt4",
+          "text": "सत्यनारायण सर्राफ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीकानेर षड्यंत्र: अप्रैल 1932 में जब बीकानेर के महाराजा गंगा सिंह गोलमेज सम्मेलन में भाग लेने के लिए लन्दन गए, तब उनके पीछे ‘बीकानेर दिग्दर्शन’ नाम के पर्चे बांटे गए, जिनमें बीकानेर शासन की वास्तविक दमनकारी नीतियों का खुलासा हुआ। लौटकर महाराजा ने जन सुरक्षा अधिनियम लागू किया। स्वामी गोपालदास, चंदनमल बहादुर, सत्यनारायण सर्राफ, बद्री प्रसाद और खूबचंद सर्राफ को बीकानेर षडयंत्र केस में गिरफ्तार किया गया था।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 516,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन बूंदी राज्य में हुए कृषक आन्दोलन का नेता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नैनू राम शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "साधु सीताराम दास"
+        },
+        {
+          "id": "opt3",
+          "text": "हनुमान सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जीवन चौधरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1926 में बूंदी किसान आंदोलन हुआ। इसे बरड़ किसान आंदोलन के रूप में भी जाना जाता है। पंडित नयनूराम शर्मा के नेतृत्व में बरड़ के किसानों ने बैथ-बेगर, लागात और राज्य की अन्य अन्यायपूर्ण प्रथाओं के खिलाफ आवाज़ उठाई।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 517,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विजयसिंह पथिक का मूल नाम क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूपसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "नरेन्द्रनाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "मूलशंकर"
+        },
+        {
+          "id": "opt4",
+          "text": "रामदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — SCHOOL LECTURER Exam 2015(GK)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 518,
+        "exam": "SCHOOL LECTURER Exam 2015(GK)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की किस रियासत को पं. जवाहर लाल नेहरू ने विश्व का आठवां आश्चर्य कहा था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पंडित जवाहर लाल नेहरू ने राजस्थान की जैसलमेर रियासत को ‘दुनिया का आठवां आश्चर्य’ कहा था। ऐसा इसलिए कहा गया था क्योंकि आज़ादी से पहले जैसलमेर ने उत्तरदायी शासन स्थापित करने के लिए कोई कदम नहीं उठाया था। बाकी हर रियासत ने कोई न कोई कदम उठाया था।",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 523,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रियासतों से सम्बंधित समस्याओं के समाधान के लिए “रियासती विभाग” की स्थापना कब की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 जुलाई 1947 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "10 अक्टूबर 1946 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "31 मार्च 1948 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "4 जनवरी 1947 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "5 जुलाई 1947 को रियासती विभाग की स्थापना की गई। जिसके अध्यक्ष वल्लभ भाई पटेल व सचिव वी.पी. मेनन थे।",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 525,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित शासकों में से कौनसा ‘‘वर्साय की शांति संधि’’ का एक हस्ताक्षर कर्त्ता था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा के महाराज उम्मेद सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर के माधोसिंह-II"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर के महाराजा गंगासिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर के महाराजा सर उम्मेद सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बीकानेर रियासत के महाराजा गंगा सिंह ने28जून, 1919को वर्साय की शांति संधि पर हस्ताक्षर किया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 526,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुगलों और पेशवा के मध्य धौलपुर समझौते(1741 ई.) में किसने मध्यस्थता की थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरजमल ने"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जगत सिंह-II ने"
+        },
+        {
+          "id": "opt4",
+          "text": "मल्हार राव होल्कर ने"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मुगलों और पेशवा के मध्य धौलपुर समझौता1741ई. में संपन्न हुआ था। पेशवा बालाजी बाजीराव का विचार था कि यह समझौता जयसिंह की मध्यस्थता के बिना संभव नहीं हो सकता है। पेशवा और जयसिंह की भेट18मई, 1741को धौलपुर में हुई थी।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 527,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए- समाचार पत्र संपादक (A)राजपुताना गजट (i)देवी शंकर तिवारी (B)राजस्थान समाचार (ii)पं़ रामप्रताप (C)सर्वहित (iii)मुंशी समर्थदान (D)लोकवाणी (iv)मौलवी मुराद अली",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) (B) (C) (D) (iv) (iii) (i) (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A) (B) (C) (D) (iii) (iv) (ii) (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A) (B) (C) (D) (i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A) (B) (C) (D) (iv) (iii) (ii) (i)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – समाचार पत्र संपादक राजपुताना गजट – मौलवी मुरादअली राजस्थान समाचार – मुंशी समर्थदान सर्वहित – पंडित रामप्रताप लोकवाणी – देवीशंकर तिवारी",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 528,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य के अत्याचार तथा जेल में अन्याय के विरुद्ध भूख हड़ताल के दौरान मारवाड़ लोक परिषद् के किस नेता की मृत्यु 19-06-1942 को हुई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणछोड़ दास गट्टानी"
+        },
+        {
+          "id": "opt2",
+          "text": "सागरमल गोपा"
+        },
+        {
+          "id": "opt3",
+          "text": "आनंद राज सुराना"
+        },
+        {
+          "id": "opt4",
+          "text": "बाल मुकुंद बिस्सा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाल मुकुंद बिस्सा मारवाड़ लोक परिषद् के लोकप्रिय नेता थे। राज्य के अत्याचार तथा जेल अन्याय के विरुद्ध भूख हड़ताल किया था। इससे इनकी मृत्यु11जून, 1942को हुई। इससे आक्रोशित क्रांतिकारियों ने सोजती गेट के पास प्रदर्शन किया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 529,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्यामजी कृष्ण वर्मा के बारे में निम्नलिखित मं से कौन से कथन सत्य हैं? (i) उन्होंने अजमेर में वकालत की।(ii) वे अजमेर म्यूनिसिपल कमिटी के प्रथम निर्वाचित भारतीय चेयरमैन थे।(iii) उन्होंने ब्यावर में कृष्णा कॉटन मिल की स्थापना में सहयोग किया।(iv) उन्होंने मेवाड़ के महाराणा के सचिव के रूप में काम किया। कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i) and (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (ii) and (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii), (iii) and (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii), (iii) and (iv)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्यामजी कृष्ण वर्मा एक भारतीय क्रांतिकारी, सेनानी, देशभक्त, वकील और पत्रकार थे। इन्होंने1888में अजमेर में वकालत किया और अजमेर नगर समिति के पहले निर्वाचित भारतीय अध्यक्ष थे। वे मध्य प्रदेश के रतलाम और गुजरात के जूनागढ़ में दीवान एवं मेवाड़ के महाराणा के सचिव के रूप में जनहित के लिए कार्य किए। उन्होंने ब्यावर में कृष्णा कॉटन मिल स्थापित करने में सहयोग दिया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 530,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    }
+  ]
+}

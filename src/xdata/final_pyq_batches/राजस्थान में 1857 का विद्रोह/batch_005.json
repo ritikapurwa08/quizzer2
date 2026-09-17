@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान में 1857 का विद्रोह",
+  "batchIndex": 5,
+  "batchName": "राजस्थान में 1857 का विद्रोह भाग 5",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-1857-का-विद्रोह",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "1857 का विद्रोह राजस्थान में किस स्थान से प्रारम्भ हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवली"
+        },
+        {
+          "id": "opt2",
+          "text": "एरिनपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "नीमच"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8333,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस रियासत ने 1857 की क्रांति के दौरान अंग्रेजों की सहायता नहीं की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8334,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कहाँ मेहराब खान ने 1857 के विद्रोह का नेतृत्व किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे। कोटा महाराव की स्थिति असहाय हो गयी।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8335,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के स्वतंत्रता संग्राम के समय मारवाड़ में निम्नलिखित में से किस ‘कुलदेवी’ की मूर्ति प्ररेणास्रोत थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवी काली"
+        },
+        {
+          "id": "opt2",
+          "text": "सुगाली माता"
+        },
+        {
+          "id": "opt3",
+          "text": "कैला देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "देवी दुर्गा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "आउवा के किले में सुगाली माता की दुर्लभ मूर्ति स्थापित की गई थी। सुगाली माता आउवा की कुलदेवी रही हैं। काले पत्थर से बनी यह देवी प्रतिमा 1857 के स्वतंत्रता संग्राम में स्वतंत्रता सेनानियों की प्रेरणा भी थी।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8336,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "___ राजस्थान में पहला स्थान था जहां 1857 का विद्रोह शुरू हुआ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगापुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8338,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय कोटा में प्रमुख नेता जयदयाल तथा मेहराब खां क्रमशः कहां के निवासी थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मथुरा, धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "मथुरा, करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर, कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा, झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महराब खान कोटा सेना के रिसालदार और करौली के रहने वाले थे। लाला जयदयाल का जन्म भरतपुर के कामा में हुआ था, वे कोटा विद्रोह के प्रमुख नेता थे।",
+      "reference": "📌 PYQ — RSMSSB JE Electrical (Diploma) 29 Nov 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8339,
+        "exam": "RSMSSB JE Electrical (Diploma) 29 Nov 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 में प्रथम विद्रोह कहां हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt3",
+          "text": "एरिनपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "माउन्ट आबू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8344,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 विद्रोह के समय जोधपुर के महाराजा तख्तसिंह ने किसके नेतृत्व में सेना अजमेर भेजी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुशाल राज सिंघवी"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्जुनसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राव रामचन्द्र"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरालाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बिठौड़ा का युद्ध कुशाल सिंह व क्रांतिकारी और हीथकोट, अनारसिंह व कुशालराज सिंघवी के मध्य हुआ। जोधपुर का किलेदार अनारसिंह मारा गया।",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8345,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय एजेंट टू गवर्नर जनरल इन राजपूताना कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जार्ज लॉरेन्स"
+        },
+        {
+          "id": "opt2",
+          "text": "हेनरी लॉरेन्स"
+        },
+        {
+          "id": "opt3",
+          "text": "इल्तुदस थोमस प्रिचार्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "चार्लस मेटकाफ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 ई. की क्रान्ति के समय ए.जी.जी. जॉर्ज पैट्रिक लॉरेन्स था।",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8346,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन से पाॅलिटिकल एजेंट जोधपुर में 1857 के विप्लव में मारे गये थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैक मोसन"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल इडन"
+        },
+        {
+          "id": "opt3",
+          "text": "मेजर शावर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "बर्टन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जोधपुर की सेना की पराजय की खबर पाकर ए.जी.जी. जॉर्ज लारेन्स स्वयं एक सेना लेकर आउवा पहुँचा। मगर 18 सितम्बर, 1857 को वह विद्रोहियों से परास्त हुआ। इस संघर्ष के दौरान जोधपुर का पोलिटिकल एजेन्ट मोक मेसन क्रांतिकारियों के हाथों मारा गया। उसका सिर आउवा के किले के द्वार पर लटका दिया गया।",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8347,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के विद्रोह के समय जोधपुर के महाराजा कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा तख्त सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा राम सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा अजीत सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा जसवंत सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 के विद्रोह के दौरान महाराजा तख्त सिंह जोधपुर के शासक थे।",
+      "reference": "📌 PYQ — Supervisor (women empowerment) Exam 2018",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8348,
+        "exam": "Supervisor (women empowerment) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन कोटा में 1857 के विद्रोह का नेता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अली बेग"
+        },
+        {
+          "id": "opt2",
+          "text": "कुशाल सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जयदयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरालाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "15 अक्टूबर, 1857 को कोटा की सेना ने रेजीडेन्सी को घेरकर मेजर बर्टन और उसके पुत्रों तथा एक डॉक्टर की हत्या कर दी। मेजर बर्टन का सिर कोटा शहर में घुमाया गया तथा महाराव का महल घेर लिया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8349,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय एजेंट टू गवर्नर जनरल इन राजपूताना कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जार्ज लाॅरेन्स"
+        },
+        {
+          "id": "opt2",
+          "text": "हेनरी लाॅरेन्स"
+        },
+        {
+          "id": "opt3",
+          "text": "इल्तुुदस थोमस प्रिचार्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "चार्लस मेटकाफ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 ई. की क्रान्ति के समय ए.जी.जी. जॉर्ज पैट्रिक लॉरेन्स था।",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8350,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के विप्लव के दौरान निम्न विद्रोह-स्थलों को विद्रोह पैâलने के अनुसार कालानुक्रमिक रूप से व्यवस्थित कीजिए- (A) मेरठ (B) Bareilly/बरेली (C) झांसी (D) Kota/कोटा अपना उत्तर निम्न संकेतों में से चुनें–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A B C D"
+        },
+        {
+          "id": "opt2",
+          "text": "B D A C"
+        },
+        {
+          "id": "opt3",
+          "text": "C B A D"
+        },
+        {
+          "id": "opt4",
+          "text": "D B C A"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857के विद्रोह की घटना गवर्नर जनरल लॉर्ड वैâिंनग के शासन काल के दौरान घटित हुई। विद्रोह का कालानुक्रमिक क्रम मेरठ, दिल्ली, अवध, कानपुर, लखनऊ, बरेली, झाँसी, बिहार, कोटा है।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19952,
+        "exam": "RPSC School Lect. (S.E.) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“अंग्रेजों ने अपनी शपथ भंग की है। क्या उन्होंने अवध पर अधिकार नहीं किया? अतः उन्हें यह अपेक्षा नहीं करनी चाहिए कि भारतीय अपनी शपथ का अनुपालन करेंगे।” 1857 ई. की क्रान्ति के सन्दर्भ में यह किसने कहा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तांत्या टोपे"
+        },
+        {
+          "id": "opt2",
+          "text": "हाकिम अहमद"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रताप सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "मुहम्मद अली बेग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मोहम्मद अली बेग नामक सैनिक ने कर्नल एबॉट के सामने अंग्रेजो के प्रति वफादारी की प्रतिज्ञा लेने से मना कर दिया। अली बेग ने कहा “अंग्रेजों ने अपनी शपथ भंग की है। क्या उन्होंने अवध पर अधिकार नहीं किया? अतः उन्हें यह अपेक्षा नहीं करनी चाहिए कि भारतीय अपनी शपथ का अनुपालन करेंगे।”",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8355,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों में से कौन सा/कौन से कथन वी. डी. सावरकर के बारे में सही है? (i) उन्होंने `अभिनव भारत' नामक क्रांतिकारी संगठन की स्थापना की। (ii) भारतीय राष्ट्रवादियों को प्रेरित करने के उद्देश्य से उन्होंने मैजिनी की जीवनी लिखी। (iii) उन्होंने `भारत का स्वतंत्रता संग्राम-1857'नामक पुस्तक लिखी जो 1857 के विद्रोह का एक राष्ट्रवादी दृष्टिकोण प्रदान करती है। (iv) ब्रिटिश वैâद से मुक्त होने के लिए वे एक चलते जहाज से कूद पड़े। सही उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल(iii)और(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल(i), (iii)और(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल(i)और(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii), (iii)और(iv)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वीर सावरकर का जन्म28मई, 1883को ग्राम भागुर, जिला नासिक बम्बई प्रान्त(ब्रिटिश भारत)में हुआ था। ये भारतीय स्वतंत्रता आंदोलन के अग्रिम पंक्ति के सेनानी एवं प्रखर राष्ट्रवादी नेता थे।1904में इन्होंने अभिनव भारत नामक एक क्रांतिकारी संगठन की स्थापना की थी। वीर सावरकर ने १९०९ ई. में ‘भारत का स्वतंत्रता संग्राम-१८५७’ नामक पुस्तक लिखी जो १८५७ के विद्रोह का राष्ट्रवादी दृष्टिकोण प्रस्तुत करती है। सावरकर ने मैजिनी की जीवनी भी लिखी। 257",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19962,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 में कोटा में विद्रोह का नेता कौन था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुशाल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रामसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "जयदयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "बख्त सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1857में कोटा विद्रोह का नेतृत्व जयदयाल और मेहराब ने किया था। विद्रोहियों ने15अक्टूबर, 1857को रेजीडेंट मेजर बर्टन उनके दो बेटों और एक डाक्टर की हत्या कर दी।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 545,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेहराबखाँ ने किस स्थान के 1857 के विद्रोह का संचालन किया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "निम्बाहेड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेहराब खान ने राजस्थान के कोटा राज्य में1857के विद्रोह का नेतृत्व किया था।15अक्टूबर, 1857को कोटा ने अंग्रेजों के खिलाफ विद्रोह किया था। इस विद्रोह में मेजर बर्टन की मृत्यु हो गई थी।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2013",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 560,
+        "exam": "RPSC M.V.S.I. (P-1) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 ई. की क्रांति में अंग्रेजों व जोधपुर की संयुक्त सेना को पराजित करने वाला था─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताँत्या टोपे"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक का नवाब वजीर खां"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा राम िंसह"
+        },
+        {
+          "id": "opt4",
+          "text": "आउवा के ठाकुर कुशल िंसह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1857ई. की क्रान्ति में अंग्रेजों व जोधपुर की संयुक्त सेना को पराजित करने वाले सुगाली देवी के भक्त आउवा के ठाकुर कुशल िंसह थे। उसने अंग्रेजों की संयुक्त सेना को आउवा के पास विठोरा नामक स्थान पर पराजित किया तथा लेफ्टीनेन्ट हीथ कोट को विवश होकर पीछे हटना पड़ा।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1993",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20024,
+        "exam": "RPSC RAS/RTS Pre 1993",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 का विप्लव सर्वप्रथम कहाँ प्रारम्भ हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt3",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt4",
+          "text": "आऊवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8364,
+        "exam": "RSMSSB PTI Grade-III P1",
+        "year": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के त्योहार",
+  "batchIndex": 4,
+  "batchName": "राजस्थान के त्योहार भाग 4",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-त्योहार",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“कजली तीज” का त्यौहार किस तिथि को मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद कृष्ण तृतीया"
+        },
+        {
+          "id": "opt2",
+          "text": "आषाढ़ कृष्ण तृतीया"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रावण शुक्ल तृतीया"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र शुक्ल तृतीया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Police SI 14 September 2021 (Gk)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11437,
+        "exam": "Police SI 14 September 2021 (Gk)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘सातूड़ी तीज’ नामक त्यौहार मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्तिक कृष्ण तृतीया को"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक शुक्ल पंचमी को"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद शुक्ल पंचमी को"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद कृष्ण तृतीया को"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11438,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अशोकाष्टमी’ मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र शुक्ल अष्टमी को"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र कृष्ण अष्टमी को"
+        },
+        {
+          "id": "opt3",
+          "text": "वैशाख शुक्ल अष्टमी को"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रावण कृष्ण अष्टमी को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11439,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तिल चौथ (संकट चौथ) मनायी जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ कृष्ण चतुर्थी"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद कृष्ण षष्ठी"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन शुक्ल एकादशी"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक शुक्ल एकादशी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माघ माह के कृष्ण पक्ष की चतुर्थी को सकट चौथ, तिलकुटा चौथ, संकटा चौथ, माघी चतुर्थी आदि नामों से भी जाना जाता है। इस दिन स्त्रियां अपनी संतान की लंबी उम्र और सुखी जीवन के लिए व्रत रखती हैं तथा भगवान गणेश की विशेष पूजा अर्चना करती है।सवाई माधोपुर के चौथ का बरवाड़ा में इस दिन मेला लगता है।",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11440,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘फूलडोल उत्सव’ मनाया जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परनामी पंथ द्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "वल्लभ पंथ द्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "रामस्नेही पंथ द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "सतनाम पंथ द्वारा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11441,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I एवं सूची-II को सुमेलित कीजिए तथा नीचे दिये गये कूट में से सही उत्तर चुनिए –सूची-I (त्यौहार)(A) बूंदी की कजली तीज(B) होली(C) पर्युषण पर्व(D) गणगौरसूची-II (उत्सव की तिथि/माह)(i) भाद्रपद कृष्ण तृतीया(ii) फाल्गुन पूर्णिमा(iii) भाद्रपद माह(iv) चैत्र माह कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-(iv), B-(iii), C-(ii), D-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "A-(i), B-(ii), C-(iii), D-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "A-(iii), B-(iv), C-(i), D-(ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "A-(i), B-(ii), C-(iv), D-(iii)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बूंदी की कजली तीज: भाद्रपद कृष्ण तृतीयाहोली: फाल्गुन पूर्णिमापर्युषण पर्व: भाद्रपद माहगणगौर: चैत्र माह",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11442,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इस दिन भोजन में खीर और मालपुआ बनाए जाते हैं। ब्राह्मणों को भोजन कराते हैं। लोग अपने परिवारजनों के साथ उद्यान अथवा अन्य रमणीय स्थलों पर जाकर आनंद मनाते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरियाली अमावस"
+        },
+        {
+          "id": "opt2",
+          "text": "आखा तज्ञीज"
+        },
+        {
+          "id": "opt3",
+          "text": "निर्जला एकादशी"
+        },
+        {
+          "id": "opt4",
+          "text": "घुड़ला का त्योहार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हरियाली अमावस्या (श्रावण मास) का सम्बन्ध प्रकृति, पितृ, तथा शिव से है। इस दिन पीपल की पूजा की जाती है एवं वृक्षारोपण कर वृक्षों की देखभाल का संकल्प लिया जाता है।",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11443,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के कुंभलगढ़ त्योहार से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा मोकल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "अलाउद्दीन खिलजी"
+        },
+        {
+          "id": "opt3",
+          "text": "महमूद खिलजी"
+        },
+        {
+          "id": "opt4",
+          "text": "राणा कुंभा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कुम्भलगढ़ महोत्सव का नाम राणा कुंभा के नाम पर रखा गया है, जो ललित कला, वास्तुकला और शिक्षा के संरक्षक थे। यह कुंभलगढ़ किले, चित्तौड़गढ़ में आयोजित किया जाता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11444,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विक्रम संव्त के किस माह में गणगौर का त्यौहार मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "वैशाख"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रावण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चैत्र कृष्ण प्रतिपदा से चैत्र शुक्ल तृतीया तक गणगौर त्यौहार मनाया जाता है।चैत्र शुक्ल तृतीया को मुख्य त्यौहार मनाया जाता है। इस दिन कुँवारी लड़कियाँ मनपसन्द वर पाने की कामना से एवं विवाहित महिलाएँ अपने पति की दीर्घायु की कामना से शिवजी (इसर जी) और पार्वती जी (गौरी) की पूजा करती हैं। किवंदती है यह त्यौहार पार्वती के गौने से अपने पिता के घर वापस लौट आने परसखियों द्वारा स्वागत गान के रूप में हुआ। यह सर्वाधिक लोकगीतों वाला त्यौहार है|",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11445,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ऊभ छठ पर्व कब मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण शुक्ला - 6"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद शुक्ला - 6"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद कृष्णा - 6"
+        },
+        {
+          "id": "opt4",
+          "text": "आश्विन कृष्णा - 6"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11446,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कजरी तीज - जिसे सातुड़ी तीज भी कहते हैं किस माह में मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद/भादों"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पौष"
+        },
+        {
+          "id": "opt4",
+          "text": "सावन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भाद्रपद माह के कृष्ण पक्ष की तृतीया को आयोजित होने वाली कजली तीज, सातुडी तीज, बड़ी तीज और भादवा की तीज भी कही जाती है। यह महिलाओं के सौलह श्रृंगार और पति-पत्नि के प्रेम का प्रतीक है। हाडौती में कजली तीज विख्यात है। बूंदी जिले में नगर परिषद द्वारा दो दिवसीय तीज सवारी निकाली जाती है तथा मेला लगता है। जिसमे विभिन्न कलाकारों द्वारा रंगारंग कार्यक्रम की प्रस्तुति की जाती है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11448,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा त्यौहार होली के लगभग एक पखवाड़ा बाद मनाया जाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घुड़ला"
+        },
+        {
+          "id": "opt2",
+          "text": "अक्षय तृतीया"
+        },
+        {
+          "id": "opt3",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt4",
+          "text": "तीज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11449,
+        "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौनसे क्षेत्र में चेत्रशुक्ल पंचमी को गुलाबी गणगौर मनायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बुन्दी"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गुलाबी गणगौर चैत्र शुक्ल पंचमी को मनाया जाता है। गुलाबी गणगौर नाथद्वारा में मनाया जाता है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11450,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न स्थानों में से कौनसा ‘पत्थरमार होली’ के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महावीर जी"
+        },
+        {
+          "id": "opt2",
+          "text": "भरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाड़मेर शहर में पत्थरों की लड़ाई के साथ 80-90 साल पहले होली का रंगीन त्योहार मनाया जाता था।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11451,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैन समुदाय द्वारा पर्युषण पर्व जिस माह में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अश्विन मास"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण मास"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक मास"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रमास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पर्यूषण पर्व, जैन समाज का एक महत्वपूर्ण पर्व है। जैन धर्मावलंबी भाद्रपद मास में पर्यूषण पर्व मनाते हैं। ये पर्यूषण पर्व 8 दिन चलते हैं। 8 वें दिन जैन धर्म के लोगों का महत्वपूर्ण त्यौहार संवत्सरी पर्व मनाया जाता है।",
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11452,
+        "exam": "Asstt. Jailor Exam 2013(paper-II)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऋषिपंचमी मनायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण शुक्ला-5"
+        },
+        {
+          "id": "opt2",
+          "text": "आश्विन शुक्ला-5"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद शुक्ला-5"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक शुक्ला-5"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11453,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर त्योंहार कितनी अवधी तक मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "14 दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "15 दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "18 दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "19 दिन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "यह आमतौर पर 18 दिन का होता है। इसमें महिलाएं देवी पार्वती/गौरी से प्रार्थना करती हैं, कि उन्हें एक भरपूर वसंत के साथ आशीर्वाद दें जो फसल से परिपूर्ण और वैवाहिक सद्भाव से भरा हो।",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11478,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विक्रम संवत् पंचांग के अनुसार शीतला अष्टमी किस दिन मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र कृष्णा अष्टमी"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र शुक्ला अष्टमी"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन शुक्ला अष्टमी"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक कृष्णा अष्टमी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विक्रम संवत् पंचांग के अनुसार शीतला अष्टमी हर साल चैत्र महीने के कृष्ण पक्ष की अष्टमी को मनाया जाता है। इसे बसौड़ा के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11489,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा त्यौहार श्रावण के महीने में नहीं आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाग पंचमी"
+        },
+        {
+          "id": "opt2",
+          "text": "तीज"
+        },
+        {
+          "id": "opt3",
+          "text": "रक्षा बन्धन"
+        },
+        {
+          "id": "opt4",
+          "text": "जन्माष्टमी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11490,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसे पर्व के मौके पर ढूंढ बांटा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागपंचमी"
+        },
+        {
+          "id": "opt2",
+          "text": "बसंत पंचमी"
+        },
+        {
+          "id": "opt3",
+          "text": "दीपावली"
+        },
+        {
+          "id": "opt4",
+          "text": "होली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ढूंढ हिंदू धर्म को मानने वालों की एक सामाजिक रस्म है। यह बच्चे के जन्म से जुडी हुई है। जब किसी हिंदू परिवार में बच्चे का जन्म होता है तो बच्चे के जन्म के तुरंत बाद जो भी पहली होली आती है तब ढूंढ पूजन की रस्म की जाती है। यह होली से पूर्व आने वाली ग्यारस या होलिका दहन वाले दिन की जाती है।",
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11492,
+        "exam": "Raj Jail Warder (29-11-18) Shift 1",
+        "year": null
+      }
+    }
+  ]
+}

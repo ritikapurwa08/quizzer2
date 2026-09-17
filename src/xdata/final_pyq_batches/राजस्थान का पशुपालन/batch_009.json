@@ -1,0 +1,663 @@
+{
+  "masterTopic": "राजस्थान का पशुपालन",
+  "batchIndex": 9,
+  "batchName": "राजस्थान का पशुपालन भाग 9",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पशुपालन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कॉकरेज महत्वपूर्ण नस्ल है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोधन की"
+        },
+        {
+          "id": "opt2",
+          "text": "भैंस की"
+        },
+        {
+          "id": "opt3",
+          "text": "बकरी की"
+        },
+        {
+          "id": "opt4",
+          "text": "भेड की"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कांकरेज राजस्थान में गोधन की महत्वपूर्ण नस्ल है। यह गुजरात के कच्छ के रण में पायी जाती है। यह बन्नई, नागर, तलवदा, वाघियार, वागड़, वागेद, वधियार इत्यादि नामों से जानी जाती है।",
+      "reference": "📌 PYQ — RPSC Asst. Engineer 2013",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1977,
+        "exam": "RPSC Asst. Engineer 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में इनमें से कौन-सी एक भेड़ की नस्ल पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौरी"
+        },
+        {
+          "id": "opt2",
+          "text": "राठी"
+        },
+        {
+          "id": "opt3",
+          "text": "चौकला"
+        },
+        {
+          "id": "opt4",
+          "text": "मुर्रा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1993,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भेड़ो की कितनी नस्लें पाई जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt2",
+          "text": "छ:"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "आठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में ८ प्रकार की भेड़ें पाई जाती है जो इस प्रकार हैं- (१) जैसलमेरी (२) नाली (३) मालपुरी (४) मगरा (५) पुगल (६) चोकला या शेखावटी (७) सोनारी या चनोथर (८) मारवाड़ी",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2010,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी गाय की नस्ल नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "थारपारकर"
+        },
+        {
+          "id": "opt2",
+          "text": "गिर"
+        },
+        {
+          "id": "opt3",
+          "text": "मुर्रा"
+        },
+        {
+          "id": "opt4",
+          "text": "राठी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिए गये विकल्पों में मुर्रा गाय की नहीं बल्कि भैंस की नस्ल है।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2015,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चोकला, मगरा, पूगल किस पशु के प्रकार हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt3",
+          "text": "गाय-बैल"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊँट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चोकला, मगरा, पूगल भेड़ की नस्लें हैं।",
+      "reference": "📌 PYQ — RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2023,
+        "exam": "RPSC LDC (P-I) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशु गणना 2003 के अनुसार राजस्थान में पशु घनत्व एवं सबसे अधिक पशु घनत्व वाला जिला है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "144 एवं डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "150 एवं बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "160 एवं बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "165 एवं भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "२०वीं पशु जनगणना के अनुसार राजस्थान में पशु घनत्व १६६ तथा सबसे अधिक पशु घनत्व वाला जिला दौसा है। प्रश्न काल के दौरान विकल्प(a)सही था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2009",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2025,
+        "exam": "RPSC RAS/RTS Pre 2009",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-सी ग्रन्थि दुग्ध निष्कासन हार्मोन ऑक्सीटोसीन का स्रावण करती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीयूष ग्रन्थि"
+        },
+        {
+          "id": "opt2",
+          "text": "थायराइड ग्रन्थि"
+        },
+        {
+          "id": "opt3",
+          "text": "पैराथायराइड ग्रन्थि"
+        },
+        {
+          "id": "opt4",
+          "text": "एड्रीनल ग्रन्थि"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शरीर की पीयूष ग्रन्थि आक्सीटोसीन हार्मोन का स्रावण करती है। यह हार्मोन स्तन से दुग्ध स्राव में सहायक होता है। यह गर्भाशय की अरेखित पेशियों में संकुचन पैदा कर बच्चे के जन्म में सहायता पहुँचाता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2006-07",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2032,
+        "exam": "RPSC RAS/RTS Pre 2006-07",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भूमि की उर्वरता बढ़ाने के लिए कौन-सी फसल उगायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "उड़द"
+        },
+        {
+          "id": "opt4",
+          "text": "गन्ना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उड़द दलहनी फसल है। दलहनी फसलें खेतों की उर्वरा शक्ति को बनाए रखती हैं। इनके बोने से खेतों को नाइट्रोजन मिलता है। हरी खाद के रूप में भी इनका उपयोग किया जाता है। राजस्थान में दालों की कृषि कुल बोये गये क्षेत्र के 21.71%क्षेत्र पर की जाती है। राज्य के शुष्क एवं अर्द्ध-शुष्क भाग में दालों के अन्तर्गत अधिकतर क्षेत्र मिलता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2039,
+        "exam": "RPSC RAS/RTS Pre 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दुग्ध-उत्पादन हेतु गाय की प्रसिद्ध नस्लें हैं─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "थारपारकर एवं राठी"
+        },
+        {
+          "id": "opt2",
+          "text": "राठी एवं नागौरी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालवी एवं थारपारकर"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाती एवं मालवी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "थारपारकर एवं राठी गाय की मुख्य रूप से दूध देने वाली नस्लें हैं। थारपारकर नस्ल की गाय स्थानीय भागों में मालणी नाम से विख्यात है। राठी नस्ल सिन्धी और साहीवाल की मिश्रित नस्ल है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1997-98",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2046,
+        "exam": "RPSC RAS/RTS Pre 1997-98",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान स्थापित है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अम्बिकानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "केन्द्रीय भेड़ एवं ऊन अनुसंधान संस्थान राजस्थान के अम्बिकानगर (मालपुरा टोंक) में स्थापित किया गया। यहां भेड़ों की अच्छी नस्ल तैयार करने तथा उनसे अच्छी किस्म का ऊन प्राप्त करने का काम किया जाता है। राजस्थान में भेड़ एवं ऊन के विकास की अच्छी सम्भावना भी है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1997-98",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2047,
+        "exam": "RPSC RAS/RTS Pre 1997-98",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केन्द्रीय ऊँट प्रजनन केन्द्र स्थित है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt2",
+          "text": "जोरबीड़"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरतगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "रामगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऊँटों की नस्ल को विकसित करने के लिए भारतीय कृषि अनुसंधान परिषद् द्वारा जोरबीड़ (बीकानेर) में ऊँट प्रजनन कार्य संचालित किया जा रहा है, जहाँ केन्द्रीय ऊँट प्रजनन संस्थान स्थित है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2051,
+        "exam": "RPSC RAS/RTS Pre 1996",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भेड़ की कौन सी नस्ल राजस्थान में ‘भारतीय मेरीनो’ के नाम से प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूगल"
+        },
+        {
+          "id": "opt2",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt3",
+          "text": "खेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2262,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी बकरी की नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "पूंगल"
+        },
+        {
+          "id": "opt4",
+          "text": "गिर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2263,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से गाय की कौन-सी प्रजाति जालौर, सीरोही, पाली व बाड़मेर जिलों में पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राठी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "थारपारकर"
+        },
+        {
+          "id": "opt4",
+          "text": "कांकरेज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कांकरेज नस्ल की गाये राजस्थान के दक्षिण-पश्चिमी भागों बाड़मेर, सिरोही, जालौर तथा जोधपुर के कुछ क्षेत्रों में पाली जाती है।",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2264,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भेड़ की कौन-सी प्रजाति भारतीय मेरिनो के नाम से जानी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेरी"
+        },
+        {
+          "id": "opt2",
+          "text": "पूगल"
+        },
+        {
+          "id": "opt3",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt4",
+          "text": "नाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2265,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से भैंस की कौन-सी प्रजाति दुग्ध उत्पादन के लिए सर्वश्रेष्ठ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहसाना"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरती"
+        },
+        {
+          "id": "opt3",
+          "text": "मुर्रा"
+        },
+        {
+          "id": "opt4",
+          "text": "हरियाणवी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2266,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कांकरेज .......... की एक नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊंट"
+        },
+        {
+          "id": "opt2",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt3",
+          "text": "भैंस"
+        },
+        {
+          "id": "opt4",
+          "text": "गाय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2267,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पशु अनुसंधान केन्द्र, कोड़मदेसर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2268,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राठी प्रजाति कौन सी दो गायों की शंकर प्रजाति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिन्धि व मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "सिन्धि व साहीवाल"
+        },
+        {
+          "id": "opt3",
+          "text": "साहिवाल व मालवी"
+        },
+        {
+          "id": "opt4",
+          "text": "मालवी व नागौरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2269,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पूंगल नस्ल किस पशु की नस्ल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भैस"
+        },
+        {
+          "id": "opt2",
+          "text": "बकरी"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "गाय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2276,
+        "exam": "Raj Jail Warder (29-11-18) Shift 1",
+        "year": null
+      }
+    }
+  ]
+}

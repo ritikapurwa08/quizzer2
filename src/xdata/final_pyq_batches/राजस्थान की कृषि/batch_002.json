@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 2,
+  "batchName": "राजस्थान की कृषि भाग 2",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस कृषि-जलवायु क्षेत्र में कपास एक प्रमुख खरीफ फसल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंचित उत्तर-पश्चिमी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "आंतरिक जल निकासी शुष्क क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "लूनी बेसिन का परिवर्ती मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "उप-आर्द्र दक्षिणी मैदान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्रीगंगानगर, हनुमानगढ़, बीकानेर आदि सिंचित उत्तर-पश्चिमी मैदानी क्षेत्र में नहर सिंचाई से अमेरिकन कपास (Bt cotton) बहुत होती है।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1451,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के शुष्क पश्चिमी मैदान कृषि-जलवायु क्षेत्र में निम्नलिखित में से कौनसी एक प्रमुख रबी फसल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "मोठ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी शुष्क मैदान (बीकानेर, श्रीगंगानगर, हनुमानगढ़ आदि) में इंदिरा गांधी नहर से सिंचाई होने के कारण रबी में गेहूँ प्रमुख फसल है।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1452,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संतरे की खेती के लिए राजस्थान का कौन सा जिला प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का झालावाड़ जिला संतरे की बागवानी के लिए प्रसिद्ध है। यहाँ के संतरे, महाराष्ट्र के नागपुर में उत्पादित प्रसिद्ध संतरों की तुलना में अधिक स्वादिष्ट माने जाते हैं।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1453,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सोयाबीन की खेती प्रमुख रूप से कहाँ की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावाटी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के हाड़ौती क्षेत्र (कोटा, बूंदी, बारां, झालावाड़) में सोयाबीन की खेती प्रमुख रूप से होती है, क्योंकि यह क्षेत्र उपजाऊ है और सिंचाई की सुविधा उपलब्ध है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1454,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चंबल-65, सोनेरा, शरबती और कोहिनूर किस फसल की किस्में हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt2",
+          "text": "जौ"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चंबल-65, सोनेरा, शरबती, और कोहिनूर गेहूँ की किस्में हैं।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1455,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए -(A) राजस्थान में डेयरी उद्योग का प्रारंभ 1981 में हुआ।(B) राजस्थान में डेयरी व्यवसाय का संचालन एवं उन्नयन करने हेतु राजस्थान सहकारी डेयरी फेडरेशन (RCDF) की स्थापना की गई।(C) RCDF राष्ट्रीय डेयरी विकास बोर्ड के निर्देशन में स्थापित की गयी।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(B) और (C) सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "(A), (B) और (C) सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "(A) और (C) सही हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "(A) और (B) सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1975 में पंजीकृत राजस्थान राज्य डेयरी विकास निगम (RSDDC) के तत्वावधान में राज्य सरकार द्वारा सत्तर के दशक में डेयरी विकास शुरू किया गया था। दो वर्ष बाद, राजस्थान सहकारी डेयरी फेडरेशन (आरसीडीएफ) ने RSDDC के कई कार्यों की जिम्मेदारी संभाली थी। राज्य में डेयरी व्यवसाय के शीर्ष निकाय के रूप में राजस्थान सहकारी डेयरी फेडरेशन (RCDF) की स्थापना वर्ष 1977 में की गई थी, जो दुग्ध उत्पादन और विपणन का कार्य देखती है। RCDF की स्थापना ‘आनंद’ (Amul) पैटर्न पर राष्ट्रीय डेयरी विकास बोर्ड (NDDB) के सहयोग और निर्देशन में 'ऑपरेशन फ्लड' के तहत की गई थी।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1460,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राजस्थान-3077” किस्म का सम्बन्ध किस फसल से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt4",
+          "text": "मूँग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान-3077 गेहूं की एक HYV (उच्च उपज वाली) किस्म है, जो 1989 में जारी की गई, जल्दी पकने वाली (115-120 दिन) और राजस्थान के लिए उपयुक्त।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1466,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राज-171’ तथा ‘मोती’ उन्नत किस्में हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का की"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा की"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्वार की"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज-171 और मोती राजस्थान में बाजरा (Pearl Millet) की प्रसिद्ध उन्नत किस्में हैं।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1467,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए -सूची-Iसूची-II(A) I-A(i) अर्द्ध-शुष्क पूर्वी मैदान(B) II-A(ii) शुष्क उत्तर-पश्चिमी मैदान(C) III-A(iii) उप-आर्द्र दक्षिणी मैदान(D) IV-A(iv) अन्तः प्रवाह शुष्क प्रदेशकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(i), (B)-(ii), (C)-(iii), (D)-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(ii), (B)-(iv), (C)-(i), (D)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "I-A: शुष्क पश्चिमी मैदान (उत्तर-पश्चिमी शुष्क)II-A: अन्तः प्रवाह शुष्क प्रदेश (internal drainage arid)III-A: अर्द्ध-शुष्क पूर्वी मैदानIV-A: उप-आर्द्र दक्षिणी मैदान (sub-humid southern)",
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1468,
+        "exam": "Agriculture Dept. Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के अर्द्धशुष्क पूर्वी मैदान (III-A), कृषि जलवायु प्रदेश के संदर्भ में कौनसा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यहाँ सिंचित और असिंचित दोनों प्रकार की कृषि की जाती है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका विस्तार जयपुर, अजमेर, दौसा व टोंक जिलों में है।"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का, मूंगफली तथा ज्वार रबी की प्रमुख फसलें हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "यहाँ 50 से.मी. से 70 से.मी. औसत वर्षा होती है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अर्द्ध शुष्क पूर्वी मैदानी क्षेत्र (III-A) का विस्तार अजमेर, ब्यावर, जयपुर, जयपुर ग्रामीण, दौसा, टोंक, खैरथल तिजारा, कोटपूतली बहरोड़ जिलों में है। गेहूं, सरसों एवं चना रबी की प्रमुख फसलें हैं। बाजरा, ग्वार एवं ज्वार खरीफ की प्रमुख फसलें हैं।",
+      "reference": "📌 PYQ — CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1470,
+        "exam": "CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के एग्रो क्लाइमेटिक ज़ोन में-“शुष्कपश्चिमी -मैदान”(अरिडवेस्टर्न प्लेन-) के अंतर्गत निम्नलिखित में से कौनसा क्षेत्र शामिल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बाड़मेर शुष्क पश्चिमी मैदान क्षेत्र में आता है, जो राजस्थान के रेगिस्तानी भाग को दर्शाता है। जोधपुर, फलौदी, बाड़मेर एवं बालोतरा शुष्क पश्चिमी मैदानी क्षेत्र (I-A) में शामिल हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2024 (Paper 1)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1471,
+        "exam": "Librarian Grade III 2024 (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिये: A. राजस्थान को 9 कृषि-जलवायु क्षेत्रों में बाँटा गया है।B. राजस्थान में मक्का, मूँगफली तथा कपास खरीफ़ की फसलें हैं।C. राजस्थान सोयाबीन उत्पादन में देश में प्रथम है।सही उत्तर का चयन नीचे दिये कूट से कीजिये: कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और C"
+        },
+        {
+          "id": "opt2",
+          "text": "B और C"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल B"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B और C"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान को 10 कृषि-जलवायु क्षेत्रों में बांटा गया है।मक्का, मूँगफली, और कपास खरीफ की फसलें हैं।मध्य प्रदेश और महाराष्ट्र के बाद राजस्थान तीसरा सबसे बड़ा सोयाबीन उत्पादक राज्य है।",
+      "reference": "📌 PYQ — Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1472,
+        "exam": "Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर, दौसा और अजमेर राजस्थान के किस कृषि जलवायु क्षेत्र में आते हैं -नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नमी वाले दक्षिणी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "उप-नमी वाले दक्षिणी मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्द्ध-शुष्क पूर्वी मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "बाढ़ प्रवण पूर्वी मैदान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अजमेर, ब्यावर, जयपुर, दौसा, टोंक, खैरथल-तिजारा, कोटपूतली-बहरोड़ राजस्थान के अर्द्ध-शुष्क पूर्वी मैदान (Semi-Arid Eastern Plain) कृषि जलवायु क्षेत्र में आते हैं, जो क्षेत्र III-A के रूप में जाना जाता है।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1473,
+        "exam": "Prahari 2024 Shift 1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राज-171” किस्म निम्नलिखित में से किस फसल से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "RAJ - 171 बाजरा की एक किस्म है। RAJ - 171 किस्म को सूखे चारे और अनाज के लिए उगाया जाता है, जो 80 से 85 दिनों की अवधि में सामान्य और खराब वर्षा वाले क्षेत्रों में होती है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1474,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सुमेलित नहीं है -फसल - किस्म",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ - राजस्थान 3077"
+        },
+        {
+          "id": "opt2",
+          "text": "मक्का - माही धवल"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा - मंगला"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल - माही सुगन्धा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मंगला, गंगा, सुनहरी और लालबहादुर गेहूँ की किस्म है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1475,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही और बनास बेसिन में निम्नलिखित में से कौन सी फसल सर्वाधिक मात्रा में पैदा की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोयाबीन"
+        },
+        {
+          "id": "opt2",
+          "text": "ज्वार"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्वार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माही और बनास बेसिन में मक्का प्रमुख फसल है, क्योंकि यह क्षेत्र की जलवायु और मिट्टी के लिए उपयुक्त है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1476,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस जिले में, ‘स्पाइस पार्क’ स्थापित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में दो स्पाइस पार्क हैं - पहला जोधपुर में और दूसरा कोटा जिले के रामगंजमंडी में। कोटा का स्पाइस पार्क धनिया और जीरा जैसे मसालों के प्रसंस्करण के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1477,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-से जिले गन्ने के मुख्य उत्पादक हैं -1. बूंदी 2. उदयपुर 3. गंगानगर 4. चित्तौड़गढ़निम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1, 2 और 3"
+        },
+        {
+          "id": "opt2",
+          "text": "सभी 1, 2, 3 और 4"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 2 और 3"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 1 और 3"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में गन्ने का मुख्य उत्पादन बूंदी, गंगानगर, उदयपुर और चित्तौड़गढ़ जिलों में होता है।",
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1478,
+        "exam": "Junior Instructor (PLM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नरमा’ ___ की एक किस्म है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "गन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नरमा कपास की एक उन्नत किस्म है, जो विशेष रूप से भारत में उगाई जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (MMV) Exam 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1479,
+        "exam": "Junior Instructor (MMV) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा राजस्थान में सरसों का प्रमुख उत्पादक क्षेत्र नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी-पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तरी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सरसों का उत्पादन उत्तरी-पूर्वी, पूर्वी, और उत्तरी क्षेत्रों में होता है, लेकिन दक्षिणी क्षेत्र (जैसे बाँसवाड़ा, डूंगरपुर) सरसों के लिए प्रमुख नहीं है।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1480,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    }
+  ]
+}

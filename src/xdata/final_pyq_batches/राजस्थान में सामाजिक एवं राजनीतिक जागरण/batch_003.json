@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
+  "batchIndex": 3,
+  "batchName": "राजस्थान में सामाजिक एवं राजनीतिक जागरण भाग 3",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-सामाजिक-एवं-राजनीतिक-जागरण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "समाकलन के भाग के रूप में राजस्थान राजस्व बोर्ड की स्थापना कब हुई -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिसम्बर 1950"
+        },
+        {
+          "id": "opt2",
+          "text": "सितम्बर 1948"
+        },
+        {
+          "id": "opt3",
+          "text": "अक्टूबर 1947"
+        },
+        {
+          "id": "opt4",
+          "text": "नवम्बर 1949"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "संयुक्त राजस्थान राज्य के निर्माण के पश्चात महामहिम राजप्रमुख ने 7 अप्रैल 1949 को अध्यादेश की उद्घोषणा द्वारा राजस्थान के राजस्व मंडल (Board of Revenue for Rajasthan) की स्थापना की। यह अध्यादेश 1 नवम्बर 1949 को प्रवर्तित हुआ था उसने बीकानेर, जयपुर, जोधपुर, मत्स्य तथा पूर्व राजस्थान के राजस्व मंडलों का स्थान ले लिया। ये राजस्व मंडल विविध विधियों के अधीन रियासतों में कार्य कर रहे थे।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 178,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर से पहले राजस्थान की राजधानी कहाँ थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "25 मार्च 1948 को हुए इस कार्यक्रम में कोटा को संयुक्त राजस्थान की राजधानी मानते हुए भीलवाड़ा के गोकुल लाल असावा को प्रधानमंत्री तथा महाराव उम्मेदसिंह (द्वितीय) को राजप्रमुख बनाया गया। हालांकि बाद में उदयपुर व फिर 30 मार्च 1949 में जयपुर को प्रदेश की राजधानी घोषित किया गया।",
+      "reference": "📌 PYQ — Computor Exam 2023",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 181,
+        "exam": "Computor Exam 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में “राजप्रमुख” का पद कब समाप्त किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "30 मार्च, 1949 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1 नवम्बर, 1956 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "26 जनवरी, 1950 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "18 मार्च, 1948 ई."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजप्रमुख का पद सातवें संविधान संशोधन 1956 द्वारा समाप्त कर दिया गया था और सरदार गुरमुख निहाल सिंह को राजस्थान का पहला राज्यपाल बनाया गया था।",
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 182,
+        "exam": "Statistical Office Exam - 2023 (GK)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का प्रथम राजप्रमुख किसे नियुक्त किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा उम्मेद सिंह, जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा करणी सिंह, बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा सवाई मान सिंह द्वितीय, जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा भगवत सिंह, उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का प्रथम राजप्रमुख महाराजा मानसिंह (द्वितीय) को बनाया गया था। महाराजा मानसिंह (द्वितीय) कछवाहा वंश के अंतिम शासक थे| इन्होनें 1922 से लेकर राज्य के भारत में विलय (1949) तक शासन किया था। इन्होनें 1949 से लेकर 1956 तक राजस्थान के राजप्रमुख के रूप में कार्य किया था।",
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 183,
+        "exam": "RAS (Pre) Exam - 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का नाम ‘‘राजपूताना’’ किसने और किस वर्ष में दिया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जार्ज थॉमस, १८००"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल टॉड, १८०६"
+        },
+        {
+          "id": "opt3",
+          "text": "मैक्समूलर, १८१५"
+        },
+        {
+          "id": "opt4",
+          "text": "फाह्ययाण, ६३३"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का राजपूताना नाम जॉर्ज थॉमस द्वारा1800 ई. में प्रस्तुत किया गया था। यहाँ के राजपूत शासकों द्वारा शासन किए जाने के कारण राजपूताना नाम दिया गया था।",
+      "reference": "📌 PYQ — RPSC Curator 2023 RPSC Asst. Town Planner-2022 RPSC Research Assistant 2016 RPSC LDC (P-I) 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 200,
+        "exam": "RPSC Curator 2023 RPSC Asst. Town Planner-2022 RPSC Research Assistant 2016 RPSC LDC (P-I) 2011",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सुमेलित नहीं है? समाचार-पत्र स्थापना वर्ष A. नव ज्याति 1936 B. नव जीवन 1939 C. लोकवाणी 1943 D. त्याग भूमि 1929",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ"
+        },
+        {
+          "id": "opt2",
+          "text": "ब"
+        },
+        {
+          "id": "opt3",
+          "text": "स"
+        },
+        {
+          "id": "opt4",
+          "text": "द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – समाचार पत्र प्रकाशन वर्ष नव ज्योति – 1936 नव जीवन – 1939 लोकवाणी – 1943 त्याग भूमि – 1927",
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 208,
+        "exam": "RPSC Statistical Officer 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोविन्द गिरि की गतिविधियों का केन्द्र 1911 एवं 1912 में था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ईडर"
+        },
+        {
+          "id": "opt3",
+          "text": "सूंथ"
+        },
+        {
+          "id": "opt4",
+          "text": "बेड़सा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1911 और 1912 में गोविंद गिरि की गतिविधियों का केंद्र बेड़सा था। बेड़सा गांव राजस्थान के डूंगरपुर जिले की सिमलवाड़ा तहसील में स्थित है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 171,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अलवर के किस शासक के समय नीमूचाणा कांड हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा विजय सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा जय सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराज सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा फतेह सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1924 में अलवर के महाराणा जयसिंह ने लगान की दरों में वृद्धि कर दी। इसके विद्रोह में अलवर के किसान आन्दोलन करते है। 14 मई 1925 को नीमूचाणा ग्राम में एकत्रित होते है। छाजूसिंह नामक पुलिस अधिकारी ने फायरिंग कर दी जिसमें 156 लोग शहीद हुये थे। इसे राजस्थान का जलीयावाला बाग हत्याकाण्ड भी कहा जाता है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 173,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित ठिकानों में से किसने ‘चंवरी कर’ लगाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुचामन"
+        },
+        {
+          "id": "opt2",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt3",
+          "text": "भैंसरोड़गढ"
+        },
+        {
+          "id": "opt4",
+          "text": "बिजौलिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बिजौलिया मेवाड़ रियासत का प्रथम श्रेणी ठिकाना था। कृष्णसिंह ने 1903 में लड़कियों की शादी पर चंवरी कर कर लगाया। (5 रुपये)",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 174,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस आयोग की सिफ़ारिश पर माऊण्ट आबू एवं अजमेर मेरवाड़ा का विलय राजस्थान में किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान संयुक्त आयोग"
+        },
+        {
+          "id": "opt2",
+          "text": "वल्लभभाई पटेल आयोग"
+        },
+        {
+          "id": "opt3",
+          "text": "वी. पी. मेनन आयोग"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान पुनर्गठन आयोग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य पुर्नगठन आयोग का गठन 1952 में फ़ज़ल अली की अध्यक्षता में किया गया और इसने अपनी रिपोर्ट 1956 में दी इसकी सिफारिश पर अजमेर-मेरवाड़ा आबु दिलवाड़ा तथा सुनेल टपा को राजस्थान में मिला दिया गया।इस आयोग में राजस्थान से एकमात्र सदस्य हद्यनाथ किजरन था।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 185,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्वतंत्रता प्राप्ति के समय राजस्थान कितनी देशी रियासतों में विभक्त था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "22"
+        },
+        {
+          "id": "opt2",
+          "text": "15"
+        },
+        {
+          "id": "opt3",
+          "text": "18"
+        },
+        {
+          "id": "opt4",
+          "text": "19"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 187,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसे क्षेत्र का राजस्थान में विलय 1 नवम्बर, 1956 को हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "सांचौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्य पुनर्गठन आयोग 1955 (सदस्य – फजल अली, हृदयनाथ कुंजरु, के. एम्. पणिक्कर)की सिफारिशों के आधार पर 1 नवम्बर 1956 को राज्य पुनर्गठन अधिनियम लागू हो जाने से अजमेर-मेरवाड़ा, आबू तहसील को राजस्थान में मिलाया गया। इस चरण में कुछ भाग इधर-उधर कर भौगोलिक और सामाजिक त्रुटि भी सुधारी गई। इसके तहत मध्यप्रदेश में शामिल हो चुके सुनेल टप्पा क्षेत्र को राजस्थान के झालावाड़ जिले में मिलाया गया और झालावाड़ जिले का सिरनौज को मध्यप्रदेश को दे दिया गया। राजस्थान अपने वर्तमान स्वरूप में 1 नवम्बर 1956 को आया।",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 191,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य की स्थापना कब हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "30 मार्च, 1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1 मई, 1949"
+        },
+        {
+          "id": "opt3",
+          "text": "31 मई, 1950"
+        },
+        {
+          "id": "opt4",
+          "text": "1 जुलाई, 1956"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 192,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेव कृषक आन्दोलन का मुख्य नेता कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीर आलम खाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "बख्शी गुलाम मोइनुद्दीन"
+        },
+        {
+          "id": "opt3",
+          "text": "यासीन खाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "अहमद यादगार खाँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अलवर, भरतपुर क्षेत्र में मोहम्मद हादी ने 1932 ई. में ‘अन्जुमन खादिम उल इस्लाम’ नामक संस्था स्थापित कर मेव किसान आंदोलन को एक संगठित रूप दिया। यह संस्था मुसलमानों के हितार्थ एक सांप्रदायिक संस्था थी। इसने मेवात की मेव जाति के लोगों में जनजागृति लाने का कार्य किया। अलवर के मेव किसान आंदोलन का नेतृत्व गुडगाँव के मेव नेता ‘चौधरी यासीन खान’ द्वारा किया गया।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 224,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अप्रैल, 1944 ई. में नीम का थाना में आयोजित मीणों के सम्मेलन की अध्यक्षता की थी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुनि मगन सागर ने"
+        },
+        {
+          "id": "opt2",
+          "text": "छोटूराम झरवाल ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जवाहर राम ने"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्ष्मीनारायण झरवाल ने"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सन्त मगन सागर ने 1944 में नीम का थाना में मीणा सम्मेलन का आयोजन किया तथा ‘मीन पुराण’ नामक पुस्तक लिखी।",
+      "reference": "📌 PYQ — Protection Officer - 2022 (General Studies)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 230,
+        "exam": "Protection Officer - 2022 (General Studies)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोविन्द गिरि की गतिविधियों का केन्द्र 1911 और 1912 ई. में ______ था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूंथ"
+        },
+        {
+          "id": "opt2",
+          "text": "बेडसा"
+        },
+        {
+          "id": "opt3",
+          "text": "खेड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "ईडर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1911 और 1912 में गोविंद गिरि की गतिविधियों का केंद्र बेड़सा था। बेड़सा गांव राजस्थान के डूंगरपुर जिले की सिमलवाड़ा तहसील में स्थित है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 231,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दूधवाखारा आन्दोलन किस रियासत से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दूधवाखारा किसान आंदोलन (चूरू): 1944 ई. में यहाँ के जागीरदारों ने बकाया राशि के भुगतान का बहाना कर अनेक किसानों को उनकी जोत से बेदखल कर दिया। बीकानेर प्रजा परिषद् ने हनुमानसिंह के नेतृत्व में किसान आंदोलन का समर्थन किया।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 232,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोविन्द गिरी के नेतृत्व में भील गतिविधियों का केन्द्र बेडसा गाँव किस राज्य में था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाडा"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "ईडर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1911 और 1912 में गोविंद गिरि की गतिविधियों का केंद्र बेड़सा था। बेड़सा गांव राजस्थान के डूंगरपुर जिले की सिमलवाड़ा तहसील में स्थित है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 236,
+        "exam": "School Lecturer 2022 Gk (G-B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भगत पंथ के प्रतिपादक कौन थे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्द गिरी"
+        },
+        {
+          "id": "opt3",
+          "text": "रूपाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "विजयसिंह पथिक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गीविन्द गुरु स्वामी दयानन्द सरस्वती से प्रभावित थे। जनजातियों को हिन्दु धर्म में रखने के लिए भगत पंथ की स्थापना की।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 238,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एकी आदोलन के प्रणेता कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt2",
+          "text": "राव गोपालसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गोविंद गुरु"
+        },
+        {
+          "id": "opt4",
+          "text": "कृष्णसिह बारहठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मोतीलाल तेजावत को भीलों का मसीहा कहते है। भील इन्हें बावसी के नाम से पुकारते है। मोतीलाल तेजावत द्वारा एकी आन्दोलन चलाया गया। भोमट क्षेत्र में चलाने के कारण इसे भोमट आन्दोलन के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 240,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    }
+  ]
+}

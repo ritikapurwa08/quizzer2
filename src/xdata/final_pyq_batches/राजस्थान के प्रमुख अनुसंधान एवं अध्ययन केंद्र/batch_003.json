@@ -1,0 +1,76 @@
+{
+  "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
+  "batchIndex": 3,
+  "batchName": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र भाग 3",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-के-प्रमुख-अनुसंधान-एवं-अध्ययन-केंद्र",
+  "negativeMarking": true,
+  "questionCount": 2,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय बीजीय मसाला अनुसंधान केन्द्र स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तबीजी, अजमेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "लालगढ़, बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "सेवर, भरतपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "दुर्गापुर, जयपुर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Jr. Acctt/TRA Re-Exam 2013 (Paper-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9276,
+        "exam": "Jr. Acctt/TRA Re-Exam 2013 (Paper-1)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संतरा ( साइट्रस ) मसालों और औषधीय पौधों के लिए उत्कृष्टता केन्द्र अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा में"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़ में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9277,
+        "exam": "RSMSSB PTI Grade-III P1",
+        "year": null
+      }
+    }
+  ]
+}

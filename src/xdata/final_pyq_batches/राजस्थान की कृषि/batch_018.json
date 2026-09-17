@@ -1,0 +1,666 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 18,
+  "batchName": "राजस्थान की कृषि भाग 18",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत की 12 वीं पंचवर्षीय योजना में कृषि की वृद्धि के लिये निम्न में से कौन सा लक्ष्य निर्धारित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3% औसत वार्षिक वृद्धि दर"
+        },
+        {
+          "id": "opt2",
+          "text": "3.5%औसत वार्षिक वृद्धि दर"
+        },
+        {
+          "id": "opt3",
+          "text": "4% औसत वार्षिक वृद्धि दर"
+        },
+        {
+          "id": "opt4",
+          "text": "4.5% औसत वार्षिक वृद्धि दर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "12वीं पंचवर्षीय योजना(2012-2017)के कृषि क्षेत्र के लिए विकास लक्ष्य43 था। इस पंचवर्षीय योजना का मुख्य विषय है ‘तेज अधिक समावेशी और टिकाऊ विकास’’।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18797,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ग्यारहवीं पंचवर्षीय योजना में भारत की लक्षित वार्षिक औसत आर्थिक वृद्धि दर निम्न थी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7.0प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "8.0प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "9.0प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "9.6प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ग्यारहवीं पंचवर्षीय योजना(2007-2012)में भारत की लक्षित वार्षिक औसत आर्थिक वृद्धि दर8.03 थी। इस योजना अवधि का मूल विषय समावेशी विकास है।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18798,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जहाँ भारत की प्रथम पंचवर्षीय योजना का लक्ष्य खाद्यान्नों में आत्म निर्भरता प्राप्त करना था, द्वितीय योजना का मुख्य उद्देश्य था:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढ़ाचागत विकास"
+        },
+        {
+          "id": "opt2",
+          "text": "टेली कम्युनिकेशन्स"
+        },
+        {
+          "id": "opt3",
+          "text": "ऊर्जा"
+        },
+        {
+          "id": "opt4",
+          "text": "औद्योगिक विकास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दूसरी पंचवर्षीय योजना(1956-1961)औद्योगिक विकास पर केन्द्रित थी, इसकी रूपरेखा तैयार करने और नियोजन का कार्य पी.सी. महालनोबिस के नेतृत्व में किया गया।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18799,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के व्यापार संतुलन के बारे में निम्न में से कौन सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत का व्यापार संतुलन1949-50से2015-16तक की संपूर्ण अवधि के लिए ऋणात्मक था।"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत का व्यापार संतुलन1949-50से2015-16तक की संपूर्ण अवधि के लिए धनात्मक था।"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत का व्यापार संतुलन1972-73तथा1976-77 के दो वर्षों को छोड़कर(जब वह धनात्मक था)1949- 50से2015-16तक की संपूर्ण अवधि के लिए ऋणात्मक था।"
+        },
+        {
+          "id": "opt4",
+          "text": "भारत का व्यापार संतुलन1972-73तथा1976-77 के दो वर्षों को छोड़कर(जब वह ऋणात्मक था) 1949-50से2015-16तक की संपूर्ण अवधि के लिए धनात्मक था।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "किसी भी देश के एक वर्ष की अवधि में दृश्य निर्यातों एवं आयातों के अन्तर को व्यापार संतुलन कहा जाता है। इसे व्यापाराशेष अथवा व्यापाराधिक्य भी कहा जाता है। उल्लेखनीय है कि भारत का व्यापार संतुलन1972-73तथा1976-77के दो वर्षों को छोड़कर(जब वह धनात्मक था)1949-50से2015-16तक की सम्पूर्ण अवधि के लिए ऋणात्मक था। अत: प्रश्नगत विकल्प (c) सत्य है। र्आिथक समीक्षा2023-24के अनुसार स्थिर मुद्रास्फीति के साथ चल रही भू-राजनीतिक चुनौतियों के बीच भारत का वाह्य क्षेत्र मजबूत रहा। हालांकि प्रमुख व्यापारिक भागीदारों की कम माँग के कारण व्यापारिक निर्यात कम हो गया, लेकिन सेवाओं का निर्यात बेहतर रहा जिससे समग्र व्यापार घाटा वित्त वर्ष2022- 23में121.6बिलियन अमेरिकी डॉलर से वित्त वर्ष2023-24में 78.1बिलियन अमेरिकी डॉलर हो गया।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18800,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मरूस्थल विकास कार्यक्रम किस वर्ष में प्रारम्भ किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1991-92"
+        },
+        {
+          "id": "opt2",
+          "text": "1974-75"
+        },
+        {
+          "id": "opt3",
+          "text": "1984-85"
+        },
+        {
+          "id": "opt4",
+          "text": "1977-78"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1940,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा समूह राजस्थान में खरीफ की फसलों से संबंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरहर, चना, जौ, बाजरा"
+        },
+        {
+          "id": "opt2",
+          "text": "अरहर, मक्का, बाजरा, सरसों"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का, बाजरा, ज्वार, अरहर"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का, बाजरा, सरसों, जौ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1941,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौनसा जिला अफीम उत्पादक नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तोड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के झालावाड़, बांरा, भीलवाड़ा, प्रतापगढ, कोटा व चित्तौड़गढ़ जिलों के अधिसूचित क्षेत्रों में अफीम की खेती की जाती है। चित्तौड़गढ़ राजस्थान का अग्रणी अफीम उत्पादक जिला है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1942,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा जिला जीरा उत्पादन में अग्रणी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1943,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा सुम्मेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चालव(फसल) हनुमानगढ़, बूंदी(प्रमुख उत्पादक जिले 2015-16)"
+        },
+        {
+          "id": "opt2",
+          "text": "मंूगफली(फसल) अलवर, भरतपुर(प्रमुख उत्पादक जिले 2015-16)"
+        },
+        {
+          "id": "opt3",
+          "text": "गन्ना(फसल) गंगानगर, चित्तोड़गढ़(प्रमुख उत्पादक जिले 2015-16)"
+        },
+        {
+          "id": "opt4",
+          "text": "गेंहूं(फसल) गंगानगर, हनुमानगढ़(प्रमुख उत्पादक जिले 2015-16)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1944,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तिल किस की फसल है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रबी"
+        },
+        {
+          "id": "opt2",
+          "text": "खरीफ"
+        },
+        {
+          "id": "opt3",
+          "text": "जायद"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1945,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्षेत्रफल की दृष्टि से राजस्थान का सबसे बड़ा कृषि जलवायु खण्ड है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंचित उत्तर-पश्चिमी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "आर्द्र दक्षिणी मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "शुष्क पश्चिमी मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "बाढ़ संभाव्य पूर्वी मैदान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1946,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘मावट’ की वर्षा द्वारा निम्नलिखित में से कौनसी फसल लाभान्वित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt2",
+          "text": "ज्वार"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘मावट’ की वर्षा राजस्थान में होने वाली शीतकालीन वर्षा है, जो मुख्य रूप से भूमध्य सागर में उत्पन्न होने वाली पश्चिमी विक्षोभ के कारण होता है। मावट की वर्षा सबसे अधिक रबी की फसल को लाभ पहुँचाती है। जैसे- गेहूँ, चना, सरसों आदि।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1948,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जालोर एवं बाड़मेर जिलें किस फसल के अग्रणी उत्पादक हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आलू"
+        },
+        {
+          "id": "opt2",
+          "text": "ईसबगोल"
+        },
+        {
+          "id": "opt3",
+          "text": "लहसुन"
+        },
+        {
+          "id": "opt4",
+          "text": "धनिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के जालौर और बाड़मेर जिले ईसबगोल के प्रमुख उत्पादक जिले हैं। ईसबगोल एक छोटा पौधा है, जिसका उपयोग कई बीमारियों के इलाज के लिए किया जाता है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1949,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "Which group is related to 'Kharif' crops in Rajasthan?/कौनसा समूह राजस्थान में खरीफ की फसलों से संबंधित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरहर, चना, जौ, बाजरा"
+        },
+        {
+          "id": "opt2",
+          "text": "अरहर, मक्का, बाजरा, सरसों"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का, बाजरा, ज्वार, अरहर"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का, बाजरा, सरसों, जौ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में खरीफ की फसलों में बाजरा मक्का, ज्वार, मूँगफली, सोयाबीन, तिल, अरंडी, चावल, रागी और कपास जैसी फसले शामिल है। खरीफ की फसलों को मानसूनी फसल भी कहा जाता है। इनकी बुआई मानसून के मौसम में होती है। अत: विकल्प (c) सही है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1950,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2015-16 के अनुसार, राजस्थान में कौनसा जिला धनिया उत्पादन में अग्रणी हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झुंझुनू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "२०१५-१६ में राजस्थान का झालावाड़ जिला राज्य में धनिया का अग्रणी उत्पादक था। झालावाड़ धनिया उत्पादन का सबसे अधिक क्षेत्र था, उसके बाद बारां और कोटा जिले थे। राजस्थान के अन्य धनिया उत्पादक जिले बूंदी, सवाईमाधोपुर, अलवर, सीकर, जयपुर व चित्तौड़गढ़ है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1951,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही कंचन एक किस्म हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल की"
+        },
+        {
+          "id": "opt2",
+          "text": "मक्का की"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्वार की"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "माही कंचन मक्का की एक किस्म है। यह राजस्थान के जलवायु के अनुकूल किस्म है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1953,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के दक्षिण-पूर्वी पहाड़ी क्षेत्रों में आदिवासियों द्वारा की जाने वाली कृषि को कहते हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालरा"
+        },
+        {
+          "id": "opt2",
+          "text": "चिमाता"
+        },
+        {
+          "id": "opt3",
+          "text": "दजिया"
+        },
+        {
+          "id": "opt4",
+          "text": "शुष्क खेती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में दक्षिणी-पूर्वी पहाड़ी क्षेत्रों में आदिवासी आजीविका के लिए कृषि कार्यों में रत रहते हैं जिसे स्थानीय भाषा में `चिमाता' कहते हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1954,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न फसल समूहों में से कौन सा समूह ऐसा है जिसमें कोई फसल/फसलें जैव-ईंधन के रूप में प्रयुक्त नहीं की जा सकती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जेट्रोफा, गन्ना, पाम"
+        },
+        {
+          "id": "opt2",
+          "text": "मसूर, चुकंदर, गेहूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "सोयाबीन, मक्का, रेपसीड"
+        },
+        {
+          "id": "opt4",
+          "text": "गन्ना, मक्का, सरसों"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रश्नगत् दिये गये फसल समूहों में मसूर, चुकन्दर व गेहूँ को जैव र्इंधन के रूप में प्रयोग नहीं किया जा सकता है। अत: विकल्प(b)सही है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1955,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुनहरी(गोल्डन)चावल है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीन की पीली नदी के तट पर उगाई गई चावल की एक किस्म"
+        },
+        {
+          "id": "opt2",
+          "text": "लम्बे समय के उपरान्त पीली आभा(टिन्ट)वाले चावल"
+        },
+        {
+          "id": "opt3",
+          "text": "एक ट्रांसजेनिक चावल की किस्म जिसमें वैâरोटीन के लिए जीन उपलब्ध है"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल की एक जंगली किस्म जिसमें पीले रंग के चावल होते हैं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गोल्डन चावल ट्रांसजेनिक चावल की एक किस्म है। इसमें जेनेटिक इंजीनियिंरग से जैव संश्लेषित बीटा वैâरोटिन के द्वारा चावल में विटामिनA की मात्रा को बढ़ाया जाता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1956,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य बजट, 2016-2017 में नया तकनीकी विश्वविद्यालय कहाँ संस्थापित किया जाना प्रस्तावित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य बजट2016-17में नया तकनीकी विश्वविद्यालय बीकानेर में स्थापित करने हेतु संस्तुति की गई थी।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1959,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    }
+  ]
+}

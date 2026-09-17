@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की जलवायु",
+  "batchIndex": 1,
+  "batchName": "राजस्थान की जलवायु भाग 1",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-जलवायु",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित जलवायु क्षेत्रों को पूर्व से पश्चिम के क्रम में व्यवस्थित कीजिए।(a) आर्द्र जलवायु क्षेत्र(b) बहुत आर्द्र जलवायु क्षेत्र(c) शुष्क जलवायु क्षेत्र(d) अर्ध-शुष्क जलवायु क्षेत्रनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a), (b), (c), (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "(b), (a), (c), (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "(b), (a), (d), (c)"
+        },
+        {
+          "id": "opt4",
+          "text": "(c), (b), (d), (a)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के जलवायु क्षेत्रों को पूर्व से पश्चिम (अधिक वर्षा वाले क्षेत्र से शुष्क क्षेत्र) की ओर क्रमबद्ध करने पर: (b) अति-आर्द्र (Very Humid): झालावाड़, बांसवाड़ा (सुदूर दक्षिण-पूर्व)(a) आर्द्र (Humid): कोटा, सवाई माधोपुर, पूर्वी मैदान(d) अर्ध-शुष्क (Semi-Arid): अरावली के पश्चिम का मध्यवर्ती भाग (जयपुर, नागौर, सीकर)(c) शुष्क (Arid): थार मरुस्थल (जैसलमेर, बाड़मेर - सुदूर पश्चिम)",
+      "reference": "📌 PYQ — Forester Exam 2026",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4543,
+        "exam": "Forester Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जलवायु विशेषताओं के संबंध में निम्नलिखित कथनों पर विचार करें। सही कथनों का चयन करें: a. बालू की प्रचुरता के कारण तापमान की दैनिक और वार्षिक रेंज उच्च रहती है। b. शीत ऋतु में कुछ स्थानों पर तापमान जमाव बिंदु (हिमांक) तक गिरता है। c. राजस्थान में शुष्क और उप-आर्द्र मानसून प्रकार की जलवायु विद्यमान है। d. वर्षा की मात्रा पूर्व से पश्चिम तथा दक्षिण से उत्तर की ओर बढ़ती है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b और c"
+        },
+        {
+          "id": "opt2",
+          "text": "b और d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b और d"
+        },
+        {
+          "id": "opt4",
+          "text": "c और d"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में वर्षा की मात्रा पूर्व से पश्चिम की ओर घटती है (पश्चिम में थार मरुस्थल है जहाँ सबसे कम बारिश होती है) और दक्षिण से उत्तर की ओर भी घटती है।रेत की अधिकता के कारण यहाँ दिन बहुत गर्म और रातें बहुत ठंडी होती हैं (उच्च दैनिक तापांतर), सर्दियों में चुरू जैसी जगहों पर तापमान 0°C या नीचे चला जाता है, और यहाँ शुष्क से लेकर उप-आर्द्र जलवायु पाई जाती है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Science)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4544,
+        "exam": "Lab Assistant Exam 2026 (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "थॉर्नथवे के जलवायु प्रदेशों के आधार पर चुरू, अजमेर, बून्दी, सवाई माधोपुर और टोंक जिले निम्नलिखित में से किस जलवायु प्रदेश में सम्मिलित किए गए हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "DA’w"
+        },
+        {
+          "id": "opt2",
+          "text": "EA’d"
+        },
+        {
+          "id": "opt3",
+          "text": "CA’w"
+        },
+        {
+          "id": "opt4",
+          "text": "DB’W"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रसिद्ध मौसम वैज्ञानिक थॉर्नथवेट (Thornthwaite) के राजस्थान जलवायु वर्गीकरण के अनुसार, DA’w प्रदेश के अंतर्गत अर्ध-शुष्क या मिश्रित जलवायु वाले क्षेत्र आते हैं। इसमें चुरू, अजमेर, बूंदी, सवाई माधोपुर और टोंक जैसे मध्य और पूर्वी राजस्थान के जिले शामिल किए गए हैं।",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2026",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4545,
+        "exam": "Agriculture Supervisor Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान मानसून रिपोर्ट-2025 (IMD, जयपुर) के अनुसार, राजस्थान में 1901-2025 के दौरान किस वर्ष में सर्वाधिक वर्षा दर्ज की गई ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1917"
+        },
+        {
+          "id": "opt2",
+          "text": "2021"
+        },
+        {
+          "id": "opt3",
+          "text": "1988"
+        },
+        {
+          "id": "opt4",
+          "text": "2012"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "IMD की रिपोर्ट के अनुसार 1901 से 2025 तक राजस्थान में सबसे अधिक वर्षा 1917 में दर्ज की गई। वर्ष 1917 में 844.2 बारिश का रिकॉर्ड बना था।",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4546,
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस जिला समूह में उप-आर्द्र जलवायु पायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक, कोटा, सवाई माधोपुर, जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, जालौर, टोंक, भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, डूंगरपुर, बाँसवाड़ा, कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर, पाली, उदयपुर, बाँसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सामान्य जलवायु वर्गीकरण के अनुसार, राजस्थान का अरावली पर्वतीय क्षेत्र और उसके आस-पास का मध्य-पूर्वी भाग उप-आर्द्र (Sub-Humid) जलवायु प्रदेश के अंतर्गत आता है। दिए गए विकल्पों में से जयपुर, जालौर, टोंक और भीलवाड़ा का समूह इस जलवायु का प्रतिनिधित्व करता है, जहाँ औसत वर्षा 40 से 60 सेमी के बीच होती है।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4547,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोपेन के राजस्थान के जलवायवीय क्षेत्रों के वर्गीकरण के संबंध में निम्नलिखित कथनों पर विचार करें: (a) डूंगरपुर और बांसवाड़ा जिलों के भागों में Aw जलवायु पाई जाती है।(b) जोधपुर और जैसलमेर में Bwhw जलवायु पाई जाती है।(c) गंगानगर और हनुमानगढ़ में DB’w जलवायु पाई जाती है।(d) अलवर और भरतपुर में EA’d जलवायु पाई जाती है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (a), (b) और (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (a), (b) और (c)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (a), (c) और (d)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (b), (c) और (d)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "Aw (उष्ण कटिबंधीय सवाना) — डूंगरपुर-बांसवाड़ा।Bwhw (उष्ण मरुस्थलीय) — जोधपुर-जैसलमेर।DB’w (शीतोष्ण अर्ध-शुष्क) — गंगानगर-हनुमानगढ़।अलवर-भरतपुर में Cwg (उपोष्णकटिबंधीय आर्द्र) जलवायु है, EA’d नहीं। EA’d या उष्ण शुष्क कटिबन्धीय मरुस्थलीय जलवायु जैसलमेर, फलौदी आदि जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4548,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की औसत वर्षा है: नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "42.74 सेमी"
+        },
+        {
+          "id": "opt2",
+          "text": "52.37 सेमी"
+        },
+        {
+          "id": "opt3",
+          "text": "25.52 सेमी"
+        },
+        {
+          "id": "opt4",
+          "text": "102.37 सेमी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान की औसत वार्षिक वर्षा लगभग 50–58 सेमी मानी जाती है (पूर्वी भाग में अधिक, पश्चिमी में कम)। परीक्षाओं में अक्सर 52.37 सेमी विकल्प के रूप में दिया जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4549,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौनसा क्षेत्र/अंचल उच्चतम वर्षा प्राप्त करता है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माउंट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्रिजराजनगर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सबसे अधिक वर्षा माउंट आबू (सिरोही ज़िले में) को प्राप्त होती है (लगभग 1500-2000 मिमी औसत) क्योंकि यह अरावली की सबसे ऊँची पहाड़ी है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4550,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिसंबर-जनवरी में पश्चिम से आने वाले शीतोष्ण चक्रवातों से राजस्थान में दो या तीन बार हल्की वर्षा होती है, इसे कहा जाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "वागड़"
+        },
+        {
+          "id": "opt3",
+          "text": "पग पूगल"
+        },
+        {
+          "id": "opt4",
+          "text": "मावठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में सर्दियों (दिसंबर-जनवरी) में भूमध्यसागरीय क्षेत्र से आने वाले पश्चिमी विक्षोभ (शीतोष्ण चक्रवात) से हल्की वर्षा होती है, जिसे स्थानीय भाषा में ‘मावठ’ कहा जाता है।",
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4551,
+        "exam": "Jamadar Grade II Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ट्रिवार्था के जलवायु वर्गीकरण के अनुसार, राजस्थान का कौनसा प्रदेश ‘Caw’ जलवायु प्रकार वाला है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिण-पूर्वी क्षेत्र/प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर-पूर्वी क्षेत्र/प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण-पश्चिमी क्षेत्र/प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तर-पश्चिमी क्षेत्र/प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ट्रिवार्था वर्गीकरण में Caw (अर्द्ध-उष्ण आर्द्र) दक्षिण-पूर्वी राजस्थान (कोटा, बारां, झालावाड़, बूंदी) में है, जहां वर्षा अधिक है।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4552,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोप्पेन के जलवायु वर्गीकरण के अनुसार जलवायुवीय क्षेत्र का Bshw प्रकार राजस्थान के किन जिलों में पाया जाता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर, भरतपुर और बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, अजमेर और कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर, जालौर और जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर, गंगानगर और पश्चिमी बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "Bshw गर्म अर्ध-शुष्क जलवायु है, जो पश्चिमी राजस्थान के रेगिस्तानी जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — Platoon Commander Exam 2025",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4553,
+        "exam": "Platoon Commander Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में गर्मियों के दौरान चलने वाली गर्म, शुष्क और धूल भरी हवाओं के लिए निम्नलिखित में से किस शब्द का उपयोग किया जाता है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मावठ"
+        },
+        {
+          "id": "opt2",
+          "text": "काटाबेटिक"
+        },
+        {
+          "id": "opt3",
+          "text": "लू"
+        },
+        {
+          "id": "opt4",
+          "text": "मानसून"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में ग्रीष्मकाल (मई-जून) में लू हवाएं चलती हैं, जो थार रेगिस्तान से आती हैं, 45-50°C तापमान और धूल लाती हैं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4554,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रबी मौसम की ‘मावठ’ वर्षा निम्नलिखित में से किससे संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर-पूर्व मानसून"
+        },
+        {
+          "id": "opt2",
+          "text": "पश्चिमी विक्षोभ"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल की खाड़ी की मानसूनी हवाएँ"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण-पश्चिम मानसून"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में रबी फसलों (गेहूं, जौ) के समय में होने वाली बारिश को मावठ कहते हैं। यह पश्चिमी विक्षोभ के कारण शीत ऋतु में होती है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4555,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जलवायु को निम्नलिखित में से कौन-सा कारक प्रभावित नहीं करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "समुद्र से दूरी"
+        },
+        {
+          "id": "opt2",
+          "text": "अक्षांशीय स्थिति"
+        },
+        {
+          "id": "opt3",
+          "text": "पवन की दिशा"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य में बोली जाने वाली बोलियाँ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य में बोली जाने वाली भाषाएँ या बोलियाँ जलवायु पर कोई प्रभाव नहीं डालतीं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4556,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पर्यावरण संरक्षण के संदर्भ में, RAPCC (आर ए पी सी सी) का पूर्ण रूप क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान एक्शन प्लान ऑन क्लाइमेट कंज़र्वेशन"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान एक्शन प्लान ऑन क्लाइमेट कंट्रोल"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान एक्शन पॉलिसी फॉर क्लाइमेट कंज़र्वेशन"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान एक्शन प्लान ऑन क्लाइमेट चेंज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "RAPCC का अर्थ है Rajasthan Action Plan on Climate Change।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4557,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, जैसलमेर जिले का अधिकांश भाग किस प्रकार के जलवायु क्षेत्र में आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्ध शुष्क क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "आर्द्र जलवायु क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "अति आर्द्र जलवायु क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "शुष्क क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जैसलमेर जिला राजस्थान का सबसे शुष्क (Arid) क्षेत्र है, जहाँ वर्षा बहुत कम (10–20 सेमी) होती है और तापमान बहुत अधिक रहता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4558,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जल उपलब्धता के निम्नलिखित चरणों को सबसे शुष्क से सबसे आर्द्र (निम्नतम से उच्चतम) के क्रम में व्यवस्थित करें।a. मरुस्थल (थार)b. पूर्वी नदी मैदानc. अरावली उच्चभूमिd. नहरों के साथ सिंचित कमांड क्षेत्रनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, c, d, b"
+        },
+        {
+          "id": "opt2",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt3",
+          "text": "b, c, d, a"
+        },
+        {
+          "id": "opt4",
+          "text": "a, c, b, d"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जल उपलब्धता के अनुसार शुष्क से आर्द्र क्रम: थार मरुस्थल (सबसे शुष्क), अरावली उच्चभूमि, सिंचित कमांड क्षेत्र, पूर्वी नदी मैदान।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती-2024",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4559,
+        "exam": "वाहन चालक सीधी भर्ती-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी मानसूनी हवाएँ राजस्थान में वर्षा लाती हैं? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बंगाल की खाड़ी और अरब सागर से"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वोत्तर से"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल बंगाल की खाड़ी से"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल अरब सागर से"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सर्वाधिक वर्षा दक्षिणी-पश्चिमी मानसून हवाओं से होती है तथा दुसरा स्थान बंगाल की खाड़ी का मानसून, तीसरा स्थान अरबसागर के मानसून, अन्तिम स्थान भूमध्यसागर के मानसून का है।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती-2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4560,
+        "exam": "वाहन चालक सीधी भर्ती-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान मानसून रिपोर्ट 2024 के अनुसार, जिलेवार सर्वाधिक वर्षा (सामान्य से अधिक) निम्नलिखित में से किस जिले में देखी गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा और सवाई माधोपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा और सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली और धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा और प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान मानसून रिपोर्ट 2024 के अनुसार, दक्षिण-पश्चिम मानसून (जून-सितंबर 2024) के दौरान राजस्थान में जिलेवार सर्वाधिक वास्तविक वर्षा (जो सामान्य से अधिक थी) दौसा और सवाई माधोपुर में दर्ज की गई।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4561,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसे जिले उनके सामान्य वार्षिक वर्षा के आधार पर सही अवरोही क्रम में व्यवस्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाँसवाड़ा, भीलवाड़ा, हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़, भीलवाड़ा, बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँसवाड़ा, हनुमानगढ़, भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा, बाँसवाड़ा, हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में औसत वार्षिक वर्षा के आधार पर अवरोही क्रम (अधिक से कम) है: बाँसवाड़ा, भीलवाड़ा, हनुमानगढ़।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4562,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+        "year": 2024
+      }
+    }
+  ]
+}

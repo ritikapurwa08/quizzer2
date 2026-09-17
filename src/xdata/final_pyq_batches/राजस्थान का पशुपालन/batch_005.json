@@ -1,0 +1,668 @@
+{
+  "masterTopic": "राजस्थान का पशुपालन",
+  "batchIndex": 5,
+  "batchName": "राजस्थान का पशुपालन भाग 5",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पशुपालन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "गौ पशुओं और भैंसों में होने वाली ब्रूसेलोसिस बीमारी के सम्बन्ध में कौन-सा कथन सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह गौ पशुओं और भैंसों की प्रजनन प्रणाली की बीमारी है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह एक उपापचय सम्बन्धी गौ पशुओं और भैसों की बीमारी है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह एक गौ पशुओं और भैंसों की विषाणु से होने वाली बीमारी है।"
+        },
+        {
+          "id": "opt4",
+          "text": "यह एक गौ पशुओं और भैसों की त्वचा सम्बन्धी बीमारी है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गाय एवं भैंस में यह रोग ब्रूसेल्ला एबोरटस नामक जीवाणु द्वारा होता है।यह जीवाणु गाभिन पशु के बच्चेदानी में रहता है और गर्भपात का कारण बनता है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1701,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-सी भेड़ काले मुँह गुण वाली होती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt2",
+          "text": "सोनाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "नाली"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मारवाड़ी भेंड काले मुँह गुण वाली भेंड है, यह पश्चिमी राजस्थान में पाई जाने वाली नस्ल है। इसमे रोग प्रतिरोधक क्षमता अधिक होती है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1702,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "२०वीं पशुधन जनगणना २०१९ के अनुसार, राजस्थान में कुक्कुट जनसंख्या कितनी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१९३.४६ लाख"
+        },
+        {
+          "id": "opt2",
+          "text": "१०६.२६ लाख"
+        },
+        {
+          "id": "opt3",
+          "text": "१४६.२३ लाख"
+        },
+        {
+          "id": "opt4",
+          "text": "१३३.४६ लाख"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "20वीं पशुधन जनगणना2019 के अनुसार राजस्थान में कुक्कुट जनसंख्या १४६.२३ लाख है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1703,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-सा सुमेलित नहीं है? पशुधन नस्ल",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊँट – नाचना"
+        },
+        {
+          "id": "opt2",
+          "text": "भेड़ – लोही"
+        },
+        {
+          "id": "opt3",
+          "text": "गौवंश – मेवाती"
+        },
+        {
+          "id": "opt4",
+          "text": "बकरियाँ – बड़वारी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लोही, सिरोही, बड़वारी, जमनापारी, जखराना आदि बकरी की नस्लें है। शेष सभी विकल्प सही सुमेलित हैं।",
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1717,
+        "exam": "RPSC Hospital Care Taker-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य के पशुपालन विभाग द्वारा गौवंश प्रजनन हेतु ‘गोपाल’ कार्यक्रम राज्य के दस दक्षिण- पूर्वी जिलों में किस वर्ष में आरम्भ हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1991–92"
+        },
+        {
+          "id": "opt2",
+          "text": "1990–91"
+        },
+        {
+          "id": "opt3",
+          "text": "1989–90"
+        },
+        {
+          "id": "opt4",
+          "text": "1987–88"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पशुधन के विकास हेतु यह कार्यक्रम1990-91में प्रारंभ किया गया था। इस गैर-सरकारी संगठन अथवा गाँव के शिक्षित युवकों (गोपाल) को विदेशी नस्ल का उपयोग बढ़ाने के लिए गोपाल को क्रॉस प्रजनन के लिए कृत्रिम गर्भाधान की विधि का प्रशिक्षण दिया जाता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1720,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी भेड़ की नस्ल राजस्थान में नहीं हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालपुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "मालवी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में भेड़ की निम्न नस्लें पाली जाती हैं- मागरा, मारवाड़ी, मालपुरा, नाली, पूगल, सोनाड़ी (चनोथर), चोकला (शेखावटी), जैसलमेरी आदि। मालवी भेड़ की नहीं, गौवंश की नस्ल है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1722,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१९वीं पशुधन गणना (२०१२) में २०वीं पशुधन गणना (२०१९) में राजस्थान में पशुधन की कुल संख्या में परिवर्तन है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१.६६3 की वृद्धि"
+        },
+        {
+          "id": "opt2",
+          "text": "१.६६3 की कमी"
+        },
+        {
+          "id": "opt3",
+          "text": "4.2% की वृद्धि"
+        },
+        {
+          "id": "opt4",
+          "text": "२.६६%की कमी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "२० वीं पशुगणना के अनुसार राजस्थान में कुल पशुधन ५६.८ मिलियन है, वर्ष २०१२ में ५७.७ मिलियन पशुधन थे। इस प्रकार कुल पशुओं की संख्या में १.६६ प्रतिशत की कमी देखी गई।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1723,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कांकरेज नस्ल अधिकांशत: जिस जिले में पाई जाती है, वह है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कांकरेज नस्ल की उत्पत्ति गुजरात से हुई है। यह नस्ल बाड़मेर और जालौर में पायी जाती है। यह भार लेकर लंबी दूरी तक चलने में सक्षम है। कांकरेज गाय की नस्ल है।",
+      "reference": "📌 PYQ — RPSC School Lect. (Group-D) 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1725,
+        "exam": "RPSC School Lect. (Group-D) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 2019 की 20 वीं पशुधन गणना के अनुसार, सर्वाधिक भेड़ें पाई जाती हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में वर्ष २०१९ की २०वीं पशुधन गणना के अनुसार सर्वाधिक भेड़ें बाड़मेर में पाली जाती हैं।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1726,
+        "exam": "RPSC School Lect. (SE) G-B 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-Iको सूची-IIसे सुमेलित कीजिए एवं नीचे दिए कूट से सही उत्तर का चयन कीजिए: सूची-I (पशुधन) सूची-II (नस्ल) Aभेड़ 1 सुरती Bगौवंश 2 नाली Cभैंस 3 बरबरी Dबकरी 4 सांचोरी A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 1 4 2"
+        },
+        {
+          "id": "opt2",
+          "text": "2 4 3 1"
+        },
+        {
+          "id": "opt3",
+          "text": "2 4 1 3"
+        },
+        {
+          "id": "opt4",
+          "text": "4 3 1 2"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न हैं- पशुधन नस्ल भेड़ - नाली गोवंश - सांचोरी भैस - सुरती बकरी - बरबरी",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1727,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दुग्ध उत्पादन की दृष्टि से भारत का विश्व में कौन सा स्थान है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहला"
+        },
+        {
+          "id": "opt2",
+          "text": "छठा"
+        },
+        {
+          "id": "opt3",
+          "text": "आठवाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "दसवाँ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दुग्ध उत्पादन की दृष्टि से भारत का विश्व में प्रथम स्थान है। दूसरे स्थान पर अमेरिका है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1728,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुख्यमंत्री कामधेनु पशु बीमा योजना 2023 के बारे में निम्नलिखित में से कौन सा कथन सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इस योजना से 20 लाख से अधिक पशुपालकों को लाभ होने की अपेक्षा है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्य के वर्ष 2023-24 के लिए बजट में इस योजना में व्यय करने के लिए`750 करोड़ का प्रावधान रखा गया है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इस योजना के तहत प्रत्येक पशु के बीमा की सीमा अधिकतम` 40, 000है।"
+        },
+        {
+          "id": "opt4",
+          "text": "एक पशुपालक जिसकी वार्षिक आय`8लाख से अधिक है, उसे इस योजना के तहत प्रत्येक पशु के लिए अधिकतम`500प्रति वर्ष प्रीमियम देना होगा।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुख्यमंत्री कामधेनु पशु योजना २०२३, के तहत ऐसे पशु पालक जिनकी वार्षिक आय ८ लाख रुपये से अधिक है उसे इस योजना के तहत प्रत्येक पशु के लिए अधिकतम २०० रुपये प्रति वर्ष प्रीमियम देय होगा। इस योजना के तहत प्रत्येक पशु के बीमा की सीमा अधिकतम ४०००० रुपये है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1729,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खेरी तथा लोही नस्लें हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "क्रमश: भेड़ तथा ऊँट की"
+        },
+        {
+          "id": "opt2",
+          "text": "क्रमश: ऊँट तथा भेड़ की"
+        },
+        {
+          "id": "opt3",
+          "text": "क्रमश: बकरी तथा भेड़ की"
+        },
+        {
+          "id": "opt4",
+          "text": "क्रमश: भेड़ तथा बकरी की"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खेरी एवं लोही क्रमश: भेड़ एवं बकरी की किस्में हैं, जो राजस्थान में पाई जाती हैं।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1730,
+        "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान के किस जिले में सबसे ज्यादा गेहूँ उगाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1741,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘कांकरेज’ नस्ल का प्रमुख केन्द्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कांकरेज (Kankrej): यह गुजरात में बनासकांठा जिले के भौगोलिक क्षेत्र कंक तालुका के नाम से इसका नाम कांकरेज पड़ा है। राजस्थान के दक्षिण-पश्चिमी भागों बाड़मेर, जोधपुर, सिरोही तथा जालौर जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — Computor Exam 2021",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1742,
+        "exam": "Computor Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (नस्ल – पशुधन) सहा सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोही – भैंस"
+        },
+        {
+          "id": "opt2",
+          "text": "बरवरी – बकरी"
+        },
+        {
+          "id": "opt3",
+          "text": "चनोथर – भेड"
+        },
+        {
+          "id": "opt4",
+          "text": "कांकरेज – गौवंश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोही बकरी की नस्ल है-बकरी की नस्लजमनापारी - सर्वाधिक दुध देने वाली बकरी (कोटा, बूंदी, झालावाड़)लोही - सर्वाधिक मांस देने वाली बकरीजखराना - सर्वाधिक दुध व सांस देने वाली श्रेष्ठ नस्ल (अलवर जिले एवं आस पास के क्षेत्रों में)बरबरी - सुन्दर बकरी(भरतपुर, सवाई माधोपुर)",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1743,
+        "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित राजस्थान के प्रमुख पशु-मेलों व उनसे संबंधित स्थलों में से कौन सा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री मल्लीनाथ पशु मेला – तिलवाड़ा, बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री चन्द्रभागा पशु मेला – झालरापाटन, झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री गोगामेड़ी पशु मेला – नोहर, हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री बलदेव पशु मेला – करौली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्रीबलदेव पशु मेला मेड़ता सिटी (नागौर) में आयोजित होता है।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1744,
+        "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I का सूची-II से मिलान कीजिए तथा नीचे दिए गए कूट का उपयोग करके सही उत्तर का चयन कीजिए –सूची-I (पशु मेला)1. वीर तेजाजी 2. शिवरात्रि 3. चन्द्रभागा 4. मल्लीनाथसूची-II (स्थान)(i) बाड़मेर(ii) भरतपुर(iii) परबतसर(iv) झालरापाटनकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(iii), 2-(ii), 3-(iv), 4-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(i), 2-(ii), 3-(iv), 4-(iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(i), 2-(iii), 3-(iv), 4-(ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(iii), 2-(i), 3-(iv), 4-(ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1745,
+        "exam": "VDO Exam 1st Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (नस्ल – पशु) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांचौरी – गाय"
+        },
+        {
+          "id": "opt2",
+          "text": "मेहसाना – भैंस"
+        },
+        {
+          "id": "opt3",
+          "text": "सोनाड़ी – भेड़"
+        },
+        {
+          "id": "opt4",
+          "text": "खेरी – बकरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1746,
+        "exam": "VDO Exam 1st Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन सी राजस्थान की भेड़ की किस्म नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt2",
+          "text": "पुगल"
+        },
+        {
+          "id": "opt3",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt4",
+          "text": "बरबरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1747,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    }
+  ]
+}

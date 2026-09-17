@@ -1,0 +1,668 @@
+{
+  "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+  "batchIndex": 8,
+  "batchName": "राजस्थान के प्रमुख व्यक्तित्व भाग 8",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-प्रमुख-व्यक्तित्व",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "लन्दन में वीर विनायक दामोदर सावरकर के लिए आगे अध्ययन हेतु छात्रवृत्ति की व्यवस्था किसने की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्यामजी कृष्ण वर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "सुभाष चन्द्र बोस"
+        },
+        {
+          "id": "opt3",
+          "text": "रासबिहारी बोस"
+        },
+        {
+          "id": "opt4",
+          "text": "मोहनसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11155,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चेतावनी रा चूंगट्या’ किसने लिखें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापसिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "जोरावरसिंह बारहठ"
+        },
+        {
+          "id": "opt3",
+          "text": "राव गोपालसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "केसरीसिंह बारहठ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11156,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सामाजिक सुधारक गोविन्द गुरू का जन्म हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंडित परिवार में"
+        },
+        {
+          "id": "opt2",
+          "text": "किसान परिवार में"
+        },
+        {
+          "id": "opt3",
+          "text": "बंजारा परिवार में"
+        },
+        {
+          "id": "opt4",
+          "text": "जमींदार परिवार में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11157,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संप सभा का संस्थापक था:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्द गिरी"
+        },
+        {
+          "id": "opt2",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "सुरजी भगत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गोविन्द गिरी राजस्थान में ‘संप सभा’ के संस्थापक थे। इसका उद्देश्य भील जनजातीय समुदाय में सामाजिक और र्धािमक सुधार करना था।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11158,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पटवों की हवेली का निर्माता निम्नलिखित में से कौन था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दीवान नथमल"
+        },
+        {
+          "id": "opt2",
+          "text": "दीवान सालिम सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गुमान चंद पटवा"
+        },
+        {
+          "id": "opt4",
+          "text": "जोरावर मल पटवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "19वीं शताब्दी के प्रारम्भ में राजस्थान के जैसलमेर में ‘पटवों की हवेली’ का निर्माण गुमान चन्द पटवा द्वारा करवाया गया था।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11159,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयनारायण व्यास के बारे में निम्नलिखित में से कौन- सा कथन गलत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वे मारवाड़ लोक परिषद् के सक्रिय सदस्य थे।"
+        },
+        {
+          "id": "opt2",
+          "text": "वे ‘तरुण राजस्थान’ के संपादक थे।"
+        },
+        {
+          "id": "opt3",
+          "text": "1951में वे अपना पहला विधान सभा चुनाव हार गए थे।"
+        },
+        {
+          "id": "opt4",
+          "text": "उन्होंने तीन बार राजस्थान के मुख्यमंत्री के रूप में काम किया।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयनारायण व्यास का जन्म जोधपुर में एक ब्राह्मण परिवार में हुआ था। वे मारवाड़ लोक परिषद के सक्रिय सदस्य थे। जय नारायण व्यास तरुण राजस्थान समाचार पत्र के संपादक थे। वह मारवाड़ हितकरणी सभा के सक्रिय सदस्य थे। ये १९५१ में वे अपना पहला विधानसभा चुनाव हार गए, उन्होंने २ बार राजस्थान के मुख्यमंत्री के रूप में काम किया।",
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11160,
+        "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान अंतरराष्ट्रीय लोक महोत्सव 2016 कहाँ आयोजित होगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान अंतर्राष्ट्रीय लोक महोत्सव २०१६ जोधपुर के मेहरानगढ़ में आयोजित हुआ था। वर्ष २०२३ में भी इसका आयोजन मेहरगढ़, जोधपुर में होगा। राजस्थान अंतर्राष्ट्रीय लोक उत्सव के रूप में भी जाना जाता है, २००७ से प्रारंभ हुआ। इसमें दुनिया भर से २५० से अधिक कलाकार व संगीतकार भाग लेते हैं।",
+      "reference": "📌 PYQ — RPSC Junior Acc. & TRA 04/10/2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11161,
+        "exam": "RPSC Junior Acc. & TRA 04/10/2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल के रूप में श्री कल्याण िंसह की नियुक्ति के पूर्व, निम्नलिखित में से कौन राज्य के कार्यवाहक राज्यपाल थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओ.पी. कोहली"
+        },
+        {
+          "id": "opt2",
+          "text": "रामनरेश यादव"
+        },
+        {
+          "id": "opt3",
+          "text": "राम नाइक"
+        },
+        {
+          "id": "opt4",
+          "text": "मार्गरेट अल्वा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के राज्यपाल के रूप में श्री कल्याण सिंह की नियुक्ति(14/09/2014) के पूर्व श्री राम नाइक(05/08/2014- 26/08/2014)को अतिरिक्त प्रभार सौंपा गया था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11162,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किसके द्वारा ‘वीर भारत सभा’ का गठन किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केसरी सिंह बारठ"
+        },
+        {
+          "id": "opt2",
+          "text": "रामनारायण चौधरी"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप सिंह बारठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11163,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अर्जुन लाल सेठी द्वारा क्रांतिकारियों को प्रशिक्षण देने के लिए जयपुर में स्थापित किये गए विद्यालय का क्या नाम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुशीलन विद्यालय"
+        },
+        {
+          "id": "opt2",
+          "text": "अभिनव भारत विद्यालय"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्धमान विद्यालय"
+        },
+        {
+          "id": "opt4",
+          "text": "पाश्र्वनाथ विद्याल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अर्जुन लाल सेठी का जन्म 1880 ई. में जयपुर के जैन परिवार में हुआ। इन्होंने इलाहबाद काॅलेज से बी.ए. किया। इन्हें चौमू के जिलाधीश का पद मिला। ये पद इन्होंने ये कहते हुए ठुकरा दिया कि ‘सेठी नौकरी करेगा तो अंग्रेजो को बाहर कौन निकालेगा।’ अर्जुन लाल सेठी ने 1906 में जयपुर में वर्धमान स्कूल की स्थापना की।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11164,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2015 के लिए राजस्थानी भाषा में साहित्य अकादमी पुरस्कार इस साहित्यिक कृति के लिए दिया गया है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "’जून जात्रा’"
+        },
+        {
+          "id": "opt2",
+          "text": "’गवाड’"
+        },
+        {
+          "id": "opt3",
+          "text": "’सुदर नैन सुधा’"
+        },
+        {
+          "id": "opt4",
+          "text": "’आथ्योई नहीं दिन हाल’’"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष2015 में राजस्थानी भाषा में साहित्य अकादमी पुरस्कार मधु आचार्य को उनके उपन्यास ‘गवाड’ के लिए दिया गया था। उनकी अन्य रचनाएं हैं- चेहरे से परे, अनंत इच्छाएं, मत छीनो आकाश आदि।",
+      "reference": "📌 PYQ — RPSC School Lecturer -2015",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11165,
+        "exam": "RPSC School Lecturer -2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में एक युद्ध संग्रहालय की स्थापना की गई है जिसका हाल ही में उद्घाटन किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "युद्ध संग्रहालय की स्थापना राजस्थान के जैसलमेर जिले में की गई है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11166,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही में किसे केंद्रीय सतर्कता आयुक्त के पद पर नियुक्त किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजीव धवन"
+        },
+        {
+          "id": "opt2",
+          "text": "राम जेठामलानी"
+        },
+        {
+          "id": "opt3",
+          "text": "आर.के.सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "के.वी.चौधरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रश्नकाल के समय केंद्रीय सतर्कता आयुक्त के पद पर के०वी०चौधरी थे, जिनका कार्यकाल जून, 2015 से जून, 2019 तक था। वर्तमान में केंद्रीय सतर्कता आयुक्त श्री प्रवीण कुमार श्रीवास्तव हैं।",
+      "reference": "📌 PYQ — RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20170,
+        "exam": "RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अभी हाल ही में किसने कहा कि, ``लोकतांत्रिक देश के रूप में भारत का भविष्य खतरे में है।''?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रिचर्ड ए. फाल्क"
+        },
+        {
+          "id": "opt2",
+          "text": "एम. जे. अकबर"
+        },
+        {
+          "id": "opt3",
+          "text": "अरुंधति राय"
+        },
+        {
+          "id": "opt4",
+          "text": "किरण बेदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "``लोकतांत्रिक देश के रूप में भारत का भविष्य खतरे में है'' यह वक्तव्य हाल ही में रिचर्ड ए. फाल्क ने दिया था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20171,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन(A): भारत की अंजू बॉबी जार्ज जिन्होंने सन् 2005 में लम्बी कूद स्पर्धा में तीसरी विश्व एथलेटिक्स में रजत पदक जीता था, अब 2014 में स्वर्ण पदक की विजेता घोषित कर दी गई हैं। कारण(R): रूसी एथलीट तात्याना कोतावा(दूसरा स्थान) डोप टेस्ट में दोषी पाई गई। कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथन(A)और कारण(R)दोनों सही हैं और(R)ही(A) का सही कारण है।"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)और(R)दोनों सही हैं, किन्तु(R), (A)का सही कारण नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)सही है, किन्तु(R)गलत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)गलत है, किन्तु(R)सही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत की अंजू बॉबी जॉर्ज जिन्होंने वर्ष2005में लम्बी कूद स्पर्धा में तीसरी विश्व एथलेटिक्स में रजत पदक जीता था। उन्हें वर्ष2014में स्वर्ण पदक की विजेता घोषित किया गया था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2015",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20172,
+        "exam": "RPSC RAS/RTS Pre 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसने माउन्ट आबू के राजस्थान में विलय में महत्त्वपूर्ण योगदान दिया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt2",
+          "text": "सिद्धराज ढड्ढ़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुल भाई भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्वमोहन भट्ट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हथल (सिरोही) में गोकुलभाई दौलतराम भट्ट भारत में राजस्थान राज्य के एक स्वतंत्रता सेनानी और सामाजिक कार्यकर्ता थे। स्वतंत्रता के बाद, उन्होंने सिरोही जिले के विभाजन और माउंट आबू को गुजरात को सौंपने का विरोध किया।",
+      "reference": "📌 PYQ — राज. पुलिस कॉन्स्टेबल-2014",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11167,
+        "exam": "राज. पुलिस कॉन्स्टेबल-2014",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराणा मेवाड़ ़फाउंडेशन द्वारा वर्ष 2016 में हकीम खां सूर पुरस्कार दिया गया है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राहुल कनवल को"
+        },
+        {
+          "id": "opt2",
+          "text": "रवीश कुमार को"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रसून जोशी को"
+        },
+        {
+          "id": "opt4",
+          "text": "देवीलाल पालीवाल को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराणा मेवाड़ फाउंडेशन द्वारा वर्ष २०१६ में भारतीय कवि, लेखक, गीतकार, पटकथा लेखक, संचार विशेषज्ञ प्रसून जोशी को ‘‘हकीम खॉ सूर पुरस्कार’’ दिया गया।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11168,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का केंद्रीय विश्वविद्यालय किस जिले में अवस्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का केन्द्रीय विश्वविद्यालय राजस्थान के अजमेर जिले में अवस्थित है। इसकी स्थापना संसद अधिनियम २००९ द्वारा की गई थी। यह पूरी तरह से भारत सरकार वित्त पोषित है।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11169,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2015 में भारत-रूस का यंयुक्त सैन्य अभ्यास",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष २०१५ में भारत-रूस का संयुक्त सैन्य अभ्यास राजस्थान के महाजन फायरिंग रेंज, बीकानेर में आयोजित किया गया था।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20173,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयनारायण व्यास के बारे में निम्नलिखित में से कौन सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वे मारवाड़ लोक परिषद् के सक्रिय सदस्य थे।"
+        },
+        {
+          "id": "opt2",
+          "text": "वे ‘तरूण राजस्थान’ के संपादक थे।"
+        },
+        {
+          "id": "opt3",
+          "text": "1951 में वे अपना पहला विधान सभा चुनाव हार गए थे।"
+        },
+        {
+          "id": "opt4",
+          "text": "उन्होेने तीन बार राजस्थान के मुख्य मंत्री के रूप में काम किया।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयनारायण व्यास का जन्म 1899 ई. में जोधपुर में हुआ। 1924 ई. में इन्होंने मारवाड़ हितकारिणी सभा की स्थापना की। 1927 में तरूण राजस्थान पत्रिका के प्रधान सम्पादक बने। विजयसिंह पथिक भी इसके सम्पादक थे। व्यास जी ने 1936 में मुम्बई से अखण्ड भारत पत्रिका निकाली। जयनारायण व्यास राजस्थान के एकमात्र मनोनित व निर्वाचित मुख्यमंत्री है। वे दो बार राजस्थान राज्य के मुख्यमंत्री रहे, पहली बार 26 अप्रैल 1951 से 3 मार्च 1952 तक और दूसरी बार 1 नवंबर 1952 से 12 नवंबर 1954 तक। 1952 में राजस्थान विधानसभा के पहले चुनाव में वे हार गए।",
+      "reference": "📌 PYQ — Jr. Acctt/TRA Re-Exam 2013 (Paper-1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11170,
+        "exam": "Jr. Acctt/TRA Re-Exam 2013 (Paper-1)",
+        "year": null
+      }
+    }
+  ]
+}

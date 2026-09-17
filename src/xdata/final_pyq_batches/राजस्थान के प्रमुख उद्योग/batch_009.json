@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान के प्रमुख उद्योग",
+  "batchIndex": 9,
+  "batchName": "राजस्थान के प्रमुख उद्योग भाग 9",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-प्रमुख-उद्योग",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ शुगर मिल अवस्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूपाल सागर में"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री गंगानगर में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "केशोरायपाटन में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेवाड़ शुगर मिल भोपाल सागर चित्तौड़गढ़ में स्थित है। यह राजस्थान में निजी क्षेत्र की पहली चीनी मिल है, जिसकी स्थापना १९३२ में हुई थी।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1015,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत सरकार के खाद्य प्रसंस्करण उद्योग मंत्रालय के सहयोग से ग्रीनटेक मेगा फूड पार्क ने अपनी इकाई स्थापित की है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूपनगढ़, अजमेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "झोटवाड़ा, जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक में"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खाद्य प्रसंस्करण उद्योग मंत्रालय (भारत सरकार) के सहयोग से ग्रीनटेक मेगा फूड पार्क ने अपनी इकाई रुपनगढ़ अजमेर में में स्थापित की है। यह राजस्थान का पहला मेगा फूड पार्क है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18756,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा युग्म सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूडा - राज्य में शहरी गैर-कृषि क्षेत्र के संवर्धन की एजेन्सी"
+        },
+        {
+          "id": "opt2",
+          "text": "रीको - राज्य में औद्योगीकरण के विकास का सर्वोच्च संगठन"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसीको - लघु पैमाने के उद्योगों को विपणन में सहायता प्रदान करने वाली एजेन्सी"
+        },
+        {
+          "id": "opt4",
+          "text": "आर.एफ.सी. - उद्योगों को ₹ 20 करोड़ तक की वित्तीय सहायता प्रदान करने वाली एजेन्सी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1016,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जैतून तेल शोधन संयंत्र स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लूणकरणसर में"
+        },
+        {
+          "id": "opt2",
+          "text": "सरदारशहर में"
+        },
+        {
+          "id": "opt3",
+          "text": "मण्डोर में"
+        },
+        {
+          "id": "opt4",
+          "text": "देशनोक में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1017,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में औद्योगिक विकास हेतु जापानी जोन कहाँ विकसित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1018,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सन्दर्भ में ‘प्लग एंड प्ले सुविधा’ का तात्पर्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंचित समुदाय के बच्चों में शिक्षा के प्रसार के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "विनिर्माण औद्योगिक ईकाइयों की स्थापना के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "अठारह वर्ष से कम उम्र की बालिकाओं की रक्षा के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "सहकारी समितियों को बढ़ावा देने के लिए"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1019,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 1953 में एशिया का सबसे बड़ा सीमेंट कारखाना कहाँ स्थापित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1020,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सन्दर्भ में ‘प्लग एण्ड प्ले फेसिलिटी’ किससे सम्बन्ध रखता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वंचित समुदाय के बच्चों में शिक्षा प्रसार हेतु"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रदूषण रहित विनिर्माण उद्योगों हेतु"
+        },
+        {
+          "id": "opt3",
+          "text": "अठारह वर्ष से कम उम्र की बालिकाओं के संरक्षण में"
+        },
+        {
+          "id": "opt4",
+          "text": "सहकारी समितियों को बढ़ावा देने हेतु"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1021,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा संगठन राजस्थान में औद्योगिक इन्फ्रास्ट्रक्चर के विकास और उद्योगों को वित्तीय सहायता देने का कार्य कर रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान वित्त निगम"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान लघु उद्योग निगम लिमिटेड"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान राज्य औद्योगिक विकास एवं विनियोग निगम"
+        },
+        {
+          "id": "opt4",
+          "text": "निवेश संवर्द्धन ब्यूरो"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1022,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पचपदरा, बाड़मेर में प्रस्तावित आॅयल रिफाइनरी किसका संयुक्त उपक्रम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ONGCL एवं भारत सरकार"
+        },
+        {
+          "id": "opt2",
+          "text": "OIL एवं राजस्थान सरकार"
+        },
+        {
+          "id": "opt3",
+          "text": "HPCL एवं भारत सरकार"
+        },
+        {
+          "id": "opt4",
+          "text": "HPCL एवं राजस्थान सरकार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1023,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान में कौन-कौन से महत्वपूर्ण खनिज आधारित उद्योग हैं -अ. जस्ता गलन उद्योग ब. सीमेन्ट उद्योगस. इलेक्ट्रोनिक उद्योग द. संगमरमर उद्योगकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ एवं ब"
+        },
+        {
+          "id": "opt2",
+          "text": "अ, स एवं द"
+        },
+        {
+          "id": "opt3",
+          "text": "अ, ब एवं द"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब, स एवं द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1024,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर (iii)नमदा 3.टोंक (iv)अजरका प्रिन्ट 4.बाड़मेर 2. निम्न कथनों पर ध्यान कीजिये: Statement (A): राको कृषि आधारित उद्योगों के विकास के लिये कोटा, जोधपुर, श्रीगंगानगर और जयपुर में चार एग्रो फूड पार्क विकसित कर चुका है। Statement (B): अन्य फूड पार्क ग्रीनटैक मेगा फूड पार्क प्राइवेट लिमिटेड के द्वारा अजमेर में किशनगढ़ के पास विकसित किया जा रहा है। उपरोक्त कथनों में कौन सा सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवलA"
+        },
+        {
+          "id": "opt2",
+          "text": "केवलB"
+        },
+        {
+          "id": "opt3",
+          "text": "दोनोंA औरB"
+        },
+        {
+          "id": "opt4",
+          "text": "ना तोA और ना हीB"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रीका ने चार एग्रो फूड पार्क (जोधपुर, कोटा, अलवर व श्री गंगानगर) में की थी। जयपुर इसमें शामिल नहीं है। जबकि प्रश्नकाल के दौरान अन्य फूड पार्क मेगाटेक फूड पार्क प्राइवेट लिमिटेड के द्वारा अजमेर में किशनगढ़ के पास विकसित किया जा रहा था।",
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1025,
+        "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में श्रीराम फर्टीलाइजर एवं केमिकल्स उद्योग कहाँ स्थापित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "भिवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्रीराम फर्टीलाइजर एवं केमिकल्स उद्योग कोटा में स्थित है यह राजस्थान का सबसे बड़ा खाद्य उत्पादक कारखाना है। यहाँ यूरिया, कास्टिक सोड़ा ब्लीचिंग पाउडर व हाइड्रोजन क्लोराइड का उत्पादन होता है।",
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1027,
+        "exam": "RPSC Engineer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "31 मार्च 2017 को राजस्थान में कितने बड़े पैमाने के उद्योग कार्यरत थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "500"
+        },
+        {
+          "id": "opt2",
+          "text": "385"
+        },
+        {
+          "id": "opt3",
+          "text": "1025"
+        },
+        {
+          "id": "opt4",
+          "text": "625"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "३१ मार्च २०१७ तक राजस्थान में ५०० बड़े पैमाने के उद्योग कार्यरत है।",
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1028,
+        "exam": "RPSC Engineer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सीमेंट उद्योग के स्थानीयकरण कर प्रमुख कारक कौन सा है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाजार"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्चे माल की उपलब्धता"
+        },
+        {
+          "id": "opt3",
+          "text": "शक्ति संसाधनों की उपलब्धता"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रशिक्षित श्रमिक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सीमेंट दुनिया भर में निर्माण परियोजनाओं में उपयोग की जाने वाली एक आवश्यक निर्माण सामाग्री है। सीमेंट बनाने के लिए आवश्यक सामाग्री में चूना, सिलिका एल्युमिना, मैग्नेशिया, वैâल्शियम सल्फेट, इत्यादि शामिल है। राजस्थान में इन आवश्यक सामाग्रियों की बहुतायत उपलब्धता है। 406",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 31/10/2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1029,
+        "exam": "RPSC Sr. Teacher Gr-II 31/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से भारतीय उद्योग भारत के विभाजन से नकारात्मक रूप से प्रभावित हुए? (A)लौह इस्पात उद्योग (B)चीनी उद्योग (C)सूती वस्त्र उद्योग (D)जूट उद्योग कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A), (B) और(D)"
+        },
+        {
+          "id": "opt2",
+          "text": "(B) और(C)"
+        },
+        {
+          "id": "opt3",
+          "text": "(C) और(D)"
+        },
+        {
+          "id": "opt4",
+          "text": "(B) और(D)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत के विभाजन ने भारतीय कृषि को प्रतिकूल रूप से प्रभावित किया। जबकि विभाजन से सूती वस्त्र उद्योग और जूट उद्योग नकारात्मक रूप से प्रभावित हुए। कलकत्ता की जूट मिलों तथा बंबई और अहमदाबाद के कपड़ा मिलों में कच्चे माल की कमी हो गई। 332",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18757,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का प्रथम वस्त्र उद्योग स्थापित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्यावर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1030,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सार्वजनिक क्षेत्र के विभिन्न संगठनों (RICO, RFC, RAJSICO आदि) द्वारा आकलित औद्योगिक सम्भावनाओं के आधार पर ‘अ’ श्रेणी में राजस्थान के कौन-से जिले सम्मिलित किए गए हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर, पाली, अजमेर, अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर, जोधपुर, भीलवाड़ा, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर, टोंक, चित्तौड़गढ़, अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा, अजमेर, उदयपुर, भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1031,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की टैक्सटाइल सिटी कौन सी है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1032,
+        "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में औद्योगिक क्षेत्रों में आधारभूत सुविधाओं का विकास करने के लिए निम्न में से कौन सी संस्था जिम्मेदार है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान वित्त निगम"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला उद्योग केन्द्र"
+        },
+        {
+          "id": "opt3",
+          "text": "रीको"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसीको"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान राज्य औद्योगिक विकास व विनियोग निगम लिमिटेड ( Rajasthan State Industrial Development and Investment Corporation Ltd. ) यह राज्य के औद्योगिक विकास को गति देने वाली शीर्ष संस्था है।",
+      "reference": "📌 PYQ — RPSC Clerk GR-II Exam 2016 Paper I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1033,
+        "exam": "RPSC Clerk GR-II Exam 2016 Paper I",
+        "year": 2016
+      }
+    }
+  ]
+}

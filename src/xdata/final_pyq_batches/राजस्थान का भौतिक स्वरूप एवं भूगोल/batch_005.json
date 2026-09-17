@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 5,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 5",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "किस भू-आकृतिक प्रदेश को “गोड़वाड प्रदेश” कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूर्वी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी-जवाई बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावाटी प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "चम्बल बेसिन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गोड़वाड प्रदेश राजस्थान का एक भू-आकृतिक क्षेत्र है, जो लूनी और जवाई नदियों के बेसिन में स्थित है। यह क्षेत्र मुख्य रूप से पाली, सिरोही, और जालौर जिलों में फैला हुआ है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7210,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा/से सुमेलित है/हैं -भू-आकृति अवस्थितिA. गिरवा - उदयपुर बेसिनB. भाकर - माही बेसिनC. भोराट पठार - कुम्भलगढ़ और गोगुन्दा के मध्यनीचे दिए गए कूट में से सही उत्तर का चयन कीजिए: कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B और C"
+        },
+        {
+          "id": "opt2",
+          "text": "A और C"
+        },
+        {
+          "id": "opt3",
+          "text": "A और B"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल C"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गिरवा - उदयपुर बेसिनभोराट पठार - कुम्भलगढ़ और गोगुन्दा के मध्यभाकर - सिरोही जिले में अरावली पर्वत श्रेणी की तीव्र ऊबड़-खाबड़ ढलान",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7211,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से किस बालूका स्तूप को जीवावशेष बालूका स्तूप माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अवरोधी"
+        },
+        {
+          "id": "opt2",
+          "text": "बरखान"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुदैर्ध्य"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुप्रस्थ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अवरोधी बालुका स्तूप वे रेत के टीले होते हैं जो किसी भौतिक अवरोध (जैसे वनस्पति, चट्टानें या अन्य संरचनाएं) के कारण हवा द्वारा रेत के जमाव से बनते हैं। अवरोधी (Awarodhi) बालूका स्तूप, राजस्थान के बाड़मेर जिले में स्थित है और इसे जीवाश्म बालूका स्तूप माना जाता है क्योंकि यह लाखों वर्षों पहले के जैविक अवशेषों (फॉसिल्स) को समेटे हुए है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7212,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन सी पहाड़ी मध्य-अरावली क्षेत्र में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाग-पहाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "डोरा पर्बत"
+        },
+        {
+          "id": "opt3",
+          "text": "नाग पानी"
+        },
+        {
+          "id": "opt4",
+          "text": "बिलाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नाग-पहाड़ मध्य-अरावली क्षेत्र में स्थित है, जो अजमेर के निकट है। नाग पहाड़ पुष्कर झील और अजमेर के बीच स्थित है और माना जाता है कि यहीं अगस्त्य मुनि रहते थे।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7213,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली श्रृंखला की निम्नलिखित चोटियों को उनकी ऊँचाई के अनुसार आरोही क्रम में व्यवस्थित कीजिए -(A) धोनिया डूँगर(B) ऋषिकेश(C) कमलनाथ(D) रघुनाथगढ़ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(C), (B), (D), (A)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A), (C), (B), (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "(D), (A), (B), (C)"
+        },
+        {
+          "id": "opt4",
+          "text": "(B), (A), (C), (D)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कमलनाथ (उदयपुर) 1001 मीटरऋषिकेश (सिरोही) 1017 मीटर रघुनाथगढ़ (सीकर) 1055 मीटरधोनिया (राजसमंद) 1183 मीटर",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-A)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7214,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा एक भाग राजस्थान के पूर्वी मैदानी प्रदेश में सम्मिलित नहीं है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मध्य माही बेसिन"
+        },
+        {
+          "id": "opt2",
+          "text": "चम्बल बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास बेसिन"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी बेसिन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का पूर्वी मैदानी प्रदेश उन क्षेत्रों को शामिल करता है जहां नदियों के कारण मैदानी भूभाग और अपेक्षाकृत उपजाऊ भूमि है।मध्य माही बेसिन: यह दक्षिणी राजस्थान में है, जो पूर्वी मैदानी क्षेत्र का हिस्सा है।चंबल बेसिन: यह पूर्वी राजस्थान में कोटा, बूंदी, और सवाई माधोपुर जैसे क्षेत्रों में है।बनास बेसिन: यह भी पूर्वी राजस्थान में फैला है।लूनी बेसिन: यह पश्चिमी राजस्थान में है, जो मरुस्थलीय क्षेत्र में आता है।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7215,
+        "exam": "Junior Instructor (SWT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैसलमेर ज़िले में बालू के टीलों को स्थानीय भाषा में कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बागर"
+        },
+        {
+          "id": "opt2",
+          "text": "भादर"
+        },
+        {
+          "id": "opt3",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt4",
+          "text": "भाकर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जैसलमेर में बालू के टीलों को स्थानीय भाषा में बागर कहा जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7216,
+        "exam": "Junior Instructor (PLM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के कौन-से ज़िले ‘भारतीय वृहत् मरुस्थल’ के भाग हैं - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर, बाड़मेर, उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर, जोधपुर, सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर, बाड़मेर, जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर, बाड़मेर, अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय वृहत् मरुस्थल (थार मरुस्थल) में बीकानेर, बाड़मेर और जैसलमेर जैसे शुष्क क्षेत्र शामिल हैं।",
+      "reference": "📌 PYQ — Junior Instructor (MMV) Exam 2024",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7217,
+        "exam": "Junior Instructor (MMV) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान में अरावली श्रृंखलाओं के संबंध में असत्य कथन को छाँटिये: (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास बेसिन इन शृंखलाओं के पश्चिम में स्थित है।"
+        },
+        {
+          "id": "opt2",
+          "text": "अरावली श्रृंखलाओं का विस्तार उत्तरपूर्व से दक्षिणपश्चिम है।"
+        },
+        {
+          "id": "opt3",
+          "text": "ये विश्व के प्राचीनतम पर्वतों में से एक है।"
+        },
+        {
+          "id": "opt4",
+          "text": "इन शृंखलाओं की अनुमानित लम्बाई 692 किमी है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बनास बेसिन अरावली के पूर्व में है, पश्चिम में नहीं।",
+      "reference": "📌 PYQ — Junior Instructor (MMV) Exam 2024",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7218,
+        "exam": "Junior Instructor (MMV) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘ढांड’ संदर्भित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सरस्वती नदी का आधार तल ।"
+        },
+        {
+          "id": "opt2",
+          "text": "थार मरुस्थल के चारागाह क्षेत्र ।"
+        },
+        {
+          "id": "opt3",
+          "text": "नागोरी उच्च भूमि में स्थाई बालुका स्तूप ।"
+        },
+        {
+          "id": "opt4",
+          "text": "थार के मरुस्थल में अस्थाई झील ।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "‘ढांड’ राजस्थान में थार के मरुस्थल में अस्थाई झील को संदर्भित करता है, जो वर्षा के बाद बनती है और सूख जाती है।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7219,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा/से सही सुमेलित है / हैं -नीचे दिए गए कूट का उपयोग कर सही उत्तर का चयन कीजिए -पर्वतीय क्षेत्र - प्रमुख शिखर(A) माउण्ट आबू - ऋषिकेश(B) जसवन्तपुरा - डोरा(C) सिवाना - नाकोडा(D) जालौर - झारोलाकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A), (B), (C) और (D)"
+        },
+        {
+          "id": "opt2",
+          "text": "(B) और (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A) और (C)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (C)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पर्वतीय क्षेत्र-प्रमुख शिखरमाउण्ट आबू -ऋषिकेशजसवन्तपुरा-डोरासिवाना-नाकोडाजालौर-झारोला",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7220,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए तथा सही उत्तर का चयन नीचे दिये गए कूट से कीजिए -(A) काला भरा डूंगर, लूनी बेसिन की पश्चिमी सीमा बनाता है।(B) सालीसर, जस्सूसर और मलसीसर, शेखावाटी प्रदेश में अवस्थित हैं।(C) हनुमानगढ़ के निकट घग्घर नदी का तल ‘नाली’ कहलाता है।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (B) और (C) सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (A) और (C) सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (C) सही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (A) सही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "काला भूरा डूंगर लूनी बेसिन के पूर्व में स्थित पहाड़ियां है। काला भूरा डूंगर लूनी बेसिन की पूर्वी सीमा बनाता है। सालीसर, जस्सूसर और मलसीसर, शेखावाटी प्रदेश में अवस्थित हैं। हनुमानगढ़ के निकट घग्घर नदी का तल ‘नाली’ कहलाता है।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7221,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के कौन-से क्षेत्र पश्चिमी मरुस्थल क्षेत्र में शामिल किए गए हैं -1. लूणी बेसिन 2. डेक्कन लावा पठार 3. घग्गर का मैदान 4. छप्पन बेसिननिम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1 व 3"
+        },
+        {
+          "id": "opt2",
+          "text": "सभी 1, 2, 3 व 4"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1, 3 व 4"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 1 व 2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी मरुस्थल क्षेत्र में लूणी बेसिन और घग्गर का मैदान शामिल हैं, जो थार मरुस्थल का हिस्सा हैं। डेक्कन लावा पठार और छप्पन बेसिन, दक्षिणी-पूर्वी और दक्षिण राजस्थान में हैं, जो मरुस्थल क्षेत्र में नहीं आते।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7223,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सबसे ऊँची पर्वत चोटी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt3",
+          "text": "गुरु शिखर"
+        },
+        {
+          "id": "opt4",
+          "text": "जरगा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गुरु शिखर, जो अरावली पर्वतमाला में माउंट आबू (सिरोही) में स्थित है, राजस्थान की सबसे ऊँची चोटी है। इसकी ऊँचाई लगभग 1, 722 मीटर है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7224,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के ज़िले, जो घग्घर के मैदान में स्थित हैं, वे हैं - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर एवं हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द एवं चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां एवं झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर एवं धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "घग्घर नदी का मैदान राजस्थान के उत्तरी जिलों गंगानगर और हनुमानगढ़ में स्थित है।",
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7225,
+        "exam": "Junior Instructor (EM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से 1000 मीटर से अधिक ऊँचाई वाले अरावली पर्वत शृंखला के शिखरों का सही समूह है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़ - लीलागढ़ - सज्जनगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "रघुनाथगढ़ - दूर मारायजी - सायरा"
+        },
+        {
+          "id": "opt3",
+          "text": "ऋषिकेश - कमलनाथ की पहाड़ी - देलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "रोजा भाखर - जरगा - आबू पर्वत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "देलवाडा (सिरोही) - 1442 मीटरकुंम्भलगढ़(राजसमंद)-1224 मीटररघुनाथगढ़(सीकर)- 1055 मीटरऋषिकेश (सिरोही) - 1017 मीटरकमलनाथ (उदयपुर) - 1001 मीटरसज्जनगढ़ (उदयपुर) - 938 मीटरलीलागढ़ (उदयपुर) - 874 मीटररोजा भाकर ( जालौर) - 730 मीटर",
+      "reference": "📌 PYQ — AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7226,
+        "exam": "AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली श्रृंखलाओं की रघुनाथगढ़ चोटी राजस्थान के ____ ज़िले में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रघुनाथगढ़ (1055 मीटर) चोटी अरावली श्रृंखला में सीकर जिले में स्थित है।",
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7227,
+        "exam": "Junior Instructor (COPA) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान के दक्षिणी-पूर्वी पठार के संदर्भ में सत्य है -a. यह मालवा पठार का ही विस्तार है।b. यह हाड़ौती के पठार के नाम से भी जाना जाता है।c. इस प्रदेश की औसत ऊँचाई 3000 मीटर है।d. मुकुंदरा की पहाड़ियाँ भी इसी प्रदेश का भाग हैं।निम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a और c"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल c और d"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a, b और d"
+        },
+        {
+          "id": "opt4",
+          "text": "सभी a, b, c और d"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का दक्षिणी-पूर्वी भाग एक पठारी भाग है, जिसे ‘दक्षिणी-पूर्वी पठार एवं हाडौती के पठार’ के नाम से जाना जाता है। यह मालवा के पठार का विस्तार है | इस क्षेत्र की औसत ऊँचाई 500 मीटर है तथा यहाँ अर्द्ध-चन्द्राकार रूप में पर्वत श्रेणियों का विस्तार है जो क्रमशः बूंदी और मुकुन्दवाड़ा की पहाड़ियों के नाम से जानी जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7228,
+        "exam": "Junior Instructor (COPA) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिये: A. लूनी बेसिन और शेखावाटी प्रदेश राजस्थान बांगड़ के उप-प्रदेश हैं।B. घग्घर का मैदान अधिकांशत हनुमानगढ़ एवं गंगानगर जिलों में फैला है ।C. नागौर उच्च भूमि में लवणीय झीलें और आन्तरिक जल प्रवाह है।D. अरावली श्रेणियाँ सभी प्रकार के खनिजों में समृद्ध हैं।सही उत्तर का चयन नीचे दिये कूट से कीजिये: कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और B"
+        },
+        {
+          "id": "opt2",
+          "text": "A, B और C"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C और D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C और D"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लूनी बेसिन और शेखावाटी प्रदेश राजस्थान बांगड़ के भाग हैं।घग्घर का मैदान हनुमानगढ़ और गंगानगर में स्थित है।नागौर उच्च भूमि में लवणीय झीलें और आंतरिक जल प्रवाह पाए जाते हैं।लेकिन, अरावली श्रेणियों में सभी प्रकार के खनिज नहीं मिलते हैं।",
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7229,
+        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित स्थलरूपों में से कौनसा राजस्थान के मरूस्थल से संबंधित नहीं है -1. बालूका स्तूप 2. बरखान 3. ऑक्स बो झील (गोखुर झील)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1 और 2"
+        },
+        {
+          "id": "opt2",
+          "text": "सभी 1, 2 और 3"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 3"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गोखुर झील (Oxbow Lake) एक वक्राकार झील है जो समय के साथ क्षरण और अवसादों के निक्षेपण के परिणामस्वरूप विसर्पी नदी के किनारे बनती है। गोखुर झीलें सामान्यतः अर्द्धचंद्राकार होती हैं जो नदियों के पास बाढ़ के मैदानों एवं निचले इलाकों में पाई जाने वाली भू-स्थलाकृतियाँ हैं।",
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7230,
+        "exam": "Junior Instructor (RAT) Exam 2024",
+        "year": 2024
+      }
+    }
+  ]
+}

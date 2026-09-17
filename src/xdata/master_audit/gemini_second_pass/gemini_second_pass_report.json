@@ -1,0 +1,24 @@
+{
+  "pipelineName": "Quizzer True Gemini Second-Pass Content Audit",
+  "completedAt": "2026-09-17T05:23:32.092Z",
+  "totalAudited": 10151,
+  "decisionBreakdown": {
+    "KEEP": 4649,
+    "REPAIR": 5486,
+    "REMOVE": 16,
+    "UNCERTAIN": 0
+  },
+  "finalV2QuestionBankCount": 10135,
+  "reconciliationFormula": "totalAudited == KEEP + REPAIR + REMOVE + UNCERTAIN",
+  "isReconciled": true,
+  "issueBreakdown": {
+    "languageIssues": 5542,
+    "optionIssues": 24,
+    "answerIssues": 0,
+    "explanationIssues": 72,
+    "factualIssues": 0,
+    "ambiguityIssues": 0,
+    "duplicateIssues": 1,
+    "provenanceIssues": 0
+  }
+}

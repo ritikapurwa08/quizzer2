@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का राजपूत काल",
+  "batchIndex": 6,
+  "batchName": "राजस्थान का राजपूत काल भाग 6",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-का-राजपूत-काल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अंग्रेजों ने अमीर खाँ को किस वर्ष टौंक के नवाब की मान्यता प्रदान की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1823 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1816 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1817 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1818 ई."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1817 में अंग्रेजों ने अमीर खाँ को टोंक के शासक के रूप में इस शर्त पर स्वीकार किया कि वह अपनी सेना को भंग कर देगा।",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9885,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजपूताना के किस क्षेत्र पर वरीक वंश ने शासन किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बयाना"
+        },
+        {
+          "id": "opt3",
+          "text": "बदनौर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वरीक वंश का शासन 11वीं शताब्दी से 13वीं शताब्दी तक रहा। इस वंश का संस्थापक राजा विजयपाल था। वरीक वंश के शासकों ने बयाना को एक शक्तिशाली राज्य बनाया।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9886,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“इजलास खास” की स्थापना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा भगवंत सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा सज्जन सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा बन्ने सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा अजीत सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "10 मार्च, 1877 को महाराणा सज्जन सिंह ने मेवाड़ राज्य में एक नई राज्य परिषद इजलास खास की स्थापना की थी।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9897,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन, प्रतापगढ़ का शासक नहीं रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "क्षेमकर्ण"
+        },
+        {
+          "id": "opt2",
+          "text": "महारावत प्रताप सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरजमल"
+        },
+        {
+          "id": "opt4",
+          "text": "रंजीत सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रणजीत सिंह प्रतापगढ़ के शासक नहीं रहे है।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9898,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हल्दीघाटी का युद्ध ______ लड़ा गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 जून, 1577"
+        },
+        {
+          "id": "opt2",
+          "text": "18 जून, 1567"
+        },
+        {
+          "id": "opt3",
+          "text": "18 जून, 1576"
+        },
+        {
+          "id": "opt4",
+          "text": "18 जून, 1555"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उल्लेखनीय है कि हल्दीघाटी का युद्ध 18 जून 1576 को मेवाड़ के महाराणा प्रताप और मुगल सम्राट अकबर की सेना के बीच लड़ा गया था। हल्दीघाटी के युद्ध को कर्नल टाॅड ने मेवाड़ की थर्मोपल्ली, अबुल फजल ने खमनौर का युद्ध और बदायूंनी ने मुंतखाब-उल-तवारीख में गोगुंदा का युद्ध कहा है।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9899,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "13 वीं शताब्दी ईस्वी के प्रारम्भ में राजस्थान का सबसे प्रमुख और शक्तिशाली राज्य कौन सा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावटी"
+        },
+        {
+          "id": "opt4",
+          "text": "सिसोदिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "13वीं शताब्दी ईस्वी की शुरुआत में राजस्थान का सबसे प्रमुख और शक्तिशाली राज्य मेवाड़ था।",
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9901,
+        "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ के विषय में निम्नलिखित में से कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बप्पा रावल सिसोदिया राजवंश के संस्थापक थे। बप्पा और उनके वंशजों ने चित्तौड़गढ़ पर 16वीं शताब्दी तक शासन किया।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह एक जलाशय है और वर्तमान में भीमलत के नाम से जाना जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "15वीं शताब्दी में, यह मौर्य राजपूतों द्वारा शासित था और 1568 ईस्वी तक मेवाड़ की राजधानी बना रहा। मेवाड़ ने तब अपनी राजधानी को उदयपुर स्थानांतरित कर दिया।"
+        },
+        {
+          "id": "opt4",
+          "text": "1303 ईस्वी में बहादुर शाह ने चित्तौड़गढ़ पर आक्रमण किया था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1303 ई. में चित्तौड़ का युद्ध मेवाड़ के शासक रावल रतनसिंह (1302-03 ई.) एवं दिल्ली के सुल्तान अलाउद्दीन खिलजी (1296-1316 ई.) के मध्य हुआ था। सन् 1535 में गुजरात के बहादुरशाह ने मेवाड़ पर आक्रमण किया।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9902,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "734 ई. तक राजस्थान में मौर्य वंश का शासक कौन था, जो बाद में बप्पा रावल द्वारा मारा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागभट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "मान मोरी"
+        },
+        {
+          "id": "opt3",
+          "text": "भिल्लुका"
+        },
+        {
+          "id": "opt4",
+          "text": "कक्कुका"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऐसी मान्यता है कि बापा रावल हारीत ऋषि की गायें चराते थे। हारीत ऋषि की अनुकम्पा से ही बापा रावल ने मेवाड़ का राज्य प्राप्त किया था। बापा रावल ने 734 ई. में मौर्य शासक मान मोरी को पराजित कर सत्ता स्थापित की। कविराजा श्यामलदास ने ‘वीर विनोद’ में बापा द्वारा मौर्यों से चित्तौड़ दुर्ग छीनने का समय 734 ई. बताया है।",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9903,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौनसा पूर्व राजवंश शैव परम्परा का निर्वहन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा"
+        },
+        {
+          "id": "opt2",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "गुहिल"
+        },
+        {
+          "id": "opt4",
+          "text": "सिसोदिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेवाड़ का सिसोदिया वंश शैव धर्म को मानने वाला था।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9904,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित युद्धों का सही कालक्रम चुनिए -(1)हल्दीघाटी का युद्ध(2) खानवा का युद्ध(3) तराइन का द्वितीय युद्धसही कूट चुनिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 3, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 2, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 3, 2"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हल्दीघाटी (राजसमंद) का युद्ध (18 जून, 1576): राणा प्रताप एवं अकबरखानवा का युद्ध (17 मार्च, 1527): राणा सांगा एवं जहीरुद्दीन मुहम्मद बाबरतराइन का द्वितीय युद्ध (1192 ई.): पृथ्वीराज एवं मुहम्मद गौरी",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9908,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़ के द्वितीय साका में किस रानी ने जौहर किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पदमिनी"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्मावती"
+        },
+        {
+          "id": "opt3",
+          "text": "जसमती"
+        },
+        {
+          "id": "opt4",
+          "text": "जीजाबाई"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राणा सांगा की हाडी रानी कर्मावती के दो अल्प आयु पुत्र विक्रमादित्य व उदयसिंह थे। विक्रमादित्य अल्प वयस्क तो रानी कर्मावती संरक्षिका बनी। सन् 1535 में गुजरात के बहादुरशाह ने मेवाड़ पर आक्रमण किया। इस समय राणा सांगा के द्वितीय पुत्र विक्रमादित्य का (1531-36 ई.) शासन था। वह किले की रक्षा का भार देवलिया प्रतापगढ़ के ठाकुर बाघसिंह को सौंप कर बूँदी चला गया। चित्तौड़ की रक्षार्थ कर्मावती (कर्णावती) ने मुगल बादशाह हुमायूँ राखी भेजी। मगर हुमायूँ समय पर सहायता नहीं कर सका। अतः किले का पतन जानकर रानी कर्मावती ने अन्य राजपूत स्त्रियों के साथ इनमें विक्रमादित्य की पत्नी जवाहर बाई भी शामिल थी, जौहर किया तथा राजपूत योद्धा लड़ते हुए मारे गए।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9911,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हुरडा सम्मेलन किस वर्ष आयोजित हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1734 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1740 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1804 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1757 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सवाई जयसिंह ने राजस्थान में बढ़ती हुई मराठा शक्ति का प्रतिरोध करने के लिए मेवाड़ के जगतसिंह द्वितीय की अध्यक्षता में 17 जुलाई, 1734 ई. को हुरड़ा सम्मेलन का आयोजन भीलवाड़ा में करवाया, किन्तु राजपूत रियासतों को एकजुट करने का यह प्रयत्न विफल हो गया।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9912,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सारंगपुर का युद्ध कब लड़ा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1437 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1443 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1517 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1428 ई."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सारंगपुर युद्ध / मालवा युद्ध 1437 ई.: महपा पँवार मेवाड़ से भागकर मालवा के सुल्तान महमूद खिलजी प्रथम की शरण में पहुँच गया। राणा कुंभा द्वारा महपा पँवार की मांग की गई थी, लेकिन महमूद खिलजी ने शरणार्थी को आत्मसमर्पण करने से इनकार कर दिया। कुम्भा ने रणमल राठौड़ की सैनिक सहायता से 1437 ई० में ‘सारंगपुर के युद्ध’ (मध्य प्रदेश) में मालवा के सुल्तान महमूद खिलजी प्रथम को पराजित कर बंदी बना लिया।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9914,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के इतिहास में हिन्दूपत किस शासक को कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा सांगा"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा राजसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सांगा अन्तिम हिन्दू राजा था, जिसके सेनापतित्व में सब राजपूत जातियाँ विदेशियों को भारत से निकालने के लिए सम्मिलित हुई। महाराणा सांगा को “हिन्दूपत” कहा जाता था। इतिहास में महाराणा सांगा का नाम ‘अन्तिम भारतीय हिन्दू सम्राट’ के रूप में अमर है। कर्नल टॉड ने राणा सांगा को ‘सिपाही का अंश’ कहा है।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9915,
+        "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिवेर की लड़ाई ____ के बीच लड़ी गई।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमर सिंह I और जहांगीर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयसिंह और औरंगजेब"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा प्रताप और अकबर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदय सिंह द्वितीय और अकबर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिवेर का युद्ध/मेवाड़ का माराथन (अक्टूबर, 1582): ‘अमरकाव्य’ के अनुसार 1582 ई. में राणा प्रताप ने मुगलों के विरुद्ध दिवेर (कुंभलगढ़) पर जबरदस्त आक्रमण किया। यहाँ का सूबेदार अकबर का काका सेरिमा सुल्तान खां था।",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9918,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पन्ना धाय ने अपने ही बेटे के जीवन का बलिदान देकर किस राजकुमार की जान बचाई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधा सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वी सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "उदय सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "अजीत सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विक्रमादित्य की हत्या कर राणा रायमल के पुत्र पृथ्वीराज का अनौरस पुत्र बनवीर शासक बन बैठा। वह उदयसिंह की हत्या करना चाहता था लेकिन उसकी धाय मां पन्ना ने उदयसिंह की जगह अपने बेटे चन्दन का बलिदान दिया, जो स्वामी भक्ति का अद्वितीय उदाहरण है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9920,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न युद्धों को कालक्रमानुसार नीचे दिए कूट का प्रयोग करते हुए सुमेलित कीजिए –सूची – I (युद्ध)(1) तराइन का प्रथम युद्ध(2) सारंगपुर का युद्ध(3) खातोली का युद्ध(4) सुमेल का युद्धसूची – II (वर्ष)(a) 1544(b) 1517(c) 1437(d) 1191 कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(b), 2-(c), 3-(d), 4-(a)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(d), 2-(c), 3-(b), 4-(a)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(a), 2-(d), 3-(b), 4-(c)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(a), 2-(b), 3-(c), 4-(d)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तराइन का प्रथम युद्ध (1191 ई.): पृथ्वीराज एवं मुहम्मद गौरीसारंगपुर युद्ध / मालवा युद्ध (1437 ई.): महमूद खिलजी प्रथम एवं राणा कुंभाखातोली का युद्ध (1517 ई.): महाराणा सांगा एवं दिल्ली के सुल्तान इब्राहिम लोदीगिरी सुमेल के युद्ध (1544 ई.): शेरशाह सूरी एवं मालदेव",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9921,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हल्दीघाटी के युद्ध को किसने खमनौर का युद्ध कहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्नल टॉड"
+        },
+        {
+          "id": "opt2",
+          "text": "बदायूँनी"
+        },
+        {
+          "id": "opt3",
+          "text": "अबुल फजल"
+        },
+        {
+          "id": "opt4",
+          "text": "गोपीनाथ शर्मा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हल्दीघाटी (राजसमंद) का युद्ध (18 जून, 1576): हल्दीघाटी के युद्ध को कर्नल टाॅड ने मेवाड़ की थर्मोपल्ली, अबुल फजल ने खमनौर का युद्ध और बदायूंनी ने मुंतखाब-उल-तवारीख में गोगुंदा का युद्ध कहा है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9922,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित युद्धों का सही कालानुक्रम है –i. तराईन का प्रथम युद्धii. हल्दीघाटी का युद्धiii. दिवेर का युद्धiv. गिरि-सुमेल का युद्धकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii), (i), (ii), (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (iv), (ii), (iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i), (iii), (iv), (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii), (ii), (iv), (i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तराइन का प्रथम युद्ध (1191 ई.) गिरी सुमेल का युद्ध (1544 ई.)हल्दीघाटी (राजसमंद) का युद्ध (18 जून, 1576)दिवेर का युद्ध/मेवाड़ का माराथन (अक्टूबर, 1582)",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9926,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों में से कौनसा एक गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1681 में मेवाड़ के शासक जय सिंह एवं मुगल सम्राट औरंगज़ेब के मध्य संधि हुई।"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़ ने जजिया के एवज में मुगल सम्राट औरंगज़ेब को पुर, मण्डल एवं बदनौर का परगना प्रदान किया।"
+        },
+        {
+          "id": "opt3",
+          "text": "सम्राट औरंगजेब ने महाराणा जय सिंह को ‘राणा’ के पद से विभूषित किया।"
+        },
+        {
+          "id": "opt4",
+          "text": "औरंगजेब ने महाराणा जय सिंह को 6000 का मनसबदार नियुक्त किया।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राणा जयसिंह और मुगलों की शक्ति के बीच सन्धि-वार्ता हुई जिसके अन्तर्गत मेवाड़ के लिए पुर, मण्डल और बदनौर को जजिया के एवज में देना निश्चित हुआ। ऐसा करने पर मुगल अपनी सेना मेवाड़ से हटा लेंगे। राणा को अपने पैतृक राज्य का स्वामी माना जाएगा और उसे पाँच हजारी मनसब दिया जाएगा।",
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9928,
+        "exam": "School Lecturer 2022 History (Group - C)",
+        "year": 2022
+      }
+    }
+  ]
+}

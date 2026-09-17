@@ -1,0 +1,654 @@
+{
+  "masterTopic": "राजस्थान की स्थापत्य कला एवं वास्तुकला",
+  "batchIndex": 18,
+  "batchName": "राजस्थान की स्थापत्य कला एवं वास्तुकला भाग 18",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-स्थापत्य-कला-एवं-वास्तुकला",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बूंदी में ‘चौरासी खम्भों की छतरी’ का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव अनिरुद्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "राव शत्रुसाल"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराव बुध सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराव विष्णु सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17504,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी (बावड़ी - स्थान) सुमेलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चाँद बावड़ी - आभानेरी"
+        },
+        {
+          "id": "opt2",
+          "text": "त्रिमुखी बावड़ी - चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "नौलखा बावड़ी - जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालीबाब बावड़ी - सीकर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17505,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चोखोलाव महल’ राजस्थान के किस किले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़ दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चोखोलाव महल राजस्थान के जोधपुर दुर्ग में स्थित है।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17506,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अढ़ाई दिन का झोपड़ा मूलतः था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मस्जिद"
+        },
+        {
+          "id": "opt2",
+          "text": "संस्कृत कॉलेज"
+        },
+        {
+          "id": "opt3",
+          "text": "दरगाह"
+        },
+        {
+          "id": "opt4",
+          "text": "राज प्रासाद"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17507,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस दुर्ग को ‘राजस्थान का वेल्लोर’ कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिवाना"
+        },
+        {
+          "id": "opt3",
+          "text": "भैंसरोडगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17508,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सर्वोत्तम विलास, गज विलास, जवाहर विलास निम्नलिखित में से किस दुर्ग में स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाला किला"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "मेहरानगढ़ दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनारगढ़ दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17509,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा मंदिर चित्तौड़गढ़ दुर्ग में स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चामुण्डा मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "सातवीश देवरी"
+        },
+        {
+          "id": "opt3",
+          "text": "समिद्धेश्वर मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "तुलजा भवानी मंदिर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17510,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा दुर्ग कुम्भा द्वारा निर्मित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बसंती दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "मचान दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "गागरोण दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17511,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर के जूनागढ़ किले का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव बीका"
+        },
+        {
+          "id": "opt2",
+          "text": "राव कल्याणमल"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राव जैतसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17512,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा दुर्ग ‘गढ़ बीठली’ के नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "सिवाणा गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "तारागढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "मेहरानगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17513,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हाडी रानी की बावड़ी’ ........... स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोडारायसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "मालपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "उनियारा"
+        },
+        {
+          "id": "opt4",
+          "text": "पिपलु"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17514,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवर्नर जनरल लॉर्ड विलियम बैंटिंक ने किस दुर्ग को दुनिया का दूसरा जिब्राल्टर कहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहरानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "नाहरगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "सिवाणा"
+        },
+        {
+          "id": "opt4",
+          "text": "तारागढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17515,
+        "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर के पास स्थित पुष्कर में “वराह मंदिर” का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज चौहान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अजमेर के पास पुष्कर में “वराह मंदिर” राजा अर्णोराज द्वारा बनाया गया था।",
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17516,
+        "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-III",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुरु दुर्ग का निर्माण 1739 में किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसवंतसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "कल्याणमल"
+        },
+        {
+          "id": "opt3",
+          "text": "रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "ठाकुर कुशाल सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17517,
+        "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोनार दुर्ग कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमंद"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — REET-2022 Level 1 (ENV. STUDIES) Shift-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17518,
+        "exam": "REET-2022 Level 1 (ENV. STUDIES) Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हम्मीर रासो’ के अनुसार रणथम्भौर के किले का प्रारम्भिक नाम क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणस्तम्भपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "रणकपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "रणथमभौर"
+        },
+        {
+          "id": "opt4",
+          "text": "रणपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17519,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा किला सूकड़ी नदी के दाहिने किनारे पर बना हुआ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गागरोण का किला"
+        },
+        {
+          "id": "opt2",
+          "text": "सिवाणा का किला"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर का किला"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर का किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17520,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा किला महान चौहान शासक पृथ्वीराज चौहान तृतीय ने बनवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़ क़िला"
+        },
+        {
+          "id": "opt2",
+          "text": "रणथम्भोर क़िला"
+        },
+        {
+          "id": "opt3",
+          "text": "क़िला राय पिथौरा"
+        },
+        {
+          "id": "opt4",
+          "text": "गागरोन किला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17521,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्नलिखित में से कौन सा किला राठौर राजपूत राजा राव जोधा द्वारा बनवाया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहरानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "अंबर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17522,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर शरीफ दरगाह में बुलंद दरवाजा निम्नलिखित में से किसने बनवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हैदराबाद डेक्कन के मीर उस्मान अली खान"
+        },
+        {
+          "id": "opt2",
+          "text": "महमूद सुल्तान महमूद खिलजी"
+        },
+        {
+          "id": "opt3",
+          "text": "नवाब बशीर-उद-दौला सर अस्मान जाह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजकुमारी जहां आरा बेगम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17523,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    }
+  ]
+}

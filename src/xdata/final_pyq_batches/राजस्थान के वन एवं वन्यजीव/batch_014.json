@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 14,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 14",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौनसा (संरक्षित क्षेत्र - जिला) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुन्धामाता - जालौर - सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगेलाव - नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "रोटू- नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "गुढ़ा विश्नोई - जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुड़ा विश्नोई जोधपुर राजस्थान में स्थित एक संरक्षण रिजर्व है। गुडा बिश्नोई गांव खेजड़ी के पेड़ों और हिरणों से भरा हुआ एक सुंदर प्राकृतिक सौंदर्य है।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16695,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए तथा नीचे दिये गए कूट का प्रयोग कर सही उत्तर का चयन कीजिए - सूची -I (वन्यजीव संरक्षित क्षेत्र)1. सुन्धा माता 2. गुडा विश्नोईयान 3. गोगेलाव 4. बीड़सूची - II (जिला)a. झुन्झुनूb. नागौरC. जोधपुरd. जालोर - सिरोहीकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(d), 2-(c), 3-(a), 4-(b)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(d), 2-(c), 3-(b), 4-(a)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(a), 2-(b), 3-(d), 4-(c)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(a), 2-(b), 3-(c), 4-(d)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सुंधामाता: जालौर व सिरोहीगुढ़ा विश्नोई: जोधपुरगोगेलाव: नागौरबीड़: झुंझूनू",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16696,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (संरक्षित क्षेत्र - जिला) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फुलवारी की नाल - राजसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "केसर बाग - धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बस्सी - चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "शेरगढ़ - बारां"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16697,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा वन्यजीव अभ्यारण्य काले हिरण और कुरजा के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सज्जनगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "गजनेर"
+        },
+        {
+          "id": "opt3",
+          "text": "सरिस्का"
+        },
+        {
+          "id": "opt4",
+          "text": "तालछापर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16698,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा क्षेत्र उड़नगिलहरी के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माउन्ट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "ताल छापर"
+        },
+        {
+          "id": "opt3",
+          "text": "कैलादेवी"
+        },
+        {
+          "id": "opt4",
+          "text": "सीता माता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16699,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामगढ़ विषधारी अभ्यारण्य को किस स्वरूप में अधिसूचित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैविक उद्यान"
+        },
+        {
+          "id": "opt2",
+          "text": "राश्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt3",
+          "text": "बाघ संरक्षित"
+        },
+        {
+          "id": "opt4",
+          "text": "यूनेस्को एम.ए.बी."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16701,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का प्रथम ‘बर्ड पार्क’ स्थित है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16703,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आमागढ़ लैपर्ड सफारी का आरम्भ किया गया –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी में"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आगरा रोड पर गलता की पहाड़ियों में आमागढ़ लेपर्ड रिजर्व 16.36 वर्ग किलोमीटर में फैला हुआ है। जहां फिलहाल 20 से ज्यादा लेपर्ड रह रहे हैं। वन विभाग द्वारा लेपर्ड रिजर्व में 12 किलोमीटर लंबा सफारी ट्रैक तैयार किया है। वहीं वन्यजीवों के लिए 7 वाटर पॉइंट बनाए गए है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16704,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा, 3162 km2 के क्षेत्र में फैला हुआ और थार मरुस्थल के पारिस्थितिकी तंत्र और इसके विविध जीवों का उत्कृष्ट उदाहरण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर का केवलादेव राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर का मरुभूमि राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर का रणथंभौर राष्ट्रीय उद्यान"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर का सरिस्का टाइगर रिज़र्व"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16706,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान जैविक विविधता नियम किस वर्ष तैयार किए गए थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2002"
+        },
+        {
+          "id": "opt2",
+          "text": "2005"
+        },
+        {
+          "id": "opt3",
+          "text": "2010"
+        },
+        {
+          "id": "opt4",
+          "text": "2008"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16707,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नाहरगढ़ जैविक उद्यान का उद्घाटन वर्ष ______ में किया गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2014"
+        },
+        {
+          "id": "opt2",
+          "text": "2015"
+        },
+        {
+          "id": "opt3",
+          "text": "2016"
+        },
+        {
+          "id": "opt4",
+          "text": "2017"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इस पार्क का निर्माण 2013 में शुरू हुआ था और पार्क का उद्घाटन मार्च 2016 में मुख्यमंत्री वसुंधरा राजे ने किया था।",
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16708,
+        "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वन्यजीव विविधता के बारे में सही कथन का चयन करें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर का केवलादेव राष्ट्रीय उद्यान और जैसलमेर का मरुभूमि राष्ट्रीय उद्यान, बाघों की आबादी के लिए विश्व भर में जाना जाता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर जिले में स्थित सरिस्का टाइगर रिजर्व 1973 में प्रोजेक्ट टाइगर का हिस्सा बना।"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर में स्थित रणथंभौर राष्ट्रीय उद्यान को 1979 में राष्ट्रीय उद्यान घोषित किया गया था।"
+        },
+        {
+          "id": "opt4",
+          "text": "ताल छपर अभयारण्य, सुजानगढ़, चुरू जिले में सुंदर काले हिरण की बड़ी आबादी पाई जाती हैं।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "केवलादेव राष्ट्रीय उद्यान भरतपुर में है। यह एशिया की सबसे बड़ी पक्षी प्रजनन स्थली है।सरिस्का टाइगर रिजर्व को 1955 में वन्य जीव अभ्यारण्य का दर्जा दिया गया। 1978-79 में यहां टाइगर रिजर्व प्रोजेक्ट शुरू किया गया। यह राजस्थान का दुसरा टाइगर रिजर्व प्रोजेक्ट है। वन्य जीव सरंक्षण अधिनियम, 1972 के अन्तर्गत सन् 1973 में रणथंभौर को टाईगर प्रोजेक्ट में शामिल किया गयां। राजस्थान का पहला टाईगर प्रोजेक्ट था। 1 नवम्बर 1980 को इसे राष्ट्रीय उद्यान का दर्जा दिया गया।तालछापर अभ्यारण्य (चुरू) में काले हिरणों को संरक्षण दिया है। तालछापर अभ्यारण्य को प्रवासी पक्षी “कुंरजा” की शरण स्थली कहा जाता है।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16709,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य जैव विविधता बोर्ड की स्थापना किस वर्ष हुई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2007"
+        },
+        {
+          "id": "opt2",
+          "text": "2008"
+        },
+        {
+          "id": "opt3",
+          "text": "2010"
+        },
+        {
+          "id": "opt4",
+          "text": "2012"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16710,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान स्टेट इनवायरमेन्ट पॉलिसी’ सर्वप्रथम किस वर्ष लागू की गई थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "२०११"
+        },
+        {
+          "id": "opt2",
+          "text": "२०१६"
+        },
+        {
+          "id": "opt3",
+          "text": "२०१०"
+        },
+        {
+          "id": "opt4",
+          "text": "२०१४"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वर्ष २०१० में राजस्थान राज्य पर्यावरण नीति लागू की गई थी। यह नीति राज्य में पर्यावरण से जुड़ी प्रमुख चुनौतियों की पहचान करती है। साथ ही साथ उन चुनौतियों से निपटने के लिए रणनीतियों और कार्यों का खाका तैयार करती है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16712,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पक्षी गाँव’ के नाम से प्रसिद्ध मेनार गाँव राजस्थान के किस जिले में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘पक्षी गाँव’ के नाम से प्रसिद्ध मेनार गाँव राजस्थान के उदयपुर जिले में स्थित है। मेनार गाँव को राजस्थान की नई आर्द्रभूमि के रूप में अधिसूचित किया गया। आर्द्रभूमियाँ हमारे प्राकृतिक पर्यावरण का महत्वपूर्ण हिस्सा है, ये बाढ़ की घटनाओं में कमी लाती है, तटीय इलाकों की रक्षा करती है, साथ ही प्रदूषकों को अवशोषित कर पानी की गुणवत्ता में सुधार करती है।",
+      "reference": "📌 PYQ — RPSC Protection Officer-2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16714,
+        "exam": "RPSC Protection Officer-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस शहर में राज्य का प्रथम बर्ड पार्क स्थापित किया गया।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुलाब बाग चिड़ियाघर राजस्थान के उदयपुर जिले में स्थित है। यह राजस्थान का प्रथम चिड़ियाघर है। इसकी स्थापना1878 में मेवाड़ के तत्कालीन शासक महाराणा सज्जन सिंह के शासनकाल में हुआ था। इसे पक्षी पार्क में परिर्वितत किया जा रहा है।",
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16715,
+        "exam": "RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान में कौन से टाइगर रिजर्व हैंः (A) सरिस्का (B) रामगढ़ विषधारी (C) रणथम्मौर (D) मुकुन्दरा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B, C एवं D"
+        },
+        {
+          "id": "opt2",
+          "text": "A, B, एवं C"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C एवं D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, C एवं D"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्तमान में राजस्थान में कुल5टाइगर रिजर्व स्थापित किए गए हैं – रणथंभौर, सरिस्का, मुकुंदा हिल्स, रामगढ़ विषधारी और धौलपुर-करौली टाइगर रिजर्व।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16716,
+        "exam": "RPSC School Lect. Group-C (S.E.)2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2016 मे कंचनजंगा राष्ट्रीय उद्यान को यूनेस्को द्वारा किस वर्ग में विश्व विरासत स्थल का दर्जा दिया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्राकृतिक विश्व विरासत स्थल"
+        },
+        {
+          "id": "opt2",
+          "text": "मिश्रित विश्व विरासत स्थल"
+        },
+        {
+          "id": "opt3",
+          "text": "सांस्कृतिक विश्व विरासत स्थल"
+        },
+        {
+          "id": "opt4",
+          "text": "ऐतिहासिक विश्व विरासत स्थल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जुलाई, २०१६ में कंचनजंगा राष्ट्रीय उद्यान (सिक्किम) को यूनेस्को की विश्व धरोहर स्थल की मिश्रित विश्व विरासत स्थल सूची में शामिल किया गया था। यह भारत का पहला ‘मिश्रित विरासत स्थल’ बन गया है।",
+      "reference": "📌 PYQ — RPSC Protection Officer-2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18993,
+        "exam": "RPSC Protection Officer-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस वन्यजीव अभ्यारण्य को भारत के ५२वें टाइगर रि़जर्व के रूप में अधिसूचित किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामगढ़ विषधारी, राजस्थान"
+        },
+        {
+          "id": "opt2",
+          "text": "मुकुंदरा हिल्स, राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीविल्लीपुथुर-मेगामलाई, तमिलनाडु"
+        },
+        {
+          "id": "opt4",
+          "text": "गुरु घासीदास राष्ट्रीय उद्यान, छत्तीसगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रामगढ़ विषधारी वन्य जीव अभ्यारण्य भारत का ५२ वाँ टाइगर रिजर्व है। यह राजस्थान का चौथा टाइगर रिर्जव है। फरवरी २०२५ तक भारत में कुल ५७ टाइगर रिर्जव है। मध्य प्रदेश का रातापानी वन्य जीव अभयारण्य ५७वां टाइगर रिर्जव है।",
+      "reference": "📌 PYQ — RPSC School Lect. (Group-D) 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18994,
+        "exam": "RPSC School Lect. (Group-D) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा भारत का बायोस्फीयर रिजर्व नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पचमढ़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्छ"
+        },
+        {
+          "id": "opt3",
+          "text": "पन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "फूलों की घाटी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वर्तमान में भारत में कुल १८ बायोस्फीयर रिर्जव हैं, जो निम्न हैं - शीत रेगिस्तान, नंदा देवी, कंचनजंघा, देहांग -दिबांग, मानस, डिब्रू-सैखोवा, नोकरेक, पन्ना, पंचमढ़ी, अचान कमार- अमरकंटक, कच्छ, सिमिलिपाल, सुदंरबन, शेषाचलम, अगस्तमलाई, नीलगिरि, मन्नार की खाड़ी, ग्रेट निकोबार। दिये गये विकल्पों में फूलों की घाटी (उत्तराखंड) बायोस्फीयर रिजर्व नही है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18995,
+        "exam": "RPSC School Lect. (SE) G-B 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

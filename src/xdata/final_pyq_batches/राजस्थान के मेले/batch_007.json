@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 7,
+  "batchName": "राजस्थान के मेले भाग 7",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा युग्म सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तैजाजी का मेला- बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "वेणेश्वर मेला- डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदेवजी का मेला- जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्खी मेला- करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9482,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, वार्षिक शीतकालीन उत्सव ___ में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माउंट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9483,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, पतंग उत्सव _____ के महीने में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अप्रैल"
+        },
+        {
+          "id": "opt2",
+          "text": "जून"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "सितंबर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9484,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर ऊंट त्योहार _____ के महीने में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जून"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्च"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "अगस्त"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9485,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "____ को मूल रूप से मांड महोत्सव के रूप में जाना जाता था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt3",
+          "text": "चंद्रभागा"
+        },
+        {
+          "id": "opt4",
+          "text": "कबीर यात्रा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का मारवाड़ महोत्सव मूल रूप से ‘मांड महोत्सव’ के रूप में जाना जाता था। यह महोत्सव अश्विन के महीने में आयोजित किया जाता है। अश्विन सितंबर-अक्टूबर के बीच एक हिंदू महीना है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9486,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस शहर में प्रत्येक वर्ष विश्व प्रसिद्ध उर्स का आयोजन किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9487,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डोल मेला किस शहर में आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9488,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जसवन्त प्रदर्शनी किस शहर में आयोजित की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9489,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित मेलों को उनके आयोजन के माह से सुमेलित कीजिए एवं नीचे दिये गये सही कूट का चयन कीजिए -मेला माहअ. पुष्कर 1. चैत्रब. जीणमाता 2. भाद्रपदस. भर्तृहरि 3. कार्तिकद. डिग्गी 4. श्रावणकूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 1, 2, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 2, 1, 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 3, 4, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 4, 3, 1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9490,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची II से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए: सूची-I (पशु मेला) सूची-II (स्थान)A. श्री बलदेव पशु मेला 1. मेड़तासिटीB. चंद्रभागा पशु मेला 2. परबतसर C. रामदेव पशु मेला 3. झालरापाटनD. वीर तेजाजी पशु मेला 4. नागौरकूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 3 4 2"
+        },
+        {
+          "id": "opt2",
+          "text": "3 1 4 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1 3 2 4"
+        },
+        {
+          "id": "opt4",
+          "text": "4 1 3 2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्रीबलदेव पशु मेलामेड़ता सिटी (नागौर) में आयोजित होता है। चन्द्रभागा पशु मेलाझालरापाटन (झालावाड़) में कार्तिक माह में आयोजित होता है। मालवी नस्ल से संबंधित है। रामदेव पशु मेला मानासर (नागौर) में आयोजित होता है। श्री वीर तेजाजी पशु मेला परबतसर में आयोजित होता है। श्रावण पूर्णिमा से भाद्रपद अमावस्या तक चलता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9491,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मल्लीनाथ पशु मेला आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालरापाटन में"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "परबतसर में"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलवाड़ा में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मल्लीनाथ मेला तिलवाड़ा (बालोतरा) के पास प्रतिवर्ष आयोजित होने वाले राजस्थान के सबसे बड़े पशु मेलों में से एक है। यह मेला वीर योद्धा रावल मल्लीनाथ की स्मृति में आयोजित होता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9492,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा मेला वर्ष में दो बार आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री महावीरजी का मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "कैला देवी का मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "भर्तृहरि का मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवाड़ का मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अलवर से लगभग चालीस किलोमीटर दूर बाबा भर्तृहरि की समाधि है, जहाँ वर्ष में दो बार बैसाख और भाद्रपद में मेला लगता है। बीकानेर जिले में नोखा कस्बे के निकट स्थित करणी माता के मंदिर में भी साल में दो बार बड़े मेले लगते हैं। पहला मेला जो अधिक बड़ा होता है नवरात्रि में चैत्र शुक्ला एकम से चैत्र शुक्ला दशमी तक लगता है और दूसरा मेला अश्विन शुक्ला एकम से अश्विन शुक्ला दशमी तक लगता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9493,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुष्कर पशु मेला कब आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र के माह में"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक के माह में"
+        },
+        {
+          "id": "opt3",
+          "text": "आषाढ़ के माह में"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद के माह में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पुष्कर मेला जिसे पुष्कर ऊँट मेला भी कहा जाता है (राजस्थान, भारत) पुष्कर शहर में आयोजित होने वाला वार्षिक बहु-दिवसीय पशुधन और सांस्कृतिक पर्व है। मेला कार्तिक के माह से शुरू होता है और कार्तिक पूर्णिमा पर समाप्त होता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9494,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसकी स्मृति में परबतसर का मेला आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt4",
+          "text": "जम्भोजी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9495,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सहरिया जनजाति के कुम्भ के नाम से प्रसिद्ध मेला है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीताबाडी मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "डोल मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "बेणेश्वर मेला"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9496,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से असंगत युग्म को छाँटिए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रीष्म महोत्सव – माउण्ट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रभागा मेला – झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथी महोत्सव – जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊँट महोत्सव – जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9497,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौनसा जिला ‘कानन मेला’ से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9498,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए -मेला स्थानअ. कानन मेला 1. नागौरब. मूंडवा का मेला 2. बाड़मेरस. मरू मेला 3. जैसलमेरद. कपिल मुनि का मेला 4. बीकानेरकूट अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "3, 4, 2, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 1, 3, 4"
+        },
+        {
+          "id": "opt4",
+          "text": "4, 3, 2, 1"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कानन मेला - बाड़मेरमूंडवा का मेला - नागौरमरू मेला - जैसलमेरकपिल मुनि का मेला - बीकानेर",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9499,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रमुख पशु-मेलों तथा उनसे सम्बद्ध स्थलों के विषय में निम्न में से कौन सा युग्म असत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रभागा पशु मेला - झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "सारणेश्वर पशु मेला - नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "तिलवाड़ा पशु मेला - बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जसवन्त पशु मेला - भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सारणेश्वर मेला, सिरोही में देवझूलनी एकादशी को लगता है।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9500,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चन्द्रभागा मेला’ राजस्थान के निम्नलिखित में से किस जिले में आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में चंद्रभागा मेले में देश भर से हज़ारों आगंतुक और प्रतिभागी आते हैं। यह कार्तिक (अक्टूबर और नवंबर) के महीने में झालावाड़ से लगभग छह किलोमीटर की दूरी पर स्थित झालरापाटन में आयोजित किया जाता है।",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9501,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    }
+  ]
+}

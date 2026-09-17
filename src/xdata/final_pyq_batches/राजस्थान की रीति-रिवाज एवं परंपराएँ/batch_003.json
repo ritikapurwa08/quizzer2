@@ -1,0 +1,76 @@
+{
+  "masterTopic": "राजस्थान की रीति-रिवाज एवं परंपराएँ",
+  "batchIndex": 3,
+  "batchName": "राजस्थान की रीति-रिवाज एवं परंपराएँ भाग 3",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-रीति-रिवाज-एवं-परंपराएँ",
+  "negativeMarking": true,
+  "questionCount": 2,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "संस्कार की संख्या कुल कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारह"
+        },
+        {
+          "id": "opt2",
+          "text": "चौदह"
+        },
+        {
+          "id": "opt3",
+          "text": "सोलह"
+        },
+        {
+          "id": "opt4",
+          "text": "अठारह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11918,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मृत्यु उत्सव के लिए राजस्थान में निम्नलिखित में से कौन सा एक नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दापा"
+        },
+        {
+          "id": "opt2",
+          "text": "मोसर"
+        },
+        {
+          "id": "opt3",
+          "text": "हेल्मो"
+        },
+        {
+          "id": "opt4",
+          "text": "बढार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable(7981)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11936,
+        "exam": "Raj Police Constable(7981)",
+        "year": null
+      }
+    }
+  ]
+}

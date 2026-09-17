@@ -1,0 +1,661 @@
+{
+  "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+  "batchIndex": 11,
+  "batchName": "राजस्थान का लोक संगीत एवं लोकगीत भाग 11",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-का-लोक-संगीत-एवं-लोकगीत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पंडित विश्व मोहन भट्ट का संबंध किस वाद्य यंत्र से स्थापित किया जा सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोहनवीणा"
+        },
+        {
+          "id": "opt2",
+          "text": "ड्रम सेट"
+        },
+        {
+          "id": "opt3",
+          "text": "सितार"
+        },
+        {
+          "id": "opt4",
+          "text": "सरोद"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के पंडित विश्व मोहन भट्ट का संबंध मोहन वीणा से स्थापित किया जा सकता है। उन्होंने इस विशेष वाद्य यंत्र का निर्माण और विकास किया है, जो कि गिटार और वीणा का एक संयोजन है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15602,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मांगणियारो द्वारा प्रयुक्त वाद्य यंत्र कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "भपंग"
+        },
+        {
+          "id": "opt3",
+          "text": "रवाज"
+        },
+        {
+          "id": "opt4",
+          "text": "कमायचा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15603,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित को सुमेलित कीजिए -संगीत घराना कलाकारअ. डागर घराना 1. मोतीराम ज्योतिरामब. जयपुर घराना 2. बहराम खांस. मेवाती घराना 3. मनरंगद. अतरौली घराना 4. दुल्लु खांअ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2, 3, 1, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 4, 3, 2"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 1, 4, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "4, 1, 3, 2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15604,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए एवं नीचे दिये गये कूट से सही उत्तर का चयन कीजिए -संगीतज्ञ रचनाअ. चांद खां 1. रामज्जरीब. पुण्डरीक विट्ठल 2. रागचन्द्रिकास. देवर्षि भट्ट 3. संगीतसारद. द्वारकानाथ 4. स्वर-सागरकूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 4, 2, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 1, 3, 2"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 2, 4, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 1, 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चांद खां - स्वर-सागरपुण्डरीक विट्ठल - रामज्जरीदेवर्षि भट्ट - संगीतसारद्वारकानाथ - रागचन्द्रिका",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15605,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राई बुढ़िया और राई माता किस लोक नाट्य के मुख्य पात्र हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवरी"
+        },
+        {
+          "id": "opt2",
+          "text": "वालर"
+        },
+        {
+          "id": "opt3",
+          "text": "रम्मत"
+        },
+        {
+          "id": "opt4",
+          "text": "तुर्रा कलंगी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15613,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिन्दुस्तानी वादन की ख्याल शैली के ‘जयपुर घराना’ के प्रवर्तक कौन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विष्णु भातखण्डे"
+        },
+        {
+          "id": "opt2",
+          "text": "जियाउद्दीन डागर"
+        },
+        {
+          "id": "opt3",
+          "text": "बहराम खान"
+        },
+        {
+          "id": "opt4",
+          "text": "मनरंग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हिन्दुस्तानी वादन की ख्याल शैली के जयपुर घराना के प्रवर्तक मनरंग थे। इनका पूरा नाम मनरंग भूपत खान था।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15615,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक गीत ओल्यूं गाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रिय की याद में"
+        },
+        {
+          "id": "opt2",
+          "text": "वीरता के महिमामण्डन में"
+        },
+        {
+          "id": "opt3",
+          "text": "शोक की घड़ी में"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्सव के अवसर पर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का लोकगीत ओल्यूं किसी की याद में गाया जाता है। ओल्यूं का मतलब याद आना होता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15616,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन कामायचा के बारे में असत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कामायचा मांगनियार समुदाय के द्वारा बहुतायत से प्रयोग किया जाता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह लकड़ी के एकल टुकड़े से बनाया जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसके तीन मुख्य तंतु बकरे की आँत के बने होते हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "कामायचा को वायलिन का अग्रगामी माना जाता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कमायचा इस्पात, चर्मपत्र, आँत, धातु, शीशम और घोड़े के बाल से निर्मित एक तार वाद्य यंत्र है। पश्चिमी राजस्थान के मंगनियार (Manganiar) समुदाय द्वारा अपनी गीतों की एक लोकप्रिय संगत के रूप में प्रमुख रूप से इस यंत्र का उपयोग किया जाता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15617,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौनसा लोकवाद्य तत् वाद्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt2",
+          "text": "जन्तर"
+        },
+        {
+          "id": "opt3",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "बांकिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15618,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर की गायिका अल्लाहजिलाई बाई किस राग गाने के लिए प्रसिद्ध थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बसंती"
+        },
+        {
+          "id": "opt2",
+          "text": "जैजेवंती"
+        },
+        {
+          "id": "opt3",
+          "text": "मल्हार"
+        },
+        {
+          "id": "opt4",
+          "text": "माण्ड"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15621,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस लोक वाद्य को ज्यूज़ हार्प भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt2",
+          "text": "मोर चंग"
+        },
+        {
+          "id": "opt3",
+          "text": "रावण हत्था"
+        },
+        {
+          "id": "opt4",
+          "text": "कमायचा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15622,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘झोरवा’ गीत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक विरह गीत"
+        },
+        {
+          "id": "opt2",
+          "text": "परिवार में गाया जाने वाला एक जन्मोत्सव गीत"
+        },
+        {
+          "id": "opt3",
+          "text": "वधू विदाई गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "फसल रोपने के समय गाया जाने वाला गीत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15623,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा मिलान सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रजब अली खान - वीणा वादक"
+        },
+        {
+          "id": "opt2",
+          "text": "आमिर खान - सितार वादक"
+        },
+        {
+          "id": "opt3",
+          "text": "अल्लाह जिलाई बाई - मांड गायक"
+        },
+        {
+          "id": "opt4",
+          "text": "रवि शंकर - नड़ वादक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रवि शंकर एक भारतीय संगीतकार और संगीतकार थे, जो सितार बजाते थे और शास्त्रीय भारतीय संगीत को पश्चिम के ध्यान में लाने के लिए जाने जाते थे।",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15624,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जंतर’ वाद्य यंत्र किसके द्वारा बजाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवनारायण जी के भोपे"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबू जी के भोपे"
+        },
+        {
+          "id": "opt3",
+          "text": "गरासिया जाति"
+        },
+        {
+          "id": "opt4",
+          "text": "भील जाति"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोकदेवता देवनारायण जी की फड़ वाचन के समय जंतर वाद्य यंत्र को बजाते हुए भोपे इनकी कथा कहते है तथा गीत गाते है। इसका उपयोग गायन में मुख्यतः बदनौर, नगड़िया, सवाई भोज व मेवाड़ में भोपे इसके वादन में कुशल है।",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15625,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान कबीर यात्रा’ का संबंध निम्नलिखित में से किस क्षेत्र से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गायन"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "लेखन"
+        },
+        {
+          "id": "opt4",
+          "text": "वानिकी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15626,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस शहर में होली के दौरान ‘रम्मत’ का आयोजन किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैमलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15627,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक लोकगीत राजस्थान के पर्वतीय क्षेत्र का नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पटेल्या"
+        },
+        {
+          "id": "opt2",
+          "text": "कुरजां"
+        },
+        {
+          "id": "opt3",
+          "text": "बिछीयो"
+        },
+        {
+          "id": "opt4",
+          "text": "लालर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जैसलमेर, बाड़मेर, बीकानेर, जोधपुर क्षेत्रों में गाये जाने वाले गीत – कुरजां पीपली, रतन राणो, मूमल, घूघरी केवड़ा आदि।कुरजाँ गीत में नायिका द्वारा परदेस में रहने वाले अपने प्रियतम को संदेश भिजवाने के लिए कुरजां पक्षी के माध्यम से यह गीत गाया जाता है- कुरजां ए म्हारौ भंवर मिलादयो ए।",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15628,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवरी देवी जिस गायन शैली से संबद्ध थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "मांड"
+        },
+        {
+          "id": "opt3",
+          "text": "तालबंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "ठुमरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीकानेर से अल्लाह जिलई बाई (लोक संगीत में पद्म श्री-1982 और संगीत नाटक अकादमी पुरस्कार-1988 से सम्मानित), उदयपुर से मांगी बाई आर्य (लोक संगीत में संगीत नाटक अकादमी पुरस्कार -2008 से सम्मानित), और जोधपुर से गवरी बाई (लोक संगीत में संगीत नाटक अकादमी पुरस्कार-1975-76 और 1986 द्वारा सम्मानित) माण्ड गायकों में शामिल हैं।",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15629,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लच्छीराम द्वारा किस ख्याल का प्रवर्तन किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावाटी ख्याल"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुरी ख्याल"
+        },
+        {
+          "id": "opt3",
+          "text": "कुचामनी ख्याल"
+        },
+        {
+          "id": "opt4",
+          "text": "तुर्रा कलंगी ख्याल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Computor Exam 2018",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15630,
+        "exam": "Computor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गुलाल बाई और कृष्णा कुमारी किसके लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्वांग लोकनाट्य"
+        },
+        {
+          "id": "opt2",
+          "text": "नौटंकी लोकनाट्य"
+        },
+        {
+          "id": "opt3",
+          "text": "गवरी लोकनाट्य"
+        },
+        {
+          "id": "opt4",
+          "text": "ख्याल लोकनाट्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15631,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
+  "batchIndex": 2,
+  "batchName": "राजस्थान की वेशभूषा एवं आभूषण भाग 2",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-वेशभूषा-एवं-आभूषण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-II में दिए गए आभूषणों का मिलान सूची-I में दिए गए शरीर के उन हिस्सों से करें जहाँ उन्हें पहना जाता है।सूची-I (शरीर के वे हिस्से जहाँ आभूषण पहना जाताहै) सूची-II (आभूषण)a. पैर i. आड़b. सिर ii. झेलाc. गर्दन iii. लंगरd. कान iv. बोरलानीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-iii, b-iv, c-i, d-ii"
+        },
+        {
+          "id": "opt2",
+          "text": "a-i, b-iv, c-ii, d-iii"
+        },
+        {
+          "id": "opt3",
+          "text": "a-i, b-ii, c-iii, d-iv"
+        },
+        {
+          "id": "opt4",
+          "text": "a-ii, b-i, c-iv, d-iii"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लंगर (पैर), बोरला (सिर), आड़ (गर्दन), झेला (कान)।",
+      "reference": "📌 PYQ — Librarian Grade III 2024 (Paper 1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18010,
+        "exam": "Librarian Grade III 2024 (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तिमणिया आभूषण शरीर के किस अंग पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt2",
+          "text": "कान"
+        },
+        {
+          "id": "opt3",
+          "text": "गला"
+        },
+        {
+          "id": "opt4",
+          "text": "पैर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "तिमणिया एक पारंपरिक राजस्थानी आभूषण है जो गले में पहना जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18011,
+        "exam": "Junior Instructor (PLM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बुलाक’आभूषण मानव शरीर के किस भाग पर धारण किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाक"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt4",
+          "text": "कमर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बुलाक एक जटिल पारंपरिक आभूषण है जिसे नाक के पट पर पहना जाता है, जिसमें जटिल आकृति डिजाइन के साथ कुशल शिल्प कौशल का प्रदर्शन होता है।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18012,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में आभूषण को कॉलम II में शरीर अंग से मिलान कीजिए।कॉलम I (आभूषण)कॉलम II (शरीर अंग)1. फोलरी a. सिर 2. मेमन्द b. कान 3. पंचलड़ी c. पैर 4. सुरलिया d. गलानिम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-d, 2-c, 3-b, 4-a"
+        },
+        {
+          "id": "opt2",
+          "text": "1-b, 2-c, 3-a, 4-d"
+        },
+        {
+          "id": "opt3",
+          "text": "1-a, 2-b, 3-d, 4-c"
+        },
+        {
+          "id": "opt4",
+          "text": "1-c, 2-a, 3-d, 4-b"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आभूषणशरीर अंगफोलरीपैरमेमन्दसिरपंचलड़ीगलासुरलियाकान",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18014,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की वेशभूषा में प्रयुक्त ‘कसूमल’ निम्न में से कौन सा रंग होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल"
+        },
+        {
+          "id": "opt2",
+          "text": "पीला"
+        },
+        {
+          "id": "opt3",
+          "text": "गुलाबी"
+        },
+        {
+          "id": "opt4",
+          "text": "केसरिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सर्वाधिक विविधता लाल रंग में मिलती है। इसीलिए कहा भी गया है कि “मारू थारे देश में उपजै तीन रतन, इक ढोला, दूजी मारवण तीजो कसूमल रंग”, (कसूमल अर्थात् लाल)।",
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18015,
+        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में आभूषण को कॉलम II में महिलाएं पहनती हैं से मिलान कीजिए।कॉलम I (आभूषण)कॉलम II (महिलाएं पहनती हैं)1. बोर (बोरला)a. गला 2. ठुस्सीb. हाथ 3. पीपलपत्रc. सिर 4. नोगरीd. कान",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-c, 2-d, 3-b, 4-a"
+        },
+        {
+          "id": "opt2",
+          "text": "1-b, 2-c, 3-a, 4-d"
+        },
+        {
+          "id": "opt3",
+          "text": "1-c, 2-a, 3-d, 4-b"
+        },
+        {
+          "id": "opt4",
+          "text": "1-b, 2-a, 3-d, 4-c"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बोर (बोरला) - सिरठुस्सी - गलापीपलपत्र - काननोगरी - हाथ",
+      "reference": "📌 PYQ — Junior Instructor (WCS) Exam 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18016,
+        "exam": "Junior Instructor (WCS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मुरकियां’ शरीर के किस अंग पर पहना जाने वाला आभूषण है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाथों में"
+        },
+        {
+          "id": "opt2",
+          "text": "कानों में"
+        },
+        {
+          "id": "opt3",
+          "text": "पैरों में"
+        },
+        {
+          "id": "opt4",
+          "text": "गले में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मुरकियां एक प्रकार की बालियाँ हैं, जिन्हें कानों में पहना जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (ED) Exam 2024",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18017,
+        "exam": "Junior Instructor (ED) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बोरला’ नामक आभूषण महिलाएँ कहाँ पहनती हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt2",
+          "text": "सिर"
+        },
+        {
+          "id": "opt3",
+          "text": "कान"
+        },
+        {
+          "id": "opt4",
+          "text": "नाक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘बोरला’ राजस्थान में महिलाओं द्वारा पहना जाने वाला एक पारंपरिक आभूषण है, जिसे सिर के मध्यभाग पर सजाया जाता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18020,
+        "exam": "CET 2024 (12th Level) 22 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी पुरुष, ‘चेलकाडी’ आभूषण, _____ में पहनते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पैरों"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथों"
+        },
+        {
+          "id": "opt3",
+          "text": "कानों"
+        },
+        {
+          "id": "opt4",
+          "text": "उंगलियों"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘चेलकाडी’ एक पारंपरिक राजस्थानी आभूषण है, जिसे पुरुष अपने कानों में पहनते हैं। यह आभूषण राजस्थान की सांस्कृतिक धरोहर का हिस्सा है।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18022,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा आभूषण कान में पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चाँट"
+        },
+        {
+          "id": "opt2",
+          "text": "पोंत"
+        },
+        {
+          "id": "opt3",
+          "text": "नोगरी"
+        },
+        {
+          "id": "opt4",
+          "text": "ओखरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "“ओखरी” राजस्थान में पहनी जाने वाली एक पारंपरिक बाली है।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18023,
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मध्यकालीन मारवाड़ में ‘रामझोल’ आभूषण शरीर के किस हिस्से से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पेट"
+        },
+        {
+          "id": "opt2",
+          "text": "नाक"
+        },
+        {
+          "id": "opt3",
+          "text": "पैर"
+        },
+        {
+          "id": "opt4",
+          "text": "उँगलिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रामझोल आभूषण राजस्थानी महिलाओं द्वारा पहना जाता है जो उनकी समृद्ध विरासत का हिस्सा है। रिमझोल एक समान रूप से गठित अंगूठी और आभूषण है जो पैर की गति के साथ झुनझुनाहट करता है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18025,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए।सूची-I उत्पाद सूची-II जिला(a) नीले मिट्टी के बर्तन और रत्न एवं आभूषण (i) अजमेर(b) ग्रेनाइट/संगमरमर (ii) कोटा(c) कढ़ाई का कपड़ा (iii) जयपुर(d) ऑटोमोबाइल पार्टस (iv) अलवरनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a) - (iv), (b) - (ii), (c) - (i), (d) - (iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a) - (iii), (b) - (i), (c) - (ii), (d) - (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a) - (i), (b) - (iii), (c) - (iv), (d) - (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a) - (ii), (b) - (iv), (c) - (iii), (d) - (i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नीले मिट्टी के बर्तन और रत्न एवं आभूषण - जयपुरग्रेनाइट/संगमरमर - अजमेरकढ़ाई का कपड़ा - कोटाऑटोमोबाइल पार्ट्स - अलवर",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18051,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हामेल’ आभूषण राजस्थानी महिलाओं द्वारा ____ पर/में पहना जाता है।निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt2",
+          "text": "सिर"
+        },
+        {
+          "id": "opt3",
+          "text": "टखने"
+        },
+        {
+          "id": "opt4",
+          "text": "कमर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हामेल एक पारंपरिक राजस्थानी आभूषण है, जो महिलाओं द्वारा गर्दन में हार के रूप में पहना जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift II)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18060,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“बोरला” नाम का आभूषण राजस्थानी महिलाओं द्वारा _____ में पहना जाता है।निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गला"
+        },
+        {
+          "id": "opt2",
+          "text": "टखना"
+        },
+        {
+          "id": "opt3",
+          "text": "कलाई"
+        },
+        {
+          "id": "opt4",
+          "text": "सिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बोरला एक पारंपरिक राजस्थानी आभूषण है, जिसे महिलाएँ सिर पर मांग के बीच में पहनती हैं। विशेष रूप से विवाहित महिलाओं द्वारा पहना जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18062,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I के साथ सूची II का मिलान कीजिए: सूची-Iगहने सूची-IIपहनने का अंगa. घुस्सी I. अंगुलीb. बोरला II. कानc. दामना III. गलाd. झाले IV. सिरनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a - IV, b - II, c - III, d - I"
+        },
+        {
+          "id": "opt2",
+          "text": "a - I, b - III, c - II, d - IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a - I, b - II, c - III, d - IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a - III, b - IV, c - I, d - II"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ठुस्सी: गले का आभूषणबोरला: सिर पर पहना जाता हैदामना: अंगुली में पहनी जाने वाली अंगूठीझाले: कानों के लिए झुमके",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18067,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में विवाह के अवसर पर पुरुष किस प्रकार की पगड़ी पहनते हैं -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मदील"
+        },
+        {
+          "id": "opt2",
+          "text": "अंटीवाली"
+        },
+        {
+          "id": "opt3",
+          "text": "मोथड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "लहरिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पुरुषों के द्वारा विवाह के अवसर पर ’मोठड़ा पगड़ी’ पहनी जाती है। मोठड़े के कई रूप भी होते है, जैसे – लहरिया, साड़ी और गाउन। पगड़ी पारंपरिक राजस्थानी पोशाक का एक विशेष हिस्सा है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18070,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बेसर’ और ‘भंवरकड़ी’ नामक आभूषण महिलाओं में पहना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाक"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "पैर"
+        },
+        {
+          "id": "opt4",
+          "text": "गले"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नाक के आभूषण - नथ, वारी, काँटा, चूनी, चोप, बेसर, भंवरकड़ी",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18071,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कंदोरा” आभूषण ___ पर पहना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिर"
+        },
+        {
+          "id": "opt2",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt3",
+          "text": "पैर"
+        },
+        {
+          "id": "opt4",
+          "text": "कमर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कमर के आभूषण - कंदोरा और कर्धनी, तागडी, कणकती, मेखला, सटका - लहंगे के नेफे में अटकाकर लटकाया जाने वाला आभूषण",
+      "reference": "📌 PYQ — Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18072,
+        "exam": "Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्त्रियों द्वारा ‘बोरला’ आभूषण ____ पर पहना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पैर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिर"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "कमर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18074,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महिला पोशाक पोमचा किस अवसर पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt2",
+          "text": "शिशु के जन्म"
+        },
+        {
+          "id": "opt3",
+          "text": "सगाई"
+        },
+        {
+          "id": "opt4",
+          "text": "हरियाली तीज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18076,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    }
+  ]
+}

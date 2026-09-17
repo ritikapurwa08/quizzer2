@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान राज्य प्रशासन",
+  "batchIndex": 3,
+  "batchName": "राजस्थान राज्य प्रशासन भाग 3",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-राज्य-प्रशासन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, जिला स्तर पर कौन-सा सर्वोच्च न्यायिक न्यायालय है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उच्च न्यायालय"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला एवं सत्र न्यायालय"
+        },
+        {
+          "id": "opt3",
+          "text": "न्यायिक मजिस्ट्रेट का न्यायालय"
+        },
+        {
+          "id": "opt4",
+          "text": "परिवार न्यायालय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में प्रत्येक जिले में जिला एवं सत्र न्यायालय सर्वोच्च न्यायिक संस्था होती है। यह दीवानी और फौजदारी दोनों मामलों की सुनवाई करता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14551,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पहली महिला मंत्री कौन थीं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वसुन्धरा राजे"
+        },
+        {
+          "id": "opt2",
+          "text": "यशोदा देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "दिया कुमारी"
+        },
+        {
+          "id": "opt4",
+          "text": "कमला बेनीवाल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान सरकार के मंत्रिपरिषद में स्थान पाने वाली राजस्थान की पहली महिला राजनीतिज्ञ कमला बेनीवाल थीं। वह भारतीय राष्ट्रीय कांग्रेस पार्टी की एक वरिष्ठ सदस्य हैं।उन्होंने 1954 में विधानसभा चुनाव जीता और केवल 27 साल की उम्र में राजस्थान राज्य सरकार में मंत्री का पद संभाला।उन्होंने 2003 में राजस्थान के उप-मुख्यमंत्री के रूप में कार्य किया।उन्होंने त्रिपुरा - 2009, गुजरात - 2009-2014 और मिजोरम - 2014 के राज्यपाल के रूप में कार्य किया।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14553,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में किसी राज्य के महाधिवक्ता (ऐड्वोकेट जनरल) की नियुक्ति कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य का कानून मंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "उस राज्य का राज्यपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "उस राज्य का मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुसार, राज्य का सर्वोच्च विधिक अधिकारी महाधिवक्ता राज्यपाल द्वारा नियुक्त किया जाता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20700,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में राज्यों के ज़िलों में निचली अदालतें _____ के सीधे अधीक्षण में कार्य करती हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संसद"
+        },
+        {
+          "id": "opt2",
+          "text": "उच्च न्यायालय"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत के राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "सर्वोच्च न्यायालय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुच्छेद 235 के अनुसार, जिलों में निचली अदालतें (जैसे जिला न्यायालय, सिविल जज, मजिस्ट्रेट आदि) उच्च न्यायालय के सीधे अधीक्षण (Control) में कार्य करती हैं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20701,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति के लिए, भारत का राष्ट्रपति निम्न से परामर्श करता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत के मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt3",
+          "text": "केंद्रीय गृह मंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रधानमंत्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संविधान के अनुसार भारत का राष्ट्रपति, किसी राज्य के उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति से पहले भारत के मुख्य न्यायाधीश से परामर्श करता है।संविधान का अनुच्छेद 217: यह कहता है कि उच्च न्यायालय के न्यायाधीश की नियुक्ति राष्ट्रपति द्वारा भारत के मुख्य न्यायाधीश (CJI), राज्य के राज्यपाल के परामर्श से की जाएगी।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20702,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में अधीनस्थ न्यायालयों के न्यायाधीशों की नियुक्ति निम्नलिखित में से कौन करता है -(निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत के राष्ट्रपति"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत के प्रधान मंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत के मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य का राज्यपाल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "संविधान के भाग VI में अनुच्छेद 233 से 237 तक अधीनस्थ न्यायालयों के संगठन के लिए प्रावधान करते हैं। किसी राज्य में जिला न्यायाधीशों की नियुक्ति, नियुक्ति और पदोन्नति राज्य के उच्च न्यायालय के परामर्श से राज्य के राज्यपाल द्वारा की जाती है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20703,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान के अनुच्छेद 217 के तहत, निम्नलिखित में से कौन उच्च न्यायालय के न्यायाधीश की नियुक्ति करता है? (निम्न में से सबसे उपयुक्त बिकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य का मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत का प्रधान मंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत का राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य का महाधिवक्ता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय संविधान के अनुच्छेद 217 के अंतर्गत उच्च न्यायालय के न्यायाधीश की नियुक्ति भारत के राष्ट्रपति द्वारा की जा सकती है।परामर्श प्रक्रिया में भारत के मुख्य न्यायाधीश, संबंधित उच्च न्यायालय के मुख्य न्यायाधीश और संबंधित राज्य के राज्यपाल शामिल होते हैं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20704,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिए गए कूट का उपयोग करके सूची-I को सूची-II के साथ सुमेलित कीजिए -सूची-I (राजस्थान राज्य वित्त आयोग)(a) दूसरा वित्त आयोग(b) तीसरा वित्त आयोग(c) चौथा वित्त आयोग(d) पांचवां वित्त आयोगसूची-II (अध्यक्ष)(i) ज्योति किरण(ii) बी.डी. कल्ला(iii) हीरालाल देवपुरा(iv) माणिक चंद सुराणाकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य वित्त आयोग - अध्यक्षदूसरा वित्त आयोग - हीरालाल देवपुरा तीसरा वित्त आयोग - माणिक चंद सुराणा चौथा वित्त आयोग - बी.डी. कल्ला पांचवां वित्त आयोग - ज्योति किरण",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13993,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान काश्तकारी अधिनियम, 1955 की किस धारा में राजस्व न्यायालय को परिभाषित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धारा 130"
+        },
+        {
+          "id": "opt2",
+          "text": "धारा 5(35)"
+        },
+        {
+          "id": "opt3",
+          "text": "धारा 196(4)"
+        },
+        {
+          "id": "opt4",
+          "text": "धारा 120 (b)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान काश्तकारी अधिनियम, 1955 की धारा 5(35) में राजस्व न्यायालय की परिभाषा दी गई है।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13994,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राजस्व मंडल का मुख्यालय कहाँ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान राजस्व मंडल का मुख्यालय अजमेर में स्थित है। यह राजस्थान का सर्वोच्च न्यायिक और राजस्व प्रशासन निकाय है। यह राजस्थान भूमि राजस्व अधिनियम, 1956 द्वारा स्थापित है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13995,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के सबसे लंबे समय तक मुख्य सचिव रहे हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री एम.एल. मेहता"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री ओम प्रकाश मीना"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री सी.के. मैथ्यू"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री सुधांश पंत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एम.एल. मेहता 9 मई 1958 से 26 सितंबर 1964 तक मुख्य सचिव रहे, जो इनमें सबसे लंबा कार्यकाल है।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14554,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सचिवालय पुनर्गठन समिति (1969) का मुख्य उद्देश्य क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सचिवालय भवन निर्माण"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्मचारियों की भर्ती"
+        },
+        {
+          "id": "opt3",
+          "text": "सेल सिस्टम की समीक्षा"
+        },
+        {
+          "id": "opt4",
+          "text": "बजट निर्माण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1969 की समिति (मुख्यतः प्रशासनिक सुधार के लिए) का उद्देश्य सचिवालय में सेल सिस्टम (विभागीय सेल व्यवस्था) की समीक्षा और सुधार था, न कि भवन निर्माण या भर्ती।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14555,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के प्रथम मुख्य सचिव थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री एस.डब्ल्यू. शिवेशकर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री के. राधाकृष्णन"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री वी. नारायण"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री बी. जी. राव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के पहले मुख्य सचिव श्री के. राधाकृष्णन (1949) थे। राजस्थान की पहली महिला मुख्य सचिव श्रीमती कुशलसिंह थीं। 1973 के बाद इस पद को केंद्र सरकार के सचिव के समकक्ष मानकीकृत किया गया।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14556,
+        "exam": "Prahari 2024 Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पुलिस में आरएसी (RAC) क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt2",
+          "text": "राजगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt3",
+          "text": "आरक्षित सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान सशस्त्र कांस्टेबुलरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आरएसी (RAC) का पूर्ण रूप राजस्थान सशस्त्र कांस्टेबुलरी (Rajasthan Armed Constabulary) है। यह राजस्थान पुलिस का एक विशेष सशस्त्र बल है, जो दंगों, भीड़ नियंत्रण, और अन्य सुरक्षा कार्यों के लिए जिम्मेदार है।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14557,
+        "exam": "Prahari 2024 Shift 1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित मुख्य सचिवों पर विचार कीजिए तथा उन्हें उनके कार्यकाल के अनुसार कालक्रम में व्यवस्थित कीजिए। नीचे दिए गए कूटों की सहायता से सही उत्तर दीजिए।I. सी.एस. राजनII. ऊषा शर्माIII. निरंजन कुमार आर्यIV. सी.के. मैथ्यूकूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "IV, II, III, I"
+        },
+        {
+          "id": "opt2",
+          "text": "I, IV, III, II"
+        },
+        {
+          "id": "opt3",
+          "text": "IV, I, III, II"
+        },
+        {
+          "id": "opt4",
+          "text": "I, IV, II, III"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कालक्रम के अनुसार: सी.के. मैथ्यू (2012-2013), सी.एस. राजन (2013-2013), निरंजन कुमार आर्य (2020-2022), ऊषा शर्मा (2022-2023)।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14558,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किन दो ज़िलों में कमिश्नरेट व्यवस्था लागू है -(निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर एवं जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा एवं अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर एवं कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर एवं कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कमिश्नरेट व्यवस्था पुलिस प्रशासन के लिए लागू है, और यह जयपुर और जोधपुर में स्थापित है।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam 2024",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14559,
+        "exam": "Junior Instructor (SWT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मुख्य सचिव के पद पर कितनी महिलाएँ आसीन रह चुकी हैं - (मई 2025 तक)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "1"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में 2 महिलाएँ मुख्य सचिव रह चुकी हैं: 31 जनवरी 2022 को राज्य सरकार ने श्रीमती उषा शर्मा को राजस्थान का नया मुख्य सचिव नियुक्त किया। वे भारत सरकार के युवा मामले विभाग में सचिव के पद पर कार्यरत थीं और राज्य सरकार के केंद्र से अनुरोध के बाद अपने मूल कैडर राजस्थान लौट आई हैं। वह इस पद पर आसीन होने वाली दूसरी महिला हैं, श्रीमती कुशाल सिंह राजस्थान की पहली महिला मुख्य सचिव थीं, जो फरवरी 2009 से अक्टूबर 2009 तक इस पद पर कार्यरत रहीं।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14560,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस मुख्य सचिव ने “नॉन स्टोरी ऑफ ए चीफ सेक्रेटरी ड्यूरिंग इमरजेंसी, एट सेट्रा” पुस्तक लिखी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोपाल कृष्ण भनोत"
+        },
+        {
+          "id": "opt2",
+          "text": "मोहन मुखर्जी"
+        },
+        {
+          "id": "opt3",
+          "text": "मीठालाल मेहता"
+        },
+        {
+          "id": "opt4",
+          "text": "आर.डी. थापर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "“नॉन स्टोरी ऑफ ए चीफ सेक्रेटरी” पुस्तक मोहन मुखर्जी, पूर्व मुख्य सचिव, ने लिखी।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14561,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के मुख्य सचिवों को उनकी नियुक्ति के अनुसार पुराने से नये के क्रम में लगाएँ।(a) श्री राजीव स्वरूप (b) श्रीमती उषा शर्मा(c) श्री ओम प्रकाश मीणा (d) श्री कुशल सिंहनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(c), (d), (a), (b)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a), (d), (b), (c)"
+        },
+        {
+          "id": "opt3",
+          "text": "(b), (d), (a), (c)"
+        },
+        {
+          "id": "opt4",
+          "text": "(b), (c), (d), (a)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ओम प्रकाश मीणा (2016-17)कुशल सिंह (2009)राजीव स्वरूप (2020)उषा शर्मा (2022-23)",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14562,
+        "exam": "CET 2024 (12th Level) 24 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान प्रशासन प्रणाली (सिस्टम) के उच्चतम स्तर पर कार्यरत निकाय है: निम्नलिखित मेसे सबसे उपयुक्त विकल्प चुनें-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल कार्यालय"
+        },
+        {
+          "id": "opt2",
+          "text": "मुख्यमंत्री कार्यालय"
+        },
+        {
+          "id": "opt3",
+          "text": "मंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "सरकारी सचिवालय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य के प्रशासन तंत्र के शीर्ष स्तर पर शासन सचिवालय है जो जयपुर में स्थित है। यह मंत्रिपरिषद द्वारा बनाई गई नीतियों, नियमों एवं लिए गए निर्णयों को लागू करवाने का कार्य करता है। शासन सचिवालय का मुखिया मुख्य सचिव होता है जो सामान्यतः भारतीय प्रशासनिक सेवा का वरिष्ठतम अधिकारी एवं मुख्यमंत्री का विश्वासपात्र होता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14563,
+        "exam": "CET 2024 (12th Level) 22 October Shift-II",
+        "year": 2024
+      }
+    }
+  ]
+}

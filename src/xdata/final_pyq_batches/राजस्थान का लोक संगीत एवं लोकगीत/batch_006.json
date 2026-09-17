@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+  "batchIndex": 6,
+  "batchName": "राजस्थान का लोक संगीत एवं लोकगीत भाग 6",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-का-लोक-संगीत-एवं-लोकगीत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे ____ लोक वाद्य के सबसे बड़े प्रवक्ता थे-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt2",
+          "text": "कामायचा"
+        },
+        {
+          "id": "opt3",
+          "text": "सारंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "मोरचंग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "साकर खान एक प्रसिद्ध राजस्थानी लोक संगीतकार थे, जिन्हें कामायचा (Kamaicha) वाद्य यंत्र के लिए जाना जाता है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15414,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नड क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लकड़ी की चार पट्टियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "जुड़वां बांसुरियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "एक तार वाला वाघ"
+        },
+        {
+          "id": "opt4",
+          "text": "एक लम्बी बांसुरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15415,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस वाद्य यंत्र को “भेरीं” भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt2",
+          "text": "बांकिया"
+        },
+        {
+          "id": "opt3",
+          "text": "भूंगल"
+        },
+        {
+          "id": "opt4",
+          "text": "मशक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15416,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खड़ताल निम्न में से क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "राग"
+        },
+        {
+          "id": "opt3",
+          "text": "वाद्ययंत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "तालाब"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15417,
+        "exam": "High Court LDC 2022 (19 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रूपायन संस्थान’ कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बदनोर"
+        },
+        {
+          "id": "opt2",
+          "text": "बोरुन्दा"
+        },
+        {
+          "id": "opt3",
+          "text": "बगरू"
+        },
+        {
+          "id": "opt4",
+          "text": "बून्दी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15418,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन मांड गायन में सिद्धहस्त नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवरी बाई"
+        },
+        {
+          "id": "opt2",
+          "text": "अल्लाह जिलाई बाई"
+        },
+        {
+          "id": "opt3",
+          "text": "बन्नो बेगम"
+        },
+        {
+          "id": "opt4",
+          "text": "गुलाबो"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15419,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक-कथा ‘देवनारायण जी की फड़’ के गायन में कौन-सा वाद्य यन्त्र प्रयोग में लाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंजीरा"
+        },
+        {
+          "id": "opt2",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt3",
+          "text": "चंग"
+        },
+        {
+          "id": "opt4",
+          "text": "जन्तर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जंतर को वीणा का प्रांरभिक रूप माना जाता है। यह मेवाड़ में अधिक प्रचलित है। यह ‘गुर्जर भोपों’ ( देवनारायण के भोपो) का प्रचलित वाद्य है जिसे वे बगडावतो की कथा व देवनारायण जी की फड़ बाँचते समय बजाते हैं।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15420,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा वाद्य यंत्र बाकी तीन से अलग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt2",
+          "text": "शहनाई"
+        },
+        {
+          "id": "opt3",
+          "text": "मशक"
+        },
+        {
+          "id": "opt4",
+          "text": "अलगोजा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15421,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रम्मत लोक नाट्य राजस्थान के किस क्षेत्र से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रम्मत लोकनाट्य बीकानेर का है। इस नाटक की उत्पत्ति लगभग 140 वर्ष पूर्व बीकानेर क्षेत्र में एक लोक-कविता प्रतियोगिता के माध्यम से हुई थी। इस प्रकार का नाटक अधिकतर बीकानेर, जैसलमेर और फलौदी क्षेत्रों में किया जाता है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15445,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जानकीलाल किस लोक-कला से सम्बन्धित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नौटंकी"
+        },
+        {
+          "id": "opt2",
+          "text": "फड़"
+        },
+        {
+          "id": "opt3",
+          "text": "तमाशा"
+        },
+        {
+          "id": "opt4",
+          "text": "बहरूपिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15449,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अन्तर्राष्ट्रीय स्तर पर ख्याति प्राप्त जानकीलाल भांड का सम्बन्ध किस लोक नाट्य से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्वांग"
+        },
+        {
+          "id": "opt2",
+          "text": "ख्याल"
+        },
+        {
+          "id": "opt3",
+          "text": "नौटंकी"
+        },
+        {
+          "id": "opt4",
+          "text": "रम्मत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जानकीलाल भीलवाड़ा, राजस्थान के रहने वाले हैं। वह स्वांग लोक नाटक से संबंधित है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15452,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (लोक नाट्य – स्थान) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नौटंकी – भरतपुर, धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "रम्मत – बीकानेर, जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "तुर्रा कलंगी – मारवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "तमाशा – जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15454,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयदयाल सोनी और चेतराम संबंधित हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुरी ख्याल से"
+        },
+        {
+          "id": "opt2",
+          "text": "शेखावाटी ख्याल से"
+        },
+        {
+          "id": "opt3",
+          "text": "तुर्रा कलंगी ख्याल से"
+        },
+        {
+          "id": "opt4",
+          "text": "हेला ख्याल से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15455,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जहूर खां मेवाती किस लोक वाद्य के पारंगत कलाकार हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावण हत्था"
+        },
+        {
+          "id": "opt2",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt3",
+          "text": "पुंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "भपंग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भपंग लम्बी आल के तुम्बे से बना वाद्य है जिसके एक सिरे पर चमड़ा मढ़ा जाता है। इसकी आकृति डमरू से मिलती जुलती होती है। यह वाद्य अलवर क्षेत्र के जोगी प्रमुखतया बजाते हैं। अलवर जिले के जोगी जाति के लोग भपंग वाद्य यंत्र के साथ पाण्डुन कड़ा, राजा भतृहरि, भगत पूरणमल, हीरा रांझा एवं गोपापीर की लोक कथाएं गाते है। प्रमुख कलाकार – जहूर खां मेवाती, इन्हे भपंग का जादूगर माना जाता है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15459,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा/से राजस्थानी लोक संगीत का/के सुषिर वाद्य यंत्र है/हैं -(अ) अंलगोजा(ब) भपंग(स) सतारा(द) नड़कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(अ), (ब) और (स)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (अ)"
+        },
+        {
+          "id": "opt3",
+          "text": "(अ) और (ब)"
+        },
+        {
+          "id": "opt4",
+          "text": "(अ), (स) और (द)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अलगोजा: यह एक जोड़ी बांसुरी जैसा सुषिर वाद्य यंत्र है।सतारा: यह भी एक सुषिर वाद्य यंत्र है, जो राजस्थानी लोक संगीत में प्रयोग होता है।नड़: यह एक पारंपरिक सुषिर यंत्र है।भपंग: यह एक तंतु वाद्य यंत्र है, सुषिर नहीं। भपंग लम्बी आल के तुम्बे से बना वाद्य है जिसके एक सिरे पर चमड़ा मढ़ा जाता है। इसकी आकृति डमरू से मिलती जुलती होती है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15460,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मरुक्षेत्र में जोगी किस तत् वाद्य के साथ गोपीचन्द, भरतरी, सुल्तान निहाल दे आदि के ख़्याल गाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "सारंगी"
+        },
+        {
+          "id": "opt3",
+          "text": "एकतारा"
+        },
+        {
+          "id": "opt4",
+          "text": "रावणहत्था"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सारंगियों के वादन में जैसलमेर बाड़मेर के लंगा जाती के लोग, मेवाड़ के गडरियों के भाट व मरुक्षेत्र के जोगी दक्ष होते है। जोगी इन सारंगियों से गोपीचंद, सुलतान निहालदे, भरथरी आदि के ख़याल गाते है।",
+      "reference": "📌 PYQ — Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15461,
+        "exam": "Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा द्यनवाद्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुंडी"
+        },
+        {
+          "id": "opt2",
+          "text": "करना"
+        },
+        {
+          "id": "opt3",
+          "text": "पेली"
+        },
+        {
+          "id": "opt4",
+          "text": "टंकोरा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Protection Officer - 2022 (General Studies)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15462,
+        "exam": "Protection Officer - 2022 (General Studies)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पीठी रा गीत कद गाइजै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झडूले पर"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्याव में"
+        },
+        {
+          "id": "opt3",
+          "text": "जलम पर"
+        },
+        {
+          "id": "opt4",
+          "text": "मिरतू पर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में पीठी गीत एक प्रकार का लोक गीत है जो शादी-विवाह जैसे शुभ अवसरों पर गाया जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15463,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुरजां, पीपली, घूघरी, केवड़ा क्या हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी लोक नाट्य"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थानी आभूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थानी लोक गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थानी लोक नृत्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15464,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फड़ कुण वांचे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "मांगणियार"
+        },
+        {
+          "id": "opt3",
+          "text": "भोपा"
+        },
+        {
+          "id": "opt4",
+          "text": "कालबेलिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15465,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    }
+  ]
+}

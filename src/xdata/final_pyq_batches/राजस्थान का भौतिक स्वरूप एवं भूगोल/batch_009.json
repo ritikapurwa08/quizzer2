@@ -1,0 +1,669 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 9,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 9",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कौनसे राज्य में मालवा पठार का फैलाव नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मध्य प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराष्ट्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मालवा पठार राजस्थान, मध्य प्रदेश और गुजरात में फैला हुआ है। इसका कुल क्षेत्रफल लगभग 81, 767 वर्ग किलोमीटर है।",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7289,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“छप्पन के मैदान” का सम्बन्ध निम्नलिखित में से किस नदी से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt4",
+          "text": "लूणी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माही नदी बेसिन में प्रतापगढ़ और बांसवाड़ा के बीच 56 नदी नालों का प्रवाह क्षेत्र (या 56 गावों का समूह) छप्पन का मैदान कहलाता है जबकि जालौर से बालोतरा के मध्य फैले पहाड़ को छप्पन की पहाड़ियां कहते हैं।",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7290,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली पर्वतमाला के सम्बन्ध में निम्नलिखित में से कौनसे तथ्य सत्य हैं -(i) इसका निर्माण कैम्ब्रियन युग में हुआ था ।(ii) वर्तमान में यह अवशिष्ट पर्वत के रूप में है ।(ii) यह मुख्यतः आग्नेय चट्टानों से निर्मित है।(iv) यह दक्षिण – पश्चिम से उत्तर – पूर्व दिशा में विस्तृत है।कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii और iv"
+        },
+        {
+          "id": "opt2",
+          "text": "i, ii, iii और iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iii और iv"
+        },
+        {
+          "id": "opt4",
+          "text": "i और ii"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली पर्वत माला विश्व की प्राचीनतम वलित पर्वत माला है। यह पर्वत श्रृंखला श्री केम्ब्रियन (पोलियोजोइक) युग की है। यह पर्वत श्रृखला दक्षिण-पश्चिम से उतर-पूर्व की ओर है। देहली महासमूह की शैल राजस्थान के विस्तृत भू-भाग पर विद्यमान है जो दिल्ली से लेकर गुजरात तक फैले हैं अजमेर और पश्चिमी मेवाड़ में देहली महासमूह के शैल अरावली पर्वत की पहाड़ियों के मध्य अनेक सुंदर पर्वतों का निर्माण करते हैं।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7291,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की बांका – पट्टी किस समस्या से ग्रसित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूखा और अकाल की"
+        },
+        {
+          "id": "opt2",
+          "text": "फ्लोराइड की"
+        },
+        {
+          "id": "opt3",
+          "text": "चूना-पत्थर की"
+        },
+        {
+          "id": "opt4",
+          "text": "वायु प्रदूषण की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नागौर में, एक पूरे क्षेत्र को स्थानीय रूप से बांका पट्टी (तुड़ी पट्टी) का उपनाम दिया गया है। फ्लोरोसिस के कारण यहां के अधिकांश ग्रामीण कुबड़े हो गए हैं।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7292,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित पर्वत चोटियों को ऊँचाई के अनुसार अवरोही क्रम में व्यवस्थित कीजिए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जरगा – लीलागढ़ – सज्जनगढ़ – रघुनाथगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "सज्जनगढ़ – लीलागढ़ – रघुनाथगढ़ – जरगा"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुनाथगढ़ – जरगा – लीलागढ़ – सज्जनगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "जरगा – रघुनाथगढ़ – सज्जनगढ़ – लीलागढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जरगा - उदयपुर-राजसमंद - 1431 मी.रघुनाथगढ़ - सीकर - 1055 मी.सज्जनगढ़ - उदयपुर - 938 मी.लीलागढ़ - उदयपुर - 874 मी.",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7293,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से बालुका स्तूप, प्रचलित पवन की दिशा के सामान्तर विकसित होते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पैराबोलिक"
+        },
+        {
+          "id": "opt2",
+          "text": "बरखान"
+        },
+        {
+          "id": "opt3",
+          "text": "सीफ"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुप्रस्थ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सीफ अनुदैर्ध्य बालुका स्तूप का एक प्रकार होता होता है और अनुदैर्ध्य बालुका स्तूप प्रचलित पवन की दिशा के समांतर विकसित होते हैं।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7294,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (स्थलाकृति - अवस्थिति) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाकर - पूर्वी सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "उड़िया पठार - मा. आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "लसाड़िया पठार - राजसमन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "भोराट पठार - कुम्भलगढ़ से गोगुन्दा के मध्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सलूम्बर में जयसमंद से आगे कटा-फटा पठारी भाग लसाड़िया पठार कहलाता है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7295,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अकाल के लिए प्रसिद्ध दोहे में ‘पग पूंगल’ के नाम से राजस्थान के कौनसे जिले की ओर संकेत किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7296,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बार-बार अकाल एवं सूखे का क्या कारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वनों की कटाई"
+        },
+        {
+          "id": "opt2",
+          "text": "जल का अविवेकपूर्ण उपयोग"
+        },
+        {
+          "id": "opt3",
+          "text": "भूमि का कटाव"
+        },
+        {
+          "id": "opt4",
+          "text": "अनियमित वर्षा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7297,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में संचालित सूखा संभाव्य क्षेत्र कार्यक्रम (डी.पी.ए.पी.) की वित्तीय व्यवस्था के लिए केन्द्र एवं राज्य का हिस्सा कितना रखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "60: 40"
+        },
+        {
+          "id": "opt2",
+          "text": "50: 50"
+        },
+        {
+          "id": "opt3",
+          "text": "75: 25"
+        },
+        {
+          "id": "opt4",
+          "text": "90: 10"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7298,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय मौसम विभाग के अनुसार, जब वार्षिक वर्षा की कमी सामान्य वर्षा से .......... अधिक होती है, तब प्रचण्ड सूखे की स्थिति होती है ।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25%"
+        },
+        {
+          "id": "opt2",
+          "text": "20%"
+        },
+        {
+          "id": "opt3",
+          "text": "40%"
+        },
+        {
+          "id": "opt4",
+          "text": "50%"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गंभीर सूखा- यह तब होता है जब वर्षा सामान्य मात्रा से 50% कम होती है।मध्यम सूखा- जब वर्षा सामान्य से 26-50% कम हो।हल्का सूखा- जब किसी क्षेत्र में सामान्य वर्षा से 11 से 25 प्रतिशत कम वर्षा होती है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19539,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पूर्व-पश्चिम और उत्तर-दक्षिण विस्तार में अंतर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "48 कि.मी."
+        },
+        {
+          "id": "opt2",
+          "text": "43 कि.मी."
+        },
+        {
+          "id": "opt3",
+          "text": "62 कि.मी."
+        },
+        {
+          "id": "opt4",
+          "text": "58 कि.मी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान की उत्तर से दक्षिण तक लम्बाई 826 कि. मी. व विस्तार उत्तर में कोणा गाँव (गंगानगर) से दक्षिण में बोरकुण्ड गाँव(कुशलगढ़, बांसवाड़ा) तक है। पुर्व से पश्चिम तक चौड़ाई 869 कि. मी. व विस्तार पुर्व में सिलाना गाँव(राजाखेड़ा, धौलपुर) से पश्चिम में कटरा(फतेहगढ़, सम, जैसलमेर) तक है। राज्य की पूर्व से पश्चिम चौड़ाई और उत्तर से दक्षिण लम्बाई में 43 किमी. का अंतर है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7299,
+        "exam": "School Lecturer 2022 Gk (G-A)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विश्व में, राजस्थान किस गोलार्द्ध में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर - पश्चिमी गोलार्द्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर - पूर्वी गोलार्द्ध"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण - पूर्वी गोलार्द्ध"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण - पश्चिम गोलार्द्ध"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान उत्तर - पूर्वी गोलार्द्ध में स्थित है। भुमध्य रेखा के सापेक्ष राजस्थान उतरी गोलाद्र्व में स्थित है। ग्रीन वीच रेखा के सापेक्ष राजस्थान पुर्वी गोलाद्र्व में स्थित है।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7300,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के बारे में कौन-सा कथन सत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इसका आधार विषमकोण चतुर्भुज के समान है।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसका उत्तर से दक्षिण विस्तार 869 कि.मी. है"
+        },
+        {
+          "id": "opt3",
+          "text": "इसकी स्थलीय सीमा 6920 कि.मी. है"
+        },
+        {
+          "id": "opt4",
+          "text": "इसका क्षेत्रफल 3, 42, 329 वर्ग कि.मी. है"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की आकृति सबसे पहले विषम कोणीय चतुर्भुज(या पतंग) विद्वान टी. एच. हेण्डले ने बतायी थी। उत्तर से दक्षिण तक लम्बाई 826 कि. मी. व विस्तार उत्तर में कोणा गाँव (गंगानगर) से दक्षिण में बोरकुण्ड गाँव(कुशलगढ़, बांसवाड़ा) तक है। राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। राजस्थान का कुल क्षेत्रफल 3, 42, 239 वर्ग कि.मी. है। जो कि देश का 10.41 प्रतिशत है।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7301,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के उत्तर से दक्षिण तथा पूर्व से पश्चि विस्तार में अन्तर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "41 किलोमीटर"
+        },
+        {
+          "id": "opt2",
+          "text": "42 किलोमीटर"
+        },
+        {
+          "id": "opt3",
+          "text": "40 किलोमीटर"
+        },
+        {
+          "id": "opt4",
+          "text": "43 किलोमीटर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की उत्तर से दक्षिण तक लम्बाई 826 कि. मी. व विस्तार उत्तर में कोणा गाँव (गंगानगर) से दक्षिण में बोरकुण्ड गाँव(कुशलगढ़, बांसवाड़ा) तक है। पुर्व से पश्चिम तक चौड़ाई 869 कि. मी. व विस्तार पुर्व में सिलाना गाँव(राजाखेड़ा, धौलपुर) से पश्चिम में कटरा(फतेहगढ़, सम, जैसलमेर) तक है। राज्य की पूर्व से पश्चिम चौड़ाई और उत्तर से दक्षिण लम्बाई में 43 किमी. का अंतर है।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7302,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का अक्षांशीय विस्तार है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "23o 3’ दक्षिण से 30o 12’ दक्षिण"
+        },
+        {
+          "id": "opt2",
+          "text": "23o 3’ उत्तर से 30o 12’ उत्तर"
+        },
+        {
+          "id": "opt3",
+          "text": "23o 3’ उत्तर से 30o 12’ दक्षिण"
+        },
+        {
+          "id": "opt4",
+          "text": "30o 12’ दक्षिण से 23o 3’ दक्षिण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य भारत में उत्तरी-पश्चिमी भाग में 23० 3' से 30० 12' उत्तरी अक्षांश (विस्तार 7० 9') तथा 69० 30' से 78० 17' पूर्वी देशान्तर (विस्तार 8० 47') के मध्य स्थित है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7303,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोकप्रिय मान्यता वैदिक स्तुतियों में ‘ब्रह्मावर्त’ की भूमि के रूप में संदर्भित क्षेत्र के एक हिस्से को वर्तमान में राजस्थान के ______ भाग से जोड़ती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ब्रह्मवृत की सभ्यता हड़प्पा व मोहनजोदड़ो से भी विकसित थी। यह प्रदेश वैदिक ग्रंथों में वर्णित षद्वती (साहबी) व सरस्वती नदी के बीच पुष्कर तक फैला था। जो की वर्तमान राजस्थान का उत्तरी भाग है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7304,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा एक राजस्थान के दक्षिणी-पूर्वी पठार प्रदेश का भाग नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्द्ध-चन्द्राकार पर्वत श्रेणियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "देवगढ़ का पीडमाण्ट मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "शाहबाद का उच्च स्थल"
+        },
+        {
+          "id": "opt4",
+          "text": "डग-गंग्धार के उच्च क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दक्षिणी-पूर्वी पठार में शाहबाद, डग-गंग्धार आदि शामिल हैं, लेकिन देवगढ़ का पीडमाण्ट मैदान इस क्षेत्र में नहींआता है।पीडमांट का मैदान - देवगढ़ (राजसमंद) से भीलवाड़ा के मध्य बनास नदी द्वारा निर्मित अरावली से पृथक निर्जन पहाड़ी क्षेत्र।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7305,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से अरावली की उस चोटी का चयन कीजिए, जो कमलनाथ से ऊँची तथा अचलगढ़ से नीची है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरावास"
+        },
+        {
+          "id": "opt2",
+          "text": "लीलागढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुनाथगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सज्जनगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अरावली की चोटियों में ऊंचाई के आधार पर: अचलगढ़ (1380 मीटर), रघुनाथगढ़ (1055 मीटर), कमलनाथ (1001 मीटर) और सज्जनगढ़ (938 मीटर)। रघुनाथगढ़, कमलनाथ से ऊँची और अचलगढ़ से नीची है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7306,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा पर्वत जालौर पर्वतीय क्षेत्र में नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रोजा भाकर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालोरा पहाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "इसराना भाकर"
+        },
+        {
+          "id": "opt4",
+          "text": "गोगुन्दा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जालौर में रोजा भाकर, इसराना भाकर और झारोल पहाड़ स्थित है। जालौर पर्वत की सबसे ऊंची चोटी इसराना भाखर (839 m) है। गोगुन्दा (840 m ) उदयपुर जिले में स्थित है।",
+      "reference": "📌 PYQ — Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7307,
+        "exam": "Food Safety Officer - 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

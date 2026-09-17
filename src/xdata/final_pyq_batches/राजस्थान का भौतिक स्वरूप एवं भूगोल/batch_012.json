@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 12,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 12",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी रेतीला मैदान टेथिस महासागर का अवशेष है।"
+        },
+        {
+          "id": "opt2",
+          "text": "अरावली सबसे पुरानी श्रृंखला है।"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिणी-पूर्वी पठार गोंडवाना भूमि का विस्तार है।"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंधु नदी द्वारा उत्तर-पूर्वी मैदान का निर्माण किया गया था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पूर्वी मैदानी भाग अरावली पर्वत माला के पूर्व में स्थित है। राजस्थान प्रदेश का पूर्वी हिस्सा एक समतल मैदान के रूप में विस्तृत है। यह मैदान पश्चिम से पूर्व की 50 से.मी. की समवर्षा रेखा द्वारा विभाजित है। यह मैदान नदी बेसिन प्रदेश है जो गंगा व यमुना नदियों द्वारा निर्मित मैदान है। मैदान की दक्षिण-पूर्वी सीमा विन्धयन पठार द्वारा बनाई जाती है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7350,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा क्रम पर्वत चोटियों एवं उनकी ऊंचाईयों के अवरोही क्रम के अनुसार सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाबई, बैराठ, नाग पहाड़ और भैरच"
+        },
+        {
+          "id": "opt2",
+          "text": "नाग पहाड़, भैरच, बाबई और बैराठ"
+        },
+        {
+          "id": "opt3",
+          "text": "भैरच, नाग पहाड़, बाबई और बैराठ"
+        },
+        {
+          "id": "opt4",
+          "text": "बैराठ, नाग पहाड़, बाबई और भैरच"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नाग पहाड़ - अजमेर - 795 मी.भैराच - अलवर - 792 मी.बाबाई - झुंझुनू - 780 मी.बैराठ - जयपुर - 704 मी.",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7351,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित पर्वतों की ऊँचाइयों का सही अवरोही क्रम चुनिए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खोह, अचलगढ़, सेर पीक, तारागढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "अचलगढ़, खोह, तारागढ़, सेर पीक"
+        },
+        {
+          "id": "opt3",
+          "text": "तारागढ़, खोह, अचलगढ़, सेर पीक"
+        },
+        {
+          "id": "opt4",
+          "text": "सेर पीक, अचलगढ़, खोह, तारागढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सेर - सिरोही - 1597 मी.अचलगढ़ - सिरोही - 1380 मी.खो - जयपुर - 920 मी.तारागढ़ - अजमेर - 873 मी.",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7352,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (भौगोलिक क्षेत्र और जिले) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोराट का पठार – चित्तौड़गढ़ और भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "कूबड़ पट्टी – अजमेर और नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "उपरमल का पठार – भीलवाड़ा और चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "छप्पन का मैदान – बांसवाड़ा और प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कुम्भलगढ(राजसमंद) व गोगुन्दा(उदयपुर) के मध्य का पठारी भाग भोराठ/भोराट का पठार कहलाता है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7353,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डंग - गंगधार उच्च भूमि क्षेत्र, राजस्थान के किस भौतिक प्रदेश में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांगर प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "छप्पन का मैदान"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण हाड़ौती क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास बेसिन क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "झालावाड़ के पठार के दक्षिण पश्चिम भाग में डग – गंगधार की उच्च भूमि पायी जाती है। यह हाड़ौती पठार का हिस्सा है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Geography (Group - B)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7354,
+        "exam": "School Lecturer 2022 Geography (Group - B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा सुमेलित नहीं है -(पर्वत शिखर) -(जिला)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिलाली पर्वत - अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बरवाड़ा पर्वत - अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "डोरा पर्वत - जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागपानी पर्वत - उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बरवाड़ा की पहाड़ियां जयपुर ग्रामीण जिले में स्थित है जिनकी ऊंचाई 786 मीटर है, जबकी चौथ का बरवाड़ा सवाई माधोपुर जिले में एक नगर है जहां चौथ माता का मंदिर स्थित है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Geography (Group - B)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7355,
+        "exam": "School Lecturer 2022 Geography (Group - B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नाग पहाड़ कहाँ अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अजमेर के दक्षिणी पश्चिम में तारागढ़(870 मी.) और पश्चिम में सर्पीलाकार पर्वत श्रेणीयां नाग पहाड़(795 मी.) कहलाती है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Geography (Group - B)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7356,
+        "exam": "School Lecturer 2022 Geography (Group - B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए तथा कूट का प्रयोग कर सही उत्तर चुनिए -a. दक्षिणी अरावली प्रदेश में सिरोही, उदयपुर और राजसमन्द जिले सम्मिलित हैं।b. आबू पर्वत समुद्र तल से लगभग 1700 मीटर ऊँचा है।c. आबू पर्वत की प्रमुख चोटियाँ सेर, अचलगढ़, ऋषिकेश एवं गुरुशिखर है।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b तथा c"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल c"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a"
+        },
+        {
+          "id": "opt4",
+          "text": "a तथा c"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सिरोही में स्थित आबू का पठार की ऊंचाई 1200 मीटर है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Geography (Group - B)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7357,
+        "exam": "School Lecturer 2022 Geography (Group - B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महान सीमा भ्रंश राजस्थान के किस भाग में मिलता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिण-पूर्वी"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पश्चिमी"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तर-पूर्वी"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तर-पश्चिमी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली पर्वतमाला और विंध्याचल पर्वतमाला के मिलन स्थल को वृहत सीमा भ्रंश कहते हैं जो बूंदी, सवाई माधोपुर, करौली, धौलपुर और चित्तौड़गढ़ जिलों में फैला है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7358,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लसाडिया का पठार अवस्थित है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सलूम्बर में"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द में"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़ में"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लसाडिया का पठार, सलूम्बर जिले में स्थित है। यह एक विच्छेदित और खंडित पठार है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7359,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (भू-आकृति - जिला/जिले) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिरवा - उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भाकर - डूंगरपुर और बांसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाप बोल्डर - फलौदी"
+        },
+        {
+          "id": "opt4",
+          "text": "वृहद सीमा भ्रंश - बूंदी और सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर में चारों ओर पहाडि़यों होने के कारण उदयपुर की आकृति एक तश्तरीनुमा बेसिन जैसी है जिसे स्थानीय भाषा में गिरवा कहते है।पूर्वी सिरोही क्षेत्र में अरावली की तीव्र ढाल वाली ऊबड़-खाबड़ पहाड़ीयों का क्षेत्र भाकर/भाखर कहलाता है।‘बाप बोल्डर बैंड’ राजस्थान के फलौदी जिले में स्थित है।अरावली पर्वतमाला और विंध्याचल पर्वतमाला के मिलन स्थल को वृहत सीमा भ्रंश कहते हैं जो बूंदी, सवाई माधोपुर, करौली, धौलपुर और चित्तौड़गढ़ जिलों में फैला है।",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7360,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पश्चिमी राजस्थान में रेत की टीलों से कितना क्षेत्र मुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "28.5%"
+        },
+        {
+          "id": "opt2",
+          "text": "41.5%"
+        },
+        {
+          "id": "opt3",
+          "text": "18.69%"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बालुका स्तूप मुक्त प्रदेश 41.5% है। (जहां रेत के टीले नहीं है) बालुका स्तूप युक्त प्रदेश 58.5% (लगभग 60%) है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7361,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हाथी गुडा की नाल’ दर्रा जोड़ता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली और राजसमन्द को"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर और पाली को"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर और राजसमन्द को"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही और उदयपुर को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हाथी गुड्डा दर्रा राजसमंद जिले में स्थित है जिसके पास कुंभलगढ़ दुर्ग बना हुआ है। जबकि हाथी दर्रा उदयपुर जिले में स्थित है जिससे उदयपुर से पिंडवाड़ा (सिरोही) जाने का मार्ग (NH-27) है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7362,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विंध्यन कगार भूमियां किस नदी के बीच स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंबल-बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "कालीसिंध-पार्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "बेड़च -बनास"
+        },
+        {
+          "id": "opt4",
+          "text": "पार्वती-परवन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "यह प्रदेश विंध्याचल पर्वत का अंतिम भाग है इसका विस्तार कोटा, बूंदी, सवाई माधोपुर, करौली और धौलपुर जिलों में है। विंध्यन कगार भूमि चंबल व बनास नदियों के बीच में स्थित है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7363,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली किस प्लेट से अलग हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोमाली प्लेट"
+        },
+        {
+          "id": "opt2",
+          "text": "सुंडा प्लेट"
+        },
+        {
+          "id": "opt3",
+          "text": "यूरेशियन प्लेट"
+        },
+        {
+          "id": "opt4",
+          "text": "अरेबियन प्लेट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अरावली पर्वतमाला का प्राकृतिक इतिहास उस समय का है जब भारतीय प्लेट एक महासागर द्वारा यूरेशियन प्लेट से अलग हो गई थी। यह पर्वत श्रृंखला श्री केम्ब्रियन (पोलियोजोइक) युग की है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7364,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लाठी सीरीज़ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक खनिज पट्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "भौगोलिक बैल्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "वन्यजीव श्रृंखला"
+        },
+        {
+          "id": "opt4",
+          "text": "पशु श्रृंखला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी रेगीस्तान क्षेत्र के जैसलमेर जिले में सेवण घास के मैदान पाए जाते है। जो कि भूगर्भिय जल पट्टी के रूप में प्रसिद्ध है। जिसे लाठी सीरिज कहलाते है।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7365,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (पर्वतीय चोटी – ऊँचाई (मीटर)) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जरगा – 1431"
+        },
+        {
+          "id": "opt2",
+          "text": "अचलगढ़ – 1280"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुनाथगढ़ – 1055"
+        },
+        {
+          "id": "opt4",
+          "text": "सेर – 1597"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अचलगढ़, सिरोही में स्थित है, इसकी ऊंचाई 1380 मी. है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7367,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डग-गंगाधर उच्च भूमियां हिस्सा है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती पठार का"
+        },
+        {
+          "id": "opt2",
+          "text": "थार मरुस्थल का"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी मैदान का"
+        },
+        {
+          "id": "opt4",
+          "text": "अरावली श्रृंखला का"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झालावाड़ के पठार के दक्षिण पश्चिम भाग में डग – गंगधार की उच्च भूमि पायी जाती है। यह हाड़ौती पठार का हिस्सा है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7368,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा भौतिक लक्षण “राजस्थान बांगर” में सम्मिलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छप्पन का मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "नमकीन झीले"
+        },
+        {
+          "id": "opt3",
+          "text": "गोडवार प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "आन्तरिक प्रवाह का मैदान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शेखावाटी प्रदेश, बांगर प्रदेश के नाम से जाना जाता है। शेखावटी प्रदेश का विस्तार झुझुनू, सीकर, चुरू तथा डीडवाना कुचामन में है। इस प्रदेश में अनेक नमकीन पानी के गर्त(रन) हैं जिसमें डीडवाना, डेगाना, सुजानगढ़, तालछापर, परीहारा, कुचामन आदि प्रमुख है। माही नदी बेसिन में प्रतापगढ़ और बांसवाड़ा के बीच 56 नदी नालों का प्रवाह क्षेत्र (या 56 गावों का समूह) छप्पन का मैदान कहलाता है जबकि जालौर से बालोतरा के मध्य फैले पहाड़ को छप्पन की पहाड़ियां कहते हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7369,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ताराभाँति के टीले पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पोखरण – लूणकरणसर"
+        },
+        {
+          "id": "opt2",
+          "text": "बालोतरा – फलोदी"
+        },
+        {
+          "id": "opt3",
+          "text": "मोहनगढ़ – सूरतगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर – हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "तारानुमा बालुका स्तूप मोहनगढ़, पोकरण (जैसलमेर), सूरतगढ़ (गंगानगर) में पाये जाते है। यह हम्मादा (पथरीला मरुस्थल) के चारों ओर पाए जाने वाले बालुका स्तूप होते हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7370,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के लोक नृत्य",
+  "batchIndex": 8,
+  "batchName": "राजस्थान के लोक नृत्य भाग 8",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-लोक-नृत्य",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘वालर नृत्य’ किस जाति का लोक नृत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भील"
+        },
+        {
+          "id": "opt2",
+          "text": "गरासिया"
+        },
+        {
+          "id": "opt3",
+          "text": "गुर्जर"
+        },
+        {
+          "id": "opt4",
+          "text": "मीणा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Livestock Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15642,
+        "exam": "Livestock Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेरहताली नृत्य का संबंध किस जाति से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भील"
+        },
+        {
+          "id": "opt2",
+          "text": "कामड"
+        },
+        {
+          "id": "opt3",
+          "text": "मीणा"
+        },
+        {
+          "id": "opt4",
+          "text": "कठौड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तेरहताली नृत्य राजस्थान का प्रसिद्ध धार्मिक लोक नृत्य है। रामदेवजी के भोपे जो कामड़ जाति के होते हैं और यह नृत्य कामड़ जाति की स्त्रियों द्वारा किया जाता है।",
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15643,
+        "exam": "Tax Assitant Exam 2018(P1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा गरासिया जनजाति से सम्बन्धित नृत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घुड़ला"
+        },
+        {
+          "id": "opt2",
+          "text": "वालर"
+        },
+        {
+          "id": "opt3",
+          "text": "गैर"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वालर नृत्य को गरासिया आदिवासी समुदाय का नृत्य माना जाता है। इस आदिवासी समुदाय के लोग मूल रूप से राजस्थान के विभिन्न हिस्सों अर्थात् कोटरा, सिरोही की आबू रोड तहसील, पाली जिले की बाली और देसूरी तहसील, उदयपुर की गोगुन्दा और खेरवाड़ा तहसील में केंद्रित हैं।",
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15644,
+        "exam": "Tax Assitant Exam 2018(P1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गरासिया जनजाति से संबंधित नृत्य शैली है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गवरी"
+        },
+        {
+          "id": "opt2",
+          "text": "लूर"
+        },
+        {
+          "id": "opt3",
+          "text": "बम"
+        },
+        {
+          "id": "opt4",
+          "text": "तेरहताली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15645,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के एकमात्र शास्त्रीय नृत्य कत्थक के जयपुर घराने के प्रवर्तक माने जाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लच्छन महाराज"
+        },
+        {
+          "id": "opt2",
+          "text": "भानुजी महाराज"
+        },
+        {
+          "id": "opt3",
+          "text": "बिरजू महाराज"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयशंकर जी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "शास्त्रीय नृत्य कत्थक के प्राचीनतम जयपुर घराने के संस्थापक भानुजी थे। इनके पुत्र मालूजी भी प्रमुख नर्तक थे।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15647,
+        "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौनसा नृत्य रूप 2010 में यूनेस्को की अमूर्त सांस्कृतिक धरोहर में सम्मिलित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गींदड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt3",
+          "text": "भवाई"
+        },
+        {
+          "id": "opt4",
+          "text": "कच्छी घोड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कालबेलिया को 2010 में यूनेस्को की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया था।",
+      "reference": "📌 PYQ — Reet 2017 level-2 SST",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15650,
+        "exam": "Reet 2017 level-2 SST",
+        "year": 2017
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बम-नृत्य’ कहां का प्रसिद्ध नृत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर-भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर-बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर-अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर-सिरोही"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15652,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गेर’ नृत्य राजस्थान के किस क्षेत्र में प्रचलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावटी"
+        },
+        {
+          "id": "opt2",
+          "text": "आदिवासी"
+        },
+        {
+          "id": "opt3",
+          "text": "डांग"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवात"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ और बाड़मेर क्षेत्र में पुरुष लकड़ी व छाड़ियाँ लेकर गोल घेरे में नृत्य करते है। इन नर्तकों को ‘गेरिये’ कहा जाता है। वृताकार में नृत्य करते हुए गेरिये अनेक मण्डल बनाते है।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15653,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस नृत्य में महिलाएँ भाग नही होती?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कत्थक"
+        },
+        {
+          "id": "opt2",
+          "text": "घूमर"
+        },
+        {
+          "id": "opt3",
+          "text": "गेर"
+        },
+        {
+          "id": "opt4",
+          "text": "तेरहताली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गेर नृत्य गोल घेरे में किया जाता है इसलिए यह गेर नृत्य कहलाता है। यह नृत्य होली के अवसर पर पुरुषों द्वारा किया जाता है। इसमें ढोल, बाकिया, थाली वाद्ययंत्रों को बजाया जाता है।",
+      "reference": "📌 PYQ — RPSC Research Assistant 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15655,
+        "exam": "RPSC Research Assistant 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का शंकरिया नृत्य किससे संबंधित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "भील"
+        },
+        {
+          "id": "opt3",
+          "text": "सहरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "तेरहताली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शंकरिया नृत्य राजस्थान की लोक संस्कृति से जुड़ा एक लोक नृत्य है। यह मूलत: कालबेलियों का युगल नृत्य है जो प्रेम गाथाओं के आधार पर किया जाता है। कालबेलिया जाति के सपेरों (युगल) द्वारा किए जाने वाले इस नृत्य में सुन्दर अंग संचालन दर्शनीय होता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15656,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दक्षिण राजस्थान की भील जनजाति का निम्नलिखित में से कौन सा नृत्य नाट्य रूप में किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गैर"
+        },
+        {
+          "id": "opt2",
+          "text": "घूमर"
+        },
+        {
+          "id": "opt3",
+          "text": "गवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "गरबा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दक्षिण राजस्थान की भील जनजाति द्वारा गवरी नृत्य नाट्य रूप में किया जाता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15657,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नृत्य के साथ ‘झांझ’ नामक वाद्ययंत्र का प्रयोग किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कच्छी घोड़ी नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "बम्ब नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "तेराताली नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरी नृत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झांझ, मंजीरे की बड़ी आकृति है। बड़े ढोल तथा तासा के वादन के साथ इसे बजाया जाता है। शेखावाटी क्षेत्र में कच्छी घोड़ी नृत्य के समय इसे बजाया जाता है।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15659,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा लोक नृत्य कामड़ जाति की महिलाओं द्वारा किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चकरी नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "वालर नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "तेहराताली नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "गैर नृत्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "तेरहताली नृत्य(Terahtali Nritya) पाली व रामदेवरा (जैसलमेर) का प्रसिद्ध है। तेरहताली नृत्य का उद्गम पादरला गाँव (पाली) में हुआ। यह कामड़ जाति के द्वारा रामदेव जी की आराधना में आयोजित किया जाता है। यह नृत्य केवल महिलाओं द्वारा बैठकर किया जाता है।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15662,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नृत्य, जो सरगड़ा और भील समुदाय के पुरूषों द्वारा विवाह के अवसर पर किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अग्निनृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गींदड़नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "बम नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "ढोल नृत्य"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15663,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वालर नृत्य किस जनजाति का नृत्य माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सहरिया"
+        },
+        {
+          "id": "opt2",
+          "text": "गरासिया"
+        },
+        {
+          "id": "opt3",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt4",
+          "text": "भील"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15665,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नृत्य, जिसमें किसी भी वाद्य यंत्र का उपयोग संगत के लिए नहीं किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वालर नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "घूमर नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "चंग नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "तेरहताली नृत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वालर नृत्य बिना किसी वाद्य यंत्र के अत्यन्त धीमी गति से किया जाता है। इसमें नर्तकों द्वारा ताल पर सरल गोलाकार गतियां शामिल होती हैं।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15666,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुगल सम्राट शाहजहां के समय से ही प्रसिद्ध “नाहर नृत्य” की खेलने परम्परा कहां प्रचलित है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माण्डल"
+        },
+        {
+          "id": "opt2",
+          "text": "चौमू"
+        },
+        {
+          "id": "opt3",
+          "text": "चाकसू"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15667,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के लोक नृत्य एवं उसके प्रचलन क्षेत्र के सम्बन्ध में निम्नलिखित में कौन सा युग्म सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गींदड़ नृत्य – शेखावाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "ढोल नृत्य – जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "बमरसिया नृत्य – बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "डांडिया नृत्य – मारवाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गिदड़ नृत्यशेखावटी क्षेत्र में होली के दिनों में पुरुषों द्वारा हाथों में दो छोटे डंडे लेकर गोल घेरे में स्वांग के साथ सामूहिक नृत्य किया जाता है।डांडिया नृत्यमारवाड़ क्षेत्र में होली के बाद 20-25पुरुषों के समूह द्वारा दोनों हाथों में लम्बी छड़ियाँ धारण करके 111 वृत्ताकार रूप में किया जाता है।ढोल नृत्यजासौर का यह प्रसिद्ध नृत्य विवाह के अवसर पर माली, ढोली, सरगढ़ा, भील आदि जाति के पुरुषों द्वारा सामूहिक रूप से किया जाता है।बमरसिया नृत्य अलवर-भरतपुर क्षेत्र में होली के अवसर पर नई फसल आने के खुशी में किसी भी चौपाल में पुरुषों द्वारा किया जाता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2012",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15676,
+        "exam": "RPSC RAS/RTS Pre 2012",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘कच्छी घोड़ी’ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सामुदायिक नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "व्यावसायिक नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्सव नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "पूजा नृत्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15679,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा नृत्य शेखावटी क्षेत्र का नृत्य नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बम-नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्छी घोड़ी नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "गीदड़ नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "चंग नृत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RPSC LDC Exam 2011 Paper I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15680,
+        "exam": "RPSC LDC Exam 2011 Paper I",
+        "year": null
+      }
+    }
+  ]
+}

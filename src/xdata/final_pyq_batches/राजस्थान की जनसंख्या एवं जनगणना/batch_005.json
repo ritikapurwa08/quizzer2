@@ -1,0 +1,657 @@
+{
+  "masterTopic": "राजस्थान की जनसंख्या एवं जनगणना",
+  "batchIndex": 5,
+  "batchName": "राजस्थान की जनसंख्या एवं जनगणना भाग 5",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-जनसंख्या-एवं-जनगणना",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-से दशक में राजस्थान में जनसंख्या वृद्धि दर उच्चतम रही -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2001-11"
+        },
+        {
+          "id": "opt2",
+          "text": "1971-81"
+        },
+        {
+          "id": "opt3",
+          "text": "1991-2001"
+        },
+        {
+          "id": "opt4",
+          "text": "1911-21"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3157,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "देश की कुल जनसंख्या की दृष्टि से राजस्थान का 2011 में कौन सा क्रम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "24 वाँ क्रम"
+        },
+        {
+          "id": "opt2",
+          "text": "27 वाँ क्रम"
+        },
+        {
+          "id": "opt3",
+          "text": "12 वाँ क्रम"
+        },
+        {
+          "id": "opt4",
+          "text": "8 वाँ क्रम"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3158,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान में शिशु लिंगानुपात कितना था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "888"
+        },
+        {
+          "id": "opt2",
+          "text": "788"
+        },
+        {
+          "id": "opt3",
+          "text": "887"
+        },
+        {
+          "id": "opt4",
+          "text": "878"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3159,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार, राजस्थान के सर्वाधिक जनसंख्या वाले जिले हैं -(अवरोही क्रम)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर – जयपुर – नागौर – जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर – जोधपुर – नागौर – अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर – जयपुर – अलवर – नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर – जोधपुर – अलवर – नागौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3160,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना-2011 के अनुसार, राजस्थान में जिस जिले में ग्रामीण लिंगानुपात सबसे कम था, वह है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3161,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान में जनसंख्या की दशकीय वृद्धि दर क्या थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "32.97%"
+        },
+        {
+          "id": "opt2",
+          "text": "28.44%"
+        },
+        {
+          "id": "opt3",
+          "text": "28.41%"
+        },
+        {
+          "id": "opt4",
+          "text": "21.31%"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3162,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार, राजस्थान के किस जिले में न्यूनतम ग्रामीण लिंगानुपात था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3163,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान लिंगानुपात -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रीय औसत से 6 बिन्दू कम है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रीय औसत से 11 बिन्दू कम है।"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रीय औसत से 6 बिन्दू अधिक है ।"
+        },
+        {
+          "id": "opt4",
+          "text": "राष्ट्रीय औसत से 15 बिन्दू कम है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3165,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 में राजस्थान में ग्रामीण एवं नगरीय पुरुष साक्षरता दर क्रमशः थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "76.2% और 87.9%"
+        },
+        {
+          "id": "opt2",
+          "text": "87.9% और 77.7%"
+        },
+        {
+          "id": "opt3",
+          "text": "77.9% और 85.2%"
+        },
+        {
+          "id": "opt4",
+          "text": "75.1% और 79.7%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "साक्षरता - 66.1 प्रतिशत(शहरी 79.7 व ग्रामीण 61.4 प्रतिशत)पुरूष साक्षरता -79.2 प्रतिशत(शहरी 87.9 व ग्रामीण 76.2 प्रतिशत)महिला साक्षरता -52.1 प्रतिशत(शहरी 70.7 व ग्रामीण 45.8 प्रतिशत)",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3169,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार, राजस्थान के कौन से जिलों में 75% से अधिक साक्षरता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, झुन्झुनूं"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा, सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सर्वाधिक साक्षरता वाले 5 जिले कोटा76.6जयपुर75.5झुंझुंनूं74.1सीकर71.9अलवर70.7",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3170,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार, निम्नलिखित में से किन जिलों के समूह में सबसे कम जनसंख्या घनत्व अंकित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर, बीकानेर, चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर, बाड़मेर, जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर, बीकानेर, पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर, बीकानेर, जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "न्यूनतम जनसंख्या घनत्व वाले राजस्थान के 3 जिले इस प्रकार हैं -जैसलमेर (17 व्यक्ति/वर्ग किलोमीटर)बीकानेर (78 व्यक्ति/वर्ग किलोमीटर बाड़मेर (92 व्यक्ति/वर्ग किलोमीटर)",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3171,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, 2001 से 2011 तक सर्वाधिक शहरी दशकीय परिवर्तन दर (%) राजस्थान के निम्नलिखित किस जिले में पायी गयी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3172,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार किस जिले में सर्वाधिक ग्रामीण लिंगानुपात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "झुझुनूं"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सर्वाधिक लिंगानुपात वाला जिला(ग्रामिण क्षेत्र में)- पाली(1003 महिला/1000 पुरूष)सबसे कम लिंगानुपात वाला जिला (ग्रामिण क्षेत्र में)- धौलपुर(841 महिला/1000 परूष)सर्वाधिक लिंगानुपात वाला जिला(शहरी क्षेत्र में)- टोंक(985 महिला/1000 पुरुष)सबसे कम लिंगानुपात वाला जिला(शहरी क्षेत्र में)- जैसलमेर(807 महिला/1000 परूष)",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3179,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन राजस्थान में लिंगानुपात के बारे में जनगणना 2011 के अनुसार सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रामीण लिंगानुपात 933 था।"
+        },
+        {
+          "id": "opt2",
+          "text": "नगरीय लिंगानुपात 914 था।"
+        },
+        {
+          "id": "opt3",
+          "text": "बाल लिंगानुपात (0-6 आयु समूह) 898 था।"
+        },
+        {
+          "id": "opt4",
+          "text": "बाल लिंगानुपात (0-6 आयु समूह ) बाँसवाड़ा में सर्वाधिक था।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3181,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार जिलेवार घनत्व का सही अवरोही क्रम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा, बांसवाड़ा, धौलपुर, अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा, कोटा, अलवर, धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर, धौलपुर, कोटा, बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर, धौलपुर, बांसवाड़ा, कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सर्वाधिक जनघनत्व वाले जिले जयपुर595भरतपुर503दौसा476अलवर438धौलपुर398बांसवाड़ा397कोटा374",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3184,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2011 की जनगणनानुसार राजस्थान में वह ज़िला जहाँ शहरी जनसंख्या लिंगानुपात राज्य में सर्वाधिक रहा है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3185,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 जनगणना के अनुसार कौन से जिले में एस. टी. महिला साक्षरता न्यूनतम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3186,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से जिले में 2011 की जनगणना के अनुसार न्यूनतम नगरीय जनसंख्या मिलती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3187,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2011 की जनगणनानुसार राजस्थान के _________ जिले में महिला साक्षरता न्यूनतम रही है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3188,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2011 की जनगणना के अनुसार, राजस्थान में जनसंख्या घनत्व कितना दर्ज किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "382 व्यक्ति प्रति वर्ग किमी"
+        },
+        {
+          "id": "opt2",
+          "text": "165 व्यक्ति प्रति वर्ग किमी"
+        },
+        {
+          "id": "opt3",
+          "text": "200 व्यक्ति प्रति वर्ग किमी"
+        },
+        {
+          "id": "opt4",
+          "text": "324 व्यक्ति प्रति वर्ग किमी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3189,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    }
+  ]
+}

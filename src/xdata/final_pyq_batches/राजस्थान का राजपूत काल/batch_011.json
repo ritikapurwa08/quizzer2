@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का राजपूत काल",
+  "batchIndex": 11,
+  "batchName": "राजस्थान का राजपूत काल भाग 11",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-का-राजपूत-काल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ का विजय स्तम्भ इनके द्वारा बनवाया गया था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "राणा सांगा"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा कुम्भा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा प्रताप"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कुम्भा ने मालवा विजय के उपलक्ष्य में 9 मंजिला विजय स्तम्भ (Victory Tower) का निर्माण 1437 ई. में करवाया। जिसकी शुरूआत 1437-40 ई. में की गई, जो 1448 ई. में बनकर तैयार हुआ।",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10106,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I एवं सूची-II को सुमेलित कीजिए तथा नीचे दिये गये कूट में से सही उत्तर चुनिए –सूची-I(A) गागरोण का युद्ध(B) सारंगपुर का युद्ध(C) सुमेल का युद्ध(D) साहेबा का युद्ध सूची-II(i) 1519 ई.(ii) 1544 ई.(iii) 1437 ई.(iv) 1541-42 ई.कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-(i), B-(iii), C-(ii), D-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "A-(iv), B-(iii), C-(ii), D-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "A-(ii), B-(iii), C-(iv), D-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "A-(i), B-(ii), C-(iii), D-(iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "युद्ध वर्षगागरोण का युद्ध 1519 ई.सारंगपुर युद्ध / मालवा युद्ध 1437 ई.पाहेबा-साहेबा युद्ध 1542 ई.गिरी सुमेल 1544 ई.",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10107,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित युद्ध राजस्थान के इतिहास में सीमा चिह्न हैं: 1. खानवा का युद्ध 2. भटनेर का युद्ध 3. सुमेल-गिरि का युद्ध 4. हल्दीघाटी का युद्धइन युद्धों को सही तिथिक्रम में रखते हुए, सही उत्तर का चयन कीजिये:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 3, 4, 2"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 1, 3, 4"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2, 4, 3"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भटनेर का युद्ध (1398 ई.)खानवा का युद्ध (17 मार्च, 1527): राणा सांगा एवं जहीरुद्दीन मुहम्मद बाबरगिरी सुमेल के युद्ध (1544 ई.): मालदेव व शेरशाहहल्दीघाटी (राजसमंद) का युद्ध (18 जून, 1576): राणा प्रताप एवं अकबर",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10108,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस व्यक्तित्व का नाम बताइए जो कि ‘अभिनव भरताचार्य’ के नाम से भी जाना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागभट्ट-I"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा जसवंतसिंह-II"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा कुंभा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा प्रताप"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "महाराणा कुम्भा न केवल वीर, युद्धकौशल में निपुण तथा कला प्रेमी थे वरन् एक विद्वान तथा विद्यानुरागी भी थे। महाराणा कुम्भा स्वंय वीणा बजाया करते थे। इनके संगीत गुरू सारंग व्यास थे। जबकी इनके गुरू जैन आचार्य हीरानंद थे। उनकी उपाधि अभिनव भारताचार्य (संगीत कला में निपुण) से सिद्ध है कि वह स्वयं महान् संगीतकार थे।",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10110,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन् 1576 के युद्ध के बाद अकबर ने उदयपुर का प्रशासन किसे सौंपा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर के जगन्नाथ कच्छावा को"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर के रायसिंह को"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर के मानसिंह को"
+        },
+        {
+          "id": "opt4",
+          "text": "मिर्जा इस्माईल बेग को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अकबर ने उदयपुर का प्रशासन आमेर के जगन्नाथ कच्छावा को सौंपा।",
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10113,
+        "exam": "Superintendent Gar. 2021 (GK)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोकिलदेव ने आमेर को तीसरी राजधानी बनाया"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्छवाहा वंश के प्राचीन महल आमेर के कदमी महल हैं"
+        },
+        {
+          "id": "opt3",
+          "text": "कच्छवाहा वंश की कुल पांच राजधानीयां थी"
+        },
+        {
+          "id": "opt4",
+          "text": "कच्छवाहा वंश के शासकों को रघुकुल तिलक कहा जाता है"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कच्छवाहा वंश की कुल चार राजधानीयां थी। सवाई जयसिंह ने 18 नवम्बर, 1727 ई. जयपुर नगर की नींव रखी और उसे अपनी नवीन राजधानी (पहली दौसा, दूसरी जमवारामगढ़, तीसरी आमेर) बनाया।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10115,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अलाउद्दीन के राजस्थान पर आक्रमणों का सही कालानुक्रम है -1. जालौर आक्रमण 2. चित्तौड़ आक्रमण 3. रणथम्भौर आक्रमणकूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 2, 1"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 3, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "3, 1, 2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1301 ई. में हुए अंतिम युद्ध में हम्मीर चौहान की पराजय हुई और दुर्ग में पत्नि रंगदेवी ने जल जोहर किया तथा सभी राजपूत योद्धा मारे गये। 11 जुलाई, 1301 को दुर्ग पर अलाउद्दीन खिलजी का कब्जा हो गया। 26 अगस्त, 1303 ई. को सोमवार के दिन 6 महीने व 7 दिन की लड़ाई के बाद रावल रतनसिंह वीरगति को प्राप्त हुए और अलाउद्दीन खिलजी ने चित्तौड़ दुर्ग फतह कर कत्लेआम का हुक्म दिया।सन् 1311 ई. में अलाउद्दीन ने जालौर दुर्ग पर आक्रमण किया और कई दिनों के घेरे के बाद अंतिम युद्ध में अलाउद्दीन की विजय हुई और सभी राजपूत शहीद हुए।",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10119,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राव रायसिंह को ‘राजपुताने का कर्ण’ किसने कहा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चिन्तामणि भट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "मुंशी देवी प्रसाद"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानंद मैथिल"
+        },
+        {
+          "id": "opt4",
+          "text": "बिठू सूजा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रायसिंह के समय में घोर त्रिकाल पड़ा, जिसमें हजारों व्यक्ति एवं पशु मारे गए। महाराजा ने व्यक्तियों के लिए जगह-जगह ‘सदाव्रत’ खोले एवं पशुओं के लिए चारे-पानी की व्यवस्था की। इसलिए मुंशी देवी प्रसाद ने इसे ‘राजपूताने का कर्ण’ की संज्ञा दी है।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10122,
+        "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भरतपुर शहर की स्थापना की थी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा जनमेजय"
+        },
+        {
+          "id": "opt2",
+          "text": "राव प्रताप सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राव बीकाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा सूरजमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भरतपुर शहर की स्थापना जाट शासक राजा सूरजमल ने की थी। भरतपुर को राजस्थान का प्रवेश द्वार या पुर्वी द्वार भी कहा जाता है।",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10124,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजवंश, जो अलाउद्दीन के आक्रमण के समय देवगिरी पर शासन कर रहा था, वह है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यादव वंश"
+        },
+        {
+          "id": "opt2",
+          "text": "परमार वंश"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रकूट वंश"
+        },
+        {
+          "id": "opt4",
+          "text": "चालुक्य वंश"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अलाउद्दीन खिलजी के शासन काल में देवगिरि का शासक यादव वंश के रामचन्द्र थे। रामचन्द्र यादव राजकृष्ण के पुत्र थे।1296ई. में अलाउद्दीन खिलजी ने देवगिरि पर आक्रमण किया था।",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10126,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर के शासक जिन्होंने सल्तनत के विरूद्ध प्रतिरोध किया-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रहलाद एवं हम्मीर"
+        },
+        {
+          "id": "opt2",
+          "text": "वीरनरायण एवं हम्मीर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयसिंह एवं हम्मीर"
+        },
+        {
+          "id": "opt4",
+          "text": "वागभट्ट एवं हम्मीर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रणथंभौर के शासक वागभट्ट एवं हम्मीर ने दिल्ली सल्तनत का प्रतिरोध किया था। ये चौहान वंश के शासक थे। वागभट्ट ने रजिया के शासन काल में रणथंभौर पर कब्जा किया था। हम्मीर देव ने अलाउद्दीन खिलजी के आक्रमणों का विरोध किया था।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10129,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन् १५७६ के युद्ध के बाद अकबर ने उदयपुर का प्रशासन किसे सौंपा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर के जगन्नाथ कच्छाावा को"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर के रायसिंह को"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर के मानसिंह को"
+        },
+        {
+          "id": "opt4",
+          "text": "मिर्जा इस्माईल बेग को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1576में अकबर ने उदयपुर का शासन जगन्नाथ कछवाहा को सौंप दिया था।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10130,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘काकिलदेव’ निम्न में से किस वंश से सम्बन्धित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुहिल"
+        },
+        {
+          "id": "opt2",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "राठौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कछवाहा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोकिलदेव कछवाहा राजवंश के शासक थे। ये कछवाहा वंश के संस्थापक दूल्हे राय के उत्तराधिकारी थे। कोकिलदेव ने1207में आमेर को राजधानी बनाया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10131,
+        "exam": "RPSC Asst. Agriculture Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित शासकों में से किसे 1576 में चन्द्रसेन के दमन हेतु मुगल सेना के साथ भेजा गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेड़ता के जयमल को"
+        },
+        {
+          "id": "opt2",
+          "text": "आमेर के मानसिंह को"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर के हरराज को"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर के रायसिंह को"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1576में चन्द्रसेन के दमन हेतु बीकानेर के राव रायसिंह ने सिरोही पर हमला कर दिया था। सिरोही में चन्द्रसेन ने अपने परिवार को सुरक्षित रखा था।",
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10134,
+        "exam": "RPSC Asst. Testing Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस दुर्ग को अबुल फजल ने बख्तरबंद दुर्ग कहाँ है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेहरानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रणथम्भौर दुर्ग को अबुल फ़जल ने बख्तरबंद दुर्ग कहा है यह सवाई माधोपुर शहर के पास, रणथम्थौर राष्ट्रीय उद्यान के भीतर स्थित है। यह यूनेस्को की सूची में शामिल भारतीय धरोहर स्थल है। चित्तौड़ दुर्ग चित्तौड़ जिलें में स्थित है, जो मेवाड़ राज्य की राजधानी था। मेवाड़ वंश के संस्थापक बप्पा रावल ने चित्तौड़गढ़ को अपनी राजधानी बनाया था।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 14/09/2021",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10135,
+        "exam": "RPSC Sub Inspector 14/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "’’तिवारा कर’’ वसूला जाता था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "औद्योगिक उत्पादों पर"
+        },
+        {
+          "id": "opt2",
+          "text": "दूसरे राज्यों से व्यापार पर"
+        },
+        {
+          "id": "opt3",
+          "text": "दिवाली और होली जैसे पर्वो पर"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषि उत्पादों पर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "तिवारा कर दिवाली और होली जैसे पर्वों पर वसूला जाता है। राजस्थान की प्राचीन रियासत के संदर्भ में काँसा परोसा एक प्रकार का सामाजिक कर था, जो विवाह तथा मृत्युभोज के अवसर पर किसानों से वसूला जाता था।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10137,
+        "exam": "RPSC Sub Inspector 13/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रारंभिक मध्यकाल के राज्यों में ‘अक्षपटलिक’ की जिम्मेदारी थी–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्य कोषपाल के रूप में काम करना।"
+        },
+        {
+          "id": "opt2",
+          "text": "मुख्य लेखाधिकारी के रूप में काम करना।"
+        },
+        {
+          "id": "opt3",
+          "text": "विदेश मंत्री के रूप में काम करना।"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रधान मंत्री के रूप में काम करना।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के प्रारम्भिक मध्यकाल के राज्य में ‘अक्षपटलिक’ मुख्य लेखाधिकारी के रूप में कार्य करता था।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10138,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गुप्त सम्राट चन्द्रगुप्त- IIके संदर्भ में कौन सा कथन सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उसके शासन काल में चीनी यात्री फाहियान भारत आया था।"
+        },
+        {
+          "id": "opt2",
+          "text": "वह बौद्ध धर्मावलम्बी था।"
+        },
+        {
+          "id": "opt3",
+          "text": "वह शकों द्वारा पराजित हो गया था।"
+        },
+        {
+          "id": "opt4",
+          "text": "संस्कृत कथा साहित्य ‘कथासरिल्सागर’ चन्द्रगुप्तIIके समय ही रचा गया था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चीनी यात्री फहियान ने चन्द्रगुप्त द्वितीय के शासनकाल के दौरान भारत का दौरा किया था। क्योंकि वह बौद्ध धर्म ग्रंथों की प्रमाणिक प्रतियों की खोज कर रहा था। •चन्द्रगुप्त द्वितीय वैष्णव धर्म का अनुयायी था किन्तु वह बौद्ध व जैन धर्म साहित अन्य धर्मों के प्रति सहिष्णु था। •चन्द्रगुप्त द्वितीय ने शकों को पराजित कर पश्चिमी भारत में उनके शासन को समाप्त कर दिया। •कथा सरित्सागर ११वीं शताब्दी का भारतीय किंवदंतियों, परिकथाओं और लोक कथाओं का एक प्रसिद्ध संग्रह है जिसे सोमदेव ने लिखा है।",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20093,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए- महाजनपद राजधानी (A) मत्स्य (i) विराटनगर (B) अंग (ii) चम्पा (C) वत्स (iii) कौशाम्बी (D) अवंती (iv) उज्जयिनी नीचे दिए गए कूट का प्रयोग करते हुए सही उत्तर का चयन करें-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-i, B-ii, C-iii, D-iv"
+        },
+        {
+          "id": "opt2",
+          "text": "A-ii, B-iii, C-iv, D-i"
+        },
+        {
+          "id": "opt3",
+          "text": "A-iv, B-iii, C-ii, D-i"
+        },
+        {
+          "id": "opt4",
+          "text": "A-iii, B-ii, C-i, D-iv"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलित हैं- महाजनपद राजधानी मत्स्य विराटनगर अंग चंपा वत्स कौशाम्बी अवन्ति उज्जयिनी",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20094,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कलेण्डर प्रारंभिक वर्ष A. शक संवत I. 622 ईस्वी B. विक्रम संवत II. 319 ईस्वी C. हिजरी संवत III. ईसा पूर्व D. गुप्त संवत IV. 78 ईस्वी सही सुमेलित है– A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "III IV I II"
+        },
+        {
+          "id": "opt2",
+          "text": "IV III I II"
+        },
+        {
+          "id": "opt3",
+          "text": "IV III II I"
+        },
+        {
+          "id": "opt4",
+          "text": "III IV II I"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कलेंडर प्रारम्भिक वर्ष शक संवत 78 ईस्वी विक्रम संवत 57 ईसा पूर्व हिजरी संवत 622 ईस्वी गुप्त संवत 319 ईस्वी",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20095,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    }
+  ]
+}

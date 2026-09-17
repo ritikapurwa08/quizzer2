@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की जनसंख्या एवं जनगणना",
+  "batchIndex": 10,
+  "batchName": "राजस्थान की जनसंख्या एवं जनगणना भाग 10",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-जनसंख्या-एवं-जनगणना",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "2001 से 2011 के मध्य राजस्थान के किस जिले में अनुसूचित जनजाति की जनसंख्या में सर्वाधिक दशकीय परिवर्तन अंकित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "डूँगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नागौर जिले में २००१-२०११ के दौरान अनुसूचित जनजाति की उच्चतम दशकीय जनंसख्या वृद्धि दर (५3) दर्ज की गई।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3287,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिये गये कूट के आधार पर सही कथन का चयन कीजिए: A. 2011 में कोटा जिले ने 76.6%साक्षरता अंकित की। B. 2011 में जालौर जिले की महिला साक्षरता न्यूनतम रही। C. बीकानेर जिले ने २०११ में न्यूनतम जनसंख्या घनत्व अंकित किया। D. २०११ में राजस्थान की दशकीय जनसंख्या वृद्धि दर 21.3%रही। कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B और C"
+        },
+        {
+          "id": "opt2",
+          "text": "B, C और D"
+        },
+        {
+          "id": "opt3",
+          "text": "A, B और D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C और D"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जनगणना २०११ के अनुसार, २०११ में कोटा जिले ने ७६.६3 साक्षरता दर अंकित किया जो कि राजस्थान के सभी जिलों में सर्वाधिक है। न्यूनतम महिला साक्षरता जालौर (३८.५3) जिले की है। जबकि सर्वाधिक महिला साक्षरता कोटा (६५.९3) जिले की है। जैसलमेर जिले ने न्यूनतम जनंसख्या घनत्व (१७) अंकित किया जबकि बीकानेर का जनंसख्या घनत्व ७८ है। २०११ में राजस्थान की दशकीय वृद्धि दर २१.३१ प्रतिशत रही।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3288,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार राजस्थान के किस जिले का ग्रामीण लिंगानुपात एक हजार से अधिक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "डूँगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान में सर्वाधिक ग्रामीण लिंगानुपात वाला जिला पाली (१००३) है। जबकि न्यूनतम ग्रामीण लिंगानुपात वाला जिला धौलपुर (८४१) है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3289,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार राजस्थान में ग्रामीण क्षेत्र में लिंगानुपात था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "928"
+        },
+        {
+          "id": "opt2",
+          "text": "914"
+        },
+        {
+          "id": "opt3",
+          "text": "933"
+        },
+        {
+          "id": "opt4",
+          "text": "890"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "२०११ की जनगणना के अनुसार राजस्थान में ग्रामीण क्षेत्र में लिंगानुपात ९३३ जबकि शहरी क्षेत्र में लिंगानुपात ९१४ है। राजस्थान का कुल लिंगानुपात ९२८ है।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3290,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का प्रति वर्ग किलोमीटर जनसंख्या घनत्व (2011 की जनगणना के अनुसार) क्या था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "211"
+        },
+        {
+          "id": "opt2",
+          "text": "205"
+        },
+        {
+          "id": "opt3",
+          "text": "200"
+        },
+        {
+          "id": "opt4",
+          "text": "199"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान का प्रति वर्ग किलोमीटर जनसंख्या घनत्व २०० है।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3291,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "२०११ की जनगणना के अनुसार राजस्थान का जिला ग्रामीण लिंगानुपात १००० से अधिक है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुन्झुनु"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "२०११ की जनगणना के अनुसार राजस्थान के पाली जिला का ग्रामीण लिंगानुपात १००० से अधिक है। पाली जिला का ग्रामीण लिंगानुपात १००३ है।",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3292,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से जिले में वर्ष २००१-११अवधि में महिला जनसंख्या में दशकीय वृद्धि दर न्यूनतम रही हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली"
+        },
+        {
+          "id": "opt3",
+          "text": "झुन्झुनू"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्ष2001-11अवधि में महिला जनसंख्या में न्यूनतम दशकीय वृद्धि श्रीगंगा नगर(10%)जिले की रही है।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3293,
+        "exam": "RPSC School Lect. (S.E.)2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जनगणना 2011 के अनुसार सर्वाधिक महिला साक्षरता वाला जिला कौन सा हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जनगणना2011के अनुसार सर्वाधिक महिला साक्षरता कोटा(65.9%)तथा न्यूनतम महिला साक्षरता जालौर(38.5%)की है।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2020 RPSC Assistant jailor 2013 RPSC Head Master (S.S.) 2011",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3294,
+        "exam": "RPSC School Lect. (S.E.) 2020 RPSC Assistant jailor 2013 RPSC Head Master (S.S.) 2011",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2001-2011 के बीच निम्न में से किन जिलों की दशकीय जनसंख्या वृद्धि दर सबसे कम रही -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुन्झुनूँ, जालौर, डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर, बाड़मेर, जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली, झुन्झुनूँ, गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर, कोटा, नागौर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "2001-2011 के दशक के दौरान राजस्थान के गंगानगर जिले की जनसंख्या वृद्धि दर सबसे कम थी। इसकी वृद्धि दर 10.04% थी। झुंझुनूं 11.67%, पाली 11.94%",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3295,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "२०११ की जनगणना के अनुसार राजस्थान की साक्षरता दर है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "66.1%"
+        },
+        {
+          "id": "opt2",
+          "text": "79.2%"
+        },
+        {
+          "id": "opt3",
+          "text": "63.6%"
+        },
+        {
+          "id": "opt4",
+          "text": "68.1%"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "२०११ की जनगणना के अनुसार राजस्थान की साक्षरता दर ६६.१3 है। पुरुष साक्षरता दर ७९.२3 तथा महिला साक्षरता दर ५२.१3 है।",
+      "reference": "📌 PYQ — RPSC Veterinary Officer 2019",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3296,
+        "exam": "RPSC Veterinary Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नगर निगम की श्रेणी में आने के लिए शहर की जनसंख्या सीमा क्या होनी चाहिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 लाख से अधिक"
+        },
+        {
+          "id": "opt2",
+          "text": "3 लाख से अधिक"
+        },
+        {
+          "id": "opt3",
+          "text": "5 लाख से अधिक"
+        },
+        {
+          "id": "opt4",
+          "text": "4 लाख से अधिक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नगर निगम का गठन उन क्षेत्रों में किया जाता है जिनकी आबादी 5 लाख या उससे अधिक होती है।",
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3298,
+        "exam": "Tax Assitant Exam 2018(P1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2011 की जनगणना के अनुसार राजस्थान में ग्रामीण और शहरी साक्षरता दर क्या थी? (ग्रामीण) (शहरी)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "67.3% – 76.2%"
+        },
+        {
+          "id": "opt2",
+          "text": "71.7% – 78.5%"
+        },
+        {
+          "id": "opt3",
+          "text": "61.4% – 79.7%"
+        },
+        {
+          "id": "opt4",
+          "text": "64.8% – 72.5%"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "२०११ की जनगणना के अनुसार राजस्थान में ग्रमीण और शहरी साक्षरता दर क्रमश: ६१.४४3 तथा ७९.६८3 है।",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3299,
+        "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना २०११ के अनुसार, निम्नलिखित में से कौन-से वाक्य सही हैं? (A)राजस्थान की 24.9%जनसंख्या नगरीय क्षेत्रों में रहती है। (B)राजस्थान के शहरी क्षेत्रों का िंलगानुपात 914 है। (C)राजस्थान में अधिकतम बाल िंलगानुपात बाँसवाड़ा जिले में पाया जाता है। (D)राजस्थान में सन् २००१ से २०११ के बीच जनसंख्या घनत्व में ३५ व्यक्ति/वर्ग किलोमीटर बढ़ोतरी हुई। कुूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B एवं D"
+        },
+        {
+          "id": "opt2",
+          "text": "A, C एवं D"
+        },
+        {
+          "id": "opt3",
+          "text": "B, C एवं D"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B, C एवं D"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान की २४.९3 जनसंख्या नगरीय क्षेत्रो में तथा ग्रामीण क्षेत्रों में ७५.२3 रहती है। राजस्थान के शहरी क्षेत्रों का लिंगानुपात ९१४ तथा ग्रामीण क्षेत्रों का लिंगानुपात ९३३ है जबकि समग्र लिंगानुपात ९२८ है। राजस्थान में अधिकतम बाल लिंगानुपात बासवाड़ा जिले (९३४) में पाया जाता है। राजस्थान में वर्ष २००१ से २०११ के बीच जनंसख्या घनत्व में प्रति वर्ग किलोमीटर ३५3 की वृद्धि हुई है, जो २००१ में १६५ व्यक्ति प्रति वर्ग किलोमीटर से बढ़कर २०११ में २०० व्यक्ति प्रति वर्ग किमी. हो गया है।",
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3300,
+        "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार, राजस्थान के कौन से जिले क्रमश: न्यूनतम ग्रामीण एवं शहरी दशकीय जनसंख्या वृद्धि दर दर्शाते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर एवं झुंझुनूं"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा एवं डूँगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "डूँगरपुर एवं कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "झुंनझुनूं एवं सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जनगणना २०११ के अनुसार, २००१ से २०११ के दौरान सर्वाधिक ग्रामीण जनंसख्या वृद्धि वाला जिला जैसलमेर (३४.५3) तथा न्यूनतम ग्रामीण जनसंख्या वृद्धि वाला जिला कोटा (६.१) है। २००१ से २०११ के दौरान सर्वाधिक नगरीय जनसंख्या वृद्धि वाला जिला अलवर (५०.५3) तथा न्यूनतम नगरीय जनसंख्या वृद्धि वाला जिला डूंगरपुर (९.८3) है। 421",
+      "reference": "📌 PYQ — RPSC ACF & Forest Range officer Gr-I 2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3301,
+        "exam": "RPSC ACF & Forest Range officer Gr-I 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 2011 की जनगणना के अनुसार पुरुष कार्य-सहभागित दर है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "55% से 58% के बीच"
+        },
+        {
+          "id": "opt2",
+          "text": "58% से 61%के बीच"
+        },
+        {
+          "id": "opt3",
+          "text": "47% से 61%के बीच"
+        },
+        {
+          "id": "opt4",
+          "text": "50% से 53%के बीच"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान में पुरुष कार्य सहभागिता दर ५१.५3 रही है। जबकि महिला कार्य सहभागिता दर ३५.१3 तथा कुल कार्य सहभागिता दर ४३.६3 रही है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3302,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वर्ष 1901 से 2011 के बीच किस जनगणना वर्ष में न्यूनतम लिंगानुपात रहा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1901"
+        },
+        {
+          "id": "opt2",
+          "text": "1921"
+        },
+        {
+          "id": "opt3",
+          "text": "1991"
+        },
+        {
+          "id": "opt4",
+          "text": "2011"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1901 से २०११ तक निम्नलिखित वर्षों में राजस्थान का लिंगानुपात इस प्रकार है- वर्ष लिंगानुपात (1) 1901 925 (2) 1921 896 (3) 1991 910 (4) 2011 928",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3303,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की जनगणना 2011 के अनुसार निम्न जिलों को उनकी जनसंख्या के अनुसार अवरोही क्रम में जमाएं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, कोटा, जोधपुर, बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर, जोधपुर, अलवर, नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, उदयपुर, जोधपुर, बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, बीकानेर, जोधपुर, उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान के प्रश्नगत जिलों का उनकी जनसंख्या के अनुसार सही अवरोही क्रम इस प्रकार है- जयपुर(6, 626, 178) > जोधपुर(3, 687, 165) > अलवर (3, 674, 179)नागौर(3, 307, 743)। अन्य जिलों की संख्या इस प्रकार हैं- १. कोटा (१, ९५१, ०१४) २. बीकानेर (२, ३६३, ९३७) ३. उदयपुर (३, ०६८, ४२०)",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3304,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जनगणना 2011 के अनुसार राजस्थान के कौन से जिलों में बाल(0-6 वर्ष)लिंगानुपात 850 महिला प्रति 1000 पुरूष से कम पाया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली एवं गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली एवं सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "झुन्झुनु एवं करौली"
+        },
+        {
+          "id": "opt4",
+          "text": "झुन्झुन एवं सीकर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जनगणना २०११ के अनुसार राजस्थान के झुंझूनू और सीकर जिलों में बाल (०-६ वर्ष) लिंगानुपात ८५० महिला प्रति हजार पुरुष से कम पाया गया है। झुन्झुनू का बाल लिंगानुपात ८३७ तथा सीकर का बाल लिंगानुपात ८४८ महिला प्रति हजार पुरुष है। जबकि गंगानगर का बाल लिंगानुपात ८५४ करौली का ८५२ है।",
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3305,
+        "exam": "RPSC Engineer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2001-2011 अवधि में राजस्थान के निम्नलिखित जिलों में से किसमें उच्चतम दशकीय जनसंख्या वृद्धि दर पायी गयी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "२०११ की जनगणना के अनुसार राजस्थान में सर्वाधिक दशकीय जनसंख्या वृद्धि दर वाले शीर्ष ५ जिले हैं- बाड़मेर (३२.५3), जैसेलमेर (३१.८3), जोधपुर (२७.७3), जयपुर/जालौर (२६.२3)। 425",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3306,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित राज्यों को जनगणना २०११ के आधार पर उनकी महिला साक्षरता दर के अनुसार आरोही क्रम में व्यवस्थित करें: (A)बिहार (B)हरियाणा (C)हिमाचल प्रदेश (D)राजस्थान",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A, B, C, D"
+        },
+        {
+          "id": "opt2",
+          "text": "B, C, D, A"
+        },
+        {
+          "id": "opt3",
+          "text": "C, D, A, B"
+        },
+        {
+          "id": "opt4",
+          "text": "A, D, B, C"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वर्ष २०११ की जनगणना के अनुसार राज्यों में महिला साक्षरता दर आरोही क्रम इस प्रकार है– राज्य साक्षरता दर बिहार – ५१.५3 राजस्थान – ५२.१3 हरियाणा – ६५.९ हिमाचल प्रदेश – ७५.९3",
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3307,
+        "exam": "RPSC Sr. Teacher sanskrit-2018",
+        "year": 2018
+      }
+    }
+  ]
+}

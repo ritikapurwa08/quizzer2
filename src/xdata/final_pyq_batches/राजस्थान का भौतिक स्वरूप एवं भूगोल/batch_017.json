@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 17,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 17",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन सा क्षेत्र सतही जल द्वारा मृदा अपरदन से सर्वाधिक प्रभावित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोडवाड़ प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "शेखावाटी प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अवनालिका अपरदन नदियों, नालों व भारी बारिश के जल बहाव से होता है जल धाराओं द्वारा मिट्टी के ऊपरी आवरण के साथ-साथ कुछ गहराई तक कटाव किया जाता है जिससे गहरे गड्ढे, घाटीयां तथा नाले बन जाते है इसे भूमि का अवनालिका अपरदन कहते हैं। राजस्थान में चम्बल प्रदेश सतही जल द्वारा मृदा अपरदन से सर्वाधिक प्रभावित है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7450,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिये तथा सही उत्तर का चयन नीचे दिये कूट से कीजिये: सूची-I (भू-आकृति प्रदेश)सूची-II (दृश्य)(A) मेवाड़ पर्वतीय क्षेत्र (i) मुकन्दरा पहाड़ी(B) हाड़ौती पठार (ii) नाली(C) शेखावाटी प्रदेश (iii) गिरवा(D) घग्घर मैदान (iv) अन्तःप्रवाहित अपवाहकूट: (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iv) (iii) (ii) (i)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii) (i) (iv) (ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iii) (iv) (ii) (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(ii) (i) (iii) (iv)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर में चारों ओर पहाडि़यों होने के कारण उदयपुर की आकृति एक तश्तरीनुमा बेसिन जैसी है जिसे स्थानीय भाषा में गिरवा कहते है।मुकंदरा की पहाड़ियां मुख्य रूप से कोटा जिले में स्थित है, लेकिन इनका कुछ भाग झालावाड़ जिले में भी स्थित है। यह हाड़ौती पठार का भाग है।शेखावाटी प्रदेश में कुछ छोटी नदियाँ हैं जो कुछ दूरी तक प्रवाहित होकर राज्य में अपने प्रवाह क्षेत्र में ही विलुप्त हो जाती हैं तथा जिनका जल समुद्र तक नहीं जा पाता है, इन्हें आंतरिक जल प्रवाह की नदियाँ कहा जाता है।घग्घर नदी का उद्गम हिमांचल प्रदेश में कालका के निकट शिवालिका की पहाडि़यों से होता है। यह नदी पंजाब व हरियाणा में बहती हुई राजस्थान में हनुमानगढ़ जिले की टिब्बी तहसील के तलवाड़ा गाँव के पास से प्रवेश करती है। स्थानिय भाषा में इसे नाली कहते है। यह राजस्थान की एकमात्र अन्तर्राष्टीय नदी है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7451,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, ___ दक्षिण-पश्चिम से उत्तर-पूर्व तक जलवायु विभाजन के रूप में कार्य करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा पहाड़ियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "खासी पहाड़ियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी घाट"
+        },
+        {
+          "id": "opt4",
+          "text": "अरावली की पहाड़ियाँ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में अरावली की पहाड़ियाँ दक्षिण-पश्चिम से उत्तर-पूर्व तक एक जलवायु विभाजन के रूप में कार्य करती हैं।​",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7452,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बूंदी जिले में स्थित पहाड़ियों को कहते हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिरवा"
+        },
+        {
+          "id": "opt2",
+          "text": "मगरा"
+        },
+        {
+          "id": "opt3",
+          "text": "डोरा पर्वत"
+        },
+        {
+          "id": "opt4",
+          "text": "आडा वाला पर्वत"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आडावाला पर्वत राजस्थान के बूंदी जिले में है।",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7453,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गतिशील (mobile) ‘रेत के टीले’ को राजस्थान की स्थानीय भाषा में ‘___’ कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढोर"
+        },
+        {
+          "id": "opt2",
+          "text": "रोहिड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "खेजड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "धरियन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गतिशील रेत के टीलों को राजस्थान की स्थानीय भाषा में धरियान कहा जाता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7454,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का मरुस्थल किस नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोबी"
+        },
+        {
+          "id": "opt2",
+          "text": "सहारा"
+        },
+        {
+          "id": "opt3",
+          "text": "कालाहारी"
+        },
+        {
+          "id": "opt4",
+          "text": "थार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का अरावली श्रेणीयों के पश्चिम का क्षेत्र शुष्क एवं अर्द्धशुष्क मरूस्थली प्रदेश है। यह एक विशिष्ठ भौगोलिक प्रदेश है। जिसे भारत का विशाल मरूस्थल अथवा थार का मरूस्थल के नाम से जाना जाता है। थार का मरूस्थल विश्व का सर्वाधिक आबाद तथा वन वनस्पति वाला मरूस्थल है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7455,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी पर्वत श्रेणी राजस्थान राज्य को पूर्वी राजस्थान और पश्चिमी राजस्थान में विभाजित करती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी घाट श्रेणी"
+        },
+        {
+          "id": "opt2",
+          "text": "अरावली श्रेणी"
+        },
+        {
+          "id": "opt3",
+          "text": "विंध्याचल श्रेणी"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वांचल श्रेणी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अरावली श्रेणी राजस्थान राज्य को पूर्वी राजस्थान और पश्चिमी राजस्थान में विभाजित करती है। अरावली पर्वतमाला की औसत ऊँचाई समुद्र तल से 930 मीटर है। यह पर्वत श्रृखला दक्षिण-पश्चिम से उत्तर-पूर्व की ओर है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7456,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शहर में राजस्थान का केंद्रीय शुष्क क्षेत्र अनुसंधान संस्थान (भाकृअनुप) स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "केंद्रीय शुष्क क्षेत्र अनुसंधान संस्थान (CAZRI), जोधपुर में स्थित भारतीय कृषि अनुसंधान परिषद (ICAR) का एक प्रमुख अनुसंधान संस्थान है। केंद्रीय शुष्क क्षेत्र अनुसंधान संस्थान (CAZRI) की स्थापना 1959 में हुई थी।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7457,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "___ श्रेणी राजस्थान के लिए मुख्य जलक्षेत्र बनाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरावली"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी घाट"
+        },
+        {
+          "id": "opt3",
+          "text": "हिमालय"
+        },
+        {
+          "id": "opt4",
+          "text": "काराकोरम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली पर्वतमाला राजस्थान के लिए मुख्य जलक्षेत्र बनाती है। यह पर्वतमाला अपवाह को अरब सागर और बंगाल की खाड़ी में विभाजित करती है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7458,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "समुद्र तल से धोसी पहाड़ी की अनुमानित ऊँचाई कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "500 मीटर"
+        },
+        {
+          "id": "opt2",
+          "text": "400 मीटर"
+        },
+        {
+          "id": "opt3",
+          "text": "1000 मीटर"
+        },
+        {
+          "id": "opt4",
+          "text": "740 मीटर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "धोसी पर्वत एक विलुप्त ज्वालामुखी है।यह अरावली पर्वत श्रृंखला के उत्तर-पश्चिमी छोर पर अकेला स्थिर है, जिसमें से यह उसका एक भाग है, जिसकी ऊँचाई आसपास की भूमि से लगभग 345 से 470 मीटर तक है। यह समुद्र तल से 740 मीटर है। धोसी पर्वत हरियाणा और राजस्थान की सीमाओं पर स्थित है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7459,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विंध्यन कगार हिस्सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांगड़ का"
+        },
+        {
+          "id": "opt2",
+          "text": "अरावली का"
+        },
+        {
+          "id": "opt3",
+          "text": "थार का"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती का"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "विन्ध्यन कगार दक्षिण-पूर्व का पठारी भाग या हाडौती पठार का हिस्सा है।",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7460,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "छप्पन का मैदान कौन सी नदी द्वारा निर्मित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt3",
+          "text": "सूकड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "माही"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मध्य माही बेसीन या छप्पन का मैदान का विस्तार सलूम्बर, डुंगरपुर, बांसवाडा और प्रतापगढ़ जिलों में है। माही मध्य प्रदेश से निकल कर इसी प्रदेश से गुजरती हुई खंभात कि खाडी में गिरती है। यह क्षेत्र वागड़ के नाम से पुकारा जाता है तथा प्रतापगढ़ व बांसवाड़ा के मध्य भाग में छप्पन ग्राम समुह स्थित है। इसलिए यह भू-भाग छप्पन के मैदान के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7461,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूरा घाट एवं शिवपुर घाट स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी अरावली में"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी अरावली में"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्य अरावली में"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिणी-पूर्वी पठार में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बर, परवेरियां, शिवपुर घाट, सुरा घाट, देबारी, झीलवाडा, कच्छवाली, पीपली, अनरिया आदि दर्रे मध्य अरावली में स्थित हैं।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7462,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुकुन्दरा की पहाड़ियां भाग हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मध्य अरावली का"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी मैदान का"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती पठार का"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी बेसिन का"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मुकुंदरा की पहाड़ियां मुख्य रूप से कोटा जिले में स्थित है तथा इसका कुछ भाग झालावाड़ में भी आता है। ये हाड़ौती पठार का भाग हैं।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7463,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पर्वत चोटियों के समूह को उनकी ऊंचाई के अनुसार अवरोही क्रम में चयनित कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सायरा, डोरा पर्वत, नाग पहाड़, बिलाली"
+        },
+        {
+          "id": "opt2",
+          "text": "सायरा, नाग पहाड़, डोरा पर्वत, बिलाली"
+        },
+        {
+          "id": "opt3",
+          "text": "बिलाली, डोरा पर्वत, नाग पहाड़, सायरा"
+        },
+        {
+          "id": "opt4",
+          "text": "बिलाली, नाग पहाड़, डोरा पर्वत, सायरा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सायरा - उदयपुर - 900 मी.डोरा पर्वत - जालोर - 869 मी.नाग पहाड़ - अजमेर - 795 मी.बिलाली - अलवर - 775 मी.",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7464,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के पूर्वी तटीय मैदान को दक्षिणी भाग में किस नाम से जानते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालाबार"
+        },
+        {
+          "id": "opt2",
+          "text": "कोंकण"
+        },
+        {
+          "id": "opt3",
+          "text": "कोरोमण्डल"
+        },
+        {
+          "id": "opt4",
+          "text": "अमिनदीवी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत के पूर्वी तटीय भाग को तीन भागों में उत्तरी सरकार तट, उत्काल तट और कोरोमण्डल तट में बाँटा गया है। कोंकण और मालाबार तट भारत के पश्चिम तटीय भाग का हिस्सा है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19546,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ध्रुवीय क्षेत्र से बाहर, सबसे बड़ा हिमानी भारत में स्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगोत्री हिमानी"
+        },
+        {
+          "id": "opt2",
+          "text": "माना हिमानी"
+        },
+        {
+          "id": "opt3",
+          "text": "सियाचिन हिमानी"
+        },
+        {
+          "id": "opt4",
+          "text": "कंचनजंघा हिमानी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सियाचिन हिमनद, हिमालय-काराकोरम क्षेत्र का सबसे लंबा हिमनद है। यह ध्रुवीय क्षेत्र के बाहर भारत का सबसे बड़ा और विश्व का दूसरा सबसे बड़ा हिमनद है। गंगोत्री हिमनद उत्तराखण्ड में स्थित है। कंचनजंगा हिमनद असम में स्थित है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19547,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "झालावाड़ अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोराठ पठार पर"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य माही मैदान में"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती पठार पर"
+        },
+        {
+          "id": "opt4",
+          "text": "चम्बल बेसिन में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का दक्षिणी पूर्वी क्षेत्र एक सुनियोजित भौगोलिक इकाई है जिसे हाड़ौती का पठार के नाम से जाना जाता है। इसके अन्तर्गत चार जिले कोटा, बाराँ, बूँदी एवं झालावाड़ सम्मलित है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7466,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से थार मरुस्थल के किस भाग की समुद्र तल से सबसे कम ऊँचाई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी भाग"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी भाग"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तरी-पूर्वी भाग"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तरी-पश्चिमी भाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इस प्रदेश का सामान्य ढाल पूर्व से पश्चिम व उत्तर से दक्षिण की ओर है। इस प्रदेश की समुद्रतल से औसत ऊँचाई 200 से 300 मीटर है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7467,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्खात स्थलाकृतियाँ पाई जाती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़ तथा डूंगरपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "गंगानगर तथा हनुमानगढ़ में"
+        },
+        {
+          "id": "opt3",
+          "text": "घग्घर नदी बेसिन में"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर तथा सवाई माधोपुर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चम्बल बेसिन क्षेत्र में मुख्यतः उत्खात स्थलाकृति (Badland Topography) फैली है, तथा यहाँ नवीन कांपीय जमाव भी पाए जाते हैं। प्रदेश के सवाई माधोपुर, करौली एवं धौलपुर में चम्बल के बीहड़ स्थित है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7468,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    }
+  ]
+}

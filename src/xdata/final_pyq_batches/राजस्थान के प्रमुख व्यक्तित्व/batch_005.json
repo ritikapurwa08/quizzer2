@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के प्रमुख व्यक्तित्व भाग 5",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-प्रमुख-व्यक्तित्व",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "1960 में जयपुर में वर्धमान स्कूल की स्थापना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केसरी सिंह बारहठ"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रताप सिंह बारहठ"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्जुन लाल सेठी"
+        },
+        {
+          "id": "opt4",
+          "text": "राव गोपाल सिंह खरवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अर्जुन लाल सेठी ने 1906 में जयपुर में वर्धमान स्कूल की स्थापना की। उनका जन्म जयपुर, राजस्थान में हुआ था। उन्होंने क्रांति और स्वतंत्रता का पाठ पढ़ाने के लिए जयपुर में भारत के पहले राष्ट्रीय विद्यापीठ, जैन वर्धमान विद्यालय की स्थापना की।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11097,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित राज्यपालों में से कौन भारत के एयर चीफ मार्शल भी रह चुके हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वसंत राव पाटिल"
+        },
+        {
+          "id": "opt2",
+          "text": "रघुकुल तिलक"
+        },
+        {
+          "id": "opt3",
+          "text": "ओ.पी.मेहरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सुखदेव प्रसाद"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ओम प्रकाश मेहरा राजस्थान के राज्यपाल(1982)के साथ-साथ भारत के एयर चीफ मार्शल भी रह चुके हैं।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11099,
+        "exam": "RPSC Sr. Teacher Sanskrit-2022 Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादूजी के गुरु______थे।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रूप गोस्वामी"
+        },
+        {
+          "id": "opt2",
+          "text": "शुकदेव मुनि"
+        },
+        {
+          "id": "opt3",
+          "text": "कृपाराम"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्रह्मानन्द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दादूजी के गुरु ब्रह्मानन्द थे।",
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11100,
+        "exam": "RPSC Hospital Care Taker-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजाजी की पत्नी का नाम....... था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैणा दे"
+        },
+        {
+          "id": "opt2",
+          "text": "नेतल दे"
+        },
+        {
+          "id": "opt3",
+          "text": "फूलम दे"
+        },
+        {
+          "id": "opt4",
+          "text": "पेमल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तेजाजी की पत्नी का नाम पेमल था। पेमल राजस्थान के अजमेर जिले के पनेर गाँव के सरदार राममल की बेटी थी। तेजाजी को सापों का देवता कहा जाता है।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11101,
+        "exam": "RPSC School Lect. Group-C (S.E.)2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मोतीलाल तेजावत का जन्म कहाँ हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलियारी"
+        },
+        {
+          "id": "opt2",
+          "text": "मातृकुण्डिया"
+        },
+        {
+          "id": "opt3",
+          "text": "झाड़ोल"
+        },
+        {
+          "id": "opt4",
+          "text": "सलूम्बर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मोतीलाल तेजावत का जन्म1886ई. में उदयपुर जिले के कोल्यारी गाँव में हुआ था। तेजावत ने1921में चित्तौड़ जिले के मातृकुण्डिका नामक स्थान पर एकी आन्दोलन का सूत्रपात किया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11102,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा व्यक्तित्व राजस्थान से संबंधित है, जिसे फेमिना मिस इंडिया २०२३ का ताज पहनाया गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नंदिनी गुप्ता"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रेया पूंजा"
+        },
+        {
+          "id": "opt3",
+          "text": "मनसा वाराणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "रूबल शेखावत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की नंदिनी गुप्ता को वर्ष २०२३ में फेमिना मिस इंडिया का खिताब प्रदान किया गया। यह कोटा की रहने वाली है।",
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11103,
+        "exam": "RPSC Asst. Town Planner-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान रत्न अवार्ड-२०२२ से सम्मानित होने वालों की सूची में सम्मिलित नहीं हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर. एम. लोढ़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "शीन काफ नि़जाम"
+        },
+        {
+          "id": "opt3",
+          "text": "के. सी. मालू"
+        },
+        {
+          "id": "opt4",
+          "text": "डी. आर. मेहता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान रत्न अवार्ड-२०२२, ६ व्यक्तियों को प्रदान किया गया, जिसमें डी. आर. मेहता को यह पुरस्कार नहीं दिया गया है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11105,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही में किस राज्य सभा सदस्य को राजस्थान की राज्य स्तरीय जन अभियोग निराकरण समिति का सदस्य मनोनीत किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणदीप सुरजेवाला"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रमोद तिवारी"
+        },
+        {
+          "id": "opt3",
+          "text": "नीरज डांगी"
+        },
+        {
+          "id": "opt4",
+          "text": "मुकुल वासनिक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान सरकार ने एक आदेश जारी करके राज्यसभा संसद श्री नीरज डांगी को राज्य स्तरीय जन अभियोग निराकरण समिति में सदस्य मनोनीत किया गया।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11106,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पहली जनजाति हॉकी अकादमी कहाँ स्थापित की गई है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की पहली जनजाति हॉकी अकादमी राजस्थान के उदयपुर में स्थापित की गई है। इसकी घोषणा जुलाई २०२१ में की गई थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11107,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही बांसवाड़ा राजस्थान एटोमिक पावर प्रोजेक्ट इकाईयां 1 से 4 का पहला कंकरीट भराव किस वर्ष में अपेक्षित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2023"
+        },
+        {
+          "id": "opt2",
+          "text": "2024"
+        },
+        {
+          "id": "opt3",
+          "text": "2025"
+        },
+        {
+          "id": "opt4",
+          "text": "2026"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के आदिवासी इलाकों में बनी माही बांसवाड़ा परियोजना की १-४ इकाईयॉ को २०२४ में चालू किया जाएगा। इसका निर्माण एनटीपीसी और एन पी सी आई एल द्वारा संयुक्त रूप से किया जा रहा है। इस परियोजना का उद्देश्य रोजगार और निवेश के अवसर प्रदान करने और राज्य में बिजली की कमी को दूर करना है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11108,
+        "exam": "RPSC School Lect. (SE) G-B 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही में भारतीय मूल के एक व्यक्ति को विश्व बैंक के अध्यक्ष के रूप में चयनित किया गया। उनका क्या नाम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमित बंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "अरविंद बंगा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजय बंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "अरुण बंगा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय मूल के अजय बंगा को विश्व बैंक के १४वें अध्यक्ष के रूप में नियुक्त किया गया। यह २ जून, २०२३ से शुरू होने वाले पाँच साल के कार्यकाल के लिए विश्व बैंक के अध्यक्ष के रूप में नियुक्त किया गया।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022 RPSC RO &EO-2022 (Shift-I)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20155,
+        "exam": "RPSC Food Safety Officer - 2022 RPSC RO &EO-2022 (Shift-I)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही में पूर्व प्रधानमंत्री मनमोहन सिंह को किस देश में लाइफटाइम अचीवमेंट सम्मान से सम्मनित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यूएसए"
+        },
+        {
+          "id": "opt2",
+          "text": "यूएसई"
+        },
+        {
+          "id": "opt3",
+          "text": "यूक्रेन"
+        },
+        {
+          "id": "opt4",
+          "text": "यूके"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पूर्व प्रधानमंत्री मनमोहन सिंह को ब्रिटेन में लाइफटाइम अचीवमेंट सम्मान से सम्मनित किया गया। यह पुरस्कार उन्हें राजनीतिक और आर्थिक क्षेत्र में योगदान देने के लिए दिया गया है।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20156,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के ८१वें शतरंज ग्रैंडमास्टर कौन बने?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सायंतन दास"
+        },
+        {
+          "id": "opt2",
+          "text": "विशी आनंद"
+        },
+        {
+          "id": "opt3",
+          "text": "कौस्तव चटर्जी"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्नेश एन.आर."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सायंतन दास भारत के ८१वें शतरंज ग्रैंडमास्टर बने हैं। उन्होंने कान्स ओपन २०२३ में जीत हासिल करके यह खिताब अपने नाम किया था। सायंतन दास बंगाल के ११वें शतरंज ग्रैंडमास्टर भी है।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20157,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की अध्यक्षता में किस शहर में पहलीG२० रोजगार कार्य समूह की बैठक हुई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "केंद्रीय श्रम एवं रोजगार मंत्री भूपेन्द्र यादव ने फरवरी- २०२३ को जोधपुर में होने वाली पहली रोजगार कार्य समूह की बैठक के बारे में जानकारी दी। भारत इस वर्ष प्रतिष्ठित-जी-२० शिखर सम्मेलन की मेजबानी कर रहा है, जो-२० शिखर सम्मेलन की मेजबानी कर रहा है, जो अंतराष्ट्रीय आर्थिक सहयोग का प्रमुख मंच है।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20158,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘एयरो इंडिया २०२३’ कार्यक्रम का १४वाँ संस्करण कहाँ आयोजित किया गया था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गांधीनगर"
+        },
+        {
+          "id": "opt2",
+          "text": "बेंगलुरु"
+        },
+        {
+          "id": "opt3",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "एयरो इंडिया 2023 का १३ से १७ फरवरी तक बेंगलुरू कर्नाटक में आयोजित किया गया था, जो कि १९९६ में शुरू होने के बाद से सबसे बड़ा और १४वां संस्करण था। 1004",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20159,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में पहली बार किस राज्य/केंद्रशासित प्रदेश में लिथियम के भंडार की खोज की गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जम्मू और कश्मीर"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नाटक"
+        },
+        {
+          "id": "opt3",
+          "text": "अरुणाचल प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "बिहार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत में पहली बारलिथियम के भंडार की खोजजम्मू और कश्मीर (J & K)के रियासी जिले में हुई थी। यह भंडार सलाल-हैमना क्षेत्र में मिला था।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20160,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के सर्वोच्च न्यायालय के ७३वें स्थापना दिवस के मुख्य अतिथि किस देश के मुख्य न्यायाधीश थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऑस्ट्रेलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "सिंगापुर"
+        },
+        {
+          "id": "opt3",
+          "text": "मालदीव"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण अप्रâीका"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत के सर्वोच्च न्यायालय ने अपनी स्थापना की ७३वीं वर्षगांठ मनाई गई थी। इस वर्ष के कार्यक्रम में सिंगापुर के मुख्य न्यायाधीश ‘सुंदरेश मेनन’ मुख्य अतिथि थे, जो भारतीय मूल के है।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20161,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की अध्यक्षता के दौरान, दिसंबर २०२२ में जी- २० की प्रथम शेरपा बैठक कहाँ आयोजित की गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "४–७ दिसंबर २०२२ के बीचG–20 की प्रथम शेरपा बैठक राजस्थान के उदयपुर में आयोजित की गई। इस बैठक में अन्तर्राष्ट्रीय शेरपाओं उनके प्रतिनिधिमंडल औरG–20 के सदस्य, ९ अतिथि देश और १४ अन्तर्राष्ट्रीय संगठनों के प्रमुख शामिल हुए।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20162,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस एक ब्रिटिश सैनिक अधिकारी ने तात्या टोपे को फांसी देने के लिए ब्रिटिश सरकार की आलोचना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैप्टन शॉवर्स"
+        },
+        {
+          "id": "opt2",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल होम्स"
+        },
+        {
+          "id": "opt4",
+          "text": "जनरल एच.जी. रॉबर्टस"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11110,
+        "exam": "Asst. Statistical Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“स्वराज” शब्द का प्रयोग सर्वप्रथम किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एम.एन. रॉय"
+        },
+        {
+          "id": "opt2",
+          "text": "गोपाल कृष्ण गोखले"
+        },
+        {
+          "id": "opt3",
+          "text": "स्वामी विवेकानन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "दयानन्द सरस्वती"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11111,
+        "exam": "Police SI 13 September 2021 (Gk)",
+        "year": 2021
+      }
+    }
+  ]
+}

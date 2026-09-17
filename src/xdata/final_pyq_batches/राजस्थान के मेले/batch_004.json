@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 4,
+  "batchName": "राजस्थान के मेले भाग 4",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सालासर हनुमानजी का मेला कहाँ लगता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सालासर बालाजी का मंदिर चुरू जिले में स्थित है, जहाँ प्रसिद्ध मेला लगता है। यह भारत में हनुमान जी का एकमात्र मंदिर है, जहाँ दाढ़ी और मूंछें हैं। सालासर बालाजी मंदिर, जिसे स्थानीय लोग सालासर धाम के नाम से भी जानते हैं, चैत्र पूर्णिमा और अश्विन पूर्णिमा के दौरान विशेष रूप से भीड़भाड़ वाला होता है। सालासर बालाजी मंदिर भी धार्मिक सर्किट का एक हिस्सा है, जिसमें जीण माता मंदिर, रानी सती मंदिर और खाटूश्यामजी जैसे अन्य तीर्थस्थल शामिल हैं।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9421,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 14 जनवरी, मकर संक्रांति के दिन पतंग महोत्सव किस शहर में मनाया जाता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर में मकर संक्रांति पर अंतरराष्ट्रीय पतंग उत्सव प्रसिद्ध है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9422,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर के निकट भावगढ़ बंध्या गाँव में कौन-सा मेला लगता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करणी माता मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "कपिल मुनि मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री खलकाणी माता गर्दभ मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "शीतला माता मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजधानी जयपुर के निकट भावगढ़ बंध्या में हर साल एशिया प्रसिद्ध खलकाणी माता का चार दिवसीय गर्दभ मेला आयोजित होता है और गधों की खरीद-बिक्री के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9423,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के आदिवासी समाज का सबसे बड़ा मेला कौन-सा है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेणेश्वर मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "कैला देवी मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री महावीरजी मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "कपिल मुनि मेला"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बेणेश्वर मेला डूंगरपुर में आयोजित होता है और आदिवासी समुदायों (विशेष रूप से भील) का सबसे बड़ा मेला है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9424,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस स्थान पर तेजाजी की याद में मवेशी मेला लगाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "असुन्ध"
+        },
+        {
+          "id": "opt2",
+          "text": "परबतसर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "परबतसर (डीडवाना कुचामन) में आयोजित किया जाता है। यह मेला श्रावण पूर्णिमा से भाद्रपद अमावस्या तक लगता है।​",
+      "reference": "📌 PYQ — Computor Exam 2023",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9425,
+        "exam": "Computor Exam 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा मेला सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैलादेवी मेला - करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "कपिल मुनि मेला - कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "भर्तृहरि मेला - अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "शीतला माता मेला - चाकसू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोलायत में लगने वाला कपिल मुनि का मेला बीकानेर जिले का एक बड़ा मेला माना जाता है। कार्तिक पूर्णिमा को लगने वाला यह मेला कपिल मुनि के सम्मान में होता है। कोलायत का मूल नाम भी उन्हीं के नाम पर कपिलायतन था।",
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9426,
+        "exam": "Statistical Office Exam - 2023 (GK)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चन्द्रभागा मेला प्रतिवर्ष कार्तिक मास में कहाँ आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालरापाटन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चंद्रभागा मेला हर साल कार्तिक मास (अक्टूबर और नवंबर) में आयोजित किया जाता है। यह मेला राजस्थान के झालावाड़ ज़िले के झालरापाटन में लगता है। यह मेला चंद्रभागा नदी के सम्मान में आयोजित किया जाता है।",
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9427,
+        "exam": "RAS (Pre) Exam - 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन सा स्थान कपिल मुनि से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt2",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9428,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे कोलु (फलौदी) का प्रमुख वार्षिक मेला समर्पित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt3",
+          "text": "देवजी"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबुजी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9429,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध आदिवासी मेला ‘बेणेश्वर’ राजस्थान के किस जिले में आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बेणेश्वर मेला राजस्थान के डूंगरपुर जिले में आयोजित एक लोकप्रिय आदिवासी मेला है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9430,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सीताबाड़ी’ में किस जनजाति से सम्बन्धित मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "गरासिया"
+        },
+        {
+          "id": "opt3",
+          "text": "भील-मीणा"
+        },
+        {
+          "id": "opt4",
+          "text": "सहरिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सहरिया जनजाति के लोग सीताबाड़ी में मेला लगाते हैं। सीताबाड़ी, राजस्थान के बारां में एक प्रमुख तीर्थ स्थल के रूप में जाना जाता है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9431,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का प्रसिद्ध पुष्कर मेला हिन्दू पंचांग के किस माह में लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "सावन"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्तिक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9432,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बेणेश्वर का मेला लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ पूर्णिमा को"
+        },
+        {
+          "id": "opt2",
+          "text": "सावन पूर्णिमा को"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक पूर्णिमा को"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र पूर्णिमा को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9433,
+        "exam": "High Court LDC 2022 (19 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस मेले को आदिवासियों का कुम्भ कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेणेश्वर मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणगंगा मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "ऋषभदेव मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "पुष्कर मेला"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9434,
+        "exam": "High Court LDC 2022 (19 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिवरात्रि पशु मेले का आयोजन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़ में"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली में"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9435,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन – सा (पशु मेला और जिला) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोगामेडी पशुमेला – हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवरात्रि पशुमेला – सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "चन्द्रभागा पशुमेला – झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "रामदेव पशुमेला – नागौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "शिवरात्रि पशु मेला करौली जिले में लगता है, सवाई माधोपुर में नहीं। करौली मवेशी मेला हर साल फरवरी के महीने में आयोजित होता है, जो एक सप्ताह तक महा शिवरात्रि के त्योहार के साथ होता है।यह मेला राजस्थान के सबसे पुराने पशु मेलों में से एक है, जहाँ हर साल ऊँट, भैंस, गधे आदि हजारों जानवरों को बिक्री / खरीद के लिए लाया जाता है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9436,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कार्तिक महीने में चन्द्रभागा पशु मेला राजस्थान में किस स्थान पर आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीताबाडी"
+        },
+        {
+          "id": "opt2",
+          "text": "झालरापाटन"
+        },
+        {
+          "id": "opt3",
+          "text": "केशवरायपाटन"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चंद्रभागा पशु मेला राजस्थान के झालरापाटन में आयोजित किया जाता है। यह मेला कार्तिक (अक्टूबर और नवंबर) के महीने में आयोजित किया जाता है। मेला चंद्रभागा नदी को समर्पित है, जिसे राजस्थान के लोग पवित्र मानते हैं। मेला अपने विशाल पशु मेले के लिए प्रसिद्ध है। मेले में मुख्य रूप से मालवी नस्ल का व्यापार होता है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9437,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "छेला बावजी और ग्यारस की रैवाड़ी राजस्थान की किस जनजाति के प्रमुख मेले हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सहरिया"
+        },
+        {
+          "id": "opt2",
+          "text": "डामोर"
+        },
+        {
+          "id": "opt3",
+          "text": "सांसी"
+        },
+        {
+          "id": "opt4",
+          "text": "कंजर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9438,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा असंगत युग्म है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंद्रभागा मेला - झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कजली तीज उत्सव - बूँदी"
+        },
+        {
+          "id": "opt3",
+          "text": "शीत महोत्सव - माउण्ट आबू"
+        },
+        {
+          "id": "opt4",
+          "text": "मोमासर उत्सव - जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9439,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘फूटा देवल’ मेला कहाँ आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "फूटा देवल का मेला कुम्भलगढ दुर्ग से 10 किलोमीटर दूर राजसमंद और पाली की सीमाओं पर लगता हैं। इस मेले को ही भगवान परशुराम महादेव मन्दिर मेले के नाम से भी जाना जाता हैं।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9440,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    }
+  ]
+}

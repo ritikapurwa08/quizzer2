@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+  "batchIndex": 5,
+  "batchName": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ भाग 5",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-हस्तशिल्प-एवं-हस्तकलाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की महिलाएँ किस अवसर पर “लहरिया भाँत की ओढ़नी” पहनती हैं -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिवाली"
+        },
+        {
+          "id": "opt2",
+          "text": "शिशु के जन्म"
+        },
+        {
+          "id": "opt3",
+          "text": "होली"
+        },
+        {
+          "id": "opt4",
+          "text": "तीज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लेहरिया एक पारंपरिक टाई-डाई तकनीक है जिसका उपयोग कपड़ों, विशेष रूप से साड़ियों पर सुंदर पैटर्न बनाने के लिए किया जाता है। यह राजस्थान, भारत में एक लोकप्रिय कपड़ा कला रूप है, और अक्सर तीज और गणगौर उत्सव के दौरान पहना जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18068,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शरीर के कौन-से भाग में हाँसली पहनी जाती है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt2",
+          "text": "कान"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "सिर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हाँसली एक पारंपरिक गहना है जो महिलाएँ गले में पहनती हैं।गले और वक्ष के आभूषण: तुलसी, बजंट्टी, हालरो, हाँसली/खूंगाली, तिमणियाँ, पोत, चन्द्रहार, कंठमाला, हमेल, हांकर, मांदल्या, चंपाकली, हंसहार, सरी, कण्ठी/चैन, रामनामी, मंगलसूत्र आदि।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18069,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित आभुषण समूहों में से कौन सा समूह सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंगोट्या, कर्णफूल, पीपलपत्रा, झेला"
+        },
+        {
+          "id": "opt2",
+          "text": "तिमणिया, तुलसी, बजट्टी, हालरो"
+        },
+        {
+          "id": "opt3",
+          "text": "कंगन, नोगरी, गजरा, नेवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "लंगर, पायल, नुपूर, झांझर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पैरों में कड़ा, लंगर पायल, पायजेब, नूपुर, घुँघरु झाँझर, नेवरी आदि पहने जाते है। हाथों में कड़ा, कंगन, नोगरी, चाँट, गजरा, चूड़ी आदि पहने जाते है।",
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18073,
+        "exam": "Statistical Office Exam - 2023 (GK)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में हस्तशिल्प के लिये विशेष आर्थिक क्षेत्र स्थापित किया गया: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीतापुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "भिवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बोरनाडा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सीतापुर (जयपुर) में रत्न एवं आभूषण तथा बोरानाडा (जोधपुर) में हस्तशिल्प के लिए विशेष आर्थिक क्षेत्र स्थापित किए गए हैं, और जयपुर में सार्वजनिक-निजी भागीदारी (पीपीपी) मॉडल पर बहुउद्देशीय विशेष आर्थिक क्षेत्र “महेंद्र वर्ल्ड सिटी” की स्थापना की गई है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18082,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फाड़ कलाकार श्री लाल जोशी का सम्बन्ध राजस्थान के किस क्षेत्र से है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्री लाल जोशी एक प्रसिद्ध फाड़ चित्रकला कलाकार हैं, जिनका संबंध भीलवाड़ा (राजस्थान) से है। फाड़ चित्रकला राजस्थान की पारंपरिक कला है, जो लोक कथाओं और धार्मिक कहानियों को चित्रित करती है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18083,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में देवी साझी किस का अवतार है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीता"
+        },
+        {
+          "id": "opt2",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt3",
+          "text": "लक्ष्मी"
+        },
+        {
+          "id": "opt4",
+          "text": "ऊषा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में देवी साझी को देवी पार्वती का अवतार माना जाता है। साँझीकला अपने मूल रूप में गोबर पर विविधरंगी फूलों का सांस्कृतिक रचाव है। गोबर द्वारा जो विविध आकृतियां उभारी जाती हैं उन्हें फूलों द्वारा श्रृंगारित कर मनमोहक बनाई जाती है। फूलों के सम्पूर्ण परिवेश में जब साँझी खिलती है तब ऐसा लगता है कि जैसे पूरी संध्या खिल उठी है। साँझी को कुछ विद्वानों ने पार्वती, कुछ ने दुर्गा तो कुछ ने गौरा माना है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift II)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18084,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फड़ के वाचक कौन थे -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनजारा"
+        },
+        {
+          "id": "opt2",
+          "text": "भोपा"
+        },
+        {
+          "id": "opt3",
+          "text": "कालबेलिया"
+        },
+        {
+          "id": "opt4",
+          "text": "सग्रादा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भोपा राजस्थान में फड़ चित्रकला के कथावाचक होते हैं।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18085,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मांडना’ एक पारंपरिक लोक कला है: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोआ की"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराष्ट्र की"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान की"
+        },
+        {
+          "id": "opt4",
+          "text": "केरल की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मांडना राजस्थान की एक पारंपरिक लोक कला है, जिसमें दीवारों और फर्श पर रंगीन चित्र बनाए जाते हैं, विशेष रूप से त्योहारों के दौरान।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18086,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस त्यौहार से पहले श्राद्ध पक्ष में ‘साँझी’ बनायी जाती है -निम्निखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिवाली"
+        },
+        {
+          "id": "opt2",
+          "text": "पोंगल"
+        },
+        {
+          "id": "opt3",
+          "text": "दशहरा"
+        },
+        {
+          "id": "opt4",
+          "text": "होली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में, ‘सांझी’ दीवारों या फर्श पर बनाए गए कलात्मक चित्रण को संदर्भित करता है, जो पारंपरिक रूप से श्राद्ध पक्ष (पितृ पक्ष) के दौरान बनाया जाता है, जो नवरात्रि से पहले होता है और दशहरा के आसपास समाप्त होता है। दिवाली और होली का श्राद्ध से कोई संबंध नहीं है, और पोंगल एक दक्षिण भारतीय त्योहार है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18087,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चोल, निकोल, पट्टा, दुकूल, चोरसो ___ के विभिन्न नाम हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घाघरा"
+        },
+        {
+          "id": "opt2",
+          "text": "अंगरखा"
+        },
+        {
+          "id": "opt3",
+          "text": "ओढ़नी"
+        },
+        {
+          "id": "opt4",
+          "text": "चोली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ओढ़नी/साड़ियों के नाम - चोल, निचोल, पट, दुकूल, अंसुक, वसन, चीर - पटोरी, चोरसो, ओड़नी, चूँदड़ी, धोरीवाला, साड़ी आदि",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18075,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मोकड़ी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊन की दरियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "मिट्टी के बर्तन"
+        },
+        {
+          "id": "opt3",
+          "text": "लकड़ी के खिलौने"
+        },
+        {
+          "id": "opt4",
+          "text": "लाख की चूड़ियाँ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18077,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भील जनजाति के पुरुष कमर पर जो वस्त्र लपेटा करते हैं, उसे क्या कहा जाता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खोयतु"
+        },
+        {
+          "id": "opt2",
+          "text": "जामा"
+        },
+        {
+          "id": "opt3",
+          "text": "पोल्या"
+        },
+        {
+          "id": "opt4",
+          "text": "कछावू"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भील जनजाति के पुरुष खोयातु को अपनी कमर में लपेटते हैं। भील पुरुषों की वेशभूषा में एक पगड़ी या ‘फेटा’, एक ‘अंगी’, अंगरखा और एक निचला वस्त्र होता है, जिसे ‘पोटारियो’ कहा जाता है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18080,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से जयपुर का परम्परागत हस्तउद्योग कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्रकला"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्लू पॉटरी"
+        },
+        {
+          "id": "opt3",
+          "text": "उनी खादी"
+        },
+        {
+          "id": "opt4",
+          "text": "थेवा कला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18088,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा कथन राजस्थान की ब्लॉक छपाई के बारे में सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इसकी प्रक्रिया की शुरुआत 12वीं सदी से हुई थी ।"
+        },
+        {
+          "id": "opt2",
+          "text": "इसमें प्राकृतिक रंगों का उपयोग नहीं किया जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह राजस्थान का एक प्राचीन शिल्प रूप है।"
+        },
+        {
+          "id": "opt4",
+          "text": "इसे सूती कपडे पर किया जाता है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18089,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दाबू प्रिंट’ के लिए कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "आकोला"
+        },
+        {
+          "id": "opt3",
+          "text": "बालोतरा"
+        },
+        {
+          "id": "opt4",
+          "text": "बगरू"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18090,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नमदा के लिए कौन-सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18091,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘थेवा कला’ के लिए प्रसिद्ध परिवार कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोनी परिवार"
+        },
+        {
+          "id": "opt2",
+          "text": "खण्डेलवाल परिवार"
+        },
+        {
+          "id": "opt3",
+          "text": "गहलोत परिवार"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावत परिवार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18092,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य हस्तकर्घा विकास निगम किस वर्ष में संविधित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1986"
+        },
+        {
+          "id": "opt2",
+          "text": "1984"
+        },
+        {
+          "id": "opt3",
+          "text": "1983"
+        },
+        {
+          "id": "opt4",
+          "text": "1985"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18093,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजरखा प्रिंट के लिए राजस्थान का कौन-सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बाड़मेर का अजरक प्रिंट प्रसिद्ध है। इस प्रिंट में लाल और नीले रंग का प्रयोग किया गया। खत्री जाति इस कार्य को करने के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18094,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न दस्तकारों में से किसे टेराकोटा ऑफ मोलेला के लिए पद्मश्री पुरस्कार दिया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महेश सोनी"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्जुन प्रजापति"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री लाल जोशी"
+        },
+        {
+          "id": "opt4",
+          "text": "मोहनलाल कुम्हार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18095,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    }
+  ]
+}

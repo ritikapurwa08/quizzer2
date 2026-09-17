@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 26,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 26",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सी परियोजना जापान इन्टरनेशनल कोआपरेशन ऐजेन्सी के सहयोग से चलायी जा रही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मरूस्थलीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान वानिकी एवं जैवविविधता परियोजना"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रीय उद्यानों का विकास"
+        },
+        {
+          "id": "opt4",
+          "text": "हरित राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16350,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सत दरियावजी का संबंध है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विश्नोई मत"
+        },
+        {
+          "id": "opt2",
+          "text": "नाथ मत"
+        },
+        {
+          "id": "opt3",
+          "text": "राजाराम मत"
+        },
+        {
+          "id": "opt4",
+          "text": "रामस्नेही मत"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "संत दरियाव जी राम स्नेही संप्रदाय के संत थे। इन्होंने इस संप्रदाय की रैण (नागौर) शाखा स्थापित की थी।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16351,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जाम्भोजी के 29 नियमों का पालन करने वाले अनुयायी कहलाये",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथपंथी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामस्नेही"
+        },
+        {
+          "id": "opt3",
+          "text": "गुर्जर"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्नोई"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जाम्भोजी के29नियमों का पालन करने वाले अनुयायी विश्नोई संप्रदाय से संबंधित हैं। जाम्भोजी का मंदिर बीकानेर के तालवा में स्थित है। यह स्थान मुकाम कहलाता है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16352,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादू के देहान्त के पश्चात् नारायण पंथ की किस उपशाखा का मुख्य स्थान रहा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खाकी"
+        },
+        {
+          "id": "opt2",
+          "text": "नागा"
+        },
+        {
+          "id": "opt3",
+          "text": "खालसा"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तरार्द्ध"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "दादू दयाल जी द्वारा दादू पंथ की स्थापना1554ई. में की गई थी। इस गद्दी की प्रधान पीठ नरायणा, जयपुर में स्थित है। दादू जी के देहांत के बाद नरायणा गद्दी पर खाकी उपशाखा का प्रभुत्व स्थापित हुआ था।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16353,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैष्णव धर्म के निम्नलिखित सम्प्रदायों में से राजस्थान में सबसे कम लोकप्रिय कौन- सा सम्प्रदाय है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैतन्य"
+        },
+        {
+          "id": "opt2",
+          "text": "निम्बार्क"
+        },
+        {
+          "id": "opt3",
+          "text": "हितहरिवंश (राधावल्लभ)"
+        },
+        {
+          "id": "opt4",
+          "text": "वल्लभ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में वैष्णव धर्म के विभिन्न सम्प्रदायों में चैतन्य सम्प्रदाय सबसे कम प्रचलित है। इसकी तुलना में हितहरिवंश सम्प्रदाय, निम्बार्क सम्प्रदाय, और बल्लभ सम्प्रदाय राजस्थान में अधिक प्रचलित सम्प्रदाय है।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16354,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सर्वाधिक महत्वपूर्ण लोकदेवता माने जाते हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "कबीर"
+        },
+        {
+          "id": "opt3",
+          "text": "तुलसीदास"
+        },
+        {
+          "id": "opt4",
+          "text": "सुरदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सर्वाधिक महत्वपूर्ण देवता तेजाजी है। तेजाजी को एक वीर योद्धा और जनहितैसी लोक देवता के रूप में पूजा जाता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 2011",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16355,
+        "exam": "RPSC Sr. Teacher Gr-II 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा कथन राजस्थान के लोक देवताओं के सम्बन्ध में सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सर्पदंश से मुक्ति के लिए गोगाजी की पूजा की जाती है।"
+        },
+        {
+          "id": "opt2",
+          "text": "पाबूजी राठौड़ को ऊँटों का देवता माना जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "देव बाबा का मंदिर भरतपुर के नगला जहाज गाँव में है।"
+        },
+        {
+          "id": "opt4",
+          "text": "भूरिया बाबा चारणों के प्रमुख देवता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भूरिया बाबा चारणों के देवता नहीं बल्कि मीणा जनजाति के प्रमुख देवता हैं। राजस्थान में सॉप के काटने से मुक्ति दिलाने हेतु गोगा जी की पूजा की जाती है। पाबूजी ऊंटों के देवता है। देवबाबा का मन्दिर भरतपुर के नगला जहाज गांव में स्थित है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16356,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दादू पंथ के बारे में निम्नलिखित में से कौन-सा कथन सत्य नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादू-पंथ की प्रमुख पीठ नरेना (जयपुर) में स्थित सत्य नहीं है।"
+        },
+        {
+          "id": "opt2",
+          "text": "दादू-पंथी मूर्ति पूजा में विश्वास नहीं रखते हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "दादू-पंथी मृतकों के शव को जलाने में विश्वास करते हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "‘खाकी’ दादू-पंथ की एक शाखा है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दादू पंथ एक हिन्दू सम्प्रदाय है। इसकी स्थापना संत दादू दयाल ने की थी। इसकी प्रमुख पीठ नरेना (जयपुर) में स्थिति है। ये मूर्ति-पूजा में विश्वास नहीं करते थे और न ही मृतकों के शव को जलाने में विश्वास करते हैं। ‘खाकी’ दादू पंथ की एक प्रमुख शाखा है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16357,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन्त मावजी की पीठ कहाँ पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबला ग्राम (डूंगरपूर)"
+        },
+        {
+          "id": "opt2",
+          "text": "कतियासर (बीकानेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "बांधोली (अलवर)"
+        },
+        {
+          "id": "opt4",
+          "text": "सलेमाबाद (किशनगढ़-अजमेर)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संत मावजी की पीठ राजस्थान के डूंगरपुर जिले के साबला गांव में स्थिति है। संत मावजी का जन्म साबला गांव में ही हुआ था।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16358,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ख्वाजा मोइनुद्दीन चिश्ती का उर्स कहाँ आयोजित किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "आगरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16359,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बारात के स्वागत की रस्म को कहा जाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सामेला"
+        },
+        {
+          "id": "opt2",
+          "text": "पहरावणी"
+        },
+        {
+          "id": "opt3",
+          "text": "मिलनी"
+        },
+        {
+          "id": "opt4",
+          "text": "घुड़चढ़ी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर पक्ष के वधू के घर पहुँचने पर वधू के पिता द्वारा अपने सगे संबंधियों के साथ वर-पक्ष का स्वागत करने को सामेला कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16360,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक आभूषण जो पुरुषों द्वारा उपयोग लिया जाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अणत"
+        },
+        {
+          "id": "opt2",
+          "text": "तगड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "बजट्टा"
+        },
+        {
+          "id": "opt4",
+          "text": "मुरकियां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुरकियाँ राजस्थानी पुरुषों द्वारा कान में पहने जाने वाला आभूषण है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16361,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मेड़ता का बलदेव पशुमेला’ लगता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद १ से पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र १ से पूर्णिमा"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रावण १ से पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "आश्विन १ से पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बलदेव पशुमेला का आयोजन नागौर के मेड़ता सिटी में चैत्र शुक्ल एकम से चैत्र र्पूिणमा तक किया जाता है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16362,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘तारकीन का उर्स’ मेला लगता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sambhar /सांभर"
+        },
+        {
+          "id": "opt2",
+          "text": "Ajmer/अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "Sarwar/सरवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "Nagaur/नागौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तारकीन का उर्स मेला नागौर में ख्वा़जा हमीद नागौरी की दरगाह पर लगता है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16363,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मरू उत्सव मनाया जाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मरु महोत्सव का आयोजन जैसलमेर में किया जाता है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16364,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गाँव मुकाम में जामेश्वर मेला वर्ष में कितनी बार लगता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक"
+        },
+        {
+          "id": "opt2",
+          "text": "दो"
+        },
+        {
+          "id": "opt3",
+          "text": "चार"
+        },
+        {
+          "id": "opt4",
+          "text": "तीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जामेश्वर मेला का संबंध विश्नोई समाज से है। यह मेला बीकानेर जिले की नोखा तहसील के मुकाम गाँव में लगता है। इस मेले का आयोजन वर्ष में दो बार किया जाता है – 1.फाल्गुन अमावस्या 2.अश्विन अमावस्या",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16365,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नागौर मेला मुख्यत: है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धार्मिक मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "राजनीतिक जमावड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "पशु मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "महिलाओं का मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नागौर मेला मुख्यत: एक पशु मेला है। इस मेले में बैल, ऊँट, घोड़ों आदि का व्यापार होता है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16366,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शासक के शासन काल में दशहरा मेला लगना प्रारम्भ हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उम्मेदसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "रामसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्जनशाल"
+        },
+        {
+          "id": "opt4",
+          "text": "माधोसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोटा के दशहरा मेले का इतिहास1723ई. से शुरू होता है। इस मेले की शुरुआत महाराज दुर्जनशाल सिंह हाड़ा के शासनकाल में हुई थी।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16367,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तगड़ी क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "वस्त्र"
+        },
+        {
+          "id": "opt3",
+          "text": "वाघयत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "लकड़ी का खिलौना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तगड़ी महिलाओं द्वारा कमर में पहने जाने वाला एक आभूषण है। 151",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I RPSC RAS/RTS Pre 2006-07",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16368,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I RPSC RAS/RTS Pre 2006-07",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर त्योंहार कितनी अवधी तक मनाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१४ दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "१५ दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "१८ दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "१९ दिन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गणगौर राजस्थान के सबसे महत्त्वपूर्ण त्योहारों में से एक है। किसी न किसी रूप से यह पूरे राजस्थान में मनाया जाता है। गण भगवान ‘शिव’ का पर्याय है और गौरी या गौर ‘पार्वती’ का प्रतीक है। गणगौर दोनों के मिलन का जश्न मनाता है। गणगौर चैत्र (मार्च-अप्रैल) के महीने18दिनों तक में मनाया जाता है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16369,
+        "exam": "RPSC Agriculture Officer 2011 Paper-I",
+        "year": null
+      }
+    }
+  ]
+}

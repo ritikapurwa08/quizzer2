@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल",
+  "batchIndex": 9,
+  "batchName": "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल भाग 9",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-की-प्राचीन-सभ्यताएँ-एवं-पुरातात्विक-स्थल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस सभ्यता में मकान एवं बस्तियों के निर्माण में ईंटों का प्रयोग नहीं होता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt2",
+          "text": "आहड़"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीबंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "गणेश्वर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गणेश्वर का टीला, नीम का थाना में कांतली नदी के उद्गम स्थल पर अवस्थित है। गणेश्वर में रत्नचंद्र अग्रवाल ने 1977 में खुदाई कर इस सभ्यता पर प्रकाश डाला। इस क्षेत्र का विस्तृत उत्खनन कार्य 1978-89 के बीच विजय कुमार ने किया।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8803,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस स्थल से उत्खनन में ‘अग्नि वेदिकाएँ’ मिली थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गणेश्वर"
+        },
+        {
+          "id": "opt2",
+          "text": "आहड़"
+        },
+        {
+          "id": "opt3",
+          "text": "बागोर"
+        },
+        {
+          "id": "opt4",
+          "text": "कालीबंगा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कालीबंगा से ईटों से निर्मित चबुतरे पर सात अग्नि कुण्ड प्राप्त हुए है जिसमें राख एवम् पशुओं की हड्डियां प्राप्त हुई है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8804,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भीनमाल सभ्यता का पता रतनचन्द्र अग्रवाल द्वारा वर्ष 1953-54 ई. में सबसे पहले राजस्थान के किस ज़िले में लगाया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जालौर जिले में स्थित भीनमाल में 1953-54 ई. में रतनचन्द्र अग्रवाल के निर्देशन में खुदाई कार्य किया गया।",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8805,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा आहड़-बनास संस्कृति का पुरातात्विक स्थल है, जो राजस्थान के उदयपुर जिले की वल्लभनगर तहसील में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बदर"
+        },
+        {
+          "id": "opt2",
+          "text": "बख्तपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "अकबरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बालाथल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सन् 1993 में वी.एन. मिश्र द्वारा ई.पू. 3000 से लेकर ई.पू. 2500 तक की ताम्रपाषाण युगीन संस्कृति के बारे में पता चला है। बालाथल उदयपुर जिले की वल्लभनगर तहसील में स्थित है।",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8806,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय पुरातत्व सर्वेक्षण, जयपुर क्षेत्र द्वारा राजस्थान के ओजीयाणा स्थल पर उत्खनन किस अवधि/वर्षों के दौरान किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1998-99"
+        },
+        {
+          "id": "opt2",
+          "text": "1995-96"
+        },
+        {
+          "id": "opt3",
+          "text": "2008-09"
+        },
+        {
+          "id": "opt4",
+          "text": "2000-01"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आहड़ संस्कृति से सम्बन्धित पुरास्थल ओझियाना भीलवाड़ा जिले में स्थित है। इस पुरास्थल का उत्खनन सन् 1999-2000 में किया गया था।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8807,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा पुरातत्व स्थल राजस्थान के भरतपुर जिले में पाया गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अहिल्या बाई का कुआँ"
+        },
+        {
+          "id": "opt2",
+          "text": "अकबरी मस्जिद"
+        },
+        {
+          "id": "opt3",
+          "text": "आज़ी रहमान चिश्ती भवन"
+        },
+        {
+          "id": "opt4",
+          "text": "चमत्कारेश्वर महादेव मंदिर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अहिल्या बाई का कुआँ भरतपुर के गंगर सोली में स्थित है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8808,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिंदू पौराणिक कथाओं के अनुसार, राजस्थान का कौन सा शहर महाकाव्य महाभारत से संबंधित है और सरिस्का टाइगर रिजर्व के निकट है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विराटनगर"
+        },
+        {
+          "id": "opt2",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "दौसा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पाण्डुओं ने अपने 1 वर्ष का अज्ञातवास विराटनगर के राजा विराट के यहां व्यतित किया था।",
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8809,
+        "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कालीबंगा उत्तरी राजस्थान के हनुमानगढ़ जिले में ______ नदी के किनारे स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घग्घर (सरस्वती)"
+        },
+        {
+          "id": "opt2",
+          "text": "लूणी"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कालीबंगा प्राचीन सरस्वती नदी के बाएं तट पर जिला मुख्यालय हनुमानगढ़ से लगभग 25 किमी. दक्षिण में स्थित है। वर्तमान में यहाँ घग्घर नदी बहती है। कालीबंगा में पूर्व हड़प्पाकालीन, ‘हड़प्पाकालीन’ तथा ‘उत्तर हड़प्पाकालीन’ सभ्यता के अवशेष प्राप्त हुए हैं।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8810,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1998 में राजस्थान के भीलवाड़ा जिले में इनमें से किस स्थल की खुदाई की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लच्छुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "ओजियाना"
+        },
+        {
+          "id": "opt3",
+          "text": "नगर"
+        },
+        {
+          "id": "opt4",
+          "text": "बैराठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1998 में भीलवाड़ा के लच्छुरा में खुदाई की गई थी।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8811,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राचीन उत्खनन स्थल ‘नगर’ राजस्थान के किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नगर, टोंक की खुदाई पुरातत्त्ववेत्ता कृष्णदेव की देख-रेख में हुयी थी। नगर में के.वी. सौन्दरराजन ने पुनः उत्खनन करवाया था।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8812,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा/से मध्यपाषाण स्थल राजस्थान में स्थित है/हैं -A. बागोरB. रत्नापुरC. तिलवाराD. लोटेश्वर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और D"
+        },
+        {
+          "id": "opt2",
+          "text": "B और C"
+        },
+        {
+          "id": "opt3",
+          "text": "A और C"
+        },
+        {
+          "id": "opt4",
+          "text": "B और D"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इस युग के उपकरण उदयपुर के बागोर तथा मारवाड़ के तिलवाड़ा नामक स्थानों पर मिले हैं।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8813,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गणेश्वर एक उत्खनन स्थल नहीं है।"
+        },
+        {
+          "id": "opt2",
+          "text": "बैराठ एक ग्राम्य-संस्कृति केन्द्र था।"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीबंगा लौह-युग संस्कृतिक का एक उदाहरण था।"
+        },
+        {
+          "id": "opt4",
+          "text": "आहड़वासियों का महत्वपूर्ण व्यवसाय अयस्क तांबे का गलाना तथा ताम्र वस्तुएं बनाना था।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उदयपुर से तीन किलोमीटर दूर 500 मीटर लम्बे धूलकोट के नीचे आहड़ का पुराना कस्बा दवा हुआ है जहाँ से ताम्रयुगीन सभ्यता प्राप्त हुई है। ये लोग तांबा गलना जानते थे। यहाँ तांबे के औजार व उपकरणों के अत्यधिक प्रयोग के प्रमाण मिले है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8814,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कालीबंगा पुरास्थल के किस दिशा में जुता हुआ खेत मिला है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर-पूर्व"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर-पश्चिम"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण-पूर्व"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण-पश्चिम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कालीबंगा की खोज अमलानंद घोष ने की थी। कालीबंगा राजस्थान के गंगानगर जिले के अंतर्गत आता है।1961- 69के मध्य डॉ. बी.बी. लाल और बी.के. थापर के नेतृत्व में उत्खनन कार्य कराया गया था। कालीबंगा के प्राक सैंधव युग की सर्वोत्तम उपलब्धि बस्ती के दक्षिण-पूर्वी प्राचीर के बाहर जुते हुए खेत के अवशेष हैं।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022 RPSC Sub Inspector 14/09/2021 RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC Sr. Teacher Gr-II (G-I) 2016 RPSC School Lect. 2015 RPSC Collage Lect. 2014 (P-III) RPSC Agriculture Officer 2011 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9301,
+        "exam": "RPSC School Lect. (SE) G-B 2022 RPSC Sub Inspector 14/09/2021 RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC Sr. Teacher Gr-II (G-I) 2016 RPSC School Lect. 2015 RPSC Collage Lect. 2014 (P-III) RPSC Agriculture Officer 2011 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधोलिखित पुरातत्ववेत्ताओं में से कौन सा आहड़ के उत्खनन से संबद्ध नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बी.बी. लाल"
+        },
+        {
+          "id": "opt2",
+          "text": "आर.सी. अग्रवाल"
+        },
+        {
+          "id": "opt3",
+          "text": "के. व्यास"
+        },
+        {
+          "id": "opt4",
+          "text": "एच.डी. संकलिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आहड़ संस्कृति का उत्खनन में आर.सी. अग्रवाल, ए.के. व्यास, एच.डी. संकालिया द्वारा कराया गया था। बी.बी. लाल ने कालीबंगा का उत्खनन कराया था। यहाँ से बड़ी संख्या में ताम्र उपकरण प्राप्त हुए हैं इसलिए इसे ताम्रवती भी कहा गया है।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-A (S.E.) 2022 RPSC RO & EO 2022 Shift-II RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9302,
+        "exam": "RPSC School Lect. Group-A (S.E.) 2022 RPSC RO & EO 2022 Shift-II RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणेश्वर सभ्यता का विकास किस नदी के किनारे हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी"
+        },
+        {
+          "id": "opt3",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt4",
+          "text": "बाणगंगा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गणेश्वर सभ्यता राजस्थान के सीकर जिले में कांतली नदी के किनारे विकसित हुई थी। यह एक ताम्रयुगीन स्थल है। इसका उत्खनन आर.सी. अग्रवाल के निर्देशन में हुआ है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022 RPSC School Lect. Group-A (S.E.) 2022 RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9303,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022 RPSC School Lect. Group-A (S.E.) 2022 RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सीकर जिले के नीम का थाना में कांतली नदी के उद्गम पर खोजा गया ताम्र संस्कृति का महत्त्वपूर्ण स्थल कौन सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिलुंड"
+        },
+        {
+          "id": "opt2",
+          "text": "गणेश्वर"
+        },
+        {
+          "id": "opt3",
+          "text": "आहड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कालीबंगा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9304,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित पुरातत्त्वविदों में से किसने बैराठ का उत्खनन किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वी.एन. मिश्र"
+        },
+        {
+          "id": "opt2",
+          "text": "के.एन. पुरी"
+        },
+        {
+          "id": "opt3",
+          "text": "डी.आर. साहनी"
+        },
+        {
+          "id": "opt4",
+          "text": "एच.डी. सांकलिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9305,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा पुरावशेष कालीबंगा से सम्बन्धित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुर्गीकरण"
+        },
+        {
+          "id": "opt2",
+          "text": "शैल चित्र"
+        },
+        {
+          "id": "opt3",
+          "text": "अग्निवेदी"
+        },
+        {
+          "id": "opt4",
+          "text": "मृद्भांड"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कालीबंगा राजस्थान के हनुमानगढ़ जिले में वैदिक कालीन सरस्वती नदी के किनारे स्थित है। इस सभ्यता की खोज 1952में अमलानंद घोष ने की थी। इसका उत्खनन बी.बी. लाल और बी.के. थापर द्वारा कराया गया था। कालीबंगा से दुर्गीकरण, अग्नि वेदिकाएँ और मृदभाण्डों की प्राप्ति हुई है। यहाँ से शैलचित्रों की प्राप्ति नहीं हुई है।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9307,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भरतपुर जिले के किस गाँव में उत्खनन से ताम्रयुगीन सभ्यता के अवशेष मिले हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नदबई"
+        },
+        {
+          "id": "opt2",
+          "text": "नोह"
+        },
+        {
+          "id": "opt3",
+          "text": "रूपबास"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्हेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के भरतपुर जिले में स्थित नोह सभ्यता एक ताम्रपाषाणिक सभ्यता है। इस पुरास्थल का उत्खनन1963–64में रत्नलाल अग्रवाल के निर्देशन में प्रारम्भ हुआ था। यहाँ से ताम्र उपकरण प्राप्त हुए हैं। नोह से शुंगकालीन एक विशालकाय यक्ष प्रतिमा भी प्राप्त हुई है। 15",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9308,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ओझियाना पुरास्थल राजस्थान में कहाँ स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ओझियाना पुरास्थल राजस्थान के भीलवाड़ा जिले में स्थित है। यह आहड़ संस्कृति से संबंधित स्थल है।",
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9309,
+        "exam": "RPSC Hospital Care Taker-2022",
+        "year": 2022
+      }
+    }
+  ]
+}

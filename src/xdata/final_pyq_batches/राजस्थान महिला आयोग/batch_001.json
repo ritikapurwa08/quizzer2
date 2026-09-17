@@ -1,0 +1,308 @@
+{
+  "masterTopic": "राजस्थान महिला आयोग",
+  "batchIndex": 1,
+  "batchName": "राजस्थान महिला आयोग भाग 1",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-महिला-आयोग",
+  "negativeMarking": true,
+  "questionCount": 9,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस तारीख को राजस्थान में महिलाओं के मुद्दों को प्राथमिकता देने एवं उनको लागू करने के लिए अलग से महिला अधिकारिता निदेशालय गठित किया गया था ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 जून, 2006"
+        },
+        {
+          "id": "opt2",
+          "text": "18 जून, 2007"
+        },
+        {
+          "id": "opt3",
+          "text": "18 जून, 2008"
+        },
+        {
+          "id": "opt4",
+          "text": "18 जून, 2009"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में महिला अधिकारिता निदेशालय 18 जून 2007 को स्थापित किया गया था।",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12015,
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य महिला आयोग अधिनियम किस वर्ष पारित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1990"
+        },
+        {
+          "id": "opt2",
+          "text": "1999"
+        },
+        {
+          "id": "opt3",
+          "text": "2001"
+        },
+        {
+          "id": "opt4",
+          "text": "2003"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य महिला आयोग का गठन, राजस्थान राज्य महिला आयोग अधिनियम 1999 के तहत 15 मई 1999 को एक सांविधिक निकाय के रूप में किया गया। यह एक स्वायत्त संस्था के रूप में स्थापित किया गया।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12016,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान राज्य महिला आयोग की अध्यक्ष नहीं रही हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नगेंद्र बाला"
+        },
+        {
+          "id": "opt2",
+          "text": "सुमन शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "लाड कुमारी जैन"
+        },
+        {
+          "id": "opt4",
+          "text": "पवन सुराणा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नगेन्द्र बाला राजस्थान के हाड़ौती क्षेत्र की पहली महिला थीं, जिन्होंने महिलाओं में राष्ट्रीय चेतना का प्रसार किया। नगेन्द्र बाला का जन्म 13 सितंबर, 1926 को हुआ था। वे प्रसिद्ध क्रान्तिकारी केसरी सिंह बारहठ की पौत्री और प्रताप सिंह बारहठ की भतीजी थीं।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12017,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस वर्ष में राजस्थान राज्य महिला आयोग की स्थापना हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1996"
+        },
+        {
+          "id": "opt2",
+          "text": "1997"
+        },
+        {
+          "id": "opt3",
+          "text": "1998"
+        },
+        {
+          "id": "opt4",
+          "text": "1999"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12018,
+        "exam": "VDO Exam 1st Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य महिला आयोग के अध्यक्ष पद पर कौन आसीन नहीं रहा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कांता कथूरिया"
+        },
+        {
+          "id": "opt2",
+          "text": "लाड कुमारी जैन"
+        },
+        {
+          "id": "opt3",
+          "text": "गिरिजा व्यास"
+        },
+        {
+          "id": "opt4",
+          "text": "तारा भण्डारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कांता कथूरिया, लाड कुमारी जैन, और तारा भण्डारी राजस्थान राज्य महिला आयोग की अध्यक्ष रह चुकी हैं। गिरिजा व्यास एक प्रमुख कांग्रेस नेता और सांसद रही हैं, लेकिन उन्होंने राजस्थान राज्य महिला आयोग के अध्यक्ष पद पर कार्य नहीं किया।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12019,
+        "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य महिला आयोग के संबंध में कौनसा/कौनसे कथन सत्य है/हैं -(i) आयोग के अध्यक्ष व सदस्यों की नियुक्ति राज्यपाल करता है।(ii) आयोग का गठन 15 मई, 1999 को हुआ।(iii) यह गैर-संवैधानिक व परामर्शकारी निकाय है।(iv) इसका कार्य महिला उत्पीड़न से संबंधित शिकायतें सुनना तथा उनकी जाँच करना है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "i, ii, iii"
+        },
+        {
+          "id": "opt2",
+          "text": "ii, iii, iv"
+        },
+        {
+          "id": "opt3",
+          "text": "i, ii"
+        },
+        {
+          "id": "opt4",
+          "text": "i, ii, iii, iv"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य महिला आयोग की स्थापना का एक मूलभूत उद्देश्य हाशिये पर आई महिला आबादी को मुख्यधारा मे लाने का है। राजस्थान राज्य महिला आयोग का गठन, राजस्थान राज्य महिला आयोग अधिनियम 1999 के तहत 15 मई 1999 को एक सांविधिक निकाय के रूप में किया गया। यह एक स्वायत्त संस्था के रूप में स्थापित किया गया।नियुक्ति – राज्य सरकार द्वारा मनोनीत होता हैं।यह एक गैर-संवैधानिक (सांविधिक) और परामर्शकारी निकाय है, क्योंकि यह संविधान के तहत नहीं, बल्कि 1999 के अधिनियम के तहत स्थापित हुआ और इसका कार्य सलाह देना और जाँच करना है।",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 12020,
+        "exam": "VDO Exam 1st Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान महिला आयोग का कार्य निम्न मे से नहीं है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महिला उत्पीड़न से संबंधित शिकायतें सुनना।"
+        },
+        {
+          "id": "opt2",
+          "text": "महिलाओं के संवैधानिक प्रावधानों के क्रियान्वयन पर निगरानी रखना।"
+        },
+        {
+          "id": "opt3",
+          "text": "महिला सशक्तीकरण हेतु प्रयास।"
+        },
+        {
+          "id": "opt4",
+          "text": "महिला उत्पीड़न के दोषियों को दंडित करना।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "23अप्रैल, 1999को राज्य सरकार ने राजस्थान विधानसभा में राजस्थान राज्य महिल आयोग अधिनियम(1999) पेश किया। इसका मुख्य कार्य महिला उत्पीड़न से संबंधित शिकायतें सुनना, महिलाओं के संवैधानिक प्रावधानों के क्रियान्वयन पर निगरानी रखना तथा महिला सशक्तीकरण हेतु प्रयास करना है अत: विकल्प(d)सही नहीें है।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14308,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य महिला आयोग की अध्यक्ष हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तारा भण्डारी"
+        },
+        {
+          "id": "opt2",
+          "text": "पवन सुराणा"
+        },
+        {
+          "id": "opt3",
+          "text": "ममता शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "लाड कुमारी जैन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्नकाल के समय राजस्थान राज्य महिला आयोग की अध्यक्ष तारा भण्डारी थीं वर्तमान समय में रेहाना रयाज चिश्ती अध्यक्ष है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14322,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय महिला आयोग की अध्यक्ष कौन हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ममता शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "गिरिजा व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "यास्मीन अबरार"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्णिमा आडवाणी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रश्न काल के समय राष्ट्रीय महिला आयोग की अध्यक्ष ममता शर्मा थीं। नोट: वर्तमान में राष्ट्रीय महिला आयोग की अध्यक्ष श्रीमती विजया रहाटकर है। राष्ट्रीय महिला आयोग के अध्यक्ष3वर्ष या65वर्ष की आयु तक जो भी पहले ही होता है।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20678,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    }
+  ]
+}

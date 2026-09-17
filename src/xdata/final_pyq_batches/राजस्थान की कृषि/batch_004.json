@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 4,
+  "batchName": "राजस्थान की कृषि भाग 4",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन एक खरीफ फसल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धान"
+        },
+        {
+          "id": "opt2",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "चना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चना एक रबी फसल है, जो सर्दियों के मौसम में बोई जाती है। खरीफ फसलें (जैसे धान, मक्का, बाजरा) मानसून के दौरान बोई जाती हैं।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1501,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी राजस्थान राज्य की नगदी (कैश) फसले हैं? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोयाबीन और कोको"
+        },
+        {
+          "id": "opt2",
+          "text": "कपास और तम्बाकू"
+        },
+        {
+          "id": "opt3",
+          "text": "चाय और गन्ना"
+        },
+        {
+          "id": "opt4",
+          "text": "कॉफी और अनाज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कपास और तम्बाकू को राजस्थान की नगदी फसलें माना जाता है क्योंकि ये नकद लाभ प्रदान करती हैं।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1502,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नरमा’ राजस्थान की किस फसल से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चाय"
+        },
+        {
+          "id": "opt2",
+          "text": "कॉफी"
+        },
+        {
+          "id": "opt3",
+          "text": "जूट"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "‘नरमा’ राजस्थान में कपास की एक प्रसिद्ध किस्म है। यह मुख्य रूप से श्रीगंगानगर, हनुमानगढ़ और आसपास के क्षेत्रों में उगाई जाती है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1503,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शहर को ‘राजस्थान का खाद्य टोकरा’ के रूप में जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्री गंगानगर को ‘राजस्थान का खाद्य टोकरा’ कहा जाता है क्योंकि यह क्षेत्र राज्य की अधिकांश खाद्यान्न और नकदी फसलें उगाने में अग्रणी है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1504,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी राजस्थान की दो नकदी फसलें हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाजरा और धनिया"
+        },
+        {
+          "id": "opt2",
+          "text": "जौ और तिलहन"
+        },
+        {
+          "id": "opt3",
+          "text": "कपास और तंबाकू"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ और चावल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में कपास और तंबाकू प्रमुख नकदी फसलें हैं, जो किसानों को आर्थिक लाभ प्रदान करती हैं। कपास मुख्यतः राजस्थान के श्रीगंगानगर, हनुमानगढ़, और बीकानेर जिलों में उगाई जाती है, जबकि तंबाकू उदयपुर और कोटा क्षेत्रों में उगाई जाती है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1505,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामगंज मंडी, जिसे धनिया शहर के नाम से जाना जाता है, निम्नलिखित में से राजस्थान के किस शहर के नजदीक स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रामगंज मंडी, राजस्थान का धनिया शहर, कोटा के पास स्थित है और यह मसालों के व्यापार के लिए जाना जाता है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1507,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी बाजरे की संकर प्रजाति ICAR द्वारा राजस्थान के लिए प्रस्तावित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "PEHM1"
+        },
+        {
+          "id": "opt2",
+          "text": "RHB 121"
+        },
+        {
+          "id": "opt3",
+          "text": "RHB 127"
+        },
+        {
+          "id": "opt4",
+          "text": "HHB 67"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ICAR ने राजस्थान के लिए RHB 121, RHB 127, और HHB 67 जैसी बाजरे की संकर प्रजातियाँ प्रस्तावित की हैं। PEHM1 राजस्थान के लिए प्रस्तावित नहीं है।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1508,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी राजस्थान की प्रमुख फसल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गन्ना"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt3",
+          "text": "मक्का"
+        },
+        {
+          "id": "opt4",
+          "text": "मूंगफली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की प्रमुख फसलें बाजरा, मक्का और मूंगफली हैं, जो राज्य की शुष्क जलवायु के अनुकूल हैं। गन्ना एक जल-सघन फसल है और मुख्यतः उत्तर प्रदेश, बिहार, और महाराष्ट्र जैसे राज्यों में उगाई जाती है।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1509,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के शुष्क पश्चिमी मैदानी क्षेत्र में खरीफ की कौन सी मुख्य फसलों को बोया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ व चना"
+        },
+        {
+          "id": "opt2",
+          "text": "बाजरा, मोठ व तिल"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ, सरसों व जीरा"
+        },
+        {
+          "id": "opt4",
+          "text": "सरसों व चना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के शुष्क पश्चिमी मैदानी क्षेत्र में खरीफ के मौसम में प्रमुख रूप से बाजरा, मोठ, और तिल जैसी फसलें बोई जाती हैं, क्योंकि ये फसलें कम पानी में भी अच्छी तरह से पनप सकती हैं। गेहूँ और चना जैसी फसलें मुख्य रूप से रबी की फसलें हैं, जिन्हें ठंडे मौसम और अधिक जल की आवश्यकता होती है।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1510,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी खरीफ फसल तथा उसके प्रमुख उत्पादक जिले सही सुमेलित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ - गंगानगर, हनुमानगढ़ तथा बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "मक्का - सीकर, जालौर तथा धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा - अलवर, बाड़मेर तथा जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास - धौलपुर, जालौर तथा प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाजरा (मोती बाजरा) मुख्य रूप से अलवर, बाड़मेर और जयपुर जिलों में उगाया जाता है। इन क्षेत्रों में बाजरा के लिए उपयुक्त जलवायु और मिट्टी की स्थिति है, जो राजस्थान के खरीफ मौसम में एक प्रमुख फसल है।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1511,
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित जिलों में से कौन सा जिला सूखे वेस्टर्न कृषि-जलवायु क्षेत्र में शामिल है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अति शुष्क आंशिक सिंचित पश्चिमी मैदानी क्षेत्र (I-C) सबसे बड़े कृषिजलवायु क्षेत्रों में से एक है, जहाँ सिंचाई की सुविधाओं की कमी के बावजूद कृषि होती है। बीकानेर, जैसलमेर, और चुरू ज़िले, राजस्थान के अति शुष्क आंशिक सिंचित पश्चिमी मैदानी क्षेत्र (I-C) में आते हैं।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1512,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में मूँगफली के उत्पादन में राजस्थान की स्थिति क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दूसरी"
+        },
+        {
+          "id": "opt2",
+          "text": "पहली"
+        },
+        {
+          "id": "opt3",
+          "text": "तीसरी"
+        },
+        {
+          "id": "opt4",
+          "text": "चौथी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मूँगफली उत्पादन में राजस्थान का देशभर में दूसरा स्थान है, जो राज्य की कृषि उत्पादन में महत्वपूर्ण भूमिका निभाता है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1513,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का सबसे बड़ा कृषिजलवायु क्षेत्र कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क पश्चिमी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "अति शुष्क आंशिक सिंचित क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "आंतरिक जल निकासी शुष्क क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "उप आर्द्र दक्षिणी मैदान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अति शुष्क आंशिक सिंचित पश्चिमी मैदानी क्षेत्र (I-C) सबसे बड़े कृषिजलवायु क्षेत्रों में से एक है, जहाँ सिंचाई की सुविधाओं की कमी के बावजूद कृषि होती है। बीकानेर, जैसलमेर, और चुरू ज़िले, राजस्थान के अति शुष्क आंशिक सिंचित पश्चिमी मैदानी क्षेत्र (I-C) में आते हैं।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1514,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अमेरिकन कॉटन किस जिले में उत्पन्न होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में अमेरिकन कॉटन का सबसे अधिक उत्पादन श्री गंगानगर जिले में होता है, जो अपनी उपजाऊ मिट्टी के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1515,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फल उत्पादन के मामले में राजस्थान का पहला जिला कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गंगानगर जिला फल उत्पादन के मामले में राजस्थान में पहले स्थान पर है, विशेष रूप से यहाँ पर गन्ना, गेंहू और सब्जियां उगाई जाती हैं।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1516,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एकीकृत कृषि क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "योजनाबद्ध तरीकों से विभिन्न फसलों की खेती करना"
+        },
+        {
+          "id": "opt2",
+          "text": "रबी और खरीफ फसलों को एक साथ बढ़ाना"
+        },
+        {
+          "id": "opt3",
+          "text": "विभिन्न फसलों को उगाना और पशुधन को भी बढ़ाना"
+        },
+        {
+          "id": "opt4",
+          "text": "फसलें और सब्जियां एक साथ बढ़ाना"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "एकीकृत कृषि में कृषि और पशुपालन को एक साथ किया जाता है, जिससे किसान की आय और उत्पादकता में वृद्धि होती है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1517,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मक्का फसल के पकने की अवधि क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "40 दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "60 दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "110 दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "140 दिन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मक्का की फसल की सामान्य अवधि 110 दिनों की होती है। यह अवधि फसल के प्रकार और जलवायु पर निर्भर करती है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1518,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का सबसे बड़ा चने का उत्पादक जिला कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का हनुमानगढ़ जिला चने के उत्पादन में अग्रणी है। यहाँ चने की खेती बड़े पैमाने पर होती है, और यह जिला राज्य का सबसे बड़ा चने का उत्पादक है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1519,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मक्का राजस्थान के किस हिस्से में अधिक मात्रा में पैदा होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी और दक्षिण पूर्वी"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्य पूर्व"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्तरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मक्का (मकई) मुख्य रूप से राजस्थान के दक्षिणी और दक्षिण-पूर्वी हिस्सों में पैदा होती है। इस क्षेत्र में उचित वर्षा और अनुकूल मिट्टी के कारण मक्का की खेती अधिक होती है। विशेष रूप से भीलवाड़ा, उदयपुर, चित्तौड़गढ़, और बांसवाड़ा जैसे जिलों में मक्का प्रमुख फसल है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1520,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-कौन सी फसल और जाति का संयोजन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का-माही कंचन और माही धवल"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल - कावेरी, चंबल और परमाल"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूं- मैक्सिकन और कोहिनूर"
+        },
+        {
+          "id": "opt4",
+          "text": "मूंगफली- चंद्र और कुफरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कुफरी चंद्रमुखी आलू की एक महत्वपूर्ण किस्म है।भारत में उत्पादित की जाने वाली मूंगफली की प्रमुख किस्में कादिरी-2, कादिरी-3, बी. जी-1, बी. जी-2, कुबेर, गाग-1, गाग-10, पी. जी-1, टी-28, टी-64, चन्द्रा, चित्रा, कोशल, प्रकाश, अम्बर आदि है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1521,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+        "year": 2024
+      }
+    }
+  ]
+}

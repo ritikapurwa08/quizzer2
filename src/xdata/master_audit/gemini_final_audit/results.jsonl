@@ -1,0 +1,660 @@
+{"id":"QZ-RAJ-00001","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces between list items and instruction text","repair":{"questionText":"राजस्थान के निम्नलिखित ज़िलों को पश्चिम से पूर्व दिशा में व्यवस्थित करें:\na. धौलपुर\nb. जोधपुर\nc. जैसलमेर\nd. दौसा\ne. अजमेर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["b, c, a, d, e","d, b, c, a, e","c, b, e, d, a","c, b, d, e, a"],"explanation":"मानचित्र के अनुसार पश्चिम से पूर्व दिशा की ओर जिलों का सही क्रम इस प्रकार है:\n1. जैसलमेर (c)\n2. जोधपुर (b)\n3. अजमेर (e)\n4. दौसा (d)\n5. धौलपुर (a)\nअतः सही क्रम c, b, e, d, a है।"}}
+{"id":"QZ-RAJ-00002","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces and line breaks in question options text","repair":{"questionText":"राजस्थान के निम्नलिखित जिलों को उनके क्षेत्रफल के अनुसार (बड़ा से छोटा) व्यवस्थित करें:\na. नागौर\nb. पाली\nc. जोधपुर\nd. बाड़मेर\ne. चूरू\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["d, a, c, b, e","c, a, d, b, e","d, c, a, e, b","c, d, e, a, b"],"explanation":"क्षेत्रफल के अनुसार जिलों का अवरोही (घटता) क्रम:\n1. बाड़मेर (d): ~28,387 वर्ग किमी\n2. जोधपुर (c): ~22,850 वर्ग किमी\n3. नागौर (a): ~17,718 वर्ग किमी\n4. चूरू (e): ~13,835 वर्ग किमी\n5. पाली (b): ~12,387 वर्ग किमी\nअतः सही उत्तर d, c, a, e, b है।"}}
+{"id":"QZ-RAJ-00003","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing space after question mark","repair":{"questionText":"ऋग्वेद में उल्लिखित प्राचीन क्षेत्रों के नामों में से, राजस्थान का निम्नलिखित में से कौन-सा भाग “मारू” से जुड़ा हुआ है? सबसे उपयुक्त विकल्प का चयन कीजिए।","options":["जयपुर","अलवर","बीकानेर","जोधपुर"],"explanation":"ऋग्वेद और प्राचीन पौराणिक साहित्य में मरुस्थलीय एवं शुष्क प्रदेश को 'मरु' या 'मरुकांतार' कहा गया है। यह क्षेत्र मुख्यतः मारवाड़ (जोधपुर क्षेत्र) से संबंधित है।"}}
+{"id":"QZ-RAJ-00004","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00005","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces between list items and instruction text","repair":{"questionText":"राजस्थान के सीमावर्ती राज्य हैं:\na. उत्तर प्रदेश\nb. पंजाब\nc. गुजरात\nd. हिमाचल प्रदेश\ne. मध्य प्रदेश\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b, c, d","a, b, c, e","b, c, d, e","a, c, d, e"],"explanation":"राजस्थान भारत के 5 राज्यों के साथ अंतरराज्यीय सीमा साझा करता है: पंजाब, हरियाणा, उत्तर प्रदेश, मध्य प्रदेश और गुजरात। हिमाचल प्रदेश की सीमा राजस्थान से नहीं लगती है।"}}
+{"id":"QZ-RAJ-00006","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00007","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing formatting spaces in question text","repair":{"questionText":"राजस्थान के निम्नलिखित ज़िलों को पश्चिम से पूर्व के क्रम में व्यवस्थित करें:\na. पाली\nb. बाड़मेर\nc. टोंक\nd. अजमेर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["c, d, a, b","b, a, d, c","d, c, b, a","a, b, c, d"],"explanation":"पश्चिम से पूर्व का सही भौगोलिक क्रम है: बाड़मेर (b) -> पाली (a) -> अजमेर (d) -> टोंक (c)।"}}
+{"id":"QZ-RAJ-00008","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00009","decision":"REPAIR","flags":["TYPO","FORMATTING"],"reason":"Spelling typo 'ज़िल्लों' and lack of proper line breaks","repair":{"questionText":"राजस्थान के जिलों को क्षेत्रफल के घटते क्रम में व्यवस्थित करें:\na. अजमेर\nb. बीकानेर\nc. बाड़मेर\nd. जैसलमेर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["d, b, a, c","a, b, c, d","a, d, b, c","d, c, b, a"],"explanation":"क्षेत्रफल का घटता क्रम: जैसलमेर (d) > बाड़मेर (c) > बीकानेर (b) > अजमेर (a)।"}}
+{"id":"QZ-RAJ-00010","decision":"REMOVE","flags":["FACTUAL_ERROR"],"reason":"Factually incorrect data in question, options, and explanation. Rajasthan has 10 divisions and 50 districts after administrative restructuring."}
+{"id":"QZ-RAJ-00011","decision":"REMOVE","flags":["FACTUAL_ERROR"],"reason":"Factually broken question and hallucinated district counts in explanation that contradict official administrative setup."}
+{"id":"QZ-RAJ-00012","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00013","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00014","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00015","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces and line formatting","repair":{"questionText":"राजस्थान के निम्नलिखित में से कौन-से ज़िले पाकिस्तान अंतर्राष्ट्रीय सीमा को छूते हैं?\na. जोधपुर\nb. बीकानेर\nc. जैसलमेर\nd. श्री गंगानगर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, c और d","a, b और d","b, c और d","b और c"],"explanation":"बीकानेर, जैसलमेर, श्री गंगानगर (और अनूपगढ़) पाकिस्तान के साथ रेडक्लिफ अंतर्राष्ट्रीय सीमा पर स्थित हैं। जोधपुर एक आंतरिक जिला है।"}}
+{"id":"QZ-RAJ-00016","decision":"REPAIR","flags":["FORMATTING"],"reason":"Improved formatting and line breaks in matching lists for readability","repair":{"questionText":"सूची-I को सूची-II से सुमेलित करें:\n\nसूची-I (जिला)\n(a) जालोर\n(b) श्री गंगानगर\n(c) भरतपुर\n(d) बाँसवाड़ा\n\nसूची-II (सीमा)\n(i) उत्तर प्रदेश\n(ii) गुजरात\n(iii) मध्य प्रदेश\n(iv) पंजाब\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)","(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)","(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)","(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"],"explanation":"जालोर → गुजरात\nश्री गंगानगर → पंजाब\nभरतपुर → उत्तर प्रदेश\nबाँसवाड़ा → मध्य प्रदेश"}}
+{"id":"QZ-RAJ-00017","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00018","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00019","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00020","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00021","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00022","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00023","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00024","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00025","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00026","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00027","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00028","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00029","decision":"REPAIR","flags":["TYPO"],"reason":"Corrected spelling of गोडावण in option 1","repair":{"questionText":"राजस्थान का राज्य पक्षी कौन सा है -","options":["गोडावण (ग्रेट इंडियन बस्टर्ड)","नीलकंठ","भारतीय रोलर","मोर"],"explanation":"गोडावण (ग्रेट इंडियन बस्टर्ड) राजस्थान का राज्य पक्षी है। शुतुरमुर्ग जैसा दिखने वाला यह पक्षी उड़ने वाले पक्षियों में सबसे भारी है।"}}
+{"id":"QZ-RAJ-00030","decision":"REPAIR","flags":["TYPO"],"reason":"Corrected spelling of खेजड़ी in option 4","repair":{"questionText":"निम्नलिखित में से कौन सा पेड़ “थार का कल्पवृक्ष” है -","options":["आम का पेड़","गूलर का पेड़","जामुन का पेड़","खेजड़ी का पेड़"],"explanation":"खेजड़ी का पेड़ राजस्थान में “थार का कल्पवृक्ष” कहलाता है। यह शुष्क और अर्ध-शुष्क क्षेत्रों में जीवन का आधार है और पर्यावरणीय संतुलन बनाए रखने में महत्वपूर्ण भूमिका निभाता है।"}}
+{"id":"QZ-RAJ-00031","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00032","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00033","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00034","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00035","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00036","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00037","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00038","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00039","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00040","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00041","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00042","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00043","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00044","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00045","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00046","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00047","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00048","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00049","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00050","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00051","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00052","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00053","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00054","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00055","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected improper full stop punctuation in options text.","repair":{"questionText":"राजस्थान की स्थलीय सीमा की लम्बाई क्या है -","options":["5920 कि.मी.","5940 कि.मी.","6920 कि.मी.","5990 कि.मी."],"explanation":"राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।"}}
+{"id":"QZ-RAJ-00056","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00057","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00058","decision":"REPAIR","flags":["TYPO"],"reason":"Corrected typo in option 3 from 'चिंकार' to 'चिंकारा'.","repair":{"questionText":"राजस्थान के राज्य पशु है: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["चीता और गाय","चीता और ऊँट","भारतीय हिरण (चिंकारा) और ऊँट","ऊँट और काला चीता"],"explanation":"राजस्थान के दो राज्य पशु हैं: चिंकारा (भारतीय हिरण) और ऊँट। चिंकारा को 1981 में राज्य पशु घोषित किया गया। यह “एन्टीलोप” प्रजाती का एक मुख्य जीव है। इसका वैज्ञानिक नाम गजेला बेनेट्टी है। राजस्थान सरकार ने 30 जून 2014 को ऊँट को राजस्थान के राज्य पशु का दर्जा दिया था।"}}
+{"id":"QZ-RAJ-00059","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Added missing space between sentences in question text.","repair":{"questionText":"राजस्थान के राज्य पक्षी का नाम बताइए। निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["सनबर्ड","फाखता (डव)","गोडावण (ग्रेट इंडियन बस्टर्ड)","मोर"],"explanation":"राजस्थान का राज्य पक्षी गोडावण (Great Indian Bustard) है, जो एक संकटग्रस्त प्रजाति है और थार मरुस्थल में पाया जाता है।"}}
+{"id":"QZ-RAJ-00060","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00061","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00062","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space before 'निम्नलिखित'","repair":{"questionText":"निम्नलिखित में राजस्थान का कौन-सा क्षेत्र अपनी सीमा अन्य राज्य के साथ साझा करता है - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["पाली","नागौर","प्रतापगढ़","अजमेर"],"explanation":"प्रतापगढ़ जिला राजस्थान का एकमात्र जिला है जो मध्य प्रदेश के साथ अपनी सीमा साझा करता है। राजस्थान से सबसे लंबी अन्तर्राज्यीय सीमा मध्य प्रदेश(1600 किमी.) बनाता है। राजस्थान के 10 जिलों (धौलपुर, करौली, सवाई-माधोपुर, बारां, झालावाड़, कोटा, भीलवाड़ा, चित्तौड़गढ़, प्रतापगढ़, बांसवाड़ा) की सीमा मध्यप्रदेश के 10 जिलों(झाबुआ, रतलाम, मंदसौर, निमच, अगरमालवा, राजगढ़, गुना, शिवपुरी, श्यौपुर, मुरैना) की सीमा से लगती है।"}}
+{"id":"QZ-RAJ-00063","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space before 'निम्नलिखित'","repair":{"questionText":"कितने भारतीय राज्य राजस्थान के साथ अपनी सीमा साझा करते हैं - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["5","2","3","4"],"explanation":"राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।"}}
+{"id":"QZ-RAJ-00064","decision":"REPAIR","flags":["TYPO","LANGUAGE"],"reason":"Spelling typo 'उपपुक्त' repaired to 'उपयुक्त' and missing space inserted","repair":{"questionText":"निम्नलिखित में राजस्थान का कौन-सा क्षेत्र गुजरात राज्य के साथ अपनी सीमा साझा करता है - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["चित्तौड़गढ़","पाली","उदयपुर","नागौर"],"explanation":"राजस्थान के 6 जिलों (बांसवाड़ा, डूंगरपुर, उदयपुर, सिरोही, जालौर, बाड़मेर)की सीमा गुजरात के 6 जिलों (कच्छ, बनासकांठा, साबरकांठा, अरावली, माहीसागर, दाहोद) से लगती है।"}}
+{"id":"QZ-RAJ-00065","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space after full stop before 'निम्नलिखित'","repair":{"questionText":"उस प्रदेश को चुनिए जो राजस्थान राज्य के साथ अपनी सीमा साझा करता है। निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["उत्तराखंड","छत्तीसगढ़","हिमाचल प्रदेश","गुजरात"],"explanation":"राजस्थान गुजरात, मध्य प्रदेश, उत्तर प्रदेश, हरियाणा और पंजाब के साथ सीमा साझा करता है। छत्तीसगढ़, उत्तराखंड, और हिमाचल प्रदेश राजस्थान के पड़ोसी नहीं हैं।"}}
+{"id":"QZ-RAJ-00066","decision":"REPAIR","flags":["TYPO","LANGUAGE"],"reason":"Spelling typo 'भीगोलिक' repaired to 'भौगोलिक' and missing space inserted","repair":{"questionText":"निम्नलिखित में से राजस्थान का कौन-सा भौगोलिक क्षेत्र पाकिस्तान के साथ सीमा साझा करता है - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["पूर्वी मैदानी क्षेत्र","पश्चिमी शुष्क क्षेत्र","अरावली क्षेत्र","दक्षिण पूर्वी पठारी क्षेत्र"],"explanation":"राजस्थान का पश्चिमी शुष्क क्षेत्र (थार मरुस्थल) पाकिस्तान के साथ सीमा साझा करता है, जिसमें जिले जैसे जैसलमेर, बाड़मेर, बीकानेर, और गंगानगर शामिल हैं।"}}
+{"id":"QZ-RAJ-00067","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space before 'निम्नलिखित'","repair":{"questionText":"राजस्थान अपनी उत्तर पश्चिमी और पश्चिमी सीमा किस देश के साथ साझा करता है - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["अफगानिस्तान","नेपाल","पाकिस्तान","चीन"],"explanation":"राजस्थान की पश्चिमी और उत्तर-पश्चिमी सीमा पाकिस्तान से लगती है।"}}
+{"id":"QZ-RAJ-00068","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space before 'निम्नलिखित'","repair":{"questionText":"निम्नलिखित में राजस्थान का कौन-सा क्षेत्र पाकिस्तान के साथ अपनी सीमा साझा करता है - निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:","options":["चुरू","भीलवाड़ा","बीकानेर","पाली"],"explanation":"बीकानेर जिला राजस्थान के उत्तर-पश्चिमी भाग में स्थित है और पाकिस्तान के साथ अंतरराष्ट्रीय सीमा साझा करता है।"}}
+{"id":"QZ-RAJ-00069","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00070","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00071","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00072","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00073","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00074","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00075","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00076","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00077","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00078","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00079","decision":"REPAIR","flags":["FORMATTING"],"reason":"Matching list text was merged together without proper line spacing and punctuation.","repair":{"questionText":"निम्नलिखित को सुमेलित कीजिए -\nजिला:\nअ. बांसवाड़ा\nब. जैसलमेर\nस. धौलपुर\nद. गंगानगर\n\nअक्षांश/देशांतर:\n1. 30°12’ उत्तर\n2. 69°30’ पूर्व\n3. 23°3’ उत्तर\n4. 78°17’ पूर्व\n\nसही कूट (अ, ब, स, द) है -","options":["3, 2, 1, 4","3, 2, 4, 1","2, 3, 4, 1","1, 2, 4, 3"],"explanation":"राजस्थान राज्य भारत के उत्तरी-पश्चिमी भाग में 23°3' से 30°12' उत्तरी अक्षांश (दक्षिण में बांसवाड़ा से उत्तर में गंगानगर) तथा 69°30' से 78°17' पूर्वी देशान्तर (पश्चिम में जैसलमेर से पूर्व में धौलपुर) के मध्य स्थित है।"}}
+{"id":"QZ-RAJ-00080","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00081","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00082","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00083","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00084","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00085","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00086","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00087","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00088","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00089","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00090","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00091","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00092","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00093","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00094","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00095","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00096","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00097","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00098","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00099","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00100","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00101","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00102","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00103","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00104","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00105","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00106","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00107","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00108","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00109","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces between text and numbers in explanation","repair":{"questionText":"मारवाड़ क्षेत्रीय जनजाति विकास बोर्ड का मुख्यालय स्थापित किया जाना प्रस्तावित है:","options":["जोधपुर में","पाली में","बाडमेर में","उदयपुर में"],"explanation":"मारवाड़ क्षेत्रीय जनजाति विकास बोर्ड का गठन 2 फरवरी, 2021 को किया गया, जिसका मुख्यालय जोधपुर में है। इसका उद्देश्य जोधपुर मंडल के माडा, माडा क्लस्टर तथा बिखरे हुए आदिवासी क्षेत्रों के अनुसूचित जनजाति समुदाय का विकास करना है।"}}
+{"id":"QZ-RAJ-00110","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing space between Hindi text and acronym 'NBPGR'","repair":{"questionText":"राजस्थान में NBPGR का प्रादेशिक केन्द्र कहाँ स्थित है?","options":["जयपुर","उदयपुर","जोधपुर","बीकानेर"],"explanation":"राजस्थान के प्रमुख अनुसंधान केन्द्र: NBPGR का प्रादेशिक केन्द्र – जोधपुर, राष्ट्रीय ऊँट अनुसंधान केन्द्र – बीकानेर, राष्ट्रीय सरसों अनुसंधान केन्द्र – सेवर (भरतपुर), केन्द्रीय शुष्क क्षेत्र अनुसंधान संस्थान (CAZRI) - जोधपुर।"}}
+{"id":"QZ-RAJ-00111","decision":"REPAIR","flags":["TYPO"],"reason":"Spelling error 'जीवाशम' in question and font corruption in explanation","repair":{"questionText":"‘आकल काष्ठ जीवाश्म पार्क’ राजस्थान के किस जिले में स्थित है?","options":["बीकानेर","अजमेर","जोधपुर","जैसलमेर"],"explanation":"‘आकल काष्ठ जीवाश्म पार्क’ (Aakal Wood Fossil Park) राजस्थान के जैसलमेर जिले में स्थित है। यह लगभग 180 मिलियन वर्ष पुराना उद्यान है जो 21 हेक्टेयर क्षेत्र में फैला हुआ है।"}}
+{"id":"QZ-RAJ-00112","decision":"REPAIR","flags":["TYPO"],"reason":"Typo in option 'मगलवार' and term 'नो बेग डे'","repair":{"questionText":"राजस्थान देश का पहला राज्य है जहाँ राजकीय विद्यालयों में ‘‘नो बैग डे’’ लागू किया गया। इसके लिए निर्धारित दिन है -","options":["मंगलवार","गुरुवार","शुक्रवार","शनिवार"],"explanation":"राजस्थान के सरकारी स्कूलों में प्रत्येक शनिवार को ‘नो बैग डे’ (No Bag Day) के रूप में निर्धारित किया गया है, जिस दिन गैर-शैक्षणिक गतिविधियां आयोजित की जाती हैं।"}}
+{"id":"QZ-RAJ-00113","decision":"REPAIR","flags":["FORMATTING"],"reason":"Extranous artifact '1061' in explanation","repair":{"questionText":"राजस्थान में प्रथम ‘‘राजस्व दिवस’’ का आयोजन कब हुआ?","options":["15 सितम्बर, 2019","15 अक्टूबर, 2019","15 सितम्बर, 2020","15 अक्टूबर, 2020"],"explanation":"राजस्थान में प्रथम 'राजस्व दिवस' का आयोजन 15 अक्टूबर, 2020 को किया गया था।"}}
+{"id":"QZ-RAJ-00114","decision":"REPAIR","flags":["FORMATTING"],"reason":"Non-standard Devanagari numerals in options and trailing number artifact in explanation","repair":{"questionText":"राजस्थान दिवस कब मनाया जाता है?","options":["30 अप्रैल","30 मार्च","23 मार्च","12 अप्रैल"],"explanation":"राजस्थान दिवस प्रतिवर्ष 30 मार्च को मनाया जाता है। 30 मार्च 1949 को बृहत् राजस्थान संघ का निर्माण हुआ था।"}}
+{"id":"QZ-RAJ-00115","decision":"REPAIR","flags":["FORMATTING"],"reason":"Missing spaces and proper punctuation between sub-options in question text","repair":{"questionText":"राजस्थान के निम्न जिलों को पूर्व से पश्चिम दिशा अनुसार सुव्यवस्थित कीजिये। नीचे दिये हुए कोड का प्रयोग करें:\nअ. करौली\nब. अजमेर\nस. जोधपुर\nद. सवाई माधोपुर","options":["ब, अ, द, स","अ, द, ब, स","स, अ, ब, द","अ, ब, स, द"],"explanation":"पूर्व से पश्चिम दिशा का सही क्रम: करौली (अ) -> सवाई माधोपुर (द) -> अजमेर (ब) -> जोधपुर (स)।"}}
+{"id":"QZ-RAJ-00116","decision":"REMOVE","flags":["FACTUAL_ERROR"],"reason":"Selected answer option is factually incorrect and explanation hallucinates post-2023 division structure","duplicateOf":null}
+{"id":"QZ-RAJ-00117","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00118","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00119","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00120","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00121","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00122","decision":"REPAIR","flags":["EXPLANATION"],"reason":"Explanation describes state bird (Godawan) instead of state tree (Khejri / Prosopis cineraria)","repair":{"questionText":"राजस्थान के राजकीय वृक्ष का वैज्ञानिक नाम कौन सा है -","options":["टेकोमेला अंडुलाटा","प्रोसोपिस सिनेररिया","सिडियम गुआजावा","ओरिजा सातिवा"],"explanation":"राजस्थान का राजकीय वृक्ष खेजड़ी है, जिसे 31 अक्टूबर 1983 को राज्य वृक्ष घोषित किया गया था। इसका वैज्ञानिक नाम 'प्रोसोपिस सिनेररिया' (Prosopis cineraria) है। इसे 'राजस्थान का कल्पवृक्ष' भी कहा जाता है।"}}
+{"id":"QZ-RAJ-00123","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00124","decision":"REPAIR","flags":["LANGUAGE","TYPO"],"reason":"Question text contains typo 'राजगृह' instead of 'राजस्थान'","repair":{"questionText":"गुजरात राजस्थान के ___ में स्थित है -","options":["उत्तर","दक्षिण","दक्षिण पश्चिम","ईशान कोण"],"explanation":"राजस्थान पांच राज्यों के साथ अन्तर्राज्यीय सीमा बनाता है। यह उत्तर में पंजाब, उत्तर-पूर्व में हरियाणा, पूर्व में उत्तर प्रदेश, दक्षिण-पूर्व में मध्यप्रदेश एवं दक्षिण-पश्चिम में गुजरात के साथ अन्तर्राज्यीय सीमाएं बनाता है।"}}
+{"id":"QZ-RAJ-00125","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00126","decision":"REPAIR","flags":["LANGUAGE","TYPO"],"reason":"Option 1 and explanation contain font rendering artifacts ('3' instead of '%')","repair":{"questionText":"अप्रैल 1999 से मरु विकास कार्यक्रम को केन्द्र और राजस्थान के द्वारा क्रमश: फंड किया गया -","options":["100% केन्द्र के द्वारा","50 : 50","25 : 75","75 : 25"],"explanation":"मरुस्थल विकास कार्यक्रम 1977-78 में शुरू हुआ। 1 अप्रैल 1999 से इसे केन्द्र सरकार द्वारा 75% और राज्य सरकार द्वारा 25% (75:25) अनुपात में वित्त पोषित किया जा रहा है।"}}
+{"id":"QZ-RAJ-00127","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00128","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00129","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00130","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00131","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00132","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00133","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00134","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00135","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00136","decision":"REPAIR","flags":["TYPO"],"reason":"Option 1 has a spelling typo ('अजमे' instead of 'अजमेर').","repair":{"questionText":"राजस्थान के जिस शहर को सी. वी. रमन ने ‘आयलैंड ऑफ ग्लोरी’ नाम दिया है, वह है -","options":["अजमेर","उदयपुर","जयपुर","जोधपुर"],"explanation":"‘आयलैंड ऑफ ग्लोरी’ (वैभव का द्वीप) सी वी रमन ने जयपुर को कहा था। जयपुर के अन्य उपनाम- पूर्व का पेरिस, पिंक सिटी, रंग श्री द्वीप, रत्न नगरी, पन्ना नगरी, सिंधु सभ्यता की तर्ज पर बसा नगर।"}}
+{"id":"QZ-RAJ-00137","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00138","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00139","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00140","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00141","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00142","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00143","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00144","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00145","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00146","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00147","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00148","decision":"REPAIR","flags":["TYPO"],"reason":"Typo in degree notation and spelling ('72o', 'पुर्व').","repair":{"questionText":"कौनसा जिला मुख्यालय शहर 72° पूर्व देशान्तर एवं 74° पूर्व देशान्तर के मध्य स्थित नहीं है -","options":["डूंगरपुर","उदयपुर","जालोर","हनुमानगढ़"],"explanation":"हनुमानगढ़ जिला मुख्यालय लगभग 74° 20' पूर्व देशान्तर पर स्थित है, जो 72° से 74° पूर्व देशान्तर के मध्य नहीं आता।"}}
+{"id":"QZ-RAJ-00149","decision":"REPAIR","flags":["TYPO"],"reason":"Spelling typo in question ('बांरा' instead of 'बारां').","repair":{"questionText":"बारां जिले की सीमा राजस्थान के कितने जिलों से लगती है -","options":["3","2","5","4"],"explanation":"बारां जिले की सीमा केवल दो जिलों कोटा और झालावाड़ से लगती है।"}}
+{"id":"QZ-RAJ-00150","decision":"REMOVE","flags":["FACTUALLY_INCORRECT"],"reason":"Due to Rajasthan district reorganization, multiple options are factually false, rendering the single-answer structure broken."}
+{"id":"QZ-RAJ-00151","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00152","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00153","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00154","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00155","decision":"REPAIR","flags":["TYPO"],"reason":"Degree symbol typo in explanation (25o45' instead of 25°45').","repair":{"questionText":"राजस्थान के निम्नलिखित में से किन दो जिला मुख्यालयों का अक्षांश मान समान है -","options":["पाली-सवाई माधोपुर","पाली-भीलवाडा","उदयपुर-सिरोही","पाली-बाडमेर"],"explanation":"पाली और बाड़मेर के जिला मुख्यालय लगभग समान अक्षांश (25°45' उत्तरी अक्षांश) पर स्थित हैं।"}}
+{"id":"QZ-RAJ-00156","decision":"REPAIR","flags":["EXPLANATION_OUTDATED"],"reason":"Explanation listed Sikar and Jhunjhunu under Jaipur division; updated district reorganization details.","repair":{"questionText":"अलवर जिला किस संभाग का भाग है -","options":["भरतपुर","जयपुर","जोधपुर","अजमेर"],"explanation":"जयपुर संभाग में वर्तमान में 7 जिले शामिल हैं - जयपुर, जयपुर (ग्रामीण), दूदू, कोटपूतली-बहरोड़, खैरथल-तिजारा, अलवर और दौसा।"}}
+{"id":"QZ-RAJ-00157","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00158","decision":"REPAIR","flags":["TYPO"],"reason":"Formatting typo in explanation area figure.","repair":{"questionText":"नव गठित प्रतापगढ़ जिला पूर्व में किन जिला/जिलों के भूभाग से बना है -","options":["चित्तौड़गढ़ केवल","चित्तौड़गढ़-बांसवाड़ा","चित्तौड़गढ़-बांसवाड़ा-उदयपुर","चित्तौड़गढ़-उदयपुर"],"explanation":"26 जनवरी 2008 को प्रतापगढ़ (4,117.36 वर्ग किमी) को राजस्थान के 33वें जिले के रूप में गठित किया गया। यह उदयपुर, बांसवाड़ा और चित्तौड़गढ़ जिलों से लिए गए क्षेत्रों से मिलकर बना है। यह परमेशचंद कमेटी की सिफारिश पर बनाया गया था।"}}
+{"id":"QZ-RAJ-00159","decision":"REPAIR","flags":["TYPO"],"reason":"Formatting typo in explanation area figure.","repair":{"questionText":"प्रतापगढ़ जिले का क्षेत्रफल कितना है -","options":["4000 से 5000 वर्ग किमी के मध्य","4500 से 5500 वर्ग किमी के मध्य","5000 से 6000 वर्ग किमी के मध्य","5500 से 6500 वर्ग किमी के मध्य"],"explanation":"26 जनवरी 2008 को गठित प्रतापगढ़ जिले का क्षेत्रफल 4,117.36 वर्ग किमी है, जो 4000 से 5000 वर्ग किमी की श्रेणी में आता है।"}}
+{"id":"QZ-RAJ-00160","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00161","decision":"REPAIR","flags":["LANGUAGE","TYPO"],"reason":"Spelling errors in question ('रेगीस्तान') and explanation ('फुल').","repair":{"questionText":"रेगिस्तान का सागवान कौनसा वृक्ष है -","options":["रोहिड़ा","बबूल","खेजड़ी","खैर"],"explanation":"रोहिड़ा के फूल को 21 अक्टूबर 1983 को राज्य पुष्प घोषित किया गया। इसे 'मरूशोभा' या 'रेगिस्तान का सागवान' भी कहते हैं। इसका वैज्ञानिक नाम टिकोमेला अण्डुलेटा (Tecomella undulata) है।"}}
+{"id":"QZ-RAJ-00162","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00163","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00164","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00165","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00166","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00167","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00168","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text for better readability.","repair":{"questionText":"उत्तरी अरावली पर्वत की चोटियों की पहचान कीजिए:\n(a) रघुनाथगढ़ चोटी\n(b) गुरु शिखर\n(c) भैरच चोटी\n(d) खो चोटी\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:","options":["केवल (b), (c) और (d)","केवल (a), (c) और (d)","(a), (b), (c) और (d)","केवल (a), (b) और (c)"],"explanation":"उत्तरी अरावली की प्रमुख चोटियाँ: रघुनाथगढ़ (सीकर - 1055 मी), भैरच (अलवर - 792 मी), और खो (जयपुर - 920 मी)।\nगुरु शिखर (1722 मी) दक्षिणी अरावली (सिरोही/आबू पर्वत) की सबसे ऊँची चोटी है, इसलिए यह उत्तर अरावली में शामिल नहीं है।"}}
+{"id":"QZ-RAJ-00169","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"अरावली की निम्नलिखित चोटियों को ऊँचाई के बढ़ते क्रम में व्यवस्थित करें:\na. कुंभलगढ़\nb. दिलवाड़ा\nc. जरगा\nd. रघुनाथगढ़\ne. अचलगढ़\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["d, a, e, c, b","b, a, c, d, e","d, b, e, a, c","a, b, e, d, c"],"explanation":"चोटियों की ऊँचाई का सही मीटर मान इस प्रकार है (कम से ज्यादा की ओर):\nरघुनाथगढ़: 1055 मीटर (सीकर)\nकुंभलगढ़: 1224 मीटर (राजसमंद)\nअचलगढ़: 1380 मीटर (सिरोही)\nजरगा: 1431 मीटर (उदयपुर/राजसमंद सीमा)\nदिलवाड़ा: 1442 मीटर (सिरोही)"}}
+{"id":"QZ-RAJ-00170","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"राजस्थान के अरावली क्षेत्र के बारे में निम्नलिखित कथनों पर विचार करें और सही कथनों का चयन करें:\na. उत्तरी अरावली का विस्तार जयपुर, दौसा, अलवर, सीकर और झुंझुनूं ज़िलों में है।\nb. मध्य अरावली अजमेर और जयपुर के बीच विस्तृत है।\nc. भोराट का पठार उदयपुर के उत्तर में कुंभलगढ़ और गोगुन्दा के बीच स्थित है।\nd. इस पहाड़ी क्षेत्र की औसत उँचाई 500 मीटर है।\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b और d","a, c और d","b और d","a, b और c"],"explanation":"उत्तरी अरावली जयपुर-अलवर क्षेत्र में है, मध्य अरावली अजमेर के आसपास है, और भोराट का पठार कुंभलगढ़ (राजसमंद) से गोगुंदा (उदयपुर) के बीच है। अरावली पर्वतीय प्रदेश की औसत ऊँचाई 930 मीटर है, न कि 500 मीटर।"}}
+{"id":"QZ-RAJ-00171","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"थार मरुस्थल के महत्व के संबंध में निम्नलिखित कथनों पर विचार करें और सही कथनों का चयन करें:\na. मरुस्थल के शुष्क भागों में पशुपालन और पशुचारण मुख्य पेशा है।\nb. पाकिस्तान के साथ अंतर्राष्ट्रीय सीमा पर स्थित होने के कारण इस क्षेत्र का रणनीतिक महत्व है।\nc. इस क्षेत्र में, विभिन्न खनिज जैसे कोयला, ताँबा, रॉक फास्फेट, खनिज तेल, प्राकृतिक गैस आदि पाये जाते हैं।\nd. यह अपनी भू-आकृतिक विशिष्टताओं के कारण पर्यटकों को आकर्षित करता है।\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b और c","b, c और d","a, b, c और d","c और d"],"explanation":"थार मरुस्थल में कम बारिश के कारण कृषि मुश्किल है, इसलिए पशुपालन मुख्य आजीविका है। भारत-पाकिस्तान की सीमा पर होने के कारण सेना और सुरक्षा के लिहाज से इसका बहुत बड़ा रणनीतिक (Strategic) महत्व है। यहाँ कोयला (लिग्नाइट), खनिज तेल, प्राकृतिक गैस और ताँबा/रॉक फास्फेट जैसे प्रचुर खनिज मिलते हैं। अपने खूबसूरत सम (Sam) के धोरों और किलों के कारण यह पर्यटन का बहुत बड़ा केंद्र है।"}}
+{"id":"QZ-RAJ-00172","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"राजस्थान के पश्चिमी मरुस्थली क्षेत्र के संबंध में निम्नलिखित कथनों पर विचार करें और सही कथनों का चयन करें:\na. यह अरावली के उत्तर-पश्चिम और पश्चिम में विस्तारित है।\nb. इसकी औसत ऊँचाई समुद्र तल से 30 से 50 मीटर तक है।\nc. यह गंगानगर, हनुमानगढ़, झुंझुनू, सीकर, चुरू, बीकानेर, जैसलमेर, बाड़मेर, जालौर, नागौर, जोधपुर और सिरोही ज़िलों में विस्तृत है।\nd. यह क्षेत्र बालू से आच्छादित है।\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a और d","b, c और d","a, c और d","a, b और d"],"explanation":"इस मरुस्थलीय क्षेत्र की औसत ऊँचाई समुद्र तल से लगभग 200 से 300 मीटर है, न कि 30 से 50 मीटर।"}}
+{"id":"QZ-RAJ-00173","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing, grammar, and line breaks in the question text.","repair":{"questionText":"अरावली श्रृंखला की निम्नलिखित विशेषताओं पर विचार करें:\na. इन पहाड़ियों की कुल लंबाई लगभग 700 किमी है।\nb. ये पहाड़ियाँ विश्व की सबसे पुरातन वलित पर्वतमाला मानी जाती हैं।\nc. ये पहाड़ियाँ राज्य में दक्षिण-पश्चिम से उत्तर-पूर्व की ओर विकर्णतः विस्तृत हैं।\nd. अरावली पहाड़ियाँ गुजरात के मैदान से उत्तर प्रदेश तक विस्तारित हैं।\ne. अरावली की सबसे ऊँची चोटी गुरुशिखर है।\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b, c, d","a, b, c, e","b, c, d, e","a, c, d, e"],"explanation":"अरावली की कुल लंबाई (पालनपुर, गुजरात से रायसीना हिल्स, दिल्ली तक) लगभग 692 किमी (लगभग 700 किमी) है, जिसमें से 550 किमी (80%) हिस्सा राजस्थान में है। अरावली को प्री-कैम्ब्रियन काल की विश्व की सबसे प्राचीन वलित अवशिष्ट पर्वतमाला (Oldest Folded Mountains) माना जाता है। राजस्थान के नक्शे पर यह दक्षिण-पश्चिम (सिरोही/उदयपुर) से उत्तर-पूर्व (झुंझुनू/अलवर) की ओर एक विकर्ण (Diagonal) की तरह फैली हुई है। अरावली श्रृंखला गुजरात, राजस्थान, हरियाणा और दिल्ली तक विस्तृत है; यह उत्तर प्रदेश में नहीं जाती। इसकी सबसे ऊँची चोटी गुरुशिखर (1722 मीटर) सिरोही के माउंट आबू में स्थित है।"}}
+{"id":"QZ-RAJ-00174","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00175","decision":"REPAIR","flags":["TYPO","FORMATTING"],"reason":"Fixed typo in option labels (b. अचलगढ़b. तारागढ़ -> b. अचलगढ़, c. तारागढ़) and added proper line breaks.","repair":{"questionText":"अरावली की निम्नलिखित चोटियों को ऊँचाई के अनुसार (उच्च से निम्न) व्यवस्थित करें:\na. कुंभलगढ़\nb. अचलगढ़\nc. तारागढ़\nd. दिलवाड़ा\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["d, b, a, c","b, a, d, c","a, b, d, c","c, b, a, d"],"explanation":"दिलवाड़ा: 1442 मीटर (सिरोही) - इन चारों में सबसे ऊँची।\nअचलगढ़: 1380 मीटर (सिरोही)।\nकुंभलगढ़: 1224 मीटर (राजसमंद)।\nतारागढ़: 870 मीटर (अजमेर - मध्य अरावली)।"}}
+{"id":"QZ-RAJ-00176","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00177","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed formatting and spacing of the matching lists for better readability.","repair":{"questionText":"सूची-I को सूची-II से सुमेलित कीजिए:\n\nसूची-I (चोटी/पहाड़ी)\n(a) खो\n(b) बैराठ\n(c) देवगढ़ पहाड़ी\n(d) रिसा पोक\n\nसूची-II (जिला)\n(i) अलवर\n(ii) जयपुर\n(iii) भीलवाड़ा\n(iv) जालोर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)","(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)","(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)","(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"],"explanation":"खो (Kho): यह जयपुर जिले में स्थित अरावली की एक प्रसिद्ध चोटी है।\nबैराठ (Bairath): यह पहाड़ी अलवर/जयपुर (अब कोटपूतली-बहरोड़) क्षेत्र में आती है।\nदेवगढ़ पहाड़ी: यह भीलवाड़ा जिले में स्थित है।\nरिसा पोक/रोजा भाकर: यह जालोर जिले की पर्वतीय चोटियों से संबंधित है।"}}
+{"id":"QZ-RAJ-00178","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"राजस्थान में मरुस्थलीकरण के कारणों पर विचार करें:\na. बढ़ती जनसंख्या\nb. मृदा अपरदन\nc. अतिचारण\nd. निर्वनीकरण\ne. बालू टिब्बों का स्थिरीकरण\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b, c, e","a, b, c, d","a, c, d, e","b, c, d, e"],"explanation":"मरुस्थलीकरण के मुख्य कारण: जनसंख्या का बढ़ता दबाव, पानी और हवा के कारण होने वाला मृदा अपरदन, पशुओं द्वारा अत्यधिक चराई (अतिचारण), तथा वनों की अंधाधुंध कटाई (निर्वनीकरण)।\nनोट: बालू के टिब्बों का स्थिरीकरण (Sand dune stabilization) मरुस्थल को रोकने का एक सकारात्मक उपाय है, यह मरुस्थलीकरण बढ़ाने का कारण नहीं हो सकता।"}}
+{"id":"QZ-RAJ-00179","decision":"REPAIR","flags":["FORMATTING"],"reason":"Fixed spacing and line breaks in the question text.","repair":{"questionText":"अरावली के निम्नलिखित शिखरों को उनकी अवस्थिति के अनुसार उत्तर से दक्षिण के सही क्रम में व्यवस्थित कीजिए:\nA. अचलगढ़\nB. भैराच\nC. टॉडगढ़\nD. खो\n\nकूट:","options":["B, C, A, D","A, C, D, B","B, D, C, A","C, A, D, B"],"explanation":"उत्तर से दक्षिण की ओर इनका सही भौगोलिक क्रम इस प्रकार है:\nभैराच: अलवर जिला (उत्तरी अरावली)।\nखो: जयपुर जिला।\nटॉडगढ़: ब्यावर जिला (मध्य अरावली)।\nअचलगढ़: सिरोही जिला (दक्षिणी अरावली)।"}}
+{"id":"QZ-RAJ-00180","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00181","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00182","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00183","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Formatting of options and sub-questions inside the question text is cramped and lacks proper spacing/newlines.","repair":{"questionText":"कौन-से राज्य ‘अरावली हरित दीवार/भित्ति परियोजना’ का भाग हैं?\na. गुजरात\nb. पंजाब\nc. हरियाणा\nd. दिल्ली\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["a, b, c","a, c, d","b, c, d","a, b, d"],"explanation":"अरावली हरित दीवार परियोजना अरावली पर्वतमाला को हरित बनाने के लिए शुरू की गई है। इसमें गुजरात, राजस्थान, हरियाणा और दिल्ली शामिल हैं। पंजाब इसमें शामिल नहीं है।"}}
+{"id":"QZ-RAJ-00184","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Formatting of options inside the question text is cramped and lacks proper spacing/newlines.","repair":{"questionText":"राजस्थान की निम्नलिखित पर्वत चोटियों को उनकी ऊंचाई के अनुसार अवरोही क्रम में व्यवस्थित करें:\na. सेर\nb. गुरुशिखर\nc. कमलनाथ\nd. देलवाड़ा\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["b, a, c, d","b, a, d, c","c, d, a, b","d, b, a, c"],"explanation":"गुरुशिखर: अरावली की सबसे ऊँची चोटी (1722 मी.) – माउंट आबू।सेर: (सिरोही) 1597 मी.।देलवाड़ा: (सिरोही)-1442 मी.।कमलनाथ: (उदयपुर) -1001 मी.।"}}
+{"id":"QZ-RAJ-00185","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Formatting of matching lists inside the question text is cramped and lacks proper spacing/newlines.","repair":{"questionText":"सूची-I को सूची-II से सुमेलित करें:\n\nसूची-I (राजस्थान की चोटियाँ)\n(a) रघुनाथगढ़\n(b) खो\n(c) तारागढ़\n(d) जरगा\n\nसूची-II (जिला)\n(i) अजमेर\n(ii) सीकर\n(iii) उदयपुर\n(iv) जयपुर\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)","(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)","(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)","(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"],"explanation":"रघुनाथगढ़ → सीकर\nखो → जयपुर\nतारागढ़ → अजमेर\nजरगा → उदयपुर"}}
+{"id":"QZ-RAJ-00186","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Redundant instruction text 'नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें' in the question text for a simple single-choice question.","repair":{"questionText":"अरावली श्रृंखला के बारे में निम्नलिखित में से कौनसा कथन सत्य नहीं है?","options":["यह भारत की सबसे पुरानी पर्वतमालाओं में से एक है।","यह लगभग दक्षिण-पश्चिम से उत्तर-पूर्व की ओर विस्तारित है।","यह एक ज्वालामुखी पर्वत-श्रृंखला है।","इसमें तांबा, लेड और जिंक इत्यादि खनिज निक्षेप पाये जाते हैं।"],"explanation":"अरावली श्रृंखला मुख्य रूप से एक अवशिष्ट पर्वत (Residual Mountain) और दुनिया की सबसे पुरानी वलित पर्वत (Fold Mountain) श्रृंखला है, ज्वालामुखी पर्वत नहीं।"}}
+{"id":"QZ-RAJ-00187","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Formatting of options inside the question text is cramped and lacks proper spacing/newlines.","repair":{"questionText":"राजस्थान के निम्नलिखित भौतिक विभाजनों को पूर्व से पश्चिम के क्रम में व्यवस्थित करें:\n(a) पश्चिमी बालू मैदान\n(b) अरावली श्रृंखला और पर्वतीय क्षेत्र\n(c) पूर्वी मैदान\n(d) दक्षिण-पूर्वी राजस्थान पठार (हाड़ौती पठार)\n\nनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:","options":["(a), (b), (c), (d)","(b), (a), (d), (c)","(c), (b), (d), (a)","(d), (c), (b), (a)"],"explanation":"दक्षिण-पूर्वी राजस्थान पठार (हाड़ौती पठार) -> पूर्वी मैदान -> अरावली श्रृंखला और पर्वतीय क्षेत्र -> पश्चिमी बालू मैदान (मरुस्थलीय क्षेत्र)"}}
+{"id":"QZ-RAJ-00188","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00189","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00190","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00191","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00192","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00193","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00194","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00195","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00196","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00197","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00198","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00199","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00200","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00201","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00202","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00203","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00204","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00205","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00206","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00207","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00208","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00209","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00210","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00211","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00212","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00213","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00214","decision":"REPAIR","flags":["FACTUAL_ERROR"],"reason":"The original options and answer key (b, d, a, c) are geographically incorrect because the Aravali Range (a) lies to the west of the Central Plateau Hills (d). The correct west-to-east sequence is b, a, c, d.","repair":{"questionText":"राजस्थान के निम्नलिखित भूआकृतिक क्षेत्रों को पश्चिम से पूर्व के क्रम में व्यवस्थित करें:\na. अरावली श्रंखला\nb. पश्चिमी थार मरुस्थल\nc. पूर्वी जलोढ़ मैदान\nd. केन्द्रीय पठारी पहाड़ियां\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनें:","options":["b, a, c, d","b, d, c, a","b, d, a, c","a, c, b, d"],"ansId":"opt1","ansText":"b, a, c, d","explanation":"राजस्थान का पश्चिम से पूर्व की ओर सही भौगोलिक क्रम इस प्रकार है: सबसे पश्चिम में पश्चिमी थार मरुस्थल (b), फिर अरावली श्रृंखला (a), उसके बाद पूर्वी जलोढ़ मैदान (c), और सबसे पूर्व में केन्द्रीय पठारी पहाड़ियां/हाड़ौती पठार (d) स्थित हैं। अतः सही क्रम b, a, c, d है।"}}
+{"id":"QZ-RAJ-00215","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00216","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00217","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00218","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00219","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00220","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00221","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00222","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00223","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00224","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00225","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00226","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00227","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00228","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00229","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00230","decision":"REPAIR","flags":["FACT_ERROR"],"reason":"जैसलमेर में बालू के टीलों को स्थानीय भाषा में 'धरियन' कहा जाता है, 'बागर' नहीं। 'बागर' अर्द्धशुष्क मैदान को कहते हैं।","repair":{"questionText":"जैसलमेर ज़िले में स्थानांतरित होने वाले बालू के टीलों को स्थानीय भाषा में क्या कहा जाता है?","options":["धरियन","बागर","मगरा","भाकर"],"explanation":"जैसलमेर जिले में स्थानांतरित होने वाले बालू के टीलों (बालूका स्तूपों) को स्थानीय भाषा में 'धरियन' (Dhariyan) कहा जाता है। 'बागर' अरावली के पश्चिम में स्थित अर्द्धशुष्क मैदान को कहते हैं, 'भाकर' सिरोही की तीव्र ढाल वाली पहाड़ियों को और 'मगरा' उदयपुर के उत्तर-पश्चिम में स्थित कम ऊँची पहाड़ियों को कहा जाता है।"}}
+{"id":"QZ-RAJ-00231","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00232","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00233","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00234","decision":"REPAIR","flags":["LANGUAGE"],"reason":"विकल्पों में कूट का प्रारूप अधूरा और त्रुटिपूर्ण था। इसे स्पष्ट और मानक रूप में सुधारा गया है।","repair":{"questionText":"निम्नलिखित में से कौनसा/से सही सुमेलित है/हैं?\n\nपर्वतीय क्षेत्र - प्रमुख शिखर\n(A) माуण्ट आबू - ऋषिकेश\n(B) जसवन्तपुरा - डोरा\n(C) सिवाना - नाकोडा\n(D) जालौर - झारोला\n\nकूट:","options":["(A), (B), (C) और (D)","(A), (B) और (D)","(A) और (C)","केवल (C)"],"explanation":"सभी विकल्प सही सुमेलित हैं:\n1. माउण्ट आबू क्षेत्र में ऋषिकेश शिखर (1017 मीटर) स्थित है।\n2. जसवन्तपुरा पहाड़ियों का मुख्य शिखर डोरा पर्वत (869 मीटर) है।\n3. सिवाना पर्वतीय क्षेत्र में नाकोडा पर्वत स्थित है।\n4. जालौर पर्वतीय क्षेत्र में झारोला पहाड़ (588 मीटर) स्थित है।"}}
+{"id":"QZ-RAJ-00235","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00236","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00237","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00238","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00239","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00240","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00241","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00242","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00243","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected spelling of peaks (खौं to खोह) and improved formatting of the matching columns.","repair":{"questionText":"कॉलम I में चोटियों को उनकी कॉलम II ऊंचाई और स्थान के अनुसार मिलाइए:\n\nकॉलम I (चोटियाँ):\ni. खोह\nii. रघुनाथगढ़\niii. तारागढ़\niv. गुरु शिखर\n\nकॉलम II (ऊंचाई व स्थान):\na. 885 मी, अजमेर\nb. 1727 मी, सिरोही\nc. 1055 मी, सीकर\nd. 920 मी, जयपुर","options":["i-b, ii-d, iii-a, iv-c","i-b, ii-a, iii-c, iv-d","i-d, ii-c, iii-a, iv-b","i-a, ii-b, iii-d, iv-c"],"explanation":"खोह - 920 मी (जयपुर)\nरघुनाथगढ़ - 1055 मी (सीकर)\nतारागढ़ - 885 मी (अजमेर)\nगुरु शिखर - 1727 मी (सिरोही)"}}
+{"id":"QZ-RAJ-00244","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00245","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00246","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00247","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00248","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected typo 'जागरा' to 'जरगा' in options.","repair":{"options":["जरगा","कमलनाथ","गुरुशिखर","रघुनाथगढ़"]}}
+{"id":"QZ-RAJ-00249","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00250","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Improved formatting of the question text and options list.","repair":{"questionText":"निम्नलिखित में से कौनसे दक्षिणी अरावली के शिखर हैं?\n\n(A) नागपानी\n(B) भानगढ़\n(C) लीलागढ़\n(D) नाग पहाड़\n\nनीचे दिए गए कूट से सही उत्तर का चयन कीजिए -"}}
+{"id":"QZ-RAJ-00251","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Removed trailing comma from the first option.","repair":{"options":["1337 मीटर","1172 मीटर","1014 मीटर","1225 मीटर"]}}
+{"id":"QZ-RAJ-00252","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00253","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Removed trailing commas from all options.","repair":{"options":["लासादिया रॉक फॉर्मेशन","उडिया रॉक फॉर्मेशन","बागेलखंड रॉक फॉर्मेशन","भोरट रॉक फॉर्मेशन"]}}
+{"id":"QZ-RAJ-00254","decision":"REPAIR","flags":["EXPLANATION"],"reason":"Formatted the question text for readability and added a valid explanation instead of placeholders.","repair":{"questionText":"राजस्थान में अकाल/अभाव की स्थिति के सम्बन्ध में निम्नलिखित में से कौनसा सुमेलित नहीं है?\n\n(कृषि वर्ष - प्रभावित जिलों की संख्या - प्रभावित जनसंख्या लाख में)","explanation":"राजस्थान आर्थिक समीक्षा के अनुसार, वर्ष 2023-24 में अकाल/अभाव से प्रभावित जिलों और जनसंख्या का यह आंकड़ा सुमेलित नहीं है। अन्य सभी विकल्प सुमेलित हैं।"}}
+{"id":"QZ-RAJ-00255","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00256","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00257","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00258","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00259","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00260","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00261","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00262","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Spelling typo in option and answer: 'उत्तर-पक्षिम' corrected to 'उत्तर-पश्चिम'.","repair":{"questionText":"राजस्थान भौगोलिक दृष्टि से भारत में कहाँ स्थित है -","options":["उत्तर-पश्चिम","दक्षिण-पूर्व","दक्षिण-पश्चिम","उत्तर-पूर्व"],"ansText":"उत्तर-पश्चिम","explanation":"राजस्थान राज्य भारत के उत्तर-पश्चिमी भाग में 23°3' से 30°12' उत्तरी अक्षांश तथा 69°30' से 78°17' पूर्वी देशान्तर के मध्य स्थित है।"}}
+{"id":"QZ-RAJ-00263","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00264","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00265","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00266","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00267","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00268","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00269","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00270","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00271","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00272","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00273","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00274","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00275","decision":"REPAIR","flags":["FORMATTING"],"reason":"Cramped statement formatting; added proper line breaks and cleaned up text.","repair":{"questionText":"राजस्थान में अरावली क्षेत्र की विशेषताओं की पहचान कीजिए:\n(a) अरावली पर्वत को आड़ावाल पहाड़ भी कहा जाता है।\n(b) अरावली पर्वत श्रृंखला विश्व की प्राचीनतम पर्वत श्रृंखला मानी जाती है।\n(c) इसकी ऊँचाई दक्षिण-पश्चिम से उत्तर-पूर्व की ओर बढ़ती है।\n(d) गुरुशिखर अरावली श्रृंखला की सबसे ऊँची चोटी है।\n\nनीचे दिए गए विकल्पों में से सही उत्तर चुनें:","options":["केवल (a), (c) और (d)","(a), (b), (c) और (d)","केवल (a), (b) और (d)","केवल (a), (b) और (c)"],"explanation":"अरावली पर्वतमाला की ऊँचाई दक्षिण-पश्चिम से उत्तर-पूर्व की ओर घटती है (बढ़ती नहीं है)। इसलिए कथन (c) गलत है। शेष कथन (a), (b) और (d) सही हैं।"}}
+{"id":"QZ-RAJ-00276","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00277","decision":"REPAIR","flags":["FORMATTING"],"reason":"Cramped statement formatting; added proper line breaks.","repair":{"questionText":"निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर का चयन नीचे दिये कूट से कीजिये:\nA. कुम्भलगढ़ भौरट के पठार का सर्वोच्च बिन्दु है।\nB. रघुनाथगढ़ उत्तरी अरावली का सर्वोच्च शिखर है।\nC. उड़िया पठार माउण्ट आबू के निकट स्थित है।\n\nकूट:","options":["A और B","B और C","A और C","A, B और C"],"explanation":"कुम्भलगढ़ और गोगुन्दा के मध्य भोराट का पठार स्थित है, लेकिन इस क्षेत्र की सर्वोच्च चोटी जरगा (1431 मीटर) है, न कि कुम्भलगढ़। रघुनाथगढ़ (1055 मीटर) उत्तरी अरावली का सर्वोच्च शिखर है और उड़िया पठार माउंट आबू के निकट स्थित राज्य का सबसे ऊँचा पठार है। अतः कथन B और C सही हैं।"}}
+{"id":"QZ-RAJ-00278","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00279","decision":"REPAIR","flags":["TYPO"],"reason":"Fixed typos in Hindi text ('राजंस्थान', 'व्यवंस्थित') and improved formatting.","repair":{"questionText":"राजस्थान की निम्नलिखित पर्वत चोटियों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित कीजिए:\n(A) खो\n(B) बाबई\n(C) तारागढ़\n(D) ऋषिकेश\n\nकूट:","options":["D, C, A, B","D, A, C, B","A, B, D, C","B, C, D, A"],"explanation":"पर्वत चोटियों की ऊँचाई का घटता क्रम इस प्रकार है:\n1. ऋषिकेश (सिरोही) - 1017 मीटर\n2. खो (जयपुर) - 920 मीटर\n3. तारागढ़ (अजमेर) - 870 मीटर\n4. बाबई (झुंझुनू/नीम का थाना) - 780 मीटर\nअतः सही क्रम D, A, C, B है।"}}
+{"id":"QZ-RAJ-00280","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00281","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00282","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00283","decision":"REPAIR","flags":["FACTUAL_ERROR"],"reason":"Option 3 'सेरगढ़' is incorrect as 'शेर' (Sher) is the second highest peak of Aravali. Shergarh is a fort/town. Corrected option to 'शेर'.","repair":{"questionText":"अरावली की दूसरी सबसे ऊँची चोटी है -","options":["तारागढ़","गुरुशिखर","शेर","अचलगढ़"],"explanation":"अरावली पर्वतमाला की सबसे ऊँची चोटी गुरुशिखर (1722 मीटर) है, जबकि दूसरी सबसे ऊँची चोटी 'शेर' (1597 मीटर) है, जो सिरोही जिले में स्थित है।"}}
+{"id":"QZ-RAJ-00284","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00285","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00286","decision":"REPAIR","flags":["TYPO"],"reason":"Fixed the numbering typo in the question text where '(ii)' was repeated instead of '(iii)'.","repair":{"questionText":"अरावली पर्वतमाला के सम्बन्ध में निम्नलिखित में से कौनसे तथ्य सत्य हैं -\n(i) इसका निर्माण कैम्ब्रियन युग में हुआ था।\n(ii) वर्तमान में यह अवशिष्ट पर्वत के रूप में है।\n(iii) यह मुख्यतः आग्नेय चट्टानों से निर्मित है।\n(iv) यह दक्षिण-पश्चिम से उत्तर-पूर्व दिशा में विस्तृत है।\n\nकूट -","options":["ii और iv","i, ii, iii और iv","iii और iv","i और ii"],"explanation":"अरावली पर्वत माला विश्व की प्राचीनतम वलित पर्वत माला है। यह पर्वत श्रृंखला प्री-कैम्ब्रियन युग की है। यह पर्वत श्रृंखला दक्षिण-पश्चिम से उत्तर-पूर्व की ओर विस्तृत है। वर्तमान में यह अवशिष्ट पर्वत के रूप में विद्यमान है।"}}
+{"id":"QZ-RAJ-00287","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00288","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00289","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00290","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00291","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00292","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00293","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00294","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00295","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00296","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected the typo 'पश्चि' to 'पश्चिम' in the question text.","repair":{"questionText":"राजस्थान के उत्तर से दक्षिण तथा पूर्व से पश्चिम विस्तार में अन्तर है -","options":["41 किलोमीटर","42 किलोमीटर","40 किलोमीटर","43 किलोमीटर"],"explanation":"राजस्थान की उत्तर से दक्षिण तक लम्बाई 826 कि.मी. व पूर्व से पश्चिम तक चौड़ाई 869 कि.मी. है। दोनों के विस्तार में अंतर 43 कि.मी. (869 - 826) है।"}}
+{"id":"QZ-RAJ-00297","decision":"REPAIR","flags":["FORMATTING"],"reason":"Replaced the letter 'o' with the proper degree symbol '°' in the options for standard representation.","repair":{"questionText":"राजस्थान राज्य का अक्षांशीय विस्तार है-","options":["23° 3’ दक्षिण से 30° 12’ दक्षिण","23° 3’ उत्तर से 30° 12’ उत्तर","23° 3’ उत्तर से 30° 12’ दक्षिण","30° 12’ दक्षिण से 23° 3’ दक्षिण"],"explanation":"राजस्थान राज्य भारत के उत्तरी-पश्चिमी भाग में 23° 3' उत्तरी अक्षांश से 30° 12' उत्तरी अक्षांश के मध्य स्थित है।"}}
+{"id":"QZ-RAJ-00298","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00299","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00300","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00301","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00302","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00303","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Improved formatting and spacing of statements and code block.","repair":{"questionText":"निम्नलिखित कथनों पर विचार कीजिए एवं नीचे दिये कूट से सही उत्तर का चयन कीजिए:\nA. अनुप्रस्थ बालुका स्तूप चुरू और झुन्झुनूं जिलों में मिलते हैं।\nB. अवरोधी बालुका स्तूप पुष्कर क्षेत्र में मिलते हैं।\nC. जोधपुर जिला बालुका स्तूप मुक्त जिला है।\n\nकूट:","options":["A, B और C","B और C","A और B","A और C"],"explanation":"जोधपुर में सभी प्रकार के बालुका स्तूप पाए जाते है। अनुप्रस्थ बालुका स्तूप – बीकानेर, गंगानगर, हनुमानगढ़, चूरू, सूरतगढ़, झंझनू में मिलते हैं। अवरोधी बालुका स्तूप किसी वस्तु (झाड़ी, वृक्ष, भवन, पहाड़ी आदि ) के अवरोध के कारण उत्पन्न होते है। यह मुख्यत: पुष्कर, नाग पहाड़, जोबनेर और सीकर की पहाड़ियों में पाये जाते है।"}}
+{"id":"QZ-RAJ-00304","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00305","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Fixed spacing and formatting of options and code block.","repair":{"questionText":"निम्नलिखित अरावली पर्वत शिखर हैं। इन शिखरों को ऊँचाई के अनुसार घटते क्रम में क्रमबद्ध करिये:\n(A) गुरुशिखर\n(B) अचलगढ़\n(C) कुम्भलगढ़\n(D) सेर\n(E) दिलवाड़ा\n\nकूट:","options":["(B) (C) (D) (E)","(E) (D) (C) (B) (A)","(D) (B) (C) (E)","(D) (E) (B) (C)"],"explanation":"गुरु शिखर - सिरोही - 1722 मी.\nसेर - सिरोही - 1597 मी.\nदिलवाड़ा - सिरोही - 1442 मी.\nअचलगढ़ - सिरोही - 1380 मी.\nकुंभलगढ़ - राजसमंद - 1224 मी."}}
+{"id":"QZ-RAJ-00306","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Fixed spacing and formatting of statements in the question text.","repair":{"questionText":"बरखान पश्चिमी राजस्थान के कौन से क्षेत्रों में पाये जाते हैं?\nA. ओसियाँ - जोधपुर\nB. भालेरी - चूरू\nC. देशनोक - बीकानेर\nD. दांतारामगढ़ - सीकर","options":["B, C एवं D","A, B एवं D","A, C एवं D","A, B एवं C"],"explanation":"अर्धचंद्राकार बालुका स्तूपो को बरखान कहते हैं। बरखान मुख्य रूप से भालेरी, रतनगढ़ (चूरू), सीकर (मेंथा नदी घाटी) जैसलमेर, लूणकरणसर, सूरतगढ़, बाड़मेर, ओसियां व जोधपुर में पाए जाते हैं।"}}
+{"id":"QZ-RAJ-00307","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00308","decision":"REPAIR","flags":["EXPLANATION_IMPROVEMENT"],"reason":"The explanation was talking about sand-dune free zones instead of Parewar Sandstone. Corrected the explanation to match the question.","repair":{"questionText":"परेवार बालुका पत्थर ______ में स्थित है।","options":["चूरू","जैसलमेर","बारां","हनुमानगढ़"],"explanation":"परेवार बालुका पत्थर (Parewar Sandstone) जैसलमेर जिले में पाया जाता है। यह क्रीटेशियस काल की चट्टानों से संबंधित है।"}}
+{"id":"QZ-RAJ-00309","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00310","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00311","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00312","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00313","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00314","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00315","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00316","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00317","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00318","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00319","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00320","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00321","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00322","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00323","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00324","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00325","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00326","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00327","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00328","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00329","decision":"REPAIR","flags":["FORMATTING"],"reason":"Improved readability of the question text by adding proper spacing and line breaks for the list of peaks.","repair":{"questionText":"निम्नलिखित चोटियों को उनकी ऊँचाई के अनुसार सही आरोही क्रम में व्यवस्थित कीजिए:\n(A) बैराठ\n(B) अचलगढ़\n(C) कुम्भलगढ़\n(D) सेर","options":["A B C D","A C B D","C A B D","D C B A"],"explanation":"बैराठ (704 मीटर) < कुम्भलगढ़ (1224 मीटर) < अचलगढ़ (1380 मीटर) < सेर (1597 मीटर)। अतः सही आरोही क्रम A, C, B, D है।"}}
+{"id":"QZ-RAJ-00330","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00331","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00332","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00333","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00334","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00335","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00336","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00337","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00338","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00339","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00340","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00341","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00342","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00343","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00344","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00345","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00346","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00347","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00348","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00349","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00350","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00351","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00352","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00353","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00354","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00355","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00356","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00357","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00358","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00359","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00360","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00361","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00362","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00363","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00364","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00365","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00366","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00367","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00368","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00369","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Typo in question text: 'प्रि-कैग्रियन' should be 'प्री-कैम्ब्रियन' (Pre-Cambrian).","repair":{"questionText":"राजस्थान में प्री-कैम्ब्रियन चट्टानों का आधारभूत वर्णन किसके द्वारा किया गया -","options":["सी. ए. हैकेट","एम.एस.खुराना","ला टोचे","ए. एम. हेरोन"],"explanation":"राजस्थान की पूर्व-कैम्ब्रियन (Pre-Cambrian) चट्टानों का वर्णन मूल रूप से ए. एम. हेरोन द्वारा किया गया।"}}
+{"id":"QZ-RAJ-00370","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00371","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00372","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00373","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00374","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00375","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00376","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00377","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00378","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00379","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00380","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00381","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00382","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected spelling of 'भौगिलिक' to 'भौगोलिक' in options and answer text.","repair":{"questionText":"राजस्थान में, बागर और मरु ______ के नाम हैं।","options":["जल-निकासी-व्यवस्था","भौगोलिक क्षेत्र","सांस्कृतिक क्षेत्र","जिलों"],"explanation":"बागर और मरु राजस्थान के भौगोलिक क्षेत्र हैं। डूंगरपुर व बांसवाड़ा का क्षेत्र वागड़/बागड़ के नाम से जाना जाता है। राजस्थान का अरावली श्रेणियों के पश्चिम का क्षेत्र शुष्क एवं अर्द्धशुष्क मरुस्थलीय प्रदेश है। यह एक विशिष्ट भौगोलिक प्रदेश है, जिसे भारत का विशाल मरुस्थल अथवा थार का मरुस्थल के नाम से जाना जाता है।"}}
+{"id":"QZ-RAJ-00383","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00384","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00385","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00386","decision":"REMOVE","flags":["FACT_ERROR"],"reason":"This question from A.A.R.O. 2022 has disputed/incorrect options and was deleted by RPSC. The explanation is also empty."}
+{"id":"QZ-RAJ-00387","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00388","decision":"REPAIR","flags":["EXPLANATION_MISSING"],"reason":"Added missing explanation for the Drought Prone Areas Programme (DPAP).","repair":{"questionText":"राजस्थान में सूखा संभावित कार्यक्रम कब प्रारम्भ हुआ था -","options":["1974-75","1977-78","1982-83","1986-87"],"explanation":"सूखा संभावित क्षेत्र कार्यक्रम (DPAP) वर्ष 1974-75 में शुरू किया गया था। यह केंद्र और राज्य सरकार की 75:25 के अनुपात में एक साझा योजना है, जिसका उद्देश्य सूखे के प्रतिकूल प्रभावों को कम करना और पर्यावरण संतुलन बहाल करना है।"}}
+{"id":"QZ-RAJ-00389","decision":"REPAIR","flags":["EXPLANATION_MISSING"],"reason":"Added missing explanation explaining the origin of the term 'Chhappania Akal'.","repair":{"questionText":"‘छप्पनिया अकाल’ राजस्थान में किस वर्ष में हुआ -","options":["1858-59","1898-99","1899-1900","1904-05"],"explanation":"विक्रम संवत 1956 में पड़ने के कारण इसे 'छप्पनिया अकाल' कहा जाता है। ईस्वी सन् के अनुसार यह भीषण अकाल 1899-1900 ई. में पड़ा था, जिससे जन-धन और पशुधन की भारी हानि हुई थी।"}}
+{"id":"QZ-RAJ-00390","decision":"REPAIR","flags":["EXPLANATION_MISSING"],"reason":"Added missing explanation detailing the 2002-2003 drought impact.","repair":{"questionText":"वर्ष 2002 - 2003 में राजस्थान में कितने जिले सूखे से प्रभावित थे -","options":["30","31","32","33"],"explanation":"वर्ष 2002-03 में राजस्थान के इतिहास का सबसे भीषण सूखा पड़ा था, जिसमें राज्य के कुल 33 जिलों में से 32 जिले सूखे से प्रभावित हुए थे। केवल धौलपुर जिला इससे अप्रभावित रहा था।"}}
+{"id":"QZ-RAJ-00391","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00392","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00393","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Minor spelling and spacing correction in Hindi text ('कें कारण' to 'के कारण' and spacing before 'कहा जाता है')","repair":{"questionText":"सर्दियों में, भू-मध्य सागर में चक्रवातों के कारण, राजस्थान के उत्तर-पश्चिमी भाग में वर्षा होती है, जिसे _________ कहा जाता है।","options":["माघा","वृष","मावट","रब्शा"],"explanation":"सर्दियों में, भूमध्य सागर चक्रवातों के कारण, राजस्थान के उत्तर-पश्चिमी भाग में वर्षा होती है, जिसे मावट कहा जाता है।"}}
+{"id":"QZ-RAJ-00394","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00395","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00396","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected typo in option 3 ('अति प्रअलता' to 'अति प्रबलता')","repair":{"questionText":"अल-नीनो से भारत में अपेक्षित मानसून में सामान्यतः होती है–","options":["शीघ्र आगमन व प्रबलता","विलम्ब व प्रबलता","शीघ्र आगमन व अति प्रबलता","विलम्ब व शिथिलता"],"explanation":"अल-नीनो प्रशांत महासागर में दक्षिणी अमेरिका पश्चिमी तट के सहारे चलने वाली गर्म हवा है। इस हवा के कारण क्षेत्रीय समुद्र का तापमान बढ़ जाता है जिसके कारण से भारतीय मानसून कमजोर पड़ जाता है और बारिश कम होती है। अल-नीनों के कारण भारत में अपेक्षित मानसून सामान्यतः कमजोर हो जाता है और विलम्ब से आता है।"}}
+{"id":"QZ-RAJ-00397","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00398","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00399","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00400","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00401","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00402","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00403","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00404","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00405","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00406","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00407","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00408","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00409","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00410","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00411","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00412","decision":"REPAIR","flags":["FORMATTING"],"reason":"Improved spacing and formatting of the list of mountain peaks in the question text.","repair":{"questionText":"अरावली पर्वतमाला की निम्न चोटियों को ऊंचाई के बढ़ते क्रम में व्यवस्थित करें:\na. जरगा\nb. सेर\nc. दिलवाड़ा\nd. गुरु शिखर","options":["a, d, b, c","a, b, c, d","a, c, b, d","c, a, b, d"],"explanation":"अरावली की चोटियों का ऊँचाई के अनुसार बढ़ता क्रम इस प्रकार है:\n1. जरगा (उदयपुर) - 1431 मी. (a)\n2. दिलवाड़ा (सिरोही) - 1442 मी. (c)\n3. सेर (सिरोही) - 1597 मी. (b)\n4. गुरु शिखर (सिरोही) - 1722 मी. (d)\nअतः सही क्रम 'a, c, b, d' है।"}}
+{"id":"QZ-RAJ-00413","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00414","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00415","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00416","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00417","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00418","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00419","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00420","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Corrected the transliteration typo of the book name 'Annals and Antiquities of Rajasthan' in Hindi.","repair":{"questionText":"'एनाल्स एंड एंटीक्विटीज ऑफ राजस्थान' (Annals and Antiquities of Rajasthan) नामक पुस्तक किसने लिखी है?","options":["विन्सेंट स्मिथ","जेम्स टॉड","कर्नल जीबी मल्लसन","फिलिप मेसन"],"explanation":"कर्नल जेम्स टॉड ने 19वीं सदी में अपनी प्रसिद्ध पुस्तक 'एनाल्स एंड एंटीक्विटीज ऑफ राजस्थान' (Annals and Antiquities of Rajasthan) लिखी, जिसमें सर्वप्रथम 'राजस्थान' शब्द का प्रयोग किया गया। इस पुस्तक का दूसरा नाम 'द सेंट्रल एंड वेस्टर्न राजपूत स्टेट्स ऑफ इंडिया' है।"}}
+{"id":"QZ-RAJ-00421","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00422","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00423","decision":"REPAIR","flags":["TYPO"],"reason":"Minor punctuation typo in option 4: '(E). (D)' instead of '(E), (D)'.","repair":{"questionText":"निम्नलिखित अरावली पर्वत शिखर हैं। इन शिखरों को ऊँचाई के अनुसार घटते क्रम में व्यवस्थित कीजिए:\n(A) गुरु शिखर\n(B) आँचलगढ़\n(C) दिलवाड़ा\n(D) सेर\n(E) कुम्भलगढ़\n\nकूट:","options":["(A), (B), (C), (D), (E)","(A), (D), (C), (B), (E)","(A), (D), (C), (E), (B)","(A), (C), (B), (E), (D)"],"explanation":"अरावली शिखरों की ऊँचाई का घटता क्रम इस प्रकार है:\n1. गुरु शिखर (सिरोही) - 1722 मीटर (A)\n2. सेर (सिरोही) - 1597 मीटर (D)\n3. दिलवाड़ा (सिरोही) - 1442 मीटर (C)\n4. अचलगढ़ (सिरोही) - 1380 मीटर (B)\n5. कुंभलगढ़ (राजसमंद) - 1224 मीटर (E)\nअतः सही क्रम (A), (D), (C), (B), (E) है।"}}
+{"id":"QZ-RAJ-00424","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00425","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00426","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00427","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00428","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00429","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00430","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00431","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00432","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00433","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00434","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00435","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00436","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00437","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00438","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00439","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00440","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00441","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00442","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00443","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00444","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00445","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00446","decision":"REPAIR","flags":["TYPO"],"reason":"Replaced the letter 'o' used as a degree symbol with the actual degree symbol '°' for correct mathematical notation.","repair":{"questionText":"राजस्थान का दक्षिणतम अक्षांश क्या है -","options":["23° 3′ दक्षिणी","23° 30′ दक्षिणी","23° 3′ उत्तरी","23° 30′ उत्तरी"],"explanation":"राजस्थान 23° 3' से 30° 12' उत्तरी अक्षांश (विस्तार 7° 9') तथा 69° 30' से 78° 17' पूर्वी देशान्तर (विस्तार 8° 47') के मध्य स्थित है। अतः राजस्थान का दक्षिणतम अक्षांश 23° 3' उत्तरी अक्षांश है।"}}
+{"id":"QZ-RAJ-00447","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00448","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00449","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00450","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00451","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00452","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00453","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00454","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00455","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00456","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00457","decision":"REPAIR","flags":["LANGUAGE"],"reason":"The question text has merged options and lacks proper spacing/formatting.","repair":{"questionText":"निम्नलिखित में से कौन से कारक राजस्थान में मरूस्थलीकरण के लिये उत्तरदायी हैं?\nअ. वनों की कटाई\nब. अति पशुचारण\nस. बूंद-बूंद सिंचाई\nद. मृदा अपरदन\n\nकूट:","options":["अ एवं ब","अ, ब एवं स","अ, ब एवं द","अ, स एवं द"],"explanation":"मरुस्थलीकरण के मुख्य कारणों में वनों की कटाई (वनोन्मूलन), अति पशुचारण और मृदा अपरदन शामिल हैं। बूंद-बूंद सिंचाई मरुस्थलीकरण का कारण नहीं बल्कि जल संरक्षण की एक तकनीक है।"}}
+{"id":"QZ-RAJ-00458","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00459","decision":"REPAIR","flags":["LANGUAGE"],"reason":"The options are truncated and poorly formatted (e.g., 'और(B)सही है।').","repair":{"questionText":"निम्नलिखित कथनों पर विचार कीजिएः भारत में मृदा अपरदन की समस्या जुड़ी हुई हैः\n(A) अत्यधिक वर्षा\n(B) वनों की कटाई\n(C) अत्यधिक खेती\n(D) अतिचारण\n\nइन कथनों में से कौन-से सही हैं?","options":["(A) और (B) सही हैं।","(A), (B), (C) और (D) सही हैं।","(B), (C) और (D) सही हैं।","(A) और (D) सही हैं।"],"explanation":"मृदा की परतों का क्षरण होकर एक स्थान से दूसरे स्थान पर जाने को मृदा अपरदन कहा जाता है। मृदा अपरदन अत्यधिक वर्षा, वनों की कटाई, अत्यधिक खेती और अति पशुचारण सभी के कारण होता है।"}}
+{"id":"QZ-RAJ-00460","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Typographical errors in question text ('कौन-’कौन सी') and options ('एवंC', 'एवंD' lack spaces).","repair":{"questionText":"निम्नलिखित में से कौन-कौन सी जेट स्ट्रीम की चारित्रिक विशेषताएँ हैं?\nA. 9 से 12 कि.मी. की ऊँचाई पर प्रभावशाली बहाव।\nB. भू-विक्षेपी पवनों के विसर्पाकार बेन्ड।\nC. अनियमित एवं ऋतुवत विस्थापन का प्रदर्शन।\nD. 300-400 किमी/घण्टा की गति से चलती है तथा भारतीय मानसून को प्रभावित करती हैं।\n\nकूट:","options":["A, B एवं D","A, B एवं C","B, C एवं D","A, B, C एवं D"],"explanation":"जेट स्ट्रीम तेज हवा की संकरी धाराएं हैं जो 9 से 12 किमी की ऊंचाई पर पश्चिम से पूर्व की ओर प्रवाहित होती हैं। ये भू-विक्षेपी पवनों के विसर्पाकार बेन्ड हैं और अनियमित एवं ऋतुवत विस्थापन को प्रदर्शित करती हैं। जेट स्ट्रीम की गति सामान्यतः 150 से 200 किमी/घंटा (सर्दियों में अधिक) होती है, न कि 300-400 मील/घंटा।"}}
+{"id":"QZ-RAJ-00461","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Missing spaces between words and numbers in options (e.g., 'लगभग25%').","repair":{"questionText":"भारत का कितना क्षेत्र गंभीर सूखे की पुनरावृत्ति की दशा से प्रभावित है?","options":["लगभग 16%","लगभग 25%","लगभग 33%","लगभग 50%"],"explanation":"भारत का लगभग 25% (एक-चौथाई) भौगोलिक क्षेत्र गंभीर सूखे की पुनरावृत्ति की दशा से प्रभावित है।"}}
+{"id":"QZ-RAJ-00462","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00463","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00464","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00465","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00466","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00467","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00468","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00469","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00470","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00471","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00472","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00473","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00474","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00475","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00476","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00477","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00478","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00479","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00480","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00481","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00482","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00483","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00484","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00485","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00486","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00487","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00488","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00489","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00490","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00491","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00492","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00493","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00494","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00495","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00496","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00497","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00498","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00499","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00500","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00501","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00502","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00503","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00504","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00505","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00506","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00507","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00508","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00509","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00510","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00511","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00512","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00513","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00514","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00515","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00516","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00517","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00518","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00519","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00520","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00521","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00522","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00523","decision":"REPAIR","flags":["LANGUAGE","TYPO"],"reason":"Typo in option 2 ('भतरपुर' instead of 'भरतपुर')","repair":{"questionText":"राजस्थान में सर्वाधिक भूकम्प सम्भावित क्षेत्र कौन सा है -","options":["गंगानगर, हनुमानगढ़ व चूरू","भरतपुर, अलवर व झुंझुनू","जयपुर, दौसा व करौली","नागौर, जोधपुर व पाली"],"explanation":"भूकंप आने का कारण धरती के अंदर की टैक्टॉनिक प्लेटें होती है. ये प्लेटें धरती के अंदर 80 से 100 किमी की गहराई पर होती हैं। भारत का उत्तर- पूर्वी भाग भूकंप से सर्वाधिक प्रभावित क्षेत्र के रूप में जाना जाता है। राजस्थान के अलवर, भरतपुर, डीग, नीम का थाना, कोटपुतली और झुंझुनू जिले भूकम्प की दृष्टि से संवेदनशील हैं।"}}
+{"id":"QZ-RAJ-00524","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00525","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00526","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00527","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00528","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00529","decision":"REPAIR","flags":["LANGUAGE"],"reason":"Minor spelling correction in option 1 (कौणकन -> कोंकण)","repair":{"questionText":"भारत का पश्चिमी तटीय मैदान का दक्षिणी भाग जाना जाता है","options":["कोंकण तट","कोरोमण्डल तट","गोआ तट","मलाबार तट"],"explanation":"भारत का पश्चिमी तटीय मैदान का दक्षिणी भाग मालाबार तट के नाम से जाना जाता है।"}}
+{"id":"QZ-RAJ-00530","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00531","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00532","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00533","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00534","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00535","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00536","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00537","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00538","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00539","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00540","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00541","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00542","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00543","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00544","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00545","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00546","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00547","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00548","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00549","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00550","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00551","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00552","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00553","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00554","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00555","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00556","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00557","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00558","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00559","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00560","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00561","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00562","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00563","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00564","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00565","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00566","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00567","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00568","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00569","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00570","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00571","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00572","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00573","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00574","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00575","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00576","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00577","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00578","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00579","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00580","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00581","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00582","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00583","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00584","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00585","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00586","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00587","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00588","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00589","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00590","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00591","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00592","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00593","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00594","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00595","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00596","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00597","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00598","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00599","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00600","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00601","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00602","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00603","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00604","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00605","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00606","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00607","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00608","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00609","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00610","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00611","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00612","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00613","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00614","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00615","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00616","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00617","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00618","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00619","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00620","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00621","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00622","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00623","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00624","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00625","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00626","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00627","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00628","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00629","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00630","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00631","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00632","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00633","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00634","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00635","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00636","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00637","decision":"REPAIR","flags":["TYPO"],"reason":"Fix character encoding errors for percentage symbols (४०3 etc.) in options and explanation.","repair":{"questionText":"भारत मौसम-विज्ञान विभाग (I.M.D.) की परिभाषा के अनुसार भयंकर सूखा (Severe Drought) होता है - जब वर्षा में कमी होती है","options":["40% से 65% के बीच","50% से अधिक","50% से कम","25% से 49% के बीच"],"explanation":"भारत मौसम-विज्ञान विभाग (I.M.D.) की परिभाषा के अनुसार भयंकर सूखा तब होता है जब वर्षा 50% से कम होती है।"}}
+{"id":"QZ-RAJ-00638","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00639","decision":"REMOVE","flags":["DUPLICATE"],"reason":"Exact semantic and factual duplicate of QZ-RAJ-00638.","duplicateOf":"QZ-RAJ-00638"}
+{"id":"QZ-RAJ-00640","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00641","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00642","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00643","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00644","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00645","decision":"REPAIR","flags":["TYPO"],"reason":"Fix typo in question text ('पाजात्ी' to 'पाई जाती') and option text ('दक्षिणत' to 'दक्षिणी').","repair":{"questionText":"कोपेन के जलवायु वर्गीकरण के अनुसार राजस्थान के किस प्रदेश में AW प्रकार की जलवायु पाई जाती है?","options":["दक्षिणी प्रदेश","उत्तर–पूर्वी प्रदेश","पश्चिमी प्रदेश","उत्तरतम प्रदेश"],"explanation":"कोपेन के अनुसार राजस्थान में Aw जलवायु प्रदेश राजस्थान के दक्षिणी भाग में अरावली के पूर्व में पाया जाता है।"}}
+{"id":"QZ-RAJ-00646","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00647","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00648","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00649","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00650","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00651","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00652","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00653","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00654","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00655","decision":"REMOVE","flags":["FACT_UNCERTAIN"],"reason":"Question refers to a missing map graphic making it impossible to evaluate objectively."}
+{"id":"QZ-RAJ-00656","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00657","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00658","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00659","decision":"KEEP","flags":[]}
+{"id":"QZ-RAJ-00660","decision":"KEEP","flags":[]}

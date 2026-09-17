@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की नदियाँ एवं जल संसाधन",
+  "batchIndex": 13,
+  "batchName": "राजस्थान की नदियाँ एवं जल संसाधन भाग 13",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-नदियाँ-एवं-जल-संसाधन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल परियोजना – राजस्थान और मध्य प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "माही बजाज सागर परियोजना – राजस्थान और गुजरात"
+        },
+        {
+          "id": "opt3",
+          "text": "इन्दिरा गाँधी नहर परियोजना – राजस्थान और उत्तर प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "भाखड़ा-नांगल परियोजना – राजस्थान, पंजाब और हरियाणा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "इन्दिरा गाँधी नहर के निर्माण का मुख्य उद्द्देश्य रावी व्यास नदियों के जल से राजस्थान को आवंटित 86 लाख एकड़ घन फीट जल को उपयोग में लेना है। नहर निर्माण के लिए सबसे पहले फिरोजपुर में सतलज, व्यास नदियों के संगम पर 1952 में हरिकै बैराज का निर्माण किया गया। हरिकै बैराज से बाड़मेर के गडरा रोड़ तक नहर बनाने का लक्ष्य रखा गया।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3910,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसे राजस्थान का ‘मरूगंगा’ के नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt2",
+          "text": "इंदिरा गांधी नहर"
+        },
+        {
+          "id": "opt3",
+          "text": "गंगनहर"
+        },
+        {
+          "id": "opt4",
+          "text": "माही"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इन्दिरा गांधी नहर परियोजना(IGNP)पूर्ण होने पर विश्व की सबसे बड़ी परियोजना होगी इसे प्रदेश की जीवन रेखा/मरूगंगा भी कहा जाता है। पहले इसका नाम ‘ राजस्थान नहर’ था। 2 नवम्बर 1984 को इसका नाम ‘इन्दिरा गांधी नहर’ परियोजना कर दिया गया है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3917,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में कौन सा सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फाय सागर झील - अजमेर जिला"
+        },
+        {
+          "id": "opt2",
+          "text": "बालसमंद झील - राजसमंद जिला"
+        },
+        {
+          "id": "opt3",
+          "text": "सरदार समंद झील - पाली जिला"
+        },
+        {
+          "id": "opt4",
+          "text": "गैब सागर झील - डूंगरपुर जिला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बालसमंद झील (जोधपुर ग्रामीण) जोधपुर मण्डोर मार्ग पर स्थित है। इसका निर्माण सन् 1159 में परिहार शासक बालकराव ने करवाया। इस झील के मध्य महाराजा सुरसिंह ने अष्ट खम्भा महल बनाया।",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3927,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पूर्णत: राजस्थान में बहने वाली सबसे लम्बी नदी का नाम",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बनास नदी की लम्बाई लगभग ५१२ किमी है। यह पूर्णत: राज्य में बहने वाली सबसे लम्बी नदी है। बनास नदी अरावली की खमनौर की पहाड़ियों से निकलती है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3931,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तवा नदी किसकी सहायक नदी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नर्मदा"
+        },
+        {
+          "id": "opt2",
+          "text": "महानदी"
+        },
+        {
+          "id": "opt3",
+          "text": "ताप्ती/तापी"
+        },
+        {
+          "id": "opt4",
+          "text": "सोन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तवा नर्मदा की सबसे लंबी सहायक नदी है। यह सतपुड़ा श्रेणी से निकलती तथा होशंगाबाद जिले में नर्मदा से मिल जाती है। यह मध्य प्रदेश की एक प्रमुख नदी है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18884,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "त्रिम्बकेश्वर श्रेणी, भारत की किस नदी का स्रोत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महानदी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोदावरी"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt4",
+          "text": "नर्मदा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दक्षिण गंगा के नाम से प्रसिद्ध गोदावरी नदी महाराष्ट्र के नासिक जिले के त्रिम्बकेश्वर से निकलती है। यह प्रायद्वीपीय भारत की सबसे लंबी नदी है। पेनगंगा, वैनगंगा, वर्धा सबरी आदि इसकी प्रमुख सहायक नदियाँ है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18885,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के मैदानी क्षेत्रों में किस नदी को ‘नारायणी’ के नाम से जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt2",
+          "text": "गण्डक"
+        },
+        {
+          "id": "opt3",
+          "text": "कोसी"
+        },
+        {
+          "id": "opt4",
+          "text": "महानदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गंडक नदी को नारायणी के नाम से भी जाना जाता है। यह नेपाल से निकलकर उत्तर प्रदेश से प्रवाहित होती हुई पटना के निकट गंगा में मिल जाती है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18887,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस नदी को ‘‘बंगाल का शोक’’ भी कहा जाता था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंडक"
+        },
+        {
+          "id": "opt2",
+          "text": "सोन"
+        },
+        {
+          "id": "opt3",
+          "text": "दामोदर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोसी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दामोदर नदी को ‘बंगाल का शोक’ कहा जाता है। यह छोटा नागपुर पठार के पलामू पहाड़ियों से निकलती है। यह हुगली की सहायक नदी है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18888,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अन्त: प्रवाही नदी है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "गम्भीरी"
+        },
+        {
+          "id": "opt3",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt4",
+          "text": "खारी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कांतली, घग्घर, बैनगंगा, सबी, साहीबी, रूपारेल व काकनी प्रमुख अन्त: प्रवाही नदियाँ है। पश्चिमी बनास अरब सागर तंत्र तथा गंभीरी नदी बंगाल नदी तंत्र का हिस्सा है।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18889,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अशुद्ध युग्म है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गदीसर – जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडलताल – भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "फाई सागर – अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "तालाब शाही – बारां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेल है- झील जिला (A) गदीसर – जैसलमेर (B) मांडलताल – भीलवाड़ा (C) फाई सागर – अजमेर (D) तालाब शाही – धौलपुर",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18890,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लूनी नदी के जल प्रदूषण का मुख्य कारण है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीमेन्ट उद्योग"
+        },
+        {
+          "id": "opt2",
+          "text": "रंगाई एवं छपाई उद्योग"
+        },
+        {
+          "id": "opt3",
+          "text": "कीटनाशक उद्योग"
+        },
+        {
+          "id": "opt4",
+          "text": "चर्म उद्योग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रंगाई एवं छपाई उद्योग लूनी नदी के प्रदूषण का मुख्य स्रोत है। लूनी नदी में प्रदूषण का सर्वाधिक स्तर बालोतरा के आस पास है।",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18892,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेड़च नदी गोगुन्दा की पहाड़ियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "गभ्भीरी नदी जावद पहाड़ियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा नदी बैराठ पहाड़ियाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "माही नदी खमनौर की पहाड़ियाँ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेल है- नदी उद्गम स्थल (a) ब़ेडच नदी – गोगुंद की पहाड़ियाँ (b) गंभीरी – जावद पहाड़ी (c) बाणगंगा – बैराठ की पहाड़ियाँ (d)माही – अमरोरू की पहाड़ियाँ",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18893,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा सुमेलित नहीं है? नदी सहायक नदी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास – कोठारी"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी – सागी"
+        },
+        {
+          "id": "opt3",
+          "text": "काली सिन्ध – आहू"
+        },
+        {
+          "id": "opt4",
+          "text": "माही – वाकल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेत है- नदी सहायक नदी (A) बनास – कोठारी (B) लूनी – सागी (C) काली सिंध – आहू (D) साबरमती – वाकल",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18894,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित युग्मों में से कौन-सा सही रूप से सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंग नहर –गंगानगर, बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यास परियोजना –राजस्थान, पंजाब, हरियाणा"
+        },
+        {
+          "id": "opt3",
+          "text": "सिद्धमुख परियोजना –पंजाब, राजस्थान, राष्ट्रीय राजधानी प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "माही-बजाज सागर परियोजना –राजस्थान, गुजरात"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेल है- परियोजना क्षेत्र (a) गंग नहर – गंगा नगर व बीकानेर (b) व्यास परियोजना – राजस्थान, पंजाब, हरियाणा (c) सिद्धमुख परियोजना – राजस्थान (d)माही बजाज सागर परियोजना – राजस्थान, गुजरात",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18895,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक सुमेलित नहीं है? नदी उद्गम स्थल",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साबी – सेवर पहाड़ियाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "कान्तली – खण्डेला पहाड़ियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा – खमनौर पहाड़ियाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम – बीछामेड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाणगंगा नदी जयपुर जिले में बैराठ की पहाड़ियो से निकलती है जबकि खमनौर की पहाड़ियों से बनास नदी निकलती है। शेष सभी विकल्प सही सुमेलित है।",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18897,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान की कौनसी नदी जैसलमेर बेसिन में नहीं गिरती -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बितकी"
+        },
+        {
+          "id": "opt2",
+          "text": "लीलड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "सूकड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "घूघरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ब्यावर के जवाजा से निकलने वाली लुनी की सहायक नदी लीलड़ी है, जो सबसे पहले लुनी नदी में जाकर मिलती है।",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3935,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी एक राजस्थान की अंत प्रवाही नदी नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt2",
+          "text": "साबी"
+        },
+        {
+          "id": "opt3",
+          "text": "काकनी"
+        },
+        {
+          "id": "opt4",
+          "text": "सागी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सागी लूनी की सहायक नदी है।",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3936,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्न में से कौनसी नदी सदावाहिनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कान्तली"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणगंगा"
+        },
+        {
+          "id": "opt3",
+          "text": "घग्घर"
+        },
+        {
+          "id": "opt4",
+          "text": "चम्बल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की एक मात्र सदावाहिनी नदी चम्बल है।",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3937,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसे युग्म जिले में से एक भी नदी प्रवाहित नहीं होती -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर-चुरू"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर-हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "चुरू-नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर-बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीकानेर और चुरू जिलों से एक भी नदी प्रवाहित नहीं होती है।",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3938,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे ‘मरू गंगा’ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इंदिरा गांधी नहर परियोजना"
+        },
+        {
+          "id": "opt2",
+          "text": "मरू क्षेत्र विकास कार्यक्रम"
+        },
+        {
+          "id": "opt3",
+          "text": "नर्मदा नहर परियोजना"
+        },
+        {
+          "id": "opt4",
+          "text": "समन्वित क्षेत्र विकास कार्यक्रम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इन्दिरा गांधी नहर परियोजना(IGNP) पूर्ण होने पर विश्व की सबसे बड़ी परियोजना होगी इसे प्रदेश की जीवन रेखा/मरूगंगा भी कहा जाता है। पहले इसका नाम ‘ राजस्थान नहर’ था। 2 नवम्बर 1984 को इसका नाम ‘इन्दिरा गांधी नहर’ परियोजना कर दिया गया है।",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3944,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    }
+  ]
+}

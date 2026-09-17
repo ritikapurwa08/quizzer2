@@ -1,0 +1,664 @@
+{
+  "masterTopic": "राजस्थान का पर्यटन",
+  "batchIndex": 9,
+  "batchName": "राजस्थान का पर्यटन भाग 9",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पर्यटन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जूनागढ़ किले का निर्माण करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रायसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "कल्याणमल"
+        },
+        {
+          "id": "opt3",
+          "text": "अनूपसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5715,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चांद बावड़ी कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "आभानेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चाँद बावड़ी एक सीढ़ीदार कुआँ है, जो राजस्थान में जयपुर के निकट दौसा ज़िले के आभानेरी नामक ग्राम में स्थित है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5716,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस गढ़ को धाराधारगढ़ के नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भटनेर का किला"
+        },
+        {
+          "id": "opt2",
+          "text": "गागरौण का किला"
+        },
+        {
+          "id": "opt3",
+          "text": "रणथम्भौर का किला"
+        },
+        {
+          "id": "opt4",
+          "text": "चौमुहागढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौमुहागढ़(धाराधारगढ़) जयपुर से लगभग 33 किमी उत्तर में अवस्थित चौंमू- ढूंढाड़ अंचल का एक प्रमुख कस्बा है जिसके नामकरण का आधार वहां का किला चौंमुहागढ़ है जिसके चतुर्दिक बसा होने के कारण यह कस्बा चौंमू के नाम से प्रसिद्ध हुआ।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5717,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा एक राजस्थान का मन्दिर सही सुम्मेलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एकलिंगजी मन्दिर - माउण्ट आबू"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्य मन्दिर - उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "देलवाड़ा मन्दिर - ओसियां"
+        },
+        {
+          "id": "opt4",
+          "text": "करणी माता मन्दिर - देशनोक"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5718,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हवामहल की पहली मंजिल का नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रत्न मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रकाश मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "हवा मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप मंदिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हवामहल की पाँच मंजिलोँ के नाम - 1. शरद/ प्रताप मंदिर 2. रत्न मंदिर 3. विचित्र मंदिर 4. सूर्य/प्रकाश मंदिर 5. हवा मंदिर",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5719,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेनाल में सुहवेश्वर शिव मन्दिर का निर्माण किस चौहान शासक ने करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज IV"
+        },
+        {
+          "id": "opt2",
+          "text": "अपरगांगेय"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज II"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज III"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज द्वितीय की रानी सुहवदेवी (रूठी रानी) के महल और उसी का बनवाया हुवा सुहवेश्वर नामक शिवालय है जो विक्रम संवत 1224 में बना था, ऐसा वहा के लेख से ज्ञात होता है|",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5720,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पटवों की हवेली कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झुन्झुनु"
+        },
+        {
+          "id": "opt3",
+          "text": "बिकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Tax Assitant Exam 2018(P1)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5721,
+        "exam": "Tax Assitant Exam 2018(P1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ किले के निम्नलिखित मंदिरों में से कौन सा एक जैन मंदिर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुंभश्याम मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "सातवीश देवरी"
+        },
+        {
+          "id": "opt3",
+          "text": "समिद्धेश्वर मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "तुलजा भवानी मंदिर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चित्तौड़गढ़ किले में, सतबीस देवरी जैन मंदिर मैदान कुंभ महल के सामने त्रिपोलिया के प्रवेश द्वार के दाईं ओर स्थित हैं । सातबीस देवरी के इस तीन मण्डप वाले पश्चिमोभिमुख मंदिर के चारों ओर गलियारों में 26 देवरियाँ होने से इसे सातबीस देवरी मंदिर कहा जाने लगा। मुख्य मंदिर में गर्भगृह, अन्तराल, सभा मण्डप, मण्डप, त्रिक मंउप एवं मुख मंडप युक्त मंदिर का जंघा भाग देवी देवताओं एवं अप्सराओं की मूर्तियों से अलंकृत है।",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5722,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पर्यटन विकास निगम लि. की स्थापना कब की गयी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१ अप्रैल, 1979"
+        },
+        {
+          "id": "opt2",
+          "text": "२७ सितंबर, 2001"
+        },
+        {
+          "id": "opt3",
+          "text": "१ अगस्त, 2000"
+        },
+        {
+          "id": "opt4",
+          "text": "29अक्टूबर1996"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान पर्यटन विकास निगम लिमिटेड राज्य में पर्यटन को विकसित करने के लिए १ अप्रैल, १९७९ में स्थापित राजस्थान सरकार की एक संस्था है।",
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5723,
+        "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "31 मार्च 2017 को राजस्थान राज्य में राष्ट्रीय राजमार्ग के अंतर्गत कुल सड़कों की लम्बाई है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7512किलोमीटर"
+        },
+        {
+          "id": "opt2",
+          "text": "8202किलोमीटर"
+        },
+        {
+          "id": "opt3",
+          "text": "10608किलोमीटर"
+        },
+        {
+          "id": "opt4",
+          "text": "14578किलोमीटर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "३१ मार्च, २०१७ को राजस्थान राज्य में राष्ट्रीय राजमार्ग के अंतर्गत कुल सड़क की लम्बाई ८२०२ किलोमीटर है। इसकी लम्बाई १०३४२ वर्ग किलोमीटर ३१ मार्च, २०१९ तक है।",
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5724,
+        "exam": "RPSC Engineer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I(पर्यटन केन्द्र) को सूची-II(जिला) से सुमेलित कीजिए तथा नीचे दिए कूट से सही उत्तर चुनिए: सूची-I पर्यटन केन्द्र सूची-I जिला (A) फूल सागर (i) बाड़मेर (B) गागरोन किला (ii) उदयपुर (C) जगदीश मंदिर (iii) बूँदी (D) किराडू मंदिर (iv) झालवाड़ कूट: (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iv ii iii i"
+        },
+        {
+          "id": "opt2",
+          "text": "iii iv i ii"
+        },
+        {
+          "id": "opt3",
+          "text": "iii iv ii i"
+        },
+        {
+          "id": "opt4",
+          "text": "iv iii ii i"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सूची-I (पर्यटन केन्द्र) को सूची-II (जिला) का सही सुमेलन है- (a) फूल सागर - बूँदी (b) गागरोन - झालवाड़ (c) जगदीश मंदिर - उदयपुर (d) किराडू मंदिर - बाड़मेर",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5725,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-Iको सूची-IIसे सुमेलित कीजिये और सही उत्तर का चयन नीचे दिये कूट से कीजिये: पर्यटन केन्द्र जिला (A) पाण्डुपोल i. झालावाड़ (B) जसवन्त थड़ा ii. बीकानेर (C) लालगढ़ iii. अलवर (D) गागरोन किला iv. जोधपुर कूट: (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii i ii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "iv iii i ii"
+        },
+        {
+          "id": "opt3",
+          "text": "iii iv ii i"
+        },
+        {
+          "id": "opt4",
+          "text": "ii iv i iii"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सूची-I को सूची-II से सही सुमेलन है- पर्यटन केन्द्र जिला (a) पाण्डुपोल - अलवर (b) जसवन्त थड़ा - जोधपुर (c) लालगढ़ - बीकानेर (d) गागरोन किला - झालावाड़",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5726,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पर्यटन क्षेत्र में निम्न में से कौन सा अनुपम बिक्री प्रस्ताव(USP) नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पैलेस ऑन व्हील्स ट्रेन(शाही रेल)"
+        },
+        {
+          "id": "opt2",
+          "text": "किले, महल एवं हवेलियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "मेले एवं त्योहार"
+        },
+        {
+          "id": "opt4",
+          "text": "चिकित्सकीय पर्यटन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान ऐतिहासिक एवं धार्मिक स्थलों वाला एक समृद्ध राज्य है। राजस्थान अपने गौरव पूर्ण अतीत, विशिष्ट संस्कृति, प्राकृतिक सुषमा, ऐतिहासिक किले, हवेलियों, मंदिरों के वास्तुशिल्प, शौर्य एवं वीरता, कला एवं संगीत की परम्परा, रंग- बिरंगे मेले तथा विभिन्न त्योहारों के कारण स्वदेशी एवं विदेशी पर्यटकों का प्रमुख आकर्षण रहा है। सरकार ने1989में पर्यटन को उद्योग का दर्जा दिया। राजस्थान के पर्यटन क्षेत्र में पैलैस ऑन व्हील्स ट्रेन(शाही ट्रेन)महल एवं हवेलियाँ तथा विभिन्न मेले एवं त्योहार को अनुपम बिक्री प्रस्ताव में शामिल किया गया।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5727,
+        "exam": "RPSC RAS/RTS Pre 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न को सुमेलित कीजिए एवं नीचे दिए गये कूटों में से उत्तर चुनिए– पर्यटक केन्द्र स्थान A. सोनी जी की नसिया i. भरतपुर B. लोहागढ़ किला ii. बीकानेर C. चन्द्र – महल iii. आजमेर D. जूनागढ़ किला iv. जयपुर कूटः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) –(i), (B)-(ii), (C)-(iv), (D)-(iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iv), (B)-(i), (C)-(iii), (D)-(ii)/र"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(iii), (B)-(iv), (C)-(i), (D)-(ii)/र"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(iii), (B)-(i), (C)-(iv), (D)-(ii)/र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन इस प्रकार है – पर्यटन केन्द्र स्थान सोनी जी की नसिया – अजमेर लोहागढ़ का किला – भरतपुर चन्द्र महल – जयपुर जूनागढ़ – बीकानेर",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5729,
+        "exam": "RPSC School Lect. (S.E.) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में ‘रामप्रकाश थयेटर’ की स्थापना किस महाराजा के काल में हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा रामसिंह-II"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा ईश्वरसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा विजयसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा मानसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5730,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘दानचन्द चौपड़ा की हवेली’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "सूजानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "खेतड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5731,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पर्यटन विकास निगम की स्थापना कब हुई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अप्रैल 1977"
+        },
+        {
+          "id": "opt2",
+          "text": "अप्रैल 1978"
+        },
+        {
+          "id": "opt3",
+          "text": "अप्रैल 1979"
+        },
+        {
+          "id": "opt4",
+          "text": "अप्रैल 1980"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5732,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बालाकिला’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5733,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संगमरमर से निर्मित ‘बाटाडू का कुआं’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5734,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पर्यटन के ‘लोगो’ में सम्मिलित वाक्य है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रंगीलो राजस्थान"
+        },
+        {
+          "id": "opt2",
+          "text": "जाने क्या दिख जाए"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान से दिल देखो"
+        },
+        {
+          "id": "opt4",
+          "text": "दर्शनीय राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "टूरिज्म हब के रूप में पहचान बनाने वाला राजस्थान पर्यटन को बढ़ावा देने के उद्देश्य से हर दिन नए-नए प्रयोग करता रहता है इसी क्रम में आगे बढ़ते हुए राजस्थान टूरिज्म ने खुद के लोगो(Logo) में बदलाव लाने का पैâसला किया है। लोगों के साथ-साथ इस बारLogo राजस्थान टूरिज्म की पंचलाइन में भी अंतर देखने को मिलने वाला है। इस बार ‘‘जो पधारो म्हारे देश’’ से बदल कर ‘‘जाने क्या दिख जाए’’ हो गया है। इसLogoके लॉन्च में राजस्थान के भिन्न-भिन्न चीजों की झलक भी देखने को मिलती है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5735,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    }
+  ]
+}

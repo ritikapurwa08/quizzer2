@@ -155,8 +155,10 @@ export const remove = mutation({
 
 /**
  * Bulk import — runs atomically per test set:
- * Validates composition, ensures positive integer sourceQuestionIds for PYQ/PYQ_MODIFIED,
+ * PYQ-first mode: accepts any batch of up to 20 PYQ questions.
+ * Ensures positive integer sourceQuestionIds for PYQ/PYQ_MODIFIED,
  * inserts questions, and tracks used sourceQuestionIds in usedPyqs table.
+ * No longer enforces legacy 16 PYQ + 4 AI_NEW composition.
  */
 export const bulkImport = mutation({
   args: {
@@ -170,9 +172,9 @@ export const bulkImport = mutation({
     const topic = await ctx.db.get(testSet.topicId);
     const subjectId = topic?.subjectId;
 
-    let pyqCount = 0;
-    let pyqModCount = 0;
-    let aiNewCount = 0;
+    if (args.questions.length === 0) throw new Error("No questions provided.");
+    if (args.questions.length > 20) throw new Error(`Batch too large: ${args.questions.length} questions (max 20).`);
+
     const sourceIds: number[] = [];
 
     for (let i = 0; i < args.questions.length; i++) {
@@ -180,49 +182,34 @@ export const bulkImport = mutation({
       const st = q.meta?.sourceType;
       const sid = q.meta?.sourceQuestionId;
 
-      if (st === "PYQ" || st === "PYQ_EXACT") {
-        pyqCount++;
+      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") {
         if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
           throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
         }
         sourceIds.push(sid);
-      } else if (st === "PYQ_MODIFIED") {
-        pyqModCount++;
-        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-          throw new Error(`Question #${i + 1} (PYQ_MODIFIED) requires a valid integer sourceQuestionId.`);
-        }
-        sourceIds.push(sid);
       } else if (st === "AI_NEW") {
-        aiNewCount++;
         if (sid !== undefined && sid !== null) {
           throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
         }
       }
     }
 
-    // For standard 20-question imports, enforce strict composition contract
-    if (args.questions.length === 20) {
-      if (pyqCount !== 16 || pyqModCount !== 0 || aiNewCount !== 4) {
-        throw new Error(
-          `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount > 0 ? `${pyqModCount} PYQ_MODIFIED + ` : ""}${aiNewCount} AI_NEW.`
-        );
-      }
+    // Duplicate sourceQuestionId check within batch
+    if (new Set(sourceIds).size !== sourceIds.length) {
+      throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
+    }
 
-      if (new Set(sourceIds).size !== sourceIds.length) {
-        throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
-      }
-
-      if (topic) {
-        for (const sid of sourceIds) {
-          const alreadyUsed = await ctx.db
-            .query("usedPyqs")
-            .withIndex("by_topic_source", (q) =>
-              q.eq("topicId", testSet.topicId).eq("sourceQuestionId", sid)
-            )
-            .first();
-          if (alreadyUsed) {
-            throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
-          }
+    // Cross-topic duplicate check (prevent re-importing same PYQ into same topic)
+    if (topic) {
+      for (const sid of sourceIds) {
+        const alreadyUsed = await ctx.db
+          .query("usedPyqs")
+          .withIndex("by_topic_source", (q) =>
+            q.eq("topicId", testSet.topicId).eq("sourceQuestionId", sid)
+          )
+          .first();
+        if (alreadyUsed) {
+          throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
         }
       }
     }
@@ -280,7 +267,9 @@ export const bulkImport = mutation({
 
 /**
  * All-in-one atomic test set import mutation for Admin workflow:
- * Atomically creates the testSet, inserts 20 questions, and records 16 usedPyqs in one transaction.
+ * Atomically creates the testSet, inserts up to 20 PYQ questions, and records usedPyqs.
+ * PYQ-first mode: accepts any batch of 1–20 pure PYQ questions.
+ * Legacy 16 PYQ + 4 AI_NEW composition is no longer enforced.
  * If any check fails, none of the records are created.
  */
 export const importTestSetWithPyqs = mutation({
@@ -297,10 +286,10 @@ export const importTestSetWithPyqs = mutation({
     if (!topic) throw new Error("Topic not found");
     const subjectId = topic.subjectId;
 
-    // 1. Verify question composition and extract sourceIds
-    let pyqCount = 0;
-    let pyqModCount = 0;
-    let aiNewCount = 0;
+    if (args.questions.length === 0) throw new Error("No questions provided.");
+    if (args.questions.length > 20) throw new Error(`Batch too large: ${args.questions.length} questions (max 20).`);
+
+    // 1. Verify question sourceIds and collect PYQ ids
     const sourceIds: number[] = [];
 
     for (let i = 0; i < args.questions.length; i++) {
@@ -308,32 +297,18 @@ export const importTestSetWithPyqs = mutation({
       const st = q.meta?.sourceType;
       const sid = q.meta?.sourceQuestionId;
 
-      if (st === "PYQ" || st === "PYQ_EXACT") {
-        pyqCount++;
+      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") {
         if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
           throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
         }
         sourceIds.push(sid);
-      } else if (st === "PYQ_MODIFIED") {
-        pyqModCount++;
-        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-          throw new Error(`Question #${i + 1} (PYQ_MODIFIED) requires a valid integer sourceQuestionId.`);
-        }
-        sourceIds.push(sid);
       } else if (st === "AI_NEW") {
-        aiNewCount++;
         if (sid !== undefined && sid !== null) {
           throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
         }
       } else {
         throw new Error(`Question #${i + 1} has invalid or missing sourceType: ${st}`);
       }
-    }
-
-    if (args.questions.length !== 20 || pyqCount !== 16 || pyqModCount !== 0 || aiNewCount !== 4) {
-      throw new Error(
-        `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW (Total: 20). Received: ${pyqCount} PYQ + ${pyqModCount ? `${pyqModCount} PYQ_MODIFIED + ` : ""}${aiNewCount} AI_NEW (Total: ${args.questions.length}).`
-      );
     }
 
     // 2. Duplicate protection within batch
@@ -489,7 +464,9 @@ export const importTestSetAtomic = mutation({
         .withIndex("by_test_set", (q) => q.eq("testSetId", testSet!._id))
         .collect();
 
-      if (existingQuestions.length >= 10) {
+      // If test set already has >= the incoming question count, consider it already imported.
+      // Use >= 1 to prevent accidental duplicates; the CLI/importer handles idempotency.
+      if (existingQuestions.length >= args.questions.length) {
         return {
           status: "already_exists",
           testSetId: testSet._id,

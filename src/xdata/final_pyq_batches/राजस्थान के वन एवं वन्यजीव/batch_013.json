@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 13,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 13",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "आमागढ़ लेपर्ड रिजर्व निम्न में से किस शहर में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमंद"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आमागढ़ तेंदुआ रिजर्व या आमागढ़ सफारी पार्क भारत का दूसरा तेंदुआ रिजर्व है जो भारत के राजस्थान राज्य के जयपुर शहर में गलता जी (एक हिंदू तीर्थ स्थल) के पास स्थित है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16664,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘उम्मेदगंज संरक्षित क्षेत्र’ राजस्थान के किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16665,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से ज़िले में सर्वाधिक ‘शिकार निषिद्ध क्षेत्र’ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16666,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केसर बाग वन्यजीव क्षेत्र स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाडा में"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा में"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16667,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भालुओं का पहला संरक्षित क्षेत्र कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुढ़ा विश्नोईयान"
+        },
+        {
+          "id": "opt2",
+          "text": "सुंधामाता"
+        },
+        {
+          "id": "opt3",
+          "text": "गोगेलाव"
+        },
+        {
+          "id": "opt4",
+          "text": "शाकम्बरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16668,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का खीचन गाँव जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चरस"
+        },
+        {
+          "id": "opt2",
+          "text": "साइबेरियन सारस"
+        },
+        {
+          "id": "opt3",
+          "text": "तिलोर"
+        },
+        {
+          "id": "opt4",
+          "text": "कुरजां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खीचन भारत के राजस्थान राज्य का एक गाँव है। यह फलोदी जिले में स्थित है। यह गाँव बड़ी संख्या में कुरजां के लिए जाना जाता है जो हर सर्दियों में यहां आते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16669,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय वन्य जीव (संरक्षण) अधिनियम लागू हुआ-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1972"
+        },
+        {
+          "id": "opt2",
+          "text": "1962"
+        },
+        {
+          "id": "opt3",
+          "text": "1992"
+        },
+        {
+          "id": "opt4",
+          "text": "1982"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16674,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“वन्यजीव प्रबन्धन एवं रेगिस्तान पारितन्त्र प्रशिक्षण केन्द्र” स्थापित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोड़बीड़ ( बीकानेर में)"
+        },
+        {
+          "id": "opt2",
+          "text": "सम (जैसलमेर में)"
+        },
+        {
+          "id": "opt3",
+          "text": "तालछापर (चुरू में)"
+        },
+        {
+          "id": "opt4",
+          "text": "बिलाड़ा (जोधपुर में)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1 अक्टूबर, 2021 को राजस्थान के वन एवं पर्यावरण राज्य मंत्री सुखराम बिश्नोई ने ताल छापर में ‘वन्यजीव प्रबंधन एवं मरुस्थलीय पारिस्थितिकी तंत्र प्रशिक्षण संस्थान’ का शुभारंभ किया। इसका उद्देश्य वन विभाग के अग्रिम पंक्ति के कार्मिकों को वानिकी, वन्यजीव संरक्षण के साथ-साथ इससे संबंधित ज्ञान और प्रशिक्षण प्रदान करना है।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16675,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रोजेक्ट बस्टर्ड के संदर्भ में निम्नलिखित में से कौनसा कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह घास के मैदान पारिस्थितिकी के संरक्षण से सम्बन्धित है।"
+        },
+        {
+          "id": "opt2",
+          "text": "पर्यावरण विकास और पर्यावरण पर्यटन गतिविधियों में स्थानीय लोगों को शामिल करना।"
+        },
+        {
+          "id": "opt3",
+          "text": "इसे वन्यजीव संरक्षण अधिनियम, 1972 के तहत लागू किया गया।"
+        },
+        {
+          "id": "opt4",
+          "text": "इस प्रजाति की रक्षा के लिए प्रोजेक्ट ग्रेट इण्डियन बस्टर्ड को पर्यावरण मंत्रालय ने शुरू किया था।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ग्रेट इंडियन बस्टर्ड, हालांकि इसे वन्यजीव (संरक्षण) अधिनियम, 1972 के तहत लाया गया था, इस पर ध्यान नहीं दिया गया और यह बीपीएल (संरक्षण रेखा से नीचे) बना रहा; प्रोजेक्ट बस्टर्ड को ग्रेट इंडियन बस्टर्ड जैसी उपेक्षित प्रजातियों के संरक्षण के लिए एक नए युग की शुरुआत के रूप में देखा जा सकता है, जो राजस्थान का राज्य पक्षी भी है। प्रोजेक्ट ग्रेट इंडियन बस्टर्ड को राजस्थान राज्य (पर्यावरण मंत्रालय नहीं) द्वारा शुरू किया गया था - जिसका उद्देश्य मौजूदा संरक्षित क्षेत्रों में बस्टर्ड प्रजनन स्थलों की पहचान करना और उन्हें बाड़ लगाना तथा संरक्षित क्षेत्रों के बाहर के क्षेत्रों में सुरक्षित प्रजनन स्थल उपलब्ध कराना था।A.R.O. (GK and Plant Pathology) 2022 Model Answer Key में option 4 को सही माना गया है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16676,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वॉटरहोल गणना 2022 अनुसार, झालाना एवं आमागढ़ तेंदुआ रिजर्व में तेंदुओं की आबादी में ......% वृद्धि हुई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "34%"
+        },
+        {
+          "id": "opt2",
+          "text": "43%"
+        },
+        {
+          "id": "opt3",
+          "text": "32%"
+        },
+        {
+          "id": "opt4",
+          "text": "40%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16679,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाल ही में आमागढ़ रिज़र्व खबरों में था, यह प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पक्षियों के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथी सफारी के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "लेपर्ड सफारी के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "टाइगर सफारी के लिए"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16681,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन काला हिरण अभ्यारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ताल छापर"
+        },
+        {
+          "id": "opt2",
+          "text": "सज्जनगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "रणथम्भौर"
+        },
+        {
+          "id": "opt4",
+          "text": "कुंभलगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16682,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का पहला भालू अभ्यारण्य है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तालछापर"
+        },
+        {
+          "id": "opt2",
+          "text": "बंध बरेठा"
+        },
+        {
+          "id": "opt3",
+          "text": "सुंधा माता"
+        },
+        {
+          "id": "opt4",
+          "text": "कनक सागर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सुंधा माता संरक्षण रिजर्व राजस्थान में पहला और देश में चौथा भालू संरक्षण रिजर्व है। यह राजस्थान के जालौर में है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16683,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जैसलमेर स्थित आकल काष्ठ जीवाश्मों की आयु लगभग कितनी मानी गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "12 करोड़ वर्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "18 करोड़ वर्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "38 लाख वर्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "6 करोड़ वर्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — School Lecturer 2022 Geography (Group - B)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16684,
+        "exam": "School Lecturer 2022 Geography (Group - B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘टॉडगढ़ रावली’ वन्यजीव अभ्यारण्य कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर, पाली और राजसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़, पाली और राजसमंद"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली, राजसमंद और भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर, पाली और राजसमंद"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16685,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (संरक्षित क्षेत्र-जिला) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शाकम्भरी – सीकर, नीम का थाना"
+        },
+        {
+          "id": "opt2",
+          "text": "रोटू – झुंझुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "उम्मेदगंज पक्षी विहार – कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "गुढ़ा विश्नोइयान – जोधपुर ग्रामीण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रोटू (2012) नागौर में स्थित है। यह राज्य का सबसे छोटा संरक्षित क्षेत्र है।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16686,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“भरतपुर बर्ड पैराडाइज़” पुस्तक के लेखक कौन हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैलाश सांखला"
+        },
+        {
+          "id": "opt2",
+          "text": "डॉ. के. एल. राठौर"
+        },
+        {
+          "id": "opt3",
+          "text": "मार्टिन इवांस"
+        },
+        {
+          "id": "opt4",
+          "text": "एम. डी. चतुर्वेदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“भरतपुर बर्ड पैराडाइज़” पुस्तक के लेखक मार्टिन इवान्स हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16687,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा (संरक्षण रिज़र्व – जिला/जिले) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीड़ – झुन्झुनूं"
+        },
+        {
+          "id": "opt2",
+          "text": "रोटू – नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "सुन्धामाता – जालौर, सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "गोगेलाव – बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16689,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "_____ सफारी पार्क जयपुर में एक विशाल और सुंदर सफारी पार्क है जो तेंदुआ देखने के लिए लोकप्रिय है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथंभौर"
+        },
+        {
+          "id": "opt2",
+          "text": "केओलादेव"
+        },
+        {
+          "id": "opt3",
+          "text": "माचिया"
+        },
+        {
+          "id": "opt4",
+          "text": "झालना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16690,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पहला बायोलॉजिकल पार्क कहाँ स्थापित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माछिया (जोधपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "नाहरगढ़ (जयपुर)"
+        },
+        {
+          "id": "opt3",
+          "text": "सज्जनगढ़ (उदयपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "अभेदा (कोटा)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Diploma (GK)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16693,
+        "exam": "JEN 2022: Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
+  "batchIndex": 6,
+  "batchName": "राजस्थान में सामाजिक एवं राजनीतिक जागरण भाग 6",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-सामाजिक-एवं-राजनीतिक-जागरण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मारवाड़ के अधोलिखित राजनैतिक संगठनों को कालक्रमानुसार व्यवस्थित कीजिए– i. मारवाड़ हितकारिणी सभा ii. मारवाड़ यूथ लीग iii. मारवाड़ प्रजामण्डल iv. मारवाड़ लोक परिषद् सहीं कूट का चयन कीजिए",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (iv) (iii) (ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) (iii) (iv) (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (i) (iii) (ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मारवाड़ के राजनैतिक संगठनों का स्थापना क्रम इस प्रकार है – मारवाड़ हितकारिणी सभा –1923ई. जयनारायण व्यास मारवाड़ यूथ लीग –1931ई., जयनारायण व्यास मारवाड़ प्रजामण्डल –1934, जयनारायण व्यास मारवाड़ लोक परिषद् –1938, रणछोड़दास गट्टांनी",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 336,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1939 ई. में किशनगढ़ राज्य में प्रजामण्डल की स्थापना किसके प्रयत्नों से हुई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजय िंसह पथिक"
+        },
+        {
+          "id": "opt2",
+          "text": "ज्वाला प्रसाद जिज्ञासु"
+        },
+        {
+          "id": "opt3",
+          "text": "बलवन्त िंसह मेहता"
+        },
+        {
+          "id": "opt4",
+          "text": "कान्तिचन्द्र चौथाणी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "किशनगढ़ प्रजामण्डल की स्थापना1939ई. में कांतिलाल चौथाणी और जमालशाह ने की थी। इसका उद्देश्य समाज में बदलाव तथा शासन के प्रबंधन में जनता की भागीदारी सुनिश्चित करना था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 338,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान मध्य भारत सभा’ का दूसरा अधिवेशन १९१९ ई. में कहाँ सम्पन्न हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कराची"
+        },
+        {
+          "id": "opt3",
+          "text": "उज्जैन"
+        },
+        {
+          "id": "opt4",
+          "text": "अमृतसर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजपूताना मध्य भारत सभा का दूसरा अधिवेशन29 दिसंबर, 1919को अमृतसर में हुआ था। राजपूताना मध्य भारत सभा की स्थापना1919में हुई थी। इसका तीसरा अधिवेशन अजमेर में हुआ था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 339,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१८५७ ई. के विप्लव के समय नीमच में अंग्रेजी सैनिक अधिकारी कौन था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जॉर्ज पैट्रिक लारेंस"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल एबाट"
+        },
+        {
+          "id": "opt3",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्रिगेडियर होम्स"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1857ई. के विप्लव के समय नीमच में अंग्रेज सैनिक अधिकारी कर्नल एबाट था। मध्य प्रदेश की नीमच छावनी पर मेवाड़ के राजनीतिक एजेंट वैâप्टन शाबर्स का नियंत्रण था। जॉर्ज पैट्रिक लारेंस1857की क्रांति के समय गवर्नर जनरल का राजपूताना एजेंट था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 340,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान राजस्थान राज्य के गठन की सारी प्रक्रिया सम्पूर्ण हुई",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१९४७ ई."
+        },
+        {
+          "id": "opt2",
+          "text": "१९४८ ई."
+        },
+        {
+          "id": "opt3",
+          "text": "१९४९ ई."
+        },
+        {
+          "id": "opt4",
+          "text": "१९५६ ई."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य का गठन1नवंबर, 1956को पूरा हुआ था। राजस्थान के गठन के लिए5जुलाई, 1947को रियासत सचिवालय की स्थापना की गई थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 343,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१८५७ की क्रांति के समय मेवाड़ के महाराणा कौन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा सज्जनिंसह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा स्वरूपिंसह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा फतेहिंसह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराणा भीमिंसह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1857की क्रांति के समय मेवाड़ के महाराणा स्वरूप सिंह(1842-1861)थे। महाराणा ने1857के स्वतंत्रता संग्राम के दौरान अंग्रेजों का समर्थन किया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 344,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१९३५ में, डूंगरपुर में किसके द्वारा ‘हरिजन सेवा समिति’ की स्थापना की गई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोगीलाल पंड्या"
+        },
+        {
+          "id": "opt2",
+          "text": "माणिक्य लाल वर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "गोविन्द गिरि"
+        },
+        {
+          "id": "opt4",
+          "text": "सूरमल दास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "डूंगरपुर में हरिजन सेवा समिति की स्थापना भोगीलाल पंड्या ने, 1935में की थी। आदिवासियों और दलितों के उत्थान के लिए भोगीलाल पांड्या ने हरिजन सेवा समिति की स्थापना की थी।",
+      "reference": "📌 PYQ — RPSC School Lect. (Group-D) 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 345,
+        "exam": "RPSC School Lect. (Group-D) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१९४२ ई़ में जोधपुर जेल में भूख हड़ताल के दौरान किस सत्याग्रही की मृत्यु हो गयी थीः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द्वारका दास"
+        },
+        {
+          "id": "opt2",
+          "text": "राधा कृष्ण"
+        },
+        {
+          "id": "opt3",
+          "text": "शिव करण थानवी"
+        },
+        {
+          "id": "opt4",
+          "text": "बालमुकुन्द बिस्सा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1942में जोधपुर जेल में भूख हड़ताल के दौरान सत्याग्रही बालमुकुंद की मृत्यु हो गयी थी। बालमुकुंद बिस्वा राजस्थान के एक प्रमुख स्वतंत्रता सेनानी थे। लम्बी भूख हड़ताल के कारण जेल में उनकी मृत्यु हो गई थी।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-E (S.E.)2022 RPSC Sr. Teacher Gr. II Re. Exam 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 348,
+        "exam": "RPSC School Lect. Group-E (S.E.)2022 RPSC Sr. Teacher Gr. II Re. Exam 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१८५७ के विद्रोह की शुरूआत के समय उदयपुर में ब्रिटिश रेसिडेन्ट (एजेन्ट) कौन थाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वैâप्टन विलियम ईडन"
+        },
+        {
+          "id": "opt2",
+          "text": "सर जॉन लॉरेन्स"
+        },
+        {
+          "id": "opt3",
+          "text": "वैâप्टन शॉवर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "मेजर बर्टन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1857के विद्रोह की शुरुआत के समय उदयपुर में ब्रिटिश रेजीडेंट/एजेंट मेजर शावर्स थे। उदयपुर मेवाड़ रियासत ही थी। मेजर शावर्स ने उदयपुर में ब्रिटिश हितों की रक्षा की और विद्रोह को रोकने में महाराणा के साथ समन्वय किया।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam RPSC School Lect. (S.E.) 2018",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 349,
+        "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam RPSC School Lect. (S.E.) 2018",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में देशी रियासतों एवं संबंधित पॉलिटिकल एजेंन्ट (१८५७ के विद्रोह के प्रारंभ के समय) का कौन सा युग्मं असंगत हैः देशी रियासत पॉलिटिकल एजेन्ट",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर –वैâप्टन जे़ डी़ हॉल"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर-कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ -सी़ एल़ शॉवर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ - मैक मेसन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857के विद्रोह के समय भरतपुर रियासत का पालिटिकल एजेंट मेजर मारिसन था। जयपुर रियासत का कर्नल ईडन, मेवाड़ रियासत का सी.एल. शॉवर्स तथा मारवाड़ रियासत को पोलिटिकल एजेंट मैंक मेसन था।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 350,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस शासक को ‘पृथ्वीराज विजय’ ने ‘वैरीघरट्ट’ की पदवी दी गयी थीः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुर्लभराजII"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्दIII"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पृथ्वीराज विजय में गोविन्द तृतीय को वैरीघरट्ट की उपाधि दी गई है। फरिस्ता ने गोविन्द तृतीय को गजनी के शासक को मारवाड़ में आगे बढ़ने से रोकने वाला कहा है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 351,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1911 एवं 1912 ई. में गोविन्द गुरु की गतिविधियों केन्द्र..........था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईडर"
+        },
+        {
+          "id": "opt2",
+          "text": "सूंथ"
+        },
+        {
+          "id": "opt3",
+          "text": "बेडसा"
+        },
+        {
+          "id": "opt4",
+          "text": "खेड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1911और1912में गोविन्द गुरु की गतिविधियों का केन्द्र बेडसा गाँव था। यह राजस्थान के डूंगरपुर जिले की सिमवाड़ तहसील में स्थित है। गोविन्द गुरु सामाजिक और र्धािमक सुधारक थे। उन्होंने1883में सम्प सभा की स्थापना की थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 354,
+        "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म गलत है? (दबाव समूह) (संबंधित राजनीतिक दल)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऑल इंडिया ट्रेड यूनियन कम्युनिस्ट पार्टी ऑफ इंडिया"
+        },
+        {
+          "id": "opt2",
+          "text": "इंडियन नेशनल टे्रड यूनियन कांग्रेस भारतीय राष्ट्रीय कांग्रेस"
+        },
+        {
+          "id": "opt3",
+          "text": "हिंद मजदूर सभा भारतीय जनता पार्टी"
+        },
+        {
+          "id": "opt4",
+          "text": "सेंटर ऑफ इंडियन ट्रेड यूनियंस भारतीय कम्युनिस्ट पार्टी (मार्क्सवादी)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त दिए गए प्रश्न में दबाव समूहों से संबंधित राजनीतिक दल के युग्मों में विकल्प(c)सुमेलित नहीं है। ‘‘हिन्द मजदूर सभा की स्थापना समाजवादी दल द्वारा की गई थी’’ न कि भारतीय जनता पार्टी द्वारा जबकि अन्य सभी विकल्प सुमेलित है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18725,
+        "exam": "RPSC Sr. Teacher Sanskrit-2022 Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म सुमेलित नहीं है? राजनीतिक दल संस्थापक (A) भारतीय कम्युनिस्ट पार्टी(मार्क्सवादी)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एम.एन. रॉय (B) राष्ट्रवादी कांग्रेस पार्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "शरद पवार, पी.ए. संगमा और तारिक अनवर (C) अखिल भारतीय तृणमूल कांग्रेस"
+        },
+        {
+          "id": "opt3",
+          "text": "ममता बनर्जी (D) नेशनल पीपुल्स पार्टी"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्णों एजीतो संगमा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त दिए गए प्रश्न में राजनीतिक दल एवं उनके संस्थापक के युग्मों में विकल्प(a)सुमेलित नहीं है। भारतीय कम्युनिस्ट पार्टी(मार्क्सवादी)की स्थापना सीताराम येचुरी ने किया था। जबकि विकल्प में एम.एन.राय दिया है जो कि गलत है। इस पार्टी की स्थापना भारतीय कम्युनिस्ट पार्टी से अलग1964में की गई थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18726,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिए और नीचे दिए गए कूटों में से सही उत्तर का चयन कीजिए: (राजनीतिक दल का नाम) (स्थापना का वर्ष) (A) बहुजन समाज पार्टी (1) 1949 (B) द्रविड़ मुनेत्र कड़गम (2) 1984 (C) भारतीय कम्युनिस्ट पार्टी (मार्क्सवादी) (3) 1939 (D) जम्मू और कश्मीर नेशनल कांप्रâेंस (4) 1964 कूट: (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 2 3 4"
+        },
+        {
+          "id": "opt2",
+          "text": "2 4 1 3"
+        },
+        {
+          "id": "opt3",
+          "text": "2 1 4 3"
+        },
+        {
+          "id": "opt4",
+          "text": "4 2 3 1"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त दिए गए प्रश्न में राजनीतिक दल एवं स्थापना वर्ष का सही सुमेलन इस प्रकार है- राजनीतिक दल का नाम स्थापना वर्ष (i) बहुजन समाज पार्टी 1984 (ii) द्रविड़ मुनेत्र कड़गम 1949 (iii) भारतीय कम्युनिस्ट पार्टी(मार्क्सवादी)1964 (iv) जम्मू और कश्मीर नेशनल कांग्रेस 1939 530",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18727,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I(राजनीतिक दल)को सूची-II(पार्टी के चिन्ह)के साथ सुमेलित कीजिए और दिए गए कूट का प्रयोग की सही उत्तर का चयन कीजिए– सूची–I सूची-II A. बहुजन समाज पार्टी i. घड़ी B. राष्ट्रवादी कांग्रेस पार्टी ii. कार C. तेलंगाना राष्ट्र समिति iii. हाथी D. इंडियन नेशनल लोक दल iv. चश्मा कूट: A B C D A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 4 2 1"
+        },
+        {
+          "id": "opt2",
+          "text": "3 1 2 4"
+        },
+        {
+          "id": "opt3",
+          "text": "3 1 4 2"
+        },
+        {
+          "id": "opt4",
+          "text": "3 2 1 4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है– सूची-II सूची-II बहुजन समाज पार्टी – हाथी राष्ट्रवादी कांग्रेस पार्टी – घड़ी तेलंगाना राष्ट्र समिति – कार इंडियन नेशनल लोकदल – चश्मा",
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18728,
+        "exam": "RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-Aको सूची-Bसुमेलित कीजिए: सूची-A सूची-B A. आल इंडिया फॉरवर्ड ब्लॉक i. ओडिशा B. बीजू जनता दल ii. पश्चिम बंगाल C. इंडियन नेशनल लोक दल iii. बिहार D. लोक जनशक्ति पार्टी iv. हरियाणा नीचे दिए गए कूट में से सही विकल्प चुनिए: कूट: A B C D A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii i iii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "iii i iv ii"
+        },
+        {
+          "id": "opt3",
+          "text": "ii i iv iii"
+        },
+        {
+          "id": "opt4",
+          "text": "i iii iv ii"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन इस प्रकार है– सूची-I सूची-II आल इंडिया फॉरवर्ड ब्लॉक – पश्चिम बंगाल बीजू जनता दल – ओडिशा इंडियन नेशनल लोक दल – हरियाणा लोक जनशक्ति पार्टी – बिहार",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18729,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजनीतिक दलों की स्थापना के बारे में निम्नलिखित में से कौन सा युग्म गलत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रवादी काँग्रेस पार्टी: 1999"
+        },
+        {
+          "id": "opt2",
+          "text": "नेशनल पीपल्स पार्टी: 2013"
+        },
+        {
+          "id": "opt3",
+          "text": "आल इंडिया तृणमूल कांग्रेस: 1998"
+        },
+        {
+          "id": "opt4",
+          "text": "बहुजन समाज पार्टी: 1985"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बहुजन समाज पार्टी की स्थापना14अप्रैल1984में काशीराम द्वारा किया गया था। इस पार्टी की वर्तमान अध्यक्ष सुश्री मायावती हैं।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18730,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित सूची-P को सूची-Rसे सुमेलित करें: सूची-P सूची-R Aएआईएडीएमके 1 1997 Bबीजेडी 2 1972 Cआईएनएलडी 3 1999 Dएसपी 4 1992 A B C D A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 3 1 4"
+        },
+        {
+          "id": "opt2",
+          "text": "3 1 4 2"
+        },
+        {
+          "id": "opt3",
+          "text": "2 1 3 4"
+        },
+        {
+          "id": "opt4",
+          "text": "1 3 4 2"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न प्रकार हैं– सूची-P सूची-R एआईएडीएमके – 17अक्टूबर-1972 बीजेडी – 26दिसम्बर-1997 आईएनएलडी – अक्टूबर-1916 एसपी – 4अक्टूबर-1992",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18731,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा विकल्प सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कम्युनिस्ट पार्टी ऑफ इंडिया: AITUC"
+        },
+        {
+          "id": "opt2",
+          "text": "इंडियन नेशनल कांग्रेस: INTUC"
+        },
+        {
+          "id": "opt3",
+          "text": "हिन्द मजदूर सभा: HMS"
+        },
+        {
+          "id": "opt4",
+          "text": "ऑल इंडिया फॉरवर्ड ब्लॉक: TUCC"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "HMS Hind Mazdoor Sabha.यह एक भारत की टे्रड यूनियन है। इसकी स्थापना24दिसंबर, 1948को समाजवादियों ने किया था। इसका संबंध किसी राजनीतिक पार्टी से नहीं है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18732,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    }
+  ]
+}
