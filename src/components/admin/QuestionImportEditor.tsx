@@ -44,7 +44,9 @@ interface Option {
 
 interface Props {
   initialValue?: string;
-  onChange: (value: string, parsed: ImportJson | null, errors: string[]) => void;
+  resetKey?: number;
+  onParsedChange?: (parsed: ImportJson | null) => void;
+  onChange?: (value: string, parsed: ImportJson | null, errors: string[]) => void;
   subjectsList: Option[];
   topicsList: Option[];
   selectedSubjectId: string;
@@ -61,6 +63,8 @@ interface Props {
 
 export function QuestionImportEditor({
   initialValue = "",
+  resetKey,
+  onParsedChange,
   onChange,
   subjectsList,
   topicsList,
@@ -88,9 +92,20 @@ export function QuestionImportEditor({
   } | null>(null);
   const [pyqBatchError, setPyqBatchError] = useState<string>("");
   const [pyqBatchLoading, setPyqBatchLoading] = useState(false);
+  const lastFetchedKeyRef = useRef<string>("");
+
+  const lastResetKeyRef = useRef(resetKey ?? 0);
+  useEffect(() => {
+    if (resetKey !== undefined && resetKey !== lastResetKeyRef.current) {
+      lastResetKeyRef.current = resetKey;
+      setCode("");
+    }
+  }, [resetKey]);
 
   useEffect(() => {
-    setCode(initialValue);
+    if (initialValue !== undefined && initialValue === "" && code !== "") {
+      setCode("");
+    }
   }, [initialValue]);
 
   const subject = subjectsList.find((x) => x._id === selectedSubjectId);
@@ -98,13 +113,20 @@ export function QuestionImportEditor({
   const subjectName = getSubjectDisplayName(subject) || "";
   const topicName = getTopicDisplayName(topic) || "";
 
-  // Automatically fetch corresponding batch from Final PYQ folder
+  // Automatically fetch corresponding batch from Final PYQ folder (cached by topic+set)
   useEffect(() => {
     if (!topicName || !selectedTopicId) {
       setPyqBatch(null);
       setPyqBatchError("");
+      lastFetchedKeyRef.current = "";
       return;
     }
+
+    const fetchKey = `${topicName}::${subtopicName}`;
+    if (lastFetchedKeyRef.current === fetchKey) {
+      return;
+    }
+    lastFetchedKeyRef.current = fetchKey;
 
     let isMounted = true;
     setPyqBatchLoading(true);
@@ -252,25 +274,43 @@ export function QuestionImportEditor({
     Boolean(subtopicName.trim()) &&
     !isImporting;
 
-  // Propagate parsed payload to parent
+  // Propagate parsed payload to parent (guarded against re-render ping-pong)
+  const lastEmittedRef = useRef<string>("");
   useEffect(() => {
-    if (!code.trim()) {
-      onChange(code, null, []);
-      return;
-    }
-    if (canImport && parseResult.questions.length === 20) {
-      const payload: ImportJson = {
+    let currentPayload: ImportJson | null = null;
+    let signature = "empty";
+
+    if (code.trim() && canImport && parseResult.questions.length === 20) {
+      currentPayload = {
         subject: subjectName,
         topic: topicName,
         testSet: subtopicName.trim(),
         negativeMarking,
         questions: parseResult.questions,
       };
-      onChange(code, payload, []);
-    } else {
-      onChange(code, null, allErrors);
+      signature = `valid::${selectedTopicId}::${subtopicName.trim()}::${parseResult.questions.length}`;
+    } else if (code.trim()) {
+      signature = `invalid::${allErrors.length}::${allErrors[0] ?? ""}`;
     }
-  }, [code, canImport, parseResult.questions, allErrors, subjectName, topicName, subtopicName, negativeMarking, onChange]);
+
+    if (lastEmittedRef.current !== signature) {
+      lastEmittedRef.current = signature;
+      onParsedChange?.(currentPayload);
+      onChange?.(code, currentPayload, allErrors);
+    }
+  }, [
+    code,
+    canImport,
+    parseResult.questions,
+    allErrors,
+    subjectName,
+    topicName,
+    selectedTopicId,
+    subtopicName,
+    negativeMarking,
+    onParsedChange,
+    onChange,
+  ]);
 
   function copyPrompt() {
     navigator.clipboard.writeText(prompt);

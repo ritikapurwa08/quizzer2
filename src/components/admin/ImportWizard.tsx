@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { QuestionImportEditor } from "./QuestionImportEditor";
@@ -13,7 +13,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export function ImportWizard() {
-  const [editorCode, setEditorCode] = useState("");
+  const [resetKey, setResetKey] = useState(0);
   const [parsed, setParsed] = useState<ImportJson | null>(null);
   const [isImporting, setIsImporting] = useState(false);
 
@@ -67,21 +67,19 @@ export function ImportWizard() {
 
   // Derive the active topic object for Hindi display
   const activeTopic = topics.find((t) => t._id === selectedTopicId);
+  const activeTopicDisplay = getTopicDisplayName(activeTopic);
+  const existingCount = existingTestSets.length;
 
   // Auto-increment / default subtopic name based on existing test sets under the topic
   // Uses Hindi topic name + भाग N
   const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
-    if (!userEditedSubtopicRef.current && existingTestSets && selectedTopicId) {
-      const topicDisplay = getTopicDisplayName(activeTopic);
-      const nextPartNum = existingTestSets.length + 1;
-      if (topicDisplay) {
-        setSubtopicName(`${topicDisplay} भाग ${nextPartNum}`);
-      } else {
-        setSubtopicName(`Part ${nextPartNum}`);
-      }
+    if (!userEditedSubtopicRef.current && selectedTopicId && activeTopicDisplay) {
+      const nextPartNum = existingCount + 1;
+      const expectedName = `${activeTopicDisplay} भाग ${nextPartNum}`;
+      setSubtopicName((prev) => (prev === expectedName ? prev : expectedName));
     }
-  }, [existingTestSets, selectedTopicId, activeTopic]);
+  }, [existingCount, selectedTopicId, activeTopicDisplay]);
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
@@ -99,6 +97,10 @@ export function ImportWizard() {
     userEditedSubtopicRef.current = true;
     setSubtopicName(val);
   }
+
+  const handleParsedChange = useCallback((parsedData: ImportJson | null) => {
+    setParsed(parsedData);
+  }, []);
 
   async function handleImport() {
     if (!parsed || parsed.questions.length === 0) {
@@ -137,29 +139,8 @@ export function ImportWizard() {
         timeSeconds: parseFloat(elapsed.toFixed(1)),
       });
 
-      // Clear the editor so user is ready for the next set
-      setEditorCode("");
-
-      // 4. Auto-advance to next part name using Hindi topic name
-      const topicDisplay = getTopicDisplayName(activeTopic);
-      const partMatch = subtopicName.match(/(?:Part|भाग)\s*(\d+)$/i);
-      if (partMatch && partMatch[1]) {
-        const nextNum = parseInt(partMatch[1], 10) + 1;
-        if (topicDisplay) {
-          setSubtopicName(`${topicDisplay} भाग ${nextNum}`);
-        } else {
-          setSubtopicName(`Part ${nextNum}`);
-        }
-      } else {
-        const nextCount = (existingTestSets?.length ?? 0) + 2;
-        if (topicDisplay) {
-          setSubtopicName(`${topicDisplay} भाग ${nextCount}`);
-        } else {
-          setSubtopicName(`Part ${nextCount}`);
-        }
-      }
-
-      setEditorCode("");
+      // Clear the editor and auto-advance to next set
+      setResetKey((k) => k + 1);
       setParsed(null);
       userEditedSubtopicRef.current = false;
     } catch (err: any) {
@@ -204,11 +185,8 @@ export function ImportWizard() {
 
       {/* Streamlined Question Import Editor */}
       <QuestionImportEditor
-        initialValue={editorCode}
-        onChange={(val, parsedData) => {
-          setEditorCode(val);
-          setParsed(parsedData);
-        }}
+        resetKey={resetKey}
+        onParsedChange={handleParsedChange}
         subjectsList={subjects}
         topicsList={topics}
         selectedSubjectId={selectedSubjectId}
