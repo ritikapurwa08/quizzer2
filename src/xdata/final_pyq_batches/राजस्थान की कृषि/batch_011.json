@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 11,
+  "batchName": "राजस्थान की कृषि भाग 11",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सेवा क्षेत्र के निम्नलिखित में से किस उपक्षेत्र की वर्तमान कीमतों पर 2020-21 में सकल राज्य मूल्य संवर्धन में सबसे अधिक हिस्सेदारी है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परिवहन, भंडारण और संचार"
+        },
+        {
+          "id": "opt2",
+          "text": "व्यापार, होटल और रेस्टोरेंट"
+        },
+        {
+          "id": "opt3",
+          "text": "आवासों और पेशेवर सेवाओं का अचल सम्पत्ति स्वामित्व"
+        },
+        {
+          "id": "opt4",
+          "text": "वित्तीय सेवाएँ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्तमान कीमतों के आधार पर वर्ष2020-21 में सकल राज्य मूल्य वर्धित(GSVA)के अन्तर्गत राजस्थान के व्यापार होटल तथा रेस्टोरेंट की हिस्सेदारी सबसे अधिक है।GVAउद्योग के सभी राजस्व का योग है, बिक्री से लेकर सब्सिडी तक, जो कि निर्माता के लिए लाभ तथा आय है।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 2021",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1751,
+        "exam": "RPSC Sub Inspector 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में सेम की समस्या द्वारा कृषि को क्षति पहुँची है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "श्री गंगानगर और हनुमानगढ़ सेम की पारिस्थितिक समस्या से प्रभावित है। सेम एक ऐसी समस्या है जहाँ भूमि का भूजल ऊपर आता है और भूमि दलदल या दलदली बन जाती है। इससे मृदा की ऊर्वरता कमजोर होती है और बाद में भूमि बंजर हो जाती है। 832",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1753,
+        "exam": "RPSC Asst. Statistical Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सी बोगनवेलिया की किस्म है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रमा"
+        },
+        {
+          "id": "opt2",
+          "text": "गोल्डन बॉल"
+        },
+        {
+          "id": "opt3",
+          "text": "बेस्ट ऑफ आल"
+        },
+        {
+          "id": "opt4",
+          "text": "शुभ्रा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शुभ्रा बोगनवेलिया की किस्म है। बोगनवेलिया फूलो के पौधों की एक प्रजाति है। यह एक उष्णकटिबंधीय, सहाबहार लकड़ी की बेल है जिसमें कांटेदार शाखाओं वाले तने होते हैं।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1756,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पौधों में सूखा, ऊष्मता, पाला एवं व्याधियों के प्रति प्रतिरोधकता बढ़ाने वाला पोषक तत्त्व कौन सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नत्रजन"
+        },
+        {
+          "id": "opt2",
+          "text": "फॉस्फोरस"
+        },
+        {
+          "id": "opt3",
+          "text": "पोटाश"
+        },
+        {
+          "id": "opt4",
+          "text": "वैâल्शियम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पौधो में पोटैशियम एक महत्त्वपूर्ण पोषक तत्त्व है जो सूखा, अत्यधिक गर्मी, ठंड और अन्य प्रतिकूल पर्यावरणीय परिस्थितियो के प्रति सहनशील बनाता है।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1757,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सिंगल सुपर फॉस्फेट’ में गंधक की कितनी मात्रा होती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१६ प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "१८ प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "१२ प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "३२ प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सिंगल सुपर फॉस्फेट उर्वरक में सामान्यत: गंधक की मात्रा11%से12% तक होती है। इसके अलावा इसमें फॉस्फेट, वैâल्शियम एवं अन्य सूक्ष्म पोषक तत्त्व भी मौजूद होते हैं।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1758,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एजोटोबेक्टर प्लाक जांच मृदा की अम्लता के लिए किया जाता है तथा इसे किन तत्वों की कमी की जांच के लिए भी किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नत्रजन एवं पोटाश"
+        },
+        {
+          "id": "opt2",
+          "text": "फॉस्फोरस तथा पोटाश"
+        },
+        {
+          "id": "opt3",
+          "text": "नत्रजन तथा फॉस्फोरस"
+        },
+        {
+          "id": "opt4",
+          "text": "पोटाश तथा तांबा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "एजोटोबेक्टर प्लाक जांच मृदा में फॉस्फोरस तथा पोटाश जैसे तत्वों की कमी का पता लगाने हेतु किया जाता है।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1759,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पीले रंग के टैग का उपयोग........ के पैक के लिए किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रजनक बीज"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रामणीकृत बीज"
+        },
+        {
+          "id": "opt3",
+          "text": "आधार बीज"
+        },
+        {
+          "id": "opt4",
+          "text": "न्यूक्लियस बीज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "प्रजनक बीजो के पैक पर पीले रंग का टैग, प्रमाणित बीजो पर नीला टैग, फाउंडेशन बीजो पर सफेद रंग का टैग व पंजीकृत बीजो पर बैंगनी रंग का टैग लगा होता है।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1760,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक पूर्ण मूल (जड़) परजीवी खरपतवार है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमर बेटा"
+        },
+        {
+          "id": "opt2",
+          "text": "ओरोबैंकी"
+        },
+        {
+          "id": "opt3",
+          "text": "लोरेन्थस"
+        },
+        {
+          "id": "opt4",
+          "text": "स्ट्राइगा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ओरोबैंकी पूर्ण मूल परजीवी खरपतवार है। खरपतवार वे अवांछित पौधे है जो वांछित पौधे के साथ पोषक तत्वो के लिए प्रतिस्पर्धा करते है। स्ट्राइगा एक आंशिक जड़ परजीवी है। लोरेन्थस पेड़ों की शाखाओं पर उगने वाले परजीवी पौधे हैं। 838",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1761,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पौधों में ताँबे की कमी से कौन सी बीमारी होती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डाई बैक रोग"
+        },
+        {
+          "id": "opt2",
+          "text": "खैरा रोग"
+        },
+        {
+          "id": "opt3",
+          "text": "व्हिपटेल रोग"
+        },
+        {
+          "id": "opt4",
+          "text": "अगेती अगमारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पौधों मे ताँबे की कमी से डाई बैक रोग बीमारी होती है। नीबू वर्गीय फलों में (कॉपर) ताँबा की कमी को एक्सेंथेमा, रेड रस्ट, डाई बैक, मल्टीपल बड या पीच लीफ कंडीसन के नाम से जाना जाता है। कॉपर की कमी से होने वाली शारीरिक बीमारी को अक्सर फोलियोसेलोसिस कहा जाता है। ‘डाई बैक’ शब्द का तात्पर्य टहनियों और शाखाओं की नोक से नीचे की ओर क्रमिक मृत्यु से है।",
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1762,
+        "exam": "RPSC Asst. Agriculture Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वानिकी की वह शाखा जिसमें विभिन्न आयामों को ज्ञात किया जाता है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एग्रोबायोलॉजी"
+        },
+        {
+          "id": "opt2",
+          "text": "एग्रोस्टोलॉजी"
+        },
+        {
+          "id": "opt3",
+          "text": "सिल्वीकल्चर"
+        },
+        {
+          "id": "opt4",
+          "text": "फॉरेस्ट मेन्सुरेशन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वानिकी की वह शाखा जिसमें विभिन्न आयामों को ज्ञात किया जाता है, फारेस्ट मेन्सुरेशन के नाम से जाना जाता है। इसमें एकल पेड़ों, जंगलों, स्टैंडों के आयाम, आकार, उम्र व वृद्धि को मापा जाता है। फारेस्ट मेन्सुरेशन (वन क्षेत्र-मिटटी) की शुरुआत यूरोप में हुई थी, जो वन प्रबन्धन का एक हिस्सा है।",
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1763,
+        "exam": "RPSC Asst. Agriculture Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वर्ष २०१५-१६ में कुल जोतों का क्षेत्रफल था–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "७६.५५ लाख हेक्टेयर"
+        },
+        {
+          "id": "opt2",
+          "text": "२०८.७३ लाख हेक्टेयर"
+        },
+        {
+          "id": "opt3",
+          "text": "२११.४ लाख हेक्टेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "६८.८ लाख हेक्टेयर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष2015-16में राजस्थान में कुल जोतों का क्षेत्रफल 208.73लाख हेक्टेयर थां राज्य में भूमि जोतो की कुल संख्या 76.55लाख थी। राजस्थान में परिचालन भूमि जोत का औसत आकार2.73हेक्टेयर था।",
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1764,
+        "exam": "RPSC Asst. Testing Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सन्तरों के उत्पादन के कारण किस जिले को राजस्थान का ‘छोटा नागपुर’ कहा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "बूँदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का झालवाड़ जिला संतरों की बागवानी के लिए प्रसिद्ध है। संतरों की उच्च गुणवत्ता वाली प्रजाति के उत्पादन के कारण झालवाड़ को ‘राजस्थान के छोटा नागपुर’ के रूप में भी जाना जाता है। झालवाड़ मालवा पठार के छोर पर स्थित दक्षिण- पूर्वी राजस्थान का शहर है, जिसे झालरापाटन या बृजनगर भी कहा जाता है। 845",
+      "reference": "📌 PYQ — RPSC Sub Inspector 2021",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1768,
+        "exam": "RPSC Sub Inspector 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पूसा सिंधु गंगा’ किस फसल की एक किस्म है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "धान"
+        },
+        {
+          "id": "opt3",
+          "text": "मसूर"
+        },
+        {
+          "id": "opt4",
+          "text": "चना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘पूसा सिंधु गंगा’ गेहूँ फसल की एक किस्म है। विभिन्न फसलें तथा उनकी किस्में – फसल किस्में चना – पूसा256, पूसा372, पूसा चमत्कार आदि मसूर – पूसा वैभव, पूसा शिवालिक, पूसा अगेती मसूर धान – पूसा667, पूसा सुगंध-3, पूसा834",
+      "reference": "📌 PYQ — RPSC Sub Inspector 2021",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1769,
+        "exam": "RPSC Sub Inspector 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं, एक को दावा(A)और दूसरे को कारण(R)के रूप में दर्शाया गया है। दावा(A): सही काम के लिए सही व्यक्ति का चयन सही वेतन पर चयन करने का सही दृष्टिकोण है। कारण(R): गलत चुना गया व्यक्ति एक दायित्व है। उपरोक्त संदर्भ में, निम्न में से कौन सा एक सही है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "'A' सही है लेकिन'R' गलत है।"
+        },
+        {
+          "id": "opt2",
+          "text": "दोनों'A' तथा'R' सही हैं तथा'R', 'A' की सही व्याख्या है।"
+        },
+        {
+          "id": "opt3",
+          "text": "'A' गलत है लेकिन'R' सही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "दोनों' A' तथा'R' सही हैं लेकिन'R', 'A' की सही व्याख्या नहीं है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "(A) सही काम के लिये सही व्यक्ति का चयन सही वेतन पर चयन करने का सही दृष्टिकोण है।(R) क्योंकि गलत चुना गया व्यक्ति एक दायित्व है। अत: दोनों(A)व(R)सही हैं तथाR, Aकी सही व्याख्या करता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1770,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कड़कनाथ एक किस्म है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साँड की"
+        },
+        {
+          "id": "opt2",
+          "text": "बकरे की"
+        },
+        {
+          "id": "opt3",
+          "text": "भैंसे की"
+        },
+        {
+          "id": "opt4",
+          "text": "मुर्गे की"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कड़कनाथ मुर्गे की एक प्रजाति है जो मध्य प्रदेश के झाबुआ एवं धार जिलों में पाया जाता है इसमें उच्च प्रोटीन एवं न्यून वसा पाई जाती है इसे भारत सरकार द्वाराGI (भौगोलिक संकेतक) टैग2018में प्रदान किया गया था इसका स्थानीय नाम कालीमासी है, जो कि इसका रंग काला होने के कारण पड़ा है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1771,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष २०२०-२१ में प्रचलित कीमतों पर राजस्थान के सकल राज्य मूल्य वर्धन (जी.एस.बी.ए.) में कृषि और उसके सहायक क्षेत्र का योगदान क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लगभग २५ प्रतिशत"
+        },
+        {
+          "id": "opt2",
+          "text": "लगभग ३० प्रतिशत"
+        },
+        {
+          "id": "opt3",
+          "text": "लगभग ३५ प्रतिशत"
+        },
+        {
+          "id": "opt4",
+          "text": "लगभग ४० प्रतिशत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष २०२०-२१ में कृषि एवं संबद्ध क्षेत्र का योगदान राजस्थान राज्य के सकल राज्य मूल्य वर्धन का लगभग ३०3 का योगदान था।",
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1772,
+        "exam": "RPSC Asst. Testing Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बेर एवं खजूर अनुसंधान केद्र स्थित है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में बेट एवं खजूर अनुसंधान संस्थान राजस्थान के बीका नेट में स्थित है।",
+      "reference": "📌 PYQ — RPSC Asst. Testing Officer 2021",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1773,
+        "exam": "RPSC Asst. Testing Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "’’राष्ट्रीय बीजीय मसाला अनुसंधान केन्द्र’’ राजस्थान में कहाँ पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रीय बीजीय मसाला अनुसंधान केन्द्र डूमरा, अजमेर, राजस्थान में स्थित है। इसकी स्थापना वर्ष2000 में भारतीय कृषि अनुसंधान परिषद द्वारा बीज मसालों पर अनुसंधान करने तथा उनकी उत्पादकता तथा गुणवत्ता में सुधार करने के लिए की गई थी।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1774,
+        "exam": "RPSC Sub Inspector 13/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का सर्वाधिक गन्ना उत्पादक राज्य है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्नाटक"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराष्ट्र"
+        },
+        {
+          "id": "opt4",
+          "text": "तमिलनाडु"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत का सर्वाधिक गन्ना उत्पादक राज्य उत्तर प्रदेश है जबकि द्वितीय एवं तृतीय स्थान क्रमश: महाराष्ट्र एवं कर्नाटक है।",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18784,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में गेहूँ की उच्च उपज देने वाली किस्मों का कार्यक्रम शुरू किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1980-81"
+        },
+        {
+          "id": "opt2",
+          "text": "1958-59"
+        },
+        {
+          "id": "opt3",
+          "text": "1971-72"
+        },
+        {
+          "id": "opt4",
+          "text": "1965-66"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत में गेहूँ की उच्च उपज देने वाली किस्मों का कार्यक्रम १९६५-६६ से शुरू किया गया। यह हरित क्रान्ति का एक महत्वपूर्ण हिस्सा था, जो भारत के कृषि इतिहास में एक प्रमुख मोड़ था।",
+      "reference": "📌 PYQ — RPSC Garden Superintendent 2021",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18785,
+        "exam": "RPSC Garden Superintendent 2021",
+        "year": 2021
+      }
+    }
+  ]
+}

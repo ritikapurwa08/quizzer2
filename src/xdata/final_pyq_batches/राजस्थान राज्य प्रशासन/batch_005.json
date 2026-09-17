@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान राज्य प्रशासन",
+  "batchIndex": 5,
+  "batchName": "राजस्थान राज्य प्रशासन भाग 5",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-राज्य-प्रशासन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "जब कोई राज्यपाल राज्य के राज्यपाल पद धारण के साथ-साथ यदि अन्य राज्य के राज्यपाल के रूप में भी जब पद धारण करता है, तो उसके उपलब्धियाँ एवं भत्ते के विषय में निर्णय कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उस राज्य की विधानसभा जिसका वह मूलतः राज्यपाल नियुक्त हुआ है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रपति आदेश द्वारा अवधारित करेगा।"
+        },
+        {
+          "id": "opt3",
+          "text": "नये राज्य की विधानसभा जिस राज्य के राज्यपाल का अतिरिक्त भार दिया जाता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "दोनों राज्यों की सिफारिश पर उच्चतम न्यायालय तय करेगा।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जहां एक ही व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किया जाता है वहाॅ उस राज्यपाल को संदेय उपलब्धियाॅ और भत्ते उन राज्यों के बीच ऐसे अनुपात में आवण्टित किये जायेंगे जो राष्ट्रपति आदेश द्वारा अवधारित करे।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14584,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संविधान का कौन-सा अनुच्छेद यह प्रावधान करता है कि राज्यपाल राज्य विधानसभा द्वारा पारित विधेयक को राष्ट्रपति के विचारार्थ सुरक्षित रख सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 202"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 200"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 198"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 199"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान का अनुच्छेद 200 यह प्रावधान करता है कि राज्यपाल राज्य विधानसभा द्वारा पारित विधेयक को अपनी सहमति दे सकता है, उसे रोक सकता है, या राष्ट्रपति के विचारार्थ सुरक्षित रख सकता है।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14585,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राज्यपाल की अध्यादेश प्रख्यापित करने की शक्ति का सर्वाधिक प्रयोग किस वर्ष में किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1960"
+        },
+        {
+          "id": "opt3",
+          "text": "1980"
+        },
+        {
+          "id": "opt4",
+          "text": "1988"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1949 में, राजस्थान के गठन के समय, कई प्रशासनिक और कानूनी व्यवस्थाएं स्थापित करने के लिए राज्यपाल ने अध्यादेशों का व्यापक उपयोग किया।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14586,
+        "exam": "Junior Instructor (STE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राज्यपाल की क्षमादान शक्ति” का उल्लेख भारत के संविधान के किस अनुच्छेद में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 160"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 161"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 162"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 163"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान का अनुच्छेद 161 राज्यपाल को क्षमादान, सजा में कमी, या सजा स्थगित करने की शक्ति प्रदान करता है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14587,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल के संबंध में निम्नलिखित में से कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य पुनर्गठन आयोग की अनुशंसा के आधार पर राजप्रमुख के पद को समाप्त कर दिया गया।"
+        },
+        {
+          "id": "opt2",
+          "text": "7वें संविधान संशोधन से राजप्रमुख का पद समाप्त किया गया।"
+        },
+        {
+          "id": "opt3",
+          "text": "गुरुमुख निहाल सिंह को 1 नवम्बर, 1956 को राजस्थान का पहला राज्यप्राल नियुक्त किया गया।"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिभाऊ किसनराव बागडे ने 31 जुलाई, 2024 को राजस्थान के राज्यपाल का पदभार संभाला।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था। गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14588,
+        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम राज्यपाल के रूप में किसे और कब नियुक्त किया गया था - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुरुमुख निहाल सिंह, 25 अक्टूबर 1956"
+        },
+        {
+          "id": "opt2",
+          "text": "सम्पूर्णानन्द, 2 अक्टूबर 1965"
+        },
+        {
+          "id": "opt3",
+          "text": "जोगेंद्र सिंह, 12 अक्टूबर 1965"
+        },
+        {
+          "id": "opt4",
+          "text": "सरदार हुकुम सिंह, 5 नवंबर 1956"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के प्रथम राज्यपाल गुरुमुख निहाल सिंह थे, जिन्हें 25 अक्टूबर 1956 को नियुक्त किया गया था। सरदार गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14589,
+        "exam": "Junior Instructor (RAT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान के किस अनुच्छेद के द्वारा प्रत्येक राज्य में राज्यपाल की नियुक्ति का प्रावधान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 155"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 157"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 159"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 153"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारतीय संविधान के अनुच्छेद 153 के तहत प्रत्येक राज्य के लिये एक राज्यपाल का प्रावधान किया गया। एक व्यक्ति को दो या दो से अधिक राज्यों के राज्यपाल के रूप में नियुक्त किया जा सकता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14590,
+        "exam": "CET 2024 (12th Level) 24 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल के नामों को कालानुक्रमिक क्रम में व्यवस्थित करें: a. श्री रघुकुल तिलकb. श्री सुखदेव प्रसादc. डॉ. सम्पूर्णानंदd. डॉ. एम. चेन्ना रेड्डीनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "c, b, d, a"
+        },
+        {
+          "id": "opt2",
+          "text": "c, a, b, d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt4",
+          "text": "b, c, a, d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डॉ. सम्पूर्णानंद → श्री रघुकुल तिलक → श्री सुखदेव प्रसाद → डॉ. एम. चेन्ना रेड्डी",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14591,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम राज्यपाल कौन थे? (निम्न में से सबसे उपयुक्त विकल्प चुनें: )",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री गुरुमुख निहाल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री हेम बहादुर सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री कलराज मिश्र"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा सवाई मान सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14592,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्यपाल की कार्यकारी शक्तियाँ और कार्य हैं -a. राज्य सरकार की सभी कार्यकारी कार्यवाहियाँ औपचारिक रूप से उनके नाम पर की जाती है।b. वह राज्य के प्रशासन से सम्बन्धित कोई भी जानकारी तथा क़ानून के प्रस्ताव के बारे में मंत्रियों से जानकारी नहीं मांग सकते हैं।c. वह राज्य सरकार के कामकाज के अधिक सुविधाजनक संचालन के लिए नियम बना सकते हैं।d. वह मुख्यमंत्री और अन्य मंत्रियों को नियुक्त करते हैं।नीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल a, b और d"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल b, c और d"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल a, c और d"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल b, a और c"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्यपाल राज्य के प्रशासनिक कार्यों के लिए जिम्मेदार होते हैं।वह मुख्यमंत्री और मंत्रियों को नियुक्त करते हैं।वह राज्य सरकार के कामकाज के लिए नियम बना सकते हैं।राज्यपाल मंत्रियों से जानकारी मांग सकते हैं, इसलिए विकल्प ‘b’ गलत है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14593,
+        "exam": "CET 2024 (12th Level) 23 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे राजस्थान के राज्यपाल द्वारा नियुक्त नहीं किया जाता है -निम्नलिखित में से सबसे उपयुक्त विकल्प चुनें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य विश्वविद्यालय के कुलपति"
+        },
+        {
+          "id": "opt2",
+          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य निर्वाचन आयुक्त"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य लोक सेवा आयोग के अध्यक्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति राष्ट्रपति द्वारा की जाती है, जबकि अन्य उल्लेखित पदों पर नियुक्ति राज्यपाल करते हैं।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14594,
+        "exam": "CET 2024 (12th Level) 22 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य के राज्यपाल को कौन हटा सकता है? (निम्नलिखित में से सबसे उपयुक्त विकल्प चुनें: )",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रधानमंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "भारत के मुख्य न्यायाधीश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संविधान के अनुच्छेद 155 और 156 के तहत राज्यपाल की नियुक्ति राष्ट्रपति द्वारा की जाती है तथा वह “राष्ट्रपति के प्रसादपर्यंत” पद धारण करता है। यदि पाँच वर्ष का कार्यकाल पूरा होने से पूर्व इस प्रसादपर्यंतता को वापस ले लिया जाता है, तो राज्यपाल को पद छोड़ना पड़ता है। राष्ट्रपति चूँकि प्रधानमंत्री और मंत्रिपरिषद की सहायता और सलाह से काम करता है, इसलिये राज्यपाल को केंद्र सरकार द्वारा नियुक्त किया और हटाया जा सकता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-I",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14595,
+        "exam": "CET 2024 (12th Level) 22 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से प्रायः कौन राज्य विश्वविद्यालयों के कुलाधिपति के रूप में कार्य करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रधानमंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "शिक्षा मंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारतीय राज्यों में राज्यपाल राज्य विश्वविद्यालयों के कुलाधिपति (Chancellor) के रूप में कार्य करते हैं और विश्वविद्यालय की प्रमुख औपचारिक जिम्मेदारियां निभाते हैं।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14596,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान राज्य की प्रथम महिला राज्यपाल (गवर्नर) कौन थीं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रभा राव"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्गरेट अल्वा"
+        },
+        {
+          "id": "opt3",
+          "text": "कमला बेनीवाल"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिभा पाटिल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रतिभा पाटिल राजस्थान की पहली महिला राज्यपाल थीं। उन्होंने 2004 से 2007 तक इस पद पर कार्य किया। बाद में वह भारत की पहली महिला राष्ट्रपति बनीं।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14597,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संविधान के अनुच्छेद 213 के अधीन, अध्यादेश प्रख्यापित करना राज्यपाल का/की है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अधिकार"
+        },
+        {
+          "id": "opt2",
+          "text": "दायित्व"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रकार्य"
+        },
+        {
+          "id": "opt4",
+          "text": "शक्ति"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अनुच्छेद 213 के अंतर्गत राज्यपाल के पास “शक्ति” होती है कि वे विधानसभा के सत्र में न होने पर तत्कालिक कानून आवश्यक होने पर अध्यादेश जारी कर सकते हैं। यह एक अस्थायी कानून होता है जिसे विधानसभा द्वारा पारित करना आवश्यक होता है।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14598,
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवर्नर द्वारा कौन चुना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य अटॉर्नी जनरल"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक सेवा आयोग के सदस्य"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य चुनाव आयुक्त"
+        },
+        {
+          "id": "opt4",
+          "text": "इन सभी को"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गवर्नर राज्य में विभिन्न संवैधानिक पदों पर नियुक्तियाँ करते हैं, जिनमें राज्य अटॉर्नी जनरल, लोक सेवा आयोग के सदस्य, और राज्य चुनाव आयुक्त शामिल होते हैं। इन पदों पर नियुक्तियाँ संविधान के प्रावधानों के अनुसार की जाती हैं।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14599,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गवर्नर को किस क्षेत्र में विवेकाधिकार नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रपति के लिए आरक्षित बिल रखना"
+        },
+        {
+          "id": "opt2",
+          "text": "अदालत में मुख्यमंत्री के किसी भी आदेश के खिलाफ अपील"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य विधान परिषद और अन्य मामलों से जानकारी प्राप्त करना"
+        },
+        {
+          "id": "opt4",
+          "text": "किसी भी राज्य के लिए अतिरिक्त जिम्मेदारियां रखना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गवर्नर को राष्ट्रपति के लिए आरक्षित बिल रखने में विवेकाधिकार प्राप्त होता है। ​वहीं, अदालत में मुख्यमंत्री के किसी भी आदेश के खिलाफ अपील करने का अधिकार गवर्नर के विवेकाधिकार में नहीं आता है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14600,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित मुख्यमंत्रियों में से किस ने प्रथम बार राजस्थान विधानसभा में बजट प्रस्तुत किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोहनलाल सुखाड़िया"
+        },
+        {
+          "id": "opt2",
+          "text": "बरकतुल्लाह खान"
+        },
+        {
+          "id": "opt3",
+          "text": "जयनारायण व्यास"
+        },
+        {
+          "id": "opt4",
+          "text": "टीकाराम पालीवाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयनारायण व्यास ने 1952 में राजस्थान विधानसभा में पहला बजट प्रस्तुत किया। वे राजस्थान के पहले निर्वाचित मुख्यमंत्री थे।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14601,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा युग्म सुमेलित नहीं है -मुख्यमंत्री - मुख्य सचिव",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिवचरण माथुर - टी.वी. रमणन"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिदेव जोशी - नरेश चन्द्रा"
+        },
+        {
+          "id": "opt3",
+          "text": "टीकाराम पालीवाल - एस.डब्ल्यू. शिवेश्वरकर"
+        },
+        {
+          "id": "opt4",
+          "text": "जगन्नाथ पहाड़िया - एम.एम.के. वली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शिव चरण माथुर एक भारतीय राजनीतिज्ञ थे। भारतीय राष्ट्रीय कांग्रेस के एक नेता, वे 1981 से 1985 तक और फिर 1988 से 1989 तक राजस्थान के मुख्यमंत्री रहे।श्री टी. वी. रमन 31-01-1992 से 30-08-1993 तक मुख्य सचिव रहे।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14602,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य आपदा प्रबंधन प्राधिकरण का नेतृत्व कौन करता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्य के मुख्य सचिव"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्य आपदा प्रबंधन प्राधिकरण (State Disaster Management Authority - SDMA) का नेतृत्व राज्य के मुख्यमंत्री करते हैं।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14603,
+        "exam": "Prahari 2024 Shift 2",
+        "year": 2024
+      }
+    }
+  ]
+}

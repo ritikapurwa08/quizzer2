@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के त्योहार",
+  "batchIndex": 3,
+  "batchName": "राजस्थान के त्योहार भाग 3",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-त्योहार",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘हरियाली अमावस्या’ का पर्व किस माह में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण अमावस्या"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद अमावस्या"
+        },
+        {
+          "id": "opt3",
+          "text": "आषाढ़ अमावस्या"
+        },
+        {
+          "id": "opt4",
+          "text": "फाल्गुन अमावस्या"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11416,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से विवाह के लिए राजस्थान का सबसे महत्वपूर्ण अबूझ सावा कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शरद पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "आखा तीज"
+        },
+        {
+          "id": "opt3",
+          "text": "निर्जला एकादशी"
+        },
+        {
+          "id": "opt4",
+          "text": "चौथ करवा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11417,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कजली तीज का त्योहार कहाँ मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11418,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ईसर - ईसरी की पूजा किस त्यौहार पर की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीज"
+        },
+        {
+          "id": "opt2",
+          "text": "गणगौर"
+        },
+        {
+          "id": "opt3",
+          "text": "रक्षाबंधन"
+        },
+        {
+          "id": "opt4",
+          "text": "नागपंचमी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चैत्र कृष्ण प्रतिपदा से चैत्र शुक्ल तृतीया तक गणगौर त्यौहार मनाया जाता है। चैत्र शुक्ल तृतीया को मुख्य त्यौहार मनाया जाता है। इस दिन कुँवारी लड़कियाँ मनपसन्द वर पाने की कामना से एवं विवाहित महिलाएँ अपने पति की दीर्घायु की कामना से शिवजी (इसर जी) और पार्वती जी (गौरी) की पूजा करती हैं। किवंदती है यह त्यौहार पार्वती के गौने से अपने पिता के घर वापस लौट आने परसखियों द्वारा स्वागत गान के रूप में हुआ। यह सर्वाधिक लोकगीतों वाला त्यौहार है|",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11419,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्वेताम्बर जैनों द्वारा पर्युषण पर्व कब और कितने दिन मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रावण, आठ दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद, आठ दिन"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रावण, सात दिन"
+        },
+        {
+          "id": "opt4",
+          "text": "भाद्रपद, सात दिन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Ag. Che.) 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11420,
+        "exam": "A.A.R.O. (GK and Ag. Che.) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बछ बारस’ का त्यौहार मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्रपद महीने के शुक्ल पक्ष की द्वादशी को"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक महीने के शुक्ल पक्ष की द्वादशी को"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद महीने के कृष्ण पक्ष की द्वादशी को"
+        },
+        {
+          "id": "opt4",
+          "text": "अश्विन महीने के शुक्ल पक्ष की द्वादशी को"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भाद्रपद महीने के कृष्ण पक्ष की द्वादशी को ‘बछ बारस’ का त्यौहार मनाया जाता है। बछबारस त्यौहार पुत्र की लम्बी उम्र के लिए मनाया जाता है। इस दिन महिलायें गाय व बछड़े की पूजा करती है।अंकुरित मूंग चना व मक्की बाजरे की रोटी खाती है तथा चाक़ू का प्रयोग नहीं करती है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11421,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौनसा स्थान, होली पर्व के अवसर पर ‘इलोजी की सवारी’ के लिए जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के लोक देवता इलोजी को मारवाड़ में छेड़छाड़ के लोक देवता कहा जाता है अविवाहितों को दुल्हन व नवदम्पतियों को सुखद जीवन, बाँज स्त्रियों को संतान का वरदान देते है। बाड़मेर में होली पर इलोजी की सवारी निकालने का रिवाज है।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11422,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोवर्धन पूजा/अन्नकूट महोत्सव मनाया जाता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्तिक शुक्ल पक्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र कृष्ण पक्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "अश्विन शुक्ल पक्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "भादों कृष्ण पक्ष"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11423,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, ............. का कजली तीज का त्यौहार एवं मेला प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुष्कर"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11424,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बड़ी तीज का त्यौहार मनाया जाता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाद्र कृष्ण तृतीया"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रावण कृष्ण तृतीया"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद शुक्ल तृतीया"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र कृष्ण तृतीया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भाद्रपद माह के कृष्ण पक्ष की तृतीया को आयोजित होने वाली कजली तीज, सातुडी तीज, बड़ी तीज और भादवा की तीज भी कही जाती है। यह महिलाओं के सौलह श्रृंगार और पति-पत्नि के प्रेम का प्रतीक है। हाडौती में कजली तीज विख्यात है। बूंदी जिले में नगर परिषद द्वारा दो दिवसीय तीज सवारी निकाली जाती है तथा मेला लगता है। जिसमे विभिन्न कलाकारों द्वारा रंगारंग कार्यक्रम की प्रस्तुति की जाती है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11425,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर का त्यौहार किस तिथि को मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पोष शुक्ल तृतीया"
+        },
+        {
+          "id": "opt2",
+          "text": "माघ शुक्ल तृतीया"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र शुक्ल तृतीया"
+        },
+        {
+          "id": "opt4",
+          "text": "फाल्गुन शुक्ल तृतीया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11426,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पंजाब शाह का उर्स कहाँ मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पंजाब शाह का उर्स अजमेर में मनाया जाता है।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11427,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गणगौर किस महीने में मनाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रवण"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11428,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पर्युषण पर्व किस समुदाय से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंधी"
+        },
+        {
+          "id": "opt2",
+          "text": "सिख"
+        },
+        {
+          "id": "opt3",
+          "text": "जैन"
+        },
+        {
+          "id": "opt4",
+          "text": "रामस्नेही"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11429,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आखा तीज किस माह में आती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वैशाख"
+        },
+        {
+          "id": "opt2",
+          "text": "कार्तिक"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "फाल्गुन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अक्षय तृतीया को आखा तीज के नाम से भी जाना जाता है जो हर साल वैशाख मास की शुक्ल पक्ष की तृतीया तिथि को आती है।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11430,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बूंदी की कजली तीज का त्यौहार मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फाल्गुन पूर्णिमा को"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद कृष्ण III को"
+        },
+        {
+          "id": "opt3",
+          "text": "भाद्रपद शुक्ल III को"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र शुक्ल III को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11431,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस हिन्दू माह में गणगौर त्यौहार मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चैत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "वैशाख"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रावण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11432,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान कि किस जिले में पत्थरमार होली प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाड़मेर शहर में पत्थरों की लड़ाई के साथ 80-90 साल पहले होली का रंगीन त्योहार मनाया जाता था।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11433,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान का वह प्रसिद्ध पर्व है, जिसमें विवाहित और अविवाहित स्त्रियाँ, शिव और पार्वती की मूर्तियों की पूजा करती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वट पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "तीज पर्व"
+        },
+        {
+          "id": "opt3",
+          "text": "हरियाली अमावस्या"
+        },
+        {
+          "id": "opt4",
+          "text": "गणगौर उत्सव"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11434,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "______ राजस्थान के भीलों के बीच मनाया जाने वाला मुख्य त्योहार है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गणगौर उत्सव"
+        },
+        {
+          "id": "opt2",
+          "text": "उर्स मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "बनेश्वर मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "नवरात्रि"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11435,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    }
+  ]
+}

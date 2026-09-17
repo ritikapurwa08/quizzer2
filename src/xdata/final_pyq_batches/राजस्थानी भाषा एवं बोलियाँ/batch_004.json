@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 4,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 4",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा ‘केसरी सिंह बारहठ’ द्वारा नहीं लिखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुर्गादास चरित्र"
+        },
+        {
+          "id": "opt2",
+          "text": "रूठी रानी और प्रेम"
+        },
+        {
+          "id": "opt3",
+          "text": "राज सिंह चरित्र"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रताप चरित्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘रूठी रानी और प्रेम’ केसरी सिंह बारहठ द्वारा नहीं लिखा गया है। अन्य तीन कृतियाँ उनके द्वारा लिखी गई थीं। ‘रूठी रानी’ एक ऐतिहासिक उपन्यास है, जिसे मुंशी प्रेमचंद ने लिखा है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6425,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“हमीर मदमर्दन” किसकी रचना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयणक"
+        },
+        {
+          "id": "opt2",
+          "text": "विद्यापति"
+        },
+        {
+          "id": "opt3",
+          "text": "जयसिंह सूरी"
+        },
+        {
+          "id": "opt4",
+          "text": "मंडन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“हमीर मदमर्दन” की रचना प्रसिद्ध जैन विद्वान जयसिंह सूरी द्वारा की गई थी।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6426,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डॉ. ग्रीयर्सन ने राजस्थानी बोलियों को कितने मुख्य समूहों में विभाजित किया है -नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "3"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जाॅर्ज अब्राहम ग्रियर्सन ने राजस्थानी बोलियों को 5 समूह में विभाजित किया।1. पश्चिमी राजस्थानी – मारवाड़ी, मेवाड़ी, ढ़टकी, बीकानेरी, बांगड़ी, शेखावाटी, देवड़ावाटी, गोड़वाड़ी, खैराड़ी।2. दक्षिणी राजस्थानी – निमाड़ी3. उत्तरी पूर्वी राजस्थानी – मेवाती, अहीरवाटी4. मध्य पूर्वी राजस्थानी – ढूँढाड़ी, तोरावाटी, राजावाटी, अजमेरी, जैपुरी, हाड़ौती, किशनगढ़ी, काठेड़ी, नागरचोल।5. दक्षिणी पूर्वी राजस्थानी – रांगड़ी व सौंधवाड़ी।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift II)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6448,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कोटा, बूंदी, झालावाड़ और बाराँ क्षेत्र में कौन-सी बोली बोली जाती है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुने:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मलावी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "ढूंढ़ाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ोती"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हाड़ोती बोली राजस्थान के दक्षिण-पूर्वी क्षेत्र, विशेष रूप से कोटा, बूंदी, झालावाड़, और बाराँ में बोली जाती है। यह क्षेत्र हाड़ौती क्षेत्र के नाम से जाना जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6449,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के चूरू क्षेत्र में कोन-सी बोली बोली जाती है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ोती"
+        },
+        {
+          "id": "opt2",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मलावी"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावाटी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चूरू राजस्थान के शेखावाटी क्षेत्र में आता है, और यहाँ शेखावाटी बोली बोली जाती है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6450,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोटा, बूंदी, झालावाड़ और बाराँ क्षेत्र में बोली जाने वाली बोली का नाम बताइए।निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढूंढाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt4",
+          "text": "भीली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "हाड़ौती राजस्थान के दक्षिण-पूर्वी क्षेत्र (कोटा, बूंदी, झालावाड़, बाराँ) में बोली जाने वाली प्रमुख बोली है। हाड़ा राजपूतों के राज्य से संबंधित क्षेत्र को हाड़ौती बोली का क्षेत्र माना जाता है। इसे ढूंढाड़ी की उपबोली माना जाता है। हाड़ौती पर प्राचीनकाल में हूणों एवं गुर्जरों के सम्पर्क का प्रभाव भी देखा जा सकता है। इस बोली में वर्तमानकाल के लिए ‘छै’ एवं भूतकाल के लिए ‘छी’, ‘छो’ का प्रयोग किया जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6452,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चुरू, झुंझुनू, हनुमानगढ़, सूरतगढ़ और गंगानगर के क्षेत्रों में कौन-सी बोली बोली जाती है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt2",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावाटी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ये क्षेत्र राजस्थान के शेखावाटी क्षेत्र में आते हैं, जहाँ शेखावाटी बोली (राजस्थानी का एक रूप) मुख्य रूप से बोली जाती है। मेवाती, वागड़ी और मालवी राजस्थान के अन्य भागों या पड़ोसी क्षेत्रों में बोली जाने वाली बोलियाँ हैं।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6453,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा में मुड़िया लिपि को और किस नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाजनी"
+        },
+        {
+          "id": "opt2",
+          "text": "देवनागरी"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्रज"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "महाजनी एक ब्राह्मी-आधारित लेखन प्रणाली है जिसका उपयोग आमतौर पर 20वीं सदी के मध्य तक पूरे उत्तरी भारत में किया जाता था। यह एक विशेष व्यावसायिक स्क्रिए्ट है जिसका उपयोग खाते और वित्तीय रिकॉर्ड लिखने के लिए किया जाता है। इसका उपयोग कई भाषाओं जैसे हिंदी, मारवाड़ी और पंजाबी को रिकॉर्ड करने के लिए किया गया था। महाजनी की लिपियों में समानता है - पंजाब की लांडा (टेललेस), कैथी (बिहार-लिपि), और देवनागरी।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6455,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राने जगपत रा मरस्या’ किसके मृत्यु का शोक प्रकट करने के लिए लिखा गया -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव इन्द्र सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा जगत सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "संत नामदेव जी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मरस्य से तात्पर्य ‘शोक काव्य’ से है। किसी व्यक्ति विशेष की मृत्यु के पश्चात् शोक व्यक्त करने के लिए ‘मरस्या’ काव्यों की रचना की जाती थी। इसमें उस व्यक्ति के चारित्रिक गुणों के अतिरिक्त अन्य महान कार्यो का वर्णन भी किया जाता था। ‘राणे जगपत रा मरास्या’ महाराजा जगत सिंह की मृत्यु पर लिखा गया शोकगीत है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift I)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6464,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘समता दर्शन और व्यवहार’ पुस्तक किसने लिखी: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आचार्य नानेश मुनि"
+        },
+        {
+          "id": "opt2",
+          "text": "आचार्य प्रमोड़ मुनि"
+        },
+        {
+          "id": "opt3",
+          "text": "आचार्य विशेष मुनि"
+        },
+        {
+          "id": "opt4",
+          "text": "आचार्य तुलसी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘समता दर्शन और व्यवहार’ पुस्तक आचार्य नानेश मुनि ने लिखी थी।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift II)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6466,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संतों का जीवन वृतांत जो कि राजस्थानी भाषा में काव्य रूप में उपलब्ध है, कहा जाता है: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मरास्या"
+        },
+        {
+          "id": "opt2",
+          "text": "वात"
+        },
+        {
+          "id": "opt3",
+          "text": "पारची"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रकास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "“पारची” संतों के जीवन चरित्र को काव्य रूप में प्रस्तुत करने की राजस्थानी शैली है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6467,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बातां री फुलवारी’ (राजस्थान लोक कथाओं का संग्रह) किसके द्वारा लिखी गई है: निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt2",
+          "text": "लक्ष्मी कुमारी"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री लाल"
+        },
+        {
+          "id": "opt4",
+          "text": "मालचन्द तिवारी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "“बातां री फुलवारी” राजस्थानी लोक कथाओं का संग्रह है, जिसे प्रसिद्ध लेखक विजयदान देथा ने लिखा।विजयदान देथा की कृतियाँ – बातां री फुलवारी (राजस्थान की लोक कथाओं का संग्रह), दुविधा (आधारित फिल्म -पहेली), उलझन, अलेखु, हिटलर, सपन प्रिया",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6468,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रियासतों के शासकों ने अपनी वीरता, विजयों आदि के वृत्तांतों को इतिहासकारों द्वारा लिखे गए अभिलेखों में संजोकर रखा है। इन वृत्तांतों को क्या कहा ज़ाता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दाववेत"
+        },
+        {
+          "id": "opt2",
+          "text": "वात"
+        },
+        {
+          "id": "opt3",
+          "text": "ख्यात"
+        },
+        {
+          "id": "opt4",
+          "text": "वचनिका"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "संस्कृत भाषा के शब्द ख्यात का शाब्दिक अर्थ ख्यातियुक्त, प्रख्यात, विख्यात, कीर्ति आदि है। अर्थात ख्याति प्राप्त प्रसिद्ध एवं लोक विश्रुत पुरुषों, राजाओं आदि के सम्मान, सफलताओं और जीवन घटनाओं का संग्रह ख्यात कहलाता है। ख्यातों से तत्कालीन समाज की राजनैतिक, आर्थिक, धार्मिक, नैतिक एवं सांस्कृतिक प्रवर्तियों का दिग्दर्शन होता है। ख्यातों का नामकरण वंश. राज्य या लेखक के नाम से किया जाता था, जैसे राठौड़ां री ख्यात, मारवाड़ राज्य री ख्यात, नैणसी की ख्यात आदि।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6469,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘अचलदास खीची री वचनिका’ नामक ग्रन्थ का रचयिता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दयालदास"
+        },
+        {
+          "id": "opt2",
+          "text": "कविया करणीदान"
+        },
+        {
+          "id": "opt3",
+          "text": "शिवदास गाडण"
+        },
+        {
+          "id": "opt4",
+          "text": "बांकीदास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘अचलदास खीची री वचनिका’ ग्रन्थ के लेखक शिवदास गाड़ण है। इस ग्रन्थ की रचना डिंगल भाषा में की गई थी।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6473,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए: रचनारचनाकारA. पाबूजी के छन्दi. आसिया मोदजीB. पाबूजी के गीतii. रामनाथC. पाबूजी के सोरठेiii. मेहा चारणD. पाबू प्रकाशiv. बांकीदासA B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii iii iv i"
+        },
+        {
+          "id": "opt2",
+          "text": "iv ii iii i"
+        },
+        {
+          "id": "opt3",
+          "text": "iii ii iv i"
+        },
+        {
+          "id": "opt4",
+          "text": "iii iv ii i"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रचनारचनाकारपाबूजी के छन्दमेहा चारणपाबूजी के गीतबांकीदासपाबूजी के सोरठेरामनाथपाबू प्रकाशआसिया मोदजी",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6474,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणमल्ल छंद के रचयिता थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीधर व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "बीठू सूजा"
+        },
+        {
+          "id": "opt3",
+          "text": "माधोदास"
+        },
+        {
+          "id": "opt4",
+          "text": "केशवदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रणमल छंद की रचना श्रीधर व्यास ने की थी। रणमल छंद वीर काव्य हैं।",
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6477,
+        "exam": "Statistical Office Exam - 2023 (GK)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए एवं नीचे दिये गये कूट से सही उत्तर का चयन कीजिए: संगीतज्ञ रचना A. चाँद खाँ I. रसमंजरी B. पुण्डरीक विट्ठ्ल II. रागचन्द्रिका C. देवर्षि भट्ट III. संगीतसार D. द्वारकानाथ IV. स्वर-सागर कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I IV II III"
+        },
+        {
+          "id": "opt2",
+          "text": "IV I III II"
+        },
+        {
+          "id": "opt3",
+          "text": "III II IV I"
+        },
+        {
+          "id": "opt4",
+          "text": "II III I IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – संगीतज्ञ रचना चाँद खान – स्वर सागर पुण्डरिक विट्ठल – रस मंजरी देर्विष भट्ट – संगीतसार द्वारकानाथ – रागचंद्रिका 118",
+      "reference": "📌 PYQ — RPSC Statistical Officer 2023 RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6489,
+        "exam": "RPSC Statistical Officer 2023 RPSC Agriculture Officer 2020",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘ढ़टकी’, ‘थाली’ एवं ’खैराड़ी’ उपबोलियाँ राजस्थान की किस बोली से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "ढूँढाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ढ़टकी, थाली एवं खैराड़ी उपबोलियाँ मारवाड़ी बोली से संबंधित हैं। मारवाड़ी राजस्थान के पश्चिमी भाग में सर्वाधिक बोली जाने वाली भाषा है। इसका प्राचीन नाम मरुभाषा है।",
+      "reference": "📌 PYQ — RPSC Excavation officer (Arch. & Muse.) 2023 RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6490,
+        "exam": "RPSC Excavation officer (Arch. & Muse.) 2023 RPSC Agriculture Officer 2020",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अहीरवाटी बोली मुख्य रूप से राजस्थान के ____ जिले में बोली जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुन्झुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — CET 2022 (12th Level)05 February 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6457,
+        "exam": "CET 2022 (12th Level)05 February 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वागड़ी बोली राजस्थान के ____ क्षेत्र में बोली जाती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिण - पश्चिमी"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर - पश्चिमी"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तर - पूर्वी"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण - पूर्वी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वागड़ी डूंगरपुर और बांसवाड़ा में बोली जाती है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6458,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    }
+  ]
+}

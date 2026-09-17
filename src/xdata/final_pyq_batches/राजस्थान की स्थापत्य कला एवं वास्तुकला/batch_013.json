@@ -1,0 +1,666 @@
+{
+  "masterTopic": "राजस्थान की स्थापत्य कला एवं वास्तुकला",
+  "batchIndex": 13,
+  "batchName": "राजस्थान की स्थापत्य कला एवं वास्तुकला भाग 13",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-स्थापत्य-कला-एवं-वास्तुकला",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘अभेड़ा महल’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोटा के निकट स्थित अभेड़ा महल 18वीं शताब्दी का स्थापत्य शिल्प है जो पहले राजा-महाराजाओं का पिकनिक स्पॉट था।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17392,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नाना साहब का झालरा एवं इंब्राहीम का झालरा नामक जलाशय अवस्थित हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गागरोण (झालावाड़) में"
+        },
+        {
+          "id": "opt2",
+          "text": "तारागढ़ (अजमेर) में"
+        },
+        {
+          "id": "opt3",
+          "text": "बयाना दुर्ग (भरतपुर) में"
+        },
+        {
+          "id": "opt4",
+          "text": "जयगढ़ (जयपुर) में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तारागढ़ (अजमेर) के किले में स्थित नाना साहब का झालरा एक पानी का तालाब है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17393,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा/से मन्दिर आमेर में स्थित है/हैं -(अ) जगत शिरोमणि मन्दिर(ब) अम्बिकेश्वर महादेव मन्दिर(स) रक्तदंतिका माता मन्दिरकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(अ) (ब) और (स)"
+        },
+        {
+          "id": "opt2",
+          "text": "(अ) और (ब)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (ब)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (अ)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जगत शिरोमणि मन्दिर: लगभग 425 साल पुराना जगत शिरोमणि मंदिर आमेर, जयपुर में स्थित है। मीरा बाई और भगवान कृष्ण को समर्पित इस मंदिर को ‘मीरा बाई मंदिर’ भी कहा जाता है।अम्बिकेश्वर महादेव मन्दिर: यह भी आमेर में स्थित एक प्राचीन शिव मंदिर है।रक्तदंतिका माता मन्दिर: यह मंदिर आमेर में नहीं, बल्कि सथूर, बूंदी से संबंधित है। रक्तदंतिका देवी मां पार्वती का ही एक स्वरूप है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17394,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुष्कर में आनासागर झील और वराह मंदिर का निर्माण किसने करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज तृतीय"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अजमेर के पास पुष्कर में वराह मंदिर राजा अर्णोराज द्वारा बनाया गया था।",
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17395,
+        "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जहाँगीर और सर टॉमस रो की सन् 1616 में प्रथम व्यापारिक मुलाकात राजस्थान के किस किले में हुई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अकबर का किला (अजमेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "जयगढ़ (आमेर)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बादशाह जहांगीर तीन साल तक अजमेर में रहे. इस बीच सन 1616 में इंग्लैंड के राजा जेम्स प्रथम के निर्देशों के तहत सर थॉमस रो ने अकबर का किला (अजमेर) किले में मुगल बादशाह जहांगीर से मुलाकात की।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17396,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जोधपुर के ‘जसवंत थड़ा’ का निर्माता कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा बख्त सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा सरदार सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा उम्मेद सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा विजय सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जसवंत थड़ा का निर्माण जोधपुर राज्य के महाराजा सरदार सिंह ने 1899 में अपने पिता महाराजा जसवंत सिंह द्वितीय की याद में करवाया।",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17397,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“किलकिला” तोप का संबंध निम्न में से किस दुर्ग से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आम्बेर दुर्ग (जयपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "मेहरानगढ़ (जोधपुर)"
+        },
+        {
+          "id": "opt3",
+          "text": "जूनागढ़ (बीकानेर)"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़ दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "किलकिला तोप राजा अजीतसिंह ने बनवाई थी जब वे अहमदाबाद के सूबेदार थे।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17398,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस किले में पहियों पर खड़ी एशिया की सबसे बड़ी तोप है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अचलगढ़ दुर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "नाहरगढ़ दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "जयगढ़ दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "तारागढ़ दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मिर्जाराजा जयसिंह ने आमेर के जयगढ़ दुर्ग का निर्माण करवाया। यह दुर्ग तोपें बनाने का कारखाना था। यहाँ एशिया की सबसे विशाल तोप जयबाण स्थित है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Horticulture) 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17399,
+        "exam": "A.R.O. (GK and Horticulture) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से मन्दिर गुर्जर प्रतिहार शैली के हैं -(i) चित्तौड़ के किले में स्थित समाधीश्वर मन्दिर(ii) गोठ मांगलोद का दधिमति माता का मन्दिर(iii) किराडू का सोमेश्वर मन्दिर(iv) जगत का अम्बिका माता का मन्दिरकूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(ii), (iii) एवं (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii) एवं (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i), (ii), (iii) एवं (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii) एवं (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "समाधीश्वर मंदिर के रचनाकाल, नाम और इसके निर्माणकर्त्ता व इसमें अधिष्ठाता देव प्रतिमा आदि के सम्बन्ध में विद्वानों में अनेक मतभेद हैं, परन्तु प्राचीन अभिलेखों से यह ज्ञात होता है कि 1428 ई. में इस मंदिर का तीर्णोद्धार महाराणा मोकल ने कराया। गुर्जर प्रतिहार शैली का अंतिम व सबसे भव्य मंदिर किराडू का सोमेश्वर (लगभग 1016 ई.) है। वह भारत के सबसे अच्छे मंदिरों में से एक है। जगत का अम्बिका मंदिर लगभग 961 ई. है। दधिमति माता के मंदिर का निर्माण विक्रम संवत 665 (608 ई.) के लगभग माना जाता है, जिसके अनुसार इस मंदिर के निर्माण के लिए दाधीच ब्राह्मणों द्वारा दान किया गया था।",
+      "reference": "📌 PYQ — Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17400,
+        "exam": "Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोलवी कन्दरा (बौद्ध कन्दराएँ) और चांद खेड़ी (जैन धार्मिक स्थल) किस जिले में स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य के झालावाड़ जिले में, शहर मुख्यालय से लगभग 90 किलोमीटर दूर कोलवी गांव में लगभग 2 हजार साल पुरानी बौद्ध गुफाएं स्थित हैं।चाँद खेड़ी झालावाड़ ज़िले में स्थित एक छोटा गाँव है। यहाँ ऋषभदेव का प्राचीन मंदिर है, जो जैन धर्म के प्रथम तीर्थंकर थे।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17401,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा दुर्ग कोशवर्द्धन दुर्ग के नाम से भी जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर का बाला दूर्ग"
+        },
+        {
+          "id": "opt2",
+          "text": "शेरगढ़ दुर्ग"
+        },
+        {
+          "id": "opt3",
+          "text": "तवनगढ़ दुर्ग"
+        },
+        {
+          "id": "opt4",
+          "text": "सिवाना दुर्ग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17403,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मण्डन द्वारा निम्नलिखित किन पुस्तकों की रचना की गई थी -(i) राजवल्लभ(ii) रूपावतार(iii) देवमूर्ति प्रकरण(iv) वास्तुसार",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iii) एवं (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (iii) एवं (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(ii) एवं (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii) एवं (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17405,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस वर्ष जयपुर वेधशाला, “जंतर-मंतर” को यूनेस्को द्वारा विश्व धरोहर स्थल के रूप में मान्यता दी गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2015"
+        },
+        {
+          "id": "opt2",
+          "text": "2020"
+        },
+        {
+          "id": "opt3",
+          "text": "2005"
+        },
+        {
+          "id": "opt4",
+          "text": "2010"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "यूनेस्को ने 31 जुलाई, 2010 को जंतर—मंतर को विश्व विरासत की सूची में शामिल किया। विश्व विरासत में अपना नाम शामिल कराने वाला जंतर-मंतर राजस्थान का पहला और भारत की 23वीं सांस्कृतिक धरोहर है। जयपुर में जंतर मंतर, 18वीं शताब्दी की शुरुआत में बना एक खगोलीय प्रेक्षण स्थल है। इसमें लगभग 20 मुख्य स्थिर उपकरणों का एक सेट शामिल है।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17406,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जोधपुर का मेहरानगढ़ दुर्ग किस पहाड़ी पर अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोनगिरी"
+        },
+        {
+          "id": "opt2",
+          "text": "चिड़िया टूक"
+        },
+        {
+          "id": "opt3",
+          "text": "गर्गाचारी"
+        },
+        {
+          "id": "opt4",
+          "text": "अरावली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नैणसी, बांकीदास, दयालदास के अनुसार अपने राज्य की शक्ति संगठित करने के लिए राव जोधा ने अपने वृहत् राज्य की नयी राजधानी जोधपुर (सूर्य नगरी व नीली नगरी) में 1459 ई. में स्थापित की। राजधानी को सुरक्षित रखने के लिए चिड़िया टूक पहाड़ी पर नया दुर्ग भी बनवाया गया जिसे मेहरानगढ़ कहा गया। लगभग 50 वर्ष के लम्बे शासन के अनुभव के बाद जोधा की मृत्यु 1489 इ. में हुई। डॉ. ओझा राव जोधा को ही जोधपुर का पहला प्रतापी राजा कहते हैं।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17408,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा सुमेलित नहीं है -पर्यटन केन्द्र - स्थिति",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लालगढ़ किला - जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "गागरोन किला - झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "कपिल सरोवर - कोलायत"
+        },
+        {
+          "id": "opt4",
+          "text": "दौलत बाग - अजमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17409,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बूँदी के तारागढ़ दुर्ग का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव देवा"
+        },
+        {
+          "id": "opt2",
+          "text": "राव समरसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राव बैरीसाल"
+        },
+        {
+          "id": "opt4",
+          "text": "राव बरसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17410,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूर्य और विष्णु के सम्मिलित भाव की प्रतिमा किस मंदिर में प्राप्त होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्य मंदिर, झालरापाटन"
+        },
+        {
+          "id": "opt2",
+          "text": "सोमेश्वर मंदिर, किराडू"
+        },
+        {
+          "id": "opt3",
+          "text": "जगदीश मंदिर, उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीनाथ मंदिर, नाथद्वारा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सूर्य मंदिर, झालरापाटन: इस मंदिर की वास्तुकला कोणार्क सूर्य मंदिर और खजुराहो के मंदिर से मिलती जुलती है। मंदिर की बनावट सूर्य के रथ की तरह है, जिसमें सात घोड़े जुते हुए हैं, उसी तरह इस मंदिर की आधारशिला भी सात घोड़ों की तरह प्रतीत होती है। मंदिर के गर्भ गृह में भगवान विष्णु की मूर्ति है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17411,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से सुमेलित युग्म है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नथमल की हवेली - जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "फलवर्द्धिका देवी मंदिर - माऊण्ट आबू"
+        },
+        {
+          "id": "opt3",
+          "text": "चन्द्र महल - जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "मालकोट दुर्ग - हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नथमल की हवेली जोधपुर में नहीं, बल्कि जैसलमेर में स्थित है।फलवर्द्धिका देवी मंदिर माउंट आबू में नहीं है, इसका सही स्थान फलोदी है।मालकोट दुर्ग हनुमानगढ़ में नहीं, बल्कि मेड़ता में स्थित है।चंद्र महल को चंद्रा निवास भी कहा जाता है जो जयपुर के सिटी पैलेस परिसर में स्थित है।",
+      "reference": "📌 PYQ — Protection Officer - 2022 (General Studies)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17412,
+        "exam": "Protection Officer - 2022 (General Studies)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विपरीत पिरामिड के आकार में बना धाभाई कुण्ड, जिसे जेल कुण्ड भी कहा जाता है, अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली में"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17413,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सही सुमेलित नहीं है -मंदिर - ज़िला",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धनोप माता - भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "चार चौमा - चूरू"
+        },
+        {
+          "id": "opt3",
+          "text": "काला गोरा भैरव - सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीजासन माता - बूंदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17414,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    }
+  ]
+}

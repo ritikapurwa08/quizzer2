@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान पंचायती राज एवं स्थानीय स्वशासन",
+  "batchIndex": 5,
+  "batchName": "राजस्थान पंचायती राज एवं स्थानीय स्वशासन भाग 5",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-पंचायती-राज-एवं-स्थानीय-स्वशासन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान नगरपालिका अधिनियम, 2009 की धारा 54 के अनुसार, कम से कम_______जनसंख्या वाली नगरपालिकाओं के प्रादेशिक क्षेत्रों में वार्ड समितियों का गठन किया जाएगा।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1लाख"
+        },
+        {
+          "id": "opt2",
+          "text": "3लाख"
+        },
+        {
+          "id": "opt3",
+          "text": "5लाख"
+        },
+        {
+          "id": "opt4",
+          "text": "10लाख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान नगरपालिका अधिनियम, 2009की धारा54 के अनुसार, कम से कम3 लाख जनसंख्या वाली नगरपालिकाओं के प्रादेशिक क्षेत्रों में वार्ड समितियों का गठन किया जाएगा।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17035,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नगरपालिका के कार्यकाल की मूल अवधि क्या है यदि इसे राजस्थान नगरपाकिा अधिनियम, 2009 के प्रावधान के तहत समय के पूर्व भंग न किया जाए?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4साल"
+        },
+        {
+          "id": "opt2",
+          "text": "5साल"
+        },
+        {
+          "id": "opt3",
+          "text": "6साल"
+        },
+        {
+          "id": "opt4",
+          "text": "10साल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "नगरपालिका के कार्यकाल की मूल अवधि5वर्ष है यदि इसे राजस्थान नगरपाकिा अधिनियम, 2009के प्रावधान के तहत समय के पूर्व भंग न किया जाए।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17036,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान नगरपालिका अधिनियम, 2009 की निम्नलिखित में से किस धारा के अंतर्गत ‘‘स्थावर नगरपालिका संपत्ति की सूची और नक्शा’’ के बारे में विवरण प्रदान किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धारा95"
+        },
+        {
+          "id": "opt2",
+          "text": "धारा96"
+        },
+        {
+          "id": "opt3",
+          "text": "धारा74"
+        },
+        {
+          "id": "opt4",
+          "text": "धारा69"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान नगरपालिका अधिनियम, 2009की निम्नलिखित में से धारा74के अंतर्गत ‘‘स्थावर नगरपालिका संपत्ति की सूची और नक्शा’’ के बारे में विवरण प्रदान किया गया।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17037,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान नगरपालिका अधिनियम, 2009 की धारा 5 के अनुसार, निम्नलिखित में से किस क्षेत्र में नगर निगम की स्थापना अवश्य की जानी चाहिए?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छोटे शहरी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "बड़े शहरी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "संक्रमणकालीन क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रत्येक क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान नगरपालिका अधिनियम, 2009की धारा5 के अनुसार, उपर्युक्त में से बड़े शहरी क्षेत्र में नगर निगम की स्थापना अवश्य की जानी चाहिए।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17038,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कुल कितनी जिला परिषद हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "33"
+        },
+        {
+          "id": "opt2",
+          "text": "112"
+        },
+        {
+          "id": "opt3",
+          "text": "332"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कुल33जिला परिषद हैं।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17039,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान ग्रामीण आजीविका विकास परिषद की अधिकार प्राप्त समिति का अध्यक्ष है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री, राजस्थान सरकार"
+        },
+        {
+          "id": "opt2",
+          "text": "मुख्य सचिव, राजस्थान सरकार"
+        },
+        {
+          "id": "opt3",
+          "text": "सचिव, सहकारिता विभाग, राजस्थान सरकार"
+        },
+        {
+          "id": "opt4",
+          "text": "मंत्री, ग्रामीण विकास विभाग, राजस्थान सरकार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त में से मुख्य सचिव, राजस्थान सरकार ग्रामीण आजीविका विकास परिषद की अधिकार प्राप्त समिति का अध्यक्ष है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17040,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पंचायती राज के संदर्भ में निम्नलिखित कथनों को ध्यानपूर्वक पढ़े- कथन(I)– जोधपुर, भरतपुर, जयपुर, सिरोही, उदयपुर और करौली रियासतों ने पंचायतों पर कानून बनाए। कथन(II)– बीकानेर राज्य का अपना ग्राम पंचायत अधिनियम बहुत पहले 1928 में था। कथन(III)– 1949 में राजस्थान पंचायत अधिनियम बनाया गया और पूरे राज्य में ग्राम पंचायतों की स्थापना की गई।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(I) और(II)सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "(II) और(III)सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "(I) और(III)सही हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "(I), (II) और(III)सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में पंचायती राज के संदर्भ में कथन(I) और (II)सही हैं- I. जोधपुर, भरतपुर, जयपुर, सिरोही, उदयपुर और करौली रियासतों ने पंचायतों पर कानून बनाए II. बीकानेर राज्य का अपना ग्राम पंचायत अधिनियम बहुत पहले 1928में था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17041,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 की किस धारा में मुख्य कार्यकारी अधिकारी की शक्तियों का उल्लेख हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "81"
+        },
+        {
+          "id": "opt2",
+          "text": "82"
+        },
+        {
+          "id": "opt3",
+          "text": "83"
+        },
+        {
+          "id": "opt4",
+          "text": "84"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान पंचायती राज अधिनियम1994की धारा83 में मुख्य कार्यकारी अधिकारी की शाक्तियों का उल्लेख हैं।",
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17042,
+        "exam": "RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान लोकसेवा आयोग से संबंधित निम्न कथनों पर विचार कीजिए– (i) राजस्थान लोकसेवा आयोग का सदस्य अपने पद ग्रहण की तारीख से छह वर्ष की अवधि तक या बासठ वर्ष की आयु प्राप्त कर लेने तक, इनमे से जो भी पहले हो अपना पद धारण करेगा। (ii) कोई व्यक्ति जो राजस्थान लोकसेवा आयोग के सदस्य के रूप में पद धारण करता है, अपनी पदावधि की समाप्ति पर, उस पद पर पुनर्नियुक्ति का पात्र नहीं होगा।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल(i) सही है"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल(ii) सही है"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) व (ii)दोनों सही है"
+        },
+        {
+          "id": "opt4",
+          "text": "न तो(i) और न ही(ii) सही है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान लोक सेवा आयोग के सदस्य के बारे में दिये गये दोनों कथन सहीं हैं- (I)राजस्थान लोक सेवा आयोग का सदस्य अपने पद ग्रहण की तारीख से6वर्ष या62वर्ष की आयु तक, जो भी पहले हो अपना पद धारण करेगा। (II)कोई व्यक्ति जो राजस्थान लोक सेवा आयोग के सदस्य के रूप में पद ग्रहण करता है उसकी पदावधि समाप्त होने पर उस पद पर पुनर्नियुक्ति का पात्र नहीं माना जाएगा। यह भी सही है। अत: सही उत्तरIवIIदोनों सही हैं।",
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17043,
+        "exam": "RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज(संशोधन)अधिनियम, 2021 के गजट नोटिफिकेशन के उपरांत ग्राम सेवक को जाना जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्राम विकास अधिकारी के रूप में"
+        },
+        {
+          "id": "opt2",
+          "text": "कृषि पर्यवेक्षक के रूप में"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्राम सचिव के रूप में"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्राम अधिकारी के रूप में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान पंचायती राज संशोधन अधिनिमय2021के गजट नोटिफिकेशन के तहत ग्राम सेवक का नाम बदलकर ग्राम विकास अधिकारी कर दिया गया है। इस संशोधन का उद्देश्य ग्राम सेवक के कार्य और दायित्व को अधिक व्यापक एवं प्रगतिशील बनाना था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17044,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 की किस धारा में मुख्य कार्यकारी अधिकारी की शक्तियों का उल्लेख हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "81"
+        },
+        {
+          "id": "opt2",
+          "text": "82"
+        },
+        {
+          "id": "opt3",
+          "text": "83"
+        },
+        {
+          "id": "opt4",
+          "text": "84"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान पंचायती राज अधिनियम की धारा82में मुख्य कार्यकारी अधिकारी की शक्तियों और दायित्वों का उल्लेख किया गया। मुख्य कार्यकारी अधिकारी जिला परिषद के प्रशासनिक प्रमुख होते हैं और निम्नलिखित कार्य करते हैं- 577 →(I)जिला परिषद के पैâसलों को लागू करना। →(II)पंचायत समितियों और ग्राम पंचायतों के काम-काज की निगरानी करना। →(III)राज्य सरकार के निर्देंशों का पालन सुनिश्चित करना।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-E (S.E.)2022",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17045,
+        "exam": "RPSC School Lect. Group-E (S.E.)2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पंचायती राज विभाग के अनुसार, राजस्थान के प्रत्येक जिले में औसतन कितनी ग्राम पंचायतें हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "340"
+        },
+        {
+          "id": "opt2",
+          "text": "341"
+        },
+        {
+          "id": "opt3",
+          "text": "342"
+        },
+        {
+          "id": "opt4",
+          "text": "343"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पंचायती राज विभाग के अनुसार राजस्थान के प्रत्येक जिले में औसतन341ग्राम पंचायतें है। अत: राजस्थान में कुल ग्राम पंचायतों की संख्या3848है। अन्य महत्वपूर्ण तथ्य: -राजस्थान में त्रिस्तरीय पंचायती राज व्यवस्था कार्य करती है- (I)ग्राम पंचायत(II)पंचायत समिति(III)जिला परिषद।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17046,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस वर्ष राजस्थान पंचायती राज अधिनियम में संशोधन नहीं हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1999"
+        },
+        {
+          "id": "opt2",
+          "text": "2000"
+        },
+        {
+          "id": "opt3",
+          "text": "2002"
+        },
+        {
+          "id": "opt4",
+          "text": "2004"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान पंचायती राज अधिनियम1994में कई बार संशोधन किए गये। लेकिन वर्ष2000में इस अधिनियम में कोई संशोधन नहीं हुआ।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17047,
+        "exam": "RPSC Sr. Teacher Gr-II S.E. (G-A) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान का कौन सा अनुच्छेद ग्रामसभा के बारे में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "243 A"
+        },
+        {
+          "id": "opt2",
+          "text": "243 F"
+        },
+        {
+          "id": "opt3",
+          "text": "243 C"
+        },
+        {
+          "id": "opt4",
+          "text": "243 D"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20752,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से भारत के संविधान का कौन सा अनुच्छेद नगरपालिकाओं को कर, शुल्क, पथ कर फीसें उदगृहीत, संगृहीत और विनियोजित करने के लिए प्राधिकृत करता है? 572 YCT",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद243W"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद243X"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद243Y"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद243Z"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त में से भारत के संविधान का अनुच्छेद243X अनुच्छेद नगरपालिकाओं को कर, शुल्क, पथ कर फीसें उदगृहीत, संगृहीत और विनियोजित करने के लिए प्राधिकृत करता है।",
+      "reference": "📌 PYQ — RPSC Protection Officer-2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20753,
+        "exam": "RPSC Protection Officer-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान प्रशासनिक सेवा अधिकारियों को पहली बार जिला कलेक्टर के रूप में पदस्थापना निम्नलिखित में से किस वर्ष की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2009"
+        },
+        {
+          "id": "opt2",
+          "text": "2013"
+        },
+        {
+          "id": "opt3",
+          "text": "2021"
+        },
+        {
+          "id": "opt4",
+          "text": "2018"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान प्रशासनिक सेवा के अधिकारियों को पहली बार 2009 में जिला कलेक्टर के रूप में नियुक्त किया गया था। 2009 में, राज्य सरकार ने उनमें से 13 को जिला कलेक्टर और विभागाध्यक्षों के रूप में तैनात किया था। भर्ती सामान्य अभ्यास से भिन्न थी क्योंकि वे नियुक्त राज्य में भारतीय प्रशासनिक सेवा (IAS) के अधिकारियों के लिए आरक्षित थीं।",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17048,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायत राज अधिनियम, 1994 के अध्याय 2 क में जिसके गठन का प्रावधान है, वह है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्राम पंचायत"
+        },
+        {
+          "id": "opt2",
+          "text": "पंचायत समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "जिला परिषद्"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्राम सभा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान पंचायत राज अधिनियम, 1994 का अध्याय 2A ग्राम सभा के गठन का प्रावधान करता है।",
+      "reference": "📌 PYQ — REET 2021 2nd Level (sst)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17052,
+        "exam": "REET 2021 2nd Level (sst)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस वर्ष जिला ग्रामीण विकास अभिकरण (डी.आर.डी.ए.) का विलय जिला परिषद् में किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2003"
+        },
+        {
+          "id": "opt2",
+          "text": "2008"
+        },
+        {
+          "id": "opt3",
+          "text": "2005"
+        },
+        {
+          "id": "opt4",
+          "text": "2001"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जिला ग्रामीण विकास एजेंसी (DRDA) को 2003 में राजस्थान में जिला - परिषद के साथ मिला दिया गया है। जिला ग्रामीण विकास एजेंसियों (DRDAs) को 2003 से सभी अधिकारियों और कर्मचारियों के साथ जिला परिषद स्तर पर विलय कर दिया गया है और सभी विकास कार्यक्रमों की निगरानी के लिए एक अलग ग्रामीण विकास प्रकोष्ठ बनाया गया है।",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17053,
+        "exam": "VDO Exam 1st Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2009 में राजस्थान के किस नगर में पंचायती राज की स्वर्ण जयन्ती का आयोजन किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "2009में राजस्थान के नागौर नगर में पंचायती राज की स्वर्ण जयन्ती का आयोजन राज्य सरकार द्वारा किया गया था।",
+      "reference": "📌 PYQ — RPSC Public Relation Officer 2021",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17054,
+        "exam": "RPSC Public Relation Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज(संशोधन)अधिनियम, 2019 द्वारा, राजस्थान पंचायती राज अधिनियम, 1994 की किस धारा के प्रावधानों में संशोधन किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धारा29"
+        },
+        {
+          "id": "opt2",
+          "text": "धारा19"
+        },
+        {
+          "id": "opt3",
+          "text": "धारा30"
+        },
+        {
+          "id": "opt4",
+          "text": "धारा25"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान पंचायती राज(संशोधन)अधिनियम, 2019 ने राजस्थान पंचाती राज अधिनियम, 1994की धारा19के खण्ड (आर)(एस)और(टी)में संशोधन किया।",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17055,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    }
+  ]
+}

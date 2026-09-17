@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का सामान्य ज्ञान",
+  "batchIndex": 2,
+  "batchName": "राजस्थान का सामान्य ज्ञान भाग 2",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-सामान्य-ज्ञान",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित करें: सूची-I (जिला)सूची-II (सीमा)(a) जालोर(i) उत्तर प्रदेश(b) श्री गंगानगर(ii) गुजरात(c) भरतपुर(iii) मध्य प्रदेश(d) बाँसवाड़ा(iv) पंजाबनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(ii), (b)-(iv), (c)-(iii), (d)-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जालोर → गुजरातश्री गंगानगर → पंजाबभरतपुर → उत्तर प्रदेशबाँसवाड़ा → मध्य प्रदेश",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13416,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा फूल राजस्थान का ‘राज्य पुष्प’ कहलाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रोहिडा"
+        },
+        {
+          "id": "opt2",
+          "text": "कनेर"
+        },
+        {
+          "id": "opt3",
+          "text": "कमल"
+        },
+        {
+          "id": "opt4",
+          "text": "रेगिस्तानी गुलाब"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रोहिडा के फुल को 21 अक्टूबर 1983 को राज्य पुष्प घोषित किया गया। इसे “मरूशोभा” या “रेगिस्थान का सागवान” भी कहते है। इसका वैज्ञानिक नाम- “टिको-मेला अंडुलेटा” है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13411,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर, चित्तौड़गढ़, राजसमंद और डूंगरपुर राजस्थान के निम्नलिखित में से किस क्षेत्र का हिस्सा है -निम्नलिखित विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रज"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर, चित्तौड़गढ़, राजसमंद और डूंगरपुर — ये सभी क्षेत्र मेवाड़ के अंतर्गत आते हैं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13412,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस शहर को, ‘घंटियों का शहर’ भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालरापाटन"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झालरापाटन (झालावाड़) को “घंटियों का शहर” कहा जाता है, क्योंकि यहाँ स्थित प्राचीन मंदिरों में विभिन्न आकार की घंटियाँ लगी हैं जिनकी ध्वनि पूरे नगर में गूँजती है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13413,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा क्षेत्र हरियाणा से अपनी सीमा साझा नहीं करता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के 8 जिलों (हनुमानगढ़, चूरू, झुंझुनू, सीकर, कोटपूतली बहरोड, खेरथाल तिजारा, अलवर, डीग) की सीमा हरियाणा के 7 जिलों(सिरसा, फतेहबाद, हिसार, भिवाणी, महेन्द्रगढ़, रेवाडी, मेवात) से लगती है। हरियाणा के साथ सर्वाधिक सीमा हनुमानगढ़ की लगती है। हरियाणा सीमा पर क्षेत्रफल में बड़ा जिला चुरू है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13417,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा स्थान अंतर्राष्ट्रीय सीमा के सबसे करीब है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फलोदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पोखरण"
+        },
+        {
+          "id": "opt3",
+          "text": "तनोट"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान की अंतर्राष्ट्रीय सीमा पाकिस्तान के साथ लगभग 1, 070 किमी लंबी है, जो मुख्य रूप से जैसलमेर, बाड़मेर, बीकानेर और गंगानगर जिलों से सटी हुई है। तनोट (जैसलमेर जिला) सीमा से सबसे निकट है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13418,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का, निम्नलिखित में से कौन-सा जिला पाकिस्तान के साथ सीमा साझा नहीं करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "फलोदी"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान-पाकिस्तान सीमा (लगभग 1070 किमी) चार जिलों से साझा होती है: श्रीगंगानगर, बीकानेर, जैसलमेर और बाड़मेर। फलोदी सीमा पर नहीं है। यह आंतरिक क्षेत्र में स्थित है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13420,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान अपनी सीमा निम्नलिखित में से किस राज्य/संघ राज्य-क्षेत्र के साथ साझा करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराष्ट्र"
+        },
+        {
+          "id": "opt2",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt3",
+          "text": "हिमाचल प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "पंजाब"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की सीमा लगती है: पंजाब, हरियाणा, उत्तर प्रदेश, मध्य प्रदेश, गुजरात",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13421,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्नलिखित में से कौन-सा क्षेत्र, अंतर्राष्ट्रीय सीमा पर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चूरू"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।अंतर्राष्ट्रीय सीमा पर स्थित जिलें - 4(बाड़मेर, जैसलमेर, बीकानेर व श्रीगंगानगर)",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13422,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का कौन-सा निम्नलिखित राज्य राजस्थान के साथ अपनी सीमा साझा नहीं करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पंजाब"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "हरियाणा"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराष्ट्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की सीमाएँ पंजाब, हरियाणा, उत्तर प्रदेश, मध्य प्रदेश, गुजरात और पाकिस्तान से लगती हैं। महाराष्ट्र इसकी सीमा से नहीं जुड़ा है। राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13423,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान और पाकिस्तान को विभाजित करने वाली सीमा रेखा का नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूरंड रेखा"
+        },
+        {
+          "id": "opt2",
+          "text": "मैकमोहन रेखा"
+        },
+        {
+          "id": "opt3",
+          "text": "पाक जलडमरूमध्य"
+        },
+        {
+          "id": "opt4",
+          "text": "रेडक्लिफ रेखा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रेडक्लिफ रेखा (Radcliffe Line) भारत और पाकिस्तान के बीच की अंतरराष्ट्रीय सीमा है, जो 1947 में खींची गई थी।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13424,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान और पाकिस्तान के बीच अंतर्राष्ट्रीय सीमा की कुल लंबाई लगभग है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1070 किमी"
+        },
+        {
+          "id": "opt2",
+          "text": "970 किमी"
+        },
+        {
+          "id": "opt3",
+          "text": "1270 किमी"
+        },
+        {
+          "id": "opt4",
+          "text": "1170 किमी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की कुल स्थलीय सीमा की लम्बाई 5920 किमी. है। इसमें से 1070 किमी. अन्तर्राष्ट्रीय सीमा है जो पाकिस्तान के साथ लगती है। और 4850 किमी. अन्तर्राज्यीय है जो भारत के पांच राज्यों - पंजाब, हरियाणा, उत्तर प्रदेश, मध्यप्रदेश, गुजरात के साथ लगती है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13425,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में क्षेत्रफल की दृष्टि से सबसे बड़ा ज़िला कौन सा है -निम्नलिखित विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जैसलमेर राजस्थान का क्षेत्रफल के हिसाब से सबसे बड़ा जिला है, जो थार रेगिस्तान का हिस्सा है।",
+      "reference": "📌 PYQ — Librarian Grade III 2024 (Paper 1)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13426,
+        "exam": "Librarian Grade III 2024 (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में नए जिलों के निर्माण से संबंधित, निम्नलिखित में से कौनसा समूह समयानुक्रम के अनुसार सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद, धौलपुर, करौली, प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली, प्रतापगढ़, राजसमंद, धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर, राजसमंद, करौली, प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली, राजसमंद, प्रतापगढ़, धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "27 वां जिला - धौलपुर15 अप्रैल, 1982, यह भरतपुर से अलग होकर नया जिला बना।28 वां जिला - बांरा 10 अप्रैल, 1991, यह कोटा से अलग होकर नया जिला बना।29 वां जिला - दौसा 10 अप्रैल, 1991, यह जयपुर से अलग होकर नया जिला बना।30 वां जिला - राजसंमद 10 अप्रैल, 1991, यह उदयपुर से अलग होकर नया जिला बना।31 वां जिला - हनुमानगढ़ 12 जुलाई, 1994, यह श्री गंगानगर से अलग होकर नया जिला बना।32 वां जिला - करौली 19 जुलाई, 1997, यह सवाई माधोपुर से अलग होकर नया जिला बना।33 वां जिला - प्रतापगढ़ 26 जनवरी, 2008, यह तीन जिलों से अलग होकर नया जिला बना।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13427,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्तर - दक्षिण विस्तार वाला जिला कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "झुंझुनु"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चित्तौड़गढ़ जिला उत्तर से दक्षिण की ओर सबसे अधिक फैला हुआ है। इसका भूगोल इस प्रकार है कि यह उत्तर-दक्षिण में अधिक लंबा है, जो इसे अन्य जिलों से अलग बनाता है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13428,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "क्षेत्रफल के हिसाब से राज्य का सबसे बड़ा जिला कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "क्षेत्रफल की दृष्टि से जैसलमेर राजस्थान का सबसे बड़ा जिला है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13429,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का राज्य पुष्प कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कमल"
+        },
+        {
+          "id": "opt2",
+          "text": "पलाश"
+        },
+        {
+          "id": "opt3",
+          "text": "रोहिड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "अमलतास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का राज्य पुष्प रोहिड़ा (Tecomella undulata) है। यह रेगिस्तानी क्षेत्रों में पाया जाने वाला एक सुंदर फूल है, जो राजस्थान की प्राकृतिक और सांस्कृतिक पहचान का प्रतीक है।",
+      "reference": "📌 PYQ — REET‐2024 LEVEL‐1 (Math&Env. Studies)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13430,
+        "exam": "REET‐2024 LEVEL‐1 (Math&Env. Studies)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस पेड़ को ‘थार का कल्पवृक्ष’ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खजूर"
+        },
+        {
+          "id": "opt2",
+          "text": "बबूल"
+        },
+        {
+          "id": "opt3",
+          "text": "नीम"
+        },
+        {
+          "id": "opt4",
+          "text": "खेजड़ी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खेजड़ी (प्रोसोपिस सिनेरिया) को राजस्थान का गौरव, थार का कल्पवृक्ष भी कहा जाता है। खेजड़ी पेड़ थार मरुस्थल में जीवनदायी माना जाता है क्योंकि यह पशुओं के लिए चारा, मनुष्यों के लिए ईंधन और मिट्टी की उर्वरता बनाए रखने में सहायक है।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13431,
+        "exam": "Prahari 2024 Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में ज़िला को कॉलम II में वन्यजीव शुभंकर से मिलान कीजिए।कॉलम I (ज़िला)कॉलम II (वन्यजीव शुभंकर)1. डूंगरपुरa. भट्टतीतर 2. बीकानेरb. जांघिल 3. टोंकc. सांभर 4. अलवर d. हंसनिम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-a, 2-b, 3-c, 4-d"
+        },
+        {
+          "id": "opt2",
+          "text": "1-b, 2-a, 3-d, 4-c"
+        },
+        {
+          "id": "opt3",
+          "text": "1-d, 2-c, 3-b, 4-a"
+        },
+        {
+          "id": "opt4",
+          "text": "1-c, 2-d, 3-b, 4-a"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "डूंगरपुर: जांघिलबीकानेर: भट्टतीतरटोंक: हंसअलवर: सांभर",
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13432,
+        "exam": "Junior Instructor (COPA) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान के मरुस्थल का “कल्प वृक्ष” कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सागवान"
+        },
+        {
+          "id": "opt2",
+          "text": "खेजड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "पलाश"
+        },
+        {
+          "id": "opt4",
+          "text": "खैर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खेजड़ी को राजस्थान के मरुस्थल का “कल्प वृक्ष” कहा जाता है क्योंकि यह सूखे में भी हरा रहता है और छाया, भोजन और चारा प्रदान करता है।",
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13433,
+        "exam": "Junior Instructor (COPA) Exam 2024",
+        "year": 2024
+      }
+    }
+  ]
+}

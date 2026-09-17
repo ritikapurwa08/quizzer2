@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का राजपूत काल",
+  "batchIndex": 16,
+  "batchName": "राजस्थान का राजपूत काल भाग 16",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-का-राजपूत-काल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "अर्णोराज के बारे में निम्न कथनों पर विचार कीजिए -1. अपने राजकाल के प्रारंभ में उसने एक गजनवी आक्रमण को खदेड़ दिया। 2. वह मालवा के नरवर्मन को पराजित करने में असफल रहा। 3. उसने चालुक्य नरेश जयसिंह सिद्धराज की पुत्री से विवाह किया। 4. वह अपने ही पुत्र के द्वारा मारा गया।अर्णोराज के बारे में उपर्युक्त में से कौन से कथन सत्य हैं -कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 एवं 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1 एवं 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2 एवं 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 3 एवं 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अजयराज के बाद अर्णोराज ने 1133 ई. के लगभग अजमेर का शासन संभाला। इसने महाराजाधिराज, परमेश्वर, परमभट्टारक की उपाधि धारण की। अर्णोराज ने तुर्क आक्रमणकारियों को खदेड़ा और मालवा के नरवर्मन को पराजित किया। अर्णोराज एवं चालुक्य जयसिंह सिद्धराज के मध्य वैमनस्य था। जयसिंह ने अपनी पुत्री कांचन देवी का विवाह अर्णोराज से करके मधुर संबंध बनाये। उसके पुत्र जग्गदेव ने उसकी हत्या कर दी। इस कारण इसे चौहानों का पितृहन्ता भी कहा जाता है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10274,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-B)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोटा राज्य का संस्थापक निम्न में से कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव मुकन्द सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "राव माधो सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "राव रतन"
+        },
+        {
+          "id": "opt4",
+          "text": "जालिम सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोटा प्रारंभ में बूँदी रियासत का ही एक भाग था। यहाँ हाड़ा चौहानों का शासन था। शाहजहाँ के समय 1631 ई. में बूँदी नरेश राव रतनसिंह के पुत्र माधोसिंह को कोटा का पृथक राज्य देकर उसे बूँदी से स्वतंत्र कर दिया।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10275,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गूवक’ किस वंश का शासक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चाहमान"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्छवाहा"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चाहमान वंश के गुवक प्रथम, ने हर्षनाथ मन्दिर (भगवान शंकर) का निर्माण कराया।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10276,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किन अभिलेखों में प्र्रतिहारों को गुर्जर कहा गया है -अ. नीलगुण्डब. देवलीस. राधनपुरद. कराड़कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ, द"
+        },
+        {
+          "id": "opt2",
+          "text": "अ, स, द"
+        },
+        {
+          "id": "opt3",
+          "text": "अ, ब, स"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब, स, द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नीलकुण्ड, राधनपुर, देवली तथा करडाह शिलालेख में प्रतिहारों को गुर्जर कहा गया है।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10278,
+        "exam": "Sr. Teacher GrII Comp. Exam 2016 Gk (G-A)",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चेम्बर आफ प्रिंसेज’ का प्रथम चांसलर कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराव भीम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गज सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "गंगा सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मॉन्टेग्यू चेम्सफॉर्ड सुधारों को सही रूप में लागू करने के लिए जॉर्ज पंचम ने अपने चाचा ड्यूक ऑफ कनोट को 1921 में भारत भेजा इसने दिल्ली के ‘दरबार आम’ में दरबार लगाया, यहाँ ‘चेम्बर आफ प्रिंसेज’ (नरेन्द्र मण्डल) की स्थापना की जिसका चांसलर गंगासिंह को बनाया गया।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10281,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘मोटा राजा’ के नाम से कौन प्रसिद्ध था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ का सूरसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ का उदयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ का जसवंतसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ का गजसिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राव चंद्रसेन की मृत्यु के बाद जोधपुर राज्य (1581-1583 ई.) तीन वर्ष तक खालसा रहा। तीन वर्ष बाद अकबर द्वारा उदयसिंह को मारवाड़ राज्य का अधिकार खिलअत और खिताब सहित 1583 ई. में दे दिया। इस प्रकार मोटाराजा उदयसिंह मारवाड़ का प्रथम शासक था जिसने मुगलों की अधीनता स्वीकार की और मुगल राज्य की कृपा प्राप्त की थी।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10282,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘रूठी रानी’ के रूप में कौन सी रानी प्रसिद्ध हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोड़मदे"
+        },
+        {
+          "id": "opt2",
+          "text": "उमादे"
+        },
+        {
+          "id": "opt3",
+          "text": "चांपादे"
+        },
+        {
+          "id": "opt4",
+          "text": "जैतलदे"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1536 ई. में राव मालदेव का विवाह जैसलमेर के लूणकरण की कन्या उम्मादे से हुआ। किसी कारणवश लूणकरण ने मालदेव को मारने का इरादा किया तो लूणकरण की रानी ने पुरोहित राघवदेव द्वारा यह सूचना मालदेव को भिजवा दी। संभवतः इसी कारण से मालदेव उम्मादे से अप्रसन्न हो गया और वह भी मालदेव से रूठ गई। तभी से वह ‘रूठी रानी’ कहलाई तथा उसे अजमेर के तारागढ़ में रखा गया।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10283,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गीगा देवी कौन थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परमार राजा धारावर्ष की रानी"
+        },
+        {
+          "id": "opt2",
+          "text": "रमार राजा धारावर्ष की पुत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "परमार पूरणमल की बहन"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा राज सिंह की रानी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "धारावर्ष, चंद्रावती के परमार राजवंश के सबसे उल्लेखनीय शासकों में से एक थे।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10284,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के इतिहास में ‘पट्टा रेख’ से क्या अभिप्राय है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आकलित राजस्व"
+        },
+        {
+          "id": "opt2",
+          "text": "सैन्य कर"
+        },
+        {
+          "id": "opt3",
+          "text": "आयात-निर्यात कर"
+        },
+        {
+          "id": "opt4",
+          "text": "बेगार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के इतिहास में पट्टा रेख का अभिप्राय आकलित राजस्व से है। यह मूलत: आकलित राजस्व का लेखा जोखा होता था। दरबार से दिए हुए पट्टे में जो अनुमानित आमदनी मुकर्रर की जाती थी उसे पट्टा रेख कहा जाता था।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10286,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में किस राजपूत द्वारा ‘नेह तरंग’ रचित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजा सावन्त सिंह (नागरीदास)"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा जसवन्त सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा राय सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राव बुद्धसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नेह तरंग के रचायिता राव बुद्ध सिंह थे। राव बुद्धसिंह बूंदी के राजा थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10288,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अर्णोराज के बारे में निम्लखित कथनों पर विचार कीजिए: I. अपने राजकाल के प्रारंभ में उसने एक गजनवी आक्रमण को खदेड़ दिया। II.वह मालवा के नरवर्मन को पराजित करने में असफल रहा। III. उसने चालुक्य नरेश जयसिंह सिद्धराज की पुत्री से विवाह किया IV. वह अपने ही पुत्र के द्वारा मारा गया। अर्णोराज के बारे में उपर्युक्त में से कौन से कथन सत्य हैं? कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I एवं IV"
+        },
+        {
+          "id": "opt2",
+          "text": "Iएवं III"
+        },
+        {
+          "id": "opt3",
+          "text": "I, II एवं III"
+        },
+        {
+          "id": "opt4",
+          "text": "I, III एवं IV"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अजसराज के बाद अर्णोराज ११३३ ई. में अजमेर का राजा बना। अर्णोराज ने तुर्क आक्रमणकारियों को खदेड़ा और मालवा के नरवर्मन को पराजित किया। अर्णोराज और चालुक्य राजा जयसिंह सिद्धराज के मध्य वैमनस्य था। जयसिंह ने अपनी पुत्री कांचनदेवी का विवाह अर्णोराज से करके मधुर संबंध बनाए। अर्णोराज के पुत्र जग्गदेव ने उसकी हत्या कर दी। इस कारण इसे चौहानों का पितृहंता भी कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10289,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर की विजय के उपरान्त अलाउद्दीन खिलजी ने इस दुर्ग को किसके अधिकार में सौंपा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उलुग खान"
+        },
+        {
+          "id": "opt2",
+          "text": "नुसरत खान"
+        },
+        {
+          "id": "opt3",
+          "text": "अ़कात खान"
+        },
+        {
+          "id": "opt4",
+          "text": "उमर खान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "१३०१ ई. में रणथम्भौर पर विजय के उपरांत अलाउद्दीन खिलजी ने इस दुर्ग को उलूग खां सौंपा था उलूग खां को रणथम्भौर दुर्ग का गर्वनर बनाया गया था। अलाउद्दीन की विजय के बाद अमीर खुसरो ने कहा था, ‘आज कुप्रâ (धर्म विरोधी) का गढ़, इस्लाम का घर हो गया।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II (G-2)2016",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10290,
+        "exam": "RPSC Sr. Teacher Gr.-II (G-2)2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नवीं शताब्दी ई. में निम्नलिखित में से किसके द्वारा चोल साम्राज्य की नींव डाली गयी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विजयालय"
+        },
+        {
+          "id": "opt2",
+          "text": "कृष्ण1"
+        },
+        {
+          "id": "opt3",
+          "text": "परांतक"
+        },
+        {
+          "id": "opt4",
+          "text": "राजराज चोल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नवीं शताब्दी ई. में विजयालय850ई. में गद्दी पर बैठा तथा इसने चोल साम्राज्य की स्थापना की। आरम्भ में चोल पल्लवों के सामंत थे, विजयालय ने पल्लव शासक को पराजित कर तंजौर पर अधिकार कर लिया तथा उरैयूर के स्थान पर तंजौर को अपनी राजधानी बनाया। तंजौर विजय के उपलक्ष्य में उसने नरकेसरी, की उपाधि धारण की।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2016",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20115,
+        "exam": "RPSC RAS/RTS Pre 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न किस राजपूत शासक द्वारा औरंगजेब के विरूद्ध विद्रोह किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मिर्जा राजा जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा कर्ण सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा राजसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराव अनिरूद्ध हाडा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजसिंह ने औरंगजेब का विरोध करना आरम्भ किया।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10299,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खातौली का युद्ध लड़ा गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाबर और महाराणा सांगा के बीच"
+        },
+        {
+          "id": "opt2",
+          "text": "इब्राहीम लोदी और महाराणा सांगा के बीच"
+        },
+        {
+          "id": "opt3",
+          "text": "महमूद लोदी और महाराणा सांगा के बीच"
+        },
+        {
+          "id": "opt4",
+          "text": "बाबर और मोदिनी राय के बीच"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "खातोली का युद्ध (1517 ई.): मेवाड़ के महाराणा सांगा एवं दिल्ली के सुल्तान इब्राहिम लोदी की महत्त्वाकांक्षाओं के फलस्वरूप दोनों के मध्य 1517 ई. में ‘खातोली’ (पीपल्दा तहसील, कोटा) में युद्ध हुआ। महाराणा सांगा ने इब्राहिम लोदी को पराजित किया।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10300,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजपूताना के एक राज्य का शासक, जिसने सलीमपुर (बंगाल) और मनिहारी (बिहार) में किलों का निर्माण किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराज मानसिंह 1"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा जसवंत सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मानसिंह ने अपने समय में राजमहल/अकबरनगर (बंगाल में) और मानपुर (बिहार में) के नगरों की स्थापना की। उन्होंने सलीमपुर (बंगाल), मनिहारी (बिहार), रामगढ़ (ढूंढार) में किले भी बनवाए।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10303,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुगलों और पेशवा के मध्य धौलपुर समझौते(1741 ई.) में किसने मध्यस्ता की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूरजमल ने"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जगत सिंह-2 ने"
+        },
+        {
+          "id": "opt4",
+          "text": "मल्हार राव होल्कर ने"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पेशवा बालाजी बाजीराव तथा सवाई जयसिंह की भेंट धौलपुर में हुई। 18 मई 1741 ईस्वी तक पेशवा धौलपुर में ही रहा तथा जयसिंह से समझौते की बातचीत की।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10304,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राव जोधा ने किस वर्ष मंडोर को विजित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1453"
+        },
+        {
+          "id": "opt2",
+          "text": "1438"
+        },
+        {
+          "id": "opt3",
+          "text": "1440"
+        },
+        {
+          "id": "opt4",
+          "text": "1458"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "शासन संभालते ही जोधा को मेवाड़ के आक्रमण का सामना करना पड़ा। राघव देव के भाई चूड़ा द्वारा उस पर आक्रमण किया गया। 1453 ई. में उसने मण्डौर पर धावा बोल दिया जिसमें उसकी विजय हुई। राव जोधा ने मेवाड़ से संधि (आवल-बावल की संधि) हेतु अपनी पुत्री श्रृंगार देवी का विवाह महाराणा कुंभा के पुत्र रायमल से कर दिया।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10309,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न शासकों में से कौनसा ‘वर्साय की शांति संधि’ का एक हस्ताक्षर कत्र्ता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा के महाराज उम्मेद सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर के माधोसिंह-2"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर के महाराजा गंगासिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर के महाराजा सर उम्मेदसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वर्साय की संधि प्रथम विश्व युद्ध के अंत में पेरिस शांति सम्मेलन द्वारा तैयार की गई प्राथमिक संधि थी। इस पर 28 जून, 1919 को मित्र राष्ट्रों और संबंधित शक्तियों तथा जर्मनी द्वारा वर्साय के महल के दर्पण कक्ष में हस्ताक्षर किए गए थे और यह 10 जनवरी, 1920 को प्रभावी हुई थी।",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10312,
+        "exam": "Asstt. Agriculture Officer(TSP) Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस राजपूत शासक को ‘राजपूताना का कर्ण’ कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा कुम्भा"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई प्रतापसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा जसवंत सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रायसिंह के समय में घोर त्रिकाल पड़ा, जिसमें हजारों व्यक्ति एवं पशु मारे गए। महाराजा ने व्यक्तियों के लिए जगह-जगह ‘सदाव्रत’ खोले एवं पशुओं के लिए चारे-पानी की व्यवस्था की। इसलिए मुंशी देवी प्रसाद ने इसे ‘राजपूताने का कर्ण’ की संज्ञा दी है।",
+      "reference": "📌 PYQ — Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10313,
+        "exam": "Sr Teacher Gr II Special Edu. Comp. Exam 2015 (G.K.)",
+        "year": 2015
+      }
+    }
+  ]
+}

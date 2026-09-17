@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+  "batchIndex": 3,
+  "batchName": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ भाग 3",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-हस्तशिल्प-एवं-हस्तकलाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में दांतों के बीच में सोने की कील लगाने की कला को क्या कहा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बोरला"
+        },
+        {
+          "id": "opt2",
+          "text": "दामना"
+        },
+        {
+          "id": "opt3",
+          "text": "बारी"
+        },
+        {
+          "id": "opt4",
+          "text": "चूंप"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में चूंप एक पारंपरिक कला है जिसमें सोने की कील दांतों के बीच में लगाई जाती है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18021,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बगल बंडी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साफे का एक प्रकार"
+        },
+        {
+          "id": "opt2",
+          "text": "पुरुषों का ऊपरी वस्त्र"
+        },
+        {
+          "id": "opt3",
+          "text": "महिलाओं का ऊपरी वस्त्र"
+        },
+        {
+          "id": "opt4",
+          "text": "विशेष प्रकार का आभूषण"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बगलबंदी या बाराबंडी या दौरा एक पुरुष ऊपरी वस्त्र है; यह एक विशिष्ट शर्ट है जो साइड से बंधी होती है। यह शैली में वास्कट के समान है। इसमें सामने की ओर एक चौड़ा भाग होता है जो दूसरी तरफ ओवरलैप होता है, यह एक डबल-ब्रेस्टेड कोट के समान होता है जिसमें परिधान को बांधने के लिए डोरियाँ लगी होती हैं।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18024,
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मांगीलाल मिस्त्री का संबंध राजस्थानी लोक कला के किस रूप से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पाणे"
+        },
+        {
+          "id": "opt3",
+          "text": "कावड़"
+        },
+        {
+          "id": "opt4",
+          "text": "फड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मांगीलाल मिस्त्री (1943-2023) प्रसिद्ध काष्ठशिल्पी थे, जो कावड़ बनाने के लिए जाने जाते थे।",
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18026,
+        "exam": "परिचालक सीधी भर्ती-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा स्थान, अजरख वस्त्र छपाई के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "सांगानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाड़मेर का अजरक प्रिंट प्रसिद्ध है। इस प्रिंट में लाल और नीले रंग का प्रयोग किया गया।",
+      "reference": "📌 PYQ — Librarian Grade III 2024 (Paper 1)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18027,
+        "exam": "Librarian Grade III 2024 (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फड़ कलाकार श्रीलाल जोशी का संबंध है: -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर से"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर से"
+        },
+        {
+          "id": "opt3",
+          "text": "चूरू से"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा से"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्रीलाल जोशी एक प्रसिद्ध फड़ चित्रकार और कलाकार थे, जिनका संबंध राजस्थान के भीलवाड़ा जिले से है। फड़ चित्रकला राजस्थान की एक पारंपरिक कला है, जिसमें लोक देवताओं (जैसे पाबूजी, देवनारायणजी) की कहानियों को चित्रों और गायन के माध्यम से प्रस्तुत किया जाता है।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18028,
+        "exam": "Prahari 2024 Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फड़ कलाकार श्रीलाल जोशी का संबंध है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "चूरू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "श्री लाल जोशी भीलवाड़ा, राजस्थान के एक विश्व प्रसिद्ध कलाकार हैं। वह फड कलाकारों के परिवार से ताल्लुक रखते हैं, जो कभी फड़ पेंटिंग की कला के एकमात्र कलाकार थे। कला की साधना करते हए इन्हें कई सम्मान व पुरस्कार प्राप्त हुए। कला का सर्वश्रेष्ठ नेशनल अवार्ड काफी देरी से यानी 1984 में मिला लेकिन नाम और यश हमेशा इनके साथी रहे। भारत सरकार ने सन् 2006 में इन्हें पद्मश्री अवार्ड से सम्मानित किया। सन् 2007 में इन्हें शिल्पगुरु की उपाधि प्रदान की गई।",
+      "reference": "📌 PYQ — Prahari 2024 Shift 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18029,
+        "exam": "Prahari 2024 Shift 1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कमल पुष्प के छापे से बनी ओढ़नी को किस नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पोमचा"
+        },
+        {
+          "id": "opt2",
+          "text": "पतंगा"
+        },
+        {
+          "id": "opt3",
+          "text": "लहरिया"
+        },
+        {
+          "id": "opt4",
+          "text": "चुनड़ी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कमल पुष्प के छापे वाली ओढ़नी को पोमचा कहा जाता है। पोमचा पद्म या कमल से संबद्ध है, अर्थात इसमें कमल के फूल बने होते हैं। राजस्थान में जयपुर के लहरिया और पोमचा प्रसिद्ध है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18030,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "थेवा कला का सम्बन्ध राजस्थान के किस स्थान से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "थेवा कला एक पारंपरिक कला है, जिसमें कांच पर सोने की नक्काशी की जाती है। यह राजस्थान के प्रतापगढ़ जिले से विशेष रूप से संबंधित है।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam 2024",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18031,
+        "exam": "Junior Instructor (SWT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस्ता अली रज़ा और उस्ताद हामिद रुकनुद्दीन को बीकानेर के कौन-से शासक मुगल दरबार से बीकानेर लाये थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा दलपतसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "राव कल्याणमल"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा सूरसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा रायसिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "महाराजा रायसिंह ने मुगल दरबार से ऊस्ता कला के कलाकारों, जैसे उस्ता अली रज़ा और उस्ताद हामिद रुकनुद्दीन, को बीकानेर लाया था।",
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18032,
+        "exam": "Junior Instructor (PLM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महेश सोनी, रामप्रसाद और बेनीराम सोनी राजस्थान के किस कला के प्रमुख कलाकार हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊस्ता कला"
+        },
+        {
+          "id": "opt2",
+          "text": "थेवा कला"
+        },
+        {
+          "id": "opt3",
+          "text": "मीनाकारी कला"
+        },
+        {
+          "id": "opt4",
+          "text": "मांडणा कला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "थेवा कला राजस्थान की एक प्रसिद्ध कांच पर सोने की नक्काशी की कला है, और महेश सोनी, रामप्रसाद, और बेनीराम सोनी इसके प्रमुख कलाकार हैं।",
+      "reference": "📌 PYQ — Junior Instructor (PLM) Exam 2024",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18033,
+        "exam": "Junior Instructor (PLM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर में मीनाकारी की कला महाराजा मानसिंह -प्रथम द्वारा कहाँ से लाई गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईरान"
+        },
+        {
+          "id": "opt2",
+          "text": "बलूचिस्तान"
+        },
+        {
+          "id": "opt3",
+          "text": "बंगाल"
+        },
+        {
+          "id": "opt4",
+          "text": "लाहौर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जयपुर मे मीनाकारी की कला महाराजा मानसिंह प्रथम (1589-1614 ई.) द्वारा लाहौर से लाइ गई थी। परम्परागत रूप से सोने पर मौनाकारी के लिए काले, नीले, गहरे, पीले, नारंगी और गुलाबी रंग का प्रयोग किया जाता है। लाल रंग बनाने मे जयपुर के मीनाकार कुशल है।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18034,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मोकड़ी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काँच की चूड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "लाख की चूड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "एक परिधान"
+        },
+        {
+          "id": "opt4",
+          "text": "मृद्भाण्ड"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मोकड़ी राजस्थान में पारंपरिक लाख की चूड़ियों को कहा जाता है, जो विशेष रूप से विवाहित महिलाओं द्वारा पहनी जाती हैं। जयपुर और जोधपुर इस कला के प्रसिद्ध केंद्र हैं, जबकि करौली जिले में लाख की चूड़ियों पर कांच की सजावट की जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18035,
+        "exam": "Junior Instructor (STE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कृपाल सिंह शेखावत को किस कला को देश-विदेश में पहचान दिलाने के लिए ‘पद्मश्री’ से सम्मानित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीनाकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "ऊस्ता कला"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्लू पॉटरी"
+        },
+        {
+          "id": "opt4",
+          "text": "थेवा कला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कृपाल सिंह शेखावत को जयपुर की ब्लू पॉटरी कला को पुनर्जनन और विश्व स्तर पर पहचान दिलाने के लिए 1974 में पद्मश्री से सम्मानित किया गया। 2002 में उन्हें भारत सरकार ने शिल्प गुरु की उपाधि से सम्मानित किया।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18036,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ ज़िले का बस्सी गांव किस हस्तशिल्प के लिए प्रसिद्ध है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फड"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडणा"
+        },
+        {
+          "id": "opt3",
+          "text": "थेवा"
+        },
+        {
+          "id": "opt4",
+          "text": "कावड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बस्सी गांव (चित्तौड़गढ़) कावड़ हस्तशिल्प के लिए प्रसिद्ध है, जो लकड़ी पर रंगीन चित्रकारी और धार्मिक कथाओं को दर्शाने वाली कला है।",
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18037,
+        "exam": "Junior Instructor (EM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़ की कावड़ कला से किस कलाकार का नाम जुड़ा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बक्साराम"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीलाल जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "मांगीलाल मिस्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "साहिबराम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मांगीलाल मिस्त्री प्रसिद्ध कावड़ कला के लिए जाने जाते हैं।",
+      "reference": "📌 PYQ — Junior Instructor (COPA) Exam 2024",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18038,
+        "exam": "Junior Instructor (COPA) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऊँट की खाल पर स्वर्ण मीनाकारी और मुनव्वती कला का कार्य ____ के नाम से जाना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मीनाकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "थेवा कला"
+        },
+        {
+          "id": "opt3",
+          "text": "उस्ता कला"
+        },
+        {
+          "id": "opt4",
+          "text": "लाख कला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ऊंट के चमड़े पर गोल्डन मीनाकारी कार्य को उस्ता कला के रूप में जाना जाता है। कला का विकास बीकानेर के पद्मश्री हिसामुद्दीन उस्ता ने किया था। अगस्त 1975 में उस्ता कैमल हाइड ट्रेनिंग सेंटर की स्थापना बीकानेर में की गई।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18039,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा स्थान स्याह बैगर (काला व लाल) छपाई के लिए विख्यात है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मथानिया (जोधपुर)"
+        },
+        {
+          "id": "opt2",
+          "text": "मांगरोल (बारां)"
+        },
+        {
+          "id": "opt3",
+          "text": "खंडेला (सीकर)"
+        },
+        {
+          "id": "opt4",
+          "text": "बगरू (जयपुर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बगरू (जयपुर) पारंपरिक स्याह बैगर छपाई के लिए प्रसिद्ध है, जो प्राकृतिक रंगों का उपयोग करके की जाती है। यह राजस्थान के सुदूर शहर में ‘चिप्पा’ समुदाय द्वारा प्रचलित एक शिल्प है। बगरू छपाई आमतौर पर नीले या जमुनी रंग की पृष्ठभूमि पर की जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18040,
+        "exam": "Junior Instructor (MDE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्रीलाल जोशी किस लोककला से सम्बन्धित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कठपुतली"
+        },
+        {
+          "id": "opt2",
+          "text": "मांडणा"
+        },
+        {
+          "id": "opt3",
+          "text": "सांझी"
+        },
+        {
+          "id": "opt4",
+          "text": "फड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्री लाल जोशी राजस्थान के भीलवाड़ा के एक विश्व प्रसिद्ध कलाकार हैं। वह फड़ कलाकारों के परिवार से ताल्लुक रखते हैं जो कभी फड़ पेंटिंग की कला के एकमात्र रखवाले थे।",
+      "reference": "📌 PYQ — Junior Instructor(CLIT) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18041,
+        "exam": "Junior Instructor(CLIT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भारतीय हथकरघा (हैन्डलूम) प्रोद्यौगिकी संस्थान कहां पर स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत सरकार के वस्त्र मंत्रालय के बैनर तले तथा विकास आयुक्त, हथकरघा, नई दिल्ली के तत्वावधान में आईआईएचटी, जोधपुर की स्थापना 16 सितंबर 1993 को भारत के हथकरघा उद्योग की आवश्यकताओं को पूरा करने के लिए की गई थी, विशेष रूप से भारत के उत्तरी और पश्चिमी क्षेत्र में।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-I",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18042,
+        "exam": "CET 2024 (12th Level) 24 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सीकर का कौन सा स्थान गोटा उद्योग के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नेछवा"
+        },
+        {
+          "id": "opt2",
+          "text": "खंडेला"
+        },
+        {
+          "id": "opt3",
+          "text": "खूड़"
+        },
+        {
+          "id": "opt4",
+          "text": "पिपराली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सीकर जिले का खंडेला स्थान गोटा उद्योग के लिए प्रसिद्ध है। यह राजस्थान की पारंपरिक हस्तशिल्प कला का हिस्सा है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18043,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 19,
+  "batchName": "राजस्थान की कृषि भाग 19",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कर राजस्व आय का सबसे बड़ा स्रोत है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्पाद शुल्क"
+        },
+        {
+          "id": "opt2",
+          "text": "वैट"
+        },
+        {
+          "id": "opt3",
+          "text": "कस्टम शुल्क"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में कर राजस्व का सबसे बड़ा स्रोत राज्य जी.एस.टी.(State GST) है, जो कि वित्तीय वर्ष2023-24में राज्य के अपने कर राजस्व का43%अनुमानित है। यह2022-23 के संशोधित अनुमानों से36%अधिक है।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1961,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "APMC अधिनियम राजस्थान में किस उद्देश्य से लागू किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निर्यात को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "आयात को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि उत्पादों के विपणन को सुविधा देने के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "कृषि उत्पादकता बढ़ाने के लिए"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में कृषि उपज की खरीद बिक्री को विनियमित करने तथा राज्य में इसके लिए बाजार स्थापित करने के लिए कृषि उपज मंडी अधिनियम(APMC), 1961 लागू किया गया था।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1962,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राकृतिक संसाधनों की प्रकृति एवं उपलब्धता के आधार पर वर्तमान में राजस्थान के औद्योगिक विकास में निम्न में से किस निवेश-आधारित उद्योगों का समूह सर्वाधिक महत्वपूर्ण अदा कर सकता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पशुधन आधारित"
+        },
+        {
+          "id": "opt2",
+          "text": "खनिज आधारित"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषिगत पदार्थ आधारित"
+        },
+        {
+          "id": "opt4",
+          "text": "तिलहन आधारित"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के प्राकृतिक संसाधनों के आधार पर खनिज आधारित उद्योग राज्य के औद्योगिक विकास में महत्वपूर्ण भूमिका निभा सकते हैं।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1964,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जिला तथा राजस्थान के वन विभाग द्वारा जारी शुभंकर के त्रुटिपूर्ण युग्म को पहचानिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर: खरमोर पक्षी"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर: सारस क्रेन"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा: मगर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालोर: भालू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सही सुमेलन निम्न है- अजमेर - खरमोर पक्षी भरतपुर - सारस क्रेन दौसा - खरगोश जालोर - भालू",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1965,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय सरसों अनुसंधान केन्द्र(NMRC) की ’सेवर’ में स्थापना हुई",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1993"
+        },
+        {
+          "id": "opt2",
+          "text": "2003"
+        },
+        {
+          "id": "opt3",
+          "text": "2004"
+        },
+        {
+          "id": "opt4",
+          "text": "2007"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राष्ट्रीय सरसों अनुसंधान केन्द्र राजस्थान के सेवर में स्थित है। इसकी स्थापना वर्ष १९९३ में की गई थी।",
+      "reference": "📌 PYQ — RPSC Collage Lect. 2014 (P-III)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1966,
+        "exam": "RPSC Collage Lect. 2014 (P-III)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय कृषि अनुसंधान परिषद ने राजस्थान में सरसों अनुसंधान निदेशालय जहां स्थापित किया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंता, जिला बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "बोरखेडा, जिला कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोबनेर, जिला जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "सेवर, जिला भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1970,
+        "exam": "Asstt. Jailor Exam 2013(paper-II)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा कथन सत्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केंद्रीय ऊंट प्रजनन एवं अनुसंधान संस्थान बीकानेर में स्थि है।"
+        },
+        {
+          "id": "opt2",
+          "text": "केंद्रीय अश्व अनुसंधान केन्द्र बारां में स्थित है।"
+        },
+        {
+          "id": "opt3",
+          "text": "केंद्रीय गोधन प्रजनन केन्द्र चित्तौड़गढ़ में स्थित है।"
+        },
+        {
+          "id": "opt4",
+          "text": "केंद्रीय भेड़ प्रजनन केन्द्र चुरू में स्थित है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Jr. Acctt/TRA Re-Exam 2013 (Paper-2)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1971,
+        "exam": "Jr. Acctt/TRA Re-Exam 2013 (Paper-2)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन-A: राजस्थान में खरीफ तिलहनों में मूँगफली, तिल, सोयाबीन तथा अरण्डी शामिल है। कथनB: राजस्थान में रबी तिलहनों में राई, सरसों, तारामीरा तथा अलसी शामिल है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथनAऔरBदोनों सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "कथनAऔरBदोनों गलत है।"
+        },
+        {
+          "id": "opt3",
+          "text": "कथनAसही और कथनBगलत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "कथनBसही है और कथनAगलत है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत में मुख्यत: तीन फसलों की बुवाई की जाती है– रबी की फसल, खरीफ की फसल व जायद की फसल। राजस्थान में खरीफ तिलहनों के अंतर्गत मूंगफली, तिल, सोयाबीन तथा अरण्डी शामिल हैं वही रबी के फसलों में तिलहन के अंतर्गत राई, सरसों, तारामीरा तथा अलसी शामिल हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1972,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में माही कंचन, माही धवल और मेघा किस्में हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मक्का की"
+        },
+        {
+          "id": "opt2",
+          "text": "चना की"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ की"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल की"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माही कंचन, माही धवल और मेघा मक्का की प्रमुख किस्में हैं। राजस्थान में मक्का उत्पादक जिलों में भीलवाड़ा, चित्तौड़गढ़, उदयपुर, बांसवाड़ा और बूंदी प्रमुख है।",
+      "reference": "📌 PYQ — RPSC School Lect. (P-I) 2013",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1973,
+        "exam": "RPSC School Lect. (P-I) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मक्का के अन्तर्गत सर्वाधिक कृषि भूमिवाला राजस्थान का क्षेत्र है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तरी"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिणी"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मक्का के अंतर्गत सर्वाधिक कृषि भूमिवाला राजस्थान का दक्षिणी क्षेत्र हैं। दक्षिणी राजस्थान का प्रमुख खाद्यान मक्का है।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2013",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1974,
+        "exam": "RPSC M.V.S.I. (P-1) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सीमेन्ट उत्पादन में प्रमुख जिले हैं:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बून्दी, चित्तौड़गढ़, कोटा, सिरोही एवं उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़, उदयपुर, प्रतापगढ़ एवं बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, कोटा, डूंगरपुर एवं बाँसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा, बून्दी, टोंक एवं भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सीमेंट उत्पादक जिले निम्न हैं– चित्तौड़गढ़, उदयपुर, निम्बाहेड़ा कोटा, नागौर, सिरोही।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Grade-II 2013",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1975,
+        "exam": "RPSC Sr. Teacher Grade-II 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सर्वाधिक वन क्षेत्र किस जिले में है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाडा"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत वन स्थिति रिपोर्ट, 2023के अनुसार, राजस्थान में कुल16548.21वर्ग किमी वनावरण है, जिसमें सर्वाधिक क्षेत्र उदयपुर जिले में पाया जाता है। इस जिले में2766.30वर्ग किमी वनावरण है।",
+      "reference": "📌 PYQ — RPSC Asst. Engineer 2013",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1976,
+        "exam": "RPSC Asst. Engineer 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रीको ने कृषि आधारित उद्योगों के विकास के लिये चार कृषि खाद्य पार्क विकसित किये है, ये है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर, जोधपुर, बीकानेर, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा, जोधपुर, गंगानगर, और अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, कोटा, अलवर, जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर, बीकानेर, अलवर, उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य औद्योगिक एवं निवेश निगम (रीको) राजस्थान सरकार की एक एजेंसी है जो राज्य में औद्योगिक विकास को बढ़ावा देने के लिए प्रतिबद्ध है। रीको ने चार खाद्य-पार्क विकसित किए हैं। ये हैं- कोटा, बोरानाडा (जोधपुर), श्रीगंगानगर और अलवर। इसका उद्देश्य कृषि आधारित उद्योगों का विकास करना है। 831",
+      "reference": "📌 PYQ — RPSC Asst. Engineer 2013",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1978,
+        "exam": "RPSC Asst. Engineer 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा कथन सत्य है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राष्ट्रीय ऊँट अनुसंधान केंद्र बीकानेर में स्थित है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रीय अश्व अनुसंधान केंद्र बाराँ में स्थित है।"
+        },
+        {
+          "id": "opt3",
+          "text": "केंद्रीय पशु नस्ल सुधार केंद्र चित्तौड़गढ़ में स्थित है।"
+        },
+        {
+          "id": "opt4",
+          "text": "केंद्रीय भेड़ नस्ल सुधार केंद्र चुरू में स्थित है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राष्ट्रीय ऊँट अनुसंधान केंद्र बीकानेर में स्थित है। शेष कथन असत्य हैं। 847",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1979,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय कृषि अनुसंधान परिषद् द्वारा राजस्थान में राष्ट्रीय स्तर के अनुसंधान केंद्र स्थापित किये गये हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर(जयपुर)व बीछवाल(बीकानेर)"
+        },
+        {
+          "id": "opt2",
+          "text": "बस्सी(चित्तौड़गढ़)व माँगरोल(बाराँ"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्गापुरा(जयपुर)व शाहपुरा(भीलवाड़ा)"
+        },
+        {
+          "id": "opt4",
+          "text": "तबीजी(अजमेर)व सेवर(भरतपुर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारतीय कृषि अनुसंधान परिषद् द्वारा राजस्थान में राष्ट्रीय स्तर के अनुसंधान केंद्र तबीजी(अजमेर)व सेवर(भरतपुर) स्थापित किये गये हैं",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1980,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "’श्वेत क्रान्ति’ के जनक हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एस. मुथैया"
+        },
+        {
+          "id": "opt2",
+          "text": "एम.एस. स्वामीनाथन"
+        },
+        {
+          "id": "opt3",
+          "text": "एम. खुसरो"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्गीज कुरियन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत में श्वेत क्रांति के जनक एम.एस स्वामीनाथन थे। जबकि विश्व स्तर पर श्वेत क्रांति के जनक वर्गीज कुरियन थे।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2013",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1981,
+        "exam": "RPSC M.V.S.I. (P-1) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बायोडी़जल के लिये किस पौधे की खेती की जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्वार पाठा की"
+        },
+        {
+          "id": "opt2",
+          "text": "रतनजोत की"
+        },
+        {
+          "id": "opt3",
+          "text": "सोनामुखी की"
+        },
+        {
+          "id": "opt4",
+          "text": "सफेद मूसली की"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बायोडीजल के लिए रतनजोत (जेट्रोफा) की खेती की जाती है। ग्वारपाठा का प्रयोग स्किन क्रीम के निर्माण में किया जाता है।",
+      "reference": "📌 PYQ — RPSC Clerk Gr-II (P-I) 2013",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1982,
+        "exam": "RPSC Clerk Gr-II (P-I) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में राजस्थान जिसके उत्पादन में प्रथम स्थान पर है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऊन"
+        },
+        {
+          "id": "opt2",
+          "text": "रेशम"
+        },
+        {
+          "id": "opt3",
+          "text": "दूध"
+        },
+        {
+          "id": "opt4",
+          "text": "अण्डे"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वर्ष2022-23के आर्थिक-आंकड़े के अनुसार राजस्थान ऊन का सर्वाधिक उत्पादन करता है। अण्डा उत्पादन में आंध्र प्रदेश तथा रेशम में कर्नाटक का प्रथम स्थान है।",
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1983,
+        "exam": "RPSC Assistant jailor 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गाँव की सामान्य भूमि पर शीघ्र वृद्धि करने वाले, बहुउद्देशीय उपयोगी पादपों को इमारती लकड़ी, जलावन उपयोग हेतु लगाना कहलाता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृषि वानिकी"
+        },
+        {
+          "id": "opt2",
+          "text": "सामाजिक वानिकी"
+        },
+        {
+          "id": "opt3",
+          "text": "ाामीण वानिकी"
+        },
+        {
+          "id": "opt4",
+          "text": "नगरीय वानिकी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गाँव की सामान्य भूमि पर शीघ्र लकड़ी, जलावन उपयोग हेतु लगाना सामाजिक वानिकी कहलाता है।",
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1984,
+        "exam": "RPSC Assistant jailor 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कंद है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मूली"
+        },
+        {
+          "id": "opt2",
+          "text": "लहसुन"
+        },
+        {
+          "id": "opt3",
+          "text": "आलू"
+        },
+        {
+          "id": "opt4",
+          "text": "ककड़ी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दिये गये विकल्पों में आलू कंद है। लहसुन शल्क कन्द का एवं मूली जड़ का उदाहरण है।",
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1985,
+        "exam": "RPSC Assistant jailor 2013",
+        "year": null
+      }
+    }
+  ]
+}

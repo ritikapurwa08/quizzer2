@@ -1,0 +1,665 @@
+{
+  "masterTopic": "राजस्थान की मृदा",
+  "batchIndex": 7,
+  "batchName": "राजस्थान की मृदा भाग 7",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-मृदा",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मृदा अपरदन का निम्नलिखित में से कौन सा एक कारण नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अतिचारण (ओवरग्रेजींग)"
+        },
+        {
+          "id": "opt2",
+          "text": "बाढ़ (पलड्स)"
+        },
+        {
+          "id": "opt3",
+          "text": "भूस्खलन (लैंड स्लाइड्स)"
+        },
+        {
+          "id": "opt4",
+          "text": "वन-रोपण (अफॉरेस्टेशन)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9124,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डीडवाना, पचपद्रा, सांभर झीलों में मृदा पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लिथोसोल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "सोलनचाँक"
+        },
+        {
+          "id": "opt3",
+          "text": "सीरोजेम्स"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्राउन मृदा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सोलनचॉक (solonchak) एक रशियन(Russian)शब्द है जो की लवणीय मृदा के लिए उपयुक्त होता है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9125,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगरपुर तथा बाँसवाड़ा के अधिकांश भाग में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवरिना मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल दोमट (लोम) मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्रे ब्राउन जलोढ़ मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "जिप्सीफेरस मृदा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लाल दोमट मृदा राज्य के दक्षिणी भाग में, डूंगरपुर, बाँसवाड़ा और उदयपुर और चित्तौड़गढ़ के कुछ भागों में पायी जाती है।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9126,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस जिले में अवनालिका अपरदन की समस्या मुख्यतः होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JSA Physics-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9127,
+        "exam": "JSA Physics-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मृदा में लवणीयता व क्षारीयता की समस्या कहां पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Physics-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9128,
+        "exam": "JSA Physics-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वह जिला युग्म जहां लाल व पीली मृदा पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर-भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां-कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "पाली-जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर-सिरोही"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "इन मिट्टियों का लाल व पीला रंग लौह आॅक्साइड के जलयोजन की उच्च मात्रा के कारण है। यह मिट्टी सवाईमाधोपुर, भीलवाड़ा, अजमेर और सिरोही जिलों पायी जाती है।",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9129,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की मरूस्थलीय बालू का प्रमुख स्त्रोत निम्न में से क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्राचीन नदियों द्वारा लाई गई मिट्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "सतपुड़ा पर्वत के कण"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल नदी द्वारा लाई गई मिट्टी"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास नदी द्वारा लाई गई मिट्टी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9130,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसे जिले में सर्वाधिक परती भूमि है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "चुरू"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लवणीय परती भूमि पर सबसे अधिक क्षेत्र पाली जिले में हैसर्वाधिक परती भूमि जोधपुर जिले में हैसर्वाधिक बीहड़ भूमि सवाई माधोपुर व करौली जिले में है",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9131,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा सही सुमेलित है -मृदा के प्रकार जिले",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एरिडीसोल्स - अजमेर, उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अल्फीसोल्स - बीकानेर, गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "इनसेप्टीसोल्स - भीलवाड़ा, पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्टीसोल्स - जोधपुर, बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9132,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के नागौर, पाली, बाड़मेर एवं जैसलमेर जिलों में मुख्यतः कौनसी मृदा पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बलुई मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "काली मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "पीली मृदा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9133,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रेह, कल्लर एवं ऊसर किस मृदा के अन्य नाम है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लवणीय मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "काली मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "जलोढ़ मृदा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लवणीय और क्षारीय मिट्टी को ऊसर मिट्टी भी कहा जाता है।",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9134,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के नागौर, पाली, जोधपुर और बाड़मेर जिलों में मुख्य रूप से कौनसी मिट्टी पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काली मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल-पीली मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "बलुई मृदा/मरूस्थली मृदा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के नागौर, पाली, जोधपुर, और बाड़मेर जिलों में मुख्य रूप से धूसर भूरी या मरुस्थलीय मिट्टी पाई जाती है।",
+      "reference": "📌 PYQ — Librarian Grade III 2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9135,
+        "exam": "Librarian Grade III 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जहाँ प्रतिवर्ष प्राकृतिक रूप से मिट्टीयों का नवीनीकरण होता है, वह क्षेत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाबर प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "तराई प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "बांगर प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "खादर प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "खादर उस भू-भाग को कहा जाता है, जहाँ प्रति वर्ष नदियों की बाढ़ का पानी पहुँचता रहता है। इस भाग की मिट्टी सदैव नवीन होती रहती है।",
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9136,
+        "exam": "Informatics Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के सर्वाधिक क्षेत्र पर निम्नलिखित में से कौन सी मृदा पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एरिडोसोल्स एवं एण्टिसोल्स"
+        },
+        {
+          "id": "opt2",
+          "text": "एरिडोसोल्स एवं अल्मीसोल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "इनसेप्टिसोल्स"
+        },
+        {
+          "id": "opt4",
+          "text": "वर्टीसोल्स एवं अल्फीसोल्स"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी राजस्थान के लगभग सभी जिलों में एन्टी सोल्स (रेगिस्तानी) प्रकार की मृदा पाई जाती है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9137,
+        "exam": "Lab Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित कौन से जिलों में लाल लोमी मिट्टी पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही एवं पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर एवं उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा एवं बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर एवं करौली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लाल लोमी मिट्टी का लाल रंग इसमें लौह तत्वों की मौजूदगी को दर्शाता है। ऐसी मिट्टी का कण बारीक होने से इसमें पानी अधिक समय तक रहता है। राजस्थान में लाल-लोमी मिट्टी उदयपुर, चित्तौड़गढ़, बांसवाड़ा, डूँगरपुर आदि जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — Livestock Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9138,
+        "exam": "Livestock Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-1 को सूची-2 से सुमेलित कीजिए तथा नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए -सूची-1 (मिट्टी के प्रकार) सूची-2 (जलवायु प्रदेश)अ. एरिडीसोल्स 1. शुष्क एवं अर्द्ध-शुष्कब. इन्सेप्टीसोल्स 2. अर्द्ध-शुष्क एवं आर्द्रस. अल्फीसोल्स 3. उप-आर्द्र एवं आर्द्रद. वर्टीसोल्स 4. आर्द्र एवं अति-आर्द्रकूट - अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 3, 2, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 1, 2, 3"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 3, 4, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2, 3, 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9139,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पश्चिमी राजस्थान की मिट्टी अम्लीय और क्षारीय तत्वों से संसिक्त कैसे हो जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल के प्रवाह से"
+        },
+        {
+          "id": "opt2",
+          "text": "मिट्टी की निचली सतह से ऊपर की ओर कोशिकाओं द्वारा जल रिसाव से"
+        },
+        {
+          "id": "opt3",
+          "text": "मिट्टी के अपक्षालन से"
+        },
+        {
+          "id": "opt4",
+          "text": "मिट्टी की ऊपरी सतह से नीचे की ओर जल रिसाव से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पश्चिमी राजस्थान की मिट्टी अम्लीय और क्षारीय तत्वों से संसिक्त (Saturated) होने का कारण कोशिकीय जल रिसाव (Capillary Action) है।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9140,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा युग्म सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर-चित्तौड़गढ़-लाल काली मिट्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर-जयपुर-दोमट मिट्टी"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीगंगानगर-हनुमानढ़-भूरी बलुई मिट्टी"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा-झालावाड़-काली मिट्टी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भूरी और रेतीली मिट्टी: अरावली के पश्चिमी जिलों बाड़मेर, जालौर, जोधपरु, सिरोही, पाली, नागौर, सीकर और झुन्झुनूं जिले में पायी जाती है।",
+      "reference": "📌 PYQ — RSMSSB Lab Assistant Exam 2016",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9141,
+        "exam": "RSMSSB Lab Assistant Exam 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित किन जिलों में ‘लाल लोम’ मृदा पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर-कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा-अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा-डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर-दौसा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "लाल लोमी मिट्टी का लाल रंग इसमें लौह तत्वों की मौजूदगी को दर्शाता है। ऐसी मिट्टी का कण बारीक होने से इसमें पानी अधिक समय तक रहता है। राजस्थान में लाल-लोमी मिट्टी उदयपुर, चित्तौड़गढ़, बांसवाड़ा, डूँगरपुर आदि जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9142,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दक्षिणी-पूर्वी राजस्थान में इनमें से कौन-सी मृदा की प्रधानता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "भूरी रेतीली मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्यम काली मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "लाल एवं पीली मृदा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दक्षिणी-पूर्वी राजस्थान में मध्यम काली मृदा (Medium Black Soil) की प्रधानता है। यह क्षेत्र मुख्यतः हाडौती पठार के जिलों में फैला हुआ है। यह मिट्टी मुख्यतः झालावाड़, बूंदी, बारां और कोटा जिलों में पायी जाती है।",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9143,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    }
+  ]
+}

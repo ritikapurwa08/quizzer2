@@ -1,0 +1,309 @@
+{
+  "masterTopic": "राजस्थान की जलवायु",
+  "batchIndex": 9,
+  "batchName": "राजस्थान की जलवायु भाग 9",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-जलवायु",
+  "negativeMarking": true,
+  "questionCount": 9,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत में वर्तमान की असामान्य मौसमी अवस्थाओं के लिए उत्तरदायी है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओजोन-छिद्र"
+        },
+        {
+          "id": "opt2",
+          "text": "वायु-प्रदूषण"
+        },
+        {
+          "id": "opt3",
+          "text": "अल-नीनो"
+        },
+        {
+          "id": "opt4",
+          "text": "उष्ण कटिबन्धीय चक्रवात"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत में वर्तमान की असामान्य मौसमी अवस्था के लिए अल-नीनो उत्तरदायी है। अल-नीनो एक अस्थायी गर्म जलधारा है, जिसकी उत्पत्ति हर पांच या दस वर्षों के अन्तराल पर दक्षिणी पूर्वी प्रशांत में क्रिसमस के समय होती है। यह जलधारा दक्षिणी पूर्वी प्रशांत में पेरू के तट के निकट उष्ण समुद्री धारा के रूप में प्रवाहित होती है। अल-नीनो का प्रभाव सम्पूर्ण विश्व पर पड़ता है। इसके कारण कहीं बाढ़ की समस्या उत्पन्न होती है, तो कहीं सूखा पड़ता है, किसी क्षेत्र में शीत लहर का प्रकोप हो जाता है, तो कहीं काफी गर्म हवाएँ चलती हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1997-98",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18989,
+        "exam": "RPSC RAS/RTS Pre 1997-98",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "30 वर्ष से अधिक समयावधी की औसत वायुमण्डलीय दशाओं को कहते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मौसम"
+        },
+        {
+          "id": "opt2",
+          "text": "जलवायु"
+        },
+        {
+          "id": "opt3",
+          "text": "ऋतु"
+        },
+        {
+          "id": "opt4",
+          "text": "चक्रवात"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "किसी भू-भाग पर लंबी अवधि (30 वर्ष से अधिक) के दौरान विभिन्न समूहों में विविध मौसमों की औसत अवस्था उस भू- भाग की जलवायु कहलाती है।",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4812,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूखा सम्भावित क्षेत्र कार्यक्रम कब लागू किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1974-75"
+        },
+        {
+          "id": "opt2",
+          "text": "1977-78"
+        },
+        {
+          "id": "opt3",
+          "text": "1985-86"
+        },
+        {
+          "id": "opt4",
+          "text": "1966-67"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सूखा संभावित क्षेत्र विकास कार्यक्रम चौथी पंचवर्षीय योजना (1969-74) के दौरान शुरू किया गया था।",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4813,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस प्रदेश में स्टेपी प्रकार की वनस्पति पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्द्ध शुष्क"
+        },
+        {
+          "id": "opt3",
+          "text": "आर्द्र"
+        },
+        {
+          "id": "opt4",
+          "text": "उप-आर्द्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अर्द्ध शुष्क जलवायु प्रदेश में स्टेपी प्रकार की वनस्पति व घास के मैदान पाये जाते है। इस क्षेत्र में राजस्थान के बाड़मेर, जालौर, जोधपुर, नागौर, चूरू, सीकर, झुंझुनू और हनुमानगढ़ जिले शामिल हैं।",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4814,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित जिलों में से किस जिले में अधिकतम वर्षा होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपरोक्त जिलों में अजमेर में अधिकतम वर्षा होती है। अजमेर उपआर्द्र जलवायु प्रदेश में आता है।",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4818,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अर्द्ध-शुष्क जलवायु वाला जिला है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चुरू, गंगानगर, हनुमानगढ़, द. बाड़मेर, बालोतरा, जोधपुर, बीकानेर का पूर्वी भाग तथा पाली, जालौर, सीकर, नागौर, डीडवाना कुचामन व झुझुनू का पश्चिमी भाग अर्द्ध-शुष्क जलवायु अंतर्गत आता है।",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4822,
+        "exam": "Raj Jail Warder (28-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन: पश्चिमी रेगिस्तान में वनस्पति बहुत कम है।कारण: थार मरूस्थल में वर्षा कम होती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथन सही है और कारण भी सही है"
+        },
+        {
+          "id": "opt2",
+          "text": "कथन गलत है और कारण भी गलत है"
+        },
+        {
+          "id": "opt3",
+          "text": "कथन सही है लेकिन कारण गलत है"
+        },
+        {
+          "id": "opt4",
+          "text": "कथन गलत है लेकिन कारण सही है"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली पर्वत श्रंखला अरब सागर से उठने वाली मानसूनी पवनों के समानांतर हैं और बंगाल की खाड़ी से आने वाली मानसूनी पवनों के लिए अवरोधक हैं इसलिए थार के रेगिस्तान में वर्षा बहुत कम होती हैं। यही कारण है कि थार मरुस्थल में वनस्पति संख्या बहुत कम होती है। यहां केवल कुछ छोटे-छोटे वन होते हैं जो कुछ जानवरों को आश्रय प्रदान करते हैं।",
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4827,
+        "exam": "Raj Jail Warder (21-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान को दो भागों में बांटने वाली समवर्षा रेखा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25 सेमी. की"
+        },
+        {
+          "id": "opt2",
+          "text": "150 सेमी. की"
+        },
+        {
+          "id": "opt3",
+          "text": "100 सेमी. की"
+        },
+        {
+          "id": "opt4",
+          "text": "50 सेमी. की"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान को 50 सेमी. रेखा दो भागों में बांटती है। 50 सेमी. वर्षा रेखा की उत्तर-पश्चिम में कम होती है। जबकि दक्षिण पूर्व में वर्षा अधिक होती है। 50 सेमी. मानक रेखा अरावली पर्वत माला को माना जाता है।",
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4829,
+        "exam": "Raj Jail Warder (21-10-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित किजिए -प्राकृतिक भाग औसत वर्षाअ. उत्तरी-पश्चिमी रेगिस्तान 1. 12 से 15 सेमी.ब. पूर्वी मैदान 2. 40 से 80 सेमी.स. मध्यवर्ती पहाड़ी प्रदेश 3. 20 से 90 सेमी.द. दक्षिण-पूर्वी पठार 4. 75 सेमी.अ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4, 3, 2, 1"
+        },
+        {
+          "id": "opt2",
+          "text": "2, 3, 4, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "2, 3, 1, 4"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 2, 3, 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में मध्य जून से सितम्बर तक वर्षा ऋतु होती है। राजस्थान में सर्वाधिक वर्षा दक्षिणी-पश्चिमी मानसून हवाओं से होती है तथा दुसरा स्थान बंगाल की खाड़ी का मानसून, तीसरा स्थान अरबसागर के मानसून, अन्तिम स्थान भूमध्यसागर के मानसून का है।प्राकृतिक भाग औसत वर्षाअ. उत्तरी-पश्चिमी रेगिस्तान 1. 12 से 15 सेमी.ब. पूर्वी मैदान 2. 40 से 80 सेमी.स. मध्यवर्ती पहाड़ी प्रदेश 3. 20 से 90 सेमी.द. दक्षिण-पूर्वी पठार 4. 75 सेमी.",
+      "reference": "📌 PYQ — Raj Jail Warder (20-10-18) Shift 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4830,
+        "exam": "Raj Jail Warder (20-10-18) Shift 1",
+        "year": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+  "batchIndex": 13,
+  "batchName": "राजस्थान का लोक संगीत एवं लोकगीत भाग 13",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-का-लोक-संगीत-एवं-लोकगीत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "फड़ बांचते समय किस वाद्य यंत्र का प्रयोग किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt2",
+          "text": "मादल"
+        },
+        {
+          "id": "opt3",
+          "text": "ढोल"
+        },
+        {
+          "id": "opt4",
+          "text": "सारंगी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15673,
+        "exam": "Asstt. Jailor Exam 2013(paper-II)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "थाकना शैली का संबंध जिससे है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इड़ाणी नृत्य"
+        },
+        {
+          "id": "opt2",
+          "text": "ढोल नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "शंकरिया नृत्य"
+        },
+        {
+          "id": "opt4",
+          "text": "भवाई नृत्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ढोल नृत्य जालौर का प्रसिद्ध लोक नृत्य है। इसे विवाह के अवसर पर माली, ढोली, सरगड़ा, और भील जाती के पुरुषों द्वारा किया जाता है। राजस्थान के भूतपूर्व मुख्यमंत्री जयनारायण व्यास ने इन व्यावसायिक नर्तकों को पहचान दिलाई है। इस नृत्य में चार-पांच ढोल एक साथ बजाये जाते है। ढोल का मुखिया ‘थाकना शैली’ में ढोल बजाना शुरू करता है थाकना समाप्ति पर कुछ पुरुष मुँह में तलवार, कुछ हाथ मे डंडे, कुछ भुजाओं पर रुमाल लटकाकर और अन्य लयबद्ध नृत्य करना प्रारम्भ करते है।",
+      "reference": "📌 PYQ — Asstt. Jailor Exam 2013(paper-II)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15674,
+        "exam": "Asstt. Jailor Exam 2013(paper-II)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का एकमात्र ऐसा लोकवाद्य जिसकी डोरी में तनाव के लिये पखावज की तरह लकड़ी के गुटके डाले जाते हैं–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तासा"
+        },
+        {
+          "id": "opt2",
+          "text": "रावलों की मादल"
+        },
+        {
+          "id": "opt3",
+          "text": "ढाक"
+        },
+        {
+          "id": "opt4",
+          "text": "डेरु"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का एक मात्र लोक वाद्य जिसकी डोरी में तनाव के लिए पखावज की तरह लकड़ी के गुटके डाले जाते हैं, वह रावलों की मादल है। राजस्थानी प्रमुख लोक वाद्य इस प्रकार है– तार वाद्य–इकतारा, अपंग, सारंगी, तम्बूरा, तन्दूरा, रावणहत्या, जंतर, खाज, कामापाचा। पंâूक वाद्य–पूंगी, बाँसुरी, अलगोजा, िंसगी, मोस्पेग, बंकिया, मशक, मुंगल, सतारा, शहनाई। खाल वाद्य–ढोल, ढोलक, ताशा, नक्कारा, नगाड़ा, मृदंग, नौबत, मांदला, खंजरी। ताल वाद्य–मंजीरा, थाली, झांझ, खड़ताल आदि।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15675,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में वाद्यों में से कौन-सा वाद्य तार वाद्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt2",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt3",
+          "text": "सतारा"
+        },
+        {
+          "id": "opt4",
+          "text": "झांझ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15677,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘तुरकिलंगी’ लोक नाट्य के रचनाकार -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नानूराम"
+        },
+        {
+          "id": "opt2",
+          "text": "शाहअली और तुक्कनगीर"
+        },
+        {
+          "id": "opt3",
+          "text": "लच्छीराम"
+        },
+        {
+          "id": "opt4",
+          "text": "इलिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15678,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित रंगमंच/नाट्य व उनके क्षेत्रों की सुमेलित कीजिये: सूची- I सूची-II (a) रम्मत (i) मेवाड़ (b) तमाशा (ii) जयपुर (c) भवई (iii) गुजरात राज्य से सटे क्षेत्र (d) गवरी (iv) बीकानेर व जैसलमेर कूट: a b c d",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 2 3 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4 2 3 1"
+        },
+        {
+          "id": "opt3",
+          "text": "1 2 4 1"
+        },
+        {
+          "id": "opt4",
+          "text": "4 3 2 1"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "निम्नलिखित सूचियों का सही सुमेलित युग्म इस प्रकार है– सूची-I सूची-II रम्मत बीकानेर और जैसलमेर तमाशा जयपुर भवई गुजरात राज्य से सटे राज्य गवरी मेवाड़",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15681,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का ‘राज्य लोक वाद्य यंत्र’ कौन-सा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सारंगी"
+        },
+        {
+          "id": "opt2",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt3",
+          "text": "पूंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "झांझ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का राज्य लोक वाद्ययंत्र अलगोजा है। यह बाँस से बना एक वायु वाद्ययंत्र होता है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15682,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की बहुरूपिया कला को विश्व के अनेक राष्ट्रों में प्रर्दिशत करने वाले थे─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जानकी लाल"
+        },
+        {
+          "id": "opt2",
+          "text": "देवीलाल सागर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदय शंकर"
+        },
+        {
+          "id": "opt4",
+          "text": "पुरुषोत्तम जी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान बहुरुपिया कला को विश्व के अनेक राष्ट्रों में प्रर्दिशत करने का श्रेय कलाकार जानकी लाल को है। राजस्थान के प्रमुख लोकनृत्य घूमर, बंगरिया, घापाल, शंकरिया, जिन्दाद, गीदड़, फूदी आदि है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15683,
+        "exam": "RPSC RAS/RTS Pre 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के `भवाई' नाट्य के जन्मदाता थे─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलीबक्शी"
+        },
+        {
+          "id": "opt2",
+          "text": "लच्छीराम"
+        },
+        {
+          "id": "opt3",
+          "text": "बाघा जी"
+        },
+        {
+          "id": "opt4",
+          "text": "गोपाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "`भवाई' नाट्य के जन्मदाता बाघाजी (बीकाजी) थे। उल्लेखनीय है कि इस नृत्य (नाट्य) की मुख्य विशेषताएँ नृत्य अदायगी, शारीरिक क्रियाओं के अद्भुत चमत्कार तथा लयकारी की विविधता है। तेज लय में विविध रंगों की पगड़ियों को हवा में पैâलाकर अपनी अंगुलियों से नृत्य करना, जमीन पर मुँह से रूमाल उठाना, गिलासों पर नाचना, थाली के किनारे पर नृत्य करना, तेज तलवार पर नृत्य, कांच के टुकड़ों पर नृत्य करना आदि इसे और रोमांचक बना देती है। इसके प्रसिद्ध कलाकारों में रूप सिंह शेखावत, दयाराम, तारा शर्मा आदि हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15684,
+        "exam": "RPSC RAS/RTS Pre 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक वाद्य यंत्र ‘भपंग’ राजस्थान के किस क्षेत्र से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवात"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेरवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भपंग लम्बी आल के तुम्बे से बना वाद्य है जिसके एक सिरे पर चमड़ा मढ़ा जाता है। इसकी आकृति डमरू से मिलती जुलती होती है। यह वाद्य अलवर क्षेत्र के जोगी प्रमुखतया बजाते हैं।",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15762,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "साकर खान को 2012 में किस लोक वाद्य में प्रवीणता के लिए पद्यश्री से सम्मानित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कामायचा"
+        },
+        {
+          "id": "opt2",
+          "text": "सारंगी"
+        },
+        {
+          "id": "opt3",
+          "text": "मोरचंग"
+        },
+        {
+          "id": "opt4",
+          "text": "खड़ताल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के जैसलमेर जिले के हमीरा गांव के साकर खान (1938-2013) निस्संदेह इस धरती पर सबसे महान कमंचा वादक थे। भारतीय लोक संगीत में उनके योगदान के लिए उन्हें 2012 में भारत के सर्वोच्च नागरिक पुरस्कार पद्म श्री से सम्मानित किया गया।",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15764,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रतवाई लोक गीत किस क्षेत्र में गाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवात"
+        },
+        {
+          "id": "opt4",
+          "text": "हाडौती"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रतवाई नृत्य राज्य के मेवात क्षेत्र में प्रसिद्ध है। बरसात के मौसम में पुरुष और महिलाएं मिलकर इस नृत्य को करते हैं। यह नृत्य गुड़गांव क्षेत्र के नूंह और फिरोजपुर ज़िरका में लोकप्रिय है।",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15766,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा तत् वाद्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt2",
+          "text": "जन्तर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt4",
+          "text": "कामायचा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15770,
+        "exam": "Raj Jail Warder (21-10-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तार लगा वाद्य यंत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़ताल"
+        },
+        {
+          "id": "opt2",
+          "text": "डेरू"
+        },
+        {
+          "id": "opt3",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt4",
+          "text": "जन्तर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15771,
+        "exam": "Raj Jail Warder (28-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऐसा लोकवाद्य जिसका निर्माण आधे कटे नारियल की कटोरी से होता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिंगी"
+        },
+        {
+          "id": "opt2",
+          "text": "भपंग"
+        },
+        {
+          "id": "opt3",
+          "text": "रावण हत्था"
+        },
+        {
+          "id": "opt4",
+          "text": "अलगोजा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15772,
+        "exam": "Raj Jail Warder (27-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शास्त्रीय संगीत पर रचना राधा गोविन्द संगीत सार के रचियता थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवर्षि ब्रजपाल भट्ट"
+        },
+        {
+          "id": "opt2",
+          "text": "चतुर लाल सैन"
+        },
+        {
+          "id": "opt3",
+          "text": "देवर्षि भट्ट द्वारकानाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "हीरानन्द व्यास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Jail Warder (21-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15773,
+        "exam": "Raj Jail Warder (21-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्रावण माह के दौरान राजस्थानी महिलाओं द्वारा गाए जाने वाले लोकप्रिय लोक गीत का नाम बताएं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीज"
+        },
+        {
+          "id": "opt2",
+          "text": "लोटिया"
+        },
+        {
+          "id": "opt3",
+          "text": "रसिया गीत"
+        },
+        {
+          "id": "opt4",
+          "text": "कजरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable(9321)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15782,
+        "exam": "Raj Police Constable(9321)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चिड़ावा के नानूराम एवं दुलियाराणा किस ख्याल के प्रसिद्ध कलाकार हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावाटी (शेखावटी) ख्याल"
+        },
+        {
+          "id": "opt2",
+          "text": "कुचामनी ख्याल"
+        },
+        {
+          "id": "opt3",
+          "text": "हेला ख्याल"
+        },
+        {
+          "id": "opt4",
+          "text": "कन्हैया ख्याल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15842,
+        "exam": "RSMSSB PTI Grade-III P1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हेला ख्याल’ लोक संगीत राजस्थान के ........... क्षेत्रों से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर-झुन्झुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा-सवाई माधोपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भीलवाड़ा-चित्तौड़"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर-बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हेला ख्याल दौसा, लालसोट व सवाईमाधोपुर क्षेत्र का प्रसिद्ध लोकनाट्य है। इस ख्याल के प्रमुख प्रेरक शायर हेला थे। बम (बड़ा नगाड़ा) के प्रयोग के साथ इस ख्याल का प्रारम्भ होता है। सुमरनी, चढ़ाव व टेर द्वारा हेला देते है साथ में नौबत बजाया जाता है। इस ख्याल की प्रमुख विशेषता ‘हेला देना’ (लम्बी टेर में आवाज देना) है।",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15903,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड में अरावली क्षेत्र की भील जाति का लोकनाट्य कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रम्मत"
+        },
+        {
+          "id": "opt2",
+          "text": "भवाई"
+        },
+        {
+          "id": "opt3",
+          "text": "गन्धर्व"
+        },
+        {
+          "id": "opt4",
+          "text": "गवरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15911,
+        "exam": "Raj Jail Warder (28-10-18) Shift 2",
+        "year": null
+      }
+    }
+  ]
+}

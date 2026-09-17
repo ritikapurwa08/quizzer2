@@ -1,0 +1,141 @@
+{
+  "masterTopic": "राजस्थान का पशुपालन",
+  "batchIndex": 10,
+  "batchName": "राजस्थान का पशुपालन भाग 10",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पशुपालन",
+  "negativeMarking": true,
+  "questionCount": 4,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "शेखावटी क्षेत्र में पाई जाने वाली भेड की नस्ल कौनसी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालपुरी"
+        },
+        {
+          "id": "opt2",
+          "text": "बागडी"
+        },
+        {
+          "id": "opt3",
+          "text": "चोकला"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनाडी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2277,
+        "exam": "Raj Jail Warder (29-11-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भेड की वह नस्ल जो मुख्यतः नागौर जिले की सीमावर्ती क्षेत्र में पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाडी"
+        },
+        {
+          "id": "opt2",
+          "text": "मालपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "चौकला"
+        },
+        {
+          "id": "opt4",
+          "text": "नाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2279,
+        "exam": "Raj Jail Warder (28-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के कौनसे क्षेत्र में थारपारकर नस्ल पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पूर्व क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी शुष्क क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावाटी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "थारपारकर नस्ल की गायें राजस्थान के पश्चिमी शुष्क क्षेत्र (जैसे जैसलमेर, बाड़मेर, जोधपुर) में पाई जाती हैं।",
+      "reference": "📌 PYQ — RSMSSB LDC (09-09-18) Paper-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2288,
+        "exam": "RSMSSB LDC (09-09-18) Paper-1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 19 वीं पशुगणना कब की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2011"
+        },
+        {
+          "id": "opt2",
+          "text": "2015"
+        },
+        {
+          "id": "opt3",
+          "text": "2012"
+        },
+        {
+          "id": "opt4",
+          "text": "2014"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable(8416)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2289,
+        "exam": "Raj Police Constable(8416)",
+        "year": null
+      }
+    }
+  ]
+}

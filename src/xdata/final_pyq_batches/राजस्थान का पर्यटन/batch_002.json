@@ -1,0 +1,667 @@
+{
+  "masterTopic": "राजस्थान का पर्यटन",
+  "batchIndex": 2,
+  "batchName": "राजस्थान का पर्यटन भाग 2",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पर्यटन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित पर्यटन केंद्रों में से कौन-सा अजमेर के पास स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुलाब बाग"
+        },
+        {
+          "id": "opt2",
+          "text": "तारागढ़ किला"
+        },
+        {
+          "id": "opt3",
+          "text": "दौलत बाग"
+        },
+        {
+          "id": "opt4",
+          "text": "अनासागर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गुलाब बाग उदयपुर का सबसे बड़ा उद्यान है। इस उद्यान का यह नाम गुलाब की प्रचुरता और इसकी असंख्य किस्मों के कारण रखा गया है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5571,
+        "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा पर्यटन केंद्र बाड़मेर के पास स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सम के रेते की टीले"
+        },
+        {
+          "id": "opt2",
+          "text": "किराडू मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "शेरगढ़ किला"
+        },
+        {
+          "id": "opt4",
+          "text": "नातानीयौं की हवेली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "किराडू मंदिर राजस्थान के बाड़मेर जिले में स्थित है। भगवान शिव को समर्पित इस मंदिर में खजुराहो जैसी शिल्पकला देखने को मिलती है, इसी वजह से लोग इसे राजस्थान का खजुराहो भी कहते हैं।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5572,
+        "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "थार रेगिस्तान में तीन शहरों का रेगिस्तानी त्रिकोण शामिल है, वह है- (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर - जोधपुर - बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर - जोधपुर - बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर - जैसलमेर - पाली"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर - जैसलमेर - बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के रेगिस्तान में तीन शहर शामिल हैं - जैसलमेर, बीकानेर और जोधपुर जिसे आमतौर पर रेगिस्तानी त्रिकोण के रूप में जाना जाता है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5573,
+        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कितने विश्व धरोहर स्थल हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "4 स्थल"
+        },
+        {
+          "id": "opt2",
+          "text": "6 स्थल"
+        },
+        {
+          "id": "opt3",
+          "text": "9 स्थल"
+        },
+        {
+          "id": "opt4",
+          "text": "3 स्थल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "यूनेस्को की वर्ल्ड हेरिटेज साइट (UNESCO World Heritage Sites) की सूची में राजस्थान के कुल 9 ऐतिहासिक धरोहर हैं। इनमें छह पहाड़ी किलों (दुर्ग): आमेर महल, गागरोन फोर्ट, कुंभलगढ़, जैसलमेर, रणथंभौर और चित्तौड़गढ़ का किला हैं। भरतपुर का घना पक्षी अभयारण्य और जयपुर का जंतर-मंतर सूची में पहले से ही हैं। इसके अलावा, जयपुर सिटी भी यूनेस्को की वर्ल्ड हेरिटेज साइट है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5574,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माउंट आबू किन दो राज्यों के बीच स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान और गुजरात"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान और मध्य प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान और पंजाब"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान और हरियाणा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "माउंट आबू राजस्थान का एकमात्र हिल स्टेशन है और यह राजस्थान और गुजरात राज्यों की सीमा के निकट स्थित है। यह अरावली पर्वतमाला का हिस्सा है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5575,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान / भारत के कौन-से स्थान को सर्वाधिक रहस्यमयी पर्यटक स्थल होने का दर्जा प्राप्त है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तारागढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "शेरगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "मांडलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "भानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भानगढ़ (अलवर) को भारत का सबसे रहस्यमयी स्थल माना जाता है, जो भूतहा किले के लिए जाना जाता है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift I)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5576,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन से शहर ‘गोल्डन ट्राइएंगल’ के अन्तर्गत आते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिल्ली - वाराणसी - जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर - जोधपुर - उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर - जोधपुर - कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "दिल्ली - आगरा - जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत का गोल्डन ट्रायंगल एक पर्यटक सर्किट है जो राष्ट्रीय राजधानी दिल्ली, आगरा और जयपुर को जोड़ता है।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5577,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौनसे शहर को, वर्ष 2019 में, यूनेस्को का धरोहर स्थल घोषित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "6 जुलाई 2019 को यूनेस्को द्वारा राजस्थान की राजधानी जयपुर के परकोटे को विश्व धरोहर का दर्जा दिया गया।",
+      "reference": "📌 PYQ — Computor Exam 2023",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5578,
+        "exam": "Computor Exam 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“पैलेस ऑन व्हील्स”, एक लक्ज़री पर्यटक ट्रेन कब शुरू की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "26 जनवरी 1982"
+        },
+        {
+          "id": "opt2",
+          "text": "26 जनवरी 1980"
+        },
+        {
+          "id": "opt3",
+          "text": "26 जनवरी 1986"
+        },
+        {
+          "id": "opt4",
+          "text": "26 जनवरी 1979"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत की पहली लग्जरी रेलगाड़ी, पैलेस ऑन व्हील्स की शुरुआत 26 जनवरी, 1982 को हुई थी। इसे भारतीय रेलवे और राजस्थान पर्यटन विकास निगम (आरटीडीसी) ने मिलकर शुरू किया था।",
+      "reference": "📌 PYQ — Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5579,
+        "exam": "Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसे UNESCO विश्व पुरातन धरोहर घोषित नहीं किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवलादेव राष्ट्र उद्यान"
+        },
+        {
+          "id": "opt2",
+          "text": "जंतर मंतर, जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर किला"
+        },
+        {
+          "id": "opt4",
+          "text": "मेहरानगढ़ किला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में यूनेस्को विश्व धरोहर स्थल हैं – जयपुर हेरिटेज सिटी, केवलादेव राष्ट्रीय उद्यान, जंतर मंतर (जयपुर), राजस्थान के पहाड़ी किले (चित्तौड़गढ़, कुम्भलगढ़, रणथम्भोर, आमेर, जैसलमेर)।",
+      "reference": "📌 PYQ — Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5580,
+        "exam": "Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हॉल ऑफ हीरोज़’ जोधपुर के किस बाग में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामनिवास बाग़"
+        },
+        {
+          "id": "opt2",
+          "text": "मंडोर बाग"
+        },
+        {
+          "id": "opt3",
+          "text": "विद्याधर बाग"
+        },
+        {
+          "id": "opt4",
+          "text": "निवास बाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हॉल ऑफ हीरोज जोधपुर के मंडोर बाग में स्थित है। हॉल ऑफ हीरोज एक स्मारक है, जो एक ही चट्टान से उकेरी गई योद्धाओं की 16 आकृतियों को प्रदर्शित करता है।",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2023",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5581,
+        "exam": "Agriculture Supervisor Exam 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का एकमात्र स्थलीय उल्कापिंड प्रहार क्रेटर (एम.आई.सी.) स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामगढ़, झुंझुनू"
+        },
+        {
+          "id": "opt2",
+          "text": "रामगढ़, अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "रामगढ़, सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "रामगढ़, बारां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का एकमात्र स्थलीय उल्कापिंड प्रहार क्रेटर (MIC) रामगढ़, बारां में स्थित है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5582,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "समाई माता क्षेत्र को पर्यटक आकर्षण केन्द्र के रूप में विकसित किया जाएगा। यह स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर में"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5583,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ पर्यटन परिपथ से सम्बन्धित पर्यटन स्थल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "माउण्ट आबू"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — High Court LDC 2022 (12 March 2023)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5584,
+        "exam": "High Court LDC 2022 (12 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गुरुद्वारा बुद्ध जौहड़ राजस्थान के किस जिले में अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री गंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5585,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिये तथा सही उत्तर का चयन नीचे दिये गये कूट से कीजिये -सूची-I (पर्यटन स्थल)सूची-II (अवस्थिति)(A) बाला किला(i) मांउन्ट आबू(B) देलवाड़ा मंदिर(ii) टोंक(C) स्वर्ण कोठी(iii) बूंदी(D)चौरासी खम्बों की छतरी(iv) अलवरकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(iii), (B)-(iv), (C)-(i), (D)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(iv), (B)-(i), (C)-(ii), (D)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(ii), (B)-(i), (C)-(iv), (D)-(iii)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बाला किला - अलवरदेलवाड़ा मंदिर - माउंट आबूस्वर्ण कोठी - टोंकचौरासी खम्बों की छतरी - बूंदी",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5586,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर, दौसा तथा टोंक किस पर्यटक परिपथ में सम्मिलित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वागड़"
+        },
+        {
+          "id": "opt2",
+          "text": "ढूँढार"
+        },
+        {
+          "id": "opt3",
+          "text": "गोडवार"
+        },
+        {
+          "id": "opt4",
+          "text": "मेरवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ढूँढार परिपथ: इसमें जयपुर, दौसा और टोंक शामिल हैं।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5587,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के ग्रामीण पर्यटन स्थलों को सम्बन्धित प्रदेशों से सुमेलित कीजिए: अवस्थिति (प्रदेश) ग्रामीण पर्यटन स्थल(i) मेवाड (a) तालछापर, जीणमाता(ii) हाड़ौती (b) ओसियां, किराडू मन्दिर(iii) मारवाड़ (c) हल्दीघाटी, मेणाल(iv) शेखावाटी (d) रामेश्वर महादेव, सीताबाड़ीकूट: (i) (ii) (iii) (iv)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "c a d b"
+        },
+        {
+          "id": "opt2",
+          "text": "c d b a"
+        },
+        {
+          "id": "opt3",
+          "text": "b c a d"
+        },
+        {
+          "id": "opt4",
+          "text": "d b c a"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अवस्थिति (प्रदेश) ग्रामीण पर्यटन स्थल(i) मेवाड (c) हल्दीघाटी, मेणाल(ii) हाड़ौती (d) रामेश्वर महादेव, सीताबाड़ी(iii) मारवाड़ (b) ओसियां, किराडू मन्दिर(iv) शेखावाटी (a) तालछापर, जीणमाता",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5588,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के जिले, जो यहाँ पर्यटन के डैजर्ट सर्किट का मुख्य भाग हैं, वे हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर, बीकानेर, जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर, बाड़मेर, जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर, जोधपुर, बीकानेर, बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, बीकानेर, जोधपुर, जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5590,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वागड़ पर्यटन सर्किट में _____ सम्मिलित हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा - उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर - सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर - बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा - प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5591,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    }
+  ]
+}

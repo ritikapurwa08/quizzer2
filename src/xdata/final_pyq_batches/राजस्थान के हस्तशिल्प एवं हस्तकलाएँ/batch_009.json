@@ -1,0 +1,653 @@
+{
+  "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
+  "batchIndex": 9,
+  "batchName": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ भाग 9",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-हस्तशिल्प-एवं-हस्तकलाएँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "ब्लू पॉटरी किसका एक पारंपरिक शिल्प है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18193,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए –हस्तशिल्प स्थान(1) अजरक प्रिन्ट (i) नाथद्वारा(2) जाजम प्रिन्ट (ii) चित्तौड़गढ़(3) पिछवाई (iii) अकोला(4) दाबू प्रिन्ट (iv) बाड़मेरकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(ii), 2-(iv), 3-(i), 4-(iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(iii), 2-(i), 3-(iv), 4-(ii)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(i), 2-(ii), 3-(iii), 4-(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(iv), 2-(ii), 3-(i), 4-(iii)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाड़मेर का अजरक प्रिंट प्रसिद्ध है। इस प्रिंट में लाल और नीले रंग का प्रयोग किया गया।चित्तौड़गढ़ का जाजम प्रिंट प्रसिद्ध है। इस प्रकार की छपाई में लाल और हरे रंग का प्रयोग किया जाता है।कपड़े पर भगवान कृष्ण के जीवन को चित्रित करने की कला को ‘पिछवाई कला’ कहा जाता है। यह कला नाथद्वारा (राजसमन्द) ज़िले में प्रसिद्ध है।चित्तौड़गढ़ जिले का अकोला गांव डब्बू प्रिंट के लिए प्रसिद्ध है। दाबू का अर्थ है दबाना।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18194,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा (हस्तशिल्प – स्थान) सही सुमेलित नहीं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लकड़ी के खिलौने – बस्सी"
+        },
+        {
+          "id": "opt2",
+          "text": "मसूरिया साड़ी – कैथून"
+        },
+        {
+          "id": "opt3",
+          "text": "बंधेज (टाई एंड डाई) – जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "तारकशी का काम – उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18195,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी ‘तारा भांत की ओढणी’ का पहनावा किसमें प्रचलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दलित महिलाएँ"
+        },
+        {
+          "id": "opt2",
+          "text": "जाट महिलाएँ"
+        },
+        {
+          "id": "opt3",
+          "text": "आदिवासी महिलाएँ"
+        },
+        {
+          "id": "opt4",
+          "text": "गुर्जर महिलाएँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Computor Exam 2021",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18196,
+        "exam": "Computor Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कण्दोरा पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुरुष द्वारा सिर पर"
+        },
+        {
+          "id": "opt2",
+          "text": "महिला द्वारा ललाट पर"
+        },
+        {
+          "id": "opt3",
+          "text": "पुरुष द्वारा कलाई पर"
+        },
+        {
+          "id": "opt4",
+          "text": "महिला द्वारा कमर पर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18197,
+        "exam": "Superintendent Gar. 2021 (GK)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, किसी महिला द्वारा दांतों के बीच में सोने की कील जड़वाने को कहा जाता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भोगली"
+        },
+        {
+          "id": "opt2",
+          "text": "टोटी"
+        },
+        {
+          "id": "opt3",
+          "text": "पीपल पत्रा"
+        },
+        {
+          "id": "opt4",
+          "text": "चूंप"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18201,
+        "exam": "VDO Exam 1st Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मारवाड़ में ‘दामणी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इनमें से कोई नहीं"
+        },
+        {
+          "id": "opt2",
+          "text": "एक प्रकार का लोकगीत"
+        },
+        {
+          "id": "opt3",
+          "text": "एक प्रकार की ओढनी"
+        },
+        {
+          "id": "opt4",
+          "text": "एक प्रकार का नृत्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18203,
+        "exam": "Rajasthan Patwar 2021 (23 Oct 2021) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘दमना/दामणा’ एक गहना है जो पहना जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाक में"
+        },
+        {
+          "id": "opt2",
+          "text": "गले में"
+        },
+        {
+          "id": "opt3",
+          "text": "कान में"
+        },
+        {
+          "id": "opt4",
+          "text": "उँगली में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18205,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा युग्म सही है ? संस्थान – स्थापना",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर कत्थक केन्द्र – 1982"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान हिन्दी ग्रन्थ अकादमी – 1980"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान ललित कला अकादमी – 1957"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान संस्कृत अकादमी – 1969"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18206,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के संदर्भ में पचवेदा (pachevada) क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जूटपट्टी"
+        },
+        {
+          "id": "opt2",
+          "text": "कच्ची मिट्टी के खिलौने"
+        },
+        {
+          "id": "opt3",
+          "text": "मोटी सूती शॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "हस्त निर्मित कागज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18207,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नागौर का ‘बू’ गाँव किस कलात्मक कार्य के लिए प्रसिद्ध है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हस्त निर्मित कागज"
+        },
+        {
+          "id": "opt2",
+          "text": "जूट पट्टी"
+        },
+        {
+          "id": "opt3",
+          "text": "कच्ची मिट्टी के खिलौने"
+        },
+        {
+          "id": "opt4",
+          "text": "मोटी सूती शॉल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18208,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रूमा देवी के बारे में निम्न में से कौनसा कथन सा नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उन्हें भारत के राष्ट्रपति द्वारा 2018 में ‘नारी शकि पुरस्कार से सम्मानित किया गया।"
+        },
+        {
+          "id": "opt2",
+          "text": "उन्हें हस्तशिल्प के क्षेत्र में जाना जाता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "उन्होंने हजारों महिलाओं को रोजगार बढ़ावा देने में अहम भागीदारी निभाई।"
+        },
+        {
+          "id": "opt4",
+          "text": "वे जसरापुर (खेतड़ी) गाँव में पली – बढ़ी।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18210,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जवाहर कला केन्द्र राजस्थान में यहाँ पर स्थित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18211,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में तिलपट्टी के लिए यह स्थान जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "ब्यावर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18212,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मिट्टी (टेराकोटा) की मूर्ति बनाने का मुख्य कला केन्द्र कौन सा है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टांकला"
+        },
+        {
+          "id": "opt2",
+          "text": "मोलेला"
+        },
+        {
+          "id": "opt3",
+          "text": "अकोला"
+        },
+        {
+          "id": "opt4",
+          "text": "शाहपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18213,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा शहर विश्व में रत्न बाजार के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18214,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पोमचा क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रंगाई की शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "पद्य शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "बर्तन गढ़ने की शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्रकला शैली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18215,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अटपटी, अमरशाही, उदहशाही और शिवशाही क्या हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पगड़ियों के प्रकार"
+        },
+        {
+          "id": "opt2",
+          "text": "आभूषणों के प्रकार"
+        },
+        {
+          "id": "opt3",
+          "text": "भेड़ों की प्रजातियाँ"
+        },
+        {
+          "id": "opt4",
+          "text": "खाद्य पदार्थ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18217,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिये गये युग्मों में से कौन सा युग्म सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोने का काम हरी मीनाकारी के साथ -नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "लकड़ी के घोड़ों के खिलौने - कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "पत्थर के खिलौने - गलियाकोट"
+        },
+        {
+          "id": "opt4",
+          "text": "चन्दन प्रिन्टिंग - प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18220,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाड़मेर ब्लॉक मुद्रित कपड़े का एक और नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोकरी बुनाई"
+        },
+        {
+          "id": "opt2",
+          "text": "अजरक"
+        },
+        {
+          "id": "opt3",
+          "text": "छींट"
+        },
+        {
+          "id": "opt4",
+          "text": "शेवरॉन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18221,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "masterTopic": "राजस्थान के प्रजामंडल आंदोलन",
+  "batchIndex": 4,
+  "batchName": "राजस्थान के प्रजामंडल आंदोलन भाग 4",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-प्रजामंडल-आंदोलन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“भरतपुर प्रजामण्डल” का पंजीकरण करने के बाद उसका नाम बदलकर रखा गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रज जया समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रजा परिषद्"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर प्रजा परिषद्"
+        },
+        {
+          "id": "opt4",
+          "text": "जमींदार किसान सभा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भरतपुर प्रजामंडल की स्थापना मार्च 1938 में रेवाड़ी (हरियाणा) में की गई थी। इसकी स्थापना किशनलाल जोशी ने की थी। सरकार ने इसे अवैध घोषित कर दिया। 1939 में इसका नाम बदलकर भरतपुर प्रजा परिषद कर दिया गया।",
+      "reference": "📌 PYQ — A.R.O. (GK and Horticulture) 2022",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11767,
+        "exam": "A.R.O. (GK and Horticulture) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भोगीलाल पण्ड्या, हरिदेव जोशी एवं शिवलाल कोटड़िया स्वतंत्रता सेनानी किस क्षेत्र के प्रजामण्डल से सबद्ध थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "डूंगरपुर प्रजामण्डल की स्थापना 1944 ई. में की के संस्थापक एवं प्रथम अध्यक्ष- भोगीलाल पंड्या सहयोगी- कोटडिया, हरिदेव जोशी, गौरीशंकर उपाध्याय।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11769,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माणिक्यलाल वर्मा किस प्रजामण्डल के संस्थापकों में एक थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "शाहपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11770,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से गलत युग्म की पहचान कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली प्रजामंडल - त्रिलोक चंद माथुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर प्रजामंडल - पंडित हरि नारायण शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ प्रजामंडल - बलवंत सिंह मेहता"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड प्रजामंडल - मांगीलाल भव्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बीकानेर प्रजा मंडलइस प्रजामंडल की स्थापना 4 अक्टूबर 1936 को मगराम वैद्य की अध्यक्षता में कलकत्ता में कुछ प्रवासी बीकानेर निवासियों द्वारा की गई थी। अन्य सदस्य मुक्ताप्रसाद, रघुवरदयाल गोयल, स्वामी गोपालदास, सत्यनारायण सराफ थे। अलवर में हरिनारायण शर्मा और कुंज बिहारी मोदी के रचनात्मक कार्यों के माध्यम से जनता में जागरूकता पैदा करने का प्रयास किया गया।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11771,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“जेन्टलमैन एग्रीमेंट” के संबंध में निम्नलिखित में से कौनसा / कौनसे कथन सत्य नहीं हैं -(1) यह एग्रीमेंट 1942 ई. में हुआ था।(2) इसका संबंध झालावाड़ रियासत से है।(3) इस एग्रीमेंट के अनुसार रियासती सरकार भविष्य में अंग्रेजों की मदद नहीं करेगी।सही कूट चुनिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(1) और (2)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (2)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (3)"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1942 को जयपुर प्रजामण्डल के अध्यक्ष हीरालाल शास्त्री व रियासती प्रधानमंत्री मिर्जा इस्माइल के बीच जेन्टलमेट्स समझौता हुआ। जिसमें प्रजामण्डल को भारत छोड़ो आन्दोलन से अलग रखा गया।",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11772,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुशीला और भगवती का सम्बन्ध किस प्रजामण्डल से था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ प्रजामण्डल"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर प्रजामण्डल"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ प्रजामण्डल"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर प्रजामण्डल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11773,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मेवाड़ प्रजा मण्डल की स्थापना किसके द्वारा की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पण्डित गौरी शंकर"
+        },
+        {
+          "id": "opt2",
+          "text": "विजयसिंह पथिक"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्य लाल वर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "साधु सीता रामदास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेवाड़ प्रजा मंडल की स्थापना का श्रेय माणिक्यलाल वर्मा को जाता है। उन्हीं के प्रयासों से 24 अप्रैल 1938 को उदयपुर में बलवंत सिंह मेहता की अध्यक्षता में मेवाड़ प्रजामंडल की स्थापना हुई।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11774,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोपीलाल यादव, ठाकुर देशराज एवं रेवतीशरण उपाध्याय राजस्थान के किस प्रजामण्डल आन्दोलन से सम्बद्ध रहे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मार्च 1938 रेवाड़ी में भरतपुर प्रजामंडल की स्थापना किशनलाल जोशी ने की। गोपीलाल यादव (अध्यक्ष), ठाकुर देशराज- पं. रेवतीशरण शर्मा (उपाध्यक्ष), किशनलाल जोशी (महामंत्री), युगल किशोर चतुर्वेदी (सहमंत्री), मास्टर, आदित्येन्द्र कोषाध्यक्ष बने।",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11776,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा सुमेलित नहीं है -प्रजामण्डल - नेता",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर - मीठालाल व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा - भूपेन्द्रनाथ त्रिवेदी"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रतापगढ़ - रमेश चन्द्र ओझा"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली - त्रिलोक चन्द्र माथुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Superintendent Gar. 2021 (GK)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11777,
+        "exam": "Superintendent Gar. 2021 (GK)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर में आयोजित अखिल भारतीय देशी राज्य लोक परिषद के सातवें अधिवेशन की अध्यक्षता की थी –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "के. एम. मुन्शी ने"
+        },
+        {
+          "id": "opt2",
+          "text": "जवाहरलाल नेहरू ने"
+        },
+        {
+          "id": "opt3",
+          "text": "जे. बी. कृपलानी ने"
+        },
+        {
+          "id": "opt4",
+          "text": "महात्मा गांधी ने"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अखिल भारतीय राष्ट्रीय राज्य लोक परिषद का 7वां अधिवेशन उदयपुर के सलोदिया मैदान में आयोजित हुआ था। यह अधिवेशन 31 दिसम्बर 1945 से 1 जनवरी 1946 तक चला। इस अधिवेशन की अध्यक्षता पंडित जवाहरलाल नेहरू ने की थी।",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11778,
+        "exam": "VDO Exam 1st Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित प्रजामंडलों पर विचार कीजिए: 1. किशनगढ़ 2. बांसवाड़ा 3. जयपुरइनकी स्थापना के अनुसार सही कालानुक्रम है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3"
+        },
+        {
+          "id": "opt2",
+          "text": "3, 1, 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 3, 2"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 1, 3"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अर्जुनलाल सेठी और कपूर चंद पाटनी द्वारा जयपुर प्रजामण्डल की स्थापना सबसे पहले 1931 में हुई थी। 1938 में जमनालाल बजाज और हीरालाल शास्त्री द्वारा फिर से स्थापित।कांतिलाल चौथानी और जमाल शाह द्वारा किशनगढ़ प्रजामण्डल की स्थापना 1939 में हुई।भूपेन्द्रनाथ त्रिवेदी, धुलाजी भाई द्वारा बांसवाड़ा प्रजामण्डल की स्थापना 1943 में हुई।",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11779,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘भारत छोड़ो आंदोलन’ के दौरान जयपुर प्रजामण्डल के अध्यक्ष कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्पूरचन्द पाटनी"
+        },
+        {
+          "id": "opt3",
+          "text": "जमनालाल बजाज"
+        },
+        {
+          "id": "opt4",
+          "text": "रामकरण जोशी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "‘भारत छोड़ो आंदोलन’ 1942 में शुरू हुआ था और इस दौरान जयपुर प्रजामण्डल के अध्यक्ष हीरालाल शास्त्री थे। 15 अगस्त 1942 को शास्त्री जी ने जयपुर प्रजामण्डल की बैठक बुलाई।",
+      "reference": "📌 PYQ — RPSC ACF FRO 2021",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11780,
+        "exam": "RPSC ACF FRO 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस प्रजामंडल का नामोल्लेख कीजिए जिसकी स्थापना मघाराम वैद्य तथा लक्ष्मण दास स्वामी द्वारा की गई।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर प्रजामंडल"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर प्रजामंडल"
+        },
+        {
+          "id": "opt3",
+          "text": "करौली प्रजामंडल"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर प्रजामंडल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीकानेर प्रजामण्डल की स्थापना4अक्टूबर, 1936 को वैद्य मघाराम व श्री लक्ष्मणदास स्वामी द्वारा की गई थी। अलवर प्रजामण्डल(1938)पं. हरिनारायण शर्मा व कुंजबिहारी मोदी, करौली प्रजामण्डल(1939)श्री त्रिलोकचंद माथुर, चिरंजीलाल शर्मा व वुँâवर मदन सिंह तथा धौलपुर प्रजामण्डल(1936)की स्थापना कृष्णदत्त पालीवाल, श्री मूलचंद, श्री ज्वाला प्रसाद जिज्ञासु द्वारा की गई थी।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 418,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन प्रजामंडल से संबद्ध नहीं रहे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जमनालाल बजाज"
+        },
+        {
+          "id": "opt2",
+          "text": "जय नारायण व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "गोकुलभाई भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "गोविंद गुरु"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11781,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाडौती प्रजामण्डल की स्थापना किसने की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभिन्नहरि"
+        },
+        {
+          "id": "opt2",
+          "text": "गोपाललाल कोटिया"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथूलाल जैन"
+        },
+        {
+          "id": "opt4",
+          "text": "नयनूराम शर्मा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हड़ौती क्षेत्र में जन जागरूकता के लिए पंडित नयनूराम शर्मा की अध्यक्षता में हड़ौती सेवा संघ की स्थापना की गई थी।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11782,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के गाँधी के रूप में किसे जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माणिक्य लाल वर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "गोकुल भाई भट"
+        },
+        {
+          "id": "opt3",
+          "text": "आर्जुन लाल सेठी"
+        },
+        {
+          "id": "opt4",
+          "text": "विजयसिंह पथिक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11783,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय डाक और तार विभाग ने पंडित हीरालाल शास्त्री के सम्मान में किस वर्ष एक स्मारक डाक टिकट जारी किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1976 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1979 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1967 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1966 में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11784,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ प्रजामण्डल का अस्थायी कार्यालय कहां स्थापित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11785,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रास्तापाल सत्याग्रह’ से कौन सम्बन्धित था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विद्यादेवी"
+        },
+        {
+          "id": "opt2",
+          "text": "गौतमीदेवी"
+        },
+        {
+          "id": "opt3",
+          "text": "कालीबाई"
+        },
+        {
+          "id": "opt4",
+          "text": "रमादेवी पाण्डे"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11786,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ प्रजामंडल में किस महिला ने महत्वपूर्ण भूमिका निभाई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जानकी देवी बजाज"
+        },
+        {
+          "id": "opt2",
+          "text": "नारायणी देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "काली बाई"
+        },
+        {
+          "id": "opt4",
+          "text": "किशोरी देवी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 11787,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    }
+  ]
+}

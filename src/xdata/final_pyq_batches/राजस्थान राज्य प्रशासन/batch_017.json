@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान राज्य प्रशासन",
+  "batchIndex": 17,
+  "batchName": "राजस्थान राज्य प्रशासन भाग 17",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-राज्य-प्रशासन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन से नेता ‘बाबोसा’ कहलाते है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कृष्णकांत"
+        },
+        {
+          "id": "opt2",
+          "text": "हरिदेव जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "जगन्नाथ पहाड़िया"
+        },
+        {
+          "id": "opt4",
+          "text": "भैरों सिंह शेखावत"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भैरों सिंह शेखावत को राजस्थान में ‘बाबोसा’ के नाम से जाना जाता है। यह उनका लोकप्रिय उपनाम था, जो जनता के बीच उनकी निकटता को दर्शाता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14858,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा जिला राजस्थान उच्च न्यायालय की जयपुर पीठ के अधिकार क्षेत्र में नहीं आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भीलवाड़ा जिला राजस्थान उच्च न्यायालय की जयपुर पीठ के अधिकार क्षेत्र में नहीं आता है। भीलवाड़ा जिला राजस्थान उच्च न्यायालय की जोधपुर पीठ के अधिकार क्षेत्र में आता है।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14859,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस तारीख को राजस्थान उच्च न्यायालय के नियम, 1952 प्रभावी हुए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "16 जनवरी, 1952"
+        },
+        {
+          "id": "opt2",
+          "text": "15 अगस्त, 1952"
+        },
+        {
+          "id": "opt3",
+          "text": "01 अक्टूबर, 1952"
+        },
+        {
+          "id": "opt4",
+          "text": "31 दिसम्बर, 1952"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान उच्च न्यायालय के नियम, 1952 को 1 अक्टूबर, 1952 को प्रभावी किया गया था। ये राजस्थान उच्च न्यायालय में उस तारीख को या उसके पश्चात् प्रारम्भ हुई कार्यवाहियों और मामलों पर लागू होंगे और जहां तक ​​संभव हो उस तारीख को लंबित कार्यवाहियों और मामलों पर भी लागू होंगे।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14862,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के उच्च न्यायालय की जोधपुर पीठ के अंतर्गत आने वाले जिला न्यायालयों की कल संख्या कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "36"
+        },
+        {
+          "id": "opt2",
+          "text": "35"
+        },
+        {
+          "id": "opt3",
+          "text": "16"
+        },
+        {
+          "id": "opt4",
+          "text": "19"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14863,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कमलकांत वर्मा राजस्थान के पहले ____ थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt4",
+          "text": "उप मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14864,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से बीस सूत्रीय कार्यक्रम की राज्य स्तरीय निगरानी समिति की एक वर्ष में कितनी बैठकें आयोजित की जानी चाहिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दो"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "चार"
+        },
+        {
+          "id": "opt4",
+          "text": "पाँच"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीस सूत्रीय कार्यक्रम की राज्य स्तरीय अनुश्रवण समिति की एक वर्ष में दो बैठकें हैं। कार्यक्रम का उद्देश्य गरीबी उन्मूलन, ग्रामीण क्षेत्रों में रोजगार सृजन, आवास, शिक्षा, परिवार कल्याण और स्वास्थ्य, पर्यावरण की सुरक्षा और विशेष रूप से ग्रामीण क्षेत्रों में जीवन की गुणवत्ता को प्रभावित करने वाली कई अन्य योजनाओं से संबंधित योजनाओं को गति प्रदान करना है।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14865,
+        "exam": "Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा विभाग गृह मंत्रालय का संगठनात्मक हिस्सा हैं? A. सीमा प्रबन्धन विभाग B. आधिकारिक भाषा विभाग C. आन्तरिक सुरक्षा विभाग सही उत्तर है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) और (B)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A) और (C)"
+        },
+        {
+          "id": "opt3",
+          "text": "(B) और (C)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A), (B) और (C)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त दिए गए प्रश्न में - सीमा प्रबन्धन विभाग और आंतरिक सुरक्षा विभाग गृह मंत्रालय का हिस्सा है। जबकि आधिकारिक भाषा विभाग गृह मंत्रालय का हिस्सा नहीं है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14866,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के संविधान के किस अनुच्छेद के तहत उच्चतम न्यायालय किसी अधिकरण द्वारा किसी मामले में पारित किये गये निर्णय की अपील के लिए विशेष इजाजत दे सकता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद131"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद135"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद136"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद137"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय संविधान के अनुच्छेद136के तहत उच्चतम न्यायालय किसी अधिकरण द्वारा किसी मामले में पारित किए गए निर्णय की अपील के लिए विशेष इजाजत दे सकता है। अनुच्छेद 131 उच्चतम न्यायालय का मूल क्षेत्राधिकार एवं अनुच्छेद137 उच्चतम न्यायालय द्वारा निर्णयों अथवा आदेशों की समीक्षा से संबंधित है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14867,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के संविधान के किस अनुच्छेद में राष्ट्रपति की क्षमा प्रदान करने की शक्ति का उल्लेख है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "70"
+        },
+        {
+          "id": "opt2",
+          "text": "71"
+        },
+        {
+          "id": "opt3",
+          "text": "72"
+        },
+        {
+          "id": "opt4",
+          "text": "73"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "संविधान के अनुच्छेद72में राष्ट्रपति को क्षमा प्रदान करने की शक्ति का उल्लेख है। राष्ट्रपति की क्षमादान शक्ति न्यायपालिका से स्वतंत्र है। वह एक कार्यकारी शक्ति है परन्तु राष्ट्रपति इस शक्ति का प्रयोग करने के लिए किसी न्यायालय की तरह पेश नहीं आता।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14868,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के केन्द्रीय सेवाओं की स्थापना के संबंध में राष्ट्रपति का मुख्य सलाहकार होता है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वित्त मंत्रालय"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रम व रोजगार मंत्रालय"
+        },
+        {
+          "id": "opt3",
+          "text": "गृह मंत्रालय"
+        },
+        {
+          "id": "opt4",
+          "text": "कार्मिक, लोक शिकायत एवं पेंशन मंत्रालय"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत के केन्द्रीय सेवाओं की स्थापना के संबंध में राष्ट्रपति का मुख्य सलाहकार ‘‘कार्मिक, लोक शिकायत एवं पेंशन मंत्रालय’’ होता है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14869,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के राष्ट्रपति मंत्रिपरिषद की सलाह को पुनर्विचार हेतु कितनी बार कह सकते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1बार"
+        },
+        {
+          "id": "opt2",
+          "text": "2बार"
+        },
+        {
+          "id": "opt3",
+          "text": "3बार"
+        },
+        {
+          "id": "opt4",
+          "text": "4बार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत का राष्ट्रपति मंत्रिपरिषद की सलाह को पुनर्विचार हेतु केवल1बार कह सकते है। भारत में राष्ट्रपति की पूर्वानुमति से ही धन विधेयक को संसद में प्रस्तुत किया जा सकता है एवं अनुदान की कोई भी माँग उसकी सिफारिश के बिना नहीं की जा सकती है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14870,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में संसद द्वारा पारित किसी विधेयक(धन विधेयक के अतिरिक्त)को पुनर्विचार हेतु लौटाने हेतु राष्ट्रपति को दी गयी समय सीमा है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिन"
+        },
+        {
+          "id": "opt2",
+          "text": "एक माह"
+        },
+        {
+          "id": "opt3",
+          "text": "कोई समय सीमा निर्धारित नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "28 दिन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत में संसद द्वारा पारित किसी विधेयक(धन विधेयक को छोड़कर)को पुनर्विचार हेतु लौटाने हेतु राष्ट्रपति के कोई समय- सीमा निर्धारित नहीं की गई है। इस विधेयक के संबंध में राष्ट्रपति वीटो को प्रयोग करके अनिश्चितकाल तक रोक सकता है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14871,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में संघ राज्य-क्षेत्रों से राज्य सभा के लिए प्रतिनिधित्व की रीति तय करने हेतु संविधान द्वारा अधिकृत किया गया",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संसद को"
+        },
+        {
+          "id": "opt2",
+          "text": "उपराष्ट्रपति को"
+        },
+        {
+          "id": "opt3",
+          "text": "निर्वाचन आयोग को"
+        },
+        {
+          "id": "opt4",
+          "text": "संबंधित संघ क्षेत्र को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अनुच्छेद-80के तहत भारत में संघ राज्य-क्षेत्रों से राज्यसभा के लिए प्रतिनिधित्व की रीति तय करने का अधिकार भारतीय संसद को है। इस अनुच्छेद के तहत राज्यसभा के प्रत्येक राज्य और संघ राज्य का प्रतिनिधित्व उनकी जनसंख्या के आधार पर तय किया जाता है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14872,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में मंत्रिमण्डल सचिवालय निम्न में से सीधे किसके नियंत्रण में कार्य करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गृह मंत्रालय"
+        },
+        {
+          "id": "opt2",
+          "text": "संसद"
+        },
+        {
+          "id": "opt3",
+          "text": "संघ लोक सेवा आयोग"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रधानमंत्री"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत में मंत्रिमण्डल सचिवालय सीधे प्रधानमंत्री के नियंत्रण में कार्य करता है। वैâबिनेट सचिवालय, नई दिल्ल्ी के रायसीना हिल पर राष्ट्रपति भवन में स्थित है। मंत्रिमण्डल सचिवालय सरकार के मंत्रालयों और विभागों के बीच कार्यकाल को सुचारू रूप से चलाता है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14873,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उच्चतम न्यायालय के एक न्यायाधीश की पदच्युति किस अनुच्छेद में समाहित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद56"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद61"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद56(b)"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद124(4)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उच्चतम न्यायाल के किसी न्यायाधीश को पद से हटाए जाने का प्रावधान124(4)में वर्णित है। किसी न्यायाधीश को उसके पद से तब तक नहीं हटाया जाएगा जब तक साबित कदाचार या उसमर्थता के आधार पर ऐसे हटाए जाने के लिए संसद के प्रत्येक सदन द्वारा अपनी कुल सदस्य संख्या के बहुमत द्वारा तथा उपस्थित और मत देने वाले सदस्यों के कम से कम दो-तिहाई बहुमत द्वारा समर्थित समावेदन राष्ट्रपति के आदेश से उसी सत्र में पारित होना चाहिए।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14874,
+        "exam": "RPSC School Lect. (S.E.)2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रथम लोक सभा गठित हुई थी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "17 मई, 1952"
+        },
+        {
+          "id": "opt2",
+          "text": "20अप्रैल, 1952"
+        },
+        {
+          "id": "opt3",
+          "text": "17मार्च, 1952"
+        },
+        {
+          "id": "opt4",
+          "text": "17अप्रैल, 1952"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत की प्रथम लोकसभा का गठन17अप्रैल1952 को हुआ था। देश का पहला आम चुनाव अक्टूबर1951से फरवरी 1952तक आयोजित किए गए थे।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.)2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14875,
+        "exam": "RPSC School Lect. (S.E.)2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सार्वजनिक महत्व के एक मामले के सम्बन्ध में जानकारी प्राप्त करने के लिए, राजस्थान विधानसभा का सदस्य अन्त: सत् अवधि के दौरान एक सप्ताह में कितने अतारांकित प्रश्न की सूचना दे सकता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt4",
+          "text": "सात"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सार्वजनिक महत्व के एक मामले संबंध में जानकारी प्राप्त करने के लिये, राजस्थान विधान सभा का सदस्य अन्त: सत्र अवधि के दौरान एक सप्ताह में एक से अधिक अतारांकित प्रश्नों की सूचना नहीं दे सकता, इन प्रश्नों का उत्तर सरकार द्वारा15 दिनों के भीतर सीधे सदस्य को भेजा जाता है साथ ही उत्तर की एक प्रति विधान सभा को भेजी जाती है।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14876,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान उच्च न्यायालय में वर्तमान में(जुलाई, 2020)न्यायाधीशों के पदों की कुल कितनी संख्या स्वीकृत हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "40"
+        },
+        {
+          "id": "opt2",
+          "text": "45"
+        },
+        {
+          "id": "opt3",
+          "text": "50"
+        },
+        {
+          "id": "opt4",
+          "text": "55"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान उच्च न्यायालय(जोधपुर)में जजों की स्वीकृत संख्या50है। राजस्थान उच्च न्यायालय की स्थापना29अगस्त, 1949को किया गया था, खण्डपीठ जयपुर में है।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14877,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित मे से कौन सा जिला राजस्थान उच्च न्यायालय की जयपुर पीठ के अधिकार क्षेत्र में नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान उच्च न्यायालय की जयपुर पीठ के अधिकार क्षेत्र में चित्तौड़गढ़ जिला नहीं है। जयपुर पीठ के अधिकार क्षेत्र के जिले निम्न है- अजमेर, अलवर, भरतपुर, धौलपुर, कोटा, बूंदी, झालावाड़, बारां, जयपुर, झुंझुन, सवाईमाधोपुर, करौली, सीकर, टोंक, दौसा, कुल15जिलें है।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020 RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14878,
+        "exam": "RPSC Evaluation Officer 2020 RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कितने न्यूनतम सदस्यों के पक्ष में होने पर ही राजस्थान विधानसभा में मन्त्री परिषद में अविश्वास प्रस्ताव पर चर्चा हो सकती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20"
+        },
+        {
+          "id": "opt2",
+          "text": "30"
+        },
+        {
+          "id": "opt3",
+          "text": "40"
+        },
+        {
+          "id": "opt4",
+          "text": "50"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान विधान सभा में मंत्रिपरिषद में न्यूनतम40 सदस्यों के पक्ष में होने पर ही अविश्वास प्रस्ताव पर चर्चा हो सकती है।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14879,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    }
+  ]
+}

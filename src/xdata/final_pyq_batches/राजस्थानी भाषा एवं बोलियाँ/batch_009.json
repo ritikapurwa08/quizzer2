@@ -1,0 +1,663 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 9,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 9",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "“स्वतंत्र बावनी” की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फागु महाराज"
+        },
+        {
+          "id": "opt2",
+          "text": "ठाकुर ओंकार सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "दुलिया राणा"
+        },
+        {
+          "id": "opt4",
+          "text": "तेज कवि जैसलमेरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6597,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुवलयमाला में कितनी देशी भाषाओं का उल्लेख है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18"
+        },
+        {
+          "id": "opt2",
+          "text": "08"
+        },
+        {
+          "id": "opt3",
+          "text": "06"
+        },
+        {
+          "id": "opt4",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6599,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रणमल छंद’ की रचना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हेमराज"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीधर"
+        },
+        {
+          "id": "opt3",
+          "text": "दलपत"
+        },
+        {
+          "id": "opt4",
+          "text": "नरपति नाथ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6602,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विग्रहराज रचित रचना ‘हरकेली’ है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाटक"
+        },
+        {
+          "id": "opt2",
+          "text": "उपन्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "काव्य"
+        },
+        {
+          "id": "opt4",
+          "text": "अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6603,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बुद्धिविलास’ किसने लिखा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बालमुकुन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "बखतराम"
+        },
+        {
+          "id": "opt3",
+          "text": "बुद्धिप्रकाश"
+        },
+        {
+          "id": "opt4",
+          "text": "बालचन्द"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘बुद्धिविलास’ एक प्रसिद्ध राजस्थानी ग्रंथ है, जिसे बखतराम साह ने लिखा था। इसमें जयपुर के कछवाहों का इतिहास है। इस पुस्तक में जयपुर शहर की स्थापना की जानकारी भी पाई गई है।",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6604,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘जागती जोत’ पत्रिका का प्रकाशन किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी भाषा, साहित्य एवं संस्कृति अकादमी, बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान साहित्य अकादमी, उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान हिन्दी ग्रंथ अकादमी, जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान ललित कला अकादमी, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6605,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन विजयदान देथा द्वारा नहीं लिखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बातां री फुलवारी"
+        },
+        {
+          "id": "opt2",
+          "text": "रूख"
+        },
+        {
+          "id": "opt3",
+          "text": "माँ रो बदलो"
+        },
+        {
+          "id": "opt4",
+          "text": "बलवंत विलास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6606,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रागमाला’ किसके द्वारा रची गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुंडरीक विट्ठल"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भा"
+        },
+        {
+          "id": "opt3",
+          "text": "उस्ताद चाँद खान"
+        },
+        {
+          "id": "opt4",
+          "text": "पंडित भावभट्ट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पुण्डरीक विट्ठलवह ‘राग माला’ से जुड़े हुए हैं।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6608,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को मिलाएं –संस्थान(i) राजस्थान कला विद्यालय(ii) राजस्थान ललित कला अकादमी(iii) जवाहर कला केंद्र(iv) रवींद्र मंचस्थापना वर्ष(1) 1963(2) 1957(3) 1993(4) 1888 कूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(I)-4, (II)-2, (III)-3, (IV)-1"
+        },
+        {
+          "id": "opt2",
+          "text": "(I)-4, (II)-3, (III)-1, (IV)-2"
+        },
+        {
+          "id": "opt3",
+          "text": "(I)-4, (I)-3, (II)-2, (IV)-1"
+        },
+        {
+          "id": "opt4",
+          "text": "(I)-3, (II)-4, (III)-1, (IV)-2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6609,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से गलत युग्म की पहचान कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीसलदेव रासो: नरपति नाल्ह"
+        },
+        {
+          "id": "opt2",
+          "text": "सूरज प्रकश: मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "वंश भास्कर: सूर्यमल मीसण"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी रा छंद: बीठू मेहा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कविराजा करणीदान ने “सूरज प्रकास” की रचना की।बीसलदेव रासो पुरानी पश्चमी राजस्थानी की एक सुप्रसिद्ध रचना है। इसके रचनाकार नरपति नाल्ह हैं।वंश भास्कर की रचना चारण कवि सूर्यमल्ल मिश्रण द्वारा की गई थी जो बूँदी के हाड़ा शासक महाराव रामसिंह के दरबारी कवि थे।बीठू सूजा की रचना ‘पाबूजी रा छंद’ है।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6610,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सुधा प्रबन्ध’ किसने लिखी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथा"
+        },
+        {
+          "id": "opt2",
+          "text": "मण्डन"
+        },
+        {
+          "id": "opt3",
+          "text": "कुम्भा"
+        },
+        {
+          "id": "opt4",
+          "text": "गोविन्द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6621,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी कृति / रचना मणि मधुकर की नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पगफेरो"
+        },
+        {
+          "id": "opt2",
+          "text": "सुधि सपनों के तीर"
+        },
+        {
+          "id": "opt3",
+          "text": "रस गंधर्व"
+        },
+        {
+          "id": "opt4",
+          "text": "जामारो"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6624,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ग्रियर्सन ने बागड़ (डूँगपुर-बाँसवाड़ा) में बोली जाने वाली बोली को कहा है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुजराती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt4",
+          "text": "भीली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "ग्रियर्सन ने बागड़ (डूगरपूर-बाँसवाड़ा) में बोली जाने वाली बोली को भीली कहाँ है। बागड़ी समुदाय के बारे में, ग्रियर्सन का मत है कि ``बागड़ी'' भील जनजाति की बोली है, जो राजपूताना और आस-पास के जिलों में पाई जाती है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022 RPSC Yoga & Prakritik Chikista Adhikari 2020 RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6627,
+        "exam": "RPSC Food Safety Officer - 2022 RPSC Yoga & Prakritik Chikista Adhikari 2020 RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC Jr.Accountant TRA 02/08/2015 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसने अपनी कृति ‘‘राव जैतसी रो’’ छंद में राव लूणकर्ण को ‘‘कलयुग का कर्ण’’ बताया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिठू सुजा"
+        },
+        {
+          "id": "opt2",
+          "text": "वीरभान सुजामल"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरदास"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्णिदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राव जैतसी रो के लेखक बीठू सूजा थे। इस पुस्तक में उन्होंने राव लूणकर्ण को कलयुग का कर्ण कहा है। राव जैतसी रो एक ऐतिहासिक ग्रंथ है।",
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6628,
+        "exam": "RPSC Asst. Town Planner-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "_______के आध्यात्मिक विचारों को पुस्तकों में संकलित किया गया, एक का शीर्षक ‘‘मंत्र राजप्रकाश’’ है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दादूदयाल"
+        },
+        {
+          "id": "opt2",
+          "text": "लालदास"
+        },
+        {
+          "id": "opt3",
+          "text": "पीपा"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिदास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "संत हरिदास जी के आध्यात्मिक विचारों का संकलन मंत्र राज प्रकाश में किया गया। संत हरिदास जी निरंजनी सम्प्रदाय के संस्थापक हैं।",
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6629,
+        "exam": "RPSC Asst. Town Planner-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आधुनिक राजस्थान में उदयपुर, चित्तौड़गढ़, राजसमंद और भीलवाड़ा के क्षेत्र को_________बोली का क्षेत्र कहा जा सकता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt4",
+          "text": "मालवी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ी बोली चित्तौड़, राजसमंद, प्रतापगढ़, भीलवाड़ा और उदयपुर में बोली जाती है।",
+      "reference": "📌 PYQ — RPSC Asst. Town Planner-2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6630,
+        "exam": "RPSC Asst. Town Planner-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किसने ‘ईश्वर विलास महाकाव्य’ लिखा था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शिवानन्द गोस्वामी"
+        },
+        {
+          "id": "opt2",
+          "text": "रत्नाकर भट्ट"
+        },
+        {
+          "id": "opt3",
+          "text": "कृष्ण भट्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "मधुसुदन ओझा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ईश्वर विलास महाकाव्य की रचना संस्कृत और ब्रजभाषा के विद्वान कवि कृष्ण भट्ट ने की थी। इसमें जयपुर के इतिहास का उल्लेख है।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6632,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डॉ. ग्रियर्सन ने अपनी पुस्तक ‘‘लिंग्विस्टिक सर्वे ऑफ इंडिया’’ में राजस्थानी बोलियों को_________मुख्य समूहों में विभाजित किया है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तील"
+        },
+        {
+          "id": "opt2",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "नौ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी डॉ. ग्रियर्सन ने राजस्थानी बोलियों को पाँच उपशाखाओं में विभाजित किया है – मालवी, रांगड़ी, बागड़ी, निमाड़ी, भीली।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-I",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6635,
+        "exam": "RPSC RO&EO 2022 Shift-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाड़ा राजपूतों द्वारा शासित क्षेत्र में बोली जाने वाली बोली________बोली कहा जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "भीली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हाड़ा राजपूतों के क्षेत्र में बोली जाने वाली बोली हाड़ौती बोली कहलाती है। हाड़ौती बोली कोटा, बूँदी, बारां, रावतभाटा, झालावाड़ में प्रचलित है।",
+      "reference": "📌 PYQ — RPSC RO&EO 2022 Shift-II",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6637,
+        "exam": "RPSC RO&EO 2022 Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ में ‘सर्वोदय साधना आश्रम’ की स्थापना किसने की?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिद्धराज ढढ्ढा ने"
+        },
+        {
+          "id": "opt2",
+          "text": "के.एम. मुंशी ने"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा ने"
+        },
+        {
+          "id": "opt4",
+          "text": "जिन विजय मुनि ने"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चित्तौड़गढ़ में ‘सर्वोदय साधना आश्रम’ की स्थापना ‘जिन विजय मुनि’ ने की थी। वह राजस्थान ओरियंटल इंस्टीटयूट, गुजरात पुरातत्व विद्या मंदिर आदि सांस्कृतिक संस्थानों से जुड़े हुए थे।",
+      "reference": "📌 PYQ — RPSC Protection Officer-2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6638,
+        "exam": "RPSC Protection Officer-2022",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "masterTopic": "राजस्थान के महाजनपद एवं प्राचीन राजनीतिक इतिहास",
+  "batchIndex": 1,
+  "batchName": "राजस्थान के महाजनपद एवं प्राचीन राजनीतिक इतिहास भाग 1",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-महाजनपद-एवं-प्राचीन-राजनीतिक-इतिहास",
+  "negativeMarking": true,
+  "questionCount": 15,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं: एक अभिकथन A के रूप में लिखित है तो दूसरा उसके कारण R के रूप में: अभिकथन A: आर्य जनजाति के रूप में मत्स्य सबसे पहले ऋग्वेद में उल्लेखित किए गए हैं। यह इसके बहुत प्राचीन जनजाति होने का संकेत है।कारण R: मौर्य शासनकाल के दौरान, मत्स्य जनपद मगध साम्राज्य का भाग था।उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऋग्वेद में ‘मत्स्य’ जनजाति/जनपद का उल्लेख मिलता है, जिससे प्रमाणित होता है कि यह भारत की प्राचीनतम संस्कृतियों में से एक है। इसकी राजधानी विराटनगर (जयपुर के पास) थी। मौर्य काल के दौरान (सम्राट अशोक के समय, जिनका भाब्रू शिलालेख बैराठ/विराटनगर से मिला), मत्स्य जनपद मगध साम्राज्य का हिस्सा बन चुका था। कारण (R) यह बताता है कि मौर्य काल में मत्स्य मगध का भाग था, लेकिन इससे यह सिद्ध नहीं होता कि ऋग्वेद में इसका उल्लेख क्यों है या यह प्राचीन क्यों है। दोनों बातें ऐतिहासिक रूप से सच हैं, पर आपस में ‘कार्य-कारण’ का संबंध नहीं रखतीं।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Geography)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7897,
+        "exam": "Lab Assistant Exam 2026 (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राचीन राजस्थान में मत्स्य साम्राज्य की राजधानी क्या थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजसमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "विराटनगर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मत्स्य शब्द का सर्वप्रथम उल्लेख ऋग्वेद में मिलता है जहां मत्स्य निवासियों को सुदास का शत्रु बताया गया है। मत्स्य जनपद आधुनिक जयपुर, अलवर, भरतपुर के मध्यवर्ती क्षेत्र में विस्तृत था। इसकी राजधानी विराटनगर थी।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7898,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित प्राचीन नामों को राजस्थान में उनके अंतर्गत आने वाले वर्तमान क्षेत्रों से सुमेलित करें।प्राचीन नाम वर्तमान क्षेत्रa. मरू 1. जोधपुरb. जंगल देश 2. अलवरc. मत्स्य 3. धौलपुर-करौलीd. शूरसेन 4. बीकानेर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-1 b-4 c-3 d-2"
+        },
+        {
+          "id": "opt2",
+          "text": "a-4 b-1 c-2 d-3"
+        },
+        {
+          "id": "opt3",
+          "text": "a-4 b-3 c-1 d-2"
+        },
+        {
+          "id": "opt4",
+          "text": "a-1 b-4 c-2 d-3"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जंगल प्रदेश, जिसे जांगलदेश के नाम से भी जाना जाता है, राजस्थान में एक ऐतिहासिक क्षेत्र था जिसमें वर्तमान बीकानेर, चूरू, गंगानगर और हनुमानगढ़ के कुछ हिस्से शामिल थे।मरु प्रदेश उत्तर पश्चिम भारत में थार रेगिस्तान का एक भौगोलिक, सांस्कृतिक, सामाजिक, आर्थिक, राजनीतिक और भाषाई क्षेत्र है। मरु प्रदेश का सबसे बड़ा शहर जोधपुर है।मत्स्य जनपद आधुनिक जयपुर, अलवर, भरतपुर के मध्यवर्ती क्षेत्र में विस्तृत था। मत्स्य राज्य की राजधानी विराटनगर (आज का बैराठ) थी।शूरसेन महाजनपद​​ इसका क्षेत्र वर्तमान पूर्वी अलवर, धौलपुर, भरतपुर तथा करौली था। इसकी राजधानी मथुरा थी। वासुदेव पुत्र कृष्ण का संबंध किस जनपद से था।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7899,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसके द्वारा पश्चिमी शकों के विरुद्ध विजयोपरांत ‘एकाषष्ठी रात्र यज्ञ’ का आयोजन किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालव"
+        },
+        {
+          "id": "opt2",
+          "text": "यौधेय"
+        },
+        {
+          "id": "opt3",
+          "text": "शिबि"
+        },
+        {
+          "id": "opt4",
+          "text": "मत्स्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी शकों के विरुद्ध विजय के उपरांत मालवों ने यह यज्ञ किया था।",
+      "reference": "📌 PYQ — Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7900,
+        "exam": "Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस शक क्षत्रप का नाम बताइये जिसने पुष्कर के लोकप्रिय पर्यटन स्थल को नियंत्रित किया -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रुद्रासिम्हा III"
+        },
+        {
+          "id": "opt2",
+          "text": "रुद्रदामन I"
+        },
+        {
+          "id": "opt3",
+          "text": "यशोदामन I"
+        },
+        {
+          "id": "opt4",
+          "text": "नाहपाना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पश्चिमी क्षत्रप शक शासक थे जिन्होंने भारत के पश्चिमी और मध्य भागों पर शासन किया था। इस राजवंश की स्थापना राजा चष्टना ने वर्ष 78 ई. में की थी, उन्होंने इस राजवंश की स्थापना मालवा क्षेत्र में की थी। वे क्षहरात और कर्दमक नामक दो अलग-अलग राजवंशों से माने जाते हैं। नहपान पश्चिमी क्षत्रपों के सबसे महत्वपूर्ण शासकों में से एक था, जिसने पश्चिमी भारत के कुछ हिस्सों, जिसमें पुष्कर (अजमेर, राजस्थान) शामिल था, को नियंत्रित किया।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 3 Shift II)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7901,
+        "exam": "Animal Attendant 2023 Exam (December 3 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य महाजनपद की राजधानी थी: निम्नलिख्यित विकल्पों में से सर्वाधिक उपयुक्त उनर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तक्षशिला"
+        },
+        {
+          "id": "opt2",
+          "text": "कौशाम्बी"
+        },
+        {
+          "id": "opt3",
+          "text": "विदेहा"
+        },
+        {
+          "id": "opt4",
+          "text": "विराट नगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मत्स्य महाजनपद, जो प्राचीन भारत के 16 महाजनपदों में से एक था, की राजधानी विराट नगर थी।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 2 Shift II)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7902,
+        "exam": "Animal Attendant 2023 Exam (December 2 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़ के आस-पास के क्षेत्र को _______ जनपद के रूप में जाना जाता था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt2",
+          "text": "अवंति"
+        },
+        {
+          "id": "opt3",
+          "text": "शिवि"
+        },
+        {
+          "id": "opt4",
+          "text": "मालव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7903,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन मत्स्य की राजधानी थी, जिसका उल्लेख महाभारत में एक राज्य के रूप में किया गया, जो जयपुर, अलवर और भरतपुर के कुछ हिस्सों तक फैला हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विराटनगर"
+        },
+        {
+          "id": "opt2",
+          "text": "कुरुक्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "हस्तिनापुर"
+        },
+        {
+          "id": "opt4",
+          "text": "काम्पिल्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-1",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7904,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिवि जनपद की राजधानी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैराठ (विराट नगर)"
+        },
+        {
+          "id": "opt2",
+          "text": "माध्यमिका (नगरी)"
+        },
+        {
+          "id": "opt3",
+          "text": "रैढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्कोट"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़ प्रदेश (चितौड़गढ) नामकरण की दृष्टि से द्वितीय शताब्दी में शिवजनपद (राजधानी माध्यमिका) के नाम से प्रसिद्ध था। बाद में ‘प्राग्वाट’ नाम का प्रयोग हुआ। कालान्तर में इस भू भाग को ‘मेदपाट’ नाम से सम्बोधित किया गया।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7905,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कुषाण शक्ति को सम्भवतः नष्ट करने में कौन - सा जनपद सफल रहा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवा"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवि"
+        },
+        {
+          "id": "opt3",
+          "text": "यौधेय"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्जुनायन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7906,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य जनपद का सर्वप्रथम उल्लेख किस में मिलता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ॠग्वेद में"
+        },
+        {
+          "id": "opt2",
+          "text": "सामवेद में"
+        },
+        {
+          "id": "opt3",
+          "text": "यजुर्वेद में"
+        },
+        {
+          "id": "opt4",
+          "text": "अथर्ववेद में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7907,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में कौन-सी राजस्थान के शिवी जनपद की राजधानी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "मध्यमिका"
+        },
+        {
+          "id": "opt3",
+          "text": "विराटनगरी"
+        },
+        {
+          "id": "opt4",
+          "text": "इन्द्रप्रस्थ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7908,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा प्राचीन स्थल शिवि जनपद से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नगरी"
+        },
+        {
+          "id": "opt2",
+          "text": "नगर"
+        },
+        {
+          "id": "opt3",
+          "text": "रैढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "बैराठ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेवाड़ प्रदेश (चितौड़गढ) नामकरण की दृष्टि से द्वितीय शताब्दी में शिवजनपद (राजधानी माध्यमिका (नगरी)) के नाम से प्रसिद्ध था। बाद में ‘प्राग्वाट’ नाम का प्रयोग हुआ। कालान्तर में इस भू भाग को ‘मेदपाट’ नाम से सम्बोधित किया गया।",
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7909,
+        "exam": "Asst. Statistical Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा एक महाजनपद राजस्थान में स्थित था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अंग"
+        },
+        {
+          "id": "opt2",
+          "text": "मत्स्य"
+        },
+        {
+          "id": "opt3",
+          "text": "अवंति"
+        },
+        {
+          "id": "opt4",
+          "text": "चेदि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7910,
+        "exam": "Raj Police Constable Exam (6 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बैराठ प्राचीन भारत में किस जनपद की राजधानी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मत्स्य"
+        },
+        {
+          "id": "opt2",
+          "text": "पाचाल"
+        },
+        {
+          "id": "opt3",
+          "text": "चेदी"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्जुनाय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Supervisor (women empowerment) Exam 2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7911,
+        "exam": "Supervisor (women empowerment) Exam 2018",
+        "year": 2018
+      }
+    }
+  ]
+}

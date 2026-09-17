@@ -1,0 +1,666 @@
+{
+  "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
+  "batchIndex": 4,
+  "batchName": "राजस्थान में सामाजिक एवं राजनीतिक जागरण भाग 4",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-सामाजिक-एवं-राजनीतिक-जागरण",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘मीणा क्षत्रिय सभा’ की स्थापना कब की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1924"
+        },
+        {
+          "id": "opt2",
+          "text": "1933"
+        },
+        {
+          "id": "opt3",
+          "text": "1944"
+        },
+        {
+          "id": "opt4",
+          "text": "1946"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1933 में मीणा क्षेत्रीय महासभा का गठन किया।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 242,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ट्रेंच कमीशन किस से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीमूचाना किसान आंदोलन से"
+        },
+        {
+          "id": "opt2",
+          "text": "बेगू किसान आंदोलन से"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावटी किसान आंदोलन से"
+        },
+        {
+          "id": "opt4",
+          "text": "बिजोलिया किसान आंदोलन से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बेंगूं के सामन्त अनूपसिंह ने किसानों से समझौता कर लिया लेकिन मेवाड़ रियासत ने इसे मानने से मना कर दिया तथा इसे बोल्शेविक समझौता कहा। मेवाड़ महाराणा ने ट्रेन्च को जाँच करने के लिए भेजा।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 244,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मेवाड़ पुकार’ क्या था/थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मासिक पत्रिका"
+        },
+        {
+          "id": "opt2",
+          "text": "साप्ताहिक समाचारपत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "शौर्य गाथा"
+        },
+        {
+          "id": "opt4",
+          "text": "इक्कीस सूत्रीय मांग पत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मोतीलाल तेजावत ने मेवाड़ महाराणा के सामने 21 मांगे रखी जिन्हें ‘मेवाड़ की पुकार’ कहा जाता है लेकिन इन मांगो पर ध्यान नहीं दिया गया।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 245,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एकी आन्दोलन की शुरुआत 1921 ई. मोतीलाल तेजावत ने कहाँ से शुरू की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "देवलिया"
+        },
+        {
+          "id": "opt2",
+          "text": "सांवलिया"
+        },
+        {
+          "id": "opt3",
+          "text": "मण्डफिया"
+        },
+        {
+          "id": "opt4",
+          "text": "मातृकुण्डिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मोतीलाल तेजावत द्वारा एकी आन्दोलन चलाया गया। भोमट क्षेत्र में चलाने के कारण इसे भोमट आन्दोलन के नाम से भी जाना जाता है। एकी आन्दोलन का प्राराम्भ 1921 में मातृकुण्डिया ग्राम(चित्तौड़गढ़) से हुआ।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 248,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मेवाड़ पुकार’ नामक 21 सूत्रीय माँगपत्र किसने तैयार किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हरिदेव जोशी ने"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्द गिरि ने"
+        },
+        {
+          "id": "opt3",
+          "text": "माणिक्यलाल वर्मा ने"
+        },
+        {
+          "id": "opt4",
+          "text": "मोतीलाल तेजावत ने"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मोतीलाल तेजावत ने मेवाड़ महाराणा के सामने 21 मांगे रखी जिन्हें ‘मेवाड़ की पुकार’ कहा जाता है लेकिन इन मांगो पर ध्यान नहीं दिया गया।",
+      "reference": "📌 PYQ — JEN 2022: Elec. Mech. Degree (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 249,
+        "exam": "JEN 2022: Elec. Mech. Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसकी अध्यक्षता में मीणा जाति का एक विशाल सम्मेलन अप्रैल 1944 में नीमकाथाना में आयोजित हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शांतिसागर जी महाराज"
+        },
+        {
+          "id": "opt2",
+          "text": "मगनसागर जी महाराज"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरालाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "शोभालाल गुप्ता"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सन्त मगन सागर ने 1944 में नीम का थाना में मीणा सम्मेलन का आयोजन किया तथा ‘मीन पुराण’ नामक पुस्तक लिखी।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 250,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा कृषक आन्दोलन भील जनजाति से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नीमूचाणा"
+        },
+        {
+          "id": "opt2",
+          "text": "भगत"
+        },
+        {
+          "id": "opt3",
+          "text": "ज़कात"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ पुकार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेवाड़, डूरंगरपुर, बांसवाड़ा की भील जनजाति द्वारा आन्दोलन किया गया। गीविन्द गुरु स्वामी दयानन्द सरस्वती से प्रभावित थे। जनजातियों को हिन्दु धर्म में रखने के लिए भगत पंथ की स्थापना की।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 251,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“भगत आन्दोलन” शीर्षक के नाम से पुस्तक के लेखक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जी.एन.शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "वी.के. वशिष्ठ"
+        },
+        {
+          "id": "opt3",
+          "text": "रीमा हूजा"
+        },
+        {
+          "id": "opt4",
+          "text": "पेमाराम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "“भगत आंदोलन: दक्षिणी राजस्थान के भीलों के सांस्कृतिक परिवर्तन का एक अध्ययन” विजय कुमार वशिष्ठ द्वारा लिखा गया है।प्रकाशक: श्रुति प्रकाशन, 1997, जयपुर",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 252,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ऊपरमाल पंच बोर्ड का गठन किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साधु सीताराम दास ने"
+        },
+        {
+          "id": "opt2",
+          "text": "मन्ना पटेल ने"
+        },
+        {
+          "id": "opt3",
+          "text": "मोतीलाल तेजावत ने"
+        },
+        {
+          "id": "opt4",
+          "text": "विजय सिंह पथिक ने"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "विजयसिंह पथिक ने 1917 में बैरीसाल नामक गाँव में हरियाली अमावस्य के दिन ऊपरमाल पंच बोर्ड की स्थापना की तथा मन्ना पटेल को इसका अध्यअ बनाया। विजयसिंह पथिक ने ‘ऊपरमाल सेवा समिति’ का गठन किया तथा ‘अपरमाल का डंका’ नाम से पत्र प्रकाशित किया। बिजौलिया किसान आन्दोलन को लोकप्रिय व प्रचलित करने वाले समाचार पत्र 1. प्रताप 2. ऊपरमाल डंका थे।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 253,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस नरसंहार को गाँधी जी ने ‘दोहरी डायरशाही’ की संज्ञा दी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेगूं"
+        },
+        {
+          "id": "opt2",
+          "text": "मानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नीमूचाना"
+        },
+        {
+          "id": "opt4",
+          "text": "डाबी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "14 मई 1925 को नीमूचाणा ग्राम में एकत्रित होते है। छाजूसिंह नामक पुलिस अधिकारी ने फायरिंग कर दी जिसमें 156 लोग शहीद हुये थे। इसे राजस्थान का जलीयावाला बाग हत्याकाण्ड भी कहा जाता है।गांधीजी ने अपने ‘यंग इण्डिया’ समाचार यत्र में इसे दोहरी डायरशाही बताया तथा जलियावाला काण्ड से भी अधिक भयानक बताया।",
+      "reference": "📌 PYQ — JEN 2022: Civil Diploma (GK)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 254,
+        "exam": "JEN 2022: Civil Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1926 ई. में बूंदी कृषक आन्दोलन का नेतृत्व किसने किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामनारायण चौधरी"
+        },
+        {
+          "id": "opt2",
+          "text": "नयनूराम शर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "मोतीलाल तेजावत"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भाराम आर्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "1926 में बूंदी किसान आंदोलन हुआ। इसे बरड़ किसान आंदोलन के रूप में भी जाना जाता है। पंडित नयनूराम शर्मा के नेतृत्व में बरड़ के किसानों ने बैथ-बेगर, लागात और राज्य की अन्य अन्यायपूर्ण प्रथाओं के खिलाफ आवाज़ उठाई।",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 256,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरोही राज्य का राजस्थान में पूर्ण विलय कब हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5 जनवरी, 1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1 नवम्बर, 1956"
+        },
+        {
+          "id": "opt3",
+          "text": "15 जनवरी, 1950"
+        },
+        {
+          "id": "opt4",
+          "text": "25 जनवरी, 1950"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 265,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - B) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्तमान राजस्थान राज्य के गठन की सारी प्रक्रिया सम्पूर्ण हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1947 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "1948 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "1949 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "1956 ई."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 271,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आज़ादी के बाद जोधपुर के कौन से शासक अपनी रियासत को एक स्वतंत्र इकाई रखना चाहते थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा भीम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा भोपाल सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा हनुवन्त सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा उम्मेद सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 274,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शासक ने राजस्थान यूनियन बनाने के उद्देश्य से 25-26 जून 1946 को सम्मेलन आमंत्रित किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सार्दूल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई मान सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "भूपाल सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "जवाहर सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मेवाड़ महाराणा भूपाल सिंह ने राजस्थान, गुजरात, और मालवा के छोटे बड़े राज्यों को मिलाकर एक बड़ी इकाई राजस्थान यूनियन बनाने के उद्देश्य से 1946 में उदयपुर में सम्मलेन आयोजित किया, किन्तु जयपुर, बीकानेर व जोधपुर रियासत ने इस यूनियन प्रस्ताव को अस्वीकार कर दिया।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 280,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान में 26 जनवरी, 1950 में, राजस्थान को किस श्रेणी का राज्य माना गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भाग ‘अ’ राज्य"
+        },
+        {
+          "id": "opt2",
+          "text": "भाग ‘ब’ राज्य"
+        },
+        {
+          "id": "opt3",
+          "text": "भाग ‘स’ राज्य"
+        },
+        {
+          "id": "opt4",
+          "text": "भाग ‘द’ राज्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "A श्रेणी – वे राज्य जो पूर्व में प्रत्य्क्ष ब्रिटिश नियंत्रण में थे जैसे – बिहार, बंबई, मद्रास आदि इनके प्रमुख का पद गवर्नर का था।B श्रेणी – वे राज्य, जो स्वतंत्रता के बाद छोटी-बड़ी रियासतों के एकीकरण द्वारा बनाए गए थे, जैसे -राजस्थान, मध्य भारत आदि।C श्रेणी – ये वे छोटे छोटे राज्ये थे, जिन्हें ब्रिटिश काल में चीफ कमिश्नर के प्रान्त कहा जाता था। जैसे – अजमेर व दिल्ली",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group D)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 281,
+        "exam": "School Lecturer 2022 Gk (Group D)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उदयपुर राज्य का राजस्थान में विलय हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "18 मार्च, 1948 को"
+        },
+        {
+          "id": "opt2",
+          "text": "18 अप्रैल, 1948 को"
+        },
+        {
+          "id": "opt3",
+          "text": "30 मार्च, 1949 को"
+        },
+        {
+          "id": "opt4",
+          "text": "30 अप्रैल, 1949 को"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 288,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पी. सत्यनारायण राव समिति के संदर्भ में निम्न में से कौन सा कथन सत्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इस समिति ने जयपुर को राजस्थान की राजधानी बनाने की सिफारिश की।"
+        },
+        {
+          "id": "opt2",
+          "text": "इस समिति ने लोक सेवा आयोग का मुख्यालय अजमेर रखे जाने की सिफारिश की।"
+        },
+        {
+          "id": "opt3",
+          "text": "इस समिति ने हाईकोर्ट जोधपुर रखे जाने की सिफारिश की।"
+        },
+        {
+          "id": "opt4",
+          "text": "इस समिति ने कृषि विभाग का मुख्यालय उदयपुर रखे जाने की सिफारिश की।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सत्यनारायण राव समिति का गठन 1958 में पी. सत्यनारायण राव की अध्यक्षता में हुआ था जिसमें वी. विश्वनाथन तथा बी के गुहा अन्य सदस्य थेइस समिति ने जयपुर को राजस्थान की राजधानी बनाने की सिफारिश कि थीइस समिति की सिफारिश पर राज्य स्तरीय कार्यालय निम्नानुसार रखें गए 1. हाइकोर्ट - जोधपुर 2. शिक्षा विभाग -बीकानेर 3. वन व सहकारी विभाग - कोटा 4. कृषि विभाग - भरतपुर 5. खनिज और कस्टम एवं एक्साइज विभाग -उदयपुर 6.लोकसेवा आयोग - अजमेर",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 289,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत की स्वतंत्रता के बाद राजस्थान के गठन के कितने चरण थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt2",
+          "text": "सात"
+        },
+        {
+          "id": "opt3",
+          "text": "नौ"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्यारह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RSMSSB LSA 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 290,
+        "exam": "RSMSSB LSA 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सिरोही का राजस्थान में विलय कब हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1952"
+        },
+        {
+          "id": "opt2",
+          "text": "1948"
+        },
+        {
+          "id": "opt3",
+          "text": "1956"
+        },
+        {
+          "id": "opt4",
+          "text": "1949"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 294,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    }
+  ]
+}

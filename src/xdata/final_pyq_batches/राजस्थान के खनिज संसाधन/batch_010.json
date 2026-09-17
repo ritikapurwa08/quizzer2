@@ -1,0 +1,661 @@
+{
+  "masterTopic": "राजस्थान के खनिज संसाधन",
+  "batchIndex": 10,
+  "batchName": "राजस्थान के खनिज संसाधन भाग 10",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-खनिज-संसाधन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "भारत में पाये जाने वाला अधिकांश लौह धातु किस किस्म का है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हैमेटाइट"
+        },
+        {
+          "id": "opt2",
+          "text": "मैग्नेटाइट"
+        },
+        {
+          "id": "opt3",
+          "text": "लिमोनाइट"
+        },
+        {
+          "id": "opt4",
+          "text": "सिडेराइट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हैमेटाइट, मैग्नेटाइट, लिमोनाइट और सिडेराइट लौह धातु के अयस्क हैं। भारत में अधिकांशत: हैमेटाइट लौह धातु अयस्क पाया जाता है। ये प्रायद्वीपीय भारत के धारवाड़ और कड़प्पा चट्टानों में पाये जाते हैं। हेमेटाइट के अधिकांश भंडार ओडिशा, झारखंड, छत्तीसगढ़ और आन्ध्र प्रदेश में पाया जाता है।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18817,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का कौन-सा राज्य जिप्सम का सर्वाधिक उत्पादन करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तमिलनाडु"
+        },
+        {
+          "id": "opt2",
+          "text": "गुजरात"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान"
+        },
+        {
+          "id": "opt4",
+          "text": "मध्य प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान भारत का लगभग90 प्रतिशत जिप्सम उत्पादित करता है। इसके प्रमुख उत्पादक क्षेत्र - बीकानेर, हनुमानगढ़, चुरू, नागौर, जैसलमेर तथा बाड़मेर इत्यादि है।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18818,
+        "exam": "RPSC Sub Inspector 13/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिये गये खनिजों एवं उनके खनन क्षेत्रों में से त्रुटिपूर्ण (गलत) युग्म की पहचान कीजिए: खनिज - खनन क्षेत्र",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लोहा-अयस्क - नाथरा-की-पाल"
+        },
+        {
+          "id": "opt2",
+          "text": "ताँबा - खेतड़ी-सिंघाना"
+        },
+        {
+          "id": "opt3",
+          "text": "जस्ता एवं सीसा - जावर"
+        },
+        {
+          "id": "opt4",
+          "text": "टंगस्टन - झामर-कोटड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "झामर कोटड़ा खदान भारत में फॉस्फेट का सबसे बड़ा भंडार है। झामर कोटड़ा राजस्थान के दक्षिणी भाग में अरावली पर्वतमाला में स्थित है। यह राजस्थान के उदयपुर जिले में स्थित है। यह देश में केवल व्यावसायिक रूप से दोहन योग्य रॉक फॉस्फेट जमा है।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2520,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वरमीक्यूलाइट कहाँ पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2522,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा शहर पीले पत्थर (यलो स्टोन) के व्यवसाय के लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2523,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान भारत में ____ का प्रमुख उत्पादक नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोना"
+        },
+        {
+          "id": "opt2",
+          "text": "चांदी"
+        },
+        {
+          "id": "opt3",
+          "text": "जिप्सम"
+        },
+        {
+          "id": "opt4",
+          "text": "केल्साइट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2524,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खान और भूविज्ञान निदेशालय में कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2525,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "झामर कोटड़ा रॉक फॉस्फेट खदानें कहाँ स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2526,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान इस धातु का प्रमुख उत्पादक राज्य है तथा इसे वुलफ्राम भी कहते हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मैग्नीज"
+        },
+        {
+          "id": "opt2",
+          "text": "चांदी"
+        },
+        {
+          "id": "opt3",
+          "text": "जस्ता"
+        },
+        {
+          "id": "opt4",
+          "text": "टंगस्टन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2527,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जावर की खान, उदयपुर, किस खनिज के लिए विख्यात है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चांदी"
+        },
+        {
+          "id": "opt2",
+          "text": "सीसा-जस्ता"
+        },
+        {
+          "id": "opt3",
+          "text": "मैग्नीज"
+        },
+        {
+          "id": "opt4",
+          "text": "यूरेनियम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उदयपुर की ज़ावर की खानें जिंक/जस्ता धातुओं के लिए प्रसिद्ध हैं। ज़ावर की खान विश्व की सबसे पुरानी जिंक की खान है।",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2528,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के मंगला क्षेत्र से कौनसा खनिज प्राप्त होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जिंक"
+        },
+        {
+          "id": "opt2",
+          "text": "कोयला"
+        },
+        {
+          "id": "opt3",
+          "text": "तेल"
+        },
+        {
+          "id": "opt4",
+          "text": "ताँबा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan High Court LDC 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2529,
+        "exam": "Rajasthan High Court LDC 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान, भारत में _____ का सबसे बड़ा उत्पादक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कच्चा लोहा"
+        },
+        {
+          "id": "opt2",
+          "text": "अभ्रक"
+        },
+        {
+          "id": "opt3",
+          "text": "प्राकृतिक गैस"
+        },
+        {
+          "id": "opt4",
+          "text": "सीसा और जस्ता"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान देश में खनिजों की उपलब्धता और विविधता के मामले में सबसे समृद्ध राज्य है और लगभग 57 विभिन्न खनिजों का उत्पादन करता है। राजस्थान शीशा और जस्ता अयस्कों, जैस्पर, सेलेनाइट, और वोलास्टोनाइट का एकमात्र उत्पादक है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-2)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2530,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्नलिखित में से कौन सा जिला तांबा अयस्क के लिए प्रसिद्ध नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुंझुनूं"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2531,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान का कौन सा क्षेत्र तांबा भण्डारण के लिए प्रसिद्ध है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लूणकरनसर"
+        },
+        {
+          "id": "opt2",
+          "text": "खेतड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "अगुचा"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का झुंझुन जिले का खेतड़ी खान ताँबा के भण्डारण के लिए प्रसिद्ध है। यह क्षेत्र ताम्र नगरी के नाम से भी जाना जाता है। अगुचा में जिंक का उत्यादन होता है, जबकि लूणकरनसर झील है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2532,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में रॉक फॉस्फेट की मुख्य खदानें कहाँ स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खो दरीबा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलीहान"
+        },
+        {
+          "id": "opt3",
+          "text": "डेगाना"
+        },
+        {
+          "id": "opt4",
+          "text": "झामर कोटड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की प्रमुख खदाने निम्न है। झामर कोटड़ा – रॉक फास्फेट डेगाना – टंगस्टन कोलीहान – कॉपर खो दरीबा – चांदी, सीसा, जस्ता",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2533,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वोलेस्टोनाइट का मुख्य भण्डारण कहाँ पाया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रतापगढ़ जिले में"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही जिले में"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा जिले में"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर जिले में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में वोलेस्टोनाइट का मुख्य भण्डारण सिरोही जिले में पाया जाता है। खिल्ला व बैटका प्रमुख वोलेस्टोनाइट उत्पादक स्थल है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2534,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का एकमात्र जिला जहाँ पाइराइट भण्डार है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के सीकर के सलादीपुरा में पाइराइट के बड़े भंडार पाए जाते है। 440",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2535,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा एक युग्म सुमेलित नहीं है -खनिज खनन क्षेत्र",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीसा और जस्ता - जावर"
+        },
+        {
+          "id": "opt2",
+          "text": "तांबा - खेतड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "लौह अयस्क - नीमला"
+        },
+        {
+          "id": "opt4",
+          "text": "मैंगनीज - रामपुरा-आगूचा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JSA Biology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2536,
+        "exam": "JSA Biology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य खनिज उत्पादन में 2014-15 में भारत में ......... स्थान पर था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहले"
+        },
+        {
+          "id": "opt2",
+          "text": "दूसरे"
+        },
+        {
+          "id": "opt3",
+          "text": "तीसरे"
+        },
+        {
+          "id": "opt4",
+          "text": "चौथे"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2537,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कहां देश का सबसे अधिक और बड़ा सीसा-जस्ता का एकल जमा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवारा"
+        },
+        {
+          "id": "opt2",
+          "text": "देवपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "रामपुरा आगूचा"
+        },
+        {
+          "id": "opt4",
+          "text": "जावर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JSA Ballistic-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2538,
+        "exam": "JSA Ballistic-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    }
+  ]
+}

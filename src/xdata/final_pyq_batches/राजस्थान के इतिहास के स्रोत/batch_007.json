@@ -1,0 +1,659 @@
+{
+  "masterTopic": "राजस्थान के इतिहास के स्रोत",
+  "batchIndex": 7,
+  "batchName": "राजस्थान के इतिहास के स्रोत भाग 7",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-के-इतिहास-के-स्रोत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘म्यूटिनीज इन राजपूताना’ के लेखक हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आई टी प्रिचर्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "जी. एस. ट्रेवर"
+        },
+        {
+          "id": "opt3",
+          "text": "सी.एल. सोबर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "खडगावत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8059,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“इकतीसंदा” रूपया राजस्थान की कौनसी टकसाल में बनता था-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सोजत"
+        },
+        {
+          "id": "opt3",
+          "text": "कुचामन"
+        },
+        {
+          "id": "opt4",
+          "text": "मेड़ता"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1893 ई. में नागौर की टकसाल से विजेशाही रुपये तथा कुचामन ठाकुर को ‘इकतीसंदा’ रुपये बनाने की अनुमति दी गई। कुचामन के ठिकाने की टकसाल में बनने वाले रुपये, अठन्नी और चवन्नी की कीमत कम होती थी जिसे औपचारिक रूप में लेने-देने के काम में लाया जाता था।",
+      "reference": "📌 PYQ — Patwar Main Exam 2015",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8060,
+        "exam": "Patwar Main Exam 2015",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अशोक का अभिलेख कहां प्राप्त हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बड़ली"
+        },
+        {
+          "id": "opt2",
+          "text": "बरनाला"
+        },
+        {
+          "id": "opt3",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt4",
+          "text": "बुचकला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "यहां अशोक मौर्य के दो अभिलेख मिले हैं। भाब्रू शिला फलक एवं बैराठ अभिलेख।",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8061,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का प्रथम ‘डिजिटल आर्काइव’ राजस्थान के किस शहर में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RSMSSB LDC (12-08-18) Paper-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8075,
+        "exam": "RSMSSB LDC (12-08-18) Paper-1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शिबि जनपद का उल्लेख का सर्वप्रथम स्त्रोत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिक्के"
+        },
+        {
+          "id": "opt2",
+          "text": "शिलालेख"
+        },
+        {
+          "id": "opt3",
+          "text": "संस्कृति साहित्य"
+        },
+        {
+          "id": "opt4",
+          "text": "यूनानी साहित्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8098,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मत्स्य का सर्व प्रथम उल्लेख आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ऋगवेद"
+        },
+        {
+          "id": "opt2",
+          "text": "रामायण"
+        },
+        {
+          "id": "opt3",
+          "text": "महाभारत"
+        },
+        {
+          "id": "opt4",
+          "text": "शतपथ ब्राह्मण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Agriculture Officer - 2 0 1 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8099,
+        "exam": "Agriculture Officer - 2 0 1 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस राजपूत राजवंश पर बिजोलिया अभिलेख प्रकाश डालता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतिहार"
+        },
+        {
+          "id": "opt3",
+          "text": "राठोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कछावा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बिजोलिया शिलालेख चाहमान/चौहान वंश की वंशावली प्रदान करता है।",
+      "reference": "📌 PYQ — Junior Instructor(welder)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8124,
+        "exam": "Junior Instructor(welder)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित मेें से कौन-सा शिलालेख प्रतिहारों का इतिहास बताता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मंड़ोर शिलालेख"
+        },
+        {
+          "id": "opt2",
+          "text": "नंदस्युपा स्तंभ शिलालेख"
+        },
+        {
+          "id": "opt3",
+          "text": "घोसुंडी शिलालेख"
+        },
+        {
+          "id": "opt4",
+          "text": "बिजोलिया शिलालेख"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "यह अभिलेख गुर्जर नरेश बाउक की प्रशस्ति है। इसमें गुर्जर प्रतिहार की वंशावली, विष्णु और शिव पूजा का उल्लेख किया गया।",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8125,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणछोड़ भट्ट ने संस्कृत में किस महाकाव्य की रचना की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रघुवंश तिलक"
+        },
+        {
+          "id": "opt2",
+          "text": "राज प्रशस्ति"
+        },
+        {
+          "id": "opt3",
+          "text": "कीर्ति स्तम्भ प्रशस्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर प्रशस्ति"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8126,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस अभिलेख में गुर्जर प्रतिहारों को लक्ष्मण के वंशज कहा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घटियाला अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्वालियर अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "दौलतपुर अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8127,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा ग्रन्थ जालौर के शासकों की उपलब्धि के बारे में बताता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज विजय"
+        },
+        {
+          "id": "opt2",
+          "text": "हम्मीर महाकाव्य"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रबंधचिन्तामणि"
+        },
+        {
+          "id": "opt4",
+          "text": "कान्हड़दे प्रबंध"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Junior Instructor(copa)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8128,
+        "exam": "Junior Instructor(copa)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से ताम्रपत्र से रानी कर्मवती द्वारा जौहर के प्रमाण मिलते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आहड ताम्रपत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "खेरोदा ताम्रपत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पुर ताम्रपत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "चीकली ताम्रपत्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Junior Instructor(Eco. Investigator)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8129,
+        "exam": "Junior Instructor(Eco. Investigator)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन जयपुर एवं जोधपुर की स्थापना तिथि बताता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दयालदास की ख्यात"
+        },
+        {
+          "id": "opt2",
+          "text": "बांकीदास की ख्यात"
+        },
+        {
+          "id": "opt3",
+          "text": "नैणसी की ख्यात"
+        },
+        {
+          "id": "opt4",
+          "text": "एकलिंग शिलालेख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8130,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से एकलिंग शिलालेख(1460 ई.) का लेखक है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महेश्वर"
+        },
+        {
+          "id": "opt2",
+          "text": "जगन्नाथ राय"
+        },
+        {
+          "id": "opt3",
+          "text": "राणा कुंभा"
+        },
+        {
+          "id": "opt4",
+          "text": "जगत सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8131,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अकबर की चित्तौड़ विजय के उपरान्त मेवाड़ में मुगल शासकों के सिक्के जारी हुये, जिन्हें ..... कहा जाता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "द्रम्म"
+        },
+        {
+          "id": "opt2",
+          "text": "सिक्का एलची"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "दीनार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Junior Instructor(electrician)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8132,
+        "exam": "Junior Instructor(electrician)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रावशाही सिक्कों का संबंध किस राज्य से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अलवर के सिक्के: अखैशाही, रावशाही, ताँबें के रावशाही टक्का, अंग्रेजी पाव आना सिक्का।",
+      "reference": "📌 PYQ — Raj Jail Warder (28-10-18) Shift 3",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8146,
+        "exam": "Raj Jail Warder (28-10-18) Shift 3",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन केसर-ए-हिन्द की उपाधि से सम्मानित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्यामलदास"
+        },
+        {
+          "id": "opt2",
+          "text": "सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरानन्द ओझा"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्नल जेम्स टाॅड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8148,
+        "exam": "Raj Jail Warder (27-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लिल्लूलिया एवं लल्लूशाही सिक्कों का निर्माण कहां होता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "कुचामन"
+        },
+        {
+          "id": "opt3",
+          "text": "सोजत"
+        },
+        {
+          "id": "opt4",
+          "text": "जोाधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नाजिर हरकराम की दरोगाई में बनने वाले सोजत के सिक्के को ‘लिल्लूलिया’ या ‘लल्लूशाही’ सिक्का कहते थे जिसमें मिलावट होने से कम दामों में लिया जाता था। इसका प्रचलन 1859 में हुआ था। 1866 ई. में अनारसिंह की दरोगाई में बनने वाला सिक्का ‘रुरूरिया रुपया’ कहलाता था।",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8149,
+        "exam": "Raj Jail Warder (27-10-18) Shift 2",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित जोडो में से कौनसा सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रायसिंह की बीकानेर प्रशस्ति-1594 ई."
+        },
+        {
+          "id": "opt2",
+          "text": "कीर्ति स्तम्भ प्रशस्ति-1660 ई."
+        },
+        {
+          "id": "opt3",
+          "text": "कुम्भलगढ़ प्रशस्ति-1460 ई."
+        },
+        {
+          "id": "opt4",
+          "text": "रणकपुर प्रशस्ति-1439 ई."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8151,
+        "exam": "Raj Jail Warder (27-10-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस शिलालेख में चौहानों को वत्सगोत्र के ब्राह्मण कहा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बिजौलिया का शिलालेख"
+        },
+        {
+          "id": "opt2",
+          "text": "रणकपुर प्रशस्ति में"
+        },
+        {
+          "id": "opt3",
+          "text": "चीरवे का शिलालेख"
+        },
+        {
+          "id": "opt4",
+          "text": "भृंगी ऋषि का शिलालेख"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बिजोलिया शिलालेख चौहानों को वत्सगोत्र ब्राह्मण के रूप में दर्शाता है। बिजोलिया अभिलेख विंध्यवल्ली में है। बिजोलिया अभिलेख को चौहान शिलालेख के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — Raj Jail Warder (27-10-18) Shift 1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8152,
+        "exam": "Raj Jail Warder (27-10-18) Shift 1",
+        "year": null
+      }
+    }
+  ]
+}

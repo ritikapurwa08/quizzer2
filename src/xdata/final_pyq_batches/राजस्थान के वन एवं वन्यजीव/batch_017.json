@@ -1,0 +1,668 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 17,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 17",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा जयपुर का प्रथम डेजर्ट पार्क है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किशन बाग"
+        },
+        {
+          "id": "opt2",
+          "text": "हरि बाग"
+        },
+        {
+          "id": "opt3",
+          "text": "राम बाग"
+        },
+        {
+          "id": "opt4",
+          "text": "लक्ष्मण बाग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "किशन बाग जयपुर का पहला रेगिस्तानी पार्क है। किशन बाग शहर की सीमाओं के भीतर 30 एकड़ में फैले विशाल खुले स्थानों में से एक है। यह नाहरगढ़ किले की तलहटी में बना जयपुर का पहला रेगिस्तानी पार्क है।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16721,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोगेलाव संरक्षित क्षेत्र किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16726,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुन्धामाता कन्जर्वेशन रिजर्व स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही, जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर, जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर, जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर, झुंझुनूं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — RPSC ACF FRO 2021",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16728,
+        "exam": "RPSC ACF FRO 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयपुर के किस क्षेत्र में तेंदुआ सफारी पार्क, स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कूकस"
+        },
+        {
+          "id": "opt2",
+          "text": "मोहनपुरा"
+        },
+        {
+          "id": "opt3",
+          "text": "झोटवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "झांलाना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "झालाना तेंदुआ सफारी पार्क भारत का पहला तेंदुआ रिजर्व है जो भारत के राजस्थान राज्य के जयपुर शहर में स्थित है। यह अरावली पर्वत शृंखला से घिरा है। झालना २०१७ में एक तेंदुआ रिजर्व बनाया गया।",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer 2021",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16729,
+        "exam": "RPSC Asst. Statistical Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केसर बाग वन्यजीव अभ्यारण्य राजस्थान के कौन से जिले में अवस्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नागौर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "केसर बाग वन्यजीव अभयारण्य राजस्थान के धौलपुर जिले में है। यह अभयारण्य १४.७६ वर्ग किमी. में पैâला हुआ है। वर्ष १९५५ में इस वन्यजीव अभयारण्य घोषित किया गया था।",
+      "reference": "📌 PYQ — RPSC Asst. Agriculture Officer 2021",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16731,
+        "exam": "RPSC Asst. Agriculture Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फॉरेस्ट सर्वे ऑफ इंडिया द्वारा जारी ’’स्टेट ऑफ फॉरेस्ट रिपोर्ट-२०१७’’ के अनुसार राजस्थान का कुल वन क्षेत्र है–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10.23%"
+        },
+        {
+          "id": "opt2",
+          "text": "9.57%"
+        },
+        {
+          "id": "opt3",
+          "text": "9.18%"
+        },
+        {
+          "id": "opt4",
+          "text": "8.34%"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "फॉरेस्ट सर्वे ऑफ इंडिया द्वारा जारी स्टेट ऑफ फॉरेस्ट रिपोर्ट-2017’ के अनुसार राजस्थान का कुल वन क्षेत्र9.57% है।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16732,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के राष्ट्रीय उद्यानों की राज्यों में स्थिति से मिलान कीजिएः I. कॉर्बेट A. मध्य प्रदेश II. कान्हा B. उत्तराखण्ड III. गिर C. कर्नाटक IV. बाँदीपुर D. गुजरात I II III IV",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A B C D"
+        },
+        {
+          "id": "opt2",
+          "text": "B A D C"
+        },
+        {
+          "id": "opt3",
+          "text": "C D A B"
+        },
+        {
+          "id": "opt4",
+          "text": "D C B A"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन निम्न है- I. कार्बेट B. उत्तराखण्ड II. कान्हा A. मध्य प्रदेश III. गिर D. गुजरात IV. बाँदीपुर C. कर्नाटक",
+      "reference": "📌 PYQ — RPSC Sub Inspector 13/09/2021",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18996,
+        "exam": "RPSC Sub Inspector 13/09/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत वन स्थिति रिपोर्ट 2019 के अनुसार, निम्न में से किस एक जिले में, बहुत घना जंगल क्षेत्रफल न्यूनतम है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत वन रिपोर्ट2021के अनुसार जोधपुर में बहुत घना जंगल क्षेत्रफल न्यूनतम है। राजस्थान में लगभग16, 654.96 वर्ग किमी का वन क्षेत्र दर्ज किया गया, जो कि राज्य के कुल भौगोलिक क्षेत्र का4.87प्रतिशत है। उल्लेखनीय है कि राज्य में बहुत घने जंगल का प्रतिशत0.02है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 20727,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में उड़न गिलहरी पायी जाती है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रणथम्भौर राष्ट्रीय उद्यान में"
+        },
+        {
+          "id": "opt2",
+          "text": "सरिस्का राष्ट्रीय उद्यान में"
+        },
+        {
+          "id": "opt3",
+          "text": "केवलादेव राष्ट्रीय उद्यान में"
+        },
+        {
+          "id": "opt4",
+          "text": "सीतामाता वन्यजीव अभ्यारण्य में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में सीतामाता वन्यजीव अभयारण्य और फुलवारी की नाल अभयारण्य में उड़न गिलहारी पायी जाती हैं सीतामाता अभयारण्य, प्रतापगढ़ और चित्तौड़गढ़ जिलों में है। उड़न गिलहारी, महुए के पेड़ों वाले इलाकों में पाई जाती है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4884,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कृष्ण मृग देखे जा सकते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोरसन घास के मैदानों में"
+        },
+        {
+          "id": "opt2",
+          "text": "रामगढ़ विषधारी जंगल में"
+        },
+        {
+          "id": "opt3",
+          "text": "शोकलिया में"
+        },
+        {
+          "id": "opt4",
+          "text": "सरिस्का में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कृष्णमृग सोरसन घास के मैदानों में पाया जाता है। राजस्थान के बांरा जिले में स्थित सोरसन पवित्र स्थान एक प्रसिद्ध पर्यटन है, जो कि लगभग २०७ वर्ग में पैâला हुआ है। जिसकी स्थापना १९८४ में हुई थी। 817",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4885,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित जिला समूह में से किसमें सालार या साल (बोसवालिया सेराता) के वन पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई माधोपुर, बूँदी, धौलपुर, करौली"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक, जयपुर, दौसा, सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा, बूंदी, बारां, झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर, चित्तौड़गढ़, उदयपुर, सिरोही"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16215,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में शुष्क सागवान वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16216,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन ‘दादू’ के शिष्य नहीं हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुन्दर दास"
+        },
+        {
+          "id": "opt2",
+          "text": "रज्जब"
+        },
+        {
+          "id": "opt3",
+          "text": "दयाबाई"
+        },
+        {
+          "id": "opt4",
+          "text": "जनगोपाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दादू दयाल जी ने1554ई. में दादू पंथ की स्थापना की थी। इसकी प्रधान पीठ नरैना (जयपुर) में स्थित है। दादू दयाल के शिष्यों में गरीबदास, सुंदरदास, रज्जब, बरवना, माधोदास, जगन्नाथ जी, संतदास जी, जनगोपाल इत्यादि शामिल थे। दयाबाई संत चरण दास की शिष्या थीं। दयाबाई की प्रमुख रचनाएँ दयाबोध, विनय मालिका इत्यादि हैं।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16217,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित संतों को उनकी जाति से सुमेलित कीजिए एवं नीचे दिये गये सही कूट का चयन कीजिए: संत जाति A. जसनाथ I. पठान B. लालदास II. जाट C. रज्जब III. मिरासी D. बखना IV. मेव कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "IV III II I"
+        },
+        {
+          "id": "opt2",
+          "text": "II IV I III"
+        },
+        {
+          "id": "opt3",
+          "text": "III I IV II"
+        },
+        {
+          "id": "opt4",
+          "text": "I II III IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – जसनाथ – जाट लालदास – मेव रज्जब – पठान बखना – मिरासी",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16218,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तेजाजी से संबंधित निम्नलिखित में से कौन सा स्थल सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खड़नाल-जन्मस्थल"
+        },
+        {
+          "id": "opt2",
+          "text": "पनेर-ननिहाल"
+        },
+        {
+          "id": "opt3",
+          "text": "सुरसरा-समाधि स्थल"
+        },
+        {
+          "id": "opt4",
+          "text": "परवतसर-मुख्य मेला स्थल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – खड़नाल – जन्मस्थल किशनगढ़ – ननिहाल सुरसरा – समाधि स्थल परबतसर – मुख्य मेला स्थल पनेर – ससुराल",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16219,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘‘बाण-मात’’ किस राजपरिवार की कुलदेवी थीं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बाण माता मेवाड़ के सूर्यवंशी गहलोत व सिसोदिया राजवंश की कुल देवी हैं।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16220,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा प्राचीनतम मंदिर है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा का श्रीनाथ जी मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "रणकपुर का पार्श्वनाथ मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर का जगदीश मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "आभानेरी का हर्षद माता मंदिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "हर्षत माता मंदिर राजस्थान के दौसा जिले के आभानेरी में चाँद बावड़ी में स्थित है। इस मंदिर का निर्माण निकुंभ वंश के राजा चन्द्र ने8वीं –9वीं शताब्दी में कराया था। रणकपुर का पार्श्वनाथ मंदिर (1439ई.), उदयपुर का जगदीश मंदिर (1651 ई.) तथा नाथद्वारा का श्रीनाथ जी मंदिर (1672ई.) में क्रमश: र्नििमत कराया गया था।",
+      "reference": "📌 PYQ — RPSC Asst. Prof. 2020 Paper-III",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16221,
+        "exam": "RPSC Asst. Prof. 2020 Paper-III",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-Iको सूची-IIसे सुमेलित कीजिए और नीचे दिये गये कूटों का उपयोग करके सही उत्तर का चयन कीजिये: सूची-I सूची-II A. ऊँट उत्सव 1. बाड़मेर B. हाथी उत्सव 2. बीकानेर C. मरु मेला 3. जयपुर D. थार महोत्सव 4. जैसलमेर कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 3 4 1"
+        },
+        {
+          "id": "opt2",
+          "text": "4 3 1 2"
+        },
+        {
+          "id": "opt3",
+          "text": "4 2 1 3"
+        },
+        {
+          "id": "opt4",
+          "text": "2 3 1 4"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – ऊँट उत्सव – बीकानेर हाथी उत्सव – जयपुर मरु मेला – जैसलमेर थार महोत्सव – बाड़मेर",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16222,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बजट्टी’ आभूषण पहना जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिर"
+        },
+        {
+          "id": "opt2",
+          "text": "कमर"
+        },
+        {
+          "id": "opt3",
+          "text": "भुजा"
+        },
+        {
+          "id": "opt4",
+          "text": "गला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बजट्टी राजस्थानी महिलाओं द्वारा गले में पहना जाने वाला एक आभूषण है।",
+      "reference": "📌 PYQ — RPSC Yoga & Prakritik Chikista Adhikari 2020",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16223,
+        "exam": "RPSC Yoga & Prakritik Chikista Adhikari 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पोमचा’ (स्त्री परिधान) को बोलचाल की भाषा में कहा जाता है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीला"
+        },
+        {
+          "id": "opt2",
+          "text": "वँâवर जोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "फेटिया"
+        },
+        {
+          "id": "opt4",
+          "text": "कटकी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पोमचा एक प्रकार की ओढ़नी है। यह दो प्रकार की होती है। पहला ‘पीला पोमचा’ है जो पुत्र के जन्म के समय मातृ पक्ष से आता है, दूसरा ‘गुलाबी पोमचा’ है जो पुत्री के जन्म के अवसर पर आता है।",
+      "reference": "📌 PYQ — RPSC Yoga & Prakritik Chikista Adhikari 2020",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16224,
+        "exam": "RPSC Yoga & Prakritik Chikista Adhikari 2020",
+        "year": 2020
+      }
+    }
+  ]
+}

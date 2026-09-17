@@ -10,7 +10,6 @@ import {
   BatchValidationResult,
 } from "@/lib/validators/question";
 import {
-  extractJsonFromLlmOutput,
   validateAndIsolateQuestions,
   parsePlainTextQuestions,
 } from "@/lib/importParser";
@@ -33,6 +32,7 @@ import {
   Sparkles,
   FileCode,
   ShieldCheck,
+  Database,
 } from "lucide-react";
 import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
 
@@ -80,21 +80,80 @@ export function QuestionImportEditor({
   const [promptOpen, setPromptOpen] = useState(false);
   const textRef = useRef<HTMLTextAreaElement>(null);
 
+  // Final PYQ batch state loaded from repository
+  const [pyqBatch, setPyqBatch] = useState<{
+    batchName: string;
+    questionCount: number;
+    questionsText: string;
+  } | null>(null);
+  const [pyqBatchError, setPyqBatchError] = useState<string>("");
+  const [pyqBatchLoading, setPyqBatchLoading] = useState(false);
+
   useEffect(() => {
     setCode(initialValue);
   }, [initialValue]);
 
   const subject = subjectsList.find((x) => x._id === selectedSubjectId);
   const topic = topicsList.find((x) => x._id === selectedTopicId);
+  const subjectName = getSubjectDisplayName(subject) || "";
+  const topicName = getTopicDisplayName(topic) || "";
 
+  // Automatically fetch corresponding batch from Final PYQ folder
+  useEffect(() => {
+    if (!topicName || !selectedTopicId) {
+      setPyqBatch(null);
+      setPyqBatchError("");
+      return;
+    }
+
+    let isMounted = true;
+    setPyqBatchLoading(true);
+    setPyqBatchError("");
+
+    fetch(
+      `/api/admin/pyq-batch?topic=${encodeURIComponent(topicName)}&set=${encodeURIComponent(subtopicName)}`
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        if (!isMounted) return;
+        if (data.success) {
+          setPyqBatch({
+            batchName: data.batchName,
+            questionCount: data.questionCount,
+            questionsText: data.questionsText,
+          });
+          setPyqBatchError("");
+        } else {
+          setPyqBatch(null);
+          setPyqBatchError(
+            data.error || "इस Topic/Set का Final PYQ batch नहीं मिला। पहले सही batch उपलब्ध कराएँ।"
+          );
+        }
+      })
+      .catch(() => {
+        if (!isMounted) return;
+        setPyqBatch(null);
+        setPyqBatchError("इस Topic/Set का Final PYQ batch नहीं मिला। पहले सही batch उपलब्ध कराएँ।");
+      })
+      .finally(() => {
+        if (isMounted) setPyqBatchLoading(false);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [topicName, selectedTopicId, subtopicName]);
+
+  // Generate prompt embedding the 20 PYQ questions from Final PYQ folder
   const prompt = useMemo(
     () =>
       generateAiQuestionPrompt({
-        subject: getSubjectDisplayName(subject) || "Rajasthan General Knowledge",
-        topic: getTopicDisplayName(topic) || "General Topic",
+        subject: subjectName || "Rajasthan General Knowledge",
+        topic: topicName || "General Topic",
         subtopic: subtopicName || "Set 1",
+        questionsText: pyqBatch?.questionsText || "",
       }),
-    [subject, topic, subtopicName]
+    [subjectName, topicName, subtopicName, pyqBatch]
   );
 
   // Parse and validate pasted input
@@ -125,8 +184,8 @@ export function QuestionImportEditor({
     // Fallback: Plain text question format
     const plain = parsePlainTextQuestions(
       trimmed,
-      getSubjectDisplayName(subject) || "Rajasthan General Knowledge",
-      getTopicDisplayName(topic) || "General Topic",
+      subjectName || "Rajasthan General Knowledge",
+      topicName || "General Topic",
       subtopicName || "Set 1"
     );
 
@@ -143,7 +202,7 @@ export function QuestionImportEditor({
       parseError: plain.error || "प्रश्न पार्स नहीं हो सके। कृपया मान्य JSON पेस्ट करें।",
       isolationErrors: [],
     };
-  }, [code, subject, topic, subtopicName]);
+  }, [code, subjectName, topicName, subtopicName]);
 
   // Stage B: In-batch quality and provenance validation
   const batchValidation: BatchValidationResult | null = useMemo(() => {
@@ -201,8 +260,8 @@ export function QuestionImportEditor({
     }
     if (canImport && parseResult.questions.length === 20) {
       const payload: ImportJson = {
-        subject: getSubjectDisplayName(subject),
-        topic: getTopicDisplayName(topic),
+        subject: subjectName,
+        topic: topicName,
         testSet: subtopicName.trim(),
         negativeMarking,
         questions: parseResult.questions,
@@ -211,7 +270,7 @@ export function QuestionImportEditor({
     } else {
       onChange(code, null, allErrors);
     }
-  }, [code, canImport, parseResult.questions, allErrors, subject, topic, subtopicName, negativeMarking, onChange]);
+  }, [code, canImport, parseResult.questions, allErrors, subjectName, topicName, subtopicName, negativeMarking, onChange]);
 
   function copyPrompt() {
     navigator.clipboard.writeText(prompt);
@@ -322,10 +381,37 @@ export function QuestionImportEditor({
             </div>
           </div>
         </CardHeader>
-        <CardContent className="p-4 sm:p-6">
-          <p className="text-xs text-muted-foreground mb-2">
-            इस prompt को कॉपी करके Gemini में paste करें। Gemini दिए गए PYQ प्रश्नों को audit करके ठीक 20 प्रश्नों का शुद्ध JSON तैयार करेगा।
+        <CardContent className="p-4 sm:p-6 space-y-3">
+          {/* Final PYQ Source Status Banner */}
+          <div className="flex flex-wrap items-center gap-2">
+            {pyqBatchLoading ? (
+              <Badge variant="outline" className="text-xs font-medium py-1 px-2.5 gap-1.5 text-muted-foreground animate-pulse">
+                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                Final PYQ batch लोड हो रहा है…
+              </Badge>
+            ) : pyqBatch ? (
+              <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1.5">
+                <Database className="h-3.5 w-3.5" />
+                <span>Final PYQ Loaded: <strong>{pyqBatch.batchName}</strong> ({pyqBatch.questionCount} प्रश्न स्वतः शामिल)</span>
+              </Badge>
+            ) : null}
+          </div>
+
+          {pyqBatchError && (
+            <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10 py-2.5 px-3.5">
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription className="text-xs font-medium">
+                {pyqBatchError}
+              </AlertDescription>
+            </Alert>
+          )}
+
+          <p className="text-xs text-muted-foreground">
+            {pyqBatch
+              ? `Copy Prompt पर क्लिक करने पर इस सेट के सभी 20 मूल PYQ प्रश्न Prompt में स्वतः जुड़ चुके हैं। इसे सीधे Gemini में पेस्ट करें।`
+              : `इस prompt को कॉपी करके Gemini में paste करें।`}
           </p>
+
           {promptOpen && (
             <pre className="mt-2 max-h-56 overflow-auto whitespace-pre-wrap rounded-xl bg-muted/60 border border-border/50 p-3.5 font-mono text-[11px] leading-relaxed text-muted-foreground animate-in fade-in-0 duration-150">
               {prompt}

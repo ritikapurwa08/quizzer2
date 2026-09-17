@@ -1,0 +1,655 @@
+{
+  "masterTopic": "राजस्थान का पर्यटन",
+  "batchIndex": 4,
+  "batchName": "राजस्थान का पर्यटन भाग 4",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पर्यटन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "1908 ई. में स्थापित ‘राजपूताना म्यूजियम’ कहाँ है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5612,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान प्रथम रोप वे किस जिले में प्रारम्भ किया। गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JEN 2022: Electrical Degree (GK)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5613,
+        "exam": "JEN 2022: Electrical Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डुंडलोद किसके लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुरातात्विक स्थल के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "आध्यात्मिक एवं धार्मिक स्थल के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "सूफी संत की दरगाह के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "हवेलियों एवं परम्परागत सुन्दर इमारतों के लिए"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5614,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एल्बर्ट म्यूजियम की स्थापना जयपुर के किस शासक ने की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई रामसिंह I"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई रामसिंह II"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई जयसिंह I"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई जयसिंह II"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5615,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (पर्यटन स्थल - जिला) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फूल सागर - बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पाण्डुपोल - अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "किराडू मन्दिर - झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "चन्द्रमहल - जयपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN 2022: Civil Degree (GK)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5616,
+        "exam": "JEN 2022: Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आभानेरी के संदर्भ में, निम्नलिखित में से कौनसा/कौनसे विकल्प सही हैं -1. यहां निर्मित हर्षत माता मंदिर प्रतिहारों के सामंत चौहानों ने बनवाया था। 2. यहां की चांद बावड़ी विश्व प्रसिद्ध है। 3. यहां का पिप्पलाद माता का मंदिर प्रसिद्ध है।सही कूट चुनिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 2"
+        },
+        {
+          "id": "opt2",
+          "text": "1 और 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2 और 3"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल 3"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हर्षद माता मंदिर और चांद बावड़ी दौसा जिले के आभानेरी गांव में स्थित हैं, जिसे प्रतिहारों के सामंत चौहान ने बनवाया था। राजसमंद में हल्दीघाटी के पास ऊनवास गाँव में दुर्गामाता का एक प्राचीन मन्दिर है जो लोकमानस में पिप्पलाद माता (Piplad Mata) के नाम से प्रसिद्ध है।",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5617,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्राचीन ऐतिहासिक स्थलः “आश्रम पट्टन” की आधुनिक पहचान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालरापाटन"
+        },
+        {
+          "id": "opt2",
+          "text": "केशवरायपाटन"
+        },
+        {
+          "id": "opt3",
+          "text": "विराट नगर"
+        },
+        {
+          "id": "opt4",
+          "text": "भीनमाल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5618,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चाँद बावडी कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "आभानेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "भानगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5619,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सहेलियों की बाड़ी’ राजस्थान के किस शहर में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5620,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सच्चिया माता मन्दिर, सूर्य मंदिर, हरिहर मंदिर कहां स्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "ओसियां"
+        },
+        {
+          "id": "opt3",
+          "text": "आभानेरी"
+        },
+        {
+          "id": "opt4",
+          "text": "आउवा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5621,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के लोकप्रिय पर्यटन स्थल सहेलियों की बाड़ी का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा उदय सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा फतेह सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराज भूपाल सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराज संग्राम सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5622,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस मंदिर को खंभों का अजायबघर भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोमेश्वर मंदिर, किराडू"
+        },
+        {
+          "id": "opt2",
+          "text": "जैन मंदिर, देलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "जैन मंदिर, रणकपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कीर्ति स्तंभ, चित्तौड"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5623,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोडवाड़ पर्यटन सर्किट __________ के स्थलों को कवर करोगा। 1. जालौर 2. पाली 3. सिरोही 4. बाड़मेर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल 1 व 2"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल 1, 2 व 3"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल 1 व 3"
+        },
+        {
+          "id": "opt4",
+          "text": "सभी 1, 2, 3 व 4"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पाली, जालौर, बाड़मेर, और सिरोही जिलों के पर्यटन स्थलों को गोड़वाड़ पर्यटन सर्किट के रूप में विकसित किया जा रहा है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5624,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा शहर ‘बावड़ियों का शहर’ भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5625,
+        "exam": "Lab Assistant Exam 2022 (Science) 28 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस मंदिर का निर्माण भांडाशाह ओसवाल द्वारा वर्ष 1468 में शुरू करवाया गया था और यह वर्ष 1514 में पूरा हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवराबाई मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "पार्श्वनाथ जैन मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "भंडासर जैन मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीनाथजी मंदिर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5626,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराणा जगत सिंह द्वारा निर्मित जगदीश मंदिर राजस्थान के किस शहर में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (02 July 2022) (Re Exam)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5627,
+        "exam": "Police Constable Exam (02 July 2022) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान में जगत नामक गाँव में स्थित होने के कारण, मंदिर को जगत मंदिर के नाम से भी जाना जाता है।’ तो उस मंदिर का नाम बताइए जिसका उल्लेख यहाँ किया गया।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साई धाम मंदिर"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी माता मंदिर"
+        },
+        {
+          "id": "opt3",
+          "text": "गलताजी मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "अंबिका माता मंदिर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "यह देवी अंबिका देवी का मंदिर है। देवी अंबिका देवी को देवी दुर्गा के एक रूप के रूप में जाना जाता है। इसे 961 ईस्वी में बनाया गया था।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5628,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस वर्ष में जयपुर शहर को यूनेस्को (UNESCO) के विश्व धरोहर स्थलों में शामिल किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2017"
+        },
+        {
+          "id": "opt2",
+          "text": "2018"
+        },
+        {
+          "id": "opt3",
+          "text": "2019"
+        },
+        {
+          "id": "opt4",
+          "text": "2020"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (14 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5629,
+        "exam": "Police Constable Exam (14 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पहियों पर चलने वाली जयबाण तोप, जो दुनिया की सबसे बड़ी तोप मानी जाती है, निम्नलिखित में से किस किले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाहरगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जयगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "जूनागढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "लोहागढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5630,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बीजक-की-पहाड़ी’, मौर्यकालीन स्तूप-चैत्य का एक खंडहर है, जिसका निर्माण बारी बारी से लकड़ी के छब्बीस स्तम्भों तथा ईंट के, चूने के पत्थर से प्लॉस्टर किए हुए पैनलों, से हुआ था। यह कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैराठ"
+        },
+        {
+          "id": "opt2",
+          "text": "तिलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "ओजियाना"
+        },
+        {
+          "id": "opt4",
+          "text": "सोथी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5631,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    }
+  ]
+}

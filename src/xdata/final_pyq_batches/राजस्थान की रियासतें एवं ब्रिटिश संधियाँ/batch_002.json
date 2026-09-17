@@ -1,0 +1,45 @@
+{
+  "masterTopic": "राजस्थान की रियासतें एवं ब्रिटिश संधियाँ",
+  "batchIndex": 2,
+  "batchName": "राजस्थान की रियासतें एवं ब्रिटिश संधियाँ भाग 2",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-की-रियासतें-एवं-ब्रिटिश-संधियाँ",
+  "negativeMarking": true,
+  "questionCount": 1,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कथन अ: राजस्थान के राज्यों ने अंग्रेजों के साथ अधीनस्थ संधियां की थीं।कारण ब: उन्होंने साम्राज्यवादी शक्ति के संरक्षण की आवश्यकता थी।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ व ब दोनों सही हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "ब सही हैं, और अ गलत है।"
+        },
+        {
+          "id": "opt3",
+          "text": "अ और ब दोनों सही हैं, किन्तु ब, अ की ठीक व्याख्या नहीं करता।"
+        },
+        {
+          "id": "opt4",
+          "text": "अ और ब दोनों सही हैं, ब, अ की ठीक व्याख्या करता है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दोनों कथन सही हैं, राजस्थान के राज्यों को साम्राज्यवादी शक्ति के संरक्षण की आवश्यकता थी।",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15231,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    }
+  ]
+}

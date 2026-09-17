@@ -1,0 +1,672 @@
+{
+  "masterTopic": "चौहान वंश",
+  "batchIndex": 2,
+  "batchName": "चौहान वंश भाग 2",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "चौहान-वंश",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर के चौहान वंश के संस्थापक कौन थे -निम्न में से सबसे उपयुक्त विकल्प चुनें",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविंद राज"
+        },
+        {
+          "id": "opt2",
+          "text": "हम्मीर"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज- III"
+        },
+        {
+          "id": "opt4",
+          "text": "वीर नारायण"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "गोविंद राज, रणथम्भौर के चौहान वंश के संस्थापक थे, जिन्होंने रणथंभौर दुर्ग की स्थापना की। हम्मीर उनके वंशज थे, जो बाद में इस वंश के सबसे प्रसिद्ध शासक बने।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9769,
+        "exam": "CET 2024 (12th Level) 23 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजयमेरु (अजमेर) शहर की नींव किसने रखी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt2",
+          "text": "अमोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "हम्मीर"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज IV"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अजमेर शहर की स्थापना अजयराज चौहान ने की थी। यह राजस्थान का ऐतिहासिक शहर है।",
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9771,
+        "exam": "Hostel Supt(Minority Affairs) 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर शहर की स्थापना किसने की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज III"
+        },
+        {
+          "id": "opt2",
+          "text": "अरनोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज प्रथम के पुत्र का नाम अजयराज था। अपने साम्राज्य को सुरक्षित रखने के लिए उसने 1113 ई. में अजयमेरु (अजमेर) बसाकर उसे अपनी राजधानी बनाया। उसने अजयमेरु में दुर्ग का निर्माण करवाया जिसे गढ़बीठली कहते हैं।, इस दुर्ग को पूर्व का जिब्राल्टर कहा जाता है।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9772,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथंभौर के चौहान राजंवश (1194 AD) के संस्थापक कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्दराज"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज"
+        },
+        {
+          "id": "opt3",
+          "text": "जयचंद"
+        },
+        {
+          "id": "opt4",
+          "text": "अनंगपाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रणथंभौर: इस राजवंश को रणस्तम्भपुर का चाहमान भी कहा जाता है। इस राजवंश की स्थापना गोविन्द-राज ने की थी।",
+      "reference": "📌 PYQ — Hostel Superintendent Grade-II(SJED)-2024",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9775,
+        "exam": "Hostel Superintendent Grade-II(SJED)-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में राजवंश का कॉलम II में संस्थापक के साथ मिलान करें।कॉलम I (राजवंश)कॉलम II (संस्थापक)1. राठौड़a. चूडामन 2. चौहानb. दुलह राय 3. जाटc. वासुदेव 4. कच्छवाहाd. सिहा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-a, 2-b, 3-c, 4-d"
+        },
+        {
+          "id": "opt2",
+          "text": "1-d, 2-c, 3-a, 4-b"
+        },
+        {
+          "id": "opt3",
+          "text": "1-c, 2-d, 3-b, 4-a"
+        },
+        {
+          "id": "opt4",
+          "text": "1-b, 2-a, 3-d, 4-c"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राठौड़ – सिहाचौहान – वासुदेवजाट – चूड़ामनकच्छवाहा – दूल्हा राय",
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9806,
+        "exam": "Junior Instructor (Fitter) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम I में राजवंश को कॉलम II में संस्थापक से मिलान कीजिए।कॉलम I (राजवंश)कॉलम II (संस्थापक)1. राठोड़a. वासुदेव 2. चौहान b. सिहा 3. जाट c. दुलहराय 4. कच्छवाहा d. चूड़ामननिम्न में से सबसे उपयुक्त विकल्प चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-d, 2-c, 3-b, 4-a"
+        },
+        {
+          "id": "opt2",
+          "text": "1-b, 2-c, 3-a, 4-d"
+        },
+        {
+          "id": "opt3",
+          "text": "1-a, 2-b, 3-d, 4-c"
+        },
+        {
+          "id": "opt4",
+          "text": "1-b, 2-a, 3-d, 4-c"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राठोड़: सिहा (मारवाड़ राठोड़ों के संस्थापक)।चौहान: वासुदेव (अजमेर चौहानों के संस्थापक)।जाट: चूड़ामन (भरतपुर जाट वंश के संस्थापक)।कच्छवाहा: दुलहराय (जयपुर कच्छवाहों के संस्थापक)।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9816,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहानवंशीय शासक ने ‘‘प्रताप लंकेश्वर’’ की उपाधि धारण की थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोमेश्वर"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराजIII"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराजIV"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चौहान वंशीय शासक सोमेश्वर की उपाधि प्रताप लंकेश्वर थी। यह अर्णोराज का पुत्र था। इनका बिजौलिया अभिलेख (1170ई.) में चौहान वंशावली दी गई है।",
+      "reference": "📌 PYQ — RPSC Archivist 2024 RPSC Sr. Teacher Sanskrit-2022 Group A",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9824,
+        "exam": "RPSC Archivist 2024 RPSC Sr. Teacher Sanskrit-2022 Group A",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर का पराक्रमी चौहान शासक जिसने दिल्ली पर विजय प्राप्त कर उसे अपने साम्राज्य में शामिल कर लिया। वह था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज तृतीर्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विग्रहराज चतुर्थ (1153-63 ई.) असाधारण क्षमता का कुशल शासक था। उसने गुजरात के कुमारपाल को हराकर अपने पिता का बदला लिया। इस शक्तिशाली शासक ने दिल्ली पर पुनः अधिकार करके हाँसी को भी जीत लिया। तुर्कों के विरुद्ध भी उसने अनेक युद्ध किए और उन्हें आगे बढने से रोकने में समर्थ रहा। उसके साम्राज्य में पंजाब, राजपूताना तथा पश्चिमी उत्तरप्रदेश के अधिकांश भाग शामिल थे।",
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9872,
+        "exam": "RAS (Pre) Exam - 2023",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज चौहान की पत्नी का क्या नाम था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पद्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "संयोगिता"
+        },
+        {
+          "id": "opt3",
+          "text": "मूमल"
+        },
+        {
+          "id": "opt4",
+          "text": "कर्पूरीदेवी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पृथ्वीराजरासो के अनुसार संयोगिता जयचन्द्र गहड़वाल की पुत्री थी। पृथ्वीराज और संयोगिता में प्रेम था। चौहान राजा भी ने उसके साथ विवाह कर लिया।",
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9869,
+        "exam": "High Court LDC 2022 (19 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर के अजयराज चौहान के पिता कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "दुर्लभराजं द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "पृथ्वीराज प्रथम"
+        },
+        {
+          "id": "opt4",
+          "text": "चन्द्रराज द्वितीय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज प्रथम के पुत्र का नाम अजयराज था। अपने साम्राज्य को सुरक्षित रखने के लिए उसने 1113 ई. में अजयमेरु (अजमेर) बसाकर उसे अपनी राजधानी बनाया।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 05 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9870,
+        "exam": "CET 2022 (12th Level) 05 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर के चौहानों को _______ के नाम से भी जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाडोल के चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "जालोर के चौहान"
+        },
+        {
+          "id": "opt3",
+          "text": "रणथम्भोर के चौहान"
+        },
+        {
+          "id": "opt4",
+          "text": "सपादलक्ष के चौहान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी, देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था, इस क्षेत्र को सपादलक्ष(सपादलक्ष का अर्थ सवा लाख गांवों का समूह) के नाम से जानते थे, प्रारम्भिक चौहान राजाओं की राजधानी अहिच्छत्रपुर (हर्षनाथ की प्रशस्ति) थी जिसे वर्तमान में नागौर के नाम से जानते हैं।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 11 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9871,
+        "exam": "CET 2022 (12th Level) 11 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथंभौर के निम्नलिखित में से किस चौहान नरेश के सेनापति ने झाईं के निकट जलालुद्दीन खिलजी को हराया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हम्मीर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैत सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "वीर नारायण"
+        },
+        {
+          "id": "opt4",
+          "text": "वाग्भट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हम्मीर देव चौहान ने दिल्ली सल्तनत के शासक जलालुद्दीन खिलजी को हराया लेकिन, अंततः 1301 में अलाउद्दीन खिलजी द्वारा उन्हें पराजित किया गया।​",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9985,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज चौहान तृतीय का समकालीन चन्देल शासक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयचन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "महेन्द्र वर्मा"
+        },
+        {
+          "id": "opt3",
+          "text": "परमर्दि देव"
+        },
+        {
+          "id": "opt4",
+          "text": "यशोवर्मा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "महोबा (तुमुल) का युद्ध: 1182 ई. में पृथ्वीराज ने महोबा के चंदेल वंश के शासक परमाल(परमार्दी) देव पर आक्रमण किया। इस युद्ध (तुमुल का युद्ध) में परमार्दिदेव के दो सेनानायक आल्हा व उदल वीरगति को प्राप्त हुए।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9986,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर नगर की स्थापना के पहले अजमेर के चौहानों की राजधानी कौन सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालोर"
+        },
+        {
+          "id": "opt2",
+          "text": "साम्भर"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "रणथम्भोर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी, देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9987,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौहान वंश के संस्थापक सहसमल की राजधानी क्या थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रावती"
+        },
+        {
+          "id": "opt2",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवगंज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1425 में साहसमल ने सिरोही नगर की स्थापना की थी तथा सिरोही को राजधानी बनाया।",
+      "reference": "📌 PYQ — JEN 2022: Electrical Diploma (GK)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9990,
+        "exam": "JEN 2022: Electrical Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज- III और मोहम्मद गौरी के मध्य कितने युद्ध लड़े गए थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "दो"
+        },
+        {
+          "id": "opt4",
+          "text": "एक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज के समय भारत के उत्तर-पश्चिम में गौर प्रदेश पर शहाबुद्दीन मुहम्मद गौरी का शासन था। मुहम्मद ग़ौरी और पृथ्वीराज चौहान के बीच तराईन के मैदान में दो युद्ध हुए।",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9991,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित चौहान शासकों को कालक्रमानुसार व्यवस्थित कीजिए और नीचे दिए गए कूट में से सही उत्तर चुनिए -(1) पृथ्वीराज राय पिथौरा(2) पृथ्वीराज II(3) विग्रहराज IV(4) सोमेश्वरकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 3, 2, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 2, 4, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 4, 2, 3"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बीसलदेव चौहान (विग्रहराज चतुर्थ) (1158-1163 ई.)विग्रहराज चतुर्थ के बाद अपरगांगेय और उसके बाद पृथ्वीराज द्वितीय गद्दी पर बैठा जिसने 1169 ई. तक शासन किया। पृथ्वीराज द्वितीय की निःसंतान मृत्यु होने पर उसके चाचा (अर्णोराज का पुत्र, जो गुजरात की राजकुमारी कांचन देवी से पैदा हुआ था) सोमेश्वर ने अजमेर का सिंहासन प्राप्त किया। चौहान वंश के अंतिम प्रतापी सम्राट पृथ्वीराज चौहान तृतीय (1177-1192 ई.) का जन्म 1166 ई. (वि.सं. 1223) में सोमेश्वर की रानी कर्पूरीदेवी की कोख से अन्हिलपाटन (गुजरात) में हुआ।",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9994,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसको चौहानों का मूल स्थान माना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt3",
+          "text": "सपादलक्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "अहिछत्रपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी, देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था, इस क्षेत्र को सपादलक्ष(सपादलक्ष का अर्थ सवा लाख गांवों का समूह) के नाम से जानते थे, प्रारम्भिक चौहान राजाओं की राजधानी अहिच्छत्रपुर (हर्षनाथ की प्रशस्ति) थी जिसे वर्तमान में नागौर के नाम से जानते हैं। सपादलक्ष के चौहानों का आदि पुरुष वासुदेव था, जिसका समय 551 ई. के लगभग अनुमानित है।",
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9995,
+        "exam": "School Lecturer 2022 History (Group - C)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज III द्वारा चंदेल राज्य पर आक्रमण के दौरान वहाँ का शासक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "परमार्दी"
+        },
+        {
+          "id": "opt2",
+          "text": "जिनपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "आल्हा"
+        },
+        {
+          "id": "opt4",
+          "text": "भीमदेव"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "महोबा (तुमुल) का युद्ध: 1182 ई. में पृथ्वीराज ने महोबा के चंदेल वंश के शासक परमाल(परमार्दी) देव पर आक्रमण किया। इस युद्ध (तुमुल का युद्ध) में परमार्दिदेव के दो सेनानायक आल्हा व उदल वीरगति को प्राप्त हुए।",
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9996,
+        "exam": "School Lecturer 2022 History (Group - C)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहान रानी ने अपने नाम के सिक्के चलवाये -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कर्पूर देवी"
+        },
+        {
+          "id": "opt2",
+          "text": "सायरी देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "सोमल देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "सायली देवी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अजयराज ने ‘श्री अजयदेव’ नाम से चाँदी के सिक्क चलाये। कुछ मुद्राओं पर उसकी रानी सोमलेखा (सोमलवती) का नाम भी अंकित मिलता है।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10005,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

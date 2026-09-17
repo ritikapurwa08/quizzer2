@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 2,
+  "batchName": "राजस्थान के मेले भाग 2",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘कपिल मुनि’ मेला कहाँ आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर में सांगानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर में मंडोर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर में कोलायत"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़ में कालीबंगा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कपिल मुनि मेला कार्तिक पूर्णिमा पर बीकानेर क्षेत्र के कोलायत में आयोजित होने वाला सबसे बड़ा मेला है। इस मेले का उत्सव कपिल मुनि घाट से शुरू होता है और अंततः कोलायत झील के आसपास के 51 घाटों तक फैल जाता है। स्थानीय किंवदंती के अनुसार, पवित्र कोलायत झील 'कपिल मुनि' नामक एक महान ऋषि की साधना स्थली थी।",
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9386,
+        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्री महावीरजी मेला राजस्थान के किस क्षेत्र में आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्री महावीरजी मेला राजस्थान के करौली जिले में आयोजित होता है, जो जैन धर्म के तीर्थंकर महावीर स्वामी को समर्पित है।",
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 1st Shift",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9387,
+        "exam": "Rajasthan Patwar Exam 2025 1st Shift",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रसिद्ध “बैलगाड़ी मेला” निम्नलिखित में से किस उत्सव के दौरान आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैला देवी मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी माता मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "शीतला माता मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "कपिल मुनि मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "शीतलामाता का मेला जयपुर जिले की चाकसू तहसील के ग्राम शील की डूंगरी में चैत्र कृष्ण अष्टमी (शीतला अष्टमी) को लगता है। इस दिन को बसोड़ा इसलिए कहा जाता है क्योंकि इस दिन ठंडा भोजन (बासी भोजन) खाया जाता है और शीतला माता को केवल ठंडे व्यंजन का ही भोग लगता है। इस मेले को “बैलगाड़ी मेला” के नाम से भी जाना जाता है क्योंकि दूर-दूर से ग्रामीण अपनी बैलगाड़ियों को रंग-बिरंगे कपड़ों से सजाकर और उसमें सवार होकर मेले में पहुंचते हैं। शीतला माता का मंदिर जयपुर के शासक महाराजा माधो सिंह ने बनवाया था।",
+      "reference": "📌 PYQ — Livestock Assistant Exam 2025",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9388,
+        "exam": "Livestock Assistant Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘मत्स्य उत्सव’ किस क्षेत्र में आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मत्स्य उत्सव अलवर जिले में मनाया जाता है क्योंकि प्राचीन काल में यह क्षेत्र “मत्स्य देश” कहलाता था।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9378,
+        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही महोत्सव औपचारिक रूप से राजस्थान के _____ क्षेत्र में प्रतिवर्ष मनाया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "बांसवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "माही महोत्सव हर साल जनवरी के महीने में पर्यटन विभाग और जिला प्रशासन, बांसवाड़ा, राजस्थान द्वारा आयोजित एक उत्सव है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9379,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा राजस्थान में जैन समुदाय का सबसे बड़ा मेला है जो चंदनपुर गाँव में मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री महावीरजी मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "कपिल मुनि मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "भर्तृहरि मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "डिग्गी कल्याणजी मेला"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "करौली जिले के चंदनपुर गाँव में लगने वाला श्री महावीरजी मेला राजस्थान का जैन समुदाय का सबसे बड़ा मेला है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9380,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 2nd Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कपिल मुनि मेला” राजस्थान के किस क्षेत्र में लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt2",
+          "text": "चाकसू"
+        },
+        {
+          "id": "opt3",
+          "text": "चंदनपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "नवलगढ़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कपिल मुनि मेला राजस्थान के बीकानेर जिले के कोलायत में आयोजित होता है। कपिल मुनि का मेला कोलायत में कार्तिक पूर्णिमा पर आयोजित होता है। यह बीकानेर जिले का सबसे बड़ा मेला है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9381,
+        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन से मेले को ‘आदिवासियों का कुंभ’ भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भर्तृहरि मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणेश्वर मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "डिग्गी कल्याणजी मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "शीतला माता मेला"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बाणेश्वर मेला राजस्थान के डूंगरपुर ज़िले में आयोजित होने वाला एक विशाल आदिवासी मेला है। यह जनवरी या फरवरी के महीनों में आयोजित होने वाला एक वार्षिक उत्सव है, जो बाणेश्वर महादेव (भगवान शिव) को समर्पित है। यह मेला वास्तव में दो मेलों का संयोजन है - एक शिव मंदिर में और दूसरा विष्णु मंदिर में आयोजित किया जाता है। बाणेश्वर नाम की उत्पत्ति डूंगरपुर के शिव मंदिर में स्थित शिव लिंग से हुई है। स्थानीय भाषा में, बाणेश्वर का अर्थ है ‘डेल्टा का स्वामी’।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9382,
+        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 1st Shift)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मुख्य मेलों और उनके स्थानों के संबंध में निम्नलिखित युग्मों में से कौनसा एक युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शीतला माता - चाकसू"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणेश्वर का मेला - डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जीण माता - सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी का मेला - परबतसर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पाबूजी का मेला कोलुमंड (जोधपुर जिला) में लगता है, न कि परबतसर (नागौर) में।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9389,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में, बाणगंगा का मेला कहाँ लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाण्डुपोल"
+        },
+        {
+          "id": "opt2",
+          "text": "भानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नीलकण्ठ"
+        },
+        {
+          "id": "opt4",
+          "text": "मैड़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का बाणगंगा मेला हर वर्ष वैशाख (अप्रैल-मई) की पूर्णिमा के दिन आयोजित किया जाता है। यह बाणगंगा नामक एक छोटी नदी के पास आयोजित होता है। यह जयपुर जिले के बैराठ (विराटनगर) बैराठ के पास मैड़ में लगता है। माना जाता है कि यह धारा अर्जुन द्वारा बनाई गई थी।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9390,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दधिमती माता का मेला किस स्थान पर आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धूलेव"
+        },
+        {
+          "id": "opt2",
+          "text": "गोठ मांगलोद"
+        },
+        {
+          "id": "opt3",
+          "text": "परबतसर"
+        },
+        {
+          "id": "opt4",
+          "text": "शाहपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "दधिमती माता का प्रसिद्ध प्राचीन मंदिर नागौर जिले के गोठ-मांगलोद गांव के बीच में स्थित है।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9391,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित उत्सवों/मेलों को ग्रेगोरियन कैलेंडर के अनुसार कालक्रमानुसार व्यवस्थित कीजिये: i. ऊँट उत्सव, बीकानेरii. ग्रीष्म उत्सव, माउण्ट आबूiii. पुष्कर मेलाiv. श्री महावीरजी मेलासही कूट चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "i, ii, iii, iv"
+        },
+        {
+          "id": "opt2",
+          "text": "i, iv, ii, iii"
+        },
+        {
+          "id": "opt3",
+          "text": "ii, i, iii, iv"
+        },
+        {
+          "id": "opt4",
+          "text": "iv, ii, i, iii"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऊँट उत्सव, बीकानेर → जनवरीश्री महावीरजी मेला → मार्च-अप्रैलग्रीष्म उत्सव, माउंट आबू → मई-जूनपुष्कर मेला → अक्टूबर-नवंबर (कार्तिक पूर्णिमा)",
+      "reference": "📌 PYQ — Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9392,
+        "exam": "Sub Inspector (Telecom) Comp. Exam - 2024 (Paper- II) (G.K and G.S)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कौन सा मेला ‘आदिवासियों का कुंभ’ कहलाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कपिल मुनि मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी माता मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "बेणेश्वर मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "भर्तृहरि मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बेणेश्वर मेला (डूंगरपुर जिला) आदिवासी (मुख्यतः भील जनजाति) समुदाय का प्रमुख धार्मिक-सांस्कृतिक आयोजन है, जो माघ पूर्णिमा को सोम, माही और जाखम नदियों के त्रिवेणी संगम पर लगता है। इसे ‘आदिवासियों का कुंभ’ कहा जाता है क्योंकि लाखों आदिवासी राजस्थान, गुजरात और मध्य प्रदेश से यहां स्नान, पूजा लिए एकत्र होते हैं।",
+      "reference": "📌 PYQ — परिचालक सीधी भर्ती-2024",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9393,
+        "exam": "परिचालक सीधी भर्ती-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित नहीं है -महोत्सव - स्थान",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ महोत्सव - जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "थार महोत्सव - बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "मरु महोत्सव - जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "हाथी महोत्सव - जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "थार महोत्सव राजस्थान, भारत के बाड़मेर जिले में मनाया जाता है।",
+      "reference": "📌 PYQ — REET-2024 PL-2 (LEVEL-2) SHIFT-2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9394,
+        "exam": "REET-2024 PL-2 (LEVEL-2) SHIFT-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पांडुपोल मेला कहाँ लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "पण्डेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पांडुपोल मेला राजस्थान के अलवर जिले में सरिस्का टाइगर रिजर्व के पास पांडुपोल हनुमान मंदिर में आयोजित होता है।",
+      "reference": "📌 PYQ — REET‐2024 LEVEL‐1 (Math&Env. Studies)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9395,
+        "exam": "REET‐2024 LEVEL‐1 (Math&Env. Studies)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रत्येक वर्ष ‘माही महोत्सव’ किस महीने और किस स्थान पर मनाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फरवरी, बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जनवरी, बाड़मेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जनवरी, बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "फरवरी, बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माही महोत्सव हर साल जनवरी के महीने में पर्यटन विभाग और जिला प्रशासन बांसवाड़ा, राजस्थान द्वारा आयोजित एक उत्सव है।",
+      "reference": "📌 PYQ — Librarian Grade III 2024 (Paper 1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9396,
+        "exam": "Librarian Grade III 2024 (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कहाँ ‘कांठल उत्सव’ आयोजित किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कांठल उत्सव प्रतापगढ़, राजस्थान में मनाया जाने वाला एक सांस्कृतिक उत्सव है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9397,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चन्द्रभागा पशु मेला ____ के नज़दीक आयोजित किया जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चन्द्रभागा पशु मेला झालावाड़ के पास चन्द्रभागा नदी के किनारे आयोजित होता है। झालरा पाटन में प्रसिद्ध चंद्रभागा मेला आयोजित किया जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9398,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "फूलडोल महोत्सव किस सम्प्रदाय का महत्वपूर्ण उत्सव है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामस्नेही सम्प्रदाय"
+        },
+        {
+          "id": "opt2",
+          "text": "लालदासी सम्प्रदाय"
+        },
+        {
+          "id": "opt3",
+          "text": "बिश्नोई सम्प्रदाय"
+        },
+        {
+          "id": "opt4",
+          "text": "जसनाथी सम्प्रदाय"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "फूलडोल महोत्सव रामस्नेही सम्प्रदाय का प्रमुख पर्व है, जो फाल्गुन शुक्ल पूर्णिमा को मनाया जाता है। इसमें भगवान की मूर्तियों पर पुष्पवर्षा की जाती है और भजन-कीर्तन होते हैं। रामस्नेही संप्रदाय के संस्थापक स्वामी रामचरण जी महाराज थे।",
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9399,
+        "exam": "Junior Instructor (MDE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उपयुक्त युग्म सुम्मेलित कीजिए।देवतामेलाa. जसनाथ जी 1. रेवासा (सीकर)b. शीतला माता 2. चाकसू (जयपुर)c. जाम्भोजी 3. मुकाम (नोका)d. जीण माता 4. कातरियासर (बीकानेर)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-4, b-2, c-3, d-1"
+        },
+        {
+          "id": "opt2",
+          "text": "a-1, b-2, c-3, d-4"
+        },
+        {
+          "id": "opt3",
+          "text": "a-2, b-1, c-4, d-3"
+        },
+        {
+          "id": "opt4",
+          "text": "a-3, b-4, c-1, d-2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जसनाथ जी - कातरियासर (बीकानेर)शीतला माता - चाकसू (जयपुर)जाम्भोजी - मुकाम (नोखा)जीण माता - रेवासा (सीकर)",
+      "reference": "📌 PYQ — Junior Instructor (EC) Exam 2024",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9400,
+        "exam": "Junior Instructor (EC) Exam 2024",
+        "year": 2024
+      }
+    }
+  ]
+}

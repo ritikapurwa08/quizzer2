@@ -180,23 +180,27 @@ If fewer than ${count} questions remain after legitimate correction/
 deduplication, return fewer. Never manufacture a replacement.
 
 ==================================================
-2. PYQ IDENTITY / SOURCE PRESERVATION
+2. PYQ IDENTITY & EXAM NAME PRESERVATION (CRITICAL)
 ==================================================
 
-For every retained question, preserve its original identity and provenance.
+For every retained question, you MUST preserve its original identity and provenance.
 
-If the input contains:
-- sourceQuestionId (or id)
-- sourceType (e.g. "PYQ")
-- exam
-- year
-- reference
-
-you MUST PRESERVE these fields in the returned question object whenever present in the input.
+MANDATORY EXAM NAME RULE:
+- If a question in the input contains an exam name (in an 'exam' field, 'reference' field, 'meta', or as part of the question heading/citation such as 'RPSC RAS', 'RSMSSB Patwar', 'Rajasthan Police Constable', 'CET', 'REET', etc.), you MUST include it in the output as:
+  "exam": "Exact Exam Name"
+- NEVER drop, omit, or strip the exam name when it is present or mentioned in the source input!
+- If the exam year is mentioned (e.g. 2021, 2023), also include:
+  "year": 2021
+- If sourceQuestionId (or id) is present, preserve it:
+  "sourceQuestionId": 13540
+- If sourceType is present (or it is a PYQ), include:
+  "sourceType": "PYQ"
+- If a reference string is present, preserve it:
+  "reference": "Original Reference String"
 
 Do not change the factual identity of a PYQ.
 Do not silently convert a PYQ into an "original" or AI question.
-Do not fabricate missing source information. If an existing question lacks an exam or year, do not invent them.
+Do not fabricate missing source information if the input has zero reference, but whenever an exam name IS mentioned anywhere in the input, you MUST include it!
 
 ==================================================
 3. INDIVIDUAL QUESTION AUDIT
@@ -610,16 +614,18 @@ Allowed t values (match the source structure):
 "table"             → Table-based question
 "true_false"        → True / False question
 
-Provenance fields (MUST be preserved when present in the input):
+Provenance fields (MANDATORY whenever present in the input):
+- exam: clean single exam name (e.g. "RPSC RAS Prelims", "RSMSSB Patwar", "Rajasthan Police Constable", "CET 12th Level", "REET Level 2")
+- year: original exam year as number (e.g. 2021)
 - sourceType: "PYQ"
 - sourceQuestionId: original positive integer ID
-- exam: original exam name
-- year: original exam year
 - reference: original reference string
 
-CRITICAL RULES:
-- Preserve genuine sourceQuestionId, sourceType, exam, year, and reference whenever present in the input.
-- If source metadata is missing in the input, do NOT invent or manufacture fake metadata.
+CRITICAL PROVENANCE ENFORCEMENT:
+- If ANY exam name is present or mentioned in the input (whether in an 'exam' field, 'reference', question heading, or metadata), you MUST output "exam": "Exact Exam Name" for that question.
+- NEVER omit or drop the exam name when the source question mentions it!
+- Use clean, specific exam names without multiple slashes or combined guesses.
+- If source metadata is genuinely absent in the input, do NOT invent fake metadata.
 - AI_NEW questions must NOT have sourceQuestionId or exam.
 - DO NOT wrap the output in an outer object, deliveryState, comments, markdown fences or conversational text.
 
@@ -641,9 +647,10 @@ validation.
 [ ] Every item has o
 [ ] Every item has a
 [ ] Every item has e
-[ ] Every item has t
-[ ] Every o array has exactly 4 strings
-[ ] a is exactly 0, 1, 2 or 3
+[ ] Every item has t (mcq, assertion_reason, match_following, table, sequence, true_false)
+[ ] Every question with a known exam in the input HAS "exam": "..." included
+[ ] Every o array has exactly 4 strings (or 2 for true_false)
+[ ] a is exactly 0, 1, 2 or 3 (or 0/1 for true_false)
 [ ] a points to the actual correct option
 [ ] Exactly one correct answer
 [ ] No invented questions

@@ -1,0 +1,655 @@
+{
+  "masterTopic": "राजस्थान की स्थापत्य कला एवं वास्तुकला",
+  "batchIndex": 15,
+  "batchName": "राजस्थान की स्थापत्य कला एवं वास्तुकला भाग 15",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-स्थापत्य-कला-एवं-वास्तुकला",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "एक जैसे नौ महल किस किले में बने हुए हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "नाहरगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "गागरोण"
+        },
+        {
+          "id": "opt4",
+          "text": "तारागढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17435,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पर्यटन स्थल ‘चाँद बावड़ी’ कहाँ अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "आभानेरी"
+        },
+        {
+          "id": "opt3",
+          "text": "तलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17436,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुम्भलगढ़ दुर्ग का प्रारम्भिक संस्थापक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा लाखा"
+        },
+        {
+          "id": "opt2",
+          "text": "कुंवर पृथ्वीराज"
+        },
+        {
+          "id": "opt3",
+          "text": "सम्प्रति"
+        },
+        {
+          "id": "opt4",
+          "text": "मान मौर्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17437,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“अढ़ाई दिन का झोपड़ा” कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "बदायूँ"
+        },
+        {
+          "id": "opt3",
+          "text": "कन्नोज"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17438,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बोहरा मुस्लिम संत अब्दुल्ला पीर का मकबरा स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा में"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमन्द में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17439,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर के जूनागढ़ किले के दरवाजे पर किन शूरवीरों की मूर्तियाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयमल - पत्ता"
+        },
+        {
+          "id": "opt2",
+          "text": "राव दलपत - कर्ण सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "गोरा - बादल"
+        },
+        {
+          "id": "opt4",
+          "text": "भैरुजी - कल्लाजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17440,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महाराणा प्रताप की छतरी कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt2",
+          "text": "माण्डल"
+        },
+        {
+          "id": "opt3",
+          "text": "गैटोर"
+        },
+        {
+          "id": "opt4",
+          "text": "बंदोली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17441,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘गुरुद्वारा बुद्ध जोहड’ ______ ज़िले में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "गुरुद्वारा बुद्ध जोहड़ गुरुद्वारा श्रीगंगानगर जिले में स्थित है। यह श्रीगंगानगर जिले की रायसिंहनगर तहसील में स्थित है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17442,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कैला देवी का मन्दिर कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "करौली"
+        },
+        {
+          "id": "opt3",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17444,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा राजप्रासाद छीतर पैलेस के नाम से भी जान जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामबाग पैलेस, जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "डीग पैलेस, भरतपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उम्मेद भवन पैलेस, जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "गजनेर पैलेस, बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17445,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘सुवर्णगीरि’ राजस्थान के किस दुर्ग को संदर्भित करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गागरोन"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "आबू"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17446,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वह दुर्ग जिसके चारों ओर खाई होती है वह ______ दुर्ग कहलाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पारिधि"
+        },
+        {
+          "id": "opt2",
+          "text": "धन्वन"
+        },
+        {
+          "id": "opt3",
+          "text": "एरण"
+        },
+        {
+          "id": "opt4",
+          "text": "पारिख"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17447,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रख्यात धार्मिक स्थल “अम्बिका माता” का मंदिर ______ जिले में स्थित है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17448,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“बीबी जरीना का मकबरा” कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17449,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ के किले में त्रिभुवन नारायण मन्दिर का निर्माता कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराणा अरिसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "नागभट्ट प्रथम"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराणा मोकल"
+        },
+        {
+          "id": "opt4",
+          "text": "भोज परमार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "त्रिभुवन नारायण मंदिर चित्तौड़ के चित्तौड़ किले में स्थित है। कई शिलालेखों से पता चलता है कि मंदिर का निर्माण 11वीं शताब्दी में तत्कालीन परमार वंश के राजा- राजा भोज ने करवाया था।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17451,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस मंदिर को मामादेव का मंदिर भी कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भास्वामी मंदिर - चित्तौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भश्याम मंदिर - कुम्भलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रृंगार चौरी मंदिर"
+        },
+        {
+          "id": "opt4",
+          "text": "एकलिंगजी का मंदिर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कुंभलगढ़ शिलालेख कुंभलगढ़ क्षेत्र के ममादेव मंदिर में पाए गए थे। मामादेव मंदिर को कुंभा श्याम मंदिर के रूप में भी जाना जाता है। 1460 ई. में कुंभलगढ़ शिलालेख उत्कीर्ण किया गया था और इस शिलालेख में मेवाड़ की स्थापना करने वाले गुहिल के काल से राणा कुंभा के क्षेत्र का इतिहास दर्ज है।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17452,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोमपुरा शैली जानी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मिट्टी के बर्तन के लिए"
+        },
+        {
+          "id": "opt2",
+          "text": "चमड़े के लिए"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्रकला के लिए"
+        },
+        {
+          "id": "opt4",
+          "text": "स्थापत्य के लिए"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17453,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस दुर्ग में सैयद मीरन शाह की दरगाह अवस्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर के मेहरानगढ़ दुर्ग में"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर के तारागढ़ दुर्ग में"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर के जयगढ़ दुर्ग में"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी के तारागढ़ दुर्ग में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17455,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "दिलवाड़ा, माउंट आबू के लूना वसाही नेमिनाथ मंदिर के मुख्य शिल्पी कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शोभन देव"
+        },
+        {
+          "id": "opt2",
+          "text": "देपाक"
+        },
+        {
+          "id": "opt3",
+          "text": "वास्तुपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "जैता"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group E)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17457,
+        "exam": "School Lecturer 2022 Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किराडू का सोमेश्वर मंदिर किस स्थापत्य कला से संबंधित है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुर्जर-प्रतिहार"
+        },
+        {
+          "id": "opt2",
+          "text": "गुप्त"
+        },
+        {
+          "id": "opt3",
+          "text": "मौर्य"
+        },
+        {
+          "id": "opt4",
+          "text": "पंचायतन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 17458,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    }
+  ]
+}

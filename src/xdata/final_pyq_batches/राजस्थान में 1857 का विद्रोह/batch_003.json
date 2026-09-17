@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान में 1857 का विद्रोह",
+  "batchIndex": 3,
+  "batchName": "राजस्थान में 1857 का विद्रोह भाग 3",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-में-1857-का-विद्रोह",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय निम्नलिखित में से कौन टोंक का नवाब था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिराजुद्दौला"
+        },
+        {
+          "id": "opt2",
+          "text": "मीर आलम"
+        },
+        {
+          "id": "opt3",
+          "text": "वजीरूद्दौला"
+        },
+        {
+          "id": "opt4",
+          "text": "जहानखाँ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1857की क्रांति के समय टोंक का नवाब वजीरुद्दीन दौला था। टोंक की विद्रोही सेना का नेतृत्व मीर आलम खान ने किया था।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 324,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के स्वतन्त्रता संघर्ष के समय मेवाड़ का पॉलिटिकल एजेण्ट था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर शॉवर्स"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल मैलीसन"
+        },
+        {
+          "id": "opt4",
+          "text": "मेजर मैक्मेसन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 के स्वतन्त्रता संघर्ष के समय मेवाड़ का पॉलिटिकल एजेण्ट शावर्स और शासक स्वरूप सिंह सिंह थे।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8258,
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - 2022 (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रान्ति के समय किस पोलिटिकल ऐजेंट का सिर काटकर आऊवा के किले के दरवाजे पर लटका दिया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मि. बर्टन"
+        },
+        {
+          "id": "opt2",
+          "text": "मैक मेसन"
+        },
+        {
+          "id": "opt3",
+          "text": "मि. काटम"
+        },
+        {
+          "id": "opt4",
+          "text": "जॉर्ज लॉरेन्स"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संघर्ष के दौरान जोधपुर का पोलिटिकल एजेन्ट मोक मेसन क्रांतिकारियों के हाथों मारा गया। उसका सिर आउवा के किले के द्वार पर लटका दिया गया।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8261,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 ई. के विप्लव के समय नीमच में अंग्रेज सैनिक अधिकारी कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रिगेडियर होम्स"
+        },
+        {
+          "id": "opt2",
+          "text": "जॉर्ज पैट्रिक लारेंस"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल एबाट"
+        },
+        {
+          "id": "opt4",
+          "text": "मेजर बर्टन की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मोहम्मद अली बेग नामक सैनिक ने कर्नल एबॉट के सामने अंग्रेजो के प्रति वफादारी की प्रतिज्ञा लेने से मना कर दिया। मध्य प्रदेश की नीमच छावनी पर मेवाड़ के राजनीतिक एजेंट कैप्टन शावर्स का नियंत्रण था।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8262,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोटा के किस पॉलिटिकल एजेंट की हत्या 1857 के विद्रोह के दौरान की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेजर प्रिचार्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt3",
+          "text": "जॉर्ज पैट्रिक लारेन्स"
+        },
+        {
+          "id": "opt4",
+          "text": "एजेन्ट मॉरीसन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "15 अक्टूबर, 1857 को कोटा की सेना ने रेजीडेन्सी को घेरकर मेजर बर्टन और उसके पुत्रों तथा एक डॉक्टर की हत्या कर दी। मेजर बर्टन का सिर कोटा शहर में घुमाया गया तथा महाराव का महल घेर लिया।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8263,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लाला जयदयाल और मेहराब खाँ ने कहाँ 1857 ई. के विद्रोह का नेतृत्व किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "एरिनपुरा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "15 अक्टूबर, 1857 को कोटा की सेना ने रेजीडेन्सी को घेरकर मेजर बर्टन और उसके पुत्रों तथा एक डॉक्टर की हत्या कर दी। मेजर बर्टन का सिर कोटा शहर में घुमाया गया तथा महाराव का महल घेर लिया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8264,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 1857 की क्रांति की शुरूआत कहाँ से हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एरिनपुरा"
+        },
+        {
+          "id": "opt2",
+          "text": "खेरवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "नीमच"
+        },
+        {
+          "id": "opt4",
+          "text": "नसीराबाद"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8265,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "8 सितम्बर 1857 को बिथोडा स्थान पर ______ ने मारवाड़ की राजकीय सेना को परास्त किया।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तांत्या टोपे"
+        },
+        {
+          "id": "opt2",
+          "text": "ठा. कुशाल सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "मेहराब खान और जयदयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "अंग्रेजी सेना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ठाकुर कुशालसिंह की सेना ने जोधपुर की राजकीय सेना को 8 सितम्बर, 1857 को बिथोड़ा नामक स्थान पर पराजित किया।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8266,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय बड़लू का युद्ध किनके बीच हुआ था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ एवं आऊवा"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ एवं आलनियावास"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ एवं आसोप"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ एवं कोठारिया"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "आसोप के जागीरदारों की मारवाड़-मुगल संघर्षकाल, मराठा-पिंडारी संघर्ष काल और 1857 की क्रांति में महत्वपूर्ण भूमिका रही है। बड़लू का युद्ध मारवाड़ के इतिहास में एक महत्वपूर्ण घटना है। यह युद्ध आसोप (अब राजस्थान में स्थित एक गाँव) और मारवाड़ राज्य के बीच हुआ था।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8268,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से राजस्थान में 1857 की क्रान्ति के दौरान डूंगरपुर रियासत का शासक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "विनय सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "मदन पाल"
+        },
+        {
+          "id": "opt4",
+          "text": "उदय सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "डूंगरपुर के शासक उदय सिंह द्वितीय ने 1857 के विद्रोह के दौरान अंग्रेजों की मदद की थी।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8269,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में देशी रियासतो एव सबंधित पॉलिटिकल एजेन्ट (1857 के विद्रोह के प्रारंभ के समय) का कौनसा युग्म असंगत है -देशी रियासत - पॉलिटिकल एजेन्ट",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर - कैप्टन जे.डी. हॉल"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर - कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ - सी.एल. शॉवर्स"
+        },
+        {
+          "id": "opt4",
+          "text": "मारवाड़ - मैक मेसन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भरतपुर के पॉलिटिकल एजेन्ट मॉरीसन थे लेकिन भरतपुर के शासक जसवंत सिंह नाबालिग थे। इसलिए मॉरीसन को वापस भेज दिया गया। निक्सन ने ही धौलपुर व भरतपुर के पॉलिटिकल एजेन्ट के रूप में कार्य किया।",
+      "reference": "📌 PYQ — School Lecturer (Sanskrit Edu.) 2022",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8270,
+        "exam": "School Lecturer (Sanskrit Edu.) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रान्ति के दौरान, निम्न में से किसके द्वारा मुगल बादशाह को निष्ठा का प्रतीक, नज़र, भेंट की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सामोद के रावल शिव सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "आहुवा के राव राजा कुशल सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा के लाला जय दयाल"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली के पठान मेहराब खान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयपुर के सामोद ठिकाने के रावल शिवसिंह ने दिल्ली जाकर मुगल बादशाह को नजर भेंट की।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (Group D)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8271,
+        "exam": "School Lecturer 2022 Gk (Group D)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 के विद्रोह के समय राजपूताना के ए. जी. जी कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जॉर्ज पी. लॉरेन्स"
+        },
+        {
+          "id": "opt2",
+          "text": "मेजर बर्टन"
+        },
+        {
+          "id": "opt3",
+          "text": "कर्नल होम्स"
+        },
+        {
+          "id": "opt4",
+          "text": "सैडलर कॉटन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 ई. की क्रान्ति के समय ए.जी.जी. जॉर्ज पैट्रिक लॉरेन्स था।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-C)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8272,
+        "exam": "School Lecturer 2022 Gk (G-C)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 क्रांति के समय करौली का शासक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा भगवान सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा मदन पाल"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा जसवन्त सिंह II"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा गोपाल सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोटा राज्य की सहायता के लिए करौली ने 1857 के विद्रोह के दौरान अपनी सेना भेजी। करौली के राजा मदन पाल ने रामसिंह-II को विदोहियों से मुक्त कराया।",
+      "reference": "📌 PYQ — School Lecturer 2022 Gk (G-B)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8274,
+        "exam": "School Lecturer 2022 Gk (G-B)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के समय राजपुताना में एजेन्ट टू गवर्नर जनरल कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जार्ज लॉरेन्स"
+        },
+        {
+          "id": "opt2",
+          "text": "सी.एल. शावर्स"
+        },
+        {
+          "id": "opt3",
+          "text": "मौंक मैसन"
+        },
+        {
+          "id": "opt4",
+          "text": "डब्लू. ईडन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1857 ई. की क्रान्ति के समय ए.जी.जी. जॉर्ज पैट्रिक लॉरेन्स था।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8275,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के किन सैनिकों द्वारा हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बंगाल नेटिव इन्फेन्ट्री"
+        },
+        {
+          "id": "opt2",
+          "text": "गोरखा राइफल्स"
+        },
+        {
+          "id": "opt3",
+          "text": "कुमायूँ रेजीमेन्ट"
+        },
+        {
+          "id": "opt4",
+          "text": "राजपूताना राइफल्स"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में क्रांति का प्रारम्भ 28 मई, 1857 को नसीराबाद छावनी के 15वीं बंगाल नेटिव इन्फेन्ट्री के सैनिकों द्वारा हुआ। नसीराबाद छावनी के सैनिकों में 28 मई, 1857 को विद्रोह कर छावनी को लूट लिया तथा अंग्रेज अधिकारियों के बंगलों पर आक्रमण किये।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8276,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के दौरान (देशी रियासत - पॉलिटिकल एजेंट) का कौनसा युग्म, असंगत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर – सी. एल. शॉवर्स"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर – कर्नल ईडन"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर – कैप्टन जे. डी. हॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर – मैक मेसन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जे.डी. हॉल सिरोही के पॉलिटिकल एजेन्ट थे।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8277,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "1857 की क्रांति के दौरान डूंगरपुर का शासक कौन था, जिसने अंग्रेजों की सहायता की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फतेह सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "जसवंत सिंह- II"
+        },
+        {
+          "id": "opt3",
+          "text": "उदय सिंह – II"
+        },
+        {
+          "id": "opt4",
+          "text": "विजय सिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डूंगरपुर के शासक उदय सिंह द्वितीय ने 1857 के विद्रोह के दौरान अंग्रेजों की मदद की थी।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 4",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8278,
+        "exam": "Forest Guard Exam 2022 Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "करौली राज्य ने 1857 के विद्रोह के दौरान किस राज्य की सहायता हेतु अपनी सेना भेजी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जनवरी, 1858 में करौली से सैनिक सहायता मिलने पर महाराव के सैनिकों ने क्रांतिकारियों को गढ़ से खदेड़ दिया।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8279,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जयदयाल एवं मेहराब खाँ ने 1857 के विप्लव का नेतृत्व कहाँ किया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नसीराबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "ब्यावर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोटा में राजकीय सेना तथा आम जनता ने अंग्रेजों के विरुद्ध संघर्ष किया। विद्रोही सेना का नेतृत्व रिसालदार मेहराबखाँ और लाला जयदयाल कर रहे थे। कोटा महाराव की स्थिति असहाय हो गयी।",
+      "reference": "📌 PYQ — School Lecturer 2022 History (Group - C)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 8280,
+        "exam": "School Lecturer 2022 History (Group - C)",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान का पर्यटन",
+  "batchIndex": 5,
+  "batchName": "राजस्थान का पर्यटन भाग 5",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-पर्यटन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "दिलवाड़ा मंदिर समूह के पाँच मंदिरों में निम्नलिखित में से कौन सा मंदिर शामिल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विमल वसाही"
+        },
+        {
+          "id": "opt2",
+          "text": "लूना बसाही"
+        },
+        {
+          "id": "opt3",
+          "text": "पशुपतिनाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "पित्तलहार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5632,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का सबसे अधिक ऊँचा किला निम्नलिखित में से कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "कुंभलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर/अंबर"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5633,
+        "exam": "Police Constable Exam (13 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से सही मिलान का चयन करें।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गलताजी मंदिर – अजमेर जिला"
+        },
+        {
+          "id": "opt2",
+          "text": "सालासर बालाजी मंदिर – चुरू जिला"
+        },
+        {
+          "id": "opt3",
+          "text": "एकलिंगजी मंदिर – जयपुर जिला"
+        },
+        {
+          "id": "opt4",
+          "text": "मेहंदीपुर बालाजी मंदिर – बूंदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5634,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मूसी महारानी की छतरी – अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोगनिया माता मंदिर – भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रीय मरु उद्यान – जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "सुनहरी कोठी – सीकर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5635,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा पर्यटन स्थल जयपुर में नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जन्तर मन्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "हवा महल"
+        },
+        {
+          "id": "opt3",
+          "text": "जग निवास महल"
+        },
+        {
+          "id": "opt4",
+          "text": "सरगासूली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जन्तरमन्तर, दिल्ली स्थित है तथा हवामहल, जग निवास महल, सरगासूली जयपुर में स्थित है। अत: विकल्प(a) सही है।",
+      "reference": "📌 PYQ — RPSC Hospital Care Taker-2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5636,
+        "exam": "RPSC Hospital Care Taker-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पहली वंदे भारत एक्सप्रेस को प्रधानमंत्री ने झंडी दिखाकर रवाना किया, जो निम्नलिखित में से किन स्टेशन के बीच चलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर-अहमदाबाद"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा-मुंबई सीएसएमटी"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर-चंडीगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर-दिल्ली वैंâट"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान की पहली वंदे भारत एक्सप्रेस को प्रधानमंत्री ने झंडी दिखाकर रवाना किया जो १२ अप्रैल, २०२३ को अजमेर से दिल्ली के बीच चलायी गई पुन: १ वर्ष पश्चात इस ट्रेन के रूट का बढ़ाकर चंडीगढ़ तक कर दिया गया।",
+      "reference": "📌 PYQ — RPSC Assistant Engineer (Civil)2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5637,
+        "exam": "RPSC Assistant Engineer (Civil)2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के ग्रामीण पर्यटन को उनके सम्बन्धित प्रदेशों से सुमेलित कीजिए: अवस्थिति (प्रदेश) ग्रामीण पर्यटन स्थल (i) मेवाड़ (A) तालछापर, जीणमाता (ii) हाड़ौती (B) ओसियां, किराडू मन्दिर (iii) मारवाड़ (C) हल्दीघाटी, मेणाल (iv) शेखावाटी (D) रामेश्वर महादेव, सीताबाड़ी कोड: (i) (ii) (iii) (iv)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(D) (B) (C) (A)"
+        },
+        {
+          "id": "opt2",
+          "text": "(C) (A) (D) (B)"
+        },
+        {
+          "id": "opt3",
+          "text": "(C) (D) (B) (A)"
+        },
+        {
+          "id": "opt4",
+          "text": "(B) (C) (A) (D)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के ग्रामीण पर्यटन को उनके सम्बन्धित प्रदेशों से सही सुमेलन है- अवस्थिति (प्रदेश) ग्रामीण पर्यटन स्थल (i) मेवाड़ - रामेश्वर महादेव, सीतामढ़ी (ii) हड़ौती - ओसियां किराडू मन्दिर (iii) मारवाड़ - हल्दी घाटी मेणाल (iv) शेखावाटी - तालछापर, जीणमाता",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5638,
+        "exam": "RPSC Sr. Teacher Sanskrit Edu.-2022 Group-B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को सुमेलित कीजिये तथा नीचे दिये गये कूटों में से सही उत्तर चुनिये: पर्यटन स्थल पर्यटन र्सिकट A. घाना पक्षी विहार (i) शेखावाटी र्सिकट B. गागरोन किला (ii) जयपुर र्सिकट C. ब्रह्मा मन्दिर (iii) अलवर र्सिकट D. उत्खनन स्थल (iv) हाड़ौती र्सिकट कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(iii) (ii) (iv) (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iii) (iv) (ii) (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iii) (iv) (i) (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iv) (iii) (ii) (i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेलन इस प्रकार है – पर्यटन स्थल पर्यटन र्सिकट घाना पक्षी विहार – अलवर र्सिकट गागरोन किला – हड़ौती र्सिकट ब्रह्मा मन्दिर – शेखावटी र्सिकट गनेश्वर उत्खनन स्थल – जयपुर र्सिकट",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5639,
+        "exam": "RPSC Sr. Teacher Gr II (SE) Group-C 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राष्ट्रीय राजमार्ग नेटवर्क के संबंध में, भारत में राजस्थान का कौन-सा स्थान है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पहला"
+        },
+        {
+          "id": "opt2",
+          "text": "दूसरा"
+        },
+        {
+          "id": "opt3",
+          "text": "तीसरा"
+        },
+        {
+          "id": "opt4",
+          "text": "चौथा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राष्ट्रीय राजमार्ग नेटवर्क के संबंध में राजस्थान तीसरे स्थान पर है। प्रथम स्थान महाराष्ट्र (17, 757किमी.) द्वितीय उत्तर प्रदेश (11, 737किमी.) तथा तृतीय राजस्थान (10, 342किमी.) है।",
+      "reference": "📌 PYQ — RPSC School Lect. (Group-D) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5640,
+        "exam": "RPSC School Lect. (Group-D) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोक –संत की स्मृति में प्रतिवर्ष चैत्र अमावस्या को जोधपुर के कोलू अथवा कोलूमंड ग्राम में विशाल मेला लगता हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt2",
+          "text": "पीपाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "पाबूजी"
+        },
+        {
+          "id": "opt4",
+          "text": "तेजाजी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कोलू अथवा कोलमंड मेला राजस्थान के जोधपुर जिले में चैत्र अमावस्या को प्रतिवर्ष लगता है। यह मेला संत पाबूजी के सम्मान में आयोजित होता है।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-E (S.E.)2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5641,
+        "exam": "RPSC School Lect. Group-E (S.E.)2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौरासी खम्भों की छतरी स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5642,
+        "exam": "Police SI 13 September 2021 (Gk)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बूंदी में स्थित “रानीजी की बावड़ी” का निर्माण किसने करवाया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रानी नाथावती"
+        },
+        {
+          "id": "opt2",
+          "text": "रानी विजया देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "रानी गायत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "रानी पद्मिनी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रानीजी की बावड़ी (रानीजी की बावड़ी) बूंदी शहर के दक्षिणी भाग में, दीवारों के बाहर और चौगान के पार स्थित है। इस बावड़ी का निर्माण राव राजा अनिरुद्ध सिंह की पत्नी रानी नाथावत जी ने अपने पुत्र बुध सिंह के शासनकाल में वि. स. 1757 में करवाया था।",
+      "reference": "📌 PYQ — Police SI 13 September 2021 (Gk)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5643,
+        "exam": "Police SI 13 September 2021 (Gk)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भण्डदेवरा मंदिर किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाराँ"
+        },
+        {
+          "id": "opt4",
+          "text": "झालावाड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भंडदेवरा मंदिर प्राचीन नागर शैली (Nagara architecture) में बना है और रामगढ़ क्रेटर में स्थित है, जो एक दुर्लभ geo-heritage site भी है। इस मंदिर की मूर्तिकला और बारीक नक्काशी में वही गहराई और कला है जो विश्वप्रसिद्ध खजुराहो (Khajuraho) मंदिरों में दिखती है। इस मंदिर को ‘मिनी खजुराहो’ भी कहा जाता है, क्योंकि इसकी स्थापत्य शैली एकदम खजुराहो की तरह है।",
+      "reference": "📌 PYQ — REET 2021 2nd Level (sst)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5644,
+        "exam": "REET 2021 2nd Level (sst)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मूसी रानी की छतरी’ कहां स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5645,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (राष्ट्रीय भूवैज्ञानिक स्मारक – स्थल) सही सुमेलित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महान सीमा भ्रंश – सतूर (बूंदी)"
+        },
+        {
+          "id": "opt2",
+          "text": "सेन्द्रा ग्रेनाईट – पोकरण (जैसलमेर)"
+        },
+        {
+          "id": "opt3",
+          "text": "अकाल वुड फॉसिल पार्क – मंडौर (जोधपुर)"
+        },
+        {
+          "id": "opt4",
+          "text": "स्ट्रोमेटोलाइट फॉसिल पार्क – तलवाडा (बांसवाड़ा)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5646,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से सुमेलित (मन्दिर – स्थान) नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विभीषण का मंदिर – कैथून (कोटा)"
+        },
+        {
+          "id": "opt2",
+          "text": "सुंधा माता मंदिर – भीनमाल (जालौर)"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरे मंदिर – जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "त्रिपुरा सुन्दरी माता मंदिर – तिलवाड़ा (बाड़मेर)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5647,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सलीम सागर एवं सूरज कुण्ड जल तड़ाग अवस्थित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाला किला, अलवर में"
+        },
+        {
+          "id": "opt2",
+          "text": "शेरगढ किला. बारां में"
+        },
+        {
+          "id": "opt3",
+          "text": "जयगढ़ दुर्ग, जयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जूनागढ़ दुर्ग, बीकानेर में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5648,
+        "exam": "VDO Exam 1st Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पर्यटन विभाग की स्थापना हुई थी –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1956 में"
+        },
+        {
+          "id": "opt2",
+          "text": "1954 में"
+        },
+        {
+          "id": "opt3",
+          "text": "1952 में"
+        },
+        {
+          "id": "opt4",
+          "text": "1958 में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5649,
+        "exam": "VDO Exam 1st Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित सूची – I (विरासत) का सूची – II (स्थान) के साथ मिलान करें और नीचे दिए गए कूट से सही उत्तर चुनें: सूची-I सूची – IIa. जल महल 1. जोधपुरb. एक थंबा महल 2. बीकानेरc. जूनागढ़ किला 3. जयपुरकूट: a b c",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 2 1"
+        },
+        {
+          "id": "opt2",
+          "text": "3 1 2"
+        },
+        {
+          "id": "opt3",
+          "text": "1 2 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1 3 2"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5650,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित को.सुमेलित करें: पर्यटन सेवाएँ प्रारम्भ वर्षa. हेरिटेज ऑन व्हील्स 1. 2004b. रॉयल राजस्थान ऑन व्हील्स 2. 2009c. रॉयल ओरिएंट एक्सप्रेस 3. 1994-95d. विलेज ऑन व्हील्स 4. 2006 कूट: a b c d",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 4 2 3"
+        },
+        {
+          "id": "opt2",
+          "text": "3 2 1 4"
+        },
+        {
+          "id": "opt3",
+          "text": "4 2 3 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2 1 4 3"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 5651,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 2nd shift",
+        "year": 2021
+      }
+    }
+  ]
+}

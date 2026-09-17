@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का राजपूत काल",
+  "batchIndex": 14,
+  "batchName": "राजस्थान का राजपूत काल भाग 14",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "राजस्थान-का-राजपूत-काल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मालदेव की किस रानी ने मण्डोर के निकट ‘बहुजी - रो - तालाब’ का निर्माण करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हीरा - दे - झाली"
+        },
+        {
+          "id": "opt2",
+          "text": "स्वरूप - दे - झाली"
+        },
+        {
+          "id": "opt3",
+          "text": "उमा - दे - भटियानी"
+        },
+        {
+          "id": "opt4",
+          "text": "पारबती सिसोदेनी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रानी स्वरूप दे झाली ने मंडोर के पास जोधपुर में बहूजी रो तालाब का निर्माण करवाया था।",
+      "reference": "📌 PYQ — Junior Instructor (WC&S)2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10222,
+        "exam": "Junior Instructor (WC&S)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "परमार राजाओं द्वारा निर्मित मंदिरों के लिए प्रसिद्ध अर्थूणा(अर्थपूर्णा) नगर राजस्थान के किस जिले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वागड़ के परमार मालवा के परमार राजा कृष्णराज के पुत्र डंबरसिंह के वंशज है । इनकी राजधानी अर्थूणा (बांसवाड़ा) थी।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10223,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजोरगढ़ का शानदार कलात्मक वैभव किस युग से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "गुर्जर–प्रतिहार"
+        },
+        {
+          "id": "opt3",
+          "text": "गुहिल–सिसोदिया"
+        },
+        {
+          "id": "opt4",
+          "text": "राठौड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "आभानेरी और राजोरगढ़ के कलात्मक वैभव का संबंध गुर्जर-प्रतिहार काल से है।",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10225,
+        "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महारानी अमर वुँâवरी बूँदी नरेश महाराव बुद्धसिंह की पत्नी थी और वह बहिन थी:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मिर्जा राजा जयसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "राजा मानसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "भारमल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "महारानी अमर वुँâवरी बूँदी नरेश महाराव बुद्ध सिंह की पत्नी और सवाई जयसिंह की बहन थी। इनके पुत्र उम्मेद सिंह थे।",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10226,
+        "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कुम्भा का गुजरात के साथ संघर्ष का प्रारंभिक कारण क्या था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ईडर की समस्या"
+        },
+        {
+          "id": "opt2",
+          "text": "चूण्डा को शरण"
+        },
+        {
+          "id": "opt3",
+          "text": "नागौर विवाद"
+        },
+        {
+          "id": "opt4",
+          "text": "गुजरात द्वारा बूँदी के साथ संधि"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराणा कुंभा(1433से1468)सिसोदिया परिवार से संबंधित थे। अपने पूरे शासनकाल में राणा कुम्भा गुजरात और मालवा के साथ संघर्षरत रहे। राणा कुम्भा ने राघवदेव के बड़े भाई चूण्डा को अपने यहाँ शरण दी थी। यही गुजरात संघर्ष का कारण था।",
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10227,
+        "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "परमार राजाओं द्वारा निर्मित मंदिरों के लिए प्रसिद्ध अर्थूणा (अर्थपूर्णा) नगर राजस्थान के किस जिले में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "परमार राजाओं द्वारा र्नििमत मंदिरों के लिए प्रसिद्ध अर्थूणा (अर्थपूर्णा) नगर राजस्थान के बांसवाड़ा जिले में स्थित है। यहाँ वांगड़ परमार मालवा के परमार राजा कृष्णराज के पुत्र डंबरसिंह के वंशज है। इसकी राजधानी अथूर्णा थी।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10231,
+        "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस स्थान को चिन्हित कीजिए जो किसी भी प्रकार तेजाजी से संबंधित नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पिचियाक"
+        },
+        {
+          "id": "opt2",
+          "text": "परबतसर"
+        },
+        {
+          "id": "opt3",
+          "text": "सुरसुरा"
+        },
+        {
+          "id": "opt4",
+          "text": "खड़नाल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तेजाजी महाराज एक प्रसिद्ध सिद्ध पुरुष थे। इनका जन्म राजस्थान के नागौर जिले में हुआ था। ये राजस्थान के6चमत्कारिक सिद्धों में से एक थे। इनका मुख्य मंदिर खरनाल में है। तेजाजी से संबंधित स्थान सुरसुरा, खड़नाल, पनेर, व्यौद, परबतसर इत्यादि है। इसमें पिचियाक शामिल नहीं है।",
+      "reference": "📌 PYQ — RPSC Engineer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10238,
+        "exam": "RPSC Engineer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर के शासक हम्मीर देव द्वारा किस मंगोल नेता को शरण देने पर अलाउद्दीन ने रणथम्भौर पर आक्रमण किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तैमूर खाँ"
+        },
+        {
+          "id": "opt2",
+          "text": "मुहम्मद शाह"
+        },
+        {
+          "id": "opt3",
+          "text": "खेब्रू"
+        },
+        {
+          "id": "opt4",
+          "text": "मोहम्मद खान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10239,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किशनगढ़ चित्रकला शैली के संरक्षक सावंत सिंह की मृत्यु कहाँ हुई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "आगरा"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "वृंदावन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "किशनगढ़ शैली के संरक्षक सावंत सिंह (शासनकाल 1748–57) अपने प्रारंभिक चरण में राजा से ज्यादा एक भक्त और कवि थे। सावंत सिंह की मृत्यु1764ई. में वृंदावन में हुई थी। बनी-ठनी इनके शासन काल में काफी लोकप्रिय हुई थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10240,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पूर्व मध्यकालीन राज्यों में ‘‘नैमित्तिक’’ पदनाम का प्रयोग किया जाता था–",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजकीय कवि के लिए।"
+        },
+        {
+          "id": "opt2",
+          "text": "लोक स्वास्थ्य विभाग के प्रमुख के लिए।"
+        },
+        {
+          "id": "opt3",
+          "text": "राजकीय ज्योतिष के लिए।"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्य न्यायिक अधिकारी के लिए।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के पूर्व मध्यकालीन राज्यों में ‘नैमित्तिक’ पदनाम का प्रयोग ‘राजकीय ज्योतिष’ के लिए किया जाता था। राज्य ज्योतिषी मुख्य राज दरबार में एक महत्वपूर्ण पद था। इनका प्रमुख कार्य राजा और राज्य के लिए शुभ समय, ग्रह नक्षत्रों की स्थिति, युद्ध तथा अन्य महत्वपूर्ण कार्यों के लिए ज्योतिषीय सलाह देना।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2018",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10242,
+        "exam": "RPSC RAS/RTS Pre 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कन्नौज पर अधिकार हेतु चले त्रिपक्षीय युद्ध में राजपूताना के किस वंश के शासकों ने भाग लियाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt2",
+          "text": "गुर्जर प्रतिहार"
+        },
+        {
+          "id": "opt3",
+          "text": "परमार"
+        },
+        {
+          "id": "opt4",
+          "text": "गहलोत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कन्नौज पर नियंत्रण के लिए हुए त्रिपक्षीय युद्ध में गुर्जर- प्रतिहार वंश के शासकों ने भाग लिया था। इस युद्ध में गुर्जर प्रतिहार, राष्ट्रकूट और पाल राजवंश ने भाग लिया था। इस युद्ध में प्रतिहार राजा नागभट्ट द्वितीय ने विजय हासिल की थी। नागभट्ट द्वितीय ने कन्नौज को प्रतिहार वंश की राजधानी बनाया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 28/10/2018",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10243,
+        "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘‘रूठी रानी’’ के नाम से कौन प्रसिद्ध हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उमादे"
+        },
+        {
+          "id": "opt2",
+          "text": "रूमादे"
+        },
+        {
+          "id": "opt3",
+          "text": "हंसा बाई"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधा बाई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रूठी रानी मारवाड के प्रसिद्ध राठौर शासक मालदेव राठौर की पत्नी थी। इन्हें अपने पति के साथ तनावपूर्ण संबंधों के कारण रूठी रानी की उपाधि मिली थी। इनका वास्तविक नाम उमादे थे। उमादे, जैसलमेर के रावल लूणकरण की बेटी थी।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 28/10/2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10244,
+        "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर के महाराजा रायसिंह गद्दी पर कब बैठे-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "१६१२ ई़"
+        },
+        {
+          "id": "opt2",
+          "text": "१५८५ ई़"
+        },
+        {
+          "id": "opt3",
+          "text": "१५७४ ई़"
+        },
+        {
+          "id": "opt4",
+          "text": "१५४१ ई़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीकानेर के महाराणा रायसिंह १५७४ ई. में गद्दी पर बैठे थे। राव कल्याणमल की मृत्यु के बाद राव रायसिंह को बीकानेर का शासक बनाया गया था। रायसिंह ने १५७४ से १६१२ई. तक बीकानेर शासन किया।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 31/10/2018",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10245,
+        "exam": "RPSC Sr. Teacher Gr-II 31/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिजौलिया अभिलेख किस वंश के इतिहास की जानकारी का महत्वपूर्ण साधन हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राठौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "सिसोदिया"
+        },
+        {
+          "id": "opt3",
+          "text": "चौहान"
+        },
+        {
+          "id": "opt4",
+          "text": "पतिहार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बिजौलिया शिलालेख, चौहान वंश के इतिहास की जानकारी का एक महत्वपूर्ण स्रोत है। इस शिलालेख में चौहान वंश की उत्पत्ति के बारे में बताया गया है। इस शिलालेख के अनुसार चौहान वंश की उत्पत्ति वत्स गोत्र के ब्राह्मण से हुई है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 31/10/2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10246,
+        "exam": "RPSC Sr. Teacher Gr-II 31/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अकबर के संरक्षण में मानिंसह द्वारा अपना प्रथम सैन्य अभियान किसके विरुद्ध किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुर्जन हाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराणा प्रताप"
+        },
+        {
+          "id": "opt3",
+          "text": "केदार राय"
+        },
+        {
+          "id": "opt4",
+          "text": "रामचन्द्र देव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अकबर के संरक्षण में मानसिंह द्वारा अपना प्रथम सैन्य अभियान मेवाड़ के राजा राणा प्रताप के खिलाफ किया था। यह अभियान १५७६ में हुआ था। इसे हल्टीघाटी का युद्ध कहा जाता है। राजा मानसिंह, आमेर के कछवाहा राजपूत थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10250,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिजौलिया अभिलेख के अनुसार सांभर झील का निर्माण किसने करवाया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्द राज"
+        },
+        {
+          "id": "opt2",
+          "text": "वासुदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रह राज"
+        },
+        {
+          "id": "opt4",
+          "text": "दुर्लभ राज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बिजौलिया शिलालेख के अनुसार, सांभर झील का निर्माण वासुदेव ने करवाया था। सांभर झील का निर्माण जलवृद्धि और कृषि उद्देश्यों के लिए किया गया था। यह राजस्थान की सबसे बड़ी झील है। यह झील जयपुर, अजमेर और नागौर जिले की सीमा बनाती है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10251,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुल्तान जलालुद्दीन खलजी के रणथम्भौर अभियान के समय वहाँ का शासक कौन था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोविन्द राज"
+        },
+        {
+          "id": "opt2",
+          "text": "वीर नारायण"
+        },
+        {
+          "id": "opt3",
+          "text": "हम्मीर"
+        },
+        {
+          "id": "opt4",
+          "text": "रतिपाल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जलालुद्दीन खिलजी के रणथम्भौर अभियान के समय वहा का शासक हमीर देव चौहान था। हमीर देव का रूद्धाभिषेक १२९४ ई. में रणथम्भौर दुर्ग में करवाया था। १३०१ ई. में अलाउद्दीन खिलजी को रणथम्भौर किले पर विजय प्राप्त की।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10252,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजकुमारी मूमल किस स्थान से सम्बन्धित थी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्थुना"
+        },
+        {
+          "id": "opt3",
+          "text": "लोद्रवा"
+        },
+        {
+          "id": "opt4",
+          "text": "केलापानी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजकुमारी मूमल का संबंध लोद्रवा से था। लोद्रवा राजस्थान के जेसलमेर जिले में स्थित है। मूमल-महेंद्र की प्रेम कथा राजस्थान की एक प्रसिद्ध लोक कथा है। महेंद्र अमरकोट (पाकिस्तान) के राणा वीसलदेव सोढा के बेटे थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10254,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक देवता गोगाजी किस शासक के समकालीन थे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महमूद ़गजनी"
+        },
+        {
+          "id": "opt2",
+          "text": "मुहम्मद ़गोरी"
+        },
+        {
+          "id": "opt3",
+          "text": "इल्तुतमिश"
+        },
+        {
+          "id": "opt4",
+          "text": "अलाउद्दीन खलजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लोकदेवता गोगाजी महमूद गजनवी के समकालीन थे। गोगाजी को जाहरवीर गोगा के नाम से जाना जाता है। गोगाजी, राजस्थान के प्रसिद्ध लोक देवता थे। गोगाजी का जन्म चुरु जिले के ददरेवा गांव में हुआ था। गोगाजी को सांपों के देवता के रूप में पूजा जाता है। उनकी कथाएं और लोकगीत राजस्थान में प्रचलित हैं।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10255,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस दुर्ग में जौहर नहीं हुआ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "गागरोन"
+        },
+        {
+          "id": "opt3",
+          "text": "सिवाना"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयगढ़ दुर्ग में कोई साका नहीं हुआ था। सिवाना का प्रथम जौहर1308ई. में शीतलदेव की पत्नी ने अलाउद्दीन खिलजी के आक्रमण के समय किया था। जालौर का जौहर1312 ई. में कांहडदेव के शासनकाल में अलाउद्दीन खिलजी के आक्रमण के समय हुआ था। गागरोण दुर्ग का प्रथम जौहर अचलदास खींची के शासन काल में मांडु के शासक होशंगशाह के आक्रमण के समय 1423ई. में हुआ था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10257,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    }
+  ]
+}

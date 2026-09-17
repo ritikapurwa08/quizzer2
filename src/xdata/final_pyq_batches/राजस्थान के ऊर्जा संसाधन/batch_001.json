@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के ऊर्जा संसाधन",
+  "batchIndex": 1,
+  "batchName": "राजस्थान के ऊर्जा संसाधन भाग 1",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-ऊर्जा-संसाधन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित करें: सूची-I (तापीय विद्युत परियोजना)सूची-II (जिला/क्षेत्र)(a) सूरतगढ़(i) झालावाड़(b) छाबड़ा(ii) बीकानेर(c) कालीसिंध(iii) गंगानगर(d) गुरहा/गुढ़ा(iv) बारांनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सूरतगढ़: यह सुपर थर्मल पावर स्टेशन श्री गंगानगर जिले में स्थित है।छाबड़ा: यह प्रसिद्ध तापीय परियोजना बारां जिले में है।कालीसिंध: यह पावर प्लांट झालावाड़ जिले में स्थित है।गुरहा/गुढ़ा: यह परियोजना बीकानेर क्षेत्र में है।",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2026",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1215,
+        "exam": "Agriculture Supervisor Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं: एक अभिकथन (Assertion) A के रूप में लिखित है तो दूसरा उसके कारण (Reason) R के रूप में -अभिकथन A: हाल ही में राजस्थान, गुजरात को पीछे छोड़कर भारत में सौर ऊर्जा संस्थापित क्षमता में प्रथम स्थान पर आ गया है।कारण R: राजस्थान में सौर ऊर्जा उत्पादन के लिए अनिवार्य महत्वपूर्ण संसाधन, उच्च सौर विकिरण स्तर तथा अपेक्षाकृत समतल, अविकसित भूमि की विशाल मात्रा उपलब्ध है।उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2025-26 तक राजस्थान भारत में सौर ऊर्जा (Solar PV) installed capacity में नंबर 1 है। थार मरुस्थल में तेज धूप (high solar insolation) और विशाल खाली भूमि होने से बड़े सोलर पार्क (जैसे भड़ला) आसानी से बनाए जा सकते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1216,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस स्थान पर दूसरा परमाणु विद्युत संयंत्र निर्मित किया जा रहा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का पहला परमाणु संयंत्र रावतभाटा (कोटा) में है। दूसरा प्रस्तावित/निर्माणाधीन संयंत्र बांसवाड़ा जिले में है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1217,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "गोरबिया सौर विद्युत परियोजना _____ में उद्घाटित की गई है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के बीकानेर ज़िले में 435 मेगावाट की गोरबिया सौर ऊर्जा परियोजना उद्घाटित की गई। यह परियोजना 1, 250 एकड़ में फैली है और इससे प्रतिवर्ष 755 गीगावाट घंटा (GWh) स्वच्छ बिजली का उत्पादन होगा।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1218,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही बांसवाड़ा परमाणु ऊर्जा परियोजना (MBRAPP) की कुल ऊर्जा क्षमता लगभग क्या है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2600 MW"
+        },
+        {
+          "id": "opt2",
+          "text": "2700 MW"
+        },
+        {
+          "id": "opt3",
+          "text": "2800 MW"
+        },
+        {
+          "id": "opt4",
+          "text": "2900 MW"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माही-बांसवाड़ा परमाणु ऊर्जा परियोजना (MBRAPP) में 4 × 700 MW = कुल 2800 MW क्षमता की 4 PHWR इकाइयाँ लगाई जा रही हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1219,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं: एक अभिकथन (Assertion A) के रूप में लिखित है और दूसरा उसके कारण (Reason R) के रूप में।अभिकथन A: 31 मार्च, 2024 के अनुसार, राजस्थान में स्थापित नवीकरणीय शक्ति क्षमता लगभग 27 हजार मेगावाट थी।कारण R: राज्य में जैसलमेर के समीप भड़ला में विश्व का सबसे बड़ा सौर ऊर्जा संयंत्र स्थित है।उपरोक्त कथन के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भड़ला जैसे बड़े संयंत्रों ने राजस्थान की नवीकरणीय क्षमता को बढ़ाया है, जो सौर ऊर्जा में प्रमुख योगदान देता है।",
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1220,
+        "exam": "Jamadar Grade II Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में भादला सोलर पार्क स्थित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भादला सोलर पार्क जोधपुर (फलोदी) जिले में थार रेगिस्तान में स्थित है। यहां से 2.25 GW पावर नेशनल ग्रीन को सप्लाई की जाती है, जिससे लाखों घरों को बिजली मिलती है।",
+      "reference": "📌 PYQ — Platoon Commander Exam 2025",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1221,
+        "exam": "Platoon Commander Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नवीकरणीय ऊर्जा सांख्यिकी-2023-24 के अनुसार, भारत की नवीकरणीय ऊर्जा स्थापित क्षमता में राजस्थान की क्या रैंकिंग थी (31 मार्च 2024 के अनुसार) -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्रथम"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "पांचवी"
+        },
+        {
+          "id": "opt4",
+          "text": "तीसरी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "31 मार्च 2024 तक राजस्थान नवीकरणीय ऊर्जा (सौर + पवन मुख्य रूप से) में दूसरे स्थान पर था।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1222,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में हरित ऊर्जा गलियारा (The Green Energy Corridor) संबंधित है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सौर एवं पवन ऊर्जा ट्रान्समिशन"
+        },
+        {
+          "id": "opt2",
+          "text": "पनबिजली उत्पादन"
+        },
+        {
+          "id": "opt3",
+          "text": "परमाणु ऊर्जा उत्पादन"
+        },
+        {
+          "id": "opt4",
+          "text": "मेट्रो रेल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के जोधपुर, बाड़मेर, जैसलमेर (पश्चिमी राजस्थान) में अक्षय ऊर्जा क्षेत्र को मजबूत करने के लिए पहली बार सौर ऊर्जा और पवन ऊर्जा उत्पादन को मिलाने के लिए ‘राजस्थान राज्य प्रसारण निगम’ द्वारा 6.3 गीगावाट प्रसारण क्षमता का ‘ग्रीन एनर्जी कॉरिडोर’ विकसित किया जा रहा है, यह ग्रीन एनर्जी कॉरिडोर अजमेर, चितौड़गढ़, नागौर, जोधपुर और बीकानेर जिलों से होकर गुजरेगा। यह ट्रान्समिशन लाइन गुजरात के बनासकांठा से शुरू होकर राजस्थान होते हुए पंजाब के मोगा तक जाएगी।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1223,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भड़ला सोलर पार्क कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भड़ला सोलर पार्क, जो भारत का सबसे बड़ा सौर पार्क है, जोधपुर जिले में स्थित है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1224,
+        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची - I (सोलर पार्क) को सूची - II (कम्पनी/उपक्रम) के साथ सुमेलित कीजिए तथा नीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए -सूची-I(सोलर पार्क)(A) फलौदी - पोखरण(B) फतेहगढ़ फेज़ - Iबी(C) नोख - ज़ैसलमेर(D) पूंगल - बीकानेरसूची-II(कम्पनी/उपक्रम)(i) एसेल सौर्य ऊर्जा कम्पनी(ii) अडानी रिन्यूएबल एनर्जी कम्पनी(iii) आर.एस.डी.सी.एल.(iv) आर.एस.डी.सी.एल.कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A - (i), B - (iv), C - (iii), D - (ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "A - (iv), B - (ii), C - (i), D - (iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "A - (i), B - (ii), C - (iii), D - (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "A - (iii), B - (i), C - (iv), D - (ii)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "फलौदी-पोखरण एसेल सौर्य ऊर्जा द्वारा, फतेहगढ़ फेज-Iबी अडानी रिन्यूएबल द्वारा, नोख (जैसलमेर) और पूंगल (बीकानेर) राजस्थान सोलर डेवलपमेंट कॉर्पोरेशन (आरएसडीसीएल) द्वारा विकसित।",
+      "reference": "📌 PYQ — CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1225,
+        "exam": "CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम-I को कॉलम-II से सुमेलित कीजिए तथा नीचे दिए गए कूटों में से सही उत्तर का चयन कीजिए: कॉलम-I (स्थान) कॉलम-II (सोलर पावर प्लान्ट)A. नागौर i. आगोरियाB. झुन्झुनुं ii. धूनियाC. जोधपुर iii. गौरीरD. बाड़मेर iv. खींवसरकूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ii i iii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "iii ii i iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iv iii ii i"
+        },
+        {
+          "id": "opt4",
+          "text": "i ii iii iv"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नागौर (A): खींवसर (Khimsar) में सोलर पावर प्लान्ट है।झुन्झुनुं (B): गौरीर (Gaurir) में सोलर पावर प्लान्ट है।जोधपुर (C): धूनिया (Dhunia) में सोलर पावर प्लान्ट है। बाड़मेर (D): आगोरिया (Agoriya) में सोलर पावर प्लान्ट है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1226,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘भदेसर तापीय विद्युत परियोजना’, निम्नलिखित में से किस जगह पर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "पाली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भदेसर तापीय विद्युत परियोजना बाड़मेर में स्थित है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1227,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रस्तावित, ‘ग्रीन एनर्जी कोरिडोर’, राजस्थान के कुल कितने जिलों में से गुजरेगा -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "छः"
+        },
+        {
+          "id": "opt2",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt3",
+          "text": "सात"
+        },
+        {
+          "id": "opt4",
+          "text": "तीन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ग्रीन एनर्जी कोरिडोर, जो नवीकरणीय ऊर्जा (विशेषकर सौर और पवन ऊर्जा) के लिए बनाया गया है, राजस्थान के पाँच जिलों - बीकानेर, अजमेर, चित्तौड़गढ़, नागौर, जोधपुर जिलों से होकर गुजरेगा। ग्रीन एनर्जी कॉरिडोर प्रोजेक्ट वर्ष 2015 में भारत सरकार द्वारा शुरू किया गया, जिसे पावर ग्रिड कॉर्पोरेशन ऑफ़ इंडिया लिमिटेड (PGCIL) द्वारा किर्यान्वित किया जाता है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1228,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अन्ता गैस-आधारित पावर प्रोजेक्ट स्थित है: (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां ज़िले में"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर ज़िले में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा ज़िले में"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी ज़िले में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अन्ता गैस-आधारित पावर प्रोजेक्ट राजस्थान के बारां जिले में स्थित है। पावर स्टेशन के लिए प्राकृतिक गैस GAIL HBJ पाइपलाइन - साउथ बेसिन गैस फील्ड से प्राप्त की जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam 2024",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1229,
+        "exam": "Junior Instructor (SWT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस गैर-परम्परागत ऊर्जा स्रोत के विकास की सर्वाधिक सम्भावना है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बायो गैस"
+        },
+        {
+          "id": "opt2",
+          "text": "सौर-ऊर्जा"
+        },
+        {
+          "id": "opt3",
+          "text": "पवन ऊर्जा"
+        },
+        {
+          "id": "opt4",
+          "text": "भू-तापीय ऊर्जा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में सूर्य प्रकाश की प्रचुरता के कारण सौर-ऊर्जा का विकास सबसे अधिक संभावित है।",
+      "reference": "📌 PYQ — Junior Instructor (MMV) Exam 2024",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1230,
+        "exam": "Junior Instructor (MMV) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान में कौनसा स्थल पवन ऊर्जा का नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "फलोदी"
+        },
+        {
+          "id": "opt2",
+          "text": "पथमेड़ा - सांचौर"
+        },
+        {
+          "id": "opt3",
+          "text": "खोडल"
+        },
+        {
+          "id": "opt4",
+          "text": "हर्षनाथ"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "फलोदी, हर्षनाथ, और खोडल राजस्थान में पवन ऊर्जा के स्थल हैं, लेकिन पथमेड़ा-सांचौर पवन ऊर्जा का स्थल नहीं है।राजस्थान की पहली पवन ऊर्जा परियोजना 10 अप्रैल 1999 को जैसलमेर जिले के अमरसागर में स्थापित की गई थी।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1231,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित गैर-परम्परागत ऊर्जा संसाधनों में से कौन-सा राजस्थान के थार मरुस्थल में उपलब्ध नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पवन ऊर्जा"
+        },
+        {
+          "id": "opt2",
+          "text": "ज्वारीय ऊर्जा"
+        },
+        {
+          "id": "opt3",
+          "text": "बायोगैस"
+        },
+        {
+          "id": "opt4",
+          "text": "सौर ऊर्जा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "थार मरुस्थल में पवन ऊर्जा (पवन चक्कियों के माध्यम से), सौर ऊर्जा (प्रचुर सूर्य प्रकाश के कारण), और बायोगैस (जैविक अपशिष्ट से) उपलब्ध हैं। लेकिन ज्वारीय ऊर्जा समुद्र तटों पर उत्पन्न होती है, जो थार मरुस्थल में उपलब्ध नहीं है।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1232,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा नवीनीकरणीय ऊर्जा स्रोत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोयला"
+        },
+        {
+          "id": "opt2",
+          "text": "प्राकृतिक गैस"
+        },
+        {
+          "id": "opt3",
+          "text": "सौर"
+        },
+        {
+          "id": "opt4",
+          "text": "तेल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सौर ऊर्जा नवीनीकरणीय (renewable) ऊर्जा स्रोत है क्योंकि यह सूर्य से प्राप्त होती है और असीमित है।",
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1233,
+        "exam": "Junior Instructor (EM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथन (A): राजस्थान में सौर्य ऊर्जा विकास की असीम सम्भावनाएँ हैं।कारण (R): भाड़ला सोलर पार्क 2, 245 मेगावॉट क्षमता वाला राजस्थान का सबसे बड़ा सोलर पॉवर प्लांट है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है।"
+        },
+        {
+          "id": "opt2",
+          "text": "(A) और (R) दोनों सही हैं, परन्तु (R), (A) की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt3",
+          "text": "(A) सही है, परन्तु (R) गलत है।"
+        },
+        {
+          "id": "opt4",
+          "text": "(A) गलत है, परन्तु (R) सही है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में सौर्य ऊर्जा की असीम संभावनाएँ हैं, क्योंकि यहाँ उच्च सौर विकिरण, विशाल रेगिस्तानी क्षेत्र, और अनुकूल नीतियाँ उपलब्ध हैं। भाड़ला सोलर पार्क (जोधपुर) 2, 245 मेगावॉट क्षमता के साथ राजस्थान का सबसे बड़ा सोलर पावर प्लांट है। हालांकि दोनों कथन सही हैं, लेकिन (R) केवल एक उदाहरण है और (A) की पूरी व्याख्या नहीं करता।",
+      "reference": "📌 PYQ — AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1234,
+        "exam": "AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की कृषि",
+  "batchIndex": 3,
+  "batchName": "राजस्थान की कृषि भाग 3",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-कृषि",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "प्रधानमंत्री फसल बीमा योजना (प्र.फ.बी.यो. - PMFBY) किस वर्ष में लागू की गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2015"
+        },
+        {
+          "id": "opt2",
+          "text": "2016"
+        },
+        {
+          "id": "opt3",
+          "text": "2017"
+        },
+        {
+          "id": "opt4",
+          "text": "2018"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "18 फरवरी 2016 को शुरू की गई “प्रधानमंत्री फसल बीमा योजना” कृषि मंत्रालय के कृषि, सहकारिता और किसान कल्याण विभाग द्वारा शुरू की गई एक फसल बीमा योजना है। PMFBY का उद्देश्य प्राकृतिक आपदाओं (ओलावृष्टि, सूखा, अकाल), कीटों और बीमारियों के कारण फसल के नुकसान के खिलाफ किसानों को वित्तीय सुरक्षा प्रदान करना है।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1481,
+        "exam": "Junior Instructor (STE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सोयाबीन की पैदावार के लिये किस प्रकार की मृदा सर्वोपयुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाल-पीली"
+        },
+        {
+          "id": "opt2",
+          "text": "जलोढ"
+        },
+        {
+          "id": "opt3",
+          "text": "काली"
+        },
+        {
+          "id": "opt4",
+          "text": "लैटेराइट"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सोयाबीन के लिए काली मिट्टी सबसे उपयुक्त है, क्योंकि इसमें अच्छी जल धारण क्षमता और पोषक तत्व होते हैं।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1482,
+        "exam": "Junior Instructor (STE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी एक ‘रबी’ की फसल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "जौ"
+        },
+        {
+          "id": "opt3",
+          "text": "बाजरा"
+        },
+        {
+          "id": "opt4",
+          "text": "दालें"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "रबी फसलें सर्दियों में बोई जाती हैं और गर्मियों में काटी जाती हैं, जैसे गेहूँ, जौ, और दालें। बाजरा एक खरीफ फसल है, जो मानसून के दौरान बोई जाती है और सर्दियों से पहले काटी जाती है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1483,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘शरबती’ एक किस्म है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सरसों की"
+        },
+        {
+          "id": "opt2",
+          "text": "कपास की"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ की"
+        },
+        {
+          "id": "opt4",
+          "text": "मक्का की"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "शरबती एक उच्च गुणवत्ता वाली गेहूँ की किस्म है, जो अपनी उच्च गुणवत्ता, मोटे दानों और स्वाद में बेमिसाल होती है।",
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1484,
+        "exam": "Junior Instructor (EM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पीली क्रान्ति’ का सम्बन्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कपास से"
+        },
+        {
+          "id": "opt2",
+          "text": "चावल से"
+        },
+        {
+          "id": "opt3",
+          "text": "सरसों से (तिलहन)"
+        },
+        {
+          "id": "opt4",
+          "text": "गेहूँ से"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पीली क्रांति तिलहन उत्पादन, विशेष रूप से सरसों, को बढ़ावा देने से संबंधित है।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1485,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कॉलम-I (उत्कृष्टता केन्द्र कां स्थान) को कॉलम -II (उद्यानिकी फसल) से सुमेलित कर नीचे दिए कूटों की सहायता से सही उत्तर का चयन कीजिए: कॉलम-I कॉलम-IIA. बस्सी (i) आमB. सगरा भोजका (ii) सीताफलC. देवड़ावास (iii) अनारD. खेमरी (iv) अमरूद(v) खजूरकूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "iii i ii v"
+        },
+        {
+          "id": "opt2",
+          "text": "i ii iii iv"
+        },
+        {
+          "id": "opt3",
+          "text": "iii v iv i"
+        },
+        {
+          "id": "opt4",
+          "text": "iv iii v i"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बस्सी, जयपुर: अनार (iii) के लिए जाना जाता है। सगरा भोजका, जैसलमेर: खजूर (v) के लिए प्रसिद्ध। देवडावास, टोंक: अमरूद (iv) से संबंधित। खेमरी, धौलपुर: आम (i) के लिए उत्कृष्टता केंद्र।",
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1486,
+        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नरमा’ किस फसल की किस्म है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चावल"
+        },
+        {
+          "id": "opt2",
+          "text": "चाय"
+        },
+        {
+          "id": "opt3",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt4",
+          "text": "कपास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नरमा कपास एक लंबे रेशे वाली कपास की किस्म है जो अपने मजबूत और टिकाऊ रेशों के लिए जानी जाती है। यह भारत के उत्तर-पश्चिमी भाग में, विशेषकर पंजाब, हरियाणा और राजस्थान राज्यों में एक लोकप्रिय फसल है।",
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1487,
+        "exam": "Junior Instructor (RAT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य को _____ जलवायु कृषि-प्रदेशों में विभक्त किया गया।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "7"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "5"
+        },
+        {
+          "id": "opt4",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान को जलवायु के आधार पर 10 कृषि-जलवायु प्रदेशों में विभाजित किया गया, जिससे कृषि की संभावनाओं का विश्लेषण किया जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1488,
+        "exam": "Junior Instructor (MDE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सी फसल शुष्क कृषि के अंतर्गत उपजाई नहीं जाती है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्वार"
+        },
+        {
+          "id": "opt2",
+          "text": "गन्ना"
+        },
+        {
+          "id": "opt3",
+          "text": "मूंग"
+        },
+        {
+          "id": "opt4",
+          "text": "रागी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गन्ना शुष्क कृषि के अंतर्गत उपजाई जाने वाली फसल नहीं है। यह अधिक पानी की आवश्यकता वाली फसल है।",
+      "reference": "📌 PYQ — Junior Instructor ((ESR) Exam 2024",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1489,
+        "exam": "Junior Instructor ((ESR) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के दक्षिण-पूर्वी/ दक्षिणी पहाड़ी क्षेत्रों में आदिवासियों द्वारा उपयोग में ली जाने वाली कृषि की विधि को कहते हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुरूवा"
+        },
+        {
+          "id": "opt2",
+          "text": "वालरा (वालरे)"
+        },
+        {
+          "id": "opt3",
+          "text": "बेवर"
+        },
+        {
+          "id": "opt4",
+          "text": "बरींगा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वालरा (वालरे) राजस्थान के दक्षिण-पूर्वी और दक्षिणी पहाड़ी क्षेत्रों में आदिवासियों द्वारा प्रयोग की जाने वाली कृषि की पारंपरिक विधि है। ‘कर्तन दहन प्रणाली’ (slash and burn) कृषि को राजस्थान में ‘वालरे’ या ‘वाल्टरे’ कहते हैं। किसान जमीन के टुकड़े साफ करके उन पर अपने परिवार के भरण-पोषण के लिए अनाज व अन्य खाद्य फसलें उगाते हैं। जब मृदा की उर्वरता कम हो जाती है तो किसान उस भूमि के टुकड़े से स्थानांतरित हो जाते हैं और कृषि के लिए भूमि का दूसरा टुकड़ा साफ करते हैं।",
+      "reference": "📌 PYQ — Junior Instructor ((ESR) Exam 2024",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1490,
+        "exam": "Junior Instructor ((ESR) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस कृषि जलवायु प्रदेश में पाली ज़िले को शामिल किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I-A"
+        },
+        {
+          "id": "opt2",
+          "text": "II-B"
+        },
+        {
+          "id": "opt3",
+          "text": "III-C"
+        },
+        {
+          "id": "opt4",
+          "text": "IV-B"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जालोर, सिरोही, पाली, ब्यावर लूनी नदी का अन्तवर्ती मैदानी क्षेत्र (II-B) में शामिल है।",
+      "reference": "📌 PYQ — Junior Instructor (ED) Exam 2024",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1491,
+        "exam": "Junior Instructor (ED) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बाड़मेर जिला राजस्थान के किस कृषि-जलवायु प्रदेश (क्षेत्र) के अन्तर्गत आता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I B"
+        },
+        {
+          "id": "opt2",
+          "text": "I C"
+        },
+        {
+          "id": "opt3",
+          "text": "II B"
+        },
+        {
+          "id": "opt4",
+          "text": "I A"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बाड़मेर जिला शुष्क पश्चिमी मैदानी क्षेत्र (I-A) में स्थित है।",
+      "reference": "📌 PYQ — Junior Instructor (EC) Exam 2024",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1492,
+        "exam": "Junior Instructor (EC) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी फसल राजस्थान में खरीफ की ऋतु में उत्पादित नहीं की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज्वार"
+        },
+        {
+          "id": "opt2",
+          "text": "सोयाबीन"
+        },
+        {
+          "id": "opt3",
+          "text": "मटर"
+        },
+        {
+          "id": "opt4",
+          "text": "उड़द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "मटर रबी फसल है, जबकि ज्वार, सोयाबीन और उड़द खरीफ की फसलें हैं।",
+      "reference": "📌 PYQ — Junior Instructor(CLIT) Exam 2024",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1493,
+        "exam": "Junior Instructor(CLIT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कृषि विकास में सबसे मुख्य बाधा क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उर्वरकों की सीमित उपलब्धता"
+        },
+        {
+          "id": "opt2",
+          "text": "वर्षा की अनियमितता और अनिधितता"
+        },
+        {
+          "id": "opt3",
+          "text": "भूमि सुधार का अभाव"
+        },
+        {
+          "id": "opt4",
+          "text": "सिंचाई सुविधाओं का अभाव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान का अधिकांश क्षेत्र शुष्क और अर्ध-शुष्क है। मानसून की अनियमितता और कम वर्षा के कारण कृषि पर गंभीर प्रभाव पड़ता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1494,
+        "exam": "CET 2024 (12th Level) 24 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "केंद्रीय शुष्क बागवानी संस्थान कहाँ पर स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीगंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "केंद्रीय शुष्क बागवानी संस्थान (Central Institute for Arid Horticulture) बीकानेर, राजस्थान में स्थित है और यह शुष्क क्षेत्रों में बागवानी को बढ़ावा देने के लिए काम करता है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1495,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन-सी रबी फसल नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गेहूँ"
+        },
+        {
+          "id": "opt2",
+          "text": "जौ"
+        },
+        {
+          "id": "opt3",
+          "text": "सरसों"
+        },
+        {
+          "id": "opt4",
+          "text": "चावल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चावल एक खरीफ फसल है, जबकि गेहूं, जौ और सरसों रबी फसलें हैं।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1496,
+        "exam": "CET 2024 (12th Level) 23 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन सा क्षेत्र एक महत्वपूर्ण ‘ईसबगोल’ उत्पादक क्षेत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जालोर और बाड़मेर जिले राजस्थान में इसबगोल फसल के अग्रणी उत्पादक हैं।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1497,
+        "exam": "CET 2024 (12th Level) 22 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कृषि के उद्देश्य से, राजस्थान राज्य को कितने कृषि जलवायु क्षेत्रों में विभाजित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20"
+        },
+        {
+          "id": "opt2",
+          "text": "8"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान को कृषि के लिए 10 जलवायु क्षेत्रों में विभाजित किया गया।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1498,
+        "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में राजस्थान राज्य में कपास का सबसे अधिक उत्पादन करने वाला जिला है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "झुंझुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री गंगानगर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्री गंगानगर राजस्थान का प्रमुख कपास उत्पादन क्षेत्र है।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-2",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1499,
+        "exam": "CET 2024 (Graduate) 28 September 2024 Shift-2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कब प्रथम कृषि बजट अलग से पेश किया गया? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2022-23"
+        },
+        {
+          "id": "opt2",
+          "text": "2023-24"
+        },
+        {
+          "id": "opt3",
+          "text": "2020-21"
+        },
+        {
+          "id": "opt4",
+          "text": "2021-22"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान की गहलोत सरकार ने 23 फरवरी 2022 को अपना सालाना बजट पेश किया। इस बार राज्य के बजटीय इतिहास में पहली बार कृषि बजट पेश किया गया।",
+      "reference": "📌 PYQ — CET 2024 (Graduate) 28 September 2024 Shift-1",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 1500,
+        "exam": "CET 2024 (Graduate) 28 September 2024 Shift-1",
+        "year": 2024
+      }
+    }
+  ]
+}

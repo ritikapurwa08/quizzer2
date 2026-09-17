@@ -1,0 +1,660 @@
+{
+  "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
+  "batchIndex": 7,
+  "batchName": "राजस्थान का लोक संगीत एवं लोकगीत भाग 7",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-का-लोक-संगीत-एवं-लोकगीत",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘हर रौ हिंडोळौ’ कद गायो जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किणी रै विदाई माथै"
+        },
+        {
+          "id": "opt2",
+          "text": "किणी री मिरतू माथै"
+        },
+        {
+          "id": "opt3",
+          "text": "तिंवार माथै"
+        },
+        {
+          "id": "opt4",
+          "text": "किणी रै जलम माथै"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हर का हिंडोला वृद्ध की मृत्यु पर गाया जाने वाला गीत है|",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15466,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान रत्न’ पुरस्कार प्राप्त करने वाले के. सी. मालू किस क्षेत्र से सम्बन्धित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "न्याय"
+        },
+        {
+          "id": "opt2",
+          "text": "संगीत"
+        },
+        {
+          "id": "opt3",
+          "text": "मूर्तिकला"
+        },
+        {
+          "id": "opt4",
+          "text": "खेल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15467,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सपेरों का कोन सा लोक वाद्य प्रसिद्ध है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांसुरी"
+        },
+        {
+          "id": "opt2",
+          "text": "शहनाई"
+        },
+        {
+          "id": "opt3",
+          "text": "मंजीरा"
+        },
+        {
+          "id": "opt4",
+          "text": "पूंगी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15468,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "टाबर री मौत माथै गाइजण वाळा लोकगीत कहीजे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रातीजोगा"
+        },
+        {
+          "id": "opt2",
+          "text": "हीड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "छेड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "ओळूं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "छेड़े: नवजान शिशु की मृत्यु पर",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15469,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी लोक साहित्य री दीठ सूं ‘हरजस’ कांई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "लोकगीत"
+        },
+        {
+          "id": "opt3",
+          "text": "लोकगाथा"
+        },
+        {
+          "id": "opt4",
+          "text": "ख्याल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हरजस गीत यह राम कृष्ण की भक्ति के गीत हैं। वृद्ध व्यक्ति के मृत्यु पर यह गीत गाया जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15470,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन फड़ वाचन से सम्बंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनजारे"
+        },
+        {
+          "id": "opt2",
+          "text": "भोपे"
+        },
+        {
+          "id": "opt3",
+          "text": "सरगडे"
+        },
+        {
+          "id": "opt4",
+          "text": "कालबेलिया"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15471,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौनसा सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घोड़ी गीत - वर निकासी के समय घुड़-चढ़ी रस्म के समय"
+        },
+        {
+          "id": "opt2",
+          "text": "जच्चा गीत - परिवार में बालक के जन्म के समय"
+        },
+        {
+          "id": "opt3",
+          "text": "जला गीत - बालक के जन्म के पश्चात् कुआं पूजन के समय"
+        },
+        {
+          "id": "opt4",
+          "text": "रसिया गीत - होलिकोत्सव पर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "दुल्हन की बारात देखने जाने पर महिलाओं द्वारा ‘जला’ गाया जाता है। गीत को जालो/जलाल के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15472,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "ख्याल शैली के गायक व रचनाकार मनरंग किस घराने के प्रवर्तक माने जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर घराना"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती घराना"
+        },
+        {
+          "id": "opt3",
+          "text": "पटियाला घराना"
+        },
+        {
+          "id": "opt4",
+          "text": "आगरा घराना"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Ag. Che.) 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15473,
+        "exam": "A.A.R.O. (GK and Ag. Che.) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पाबूजी के भोपों का वाद्ययंत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोरचंग"
+        },
+        {
+          "id": "opt2",
+          "text": "अलगोजा"
+        },
+        {
+          "id": "opt3",
+          "text": "खरताल"
+        },
+        {
+          "id": "opt4",
+          "text": "रावण हत्था"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पाबूजी की फड़(यश गाथा) – ऊँटों के स्वस्थ होने पर भोपे–भोपियों द्वारा गाई जाती है। यह रावणहत्था नामक वाद्य यंत्र के साथ गायी जाती हैं।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Ag. Che.) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15474,
+        "exam": "A.A.R.O. (GK and Ag. Che.) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन, तार वाला वाद्य यंत्र नहीं है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुरमंडल"
+        },
+        {
+          "id": "opt2",
+          "text": "रावणहत्था"
+        },
+        {
+          "id": "opt3",
+          "text": "ताशा"
+        },
+        {
+          "id": "opt4",
+          "text": "कमायचा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15477,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान संगीत नाटक अकादमी कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान संगीत नाटक अकादमी की स्थापना 1957 में जोधपुर में हुई थी।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15478,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रावण हत्था किसका मुख्य वाद्य यंत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कालबेलिये"
+        },
+        {
+          "id": "opt2",
+          "text": "मिरासी"
+        },
+        {
+          "id": "opt3",
+          "text": "भोपा"
+        },
+        {
+          "id": "opt4",
+          "text": "भील"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15479,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इंडोनी लोक गीत गाया जाता है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बेटे के जन्म के समय महिलाओं द्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "विवाह समारोह के दौरान"
+        },
+        {
+          "id": "opt3",
+          "text": "महिलाओं द्वारा कुएं से पानी लेने जाते समय"
+        },
+        {
+          "id": "opt4",
+          "text": "पति की मृत्यु पर पत्नी द्वारा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 3",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15480,
+        "exam": "Forest Guard Exam 2022 Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पटेल्या, लालर, मूमल, बिछियो हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थानी आभूषण"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थानी लोकगीत"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थानी लोकवाद्य"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थानी लोकनाट्य"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 Shift 1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15481,
+        "exam": "Forest Guard Exam 2022 Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सुमेलित कीजिए -सूची-1A) राजस्थान संगीत नाटक अकादमी(B) अरबी फारसी शोध संस्थान(C) रविन्द्र मंच(D) भारतीय लोककला मंडलसूची-2 (1) टोंक(2) जयपुर(3) जोधपुर(4) उदयपुरसही कूट का चयन कीजिए",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A-3, B-1, C-2, D-4"
+        },
+        {
+          "id": "opt2",
+          "text": "A-1, B-2, C-3, D-4"
+        },
+        {
+          "id": "opt3",
+          "text": "A-2, B-3, C-1, D-4"
+        },
+        {
+          "id": "opt4",
+          "text": "A-4, B-3, C-2, D-1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Sr. Computer Instructor 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15482,
+        "exam": "Sr. Computer Instructor 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रबाब, चिकारा और चौतारा किस प्रकार के वाद्य यंत्र है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तत् वाद्य"
+        },
+        {
+          "id": "opt2",
+          "text": "घन वाद्य"
+        },
+        {
+          "id": "opt3",
+          "text": "अवनद्ध वाद्य"
+        },
+        {
+          "id": "opt4",
+          "text": "सुषिर वाद्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "तत् वाद्य वे वाद्य यंत्र हैं, जिनमें तारों का उपयोग होता है और इन्हें उंगलियों या किसी उपकरण (जैसे मिजराब) से बजाया जाता है। उदाहरण: सितार, वीणा, रबाब, चिकारा, और चौतारा।",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15484,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शांता गांधी द्वारा रचित नाटक ‘जस्म ओडन’ किस गायन शैली में विश्व के कई देशों में मंचित किया जा चुका है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हवेली संगीत"
+        },
+        {
+          "id": "opt2",
+          "text": "लागा गायन"
+        },
+        {
+          "id": "opt3",
+          "text": "भवाई शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "फड़ गायन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — JEN Agriculture 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15485,
+        "exam": "JEN Agriculture 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पं. शिवकुमार शर्मा का संबंध किस वाद्ययंत्र से है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शहनाई"
+        },
+        {
+          "id": "opt2",
+          "text": "संतूर"
+        },
+        {
+          "id": "opt3",
+          "text": "सरोद"
+        },
+        {
+          "id": "opt4",
+          "text": "सारंगी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15486,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का निम्नलिखित में से कौन सा (प्रसिद्ध संगीतकार – विशेषज्ञता) सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सुल्तान खां – कमायचा"
+        },
+        {
+          "id": "opt2",
+          "text": "जिया फरीदुद्दीन डागर – ध्रुपद"
+        },
+        {
+          "id": "opt3",
+          "text": "चतुर लाल – तबला"
+        },
+        {
+          "id": "opt4",
+          "text": "विश्वमोहन भट्ट – मोहन वीणा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15487,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध राजस्थानी लोकगीत ‘पाथल और पीथल’ के रचयिता हैं –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सत्यप्रकाश जोशी"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रप्रकाश देवल"
+        },
+        {
+          "id": "opt3",
+          "text": "विजयदान देथा"
+        },
+        {
+          "id": "opt4",
+          "text": "कन्हैयालाल सेठिया"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रसिद्ध राजस्थानी लोकगीत ‘पाथल और पीथल’ के रचयिता कन्हैयालाल सेठिया हैं।",
+      "reference": "📌 PYQ — Librarian Grade III 2022 (Paper 1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15488,
+        "exam": "Librarian Grade III 2022 (Paper 1)",
+        "year": 2022
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के मेले",
+  "batchIndex": 1,
+  "batchName": "राजस्थान के मेले भाग 1",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-के-मेले",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कार्तिक मास में दीपदान की परंपरा और पशु मेला किसकी प्रमुख विशेषताएँ हैं?सबसे उपयुक्त विकल्प का चयन कीजिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जीनमाता मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "दिग्गी कल्याणजी मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "खाटू श्यामजी मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "पुष्कर मेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अजमेर का पुष्कर मेला कार्तिक पूर्णिमा के अवसर पर आयोजित होता है। इसमें पवित्र पुष्कर झील में दीपदान करने की धार्मिक परंपरा है और साथ ही यह राजस्थान का सबसे बड़ा अंतर्राष्ट्रीय ऊँट/पशु मेला भी है।",
+      "reference": "📌 PYQ — Forester Exam 2026",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9361,
+        "exam": "Forester Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें: सूची I (मेला)सूची II (स्थान)a. खाटूश्यामजी मेलाI. अलवर ज़िलाb. भर्तृहरि मेलाII. देशनोक, बीकानेरc. करणीमाता मेलाIII. सीकर ज़िलाd. शीतलामाता मेलाIV. चाकसू, जयपुरनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-III, b-I, c-II, d-IV"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-II, c-I, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-II, b-III, c-IV, d-I"
+        },
+        {
+          "id": "opt4",
+          "text": "a-I, b-IV, c-II, d-III"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेलों और उनके आयोजन स्थलों का सही मिलान इस प्रकार है: खाटूश्यामजी मेला: यह सुप्रसिद्ध मेला सीकर ज़िले में फाल्गुन मास में आयोजित होता है।भर्तृहरि मेला: कनफड़े नाथ संप्रदाय का यह प्रसिद्ध मेला अलवर ज़िले में आयोजित होता है।करणीमाता मेला: चूहों वाली देवी के नाम से प्रसिद्ध करणी माता का मेला देशनोक, बीकानेर में नवरात्रि के दौरान भरता है।शीतलामाता मेला: चाकसू, जयपुर में सील की डूंगरी पर चैत्र कृष्ण अष्टमी (शीतलाष्टमी) को यह मेला आयोजित होता है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Science)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9362,
+        "exam": "Lab Assistant Exam 2026 (Science)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची I को सूची II से सुमेलित करें-सूची I (मेला)सूची II (जिला)a. पुष्कर मेलाI. सीकरb. जीणमाता मेलाII. अलवरc. भर्तृहरि का मेलाIII. अजमेरd. डिग्गी कल्याणजी का मेलाIV. टोंकनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-II, b-I, c-IV, d-III"
+        },
+        {
+          "id": "opt2",
+          "text": "a-III, b-I, c-II, d-IV"
+        },
+        {
+          "id": "opt3",
+          "text": "a-III, b-II, c-I, d-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "a-I, b-II, c-IV, d-III"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पुष्कर मेला: यह विश्व प्रसिद्ध मेला अजमेर जिले के पुष्कर में कार्तिक पूर्णिमा को भरता है।जीणमाता मेला: जीणमाता का मंदिर सीकर जिले के रेवासा में है, जहाँ नवरात्रों में साल में दो बार मेला लगता है।भर्तृहरि का मेला: अलवर के प्रसिद्ध लोक देवता राजा भर्तृहरि की तपोभूमि अलवर में है, जहाँ भाद्रपद शुक्ल अष्टमी को मेला भरता है।डिग्गी कल्याणजी का मेला: भगवान विष्णु को समर्पित कल्याणजी का प्रसिद्ध मेला टोंक जिले के मालपुरा (डिग्गी) में आयोजित होता है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2026 (Geography)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9363,
+        "exam": "Lab Assistant Exam 2026 (Geography)",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दो कथन दिए गए हैं: एक अभिकथन A (Assertion A) के रूप में लिखित है तो दूसरा उसके कारण R (Reason R) के रूप में: अभिकथन A: राजस्थान मेलों और पर्वों की भूमि है।कारण R: राष्ट्रीय पर्वों के अतिरिक्त, नाम के लिए कुछ, प्रमुख मेलें तीज, गणगौर, राजस्थान दिवस, पुष्कर मेला तथा ऊँट पर्व हैं।उपरोक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A सही नहीं है लेकिन R सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "A और R दोनों सही हैं और R, A की सही व्याख्या है।"
+        },
+        {
+          "id": "opt3",
+          "text": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।"
+        },
+        {
+          "id": "opt4",
+          "text": "A सही है लेकिन R सही नहीं है।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान अपनी रंग-बिरंगी संस्कृति, त्यौहारों और मेलों के लिए पूरी दुनिया में जाना जाता है। यहाँ राष्ट्रीय पर्वों के अलावा क्षेत्रीय स्तर पर तीज, गणगौर, पुष्कर मेला, ऊँट उत्सव आदि बहुत धूमधाम से मनाए जाते हैं, जो इस राज्य को ‘मेलों और पर्वों की भूमि’ के रूप में चरितार्थ करते हैं।",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2026",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9364,
+        "exam": "Agriculture Supervisor Exam 2026",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चन्द्रभागा मेला प्रतिवर्ष कार्तिक माह (अक्टूबर-नवम्बर) में निम्न में से किस स्थान पर आयोजित होता है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालरापाटन"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "तिलवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "बारां"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चन्द्रभागा मेला प्रतिवर्ष कार्तिक पूर्णिमा (अक्टूबर-नवम्बर) को झालरापाटन (झालावाड़) में चन्द्रभागा नदी के तट पर आयोजित किया जाता है।",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9365,
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन से मेले राजस्थान के पशु मेले हैं?(अ) चंद्रभागा मेला (ब) तिलवाड़ा मेला(स) सीताबाड़ी मेला (द) परबतसर मेला",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(अ), (ब) एवं (स)"
+        },
+        {
+          "id": "opt2",
+          "text": "(अ), (स) एवं (द)"
+        },
+        {
+          "id": "opt3",
+          "text": "(अ), (ब) एवं (द)"
+        },
+        {
+          "id": "opt4",
+          "text": "(ब), (स) एवं (द)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चंद्रभागा मेला — पशु मेला (झालावाड़)तिलवाड़ा मेला — पशु मेला (बालोतरा)परबतसर मेला — पशु मेला (नागौर)सीताबाड़ी मेला — मुख्य रूप से धार्मिक/सांस्कृतिक मेला (बारां)",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9366,
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित में से किस जिले में, “ऊँट महोत्सव” का आयोजन किया जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान पर्यटन विभाग द्वारा प्रतिवर्ष जनवरी माह में 'ऊँट महोत्सव' (Camel Festival) का आयोजन बीकानेर जिले में किया जाता है।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9367,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (पशु मेला-स्थान) सुमेलित नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मल्लीनाथ पशु मेला - तिलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रभागा पशु मेला - झालरापाटन"
+        },
+        {
+          "id": "opt3",
+          "text": "बलदेव पशु मेला - मानासर"
+        },
+        {
+          "id": "opt4",
+          "text": "तेजाजी पशु मेला - परबतसर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "बलदेव पशु मेला नागौर जिले के मेड़ता सिटी में आयोजित होता है, न कि मानासर में (मानासर में रामदेव पशु मेला लगता है)।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9368,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आदिवासियों का सबसे बड़ा बेणेश्वर मेला हिन्दू पंचांग के अनुसार किस “तिथि” को आयोजित होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कार्तिक पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "भाद्रपद शुक्ल चतुर्थी"
+        },
+        {
+          "id": "opt3",
+          "text": "चैत्र कृष्ण सप्तमी"
+        },
+        {
+          "id": "opt4",
+          "text": "माघ पूर्णिमा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "डूंगरपुर जिले के नवाटापुरा नामक स्थान पर सोम, माही और जाखम नदियों के पवित्र त्रिवेणी संगम पर बेणेश्वर मेला लगता है। इसे ‘आदिवासियों का कुंभ’ भी कहा जाता है। यह मेला प्रतिवर्ष माघ पूर्णिमा को मुख्य रूप से आयोजित होता है, जहाँ भगवान शिव (खंडित शिवलिंग) की पूजा की जाती है।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9369,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार करें: a. लखी मेला भर्तृहरि नामक स्थान पर आयोजित होता है।b. यह अजमेर से 40 किमी. दूर है।c. भर्तृहरि राजा थे और पिंगला रानी उनकी पत्नी थी।d. उन्होंने अपना राजपाट त्याग कर संन्यास ले लिया।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, c और d"
+        },
+        {
+          "id": "opt2",
+          "text": "a, c और d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b और c"
+        },
+        {
+          "id": "opt4",
+          "text": "a और b"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "लक्खी मेला (Lakkhi Mela) अलवर जिले के भर्तृहरि धाम में आयोजित होता है, जो राजा भर्तृहरि की समाधि स्थल पर लगता है। राजा भर्तृहरि, जो कभी उज्जैन के शक्तिशाली राजा थे, अपनी पत्नी रानी पिंगला के धोखे के बाद सन्यासी बन गए।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9370,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खाटूश्यामजी का मेला कब आयोजित होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पौष का शुक्ल पक्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्गशीष का शुक्ल पक्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "फाल्गुन का शुक्ल पक्ष"
+        },
+        {
+          "id": "opt4",
+          "text": "चैत्र का शुक्ल पक्ष"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "खाटू श्यामजी (सीकर) में फाल्गुन शुक्ल एकादशी को बड़ा मेला लगता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9371,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के मेलों के बारे में निम्नलिखित में से कौन-कौन से कथन सत्य हैं?(a) खलकाणी माता गर्दभ मेला जयपुर के पास भावगढ़ बंध्या गाँव में आयोजित होता है।(b) बेणेश्वर मेले को “आदिवासियों का कुंभ” कहा जाता है।(c) लखी मेला वर्ष में दो बार अलवर से 40 किमी. दूर भर्तृहरि में आयोजित होता है।(d) कपिल मुनि मेला सीकर के खंडेला में आयोजित होता है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (a), (c) और (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (b), (c) और (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (a), (b) और (d)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (a), (b) और (c)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कपिल मुनि मेला राजस्थान के बीकानेर जिले के कोलायत में आयोजित होता है। कोलायत का मूल नाम कपिलायतन है जो कपिल ऋषि के नाम पर रखा गया है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9372,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित करें: सूची-I मेलासूची-II राजस्थान का जिला(a) जीणमाता(i) बीकानेर(b) डिग्गी कल्याणजी(ii) करौली(c) करणी माता(iii) टोंक(d) कैला देवी(iv) सीकर नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जीणमाता मेला → सीकरडिग्गी कल्याणजी मेला → टोंककरणी माता मेला → बीकानेर (देशनोक)कैला देवी मेला → करौली",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9373,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस मेले को “आदिवासियों का कुम्भ” कहा जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कैला देवी मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "करणी माता मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "जीणमाता मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "बेणेश्वर मेला"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान राज्य के डूंगरपुर जिले में बेणेश्वर धाम में आयोजित होने वाला आदिवासी मेला है। जिसे बेणेश्वर मेले के नाम से जाने जाता है। इस मेले का आयोजन माह जनवरी या फरवरी में आयोजित होता है। मुख्य मेला माघ पूर्णिमा को होता है। यह मेला आदिवासी संस्कृति का प्रमुख मेला है तथा इसे आदिवासियों का कुम्भ मेला भी कहा जाता है।",
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9374,
+        "exam": "Jamadar Grade II Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोटा जिले में सीताबाड़ी के मेले में आने वाले श्रद्धालु किस कुण्ड में चढ़ावा नहीं देते?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरत कुण्ड"
+        },
+        {
+          "id": "opt2",
+          "text": "लक्ष्मण कुण्ड"
+        },
+        {
+          "id": "opt3",
+          "text": "सूरज कुण्ड"
+        },
+        {
+          "id": "opt4",
+          "text": "सीता कुण्ड"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सीताबाड़ी मेला बारां के केलवाड़ा में लगता है, जो सहरिया आदिवासियों का कुंभ है। यहां सात जलकुंड बने हैं, जिनमें वाल्मीकि कुंड, सीता कुंड, लक्ष्मण कुंड, सूरज कुंड और लव-कुश कुंड प्रमुख जलकुंड हैं।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9375,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन-सा मेला अलवर के भर्तृहरि में आयोजित होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्खी मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "जीणमाता मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "खाटू श्यामजी मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "डिग्गी कल्याणजी मेला"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "लक्खी मेला (Lakkhi Mela) अलवर जिले के भर्तृहरि धाम में आयोजित होता है, जो राजा भर्तृहरि की समाधि स्थल पर लगता है।",
+      "reference": "📌 PYQ — Platoon Commander Exam 2025",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9376,
+        "exam": "Platoon Commander Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा मेला भारत का दूसरा सबसे बड़ा पशु मेला है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर मेला"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर ऊँट मेला"
+        },
+        {
+          "id": "opt3",
+          "text": "पुष्कर मेला"
+        },
+        {
+          "id": "opt4",
+          "text": "सोनपुर मेला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सबसे पहले आता है सोनपुर मेला, जो कि बिहार का गर्व और एशिया का सबसे बड़ा पशु मेला है। दूसरा नाम आता है पुष्कर मेला, राजस्थान का।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9377,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डूंगरपुर स्थित प्रसिद्ध बेणेश्वर मेला प्रतिवर्ष किस अवसर पर लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माघ माह की पूर्णिमा"
+        },
+        {
+          "id": "opt2",
+          "text": "चैत्र अमावस्या"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्तिक पूर्णिमा"
+        },
+        {
+          "id": "opt4",
+          "text": "माघ माह की अमावस्या"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बेणेश्वर मेला हिंदू पंचांग के अनुसार माघ माह की शुक्ल एकादशी से शुरू होने वाला पाँच दिवसीय मेला है। बेणेश्वर मेला माही और सोम नदियों द्वारा निर्मित डेल्टा में आयोजित होता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9383,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के श्री महावीर जी मेले के बारे में निम्नलिखित कथनों पर विचार कीजिए।कथन-1: यह मेला महावीर स्वामी की स्मृति में हर साल चंदनपुर जिला करौली में आयोजित किया जाता है।कथन-II: यह बौद्धों का सबसे बड़ा मेला है।नीचे दिए गए विकल्पों में से सही उत्तर चुनिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कथन I और II दोनों सही हैं"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल कथन II सही है"
+        },
+        {
+          "id": "opt3",
+          "text": "कथन I और II दोनों गलत हैं"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल कथन I सही है"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्री महावीर जी मेला जैन तीर्थंकर महावीर स्वामी की स्मृति में करौली जिले के चंदनपुर में आयोजित होता है।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9384,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कपिल मुनि का मेला कार्तिक पूर्णिमा को राजस्थान के किस स्थान पर लगता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामदेवरा"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलायत"
+        },
+        {
+          "id": "opt3",
+          "text": "सालासर"
+        },
+        {
+          "id": "opt4",
+          "text": "पुष्कर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कपिल मुनि का मेला कार्तिक पूर्णिमा के अवसर पर राजस्थान के बीकानेर जिले में कोलायत में लगता है।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9385,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    }
+  ]
+}

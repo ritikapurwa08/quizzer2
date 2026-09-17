@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान की नदियाँ एवं जल संसाधन",
+  "batchIndex": 7,
+  "batchName": "राजस्थान की नदियाँ एवं जल संसाधन भाग 7",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-नदियाँ-एवं-जल-संसाधन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "मालपुरा – करौली मैदान भाग है",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास बेसिन का"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी बेसिन का"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल बेसिन का"
+        },
+        {
+          "id": "opt4",
+          "text": "माही बेसिन का"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में मालपुरा-करौली का मैदान बनास बेसिन का हिस्सा है।",
+      "reference": "📌 PYQ — CET 2022 (12th Level) 04 February 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3672,
+        "exam": "CET 2022 (12th Level) 04 February 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से चम्बल की सहायक नदी है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "लूणी"
+        },
+        {
+          "id": "opt3",
+          "text": "जवाई"
+        },
+        {
+          "id": "opt4",
+          "text": "माही"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चम्बल की सबसे बड़ी सहायक नदी बनास नदी है।",
+      "reference": "📌 PYQ — High Court LDC 2022 (19 March 2023)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3673,
+        "exam": "High Court LDC 2022 (19 March 2023)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जल उपलब्धता के आधार पर कौन सा नदी बेसिन राजस्थान में द्वितीय स्थान पर है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास बेसिन"
+        },
+        {
+          "id": "opt2",
+          "text": "साबरमती बेसिन"
+        },
+        {
+          "id": "opt3",
+          "text": "माही बेसिन"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी बेसिन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में सर्वाधिक सतही जल चंबल नदी में है, इसके बाद क्रमश: बनास, माही और लूनी नदी में है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3674,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा (नदी – सम्बन्धित जिला ) सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काकणी – जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाणगंगा – जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "वात्रक – बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "दाई – अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वात्रक साबरमती नदी की एक सहायक नदी है। यह राजस्थान में डूंगरपुर के पास की पहाड़ियों से निकलती है और मेघराज तालुका में गुजरात में प्रवेश करती है।यह ढोलका के पास साबरमती नदी में मिलती है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3675,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित नदियों में से कौन अध्यारोपित नदी का उदाहरण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "माही"
+        },
+        {
+          "id": "opt3",
+          "text": "घग्गर"
+        },
+        {
+          "id": "opt4",
+          "text": "जाखम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "नदी निम्नवर्ती (गहरे) अपरदन द्वारा ऊपरी आवरण शैल को काटकर निचली शैल पर पहुँच जाती है और अपनी घाटी का विकास करती है। इस प्रकार ऊपरी आवरण पर निर्मित घाटी का अध्यारोपण निचली शैल संरचना पर होने से अध्यारोपित नदी घाटी का विकास होता है। इस प्रकार की घाटी में प्रवाहित नदी अध्यारोपित या पूर्वारोपित नदी कहलाती है।बनास नदी अध्यारोपित नदी का उदाहरण है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3676,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चम्बल - पार्वती"
+        },
+        {
+          "id": "opt2",
+          "text": "लूनी - सूकड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "बनास - कुंटाल"
+        },
+        {
+          "id": "opt4",
+          "text": "माही - सोम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चम्बल नदी की सहायक नदियां: कालीसिंध, आहू, पार्वती, परवन, बनास, अलनिया, बामणी, कुराल, मेज, सीप, कुनु और छोटी कालीसिंध है। चम्बल की सबसे बड़ी सहायक नदी बनास नदी है।बनास नदी की सहायक नदियां: बेड़च, गम्भीरी, कोठारी, मेनाल(मिनाल), खारी, डाई, माशी, मान्सी, बांड़ी, सोहादरा (सोडरा), मोरेल, ढूंढ, ढील और कालीसिलमाही नदी की सहायक नदियां: इरू, सोम, जाखम, अनास, हरण, चाप, मोरेन व भादर।लूनी की सहायक नदियों में लीलड़ी (सबसे पहले मिलने वाली), बांड़ी, सुकड़ी, मीठडी, जवाई, खारी, सागी पूर्व की ओर से ओर एकमात्र नदी जोजड़ी पश्चिम से जोधपुर से आकर मिलती है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3677,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म सही सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राणा प्रताप सागर परियोजना – राजस्थान और पंजाब"
+        },
+        {
+          "id": "opt2",
+          "text": "व्यास परियोजना – राजस्थान, पंजाब और हरियाणा"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल परियोजना – राजस्थान और मध्य प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "माही बजाज सागर परियोजना – गुजरात और राजस्थान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राणा प्रताप सागर योजना मध्य प्रदेश और राजस्थान की संयुक्त परियोजना है।",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 08 January 2023 Shift-2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3687,
+        "exam": "CET 2022 (Graduate) 08 January 2023 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की एक नदी के सन्दर्भ में निम्नलिखित तथ्यों को सावधानीपूर्वक पढ़िए -(A) यह ऋषभदेव के निकट बीछामेंड़ा से उद्गमित होती है।(B) गोमती तथा सारनी इसकी सहायक नदियाँ हैं।नदी की पहचान कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सोम"
+        },
+        {
+          "id": "opt2",
+          "text": "साबरमती"
+        },
+        {
+          "id": "opt3",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी बनास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सोम नदी उदयपुर में ऋषभदेव के पास बिछामेडा पहाडीयों से निकलती है। उदयपुर, सलूम्बर व डुंगरपुर में बहती हुई डुंगरपुर के बेणेश्वर में माही में मिलती है। जाखम, गोमती, सारनी, टिंण्डी सहायक नदियां है। उदयपुर (ऋषभदेव) में इस पर सोम-कागदर और डुंगरपुर में इस पर सोम - कमला - अम्बा परियोजना बनी है।",
+      "reference": "📌 PYQ — RPSC EO/RO Re-Exam - 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3717,
+        "exam": "RPSC EO/RO Re-Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में निम्नलिखित में से कौन सी नदी चंबल नदी की सहायक नदी नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "काली सिंध"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "परबती"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पश्चिम राजस्थान की एकमात्र नदी लूनी नदी का उद्गम अजमेर जिले के नाग की पहाडियों से होता है। आरम्भ में इस नदी को सागरमति या सरस्वती कहते है। यह नदी अजमेर से नागौर, ब्यावर, जोधपुर ग्रामीण, पाली, बालोतरा, बाडमेर, सांचौर जिलों से होकर बहती हुई गुजरात के कच्छ जिले में प्रवेश करती है और कच्छ के रण में विलुप्त हो जाती है।",
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3718,
+        "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वाकल तथा सेई धारा के मिलने से जो नदी बनती है, वो है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "साबरमती नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "पार्वती नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास नदी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वाकल और सेई धारा के मिलने से साबरमती नदी बनती है। साबरमती नदी राजस्थान में उदयपुर के दक्षिण-पश्चिम से निकलकर उदयपुर और सिरोही जिलों में प्रवाहित होकर गुजरात में प्रवेश कर खम्भात की खाड़ी में गिरती है। प्रारम्भ में यह वाकल नदी के नाम से जानी जाती है। साबर व हाथमती नामक दो नदियों की जलधारा के संगम से निर्माण के कारण इसका नाम साबरमती पड़ा। बाकल, हथमती, बेतरक, माजम, सेई इसकी सहायक नदीयां है।",
+      "reference": "📌 PYQ — Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3719,
+        "exam": "Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित नदियों को उनकी सहायक नदियों से सुमेलित कीजिए: (मुख्य नदी) (सहायक नदियाँ)(i) चम्बल (a) खारी, बांडी(ii) माही (b) सिवान, परवन(iii) साबरमती (c) अनास, चाप(iv) बनास (d) वाकल, हथमतिकूट: (i) (ii) (iii) (iv)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a) (b) (c) (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "(d) (c) (b) (a)"
+        },
+        {
+          "id": "opt3",
+          "text": "(c) (d) (a) (b)"
+        },
+        {
+          "id": "opt4",
+          "text": "(b) (c) (d) (a)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चंबल की सहायक नदियां: पार्वती, कालीसिंध, बनास, बामनी, पुराई, सिवान, परवनमाही की सहायक नदियां: इरू, सोम, जाखम, अनास, हरण, चाप, मोरेन व भादरसाबरमती की सहायक नदियां: बाकल, हथमती, बेतरक, माजम, सेईबनास की सहायक नदियां: बेड़च, मेनाल, खारी, कोठारी, मोरेल, बांडी",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3723,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए तथा नीचे दिए गए कूटों से सही कथन चुनिए: A. लूनी नदी क्रम का अधिकांश अपवाह क्षेत्र राजस्थान में है।B. खारी नदी बनास नदी की सहायक नंदी है।C. बनास नदी खमनौर की पहाड़ियों से निकलती है।कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल B तथा C सही हैं ।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल A तथा C सही हैं।"
+        },
+        {
+          "id": "opt3",
+          "text": "A, B तथा C सही हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल A तथा B सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पश्चिम राजस्थान की एकमात्र नदी लूनी नदी का उद्गम अजमेर जिले के नाग की पहाडियों से होता है। आरम्भ में इस नदी को सागरमति या सरस्वती कहते है। यह नदी अजमेर से नागौर, ब्यावर, जोधपुर ग्रामीण, पाली, बालोतरा, बाडमेर, सांचौर जिलों से होकर बहती हुई गुजरात के कच्छ जिले में प्रवेश करती है और कच्छ के रण में विलुप्त हो जाती है।बनास नदी का उद्गम खमनोर की पहाड़ी कुंभलगढ़ (राजसमंद) से होता है।सहायक नदियां: बेड़च, गम्भीरी, कोठारी, मेनाल, खारी, डाई, माशी, मान्सी, बांड़ी, सोहादरा (सोडरा), मोरेल, ढूंढ, ढील और कालीसिल",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3724,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी नदी उदयपुर जिले में प्रवाहित नहीं होती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पार्वती"
+        },
+        {
+          "id": "opt2",
+          "text": "सोम"
+        },
+        {
+          "id": "opt3",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "साबरमती"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पार्वती मध्यप्रदेश के सिहोर से निकलती है बांरा के करियाहट में राजस्थान में प्रवेश करती है। बांरा, कोटा में बहती हुई सवाई माधोपुर और कोटा की सीमा पर पालिया गांव के निकट चम्बल में मिल जाती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3726,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वह नदी जो ‘वन की आशा’ के नाम से जानी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास नदी"
+        },
+        {
+          "id": "opt2",
+          "text": "माही नदी"
+        },
+        {
+          "id": "opt3",
+          "text": "बाणगंगा नदी"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी नदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3727,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रूपारेल नदी का उद्गम होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रघुनाथगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "कुम्भलगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "राजोरगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयनाथ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "रूपारेल नदी अलवर जिले के थानागाजी (उदयनाथ की पहाड़ी) से निकलती, डीग में समाप्त हो जाती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3728,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी राजस्थान में आन्तरिक अपवाह की नदी नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मसूरदी"
+        },
+        {
+          "id": "opt2",
+          "text": "कांतली"
+        },
+        {
+          "id": "opt3",
+          "text": "जाखम"
+        },
+        {
+          "id": "opt4",
+          "text": "साबी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जाखम प्रतापगढ़ जिले के छोटी सादडी तहसिल में स्थित भंवरमाता की पहाडीयों से निकलती है। प्रतापगढ, सलूम्बर, डुगरपुर में बहती हुई डुंगरपुर के लोरवल और बिलूर गांव के निकट यह सोम मे मिल जाती है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3729,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चम्बल बेसिन की खण्ड भूमि को कहा जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चादर धुलन"
+        },
+        {
+          "id": "opt2",
+          "text": "अवनलिकायें"
+        },
+        {
+          "id": "opt3",
+          "text": "भूमिसर्पण"
+        },
+        {
+          "id": "opt4",
+          "text": "सेम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चम्बल नदी बेसिन भूमि को अवनलिकायें भी कहा गया है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3730,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म सुमेलित नहीं है -नदी - सहायक नदी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "माही - सोम"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास - कोठारी"
+        },
+        {
+          "id": "opt3",
+          "text": "साबरमती - मोरेन"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी - बाण्डी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "साबरमती नदी का उद्गम उदयपुर जिलें के कोटडा तहसील में स्थित अरावली की पहाडीयों से होता है। 45 कि.मी. राजस्थान में बहने के पश्चात् संभात की खाडी में जाकर समाप्त हो जाती है। बाकल, हथमती, बेतरक, माजम, सेई इसकी सहायक नदियां है।मोरेन माही की सहायक नदी है।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3731,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बनास, चम्बल और सीप नदियां किस जिले में, राजस्थान के त्रिवेणी संगम का निर्माण करती हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भीलवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "टोंक"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "त्रिवेणी संगम स्थलनदियां जिला विशेष साबंला (बेणेश्वर)सोम-माही-जाखम डूंगरपुरराजस्थान का कुंभ/ आदिवासियों का महाकुंभमांडलगढ़ (बींगोद)बनास -बेड़च-मेनाल भीलवाड़ा त्रिवेणी तीर्थमानपुर (रामेश्वर घाट) चम्बल-बनास-सीप सवाई माधोपुर वर्षो से अखण्ड संकीर्तन / श्रीजी मंदिरराजमहलबनास-खारी-डोईटोंक",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3732,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी नदी जालौर जिले में नहीं बहती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बांडी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेनाल"
+        },
+        {
+          "id": "opt3",
+          "text": "सूकड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "लूनी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मेनाल गांव के समीप भीलवाड़ा जिले में स्थित मांडलगढ़ से मेनाल नदी निकलती है जो बिंगोद (भीलवाड़ा) में जाकर बनास में मिलती है।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3733,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    }
+  ]
+}

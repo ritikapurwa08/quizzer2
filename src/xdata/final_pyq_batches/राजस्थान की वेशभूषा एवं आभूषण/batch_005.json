@@ -1,0 +1,626 @@
+{
+  "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
+  "batchIndex": 5,
+  "batchName": "राजस्थान की वेशभूषा एवं आभूषण भाग 5",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-वेशभूषा-एवं-आभूषण",
+  "negativeMarking": true,
+  "questionCount": 19,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘टोटी’ आभूषण शरीर के किस हिस्से में पहना जाता -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कटि"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "नाक"
+        },
+        {
+          "id": "opt4",
+          "text": "कान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "‘टोटी’ आभूषण कानों में पहना जाता है। यह सोने का एक छोटा छल्ला होता है।",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam 2021",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18204,
+        "exam": "RPSC Ras Pre. Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्त्रियों का आभूषण ‘नेवरी’ शरीर के किस भाग पर पहना जाता है ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँव"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "गला"
+        },
+        {
+          "id": "opt4",
+          "text": "सिर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18216,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में महिलाओं द्वारा अंगुली में पहना जाने वाला आभूषण कौन सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हालरो"
+        },
+        {
+          "id": "opt2",
+          "text": "दामना"
+        },
+        {
+          "id": "opt3",
+          "text": "नेवरी"
+        },
+        {
+          "id": "opt4",
+          "text": "तुलसी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18218,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अंगोट्या आभूषण मानव शरीर के किस भाग पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गला"
+        },
+        {
+          "id": "opt2",
+          "text": "कमर"
+        },
+        {
+          "id": "opt3",
+          "text": "नाक"
+        },
+        {
+          "id": "opt4",
+          "text": "कान"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18219,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चाँदी के आभूषणों की तारकशी के लिए राजस्थान का कौन सा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt2",
+          "text": "खण्डेला"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "नाथद्वारा में चाँदी के बारीक तारों से विभिन्न आभूषण एवं कलात्मक वस्तुएँ बनाई जाती हैं। यह कला तारकशी तथा इन जेवरों कों तारकशी के जेवर कहते हैं।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18223,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आभूषण, जो सिर पर नहीं पहना जाता -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेमंद"
+        },
+        {
+          "id": "opt2",
+          "text": "बोर"
+        },
+        {
+          "id": "opt3",
+          "text": "रखड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "कंदोरा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कंदोरा आभूषण कमर पर पहना जाता है। कंदोरा, करधनी के समान है लेकिन इसका डिज़ाइन अलग है। सिर के आभूषण - चूड़ारत्न, मुकुट, बोर, शीशफूल, रखड़ी और टिकड़ा, मेमंद, टीडीभलको",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18232,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चूंप’ नामक आभूषण का सम्बन्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दाँत"
+        },
+        {
+          "id": "opt2",
+          "text": "कमर"
+        },
+        {
+          "id": "opt3",
+          "text": "अंगुली"
+        },
+        {
+          "id": "opt4",
+          "text": "कान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18238,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुरूषों द्वारा पहने जाने वाला आभूषण निम्न में से कौन-सा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बोरला"
+        },
+        {
+          "id": "opt2",
+          "text": "मुरकियाँ"
+        },
+        {
+          "id": "opt3",
+          "text": "टड्डर"
+        },
+        {
+          "id": "opt4",
+          "text": "बंगड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18239,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ महाराणा के पगड़ी बांधने वाला व्यक्ति कहलाता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पानेरी"
+        },
+        {
+          "id": "opt2",
+          "text": "छड़ीदार"
+        },
+        {
+          "id": "opt3",
+          "text": "छाबदार"
+        },
+        {
+          "id": "opt4",
+          "text": "जांगड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2018 (Paper-1)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18241,
+        "exam": "Asst. Agriculture Officer - 2018 (Paper-1)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तारकशी के आभूषण के लिये राजस्थान का कौनसा स्थान प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Supervisor (women empowerment) Exam 2018",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18250,
+        "exam": "Supervisor (women empowerment) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बल्लया’ आभूषण कहां पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिर पर"
+        },
+        {
+          "id": "opt2",
+          "text": "कान में"
+        },
+        {
+          "id": "opt3",
+          "text": "नाक में"
+        },
+        {
+          "id": "opt4",
+          "text": "हाथों में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18253,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कान्दोरा आभूषण पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाजू में"
+        },
+        {
+          "id": "opt2",
+          "text": "कान में"
+        },
+        {
+          "id": "opt3",
+          "text": "नाक में"
+        },
+        {
+          "id": "opt4",
+          "text": "कमर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Asstt. Agriculture Officer Exam 2015 Paper 1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18262,
+        "exam": "Asstt. Agriculture Officer Exam 2015 Paper 1",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित आभूषण व उसे पहने जाने वाले अंग को सुमेलित कीजिये -सूची -1 सूची-2 अ. बोरला 1. पैरब. लटकन 2. सिरस. जंजीर 3. नाकद. तोडिया 4. कमरअ, ब, स, द",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4, 2, 3, 1"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 2, 4, 1"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 4, 1"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Stenographer Comp. Exam - 2011 (Paper I)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18268,
+        "exam": "Stenographer Comp. Exam - 2011 (Paper I)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एक आभूषण जो पुरूषों द्वारा उपयोग होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अणत"
+        },
+        {
+          "id": "opt2",
+          "text": "तगड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "बजट्टा"
+        },
+        {
+          "id": "opt4",
+          "text": "मुरकियां"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुरकी, कान का एक आभूषण है। इसे कान के मध्य भाग में पहना जाता है। मुरकी, झालर, बाला, पांडा कान के अन्य आभूषण हैं।",
+      "reference": "📌 PYQ — Asst. Agriculture Officer - 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18269,
+        "exam": "Asst. Agriculture Officer - 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महिला आभूषण ‘नेवरी’ शरीर के किस अंग पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt2",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt3",
+          "text": "पाँव"
+        },
+        {
+          "id": "opt4",
+          "text": "उँगली"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RSMSSB PTI Grade-III P1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18276,
+        "exam": "RSMSSB PTI Grade-III P1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘झेला, जमेला, पीपलपत्रा, अगोटया’ शरीर के किस अंग के आभूषण हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कान"
+        },
+        {
+          "id": "opt2",
+          "text": "गला"
+        },
+        {
+          "id": "opt3",
+          "text": "हाथ"
+        },
+        {
+          "id": "opt4",
+          "text": "पैर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Junior Instructor(fitter)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18330,
+        "exam": "Junior Instructor(fitter)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लूंग आभूषण कहां पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ललाट पर"
+        },
+        {
+          "id": "opt2",
+          "text": "पैरों में"
+        },
+        {
+          "id": "opt3",
+          "text": "कलाई पर"
+        },
+        {
+          "id": "opt4",
+          "text": "कान में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कान में पहने जाने वाले गहने Trick",
+      "reference": "📌 PYQ — Raj Jail Warder (29-11-18) Shift 1",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18338,
+        "exam": "Raj Jail Warder (29-11-18) Shift 1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शीशफूल नामक आभूषण शरीर के किस अंग पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt2",
+          "text": "कान"
+        },
+        {
+          "id": "opt3",
+          "text": "सिर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — RSMSSB LDC (16-09-18) Paper-1",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18341,
+        "exam": "RSMSSB LDC (16-09-18) Paper-1",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चम्पाकली आभूषण शरीर के किस अंग पर पहना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मांथा"
+        },
+        {
+          "id": "opt2",
+          "text": "कान"
+        },
+        {
+          "id": "opt3",
+          "text": "गर्दन"
+        },
+        {
+          "id": "opt4",
+          "text": "सिर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चंपाकली गले का एक आभूषण है जिसे राजस्थानी महिला द्वारा पहना जाता है।गले के आभूषण - हार, दूसूरुल्लक, पत्रलता, मणीश्ना, कंठिका, आमुक्तावली, तुलसी, टूस्सी, बजट्टी, हालरो, हाँसली, तिमणियाँ, पोत, चन्द्रहार, कंठमाला, हाँकर, चंपकली, हंसहार, सरी, कंठी, झालर, मादलिया, आड़, गले में बांधे जाने वाली देवताओं की प्रतिमा को नावा व चौकी कहते हैं।",
+      "reference": "📌 PYQ — RSMSSB LDC (09-09-18) Paper-1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18343,
+        "exam": "RSMSSB LDC (09-09-18) Paper-1",
+        "year": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "masterTopic": "चौहान वंश",
+  "batchIndex": 3,
+  "batchName": "चौहान वंश भाग 3",
+  "subject": "राजस्थान का इतिहास",
+  "subjectSlug": "rajasthan-history",
+  "topicSlug": "चौहान-वंश",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "चौहान शासकों की प्रारम्भिक राजधानी कौन सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "रणथम्भौर"
+        },
+        {
+          "id": "opt3",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt4",
+          "text": "अहिछत्रपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी, देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था, इस क्षेत्र को सपादलक्ष(सपादलक्ष का अर्थ सवा लाख गांवों का समूह) के नाम से जानते थे, प्रारम्भिक चौहान राजाओं की राजधानी अहिच्छत्रपुर (हर्षनाथ की प्रशस्ति) थी जिसे वर्तमान में नागौर के नाम से जानते हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10008,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालोर के चौहान वंश का संस्थापक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रतन सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "हमीरदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "कान्हड़देव"
+        },
+        {
+          "id": "opt4",
+          "text": "कीर्तिपाल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौहान वंश की स्थापना नाडोल शाखा के कीर्तिपाल चौहान द्वारा परमारों को परास्त करके की गई थी। सुण्डा पर्वत अभिलेख में उसे ‘राजेश्वर’ कहा गया है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10010,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणथम्भौर के चौहान राजवंश का संस्थापक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैत्रसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "वीरनारायण"
+        },
+        {
+          "id": "opt3",
+          "text": "हम्मीर"
+        },
+        {
+          "id": "opt4",
+          "text": "गोविन्दराज"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "तराइन के द्वितीय युद्ध में पृथ्वीराज की पराजय के बाद उसके पुत्र गोविंदराज ने कुछ समय बाद रणथम्भौर में चौहान वंश का शासन स्थापित किया।",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10011,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (morning shift)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालौर के चौहान वंश की शाखा का संस्थापक कौन था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुमारासिन्हा"
+        },
+        {
+          "id": "opt2",
+          "text": "अल्हन"
+        },
+        {
+          "id": "opt3",
+          "text": "कीर्तिपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "अजयसी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जालौर के चौहान वंश की शाखा, नाडोल शाखा के कीर्तिपाल चौहान द्वारा परमारों को परास्त करके की गई थी।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10013,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (G.K. & Edu. Psychology) Group D",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर की स्थापना के पूर्व चौहानों की राजधानी कौन सी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दिल्ली"
+        },
+        {
+          "id": "opt2",
+          "text": "सांभर"
+        },
+        {
+          "id": "opt3",
+          "text": "जालौर"
+        },
+        {
+          "id": "opt4",
+          "text": "मण्डोर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में चौहानों के मूल स्थान सांभर(शाकम्भरी देवी - तीर्थों की नानी, देवयानी तीर्थ) के आसपास वाला क्षेत्र माना जाता था, इस क्षेत्र को सपादलक्ष(सपादलक्ष का अर्थ सवा लाख गांवों का समूह) के नाम से जानते थे। पृथ्वीराज प्रथम के पुत्र का नाम अजयराज था। अपने साम्राज्य को सुरक्षित रखने के लिए उसने 1113 ई. में अजयमेरु (अजमेर) बसाकर उसे अपनी राजधानी बनाया।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10014,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित चौहान शासकों को कालक्रमानुसार व्यवस्थित कीजिए तथा सही कूट का चयन कीजिए: (i) चामुण्डराज (ii) दुर्लभराज-III (iii) विग्रहराज - III (iv) पृथ्वीराज- Iकूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i), (ii), (iii), (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(iv), (iii), (ii), (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iv), (i), (ii), (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(ii), (iii), (iv), (i)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चामुण्डराज के दो पुत्र थे- बल्लभराज तथा दुर्लभराज। इस वंश के विग्रहराज तृतीय के पुत्र पृथ्वीराज प्रथम ने 1105 ई. में 700 चालुक्यों को जो पुष्कर के ब्राह्मणों को लूटने आये थे, मौत के घाट उतारा व ‘परम भट्टारक महाराजाधिराज परमेश्वर’ की उपाधि धारण की।",
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10016,
+        "exam": "Senior Physical Education Teacher Exam - 2022 (Paper-I GK And Others)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज तृतीय, सभी चौहान शासकों में सबसे प्रसिद्ध, _____ वर्ष की आयु में सिंहासन पर बैठे।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "21"
+        },
+        {
+          "id": "opt2",
+          "text": "इनमें से कोई नहीं"
+        },
+        {
+          "id": "opt3",
+          "text": "05"
+        },
+        {
+          "id": "opt4",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौहान वंश के अंतिम प्रतापी सम्राट पृथ्वीराज चौहान तृतीय का जन्म 1166 ई. (वि.सं. 1223) में सोमेश्वर की रानी कर्पूरीदेवी की कोख से अन्हिलपाटन (गुजरात) में हुआ। अपने पिता का असमय देहावसान हो जाने के कारण मात्र 11 वर्ष की अल्पायु में पृथ्वीराज तृतीय अजमेर की गद्दी के स्वामी बने।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam 2022 Shift-2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10017,
+        "exam": "RPSC EO/ RO Exam 2022 Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा अभिलेख शाकाम्भरी चौहानों के प्रारंभिक इतिहास का अच्छा स्रोत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चीरवा अभिलेख"
+        },
+        {
+          "id": "opt2",
+          "text": "बिजोलिया अभिलेख"
+        },
+        {
+          "id": "opt3",
+          "text": "घटियाला अभिलेख"
+        },
+        {
+          "id": "opt4",
+          "text": "मानमोरी अभिलेख"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "7वीं शताब्दी ईस्वी में वासुदेव द्वारा स्थापित शाकाम्भरी (सांभर एवं अजमेर के निकट) के चौहान राज्य का इतिहास में विशेष स्थान है। इस वंश के प्रारम्भिक इतिहास की जानकारी विग्रहराज द्वितीय के हर्ष प्रस्तर अभिलेख तथा सोमेश्वर के समय में बिजौलिया प्रस्तर लेख से प्राप्त होती है।",
+      "reference": "📌 PYQ — RPSC Protection Officer-2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10081,
+        "exam": "RPSC Protection Officer-2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "महोबा विजय के बाद पृथ्वीराजIIIने वहाँ का प्रशासक किसे नियुक्त किया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पज्जुन राय"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्द राय"
+        },
+        {
+          "id": "opt3",
+          "text": "भुवनमल्ला"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयराज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "महोबा विजय के बाद पृथ्वीराज- IIIने पज्जुन राय को वहां का प्रशासक नियुक्त किया था। पृथ्वीराज चौहान ने ११८२ ई. में चंदेल वंश के राजा परमाल देव/ परमार्दिदेव को हराकर महोबा पर विजय प्राप्त की थी।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-E (S.E.) 2022 RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10084,
+        "exam": "RPSC School Lect. Group-E (S.E.) 2022 RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों में से कौन सा एक कथन अजमेर के चौहान राजा अजयराज (अजय देव) के विषय में सही नहीं हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज ने अजमेर (अजमेरू) के नवीन नगर की स्थापना की।"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज विजय के अनुसार, अजयराज ने गजन मतंग’ अर्थात् गजनी के मुस्लिम आक्रान्ताओं को पराजित किया था।"
+        },
+        {
+          "id": "opt3",
+          "text": "दिल्ली (ढिल्लिका) को अपने अधिकार में लेने वाला वह पहला चौहान शासक था।"
+        },
+        {
+          "id": "opt4",
+          "text": "कुछ सिक्कों पर उसकी रानी सेमला देवी का नाम उल्लिखित है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पृथ्वीराज प्रथम के पुत्र का नाम अजयराज था। उसने अपने साम्राज्य को सुरक्षित रखने के लिए १११३ ई. में अजयमेरु (अजमेर) बसाकर उसे अपनी राजधानी बनाया। ढेरों मुद्राओं पर उसकी रानी सोमल्ल देवी (सोमलवती) का नाम अंकित मिलता है। कविराज विजय के अनुसार, उसने गजनी के मुसलमानों को पराजित किया। विग्रहराज चतुर्थ ने तोमर वंश के राजा तवंर को पराजित कर दिल्ली (ढिल्लिका) और हांसी (असिका) पर चौहानों की सत्ता स्थापित की।",
+      "reference": "📌 PYQ — RPSC School Lect. (G-E) 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10086,
+        "exam": "RPSC School Lect. (G-E) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस शासक को ‘पृथ्वीराज विजय’ ने ‘वैरीघरट्ट’ की पद्वी/उपाधि दी गयी थीः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुर्लभराजII"
+        },
+        {
+          "id": "opt2",
+          "text": "गोविन्दIII"
+        },
+        {
+          "id": "opt3",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराज IV"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "पृथ्वीराज विजय काव्य में गोविंद तृतीय को वैरीघरट्ट की उपाधि प्रदान की गई थी। इसका अर्थ है शत्रु के किले को नष्ट करने वाला या जो शत्रुओं के दुर्गों को ध्वस्त करता है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) 2022",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10089,
+        "exam": "RPSC School Lect. (SE) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित चौहान शासकों में से किस शासक को बीसलदेव के नाम से भी जाना जाता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराजIII"
+        },
+        {
+          "id": "opt2",
+          "text": "वासुदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "वाव्âपतिराजI"
+        },
+        {
+          "id": "opt4",
+          "text": "विग्रहराजIV"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौहान वंश के शासक विग्रहराजVI का बीसलदेव के नाम से जाना जाता है। प्रबंधकोष में वीसलदेव को तुरूण्कजित कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10094,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जालौर के चौहान वंश की शाखा का संस्थापक कौन था?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अल्हन"
+        },
+        {
+          "id": "opt2",
+          "text": "र्कीितपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "अजयसी"
+        },
+        {
+          "id": "opt4",
+          "text": "कुमारसिन्हा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जालौर के चौहान वंश की शाखा का संस्थापक कीर्तिपाल था। कीर्तिपाल ने ११८२ ई. में जालौर में सोंगरा चौहान की स्थापना की थी। चौहान वंश के संस्थापक वासुदेव चौहान माने जाते है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10095,
+        "exam": "RPSC Sr. Teacher Gr-II (SE) G-D 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहान शासक के द्वारा अजमेर में जो संस्कृत पाठशाला बनवाई गई थी, उसे तोड़कर ऐबक ने अढ़ाई दिन का झोंपड़ा मस्जिद बनवाई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज तृतीय"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चौहान शासक विग्रहराज चतुर्थ द्वारा अजमेर में संस्कृत विद्यालय बनाया गया था। इस संस्कृत विद्यालय को तोड़कर कुतुबुद्दीन ऐबक ने अढाई दिन का झोपड़ा मस्जिद बनाई थी। अढ़ाई का झोपड़ा मस्जिद राजस्थान के अजमेर जिले में स्थित है।",
+      "reference": "📌 PYQ — RPSC School Lect. (SE) G-B 2022",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10099,
+        "exam": "RPSC School Lect. (SE) G-B 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर का पहला चौहान शासक जिसने अपने नाम सिक्के जारी किये, वह था",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजयराज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णोराज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अजमेर का पहला चौहान शासक अजयराज था जिसने अपने नाम से ‘श्री अजयदेव’ नामक चांदी के सिक्के जारी किए थे। इन सिक्कों पर उसके नाम और धार्मिक चिह्न अंकित है। अर्णोराज का शासक काल ११३३ से ११५० ईं तक था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10101,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (G-B) 2022 Re-Exam",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौहान राजवंश के निम्नलिखित शासकों को कालक्रमानुसार व्यवस्थित कीजिए: 1. पृथ्वीराज III 2. अजयराज 3. अर्णोराज 4. विग्रहराज IVकूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2, 3, 1, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 2, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 4, 2, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "2, 3, 4, 1"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौहान राजवंश के शासकों के कालक्रम: अजयराज (1113-1133 ई.)अर्णोराज (1133-1155 ई.)बीसलदेव चौहान (विग्रहराज चतुर्थ) (1158-1163 ई.)पृथ्वीराज चौहान तृतीय (1177-1192 ई.)",
+      "reference": "📌 PYQ — Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10118,
+        "exam": "Rajasthan Patwar 2021 (24 Oct 2021 ) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चौहान राजवंश के निम्नलिखित शासकों को कालक्रमानुसार व्यवस्थित कीजिए– (i)पृथ्वीराज-I (ii)अजयराज (iii)अर्णोराज (iv)विग्रहराज-IV",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(ii), (iii), (i), (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i), (iii), (ii), (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i), (iv), (ii), (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(i), (ii), (iii), (iv)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "चौहान वंश अथवा चाहमान वंश एक भारतीय राजपूत राजवंश था, जिसके शासकों ने वर्तमान राजस्थान, गुजरात एवं इसके समीपवर्ती क्षेत्रों पर ७वीं शताब्दी से लेकर १२वीं शताब्दी तक शासन किया। चौहान राजवंश के शासकों का कालक्रमानुसार- पृथ्वीराज प्रथम (1090–1110 ई.), अजयराज (1110–1135 ई.), अर्णोराज चौहान (1135–1150 ई.) विग्रहराजचतुर्थ (1150–1164 ई.)",
+      "reference": "📌 PYQ — RPSC Sub Inspector 07/10/2021",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10139,
+        "exam": "RPSC Sub Inspector 07/10/2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस संस्था का नाम बताइये जिसका गठन स्वामी दयानंद सरस्वती ने उदयपुर में किया था, लेकिन कालान्तर में यह अजमेर स्थानान्तरित कर दी गई।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर्य समाज"
+        },
+        {
+          "id": "opt2",
+          "text": "परोपकारिणी सभा"
+        },
+        {
+          "id": "opt3",
+          "text": "समाज सेवा संघ"
+        },
+        {
+          "id": "opt4",
+          "text": "वेद समाज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "स्वामी दयानंद सरस्वती ने उदयपुर में1883ई. में परोपकारिणी सभा की स्थापना की थी। स्वामी दयानंद सरस्वती ने आर्य समाज की स्थापना मुम्बई में7अप्रैल, 1875को की थी।",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10172,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अजमेर का चौहान राजा जिसने अजमेर में संस्कृत महाविद्यालय स्थापित किया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अजय राज"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्णो राज"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज चतुर्थ"
+        },
+        {
+          "id": "opt4",
+          "text": "पृथ्वीराज"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विग्रहराज चतुर्थ ने अजमेर में एक संस्कृत पाठशाला का निर्माण करवाया। (अढ़ाई दिन के झोपड़ें की सीढ़ियों में मिले दो पाषाण अभिलेखों के अनुसार) जिसे कालांतर में मुहम्मद गौरी के सेनापति कुतुबुद्दीन ऐबक ने अढ़ाई दिन के झोंपड़े में परिवर्तित कर दिया।",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10210,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस चौहान शासक द्वारा 'जवालिपुर' को ‘ज्वालापुर' परिवर्तित किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरणोराज"
+        },
+        {
+          "id": "opt2",
+          "text": "जग्गदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "विग्रहराज-IV"
+        },
+        {
+          "id": "opt4",
+          "text": "देवदत्त"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विग्रहराज चतुर्थ (बीसलदेव) 1158 ई. के लगभग अजमेर का शासक बना। चौहान शासक विग्रहराज चतुर्थ का काल सपादलक्ष का स्वर्णयुग कहलाता है।",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -A)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 10211,
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -A)",
+        "year": 2018
+      }
+    }
+  ]
+}

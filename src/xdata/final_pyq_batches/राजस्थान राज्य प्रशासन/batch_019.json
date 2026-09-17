@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान राज्य प्रशासन",
+  "batchIndex": 19,
+  "batchName": "राजस्थान राज्य प्रशासन भाग 19",
+  "subject": "राजस्थान की राजव्यवस्था",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-राज्य-प्रशासन",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य सचिवालय के निम्नलिखित पदाधिकारियों पर विचार कीजिये -1. मुख्य सचिव 2. उप-सचिव 3. अतिरिक्त सचिव 4. शासन सचिवउपर्युक्त पदाधिकारियों का सही अवरोही क्रम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "opt2",
+          "text": "1, 3, 2, 4"
+        },
+        {
+          "id": "opt3",
+          "text": "1, 4, 2, 3"
+        },
+        {
+          "id": "opt4",
+          "text": "1, 4, 3, 2"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुख्य सचिव (मुख्य सचिव): सर्वोच्च प्रशासनिक अधिकारीप्रमुख सचिव (शासन सचिव): विभागों का नेतृत्व करने वाले वरिष्ठ अधिकारीअतिरिक्त सचिव (अतिरिक्त सचिव): प्रमुख सचिव के नीचेउप सचिव (उप-सचिव): इस पदानुक्रम में सबसे नीचे।",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14901,
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान लोक सेवा आयोग के सदस्यों की संख्या और सेवा शर्तों का अवधारणा कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्य विधानसभा"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राज्यपाल राजस्थान लोक सेवा आयोग के सदस्यों की संख्या और सेवा शर्तों को निर्धारित करता है।भारतीय संविधान के अनुच्छेद 318 में आयोग के सदस्यों और कर्मचारियों की सेवा की शर्तों के बारे में नियम बनाने का अधिकार शामिल है।",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14904,
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए -अ. मंत्री, मुख्यमंत्री के प्रसाद-पर्यन्त पद धारित करेंगे।ब. राज्यपाल, राष्ट्रपति के प्रसाद-पर्यन्त पद धारित करेंगे।स. मंत्रिपरिषद् सामूहिक रूप से, विधान सभा के प्रति उत्तरदायी होती है।द. मुख्य मंत्री की पदावधि विधान सभा के कार्यकाल की समवर्ती होती है।सही कथनों वाले कूट की पहचान कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ और ब"
+        },
+        {
+          "id": "opt2",
+          "text": "ब और स"
+        },
+        {
+          "id": "opt3",
+          "text": "स और द"
+        },
+        {
+          "id": "opt4",
+          "text": "ब और द"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14905,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित राज्यपालों में से कौन लोकसभा-अध्यक्ष भी रहे हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बलिराम भगत"
+        },
+        {
+          "id": "opt2",
+          "text": "कल्याण सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "अंशुमान सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिभा पाटिल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14906,
+        "exam": "College Lecturer (Sarangi Instrument) Exam 2018(G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी विधेयक पर संवैधानिक उपबन्ध के तहत राज्यपाल की सिफारिश अपेक्षित थी, किन्तु बिना राज्यपाल की सिफारिश उसे राजस्थान विधानसभा में पुनःस्थापित किया गया और उसने पारित करके राज्यपाल को भेज दिया: अब",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जहां राज्यपाल अनुमति देता है तो वह अधिनियम अविधिमान्य नहीं होगा।"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्यपाल संवैधानिक प्रावधानों के अतिक्रमण के आधार पर अनुमति देने से इंकार कर सकता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्यपाल ऐसे विधेयक को राष्ट्रपति की अनुमति के लिये भेज देगा।"
+        },
+        {
+          "id": "opt4",
+          "text": "यदि राज्यपाल या राष्ट्रपति अनुमति दे तो न्यायालय संवैधानिक उपबन्धों के आधार पर उसे असंवैधानिक घोषित कर देगा।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एक विधेयक पर संवैधानिक प्रावधान के तहत, राज्यपाल की सिफारिश की आवश्यकता थी, लेकिन राज्यपाल की सिफारिश के बिना इसे राजस्थान विधानसभा में पेश किया गया था और इसे पारित करके राज्यपाल को भेज दिया गया था, अब राज्यपाल अनुमति देता है तो वह अधिनियम अविधिमान्य(invalid) नहीं होगा।भारतीय संविधान का अनुच्छेद 200 किसी राज्य की विधानसभा द्वारा पारित विधेयक को सहमति के लिये राज्यपाल के समक्ष प्रस्तुत करने की प्रक्रिया को रेखांकित करता है, जो या तो सहमति दे सकता है, सहमति को रोक सकता है या राष्ट्रपति द्वारा विचार के लिये विधेयक को आरक्षित कर सकता है।",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam 2018",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14907,
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वित्तीय आपातकाल की घोषणा का प्राभाव संसद के दोनों सदनों के अनुमोदन के बिना कितना समय तक प्रभावी रहता है? 500 YCT",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक महीना"
+        },
+        {
+          "id": "opt2",
+          "text": "दो महीना"
+        },
+        {
+          "id": "opt3",
+          "text": "छ: महीने"
+        },
+        {
+          "id": "opt4",
+          "text": "एक वर्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वित्तीय आपातकाल की घोषणा का प्रभाव संसद के दोनों सदनों के अनुमोदन के बिना ‘‘दो माह तक प्रभावी रहता है।’’ अनुच्छेद360राष्ट्रपति को वित्तीय आपात की घोषणा करने की शक्ति प्रदान करता है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14911,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान के अनुच्छेद 123 में राष्ट्रपति के किस शक्ति का वर्ण किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अध्यादेश जारी करने की शक्ति"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्यपाल के नियुक्ति की शक्ति"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्य न्यायाधीश के नियुक्ति की शक्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संविधान के अनुच्छेद123के तहत राष्ट्रपति को संसद के सत्रावसान की अवधि में अध्यादेश जारी करने की शक्ति प्रदान की गई है। राष्ट्रपति की अध्यादेश जारी करने की सर्वाधिक महत्वपूर्ण विधायी शक्ति है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14912,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कितने लोकसभा निर्वाचन क्षेत्र अनुसूचित जाति के लिए आरक्षित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "तीन"
+        },
+        {
+          "id": "opt2",
+          "text": "चार"
+        },
+        {
+          "id": "opt3",
+          "text": "पांच"
+        },
+        {
+          "id": "opt4",
+          "text": "छ:"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान लोकसभा की4सीटें अनुसूचित जाति के लिए आरक्षित है। राजस्थान राज्य में लोकसभा की25सीटे एवं राज्यसभा के लिए10सीटें आवंटित की गई है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14913,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्यसभा के वर्तमान उप-सभापति का नाम बताइए –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वैंकेया नायडु"
+        },
+        {
+          "id": "opt2",
+          "text": "पी.जे. कुरियन"
+        },
+        {
+          "id": "opt3",
+          "text": "हरिवंश नारायण सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "नजमा हेपतुल्ला"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्यसभा के वर्तमान उप-राष्ट्रपति ‘‘हरिवंश नारायण सिंह’’ है। राज्यसभा के उप-राष्ट्रपति का कार्यकाल6वर्ष का होता है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14914,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस विधेयक के संसद में पुन: स्थापना से पूर्व राष्ट्रपति की पूर्व-सहमति आवश्यक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विधेयक जो किसी राज्य की सीमाओं में परिवर्तन की मंशा रखता हो।"
+        },
+        {
+          "id": "opt2",
+          "text": "संविधान संशोधन विधेयक"
+        },
+        {
+          "id": "opt3",
+          "text": "वित्त विधेयक"
+        },
+        {
+          "id": "opt4",
+          "text": "कोई भी निजी विधेयक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "धन विधेयक राष्ट्रपति की पूर्वानुमति से ही संसद में प्रस्तुत किया जा सकता है। राष्ट्रपति की वित्तीय शक्तियाँ निम्नवत है- (a) वह वार्षिक वित्तीय विवरण को संसद के समक्ष रखता है। (b) अनुदान की कोई भी मांग उसकी सिफारिश के बिना नहीं की जा सकती है। (c) वह भारत की आकस्मिक निधि से, किसी अदृश्य व्यय हेतु अग्रिम भुगतान की व्यवस्था कर सकता है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14915,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का राष्ट्रपति अपना त्यागपत्र किसे सौंपता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत के उपराष्ट्रपति को"
+        },
+        {
+          "id": "opt2",
+          "text": "भारत के मुख्य न्यायाधीश को"
+        },
+        {
+          "id": "opt3",
+          "text": "भारत के प्रधानमंत्री को"
+        },
+        {
+          "id": "opt4",
+          "text": "लोक सभा के अध्यक्ष को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के संविधान के अनुच्छेद56(1)(a)के अनुसार, राष्ट्रपति भारत के उपराष्ट्रपति को अपना इस्तीफा संबोधित करता है। उपराष्ट्रपति भारत के राष्ट्रपति की मृत्यु, त्यागपत्र, महाभियोग या अन्य स्थितियों के कारण राष्ट्रपति की अनुपस्थिति में राष्ट्रपति के रूप में कार्य करता है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14916,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत का मुख्य विधि परामर्शदाता कौन है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुकुल रोहतगी"
+        },
+        {
+          "id": "opt2",
+          "text": "रविशंकर प्रसाद"
+        },
+        {
+          "id": "opt3",
+          "text": "के.के. वेणुगोपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "बी. एस. चौहान"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रश्नकाल के दौरान भारत के मुख्य विधि परामर्शदाता (एटार्नी जनरल)के.के. वेणुगोपाल थे। वर्तमान में भारत के मुख्य विधि परामर्शदाता(एटार्नी जनरल)आर. वेंकटरमनी है।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14917,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान के अनुसार राष्ट्रपति का निर्वाचन एक निर्वाचक गण के सदस्यों द्वारा किया जाएगा। इस निर्वाचक गण में शामिल होते हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संसद के दोनों सदनों के सभी सदस्य एवं राज्य विधानसभा के सभी सदस्य"
+        },
+        {
+          "id": "opt2",
+          "text": "संसद के दोनों सदनोें निर्वाचित सदस्य एवं राज्य विधानसभा के निर्वाचित सदस्य।"
+        },
+        {
+          "id": "opt3",
+          "text": "लोक सभा एवं राज्य सभा के निर्वाचित सदस्य"
+        },
+        {
+          "id": "opt4",
+          "text": "संसद एवं राज्य विधान मंडलों के दोनों सदनों के निर्वाचित सदस्य"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राष्ट्रपति की तरह उप-राष्ट्रपति को जनता द्वारा सीधे नहीं चुना जाता है, बल्कि परोक्ष विधि से चुना जाता है। इसमें संसद के (लोकसभा)और राज्यसभा)निर्वाचित और मनोनीत दोनों सदस्य होते है। उपराष्ट्रपति के चुनाव में विधानसभा के सदस्य भाग नहीं लेते है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14918,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से भारत के किस प्रधानमंत्री ने पाकिस्तान के साथ ‘बस राजनय’ का प्रारंभ किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पी. वी. नरसिम्हा राव"
+        },
+        {
+          "id": "opt2",
+          "text": "राजीव गाँधी"
+        },
+        {
+          "id": "opt3",
+          "text": "अटल बिहारी वाजपेयी"
+        },
+        {
+          "id": "opt4",
+          "text": "मोरारजी देसाई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत के प्रधानमंत्री अटल बिहारी वाजपेयी ने पाकिस्तान के साथ ‘‘बस कूटनीति’’ की शुरुआत की थी। वर्ष1999में उन्होंने दिल्ली से लाहौर(पाकिस्तान)के लिए ऐतिहासिक बस यात्रा की, जो दोनों देशों के बीच संबंधों को सुधारने और संवाद के जरिए शांति बढ़ाने के लिए महत्त्वपूर्ण कदम था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14919,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित राष्ट्रपतियों में से किसने 1998 में अटलबिहारी वाजपेयी को प्रधानमंत्री पद की शपथ ग्रहण करवायी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "के. आर. नारायणन"
+        },
+        {
+          "id": "opt2",
+          "text": "पी.जे. अब्दुल कलाम"
+        },
+        {
+          "id": "opt3",
+          "text": "आर. वेंकटरमन"
+        },
+        {
+          "id": "opt4",
+          "text": "शंकर दयाल शर्मा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के तत्कालीन राष्ट्रपति के. आर. नारायणन ने वर्ष 1998में अटल बिहारी वाजपेयी को प्रधानमंत्री पद की शपथ ग्रहण करवाया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14920,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के संविधान के अनुच्छेद 75(1)के अनुसार, प्रधानमंत्री होंगे:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नियुक्त"
+        },
+        {
+          "id": "opt2",
+          "text": "मनोनीत"
+        },
+        {
+          "id": "opt3",
+          "text": "चयनित"
+        },
+        {
+          "id": "opt4",
+          "text": "निर्वाचित"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के संविधान के अनुच्छेद-75(1) के अनुसार प्रधानमंत्री को भारत के राष्ट्रपति द्वारा ‘नियुक्त’ किया जायेगा। लोकसभा के नियमों के तहत ‘सदन का नेता’ का अभिप्राय है प्रधानमंत्री।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14921,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस प्रधानमंत्री के कार्यकाल में संपत्ति के अधिकार को भारत के संविधान की मौलिक अधिकारों की सूची से विलोपित किया गया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाहरलाल नेहरू"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल बहादुर शास्त्री"
+        },
+        {
+          "id": "opt3",
+          "text": "इन्दिरा गाँधी"
+        },
+        {
+          "id": "opt4",
+          "text": "मोरारजी देसाई"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारत के प्रधानमंत्री मोरारजी देसाई के कार्यकाल में संपत्ति के अधिकार को भारत के संविधान की मौलिक अधिकारों को सूची से विलोपित कर दिया गया था। संपत्ति के अधिकार को वर्ष 1978में44वें संविधान संशोधन के द्वारा मौलिक अधिकार से हटाया गया था।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14922,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group A",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित कथनों पर विचार कीजिए: I.भारत में प्रधानमंत्री का चयन संसद करती है। II.प्रधानमंत्री की सलाह पर अन्य मंत्रियों की नियुक्ति राष्ट्रपति करता है। III.प्रधानमंत्री राष्ट्रपति के प्रसादपर्यन्त अपना पद धारण करता है। नीचे दिये कूट में से सही कथनों का चयन कीजिये: कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I एवं II"
+        },
+        {
+          "id": "opt2",
+          "text": "II एवं III"
+        },
+        {
+          "id": "opt3",
+          "text": "I एवं III"
+        },
+        {
+          "id": "opt4",
+          "text": "I, II एवं III"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उपर्युक्त प्रश्न में प्रधानमंत्री की नियुक्ति से संबंधित दिये गये कथनों में कथनII एवं III सही है- II. प्रधानमंत्री की सलाह पर अन्य मंत्रियों की नियुक्ति राष्ट्रपति करता है। कथनII एवं कथनIIIसही है। III.प्रधानमंत्री राष्ट्रपति के प्रसादपर्यन्त अपना पद धारण करता है। कथनII सही है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14923,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन भारत के राष्ट्रपति के संदर्भ में सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वह संसद के किसी भी सदन को विघटित कर सकता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "वह दोनों सदनों में अभिभाषण और संदेश भेजने का अधिकार रखता है।"
+        },
+        {
+          "id": "opt3",
+          "text": "वह दोनों सदनों का या किसी सदन का सत्रावसान कर सकता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "वह अनुच्छेद108के अधीन कुछ दशाओं में दोनों सदनों की संयुक्त बैठक बुला सकता है।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न में दिये गये कथनों में भारत के राष्ट्रपति के संबंध में विकल्प(a) ‘‘वह संसद के किसी भी सदन को विघटित कर सकता है’’। सही नहीं है क्योंकि राष्ट्रपति राज्यसभा को विघटित नहीं कर सकता है। राज्यसभा एक स्थायी सदन है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14924,
+        "exam": "RPSC Sr. Teacher Gr.-II Sanskrit-2018 Group B",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उच्चतम न्यायालय के न्यायाधीशों की नियुक्ति की सिफारिश करने से पूर्व, भारत के मुख्य न्यायमूर्ति को कितने ज्येष्ठतम न्यायाधीशों से सलाह-मशविरा करना होता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2"
+        },
+        {
+          "id": "opt2",
+          "text": "3"
+        },
+        {
+          "id": "opt3",
+          "text": "4"
+        },
+        {
+          "id": "opt4",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उच्चतम न्यायालय के न्यायाधीशों की नियुक्ति की सिफारिश करने से पूर्व, भारत के मुख्य न्यायाधीश को4ज्येष्ठतम न्यायाधीशों से सलाह मशविरा करना होता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher sanskrit-2018",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 14925,
+        "exam": "RPSC Sr. Teacher sanskrit-2018",
+        "year": 2018
+      }
+    }
+  ]
+}

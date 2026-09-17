@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की जलवायु",
+  "batchIndex": 8,
+  "batchName": "राजस्थान की जलवायु भाग 8",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-जलवायु",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "कोपेन के जलवायु वर्गीकरण के अनुसार राजस्थान के जिलों के निम्नलिखित समूहों में से'Aw' प्रकार की जलवायु पायी जाती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर, उदयपुर और राजसमन्द में"
+        },
+        {
+          "id": "opt2",
+          "text": "भीलवाड़ा, टोंक और जयपुर में"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई माधोपुर, धोलपुर और झालावाड में"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर, बासवाडा और झालावाड में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "कोपेन के जलवायु वर्गीकरण के अनुसारAw अथवा उष्ण कटिबंधीय आर्द्र जलवायु राजस्थान में दक्षिणी जिलो बांसवाड़ा, डूंगरपुर और झालावाड़ जिलो में पाई जाती है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4701,
+        "exam": "RPSC Asst. Agri. Officer (TSP) 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के उष्ण कटिबंधीय शुष्क जलवायु प्रदेश हेतु कोपेन ने कौनसे जलवायु प्रतीकों का समूह दिया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Bshw"
+        },
+        {
+          "id": "opt2",
+          "text": "Bwhw"
+        },
+        {
+          "id": "opt3",
+          "text": "Bshs"
+        },
+        {
+          "id": "opt4",
+          "text": "Bwhs"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के उष्ण कटिबंधीय शुष्क जलवायु प्रदेश जो कि पश्चिमी राजस्थान (मुख्य रूप से जैसलमेर व बीकानेर तथा आंशिक रूप से श्रीगंगानगर, हनुमानगढ़ व चुरू) में स्थित है। कोपेन ने इस प्रदेश हेतुBwhw जलवायु प्रतीक का प्रयोग किया है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4702,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस ऋतु में सर्वाधिक धूल भरी आंधियाँ चलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्रीष्म ऋतु"
+        },
+        {
+          "id": "opt2",
+          "text": "वर्षा ऋतु"
+        },
+        {
+          "id": "opt3",
+          "text": "शीत ऋतु"
+        },
+        {
+          "id": "opt4",
+          "text": "बसंत ऋतु"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "ग्रीष्म ऋतु में राजस्थान में सर्वाधिक धूल भरी आधियाँ चलती है, क्योंकि लू के परिणामस्वरूप रेत से नमी खत्म हो जाती है। ये धूल भरी आंधियाँ सबसे ज्यादा गंगानगर जिले तथा उसके बाद बीकानेर व जोधपुर में चलती है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4703,
+        "exam": "RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2015
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शीतकालीन वर्षा का कारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "स्थानीय हवायें"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी मानसून"
+        },
+        {
+          "id": "opt3",
+          "text": "उ. पूर्वी मानसून"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी विक्षोभ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भूमध्यसागरीय मानसून राजस्थान में पश्चिमी दिशा से प्रवेश करता है। पश्चिमी दिशा से प्रवेश करने के कारण इस मानसून को पश्चिमी विक्षोभों का मानसून के उपनाम से जाना जाता है। इस मानसून से राजस्थान में उत्तर-पश्चिम क्षेत्र में वर्षा होती है। यह मानसून मुख्यतः सर्दीयों में वर्षा करता है सर्दियों में होने वाली वर्षा को स्थानीय भाषा में मावठ कहते हैं यह वर्षा गेहुं की फसल के लिए सर्वाधिक लाभदायक होती है।",
+      "reference": "📌 PYQ — Lect. College Edu. EXAM 2014(GK)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4704,
+        "exam": "Lect. College Edu. EXAM 2014(GK)",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शीतकालीन वर्षा होती है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी-पूर्वी मानसून द्वारा"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तरी-पूर्वी मानसून द्वारा"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी विक्षोभ द्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "संवाहनिक वर्षा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4705,
+        "exam": "RPSC Assistant jailor 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में शीतकाल में वर्षा करने वाले विक्षोभों की उत्पत्ति होती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भूमध्य सागर एवं वैâस्पियन सागर"
+        },
+        {
+          "id": "opt2",
+          "text": "अरब सागर"
+        },
+        {
+          "id": "opt3",
+          "text": "लाल सागर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाल्टिक सागर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उपर्युक्त प्रश्न की व्याख्या देखें।",
+      "reference": "📌 PYQ — RPSC Clerk Gr-II (P-I) 2013",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4706,
+        "exam": "RPSC Clerk Gr-II (P-I) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न शहरों का औसत मासिक तापमान का वितरण बहुरेख आलेख(i), (ii), (iii)एवं(iv)से दर्शाया गया है– (a)गंगानगर (b)जयपुर (c)कोटा (d)माउन्ट आबू निम्न कूट का उपयोग करते हुए सही उत्तर का चयन कीजिए कूट:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(A)-(ii), (B)-(iii), (C)-(i), (D)-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(A)-(iii), (B)-(ii), (C)-(iv), (D)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A)-(i), (B)-(iii), (C)-(ii), (D)-(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(A)-(iv), (B)-(iii), (C)-(ii), (D)-(i)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेलन निम्न है। (i) –गंगानगर (ii) –जयपुर (iii) –कोटा (iv)–माउंटआबू",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2013",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4707,
+        "exam": "RPSC RAS/RTS Pre 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कोपन ने राजस्थान की जलवायु को कितने भागों में बांटा है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5"
+        },
+        {
+          "id": "opt2",
+          "text": "4"
+        },
+        {
+          "id": "opt3",
+          "text": "6"
+        },
+        {
+          "id": "opt4",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोपेन ने वर्षा एवं तापमान के आधार राजस्थान को चार जलवायु प्रदेशों में विभाजित किया है-उष्ण कटिबंधीय आर्द्र जलवायु क्षेत्र(Aw), अर्ध शुष्क प्रदेश(Bshw), शुष्क उष्ण मरुस्थलीय प्रदेश(Bwhw) तथा उपआर्द्र प्रदेश(Cwg).",
+      "reference": "📌 PYQ — RPSC School Lect. (Coach) 2013",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4708,
+        "exam": "RPSC School Lect. (Coach) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मानसून के आगमन की तिथि जिस ओर बढ़ती जाती है, वह है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर – पश्चिम"
+        },
+        {
+          "id": "opt2",
+          "text": "उत्तर –पूर्व"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिण – पश्चिम"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण – पूर्व"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में मानसूनी वर्षा बंगाल की खाड़ी शाखा एवं अरब सागर मानसून से प्राप्त होती है। बंगाल की खाड़ी का मानसून पूर्व दिशा से होते हुए उत्तर-पश्चिम की ओर जाता है। अरब सागर मानसून दक्षिण-पश्चिम दिशा से प्रवेश करता है और अरावली के समानांतर निकलता है। 366",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2013",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4709,
+        "exam": "RPSC M.V.S.I. (P-1) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के पूर्वी तट का दक्षिणी भाग कहलाता है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोरोमण्डल तट"
+        },
+        {
+          "id": "opt2",
+          "text": "मालाबार तट"
+        },
+        {
+          "id": "opt3",
+          "text": "कोंकण तट"
+        },
+        {
+          "id": "opt4",
+          "text": "उत्कल तट"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भारत के पूर्वी तट का दक्षिणतम भाग कोरोमण्डल कहलाता है। यह तमिलनाडु में पूर्वी तट के सहारे विस्तृत है।",
+      "reference": "📌 PYQ — RPSC Assistant jailor 2013",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18982,
+        "exam": "RPSC Assistant jailor 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्तरी–पश्चिमी भारत में शीतकालीन वर्षा का कारण है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर–पूर्वी मानसून"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी–पश्चिमी मानसून"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी विक्षोभ"
+        },
+        {
+          "id": "opt4",
+          "text": "जैट स्ट्रीम"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "उत्तर- पश्चिमी भारत में शीतकालीन वर्षा का करण पश्चिमी विक्षोभ है। पश्चिमी विक्षोभ के कारण भारत के पंजाब, हिमाचल प्रदेश, पश्चिमी उत्तर प्रदेश आदि राज्यों में दिसम्बर-जनवरी माह में वर्षा होती है। भारत में अधिकांश वर्षा दक्षिण-पश्चिम मानसून से होती है।",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2013",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18983,
+        "exam": "RPSC M.V.S.I. (P-1) 2013",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में औसत वर्षा होती है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "89.5 सेमी."
+        },
+        {
+          "id": "opt2",
+          "text": "57.51 सेमी."
+        },
+        {
+          "id": "opt3",
+          "text": "117.6सेमी."
+        },
+        {
+          "id": "opt4",
+          "text": "45.3सेमी."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में औसत वर्षा ५७.५१ सेमी होती जो कि सम्पूर्ण देश की औसत वार्षिक वर्षा ११८ सेमी से काफी कम है। इसका प्रमुख कारण अरावली पर्वतमाला की दक्षिण पश्चिम मानसून के समानान्तर उपस्थित है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2011",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4710,
+        "exam": "RPSC Asst. Agri. Officer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इनमें से कौन-सा एक तत्व भारतीय मानसून का नियंत्रक है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चक्रवात"
+        },
+        {
+          "id": "opt2",
+          "text": "जेट स्ट्रीम"
+        },
+        {
+          "id": "opt3",
+          "text": "सामुहिक धारायें"
+        },
+        {
+          "id": "opt4",
+          "text": "उष्ण वाताग्र"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जेट स्ट्रीम भारतीय मानसून को नियंत्रित करने वाले कारकों में से एक कारक है। जेट स्ट्रीम के कारण भारत के उत्तरी भाग खासकर कश्मीर, पंजाब हिमाचल प्रदेश आदि क्षेत्रों में दिसम्बर जनवरी में वर्षा होती है।",
+      "reference": "📌 PYQ — RPSC Stenographer 2011",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18984,
+        "exam": "RPSC Stenographer 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में आम्र वर्षा जिन महीनों में होती है, वे हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जनवरी-फरवरी"
+        },
+        {
+          "id": "opt2",
+          "text": "अप्रैल-मई"
+        },
+        {
+          "id": "opt3",
+          "text": "सितम्बर-अक्टूबर"
+        },
+        {
+          "id": "opt4",
+          "text": "नवम्बर-दिसम्बर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत में आम्र वर्षा अप्रैल-मई माह में होती है। इसे आम्र वर्षा इसलिए कहा जाता है क्योंकि यह आम के फसल के लिए लाभदायक होती है।",
+      "reference": "📌 PYQ — RPSC ACF 2011",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18985,
+        "exam": "RPSC ACF 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत के उत्तरी – पश्चिमी भाग में शीत काल में वर्षा के लिये निम्न में से कौन सा कारण है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चक्रवातीय कम दाब"
+        },
+        {
+          "id": "opt2",
+          "text": "पश्चिमी विक्षोभ"
+        },
+        {
+          "id": "opt3",
+          "text": "मानसून निवर्तन"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिणी पश्चिमी मानसून"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "उत्तर- पश्चिमी भारत में शीतकालीन वर्षा का करण पश्चिमी विक्षोभ है। पश्चिमी विक्षोभ के कारण भारत के पंजाब, हिमाचल प्रदेश, पश्चिमी उत्तर प्रदेश आदि राज्यों में दिसम्बर-जनवरी माह में वर्षा होती है। भारत में अधिकांश वर्षा दक्षिण-पश्चिम मानसून से होती है। 319",
+      "reference": "📌 PYQ — RPSC M.V.S.I. (P-1) 2011",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18986,
+        "exam": "RPSC M.V.S.I. (P-1) 2011",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जून माह में न्यूनतम वायुदाब जिस जिले में सम्भावित है, वह है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बून्दी"
+        },
+        {
+          "id": "opt2",
+          "text": "बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt4",
+          "text": "राजसमन्द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में हवाएं प्राय: दक्षिण-पश्चिम और पश्चिम की ओर से चला करती हैं। जून महीने में हवाएं सबसे हल्की होती हैं। अत: जैसलमेर में इस समय भयंकर गर्मी पड़ने के कारण न्यूनतम वायुदाब रहता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2009",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4711,
+        "exam": "RPSC RAS/RTS Pre 2009",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मानसून वर्षा किस दिशा में बढ़ती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिण-पश्चिम से उत्तर-पूर्व"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पूर्व से उत्तर-पश्चिम"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तर-पश्चिम से दक्षिण-पूर्व"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण से उत्तर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में मानसून वर्षा उत्तर-पश्चिम से दक्षिण-पूर्व दिशा में बढ़ती है। क्योंकि राजस्थान राज्य में वार्षिक वर्षा में क्षेत्रानुसार काफी भिन्नता है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2008",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4712,
+        "exam": "RPSC RAS/RTS Pre 2008",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में शरदकालीन वर्षा के क्षेत्र हैं─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ओडिशा, कर्नाटक"
+        },
+        {
+          "id": "opt2",
+          "text": "पंजाब, तमिलनाडु"
+        },
+        {
+          "id": "opt3",
+          "text": "अरुणाचल प्रदेश, बिहार"
+        },
+        {
+          "id": "opt4",
+          "text": "तमिलनाडु, कर्नाटक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारत में सितम्बर-अक्टूबर में मानसून के लौटने (निवर्तन) के साथ ही मानसून के चलने की दिशा दक्षिण की ओर हो जाती है। इन लौटती हुई मानसूनी पवनों से तमिलनाडु सहित प्रायद्वीप भारत के पूर्वी भागों में शरदकालीन वर्षा होती है। जबकि दिसम्बर- जनवरी में शीतकालीन वर्षा उत्तरी भारत में उत्तर-पश्चिम से चलाने वाली पश्चिमी विक्षोभ के कारण होती है। यह वर्षा पंजाब, हरियाणा तथा पश्चिमी उत्तर प्रदेश के कुछ भागों में होती है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1999-2000",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18987,
+        "exam": "RPSC RAS/RTS Pre 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आठवीं योजना के अंतर्गत योजना आयोग ने भारत को जितने प्रमुख कृषि-जलवायु प्रदेशों में विभक्त किया था, वह संख्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "10"
+        },
+        {
+          "id": "opt2",
+          "text": "15"
+        },
+        {
+          "id": "opt3",
+          "text": "20"
+        },
+        {
+          "id": "opt4",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "योजना आयोग ने1988ई. में देश को15कृषि- जलवायु प्रदेशों में विभाजित किया। ये इस प्रकार हैं-(i)पश्चिमी हिमालय प्रदेश, (ii)पूर्वी हिमालय प्रदेश, (iii)गंगा का निचला मैदान, (iv)गंगा का मध्यवर्ती मैदान, (v)गंगा का ऊपरी मैदान, (vi)गंगा पार मैदान, (vii)पूर्वी पठारी व पहाड़ी प्रदेश, (viii) मध्यवर्ती पठारी व पहाड़ी प्रदेश, (ix)पश्चिमी पठारी व पहाड़ी प्रदेश, (x)दक्षिणी पठारी व पहाड़ी प्रदेश, (xi)पूर्वी तटीय मैदान एवं पहाड़ियाँ, (xii)पश्चिमी तटीय मैदान व घाट, (xiii)गुजरात का मैदान व पहाड़ियाँ, (xiv)पश्चिमी शुष्क प्रदेश, (xv)द्वीपीय प्रदेश। 363",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre Re-Exam 1999-2000",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18988,
+        "exam": "RPSC RAS/RTS Pre Re-Exam 1999-2000",
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में बारम्बार होने वाले सूखे एवं अकाल का प्रमुख कारण है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वनों का अवक्रमण"
+        },
+        {
+          "id": "opt2",
+          "text": "जल का अविवेकपूर्ण उपयोग"
+        },
+        {
+          "id": "opt3",
+          "text": "अनियमित वर्षा"
+        },
+        {
+          "id": "opt4",
+          "text": "भूमि का कटाव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में हमेशा होने वाले सूखे एवं अकाल का प्रमुख कारण कम तथा अनियमित वर्षा का होना है। राजस्थान में वर्षा की न्यूनता के लिए प्राकृतिक अवरोध का अभाव एक प्रमुख कारण है। राजस्थान में अरावली की श्रेणियों का विस्तार हवाओं के समानान्तर होने तथा ऊंचाई अधिक न होने के कारण यह श्रेणी जल से भरी हवाओं को रोककर वर्षा कराने में सहायक नहीं हैं।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 1997-98",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 4713,
+        "exam": "RPSC RAS/RTS Pre 1997-98",
+        "year": null
+      }
+    }
+  ]
+}

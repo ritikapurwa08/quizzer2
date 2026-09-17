@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान की चित्रकला शैलियाँ",
+  "batchIndex": 3,
+  "batchName": "राजस्थान की चित्रकला शैलियाँ भाग 3",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थान-की-चित्रकला-शैलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "बूंदी में ‘चित्रशाला’ का निर्माण किसके समय में हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राव उम्मेदसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराव भीमसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराव रामसिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राव विनयसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चित्रशाला बूंदी में उम्मेद किले का हिस्सा है, जिसका नाम इसके संरक्षक राव उम्मेद, जिन्होंने इसे 18वीं शताब्दी में बनवाया था, सिंह के नाम पर रखा गया है। कृष्ण और अन्य देवताओं की कहानियों के अलावा, चित्रों में रागमाला (भारतीय शास्त्रीय संगीत का निरूपण), शाही जुलूस, दरबार के दृश्य आदि भी चित्रित किए गए हैं।",
+      "reference": "📌 PYQ — Junior Instructor (ED) Exam 2024",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2818,
+        "exam": "Junior Instructor (ED) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रुकनुद्दीन राजस्थानी चित्रकला की किस शैली से सम्बद्ध था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूंदी शैली"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर शैली"
+        },
+        {
+          "id": "opt3",
+          "text": "मेवाड़ शैली"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर शैली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रुकनुद्दीन राजस्थान की बीकानेर शैली से जुड़े हुए एक प्रसिद्ध चित्रकार थे।बीकानेर शैली मुगल शैली, से प्रभावित रही। इस शैली का प्रारम्भिक विकास रायसिंह राठौड़ के समय हुआ। इस शैली का स्वर्णकाल महाराजा अनूपसिंह का काल माना जाता है।",
+      "reference": "📌 PYQ — Junior Instructor (EC) Exam 2024",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2819,
+        "exam": "Junior Instructor (EC) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बीकानेर शैली का समृद्ध रूप _____ के शासन काल में दिखाई देता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाराजा रायसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराजा अनूप सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "महाराजा पृथ्वीराज"
+        },
+        {
+          "id": "opt4",
+          "text": "राव कल्याणमल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराजा अनूपसिंह राठौड़ के शासनकाल (1669-1698 ई.) में बीकानेर चित्रशैली बहुत ही शुद्ध रूप में पहुंच चुकी थी। महाराजा अनूपसिंह ने अनेक विद्वानों को आश्रय दिया था।",
+      "reference": "📌 PYQ — Junior Instructor(CLIT) Exam 2024",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2820,
+        "exam": "Junior Instructor(CLIT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘पिछवाई पेंटिंग’ किस कला विद्यालय से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "नाथद्वारा"
+        },
+        {
+          "id": "opt4",
+          "text": "बूँदी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पिछवाई पेंटिंग नाथद्वारा से संबंधित है और भगवान श्रीनाथजी की जीवन घटनाओं का चित्रण करती है।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2821,
+        "exam": "CET 2024 (12th Level) 24 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्रशाला कला-वीथी निम्नलिखित में से किस स्थान में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बूँदी"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चित्रशाला कला-वीथी राजस्थान के बूंदी में स्थित है। चित्रशाला बूंदी में उम्मेद भवन का हिस्सा है, जिसका नाम इसके संरक्षक राव उम्मेद सिंह के नाम पर रखा गया है, जिन्होंने इसे 18 वीं शताब्दी में बनवाया था।",
+      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-I",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2822,
+        "exam": "CET 2024 (12th Level) 24 October Shift-I",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उस/उन चित्रशैली/शैलियों को चिह्नित कीजिए, जहाँ मतिराम की साहित्यिक रचना रसराज का विषयवस्तु के रूप में उपयोग हुआ है: (i) जोधपुर (ii) जयपुर(iii) अलवर (iv) बीकानेरसही कूट का चयन कीजिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (i)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) एवं (iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "(ii) एवं (iii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मतिराम की साहित्यिक रचना “रसराज” का उपयोग जोधपुर शैली में किया गया। यह शैली साहित्यिक और कलात्मक अभिव्यक्ति के लिए जानी जाती है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2823,
+        "exam": "SCHOOL LECTURER (SANSKRIT EDU. DEPTT.) COMP. EXAM-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी चित्रकला की प्रारम्भिक एवं स्वदेशी शैली किस चित्रकला शेली से सम्बन्धित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ढूंढ़ार चित्रकला शेली"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ चित्रकला शेली"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ोती चित्रकला शेली"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ चित्रकला शेली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मेवाड़ चित्रकला शैली राजस्थान की प्रारंभिक और स्वदेशी चित्रकला शैली मानी जाती है। यह शैली धार्मिक, ऐतिहासिक, और राजसी विषयों पर आधारित है।",
+      "reference": "📌 PYQ — Hostel Supt(Minority Affairs) 2024",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2824,
+        "exam": "Hostel Supt(Minority Affairs) 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसने पाली के नायक विट्ठलदास चंपावत के लिए रागमाला चित्रावली बनाई;",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कलाकार शिव दास"
+        },
+        {
+          "id": "opt2",
+          "text": "कलाकार वीर जी"
+        },
+        {
+          "id": "opt3",
+          "text": "कलाकार दाना भाटी"
+        },
+        {
+          "id": "opt4",
+          "text": "कलाकार माधो दास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रागमाला पाली में चित्रित एक आरंभिक चित्र संग्रह है, जो कलाकार वीरजी द्वारा 1623 में चित्रित किया गया था।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2825,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा पेंटर अलवर कला विद्यालय से संबद्ध नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दालूराम"
+        },
+        {
+          "id": "opt2",
+          "text": "नानकराम"
+        },
+        {
+          "id": "opt3",
+          "text": "जमनादास"
+        },
+        {
+          "id": "opt4",
+          "text": "बलदेव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अलवर कला विद्यालय से दालूराम, जमनादास, और बलदेव जैसे प्रसिद्ध कलाकार जुड़े थे। नानकराम इस विद्यालय से संबद्ध नहीं थे। नानकराम, किशनगढ़ शैली के प्रमुख चित्रकारों में से एक थे।",
+      "reference": "📌 PYQ — Stenographer Exam 2024 (Paper - I)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2826,
+        "exam": "Stenographer Exam 2024 (Paper - I)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्रकार नानकराम, रामनाथ और जोशी सवाईराम किस चित्रकला शैली से सम्बन्धित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाथद्वारा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चित्रकार नानकार राम, रामनाथ और जोशी सवाई राम किशनगढ़ चित्रकला शैली से जुड़े हैं, जो अपनी परिष्कृत और विस्तृत कला के लिए जानी जाती है, जिसमें बनी ठनी और राधा-कृष्ण जैसे विषय शामिल हैं।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2827,
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किशनगढ़ पेंटिंग शैली में, मुख्य रूप से कौन से पेड़ पर प्रकाश डाला गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केला"
+        },
+        {
+          "id": "opt2",
+          "text": "अनार"
+        },
+        {
+          "id": "opt3",
+          "text": "नारंगी"
+        },
+        {
+          "id": "opt4",
+          "text": "सेब"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "किशनगढ़ पेंटिंग शैली में केले के पेड़ को प्रमुखता से दर्शाया गया है, जो इस शैली की विशेषता है। किशानगढ़ राज्य के संस्थापक किशन सिंह कृष्ण के अनन्योपासक थे। परन्तु किशानगढ़ शैली का समृद्ध काल राजसिंह के पुत्र सामन्त सिंह से जो नागरीदारा के नाम से आधिक विख्यात हैं, से आरंम्भ होता है।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2828,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K2)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पेंटिंग स्कूल बणी-ठणी किससे संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सतवंत प्रसाद"
+        },
+        {
+          "id": "opt2",
+          "text": "नागरी दास"
+        },
+        {
+          "id": "opt3",
+          "text": "मृगावती"
+        },
+        {
+          "id": "opt4",
+          "text": "शिव-पार्वती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बनी-ठनी या (बणी-ठणी) एक भारतीय चित्रकला है जो किशनगढ़ चित्रकला से सम्बन्धित है। कला का जबरदस्त विकास स्थानीय शासक सावंत सिंह, एक विद्वान, एक आलोचक और एक प्रसिद्ध कवि और हिंदी, संस्कृत, फ़ारसी में पारंगत होने के दौरान हुआ; जो स्वयं एक कवि थे और अपने नाम के साथ नागरी दास उप नाम का प्रयोग करते थे।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2829,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का किशनगढ़ स्कूल निम्नलिखित में से किसके लिए प्रसिद्ध है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्रकारी"
+        },
+        {
+          "id": "opt2",
+          "text": "नृत्य"
+        },
+        {
+          "id": "opt3",
+          "text": "मूर्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "स्थापत्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान का किशनगढ़ स्कूल अपनी बारीक और अद्वितीय चित्रकारी के लिए प्रसिद्ध है। यहाँ की पेंटिंग्स में राधा-कृष्ण के चित्रण, विशेष रूप से “बनी-ठनी” शैली के चित्र प्रसिद्ध हैं।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2830,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“चितेरों की ओवरी” किससे संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आनंद कुमार स्वामी"
+        },
+        {
+          "id": "opt2",
+          "text": "जगत सिंह।"
+        },
+        {
+          "id": "opt3",
+          "text": "जगत सिंह॥"
+        },
+        {
+          "id": "opt4",
+          "text": "अमर सिंह।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "चित्रकारों के प्रशिक्षण हेतु जगतसिंह प्रथम ने कला विद्यालय की स्थापना की जिसे “चितेरों की ओवरी” एवं “तस्वीरों रो कारखानों” कहा जाता ।",
+      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2831,
+        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किशनगढ़ चित्रकला शैली को उसके चरमोत्कर्ष पर ले जाने का श्रेय निम्न में से किसे दिया जाता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदय सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "निहाल चन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "मूल चन्द"
+        },
+        {
+          "id": "opt4",
+          "text": "चन्दन सिंह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "किशनगढ़ चित्रकला शैली को उसके चरमोत्कर्ष पर ले जाने का श्रेय चित्रकार निहाल चन्द को दिया जाता है। उनकी बनाई “बणी ठणी” इस शैली का प्रसिद्ध उदाहरण है।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift II)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2832,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift II)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान चित्रकला का प्रथम वैज्ञानिक वर्गीकरण किसके द्वारा प्रस्तुत किया गया था -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डब्ल्यू. एच. ब्राउन"
+        },
+        {
+          "id": "opt2",
+          "text": "आनन्द केंटिश कुमारस्वामी"
+        },
+        {
+          "id": "opt3",
+          "text": "राय कृष्ण दास"
+        },
+        {
+          "id": "opt4",
+          "text": "विजय कुमार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी चित्र शैली का पहला वैज्ञानिक विभाजन आनंद कुमार स्वामी ने किया था। उन्होंने 1916 में राजपूत पेंटिंग नामक पुस्तक लिखी जिसमें राजस्थान की चित्रकला को राजपूत चित्रकला कहा तथा इसमें पहाड़ी चित्रकला को भी शामिल किया गया।",
+      "reference": "📌 PYQ — Animal Attendant 2023 Exam (December 1 Shift I)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2833,
+        "exam": "Animal Attendant 2023 Exam (December 1 Shift I)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्रकार निहालचंद _______ से सम्बन्धित था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेवाड़ स्कूल"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनगढ़ स्कूल"
+        },
+        {
+          "id": "opt3",
+          "text": "ढूँढाड़ स्कूल"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती स्कूल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराजा सांवत सिंह के समय इस किशनगढ़ शैली का सर्वश्रेष्ठ चित्र बणी-ठणी को सांवत सिंह के चित्रकार मोरध्वज निहाल चन्द द्वारा चित्रित किया गया। इस शैली के चित्र बणी-ठणी पर सरकार द्वारा 1973 ई. में 20 पैसें का डाक टिकट जारी किया जा चुका।",
+      "reference": "📌 PYQ — Assistant Professor (College Education) - 2023 Paper-III",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2834,
+        "exam": "Assistant Professor (College Education) - 2023 Paper-III",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बनी-ठनी’ पेंटिंग का चित्रकार (पेंटर) कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निहाल चंद"
+        },
+        {
+          "id": "opt2",
+          "text": "निर्मल देवी"
+        },
+        {
+          "id": "opt3",
+          "text": "अमर सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "मनमोहन देवी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बनी-ठनी(बणी-ठणी) किशनगढ़ चित्रकला से सम्बन्धित है। बणी-ठणी को महाराजा सांवत सिंह के चित्रकार “मोरध्वज निहाल चन्द” द्वारा चित्रित किया गया।",
+      "reference": "📌 PYQ — Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2835,
+        "exam": "Junior Accountant & Tehsil Revenue Accountant Exam 2023 (Paper 1)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आदमकद् व्यक्ति चित्रों के चित्रण के लिए प्रसिद्ध चित्रकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निहालचन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीरंगधर"
+        },
+        {
+          "id": "opt3",
+          "text": "साहिबराम"
+        },
+        {
+          "id": "opt4",
+          "text": "किशनसिंह"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर के शासक ईश्वरी सिंह के समय जयपुर शैली में राजा महाराजाओं के बडे़-बडे़ आदमकद चित्र अर्थात पोट्रेट चित्र दरबारी चित्रकार साहिब राम के द्वारा तैयार किए गए।",
+      "reference": "📌 PYQ — Statistical Office Exam - 2023 (GK)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2836,
+        "exam": "Statistical Office Exam - 2023 (GK)",
+        "year": 2023
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध चित्रकार मुहम्मद शाह जयपुर के किस महाराजा का दरबारी चित्रकार था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सवाई राम सिंह द्वितीय"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जगत सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई प्रताप सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई जय सिंह"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रसिद्ध चित्रकार मुहम्मद शाह जयपुर के महाराजा सवाई जय सिंह का दरबारी चित्रकार था।",
+      "reference": "📌 PYQ — RAS (Pre) Exam - 2023",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 2837,
+        "exam": "RAS (Pre) Exam - 2023",
+        "year": 2023
+      }
+    }
+  ]
+}

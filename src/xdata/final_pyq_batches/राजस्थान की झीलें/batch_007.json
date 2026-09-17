@@ -1,0 +1,671 @@
+{
+  "masterTopic": "राजस्थान की झीलें",
+  "batchIndex": 7,
+  "batchName": "राजस्थान की झीलें भाग 7",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-झीलें",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की सांभर झील को पांच नदियों से पानी मिलता है। निम्नलिखित में से कौन-सी नदी उन पाँच नदियों में से एक है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "काली सिंध"
+        },
+        {
+          "id": "opt3",
+          "text": "समोड"
+        },
+        {
+          "id": "opt4",
+          "text": "जवाई"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "यह झील जयपुर की फुलेरा तहसील में स्थित है। बिजोलिया शिलालेख के अनुसार इसका निर्माण चौहान शासक वासुदेव ने करवाया था। यह भारत में खारे पानी की आन्तरिक सबसे बड़ी झील है इसमें सामोद, खारी, खण्डेला, मेन्था, रूपनगढ नदियां आकर गिरती है।",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3851,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसी नमकीन (खारे) पानी की झील नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवासा"
+        },
+        {
+          "id": "opt2",
+          "text": "जैतसागर"
+        },
+        {
+          "id": "opt3",
+          "text": "डीडवाना"
+        },
+        {
+          "id": "opt4",
+          "text": "कावोद"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जैत सागर बूंदी में स्थित मिठे पानी की झील है।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3853,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "तालिका-Iमें दिये गये राजस्थान की नदियों के साथ तालिका-IIमें वर्णित (उनके उद्गम स्थल) को सुमेलित करते हुए सही कूट को चयनित कीजिए: सूची-I (नदियाँ) सूची-II (उद्गम स्थल) A.घग्घर I. खमनोर की पहाड़ियाँ B.माही II. जानापाव की पहाड़ियाँ C.चम्बल III.मेहन्द झील D.बनास IV.शिवालिक की पहाड़ियाँ कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "i ii iii iv"
+        },
+        {
+          "id": "opt2",
+          "text": "iv i ii iii"
+        },
+        {
+          "id": "opt3",
+          "text": "ii iv i iii"
+        },
+        {
+          "id": "opt4",
+          "text": "iv iii ii i"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "सही सुमेल है- सूची-I सूची-II नदियाँ उद्गम स्थल (A) घग्घर - (iv)शिवालिक की पहाड़ियाँ (B) माही - (iii)मेहन्द झील (C) चम्बल - (ii)जनापाव की पहाड़ियाँ (D) बनास - (i)खमनोर की पहाड़ियाँ",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3856,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विश्व के निम्नलिखित महासागरों को क्षेत्रफल की दृष्टि से सही अवरोही क्रम में व्यवस्थित कीजिए: A. आर्कटिक B. प्रशान्त C. इण्डियन D. अटलांटिक",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A – B – C – D"
+        },
+        {
+          "id": "opt2",
+          "text": "B – A – D – C"
+        },
+        {
+          "id": "opt3",
+          "text": "D – C – A – B"
+        },
+        {
+          "id": "opt4",
+          "text": "B – D – C – A"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "क्षेत्रफल के दृष्टि से महासागरों का अवरोही क्रम इस प्रकार है प्रशांत महासागर, अटलांटिक महासागर, हिंद महासागर, दक्षिणी (अंटार्कटिका) महासागर, और आर्कटिक महासागर।",
+      "reference": "📌 PYQ — RPSC Senior Physical Edu.-2022 Paper-I",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18857,
+        "exam": "RPSC Senior Physical Edu.-2022 Paper-I",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित कीजिए और सही उत्तर का चयन नीचे दिये कूट से कीजिए: सूची-I झीलें सूची-II जिले A. नवलखा 1. धौलपुर B. तालछापर 2. बूंदी C. तालाबशाही 3. बाड़मेर D. पचपदरा 4. चूरू कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "2 4 1 3"
+        },
+        {
+          "id": "opt2",
+          "text": "3 4 2 1"
+        },
+        {
+          "id": "opt3",
+          "text": "2 3 4 1"
+        },
+        {
+          "id": "opt4",
+          "text": "4 1 3 2"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेल है। झील जिला A. नवलखा - (2) बूँदी B. तालछापर - (4) चुरू C. तालाबशाही - (1) धौलपुर D.पचपदरा - (3) बाड़मेर",
+      "reference": "📌 PYQ — RPSC Food Safety Officer - 2022",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18863,
+        "exam": "RPSC Food Safety Officer - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नदियाँ जो अपना जल सांभर झील में गिराती है।(A) साबी(B) चाप(C) रूपनगढ़(D) मेढ़ा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A और B"
+        },
+        {
+          "id": "opt2",
+          "text": "C और D"
+        },
+        {
+          "id": "opt3",
+          "text": "B और C"
+        },
+        {
+          "id": "opt4",
+          "text": "A और D"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सांभर झील में मुख्य रूप से 4 नदियां मेन्था (मेढ़ा), रुपनगढ़, खारी और खंडेला नदियां आकर गिरती है। इसके अलावा तुरतमंती और मेघना नदियाँ भी छोटे नालों के रूप में आकर गिरती है।",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3862,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "माही बजाज सागर परियोजना किन राज्यों की संयुक्त परियोजना है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राजस्थान और मध्यप्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थान और गुजरात"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थान और पंजाब"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान और हरियाणा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "माही - बजाज सागर परियोजना राजस्थान एवं गुजरात की संयुक्त परियोजना है। 1966 में हुए समझौते के अनुसार राजस्थान का हिस्सा 45 प्रतिशत व गुजरात का हिस्सा 55 प्रतिशत है, लेकिन इससे बनने वाली विद्युत 100% राजस्थान को प्राप्त होती है।",
+      "reference": "📌 PYQ — RPSC ACF FRO 2021",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3873,
+        "exam": "RPSC ACF FRO 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मीठे पानी की सबसे बड़ी झील है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयसमन्द"
+        },
+        {
+          "id": "opt2",
+          "text": "राजसमन्द"
+        },
+        {
+          "id": "opt3",
+          "text": "कायलाना"
+        },
+        {
+          "id": "opt4",
+          "text": "सिलीसेड़"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में मीठे पानी की सबसे बड़ी कृत्रिम झील जयसमंद है। इस झील का निर्माण मेवाड़ के राणा जयसिंह ने गोमती नदी का पानी रोककर(1687-91) कराया गया। जयसमंद झील में गोमती, झावरी और बागर नदियों का जल ढेबर दर्रे से होकर आता था, इसलिए इसको ‘ढेबर झील’ भी कहते हैं।",
+      "reference": "📌 PYQ — REET 2021 2nd Level (sst)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3878,
+        "exam": "REET 2021 2nd Level (sst)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुष्कर झील कितने घाटों से घिरी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "42"
+        },
+        {
+          "id": "opt2",
+          "text": "46"
+        },
+        {
+          "id": "opt3",
+          "text": "58"
+        },
+        {
+          "id": "opt4",
+          "text": "52"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के अजमेर जिले में अजमेर शहर से 12 कि.मी. की दूरी पर पुष्कर झील का निर्माण ज्वालामुखी उद्भेदन से हुआ है, अत: इसे काल्डेरा (caldera) झील या क्रेटर झील कहते हैं। यह झील भी प्राकृतिक झील है। यह राजस्थान का सबसे पवित्र सरोवर माना जाता है। पुष्कर झील के चारों ओर 52 घाट बने हुए है। इन घाटों पर लोग अपने पित्तरों का लोकर्पण करते है। कार्तिक पूर्णीमा को यहां मेला लगता है दिपदान कि क्रिया होती है।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec 2021",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3879,
+        "exam": "VDO Exam 2nd Shift 28 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I का सूची-II से मिलान कीजिए तथा नीचे दिए गए कूट का उपयोग करते हुए सही उत्तर का चयन कीजिए –सूची-I (झील/ बाँध)1. तालाब-ए-शाही 2. गैब सागर 3. कडाणा 4. हेमावाससूची-II (जिला)i. पालीii. बांसवाड़ाiii. धौलपुरiv. डूंगरपुरकूट –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1-(iii), 2-(ii), 3-(iv), 4-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "1-(iii), 2-(iv), 3-(ii), 4-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "1-(ii), 2-(iii), 3-(i), 4-(iv)"
+        },
+        {
+          "id": "opt4",
+          "text": "1-(i), 2-(ii), 3-(iii), 4-(iv)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "तालाबशाही झील धौलपुर जिले में है।महारावल गोपीनाथ द्वारा निर्मित एडवर्ड सागर/गैब सागर (डुंगरपुर) झील में बादल महल स्थित है।कड़ाना बांध गुजरात के महिसागर जिले में माही नदी पर है। इसका कुछ हिस्सा बांसवाड़ा और डूंगरपुर जिले में है।हेमावास बांध पाली जिले में है।",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 27 Dec 2021",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3880,
+        "exam": "VDO Exam 2nd Shift 27 Dec 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची -Iको सूची-IIसे सुमेलित कीजिए तथा सही उत्तर का चयन नीचे दिए गए कूट से कीजिए- सूची- I सूची- II झीलें जिला (A) नवलखा (i) डूंगरपुर (B) तालाबशाही (ii) बीकानेर (C) कोलायत (iii) बूंदी (D) गैब सागर (iv) धौलपुर नीचे दिए गए कूट का प्रयोग करते हुए सही उत्तर का चयन करें-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A- (ii), B- (iii), C- (iv). D-(i)"
+        },
+        {
+          "id": "opt2",
+          "text": "A- (iii), B- (iv), C-(ii), D (i)"
+        },
+        {
+          "id": "opt3",
+          "text": "A- (iii), (B)- (iv), C-(i), D- (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "A- (iv), B- (ii), C-(i), D- (iii)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सही सुमेल है- झील जिले (a) नवलखा – (i) बूंदी (b) तालाबशाही – (ii) धौलपुर (c) कोलायत – (iii) बीकानेर (d) गैब सागर – (iv) डूँगरपुर",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3881,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चम्बल नदी पर बने हुए निम्नलिखित बाँधों में से कौन से राजस्थान में स्थित हैं? (a)कोटा बैराज (b)गांधी सागर बाँध (c)जवाहर सागर बाँध (d)राणा प्रताप सागर बाँध नीचे दिए गए कूटों का उपयोग करके सही उत्तर चुनिए;",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (A), (B) और (D)"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (A) और (D)"
+        },
+        {
+          "id": "opt3",
+          "text": "(A), (B), (C) और (D)"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (A), (C) और (D)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में चंबल नदी पर चार मुख्य बांध बनाये गये हैं- राणा प्रताप सागर बाँध (राजस्थान) जवाहर सागर बाँध (राजस्थान) कोटा बैराज (राजस्थान) गांधी सागर बाँध मध्य प्रदेश में है न कि राजस्थान में इसलिए विकल्प(d)सही है।",
+      "reference": "📌 PYQ — RPSC Sub Inspector 2021",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3882,
+        "exam": "RPSC Sub Inspector 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा सही समुलित नहीं है? झील देश",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बाल्खश(बाल्काश) क़जाखस्तान"
+        },
+        {
+          "id": "opt2",
+          "text": "टिटीकाका बोलीविया - पेरू"
+        },
+        {
+          "id": "opt3",
+          "text": "ईरी यू.एस.ए.- कनाडा"
+        },
+        {
+          "id": "opt4",
+          "text": "बैकाल यूक्रेन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "बैकाल झील रूस में स्थित है न कि यूक्रेन में। यह विश्व की सबसे गहरी झील है। बाल्खश झील कजाखस्तान में है। टिटीकाका झील(बोलीविया-पेरु)सबसे ऊँची नौकागम्य झील है। ईरी झील यू.एस.ए.-कनाडा सीमा पर स्थित5झील समूहों में एक है।",
+      "reference": "📌 PYQ — RPSC RAS/RTS Pre 2021",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18874,
+        "exam": "RPSC RAS/RTS Pre 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नदियाँ जो अपना जल सांभर झील में गिरती हैं- (A) साबी (B) चाप (C) रूपनगढ़ (D) मेढ़ा",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A and B"
+        },
+        {
+          "id": "opt2",
+          "text": "C and D"
+        },
+        {
+          "id": "opt3",
+          "text": "B and C"
+        },
+        {
+          "id": "opt4",
+          "text": "A and D"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "रूपनगढ़, मेढ़ा, समोद, खारी, खन्डेला आदि नदियॉ सॉभर झील में गिरती है। चाप नदी माही नदी से मिल जाती है। साबी नदी पहले यमुना में गिरती थी परन्तु अब यह अंतिम छोर पर नाले के रूप में बदल गई है।",
+      "reference": "📌 PYQ — RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 18880,
+        "exam": "RPSC Head Master Prav. (San. Edu) 2021 Paper-I",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी नदी सांभर झील में गिरती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेंढा"
+        },
+        {
+          "id": "opt2",
+          "text": "कान्तली"
+        },
+        {
+          "id": "opt3",
+          "text": "बांडी"
+        },
+        {
+          "id": "opt4",
+          "text": "मानसी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सांभर झील में मुख्य रूप से 4 नदियां मेन्था (मेढ़ा), रुपनगढ़, खारी और खंडेला नदियां आकर गिरती है। इसके अलावा तुरतमंती और मेघना नदियाँ भी छोटे नालों के रूप में आकर गिरती है।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3886,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस नदी का जल जयसमंद झील द्वारा उपयोग में लाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोमती"
+        },
+        {
+          "id": "opt2",
+          "text": "बनास"
+        },
+        {
+          "id": "opt3",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt4",
+          "text": "सोम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "जयसमंद झील का निर्माण महाराणा जय सिंह ने करवाया था। इस झील को ढेबर झील भी कहा जाता है। यह राजस्थान के सलूम्बर (पहले उदयपुर) जिले में स्थित है। इसका निर्माण गोमती नदी पर बांध बनाकर कराया गया था।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3895,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी नदी अरब-सागरीय नदी तन्त्र का भाग है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिमी बनास"
+        },
+        {
+          "id": "opt2",
+          "text": "काली-सिंध"
+        },
+        {
+          "id": "opt3",
+          "text": "चम्बल"
+        },
+        {
+          "id": "opt4",
+          "text": "बनास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पश्चिमी बनास अरावली के पश्चिमी ढाल सिरोही के नया सानवारा गांव से निकलती है और गुजरात के बनास कांठा जिले में प्रवेश करती है। गुजरात में बहती हुई अन्त में कच्छ की खाड़ी (अरब सागर) में विलीन हो जाती है।",
+      "reference": "📌 PYQ — Agriculture Research Officer - 2020",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3904,
+        "exam": "Agriculture Research Officer - 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा झील ‘ढेबर झील’ के नाम से जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनूप सागर झील"
+        },
+        {
+          "id": "opt2",
+          "text": "कोलायत झील"
+        },
+        {
+          "id": "opt3",
+          "text": "कैलाना झील"
+        },
+        {
+          "id": "opt4",
+          "text": "जयसमंद झील"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में मीठे पानी की सबसे बड़ी कृत्रिम झील जयसमंद है। इस झील का निर्माण मेवाड़ के राणा जयसिंह ने गोमती नदी का पानी रोककर(1687-91) कराया गया। जयसमंद झील में गोमती, झावरी और बागर नदियों का जल ढेबर दर्रे से होकर आता था, इसलिए इसको ‘ढेबर झील’ भी कहते हैं।",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3919,
+        "exam": "Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "प्रसिद्ध जैत सागर तालाब कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बूंदी"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3921,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "बिजोलिया अभिलेख के अनुसार सांभर झील का निर्माण चौहान वंश के किस शासक ने करवाया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विग्रहराज प्रथम"
+        },
+        {
+          "id": "opt2",
+          "text": "वासुदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "दुर्लभराज प्रथम"
+        },
+        {
+          "id": "opt4",
+          "text": "वाक्पतिराज"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सांभर झील जयपुर की फुलेरा तहसील में स्थित है। बिजोलिया शिलालेख के अनुसार इसका निर्माण चौहान शासक वासुदेव ने करवाया था। यह भारत में खारे पानी की आन्तरिक सबसे बड़ी झील है इसमें खारी, खण्डेला, मेन्था, रूपनगढ नदियां आकर गिरती है।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 3922,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    }
+  ]
+}

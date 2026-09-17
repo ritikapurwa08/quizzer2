@@ -1,0 +1,657 @@
+{
+  "masterTopic": "राजस्थान की मृदा",
+  "batchIndex": 6,
+  "batchName": "राजस्थान की मृदा भाग 6",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-की-मृदा",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किन जिलों में लाल व पीली मृदा पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही-अजमेर-टोंक-जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई माधोपुर-कोटा-बूंदी-भीलवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर-सिरोही-डूंगरपुर-बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई माधोपुर-सिरोही-भीलवाड़ा-अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Basic Computer Instructor Exam 2022 Paper 1",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9103,
+        "exam": "Basic Computer Instructor Exam 2022 Paper 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस जिले में ‘सेम’ की समस्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9104,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सी मृदा, राजस्थान में कपास फसलों के उत्पादन हेतु सर्वाधिक उपयुक्त है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मिश्रित लाल एवं पीली मृदा"
+        },
+        {
+          "id": "opt2",
+          "text": "भूरी जलोढ़ मृदा"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्यम काली मृदा"
+        },
+        {
+          "id": "opt4",
+          "text": "लाल लोमी मृदा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9105,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लाल लोम मृदा पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सिरोही में"
+        },
+        {
+          "id": "opt2",
+          "text": "पाली में"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9106,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "एरिडीसोल्स राजस्थान के ............ जलवायु क्षेत्रों में मिलती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आर्द्र"
+        },
+        {
+          "id": "opt2",
+          "text": "अर्ध-शुष्क"
+        },
+        {
+          "id": "opt3",
+          "text": "शुष्क"
+        },
+        {
+          "id": "opt4",
+          "text": "उप-आर्द्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Geography)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9107,
+        "exam": "Lab Assistant Exam 2022 (Geography)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लाल व पीली मिट्टी वाला जिलों का युग्म है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर - धौलपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़ - बारां"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीगंगानगर - हनुमानगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाईमाधोपुर - राजसमन्द"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लाल व पीली मिट्टियों का लाल व पीला रंग लौह आॅक्साइड के जलयोजन की उच्च मात्रा के कारण है। इसमें कैल्शियम कार्बोनेटकी नगण्यता एवं नाइट्रोजन एवं जैविक कारकों की अल्पता होती है। यह मिट्टी सवाईमाधोपुर, भीलवाड़ा, अजमेर और सिरोही जिलों पायी जाती है।",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9108,
+        "exam": "Lab Assistant Exam 2022 (Science) 29 June 2022 Paper-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्टिसोल मिट्टी राजस्थान के किस भाग में मिलती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर-पश्चिमी भाग"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पूर्वी भाग"
+        },
+        {
+          "id": "opt3",
+          "text": "दक्षिणी-पश्चिमी भाग"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी भाग"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9109,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मृदा के नवी वर्गीकरण के अनुसार राजस्थान में ‘अल्फीसोल्स’ मृदा पायी जाती है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर और बाड़मेर में"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़ और सिरोही में"
+        },
+        {
+          "id": "opt3",
+          "text": "चूरू, झुंझुनू और सीकर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर, अलवर और कोटा में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "अल्फीसोल्स (भूरी) समूह की मृदा जयपुर, अलवर, भरतपुर, सवाई माधोपुर, टोंक, भीलवाड़ा, चित्तौड़गढ़, बांसवाड़ा, उदयपुर, डूंगरपुर, बूंदी, कोटा और झालावाड़ के कुछ हिस्सों में पाए जाती हैं। ये मध्यम से उत्तम परिच्छेदिका विकास वाली परिपक्व मृदा हैं। मृदा का रंग लाल से भूरा होता है।",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9110,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाड़ौती प्रदेश की मृदा का प्रधान प्रकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वर्टीसॉल"
+        },
+        {
+          "id": "opt2",
+          "text": "अल्फीसॉल"
+        },
+        {
+          "id": "opt3",
+          "text": "इनसेप्टीसॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "एण्टीसॉल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Computor Exam 2021",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9111,
+        "exam": "Computor Exam 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अधिक अवनालिका अपरदन वाले जिले हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर, भरतपुर, दौसा और जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर, करौली, सवाई माधोपुर और कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर, भीलवाड़ा, टोंक और बूंदी"
+        },
+        {
+          "id": "opt4",
+          "text": "डूंगरपुर, बांसवाड़ा और प्रतापगढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9112,
+        "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्टीसोल मृदा मुख्य रूप से पाई जाती है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़ कोटा, बून्दी, बारां जिलों में"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू, सीकर, झुन्झुनू नागौर जिलों में"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही, पाली, उदयपुर, चित्तौड़गढ़ जिलों"
+        },
+        {
+          "id": "opt4",
+          "text": "जैसलमेर, बाड़मेर, बीकानेर, जोधपुर जिलों में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Asst. Statistical Officer 2021",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9113,
+        "exam": "Asst. Statistical Officer 2021",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में जलोढ़ मृदा पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "बाड़मेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Stenographer Pre Exam (21 March 2021) (Paper I)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9114,
+        "exam": "Stenographer Pre Exam (21 March 2021) (Paper I)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से जिलों का कौन सा युग्म जलभराव (सेम) की समस्या से अधिक प्रभावित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गंगानगर एवं हनुमानगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर एवं नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "जयपुर एवं सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "चुरू एवं भीलवाड़ा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "श्री गंगानगर और हनुमानगढ़ ‘सेम’ की पारिस्थितिक समस्या से बुरी तरह प्रभावित हैं। सेम एक ऐसा मुद्दा है, जहाँ भूमि का भूजल ऊपर आता है और भूमि दलदल और दलदली क्षेत्र बन जाती है। इससे मृदा की उर्वरता कमजोर होती है और बाद में भूमि बंजर हो जाती है।",
+      "reference": "📌 PYQ — Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9115,
+        "exam": "Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा एक उपाय मृदा संरक्षण का नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वृक्षारोपण"
+        },
+        {
+          "id": "opt2",
+          "text": "फसलों की हेराफेरी"
+        },
+        {
+          "id": "opt3",
+          "text": "अत्यधिक जलापूर्ति"
+        },
+        {
+          "id": "opt4",
+          "text": "ऐनिकट का निर्माण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9116,
+        "exam": "Lecturer (Tech. Edu.) Exam - 2020 (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मिश्रित लाल व काली मृदा कौन से जिलों में पायी जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाली - सिरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर - बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर - नागौर"
+        },
+        {
+          "id": "opt4",
+          "text": "धौलपुर - करौली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9117,
+        "exam": "Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नालीनुमा’ अपरदन सर्वाधिक पाया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही में"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9118,
+        "exam": "Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "उत्तर-पश्चिमी राजस्थान में मृदा उर्वरता में अवनयन का प्रमुख क्या कारण है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जल-भराव"
+        },
+        {
+          "id": "opt2",
+          "text": "पवन अपरदन"
+        },
+        {
+          "id": "opt3",
+          "text": "नाली अपरदन"
+        },
+        {
+          "id": "opt4",
+          "text": "गहन कृषि"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "उत्तर-पश्चिमी राजस्थान में मिट्टी की उर्वरता में कमी का मुख्य कारण जल-भराव​ है। जल-जमाव तब होता है जब किसी पौधे के जड़ क्षेत्र में बहुत अधिक पानी होता है, जो जड़ों को उपलब्ध ऑक्सीजन को कम कर देता है।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9119,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस क्षेत्र में बहुतायत में काली मिट्टी पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "थार क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी मैदान"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9121,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नई प्रणाली के तहत, राजस्थान की अधिकांश मिट्टी ___ क्रम से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "5"
+        },
+        {
+          "id": "opt2",
+          "text": "10"
+        },
+        {
+          "id": "opt3",
+          "text": "2"
+        },
+        {
+          "id": "opt4",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "5 मृदा के अनुक्रम हैं एरिडीसोल, अल्फ़ीसोल्स, एंटीसोल, इन्सेप्टीसोल और वर्टिसोल।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (8 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9122,
+        "exam": "Raj Police Constable Exam (8 Nov 2020 S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस भूभाग में ‘लाल दोमट’ मिट्टी की बहुतायत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पूर्वी मैदान"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी राजस्थान"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी राजस्थान"
+        },
+        {
+          "id": "opt4",
+          "text": "हाड़ौती का पठार"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov 2020 S-1)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 9123,
+        "exam": "Raj Police Constable Exam (7 Nov 2020 S-1)",
+        "year": 2020
+      }
+    }
+  ]
+}

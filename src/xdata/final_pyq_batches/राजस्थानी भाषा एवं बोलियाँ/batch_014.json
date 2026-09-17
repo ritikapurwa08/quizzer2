@@ -1,0 +1,668 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 14,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 14",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘राजविलास’ की रचना किसने लिखी थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कवि मान"
+        },
+        {
+          "id": "opt2",
+          "text": "हेम कवि"
+        },
+        {
+          "id": "opt3",
+          "text": "सूर्यमल्ल मिश्रण"
+        },
+        {
+          "id": "opt4",
+          "text": "श्यामलदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राज विलास, कवि मान द्वारा लिखा गया था​।",
+      "reference": "📌 PYQ — Supervisor (women empowerment) Exam 2018",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6751,
+        "exam": "Supervisor (women empowerment) Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पृथ्वीराज राठौड़ द्वारा रचित पुस्तक ‘वेलि कृष्ण रूखमणी री’ किस भाषा में लिखी गई है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पिंगल"
+        },
+        {
+          "id": "opt2",
+          "text": "डिंगल"
+        },
+        {
+          "id": "opt3",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt4",
+          "text": "संस्कृत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6752,
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam-2018 (Group -B)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसा क्षेत्र मीरा पुरस्कार से सम्बंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "साहित्य"
+        },
+        {
+          "id": "opt2",
+          "text": "गायन"
+        },
+        {
+          "id": "opt3",
+          "text": "चित्रण"
+        },
+        {
+          "id": "opt4",
+          "text": "हस्तशिल्प"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Informatics Assistant Exam 2018",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6753,
+        "exam": "Informatics Assistant Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘एकलिगमहात्म्य’ किस भाषा में लिखा गया है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रज"
+        },
+        {
+          "id": "opt2",
+          "text": "संस्कृत"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थानी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेवाड़ी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Agriculture Supervisor Exam 2018",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6754,
+        "exam": "Agriculture Supervisor Exam 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसकी बहादुरी के कृत्य ‘बीठू मेहा के रावले’ में उल्लेखित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "रामदेवजी"
+        },
+        {
+          "id": "opt3",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "हड़बूजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीठू मेहा के रावले वीर गोगा जी को सर्मिपत रचना है। इसमें गोगा जी के बहादुरी के किस्से उल्लेखित हैं। गोगा जी को साँपों का देवता कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Asst. Statistical Officer (TSP) 2018",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6755,
+        "exam": "RPSC Asst. Statistical Officer (TSP) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा के छन्दों के आधार पर रचित ‘पिंगल सिरोमणि’ ग्रन्थ के रचयिता हैं",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किसना आढ़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "ईसर दास"
+        },
+        {
+          "id": "opt3",
+          "text": "करणीदान कविया"
+        },
+        {
+          "id": "opt4",
+          "text": "कुशल लाभ"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पिंगल शिरोमणि ग्रंथ के रचनाकार कुशल लाभ है। माधवानल कामकंदला इनकी अन्य रचना है। पिंगल शिरोमणि राजस्थानी का प्रथम छन्द ग्रंथ है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6757,
+        "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन विद्वान हैं, जो राजस्थानी भाषा- बोलियों से सम्बन्धित कार्य के लिए नहीं जाने जाते?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नोम चोम्स्की"
+        },
+        {
+          "id": "opt2",
+          "text": "जॉर्ज अब्राहम ग्रियर्सन"
+        },
+        {
+          "id": "opt3",
+          "text": "डॉ. मोतीलाल मेनारिया"
+        },
+        {
+          "id": "opt4",
+          "text": "डॉ. हीरालाल माहेश्वरी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थानी भाषा एवं बोलियों पर डॉ. मोतीलाल मेनारिया, डॉ. ग्रियर्सन, डॉ. एल.पी. टेसीटोरी और डॉ. हीरालाल महेश्वरी का विशद अध्ययन प्राप्त होता है। नोम चोम्स्की एक अमेरिकी भाषाविद् हैं जिनका दर्शन पर गहरा प्रभाव रहा है।",
+      "reference": "📌 PYQ — RPSC Asst. Agri. Officer 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6758,
+        "exam": "RPSC Asst. Agri. Officer 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सी रचना मीराबाई की है/",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सखी"
+        },
+        {
+          "id": "opt2",
+          "text": "बीजक"
+        },
+        {
+          "id": "opt3",
+          "text": "शबद"
+        },
+        {
+          "id": "opt4",
+          "text": "पदावली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मीराबाई की रचनाओं और पदों का संग्रह मीराबाई की पदावली में संकलित है। नरसीजी की मायरा, राग गोविन्द, गीत गोविन्द की टीका, राग विराग इत्यादि अन्य रचनाएँ हैं।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6759,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किसने यूक्लिड की रेखागणित का संस्कृत में अनुवाद किया?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जगन्नाथ"
+        },
+        {
+          "id": "opt2",
+          "text": "सवाई जयसिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल राम"
+        },
+        {
+          "id": "opt4",
+          "text": "विद्याधर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "यूक्लिड की रेखागणित का संस्कृत में अनुवाद सवाई जयसिंह ने किया था। इनकी गणित और खगोल में विशेष रुचि थी।",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6760,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी भाषा का उत्पत्ति काल है─",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्यारहवीं शताब्दी"
+        },
+        {
+          "id": "opt2",
+          "text": "बारहवीं शताब्दी का प्रारम्भिक चरण"
+        },
+        {
+          "id": "opt3",
+          "text": "तेरहवीं शताब्दी का प्रारम्भिक काल"
+        },
+        {
+          "id": "opt4",
+          "text": "चौदहवीं शताब्दी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी भाषा का उत्पत्ति काल बारहवीं शताब्दी का प्रारंभिक चरण माना जाता है। इसी समय वीरगाथा काल के ग्रंथों की रचना प्रारम्भ हुई। राजस्थानी भाषा का उद्भव शौरसेनी अपभ्रंश से माना जाता है।",
+      "reference": "📌 PYQ — RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC RAS/RTS Pre 1996",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6763,
+        "exam": "RPSC Coll. Lect. (Sarangi Instr.) - 2018 P-III RPSC RAS/RTS Pre 1996",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विश्व प्रसिद्ध मीसॉन (माइसॉन) मंदिर समूह दक्षिण पूर्व एशिया के किस प्राचीन राज्य की धरोहर हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चंपा"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीविजय"
+        },
+        {
+          "id": "opt3",
+          "text": "माताराम"
+        },
+        {
+          "id": "opt4",
+          "text": "फनान"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "विश्व प्रसिद्ध मीसॉन (माइसॉन) मन्दिर समूह दक्षिण- पूर्व एशिया के चंपा राज्य की धरोहर है।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-A (S.E.)2018",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19497,
+        "exam": "RPSC School Lect. Group-A (S.E.)2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शैलेन्द्र वंश के किस राजा को श्रेय प्राप्त है कि उसने ‘कालसन मंदिर’ का निर्माण करायाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चूलमणि वर्मन"
+        },
+        {
+          "id": "opt2",
+          "text": "बालपुत्रदेव"
+        },
+        {
+          "id": "opt3",
+          "text": "धर्मवंश"
+        },
+        {
+          "id": "opt4",
+          "text": "पनागकरण"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शैलेन्द्र वंश के शासक महाराजा तेजपुराण पनागकरण ने कालसन मन्दिर का निर्माण कराया था। इस मन्दिर को पहले तारा को सर्मिपत किया जाता है। शैलेन्द्र वंश की स्थापना750ई. में भानु शैलेन्द्र ने की थी। शैलेन्द्र वंश ने बोरोबुदुर मन्दिर का निर्माण किया था, जो विश्व का सबसे बड़ा बौद्ध मन्दिर है।",
+      "reference": "📌 PYQ — RPSC School Lect. (S.E.) 2018",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19498,
+        "exam": "RPSC School Lect. (S.E.) 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूचीI से सूचीIIको सुमेलित कीजिए। और नीचे दिए गये कूट का उपयोग कर सही उत्तर चुनिए - सूची-I सूची-I (शिक्षण संस्थान) (स्थान) (A) विक्रमशिला (i) भागलपुर (बिहार) (B) वल्लभी (ii) भावनगर (गुजरात) (C) तक्षशिला (iii) पाटन (गुजरात) (D) अन्हिलवाड़ (iv) रावलपिंडी (पाकिस्तान) (A) (B) (C) (D)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i) (ii) (iv) (iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iv) (iii) (ii) (i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii) (i) (i) (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलित युग्म इस प्रकार है सूची-I सूची-II (शिक्षण संस्थान) (स्थान) विक्रमशिला - भागलपुर (बिहार) वल्लभी - भावनगर (गुजरात) तक्षशिला - रावलपिंडी अन्हिलवाड़ - पाटन (गुजरात)",
+      "reference": "📌 PYQ — RPSC Head Master (Sec. School) 2018 Paper-I",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19500,
+        "exam": "RPSC Head Master (Sec. School) 2018 Paper-I",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "१९३५ के भारत सरकार अधिनियम में पृथक निर्वाचन प्रतिनिधित्व में किन्हें स्थान नहीं दिया गया थाः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुस्लिम"
+        },
+        {
+          "id": "opt2",
+          "text": "सिख"
+        },
+        {
+          "id": "opt3",
+          "text": "पारसी"
+        },
+        {
+          "id": "opt4",
+          "text": "ऐंग्लो इण्डियन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारत शासन अधिनियम, 1935में पृथक निर्वाचन में प्रतिनिधित्व महिलाओं, श्रमिक और दलित वर्ग तक विस्तारित कर दिया गया। भारत शासन अधिनियम, 1909में मुस्लिमों को पृथक निर्वाचन में स्थान दिया गया था। इस पृथक निर्वाचन को भारत शासन अधिनियम, 1919में विस्तारित करते हुए सिख, भारतीय इसाईयों, एंग्लो इंडियन और यूरोपियों को शामिल किया गया। अत: १९३५ के भारत सरकार अधिनियम द्वारा सांप्रदायिक तथा वर्गीय मतदाता मंडलों का विस्तार हुआ तथा मुसलमान, सिंध, यूरोपीय ईसाई, एग्लों इण्डियन, और अनुसूचित जातियाँ आदि को पृथक- पृथक प्रतिनिधित्व मिला।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 28/10/2018",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19502,
+        "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘‘शीत युद्ध में गठबंधन विश्व में अच्छे प्रभाव नहीं लाये हैं – नेहरू। अपने इस भाषण में नेहरू किस गठबंधन की ओर इशारा कर रहे हैः",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विदेशी आर्थिक गठबंधन"
+        },
+        {
+          "id": "opt2",
+          "text": "सैनिक गठबंधन"
+        },
+        {
+          "id": "opt3",
+          "text": "परमाणु गठबंधन"
+        },
+        {
+          "id": "opt4",
+          "text": "सांस्कृतिक गठबंधन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जवाहर लाल नेहरू ने महसूस किया कि यदि शीत युद्ध और सैन्य गठजोड़ का यह तरीका जारी रहेगा, तो कुछ समय या अन्य अंतिम तबाही की ओर ले जाएगा।SETO, NATO, बगदाद संधि और वारसा संधि के गठन से संबंधित क्षेत्र में शांति को बनाए रखने के बजाय शीत युद्ध का परिणाम बना रहा। इसलिए, उन्होंने सैन्य गठजोड़ और शीत युद्ध की प्रणाली के खिलाफ अपनी आवाज उठाई और जोर देकर कहा ‘मुझे लगता है कि सैन्य गठबंधनों और शीत युद्ध ने विश्व में अच्छे प्रभाव नहीं लाये।’",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr-II 28/10/2018",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19504,
+        "exam": "RPSC Sr. Teacher Gr-II 28/10/2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस दिनांक को इंदिरा गांधी सरकार ने बांग्लादेश को एक नए राष्ट्र-राज्य के रूप में मान्यता दी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "६ दिसम्बर, १९७१"
+        },
+        {
+          "id": "opt2",
+          "text": "१६ दिसम्बर, १९७१"
+        },
+        {
+          "id": "opt3",
+          "text": "१ जुलाई, १९७२"
+        },
+        {
+          "id": "opt4",
+          "text": "१ जून, १९७२"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "6दिसंबर, 1971को भारत की प्रधानमंत्री इंदिरा गांधी ने संसद में घोषणा की तथा बांग्लादेश को एक नए राष्ट्र राज्य के रूप में मान्यता दी। १६ दिसम्बर १९७१ को ढ़ाका के रेसकोर्स मैंदान में पाकिस्तानी सेना के जनरल अमीर अब्दुल्ला खान नियाजी ने भारतीय सेना के जनरल जगजीत सिंह अरोड़ा के सामने आत्म समर्पण कर दिया।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19505,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा एक कथन सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुटनिरपेक्ष देशों का पहला शिखर सम्मेलन १९६१ ई. में बेलग्रेड में हुआ।"
+        },
+        {
+          "id": "opt2",
+          "text": "२५ राष्ट्रों ने गुटनिरपेक्ष देशों के पहले सम्मेलन में भाग लिया।"
+        },
+        {
+          "id": "opt3",
+          "text": "एक गुटनिरपेक्ष देश, सैनिक गठबंधनों का भी सदस्य हो सकता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "गुटनिरपेक्ष आंदोलन नस्लभेद और उपनिवेशवाद में विश्वास नहीं करता है।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गुटनिरपेक्ष आंदोलन का पहला शिखर सम्मेलन1-6 सितंबर, 1961को बेलग्रेड, यूगोस्लाविया में हुआ था। इस सम्मेलन में25देशों ने भाग लिया था। एक गुटनिरपेक्ष देश सैनिक गठबन्धन का सदस्य नहीं हो सकता था। गुटनिरपेक्ष आंदोलन नस्लभेद और उपनिवेशवाद में भरोसा नहीं करता है।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19506,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विभाजनोत्तर, पुनर्गठित संविधान-सभा में डॉ. बी.आर. अंबेडकर निर्वाचित हुए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पश्चिम बंगाल से"
+        },
+        {
+          "id": "opt2",
+          "text": "बम्बई से"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्व पंजाब से"
+        },
+        {
+          "id": "opt4",
+          "text": "मध्य प्रांत एवं बरार से"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "संविधान सभा के लिए बी.आर. अम्बेडकर का निर्वाचन पश्चिम बंगाल से हुआ था। विभाजन के उपरान्त इनका निर्वाचन मुम्बई से हुआ था। संविधान सभा में ये प्रारूप समिति के अध्यक्ष थे।",
+      "reference": "📌 PYQ — RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 19507,
+        "exam": "RPSC Sr. Teacher Gr II S.E. (TSP) - 2018",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘निमाड़ी एवं रागड़ी’ किस बोली की विशेषता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt2",
+          "text": "मेवाती"
+        },
+        {
+          "id": "opt3",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt4",
+          "text": "अहीरवाटी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Gram Sevak 2016",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6767,
+        "exam": "Gram Sevak 2016",
+        "year": 2016
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बागड़ी’ बोली किस क्षेत्र में बोली जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा - बूंदी - झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़ - श्रीगंगानगर"
+        },
+        {
+          "id": "opt3",
+          "text": "डूंगरपुर - बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "सीकर - झुंझनू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का डूंगरपुर और बाँसवाड़ा का सम्मिलित क्षेत्र ‘वागड़’ कहलाता है इस क्षेत्र में बोली जाने वाली बोली ‘वागड़ी’ कहलाती है। यह क्षेत्र गुजरात के निकट होने के कारण इस बोली पर गुजराती प्रभाव परिलक्षित होता है।",
+      "reference": "📌 PYQ — COMPILER Exam 2016",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6768,
+        "exam": "COMPILER Exam 2016",
+        "year": 2016
+      }
+    }
+  ]
+}

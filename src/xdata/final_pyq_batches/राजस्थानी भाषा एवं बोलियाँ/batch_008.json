@@ -1,0 +1,655 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 8,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 8",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राणी लक्ष्मीकुमारी चुंडावत री रचना नीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हुंकारो दो सा"
+        },
+        {
+          "id": "opt2",
+          "text": "धरती रो धीणो"
+        },
+        {
+          "id": "opt3",
+          "text": "मांझळ रात"
+        },
+        {
+          "id": "opt4",
+          "text": "कै रे चकवा बात"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6566,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोक काव्य सैली री रचना कुणसी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "किसन ब्यावलो"
+        },
+        {
+          "id": "opt2",
+          "text": "ढोला मारू रा दूहा"
+        },
+        {
+          "id": "opt3",
+          "text": "नवरस वेलि"
+        },
+        {
+          "id": "opt4",
+          "text": "रूकमणि मंगल"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sanskrit L2",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6567,
+        "exam": "3rd Grade Teacher 2022 Sanskrit L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विश्वामित्र दाधीच _____ के क्षेत्र में अपने योगदान के लिये प्रसिद्ध हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अभिनय"
+        },
+        {
+          "id": "opt2",
+          "text": "चित्रकला"
+        },
+        {
+          "id": "opt3",
+          "text": "साहित्य"
+        },
+        {
+          "id": "opt4",
+          "text": "संगीत"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6570,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी काव्य में ‘डांखळा’ नांव सूं नवौ काव्य-रूप चलायनै घणा चावा हुया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मोहन आलोक"
+        },
+        {
+          "id": "opt2",
+          "text": "कल्याणसिंह राजावत"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुराजसिंह हाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "किशोर कल्पनाकांत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6571,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी में रामायण रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दुरसाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "मेहोजी"
+        },
+        {
+          "id": "opt3",
+          "text": "नैणसी"
+        },
+        {
+          "id": "opt4",
+          "text": "सायांजी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6573,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘बोल भारमली’ रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नेमनारायण जोशी"
+        },
+        {
+          "id": "opt2",
+          "text": "महावीरप्रसाद जोशी"
+        },
+        {
+          "id": "opt3",
+          "text": "सत्यप्रकाश जोशी"
+        },
+        {
+          "id": "opt4",
+          "text": "मेघराज मुकुल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राधा और बोल भारमली सत्यप्रकाश जोशी की रचनाएं हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Hindi L2",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6574,
+        "exam": "3rd Grade Teacher 2022 Hindi L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कन्हैयालाल सेठिया री काव्य-कृति नीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मींझर"
+        },
+        {
+          "id": "opt2",
+          "text": "सोन मिरगला"
+        },
+        {
+          "id": "opt3",
+          "text": "मायड़ रो हेलो"
+        },
+        {
+          "id": "opt4",
+          "text": "लीलटांस"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6575,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘विरुद्ध छिहत्तरी’ रा रचनाकार रो नांव है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीधर व्यास"
+        },
+        {
+          "id": "opt2",
+          "text": "राठौड़ पृथ्वीराज"
+        },
+        {
+          "id": "opt3",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "सूर्यमल्ल मीसण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6576,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘चंदनबाला रास’ काव्यरूप री दीठ सूं किण भांत रो काव्य है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खंडकाव्य"
+        },
+        {
+          "id": "opt2",
+          "text": "मुक्तककाव्य"
+        },
+        {
+          "id": "opt3",
+          "text": "मिश्रकाव्य"
+        },
+        {
+          "id": "opt4",
+          "text": "महाकाव्य"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6577,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी कहाणीकार रै तौर पर किणरी पिछांण नीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भंवरलाल भ्रमर"
+        },
+        {
+          "id": "opt2",
+          "text": "रामपालसिंह राजपुरोहित"
+        },
+        {
+          "id": "opt3",
+          "text": "ब्रजमोहन जायलिया"
+        },
+        {
+          "id": "opt4",
+          "text": "विजयदान देथा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6579,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रूख सतसई’ रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लक्ष्मणदान कविया"
+        },
+        {
+          "id": "opt2",
+          "text": "रामस्वरूप किसान"
+        },
+        {
+          "id": "opt3",
+          "text": "महावीर प्रसाद जोसी"
+        },
+        {
+          "id": "opt4",
+          "text": "मुरलीधर व्यास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Maths-Science L2",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6582,
+        "exam": "3rd Grade Teacher 2022 Maths-Science L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी में रामकथा रै आधार पर ‘रामायण’ सिरैनांव सूं आख्यान काव्य कुण लिख्यौ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मेहोजी गोदारा"
+        },
+        {
+          "id": "opt2",
+          "text": "सरवण भूकर"
+        },
+        {
+          "id": "opt3",
+          "text": "पदम भगत"
+        },
+        {
+          "id": "opt4",
+          "text": "मुंहता रुघनाथ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मेहा गोदारा का जन्म विक्रम संवत् 1540 में राजस्थान के बीकानेर जिले के भोजास गाँव में हुआ था। इनकी एकमात्र कृति है-रामायण।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6583,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कथेतर गद्य री पोथी ‘ओळूं री अखियातां’ रा रचनाकार है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ब्रजनारायण पुरोहित"
+        },
+        {
+          "id": "opt2",
+          "text": "मुरलीधर व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "नेमनारायण जोशी"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवराज छंगाणी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6584,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आदिकालीन चारण शैली रा रचनाकार नीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गाडण सिवदास"
+        },
+        {
+          "id": "opt2",
+          "text": "वज्रसेन सूरि"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीधर व्यास"
+        },
+        {
+          "id": "opt4",
+          "text": "बादर ढाढी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6585,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रामस्वरूप किसान रो कहाणी - संग्रै नीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "धान कथावां"
+        },
+        {
+          "id": "opt2",
+          "text": "तीखी धार"
+        },
+        {
+          "id": "opt3",
+          "text": "बारीक बात"
+        },
+        {
+          "id": "opt4",
+          "text": "हाडाखोड़ी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6587,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वेलि क्रिसन रुकमणी री’ रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पृथ्वीराज राठौड़"
+        },
+        {
+          "id": "opt2",
+          "text": "संत विट्ठलदास"
+        },
+        {
+          "id": "opt3",
+          "text": "बारहठ ईसरदास"
+        },
+        {
+          "id": "opt4",
+          "text": "ठाकुर रामसिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 L1",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6588,
+        "exam": "3rd Grade Teacher 2022 L1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस ग्रन्थ की रचना महाराणा कुम्भा ने नहीं की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संगीत राज"
+        },
+        {
+          "id": "opt2",
+          "text": "संगीत रत्नाकर"
+        },
+        {
+          "id": "opt3",
+          "text": "संगीत मीमांसा"
+        },
+        {
+          "id": "opt4",
+          "text": "सूड प्रबन्ध"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "शरंगदेव या सरंगा देव 13वीं शताब्दी के भारतीय संगीतज्ञ थे जिन्होंने संगीत और नाटक पर शास्त्रीय संस्कृत पाठ संगीत रत्नाकर की रचना की थी।",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Entomology) 2022",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6589,
+        "exam": "A.A.R.O. (GK and Entomology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन राजस्थानी काव्य ‘भरतेश्वर बाहुबली घोर’ के रचयिता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्दबरदाई"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवदास"
+        },
+        {
+          "id": "opt3",
+          "text": "कृपाराम"
+        },
+        {
+          "id": "opt4",
+          "text": "वज्रसेन सूरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Botany) 2022",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6591,
+        "exam": "A.A.R.O. (GK and Botany) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘रणमल्ल छन्द’ के रचयिता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नरपति नाल्ह"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीधर व्यास"
+        },
+        {
+          "id": "opt3",
+          "text": "पद्मनाभ"
+        },
+        {
+          "id": "opt4",
+          "text": "सुन्दरदास"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — A.A.R.O. (GK and Ag. Che.) 2022",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6593,
+        "exam": "A.A.R.O. (GK and Ag. Che.) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘ढोला-मारु-रा-दोहा’ का रचयिता कौन है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नरपति नाल्ह"
+        },
+        {
+          "id": "opt2",
+          "text": "आशानंद"
+        },
+        {
+          "id": "opt3",
+          "text": "कल्लोल"
+        },
+        {
+          "id": "opt4",
+          "text": "बीठू सूजो"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6596,
+        "exam": "Forest Guard Exam 2022 (11 DEC 2022) (evening shift)",
+        "year": 2022
+      }
+    }
+  ]
+}

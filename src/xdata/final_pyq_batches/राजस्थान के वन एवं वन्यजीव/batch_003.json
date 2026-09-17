@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 3,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 3",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किस ज़िले का वन क्षेत्र (वर्ग किमी) अधिकतम है (ISFR, 2021 के अनुसार)?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "चित्तौड़गढ़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "इंडियन स्टेट ऑफ फॉरेस्ट रिपोर्ट (ISFR) 2021 के अनुसार, उदयपुर जिले में सबसे अधिक वन क्षेत्र (2753.39 वर्ग किमी) है, जो राज्य की कुल वन भूमि का बड़ा हिस्सा है।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती-2024",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15991,
+        "exam": "वाहन चालक सीधी भर्ती-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "इण्डिया स्टेट ऑफ फॉरेस्ट रिपोर्ट-2023 के अनुसार निम्नलिखित में से सबसे कम कुल वनावरण क्षेत्र वाले जिलों का युग्म कौनसा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर तथा गंगानगर"
+        },
+        {
+          "id": "opt2",
+          "text": "चूरू तथा सीकर"
+        },
+        {
+          "id": "opt3",
+          "text": "चूरू तथा जोधपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "चूरू तथा हनुमानगढ़"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "इंडिया स्टेट ऑफ फॉरेस्ट रिपोर्ट-2023 के अनुसार, चूरू और हनुमानगढ़ जिलों में कुल वनावरण सबसे कम है।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15992,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 2023-24 में किस श्रेणी के वनों का क्षेत्र, कुल वन क्षेत्र का 50% से अधिक था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आरक्षित वन"
+        },
+        {
+          "id": "opt2",
+          "text": "रक्षित वन"
+        },
+        {
+          "id": "opt3",
+          "text": "पर्वतीय वन"
+        },
+        {
+          "id": "opt4",
+          "text": "अवर्गीकृत वन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ISFR 2023 के अनुसार, राजस्थान में कुल वन क्षेत्र में रक्षित वन (Protected Forests) का हिस्सा 50% से अधिक है (लगभग 55-60%)।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15993,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "धोकड़ा, पलाश, तेंदू और सेमल के वृक्ष किस प्रकार के वन में पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शुष्क सागवान वन"
+        },
+        {
+          "id": "opt2",
+          "text": "उष्णकटिबन्धीय कंटीले वन"
+        },
+        {
+          "id": "opt3",
+          "text": "मिश्रित पतझड़ वन"
+        },
+        {
+          "id": "opt4",
+          "text": "अर्द्ध-उष्ण सदाबहार वन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "ये वृक्ष उष्णकटिबंधीय मिश्रित पतझड़ वन (Tropical Dry Deciduous Forests) में पाए जाते हैं, जहाँ पेड़ वर्षा ऋतु के बाद पत्ते झड़ते हैं।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15994,
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान वन रिपोर्ट 2023 के अनुसार, 2000 वर्ग किलोमीटर से अधिक कुल वन क्षेत्र वाले जिलों की संख्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "05"
+        },
+        {
+          "id": "opt2",
+          "text": "04"
+        },
+        {
+          "id": "opt3",
+          "text": "01"
+        },
+        {
+          "id": "opt4",
+          "text": "02"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "__",
+      "reference": "📌 PYQ — Agriculture Dept. Exam - 2024",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15995,
+        "exam": "Agriculture Dept. Exam - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस क्षेत्र में उपोष्ण कटिबन्धीय सदाबहार वन पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कुम्भलगढ़ के चारों ओर"
+        },
+        {
+          "id": "opt2",
+          "text": "सिलिसेढ़ के चारों ओर"
+        },
+        {
+          "id": "opt3",
+          "text": "माउंट आबू के चारों ओर"
+        },
+        {
+          "id": "opt4",
+          "text": "नाग पहाड़ के चारों ओर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "माउंट आबू (सिरोही जिले में) राजस्थान का एकमात्र क्षेत्र है जहाँ उपोष्ण कटिबंधीय सदाबहार वन पाए जाते हैं, क्योंकि यहाँ वर्षा अधिक (1, 500 मिमी+) और ऊँचाई के कारण जलवायु आर्द्र है।",
+      "reference": "📌 PYQ — CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15996,
+        "exam": "CHEMIST(ARCHIVES DEPT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य के दक्षिणी उच्च-भूमि के सवाई माधोपुर, चित्तौड़गढ़, कोटा, बारां तथा झालावाड़ जिलों में निम्नलिखित में से किस प्रकार के वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खैर वन"
+        },
+        {
+          "id": "opt2",
+          "text": "शुष्क सागवान वन"
+        },
+        {
+          "id": "opt3",
+          "text": "पलाश वन"
+        },
+        {
+          "id": "opt4",
+          "text": "उपोष्ण पहाड़ी वन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हाड़ौती क्षेत्र (सवाई माधोपुर, चित्तौड़गढ़, कोटा, बारां, झालावाड़) में खैर वन (उष्णकटिबंधीय शुष्क पतझड़ वन) प्रमुख हैं, जिनमें खैर और बबूल जैसे वृक्ष पाए जाते हैं।",
+      "reference": "📌 PYQ — Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15997,
+        "exam": "Deputy Jailor (Jail Deptt.) Comp. Exam-2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "31 मार्च, 2023 की स्थिति के अनुसार, राजस्थान के कुल वन क्षेत्रफल वाले सर्वोच्च तीन जिले थे:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर, अलवर, बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर, बारां, प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर, अलवर, चित्तौड़गढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "उदयपुर, बारां, करौली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वन विभाग की रिपोर्ट के अनुसार, 31 मार्च 2023 तक उदयपुर, बारां और करौली में सबसे अधिक वन क्षेत्रफल है।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15998,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित विशेषताओं के आधार पर वन क्षेत्र की पहचान कीजिए -(अ) यह राजस्थान में लगभग 52 वर्ग किलोमीटर क्षेत्र में पाये जाते हैं।(ब) वार्षिक वर्षा लगभग 150 से.मी.है।(स) यह 1070 से 1375 मीटर की ऊँचाई पर पाये जाते हैं।कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मिश्रित पतझड़ वन"
+        },
+        {
+          "id": "opt2",
+          "text": "सालर वन"
+        },
+        {
+          "id": "opt3",
+          "text": "ढाक वन"
+        },
+        {
+          "id": "opt4",
+          "text": "उपोष्णकटिबंधीय सदाबहार वन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "उष्ण कटिबंधीय सदाबहार वन: 52 वर्ग किमी क्षेत्र, 150 सेमी वर्षा, और 1070-1375 मीटर ऊँचाई उपोष्णकटिबंधीय सदाबहार वन की विशेषताएँ हैं, जो केवल माउंट आबू के चारों तरफ ही पाये जाते हैं। ये सघन वन वर्ष भर हरे - भरे रहते है। इन वनो का क्षेत्रफल मात्र 0.4 प्रतिशत है। इन वनों में आम, धाक, जामुन, सिरिस, अम्बरतरी, बेल के वृक्ष मिलते है।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 15999,
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सी एक घास प्रजाति है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खस"
+        },
+        {
+          "id": "opt2",
+          "text": "तेंदू"
+        },
+        {
+          "id": "opt3",
+          "text": "महुआ"
+        },
+        {
+          "id": "opt4",
+          "text": "केर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खस एक घास प्रजाति है, जिसे वेटीवर (Vetiver) भी कहते हैं। इसका उपयोग मिट्टी संरक्षण, सुगंध और औषधीय कार्यों में होता है। तेंदू, महुआ और केर वृक्ष या झाड़ियाँ हैं, घास प्रजाति नहीं।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16000,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "VFPMC है: (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्राम भोजन संरक्षण एवं प्रबन्धन समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्राम अग्नि संरक्षण एवं प्रबन्धन समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्राम वन संरक्षण एवं प्रबन्धन समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्राम महिला संरक्षण एवं प्रबन्धन समिति"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "VFPMC का अर्थ Village Forest Protection and Management Committee (ग्राम वन संरक्षण एवं प्रबन्धन समिति) है। यह समिति ग्रामीण स्तर पर वनों के संरक्षण और प्रबंधन के लिए कार्य करती है।",
+      "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16001,
+        "exam": "Junior Instructor (COS) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान के किस जिले में शुष्क सागवान वन नहीं पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt3",
+          "text": "बारां"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शुष्क सागवान वन राजस्थान के दक्षिणी और दक्षिण-पूर्वी जिलों जैसे बांसवाड़ा, चितौड़गढ़, प्रतापगढ़, उदयपुर, डूंगरपुर, झालावाड़, कोटा तथा बारां में मिलते है। बांसवाड़ा में सर्वाधिक है। ये कुल वनों का 7 प्रतिशत हैं इन वनों में बरगद, आम, तेंदुु, गुलर महुआ, साल खैर के वृक्ष मिलते है। करौली में ऐसी वनस्पति नहीं पाई जाती।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16002,
+        "exam": "Junior Instructor (STE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में तेन्दू वृक्ष के लिये प्रमुख जिला है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झालावाड़"
+        },
+        {
+          "id": "opt2",
+          "text": "हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "भरतपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "झालावाड़ जिला तेन्दू वृक्षों (जिनके पत्तों का उपयोग बीड़ी बनाने में होता है) के लिए प्रसिद्ध है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16003,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 2021 में कौन-से प्रकार के वन सर्वाधिक क्षेत्र पर विस्तृत हैं - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "आरक्षित वन"
+        },
+        {
+          "id": "opt2",
+          "text": "अवर्गीकृत वन"
+        },
+        {
+          "id": "opt3",
+          "text": "निजी वन"
+        },
+        {
+          "id": "opt4",
+          "text": "रक्षित वन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान में वनों को तीन श्रेणियों में बांटा जाता है: आरक्षित वन, रक्षित वन, और अवर्गीकृत वन। 2021 के आंकड़ों के अनुसार, रक्षित वन (Protected Forests) सबसे अधिक क्षेत्र में फैले हैं। इन वनों की देखभाल सरकार द्वारा की जाती है, इन वनों के दोहन के लिए सरकार कुछ नियमों के आधार पर छुट देती है। राजस्थान में संरक्षित वन के अंतर्गत 18, 543.22 वर्ग किलोमीटर या 56.43% वन क्षेत्र है। सर्वाधिक रक्षित वन बारां में है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16004,
+        "exam": "Junior Instructor (ICTSM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा वनों द्वारा उत्पादित नहीं है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लाख़"
+        },
+        {
+          "id": "opt2",
+          "text": "कत्था"
+        },
+        {
+          "id": "opt3",
+          "text": "गोंद"
+        },
+        {
+          "id": "opt4",
+          "text": "सिलिका"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "लाख, कत्था, और गोंद वन उत्पाद हैं, सिलिका एक खनिज है, जो रेत या चट्टानों से प्राप्त होता है, न कि वनों से।",
+      "reference": "📌 PYQ — Junior Instructor (EM) Exam 2024",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16005,
+        "exam": "Junior Instructor (EM) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वन विभाग, राजस्थान वार्षिक रिपोर्ट 2023-24 के अनुसार, राज्य का प्रति व्यक्ति औसत वनावरण तथा वृक्षावरण है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "0.027 हेक्टेयर"
+        },
+        {
+          "id": "opt2",
+          "text": "0.037 हेक्टेयर"
+        },
+        {
+          "id": "opt3",
+          "text": "0.022 हेक्टेयर"
+        },
+        {
+          "id": "opt4",
+          "text": "0.032 हेक्टेयर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वन विभाग, राजस्थान की वार्षिक रिपोर्ट 2023-24 के अनुसार, राजस्थान में प्रति व्यक्ति औसत वनावरण और वृक्षावरण 0.037 हेक्टेयर है।",
+      "reference": "📌 PYQ — AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16006,
+        "exam": "AGRICULTURE OFFICER (AGRI. DEPTT.) COMP. EXAM - 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2023 में, राजस्थान के ______ ज़िले में “आरक्षित वन” श्रेणी के अन्तर्गत द्वितीय अधिकतम वास्तविक क्षेत्र रिपोर्ट किया गया था।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चित्तौड़गढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "बूंदी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "2023 के आंकड़ों के अनुसार, चित्तौड़गढ़ जिले में आरक्षित वन क्षेत्र उदयपुर के बाद दूसरे स्थान पर था।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam 2024",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16007,
+        "exam": "Junior Instructor (Wireman) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वनों को ज़िले से सुमेलित कीजिए।वन ज़िलाa. शुष्क वन i. अलवरb. सदाबहार वन ii. बांसवाड़ाc. मिश्रित पतझड़ वन iii. माउण्ट आबूd. शुष्क सागवान वन iv. जैसलमेर",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a-iv, b-iii, c-ii, d-i"
+        },
+        {
+          "id": "opt2",
+          "text": "a-i, b-ii, c-iii, d-iv"
+        },
+        {
+          "id": "opt3",
+          "text": "a-ii, b-iii, c-i, d-iv"
+        },
+        {
+          "id": "opt4",
+          "text": "a-iv, b-iii, c-i, d-ii"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शुष्क वन - जैसलमेरसदाबहार वन - माउंट आबूमिश्रित पतझड़ वन - अलवरशुष्क सागवान वन - बांसवाड़ा",
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16008,
+        "exam": "Junior Instructor (RAT) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वन विभाग, राजस्थान द्वारा जारी प्रशासनिक प्रतिवेदन 2023-24 के अनुसार राज्य में चतुर्थ सर्वाधिक वास्तविक वन क्षेत्र वाला जिला ____ है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बारां"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रतापगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बांसवाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "करौली"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बारां जिला राजस्थान में वन क्षेत्रफल के हिसाब से चतुर्थ स्थान पर है।क्र. सं.जिला क्षेत्रफल1.उदयपुर2753.392.अलवर1195.913.प्रतापगढ़1033.774.बारां1010.055.चित्तौड़गढ़990.05",
+      "reference": "📌 PYQ — Junior Instructor (MDE) Exam 2024",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16009,
+        "exam": "Junior Instructor (MDE) Exam 2024",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वनों की रक्षा हेतु अपने प्राणों की आहूति देने वाली जोधपुर की प्रसिद्ध महिला का नाम है:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अमृता देवी"
+        },
+        {
+          "id": "opt2",
+          "text": "सीता बाई"
+        },
+        {
+          "id": "opt3",
+          "text": "रामेश्वरी देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "गीता देवी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अमृता देवी विश्नोई ने 1730 में जोधपुर के खेजड़ली गांव में पेड़ों को बचाने के लिए अपने प्राणों की आहुति दी थी।",
+      "reference": "📌 PYQ — Junior Instructor (Fitter) Exam 2024",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16010,
+        "exam": "Junior Instructor (Fitter) Exam 2024",
+        "year": 2024
+      }
+    }
+  ]
+}

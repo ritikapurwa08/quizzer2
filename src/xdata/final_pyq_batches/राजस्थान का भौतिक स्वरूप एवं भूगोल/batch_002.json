@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
+  "batchIndex": 2,
+  "batchName": "राजस्थान का भौतिक स्वरूप एवं भूगोल भाग 2",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-का-भौतिक-स्वरूप-एवं-भूगोल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की देशांतरीय सीमा कितनी है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "23°03′ उत्तर से 30°12′ उत्तर"
+        },
+        {
+          "id": "opt2",
+          "text": "68°07′ पूर्व से 97°25′ पूर्व"
+        },
+        {
+          "id": "opt3",
+          "text": "69°30′ पूर्व से 78°17′ पूर्व"
+        },
+        {
+          "id": "opt4",
+          "text": "70°00′ पूर्व से 80°00′ पूर्व"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान राज्य भारत में उत्तरी-पश्चिमी भाग में 23० 3′ से 30० 12′ उत्तरी अक्षांश (विस्तार 7० 9′) तथा 69० 30′ से 78० 17′ पूर्वी देशान्तर (विस्तार 8० 47′) के मध्य स्थित है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7152,
+        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का कुल भौगोलिक क्षेत्रफल कितना है, जो इसे क्षेत्रफल के हिसाब से भारत का सबसे बड़ा राज्य बनाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3, 18, 726 वर्ग किमी"
+        },
+        {
+          "id": "opt2",
+          "text": "3, 10, 540 वर्ग किमी"
+        },
+        {
+          "id": "opt3",
+          "text": "3, 42, 239 वर्ग किमी"
+        },
+        {
+          "id": "opt4",
+          "text": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का कुल भौगोलिक क्षेत्रफल 3, 42, 239 वर्ग किलोमीटर है, जो इसे भारत का सबसे बड़ा राज्य बनाता है।",
+      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7153,
+        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘नाग पहाड़’ राजस्थान के किस जिले में स्थित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "नाग पहाड़ मध्य अरावली की एक प्रमुख पहाड़ी है जो अजमेर जिले में स्थित है। इसकी ऊंचाई समुद्र तल से लगभग 795 मीटर है।",
+      "reference": "📌 PYQ — Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7154,
+        "exam": "Veterinary Officer (Veterinary Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन-से राज्य ‘अरावली हरित दीवार/भित्ति परियोजना’ का भाग हैं?a. गुजरात b. पंजाबc. हरियाणा d. दिल्लीनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b, c"
+        },
+        {
+          "id": "opt2",
+          "text": "a, c, d"
+        },
+        {
+          "id": "opt3",
+          "text": "b, c, d"
+        },
+        {
+          "id": "opt4",
+          "text": "a, b, d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अरावली हरित दीवार परियोजना अरावली पर्वतमाला को हरित बनाने के लिए शुरू की गई है। इसमें गुजरात, राजस्थान, हरियाणा और दिल्ली शामिल हैं। पंजाब इसमें शामिल नहीं है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7155,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से हाड़ौती के पठार से संबंधित कौन-से कथन सही हैं?a. स्थलाकृतिक रूप से यह मालवा के पठार का उत्तरी विस्तार है।b. इस क्षेत्र की औसत ऊंचाई समुद्र तल से 500 मीटर ऊपर है।c. इस क्षेत्र का अधिकांश भाग मोरेल नदी द्वारा अपवाहित होता है।d. इसमें एकरूप स्थलाकृति है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a और b"
+        },
+        {
+          "id": "opt2",
+          "text": "a और c"
+        },
+        {
+          "id": "opt3",
+          "text": "b और c"
+        },
+        {
+          "id": "opt4",
+          "text": "c और d"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "इस क्षेत्र का अधिकांश भाग चंबल नदी तंत्र (कोटा-बूंदी क्षेत्र) द्वारा अपवाहित होता है, मोरेल नदी मुख्य नहीं है। यह एकरूप नहीं है; इसमें पहाड़ियां, घाटियां व पठार मिले हुए हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7156,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से अरावली पर्वतमाला से संबंधित कौन-से कथन सही हैं?a. अरावली, पूर्व और पश्चिम की ओर प्रवाहित होने वाली नदियों के बीच मुख्य जल विभाजक है।b. लूनी और बनास जैसी बहुत सारी नदियों का उद्गम यहां से होता है।c. अरावली पर्वतमाला की दिशा कमोबेश दक्षिणी-पश्चिमी मानसून के समानांतर है, जो राज्य में कम वर्षा का मुख्य कारण है।d. अरावली पर्वतमाला को विश्व की नवीनतम पर्वतमाला माना जाता है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, b और d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, c और d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b और c"
+        },
+        {
+          "id": "opt4",
+          "text": "a और d"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अरावली विश्व की सबसे पुरानी पर्वतमाला है (नवीनतम नहीं; हिमालय नवीनतम है)।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7157,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित पर्वत चोटियों को उनकी ऊंचाई के अनुसार अवरोही क्रम में व्यवस्थित करें।a. सेर b. गुरुशिखरc. कमलनाथ d. देलवाड़ानीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "b, a, c, d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, a, d, c"
+        },
+        {
+          "id": "opt3",
+          "text": "c, d, a, b"
+        },
+        {
+          "id": "opt4",
+          "text": "d, b, a, c"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "गुरुशिखर: अरावली की सबसे ऊँची चोटी (1722 मी.) – माउंट आबू।सेर: (सिरोही) 1597 मी.।देलवाड़ा: (सिरोही)-1442 मी.।कमलनाथ: (उदयपुर) -1001 मी.।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7158,
+        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I को सूची-II से सुमेलित करें: सूची-I राजस्थान की चोटियाँसूची-II जिला(a) रघुनाथगढ़(i) अजमेर(b) खो(ii) सीकर(c) तारागढ़(iii) उदयपुर(d) जरगा(iv) जयपुरनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रघुनाथगढ़ → सीकरखो → जयपुरतारागढ़ → अजमेरजरगा → उदयपुर",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7159,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली श्रृंखला के बारे में निम्नलिखित में से कौनसा कथन सत्य नहीं है?नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "यह भारत की सबसे पुरानी पर्वतमालाओं में से एक है।"
+        },
+        {
+          "id": "opt2",
+          "text": "यह लगभग दक्षिण-पश्चिम से उत्तर-पूर्व की ओर विस्तारित है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह एक ज्वालामुखी पर्वत-श्रृंखला है।"
+        },
+        {
+          "id": "opt4",
+          "text": "इसमें तांबा, लेड और जिंक इत्यादि खनिज निक्षेप पाये जाते हैं।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "अरावली श्रृंखला मुख्य रूप से एक अवशिष्ट पर्वत (Residual Mountain) और दुनिया की सबसे पुरानी वलित पर्वत (Fold Mountain) श्रृंखला है, ज्वालामुखी पर्वत नहीं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7160,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित भौतिक विभाजन को पूर्व से पश्चिम के क्रम में व्यवस्थित करें।(a) पश्चिमी बालू मैदान(b) अरावली श्रृंखला और पर्वतीय क्षेत्र(c) पूर्वी मैदान(d) दक्षिण-पूर्वी राजस्थान पठार (हाड़ौती पठार)नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a), (b), (c), (d)"
+        },
+        {
+          "id": "opt2",
+          "text": "(b), (a), (d), (c)"
+        },
+        {
+          "id": "opt3",
+          "text": "(c), (b), (d), (a)"
+        },
+        {
+          "id": "opt4",
+          "text": "(d), (c), (b), (a)"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "दक्षिण-पूर्वी राजस्थान पठार (हाड़ौती पठार) पूर्वी मैदान अरावली श्रृंखला और पर्वतीय क्षेत्र पश्चिमी बालू मैदान (मरुस्थलीय क्षेत्र)",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7161,
+        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के दक्षिण-पूर्वी पठार क्षेत्र के बारे में कौनसे कथन सत्य हैं?a. इसे हाड़ौती पठार भी कहा जाता है।b. यह राजस्थान की अरावली पर्वतमाला के दक्षिणी पूर्वी भाग में विस्तृत है।c. चंबल इस क्षेत्र की प्रमुख नदी है।d. यह राजस्थान का सबसे बड़ा क्षेत्र है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a और b केवल"
+        },
+        {
+          "id": "opt2",
+          "text": "b और c केवल"
+        },
+        {
+          "id": "opt3",
+          "text": "c और d केवल"
+        },
+        {
+          "id": "opt4",
+          "text": "a और c केवल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के दक्षिण-पूर्वी पठार क्षेत्र को हाड़ौती पठार भी कहा जाता है। यह अरावली पर्वतमाला के पूर्वी भाग में है, न कि दक्षिणी-पूर्वी भाग में (अरावली का दक्षिणी-पूर्वी भाग उदयपुर-प्रतापगढ़ क्षेत्र है)। चंबल इस क्षेत्र की प्रमुख नदी है। यह राजस्थान का सबसे बड़ा क्षेत्र नहीं है (सबसे बड़ा पश्चिमी मरुस्थली क्षेत्र है)।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7162,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अरावली राजस्थान में किस दिशा में 550 किलोमीटर की लंबाई में विस्तृत है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिण-पश्चिम से उत्तर-पूर्व"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पूर्व से उत्तर-पूर्व"
+        },
+        {
+          "id": "opt3",
+          "text": "उत्तर-पूर्व से उत्तर-पश्चिम"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण-पश्चिम से उत्तर-पश्चिम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अरावली गुजरात के दक्षिण-पश्चिम से राजस्थान में प्रवेश कर उत्तर-पूर्व की ओर दिल्ली तक जाती है।",
+      "reference": "📌 PYQ — Jamadar Grade II Exam 2025",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7163,
+        "exam": "Jamadar Grade II Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "डग-गंगधार उच्च प्रदेश, राजस्थान के किस भौतिक विभाग के अन्तर्गत आते हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अरावली पर्वतीय प्रदेश"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिण-पूर्वी पठारी प्रदेश"
+        },
+        {
+          "id": "opt3",
+          "text": "पूर्वी मैदानी प्रदेश"
+        },
+        {
+          "id": "opt4",
+          "text": "पश्चिमी मरुस्थलीय प्रदेश"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "झालावाड़ के पठार के दक्षिण पश्चिम भाग में डग – गंगधार की उच्च भूमि पायी जाती है। यह हाड़ौती पठार (दक्षिण-पूर्वी पठारी प्रदेश) का हिस्सा है।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7164,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा अरावली श्रेणी का सर्वाधिक ऊँचा शिखर है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खो"
+        },
+        {
+          "id": "opt2",
+          "text": "रघुनाथगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "कुम्भलगढ़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "खो (920 मीटर), रघुनाथगढ़ (1055 मीटर), अचलगढ़ (1380 मीटर), कुम्भलगढ़(1224 मीटर) में अचलगढ़ अरावली का सर्वोच्च शिखर है। सर्वोच्च शिखर गुरु शिखर (1722 मीटर) है।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7165,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा कथन “राजस्थान के घग्गर मैदान” के संदर्भ में सही नहीं है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "घग्गर नदी के पाट को स्थानीय स्तर पर ‘नाली’ कहा जाता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "वर्तमान में यह मैदान सिंचित व उर्वर है।"
+        },
+        {
+          "id": "opt3",
+          "text": "यह राजस्थान के भौतिक विभाग के अर्द्धशुष्क मैदानी उपविभाग में आता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "हनुमानगढ़ और गंगानगर जिलों के एक-तिहाई क्षेत्र पर इसका विस्तार है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "घग्गर मैदान (दोआब मैदान) हनुमानगढ़ और गंगानगर के अधिकांश क्षेत्र (एक-तिहाई नहीं) पर है। नाली इसका स्थानीय नाम है, अब सिंचित और उर्वर है (इंदिरा गांधी नहर से), अर्द्धशुष्क मैदानी में आता है।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7166,
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की सबसे ऊंची चोटी “गुरु शिखर” किस ज़िले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सीकर"
+        },
+        {
+          "id": "opt2",
+          "text": "अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "झुंझुनू"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "गुरु शिखर (1, 722 मीटर) अरावली पर्वतमाला की सबसे ऊंची चोटी है और सिरोही जिले के माउंट आबू में स्थित है।",
+      "reference": "📌 PYQ — Platoon Commander Exam 2025",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7167,
+        "exam": "Platoon Commander Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का दक्षिण-पूर्वी पठारी क्षेत्र _____ के नाम से भी जाना जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अर्ध-शुष्क पठार"
+        },
+        {
+          "id": "opt2",
+          "text": "हाड़ौती पठार"
+        },
+        {
+          "id": "opt3",
+          "text": "शेखावाटी क्षेत्र"
+        },
+        {
+          "id": "opt4",
+          "text": "शुष्क मरुस्थलीय मैदान"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "कोटा, बूंदी, बारां, झालावाड़ वाला दक्षिण-पूर्वी पठारी भाग हाड़ौती पठार कहलाता है।",
+      "reference": "📌 PYQ — Village Development Officer Exam 2025",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7168,
+        "exam": "Village Development Officer Exam 2025",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कौन सी मरुभूमि स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "थार मरुभूमि"
+        },
+        {
+          "id": "opt2",
+          "text": "सहारा मरुभूमि"
+        },
+        {
+          "id": "opt3",
+          "text": "गोबी मरुभूमि"
+        },
+        {
+          "id": "opt4",
+          "text": "कालाहरी मरुभूमि"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "थार (ग्रेट इंडियन डेजर्ट) राजस्थान के पश्चिमी भाग में स्थित है, जो भारत का सबसे बड़ा रेगिस्तान है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7175,
+        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की निम्नलिखित में से कौन-सी पर्वत चोटी उदयपुर ज़िले में स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुरु शिखर"
+        },
+        {
+          "id": "opt2",
+          "text": "सेर"
+        },
+        {
+          "id": "opt3",
+          "text": "अचलगढ़"
+        },
+        {
+          "id": "opt4",
+          "text": "जरगा"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "जरगा पर्वत चोटी उदयपुर जिले में स्थित है।सेर(1597 मी.), अचलगढ़(1380 मी.), गुरूशिखर(1722 मी.) सिरोही जिले में है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7176,
+        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पीडीएस वस्तुओं का दक्षतम वितरण सुनिश्चित करना किस निगम का लक्ष्य है? (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "RSFCSCL (राजस्थान राज्य खाद्य और नागरिक आपूर्ति निगम लिमिटेड)"
+        },
+        {
+          "id": "opt2",
+          "text": "RIDCOR"
+        },
+        {
+          "id": "opt3",
+          "text": "RSRDC (राजस्थान राज्य सड़क विकास निगम)"
+        },
+        {
+          "id": "opt4",
+          "text": "RSRTC (राजस्थान राज्य परिवहन निगम)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "RSFCSCL ही राजस्थान में सार्वजनिक वितरण प्रणाली (PDS) का संचालन एवं राशन वितरण का जिम्मा संभालता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Social Studies (L-2 )",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 7177,
+        "exam": "3rd Grade Teacher 2025 Social Studies (L-2 )",
+        "year": 2025
+      }
+    }
+  ]
+}

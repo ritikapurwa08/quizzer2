@@ -1,0 +1,662 @@
+{
+  "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
+  "batchIndex": 7,
+  "batchName": "राजस्थानी भाषा एवं बोलियाँ भाग 7",
+  "subject": "राजस्थान की कला, संस्कृति एवं समाज",
+  "subjectSlug": "rajasthan-art-culture-society",
+  "topicSlug": "राजस्थानी-भाषा-एवं-बोलियाँ",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "‘रांगड़ी’ और ‘नीमाड़ी’ किस राजस्थानी बोली की उपबोलियाँ हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मालवी"
+        },
+        {
+          "id": "opt2",
+          "text": "वागड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "हाड़ौती"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावटी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "मालवा के राजपूतों में मालवी और मारवाड़ी के मिश्रण से बनी रांगड़ी बोली भी प्रचलित है। निमाड़ी मालवी की उप-बोली मानी जाती है। निमाड़ी को दक्षिणी राजस्थानी के नाम से भी जाना जाता है।",
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-IV",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6535,
+        "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-IV",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "विजयदान देथा की पुस्तक “दुविधा” पर कौन सी फिल्म का निर्माण हो चुका है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मूमल, फुलवारी"
+        },
+        {
+          "id": "opt2",
+          "text": "अलेखू हिटलर"
+        },
+        {
+          "id": "opt3",
+          "text": "दुविधा, पहेली"
+        },
+        {
+          "id": "opt4",
+          "text": "उलझन, सुलझन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "विजयदान देथा की पुस्तक “दुविधा” पर “पहेली” फिल्म बनाई गई है। विजयदान देथा की अन्य रचनाएं: सपन प्रिया, उलझन, अंतराल, चौधराइन की चतुराई",
+      "reference": "📌 PYQ — REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6537,
+        "exam": "REET-2022 Level 2 (सामाजिक अध्ययन) Shift-II",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हिंदी बोलने वालों की संख्या की दृष्टि से राजस्थान देश में ______ स्थान पर है, जो इस रेगिस्तानी राज्य को हिंदी पट्टी का ‘हृदय’ बनाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दूसरे"
+        },
+        {
+          "id": "opt2",
+          "text": "तीसरे"
+        },
+        {
+          "id": "opt3",
+          "text": "चौथे"
+        },
+        {
+          "id": "opt4",
+          "text": "पांचवें"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-2)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6538,
+        "exam": "Police Constable Exam (15 May 2022 Shift-2)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आर.सी. निगम द्वारा ‘जनगणना में मातृभाषाओं पर भाषा पुस्तिका’ में, किस भाषा को विस्तृत क्षेत्र में प्रसारित पश्चिमी राजस्थान की प्रमुख बोली के रूप में वर्गीकृत किया गया और देशी वक्ताओं द्वारा भाषण के एक सामान्य रूप के रूप में भी लिखा गया है जो संपूर्ण देश में फैले हुए पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "शेखावाटी"
+        },
+        {
+          "id": "opt2",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "धुंधारी"
+        },
+        {
+          "id": "opt4",
+          "text": "हड़ौती"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "मारवाड़ी को पश्चिमी राजस्थान की प्रमुख बोली के रूप में वर्गीकृत किया गया। यह भाषा मारवाड़ क्षेत्र (जोधपुर, बीकानेर, जैसलमेर आदि) में व्यापक रूप से बोली जाती है और इसके वक्ता पूरे भारत में फैले हुए हैं। आर.सी. निगम की पुस्तिका में इसे एक ऐसी बोली के रूप में उल्लेखित किया गया जो न केवल राजस्थान में, बल्कि देश के अन्य हिस्सों में भी अपने देशी वक्ताओं द्वारा बोली और लिखी जाती है।",
+      "reference": "📌 PYQ — Police Constable Exam (15 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6539,
+        "exam": "Police Constable Exam (15 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "यह इंडो-आर्यन भाषा परिवार की एक राजस्थानी भाषा है और राजस्थान के चुरू, झुंझुनू और सीकर जिलों में लगभग 30 लाख लोगों द्वारा बोली जाती है। भाषा का नाम बताइए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मारवाड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "हरौती"
+        },
+        {
+          "id": "opt3",
+          "text": "धुंधारी"
+        },
+        {
+          "id": "opt4",
+          "text": "शेखावाटी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — Police Constable Exam (13 May 2022 Shift-1)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6542,
+        "exam": "Police Constable Exam (13 May 2022 Shift-1)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘मरूवाणी’ क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर रेडियो स्टेशन से प्रसारित कार्यक्रम"
+        },
+        {
+          "id": "opt2",
+          "text": "राजस्थानी भाषा की मासिक पत्रिका"
+        },
+        {
+          "id": "opt3",
+          "text": "राजस्थानी भाषा का शब्दकोष"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रमुख राजस्थानी गीतों का संग्रह"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — RSMSSB VDO Mains 2022",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6543,
+        "exam": "RSMSSB VDO Mains 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "लोककथा कैवणियै नै कांई कैयो जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बातपोस"
+        },
+        {
+          "id": "opt2",
+          "text": "बातेरी"
+        },
+        {
+          "id": "opt3",
+          "text": "कोथ"
+        },
+        {
+          "id": "opt4",
+          "text": "भोपौ"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6544,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जिण भांत फौज में नगारौ चाइजै उणी भांत बात में कांई जरुरी हुवै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हलकारो"
+        },
+        {
+          "id": "opt2",
+          "text": "हुंकारौ"
+        },
+        {
+          "id": "opt3",
+          "text": "थैकारो"
+        },
+        {
+          "id": "opt4",
+          "text": "जैकारो"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6545,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी लोक में पहेली नैं कांई कैयो जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गिंगरथ"
+        },
+        {
+          "id": "opt2",
+          "text": "वात"
+        },
+        {
+          "id": "opt3",
+          "text": "आडी"
+        },
+        {
+          "id": "opt4",
+          "text": "टपूकड़ा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान मांय जूनै बगत स्यूं आडी कैवण री परंपरा रैयी है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Social Studies L2",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6546,
+        "exam": "3rd Grade Teacher 2022 Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“कुसुम्बा” निम्न में से किससे संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विवाह संस्कार"
+        },
+        {
+          "id": "opt2",
+          "text": "व्यंजन ( खाद्य सामग्री)"
+        },
+        {
+          "id": "opt3",
+          "text": "अफीम एवम् शराब"
+        },
+        {
+          "id": "opt4",
+          "text": "परम्परागत हथियार"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कुसुम्बा राजस्थान में अफीम से बनी शराब को कहते हैं।",
+      "reference": "📌 PYQ — A.R.O. (GK and Plant Pathology) 2022",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6547,
+        "exam": "A.R.O. (GK and Plant Pathology) 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में स्त्री परिधान ‘पोमचा’ को कहा जाता हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पीला"
+        },
+        {
+          "id": "opt2",
+          "text": "कैंवर जोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "कटकी"
+        },
+        {
+          "id": "opt4",
+          "text": "फेटिया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पोमचा को “पीला” कहा जाता है। यह नवजात शिशु की मां के लिए विशेष रूप से दिया जाता है।",
+      "reference": "📌 PYQ — RSMSSB House Keeper 2022",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6548,
+        "exam": "RSMSSB House Keeper 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में ‘बीड़’ _______ स्थानीय नाम है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चारागाह का"
+        },
+        {
+          "id": "opt2",
+          "text": "केटीले वन का"
+        },
+        {
+          "id": "opt3",
+          "text": "तिलहन का"
+        },
+        {
+          "id": "opt4",
+          "text": "खाद्यान्न का"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — Lab Assistant Exam 2022 (Home Science)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6549,
+        "exam": "Lab Assistant Exam 2022 (Home Science)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी व्यक्ति विशेष और राजवंश की उपलब्धियों और घटनाओं पर प्रकाश डालने वाली कृतियों को ____ कहा जाता है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विगत"
+        },
+        {
+          "id": "opt2",
+          "text": "प्रकास"
+        },
+        {
+          "id": "opt3",
+          "text": "वेली"
+        },
+        {
+          "id": "opt4",
+          "text": "साखी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "ऐतिहासिक वेलि ग्रंथ वेलियो छन्द में लिखे हुए हैं। इसमें राजा-महाराजा, सामंतों आदि की वीरता, स्वामिभक्ति, विद्वता, वंशावली आदि का उल्लेख मिलता है। इनके विविध विषय रहे है, जो धार्मिक, ऐतिहासिक रहे हैं।",
+      "reference": "📌 PYQ — Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6551,
+        "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam - 2022",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थानी रा पैला कहाणीकार किणनैं मान्या जावै -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बैजनाथ पंवार"
+        },
+        {
+          "id": "opt2",
+          "text": "शिवचन्द भरतिया"
+        },
+        {
+          "id": "opt3",
+          "text": "दामोदर शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीलाल नथमल जोशी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थानी भाषा का पहला उपन्यास – शिवचंद भरतिया का कनक सुंदर माना जाता है। शिवचंद्र भरतिया को राजस्थान का भारतेंदु हरिश्चंद्र कहा जाता है।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6554,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘ढोला मारु रा दूहा’ कृति रे नायक ढोला रो असल नांव कांई हो -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नळ"
+        },
+        {
+          "id": "opt2",
+          "text": "पिंगल"
+        },
+        {
+          "id": "opt3",
+          "text": "नरवर"
+        },
+        {
+          "id": "opt4",
+          "text": "साल्हकुमार"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6555,
+        "exam": "3rd Grade Teacher 2022 Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अमर चूनड़ी कहाणी - संग्रह रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सत्यनारायण सोनी"
+        },
+        {
+          "id": "opt2",
+          "text": "नृसिंह राजपुरोहित"
+        },
+        {
+          "id": "opt3",
+          "text": "मूलचंद प्राणेस"
+        },
+        {
+          "id": "opt4",
+          "text": "नानूराम संस्कर्ता"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6556,
+        "exam": "3rd Grade Teacher 2022 Sindhi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "हाड़ौती अंचल रा चावा गीतकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रेवंतदान चारण"
+        },
+        {
+          "id": "opt2",
+          "text": "चन्द्रसिंह हाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुराजसिंह हाड़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "गणेशलाल व्यास"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6560,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘वीर सतसई’ रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नाथूसिंह महियारिया"
+        },
+        {
+          "id": "opt2",
+          "text": "उदयराज ऊजळ"
+        },
+        {
+          "id": "opt3",
+          "text": "केसरीसिंह बारहठ"
+        },
+        {
+          "id": "opt4",
+          "text": "हिंगळाज दान कविया"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "कविराज नाथूसिंह महियारिआ ने डिंगल भाषा में अनेकों रचनाएं लिखी हैं जिनमे करणी शतक, वीर सतसई, चूण्डा शतक, हाड़ी शतक, झाला मान शतक अत्यंत प्रदिद्ध हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6561,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘हालां झालां रा कुंडळिया’ काव्य रचना रा सिरजक है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ठाकुर जसाजी"
+        },
+        {
+          "id": "opt2",
+          "text": "बांकीदास"
+        },
+        {
+          "id": "opt3",
+          "text": "मोहन आलोक"
+        },
+        {
+          "id": "opt4",
+          "text": "ईसरदास"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6563,
+        "exam": "3rd Grade Teacher 2022 Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘लू’ काव्य रा रचनाकार है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चन्द्रसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "सुमेरसिंह शेखावत"
+        },
+        {
+          "id": "opt3",
+          "text": "नंद भारद्वाज"
+        },
+        {
+          "id": "opt4",
+          "text": "नानूराम संस्कर्ता"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बादली, सांझ, लू के रचनाकार चंद्रसिंह बिरकाली हैं।",
+      "reference": "📌 PYQ — 3rd Grade Teacher 2022 English L2",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 6565,
+        "exam": "3rd Grade Teacher 2022 English L2",
+        "year": 2022
+      }
+    }
+  ]
+}

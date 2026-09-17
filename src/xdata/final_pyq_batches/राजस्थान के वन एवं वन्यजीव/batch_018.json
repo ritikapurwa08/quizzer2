@@ -1,0 +1,669 @@
+{
+  "masterTopic": "राजस्थान के वन एवं वन्यजीव",
+  "batchIndex": 18,
+  "batchName": "राजस्थान के वन एवं वन्यजीव भाग 18",
+  "subject": "राजस्थान का भूगोल एवं अर्थव्यवस्था",
+  "subjectSlug": "rajasthan-geography-economy",
+  "topicSlug": "राजस्थान-के-वन-एवं-वन्यजीव",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित मेलों को उनके आयोजन के माह से सुमेलित कीजिए एवं नीचे दिये गये सही कूट का चयन कीजिए: मेला माह A. पुष्कर I. चैत्र B. जीणमाता II. भाद्रपद C. भर्तृहरि III. कार्तिक D. डिग्गी IV. श्रावण 150 YCT कूट: A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "III I II IV"
+        },
+        {
+          "id": "opt2",
+          "text": "IV II I III"
+        },
+        {
+          "id": "opt3",
+          "text": "I III IV II"
+        },
+        {
+          "id": "opt4",
+          "text": "II IV III I"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – मेला माह पुष्कर – र्काितक जीणमाता – चैत्र भर्तृहरि – भाद्रपद डिग्गी – श्रावण",
+      "reference": "📌 PYQ — RPSC Agriculture Officer 2020",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16225,
+        "exam": "RPSC Agriculture Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-I व सूची-II को ुसमेल करते हुए सही उत्तर लिखिए: सूचीI सूचीII A. देवनारायण मेला 1. भाद्रपद शुक्ल द्वितीया B. रामदेवजी मेला 2. भाद्रपद शुक्ल नवमी C. वीर फत्ताजी मेला 3. भाद्रपद शुक्ल सप्तमी D. तेजाजी मेला 4. भाद्रपद शुक्ल दशमी A B C D",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 1 2 4"
+        },
+        {
+          "id": "opt2",
+          "text": "4 2 1 3"
+        },
+        {
+          "id": "opt3",
+          "text": "2 3 1 4"
+        },
+        {
+          "id": "opt4",
+          "text": "2 4 3 1"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "सही सुमेलन इस प्रकार है – सूची-I सूची-II देवनारायण मेला – भाद्रपद शुक्ल सप्तमी रामदेवजी मेला – भाद्रपद शुक्ल द्वितीय वीर फत्ताजी मेला – भाद्रपद शुक्ल नवमी तेजाजी मेला – भाद्रपद शुक्ल दशमी",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16226,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के कौन से क्षेत्र में एन्टीसोल समूह की मृदाएँ/मिट्टियाँ पायी जाती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "दक्षिणी पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "दक्षिणी भाग"
+        },
+        {
+          "id": "opt3",
+          "text": "पश्चिमी भाग"
+        },
+        {
+          "id": "opt4",
+          "text": "पूर्वी भाग"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "एन्टीसोल समूह की मिट्टी राजस्थान के पश्चिमी क्षेत्र में पाई जाती है। राजस्थान में एंटीसोल की महत्त्वपूर्ण उप-सीमाएँ है- (i) समेंट्स(ii) ओर्थेट्स(iii) फ्लुवेंट्स",
+      "reference": "📌 PYQ — RPSC Evaluation Officer 2020",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16227,
+        "exam": "RPSC Evaluation Officer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन-सा वृक्ष राजस्थान का राज्य वृक्ष है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खेजड़ी"
+        },
+        {
+          "id": "opt2",
+          "text": "नीम"
+        },
+        {
+          "id": "opt3",
+          "text": "कीकर"
+        },
+        {
+          "id": "opt4",
+          "text": "शीशम"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "खेजड़ी राजस्थान का राज्य वृक्ष है। इसे राजस्थान का कल्पवृक्ष भी कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16228,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस जिले में लाल मिट्टी मिलती है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "बाँसवाड़ा"
+        },
+        {
+          "id": "opt3",
+          "text": "सिरोही"
+        },
+        {
+          "id": "opt4",
+          "text": "कोटा"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "बाँसवाड़ा, डूँगरपुर, जिलों में मुख्य तौर पर तथा उदयपुर वे चित्तौड़गढ़ के कुछ भागों में लाल मिट्टी पाई जाती है। इसमें लौह ऑक्साइड की प्रचुर मात्रा होती है।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16229,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से राजस्थान का कौन-सा क्षेत्र मानसून के अरब सागर शाखा से अधिकतम वर्षा प्राप्त करता है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उत्तर तथा उत्तर-पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt2",
+          "text": "पूर्वी क्षेत्र"
+        },
+        {
+          "id": "opt3",
+          "text": "मध्य अरावली"
+        },
+        {
+          "id": "opt4",
+          "text": "दक्षिण तथा दक्षिण-पूर्वी क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान का दक्षिण एवं दक्षिण पूर्वीं क्षेत्र अरब सागर की शाखा से सर्वाधिक वर्षा प्राप्त करता है क्योंकि यह क्षेत्र अरावली पर्वतमाला तथा पश्चिमी घाट से निकट है अत: मानसूनी पवनें इनसे टकराकर वर्षा करती है।",
+      "reference": "📌 PYQ — RPSC Lecturer 2020",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16230,
+        "exam": "RPSC Lecturer 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में घास के मैदान और चरागाह कहलाते हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "बीड"
+        },
+        {
+          "id": "opt2",
+          "text": "द्वार"
+        },
+        {
+          "id": "opt3",
+          "text": "बुग्याल"
+        },
+        {
+          "id": "opt4",
+          "text": "बंजर क्षेत्र"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "बीकानेर, सीकर और जोधपुर जिलो में स्थानीय भाषा में घास के मैदानों व चरागाहो को बीड कहा जाता है। बुग्याल उत्तराखण्ड स्थित घास के मैदान है। जबकि भारत के पूर्व और पूर्वोत्तर भाग में हिमालय की तलहटी से दक्षिण और ब्रह्मपुत्र नदी से उत्तर के बीच के जलोढ़ मैदान को द्वार/दुआर कहा जाता है।",
+      "reference": "📌 PYQ — RPSC Deputy Commandant 2020",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16231,
+        "exam": "RPSC Deputy Commandant 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "रणखार रिजर्व स्थित है –",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जोधपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर में"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर में"
+        },
+        {
+          "id": "opt4",
+          "text": "जालौर में"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "25 अप्रैल 2022 को राजस्थान सरकार द्वारा जालोर जिले की चितलवाना तहसील की खेजडिय़ाली ग्राम पंचायत के राजस्व गांव रणखार को वन्य जीव संरक्षण अधिनियम 1972 की धारा 36क के तहत राजस्थान का 16वां कंजर्वेशन रिजर्व(संरक्षण आरक्षित) घोषित किया गया। इस क्षेत्र में जंगली गधे, चिंकारा, जंगली बिल्ली और जरख बहुतायत में पाए जाते है। गुजराती जंगली गधे घुड़खर के लिए यह क्षेत्र प्रसिद्ध है।",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 2",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16736,
+        "exam": "Forester Exam 2020 Shift 2",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जीवाश्म उद्यान कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "reference": "📌 PYQ — Forester Exam 2020 Shift 1",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16738,
+        "exam": "Forester Exam 2020 Shift 1",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस जिले में रोटू संरक्षित क्षेत्र स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt2",
+          "text": "झुन्झुनू"
+        },
+        {
+          "id": "opt3",
+          "text": "बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रोटू आरक्षित वन राजस्थान के नागौर जिले में स्थित है। यह चिंकारा और काले हिरण का घर है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16740,
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM 2020",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में 75 से 110 सेन्टीमीटर औसत वर्षा वाले क्षेत्रों में निम्न में से किस प्रकार की वनस्पति पाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उष्ण कटिबंधीय काँटेदार वन"
+        },
+        {
+          "id": "opt2",
+          "text": "गुल्म तथा झाड़ी"
+        },
+        {
+          "id": "opt3",
+          "text": "शुष्क वन"
+        },
+        {
+          "id": "opt4",
+          "text": "शुष्क सागवान वन"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "शुष्क सागवान के वन राजस्थान के दक्षिणी भाग में स्थित हैं। सागवान के जंगल 75 से 110 सेमी वार्षिक औसत वर्षा वाले क्षेत्रों में पाए जाते हैं।",
+      "reference": "📌 PYQ — Veterinary Officer Exam 2019",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16232,
+        "exam": "Veterinary Officer Exam 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में उष्ण-कटिबंधीय शुष्क पतझड़ वाले वन कहां पाये जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt3",
+          "text": "दौसा"
+        },
+        {
+          "id": "opt4",
+          "text": "टोंक"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अरावली पर्वतमाला की उत्तरी और पूर्वी ढलानें, ज्यादातर अलवर, भरतपुर और धौलपुर जिलों में, इस प्रकार के वनों से आच्छादित हैं।",
+      "reference": "📌 PYQ — JSA Serology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16233,
+        "exam": "JSA Serology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सदाबहार वन पाए जाते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उदयपुर में"
+        },
+        {
+          "id": "opt2",
+          "text": "माउंट आबू में"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा में"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर में"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में, माउंट आबू के आसपास के क्षेत्रों में उपोष्णकटिबंधीय सदाबहार वन पाए जाते हैं",
+      "reference": "📌 PYQ — JSA Toxicology-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16234,
+        "exam": "JSA Toxicology-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अधिकतम प्रशासनिक वन क्षेत्र निम्नलिखित श्रेणियों में से किससे सम्बंधित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संरक्षित वन"
+        },
+        {
+          "id": "opt2",
+          "text": "आरक्षित वन"
+        },
+        {
+          "id": "opt3",
+          "text": "वर्जित वन"
+        },
+        {
+          "id": "opt4",
+          "text": "अवर्गीकृत वन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16235,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "JFM का पूरा नाम क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "संयुक्त वन प्रबंधन"
+        },
+        {
+          "id": "opt2",
+          "text": "कनिष्ठ वन प्रबंधन"
+        },
+        {
+          "id": "opt3",
+          "text": "ज्यूरी वन प्रबंधन"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर वन प्रबंधन"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "reference": "📌 PYQ — JSA Chemistry-2019(Rajasthan Gk)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16236,
+        "exam": "JSA Chemistry-2019(Rajasthan Gk)",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वैष्णव सम्प्रदाय के पुष्ठिमार्ग से सम्बंधित केन्द्रों को चिन्हित कीजिये –(i) नाथद्वारा(ii) कांकरौली(iii) सलेमाबाद(iv) गलता सही कूट को चुनिए:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(i) and (iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(i) and (ii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii) and (iv)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वैष्णव धर्म के चार प्रसिद्ध आचार्य हुए जिनमें िंनबार्क, चैतन्य महाप्रभु, रामानुज और वल्लभाचार्य थे। वल्लभाचार्य ने पुष्टिमार्ग की स्थापना की थी। राजस्थान में पुष्टिमार्ग से संबंधित केन्द्र नाथद्वारा और गलता (जयपुर) में स्थित है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019 RPSC Asst. Agri. Officer 2015 Paper-I",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16237,
+        "exam": "RPSC Food Safety Officer 2019 RPSC Asst. Agri. Officer 2015 Paper-I",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘धोलीदूब’ ग्राम किस सम्प्रदाय से सम्बन्धित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जसनाथी"
+        },
+        {
+          "id": "opt2",
+          "text": "दरियापंथी"
+        },
+        {
+          "id": "opt3",
+          "text": "दारूपंथी"
+        },
+        {
+          "id": "opt4",
+          "text": "लालदासी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मध्यकाल में मेवात क्षेत्र में र्धािमक पुनर्जागरण का कार्य प्रसिद्ध संत लालदास जी ने किया था। इनका जन्म धौलीदूब गाँव (अलवर) में1540ई. में हुआ था। इन्होंने लालदासी संप्रदाय की स्थापना की थी।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16238,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मेवाड़ी भाषा में योगसूत्र, भगवद्गीता एवं सांख्यकारिका ग्रंथों की रचना किसने की?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चतुरसिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "पृथ्वीराज राठौड़"
+        },
+        {
+          "id": "opt3",
+          "text": "दुरसा आढ़ा"
+        },
+        {
+          "id": "opt4",
+          "text": "शिवदास"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "चतुर सिंह ने मेवाड़ी भाषा में योगसूत्र, भगवद्गीता एवं सांख्यकारिका ग्रंथों की रचना की है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16239,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस लोकदेवता की पत्नी ‘सती’ नहीं हुई?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हड़बूजी"
+        },
+        {
+          "id": "opt2",
+          "text": "गोगाजी"
+        },
+        {
+          "id": "opt3",
+          "text": "तेजाजी"
+        },
+        {
+          "id": "opt4",
+          "text": "पाबूजी"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "हड़भूजी पंचपीरों में से एक लोक देवता हैं। ये बालीनाथ के शिष्य थे। इनका प्रमुख स्थल बैगटी जोधपुर है। इनकी पत्नी सती नहीं हुई थी।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16240,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "चित्तौड़गढ़ का कुंभ स्वामी मंदिर किस देवता को समर्पित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "सूर्य"
+        },
+        {
+          "id": "opt2",
+          "text": "शिव"
+        },
+        {
+          "id": "opt3",
+          "text": "विष्णु"
+        },
+        {
+          "id": "opt4",
+          "text": "भैरवनाथ"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "चित्तौड़गढ़ का कुंभ स्वामी मंदिर भगवान विष्णु को सर्मिपत है।",
+      "reference": "📌 PYQ — RPSC Food Safety Officer 2019",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 16241,
+        "exam": "RPSC Food Safety Officer 2019",
+        "year": 2019
+      }
+    }
+  ]
+}
