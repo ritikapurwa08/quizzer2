@@ -12,6 +12,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Check, Copy, AlertCircle, Loader2 } from "lucide-react";
+import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
 
 interface Option { _id: string; name: string; nameHindi?: string }
 
