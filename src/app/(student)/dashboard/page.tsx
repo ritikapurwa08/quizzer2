@@ -6,6 +6,7 @@ import { useQuery } from "convex/react";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { WeakSubjectsCard } from "@/components/dashboard/WeakSubjectsCard";
 import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
+import { PerformanceRadarChart } from "@/components/dashboard/PerformanceRadarChart";
 import { LeaderboardCard } from "@/components/shared/LeaderboardCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
@@ -106,10 +107,27 @@ export default function DashboardPage() {
         </div>
       )}
 
-      {/* 3. Weak Subjects & Daily Progress — stacked on mobile, side-by-side on desktop */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {/* 3. Performance Analytics — Weak Areas, Skill Radar & Daily Progress */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {stats && <WeakSubjectsCard subjects={stats.weakSubjects} />}
-        {stats && <DailyProgressCard data={stats.dailyProgress} subjects={subjects ?? []} />}
+        {stats && (
+          <PerformanceRadarChart
+            data={
+              stats.weakSubjects && stats.weakSubjects.length >= 3
+                ? stats.weakSubjects.map((ws: any) => ({
+                    subject: ws.name,
+                    score: Math.round(ws.accuracy),
+                  }))
+                : undefined
+            }
+            averageScore={Math.round(stats.overallAccuracy)}
+          />
+        )}
+        {stats && (
+          <div className="md:col-span-2 lg:col-span-1">
+            <DailyProgressCard data={stats.dailyProgress} subjects={subjects ?? []} />
+          </div>
+        )}
       </div>
 
       {/* 4. Leaderboard */}

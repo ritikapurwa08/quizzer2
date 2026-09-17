@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { QuestionImportEditor } from "./QuestionImportEditor";
-import { ImportJson, validateGeminiComposition } from "@/lib/validators/question";
-import { extractYouTubeReferencesFromLlmOutput } from "@/lib/importParser";
+import { ImportJson } from "@/lib/validators/question";
 import { Id } from "../../../convex/_generated/dataModel";
 import { useToast } from "@/components/ui/Toast";
 import { getTopicDisplayName } from "@/lib/utils";
@@ -16,21 +15,14 @@ import { Button } from "@/components/ui/button";
 export function ImportWizard() {
   const [editorCode, setEditorCode] = useState("");
   const [parsed, setParsed] = useState<ImportJson | null>(null);
-  const [errors, setErrors] = useState<string[]>([]);
   const [isImporting, setIsImporting] = useState(false);
 
   const [selectedSubjectId, setSelectedSubjectId] = useState<Id<"subjects"> | "">("");
   const [selectedTopicId, setSelectedTopicId] = useState<Id<"topics"> | "">("");
   const [subtopicName, setSubtopicName] = useState("Part 1");
-  const [questionCount, setQuestionCount] = useState(20);
   const [negativeMarking, setNegativeMarking] = useState(true);
 
-  const [lastImportedSet, setLastImportedSet] = useState<{
-    id: Id<"testSets">;
-    name: string;
-    count: number;
-    timeSeconds: number;
-  } | null>(null);
+  const [lastImportedSet, setLastImportedSet] = useState<{ id: Id<"testSets">; count: number; timeSeconds: number } | null>(null);
 
   const { showToast } = useToast();
 
@@ -45,7 +37,7 @@ export function ImportWizard() {
     selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
   ) ?? [];
 
-  const importTestSetWithPyqs = useMutation(api.questions.importTestSetWithPyqs);
+  const importTestSet = useMutation(api.questions.importTestSet);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
   // Auto-seed default syllabus if empty
@@ -108,14 +100,6 @@ export function ImportWizard() {
     setSubtopicName(val);
   }
 
-  const handleEditorChange = useCallback(
-    (code: string, parsedData: ImportJson | null, errs: string[]) => {
-      setParsed(parsedData);
-      setErrors(errs);
-    },
-    []
-  );
-
   async function handleImport() {
     if (!parsed || parsed.questions.length === 0) {
       showToast("No valid questions found to import.", "warning");
@@ -130,44 +114,12 @@ export function ImportWizard() {
       return;
     }
 
-    // Critical Validation: Block import if composition contract is violated (16 PYQ + 4 AI_NEW = 20)
-    const composition = validateGeminiComposition(parsed.questions);
-    if (!composition.isValid20) {
-      showToast(
-        `Invalid question composition. Expected: 16 PYQ + 4 AI_NEW. Received: ${composition.pyqCount} PYQ + ${composition.pyqModifiedCount ? `${composition.pyqModifiedCount} PYQ_MODIFIED + ` : ""}${composition.aiNewCount} AI_NEW.`,
-        "warning"
-      );
-      return;
-    }
-
-    // Source Question Validation: Every PYQ must have a valid sourceQuestionId
-    const missingSource = parsed.questions.find((q) => {
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
-      return (st === "PYQ" || st === "PYQ_EXACT") && (!sid || typeof sid !== "number" || sid <= 0);
-    });
-    if (missingSource) {
-      showToast("Invalid import: Every PYQ question must contain a valid sourceQuestionId.", "warning");
-      return;
-    }
-
-    // Source Question Validation: AI_NEW must not have a sourceQuestionId
-    const invalidAi = parsed.questions.find((q) => {
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId;
-      return st === "AI_NEW" && sid !== undefined && sid !== null;
-    });
-    if (invalidAi) {
-      showToast("Invalid import: AI_NEW questions must not have a sourceQuestionId.", "warning");
-      return;
-    }
-
     setIsImporting(true);
     const startTime = Date.now();
 
     try {
-      // 1. Atomically create Test Set, insert 20 questions, and track 16 usedPyqs in Convex
-      const result = await importTestSetWithPyqs({
+      // Import the selected set atomically.
+      const result = await importTestSet({
         topicId: selectedTopicId as Id<"topics">,
         name: subtopicName.trim(),
         negativeMarking,
@@ -176,29 +128,11 @@ export function ImportWizard() {
       const testSetId = result.testSetId;
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
-      // Persist YouTube references for this topic if not already stored
-      if (selectedTopicId) {
-        try {
-          const ytKey = `quizzer2_youtube_refs_${selectedTopicId}`;
-          const existingYt = localStorage.getItem(ytKey);
-          if (!existingYt) {
-            const extractedYt = extractYouTubeReferencesFromLlmOutput(editorCode);
-            if (extractedYt && extractedYt.length > 0) {
-              localStorage.setItem(ytKey, JSON.stringify(extractedYt));
-            }
-          }
-        } catch {
-          // ignore
-        }
-      }
-
-      // 2. User feedback
-      const skippedNote = errors.length > 0 ? ` (${errors.length} malformed question(s) skipped)` : "";
-      showToast(`✅ ${result.imported} Questions Imported Successfully! (16 PYQs tracked)`, "success");
+      // Feedback
+      showToast(`✅ ${result.imported} questions imported successfully.`, "success");
 
       setLastImportedSet({
         id: testSetId,
-        name: subtopicName.trim(),
         count: result.imported,
         timeSeconds: parseFloat(elapsed.toFixed(1)),
       });
@@ -271,7 +205,7 @@ export function ImportWizard() {
       {/* Streamlined Question Import Editor */}
       <QuestionImportEditor
         initialValue={editorCode}
-        onChange={handleEditorChange}
+        onChange={(_, parsedData) => setParsed(parsedData)}
         subjectsList={subjects}
         topicsList={topics}
         selectedSubjectId={selectedSubjectId}
@@ -280,8 +214,6 @@ export function ImportWizard() {
         onTopicChangeId={handleTopicChangeId}
         subtopicName={subtopicName}
         onSubtopicNameChange={handleSubtopicNameChange}
-        questionCount={questionCount}
-        onQuestionCountChange={setQuestionCount}
         negativeMarking={negativeMarking}
         onNegativeMarkingChange={setNegativeMarking}
         isImporting={isImporting}

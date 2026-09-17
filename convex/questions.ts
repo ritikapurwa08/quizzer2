@@ -3,6 +3,24 @@ import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 import { questionInputValidator, questionTypeValidator } from "./lib/validators";
 
+
+function normalizeForDuplicateCheck(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function tokenSimilarity(a: string, b: string): number {
+  const aTokens = new Set(normalizeForDuplicateCheck(a).split(" ").filter(Boolean));
+  const bTokens = new Set(normalizeForDuplicateCheck(b).split(" ").filter(Boolean));
+  if (!aTokens.size || !bTokens.size) return 0;
+  let intersection = 0;
+  for (const token of aTokens) if (bTokens.has(token)) intersection++;
+  return (2 * intersection) / (aTokens.size + bTokens.size);
+}
+
 export const listByTestSet = query({
   args: { testSetId: v.id("testSets") },
   handler: async (ctx, args) => {
@@ -153,126 +171,7 @@ export const remove = mutation({
   },
 });
 
-/**
- * Bulk import — runs atomically per test set:
- * PYQ-first mode: accepts any batch of up to 20 PYQ questions.
- * Ensures positive integer sourceQuestionIds for PYQ/PYQ_MODIFIED,
- * inserts questions, and tracks used sourceQuestionIds in usedPyqs table.
- * No longer enforces legacy 16 PYQ + 4 AI_NEW composition.
- */
-export const bulkImport = mutation({
-  args: {
-    testSetId: v.id("testSets"),
-    questions: v.array(questionInputValidator),
-  },
-  handler: async (ctx, args) => {
-    await requireAdmin(ctx);
-    const testSet = await ctx.db.get(args.testSetId);
-    if (!testSet) throw new Error("Test set not found");
-    const topic = await ctx.db.get(testSet.topicId);
-    const subjectId = topic?.subjectId;
-
-    if (args.questions.length === 0) throw new Error("No questions provided.");
-    if (args.questions.length > 20) throw new Error(`Batch too large: ${args.questions.length} questions (max 20).`);
-
-    const sourceIds: number[] = [];
-
-    for (let i = 0; i < args.questions.length; i++) {
-      const q = args.questions[i];
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId;
-
-      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") {
-        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-          throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
-        }
-        sourceIds.push(sid);
-      } else if (st === "AI_NEW") {
-        if (sid !== undefined && sid !== null) {
-          throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
-        }
-      }
-    }
-
-    // Duplicate sourceQuestionId check within batch
-    if (new Set(sourceIds).size !== sourceIds.length) {
-      throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
-    }
-
-    // Cross-topic duplicate check (prevent re-importing same PYQ into same topic)
-    if (topic) {
-      for (const sid of sourceIds) {
-        const alreadyUsed = await ctx.db
-          .query("usedPyqs")
-          .withIndex("by_topic_source", (q) =>
-            q.eq("topicId", testSet.topicId).eq("sourceQuestionId", sid)
-          )
-          .first();
-        if (alreadyUsed) {
-          throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
-        }
-      }
-    }
-
-    const existing = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
-      .collect();
-
-    let order = existing.length;
-    const usedAt = Date.now();
-
-    for (const q of args.questions) {
-      const questionId = await ctx.db.insert("questions", {
-        testSetId: args.testSetId,
-        type: q.type,
-        questionText: q.questionText,
-        options: q.options,
-        correctAnswer: q.correctAnswer,
-        explanation: q.explanation,
-        reference: q.reference,
-        difficulty: q.difficulty,
-        order: order++,
-        meta: q.meta,
-      });
-
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId;
-      if (
-        topic &&
-        subjectId &&
-        (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") &&
-        typeof sid === "number" &&
-        Number.isInteger(sid) &&
-        sid > 0
-      ) {
-        await ctx.db.insert("usedPyqs", {
-          subjectId,
-          topicId: testSet.topicId,
-          sourceQuestionId: sid,
-          testSetId: args.testSetId,
-          questionId,
-          usedAt,
-        });
-      }
-    }
-
-    await ctx.db.patch(testSet._id, {
-      questionCount: existing.length + args.questions.length,
-    });
-
-    return { imported: args.questions.length, usedTracked: sourceIds.length };
-  },
-});
-
-/**
- * All-in-one atomic test set import mutation for Admin workflow:
- * Atomically creates the testSet, inserts up to 20 PYQ questions, and records usedPyqs.
- * PYQ-first mode: accepts any batch of 1–20 pure PYQ questions.
- * Legacy 16 PYQ + 4 AI_NEW composition is no longer enforced.
- * If any check fails, none of the records are created.
- */
-export const importTestSetWithPyqs = mutation({
+export const importTestSet = mutation({
   args: {
     topicId: v.id("topics"),
     name: v.string(),
@@ -281,55 +180,40 @@ export const importTestSetWithPyqs = mutation({
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
-
     const topic = await ctx.db.get(args.topicId);
     if (!topic) throw new Error("Topic not found");
-    const subjectId = topic.subjectId;
+    if (args.questions.length === 0) throw new Error("No questions to import");
+    if (args.questions.length > 20) throw new Error("A set cannot contain more than 20 questions.");
 
-    if (args.questions.length === 0) throw new Error("No questions provided.");
-    if (args.questions.length > 20) throw new Error(`Batch too large: ${args.questions.length} questions (max 20).`);
+    // Verify against every question already stored in Convex. The source ZIP is external,
+    // so the database is the durable record of what has already been imported.
+    const existingQuestions = await ctx.db.query("questions").collect();
+    const incoming = args.questions.map((q) => ({
+      ...q,
+      normalized: normalizeForDuplicateCheck(q.questionText),
+    }));
 
-    // 1. Verify question sourceIds and collect PYQ ids
-    const sourceIds: number[] = [];
+    const seen = new Set<string>();
+    for (let i = 0; i < incoming.length; i++) {
+      const current = incoming[i];
+      if (!current.normalized) throw new Error(`Question ${i + 1} is empty.`);
+      if (seen.has(current.normalized)) {
+        throw new Error(`Duplicate question inside this set: question ${i + 1}.`);
+      }
+      seen.add(current.normalized);
 
-    for (let i = 0; i < args.questions.length; i++) {
-      const q = args.questions[i];
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId;
-
-      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") {
-        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-          throw new Error(`Question #${i + 1} (${st}) requires a valid integer sourceQuestionId.`);
+      for (const existing of existingQuestions) {
+        const existingNormalized = normalizeForDuplicateCheck(existing.questionText);
+        if (current.normalized === existingNormalized) {
+          throw new Error(`Duplicate question detected: question ${i + 1} already exists in an imported set.`);
         }
-        sourceIds.push(sid);
-      } else if (st === "AI_NEW") {
-        if (sid !== undefined && sid !== null) {
-          throw new Error(`Question #${i + 1} (AI_NEW) must NOT have a sourceQuestionId.`);
+        // High token overlap catches obvious paraphrases while avoiding aggressive fuzzy matching.
+        if (current.normalized.length >= 45 && existingNormalized.length >= 45 && tokenSimilarity(current.normalized, existingNormalized) >= 0.94) {
+          throw new Error(`Possible repeated question detected: question ${i + 1} is too similar to an existing imported question.`);
         }
-      } else {
-        throw new Error(`Question #${i + 1} has invalid or missing sourceType: ${st}`);
       }
     }
 
-    // 2. Duplicate protection within batch
-    if (new Set(sourceIds).size !== sourceIds.length) {
-      throw new Error("Duplicate sourceQuestionIds detected within the imported batch.");
-    }
-
-    // 3. Duplicate protection against existing usedPyqs for this topic
-    for (const sid of sourceIds) {
-      const alreadyUsed = await ctx.db
-        .query("usedPyqs")
-        .withIndex("by_topic_source", (q) =>
-          q.eq("topicId", args.topicId).eq("sourceQuestionId", sid)
-        )
-        .first();
-      if (alreadyUsed) {
-        throw new Error(`sourceQuestionId ${sid} has already been used for this topic.`);
-      }
-    }
-
-    // 4. Create testSet
     const siblings = await ctx.db
       .query("testSets")
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
@@ -343,11 +227,9 @@ export const importTestSetWithPyqs = mutation({
       questionCount: args.questions.length,
     });
 
-    // 5. Atomically insert questions and track usedPyqs
-    const usedAt = Date.now();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
-      const questionId = await ctx.db.insert("questions", {
+      await ctx.db.insert("questions", {
         testSetId,
         type: q.type,
         questionText: q.questionText,
@@ -359,164 +241,8 @@ export const importTestSetWithPyqs = mutation({
         order: i,
         meta: q.meta,
       });
-
-      const st = q.meta?.sourceType;
-      const sid = q.meta?.sourceQuestionId;
-      if (
-        (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED") &&
-        typeof sid === "number" &&
-        Number.isInteger(sid) &&
-        sid > 0
-      ) {
-        await ctx.db.insert("usedPyqs", {
-          subjectId,
-          topicId: args.topicId,
-          sourceQuestionId: sid,
-          testSetId,
-          questionId,
-          usedAt,
-        });
-      }
     }
 
-    return {
-      testSetId,
-      imported: args.questions.length,
-      usedTracked: sourceIds.length,
-    };
+    return { testSetId, imported: args.questions.length };
   },
 });
-
-
-/**
- * Idempotent test set import mutation for CLI/script workflow:
- * Creates or finds subject/topic/testSet, ensures exactly 10 questions, avoids duplicating questions.
- */
-export const importTestSetAtomic = mutation({
-  args: {
-    subjectSlug: v.string(),
-    subjectName: v.string(),
-    subjectNameHindi: v.optional(v.string()),
-    topicSlug: v.string(),
-    topicName: v.string(),
-    topicNameHindi: v.optional(v.string()),
-    testSetName: v.string(),
-    negativeMarking: v.boolean(),
-    questions: v.array(questionInputValidator),
-  },
-  handler: async (ctx, args) => {
-    // 1. Find or create subject
-    let subject = await ctx.db
-      .query("subjects")
-      .withIndex("by_slug", (q) => q.eq("slug", args.subjectSlug))
-      .unique();
-
-    if (!subject) {
-      const existingSubjects = await ctx.db.query("subjects").collect();
-      const subjectId = await ctx.db.insert("subjects", {
-        name: args.subjectName,
-        nameHindi: args.subjectNameHindi,
-        slug: args.subjectSlug,
-        order: existingSubjects.length,
-      });
-      subject = await ctx.db.get(subjectId);
-    }
-
-    if (!subject) throw new Error("Could not find or create subject");
-
-    // 2. Find or create topic
-    let topic = await ctx.db
-      .query("topics")
-      .withIndex("by_subject_slug", (q) =>
-        q.eq("subjectId", subject._id).eq("slug", args.topicSlug)
-      )
-      .unique();
-
-    if (!topic) {
-      const siblingTopics = await ctx.db
-        .query("topics")
-        .withIndex("by_subject", (q) => q.eq("subjectId", subject._id))
-        .collect();
-      const topicId = await ctx.db.insert("topics", {
-        subjectId: subject._id,
-        name: args.topicName,
-        nameHindi: args.topicNameHindi,
-        slug: args.topicSlug,
-        order: siblingTopics.length,
-      });
-      topic = await ctx.db.get(topicId);
-    }
-
-    if (!topic) throw new Error("Could not find or create topic");
-
-    // 3. Find or create testSet
-    const existingSets = await ctx.db
-      .query("testSets")
-      .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
-      .collect();
-
-    let testSet: (typeof existingSets)[number] | null =
-      existingSets.find((s) => s.name.trim() === args.testSetName.trim()) ?? null;
-
-    if (testSet) {
-      const existingQuestions = await ctx.db
-        .query("questions")
-        .withIndex("by_test_set", (q) => q.eq("testSetId", testSet!._id))
-        .collect();
-
-      // If test set already has >= the incoming question count, consider it already imported.
-      // Use >= 1 to prevent accidental duplicates; the CLI/importer handles idempotency.
-      if (existingQuestions.length >= args.questions.length) {
-        return {
-          status: "already_exists",
-          testSetId: testSet._id,
-          topicId: topic._id,
-          subjectId: subject._id,
-          imported: 0,
-          existingCount: existingQuestions.length,
-        };
-      }
-    } else {
-      const testSetId = await ctx.db.insert("testSets", {
-        topicId: topic._id,
-        name: args.testSetName,
-        negativeMarking: args.negativeMarking,
-        order: existingSets.length,
-        questionCount: 0,
-      });
-      testSet = await ctx.db.get(testSetId);
-    }
-
-    if (!testSet) throw new Error("Could not find or create testSet");
-
-    // 4. Insert questions
-    let order = 0;
-    for (const q of args.questions) {
-      await ctx.db.insert("questions", {
-        testSetId: testSet._id,
-        type: q.type,
-        questionText: q.questionText,
-        options: q.options,
-        correctAnswer: q.correctAnswer,
-        explanation: q.explanation,
-        reference: q.reference,
-        difficulty: q.difficulty,
-        order: order++,
-        meta: q.meta,
-      });
-    }
-
-    await ctx.db.patch(testSet._id, {
-      questionCount: args.questions.length,
-    });
-
-    return {
-      status: "imported",
-      testSetId: testSet._id,
-      topicId: topic._id,
-      subjectId: subject._id,
-      imported: args.questions.length,
-    };
-  },
-});
-

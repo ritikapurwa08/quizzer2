@@ -24,6 +24,11 @@
   --color-warning-foreground: var(--warning-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
 
   --radius-sm: 0.5rem;
   --radius: 0.75rem;
@@ -63,6 +68,12 @@
   /* ── Borders / Inputs ── */
   --border: #e5e5e5;
   --input: #e5e5e5;
+  /* ── Chart Colors ── */
+  --chart-1: #2563eb;
+  --chart-2: #059669;
+  --chart-3: #4f46e5;
+  --chart-4: #d97706;
+  --chart-5: #db2777;
 }
 
 .dark {
@@ -92,6 +103,12 @@
   /* ── Borders / Inputs ── */
   --border: #27272a;
   --input: #27272a;
+  /* ── Chart Colors ── */
+  --chart-1: #3b82f6;
+  --chart-2: #10b981;
+  --chart-3: #6366f1;
+  --chart-4: #f59e0b;
+  --chart-5: #ec4899;
 }
 
 *,

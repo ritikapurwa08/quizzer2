@@ -6,17 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "prepare:tests": "bun run src/scripts/pipeline/prepare_tests.ts",
-    "validate:tests": "bun run src/scripts/pipeline/validate_tests.ts",
-    "import:tests": "bun run src/scripts/pipeline/import_convex.ts",
-    "import:tests:prod": "bun run src/scripts/pipeline/import_convex.ts --prod",
-    "qa:pyq": "bun run src/scripts/pipeline/qa_and_dedupe_pyq.ts",
-    "import:pyq": "bun run src/scripts/pipeline/import_pyq_batches.ts",
-    "import:pyq:dry": "bun run src/scripts/pipeline/import_pyq_batches.ts --dry-run",
-    "import:pyq:prod": "bun run src/scripts/pipeline/import_pyq_batches.ts --prod",
-    "audit:gemini": "bun run src/scripts/pipeline/gemini_second_pass_audit.ts",
-    "audit:gemini:final": "bun run src/scripts/pipeline/gemini_final_audit_pipeline.ts"
+    "lint": "eslint"
   },
   "dependencies": {
     "@auth/core": "0.41.1",
@@ -32,6 +22,7 @@
     "next-themes": "^0.4.6",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "recharts": "^3.10.1",
     "shadcn": "^4.16.1",
     "tailwind-merge": "^3.6.0",
     "tw-animate-css": "^1.4.0"

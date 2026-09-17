@@ -109,17 +109,5 @@ export default defineSchema({
     // Enables newest-first default ordering in the wrong questions revision bank.
     .index("by_user_last_missed", ["userId", "lastMissedAt"]),
 
-  usedPyqs: defineTable({
-    subjectId: v.id("subjects"),
-    topicId: v.id("topics"),
-    sourceQuestionId: v.number(),
-    testSetId: v.id("testSets"),
-    questionId: v.id("questions"),
-    usedAt: v.number(),
-  })
-    .index("by_source_question_id", ["sourceQuestionId"])
-    .index("by_topic_source", ["topicId", "sourceQuestionId"])
-    .index("by_subject_topic", ["subjectId", "topicId"])
-    .index("by_topic", ["topicId"]),
 });
 

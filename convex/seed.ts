@@ -9,299 +9,150 @@ function slugify(text: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
+/**
+ * Authoritative Master Topic List for Rajasthan GK (73 topics across 5 canonical subjects).
+ * India GK, English, etc. are strictly excluded as per syllabus contract.
+ */
 export const SYLLABUS_DATA = [
   {
-    name: "Rajasthan Geography & Economy",
-    nameHindi: "राजस्थान का भूगोल एवं अर्थव्यवस्था",
-    slug: "rajasthan-geography-economy",
-    description: "Physical features, climate, drainage, vegetation, agriculture, demographic, tribes, industries & tourism of Rajasthan",
+    name: "Rajasthan General Knowledge & Geography",
+    nameHindi: "राजस्थान सामान्य ज्ञान एवं भूगोल",
+    slug: "rajasthan-general-knowledge-geography",
+    description: "राजस्थान का सामान्य ज्ञान, भौतिक स्वरूप, भूगोल, जलवायु, नदियाँ, झीलें, कृषि, वन एवं खनिज संसाधन",
     topics: [
-      { name: "Physical Features", nameHindi: "भौतिक स्वरूप" },
-      { name: "Climate", nameHindi: "जलवायु" },
-      { name: "Drainage System", nameHindi: "अपवाह तंत्र" },
-      { name: "Natural Vegetation", nameHindi: "प्राकृतिक वनस्पति" },
+      { name: "General Knowledge of Rajasthan", nameHindi: "राजस्थान का सामान्य ज्ञान" },
+      { name: "Physical Features and Geography of Rajasthan", nameHindi: "राजस्थान का भौतिक स्वरूप एवं भूगोल" },
+      { name: "Climate of Rajasthan", nameHindi: "राजस्थान की जलवायु" },
+      { name: "Districts and Divisions of Rajasthan", nameHindi: "राजस्थान के जिले एवं संभाग" },
+      { name: "Population and Census of Rajasthan", nameHindi: "राजस्थान की जनसंख्या एवं जनगणना" },
       { name: "Soils of Rajasthan", nameHindi: "राजस्थान की मृदा" },
-      { name: "Agriculture", nameHindi: "कृषि" },
-      { name: "Animal Husbandry", nameHindi: "पशुपालन" },
-      { name: "Dairy Development", nameHindi: "डेयरी विकास" },
-      { name: "Demographic Characteristics", nameHindi: "जनसांख्यिकी विशेषताएं" },
-      { name: "Tribes", nameHindi: "जनजातियां" },
-      { name: "Industries", nameHindi: "उद्योग" },
-      { name: "Tourism", nameHindi: "पर्यटन" },
-      { name: "Major Tourist Places", nameHindi: "प्रमुख पर्यटन स्थल" },
-      { name: "Boundaries of Rajasthan", nameHindi: "राजस्थान की सीमा" },
-      { name: "Desertification", nameHindi: "मरुस्थलीकरण" },
-      { name: "Traditional Water Management", nameHindi: "राजस्थान में परंपरागत जल प्रबंधन" },
-      { name: "Cooperatives in Rajasthan", nameHindi: "राजस्थान में सहकारिता" },
+      { name: "Rivers and Water Resources of Rajasthan", nameHindi: "राजस्थान की नदियाँ एवं जल संसाधन" },
+      { name: "Lakes of Rajasthan", nameHindi: "राजस्थान की झीलें" },
+      { name: "Irrigation and Irrigation Projects of Rajasthan", nameHindi: "राजस्थान की सिंचाई एवं सिंचाई परियोजनाएँ" },
+      { name: "Forests and Wildlife of Rajasthan", nameHindi: "राजस्थान के वन एवं वन्यजीव" },
+      { name: "Sanctuaries and National Parks of Rajasthan", nameHindi: "राजस्थान के अभयारण्य एवं राष्ट्रीय उद्यान" },
+      { name: "Desertification in Rajasthan", nameHindi: "राजस्थान में मरुस्थलीकरण" },
+      { name: "Agriculture of Rajasthan", nameHindi: "राजस्थान की कृषि" },
+      { name: "Animal Husbandry of Rajasthan", nameHindi: "राजस्थान का पशुपालन" },
+      { name: "Mineral Resources of Rajasthan", nameHindi: "राजस्थान के खनिज संसाधन" },
+      { name: "Energy Resources of Rajasthan", nameHindi: "राजस्थान के ऊर्जा संसाधन" },
+      { name: "Major Industries of Rajasthan", nameHindi: "राजस्थान के प्रमुख उद्योग" },
+      { name: "Transportation in Rajasthan", nameHindi: "राजस्थान का परिवहन" },
+      { name: "Tourism in Rajasthan", nameHindi: "राजस्थान का पर्यटन" },
+      { name: "Traditional Water Sources and Water Management", nameHindi: "राजस्थान के पारंपरिक जल स्रोत एवं जल प्रबंधन" },
     ],
   },
   {
-    name: "Rajasthan History",
-    nameHindi: "राजस्थान का इतिहास",
-    slug: "rajasthan-history",
-    description: "Ancient culture, archaeological sites, Rajput states, Delhi sultanate & Mughal relations, freedom struggle & integration",
+    name: "Rajasthan Art & Culture",
+    nameHindi: "राजस्थान कला एवं संस्कृति",
+    slug: "rajasthan-art-culture",
+    description: "राजस्थान के मेले, त्योहार, रीति-रिवाज, वेशभूषा, स्थापत्य, चित्रकला, हस्तशिल्प, लोक देवता, संगीत, नृत्य, भाषा एवं साहित्य",
     topics: [
-      { name: "Sources of Rajasthan History", nameHindi: "राजस्थान का इतिहास जानने के स्त्रोत" },
-      { name: "Ancient Culture & Civilization", nameHindi: "प्राचीन संस्कृति एवं सभ्यता" },
-      { name: "Archaeological Sites and Their Importance", nameHindi: "पुरातात्विक स्थल एवं उनका महत्व" },
-      { name: "History of Rajasthan up to the 18th Century", nameHindi: "18वीं शताब्दी तक राजस्थान का इतिहास" },
-      { name: "Rajput States", nameHindi: "राजपूत राज्य" },
-      { name: "Relations with Delhi Sultanate", nameHindi: "दिल्ली सल्तनत के साथ संबंध" },
-      { name: "Mewar", nameHindi: "मेवाड़" },
-      { name: "Ranthambore", nameHindi: "रणथंभौर" },
-      { name: "Jalore", nameHindi: "जालौर" },
-      { name: "Rajasthan and the Mughals", nameHindi: "राजस्थान एवं मुगल" },
-      { name: "Maharana Sanga", nameHindi: "महाराणा सांगा" },
-      { name: "Maharana Pratap", nameHindi: "महाराणा प्रताप" },
-      { name: "Raja Man Singh", nameHindi: "राजा मानसिंह" },
-      { name: "Chandrasen Rathore", nameHindi: "राव चंद्रसेन" },
-      { name: "Rai Singh", nameHindi: "रायसिंह" },
-      { name: "Raj Singh", nameHindi: "राजसिंह" },
-      { name: "Freedom Struggle in Rajasthan", nameHindi: "राजस्थान में स्वतंत्रता संग्राम" },
-      { name: "Revolt of 1857", nameHindi: "1857 की क्रांति" },
-      { name: "Political Awakening", nameHindi: "राजनीतिक चेतना" },
-      { name: "Prajamandal Movement", nameHindi: "प्रजामण्डल आंदोलन" },
-      { name: "Peasant Movements", nameHindi: "किसान आंदोलन" },
-      { name: "Tribal Movements", nameHindi: "जनजातीय आंदोलन" },
+      { name: "Fairs of Rajasthan", nameHindi: "राजस्थान के मेले" },
+      { name: "Festivals of Rajasthan", nameHindi: "राजस्थान के त्योहार" },
+      { name: "Customs and Traditions of Rajasthan", nameHindi: "राजस्थान की रीति-रिवाज एवं परंपराएँ" },
+      { name: "Costumes and Ornaments of Rajasthan", nameHindi: "राजस्थान की वेशभूषा एवं आभूषण" },
+      { name: "Architecture and Monuments of Rajasthan", nameHindi: "राजस्थान की स्थापत्य कला एवं वास्तुकला" },
+      { name: "Painting Schools of Rajasthan", nameHindi: "राजस्थान की चित्रकला शैलियाँ" },
+      { name: "Handicrafts and Crafts of Rajasthan", nameHindi: "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ" },
+      { name: "Folk Deities and Goddesses of Rajasthan", nameHindi: "राजस्थान के लोक देवता एवं लोक देवियाँ" },
+      { name: "Saints Sects and Religious Traditions of Rajasthan", nameHindi: "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ" },
+      { name: "Folk Music and Folk Songs of Rajasthan", nameHindi: "राजस्थान का लोक संगीत एवं लोकगीत" },
+      { name: "Folk Dances of Rajasthan", nameHindi: "राजस्थान के लोक नृत्य" },
+      { name: "Rajasthani Language and Dialects", nameHindi: "राजस्थानी भाषा एवं बोलियाँ" },
+      { name: "Rajasthani Literature", nameHindi: "राजस्थानी साहित्य" },
+      { name: "Rajasthani Vocabulary", nameHindi: "राजस्थानी शब्दावली" },
+      { name: "Rajasthani Idioms and Proverbs", nameHindi: "राजस्थानी मुहावरे एवं लोकोक्तियाँ" },
+      { name: "Nicknames of Major Places in Rajasthan", nameHindi: "राजस्थान के प्रमुख स्थानों के उपनाम" },
+    ],
+  },
+  {
+    name: "Rajasthan Ancient & Medieval History",
+    nameHindi: "राजस्थान प्राचीन एवं मध्यकालीन इतिहास",
+    slug: "rajasthan-ancient-medieval-history",
+    description: "प्राचीन सभ्यताएँ, इतिहास के स्रोत, महाजनपद, राजपूत काल, गुहिल, कछवाहा, चौहान, गुर्जर-प्रतिहार, राठौड़ एवं मध्यकालीन प्रशासन",
+    topics: [
+      { name: "Ancient Civilizations and Archaeological Sites of Rajasthan", nameHindi: "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल" },
+      { name: "Sources of Rajasthan History", nameHindi: "राजस्थान के इतिहास के स्रोत" },
+      { name: "Mahajanapadas and Ancient Political History of Rajasthan", nameHindi: "राजस्थान के महाजनपद एवं प्राचीन राजनीतिक इतिहास" },
+      { name: "Rajput Period in Rajasthan", nameHindi: "राजस्थान का राजपूत काल" },
+      { name: "Guhil and Guhilot Dynasty of Mewar", nameHindi: "मेवाड़ का गुहिल/गुहिलोत वंश" },
+      { name: "Kachhwaha Dynasty of Amer", nameHindi: "आमेर का कछवाहा वंश" },
+      { name: "Chauhan Dynasty", nameHindi: "चौहान वंश" },
+      { name: "Gurjara Pratihara Dynasty", nameHindi: "गुर्जर-प्रतिहार वंश" },
+      { name: "Rathore Dynasty", nameHindi: "राठौड़ वंश" },
+      { name: "Other Major Dynasties of Rajasthan", nameHindi: "राजस्थान के अन्य प्रमुख राजवंश" },
+      { name: "Princely States of Rajasthan and British Treaties", nameHindi: "राजस्थान की रियासतें एवं ब्रिटिश संधियाँ" },
+      { name: "Administrative System of Medieval Rajasthan", nameHindi: "मध्यकालीन राजस्थान की प्रशासनिक व्यवस्था" },
+    ],
+  },
+  {
+    name: "Modern Rajasthan & Freedom Movement",
+    nameHindi: "आधुनिक राजस्थान एवं स्वतंत्रता आंदोलन",
+    slug: "modern-rajasthan-freedom-movement",
+    description: "1857 का विद्रोह, किसान एवं जनजातीय आंदोलन, प्रजामंडल, स्वतंत्रता संग्राम संगठन, एकीकरण एवं प्रमुख व्यक्तित्व",
+    topics: [
+      { name: "Revolt of 1857 in Rajasthan", nameHindi: "राजस्थान में 1857 का विद्रोह" },
+      { name: "Peasant and Tribal Movements in Rajasthan", nameHindi: "राजस्थान के किसान एवं जनजातीय आंदोलन" },
+      { name: "Prajamandal Movements in Rajasthan", nameHindi: "राजस्थान के प्रजामंडल आंदोलन" },
+      { name: "Freedom Struggle Organizations and Institutions in Rajasthan", nameHindi: "राजस्थान में स्वतंत्रता आंदोलन के संगठन एवं संस्थाएँ" },
+      { name: "Social and Political Awakening in Rajasthan", nameHindi: "राजस्थान में सामाजिक एवं राजनीतिक जागरण" },
       { name: "Integration of Rajasthan", nameHindi: "राजस्थान का एकीकरण" },
-      { name: "Important Personalities of Rajasthan", nameHindi: "राजस्थान के प्रमुख व्यक्तित्व" },
-    ],
-  },
-  {
-    name: "Rajasthan Art, Culture & Society",
-    nameHindi: "राजस्थान की कला, संस्कृति एवं समाज",
-    slug: "rajasthan-art-culture-society",
-    description: "Folk deities, saints, architecture, forts, painting schools, fairs, festivals, ornaments, handicrafts, music & dance",
-    topics: [
-      { name: "Folk Deities", nameHindi: "लोक देवता एवं देवियां" },
-      { name: "Saints of Rajasthan", nameHindi: "राजस्थान के संत" },
-      { name: "Temple Architecture", nameHindi: "मंदिर स्थापत्य" },
-      { name: "Architecture", nameHindi: "स्थापत्य कला" },
-      { name: "Painting Schools", nameHindi: "चित्रकला शैलियां" },
-      { name: "Fairs", nameHindi: "मेले" },
-      { name: "Festivals", nameHindi: "त्योहार" },
-      { name: "Customs & Traditions", nameHindi: "रीति-रिवाज एवं परंपराएं" },
-      { name: "Dresses", nameHindi: "वेशभूषा" },
-      { name: "Ornaments", nameHindi: "आभूषण" },
-      { name: "Handicrafts", nameHindi: "हस्तशिल्प" },
-      { name: "Folk Music", nameHindi: "लोक संगीत" },
-      { name: "Folk Dance", nameHindi: "लोक नृत्य" },
-      { name: "Folk Theatre", nameHindi: "लोक नाट्य" },
-      { name: "Language", nameHindi: "बोली एवं भाषा" },
-      { name: "Literature", nameHindi: "साहित्य" },
-      { name: "Major Cultural Event Venues", nameHindi: "राजस्थान के प्रमुख सांस्कृतिक कार्यक्रम स्थल" },
+      { name: "Prominent Personalities of Rajasthan", nameHindi: "राजस्थान के प्रमुख व्यक्तित्व" },
+      { name: "Prominent Women Personalities of Rajasthan", nameHindi: "राजस्थान की महिला व्यक्तित्व" },
+      { name: "Press and Journalism in Rajasthan", nameHindi: "राजस्थान में प्रेस एवं पत्रकारिता" },
     ],
   },
   {
     name: "Rajasthan Polity & Administration",
-    nameHindi: "राजस्थान की राजव्यवस्था",
+    nameHindi: "राजस्थान राजव्यवस्था / प्रशासन",
     slug: "rajasthan-polity-administration",
-    description: "Governor, CM, state legislature, High Court, Panchayati Raj, district administration, RPSC & Commissions",
+    description: "राज्य प्रशासन, राज्यपाल, मुख्यमंत्री, मंत्रिपरिषद, विधानमंडल, उच्च न्यायालय, जिला प्रशासन, पंचायती राज, RPSC एवं सांविधानिक आयोग",
     topics: [
-      { name: "Governor", nameHindi: "राज्यपाल" },
-      { name: "Chief Minister & Council of Ministers", nameHindi: "मुख्यमंत्री एवं मंत्रिपरिषद" },
-      { name: "State Legislature", nameHindi: "राज्य विधानमंडल" },
-      { name: "Rajasthan High Court & Subordinate Courts", nameHindi: "राजस्थान उच्च न्यायालय एवं अधीनस्थ न्यायालय" },
-      { name: "Panchayati Raj", nameHindi: "पंचायती राज" },
-      { name: "Urban Local Government", nameHindi: "नगरीय निकाय" },
-      { name: "State Secretariat", nameHindi: "राज्य सचिवालय" },
-      { name: "Divisional Commissioner", nameHindi: "संभाग आयुक्त" },
-      { name: "District Administration", nameHindi: "जिला प्रशासन" },
-      { name: "Rajasthan Public Service Commission (RPSC)", nameHindi: "राजस्थान लोक सेवा आयोग (RPSC)" },
-      { name: "Rajasthan State Women's Commission", nameHindi: "राज्य महिला आयोग" },
-      { name: "Rajasthan State Finance Commission", nameHindi: "राज्य वित्त आयोग" },
-      { name: "Rajasthan State Election Commission", nameHindi: "राज्य निर्वाचन आयोग" },
-      { name: "Lokayukta", nameHindi: "लोकायुक्त" },
-      { name: "Rajasthan State Legal Services Authority", nameHindi: "राज्य विधिक सेवा प्राधिकरण" },
-      { name: "Local Self Government & Panchayati Raj", nameHindi: "स्थानीय स्वायत्त शासन एवं पंचायती राज" },
-      { name: "Rajasthan Public Service Guarantee Act 2011", nameHindi: "राजस्थान लोक सेवा गारंटी अधिनियम 2011" },
-      { name: "Board of Revenue Rajasthan", nameHindi: "राजस्‍व मण्‍डल राजस्‍थान" },
-      { name: "Rajasthan Contribution to Constitution Making", nameHindi: "संविधान निर्माण में राजस्थान का योगदान" },
-    ],
-  },
-  {
-    name: "Rajasthan Current Affairs",
-    nameHindi: "राजस्थान समसामयिकी",
-    slug: "rajasthan-current-affairs",
-    description: "Current issues, personalities, places, welfare schemes, economic scenario, sports & awards",
-    topics: [
-      { name: "Important Personalities", nameHindi: "प्रमुख व्यक्तित्व" },
-      { name: "Important Places", nameHindi: "प्रमुख स्थान" },
-      { name: "Current Issues", nameHindi: "समसामयिक मुद्दे" },
-      { name: "Welfare Schemes", nameHindi: "कल्याणकारी योजनाएं" },
-      { name: "Development Schemes", nameHindi: "विकास योजनाएं" },
-      { name: "Government Initiatives", nameHindi: "शासकीय पहल" },
-      { name: "Economic Scenario", nameHindi: "आर्थिक परिदृश्य" },
-      { name: "Political Scenario", nameHindi: "राजनीतिक परिदृश्य" },
-      { name: "Sports", nameHindi: "खेलकूद" },
-      { name: "Awards", nameHindi: "पुरस्कार एवं सम्मान" },
-      { name: "Books", nameHindi: "प्रमुख पुस्तकें" },
-      { name: "Authors", nameHindi: "लेखक" },
-      { name: "Sports and Players of Rajasthan", nameHindi: "राजस्थान के खेल व खिलाड़ी" },
-      { name: "Development of Science & Technology", nameHindi: "राजस्थान में विज्ञान और प्रौद्योगिकी का विकास" },
-      { name: "One District One Product Scheme", nameHindi: "एक जिला एक उत्पाद योजना राजस्थान" },
-      { name: "Regional Programs in Rajasthan", nameHindi: "राजस्थान में क्षेत्रीय कार्यक्रम" },
-      { name: "Rajasthan Budget 2025-26", nameHindi: "राजस्थान बजट 2025-26" },
-      { name: "Economic Review 2024-25", nameHindi: "आर्थिक समीक्षा 2024-25" },
-      { name: "Rajasthan Budget 2026-27", nameHindi: "राजस्थान बजट 2026-27" },
-      { name: "Economic Review 2025-26", nameHindi: "आर्थिक समीक्षा 2025-26" },
-      { name: "Major Policies of Rajasthan Government", nameHindi: "राजस्थान सरकार की प्रमुख नीतियां" },
-    ],
-  },
-  {
-    name: "World General Knowledge",
-    nameHindi: "विश्व का सामान्य ज्ञान",
-    slug: "world-gk",
-    description: "World geography, continents, oceans, wind system, environmental problems, strategies & population",
-    topics: [
-      { name: "World Geography - Continents", nameHindi: "विश्व भूगोल - महाद्वीप" },
-      { name: "World Geography - Oceans", nameHindi: "विश्व भूगोल - महासागर" },
-      { name: "World Geography - Features of Oceans", nameHindi: "विश्व भूगोल - महासागरीय विशेषताएं" },
-      { name: "World Geography - Global Wind System", nameHindi: "विश्व भूगोल - पवन तंत्र" },
-      { name: "World Geography - Environmental Problems", nameHindi: "विश्व भूगोल - पर्यावरणीय समस्याएं" },
-      { name: "World Geography - Environmental Strategies", nameHindi: "विश्व भूगोल - पर्यावरण रणनीतियां" },
-      { name: "World Geography - Major Human Occupations", nameHindi: "विश्व भूगोल - प्रमुख मानव व्यवसाय" },
-      { name: "World Geography - Population Distribution", nameHindi: "विश्व भूगोल - जनसंख्या वितरण" },
-      { name: "World Geography - Population Growth", nameHindi: "विश्व भूगोल - जनसंख्या वृद्धि" },
-    ],
-  },
-  {
-    name: "India General Knowledge",
-    nameHindi: "भारत का सामान्य ज्ञान",
-    slug: "india-gk",
-    description: "Indian geography, physical features, climate, monsoon, drainage, vegetation, biodiversity, energy resources & Indian economy",
-    topics: [
-      { name: "India Geography - Physical Features", nameHindi: "भारत भूगोल - भौतिक स्वरूप" },
-      { name: "India Geography - Climate", nameHindi: "भारत भूगोल - जलवायु" },
-      { name: "India Geography - Monsoon System", nameHindi: "भारत भूगोल - मानसून तंत्र" },
-      { name: "India Geography - Drainage System", nameHindi: "भारत भूगोल - अपवाह तंत्र" },
-      { name: "India Geography - Natural Vegetation", nameHindi: "भारत भूगोल - प्राकृतिक वनस्पति" },
-      { name: "India Geography - Biodiversity", nameHindi: "भारत भूगोल - जैव विविधता" },
-      { name: "India Geography - Energy Resources", nameHindi: "भारत भूगोल - ऊर्जा संसाधन" },
-      { name: "Indian Economy - Agriculture", nameHindi: "भारतीय अर्थव्यवस्था - कृषि" },
-      { name: "Indian Economy - Industries", nameHindi: "भारतीय अर्थव्यवस्था - उद्योग" },
-      { name: "Indian Economy - Service Sector", nameHindi: "भारतीय अर्थव्यवस्था - सेवा क्षेत्र" },
-      { name: "Indian Economy - Growth & Development", nameHindi: "भारतीय अर्थव्यवस्था - वृद्धि एवं विकास" },
-      { name: "Indian Economy - Foreign Trade", nameHindi: "भारतीय अर्थव्यवस्था - वैदेशिक व्यापार" },
-      { name: "Indian Economy - Trade Trends", nameHindi: "भारतीय अर्थव्यवस्था - व्यापार प्रवृत्तियां" },
-      { name: "Indian Economy - Trade Structure", nameHindi: "भारतीय अर्थव्यवस्था - व्यापार संरचना" },
-      { name: "Indian Economy - Trade Direction", nameHindi: "भारतीय अर्थव्यवस्था - व्यापार दिशा" },
-    ],
-  },
-  {
-    name: "Indian Polity & Foreign Policy",
-    nameHindi: "भारतीय राजव्यवस्था एवं विदेश नीति",
-    slug: "indian-polity-foreign-policy",
-    description: "Constitution, Fundamental Rights, DPSP, President, PM, Parliament, Supreme Court & foreign policy principles",
-    topics: [
-      { name: "Constitutional Development", nameHindi: "भारत का संवैधानिक विकास" },
-      { name: "Constituent Assembly", nameHindi: "संविधान सभा" },
-      { name: "Dr. B. R. Ambedkar's Contribution", nameHindi: "डॉ. बी. आर. अम्बेडकर का योगदान" },
-      { name: "Citizenship", nameHindi: "नागरिकता" },
-      { name: "Fundamental Rights", nameHindi: "मौलिक अधिकार" },
-      { name: "Directive Principles of State Policy", nameHindi: "राज्य के नीति निर्देशक तत्व" },
-      { name: "Fundamental Duties", nameHindi: "मौलिक कर्तव्य" },
-      { name: "President", nameHindi: "राष्ट्रपति" },
-      { name: "Vice President", nameHindi: "उपराष्ट्रपति" },
-      { name: "Prime Minister", nameHindi: "प्रधानमंत्री" },
-      { name: "Council of Ministers", nameHindi: "केंद्रीय मन्त्रिपरिषद" },
-      { name: "Parliament", nameHindi: "संसद" },
-      { name: "Supreme Court", nameHindi: "उच्चतम न्यायालय" },
-      { name: "Election Commission", nameHindi: "भारत निर्वाचन आयोग" },
-      { name: "Principles of India's Foreign Policy", nameHindi: "भारत की विदेश नीति के सिद्धांत" },
-      { name: "Jawaharlal Nehru's Contribution", nameHindi: "जवाहरलाल नेहरू का योगदान" },
-      { name: "India's Major Powers Relations", nameHindi: "प्रमुख शक्तियों के साथ भारत के संबंध" },
-      { name: "Neighbouring Countries", nameHindi: "पड़ोसी देश" },
-      { name: "Contemporary Issues", nameHindi: "समसामयिक मुद्दे" },
-      { name: "Challenges", nameHindi: "चुनौतियां" },
-    ],
-  },
-  {
-    name: "Educational Psychology",
-    nameHindi: "शिक्षा मनोविज्ञान",
-    slug: "educational-psychology",
-    description: "Learner development, theories of learning, personality, intelligence, creativity, motivation & inclusive education",
-    topics: [
-      { name: "Educational Psychology - Meaning & Scope", nameHindi: "शिक्षा मनोविज्ञान - अर्थ एवं क्षेत्र" },
-      { name: "Implications for Effective Teaching", nameHindi: "प्रभावी शिक्षण हेतु निहितार्थ" },
-      { name: "Learner Development - Concept of Development", nameHindi: "शिक्षार्थी विकास - विकास की अवधारणा" },
-      { name: "Learner Development - Principles of Development", nameHindi: "शिक्षार्थी विकास - विकास के सिद्धांत" },
-      { name: "Learner Development - Cognitive Development", nameHindi: "शिक्षार्थी विकास - संज्ञानात्मक विकास" },
-      { name: "Learner Development - Social Development", nameHindi: "शिक्षार्थी विकास - सामाजिक विकास" },
-      { name: "Learner Development - Moral Development", nameHindi: "शिक्षार्थी विकास - नैतिक विकास" },
-      { name: "Learner Development - Emotional Development", nameHindi: "शिक्षार्थी विकास - संवेगात्मक विकास" },
-      { name: "Learner Development - Language Development", nameHindi: "शिक्षार्थी विकास - भाषा विकास" },
-      { name: "Learner Development - Physical Development", nameHindi: "शिक्षार्थी विकास - शारीरिक विकास" },
-      { name: "Learning - Behaviourism", nameHindi: "अधिगम - व्यवहारवाद" },
-      { name: "Learning - Cognitivism", nameHindi: "अधिगम - संज्ञानवाद" },
-      { name: "Learning - Social Cognitive Theory", nameHindi: "अधिगम - सामाजिक संज्ञानात्मक सिद्धांत" },
-      { name: "Learning - Constructivism", nameHindi: "अधिगम - निर्मितिवाद" },
-      { name: "Learning - Factors Affecting Learning", nameHindi: "अधिगम को प्रभावित करने वाले कारक" },
-      { name: "Learning - Implications for Teachers", nameHindi: "शिक्षकों हेतु अधिगम निहितार्थ" },
-      { name: "Personality", nameHindi: "व्यक्तित्व" },
-      { name: "Personality Measurement", nameHindi: "व्यक्तित्व मापन" },
-      { name: "Adjustment", nameHindi: "समायोजन" },
-      { name: "Mental Health", nameHindi: "मानसिक स्वास्थ्य" },
-      { name: "Intelligence", nameHindi: "बुद्धि" },
-      { name: "Creativity", nameHindi: "सृजनात्मकता" },
-      { name: "Emotional Intelligence", nameHindi: "संवेगात्मक बुद्धि" },
-      { name: "Motivation", nameHindi: "अभिप्रेरणा" },
-      { name: "Theories of Motivation", nameHindi: "अभिप्रेरणा के सिद्धांत" },
-      { name: "Individual Differences", nameHindi: "व्यक्तिगत भिन्नताएं" },
-      { name: "Inclusive Education", nameHindi: "समावेशी शिक्षा" },
-      { name: "21st Century Skills", nameHindi: "21वीं सदी के कौशल" },
-    ],
-  },
-  {
-    name: "English",
-    nameHindi: "अंग्रेजी भाषा",
-    slug: "english",
-    description: "Grammar, vocabulary, comprehension, and language skills",
-    topics: [
-      { name: "General English", nameHindi: "सामान्य अंग्रेजी" },
-      { name: "Grammar & Usage", nameHindi: "व्याकरण एवं प्रयोग" },
-      { name: "Vocabulary & Idioms", nameHindi: "शब्दावली एवं मुहावरे" },
-      { name: "Comprehension", nameHindi: "अपठित गद्यांश एवं समझ" },
+      { name: "Rajasthan State Administration", nameHindi: "राजस्थान राज्य प्रशासन" },
+      { name: "Governor of Rajasthan", nameHindi: "राजस्थान के राज्यपाल" },
+      { name: "Chief Minister of Rajasthan", nameHindi: "राजस्थान के मुख्यमंत्री" },
+      { name: "Council of Ministers and Cabinet of Rajasthan", nameHindi: "राजस्थान की मंत्रिपरिषद एवं मंत्रिमंडल" },
+      { name: "Rajasthan State Legislature", nameHindi: "राजस्थान राज्य विधानमंडल" },
+      { name: "Rajasthan High Court and Judiciary", nameHindi: "राजस्थान उच्च न्यायालय एवं न्यायपालिका" },
+      { name: "District Administration of Rajasthan", nameHindi: "राजस्थान जिला प्रशासन" },
+      { name: "Panchayati Raj and Local Self Government in Rajasthan", nameHindi: "राजस्थान पंचायती राज एवं स्थानीय स्वशासन" },
+      { name: "Rajasthan Public Service Commission RPSC", nameHindi: "राजस्थान लोक सेवा आयोग (RPSC)" },
+      { name: "Rajasthan State Election Commission", nameHindi: "राजस्थान राज्य निर्वाचन आयोग" },
+      { name: "Rajasthan State Human Rights Commission", nameHindi: "राजस्थान मानवाधिकार आयोग" },
+      { name: "Rajasthan State Commission for Women", nameHindi: "राजस्थान महिला आयोग" },
+      { name: "Lokayukta of Rajasthan", nameHindi: "राजस्थान लोकायुक्त" },
+      { name: "Constitutional Commissions and Institutions of Rajasthan", nameHindi: "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ" },
+      { name: "Major Research and Study Centers of Rajasthan", nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र" },
+      { name: "Science and Technology in Rajasthan", nameHindi: "राजस्थान विज्ञान एवं प्रौद्योगिकी" },
     ],
   },
 ];
 
-export const seedFixedSyllabus = mutation({
+export const seedSyllabus = mutation({
   args: {},
   handler: async (ctx) => {
     let subjectCount = 0;
     let topicCount = 0;
 
-    // Clean up deprecated "world-india-gk" subject and its topics if present
-    const oldSubject = await ctx.db
-      .query("subjects")
-      .withIndex("by_slug", (q) => q.eq("slug", "world-india-gk"))
-      .unique();
-    if (oldSubject) {
-      const oldTopics = await ctx.db
-        .query("topics")
-        .withIndex("by_subject", (q) => q.eq("subjectId", oldSubject._id))
-        .collect();
-      for (const t of oldTopics) {
-        const testSets = await ctx.db
-          .query("testSets")
-          .withIndex("by_topic", (q) => q.eq("topicId", t._id))
+    const validSubjectSlugs = new Set(SYLLABUS_DATA.map((s) => s.slug));
+
+    // 1. Remove non-canonical subjects (e.g. World GK, India GK, English)
+    const existingSubjects = await ctx.db.query("subjects").collect();
+    for (const oldSub of existingSubjects) {
+      if (!validSubjectSlugs.has(oldSub.slug)) {
+        const associatedTopics = await ctx.db
+          .query("topics")
+          .withIndex("by_subject", (q) => q.eq("subjectId", oldSub._id))
           .collect();
-        for (const ts of testSets) {
-          const qs = await ctx.db
-            .query("questions")
-            .withIndex("by_test_set", (q) => q.eq("testSetId", ts._id))
-            .collect();
-          for (const q of qs) {
-            await ctx.db.delete(q._id);
-          }
-          await ctx.db.delete(ts._id);
+        for (const t of associatedTopics) {
+          await ctx.db.delete(t._id);
         }
-        await ctx.db.delete(t._id);
+        await ctx.db.delete(oldSub._id);
       }
-      await ctx.db.delete(oldSubject._id);
     }
 
+    // 2. Seed / Sync the 5 canonical Rajasthan GK subjects and 73 topics
     for (let sIndex = 0; sIndex < SYLLABUS_DATA.length; sIndex++) {
       const item = SYLLABUS_DATA[sIndex];
       if (!item) continue;
@@ -363,7 +214,7 @@ export const seedFixedSyllabus = mutation({
         }
       }
 
-      // Clean up deprecated canonical topic entries no longer present in syllabus
+      // Clean up topics under this subject that are no longer in canonical list
       const validSlugs = new Set(item.topics.map((t) => slugify(typeof t === "string" ? t : t.name)));
       const existingTopics = await ctx.db
         .query("topics")
@@ -376,48 +227,55 @@ export const seedFixedSyllabus = mutation({
       }
     }
 
-    return { message: "Fixed syllabus seeded successfully", subjectCount, topicCount };
+    return {
+      message: "Authoritative 73 Rajasthan GK topics seeded successfully",
+      subjectCount: SYLLABUS_DATA.length,
+      topicCount: 73,
+    };
   },
 });
 
 export const seedQuestions = mutation({
   args: {},
   handler: async (ctx) => {
-    // 1. Create or find subject
+    // 1. Find Rajasthan Art & Culture subject
     let subject = await ctx.db
       .query("subjects")
-      .withIndex("by_slug", (q) => q.eq("slug", "rajasthan-art-culture-society"))
+      .withIndex("by_slug", (q) => q.eq("slug", "rajasthan-art-culture"))
       .unique();
 
     if (!subject) {
       const subjectId = await ctx.db.insert("subjects", {
-        name: "Rajasthan Art, Culture & Society",
-        slug: "rajasthan-art-culture-society",
-        description: "Folk deities, saints, architecture, forts, painting schools, fairs & festivals",
-        order: 2,
+        name: "Rajasthan Art & Culture",
+        nameHindi: "राजस्थान कला एवं संस्कृति",
+        slug: "rajasthan-art-culture",
+        description: "राजस्थान के मेले, त्योहार, रीति-रिवाज, वेशभूषा, स्थापत्य, चित्रकला",
+        order: 1,
       });
       subject = await ctx.db.get(subjectId);
     }
 
-    // 2. Create or find topic
+    // 2. Find Fairs topic
+    const topicSlug = slugify("Fairs of Rajasthan");
     let topic = await ctx.db
       .query("topics")
       .withIndex("by_subject_slug", (q) =>
-        q.eq("subjectId", subject!._id).eq("slug", "fairs")
+        q.eq("subjectId", subject!._id).eq("slug", topicSlug)
       )
       .unique();
 
     if (!topic) {
       const topicId = await ctx.db.insert("topics", {
         subjectId: subject!._id,
-        name: "Fairs",
-        slug: "fairs",
-        order: 7,
+        name: "Fairs of Rajasthan",
+        nameHindi: "राजस्थान के मेले",
+        slug: topicSlug,
+        order: 0,
       });
       topic = await ctx.db.get(topicId);
     }
 
-    // 3. Create a new test set under Fairs topic
+    // 3. Create a sample test set under Fairs topic
     const testSetId = await ctx.db.insert("testSets", {
       topicId: topic!._id,
       name: "राजस्थान के मेले एवं त्योहार - अभ्यास टेस्ट 1",
@@ -428,10 +286,15 @@ export const seedQuestions = mutation({
 
     const questionsData = [
       {
-        type: "match_following",
+        type: "match",
         questionText: "प्रश्न 1. सूची-I (मेला / उत्सव) को सूची-II (आयोजन तिथि / माह) से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए:",
-        options: [],
-        correctAnswer: ["A-1", "B-2", "C-3", "D-4"],
+        options: [
+          { id: "opt1", text: "A-1, B-2, C-3, D-4" },
+          { id: "opt2", text: "A-2, B-1, C-4, D-3" },
+          { id: "opt3", text: "A-3, B-4, C-1, D-2" },
+          { id: "opt4", text: "A-4, B-3, C-2, D-1" }
+        ],
+        correctAnswer: "opt1",
         difficulty: "medium",
         explanation: "कजली तीज (भाद्रपद कृ. 3), बेणेश्वर (माघ पूर्णिमा), कपिल मुनि (कार्तिक पूर्णिमा), घोटिया अम्बा (चैत्र अमावस्या)।",
         meta: {
@@ -450,8 +313,8 @@ export const seedQuestions = mutation({
         }
       },
       {
-        type: "statement_reason",
-        questionText: "प्रश्न 2. निम्नलिखित कथनों पर विचार कीजिए:",
+        type: "assertion",
+        questionText: "प्रश्न 2. निम्नलिखित कथनों पर विचार कीजिए:\nकथन (A): राजस्थान में कोटा का दशहरा मेला देश-विदेश में प्रसिद्ध है।\nकारण (R): विजयादशमी के दिन खेजड़ी वृक्ष की पूजा की जाती है तथा शस्त्र पूजन की परंपरा है।",
         options: [
           { id: "opt1", text: "कथन (A) और कारण (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या करता है।" },
           { id: "opt2", text: "कथन (A) और कारण (R) दोनों सही हैं, लेकिन (R), (A) की सही व्याख्या नहीं करता है।" },
@@ -476,10 +339,15 @@ export const seedQuestions = mutation({
         explanation: "बूंदी में गणगौर नहीं मनाई जाती (\"हाड़ा ले डूब्यो गणगौर\")। अतः कथन 2 गलत है।"
       },
       {
-        type: "match_following",
+        type: "match",
         questionText: "प्रश्न 4. सूची-I (पशु मेला) को सूची-II (स्थान / जिला) से सुमेलित कीजिए:",
-        options: [],
-        correctAnswer: ["A-1", "B-2", "C-3", "D-4"],
+        options: [
+          { id: "opt1", text: "A-1, B-2, C-3, D-4" },
+          { id: "opt2", text: "A-2, B-3, C-4, D-1" },
+          { id: "opt3", text: "A-3, B-1, C-2, D-4" },
+          { id: "opt4", text: "A-4, B-2, C-1, D-3" }
+        ],
+        correctAnswer: "opt1",
         difficulty: "medium",
         explanation: "मल्लीनाथ (तिलवाड़ा), चंद्रभागा (झालावाड़), जसवंत (भरतपुर), सेवड़िया (सांचौर)।",
         meta: {
@@ -491,7 +359,7 @@ export const seedQuestions = mutation({
           ],
           right: [
             { id: "1", text: "तिलवाड़ा (बालोतरा)" },
-            { id: "2", text: "झाअलरापाटन (झालावाड़)" },
+            { id: "2", text: "झालरापाटन (झालावाड़)" },
             { id: "3", text: "भरतपुर" },
             { id: "4", text: "रानीवाड़ा (सांचौर)" }
           ]
@@ -499,55 +367,7 @@ export const seedQuestions = mutation({
       },
       {
         type: "mcq",
-        questionText: "प्रश्न 5. धार्मिक त्योहारों एवं संप्रदायों के संदर्भ में निम्नलिखित युग्मों पर विचार कीजिए:\n1. पर्युषण पर्व - भाद्रपद माह में मनाया जाने वाला जैन धर्म का प्रमुख पर्व।\n2. सुगंध दशमी - भाद्रपद शुक्ल दशमी (जैन धर्म)।\n3. साहवा का मेला - सिख समाज का सबसे बड़ा मेला (चूरू)।\n4. थदरी सातम (बड़ी सातम) - जैन समाज द्वारा रखा जाने वाला उपवास।\n\nउपर्युक्त में से कौन-से युग्म सही सुमेलित हैं?",
-        options: [
-          { id: "opt1", text: "केवल 1, 2 और 3" },
-          { id: "opt2", text: "केवल 1, 3 और 4" },
-          { id: "opt3", text: "केवल 2 और 4" },
-          { id: "opt4", text: "1, 2, 3 और 4" }
-        ],
-        correctAnswer: "opt1",
-        difficulty: "medium",
-        explanation: "थदरी सातम (बड़ी सातम) सिंधी समाज का त्योहार है (भाद्रपद कृष्ण सप्तमी), जैन समाज का नहीं।"
-      },
-      {
-        type: "match_following",
-        questionText: "प्रश्न 6. सूची-I (उर्स / मज़ार) को सूची-II (संबंधित स्थान) से सुमेलित कीजिए:",
-        options: [],
-        correctAnswer: ["A-1", "B-2", "C-3", "D-4"],
-        difficulty: "medium",
-        explanation: "गलियाकोट (डूंगरपुर), मीठे शाह (गागरोन), मलिक शाह (जालौर), सदरुद्दीन (रणथंभौर)।",
-        meta: {
-          left: [
-            { id: "A", text: "गलियाकोट का उर्स (मज़ार-ए-फ़खरी)" },
-            { id: "B", text: "मीठे शाह का उर्स" },
-            { id: "C", text: "मलिक शाह का उर्स" },
-            { id: "D", text: "संत सदरुद्दीन की दरगाह का उर्स" }
-          ],
-          right: [
-            { id: "1", text: "सागवाड़ा (डूंगरपुर)" },
-            { id: "2", text: "गागरोन (झालावाड़)" },
-            { id: "3", text: "जालौर" },
-            { id: "4", text: "रणथंभौर (सवाई माधोपुर)" }
-          ]
-        }
-      },
-      {
-        type: "mcq",
-        questionText: "प्रश्न 7. राजस्थान में मनाई जाने वाली प्रसिद्ध होलियों एवं उनके क्षेत्रों का कौन-सा युग्म असत्य (गलत) है?",
-        options: [
-          { id: "opt1", text: "लठमार होली - श्री महावीर जी (करौली)" },
-          { id: "opt2", text: "कोडामार होली - भिनाय (अजमेर)" },
-          { id: "opt3", text: "पत्थरमार होली - बाड़मेर" },
-          { id: "opt4", text: "कपड़ा फाड़ होली - सांगोद (कोटा)" }
-        ],
-        correctAnswer: "opt4",
-        difficulty: "easy",
-        explanation: "कपड़ा फाड़ होली पुष्कर (अजमेर) की प्रसिद्ध है। सांगोद (कोटा) का \"नाण\" (लोकोत्सव) प्रसिद्ध है।"
-      },
-      {
-        type: "mcq",
-        questionText: "प्रश्न 8. \"आदिवासियों का कुंभ\" कहे जाने वाले बेणेश्वर मेले के संबंध में निम्नलिखित कथनों में से असत्य कथन का चयन कीजिए:",
+        questionText: "प्रश्न 5. \"आदिवासियों का कुंभ\" कहे जाने वाले बेणेश्वर मेले के संबंध में निम्नलिखित कथनों में से असत्य कथन का चयन कीजिए:",
         options: [
           { id: "opt1", text: "यह मेला माघ पूर्णिमा को सोम, माही और जाखम नदियों के त्रिवेणी संगम (नवाटपुरा, डूंगरपुर) पर आयोजित होता है।" },
           { id: "opt2", text: "यह भारत का एकमात्र ऐसा स्थान है जहाँ खंडित शिवलिंग की पूजा की जाती है।" },
@@ -557,35 +377,6 @@ export const seedQuestions = mutation({
         correctAnswer: "opt4",
         difficulty: "medium",
         explanation: "कपिलधारा मेला (बारां) में सहरिया जनजाति अस्थियों का विसर्जन करती है। बेणेश्वर मुख्य रूप से भीलों का कुंभ है।"
-      },
-      {
-        type: "sequence",
-        questionText: "प्रश्न 9. राजस्थान के प्रमुख त्योहारों को उनके वर्ष में आने के कालक्रमानुसार (चैत्र माह से प्रारंभ करते हुए) सही क्रम में व्यवस्थित कीजिए:",
-        options: [],
-        correctAnswer: ["item1", "item2", "item3", "item4"],
-        difficulty: "hard",
-        explanation: "आखा तीज (वैशाख शु. 3) ➔ हरियाली अमावस्या (श्रावण अमा.) ➔ बछ बारस (भाद्रपद कृ. 12) ➔ देवउठनी एकादशी (कार्तिक शु. 11)।",
-        meta: {
-          items: [
-            { id: "item1", text: "आखा तीज (अक्षय तृतीया)" },
-            { id: "item2", text: "हरियाली अमावस्या" },
-            { id: "item3", text: "बछ बारस" },
-            { id: "item4", text: "देवउठनी एकादशी (प्रबोधिनी एकादशी)" }
-          ]
-        }
-      },
-      {
-        type: "mcq",
-        questionText: "प्रश्न 10. निम्नलिखित कथनों को ध्यानपूर्वक पढ़कर सही विकल्प का चयन कीजिए:\n1. डिग्गीपुरी के कल्याण जी मेले (टोंक) में भगवान विष्णु की \"कलह-पीर\" के रूप में पूजा की जाती है।\n2. धौलपुर स्थित मचकुण्ड तीर्थ को \"तीर्थों का भांजा\" कहा जाता है, जहाँ के कुंड में सल्फर की उपस्थिति के कारण चरम रोग सही होने की मान्यता है।\n3. भाद्रपद शुक्ल एकादशी को जलझूलनी एकादशी (डोल ग्यारस) कहा जाता है, जिस दिन कृष्ण जी के बाल रूप को रेवाड़ी में ले जाकर स्नान कराया जाता है।\n\nकूट:",
-        options: [
-          { id: "opt1", text: "केवल कथन 1 और 2 सही हैं।" },
-          { id: "opt2", text: "केवल कथन 2 और 3 सही हैं।" },
-          { id: "opt3", text: "केवल कथन 1 और 3 सही हैं।" },
-          { id: "opt4", text: "तीनों कथन (1, 2 और 3) सही हैं।" }
-        ],
-        correctAnswer: "opt4",
-        difficulty: "medium",
-        explanation: "तीनों ही कथन पूर्णतः सत्य एवं तथ्यपरक हैं।"
       }
     ];
 
@@ -613,3 +404,6 @@ export const seedQuestions = mutation({
     };
   },
 });
+
+export const seedFixedSyllabus = seedSyllabus;
+
