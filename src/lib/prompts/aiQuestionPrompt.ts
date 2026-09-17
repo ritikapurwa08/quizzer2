@@ -643,3 +643,46 @@ keep it.
 Your purpose is to create a clean, reliable, competitive-exam-quality
 PYQ bank that can safely be used by Quizzer users.
 `;
+
+import { RAJASTHAN_GK_MASTER_SECTIONS } from "../constants/rajasthanGkMasterTopics";
+
+export interface PromptOptions {
+  subject: string;
+  topic: string;
+  setName: string;
+  questionCount?: number;
+  part?: string;
+}
+
+/**
+ * Text representation of the 73 Authoritative Rajasthan GK Master Topics.
+ */
+export const RAJASTHAN_GK_MASTER_TOPICS_PROMPT_TEXT = RAJASTHAN_GK_MASTER_SECTIONS.map(
+  (s) =>
+    `### ${s.code}. ${s.titleHindi} (${s.titleEnglish})\n` +
+    s.topics.map((t) => `${t.id}. ${t.nameHindi} (${t.name})`).join("\n")
+).join("\n\n");
+
+export function generateAiQuestionPrompt({
+  subject,
+  topic,
+  setName,
+  questionCount = 20,
+  part,
+}: PromptOptions): string {
+  const currentPart = part || setName || "Part 1";
+  return `${AI_QUESTION_PROMPT.trim()}
+
+==================================================
+EXECUTION REQUEST:
+==================================================
+- subject: ${subject}
+- part: ${currentPart}
+- masterTopic: ${topic}
+- requestedSetNumber: ${setName}
+- requestedQuestionCount: ${questionCount}
+
+Please curate and return the questions following all rules and JSON output schema above.`;
+}
+
+export const generateAiPrompt = generateAiQuestionPrompt;

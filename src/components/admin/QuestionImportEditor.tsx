@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ImportJson, importJsonSchema } from "@/lib/validators/question";
 import { parsePlainTextQuestions } from "@/lib/importParser";
-import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
+
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
