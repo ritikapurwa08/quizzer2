@@ -2,6 +2,7 @@ export interface PromptOptions {
   subject: string;
   topic: string;
   subtopic?: string;
+  setName?: string;
   setNumber?: number | string;
   count?: number;
   /**
@@ -20,7 +21,7 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
   const {
     subject = "Rajasthan General Knowledge",
     topic = "General Topic",
-    subtopic = "",
+    subtopic = options.subtopic || options.setName || "",
     setNumber = 1,
     count = 20,
     questionsText = "",

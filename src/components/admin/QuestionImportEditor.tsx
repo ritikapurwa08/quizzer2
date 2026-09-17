@@ -62,7 +62,7 @@ export function QuestionImportEditor({
   const prompt = useMemo(() => generateAiQuestionPrompt({
     subject: getSubjectDisplayName(subject) || "Subject",
     topic: getTopicDisplayName(topic) || "Topic",
-    setName: subtopicName || "Set 1",
+    subtopic: subtopicName || "Set 1",
   }), [subject, topic, subtopicName]);
 
   function parse(value: string) {
