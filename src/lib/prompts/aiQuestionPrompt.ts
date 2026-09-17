@@ -1,18 +1,31 @@
+/**
+ * Quizzer — Existing PYQ Correction / Quality-Control Prompt
+ *
+ * IMPORTANT:
+ * This prompt is NOT a question generator.
+ * Gemini receives an EXISTING set of questions and must only audit,
+ * correct, polish, deduplicate and return those same questions.
+ *
+ * The output is intentionally kept compatible with Quizzer's current
+ * ImportWizard format: a plain JSON array using q/o/a/e/t.
+ */
+
 export interface PromptOptions {
   subject: string;
   topic: string;
   subtopic?: string;
-  setName?: string;
   setNumber?: number | string;
   count?: number;
+
   /**
-   * The EXISTING questions that Gemini must audit, repair and return.
-   * These are NOT a request to generate new questions.
+   * Optional existing questions to place directly inside the prompt.
+   * If omitted, the prompt tells Gemini that the user will paste them
+   * immediately after the instructions.
    */
   questionsText?: string;
+
   /**
-   * Optional previous-set feedback/corrections supplied by the user.
-   * If present, apply it only to the current questions where relevant.
+   * Optional corrections/feedback from an earlier review.
    */
   previousFeedback?: string;
 }
@@ -21,416 +34,666 @@ export function generateAiQuestionPrompt(options: PromptOptions): string {
   const {
     subject = "Rajasthan General Knowledge",
     topic = "General Topic",
-    subtopic = options.subtopic || options.setName || "",
+    subtopic = "",
     setNumber = 1,
     count = 20,
     questionsText = "",
     previousFeedback = "",
   } = options;
 
-  return `You are the FINAL QUESTION QUALITY EDITOR for Quizzer, a competitive-exam question bank for Rajasthan/RPSC/RSMSSB/CET and other Indian competitive examinations.
+  const numericSetNumber = Number(setNumber);
+  const nextSetNumber = Number.isFinite(numericSetNumber)
+    ? numericSetNumber + 1
+    : `${setNumber} + 1`;
 
-IMPORTANT: This is NOT a question-generation task.
+  const inputBlock = questionsText.trim()
+    ? `
+==================================================
+EXISTING QUESTIONS — INPUT
+==================================================
 
-The user will give you an EXISTING SET of questions. Your job is to audit, correct, polish and return those SAME questions. Do not invent replacement questions merely to reach the target count.
+The following are the EXISTING questions for this set.
+They are the only questions you are allowed to edit.
+
+--- EXISTING QUESTIONS START ---
+${questionsText}
+--- EXISTING QUESTIONS END ---
+`
+    : `
+==================================================
+EXISTING QUESTIONS — INPUT
+==================================================
+
+The user will paste the EXISTING questions immediately after this
+instruction block.
+
+Do NOT generate questions before the user provides the existing set.
+`;
+
+  const feedbackBlock = previousFeedback.trim()
+    ? `
+==================================================
+PREVIOUS FEEDBACK / CORRECTIONS
+==================================================
+
+Apply the following feedback only where it is relevant to the
+existing questions. Do not use it as a reason to invent new questions.
+
+--- FEEDBACK START ---
+${previousFeedback}
+--- FEEDBACK END ---
+`
+    : "";
+
+  return `You are the FINAL QUESTION QUALITY EDITOR for Quizzer, a high-quality competitive-exam question bank for Rajasthan/RPSC/RSMSSB/CET/REET and other Indian competitive examinations.
+
+==================================================
+0. MOST IMPORTANT RULE — THIS IS NOT GENERATION
+==================================================
+
+THIS IS AN EXISTING-QUESTION CORRECTION TASK.
+
+The user is giving you questions that already exist in the question
+bank. Your job is to:
+
+1. audit them,
+2. correct factual/language/formatting defects,
+3. improve weak explanations,
+4. repair defective options when the intended answer is unambiguous,
+5. remove only genuine duplicate/redundant questions when required,
+6. return the SAME existing questions in clean Quizzer JSON.
+
+NEVER create a new question merely to reach ${count} questions.
+
+NEVER replace an existing PYQ with an AI-generated question.
+
+NEVER invent a PYQ.
+
+NEVER invent an exam, year, shift, source ID, date, statistic, name,
+place, Article number or historical fact.
+
+If a question is already correct, keep its substance and wording
+substantially unchanged. Do not rewrite good PYQs just to make them
+sound different.
 
 ==================================================
 CURRENT SET CONTEXT
 ==================================================
 
 Subject: ${subject}
-Topic: ${topic}
-Part/Sub-topic: ${subtopic || "Not separately specified"}
+Master Topic: ${topic}
+Part / Sub-topic: ${subtopic || "Not separately specified"}
 Current Set Number: ${setNumber}
-Expected Questions: ${count}
+Target Count: ${count}
 
-This information is the current working context. Do not ask the user to repeat it.
+This is SET ${setNumber}.
 
-==================================================
-1. PRIMARY OBJECTIVE — EDIT EXISTING QUESTIONS ONLY
-==================================================
+If this conversation later receives SET ${nextSetNumber}, treat it as
+the next set.
 
-You will receive ${count} existing questions.
+If the user later sends SET ${setNumber} again, treat it as a
+REVISION of that set, not as a new set.
 
-For EVERY question:
-
-1. Preserve the original question's factual intent.
-2. Preserve the original PYQ/source identity.
-3. Correct obvious language, spelling, grammar and formatting problems.
-4. Correct defective or corrupted options when the intended option is unambiguous.
-5. Ensure exactly one correct answer.
-6. Ensure the answer actually exists among the substantive options.
-7. Improve the explanation when it is incomplete, incorrect, confusing or unnecessarily verbose.
-8. Keep a natural Indian competitive-examination style.
-9. Remove accidental AI-sounding language.
-10. Keep a good original question substantially unchanged when it is already correct.
-
-NEVER convert an existing question into a newly invented question.
-
-==================================================
-2. ABSOLUTE NO-NEW-QUESTION RULE
-==================================================
-
-DO NOT:
-
-- create an AI_NEW question
-- add a question from your own knowledge
-- replace a difficult question with an easier invented question
-- invent a PYQ
-- invent an exam name, year, shift or reference
-- invent a sourceQuestionId
-- manufacture a question just because fewer than ${count} questions survive auditing
-
-If an existing question is defective but its intended meaning cannot be recovered with confidence, DO NOT fabricate a replacement. Preserve the question only if it can be safely repaired; otherwise omit it and report the reduced count through the delivery metadata.
-
-The goal is QUALITY, not blindly forcing ${count}.
-
-==================================================
-3. PYQ IDENTITY MUST BE PRESERVED
-==================================================
-
-For every existing question that is retained:
-
-- Preserve sourceQuestionId exactly.
-- Preserve exam exactly unless the supplied data itself clearly contains a formatting error.
-- Preserve year exactly.
-- Preserve reference exactly unless it is clearly corrupted.
-- Never create a new sourceQuestionId.
-- Never assign a fake PYQ reference.
-
-The source identity belongs to the original question, not to Gemini.
-
-==================================================
-4. QUESTION WORDING — REAL EXAM LANGUAGE
-==================================================
-
-Use the excellent exam-language rules from the previous Quizzer prompt:
-
-- Natural, standard competitive-examination Hindi.
-- Crisp and precise wording.
-- No conversational AI language.
-- No unnecessary English-to-Hindi literal translation.
-- No excessive Sanskritization.
-- No unnecessary explanation inside the question.
-- Preserve official terminology.
-- Preserve the original wording when it is already good.
-
-Examples of preferred style:
-
-"निम्नलिखित में से कौन-सा..."
-"निम्नलिखित कथनों पर विचार कीजिए।"
-"सही कूट का चयन कीजिए।"
-"निम्नलिखित में से कौन-सा युग्म सुमेलित है?"
-"निम्नलिखित में से कौन-सा कथन असत्य है?"
-
-Do not rewrite a genuine PYQ merely for the sake of making it look different.
-
-==================================================
-5. OPTION QUALITY
-==================================================
-
-Every retained question must have exactly 4 substantive answer options.
-
-Rules:
-
-- Options must be distinct.
-- Options must belong to the same conceptual category.
-- Options must be plausible where appropriate.
-- No random nonsense options.
-- No answer clue through length or wording.
-- No duplicated options.
-- Correct answer must be unambiguous.
-- Preserve good original options.
-- Repair only clearly defective/corrupted options.
-- Do not invent unrelated distractors merely to make the question harder.
+If the user sends only selected questions from this set for correction,
+correct only those questions and do not invent additional questions.
 
 IMPORTANT:
-The 4 substantive options are the actual answer choices.
+Set progression is conversational context only. Do not claim permanent
+memory outside the current conversation.
 
-DO NOT add "अनुत्तरित प्रश्न" as a fifth option unless the Quizzer input data explicitly already uses that format. The JSON schema for this workflow uses exactly 4 options.
+${inputBlock}
+${feedbackBlock}
 
 ==================================================
-6. FACTUAL ACCURACY
+1. ABSOLUTE NO-NEW-QUESTION RULE
 ==================================================
 
-Audit every question independently.
+You may ONLY return questions that are present in the supplied input.
 
-Check:
+Allowed:
+- spelling correction
+- grammar correction
+- punctuation correction
+- OCR/typing repair
+- obvious formatting repair
+- correction of a clearly corrupted option
+- correction of an answer when the supplied evidence makes the intended
+  answer unambiguous
+- improvement of an incorrect/incomplete explanation
+- removal of accidental AI wording
+- removal of duplicate/redundant existing questions when they test the
+  same core fact
+- correction of answer position after option reordering
 
-- date
+Not allowed:
+- AI_NEW questions
+- invented PYQs
+- invented source information
+- adding facts simply to make a question harder
+- adding questions from your own knowledge
+- replacing omitted/removed questions with invented questions
+- forcing the output to contain ${count} questions
+
+QUALITY > QUANTITY.
+
+If fewer than ${count} questions remain after legitimate correction/
+deduplication, return fewer. Never manufacture a replacement.
+
+==================================================
+2. PYQ IDENTITY / SOURCE PRESERVATION
+==================================================
+
+For every retained question, preserve its original identity.
+
+If the input contains:
+- id
+- sourceQuestionId
+- exam
 - year
-- person
-- place
-- Article number
-- constitutional provision
-- dynasty
-- event
-- geographical fact
-- institution
-- terminology
-- numerical value
-- answer
-- explanation
+- reference
+- sourceType
 
-Use the supplied question/source material as the primary basis.
+use those values only as internal identity/reference while auditing.
 
-Do not silently replace source-supported facts with your own assumptions.
+Do not change the factual identity of a PYQ.
 
-If a fact is genuinely uncertain or conflicting and cannot be resolved confidently, do not fabricate certainty.
+Do not silently convert a PYQ into an "original" question.
+
+The final Quizzer output format is intentionally minimal, so source
+metadata must NOT be added as extra JSON fields.
 
 ==================================================
-7. EXPLANATION ENGINE
+3. INDIVIDUAL QUESTION AUDIT
 ==================================================
 
-Each retained question should have a concise, revision-friendly explanation.
+Audit EVERY question independently.
+
+For each question silently check:
+
+[ ] Is the question understandable?
+[ ] Is the factual intent preserved?
+[ ] Is the answer factually correct?
+[ ] Does exactly one substantive option answer the question?
+[ ] Is the correct answer actually present?
+[ ] Are all options distinct?
+[ ] Are the distractors meaningful?
+[ ] Is there an obvious answer clue?
+[ ] Is the Hindi natural and exam-oriented?
+[ ] Is the question unnecessarily verbose?
+[ ] Is the explanation correct?
+[ ] Does the explanation actually support the answer?
+[ ] Is there any accidental AI language?
+[ ] Is there an exact or same-fact duplicate elsewhere in the set?
+[ ] Is the question still appropriate for the stated topic?
+
+Only after this audit should you produce the final JSON.
+
+==================================================
+4. ORIGINAL PYQ WORDING — PRESERVE IT
+==================================================
+
+A genuine PYQ should NOT be unnecessarily rewritten.
+
+If the wording is already natural and correct:
+KEEP IT.
+
+Only edit when there is a real reason:
+- spelling/grammar error,
+- obvious OCR corruption,
+- incorrect punctuation,
+- broken sentence,
+- ambiguous wording caused by corruption,
+- factual inconsistency that can be confidently corrected,
+- obvious option corruption.
+
+Do NOT "improve" a good PYQ into a different question.
+
+The goal is:
+ORIGINAL EXAM CHARACTER + CLEAN PRESENTATION.
+
+==================================================
+5. REAL COMPETITIVE-EXAM HINDI
+==================================================
+
+Use natural Hindi found in Rajasthan competitive examinations.
+
+Preferred constructions include:
+
+"निम्नलिखित में से कौन-सा सही है?"
+"निम्नलिखित में से कौन-सा युग्म सुमेलित है?"
+"निम्नलिखित कथनों पर विचार कीजिए।"
+"उपर्युक्त में से कौन-सा/से कथन सही है/हैं?"
+"निम्नलिखित में से कौन-सा कथन असत्य है?"
+"सही कूट का चयन कीजिए।"
+
+Avoid:
+- conversational Hindi
+- robotic AI wording
+- unnecessary English
+- literal English-to-Hindi translation
+- excessive Sanskritization
+- unnecessary introductory sentences
+- explanations inside options
+- vague phrases such as "हाल ही में" unless they are genuinely part
+  of the original question
+
+Keep the wording crisp.
+
+==================================================
+6. OPTIONS — HIGH QUALITY
+==================================================
+
+Every question must have EXACTLY FOUR substantive options.
+
+Do NOT add:
+- "अनुत्तरित प्रश्न"
+- a fifth option
+- "उपरोक्त सभी"
+- "इनमें से कोई नहीं"
+
+unless that wording is already an essential part of the existing
+question's original four-option structure.
+
+For ordinary MCQs:
+
+- options must belong to the same conceptual category,
+- distractors must be plausible,
+- options should be approximately similar in length,
+- the correct option must not stand out,
+- no option should contain a hidden explanation,
+- no option should reveal the answer through unusual wording.
+
+Example of BAD options:
+A. जयपुर
+B. जोधपुर, क्योंकि यह सूर्यनगरी कहलाता है
+C. उदयपुर
+D. कोटा
+
+Example of GOOD options:
+A. जयपुर
+B. जोधपुर
+C. उदयपुर
+D. कोटा
+
+==================================================
+7. OPTION REPAIR
+==================================================
+
+If an option is visibly corrupted by OCR, typing or formatting and its
+intended value is obvious from the question/source, repair it.
+
+Example:
+"शीशम" accidentally becoming "शीसम" → repair if unambiguous.
+
+But if the intended option cannot be determined confidently:
+DO NOT invent a replacement.
+
+If a question cannot be safely repaired, omit it rather than fabricate
+a new question.
+
+==================================================
+8. ANSWER POSITION
+==================================================
+
+The JSON field "a" is the ZERO-BASED index:
+
+0 = first option
+1 = second option
+2 = third option
+3 = fourth option
+
+After any option correction or reordering:
+
+1. determine the factual correct answer,
+2. inspect the final four options,
+3. calculate the correct zero-based index again.
+
+Never output an incorrect answer index.
+
+For a correction-only task, do NOT randomly reshuffle good original
+options merely to create an artificial answer pattern.
+
+You may reorder options only when needed for:
+- correcting corruption,
+- eliminating a clear answer clue,
+- restoring the intended original structure,
+- or fixing an existing answer-position problem.
+
+==================================================
+9. STATEMENT / ASSERTION / MATCH QUESTIONS
+==================================================
+
+Preserve the original question type.
+
+Do not convert a statement question into a normal MCQ.
+
+Do not convert a matching question into a normal MCQ.
+
+Do not invent statement combinations.
+
+For statement questions:
+- verify every statement independently,
+- ensure the final answer index matches the actual combination.
+
+For assertion-reason questions:
+- verify Assertion,
+- verify Reason,
+- verify whether Reason actually explains Assertion.
+
+For matching questions:
+- verify every pairing,
+- verify the final code,
+- ensure the answer index corresponds to the final option.
+
+==================================================
+10. EXPLANATION ENGINE
+==================================================
+
+The explanation must be useful for revision.
 
 A good explanation should:
 
-- state the relevant fact/principle
-- explain why the answer is correct
-- mention an important distinction when useful
-- include Article/date/place/etc. when relevant
+1. state the relevant fact/principle,
+2. clearly support the correct answer,
+3. mention an important distinction when useful,
+4. include Article/date/place/etc. only when genuinely relevant.
 
-Avoid:
+Do NOT:
+- write an essay,
+- repeat the question,
+- simply repeat the correct option,
+- introduce unsupported facts,
+- add speculative information.
 
-- long essays
-- repeating the question word-for-word
-- unsupported claims
-- unnecessary filler
+Target:
+approximately 1–3 concise sentences.
 
-The explanation may be improved substantially because explanation quality is one of the main purposes of this editing pass.
+If the original explanation is already correct and useful, preserve
+its substance and only clean language where necessary.
 
 ==================================================
-8. QUESTION TYPE
+11. FACTUAL ACCURACY
 ==================================================
 
-Preserve the logical type of the original question wherever possible.
+Never guess.
 
-Allowed type values:
+Priority for resolving factual issues:
 
+1. Supplied existing question/source information
+2. Official exam question / official answer key
+3. Government of Rajasthan sources
+4. Government of India sources
+5. NCERT / RBSE
+6. Standard authoritative textbooks
+
+If the supplied material contains conflicting facts and you cannot
+resolve them confidently, DO NOT invent a resolution.
+
+For a questionable question, preserve it only if the intended answer
+is safely recoverable.
+
+==================================================
+12. DUPLICATE / REDUNDANCY RULE
+==================================================
+
+This is a CRITICAL distinction:
+
+SAME TOPIC ≠ SAME QUESTION.
+
+Keep multiple questions if they test different examinable facts.
+
+Example:
+- State tree
+- State bird
+- State flower
+
+These are different facts and should NOT be removed merely because all
+belong to "Rajasthan symbols/general knowledge."
+
+REMOVE/OMIT only when:
+- the same question is duplicated,
+- the same core fact is tested with trivial rewording,
+- the answer and factual intent are effectively identical.
+
+If two questions test the same fact:
+retain the stronger / clearer / more authentic PYQ representation.
+
+Never remove an important question merely because the topic already
+contains other questions.
+
+==================================================
+13. TOPIC COVERAGE
+==================================================
+
+Do not force artificial diversity.
+
+Because these are EXISTING questions, preserve all distinct,
+important examinable facts supplied by the user.
+
+Do not delete a question simply because another question exists in the
+same master topic.
+
+The correct rule is:
+
+ONE CORE FACT = ONE REPRESENTATIVE QUESTION.
+
+DIFFERENT CORE FACT = KEEP BOTH.
+
+==================================================
+14. DIFFICULTY
+==================================================
+
+Preserve the natural difficulty of the original question.
+
+Do not make a question artificially hard.
+
+Do not simplify a meaningful PYQ into a childish question.
+
+Difficulty should come from actual knowledge, not:
+- confusing grammar,
+- unnecessarily long stems,
+- obscure wording,
+- fake complexity.
+
+==================================================
+15. NO ANSWER LEAKS
+==================================================
+
+Check for clues such as:
+
+- correct option being much longer,
+- correct option being more precise than all others,
+- repeated words from the question,
+- grammatical mismatch,
+- explanatory text inside only one option,
+- parenthetical hints,
+- dates or definitions that reveal the answer.
+
+Fix only genuine leaks without changing the factual intent.
+
+==================================================
+16. CURRENT AFFAIRS / TIME-SENSITIVE FACTS
+==================================================
+
+If an existing question contains a time-sensitive fact:
+
+- preserve the original exam context,
+- preserve its original year/reference,
+- do not update a historical PYQ to today's fact,
+- do not insert newer information unless the task explicitly asks
+  for it.
+
+A 2022 PYQ remains a 2022 PYQ.
+
+==================================================
+17. NO FABRICATION OF SOURCE DATA
+==================================================
+
+Never invent or guess:
+
+- exam name
+- exam year
+- shift
+- sourceQuestionId
+- reference
+- question number
+- official answer-key status
+
+If source information is absent, do not manufacture it.
+
+==================================================
+18. OUTPUT FORMAT — CRITICAL FOR QUIZZER IMPORT
+==================================================
+
+THIS SECTION OVERRIDES ALL OTHER OUTPUT INSTRUCTIONS.
+
+Return ONLY a VALID JSON ARRAY.
+
+NOT:
+- an outer object
+- status
+- subject
+- topic
+- subtopic
+- setNumber
+- requestedCount
+- returnedCount
+- deliveryState
+- source list
+- comments
+- markdown
+- code fences
+- explanation outside JSON
+
+The first character of your response MUST be:
+
+[
+
+The last character of your response MUST be:
+
+]
+
+Each question MUST use exactly this structure:
+
+[
+  {
+    "q": "प्रश्न",
+    "o": [
+      "विकल्प 1",
+      "विकल्प 2",
+      "विकल्प 3",
+      "विकल्प 4"
+    ],
+    "a": 0,
+    "e": "संक्षिप्त एवं प्रमाणिक व्याख्या",
+    "t": "mcq"
+  }
+]
+
+Field definitions:
+
+q = question text
+o = exactly 4 substantive options
+a = correct option zero-based index: 0, 1, 2 or 3
+e = concise explanation
+t = question type
+
+Allowed t values:
 "mcq"
 "assertion"
 "true_false"
 "match"
 
-Do not turn a normal factual MCQ into an artificial assertion/reason question just to increase variety.
+For difficulty, do NOT add a new field unless the current importer
+explicitly supports it. The safe import format is q/o/a/e/t.
 
-This is an EDITING/AUDITING pass, not a question-format generation pass.
-
-==================================================
-9. DUPLICATE / SAME-FACT CHECK
-==================================================
-
-Within the supplied set:
-
-- Do not create duplicates.
-- If two questions ask exactly the same fact with only different wording, retain the stronger original and remove the redundant one ONLY when the duplication is clear.
-- Different questions about different facts from the same topic are NOT duplicates.
-- Do not remove an important factual point merely because another question belongs to the same topic.
-
-Priority when two questions are genuinely redundant:
-
-1. clearer and more authentic wording
-2. stronger options
-3. more reliable source/reference
-4. better explanation
-5. more recent genuine exam reference, when otherwise equivalent
-
-Do not perform aggressive semantic deletion.
+DO NOT add:
+"id"
+"sourceQuestionId"
+"exam"
+"year"
+"reference"
+"sourceType"
+"meta"
+or any other field to the final JSON.
 
 ==================================================
-10. WHAT "CORRECT" MEANS
+19. JSON VALIDATION BEFORE RESPONSE
 ==================================================
 
-A question is considered successfully corrected only when:
+Before returning the answer, silently perform a final machine-style
+validation.
 
-[ ] Question meaning is clear
-[ ] Factual answer is correct
-[ ] Exactly 4 options exist
-[ ] Options are distinct
-[ ] Exactly one correct option exists
-[ ] Answer index matches the final option order
-[ ] Explanation agrees with the answer
-[ ] No obvious language/grammar corruption remains
-[ ] No fake source information was introduced
-[ ] No accidental duplicate was introduced
-[ ] Original source identity is preserved
+[ ] Response begins with [
+[ ] Response ends with ]
+[ ] Valid JSON
+[ ] No Markdown fences
+[ ] No text before JSON
+[ ] No text after JSON
+[ ] Every item is an object
+[ ] Every item has q
+[ ] Every item has o
+[ ] Every item has a
+[ ] Every item has e
+[ ] Every item has t
+[ ] Every o array has exactly 4 strings
+[ ] a is exactly 0, 1, 2 or 3
+[ ] a points to the actual correct option
+[ ] Exactly one correct answer
+[ ] No invented questions
+[ ] No invented PYQ/source
+[ ] No same-fact duplicates
+[ ] No corrupted options
+[ ] Explanations are factually consistent
+[ ] Hindi is natural
+[ ] Existing good wording was not unnecessarily rewritten
 
-==================================================
-11. SET MEMORY / CONTINUATION PROTOCOL — VERY IMPORTANT
-==================================================
-
-You are working SET-BY-SET.
-
-At the beginning of this task, remember internally:
-
-"I am currently processing Set ${setNumber} for ${topic}."
-
-After you finish the supplied questions, mark internally:
-
-"Set ${setNumber} completed."
-
-If the user later sends the next set, for example Set ${Number(setNumber) + 1}, treat it as a CONTINUATION of the same topic workflow.
-
-Do NOT mix questions from different sets.
-
-Do NOT reuse questions from an earlier set if the user provides previous-set output/feedback.
-
-If the user later sends Set ${setNumber} again specifically for correction, treat it as a REVISION of Set ${setNumber}, not as a new set.
-
-If the user says that Set ${setNumber} had mistakes and supplies corrected data/feedback, apply that feedback carefully to the affected questions.
-
-The user may provide only the problematic questions instead of the whole set. In that case, correct ONLY the supplied questions and preserve their source identities.
-
-Do not claim that you permanently remember information outside the conversation. Your working continuity comes from the set number, topic, supplied data and any feedback included in the current conversation.
+If any check fails, fix it silently BEFORE returning JSON.
 
 ==================================================
-12. SET PROGRESS MESSAGE
+20. SET COMPLETION / CONTINUATION PROTOCOL
 ==================================================
 
-The machine-readable JSON must remain the ONLY output.
+After processing the current set, do NOT write a completion message
+outside JSON because Quizzer requires pure JSON.
 
-Therefore, DO NOT write a normal sentence such as:
-"Set 1 completed, now send Set 2."
+Internally consider the current set completed when its valid questions
+have been returned.
 
-Instead, encode completion in the JSON metadata:
+If the user continues in the SAME Gemini conversation:
 
-"status": "success",
-"setNumber": ${setNumber},
-"deliveryState": "SET_${setNumber}_COMPLETED_NEXT_SET_EXPECTED"
+- "Set 1" again = revise Set 1
+- "Set 2" = process Set 2
+- "Set 3" = process Set 3
+- etc.
 
-If the set requires revision:
+Never treat a revision of an old set as a brand-new set.
 
-"deliveryState": "SET_${setNumber}_REQUIRES_REVISION"
+When the user supplies fewer than ${count} valid existing questions,
+return only the valid retained questions.
 
-If fewer questions are safely retained:
-
-"deliveryState": "SET_${setNumber}_COMPLETED_WITH_FEWER_THAN_REQUESTED"
-
-This lets Quizzer/Gemini's next interaction understand the workflow without contaminating the JSON with prose.
-
-==================================================
-13. PREVIOUS-SET FEEDBACK
-==================================================
-
-${previousFeedback ? `The user has supplied the following previous-set feedback:
-
---- FEEDBACK START ---
-${previousFeedback}
---- FEEDBACK END ---
-
-Apply this feedback where relevant. Do not alter unrelated questions.` : "No previous-set feedback has been supplied for this run."}
+NEVER fill the missing count with AI-generated questions.
 
 ==================================================
-14. INPUT QUESTIONS
+21. FINAL MISSION
 ==================================================
 
-The following are the EXISTING questions to audit.
+Your mission is NOT to create questions.
 
-Treat them as the source dataset for this set.
+Your mission is to transform an existing raw PYQ set into a
+clean, accurate, exam-ready Quizzer set while preserving the original
+question's identity and factual intent.
 
---- QUESTIONS START ---
-${questionsText || "{{QUESTIONS WILL BE INSERTED HERE BY QUIZZER}}"}
---- QUESTIONS END ---
+Think like a strict final editor:
 
-==================================================
-15. FINAL INTERNAL AUDIT — DO THIS BEFORE OUTPUT
-==================================================
+PRESERVE → VERIFY → CORRECT → DEDUPLICATE → POLISH → VALIDATE → OUTPUT JSON.
 
-Before returning JSON, silently inspect EVERY retained question one by one.
+Do not invent.
 
-Check:
+Do not force quantity.
 
-1. Is this still the same original question/fact?
-2. Did I accidentally invent anything?
-3. Is the sourceQuestionId preserved?
-4. Is the exam/reference preserved?
-5. Are there exactly 4 options?
-6. Is exactly one option correct?
-7. Does "a" point to the correct option?
-8. Is the explanation factually consistent?
-9. Is the Hindi natural and exam-like?
-10. Did I accidentally create a duplicate?
-11. Did I unnecessarily rewrite a good original PYQ?
-12. Did I introduce an unsupported claim?
-13. Is this question genuinely useful for the target exam?
-14. Would a serious aspirant trust this question?
+Do not add commentary.
 
-If any check fails, silently fix it before output.
-
-==================================================
-16. OUTPUT FORMAT — QUIZZER CONTRACT
-==================================================
-
-Return ONLY valid JSON.
-
-Use this structure:
-
-{
-  "status": "success",
-  "subject": "${subject}",
-  "topic": "${topic}",
-  "subtopic": "${subtopic}",
-  "setNumber": ${setNumber},
-  "requestedCount": ${count},
-  "returnedCount": 0,
-  "deliveryState": "SET_${setNumber}_COMPLETED",
-  "questions": [
-    {
-      "id": "original-or-stable-id",
-      "question": "प्रश्न",
-      "options": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],
-      "answer": "सही उत्तर",
-      "explanation": "संक्षिप्त प्रमाणिक व्याख्या",
-      "difficulty": "easy",
-      "sourceType": "PYQ",
-      "exam": "original exam",
-      "year": 2024,
-      "sourceQuestionId": "original-source-id",
-      "reference": "original reference"
-    }
-  ]
-}
-
-IMPORTANT FIELD RULES:
-
-- Keep the field names compatible with Quizzer.
-- "options" = exactly 4 strings.
-- "answer" = exact text of the correct option.
-- "sourceType" for these existing genuine questions must remain "PYQ" unless the supplied source explicitly says otherwise.
-- "sourceQuestionId" must be preserved exactly.
-- "exam", "year" and "reference" must not be fabricated.
-- "difficulty" may be corrected only when clearly inappropriate; otherwise preserve the supplied value.
-- "id" should remain the original/stable ID when supplied.
-
-==================================================
-17. ABSOLUTE OUTPUT RULE
-==================================================
-
-Output NOTHING except the JSON object.
-
-No:
-
-- Markdown fences
-- introduction
-- conclusion
-- commentary
-- audit notes
-- explanations outside JSON
-- "Here is your corrected set"
-- YouTube list
-- citations
-- source list
-
-The JSON must be directly parseable by Quizzer.
-
-FINAL COMMAND:
-
-AUDIT THE SUPPLIED EXISTING QUESTIONS.
-CORRECT THEM.
-POLISH ONLY WHERE NECESSARY.
-PRESERVE THEIR ORIGINAL PYQ IDENTITY.
-DO NOT GENERATE NEW QUESTIONS.
-RETURN THE CLEANED SET AS VALID JSON ONLY.
+Return only the clean JSON array.
 `;
 }
