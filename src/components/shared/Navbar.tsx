@@ -15,6 +15,7 @@ import {
   ChevronDown,
   Shield,
   FileUp,
+  BarChart2,
 } from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -116,6 +117,20 @@ export function Navbar() {
                     >
                       <LayoutDashboard className="h-4 w-4" />
                       डैशबोर्ड
+                    </Link>
+
+                    <Link
+                      href="/analytics"
+                      onClick={() => setProfileOpen(false)}
+                      className={cn(
+                        "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors font-hindi",
+                        pathname === "/analytics"
+                          ? "bg-muted text-foreground font-semibold"
+                          : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                      )}
+                    >
+                      <BarChart2 className="h-4 w-4" />
+                      विश्लेषण एवं प्रगति
                     </Link>
 
                     <Link

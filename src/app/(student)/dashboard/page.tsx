@@ -27,7 +27,7 @@ const PerformanceRadarChart = dynamic(
 );
 
 export default function DashboardPage() {
-  const stats = useQuery(api.analytics.dashboardStats);
+  const stats = useQuery(api.analytics.dashboardStats, {});
   const recent = useQuery(api.attempts.recentByUser, { limit: 5 });
   const subjects = useQuery(api.subjects.list);
 
