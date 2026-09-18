@@ -113,13 +113,13 @@ export default function SubjectDetailPage() {
                         )}
 
                         {isCompleted && (
-                          <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full font-hindi border border-emerald-500/20">
+                          <span className="inline-flex items-center gap-1 text-xs font-bold text-success bg-success/10 px-2 py-0.5 rounded-full font-hindi border border-success/20">
                             <CheckCircle2 className="h-3 w-3" /> पूर्ण
                           </span>
                         )}
 
                         {isInProgress && (
-                          <span className="inline-flex items-center gap-1 text-xs font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full font-hindi border border-amber-500/20">
+                          <span className="inline-flex items-center gap-1 text-xs font-bold text-warning bg-warning/10 px-2 py-0.5 rounded-full font-hindi border border-warning/20">
                             <Clock className="h-3 w-3" /> प्रगति पर ({progress.completedSets}/{progress.totalSets})
                           </span>
                         )}

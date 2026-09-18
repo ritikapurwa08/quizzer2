@@ -55,7 +55,10 @@ export default function AdminTopicsPage() {
   return (
     <div className="space-y-6 max-w-3xl">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-semibold">Topics</h1>
+        <div>
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Topics</h1>
+          <p className="text-xs text-muted-foreground mt-0.5">Manage the fixed syllabus topic hierarchy; sync from master AGENTS.md.</p>
+        </div>
         <Button
           variant="outline"
           size="sm"

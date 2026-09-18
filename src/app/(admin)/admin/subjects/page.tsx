@@ -30,7 +30,10 @@ export default function AdminSubjectsPage() {
 
   return (
     <div className="space-y-6 max-w-3xl">
-      <h1 className="text-xl font-semibold">Subjects</h1>
+      <div>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Subjects</h1>
+        <p className="text-xs text-muted-foreground mt-0.5">Add and manage exam subjects.</p>
+      </div>
 
       <form onSubmit={handleCreate} className="flex gap-2">
         <Input placeholder="New subject name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -52,15 +55,16 @@ export default function AdminSubjectsPage() {
             {
               header: "",
               render: (s) => (
-                <button
-                  type="button"
+                <Button
+                  variant="ghost"
+                  size="icon"
                   onClick={() => setDeleteTarget(s._id)}
-                  className="p-2 rounded-lg hover:bg-destructive/15 text-destructive transition-colors cursor-pointer"
+                  className="h-9 w-9 text-destructive hover:bg-destructive/15 cursor-pointer rounded-lg"
                   aria-label="Delete subject"
                   title="Delete subject"
                 >
                   <Trash2 className="h-4 w-4" />
-                </button>
+                </Button>
               ),
             },
           ]}

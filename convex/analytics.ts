@@ -113,16 +113,34 @@ export const dashboardStats = query({
       .sort((a, b) => a.accuracy - b.accuracy)
       .slice(0, 5);
 
-    // Build dailyProgress array: last 30 days, sorted ascending
-    const allDays = Array.from(dailyMap.entries())
-      .map(([day, { count, tests }]) => ({
+    // Build dailyProgress array: last 30 calendar days, zero-filled for inactive days
+    // This ensures the bar chart always renders the correct number of bars.
+    const today = new Date();
+    const allDays: {
+      day: string;
+      count: number;
+      tests: number;
+      bySubject: Record<string, number>;
+    }[] = [];
+    for (let i = 29; i >= 0; i--) {
+      const d = new Date(today);
+      d.setDate(today.getDate() - i);
+      const day = d.toISOString().slice(0, 10);
+      const entry = dailyMap.get(day) ?? { count: 0, tests: 0 };
+      const bySubjectRaw = dailyBySubject.get(day) ?? new Map<string, number>();
+      allDays.push({
         day,
-        count,
-        tests,
-        bySubject: Object.fromEntries(dailyBySubject.get(day) ?? new Map()),
-      }))
-      .sort((a, b) => a.day.localeCompare(b.day))
-      .slice(-30);
+        count: entry.count,
+        tests: entry.tests,
+        bySubject: Object.fromEntries(bySubjectRaw),
+      });
+    }
+
+    // All subjects' real accuracy for the radar chart (not just weak-5)
+    const subjectAccuracy = Array.from(subjectStats.values()).map((s) => ({
+      name: s.name,
+      accuracy: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0,
+    }));
 
     return {
       testsAttempted,
@@ -132,6 +150,7 @@ export const dashboardStats = query({
       wrongQuestionCount: wrongQuestions.length,
       dailyProgress: allDays,
       weakSubjects,
+      subjectAccuracy,
     };
   },
 });

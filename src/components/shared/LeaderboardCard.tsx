@@ -5,6 +5,13 @@ import { api } from "../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { LoadingState } from "@/components/shared/LoadingState";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Trophy, Medal } from "lucide-react";
 import { cn, getSubjectDisplayName } from "@/lib/utils";
 import { useState } from "react";
@@ -15,9 +22,9 @@ interface LeaderboardCardProps {
 }
 
 const RANK_STYLES = [
-  "bg-amber-400/15 text-amber-500 border-amber-400/30",
-  "bg-slate-300/20 text-slate-400 border-slate-300/30",
-  "bg-orange-400/15 text-orange-400 border-orange-400/30",
+  "bg-[color:var(--rank-gold)]/15 text-[color:var(--rank-gold)] border-[color:var(--rank-gold)]/30",
+  "bg-[color:var(--rank-silver)]/15 text-[color:var(--rank-silver)] border-[color:var(--rank-silver)]/30",
+  "bg-[color:var(--rank-bronze)]/15 text-[color:var(--rank-bronze)] border-[color:var(--rank-bronze)]/30",
 ];
 
 export function LeaderboardCard({ subjects }: LeaderboardCardProps) {
@@ -38,7 +45,7 @@ export function LeaderboardCard({ subjects }: LeaderboardCardProps) {
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">
-          <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-amber-400/10 text-amber-500 shrink-0">
+          <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-[color:var(--rank-gold)]/10 text-[color:var(--rank-gold)] shrink-0">
             <Trophy className="h-4 w-4" />
           </div>
           <h2 className="text-sm font-bold text-foreground font-hindi">
@@ -46,28 +53,30 @@ export function LeaderboardCard({ subjects }: LeaderboardCardProps) {
           </h2>
         </div>
 
-        {/* Subject filter */}
+        {/* Subject filter — shadcn Select for dark-mode compatible dropdown */}
         {subjects.length > 1 && (
-          <div className="relative">
-            <select
+          <Select value={selectedSubjectId} onValueChange={(v) => setSelectedSubjectId(v ?? selectedSubjectId)}>
+            <SelectTrigger
               id="leaderboard-subject-filter"
-              value={selectedSubjectId}
-              onChange={(e) => setSelectedSubjectId(e.target.value)}
-              className="h-7 rounded-lg border border-border bg-background text-xs font-medium text-foreground px-2 pr-6 appearance-none cursor-pointer hover:border-primary/50 focus:outline-none focus:border-primary font-hindi"
+              size="sm"
+              className="h-7 w-auto min-w-28 max-w-44 text-xs font-medium font-hindi rounded-lg px-2"
               aria-label="विषय चुनें"
             >
+              <SelectValue placeholder="विषय चुनें">
+                {(v: string | null) => {
+                  const s = subjects.find((x) => x._id === (v ?? selectedSubjectId));
+                  return s ? getSubjectDisplayName(s) : "विषय चुनें";
+                }}
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
               {subjects.map((s) => (
-                <option key={s._id} value={s._id}>
+                <SelectItem key={s._id} value={s._id} className="text-xs font-hindi">
                   {getSubjectDisplayName(s)}
-                </option>
+                </SelectItem>
               ))}
-            </select>
-            <span className="pointer-events-none absolute inset-y-0 right-1.5 flex items-center text-muted-foreground">
-              <svg className="h-3 w-3" viewBox="0 0 12 12" fill="currentColor">
-                <path d="M6 8L1 3h10L6 8z" />
-              </svg>
-            </span>
-          </div>
+            </SelectContent>
+          </Select>
         )}
       </div>
 

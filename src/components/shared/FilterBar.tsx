@@ -1,6 +1,13 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface Option {
   value: string;
@@ -26,9 +33,6 @@ interface FilterBarProps {
   className?: string;
 }
 
-const selectBase =
-  "h-9 max-w-full rounded-xl border border-border bg-card text-xs sm:text-sm font-medium text-foreground pl-3 pr-8 appearance-none cursor-pointer transition-colors hover:border-primary/50 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/30 font-hindi shadow-xs";
-
 export function FilterBar({
   subjects,
   selectedSubject,
@@ -42,81 +46,80 @@ export function FilterBar({
   className,
 }: FilterBarProps) {
   return (
-    <div
-      className={cn(
-        "flex flex-wrap items-center gap-2",
-        className,
-      )}
-    >
+    <div className={cn("flex flex-wrap items-center gap-2", className)}>
       {/* Subject filter */}
-      <div className="relative">
-        <select
+      <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
+        <SelectTrigger
           id="filter-subject"
-          value={selectedSubject}
-          onChange={(e) => onSubjectChange(e.target.value)}
-          className={selectBase}
+          className="h-9 min-w-32 max-w-52 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
           aria-label="विषय फ़िल्टर"
         >
+          <SelectValue placeholder="विषय चुनें">
+            {(v: string | null) => {
+              const opt = subjects.find((s) => s.value === (v ?? selectedSubject));
+              return opt?.label ?? "विषय चुनें";
+            }}
+          </SelectValue>
+        </SelectTrigger>
+        <SelectContent className="bg-popover border-border">
           {subjects.map((s) => (
-            <option key={s.value} value={s.value}>
+            <SelectItem key={s.value} value={s.value} className="text-xs sm:text-sm font-hindi">
               {s.label}
-            </option>
+            </SelectItem>
           ))}
-        </select>
-        <span className="pointer-events-none absolute inset-y-0 right-2 flex items-center text-muted-foreground">
-          <svg className="h-3 w-3" viewBox="0 0 12 12" fill="currentColor">
-            <path d="M6 8L1 3h10L6 8z" />
-          </svg>
-        </span>
-      </div>
+        </SelectContent>
+      </Select>
 
       {/* Topic filter — only when a subject is selected */}
       {topics && topics.length > 0 && selectedSubject !== "all" && onTopicChange && (
-        <div className="relative">
-          <select
+        <Select value={selectedTopic ?? "all"} onValueChange={(v) => onTopicChange(v ?? "all")}>
+          <SelectTrigger
             id="filter-topic"
-            value={selectedTopic ?? "all"}
-            onChange={(e) => onTopicChange(e.target.value)}
-            className={selectBase}
+            className="h-9 min-w-32 max-w-52 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
             aria-label="टॉपिक फ़िल्टर"
           >
+            <SelectValue placeholder="टॉपिक चुनें">
+              {(v: string | null) => {
+                const opt = topics.find((t) => t.value === (v ?? selectedTopic ?? "all"));
+                return opt?.label ?? "टॉपिक चुनें";
+              }}
+            </SelectValue>
+          </SelectTrigger>
+          <SelectContent className="bg-popover border-border">
             {topics.map((t) => (
-              <option key={t.value} value={t.value}>
+              <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm font-hindi">
                 {t.label}
-              </option>
+              </SelectItem>
             ))}
-          </select>
-          <span className="pointer-events-none absolute inset-y-0 right-2 flex items-center text-muted-foreground">
-            <svg className="h-3 w-3" viewBox="0 0 12 12" fill="currentColor">
-              <path d="M6 8L1 3h10L6 8z" />
-            </svg>
-          </span>
-        </div>
+          </SelectContent>
+        </Select>
       )}
 
       {/* Sort options */}
       {sortOptions && sortOptions.length > 0 && onSortChange && (
-        <div className="relative">
-          <select
+        <Select value={selectedSort ?? sortOptions[0].value} onValueChange={(v) => onSortChange(v ?? sortOptions[0].value)}>
+          <SelectTrigger
             id="filter-sort"
-            value={selectedSort ?? sortOptions[0].value}
-            onChange={(e) => onSortChange(e.target.value)}
-            className={selectBase}
+            className="h-9 min-w-28 max-w-44 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
             aria-label="क्रम"
           >
+            <SelectValue placeholder="क्रम चुनें">
+              {(v: string | null) => {
+                const opt = sortOptions.find((o) => o.value === (v ?? selectedSort ?? sortOptions[0].value));
+                return opt?.label ?? "क्रम चुनें";
+              }}
+            </SelectValue>
+          </SelectTrigger>
+          <SelectContent className="bg-popover border-border">
             {sortOptions.map((o) => (
-              <option key={o.value} value={o.value}>
+              <SelectItem key={o.value} value={o.value} className="text-xs sm:text-sm font-hindi">
                 {o.label}
-              </option>
+              </SelectItem>
             ))}
-          </select>
-          <span className="pointer-events-none absolute inset-y-0 right-2 flex items-center text-muted-foreground">
-            <svg className="h-3 w-3" viewBox="0 0 12 12" fill="currentColor">
-              <path d="M6 8L1 3h10L6 8z" />
-            </svg>
-          </span>
-        </div>
+          </SelectContent>
+        </Select>
       )}
     </div>
   );
 }
+

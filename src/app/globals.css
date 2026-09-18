@@ -29,6 +29,10 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+  /* ── Rank medals — decorative, not semantic ── */
+  --color-rank-gold: var(--rank-gold);
+  --color-rank-silver: var(--rank-silver);
+  --color-rank-bronze: var(--rank-bronze);
 
   --radius-sm: 0.5rem;
   --radius: 0.75rem;
@@ -74,6 +78,10 @@
   --chart-3: #4f46e5;
   --chart-4: #d97706;
   --chart-5: #db2777;
+  /* ── Rank medal colors (light) ── */
+  --rank-gold: #d97706;
+  --rank-silver: #64748b;
+  --rank-bronze: #92400e;
 }
 
 .dark {
@@ -109,6 +117,12 @@
   --chart-3: #6366f1;
   --chart-4: #f59e0b;
   --chart-5: #ec4899;
+  /* ── Rank medal colors (dark) ── */
+  --rank-gold: #fbbf24;
+  --rank-silver: #94a3b8;
+  --rank-bronze: #d97706;
+  /* ── color-scheme: switch native controls to dark ── */
+  color-scheme: dark;
 }
 
 *,
@@ -119,7 +133,7 @@
 }
 
 html {
-  color-scheme: light;
+  color-scheme: light dark;
   scroll-behavior: smooth;
 }
 
@@ -259,4 +273,36 @@ pre {
     font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
     -webkit-font-smoothing: auto;
   }
+}
+
+/* ── Semantic type-scale utilities (mobile → desktop responsive) ── */
+.text-page-title {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+@media (min-width: 640px) {
+  .text-page-title {
+    font-size: 1.5rem; /* sm:text-2xl */
+  }
+}
+.text-section-head {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.text-card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.text-body {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.text-caption {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
 }

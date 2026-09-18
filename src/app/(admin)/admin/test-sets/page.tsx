@@ -39,7 +39,10 @@ export default function AdminTestSetsPage() {
 
   return (
     <div className="space-y-6 max-w-3xl">
-      <h1 className="text-xl font-semibold">Test Sets</h1>
+      <div>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Test Sets</h1>
+        <p className="text-xs text-muted-foreground mt-0.5">Create and manage practice test sets per topic.</p>
+      </div>
 
       {/* Subject + Topic filter row */}
       <div className="grid sm:grid-cols-2 gap-3">

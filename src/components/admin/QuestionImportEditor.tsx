@@ -384,7 +384,7 @@ export function QuestionImportEditor({
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2 min-w-0">
-              <Sparkles className="h-4 w-4 text-amber-500" />
+              <Sparkles className="h-4 w-4 text-warning" />
               <CardTitle className="text-sm font-bold tracking-tight">
                 2. Quality-Control Prompt (Gemini AI)
               </CardTitle>

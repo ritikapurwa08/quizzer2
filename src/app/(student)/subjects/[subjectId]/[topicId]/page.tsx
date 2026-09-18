@@ -48,7 +48,7 @@ export default function TopicDetailPage() {
               {topicTitle}
             </h1>
             {isTopicCompleted && (
-              <span className="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 font-hindi">
+              <span className="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-success/15 text-success border border-success/20 font-hindi">
                 <CheckCircle2 className="h-3.5 w-3.5" /> टॉपिक पूर्ण (Completed)
               </span>
             )}
@@ -82,7 +82,7 @@ export default function TopicDetailPage() {
               अभ्यास सेट ({totalSets})
             </h2>
             {completedCount > 0 && (
-              <span className="flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 font-hindi">
+              <span className="flex items-center gap-1 text-[11px] font-bold text-success font-hindi">
                 <CheckCircle2 className="h-3.5 w-3.5" />
                 {completedCount}/{totalSets} पूर्ण
               </span>

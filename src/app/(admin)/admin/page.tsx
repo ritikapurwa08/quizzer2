@@ -13,7 +13,7 @@ export default function AdminOverviewPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-xl font-bold tracking-tight text-foreground">Admin Console Overview</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">Admin Console Overview</h1>
         <p className="text-xs text-muted-foreground mt-0.5">
           Manage exam subjects, topics, test sets, and bulk import questions.
         </p>

@@ -43,12 +43,12 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
               "pointer-events-auto flex items-center gap-3 p-3.5 rounded-lg border shadow-lg text-sm font-semibold transition-all transform translate-y-0 animate-in fade-in slide-in-from-bottom-5 duration-200",
               toast.type === "success" && "bg-card border-success/40 text-foreground ring-1 ring-success/20",
               toast.type === "info" && "bg-card border-primary/40 text-foreground ring-1 ring-primary/20",
-              toast.type === "warning" && "bg-card border-amber-500/40 text-foreground ring-1 ring-amber-500/20"
+              toast.type === "warning" && "bg-card border-warning/40 text-foreground ring-1 ring-warning/20"
             )}
           >
             {toast.type === "success" && <CheckCircle2 className="h-5 w-5 text-success shrink-0" />}
             {toast.type === "info" && <Info className="h-5 w-5 text-primary shrink-0" />}
-            {toast.type === "warning" && <AlertTriangle className="h-5 w-5 text-amber-500 shrink-0" />}
+            {toast.type === "warning" && <AlertTriangle className="h-5 w-5 text-warning shrink-0" />}
             <span className="flex-1 text-xs sm:text-sm">{toast.message}</span>
             <button
               onClick={() => removeToast(toast.id)}

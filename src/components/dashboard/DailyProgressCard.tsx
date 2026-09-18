@@ -5,6 +5,13 @@ import { Card } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { TrendingUp, Flame } from "lucide-react";
 import { cn, getSubjectDisplayName } from "@/lib/utils";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface DailyPoint {
   day: string; // ISO format "YYYY-MM-DD"
@@ -109,7 +116,7 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
 
         {filtered.length > 0 && (
           <div className="flex items-center gap-2 font-hindi text-xs">
-            <span className="flex items-center gap-1 text-amber-500 font-semibold bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
+            <span className="flex items-center gap-1 text-warning font-semibold bg-warning/10 px-2 py-0.5 rounded-full border border-warning/20">
               <Flame className="h-3 w-3 fill-current" />
               {activeDays} सक्रिय दिन
             </span>
@@ -141,29 +148,32 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
           ))}
         </div>
 
-        {/* Subject filter */}
+        {/* Subject filter — shadcn Select for dark-mode compatible dropdown */}
         {subjects.length > 0 && (
-          <div className="relative">
-            <select
+          <Select value={selectedSubjectId} onValueChange={(v) => setSelectedSubjectId(v ?? "all")}>
+            <SelectTrigger
               id="daily-progress-subject"
-              value={selectedSubjectId}
-              onChange={(e) => setSelectedSubjectId(e.target.value)}
-              className="h-7 rounded-lg border border-border bg-card text-[11px] font-medium text-foreground px-2 pr-6 appearance-none cursor-pointer hover:border-primary/50 focus:outline-none font-hindi"
+              size="sm"
+              className="h-7 w-auto min-w-28 max-w-44 text-[11px] font-medium font-hindi rounded-lg"
               aria-label="विषय फ़िल्टर"
             >
-              <option value="all">सभी विषय</option>
+              <SelectValue placeholder="सभी विषय">
+                {(v: string | null) => {
+                  if (!v || v === "all") return "सभी विषय";
+                  const s = subjects.find((x) => x._id === v);
+                  return s ? getSubjectDisplayName(s) : "सभी विषय";
+                }}
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectItem value="all" className="text-[11px] font-hindi">सभी विषय</SelectItem>
               {subjects.map((s) => (
-                <option key={s._id} value={s._id}>
+                <SelectItem key={s._id} value={s._id} className="text-[11px] font-hindi">
                   {getSubjectDisplayName(s)}
-                </option>
+                </SelectItem>
               ))}
-            </select>
-            <span className="pointer-events-none absolute inset-y-0 right-1.5 flex items-center text-muted-foreground">
-              <svg className="h-3 w-3" viewBox="0 0 12 12" fill="currentColor">
-                <path d="M6 8L1 3h10L6 8z" />
-              </svg>
-            </span>
-          </div>
+            </SelectContent>
+          </Select>
         )}
       </div>
 

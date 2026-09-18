@@ -1,20 +1,30 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useQuery } from "convex/react";
 
 import { StatCard } from "@/components/dashboard/StatCard";
 import { WeakSubjectsCard } from "@/components/dashboard/WeakSubjectsCard";
 import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
-import { PerformanceRadarChart } from "@/components/dashboard/PerformanceRadarChart";
 import { LeaderboardCard } from "@/components/shared/LeaderboardCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
 import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
+
+// Lazy-load Recharts radar chart to keep it out of the initial JS bundle
+const PerformanceRadarChart = dynamic(
+  () => import("@/components/dashboard/PerformanceRadarChart").then((m) => ({ default: m.PerformanceRadarChart })),
+  {
+    ssr: false,
+    loading: () => <Skeleton className="h-[350px] w-full rounded-xl" />,
+  }
+);
 
 export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats);
@@ -113,10 +123,10 @@ export default function DashboardPage() {
         {stats && (
           <PerformanceRadarChart
             data={
-              stats.weakSubjects && stats.weakSubjects.length >= 3
-                ? stats.weakSubjects.map((ws: any) => ({
+              stats.subjectAccuracy && stats.subjectAccuracy.length >= 3
+                ? stats.subjectAccuracy.map((ws: { name: string; accuracy: number }) => ({
                     subject: ws.name,
-                    score: Math.round(ws.accuracy),
+                    score: ws.accuracy,
                   }))
                 : undefined
             }

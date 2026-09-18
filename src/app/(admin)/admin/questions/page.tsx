@@ -12,6 +12,7 @@ import { Pagination } from "@/components/shared/Pagination";
 import { LoadingSpinner } from "@/components/shared/LoadingState";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
@@ -123,7 +124,7 @@ export default function AdminQuestionsPage() {
   return (
     <div className="space-y-5 max-w-5xl">
       <div>
-        <h1 className="text-xl font-bold tracking-tight">Question Bank</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight">Question Bank</h1>
         <p className="text-xs text-muted-foreground mt-0.5">
           Search, filter by topic/exam, edit questions, and manage question bank entries.
         </p>
@@ -329,24 +330,26 @@ export default function AdminQuestionsPage() {
                 header: "",
                 render: (q) => (
                   <div className="flex items-center gap-1 justify-end">
-                    <button
-                      type="button"
+                    <Button
+                      variant="ghost"
+                      size="icon"
                       onClick={() => openEdit(q)}
-                      className="p-2 rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+                      className="h-8 w-8 text-muted-foreground hover:text-foreground rounded-lg cursor-pointer"
                       title="Edit question"
                       aria-label="Edit question"
                     >
                       <Pencil className="h-3.5 w-3.5" />
-                    </button>
-                    <button
-                      type="button"
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
                       onClick={() => setDeleteTarget(q._id)}
-                      className="p-2 rounded-lg hover:bg-destructive/10 text-destructive transition-colors cursor-pointer"
+                      className="h-8 w-8 text-destructive hover:bg-destructive/10 rounded-lg cursor-pointer"
                       title="Delete question"
                       aria-label="Delete question"
                     >
                       <Trash2 className="h-3.5 w-3.5" />
-                    </button>
+                    </Button>
                   </div>
                 ),
               },
