@@ -1,0 +1,14 @@
+{"name":"attempts","id":10001}
+{"name":"authAccounts","id":10002}
+{"name":"authRateLimits","id":10003}
+{"name":"authRefreshTokens","id":10004}
+{"name":"authSessions","id":10005}
+{"name":"authVerificationCodes","id":10006}
+{"name":"authVerifiers","id":10007}
+{"name":"bookmarks","id":10008}
+{"name":"questions","id":10009}
+{"name":"subjects","id":10010}
+{"name":"testSets","id":10011}
+{"name":"topics","id":10012}
+{"name":"users","id":10013}
+{"name":"wrongQuestions","id":10014}
