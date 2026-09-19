@@ -34,7 +34,7 @@ export function SyllabusSelect({
   options,
   value,
   onValueChange,
-  placeholder = "चुनें…",
+  placeholder = "Select...",
   disabled = false,
   className,
 }: SyllabusSelectProps) {

@@ -11,13 +11,9 @@ export const optionSchema = z.object({
   text: z.string().min(1),
 });
 
-// All accepted type strings (v2 canonical + legacy aliases)
+// Exactly 6 canonical question types
 export const questionTypeSchema = z.enum([
   "mcq",
-  "match",
-  "assertion",
-  "true_false",
-  // legacy aliases — kept for backward compat
   "match_following",
   "assertion_reason",
   "statement_reason",
@@ -41,7 +37,7 @@ export const questionSchema = z
     meta: z.any().optional(),
   })
   .superRefine((q, ctx) => {
-    const needsOptions = ["mcq", "true_false", "assertion", "assertion_reason", "statement_reason", "match", "match_following"];
+    const needsOptions = ["mcq", "match_following", "assertion_reason", "statement_reason", "sequence", "table"];
     if (needsOptions.includes(q.type) && q.options.length === 0) {
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
@@ -91,12 +87,13 @@ export function isFakeExam(str?: string | null): boolean {
 
 const MINIFIED_TYPE_MAP: Record<string, AcceptedQuestionType> = {
   mcq: "mcq",
-  match: "match",
+  match: "match_following",
   match_following: "match_following",
-  assertion: "assertion",
+  match_the_following: "match_following",
+  matching: "match_following",
+  assertion: "assertion_reason",
   assertion_reason: "assertion_reason",
   statement_reason: "statement_reason",
-  true_false: "true_false",
   sequence: "sequence",
   table: "table",
 };
@@ -160,7 +157,7 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
 
   // ── Strategy 1: Side-by-side lines ──
   const sideBySideRegex =
-    /^(?:(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:]))\s*(.*?)(?:\s{2,}|\t|\s+(?=\([a-zA-Z0-9ivxlc\u0900-\u097F]+\)|(?:[\divxlc]+|[a-eA-E\u0915-\u0918])\s*[.)\-:]))(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)$/i;
+    /^(?:(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:]))\s*(.*?)(?:\s{2,}|\t|\s*[-–—]\s*|\s+(?=\([a-zA-Z0-9ivxlc\u0900-\u097F]+\)|(?:[\divxlc]+|[a-eA-E\u0915-\u0918])\s*[.)\-:]))(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)$/i;
 
   const leftItems: MatchListItem[] = [];
   const rightItems: MatchListItem[] = [];
@@ -173,9 +170,9 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
     const m = line.match(sideBySideRegex);
     if (m) {
       const leftId = (m[1] || m[2] || "").trim();
-      const leftText = (m[3] || "").trim();
+      const leftText = (m[3] || "").replace(/\s*[-–—]\s*$/, "").trim();
       const rightId = (m[4] || m[5] || "").trim();
-      const rightText = (m[6] || "").trim();
+      const rightText = (m[6] || "").replace(/^\s*[-–—]\s*/, "").trim();
 
       if (leftText && rightText) {
         leftItems.push({ id: leftId, text: leftText });
@@ -266,11 +263,21 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     options = options.filter(o => o.text.length > 0);
 
     // Determine type first
-    const rawType: string = String(raw.t ?? raw.type ?? "mcq").toLowerCase().trim();
-    const type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? (questionTypeSchema.options.includes(rawType as any) ? (rawType as AcceptedQuestionType) : "mcq");
+    const rawType: string = String(raw.t ?? raw.type ?? "").toLowerCase().trim();
+    let type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? (questionTypeSchema.options.includes(rawType as any) ? (rawType as AcceptedQuestionType) : "mcq");
+
+    // Auto-detect match questions if type is generic mcq or omitted
+    if (type === "mcq") {
+      const isMatchLike =
+        /(?:सूची\s*[-–—:\s]*(?:I|1|A)|List\s*[-–—:\s]*(?:I|1|A)|सुमेलित\s*(?:करें|कीजिए)|सुमेलन)/i.test(questionText) ||
+        (Array.isArray(options) && options.length === 4 && options.every(o => /[a-dA-D\d]\s*[-–—:]\s*[I-Vi-v\d]/.test(o.text)));
+      if (isMatchLike) {
+        type = "match_following";
+      }
+    }
 
     const isAiFormat = ("q" in raw) || ("question" in raw) || ("sourceType" in raw);
-    const expectedOptCount = type === "true_false" ? 2 : 4;
+    const expectedOptCount = 4;
     if (isAiFormat && options.length !== expectedOptCount) return null;
     if (options.length < 2) return null;
 
@@ -321,7 +328,7 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
 
     // Meta handling for match questions
     let meta: any = raw.meta ?? undefined;
-    if (type === "match" || type === "match_following") {
+    if (type === "match_following") {
       const existingLeft = meta?.left ?? meta?.columnA;
       const existingRight = meta?.right ?? meta?.columnB;
 
@@ -681,7 +688,7 @@ export function validateBatchQuality(questions: QuestionInput[]): {
         questionText: q.questionText,
         severity: "error",
         code: "INVALID_OPTION_COUNT",
-        message: `Q${qNum}: ${optCount} विकल्प — मान्य सीमा 2–5 है (${optCount} options, expected 2–5)`,
+        message: `Q${qNum}: ${optCount} options found (expected 2–5 options)`,
       });
     }
 
@@ -711,7 +718,7 @@ export function validateBatchQuality(questions: QuestionInput[]): {
             questionText: q.questionText,
             severity: "error",
             code: "MISSING_CORRECT_ANSWER",
-            message: `Q${qNum}: सही उत्तर "${q.correctAnswer}" दिया गया है लेकिन विकल्पों में मौजूद नहीं है`,
+            message: `Q${qNum}: Correct answer "${q.correctAnswer}" does not match any valid option`,
           });
         }
 
@@ -777,8 +784,8 @@ export function validateImportBatch(
   if (!isCountValid) {
     errors.push(
       options?.allowFinalBelow20
-        ? `अंतिम सेट के लिए कम से कम 1 प्रश्न आवश्यक है। अभी ${questions.length} प्रश्न मिले हैं।`
-        : `20 प्रश्न आवश्यक हैं। अभी ${questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`
+        ? `Final set requires at least 1 question. Found ${questions.length} questions.`
+        : `Exactly 20 questions required. Found ${questions.length} questions. Cannot import.`
     );
   }
 
@@ -800,17 +807,16 @@ export function validateImportBatch(
     const rawQuestionText = String(q.questionText ?? (q as any).q ?? "").trim();
     if (!rawQuestionText) {
       validStructure = false;
-      errors.push(`प्रश्न #${qNum}: प्रश्न का विवरण खाली है।`);
+      errors.push(`Question #${qNum}: Question text is required.`);
     }
 
     // 2. Options check
     const qOptions = q.options ?? (q as any).o;
     const optCount = Array.isArray(qOptions) ? qOptions.length : 0;
-    const qType = String(q.type ?? (q as any).t ?? "mcq").toLowerCase().trim();
-    const expectedOpts = qType === "true_false" ? 2 : 4;
+    const expectedOpts = 4;
     if (optCount !== expectedOpts) {
       validStructure = false;
-      errors.push(`प्रश्न #${qNum}: ठीक ${expectedOpts} विकल्प होने चाहिए, ${optCount} मिले।`);
+      errors.push(`Question #${qNum}: Must have exactly ${expectedOpts} options, found ${optCount}.`);
     }
 
     if (Array.isArray(qOptions) && qOptions.length > 0) {
@@ -826,11 +832,11 @@ export function validateImportBatch(
       }
       if (hasEmpty) {
         validStructure = false;
-        errors.push(`प्रश्न #${qNum}: विकल्प खाली नहीं हो सकता।`);
+        errors.push(`Question #${qNum}: Option text cannot be empty.`);
       }
       if (hasDup) {
         uniqueOptions = false;
-        errors.push(`प्रश्न #${qNum}: विकल्पों में दोहराव (duplicate options) है।`);
+        errors.push(`Question #${qNum}: Duplicate options found.`);
       }
     }
 
@@ -839,7 +845,7 @@ export function validateImportBatch(
     if (typeof rawAns === "number") {
       if (!Number.isInteger(rawAns) || rawAns < 0 || rawAns >= expectedOpts) {
         validAnswers = false;
-        errors.push(`प्रश्न #${qNum}: सही उत्तर सूचकांक अमान्य है (${rawAns})।`);
+        errors.push(`Question #${qNum}: Invalid correct answer index (${rawAns}).`);
       }
     } else if (typeof rawAns === "string") {
       const validIds = Array.isArray(qOptions) && typeof qOptions[0] === "object"
@@ -847,12 +853,12 @@ export function validateImportBatch(
         : ["opt1", "opt2", "opt3", "opt4", "A", "B", "C", "D", "0", "1", "2", "3"];
       if (!validIds.includes(rawAns)) {
         validAnswers = false;
-        errors.push(`प्रश्न #${qNum}: सही उत्तर (${rawAns}) विकल्पों में मान्य नहीं है।`);
+        errors.push(`Question #${qNum}: Correct answer (${rawAns}) does not match any valid option.`);
       }
     } else if (Array.isArray(rawAns)) {
       if (rawAns.length === 0) {
         validAnswers = false;
-        errors.push(`प्रश्न #${qNum}: सही उत्तर अनुपलब्ध है।`);
+        errors.push(`Question #${qNum}: Correct answer is required.`);
       }
     }
 
@@ -860,7 +866,7 @@ export function validateImportBatch(
     const explanation = String(q.explanation ?? (q as any).e ?? "").trim();
     if (!explanation) {
       explanationsPresent = false;
-      errors.push(`प्रश्न #${qNum}: व्याख्या (explanation) अनिवार्य है।`);
+      errors.push(`Question #${qNum}: Explanation is required.`);
     }
 
     // 5. Batch duplicate question check
@@ -868,7 +874,7 @@ export function validateImportBatch(
     if (normText) {
       if (seenQuestionTexts.has(normText)) {
         noDuplicateQuestions = false;
-        errors.push(`प्रश्न #${qNum}: प्रश्न #${seenQuestionTexts.get(normText)! + 1} का दोहराव (duplicate question) है।`);
+        errors.push(`Question #${qNum}: Duplicate question text (matches Question #${seenQuestionTexts.get(normText)! + 1}).`);
       } else {
         seenQuestionTexts.set(normText, i);
       }
@@ -880,7 +886,7 @@ export function validateImportBatch(
       const sidStr = String(sid).trim();
       if (seenSourceIds.has(sidStr)) {
         noDuplicateSourceIds = false;
-        errors.push(`Duplicate sourceQuestionId: ${sidStr} (प्रश्न #${seenSourceIds.get(sidStr)! + 1} एवं #${qNum})।`);
+        errors.push(`Duplicate sourceQuestionId ${sidStr} found in Question #${seenSourceIds.get(sidStr)! + 1} and #${qNum}.`);
       } else {
         seenSourceIds.set(sidStr, i);
         sourceQuestionIds.push(sid);

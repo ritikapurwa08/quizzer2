@@ -151,7 +151,7 @@ For every retained question:
 4. FOUR-OPTION MCQ STANDARD
 ==================================================
 
-- Every question MUST have EXACTLY 4 substantive options (or 2 for true_false).
+- Every question MUST have EXACTLY 4 substantive options.
 - Distractors must be plausible and relevant to Rajasthan GK.
 - Do NOT add fifth options ("अनुत्तरित प्रश्न") or redundant "उपरोक्त सभी" / "इनमें से कोई नहीं" unless part of the original question.
 - "a" is the ZERO-BASED correct answer index:
@@ -204,7 +204,7 @@ Field mapping:
 - o: Array of 4 option strings
 - a: Correct answer zero-based index (0, 1, 2, 3)
 - e: Concise explanation (1-3 sentences)
-- t: "mcq" | "match" | "assertion" | "true_false"
+- t: "mcq" | "match_following" | "assertion_reason" | "statement_reason" | "sequence" | "table"
 - sourceQuestionId: Original source ID from candidate input (mandatory)
 - sourceType: "PYQ"
 - exam: Exam name if present in candidate input, else null

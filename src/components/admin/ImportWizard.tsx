@@ -26,8 +26,7 @@ export function ImportWizard() {
 
   const [selectedSubjectId, setSelectedSubjectId] = useState<Id<"subjects"> | "">("");
   const [selectedTopicId, setSelectedTopicId] = useState<Id<"topics"> | "">("");
-  const [subtopicName, setSubtopicName] = useState("Part 1");
-  const [negativeMarking, setNegativeMarking] = useState(true);
+  const [subtopicName, setSubtopicName] = useState("");
 
   const [lastImportedSet, setLastImportedSet] = useState<{ id: Id<"testSets">; count: number; timeSeconds: number } | null>(null);
 
@@ -91,28 +90,7 @@ export function ImportWizard() {
     }
   }, [urlMasterTopic, topics]);
 
-  // Default to first subject if not parameterized
-  useEffect(() => {
-    if (!masterTopicIdParam && subjects.length > 0 && !selectedSubjectId && subjects[0]) {
-      setSelectedSubjectId(subjects[0]._id);
-    }
-  }, [subjects, selectedSubjectId, masterTopicIdParam]);
-
-  // Default to first topic when subject changes (if not parameterized)
-  const lastSubjectRef = useRef<string>("");
-  useEffect(() => {
-    if (
-      !masterTopicIdParam &&
-      topics.length > 0 &&
-      selectedSubjectId &&
-      lastSubjectRef.current !== selectedSubjectId
-    ) {
-      lastSubjectRef.current = selectedSubjectId;
-      setSelectedTopicId(topics[0]._id);
-    }
-  }, [topics, selectedSubjectId, masterTopicIdParam]);
-
-  // Derive the active topic object for Hindi display
+  // Derive the active topic object for display
   const activeTopic = topics.find((t) => t._id === selectedTopicId);
   const activeTopicDisplay = getTopicDisplayName(activeTopic);
   const existingCount = existingTestSets.length;
@@ -122,15 +100,17 @@ export function ImportWizard() {
   useEffect(() => {
     if (!userEditedSubtopicRef.current && selectedTopicId && activeTopicDisplay) {
       const nextPartNum = existingCount + 1;
-      const expectedName = `${activeTopicDisplay} भाग ${nextPartNum}`;
+      const expectedName = `${activeTopicDisplay} Part ${nextPartNum}`;
       setSubtopicName((prev) => (prev === expectedName ? prev : expectedName));
+    } else if (!selectedTopicId) {
+      setSubtopicName("");
     }
   }, [existingCount, selectedTopicId, activeTopicDisplay]);
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
     setSelectedTopicId("");
-    lastSubjectRef.current = "";
+    setSubtopicName("");
     userEditedSubtopicRef.current = false;
   }
 
@@ -170,7 +150,7 @@ export function ImportWizard() {
       const result = await importTestSet({
         topicId: selectedTopicId as Id<"topics">,
         name: subtopicName.trim(),
-        negativeMarking,
+        negativeMarking: true,
         questions: parsed.questions,
         isFinalSet: options?.isFinalSet,
         masterTopicId: options?.masterTopicId,
@@ -181,7 +161,7 @@ export function ImportWizard() {
       // Automatically sync local pool state so local queue advances and questions are marked USED
       if (options?.masterTopicId) {
         try {
-          const match = subtopicName.match(/(?:भाग|Set)\s*(\d+)/i);
+          const match = subtopicName.match(/(?:Part|भाग|Set)\s*(\d+)/i);
           const setNumber = match ? parseInt(match[1], 10) : 1;
           await fetch("/api/admin/finalize-local-set", {
             method: "POST",
@@ -229,36 +209,36 @@ export function ImportWizard() {
           className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeft className="h-3.5 w-3.5" />
-          <span>Back to Admin Overview (एडमिन अवलोकन)</span>
+          <span>Back to Admin Overview</span>
         </Link>
       </div>
 
       {/* Success Notification Banner */}
       {lastImportedSet && (
-        <div className="flex flex-col gap-3 p-4 rounded-2xl bg-success/15 border border-success/30 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200 shadow-xs">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 rounded-2xl bg-success/15 border border-success/30 text-success animate-in fade-in-0 slide-in-from-top-2 duration-200 shadow-xs">
           <div className="flex items-center gap-2.5 min-w-0">
             <CheckCircle2 className="h-5 w-5 shrink-0 text-success" />
-            <div className="text-sm font-hindi">
-              <span className="font-bold">✓ {lastImportedSet.count} प्रश्न सफलतापूर्वक आयात किए गए</span>{" "}
+            <div className="text-sm font-medium">
+              <span className="font-bold">✓ {lastImportedSet.count} questions imported successfully</span>{" "}
               <span className="text-xs opacity-80">({lastImportedSet.timeSeconds}s)</span>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row gap-2">
+          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
             {/* Primary action: take the test now */}
             <Link
               href={`/quiz/${lastImportedSet.id}`}
-              className="flex items-center justify-center gap-1.5 text-sm font-bold px-5 py-2.5 rounded-xl bg-success text-success-foreground hover:bg-success/90 transition-colors shadow-xs font-hindi"
+              className="flex items-center justify-center gap-1.5 text-xs font-bold px-4 py-2 rounded-xl bg-success text-success-foreground hover:bg-success/90 transition-colors shadow-xs"
             >
-              <Play className="h-4 w-4 fill-current" /> अभी टेस्ट दें →
+              <Play className="h-3.5 w-3.5 fill-current" /> Take Test Now →
             </Link>
             {/* Secondary action: add next batch */}
             <Button
               variant="outline"
               size="sm"
               onClick={() => setLastImportedSet(null)}
-              className="h-10 text-xs font-semibold rounded-xl border-success/40 text-success hover:bg-success/10 font-hindi gap-1.5"
+              className="h-8 text-xs font-semibold rounded-xl border-success/40 text-success hover:bg-success/10 gap-1.5"
             >
-              <Plus className="h-3.5 w-3.5" /> अगला सेट जोड़ें (Next Set)
+              <Plus className="h-3 w-3" /> Add Next Set
             </Button>
           </div>
         </div>
@@ -276,8 +256,6 @@ export function ImportWizard() {
         onTopicChangeId={handleTopicChangeId}
         subtopicName={subtopicName}
         onSubtopicNameChange={handleSubtopicNameChange}
-        negativeMarking={negativeMarking}
-        onNegativeMarkingChange={setNegativeMarking}
         isImporting={isImporting}
         onImportClick={handleImport}
         initialMasterTopicId={urlMasterTopic ? urlMasterTopic.id : undefined}

@@ -151,7 +151,7 @@ export function autoFixJson(rawJson: string): { fixedText: string; success: bool
 
         // Legacy: fix match_following without meta
         if (
-          (q.type === "match_following" || q.type === "match") &&
+          q.type === "match_following" &&
           !(q.meta?.left?.length || q.meta?.columnA?.length)
         ) {
           const extracted = extractMatchListsFromText(q.questionText || "");
@@ -254,7 +254,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: item,
-        reason: `प्रश्न ${qNum}: मान्य प्रश्न ऑब्जेक्ट नहीं है।`,
+        reason: `Question #${qNum}: Not a valid question object.`,
       });
       return;
     }
@@ -268,19 +268,18 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: cleanItem,
-        reason: `प्रश्न ${qNum}: अमान्य विकल्प — कम से कम 2 विकल्प आवश्यक हैं, ${Array.isArray(rawOpts) ? rawOpts.length : 0} मिले।`,
+        reason: `Question #${qNum}: Invalid options — at least 2 options required, found ${Array.isArray(rawOpts) ? rawOpts.length : 0}.`,
       });
       return;
     }
 
-    // Check option count based on type (2 for true_false, 4 for other competitive exam types)
-    const itemType = String(cleanItem.t ?? cleanItem.type ?? "mcq").toLowerCase().trim();
-    const expectedOpts = itemType === "true_false" ? 2 : 4;
+    // Check option count (4 for competitive exam types)
+    const expectedOpts = 4;
     if (isMinified && rawOpts.length !== expectedOpts) {
       invalidQuestions.push({
         index: qNum,
         raw: cleanItem,
-        reason: `प्रश्न ${qNum}: ठीक ${expectedOpts} substantive विकल्प होने चाहिए; ${rawOpts.length} मिले।`,
+        reason: `Question #${qNum}: Exactly ${expectedOpts} substantive options required; found ${rawOpts.length}.`,
       });
       return;
     }
@@ -291,7 +290,7 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
       invalidQuestions.push({
         index: qNum,
         raw: cleanItem,
-        reason: `प्रश्न ${qNum}: प्रश्न का पाठ गायब है या संरचना अमान्य है।`,
+        reason: `Question #${qNum}: Missing question text or invalid question structure.`,
       });
       return;
     }

@@ -39,14 +39,9 @@ export default defineSchema({
 
   questions: defineTable({
     testSetId: v.id("testSets"),
-    // Accepts both v2 types and legacy types for backward compatibility with existing data
+    // Exactly 6 canonical question types
     type: v.union(
-      // v2 canonical types
       v.literal("mcq"),
-      v.literal("match"),
-      v.literal("assertion"),
-      v.literal("true_false"),
-      // legacy aliases — kept so old seeded/imported questions still render
       v.literal("match_following"),
       v.literal("assertion_reason"),
       v.literal("statement_reason"),

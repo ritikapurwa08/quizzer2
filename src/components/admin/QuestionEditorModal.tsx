@@ -6,7 +6,6 @@ import { api } from "../../../convex/_generated/api";
 import { Question } from "@/types";
 import {
   QUESTION_TYPE_LABELS,
-  LEGACY_TYPE_LABELS,
   QUESTION_TYPES,
   DIFFICULTIES,
   QuestionType,
@@ -201,12 +200,62 @@ export function QuestionEditorModal({
     });
   }
 
+  function handleTableHeaderChange(idx: number, val: string) {
+    setMeta((prev: any) => {
+      const headers = Array.isArray(prev?.headers) ? [...prev.headers] : [];
+      headers[idx] = val;
+      return { ...prev, headers };
+    });
+  }
+
+  function handleAddTableHeader() {
+    setMeta((prev: any) => {
+      const headers = Array.isArray(prev?.headers) ? [...prev.headers] : ["Col 1", "Col 2"];
+      headers.push(`Column ${headers.length + 1}`);
+      const rows = (Array.isArray(prev?.rows) ? prev.rows : []).map((row: string[]) => [...row, ""]);
+      return { ...prev, headers, rows };
+    });
+  }
+
+  function handleRemoveTableHeader(colIdx: number) {
+    setMeta((prev: any) => {
+      const headers = (Array.isArray(prev?.headers) ? [...prev.headers] : []).filter((_, i) => i !== colIdx);
+      const rows = (Array.isArray(prev?.rows) ? prev.rows : []).map((row: string[]) =>
+        row.filter((_, i) => i !== colIdx)
+      );
+      return { ...prev, headers, rows };
+    });
+  }
+
+  function handleTableCellChange(rIdx: number, cIdx: number, val: string) {
+    setMeta((prev: any) => {
+      const rows = Array.isArray(prev?.rows) ? prev.rows.map((r: any) => [...r]) : [];
+      if (!rows[rIdx]) rows[rIdx] = [];
+      rows[rIdx][cIdx] = val;
+      return { ...prev, rows };
+    });
+  }
+
+  function handleAddTableRow() {
+    setMeta((prev: any) => {
+      const headers = Array.isArray(prev?.headers) ? prev.headers : ["Col 1", "Col 2"];
+      const rows = Array.isArray(prev?.rows) ? prev.rows.map((r: any) => [...r]) : [];
+      rows.push(new Array(headers.length).fill(""));
+      return { ...prev, headers, rows };
+    });
+  }
+
+  function handleRemoveTableRow(rIdx: number) {
+    setMeta((prev: any) => {
+      const rows = (Array.isArray(prev?.rows) ? prev.rows : []).filter((_: any, i: number) => i !== rIdx);
+      return { ...prev, rows };
+    });
+  }
+
   function validateForm(): boolean {
     if (!questionText.trim()) { setErrorMsg("Question text cannot be empty."); return false; }
-    if (type !== "true_false") {
-      const emptyIdx = options.findIndex((o) => !o.text.trim());
-      if (emptyIdx !== -1) { setErrorMsg(`Option ${OPTION_LETTERS[emptyIdx] ?? emptyIdx + 1} cannot be empty.`); return false; }
-    }
+    const emptyIdx = options.findIndex((o) => !o.text.trim());
+    if (emptyIdx !== -1) { setErrorMsg(`Option ${OPTION_LETTERS[emptyIdx] ?? emptyIdx + 1} cannot be empty.`); return false; }
     if (!correctAnswer) { setErrorMsg("Please select a correct answer."); return false; }
     if (!options.map((o) => o.id).includes(correctAnswer)) { setErrorMsg("Selected correct answer is invalid."); return false; }
     setErrorMsg(null);
@@ -228,7 +277,7 @@ export function QuestionEditorModal({
       delete finalMeta.sourceQuestionId;
     }
 
-    if ((type === "match" || type === "match_following") && (!finalMeta?.left?.length || !finalMeta?.right?.length)) {
+    if (type === "match_following" && (!finalMeta?.left?.length || !finalMeta?.right?.length)) {
       const extracted = extractMatchListsFromText(questionText);
       if (extracted.left.length > 0 || extracted.right.length > 0) {
         finalMeta = {
@@ -277,7 +326,7 @@ export function QuestionEditorModal({
     delete previewMeta.sourceQuestionId;
   }
 
-  if ((type === "match" || type === "match_following") && (!previewMeta?.left?.length || !previewMeta?.right?.length)) {
+  if (type === "match_following" && (!previewMeta?.left?.length || !previewMeta?.right?.length)) {
     const extracted = extractMatchListsFromText(questionText);
     if (extracted.left.length > 0 || extracted.right.length > 0) {
       previewMeta = {
@@ -335,7 +384,7 @@ export function QuestionEditorModal({
               {/* Inline meta chips */}
               <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
                 <Badge variant="secondary" className="text-[10px] px-1.5 py-0 uppercase tracking-wide font-semibold">
-                  {QUESTION_TYPE_LABELS[type as QuestionType] ?? LEGACY_TYPE_LABELS[type] ?? type.replace(/_/g, " ")}
+                  {QUESTION_TYPE_LABELS[type as QuestionType] ?? type.replace(/_/g, " ")}
                 </Badge>
                 <span className={cn(
                   "inline-flex items-center rounded px-1.5 py-0 text-[10px] font-semibold border capitalize",
@@ -517,8 +566,8 @@ export function QuestionEditorModal({
                   />
                 </section>
 
-                {/* ── Section 2b: Type-Specific Metadata (match / match_following) ── */}
-                {(type === "match" || type === "match_following") && (
+                {/* ── Section 2b: Type-Specific Metadata (match_following) ── */}
+                {type === "match_following" && (
                   <>
                     <Separator />
                     <section>
@@ -543,6 +592,111 @@ export function QuestionEditorModal({
                           getLabel={(i) => String(i + 1)}
                         />
                       </div>
+                    </section>
+                  </>
+                )}
+
+                {/* ── Section 2c: Type-Specific Metadata (sequence) ── */}
+                {type === "sequence" && (
+                  <>
+                    <Separator />
+                    <section>
+                      <SectionHeading icon={<BookOpen className="h-3.5 w-3.5" />} label="Sequence Items (क्रमानुसार सूची)" />
+                      <div className="mt-2.5">
+                        <MetaListEditor
+                          heading="Ordered Items (क्रमबद्ध वस्तुएँ)"
+                          items={(meta.items || []) as any[]}
+                          onAdd={() => handleAddMetaListItem("items")}
+                          onRemove={(i) => handleRemoveMetaListItem("items", i)}
+                          onChange={(i, v) => handleMetaListChange("items", i, v)}
+                          getLabel={(i) => String(i + 1)}
+                        />
+                      </div>
+                    </section>
+                  </>
+                )}
+
+                {/* ── Section 2d: Type-Specific Metadata (table) ── */}
+                {type === "table" && (
+                  <>
+                    <Separator />
+                    <section>
+                      <div className="flex items-center justify-between mb-2.5">
+                        <SectionHeading icon={<BookOpen className="h-3.5 w-3.5" />} label="Table Data (तालिका)" />
+                        <div className="flex items-center gap-2">
+                          <Button
+                            type="button"
+                            variant="outline"
+                            size="sm"
+                            onClick={handleAddTableHeader}
+                            className="h-7 text-xs gap-1"
+                          >
+                            <Plus className="h-3 w-3" /> Add Column
+                          </Button>
+                          <Button
+                            type="button"
+                            variant="outline"
+                            size="sm"
+                            onClick={handleAddTableRow}
+                            className="h-7 text-xs gap-1"
+                          >
+                            <Plus className="h-3 w-3" /> Add Row
+                          </Button>
+                        </div>
+                      </div>
+
+                      {meta.headers && meta.headers.length > 0 ? (
+                        <div className="overflow-x-auto rounded-xl border border-border bg-card p-3 space-y-3">
+                          <div className="flex items-center gap-2">
+                            {meta.headers.map((h: string, colIdx: number) => (
+                              <div key={colIdx} className="flex-1 min-w-[120px] flex items-center gap-1">
+                                <Input
+                                  value={h}
+                                  onChange={(e) => handleTableHeaderChange(colIdx, e.target.value)}
+                                  placeholder={`Column ${colIdx + 1}`}
+                                  className="h-8 text-xs font-bold"
+                                />
+                                {meta.headers.length > 1 && (
+                                  <button
+                                    type="button"
+                                    onClick={() => handleRemoveTableHeader(colIdx)}
+                                    className="text-muted-foreground hover:text-destructive p-1"
+                                    title="Delete column"
+                                  >
+                                    <Trash2 className="h-3 w-3" />
+                                  </button>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                          {(meta.rows || []).map((row: string[], rowIdx: number) => (
+                            <div key={rowIdx} className="flex items-center gap-2">
+                              {meta.headers.map((_: any, colIdx: number) => (
+                                <div key={colIdx} className="flex-1 min-w-[120px]">
+                                  <Input
+                                    value={row?.[colIdx] || ""}
+                                    onChange={(e) => handleTableCellChange(rowIdx, colIdx, e.target.value)}
+                                    placeholder={`R${rowIdx + 1} C${colIdx + 1}`}
+                                    className="h-8 text-xs font-hindi"
+                                  />
+                                </div>
+                              ))}
+                              <button
+                                type="button"
+                                onClick={() => handleRemoveTableRow(rowIdx)}
+                                className="text-muted-foreground hover:text-destructive p-1"
+                                title="Delete row"
+                              >
+                                <Trash2 className="h-3 w-3" />
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div className="p-3 text-xs text-muted-foreground border border-dashed rounded-lg text-center">
+                          No table columns configured. Click &ldquo;Add Column&rdquo; to start.
+                        </div>
+                      )}
                     </section>
                   </>
                 )}

@@ -16,6 +16,11 @@ import {
   Shield,
   FileUp,
   BarChart2,
+  LayoutGrid,
+  BookOpen,
+  Layers,
+  FileText,
+  HelpCircle,
 } from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -194,8 +199,8 @@ export function Navbar() {
                               : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
                           )}
                         >
-                          <Shield className="h-4 w-4 text-foreground" />
-                          Admin Console
+                          <LayoutGrid className="h-4 w-4 text-foreground" />
+                          Admin Overview
                         </Link>
                         <Link
                           href="/admin/import"
@@ -209,6 +214,58 @@ export function Navbar() {
                         >
                           <FileUp className="h-4 w-4 text-foreground" />
                           Import Questions
+                        </Link>
+                        <Link
+                          href="/admin/subjects"
+                          onClick={() => setProfileOpen(false)}
+                          className={cn(
+                            "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                            pathname === "/admin/subjects"
+                              ? "bg-muted text-foreground font-semibold"
+                              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                          )}
+                        >
+                          <BookOpen className="h-4 w-4 text-foreground" />
+                          Subjects
+                        </Link>
+                        <Link
+                          href="/admin/topics"
+                          onClick={() => setProfileOpen(false)}
+                          className={cn(
+                            "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                            pathname === "/admin/topics"
+                              ? "bg-muted text-foreground font-semibold"
+                              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                          )}
+                        >
+                          <Layers className="h-4 w-4 text-foreground" />
+                          Topics
+                        </Link>
+                        <Link
+                          href="/admin/test-sets"
+                          onClick={() => setProfileOpen(false)}
+                          className={cn(
+                            "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                            pathname === "/admin/test-sets"
+                              ? "bg-muted text-foreground font-semibold"
+                              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                          )}
+                        >
+                          <FileText className="h-4 w-4 text-foreground" />
+                          Test Sets
+                        </Link>
+                        <Link
+                          href="/admin/questions"
+                          onClick={() => setProfileOpen(false)}
+                          className={cn(
+                            "flex items-center gap-2.5 px-3.5 py-2 text-xs font-medium transition-colors",
+                            pathname === "/admin/questions"
+                              ? "bg-muted text-foreground font-semibold"
+                              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                          )}
+                        >
+                          <HelpCircle className="h-4 w-4 text-foreground" />
+                          Questions
                         </Link>
                       </div>
                     </>

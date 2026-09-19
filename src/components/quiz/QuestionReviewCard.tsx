@@ -50,7 +50,11 @@ export function QuestionReviewCard({
               onSelect={() => {}}
               mode="review"
             />
-          ) : null}
+          ) : (
+            <div className="p-3 rounded-lg bg-muted text-muted-foreground text-xs">
+              Preview not available for question type &ldquo;{question.type}&rdquo;.
+            </div>
+          )}
         </QuestionShell>
       </div>
 

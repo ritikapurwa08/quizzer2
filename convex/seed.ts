@@ -286,7 +286,7 @@ export const seedQuestions = mutation({
 
     const questionsData = [
       {
-        type: "match",
+        type: "match_following",
         questionText: "प्रश्न 1. सूची-I (मेला / उत्सव) को सूची-II (आयोजन तिथि / माह) से सुमेलित कीजिए तथा नीचे दिए गए कूट से सही उत्तर का चयन कीजिए:",
         options: [
           { id: "opt1", text: "A-1, B-2, C-3, D-4" },
@@ -313,7 +313,7 @@ export const seedQuestions = mutation({
         }
       },
       {
-        type: "assertion",
+        type: "assertion_reason",
         questionText: "प्रश्न 2. निम्नलिखित कथनों पर विचार कीजिए:\nकथन (A): राजस्थान में कोटा का दशहरा मेला देश-विदेश में प्रसिद्ध है।\nकारण (R): विजयादशमी के दिन खेजड़ी वृक्ष की पूजा की जाती है तथा शस्त्र पूजन की परंपरा है।",
         options: [
           { id: "opt1", text: "कथन (A) और कारण (R) दोनों सही हैं तथा (R), (A) की सही व्याख्या करता है।" },
@@ -339,7 +339,7 @@ export const seedQuestions = mutation({
         explanation: "बूंदी में गणगौर नहीं मनाई जाती (\"हाड़ा ले डूब्यो गणगौर\")। अतः कथन 2 गलत है।"
       },
       {
-        type: "match",
+        type: "match_following",
         questionText: "प्रश्न 4. सूची-I (पशु मेला) को सूची-II (स्थान / जिला) से सुमेलित कीजिए:",
         options: [
           { id: "opt1", text: "A-1, B-2, C-3, D-4" },

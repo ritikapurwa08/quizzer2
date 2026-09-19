@@ -21,7 +21,6 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { useToast } from "@/components/ui/Toast";
 import {
   Copy,
@@ -34,12 +33,6 @@ import {
   Sparkles,
   FileCode,
   ShieldCheck,
-  Eye,
-  Hash,
-  Award,
-  ChevronDown,
-  ChevronUp,
-  RotateCcw,
 } from "lucide-react";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 
@@ -67,8 +60,6 @@ interface Props {
   onTopicChangeId: (id: string) => void;
   subtopicName: string;
   onSubtopicNameChange: (value: string) => void;
-  negativeMarking: boolean;
-  onNegativeMarkingChange: (value: boolean) => void;
   isImporting?: boolean;
   onImportClick?: (options?: ImportOptionsPayload) => void;
   initialMasterTopicId?: number;
@@ -88,8 +79,6 @@ export function QuestionImportEditor({
   onTopicChangeId,
   subtopicName,
   onSubtopicNameChange,
-  negativeMarking,
-  onNegativeMarkingChange,
   isImporting = false,
   onImportClick,
   initialMasterTopicId,
@@ -99,8 +88,6 @@ export function QuestionImportEditor({
   const [code, setCode] = useState(initialValue);
   const [copiedPrompt, setCopiedPrompt] = useState(false);
   const [promptOpen, setPromptOpen] = useState(false);
-  const [previewExpanded, setPreviewExpanded] = useState(true);
-  const [confirmModalOpen, setConfirmModalOpen] = useState(false);
   const [isFinalSet, setIsFinalSet] = useState(false);
 
   // Candidate questions from local pool API
@@ -143,7 +130,7 @@ export function QuestionImportEditor({
 
   // Fetch local candidate set for "Copy for Gemini"
   const fetchCandidates = useCallback(async () => {
-    if (!activeMasterTopicId) {
+    if (!selectedTopicId || !activeMasterTopicId) {
       setCandidateData(null);
       return;
     }
@@ -157,29 +144,37 @@ export function QuestionImportEditor({
         const data = await res.json();
         if (data.success) {
           setCandidateData(data);
+        } else {
+          setCandidateData(null);
         }
+      } else {
+        setCandidateData(null);
       }
     } catch {
-      // Local candidate fetch failed or server starting
+      setCandidateData(null);
     } finally {
       setLoadingCandidates(false);
     }
-  }, [activeMasterTopicId, currentSetNumber]);
+  }, [selectedTopicId, activeMasterTopicId, currentSetNumber]);
 
   useEffect(() => {
+    if (!selectedTopicId || !activeMasterTopicId) {
+      setCandidateData(null);
+      return;
+    }
     fetchCandidates();
-  }, [fetchCandidates]);
+  }, [fetchCandidates, selectedTopicId, activeMasterTopicId]);
 
   // Handle "Copy for Gemini"
   const handleCopyForGemini = () => {
     if (!candidateData || !candidateData.geminiPrompt) {
-      showToast("कैंडिडेट प्रश्न लोड हो रहे हैं, कृपया प्रतीक्षा करें…", "warning");
+      showToast("Candidate questions are loading, please wait...", "warning");
       return;
     }
 
     navigator.clipboard.writeText(candidateData.geminiPrompt);
     setCopiedPrompt(true);
-    showToast(`✓ Gemini prompt + ${candidateData.candidateCount} उम्मीदवार प्रश्न क्लिपबोर्ड पर कॉपी हो गए!`, "success");
+    showToast(`✓ Gemini prompt with ${candidateData.candidateCount} candidate questions copied to clipboard!`, "success");
     setTimeout(() => setCopiedPrompt(false), 2000);
   };
 
@@ -253,7 +248,7 @@ export function QuestionImportEditor({
 
     return {
       questions: [] as QuestionInput[],
-      parseError: plain.error || "प्रश्न पार्स नहीं हो सके। कृपया मान्य JSON पेस्ट करें।",
+      parseError: plain.error || "Could not parse questions. Please paste valid JSON.",
       isolationErrors: [],
       requeuedSourceIds: [],
       rawParsedObj: null,
@@ -304,17 +299,18 @@ export function QuestionImportEditor({
     }
     if (existingInDbIds.length > 0) {
       for (const id of existingInDbIds) {
-        errs.push(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${id})।`);
+        errs.push(`This question is already imported in Quizzer (sourceQuestionId: ${id}).`);
       }
     }
     if (isDuplicateSetName) {
-      errs.push(`इस टॉपिक में '${subtopicName.trim()}' नाम का टेस्ट सेट पहले से मौजूद है। कृपया दूसरा नाम या भाग संख्या चुनें।`);
+      errs.push(`A test set named '${subtopicName.trim()}' already exists under this topic. Please choose a different name.`);
     }
     return errs;
   }, [parseResult, batchValidation, existingInDbIds, isDuplicateSetName, subtopicName]);
 
-  const isExact20 = parseResult.questions.length === 20;
-  const isCountValid = isExact20 || (isFinalSet && parseResult.questions.length > 0);
+  const detectedCount = parseResult.questions.length;
+  const isExact20 = detectedCount === 20;
+  const isCountValid = isExact20 || (isFinalSet && detectedCount > 0);
   const hasNoDbCollisions = existingInDbIds.length === 0;
 
   const canImport =
@@ -337,7 +333,7 @@ export function QuestionImportEditor({
         subject: subjectName,
         topic: topicName,
         testSet: subtopicName.trim(),
-        negativeMarking,
+        negativeMarking: true,
         questions: parseResult.questions,
       };
       signature = `valid::${selectedTopicId}::${subtopicName.trim()}::${parseResult.questions.length}`;
@@ -360,12 +356,9 @@ export function QuestionImportEditor({
     topicName,
     selectedTopicId,
     subtopicName,
-    negativeMarking,
     onParsedChange,
     onChange,
   ]);
-
-  const detectedCount = parseResult.questions.length;
 
   return (
     <div className="space-y-6">
@@ -376,48 +369,51 @@ export function QuestionImportEditor({
             <div className="flex items-center gap-2">
               <Layers className="h-4 w-4 text-primary" />
               <CardTitle className="text-sm font-bold tracking-tight">
-                STEP 1: Target Configuration / विषय एवं सेट चयन
+                STEP 1: Target Configuration
               </CardTitle>
             </div>
             {activeMasterTopicId && (
-              <Badge variant="outline" className="text-[11px] font-hindi font-medium">
+              <Badge variant="outline" className="text-[11px] font-medium">
                 Master Topic #{activeMasterTopicId}
               </Badge>
             )}
           </div>
         </CardHeader>
-        <CardContent className="grid gap-3.5 p-4 sm:p-6 sm:grid-cols-2">
+        <CardContent className="grid gap-3.5 p-4 sm:p-6 sm:grid-cols-3">
           <div>
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-              Subject (विषय)
+              Subject
             </Label>
             <SyllabusSelect
               options={subjectsList}
               value={selectedSubjectId}
               onValueChange={onSubjectChangeId}
+              placeholder="Select Subject..."
             />
           </div>
           <div>
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-              Master Topic (शीर्षक)
+              Master Topic
             </Label>
             <SyllabusSelect
               options={topicsList}
               value={selectedTopicId}
               onValueChange={onTopicChangeId}
               disabled={!selectedSubjectId}
+              placeholder="Select Master Topic..."
             />
           </div>
           <div>
             <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-              Set / Part Name (भाग / सेट नाम)
+              Set / Part Name
             </Label>
             <input
               value={subtopicName}
               onChange={(e) => onSubtopicNameChange(e.target.value)}
-              placeholder="उदा. राजस्थान के प्रमुख उद्योग भाग 1"
+              disabled={!selectedTopicId}
+              placeholder={selectedTopicId ? "e.g. Rajasthan Rivers Part 1" : "Select a topic first"}
               className={cn(
-                "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors",
+                "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
                 isDuplicateSetName
                   ? "border-destructive text-destructive focus:ring-destructive"
                   : "border-input"
@@ -425,44 +421,43 @@ export function QuestionImportEditor({
             />
             {isDuplicateSetName && (
               <p className="text-[11px] font-medium text-destructive mt-1">
-                ⚠️ यह सेट नाम इस टॉपिक में पहले से मौजूद है। कृपया दूसरा नाम चुनें।
+                ⚠️ A test set named &apos;{subtopicName.trim()}&apos; already exists under this topic.
               </p>
             )}
-          </div>
-          <div className="flex items-center sm:pt-6">
-            <label className="flex items-center gap-2.5 text-sm font-medium cursor-pointer select-none">
-              <input
-                type="checkbox"
-                checked={negativeMarking}
-                onChange={(e) => onNegativeMarkingChange(e.target.checked)}
-                className="h-4 w-4 rounded-sm border-border text-primary focus:ring-primary"
-              />
-              <span>Negative Marking (-0.33 RPSC Standard)</span>
-            </label>
           </div>
         </CardContent>
       </Card>
 
-      {/* ── STEP 2: Gemini Workflow (Copy for Gemini) ── */}
+      {/* ── STEP 2: Gemini Review ── */}
       <Card className="rounded-2xl border-border/70 shadow-xs bg-card">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Sparkles className="h-4 w-4 text-warning" />
               <CardTitle className="text-sm font-bold tracking-tight">
-                STEP 2: Gemini Review Workflow (उम्मीदवार प्रश्न कॉपी करें)
+                STEP 2: Gemini Review
               </CardTitle>
             </div>
-            {candidateData && (
+            {loadingCandidates ? (
+              <Badge variant="outline" className="text-[11px] font-medium">
+                Candidate Questions: Loading...
+              </Badge>
+            ) : candidateData ? (
               <Badge className="bg-success/15 text-success border-success/30 text-[11px] font-semibold">
-                {candidateData.candidateCount} उम्मीदवार प्रश्न तैयार
+                Candidate Questions: {candidateData.candidateCount} loaded
+              </Badge>
+            ) : (
+              <Badge variant="outline" className="text-[11px] font-medium text-muted-foreground">
+                Candidate Questions: Not loaded
               </Badge>
             )}
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-3">
           <p className="text-xs text-muted-foreground leading-relaxed">
-            स्थानीय प्रश्न-पूल से इस टॉपिक और सेट के लिए <strong>{candidateData?.candidateCount || 25} उम्मीदवार प्रश्न</strong> स्वतः लोड किए गए हैं। नीचे दिए गए बटन पर क्लिक करके पूरा Prompt कॉपी करें, Gemini में पेस्ट करें, और समीक्षा करवाएँ।
+            {candidateData
+              ? "Copy the candidate prompt and paste it into Gemini for review."
+              : "Select a Subject and Master Topic above to load candidate questions from the persistent pool."}
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-1">
@@ -470,17 +465,17 @@ export function QuestionImportEditor({
               type="button"
               onClick={handleCopyForGemini}
               disabled={loadingCandidates || !candidateData}
-              className="h-11 sm:h-10 text-xs font-bold rounded-xl gap-2 shadow-xs transition-all flex-1"
+              className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs transition-all w-full sm:w-auto sm:flex-1"
             >
               {copiedPrompt ? (
                 <>
                   <Check className="h-4 w-4 text-success" />
-                  <span>Prompt + Candidate Questions Copied! ✓</span>
+                  <span>Prompt Copied!</span>
                 </>
               ) : (
                 <>
                   <Copy className="h-4 w-4" />
-                  <span>📋 Copy for Gemini (प्रॉम्प्ट कॉपी करें)</span>
+                  <span>Copy Prompt</span>
                 </>
               )}
             </Button>
@@ -488,11 +483,11 @@ export function QuestionImportEditor({
             <Button
               type="button"
               variant="outline"
-              size="sm"
               onClick={() => setPromptOpen(!promptOpen)}
-              className="h-10 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground"
+              disabled={!candidateData?.geminiPrompt}
+              className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl w-full sm:w-auto text-muted-foreground hover:text-foreground"
             >
-              {promptOpen ? "Hide Prompt" : "Show Prompt Preview"}
+              {promptOpen ? "Hide Prompt Preview" : "Show Prompt Preview"}
             </Button>
           </div>
 
@@ -504,7 +499,7 @@ export function QuestionImportEditor({
         </CardContent>
       </Card>
 
-      {/* ── STEP 3: Final Approved JSON Input ── */}
+      {/* ── STEP 3: Paste Final Questions ── */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
@@ -512,11 +507,11 @@ export function QuestionImportEditor({
               <div className="flex items-center gap-2">
                 <FileCode className="h-4 w-4 text-primary" />
                 <CardTitle className="text-sm font-bold tracking-tight">
-                  STEP 3: Paste Final Gemini Questions (अंतिम अनुमोदित सेट पेस्ट करें)
+                  STEP 3: Paste Final Questions
                 </CardTitle>
               </div>
               <p className="text-xs text-muted-foreground">
-                Gemini द्वारा तैयार किया गया 20 प्रश्नों का अंतिम JSON आउटपुट यहाँ पेस्ट करें।
+                Paste the 20-question final JSON output prepared by Gemini here.
               </p>
             </div>
             <div className="flex items-center gap-2 shrink-0">
@@ -545,172 +540,43 @@ export function QuestionImportEditor({
             />
           </div>
 
-          <div className="flex items-center justify-between text-xs text-muted-foreground">
-            <span>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-muted-foreground">
+            <div className="flex items-center gap-1.5 font-medium">
+              <span className="text-muted-foreground">Final Questions:</span>
               {detectedCount === 0 ? (
-                "कोई प्रश्न नहीं मिला"
+                <span className="text-muted-foreground font-semibold">0 / 20 questions</span>
               ) : isCountValid ? (
                 <span className="text-success font-semibold flex items-center gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" /> {detectedCount} / 20 प्रश्न तैयार हैं ✓
+                  <CheckCircle2 className="h-3.5 w-3.5" />
+                  {isExact20 ? "20 / 20 questions ready" : `${detectedCount} / 20 questions ready (Final Set)`}
                 </span>
               ) : (
                 <span className="text-destructive font-semibold flex items-center gap-1">
-                  <AlertCircle className="h-3.5 w-3.5" /> 20 प्रश्न आवश्यक हैं। अभी {detectedCount} मिले हैं।
+                  <AlertCircle className="h-3.5 w-3.5" />
+                  {detectedCount} / 20 questions (20 required)
                 </span>
               )}
-            </span>
-            <label className="flex items-center gap-1.5 cursor-pointer select-none text-[11px]">
+            </div>
+            <label className="flex items-center gap-1.5 cursor-pointer select-none text-xs">
               <input
                 type="checkbox"
                 checked={isFinalSet}
                 onChange={(e) => setIsFinalSet(e.target.checked)}
                 className="h-3.5 w-3.5 rounded-sm border-border text-primary"
               />
-              <span>Allow Final Set &lt; 20 (अंतिम सेट छूट)</span>
+              <span>Allow Final Set &lt; 20 (Final Set Exception)</span>
             </label>
           </div>
         </CardContent>
       </Card>
 
-      {/* ── STEP 4: Interactive Question-by-Question PREVIEW ── */}
-      {parseResult.questions.length > 0 && (
-        <Card className="rounded-2xl border-border/70 shadow-xs overflow-hidden">
-          <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40 bg-muted/20">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <Eye className="h-4 w-4 text-primary" />
-                <CardTitle className="text-sm font-bold tracking-tight">
-                  STEP 4: Preview Final Set (प्रश्नों का पूर्वावलोकन — {detectedCount} प्रश्न)
-                </CardTitle>
-              </div>
-              <Button
-                type="button"
-                variant="ghost"
-                size="sm"
-                onClick={() => setPreviewExpanded(!previewExpanded)}
-                className="h-8 text-xs font-semibold gap-1 text-muted-foreground hover:text-foreground"
-              >
-                {previewExpanded ? (
-                  <>
-                    <ChevronUp className="h-3.5 w-3.5" />
-                    <span>Collapse All</span>
-                  </>
-                ) : (
-                  <>
-                    <ChevronDown className="h-3.5 w-3.5" />
-                    <span>Expand All</span>
-                  </>
-                )}
-              </Button>
-            </div>
-          </CardHeader>
-
-          {previewExpanded && (
-            <CardContent className="p-4 sm:p-6 space-y-4 max-h-[550px] overflow-y-auto divide-y divide-border/40">
-              {parseResult.questions.map((q, idx) => {
-                const qNum = idx + 1;
-                const sourceId =
-                  q.meta?.sourceQuestionId ??
-                  (q as any).sourceQuestionId ??
-                  (q as any).id;
-                const exam = q.meta?.exam ?? (q as any).exam;
-                const year = q.meta?.year ?? (q as any).year;
-                const correctOptId = q.correctAnswer;
-
-                return (
-                  <div key={idx} className={cn("space-y-2.5", idx > 0 && "pt-4")}>
-                    {/* Header: Number, Source ID, Exam, Difficulty */}
-                    <div className="flex flex-wrap items-center justify-between gap-1.5">
-                      <div className="flex items-center gap-2">
-                        <span className="flex items-center justify-center h-6 w-6 rounded-md bg-primary/10 text-primary font-bold text-xs">
-                          {qNum}
-                        </span>
-                        {sourceId && (
-                          <Badge variant="outline" className="text-[10.5px] font-mono gap-1">
-                            <Hash className="h-3 w-3 text-muted-foreground" />
-                            {String(sourceId)}
-                          </Badge>
-                        )}
-                        {exam && (
-                          <Badge variant="secondary" className="text-[10px] font-hindi">
-                            <Award className="h-3 w-3 mr-0.5 text-warning" />
-                            {String(exam)} {year ? `(${year})` : ""}
-                          </Badge>
-                        )}
-                      </div>
-                      <Badge variant="outline" className="text-[10px] uppercase font-semibold">
-                        {q.type} · {q.difficulty}
-                      </Badge>
-                    </div>
-
-                    {/* Question Text */}
-                    <p className="text-sm font-hindi font-medium text-foreground leading-relaxed">
-                      {q.questionText}
-                    </p>
-
-                    {/* 4 Options Grid */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
-                      {q.options.map((opt, oIdx) => {
-                        const isCorrect =
-                          opt.id === correctOptId ||
-                          (typeof correctOptId === "string" &&
-                            correctOptId.toLowerCase() === opt.id.toLowerCase());
-
-                        return (
-                          <div
-                            key={opt.id || oIdx}
-                            className={cn(
-                              "flex items-center justify-between px-3 py-2 rounded-xl text-xs font-hindi transition-colors border",
-                              isCorrect
-                                ? "bg-success/15 border-success/40 text-success-foreground font-semibold"
-                                : "bg-muted/40 border-border/60 text-foreground"
-                            )}
-                          >
-                            <span className="flex items-center gap-2">
-                              <span
-                                className={cn(
-                                  "h-5 w-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0",
-                                  isCorrect
-                                    ? "bg-success text-success-foreground"
-                                    : "bg-muted text-muted-foreground"
-                                )}
-                              >
-                                {oIdx + 1}
-                              </span>
-                              <span>{opt.text}</span>
-                            </span>
-                            {isCorrect && (
-                              <Badge className="bg-success text-success-foreground text-[10px] px-1.5 py-0.2 rounded-md font-hindi ml-2 shrink-0">
-                                सही उत्तर ✓
-                              </Badge>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-
-                    {/* Explanation */}
-                    {q.explanation && (
-                      <div className="mt-2 p-2.5 rounded-xl bg-muted/50 border border-border/50 text-xs font-hindi text-muted-foreground leading-relaxed">
-                        <span className="font-bold text-foreground">व्याख्या: </span>
-                        {q.explanation}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </CardContent>
-          )}
-        </Card>
-      )}
-
-      {/* ── STEP 5: Quality Gate & Validation ── */}
+      {/* ── STEP 4: Quality Gate & Import ── */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center gap-2">
             <ShieldCheck className="h-4 w-4 text-primary" />
             <CardTitle className="text-sm font-bold tracking-tight">
-              STEP 5: Quality Gate &amp; Duplicate Protection (सत्यापन)
+              STEP 4: Quality Gate &amp; Import
             </CardTitle>
           </div>
         </CardHeader>
@@ -724,8 +590,8 @@ export function QuestionImportEditor({
               )}
               <span>
                 {isFinalSet
-                  ? `अंतिम सेट स्वीकार्य (मिले: ${detectedCount} प्रश्न)`
-                  : `ठीक 20 प्रश्न आवश्यक (मिले: ${detectedCount} / 20)`}
+                  ? `Final set accepted (${detectedCount} questions found)`
+                  : `Exactly 20 questions required (${detectedCount} / 20 found)`}
               </span>
             </div>
 
@@ -735,7 +601,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>मान्य प्रश्न एवं विकल्प संरचना (4 विकल्प)</span>
+              <span>Valid question and option structure (4 options)</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -744,7 +610,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>प्रत्येक प्रश्न के विकल्प अद्वितीय</span>
+              <span>Unique options per question</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -753,7 +619,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>मान्य सही उत्तर (Correct Answer Verified)</span>
+              <span>Valid correct answer verified</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -762,7 +628,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>प्रमाणिक व्याख्या अनिवार्य (Explanations)</span>
+              <span>Authentic explanations required</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -771,7 +637,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>सेट के भीतर कोई दोहराव नहीं</span>
+              <span>No duplicate questions within set</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -780,7 +646,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>सेट के भीतर Source ID अद्वितीय</span>
+              <span>Unique source IDs within set</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -789,7 +655,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>Convex में कोई दोहराव नहीं (Unique in DB)</span>
+              <span>Unique in database (no Convex duplicates)</span>
             </div>
           </div>
 
@@ -798,7 +664,7 @@ export function QuestionImportEditor({
             <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10">
               <AlertCircle className="h-4 w-4" />
               <AlertTitle className="text-sm font-bold">
-                Import नहीं किया जा सकता — निम्नलिखित त्रुटियाँ सुधारें:
+                Cannot Import — Please fix the following errors:
               </AlertTitle>
               <AlertDescription className="mt-2 text-xs space-y-1">
                 <ul className="list-disc pl-4 space-y-1">
@@ -806,7 +672,7 @@ export function QuestionImportEditor({
                     <li key={i}>{err}</li>
                   ))}
                   {allErrors.length > 8 && (
-                    <li>...तथा {allErrors.length - 8} अन्य त्रुटियाँ।</li>
+                    <li>...and {allErrors.length - 8} more errors.</li>
                   )}
                 </ul>
               </AlertDescription>
@@ -817,55 +683,38 @@ export function QuestionImportEditor({
             <div className="flex items-center gap-2 p-3 rounded-xl bg-success/15 border border-success/30 text-success text-xs font-semibold">
               <CheckCircle2 className="h-4 w-4 shrink-0" />
               <span>
-                सभी {detectedCount} प्रश्न गुणवत्ता एवं अद्वितीयता मानकों पर खरे उतरे हैं।
+                All {detectedCount} questions meet quality and uniqueness standards.
               </span>
             </div>
           )}
+
+          {/* Import Action */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pt-3 border-t border-border/40">
+            {!canImport && code.trim().length > 0 ? (
+              <p className="text-xs text-muted-foreground">
+                Import will be enabled once all quality validation checks pass.
+              </p>
+            ) : (
+              <div />
+            )}
+            <Button
+              type="button"
+              onClick={() => onImportClick?.({ isFinalSet, masterTopicId: activeMasterTopicId })}
+              disabled={!canImport || isImporting}
+              className="h-10 px-6 text-sm font-semibold rounded-xl min-w-[120px] shadow-xs sm:ml-auto w-full sm:w-auto"
+            >
+              {isImporting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Importing...
+                </>
+              ) : (
+                "Import"
+              )}
+            </Button>
+          </div>
         </CardContent>
       </Card>
-
-      {/* ── STEP 6: Import Final Set Button ── */}
-      <div className="space-y-2">
-        <Button
-          type="button"
-          onClick={() => setConfirmModalOpen(true)}
-          disabled={!canImport}
-          className="h-12 w-full rounded-xl text-sm font-bold shadow-xs transition-all"
-        >
-          {isImporting ? (
-            <>
-              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Convex में प्रश्न सेट प्रकाशित हो रहा है…
-            </>
-          ) : (
-            `✓ Import Final Set (${detectedCount} Questions — ${subtopicName || "Current Set"})`
-          )}
-        </Button>
-        {!canImport && code.trim().length > 0 && (
-          <p className="text-center text-[11px] text-muted-foreground">
-            सभी validation checks (ठीक 20 प्रश्न, 4 विकल्प, अद्वितीय Source ID, अद्वितीय सेट नाम) पास होने पर ही Import बटन सक्रिय होगा।
-          </p>
-        )}
-      </div>
-
-      {/* Confirmation Modal before Convex Mutation */}
-      <ConfirmDialog
-        open={confirmModalOpen}
-        onOpenChange={setConfirmModalOpen}
-        title="प्रश्न सेट प्रकाशित करें (Publish Final Set)?"
-        description={`विषय: ${subjectName}\nटॉपिक: ${topicName}\nसेट: ${subtopicName.trim()}\nकुल प्रश्न: ${detectedCount}\n\nयह क्रिया Convex डेटाबेस में 1 नया टेस्ट सेट और ${detectedCount} प्रश्न स्थायी रूप से जोड़ेगी। क्या आप आगे बढ़ना चाहते हैं?`}
-        confirmLabel="पुष्टि करें एवं Convex में आयात करें"
-        variant="default"
-        isLoading={isImporting}
-        loadingLabel="Convex में सेव हो रहा है…"
-        onConfirm={async () => {
-          setConfirmModalOpen(false);
-          onImportClick?.({
-            isFinalSet,
-            masterTopicId: activeMasterTopicId,
-          });
-        }}
-      />
     </div>
   );
 }

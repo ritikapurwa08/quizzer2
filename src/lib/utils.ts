@@ -99,7 +99,7 @@ function isTableOrItemLine(line: string): boolean {
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  if (type && type !== "match_following" && type !== "match") {
+  if (type && type !== "match_following") {
     return text;
   }
 
@@ -167,7 +167,7 @@ export function distributeAndShuffleAnswers<T extends {
     const optCount = Array.isArray(q.options) ? q.options.length : 0;
     // Only shuffle single-choice MCQ-style options with 4 or 5 options
     if (
-      (q.type === "mcq" || q.type === "true_false" || q.type === "assertion" || q.type === "match") &&
+      (q.type === "mcq" || q.type === "match_following" || q.type === "assertion_reason" || q.type === "statement_reason" || q.type === "sequence" || q.type === "table") &&
       (optCount === 4 || optCount === 5) &&
       typeof q.correctAnswer === "string"
     ) {
