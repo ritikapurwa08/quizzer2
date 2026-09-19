@@ -1,0 +1,20 @@
+{
+  "source": "DDD",
+  "rawCount": 16032,
+  "questionsIncludedInMasterPool": 16032,
+  "masterTopicAssignedCount": 15837,
+  "questionLevelSplitCount": 195,
+  "masterTopicCount": 73,
+  "topicsWithQuestions": 70,
+  "topicsWithoutQuestions": [
+    "#4 राजस्थान के जिले एवं संभाग",
+    "#11 राजस्थान के अभयारण्य एवं राष्ट्रीय उद्यान",
+    "#53 राजस्थान में सामाजिक एवं राजनीतिक जागरण"
+  ],
+  "removedBecauseOfOld420": 0,
+  "removedBecauseOfOld380": 0,
+  "removedBecauseOfFinalPyq": 0,
+  "convexOperations": 0,
+  "generatedAt": "2026-09-19T09:58:17.527Z",
+  "architecture": "LOCAL_MASTER_POOL"
+}
