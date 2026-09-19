@@ -184,6 +184,7 @@ export interface IsolatedImportResult {
   validQuestions: QuestionInput[];
   invalidQuestions: { index: number; raw: any; reason: string }[];
   totalParsed: number;
+  requeuedSourceIds?: Array<string | number>;
   metadata?: {
     subject?: string;
     topic?: string;
@@ -298,10 +299,15 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
     validQuestions.push(normalized);
   });
 
+  const requeuedSourceIds = Array.isArray(parsedObj?.requeuedSourceIds)
+    ? parsedObj.requeuedSourceIds.map((id: any) => (typeof id === "number" ? id : String(id).trim()))
+    : undefined;
+
   return {
     validQuestions,
     invalidQuestions,
     totalParsed: rawQuestions.length,
+    requeuedSourceIds,
     metadata,
   };
 }

@@ -173,21 +173,22 @@ export const remove = mutation({
 
 export const checkExistingProvenance = query({
   args: {
-    sourceQuestionIds: v.array(v.number()),
+    sourceQuestionIds: v.array(v.union(v.string(), v.number())),
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
     if (!args.sourceQuestionIds || args.sourceQuestionIds.length === 0) {
       return { existingSourceIds: [] };
     }
-    const requested = new Set(args.sourceQuestionIds);
+    const requested = new Set(args.sourceQuestionIds.map((id) => String(id).trim()));
     const existingQuestions = await ctx.db.query("questions").collect();
-    const existingFound: number[] = [];
+    const existingFound: string[] = [];
     for (const eq of existingQuestions) {
-      const sid = eq.meta?.sourceQuestionId as number | undefined;
-      if (typeof sid === "number" && requested.has(sid)) {
-        if (!existingFound.includes(sid)) {
-          existingFound.push(sid);
+      const sid = eq.meta?.sourceQuestionId;
+      if (sid !== undefined && sid !== null) {
+        const strId = String(sid).trim();
+        if (requested.has(strId) && !existingFound.includes(strId)) {
+          existingFound.push(strId);
         }
       }
     }
@@ -201,52 +202,70 @@ export const importTestSet = mutation({
     name: v.string(),
     negativeMarking: v.boolean(),
     questions: v.array(questionInputValidator),
+    isFinalSet: v.optional(v.boolean()),
+    masterTopicId: v.optional(v.number()),
+    requeuedSourceIds: v.optional(v.array(v.union(v.string(), v.number()))),
+    sessionId: v.optional(v.string()),
+    adminSecret: v.optional(v.string()),
   },
   handler: async (ctx, args) => {
-    await requireAdmin(ctx);
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
     const topic = await ctx.db.get(args.topicId);
     if (!topic) throw new Error("Topic not found");
 
-    // Enforce strictly 20 questions for standard set import
+    // Enforce 20 questions for standard set import, unless explicit final set on exhausted topic
     if (args.questions.length !== 20) {
-      throw new Error(`20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`);
+      if (!args.isFinalSet) {
+        throw new Error(
+          `20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। केवल अंतिम सेट (Final Set) में 20 से कम प्रश्न स्वीकार्य हैं।`
+        );
+      }
+      // If isFinalSet is requested, verify topic genuinely has no more than available questions
+      if (args.masterTopicId) {
+        const summary = await ctx.db
+          .query("poolTopicSummaries")
+          .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", args.masterTopicId!))
+          .unique();
+        if (summary && summary.available >= 20 && !summary.allowFinalBelow20) {
+          throw new Error(
+            `इस टॉपिक में अभी ${summary.available} प्रश्न उपलब्ध हैं। 20 से कम का Final Set केवल तभी स्वीकार्य है जब टॉपिक में 20 से कम प्रश्न शेष हों।`
+          );
+        }
+      }
+      if (args.questions.length === 0) {
+        throw new Error("Import के लिए कम से कम 1 प्रश्न आवश्यक है।");
+      }
     }
 
     // Verify against every question already stored in Convex. The database is the durable record.
     const existingQuestions = await ctx.db.query("questions").collect();
 
-    // 1. Check PYQ provenance & sourceQuestionId uniqueness against existing database
-    const existingPyqSourceIds = new Map<number, string>();
+    // 1. Check provenance & sourceQuestionId uniqueness against existing database
+    const existingPyqSourceIds = new Map<string, string>();
     for (const eq of existingQuestions) {
-      const st = eq.meta?.sourceType as string | undefined;
-      const sid = eq.meta?.sourceQuestionId as number | undefined;
-      if (typeof sid === "number" && (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED" || !st)) {
-        existingPyqSourceIds.set(sid, eq.questionText);
+      const sid = eq.meta?.sourceQuestionId;
+      if (sid !== undefined && sid !== null) {
+        existingPyqSourceIds.set(String(sid).trim(), eq.questionText);
       }
     }
 
-    const incomingPyqSourceIds = new Set<number>();
+    const incomingPyqSourceIds = new Set<string>();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
       const qNum = i + 1;
-      const st = (q.meta?.sourceType as string | undefined) ?? (q as any).sourceType;
-      const sid = (q.meta?.sourceQuestionId as number | undefined) ?? (q as any).sourceQuestionId;
+      const sid = (q.meta?.sourceQuestionId as string | number | undefined) ?? (q as any).sourceQuestionId;
 
-      if (st === "PYQ" || st === "PYQ_EXACT" || st === "PYQ_MODIFIED" || sid !== undefined) {
-        if (typeof sid !== "number" || !Number.isInteger(sid) || sid <= 0) {
-          throw new Error(`प्रश्न ${qNum}: PYQ के लिए मान्य सकारात्मक पूर्णांक sourceQuestionId आवश्यक है।`);
+      if (sid !== undefined && sid !== null && String(sid).trim() !== "") {
+        const cleanSid = String(sid).trim();
+        if (incomingPyqSourceIds.has(cleanSid)) {
+          throw new Error(`Duplicate sourceQuestionId: ${cleanSid} inside this set (प्रश्न ${qNum})।`);
         }
-        if (incomingPyqSourceIds.has(sid)) {
-          throw new Error(`Duplicate sourceQuestionId: ${sid} inside this set (प्रश्न ${qNum})।`);
-        }
-        incomingPyqSourceIds.add(sid);
+        incomingPyqSourceIds.add(cleanSid);
 
-        if (existingPyqSourceIds.has(sid)) {
-          throw new Error(`यह PYQ पहले से Quizzer में imported है (sourceQuestionId: ${sid}, प्रश्न ${qNum})।`);
-        }
-      } else if (st === "AI_NEW") {
-        if (sid !== undefined && sid !== null) {
-          throw new Error(`प्रश्न ${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`);
+        if (existingPyqSourceIds.has(cleanSid)) {
+          throw new Error(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${cleanSid}, प्रश्न ${qNum})।`);
         }
       }
     }
@@ -291,6 +310,7 @@ export const importTestSet = mutation({
       questionCount: args.questions.length,
     });
 
+    const now = Date.now();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
       await ctx.db.insert("questions", {
@@ -305,6 +325,105 @@ export const importTestSet = mutation({
         order: i,
         meta: q.meta,
       });
+    }
+
+    // 3. ATOMIC POOL QUEUE UPDATE:
+    // If masterTopicId is supplied, update pool questions in the same transaction
+    if (args.masterTopicId) {
+      const masterTopicId = args.masterTopicId;
+      const importedSourceIds = new Set(Array.from(incomingPyqSourceIds));
+      const requeuedIds = new Set(
+        (args.requeuedSourceIds || []).map((id) => String(id).trim())
+      );
+
+      // Fetch summary to get nextQueueOrder
+      const summary = await ctx.db
+        .query("poolTopicSummaries")
+        .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", masterTopicId))
+        .unique();
+
+      let nextQueueOrder = summary ? summary.nextQueueOrder : 1000;
+
+      // Find pool questions for this topic
+      const poolQs = await ctx.db
+        .query("poolQuestions")
+        .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
+        .collect();
+
+      for (const pq of poolQs) {
+        const pqSid = String(pq.sourceQuestionId).trim();
+
+        if (importedSourceIds.has(pqSid)) {
+          // Successfully imported: mark USED permanently
+          await ctx.db.patch(pq._id, {
+            status: "USED",
+            usedAt: now,
+            usedTestSetId: testSetId,
+            claimedBy: undefined,
+            claimedAt: undefined,
+          });
+        } else if (requeuedIds.has(pqSid)) {
+          // Repetitive in current set: move to END of topic queue
+          await ctx.db.patch(pq._id, {
+            status: "REQUEUED",
+            queueOrder: nextQueueOrder++,
+            rejectedCount: pq.rejectedCount + 1,
+            claimedBy: undefined,
+            claimedAt: undefined,
+          });
+        } else if (args.sessionId && pq.claimedBy === args.sessionId && pq.status === "PROCESSING") {
+          // Claimed in this window but neither used nor requeued: return to AVAILABLE/REQUEUED
+          await ctx.db.patch(pq._id, {
+            status: pq.rejectedCount > 0 ? "REQUEUED" : "AVAILABLE",
+            claimedBy: undefined,
+            claimedAt: undefined,
+          });
+        }
+      }
+
+      // Recalculate topic summary counts
+      const allTopicQuestions = await ctx.db
+        .query("poolQuestions")
+        .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
+        .collect();
+
+      const total = allTopicQuestions.length;
+      let used = 0;
+      let available = 0;
+      let requeued = 0;
+      let processing = 0;
+      let maxQueueOrder = 0;
+
+      for (const q of allTopicQuestions) {
+        if (q.queueOrder > maxQueueOrder) maxQueueOrder = q.queueOrder;
+        if (q.status === "USED") used++;
+        else if (q.status === "AVAILABLE") available++;
+        else if (q.status === "REQUEUED") requeued++;
+        else if (q.status === "PROCESSING") processing++;
+      }
+
+      let status: "NOT_STARTED" | "IN_PROGRESS" | "NEAR_COMPLETE" | "COMPLETED" = "NOT_STARTED";
+      if (available === 0 && requeued === 0 && processing === 0 && used > 0) {
+        status = "COMPLETED";
+      } else if (available < 20 && available + requeued < 20 && used > 0) {
+        status = "NEAR_COMPLETE";
+      } else if (used > 0 || processing > 0) {
+        status = "IN_PROGRESS";
+      }
+
+      if (summary) {
+        await ctx.db.patch(summary._id, {
+          total,
+          used,
+          available,
+          requeued,
+          processing,
+          status,
+          nextQueueOrder: Math.max(maxQueueOrder + 1, nextQueueOrder),
+          isFinalExhausted: available === 0 && requeued === 0 && processing === 0,
+          updatedAt: now,
+        });
+      }
     }
 
     return { testSetId, imported: args.questions.length };

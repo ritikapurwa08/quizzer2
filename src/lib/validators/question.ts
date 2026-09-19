@@ -357,27 +357,30 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     // ── PYQ Provenance capture ───────────────────────────────────────────────
     // Extract optional provenance fields from AI output and store in meta.
     // Accepted sourceType values: "PYQ" | "PYQ_MODIFIED" | "AI_NEW" (and backward compat "PYQ_EXACT")
+    // ── Provenance capture ───────────────────────────────────────────────
+    // Extract provenance fields from AI output and store in meta.
+    // Accepted sourceType values: "PYQ" | "PYQ_MODIFIED" | "AI_NEW" (and backward compat "PYQ_EXACT")
     const VALID_SOURCE_TYPES = new Set(["PYQ", "PYQ_EXACT", "PYQ_MODIFIED", "AI_NEW"]);
-    const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim().toUpperCase() : (raw.meta?.sourceType ? String(raw.meta.sourceType).trim().toUpperCase() : undefined);
-    const sourceType = rawSourceType && VALID_SOURCE_TYPES.has(rawSourceType)
+    const rawSourceType = raw.sourceType != null ? String(raw.sourceType).trim().toUpperCase() : (raw.meta?.sourceType ? String(raw.meta.sourceType).trim().toUpperCase() : "PYQ");
+    const sourceType = VALID_SOURCE_TYPES.has(rawSourceType)
       ? (rawSourceType === "PYQ_EXACT" ? "PYQ" : (rawSourceType as "PYQ" | "PYQ_MODIFIED" | "AI_NEW"))
-      : undefined;
+      : "PYQ";
 
-    // sourceQuestionId must be a positive integer and only belongs to PYQ questions
+    // sourceQuestionId can be a positive integer or a string identifier (e.g. "rg_000001", "pyq_13540")
     const rawSourceId = raw.sourceQuestionId ?? raw.meta?.sourceQuestionId ?? raw.id;
-    const isPyqSource = sourceType === "PYQ" || sourceType === "PYQ_MODIFIED";
-    const sourceQuestionId =
-      isPyqSource && typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0
-        ? rawSourceId
-        : isPyqSource && typeof rawSourceId === "string" && /^\d+$/.test(rawSourceId.trim())
-          ? parseInt(rawSourceId.trim(), 10)
-          : undefined;
+    let sourceQuestionId: string | number | undefined = undefined;
+    if (typeof rawSourceId === "number" && Number.isInteger(rawSourceId) && rawSourceId > 0) {
+      sourceQuestionId = rawSourceId;
+    } else if (typeof rawSourceId === "string" && rawSourceId.trim() !== "") {
+      const trimmedId = rawSourceId.trim();
+      sourceQuestionId = /^\d+$/.test(trimmedId) ? parseInt(trimmedId, 10) : trimmedId;
+    }
 
-    // exam: only attach if it came from a PYQ (never for AI_NEW) and not null/fake
+    // exam: preserve exam name if present and not fake
     const rawExam = raw.exam ?? raw.meta?.exam;
     const cleanExamStr = rawExam != null ? String(rawExam).trim() : undefined;
     const isFake = !cleanExamStr || isFakeExam(cleanExamStr);
-    const examVerified = cleanExamStr && isPyqSource && !isFake ? cleanExamStr : undefined;
+    const examVerified = cleanExamStr && !isFake ? cleanExamStr : undefined;
 
     // year: numeric year between 1900 and 2100
     const rawYear = raw.year ?? raw.meta?.year;
@@ -742,17 +745,28 @@ export interface BatchValidationResult {
   checklist: BatchChecklist;
   errors: string[];
   warnings: string[];
-  sourceQuestionIds: number[];
+  sourceQuestionIds: Array<string | number>;
 }
 
-export function validateImportBatch(questions: QuestionInput[]): BatchValidationResult {
+export function validateImportBatch(
+  questions: QuestionInput[],
+  options?: { allowFinalBelow20?: boolean; isFinalSet?: boolean }
+): BatchValidationResult {
   const errors: string[] = [];
   const warnings: string[] = [];
-  const sourceQuestionIds: number[] = [];
+  const sourceQuestionIds: Array<string | number> = [];
+
+  const isCountValid =
+    questions.length === 20 ||
+    (Boolean(options?.isFinalSet && options?.allowFinalBelow20) && questions.length > 0 && questions.length <= 20);
 
   const isExact20 = questions.length === 20;
-  if (!isExact20) {
-    errors.push(`20 प्रश्न आवश्यक हैं। अभी ${questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`);
+  if (!isCountValid) {
+    errors.push(
+      options?.allowFinalBelow20
+        ? `अंतिम सेट के लिए कम से कम 1 प्रश्न आवश्यक है। अभी ${questions.length} प्रश्न मिले हैं।`
+        : `20 प्रश्न आवश्यक हैं। अभी ${questions.length} प्रश्न मिले हैं। Import नहीं किया जा सकता।`
+    );
   }
 
   let validStructure = true;
@@ -763,7 +777,7 @@ export function validateImportBatch(questions: QuestionInput[]): BatchValidation
   let noDuplicateSourceIds = true;
 
   const seenQuestionTexts = new Map<string, number>();
-  const seenSourceIds = new Map<number, number>();
+  const seenSourceIds = new Map<string, number>();
 
   for (let i = 0; i < questions.length; i++) {
     const q = questions[i];
@@ -848,28 +862,21 @@ export function validateImportBatch(questions: QuestionInput[]): BatchValidation
     }
 
     // 6. SourceQuestionId provenance check
-    const sid = q.meta?.sourceQuestionId;
-    const st = q.meta?.sourceType;
-    if (st === "PYQ" || st === "PYQ_MODIFIED" || sid !== undefined) {
-      if (typeof sid === "number" && Number.isInteger(sid) && sid > 0) {
-        if (seenSourceIds.has(sid)) {
-          noDuplicateSourceIds = false;
-          errors.push(`Duplicate sourceQuestionId: ${sid} (प्रश्न #${seenSourceIds.get(sid)! + 1} एवं #${qNum})।`);
-        } else {
-          seenSourceIds.set(sid, i);
-          sourceQuestionIds.push(sid);
-        }
-      } else if (st === "PYQ") {
-        errors.push(`प्रश्न #${qNum}: PYQ के लिए मान्य sourceQuestionId आवश्यक है।`);
-      }
-    } else if (st === "AI_NEW") {
-      if (sid !== undefined && sid !== null) {
-        errors.push(`प्रश्न #${qNum}: AI_NEW प्रश्न में sourceQuestionId नहीं होना चाहिए।`);
+    const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId ?? (q as any).id;
+    if (sid !== undefined && sid !== null && String(sid).trim() !== "") {
+      const sidStr = String(sid).trim();
+      if (seenSourceIds.has(sidStr)) {
+        noDuplicateSourceIds = false;
+        errors.push(`Duplicate sourceQuestionId: ${sidStr} (प्रश्न #${seenSourceIds.get(sidStr)! + 1} एवं #${qNum})।`);
+      } else {
+        seenSourceIds.set(sidStr, i);
+        sourceQuestionIds.push(sid);
       }
     }
   }
 
-  const isValid = isExact20 &&
+  const isValid =
+    isCountValid &&
     validStructure &&
     uniqueOptions &&
     validAnswers &&

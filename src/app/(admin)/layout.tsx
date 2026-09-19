@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAdminGuard } from "@/hooks/useAdminGuard";
 import { ToastProvider } from "@/components/ui/Toast";
-import { LayoutGrid, Upload, BookOpen, Layers, FileText, HelpCircle, Home } from "lucide-react";
+import { LayoutGrid, Upload, BookOpen, Layers, FileText, HelpCircle, Home, Database } from "lucide-react";
 
 import { LoadingState } from "@/components/shared/LoadingState";
 import { ModeToggle } from "@/components/toggle-mode";
@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/admin", label: "Overview", icon: LayoutGrid },
+  { href: "/admin/pool", label: "Question Pool", icon: Database },
   { href: "/admin/import", label: "Import", icon: Upload },
   { href: "/admin/subjects", label: "Subjects", icon: BookOpen },
   { href: "/admin/topics", label: "Topics", icon: Layers },

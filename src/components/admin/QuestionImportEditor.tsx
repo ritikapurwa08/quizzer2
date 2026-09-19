@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { useQuery } from "convex/react";
+import { useEffect, useMemo, useRef, useState, useCallback } from "react";
+import { useQuery, useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import {
   ImportJson,
@@ -33,13 +33,24 @@ import {
   FileCode,
   ShieldCheck,
   Database,
+  RotateCcw,
+  SlidersHorizontal,
+  RefreshCw,
 } from "lucide-react";
 import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
+import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 
 interface Option {
   _id: string;
   name: string;
   nameHindi?: string;
+}
+
+export interface ImportOptionsPayload {
+  isFinalSet?: boolean;
+  masterTopicId?: number;
+  requeuedSourceIds?: Array<string | number>;
+  sessionId?: string;
 }
 
 interface Props {
@@ -58,7 +69,10 @@ interface Props {
   negativeMarking: boolean;
   onNegativeMarkingChange: (value: boolean) => void;
   isImporting?: boolean;
-  onImportClick?: () => void;
+  onImportClick?: (options?: ImportOptionsPayload) => void;
+  initialMasterTopicId?: number;
+  initialExamPref?: "all" | "prefer_exam" | "limit_exam";
+  initialExamLimit?: number;
 }
 
 export function QuestionImportEditor({
@@ -78,27 +92,76 @@ export function QuestionImportEditor({
   onNegativeMarkingChange,
   isImporting = false,
   onImportClick,
+  initialMasterTopicId,
+  initialExamPref = "all",
+  initialExamLimit = 15,
 }: Props) {
   const [code, setCode] = useState(initialValue);
   const [copied, setCopied] = useState(false);
   const [promptOpen, setPromptOpen] = useState(false);
   const textRef = useRef<HTMLTextAreaElement>(null);
 
-  // Final PYQ batch state loaded from repository
-  const [pyqBatch, setPyqBatch] = useState<{
-    batchName: string;
-    questionCount: number;
-    questionsText: string;
-  } | null>(null);
-  const [pyqBatchError, setPyqBatchError] = useState<string>("");
-  const [pyqBatchLoading, setPyqBatchLoading] = useState(false);
-  const lastFetchedKeyRef = useRef<string>("");
+  // Persistent session id for concurrency claiming
+  const [sessionId] = useState<string>(() => {
+    if (typeof window !== "undefined") {
+      let sid = sessionStorage.getItem("quizzer_pool_session_id");
+      if (!sid) {
+        sid = "admin_session_" + Math.random().toString(36).slice(2, 10);
+        sessionStorage.setItem("quizzer_pool_session_id", sid);
+      }
+      return sid;
+    }
+    return "admin_session_default";
+  });
 
+  // Candidate Exam Controls
+  const [examPreference, setExamPreference] = useState<"all" | "prefer_exam" | "limit_exam">(initialExamPref);
+  const [examLimit, setExamLimit] = useState<number>(initialExamLimit);
+
+  // Final Set < 20 Control
+  const [isFinalSet, setIsFinalSet] = useState(false);
+
+  // Candidate Window from Persistent Topic Pool
+  const [candidates, setCandidates] = useState<any[]>([]);
+  const [candidatesLoading, setCandidatesLoading] = useState(false);
+  const [candidatesError, setCandidatesError] = useState("");
+  const lastLoadedTopicRef = useRef<string>("");
+
+  const getCandidatesMutation = useMutation(api.pool.getCandidates);
+
+  const subject = subjectsList.find((x) => x._id === selectedSubjectId);
+  const topic = topicsList.find((x) => x._id === selectedTopicId);
+  const subjectName = getSubjectDisplayName(subject) || "";
+  const topicName = getTopicDisplayName(topic) || "";
+
+  // Derive masterTopicId
+  const masterTopicInfo = useMemo(() => {
+    if (!topicName) return null;
+    return MASTER_TOPICS_LIST.find(
+      (mt) =>
+        mt.nameHindi === topicName ||
+        topicName.includes(mt.nameHindi) ||
+        mt.nameHindi.includes(topicName)
+    );
+  }, [topicName]);
+
+  const activeMasterTopicId = initialMasterTopicId || masterTopicInfo?.id;
+
+  // Real-time topic summary from Convex
+  const topicSummary = useQuery(
+    api.pool.getTopicSummary,
+    activeMasterTopicId ? { masterTopicId: activeMasterTopicId } : "skip"
+  );
+
+  const isExhaustedTopic = Boolean(topicSummary && topicSummary.available < 20);
+
+  // Reset editor text on resetKey change
   const lastResetKeyRef = useRef(resetKey ?? 0);
   useEffect(() => {
     if (resetKey !== undefined && resetKey !== lastResetKeyRef.current) {
       lastResetKeyRef.current = resetKey;
       setCode("");
+      setIsFinalSet(false);
     }
   }, [resetKey]);
 
@@ -108,74 +171,101 @@ export function QuestionImportEditor({
     }
   }, [initialValue]);
 
-  const subject = subjectsList.find((x) => x._id === selectedSubjectId);
-  const topic = topicsList.find((x) => x._id === selectedTopicId);
-  const subjectName = getSubjectDisplayName(subject) || "";
-  const topicName = getTopicDisplayName(topic) || "";
-
-  // Automatically fetch corresponding batch from Final PYQ folder (cached by topic+set)
-  useEffect(() => {
-    if (!topicName || !selectedTopicId) {
-      setPyqBatch(null);
-      setPyqBatchError("");
-      lastFetchedKeyRef.current = "";
+  // Load Candidate Questions from Queue Engine
+  const loadCandidates = useCallback(async () => {
+    if (!activeMasterTopicId) {
+      setCandidates([]);
+      setCandidatesError("");
       return;
     }
 
-    const fetchKey = `${topicName}::${subtopicName}`;
-    if (lastFetchedKeyRef.current === fetchKey) {
-      return;
-    }
-    lastFetchedKeyRef.current = fetchKey;
+    setCandidatesLoading(true);
+    setCandidatesError("");
 
-    let isMounted = true;
-    setPyqBatchLoading(true);
-    setPyqBatchError("");
-
-    fetch(
-      `/api/admin/pyq-batch?topic=${encodeURIComponent(topicName)}&set=${encodeURIComponent(subtopicName)}`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        if (!isMounted) return;
-        if (data.success) {
-          setPyqBatch({
-            batchName: data.batchName,
-            questionCount: data.questionCount,
-            questionsText: data.questionsText,
-          });
-          setPyqBatchError("");
-        } else {
-          setPyqBatch(null);
-          setPyqBatchError(
-            data.error || "इस Topic/Set का Final PYQ batch नहीं मिला। पहले सही batch उपलब्ध कराएँ।"
-          );
-        }
-      })
-      .catch(() => {
-        if (!isMounted) return;
-        setPyqBatch(null);
-        setPyqBatchError("इस Topic/Set का Final PYQ batch नहीं मिला। पहले सही batch उपलब्ध कराएँ।");
-      })
-      .finally(() => {
-        if (isMounted) setPyqBatchLoading(false);
+    try {
+      const res = await getCandidatesMutation({
+        masterTopicId: activeMasterTopicId,
+        sessionId,
+        examPreference,
+        examLimit: examPreference === "limit_exam" ? examLimit : undefined,
+        windowSize: 30,
       });
 
-    return () => {
-      isMounted = false;
-    };
-  }, [topicName, selectedTopicId, subtopicName]);
+      if (res.success) {
+        setCandidates(res.candidates);
+        if (res.candidates.length === 0) {
+          setCandidatesError("इस टॉपिक पूल में कोई प्रश्न शेष नहीं हैं (Topic Exhausted)।");
+        }
+      } else {
+        setCandidates([]);
+        setCandidatesError(res.message || "कैंडिडेट प्रश्न लोड करने में त्रुटि।");
+      }
+    } catch (err: any) {
+      setCandidates([]);
+      setCandidatesError(err.message || "कैंडिडेट प्रश्न लोड करने में त्रुटि।");
+    } finally {
+      setCandidatesLoading(false);
+    }
+  }, [activeMasterTopicId, sessionId, examPreference, examLimit, getCandidatesMutation]);
 
-  // Generate prompt embedding the 20 PYQ questions from Final PYQ folder
+  // Automatically fetch candidates when activeMasterTopicId changes
+  useEffect(() => {
+    if (!activeMasterTopicId) {
+      setCandidates([]);
+      setCandidatesError("");
+      lastLoadedTopicRef.current = "";
+      return;
+    }
+
+    const key = `${activeMasterTopicId}::${subtopicName}::${examPreference}::${examLimit}`;
+    if (lastLoadedTopicRef.current === key) return;
+    lastLoadedTopicRef.current = key;
+
+    loadCandidates();
+  }, [activeMasterTopicId, subtopicName, examPreference, examLimit, loadCandidates]);
+
+  // Format candidates into clean JSON for Gemini quality-control prompt
+  const candidatesJsonText = useMemo(() => {
+    if (candidates.length === 0) return "";
+    return JSON.stringify(
+      candidates.map((c) => ({
+        q: c.questionText,
+        o: c.options,
+        a: c.correctAnswer,
+        e: c.explanation || "",
+        t: c.type || "mcq",
+        sourceQuestionId: c.sourceQuestionId,
+        sourceType: "PYQ",
+        exam: c.exam || null,
+        year: c.year || null,
+        reference: c.reference || null,
+      })),
+      null,
+      2
+    );
+  }, [candidates]);
+
+  // Generate quality-control prompt embedding candidate window
   const prompt = useMemo(
     () =>
       generateAiQuestionPrompt({
         subject: subjectName || "Rajasthan General Knowledge",
         topic: topicName || "General Topic",
         subtopic: subtopicName || "Set 1",
-        questionsText: pyqBatch?.questionsText || "",
+        count: isFinalSet && isExhaustedTopic && topicSummary ? topicSummary.available : 20,
+        questionsText: candidatesJsonText,
+        candidateCount: candidates.length,
       }),
-    [subjectName, topicName, subtopicName, pyqBatch]
+    [
+      subjectName,
+      topicName,
+      subtopicName,
+      isFinalSet,
+      isExhaustedTopic,
+      topicSummary,
+      candidatesJsonText,
+      candidates.length,
+    ]
   );
 
   // Parse and validate pasted input
@@ -186,6 +276,7 @@ export function QuestionImportEditor({
         questions: [] as QuestionInput[],
         parseError: "",
         isolationErrors: [] as string[],
+        requeuedSourceIds: [] as Array<string | number>,
       };
     }
 
@@ -197,6 +288,7 @@ export function QuestionImportEditor({
           questions: isolation.validQuestions,
           parseError: "",
           isolationErrors: isolation.invalidQuestions.map((iq) => iq.reason),
+          requeuedSourceIds: isolation.requeuedSourceIds || [],
         };
       }
     } catch {
@@ -216,6 +308,7 @@ export function QuestionImportEditor({
         questions: plain.data.questions,
         parseError: "",
         isolationErrors: [],
+        requeuedSourceIds: [],
       };
     }
 
@@ -223,14 +316,18 @@ export function QuestionImportEditor({
       questions: [] as QuestionInput[],
       parseError: plain.error || "प्रश्न पार्स नहीं हो सके। कृपया मान्य JSON पेस्ट करें।",
       isolationErrors: [],
+      requeuedSourceIds: [],
     };
   }, [code, subjectName, topicName, subtopicName]);
 
   // Stage B: In-batch quality and provenance validation
   const batchValidation: BatchValidationResult | null = useMemo(() => {
     if (!code.trim() || parseResult.questions.length === 0) return null;
-    return validateImportBatch(parseResult.questions);
-  }, [code, parseResult.questions]);
+    return validateImportBatch(parseResult.questions, {
+      allowFinalBelow20: Boolean(isFinalSet && isExhaustedTopic),
+      isFinalSet,
+    });
+  }, [code, parseResult.questions, isFinalSet, isExhaustedTopic]);
 
   // Server-side duplicate provenance check (query Convex)
   const sourceIdsForDbCheck = useMemo(() => {
@@ -243,6 +340,25 @@ export function QuestionImportEditor({
   );
 
   const existingInDbIds = provenanceCheck?.existingSourceIds ?? [];
+
+  // Compute which candidates were repetitive or excluded to move to end of queue
+  const redundantSourceIds = useMemo(() => {
+    if (candidates.length === 0 || parseResult.questions.length === 0) return [];
+
+    const retainedSet = new Set(
+      parseResult.questions.map((q) => {
+        const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId ?? (q as any).id;
+        return String(sid).trim();
+      })
+    );
+
+    const fromWindow = candidates
+      .map((c) => String(c.sourceQuestionId).trim())
+      .filter((id) => !retainedSet.has(id));
+
+    const explicitRequeued = (parseResult.requeuedSourceIds || []).map(String);
+    return Array.from(new Set([...fromWindow, ...explicitRequeued]));
+  }, [candidates, parseResult.questions, parseResult.requeuedSourceIds]);
 
   // Combined error list and canImport gate
   const allErrors = useMemo(() => {
@@ -258,29 +374,32 @@ export function QuestionImportEditor({
     }
     if (existingInDbIds.length > 0) {
       for (const id of existingInDbIds) {
-        errs.push(`यह PYQ पहले से Quizzer में imported है (sourceQuestionId: ${id})।`);
+        errs.push(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${id})।`);
       }
     }
     return errs;
   }, [parseResult, batchValidation, existingInDbIds]);
 
   const isExact20 = parseResult.questions.length === 20;
+  const isCountValid =
+    isExact20 || (Boolean(isFinalSet && isExhaustedTopic) && parseResult.questions.length > 0);
   const hasNoDbCollisions = existingInDbIds.length === 0;
+
   const canImport =
-    isExact20 &&
+    isCountValid &&
     batchValidation?.isValid === true &&
     allErrors.length === 0 &&
     Boolean(selectedTopicId) &&
     Boolean(subtopicName.trim()) &&
     !isImporting;
 
-  // Propagate parsed payload to parent (guarded against re-render ping-pong)
+  // Propagate parsed payload to parent
   const lastEmittedRef = useRef<string>("");
   useEffect(() => {
     let currentPayload: ImportJson | null = null;
     let signature = "empty";
 
-    if (code.trim() && canImport && parseResult.questions.length === 20) {
+    if (code.trim() && canImport && isCountValid) {
       currentPayload = {
         subject: subjectName,
         topic: topicName,
@@ -301,6 +420,7 @@ export function QuestionImportEditor({
   }, [
     code,
     canImport,
+    isCountValid,
     parseResult.questions,
     allErrors,
     subjectName,
@@ -361,7 +481,7 @@ export function QuestionImportEditor({
             <input
               value={subtopicName}
               onChange={(e) => onSubtopicNameChange(e.target.value)}
-              placeholder="e.g. आमेर का कछवाहा वंश भाग 1"
+              placeholder="e.g. राजस्थान के प्रमुख उद्योग भाग 1"
               className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors"
             />
           </div>
@@ -379,14 +499,146 @@ export function QuestionImportEditor({
         </CardContent>
       </Card>
 
-      {/* 2. Gemini Prompt */}
+      {/* 2. Candidate Queue & Exam Controls */}
+      <Card className="rounded-2xl border-border/70 shadow-xs">
+        <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <Database className="h-4 w-4 text-primary" />
+              <CardTitle className="text-sm font-bold tracking-tight">
+                2. Topic Question Pool &amp; Candidate Buffer
+              </CardTitle>
+            </div>
+            {topicSummary && (
+              <div className="flex items-center gap-2 text-xs">
+                <Badge variant="outline" className="font-hindi text-[11px]">
+                  Topic #{topicSummary.masterTopicId}
+                </Badge>
+                <Badge className="bg-success/15 text-success border-success/30 font-semibold text-[11px]">
+                  Available: {topicSummary.available}
+                </Badge>
+                <Badge variant="outline" className="text-muted-foreground text-[11px]">
+                  Used: {topicSummary.used}
+                </Badge>
+              </div>
+            )}
+          </div>
+        </CardHeader>
+        <CardContent className="p-4 sm:p-6 space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
+                Exam Question Filter (परीक्षा प्रश्न नियंत्रण)
+              </label>
+              <select
+                value={examPreference}
+                onChange={(e) => setExamPreference(e.target.value as any)}
+                className="h-10 w-full rounded-xl border border-input bg-card px-3 text-xs font-medium focus:outline-hidden focus:ring-2 focus:ring-ring"
+              >
+                <option value="all">Automatic (Queue Order)</option>
+                <option value="prefer_exam">Prefer Exam Questions</option>
+                <option value="limit_exam">Limit Exam Questions</option>
+              </select>
+            </div>
+
+            {examPreference === "limit_exam" && (
+              <div>
+                <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
+                  Max Exam Questions
+                </label>
+                <input
+                  type="number"
+                  min={1}
+                  max={30}
+                  value={examLimit}
+                  onChange={(e) => setExamLimit(parseInt(e.target.value, 10) || 15)}
+                  className="h-10 w-full rounded-xl border border-input bg-card px-3 text-xs font-medium focus:outline-hidden focus:ring-2 focus:ring-ring"
+                />
+              </div>
+            )}
+
+            <div className="flex items-end">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={loadCandidates}
+                disabled={candidatesLoading || !activeMasterTopicId}
+                className="h-10 text-xs font-semibold rounded-xl gap-1.5 shadow-2xs w-full"
+              >
+                {candidatesLoading ? (
+                  <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                ) : (
+                  <RefreshCw className="h-3.5 w-3.5" />
+                )}
+                <span>Reload Candidates (पूल से पुनः लोड करें)</span>
+              </Button>
+            </div>
+          </div>
+
+          {/* Candidate Status Banner */}
+          <div className="flex flex-wrap items-center gap-2">
+            {candidatesLoading ? (
+              <Badge
+                variant="outline"
+                className="text-xs font-medium py-1 px-2.5 gap-1.5 text-muted-foreground animate-pulse"
+              >
+                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                पूल से 25–30 कैंडिडेट प्रश्न लोड हो रहे हैं…
+              </Badge>
+            ) : candidates.length > 0 ? (
+              <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1.5">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                <span>
+                  Candidate Buffer Ready: <strong>{candidates.length} प्रश्न</strong> पूल कतार से स्वतः Prompt में शामिल हैं
+                </span>
+              </Badge>
+            ) : null}
+          </div>
+
+          {candidatesError && (
+            <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10 py-2.5 px-3.5">
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription className="text-xs font-medium">
+                {candidatesError}
+              </AlertDescription>
+            </Alert>
+          )}
+
+          {/* Final Set (<20) Explicit Confirmation Control */}
+          {isExhaustedTopic && (
+            <div className="p-3.5 rounded-xl bg-warning/10 border border-warning/30 space-y-2">
+              <div className="flex items-center gap-2">
+                <AlertCircle className="h-4 w-4 text-warning shrink-0" />
+                <p className="text-xs font-bold text-foreground">
+                  Final Topic Set Exception (अंतिम सेट छूट)
+                </p>
+              </div>
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                इस टॉपिक में केवल <strong>{topicSummary?.available} प्रश्न</strong> शेष हैं। सामान्य 20 प्रश्नों का सेट पूरा नहीं हो सकता। यदि आप इस अंतिम सेट को 20 से कम प्रश्नों के साथ आयात करना चाहते हैं, तो नीचे पुष्टि करें:
+              </p>
+              <label className="flex items-center gap-2.5 text-xs font-bold text-warning-foreground cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={isFinalSet}
+                  onChange={(e) => setIsFinalSet(e.target.checked)}
+                  className="h-4 w-4 rounded-sm border-border text-primary focus:ring-primary"
+                />
+                <span>Allow Final Set with fewer than 20 questions ({topicSummary?.available} questions)</span>
+              </label>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* 3. Gemini Prompt */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2 min-w-0">
               <Sparkles className="h-4 w-4 text-warning" />
               <CardTitle className="text-sm font-bold tracking-tight">
-                2. Quality-Control Prompt (Gemini AI)
+                3. Quality-Control Prompt (Gemini AI)
               </CardTitle>
             </div>
             <div className="flex items-center gap-2 shrink-0">
@@ -422,34 +674,8 @@ export function QuestionImportEditor({
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-3">
-          {/* Final PYQ Source Status Banner */}
-          <div className="flex flex-wrap items-center gap-2">
-            {pyqBatchLoading ? (
-              <Badge variant="outline" className="text-xs font-medium py-1 px-2.5 gap-1.5 text-muted-foreground animate-pulse">
-                <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                Final PYQ batch लोड हो रहा है…
-              </Badge>
-            ) : pyqBatch ? (
-              <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1.5">
-                <Database className="h-3.5 w-3.5" />
-                <span>Final PYQ Loaded: <strong>{pyqBatch.batchName}</strong> ({pyqBatch.questionCount} प्रश्न स्वतः शामिल)</span>
-              </Badge>
-            ) : null}
-          </div>
-
-          {pyqBatchError && (
-            <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10 py-2.5 px-3.5">
-              <AlertCircle className="h-4 w-4" />
-              <AlertDescription className="text-xs font-medium">
-                {pyqBatchError}
-              </AlertDescription>
-            </Alert>
-          )}
-
           <p className="text-xs text-muted-foreground">
-            {pyqBatch
-              ? `Copy Prompt पर क्लिक करने पर इस सेट के सभी 20 मूल PYQ प्रश्न Prompt में स्वतः जुड़ चुके हैं। इसे सीधे Gemini में पेस्ट करें।`
-              : `इस prompt को कॉपी करके Gemini में paste करें।`}
+            Copy Prompt पर क्लिक करने पर इस टॉपिक के सभी <strong>{candidates.length} कैंडिडेट प्रश्न</strong> Prompt में स्वतः शामिल हो जाते हैं। Gemini व्याकरण/OCR सुधारेगा, पुनरावृत्ति हटाएगा, और ठीक 20 प्रश्नों का सेट तैयार करेगा।
           </p>
 
           {promptOpen && (
@@ -460,7 +686,7 @@ export function QuestionImportEditor({
         </CardContent>
       </Card>
 
-      {/* 3. Gemini Response (Textarea) */}
+      {/* 4. Gemini Response (Textarea) */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
@@ -468,11 +694,11 @@ export function QuestionImportEditor({
               <div className="flex items-center gap-2">
                 <FileCode className="h-4 w-4 text-primary" />
                 <CardTitle className="text-sm font-bold tracking-tight">
-                  3. Gemini JSON Response
+                  4. Gemini JSON Response
                 </CardTitle>
               </div>
               <p className="text-xs text-muted-foreground">
-                Paste the complete JSON response from Gemini. Quizzer will validate it before import.
+                Paste the clean JSON response from Gemini. Quizzer will validate it before import.
               </p>
             </div>
             <div className="shrink-0 flex items-center">
@@ -480,9 +706,9 @@ export function QuestionImportEditor({
                 <Badge variant="outline" className="text-xs font-medium text-muted-foreground py-1 px-2.5">
                   0 / 20 प्रश्न
                 </Badge>
-              ) : detectedCount === 20 ? (
+              ) : isCountValid ? (
                 <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" /> 20 / 20 प्रश्न तैयार हैं ✓
+                  <CheckCircle2 className="h-3.5 w-3.5" /> {detectedCount} / {isExact20 ? 20 : detectedCount} प्रश्न तैयार हैं ✓
                 </Badge>
               ) : (
                 <Badge variant="destructive" className="text-xs font-semibold py-1 px-2.5 gap-1">
@@ -498,7 +724,7 @@ export function QuestionImportEditor({
               ref={textRef}
               value={code}
               onChange={(e) => setCode(e.target.value)}
-              placeholder={`[\n  {\n    "q": "प्रश्न पाठ...",\n    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],\n    "a": 0,\n    "e": "प्रमाणिक व्याख्या...",\n    "t": "mcq",\n    "sourceType": "PYQ",\n    "sourceQuestionId": 13540,\n    "exam": "RPSC Sub Inspector",\n    "year": 2021,\n    "reference": "RPSC Sub Inspector 13/09/2021"\n  }\n]`}
+              placeholder={`[\n  {\n    "q": "प्रश्न पाठ...",\n    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],\n    "a": 0,\n    "e": "प्रमाणिक व्याख्या...",\n    "t": "mcq",\n    "sourceType": "PYQ",\n    "sourceQuestionId": "rg_000001",\n    "exam": "REET",\n    "year": 2022,\n    "reference": "📌 PYQ — REET (2022)"\n  }\n]`}
               spellCheck={false}
               className="w-full min-h-[360px] max-h-[580px] resize-y bg-transparent p-4 font-mono text-xs sm:text-sm leading-relaxed text-foreground placeholder:text-muted-foreground/40 focus:outline-hidden whitespace-pre overflow-x-auto"
             />
@@ -506,25 +732,46 @@ export function QuestionImportEditor({
         </CardContent>
       </Card>
 
-      {/* 4. Import Quality Gate & Checklist */}
+      {/* 5. Requeued Questions Banner (FIFO Requeueing) */}
+      {redundantSourceIds.length > 0 && (
+        <Card className="rounded-2xl border-border/70 shadow-xs bg-warning/5 border-warning/20">
+          <CardContent className="p-4 flex items-start gap-3">
+            <RotateCcw className="h-5 w-5 text-warning shrink-0 mt-0.5" />
+            <div className="space-y-1">
+              <p className="text-xs font-bold text-foreground">
+                Queue Requeueing ({redundantSourceIds.length} Repetitive Questions Return to Queue End)
+              </p>
+              <p className="text-[11px] text-muted-foreground leading-relaxed">
+                इस सेट में शामिल न किए गए {redundantSourceIds.length} प्रश्न स्थायी रूप से नष्ट नहीं होंगे। Import करने पर इन्हें इस टॉपिक की कतार के <strong>अंत (End of Queue)</strong> में पुनः जोड़ दिया जाएगा ताकि भविष्य के सेट्स में इनका उपयोग किया जा सके।
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* 6. Import Quality Gate & Checklist */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center gap-2">
             <ShieldCheck className="h-4 w-4 text-primary" />
             <CardTitle className="text-sm font-bold tracking-tight">
-              4. Import Quality Gate / गुणवत्ता परीक्षण
+              5. Import Quality Gate / गुणवत्ता परीक्षण
             </CardTitle>
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs font-medium">
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
-              {isExact20 ? (
+              {isCountValid ? (
                 <CheckCircle2 className="h-4 w-4 text-success shrink-0" />
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>20 प्रश्न आवश्यक (मिले: {detectedCount} / 20)</span>
+              <span>
+                {isFinalSet && isExhaustedTopic
+                  ? `अंतिम सेट स्वीकार्य (मिले: ${detectedCount} प्रश्न)`
+                  : `20 प्रश्न आवश्यक (मिले: ${detectedCount} / 20)`}
+              </span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -587,7 +834,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>Convex में कोई पुराना PYQ दोहराव नहीं</span>
+              <span>Convex में कोई पुराना दोहराव नहीं</span>
             </div>
           </div>
 
@@ -614,32 +861,43 @@ export function QuestionImportEditor({
           {canImport && (
             <div className="flex items-center gap-2 p-3 rounded-xl bg-success/15 border border-success/30 text-success text-xs font-semibold">
               <CheckCircle2 className="h-4 w-4 shrink-0" />
-              <span>सभी 20 प्रश्न गुणवत्ता मानकों के अनुरूप हैं। अब आप इन्हें सुरक्षित रूप से आयात कर सकते हैं।</span>
+              <span>
+                सभी {detectedCount} प्रश्न गुणवत्ता मानकों के अनुरूप हैं। अब आप इन्हें सुरक्षित रूप से आयात कर सकते हैं।
+              </span>
             </div>
           )}
         </CardContent>
       </Card>
 
-      {/* 5. Final Import Button */}
+      {/* 7. Final Import Button */}
       <div className="space-y-2">
         <Button
           type="button"
-          onClick={onImportClick}
+          onClick={() =>
+            onImportClick?.({
+              isFinalSet,
+              masterTopicId: activeMasterTopicId,
+              requeuedSourceIds: redundantSourceIds,
+              sessionId,
+            })
+          }
           disabled={!canImport}
           className="h-12 w-full rounded-xl text-sm font-bold shadow-xs transition-all"
         >
           {isImporting ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Importing 20 Questions into Convex…
+              Importing Questions &amp; Updating Pool Queue…
             </>
           ) : (
-            `✓ Import 20 Questions (${subtopicName || "Current Set"})`
+            `✓ Import ${detectedCount} Questions (${subtopicName || "Current Set"})`
           )}
         </Button>
         {!canImport && code.trim().length > 0 && (
           <p className="text-center text-[11px] text-muted-foreground">
-            सभी validation checks (ठीक 20 प्रश्न, वैध विकल्प, अद्वितीय Source ID) पास होने पर ही Import बटन सक्षम होगा।
+            {isFinalSet && isExhaustedTopic
+              ? "अंतिम सेट के प्रश्नों की पुष्टि होने पर Import बटन सक्षम होगा।"
+              : "सभी validation checks (ठीक 20 प्रश्न, वैध विकल्प, अद्वितीय Source ID) पास होने पर ही Import बटन सक्षम होगा।"}
           </p>
         )}
       </div>

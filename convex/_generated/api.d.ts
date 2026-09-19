@@ -16,6 +16,7 @@ import type * as http from "../http.js";
 import type * as leaderboard from "../leaderboard.js";
 import type * as lib_permissions from "../lib/permissions.js";
 import type * as lib_validators from "../lib/validators.js";
+import type * as pool from "../pool.js";
 import type * as questions from "../questions.js";
 import type * as search from "../search.js";
 import type * as seed from "../seed.js";
@@ -40,6 +41,7 @@ declare const fullApi: ApiFromModules<{
   leaderboard: typeof leaderboard;
   "lib/permissions": typeof lib_permissions;
   "lib/validators": typeof lib_validators;
+  pool: typeof pool;
   questions: typeof questions;
   search: typeof search;
   seed: typeof seed;
