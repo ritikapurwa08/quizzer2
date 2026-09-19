@@ -52,7 +52,7 @@ export function WeakSubjectsCard({ subjects }: { subjects: WeakSubject[] }) {
       <div className="flex flex-row items-center justify-between mb-3.5">
         <h2 className="text-sm font-semibold text-foreground flex items-center gap-2 font-hindi">
           <Target className="h-4 w-4 text-destructive" />
-          कमजोर विषय (Weak Areas)
+          Weak Areas
         </h2>
         {subjects.length > 0 && (
           <Badge variant="destructive" className="text-[10px] px-2 py-0.5 rounded-full font-hindi">

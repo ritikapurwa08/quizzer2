@@ -37,7 +37,7 @@ export default function DashboardPage() {
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
-            अभ्यास डैशबोर्ड (Dashboard)
+            Dashboard
           </h1>
           <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
             विषय चुनें और परीक्षा-उपयोगी अभ्यास प्रश्न-सेट हल करें।
@@ -55,7 +55,7 @@ export default function DashboardPage() {
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 font-hindi">
             <BookOpen className="h-4 w-4 text-foreground" />
-            पाठ्यक्रम के विषय (Subjects)
+            Subjects
             {subjects !== undefined && (
               <span className="font-bold text-foreground tabular-nums">({subjects.length})</span>
             )}
@@ -125,9 +125,9 @@ export default function DashboardPage() {
             data={
               stats.subjectAccuracy && stats.subjectAccuracy.length >= 3
                 ? stats.subjectAccuracy.map((ws: { name: string; accuracy: number }) => ({
-                    subject: ws.name,
-                    score: ws.accuracy,
-                  }))
+                  subject: ws.name,
+                  score: ws.accuracy,
+                }))
                 : undefined
             }
             averageScore={Math.round(stats.overallAccuracy)}
