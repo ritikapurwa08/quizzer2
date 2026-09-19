@@ -116,18 +116,7 @@ export default function TopicDetailPage() {
                           >
                             {set.name}
                           </h3>
-                          {/* Completed / New Badge */}
-                          {isDone ? (
-                            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-muted text-foreground border border-border shrink-0 font-hindi">
-                              <CheckCircle2 className="h-3 w-3 text-emerald-500" />
-                              पूर्ण
-                            </span>
-                          ) : (
-                            <span className="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-muted text-muted-foreground border border-border shrink-0 font-hindi">
-                              <Sparkles className="h-3 w-3" />
-                              नया
-                            </span>
-                          )}
+
                         </div>
 
                       </div>
