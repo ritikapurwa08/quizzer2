@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-09-19T10:58:42.533Z",
+  "updatedAt": "2026-09-19T11:08:54.980Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 16032,
   "totalTopicAssignedQuestions": 15837,
@@ -9,7 +9,8 @@
     "1": {
       "masterTopicId": 1,
       "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "available": [
+      "available": [],
+      "candidate": [
         "rg_013115",
         "rg_013116",
         "rg_013117",
@@ -25,33 +26,6 @@
         "rg_013127",
         "rg_013128",
         "rg_013129"
-      ],
-      "candidate": [
-        "rg_013090",
-        "rg_013091",
-        "rg_013092",
-        "rg_013093",
-        "rg_013094",
-        "rg_013095",
-        "rg_013096",
-        "rg_013097",
-        "rg_013098",
-        "rg_013099",
-        "rg_013100",
-        "rg_013101",
-        "rg_013102",
-        "rg_013103",
-        "rg_013104",
-        "rg_013105",
-        "rg_013106",
-        "rg_013107",
-        "rg_013108",
-        "rg_013109",
-        "rg_013110",
-        "rg_013111",
-        "rg_013112",
-        "rg_013113",
-        "rg_013114"
       ],
       "used": [
         {
@@ -253,6 +227,106 @@
           "id": "rg_013072_alt",
           "usedInSet": "topic-1-set-002",
           "usedAt": "2026-09-19T10:58:35.474Z"
+        },
+        {
+          "id": "rg_013090",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013091",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013092",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013093",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013094",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013095",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013096",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013098",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013099",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013102",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013103",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013106",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013107",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013108",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013109",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013110",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013111",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013112",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013113",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
+        },
+        {
+          "id": "rg_013114",
+          "usedInSet": "topic-1-set-003",
+          "usedAt": "2026-09-19T11:08:42.025Z"
         }
       ],
       "requeued": [
@@ -288,7 +362,7 @@
         }
       ],
       "rejected": [],
-      "completedSets": 2
+      "completedSets": 3
     },
     "2": {
       "masterTopicId": 2,
