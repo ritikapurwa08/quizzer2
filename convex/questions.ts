@@ -1,4 +1,4 @@
-import { v } from "convex/values";
+import { v, ConvexError } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 import { questionInputValidator, questionTypeValidator } from "./lib/validators";
@@ -103,55 +103,37 @@ export const search = query({
 
     return candidateQuestions
       .filter((q) => {
-        // SourceType filter
-        if (args.sourceType && args.sourceType !== "all") {
-          const qSource = (q.meta?.sourceType as string) || "";
-          if (args.sourceType === "PYQ") {
-            if (qSource !== "PYQ" && qSource !== "PYQ_EXACT" && !qSource.startsWith("PYQ")) return false;
-          } else if (args.sourceType === "PYQ_MODIFIED") {
-            if (qSource !== "PYQ_MODIFIED") return false;
-          } else if (args.sourceType === "AI_NEW") {
-            if (qSource !== "AI_NEW") return false;
-          }
-        }
+        if (args.sourceType && q.meta?.sourceType !== args.sourceType) return false;
+        if (args.exam && q.meta?.exam !== args.exam) return false;
+        if (!term) return true;
 
-        // Exam filter
-        if (args.exam && args.exam.trim().length > 0) {
-          const qExam = (q.meta?.exam as string) || "";
-          if (!qExam.toLowerCase().includes(args.exam.trim().toLowerCase())) return false;
-        }
-
-        // Term filter
-        if (term.length > 0) {
-          if (q.questionText.toLowerCase().includes(term)) return true;
-          if (q.options?.some((o: any) => o.text.toLowerCase().includes(term))) return true;
-          if (q.explanation && q.explanation.toLowerCase().includes(term)) return true;
-          return false;
-        }
-
-        return true;
+        const inText = q.questionText.toLowerCase().includes(term);
+        const inExp = q.explanation?.toLowerCase().includes(term) ?? false;
+        const inOpts = q.options.some((o: any) => o.text.toLowerCase().includes(term));
+        return inText || inExp || inOpts;
       })
       .slice(0, maxLimit);
   },
 });
 
-
-export const update = mutation({
-  args: {
-    id: v.id("questions"),
-    type: v.optional(questionTypeValidator),
-    questionText: v.optional(v.string()),
-    options: v.optional(v.array(v.object({ id: v.string(), text: v.string() }))),
-    correctAnswer: v.optional(v.union(v.string(), v.array(v.string()))),
-    explanation: v.optional(v.string()),
-    reference: v.optional(v.string()),
-    difficulty: v.optional(v.union(v.literal("easy"), v.literal("medium"), v.literal("hard"))),
-    meta: v.optional(v.any()),
-  },
-  handler: async (ctx, args) => {
+/**
+ * Returns summary counts for the Question Bank admin view.
+ */
+export const countSummary = query({
+  args: {},
+  handler: async (ctx) => {
     await requireAdmin(ctx);
-    const { id, ...patch } = args;
-    await ctx.db.patch(id, patch);
+    const questions = await ctx.db.query("questions").collect();
+    const testSets = await ctx.db.query("testSets").collect();
+    const topics = await ctx.db.query("topics").collect();
+    const subjects = await ctx.db.query("subjects").collect();
+
+    return {
+      totalQuestions: questions.length,
+      totalTestSets: testSets.length,
+      totalTopics: topics.length,
+      totalSubjects: subjects.length,
+    };
   },
 });
 
@@ -160,31 +142,64 @@ export const remove = mutation({
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
     const question = await ctx.db.get(args.id);
-    if (!question) return;
-    await ctx.db.delete(args.id);
+    if (!question) throw new ConvexError("Question not found");
+
     const testSet = await ctx.db.get(question.testSetId);
     if (testSet) {
       await ctx.db.patch(testSet._id, {
         questionCount: Math.max(0, testSet.questionCount - 1),
       });
     }
+
+    await ctx.db.delete(args.id);
+    return { success: true };
   },
 });
 
+export const update = mutation({
+  args: {
+    id: v.id("questions"),
+    questionText: v.string(),
+    options: v.array(
+      v.object({
+        id: v.string(),
+        text: v.string(),
+      }),
+    ),
+    correctAnswer: v.union(v.string(), v.array(v.string())),
+    explanation: v.optional(v.string()),
+    difficulty: v.union(v.literal("easy"), v.literal("medium"), v.literal("hard")),
+    type: questionTypeValidator,
+    reference: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    await requireAdmin(ctx);
+    const { id, ...fields } = args;
+    await ctx.db.patch(id, fields);
+    return { success: true };
+  },
+});
+
+/**
+ * Server-side duplicate provenance check for Admin Import Wizard.
+ * Given an array of sourceQuestionIds, returns which ones ALREADY exist in Convex questions table.
+ */
 export const checkExistingProvenance = query({
   args: {
     sourceQuestionIds: v.array(v.union(v.string(), v.number())),
   },
   handler: async (ctx, args) => {
-    await requireAdmin(ctx);
-    if (!args.sourceQuestionIds || args.sourceQuestionIds.length === 0) {
+    if (!args.sourceQuestionIds.length) {
       return { existingSourceIds: [] };
     }
+
     const requested = new Set(args.sourceQuestionIds.map((id) => String(id).trim()));
-    const existingQuestions = await ctx.db.query("questions").collect();
     const existingFound: string[] = [];
-    for (const eq of existingQuestions) {
-      const sid = eq.meta?.sourceQuestionId;
+
+    // Scan all questions in DB to locate existing sourceQuestionIds
+    const allQuestions = await ctx.db.query("questions").collect();
+    for (const q of allQuestions) {
+      const sid = q.meta?.sourceQuestionId;
       if (sid !== undefined && sid !== null) {
         const strId = String(sid).trim();
         if (requested.has(strId) && !existingFound.includes(strId)) {
@@ -211,17 +226,17 @@ export const importTestSet = mutation({
       await requireAdmin(ctx);
     }
     const topic = await ctx.db.get(args.topicId);
-    if (!topic) throw new Error("Topic not found");
+    if (!topic) throw new ConvexError("Topic not found");
 
     // Enforce 20 questions for standard set import, unless explicit final set on exhausted topic
     if (args.questions.length !== 20) {
       if (!args.isFinalSet) {
-        throw new Error(
+        throw new ConvexError(
           `20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। केवल अंतिम सेट (Final Set) में 20 से कम प्रश्न स्वीकार्य हैं।`
         );
       }
       if (args.questions.length === 0) {
-        throw new Error("Import के लिए कम से कम 1 प्रश्न आवश्यक है।");
+        throw new ConvexError("Import के लिए कम से कम 1 प्रश्न आवश्यक है।");
       }
     }
 
@@ -246,12 +261,12 @@ export const importTestSet = mutation({
       if (sid !== undefined && sid !== null && String(sid).trim() !== "") {
         const cleanSid = String(sid).trim();
         if (incomingPyqSourceIds.has(cleanSid)) {
-          throw new Error(`Duplicate sourceQuestionId: ${cleanSid} inside this set (प्रश्न ${qNum})।`);
+          throw new ConvexError(`Duplicate sourceQuestionId: ${cleanSid} inside this set (प्रश्न ${qNum})।`);
         }
         incomingPyqSourceIds.add(cleanSid);
 
         if (existingPyqSourceIds.has(cleanSid)) {
-          throw new Error(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${cleanSid}, प्रश्न ${qNum})।`);
+          throw new ConvexError(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${cleanSid}, प्रश्न ${qNum})।`);
         }
       }
     }
@@ -265,20 +280,20 @@ export const importTestSet = mutation({
     const seen = new Set<string>();
     for (let i = 0; i < incoming.length; i++) {
       const current = incoming[i];
-      if (!current.normalized) throw new Error(`Question ${i + 1} is empty.`);
+      if (!current.normalized) throw new ConvexError(`प्रश्न ${i + 1} का पाठ खाली है।`);
       if (seen.has(current.normalized)) {
-        throw new Error(`Duplicate question inside this set: question ${i + 1}.`);
+        throw new ConvexError(`सेट के भीतर दोहराव: प्रश्न ${i + 1} इसी सेट के किसी अन्य प्रश्न जैसा है।`);
       }
       seen.add(current.normalized);
 
       for (const existing of existingQuestions) {
         const existingNormalized = normalizeForDuplicateCheck(existing.questionText);
         if (current.normalized === existingNormalized) {
-          throw new Error(`Duplicate question detected: question ${i + 1} already exists in an imported set.`);
+          throw new ConvexError(`दोहराव पहचाना गया: प्रश्न ${i + 1} ("${current.questionText.slice(0, 35)}...") पहले से Quizzer में मौजूद है।`);
         }
         // Avoid aggressive fuzzy matching: only flag near-identical paraphrases for long questions
         if (current.normalized.length >= 50 && existingNormalized.length >= 50 && tokenSimilarity(current.normalized, existingNormalized) >= 0.96) {
-          throw new Error(`Possible repeated question detected: question ${i + 1} is too similar to an existing imported question.`);
+          throw new ConvexError(`संभावित दोहराव: प्रश्न ${i + 1} पहले से मौजूद प्रश्न से 96% से अधिक मिलता-जुलता है।`);
         }
       }
     }
@@ -294,7 +309,7 @@ export const importTestSet = mutation({
       (s) => s.name.trim().toLowerCase() === normalizedSetName
     );
     if (existingSet) {
-      throw new Error(
+      throw new ConvexError(
         `इस टॉपिक में '${args.name.trim()}' नाम का टेस्ट सेट पहले से मौजूद है (Duplicate Set Identity)। कृपया दूसरा नाम या भाग संख्या चुनें।`
       );
     }
