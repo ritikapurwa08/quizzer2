@@ -174,8 +174,6 @@ export function ImportWizard() {
         questions: parsed.questions,
         isFinalSet: options?.isFinalSet,
         masterTopicId: options?.masterTopicId,
-        requeuedSourceIds: options?.requeuedSourceIds,
-        sessionId: options?.sessionId,
       });
       const testSetId = result.testSetId;
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
@@ -202,14 +200,14 @@ export function ImportWizard() {
 
   return (
     <div className="space-y-4 max-w-4xl mx-auto">
-      {/* Return to Question Pool Navigation Bar */}
+      {/* Return to Admin Overview Navigation Bar */}
       <div className="flex items-center justify-between">
         <Link
-          href="/admin/pool"
+          href="/admin"
           className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors"
         >
           <ArrowLeft className="h-3.5 w-3.5" />
-          <span>Back to Question Pool Dashboard (पूल डैशबोर्ड)</span>
+          <span>Back to Admin Overview (एडमिन अवलोकन)</span>
         </Link>
       </div>
 

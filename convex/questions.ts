@@ -204,8 +204,6 @@ export const importTestSet = mutation({
     questions: v.array(questionInputValidator),
     isFinalSet: v.optional(v.boolean()),
     masterTopicId: v.optional(v.number()),
-    requeuedSourceIds: v.optional(v.array(v.union(v.string(), v.number()))),
-    sessionId: v.optional(v.string()),
     adminSecret: v.optional(v.string()),
   },
   handler: async (ctx, args) => {
@@ -221,18 +219,6 @@ export const importTestSet = mutation({
         throw new Error(
           `20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। केवल अंतिम सेट (Final Set) में 20 से कम प्रश्न स्वीकार्य हैं।`
         );
-      }
-      // If isFinalSet is requested, verify topic genuinely has no more than available questions
-      if (args.masterTopicId) {
-        const summary = await ctx.db
-          .query("poolTopicSummaries")
-          .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", args.masterTopicId!))
-          .unique();
-        if (summary && summary.available >= 20 && !summary.allowFinalBelow20) {
-          throw new Error(
-            `इस टॉपिक में अभी ${summary.available} प्रश्न उपलब्ध हैं। 20 से कम का Final Set केवल तभी स्वीकार्य है जब टॉपिक में 20 से कम प्रश्न शेष हों।`
-          );
-        }
       }
       if (args.questions.length === 0) {
         throw new Error("Import के लिए कम से कम 1 प्रश्न आवश्यक है।");
@@ -345,56 +331,6 @@ export const importTestSet = mutation({
         order: i,
         meta: Object.keys(cleanMeta).length > 0 ? cleanMeta : undefined,
       });
-    }
-
-    // 3. OPTIONAL LOCAL/LEGACY POOL SYNC:
-    // If pool tables exist in Convex with entries for this topic, update them safely
-    if (args.masterTopicId) {
-      try {
-        const masterTopicId = args.masterTopicId;
-        const importedSourceIds = new Set(Array.from(incomingPyqSourceIds));
-        const requeuedIds = new Set(
-          (args.requeuedSourceIds || []).map((id) => String(id).trim())
-        );
-
-        const summary = await ctx.db
-          .query("poolTopicSummaries")
-          .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", masterTopicId))
-          .unique();
-
-        if (summary) {
-          let nextQueueOrder = summary.nextQueueOrder || 1000;
-          const poolQs = await ctx.db
-            .query("poolQuestions")
-            .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
-            .collect();
-
-          if (poolQs.length > 0) {
-            for (const pq of poolQs) {
-              const pqSid = String(pq.sourceQuestionId).trim();
-              if (importedSourceIds.has(pqSid)) {
-                await ctx.db.patch(pq._id, {
-                  status: "USED",
-                  usedAt: now,
-                  usedTestSetId: testSetId,
-                  claimedBy: undefined,
-                  claimedAt: undefined,
-                });
-              } else if (requeuedIds.has(pqSid)) {
-                await ctx.db.patch(pq._id, {
-                  status: "REQUEUED",
-                  queueOrder: nextQueueOrder++,
-                  rejectedCount: pq.rejectedCount + 1,
-                  claimedBy: undefined,
-                  claimedAt: undefined,
-                });
-              }
-            }
-          }
-        }
-      } catch {
-        // Pool tables are local-first; ignore if not present in Convex
-      }
     }
 
     return { testSetId, imported: args.questions.length };

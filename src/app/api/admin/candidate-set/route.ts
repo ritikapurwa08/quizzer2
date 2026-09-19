@@ -1,0 +1,176 @@
+import { NextRequest, NextResponse } from "next/server";
+import path from "path";
+import fs from "fs";
+import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const topicIdParam = searchParams.get("masterTopicId") || searchParams.get("topicId");
+    const setNumberParam = searchParams.get("setNumber") || searchParams.get("set");
+
+    if (!topicIdParam) {
+      return NextResponse.json(
+        { success: false, message: "Missing masterTopicId parameter" },
+        { status: 400 }
+      );
+    }
+
+    const masterTopicId = parseInt(topicIdParam, 10);
+    if (isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 73) {
+      return NextResponse.json(
+        { success: false, message: "Invalid masterTopicId (must be 1-73)" },
+        { status: 400 }
+      );
+    }
+
+    const setNumber = setNumberParam ? Math.max(1, parseInt(setNumberParam, 10) || 1) : 1;
+    const topicInfo = MASTER_TOPICS_LIST.find((mt) => mt.id === masterTopicId);
+
+    const padTopic = String(masterTopicId).padStart(2, "0");
+    const padSet = String(setNumber).padStart(3, "0");
+
+    const projectRoot = process.cwd();
+    const candidatesDir = path.join(projectRoot, "data", "ddd", "candidates", `topic-${masterTopicId}`);
+    const candidateFile = path.join(candidatesDir, `candidate-set-${padSet}.json`);
+    const poolStateFile = path.join(projectRoot, "data", "ddd", "pool-state.json");
+    const topicsDir = path.join(projectRoot, "data", "ddd", "topics");
+
+    let candidateQuestions: any[] = [];
+
+    // 1. If candidate file already exists on disk, load it
+    if (fs.existsSync(candidateFile)) {
+      try {
+        const fileData = JSON.parse(fs.readFileSync(candidateFile, "utf-8"));
+        candidateQuestions = fileData.questions || [];
+      } catch (err) {
+        console.error("Error reading candidate file:", err);
+      }
+    }
+
+    // 2. If no candidate file, read from pool-state.json and topic question file
+    if (candidateQuestions.length === 0 && fs.existsSync(topicsDir)) {
+      try {
+        // Find topic file in data/ddd/topics/
+        const files = fs.readdirSync(topicsDir);
+        const prefix = `${padTopic}_`;
+        const topicFileName = files.find((f) => f.startsWith(prefix) && f.endsWith(".json"));
+
+        if (topicFileName) {
+          const topicFilePath = path.join(topicsDir, topicFileName);
+          const topicData = JSON.parse(fs.readFileSync(topicFilePath, "utf-8"));
+          const allQuestions: any[] = topicData.questions || [];
+          const questionMap = new Map<string, any>();
+          for (const q of allQuestions) {
+            questionMap.set(String(q.id), q);
+          }
+
+          let poolState: any = null;
+          if (fs.existsSync(poolStateFile)) {
+            poolState = JSON.parse(fs.readFileSync(poolStateFile, "utf-8"));
+          }
+
+          const topicState = poolState?.topics?.[String(masterTopicId)];
+          let targetIds: string[] = [];
+
+          if (topicState?.candidate && topicState.candidate.length > 0) {
+            targetIds = topicState.candidate;
+          } else if (topicState?.available && topicState.available.length > 0) {
+            targetIds = topicState.available.slice(0, 25);
+          } else {
+            targetIds = allQuestions.slice(0, 25).map((q) => String(q.id));
+          }
+
+          for (const qid of targetIds) {
+            const q = questionMap.get(String(qid));
+            if (q) candidateQuestions.push(q);
+          }
+        }
+      } catch (err) {
+        console.error("Error resolving topic questions:", err);
+      }
+    }
+
+    const topicHindi = topicInfo?.nameHindi || `Topic ${masterTopicId}`;
+    const subjectHindi = topicInfo?.subjectHindi || "राजस्थान सामान्य ज्ञान";
+    const setName = `${topicHindi} भाग ${setNumber}`;
+
+    // Format clean questions for prompt
+    const promptQuestions = candidateQuestions.map((q) => ({
+      id: q.id,
+      question: q.question,
+      options: q.options,
+      answer: q.answer,
+      explanation: q.explanation || "",
+      exam: q.exam || null,
+      year: q.year || null,
+    }));
+
+    // Build the Authoritative Gemini Prompt
+    const geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
+
+विषय: ${subjectHindi}
+शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
+सेट: ${setName}
+कैंडिडेट प्रश्नों की संख्या: ${candidateQuestions.length}
+
+नीचे हमारे स्थानीय प्रश्न-पूल से ${candidateQuestions.length} उम्मीदवार प्रश्न दिए गए हैं।
+आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।
+
+==================================================
+कड़े नियम एवं निर्देश:
+==================================================
+1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।
+2. व्याकरण, वर्तनी एवं देवनागरी लिपि की त्रुटियाँ ठीक करें।
+3. विकल्पों की स्पष्टता जाँचें: प्रत्येक प्रश्न में ठीक 4 विकल्प होने चाहिए। कोई विकल्प खाली या पुनरावृत्त (duplicate) न हो।
+4. सही उत्तर (0-आधारित सूचकांक: 0, 1, 2, या 3) की शत-प्रतिशत प्रामाणिकता सुनिश्चित करें।
+5. प्रत्येक प्रश्न की 1-2 पंक्तियों की प्रामाणिक एवं विस्तृत हिंदी व्याख्या (Explanation) लिखें।
+6. सेट के भीतर कोई दोहराव (intra-set repetition) न हो। यदि दो प्रश्न एक ही तथ्य पर हों, तो केवल एक सबसे अच्छा प्रश्न रखें।
+7. 'id' (जैसे "${candidateQuestions[0]?.id || "rg_000001"}") को EXACTLY वही रखें जो मूल प्रश्न में दिया गया है। इसे बदलें नहीं।
+8. अपनी ओर से कोई नया प्रश्न न बनाएँ। केवल दिए गए उम्मीदवार प्रश्नों को ही सुधारें।
+
+==================================================
+उम्मीदवार प्रश्न (Candidate Questions):
+==================================================
+${JSON.stringify(promptQuestions, null, 2)}
+
+==================================================
+अपेक्षित आउटपुट प्रारूप (Strict Output Format):
+==================================================
+केवल और केवल शुद्ध JSON Array वापस करें। कोई अतिरिक्त वाक्य, मार्कडाउन या चैट वार्तालाप न जोड़ें:
+
+[
+  {
+    "id": "${candidateQuestions[0]?.id || "rg_000001"}",
+    "question": "शुद्ध प्रामाणिक प्रश्न पाठ...",
+    "options": [
+      "विकल्प 1",
+      "विकल्प 2",
+      "विकल्प 3",
+      "विकल्प 4"
+    ],
+    "answer": 0,
+    "explanation": "विस्तृत प्रमाणिक व्याख्या...",
+    "exam": "REET",
+    "year": 2021
+  }
+]`;
+
+    return NextResponse.json({
+      success: true,
+      masterTopicId,
+      masterTopic: topicHindi,
+      subjectName: subjectHindi,
+      setNumber,
+      setName,
+      candidateCount: candidateQuestions.length,
+      questions: promptQuestions,
+      geminiPrompt,
+    });
+  } catch (error: any) {
+    return NextResponse.json(
+      { success: false, message: error.message || "Failed to load candidate set" },
+      { status: 500 }
+    );
+  }
+}

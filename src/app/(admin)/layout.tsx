@@ -12,7 +12,6 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/admin", label: "Overview", icon: LayoutGrid },
-  { href: "/admin/pool", label: "Question Pool", icon: Database },
   { href: "/admin/import", label: "Import", icon: Upload },
   { href: "/admin/subjects", label: "Subjects", icon: BookOpen },
   { href: "/admin/topics", label: "Topics", icon: Layers },
