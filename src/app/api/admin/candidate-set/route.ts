@@ -130,21 +130,31 @@ export async function GET(request: NextRequest) {
       year: q.year || null,
     }));
 
+    const isFinalTopicSet = candidateQuestions.length < 20;
+    const targetCount = isFinalTopicSet ? candidateQuestions.length : 20;
+    const taskDescription = isFinalTopicSet
+      ? `यह इस टॉपिक का अंतिम सेट (Final Set) है। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
+      : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
+
+    const countRule = isFinalTopicSet
+      ? `1. ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही पुराने सेट्स से कोई प्रश्न जोड़ें।`
+      : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
+
     // Build the Authoritative Gemini Prompt
     const geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
 
 विषय: ${subjectHindi}
 शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
-सेट: ${setName}
+सेट: ${setName}${isFinalTopicSet ? " (अंतिम सेट / Final Set)" : ""}
 कैंडिडेट प्रश्नों की संख्या: ${candidateQuestions.length}
 
 नीचे हमारे स्थानीय प्रश्न-पूल से ${candidateQuestions.length} उम्मीदवार प्रश्न दिए गए हैं।
-आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।
+${taskDescription}
 
 ==================================================
 कड़े नियम एवं निर्देश:
 ==================================================
-1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।
+${countRule}
 2. व्याकरण, वर्तनी एवं देवनागरी लिपि की त्रुटियाँ ठीक करें।
 3. विकल्पों की स्पष्टता जाँचें: प्रत्येक प्रश्न में ठीक 4 विकल्प होने चाहिए। कोई विकल्प खाली या पुनरावृत्त (duplicate) न हो।
 4. सही उत्तर (0-आधारित सूचकांक: 0, 1, 2, या 3) की शत-प्रतिशत प्रामाणिकता सुनिश्चित करें।
