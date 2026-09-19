@@ -292,10 +292,6 @@ export const importTestSet = mutation({
         if (current.normalized === existingNormalized) {
           throw new ConvexError(`दोहराव पहचाना गया: प्रश्न ${i + 1} ("${current.questionText.slice(0, 35)}...") पहले से Quizzer में मौजूद है।`);
         }
-        // Avoid aggressive fuzzy matching: only flag near-identical paraphrases for long questions
-        if (current.normalized.length >= 50 && existingNormalized.length >= 50 && tokenSimilarity(current.normalized, existingNormalized) >= 0.96) {
-          throw new ConvexError(`संभावित दोहराव: प्रश्न ${i + 1} पहले से मौजूद प्रश्न से 96% से अधिक मिलता-जुलता है।`);
-        }
       }
     }
 

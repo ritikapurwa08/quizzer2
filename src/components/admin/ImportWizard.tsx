@@ -212,9 +212,9 @@ export function ImportWizard() {
       // Clear the editor and auto-advance to next set
       setResetKey((k) => k + 1);
       setParsed(null);
-      userEditedSubtopicRef.current = false;
     } catch (err: any) {
-      showToast(err.message || "Failed to import questions. Your text has been preserved.", "warning");
+      const errMsg = err?.data ?? err?.message ?? "Failed to import questions. Your text has been preserved.";
+      showToast(errMsg, "warning");
     } finally {
       setIsImporting(false);
     }
