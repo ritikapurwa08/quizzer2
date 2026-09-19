@@ -171,6 +171,7 @@ export const update = mutation({
     difficulty: v.union(v.literal("easy"), v.literal("medium"), v.literal("hard")),
     type: questionTypeValidator,
     reference: v.optional(v.string()),
+    meta: v.optional(v.any()),
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
