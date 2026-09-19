@@ -156,6 +156,13 @@ async function main() {
   }
   topicState.used = Array.from(usedMap.values());
 
+  // Ensure selected and rejected questions are explicitly pruned from available queue
+  const selectedSet = new Set(selectedIds);
+  const rejectedSet = new Set(rejectedEntries.map((r) => r.id));
+  topicState.available = (topicState.available || []).filter(
+    (id) => !selectedSet.has(id) && !rejectedSet.has(id)
+  );
+
   // 2. Move requeued to end of AVAILABLE queue
   const prevRequeuedMap = new Map<string, RequeuedEntry>();
   for (const r of topicState.requeued) {

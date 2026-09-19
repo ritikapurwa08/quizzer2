@@ -31,24 +31,34 @@ export async function GET(request: NextRequest) {
     const padSet = String(setNumber).padStart(3, "0");
 
     const projectRoot = process.cwd();
-    const candidatesDir = path.join(projectRoot, "data", "ddd", "candidates", `topic-${masterTopicId}`);
-    const candidateFile = path.join(candidatesDir, `candidate-set-${padSet}.json`);
+    // Support both topic-01 and topic-1 folder naming conventions
+    const candidatesDirPad = path.join(projectRoot, "data", "ddd", "candidates", `topic-${padTopic}`);
+    const candidatesDirRaw = path.join(projectRoot, "data", "ddd", "candidates", `topic-${masterTopicId}`);
+    const candidateFilePad = path.join(candidatesDirPad, `candidate-set-${padSet}.json`);
+    const candidateFileRaw = path.join(candidatesDirRaw, `candidate-set-${padSet}.json`);
+
     const poolStateFile = path.join(projectRoot, "data", "ddd", "pool-state.json");
     const topicsDir = path.join(projectRoot, "data", "ddd", "topics");
 
     let candidateQuestions: any[] = [];
 
     // 1. If candidate file already exists on disk, load it
-    if (fs.existsSync(candidateFile)) {
+    const existingCandidateFile = fs.existsSync(candidateFilePad)
+      ? candidateFilePad
+      : fs.existsSync(candidateFileRaw)
+        ? candidateFileRaw
+        : null;
+
+    if (existingCandidateFile) {
       try {
-        const fileData = JSON.parse(fs.readFileSync(candidateFile, "utf-8"));
-        candidateQuestions = fileData.questions || [];
+        const fileData = JSON.parse(fs.readFileSync(existingCandidateFile, "utf-8"));
+        candidateQuestions = fileData.candidates || fileData.questions || [];
       } catch (err) {
         console.error("Error reading candidate file:", err);
       }
     }
 
-    // 2. If no candidate file, read from pool-state.json and topic question file
+    // 2. If no candidate file on disk, read dynamically from pool-state.json excluding any USED questions
     if (candidateQuestions.length === 0 && fs.existsSync(topicsDir)) {
       try {
         // Find topic file in data/ddd/topics/
@@ -73,12 +83,26 @@ export async function GET(request: NextRequest) {
           const topicState = poolState?.topics?.[String(masterTopicId)];
           let targetIds: string[] = [];
 
+          // Collect already used IDs
+          const usedSet = new Set<string>();
+          if (Array.isArray(topicState?.used)) {
+            for (const u of topicState.used) {
+              const uid = typeof u === "object" && u !== null ? u.id : String(u);
+              if (uid) usedSet.add(uid);
+            }
+          }
+
           if (topicState?.candidate && topicState.candidate.length > 0) {
-            targetIds = topicState.candidate;
+            targetIds = topicState.candidate.filter((id: string) => !usedSet.has(id));
           } else if (topicState?.available && topicState.available.length > 0) {
-            targetIds = topicState.available.slice(0, 25);
+            // Pick next 25 available that have NEVER been used
+            const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
+            targetIds = freshAvailable.slice(0, 25);
           } else {
-            targetIds = allQuestions.slice(0, 25).map((q) => String(q.id));
+            targetIds = allQuestions
+              .map((q) => String(q.id))
+              .filter((id) => !usedSet.has(id))
+              .slice(0, 25);
           }
 
           for (const qid of targetIds) {

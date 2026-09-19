@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-09-19T10:09:29.562Z",
+  "updatedAt": "2026-09-19T10:42:03.562Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 16032,
   "totalTopicAssignedQuestions": 15837,
@@ -10,51 +10,6 @@
       "masterTopicId": 1,
       "masterTopic": "राजस्थान का सामान्य ज्ञान",
       "available": [
-        "rg_013045",
-        "rg_013046",
-        "rg_013047",
-        "rg_013048",
-        "rg_013049",
-        "rg_013050",
-        "rg_013051",
-        "rg_013052",
-        "rg_013053",
-        "rg_013054",
-        "rg_013055",
-        "rg_013056",
-        "rg_013057",
-        "rg_013058",
-        "rg_013059",
-        "rg_013060",
-        "rg_013061",
-        "rg_013062",
-        "rg_013063",
-        "rg_013064",
-        "rg_013065",
-        "rg_013066",
-        "rg_013067",
-        "rg_013068",
-        "rg_013069",
-        "rg_013070",
-        "rg_013071",
-        "rg_013072",
-        "rg_013073",
-        "rg_013074",
-        "rg_013075",
-        "rg_013076",
-        "rg_013077",
-        "rg_013078",
-        "rg_013079",
-        "rg_013080",
-        "rg_013081",
-        "rg_013082",
-        "rg_013083",
-        "rg_013084",
-        "rg_013085",
-        "rg_013086",
-        "rg_013087",
-        "rg_013088",
-        "rg_013089",
         "rg_013090",
         "rg_013091",
         "rg_013092",
@@ -96,11 +51,169 @@
         "rg_013128",
         "rg_013129"
       ],
-      "candidate": [],
-      "used": [],
-      "requeued": [],
+      "candidate": [
+        "rg_013054",
+        "rg_013056",
+        "rg_013060",
+        "rg_013063",
+        "rg_013068",
+        "rg_013070",
+        "rg_013071",
+        "rg_013072",
+        "rg_013073",
+        "rg_013074",
+        "rg_013075",
+        "rg_013076",
+        "rg_013077",
+        "rg_013078",
+        "rg_013079",
+        "rg_013080",
+        "rg_013081",
+        "rg_013082",
+        "rg_013083",
+        "rg_013084",
+        "rg_013085",
+        "rg_013086",
+        "rg_013087",
+        "rg_013088",
+        "rg_013089"
+      ],
+      "used": [
+        {
+          "id": "rg_013045",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013046",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013047",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013048",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013049",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013050",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013051",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013052",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013053",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013055",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013057",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013058",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013059",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013061",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013062",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013064",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013065",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013066",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013067",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        },
+        {
+          "id": "rg_013069",
+          "usedInSet": "topic-1-set-001",
+          "usedAt": "2026-09-19T10:41:57.420Z"
+        }
+      ],
+      "requeued": [
+        {
+          "id": "rg_013054",
+          "requeueCount": 1,
+          "lastRejectedFromSet": "topic-1-set-001",
+          "reason": "Current-set repetition"
+        },
+        {
+          "id": "rg_013056",
+          "requeueCount": 1,
+          "lastRejectedFromSet": "topic-1-set-001",
+          "reason": "Current-set repetition"
+        },
+        {
+          "id": "rg_013060",
+          "requeueCount": 1,
+          "lastRejectedFromSet": "topic-1-set-001",
+          "reason": "Current-set repetition"
+        },
+        {
+          "id": "rg_013063",
+          "requeueCount": 1,
+          "lastRejectedFromSet": "topic-1-set-001",
+          "reason": "Current-set repetition"
+        },
+        {
+          "id": "rg_013068",
+          "requeueCount": 1,
+          "lastRejectedFromSet": "topic-1-set-001",
+          "reason": "Current-set repetition"
+        }
+      ],
       "rejected": [],
-      "completedSets": 0
+      "completedSets": 1
     },
     "2": {
       "masterTopicId": 2,

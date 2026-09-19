@@ -178,8 +178,30 @@ export function ImportWizard() {
       const testSetId = result.testSetId;
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
+      // Automatically sync local pool state so local queue advances and questions are marked USED
+      if (options?.masterTopicId) {
+        try {
+          const match = subtopicName.match(/(?:भाग|Set)\s*(\d+)/i);
+          const setNumber = match ? parseInt(match[1], 10) : 1;
+          await fetch("/api/admin/finalize-local-set", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              masterTopicId: options.masterTopicId,
+              setNumber,
+              selectedQuestionIds: parsed.questions
+                .map((q) => q.meta?.sourceQuestionId || (q as any).sourceQuestionId || (q as any).id)
+                .filter(Boolean),
+              questions: parsed.questions,
+            }),
+          });
+        } catch (syncErr) {
+          console.error("Local pool state sync error:", syncErr);
+        }
+      }
+
       // Feedback
-      showToast(`✅ ${result.imported} questions imported successfully. Queue state updated.`, "success");
+      showToast(`✅ ${result.imported} questions imported successfully. Local pool state updated.`, "success");
 
       setLastImportedSet({
         id: testSetId,

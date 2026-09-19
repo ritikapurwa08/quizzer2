@@ -106,7 +106,6 @@ export default defineSchema({
   })
     .index("by_user", ["userId"])
     .index("by_user_question", ["userId", "questionId"])
-    // Enables newest-first default ordering in the wrong questions revision bank.
     .index("by_user_last_missed", ["userId", "lastMissedAt"]),
 });
 
