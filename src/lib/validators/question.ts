@@ -394,11 +394,22 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
       }
     }
 
-    // Preserve existing meta fields if present
+    // Preserve existing meta fields if present, stripping local candidate fields
     const incomingMeta = typeof raw.meta === "object" && raw.meta !== null ? { ...raw.meta } : {};
+    delete (incomingMeta as any).status;
+    delete (incomingMeta as any).candidate;
+    delete (incomingMeta as any).queueOrder;
+    delete (incomingMeta as any).claimedBy;
+    delete (incomingMeta as any).claimedAt;
+    delete (incomingMeta as any).rejectedCount;
+
     meta = {
       ...incomingMeta,
       ...(meta || {}),
+      ...(raw.source ? { source: String(raw.source).trim() } : {}),
+      ...(raw.masterTopicId ? { masterTopicId: Number(raw.masterTopicId) } : {}),
+      ...(raw.masterTopic ? { masterTopic: String(raw.masterTopic).trim() } : {}),
+      ...(raw.sourceTopic ? { sourceTopic: String(raw.sourceTopic).trim() } : {}),
       ...(sourceType ? { sourceType } : {}),
       ...(sourceQuestionId !== undefined ? { sourceQuestionId } : {}),
       ...(examVerified ? { exam: examVerified } : {}),
@@ -412,6 +423,8 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     if (!computedReference && sourceType) {
       if (examVerified) {
         computedReference = `📌 ${sourceType} — ${examVerified}${yearVerified ? ` (${yearVerified})` : ""}`;
+      } else if (raw.source === "RajasthanGyan") {
+        computedReference = `📌 RajasthanGyan`;
       } else if (sourceType !== "AI_NEW") {
         computedReference = `📌 ${sourceType}`;
       }
@@ -425,7 +438,7 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
       explanation: explanation || undefined,
       reference: computedReference || undefined,
       difficulty,
-      meta,
+      meta: Object.keys(meta).length > 0 ? meta : undefined,
     };
   } catch {
     return null;

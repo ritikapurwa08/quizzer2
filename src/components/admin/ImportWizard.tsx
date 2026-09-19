@@ -261,8 +261,7 @@ export function ImportWizard() {
         isImporting={isImporting}
         onImportClick={handleImport}
         initialMasterTopicId={urlMasterTopic ? urlMasterTopic.id : undefined}
-        initialExamPref={examPrefParam || "all"}
-        initialExamLimit={examLimitParam ? parseInt(examLimitParam, 10) : 15}
+        existingTestSets={existingTestSets}
       />
     </div>
   );

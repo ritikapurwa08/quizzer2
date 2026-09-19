@@ -302,6 +302,17 @@ export const importTestSet = mutation({
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
       .collect();
 
+    // Prevent duplicate set identity under the same topic
+    const normalizedSetName = args.name.trim().toLowerCase();
+    const existingSet = siblings.find(
+      (s) => s.name.trim().toLowerCase() === normalizedSetName
+    );
+    if (existingSet) {
+      throw new Error(
+        `इस टॉपिक में '${args.name.trim()}' नाम का टेस्ट सेट पहले से मौजूद है (Duplicate Set Identity)। कृपया दूसरा नाम या भाग संख्या चुनें।`
+      );
+    }
+
     const testSetId = await ctx.db.insert("testSets", {
       topicId: args.topicId,
       name: args.name.trim(),
@@ -313,6 +324,15 @@ export const importTestSet = mutation({
     const now = Date.now();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
+      // Sanitize meta: strip accidental candidate-status fields from production question
+      const cleanMeta = typeof q.meta === "object" && q.meta !== null ? { ...q.meta } : {};
+      delete (cleanMeta as any).status;
+      delete (cleanMeta as any).candidate;
+      delete (cleanMeta as any).claimedBy;
+      delete (cleanMeta as any).claimedAt;
+      delete (cleanMeta as any).queueOrder;
+      delete (cleanMeta as any).rejectedCount;
+
       await ctx.db.insert("questions", {
         testSetId,
         type: q.type,
@@ -323,106 +343,57 @@ export const importTestSet = mutation({
         reference: q.reference,
         difficulty: q.difficulty,
         order: i,
-        meta: q.meta,
+        meta: Object.keys(cleanMeta).length > 0 ? cleanMeta : undefined,
       });
     }
 
-    // 3. ATOMIC POOL QUEUE UPDATE:
-    // If masterTopicId is supplied, update pool questions in the same transaction
+    // 3. OPTIONAL LOCAL/LEGACY POOL SYNC:
+    // If pool tables exist in Convex with entries for this topic, update them safely
     if (args.masterTopicId) {
-      const masterTopicId = args.masterTopicId;
-      const importedSourceIds = new Set(Array.from(incomingPyqSourceIds));
-      const requeuedIds = new Set(
-        (args.requeuedSourceIds || []).map((id) => String(id).trim())
-      );
+      try {
+        const masterTopicId = args.masterTopicId;
+        const importedSourceIds = new Set(Array.from(incomingPyqSourceIds));
+        const requeuedIds = new Set(
+          (args.requeuedSourceIds || []).map((id) => String(id).trim())
+        );
 
-      // Fetch summary to get nextQueueOrder
-      const summary = await ctx.db
-        .query("poolTopicSummaries")
-        .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", masterTopicId))
-        .unique();
+        const summary = await ctx.db
+          .query("poolTopicSummaries")
+          .withIndex("by_master_topic_id", (q) => q.eq("masterTopicId", masterTopicId))
+          .unique();
 
-      let nextQueueOrder = summary ? summary.nextQueueOrder : 1000;
+        if (summary) {
+          let nextQueueOrder = summary.nextQueueOrder || 1000;
+          const poolQs = await ctx.db
+            .query("poolQuestions")
+            .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
+            .collect();
 
-      // Find pool questions for this topic
-      const poolQs = await ctx.db
-        .query("poolQuestions")
-        .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
-        .collect();
-
-      for (const pq of poolQs) {
-        const pqSid = String(pq.sourceQuestionId).trim();
-
-        if (importedSourceIds.has(pqSid)) {
-          // Successfully imported: mark USED permanently
-          await ctx.db.patch(pq._id, {
-            status: "USED",
-            usedAt: now,
-            usedTestSetId: testSetId,
-            claimedBy: undefined,
-            claimedAt: undefined,
-          });
-        } else if (requeuedIds.has(pqSid)) {
-          // Repetitive in current set: move to END of topic queue
-          await ctx.db.patch(pq._id, {
-            status: "REQUEUED",
-            queueOrder: nextQueueOrder++,
-            rejectedCount: pq.rejectedCount + 1,
-            claimedBy: undefined,
-            claimedAt: undefined,
-          });
-        } else if (args.sessionId && pq.claimedBy === args.sessionId && pq.status === "PROCESSING") {
-          // Claimed in this window but neither used nor requeued: return to AVAILABLE/REQUEUED
-          await ctx.db.patch(pq._id, {
-            status: pq.rejectedCount > 0 ? "REQUEUED" : "AVAILABLE",
-            claimedBy: undefined,
-            claimedAt: undefined,
-          });
+          if (poolQs.length > 0) {
+            for (const pq of poolQs) {
+              const pqSid = String(pq.sourceQuestionId).trim();
+              if (importedSourceIds.has(pqSid)) {
+                await ctx.db.patch(pq._id, {
+                  status: "USED",
+                  usedAt: now,
+                  usedTestSetId: testSetId,
+                  claimedBy: undefined,
+                  claimedAt: undefined,
+                });
+              } else if (requeuedIds.has(pqSid)) {
+                await ctx.db.patch(pq._id, {
+                  status: "REQUEUED",
+                  queueOrder: nextQueueOrder++,
+                  rejectedCount: pq.rejectedCount + 1,
+                  claimedBy: undefined,
+                  claimedAt: undefined,
+                });
+              }
+            }
+          }
         }
-      }
-
-      // Recalculate topic summary counts
-      const allTopicQuestions = await ctx.db
-        .query("poolQuestions")
-        .withIndex("by_topic", (q) => q.eq("masterTopicId", masterTopicId))
-        .collect();
-
-      const total = allTopicQuestions.length;
-      let used = 0;
-      let available = 0;
-      let requeued = 0;
-      let processing = 0;
-      let maxQueueOrder = 0;
-
-      for (const q of allTopicQuestions) {
-        if (q.queueOrder > maxQueueOrder) maxQueueOrder = q.queueOrder;
-        if (q.status === "USED") used++;
-        else if (q.status === "AVAILABLE") available++;
-        else if (q.status === "REQUEUED") requeued++;
-        else if (q.status === "PROCESSING") processing++;
-      }
-
-      let status: "NOT_STARTED" | "IN_PROGRESS" | "NEAR_COMPLETE" | "COMPLETED" = "NOT_STARTED";
-      if (available === 0 && requeued === 0 && processing === 0 && used > 0) {
-        status = "COMPLETED";
-      } else if (available < 20 && available + requeued < 20 && used > 0) {
-        status = "NEAR_COMPLETE";
-      } else if (used > 0 || processing > 0) {
-        status = "IN_PROGRESS";
-      }
-
-      if (summary) {
-        await ctx.db.patch(summary._id, {
-          total,
-          used,
-          available,
-          requeued,
-          processing,
-          status,
-          nextQueueOrder: Math.max(maxQueueOrder + 1, nextQueueOrder),
-          isFinalExhausted: available === 0 && requeued === 0 && processing === 0,
-          updatedAt: now,
-        });
+      } catch {
+        // Pool tables are local-first; ignore if not present in Convex
       }
     }
 

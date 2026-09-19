@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, useCallback } from "react";
-import { useQuery, useMutation } from "convex/react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import {
   ImportJson,
@@ -15,29 +15,28 @@ import {
 } from "@/lib/importParser";
 
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
-import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import {
-  Check,
-  Copy,
   AlertCircle,
   CheckCircle2,
   XCircle,
   Loader2,
   Layers,
-  Sparkles,
   FileCode,
   ShieldCheck,
-  Database,
-  RotateCcw,
-  SlidersHorizontal,
-  RefreshCw,
+  UploadCloud,
+  ChevronDown,
+  ChevronUp,
+  Eye,
+  Hash,
+  Award,
 } from "lucide-react";
-import { generateAiQuestionPrompt } from "@/lib/prompts/aiQuestionPrompt";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 
 interface Option {
@@ -71,8 +70,7 @@ interface Props {
   isImporting?: boolean;
   onImportClick?: (options?: ImportOptionsPayload) => void;
   initialMasterTopicId?: number;
-  initialExamPref?: "all" | "prefer_exam" | "limit_exam";
-  initialExamLimit?: number;
+  existingTestSets?: Array<{ _id: string; name: string }>;
 }
 
 export function QuestionImportEditor({
@@ -93,67 +91,37 @@ export function QuestionImportEditor({
   isImporting = false,
   onImportClick,
   initialMasterTopicId,
-  initialExamPref = "all",
-  initialExamLimit = 15,
+  existingTestSets = [],
 }: Props) {
   const [code, setCode] = useState(initialValue);
-  const [copied, setCopied] = useState(false);
-  const [promptOpen, setPromptOpen] = useState(false);
-  const textRef = useRef<HTMLTextAreaElement>(null);
-
-  // Persistent session id for concurrency claiming
-  const [sessionId] = useState<string>(() => {
-    if (typeof window !== "undefined") {
-      let sid = sessionStorage.getItem("quizzer_pool_session_id");
-      if (!sid) {
-        sid = "admin_session_" + Math.random().toString(36).slice(2, 10);
-        sessionStorage.setItem("quizzer_pool_session_id", sid);
-      }
-      return sid;
-    }
-    return "admin_session_default";
-  });
-
-  // Candidate Exam Controls
-  const [examPreference, setExamPreference] = useState<"all" | "prefer_exam" | "limit_exam">(initialExamPref);
-  const [examLimit, setExamLimit] = useState<number>(initialExamLimit);
-
-  // Final Set < 20 Control
   const [isFinalSet, setIsFinalSet] = useState(false);
-
-  // Candidate Window from Persistent Topic Pool
-  const [candidates, setCandidates] = useState<any[]>([]);
-  const [candidatesLoading, setCandidatesLoading] = useState(false);
-  const [candidatesError, setCandidatesError] = useState("");
-  const lastLoadedTopicRef = useRef<string>("");
-
-  const getCandidatesMutation = useMutation(api.pool.getCandidates);
+  const [previewExpanded, setPreviewExpanded] = useState(true);
+  const [confirmModalOpen, setConfirmModalOpen] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const textRef = useRef<HTMLTextAreaElement>(null);
 
   const subject = subjectsList.find((x) => x._id === selectedSubjectId);
   const topic = topicsList.find((x) => x._id === selectedTopicId);
   const subjectName = getSubjectDisplayName(subject) || "";
   const topicName = getTopicDisplayName(topic) || "";
 
-  // Derive masterTopicId
+  // Derive masterTopicId from topic name or initial prop
   const masterTopicInfo = useMemo(() => {
+    if (initialMasterTopicId) {
+      return MASTER_TOPICS_LIST.find((mt) => mt.id === initialMasterTopicId) || null;
+    }
     if (!topicName) return null;
-    return MASTER_TOPICS_LIST.find(
-      (mt) =>
-        mt.nameHindi === topicName ||
-        topicName.includes(mt.nameHindi) ||
-        mt.nameHindi.includes(topicName)
+    return (
+      MASTER_TOPICS_LIST.find(
+        (mt) =>
+          mt.nameHindi === topicName ||
+          topicName.includes(mt.nameHindi) ||
+          mt.nameHindi.includes(topicName)
+      ) || null
     );
-  }, [topicName]);
+  }, [topicName, initialMasterTopicId]);
 
   const activeMasterTopicId = initialMasterTopicId || masterTopicInfo?.id;
-
-  // Real-time topic summary from Convex
-  const topicSummary = useQuery(
-    api.pool.getTopicSummary,
-    activeMasterTopicId ? { masterTopicId: activeMasterTopicId } : "skip"
-  );
-
-  const isExhaustedTopic = Boolean(topicSummary && topicSummary.available < 20);
 
   // Reset editor text on resetKey change
   const lastResetKeyRef = useRef(resetKey ?? 0);
@@ -171,104 +139,23 @@ export function QuestionImportEditor({
     }
   }, [initialValue]);
 
-  // Load Candidate Questions from Queue Engine
-  const loadCandidates = useCallback(async () => {
-    if (!activeMasterTopicId) {
-      setCandidates([]);
-      setCandidatesError("");
-      return;
-    }
+  // Handle local file upload
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-    setCandidatesLoading(true);
-    setCandidatesError("");
-
-    try {
-      const res = await getCandidatesMutation({
-        masterTopicId: activeMasterTopicId,
-        sessionId,
-        examPreference,
-        examLimit: examPreference === "limit_exam" ? examLimit : undefined,
-        windowSize: 30,
-      });
-
-      if (res.success) {
-        setCandidates(res.candidates);
-        if (res.candidates.length === 0) {
-          setCandidatesError("इस टॉपिक पूल में कोई प्रश्न शेष नहीं हैं (Topic Exhausted)।");
-        }
-      } else {
-        setCandidates([]);
-        setCandidatesError(res.message || "कैंडिडेट प्रश्न लोड करने में त्रुटि।");
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      const content = event.target?.result;
+      if (typeof content === "string") {
+        setCode(content);
       }
-    } catch (err: any) {
-      setCandidates([]);
-      setCandidatesError(err.message || "कैंडिडेट प्रश्न लोड करने में त्रुटि।");
-    } finally {
-      setCandidatesLoading(false);
-    }
-  }, [activeMasterTopicId, sessionId, examPreference, examLimit, getCandidatesMutation]);
+    };
+    reader.readAsText(file);
+    e.target.value = "";
+  };
 
-  // Automatically fetch candidates when activeMasterTopicId changes
-  useEffect(() => {
-    if (!activeMasterTopicId) {
-      setCandidates([]);
-      setCandidatesError("");
-      lastLoadedTopicRef.current = "";
-      return;
-    }
-
-    const key = `${activeMasterTopicId}::${subtopicName}::${examPreference}::${examLimit}`;
-    if (lastLoadedTopicRef.current === key) return;
-    lastLoadedTopicRef.current = key;
-
-    loadCandidates();
-  }, [activeMasterTopicId, subtopicName, examPreference, examLimit, loadCandidates]);
-
-  // Format candidates into clean JSON for Gemini quality-control prompt
-  const candidatesJsonText = useMemo(() => {
-    if (candidates.length === 0) return "";
-    return JSON.stringify(
-      candidates.map((c) => ({
-        q: c.questionText,
-        o: c.options,
-        a: c.correctAnswer,
-        e: c.explanation || "",
-        t: c.type || "mcq",
-        sourceQuestionId: c.sourceQuestionId,
-        sourceType: "PYQ",
-        exam: c.exam || null,
-        year: c.year || null,
-        reference: c.reference || null,
-      })),
-      null,
-      2
-    );
-  }, [candidates]);
-
-  // Generate quality-control prompt embedding candidate window
-  const prompt = useMemo(
-    () =>
-      generateAiQuestionPrompt({
-        subject: subjectName || "Rajasthan General Knowledge",
-        topic: topicName || "General Topic",
-        subtopic: subtopicName || "Set 1",
-        count: isFinalSet && isExhaustedTopic && topicSummary ? topicSummary.available : 20,
-        questionsText: candidatesJsonText,
-        candidateCount: candidates.length,
-      }),
-    [
-      subjectName,
-      topicName,
-      subtopicName,
-      isFinalSet,
-      isExhaustedTopic,
-      topicSummary,
-      candidatesJsonText,
-      candidates.length,
-    ]
-  );
-
-  // Parse and validate pasted input
+  // Parse and validate pasted or uploaded input
   const parseResult = useMemo(() => {
     const trimmed = code.trim();
     if (!trimmed) {
@@ -277,18 +164,25 @@ export function QuestionImportEditor({
         parseError: "",
         isolationErrors: [] as string[],
         requeuedSourceIds: [] as Array<string | number>,
+        rawParsedObj: null as any,
       };
     }
 
-    // Attempt Stage A: Extract JSON and validate questions
     try {
       const isolation = validateAndIsolateQuestions(trimmed);
       if (isolation.validQuestions.length > 0) {
+        let rawParsedObj: any = null;
+        try {
+          rawParsedObj = JSON.parse(trimmed);
+        } catch {
+          // Plain text fallback or partial
+        }
         return {
           questions: isolation.validQuestions,
           parseError: "",
           isolationErrors: isolation.invalidQuestions.map((iq) => iq.reason),
           requeuedSourceIds: isolation.requeuedSourceIds || [],
+          rawParsedObj,
         };
       }
     } catch {
@@ -309,25 +203,89 @@ export function QuestionImportEditor({
         parseError: "",
         isolationErrors: [],
         requeuedSourceIds: [],
+        rawParsedObj: null,
       };
     }
 
     return {
       questions: [] as QuestionInput[],
-      parseError: plain.error || "प्रश्न पार्स नहीं हो सके। कृपया मान्य JSON पेस्ट करें।",
+      parseError: plain.error || "प्रश्न पार्स नहीं हो सके। कृपया मान्य JSON पेस्ट करें या फ़ाइल चुनें।",
       isolationErrors: [],
       requeuedSourceIds: [],
+      rawParsedObj: null,
     };
   }, [code, subjectName, topicName, subtopicName]);
 
-  // Stage B: In-batch quality and provenance validation
+  // Auto-detect Subject, Topic, and Set Name if present in the final set payload
+  const autoConfiguredRef = useRef<string>("");
+  useEffect(() => {
+    const raw = parseResult.rawParsedObj;
+    if (!raw) return;
+
+    // Detect masterTopicId in top-level payload or first question
+    const detectedTopicId: number | undefined =
+      raw.masterTopicId ??
+      raw.questions?.[0]?.masterTopicId ??
+      raw.questions?.[0]?.meta?.masterTopicId;
+
+    if (detectedTopicId && typeof detectedTopicId === "number") {
+      const mtInfo = MASTER_TOPICS_LIST.find((mt) => mt.id === detectedTopicId);
+      if (mtInfo) {
+        const configKey = `${detectedTopicId}_${raw.setNumber || ""}`;
+        if (autoConfiguredRef.current !== configKey) {
+          autoConfiguredRef.current = configKey;
+
+          // Auto-select matching subject if not yet matched
+          const matchedSubject = subjectsList.find(
+            (s) =>
+              s.nameHindi === mtInfo.subjectHindi ||
+              s.name === mtInfo.subjectName
+          );
+          if (matchedSubject && matchedSubject._id !== selectedSubjectId) {
+            onSubjectChangeId(matchedSubject._id);
+          }
+
+          // Auto-select matching topic
+          const matchedTopic = topicsList.find(
+            (t) =>
+              t.nameHindi === mtInfo.nameHindi ||
+              (t.nameHindi && mtInfo.nameHindi.includes(t.nameHindi))
+          );
+          if (matchedTopic && matchedTopic._id !== selectedTopicId) {
+            onTopicChangeId(matchedTopic._id);
+          }
+
+          // Auto-populate set name if setNumber is present
+          if (raw.setNumber && typeof raw.setNumber === "number") {
+            const topicLabel = mtInfo.nameHindi;
+            const expectedName = `${topicLabel} भाग ${raw.setNumber}`;
+            if (subtopicName !== expectedName) {
+              onSubtopicNameChange(expectedName);
+            }
+          }
+        }
+      }
+    }
+  }, [
+    parseResult.rawParsedObj,
+    subjectsList,
+    topicsList,
+    selectedSubjectId,
+    selectedTopicId,
+    subtopicName,
+    onSubjectChangeId,
+    onTopicChangeId,
+    onSubtopicNameChange,
+  ]);
+
+  // Quality gate checklist and structure validation
   const batchValidation: BatchValidationResult | null = useMemo(() => {
     if (!code.trim() || parseResult.questions.length === 0) return null;
     return validateImportBatch(parseResult.questions, {
-      allowFinalBelow20: Boolean(isFinalSet && isExhaustedTopic),
+      allowFinalBelow20: isFinalSet,
       isFinalSet,
     });
-  }, [code, parseResult.questions, isFinalSet, isExhaustedTopic]);
+  }, [code, parseResult.questions, isFinalSet]);
 
   // Server-side duplicate provenance check (query Convex)
   const sourceIdsForDbCheck = useMemo(() => {
@@ -341,26 +299,16 @@ export function QuestionImportEditor({
 
   const existingInDbIds = provenanceCheck?.existingSourceIds ?? [];
 
-  // Compute which candidates were repetitive or excluded to move to end of queue
-  const redundantSourceIds = useMemo(() => {
-    if (candidates.length === 0 || parseResult.questions.length === 0) return [];
-
-    const retainedSet = new Set(
-      parseResult.questions.map((q) => {
-        const sid = q.meta?.sourceQuestionId ?? (q as any).sourceQuestionId ?? (q as any).id;
-        return String(sid).trim();
-      })
+  // Duplicate Set Name check in Convex under target topic
+  const isDuplicateSetName = useMemo(() => {
+    if (!subtopicName.trim() || !existingTestSets.length) return false;
+    const cleanCurrent = subtopicName.trim().toLowerCase();
+    return existingTestSets.some(
+      (s) => s.name.trim().toLowerCase() === cleanCurrent
     );
+  }, [subtopicName, existingTestSets]);
 
-    const fromWindow = candidates
-      .map((c) => String(c.sourceQuestionId).trim())
-      .filter((id) => !retainedSet.has(id));
-
-    const explicitRequeued = (parseResult.requeuedSourceIds || []).map(String);
-    return Array.from(new Set([...fromWindow, ...explicitRequeued]));
-  }, [candidates, parseResult.questions, parseResult.requeuedSourceIds]);
-
-  // Combined error list and canImport gate
+  // Combined error list
   const allErrors = useMemo(() => {
     const errs: string[] = [];
     if (parseResult.parseError) {
@@ -377,18 +325,21 @@ export function QuestionImportEditor({
         errs.push(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${id})।`);
       }
     }
+    if (isDuplicateSetName) {
+      errs.push(`इस टॉपिक में '${subtopicName.trim()}' नाम का टेस्ट सेट पहले से मौजूद है। कृपया दूसरा नाम या भाग संख्या चुनें।`);
+    }
     return errs;
-  }, [parseResult, batchValidation, existingInDbIds]);
+  }, [parseResult, batchValidation, existingInDbIds, isDuplicateSetName, subtopicName]);
 
   const isExact20 = parseResult.questions.length === 20;
-  const isCountValid =
-    isExact20 || (Boolean(isFinalSet && isExhaustedTopic) && parseResult.questions.length > 0);
+  const isCountValid = isExact20 || (isFinalSet && parseResult.questions.length > 0);
   const hasNoDbCollisions = existingInDbIds.length === 0;
 
   const canImport =
     isCountValid &&
     batchValidation?.isValid === true &&
     allErrors.length === 0 &&
+    !isDuplicateSetName &&
     Boolean(selectedTopicId) &&
     Boolean(subtopicName.trim()) &&
     !isImporting;
@@ -432,24 +383,25 @@ export function QuestionImportEditor({
     onChange,
   ]);
 
-  function copyPrompt() {
-    navigator.clipboard.writeText(prompt);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
-  }
-
   const detectedCount = parseResult.questions.length;
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-6">
       {/* 1. Target Configuration */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
-          <div className="flex items-center gap-2">
-            <Layers className="h-4 w-4 text-primary" />
-            <CardTitle className="text-sm font-bold tracking-tight">
-              1. Target Configuration / विषय एवं सेट चयन
-            </CardTitle>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Layers className="h-4 w-4 text-primary" />
+              <CardTitle className="text-sm font-bold tracking-tight">
+                1. Target Configuration / विषय एवं सेट चयन
+              </CardTitle>
+            </div>
+            {activeMasterTopicId && (
+              <Badge variant="outline" className="text-[11px] font-hindi font-medium">
+                Master Topic #{activeMasterTopicId}
+              </Badge>
+            )}
           </div>
         </CardHeader>
         <CardContent className="grid gap-3.5 p-4 sm:p-6 sm:grid-cols-2">
@@ -481,9 +433,19 @@ export function QuestionImportEditor({
             <input
               value={subtopicName}
               onChange={(e) => onSubtopicNameChange(e.target.value)}
-              placeholder="e.g. राजस्थान के प्रमुख उद्योग भाग 1"
-              className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors"
+              placeholder="उदा. राजस्थान के प्रमुख उद्योग भाग 1"
+              className={cn(
+                "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors",
+                isDuplicateSetName
+                  ? "border-destructive text-destructive focus:ring-destructive"
+                  : "border-input"
+              )}
             />
+            {isDuplicateSetName && (
+              <p className="text-[11px] font-medium text-destructive mt-1">
+                ⚠️ यह सेट नाम इस टॉपिक में पहले से मौजूद है।
+              </p>
+            )}
           </div>
           <div className="flex items-center sm:pt-6">
             <label className="flex items-center gap-2.5 text-sm font-medium cursor-pointer select-none">
@@ -493,200 +455,13 @@ export function QuestionImportEditor({
                 onChange={(e) => onNegativeMarkingChange(e.target.checked)}
                 className="h-4 w-4 rounded-sm border-border text-primary focus:ring-primary"
               />
-              <span>Negative Marking (-0.33)</span>
+              <span>Negative Marking (-0.33 RPSC Standard)</span>
             </label>
           </div>
         </CardContent>
       </Card>
 
-      {/* 2. Candidate Queue & Exam Controls */}
-      <Card className="rounded-2xl border-border/70 shadow-xs">
-        <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-            <div className="flex items-center gap-2">
-              <Database className="h-4 w-4 text-primary" />
-              <CardTitle className="text-sm font-bold tracking-tight">
-                2. Topic Question Pool &amp; Candidate Buffer
-              </CardTitle>
-            </div>
-            {topicSummary && (
-              <div className="flex items-center gap-2 text-xs">
-                <Badge variant="outline" className="font-hindi text-[11px]">
-                  Topic #{topicSummary.masterTopicId}
-                </Badge>
-                <Badge className="bg-success/15 text-success border-success/30 font-semibold text-[11px]">
-                  Available: {topicSummary.available}
-                </Badge>
-                <Badge variant="outline" className="text-muted-foreground text-[11px]">
-                  Used: {topicSummary.used}
-                </Badge>
-              </div>
-            )}
-          </div>
-        </CardHeader>
-        <CardContent className="p-4 sm:p-6 space-y-4">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div>
-              <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
-                Exam Question Filter (परीक्षा प्रश्न नियंत्रण)
-              </label>
-              <select
-                value={examPreference}
-                onChange={(e) => setExamPreference(e.target.value as any)}
-                className="h-10 w-full rounded-xl border border-input bg-card px-3 text-xs font-medium focus:outline-hidden focus:ring-2 focus:ring-ring"
-              >
-                <option value="all">Automatic (Queue Order)</option>
-                <option value="prefer_exam">Prefer Exam Questions</option>
-                <option value="limit_exam">Limit Exam Questions</option>
-              </select>
-            </div>
-
-            {examPreference === "limit_exam" && (
-              <div>
-                <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
-                  Max Exam Questions
-                </label>
-                <input
-                  type="number"
-                  min={1}
-                  max={30}
-                  value={examLimit}
-                  onChange={(e) => setExamLimit(parseInt(e.target.value, 10) || 15)}
-                  className="h-10 w-full rounded-xl border border-input bg-card px-3 text-xs font-medium focus:outline-hidden focus:ring-2 focus:ring-ring"
-                />
-              </div>
-            )}
-
-            <div className="flex items-end">
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={loadCandidates}
-                disabled={candidatesLoading || !activeMasterTopicId}
-                className="h-10 text-xs font-semibold rounded-xl gap-1.5 shadow-2xs w-full"
-              >
-                {candidatesLoading ? (
-                  <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                ) : (
-                  <RefreshCw className="h-3.5 w-3.5" />
-                )}
-                <span>Reload Candidates (पूल से पुनः लोड करें)</span>
-              </Button>
-            </div>
-          </div>
-
-          {/* Candidate Status Banner */}
-          <div className="flex flex-wrap items-center gap-2">
-            {candidatesLoading ? (
-              <Badge
-                variant="outline"
-                className="text-xs font-medium py-1 px-2.5 gap-1.5 text-muted-foreground animate-pulse"
-              >
-                <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                पूल से 25–30 कैंडिडेट प्रश्न लोड हो रहे हैं…
-              </Badge>
-            ) : candidates.length > 0 ? (
-              <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1.5">
-                <CheckCircle2 className="h-3.5 w-3.5" />
-                <span>
-                  Candidate Buffer Ready: <strong>{candidates.length} प्रश्न</strong> पूल कतार से स्वतः Prompt में शामिल हैं
-                </span>
-              </Badge>
-            ) : null}
-          </div>
-
-          {candidatesError && (
-            <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10 py-2.5 px-3.5">
-              <AlertCircle className="h-4 w-4" />
-              <AlertDescription className="text-xs font-medium">
-                {candidatesError}
-              </AlertDescription>
-            </Alert>
-          )}
-
-          {/* Final Set (<20) Explicit Confirmation Control */}
-          {isExhaustedTopic && (
-            <div className="p-3.5 rounded-xl bg-warning/10 border border-warning/30 space-y-2">
-              <div className="flex items-center gap-2">
-                <AlertCircle className="h-4 w-4 text-warning shrink-0" />
-                <p className="text-xs font-bold text-foreground">
-                  Final Topic Set Exception (अंतिम सेट छूट)
-                </p>
-              </div>
-              <p className="text-[11px] text-muted-foreground leading-relaxed">
-                इस टॉपिक में केवल <strong>{topicSummary?.available} प्रश्न</strong> शेष हैं। सामान्य 20 प्रश्नों का सेट पूरा नहीं हो सकता। यदि आप इस अंतिम सेट को 20 से कम प्रश्नों के साथ आयात करना चाहते हैं, तो नीचे पुष्टि करें:
-              </p>
-              <label className="flex items-center gap-2.5 text-xs font-bold text-warning-foreground cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={isFinalSet}
-                  onChange={(e) => setIsFinalSet(e.target.checked)}
-                  className="h-4 w-4 rounded-sm border-border text-primary focus:ring-primary"
-                />
-                <span>Allow Final Set with fewer than 20 questions ({topicSummary?.available} questions)</span>
-              </label>
-            </div>
-          )}
-        </CardContent>
-      </Card>
-
-      {/* 3. Gemini Prompt */}
-      <Card className="rounded-2xl border-border/70 shadow-xs">
-        <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
-          <div className="flex items-center justify-between gap-2">
-            <div className="flex items-center gap-2 min-w-0">
-              <Sparkles className="h-4 w-4 text-warning" />
-              <CardTitle className="text-sm font-bold tracking-tight">
-                3. Quality-Control Prompt (Gemini AI)
-              </CardTitle>
-            </div>
-            <div className="flex items-center gap-2 shrink-0">
-              <Button
-                type="button"
-                variant="ghost"
-                size="sm"
-                onClick={() => setPromptOpen(!promptOpen)}
-                className="h-8 text-xs text-muted-foreground hover:text-foreground"
-              >
-                {promptOpen ? "Hide Preview" : "Show Preview"}
-              </Button>
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={copyPrompt}
-                className="h-8 text-xs font-semibold rounded-xl gap-1.5 shadow-2xs"
-              >
-                {copied ? (
-                  <>
-                    <Check className="h-3.5 w-3.5 text-success" />
-                    Copied!
-                  </>
-                ) : (
-                  <>
-                    <Copy className="h-3.5 w-3.5" />
-                    Copy Prompt
-                  </>
-                )}
-              </Button>
-            </div>
-          </div>
-        </CardHeader>
-        <CardContent className="p-4 sm:p-6 space-y-3">
-          <p className="text-xs text-muted-foreground">
-            Copy Prompt पर क्लिक करने पर इस टॉपिक के सभी <strong>{candidates.length} कैंडिडेट प्रश्न</strong> Prompt में स्वतः शामिल हो जाते हैं। Gemini व्याकरण/OCR सुधारेगा, पुनरावृत्ति हटाएगा, और ठीक 20 प्रश्नों का सेट तैयार करेगा।
-          </p>
-
-          {promptOpen && (
-            <pre className="mt-2 max-h-56 overflow-auto whitespace-pre-wrap rounded-xl bg-muted/60 border border-border/50 p-3.5 font-mono text-[11px] leading-relaxed text-muted-foreground animate-in fade-in-0 duration-150">
-              {prompt}
-            </pre>
-          )}
-        </CardContent>
-      </Card>
-
-      {/* 4. Gemini Response (Textarea) */}
+      {/* 2. Final Approved JSON Input */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
@@ -694,68 +469,223 @@ export function QuestionImportEditor({
               <div className="flex items-center gap-2">
                 <FileCode className="h-4 w-4 text-primary" />
                 <CardTitle className="text-sm font-bold tracking-tight">
-                  4. Gemini JSON Response
+                  2. Approved Set Input (अंतिम अनुमोदित सेट)
                 </CardTitle>
               </div>
               <p className="text-xs text-muted-foreground">
-                Paste the clean JSON response from Gemini. Quizzer will validate it before import.
+                स्थानीय रूप से तैयार किया गया 20 प्रश्नों का अंतिम JSON सेट पेस्ट करें या फ़ाइल चुनें।
               </p>
             </div>
-            <div className="shrink-0 flex items-center">
-              {detectedCount === 0 ? (
-                <Badge variant="outline" className="text-xs font-medium text-muted-foreground py-1 px-2.5">
-                  0 / 20 प्रश्न
-                </Badge>
-              ) : isCountValid ? (
-                <Badge className="bg-success/15 text-success border-success/30 text-xs font-semibold py-1 px-2.5 gap-1">
-                  <CheckCircle2 className="h-3.5 w-3.5" /> {detectedCount} / {isExact20 ? 20 : detectedCount} प्रश्न तैयार हैं ✓
-                </Badge>
-              ) : (
-                <Badge variant="destructive" className="text-xs font-semibold py-1 px-2.5 gap-1">
-                  <AlertCircle className="h-3.5 w-3.5" /> 20 प्रश्न आवश्यक हैं। अभी {detectedCount} मिले हैं।
-                </Badge>
+            <div className="flex items-center gap-2 shrink-0">
+              <input
+                type="file"
+                ref={fileInputRef}
+                accept=".json,application/json"
+                onChange={handleFileUpload}
+                className="hidden"
+              />
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => fileInputRef.current?.click()}
+                className="h-8 text-xs font-semibold rounded-xl gap-1.5 shadow-2xs"
+              >
+                <UploadCloud className="h-3.5 w-3.5" />
+                <span>Choose JSON File</span>
+              </Button>
+              {code.trim().length > 0 && (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="sm"
+                  onClick={() => setCode("")}
+                  className="h-8 text-xs text-muted-foreground hover:text-foreground"
+                >
+                  Clear
+                </Button>
               )}
             </div>
           </div>
         </CardHeader>
-        <CardContent className="p-4 sm:p-6">
+        <CardContent className="p-4 sm:p-6 space-y-3">
           <div className="relative rounded-xl border border-input bg-card shadow-2xs transition-colors focus-within:ring-2 focus-within:ring-ring focus-within:border-ring overflow-hidden">
             <textarea
               ref={textRef}
               value={code}
               onChange={(e) => setCode(e.target.value)}
-              placeholder={`[\n  {\n    "q": "प्रश्न पाठ...",\n    "o": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],\n    "a": 0,\n    "e": "प्रमाणिक व्याख्या...",\n    "t": "mcq",\n    "sourceType": "PYQ",\n    "sourceQuestionId": "rg_000001",\n    "exam": "REET",\n    "year": 2022,\n    "reference": "📌 PYQ — REET (2022)"\n  }\n]`}
+              placeholder={`{\n  "setId": "topic-17-set-001",\n  "masterTopicId": 17,\n  "masterTopic": "राजस्थान के प्रमुख उद्योग",\n  "setNumber": 1,\n  "questions": [\n    {\n      "id": "rg_004945",\n      "question": "राजस्थान में सफेद सीमेंट का प्रथम कारखाना कहाँ स्थापित हुआ?",\n      "options": ["गोटन", "खारिया खंगार", "ब्यावर", "चित्तौड़गढ़"],\n      "answer": 0,\n      "explanation": "राजस्थान में सफेद सीमेंट का पहला कारखाना 1984 में गोटन (नागौर) में जेके व्हाइट सीमेंट द्वारा स्थापित किया गया था।",\n      "exam": "REET",\n      "year": 2021\n    }\n  ]\n}`}
               spellCheck={false}
-              className="w-full min-h-[360px] max-h-[580px] resize-y bg-transparent p-4 font-mono text-xs sm:text-sm leading-relaxed text-foreground placeholder:text-muted-foreground/40 focus:outline-hidden whitespace-pre overflow-x-auto"
+              className="w-full min-h-[220px] max-h-[400px] resize-y bg-transparent p-4 font-mono text-xs leading-relaxed text-foreground placeholder:text-muted-foreground/40 focus:outline-hidden whitespace-pre overflow-x-auto"
             />
+          </div>
+
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
+            <span>
+              {detectedCount === 0 ? (
+                "कोई प्रश्न नहीं मिला"
+              ) : isCountValid ? (
+                <span className="text-success font-semibold flex items-center gap-1">
+                  <CheckCircle2 className="h-3.5 w-3.5" /> {detectedCount} प्रश्न पार्स हुए
+                </span>
+              ) : (
+                <span className="text-destructive font-semibold flex items-center gap-1">
+                  <AlertCircle className="h-3.5 w-3.5" /> {detectedCount} / 20 प्रश्न
+                </span>
+              )}
+            </span>
+            <label className="flex items-center gap-1.5 cursor-pointer select-none text-[11px]">
+              <input
+                type="checkbox"
+                checked={isFinalSet}
+                onChange={(e) => setIsFinalSet(e.target.checked)}
+                className="h-3.5 w-3.5 rounded-sm border-border text-primary"
+              />
+              <span>Allow Final Set &lt; 20 (अंतिम सेट छूट)</span>
+            </label>
           </div>
         </CardContent>
       </Card>
 
-      {/* 5. Requeued Questions Banner (FIFO Requeueing) */}
-      {redundantSourceIds.length > 0 && (
-        <Card className="rounded-2xl border-border/70 shadow-xs bg-warning/5 border-warning/20">
-          <CardContent className="p-4 flex items-start gap-3">
-            <RotateCcw className="h-5 w-5 text-warning shrink-0 mt-0.5" />
-            <div className="space-y-1">
-              <p className="text-xs font-bold text-foreground">
-                Queue Requeueing ({redundantSourceIds.length} Repetitive Questions Return to Queue End)
-              </p>
-              <p className="text-[11px] text-muted-foreground leading-relaxed">
-                इस सेट में शामिल न किए गए {redundantSourceIds.length} प्रश्न स्थायी रूप से नष्ट नहीं होंगे। Import करने पर इन्हें इस टॉपिक की कतार के <strong>अंत (End of Queue)</strong> में पुनः जोड़ दिया जाएगा ताकि भविष्य के सेट्स में इनका उपयोग किया जा सके।
-              </p>
+      {/* 3. Interactive Question-by-Question PREVIEW */}
+      {parseResult.questions.length > 0 && (
+        <Card className="rounded-2xl border-border/70 shadow-xs overflow-hidden">
+          <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40 bg-muted/20">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Eye className="h-4 w-4 text-primary" />
+                <CardTitle className="text-sm font-bold tracking-tight">
+                  3. Set Preview (प्रश्नों का पूर्वावलोकन — कुल {detectedCount} प्रश्न)
+                </CardTitle>
+              </div>
+              <Button
+                type="button"
+                variant="ghost"
+                size="sm"
+                onClick={() => setPreviewExpanded(!previewExpanded)}
+                className="h-8 text-xs font-semibold gap-1 text-muted-foreground hover:text-foreground"
+              >
+                {previewExpanded ? (
+                  <>
+                    <ChevronUp className="h-3.5 w-3.5" />
+                    <span>Collapse All</span>
+                  </>
+                ) : (
+                  <>
+                    <ChevronDown className="h-3.5 w-3.5" />
+                    <span>Expand All</span>
+                  </>
+                )}
+              </Button>
             </div>
-          </CardContent>
+          </CardHeader>
+
+          {previewExpanded && (
+            <CardContent className="p-4 sm:p-6 space-y-4 max-h-[600px] overflow-y-auto divide-y divide-border/40">
+              {parseResult.questions.map((q, idx) => {
+                const qNum = idx + 1;
+                const sourceId =
+                  q.meta?.sourceQuestionId ??
+                  (q as any).sourceQuestionId ??
+                  (q as any).id;
+                const exam = q.meta?.exam ?? (q as any).exam;
+                const year = q.meta?.year ?? (q as any).year;
+                const correctOptId = q.correctAnswer;
+
+                return (
+                  <div key={idx} className={cn("space-y-2.5", idx > 0 && "pt-4")}>
+                    {/* Header: Number, Source ID, Exam, Difficulty */}
+                    <div className="flex flex-wrap items-center justify-between gap-1.5">
+                      <div className="flex items-center gap-2">
+                        <span className="flex items-center justify-center h-6 w-6 rounded-md bg-primary/10 text-primary font-bold text-xs">
+                          {qNum}
+                        </span>
+                        {sourceId && (
+                          <Badge variant="outline" className="text-[10.5px] font-mono gap-1">
+                            <Hash className="h-3 w-3 text-muted-foreground" />
+                            {String(sourceId)}
+                          </Badge>
+                        )}
+                        {exam && (
+                          <Badge variant="secondary" className="text-[10px] font-hindi">
+                            <Award className="h-3 w-3 mr-0.5 text-warning" />
+                            {String(exam)} {year ? `(${year})` : ""}
+                          </Badge>
+                        )}
+                      </div>
+                      <Badge variant="outline" className="text-[10px] uppercase font-semibold">
+                        {q.type} · {q.difficulty}
+                      </Badge>
+                    </div>
+
+                    {/* Question Text */}
+                    <p className="text-sm font-hindi font-medium text-foreground leading-relaxed">
+                      {q.questionText}
+                    </p>
+
+                    {/* 4 Options Grid */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                      {q.options.map((opt, oIdx) => {
+                        const isCorrect =
+                          opt.id === correctOptId ||
+                          (typeof correctOptId === "string" &&
+                            correctOptId.toLowerCase() === opt.id.toLowerCase());
+
+                        return (
+                          <div
+                            key={opt.id || oIdx}
+                            className={cn(
+                              "flex items-center justify-between px-3 py-2 rounded-xl text-xs font-hindi transition-colors border",
+                              isCorrect
+                                ? "bg-success/15 border-success/40 text-success-foreground font-semibold"
+                                : "bg-muted/40 border-border/60 text-foreground"
+                            )}
+                          >
+                            <span className="flex items-center gap-2">
+                              <span
+                                className={cn(
+                                  "h-5 w-5 rounded-full flex items-center justify-center text-[10px] font-bold shrink-0",
+                                  isCorrect
+                                    ? "bg-success text-success-foreground"
+                                    : "bg-muted text-muted-foreground"
+                                )}
+                              >
+                                {oIdx + 1}
+                              </span>
+                              <span>{opt.text}</span>
+                            </span>
+                            {isCorrect && (
+                              <Badge className="bg-success text-success-foreground text-[10px] px-1.5 py-0.2 rounded-md font-hindi ml-2 shrink-0">
+                                सही उत्तर ✓
+                              </Badge>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+
+                    {/* Explanation */}
+                    {q.explanation && (
+                      <div className="mt-2 p-2.5 rounded-xl bg-muted/50 border border-border/50 text-xs font-hindi text-muted-foreground leading-relaxed">
+                        <span className="font-bold text-foreground">व्याख्या: </span>
+                        {q.explanation}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </CardContent>
+          )}
         </Card>
       )}
 
-      {/* 6. Import Quality Gate & Checklist */}
+      {/* 4. Import Quality Gate & Checklist */}
       <Card className="rounded-2xl border-border/70 shadow-xs">
         <CardHeader className="pb-3 pt-4 px-4 sm:px-6 border-b border-border/40">
           <div className="flex items-center gap-2">
             <ShieldCheck className="h-4 w-4 text-primary" />
             <CardTitle className="text-sm font-bold tracking-tight">
-              5. Import Quality Gate / गुणवत्ता परीक्षण
+              4. Import Quality Gate / पूर्व-सत्यापन
             </CardTitle>
           </div>
         </CardHeader>
@@ -768,9 +698,9 @@ export function QuestionImportEditor({
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
               <span>
-                {isFinalSet && isExhaustedTopic
+                {isFinalSet
                   ? `अंतिम सेट स्वीकार्य (मिले: ${detectedCount} प्रश्न)`
-                  : `20 प्रश्न आवश्यक (मिले: ${detectedCount} / 20)`}
+                  : `ठीक 20 प्रश्न आवश्यक (मिले: ${detectedCount} / 20)`}
               </span>
             </div>
 
@@ -780,7 +710,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>वैध प्रश्न एवं विकल्प संरचना (4 options per MCQ)</span>
+              <span>मान्य प्रश्न एवं विकल्प संरचना (4 विकल्प)</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -789,7 +719,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>प्रत्येक प्रश्न के विकल्प अद्वितीय (Unique options)</span>
+              <span>प्रत्येक प्रश्न के विकल्प अद्वितीय</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -798,7 +728,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>सही उत्तर का सूचकांक मान्य (Answer index 0–3)</span>
+              <span>मान्य सही उत्तर (Correct Answer Verified)</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -807,7 +737,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>व्याख्या अनिवार्य (Explanations present)</span>
+              <span>प्रमाणिक व्याख्या अनिवार्य (Explanations)</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -816,7 +746,7 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>सेट के अंदर कोई दोहराव नहीं (No duplicates in set)</span>
+              <span>सेट के भीतर कोई दोहराव नहीं</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
@@ -825,11 +755,11 @@ export function QuestionImportEditor({
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
               )}
-              <span>Source IDs सत्यापित (Unique sourceQuestionId)</span>
+              <span>सेट के भीतर Source ID अद्वितीय</span>
             </div>
 
             <div className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/40 border border-border/40">
-              {hasNoDbCollisions ? (
+              {hasNoDbCollisions && !isDuplicateSetName ? (
                 <CheckCircle2 className="h-4 w-4 text-success shrink-0" />
               ) : (
                 <XCircle className="h-4 w-4 text-destructive shrink-0" />
@@ -862,45 +792,55 @@ export function QuestionImportEditor({
             <div className="flex items-center gap-2 p-3 rounded-xl bg-success/15 border border-success/30 text-success text-xs font-semibold">
               <CheckCircle2 className="h-4 w-4 shrink-0" />
               <span>
-                सभी {detectedCount} प्रश्न गुणवत्ता मानकों के अनुरूप हैं। अब आप इन्हें सुरक्षित रूप से आयात कर सकते हैं।
+                सभी {detectedCount} प्रश्न गुणवत्ता एवं अद्वितीयता मानकों पर खरे उतरे हैं।
               </span>
             </div>
           )}
         </CardContent>
       </Card>
 
-      {/* 7. Final Import Button */}
+      {/* 5. Two-Step Confirmation Trigger Button */}
       <div className="space-y-2">
         <Button
           type="button"
-          onClick={() =>
-            onImportClick?.({
-              isFinalSet,
-              masterTopicId: activeMasterTopicId,
-              requeuedSourceIds: redundantSourceIds,
-              sessionId,
-            })
-          }
+          onClick={() => setConfirmModalOpen(true)}
           disabled={!canImport}
           className="h-12 w-full rounded-xl text-sm font-bold shadow-xs transition-all"
         >
           {isImporting ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Importing Questions &amp; Updating Pool Queue…
+              Convex में प्रश्न सेट प्रकाशित हो रहा है…
             </>
           ) : (
-            `✓ Import ${detectedCount} Questions (${subtopicName || "Current Set"})`
+            `✓ Review & Import ${detectedCount} Questions (${subtopicName || "Current Set"})`
           )}
         </Button>
         {!canImport && code.trim().length > 0 && (
           <p className="text-center text-[11px] text-muted-foreground">
-            {isFinalSet && isExhaustedTopic
-              ? "अंतिम सेट के प्रश्नों की पुष्टि होने पर Import बटन सक्षम होगा।"
-              : "सभी validation checks (ठीक 20 प्रश्न, वैध विकल्प, अद्वितीय Source ID) पास होने पर ही Import बटन सक्षम होगा।"}
+            सभी validation checks (ठीक 20 प्रश्न, 4 विकल्प, अद्वितीय Source ID, अद्वितीय सेट नाम) पास होने पर ही Import बटन सक्रिय होगा।
           </p>
         )}
       </div>
+
+      {/* Confirmation Modal before Convex Mutation */}
+      <ConfirmDialog
+        open={confirmModalOpen}
+        onOpenChange={setConfirmModalOpen}
+        title="प्रश्न सेट प्रकाशित करें (Publish Question Set)?"
+        description={`विषय: ${subjectName}\nटॉपिक: ${topicName}\nसेट: ${subtopicName.trim()}\nकुल प्रश्न: ${detectedCount}\n\nयह क्रिया Convex डेटाबेस में 1 नया टेस्ट सेट और ${detectedCount} प्रश्न स्थायी रूप से जोड़ेगी। क्या आप आगे बढ़ना चाहते हैं?`}
+        confirmLabel="पुष्टि करें एवं Convex में आयात करें"
+        variant="default"
+        isLoading={isImporting}
+        loadingLabel="Convex में सेव हो रहा है…"
+        onConfirm={async () => {
+          setConfirmModalOpen(false);
+          onImportClick?.({
+            isFinalSet,
+            masterTopicId: activeMasterTopicId,
+          });
+        }}
+      />
     </div>
   );
 }

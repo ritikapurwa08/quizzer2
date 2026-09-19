@@ -1,19 +1,15 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
+  "updatedAt": "2026-09-19T10:09:29.562Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 16032,
   "totalTopicAssignedQuestions": 15837,
   "totalQuestionLevelSplit": 195,
-  "totalAvailable": 15837,
-  "totalUsed": 0,
-  "totalRequeued": 0,
-  "totalRejected": 0,
   "topics": {
     "1": {
       "masterTopicId": 1,
       "masterTopic": "राजस्थान का सामान्य ज्ञान",
-      "totalAvailable": 85,
-      "queue": [
+      "available": [
         "rg_013045",
         "rg_013046",
         "rg_013047",
@@ -100,15 +96,16 @@
         "rg_013128",
         "rg_013129"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "2": {
       "masterTopicId": 2,
       "masterTopic": "राजस्थान का भौतिक स्वरूप एवं भूगोल",
-      "totalAvailable": 977,
-      "queue": [
+      "available": [
         "rg_000001",
         "rg_000002",
         "rg_000003",
@@ -1087,15 +1084,16 @@
         "rg_013043",
         "rg_013044"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "3": {
       "masterTopicId": 3,
       "masterTopic": "राजस्थान की जलवायु",
-      "totalAvailable": 306,
-      "queue": [
+      "available": [
         "rg_000256",
         "rg_000257",
         "rg_000258",
@@ -1403,24 +1401,26 @@
         "rg_000560",
         "rg_000561"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "4": {
       "masterTopicId": 4,
       "masterTopic": "राजस्थान के जिले एवं संभाग",
-      "totalAvailable": 0,
-      "queue": [],
+      "available": [],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "5": {
       "masterTopicId": 5,
       "masterTopic": "राजस्थान की जनसंख्या एवं जनगणना",
-      "totalAvailable": 361,
-      "queue": [
+      "available": [
         "rg_008345",
         "rg_008346",
         "rg_008347",
@@ -1783,15 +1783,16 @@
         "rg_008704",
         "rg_008705"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "6": {
       "masterTopicId": 6,
       "masterTopic": "राजस्थान की मृदा",
-      "totalAvailable": 246,
-      "queue": [
+      "available": [
         "rg_013130",
         "rg_013131",
         "rg_013132",
@@ -2039,15 +2040,16 @@
         "rg_013374",
         "rg_013375"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "7": {
       "masterTopicId": 7,
       "masterTopic": "राजस्थान की नदियाँ एवं जल संसाधन",
-      "totalAvailable": 503,
-      "queue": [
+      "available": [
         "rg_003045",
         "rg_003046",
         "rg_003047",
@@ -2552,15 +2554,16 @@
         "rg_003546",
         "rg_003547"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "8": {
       "masterTopicId": 8,
       "masterTopic": "राजस्थान की झीलें",
-      "totalAvailable": 258,
-      "queue": [
+      "available": [
         "rg_013376",
         "rg_013377",
         "rg_013378",
@@ -2820,15 +2823,16 @@
         "rg_013632",
         "rg_013633"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "9": {
       "masterTopicId": 9,
       "masterTopic": "राजस्थान की सिंचाई एवं सिंचाई परियोजनाएँ",
-      "totalAvailable": 438,
-      "queue": [
+      "available": [
         "rg_003548",
         "rg_003549",
         "rg_003550",
@@ -3268,15 +3272,16 @@
         "rg_003984",
         "rg_003985"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "10": {
       "masterTopicId": 10,
       "masterTopic": "राजस्थान के वन एवं वन्यजीव",
-      "totalAvailable": 716,
-      "queue": [
+      "available": [
         "rg_006014",
         "rg_006015",
         "rg_006016",
@@ -3994,24 +3999,26 @@
         "rg_014019",
         "rg_014020"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "11": {
       "masterTopicId": 11,
       "masterTopic": "राजस्थान के अभयारण्य एवं राष्ट्रीय उद्यान",
-      "totalAvailable": 0,
-      "queue": [],
+      "available": [],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "12": {
       "masterTopicId": 12,
       "masterTopic": "राजस्थान में मरुस्थलीकरण",
-      "totalAvailable": 98,
-      "queue": [
+      "available": [
         "rg_014681",
         "rg_014682",
         "rg_014683",
@@ -4111,15 +4118,16 @@
         "rg_014777",
         "rg_014778"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "13": {
       "masterTopicId": 13,
       "masterTopic": "राजस्थान की कृषि",
-      "totalAvailable": 409,
-      "queue": [
+      "available": [
         "rg_005312",
         "rg_005313",
         "rg_005314",
@@ -4530,15 +4538,16 @@
         "rg_005719",
         "rg_005720"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "14": {
       "masterTopicId": 14,
       "masterTopic": "राजस्थान का पशुपालन",
-      "totalAvailable": 293,
-      "queue": [
+      "available": [
         "rg_005721",
         "rg_005722",
         "rg_005723",
@@ -4833,15 +4842,16 @@
         "rg_006012",
         "rg_006013"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "15": {
       "masterTopicId": 15,
       "masterTopic": "राजस्थान के खनिज संसाधन",
-      "totalAvailable": 421,
-      "queue": [
+      "available": [
         "rg_007924",
         "rg_007925",
         "rg_007926",
@@ -5264,15 +5274,16 @@
         "rg_008343",
         "rg_008344"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "16": {
       "masterTopicId": 16,
       "masterTopic": "राजस्थान के ऊर्जा संसाधन",
-      "totalAvailable": 176,
-      "queue": [
+      "available": [
         "rg_011653",
         "rg_011654",
         "rg_011655",
@@ -5450,40 +5461,16 @@
         "rg_011827",
         "rg_011828"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "17": {
       "masterTopicId": 17,
       "masterTopic": "राजस्थान के प्रमुख उद्योग",
-      "totalAvailable": 367,
-      "queue": [
-        "rg_004945",
-        "rg_004946",
-        "rg_004947",
-        "rg_004948",
-        "rg_004949",
-        "rg_004950",
-        "rg_004951",
-        "rg_004952",
-        "rg_004953",
-        "rg_004954",
-        "rg_004955",
-        "rg_004956",
-        "rg_004957",
-        "rg_004958",
-        "rg_004959",
-        "rg_004960",
-        "rg_004961",
-        "rg_004962",
-        "rg_004963",
-        "rg_004964",
-        "rg_004965",
-        "rg_004966",
-        "rg_004967",
-        "rg_004968",
-        "rg_004969",
+      "available": [
         "rg_004970",
         "rg_004971",
         "rg_004972",
@@ -5827,15 +5814,42 @@
         "rg_005310",
         "rg_005311"
       ],
+      "candidate": [
+        "rg_004945",
+        "rg_004946",
+        "rg_004947",
+        "rg_004948",
+        "rg_004949",
+        "rg_004950",
+        "rg_004951",
+        "rg_004952",
+        "rg_004953",
+        "rg_004954",
+        "rg_004955",
+        "rg_004956",
+        "rg_004957",
+        "rg_004958",
+        "rg_004959",
+        "rg_004960",
+        "rg_004961",
+        "rg_004962",
+        "rg_004963",
+        "rg_004964",
+        "rg_004965",
+        "rg_004966",
+        "rg_004967",
+        "rg_004968",
+        "rg_004969"
+      ],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "18": {
       "masterTopicId": 18,
       "masterTopic": "राजस्थान का परिवहन",
-      "totalAvailable": 182,
-      "queue": [
+      "available": [
         "rg_010589",
         "rg_010590",
         "rg_010591",
@@ -6019,15 +6033,16 @@
         "rg_010769",
         "rg_010770"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "19": {
       "masterTopicId": 19,
       "masterTopic": "राजस्थान का पर्यटन",
-      "totalAvailable": 593,
-      "queue": [
+      "available": [
         "rg_003986",
         "rg_003987",
         "rg_003988",
@@ -6622,15 +6637,16 @@
         "rg_004577",
         "rg_004578"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "20": {
       "masterTopicId": 20,
       "masterTopic": "राजस्थान के पारंपरिक जल स्रोत एवं जल प्रबंधन",
-      "totalAvailable": 31,
-      "queue": [
+      "available": [
         "rg_014828",
         "rg_014829",
         "rg_014830",
@@ -6663,15 +6679,16 @@
         "rg_014857",
         "rg_014858"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "21": {
       "masterTopicId": 21,
       "masterTopic": "राजस्थान के मेले",
-      "totalAvailable": 289,
-      "queue": [
+      "available": [
         "rg_001318",
         "rg_001319",
         "rg_001320",
@@ -6962,15 +6979,16 @@
         "rg_001605",
         "rg_001606"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "22": {
       "masterTopicId": 22,
       "masterTopic": "राजस्थान के त्योहार",
-      "totalAvailable": 182,
-      "queue": [
+      "available": [
         "rg_001136",
         "rg_001137",
         "rg_001138",
@@ -7154,15 +7172,16 @@
         "rg_001316",
         "rg_001317"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "23": {
       "masterTopicId": 23,
       "masterTopic": "राजस्थान की रीति-रिवाज एवं परंपराएँ",
-      "totalAvailable": 141,
-      "queue": [
+      "available": [
         "rg_001607",
         "rg_001608",
         "rg_001609",
@@ -7305,15 +7324,16 @@
         "rg_001746",
         "rg_001747"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "24": {
       "masterTopicId": 24,
       "masterTopic": "राजस्थान की वेशभूषा एवं आभूषण",
-      "totalAvailable": 322,
-      "queue": [
+      "available": [
         "rg_008706",
         "rg_008707",
         "rg_008708",
@@ -7637,15 +7657,16 @@
         "rg_009026",
         "rg_009027"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "25": {
       "masterTopicId": 25,
       "masterTopic": "राजस्थान की स्थापत्य कला एवं वास्तुकला",
-      "totalAvailable": 668,
-      "queue": [
+      "available": [
         "rg_001748",
         "rg_001749",
         "rg_001750",
@@ -8315,15 +8336,16 @@
         "rg_002414",
         "rg_002415"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "26": {
       "masterTopicId": 26,
       "masterTopic": "राजस्थान की चित्रकला शैलियाँ",
-      "totalAvailable": 305,
-      "queue": [
+      "available": [
         "rg_010284",
         "rg_010285",
         "rg_010286",
@@ -8630,15 +8652,16 @@
         "rg_010587",
         "rg_010588"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "27": {
       "masterTopicId": 27,
       "masterTopic": "राजस्थान के हस्तशिल्प एवं हस्तकलाएँ",
-      "totalAvailable": 320,
-      "queue": [
+      "available": [
         "rg_011054",
         "rg_011055",
         "rg_011056",
@@ -8960,15 +8983,16 @@
         "rg_011372",
         "rg_011373"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "28": {
       "masterTopicId": 28,
       "masterTopic": "राजस्थान के लोक देवता एवं लोक देवियाँ",
-      "totalAvailable": 323,
-      "queue": [
+      "available": [
         "rg_002416",
         "rg_002417",
         "rg_002418",
@@ -9293,15 +9317,16 @@
         "rg_002737",
         "rg_002738"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "29": {
       "masterTopicId": 29,
       "masterTopic": "राजस्थान के संत, संप्रदाय एवं धार्मिक परंपराएँ",
-      "totalAvailable": 366,
-      "queue": [
+      "available": [
         "rg_004579",
         "rg_004580",
         "rg_004581",
@@ -9669,15 +9694,16 @@
         "rg_004943",
         "rg_004944"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "30": {
       "masterTopicId": 30,
       "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "totalAvailable": 306,
-      "queue": [
+      "available": [
         "rg_002739",
         "rg_002740",
         "rg_002741",
@@ -9985,15 +10011,16 @@
         "rg_003043",
         "rg_003044"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "31": {
       "masterTopicId": 31,
       "masterTopic": "राजस्थान के लोक नृत्य",
-      "totalAvailable": 377,
-      "queue": [
+      "available": [
         "rg_009907",
         "rg_009908",
         "rg_009909",
@@ -10372,15 +10399,16 @@
         "rg_010282",
         "rg_010283"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "32": {
       "masterTopicId": 32,
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
-      "totalAvailable": 224,
-      "queue": [
+      "available": [
         "rg_007700",
         "rg_007701",
         "rg_007702",
@@ -10606,15 +10634,16 @@
         "rg_007922",
         "rg_007923"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "33": {
       "masterTopicId": 33,
       "masterTopic": "राजस्थानी साहित्य",
-      "totalAvailable": 382,
-      "queue": [
+      "available": [
         "rg_014907",
         "rg_014908",
         "rg_014909",
@@ -10998,15 +11027,16 @@
         "rg_015287",
         "rg_015288"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "34": {
       "masterTopicId": 34,
       "masterTopic": "राजस्थानी शब्दावली",
-      "totalAvailable": 27,
-      "queue": [
+      "available": [
         "rg_014539",
         "rg_014540",
         "rg_014541",
@@ -11035,15 +11065,16 @@
         "rg_014564",
         "rg_014565"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "35": {
       "masterTopicId": 35,
       "masterTopic": "राजस्थानी मुहावरे एवं लोकोक्तियाँ",
-      "totalAvailable": 82,
-      "queue": [
+      "available": [
         "rg_015529",
         "rg_015530",
         "rg_015531",
@@ -11127,15 +11158,16 @@
         "rg_015609",
         "rg_015610"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "36": {
       "masterTopicId": 36,
       "masterTopic": "राजस्थान के प्रमुख स्थानों के उपनाम",
-      "totalAvailable": 95,
-      "queue": [
+      "available": [
         "rg_015289",
         "rg_015290",
         "rg_015291",
@@ -11232,15 +11264,16 @@
         "rg_015382",
         "rg_015383"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "37": {
       "masterTopicId": 37,
       "masterTopic": "राजस्थान की प्राचीन सभ्यताएँ एवं पुरातात्विक स्थल",
-      "totalAvailable": 375,
-      "queue": [
+      "available": [
         "rg_009028",
         "rg_009029",
         "rg_009030",
@@ -11617,15 +11650,16 @@
         "rg_009401",
         "rg_009402"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "38": {
       "masterTopicId": 38,
       "masterTopic": "राजस्थान के इतिहास के स्रोत",
-      "totalAvailable": 279,
-      "queue": [
+      "available": [
         "rg_011374",
         "rg_011375",
         "rg_011376",
@@ -11906,15 +11940,16 @@
         "rg_011651",
         "rg_011652"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "39": {
       "masterTopicId": 39,
       "masterTopic": "राजस्थान के महाजनपद एवं प्राचीन राजनीतिक इतिहास",
-      "totalAvailable": 33,
-      "queue": [
+      "available": [
         "rg_014648",
         "rg_014649",
         "rg_014650",
@@ -11949,15 +11984,16 @@
         "rg_014679",
         "rg_014680"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "40": {
       "masterTopicId": 40,
       "masterTopic": "राजस्थान का राजपूत काल",
-      "totalAvailable": 36,
-      "queue": [
+      "available": [
         "rg_006343",
         "rg_006344",
         "rg_006345",
@@ -11995,15 +12031,16 @@
         "rg_006377",
         "rg_006378"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "41": {
       "masterTopicId": 41,
       "masterTopic": "मेवाड़ का गुहिल/गुहिलोत वंश",
-      "totalAvailable": 452,
-      "queue": [
+      "available": [
         "rg_006379",
         "rg_006380",
         "rg_006381",
@@ -12457,15 +12494,16 @@
         "rg_006829",
         "rg_006830"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "42": {
       "masterTopicId": 42,
       "masterTopic": "आमेर का कछवाहा वंश",
-      "totalAvailable": 170,
-      "queue": [
+      "available": [
         "rg_006831",
         "rg_006832",
         "rg_006833",
@@ -12637,15 +12675,16 @@
         "rg_006999",
         "rg_007000"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "43": {
       "masterTopicId": 43,
       "masterTopic": "चौहान वंश",
-      "totalAvailable": 221,
-      "queue": [
+      "available": [
         "rg_007001",
         "rg_007002",
         "rg_007003",
@@ -12868,15 +12907,16 @@
         "rg_007220",
         "rg_007221"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "44": {
       "masterTopicId": 44,
       "masterTopic": "गुर्जर-प्रतिहार वंश",
-      "totalAvailable": 84,
-      "queue": [
+      "available": [
         "rg_007222",
         "rg_007223",
         "rg_007224",
@@ -12962,15 +13002,16 @@
         "rg_007304",
         "rg_007305"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "45": {
       "masterTopicId": 45,
       "masterTopic": "राठौड़ वंश",
-      "totalAvailable": 229,
-      "queue": [
+      "available": [
         "rg_007306",
         "rg_007307",
         "rg_007308",
@@ -13201,15 +13242,16 @@
         "rg_007533",
         "rg_007534"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "46": {
       "masterTopicId": 46,
       "masterTopic": "राजस्थान के अन्य प्रमुख राजवंश",
-      "totalAvailable": 49,
-      "queue": [
+      "available": [
         "rg_007535",
         "rg_007536",
         "rg_007537",
@@ -13260,15 +13302,16 @@
         "rg_007582",
         "rg_007583"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "47": {
       "masterTopicId": 47,
       "masterTopic": "राजस्थान की रियासतें एवं ब्रिटिश संधियाँ",
-      "totalAvailable": 57,
-      "queue": [
+      "available": [
         "rg_007584",
         "rg_007585",
         "rg_007586",
@@ -13327,15 +13370,16 @@
         "rg_007639",
         "rg_007640"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "48": {
       "masterTopicId": 48,
       "masterTopic": "मध्यकालीन राजस्थान की प्रशासनिक व्यवस्था",
-      "totalAvailable": 59,
-      "queue": [
+      "available": [
         "rg_007641",
         "rg_007642",
         "rg_007643",
@@ -13396,15 +13440,16 @@
         "rg_007698",
         "rg_007699"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "49": {
       "masterTopicId": 49,
       "masterTopic": "राजस्थान में 1857 का विद्रोह",
-      "totalAvailable": 204,
-      "queue": [
+      "available": [
         "rg_009403",
         "rg_009404",
         "rg_009405",
@@ -13610,15 +13655,16 @@
         "rg_009605",
         "rg_009606"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "50": {
       "masterTopicId": 50,
       "masterTopic": "राजस्थान के किसान एवं जनजातीय आंदोलन",
-      "totalAvailable": 300,
-      "queue": [
+      "available": [
         "rg_009607",
         "rg_009608",
         "rg_009609",
@@ -13920,15 +13966,16 @@
         "rg_009905",
         "rg_009906"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "51": {
       "masterTopicId": 51,
       "masterTopic": "राजस्थान के प्रजामंडल आंदोलन",
-      "totalAvailable": 172,
-      "queue": [
+      "available": [
         "rg_011829",
         "rg_011830",
         "rg_011831",
@@ -14102,15 +14149,16 @@
         "rg_011999",
         "rg_012000"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "52": {
       "masterTopicId": 52,
       "masterTopic": "राजस्थान में स्वतंत्रता आंदोलन के संगठन एवं संस्थाएँ",
-      "totalAvailable": 82,
-      "queue": [
+      "available": [
         "rg_014566",
         "rg_014567",
         "rg_014568",
@@ -14194,24 +14242,26 @@
         "rg_014646",
         "rg_014647"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "53": {
       "masterTopicId": 53,
       "masterTopic": "राजस्थान में सामाजिक एवं राजनीतिक जागरण",
-      "totalAvailable": 0,
-      "queue": [],
+      "available": [],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "54": {
       "masterTopicId": 54,
       "masterTopic": "राजस्थान का एकीकरण",
-      "totalAvailable": 283,
-      "queue": [
+      "available": [
         "rg_010771",
         "rg_010772",
         "rg_010773",
@@ -14496,15 +14546,16 @@
         "rg_011052",
         "rg_011053"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "55": {
       "masterTopicId": 55,
       "masterTopic": "राजस्थान के प्रमुख व्यक्तित्व",
-      "totalAvailable": 158,
-      "queue": [
+      "available": [
         "rg_014021",
         "rg_014022",
         "rg_014023",
@@ -14664,15 +14715,16 @@
         "rg_014177",
         "rg_014178"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "56": {
       "masterTopicId": 56,
       "masterTopic": "राजस्थान की महिला व्यक्तित्व",
-      "totalAvailable": 62,
-      "queue": [
+      "available": [
         "rg_014179",
         "rg_014180",
         "rg_014181",
@@ -14736,15 +14788,16 @@
         "rg_014239",
         "rg_014240"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "57": {
       "masterTopicId": 57,
       "masterTopic": "राजस्थान में प्रेस एवं पत्रकारिता",
-      "totalAvailable": 71,
-      "queue": [
+      "available": [
         "rg_014241",
         "rg_014242",
         "rg_014243",
@@ -14817,15 +14870,16 @@
         "rg_014310",
         "rg_014311"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "58": {
       "masterTopicId": 58,
       "masterTopic": "राजस्थान राज्य प्रशासन",
-      "totalAvailable": 320,
-      "queue": [
+      "available": [
         "rg_012043",
         "rg_012044",
         "rg_012045",
@@ -15147,15 +15201,16 @@
         "rg_015836",
         "rg_015837"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "59": {
       "masterTopicId": 59,
       "masterTopic": "राजस्थान के राज्यपाल",
-      "totalAvailable": 164,
-      "queue": [
+      "available": [
         "rg_012136",
         "rg_012137",
         "rg_012138",
@@ -15321,15 +15376,16 @@
         "rg_012298",
         "rg_012299"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "60": {
       "masterTopicId": 60,
       "masterTopic": "राजस्थान के मुख्यमंत्री",
-      "totalAvailable": 103,
-      "queue": [
+      "available": [
         "rg_012300",
         "rg_012301",
         "rg_012302",
@@ -15434,15 +15490,16 @@
         "rg_012401",
         "rg_012402"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "61": {
       "masterTopicId": 61,
       "masterTopic": "राजस्थान की मंत्रिपरिषद एवं मंत्रिमंडल",
-      "totalAvailable": 79,
-      "queue": [
+      "available": [
         "rg_012868",
         "rg_012869",
         "rg_012870",
@@ -15523,15 +15580,16 @@
         "rg_014360",
         "rg_014361"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "62": {
       "masterTopicId": 62,
       "masterTopic": "राजस्थान राज्य विधानमंडल",
-      "totalAvailable": 162,
-      "queue": [
+      "available": [
         "rg_012616",
         "rg_012617",
         "rg_012618",
@@ -15695,15 +15753,16 @@
         "rg_012776",
         "rg_012777"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "63": {
       "masterTopicId": 63,
       "masterTopic": "राजस्थान उच्च न्यायालय एवं न्यायपालिका",
-      "totalAvailable": 90,
-      "queue": [
+      "available": [
         "rg_012778",
         "rg_012779",
         "rg_012780",
@@ -15795,15 +15854,16 @@
         "rg_012866",
         "rg_012867"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "64": {
       "masterTopicId": 64,
       "masterTopic": "राजस्थान जिला प्रशासन",
-      "totalAvailable": 42,
-      "queue": [
+      "available": [
         "rg_015483",
         "rg_015484",
         "rg_015485",
@@ -15847,15 +15907,16 @@
         "rg_015523",
         "rg_015524"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "65": {
       "masterTopicId": 65,
       "masterTopic": "राजस्थान पंचायती राज एवं स्थानीय स्वशासन",
-      "totalAvailable": 213,
-      "queue": [
+      "available": [
         "rg_012403",
         "rg_012404",
         "rg_012405",
@@ -16070,15 +16131,16 @@
         "rg_012614",
         "rg_012615"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "66": {
       "masterTopicId": 66,
       "masterTopic": "राजस्थान लोक सेवा आयोग (RPSC)",
-      "totalAvailable": 63,
-      "queue": [
+      "available": [
         "rg_015384",
         "rg_015385",
         "rg_015386",
@@ -16143,15 +16205,16 @@
         "rg_015445",
         "rg_015446"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "67": {
       "masterTopicId": 67,
       "masterTopic": "राजस्थान राज्य निर्वाचन आयोग",
-      "totalAvailable": 36,
-      "queue": [
+      "available": [
         "rg_015447",
         "rg_015448",
         "rg_015449",
@@ -16189,15 +16252,16 @@
         "rg_015481",
         "rg_015482"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "68": {
       "masterTopicId": 68,
       "masterTopic": "राजस्थान मानवाधिकार आयोग",
-      "totalAvailable": 102,
-      "queue": [
+      "available": [
         "rg_014362",
         "rg_014363",
         "rg_014364",
@@ -16301,15 +16365,16 @@
         "rg_014462",
         "rg_014463"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "69": {
       "masterTopicId": 69,
       "masterTopic": "राजस्थान महिला आयोग",
-      "totalAvailable": 21,
-      "queue": [
+      "available": [
         "rg_014464",
         "rg_014465",
         "rg_014466",
@@ -16332,15 +16397,16 @@
         "rg_014483",
         "rg_014484"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "70": {
       "masterTopicId": 70,
       "masterTopic": "राजस्थान लोकायुक्त",
-      "totalAvailable": 54,
-      "queue": [
+      "available": [
         "rg_014485",
         "rg_014486",
         "rg_014487",
@@ -16396,15 +16462,16 @@
         "rg_014537",
         "rg_014538"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "71": {
       "masterTopicId": 71,
       "masterTopic": "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ",
-      "totalAvailable": 46,
-      "queue": [
+      "available": [
         "rg_012001",
         "rg_012002",
         "rg_012003",
@@ -16452,15 +16519,16 @@
         "rg_015527",
         "rg_015528"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "72": {
       "masterTopicId": 72,
       "masterTopic": "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र",
-      "totalAvailable": 48,
-      "queue": [
+      "available": [
         "rg_014859",
         "rg_014860",
         "rg_014861",
@@ -16510,15 +16578,16 @@
         "rg_014905",
         "rg_014906"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     },
     "73": {
       "masterTopicId": 73,
       "masterTopic": "राजस्थान विज्ञान एवं प्रौद्योगिकी",
-      "totalAvailable": 49,
-      "queue": [
+      "available": [
         "rg_014779",
         "rg_014780",
         "rg_014781",
@@ -16569,9 +16638,11 @@
         "rg_014826",
         "rg_014827"
       ],
+      "candidate": [],
       "used": [],
       "requeued": [],
-      "rejected": []
+      "rejected": [],
+      "completedSets": 0
     }
   }
 }
