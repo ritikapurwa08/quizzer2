@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-19T09:58:17.417Z",
-  "updatedAt": "2026-09-19T11:08:54.980Z",
+  "updatedAt": "2026-09-19T11:18:15.558Z",
   "architecture": "LOCAL_MASTER_POOL",
   "totalMasterPoolQuestions": 16032,
   "totalTopicAssignedQuestions": 15837,
@@ -6908,30 +6908,11 @@
     "20": {
       "masterTopicId": 20,
       "masterTopic": "राजस्थान के पारंपरिक जल स्रोत एवं जल प्रबंधन",
-      "available": [
-        "rg_014828",
-        "rg_014829",
-        "rg_014830",
-        "rg_014831",
-        "rg_014832",
-        "rg_014833",
-        "rg_014834",
-        "rg_014835",
-        "rg_014836",
-        "rg_014837",
-        "rg_014838",
-        "rg_014839",
-        "rg_014840",
-        "rg_014841",
+      "available": [],
+      "candidate": [
         "rg_014842",
-        "rg_014843",
-        "rg_014844",
-        "rg_014845",
-        "rg_014846",
         "rg_014847",
-        "rg_014848",
         "rg_014849",
-        "rg_014850",
         "rg_014851",
         "rg_014852",
         "rg_014853",
@@ -6941,11 +6922,111 @@
         "rg_014857",
         "rg_014858"
       ],
-      "candidate": [],
-      "used": [],
+      "used": [
+        {
+          "id": "rg_014828",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014829",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014830",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014831",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014832",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014833",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014834",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014835",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014836",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014837",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014838",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014839",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014840",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014841",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014843",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014844",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014845",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014846",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014848",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        },
+        {
+          "id": "rg_014850",
+          "usedInSet": "topic-20-set-001",
+          "usedAt": "2026-09-19T11:18:10.287Z"
+        }
+      ],
       "requeued": [],
       "rejected": [],
-      "completedSets": 0
+      "completedSets": 1
     },
     "21": {
       "masterTopicId": 21,

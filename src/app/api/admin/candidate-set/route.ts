@@ -83,13 +83,37 @@ export async function GET(request: NextRequest) {
           const topicState = poolState?.topics?.[String(masterTopicId)];
           let targetIds: string[] = [];
 
-          // Collect already used IDs
+          // Collect already used IDs from local state
           const usedSet = new Set<string>();
           if (Array.isArray(topicState?.used)) {
             for (const u of topicState.used) {
               const uid = typeof u === "object" && u !== null ? u.id : String(u);
               if (uid) usedSet.add(uid);
             }
+          }
+
+          // Authoritative sync: Query Convex directly so any question already imported in DB is NEVER served as candidate
+          try {
+            const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL || "https://shiny-wildcat-270.convex.cloud";
+            const checkIds = allQuestions.map((q) => String(q.id));
+            const convexRes = await fetch(`${convexUrl}/api/query`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                path: "questions:checkExistingProvenance",
+                args: { sourceQuestionIds: checkIds },
+              }),
+            });
+            if (convexRes.ok) {
+              const convexData = await convexRes.json();
+              if (Array.isArray(convexData.value?.existingSourceIds)) {
+                for (const exId of convexData.value.existingSourceIds) {
+                  usedSet.add(String(exId));
+                }
+              }
+            }
+          } catch (convexErr) {
+            console.error("Convex check in candidate-set:", convexErr);
           }
 
           if (topicState?.candidate && topicState.candidate.length > 0) {
