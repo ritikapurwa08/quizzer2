@@ -129,10 +129,7 @@ export default function TopicDetailPage() {
                             </span>
                           )}
                         </div>
-                        <p className="text-xs text-muted-foreground mt-0.5 font-hindi">
-                          {set.questionCount} प्रश्न
-                          {set.negativeMarking && " · −0.33 ऋणात्मक अंकन"}
-                        </p>
+
                       </div>
                     </div>
 
