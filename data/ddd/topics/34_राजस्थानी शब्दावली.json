@@ -4,25 +4,6 @@
   "totalAvailable": 27,
   "questions": [
     {
-      "id": "rg_014539",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "रात्रि भर जागरण क्या कहलाता है?",
-      "options": [
-        "औजकौ",
-        "असकन्नौ",
-        "अवाह",
-        "अवौचण"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "राजस्थानी लोक परंपरा में रात्रि भर जागरण को औजकौ (Aujkau) कहा जाता है।"
-    },
-    {
       "id": "rg_014540",
       "source": "RajasthanGyan",
       "sourceTopicId": 303,
@@ -40,25 +21,6 @@
       "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam -",
       "year": 2024,
       "explanation": "राजस्थानी भाषा में ‘आड़ी, हीयाली’ शब्द पहेलियों के लिए प्रचलित हैं।"
-    },
-    {
-      "id": "rg_014541",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "गांव की सीमा के लिए प्रयुक्त शब्द कौनसा है -",
-      "options": [
-        "डीमडू",
-        "कांकड",
-        "गोरमो",
-        "मगरा"
-      ],
-      "answer": "C",
-      "exam": "Raj Jail Warder (28-10-18) Shift 3",
-      "year": null,
-      "explanation": "गांव की सीमा गोरमो होता है जबकि गांव की राजस्व सीमा कांकड़ होती है।"
     },
     {
       "id": "rg_014542",
@@ -194,6 +156,196 @@
       "explanation": null
     },
     {
+      "id": "rg_014558",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "‘पलाण’ क्या है -",
+      "options": [
+        "एक लोक वाद्य यंत्र",
+        "घोड़े पर रखी जाने वाली काठी",
+        "ऊँट पर रखी जाने वाली काठी",
+        "गोरबन्द का समानार्थी शब्द"
+      ],
+      "answer": "C",
+      "exam": "VDO Exam 2nd Shift 28 Dec",
+      "year": 2021,
+      "explanation": "पलाण, ऊंट पर रखी जाने वाली काठी होती है।"
+    },
+    {
+      "id": "rg_014560",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "राजस्थान में ‘पावड़ा’ का मतलब है -",
+      "options": [
+        "लोक कथा",
+        "लोक गाथा",
+        "लोक गीत",
+        "लोक साहित्य"
+      ],
+      "answer": "B",
+      "exam": "Librarian Grade III",
+      "year": 2018,
+      "explanation": null
+    },
+    {
+      "id": "rg_014556",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "पछेवड़ा है -",
+      "options": [
+        "मोटी सूती शाॅल",
+        "महिला का घाघरा",
+        "घास की किस्म",
+        "भैंस की नस्ल"
+      ],
+      "answer": "A",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014561",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "आढ़तिया -",
+      "options": [
+        "किसान",
+        "डाकू",
+        "लाल",
+        "गायक"
+      ],
+      "answer": "D",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014562",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "‘रेवड़’ है -",
+      "options": [
+        "खाद्य बीज",
+        "पशुओं का झुण्ड",
+        "मानव झुण्ड",
+        "सब्जी"
+      ],
+      "answer": "B",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014563",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "‘कातरौ’ -",
+      "options": [
+        "ीज का प्रकार",
+        "फसल का प्रकार",
+        "फसली रोग",
+        "पशु रोग"
+      ],
+      "answer": "C",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014564",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "‘अगेती एवं ‘पछेती’ शब्द प्रयुक्त होते हैं -",
+      "options": [
+        "जल्दी एवं विलम्बित बीजाई",
+        "आना एवं जाना",
+        "हर्बल दवा",
+        "वर्तमान एवं भूतकाल"
+      ],
+      "answer": "A",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014565",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "‘उदेई’ प्रयुक्त होता है -",
+      "options": [
+        "मिट्टी हेतु",
+        "पत्थर हेतु",
+        "लकड़ी हेतु",
+        "दीमक हेतु"
+      ],
+      "answer": "D",
+      "exam": "Asst. Agriculture Officer -",
+      "year": 2011,
+      "explanation": null
+    },
+    {
+      "id": "rg_014541",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "गांव की सीमा के लिए प्रयुक्त शब्द कौनसा है -",
+      "options": [
+        "डीमडू",
+        "कांकड",
+        "गोरमो",
+        "मगरा"
+      ],
+      "answer": "C",
+      "exam": "Raj Jail Warder (28-10-18) Shift 3",
+      "year": null,
+      "explanation": "गांव की सीमा गोरमो होता है जबकि गांव की राजस्व सीमा कांकड़ होती है।"
+    },
+    {
+      "id": "rg_014539",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 303,
+      "sourceTopic": "राजस्थानी शब्दावली",
+      "masterTopicId": 34,
+      "masterTopic": "राजस्थानी शब्दावली",
+      "question": "रात्रि भर जागरण क्या कहलाता है?",
+      "options": [
+        "औजकौ",
+        "असकन्नौ",
+        "अवाह",
+        "अवौचण"
+      ],
+      "answer": "A",
+      "exam": null,
+      "year": null,
+      "explanation": "राजस्थानी लोक परंपरा में रात्रि भर जागरण को औजकौ (Aujkau) कहा जाता है।"
+    },
+    {
       "id": "rg_014549",
       "source": "RajasthanGyan",
       "sourceTopicId": 303,
@@ -327,25 +479,6 @@
       "explanation": null
     },
     {
-      "id": "rg_014556",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "पछेवड़ा है -",
-      "options": [
-        "मोटी सूती शाॅल",
-        "महिला का घाघरा",
-        "घास की किस्म",
-        "भैंस की नस्ल"
-      ],
-      "answer": "A",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
-      "explanation": null
-    },
-    {
       "id": "rg_014557",
       "source": "RajasthanGyan",
       "sourceTopicId": 303,
@@ -365,25 +498,6 @@
       "explanation": null
     },
     {
-      "id": "rg_014558",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "‘पलाण’ क्या है -",
-      "options": [
-        "एक लोक वाद्य यंत्र",
-        "घोड़े पर रखी जाने वाली काठी",
-        "ऊँट पर रखी जाने वाली काठी",
-        "गोरबन्द का समानार्थी शब्द"
-      ],
-      "answer": "C",
-      "exam": "VDO Exam 2nd Shift 28 Dec",
-      "year": 2021,
-      "explanation": "पलाण, ऊंट पर रखी जाने वाली काठी होती है।"
-    },
-    {
       "id": "rg_014559",
       "source": "RajasthanGyan",
       "sourceTopicId": 303,
@@ -400,120 +514,6 @@
       "answer": "C",
       "exam": null,
       "year": null,
-      "explanation": null
-    },
-    {
-      "id": "rg_014560",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "राजस्थान में ‘पावड़ा’ का मतलब है -",
-      "options": [
-        "लोक कथा",
-        "लोक गाथा",
-        "लोक गीत",
-        "लोक साहित्य"
-      ],
-      "answer": "B",
-      "exam": "Librarian Grade III",
-      "year": 2018,
-      "explanation": null
-    },
-    {
-      "id": "rg_014561",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "आढ़तिया -",
-      "options": [
-        "किसान",
-        "डाकू",
-        "लाल",
-        "गायक"
-      ],
-      "answer": "D",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
-      "explanation": null
-    },
-    {
-      "id": "rg_014562",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "‘रेवड़’ है -",
-      "options": [
-        "खाद्य बीज",
-        "पशुओं का झुण्ड",
-        "मानव झुण्ड",
-        "सब्जी"
-      ],
-      "answer": "B",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
-      "explanation": null
-    },
-    {
-      "id": "rg_014563",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "‘कातरौ’ -",
-      "options": [
-        "ीज का प्रकार",
-        "फसल का प्रकार",
-        "फसली रोग",
-        "पशु रोग"
-      ],
-      "answer": "C",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
-      "explanation": null
-    },
-    {
-      "id": "rg_014564",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "‘अगेती एवं ‘पछेती’ शब्द प्रयुक्त होते हैं -",
-      "options": [
-        "जल्दी एवं विलम्बित बीजाई",
-        "आना एवं जाना",
-        "हर्बल दवा",
-        "वर्तमान एवं भूतकाल"
-      ],
-      "answer": "A",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
-      "explanation": null
-    },
-    {
-      "id": "rg_014565",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 303,
-      "sourceTopic": "राजस्थानी शब्दावली",
-      "masterTopicId": 34,
-      "masterTopic": "राजस्थानी शब्दावली",
-      "question": "‘उदेई’ प्रयुक्त होता है -",
-      "options": [
-        "मिट्टी हेतु",
-        "पत्थर हेतु",
-        "लकड़ी हेतु",
-        "दीमक हेतु"
-      ],
-      "answer": "D",
-      "exam": "Asst. Agriculture Officer -",
-      "year": 2011,
       "explanation": null
     }
   ]

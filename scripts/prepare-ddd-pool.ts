@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { RAJASTHAN_GK_MASTER_SECTIONS } from "../src/lib/constants/rajasthanGkMasterTopics";
+import { comparePoolQuestions } from "../src/lib/pool/sortQuestions";
 
 // Master Topics Map (1 to 73)
 const masterTopicsMap = new Map<number, { id: number; nameHindi: string; nameEnglish: string }>();
@@ -115,9 +116,9 @@ async function main() {
     }
   }
 
-  // Sort each queue deterministically by original DDD id (e.g. rg_000001, rg_000002, ...)
+  // Sort each queue by canonical priority: Latest Exam Year -> Older Exam Year -> Non-Exam at end
   for (const [tid, list] of questionsByTopic.entries()) {
-    list.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+    list.sort(comparePoolQuestions);
   }
 
   const topicsWithoutQuestions: { id: number; nameHindi: string }[] = [];

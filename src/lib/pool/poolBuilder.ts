@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { QuestionDuplicateRegistry, normalizeQuestionText, computeQuestionFingerprint } from "./deduplication";
+import { comparePoolQuestions } from "./sortQuestions";
 
 export interface PreparedPoolQuestion {
   masterTopicId: number;
@@ -237,6 +238,14 @@ export function buildTopicPoolQuestions(targetTopicId?: number): {
         }
       }
     } catch {}
+  }
+
+  // Sort each topic's questions: Latest Exam Year -> Older Exam Year -> Non-Exam at end
+  for (const [_, list] of questionsByTopic.entries()) {
+    list.sort((a, b) => comparePoolQuestions({ ...a, id: a.sourceQuestionId }, { ...b, id: b.sourceQuestionId }));
+    list.forEach((q, idx) => {
+      q.queueOrder = idx + 1;
+    });
   }
 
   return {

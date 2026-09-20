@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+import { comparePoolQuestions } from "@/lib/pool/sortQuestions";
 
 export async function GET(request: NextRequest) {
   try {
@@ -123,7 +124,8 @@ export async function GET(request: NextRequest) {
             const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
             targetIds = freshAvailable.slice(0, 25);
           } else {
-            targetIds = allQuestions
+            targetIds = [...allQuestions]
+              .sort(comparePoolQuestions)
               .map((q) => String(q.id))
               .filter((id) => !usedSet.has(id))
               .slice(0, 25);
@@ -133,10 +135,14 @@ export async function GET(request: NextRequest) {
             const q = questionMap.get(String(qid));
             if (q) candidateQuestions.push(q);
           }
+
+          candidateQuestions.sort(comparePoolQuestions);
         }
       } catch (err) {
         console.error("Error resolving topic questions:", err);
       }
+    } else if (candidateQuestions.length > 0) {
+      candidateQuestions.sort(comparePoolQuestions);
     }
 
     const topicHindi = topicInfo?.nameHindi || `Topic ${masterTopicId}`;

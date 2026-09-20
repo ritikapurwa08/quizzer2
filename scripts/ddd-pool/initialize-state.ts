@@ -47,15 +47,10 @@ async function main() {
       const rejectedIds = new Set(prev.rejected.map((r) => (typeof r === "string" ? r : r.id)));
       const candidateIds = new Set(prev.candidate || []);
 
-      // If available list exists in prev, keep it, but ensure no used/rejected are in it
-      const available = Array.isArray(prev.available)
-        ? prev.available.filter((qid: string | { id: string }) => {
-            const idStr = typeof qid === "string" ? qid : qid.id;
-            return !usedIds.has(idStr) && !rejectedIds.has(idStr);
-          })
-        : (prev as any).queue
-        ? (prev as any).queue.filter((qid: string) => !usedIds.has(qid) && !rejectedIds.has(qid))
-        : allTopicQIds.filter((qid: string) => !usedIds.has(qid) && !rejectedIds.has(qid));
+      // Filter allTopicQIds (which is in canonical latest-first order)
+      const available = allTopicQIds.filter(
+        (qid: string) => !usedIds.has(qid) && !rejectedIds.has(qid) && !candidateIds.has(qid)
+      );
 
       newTopics[String(id)] = {
         masterTopicId: id,
