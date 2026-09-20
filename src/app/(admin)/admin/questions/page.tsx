@@ -21,7 +21,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { getQuestionTypeLabel } from "@/lib/constants";
-import { containsDevanagari, cn } from "@/lib/utils";
+import { containsDevanagari, cn, formatExamDisplay } from "@/lib/utils";
 import { Trash2, Pencil, Search, FilterX } from "lucide-react";
 
 const PAGE_SIZE = 15;
@@ -288,7 +288,7 @@ export default function AdminQuestionsPage() {
                       </span>
                       {q.meta?.exam && (
                         <span className="inline-block text-[11px] text-muted-foreground font-hindi truncate max-w-sm">
-                          {q.meta.exam}
+                          {formatExamDisplay(q.meta.exam, q.meta.year)}
                         </span>
                       )}
                     </div>

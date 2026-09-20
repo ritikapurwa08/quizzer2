@@ -1,7 +1,7 @@
 "use client";
 
 import { FileText, Sparkles } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, formatExamDisplay } from "@/lib/utils";
 
 export type CanonicalSourceType = "PYQ" | "AI_NEW";
 
@@ -10,6 +10,7 @@ export interface QuestionSourceMetaProps {
   meta?: {
     sourceType?: string;
     exam?: string;
+    year?: number | string;
     sourceQuestionId?: number;
     [key: string]: unknown;
   } | null;
@@ -36,7 +37,7 @@ export function isFakeExam(str?: string | null): boolean {
 
 export function parseQuestionSource(
   reference?: string | null,
-  meta?: { sourceType?: string; exam?: string; [key: string]: unknown } | null
+  meta?: { sourceType?: string; exam?: string; year?: number | string; [key: string]: unknown } | null
 ): {
   hasSource: boolean;
   sourceType?: CanonicalSourceType;
@@ -110,6 +111,9 @@ export function parseQuestionSource(
       .replace(/^(?:PYQ[_\s]*(?:EXACT|MODIFIED)?\s*[—–\-:·•]\s*)/i, "")
       .trim();
     exam = sanitize(exam);
+    if (exam) {
+      exam = formatExamDisplay(exam, meta?.year);
+    }
   }
 
   // Never attach an exam to AI_NEW

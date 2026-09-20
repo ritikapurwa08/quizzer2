@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { sanitizeLlmArtifacts } from "../sanitizer";
+import { formatExamDisplay } from "../utils";
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
@@ -429,7 +430,8 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
 
     if (!computedReference && sourceType) {
       if (examVerified) {
-        computedReference = `📌 ${sourceType} — ${examVerified}${yearVerified ? ` (${yearVerified})` : ""}`;
+        const displayExam = formatExamDisplay(examVerified, yearVerified);
+        computedReference = `📌 ${sourceType} — ${displayExam}`;
       } else if (raw.source === "RajasthanGyan") {
         computedReference = `📌 RajasthanGyan`;
       } else if (sourceType !== "AI_NEW") {

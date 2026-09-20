@@ -97,6 +97,7 @@ export function QuestionImportEditor({
     geminiPrompt: string;
   } | null>(null);
   const [loadingCandidates, setLoadingCandidates] = useState(false);
+  const [candidateError, setCandidateError] = useState<string | null>(null);
 
   const subject = subjectsList.find((x) => x._id === selectedSubjectId);
   const topic = topicsList.find((x) => x._id === selectedTopicId);
@@ -132,26 +133,33 @@ export function QuestionImportEditor({
   const fetchCandidates = useCallback(async () => {
     if (!selectedTopicId || !activeMasterTopicId) {
       setCandidateData(null);
+      setCandidateError(null);
       return;
     }
 
     setLoadingCandidates(true);
+    setCandidateError(null);
     try {
       const res = await fetch(
         `/api/admin/candidate-set?masterTopicId=${activeMasterTopicId}&setNumber=${currentSetNumber}`
       );
       if (res.ok) {
         const data = await res.json();
-        if (data.success) {
+        if (data.success && data.geminiPrompt) {
           setCandidateData(data);
+          setCandidateError(null);
         } else {
           setCandidateData(null);
+          setCandidateError(data.message || data.error || "Failed to load candidate questions.");
         }
       } else {
+        const errData = await res.json().catch(() => null);
         setCandidateData(null);
+        setCandidateError(errData?.message || errData?.error || `Failed to load candidate questions (HTTP ${res.status}).`);
       }
-    } catch {
+    } catch (err: any) {
       setCandidateData(null);
+      setCandidateError(err?.message || "Failed to load candidate questions.");
     } finally {
       setLoadingCandidates(false);
     }
@@ -160,6 +168,7 @@ export function QuestionImportEditor({
   useEffect(() => {
     if (!selectedTopicId || !activeMasterTopicId) {
       setCandidateData(null);
+      setCandidateError(null);
       return;
     }
     fetchCandidates();
@@ -439,12 +448,17 @@ export function QuestionImportEditor({
               </CardTitle>
             </div>
             {loadingCandidates ? (
-              <Badge variant="outline" className="text-[11px] font-medium">
-                Candidate Questions: Loading...
+              <Badge variant="outline" className="text-[11px] font-medium flex items-center gap-1.5 text-muted-foreground">
+                <Loader2 className="h-3 w-3 animate-spin" />
+                Candidate Questions: Fetching...
               </Badge>
             ) : candidateData ? (
               <Badge className="bg-success/15 text-success border-success/30 text-[11px] font-semibold">
                 Candidate Questions: {candidateData.candidateCount} loaded
+              </Badge>
+            ) : candidateError ? (
+              <Badge variant="destructive" className="text-[11px] font-semibold">
+                Candidate Questions: Failed to load
               </Badge>
             ) : (
               <Badge variant="outline" className="text-[11px] font-medium text-muted-foreground">
@@ -455,36 +469,58 @@ export function QuestionImportEditor({
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-3">
           <p className="text-xs text-muted-foreground leading-relaxed">
-            {candidateData
-              ? "Copy the candidate prompt and paste it into Gemini for review."
+            {loadingCandidates
+              ? "Fetching candidate questions from the pool, please wait..."
+              : candidateData
+              ? "Candidate questions ready. Copy the candidate prompt and paste it into Gemini for review."
+              : candidateError
+              ? "Could not load candidate questions. Please verify your selection or retry."
               : "Select a Subject and Master Topic above to load candidate questions from the persistent pool."}
           </p>
 
+          {candidateError && (
+            <div className="flex items-center gap-2 p-3 rounded-xl bg-destructive/10 border border-destructive/30 text-destructive text-xs font-medium animate-in fade-in-0 duration-150">
+              <AlertCircle className="h-4 w-4 shrink-0" />
+              <span>{candidateError}</span>
+            </div>
+          )}
+
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-1">
-            <Button
-              type="button"
-              onClick={handleCopyForGemini}
-              disabled={loadingCandidates || !candidateData}
-              className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs transition-all w-full sm:w-auto sm:flex-1"
-            >
-              {copiedPrompt ? (
-                <>
-                  <Check className="h-4 w-4 text-success" />
-                  <span>Prompt Copied!</span>
-                </>
-              ) : (
-                <>
-                  <Copy className="h-4 w-4" />
-                  <span>Copy Prompt</span>
-                </>
-              )}
-            </Button>
+            {loadingCandidates ? (
+              <Button
+                type="button"
+                disabled
+                className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs transition-all w-full sm:w-auto sm:flex-1 cursor-wait"
+              >
+                <Loader2 className="h-4 w-4 animate-spin" />
+                <span>Fetching...</span>
+              </Button>
+            ) : (
+              <Button
+                type="button"
+                onClick={handleCopyForGemini}
+                disabled={!candidateData?.geminiPrompt}
+                className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs transition-all w-full sm:w-auto sm:flex-1 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {copiedPrompt ? (
+                  <>
+                    <Check className="h-4 w-4 text-success" />
+                    <span>Prompt Copied!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="h-4 w-4" />
+                    <span>Copy Prompt</span>
+                  </>
+                )}
+              </Button>
+            )}
 
             <Button
               type="button"
               variant="outline"
               onClick={() => setPromptOpen(!promptOpen)}
-              disabled={!candidateData?.geminiPrompt}
+              disabled={loadingCandidates || !candidateData?.geminiPrompt}
               className="h-10 min-h-[40px] px-4 text-xs font-semibold rounded-xl w-full sm:w-auto text-muted-foreground hover:text-foreground"
             >
               {promptOpen ? "Hide Prompt Preview" : "Show Prompt Preview"}
