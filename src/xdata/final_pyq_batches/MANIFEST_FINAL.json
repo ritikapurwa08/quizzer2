@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-17T03:01:50.592Z",
+  "generatedAt": "2026-09-20T06:20:06.305Z",
   "summary": {
     "totalInputQuestions": 11302,
-    "totalFinalQuestions": 10943,
+    "totalFinalQuestions": 9275,
     "totalKept": 8334,
     "totalRepaired": 2609,
     "totalRemoved": 359,
     "totalReviewRequired": 0,
-    "totalMasterTopics": 62,
-    "totalBatches": 574
+    "totalMasterTopics": 68,
+    "totalBatches": 615
   },
   "topics": [
     {
@@ -442,14 +442,17 @@
     },
     {
       "masterTopic": "राजस्थान की मंत्रिपरिषद एवं मंत्रिमंडल",
-      "inputCount": 6,
-      "keepCount": 4,
-      "repairCount": 2,
+      "inputCount": 68,
+      "keepCount": 68,
+      "repairCount": 0,
       "removeCount": 0,
       "reviewCount": 0,
-      "batchCount": 1,
+      "batchCount": 4,
       "finalBatchFiles": [
-        "batch_001.json"
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json"
       ]
     },
     {
@@ -963,24 +966,6 @@
       ]
     },
     {
-      "masterTopic": "राजस्थान पंचायती राज एवं स्थानीय स्वशासन",
-      "inputCount": 149,
-      "keepCount": 85,
-      "repairCount": 53,
-      "removeCount": 11,
-      "reviewCount": 0,
-      "batchCount": 7,
-      "finalBatchFiles": [
-        "batch_001.json",
-        "batch_002.json",
-        "batch_003.json",
-        "batch_004.json",
-        "batch_005.json",
-        "batch_006.json",
-        "batch_007.json"
-      ]
-    },
-    {
       "masterTopic": "राजस्थान महिला आयोग",
       "inputCount": 10,
       "keepCount": 8,
@@ -1098,12 +1083,34 @@
     },
     {
       "masterTopic": "राजस्थान राज्य प्रशासन",
-      "inputCount": 566,
-      "keepCount": 449,
-      "repairCount": 103,
-      "removeCount": 14,
+      "inputCount": 204,
+      "keepCount": 204,
+      "repairCount": 0,
+      "removeCount": 0,
       "reviewCount": 0,
-      "batchCount": 28,
+      "batchCount": 11,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json",
+        "batch_006.json",
+        "batch_007.json",
+        "batch_008.json",
+        "batch_009.json",
+        "batch_010.json",
+        "batch_011.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान राज्य विधानमंडल",
+      "inputCount": 300,
+      "keepCount": 300,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 15,
       "finalBatchFiles": [
         "batch_001.json",
         "batch_002.json",
@@ -1119,36 +1126,7 @@
         "batch_012.json",
         "batch_013.json",
         "batch_014.json",
-        "batch_015.json",
-        "batch_016.json",
-        "batch_017.json",
-        "batch_018.json",
-        "batch_019.json",
-        "batch_020.json",
-        "batch_021.json",
-        "batch_022.json",
-        "batch_023.json",
-        "batch_024.json",
-        "batch_025.json",
-        "batch_026.json",
-        "batch_027.json",
-        "batch_028.json"
-      ]
-    },
-    {
-      "masterTopic": "राजस्थान राज्य विधानमंडल",
-      "inputCount": 91,
-      "keepCount": 53,
-      "repairCount": 37,
-      "removeCount": 1,
-      "reviewCount": 0,
-      "batchCount": 5,
-      "finalBatchFiles": [
-        "batch_001.json",
-        "batch_002.json",
-        "batch_003.json",
-        "batch_004.json",
-        "batch_005.json"
+        "batch_015.json"
       ]
     },
     {
@@ -1265,6 +1243,135 @@
         "batch_001.json",
         "batch_002.json",
         "batch_003.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान के राज्यपाल",
+      "inputCount": 185,
+      "keepCount": 185,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 10,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json",
+        "batch_006.json",
+        "batch_007.json",
+        "batch_008.json",
+        "batch_009.json",
+        "batch_010.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान के मुख्यमंत्री",
+      "inputCount": 96,
+      "keepCount": 96,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 5,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान उच्च न्यायालय एवं न्यायपालिका",
+      "inputCount": 122,
+      "keepCount": 122,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 7,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json",
+        "batch_006.json",
+        "batch_007.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान जिला प्रशासन",
+      "inputCount": 40,
+      "keepCount": 40,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 2,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान पंचायती राज",
+      "inputCount": 204,
+      "keepCount": 204,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 11,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json",
+        "batch_006.json",
+        "batch_007.json",
+        "batch_008.json",
+        "batch_009.json",
+        "batch_010.json",
+        "batch_011.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान नगरीय स्वशासन एवं नगरपालिका",
+      "inputCount": 85,
+      "keepCount": 85,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 5,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json"
+      ]
+    },
+    {
+      "masterTopic": "राजस्थान का बजट एवं आर्थिक समीक्षा",
+      "inputCount": 228,
+      "keepCount": 228,
+      "repairCount": 0,
+      "removeCount": 0,
+      "reviewCount": 0,
+      "batchCount": 12,
+      "finalBatchFiles": [
+        "batch_001.json",
+        "batch_002.json",
+        "batch_003.json",
+        "batch_004.json",
+        "batch_005.json",
+        "batch_006.json",
+        "batch_007.json",
+        "batch_008.json",
+        "batch_009.json",
+        "batch_010.json",
+        "batch_011.json",
+        "batch_012.json"
       ]
     }
   ]

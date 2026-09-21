@@ -8,9 +8,9 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { masterTopicId, setNumber, selectedQuestionIds, questions } = body;
 
-    if (!masterTopicId || isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 73) {
+    if (!masterTopicId || isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 75) {
       return NextResponse.json(
-        { success: false, message: "Invalid masterTopicId (must be 1-73)" },
+        { success: false, message: "Invalid masterTopicId (must be 1-75)" },
         { status: 400 }
       );
     }

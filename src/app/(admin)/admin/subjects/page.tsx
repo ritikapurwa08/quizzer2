@@ -35,15 +35,26 @@ export default function AdminSubjectsPage() {
         <p className="text-xs text-muted-foreground mt-0.5">Add and manage exam subjects.</p>
       </div>
 
-      <form onSubmit={handleCreate} className="flex gap-2">
-        <Input placeholder="New subject name" value={name} onChange={(e) => setName(e.target.value)} />
-        <Button type="submit">Add</Button>
+      <form onSubmit={handleCreate} className="flex gap-2.5">
+        <input
+          placeholder="New subject name (e.g. राजस्थान सामान्य ज्ञान)"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="h-10 flex-1 rounded-xl border border-input bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors shadow-2xs"
+        />
+        <Button
+          type="submit"
+          disabled={!name.trim()}
+          className="h-10 px-5 rounded-xl text-sm font-semibold shadow-xs cursor-pointer"
+        >
+          Add Subject
+        </Button>
       </form>
 
       {isSubjectsLoading ? (
-        <div className="flex items-center justify-center py-8 text-sm text-muted-foreground gap-2 font-hindi">
+        <div className="flex items-center justify-center py-8 text-sm text-muted-foreground gap-2">
           <span className="h-4 w-4 rounded-full border-2 border-primary border-t-transparent animate-spin" />
-          लोड हो रहा है…
+          Loading subjects...
         </div>
       ) : (
         <DataTable

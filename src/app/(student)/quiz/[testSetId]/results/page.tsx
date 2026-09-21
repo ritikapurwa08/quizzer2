@@ -99,40 +99,40 @@ export default function ResultsPage() {
       {/* Back to dashboard */}
       <Link
         href="/dashboard"
-        className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors font-hindi"
+        className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors"
       >
         <ArrowLeft className="h-3.5 w-3.5" />
-        डैशबोर्ड पर वापस जाएं
+        Back to Dashboard
       </Link>
 
       {/* Score summary card */}
       <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3 font-hindi">
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3">
           Test Result
         </p>
 
         {/* Score */}
         <p className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground tabular-nums mb-3">
           {formatScore(attempt.score ?? 0)}
-          <span className="text-lg sm:text-xl text-muted-foreground font-semibold font-hindi">
-            {" "}/ {attempt.totalQuestions * 2} अंक
+          <span className="text-lg sm:text-xl text-muted-foreground font-semibold">
+            {" "}/ {attempt.totalQuestions * 2} pts
           </span>
         </p>
 
         {/* Stats: correct / incorrect / unanswered */}
-        <div className="flex items-center justify-center gap-4 mb-5 text-xs font-hindi">
+        <div className="flex items-center justify-center gap-4 mb-5 text-xs">
           <span className="flex items-center gap-1 font-semibold text-success">
             <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
-            {correctCount} सही
+            {correctCount} Correct
           </span>
           <span className="flex items-center gap-1 font-semibold text-destructive">
             <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
-            {incorrectCount} गलत
+            {incorrectCount} Incorrect
           </span>
           {unansweredCount > 0 && (
             <span className="flex items-center gap-1 font-semibold text-muted-foreground">
               <Minus className="h-3.5 w-3.5" aria-hidden="true" />
-              {unansweredCount} छोड़े गए
+              {unansweredCount} Skipped
             </span>
           )}
         </div>
@@ -142,21 +142,21 @@ export default function ResultsPage() {
           <Button
             asChild
             variant="outline"
-            className="font-semibold text-xs h-10 rounded-xl border-border font-hindi gap-1.5"
+            className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
           >
             <Link href={`/quiz/${id}`}>
               <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-              पुनः टेस्ट दें
+              Retake Test
             </Link>
           </Button>
 
           {nextSet ? (
             <Button
               asChild
-              className="font-bold text-xs h-10 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 font-hindi"
+              className="font-bold text-xs h-10 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer"
             >
               <Link href={`/quiz/${nextSet._id}`}>
-                अगला सेट हल करें
+                Next Test Set
                 <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
               </Link>
             </Button>
@@ -164,11 +164,11 @@ export default function ResultsPage() {
             <Button
               asChild
               variant="outline"
-              className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 font-hindi"
+              className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
             >
               <Link href="/subjects">
                 <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                सभी विषय देखें
+                View All Subjects
               </Link>
             </Button>
           )}
@@ -183,8 +183,8 @@ export default function ResultsPage() {
             <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
               Question Review
             </h2>
-            <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full font-hindi tabular-nums">
-              कुल {questions.length} प्रश्न
+            <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
+              {questions.length} Questions
             </span>
           </div>
           <QuestionReviewFilter
@@ -196,10 +196,10 @@ export default function ResultsPage() {
 
         {/* Filtered question list — original question number (originalIndex + 1) preserved */}
         {filteredQuestionsWithIndex.length === 0 ? (
-          <p className="text-sm text-muted-foreground text-center py-10 font-hindi">
+          <p className="text-sm text-muted-foreground text-center py-10">
             {reviewFilter === "correct"
-              ? "कोई सही उत्तर नहीं मिला।"
-              : "कोई गलत उत्तर नहीं मिला।"}
+              ? "No correct answers found."
+              : "No incorrect answers found."}
           </p>
         ) : (
           filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex }) => (

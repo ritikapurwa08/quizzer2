@@ -103,15 +103,15 @@ async function main() {
   fs.writeFileSync(allRemainingPath, JSON.stringify(topicAssignedList, null, 2), "utf-8");
   console.log(`✓ Saved ${topicAssignedList.length} master topic assigned questions to ${allRemainingPath}`);
 
-  // 3. Organize Topic Queues for all 73 Master Topics
+  // 3. Organize Topic Queues for all 75 Master Topics
   const questionsByTopic = new Map<number, any[]>();
-  for (let id = 1; id <= 73; id++) {
+  for (let id = 1; id <= 75; id++) {
     questionsByTopic.set(id, []);
   }
 
   for (const q of topicAssignedList) {
     const tid = Number(q.masterTopicId);
-    if (tid >= 1 && tid <= 73) {
+    if (tid >= 1 && tid <= 75) {
       questionsByTopic.get(tid)!.push(q);
     }
   }

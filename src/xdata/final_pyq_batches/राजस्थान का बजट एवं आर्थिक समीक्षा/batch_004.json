@@ -1,0 +1,652 @@
+{
+  "masterTopic": "राजस्थान का बजट एवं आर्थिक समीक्षा",
+  "batchIndex": 4,
+  "batchName": "राजस्थान का बजट एवं आर्थिक समीक्षा भाग 4",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-का-बजट-एवं-आर्थिक-समीक्षा",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "स्मार्ट सेवा केन्द्रों में कौन सी सेवाएं उपलब्ध कराई जाएंगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल बिजली बिल भुगतान"
+        },
+        {
+          "id": "opt2",
+          "text": "पासपोर्ट सेवा"
+        },
+        {
+          "id": "opt3",
+          "text": "जन्म, मृत्यु, विवाह प्रमाण-पत्र एवं Fire NOC"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल आधार कार्ड सेवा"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "समस्त नगरीय निकायों में चरणबद्ध रूप से स्मार्ट सेवा केन्द्र स्थापित कर आमजन को जन्म, मृत्यु एवं विवाह पंजीयन प्रमाण-पत्र, Fire NOC एवं अन्य अनुज्ञा पत्रों सम्बन्धी सेवायें online व समयबद्ध रूप से उपलब्ध करवायी जायेंगी।",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015661",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘Once-Only Principle’ का मुख्य उद्देश्य क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भी सेवाओं को निजीकरण करना"
+        },
+        {
+          "id": "opt2",
+          "text": "नागरिकों से दस्तावेज केवल एक बार लेना"
+        },
+        {
+          "id": "opt3",
+          "text": "सभी सेवाओं को ऑफलाइन करना"
+        },
+        {
+          "id": "opt4",
+          "text": "नए विभाग बनाना"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "‘Once-Only Principle’ को लागू किया जाना प्रस्तावित है, जिसमें विभाग आपस में डेटा साझा करेंगे। नागरिकों और उद्यमियों से कोई भी दस्तावेज केवल एक ही बार लिया जायेगा।",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015662",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किन जिलों में Flying Training Organisations (FTOs) स्थापित किये जायेंगे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाई माधोपुर एवं बांसवाड़ा"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर एवं हनुमानगढ़"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर एवं भरतपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर एवं टोंक"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्य में बेहतर Air connectivity उपलब्ध कराने के लिए सीकर-झुंझुनूं तथा भरतपुर-डीग क्षेत्र में नवीन Airports स्थापित किये जाने हेतु feasibility study करवायी जायेगी। साथ ही, सवाई माधोपुर एवं बांसवाड़ा में Flying Training Organisations (FTOs) स्थापित किये जायेंगे।",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015663",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान बजट 2026-27 घोषणा के अनुसार किस जिले में War Museum की स्थापना की जायेगी",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "झुंझुनूं"
+        },
+        {
+          "id": "opt2",
+          "text": "जैसलमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "बाड़मेर"
+        },
+        {
+          "id": "opt4",
+          "text": "बीकानेर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "वीरों की धरती राजस्थान के बहादुर सपूतों के देश की सुरक्षा में योगदान तथा उनकी वीरता और बलिदान को सम्मान दिये जाने के उद्देश्य से झुंझुनूं में War Museum की स्थापना की जायेगी।",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015664",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वरिष्ठ नागरिक तीर्थ यात्रा योजना के अंतर्गत हवाई मार्ग से कितने वरिष्ठजनों को पशुपतिनाथ (काठमांडू) ले जाने का प्रस्ताव है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3,000"
+        },
+        {
+          "id": "opt2",
+          "text": "5,000"
+        },
+        {
+          "id": "opt3",
+          "text": "6,000"
+        },
+        {
+          "id": "opt4",
+          "text": "10,000"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "वरिष्ठ नागरिक तीर्थ यात्रा योजना के अन्तर्गत आगामी वर्ष 6 हजार (छह हजार) वरिष्ठजन को हवाई मार्ग से पशुपतिनाथ काठमांडू (नेपाल) तथा 50 हजार (पचास हजार) वरिष्ठजन को AC Train से विभिन्न तीर्थ स्थलों की यात्रा करवायी जानी प्रस्तावित है।",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015665",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "शेखावाटी हवेली संरक्षण योजना के अंतर्गत अगले 2 वर्षों में कितनी राशि व्यय की जाएगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹100 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹150 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹200 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "₹250 करोड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "शेखावाटी हवेली संरक्षण योजना के अन्तर्गत झुंझुनूं, चूरू एवं सीकर में 660 (छह सौ साठ) से अधिक चिन्हित हवेलियों के Facade Improvement के साथ-साथ Heritage Street Furniture व साफ-सफाई सम्बन्धी सुविधायें विकसित की जायेंगी। साथ ही, हवेली को पर्यटन इकाई के रूप में परिवर्तित करने वाले हवेली स्वामी को वित्तीय सहायता प्रदान की जायेगी। इसके लिए आगामी 2 वर्षों में 200 करोड़ (दो सौ करोड़) रुपये का व्यय किया जायेगा। शेखावाटी क्षेत्र की हवेलियों को अन्तरराष्ट्रीय स्तर पर पहचान दिलाने की दृष्टि से यूनेस्को की विश्व विरासत सूची में सम्मिलित कराने हेतु आवश्यक कदम उठाये जायेंगे।",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015666",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "_____ में ब्रज कन्वेंशन सेंटर का निर्माण 100 करोड़ रुपये की लागत से किया जायेगा।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भरतपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "धौलपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "अलवर"
+        },
+        {
+          "id": "opt4",
+          "text": "डीग"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "भरतपुर में अत्याधुनिक ब्रज कन्वेंशन सेंटर का निर्माण 100 करोड़ रुपये की लागत से किया जायेगा।",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015667",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "खुड़ी (जैसलमेर) में किस प्रकार का विशेष पर्यटन क्षेत्र विकसित किया जाएगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इको टूरिज्म पार्क"
+        },
+        {
+          "id": "opt2",
+          "text": "एडवेंचर स्पोर्ट्स ज़ोन"
+        },
+        {
+          "id": "opt3",
+          "text": "Ultra Luxury Special Tourism Zone (STZ)"
+        },
+        {
+          "id": "opt4",
+          "text": "धार्मिक पर्यटन केंद्र"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "पर्यटन एवं Hospitality की दृष्टि से खुड़ी-जैसलमेर में ultra luxury Special Tourism Zone (STZ) विकसित किया जायेगा। साथ ही, कुलधरा में पर्यटक सुविधा केन्द्र विकसित किया जायेगा।",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015668",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जवाहर कला केन्द्र, जयपुर में शिल्पग्राम के नवनिर्माण के लिए कितनी राशि प्रस्तावित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹10 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹12 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹15 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "₹20 करोड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जवाहर कला केन्द्र-जयपुर में शिल्पग्राम का 15 करोड़ रुपये की लागत से नवनिर्माण करवाया जायेगा।",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015669",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "आमेर किला एवं आमेर कस्बे में विश्वस्तरीय पर्यटन सुविधाओं के लिए कितनी राशि खर्च की जाएगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹25 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹40 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹50 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "₹60 करोड़"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जयपुर स्थित आमेर किले एवं सम्पूर्ण आमेर कस्बे में विश्वस्तरीय पर्यटन सुविधायें यथा-Digital Museum, Signages, Lights, Parking आदि के लिए 50 करोड़ रुपये का व्यय किया जायेगा।",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015670",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "पुष्कर, खाटूश्यामजी, नाथद्वारा आदि शहरों में Heritage Walk-Way निर्माण हेतु कितनी राशि प्रस्तावित है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "₹20 करोड़"
+        },
+        {
+          "id": "opt2",
+          "text": "₹30 करोड़"
+        },
+        {
+          "id": "opt3",
+          "text": "₹40 करोड़"
+        },
+        {
+          "id": "opt4",
+          "text": "₹50 करोड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "हैरिटेज शहरों यथा-पुष्कर, खाटूश्यामजी, नाथद्वारा, केशोरायपाटन, डीग तथा चित्तौड़गढ़ में Heritage Walk-Way का 30 करोड़ रुपये व्यय कर निर्माण करवाया जायेगा।",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015671",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य को वर्ष 2047 तक किस रूप में विकसित करने का लक्ष्य रखा गया है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "औद्योगिक हब"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्रामीण, वैश्विक व ईको-टूरिज्म एवं सांस्कृतिक केन्द्र"
+        },
+        {
+          "id": "opt3",
+          "text": "कृषि निर्यात केंद्र"
+        },
+        {
+          "id": "opt4",
+          "text": "आईटी हब"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान को वर्ष 2047 तक एक ग्रामीण, वैश्विक व Eco-tourism तथा सांस्कृतिक केन्द्र के रूप में विकसित किये जाने के लिए प्रदेश में पर्यटन सुविधाओं के साथ-साथ हैरिटेज संरक्षण व धार्मिक पर्यटन सम्बन्धी विभिन्न कार्य करवाये जायेंगे।",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015672",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य को पर्यटन प्रदेश के रूप में स्थापित करने के लिए RTICF का गठन किया गया है। RTICF का पूर्ण रूप क्या है?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Rajasthan Tourism Investment and Cultural Forum"
+        },
+        {
+          "id": "opt2",
+          "text": "Rajasthan Travel Infrastructure and Conservation Fund"
+        },
+        {
+          "id": "opt3",
+          "text": "Rajasthan Tourism Infrastructure and Capacity Building Fund"
+        },
+        {
+          "id": "opt4",
+          "text": "Regional Tourism Innovation and Capital Fund"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "‘विकास भी, विरासत भी’ की सोच के साथ राज्य को पर्यटन प्रदेश के रूप में स्थापित करने तथा पर्यटकों के लिए सुविधायें विकसित किये जाने के लिए 5 हजार करोड़ (पांच हजार करोड़) रुपये से अधिक के कार्यों के लिए Rajasthan Tourism Infrastructure and Capacity Building Fund (RTICF) का गठन भी किया गया है।",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015673",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "श्रमिकों के पंजीकरण, पहचान-पत्र एवं डिजिटल लेबर चौक की सुविधा के लिए कौन-सा Mobile App शुरू किया जायेगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रमिक मित्र ऐप"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रम-सेतु ऐप"
+        },
+        {
+          "id": "opt3",
+          "text": "रोजगार साथी ऐप"
+        },
+        {
+          "id": "opt4",
+          "text": "जनश्रम ऐप"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "श्रमिकों के कल्याण एवं रोजगार अवसरों में वृद्धि हेतु श्रम-सेतु Mobile App शुरू किया जायेगा। इसके माध्यम से श्रमिक पंजीकरण, पहचान-पत्र, रोजगार की माँग एवं आपूर्ति हेतु डिजिटल लेबर चौक, कल्याणकारी योजनाओं की जानकारी तथा BOCW Cess के online assessment एवं भुगतान की सुविधा उपलब्ध हो सकेगी।",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015674",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "Minor Forest Produce Processing Centres किन जिला मुख्यालयों पर स्थापित किये जायेंगे?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "डूंगरपुर एवं प्रतापगढ़"
+        },
+        {
+          "id": "opt2",
+          "text": "बांसवाड़ा एवं उदयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "कोटा एवं झालावाड़"
+        },
+        {
+          "id": "opt4",
+          "text": "सिरोही एवं पाली"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रदेश के जनजातीय युवकों को रोजगार व स्वरोजगार के अवसर उपलब्ध कराने के लिए आंवला, शहद, इमली, महुआ आदि के उत्पादों की Processing हेतु बांसवाड़ा व उदयपुर जिला मुख्यालयों पर Minor Forest Produce Processing Centres स्थापित किये जायेंगे।",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015675",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सहरिया, खैरवा एवं कथौड़ी जनजाति परिवारों की महिला मुखिया को प्रतिमाह कितनी राशि DBT के माध्यम से दी जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1,000 रुपये"
+        },
+        {
+          "id": "opt2",
+          "text": "1,200 रुपये"
+        },
+        {
+          "id": "opt3",
+          "text": "1,500 रुपये"
+        },
+        {
+          "id": "opt4",
+          "text": "2,000 रुपये"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रदेश के बारां जिले में निवासरत सहरिया व खैरवा तथा उदयपुर जिले के कथौड़ी जनजाति परिवारों को प्रतिमाह घी, तेल एवं दाल वितरण की प्रक्रिया को पारदर्शी बनाते हुए योजना में पात्र परिवारों की महिला मुखिया को एक हजार 200 (एक हजार दो सौ) रुपये प्रतिमाह DBT किये जाने की घोषणा। इस हेतु 55 करोड़ (पचपन करोड़) रुपये का व्यय कर लगभग 38 हजार (अड़तीस हजार) परिवारों को लाभान्वित किया जायेगा।",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015676",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सामाजिक न्याय एवं अधिकारिता विभाग के 42 आवासीय विद्यालयों के विद्यार्थियों को AI आधारित 24x7 Live Academic Mentoring किस संस्थान के सहयोग से दी जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "IIT बॉम्बे"
+        },
+        {
+          "id": "opt2",
+          "text": "IIT दिल्ली"
+        },
+        {
+          "id": "opt3",
+          "text": "IISc बेंगलुरु"
+        },
+        {
+          "id": "opt4",
+          "text": "NIT जयपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "सामाजिक न्याय एवं अधिकारिता विभाग द्वारा संचालित 42 (बयालीस) आवासीय विद्यालयों के 15 हजार (पन्द्रह हजार) विद्यार्थियों को बेहतर Learning Outcome तथा उच्चतर शिक्षण संस्थानों में प्रवेश की तैयारी के उद्देश्य से IIT, दिल्ली के सहयोग से AI आधारित 24x7 Live Academic Mentoring की सुविधा उपलब्ध करवायी जायेगी।",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015677",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजकीय बौद्धिक दिव्यांग पुनर्वास गृह, जामडोली-जयपुर की क्षमता 125 से बढ़ाकर कितनी की जायेगी?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "200"
+        },
+        {
+          "id": "opt2",
+          "text": "225"
+        },
+        {
+          "id": "opt3",
+          "text": "250"
+        },
+        {
+          "id": "opt4",
+          "text": "300"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजकीय बौद्धिक दिव्यांग पुनर्वास गृह, जामडोली-जयपुर में बालक व बालिका विंग की क्षमता 125 से बढ़ाकर 250 की जायेगी।",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015678",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किशोरी बालिका योजना का विस्तार राज्य के कितने Aspirational Blocks में किया जायेगा?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20"
+        },
+        {
+          "id": "opt2",
+          "text": "22"
+        },
+        {
+          "id": "opt3",
+          "text": "25"
+        },
+        {
+          "id": "opt4",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "वर्तमान में Aspirational जिलों-करौली, धौलपुर, बारां, जैसलमेर एवं सिरोही में संचालित किशोरी बालिका योजना का विस्तार करते हुए राज्य के समस्त 27 (सत्ताइस) Aspirational Blocks में किशोरी बालिकाओं को पूरक पोषाहार का लाभ दिया जाना प्रस्तावित है। इससे योजनान्तर्गत 50 हजार (पचास हजार) से अधिक बालिकायें लाभान्वित होंगी।",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015679",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘महिला एवं बाल शक्ति संकुल’ किन दो शहरों में बनाये जाने प्रस्तावित हैं?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर एवं उदयपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "भरतपुर एवं कोटा"
+        },
+        {
+          "id": "opt3",
+          "text": "अजमेर एवं बीकानेर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर एवं अलवर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "प्रदेश में भरतपुर तथा कोटा में समेकित बाल विकास सेवायें तथा महिला अधिकारिता कार्यालयों के लिए ‘महिला एवं बाल शक्ति संकुल’ बनाये जाने प्रस्तावित हैं।",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_015680",
+        "exam": null,
+        "year": null
+      }
+    }
+  ]
+}

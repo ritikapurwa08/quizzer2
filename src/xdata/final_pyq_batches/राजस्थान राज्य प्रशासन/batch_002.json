@@ -2,7 +2,7 @@
   "masterTopic": "राजस्थान राज्य प्रशासन",
   "batchIndex": 2,
   "batchName": "राजस्थान राज्य प्रशासन भाग 2",
-  "subject": "राजस्थान की राजव्यवस्था",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
   "subjectSlug": "rajasthan-polity-administration",
   "topicSlug": "राजस्थान-राज्य-प्रशासन",
   "negativeMarking": true,
@@ -10,662 +10,662 @@
   "questions": [
     {
       "type": "mcq",
-      "questionText": "जब किसी राज्य की विधानसभा का सत्र नहीं चल रहा हो तो अध्यादेश कौन जारी कर सकता है -",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के मुख्य सचिव थे, जब भारतीय राष्ट्रीय कांग्रेस दिसम्बर 2018 में सत्ता में आई -",
       "options": [
         {
           "id": "opt1",
-          "text": "राष्ट्रपति"
+          "text": "श्री अशोक जैन"
         },
         {
           "id": "opt2",
-          "text": "स्पीकर"
+          "text": "श्री निहाल चंद गोयल"
         },
         {
           "id": "opt3",
-          "text": "राज्यपाल"
+          "text": "श्री निरंजन कुमार आर्य"
         },
         {
           "id": "opt4",
-          "text": "मुख्यमंत्री"
+          "text": "श्री देवेन्द्र भूषण गुप्ता"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "भारतीय संविधान के अनुच्छेद 213 के अनुसार, जब विधानसभा का सत्र नहीं चल रहा हो, तो राज्यपाल अध्यादेश जारी कर सकता है।",
-      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 1st Shift",
+      "correctAnswer": "opt4",
+      "explanation": "जब भारतीय राष्ट्रीय कांग्रेस दिसंबर2018में राजस्थान में सत्ता में आई तब श्री निरंजन कुमार आर्य राजस्थान के मुख्य सचिव थे। ये राजस्थान के प्रथम दलित प्रमुख सचिव थे।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - B) (Re-Exam) (2022)",
       "difficulty": "medium",
       "order": 0,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14540,
-        "exam": "Rajasthan Patwar Exam 2025 1st Shift",
-        "year": 2025
+        "sourceQuestionId": "rg_012070",
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - B) (Re-Exam)",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "किसी राज्य के मुख्यमंत्री की नियुक्ति किसके द्वारा की जाती है -",
+      "questionText": "राजस्थान के निम्नलिखित पूर्व मुख्य सचिवों पर विचार करें :A. श्री कृष्ण पुरी B. श्री के. एन. सुब्रमण्यमC. श्री बी. जी. रावD. श्री भगतसिंह मेहतानिम्नलिखित में से कौन सा विकल्प उनके कार्यकाल का सही कालानुक्रम है -",
       "options": [
         {
           "id": "opt1",
-          "text": "राष्ट्रपति"
+          "text": "A, B, D, C"
         },
         {
           "id": "opt2",
-          "text": "राज्यपाल"
+          "text": "B, A, D, C"
         },
         {
           "id": "opt3",
-          "text": "मंत्रिपरिषद"
+          "text": "C, A, B, D"
         },
         {
           "id": "opt4",
-          "text": "प्रधान मंत्री"
+          "text": "D, B, A, C"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "भारतीय संविधान के अनुच्छेद 164 के अनुसार, राज्यपाल राज्य के मुख्यमंत्री की नियुक्ति करता है।",
-      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 1st Shift",
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के इन मुख्य सचिवों के कार्यकाल का कालानुक्रमिक क्रम इस प्रकार है:बी.जी. रावकृष्णा पुरीके.एन. सुब्रमण्यमभगत सिंह मेहता",
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - (Paper-I GK And Others) (2022)",
       "difficulty": "medium",
       "order": 1,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14541,
-        "exam": "Rajasthan Patwar Exam 2025 1st Shift",
-        "year": 2025
+        "sourceQuestionId": "rg_012071",
+        "exam": "Senior Physical Education Teacher Exam - (Paper-I GK And Others)",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान में सातवें संवैधानिक संशोधन के अन्तर्गत “राजप्रमुख” का पद, किस दिनांक से रद्द किया गया -",
+      "questionText": "राजस्थान में राज्य प्रशासन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:I. राजस्थान में शासन सचिवालय की स्थापना सन् 1949 में की गई।II. राज्य में प्रशासन तंत्र की स्थापना हेतु राजस्थान एडमिनिस्ट्रेशन ऑर्डिनेंस, 1949 प्रख्यापित किया गया।निम्नलिखित में से कौन सा विकल्प सही है -",
       "options": [
         {
           "id": "opt1",
-          "text": "01 नवंबर, 1955"
+          "text": "केवल कथन I सत्य है।"
         },
         {
           "id": "opt2",
-          "text": "01 नवंबर, 1956"
+          "text": "केवल कथन II सत्य है।"
         },
         {
           "id": "opt3",
-          "text": "10 नवंबर, 1956"
+          "text": "कथन I एवं II दोनों सत्य हैं।"
         },
         {
           "id": "opt4",
-          "text": "03 अक्टूबर, 1955"
+          "text": "कथन I एवं II दोनों असत्य हैं।"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "राज्य पुनर्गठन आयोग की सिफारिशों के आधार पर 7वें संविधान संशोधन के तहत 1 नवम्बर 1956 ई. से राजप्रमुख की संस्था समाप्त कर दी गई। अक्टूबर 1956 ई. को श्री गुरुमुख निहाल सिंह को राजस्थान का प्रथम राज्यपाल नियुक्त किया गया।",
-      "reference": "📌 PYQ — Livestock Assistant Exam 2025",
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में राज्य प्रशासन के संदर्भ में दोनों कथन सत्य है- राजस्थान में शासन सचिवालय की स्थापना सन्1949में की गई। राज्य में प्रशासन तंत्र की स्थापना हेतु राजस्थान एडमिनिस्ट्रेशन ऑर्डिनेंस, 1949प्रख्यापित किया गया।",
+      "reference": "📌 PYQ — Senior Physical Education Teacher Exam - (Paper-I GK And Others) (2022)",
       "difficulty": "medium",
       "order": 2,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14542,
-        "exam": "Livestock Assistant Exam 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012072",
+        "exam": "Senior Physical Education Teacher Exam - (Paper-I GK And Others)",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान के निम्नलिखित पूर्व मुख्यमन्त्रियों को उनके कार्यकाल के कालक्रमानुसार व्यवस्थित कीजिए -(I) जय नारायण व्यास (II) जगन्नाथ पहाड़िया(III) हीरा लाल देवपुरा (IV) बरकतुल्लाह खानसही विकल्प चुनिए -",
+      "questionText": "राजस्थान के निम्नांकित मुख्य सचिवों में से किसका कार्यकाल सबसे कम रहा है -",
       "options": [
         {
           "id": "opt1",
-          "text": "(1), (III), (II), (IV)"
+          "text": "आनंद मोहनलाल सक्सेना"
         },
         {
           "id": "opt2",
-          "text": "(IV), (III), (II), (I)"
+          "text": "एच. एम. माथुर"
         },
         {
           "id": "opt3",
-          "text": "(I), (II), (III), (IV)"
+          "text": "इन्द्रजीत खन्ना"
         },
         {
           "id": "opt4",
-          "text": "(I), (IV), (II), (III)"
+          "text": "गोपाल कृष्ण भनोत्"
         }
       ],
-      "correctAnswer": "opt4",
-      "explanation": "जय नारायण व्यास: 1949-1951, 1952-1954 (प्रथम निर्वाचित)।बरकतुल्लाह खान: 1971-1973 (अब तक के एकमात्र मुस्लिम मुख्यमंत्री)।जगन्नाथ पहाड़िया: 1980-1981 (राजस्थान के पहले दलित मुख्यमंत्री)।हीरा लाल देवपुरा: 1985 (अल्पकालिक)।",
-      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "correctAnswer": "opt2",
+      "explanation": "सबसे कम 6 दिन एचएम माथुर मुख्य सचिव रहे। वे 28 जनवरी 1994 से 2 फरवरी 1994 तक इस पद पर रहे।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B (2022)",
       "difficulty": "medium",
       "order": 3,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14543,
-        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012073",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "एक व्यक्ति जो राज्य विधानमंडल का सदस्य नहीं है, उसे अधिकतम कितने समय की अवधि तक मुख्यमंत्री नियुक्त किया जा सकता है -",
+      "questionText": "निम्नलिखित में से कौन राजस्थान ग्रामीण आजीविका विकास परिषद की अधिकार प्राप्त समिति का अध्यक्ष है -",
       "options": [
         {
           "id": "opt1",
-          "text": "2 महीने"
+          "text": "मुख्य सचिव, राजस्थान सरकार"
         },
         {
           "id": "opt2",
-          "text": "4 महीने"
+          "text": "चिव, सहकारिता विभाग, राजस्थान सरकार"
         },
         {
           "id": "opt3",
-          "text": "6 महीने"
+          "text": "मंत्री, ग्रामीण विकास विभाग, राजस्थान सरकार"
         },
         {
           "id": "opt4",
-          "text": "1 वर्ष"
+          "text": "मुख्यमंत्री, राजस्थान सरकार"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "भारतीय संविधान के अनुच्छेद 164(4) के अनुसार, राज्य विधानमंडल का सदस्य न होने वाला व्यक्ति मुख्यमंत्री या मंत्री 6 महीने तक नियुक्त रह सकता है।",
-      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान ग्रामीण आजीविका विकास परिषद (RGAVP) की अधिकार प्राप्त समिति के अध्यक्ष मुख्य सचिव, राजस्थान होते हैं",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B (2022)",
       "difficulty": "medium",
       "order": 4,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14545,
-        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
-        "year": 2025
+        "sourceQuestionId": "rg_012074",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "भारतीय संविधान के अनुच्छेद 164 के अनुसार, किसी राज्य के मुख्यमंत्री को कौन नियुक्त कर सकता है -",
+      "questionText": "राजस्थान के मुख्य सचिव से संबन्धित निम्नलिखित कथनों पर विचार कीजिए और सही विकल्प की पहचान कीजिये :(I) मुख्य सचिव मंत्रि-परिषद् का, साथ ही उसकी उप-समिति का भी सचिव होगा।(II) राजस्थान में भारतीय प्रशासनिक सेवा के वरिष्ठतम अधिकारी को ही मुख्य सचिव नियुक्त किया जा सकता है।",
       "options": [
         {
           "id": "opt1",
-          "text": "प्रधानमंत्री"
+          "text": "न तो (I) और न ही (II) सही है।"
         },
         {
           "id": "opt2",
-          "text": "राज्यपाल"
+          "text": "केवल (I) सही है।"
         },
         {
           "id": "opt3",
-          "text": "राष्ट्रपति"
+          "text": "केवल (II) सही है ।"
         },
         {
           "id": "opt4",
-          "text": "भारत के मुख्य न्यायाधीश"
+          "text": "(I) और (II) दोनों सही हैं।"
         }
       ],
       "correctAnswer": "opt2",
-      "explanation": "भारतीय संविधान के अनुच्छेद 164(1) के अनुसार, राज्य के मुख्यमंत्री की नियुक्ति राज्यपाल द्वारा की जाती है। राज्यपाल उस व्यक्ति को मुख्यमंत्री नियुक्त करता है जो विधानसभा में बहुमत का समर्थन प्राप्त करता हो।",
-      "reference": "📌 PYQ — Livestock Assistant Exam 2025",
+      "explanation": "",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group A (2022)",
       "difficulty": "medium",
       "order": 5,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14546,
-        "exam": "Livestock Assistant Exam 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012075",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group A",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "कौनसे कथन राजस्थान में लोक अदालतों से संबंधित है?a. इन्हें “जन अदालत” भी कहा जा सकता है।b. इन्हें राष्ट्रीय विधिक सेवा प्राधिकरण अधिनियम 1987 के अंतर्गत वैधानिक दर्जा दिया गया है।c. इसके द्वारा दिया गया निर्णय, किसी ‘आपराधिक न्यायालय’ की डिक्री समझा जाता है।d. इसका निर्णय अंतिम नहीं है, और इसके निर्णय के विरूद्ध किसी भी न्यायालय के समक्ष अपील की जा सकती है।नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "questionText": "राजस्थान के निम्नलिखित पूर्व मुख्य सचिवों की उनके कार्यकाल के अनुसार कालानुक्रम में व्यवस्थित करें।",
       "options": [
         {
           "id": "opt1",
-          "text": "a, b और c"
+          "text": "राजीव महर्षि - सी. के. मैथ्यु - निहाल चंद गोयल - डी. बी. गुप्ता"
         },
         {
           "id": "opt2",
-          "text": "b, c और d"
+          "text": "निहाल चंद गोयल - सी. के. मैथ्यु - राजीव महर्षि - डी. बी. गुप्ता"
         },
         {
           "id": "opt3",
-          "text": "a और b"
+          "text": "राजीव महर्षि - निहाल चंद गोयल - सी. के. मैथ्यु - डी. बी. गुप्ता"
         },
         {
           "id": "opt4",
-          "text": "b और c"
+          "text": "सी. के. मैथ्यु - राजीव महर्षि - निहाल चंद गोयल - डी. बी. गुप्ता"
         }
       ],
       "correctAnswer": "opt3",
-      "explanation": "लोक अदालत को आम भाषा में जन अदालत कहा जाता है। लोक अदालतों को Legal Services Authorities Act, 1987 के तहत वैधानिक (statutory) दर्जा प्राप्त है। लोक अदालत का निर्णय सिविल कोर्ट की डिक्री माना जाता है, न कि आपराधिक न्यायालय की। लोक अदालत का निर्णय अंतिम और बाध्यकारी होता है। इसके विरुद्ध कोई अपील नहीं की जा सकती।",
-      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "explanation": "",
+      "reference": "📌 PYQ — 3rd Grade Teacher Hindi L2 (2022)",
       "difficulty": "medium",
       "order": 6,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14547,
-        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
-        "year": 2025
+        "sourceQuestionId": "rg_012077",
+        "exam": "3rd Grade Teacher Hindi L2",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "जोधपुर में राजस्थान उच्च न्यायालय का उद्घाटन 29.08.1949 को राजस्थान के किस राजप्रमुख द्वारा किया गया था -",
+      "questionText": "राजस्थान के मुख्य सचिवों का उनके कार्यकाल के अनुसार सही कालक्रम कौनसा है -",
       "options": [
         {
           "id": "opt1",
-          "text": "महाराजा भूपाल सिंह"
+          "text": "कुशल सिंह, टी. श्रीनिवासन, डी.सी. सामन्त, सलाउद्दीन अहमद"
         },
         {
           "id": "opt2",
-          "text": "महाराजा सवाई मान सिंह"
+          "text": "लाउद्दीन अहमद, टी. श्रीनिवासन, कुशल सिंह, डी. सी. सामन्त"
         },
         {
           "id": "opt3",
-          "text": "महारावल चन्द्र सिंह"
+          "text": "डी.सी. सामन्त, कुशल सिंह, टी. श्रीनिवासन, सलाउद्दीन अहमद"
         },
         {
           "id": "opt4",
-          "text": "महारावल लक्ष्मण सिंह"
+          "text": "टी. श्रीनिवासन, डी.सी. सामन्त, सलाउद्दीन अहमद, कुशल सिंह"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "राजस्थान के उच्च न्यायालय का उद्घाटन 29 अगस्त 1949 को राजप्रमुख, महाराजा सवाई मान सिंह द्वारा किया गया था। कालांतर में, राज्य पुनर्गठन अधिनियम, 1956 की धारा 49 के तहत नवीन उच्च न्यायालय स्थापित हुआ जिसकी मुख्य पीठ जोधपुर में स्थित की गयी। सर्व श्री पी.सत्यनारायण राव, वी.विश्वनाथन और बी.के.गुप्ता की समिति की रिपोर्ट पर जयपुर खंडपीठ को वर्ष 1958 में समाप्त कर दिया गया था। राजस्थान का उच्च न्यायालय (जयपुर में स्थायी पीठ की स्थापना) आदेश, 1976 द्वारा राजस्थान उच्च न्यायालय जयपुर पीठ को फिर से जयपुर में स्थापित किया गया और 30.01.1977 से जयपुर पीठ ने कार्य करना शुरू किया।",
-      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — School Lecturer Gk (Group E) (2022)",
       "difficulty": "medium",
       "order": 7,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14552,
-        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
-        "year": 2025
+        "sourceQuestionId": "rg_012080",
+        "exam": "School Lecturer Gk (Group E)",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन-सा राजस्थान राज्य में सर्वोच्च श्रेणी वाला पुलिस अधिकारी पद है -",
+      "questionText": "राजस्थान में, ‘राजस्थान पुलिस अकादमी’ कहाँ स्थित है -",
       "options": [
         {
           "id": "opt1",
-          "text": "पुलिस महानिरीक्षक (IGP)"
+          "text": "अजमेर"
         },
         {
           "id": "opt2",
-          "text": "पुलिस महानिदेशक (DGP)"
+          "text": "जयपुर"
         },
         {
           "id": "opt3",
-          "text": "वरिष्ठ पुलिस अधीक्षक (SSP)"
+          "text": "जोधपुर"
         },
         {
           "id": "opt4",
-          "text": "पुलिस उप महानिरीक्षक (डिप्टी IGP)"
+          "text": "कोटा"
         }
       ],
       "correctAnswer": "opt2",
-      "explanation": "DGP (Director General of Police) किसी राज्य का सर्वोच्च पुलिस अधिकारी होता है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "explanation": "पुलिस विभाग के अधिकारियों को प्रशिक्षण हेतु राज्य स्तर पर जयपुर में राजस्थान पुलिस अकादमी स्थापित की गई है। रैंज स्तर पर पुलिस प्रशिक्षण स्कूल (PTS) - खेरवाड़ा (उदयपुर), जोधपुर, किशनगढ़ (अजमेर) एवं झालावाड़ में स्थापित हैं जिनमें हैड कांस्टेबल एवं कांस्टेबल को प्रशिक्षण दिया जाता है।",
+      "reference": "📌 PYQ — Forest Guard Exam Shift 3 (2022)",
       "difficulty": "medium",
       "order": 8,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14523,
-        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012081",
+        "exam": "Forest Guard Exam Shift 3",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "भारत में राज्यों के राज्यपाल के पद के बारे में निम्नलिखित में से कौन-सा कथन सही है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "questionText": "राजस्थान की एस.डी.जी. रिपोर्ट किसके द्वारा जारी की जाती है –",
       "options": [
         {
           "id": "opt1",
-          "text": "किसी राज्य के राज्यपाल का चुनाव राज्य विधानमंडल के सदस्यों द्वारा किया जाता है।"
+          "text": "आर्थिक एवं सांख्यिकी निदेशालय"
         },
         {
           "id": "opt2",
-          "text": "राज्यपाल संसद के किसी भी सदन या किसी राज्य के विधानमंडल के किसी सदन के सदस्य नहीं होंगे।"
+          "text": "प्रशासनिक सुधार एवं समन्वय विभाग"
         },
         {
           "id": "opt3",
-          "text": "राज्यपाल छह वर्ष की अवधि के लिए पद पर रहेंगे।"
+          "text": "जनगणना कार्य निदेशालय, राजस्थान"
         },
         {
           "id": "opt4",
-          "text": "भारत का कोई भी नागरिक जिसने 30 वर्ष की आयु पूरी कर ली है, राज्यपाल नियुक्त होने के लिए पात्र है।"
+          "text": "कौशल, नियोजन एवं उद्यमिता विभाग"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "राज्यपाल संसद के किसी भी सदन या किसी राज्य के विधानमंडल के किसी सदन के सदस्य नहीं होंगे। राज्यपाल के रूप में नियुक्त होने के लिए व्यक्ति को 35 वर्ष की आयु पूरी करनी चाहिए। राज्यपाल राष्ट्रपति की इच्छा पर पद धारण करेगा।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — Forest Guard Exam Shift 1 (2022)",
       "difficulty": "medium",
       "order": 9,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14527,
-        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012082",
+        "exam": "Forest Guard Exam Shift 1",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "राज्य का राज्यपाल राज्य के मंत्रिपरिषद की नियुक्ति किसकी सलाह पर करता है -",
+      "questionText": "निम्नांकित में से किन जिलों में पुलिस कमिश्नरेट व्यवस्था विद्यमान है -",
       "options": [
         {
           "id": "opt1",
-          "text": "मुख्यमंत्री"
+          "text": "जयपुर – अजमेर"
         },
         {
           "id": "opt2",
-          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+          "text": "जयपुर – बीकानेर"
         },
         {
           "id": "opt3",
-          "text": "केन्द्रीय गृह मंत्री"
+          "text": "जयपुर – जोधपुर"
         },
         {
           "id": "opt4",
-          "text": "जिला कलेक्टर"
+          "text": "जयपुर – कोटा"
         }
       ],
-      "correctAnswer": "opt1",
-      "explanation": "संविधान के अनुच्छेद 164 के तहत राज्यपाल मुख्यमंत्री की सलाह पर मंत्रिपरिषद की नियुक्ति करता है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — Police SI 15 September (Gk) (2021)",
       "difficulty": "medium",
       "order": 10,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14528,
-        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012087",
+        "exam": "Police SI 15 September (Gk)",
+        "year": 2021
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजप्रमुख की संस्था के समाप्त होने के बाद राजस्थान के पहले राज्यपाल कौन बने - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "questionText": "सूची – I का सूची – II से मिलान कीजिए और नीचे दिए गए कूट में से सही उत्तर का चयन कीजिए – सूची-I(a)महाराणा प्रताप आम्र्ड बटालियन(b)सरदार पटेल पुलिस विश्वविद्यालय(c)पहला महिला कर्मचारी पुलिस थाना(d)मेवाड़ भील कोरसूची – II(i) उदयपुर(ii) जयपुर(iii) जोधपुर(iv) प्रतापगढ़कूट –",
       "options": [
         {
           "id": "opt1",
-          "text": "गुरुमुख निहाल सिंह"
+          "text": "(iv), b-(iii), c-(ii), d-(i)"
         },
         {
           "id": "opt2",
-          "text": "महाराज मान सिंह द्वितीय"
+          "text": "(i), b-(iii), c-(iv), d-(ii)"
         },
         {
           "id": "opt3",
-          "text": "रघुकुल तिलक"
+          "text": "(iii), b-(ii), C-(iv), d-(i)"
         },
         {
           "id": "opt4",
-          "text": "श्री बलि राम भगत"
+          "text": "(ii), b-(iii), c-(iv), d-(i)"
         }
       ],
       "correctAnswer": "opt1",
-      "explanation": "राजस्थान में प्रारंभ में राजप्रमुख राज्य प्रमुख थे। जब यह संस्था समाप्त की गई, तो 1956 में गुरुमुख निहाल सिंह राजस्थान के पहले संवैधानिक राज्यपाल बने।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "explanation": "स्थल (स्थान)अवस्थतिमहाराणा प्रताप सशस्त्र बटालियनप्रतापगढ़सरदार पटेल पुलिस विश्वविद्यालयजोधपुरपहला महिला कर्मचारी पुलिस थानाजयपुरमेवाड़ भील कोरउदयपुर",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec (2021)",
       "difficulty": "medium",
       "order": 11,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14529,
-        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012089",
+        "exam": "VDO Exam 1st Shift 28 Dec",
+        "year": 2021
       }
     },
     {
       "type": "mcq",
-      "questionText": "राज्य का राज्यपाल अन्य मंत्रियों की नियुक्ति किसके परामर्श पर करते हैं -",
+      "questionText": "राजस्थान में शासन सचिवालय की स्थापना कब हुई -",
       "options": [
         {
           "id": "opt1",
-          "text": "अध्यक्ष"
+          "text": "अप्रैल 1949"
         },
         {
           "id": "opt2",
-          "text": "उच्च न्यायालय"
+          "text": "नवम्बर 1950"
         },
         {
           "id": "opt3",
-          "text": "मुख्यमंत्री"
+          "text": "नवम्बर 1949"
         },
         {
           "id": "opt4",
-          "text": "प्रधान मंत्री"
+          "text": "अप्रैल 1950"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "संविधान के अनुच्छेद 164 के अनुसार — राज्यपाल मुख्यमंत्री की सलाह पर अन्य मंत्रियों की नियुक्ति करते हैं।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — VDO Exam 1st Shift 28 Dec (2021)",
       "difficulty": "medium",
       "order": 12,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14530,
-        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012091",
+        "exam": "VDO Exam 1st Shift 28 Dec",
+        "year": 2021
       }
     },
     {
       "type": "mcq",
-      "questionText": "राज्यपाल द्वारा जारी किया गया अध्यादेश, राज्य विधानमंडल के पुनः सत्रारंभ के बाद, अधिकतम कितने समय तक प्रभावी रहता है -",
+      "questionText": "निम्नलिखित में से राजस्थान के कौन से मुख्य सचिव राजस्थान लोक सेवा आयोग के सदस्य रह चुके है -",
       "options": [
         {
           "id": "opt1",
-          "text": "18 सप्ताह"
+          "text": "ांवलदान उज्जवल"
         },
         {
           "id": "opt2",
-          "text": "6 सप्ताह"
+          "text": "ुन्दरलाल खुराना"
         },
         {
           "id": "opt3",
-          "text": "24 सप्ताह"
+          "text": "मोहन मुखर्जी"
         },
         {
           "id": "opt4",
-          "text": "20 सप्ताह"
+          "text": "आनन्द मोहन लाल"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "संविधान के अनुसार, राज्यपाल द्वारा जारी अध्यादेश (Ordinance) राज्य विधानमंडल के पुनः सत्र शुरू होने के 6 सप्ताह बाद स्वतः समाप्त हो जाता है। यदि इस अवधि में विधानमंडल द्वारा उसे पारित नहीं किया जाता, तो उसकी वैधता समाप्त हो जाती है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के पूर्व मुख्य सचिव सांवलदान उज्ज्वल राजस्थान लोक सेवा आयोग (RPSC) के सदस्य भी रह चुके हैं।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III) (2020)",
       "difficulty": "medium",
       "order": 13,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14531,
-        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012078",
+        "exam": "Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III)",
+        "year": 2020
       }
     },
     {
       "type": "mcq",
-      "questionText": "राज्यपाल को केवल उन मामलों को छोड़कर जिनमें राज्यपाल अपने विवेक से कार्य करते हैं, उनके कार्यों के निष्पादन में सहायता और सलाह देने वाली मंत्रिपरिषद का प्रमुख कौन होता है -",
+      "questionText": "निम्नांकित में से कौन राजस्थान के मुख्य सचिव रहे हैं -A. वी. नारायणनB. किशन पुरीC. सांवलदान उज्जवलD. मधराज कल्लासही उत्तर का चयन कीजिए :",
       "options": [
         {
           "id": "opt1",
-          "text": "ज़िला कलेक्टर"
+          "text": "केवल A"
         },
         {
           "id": "opt2",
-          "text": "गृह मंत्री"
+          "text": "केवल B"
         },
         {
           "id": "opt3",
-          "text": "मुख्यमंत्री"
+          "text": "A, B एवं C"
         },
         {
           "id": "opt4",
-          "text": "राज्य वित्त मंत्री"
+          "text": "A, B, C एवं D"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "संविधान के अनुसार, राज्यपाल अपने कार्यों का संचालन मुख्यमंत्री और उनकी मंत्रिपरिषद की सलाह पर करते हैं। मुख्यमंत्री राज्य की कार्यपालिका का प्रमुख होता है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "correctAnswer": "opt1",
+      "explanation": "वी. नारायणन, किशन पुरी और सांवलदान उज्जवल ने राजस्थान के मुख्य सचिव के रूप में कार्य किया है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM (2020)",
       "difficulty": "medium",
       "order": 14,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14532,
-        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012084",
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM",
+        "year": 2020
       }
     },
     {
       "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन-सी राज्य में राज्यपाल की नियुक्ति के लिए आवश्यक योग्यता नहीं है -",
+      "questionText": "राजस्थान राज्य सचिवालय के निम्नांकित पदाधिकारियों पर विचार कीजिये -1. मुख्य सचिव 2. उप-सचिव 3. अतिरिक्त सचिव 4. शासन सचिवउपर्युक्त पदाधिकारियों का सही अवरोही क्रम क्या है -",
       "options": [
         {
           "id": "opt1",
-          "text": "भारत का नागरिक होना चाहिए"
+          "text": "1, 2, 3, 4"
         },
         {
           "id": "opt2",
-          "text": "लोकसभा का सदस्य होना चाहिए"
+          "text": "1, 3, 2, 4"
         },
         {
           "id": "opt3",
-          "text": "न्यूनतम आयु 35 वर्ष होनी चाहिए"
+          "text": "1, 4, 2, 3"
         },
         {
           "id": "opt4",
-          "text": "राज्यसभा का सदस्य नहीं हो सकता"
+          "text": "1, 4, 3, 2"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "राज्यपाल बनने के लिए व्यक्ति को भारत का नागरिक और कम से कम 35 वर्ष का होना चाहिए। लेकिन यह आवश्यक नहीं है कि वह लोकसभा का सदस्य हो — इसलिए यह विकल्प गलत है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "correctAnswer": "opt4",
+      "explanation": "मुख्य सचिव (मुख्य सचिव): सर्वोच्च प्रशासनिक अधिकारीप्रमुख सचिव (शासन सचिव): विभागों का नेतृत्व करने वाले वरिष्ठ अधिकारीअतिरिक्त सचिव (अतिरिक्त सचिव): प्रमुख सचिव के नीचेउप सचिव (उप-सचिव): इस पदानुक्रम में सबसे नीचे।",
+      "reference": "📌 PYQ — 2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam- (Group -B) (2018)",
       "difficulty": "medium",
       "order": 15,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14533,
-        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012109",
+        "exam": "2nd Grade Teacher (SANSKRIT EDUCATION) Comp. Exam- (Group -B)",
+        "year": 2018
       }
     },
     {
       "type": "mcq",
-      "questionText": "किसी राज्य का मुख्यमंत्री निम्नलिखित में से किसका सदस्य होता है -",
+      "questionText": "25 वर्षों के अंतराल के पश्चात् किस वर्ष में संभागीय आयुक्तों के पद पुनः सृजित किये गये -",
       "options": [
         {
           "id": "opt1",
-          "text": "अंतर-राज्यीय परिषद"
+          "text": "1977"
         },
         {
           "id": "opt2",
-          "text": "लोक लेखा समिति"
+          "text": "1985"
         },
         {
           "id": "opt3",
-          "text": "राज्य चयन बोर्ड"
+          "text": "1987"
         },
         {
           "id": "opt4",
-          "text": "भारत निर्वाचन आयोग"
+          "text": "1997"
         }
       ],
-      "correctAnswer": "opt1",
-      "explanation": "अंतर-राज्य परिषद (Inter-State Council) के सदस्य होते हैं – प्रधानमंत्री (अध्यक्ष), सभी राज्यों के मुख्यमंत्री, केंद्र शासित प्रदेशों के प्रशासक आदि। केंद्र सरकार ने केंद्र और राज्यों के बीच वर्तमान व्यवस्थाओं के कार्यकरण की समीक्षा करने के लिये न्यायमूर्ति आर.एस. सरकारिया की अध्यक्षता में वर्ष 1988 में एक आयोग गठित किया था। सरकारिया आयोग ने भारत के संविधान के अनुच्छेद 263 के अनुसार परिभाषित अधिदेश के अनुसरण में परामर्श करने के लिये एक स्वतंत्र राष्ट्रीय फोरम के रूप में अंतर्राज्यीय परिषद स्थापित किये जाने की महत्त्वपूर्ण सिफारिश की थी।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
+      "correctAnswer": "opt3",
+      "explanation": "1962 में राजस्थान संभागीय आयुक्त के कार्यालय का उन्मूलन किया गया और 1987 में पुनर्जीवित किया गया। आयुक्तों की भूमिकाएँ और शक्तियाँ एक राज्य से दूसरे राज्य में भिन्न होती हैं लेकिन एक सामान्य पहल है।",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam (G.K.) (2018)",
       "difficulty": "medium",
       "order": 16,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14544,
-        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012111",
+        "exam": "College Lecturer (Sarangi Instrument) Exam (G.K.)",
+        "year": 2018
       }
     },
     {
       "type": "mcq",
-      "questionText": "निम्नलिखित में से राजस्थान उच्च न्यायालय के पहले मुख्य न्यायाधीश कौन थे -",
+      "questionText": "निम्न में से कौन सा राजस्थान का मुख्य कार्यकारी अधिकारी होता है -",
       "options": [
         {
           "id": "opt1",
-          "text": "न्यायमूर्ति नवल किशोर"
+          "text": "मुख्य सचिव"
         },
         {
           "id": "opt2",
-          "text": "न्यायमूर्ति के.एल. बापना"
+          "text": "प्रमुख शासन सचिव"
         },
         {
           "id": "opt3",
-          "text": "न्यायमूर्ति अमर सिंह"
+          "text": "मुख्य मंत्री"
         },
         {
           "id": "opt4",
-          "text": "न्यायमूर्ति कमला कांत वर्मा"
+          "text": "मंत्रिमण्डल सचिव"
         }
       ],
-      "correctAnswer": "opt4",
-      "explanation": "संविधान के अनुच्छेद 214 के तहत राजस्थान के पहले उच्च न्यायालय का उद्घाटन जयपुर के महाराजा सवाई मानसिंह द्वारा 29 अगस्त, 1949 को जोधपुर में किया गया। मुख्य न्यायाधीश कमलकान्त वर्मा (इलाहाबाद उच्च न्यायालय के पूर्व मुख्य न्यायाधीश और उदयपुर उच्च न्यायालय के पूर्व मुख्य न्यायाधीश) एवं 11 अन्य न्यायाधीशों को महाराजा मानसिंह ने शपथ दिलवाई।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
+      "correctAnswer": "opt1",
+      "explanation": "मुख्य सचिव राजस्थान का मुख्य कार्यकारी अधिकारी होता है। यह राज्य शासन का प्रमुख होता है। यह राज्य सरकार के सभी सिविल सेवाओं का पदेन प्रमुख होता है। यह राज्य सरकार की महत्वपूर्ण फाइलों की मंजूरी देता है।",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam (G.K.) (2018)",
       "difficulty": "medium",
       "order": 17,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14548,
-        "exam": "RSSB Fourth Class Exam 2024 (21 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012112",
+        "exam": "College Lecturer (Sarangi Instrument) Exam (G.K.)",
+        "year": 2018
       }
     },
     {
       "type": "mcq",
-      "questionText": "नए राजस्थान राज्य के गठन पर, राजस्थान राज्य के पहले महाधिवक्ता कौन बने - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "questionText": "अधो लिखित राज्य सचिव में स्थिति पदों को नीचे दिये गये कूट की सहायता से पद सोपानीय क्रम (उच्चतर से निम्नतर) में नियोजित करते हुए सही उत्तर का चयन कीजिये -1. सचिव2. उप सचिव3. विशिष्ठ सचिव4. सहायक सचिवकूट -",
       "options": [
         {
           "id": "opt1",
-          "text": "डॉ. एल.एम. सिंघवी"
+          "text": "4, 3, 2, 1"
         },
         {
           "id": "opt2",
-          "text": "श्री जी.सी. कासलीवाल"
+          "text": "1, 3, 2, 4"
         },
         {
           "id": "opt3",
-          "text": "डॉ. एस.के. तिवारी"
+          "text": "2, 3, 4, 1"
         },
         {
           "id": "opt4",
-          "text": "श्री आर.के. रस्तोगी"
+          "text": "3, 2, 1, 4"
         }
       ],
       "correctAnswer": "opt2",
-      "explanation": "राजस्थान का महाधिवक्ता कार्यालय राज्य पुनर्गठन अधिनियम 1956 के अनुसार राजस्थान राज्य के गठन पर अस्तित्व में आया जब राजस्थान के उच्च न्यायालय की स्थापना की गई थी। राजस्थान के नए राज्य के गठन पर स्वर्गीय श्री जी. सी. कासलीवाल राजस्थान राज्य के पहले महाधिवक्ता बने।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "explanation": "राज्य सचिवालय में पदों का सही सोपानीय क्रम (उच्चतर से निम्नतर) निम्नलिखित है:सचिवविशेष सचिवउप सचिवसहायक सचिव",
+      "reference": "📌 PYQ — Gram Sevak (2016)",
       "difficulty": "medium",
       "order": 18,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14549,
-        "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012096",
+        "exam": "Gram Sevak",
+        "year": 2016
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान उच्च न्यायालय की मुख्य पीठ कहाँ स्थित है -",
+      "questionText": "राज्य के मुख्य सचिव को ‘अवशिष्ट वीयतदार’ कहा जाता है, जिसका अर्थ है -",
       "options": [
         {
           "id": "opt1",
-          "text": "जयपुर"
+          "text": "वह ऐसे सभी कार्य करता है जो विशिष्ट रूप से किसी सचिव को अवण्टित नहीं किये जाते हैं।"
         },
         {
           "id": "opt2",
-          "text": "जोधपुर"
+          "text": "वह मुख्यमंत्री का मुख्य सलाहकार होता है।"
         },
         {
           "id": "opt3",
-          "text": "अजमेर"
+          "text": "वह राज्य में सिविल सेवा का प्रधान होता है।"
         },
         {
           "id": "opt4",
-          "text": "उदयपुर"
+          "text": "वह कैबिनेट सचिव के रूप में कार्य करता है।"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "राजस्थान उच्च न्यायालय (Rajasthan High Court) की मुख्य पीठ जोधपुर में स्थित है, जबकि जयपुर में इसकी एक खंडपीठ (Bench) है।",
-      "reference": "📌 PYQ — RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
+      "correctAnswer": "opt1",
+      "explanation": "अवशिष्ट पदाधिकारी शब्द का तात्पर्य मुख्य सचिव की उन सभी कार्यों को संभालने की भूमिका से है जो विशेष रूप से अन्य सचिवों को नहीं सौंपे गए हैं, जिससे व्यापक प्रशासनिक निगरानी सुनिश्चित होती है। अन्य विकल्प विशिष्ट भूमिकाओं का वर्णन करते हैं, लेकिन ‘अवशिष्ट पदाधिकारी’ का अर्थ नहीं बताते हैं।",
+      "reference": "📌 PYQ — Sr. Teacher GrII Comp. Exam Gk (G-B) (2016)",
       "difficulty": "medium",
       "order": 19,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14550,
-        "exam": "RSSB Fourth Class Exam 2024 (19 Sep. 2025 2nd Shift)",
-        "year": 2024
+        "sourceQuestionId": "rg_012130",
+        "exam": "Sr. Teacher GrII Comp. Exam Gk (G-B)",
+        "year": 2016
       }
     }
   ]

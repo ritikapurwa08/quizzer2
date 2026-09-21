@@ -16,9 +16,9 @@ interface QuestionReviewFilterProps {
 }
 
 const FILTERS: { value: ReviewFilter; label: string }[] = [
-  { value: "all", label: "सभी" },
-  { value: "correct", label: "सही" },
-  { value: "incorrect", label: "गलत" },
+  { value: "all", label: "All" },
+  { value: "correct", label: "Correct" },
+  { value: "incorrect", label: "Incorrect" },
 ];
 
 /**
@@ -35,7 +35,7 @@ export function QuestionReviewFilter({
   return (
     <div
       role="group"
-      aria-label="प्रश्न फ़िल्टर"
+      aria-label="Question Filter"
       className={cn("flex items-center gap-1", className)}
     >
       {FILTERS.map((filter) => {
@@ -48,7 +48,7 @@ export function QuestionReviewFilter({
             onClick={() => onChange(filter.value)}
             aria-pressed={isActive}
             className={cn(
-              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer font-hindi select-none",
+              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer select-none",
               isActive
                 ? "bg-primary text-primary-foreground"
                 : "bg-muted text-muted-foreground hover:bg-muted/80 hover:text-foreground"

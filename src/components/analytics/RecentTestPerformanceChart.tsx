@@ -37,7 +37,7 @@ interface RecentTestPerformanceChartProps {
 
 const chartConfig = {
   scorePercent: {
-    label: "प्राप्तांक (Score %)",
+    label: "Score %",
     color: "var(--chart-3)",
   },
 } satisfies ChartConfig;
@@ -52,10 +52,10 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
     const items = data.map((item, index) => {
       totalScorePercent += item.scorePercent;
       // Concise label for X-axis: extract "Set XX" or use number
-      const setMatch = item.testSetName.match(/(?:Set|सेट)\s*[-–—:]*\s*(\d+)/i);
-      const label = setMatch ? `सेट ${setMatch[1]}` : `टेस्ट ${index + 1}`;
+      const setMatch = item.testSetName.match(/(?:Set|सेट|Part|भाग)\s*[-–—:]*\s*(\d+)/i);
+      const label = setMatch ? `Set ${setMatch[1]}` : `Test ${index + 1}`;
 
-      const dateStr = new Date(item.submittedAt).toLocaleDateString("hi-IN", {
+      const dateStr = new Date(item.submittedAt).toLocaleDateString("en-US", {
         day: "numeric",
         month: "short",
       });
@@ -76,18 +76,18 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
       <CardHeader className="p-4 sm:p-5 pb-2 sm:pb-3">
         <div className="flex flex-wrap items-start justify-between gap-2">
           <div>
-            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2 font-hindi">
+            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
               <History className="h-4 w-4 text-primary" />
-              हालिया टेस्ट प्रदर्शन (Recent Test Performance)
+              Recent Test Performance
             </CardTitle>
-            <CardDescription className="text-xs text-muted-foreground mt-0.5 font-hindi">
-              पिछले {data?.length || 0} टेस्ट प्रयासों के स्कोर प्रतिशत का कालक्रम
+            <CardDescription className="text-xs text-muted-foreground mt-0.5">
+              Score percentage progression of your last {data?.length || 0} test attempts
             </CardDescription>
           </div>
 
           {formattedData.length > 0 && (
-            <div className="flex items-center gap-2 font-hindi text-xs">
-              <span className="text-muted-foreground">हालिया औसत:</span>
+            <div className="flex items-center gap-2 text-xs">
+              <span className="text-muted-foreground">Recent Average:</span>
               <span className="font-mono font-bold text-foreground bg-muted px-2 py-0.5 rounded-md border border-border/60">
                 {recentAverage}%
               </span>
@@ -102,11 +102,11 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-muted text-muted-foreground">
               <BarChart2 className="h-5 w-5" />
             </div>
-            <p className="text-sm font-semibold text-foreground font-hindi">
-              अभी तक कोई टेस्ट नहीं दिया गया
+            <p className="text-sm font-semibold text-foreground">
+              No tests taken yet
             </p>
-            <p className="text-xs text-muted-foreground max-w-xs font-hindi leading-relaxed">
-              अभ्यास टेस्ट हल करने के बाद आपके हालिया 8 टेस्टों का प्रदर्शन ग्राफ यहाँ प्रदर्शित होगा।
+            <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
+              Complete practice tests to see your last 10 test performances here.
             </p>
           </div>
         ) : (
@@ -150,13 +150,13 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
                     if (!active || !payload?.length) return null;
                     const item = payload[0].payload as RecentAttemptItem & { dateStr: string };
                     return (
-                      <div className="rounded-xl border border-border/80 bg-popover p-3 text-xs shadow-xl font-hindi min-w-[180px] space-y-1.5">
+                      <div className="rounded-xl border border-border/80 bg-popover p-3 text-xs shadow-xl min-w-[180px] space-y-1.5">
                         <div className="border-b border-border/60 pb-1">
-                          <p className="font-semibold text-foreground truncate max-w-[200px]">
+                          <p className="font-semibold text-foreground truncate max-w-[200px] font-hindi">
                             {item.testSetName}
                           </p>
                           <p className="text-[10px] text-muted-foreground font-mono">
-                            {new Date(item.submittedAt).toLocaleDateString("hi-IN", {
+                            {new Date(item.submittedAt).toLocaleDateString("en-US", {
                               day: "numeric",
                               month: "short",
                               year: "numeric",
@@ -166,20 +166,20 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
                           </p>
                         </div>
                         <div className="flex items-center justify-between text-foreground">
-                          <span className="text-muted-foreground">स्कोर:</span>
+                          <span className="text-muted-foreground">Score:</span>
                           <span className="font-mono font-bold text-primary">
-                            {item.scorePercent}% ({item.score} / {item.maxScore} अंक)
+                            {item.scorePercent}% ({item.score} / {item.maxScore} pts)
                           </span>
                         </div>
                         <div className="grid grid-cols-3 gap-1 pt-1 text-[11px] border-t border-border/40 text-center">
                           <span className="text-success font-semibold">
-                            {item.correctCount} सही
+                            {item.correctCount} Correct
                           </span>
                           <span className="text-destructive font-semibold">
-                            {item.incorrectCount} गलत
+                            {item.incorrectCount} Incorrect
                           </span>
                           <span className="text-muted-foreground">
-                            {item.unansweredCount} छोड़े
+                            {item.unansweredCount} Skipped
                           </span>
                         </div>
                       </div>
@@ -190,15 +190,15 @@ export function RecentTestPerformanceChart({ data }: RecentTestPerformanceChartP
                   dataKey="scorePercent"
                   fill="var(--chart-3)"
                   radius={[6, 6, 0, 0]}
-                  maxBarSize={36}
+                  maxBarSize={32}
                 />
               </BarChart>
             </ChartContainer>
 
             {/* Subtext info */}
-            <div className="flex items-center justify-between text-[11px] text-muted-foreground font-hindi px-1 pt-1 border-t border-border/60">
-              <span>बाएं से दाएं: पुराने से नवीनतम टेस्ट प्रयास</span>
-              <span>अधिकतम अंक: प्रश्न संख्या × 2</span>
+            <div className="flex items-center justify-between text-[11px] text-muted-foreground px-1 pt-1 border-t border-border/60">
+              <span>Left to right: Oldest to newest attempt</span>
+              <span>Max Points: Question count × 2</span>
             </div>
           </div>
         )}

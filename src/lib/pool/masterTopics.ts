@@ -72,7 +72,7 @@ export const MASTER_TOPICS_LIST: MasterTopicInfo[] = [
   { id: 56, nameHindi: "राजस्थान की महिला व्यक्तित्व", nameEnglish: "Prominent Women Personalities of Rajasthan", subjectHindi: "आधुनिक राजस्थान एवं स्वतंत्रता आंदोलन", subjectName: "Modern Rajasthan & Freedom Movement" },
   { id: 57, nameHindi: "राजस्थान में प्रेस एवं पत्रकारिता", nameEnglish: "Press and Journalism in Rajasthan", subjectHindi: "आधुनिक राजस्थान एवं स्वतंत्रता आंदोलन", subjectName: "Modern Rajasthan & Freedom Movement" },
 
-  // E. राजस्थान राजव्यवस्था / प्रशासन (58-73)
+  // E. राजस्थान राजव्यवस्था / प्रशासन (58-75)
   { id: 58, nameHindi: "राजस्थान राज्य प्रशासन", nameEnglish: "Rajasthan State Administration", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 59, nameHindi: "राजस्थान के राज्यपाल", nameEnglish: "Governor of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 60, nameHindi: "राजस्थान के मुख्यमंत्री", nameEnglish: "Chief Minister of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
@@ -80,7 +80,7 @@ export const MASTER_TOPICS_LIST: MasterTopicInfo[] = [
   { id: 62, nameHindi: "राजस्थान राज्य विधानमंडल", nameEnglish: "Rajasthan State Legislature", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 63, nameHindi: "राजस्थान उच्च न्यायालय एवं न्यायपालिका", nameEnglish: "Rajasthan High Court and Judiciary", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 64, nameHindi: "राजस्थान जिला प्रशासन", nameEnglish: "District Administration of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
-  { id: 65, nameHindi: "राजस्थान पंचायती राज एवं स्थानीय स्वशासन", nameEnglish: "Panchayati Raj and Local Self Government in Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
+  { id: 65, nameHindi: "राजस्थान पंचायती राज", nameEnglish: "Panchayati Raj in Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 66, nameHindi: "राजस्थान लोक सेवा आयोग (RPSC)", nameEnglish: "Rajasthan Public Service Commission RPSC", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 67, nameHindi: "राजस्थान राज्य निर्वाचन आयोग", nameEnglish: "Rajasthan State Election Commission", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 68, nameHindi: "राजस्थान मानवाधिकार आयोग", nameEnglish: "Rajasthan State Human Rights Commission", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
@@ -89,6 +89,8 @@ export const MASTER_TOPICS_LIST: MasterTopicInfo[] = [
   { id: 71, nameHindi: "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ", nameEnglish: "Constitutional Commissions and Institutions of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 72, nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र", nameEnglish: "Major Research and Study Centers of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 73, nameHindi: "राजस्थान विज्ञान एवं प्रौद्योगिकी", nameEnglish: "Science and Technology in Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
+  { id: 74, nameHindi: "राजस्थान नगरीय स्वशासन एवं नगरपालिका", nameEnglish: "Urban Local Governance and Municipalities in Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
+  { id: 75, nameHindi: "राजस्थान का बजट एवं आर्थिक समीक्षा", nameEnglish: "Rajasthan Budget and Economic Review", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
 ];
 
 export function getTopicById(id: number): MasterTopicInfo | undefined {
@@ -97,6 +99,9 @@ export function getTopicById(id: number): MasterTopicInfo | undefined {
 
 export function getTopicByName(nameHindi: string): MasterTopicInfo | undefined {
   const clean = nameHindi.trim().replace(/_/g, "/");
+  if (clean === "राजस्थान पंचायती राज एवं स्थानीय स्वशासन") {
+    return MASTER_TOPICS_LIST.find((t) => t.id === 65);
+  }
   return MASTER_TOPICS_LIST.find(
     (t) => t.nameHindi === clean || t.nameHindi === nameHindi.trim()
   );

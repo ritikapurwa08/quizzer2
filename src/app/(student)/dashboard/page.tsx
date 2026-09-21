@@ -1,30 +1,17 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useQuery } from "convex/react";
 
 import { StatCard } from "@/components/dashboard/StatCard";
 import { WeakSubjectsCard } from "@/components/dashboard/WeakSubjectsCard";
-import { DailyProgressCard } from "@/components/dashboard/DailyProgressCard";
-import { LeaderboardCard } from "@/components/shared/LeaderboardCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Skeleton } from "@/components/ui/skeleton";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
 import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
 import { api } from "../../../../convex/_generated/api";
-
-// Lazy-load Recharts radar chart to keep it out of the initial JS bundle
-const PerformanceRadarChart = dynamic(
-  () => import("@/components/dashboard/PerformanceRadarChart").then((m) => ({ default: m.PerformanceRadarChart })),
-  {
-    ssr: false,
-    loading: () => <Skeleton className="h-[350px] w-full rounded-xl" />,
-  }
-);
 
 export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats, {});
@@ -36,16 +23,16 @@ export default function DashboardPage() {
       {/* Page header */}
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
             Dashboard
           </h1>
-          <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
-            विषय चुनें और परीक्षा-उपयोगी अभ्यास प्रश्न-सेट हल करें।
+          <p className="text-sm text-muted-foreground mt-0.5">
+            Select a subject and solve exam-oriented practice test sets.
           </p>
         </div>
-        <Button asChild className="rounded-xl font-hindi shrink-0 shadow-xs h-9 px-4 text-xs sm:text-sm">
+        <Button asChild className="rounded-xl shrink-0 shadow-xs h-9 px-4 text-xs sm:text-sm font-semibold">
           <Link href="/subjects" className="inline-flex items-center gap-1.5">
-            सभी विषय देखें <ArrowRight className="h-3.5 w-3.5" />
+            View All Subjects <ArrowRight className="h-3.5 w-3.5" />
           </Link>
         </Button>
       </div>
@@ -53,7 +40,7 @@ export default function DashboardPage() {
       {/* 1. Subjects Grid (Primary Study Entry) — 1-col mobile, 2-col sm, 3-col desktop */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2 font-hindi">
+          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
             <BookOpen className="h-4 w-4 text-foreground" />
             Subjects
             {subjects !== undefined && (
@@ -83,8 +70,8 @@ export default function DashboardPage() {
         ) : subjects.length === 0 ? (
           <EmptyState
             icon={BookOpen}
-            title="कोई विषय उपलब्ध नहीं है"
-            description="वर्तमान में कोई विषय नहीं मिला।"
+            title="No subjects available"
+            description="No subjects have been created yet."
           />
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
@@ -110,58 +97,40 @@ export default function DashboardPage() {
       {/* 2. Supporting Stat Cards — Compact 2-col on mobile, 4-col on desktop */}
       {stats && (
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
-          <StatCard icon={ListChecks} label="दिए गए टेस्ट" value={stats.testsAttempted} />
-          <StatCard icon={CheckCircle2} label="हल किए प्रश्न" value={stats.questionsSolved} />
-          <StatCard icon={Percent} label="सटीकता" value={formatAccuracy(stats.overallAccuracy)} />
-          <StatCard icon={Bookmark} label="बुकमार्क" value={stats.bookmarkCount} />
+          <StatCard icon={ListChecks} label="Tests Taken" value={stats.testsAttempted} />
+          <StatCard icon={CheckCircle2} label="Questions Solved" value={stats.questionsSolved} />
+          <StatCard icon={Percent} label="Accuracy" value={formatAccuracy(stats.overallAccuracy)} />
+          <StatCard icon={Bookmark} label="Bookmarks" value={stats.bookmarkCount} />
         </div>
       )}
 
-      {/* 3. Performance Analytics — Weak Areas, Skill Radar & Daily Progress */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-        {stats && <WeakSubjectsCard subjects={stats.weakSubjects} />}
-        {stats && (
-          <PerformanceRadarChart
-            data={
-              stats.subjectAccuracy && stats.subjectAccuracy.length >= 3
-                ? stats.subjectAccuracy.map((ws: { name: string; accuracy: number }) => ({
-                  subject: ws.name,
-                  score: ws.accuracy,
-                }))
-                : undefined
-            }
-            averageScore={Math.round(stats.overallAccuracy)}
-          />
-        )}
-        {stats && (
-          <div className="md:col-span-2 lg:col-span-1">
-            <DailyProgressCard data={stats.dailyProgress} subjects={subjects ?? []} />
-          </div>
-        )}
-      </div>
+      {/* 3. Expanded Full-Width Weak Areas & Subject Mastery Diagnosis */}
+      {stats && (
+        <WeakSubjectsCard
+          breakdown={stats.subjectBreakdown}
+          subjects={stats.weakSubjects}
+        />
+      )}
 
-      {/* 4. Leaderboard */}
-      {subjects && subjects.length > 0 && <LeaderboardCard subjects={subjects} />}
-
-      {/* Recent Test Attempts */}
-      <Card className="p-4 sm:p-5 rounded-xl border border-border shadow-xs">
+      {/* 4. Recent Test Attempts */}
+      <Card className="p-4 sm:p-5 rounded-2xl border border-border shadow-xs">
         <div className="flex items-center justify-between mb-3.5">
-          <h2 className="text-sm font-semibold text-foreground flex items-center gap-2 font-hindi">
+          <h2 className="text-sm font-semibold text-foreground flex items-center gap-2">
             <History className="h-4 w-4 text-foreground" />
-            हाल के टेस्ट (Recent Attempts)
+            Recent Attempts
           </h2>
           <Link
             href="/history"
-            className="text-xs font-semibold text-foreground hover:text-muted-foreground transition-colors flex items-center gap-1 font-hindi"
+            className="text-xs font-semibold text-foreground hover:text-muted-foreground transition-colors flex items-center gap-1"
           >
-            सभी इतिहास <ArrowRight className="h-3 w-3" />
+            View All History <ArrowRight className="h-3 w-3" />
           </Link>
         </div>
         {recent && recent.length === 0 && (
           <EmptyState
             icon={ListChecks}
-            title="अभी तक कोई टेस्ट नहीं दिया गया"
-            description="अपनी तैयारी जांचने के लिए ऊपर दिए गए किसी भी विषय से टेस्ट हल करना शुरू करें।"
+            title="No tests attempted yet"
+            description="Start practicing test sets from any subject above to evaluate your preparation."
             className="py-4"
           />
         )}

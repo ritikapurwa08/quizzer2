@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान के राज्यपाल",
+  "batchIndex": 2,
+  "batchName": "राजस्थान के राज्यपाल भाग 2",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-के-राज्यपाल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित राज्यपालों को कालक्रमानुसार व्यवस्थित करें:a. सरदार हुकम सिंहb. महाराज मान सिंह द्वितीयc. गुरुमुख निहाल सिंहd. संपूर्णानन्दनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "b, c, d, a"
+        },
+        {
+          "id": "opt2",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt3",
+          "text": "d, c, b, a"
+        },
+        {
+          "id": "opt4",
+          "text": "c, a, b, d"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "महाराज मान सिंह द्वितीय (b): 30 मार्च 1949 से 31 अक्टूबर 1956 तक (राजप्रमुख के रूप में, राज्य गठन के बाद पहले राज्यपाल)।गुरुमुख निहाल सिंह (c): 1 नवंबर 1956 से 15 अप्रैल 1962 तक।संपूर्णानन्द (d): 16 अप्रैल 1962 से 15 अप्रैल 1967 तक।सरदार हुकम सिंह (a): 16 अप्रैल 1967 से 30 जून 1972 तक (1970-72 में दोबारा)।",
+      "reference": "📌 PYQ — वाहन चालक सीधी भर्ती- (2024)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012141",
+        "exam": "वाहन चालक सीधी भर्ती-",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्यपाल के पद के संदर्भ में निम्नलिखित में से कौनसा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 158- राज्यपाल द्वारा शपथ या प्रतिज्ञान"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 156 - राज्यपाल की पदावधि"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 157 - राज्यपाल नियुक्त होने के लिए अर्हताएं"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 155- राज्यपाल की नियुक्ति"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अनुच्छेद 158 राज्यपाल के पद की शर्तों (conditions of office) से संबंधित है, न कि शपथ से (शपथ अनुच्छेद 159 में है)।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - D) (2024)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012142",
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - D)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस सांविधानिक संशोधन द्वारा संविधान में यह जोड़ा गया कि एक व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किया जा सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चौथा संशोधन, 1955"
+        },
+        {
+          "id": "opt2",
+          "text": "ातवाँ संशोधन, 1956"
+        },
+        {
+          "id": "opt3",
+          "text": "बारहवाँ संशोधन, 1962"
+        },
+        {
+          "id": "opt4",
+          "text": "पंद्रहवाँ संशोधन, 1963"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सातवें संविधान संशोधन (1956) द्वारा अनुच्छेद 153 में प्रावधान जोड़ा गया कि एक व्यक्ति एक से अधिक राज्यों का राज्यपाल हो सकता है।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - A) (2024)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012148",
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नवम्बर 1970 एवं मई 2012 के मध्य, राजस्थान में कितने राज्यपाल कार्यवाहक या अतिरिक्त प्रभार पर रहें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "9 कार्यवाहक एवं 8 अतिरिक्त प्रभार"
+        },
+        {
+          "id": "opt2",
+          "text": "8 कार्यवाहक एवं 7 अतिरिक्त प्रभार"
+        },
+        {
+          "id": "opt3",
+          "text": "6 कार्यवाहक एवं 9 अतिरिक्त प्रभार"
+        },
+        {
+          "id": "opt4",
+          "text": "7 कार्यवाहक एवं 5 अतिरिक्त प्रभार"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "आधिकारिक आंकड़ा → 9 कार्यवाहक और 8 अतिरिक्त प्रभार",
+      "reference": "📌 PYQ — Sub Inspector (Telecom) Comp. Exam - (Paper- II) (G.K and G.S) (2024)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012149",
+        "exam": "Sub Inspector (Telecom) Comp. Exam - (Paper- II) (G.K and G.S)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन, राजस्थान की प्रथम महिला राज्यपाल थीं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उमा भारती"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्ग्रेट अल्वा"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रभा राव"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिभा देवी सिंह पाटिल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "श्रीमती प्रतिभा देवीसिंह पाटील ने राजस्थान के राज्यपाल के रूप में 8 नवम्बर, 2004 को पदभार ग्रहण किया। आपका जन्म 19 दिसम्बर, 1934 को महाराष्ट्र राज्य के जलगाँव जिले में हुआ।",
+      "reference": "📌 PYQ — Librarian Grade III (Paper 1) (2024)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012165",
+        "exam": "Librarian Grade III (Paper 1)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित राज्यपालों (कार्यकारी) में से किसका कार्यकाल सबसे अधिक रहा है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जस्टिस जगतनारायण"
+        },
+        {
+          "id": "opt2",
+          "text": "जस्टिस वेदपाल त्यागी"
+        },
+        {
+          "id": "opt3",
+          "text": "जस्टिस के.डी. शर्मा"
+        },
+        {
+          "id": "opt4",
+          "text": "जस्टिस पी.के. बनर्जी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "जस्टिस के.डी. शर्मा का कार्यकारी राज्यपाल के रूप में कार्यकाल (08.08.1981 -05.03.1982) सबसे लंबा रहा।",
+      "reference": "📌 PYQ — Deputy Jailor (Jail Deptt.) Comp. Exam- (2024)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012167",
+        "exam": "Deputy Jailor (Jail Deptt.) Comp. Exam-",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किस संवैधानिक संशोधन अधिनियम ने दो या दो से अधिक राज्यों के लिए एक ही व्यक्ति को राज्यपाल के रूप में नियुक्त करने की सुविधा प्रदान की -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चौथा"
+        },
+        {
+          "id": "opt2",
+          "text": "छठा"
+        },
+        {
+          "id": "opt3",
+          "text": "पाँचवां"
+        },
+        {
+          "id": "opt4",
+          "text": "सातवां"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सातवें संवैधानिक संशोधन अधिनियम (1956) ने भारतीय संविधान में संशोधन कर यह प्रावधान किया कि एक ही व्यक्ति को दो या दो से अधिक राज्यों का राज्यपाल नियुक्त किया जा सकता है। यह व्यवस्था प्रशासनिक सुविधा और लागत बचत के लिए की गई थी।",
+      "reference": "📌 PYQ — Prahari Shift 2 (2024)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012168",
+        "exam": "Prahari Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्यपाल के रूप में नियुक्ति के लिए निम्नलिखित में से कौन सी आवश्यक योग्यता/शर्त नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वह भारत का नागरिक होना चाहिए।"
+        },
+        {
+          "id": "opt2",
+          "text": "वह 35 वर्ष की आयु पूरी कर चुका हो।"
+        },
+        {
+          "id": "opt3",
+          "text": "वह संसद के किसी भी सदन का सदस्य नहीं होना चाहिए।"
+        },
+        {
+          "id": "opt4",
+          "text": "वह उस राज्य का निवासी होना चाहिए जहाँ उसकी नियुक्ति की जा रही है।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "यह आवश्यक नहीं है कि राज्यपाल उस राज्य का निवासी हो जहाँ उसकी नियुक्ति हो रही है। वास्तव में, अक्सर राज्यपाल को दूसरे राज्यों से नियुक्त किया जाता है।",
+      "reference": "📌 PYQ — Prahari Shift 2 (2024)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012169",
+        "exam": "Prahari Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "किसी अप्रत्याशित व्यय को पूरा करने के लिए राज्य की आकस्मिक निधि से कौन अग्रिम राशि दे सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "गृह मंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "वित्त मंत्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "भारतीय संविधान के अनुच्छेद 267 के अनुसार, राज्य की आकस्मिक निधि (Contingency Fund) से अप्रत्याशित व्यय के लिए अग्रिम राशि राज्यपाल द्वारा दी जा सकती है। अनुच्छेद – 267 (2) – आकस्तिकता निधि : राज्य का विधान मण्डल, विधि द्वारा, अग्रदाय के स्वरूप की एक आकस्मिकता निधि की स्थापना कर सकेगा जो ”राज्य की आकस्मिकता निधि” के नाम से ज्ञात होगी जिसमें एैसी विधि द्वारा अवधारित राशियां समय-समय पर जमा की जाएंगी और अनवेक्षित व्यय का अनुच्छेद 205 या अनुच्छेद 206 के अधीन राज्य के विधान मण्डल द्वारा, विधि द्वारा प्राधिकृत किया जाना लंबित रहने तक ऐसी निधि में से ऐसे व्यय की पूर्ति के लिए अग्रिम धन देने के लिए राज्यपाल को समर्थ बनाने के लिए उक्त निधि राज्य के राज्यपाल के व्ययनाधीन रखी जायेगी।",
+      "reference": "📌 PYQ — Prahari Shift 1 (2024)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012171",
+        "exam": "Prahari Shift 1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल श्री हरिभाऊ किसनराव बागड़े के बारे में निम्नलिखित में से कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वे महाराष्ट्र विधानसभा के छह बार विधायक रह चुके हैं।"
+        },
+        {
+          "id": "opt2",
+          "text": "इन्हें 2014 में महाराष्ट्र विधानसभा का निर्विरोध अध्यक्ष चुना गया।"
+        },
+        {
+          "id": "opt3",
+          "text": "वे महाराष्ट्र सरकार में खाद्य एवं नागरिक आपूर्ति मंत्री रह चुके हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "उन्होंने 30 जून, 2024 को राजस्थान के राज्यपाल का पदभार ग्रहण किया।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान के मनोनीत राज्यपाल श्री हरिभाऊ किसनराव बागड़े ने बुधवार (31 जुलाई, 2024) को सांय 4 बजे राजभवन में राजस्थान के राज्यपाल पद की शपथ ली। श्री बागड़े ने हिन्दी में ईश्वर के नाम पर राज्यपाल पद की शपथ ली।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-C) (2024)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012173",
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "संविधान के किस अनुच्छेद के तहत राज्यपाल द्वारा मंत्रियों को पद और गोपनीयता की शपथ दिलाई जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 163(3)"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 164(3)"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 164(1)"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 163(2)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुच्छेद 164(3) के तहत यह प्रावधान है कि राज्यपाल मंत्रियों को उनके पद और गोपनीयता की शपथ दिलाते हैं।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam (2024)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012175",
+        "exam": "Junior Instructor (SWT) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के पूर्व राज्यपालों और उनकी अवधि के सन्दर्भ में गलत युग्म की पहचान कीजिए -राज्यपाल का नाम - अवधि",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कल्याण सिंह - 2014-2019"
+        },
+        {
+          "id": "opt2",
+          "text": "अंशुमान सिंह - 2000-2004"
+        },
+        {
+          "id": "opt3",
+          "text": "सरदार जोगिन्दर सिंह - 1972-1977"
+        },
+        {
+          "id": "opt4",
+          "text": "बलिराम भगत - 1993-1998"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "अंशुमान सिंह - 1999 से 2003",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan) (2024)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012176",
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "जब कोई राज्यपाल राज्य के राज्यपाल पद धारण के साथ-साथ यदि अन्य राज्य के राज्यपाल के रूप में भी जब पद धारण करता है, तो उसके उपलब्धियाँ एवं भत्ते के विषय में निर्णय कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उस राज्य की विधानसभा जिसका वह मूलतः राज्यपाल नियुक्त हुआ है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रपति आदेश द्वारा अवधारित करेगा।"
+        },
+        {
+          "id": "opt3",
+          "text": "नये राज्य की विधानसभा जिस राज्य के राज्यपाल का अतिरिक्त भार दिया जाता है।"
+        },
+        {
+          "id": "opt4",
+          "text": "दोनों राज्यों की सिफारिश पर उच्चतम न्यायालय तय करेगा।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "जहां एक ही व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किया जाता है वहाॅ उस राज्यपाल को संदेय उपलब्धियाॅ और भत्ते उन राज्यों के बीच ऐसे अनुपात में आवण्टित किये जायेंगे जो राष्ट्रपति आदेश द्वारा अवधारित करे।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan) (2024)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012177",
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में राज्यपाल की अध्यादेश प्रख्यापित करने की शक्ति का सर्वाधिक प्रयोग किस वर्ष में किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1949"
+        },
+        {
+          "id": "opt2",
+          "text": "1960"
+        },
+        {
+          "id": "opt3",
+          "text": "1980"
+        },
+        {
+          "id": "opt4",
+          "text": "1988"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1949 में, राजस्थान के गठन के समय, कई प्रशासनिक और कानूनी व्यवस्थाएं स्थापित करने के लिए राज्यपाल ने अध्यादेशों का व्यापक उपयोग किया।",
+      "reference": "📌 PYQ — Junior Instructor (STE) Exam (2024)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012179",
+        "exam": "Junior Instructor (STE) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "“राज्यपाल की क्षमादान शक्ति” का उल्लेख भारत के संविधान के किस अनुच्छेद में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 160"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 161"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 162"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 163"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान का अनुच्छेद 161 राज्यपाल को क्षमादान, सजा में कमी, या सजा स्थगित करने की शक्ति प्रदान करता है।",
+      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam (2024)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012180",
+        "exam": "Junior Instructor (ICTSM) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल के संबंध में निम्नांकित में से कौन सा कथन सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य पुनर्गठन आयोग की अनुशंसा के आधार पर राजप्रमुख के पद को समाप्त कर दिया गया।"
+        },
+        {
+          "id": "opt2",
+          "text": "7वें संविधान संशोधन से राजप्रमुख का पद समाप्त किया गया।"
+        },
+        {
+          "id": "opt3",
+          "text": "गुरुमुख निहाल सिंह को 1 नवम्बर, 1956 को राजस्थान का पहला राज्यप्राल नियुक्त किया गया।"
+        },
+        {
+          "id": "opt4",
+          "text": "हरिभाऊ किसनराव बागडे ने 31 जुलाई, 2024 को राजस्थान के राज्यपाल का पदभार संभाला।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था। गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
+      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - (2024)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012182",
+        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam -",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम राज्यपाल के रूप में किसे और कब नियुक्त किया गया था - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुरुमुख निहाल सिंह, 25 अक्टूबर 1956"
+        },
+        {
+          "id": "opt2",
+          "text": "म्पूर्णानन्द, 2 अक्टूबर 1965"
+        },
+        {
+          "id": "opt3",
+          "text": "जोगेंद्र सिंह, 12 अक्टूबर 1965"
+        },
+        {
+          "id": "opt4",
+          "text": "सरदार हुकुम सिंह, 5 नवंबर 1956"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के प्रथम राज्यपाल गुरुमुख निहाल सिंह थे, जिन्हें 25 अक्टूबर 1956 को नियुक्त किया गया था। सरदार गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
+      "reference": "📌 PYQ — Junior Instructor (RAT) Exam (2024)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012183",
+        "exam": "Junior Instructor (RAT) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान के किस अनुच्छेद के द्वारा प्रत्येक राज्य में राज्यपाल की नियुक्ति का प्रावधान है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अनुच्छेद 155"
+        },
+        {
+          "id": "opt2",
+          "text": "अनुच्छेद 157"
+        },
+        {
+          "id": "opt3",
+          "text": "अनुच्छेद 159"
+        },
+        {
+          "id": "opt4",
+          "text": "अनुच्छेद 153"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "भारतीय संविधान के अनुच्छेद 153 के तहत प्रत्येक राज्य के लिये एक राज्यपाल का प्रावधान किया गया है। एक व्यक्ति को दो या दो से अधिक राज्यों के राज्यपाल के रूप में नियुक्त किया जा सकता है।",
+      "reference": "📌 PYQ — CET (12th Level) 24 October Shift-II (2024)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012184",
+        "exam": "CET (12th Level) 24 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल के नामों को कालानुक्रमिक क्रम में व्यवस्थित करें:a. श्री रघुकुल तिलकb. श्री सुखदेव प्रसादc. डॉ. सम्पूर्णानंदd. डॉ. एम. चेन्ना रेड्डीनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "c, b, d, a"
+        },
+        {
+          "id": "opt2",
+          "text": "c, a, b, d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b, c, d"
+        },
+        {
+          "id": "opt4",
+          "text": "b, c, a, d"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "डॉ. सम्पूर्णानंद → श्री रघुकुल तिलक → श्री सुखदेव प्रसाद → डॉ. एम. चेन्ना रेड्डी",
+      "reference": "📌 PYQ — CET (12th Level) 23 October Shift-II (2024)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012185",
+        "exam": "CET (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के प्रथम राज्यपाल कौन थे? (निम्न में से सबसे उपयुक्त विकल्प चुनें:)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री गुरुमुख निहाल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री हेम बहादुर सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री कलराज मिश्र"
+        },
+        {
+          "id": "opt4",
+          "text": "महाराजा सवाई मान सिंह"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था।",
+      "reference": "📌 PYQ — CET (12th Level) 23 October Shift-II (2024)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012186",
+        "exam": "CET (12th Level) 23 October Shift-II",
+        "year": 2024
+      }
+    }
+  ]
+}

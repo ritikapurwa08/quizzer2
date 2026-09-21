@@ -230,6 +230,51 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
   return { left: [], right: [] };
 }
 
+export function tryParseMarkdownTable(text: string): { headers: string[]; rows: string[][]; remainingText: string } | null {
+  if (!text.includes("|")) return null;
+  const lines = text.split("\n");
+  const tableLines: string[] = [];
+  const otherLines: string[] = [];
+  let inTable = false;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
+      inTable = true;
+      tableLines.push(trimmed);
+    } else {
+      if (inTable && tableLines.length >= 2) {
+        otherLines.push(line);
+      } else if (!inTable) {
+        otherLines.push(line);
+      }
+    }
+  }
+
+  if (tableLines.length < 2) return null;
+
+  // Filter out markdown table separator line e.g. |---|---| or |:---:|---:|
+  const nonDivider = tableLines.filter((l) => !/^\|(\s*:?-+:?\s*\|)+$/.test(l));
+  if (nonDivider.length < 2) return null;
+
+  const parseRow = (line: string) =>
+    line
+      .slice(1, -1)
+      .split("|")
+      .map((c) => c.trim());
+
+  const headers = parseRow(nonDivider[0]);
+  const rows = nonDivider.slice(1).map(parseRow);
+
+  if (headers.length < 2 || rows.length < 1) return null;
+
+  return {
+    headers,
+    rows,
+    remainingText: otherLines.join("\n").trim(),
+  };
+}
+
 /** Converts a raw minified AI output question object to standard QuestionInput.
  *  Handles both minified keys (q/o/a/e/t) and full keys (questionText/options/etc.).
  */
@@ -244,6 +289,7 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     const raw = sanitizeLlmArtifacts(rawInput);
     const questionText: string = String(raw.question ?? raw.questionText ?? raw.q ?? "").trim();
     if (!questionText) return null;
+    let finalQuestionText = questionText;
 
     // Options: string[] or {id, text}[]
     let options: { id: string; text: string }[] = [];
@@ -274,6 +320,14 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
         (Array.isArray(options) && options.length === 4 && options.every(o => /[a-dA-D\d]\s*[-–—:]\s*[I-Vi-v\d]/.test(o.text)));
       if (isMatchLike) {
         type = "match_following";
+      }
+    }
+
+    // Auto-detect table questions if markdown table present
+    if (type === "mcq" && questionText.includes("|")) {
+      const parsedTable = tryParseMarkdownTable(questionText);
+      if (parsedTable) {
+        type = "table";
       }
     }
 
@@ -312,20 +366,26 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
           const matchingText = options.find((o) => o.text.trim().toLowerCase() === trimmed.toLowerCase());
           if (matchingText) {
             correctAnswer = matchingText.id;
+          } else if (upper.startsWith("OPT")) {
+            correctAnswer = trimmed.toLowerCase();
           } else {
             correctAnswer = trimmed;
           }
         }
       }
     } else if (Array.isArray(rawAnswer)) {
-      correctAnswer = rawAnswer.map(String);
+      correctAnswer = rawAnswer.map((item) => String(item).trim());
     }
 
-    const explanation: string | undefined =
-      (raw.explanation !== undefined && raw.explanation !== null ? String(raw.explanation).trim() : undefined) ??
-      (raw.e !== undefined && raw.e !== null ? String(raw.e).trim() : undefined);
+    // Difficulty
+    let difficulty: "easy" | "medium" | "hard" = "medium";
+    const rawDiff = raw.d ?? raw.difficulty;
+    if (rawDiff === "easy" || rawDiff === "medium" || rawDiff === "hard") {
+      difficulty = rawDiff;
+    }
 
-    const difficulty = (raw.difficulty as "easy" | "medium" | "hard") ?? "medium";
+    // Explanation
+    const explanation: string = String(raw.explanation ?? raw.e ?? "").trim();
 
     // Meta handling for match questions
     let meta: any = raw.meta ?? undefined;
@@ -358,6 +418,30 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
           };
         } else {
           meta = { ...(meta || {}), left: [], right: [] };
+        }
+      }
+    }
+
+    // Meta handling for table questions
+    if (type === "table" || rawType === "table") {
+      type = "table";
+      const existingHeaders = meta?.headers;
+      const existingRows = meta?.rows;
+      const hasValidTableMeta =
+        Array.isArray(existingHeaders) && existingHeaders.length >= 2 &&
+        Array.isArray(existingRows) && existingRows.length >= 1;
+
+      if (!hasValidTableMeta) {
+        const parsedTable = tryParseMarkdownTable(questionText);
+        if (parsedTable) {
+          meta = {
+            ...(meta || {}),
+            headers: parsedTable.headers,
+            rows: parsedTable.rows,
+          };
+          if (parsedTable.remainingText) {
+            finalQuestionText = parsedTable.remainingText;
+          }
         }
       }
     }
@@ -441,7 +525,7 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
 
     return {
       type,
-      questionText,
+      questionText: finalQuestionText,
       options,
       correctAnswer,
       explanation: explanation || undefined,
@@ -892,6 +976,23 @@ export function validateImportBatch(
       } else {
         seenSourceIds.set(sidStr, i);
         sourceQuestionIds.push(sid);
+      }
+    }
+
+    // 7. Table Question structure check
+    if (q.type === "table") {
+      const qMeta = q.meta as any;
+      const headers = qMeta?.headers;
+      const rows = qMeta?.rows;
+      const isValidTable =
+        Array.isArray(headers) && headers.length >= 2 &&
+        Array.isArray(rows) && rows.length >= 1;
+
+      if (!isValidTable) {
+        validStructure = false;
+        errors.push(
+          `Question #${qNum}: Table question format error — Question is marked as 'table' but lacks valid table headers (min 2) and rows (min 1).`
+        );
       }
     }
   }

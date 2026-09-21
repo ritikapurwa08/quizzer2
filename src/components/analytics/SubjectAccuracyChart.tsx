@@ -39,7 +39,7 @@ interface SubjectAccuracyChartProps {
 
 const chartConfig = {
   accuracy: {
-    label: "सटीकता (Accuracy %)",
+    label: "Accuracy %",
     color: "var(--chart-1)",
   },
 } satisfies ChartConfig;
@@ -79,12 +79,12 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
       <CardHeader className="p-4 sm:p-5 pb-2 sm:pb-3">
         <div className="flex items-start justify-between gap-2">
           <div>
-            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2 font-hindi">
+            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
               <Award className="h-4 w-4 text-primary" />
-              विषयवार सटीकता (Subject Accuracy)
+              Subject Accuracy
             </CardTitle>
-            <CardDescription className="text-xs text-muted-foreground mt-0.5 font-hindi">
-              विभिन्न विषयों में आपकी पकड़ एवं सफलता दर (औसत: {averageAccuracy}%)
+            <CardDescription className="text-xs text-muted-foreground mt-0.5">
+              Accuracy across attempted subjects (Average: {averageAccuracy}%)
             </CardDescription>
           </div>
 
@@ -100,8 +100,8 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
                       ? "bg-background text-foreground shadow-xs"
                       : "text-muted-foreground hover:text-foreground"
                   )}
-                  title="रेडार दृश्य (Radar)"
-                  aria-label="रेडार दृश्य"
+                  title="Radar View"
+                  aria-label="Radar View"
                 >
                   <RadarIcon className="h-3.5 w-3.5" />
                 </button>
@@ -115,8 +115,8 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
                     ? "bg-background text-foreground shadow-xs"
                     : "text-muted-foreground hover:text-foreground"
                 )}
-                title="बार दृश्य (Bar)"
-                aria-label="बार दृश्य"
+                title="Bar View"
+                aria-label="Bar View"
               >
                 <BarChart3 className="h-3.5 w-3.5" />
               </button>
@@ -131,11 +131,11 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-muted text-muted-foreground">
               <Award className="h-5 w-5" />
             </div>
-            <p className="text-sm font-semibold text-foreground font-hindi">
-              अभी पर्याप्त विषय डेटा नहीं है
+            <p className="text-sm font-semibold text-foreground">
+              Not enough subject data yet
             </p>
-            <p className="text-xs text-muted-foreground max-w-xs font-hindi leading-relaxed">
-              विषयों के टेस्ट हल करने पर आपकी विषयवार सटीकता और मजबूत/कमजोर पक्षों का विश्लेषण यहाँ दिखेगा।
+            <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
+              Complete subject test sets to analyze your strengths, weaknesses, and mastery here.
             </p>
           </div>
         ) : (
@@ -233,7 +233,7 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
 
             {/* Contextual insight chips */}
             {(strongest || weakest) && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-border/70 font-hindi">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-border/70">
                 {strongest && (
                   <div className="flex items-center gap-2.5 p-2 rounded-xl bg-success/5 border border-success/20">
                     <div className="p-1 rounded-lg bg-success/15 text-success shrink-0">
@@ -241,9 +241,9 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
                     </div>
                     <div className="min-w-0 flex-1 text-xs">
                       <span className="text-[10px] uppercase font-bold text-success tracking-wide block">
-                        सर्वश्रेष्ठ विषय (Strongest)
+                        Strongest Subject
                       </span>
-                      <p className="font-semibold text-foreground truncate">
+                      <p className="font-semibold text-foreground truncate font-hindi">
                         {strongest.nameHindi || strongest.name}
                       </p>
                     </div>
@@ -260,9 +260,9 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
                     </div>
                     <div className="min-w-0 flex-1 text-xs">
                       <span className="text-[10px] uppercase font-bold text-warning tracking-wide block">
-                        सुधार की आवश्यकता (Needs Focus)
+                        Needs Focus
                       </span>
-                      <p className="font-semibold text-foreground truncate">
+                      <p className="font-semibold text-foreground truncate font-hindi">
                         {weakest.nameHindi || weakest.name}
                       </p>
                     </div>

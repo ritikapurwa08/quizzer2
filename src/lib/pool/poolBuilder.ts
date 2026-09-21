@@ -155,7 +155,7 @@ export function buildTopicPoolQuestions(targetTopicId?: number): {
     const dddData: any[] = JSON.parse(fs.readFileSync(dddPath, "utf-8"));
     for (const item of dddData) {
       const mId = Number(item.masterTopicId);
-      if (!mId || mId < 1 || mId > 73) continue;
+      if (!mId || mId < 1 || mId > 75) continue;
 
       const mt = getTopicById(mId);
       const masterTopicName = mt ? mt.nameHindi : item.masterTopic || `Topic ${mId}`;

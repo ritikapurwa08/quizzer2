@@ -35,15 +35,15 @@ export function Pagination({
         type="button"
         onClick={onPrev}
         disabled={page === 0}
-        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none font-hindi"
-        aria-label="पिछला पृष्ठ"
+        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none"
+        aria-label="Previous page"
       >
         <ChevronLeft className="h-3.5 w-3.5" />
-        पिछला
+        Previous
       </button>
 
-      <span className="text-xs font-semibold text-muted-foreground tabular-nums font-hindi select-none">
-        {label ?? `पृष्ठ ${page + 1}`}
+      <span className="text-xs font-semibold text-muted-foreground tabular-nums select-none">
+        {label ?? `Page ${page + 1}`}
       </span>
 
       <button
@@ -51,10 +51,10 @@ export function Pagination({
         type="button"
         onClick={onNext}
         disabled={isLastPage}
-        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none font-hindi"
-        aria-label="अगला पृष्ठ"
+        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none"
+        aria-label="Next page"
       >
-        अगला
+        Next
         <ChevronRight className="h-3.5 w-3.5" />
       </button>
     </div>

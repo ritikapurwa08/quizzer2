@@ -2,7 +2,7 @@
   "masterTopic": "राजस्थान राज्य प्रशासन",
   "batchIndex": 5,
   "batchName": "राजस्थान राज्य प्रशासन भाग 5",
-  "subject": "राजस्थान की राजव्यवस्था",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
   "subjectSlug": "rajasthan-polity-administration",
   "topicSlug": "राजस्थान-राज्य-प्रशासन",
   "negativeMarking": true,
@@ -10,662 +10,650 @@
   "questions": [
     {
       "type": "mcq",
-      "questionText": "जब कोई राज्यपाल राज्य के राज्यपाल पद धारण के साथ-साथ यदि अन्य राज्य के राज्यपाल के रूप में भी जब पद धारण करता है, तो उसके उपलब्धियाँ एवं भत्ते के विषय में निर्णय कौन करता है -",
+      "questionText": "राजस्थान में प्रथम निर्वाचित लोकतांत्रिक सरकार का गठन हुआ -",
       "options": [
         {
           "id": "opt1",
-          "text": "उस राज्य की विधानसभा जिसका वह मूलतः राज्यपाल नियुक्त हुआ है।"
+          "text": "26 जनवरी, 1952"
         },
         {
           "id": "opt2",
-          "text": "राष्ट्रपति आदेश द्वारा अवधारित करेगा।"
+          "text": "2 फरवरी, 1952"
         },
         {
           "id": "opt3",
-          "text": "नये राज्य की विधानसभा जिस राज्य के राज्यपाल का अतिरिक्त भार दिया जाता है।"
+          "text": "3 मार्च, 1952"
         },
         {
           "id": "opt4",
-          "text": "दोनों राज्यों की सिफारिश पर उच्चतम न्यायालय तय करेगा।"
+          "text": "15 मार्च, 1952"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "जहां एक ही व्यक्ति को दो या अधिक राज्यों का राज्यपाल नियुक्त किया जाता है वहाॅ उस राज्यपाल को संदेय उपलब्धियाॅ और भत्ते उन राज्यों के बीच ऐसे अनुपात में आवण्टित किये जायेंगे जो राष्ट्रपति आदेश द्वारा अवधारित करे।",
-      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में प्रथम आम चुनाव 1952 में हुए, और इसके बाद प्रथम निर्वाचित लोकतांत्रिक सरकार का गठन 3 मार्च, 1952 को हुआ।",
       "difficulty": "medium",
       "order": 0,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14584,
+        "sourceQuestionId": "rg_012720",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान से प्रथम अनुसूचित जाति की महिला लोकसभा सदस्य हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्रीमती उषा देवी मीणा"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीमती प्रभा ठाकुर"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीमती सुशीला बंगारू"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीमती शारदा देवी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012728",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान से प्रथम महिला लोक सभा सदस्य बनी-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महारानी गायत्री देवी"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीमती दिव्या सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "श्रीमती उषा देवी"
+        },
+        {
+          "id": "opt4",
+          "text": "उक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012729",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में अब तक कितनी बार राष्ट्रपति शासन लागु हो चुका हैं-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3 बार"
+        },
+        {
+          "id": "opt2",
+          "text": "4 बार"
+        },
+        {
+          "id": "opt3",
+          "text": "5 बार"
+        },
+        {
+          "id": "opt4",
+          "text": "एक बार भी नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012731",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान को अवांटित राज्यसभा सीटों की संख्या है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "8"
+        },
+        {
+          "id": "opt2",
+          "text": "9"
+        },
+        {
+          "id": "opt3",
+          "text": "10"
+        },
+        {
+          "id": "opt4",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012732",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान से निर्वाचित प्रथम महिला सांसद थी-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महारानी गायत्री देवी"
+        },
+        {
+          "id": "opt2",
+          "text": "श्रीमती शारदा भार्गव"
+        },
+        {
+          "id": "opt3",
+          "text": "कृष्णा कुमारी"
+        },
+        {
+          "id": "opt4",
+          "text": "श्रीमती इन्दुबाला सुखाडि़या"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012733",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में प्रथम गैर-कांग्रेसी सरकार कब बनी-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जुन,1977"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्च,1978"
+        },
+        {
+          "id": "opt3",
+          "text": "जुन,1978"
+        },
+        {
+          "id": "opt4",
+          "text": "मार्च,1979"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012734",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लोक सभा सिटों की संख्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20"
+        },
+        {
+          "id": "opt2",
+          "text": "25"
+        },
+        {
+          "id": "opt3",
+          "text": "30"
+        },
+        {
+          "id": "opt4",
+          "text": "35"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012739",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानमण्डल का अंग नहीं है-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt2",
+          "text": "विधानपरिषद्"
+        },
+        {
+          "id": "opt3",
+          "text": "विधानसभा"
+        },
+        {
+          "id": "opt4",
+          "text": "इनमें से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012740",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विकास पार्टी की स्थापना की थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ृजमोहन लाल शर्मा"
+        },
+        {
+          "id": "opt2",
+          "text": "बूटा सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "हीरा लाल शास्त्री"
+        },
+        {
+          "id": "opt4",
+          "text": "छोटूराम"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012743",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के किस वर्तमान विधायक ने काॅमनवेल्थ गेम्स 2010 में स्वर्ण पदक जीता था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खुशवीर सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "कृष्णा पूनिया"
+        },
+        {
+          "id": "opt3",
+          "text": "महादेव सिंह"
+        },
+        {
+          "id": "opt4",
+          "text": "राजेन्द्र राठौड़"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012746",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "कौन सा अनुच्छेद परिसीमन आयोग से संबंधित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "78"
+        },
+        {
+          "id": "opt2",
+          "text": "87"
+        },
+        {
+          "id": "opt3",
+          "text": "82"
+        },
+        {
+          "id": "opt4",
+          "text": "61"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012771",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सूची-1 को सूची-2 के साथ सुमेलित कीजिये और सूचियों के नीचे दिये गये कूटों का प्रयोग कर सही उत्तर का चयन कीजिये: सूची- I (राजस्थान के राज्य वित्त आयोग)सूची-2 (अध्यक्ष)(a) प्रथम(i) श्री हीरालाल देवपुरा(b) द्वितीय(ii) श्री मानिकचन्द सुराना(c) तृतीय(iii) डॉ. बी.डी. कल्ला(d) चतुर्थ(iv) श्री के.के. गोयलकूट: (a) (b) (c) (d)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(ii) (iii) (iv) (i)"
+        },
+        {
+          "id": "opt2",
+          "text": "(i) (ii) (iii) (iv)"
+        },
+        {
+          "id": "opt3",
+          "text": "(iv) (i) (ii) (iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(iii) (iv) (i) (ii)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "प्रथम वित्त आयोग: श्री के.के. गोयल (कृष्ण कुमार गोयल)द्वितीय वित्त आयोग: श्री हीरालाल देवपुरातृतीय वित्त आयोग: श्री मानिकचन्द सुरानाचतुर्थ वित्त आयोग: डॉ. बी.डी. कल्ला (बुलाकी दास कल्ला)",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13991,
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "नीचे दिए गए कूट का उपयोग करके सूची-I को सूची-II के साथ सुमेलित कीजिए -सूची-I (राजस्थान राज्य वित्त आयोग)(a) दूसरा वित्त आयोग(b) तीसरा वित्त आयोग(c) चौथा वित्त आयोग(d) पांचवां वित्त आयोगसूची-II (अध्यक्ष)(i) ज्योति किरण(ii) बी.डी. कल्ला(iii) हीरालाल देवपुरा(iv) माणिक चंद सुराणाकूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(iv), (b)-(i), (c)-(iii), (d)-(ii)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान राज्य वित्त आयोग - अध्यक्षदूसरा वित्त आयोग - हीरालाल देवपुरा तीसरा वित्त आयोग - माणिक चंद सुराणा चौथा वित्त आयोग - बी.डी. कल्ला पांचवां वित्त आयोग - ज्योति किरण",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": 13993,
         "exam": "PTI and Librarian (Sanskrit College Edu.) - 2024 (General Studies of Rajasthan)",
         "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "संविधान का कौन-सा अनुच्छेद यह प्रावधान करता है कि राज्यपाल राज्य विधानसभा द्वारा पारित विधेयक को राष्ट्रपति के विचारार्थ सुरक्षित रख सकता है -",
+      "questionText": "राजस्थान काश्तकारी अधिनियम, 1955 की किस धारा में राजस्व न्यायालय को परिभाषित किया गया -",
       "options": [
         {
           "id": "opt1",
-          "text": "अनुच्छेद 202"
+          "text": "धारा 130"
         },
         {
           "id": "opt2",
-          "text": "अनुच्छेद 200"
+          "text": "धारा 5(35)"
         },
         {
           "id": "opt3",
-          "text": "अनुच्छेद 198"
+          "text": "धारा 196(4)"
         },
         {
           "id": "opt4",
-          "text": "अनुच्छेद 199"
+          "text": "धारा 120 (b)"
         }
       ],
       "correctAnswer": "opt2",
-      "explanation": "भारतीय संविधान का अनुच्छेद 200 यह प्रावधान करता है कि राज्यपाल राज्य विधानसभा द्वारा पारित विधेयक को अपनी सहमति दे सकता है, उसे रोक सकता है, या राष्ट्रपति के विचारार्थ सुरक्षित रख सकता है।",
+      "explanation": "राजस्थान काश्तकारी अधिनियम, 1955 की धारा 5(35) में राजस्व न्यायालय की परिभाषा दी गई है।",
       "reference": "📌 PYQ — Junior Instructor (COS) Exam 2024",
       "difficulty": "medium",
-      "order": 1,
+      "order": 14,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14585,
+        "sourceQuestionId": 13994,
         "exam": "Junior Instructor (COS) Exam 2024",
         "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान में राज्यपाल की अध्यादेश प्रख्यापित करने की शक्ति का सर्वाधिक प्रयोग किस वर्ष में किया गया -",
+      "questionText": "राजस्थान राजस्व मंडल का मुख्यालय कहाँ है -",
       "options": [
         {
           "id": "opt1",
-          "text": "1949"
+          "text": "अजमेर"
         },
         {
           "id": "opt2",
-          "text": "1960"
+          "text": "कोटा"
         },
         {
           "id": "opt3",
-          "text": "1980"
+          "text": "जोधपुर"
         },
         {
           "id": "opt4",
-          "text": "1988"
+          "text": "उदयपुर"
         }
       ],
       "correctAnswer": "opt1",
-      "explanation": "1949 में, राजस्थान के गठन के समय, कई प्रशासनिक और कानूनी व्यवस्थाएं स्थापित करने के लिए राज्यपाल ने अध्यादेशों का व्यापक उपयोग किया।",
-      "reference": "📌 PYQ — Junior Instructor (STE) Exam 2024",
-      "difficulty": "medium",
-      "order": 2,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14586,
-        "exam": "Junior Instructor (STE) Exam 2024",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "“राज्यपाल की क्षमादान शक्ति” का उल्लेख भारत के संविधान के किस अनुच्छेद में है -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "अनुच्छेद 160"
-        },
-        {
-          "id": "opt2",
-          "text": "अनुच्छेद 161"
-        },
-        {
-          "id": "opt3",
-          "text": "अनुच्छेद 162"
-        },
-        {
-          "id": "opt4",
-          "text": "अनुच्छेद 163"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "भारतीय संविधान का अनुच्छेद 161 राज्यपाल को क्षमादान, सजा में कमी, या सजा स्थगित करने की शक्ति प्रदान करता है।",
-      "reference": "📌 PYQ — Junior Instructor (ICTSM) Exam 2024",
-      "difficulty": "medium",
-      "order": 3,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14587,
-        "exam": "Junior Instructor (ICTSM) Exam 2024",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान के राज्यपाल के संबंध में निम्नलिखित में से कौन सा कथन सही नहीं है -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "राज्य पुनर्गठन आयोग की अनुशंसा के आधार पर राजप्रमुख के पद को समाप्त कर दिया गया।"
-        },
-        {
-          "id": "opt2",
-          "text": "7वें संविधान संशोधन से राजप्रमुख का पद समाप्त किया गया।"
-        },
-        {
-          "id": "opt3",
-          "text": "गुरुमुख निहाल सिंह को 1 नवम्बर, 1956 को राजस्थान का पहला राज्यप्राल नियुक्त किया गया।"
-        },
-        {
-          "id": "opt4",
-          "text": "हरिभाऊ किसनराव बागडे ने 31 जुलाई, 2024 को राजस्थान के राज्यपाल का पदभार संभाला।"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था। गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
-      "reference": "📌 PYQ — Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
-      "difficulty": "medium",
-      "order": 4,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14588,
-        "exam": "Raj. State and Sub. Services Comb. Comp. (Pre) Exam - 2024",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान के प्रथम राज्यपाल के रूप में किसे और कब नियुक्त किया गया था - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "गुरुमुख निहाल सिंह, 25 अक्टूबर 1956"
-        },
-        {
-          "id": "opt2",
-          "text": "सम्पूर्णानन्द, 2 अक्टूबर 1965"
-        },
-        {
-          "id": "opt3",
-          "text": "जोगेंद्र सिंह, 12 अक्टूबर 1965"
-        },
-        {
-          "id": "opt4",
-          "text": "सरदार हुकुम सिंह, 5 नवंबर 1956"
-        }
-      ],
-      "correctAnswer": "opt1",
-      "explanation": "राजस्थान के प्रथम राज्यपाल गुरुमुख निहाल सिंह थे, जिन्हें 25 अक्टूबर 1956 को नियुक्त किया गया था। सरदार गुरूमुख निहाल सिंह ने रियासतों के पुनर्गठन के बाद 1 नवम्बर, 1956 को पदभार संभाला तथा 15 अप्रेल, 1962 तक इस पद पर आसीन रहे।",
-      "reference": "📌 PYQ — Junior Instructor (RAT) Exam 2024",
-      "difficulty": "medium",
-      "order": 5,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14589,
-        "exam": "Junior Instructor (RAT) Exam 2024",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "भारतीय संविधान के किस अनुच्छेद के द्वारा प्रत्येक राज्य में राज्यपाल की नियुक्ति का प्रावधान है -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "अनुच्छेद 155"
-        },
-        {
-          "id": "opt2",
-          "text": "अनुच्छेद 157"
-        },
-        {
-          "id": "opt3",
-          "text": "अनुच्छेद 159"
-        },
-        {
-          "id": "opt4",
-          "text": "अनुच्छेद 153"
-        }
-      ],
-      "correctAnswer": "opt4",
-      "explanation": "भारतीय संविधान के अनुच्छेद 153 के तहत प्रत्येक राज्य के लिये एक राज्यपाल का प्रावधान किया गया। एक व्यक्ति को दो या दो से अधिक राज्यों के राज्यपाल के रूप में नियुक्त किया जा सकता है।",
-      "reference": "📌 PYQ — CET 2024 (12th Level) 24 October Shift-II",
-      "difficulty": "medium",
-      "order": 6,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14590,
-        "exam": "CET 2024 (12th Level) 24 October Shift-II",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान के राज्यपाल के नामों को कालानुक्रमिक क्रम में व्यवस्थित करें: a. श्री रघुकुल तिलकb. श्री सुखदेव प्रसादc. डॉ. सम्पूर्णानंदd. डॉ. एम. चेन्ना रेड्डीनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "c, b, d, a"
-        },
-        {
-          "id": "opt2",
-          "text": "c, a, b, d"
-        },
-        {
-          "id": "opt3",
-          "text": "a, b, c, d"
-        },
-        {
-          "id": "opt4",
-          "text": "b, c, a, d"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "डॉ. सम्पूर्णानंद → श्री रघुकुल तिलक → श्री सुखदेव प्रसाद → डॉ. एम. चेन्ना रेड्डी",
+      "explanation": "राजस्थान राजस्व मंडल का मुख्यालय अजमेर में स्थित है। यह राजस्थान का सर्वोच्च न्यायिक और राजस्व प्रशासन निकाय है। यह राजस्थान भूमि राजस्व अधिनियम, 1956 द्वारा स्थापित है।",
       "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
-      "difficulty": "medium",
-      "order": 7,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14591,
-        "exam": "CET 2024 (12th Level) 23 October Shift-II",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान के प्रथम राज्यपाल कौन थे? (निम्न में से सबसे उपयुक्त विकल्प चुनें: )",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "श्री गुरुमुख निहाल सिंह"
-        },
-        {
-          "id": "opt2",
-          "text": "श्री हेम बहादुर सिंह"
-        },
-        {
-          "id": "opt3",
-          "text": "श्री कलराज मिश्र"
-        },
-        {
-          "id": "opt4",
-          "text": "महाराजा सवाई मान सिंह"
-        }
-      ],
-      "correctAnswer": "opt1",
-      "explanation": "25 अक्टूबर, 1956 को गुरुमुख निहाल सिंह को राजस्थान का पहला राज्यपाल नियुक्त किया गया था।",
-      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-II",
-      "difficulty": "medium",
-      "order": 8,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14592,
-        "exam": "CET 2024 (12th Level) 23 October Shift-II",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राज्यपाल की कार्यकारी शक्तियाँ और कार्य हैं -a. राज्य सरकार की सभी कार्यकारी कार्यवाहियाँ औपचारिक रूप से उनके नाम पर की जाती है।b. वह राज्य के प्रशासन से सम्बन्धित कोई भी जानकारी तथा क़ानून के प्रस्ताव के बारे में मंत्रियों से जानकारी नहीं मांग सकते हैं।c. वह राज्य सरकार के कामकाज के अधिक सुविधाजनक संचालन के लिए नियम बना सकते हैं।d. वह मुख्यमंत्री और अन्य मंत्रियों को नियुक्त करते हैं।नीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "केवल a, b और d"
-        },
-        {
-          "id": "opt2",
-          "text": "केवल b, c और d"
-        },
-        {
-          "id": "opt3",
-          "text": "केवल a, c और d"
-        },
-        {
-          "id": "opt4",
-          "text": "केवल b, a और c"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "राज्यपाल राज्य के प्रशासनिक कार्यों के लिए जिम्मेदार होते हैं।वह मुख्यमंत्री और मंत्रियों को नियुक्त करते हैं।वह राज्य सरकार के कामकाज के लिए नियम बना सकते हैं।राज्यपाल मंत्रियों से जानकारी मांग सकते हैं, इसलिए विकल्प ‘b’ गलत है।",
-      "reference": "📌 PYQ — CET 2024 (12th Level) 23 October Shift-I",
-      "difficulty": "medium",
-      "order": 9,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14593,
-        "exam": "CET 2024 (12th Level) 23 October Shift-I",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से किसे राजस्थान के राज्यपाल द्वारा नियुक्त नहीं किया जाता है -निम्नलिखित में से सबसे उपयुक्त विकल्प चुनें।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "राज्य विश्वविद्यालय के कुलपति"
-        },
-        {
-          "id": "opt2",
-          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
-        },
-        {
-          "id": "opt3",
-          "text": "राज्य निर्वाचन आयुक्त"
-        },
-        {
-          "id": "opt4",
-          "text": "राज्य लोक सेवा आयोग के अध्यक्ष"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "उच्च न्यायालय के मुख्य न्यायाधीश की नियुक्ति राष्ट्रपति द्वारा की जाती है, जबकि अन्य उल्लेखित पदों पर नियुक्ति राज्यपाल करते हैं।",
-      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-II",
-      "difficulty": "medium",
-      "order": 10,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14594,
-        "exam": "CET 2024 (12th Level) 22 October Shift-II",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राज्य के राज्यपाल को कौन हटा सकता है? (निम्नलिखित में से सबसे उपयुक्त विकल्प चुनें: )",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "मुख्यमंत्री"
-        },
-        {
-          "id": "opt2",
-          "text": "राष्ट्रपति"
-        },
-        {
-          "id": "opt3",
-          "text": "प्रधानमंत्री"
-        },
-        {
-          "id": "opt4",
-          "text": "भारत के मुख्य न्यायाधीश"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "संविधान के अनुच्छेद 155 और 156 के तहत राज्यपाल की नियुक्ति राष्ट्रपति द्वारा की जाती है तथा वह “राष्ट्रपति के प्रसादपर्यंत” पद धारण करता है। यदि पाँच वर्ष का कार्यकाल पूरा होने से पूर्व इस प्रसादपर्यंतता को वापस ले लिया जाता है, तो राज्यपाल को पद छोड़ना पड़ता है। राष्ट्रपति चूँकि प्रधानमंत्री और मंत्रिपरिषद की सहायता और सलाह से काम करता है, इसलिये राज्यपाल को केंद्र सरकार द्वारा नियुक्त किया और हटाया जा सकता है।",
-      "reference": "📌 PYQ — CET 2024 (12th Level) 22 October Shift-I",
-      "difficulty": "medium",
-      "order": 11,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14595,
-        "exam": "CET 2024 (12th Level) 22 October Shift-I",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से प्रायः कौन राज्य विश्वविद्यालयों के कुलाधिपति के रूप में कार्य करता है -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "राज्यपाल"
-        },
-        {
-          "id": "opt2",
-          "text": "प्रधानमंत्री"
-        },
-        {
-          "id": "opt3",
-          "text": "शिक्षा मंत्री"
-        },
-        {
-          "id": "opt4",
-          "text": "मुख्यमंत्री"
-        }
-      ],
-      "correctAnswer": "opt1",
-      "explanation": "भारतीय राज्यों में राज्यपाल राज्य विश्वविद्यालयों के कुलाधिपति (Chancellor) के रूप में कार्य करते हैं और विश्वविद्यालय की प्रमुख औपचारिक जिम्मेदारियां निभाते हैं।",
-      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-2",
-      "difficulty": "medium",
-      "order": 12,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14596,
-        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-2",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से राजस्थान राज्य की प्रथम महिला राज्यपाल (गवर्नर) कौन थीं -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "प्रभा राव"
-        },
-        {
-          "id": "opt2",
-          "text": "मार्गरेट अल्वा"
-        },
-        {
-          "id": "opt3",
-          "text": "कमला बेनीवाल"
-        },
-        {
-          "id": "opt4",
-          "text": "प्रतिभा पाटिल"
-        }
-      ],
-      "correctAnswer": "opt4",
-      "explanation": "प्रतिभा पाटिल राजस्थान की पहली महिला राज्यपाल थीं। उन्होंने 2004 से 2007 तक इस पद पर कार्य किया। बाद में वह भारत की पहली महिला राष्ट्रपति बनीं।",
-      "reference": "📌 PYQ — CET 2024 (Graduate) 27 September 2024 Shift-1",
-      "difficulty": "medium",
-      "order": 13,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14597,
-        "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "संविधान के अनुच्छेद 213 के अधीन, अध्यादेश प्रख्यापित करना राज्यपाल का/की है-",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "अधिकार"
-        },
-        {
-          "id": "opt2",
-          "text": "दायित्व"
-        },
-        {
-          "id": "opt3",
-          "text": "प्रकार्य"
-        },
-        {
-          "id": "opt4",
-          "text": "शक्ति"
-        }
-      ],
-      "correctAnswer": "opt4",
-      "explanation": "अनुच्छेद 213 के अंतर्गत राज्यपाल के पास “शक्ति” होती है कि वे विधानसभा के सत्र में न होने पर तत्कालिक कानून आवश्यक होने पर अध्यादेश जारी कर सकते हैं। यह एक अस्थायी कानून होता है जिसे विधानसभा द्वारा पारित करना आवश्यक होता है।",
-      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
-      "difficulty": "medium",
-      "order": 14,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14598,
-        "exam": "Asst. Prof. (Sanskrit College Edu.) - 2024 (Rajasthan Gk)",
-        "year": 2024
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "गवर्नर द्वारा कौन चुना जाता है -",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "राज्य अटॉर्नी जनरल"
-        },
-        {
-          "id": "opt2",
-          "text": "लोक सेवा आयोग के सदस्य"
-        },
-        {
-          "id": "opt3",
-          "text": "राज्य चुनाव आयुक्त"
-        },
-        {
-          "id": "opt4",
-          "text": "इन सभी को"
-        }
-      ],
-      "correctAnswer": "opt4",
-      "explanation": "गवर्नर राज्य में विभिन्न संवैधानिक पदों पर नियुक्तियाँ करते हैं, जिनमें राज्य अटॉर्नी जनरल, लोक सेवा आयोग के सदस्य, और राज्य चुनाव आयुक्त शामिल होते हैं। इन पदों पर नियुक्तियाँ संविधान के प्रावधानों के अनुसार की जाती हैं।",
-      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
       "difficulty": "medium",
       "order": 15,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14599,
-        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - L1)",
+        "sourceQuestionId": 13995,
+        "exam": "CET 2024 (12th Level) 23 October Shift-II",
         "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "गवर्नर को किस क्षेत्र में विवेकाधिकार नहीं है -",
+      "questionText": "राजस्थान के निम्नलिखित मुख्य सचिवों पर विचार कीजिए तथा उन्हें उनके कार्यकाल के अनुसार कालक्रम में व्यवस्थित कीजिए। नीचे दिए गए कूटों की सहायता से सही उत्तर दीजिए।I. सी.एस. राजनII. ऊषा शर्माIII. निरंजन कुमार आर्यIV. सी.के. मैथ्यूकूट:",
       "options": [
         {
           "id": "opt1",
-          "text": "राष्ट्रपति के लिए आरक्षित बिल रखना"
+          "text": "IV, II, III, I"
         },
         {
           "id": "opt2",
-          "text": "अदालत में मुख्यमंत्री के किसी भी आदेश के खिलाफ अपील"
+          "text": "I, IV, III, II"
         },
         {
           "id": "opt3",
-          "text": "राज्य विधान परिषद और अन्य मामलों से जानकारी प्राप्त करना"
+          "text": "IV, I, III, II"
         },
         {
           "id": "opt4",
-          "text": "किसी भी राज्य के लिए अतिरिक्त जिम्मेदारियां रखना"
+          "text": "I, IV, II, III"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "गवर्नर को राष्ट्रपति के लिए आरक्षित बिल रखने में विवेकाधिकार प्राप्त होता है। ​वहीं, अदालत में मुख्यमंत्री के किसी भी आदेश के खिलाफ अपील करने का अधिकार गवर्नर के विवेकाधिकार में नहीं आता है।",
-      "reference": "📌 PYQ — Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+      "correctAnswer": "opt3",
+      "explanation": "कालक्रम के अनुसार: सी.के. मैथ्यू (2012-2013), सी.एस. राजन (2013-2013), निरंजन कुमार आर्य (2020-2022), ऊषा शर्मा (2022-2023)।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
       "difficulty": "medium",
       "order": 16,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14600,
-        "exam": "Rajasthan Police Constable Exam 2024 ( SHIFT - K1)",
+        "sourceQuestionId": 14558,
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-C)",
         "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान के निम्नलिखित मुख्यमंत्रियों में से किस ने प्रथम बार राजस्थान विधानसभा में बजट प्रस्तुत किया -",
+      "questionText": "कथनों को ध्यानपूर्वक पढ़िए-i. राजस्थान का महाधिवक्ता कार्यालय, राज्य पुनर्गठन अधिनियम 1956 के अनुसार, राजस्थान राज्य के गठन पर अस्तित्व में आया।ii. जी.सी. कासलीवाल राजस्थान राज्य के प्रथम महाधिवक्ता बने।निम्न में से कौनसा विकल्प सही है -",
       "options": [
         {
           "id": "opt1",
-          "text": "मोहनलाल सुखाड़िया"
+          "text": "केवल कथन i सही है"
         },
         {
           "id": "opt2",
-          "text": "बरकतुल्लाह खान"
+          "text": "i व ii दोनों कथन गलत हैं"
         },
         {
           "id": "opt3",
-          "text": "जयनारायण व्यास"
+          "text": "केवल कथन ii सही है"
         },
         {
           "id": "opt4",
-          "text": "टीकाराम पालीवाल"
+          "text": "i व ii दोनों कथन सही हैं"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "जयनारायण व्यास ने 1952 में राजस्थान विधानसभा में पहला बजट प्रस्तुत किया। वे राजस्थान के पहले निर्वाचित मुख्यमंत्री थे।",
-      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — CET 2022 (Graduate) 07 January 2023 Shift-2",
       "difficulty": "medium",
       "order": 17,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14601,
-        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - C)",
-        "year": 2024
+        "sourceQuestionId": 14637,
+        "exam": "CET 2022 (Graduate) 07 January 2023 Shift-2",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन सा युग्म सुमेलित नहीं है -मुख्यमंत्री - मुख्य सचिव",
+      "questionText": "राजस्थान के निम्नलिखित मुख्य सचिवों में से किसका कार्यकाल सबसे कम रहा है -",
       "options": [
         {
           "id": "opt1",
-          "text": "शिवचरण माथुर - टी.वी. रमणन"
+          "text": "आनंद मोहनलाल सक्सेना"
         },
         {
           "id": "opt2",
-          "text": "हरिदेव जोशी - नरेश चन्द्रा"
+          "text": "एच. एम. माथुर"
         },
         {
           "id": "opt3",
-          "text": "टीकाराम पालीवाल - एस.डब्ल्यू. शिवेश्वरकर"
+          "text": "इन्द्रजीत खन्ना"
         },
         {
           "id": "opt4",
-          "text": "जगन्नाथ पहाड़िया - एम.एम.के. वली"
+          "text": "गोपाल कृष्ण भनोत्"
         }
       ],
-      "correctAnswer": "opt1",
-      "explanation": "शिव चरण माथुर एक भारतीय राजनीतिज्ञ थे। भारतीय राष्ट्रीय कांग्रेस के एक नेता, वे 1981 से 1985 तक और फिर 1988 से 1989 तक राजस्थान के मुख्यमंत्री रहे।श्री टी. वी. रमन 31-01-1992 से 30-08-1993 तक मुख्य सचिव रहे।",
-      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
+      "correctAnswer": "opt2",
+      "explanation": "सबसे कम 6 दिन एचएम माथुर मुख्य सचिव रहे। वे 28 जनवरी 1994 से 2 फरवरी 1994 तक इस पद पर रहे।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
       "difficulty": "medium",
       "order": 18,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14602,
-        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam-2024 (G.K. Group - B)",
-        "year": 2024
+        "sourceQuestionId": 14675,
+        "exam": "Sr. Teacher Gr II Comp. Exam - 2022 (Sanskrit Edu.) Group B",
+        "year": 2022
       }
     },
     {
       "type": "mcq",
-      "questionText": "राज्य आपदा प्रबंधन प्राधिकरण का नेतृत्व कौन करता है - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "questionText": "राष्ट्रपति की आपातकालीन शक्तियों के बारे में निम्नलिखित में से कौन सा कथन गलत हैः",
       "options": [
         {
           "id": "opt1",
-          "text": "राज्यपाल"
+          "text": "राष्ट्रपति द्वारा वित्तीय आपातकालीन तब घोषित किया जा सकता है जब भारत या उसके क्षेत्र के किसी भाग की वित्तीय स्थिरता या साख खतरे में हो।"
         },
         {
           "id": "opt2",
-          "text": "राज्य के मुख्य सचिव"
+          "text": "वित्तीय आपातकाल के दौरान राज्य के मामलों से जुड़े सेवारत लोगों के वेतन और भत्तों में कटौती की जा सकती है"
         },
         {
           "id": "opt3",
-          "text": "मुख्यमंत्री"
+          "text": "वित्तीय आपातकाल के दौरान राज्य विधायिका द्वारा पारित विधेयकों को राष्ट्रपति के विचार के लिए आरक्षित किया जा सकता है।"
         },
         {
           "id": "opt4",
-          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+          "text": "वित्तीय आपातकाल की घोषणा सामान्यतः दो माह की अवधि के लिए प्रभावी रहती है।"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "राज्य आपदा प्रबंधन प्राधिकरण (State Disaster Management Authority - SDMA) का नेतृत्व राज्य के मुख्यमंत्री करते हैं।",
-      "reference": "📌 PYQ — Prahari 2024 Shift 2",
+      "correctAnswer": "opt4",
+      "explanation": "राष्ट्रपति की आपातकालीन शाक्तियों के बारे में राष्ट्रपति द्वारा वित्तीय आपातकालीन तब घोषित किया जा सकता है जब भारत या उसके क्षेत्र के किसी भाग की वित्तीय स्थिरता या साख खतरे में हो और वित्तीय आपातकाल के दौरान राज्य के मामलों से जुड़े सेवारत लोगों के वेतन और भत्तों में कटौती की जा सकती है तथा वित्तीय आपात काल के दौरान राज्य विधायिका द्वारा पारित विधेयकों को राष्ट्रपति के विचार के लिए आरक्षित किया जा सकता है। इसके घोषणा की कोई अवधि निर्धारित नहीं है वित्तीय आपात की उदघोषणा दो मास की समाप्ति पर प्रवर्तन में नहीं रहेगी यदि उस अवधि की समाप्ति से पहले दोनों सदनों द्वारा अनुमोदित नहीं हो जाता है। अत: विकल्प(d)असत्य है।",
+      "reference": "📌 PYQ — RPSC School Lect. Group-C (S.E.)2022",
       "difficulty": "medium",
       "order": 19,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14603,
-        "exam": "Prahari 2024 Shift 2",
-        "year": 2024
+        "sourceQuestionId": 14734,
+        "exam": "RPSC School Lect. Group-C (S.E.)2022",
+        "year": 2022
       }
     }
   ]

@@ -8,9 +8,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
-# Rajasthan GK Authoritative Master Syllabus Contract (73 Topics)
+# Rajasthan GK Authoritative Master Syllabus Contract (75 Topics)
 
-The application and question bank are strictly and exclusively dedicated to Rajasthan GK across the following 5 Canonical Subjects and 73 Master Topics. India GK, World GK, English, etc. must never be mixed in.
+The application and question bank are strictly and exclusively dedicated to Rajasthan GK across the following 5 Canonical Subjects and 75 Master Topics. India GK, World GK, English, etc. must never be mixed in.
 
 ### A. राजस्थान सामान्य ज्ञान एवं भूगोल (20 Topics)
 1. राजस्थान का सामान्य ज्ञान
@@ -77,7 +77,7 @@ The application and question bank are strictly and exclusively dedicated to Raja
 56. राजस्थान की महिला व्यक्तित्व
 57. राजस्थान में प्रेस एवं पत्रकारिता
 
-### E. राजस्थान राजव्यवस्था / प्रशासन (16 Topics)
+### E. राजस्थान राजव्यवस्था / प्रशासन (18 Topics)
 58. राजस्थान राज्य प्रशासन
 59. राजस्थान के राज्यपाल
 60. राजस्थान के मुख्यमंत्री
@@ -85,7 +85,7 @@ The application and question bank are strictly and exclusively dedicated to Raja
 62. राजस्थान राज्य विधानमंडल
 63. राजस्थान उच्च न्यायालय एवं न्यायपालिका
 64. राजस्थान जिला प्रशासन
-65. राजस्थान पंचायती राज एवं स्थानीय स्वशासन
+65. राजस्थान पंचायती राज
 66. राजस्थान लोक सेवा आयोग (RPSC)
 67. राजस्थान राज्य निर्वाचन आयोग
 68. राजस्थान मानवाधिकार आयोग
@@ -94,4 +94,6 @@ The application and question bank are strictly and exclusively dedicated to Raja
 71. राजस्थान के संवैधानिक आयोग एवं संस्थाएँ
 72. राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र
 73. राजस्थान विज्ञान एवं प्रौद्योगिकी
+74. राजस्थान नगरीय स्वशासन एवं नगरपालिका
+75. राजस्थान का बजट एवं आर्थिक समीक्षा
 

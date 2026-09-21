@@ -51,19 +51,19 @@ export function FilterBar({
       <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
         <SelectTrigger
           id="filter-subject"
-          className="h-9 min-w-32 max-w-52 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
-          aria-label="विषय फ़िल्टर"
+          className="h-9 min-w-32 max-w-56 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
+          aria-label="Select Subject"
         >
-          <SelectValue placeholder="विषय चुनें">
+          <SelectValue placeholder="Select Subject">
             {(v: string | null) => {
               const opt = subjects.find((s) => s.value === (v ?? selectedSubject));
-              return opt?.label ?? "विषय चुनें";
+              return opt?.label ?? "Select Subject";
             }}
           </SelectValue>
         </SelectTrigger>
         <SelectContent className="bg-popover border-border">
           {subjects.map((s) => (
-            <SelectItem key={s.value} value={s.value} className="text-xs sm:text-sm font-hindi">
+            <SelectItem key={s.value} value={s.value} className="text-xs sm:text-sm">
               {s.label}
             </SelectItem>
           ))}
@@ -75,19 +75,19 @@ export function FilterBar({
         <Select value={selectedTopic ?? "all"} onValueChange={(v) => onTopicChange(v ?? "all")}>
           <SelectTrigger
             id="filter-topic"
-            className="h-9 min-w-32 max-w-52 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
-            aria-label="टॉपिक फ़िल्टर"
+            className="h-9 min-w-32 max-w-56 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
+            aria-label="Select Topic"
           >
-            <SelectValue placeholder="टॉपिक चुनें">
+            <SelectValue placeholder="Select Topic">
               {(v: string | null) => {
                 const opt = topics.find((t) => t.value === (v ?? selectedTopic ?? "all"));
-                return opt?.label ?? "टॉपिक चुनें";
+                return opt?.label ?? "Select Topic";
               }}
             </SelectValue>
           </SelectTrigger>
           <SelectContent className="bg-popover border-border">
             {topics.map((t) => (
-              <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm font-hindi">
+              <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm">
                 {t.label}
               </SelectItem>
             ))}
@@ -100,19 +100,19 @@ export function FilterBar({
         <Select value={selectedSort ?? sortOptions[0].value} onValueChange={(v) => onSortChange(v ?? sortOptions[0].value)}>
           <SelectTrigger
             id="filter-sort"
-            className="h-9 min-w-28 max-w-44 text-xs sm:text-sm font-medium font-hindi rounded-xl border-border bg-card shadow-xs"
-            aria-label="क्रम"
+            className="h-9 min-w-28 max-w-44 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
+            aria-label="Sort By"
           >
-            <SelectValue placeholder="क्रम चुनें">
+            <SelectValue placeholder="Sort By">
               {(v: string | null) => {
                 const opt = sortOptions.find((o) => o.value === (v ?? selectedSort ?? sortOptions[0].value));
-                return opt?.label ?? "क्रम चुनें";
+                return opt?.label ?? "Sort By";
               }}
             </SelectValue>
           </SelectTrigger>
           <SelectContent className="bg-popover border-border">
             {sortOptions.map((o) => (
-              <SelectItem key={o.value} value={o.value} className="text-xs sm:text-sm font-hindi">
+              <SelectItem key={o.value} value={o.value} className="text-xs sm:text-sm">
                 {o.label}
               </SelectItem>
             ))}

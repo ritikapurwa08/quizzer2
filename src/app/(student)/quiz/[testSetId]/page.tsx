@@ -174,15 +174,15 @@ export default function QuizPage() {
             variant="outline"
             onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
             disabled={currentIndex === 0}
-            className="h-10 px-3 font-semibold text-xs rounded-xl border-border cursor-pointer font-hindi shrink-0"
-            aria-label="पिछला प्रश्न"
+            className="h-10 px-3 font-semibold text-xs rounded-xl border-border cursor-pointer shrink-0"
+            aria-label="Previous question"
           >
-            ← पिछला
+            ← Prev
           </Button>
 
           {/* Compact answered/total count — center */}
-          <span className="flex-1 text-center text-xs font-semibold tabular-nums text-muted-foreground font-hindi">
-            {answeredCount}&thinsp;/&thinsp;{questions.length}
+          <span className="flex-1 text-center text-xs font-semibold tabular-nums text-muted-foreground">
+            {answeredCount}&thinsp;/&thinsp;{questions.length} answered
           </span>
 
           {/* Next or Submit */}
@@ -190,24 +190,24 @@ export default function QuizPage() {
             <Button
               onClick={() => setConfirmSubmitOpen(true)}
               disabled={isSubmitting}
-              className="h-10 px-3 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer font-hindi shrink-0"
+              className="h-10 px-3 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-1.5">
                   <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" aria-hidden="true" />
-                  <span>सबमिट…</span>
+                  <span>Submitting...</span>
                 </span>
               ) : (
-                "सबमिट ✓"
+                "Submit ✓"
               )}
             </Button>
           ) : (
             <Button
               onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
-              className="h-10 px-3 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer font-hindi shrink-0"
-              aria-label="अगला प्रश्न"
+              className="h-10 px-3 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
+              aria-label="Next question"
             >
-              अगला →
+              Next →
             </Button>
           )}
         </div>
@@ -229,16 +229,16 @@ export default function QuizPage() {
           {/* Progress & Timer card */}
           <div className="rounded-xl border border-border bg-card p-4 space-y-3">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider font-hindi">
-                प्रगति
+              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Progress
               </span>
-              <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full tabular-nums font-hindi">
-                {answeredCount} / {questions.length} हल
+              <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full tabular-nums">
+                {answeredCount} / {questions.length} Solved
               </span>
             </div>
             <div className="flex items-center justify-between pt-2.5 border-t border-border/60">
-              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider font-hindi">
-                समय
+              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                Time Elapsed
               </span>
               <div className="flex items-center gap-1.5 font-mono text-sm font-bold text-foreground">
                 <Clock className="h-4 w-4 text-primary" aria-hidden="true" />
@@ -262,34 +262,34 @@ export default function QuizPage() {
                 size="sm"
                 onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
                 disabled={currentIndex === 0}
-                className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer font-hindi"
-                aria-label="पिछला प्रश्न"
+                className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer"
+                aria-label="Previous question"
               >
-                ← पिछला
+                ← Prev
               </Button>
               <Button
                 variant="outline"
                 size="sm"
                 onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
                 disabled={isLastQuestion}
-                className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer font-hindi"
-                aria-label="अगला प्रश्न"
+                className="font-semibold text-xs h-10 rounded-xl border-border cursor-pointer"
+                aria-label="Next question"
               >
-                अगला →
+                Next →
               </Button>
             </div>
             <Button
-              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs h-10 rounded-xl cursor-pointer font-hindi"
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs h-10 rounded-xl cursor-pointer"
               onClick={() => setConfirmSubmitOpen(true)}
               disabled={isSubmitting}
             >
               {isSubmitting ? (
                 <span className="flex items-center justify-center gap-1.5">
                   <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" aria-hidden="true" />
-                  <span>सबमिट हो रहा है…</span>
+                  <span>Submitting test...</span>
                 </span>
               ) : (
-                "टेस्ट सबमिट करें"
+                "Submit Test"
               )}
             </Button>
           </div>
@@ -302,17 +302,12 @@ export default function QuizPage() {
         onOpenChange={(open) => {
           if (!isSubmitting) setConfirmSubmitOpen(open);
         }}
-        title="टेस्ट सबमिट करें?"
-        description={`आपने ${questions.length} में से ${answeredCount} प्रश्नों के उत्तर दिए हैं। क्या आप टेस्ट समाप्त करना चाहते हैं?`}
+        title="Submit Test?"
+        description={`You have answered ${answeredCount} of ${questions.length} questions. Are you sure you want to finish the test?`}
         onConfirm={handleSubmit}
         isLoading={isSubmitting}
-        confirmLabel="हाँ, सबमिट करें"
-        loadingLabel={
-          <span className="flex items-center gap-1.5">
-            <span>सबमिट हो रहा है</span>
-            <span className="inline-flex tracking-widest animate-pulse ml-0.5">…</span>
-          </span>
-        }
+        confirmLabel="Yes, Submit Test"
+        loadingLabel="Submitting..."
       />
     </div>
   );

@@ -18,9 +18,9 @@ export async function GET(request: NextRequest) {
     }
 
     const masterTopicId = parseInt(topicIdParam, 10);
-    if (isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 73) {
+    if (isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 75) {
       return NextResponse.json(
-        { success: false, message: "Invalid masterTopicId (must be 1-73)" },
+        { success: false, message: "Invalid masterTopicId (must be 1-75)" },
         { status: 400 }
       );
     }

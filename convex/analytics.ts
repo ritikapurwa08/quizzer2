@@ -221,13 +221,81 @@ export const dashboardStats = query({
     const weakestSubject =
       subjectAccuracy.filter((s) => s.total > 0).sort((a, b) => a.accuracy - b.accuracy)[0] ?? null;
 
-    // ── Recent Test Attempts (Latest 8) ────────────────────────────────────
-    // Sort submitted attempts descending by submittedAt, take 8, then sort ascending
+    // ── Hourly Activity breakdown for the selected range ─────────────────
+    const hourlyMap = Array.from({ length: 24 }, (_, h) => {
+      let label = "12 AM";
+      if (h === 0) label = "12 AM";
+      else if (h < 12) label = `${h} AM`;
+      else if (h === 12) label = "12 PM";
+      else label = `${h - 12} PM`;
+      return {
+        hour: h,
+        hourLabel: label,
+        correct: 0,
+        incorrect: 0,
+        total: 0,
+        tests: 0,
+      };
+    });
+
+    for (const attempt of attempts) {
+      if (!attempt.submittedAt) continue;
+      const attemptLocalMs = attempt.submittedAt - tzOffsetMs;
+      const daysDiff = (nowLocalMs - attemptLocalMs) / (1000 * 60 * 60 * 24);
+      if (daysDiff > rangeDays || daysDiff < 0) continue;
+
+      const localDate = new Date(attemptLocalMs);
+      const hour = localDate.getUTCHours();
+      if (hour >= 0 && hour < 24) {
+        hourlyMap[hour].tests += 1;
+        for (const answer of attempt.answers) {
+          if (isAnswerAttempted(answer)) {
+            hourlyMap[hour].total += 1;
+            if (answer.isCorrect) {
+              hourlyMap[hour].correct += 1;
+            } else {
+              hourlyMap[hour].incorrect += 1;
+            }
+          }
+        }
+      }
+    }
+
+    // ── All Subjects Diagnostic Breakdown ──────────────────────────────────
+    const allSubjects = await ctx.db.query("subjects").collect();
+    allSubjects.sort((a, b) => a.order - b.order);
+
+    const subjectBreakdown = allSubjects.map((s) => {
+      const ss = subjectStats.get(s._id);
+      const total = ss?.total ?? 0;
+      const correct = ss?.correct ?? 0;
+      const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+      let status: "unattempted" | "weak" | "moderate" | "strong" = "unattempted";
+      if (total > 0) {
+        if (accuracy < 60) status = "weak";
+        else if (accuracy < 80) status = "moderate";
+        else status = "strong";
+      }
+      return {
+        subjectId: s._id,
+        name: s.name,
+        nameHindi: s.nameHindi,
+        order: s.order,
+        totalQuestionsAttempted: total,
+        correctQuestions: correct,
+        accuracy,
+        isAttempted: total > 0,
+        status,
+      };
+    });
+
+    // ── Recent Test Attempts (Latest 10) ───────────────────────────────────
+    // Sort submitted attempts descending by submittedAt, take 10, then sort ascending
     // so chronological flow displays older -> newest from left to right on the bar chart.
     const sortedSubmitted = [...attempts]
       .filter((a) => typeof a.submittedAt === "number")
       .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
-      .slice(0, 8);
+      .slice(0, 10);
 
     const recentAttempts = await Promise.all(
       sortedSubmitted.reverse().map(async (a) => {
@@ -270,6 +338,8 @@ export const dashboardStats = query({
       bookmarkCount: bookmarks.length,
       wrongQuestionCount: wrongQuestions.length,
       dailyProgress: allDays,
+      hourlyActivity: hourlyMap,
+      subjectBreakdown,
       weakSubjects,
       subjectAccuracy,
       answerBreakdown: {

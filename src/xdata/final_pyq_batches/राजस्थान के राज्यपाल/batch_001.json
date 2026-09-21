@@ -1,0 +1,670 @@
+{
+  "masterTopic": "राजस्थान के राज्यपाल",
+  "batchIndex": 1,
+  "batchName": "राजस्थान के राज्यपाल भाग 1",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-के-राज्यपाल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "सूची-I के साथ सूची-II का मिलान कीजिए :सूची-I (पद)सूची-II (भूमिका)(a) राज्यपाल(i) राज्य के राजनीतिक प्रमुख(b) मुख्यमंत्री(ii) राज्य का संवैधानिक प्रमुख(c) मुख्य सचिव(iii) जिले के प्रशासनिक प्रमुख(d) जिला कलेक्टर(iv) राज्य सिविल सेवाओं के प्रमुखनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)"
+        },
+        {
+          "id": "opt3",
+          "text": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राज्यपाल → राज्य का संवैधानिक प्रमुखमुख्यमंत्री → राज्य के राजनीतिक प्रमुखमुख्य सचिव → राज्य सिविल सेवाओं के प्रमुखजिला कलेक्टर → जिले के प्रशासनिक प्रमुख",
+      "reference": "📌 PYQ — Forester Exam (2026)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012043",
+        "exam": "Forester Exam",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारत में किसी राज्य के महाधिवक्ता (ऐड्वोकेट जनरल) की नियुक्ति कौन करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्य का कानून मंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "उस राज्य का राज्यपाल"
+        },
+        {
+          "id": "opt3",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt4",
+          "text": "उस राज्य का मुख्यमंत्री"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुसार, राज्य का सर्वोच्च विधिक अधिकारी महाधिवक्ता राज्यपाल द्वारा नियुक्त किया जाता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (20 Sep. 2nd Shift) (2025)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012052",
+        "exam": "RSSB Fourth Class Exam (20 Sep. 2nd Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य मुख्य सूचना आयुक्त की नियुक्ति किसके द्वारा की जाती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "राष्ट्रपति"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रधानमंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्यपाल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राज्य के मुख्य सूचना आयुक्त की नियुक्ति राज्यपाल द्वारा की जाती है। राज्य के मुख्य सूचना आयुक्त और एक राज्य सूचना आयुक्त 5 वर्ष की अवधि के लिए या 65 वर्ष की आयु प्राप्त करने तक, जो भी पहले हो, तक पद धारण करते हैं। वे पुनर्नियुक्ति के लिए पात्र नहीं हैं।",
+      "reference": "📌 PYQ — Police SI 14 September (Gk) (2021)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012088",
+        "exam": "Police SI 14 September (Gk)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में लोकायुक्त के पद से सम्बन्धित निम्नांकित कथनों पर विचार कीजिए -अ. राज्यपाल लोकायुक्त की नियुक्ति करेंगे।ब. लोकायुक्त का देय वेतन, भत्ते, पेंशन राजस्थान उच्च न्यायालय के मुख्य न्यायमूर्ति के समकक्ष होंगे।स. राजस्थान के मुख्यमंत्री के विरूद्ध शिकायतों का अन्वेषण लोकायुक्त द्वारा नहीं किया जा सकेगा।निम्नांकित कूटों में से सही उत्तर का चयन कीजिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल अ"
+        },
+        {
+          "id": "opt2",
+          "text": "अ और ब"
+        },
+        {
+          "id": "opt3",
+          "text": "ब और स"
+        },
+        {
+          "id": "opt4",
+          "text": "अ, ब और स"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — College Lecturer (Sarangi Instrument) Exam (G.K.) (2018)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012114",
+        "exam": "College Lecturer (Sarangi Instrument) Exam (G.K.)",
+        "year": 2018
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौन सा कथन गलत है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "महाधिवक्ता का पारिश्रमिक राज्यपाल द्वारा निर्धारित किया जाता है।"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्य के महाधिवक्ता की नियुक्ति उच्च न्यायालय के मुख्य न्यायाधीश द्वारा की जाती है।"
+        },
+        {
+          "id": "opt3",
+          "text": "महाधिवक्ता राज्यपाल के प्रसादपर्यंत पदधारण करेगा।"
+        },
+        {
+          "id": "opt4",
+          "text": "महाधिवक्ता का यह कर्तव्य होगा कि वह राज्य सरकार को विधिक मामलों में सलाह दें।"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "भारतीय संविधान के अनुच्छेद 165 के तहत, राज्य के महाधिवक्ता की नियुक्ति की जाती है। इसके अलावा, इस सर्वोच्च विधि अधिकारी की नियुक्ति राज्य के राज्यपाल द्वारा की जाती है।",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012092",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "मुख्य सचिव के कार्यों के संबंध में निम्नांकित कथनों को सावधानी से पढ़िए :(I) वह मुख्यमंत्री का प्रमुख सलाहकार होता है ।(II) वह राज्य लोक सेवाओं का प्रमुख होता है ।(III) वह राज्य के राज्यपाल का प्रमुख सलाहकार होता है ।नीचे दिए गए कूटों में से सही उत्तर चुनिए -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल (III) सही है।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल (I) तथा (III) सही हैं ।"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल (II) सही है।"
+        },
+        {
+          "id": "opt4",
+          "text": "केवल (I) तथा (II) सही हैं ।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "मुख्य सचिव नीति और प्रशासन के मामलों में मुख्यमंत्री के प्रमुख सलाहकार के रूप में कार्य करता है। मुख्य सचिव राज्य की सिविल सेवाओं का प्रमुख होता है, जो प्रशासनिक मशीनरी की देखरेख करता है। मुख्य सचिव राज्यपाल का प्रमुख सलाहकार नहीं है।",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012119",
+        "exam": null,
+        "year": null
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के उन एकमात्र राज्यपाल को पहचानिए, जिनकी पदावधि के दौरान अनुच्छेद 356 के अधीन राष्ट्रपति शासन उद्घोषित भी किया गया और वापस भी लिया गया :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ंपूर्णानंद"
+        },
+        {
+          "id": "opt2",
+          "text": "वेदपाल त्यागी"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुकुल तिलक"
+        },
+        {
+          "id": "opt4",
+          "text": "एम. चेन्ना रेड्डी"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में तीसरा राष्ट्रपति शासन रघुकुल तिलक के कार्यकाल के दौरान 17 फरवरी 1980 को लगाया गया था और 5 जून 1980 को उन्हीं के कार्यकाल के दौरान इसे वापस (समाप्त) भी लिया गया था। रघुकुल तिलक 12 मई, 1977 से 8 अगस्त, 1981 तक राजस्थान के राज्यपाल रहे।",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - (6 April ) (2026)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012137",
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - (6 April )",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कौन, अनुच्छेद 356 के अधीन राष्ट्रपति शासन की उद्घोषणा के प्रवर्तन के दौरान राजस्थान के राज्यपाल नहीं थे ?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "हुकुम सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "वसंत राव पाटिल"
+        },
+        {
+          "id": "opt3",
+          "text": "धनिकलाल मंडल"
+        },
+        {
+          "id": "opt4",
+          "text": "बलिराम भगत"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वसंत राव पाटिल (वसंतदादा पाटिल) राष्ट्रपति शासन काल में राज्यपाल नहीं थे। श्री वसंतराव पाटिल का जन्म महाराष्ट्र के कोल्हापुर जिले में हुआ था और इनका राजस्थान के राज्यपाल के रूप में कार्यकाल 15 अक्टूबर, 1987 से 19 फरवरी, 1988 तक रहा।",
+      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - (5 April ) (2026)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012138",
+        "exam": "SUB INSPECTOR COMB. COMP. EXAM - (5 April )",
+        "year": 2026
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नलिखित राज्यपालों को कालक्रमानुसार व्यवस्थित करें।(a) रघुकुल तिलक(b) ओम प्रकाश मेहरा(c) वसंतराव पाटिल(d) सुखदेव प्रसादनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(b), (a), (d), (c)"
+        },
+        {
+          "id": "opt2",
+          "text": "(a), (b), (c), (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "(c), (b), (a), (d)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a), (c), (d), (b)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "रघुकुल तिलक : 1977 से 1981 तकओम प्रकाश मेहरा : 1982 से1985 तकवसंतराव पाटिल : 1985 से 1987 तकसुखदेव प्रसाद : 1988 से 1990 तक",
+      "reference": "📌 PYQ — 3rd Grade Teacher Science-Maths (L-2 ) (2025)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012139",
+        "exam": "3rd Grade Teacher Science-Maths (L-2 )",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के राज्यपाल, राजस्थान राज्य भारत स्काउट्स और गाइड्स के _______ हैं।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "उपाध्यक्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "अध्यक्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "संरक्षक"
+        },
+        {
+          "id": "opt4",
+          "text": "चेयरपर्सन"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान के राज्यपाल राजस्थान राज्य भारत स्काउट्स और गाइड्स के संरक्षक (Patron) होते हैं, जो संगठन की गतिविधियों को प्रोत्साहन देते हैं।",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - (2025)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012140",
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam -",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य का राज्यपाल राज्य के मंत्रिपरिषद की नियुक्ति किसकी सलाह पर करता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+        },
+        {
+          "id": "opt3",
+          "text": "केन्द्रीय गृह मंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "जिला कलेक्टर"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "संविधान के अनुच्छेद 164 के तहत राज्यपाल मुख्यमंत्री की सलाह पर मंत्रिपरिषद की नियुक्ति करता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (21 Sep. 1st Shift) (2025)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012151",
+        "exam": "RSSB Fourth Class Exam (21 Sep. 1st Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजप्रमुख की संस्था के समाप्त होने के बाद राजस्थान के पहले राज्यपाल कौन बने - (निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "गुरुमुख निहाल सिंह"
+        },
+        {
+          "id": "opt2",
+          "text": "महाराज मान सिंह द्वितीय"
+        },
+        {
+          "id": "opt3",
+          "text": "रघुकुल तिलक"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री बलि राम भगत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में प्रारंभ में राजप्रमुख राज्य प्रमुख थे। जब यह संस्था समाप्त की गई, तो 1956 में गुरुमुख निहाल सिंह राजस्थान के पहले संवैधानिक राज्यपाल बने।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (20 Sep. 1st Shift) (2025)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012152",
+        "exam": "RSSB Fourth Class Exam (20 Sep. 1st Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य का राज्यपाल अन्य मंत्रियों की नियुक्ति किसके परामर्श पर करते हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अध्यक्ष"
+        },
+        {
+          "id": "opt2",
+          "text": "उच्च न्यायालय"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रधान मंत्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "संविधान के अनुच्छेद 164 के अनुसार — राज्यपाल मुख्यमंत्री की सलाह पर अन्य मंत्रियों की नियुक्ति करते हैं।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (20 Sep. 1st Shift) (2025)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012153",
+        "exam": "RSSB Fourth Class Exam (20 Sep. 1st Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्यपाल को केवल उन मामलों को छोड़कर जिनमें राज्यपाल अपने विवेक से कार्य करते हैं, उनके कार्यों के निष्पादन में सहायता और सलाह देने वाली मंत्रिपरिषद का प्रमुख कौन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ज़िला कलेक्टर"
+        },
+        {
+          "id": "opt2",
+          "text": "गृह मंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्य वित्त मंत्री"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "संविधान के अनुसार, राज्यपाल अपने कार्यों का संचालन मुख्यमंत्री और उनकी मंत्रिपरिषद की सलाह पर करते हैं। मुख्यमंत्री राज्य की कार्यपालिका का प्रमुख होता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (19 Sep. 2nd Shift) (2025)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012155",
+        "exam": "RSSB Fourth Class Exam (19 Sep. 2nd Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सी राज्य में राज्यपाल की नियुक्ति के लिए आवश्यक योग्यता नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "भारत का नागरिक होना चाहिए"
+        },
+        {
+          "id": "opt2",
+          "text": "लोकसभा का सदस्य होना चाहिए"
+        },
+        {
+          "id": "opt3",
+          "text": "न्यूनतम आयु 35 वर्ष होनी चाहिए"
+        },
+        {
+          "id": "opt4",
+          "text": "राज्यसभा का सदस्य नहीं हो सकता"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज्यपाल बनने के लिए व्यक्ति को भारत का नागरिक और कम से कम 35 वर्ष का होना चाहिए। लेकिन यह आवश्यक नहीं है कि वह लोकसभा का सदस्य हो — इसलिए यह विकल्प गलत है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (19 Sep. 2nd Shift) (2025)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012156",
+        "exam": "RSSB Fourth Class Exam (19 Sep. 2nd Shift)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान राज्य का संवैधानिक मुखिया कौन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "विधान सभा अध्यक्ष"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्य सचिव"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान का संवैधानिक मुखिया राज्यपाल होता है, जो राज्य में राष्ट्रपति का प्रतिनिधि होता है।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (Shift-2) (2025)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012157",
+        "exam": "Raj Police Constable Exam (Shift-2)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "2007 में राजस्थान के राज्यपाल बनने से पहले पाकिस्तान में भारत के सबसे लंबे समय तक राजदूत रहे थे",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कलराज मिश्र"
+        },
+        {
+          "id": "opt2",
+          "text": "शिलेन्द्र कुमार सिंह"
+        },
+        {
+          "id": "opt3",
+          "text": "ओम प्रकाश मेहरा"
+        },
+        {
+          "id": "opt4",
+          "text": "मिलाप चंद जैन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "श्री शीलेन्द्र कुमार सिंह ने राजस्थान के राज्यपाल के रूप में 6 सितम्बर, 2007 को पदभार ग्रहण किया।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (Shift-1) (2025)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012158",
+        "exam": "Raj Police Constable Exam (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान की पहली महिला राज्यपाल कौन थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इंदिरा गाँधी"
+        },
+        {
+          "id": "opt2",
+          "text": "मार्गरेट अल्वा"
+        },
+        {
+          "id": "opt3",
+          "text": "वसुंधरा राजे"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रतिभा देवीसिंह पाटिल"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "प्रतिभा देवीसिंह पाटिल राजस्थान की पहली महिला राज्यपाल थीं (2004-2007)।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (Shift-1) (2025)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012159",
+        "exam": "Raj Police Constable Exam (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राज्य विश्वविद्यालयों का पदेन कुलाधिपति (चांसलर) होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "मुख्यमंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "शिक्षा मंत्री"
+        },
+        {
+          "id": "opt3",
+          "text": "राज्यपाल"
+        },
+        {
+          "id": "opt4",
+          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राज्यपाल राज्य विश्वविद्यालयों का पदेन कुलाधिपति (चांसलर) होता है। राज्य विश्वविद्यालय अधिनियमों के अनुसार, राज्यपाल कुलपति नियुक्त करता है।",
+      "reference": "📌 PYQ — Rajasthan Patwar Exam 2nd Shift (2025)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012162",
+        "exam": "Rajasthan Patwar Exam 2nd Shift",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सातवें संवैधानिक संशोधन के अन्तर्गत “राजप्रमुख” का पद, किस दिनांक से रद्द किया गया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "01 नवंबर, 1955"
+        },
+        {
+          "id": "opt2",
+          "text": "01 नवंबर, 1956"
+        },
+        {
+          "id": "opt3",
+          "text": "10 नवंबर, 1956"
+        },
+        {
+          "id": "opt4",
+          "text": "03 अक्टूबर, 1955"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राज्य पुनर्गठन आयोग की सिफारिशों के आधार पर 7वें संविधान संशोधन के तहत 1 नवम्बर 1956 ई. से राजप्रमुख की संस्था समाप्त कर दी गई। अक्टूबर 1956 ई. को श्री गुरुमुख निहाल सिंह को राजस्थान का प्रथम राज्यपाल नियुक्त किया गया।",
+      "reference": "📌 PYQ — Livestock Assistant Exam (2025)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012166",
+        "exam": "Livestock Assistant Exam",
+        "year": 2025
+      }
+    }
+  ]
+}

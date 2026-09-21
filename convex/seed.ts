@@ -116,7 +116,7 @@ export const SYLLABUS_DATA = [
       { name: "Rajasthan State Legislature", nameHindi: "राजस्थान राज्य विधानमंडल" },
       { name: "Rajasthan High Court and Judiciary", nameHindi: "राजस्थान उच्च न्यायालय एवं न्यायपालिका" },
       { name: "District Administration of Rajasthan", nameHindi: "राजस्थान जिला प्रशासन" },
-      { name: "Panchayati Raj and Local Self Government in Rajasthan", nameHindi: "राजस्थान पंचायती राज एवं स्थानीय स्वशासन" },
+      { name: "Panchayati Raj in Rajasthan", nameHindi: "राजस्थान पंचायती राज" },
       { name: "Rajasthan Public Service Commission RPSC", nameHindi: "राजस्थान लोक सेवा आयोग (RPSC)" },
       { name: "Rajasthan State Election Commission", nameHindi: "राजस्थान राज्य निर्वाचन आयोग" },
       { name: "Rajasthan State Human Rights Commission", nameHindi: "राजस्थान मानवाधिकार आयोग" },
@@ -125,6 +125,8 @@ export const SYLLABUS_DATA = [
       { name: "Constitutional Commissions and Institutions of Rajasthan", nameHindi: "राजस्थान के संवैधानिक आयोग एवं संस्थाएँ" },
       { name: "Major Research and Study Centers of Rajasthan", nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र" },
       { name: "Science and Technology in Rajasthan", nameHindi: "राजस्थान विज्ञान एवं प्रौद्योगिकी" },
+      { name: "Urban Local Governance and Municipalities in Rajasthan", nameHindi: "राजस्थान नगरीय स्वशासन एवं नगरपालिका" },
+      { name: "Rajasthan Budget and Economic Review", nameHindi: "राजस्थान का बजट एवं आर्थिक समीक्षा" },
     ],
   },
 ];

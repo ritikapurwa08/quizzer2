@@ -39,19 +39,19 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
     const { correct, incorrect, unanswered, totalQuestions, answeredCount } = data;
     const items = [
       {
-        name: "सही उत्तर (Correct)",
+        name: "Correct Answers",
         key: "correct",
         value: correct,
         color: CATEGORY_COLORS.correct,
       },
       {
-        name: "गलत उत्तर (Incorrect)",
+        name: "Incorrect Answers",
         key: "incorrect",
         value: incorrect,
         color: CATEGORY_COLORS.incorrect,
       },
       {
-        name: "छोड़े गए (Unanswered)",
+        name: "Skipped",
         key: "unanswered",
         value: unanswered,
         color: CATEGORY_COLORS.unanswered,
@@ -72,18 +72,18 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
       <CardHeader className="p-4 sm:p-5 pb-2 sm:pb-3">
         <div className="flex flex-wrap items-start justify-between gap-2">
           <div>
-            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2 font-hindi">
+            <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-primary" />
-              उत्तर सटीकता विभाजन (Answer Accuracy)
+              Answer Accuracy
             </CardTitle>
-            <CardDescription className="text-xs text-muted-foreground mt-0.5 font-hindi">
-              कुल अभ्यास प्रश्नों में सही, गलत और छोड़े गए प्रश्नों का अनुपात
+            <CardDescription className="text-xs text-muted-foreground mt-0.5">
+              Overall proportion of correct, incorrect, and skipped questions
             </CardDescription>
           </div>
 
           {hasData && (
-            <div className="flex items-center gap-1.5 font-hindi text-xs bg-muted/60 px-2.5 py-0.5 rounded-lg border border-border/60">
-              <span className="text-muted-foreground">कुल प्रश्न:</span>
+            <div className="flex items-center gap-1.5 text-xs bg-muted/60 px-2.5 py-0.5 rounded-lg border border-border/60">
+              <span className="text-muted-foreground">Total Questions:</span>
               <span className="font-mono font-bold text-foreground">{totalSlots}</span>
             </div>
           )}
@@ -96,11 +96,11 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-muted text-muted-foreground">
               <PieChartIcon className="h-5 w-5" />
             </div>
-            <p className="text-sm font-semibold text-foreground font-hindi">
-              प्रश्नों का कोई डेटा उपलब्ध नहीं है
+            <p className="text-sm font-semibold text-foreground">
+              No question data available
             </p>
-            <p className="text-xs text-muted-foreground max-w-xs font-hindi leading-relaxed">
-              टेस्ट हल करने पर आपके सही, गलत और छोड़े गए प्रश्नों का सटीक डोनट विभाजन यहाँ दिखेगा।
+            <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
+              Complete practice tests to see the accuracy breakdown of all your answers here.
             </p>
           </div>
         ) : (
@@ -116,10 +116,10 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
                       const val = Number(item.value);
                       const pct = totalSlots > 0 ? ((val / totalSlots) * 100).toFixed(1) : "0";
                       return (
-                        <div className="rounded-xl border border-border/80 bg-popover px-3 py-2 text-xs shadow-xl font-hindi min-w-[140px]">
+                        <div className="rounded-xl border border-border/80 bg-popover px-3 py-2 text-xs shadow-xl min-w-[140px]">
                           <p className="font-semibold text-foreground">{item.name}</p>
                           <div className="flex items-center justify-between gap-3 mt-1">
-                            <span className="font-mono font-bold text-foreground">{val} प्रश्न</span>
+                            <span className="font-mono font-bold text-foreground">{val} questions</span>
                             <span className="text-muted-foreground font-mono">({pct}%)</span>
                           </div>
                         </div>
@@ -149,22 +149,22 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
                 <span className="text-2xl sm:text-3xl font-bold font-mono tracking-tight text-foreground">
                   {accuracy.toFixed(1)}%
                 </span>
-                <span className="text-[11px] text-muted-foreground font-semibold font-hindi">
-                  सटीकता (Accuracy)
+                <span className="text-[11px] text-muted-foreground font-semibold">
+                  Accuracy
                 </span>
-                <span className="text-[10px] text-muted-foreground/70 font-hindi">
-                  (हल किए गए प्रश्नों में)
+                <span className="text-[10px] text-muted-foreground/70">
+                  (Attempted Questions)
                 </span>
               </div>
             </div>
 
             {/* Detailed summary breakdown pills */}
-            <div className="grid grid-cols-3 gap-2 pt-2 border-t border-border/70 text-center font-hindi">
+            <div className="grid grid-cols-3 gap-2 pt-2 border-t border-border/70 text-center">
               {/* Correct */}
               <div className="p-2 rounded-xl bg-success/5 border border-success/20 flex flex-col items-center">
                 <div className="flex items-center gap-1 text-[11px] font-semibold text-success mb-0.5">
                   <span className="h-2 w-2 rounded-full bg-success" />
-                  <span>सही (Correct)</span>
+                  <span>Correct</span>
                 </div>
                 <span className="text-sm sm:text-base font-bold text-foreground font-mono">
                   {data?.correct ?? 0}
@@ -178,7 +178,7 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
               <div className="p-2 rounded-xl bg-destructive/5 border border-destructive/20 flex flex-col items-center">
                 <div className="flex items-center gap-1 text-[11px] font-semibold text-destructive mb-0.5">
                   <span className="h-2 w-2 rounded-full bg-destructive" />
-                  <span>गलत (Wrong)</span>
+                  <span>Wrong</span>
                 </div>
                 <span className="text-sm sm:text-base font-bold text-foreground font-mono">
                   {data?.incorrect ?? 0}
@@ -192,7 +192,7 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
               <div className="p-2 rounded-xl bg-muted/40 border border-border/60 flex flex-col items-center">
                 <div className="flex items-center gap-1 text-[11px] font-semibold text-muted-foreground mb-0.5">
                   <span className="h-2 w-2 rounded-full bg-muted-foreground" />
-                  <span>छोड़े (Skipped)</span>
+                  <span>Skipped</span>
                 </div>
                 <span className="text-sm sm:text-base font-bold text-foreground font-mono">
                   {data?.unanswered ?? 0}
@@ -204,8 +204,8 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
             </div>
 
             {/* Note clarifying formula */}
-            <p className="text-[11px] text-muted-foreground/80 text-center font-hindi">
-              सटीकता = सही उत्तर ({data?.correct ?? 0}) ÷ कुल हल किए गए प्रश्न ({answeredTotal})
+            <p className="text-[11px] text-muted-foreground/80 text-center">
+              Accuracy = Correct ({data?.correct ?? 0}) ÷ Total Attempted ({answeredTotal})
             </p>
           </div>
         )}

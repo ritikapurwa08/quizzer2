@@ -2,276 +2,12 @@
   "masterTopic": "राजस्थान राज्य प्रशासन",
   "batchIndex": 1,
   "batchName": "राजस्थान राज्य प्रशासन भाग 1",
-  "subject": "राजस्थान की राजव्यवस्था",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
   "subjectSlug": "rajasthan-polity-administration",
   "topicSlug": "राजस्थान-राज्य-प्रशासन",
   "negativeMarking": true,
   "questionCount": 20,
   "questions": [
-    {
-      "type": "mcq",
-      "questionText": "राज्य वित्त आयोग (SFC) की नियुक्ति राज्यपाल द्वारा, किनके बीच संसाधनों के वितरण की अनुशंसा करने हेतु की जाती है?सबसे उपयुक्त विकल्प का चयन कीजिए।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "केंद्र और राज्य"
-        },
-        {
-          "id": "opt2",
-          "text": "राज्य और स्थानीय निकाय (पंचायतें/नगरपालिकाएँ)"
-        },
-        {
-          "id": "opt3",
-          "text": "दो अलग-अलग राज्य"
-        },
-        {
-          "id": "opt4",
-          "text": "जिले और तहसीलें"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "अनुच्छेद 243I के तहत राज्यपाल द्वारा हर 5 वर्ष में राज्य वित्त आयोग (SFC) का गठन किया जाता है। इसका मुख्य कार्य राज्य सरकार के करों से प्राप्त राजस्व का राज्य और स्थानीय निकायों (पंचायतों एवं नगरपालिकाओं) के बीच वितरण की सिफारिश करना है।",
-      "reference": "📌 PYQ — Forester Exam 2026",
-      "difficulty": "medium",
-      "order": 0,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 13988,
-        "exam": "Forester Exam 2026",
-        "year": 2026
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान की राज्य आय (सकल राज्य घरेलू उत्पाद) का आधिकारिक अनुमान और प्रकाशन निम्नलिखित में से किस संस्था द्वारा किया जाता है?सबसे उपयुक्त विकल्प का चयन कीजिए।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "वित्त विभाग, राजस्थान सरकार"
-        },
-        {
-          "id": "opt2",
-          "text": "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय के अधीन आर्थिक एवं सांख्यिकी संगठन"
-        },
-        {
-          "id": "opt3",
-          "text": "राज्य योजना विभाग, राजस्थान सरकार"
-        },
-        {
-          "id": "opt4",
-          "text": "अर्थशास्त्र और सांख्यिकी निदेशालय, राजस्थान सरकार"
-        }
-      ],
-      "correctAnswer": "opt4",
-      "explanation": "राजस्थान के सकल राज्य घरेलू उत्पाद (GSDP) और राज्य आय के आधिकारिक आंकड़ों का संकलन और प्रकाशन अर्थशास्त्र एवं सांख्यिकी निदेशालय (Directorate of Economics and Statistics - DES), राजस्थान द्वारा किया जाता है।",
-      "reference": "📌 PYQ — Forester Exam 2026",
-      "difficulty": "medium",
-      "order": 1,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 13989,
-        "exam": "Forester Exam 2026",
-        "year": 2026
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "कौन-सा निकाय किसी राज्य में पंचायतों को वित्तीय वितरण की सिफारिश करता है?सबसे उपयुक्त विकल्प का चयन कीजिए।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "योजना आयोग"
-        },
-        {
-          "id": "opt2",
-          "text": "वित्त आयोग"
-        },
-        {
-          "id": "opt3",
-          "text": "राज्य वित्त आयोग"
-        },
-        {
-          "id": "opt4",
-          "text": "नीति आयोग"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "संविधान के अनुच्छेद 243I के तहत गठित राज्य वित्त आयोग (State Finance Commission) राज्य संचित निधि से पंचायतों को वित्तीय संसाधनों के आवंटन और वितरण की सिफारिशें करता है।",
-      "reference": "📌 PYQ — Forester Exam 2026",
-      "difficulty": "medium",
-      "order": 2,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 13990,
-        "exam": "Forester Exam 2026",
-        "year": 2026
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया।अभिकथन (A): राज्यपाल राज्य विधानसभा को भंग कर सकते हैं।कारण (R): राज्यपाल मुख्यमंत्री की सलाह पर ऐसा करते हैं।उपर्युक्त कथनों के आलोक में, नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर का चयन कीजिए।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "(A) और (R) दोनों सत्य हैं और (R), (A) की सही व्याख्या है।"
-        },
-        {
-          "id": "opt2",
-          "text": "(A) और (R) दोनों सत्य हैं, लेकिन (R), (A) की सही व्याख्या नहीं है।"
-        },
-        {
-          "id": "opt3",
-          "text": "(A) सत्य है लेकिन (R) असत्य है।"
-        },
-        {
-          "id": "opt4",
-          "text": "(A) असत्य है लेकिन (R) सत्य है।"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "अभिकथन (A) सही है क्योंकि राज्यपाल को अनुच्छेद 174(2)(b) के तहत विधानसभा भंग करने का अधिकार है।कारण (R) भी सत्य है कि राज्यपाल आमतौर पर मंत्रिमंडल/मुख्यमंत्री की सलाह पर ऐसा करते हैं।हालांकि, (R) इस बात की पूर्ण व्याख्या नहीं करता है कि राज्यपाल के पास यह शक्ति क्यों है।",
-      "reference": "📌 PYQ — Forester Exam 2026",
-      "difficulty": "medium",
-      "order": 3,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14517,
-        "exam": "Forester Exam 2026",
-        "year": 2026
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "सूची-1 को सूची-2 के साथ सुमेलित कीजिये और सूचियों के नीचे दिये गये कूटों का प्रयोग कर सही उत्तर का चयन कीजिये: सूची- I (राजस्थान के राज्य वित्त आयोग)सूची-2 (अध्यक्ष)(a) प्रथम(i) श्री हीरालाल देवपुरा(b) द्वितीय(ii) श्री मानिकचन्द सुराना(c) तृतीय(iii) डॉ. बी.डी. कल्ला(d) चतुर्थ(iv) श्री के.के. गोयलकूट: (a) (b) (c) (d)",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "(ii) (iii) (iv) (i)"
-        },
-        {
-          "id": "opt2",
-          "text": "(i) (ii) (iii) (iv)"
-        },
-        {
-          "id": "opt3",
-          "text": "(iv) (i) (ii) (iii)"
-        },
-        {
-          "id": "opt4",
-          "text": "(iii) (iv) (i) (ii)"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "प्रथम वित्त आयोग: श्री के.के. गोयल (कृष्ण कुमार गोयल)द्वितीय वित्त आयोग: श्री हीरालाल देवपुरातृतीय वित्त आयोग: श्री मानिकचन्द सुरानाचतुर्थ वित्त आयोग: डॉ. बी.डी. कल्ला (बुलाकी दास कल्ला)",
-      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
-      "difficulty": "medium",
-      "order": 4,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 13991,
-        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
-        "year": 2025
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान के उन एकमात्र राज्यपाल को पहचानिए, जिनकी पदावधि के दौरान अनुच्छेद 356 के अधीन राष्ट्रपति शासन उद्घोषित भी किया गया और वापस भी लिया गया:",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "संपूर्णानंद"
-        },
-        {
-          "id": "opt2",
-          "text": "वेदपाल त्यागी"
-        },
-        {
-          "id": "opt3",
-          "text": "रघुकुल तिलक"
-        },
-        {
-          "id": "opt4",
-          "text": "एम. चेन्ना रेड्डी"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "राजस्थान में तीसरा राष्ट्रपति शासन रघुकुल तिलक के कार्यकाल के दौरान 17 फरवरी 1980 को लगाया गया था और 5 जून 1980 को उन्हीं के कार्यकाल के दौरान इसे वापस (समाप्त) भी लिया गया था। रघुकुल तिलक 12 मई, 1977 से 8 अगस्त, 1981 तक राजस्थान के राज्यपाल रहे।",
-      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
-      "difficulty": "medium",
-      "order": 5,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14518,
-        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (6 April 2026)",
-        "year": 2025
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन, अनुच्छेद 356 के अधीन राष्ट्रपति शासन की उद्घोषणा के प्रवर्तन के दौरान राजस्थान के राज्यपाल नहीं थे ?",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "हुकुम सिंह"
-        },
-        {
-          "id": "opt2",
-          "text": "वसंत राव पाटिल"
-        },
-        {
-          "id": "opt3",
-          "text": "धनिकलाल मंडल"
-        },
-        {
-          "id": "opt4",
-          "text": "बलिराम भगत"
-        }
-      ],
-      "correctAnswer": "opt2",
-      "explanation": "वसंत राव पाटिल (वसंतदादा पाटिल) राष्ट्रपति शासन काल में राज्यपाल नहीं थे। श्री वसंतराव पाटिल का जन्म महाराष्ट्र के कोल्हापुर जिले में हुआ था और इनका राजस्थान के राज्यपाल के रूप में कार्यकाल 15 अक्टूबर, 1987 से 19 फरवरी, 1988 तक रहा।",
-      "reference": "📌 PYQ — SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
-      "difficulty": "medium",
-      "order": 6,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 14519,
-        "exam": "SUB INSPECTOR COMB. COMP. EXAM - 2025 (5 April 2026)",
-        "year": 2025
-      }
-    },
-    {
-      "type": "mcq",
-      "questionText": "राजस्थान में राज्य वित्त आयोग का गठन प्रत्येक ______ वर्ष में किया जाता है।",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "3"
-        },
-        {
-          "id": "opt2",
-          "text": "4"
-        },
-        {
-          "id": "opt3",
-          "text": "5"
-        },
-        {
-          "id": "opt4",
-          "text": "10"
-        }
-      ],
-      "correctAnswer": "opt3",
-      "explanation": "भारत के संविधान के अनुच्छेद 243-I के अनुसार, राज्य वित्त आयोग का गठन प्रत्येक 5 वर्ष में किया जाता है ताकि स्थानीय निकायों (पंचायत और नगरपालिका) के लिए वित्तीय संसाधनों की समीक्षा की जाए।",
-      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
-      "difficulty": "medium",
-      "order": 7,
-      "meta": {
-        "sourceType": "PYQ",
-        "sourceQuestionId": 13992,
-        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
-        "year": 2025
-      }
-    },
     {
       "type": "mcq",
       "questionText": "RAC राजस्थान पुलिस की विशिष्ट विंग है, RAC का पूर्ण रूप क्या है?",
@@ -295,19 +31,19 @@
       ],
       "correctAnswer": "opt1",
       "explanation": "RAC का पूर्ण रूप Rajasthan Armed Constabulary है। यह राजस्थान पुलिस की एक अर्द्ध-सैनिक (Paramilitary) विंग है, जो कानून-व्यवस्था, दंगे नियंत्रण, VIP सुरक्षा और आतंकवाद विरोधी अभियानों में सहायता करती है।",
-      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+      "reference": "📌 PYQ — 3rd Grade Teacher Sanskrit ( L-1 ) (2025)",
       "difficulty": "medium",
-      "order": 8,
+      "order": 0,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14520,
-        "exam": "3rd Grade Teacher 2025 Sanskrit ( L-1 )",
+        "sourceQuestionId": "rg_012044",
+        "exam": "3rd Grade Teacher Sanskrit ( L-1 )",
         "year": 2025
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान पुलिस के सही पदानुक्रम का चयन करें। (उच्चतम से निम्नतम)(a) पुलिस महानिरीक्षक(b) पुलिस अधीक्षक(c) पुलिस महानिदेशक(d) क्षेत्र निरीक्षकनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "questionText": "राजस्थान पुलिस के सही पदानुक्रम का चयन करें। (उच्चतम से निम्नतम)(a) पुलिस महानिरीक्षक(b) पुलिस अधीक्षक(c) पुलिस महानिदेशक(d) क्षेत्र निरीक्षकनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें :",
       "options": [
         {
           "id": "opt1",
@@ -326,15 +62,15 @@
           "text": "(c), (a), (b), (d)"
         }
       ],
-      "correctAnswer": "opt4",
+      "correctAnswer": "opt3",
       "explanation": "पुलिस महानिदेशक (DGP) > पुलिस महानिरीक्षक (IG) > पुलिस अधीक्षक (SP) > क्षेत्र निरीक्षक",
-      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "reference": "📌 PYQ — 3rd Grade Teacher Science-Maths (L-2 ) (2025)",
       "difficulty": "medium",
-      "order": 9,
+      "order": 1,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14521,
-        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
+        "sourceQuestionId": "rg_012045",
+        "exam": "3rd Grade Teacher Science-Maths (L-2 )",
         "year": 2025
       }
     },
@@ -361,13 +97,46 @@
       ],
       "correctAnswer": "opt3",
       "explanation": "भगवत सिंह मेहता ने राजस्थान के मुख्य सचिव के रूप में सबसे लंबे समय (9 मई 1958 से 26 सितंबर 1964 तक, और फिर 16 जनवरी 1965 से 29 अक्टूबर 1966 तक) कार्य किया, कुल लगभग 7 वर्ष।",
-      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - (2025)",
       "difficulty": "medium",
-      "order": 10,
+      "order": 2,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14522,
-        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+        "sourceQuestionId": "rg_012046",
+        "exam": "Deputy Commandant (Home Guard Deptt.) Exam -",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन-सा राजस्थान राज्य में सर्वोच्च श्रेणी वाला पुलिस अधिकारी पद है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पुलिस महानिरीक्षक (IGP)"
+        },
+        {
+          "id": "opt2",
+          "text": "पुलिस महानिदेशक (DGP)"
+        },
+        {
+          "id": "opt3",
+          "text": "वरिष्ठ पुलिस अधीक्षक (SSP)"
+        },
+        {
+          "id": "opt4",
+          "text": "पुलिस उप महानिरीक्षक (डिप्टी IGP)"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "DGP (Director General of Police) किसी राज्य का सर्वोच्च पुलिस अधिकारी होता है।",
+      "reference": "📌 PYQ — RSSB Fourth Class Exam (19 Sep. 2nd Shift) (2025)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012053",
+        "exam": "RSSB Fourth Class Exam (19 Sep. 2nd Shift)",
         "year": 2025
       }
     },
@@ -394,278 +163,509 @@
       ],
       "correctAnswer": "opt2",
       "explanation": "कार्मिक विभाग (DoP) विभिन्न राज्य सेवाओं में भर्ती के प्रबंधन के लिए जिम्मेदार है।",
-      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "reference": "📌 PYQ — Raj Police Constable Exam (Shift-1) (2025)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012054",
+        "exam": "Raj Police Constable Exam (Shift-1)",
+        "year": 2025
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के सबसे लंबे समय तक मुख्य सचिव रहे हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री एम.एल. मेहता"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री ओम प्रकाश मीना"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री सी.के. मैथ्यू"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री सुधांश पंत"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "एम.एल. मेहता 9 मई 1958 से 26 सितंबर 1964 तक मुख्य सचिव रहे, जो इनमें सबसे लंबा कार्यकाल है।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - C) (2024)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012049",
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान सचिवालय पुनर्गठन समिति (1969) का मुख्य उद्देश्य क्या था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "चिवालय भवन निर्माण"
+        },
+        {
+          "id": "opt2",
+          "text": "कर्मचारियों की भर्ती"
+        },
+        {
+          "id": "opt3",
+          "text": "सेल सिस्टम की समीक्षा"
+        },
+        {
+          "id": "opt4",
+          "text": "बजट निर्माण"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "1969 की समिति (मुख्यतः प्रशासनिक सुधार के लिए) का उद्देश्य सचिवालय में सेल सिस्टम (विभागीय सेल व्यवस्था) की समीक्षा और सुधार था, न कि भवन निर्माण या भर्ती।",
+      "reference": "📌 PYQ — Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - A) (2024)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012050",
+        "exam": "Sr. Teacher (Sec. Edu.) Comp. Exam- (G.K. Group - A)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन राजस्थान के प्रथम मुख्य सचिव थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "श्री एस.डब्ल्यू. शिवेशकर"
+        },
+        {
+          "id": "opt2",
+          "text": "श्री के. राधाकृष्णन"
+        },
+        {
+          "id": "opt3",
+          "text": "श्री वी. नारायण"
+        },
+        {
+          "id": "opt4",
+          "text": "श्री बी. जी. राव"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान के पहले मुख्य सचिव श्री के. राधाकृष्णन (1949) थे। राजस्थान की पहली महिला मुख्य सचिव श्रीमती कुशलसिंह थीं। 1973 के बाद इस पद को केंद्र सरकार के सचिव के समकक्ष मानकीकृत किया गया।",
+      "reference": "📌 PYQ — Prahari Shift 2 (2024)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012055",
+        "exam": "Prahari Shift 2",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पुलिस में आरएसी (RAC) क्या है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "रामगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt2",
+          "text": "राजगढ़ सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt3",
+          "text": "आरक्षित सशस्त्र कांस्टेबुलरी"
+        },
+        {
+          "id": "opt4",
+          "text": "राजस्थान सशस्त्र कांस्टेबुलरी"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "आरएसी (RAC) का पूर्ण रूप राजस्थान सशस्त्र कांस्टेबुलरी (Rajasthan Armed Constabulary) है। यह राजस्थान पुलिस का एक विशेष सशस्त्र बल है, जो दंगों, भीड़ नियंत्रण, और अन्य सुरक्षा कार्यों के लिए जिम्मेदार है।",
+      "reference": "📌 PYQ — Prahari Shift 1 (2024)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012056",
+        "exam": "Prahari Shift 1",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के निम्नांकित मुख्य सचिवों पर विचार कीजिए तथा उन्हें उनके कार्यकाल के अनुसार कालक्रम में व्यवस्थित कीजिए। नीचे दिए गए कूटों की सहायता से सही उत्तर दीजिए।I. सी.एस. राजनII. ऊषा शर्माIII. निरंजन कुमार आर्यIV. सी.के. मैथ्यूकूट :",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "IV, II, III, I"
+        },
+        {
+          "id": "opt2",
+          "text": "I, IV, III, II"
+        },
+        {
+          "id": "opt3",
+          "text": "IV, I, III, II"
+        },
+        {
+          "id": "opt4",
+          "text": "I, IV, II, III"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "कालक्रम के अनुसार: सी.के. मैथ्यू (2012-2013), सी.एस. राजन (2013-2013), निरंजन कुमार आर्य (2020-2022), ऊषा शर्मा (2022-2023)।",
+      "reference": "📌 PYQ — SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-C) (2024)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012057",
+        "exam": "SCHOOL LECTURER (SCHOOL EDU.) GA and GS (G-C)",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में किन दो ज़िलों में कमिश्नरेट व्यवस्था लागू है -(निम्न में से सबसे उपयुक्त विकल्प चुनें)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जयपुर एवं जोधपुर"
+        },
+        {
+          "id": "opt2",
+          "text": "कोटा एवं अजमेर"
+        },
+        {
+          "id": "opt3",
+          "text": "जोधपुर एवं कोटा"
+        },
+        {
+          "id": "opt4",
+          "text": "जयपुर एवं कोटा"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान में कमिश्नरेट व्यवस्था पुलिस प्रशासन के लिए लागू है, और यह जयपुर और जोधपुर में स्थापित है।",
+      "reference": "📌 PYQ — Junior Instructor (SWT) Exam (2024)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012058",
+        "exam": "Junior Instructor (SWT) Exam",
+        "year": 2024
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में मुख्य सचिव के पद पर कितनी महिलाएँ आसीन रह चुकी हैं - (मई 2025 तक)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "3"
+        },
+        {
+          "id": "opt2",
+          "text": "2"
+        },
+        {
+          "id": "opt3",
+          "text": "1"
+        },
+        {
+          "id": "opt4",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में 2 महिलाएँ मुख्य सचिव रह चुकी हैं: 31 जनवरी 2022 को राज्य सरकार ने श्रीमती उषा शर्मा को राजस्थान का नया मुख्य सचिव नियुक्त किया। वे भारत सरकार के युवा मामले विभाग में सचिव के पद पर कार्यरत थीं और राज्य सरकार के केंद्र से अनुरोध के बाद अपने मूल कैडर राजस्थान लौट आई हैं। वह इस पद पर आसीन होने वाली दूसरी महिला हैं, श्रीमती कुशाल सिंह राजस्थान की पहली महिला मुख्य सचिव थीं, जो फरवरी 2009 से अक्टूबर 2009 तक इस पद पर कार्यरत रहीं।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan) (2024)",
       "difficulty": "medium",
       "order": 11,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14524,
-        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
-        "year": 2025
+        "sourceQuestionId": "rg_012059",
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan)",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान के निम्नलिखित राज्यपालों को कालक्रमानुसार व्यवस्थित करें।(a) रघुकुल तिलक(b) ओम प्रकाश मेहरा(c) वसंतराव पाटिल(d) सुखदेव प्रसादनीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
+      "questionText": "निम्नलिखित में से राजस्थान के किस मुख्य सचिव ने “नॉन स्टोरी ऑफ ए चीफ सेक्रेटरी ड्यूरिंग इमरजेंसी, एट सेट्रा” पुस्तक लिखी -",
       "options": [
         {
           "id": "opt1",
-          "text": "(b), (a), (d), (c)"
+          "text": "गोपाल कृष्ण भनोत"
         },
         {
           "id": "opt2",
-          "text": "(a), (b), (c), (d)"
+          "text": "मोहन मुखर्जी"
         },
         {
           "id": "opt3",
-          "text": "(c), (b), (a), (d)"
+          "text": "मीठालाल मेहता"
         },
         {
           "id": "opt4",
-          "text": "(a), (c), (d), (b)"
+          "text": "आर.डी. थापर"
         }
       ],
       "correctAnswer": "opt2",
-      "explanation": "रघुकुल तिलक: 1977 से 1981 तकओम प्रकाश मेहरा: 1982 से1985 तकवसंतराव पाटिल: 1985 से 1987 तकसुखदेव प्रसाद: 1988 से 1990 तक",
-      "reference": "📌 PYQ — 3rd Grade Teacher 2025 Science-Maths (L-2 )",
+      "explanation": "“नॉन स्टोरी ऑफ ए चीफ सेक्रेटरी” पुस्तक मोहन मुखर्जी, पूर्व मुख्य सचिव, ने लिखी।",
+      "reference": "📌 PYQ — PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan) (2024)",
       "difficulty": "medium",
       "order": 12,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14525,
-        "exam": "3rd Grade Teacher 2025 Science-Maths (L-2 )",
-        "year": 2025
+        "sourceQuestionId": "rg_012060",
+        "exam": "PTI and Librarian (Sanskrit College Edu.) - (General Studies of Rajasthan)",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान के राज्यपाल, राजस्थान राज्य भारत स्काउट्स और गाइड्स के _______ हैं।",
+      "questionText": "किस विचारक के द्वारा जिलाधीश के पद को समाप्त किए जाने के विचार की वकालत की गई -",
       "options": [
         {
           "id": "opt1",
-          "text": "उपाध्यक्ष"
+          "text": "ीनदयाल उपाध्याय"
         },
         {
           "id": "opt2",
-          "text": "अध्यक्ष"
+          "text": "एम. एन. रोय"
         },
         {
           "id": "opt3",
-          "text": "संरक्षक"
+          "text": "राम मनोहर लोहिया"
         },
         {
           "id": "opt4",
-          "text": "चेयरपर्सन"
+          "text": "जवाहरलाल नेहरू"
         }
       ],
       "correctAnswer": "opt3",
-      "explanation": "राजस्थान के राज्यपाल राजस्थान राज्य भारत स्काउट्स और गाइड्स के संरक्षक (Patron) होते हैं, जो संगठन की गतिविधियों को प्रोत्साहन देते हैं।",
-      "reference": "📌 PYQ — Deputy Commandant (Home Guard Deptt.) Exam - 2025",
+      "explanation": "राम मनोहर लोहिया ने प्रशासनिक विकेंद्रीकरण की वकालत की और जिलाधीश के पद को समाप्त करने का सुझाव दिया।",
+      "reference": "📌 PYQ — Junior Instructor (Wireman) Exam (2024)",
       "difficulty": "medium",
       "order": 13,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14526,
-        "exam": "Deputy Commandant (Home Guard Deptt.) Exam - 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012061",
+        "exam": "Junior Instructor (Wireman) Exam",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान राज्य का संवैधानिक मुखिया कौन होता है -",
+      "questionText": "राजस्थान के मुख्य सचिवों को उनकी नियुक्ति के अनुसार पुराने से नये के क्रम में लगाएँ।(a) श्री राजीव स्वरूप (b) श्रीमती उषा शर्मा(c) श्री ओम प्रकाश मीणा (d) श्री कुशल सिंहनीचे दिए गए विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें।",
       "options": [
         {
           "id": "opt1",
-          "text": "मुख्यमंत्री"
+          "text": "(c),(d),(a),(b)"
         },
         {
           "id": "opt2",
-          "text": "विधान सभा अध्यक्ष"
+          "text": "(a),(d),(b),(c)"
         },
         {
           "id": "opt3",
-          "text": "राज्यपाल"
+          "text": "(b),(d),(a),(c)"
         },
         {
           "id": "opt4",
-          "text": "मुख्य सचिव"
+          "text": "(b),(c),(d),(a)"
         }
       ],
       "correctAnswer": "opt3",
-      "explanation": "राजस्थान का संवैधानिक मुखिया राज्यपाल होता है, जो राज्य में राष्ट्रपति का प्रतिनिधि होता है।",
-      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-2)",
+      "explanation": "ओम प्रकाश मीणा (2016-17)कुशल सिंह (2009)राजीव स्वरूप (2020)उषा शर्मा (2022-23)",
+      "reference": "📌 PYQ — CET (12th Level) 24 October Shift-II (2024)",
       "difficulty": "medium",
       "order": 14,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14534,
-        "exam": "Raj Police Constable Exam 2025 (Shift-2)",
-        "year": 2025
+        "sourceQuestionId": "rg_012062",
+        "exam": "CET (12th Level) 24 October Shift-II",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "2007 में राजस्थान के राज्यपाल बनने से पहले पाकिस्तान में भारत के सबसे लंबे समय तक राजदूत रहे थे",
+      "questionText": "निम्नलिखित में से राजस्थान के प्रथम मुख्य सचिव कौन थे -",
       "options": [
         {
           "id": "opt1",
-          "text": "कलराज मिश्र"
+          "text": "श्री के. राधाकृष्णन"
         },
         {
           "id": "opt2",
-          "text": "शिलेन्द्र कुमार सिंह"
+          "text": "श्री राजेश भूषण"
         },
         {
           "id": "opt3",
-          "text": "ओम प्रकाश मेहरा"
+          "text": "श्री वी. नारायण"
         },
         {
           "id": "opt4",
-          "text": "मिलाप चंद जैन"
+          "text": "श्री अपूर्व चन्द्रा"
         }
       ],
-      "correctAnswer": "opt2",
-      "explanation": "श्री शीलेन्द्र कुमार सिंह ने राजस्थान के राज्यपाल के रूप में 6 सितम्बर, 2007 को पदभार ग्रहण किया।",
-      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान के पहले मुख्य सचिव श्री के. राधाकृष्णन (1949) थे। राजस्थान की पहली महिला मुख्य सचिव श्रीमती कुशलसिंह थीं।",
+      "reference": "📌 PYQ — CET (12th Level) 22 October Shift-II (2024)",
       "difficulty": "medium",
       "order": 15,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14535,
-        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
-        "year": 2025
+        "sourceQuestionId": "rg_012064",
+        "exam": "CET (12th Level) 22 October Shift-II",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान की पहली महिला राज्यपाल कौन थी -",
+      "questionText": "निम्नांकित में से कौन सामाजिक लेखा परीक्षा, जवाबदेही एवं पारदर्शिता सोसायटी (एस.एस.ए.ए.टी.) के शासी निकाय के अध्यक्ष हैं -",
       "options": [
         {
           "id": "opt1",
-          "text": "इंदिरा गाँधी"
+          "text": "वित्त मंत्री"
         },
         {
           "id": "opt2",
-          "text": "मार्गरेट अल्वा"
+          "text": "मुख्यमंत्री"
         },
         {
           "id": "opt3",
-          "text": "वसुंधरा राजे"
+          "text": "मुख्य सचिव"
         },
         {
           "id": "opt4",
-          "text": "प्रतिभा देवीसिंह पाटिल"
+          "text": "निदेशक, सामाजिक लेखा परीक्षा, जवाबदेही एवं पारदर्शिता सोसायटी (एसं.एस.ए.ए.टी.)"
         }
       ],
-      "correctAnswer": "opt4",
-      "explanation": "प्रतिभा देवीसिंह पाटिल राजस्थान की पहली महिला राज्यपाल थीं (2004-2007)।",
-      "reference": "📌 PYQ — Raj Police Constable Exam 2025 (Shift-1)",
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान में सामाजिक लेखा परीक्षा, जवाबदेही एवं पारदर्शिता सोसायटी (एस.एस.ए.ए.टी.) के शासी निकाय के अध्यक्ष मुख्य सचिव होते हैं, जो राज्य प्रशासन के प्रमुख होते हैं।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk) (2024)",
       "difficulty": "medium",
       "order": 16,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14536,
-        "exam": "Raj Police Constable Exam 2025 (Shift-1)",
-        "year": 2025
+        "sourceQuestionId": "rg_012066",
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान विधान सभा को कौन बुलाता है, यह सुनिश्चित करते हुए कि दो सत्रों के बीच का अंतराल छह महीने से अधिक न हो -",
+      "questionText": "1963 में, राजस्थान प्रशासनिक सुधार समिति द्वारा सचिवालय के संबंध में दिये सुझावों के बारे में निग्न कथनों पर विचार करें और नीचे दिये गए कूट में से सही उत्तर का चयन कीजिए -(i) सचिव के पद पर नियुक्ति तीन वर्ष से अधिक के लिये नहीं होनी चाहिए।(ii) सचिव के पद पर केवल योग्यता नियुक्ति का आधार होनी चाहिए, न कि वरिष्ठता।कूट -",
       "options": [
         {
           "id": "opt1",
-          "text": "राज्य के राज्यपाल"
+          "text": "(i) और (ii) दोनों सही हैं"
         },
         {
           "id": "opt2",
-          "text": "विधान सभा अध्यक्ष"
+          "text": "केवल (i) सही है"
         },
         {
           "id": "opt3",
-          "text": "भारत के राष्ट्रपति"
+          "text": "(i) और (ii) दोनों गलत हैं"
         },
         {
           "id": "opt4",
-          "text": "मुख्यमंत्री"
+          "text": "केवल (ii) सही है"
         }
       ],
-      "correctAnswer": "opt1",
-      "explanation": "भारतीय संविधान के अनुच्छेद 174 के अनुसार, राज्यपाल विधान सभा के सत्र को बुलाता है और यह सुनिश्चित करता है कि दो सत्रों के बीच का अंतराल छह महीने से अधिक न हो।",
-      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "correctAnswer": "opt3",
+      "explanation": "1963 में राज्य सरकार ने प्रशासनिक सुधार समिति की गठन श्री हरीश चन्द माथुर की अध्यक्षता में किया। समिति ने प्रशासन में समग्र सुधारों हेतु अनेक महत्वपूर्ण सुझाव प्रस्तुत किए। समिति का मानना था कि सचिवालय को केवल उन्ही मामले पर ध्यान देना चाहिए जो पर्याप्त महत्व के है या फिर नीतियों से सम्बन्धित है। सचिवालय की संरचना इस प्रकार परिवर्तित की जाए कि निर्णय लेने में अधिकारियों की संख्या बढ़ें। समिति के सुझावों में सचिव के पद पर नियुक्ति की अवधि तीन वर्षों तक सीमित करना और केवल योग्यता के आधार पर नियुक्ति का प्रावधान नहीं था।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk) (2024)",
       "difficulty": "medium",
       "order": 17,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14537,
-        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012067",
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "राजस्थान में कितनी बार राष्ट्रपति शासन लगाया गया है -",
+      "questionText": "राज्य वित्त आयोग के अध्यक्ष का आरोही कालानुक्रम के आधार पर सही विकल्प चिन्हित कीजिए।",
       "options": [
         {
           "id": "opt1",
-          "text": "पाँच बार"
+          "text": "डॉ. ज्योति किरण, बी.डी. कल्ला, प्रद्युम्न सिंह द"
         },
         {
           "id": "opt2",
-          "text": "तीन बार"
+          "text": "हीरालाल देवपुरा, डॉ. ज्योति किरण, माणिकचंद सुराणा"
         },
         {
           "id": "opt3",
-          "text": "चार बार"
+          "text": "बी.डी. कल्ला, माणिकचंद सुराणा, हीरालाल देवपुरा"
         },
         {
           "id": "opt4",
-          "text": "दो बार"
+          "text": "हीरालाल देवपुरा, माणिकचंद सुराणा, बी.डी. कल्ला"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "राजस्थान में राष्ट्रपति शासन चार बार लगाया गया है: 1967, 1977, 1980 और 1992 में।राज्य में विधानसभा के चौथे आम चुनाव 1967 में किसी भी राजनीतिक दल को स्पष्ट बहुमत प्राप्त नहीं होने के कारण 13 मार्च 1967 से 26 अप्रैल 1967 तक पहली बार राष्ट्रपति शासन लगाया गया। इन 44 दिनों के राष्ट्रपति शासन में विधानसभा निलंबित रही। विधानसभा भंग नहीं की गई।मार्च 1977 में केन्द्र में प्रथम बार बनी गैर कांग्रेस सरकार के आते ही हरिदेव जोशी की सरकार बर्खास्त कर दी गई। तत्पश्चात 29 अप्रैल 1977 को राज्य में दूसरी बार राष्ट्रपति शासन लागू हुआ जो 22 जून 1977 तक रहा।जनवरी 1980 में लोकसभा के मध्यावधि चुनावों के पश्चात केन्द्र में पुन: सत्तारूढ़ होने वाली कांग्रेस सरकार ने 17 फरवरी 1980 को भैरोसिंह शेखावत सरकार को बर्खास्त कर विधानसभा भंग कर राष्ट्रपति शासन लागू कर दिया जो 5 जून 1980 तक रहा। दिसम्बर 1992 को अयोध्या में घटी घटनाओं के पश्चात केन्द्र सरकार द्वारा प्रतिबंधित पांच संगठनों की गतिविधियों पर प्रभावी रोक लगाने में राज्य सरकार के विफल रहने की राज्यपाल की रिपोर्ट पर केन्द्र सरकार ने 15 दिसम्बर 1992 को भैरोसिंह शेखावत सरकार को बर्खास्त कर राष्ट्रपति शासन लागू कर दिया तथा उसी दिन विधानसभा भंग कर दी। यह राष्ट्रपति शासन 3 दिसम्बर 1993 तक जारी रहा।",
-      "reference": "📌 PYQ — Raj Police Constable (Telecommunication) Exam 2025",
+      "correctAnswer": "opt4",
+      "explanation": "हीरालाल देवपुरा, माणिकचंद सुराणा, बी.डी. कल्ला राजस्थान राज्य वित्त आयोग के अध्यक्षों की नियुक्ति का आरोही कालानुक्रम है।",
+      "reference": "📌 PYQ — Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk) (2024)",
       "difficulty": "medium",
       "order": 18,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14538,
-        "exam": "Raj Police Constable (Telecommunication) Exam 2025",
-        "year": 2025
+        "sourceQuestionId": "rg_012069",
+        "exam": "Asst. Prof. (Sanskrit College Edu.) - (Rajasthan Gk)",
+        "year": 2024
       }
     },
     {
       "type": "mcq",
-      "questionText": "निम्नलिखित में से कौन राज्य विश्वविद्यालयों का पदेन कुलाधिपति (चांसलर) होता है -",
+      "questionText": "कथनों को ध्यानपूर्वक पढ़िए-i. राजस्थान का महाधिवक्ता कार्यालय, राज्य पुनर्गठन अधिनियम 1956 के अनुसार, राजस्थान राज्य के गठन पर अस्तित्व में आया।ii. जी.सी. कासलीवाल राजस्थान राज्य के प्रथम महाधिवक्ता बने।निम्न में से कौनसा विकल्प सही है -",
       "options": [
         {
           "id": "opt1",
-          "text": "मुख्यमंत्री"
+          "text": "केवल कथन i सही है"
         },
         {
           "id": "opt2",
-          "text": "शिक्षा मंत्री"
+          "text": "i व ii दोनों कथन गलत हैं"
         },
         {
           "id": "opt3",
-          "text": "राज्यपाल"
+          "text": "केवल कथन ii सही है"
         },
         {
           "id": "opt4",
-          "text": "उच्च न्यायालय के मुख्य न्यायाधीश"
+          "text": "i व ii दोनों कथन सही हैं"
         }
       ],
-      "correctAnswer": "opt3",
-      "explanation": "राज्यपाल राज्य विश्वविद्यालयों का पदेन कुलाधिपति (चांसलर) होता है। राज्य विश्वविद्यालय अधिनियमों के अनुसार, राज्यपाल कुलपति नियुक्त करता है।",
-      "reference": "📌 PYQ — Rajasthan Patwar Exam 2025 2nd Shift",
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — CET (Graduate) 07 January Shift-2 (2023)",
       "difficulty": "medium",
       "order": 19,
       "meta": {
         "sourceType": "PYQ",
-        "sourceQuestionId": 14539,
-        "exam": "Rajasthan Patwar Exam 2025 2nd Shift",
-        "year": 2025
+        "sourceQuestionId": "rg_012079",
+        "exam": "CET (Graduate) 07 January Shift-2",
+        "year": 2023
       }
     }
   ]

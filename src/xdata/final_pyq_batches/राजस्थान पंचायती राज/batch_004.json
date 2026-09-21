@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान पंचायती राज",
+  "batchIndex": 4,
+  "batchName": "राजस्थान पंचायती राज भाग 4",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-पंचायती-राज",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "पंचायती राज अधिनियम, 1994 की धारा 14 के अनुसार 4 लाख की जनसंख्या वाली जिला परिषद में कितने सदस्य निर्वाचित होंगे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "22"
+        },
+        {
+          "id": "opt2",
+          "text": "13"
+        },
+        {
+          "id": "opt3",
+          "text": "25"
+        },
+        {
+          "id": "opt4",
+          "text": "17"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "पंचायती राज अधिनियम, 1994 की धारा 14 के अनुसार, यदि किसी जिला परिषद की जनसंख्या 4 लाख है, तो वहाँ 17 सदस्य निर्वाचित होंगे। चार लाख से अधिक जनसंख्या वाले जिला परिषद क्षेत्र में सत्रह निर्वाचन क्षेत्र होंगे और यदि जिला परिषद क्षेत्र की जनसंख्या चार लाख से अधिक है तो प्रत्येक एक लाख या उसके चार लाख से अधिक भाग के लिए उक्त सत्रह की संख्या में दो की वृद्धि की जाएगी।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - A) (Re-Exam) (2022)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012484",
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से किस वर्ष राजस्थान पंचायती राज अधिनियम में संशोधन नहीं हुआ -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1999"
+        },
+        {
+          "id": "opt2",
+          "text": "2000"
+        },
+        {
+          "id": "opt3",
+          "text": "2002"
+        },
+        {
+          "id": "opt4",
+          "text": "2004"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान पंचायती राज अधिनियम में 1999, 2000 और 2004 में संशोधन हुए थे। वर्ष 2000 में राजस्थान पंचायती राज अधिनियम, 1994 में एक संशोधन द्वारा पंचायतों में स्थायी समितियों का प्रावधान किया गया है।राजस्थान पंचायती राज (अनुसूचित क्षेत्र में उनके आवेदन में प्रावधानों में संशोधन) अधिनियम, 2011 में ग्राम सभा की संयुक्त बैठक का प्रावधान है।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - A) (Re-Exam) (2022)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012485",
+        "exam": "Sr. Teacher Gr II (Sec. Edu.) Exam - (G.K. Group - A) (Re-Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में स्थानीय स्वशासन विभाग, स्थानीय निकाय निदेशालय का कार्यालय कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "जयपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "उदयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "जोधपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में स्थानीय स्वशासन विभाग और स्थानीय निकाय निदेशालय का कार्यालय जयपुर में स्थित है।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam Shift-2 (2022)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012486",
+        "exam": "RPSC EO/ RO Exam Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान के नागौर में प्रथम पंचायती राज व्यवस्था निम्नलिखित में से किसके द्वारा लागू की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जवाहरलाल नेहरू"
+        },
+        {
+          "id": "opt2",
+          "text": "महात्मा गांधी"
+        },
+        {
+          "id": "opt3",
+          "text": "इंदिरा गांधी"
+        },
+        {
+          "id": "opt4",
+          "text": "सरदार पटेल"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "पंचायती राज का उद्घाटन 2 अक्टूबर 1959 को राजस्थान के नागौर में तत्कालीन प्रधानमंत्री पंडित जवाहरलाल नेहरू ने किया था।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam Shift-2 (2022)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012487",
+        "exam": "RPSC EO/ RO Exam Shift-2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में सर्वप्रथम पंचायती राज व्यवस्था कहाँ लागू की गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "लिया"
+        },
+        {
+          "id": "opt2",
+          "text": "नागौर"
+        },
+        {
+          "id": "opt3",
+          "text": "चंबल"
+        },
+        {
+          "id": "opt4",
+          "text": "नागपुर"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान देश में, पंचायती राज की त्रिस्तरीय व्यवस्था को लागू करने में अग्रणी राज्य रहा है, जहाँ देश में पंचायती राज व्यवस्था का प्रादुर्भाव नागौर जिले से 2 अक्टूबर, 1959 को देश के तत्कालीन प्रधान मंत्री पंडित जवाहर लाल नेहरू द्वारा किया गया था।",
+      "reference": "📌 PYQ — RPSC EO/ RO Exam Shift-1 (2022)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012488",
+        "exam": "RPSC EO/ RO Exam Shift-1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस शहर में पंचायत प्रशिक्षण केन्द्र स्थित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "िरोही"
+        },
+        {
+          "id": "opt2",
+          "text": "डूंगरपुर"
+        },
+        {
+          "id": "opt3",
+          "text": "मंडोर"
+        },
+        {
+          "id": "opt4",
+          "text": "अजमेर"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B (2022)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012489",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में पंचायती राज के संदर्भ में निम्नलिखित कथनों को ध्यानपूर्वक पढ़ें :कथन (I) – जोधपुर, भरतपुर, जयपुर, सिरोही, उदयपुर और करौली रियासतों ने पंचायतों पर कानून बनाए।कथन (II) – बीकानेर राज्य का अपना ग्राम पंचायत अधिनियम बहुत पहले 1928 में था ।कथन ( III ) – 1949 में राजस्थान पंचायत अधिनियम बनाया गया और पूरे राज्य में ग्राम पंचायतों की स्थापना की गई । निम्नलिखित में से सही विकल्प का चयन करें -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(II) और (III) सही हैं ।"
+        },
+        {
+          "id": "opt2",
+          "text": "(I) और (III) सही हैं ।"
+        },
+        {
+          "id": "opt3",
+          "text": "(I), (II) और (III) सही हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "(I) और (II) सही हैं।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "1949 में राजस्थान पंचायत अधिनियम नहीं बना था, बल्कि राजस्थान में पंचायती राज व्यवस्था की शुरुआत 1959 में हुई थी।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B (2022)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012490",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस वर्ष राजस्थान पंचायत अधिनियम अधिनियमित हुआ तथा पूरे राज्य में ग्राम पंचायतों की स्थापना हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1973"
+        },
+        {
+          "id": "opt2",
+          "text": "1953"
+        },
+        {
+          "id": "opt3",
+          "text": "1954"
+        },
+        {
+          "id": "opt4",
+          "text": "1952"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "वर्ष1953राजस्थान पंचायत अधिनियम अधिनियमित हुआ तथा पूरे राज्य में ग्राम पंचायतों की स्थापना हुई",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group A (2022)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012491",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group A",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज (संशोधन) अधिनियम, 2021 के गजट नोटिफिकेशन के उपरांत ग्राम सेवक को जाना जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ग्राम विकास अधिकारी के रूप में"
+        },
+        {
+          "id": "opt2",
+          "text": "कृषि पर्यवेक्षक के रूप में"
+        },
+        {
+          "id": "opt3",
+          "text": "ग्राम सचिव के रूप में"
+        },
+        {
+          "id": "opt4",
+          "text": "ग्राम अधिकारी के रूप में"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान पंचायती राज संशोधन अधिनिमय2021के गजट नोटिफिकेशन के तहत ग्राम सेवक का नाम बदलकर ग्राम विकास अधिकारी कर दिया गया है। इस संशोधन का उद्देश्य ग्राम सेवक के कार्य और दायित्व को अधिक व्यापक एवं प्रगतिशील बनाना था।",
+      "reference": "📌 PYQ — Sr. Teacher Gr II Comp. Exam - (G.K. & Edu. Psychology) Group C (2022)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012492",
+        "exam": "Sr. Teacher Gr II Comp. Exam - (G.K. & Edu. Psychology) Group C",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज (उपबन्धों का अनुसूचित क्षेत्रों में उनके लागू होने के संबंध में उपान्तरण) नियम, 2011 के अनुसार पंचायती राज संस्थाओं की शक्तियों व अधिकारों के सम्बंध में निम्नलिखित कथनों पर विचार कीजिए:कथन (I) : ग्राम सभा के परामर्श के पश्चात ही भूमि अधिग्रहण का कार्य सरकार द्वारा किया जावेगा ।कथन ( II) : उधार पर धन देने, नशा नियंत्रण और अतिचारियों के संक्षिप्त निष्कासन की शक्ति को छोड़कर, कानून और व्यवस्था बनाए रखने से संबंधित सभी शक्तियों का प्रयोग पंचायत समिति द्वारा किया जाएगा ।निम्नलिखित में से सही विकल्प का चयन करें:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल कथन (I) सत्य है ।"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल कथन (II) सत्य है ।"
+        },
+        {
+          "id": "opt3",
+          "text": "कथन (I) और (II) दोनों सत्य हैं।"
+        },
+        {
+          "id": "opt4",
+          "text": "कथन (I) तथा (II) दोनों गलत हैं।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "अनुसूचित क्षेत्रों में भूमि अधिग्रहण के लिए ग्राम सभा का परामर्श अनिवार्य है, जैसा कि PESA (पंचायत उपबंध विस्तार अनुसूचित क्षेत्रों में) अधिनियम और राजस्थान के नियमों में उल्लेख है।कानून और व्यवस्था बनाए रखने की शक्तियां पंचायत समिति के पास नहीं होतीं, बल्कि यह जिम्मेदारी पुलिस और प्रशासन की होती है।",
+      "reference": "📌 PYQ — Protection Officer - (General Studies) (2022)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012493",
+        "exam": "Protection Officer - (General Studies)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "स्वतन्त्रता के पश्चात् राजस्थान पंचायत अधिनियम किस वर्ष में अधिनियमित किया गया था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1994"
+        },
+        {
+          "id": "opt2",
+          "text": "1959"
+        },
+        {
+          "id": "opt3",
+          "text": "1953"
+        },
+        {
+          "id": "opt4",
+          "text": "1956"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — 3rd Grade Teacher English L2 (2022)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012501",
+        "exam": "3rd Grade Teacher English L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "भारतीय संविधान का कौन सा अनुच्छेद ग्रामसभा के बारे में है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "243 A"
+        },
+        {
+          "id": "opt2",
+          "text": "243 F"
+        },
+        {
+          "id": "opt3",
+          "text": "243 C"
+        },
+        {
+          "id": "opt4",
+          "text": "243 D"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — 3rd Grade Teacher Social Studies L2 (2022)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012502",
+        "exam": "3rd Grade Teacher Social Studies L2",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा युग्म सुमेलित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "243 R – नगर पालिकाओं की संरचना का उल्लेख"
+        },
+        {
+          "id": "opt2",
+          "text": "243 ZC – जिला योजना समिति का गठन"
+        },
+        {
+          "id": "opt3",
+          "text": "243 S – वार्ड समितियों का गठन व संरचना"
+        },
+        {
+          "id": "opt4",
+          "text": "243 ZE – महानगर योजना समिति का गठन"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "reference": "📌 PYQ — School Lecturer History (Group - C) (2022)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012505",
+        "exam": "School Lecturer History (Group - C)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान पंचायती राज अधिनियम, 1994 की किस धारा में मुख्य कार्यकारी अधिकारी की शक्तियों का उल्लेख है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "81"
+        },
+        {
+          "id": "opt2",
+          "text": "82"
+        },
+        {
+          "id": "opt3",
+          "text": "83"
+        },
+        {
+          "id": "opt4",
+          "text": "84"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान पंचायती राज अधिनियम1994की धारा83 में मुख्य कार्यकारी अधिकारी की शाक्तियों का उल्लेख हैं।",
+      "reference": "📌 PYQ — School Lecturer Gk (Group E) (2022)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012508",
+        "exam": "School Lecturer Gk (Group E)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "यदि कोई पंचायत राज संस्था अपनी अवधि समाप्त होने से पूर्व भंग कर दी जाती है, तो उसका निर्वाचन ____ होना चाहिए।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "विघटन से तीन माह के अंदर"
+        },
+        {
+          "id": "opt2",
+          "text": "विघटन से छ: माह के अंदर"
+        },
+        {
+          "id": "opt3",
+          "text": "विघटन से एक वर्ष के अंदर"
+        },
+        {
+          "id": "opt4",
+          "text": "कभी भी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "reference": "📌 PYQ — Forest Guard Exam Shift 4 (2022)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012509",
+        "exam": "Forest Guard Exam Shift 4",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में वार्ड पंच, उप-सरपंच किसे संबोधित कर अपना त्यागपत्र देता/देती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "खण्ड विकास अधिकारी को"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्राम विकास अधिकारी को"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रधान, पंचायत समिति को"
+        },
+        {
+          "id": "opt4",
+          "text": "सरपंच को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "राजस्थान पंचायती राज अधिनियम, 1994 की धारा 36 के अनुसारसरपंच, उप-सरपंच, या पंच, खंड विकास अधिकारी को संबोधित कर अपने हस्ताक्षर सहित लिखित रूप से अपने पद से इस्तीफा दे सकते हैं। उप-धाराओं (1), (2), और (3) के तहत प्रत्येक इस्तीफा उपरोक्त प्राधिकरण द्वारा इसकी प्राप्ति की तारीख से पंद्रह दिनों की समाप्ति पर प्रभावी होगा, जब तक कि पंद्रह दिनों की इस अवधि के भीतर वापस नहीं लिया जाता।",
+      "reference": "📌 PYQ — Forest Guard Exam Shift 3 (2022)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012511",
+        "exam": "Forest Guard Exam Shift 3",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौनसा ग्राम सभा का कार्य नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जनजाति कल्याण"
+        },
+        {
+          "id": "opt2",
+          "text": "ग्रामीण स्वास्थ्य"
+        },
+        {
+          "id": "opt3",
+          "text": "जल योजना"
+        },
+        {
+          "id": "opt4",
+          "text": "जनगणना"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — Forest Guard Exam Shift 1 (2022)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012512",
+        "exam": "Forest Guard Exam Shift 1",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में जिला आयोजन समिति का अध्यक्ष कौन होता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "जिला कलेक्टर"
+        },
+        {
+          "id": "opt2",
+          "text": "जिला प्रमुख"
+        },
+        {
+          "id": "opt3",
+          "text": "वित्त मंत्री"
+        },
+        {
+          "id": "opt4",
+          "text": "मुख्य कार्यकारी अधिकारी"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान में जिला आयोजन समिति का अध्यक्ष जिला प्रमुख होता है। जिला प्रमुख की अध्यक्षता में सभी जिलों में जिला योजना समितियों का गठन किया गया है।",
+      "reference": "📌 PYQ — JEN : Elec. Mech. Diploma (GK) (2022)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012522",
+        "exam": "JEN : Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "74वाँ संविधान संशोधन अधिनियम कब अस्तित्व में आया -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1 जून, 1993 को"
+        },
+        {
+          "id": "opt2",
+          "text": "20 अप्रैल, 1992 को"
+        },
+        {
+          "id": "opt3",
+          "text": "2 अक्टूबर, 1993 को"
+        },
+        {
+          "id": "opt4",
+          "text": "30 जनवरी, 1993 को"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — JEN : Civil Degree (GK) (2022)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012524",
+        "exam": "JEN : Civil Degree (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अनुच्छेद 243 फ में क्या वर्णित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "नगरपालिका का गठन"
+        },
+        {
+          "id": "opt2",
+          "text": "नगरपालिका की शक्तियाँ एवं उत्तरदायित्व"
+        },
+        {
+          "id": "opt3",
+          "text": "नगरपालिका में सीटों का आरक्षण"
+        },
+        {
+          "id": "opt4",
+          "text": "नगरपालिका सदस्यता के लिए निरर्हताएँ।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — JEN : Civil Degree (GK) (2022)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012525",
+        "exam": "JEN : Civil Degree (GK)",
+        "year": 2022
+      }
+    }
+  ]
+}

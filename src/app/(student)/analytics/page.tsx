@@ -53,7 +53,7 @@ const AnswerAccuracyChart = dynamic(
 );
 
 export default function AnalyticsPage() {
-  const [rangeDays, setRangeDays] = useState<RangeDays>(30);
+  const [rangeDays, setRangeDays] = useState<RangeDays>(15);
 
   // Derive client's actual timezone offset in minutes so calendar days match local time
   const timezoneOffset = useMemo(() => new Date().getTimezoneOffset(), []);
@@ -74,9 +74,10 @@ export default function AnalyticsPage() {
 
       {/* 2. Responsive 2 × 2 Desktop / 1 × 4 Mobile Visualizations Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
-        {/* CHART 1 — Daily Study Activity (Area / Line) */}
+        {/* CHART 1 — Daily Study Activity (Area / Line / Hourly) */}
         <DailyStudyActivityChart
           data={stats.dailyProgress || []}
+          hourlyData={stats.hourlyActivity || []}
           rangeDays={rangeDays}
         />
 

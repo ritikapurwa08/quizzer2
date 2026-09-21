@@ -1,0 +1,672 @@
+{
+  "masterTopic": "राजस्थान राज्य विधानमंडल",
+  "batchIndex": 8,
+  "batchName": "राजस्थान राज्य विधानमंडल भाग 8",
+  "subject": "राजस्थान राजव्यवस्था / प्रशासन",
+  "subjectSlug": "rajasthan-polity-administration",
+  "topicSlug": "राजस्थान-राज्य-विधानमंडल",
+  "negativeMarking": true,
+  "questionCount": 20,
+  "questions": [
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा की सदस्य संख्या 200 किस वर्ष हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "1952"
+        },
+        {
+          "id": "opt2",
+          "text": "1967"
+        },
+        {
+          "id": "opt3",
+          "text": "1977"
+        },
+        {
+          "id": "opt4",
+          "text": "1987"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — JEN : Elec. Mech. Diploma (GK) (2022)",
+      "difficulty": "medium",
+      "order": 0,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012698",
+        "exam": "JEN : Elec. Mech. Diploma (GK)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "वर्ष 2000 तक इनमें से किस भवन को राजस्थान विधान सभा के रूप में उपयोग किया जा रहा था -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वाई प्रताप सिंह टाउन हॉल"
+        },
+        {
+          "id": "opt2",
+          "text": "वाई करण सिंह टाउन हॉल"
+        },
+        {
+          "id": "opt3",
+          "text": "सवाई जय सिंह टाउन हॉल"
+        },
+        {
+          "id": "opt4",
+          "text": "सवाई मान सिंह टाउन हॉल"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सवाई मान सिंह टाउन हॉल को वर्ष 2000 तक राजस्थान विधान सभा के रूप में उपयोग किया गया था। 11वीं विधानसभा का 5वां सत्र आखिरी सत्र था, जो 6 नवंबर 2000 को सवाई मान सिंह टाउन हॉल में आयोजित किया गया था।",
+      "reference": "📌 PYQ — Police Constable Exam (02 July ) (Re Exam) (2022)",
+      "difficulty": "medium",
+      "order": 1,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012699",
+        "exam": "Police Constable Exam (02 July ) (Re Exam)",
+        "year": 2022
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधान सभा में अध्यक्ष की अनुपस्थिति में अविलम्बनीय मामलों में निम्नांकित में से कौन अध्यक्ष की ओर से विधेयक को प्रमाणित कर सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ंसदीय कार्य मंत्री"
+        },
+        {
+          "id": "opt2",
+          "text": "विधान सभा का सचिव"
+        },
+        {
+          "id": "opt3",
+          "text": "संसदीय सचिव"
+        },
+        {
+          "id": "opt4",
+          "text": "उपाध्यक्ष"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "​राजस्थान विधानसभा में अध्यक्ष की अनुपस्थिति में अविलम्बनीय मामलों में विधेयक को प्रमाणित करने का अधिकार विधान सभा के सचिव को दिया गया है।",
+      "reference": "📌 PYQ — Police SI 13 September (Gk) (2021)",
+      "difficulty": "medium",
+      "order": 2,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012700",
+        "exam": "Police SI 13 September (Gk)",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्न में से कौनसे विधानसभा चुनाव में, राजस्थान विधानसभा के सदस्यों की संख्या 184 से बढाकर 200 कर दी गई थी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "ूसरे विधानसभा चुनाव में"
+        },
+        {
+          "id": "opt2",
+          "text": "चौथे विधानसभा चुनाव में"
+        },
+        {
+          "id": "opt3",
+          "text": "छठे विधानसभा चुनाव में"
+        },
+        {
+          "id": "opt4",
+          "text": "उपरोक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — VDO Exam 2nd Shift 28 Dec (2021)",
+      "difficulty": "medium",
+      "order": 3,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012701",
+        "exam": "VDO Exam 2nd Shift 28 Dec",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान में कितने विधान सभा चुनाव-क्षेत्र क्रमश: अनुसूचित जाति और अनुसूचित जनजाति के उम्मीदवारों के लिए आरक्षित हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "इनमें से कोई नहीं"
+        },
+        {
+          "id": "opt2",
+          "text": "34,25"
+        },
+        {
+          "id": "opt3",
+          "text": "25,34"
+        },
+        {
+          "id": "opt4",
+          "text": "36,23"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "reference": "📌 PYQ — Rajasthan Patwar (23 Oct ) 1st shift (2021)",
+      "difficulty": "medium",
+      "order": 4,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012709",
+        "exam": "Rajasthan Patwar (23 Oct ) 1st shift",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राज्य विधान परिषद् के उत्सादन के लिए राज्य विधानसभा द्वारा संविधान के अनुच्छेद 169 के अंतर्गत स्वीकृत संकल्प के बारे में निम्नांकित में से कौनसा कथन सही है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "राज्यपाल पर कोई बाध्यता अधिरोपित नहीं करता है कि वह संकल्प को राष्ट्रपति के विचार हेतु आरक्षित करें।"
+        },
+        {
+          "id": "opt2",
+          "text": "राज्यपाल पर बाध्यता अधिरोपित करता है कि वह संकल्प को राष्ट्रपति के विचार हेतु आरक्षित करें।"
+        },
+        {
+          "id": "opt3",
+          "text": "केन्द्र सरकार पर बाध्यता अधिरोपित करता है कि वह संसद में विधि निर्माण हेतु कार्यवाही करें।"
+        },
+        {
+          "id": "opt4",
+          "text": "केन्द्र सरकार पर कोई बाध्यता अधिरोपित नहीं करता है कि वह संसद में विधि निर्माण हेतु कार्यवाही करें।"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam (2021)",
+      "difficulty": "medium",
+      "order": 5,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012711",
+        "exam": "RPSC Ras Pre. Exam",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "‘राजस्थान विधानसभा के प्रक्रिया तथा कार्य संचालन संबंधी नियमों के अनुसार निम्नांकित में से कौन से विभाग के प्राक्कलन, प्राक्कलन समिति ‘क’ के नियंत्रणाधीन नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "वित्त विभाग"
+        },
+        {
+          "id": "opt2",
+          "text": "शिक्षा विभाग"
+        },
+        {
+          "id": "opt3",
+          "text": "सार्वजनिक निर्माण विभाग"
+        },
+        {
+          "id": "opt4",
+          "text": "गृह विभाग"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "राजस्थान विधान सभा ने 1956 में सदन और उसकी समितियों के कार्य को विनियमित करने के लिए राजस्थान विधान सभा में ‘प्रक्रिया और कार्य संचालन के नियम’ बनाए।नियमानुसार राजस्थान विधान सभा के एक कलैण्डर वर्ष में कम से कम तीन सत्र होंगे।सदन के कार्य का निर्णय कार्य मंत्रणा समिति की अनुशंसा पर सदन द्वारा किया जाता है।राजस्थान विधान सभा में, 22 स्थायी समितियाँ हैं, जिनमें से चार वित्तीय हैं और शेष विभिन्न अन्य विषयों से संबंधित हैं।वित्तीय समितियाँ हैं -लोक लेखा समितिसार्वजनिक उपक्रम समितिदो अनुमान समितियांदो अनुमान समितियों को सौंपा गया काम यह रिपोर्ट करना है कि कौन सी अर्थव्यवस्थाएं प्रभावित हो सकती हैं और किसी विशेष संगठन में क्या सुधार किए जा सकते हैं।प्रशासन में दक्षता और मितव्ययिता लाने के लिए समितियाँ वैकल्पिक नीतियों का भी सुझाव देती हैं।गृह विभाग के अनुमान प्राक्कलन समिति ‘A’ के ​​नियंत्रण में नहीं आते हैं।",
+      "reference": "📌 PYQ — RPSC Ras Pre. Exam (2021)",
+      "difficulty": "medium",
+      "order": 6,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012712",
+        "exam": "RPSC Ras Pre. Exam",
+        "year": 2021
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से कौन सा कथन राजस्थान विधानसभा में लोक - महत्त्व के किसी विषय पर स्थगन प्रस्ताव के संदर्भ में सही नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक ही बैठक में एक से अधिक ऐसा प्रस्ताव नहीं किया जायेगा।"
+        },
+        {
+          "id": "opt2",
+          "text": "्थगन प्रस्ताव की सूचना उस दिन की बैठक प्रारंभ होने से पूर्व, जिस दिन कि प्रस्ताव करने का विचार हो, अध्यक्ष को दी जाएगी।"
+        },
+        {
+          "id": "opt3",
+          "text": "प्रस्ताव हाल ही में घटित किसी विशिष्ट विषय तक सीमित रहेगा।"
+        },
+        {
+          "id": "opt4",
+          "text": "प्रस्ताव द्वारा विशेषाधिकार का प्रश्न नहीं उठाया जायेगा।"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III) (2020)",
+      "difficulty": "medium",
+      "order": 7,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012676",
+        "exam": "Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा की निम्नलिखित में से किस समिति में सदस्यों की संख्या पूर्व निर्धारित नहीं है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "याचिका समिति"
+        },
+        {
+          "id": "opt2",
+          "text": "विशेषाधिकार समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "सरकारी आश्वासनों सम्बन्धी समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "सामान्य प्रयोजनों सम्बन्धी समिति"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "सामान्य प्रयोजनों सम्बन्धी समिति (Committee on General Purposes) में सदस्यों की संख्या पूर्व निर्धारित नहीं होती है। इस समिति के सदस्य विधानसभा के अध्यक्ष द्वारा नामित किए जाते हैं, और इनकी संख्या समय-समय पर आवश्यकता के अनुसार तय की जाती है।",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III) (2020)",
+      "difficulty": "medium",
+      "order": 8,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012677",
+        "exam": "Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा में यदि मन्त्रिपरिषद् में विश्वास के अभाव प्रकट करने सम्बन्धी प्रस्ताव की सूचना है और साथ ही मन्त्रिपरिषद् में विश्वास व्यक्त करने वाला एक प्रस्ताव प्राप्त होता है, तो पूर्ववर्तिता किस प्रस्ताव को होगी -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अविश्वास प्रस्ताव को"
+        },
+        {
+          "id": "opt2",
+          "text": "विश्वास प्रस्ताव को"
+        },
+        {
+          "id": "opt3",
+          "text": "विधानसभा अध्यक्ष निर्धारित करेगा।"
+        },
+        {
+          "id": "opt4",
+          "text": "विधानसभा निर्धारित करेगी।"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III) (2020)",
+      "difficulty": "medium",
+      "order": 9,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012678",
+        "exam": "Lecturer (Tech. Edu.) Exam - (Gen. Studies of State Paper - III)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "सार्वजनिक महत्त्व के एक मामले के सम्बन्ध में जानकारी प्राप्त करने के लिए, राजस्थान विधानसभा का सदस्य अन्तः सत् अवधि के दौरान एक सप्ताह में कितने अतारांकित प्रश्न की सूचना दे सकता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "एक"
+        },
+        {
+          "id": "opt2",
+          "text": "तीन"
+        },
+        {
+          "id": "opt3",
+          "text": "पाँच"
+        },
+        {
+          "id": "opt4",
+          "text": "सात"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "",
+      "reference": "📌 PYQ — Evaluation Officer (2020)",
+      "difficulty": "medium",
+      "order": 10,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012692",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नांकित में से कितने न्यूनतम सदस्यों के पक्ष में होने पर ही राजस्थान विधानसभा में मन्त्री परिषद में अविश्वास प्रस्ताव पर चर्चा हो सकती है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "20"
+        },
+        {
+          "id": "opt2",
+          "text": "30"
+        },
+        {
+          "id": "opt3",
+          "text": "40"
+        },
+        {
+          "id": "opt4",
+          "text": "50"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — Evaluation Officer (2020)",
+      "difficulty": "medium",
+      "order": 11,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012693",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा चुनाव 1967 में स्वतंत्र पार्टी को कितने स्थानों पर विजय प्राप्त हुई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "52"
+        },
+        {
+          "id": "opt2",
+          "text": "50"
+        },
+        {
+          "id": "opt3",
+          "text": "48"
+        },
+        {
+          "id": "opt4",
+          "text": "47"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान विधान सभा चुनाव1967में स्वतंत्र पार्टी को 48सीटों पर विजय प्राप्त हुआ। वहीं भारतीय राष्ट्रीय कांगे्रस ने सबसे ज्यादा सीटों89पर विजय प्राप्त की।",
+      "reference": "📌 PYQ — Evaluation Officer (2020)",
+      "difficulty": "medium",
+      "order": 12,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012694",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधान सभा की किस समिति के सदस्यों को विधानसभाध्यक्ष द्वारा मनोनीत किया जाता है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "प्राक्कलन समिति ‘क’"
+        },
+        {
+          "id": "opt2",
+          "text": "राजकीय उपक्रम समिति"
+        },
+        {
+          "id": "opt3",
+          "text": "कार्य सलाहकार समिति"
+        },
+        {
+          "id": "opt4",
+          "text": "जनलेखा समिति"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "राजस्थान विधान सभा की लोक लेखा समिति के सदस्यों को विधान सभा अध्यक्ष द्वारा मनोनीत किया जाता है। राजस्थान विधान में कार्य की प्रक्रिया और आचरण नियमावली का नियम 229लोक लेखा पर समिति के कार्य को निर्दिष्ट करता है। विधान सभा की लोक लेखा समिति के सदस्यों का कार्यकाल एक वर्ष का होता है। विधान सभा की अन्य समितियों का भी कार्यकाल एक वर्ष होता है।",
+      "reference": "📌 PYQ — Evaluation Officer (2020)",
+      "difficulty": "medium",
+      "order": 13,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012695",
+        "exam": "Evaluation Officer",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा के संबंध में निम्नांकित में से कौन-सा/से कथन सही है/हैं -A. 1952 में राजस्थान विधानसभा की कुल सदस्य संख्या 160 थी।B. राजस्थान विधानसभा में प्रक्रिया व कार्य संचालन के नियम पहली बार 1956 में निर्मित किए गए।C. राजस्थान विधानसभा की 18 स्थायी समितियाँ हैं, जिनमें से 4 वित्त संबंधी है।",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "केवल A व B"
+        },
+        {
+          "id": "opt2",
+          "text": "केवल A व C"
+        },
+        {
+          "id": "opt3",
+          "text": "केवल B व C"
+        },
+        {
+          "id": "opt4",
+          "text": "A, B व C"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "1952 में राजस्थान विधानसभा की कुल सदस्य संख्या 160 थी।राजस्थान विधान सभा ने 1956 में सदन और उसकी समितियों के कार्य को विनियमित करने के लिए राजस्थान विधान सभा में ‘प्रक्रिया और कार्य संचालन के नियम’ बनाए।राजस्थान विधानसभा में कुल 25 समितियों होती है जिनमे 4 समितियां स्थायी होती है।",
+      "reference": "📌 PYQ — ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM (2020)",
+      "difficulty": "medium",
+      "order": 14,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012696",
+        "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा के पहले उपाध्यक्ष कौन थे -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "निरंजन नाथ आचार्य"
+        },
+        {
+          "id": "opt2",
+          "text": "लाल सिंह शक्तावत"
+        },
+        {
+          "id": "opt3",
+          "text": "नारायण सिंह मसूदा"
+        },
+        {
+          "id": "opt4",
+          "text": "पूनम चंद विश्नोई"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "राजस्थान विधानसभा के पहले उपाध्यक्ष (Deputy Speaker) लाल सिंह शक्तावत थे, जिन्होंने 1952 में प्रथम विधानसभा में यह भूमिका निभाई।",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov S-2) (2020)",
+      "difficulty": "medium",
+      "order": 15,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012703",
+        "exam": "Raj Police Constable Exam (7 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "अनुसूचित जाति के उम्मीदवारों हेतु राजस्थान विधानसभा में कितनी सीटें आरक्षित की गई हैं -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "25"
+        },
+        {
+          "id": "opt2",
+          "text": "34"
+        },
+        {
+          "id": "opt3",
+          "text": "32"
+        },
+        {
+          "id": "opt4",
+          "text": "27"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov S-2) (2020)",
+      "difficulty": "medium",
+      "order": 16,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012704",
+        "exam": "Raj Police Constable Exam (7 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान का विधान सभा कहाँ स्थित है -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अल्बर्ट हॉल रोड, कोटा"
+        },
+        {
+          "id": "opt2",
+          "text": "किशनपोल, बीकानेर"
+        },
+        {
+          "id": "opt3",
+          "text": "आमेर, जयपुर"
+        },
+        {
+          "id": "opt4",
+          "text": "लालकोठी, जयपुर"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "",
+      "reference": "📌 PYQ — Raj Police Constable Exam (7 Nov S-1) (2020)",
+      "difficulty": "medium",
+      "order": 17,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012705",
+        "exam": "Raj Police Constable Exam (7 Nov S-1)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "निम्नलिखित में से किस विधानसभा में राजस्थान की सीट संख्या बढाकर वर्तमान स्तर (जनवरी 2020 तक के अनुसार) तक कर दी गई -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "पाँचवी"
+        },
+        {
+          "id": "opt2",
+          "text": "चौथी"
+        },
+        {
+          "id": "opt3",
+          "text": "छठी"
+        },
+        {
+          "id": "opt4",
+          "text": "सातवीं"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — Raj Police Constable Exam (6 Nov S-2) (2020)",
+      "difficulty": "medium",
+      "order": 18,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012708",
+        "exam": "Raj Police Constable Exam (6 Nov S-2)",
+        "year": 2020
+      }
+    },
+    {
+      "type": "mcq",
+      "questionText": "राजस्थान विधानसभा में ‘लोक महत्व के किसी विषय स्थगन प्रस्ताव’ की प्रक्रिया के नियम के सम्बन्ध में निम्न में से कौन से कथन सही हैं -अ. प्रस्ताव प्रस्तुत करने हेतु अध्यक्ष की सहमति आवश्यक है।ब. प्रस्ताव द्वारा विशेषाधिकार का प्रश्न उठाया जा सकता है।स. प्रस्ताव हाल ही घटित किसी विशिष्ट घटना तक सीमित रहेगा।द. एक ही बैठक में एक से अधिक प्रस्ताव प्रस्तुत नहीं होंगे।सही उत्तर का चयन नीचे दिए गए कूट से कीजिए -कूट -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "अ, ब और स"
+        },
+        {
+          "id": "opt2",
+          "text": "अ, ब और द"
+        },
+        {
+          "id": "opt3",
+          "text": "अ, स और द"
+        },
+        {
+          "id": "opt4",
+          "text": "अ और द"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "",
+      "reference": "📌 PYQ — RAS/RTS Comb. Comp. (Pre) Exam (2018)",
+      "difficulty": "medium",
+      "order": 19,
+      "meta": {
+        "sourceType": "PYQ",
+        "sourceQuestionId": "rg_012750",
+        "exam": "RAS/RTS Comb. Comp. (Pre) Exam",
+        "year": 2018
+      }
+    }
+  ]
+}
