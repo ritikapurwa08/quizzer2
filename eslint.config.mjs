@@ -15,6 +15,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     "convex/_generated/**",
     "src/scripts/**",
+    "scripts/**",
   ]),
   {
     rules: {

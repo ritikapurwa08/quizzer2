@@ -1,5 +1,8 @@
 export const MARKS_PER_QUESTION = 2.0;
-export const NEGATIVE_MARK_VALUE = 0.33;
+/** Canonical RPSC negative marking ratio: 1/3 mark penalty per incorrect answer */
+export const NEGATIVE_PENALTY_RATIO = 1 / 3;
+export const NEGATIVE_MARK_VALUE = MARKS_PER_QUESTION / 3;
+export const NEGATIVE_MARK_DISPLAY = (MARKS_PER_QUESTION / 3).toFixed(2); // "0.66"
 
 // ── Supported question types (Strict Canonical Set of 6) ───────────────────
 export const QUESTION_TYPES = [

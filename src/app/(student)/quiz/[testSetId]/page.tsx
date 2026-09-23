@@ -15,7 +15,8 @@ import {
 import { QuestionPaletteToggle } from "@/components/quiz/QuestionPaletteToggle";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
-import { Clock, Loader2 } from "lucide-react";
+import { Clock, Loader2, Pause, Play } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 function formatTime(seconds: number): string {
   const mins = Math.floor(seconds / 60);
@@ -35,7 +36,11 @@ export default function QuizPage() {
     selectAnswer,
     bookmarkedIds,
     toggleBookmark,
-    elapsedSeconds,
+    remainingSeconds,
+    totalDurationSeconds,
+    isPaused,
+    pause,
+    resume,
     submit,
     isLoading,
   } = useQuizSession(id);
@@ -43,6 +48,7 @@ export default function QuizPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
 
   const current = questions[currentIndex];
 
@@ -130,14 +136,36 @@ export default function QuizPage() {
       {/* ── Main question column ── */}
       <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0">
 
-        {/* ── Mobile Header: name + timer in one compact row ── */}
+        {/* ── Mobile Header: name + countdown timer + pause button ── */}
         <div className="flex lg:hidden items-center justify-between gap-2 bg-card px-3 py-2.5 rounded-xl border border-border">
           <h1 className="font-semibold text-sm text-foreground font-hindi truncate min-w-0">
             {testSet?.name}
           </h1>
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-muted font-mono text-xs font-semibold text-foreground shrink-0">
-            <Clock className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
-            <span>{formatTime(elapsedSeconds)}</span>
+          <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => (isPaused ? resume() : pause())}
+              className="p-1 rounded-lg border border-border bg-muted hover:bg-muted/80 text-foreground cursor-pointer transition-colors"
+              title={isPaused ? "Resume Test" : "Pause Test"}
+              aria-label={isPaused ? "Resume Test" : "Pause Test"}
+            >
+              {isPaused ? (
+                <Play className="h-3.5 w-3.5 fill-current text-primary" />
+              ) : (
+                <Pause className="h-3.5 w-3.5" />
+              )}
+            </button>
+            <div
+              className={cn(
+                "flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-mono text-xs font-bold shrink-0 transition-colors",
+                remainingSeconds < 120
+                  ? "bg-destructive/15 text-destructive border border-destructive/30 animate-pulse"
+                  : "bg-muted text-foreground"
+              )}
+            >
+              <Clock className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
+              <span>{formatTime(remainingSeconds)}</span>
+            </div>
           </div>
         </div>
 
@@ -148,25 +176,54 @@ export default function QuizPage() {
           </h1>
         </div>
 
-        {/* ── Active question ── */}
-        {current && Renderer && (
-          <QuestionShell
-            number={currentIndex + 1}
-            type={current.type}
-            questionText={current.questionText}
-            isBookmarked={bookmarkedIds.has(current._id)}
-            onToggleBookmark={() => toggleBookmark(current._id)}
-            reference={current.reference}
-            meta={current.meta}
-          >
-            <Renderer
-              question={current}
-              selected={localAnswers[current._id]}
-              onSelect={(value) => selectAnswer(current._id, value)}
-              mode="quiz"
-            />
-          </QuestionShell>
+        {/* ── Test Paused Full Overlay ── */}
+        {isPaused ? (
+          <div className="rounded-2xl border-2 border-dashed border-amber-500/40 bg-amber-500/5 p-8 text-center space-y-4 my-4 animate-in fade-in-0 duration-150">
+            <div className="p-3 rounded-2xl bg-amber-500/15 text-amber-600 dark:text-amber-400 w-fit mx-auto">
+              <Pause className="h-8 w-8" />
+            </div>
+            <div className="space-y-1.5 max-w-md mx-auto">
+              <h2 className="text-xl font-bold text-foreground font-hindi">
+                टेस्ट रोक दिया गया है (Test Paused)
+              </h2>
+              <p className="text-xs text-muted-foreground font-hindi leading-relaxed">
+                आपका समय और प्रश्न-उत्तर सुरक्षित हैं। शेष समय:{" "}
+                <span className="font-mono font-bold text-foreground">
+                  {formatTime(remainingSeconds)}
+                </span>
+                । जब आप तैयार हों, तब नीचे दिए गए बटन पर क्लिक करके टेस्ट जारी रखें।
+              </p>
+            </div>
+            <Button
+              onClick={resume}
+              className="rounded-xl px-6 font-bold text-xs h-10 bg-primary text-primary-foreground hover:bg-primary/90 gap-2 cursor-pointer shadow-md"
+            >
+              <Play className="h-4 w-4 fill-current" />
+              <span>टेस्ट जारी रखें (Resume Test)</span>
+            </Button>
+          </div>
+        ) : (
+          /* ── Active question ── */
+          current && Renderer && (
+            <QuestionShell
+              number={currentIndex + 1}
+              type={current.type}
+              questionText={current.questionText}
+              isBookmarked={bookmarkedIds.has(current._id)}
+              onToggleBookmark={() => toggleBookmark(current._id)}
+              reference={current.reference}
+              meta={current.meta}
+            >
+              <Renderer
+                question={current}
+                selected={localAnswers[current._id]}
+                onSelect={(value) => selectAnswer(current._id, value)}
+                mode="quiz"
+              />
+            </QuestionShell>
+          )
         )}
+
 
         {/* ── Mobile navigation row: ← prev | answered/total | next/submit → ── */}
         <div className="flex lg:hidden items-center gap-2 pt-1">
@@ -236,16 +293,57 @@ export default function QuizPage() {
                 {answeredCount} / {questions.length} Solved
               </span>
             </div>
+
+            {/* Countdown Remaining Timer */}
             <div className="flex items-center justify-between pt-2.5 border-t border-border/60">
-              <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                Time Elapsed
-              </span>
-              <div className="flex items-center gap-1.5 font-mono text-sm font-bold text-foreground">
+              <div className="flex flex-col">
+                <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
+                  Remaining Time
+                </span>
+                <span className="text-[10px] text-muted-foreground">
+                  Total: {formatTime(totalDurationSeconds)}
+                </span>
+              </div>
+              <div
+                className={cn(
+                  "flex items-center gap-1.5 font-mono text-sm font-bold px-2 py-1 rounded-lg transition-colors",
+                  remainingSeconds < 120
+                    ? "bg-destructive/15 text-destructive border border-destructive/30 animate-pulse"
+                    : "bg-muted text-foreground"
+                )}
+              >
                 <Clock className="h-4 w-4 text-primary" aria-hidden="true" />
-                <span>{formatTime(elapsedSeconds)}</span>
+                <span>{formatTime(remainingSeconds)}</span>
               </div>
             </div>
+
+            {/* Pause / Resume Button */}
+            <Button
+              type="button"
+              variant={isPaused ? "default" : "outline"}
+              size="sm"
+              onClick={() => (isPaused ? resume() : pause())}
+              className={cn(
+                "w-full h-8 text-xs font-bold rounded-xl gap-1.5 cursor-pointer transition-colors",
+                isPaused
+                  ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                  : "border-border hover:bg-muted"
+              )}
+            >
+              {isPaused ? (
+                <>
+                  <Play className="h-3.5 w-3.5 fill-current" />
+                  <span>Resume Test</span>
+                </>
+              ) : (
+                <>
+                  <Pause className="h-3.5 w-3.5" />
+                  <span>Pause Test</span>
+                </>
+              )}
+            </Button>
           </div>
+
 
           {/* Question Palette grid — always visible on desktop */}
           <QuestionPalette

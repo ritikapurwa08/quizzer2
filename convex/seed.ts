@@ -409,3 +409,148 @@ export const seedQuestions = mutation({
 
 export const seedFixedSyllabus = seedSyllabus;
 
+export const seedSampleNotes = mutation({
+  args: {},
+  handler: async (ctx) => {
+    const subject = await ctx.db
+      .query("subjects")
+      .withIndex("by_slug", (q) => q.eq("slug", "rajasthan-general-knowledge-geography"))
+      .unique();
+    if (!subject) throw new Error("Subject rajasthan-general-knowledge-geography not found");
+
+    const topic = await ctx.db
+      .query("topics")
+      .withIndex("by_subject_slug", (q) =>
+        q.eq("subjectId", subject._id).eq("slug", "rivers-and-water-resources-of-rajasthan")
+      )
+      .unique();
+    if (!topic) throw new Error("Topic rivers-and-water-resources-of-rajasthan not found");
+
+    const existing = await ctx.db
+      .query("topicNotes")
+      .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
+      .unique();
+
+    const sampleDocument = {
+      version: "1.0",
+      title: "राजस्थान की नदियाँ एवं जल संसाधन",
+      subtitle: "Rivers and Water Resources of Rajasthan",
+      overview: "राजस्थान के 3 प्रमुख अपवाह तंत्र (बंगाल की खाड़ी, अरब सागर एवं आंतरिक प्रवाह) तथा महत्वपूर्ण नदियों की परीक्षा-उन्मुख मुख्य अवधारणाएँ।",
+      tags: ["राजस्थान GK", "राजस्थान भूगोल", "RPSC Exam Notes"],
+      blocks: [
+        {
+          type: "heading",
+          level: 2,
+          text: "राजस्थान का अपवाह तंत्र (Drainage System)",
+          subtitle: "General Classification & Features",
+        },
+        {
+          type: "paragraph",
+          content: "राजस्थान का अपवाह तंत्र अरावली पर्वतमाला द्वारा दो मुख्य भागों (बंगाल की खाड़ी एवं अरब सागर) में विभाजित होता है, जबकि राज्य का अधिकांश भाग आंतरिक प्रवाह प्रणाली के अंतर्गत आता है।",
+        },
+        {
+          type: "facts",
+          title: "प्रमुख परीक्षा-उपयोगी तथ्य (Key High-Yield Facts)",
+          items: [
+            "आंतरिक प्रवाह प्रणाली राज्य के कुल अपवाह क्षेत्र का लगभग 60.2% भाग घेरे हुए है।",
+            "बंगाल की खाड़ी का अपवाह तंत्र लगभग 22.4% क्षेत्र में फैला है।",
+            "अरब सागर का अपवाह तंत्र लगभग 17.4% है।",
+            "चंबल नदी राजस्थान की एकमात्र बारहमासी (नित्यवाही) नदी है जो सर्वाधिक बीहड़ (Badland topography) बनाती है।",
+            "पूर्णतः राजस्थान में बहने वाली सबसे लंबी नदी बनास (480 किमी) है।",
+          ],
+        },
+        {
+          type: "comparison_table",
+          title: "राजस्थान के अपवाह तंत्र का तुलनात्मक अध्ययन",
+          headers: ["अरब सागर की नदियाँ", "बंगाल की खाड़ी की नदियाँ"],
+          rows: [
+            {
+              feature: "प्रमुख नदियाँ",
+              col1: "लूणी, माही, साबरमती, पश्चिमी बनास",
+              col2: "चंबल, बनास, बाणगंगा, बेड़च, कोठारी",
+            },
+            {
+              feature: "राज्य के कुल अपवाह का %",
+              col1: "लगभग 17.1%",
+              col2: "लगभग 22.4%",
+            },
+            {
+              feature: "अंतिम विसर्जन",
+              col1: "कच्छ के रन या खंभात की खाड़ी में विलीन",
+              col2: "यमुना के माध्यम से गंगा में मिलकर बंगाल की खाड़ी",
+            },
+          ],
+        },
+        {
+          type: "image",
+          src: "/notes/rajasthan-gk/rajasthan-general-knowledge-geography/rivers-and-water-resources-of-rajasthan/images/image-01.webp",
+          alt: "राजस्थान अपवाह तंत्र रेखाचित्र",
+          caption: "राजस्थान के 3 प्रमुख अपवाह तंत्र: आंतरिक, बंगाल की खाड़ी एवं अरब सागर",
+        },
+        {
+          type: "trick",
+          title: "अरब सागर की नदियों की शॉर्टकट ट्रिक",
+          mnemonic: "समानता (स-मा-न-ता)",
+          explanation: "साबरमती, माही, नर्मदा, ताप्ती — ये नदियाँ पश्चिम की ओर बहकर खंभात की खाड़ी/अरब सागर में गिरती हैं।",
+          examContext: "अरब सागरीय अपवाह की नदियाँ पहचानने के लिए",
+        },
+        {
+          type: "exam_trap",
+          title: "सावधानी / सामान्य भ्रम (Exam Trap)",
+          confusion: "बाणगंगा नदी को हमेशा बंगाल की खाड़ी की नदी समझा जाता है।",
+          clarification: "वर्तमान में पर्याप्त जल न होने एवं यमुना तक न पहुँच पाने के कारण इसे 'रुण्डित सरिता' (आंतरिक प्रवाह) की श्रेणी में रखा जाने लगा है।",
+        },
+        {
+          type: "quick_revision",
+          title: "त्वरित पुनरावलोकन (Quick Revision)",
+          summaryPoints: [
+            "कर्क रेखा को दो बार काटने वाली नदी माही नदी (कांठल की गंगा) है।",
+            "लूणी नदी का जल बालोतरा (बाड़मेर) तक मीठा और उसके बाद खारा हो जाता है।",
+            "चंबल नदी पर 4 प्रमुख बाँध (गांधी सागर, राणा प्रताप सागर, जवाहर सागर, कोटा बैराज) स्थित हैं।",
+          ],
+        },
+        {
+          type: "pyq_connection",
+          examName: "RPSC RAS Pre",
+          year: "2021/2023",
+          questionSnippet: "निम्न में से कौनसी नदी आंतरिक प्रवाह की नहीं है?",
+          insight: "RPSC लगातार आंतरिक प्रवाह (कांतली, साबी, घग्घर, काकनी, मेंथा, रूपनगढ़) और अरब सागरीय नदियों के अंतर पर प्रश्न पूछती है।",
+        },
+      ],
+    };
+
+    const notePayload = {
+      topicId: topic._id,
+      subjectId: subject._id,
+      slug: topic.slug,
+      title: "राजस्थान की नदियाँ एवं जल संसाधन",
+      summary: "राजस्थान के अपवाह तंत्र (बंगाल की खाड़ी, अरब सागर, आंतरिक प्रवाह), मुख्य नदियाँ, बाँध एवं जल संसाधन।",
+      pdfPath: "/notes/rajasthan-gk/rajasthan-general-knowledge-geography/rivers-and-water-resources-of-rajasthan/notes.pdf",
+      hasPdf: true,
+      images: [
+        {
+          id: "img-01",
+          src: "/notes/rajasthan-gk/rajasthan-general-knowledge-geography/rivers-and-water-resources-of-rajasthan/images/image-01.webp",
+          alt: "राजस्थान अपवाह तंत्र रेखाचित्र",
+          caption: "राजस्थान के 3 प्रमुख अपवाह तंत्र: आंतरिक, बंगाल की खाड़ी एवं अरब सागर",
+          title: "अपवाह तंत्र वर्गीकरण",
+          width: 800,
+          height: 500,
+        },
+      ],
+      content: JSON.stringify(sampleDocument),
+      isPublished: true,
+      publishedAt: Date.now(),
+      updatedAt: Date.now(),
+    };
+
+    if (existing) {
+      await ctx.db.patch(existing._id, notePayload);
+      return existing._id;
+    } else {
+      return await ctx.db.insert("topicNotes", notePayload);
+    }
+  },
+});
+
+

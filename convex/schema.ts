@@ -35,14 +35,22 @@ export default defineSchema({
     order: v.number(),
     negativeMarking: v.boolean(),
     questionCount: v.number(),
+    durationMinutes: v.optional(v.number()),
   }).index("by_topic", ["topicId"]),
 
   questions: defineTable({
     testSetId: v.id("testSets"),
+    // Promoted from meta for indexed provenance lookups (avoids full table scan).
+    // Stores the canonical string form of meta.sourceQuestionId.
+    sourceQuestionId: v.optional(v.string()),
     // Exactly 6 canonical question types
     type: v.union(
       v.literal("mcq"),
+      v.literal("match"),
       v.literal("match_following"),
+      v.literal("match_the_following"),
+      v.literal("matching"),
+      v.literal("assertion"),
       v.literal("assertion_reason"),
       v.literal("statement_reason"),
       v.literal("sequence"),
@@ -61,7 +69,11 @@ export default defineSchema({
     difficulty: v.union(v.literal("easy"), v.literal("medium"), v.literal("hard")),
     order: v.number(),
     meta: v.optional(v.any()),
-  }).index("by_test_set", ["testSetId"]),
+  })
+    .index("by_test_set", ["testSetId"])
+    // Enables O(1) provenance check: sourceQuestionId → existing question
+    // without scanning the full questions table.
+    .index("by_source_question_id", ["sourceQuestionId"]),
 
   attempts: defineTable({
     userId: v.id("users"),
@@ -78,6 +90,12 @@ export default defineSchema({
     score: v.optional(v.number()),
     totalQuestions: v.number(),
     status: v.union(v.literal("in_progress"), v.literal("submitted")),
+    // Fixed duration pausable timer state
+    totalDurationSeconds: v.optional(v.number()),
+    elapsedSeconds: v.optional(v.number()),
+    isPaused: v.optional(v.boolean()),
+    lastResumedAt: v.optional(v.number()),
+    pausedAt: v.optional(v.number()),
   })
     .index("by_user", ["userId"])
     .index("by_user_test_set", ["userId", "testSetId"])
@@ -102,5 +120,39 @@ export default defineSchema({
     .index("by_user", ["userId"])
     .index("by_user_question", ["userId", "questionId"])
     .index("by_user_last_missed", ["userId", "lastMissedAt"]),
+
+  // Lightweight metadata & structured content storage for Notes System
+  // Binary PDFs and images are static assets in public/notes/...
+  topicNotes: defineTable({
+    topicId: v.id("topics"),
+    subjectId: v.id("subjects"),
+    slug: v.string(),
+    title: v.string(),
+    summary: v.optional(v.string()),
+    pdfPath: v.optional(v.string()),
+    hasPdf: v.boolean(),
+    images: v.optional(
+      v.array(
+        v.object({
+          id: v.string(),
+          src: v.string(),
+          alt: v.string(),
+          caption: v.optional(v.string()),
+          title: v.optional(v.string()),
+          width: v.optional(v.number()),
+          height: v.optional(v.number()),
+        }),
+      ),
+    ),
+    content: v.optional(v.string()), // Structured JSON document string
+    isPublished: v.boolean(),
+    publishedAt: v.optional(v.number()),
+    updatedAt: v.number(),
+  })
+    .index("by_topic", ["topicId"])
+    .index("by_subject", ["subjectId"])
+    .index("by_slug", ["slug"])
+    .index("by_subject_slug", ["subjectId", "slug"]),
 });
+
 

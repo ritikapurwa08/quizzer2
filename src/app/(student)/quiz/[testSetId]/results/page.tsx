@@ -88,7 +88,11 @@ export default function ResultsPage() {
   function handleToggleBookmark(questionId: string) {
     setBookmarked((prev) => {
       const next = new Set(prev);
-      next.has(questionId) ? next.delete(questionId) : next.add(questionId);
+      if (next.has(questionId)) {
+        next.delete(questionId);
+      } else {
+        next.add(questionId);
+      }
       return next;
     });
     toggleBookmark({ questionId: questionId as Id<"questions"> });
@@ -120,22 +124,28 @@ export default function ResultsPage() {
         </p>
 
         {/* Stats: correct / incorrect / unanswered */}
-        <div className="flex items-center justify-center gap-4 mb-5 text-xs">
+        <div className="flex items-center justify-center gap-4 mb-2 text-xs">
           <span className="flex items-center gap-1 font-semibold text-success">
             <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
-            {correctCount} Correct
+            {correctCount} Correct (+{correctCount * 2})
           </span>
           <span className="flex items-center gap-1 font-semibold text-destructive">
             <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
-            {incorrectCount} Incorrect
+            {incorrectCount} Incorrect (-{((incorrectCount * 2) / 3).toFixed(2)})
           </span>
           {unansweredCount > 0 && (
             <span className="flex items-center gap-1 font-semibold text-muted-foreground">
               <Minus className="h-3.5 w-3.5" aria-hidden="true" />
-              {unansweredCount} Skipped
+              {unansweredCount} Skipped (0)
             </span>
           )}
         </div>
+
+        {/* Canonical Scoring Rule Note */}
+        <p className="text-[11px] text-muted-foreground font-hindi mb-5">
+          मानक RPSC मूल्यांकन: +2 अंक प्रति सही उत्तर · 1/3 नेगेटिव मार्किंग (-0.66 अंक प्रति गलत उत्तर)
+        </p>
+
 
         {/* Action buttons: retest + next set (or subjects fallback) */}
         <div className="flex flex-col sm:flex-row justify-center gap-3">

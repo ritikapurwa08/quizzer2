@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
-import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 
 export async function POST(request: NextRequest) {
   try {

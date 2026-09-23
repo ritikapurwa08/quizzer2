@@ -118,18 +118,26 @@ export const search = query({
 
 /**
  * Returns summary counts for the Question Bank admin view.
+ *
+ * Optimization: avoids scanning the questions table by summing the
+ * denormalized `questionCount` field maintained on each testSet document.
+ * subjects/topics/testSets are small tables (< 500 rows each) — collect is fine.
  */
 export const countSummary = query({
   args: {},
   handler: async (ctx) => {
     await requireAdmin(ctx);
-    const questions = await ctx.db.query("questions").collect();
-    const testSets = await ctx.db.query("testSets").collect();
-    const topics = await ctx.db.query("topics").collect();
-    const subjects = await ctx.db.query("subjects").collect();
+    const [testSets, topics, subjects] = await Promise.all([
+      ctx.db.query("testSets").collect(),
+      ctx.db.query("topics").collect(),
+      ctx.db.query("subjects").collect(),
+    ]);
+
+    // Sum questionCount from testSet documents — O(testSets) instead of O(questions)
+    const totalQuestions = testSets.reduce((sum, s) => sum + (s.questionCount ?? 0), 0);
 
     return {
-      totalQuestions: questions.length,
+      totalQuestions,
       totalTestSets: testSets.length,
       totalTopics: topics.length,
       totalSubjects: subjects.length,
@@ -183,7 +191,10 @@ export const update = mutation({
 
 /**
  * Server-side duplicate provenance check for Admin Import Wizard.
- * Given an array of sourceQuestionIds, returns which ones ALREADY exist in Convex questions table.
+ * Given an array of sourceQuestionIds, returns which ones ALREADY exist in the questions table.
+ *
+ * Optimization: uses the `by_source_question_id` index for O(batch_size) targeted lookups
+ * instead of the previous O(27,000+) full table scan.
  */
 export const checkExistingProvenance = query({
   args: {
@@ -194,20 +205,23 @@ export const checkExistingProvenance = query({
       return { existingSourceIds: [] };
     }
 
-    const requested = new Set(args.sourceQuestionIds.map((id) => String(id).trim()));
     const existingFound: string[] = [];
 
-    // Scan all questions in DB to locate existing sourceQuestionIds
-    const allQuestions = await ctx.db.query("questions").collect();
-    for (const q of allQuestions) {
-      const sid = q.meta?.sourceQuestionId;
-      if (sid !== undefined && sid !== null) {
-        const strId = String(sid).trim();
-        if (requested.has(strId) && !existingFound.includes(strId)) {
-          existingFound.push(strId);
-        }
+    for (const rawId of args.sourceQuestionIds) {
+      const strId = String(rawId).trim();
+      if (!strId) continue;
+
+      // Indexed lookup — reads only the matching document(s), not the whole table.
+      const match = await ctx.db
+        .query("questions")
+        .withIndex("by_source_question_id", (q) => q.eq("sourceQuestionId", strId))
+        .first();
+
+      if (match) {
+        existingFound.push(strId);
       }
     }
+
     return { existingSourceIds: existingFound };
   },
 });
@@ -241,76 +255,63 @@ export const importTestSet = mutation({
       }
     }
 
-    // Verify against every question already stored in Convex. The database is the durable record.
-    const existingQuestions = await ctx.db.query("questions").collect();
-
-    // 1. Check provenance & sourceQuestionId uniqueness against existing database
-    const existingPyqSourceIds = new Map<string, string>();
-    for (const eq of existingQuestions) {
-      const sid = eq.meta?.sourceQuestionId;
-      if (sid !== undefined && sid !== null) {
-        existingPyqSourceIds.set(String(sid).trim(), eq.questionText);
-      }
-    }
-
-    const incomingPyqSourceIds = new Set<string>();
+    // ── Step 1: Provenance check via indexed lookups (O(batch_size) not O(table_size)) ──────────
+    // Extract all incoming sourceQuestionIds first to check for intra-batch duplicates.
+    const incomingPyqSourceIds = new Map<string, number>(); // strId → question number (1-indexed)
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
-      const qNum = i + 1;
       const sid = (q.meta?.sourceQuestionId as string | number | undefined) ?? (q as any).sourceQuestionId;
-
       if (sid !== undefined && sid !== null && String(sid).trim() !== "") {
         const cleanSid = String(sid).trim();
         if (incomingPyqSourceIds.has(cleanSid)) {
-          throw new ConvexError(`Duplicate sourceQuestionId: ${cleanSid} inside this set (प्रश्न ${qNum})।`);
+          throw new ConvexError(`Duplicate sourceQuestionId: ${cleanSid} inside this set (प्रश्न ${i + 1})।`);
         }
-        incomingPyqSourceIds.add(cleanSid);
-
-        if (existingPyqSourceIds.has(cleanSid)) {
-          throw new ConvexError(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${cleanSid}, प्रश्न ${qNum})।`);
-        }
+        incomingPyqSourceIds.set(cleanSid, i + 1);
       }
     }
 
-    // 2. Check question text duplicates
-    const incoming = args.questions.map((q) => ({
-      ...q,
-      normalized: normalizeForDuplicateCheck(q.questionText),
-    }));
+    // Indexed lookup for each unique incoming sourceQuestionId — replaces full table scan.
+    for (const [cleanSid, qNum] of incomingPyqSourceIds) {
+      const existing = await ctx.db
+        .query("questions")
+        .withIndex("by_source_question_id", (q) => q.eq("sourceQuestionId", cleanSid))
+        .first();
+      if (existing) {
+        throw new ConvexError(`यह प्रश्न पहले से Quizzer में imported है (sourceQuestionId: ${cleanSid}, प्रश्न ${qNum})।`);
+      }
+    }
 
-    const seen = new Set<string>();
-    for (let i = 0; i < incoming.length; i++) {
-      const current = incoming[i];
-      if (!current.normalized) throw new ConvexError(`प्रश्न ${i + 1} का पाठ खाली है।`);
-      if (seen.has(current.normalized)) {
+    // ── Step 2: Intra-batch text deduplication (within this import only) ────────────────────────
+    // The previous implementation compared every incoming question against all 27,000+ existing
+    // questions in the database (O(20 × 27k) reads). That is not scalable.
+    // Provenance is now guaranteed via the indexed sourceQuestionId check above.
+    // Here we only verify the incoming batch has no internal exact-text duplicates.
+    const incomingNormalizedTexts = new Set<string>();
+    for (let i = 0; i < args.questions.length; i++) {
+      const q = args.questions[i];
+      const normalized = normalizeForDuplicateCheck(q.questionText);
+      if (!normalized) throw new ConvexError(`प्रश्न ${i + 1} का पाठ खाली है।`);
+      if (incomingNormalizedTexts.has(normalized)) {
         throw new ConvexError(`सेट के भीतर दोहराव: प्रश्न ${i + 1} इसी सेट के किसी अन्य प्रश्न जैसा है।`);
       }
-      seen.add(current.normalized);
-
-      for (const existing of existingQuestions) {
-        const existingNormalized = normalizeForDuplicateCheck(existing.questionText);
-        if (current.normalized === existingNormalized) {
-          throw new ConvexError(`दोहराव पहचाना गया: प्रश्न ${i + 1} ("${current.questionText.slice(0, 35)}...") पहले से Quizzer में मौजूद है।`);
-        }
-      }
+      incomingNormalizedTexts.add(normalized);
     }
 
+    // ── Step 3: Duplicate set-name check within the same topic (bounded, small result) ──────────
     const siblings = await ctx.db
       .query("testSets")
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
       .collect();
 
-    // Prevent duplicate set identity under the same topic
     const normalizedSetName = args.name.trim().toLowerCase();
-    const existingSet = siblings.find(
-      (s) => s.name.trim().toLowerCase() === normalizedSetName
-    );
+    const existingSet = siblings.find((s) => s.name.trim().toLowerCase() === normalizedSetName);
     if (existingSet) {
       throw new ConvexError(
         `इस टॉपिक में '${args.name.trim()}' नाम का टेस्ट सेट पहले से मौजूद है (Duplicate Set Identity)। कृपया दूसरा नाम या भाग संख्या चुनें।`
       );
     }
 
+    // ── Step 4: Insert testSet and questions ─────────────────────────────────────────────────────
     const testSetId = await ctx.db.insert("testSets", {
       topicId: args.topicId,
       name: args.name.trim(),
@@ -319,7 +320,6 @@ export const importTestSet = mutation({
       questionCount: args.questions.length,
     });
 
-    const now = Date.now();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
       // Sanitize meta: strip accidental candidate-status fields from production question
@@ -331,8 +331,16 @@ export const importTestSet = mutation({
       delete (cleanMeta as any).queueOrder;
       delete (cleanMeta as any).rejectedCount;
 
+      // Extract sourceQuestionId to the top-level indexed field.
+      // It remains in meta as well for backward compatibility with any admin tooling.
+      const sid = (cleanMeta.sourceQuestionId as string | number | undefined) ?? (q as any).sourceQuestionId;
+      const topLevelSourceId = sid !== undefined && sid !== null && String(sid).trim() !== ""
+        ? String(sid).trim()
+        : undefined;
+
       await ctx.db.insert("questions", {
         testSetId,
+        sourceQuestionId: topLevelSourceId,
         type: q.type,
         questionText: q.questionText,
         options: q.options,

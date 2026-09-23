@@ -1,15 +1,31 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { requireUser } from "./lib/permissions";
+import {
+  calculateQuestionScore,
+  DEFAULT_MARKS_PER_QUESTION,
+  NEGATIVE_PENALTY_RATIO,
+} from "./lib/scoring";
 
-// RPSC Exam Standard: 2 marks per question, 1/3 (0.33) negative marking per incorrect answer.
-export const MARKS_PER_QUESTION = 2.0;
-export const DEFAULT_NEGATIVE_MARK_VALUE = 0.33;
+// Canonical RPSC Exam Standard: 2 marks per question, 1/3 negative marking per incorrect answer.
+export const MARKS_PER_QUESTION = DEFAULT_MARKS_PER_QUESTION;
+export const DEFAULT_NEGATIVE_MARK_VALUE = MARKS_PER_QUESTION * NEGATIVE_PENALTY_RATIO; // 2/3 ≈ 0.6667
 
 export const start = mutation({
   args: { testSetId: v.id("testSets") },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
+
+    const testSet = await ctx.db.get(args.testSetId);
+    const questions = await ctx.db
+      .query("questions")
+      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
+      .collect();
+
+    // Configured duration or default 1 minute per question (minimum 10 minutes)
+    const durationMinutes =
+      testSet?.durationMinutes ?? (questions.length > 0 ? Math.max(10, questions.length) : 15);
+    const totalDurationSeconds = durationMinutes * 60;
 
     // Resume an in-progress attempt for this test set if one exists,
     // rather than creating duplicates.
@@ -21,23 +37,34 @@ export const start = mutation({
       .filter((q) => q.eq(q.field("status"), "in_progress"))
       .unique();
 
-    if (inProgress) return inProgress._id;
+    if (inProgress) {
+      if (!inProgress.totalDurationSeconds) {
+        await ctx.db.patch(inProgress._id, {
+          totalDurationSeconds,
+          elapsedSeconds: inProgress.elapsedSeconds ?? 0,
+          isPaused: inProgress.isPaused ?? false,
+          lastResumedAt: inProgress.lastResumedAt ?? inProgress.startedAt,
+        });
+      }
+      return inProgress._id;
+    }
 
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
-      .collect();
-
+    const now = Date.now();
     return await ctx.db.insert("attempts", {
       userId: user._id,
       testSetId: args.testSetId,
-      startedAt: Date.now(),
+      startedAt: now,
       answers: [],
       totalQuestions: questions.length,
       status: "in_progress",
+      totalDurationSeconds,
+      elapsedSeconds: 0,
+      isPaused: false,
+      lastResumedAt: now,
     });
   },
 });
+
 
 /** Debounced from the client on every answer selection — see useQuizSession. */
 export const saveAnswer = mutation({
@@ -143,23 +170,89 @@ export const submit = mutation({
       }
     }
 
-    // Scoring calculation:
-    // Total = (Correct * 2) - (Wrong * Negative Marking Fee)
-    const marksPerQ = MARKS_PER_QUESTION;
-    const negativePerQ = testSet?.negativeMarking !== false ? DEFAULT_NEGATIVE_MARK_VALUE : 0;
-    const rawScore = (correctCount * marksPerQ) - (wrongCount * negativePerQ);
-    const score = Number(Math.max(0, rawScore).toFixed(2));
+    // Authoritative Canonical Scoring calculation (1/3 negative penalty):
+    const scoring = calculateQuestionScore({
+      correctCount,
+      wrongCount,
+      totalQuestions: questions.length,
+      marksPerQuestion: MARKS_PER_QUESTION,
+      negativeMarkingEnabled: testSet?.negativeMarking !== false,
+    });
+
+    const now = Date.now();
+    let finalElapsed = attempt.elapsedSeconds ?? 0;
+    if (!attempt.isPaused) {
+      finalElapsed += Math.max(0, Math.floor((now - (attempt.lastResumedAt ?? attempt.startedAt)) / 1000));
+    }
+    if (attempt.totalDurationSeconds) {
+      finalElapsed = Math.min(attempt.totalDurationSeconds, finalElapsed);
+    }
 
     await ctx.db.patch(args.attemptId, {
       answers: scoredAnswers,
-      score,
-      submittedAt: Date.now(),
+      score: scoring.score,
+      submittedAt: now,
       status: "submitted",
+      isPaused: false,
+      elapsedSeconds: finalElapsed,
     });
 
-    return { score, correctCount, wrongCount, total: questions.length };
+    return {
+      score: scoring.score,
+      rawScore: scoring.rawScore,
+      correctCount,
+      wrongCount,
+      total: questions.length,
+      penaltyMarks: scoring.penaltyMarks,
+      penaltyPerWrong: scoring.penaltyPerWrong,
+    };
   },
 });
+
+export const pause = mutation({
+  args: { attemptId: v.id("attempts") },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+    const attempt = await ctx.db.get(args.attemptId);
+    if (!attempt || attempt.userId !== user._id) throw new Error("Attempt not found");
+    if (attempt.status !== "in_progress") return { success: false, message: "Attempt already submitted" };
+    if (attempt.isPaused) return { success: true, isPaused: true, elapsedSeconds: attempt.elapsedSeconds ?? 0 };
+
+    const now = Date.now();
+    const activeSegment = Math.max(0, Math.floor((now - (attempt.lastResumedAt ?? attempt.startedAt)) / 1000));
+    const totalElapsed = (attempt.elapsedSeconds ?? 0) + activeSegment;
+    const totalDuration = attempt.totalDurationSeconds ?? 900;
+    const clampedElapsed = Math.min(totalDuration, totalElapsed);
+
+    await ctx.db.patch(args.attemptId, {
+      isPaused: true,
+      pausedAt: now,
+      elapsedSeconds: clampedElapsed,
+    });
+
+    return { success: true, isPaused: true, elapsedSeconds: clampedElapsed };
+  },
+});
+
+export const resume = mutation({
+  args: { attemptId: v.id("attempts") },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+    const attempt = await ctx.db.get(args.attemptId);
+    if (!attempt || attempt.userId !== user._id) throw new Error("Attempt not found");
+    if (attempt.status !== "in_progress") return { success: false, message: "Attempt already submitted" };
+    if (!attempt.isPaused) return { success: true, isPaused: false };
+
+    const now = Date.now();
+    await ctx.db.patch(args.attemptId, {
+      isPaused: false,
+      lastResumedAt: now,
+    });
+
+    return { success: true, isPaused: false };
+  },
+});
+
 
 export const getWithQuestions = query({
   args: { attemptId: v.id("attempts") },
