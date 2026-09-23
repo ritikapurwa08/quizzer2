@@ -12,15 +12,6 @@ function normalizeForDuplicateCheck(text: string): string {
     .trim();
 }
 
-function tokenSimilarity(a: string, b: string): number {
-  const aTokens = new Set(normalizeForDuplicateCheck(a).split(" ").filter(Boolean));
-  const bTokens = new Set(normalizeForDuplicateCheck(b).split(" ").filter(Boolean));
-  if (!aTokens.size || !bTokens.size) return 0;
-  let intersection = 0;
-  for (const token of aTokens) if (bTokens.has(token)) intersection++;
-  return (2 * intersection) / (aTokens.size + bTokens.size);
-}
-
 export const listByTestSet = query({
   args: { testSetId: v.id("testSets") },
   handler: async (ctx, args) => {

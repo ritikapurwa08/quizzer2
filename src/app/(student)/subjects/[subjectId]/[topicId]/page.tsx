@@ -50,14 +50,15 @@ export default function TopicDetailPage() {
   const topicTitle = getTopicDisplayName(topic) || "टॉपिक";
 
   // Parse structured JSON content safely
+  const noteContent = note?.content;
   const parsedContent: NoteDocument | null = useMemo(() => {
-    if (!note?.content) return null;
+    if (!noteContent) return null;
     try {
-      return JSON.parse(note.content);
+      return JSON.parse(noteContent);
     } catch {
       return null;
     }
-  }, [note?.content]);
+  }, [noteContent]);
 
   // Derived note availability flags
   const hasNotes = Boolean(parsedContent && parsedContent.blocks && parsedContent.blocks.length > 0);
@@ -74,8 +75,6 @@ export default function TopicDetailPage() {
     );
   }, [parsedContent]);
   const hasFacts = factsBlocks.length > 0;
-
-  const hasAnyNote = hasNotes || hasPdf || hasImages || hasFacts;
 
   const pdfPath =
     note?.pdfPath ||
@@ -129,46 +128,38 @@ export default function TopicDetailPage() {
           label="Quiz"
           badge={totalSets > 0 ? String(totalSets) : undefined}
         />
-        {/* Notes tab — always shown if note exists (even loading) */}
-        {(note !== undefined) && (
-          <TabButton
-            active={activeTab === "notes"}
-            onClick={() => setActiveTab("notes")}
-            icon={<BookOpen className="h-3.5 w-3.5" />}
-            label="Notes"
-            dot={hasNotes}
-          />
-        )}
-        {/* Images tab */}
-        {hasImages && (
-          <TabButton
-            active={activeTab === "images"}
-            onClick={() => setActiveTab("images")}
-            icon={<ImageIcon className="h-3.5 w-3.5" />}
-            label="Images"
-            badge={String(images.length)}
-          />
-        )}
+        {/* Notes tab */}
+        <TabButton
+          active={activeTab === "notes"}
+          onClick={() => setActiveTab("notes")}
+          icon={<BookOpen className="h-3.5 w-3.5" />}
+          label="Notes"
+          dot={hasNotes || hasPdf}
+        />
         {/* PDF tab */}
-        {hasPdf && (
-          <TabButton
-            active={activeTab === "pdf"}
-            onClick={() => setActiveTab("pdf")}
-            icon={<FileText className="h-3.5 w-3.5" />}
-            label="PDF"
-            dot={true}
-          />
-        )}
+        <TabButton
+          active={activeTab === "pdf"}
+          onClick={() => setActiveTab("pdf")}
+          icon={<FileText className="h-3.5 w-3.5" />}
+          label="PDF"
+          dot={hasPdf}
+        />
+        {/* Images tab */}
+        <TabButton
+          active={activeTab === "images"}
+          onClick={() => setActiveTab("images")}
+          icon={<ImageIcon className="h-3.5 w-3.5" />}
+          label="Images"
+          badge={images.length > 0 ? String(images.length) : undefined}
+        />
         {/* Facts tab */}
-        {hasFacts && (
-          <TabButton
-            active={activeTab === "facts"}
-            onClick={() => setActiveTab("facts")}
-            icon={<Lightbulb className="h-3.5 w-3.5" />}
-            label="Facts"
-            dot={true}
-          />
-        )}
+        <TabButton
+          active={activeTab === "facts"}
+          onClick={() => setActiveTab("facts")}
+          icon={<Lightbulb className="h-3.5 w-3.5" />}
+          label="Facts"
+          badge={factsBlocks.length > 0 ? String(factsBlocks.length) : undefined}
+        />
       </div>
 
       {/* ── TAB: QUIZ ───────────────────────────────────────────────── */}
@@ -244,29 +235,52 @@ export default function TopicDetailPage() {
             </div>
           )}
 
-          {/* No note data yet */}
-          {note !== undefined && !hasNotes && (
+          {/* No JSON note yet, but PDF is available -> provide direct note viewing */}
+          {note !== undefined && !hasNotes && hasPdf && (
+            <div className="space-y-4">
+              <div className="flex items-center justify-between p-3.5 rounded-xl border border-primary/20 bg-primary/5 text-xs text-foreground font-hindi">
+                <div className="flex items-center gap-2">
+                  <FileText className="h-4 w-4 text-primary shrink-0" />
+                  <span>इस टॉपिक के हस्तलिखित / प्रिंटेड PDF नोट्स उपलब्ध हैं।</span>
+                </div>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => setActiveTab("pdf")}
+                  className="rounded-lg text-xs font-semibold h-7"
+                >
+                  पूर्ण स्क्रीन PDF व्यूअर
+                </Button>
+              </div>
+              <PdfViewer pdfPath={pdfPath} topicTitle={topicTitle} hasPdf={hasPdf} />
+            </div>
+          )}
+
+          {/* No notes and no PDF */}
+          {note !== undefined && !hasNotes && !hasPdf && (
             <EmptyState
               icon={BookOpen}
               title="विस्तृत अध्ययन सामग्री अभी उपलब्ध नहीं है"
               description="इस टॉपिक के लिए लिखित परीक्षा नोट्स तैयार किए जा रहे हैं।"
-              action={
-                hasPdf ? (
-                  <Button
-                    onClick={() => setActiveTab("pdf")}
-                    className="rounded-xl mt-3 font-semibold text-xs"
-                  >
-                    <FileText className="h-3.5 w-3.5 mr-1.5" />
-                    PDF नोट्स देखें
-                  </Button>
-                ) : undefined
-              }
             />
           )}
 
           {/* Structured JSON content */}
           {hasNotes && (
             <>
+              {hasPdf && (
+                <div className="flex items-center justify-between p-3 rounded-xl border border-border bg-muted/40 text-xs text-foreground font-hindi">
+                  <span>इस टॉपिक के संपूर्ण PDF नोट्स भी उपलब्ध हैं।</span>
+                  <Button
+                    size="sm"
+                    variant="ghost"
+                    onClick={() => setActiveTab("pdf")}
+                    className="text-xs font-semibold h-7 text-primary hover:text-primary"
+                  >
+                    PDF नोट्स देखें →
+                  </Button>
+                </div>
+              )}
               {parsedContent?.overview && (
                 <p className="text-sm text-muted-foreground font-hindi leading-relaxed border-l-2 border-primary/40 pl-3">
                   {parsedContent.overview}
@@ -284,29 +298,39 @@ export default function TopicDetailPage() {
 
       {/* ── TAB: IMAGES ─────────────────────────────────────────────── */}
       {activeTab === "images" && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {images.map((img) => (
-            <Card
-              key={img.id}
-              className="overflow-hidden rounded-2xl border border-border bg-card p-3 space-y-2"
-            >
-              <div className="overflow-hidden rounded-xl bg-muted/40 flex items-center justify-center min-h-[220px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-auto object-contain max-h-[350px]"
-                  loading="lazy"
-                />
-              </div>
-              {(img.title || img.caption) && (
-                <div className="text-xs font-hindi space-y-0.5 px-1">
-                  {img.title && <p className="font-bold text-foreground">{img.title}</p>}
-                  {img.caption && <p className="text-muted-foreground">{img.caption}</p>}
-                </div>
-              )}
-            </Card>
-          ))}
+        <div>
+          {images.length === 0 ? (
+            <EmptyState
+              icon={ImageIcon}
+              title="कोई चित्र या रेखाचित्र उपलब्ध नहीं है"
+              description="इस टॉपिक के लिए इन्फोग्राफिक्स एवं मानचित्र जल्द ही जोड़े जाएंगे।"
+            />
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {images.map((img) => (
+                <Card
+                  key={img.id}
+                  className="overflow-hidden rounded-2xl border border-border bg-card p-3 space-y-2"
+                >
+                  <div className="overflow-hidden rounded-xl bg-muted/40 flex items-center justify-center min-h-[220px]">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="w-full h-auto object-contain max-h-[350px]"
+                      loading="lazy"
+                    />
+                  </div>
+                  {(img.title || img.caption) && (
+                    <div className="text-xs font-hindi space-y-0.5 px-1">
+                      {img.title && <p className="font-bold text-foreground">{img.title}</p>}
+                      {img.caption && <p className="text-muted-foreground">{img.caption}</p>}
+                    </div>
+                  )}
+                </Card>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
