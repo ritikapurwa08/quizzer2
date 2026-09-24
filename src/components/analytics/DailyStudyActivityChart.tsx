@@ -107,16 +107,46 @@ export function DailyStudyActivityChart({
     };
   }, [data]);
 
+  const dateRangeText = useMemo(() => {
+    if (!data || data.length === 0) return `Last ${rangeDays} Days`;
+    const start = formatDisplayDate(data[0].day);
+    const end = formatDisplayDate(data[data.length - 1].day);
+    return `Last ${rangeDays} Days (${start} – ${end})`;
+  }, [data, rangeDays]);
+
+  // Ensure full 24-hour data structure from 12 AM (0) to 11 PM (23)
+  const fullHourlyData = useMemo(() => {
+    if (hourlyData && hourlyData.length === 24) return hourlyData;
+    return Array.from({ length: 24 }, (_, h) => {
+      let label = "12 AM";
+      if (h === 0) label = "12 AM";
+      else if (h < 12) label = `${h} AM`;
+      else if (h === 12) label = "12 PM";
+      else label = `${h - 12} PM`;
+      const existing = hourlyData?.find((item) => item.hour === h);
+      return (
+        existing ?? {
+          hour: h,
+          hourLabel: label,
+          correct: 0,
+          incorrect: 0,
+          total: 0,
+          tests: 0,
+        }
+      );
+    });
+  }, [hourlyData]);
+
   // Hourly insights
   const { peakHourLabel, bestHourAccuracy } = useMemo(() => {
-    if (!hourlyData || hourlyData.length === 0) return { peakHourLabel: "—", bestHourAccuracy: "—" };
+    if (!fullHourlyData || fullHourlyData.length === 0) return { peakHourLabel: "—", bestHourAccuracy: "—" };
 
     let maxTotal = 0;
     let peak = "—";
     let bestAcc = 0;
     let bestAccHour = "—";
 
-    for (const h of hourlyData) {
+    for (const h of fullHourlyData) {
       if (h.total > maxTotal) {
         maxTotal = h.total;
         peak = h.hourLabel;
@@ -131,7 +161,7 @@ export function DailyStudyActivityChart({
     }
 
     return { peakHourLabel: peak, bestHourAccuracy: bestAccHour };
-  }, [hourlyData]);
+  }, [fullHourlyData]);
 
   const hasActivity = totalQuestions > 0 || totalTests > 0;
   const xAxisInterval = rangeDays <= 7 ? 0 : rangeDays <= 15 ? 1 : 4;
@@ -147,8 +177,8 @@ export function DailyStudyActivityChart({
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
               {viewMode === "daily"
-                ? `Questions solved and tests taken over the last ${rangeDays} days`
-                : `Hourly breakdown of correct vs incorrect answers in selected period`}
+                ? `${dateRangeText} • Questions solved and tests taken`
+                : `${dateRangeText} • 24-Hour activity distribution (12 AM – 11 PM)`}
             </CardDescription>
           </div>
 
@@ -292,14 +322,21 @@ export function DailyStudyActivityChart({
               config={hourlyChartConfig}
               className="aspect-auto h-[220px] sm:h-[260px] w-full"
             >
-              <BarChart data={hourlyData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+              <BarChart data={fullHourlyData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} className="stroke-border/50" />
                 <XAxis
                   dataKey="hourLabel"
                   tickLine={false}
                   axisLine={false}
                   tickMargin={8}
-                  interval={2}
+                  interval={0}
+                  tickFormatter={(val, idx) => {
+                    // Show 7 evenly distributed milestones spanning the full 24 hours (12 AM to 11 PM)
+                    if (idx === 0 || idx === 4 || idx === 8 || idx === 12 || idx === 16 || idx === 20 || idx === 23) {
+                      return val;
+                    }
+                    return "";
+                  }}
                   tick={{ fontSize: 10, fill: "var(--muted-foreground)" }}
                 />
                 <YAxis

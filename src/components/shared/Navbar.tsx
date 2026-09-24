@@ -10,7 +10,6 @@ import {
   Bookmark,
   GraduationCap,
   History,
-  LayoutDashboard,
   LogOut,
   User,
   ChevronDown,
@@ -34,7 +33,6 @@ import { isUserAdmin } from "@/lib/constants";
 
 export function Navbar() {
   const me = useQuery(api.users.me);
-  const subjects = useQuery(api.subjects.list) ?? [];
   const { signOut } = useAuthActions();
   const router = useRouter();
   const pathname = usePathname();
@@ -42,18 +40,13 @@ export function Navbar() {
 
   const [profileOpen, setProfileOpen] = useState(false);
   const [adminMenuOpen, setAdminMenuOpen] = useState(false);
-  const [notesMenuOpen, setNotesMenuOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
-  const notesRef = useRef<HTMLDivElement>(null);
 
   // Close profile dropdown on outside click
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (profileRef.current && !profileRef.current.contains(e.target as Node)) {
         setProfileOpen(false);
-      }
-      if (notesRef.current && !notesRef.current.contains(e.target as Node)) {
-        setNotesMenuOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -82,81 +75,6 @@ export function Navbar() {
               Quizzer
             </span>
           </Link>
-
-          {/* ── Center Desktop Nav Links ── */}
-          <nav className="hidden md:flex items-center gap-1 text-xs font-semibold">
-            <Link
-              href="/dashboard"
-              className={cn(
-                "px-3 py-1.5 rounded-xl transition-colors",
-                pathname === "/dashboard"
-                  ? "bg-muted text-foreground font-bold"
-                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-              )}
-            >
-              Dashboard
-            </Link>
-            <Link
-              href="/subjects"
-              className={cn(
-                "px-3 py-1.5 rounded-xl transition-colors font-hindi",
-                pathname.startsWith("/subjects")
-                  ? "bg-muted text-foreground font-bold"
-                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-              )}
-            >
-              अभ्यास (Practice)
-            </Link>
-
-            {/* Notes Menu Dropdown */}
-            <div ref={notesRef} className="relative">
-              <button
-                type="button"
-                onClick={() => setNotesMenuOpen((prev) => !prev)}
-                className={cn(
-                  "flex items-center gap-1 px-3 py-1.5 rounded-xl transition-colors font-hindi cursor-pointer select-none",
-                  pathname.startsWith("/notes")
-                    ? "bg-muted text-foreground font-bold"
-                    : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                )}
-              >
-                <span>नोट्स (Study Notes)</span>
-                <ChevronDown
-                  className={cn(
-                    "h-3.5 w-3.5 text-muted-foreground transition-transform",
-                    notesMenuOpen && "rotate-180"
-                  )}
-                />
-              </button>
-
-              {notesMenuOpen && (
-                <div className="absolute left-0 top-full mt-2 w-64 rounded-2xl border border-border bg-popover p-1.5 text-popover-foreground shadow-2xl z-50 animate-in fade-in-0 zoom-in-95 duration-100">
-                  <Link
-                    href="/notes"
-                    onClick={() => setNotesMenuOpen(false)}
-                    className="flex items-center gap-2 px-3 py-2 text-xs font-bold rounded-xl text-primary hover:bg-primary/10 transition-colors font-hindi"
-                  >
-                    <BookOpen className="h-4 w-4" />
-                    <span>सभी नोट्स (All Study Notes)</span>
-                  </Link>
-                  <div className="my-1 border-t border-border/60" />
-                  <div className="space-y-0.5">
-                    {subjects.map((sub) => (
-                      <Link
-                        key={sub._id}
-                        href={`/notes/${sub.slug}`}
-                        onClick={() => setNotesMenuOpen(false)}
-                        className="flex items-center gap-2 px-3 py-1.5 text-xs text-foreground/90 hover:bg-muted/60 hover:text-foreground rounded-lg transition-colors font-hindi truncate"
-                      >
-                        <span className="h-1.5 w-1.5 rounded-full bg-primary/70 shrink-0" />
-                        <span className="truncate">{sub.nameHindi || sub.name}</span>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </nav>
         </div>
 
         {/* ── Right side: Profile Menu with Integrated Theme Switcher ── */}
@@ -359,33 +277,6 @@ export function Navbar() {
 
                   {/* 3. Main Navigation Links (English) */}
                   <div className="p-1.5 space-y-0.5">
-                    <Link
-                      href="/notes"
-                      onClick={() => setProfileOpen(false)}
-                      className={cn(
-                        "flex items-center gap-2.5 px-3 py-2 text-xs font-medium rounded-lg transition-colors font-hindi",
-                        pathname.startsWith("/notes")
-                          ? "bg-muted text-foreground font-semibold"
-                          : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                      )}
-                    >
-                      <BookOpen className="h-4 w-4" />
-                      Study Notes & PDFs
-                    </Link>
-
-                    <Link
-                      href="/dashboard"
-                      onClick={() => setProfileOpen(false)}
-                      className={cn(
-                        "flex items-center gap-2.5 px-3 py-2 text-xs font-medium rounded-lg transition-colors",
-                        pathname === "/dashboard"
-                          ? "bg-muted text-foreground font-semibold"
-                          : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                      )}
-                    >
-                      <LayoutDashboard className="h-4 w-4" />
-                      Dashboard
-                    </Link>
 
 
                     <Link

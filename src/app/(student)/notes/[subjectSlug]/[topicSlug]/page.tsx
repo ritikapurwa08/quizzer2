@@ -63,8 +63,8 @@ export default function TopicStudyPage() {
     }
   }, [rawContent]);
 
-  const subjectTitle = getSubjectDisplayName(subject) || "विषय";
-  const topicTitle = getTopicDisplayName(topic) || "टॉपिक";
+  const subjectTitle = getSubjectDisplayName(subject) || "Subject";
+  const topicTitle = getTopicDisplayName(topic) || "Topic";
 
   const hasPdf = Boolean(note?.hasPdf || note?.pdfPath);
   const hasContent = Boolean(parsedContent && parsedContent.blocks && parsedContent.blocks.length > 0);
@@ -93,11 +93,11 @@ export default function TopicStudyPage() {
     return (
       <EmptyState
         icon={BookOpen}
-        title="टॉपिक नहीं मिला"
-        description="अनुरोधित टॉपिक या विषय उपलब्ध नहीं है।"
+        title="Topic Not Found"
+        description="The requested topic or subject is not available."
         action={
-          <Button asChild className="rounded-xl mt-3">
-            <Link href="/notes">नोट्स होम पर लौटें</Link>
+          <Button asChild className="rounded-xl mt-3 cursor-pointer">
+            <Link href="/notes">Back to Notes Home</Link>
           </Button>
         }
       />
@@ -109,8 +109,8 @@ export default function TopicStudyPage() {
       {/* ── Breadcrumb Navigation ── */}
       <BreadcrumbNav
         items={[
-          { label: "डैशबोर्ड", href: "/dashboard" },
-          { label: "नोट्स", href: "/notes" },
+          { label: "Dashboard", href: "/dashboard" },
+          { label: "Study Notes", href: "/notes" },
           { label: subjectTitle, href: `/notes/${subjectSlug}` },
           { label: topicTitle },
         ]}
@@ -125,7 +125,7 @@ export default function TopicStudyPage() {
             </h1>
             {hasPdf && (
               <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20">
-                <FileText className="h-3 w-3" /> PDF नोट्स उपलब्ध
+                <FileText className="h-3 w-3" /> PDF Notes Available
               </span>
             )}
           </div>
@@ -143,13 +143,13 @@ export default function TopicStudyPage() {
 
         {/* Quick Practice button in header */}
         {hasPractice && (
-          <Button asChild className="rounded-xl font-bold text-xs h-9 px-4 shrink-0 shadow-xs">
+          <Button asChild className="rounded-xl font-bold text-xs h-9 px-4 shrink-0 shadow-xs cursor-pointer">
             <Link
               href={`/subjects/${subject._id}/${topic._id}`}
               className="inline-flex items-center gap-1.5"
             >
               <Play className="h-3.5 w-3.5 fill-current" />
-              <span>अभ्यास सेट ({testSets?.length})</span>
+              <span>Practice Sets ({testSets?.length})</span>
             </Link>
           </Button>
         )}
@@ -168,7 +168,7 @@ export default function TopicStudyPage() {
           )}
         >
           <Sparkles className="h-4 w-4" />
-          <span>अध्ययन सामग्री (Study Notes)</span>
+          <span>Study Notes</span>
           {hasContent && <span className="h-1.5 w-1.5 rounded-full bg-current" />}
         </button>
 
@@ -183,7 +183,7 @@ export default function TopicStudyPage() {
           )}
         >
           <FileText className="h-4 w-4" />
-          <span>PDF नोट्स</span>
+          <span>PDF Notes</span>
           {hasPdf && (
             <span className="text-[10px] px-1.5 py-0.2 rounded bg-background/20 font-bold">
               PDF
@@ -203,7 +203,7 @@ export default function TopicStudyPage() {
             )}
           >
             <ImageIcon className="h-4 w-4" />
-            <span>मानचित्र एवं चित्र ({images.length})</span>
+            <span>Maps & Images ({images.length})</span>
           </button>
         )}
 
@@ -219,7 +219,7 @@ export default function TopicStudyPage() {
             )}
           >
             <Play className="h-4 w-4" />
-            <span>अभ्यास प्रश्न ({testSets?.length})</span>
+            <span>Practice Questions ({testSets?.length})</span>
           </button>
         )}
       </div>
@@ -234,16 +234,16 @@ export default function TopicStudyPage() {
               {!hasContent ? (
                 <EmptyState
                   icon={BookOpen}
-                  title="विस्तृत अध्ययन सामग्री अभी उपलब्ध नहीं है"
-                  description="इस टॉपिक के लिए लिखित परीक्षा नोट्स तैयार किए जा रहे हैं। कृपया उपलब्ध PDF नोट्स देखें या अभ्यास प्रश्न हल करें।"
+                  title="Study notes not available yet"
+                  description="Written examination notes for this topic are being prepared. Please check the PDF notes or solve practice test sets."
                   action={
                     hasPdf ? (
                       <Button
                         onClick={() => setActiveTab("pdf")}
-                        className="rounded-xl mt-3 font-semibold text-xs"
+                        className="rounded-xl mt-3 font-semibold text-xs cursor-pointer"
                       >
                         <FileText className="h-3.5 w-3.5 mr-1.5" />
-                        PDF नोट्स देखें
+                        View PDF Notes
                       </Button>
                     ) : undefined
                   }
@@ -283,9 +283,9 @@ export default function TopicStudyPage() {
                       />
                     </div>
                     {(img.title || img.caption) && (
-                      <div className="text-xs font-hindi space-y-0.5 px-1">
-                        {img.title && <p className="font-bold text-foreground">{img.title}</p>}
-                        {img.caption && <p className="text-muted-foreground">{img.caption}</p>}
+                      <div className="text-xs space-y-0.5 px-1">
+                        {img.title && <p className="font-bold text-foreground font-hindi">{img.title}</p>}
+                        {img.caption && <p className="text-muted-foreground font-hindi">{img.caption}</p>}
                       </div>
                     )}
                   </Card>
@@ -298,16 +298,16 @@ export default function TopicStudyPage() {
           {activeTab === "practice" && (
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <h3 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-                  उपलब्ध अभ्यास सेट ({testSets?.length ?? 0})
+                <h3 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+                  Available Practice Sets ({testSets?.length ?? 0})
                 </h3>
               </div>
 
               {!hasPractice ? (
                 <EmptyState
                   icon={Play}
-                  title="अभी कोई अभ्यास सेट उपलब्ध नहीं है"
-                  description="इस टॉपिक के अभ्यास सेट जल्द ही अपलोड किए जाएंगे।"
+                  title="No test sets available yet"
+                  description="Practice test sets for this topic will be uploaded soon."
                 />
               ) : (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -323,7 +323,7 @@ export default function TopicStudyPage() {
                               {set.name}
                             </h4>
                             <p className="text-[11px] text-muted-foreground">
-                              {set.questionCount} प्रश्न · RPSC परीक्षा पैटर्न
+                              {set.questionCount} Questions · RPSC Pattern
                             </p>
                           </div>
                         </div>
@@ -342,9 +342,9 @@ export default function TopicStudyPage() {
           <aside className="hidden lg:block w-72 shrink-0 space-y-3">
             <div className="rounded-2xl border border-border bg-card p-3.5 space-y-2 sticky top-20 max-h-[calc(100vh-6rem)] flex flex-col">
               <div className="flex items-center justify-between pb-2 border-b border-border/60 shrink-0">
-                <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi flex items-center gap-1.5">
+                <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
                   <ListOrdered className="h-3.5 w-3.5 text-primary" />
-                  विषय के अन्य टॉपिक
+                  Other Topics in Subject
                 </span>
                 <span className="text-xs font-bold text-muted-foreground tabular-nums">
                   {siblingTopics.length}

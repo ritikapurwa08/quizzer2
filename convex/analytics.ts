@@ -178,7 +178,7 @@ export const dashboardStats = query({
 
     for (let i = rangeDays - 1; i >= 0; i--) {
       const d = new Date(today);
-      d.setDate(today.getDate() - i);
+      d.setUTCDate(today.getUTCDate() - i);
       const day = d.toISOString().slice(0, 10);
       const entry = dailyMap.get(day) ?? { count: 0, tests: 0 };
       const bySubjectRaw = dailyBySubject.get(day) ?? new Map<string, number>();
@@ -197,31 +197,71 @@ export const dashboardStats = query({
       });
     }
 
-    // ── Subject Accuracy list ──────────────────────────────────────────────
-    const subjectAccuracy = Array.from(subjectStats.values()).map((s) => ({
-      id: s.id,
-      name: s.name,
-      nameHindi: s.nameHindi,
-      accuracy: s.total > 0 ? Math.round((s.correct / s.total) * 100) : 0,
-      correct: s.correct,
-      total: s.total,
-    }));
+    // ── All Subjects & Pool counts ─────────────────────────────────────────
+    const allSubjects = await ctx.db.query("subjects").collect();
+    allSubjects.sort((a, b) => a.order - b.order);
+
+    const allTopics = await ctx.db.query("topics").collect();
+    const topicToSubject = new Map<string, string>();
+    for (const t of allTopics) {
+      topicToSubject.set(t._id as string, t.subjectId as string);
+    }
+
+    const allTestSets = await ctx.db.query("testSets").collect();
+    const subjectAvailableQuestions = new Map<string, number>();
+    for (const ts of allTestSets) {
+      const subId = topicToSubject.get(ts.topicId as string);
+      if (subId) {
+        subjectAvailableQuestions.set(
+          subId,
+          (subjectAvailableQuestions.get(subId) ?? 0) + (ts.questionCount ?? 0)
+        );
+      }
+    }
+
+    // ── Ranked Subject Accuracy list with Attempted & Remaining counts ─────
+    const subjectAccuracy = allSubjects
+      .map((s) => {
+        const ss = subjectStats.get(s._id);
+        const attempted = ss?.total ?? 0;
+        const correct = ss?.correct ?? 0;
+        const available = subjectAvailableQuestions.get(s._id) ?? 0;
+        const remaining = Math.max(0, available - attempted);
+        const accuracy = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+
+        return {
+          id: s._id,
+          name: s.name,
+          nameHindi: s.nameHindi || s.name,
+          accuracy,
+          correct,
+          attempted,
+          total: attempted,
+          totalAvailable: available,
+          remaining,
+        };
+      })
+      .sort((a, b) => {
+        if (b.accuracy !== a.accuracy) return b.accuracy - a.accuracy;
+        if (b.attempted !== a.attempted) return b.attempted - a.attempted;
+        return a.name.localeCompare(b.name);
+      });
 
     // Weakest subjects (lowest accuracy first)
     const weakSubjects = [...subjectAccuracy]
-      .filter((s) => s.total > 0)
+      .filter((s) => s.attempted > 0)
       .sort((a, b) => a.accuracy - b.accuracy)
       .slice(0, 5);
 
     // Strongest subject (highest accuracy)
     const strongestSubject =
-      subjectAccuracy.filter((s) => s.total > 0).sort((a, b) => b.accuracy - a.accuracy)[0] ?? null;
+      subjectAccuracy.filter((s) => s.attempted > 0).sort((a, b) => b.accuracy - a.accuracy)[0] ?? null;
 
     // Weakest subject
     const weakestSubject =
-      subjectAccuracy.filter((s) => s.total > 0).sort((a, b) => a.accuracy - b.accuracy)[0] ?? null;
+      subjectAccuracy.filter((s) => s.attempted > 0).sort((a, b) => a.accuracy - b.accuracy)[0] ?? null;
 
-    // ── Hourly Activity breakdown for the selected range ─────────────────
+    // ── Hourly Activity breakdown for the selected range (0 to 23 hours) ──
     const hourlyMap = Array.from({ length: 24 }, (_, h) => {
       let label = "12 AM";
       if (h === 0) label = "12 AM";
@@ -242,7 +282,7 @@ export const dashboardStats = query({
       if (!attempt.submittedAt) continue;
       const attemptLocalMs = attempt.submittedAt - tzOffsetMs;
       const daysDiff = (nowLocalMs - attemptLocalMs) / (1000 * 60 * 60 * 24);
-      if (daysDiff > rangeDays || daysDiff < 0) continue;
+      if (daysDiff > rangeDays || daysDiff < -0.1) continue;
 
       const localDate = new Date(attemptLocalMs);
       const hour = localDate.getUTCHours();
@@ -262,9 +302,6 @@ export const dashboardStats = query({
     }
 
     // ── All Subjects Diagnostic Breakdown ──────────────────────────────────
-    const allSubjects = await ctx.db.query("subjects").collect();
-    allSubjects.sort((a, b) => a.order - b.order);
-
     const subjectBreakdown = allSubjects.map((s) => {
       const ss = subjectStats.get(s._id);
       const total = ss?.total ?? 0;

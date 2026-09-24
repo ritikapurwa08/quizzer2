@@ -1,25 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { Award, BarChart3, Radar as RadarIcon, Trophy, AlertTriangle } from "lucide-react";
-import {
-  PolarAngleAxis,
-  PolarGrid,
-  Radar,
-  RadarChart,
-  Bar,
-  BarChart,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-} from "recharts";
+import { useMemo } from "react";
+import { Award, Layers } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import {
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-  type ChartConfig,
-} from "@/components/ui/chart";
 import { cn } from "@/lib/utils";
 
 export interface SubjectAccuracyItem {
@@ -29,6 +12,9 @@ export interface SubjectAccuracyItem {
   accuracy: number; // 0-100
   correct?: number;
   total?: number;
+  attempted?: number;
+  totalAvailable?: number;
+  remaining?: number;
 }
 
 interface SubjectAccuracyChartProps {
@@ -37,42 +23,22 @@ interface SubjectAccuracyChartProps {
   weakest?: { name: string; nameHindi?: string; accuracy: number } | null;
 }
 
-const chartConfig = {
-  accuracy: {
-    label: "Accuracy %",
-    color: "var(--chart-1)",
-  },
-} satisfies ChartConfig;
-
-export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccuracyChartProps) {
-  // Filter out subjects where the user hasn't attempted any questions
-  const validData = useMemo(() => {
-    return (data || [])
-      .filter((s) => (s.total ?? 1) > 0)
-      .map((s) => {
-        const displayName = s.nameHindi?.trim() || s.name;
-        // Truncate very long subject titles for radar points
-        const shortName =
-          displayName.length > 18 ? displayName.slice(0, 16) + "…" : displayName;
-        return {
-          ...s,
-          displayName,
-          shortName,
-        };
-      });
+export function SubjectAccuracyChart({ data }: SubjectAccuracyChartProps) {
+  // Sort subjects by accuracy descending, then by attempted count
+  const sortedSubjects = useMemo(() => {
+    return [...(data || [])].sort((a, b) => {
+      const aAttempted = a.attempted ?? a.total ?? 0;
+      const bAttempted = b.attempted ?? b.total ?? 0;
+      if (aAttempted > 0 && bAttempted === 0) return -1;
+      if (bAttempted > 0 && aAttempted === 0) return 1;
+      if (b.accuracy !== a.accuracy) return b.accuracy - a.accuracy;
+      return bAttempted - aAttempted;
+    });
   }, [data]);
 
-  const hasEnoughForRadar = validData.length >= 3;
-  // Default to radar if >= 3 subjects, otherwise bar chart
-  const [viewMode, setViewMode] = useState<"radar" | "bar">(
-    hasEnoughForRadar ? "radar" : "bar"
-  );
-
-  const averageAccuracy = useMemo(() => {
-    if (validData.length === 0) return 0;
-    const sum = validData.reduce((acc, curr) => acc + curr.accuracy, 0);
-    return Math.round(sum / validData.length);
-  }, [validData]);
+  const attemptedCount = sortedSubjects.filter(
+    (s) => (s.attempted ?? s.total ?? 0) > 0
+  ).length;
 
   return (
     <Card className="rounded-2xl border border-border/80 bg-card shadow-xs flex flex-col justify-between overflow-hidden">
@@ -81,198 +47,127 @@ export function SubjectAccuracyChart({ data, strongest, weakest }: SubjectAccura
           <div>
             <CardTitle className="text-sm sm:text-base font-semibold text-foreground flex items-center gap-2">
               <Award className="h-4 w-4 text-primary" />
-              Subject Accuracy
+              Subject Accuracy & Mastery
             </CardTitle>
             <CardDescription className="text-xs text-muted-foreground mt-0.5">
-              Accuracy across attempted subjects (Average: {averageAccuracy}%)
+              5 Canonical Rajasthan subjects ranked by accuracy (highest to lowest)
             </CardDescription>
           </div>
 
-          {validData.length > 0 && (
-            <div className="flex items-center gap-1 bg-muted/60 p-0.5 rounded-lg border border-border/60">
-              {hasEnoughForRadar && (
-                <button
-                  type="button"
-                  onClick={() => setViewMode("radar")}
-                  className={cn(
-                    "p-1 rounded-md transition-colors cursor-pointer",
-                    viewMode === "radar"
-                      ? "bg-background text-foreground shadow-xs"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="Radar View"
-                  aria-label="Radar View"
-                >
-                  <RadarIcon className="h-3.5 w-3.5" />
-                </button>
-              )}
-              <button
-                type="button"
-                onClick={() => setViewMode("bar")}
-                className={cn(
-                  "p-1 rounded-md transition-colors cursor-pointer",
-                  viewMode === "bar"
-                    ? "bg-background text-foreground shadow-xs"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-                title="Bar View"
-                aria-label="Bar View"
-              >
-                <BarChart3 className="h-3.5 w-3.5" />
-              </button>
-            </div>
-          )}
+          <div className="flex items-center gap-1.5 text-xs text-muted-foreground bg-muted/60 px-2 py-1 rounded-lg border border-border/60 shrink-0">
+            <Layers className="h-3.5 w-3.5 text-primary" />
+            <span>
+              <strong className="text-foreground font-semibold">{attemptedCount}</strong> of 5 Attempted
+            </span>
+          </div>
         </div>
       </CardHeader>
 
-      <CardContent className="p-4 sm:p-5 pt-0">
-        {validData.length === 0 ? (
+      <CardContent className="p-4 sm:p-5 pt-1">
+        {sortedSubjects.length === 0 ? (
           <div className="flex flex-col items-center justify-center gap-2.5 py-12 text-center">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-muted text-muted-foreground">
               <Award className="h-5 w-5" />
             </div>
             <p className="text-sm font-semibold text-foreground">
-              Not enough subject data yet
+              No subject data available
             </p>
             <p className="text-xs text-muted-foreground max-w-xs leading-relaxed">
-              Complete subject test sets to analyze your strengths, weaknesses, and mastery here.
+              Complete test sets in Rajasthan subjects to track your accuracy and question progress here.
             </p>
           </div>
         ) : (
-          <div className="space-y-4">
-            {viewMode === "radar" && hasEnoughForRadar ? (
-              <ChartContainer
-                config={chartConfig}
-                className="mx-auto aspect-auto h-[220px] sm:h-[250px] w-full"
-              >
-                <RadarChart data={validData} margin={{ top: 10, right: 20, bottom: 10, left: 20 }}>
-                  <ChartTooltip
-                    cursor={false}
-                    content={
-                      <ChartTooltipContent
-                        indicator="dot"
-                        labelFormatter={(_, payload) => payload?.[0]?.payload?.displayName}
-                        formatter={(val) => (
-                          <span className="font-mono font-bold text-foreground">{val}%</span>
-                        )}
-                      />
-                    }
-                  />
-                  <PolarGrid className="stroke-border/60" />
-                  <PolarAngleAxis
-                    dataKey="shortName"
-                    tick={({ x, y, textAnchor, payload }) => (
-                      <text
-                        x={x}
-                        y={y}
-                        textAnchor={textAnchor}
-                        className="fill-muted-foreground text-[10px] sm:text-[11px] font-hindi"
-                      >
-                        {payload.value}
-                      </text>
-                    )}
-                  />
-                  <Radar
-                    name="accuracy"
-                    dataKey="accuracy"
-                    fill="var(--chart-1)"
-                    fillOpacity={0.35}
-                    stroke="var(--chart-1)"
-                    strokeWidth={2}
-                  />
-                </RadarChart>
-              </ChartContainer>
-            ) : (
-              /* Horizontal bar chart fallback/alternative */
-              <ChartContainer
-                config={chartConfig}
-                className="aspect-auto h-[220px] sm:h-[250px] w-full"
-              >
-                <BarChart
-                  data={validData}
-                  layout="vertical"
-                  margin={{ top: 5, right: 30, left: 0, bottom: 5 }}
+          <div className="space-y-2.5">
+            {sortedSubjects.map((subject, index) => {
+              const accuracy = subject.accuracy;
+              const attempted = subject.attempted ?? subject.total ?? 0;
+              const remaining = subject.remaining ?? 0;
+              const totalAvailable = subject.totalAvailable ?? (attempted + remaining);
+              const isAttempted = attempted > 0;
+
+              // Color coding: green for high, amber for medium, red/muted for low
+              let barColor = "bg-primary";
+              let badgeColor = "text-muted-foreground bg-muted border-border/40";
+              if (isAttempted) {
+                if (accuracy >= 75) {
+                  barColor = "bg-emerald-500 dark:bg-emerald-400";
+                  badgeColor =
+                    "text-emerald-700 dark:text-emerald-300 bg-emerald-500/10 border-emerald-500/20";
+                } else if (accuracy >= 50) {
+                  barColor = "bg-amber-500 dark:bg-amber-400";
+                  badgeColor =
+                    "text-amber-700 dark:text-amber-300 bg-amber-500/10 border-amber-500/20";
+                } else {
+                  barColor = "bg-rose-500 dark:bg-rose-400";
+                  badgeColor =
+                    "text-rose-700 dark:text-rose-300 bg-rose-500/10 border-rose-500/20";
+                }
+              }
+
+              return (
+                <div
+                  key={subject.id || index}
+                  className="p-2.5 sm:p-3 rounded-xl bg-muted/25 border border-border/60 hover:bg-muted/40 transition-colors"
                 >
-                  <CartesianGrid strokeDasharray="3 3" horizontal={false} className="stroke-border/50" />
-                  <XAxis
-                    type="number"
-                    domain={[0, 100]}
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fontSize: 10, fill: "var(--muted-foreground)" }}
-                    unit="%"
-                  />
-                  <YAxis
-                    type="category"
-                    dataKey="displayName"
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fontSize: 10, fill: "var(--foreground)" }}
-                    width={110}
-                  />
-                  <ChartTooltip
-                    cursor={{ fill: "var(--muted)", opacity: 0.3 }}
-                    content={
-                      <ChartTooltipContent
-                        indicator="dot"
-                        formatter={(val) => (
-                          <span className="font-mono font-bold text-foreground">{val}%</span>
-                        )}
-                      />
-                    }
-                  />
-                  <Bar
-                    dataKey="accuracy"
-                    fill="var(--chart-1)"
-                    radius={[0, 6, 6, 0]}
-                    maxBarSize={20}
-                  />
-                </BarChart>
-              </ChartContainer>
-            )}
-
-            {/* Contextual insight chips */}
-            {(strongest || weakest) && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-border/70">
-                {strongest && (
-                  <div className="flex items-center gap-2.5 p-2 rounded-xl bg-success/5 border border-success/20">
-                    <div className="p-1 rounded-lg bg-success/15 text-success shrink-0">
-                      <Trophy className="h-3.5 w-3.5" />
-                    </div>
-                    <div className="min-w-0 flex-1 text-xs">
-                      <span className="text-[10px] uppercase font-bold text-success tracking-wide block">
-                        Strongest Subject
+                  {/* Top: Rank, Hindi Subject Name, Accuracy Badge */}
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-muted text-[11px] font-bold text-muted-foreground">
+                        #{index + 1}
                       </span>
-                      <p className="font-semibold text-foreground truncate font-hindi">
-                        {strongest.nameHindi || strongest.name}
-                      </p>
-                    </div>
-                    <span className="font-mono font-bold text-success text-xs shrink-0">
-                      {strongest.accuracy}%
-                    </span>
-                  </div>
-                )}
-
-                {weakest && (
-                  <div className="flex items-center gap-2.5 p-2 rounded-xl bg-warning/5 border border-warning/20">
-                    <div className="p-1 rounded-lg bg-warning/15 text-warning shrink-0">
-                      <AlertTriangle className="h-3.5 w-3.5" />
-                    </div>
-                    <div className="min-w-0 flex-1 text-xs">
-                      <span className="text-[10px] uppercase font-bold text-warning tracking-wide block">
-                        Needs Focus
+                      <span className="text-xs sm:text-sm font-semibold text-foreground truncate font-hindi">
+                        {subject.nameHindi || subject.name}
                       </span>
-                      <p className="font-semibold text-foreground truncate font-hindi">
-                        {weakest.nameHindi || weakest.name}
-                      </p>
                     </div>
-                    <span className="font-mono font-bold text-warning text-xs shrink-0">
-                      {weakest.accuracy}%
-                    </span>
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      {isAttempted ? (
+                        <span className={cn("px-2 py-0.5 rounded-md text-xs font-bold font-mono border", badgeColor)}>
+                          {accuracy}%
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded-md text-[11px] font-medium text-muted-foreground bg-muted/60 border border-border/40">
+                          Not Started
+                        </span>
+                      )}
+                    </div>
                   </div>
-                )}
-              </div>
-            )}
+
+                  {/* Middle: Progress bar */}
+                  <div className="mt-2 h-2 w-full rounded-full bg-muted/80 overflow-hidden">
+                    <div
+                      className={cn("h-full rounded-full transition-all duration-500", barColor)}
+                      style={{ width: `${isAttempted ? Math.max(3, accuracy) : 0}%` }}
+                    />
+                  </div>
+
+                  {/* Bottom: Questions Attempted vs Remaining */}
+                  <div className="mt-1.5 flex items-center justify-between text-[11px] text-muted-foreground">
+                    <div className="flex items-center gap-3">
+                      <span>
+                        Attempted:{" "}
+                        <strong className="font-mono text-foreground font-semibold">
+                          {attempted}
+                        </strong>
+                      </span>
+                      <span className="text-border">•</span>
+                      <span>
+                        Remaining:{" "}
+                        <strong className="font-mono text-foreground font-semibold">
+                          {remaining}
+                        </strong>
+                      </span>
+                    </div>
+
+                    {totalAvailable > 0 && (
+                      <span className="text-muted-foreground/70 text-[10px]">
+                        Pool: {totalAvailable} Qs
+                      </span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
       </CardContent>

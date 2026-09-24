@@ -46,15 +46,15 @@ export default function SubjectNotesDirectoryPage() {
     );
   });
 
-  const subjectTitle = getSubjectDisplayName(subject) || "विषय";
+  const subjectTitle = getSubjectDisplayName(subject) || "Subject";
 
   return (
     <div className="space-y-6 max-w-5xl mx-auto">
       {/* Breadcrumbs */}
       <BreadcrumbNav
         items={[
-          { label: "डैशबोर्ड", href: "/dashboard" },
-          { label: "नोट्स", href: "/notes" },
+          { label: "Dashboard", href: "/dashboard" },
+          { label: "Study Notes", href: "/notes" },
           { label: subjectTitle },
         ]}
       />
@@ -76,9 +76,9 @@ export default function SubjectNotesDirectoryPage() {
 
       {/* Search & Topic Count Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi flex items-center gap-2">
+        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
           <Layers className="h-4 w-4 text-foreground" />
-          <span>उपलब्ध टॉपिक</span>
+          <span>Available Topics</span>
           {topics && <span className="tabular-nums">({topics.length})</span>}
         </h2>
         <div className="relative w-full sm:w-64">
@@ -87,8 +87,8 @@ export default function SubjectNotesDirectoryPage() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="टॉपिक खोजें…"
-            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground font-hindi transition-colors"
+            placeholder="Search topics…"
+            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground transition-colors"
           />
         </div>
       </div>
@@ -106,8 +106,8 @@ export default function SubjectNotesDirectoryPage() {
       ) : filteredTopics && filteredTopics.length === 0 ? (
         <EmptyState
           icon={Layers}
-          title="कोई टॉपिक नहीं मिला"
-          description="आपकी खोज के अनुसार कोई टॉपिक उपलब्ध नहीं है।"
+          title="No topics found"
+          description="No topics match your search query."
         />
       ) : (
         <div className="space-y-2.5">
@@ -145,29 +145,29 @@ export default function SubjectNotesDirectoryPage() {
                   {/* Resource Badges */}
                   <div className="flex items-center gap-1.5 shrink-0 flex-wrap">
                     {hasPdf && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-primary/10 text-primary text-[10px] font-bold font-hindi">
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-primary/10 text-primary text-[10px] font-bold">
                         <FileText className="h-3 w-3" />
                         PDF
                       </span>
                     )}
 
                     {hasContent && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-success/15 text-success text-[10px] font-bold font-hindi">
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-success/15 text-success text-[10px] font-bold">
                         <Sparkles className="h-3 w-3" />
-                        नोट्स
+                        Notes
                       </span>
                     )}
 
                     {hasImages && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-muted text-muted-foreground text-[10px] font-medium font-hindi">
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-muted text-muted-foreground text-[10px] font-medium">
                         <ImageIcon className="h-3 w-3" />
-                        चित्र
+                        Images
                       </span>
                     )}
 
                     {setsCount > 0 && (
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-muted text-foreground text-[10px] font-bold tabular-nums">
-                        {setsCount} अभ्यास सेट
+                        {setsCount} {setsCount === 1 ? "Test Set" : "Test Sets"}
                       </span>
                     )}
 

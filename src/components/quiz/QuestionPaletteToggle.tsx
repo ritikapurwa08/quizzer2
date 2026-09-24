@@ -41,10 +41,10 @@ export function QuestionPaletteToggle({
         onClick={() => setIsOpen((prev) => !prev)}
         aria-expanded={isOpen}
         aria-controls="question-palette-panel"
-        className="flex w-full items-center justify-between gap-2 px-3 py-2.5 text-xs font-semibold text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors cursor-pointer select-none font-hindi"
+        className="flex w-full items-center justify-between gap-2 px-3 py-2.5 text-xs font-semibold text-muted-foreground hover:text-foreground hover:bg-muted/40 transition-colors cursor-pointer select-none"
       >
         <span>
-          प्रश्न नेविगेशन
+          Question Navigation
           <span className="ml-1.5 text-primary font-bold">
             {answeredCount}/{questions.length}
           </span>

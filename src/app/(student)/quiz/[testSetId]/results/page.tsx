@@ -142,8 +142,8 @@ export default function ResultsPage() {
         </div>
 
         {/* Canonical Scoring Rule Note */}
-        <p className="text-[11px] text-muted-foreground font-hindi mb-5">
-          मानक RPSC मूल्यांकन: +2 अंक प्रति सही उत्तर · 1/3 नेगेटिव मार्किंग (-0.66 अंक प्रति गलत उत्तर)
+        <p className="text-[11px] text-muted-foreground mb-5">
+          Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
         </p>
 
 

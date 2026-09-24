@@ -62,8 +62,8 @@ export function QuestionReviewCard({
       {question.explanation && (
         <div className="px-4 sm:px-5 py-3.5 border-t border-border/60 bg-muted/30">
           <div>
-            <p className="text-[11px] font-medium text-muted-foreground uppercase tracking-wider mb-1 font-hindi">
-              विस्तृत व्याख्या
+            <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+              Detailed Explanation
             </p>
             <p className={cn("text-xs sm:text-sm text-foreground font-normal leading-relaxed font-hindi", isHindiExplanation && "font-hindi")}>
               {question.explanation}

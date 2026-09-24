@@ -11,15 +11,15 @@ interface PdfViewerProps {
   hasPdf?: boolean;
 }
 
-export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = true }: PdfViewerProps) {
+export function PdfViewer({ pdfPath, topicTitle = "Topic", hasPdf = true }: PdfViewerProps) {
   const [loadError, setLoadError] = useState(false);
 
   if (!hasPdf || !pdfPath) {
     return (
       <EmptyState
         icon={FileText}
-        title="PDF नोट्स अभी उपलब्ध नहीं हैं"
-        description="इस टॉपिक के आधिकारिक PDF नोट्स शीघ्र ही अपलोड किए जाएंगे। कृपया अध्ययन सामग्री पढ़ें या अभ्यास सेट हल करें।"
+        title="PDF notes not available yet"
+        description="Official PDF study notes will be uploaded soon for this topic."
       />
     );
   }
@@ -34,10 +34,10 @@ export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = tr
           </div>
           <div className="min-w-0">
             <h3 className="font-bold text-sm sm:text-base text-foreground truncate font-hindi">
-              {topicTitle} — पूर्ण PDF नोट्स
+              {topicTitle} — PDF Notes
             </h3>
-            <p className="text-xs text-muted-foreground font-hindi">
-              प्रिंट एवं ऑफलाइन अध्ययन के लिए आधिकारिक ई-बुकलेट
+            <p className="text-xs text-muted-foreground">
+              Official e-booklet for offline study and printing
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = tr
           >
             <a href={pdfPath} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="h-3.5 w-3.5" />
-              <span>खोलें (New Tab)</span>
+              <span>Open (New Tab)</span>
             </a>
           </Button>
 
@@ -60,7 +60,7 @@ export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = tr
           >
             <a href={pdfPath} download>
               <Download className="h-3.5 w-3.5" />
-              <span>डाउनलोड PDF</span>
+              <span>Download PDF</span>
             </a>
           </Button>
         </div>
@@ -71,17 +71,17 @@ export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = tr
         <div className="p-6 rounded-2xl border border-dashed border-border bg-card text-center space-y-3">
           <AlertCircle className="h-8 w-8 text-amber-500 mx-auto" />
           <div className="space-y-1">
-            <p className="text-sm font-bold text-foreground font-hindi">
-              ब्राउज़र में PDF प्रीव्यू लोड नहीं हो सका
+            <p className="text-sm font-bold text-foreground">
+              Could not load PDF preview in browser
             </p>
-            <p className="text-xs text-muted-foreground font-hindi max-w-md mx-auto">
-              आप नीचे दिए गए बटन पर क्लिक करके सीधे PDF डाउनलोड कर सकते हैं या नई विंडो में खोल सकते हैं।
+            <p className="text-xs text-muted-foreground max-w-md mx-auto">
+              You can download the PDF directly or open it in a new window using the button below.
             </p>
           </div>
           <Button asChild size="sm" className="rounded-xl">
             <a href={pdfPath} download>
               <Download className="h-3.5 w-3.5 mr-1.5" />
-              PDF डाउनलोड करें
+              Download PDF
             </a>
           </Button>
         </div>
@@ -89,8 +89,8 @@ export function PdfViewer({ pdfPath, topicTitle = "टॉपिक", hasPdf = tr
         <div className="space-y-2">
           {/* Mobile Notice */}
           <div className="block sm:hidden text-center py-2">
-            <p className="text-[11px] text-muted-foreground font-hindi">
-              सुविधाजनक अध्ययन हेतु ऊपर दिए गए &ldquo;खोलें&rdquo; या &ldquo;डाउनलोड PDF&rdquo; का उपयोग करें।
+            <p className="text-[11px] text-muted-foreground">
+              For convenient reading, use &ldquo;Open (New Tab)&rdquo; or &ldquo;Download PDF&rdquo; above.
             </p>
           </div>
 

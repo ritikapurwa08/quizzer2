@@ -49,38 +49,38 @@ export default function NotesLandingPage() {
       {/* Breadcrumbs */}
       <BreadcrumbNav
         items={[
-          { label: "डैशबोर्ड", href: "/dashboard" },
-          { label: "नोट्स एवं अध्ययन सामग्री" },
+          { label: "Dashboard", href: "/dashboard" },
+          { label: "Study Notes" },
         ]}
       />
 
       {/* Header Banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 sm:p-6 rounded-3xl border border-border/80 bg-gradient-to-br from-card via-card to-primary/5 shadow-xs">
         <div className="space-y-1.5 max-w-2xl">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold font-hindi">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold">
             <Sparkles className="h-3.5 w-3.5" />
-            <span>RPSC / RSMSSB परीक्षा विशेष नोट्स</span>
+            <span>RPSC / RSMSSB Exam Notes</span>
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground font-hindi">
-            राजस्थान सामान्य ज्ञान — नोट्स एवं अध्ययन सामग्री
+          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground">
+            Rajasthan GK — Study Notes & Resources
           </h1>
-          <p className="text-xs sm:text-sm text-muted-foreground font-hindi leading-relaxed">
-            राजस्थान की सभी प्रतियोगी परीक्षाओं (RAS, REET, Patwar, Police SI, VDO) हेतु 5 प्रमुख विषयों व 75 टॉपिकों के विषयवार PDF नोट्स, ट्रिक्स, तुलनात्मक सारणियाँ एवं संपूर्ण परीक्षा सामग्री।
+          <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
+            Topic-wise PDF notes, mnemonics, comparative tables, and study material across the 5 canonical Rajasthan subjects and 75 master topics.
           </p>
         </div>
 
         <div className="shrink-0 flex sm:flex-col gap-2">
-          <Button asChild className="rounded-xl font-bold text-xs h-9 px-4">
-            <Link href="/subjects">अभ्यास सेट हल करें</Link>
+          <Button asChild className="rounded-xl font-bold text-xs h-9 px-4 cursor-pointer">
+            <Link href="/subjects">Practice Tests</Link>
           </Button>
         </div>
       </div>
 
       {/* Search Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi flex items-center gap-2">
+        <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
           <BookOpen className="h-4 w-4 text-foreground" />
-          <span>राजस्थान GK के 5 मूल विषय</span>
+          <span>5 Canonical Rajasthan GK Subjects</span>
           {subjects && <span className="tabular-nums">({subjects.length})</span>}
         </h2>
         <div className="relative w-full sm:w-64">
@@ -89,8 +89,8 @@ export default function NotesLandingPage() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="विषय खोजें…"
-            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground font-hindi transition-colors"
+            placeholder="Search subjects…"
+            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground transition-colors"
           />
         </div>
       </div>
@@ -112,8 +112,8 @@ export default function NotesLandingPage() {
       ) : filteredSubjects && filteredSubjects.length === 0 ? (
         <EmptyState
           icon={BookOpen}
-          title="कोई विषय नहीं मिला"
-          description="आपकी खोज के अनुसार कोई विषय उपलब्ध नहीं है।"
+          title="No subjects found"
+          description="No subjects match your current search query."
         />
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
@@ -152,7 +152,7 @@ export default function NotesLandingPage() {
                   </div>
 
                   <div className="pt-4 mt-2 border-t border-border/50 flex items-center justify-between text-xs font-semibold text-primary">
-                    <span className="font-hindi">टॉपिक एवं PDF देखें</span>
+                    <span>View Topics & PDFs</span>
                     <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </Card>

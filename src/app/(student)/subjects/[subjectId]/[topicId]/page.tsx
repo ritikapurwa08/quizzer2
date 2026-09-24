@@ -46,8 +46,8 @@ export default function TopicDetailPage() {
   const completedCount = testSets?.filter((s) => completedSet.has(s._id)).length ?? 0;
   const isTopicCompleted = topicProgress?.status === "completed";
 
-  const subjectTitle = getSubjectDisplayName(subject) || "विषय";
-  const topicTitle = getTopicDisplayName(topic) || "टॉपिक";
+  const subjectTitle = getSubjectDisplayName(subject) || "Subject";
+  const topicTitle = getTopicDisplayName(topic) || "Topic";
 
   // Parse structured JSON content safely
   const noteContent = note?.content;
@@ -84,8 +84,8 @@ export default function TopicDetailPage() {
     <div className="space-y-5">
       <BreadcrumbNav
         items={[
-          { label: "डैशबोर्ड", href: "/dashboard" },
-          { label: "विषय", href: "/subjects" },
+          { label: "Dashboard", href: "/dashboard" },
+          { label: "Subjects", href: "/subjects" },
           { label: subjectTitle, href: `/subjects/${sId}` },
           { label: topicTitle },
         ]}
@@ -99,18 +99,18 @@ export default function TopicDetailPage() {
               {topicTitle}
             </h1>
             {isTopicCompleted && (
-              <span className="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-success/15 text-success border border-success/20 font-hindi">
-                <CheckCircle2 className="h-3.5 w-3.5" /> टॉपिक पूर्ण (Completed)
+              <span className="inline-flex items-center gap-1 text-xs font-bold px-2.5 py-0.5 rounded-full bg-success/15 text-success border border-success/20">
+                <CheckCircle2 className="h-3.5 w-3.5" /> Completed
               </span>
             )}
           </div>
-          <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
-            स्व-मूल्यांकन एवं परीक्षा अभ्यास के लिए उपलब्ध प्रश्न-सेट
+          <p className="text-sm text-muted-foreground mt-0.5">
+            Practice test sets and revision materials for this topic.
             {topicProgress && topicProgress.attemptCount > 0 && (
               <span className="ml-2 text-foreground font-medium">
-                · {topicProgress.attemptCount} प्रयास दर्ज
+                · {topicProgress.attemptCount} attempts recorded
                 {topicProgress.latestScore !== undefined
-                  ? ` · नवीनतम अंक: ${topicProgress.latestScore}`
+                  ? ` · Latest Score: ${topicProgress.latestScore}`
                   : ""}
               </span>
             )}
@@ -168,21 +168,21 @@ export default function TopicDetailPage() {
           {testSets && testSets.length === 0 && (
             <EmptyState
               icon={FileText}
-              title="अभी कोई अभ्यास सेट उपलब्ध नहीं है"
-              description="इस टॉपिक के प्रश्न-सेट जल्द ही उपलब्ध होंगे। कृपया प्रतीक्षा करें।"
+              title="No practice sets available yet"
+              description="Question sets for this topic will be available soon."
             />
           )}
 
           {testSets && testSets.length > 0 && (
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider font-hindi">
-                  अभ्यास सेट ({totalSets})
+                <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
+                  Practice Sets ({totalSets})
                 </h2>
                 {completedCount > 0 && (
-                  <span className="flex items-center gap-1 text-[11px] font-bold text-success font-hindi">
+                  <span className="flex items-center gap-1 text-[11px] font-bold text-success">
                     <CheckCircle2 className="h-3.5 w-3.5" />
-                    {completedCount}/{totalSets} पूर्ण
+                    {completedCount}/{totalSets} completed
                   </span>
                 )}
               </div>
@@ -203,15 +203,15 @@ export default function TopicDetailPage() {
                           </div>
                           <div className="min-w-0 flex-1">
                             <div className="flex items-center gap-2 flex-wrap">
-                              <h3 className="font-medium text-xs sm:text-sm transition-colors truncate font-hindi text-foreground group-hover:text-primary">
+                              <h3 className="font-medium text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary">
                                 {set.name}
                               </h3>
                             </div>
                           </div>
                         </div>
-                        <div className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg shrink-0 ml-3 transition-all font-hindi border border-border bg-card text-foreground group-hover:bg-foreground group-hover:text-background">
+                        <div className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg shrink-0 ml-3 transition-all border border-border bg-card text-foreground group-hover:bg-foreground group-hover:text-background">
                           <Play className="h-3.5 w-3.5 fill-current" />
-                          <span>{isDone ? "पुनः हल करें" : "शुरू करें"}</span>
+                          <span>{isDone ? "Retake" : "Start"}</span>
                         </div>
                       </div>
                     </Link>
@@ -238,10 +238,10 @@ export default function TopicDetailPage() {
           {/* No JSON note yet, but PDF is available -> provide direct note viewing */}
           {note !== undefined && !hasNotes && hasPdf && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between p-3.5 rounded-xl border border-primary/20 bg-primary/5 text-xs text-foreground font-hindi">
+              <div className="flex items-center justify-between p-3.5 rounded-xl border border-primary/20 bg-primary/5 text-xs text-foreground">
                 <div className="flex items-center gap-2">
                   <FileText className="h-4 w-4 text-primary shrink-0" />
-                  <span>इस टॉपिक के हस्तलिखित / प्रिंटेड PDF नोट्स उपलब्ध हैं।</span>
+                  <span>PDF booklet notes are available for this topic.</span>
                 </div>
                 <Button
                   size="sm"
@@ -249,7 +249,7 @@ export default function TopicDetailPage() {
                   onClick={() => setActiveTab("pdf")}
                   className="rounded-lg text-xs font-semibold h-7"
                 >
-                  पूर्ण स्क्रीन PDF व्यूअर
+                  Open Full PDF
                 </Button>
               </div>
               <PdfViewer pdfPath={pdfPath} topicTitle={topicTitle} hasPdf={hasPdf} />
@@ -260,8 +260,8 @@ export default function TopicDetailPage() {
           {note !== undefined && !hasNotes && !hasPdf && (
             <EmptyState
               icon={BookOpen}
-              title="विस्तृत अध्ययन सामग्री अभी उपलब्ध नहीं है"
-              description="इस टॉपिक के लिए लिखित परीक्षा नोट्स तैयार किए जा रहे हैं।"
+              title="Study notes not available yet"
+              description="Detailed notes are being prepared for this topic."
             />
           )}
 
@@ -269,20 +269,20 @@ export default function TopicDetailPage() {
           {hasNotes && (
             <>
               {hasPdf && (
-                <div className="flex items-center justify-between p-3 rounded-xl border border-border bg-muted/40 text-xs text-foreground font-hindi">
-                  <span>इस टॉपिक के संपूर्ण PDF नोट्स भी उपलब्ध हैं।</span>
+                <div className="flex items-center justify-between p-3 rounded-xl border border-border bg-muted/40 text-xs text-foreground">
+                  <span>Full PDF booklet is also available for this topic.</span>
                   <Button
                     size="sm"
                     variant="ghost"
                     onClick={() => setActiveTab("pdf")}
                     className="text-xs font-semibold h-7 text-primary hover:text-primary"
                   >
-                    PDF नोट्स देखें →
+                    View PDF Notes →
                   </Button>
                 </div>
               )}
               {parsedContent?.overview && (
-                <p className="text-sm text-muted-foreground font-hindi leading-relaxed border-l-2 border-primary/40 pl-3">
+                <p className="text-sm text-muted-foreground leading-relaxed border-l-2 border-primary/40 pl-3">
                   {parsedContent.overview}
                 </p>
               )}
@@ -302,8 +302,8 @@ export default function TopicDetailPage() {
           {images.length === 0 ? (
             <EmptyState
               icon={ImageIcon}
-              title="कोई चित्र या रेखाचित्र उपलब्ध नहीं है"
-              description="इस टॉपिक के लिए इन्फोग्राफिक्स एवं मानचित्र जल्द ही जोड़े जाएंगे।"
+              title="No diagrams or images available"
+              description="Infographics, diagrams, and maps will be added soon for this topic."
             />
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -322,7 +322,7 @@ export default function TopicDetailPage() {
                     />
                   </div>
                   {(img.title || img.caption) && (
-                    <div className="text-xs font-hindi space-y-0.5 px-1">
+                    <div className="text-xs space-y-0.5 px-1">
                       {img.title && <p className="font-bold text-foreground">{img.title}</p>}
                       {img.caption && <p className="text-muted-foreground">{img.caption}</p>}
                     </div>
@@ -349,8 +349,8 @@ export default function TopicDetailPage() {
           {!hasFacts ? (
             <EmptyState
               icon={Sparkles}
-              title="कोई तथ्य उपलब्ध नहीं"
-              description="इस टॉपिक के लिए Facts/Key Points नोट्स में उपलब्ध नहीं हैं।"
+              title="No key facts available"
+              description="Key points and exam facts are not yet available for this topic."
             />
           ) : (
             factsBlocks.map((block, idx) => (

@@ -3,7 +3,7 @@
 import { cn, containsDevanagari } from "@/lib/utils";
 import { QuestionRendererProps } from "@/types";
 import { OptionButton } from "./OptionButton";
-import { extractMatchListsFromText } from "@/lib/validators/question";
+import { extractMatchListsFromText, stripLeadingMarker } from "@/lib/validators/question";
 
 interface MatchItem {
   id: string;
@@ -39,52 +39,52 @@ export function MatchFollowingRenderer({
 
   // Normalize columnA items to { id, text } without duplicated prefixes
   const columnA: MatchItem[] = rawLeft.map((item: unknown, idx: number) => {
+    const defaultId = String.fromCharCode(65 + idx);
     if (typeof item === "object" && item !== null) {
       const itemObj = item as Record<string, unknown>;
-      if (itemObj.id && itemObj.text) {
-        return {
-          id: String(itemObj.id),
-          text: String(itemObj.text),
-        };
-      }
+      const id = String(itemObj.id || defaultId).toUpperCase();
+      const rawText = String(itemObj.text ?? itemObj.value ?? "");
+      return {
+        id,
+        text: stripLeadingMarker(rawText),
+      };
     }
     if (typeof item === "string") {
       // Parse "A. text" or "(A) text" or "1. text" or "(क) text" etc.
       const m = item.match(/^(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:])\s*(.*)/);
       if (m) {
         const id = (m[1] || m[2] || "").trim().toUpperCase();
-        const text = (m[3] || "").trim();
+        const text = stripLeadingMarker(m[3] || "");
         if (id && text) return { id, text };
       }
-      // Fallback: just use the whole string as text
-      return { id: String.fromCharCode(65 + idx), text: item.trim() };
+      return { id: defaultId, text: stripLeadingMarker(item) };
     }
-    return { id: String.fromCharCode(65 + idx), text: String(item ?? "") };
+    return { id: defaultId, text: stripLeadingMarker(String(item ?? "")) };
   });
 
   // Normalize columnB items to { id, text } without duplicated prefixes
   const columnB: MatchItem[] = rawRight.map((item: unknown, idx: number) => {
+    const defaultId = String(idx + 1);
     if (typeof item === "object" && item !== null) {
       const itemObj = item as Record<string, unknown>;
-      if (itemObj.id && itemObj.text) {
-        return {
-          id: String(itemObj.id),
-          text: String(itemObj.text),
-        };
-      }
+      const id = String(itemObj.id || defaultId);
+      const rawText = String(itemObj.text ?? itemObj.value ?? "");
+      return {
+        id,
+        text: stripLeadingMarker(rawText),
+      };
     }
     if (typeof item === "string") {
       // Parse "(i) text" or "1. text" or "i. text" etc.
       const m = item.match(/^(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)/i);
       if (m) {
         const id = (m[1] || m[2] || "").trim();
-        const text = (m[3] || "").trim();
+        const text = stripLeadingMarker(m[3] || "");
         if (id && text) return { id, text };
       }
-      // Fallback
-      return { id: String(idx + 1), text: item.trim() };
+      return { id: defaultId, text: stripLeadingMarker(item) };
     }
-    return { id: String(idx + 1), text: String(item ?? "") };
+    return { id: defaultId, text: stripLeadingMarker(String(item ?? "")) };
   });
 
   const selectedValue = typeof selected === "string" ? selected : "";
@@ -168,8 +168,8 @@ export function MatchFollowingRenderer({
 
       {/* Multiple-Choice Option Buttons */}
       <div className="space-y-2.5 pt-1">
-        <h4 className="text-xs font-bold text-muted-foreground font-hindi">
-          सही कूट (उत्तर विकल्प) चुनें:
+        <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+          Select Correct Option / Code:
         </h4>
         <div className="space-y-2">
           {question.options.map((option) => {

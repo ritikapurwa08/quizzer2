@@ -24,7 +24,7 @@ export function QuestionPalette({
   return (
     <div
       role="navigation"
-      aria-label="प्रश्न नेविगेशन पैलेट"
+      aria-label="Question Navigation Palette"
       className={cn(
         "grid grid-cols-5 gap-2 sm:gap-2.5 p-3 rounded-2xl border border-border bg-card shadow-xs",
         className
@@ -33,11 +33,11 @@ export function QuestionPalette({
       {questions.map((q, i) => {
         const isCurrent = i === currentIndex;
         const statusLabel = isCurrent
-          ? "वर्तमान प्रश्न"
+          ? "Current question"
           : q.answered
-          ? "उत्तर दिया गया"
-          : "अनुत्तरित";
-        const bookmarkLabel = q.bookmarked ? ", बुकमार्क किया गया" : "";
+          ? "Answered"
+          : "Unanswered";
+        const bookmarkLabel = q.bookmarked ? ", bookmarked" : "";
 
         return (
           <button
@@ -45,8 +45,8 @@ export function QuestionPalette({
             type="button"
             onClick={() => onJump(i)}
             aria-current={isCurrent ? "true" : undefined}
-            aria-label={`प्रश्न ${i + 1} (${statusLabel}${bookmarkLabel})`}
-            title={`प्रश्न ${i + 1}: ${statusLabel}`}
+            aria-label={`Question ${i + 1} (${statusLabel}${bookmarkLabel})`}
+            title={`Question ${i + 1}: ${statusLabel}`}
             className={cn(
               "relative flex h-10 w-full min-w-9 items-center justify-center rounded-xl border text-xs sm:text-sm font-semibold tabular-nums transition-colors select-none cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
               // Current Active Question

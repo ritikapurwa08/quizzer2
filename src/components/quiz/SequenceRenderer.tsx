@@ -30,7 +30,7 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
       {items.length > 0 && (
         <div className="space-y-2 rounded-xl border border-border bg-muted/30 p-3.5">
           <h4 className="text-[11px] font-bold text-muted-foreground uppercase tracking-wider mb-2.5">
-            Sequence Items (क्रमानुसार सूची):
+            Sequence Items:
           </h4>
           <ol className="space-y-2">
             {items.map((item, idx) => {

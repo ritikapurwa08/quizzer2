@@ -142,6 +142,16 @@ function extractTitles(text: string): { leftTitle?: string; rightTitle?: string 
   return {};
 }
 
+export function stripLeadingMarker(text: string): string {
+  if (!text) return "";
+  return text
+    .replace(
+      /^(?:(?:\([A-Ea-e\divxlc\u0915-\u0918]+\)|\[[A-Ea-e\divxlc\u0915-\u0918]+\]|[A-Ea-e\divxlc\u0915-\u0918]+[.)\-:])\s*)+/,
+      ""
+    )
+    .trim();
+}
+
 /**
  * Extracts List-I and List-II structured items from question text for match questions.
  * Robustly supports:
@@ -171,9 +181,9 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
     const m = line.match(sideBySideRegex);
     if (m) {
       const leftId = (m[1] || m[2] || "").trim();
-      const leftText = (m[3] || "").replace(/\s*[-–—]\s*$/, "").trim();
+      const leftText = stripLeadingMarker((m[3] || "").replace(/\s*[-–—]\s*$/, "").trim());
       const rightId = (m[4] || m[5] || "").trim();
-      const rightText = (m[6] || "").replace(/^\s*[-–—]\s*/, "").trim();
+      const rightText = stripLeadingMarker((m[6] || "").replace(/^\s*[-–—]\s*/, "").trim());
 
       if (leftText && rightText) {
         leftItems.push({ id: leftId, text: leftText });
@@ -212,7 +222,7 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
         const m = line.match(itemRegex);
         if (m) {
           const id = (m[1] || m[2] || m[3] || m[4] || "").trim();
-          const itemText = (m[5] || "").trim();
+          const itemText = stripLeadingMarker((m[5] || "").trim());
           if (itemText) items.push({ id, text: itemText });
         }
       }
@@ -649,32 +659,30 @@ export function validateGeminiComposition(
  */
 function normalizeMetaList(arr: any[], side: "left" | "right"): MatchListItem[] {
   return arr.map((item: any, idx: number) => {
+    const defaultId = side === "left"
+      ? String.fromCharCode(65 + idx)
+      : String(idx + 1);
+
     if (typeof item === "string") {
       // Parse "A. text" or "(i) text" or "1. text" format
       const m = item.match(/^(?:\(([A-Ea-e\divxlc]+)\)|([A-Ea-e\divxlc]+)\s*[.)\-:])\s*(.*)/);
       if (m) {
-        const id = (m[1] || m[2] || "").trim();
-        const text = (m[3] || "").trim();
+        const id = (m[1] || m[2] || "").trim().toUpperCase();
+        const text = stripLeadingMarker(m[3] || "");
         if (id && text) return { id, text };
       }
-      // Fallback: use default ID, full text
-      const defaultId = side === "left"
-        ? String.fromCharCode(65 + idx)
-        : String(idx + 1);
-      return { id: defaultId, text: item.trim() };
+      return { id: defaultId, text: stripLeadingMarker(item) };
     }
     if (item && typeof item === "object") {
-      const defaultId = side === "left"
-        ? String.fromCharCode(65 + idx)
-        : String(idx + 1);
+      const rawText = item.text !== undefined ? String(item.text) : String(item.value ?? item);
       return {
         id: String(item.id || defaultId),
-        text: String(item.text || item),
+        text: stripLeadingMarker(rawText),
       };
     }
     return {
-      id: side === "left" ? String.fromCharCode(65 + idx) : String(idx + 1),
-      text: String(item ?? ""),
+      id: defaultId,
+      text: stripLeadingMarker(String(item ?? "")),
     };
   });
 }

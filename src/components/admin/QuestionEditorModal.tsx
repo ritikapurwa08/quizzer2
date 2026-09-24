@@ -186,8 +186,7 @@ export function QuestionEditorModal({
   function handleAddMetaListItem(key: "left" | "right" | "items") {
     setMeta((prev: any) => {
       const arr = Array.isArray(prev?.[key]) ? [...prev[key]] : [];
-      const label = key === "left" ? String.fromCharCode(65 + arr.length) : String(arr.length + 1);
-      arr.push(key === "items" ? "" : `${label}. `);
+      arr.push("");
       return { ...prev, [key]: arr };
     });
   }
@@ -978,6 +977,7 @@ function MetaListEditor({ heading, items, onAdd, onRemove, onChange, getLabel }:
               </span>
               <Input
                 value={txt}
+                placeholder="Item text (prefix is added automatically)"
                 onChange={(e) => onChange(idx, e.target.value)}
                 className={cn("h-9 text-sm flex-1", isHindi && "font-hindi")}
               />

@@ -183,15 +183,15 @@ export default function QuizPage() {
               <Pause className="h-8 w-8" />
             </div>
             <div className="space-y-1.5 max-w-md mx-auto">
-              <h2 className="text-xl font-bold text-foreground font-hindi">
-                टेस्ट रोक दिया गया है (Test Paused)
+              <h2 className="text-xl font-bold text-foreground">
+                Test Paused
               </h2>
-              <p className="text-xs text-muted-foreground font-hindi leading-relaxed">
-                आपका समय और प्रश्न-उत्तर सुरक्षित हैं। शेष समय:{" "}
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Your progress and timer are securely saved. Remaining time:{" "}
                 <span className="font-mono font-bold text-foreground">
                   {formatTime(remainingSeconds)}
                 </span>
-                । जब आप तैयार हों, तब नीचे दिए गए बटन पर क्लिक करके टेस्ट जारी रखें।
+                . Click the button below when you are ready to continue.
               </p>
             </div>
             <Button
@@ -199,7 +199,7 @@ export default function QuizPage() {
               className="rounded-xl px-6 font-bold text-xs h-10 bg-primary text-primary-foreground hover:bg-primary/90 gap-2 cursor-pointer shadow-md"
             >
               <Play className="h-4 w-4 fill-current" />
-              <span>टेस्ट जारी रखें (Resume Test)</span>
+              <span>Resume Test</span>
             </Button>
           </div>
         ) : (

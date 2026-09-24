@@ -15,26 +15,26 @@ export default function SubjectsPage() {
 
   return (
     <div className="space-y-5">
-      <BreadcrumbNav items={[{ label: "डैशबोर्ड", href: "/dashboard" }, { label: "विषय" }]} />
+      <BreadcrumbNav items={[{ label: "Dashboard", href: "/dashboard" }, { label: "Subjects" }]} />
 
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">सभी विषय</h1>
-        <p className="text-sm text-muted-foreground mt-0.5 font-hindi">
-          निर्धारित पाठ्यक्रम के अनुसार विषयवार अभ्यास सामग्री।
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">All Subjects</h1>
+        <p className="text-sm text-muted-foreground mt-0.5">
+          Select a subject to access practice test sets, PDF notes, memory tricks, and visual diagrams.
         </p>
       </div>
 
       {/* Site-wide stats banner */}
       {stats && (
-        <div className="flex items-center gap-4 px-4 py-2.5 rounded-xl bg-card border border-border/80 text-sm text-muted-foreground font-hindi">
+        <div className="flex items-center gap-4 px-4 py-2.5 rounded-xl bg-card border border-border/80 text-sm text-muted-foreground">
           <span className="flex items-center gap-1.5">
             <FileText className="h-3.5 w-3.5 shrink-0 text-foreground" />
-            <strong className="text-foreground font-bold">{stats.totalSets}</strong> अभ्यास सेट
+            <strong className="text-foreground font-bold">{stats.totalSets}</strong> Practice Sets
           </span>
           <span className="w-px h-4 bg-border" />
           <span className="flex items-center gap-1.5">
             <Layers className="h-3.5 w-3.5 shrink-0 text-foreground" />
-            <strong className="text-foreground font-bold">{stats.totalQuestions}</strong> कुल प्रश्न
+            <strong className="text-foreground font-bold">{stats.totalQuestions}</strong> Total Questions
           </span>
         </div>
       )}
@@ -57,7 +57,7 @@ export default function SubjectsPage() {
           ))}
         </div>
       ) : subjects.length === 0 ? (
-        <EmptyState icon={BookOpen} title="कोई विषय उपलब्ध नहीं है" description="वर्तमान में कोई विषय नहीं मिला।" />
+        <EmptyState icon={BookOpen} title="No subjects available" description="No subjects have been created yet." />
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {subjects.map((s, idx) => {
@@ -74,9 +74,9 @@ export default function SubjectsPage() {
                         {getSubjectDisplayName(s)}
                       </h2>
                       {setCount === 0 ? (
-                        <p className="text-xs text-muted-foreground/60 mt-0.5 font-hindi">अभी कोई सेट नहीं</p>
+                        <p className="text-xs text-muted-foreground/60 mt-0.5">No sets yet</p>
                       ) : (
-                        <p className="text-xs text-muted-foreground mt-0.5 font-hindi">{setCount} अभ्यास सेट</p>
+                        <p className="text-xs text-muted-foreground mt-0.5">{setCount} Practice Sets</p>
                       )}
                     </div>
                   </div>

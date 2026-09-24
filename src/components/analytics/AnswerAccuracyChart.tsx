@@ -146,7 +146,7 @@ export function AnswerAccuracyChart({ data }: AnswerAccuracyChartProps) {
 
               {/* Centered Accuracy Metric */}
               <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none text-center">
-                <span className="text-2xl sm:text-3xl font-bold font-mono tracking-tight text-foreground">
+                <span className="text-xl sm:text-2xl font-bold font-mono tracking-tight text-foreground">
                   {accuracy.toFixed(1)}%
                 </span>
                 <span className="text-[11px] text-muted-foreground font-semibold">

@@ -20,30 +20,30 @@ export default function SearchPage() {
 
   return (
     <div className="space-y-6">
-      <BreadcrumbNav items={[{ label: "डैशबोर्ड", href: "/dashboard" }, { label: "खोज परिणाम" }]} />
+      <BreadcrumbNav items={[{ label: "Dashboard", href: "/dashboard" }, { label: "Search Results" }]} />
 
       <div>
-        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground font-hindi">
-          खोज परिणाम: &ldquo;{q}&rdquo;
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+          Search Results: &ldquo;{q}&rdquo;
         </h1>
-        <p className="text-xs text-muted-foreground mt-0.5 font-hindi">
-          {totalResults} परिणाम मिले
+        <p className="text-xs text-muted-foreground mt-0.5">
+          {totalResults} {totalResults === 1 ? "result" : "results"} found
         </p>
       </div>
 
       {results && totalResults === 0 && (
         <EmptyState
           icon={SearchIcon}
-          title="कोई परिणाम नहीं मिला"
-          description="कृपया किसी अन्य विषय, टॉपिक या कीवर्ड से खोजें।"
+          title="No results found"
+          description="Try searching with a different subject, topic, or keyword."
         />
       )}
 
       {results && results.subjects.length > 0 && (
         <section className="space-y-2.5">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5 font-hindi">
+          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
             <BookOpen className="h-3.5 w-3.5 text-primary" />
-            विषय ({results.subjects.length})
+            Subjects ({results.subjects.length})
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {results.subjects.map((s) => (
@@ -62,9 +62,9 @@ export default function SearchPage() {
 
       {results && results.topics.length > 0 && (
         <section className="space-y-2.5">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5 font-hindi">
+          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
             <Layers className="h-3.5 w-3.5 text-primary" />
-            टॉपिक ({results.topics.length})
+            Topics ({results.topics.length})
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {results.topics.map(({ topic, subject }) => (
@@ -75,8 +75,8 @@ export default function SearchPage() {
                       <p className="font-semibold text-sm text-foreground group-hover:text-primary transition-colors font-hindi truncate">
                         {getTopicDisplayName(topic)}
                       </p>
-                      <p className="text-xs text-muted-foreground font-hindi mt-0.5">
-                        विषय: {getSubjectDisplayName(subject)}
+                      <p className="text-xs text-muted-foreground mt-0.5">
+                        Subject: <span className="font-hindi">{getSubjectDisplayName(subject)}</span>
                       </p>
                     </div>
                     <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0 ml-2" />
@@ -90,9 +90,9 @@ export default function SearchPage() {
 
       {results && results.testSets.length > 0 && (
         <section className="space-y-2.5">
-          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5 font-hindi">
+          <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-1.5">
             <FileText className="h-3.5 w-3.5 text-primary" />
-            अभ्यास सेट ({results.testSets.length})
+            Test Sets ({results.testSets.length})
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {results.testSets.map(({ testSet, topic, subject }) => (
