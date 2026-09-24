@@ -218,5 +218,6 @@ Validate silently before responding:
 - No filler questions invented
 - Explanations present
 - Original sourceQuestionId preserved
+- CRITICAL QUOTE ESCAPING: If question text, options, or explanation contain quotes (statements, slogans, titles), use single quotes ('...') or curly quotes (“...”) or escape with \" to prevent breaking JSON validity.
 `;
 }

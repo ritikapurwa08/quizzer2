@@ -45,6 +45,19 @@ export function extractJsonFromLlmOutput(text: string): string {
     }
   }
 
+  // Ensure trailing commentary after outermost closing bracket/brace is trimmed
+  if (extracted.startsWith("[")) {
+    const lastBracket = extracted.lastIndexOf("]");
+    if (lastBracket !== -1 && lastBracket < extracted.length - 1) {
+      extracted = extracted.substring(0, lastBracket + 1).trim();
+    }
+  } else if (extracted.startsWith("{")) {
+    const lastBrace = extracted.lastIndexOf("}");
+    if (lastBrace !== -1 && lastBrace < extracted.length - 1) {
+      extracted = extracted.substring(0, lastBrace + 1).trim();
+    }
+  }
+
   return sanitizeStringArtifacts(extracted);
 }
 
@@ -64,8 +77,48 @@ export function stripMarkdownFences(raw: string): string {
 }
 
 /**
+ * Repairs unescaped double quotes inside JSON string values.
+ * e.g.: "question": "शासक ने कहा कि "मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ"?",
+ * becomes: "question": "शासक ने कहा कि \"मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ\"?",
+ */
+export function fixUnescapedInnerQuotes(jsonStr: string): string {
+  const lines = jsonStr.split(/\r?\n/);
+  const fixedLines = lines.map((line) => {
+    // 1. Key-value line: optionally preceded by { or whitespace, e.g. {"key": "value" or "key": "value"
+    const kvMatch = line.match(/^([\s{]*"[a-zA-Z0-9_-]+"\s*:\s*")(.*)("[\s,\]\}]*)$/);
+    if (kvMatch) {
+      const prefix = kvMatch[1];
+      const middle = kvMatch[2];
+      const suffix = kvMatch[3];
+      if (/(?<!\\)"/.test(middle)) {
+        const fixedMiddle = middle.replace(/(?<!\\)"/g, '\\"');
+        return prefix + fixedMiddle + suffix;
+      }
+      return line;
+    }
+
+    // 2. Array string element: optionally preceded by [ or whitespace, e.g. ["value" or "value",
+    const arrayItemMatch = line.match(/^([\s\[]*")(.*)("[\s,\]\}]*)$/);
+    if (arrayItemMatch && !line.includes(":")) {
+      const prefix = arrayItemMatch[1];
+      const middle = arrayItemMatch[2];
+      const suffix = arrayItemMatch[3];
+      if (/(?<!\\)"/.test(middle)) {
+        const fixedMiddle = middle.replace(/(?<!\\)"/g, '\\"');
+        return prefix + fixedMiddle + suffix;
+      }
+    }
+
+    return line;
+  });
+
+  return fixedLines.join("\n");
+}
+
+/**
  * Automatically fixes common JSON syntax errors:
  * - Extracts JSON array from preamble/surrounding text
+ * - Fixes unescaped internal double quotes inside strings
  * - Trailing commas before } or ]
  * - Single quotes used instead of double quotes for keys/strings
  * - JS line comments (// ...)
@@ -74,6 +127,9 @@ export function stripMarkdownFences(raw: string): string {
 export function autoFixJson(rawJson: string): { fixedText: string; success: boolean } {
   // Extract JSON from surrounding text when present
   let cleaned = extractJsonFromLlmOutput(rawJson);
+
+  // Fix unescaped inner quotes on key-value pairs or array string elements
+  cleaned = fixUnescapedInnerQuotes(cleaned);
 
   // 1. Strip single-line comments // ...
   cleaned = cleaned.replace(/^\s*\/\/.*$/gm, "");
@@ -207,7 +263,11 @@ export function validateAndIsolateQuestions(rawJsonOrObj: string | any): Isolate
     }
     try {
       const extracted = extractJsonFromLlmOutput(trimmed);
-      parsedObj = JSON.parse(extracted);
+      try {
+        parsedObj = JSON.parse(extracted);
+      } catch {
+        parsedObj = JSON.parse(fixUnescapedInnerQuotes(extracted));
+      }
     } catch {
       const { fixedText, success } = autoFixJson(trimmed);
       if (success) {
