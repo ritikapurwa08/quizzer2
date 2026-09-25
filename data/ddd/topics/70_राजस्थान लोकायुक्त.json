@@ -1,7 +1,7 @@
 {
   "masterTopicId": 70,
   "masterTopic": "राजस्थान लोकायुक्त",
-  "totalAvailable": 54,
+  "totalAvailable": 55,
   "questions": [
     {
       "id": "rg_014485",
@@ -1028,6 +1028,24 @@
       "exam": null,
       "year": null,
       "explanation": null
+    },
+    {
+      "id": "cet_024",
+      "source": "RSSB_CET_PYQ",
+      "sourceTopic": "राजस्थान लोकायुक्त",
+      "masterTopicId": 70,
+      "masterTopic": "राजस्थान लोकायुक्त",
+      "question": "राजस्थान के वर्तमान लोकायुक्त कौन हैं?",
+      "options": [
+        "जी. के. व्यास",
+        "निहाल चन्द गोयल",
+        "जी. एस. सन्धु",
+        "प्रताप कृष्ण लोहारा"
+      ],
+      "answer": "D",
+      "exam": "CET स्नातक स्तर - 2023 (08-01-2023 SHIFT-II)",
+      "year": 2023,
+      "explanation": "राजस्थान के 13वें लोकायुक्त के रूप में न्यायमूर्ति प्रताप कृष्ण लोहारा (Justice P.K. Lohra) 9 मार्च 2021 से पदस्थ हैं। (जी.के. व्यास मानवाधिकार आयोग के पूर्व अध्यक्ष रहे हैं)।"
     }
   ]
 }
