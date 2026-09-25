@@ -315,10 +315,10 @@ export function SyllabusTracker({
       };
     } else {
       return {
-        title: "राजस्थान GK 75 मास्टर टॉपिक्स तुलना",
-        subtitle: "Quizzer2 के 75 कैनोनिकल टॉपिक्स से सम्पूर्ण पाठ्यक्रम की मैपिंग",
-        total: 75,
-        completed: 75,
+        title: "राजस्थान GK 70 मास्टर टॉपिक्स तुलना",
+        subtitle: "Quizzer2 के 70 कैनोनिकल टॉपिक्स से सम्पूर्ण पाठ्यक्रम की मैपिंग",
+        total: 70,
+        completed: 70,
         percent: 100,
         remaining: 0,
       };
@@ -517,11 +517,11 @@ export function SyllabusTracker({
                   : "bg-muted text-muted-foreground"
               )}
             >
-              75 Topics
+              70 Topics
             </span>
           </div>
           <span className="text-xs sm:text-sm font-bold font-hindi mt-1 line-clamp-1">
-            75 मास्टर टॉपिक्स मैपिंग
+            70 मास्टर टॉपिक्स मैपिंग
           </span>
           <div className="w-full bg-muted/40 h-1.5 rounded-full mt-2 overflow-hidden">
             <div
@@ -981,12 +981,12 @@ export function SyllabusTracker({
             <div className="flex items-center gap-2">
               <Layers className="h-5 w-5 text-foreground" />
               <h4 className="text-sm sm:text-base font-bold text-foreground font-hindi">
-                Quizzer2 के 75 मास्टर टॉपिक्स से तुलना एवं विश्लेषण
+                Quizzer2 के 70 मास्टर टॉपिक्स से तुलना एवं विश्लेषण
               </h4>
             </div>
             <p className="text-xs sm:text-sm text-muted-foreground font-hindi leading-relaxed">
-              Quizzer2 का प्रश्न बैंक **राजस्थान सामान्य ज्ञान के 75 कैनोनिकल मास्टर टॉपिक्स** पर आधारित है। 
-              नीचे दिया गया विश्लेषण दर्शाता है कि वरिष्ठ अध्यापक (2nd Grade) और CET के कौन-से भाग 75 मास्टर टॉपिक्स द्वारा 100% कवर्ड हैं, और कौन-से अतिरिक्त विषय अलग से तैयार करने होते हैं।
+              Quizzer2 का प्रश्न बैंक **राजस्थान सामान्य ज्ञान के 70 कैनोनिकल मास्टर टॉपिक्स** पर आधारित है। 
+              नीचे दिया गया विश्लेषण दर्शाता है कि वरिष्ठ अध्यापक (2nd Grade) और CET के कौन-से भाग 70 मास्टर टॉपिक्स द्वारा 100% कवर्ड हैं, और कौन-से अतिरिक्त विषय अलग से तैयार करने होते हैं।
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
@@ -1001,7 +1001,7 @@ export function SyllabusTracker({
                   </Badge>
                 </div>
                 <ul className="text-xs text-muted-foreground font-hindi space-y-1 list-disc list-inside">
-                  <li><strong>राजस्थान भूगोल (11 टॉपिक्स):</strong> 75 मास्टर टॉपिक्स में 100% समाहित।</li>
+                  <li><strong>राजस्थान भूगोल (11 टॉपिक्स):</strong> 70 मास्टर टॉपिक्स में 100% समाहित।</li>
                   <li><strong>राजस्थान इतिहास व राजवंश:</strong> मेवाड़, मारवाड़, आमेर, चौहान, गुर्जर-प्रतिहार आदि पूर्ण कवर्ड।</li>
                   <li><strong>कला, संस्कृति व साहित्य:</strong> मेले, त्योहार, लोक देवता, मंदिर, छतरियां, चित्रकला आदि पूर्ण कवर्ड।</li>
                   <li><strong>राजस्थान राजव्यवस्था व आयोग:</strong> राज्यपाल, सीएम, RPSC, लोकायुक्त, पंचायती राज पूर्ण कवर्ड।</li>
@@ -1020,9 +1020,9 @@ export function SyllabusTracker({
                   </Badge>
                 </div>
                 <ul className="text-xs text-muted-foreground font-hindi space-y-1 list-disc list-inside">
-                  <li><strong>राजस्थान इतिहास, कला व संस्कृति:</strong> CET का 100% राजस्थान भाग 75 मास्टर टॉपिक्स से मिलता है।</li>
-                  <li><strong>राजस्थान भूगोल, खनिज, सिंचाई व उद्योग:</strong> 75 मास्टर टॉपिक्स द्वारा पूरी तरह कवर्ड।</li>
-                  <li><strong>राजस्थान की राजनीतिक व्यवस्था:</strong> 75 मास्टर टॉपिक्स (विषय E) द्वारा पूर्ण कवर्ड।</li>
+                  <li><strong>राजस्थान इतिहास, कला व संस्कृति:</strong> CET का 100% राजस्थान भाग 70 मास्टर टॉपिक्स से मिलता है।</li>
+                  <li><strong>राजस्थान भूगोल, खनिज, सिंचाई व उद्योग:</strong> 70 मास्टर टॉपिक्स द्वारा पूरी तरह कवर्ड।</li>
+                  <li><strong>राजस्थान की राजनीतिक व्यवस्था:</strong> 70 मास्टर टॉपिक्स (विषय E) द्वारा पूर्ण कवर्ड।</li>
                   <li><strong>अतिरिक्त विषय:</strong> दैनिक विज्ञान, रीजनिंग/गणित, सामान्य हिन्दी, General English, कंप्यूटर।</li>
                 </ul>
               </div>

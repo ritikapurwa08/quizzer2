@@ -19,8 +19,8 @@ async function main() {
   }
 
   // 1. Re-order each topic file in data/ddd/topics/*.json
-  console.log("1. Re-ordering all 73 Topic JSON files...");
   const topicFiles = fs.readdirSync(topicsDir).filter((f) => f.endsWith(".json"));
+  console.log(`1. Re-ordering all ${topicFiles.length} Topic JSON files...`);
   const sortedQuestionsByTopicId = new Map<number, any[]>();
 
   let totalQuestionsEvaluated = 0;
@@ -71,7 +71,7 @@ async function main() {
   let totalAvailableAfter = 0;
   let totalCandidatesAfter = 0;
 
-  for (let id = 1; id <= 73; id++) {
+  for (let id = 1; id <= topicFiles.length; id++) {
     const topicKey = String(id);
     const topicState = poolState.topics?.[topicKey];
     if (!topicState) continue;
