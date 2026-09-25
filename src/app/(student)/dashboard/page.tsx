@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
 import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
+import { SyllabusTracker } from "@/components/syllabus/SyllabusTracker";
 import { api } from "../../../../convex/_generated/api";
 
 export default function DashboardPage() {
@@ -152,6 +153,11 @@ export default function DashboardPage() {
           </ul>
         )}
       </Card>
+
+      {/* 5. Complete Syllabus & Exam Preparation Tracker (Senior Teacher, CET, Merged) */}
+      <div className="pt-2">
+        <SyllabusTracker />
+      </div>
     </div>
   );
 }
