@@ -203,6 +203,14 @@ export function QuestionImportEditor({
     }
   }, [initialValue]);
 
+  // Auto-fill subtopicName if topic is selected but set name is empty
+  useEffect(() => {
+    if (selectedTopicId && topicName && !subtopicName.trim()) {
+      const partNum = existingTestSets.length + 1;
+      onSubtopicNameChange(`${topicName} Part ${partNum}`);
+    }
+  }, [selectedTopicId, topicName, subtopicName, existingTestSets.length, onSubtopicNameChange]);
+
   // Parse and validate pasted input
   const parseResult = useMemo(() => {
     const trimmed = code.trim();
@@ -294,6 +302,82 @@ export function QuestionImportEditor({
     );
   }, [subtopicName, existingTestSets]);
 
+  // Auto-detect Syllabus from pasted JSON metadata if not already selected
+  useEffect(() => {
+    if (!parseResult.rawParsedObj) return;
+    const obj = parseResult.rawParsedObj;
+    const firstQ = Array.isArray(obj) ? obj[0] : (obj.questions?.[0] || obj);
+    if (!firstQ && typeof obj !== "object") return;
+
+    const topicHint =
+      obj?.masterTopic ||
+      obj?.topic ||
+      obj?.topicName ||
+      firstQ?.topic ||
+      firstQ?.meta?.sourceTopic;
+    const masterTopicIdHint =
+      obj?.masterTopicId ||
+      firstQ?.masterTopicId ||
+      firstQ?.meta?.masterTopicId;
+    const setHint =
+      obj?.testSet ||
+      obj?.setName ||
+      obj?.subtopic ||
+      obj?.name;
+
+    let matchedMt = null;
+    if (masterTopicIdHint) {
+      const num = Number(masterTopicIdHint);
+      matchedMt = MASTER_TOPICS_LIST.find((mt) => mt.id === num);
+    }
+    if (!matchedMt && typeof topicHint === "string" && topicHint.trim()) {
+      const cleanHint = topicHint.trim();
+      matchedMt = MASTER_TOPICS_LIST.find(
+        (mt) =>
+          mt.nameHindi === cleanHint ||
+          cleanHint.includes(mt.nameHindi) ||
+          mt.nameHindi.includes(cleanHint)
+      );
+    }
+
+    if (matchedMt) {
+      if (!selectedSubjectId && subjectsList.length > 0) {
+        const sub = subjectsList.find(
+          (s) =>
+            s.nameHindi === matchedMt!.subjectHindi ||
+            s.name === matchedMt!.subjectName
+        );
+        if (sub) {
+          onSubjectChangeId(sub._id);
+        }
+      }
+      if (selectedSubjectId && !selectedTopicId && topicsList.length > 0) {
+        const top = topicsList.find(
+          (t) =>
+            t.nameHindi === matchedMt!.nameHindi ||
+            (t.nameHindi && matchedMt!.nameHindi.includes(t.nameHindi))
+        );
+        if (top) {
+          onTopicChangeId(top._id);
+        }
+      }
+    }
+
+    if (setHint && typeof setHint === "string" && !subtopicName.trim()) {
+      onSubtopicNameChange(setHint.trim());
+    }
+  }, [
+    parseResult.rawParsedObj,
+    selectedSubjectId,
+    selectedTopicId,
+    subtopicName,
+    subjectsList,
+    topicsList,
+    onSubjectChangeId,
+    onTopicChangeId,
+    onSubtopicNameChange,
+  ]);
+
   // Combined error list
   const allErrors = useMemo(() => {
     const errs: string[] = [];
@@ -314,8 +398,19 @@ export function QuestionImportEditor({
     if (isDuplicateSetName) {
       errs.push(`A test set named '${subtopicName.trim()}' already exists under this topic. Please choose a different name.`);
     }
+    if (code.trim().length > 0) {
+      if (!selectedSubjectId) {
+        errs.push("Step 1 incomplete: Please select a Subject above.");
+      }
+      if (!selectedTopicId) {
+        errs.push("Step 1 incomplete: Please select a Master Topic above.");
+      }
+      if (!subtopicName.trim()) {
+        errs.push("Step 1 incomplete: Please enter a Set / Part Name above.");
+      }
+    }
     return errs;
-  }, [parseResult, batchValidation, existingInDbIds, isDuplicateSetName, subtopicName]);
+  }, [parseResult, batchValidation, existingInDbIds, isDuplicateSetName, subtopicName, code, selectedSubjectId, selectedTopicId]);
 
   const detectedCount = parseResult.questions.length;
   const isExact20 = detectedCount === 20;
@@ -456,6 +551,19 @@ export function QuestionImportEditor({
               )}
             </div>
           </div>
+
+          {code.trim().length > 0 && (!selectedTopicId || !subtopicName.trim()) && (
+            <div className="flex items-center gap-2.5 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs">
+              <AlertCircle className="h-4 w-4 shrink-0" />
+              <span>
+                {!selectedSubjectId
+                  ? "Questions detected below. Please select a Subject and Master Topic to assign them."
+                  : !selectedTopicId
+                  ? "Questions detected below. Please select a Master Topic above."
+                  : "Please confirm or enter a Set / Part Name above to enable import."}
+              </span>
+            </div>
+          )}
 
           {/* Gemini AI Action Row */}
           <div className="pt-3 border-t border-border/40 space-y-3">
@@ -687,6 +795,25 @@ export function QuestionImportEditor({
                       )}
                       <span>Unique in database (no Convex duplicates)</span>
                     </div>
+
+                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40 sm:col-span-2">
+                      {Boolean(selectedTopicId && subtopicName.trim() && !isDuplicateSetName) ? (
+                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
+                      ) : (
+                        <XCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+                      )}
+                      <span>
+                        {!selectedSubjectId
+                          ? "Step 1 required: Select a Subject above"
+                          : !selectedTopicId
+                          ? "Step 1 required: Select a Master Topic above"
+                          : !subtopicName.trim()
+                          ? "Step 1 required: Enter a Set / Part Name above"
+                          : isDuplicateSetName
+                          ? "Step 1 error: Duplicate Set Name"
+                          : "Step 1 complete: Subject, Topic & Set Name assigned"}
+                      </span>
+                    </div>
                   </div>
 
                   {allErrors.length > 0 && (
@@ -715,9 +842,24 @@ export function QuestionImportEditor({
           {/* Import Action */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pt-3 border-t border-border/40">
             {!canImport && code.trim().length > 0 ? (
-              <p className="text-xs text-muted-foreground">
-                Import will be enabled once all quality validation checks pass.
-              </p>
+              <div className="flex items-center gap-2 text-xs font-medium text-amber-600 dark:text-amber-400">
+                <AlertCircle className="h-4 w-4 shrink-0" />
+                <span>
+                  {!selectedSubjectId
+                    ? "Step 1 incomplete: Please select a Subject above."
+                    : !selectedTopicId
+                    ? "Step 1 incomplete: Please select a Master Topic above."
+                    : !subtopicName.trim()
+                    ? "Step 1 incomplete: Please enter a Set / Part Name above."
+                    : isDuplicateSetName
+                    ? "Step 1 error: A test set with this name already exists under this topic."
+                    : !isCountValid
+                    ? `Set requires exactly 20 questions (${detectedCount}/20).`
+                    : allErrors.length > 0
+                    ? "Please fix the validation errors above."
+                    : "Complete requirements above to import."}
+                </span>
+              </div>
             ) : (
               <div />
             )}

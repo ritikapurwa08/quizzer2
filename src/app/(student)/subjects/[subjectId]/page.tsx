@@ -145,106 +145,108 @@ export default function SubjectDetailPage() {
       </div>
 
       {/* ── Modern App Segmented Navigation Tabs Bar ── */}
-      <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pb-1 border-b border-border/60">
-        {/* TAB 1: Quiz */}
-        <button
-          type="button"
-          onClick={() => setActiveTab("quiz")}
-          className={cn(
-            "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
-            activeTab === "quiz"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
-              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-          )}
-        >
-          <Play className="h-3.5 w-3.5 fill-current" />
-          <span>Quiz</span>
-          <span
+      <div className="flex items-center overflow-x-auto scrollbar-none pb-0.5">
+        <div className="inline-flex items-center p-1 rounded-xl bg-muted/60 border border-border/80 backdrop-blur-xs gap-1">
+          {/* TAB 1: Quiz */}
+          <button
+            type="button"
+            onClick={() => setActiveTab("quiz")}
             className={cn(
-              "text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none",
+              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
               activeTab === "quiz"
-                ? "bg-primary-foreground/20 text-primary-foreground"
-                : "bg-muted text-muted-foreground"
+                ? "bg-card text-foreground shadow-2xs border border-border/70 font-semibold"
+                : "text-muted-foreground hover:bg-muted/40 hover:text-foreground border border-transparent"
             )}
           >
-            {totalQuizSets}
-          </span>
-        </button>
+            <Play className={cn("h-3.5 w-3.5 fill-current", activeTab === "quiz" ? "text-primary" : "text-muted-foreground")} />
+            <span>Quiz</span>
+            <span
+              className={cn(
+                "text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-none transition-colors",
+                activeTab === "quiz"
+                  ? "bg-primary/10 text-primary border border-primary/20"
+                  : "bg-background/60 text-muted-foreground"
+              )}
+            >
+              {totalQuizSets}
+            </span>
+          </button>
 
-        {/* TAB 2: PDFs */}
-        <button
-          type="button"
-          onClick={() => setActiveTab("pdf")}
-          className={cn(
-            "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
-            activeTab === "pdf"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
-              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-          )}
-        >
-          <FileText className="h-3.5 w-3.5" />
-          <span>PDFs</span>
-          <span
+          {/* TAB 2: PDFs */}
+          <button
+            type="button"
+            onClick={() => setActiveTab("pdf")}
             className={cn(
-              "text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none",
+              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
               activeTab === "pdf"
-                ? "bg-primary-foreground/20 text-primary-foreground"
-                : "bg-muted text-muted-foreground"
+                ? "bg-card text-foreground shadow-2xs border border-border/70 font-semibold"
+                : "text-muted-foreground hover:bg-muted/40 hover:text-foreground border border-transparent"
             )}
           >
-            {pdfTopics.length}
-          </span>
-        </button>
+            <FileText className={cn("h-3.5 w-3.5", activeTab === "pdf" ? "text-primary" : "text-muted-foreground")} />
+            <span>PDFs</span>
+            <span
+              className={cn(
+                "text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-none transition-colors",
+                activeTab === "pdf"
+                  ? "bg-primary/10 text-primary border border-primary/20"
+                  : "bg-background/60 text-muted-foreground"
+              )}
+            >
+              {pdfTopics.length}
+            </span>
+          </button>
 
-        {/* TAB 3: Tricks */}
-        <button
-          type="button"
-          onClick={() => setActiveTab("tricks")}
-          className={cn(
-            "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
-            activeTab === "tricks"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
-              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-          )}
-        >
-          <Sparkles className="h-3.5 w-3.5" />
-          <span>Tricks</span>
-          <span
+          {/* TAB 3: Tricks */}
+          <button
+            type="button"
+            onClick={() => setActiveTab("tricks")}
             className={cn(
-              "text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none",
+              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
               activeTab === "tricks"
-                ? "bg-primary-foreground/20 text-primary-foreground"
-                : "bg-muted text-muted-foreground"
+                ? "bg-card text-foreground shadow-2xs border border-border/70 font-semibold"
+                : "text-muted-foreground hover:bg-muted/40 hover:text-foreground border border-transparent"
             )}
           >
-            {trickTopics.length}
-          </span>
-        </button>
+            <Sparkles className={cn("h-3.5 w-3.5", activeTab === "tricks" ? "text-primary" : "text-muted-foreground")} />
+            <span>Tricks</span>
+            <span
+              className={cn(
+                "text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-none transition-colors",
+                activeTab === "tricks"
+                  ? "bg-primary/10 text-primary border border-primary/20"
+                  : "bg-background/60 text-muted-foreground"
+              )}
+            >
+              {trickTopics.length}
+            </span>
+          </button>
 
-        {/* TAB 4: Images */}
-        <button
-          type="button"
-          onClick={() => setActiveTab("images")}
-          className={cn(
-            "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
-            activeTab === "images"
-              ? "bg-primary text-primary-foreground shadow-xs font-bold"
-              : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-          )}
-        >
-          <ImageIcon className="h-3.5 w-3.5" />
-          <span>Images</span>
-          <span
+          {/* TAB 4: Images */}
+          <button
+            type="button"
+            onClick={() => setActiveTab("images")}
             className={cn(
-              "text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none",
+              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer whitespace-nowrap select-none",
               activeTab === "images"
-                ? "bg-primary-foreground/20 text-primary-foreground"
-                : "bg-muted text-muted-foreground"
+                ? "bg-card text-foreground shadow-2xs border border-border/70 font-semibold"
+                : "text-muted-foreground hover:bg-muted/40 hover:text-foreground border border-transparent"
             )}
           >
-            {allImages.length}
-          </span>
-        </button>
+            <ImageIcon className={cn("h-3.5 w-3.5", activeTab === "images" ? "text-primary" : "text-muted-foreground")} />
+            <span>Images</span>
+            <span
+              className={cn(
+                "text-[10px] font-bold px-1.5 py-0.5 rounded-md leading-none transition-colors",
+                activeTab === "images"
+                  ? "bg-primary/10 text-primary border border-primary/20"
+                  : "bg-background/60 text-muted-foreground"
+              )}
+            >
+              {allImages.length}
+            </span>
+          </button>
+        </div>
       </div>
 
       {/* ── SECTION 1: QUIZ CONTENT ── */}

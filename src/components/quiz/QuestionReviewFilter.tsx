@@ -36,11 +36,30 @@ export function QuestionReviewFilter({
     <div
       role="group"
       aria-label="Question Filter"
-      className={cn("flex items-center gap-1", className)}
+      className={cn(
+        "inline-flex items-center p-0.5 rounded-lg bg-muted/60 border border-border/80 backdrop-blur-xs gap-0.5",
+        className
+      )}
     >
       {FILTERS.map((filter) => {
         const isActive = value === filter.value;
         const count = counts[filter.value];
+
+        // Refined active styling tailored to filter tone without harsh white bulbs
+        const activeStyles =
+          filter.value === "correct"
+            ? "bg-card text-emerald-500 dark:text-emerald-400 font-semibold shadow-2xs border border-emerald-500/30"
+            : filter.value === "incorrect"
+            ? "bg-card text-rose-500 dark:text-rose-400 font-semibold shadow-2xs border border-rose-500/30"
+            : "bg-card text-foreground font-semibold shadow-2xs border border-border/70";
+
+        const badgeActiveStyles =
+          filter.value === "correct"
+            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20"
+            : filter.value === "incorrect"
+            ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/20"
+            : "bg-primary/10 text-primary border border-primary/20";
+
         return (
           <button
             key={filter.value}
@@ -48,18 +67,18 @@ export function QuestionReviewFilter({
             onClick={() => onChange(filter.value)}
             aria-pressed={isActive}
             className={cn(
-              "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer select-none",
+              "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition-all cursor-pointer select-none",
               isActive
-                ? "bg-primary text-primary-foreground"
-                : "bg-muted text-muted-foreground hover:bg-muted/80 hover:text-foreground"
+                ? activeStyles
+                : "text-muted-foreground hover:text-foreground hover:bg-muted/40 border border-transparent"
             )}
           >
             {filter.label}
             <span
               className={cn(
-                "inline-flex h-4 min-w-[1rem] items-center justify-center rounded px-1 text-[10px] font-bold tabular-nums",
+                "inline-flex h-4 min-w-[1rem] items-center justify-center rounded px-1 text-[10px] font-bold tabular-nums transition-colors",
                 isActive
-                  ? "bg-primary-foreground/20 text-primary-foreground"
+                  ? badgeActiveStyles
                   : "bg-background/60 text-muted-foreground"
               )}
             >

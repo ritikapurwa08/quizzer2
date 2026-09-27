@@ -17,9 +17,6 @@ import {
   FileUp,
   BarChart2,
   LayoutGrid,
-  BookOpen,
-  Layers,
-  FileText,
   HelpCircle,
   Sun,
   Moon,
@@ -204,45 +201,6 @@ export function Navbar() {
                           >
                             <FileUp className="h-3.5 w-3.5" />
                             Import Questions
-                          </Link>
-                          <Link
-                            href="/admin/subjects"
-                            onClick={() => setProfileOpen(false)}
-                            className={cn(
-                              "flex items-center gap-2.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors",
-                              pathname === "/admin/subjects"
-                                ? "bg-muted text-foreground font-semibold"
-                                : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                            )}
-                          >
-                            <BookOpen className="h-3.5 w-3.5" />
-                            Subjects
-                          </Link>
-                          <Link
-                            href="/admin/topics"
-                            onClick={() => setProfileOpen(false)}
-                            className={cn(
-                              "flex items-center gap-2.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors",
-                              pathname === "/admin/topics"
-                                ? "bg-muted text-foreground font-semibold"
-                                : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                            )}
-                          >
-                            <Layers className="h-3.5 w-3.5" />
-                            Topics
-                          </Link>
-                          <Link
-                            href="/admin/test-sets"
-                            onClick={() => setProfileOpen(false)}
-                            className={cn(
-                              "flex items-center gap-2.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors",
-                              pathname === "/admin/test-sets"
-                                ? "bg-muted text-foreground font-semibold"
-                                : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
-                            )}
-                          >
-                            <FileText className="h-3.5 w-3.5" />
-                            Test Sets
                           </Link>
                           <Link
                             href="/admin/questions"

@@ -78,40 +78,7 @@ export default function AdminOverviewPage() {
         <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
           Management Sections
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-          <Link href="/admin/subjects">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
-              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
-                <BookOpen className="h-4 w-4" />
-              </div>
-              <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Manage Subjects</p>
-                <p className="text-[11px] text-muted-foreground truncate">Add & order subjects</p>
-              </div>
-            </Card>
-          </Link>
-          <Link href="/admin/topics">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
-              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
-                <Layers className="h-4 w-4" />
-              </div>
-              <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Manage Topics</p>
-                <p className="text-[11px] text-muted-foreground truncate">Fixed topic hierarchy</p>
-              </div>
-            </Card>
-          </Link>
-          <Link href="/admin/test-sets">
-            <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
-              <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
-                <FileText className="h-4 w-4" />
-              </div>
-              <div className="min-w-0">
-                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">Manage Test Sets</p>
-                <p className="text-[11px] text-muted-foreground truncate">Practice sets & scoring</p>
-              </div>
-            </Card>
-          </Link>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href="/admin/questions">
             <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
               <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">

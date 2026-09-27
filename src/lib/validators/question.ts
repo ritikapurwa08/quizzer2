@@ -241,7 +241,7 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
 }
 
 export function tryParseMarkdownTable(text: string): { headers: string[]; rows: string[][]; remainingText: string } | null {
-  if (!text.includes("|")) return null;
+  if (!text || !text.includes("|")) return null;
   const lines = text.split("\n");
   const tableLines: string[] = [];
   const otherLines: string[] = [];
@@ -249,7 +249,8 @@ export function tryParseMarkdownTable(text: string): { headers: string[]; rows: 
 
   for (const line of lines) {
     const trimmed = line.trim();
-    if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
+    // Accept lines containing pipes, whether or not they have outer pipes
+    if (trimmed.includes("|") && (trimmed.startsWith("|") || trimmed.includes(" | ") || /^[^|]+\|[^|]+/.test(trimmed))) {
       inTable = true;
       tableLines.push(trimmed);
     } else {
@@ -263,18 +264,19 @@ export function tryParseMarkdownTable(text: string): { headers: string[]; rows: 
 
   if (tableLines.length < 2) return null;
 
-  // Filter out markdown table separator line e.g. |---|---| or |:---:|---:|
-  const nonDivider = tableLines.filter((l) => !/^\|(\s*:?-+:?\s*\|)+$/.test(l));
+  // Filter out markdown table separator line e.g. |---|---| or ---|--- or |:---:|---:|
+  const nonDivider = tableLines.filter((l) => !/^[|\s]*:?-+:?[|\s\-:]+$/.test(l) && !/^\|(\s*:?-+:?\s*\|)+$/.test(l));
   if (nonDivider.length < 2) return null;
 
-  const parseRow = (line: string) =>
-    line
-      .slice(1, -1)
-      .split("|")
-      .map((c) => c.trim());
+  const parseRow = (line: string) => {
+    let clean = line.trim();
+    if (clean.startsWith("|")) clean = clean.slice(1);
+    if (clean.endsWith("|")) clean = clean.slice(0, -1);
+    return clean.split("|").map((c) => c.trim());
+  };
 
   const headers = parseRow(nonDivider[0]);
-  const rows = nonDivider.slice(1).map(parseRow);
+  const rows = nonDivider.slice(1).map(parseRow).filter((r) => r.some((c) => c.length > 0));
 
   if (headers.length < 2 || rows.length < 1) return null;
 
@@ -437,7 +439,7 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
       type = "table";
       const existingHeaders = meta?.headers;
       const existingRows = meta?.rows;
-      const hasValidTableMeta =
+      let hasValidTableMeta =
         Array.isArray(existingHeaders) && existingHeaders.length >= 2 &&
         Array.isArray(existingRows) && existingRows.length >= 1;
 
@@ -452,7 +454,34 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
           if (parsedTable.remainingText) {
             finalQuestionText = parsedTable.remainingText;
           }
+          hasValidTableMeta = true;
         }
+      }
+
+      // Auto-heal: If no markdown table parsed, check if match lists (left/right) exist
+      if (!hasValidTableMeta) {
+        const extracted = (meta?.left && meta?.right)
+          ? { left: meta.left, right: meta.right, leftTitle: meta.leftTitle, rightTitle: meta.rightTitle }
+          : extractMatchListsFromText(questionText);
+
+        if (Array.isArray(extracted.left) && extracted.left.length > 0 && Array.isArray(extracted.right) && extracted.right.length > 0) {
+          const maxLen = Math.max(extracted.left.length, extracted.right.length);
+          const autoRows: string[][] = [];
+          for (let r = 0; r < maxLen; r++) {
+            autoRows.push([extracted.left[r] || "", extracted.right[r] || ""]);
+          }
+          meta = {
+            ...(meta || {}),
+            headers: [extracted.leftTitle || "सूची-I", extracted.rightTitle || "सूची-II"],
+            rows: autoRows,
+          };
+          hasValidTableMeta = true;
+        }
+      }
+
+      // Auto-heal fallback: If still not a valid table structure, gracefully fall back to "mcq" with full text intact
+      if (!hasValidTableMeta) {
+        type = "mcq";
       }
     }
 
@@ -987,9 +1016,9 @@ export function validateImportBatch(
       }
     }
 
-    // 7. Table Question structure check
+    // 7. Table Question structure check with auto-healing
     if (q.type === "table") {
-      const qMeta = q.meta as any;
+      const qMeta = (q.meta || {}) as any;
       const headers = qMeta?.headers;
       const rows = qMeta?.rows;
       const isValidTable =
@@ -997,10 +1026,19 @@ export function validateImportBatch(
         Array.isArray(rows) && rows.length >= 1;
 
       if (!isValidTable) {
-        validStructure = false;
-        errors.push(
-          `Question #${qNum}: Table question format error — Question is marked as 'table' but lacks valid table headers (min 2) and rows (min 1).`
-        );
+        // Auto-heal from left/right match lists if available
+        if (Array.isArray(qMeta?.left) && qMeta.left.length > 0 && Array.isArray(qMeta?.right) && qMeta.right.length > 0) {
+          const maxLen = Math.max(qMeta.left.length, qMeta.right.length);
+          qMeta.headers = [qMeta.leftTitle || "सूची-I", qMeta.rightTitle || "सूची-II"];
+          qMeta.rows = Array.from({ length: maxLen }, (_, idx) => [
+            qMeta.left[idx] || "",
+            qMeta.right[idx] || "",
+          ]);
+          q.meta = qMeta;
+        } else {
+          // Gracefully fall back to standard MCQ representation — preserves question without failing batch
+          (q as any).type = "mcq";
+        }
       }
     }
   }
