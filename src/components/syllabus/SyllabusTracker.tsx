@@ -6,9 +6,12 @@ import {
   SENIOR_TEACHER_SYLLABUS,
   CET_SYLLABUS,
   getMergedCommonTopics,
+  getSubTopicsForTopic,
   SyllabusTopicItem,
   MergedCommonTopic,
+  StaticSubTopic,
 } from "@/lib/syllabus-data";
+import { CANONICAL_SUBJECTS, CANONICAL_TOPICS } from "@/lib/static-syllabus";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -17,27 +20,23 @@ import {
   CheckCircle2,
   Circle,
   Search,
-  Filter,
-  Layers,
   Sparkles,
   BookOpen,
-  GraduationCap,
-  ArrowRight,
-  RotateCcw,
-  CheckCheck,
   ChevronDown,
   ChevronUp,
   ExternalLink,
   Target,
-  Maximize2,
-  Info,
-  BookmarkCheck,
   Flame,
+  AlertTriangle,
+  RotateCcw,
+  Layers,
+  ChevronRight,
+  BookmarkCheck,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 type ExamTab = "senior-teacher" | "cet" | "merged" | "master-75";
-type StatusFilter = "all" | "completed" | "pending";
+type StatusFilter = "all" | "completed" | "pending" | "weak";
 
 interface SyllabusTrackerProps {
   initialTab?: ExamTab;
@@ -45,6 +44,7 @@ interface SyllabusTrackerProps {
 }
 
 const STORAGE_KEY = "quizzer_syllabus_completed_v1";
+const SUBTOPIC_STORAGE_KEY = "quizzer_syllabus_subtopics_v1";
 
 export function SyllabusTracker({
   initialTab = "senior-teacher",
@@ -52,13 +52,15 @@ export function SyllabusTracker({
 }: SyllabusTrackerProps) {
   const [activeTab, setActiveTab] = useState<ExamTab>(initialTab);
   const [completedTopicIds, setCompletedTopicIds] = useState<Set<string>>(new Set());
+  const [completedSubTopicIds, setCompletedSubTopicIds] = useState<Set<string>>(new Set());
+  const [expandedTopicIds, setExpandedTopicIds] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [selectedSection, setSelectedSection] = useState<string>("all");
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({});
   const [isClient, setIsClient] = useState(false);
 
-  // Load completed topics from localStorage
+  // Load completed topics & subtopics from localStorage
   useEffect(() => {
     setIsClient(true);
     try {
@@ -69,20 +71,26 @@ export function SyllabusTracker({
           setCompletedTopicIds(new Set(parsed));
         }
       }
+      const storedSubs = localStorage.getItem(SUBTOPIC_STORAGE_KEY);
+      if (storedSubs) {
+        const parsedSubs = JSON.parse(storedSubs);
+        if (Array.isArray(parsedSubs)) {
+          setCompletedSubTopicIds(new Set(parsedSubs));
+        }
+      }
     } catch (e) {
       console.error("Failed to load syllabus progress from localStorage", e);
     }
   }, []);
 
   // Save to localStorage when completed topics change
-  const toggleTopic = (id: string, commonKey?: string) => {
+  const toggleTopic = (id: string, commonKey?: string, subTopics?: StaticSubTopic[]) => {
     setCompletedTopicIds((prev) => {
       const next = new Set(prev);
       const isCurrentlyDone = next.has(id);
 
       if (isCurrentlyDone) {
         next.delete(id);
-        // Also uncheck paired common topic if user wants unified sync
         if (commonKey) {
           SENIOR_TEACHER_SYLLABUS.forEach((t) => {
             if (t.commonKey === commonKey) next.delete(t.id);
@@ -93,7 +101,6 @@ export function SyllabusTracker({
         }
       } else {
         next.add(id);
-        // Also mark paired common topic as completed
         if (commonKey) {
           SENIOR_TEACHER_SYLLABUS.forEach((t) => {
             if (t.commonKey === commonKey) next.add(t.id);
@@ -111,47 +118,68 @@ export function SyllabusTracker({
       }
       return next;
     });
+
+    // Also toggle all child subtopics if provided
+    if (subTopics && subTopics.length > 0) {
+      setCompletedSubTopicIds((prevSubs) => {
+        const nextSubs = new Set(prevSubs);
+        const shouldCheck = !completedTopicIds.has(id);
+        subTopics.forEach((st) => {
+          if (shouldCheck) nextSubs.add(st.id);
+          else nextSubs.delete(st.id);
+        });
+        try {
+          localStorage.setItem(SUBTOPIC_STORAGE_KEY, JSON.stringify(Array.from(nextSubs)));
+        } catch (e) {
+          console.error("Failed to persist subtopics progress", e);
+        }
+        return nextSubs;
+      });
+    }
   };
 
-  const markAllInCurrentView = (markDone: boolean) => {
-    setCompletedTopicIds((prev) => {
+  // Toggle individual subtopic
+  const toggleSubTopic = (subTopicId: string, parentTopicId: string, allSubTopics: StaticSubTopic[]) => {
+    setCompletedSubTopicIds((prev) => {
       const next = new Set(prev);
-      const targetList =
-        activeTab === "senior-teacher"
-          ? SENIOR_TEACHER_SYLLABUS
-          : activeTab === "cet"
-          ? CET_SYLLABUS
-          : getMergedCommonTopics().map((m) => m.seniorTeacherTopic);
-
-      targetList.forEach((topic) => {
-        if (markDone) {
-          next.add(topic.id);
-          if (topic.commonKey) {
-            SENIOR_TEACHER_SYLLABUS.forEach((t) => {
-              if (t.commonKey === topic.commonKey) next.add(t.id);
-            });
-            CET_SYLLABUS.forEach((t) => {
-              if (t.commonKey === topic.commonKey) next.add(t.id);
-            });
-          }
-        } else {
-          next.delete(topic.id);
-          if (topic.commonKey) {
-            SENIOR_TEACHER_SYLLABUS.forEach((t) => {
-              if (t.commonKey === topic.commonKey) next.delete(t.id);
-            });
-            CET_SYLLABUS.forEach((t) => {
-              if (t.commonKey === topic.commonKey) next.delete(t.id);
-            });
-          }
-        }
-      });
+      if (next.has(subTopicId)) {
+        next.delete(subTopicId);
+      } else {
+        next.add(subTopicId);
+      }
 
       try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(next)));
+        localStorage.setItem(SUBTOPIC_STORAGE_KEY, JSON.stringify(Array.from(next)));
       } catch (e) {
-        console.error("Failed to save syllabus progress", e);
+        console.error("Failed to persist subtopic progress", e);
       }
+
+      // Check if all subtopics are now done
+      const allDone = allSubTopics.every((st) => next.has(st.id));
+      setCompletedTopicIds((prevTopics) => {
+        const nextTopics = new Set(prevTopics);
+        if (allDone) {
+          nextTopics.add(parentTopicId);
+        } else {
+          nextTopics.delete(parentTopicId);
+        }
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(nextTopics)));
+        } catch (e) {
+          console.error("Failed to persist topic progress", e);
+        }
+        return nextTopics;
+      });
+
+      return next;
+    });
+  };
+
+  const toggleExpandTopic = (topicId: string) => {
+    setExpandedTopicIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(topicId)) next.delete(topicId);
+      else next.add(topicId);
       return next;
     });
   };
@@ -159,8 +187,10 @@ export function SyllabusTracker({
   const resetAllProgress = () => {
     if (window.confirm("क्या आप वाकई सभी टिक किए गए टॉपिक्स को रीसेट करना चाहते हैं?")) {
       setCompletedTopicIds(new Set());
+      setCompletedSubTopicIds(new Set());
       try {
         localStorage.removeItem(STORAGE_KEY);
+        localStorage.removeItem(SUBTOPIC_STORAGE_KEY);
       } catch (e) {
         console.error("Failed to clear syllabus progress", e);
       }
@@ -210,12 +240,23 @@ export function SyllabusTracker({
   // Available sections for filtering in active tab
   const availableSections = useMemo(() => {
     if (activeTab === "merged") {
-      const cats = Array.from(new Set(mergedList.map((m) => m.categoryHindi)));
-      return cats;
+      return Array.from(new Set(mergedList.map((m) => m.categoryHindi)));
     }
-    const secs = Array.from(new Set(activeDataset.map((t) => t.section)));
-    return secs;
+    return Array.from(new Set(activeDataset.map((t) => t.section)));
   }, [activeTab, activeDataset, mergedList]);
+
+  // Calculate topic progress helper
+  const getTopicProgress = (topic: SyllabusTopicItem) => {
+    const subTopics = getSubTopicsForTopic(topic);
+    if (completedTopicIds.has(topic.id)) {
+      return { total: subTopics.length, done: subTopics.length, percent: 100, isDone: true, isWeak: false };
+    }
+    const doneCount = subTopics.filter((st) => completedSubTopicIds.has(st.id)).length;
+    const percent = subTopics.length > 0 ? Math.round((doneCount / subTopics.length) * 100) : 0;
+    const isDone = doneCount === subTopics.length && subTopics.length > 0;
+    const isWeak = percent < 60; // Flag as weak area if unattempted or below 60%
+    return { total: subTopics.length, done: doneCount, percent, isDone, isWeak };
+  };
 
   // Filtered topics based on search, status, and section
   const filteredTopics = useMemo(() => {
@@ -229,15 +270,20 @@ export function SyllabusTracker({
         const matchSec = topic.section.toLowerCase().includes(q);
         const matchSub = (topic.subSection || "").toLowerCase().includes(q);
         const matchNotes = (topic.commonNotes || "").toLowerCase().includes(q);
-        if (!matchHindi && !matchEnglish && !matchSec && !matchSub && !matchNotes) {
+        const subTopics = getSubTopicsForTopic(topic);
+        const matchSubTopics = subTopics.some(
+          (st) => st.titleHindi.toLowerCase().includes(q) || st.titleEnglish.toLowerCase().includes(q)
+        );
+        if (!matchHindi && !matchEnglish && !matchSec && !matchSub && !matchNotes && !matchSubTopics) {
           return false;
         }
       }
 
-      // 2. Status Filter
-      const isDone = completedTopicIds.has(topic.id);
-      if (statusFilter === "completed" && !isDone) return false;
-      if (statusFilter === "pending" && isDone) return false;
+      // 2. Status & Weak Area Filter
+      const prog = getTopicProgress(topic);
+      if (statusFilter === "completed" && !prog.isDone) return false;
+      if (statusFilter === "pending" && prog.isDone) return false;
+      if (statusFilter === "weak" && !prog.isWeak) return false;
 
       // 3. Section Filter
       if (selectedSection !== "all" && topic.section !== selectedSection) {
@@ -246,7 +292,7 @@ export function SyllabusTracker({
 
       return true;
     });
-  }, [activeDataset, searchQuery, statusFilter, selectedSection, completedTopicIds]);
+  }, [activeDataset, searchQuery, statusFilter, selectedSection, completedTopicIds, completedSubTopicIds]);
 
   // Filtered merged topics
   const filteredMergedTopics = useMemo(() => {
@@ -265,6 +311,7 @@ export function SyllabusTracker({
         completedTopicIds.has(item.cetTopic.id);
       if (statusFilter === "completed" && !isDone) return false;
       if (statusFilter === "pending" && isDone) return false;
+      if (statusFilter === "weak" && isDone) return false;
 
       if (selectedSection !== "all" && item.categoryHindi !== selectedSection) {
         return false;
@@ -287,497 +334,295 @@ export function SyllabusTracker({
   // Current overview numbers based on active tab
   const activeOverview = useMemo(() => {
     if (activeTab === "senior-teacher") {
+      const weakCount = SENIOR_TEACHER_SYLLABUS.filter((t) => getTopicProgress(t).isWeak).length;
       return {
-        title: "RPSC वरिष्ठ अध्यापक (2nd Grade) पेपर- I",
-        subtitle: "सामान्य ज्ञान एवं शैक्षिक मनोविज्ञान (कुल 100 प्रश्न / 200 अंक)",
+        title: "2nd Grade Paper-1 (GK)",
         total: stTotal,
         completed: stCompleted,
         percent: stPercent,
         remaining: stTotal - stCompleted,
+        weakCount,
       };
     } else if (activeTab === "cet") {
+      const weakCount = CET_SYLLABUS.filter((t) => getTopicProgress(t).isWeak).length;
       return {
-        title: "RSMSSB समान पात्रता परीक्षा (CET)",
-        subtitle: "स्नातक एवं सीनियर सेकेंडरी स्तर (कुल 150 प्रश्न / 300 अंक)",
+        title: "RSMSSB CET (Grad. & 12th)",
         total: cetTotal,
         completed: cetCompleted,
         percent: cetPercent,
         remaining: cetTotal - cetCompleted,
+        weakCount,
       };
     } else if (activeTab === "merged") {
       return {
-        title: "उभयनिष्ठ पाठ्यक्रम (2nd Grade & CET दोनों में कॉमन)",
-        subtitle: "एक बार तैयार करें, दोनों परीक्षाओं में अधिकतम स्कोर सुनिश्चित करें",
+        title: "उभयनिष्ठ पाठ्यक्रम (Overlap)",
         total: mergedTotal,
         completed: mergedCompleted,
         percent: mergedPercent,
         remaining: mergedTotal - mergedCompleted,
-      };
-    } else {
-      return {
-        title: "राजस्थान GK 70 मास्टर टॉपिक्स तुलना",
-        subtitle: "Quizzer2 के 70 कैनोनिकल टॉपिक्स से सम्पूर्ण पाठ्यक्रम की मैपिंग",
-        total: 70,
-        completed: 70,
-        percent: 100,
-        remaining: 0,
+        weakCount: mergedTotal - mergedCompleted,
       };
     }
-  }, [activeTab, stTotal, stCompleted, stPercent, cetTotal, cetCompleted, cetPercent, mergedTotal, mergedCompleted, mergedPercent]);
+    return {
+      title: "राजस्थान GK 70 मास्टर टॉपिक्स",
+      total: 70,
+      completed: 70,
+      percent: 100,
+      remaining: 0,
+      weakCount: 0,
+    };
+  }, [activeTab, stTotal, stCompleted, stPercent, cetTotal, cetCompleted, cetPercent, mergedTotal, mergedCompleted, mergedPercent, completedTopicIds, completedSubTopicIds]);
 
   return (
-    <div className="space-y-4 sm:space-y-5">
-      {/* ─── Top Header Card ─── */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-1 border-b border-border/60">
+    <div className="space-y-3.5 max-w-5xl mx-auto">
+      {/* ─── Compact Header & Tab Switcher ─── */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-1">
         <div>
           <div className="flex items-center gap-2">
-            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-foreground text-background text-xs font-bold shrink-0">
-              <GraduationCap className="h-4 w-4" />
-            </span>
-            <h2 className="text-lg sm:text-xl font-bold tracking-tight text-foreground font-hindi">
-              परीक्षा पाठ्यक्रम एवं तैयारी ट्रैकर
+            <div className="p-1 rounded-md bg-primary/10 text-primary">
+              <BookOpen className="h-4 w-4" />
+            </div>
+            <h2 className="text-base sm:text-lg font-bold text-foreground font-hindi tracking-tight">
+              पाठ्यक्रम एवं तैयारी ट्रैकर
             </h2>
           </div>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5 font-hindi">
-            वरिष्ठ अध्यापक (2nd Grade Paper-1) एवं CET का आधिकारिक सिलेबस, कॉमन टॉपिक्स और रियल-टाइम प्रगति।
+          <p className="text-xs text-muted-foreground font-hindi mt-0.5">
+            2nd Grade, CET व 70 मास्टर टॉपिक्स की बहु-स्तरीय प्रगति एवं कमजोर क्षेत्र।
           </p>
         </div>
 
-        {/* View Mode Links */}
-        {!isStandalonePage && (
-          <div className="flex items-center gap-2 shrink-0">
-            <Button
-              asChild
-              variant="outline"
-              size="sm"
-              className="rounded-xl text-xs font-semibold h-8 gap-1.5 shadow-2xs border-border/80"
-            >
-              <Link href="/syllabus">
-                विस्तृत पृष्ठ पर देखें <Maximize2 className="h-3 w-3" />
-              </Link>
-            </Button>
-          </div>
-        )}
-      </div>
+        {/* Compact Segmented Tabs */}
+        <div className="flex items-center gap-1 bg-muted/60 p-1 rounded-xl border border-border/80 self-start sm:self-auto overflow-x-auto max-w-full">
+          <button
+            type="button"
+            onClick={() => { setActiveTab("senior-teacher"); setSelectedSection("all"); }}
+            className={cn(
+              "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5",
+              activeTab === "senior-teacher"
+                ? "bg-background text-foreground shadow-2xs border border-border/60"
+                : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            <span>2nd Grade</span>
+            <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-muted text-foreground">
+              {stPercent}%
+            </span>
+          </button>
 
-      {/* ─── Primary Navigation Tabs ( वरिष्ठ अध्यापक | CET | दोनों में कॉमन | 75 मास्टर टॉपिक्स ) ─── */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {/* 1. Senior Teacher Tab */}
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("senior-teacher");
-            setSelectedSection("all");
-          }}
-          className={cn(
-            "flex flex-col items-start p-3 rounded-2xl border text-left transition-all duration-200 cursor-pointer select-none",
-            activeTab === "senior-teacher"
-              ? "bg-foreground text-background border-foreground shadow-sm"
-              : "bg-card text-foreground border-border hover:border-foreground/40 hover:bg-muted/40"
-          )}
-        >
-          <div className="flex items-center justify-between w-full">
-            <span className="text-[11px] font-bold uppercase tracking-wider opacity-80">
-              RPSC 2nd Grade
+          <button
+            type="button"
+            onClick={() => { setActiveTab("cet"); setSelectedSection("all"); }}
+            className={cn(
+              "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5",
+              activeTab === "cet"
+                ? "bg-background text-foreground shadow-2xs border border-border/60"
+                : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            <span>CET</span>
+            <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-muted text-foreground">
+              {cetPercent}%
             </span>
-            <span
-              className={cn(
-                "text-[10px] font-bold px-1.5 py-0.5 rounded-full",
-                activeTab === "senior-teacher"
-                  ? "bg-background/20 text-background"
-                  : "bg-muted text-muted-foreground"
-              )}
-            >
-              {stPercent}% पूर्ण
-            </span>
-          </div>
-          <span className="text-xs sm:text-sm font-bold font-hindi mt-1 line-clamp-1">
-            वरिष्ठ अध्यापक (Paper-I)
-          </span>
-          <div className="w-full bg-muted/40 h-1.5 rounded-full mt-2 overflow-hidden">
-            <div
-              className={cn(
-                "h-full rounded-full transition-all duration-300",
-                activeTab === "senior-teacher" ? "bg-background" : "bg-foreground"
-              )}
-              style={{ width: `${stPercent}%` }}
-            />
-          </div>
-        </button>
+          </button>
 
-        {/* 2. CET Tab */}
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("cet");
-            setSelectedSection("all");
-          }}
-          className={cn(
-            "flex flex-col items-start p-3 rounded-2xl border text-left transition-all duration-200 cursor-pointer select-none",
-            activeTab === "cet"
-              ? "bg-foreground text-background border-foreground shadow-sm"
-              : "bg-card text-foreground border-border hover:border-foreground/40 hover:bg-muted/40"
-          )}
-        >
-          <div className="flex items-center justify-between w-full">
-            <span className="text-[11px] font-bold uppercase tracking-wider opacity-80">
-              RSMSSB CET
-            </span>
-            <span
-              className={cn(
-                "text-[10px] font-bold px-1.5 py-0.5 rounded-full",
-                activeTab === "cet"
-                  ? "bg-background/20 text-background"
-                  : "bg-muted text-muted-foreground"
-              )}
-            >
-              {cetPercent}% पूर्ण
-            </span>
-          </div>
-          <span className="text-xs sm:text-sm font-bold font-hindi mt-1 line-clamp-1">
-            समान पात्रता परीक्षा (CET)
-          </span>
-          <div className="w-full bg-muted/40 h-1.5 rounded-full mt-2 overflow-hidden">
-            <div
-              className={cn(
-                "h-full rounded-full transition-all duration-300",
-                activeTab === "cet" ? "bg-background" : "bg-foreground"
-              )}
-              style={{ width: `${cetPercent}%` }}
-            />
-          </div>
-        </button>
+          <button
+            type="button"
+            onClick={() => { setActiveTab("merged"); setSelectedSection("all"); }}
+            className={cn(
+              "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5",
+              activeTab === "merged"
+                ? "bg-background text-foreground shadow-2xs border border-border/60"
+                : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            <Sparkles className="h-3 w-3 text-amber-500" />
+            <span>कॉमन टॉपिक्स</span>
+          </button>
 
-        {/* 3. Merged / Common Tab */}
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("merged");
-            setSelectedSection("all");
-          }}
-          className={cn(
-            "flex flex-col items-start p-3 rounded-2xl border text-left transition-all duration-200 cursor-pointer select-none",
-            activeTab === "merged"
-              ? "bg-foreground text-background border-foreground shadow-sm"
-              : "bg-card text-foreground border-border hover:border-foreground/40 hover:bg-muted/40"
-          )}
-        >
-          <div className="flex items-center justify-between w-full">
-            <span className="text-[11px] font-bold uppercase tracking-wider flex items-center gap-1 opacity-80">
-              <Sparkles className="h-3 w-3" /> दोनों में कॉमन
-            </span>
-            <span
-              className={cn(
-                "text-[10px] font-bold px-1.5 py-0.5 rounded-full",
-                activeTab === "merged"
-                  ? "bg-background/20 text-background"
-                  : "bg-muted text-muted-foreground"
-              )}
-            >
-              {mergedPercent}% पूर्ण
-            </span>
-          </div>
-          <span className="text-xs sm:text-sm font-bold font-hindi mt-1 line-clamp-1">
-            उभयनिष्ठ (Merge) टॉपिक्स
-          </span>
-          <div className="w-full bg-muted/40 h-1.5 rounded-full mt-2 overflow-hidden">
-            <div
-              className={cn(
-                "h-full rounded-full transition-all duration-300",
-                activeTab === "merged" ? "bg-background" : "bg-foreground"
-              )}
-              style={{ width: `${mergedPercent}%` }}
-            />
-          </div>
-        </button>
-
-        {/* 4. Master 75 Topics Comparison Tab */}
-        <button
-          type="button"
-          onClick={() => {
-            setActiveTab("master-75");
-            setSelectedSection("all");
-          }}
-          className={cn(
-            "flex flex-col items-start p-3 rounded-2xl border text-left transition-all duration-200 cursor-pointer select-none",
-            activeTab === "master-75"
-              ? "bg-foreground text-background border-foreground shadow-sm"
-              : "bg-card text-foreground border-border hover:border-foreground/40 hover:bg-muted/40"
-          )}
-        >
-          <div className="flex items-center justify-between w-full">
-            <span className="text-[11px] font-bold uppercase tracking-wider opacity-80">
-              Quizzer2 Core
-            </span>
-            <span
-              className={cn(
-                "text-[10px] font-bold px-1.5 py-0.5 rounded-full",
-                activeTab === "master-75"
-                  ? "bg-background/20 text-background"
-                  : "bg-muted text-muted-foreground"
-              )}
-            >
-              70 Topics
-            </span>
-          </div>
-          <span className="text-xs sm:text-sm font-bold font-hindi mt-1 line-clamp-1">
-            70 मास्टर टॉपिक्स मैपिंग
-          </span>
-          <div className="w-full bg-muted/40 h-1.5 rounded-full mt-2 overflow-hidden">
-            <div
-              className={cn(
-                "h-full rounded-full transition-all duration-300",
-                activeTab === "master-75" ? "bg-background" : "bg-foreground"
-              )}
-              style={{ width: "100%" }}
-            />
-          </div>
-        </button>
-      </div>
-
-      {/* ─── Overview & Progress Metrics Card ─── */}
-      <Card className="p-4 sm:p-5 rounded-2xl border border-border shadow-xs bg-card">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-muted text-foreground">
-                {activeTab === "senior-teacher" && "Senior Teacher"}
-                {activeTab === "cet" && "CET Pattern"}
-                {activeTab === "merged" && "Synergy Analysis"}
-                {activeTab === "master-75" && "Canonical Mapping"}
-              </span>
-              <h3 className="text-base sm:text-lg font-bold text-foreground font-hindi">
-                {activeOverview.title}
-              </h3>
-            </div>
-            <p className="text-xs sm:text-sm text-muted-foreground font-hindi">
-              {activeOverview.subtitle}
-            </p>
-          </div>
-
-          {/* Quick Metrics */}
-          {activeTab !== "master-75" && (
-            <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-muted/60 border border-border/80">
-                <BookmarkCheck className="h-4 w-4 text-emerald-600 dark:text-emerald-400" />
-                <span className="text-xs font-bold text-foreground font-hindi">
-                  पूर्ण: {activeOverview.completed} / {activeOverview.total}
-                </span>
-              </div>
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-muted/60 border border-border/80">
-                <Target className="h-4 w-4 text-amber-600 dark:text-amber-400" />
-                <span className="text-xs font-bold text-foreground font-hindi">
-                  शेष: {activeOverview.remaining} टॉपिक्स
-                </span>
-              </div>
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-foreground text-background">
-                <Flame className="h-4 w-4" />
-                <span className="text-xs font-bold font-hindi">
-                  {activeOverview.percent}% कवर्ड
-                </span>
-              </div>
-            </div>
-          )}
+          <button
+            type="button"
+            onClick={() => { setActiveTab("master-75"); setSelectedSection("all"); }}
+            className={cn(
+              "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5",
+              activeTab === "master-75"
+                ? "bg-background text-foreground shadow-2xs border border-border/60"
+                : "text-muted-foreground hover:text-foreground"
+            )}
+          >
+            <span>70 टॉपिक्स</span>
+          </button>
         </div>
+      </div>
 
-        {/* Progress Bar */}
-        {activeTab !== "master-75" && (
-          <div className="mt-4 space-y-1.5">
-            <div className="flex items-center justify-between text-xs font-semibold text-muted-foreground">
-              <span>तैयारी प्रगति (Preparation Progress)</span>
-              <span className="text-foreground font-bold">{activeOverview.percent}% पूर्ण</span>
-            </div>
-            <div className="w-full h-2.5 bg-muted rounded-full overflow-hidden border border-border/60">
-              <div
-                className="h-full bg-emerald-600 dark:bg-emerald-500 rounded-full transition-all duration-300 ease-out"
-                style={{ width: `${activeOverview.percent}%` }}
-              />
-            </div>
-          </div>
-        )}
-      </Card>
-
-      {/* ─── Controls: Search & Filters (Only when viewing topics) ─── */}
+      {/* ─── Compact Progress & Weak Area Bar ─── */}
       {activeTab !== "master-75" && (
-        <div className="space-y-3">
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
-            {/* Search Input */}
-            <div className="relative flex-1">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-              <Input
-                placeholder="टॉपिक खोजें (उदा: नदियाँ, प्रजामंडल, 1857, राज्यपाल, संधि...)"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-9 pr-4 h-9 text-xs sm:text-sm rounded-xl border-border bg-card font-hindi"
-              />
+        <Card className="p-3 sm:p-3.5 rounded-xl border border-border/80 bg-card shadow-2xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+            <div className="flex items-center gap-2 flex-wrap text-xs">
+              <span className="font-bold text-foreground font-hindi">{activeOverview.title}</span>
+              <span className="text-muted-foreground">•</span>
+              <span className="text-emerald-600 dark:text-emerald-400 font-semibold font-hindi">
+                पूर्ण: {activeOverview.completed} / {activeOverview.total}
+              </span>
+              <span className="text-muted-foreground">•</span>
+              <span className="text-muted-foreground font-hindi">
+                शेष: {activeOverview.remaining}
+              </span>
+              {activeOverview.weakCount > 0 && (
+                <span className="inline-flex items-center gap-1 text-[11px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20 font-hindi">
+                  <AlertTriangle className="h-3 w-3" /> {activeOverview.weakCount} कमजोर/लंबित
+                </span>
+              )}
             </div>
 
-            {/* Status Filter */}
-            <div className="flex items-center gap-1 bg-muted/60 p-1 rounded-xl border border-border/80 shrink-0">
+            <div className="flex items-center gap-2 shrink-0">
+              <span className="text-xs font-bold font-hindi tabular-nums">{activeOverview.percent}%</span>
+              <div className="w-24 sm:w-32 h-2 bg-muted rounded-full overflow-hidden border border-border/60">
+                <div
+                  className="h-full bg-emerald-600 dark:bg-emerald-500 rounded-full transition-all duration-300"
+                  style={{ width: `${activeOverview.percent}%` }}
+                />
+              </div>
               <button
                 type="button"
-                onClick={() => setStatusFilter("all")}
-                className={cn(
-                  "px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors cursor-pointer",
-                  statusFilter === "all"
-                    ? "bg-foreground text-background shadow-2xs"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-              >
-                सभी ({activeTab === "merged" ? mergedTotal : activeDataset.length})
-              </button>
-              <button
-                type="button"
-                onClick={() => setStatusFilter("completed")}
-                className={cn(
-                  "px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors cursor-pointer",
-                  statusFilter === "completed"
-                    ? "bg-foreground text-background shadow-2xs"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-              >
-                पूर्ण ✓ ({activeTab === "merged" ? mergedCompleted : activeOverview.completed})
-              </button>
-              <button
-                type="button"
-                onClick={() => setStatusFilter("pending")}
-                className={cn(
-                  "px-2.5 py-1 text-xs font-semibold rounded-lg transition-colors cursor-pointer",
-                  statusFilter === "pending"
-                    ? "bg-foreground text-background shadow-2xs"
-                    : "text-muted-foreground hover:text-foreground"
-                )}
-              >
-                अपूर्ण ⏳ ({activeTab === "merged" ? mergedTotal - mergedCompleted : activeOverview.remaining})
-              </button>
-            </div>
-
-            {/* Quick Bulk Actions */}
-            <div className="flex items-center gap-1.5 shrink-0">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => markAllInCurrentView(true)}
-                className="h-9 px-2.5 text-xs rounded-xl font-semibold gap-1 border-border/80 hover:bg-muted"
-                title="वर्तमान सूची के सभी टॉपिक्स को पूर्ण मार्क करें"
-              >
-                <CheckCheck className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
-                <span className="hidden sm:inline">सब पूर्ण</span>
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => markAllInCurrentView(false)}
-                className="h-9 px-2.5 text-xs rounded-xl font-semibold gap-1 border-border/80 hover:bg-muted"
-                title="वर्तमान सूची के सभी टॉपिक्स को अनचेक करें"
-              >
-                <Circle className="h-3.5 w-3.5 text-muted-foreground" />
-                <span className="hidden sm:inline">सब अनचेक</span>
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
                 onClick={resetAllProgress}
-                className="h-9 px-2 text-xs rounded-xl text-destructive hover:bg-destructive/10"
-                title="पूरी प्रगति रीसेट करें"
+                className="text-muted-foreground hover:text-destructive p-1 rounded transition-colors cursor-pointer ml-1"
+                title="प्रगति रीसेट करें"
               >
                 <RotateCcw className="h-3.5 w-3.5" />
-              </Button>
+              </button>
             </div>
           </div>
+        </Card>
+      )}
 
-          {/* Section Filter Pills */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1.5 scrollbar-none text-xs">
-            <span className="text-[11px] font-bold text-muted-foreground flex items-center gap-1 shrink-0 mr-1 uppercase">
-              <Filter className="h-3 w-3" /> विषय:
-            </span>
+      {/* ─── Compact Search, Section & Weak Area Filter ─── */}
+      {activeTab !== "master-75" && (
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
+          {/* Search Input */}
+          <div className="relative flex-1">
+            <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
+            <Input
+              placeholder="टॉपिक या सब-टॉपिक खोजें (उदा: बनास नदी, कालीबंगा, 1857...)"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-8 pr-3 h-8 text-xs rounded-lg border-border bg-card font-hindi"
+            />
+          </div>
+
+          {/* Quick Section Filter */}
+          <select
+            value={selectedSection}
+            onChange={(e) => setSelectedSection(e.target.value)}
+            className="h-8 text-xs rounded-lg border border-border bg-card px-2 text-foreground font-hindi focus:outline-hidden cursor-pointer"
+          >
+            <option value="all">सभी खंड ({availableSections.length})</option>
+            {availableSections.map((sec) => (
+              <option key={sec} value={sec}>
+                {sec.length > 32 ? sec.slice(0, 32) + "…" : sec}
+              </option>
+            ))}
+          </select>
+
+          {/* Status / Weak Area Toggle */}
+          <div className="flex items-center gap-1 bg-muted/60 p-0.5 rounded-lg border border-border/80 shrink-0">
             <button
               type="button"
-              onClick={() => setSelectedSection("all")}
+              onClick={() => setStatusFilter("all")}
               className={cn(
-                "px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer shrink-0",
-                selectedSection === "all"
-                  ? "bg-foreground text-background"
-                  : "bg-card border border-border/80 text-muted-foreground hover:text-foreground"
+                "px-2 py-1 text-[11px] font-semibold rounded-md transition-colors cursor-pointer",
+                statusFilter === "all" ? "bg-background text-foreground shadow-2xs" : "text-muted-foreground hover:text-foreground"
               )}
             >
-              सभी खंड (All)
+              सभी
             </button>
-            {availableSections.map((sec) => (
-              <button
-                key={sec}
-                type="button"
-                onClick={() => setSelectedSection(sec)}
-                className={cn(
-                  "px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors cursor-pointer shrink-0 font-hindi",
-                  selectedSection === sec
-                    ? "bg-foreground text-background"
-                    : "bg-card border border-border/80 text-muted-foreground hover:text-foreground"
-                )}
-              >
-                {sec}
-              </button>
-            ))}
+            <button
+              type="button"
+              onClick={() => setStatusFilter("weak")}
+              className={cn(
+                "px-2 py-1 text-[11px] font-semibold rounded-md transition-colors cursor-pointer flex items-center gap-1",
+                statusFilter === "weak"
+                  ? "bg-amber-500 text-white font-bold shadow-2xs"
+                  : "text-amber-600 dark:text-amber-400 hover:text-foreground"
+              )}
+              title="कमजोर व लंबित टॉपिक्स देखें"
+            >
+              <AlertTriangle className="h-3 w-3" />
+              <span>कमजोर</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setStatusFilter("pending")}
+              className={cn(
+                "px-2 py-1 text-[11px] font-semibold rounded-md transition-colors cursor-pointer",
+                statusFilter === "pending" ? "bg-background text-foreground shadow-2xs" : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              लंबित
+            </button>
+            <button
+              type="button"
+              onClick={() => setStatusFilter("completed")}
+              className={cn(
+                "px-2 py-1 text-[11px] font-semibold rounded-md transition-colors cursor-pointer",
+                statusFilter === "completed" ? "bg-background text-foreground shadow-2xs" : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              पूर्ण
+            </button>
           </div>
         </div>
       )}
 
-      {/* ─── TAB 1 & 2: Senior Teacher & CET Checklists ─── */}
+      {/* ─── TAB 1 & 2: Senior Teacher & CET (Compact Hierarchical Checklist) ─── */}
       {(activeTab === "senior-teacher" || activeTab === "cet") && (
-        <div className="space-y-4">
+        <div className="space-y-2.5">
           {Object.keys(groupedSections).length === 0 ? (
-            <Card className="p-8 text-center rounded-2xl border border-dashed border-border">
-              <BookOpen className="h-8 w-8 text-muted-foreground/40 mx-auto mb-2" />
-              <p className="text-sm font-semibold text-foreground font-hindi">
-                कोई टॉपिक नहीं मिला
-              </p>
-              <p className="text-xs text-muted-foreground mt-1 font-hindi">
-                कृपया सर्च कीवर्ड या फिल्टर बदल कर पुनः प्रयास करें।
-              </p>
+            <Card className="p-6 text-center rounded-xl border border-dashed border-border bg-card">
+              <BookOpen className="h-6 w-6 text-muted-foreground/40 mx-auto mb-1.5" />
+              <p className="text-xs sm:text-sm font-semibold text-foreground font-hindi">कोई टॉपिक नहीं मिला</p>
+              <p className="text-xs text-muted-foreground mt-0.5 font-hindi">कृपया सर्च कीवर्ड या फिल्टर बदलें।</p>
             </Card>
           ) : (
             Object.entries(groupedSections).map(([sectionName, sectionTopics]) => {
               const isCollapsed = collapsedSections[sectionName];
               const sectionTotal = sectionTopics.length;
-              const sectionDone = sectionTopics.filter((t) => completedTopicIds.has(t.id)).length;
+              const sectionDone = sectionTopics.filter((t) => getTopicProgress(t).isDone).length;
               const sectionPercent = Math.round((sectionDone / sectionTotal) * 100);
 
               return (
-                <Card
-                  key={sectionName}
-                  className="rounded-2xl border border-border overflow-hidden shadow-2xs bg-card"
-                >
-                  {/* Section Collapsible Header */}
+                <Card key={sectionName} className="rounded-xl border border-border/80 overflow-hidden shadow-2xs bg-card">
+                  {/* Section Header */}
                   <div
                     onClick={() => toggleSectionCollapse(sectionName)}
-                    className="flex items-center justify-between p-3.5 sm:p-4 bg-muted/40 hover:bg-muted/70 cursor-pointer transition-colors border-b border-border/60 select-none"
+                    className="flex items-center justify-between px-3 py-2 bg-muted/40 hover:bg-muted/70 cursor-pointer transition-colors border-b border-border/60 select-none"
                   >
-                    <div className="flex items-center gap-2.5 min-w-0 flex-1">
-                      <span className="flex h-6 w-6 items-center justify-center rounded-md bg-foreground/10 text-foreground text-xs font-bold shrink-0">
-                        {sectionTopics[0]?.subSection ? "§" : "•"}
+                    <div className="flex items-center gap-2 min-w-0 flex-1">
+                      <span className="flex h-5 w-5 items-center justify-center rounded bg-foreground/10 text-foreground text-[11px] font-bold shrink-0">
+                        §
                       </span>
-                      <div className="min-w-0">
-                        <h4 className="text-xs sm:text-sm font-bold text-foreground font-hindi truncate">
-                          {sectionName}
-                        </h4>
-                        <span className="text-[11px] text-muted-foreground font-hindi">
-                          {sectionDone} / {sectionTotal} पूर्ण ({sectionPercent}%)
-                        </span>
-                      </div>
+                      <h4 className="text-xs sm:text-sm font-bold text-foreground font-hindi truncate">
+                        {sectionName}
+                      </h4>
+                      <span className="text-[11px] text-muted-foreground font-hindi shrink-0">
+                        ({sectionDone}/{sectionTotal} पूर्ण)
+                      </span>
                     </div>
 
                     <div className="flex items-center gap-2 shrink-0">
-                      {/* Section Progress Mini Bar */}
-                      <div className="hidden sm:block w-20 h-2 bg-muted rounded-full overflow-hidden border border-border/60">
+                      <div className="hidden sm:block w-16 h-1.5 bg-muted rounded-full overflow-hidden border border-border/60">
                         <div
                           className="h-full bg-emerald-600 rounded-full transition-all duration-300"
                           style={{ width: `${sectionPercent}%` }}
                         />
                       </div>
+                      <span className="text-[11px] font-semibold text-muted-foreground tabular-nums">
+                        {sectionPercent}%
+                      </span>
                       {isCollapsed ? (
-                        <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                        <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
                       ) : (
-                        <ChevronUp className="h-4 w-4 text-muted-foreground" />
+                        <ChevronUp className="h-3.5 w-3.5 text-muted-foreground" />
                       )}
                     </div>
                   </div>
@@ -785,86 +630,142 @@ export function SyllabusTracker({
                   {/* Section Topics List */}
                   {!isCollapsed && (
                     <div className="divide-y divide-border/50">
-                      {sectionTopics.map((topic, index) => {
-                        const isDone = completedTopicIds.has(topic.id);
+                      {sectionTopics.map((topic) => {
+                        const subTopics = getSubTopicsForTopic(topic);
+                        const prog = getTopicProgress(topic);
+                        const isExpanded = expandedTopicIds.has(topic.id);
 
                         return (
                           <div
                             key={topic.id}
                             className={cn(
-                              "p-3 sm:p-3.5 flex items-start gap-3 hover:bg-muted/30 transition-colors duration-150",
-                              isDone && "bg-muted/15"
+                              "p-2.5 sm:p-3 transition-colors duration-150",
+                              prog.isDone ? "bg-muted/15" : prog.isWeak ? "bg-amber-500/[0.02]" : ""
                             )}
                           >
-                            {/* Interactive Checkbox */}
-                            <button
-                              type="button"
-                              onClick={() => toggleTopic(topic.id, topic.commonKey)}
-                              className="mt-0.5 shrink-0 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
-                              title={isDone ? "मार्क अपूर्ण करें" : "मार्क पूर्ण करें"}
-                            >
-                              {isDone ? (
-                                <CheckCircle2 className="h-5 w-5 text-emerald-600 dark:text-emerald-400 transition-transform active:scale-90" />
-                              ) : (
-                                <Circle className="h-5 w-5 text-muted-foreground/60 hover:text-foreground transition-transform active:scale-90" />
-                              )}
-                            </button>
-
-                            {/* Content */}
-                            <div className="flex-1 min-w-0">
-                              <div className="flex flex-wrap items-center gap-1.5 mb-0.5">
-                                {topic.subSection && (
-                                  <span className="text-[10px] font-semibold uppercase px-1.5 py-0.5 rounded bg-muted text-muted-foreground font-hindi">
-                                    {topic.subSection}
-                                  </span>
-                                )}
-
-                                {/* Common Overlap Badge */}
-                                {topic.isCommon ? (
-                                  <Badge
-                                    variant="secondary"
-                                    className="text-[10px] font-bold px-1.5 py-0 bg-blue-500/10 text-blue-700 dark:text-blue-300 border-blue-500/20 gap-1"
-                                  >
-                                    <Sparkles className="h-2.5 w-2.5" />
-                                    {activeTab === "senior-teacher" ? "CET में भी शामिल" : "2nd Grade में भी शामिल"}
-                                  </Badge>
+                            <div className="flex items-start gap-2.5">
+                              {/* Main Topic Checkbox */}
+                              <button
+                                type="button"
+                                onClick={() => toggleTopic(topic.id, topic.commonKey, subTopics)}
+                                className="mt-0.5 shrink-0 text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+                                title={prog.isDone ? "मार्क अपूर्ण करें" : "मार्क पूर्ण करें"}
+                              >
+                                {prog.isDone ? (
+                                  <CheckCircle2 className="h-4.5 w-4.5 text-emerald-600 dark:text-emerald-400" />
                                 ) : (
-                                  <Badge
-                                    variant="outline"
-                                    className="text-[10px] font-medium px-1.5 py-0 text-muted-foreground"
-                                  >
-                                    {activeTab === "senior-teacher" ? "2nd Grade विशेष" : "CET विशेष"}
-                                  </Badge>
+                                  <Circle className="h-4.5 w-4.5 text-muted-foreground/60 hover:text-foreground" />
                                 )}
+                              </button>
 
-                                {/* 75 Master Topic Link Badge */}
-                                {topic.canonicalTopicId && (
-                                  <Link
-                                    href={`/search?q=${encodeURIComponent(topic.canonicalTopicName || "")}`}
-                                    className="inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 hover:underline"
-                                    title="Quizzer2 के 75 मास्टर टॉपिक में प्रश्न खोजें"
+                              {/* Content */}
+                              <div className="flex-1 min-w-0">
+                                <div className="flex flex-wrap items-center gap-1.5 mb-1">
+                                  {topic.subSection && (
+                                    <span className="text-[10px] font-semibold uppercase px-1.5 py-0.2 rounded bg-muted text-muted-foreground font-hindi">
+                                      {topic.subSection}
+                                    </span>
+                                  )}
+                                  {topic.isCommon && (
+                                    <Badge
+                                      variant="secondary"
+                                      className="text-[10px] font-bold px-1.5 py-0 bg-blue-500/10 text-blue-700 dark:text-blue-300 border-blue-500/20 gap-0.5"
+                                    >
+                                      <Sparkles className="h-2.5 w-2.5" />
+                                      {activeTab === "senior-teacher" ? "CET में भी" : "2nd Grade में भी"}
+                                    </Badge>
+                                  )}
+                                  {topic.canonicalTopicId && (
+                                    <Link
+                                      href={`/search?q=${encodeURIComponent(topic.canonicalTopicName || "")}`}
+                                      className="inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0 rounded bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 hover:underline"
+                                    >
+                                      #{topic.canonicalTopicId} <ExternalLink className="h-2 w-2" />
+                                    </Link>
+                                  )}
+                                  {prog.isWeak && !prog.isDone && (
+                                    <span className="text-[10px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-1.5 py-0.2 rounded-full border border-amber-500/20 font-hindi">
+                                      पुनरावृत्ति जरूरी
+                                    </span>
+                                  )}
+                                </div>
+
+                                <div className="flex items-center justify-between gap-2">
+                                  <p
+                                    onClick={() => toggleExpandTopic(topic.id)}
+                                    className={cn(
+                                      "text-xs sm:text-sm font-semibold font-hindi leading-snug cursor-pointer hover:text-primary transition-colors",
+                                      prog.isDone ? "text-muted-foreground line-through" : "text-foreground"
+                                    )}
                                   >
-                                    Topic #{topic.canonicalTopicId} <ExternalLink className="h-2.5 w-2.5" />
-                                  </Link>
+                                    {topic.titleHindi}
+                                  </p>
+
+                                  <div className="flex items-center gap-1.5 shrink-0">
+                                    {/* Sub-topics counter button */}
+                                    <button
+                                      type="button"
+                                      onClick={() => toggleExpandTopic(topic.id)}
+                                      className="text-[11px] font-medium text-muted-foreground hover:text-foreground bg-muted/60 hover:bg-muted px-2 py-0.5 rounded-md border border-border/60 transition-colors flex items-center gap-1"
+                                      title="सब-टॉपिक्स / हेडिंग्स देखें"
+                                    >
+                                      <span>
+                                        {prog.done}/{prog.total} सब-टॉपिक
+                                      </span>
+                                      {isExpanded ? (
+                                        <ChevronUp className="h-3 w-3" />
+                                      ) : (
+                                        <ChevronDown className="h-3 w-3" />
+                                      )}
+                                    </button>
+                                  </div>
+                                </div>
+
+                                {/* Sub-topics / Headings Hierarchy Dropdown */}
+                                {isExpanded && (
+                                  <div className="mt-2 pl-2 border-l-2 border-primary/20 space-y-1.5 pt-1">
+                                    <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider block font-hindi">
+                                      विस्तृत उप-विषय (Sub-Topics / Headings):
+                                    </span>
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                                      {subTopics.map((st) => {
+                                        const isSubDone = completedSubTopicIds.has(st.id) || prog.isDone;
+
+                                        return (
+                                          <div
+                                            key={st.id}
+                                            onClick={() => toggleSubTopic(st.id, topic.id, subTopics)}
+                                            className={cn(
+                                              "flex items-start gap-2 p-1.5 rounded-lg border text-left cursor-pointer transition-colors select-none",
+                                              isSubDone
+                                                ? "bg-emerald-500/10 border-emerald-500/30 text-foreground"
+                                                : "bg-card border-border/60 hover:border-border hover:bg-muted/30 text-muted-foreground"
+                                            )}
+                                          >
+                                            <button type="button" className="mt-0.5 shrink-0">
+                                              {isSubDone ? (
+                                                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+                                              ) : (
+                                                <Circle className="h-3.5 w-3.5 text-muted-foreground/60" />
+                                              )}
+                                            </button>
+                                            <div className="min-w-0 flex-1">
+                                              <p className={cn("text-[11px] font-hindi leading-tight", isSubDone && "line-through text-muted-foreground")}>
+                                                {st.titleHindi}
+                                              </p>
+                                              {st.titleEnglish && (
+                                                <span className="text-[9.5px] text-muted-foreground/80 block truncate">
+                                                  {st.titleEnglish}
+                                                </span>
+                                              )}
+                                            </div>
+                                          </div>
+                                        );
+                                      })}
+                                    </div>
+                                  </div>
                                 )}
                               </div>
-
-                              <p
-                                className={cn(
-                                  "text-xs sm:text-sm font-semibold font-hindi transition-colors",
-                                  isDone
-                                    ? "text-muted-foreground line-through decoration-muted-foreground/50"
-                                    : "text-foreground"
-                                )}
-                              >
-                                {topic.titleHindi}
-                              </p>
-
-                              {topic.commonNotes && (
-                                <p className="text-[11px] text-muted-foreground/80 font-hindi mt-0.5">
-                                  💡 {topic.commonNotes}
-                                </p>
-                              )}
                             </div>
                           </div>
                         );
@@ -878,167 +779,135 @@ export function SyllabusTracker({
         </div>
       )}
 
-      {/* ─── TAB 3: Merged / Common Topics (Overlap Analysis) ─── */}
+      {/* ─── TAB 3: Merged Common Topics (Compact Synergy View) ─── */}
       {activeTab === "merged" && (
-        <div className="space-y-4">
-          {/* Informational Callout */}
-          <Card className="p-4 rounded-2xl border border-blue-500/20 bg-blue-500/5 text-foreground space-y-2">
-            <div className="flex items-center gap-2">
-              <Sparkles className="h-4 w-4 text-blue-600 dark:text-blue-400 shrink-0" />
-              <h4 className="text-xs sm:text-sm font-bold font-hindi">
-                उभयनिष्ठ पाठ्यक्रम विश्लेषण (Smart Preparation Synergy)
-              </h4>
-            </div>
-            <p className="text-xs text-muted-foreground font-hindi leading-relaxed">
-              नीचे वे सभी टॉपिक्स हैं जो **RPSC वरिष्ठ अध्यापक (Paper-I)** और **RSMSSB CET** दोनों में समान रूप से पूछे जाते हैं। 
-              यदि आप इन टॉपिक्स को गहराई से तैयार कर लेते हैं, तो आपकी दोनों परीक्षाओं का राजस्थान GK, समसामयिकी व भारत भूगोल/राजव्यवस्था एक साथ तैयार हो जाता है!
+        <div className="space-y-2.5">
+          <Card className="p-3 rounded-xl border border-blue-500/20 bg-blue-500/[0.03] text-xs font-hindi flex items-center gap-2">
+            <Sparkles className="h-4 w-4 text-blue-500 shrink-0" />
+            <p className="text-muted-foreground">
+              ये वे <strong className="text-foreground">{mergedList.length} प्रमुख टॉपिक्स</strong> हैं जो 2nd Grade एवं CET दोनों में 100% कॉमन हैं। इन्हें पूरा करने पर दोनों परीक्षाओं में अधिकतम स्कोर सुनिश्चित होता है।
             </p>
           </Card>
 
-          {/* List of Merged Common Topics */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {filteredMergedTopics.map((item) => {
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {filteredMergedTopics.map((m) => {
               const isDone =
-                completedTopicIds.has(item.seniorTeacherTopic.id) ||
-                completedTopicIds.has(item.cetTopic.id);
+                completedTopicIds.has(m.seniorTeacherTopic.id) ||
+                completedTopicIds.has(m.cetTopic.id);
 
               return (
-                <Card
-                  key={item.commonKey}
+                <div
+                  key={m.commonKey}
                   className={cn(
-                    "p-3.5 sm:p-4 rounded-2xl border border-border bg-card transition-all duration-150 flex flex-col justify-between gap-3 shadow-2xs hover:border-foreground/30",
-                    isDone && "bg-muted/20 border-emerald-500/30"
+                    "p-2.5 rounded-xl border transition-all flex items-start gap-2.5 bg-card",
+                    isDone ? "border-emerald-500/30 bg-muted/10" : "border-border/80 hover:border-border"
                   )}
                 >
-                  <div className="space-y-2">
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="space-y-1">
-                        <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-muted text-muted-foreground font-hindi">
-                          {item.categoryHindi}
-                        </span>
-                        <h4
-                          className={cn(
-                            "text-xs sm:text-sm font-bold font-hindi",
-                            isDone ? "text-muted-foreground line-through" : "text-foreground"
-                          )}
-                        >
-                          {item.titleHindi}
-                        </h4>
-                      </div>
-
-                      <button
-                        type="button"
-                        onClick={() => toggleTopic(item.seniorTeacherTopic.id, item.commonKey)}
-                        className="shrink-0 text-muted-foreground hover:text-foreground cursor-pointer"
-                        title={isDone ? "मार्क अपूर्ण करें" : "मार्क पूर्ण करें"}
-                      >
-                        {isDone ? (
-                          <CheckCircle2 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
-                        ) : (
-                          <Circle className="h-5 w-5 text-muted-foreground/60" />
-                        )}
-                      </button>
-                    </div>
-
-                    {/* Where it appears in each exam */}
-                    <div className="space-y-1 text-[11px] text-muted-foreground font-hindi bg-muted/40 p-2 rounded-xl">
-                      <div className="flex items-center gap-1.5">
-                        <span className="font-semibold text-foreground shrink-0">🎯 2nd Grade:</span>
-                        <span className="truncate">{item.seniorTeacherTopic.section}</span>
-                      </div>
-                      <div className="flex items-center gap-1.5">
-                        <span className="font-semibold text-foreground shrink-0">📋 CET:</span>
-                        <span className="truncate">{item.cetTopic.section}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Benefit & Master Topic Mapping */}
-                  <div className="flex items-center justify-between pt-1 border-t border-border/50 text-[10px]">
-                    <span className="text-emerald-700 dark:text-emerald-400 font-semibold font-hindi">
-                      ✓ दोनों परीक्षाओं में लाभ
-                    </span>
-                    {item.canonicalTopicId && (
-                      <Link
-                        href={`/search?q=${encodeURIComponent(item.canonicalTopicName || "")}`}
-                        className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground font-medium"
-                      >
-                        Master Topic #{item.canonicalTopicId} <ExternalLink className="h-2.5 w-2.5" />
-                      </Link>
+                  <button
+                    type="button"
+                    onClick={() => toggleTopic(m.seniorTeacherTopic.id, m.commonKey)}
+                    className="mt-0.5 shrink-0 text-muted-foreground hover:text-foreground cursor-pointer"
+                  >
+                    {isDone ? (
+                      <CheckCircle2 className="h-4.5 w-4.5 text-emerald-600 dark:text-emerald-400" />
+                    ) : (
+                      <Circle className="h-4.5 w-4.5 text-muted-foreground/60" />
                     )}
+                  </button>
+
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-muted text-muted-foreground font-hindi">
+                        {m.categoryHindi}
+                      </span>
+                      {m.canonicalTopicId && (
+                        <span className="text-[10px] font-medium text-emerald-600 dark:text-emerald-400">
+                          #{m.canonicalTopicId}
+                        </span>
+                      )}
+                    </div>
+                    <p className={cn("text-xs font-semibold font-hindi leading-tight", isDone ? "line-through text-muted-foreground" : "text-foreground")}>
+                      {m.titleHindi}
+                    </p>
+                    <p className="text-[10px] text-muted-foreground font-hindi leading-snug">
+                      {m.coverageBenefit}
+                    </p>
                   </div>
-                </Card>
+                </div>
               );
             })}
           </div>
         </div>
       )}
 
-      {/* ─── TAB 4: 75 Canonical Master Topics Mapping ─── */}
+      {/* ─── TAB 4: Master 70 Topics Architecture View ─── */}
       {activeTab === "master-75" && (
-        <div className="space-y-4">
-          <Card className="p-4 sm:p-5 rounded-2xl border border-border bg-card space-y-3">
-            <div className="flex items-center gap-2">
-              <Layers className="h-5 w-5 text-foreground" />
-              <h4 className="text-sm sm:text-base font-bold text-foreground font-hindi">
-                Quizzer2 के 70 मास्टर टॉपिक्स से तुलना एवं विश्लेषण
-              </h4>
-            </div>
-            <p className="text-xs sm:text-sm text-muted-foreground font-hindi leading-relaxed">
-              Quizzer2 का प्रश्न बैंक **राजस्थान सामान्य ज्ञान के 70 कैनोनिकल मास्टर टॉपिक्स** पर आधारित है। 
-              नीचे दिया गया विश्लेषण दर्शाता है कि वरिष्ठ अध्यापक (2nd Grade) और CET के कौन-से भाग 70 मास्टर टॉपिक्स द्वारा 100% कवर्ड हैं, और कौन-से अतिरिक्त विषय अलग से तैयार करने होते हैं।
+        <div className="space-y-3">
+          <Card className="p-3 rounded-xl border border-border/80 bg-card text-xs font-hindi">
+            <p className="text-muted-foreground">
+              Quizzer2 राजस्थान GK का आधिकारिक 5 विषयों एवं 70 मास्टर टॉपिक्स का संपूर्ण पाठ्यक्रम ढांचा।
             </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
-              {/* Coverage in Senior Teacher */}
-              <div className="p-3.5 rounded-xl border border-emerald-500/20 bg-emerald-500/5 space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300 font-hindi">
-                    वरिष्ठ अध्यापक (2nd Grade) में कवरेज
-                  </span>
-                  <Badge variant="secondary" className="text-[10px] bg-emerald-500/20 text-emerald-800 dark:text-emerald-200">
-                    खंड- I (80 अंक) पूर्ण कवर्ड
-                  </Badge>
-                </div>
-                <ul className="text-xs text-muted-foreground font-hindi space-y-1 list-disc list-inside">
-                  <li><strong>राजस्थान भूगोल (11 टॉपिक्स):</strong> 70 मास्टर टॉपिक्स में 100% समाहित।</li>
-                  <li><strong>राजस्थान इतिहास व राजवंश:</strong> मेवाड़, मारवाड़, आमेर, चौहान, गुर्जर-प्रतिहार आदि पूर्ण कवर्ड।</li>
-                  <li><strong>कला, संस्कृति व साहित्य:</strong> मेले, त्योहार, लोक देवता, मंदिर, छतरियां, चित्रकला आदि पूर्ण कवर्ड।</li>
-                  <li><strong>राजस्थान राजव्यवस्था व आयोग:</strong> राज्यपाल, सीएम, RPSC, लोकायुक्त, पंचायती राज पूर्ण कवर्ड।</li>
-                  <li><strong>अतिरिक्त विषय (गैर-राजस्थान):</strong> विश्व भूगोल, भारत संविधान, भारत भूगोल, शैक्षिक मनोविज्ञान।</li>
-                </ul>
-              </div>
-
-              {/* Coverage in CET */}
-              <div className="p-3.5 rounded-xl border border-blue-500/20 bg-blue-500/5 space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-blue-800 dark:text-blue-300 font-hindi">
-                    RSMSSB CET में कवरेज
-                  </span>
-                  <Badge variant="secondary" className="text-[10px] bg-blue-500/20 text-blue-800 dark:text-blue-200">
-                    राजस्थान GK भाग 100% कवर्ड
-                  </Badge>
-                </div>
-                <ul className="text-xs text-muted-foreground font-hindi space-y-1 list-disc list-inside">
-                  <li><strong>राजस्थान इतिहास, कला व संस्कृति:</strong> CET का 100% राजस्थान भाग 70 मास्टर टॉपिक्स से मिलता है।</li>
-                  <li><strong>राजस्थान भूगोल, खनिज, सिंचाई व उद्योग:</strong> 70 मास्टर टॉपिक्स द्वारा पूरी तरह कवर्ड।</li>
-                  <li><strong>राजस्थान की राजनीतिक व्यवस्था:</strong> 70 मास्टर टॉपिक्स (विषय E) द्वारा पूर्ण कवर्ड।</li>
-                  <li><strong>अतिरिक्त विषय:</strong> दैनिक विज्ञान, रीजनिंग/गणित, सामान्य हिन्दी, General English, कंप्यूटर।</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="pt-3 border-t border-border/60 flex items-center justify-between">
-              <span className="text-xs text-muted-foreground font-hindi">
-                अभ्यास के लिए Quizzer2 के मुख्य विषयों पर जाएं:
-              </span>
-              <Button asChild size="sm" className="rounded-xl text-xs font-semibold h-8 gap-1">
-                <Link href="/subjects">
-                  सभी 5 मुख्य विषय देखें <ArrowRight className="h-3 w-3" />
-                </Link>
-              </Button>
-            </div>
           </Card>
+
+          <div className="space-y-3">
+            {CANONICAL_SUBJECTS.map((subject) => {
+              const subjectTopics = CANONICAL_TOPICS.filter((t) => t.subjectSlug === subject.slug);
+
+              return (
+                <Card key={subject.slug} className="rounded-xl border border-border/80 overflow-hidden bg-card">
+                  <div className="p-3 bg-muted/40 border-b border-border/60 flex items-center justify-between">
+                    <div>
+                      <h4 className="text-xs sm:text-sm font-bold text-foreground font-hindi">
+                        {subject.order}. {subject.nameHindi}
+                      </h4>
+                      <p className="text-[11px] text-muted-foreground font-hindi">
+                        {subject.description}
+                      </p>
+                    </div>
+                    <span className="text-xs font-bold text-muted-foreground px-2 py-0.5 rounded-full bg-muted shrink-0">
+                      {subjectTopics.length} टॉपिक्स
+                    </span>
+                  </div>
+
+                  <div className="divide-y divide-border/50">
+                    {subjectTopics.map((topic) => (
+                      <div key={topic.id} className="p-2.5 sm:p-3 space-y-1.5">
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex items-center gap-2">
+                            <span className="flex h-5 w-5 items-center justify-center rounded bg-foreground/10 text-foreground text-[10px] font-bold">
+                              {topic.id}
+                            </span>
+                            <span className="text-xs sm:text-sm font-semibold text-foreground font-hindi">
+                              {topic.nameHindi}
+                            </span>
+                          </div>
+                          <Link
+                            href={`/search?q=${encodeURIComponent(topic.nameHindi)}`}
+                            className="text-[11px] text-primary hover:underline font-medium inline-flex items-center gap-1 shrink-0"
+                          >
+                            <span>प्रश्न खोजें</span>
+                            <ExternalLink className="h-3 w-3" />
+                          </Link>
+                        </div>
+
+                        {/* Subtopics pill list */}
+                        <div className="flex flex-wrap gap-1.5 pl-7">
+                          {topic.subTopics.map((st) => (
+                            <span
+                              key={st.id}
+                              className="text-[10.5px] font-hindi px-2 py-0.5 rounded-md bg-muted/60 text-muted-foreground border border-border/50"
+                            >
+                              • {st.titleHindi}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Card>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

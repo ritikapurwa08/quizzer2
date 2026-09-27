@@ -5,18 +5,47 @@
  * 3. Merged / Common Topics Overlap Analysis & 70 Master Topics Mapping
  */
 
+import { StaticSubTopic, getStaticTopicById } from "./static-syllabus";
+
+export type { StaticSubTopic };
+
 export interface SyllabusTopicItem {
   id: string;
   titleHindi: string;
   titleEnglish: string;
   section: string; // e.g. "खंड- I: राजस्थान का भौगोलिक, ऐतिहासिक, सांस्कृतिक और सामान्य ज्ञान" or "दैनिक विज्ञान"
   subSection?: string; // e.g. "1. भूगोल (Geography)"
+  subTopics?: StaticSubTopic[];
   isCommon: boolean; // Present in both Senior Teacher & CET
   commonKey?: string; // Key linking Senior Teacher topic with CET topic
   commonNotes?: string; // Explanation of overlap
   canonicalTopicId?: number; // 1-70 ID if mapped to Master Syllabus
   canonicalTopicName?: string; // Canonical 75 Topic Name
   examScope: "SENIOR_TEACHER" | "CET" | "BOTH";
+}
+
+/**
+ * Resolves authoritative sub-topics / headings for any syllabus topic item.
+ */
+export function getSubTopicsForTopic(topic: SyllabusTopicItem): StaticSubTopic[] {
+  if (topic.subTopics && topic.subTopics.length > 0) {
+    return topic.subTopics;
+  }
+  if (topic.canonicalTopicId) {
+    const canonical = getStaticTopicById(topic.canonicalTopicId);
+    if (canonical && canonical.subTopics.length > 0) {
+      return canonical.subTopics.map((st) => ({
+        ...st,
+        id: `${topic.id}-${st.id}`,
+      }));
+    }
+  }
+  // Default subtopics for exam-specific items (e.g. Educational Psychology, Maths, Hindi, English)
+  return [
+    { id: `${topic.id}-sub-1`, titleHindi: "मूल अवधारणाएं एवं परिभाषाएँ", titleEnglish: "Basic Concepts & Definitions" },
+    { id: `${topic.id}-sub-2`, titleHindi: "प्रमुख सिद्धांत एवं अनुप्रयोग", titleEnglish: "Key Principles & Theories" },
+    { id: `${topic.id}-sub-3`, titleHindi: "विगत परीक्षाओं के प्रश्न व अभ्यास", titleEnglish: "Previous Exam Patterns & Practice" },
+  ];
 }
 
 export interface SyllabusSectionGroup {

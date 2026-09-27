@@ -11,8 +11,20 @@ import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
 import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
-import { SyllabusTracker } from "@/components/syllabus/SyllabusTracker";
+import dynamic from "next/dynamic";
 import { api } from "../../../../convex/_generated/api";
+
+const SyllabusTracker = dynamic(
+  () => import("@/components/syllabus/SyllabusTracker").then((m) => m.SyllabusTracker),
+  {
+    loading: () => (
+      <div className="h-48 rounded-xl border border-border/80 bg-card p-4 animate-pulse flex items-center justify-center text-xs text-muted-foreground font-hindi">
+        पाठ्यक्रम ट्रैकर लोड हो रहा है...
+      </div>
+    ),
+    ssr: false,
+  }
+);
 
 export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats, {});
