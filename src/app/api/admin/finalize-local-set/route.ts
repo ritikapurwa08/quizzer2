@@ -83,7 +83,10 @@ export async function POST(request: NextRequest) {
     topicState.used = Array.from(usedMap.values());
 
     // 3. Update completedSets
-    topicState.completedSets = Math.max(topicState.completedSets || 0, setNumber);
+    const startSet = body.startSetNumber || setNumber;
+    const setCount = body.setCount || 1;
+    const finalSetNumber = Math.max(setNumber, startSet + setCount - 1);
+    topicState.completedSets = Math.max(topicState.completedSets || 0, finalSetNumber);
     poolState.updatedAt = now;
 
     // 4. Save updated pool-state.json
@@ -92,19 +95,50 @@ export async function POST(request: NextRequest) {
     // 5. Save set JSON file in data/ddd/sets/topic-XX/set-YYY.json
     const topicSetsDir = path.join(setsDir, `topic-${padTopic}`);
     fs.mkdirSync(topicSetsDir, { recursive: true });
-    const setFilePath = path.join(topicSetsDir, `set-${padSet}.json`);
 
-    const setPayload = {
-      setId,
-      masterTopicId,
-      masterTopic: topicState.masterTopic,
-      setNumber,
-      completedAt: now,
-      questionCount: selectedIds.length,
-      questionIds: selectedIds,
-      questions: questions || [],
-    };
-    fs.writeFileSync(setFilePath, JSON.stringify(setPayload, null, 2), "utf-8");
+    if (setCount > 1 && Array.isArray(questions) && questions.length > 20) {
+      for (let sIdx = 0; sIdx < setCount; sIdx++) {
+        const curSetNum = startSet + sIdx;
+        const curPadSet = String(curSetNum).padStart(3, "0");
+        const curSetId = `topic-${masterTopicId}-set-${curPadSet}`;
+        const chunkQs = questions.slice(sIdx * 20, (sIdx + 1) * 20);
+        const chunkIds = chunkQs
+          .map((q: any) => q.meta?.sourceQuestionId || q.sourceQuestionId || q.id)
+          .filter(Boolean);
+        const chunkFilePath = path.join(topicSetsDir, `set-${curPadSet}.json`);
+        fs.writeFileSync(
+          chunkFilePath,
+          JSON.stringify(
+            {
+              setId: curSetId,
+              masterTopicId,
+              masterTopic: topicState.masterTopic,
+              setNumber: curSetNum,
+              completedAt: now,
+              questionCount: chunkQs.length,
+              questionIds: chunkIds,
+              questions: chunkQs,
+            },
+            null,
+            2
+          ),
+          "utf-8"
+        );
+      }
+    } else {
+      const setFilePath = path.join(topicSetsDir, `set-${padSet}.json`);
+      const setPayload = {
+        setId,
+        masterTopicId,
+        masterTopic: topicState.masterTopic,
+        setNumber,
+        completedAt: now,
+        questionCount: selectedIds.length,
+        questionIds: selectedIds,
+        questions: questions || [],
+      };
+      fs.writeFileSync(setFilePath, JSON.stringify(setPayload, null, 2), "utf-8");
+    }
 
     // 6. Save audit history
     const topicHistoryDir = path.join(historyDir, `topic-${padTopic}`);

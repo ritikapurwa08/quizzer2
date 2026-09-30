@@ -35,6 +35,12 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+import {
+  calculateNextSetName,
+  calculateBatchSetNames,
+  extractBaseTopicName,
+  getNextPartNumber,
+} from "@/lib/setNumbering";
 
 interface Option {
   _id: string;
@@ -89,10 +95,14 @@ export function QuestionImportEditor({
   const [copiedPrompt, setCopiedPrompt] = useState(false);
   const [promptOpen, setPromptOpen] = useState(false);
   const [isFinalSet, setIsFinalSet] = useState(false);
+  const [batchSize, setBatchSize] = useState<number>(20);
 
   // Candidate questions from local pool API
   const [candidateData, setCandidateData] = useState<{
     candidateCount: number;
+    batchSize?: number;
+    setCount?: number;
+    targetCount?: number;
     questions: any[];
     geminiPrompt: string;
   } | null>(null);
@@ -141,7 +151,7 @@ export function QuestionImportEditor({
     setCandidateError(null);
     try {
       const res = await fetch(
-        `/api/admin/candidate-set?masterTopicId=${activeMasterTopicId}&setNumber=${currentSetNumber}`
+        `/api/admin/candidate-set?masterTopicId=${activeMasterTopicId}&setNumber=${currentSetNumber}&batchSize=${batchSize}`
       );
       if (res.ok) {
         const data = await res.json();
@@ -163,7 +173,7 @@ export function QuestionImportEditor({
     } finally {
       setLoadingCandidates(false);
     }
-  }, [selectedTopicId, activeMasterTopicId, currentSetNumber]);
+  }, [selectedTopicId, activeMasterTopicId, currentSetNumber, batchSize]);
 
   useEffect(() => {
     if (!selectedTopicId || !activeMasterTopicId) {
@@ -206,10 +216,10 @@ export function QuestionImportEditor({
   // Auto-fill subtopicName if topic is selected but set name is empty
   useEffect(() => {
     if (selectedTopicId && topicName && !subtopicName.trim()) {
-      const partNum = existingTestSets.length + 1;
-      onSubtopicNameChange(`${topicName} Part ${partNum}`);
+      const { fullName } = calculateNextSetName(existingTestSets, topicName);
+      onSubtopicNameChange(fullName);
     }
-  }, [selectedTopicId, topicName, subtopicName, existingTestSets.length, onSubtopicNameChange]);
+  }, [selectedTopicId, topicName, subtopicName, existingTestSets, onSubtopicNameChange]);
 
   // Parse and validate pasted input
   const parseResult = useMemo(() => {
@@ -293,14 +303,31 @@ export function QuestionImportEditor({
 
   const existingInDbIds = provenanceCheck?.existingSourceIds ?? [];
 
+  const detectedCount = parseResult.questions.length;
+  const isMultipleOf20 = detectedCount > 0 && detectedCount % 20 === 0;
+  const isExact20 = detectedCount === 20;
+  const setCountToCreate = Math.max(1, Math.ceil(detectedCount / 20));
+  const isCountValid = isMultipleOf20 || (isFinalSet && detectedCount > 0);
+  const hasNoDbCollisions = existingInDbIds.length === 0;
+
+  const plannedSetNames = useMemo(() => {
+    if (!subtopicName.trim()) return [];
+    const baseName = extractBaseTopicName(subtopicName) || subtopicName.trim();
+    const match = subtopicName.match(/(?:Part|भाग|Set|सेट)[\s\-–—:]*(\d+)/i) || subtopicName.match(/(\d+)/);
+    const startNum = match ? parseInt(match[1], 10) : getNextPartNumber(existingTestSets);
+    const count = detectedCount > 0 ? Math.ceil(detectedCount / 20) : Math.ceil(batchSize / 20);
+    return calculateBatchSetNames(baseName, startNum, Math.max(1, count));
+  }, [subtopicName, detectedCount, batchSize, existingTestSets]);
+
   // Duplicate Set Name check in Convex under target topic
   const isDuplicateSetName = useMemo(() => {
     if (!subtopicName.trim() || !existingTestSets.length) return false;
-    const cleanCurrent = subtopicName.trim().toLowerCase();
-    return existingTestSets.some(
-      (s) => s.name.trim().toLowerCase() === cleanCurrent
-    );
-  }, [subtopicName, existingTestSets]);
+    const existingLower = new Set(existingTestSets.map((s) => s.name.trim().toLowerCase()));
+    if (plannedSetNames.length > 0) {
+      return plannedSetNames.some((name) => existingLower.has(name.toLowerCase()));
+    }
+    return existingLower.has(subtopicName.trim().toLowerCase());
+  }, [subtopicName, existingTestSets, plannedSetNames]);
 
   // Auto-detect Syllabus from pasted JSON metadata if not already selected
   useEffect(() => {
@@ -396,7 +423,7 @@ export function QuestionImportEditor({
       }
     }
     if (isDuplicateSetName) {
-      errs.push(`A test set named '${subtopicName.trim()}' already exists under this topic. Please choose a different name.`);
+      errs.push(`A test set named '${subtopicName.trim()}' (or in this batch) already exists under this topic.`);
     }
     if (code.trim().length > 0) {
       if (!selectedSubjectId) {
@@ -411,11 +438,6 @@ export function QuestionImportEditor({
     }
     return errs;
   }, [parseResult, batchValidation, existingInDbIds, isDuplicateSetName, subtopicName, code, selectedSubjectId, selectedTopicId]);
-
-  const detectedCount = parseResult.questions.length;
-  const isExact20 = detectedCount === 20;
-  const isCountValid = isExact20 || (isFinalSet && detectedCount > 0);
-  const hasNoDbCollisions = existingInDbIds.length === 0;
 
   const canImport =
     isCountValid &&
@@ -489,7 +511,7 @@ export function QuestionImportEditor({
                 </Badge>
               ) : candidateData ? (
                 <Badge className="bg-success/15 text-success border-success/30 text-[11px] font-semibold">
-                  Candidates: {candidateData.candidateCount} loaded
+                  Candidates: {candidateData.candidateCount} loaded ({batchSize} Target / {Math.ceil(batchSize / 20)} Sets)
                 </Badge>
               ) : candidateError ? (
                 <Badge variant="destructive" className="text-[11px] font-semibold">
@@ -504,7 +526,7 @@ export function QuestionImportEditor({
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-4">
-          <div className="grid gap-3.5 sm:grid-cols-3">
+          <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
             <div>
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
                 Subject
@@ -530,13 +552,30 @@ export function QuestionImportEditor({
             </div>
             <div>
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
+                Batch Size (Sets)
+              </Label>
+              <select
+                value={batchSize}
+                onChange={(e) => setBatchSize(Number(e.target.value))}
+                disabled={!selectedTopicId}
+                className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <option value={20}>20 Questions (1 Set)</option>
+                <option value={40}>40 Questions (2 Sets)</option>
+                <option value={60}>60 Questions (3 Sets)</option>
+                <option value={80}>80 Questions (4 Sets)</option>
+                <option value={100}>100 Questions (5 Sets)</option>
+              </select>
+            </div>
+            <div>
+              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
                 Set / Part Name
               </Label>
               <input
                 value={subtopicName}
                 onChange={(e) => onSubtopicNameChange(e.target.value)}
                 disabled={!selectedTopicId}
-                placeholder={selectedTopicId ? "e.g. Rajasthan Rivers Part 1" : "Select a topic first"}
+                placeholder={selectedTopicId ? "e.g. राजस्थान मेरे लिए भाग 1" : "Select a topic first"}
                 className={cn(
                   "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
                   isDuplicateSetName
@@ -546,11 +585,22 @@ export function QuestionImportEditor({
               />
               {isDuplicateSetName && (
                 <p className="text-[11px] font-medium text-destructive mt-1">
-                  ⚠️ A test set named &apos;{subtopicName.trim()}&apos; already exists under this topic.
+                  ⚠️ A test set in this batch already exists under this topic.
                 </p>
               )}
             </div>
           </div>
+
+          {plannedSetNames.length > 1 && (
+            <div className="flex items-center gap-2 flex-wrap text-xs bg-muted/40 p-2.5 rounded-xl border border-border/50">
+              <span className="font-semibold text-muted-foreground">Sets to create ({plannedSetNames.length}):</span>
+              {plannedSetNames.map((name, idx) => (
+                <Badge key={idx} variant="outline" className="text-[11px] font-medium bg-background">
+                  {name}
+                </Badge>
+              ))}
+            </div>
+          )}
 
           {code.trim().length > 0 && (!selectedTopicId || !subtopicName.trim()) && (
             <div className="flex items-center gap-2.5 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs">
@@ -559,8 +609,8 @@ export function QuestionImportEditor({
                 {!selectedSubjectId
                   ? "Questions detected below. Please select a Subject and Master Topic to assign them."
                   : !selectedTopicId
-                  ? "Questions detected below. Please select a Master Topic above."
-                  : "Please confirm or enter a Set / Part Name above to enable import."}
+                    ? "Questions detected below. Please select a Master Topic above."
+                    : "Please confirm or enter a Set / Part Name above to enable import."}
               </span>
             </div>
           )}
@@ -572,10 +622,10 @@ export function QuestionImportEditor({
                 {loadingCandidates
                   ? "Fetching candidate questions from the pool, please wait..."
                   : candidateData
-                  ? `Candidate questions ready (${candidateData.candidateCount} questions). Copy prompt for Gemini review.`
-                  : candidateError
-                  ? "Could not load candidate questions. Please verify your selection or retry."
-                  : "Select a Subject and Master Topic above to load candidate questions from the pool."}
+                    ? `Candidate questions ready (${candidateData.candidateCount} questions). Copy prompt for Gemini review.`
+                    : candidateError
+                      ? "Could not load candidate questions. Please verify your selection or retry."
+                      : "Select a Subject and Master Topic above to load candidate questions from the pool."}
               </p>
 
               <div className="flex items-center gap-2 shrink-0">
@@ -668,7 +718,7 @@ export function QuestionImportEditor({
               onChange={(e) => setCode(e.target.value)}
               placeholder={`[\n  {\n    "id": "rg_004945",\n    "question": "राजस्थान में सफेद सीमेंट का प्रथम कारखाना कहाँ स्थापित हुआ?",\n    "options": ["गोटन", "खारिया खंगार", "ब्यावर", "चित्तौड़गढ़"],\n    "answer": 0,\n    "explanation": "राजस्थान में सफेद सीमेंट का पहला कारखाना 1984 में गोटन (नागौर) में स्थापित हुआ।",\n    "exam": "REET",\n    "year": 2021\n  }\n]`}
               spellCheck={false}
-              className="w-full min-h-[200px] max-h-[340px] resize-y bg-transparent p-4 font-mono text-xs leading-relaxed text-foreground placeholder:text-muted-foreground/40 focus:outline-hidden whitespace-pre overflow-x-auto"
+              className="w-full min-h-50 max-h-85 resize-y bg-transparent p-4 font-mono text-xs leading-relaxed text-foreground placeholder:text-muted-foreground/40 focus:outline-hidden whitespace-pre overflow-x-auto"
             />
           </div>
 
@@ -676,16 +726,20 @@ export function QuestionImportEditor({
             <div className="flex items-center gap-1.5 font-medium">
               <span className="text-muted-foreground">Final Questions:</span>
               {detectedCount === 0 ? (
-                <span className="text-muted-foreground font-semibold">0 / 20 questions</span>
+                <span className="text-muted-foreground font-semibold">0 questions</span>
               ) : isCountValid ? (
                 <span className="text-success font-semibold flex items-center gap-1">
                   <CheckCircle2 className="h-3.5 w-3.5" />
-                  {isExact20 ? "20 / 20 questions ready" : `${detectedCount} / 20 questions ready (Final Set)`}
+                  {isExact20
+                    ? "20 / 20 questions ready (1 Set)"
+                    : isMultipleOf20
+                      ? `${detectedCount} questions ready (${setCountToCreate} Sets × 20 questions)`
+                      : `${detectedCount} questions ready (Final Set)`}
                 </span>
               ) : (
                 <span className="text-destructive font-semibold flex items-center gap-1">
                   <AlertCircle className="h-3.5 w-3.5" />
-                  {detectedCount} / 20 questions (20 required)
+                  {detectedCount} questions (Must be 20, 40, 60... questions)
                 </span>
               )}
             </div>
@@ -709,7 +763,7 @@ export function QuestionImportEditor({
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 shrink-0" />
                     <span>
-                      All 8 Quality Gates Passed — {detectedCount} questions verified (structure, 4 unique options, answer, explanation, set &amp; DB uniqueness).
+                      All 8 Quality Gates Passed — {detectedCount} questions verified across {setCountToCreate} set(s) (structure, 4 unique options, answer, explanation, DB uniqueness).
                     </span>
                   </div>
                   <Badge className="bg-success/20 text-success border-success/40 text-[10px] uppercase tracking-wider shrink-0 font-bold">
@@ -729,7 +783,9 @@ export function QuestionImportEditor({
                       <span>
                         {isFinalSet
                           ? `Final set accepted (${detectedCount} questions)`
-                          : `Exactly 20 questions required (${detectedCount} / 20)`}
+                          : isMultipleOf20
+                            ? `${detectedCount} questions verified (${setCountToCreate} Sets × 20 questions)`
+                            : `Batches of 20 required (${detectedCount} questions)`}
                       </span>
                     </div>
 
@@ -806,12 +862,12 @@ export function QuestionImportEditor({
                         {!selectedSubjectId
                           ? "Step 1 required: Select a Subject above"
                           : !selectedTopicId
-                          ? "Step 1 required: Select a Master Topic above"
-                          : !subtopicName.trim()
-                          ? "Step 1 required: Enter a Set / Part Name above"
-                          : isDuplicateSetName
-                          ? "Step 1 error: Duplicate Set Name"
-                          : "Step 1 complete: Subject, Topic & Set Name assigned"}
+                            ? "Step 1 required: Select a Master Topic above"
+                            : !subtopicName.trim()
+                              ? "Step 1 required: Enter a Set / Part Name above"
+                              : isDuplicateSetName
+                                ? "Step 1 error: Duplicate Set Name"
+                                : "Step 1 complete: Subject, Topic & Set Name assigned"}
                       </span>
                     </div>
                   </div>
@@ -848,16 +904,16 @@ export function QuestionImportEditor({
                   {!selectedSubjectId
                     ? "Step 1 incomplete: Please select a Subject above."
                     : !selectedTopicId
-                    ? "Step 1 incomplete: Please select a Master Topic above."
-                    : !subtopicName.trim()
-                    ? "Step 1 incomplete: Please enter a Set / Part Name above."
-                    : isDuplicateSetName
-                    ? "Step 1 error: A test set with this name already exists under this topic."
-                    : !isCountValid
-                    ? `Set requires exactly 20 questions (${detectedCount}/20).`
-                    : allErrors.length > 0
-                    ? "Please fix the validation errors above."
-                    : "Complete requirements above to import."}
+                      ? "Step 1 incomplete: Please select a Master Topic above."
+                      : !subtopicName.trim()
+                        ? "Step 1 incomplete: Please enter a Set / Part Name above."
+                        : isDuplicateSetName
+                          ? "Step 1 error: A test set with this name already exists under this topic."
+                          : !isCountValid
+                            ? `Set requires exactly 20 questions (${detectedCount}/20).`
+                            : allErrors.length > 0
+                              ? "Please fix the validation errors above."
+                              : "Complete requirements above to import."}
                 </span>
               </div>
             ) : (
@@ -874,6 +930,8 @@ export function QuestionImportEditor({
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Importing...
                 </>
+              ) : setCountToCreate > 1 ? (
+                `Import ${detectedCount} Questions (${setCountToCreate} Sets)`
               ) : (
                 "Import Questions"
               )}

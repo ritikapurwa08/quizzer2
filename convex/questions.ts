@@ -1,4 +1,5 @@
 import { v, ConvexError } from "convex/values";
+import { Id } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 import { questionInputValidator, questionTypeValidator } from "./lib/validators";
@@ -234,15 +235,27 @@ export const importTestSet = mutation({
     const topic = await ctx.db.get(args.topicId);
     if (!topic) throw new ConvexError("Topic not found");
 
-    // Enforce 20 questions for standard set import, unless explicit final set on exhausted topic
-    if (args.questions.length !== 20) {
-      if (!args.isFinalSet) {
+    // Enforce 20 questions or multiple of 20 (e.g. 20, 40, 60...) for standard import
+    if (!args.isFinalSet) {
+      if (args.questions.length === 0 || args.questions.length % 20 !== 0) {
         throw new ConvexError(
-          `20 प्रश्न आवश्यक हैं। अभी ${args.questions.length} प्रश्न मिले हैं। केवल अंतिम सेट (Final Set) में 20 से कम प्रश्न स्वीकार्य हैं।`
+          `प्रश्नों की संख्या 20 या 20 का गुणज (जैसे 20, 40, 60...) होनी चाहिए। अभी ${args.questions.length} प्रश्न मिले हैं।`
         );
       }
+    } else {
       if (args.questions.length === 0) {
         throw new ConvexError("Import के लिए कम से कम 1 प्रश्न आवश्यक है।");
+      }
+    }
+
+    // Partition incoming questions into 20-question chunks
+    const chunkSize = 20;
+    const chunks: Array<typeof args.questions> = [];
+    if (args.isFinalSet && args.questions.length <= 20) {
+      chunks.push(args.questions);
+    } else {
+      for (let i = 0; i < args.questions.length; i += chunkSize) {
+        chunks.push(args.questions.slice(i, i + chunkSize));
       }
     }
 
@@ -273,10 +286,6 @@ export const importTestSet = mutation({
     }
 
     // ── Step 2: Intra-batch text deduplication (within this import only) ────────────────────────
-    // The previous implementation compared every incoming question against all 27,000+ existing
-    // questions in the database (O(20 × 27k) reads). That is not scalable.
-    // Provenance is now guaranteed via the indexed sourceQuestionId check above.
-    // Here we only verify the incoming batch has no internal exact-text duplicates.
     const incomingNormalizedTexts = new Set<string>();
     for (let i = 0; i < args.questions.length; i++) {
       const q = args.questions[i];
@@ -288,62 +297,124 @@ export const importTestSet = mutation({
       incomingNormalizedTexts.add(normalized);
     }
 
-    // ── Step 3: Duplicate set-name check within the same topic (bounded, small result) ──────────
+    // ── Step 3: Determine Part Numbering and Names from Convex ───────────────────
     const siblings = await ctx.db
       .query("testSets")
       .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
       .collect();
 
-    const normalizedSetName = args.name.trim().toLowerCase();
-    const existingSet = siblings.find((s) => s.name.trim().toLowerCase() === normalizedSetName);
-    if (existingSet) {
-      throw new ConvexError(
-        `इस टॉपिक में '${args.name.trim()}' नाम का टेस्ट सेट पहले से मौजूद है (Duplicate Set Identity)। कृपया दूसरा नाम या भाग संख्या चुनें।`
-      );
+    // Determine highest existing part number and base name from existing testSets
+    let maxPart = 0;
+    let baseNameFromSiblings = "";
+    let highestSiblingPart = -1;
+
+    for (const s of siblings) {
+      const match = s.name.match(/(?:भाग|Part|सेट|Set)[\s\-–—:]*(\d+)/i) || s.name.match(/(\d+)(?:\s*$|\))/);
+      if (match) {
+        const p = parseInt(match[1], 10);
+        if (!isNaN(p) && p > maxPart) {
+          maxPart = p;
+        }
+        if (!isNaN(p) && p >= highestSiblingPart) {
+          highestSiblingPart = p;
+          const b = s.name.replace(/\s*[-–—:]*\s*(?:भाग|Part|सेट|Set)[\s\-–—:]*\d+.*$/i, "").trim();
+          if (b) baseNameFromSiblings = b;
+        }
+      }
     }
 
-    // ── Step 4: Insert testSet and questions ─────────────────────────────────────────────────────
-    const testSetId = await ctx.db.insert("testSets", {
-      topicId: args.topicId,
-      name: args.name.trim(),
-      negativeMarking: args.negativeMarking,
-      order: siblings.length,
-      questionCount: args.questions.length,
-    });
+    const calculatedNextPart = siblings.length === 0 ? 1 : Math.max(maxPart, siblings.length) + 1;
 
-    for (let i = 0; i < args.questions.length; i++) {
-      const q = args.questions[i];
-      // Sanitize meta: strip accidental candidate-status fields from production question
-      const cleanMeta = typeof q.meta === "object" && q.meta !== null ? { ...q.meta } : {};
-      delete (cleanMeta as any).status;
-      delete (cleanMeta as any).candidate;
-      delete (cleanMeta as any).claimedBy;
-      delete (cleanMeta as any).claimedAt;
-      delete (cleanMeta as any).queueOrder;
-      delete (cleanMeta as any).rejectedCount;
+    // Determine base name: prefer user's input base name, then siblings base name, then topic name
+    const rawInputBase = args.name.replace(/\s*[-–—:]*\s*(?:भाग|Part|सेट|Set)[\s\-–—:]*\d+.*$/i, "").trim();
+    const effectiveBaseName = rawInputBase || baseNameFromSiblings || topic.nameHindi || topic.name;
 
-      // Extract sourceQuestionId to the top-level indexed field.
-      // It remains in meta as well for backward compatibility with any admin tooling.
-      const sid = (cleanMeta.sourceQuestionId as string | number | undefined) ?? (q as any).sourceQuestionId;
-      const topLevelSourceId = sid !== undefined && sid !== null && String(sid).trim() !== ""
-        ? String(sid).trim()
-        : undefined;
+    // Check if user manually typed a part number >= calculatedNextPart
+    const userMatch = args.name.match(/(?:भाग|Part|सेट|Set)[\s\-–—:]*(\d+)/i);
+    const userPart = userMatch ? parseInt(userMatch[1], 10) : null;
+    const startPart = userPart && userPart >= calculatedNextPart ? userPart : calculatedNextPart;
 
-      await ctx.db.insert("questions", {
-        testSetId,
-        sourceQuestionId: topLevelSourceId,
-        type: q.type,
-        questionText: q.questionText,
-        options: q.options,
-        correctAnswer: q.correctAnswer,
-        explanation: q.explanation,
-        reference: q.reference,
-        difficulty: q.difficulty,
-        order: i,
-        meta: Object.keys(cleanMeta).length > 0 ? cleanMeta : undefined,
+    // Generate set names for each chunk and verify no collision
+    const chunkNames: string[] = [];
+    const existingSiblingLower = new Set(siblings.map((s) => s.name.trim().toLowerCase()));
+
+    for (let cIdx = 0; cIdx < chunks.length; cIdx++) {
+      let setName = "";
+      if (
+        chunks.length === 1 &&
+        !args.name.match(/(?:भाग|Part|सेट|Set)/i) &&
+        !existingSiblingLower.has(args.name.trim().toLowerCase())
+      ) {
+        setName = args.name.trim();
+      } else {
+        const partNum = startPart + cIdx;
+        setName = `${effectiveBaseName} भाग ${partNum}`;
+      }
+
+      if (existingSiblingLower.has(setName.toLowerCase())) {
+        throw new ConvexError(
+          `इस टॉपिक में '${setName}' नाम का टेस्ट सेट पहले से मौजूद है। कृपया दूसरा नाम या भाग संख्या चुनें।`
+        );
+      }
+      chunkNames.push(setName);
+      existingSiblingLower.add(setName.toLowerCase());
+    }
+
+    // ── Step 4: Insert testSets and questions ─────────────────────────────────────
+    const createdSetIds: Array<Id<"testSets">> = [];
+
+    for (let cIdx = 0; cIdx < chunks.length; cIdx++) {
+      const chunkQuestions = chunks[cIdx];
+      const setName = chunkNames[cIdx];
+
+      const testSetId = await ctx.db.insert("testSets", {
+        topicId: args.topicId,
+        name: setName,
+        negativeMarking: args.negativeMarking,
+        order: siblings.length + cIdx,
+        questionCount: chunkQuestions.length,
       });
+      createdSetIds.push(testSetId);
+
+      for (let i = 0; i < chunkQuestions.length; i++) {
+        const q = chunkQuestions[i];
+        // Sanitize meta: strip accidental candidate-status fields from production question
+        const cleanMeta = typeof q.meta === "object" && q.meta !== null ? { ...q.meta } : {};
+        delete (cleanMeta as any).status;
+        delete (cleanMeta as any).candidate;
+        delete (cleanMeta as any).claimedBy;
+        delete (cleanMeta as any).claimedAt;
+        delete (cleanMeta as any).queueOrder;
+        delete (cleanMeta as any).rejectedCount;
+
+        // Extract sourceQuestionId to the top-level indexed field
+        const sid = (cleanMeta.sourceQuestionId as string | number | undefined) ?? (q as any).sourceQuestionId;
+        const topLevelSourceId = sid !== undefined && sid !== null && String(sid).trim() !== ""
+          ? String(sid).trim()
+          : undefined;
+
+        await ctx.db.insert("questions", {
+          testSetId,
+          sourceQuestionId: topLevelSourceId,
+          type: q.type,
+          questionText: q.questionText,
+          options: q.options,
+          correctAnswer: q.correctAnswer,
+          explanation: q.explanation,
+          reference: q.reference,
+          difficulty: q.difficulty,
+          order: i,
+          meta: Object.keys(cleanMeta).length > 0 ? cleanMeta : undefined,
+        });
+      }
     }
 
-    return { testSetId, imported: args.questions.length };
+    return {
+      testSetId: createdSetIds[0],
+      testSetIds: createdSetIds,
+      imported: args.questions.length,
+      setsCreated: chunks.length,
+      setNames: chunkNames,
+    };
   },
 });

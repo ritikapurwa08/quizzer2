@@ -9,6 +9,9 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const topicIdParam = searchParams.get("masterTopicId") || searchParams.get("topicId");
     const setNumberParam = searchParams.get("setNumber") || searchParams.get("set");
+    const batchSizeParam = searchParams.get("batchSize") || searchParams.get("count");
+    const requestedBatchSize = batchSizeParam ? parseInt(batchSizeParam, 10) : 20;
+    const batchSize = isNaN(requestedBatchSize) || requestedBatchSize < 20 ? 20 : requestedBatchSize;
 
     if (!topicIdParam) {
       return NextResponse.json(
@@ -117,18 +120,18 @@ export async function GET(request: NextRequest) {
             console.error("Convex check in candidate-set:", convexErr);
           }
 
+          const candidateDrawCount = batchSize === 20 ? 25 : Math.round(batchSize * 1.25);
           if (topicState?.candidate && topicState.candidate.length > 0) {
             targetIds = topicState.candidate.filter((id: string) => !usedSet.has(id));
           } else if (topicState?.available && topicState.available.length > 0) {
-            // Pick next 25 available that have NEVER been used
             const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
-            targetIds = freshAvailable.slice(0, 25);
+            targetIds = freshAvailable.slice(0, Math.min(freshAvailable.length, candidateDrawCount));
           } else {
             targetIds = [...allQuestions]
               .sort(comparePoolQuestions)
               .map((q) => String(q.id))
               .filter((id) => !usedSet.has(id))
-              .slice(0, 25);
+              .slice(0, candidateDrawCount);
           }
 
           for (const qid of targetIds) {
@@ -147,7 +150,6 @@ export async function GET(request: NextRequest) {
 
     const topicHindi = topicInfo?.nameHindi || `Topic ${masterTopicId}`;
     const subjectHindi = topicInfo?.subjectHindi || "राजस्थान सामान्य ज्ञान";
-    const setName = `${topicHindi} भाग ${setNumber}`;
 
     // Format clean questions for prompt
     const promptQuestions = candidateQuestions.map((q) => ({
@@ -160,15 +162,26 @@ export async function GET(request: NextRequest) {
       year: q.year || null,
     }));
 
-    const isFinalTopicSet = candidateQuestions.length < 20;
-    const targetCount = isFinalTopicSet ? candidateQuestions.length : 20;
+    const isFinalTopicSet = candidateQuestions.length < batchSize;
+    const targetCount = isFinalTopicSet ? candidateQuestions.length : batchSize;
+    const setCount = Math.ceil(targetCount / 20);
+
+    const setName =
+      setCount > 1
+        ? `${topicHindi} भाग ${setNumber} से भाग ${setNumber + setCount - 1} (${setCount} सेट्स × 20 प्रश्न)`
+        : `${topicHindi} भाग ${setNumber}`;
+
     const taskDescription = isFinalTopicSet
       ? `यह इस टॉपिक का अंतिम सेट (Final Set) है। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
-      : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
+      : setCount > 1
+        ? `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} सर्वश्रेष्ठ प्रश्नों का सेट तैयार करना है (${setCount} सेट्स × 20 प्रश्न)।`
+        : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
 
     const countRule = isFinalTopicSet
       ? `1. ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही पुराने सेट्स से कोई प्रश्न जोड़ें।`
-      : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
+      : setCount > 1
+        ? `1. ठीक ${targetCount} प्रश्न चुनें (Select EXACTLY ${targetCount} questions - 20-20 प्रश्नों के ${setCount} सेट्स हेतु)।`
+        : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
 
     // Build the Authoritative Gemini Prompt
     const geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
@@ -228,6 +241,9 @@ ${JSON.stringify(promptQuestions, null, 2)}
       subjectName: subjectHindi,
       setNumber,
       setName,
+      batchSize,
+      setCount,
+      targetCount,
       candidateCount: candidateQuestions.length,
       questions: promptQuestions,
       geminiPrompt,

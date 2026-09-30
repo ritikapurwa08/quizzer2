@@ -884,6 +884,8 @@ export interface BatchChecklist {
 export interface BatchValidationResult {
   total: number;
   isExact20: boolean;
+  isMultipleOf20: boolean;
+  setCount: number;
   isValid: boolean;
   checklist: BatchChecklist;
   errors: string[];
@@ -899,16 +901,16 @@ export function validateImportBatch(
   const warnings: string[] = [];
   const sourceQuestionIds: Array<string | number> = [];
 
-  const isCountValid =
-    questions.length === 20 ||
-    (Boolean(options?.isFinalSet && options?.allowFinalBelow20) && questions.length > 0 && questions.length <= 20);
-
+  const isMultipleOf20 = questions.length > 0 && questions.length % 20 === 0;
   const isExact20 = questions.length === 20;
+  const isFinalSetAllowed = Boolean(options?.isFinalSet && options?.allowFinalBelow20) && questions.length > 0;
+  const isCountValid = isMultipleOf20 || isFinalSetAllowed;
+
   if (!isCountValid) {
     errors.push(
       options?.allowFinalBelow20
         ? `Final set requires at least 1 question. Found ${questions.length} questions.`
-        : `Exactly 20 questions required. Found ${questions.length} questions. Cannot import.`
+        : `Questions count must be 20 or a multiple of 20 (e.g. 20, 40, 60, 80...). Found ${questions.length} questions.`
     );
   }
 
@@ -1056,6 +1058,8 @@ export function validateImportBatch(
   return {
     total: questions.length,
     isExact20,
+    isMultipleOf20,
+    setCount: Math.ceil(questions.length / 20),
     isValid,
     checklist: {
       exact20: isExact20,

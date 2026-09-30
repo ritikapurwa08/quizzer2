@@ -13,6 +13,7 @@ import { CheckCircle2, Play, Plus, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+import { calculateNextSetName } from "@/lib/setNumbering";
 
 export function ImportWizard() {
   const searchParams = useSearchParams();
@@ -99,13 +100,12 @@ export function ImportWizard() {
   const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
     if (!userEditedSubtopicRef.current && selectedTopicId && activeTopicDisplay) {
-      const nextPartNum = existingCount + 1;
-      const expectedName = `${activeTopicDisplay} Part ${nextPartNum}`;
-      setSubtopicName((prev) => (prev === expectedName ? prev : expectedName));
+      const { fullName } = calculateNextSetName(existingTestSets, activeTopicDisplay);
+      setSubtopicName((prev) => (prev === fullName ? prev : fullName));
     } else if (!selectedTopicId) {
       setSubtopicName("");
     }
-  }, [existingCount, selectedTopicId, activeTopicDisplay]);
+  }, [existingTestSets, selectedTopicId, activeTopicDisplay]);
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
@@ -161,14 +161,19 @@ export function ImportWizard() {
       // Automatically sync local pool state so local queue advances and questions are marked USED
       if (options?.masterTopicId) {
         try {
-          const match = subtopicName.match(/(?:Part|भाग|Set)\s*(\d+)/i);
-          const setNumber = match ? parseInt(match[1], 10) : 1;
+          const match = subtopicName.match(/(?:Part|भाग|Set)[\s\-–—:]*(\d+)/i);
+          const startSetNum = match ? parseInt(match[1], 10) : 1;
+          const setsCount = (result as any).setsCreated || Math.ceil(parsed.questions.length / 20);
+          const highestSetNum = startSetNum + setsCount - 1;
+
           await fetch("/api/admin/finalize-local-set", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
               masterTopicId: options.masterTopicId,
-              setNumber,
+              setNumber: highestSetNum,
+              startSetNumber: startSetNum,
+              setCount: setsCount,
               selectedQuestionIds: parsed.questions
                 .map((q) => q.meta?.sourceQuestionId || (q as any).sourceQuestionId || (q as any).id)
                 .filter(Boolean),
@@ -181,7 +186,14 @@ export function ImportWizard() {
       }
 
       // Feedback
-      showToast(`✅ ${result.imported} questions imported successfully. Local pool state updated.`, "success");
+      const setsCreated = (result as any).setsCreated || 1;
+      const setNamesStr = (result as any).setNames?.length
+        ? ` (${(result as any).setNames.join(", ")})`
+        : "";
+      showToast(
+        `✅ ${result.imported} questions imported successfully across ${setsCreated} set(s)${setNamesStr}. Local pool state updated.`,
+        "success"
+      );
 
       setLastImportedSet({
         id: testSetId,
@@ -190,6 +202,7 @@ export function ImportWizard() {
       });
 
       // Clear the editor and auto-advance to next set
+      userEditedSubtopicRef.current = false;
       setResetKey((k) => k + 1);
       setParsed(null);
     } catch (err: any) {
