@@ -30,8 +30,8 @@ export default function WrongQuestionsPage() {
 
   const data = useQuery(api.wrongQuestions.listByUserWithMeta);
   const toggleBookmark = useMutation(api.bookmarks.toggle);
-  const userBookmarks = useQuery(api.bookmarks.listByUser) ?? [];
-  const bookmarkedIds = useMemo(() => new Set(userBookmarks.map((b) => b.bookmark.questionId)), [userBookmarks]);
+  const userBookmarkIds = useQuery(api.bookmarks.listQuestionIdsByUser) ?? [];
+  const bookmarkedIds = useMemo(() => new Set(userBookmarkIds), [userBookmarkIds]);
 
   // Load topics for the selected subject
   const topicsForSubject = useQuery(
@@ -112,18 +112,19 @@ export default function WrongQuestionsPage() {
       />
 
       {/* Header with Horizontal Responsive Filters */}
-      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-6">
+        {/* Left: Title & Subtitle */}
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
             Wrong Questions Practice
           </h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+          <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
             Questions answered incorrectly in tests are automatically saved here for targeted revision.
           </p>
         </div>
 
-        {/* Horizontal Filters */}
-        <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+        {/* Right: Responsive Filter Toolbar */}
+        <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
           <FilterBar
             subjects={subjectOptions}
             selectedSubject={selectedSubjectId}
@@ -136,9 +137,9 @@ export default function WrongQuestionsPage() {
             onSortChange={handleSortChange}
           />
           {data && (
-            <span className="text-xs text-muted-foreground font-mono bg-muted/60 px-2.5 py-1.5 rounded-xl border border-border/60">
+            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-zinc-800/80 text-zinc-300 border border-zinc-700/50 whitespace-nowrap">
               {filteredAndSorted.length} {filteredAndSorted.length === 1 ? "question" : "questions"}
-            </span>
+            </div>
           )}
         </div>
       </div>

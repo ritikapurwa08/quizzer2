@@ -49,46 +49,63 @@ export const search = query({
       candidateQuestions = await ctx.db
         .query("questions")
         .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId!))
-        .collect();
+        .take(maxLimit * 3);
     } else if (args.topicId) {
-      const sets = await ctx.db
-        .query("testSets")
+      const indexed = await ctx.db
+        .query("questions")
         .withIndex("by_topic", (q) => q.eq("topicId", args.topicId!))
-        .collect();
+        .take(maxLimit * 3);
 
-      for (const s of sets) {
-        const qs = await ctx.db
-          .query("questions")
-          .withIndex("by_test_set", (q) => q.eq("testSetId", s._id))
-          .collect();
-        candidateQuestions.push(...qs);
-        if (candidateQuestions.length >= 300) break;
-      }
-    } else if (args.subjectId) {
-      const topics = await ctx.db
-        .query("topics")
-        .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId!))
-        .collect();
-
-      for (const topic of topics) {
+      if (indexed.length > 0) {
+        candidateQuestions = indexed;
+      } else {
         const sets = await ctx.db
           .query("testSets")
-          .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
+          .withIndex("by_topic", (q) => q.eq("topicId", args.topicId!))
           .collect();
 
         for (const s of sets) {
           const qs = await ctx.db
             .query("questions")
             .withIndex("by_test_set", (q) => q.eq("testSetId", s._id))
-            .collect();
+            .take(50);
           candidateQuestions.push(...qs);
-          if (candidateQuestions.length >= 300) break;
+          if (candidateQuestions.length >= maxLimit * 3) break;
         }
-        if (candidateQuestions.length >= 300) break;
+      }
+    } else if (args.subjectId) {
+      const indexed = await ctx.db
+        .query("questions")
+        .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId!))
+        .take(maxLimit * 3);
+
+      if (indexed.length > 0) {
+        candidateQuestions = indexed;
+      } else {
+        const topics = await ctx.db
+          .query("topics")
+          .withIndex("by_subject", (q) => q.eq("subjectId", args.subjectId!))
+          .collect();
+
+        for (const topic of topics) {
+          const sets = await ctx.db
+            .query("testSets")
+            .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
+            .collect();
+
+          for (const s of sets) {
+            const qs = await ctx.db
+              .query("questions")
+              .withIndex("by_test_set", (q) => q.eq("testSetId", s._id))
+              .take(50);
+            candidateQuestions.push(...qs);
+            if (candidateQuestions.length >= maxLimit * 3) break;
+          }
+          if (candidateQuestions.length >= maxLimit * 3) break;
+        }
       }
     } else if (term.length >= 2) {
-      // If no subject/topic filter, only search if term >= 2 chars, and take up to 200 questions to scan
-      candidateQuestions = await ctx.db.query("questions").take(200);
+      candidateQuestions = await ctx.db.query("questions").take(Math.min(maxLimit * 4, 150));
     } else {
       return [];
     }
@@ -395,6 +412,8 @@ export const importTestSet = mutation({
 
         await ctx.db.insert("questions", {
           testSetId,
+          topicId: args.topicId,
+          subjectId: topic.subjectId,
           sourceQuestionId: topLevelSourceId,
           type: q.type,
           questionText: q.questionText,

@@ -43,6 +43,22 @@ export const progressBySubject = query({
       }
     > = {};
 
+    // Batch-load all user attempts once to eliminate N+1 database queries
+    const userAttempts = user
+      ? await ctx.db
+          .query("attempts")
+          .withIndex("by_user", (q) => q.eq("userId", user._id))
+          .collect()
+      : [];
+
+    const attemptsBySet = new Map<string, typeof userAttempts>();
+    for (const a of userAttempts) {
+      const tsId = a.testSetId as string;
+      const list = attemptsBySet.get(tsId);
+      if (!list) attemptsBySet.set(tsId, [a]);
+      else list.push(a);
+    }
+
     for (const topic of topics) {
       const sets = await ctx.db
         .query("testSets")
@@ -58,15 +74,10 @@ export const progressBySubject = query({
 
       if (user && totalSets > 0) {
         for (const set of sets) {
-          const userAttempts = await ctx.db
-            .query("attempts")
-            .withIndex("by_user_test_set", (q) =>
-              q.eq("userId", user._id).eq("testSetId", set._id)
-            )
-            .collect();
+          const setAttempts = attemptsBySet.get(set._id as string) ?? [];
 
-          const submitted = userAttempts.filter((a) => a.status === "submitted");
-          const inProgress = userAttempts.filter((a) => a.status === "in_progress");
+          const submitted = setAttempts.filter((a) => a.status === "submitted");
+          const inProgress = setAttempts.filter((a) => a.status === "in_progress");
 
           if (inProgress.length > 0) hasInProgress = true;
 
@@ -134,17 +145,28 @@ export const getProgress = query({
     let bestScore: number | undefined = undefined;
     let hasInProgress = false;
 
+    // Batch-load all user attempts once to eliminate N+1 database queries
+    const userAttempts = user
+      ? await ctx.db
+          .query("attempts")
+          .withIndex("by_user", (q) => q.eq("userId", user._id))
+          .collect()
+      : [];
+
+    const attemptsBySet = new Map<string, typeof userAttempts>();
+    for (const a of userAttempts) {
+      const tsId = a.testSetId as string;
+      const list = attemptsBySet.get(tsId);
+      if (!list) attemptsBySet.set(tsId, [a]);
+      else list.push(a);
+    }
+
     if (user && totalSets > 0) {
       for (const set of sets) {
-        const userAttempts = await ctx.db
-          .query("attempts")
-          .withIndex("by_user_test_set", (q) =>
-            q.eq("userId", user._id).eq("testSetId", set._id)
-          )
-          .collect();
+        const setAttempts = attemptsBySet.get(set._id as string) ?? [];
 
-        const submitted = userAttempts.filter((a) => a.status === "submitted");
-        const inProgress = userAttempts.filter((a) => a.status === "in_progress");
+        const submitted = setAttempts.filter((a) => a.status === "submitted");
+        const inProgress = setAttempts.filter((a) => a.status === "in_progress");
 
         if (inProgress.length > 0) hasInProgress = true;
 

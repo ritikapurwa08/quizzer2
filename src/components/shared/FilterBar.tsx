@@ -45,79 +45,103 @@ export function FilterBar({
   onSortChange,
   className,
 }: FilterBarProps) {
-  return (
-    <div className={cn("flex flex-wrap items-center gap-2", className)}>
-      {/* Subject filter */}
-      <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
-        <SelectTrigger
-          id="filter-subject"
-          className="h-9 min-w-32 max-w-56 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
-          aria-label="Select Subject"
-        >
-          <SelectValue placeholder="Select Subject">
-            {(v: string | null) => {
-              const opt = subjects.find((s) => s.value === (v ?? selectedSubject));
-              return opt?.label ?? "Select Subject";
-            }}
-          </SelectValue>
-        </SelectTrigger>
-        <SelectContent className="bg-popover border-border">
-          {subjects.map((s) => (
-            <SelectItem key={s.value} value={s.value} className="text-xs sm:text-sm">
-              {s.label}
-            </SelectItem>
-          ))}
-        </SelectContent>
-      </Select>
+  const isTopicDisabled = selectedSubject === "all" || !topics || topics.length <= 1;
 
-      {/* Topic filter — only when a subject is selected */}
-      {topics && topics.length > 0 && selectedSubject !== "all" && onTopicChange && (
-        <Select value={selectedTopic ?? "all"} onValueChange={(v) => onTopicChange(v ?? "all")}>
+  return (
+    <div className={cn("flex flex-wrap items-center gap-2 sm:gap-2.5", className)}>
+      {/* Subject filter */}
+      <div className="w-full sm:w-auto min-w-[160px] max-w-[220px]">
+        <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
           <SelectTrigger
-            id="filter-topic"
-            className="h-9 min-w-32 max-w-56 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
-            aria-label="Select Topic"
+            id="filter-subject"
+            className="h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
+            aria-label="Select Subject"
           >
-            <SelectValue placeholder="Select Topic">
+            <SelectValue placeholder="Select Subject" className="truncate">
               {(v: string | null) => {
-                const opt = topics.find((t) => t.value === (v ?? selectedTopic ?? "all"));
-                return opt?.label ?? "Select Topic";
+                const opt = subjects.find((s) => s.value === (v ?? selectedSubject));
+                return opt?.label ?? "Select Subject";
               }}
             </SelectValue>
           </SelectTrigger>
-          <SelectContent className="bg-popover border-border">
-            {topics.map((t) => (
-              <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm">
-                {t.label}
+          <SelectContent className="bg-popover border-border max-w-[320px]">
+            {subjects.map((s) => (
+              <SelectItem key={s.value} value={s.value} className="text-xs sm:text-sm">
+                <span className="truncate">{s.label}</span>
               </SelectItem>
             ))}
           </SelectContent>
         </Select>
+      </div>
+
+      {/* Topic filter — placeholder with disabled state to avoid sudden layout jump */}
+      {onTopicChange && (
+        <div className="w-full sm:w-auto min-w-[160px] max-w-[220px]">
+          <Select
+            value={isTopicDisabled ? "all" : (selectedTopic ?? "all")}
+            onValueChange={(v) => onTopicChange(v ?? "all")}
+            disabled={isTopicDisabled}
+          >
+            <SelectTrigger
+              id="filter-topic"
+              className={cn(
+                "h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer",
+                isTopicDisabled && "opacity-50 cursor-not-allowed"
+              )}
+              aria-label="Select Topic"
+            >
+              <SelectValue placeholder="All Topics" className="truncate">
+                {(v: string | null) => {
+                  if (isTopicDisabled) return "All Topics";
+                  const opt = topics?.find((t) => t.value === (v ?? selectedTopic ?? "all"));
+                  return opt?.label ?? "All Topics";
+                }}
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border max-w-[320px]">
+              {(topics && topics.length > 0
+                ? topics
+                : [{ value: "all", label: "All Topics" }]
+              ).map((t) => (
+                <SelectItem key={t.value} value={t.value} className="text-xs sm:text-sm">
+                  <span className="truncate">{t.label}</span>
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
       )}
 
       {/* Sort options */}
       {sortOptions && sortOptions.length > 0 && onSortChange && (
-        <Select value={selectedSort ?? sortOptions[0].value} onValueChange={(v) => onSortChange(v ?? sortOptions[0].value)}>
-          <SelectTrigger
-            id="filter-sort"
-            className="h-9 min-w-28 max-w-44 text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs"
-            aria-label="Sort By"
+        <div className="w-full sm:w-auto min-w-[140px] max-w-[180px]">
+          <Select
+            value={selectedSort ?? sortOptions[0].value}
+            onValueChange={(v) => onSortChange(v ?? sortOptions[0].value)}
           >
-            <SelectValue placeholder="Sort By">
-              {(v: string | null) => {
-                const opt = sortOptions.find((o) => o.value === (v ?? selectedSort ?? sortOptions[0].value));
-                return opt?.label ?? "Sort By";
-              }}
-            </SelectValue>
-          </SelectTrigger>
-          <SelectContent className="bg-popover border-border">
-            {sortOptions.map((o) => (
-              <SelectItem key={o.value} value={o.value} className="text-xs sm:text-sm">
-                {o.label}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+            <SelectTrigger
+              id="filter-sort"
+              className="h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
+              aria-label="Sort By"
+            >
+              <SelectValue placeholder="Sort By" className="truncate">
+                {(v: string | null) => {
+                  const opt = sortOptions.find(
+                    (o) => o.value === (v ?? selectedSort ?? sortOptions[0].value)
+                  );
+                  return opt?.label ?? "Sort By";
+                }}
+              </SelectValue>
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border max-w-[240px]">
+              {sortOptions.map((o) => (
+                <SelectItem key={o.value} value={o.value} className="text-xs sm:text-sm">
+                  <span className="truncate">{o.label}</span>
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
       )}
     </div>
   );

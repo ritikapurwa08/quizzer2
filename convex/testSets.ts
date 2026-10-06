@@ -52,8 +52,7 @@ export const completedSetIds = query({
 
     const submitted = await ctx.db
       .query("attempts")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .collect();
 
     return [...new Set(submitted.map((a) => a.testSetId as string))];

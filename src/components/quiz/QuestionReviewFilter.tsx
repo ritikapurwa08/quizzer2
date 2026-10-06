@@ -23,7 +23,7 @@ const FILTERS: { value: ReviewFilter; label: string }[] = [
 
 /**
  * Filter tabs for the Question Review section.
- * Displays counts next to each label.
+ * Segmented pill control: All, Correct, Incorrect.
  * Does NOT mutate question arrays — filtering logic lives in the parent.
  */
 export function QuestionReviewFilter({
@@ -37,56 +37,70 @@ export function QuestionReviewFilter({
       role="group"
       aria-label="Question Filter"
       className={cn(
-        "inline-flex items-center p-0.5 rounded-lg bg-muted/60 border border-border/80 backdrop-blur-xs gap-0.5",
+        "inline-flex items-center p-1 bg-zinc-900/80 border border-zinc-800 rounded-xl gap-1",
         className
       )}
     >
-      {FILTERS.map((filter) => {
-        const isActive = value === filter.value;
-        const count = counts[filter.value];
+      {/* Option: All */}
+      <button
+        type="button"
+        onClick={() => onChange("all")}
+        aria-pressed={value === "all"}
+        className={cn(
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          value === "all"
+            ? "bg-zinc-800 text-white shadow-sm"
+            : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/40"
+        )}
+      >
+        <span>All</span>
+        <span
+          className={cn(
+            "px-1.5 py-0.5 rounded-md text-[11px] font-semibold tabular-nums",
+            value === "all"
+              ? "bg-zinc-700 text-zinc-100"
+              : "bg-zinc-800/80 text-zinc-400"
+          )}
+        >
+          {counts.all}
+        </span>
+      </button>
 
-        // Refined active styling tailored to filter tone without harsh white bulbs
-        const activeStyles =
-          filter.value === "correct"
-            ? "bg-card text-emerald-500 dark:text-emerald-400 font-semibold shadow-2xs border border-emerald-500/30"
-            : filter.value === "incorrect"
-            ? "bg-card text-rose-500 dark:text-rose-400 font-semibold shadow-2xs border border-rose-500/30"
-            : "bg-card text-foreground font-semibold shadow-2xs border border-border/70";
+      {/* Option: Correct */}
+      <button
+        type="button"
+        onClick={() => onChange("correct")}
+        aria-pressed={value === "correct"}
+        className={cn(
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          value === "correct"
+            ? "bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"
+            : "text-zinc-400 hover:text-emerald-300 hover:bg-zinc-800/40"
+        )}
+      >
+        <span>Correct</span>
+        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-emerald-500/20 text-emerald-300 font-semibold tabular-nums">
+          {counts.correct}
+        </span>
+      </button>
 
-        const badgeActiveStyles =
-          filter.value === "correct"
-            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20"
-            : filter.value === "incorrect"
-            ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/20"
-            : "bg-primary/10 text-primary border border-primary/20";
-
-        return (
-          <button
-            key={filter.value}
-            type="button"
-            onClick={() => onChange(filter.value)}
-            aria-pressed={isActive}
-            className={cn(
-              "inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition-all cursor-pointer select-none",
-              isActive
-                ? activeStyles
-                : "text-muted-foreground hover:text-foreground hover:bg-muted/40 border border-transparent"
-            )}
-          >
-            {filter.label}
-            <span
-              className={cn(
-                "inline-flex h-4 min-w-[1rem] items-center justify-center rounded px-1 text-[10px] font-bold tabular-nums transition-colors",
-                isActive
-                  ? badgeActiveStyles
-                  : "bg-background/60 text-muted-foreground"
-              )}
-            >
-              {count}
-            </span>
-          </button>
-        );
-      })}
+      {/* Option: Incorrect */}
+      <button
+        type="button"
+        onClick={() => onChange("incorrect")}
+        aria-pressed={value === "incorrect"}
+        className={cn(
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          value === "incorrect"
+            ? "bg-rose-500/15 text-rose-400 border border-rose-500/20"
+            : "text-zinc-400 hover:text-rose-300 hover:bg-zinc-800/40"
+        )}
+      >
+        <span>Incorrect</span>
+        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-rose-500/20 text-rose-300 font-semibold tabular-nums">
+          {counts.incorrect}
+        </span>
+      </button>
     </div>
   );
 }

@@ -23,10 +23,22 @@ export const listByUser = query({
   },
 });
 
+export const listQuestionIdsByUser = query({
+  args: {},
+  handler: async (ctx) => {
+    const user = await requireUser(ctx);
+    const bookmarks = await ctx.db
+      .query("bookmarks")
+      .withIndex("by_user", (q) => q.eq("userId", user._id))
+      .collect();
+    return bookmarks.map((b) => b.questionId);
+  },
+});
+
 /**
  * Paginated bookmarks with subject/topic metadata for client-side filtering.
  * Resolves: bookmark → question → testSet → topic → subject
- * Acceptable for typical bookmark counts (<<200 items).
+ * Uses compound indexes by_user_topic and by_user_subject when filtered.
  */
 export const listByUserWithMeta = query({
   args: {},
@@ -48,33 +60,35 @@ export const listByUserWithMeta = query({
         const question = await ctx.db.get(b.questionId);
         if (!question) return null;
 
+        let topicId: string | null = (b.topicId as string) ?? null;
+        let subjectId: string | null = (b.subjectId as string) ?? null;
         const tsId = question.testSetId as string;
-        if (!testSetCache.has(tsId)) {
-          const ts = await ctx.db.get(question.testSetId);
-          testSetCache.set(tsId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
-        }
-        const testSet = testSetCache.get(tsId);
 
-        let topicId: string | null = null;
-        let subjectId: string | null = null;
-
-        if (testSet) {
-          const tId = testSet.topicId;
-          if (!topicCache.has(tId)) {
-            const t = await ctx.db.get(tId as any);
-            const tTyped = t as { subjectId: string; name: string; nameHindi?: string } | null;
-            topicCache.set(tId, tTyped ? { subjectId: tTyped.subjectId, name: tTyped.name, nameHindi: tTyped.nameHindi } : null);
+        if (!topicId || !subjectId) {
+          if (!testSetCache.has(tsId)) {
+            const ts = await ctx.db.get(question.testSetId);
+            testSetCache.set(tsId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
           }
-          const topic = topicCache.get(tId);
-          if (topic) {
-            topicId = tId;
-            const sId = topic.subjectId;
-            if (!subjectCache.has(sId)) {
-              const s = await ctx.db.get(sId as any);
-              const sTyped = s as { name: string; nameHindi?: string } | null;
-              subjectCache.set(sId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
+          const testSet = testSetCache.get(tsId);
+
+          if (testSet) {
+            const tId = testSet.topicId;
+            if (!topicCache.has(tId)) {
+              const t = await ctx.db.get(tId as any);
+              const tTyped = t as { subjectId: string; name: string; nameHindi?: string } | null;
+              topicCache.set(tId, tTyped ? { subjectId: tTyped.subjectId, name: tTyped.name, nameHindi: tTyped.nameHindi } : null);
             }
-            subjectId = sId;
+            const topic = topicCache.get(tId);
+            if (topic) {
+              topicId = tId;
+              const sId = topic.subjectId;
+              if (!subjectCache.has(sId)) {
+                const s = await ctx.db.get(sId as any);
+                const sTyped = s as { name: string; nameHindi?: string } | null;
+                subjectCache.set(sId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
+              }
+              subjectId = sId;
+            }
           }
         }
 
@@ -122,9 +136,25 @@ export const toggle = mutation({
       return { bookmarked: false };
     }
 
+    const question = await ctx.db.get(args.questionId);
+    let topicId: any = undefined;
+    let subjectId: any = undefined;
+    if (question) {
+      const testSet = await ctx.db.get(question.testSetId);
+      if (testSet) {
+        topicId = testSet.topicId;
+        const topic = await ctx.db.get(testSet.topicId);
+        if (topic) {
+          subjectId = topic.subjectId;
+        }
+      }
+    }
+
     await ctx.db.insert("bookmarks", {
       userId: user._id,
       questionId: args.questionId,
+      subjectId,
+      topicId,
       createdAt: Date.now(),
     });
     return { bookmarked: true };

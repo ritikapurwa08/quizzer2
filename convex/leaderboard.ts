@@ -35,32 +35,23 @@ export const topScoresBySubject = query({
 
     if (testSetIds.length === 0) return [];
 
-    // 3. Collect all submitted attempts for these testSets
-    // We can't query by testSetId across all users without a global index,
-    // so we collect all submitted attempts and filter. Acceptable for Phase 1.
-    const testSetIdSet = new Set(testSetIds);
-
-    // Collect all submitted attempts (only submitted — status filter)
-    // We use the by_user index but iterate all users is not possible without
-    // a global index. Instead, collect attempts table entries filtered by testSetId.
-    // Convex doesn't have a "by_test_set_global" index. For Phase 1,
-    // full collect + JS filter is acceptable.
-    const allAttempts = await ctx.db
-      .query("attempts")
-      .filter((q) =>
-        q.and(
-          q.eq(q.field("status"), "submitted"),
+    // 3. Query submitted attempts only for these testSets using compound index
+    const relevantAttempts = (
+      await Promise.all(
+        testSetIds.map((tsId) =>
+          ctx.db
+            .query("attempts")
+            .withIndex("by_test_set_status", (q) =>
+              q.eq("testSetId", tsId as any).eq("status", "submitted"),
+            )
+            .collect(),
         ),
       )
-      .collect();
-
-    const relevant = allAttempts.filter((a) =>
-      testSetIdSet.has(a.testSetId as string),
-    );
+    ).flat();
 
     // 4. Best score per user
     const bestByUser = new Map<string, { score: number; count: number }>();
-    for (const attempt of relevant) {
+    for (const attempt of relevantAttempts) {
       const userId = attempt.userId as string;
       const score = attempt.score ?? 0;
       const existing = bestByUser.get(userId);

@@ -14,7 +14,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const saveAnswer = useMutation(api.attempts.saveAnswer);
   const submitAttempt = useMutation(api.attempts.submit);
   const toggleBookmarkRemote = useMutation(api.bookmarks.toggle);
-  const userBookmarksData = useQuery(api.bookmarks.listByUser);
+  const userBookmarkIds = useQuery(api.bookmarks.listQuestionIdsByUser);
 
   const [attemptId, setAttemptId] = useState<Id<"attempts"> | null>(null);
   const [localAnswers, setLocalAnswers] = useState<Record<string, string | string[]>>({});
@@ -66,16 +66,10 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
   // 4. Hydrate user bookmarks from Convex
   useEffect(() => {
-    if (userBookmarksData) {
-      const set = new Set<string>();
-      for (const item of userBookmarksData) {
-        if (item.question?._id) {
-          set.add(item.question._id);
-        }
-      }
-      setBookmarkedIds(set);
+    if (userBookmarkIds) {
+      setBookmarkedIds(new Set(userBookmarkIds));
     }
-  }, [userBookmarksData]);
+  }, [userBookmarkIds]);
 
   // 5. Total Duration Resolution
   useEffect(() => {

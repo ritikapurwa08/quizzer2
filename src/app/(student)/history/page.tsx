@@ -82,18 +82,18 @@ export default function HistoryPage() {
       />
 
       {/* Header with Horizontal Right-Aligned Filters */}
-      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-6">
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
             Test History
           </h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+          <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
             Complete record of all test attempts, ordered newest to oldest.
           </p>
         </div>
 
         {/* Horizontal Filters in Header */}
-        <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
           <FilterBar
             subjects={subjectOptions}
             selectedSubject={selectedSubjectId}
@@ -103,9 +103,9 @@ export default function HistoryPage() {
             onTopicChange={handleTopicChange}
           />
           {result && (
-            <span className="text-xs text-muted-foreground font-mono bg-muted/60 px-2.5 py-1.5 rounded-xl border border-border/60">
+            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-zinc-800/80 text-zinc-300 border border-zinc-700/50 whitespace-nowrap">
               {filtered.length} {filtered.length === 1 ? "attempt" : "attempts"}
-            </span>
+            </div>
           )}
         </div>
       </div>

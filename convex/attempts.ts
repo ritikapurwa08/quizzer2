@@ -31,10 +31,9 @@ export const start = mutation({
     // rather than creating duplicates.
     const inProgress = await ctx.db
       .query("attempts")
-      .withIndex("by_user_test_set", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId),
+      .withIndex("by_user_test_set_status", (q) =>
+        q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "in_progress"),
       )
-      .filter((q) => q.eq(q.field("status"), "in_progress"))
       .unique();
 
     if (inProgress) {
@@ -118,6 +117,16 @@ export const submit = mutation({
     let wrongCount = 0;
     const scoredAnswers = [];
 
+    let wrongTopicId: any = undefined;
+    let wrongSubjectId: any = undefined;
+    if (testSet) {
+      wrongTopicId = testSet.topicId;
+      const topic = await ctx.db.get(testSet.topicId);
+      if (topic) {
+        wrongSubjectId = topic.subjectId;
+      }
+    }
+
     for (const question of questions) {
       const answer = attempt.answers.find((a) => a.questionId === question._id);
       const isAttempted =
@@ -157,11 +166,15 @@ export const submit = mutation({
             lastMissedAt: Date.now(),
             missCount: existingWrong.missCount + 1,
             resolved: false,
+            ...(existingWrong.subjectId ? {} : { subjectId: wrongSubjectId }),
+            ...(existingWrong.topicId ? {} : { topicId: wrongTopicId }),
           });
         } else {
           await ctx.db.insert("wrongQuestions", {
             userId: user._id,
             questionId: question._id,
+            subjectId: wrongSubjectId,
+            topicId: wrongTopicId,
             lastMissedAt: Date.now(),
             missCount: 1,
             resolved: false,
@@ -192,6 +205,7 @@ export const submit = mutation({
       answers: scoredAnswers,
       score: scoring.score,
       submittedAt: now,
+      completedAt: now,
       status: "submitted",
       isPaused: false,
       elapsedSeconds: finalElapsed,
@@ -280,12 +294,8 @@ export const latestSubmittedForTestSet = query({
     // Use index + desc order to get the newest submitted attempt in O(1) reads.
     const latest = await ctx.db
       .query("attempts")
-      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
-      .filter((q) =>
-        q.and(
-          q.eq(q.field("testSetId"), args.testSetId),
-          q.eq(q.field("status"), "submitted"),
-        ),
+      .withIndex("by_user_test_set_status", (q) =>
+        q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "submitted"),
       )
       .order("desc")
       .first();
@@ -309,11 +319,12 @@ export const recentByUser = query({
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
     const limit = args.limit ?? 5;
-    // Use by_user_submitted index (newest-first) and take only what we need.
+    // Use by_user_status index (newest-first) and take only what we need.
     const sorted = await ctx.db
       .query("attempts")
-      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .withIndex("by_user_status", (q) =>
+        q.eq("userId", user._id).eq("status", "submitted"),
+      )
       .order("desc")
       .take(limit);
 
@@ -335,8 +346,9 @@ export const listByUser = query({
     const user = await requireUser(ctx);
     const attempts = await ctx.db
       .query("attempts")
-      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .withIndex("by_user_status", (q) =>
+        q.eq("userId", user._id).eq("status", "submitted"),
+      )
       .order("desc")
       .collect();
 
@@ -361,11 +373,12 @@ export const historyByUser = query({
     const user = await requireUser(ctx);
     const { numItems, cursor } = args.paginationOpts;
 
-    // Use by_user_submitted index, newest-first
+    // Use by_user_status index, newest-first
     const allSubmitted = await ctx.db
       .query("attempts")
-      .withIndex("by_user_submitted", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .withIndex("by_user_status", (q) =>
+        q.eq("userId", user._id).eq("status", "submitted"),
+      )
       .order("desc")
       .collect();
 
@@ -427,10 +440,9 @@ export const getInProgress = query({
     const user = await requireUser(ctx);
     return await ctx.db
       .query("attempts")
-      .withIndex("by_user_test_set", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId),
+      .withIndex("by_user_test_set_status", (q) =>
+        q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "in_progress"),
       )
-      .filter((q) => q.eq(q.field("status"), "in_progress"))
       .unique();
   },
 });

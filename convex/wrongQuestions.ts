@@ -14,6 +14,8 @@ import { requireUser } from "./lib/permissions";
 export const listByUserPaginated = query({
   args: {
     paginationOpts: paginationOptsValidator,
+    subjectId: v.optional(v.id("subjects")),
+    topicId: v.optional(v.id("topics")),
     sortBy: v.optional(
       v.union(
         v.literal("latest"),
@@ -25,12 +27,32 @@ export const listByUserPaginated = query({
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
     const sortBy = args.sortBy ?? "latest";
+    const filterTopic = args.topicId;
+    const filterSubject = args.subjectId;
 
     if (sortBy === "most_missed") {
-      // Full collect then sort — acceptable because revision banks are typically small (<200).
-      const all = await ctx.db
-        .query("wrongQuestions")
-        .withIndex("by_user", (q) => q.eq("userId", user._id))
+      let queryBuilder;
+      if (filterTopic) {
+        queryBuilder = ctx.db
+          .query("wrongQuestions")
+          .withIndex("by_user_topic", (q) =>
+            q.eq("userId", user._id).eq("topicId", filterTopic),
+          );
+      } else if (filterSubject) {
+        queryBuilder = ctx.db
+          .query("wrongQuestions")
+          .withIndex("by_user_subject", (q) =>
+            q.eq("userId", user._id).eq("subjectId", filterSubject),
+          );
+      } else {
+        queryBuilder = ctx.db
+          .query("wrongQuestions")
+          .withIndex("by_user_resolved", (q) =>
+            q.eq("userId", user._id).eq("resolved", false),
+          );
+      }
+
+      const all = await queryBuilder
         .filter((q) => q.eq(q.field("resolved"), false))
         .collect();
 
@@ -61,10 +83,27 @@ export const listByUserPaginated = query({
     }
 
     // Index-backed query for latest / oldest
-    const baseQuery = ctx.db
-      .query("wrongQuestions")
-      .withIndex("by_user_last_missed", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("resolved"), false));
+    let baseQuery;
+    if (filterTopic) {
+      baseQuery = ctx.db
+        .query("wrongQuestions")
+        .withIndex("by_user_topic", (q) =>
+          q.eq("userId", user._id).eq("topicId", filterTopic),
+        )
+        .filter((q) => q.eq(q.field("resolved"), false));
+    } else if (filterSubject) {
+      baseQuery = ctx.db
+        .query("wrongQuestions")
+        .withIndex("by_user_subject", (q) =>
+          q.eq("userId", user._id).eq("subjectId", filterSubject),
+        )
+        .filter((q) => q.eq(q.field("resolved"), false));
+    } else {
+      baseQuery = ctx.db
+        .query("wrongQuestions")
+        .withIndex("by_user_last_missed", (q) => q.eq("userId", user._id))
+        .filter((q) => q.eq(q.field("resolved"), false));
+    }
 
     const ordered =
       sortBy === "oldest" ? baseQuery.order("asc") : baseQuery.order("desc");
@@ -129,8 +168,9 @@ export const listByUserWithMeta = query({
     const user = await requireUser(ctx);
     const wrong = await ctx.db
       .query("wrongQuestions")
-      .withIndex("by_user_last_missed", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("resolved"), false))
+      .withIndex("by_user_resolved", (q) =>
+        q.eq("userId", user._id).eq("resolved", false),
+      )
       .order("desc")
       .collect();
 
@@ -146,45 +186,51 @@ export const listByUserWithMeta = query({
         const question = await ctx.db.get(w.questionId);
         if (!question) return null;
 
-        const tsId = question.testSetId as string;
-        if (!testSetCache.has(tsId)) {
-          const ts = await ctx.db.get(question.testSetId);
-          testSetCache.set(tsId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
-        }
-        const testSet = testSetCache.get(tsId);
+        let topicId: string | null = (w.topicId as string) ?? null;
+        let subjectId: string | null = (w.subjectId as string) ?? null;
 
-        let topicId: string | null = null;
-        let subjectId: string | null = null;
-
-        if (testSet) {
-          topicId = testSet.topicId;
-          if (!topicCache.has(testSet.topicId)) {
-            const t = await ctx.db.get(testSet.topicId as any);
-            const tTyped = t as { subjectId: string; name: string; nameHindi?: string } | null;
-            topicCache.set(
-              testSet.topicId,
-              tTyped ? { subjectId: tTyped.subjectId as string, name: tTyped.name, nameHindi: tTyped.nameHindi } : null
-            );
+        // If topicId or subjectId are missing on older records, resolve via testSet chain
+        if (!topicId || !subjectId) {
+          const tsId = question.testSetId as string;
+          if (!testSetCache.has(tsId)) {
+            const ts = await ctx.db.get(question.testSetId);
+            testSetCache.set(tsId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
           }
-          const topic = topicCache.get(testSet.topicId);
-          if (topic) {
-            subjectId = topic.subjectId;
-            if (!subjectCache.has(topic.subjectId)) {
-              const s = await ctx.db.get(topic.subjectId as any);
-              const sTyped = s as { name: string; nameHindi?: string } | null;
-              subjectCache.set(topic.subjectId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
+          const testSet = testSetCache.get(tsId);
+
+          if (testSet) {
+            topicId = testSet.topicId;
+            if (!topicCache.has(testSet.topicId)) {
+              const t = await ctx.db.get(testSet.topicId as any);
+              const tTyped = t as { subjectId: string; name: string; nameHindi?: string } | null;
+              topicCache.set(
+                testSet.topicId,
+                tTyped ? { subjectId: tTyped.subjectId as string, name: tTyped.name, nameHindi: tTyped.nameHindi } : null
+              );
             }
-            const subject = subjectCache.get(topic.subjectId);
-            if (subject) {
-              const existing = subjectCountMap.get(subjectId) || {
-                subjectId,
-                name: subject.name,
-                nameHindi: subject.nameHindi,
-                count: 0,
-              };
-              existing.count += 1;
-              subjectCountMap.set(subjectId, existing);
+            const topic = topicCache.get(testSet.topicId);
+            if (topic) {
+              subjectId = topic.subjectId;
             }
+          }
+        }
+
+        if (subjectId) {
+          if (!subjectCache.has(subjectId)) {
+            const s = await ctx.db.get(subjectId as any);
+            const sTyped = s as { name: string; nameHindi?: string } | null;
+            subjectCache.set(subjectId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
+          }
+          const subject = subjectCache.get(subjectId);
+          if (subject) {
+            const existing = subjectCountMap.get(subjectId) || {
+              subjectId,
+              name: subject.name,
+              nameHindi: subject.nameHindi,
+              count: 0,
+            };
+            existing.count += 1;
+            subjectCountMap.set(subjectId, existing);
           }
         }
 

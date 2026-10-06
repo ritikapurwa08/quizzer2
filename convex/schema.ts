@@ -40,6 +40,9 @@ export default defineSchema({
 
   questions: defineTable({
     testSetId: v.id("testSets"),
+    topicId: v.optional(v.id("topics")),
+    subjectId: v.optional(v.id("subjects")),
+    status: v.optional(v.string()),
     // Promoted from meta for indexed provenance lookups (avoids full table scan).
     // Stores the canonical string form of meta.sourceQuestionId.
     sourceQuestionId: v.optional(v.string()),
@@ -73,13 +76,18 @@ export default defineSchema({
     .index("by_test_set", ["testSetId"])
     // Enables O(1) provenance check: sourceQuestionId → existing question
     // without scanning the full questions table.
-    .index("by_source_question_id", ["sourceQuestionId"]),
+    .index("by_source_question_id", ["sourceQuestionId"])
+    .index("by_topic", ["topicId"])
+    .index("by_subject", ["subjectId"])
+    .index("by_difficulty", ["difficulty"])
+    .index("by_status", ["status"]),
 
   attempts: defineTable({
     userId: v.id("users"),
     testSetId: v.id("testSets"),
     startedAt: v.number(),
     submittedAt: v.optional(v.number()),
+    completedAt: v.optional(v.number()),
     answers: v.array(
       v.object({
         questionId: v.id("questions"),
@@ -99,27 +107,43 @@ export default defineSchema({
   })
     .index("by_user", ["userId"])
     .index("by_user_test_set", ["userId", "testSetId"])
+    .index("by_user_status", ["userId", "status"])
+    .index("by_user_test_set_status", ["userId", "testSetId", "status"])
     // Enables newest-first paginated result history without client-side sort.
-    .index("by_user_submitted", ["userId", "submittedAt"]),
+    .index("by_user_submitted", ["userId", "submittedAt"])
+    .index("by_user_completed", ["userId", "completedAt"])
+    .index("by_test_set", ["testSetId"])
+    .index("by_test_set_status", ["testSetId", "status"])
+    .index("by_status", ["status"]),
 
   bookmarks: defineTable({
     userId: v.id("users"),
     questionId: v.id("questions"),
+    subjectId: v.optional(v.id("subjects")),
+    topicId: v.optional(v.id("topics")),
     createdAt: v.number(),
   })
     .index("by_user", ["userId"])
-    .index("by_user_question", ["userId", "questionId"]),
+    .index("by_user_question", ["userId", "questionId"])
+    .index("by_user_subject", ["userId", "subjectId"])
+    .index("by_user_topic", ["userId", "topicId"]),
 
   wrongQuestions: defineTable({
     userId: v.id("users"),
     questionId: v.id("questions"),
+    subjectId: v.optional(v.id("subjects")),
+    topicId: v.optional(v.id("topics")),
     lastMissedAt: v.number(),
     missCount: v.number(),
     resolved: v.boolean(),
   })
     .index("by_user", ["userId"])
     .index("by_user_question", ["userId", "questionId"])
-    .index("by_user_last_missed", ["userId", "lastMissedAt"]),
+    .index("by_user_last_missed", ["userId", "lastMissedAt"])
+    .index("by_user_subject", ["userId", "subjectId"])
+    .index("by_user_topic", ["userId", "topicId"])
+    .index("by_user_resolved", ["userId", "resolved"])
+    .index("by_user_subject_resolved", ["userId", "subjectId", "resolved"]),
 
   // Lightweight metadata & structured content storage for Notes System
   // Binary PDFs and images are static assets in public/notes/...

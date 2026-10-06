@@ -36,8 +36,7 @@ export const dashboardStats = query({
 
     const attempts = await ctx.db
       .query("attempts")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("status"), "submitted"))
+      .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .collect();
 
     const testsAttempted = attempts.length;
@@ -63,16 +62,39 @@ export const dashboardStats = query({
     const totalUnanswered = Math.max(0, totalQuestionSlots - totalAnswered);
     const overallAccuracy = totalAnswered > 0 ? (totalCorrect / totalAnswered) * 100 : 0;
 
-    const bookmarks = await ctx.db
-      .query("bookmarks")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
-      .collect();
+    const [bookmarks, wrongQuestions, allSubjects, allTopics, allTestSets] = await Promise.all([
+      ctx.db
+        .query("bookmarks")
+        .withIndex("by_user", (q) => q.eq("userId", user._id))
+        .collect(),
+      ctx.db
+        .query("wrongQuestions")
+        .withIndex("by_user_resolved", (q) => q.eq("userId", user._id).eq("resolved", false))
+        .collect(),
+      ctx.db.query("subjects").collect(),
+      ctx.db.query("topics").collect(),
+      ctx.db.query("testSets").collect(),
+    ]);
 
-    const wrongQuestions = await ctx.db
-      .query("wrongQuestions")
-      .withIndex("by_user", (q) => q.eq("userId", user._id))
-      .filter((q) => q.eq(q.field("resolved"), false))
-      .collect();
+    allSubjects.sort((a, b) => a.order - b.order);
+
+    // Build O(1) in-memory catalog maps to eliminate all N+1 DB reads
+    const testSetMap = new Map<string, { topicId: string; name: string; questionCount: number }>();
+    for (const ts of allTestSets) {
+      testSetMap.set(ts._id as string, { topicId: ts.topicId as string, name: ts.name, questionCount: ts.questionCount ?? 0 });
+    }
+
+    const topicMap = new Map<string, { subjectId: string; name: string }>();
+    const topicToSubject = new Map<string, string>();
+    for (const t of allTopics) {
+      topicMap.set(t._id as string, { subjectId: t.subjectId as string, name: t.name });
+      topicToSubject.set(t._id as string, t.subjectId as string);
+    }
+
+    const subjectMap = new Map<string, { name: string; nameHindi?: string }>();
+    for (const s of allSubjects) {
+      subjectMap.set(s._id as string, { name: s.name, nameHindi: s.nameHindi });
+    }
 
     // ── Date range configuration ───────────────────────────────────────────
     const rangeDays = args.rangeDays ?? 30;
@@ -91,11 +113,6 @@ export const dashboardStats = query({
     // Maps: day → subjectId → count
     const dailyBySubject = new Map<string, Map<string, number>>();
 
-    // ── Caches to avoid N+1 reads ──────────────────────────────────────────
-    const testSetCache = new Map<string, { topicId: string; name: string } | null>();
-    const topicCache = new Map<string, { subjectId: string; name: string } | null>();
-    const subjectCache = new Map<string, { name: string; nameHindi?: string } | null>();
-
     // ── Subject stats ──────────────────────────────────────────────────────
     const subjectStats = new Map<
       string,
@@ -103,29 +120,14 @@ export const dashboardStats = query({
     >();
 
     for (const attempt of attempts) {
-      // Resolve subject via cached chain
       const testSetId = attempt.testSetId as string;
-      if (!testSetCache.has(testSetId)) {
-        const ts = await ctx.db.get(attempt.testSetId);
-        testSetCache.set(testSetId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
-      }
-      const testSet = testSetCache.get(testSetId);
+      const testSet = testSetMap.get(testSetId);
       if (!testSet) continue;
 
-      if (!topicCache.has(testSet.topicId)) {
-        const t = await ctx.db.get(testSet.topicId as any);
-        const tTyped = t as { subjectId: string; name: string } | null;
-        topicCache.set(testSet.topicId, tTyped ? { subjectId: tTyped.subjectId as string, name: tTyped.name } : null);
-      }
-      const topic = topicCache.get(testSet.topicId);
+      const topic = topicMap.get(testSet.topicId);
       if (!topic) continue;
 
-      if (!subjectCache.has(topic.subjectId)) {
-        const s = await ctx.db.get(topic.subjectId as any);
-        const sTyped = s as { name: string; nameHindi?: string } | null;
-        subjectCache.set(topic.subjectId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
-      }
-      const subject = subjectCache.get(topic.subjectId);
+      const subject = subjectMap.get(topic.subjectId);
       if (!subject) continue;
 
       // Accumulate subject stats — only counting genuinely attempted questions
@@ -197,17 +199,7 @@ export const dashboardStats = query({
       });
     }
 
-    // ── All Subjects & Pool counts ─────────────────────────────────────────
-    const allSubjects = await ctx.db.query("subjects").collect();
-    allSubjects.sort((a, b) => a.order - b.order);
-
-    const allTopics = await ctx.db.query("topics").collect();
-    const topicToSubject = new Map<string, string>();
-    for (const t of allTopics) {
-      topicToSubject.set(t._id as string, t.subjectId as string);
-    }
-
-    const allTestSets = await ctx.db.query("testSets").collect();
+    // ── Pool counts ────────────────────────────────────────────────────────
     const subjectAvailableQuestions = new Map<string, number>();
     for (const ts of allTestSets) {
       const subId = topicToSubject.get(ts.topicId as string);
@@ -334,39 +326,37 @@ export const dashboardStats = query({
       .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
       .slice(0, 10);
 
-    const recentAttempts = await Promise.all(
-      sortedSubmitted.reverse().map(async (a) => {
-        const ts = testSetCache.get(a.testSetId as string) ?? (await ctx.db.get(a.testSetId));
-        const testSetName = ts?.name ?? "अभ्यास सेट";
-        const maxScore = a.totalQuestions * 2;
-        const rawScore = a.score ?? 0;
-        const scorePercent = maxScore > 0 ? Math.round((rawScore / maxScore) * 100) : 0;
+    const recentAttempts = sortedSubmitted.reverse().map((a) => {
+      const ts = testSetMap.get(a.testSetId as string);
+      const testSetName = ts?.name ?? "अभ्यास सेट";
+      const maxScore = a.totalQuestions * 2;
+      const rawScore = a.score ?? 0;
+      const scorePercent = maxScore > 0 ? Math.round((rawScore / maxScore) * 100) : 0;
 
-        let correct = 0;
-        let incorrect = 0;
-        for (const ans of a.answers) {
-          if (isAnswerAttempted(ans)) {
-            if (ans.isCorrect) correct += 1;
-            else incorrect += 1;
-          }
+      let correct = 0;
+      let incorrect = 0;
+      for (const ans of a.answers) {
+        if (isAnswerAttempted(ans)) {
+          if (ans.isCorrect) correct += 1;
+          else incorrect += 1;
         }
-        const unanswered = Math.max(0, a.totalQuestions - (correct + incorrect));
+      }
+      const unanswered = Math.max(0, a.totalQuestions - (correct + incorrect));
 
-        return {
-          attemptId: a._id,
-          testSetId: a.testSetId,
-          testSetName,
-          score: rawScore,
-          maxScore,
-          scorePercent: Math.max(0, Math.min(100, scorePercent)),
-          totalQuestions: a.totalQuestions,
-          correctCount: correct,
-          incorrectCount: incorrect,
-          unansweredCount: unanswered,
-          submittedAt: a.submittedAt ?? 0,
-        };
-      })
-    );
+      return {
+        attemptId: a._id,
+        testSetId: a.testSetId,
+        testSetName,
+        score: rawScore,
+        maxScore,
+        scorePercent: Math.max(0, Math.min(100, scorePercent)),
+        totalQuestions: a.totalQuestions,
+        correctCount: correct,
+        incorrectCount: incorrect,
+        unansweredCount: unanswered,
+        submittedAt: a.submittedAt ?? 0,
+      };
+    });
 
     return {
       testsAttempted,
