@@ -168,14 +168,14 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
 
   // ── Strategy 1: Side-by-side lines ──
   const sideBySideRegex =
-    /^(?:(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:]))\s*(.*?)(?:\s{2,}|\t|\s*[-–—]\s*|\s+(?=\([a-zA-Z0-9ivxlc\u0900-\u097F]+\)|(?:[\divxlc]+|[a-eA-E\u0915-\u0918])\s*[.)\-:]))(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)$/i;
+    /^(?:(?:\(([A-Ea-e1-5\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f])\)|([A-Ea-e1-5\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f])\s*[.)\-:]))\s*(.*?)(?:\s{2,}|\t|\s*[-–—]\s*|\s+(?=\([a-zA-Z0-9ivxlc\u0900-\u097F]+\)|(?:[\divxlc\u0967-\u096f]+|[a-eA-E\u0905\u092c\u0938\u0926\u0915-\u092e])\s*[.)\-:]))(?:\(([a-zA-Z0-9ivxlc\u0900-\u097F]+)\)|([a-zA-Z0-9ivxlc\u0900-\u097F]+)\s*[.)\-:])\s*(.*)$/i;
 
   const leftItems: MatchListItem[] = [];
   const rightItems: MatchListItem[] = [];
 
   for (const line of lines) {
     // Skip headers or codes lines
-    if (/^(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB])\b/i.test(line)) continue;
+    if (/^(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB]|\u0967|\u0968)\b/i.test(line)) continue;
     if (/^(?:कूट|Codes?)\s*[:=]?$/i.test(line)) continue;
 
     const m = line.match(sideBySideRegex);
@@ -198,7 +198,7 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
 
   // ── Strategy 2: Sequential blocks (List-I block ... List-II block) ──
   const isList2Header = (line: string) =>
-    /^(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B)\b(?!.*(?:को|से|with|and|from|सुमेलित))/i.test(line);
+    /^(?:सूची|List|Column)\s*[-–—:\s]*(?:II|2|B|\u0968)\b(?!.*(?:को|से|with|and|from|सुमेलित))/i.test(line);
 
   let splitIdx = -1;
   for (let i = 0; i < lines.length; i++) {
@@ -208,32 +208,55 @@ export function extractMatchListsFromText(text: string): ExtractedMatchLists {
     }
   }
 
+  const itemRegex =
+    /^(?:(?:(?:\(([A-Ea-e\divxlc\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f]+)\)|([A-Ea-e\divxlc\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f]+)\s*[.)\-:]))|([\divxlc\u0967-\u096f]+)\s*[.)\-:]|\(([\divxlc\u0967-\u096f]+)\))\s*(.*)/i;
+
+  const extractFromLines = (arr: string[]): MatchListItem[] => {
+    const items: MatchListItem[] = [];
+    for (const line of arr) {
+      if (/^(?:सूची|List|Column|कूट|Codes)/i.test(line)) continue;
+      const m = line.match(itemRegex);
+      if (m) {
+        const id = (m[1] || m[2] || m[3] || m[4] || "").trim();
+        const itemText = stripLeadingMarker((m[5] || "").trim());
+        if (itemText) items.push({ id, text: itemText });
+      }
+    }
+    return items;
+  };
+
   if (splitIdx !== -1) {
     const part1Lines = lines.slice(0, splitIdx);
     const part2Lines = lines.slice(splitIdx);
-
-    const itemRegex =
-      /^(?:(?:(?:\(([A-Ea-e\divxlc\u0915-\u0918]+)\)|([A-Ea-e\divxlc\u0915-\u0918]+)\s*[.)\-:]))|([\divxlc]+)\s*[.)\-:]|\(([\divxlc]+)\))\s*(.*)/i;
-
-    const extractFromLines = (arr: string[]): MatchListItem[] => {
-      const items: MatchListItem[] = [];
-      for (const line of arr) {
-        if (/^(?:सूची|List|Column|कूट|Codes)/i.test(line)) continue;
-        const m = line.match(itemRegex);
-        if (m) {
-          const id = (m[1] || m[2] || m[3] || m[4] || "").trim();
-          const itemText = stripLeadingMarker((m[5] || "").trim());
-          if (itemText) items.push({ id, text: itemText });
-        }
-      }
-      return items;
-    };
 
     const seqLeft = extractFromLines(part1Lines);
     const seqRight = extractFromLines(part2Lines);
 
     if (seqLeft.length >= 2 || seqRight.length >= 2) {
       return { left: seqLeft, right: seqRight, ...titles };
+    }
+  }
+
+  // ── Strategy 3: Markdown table fallback (if text contains a 2-column table) ──
+  const mdTable = tryParseMarkdownTable(text);
+  if (mdTable && mdTable.rows.length >= 2) {
+    const tLeft: MatchListItem[] = [];
+    const tRight: MatchListItem[] = [];
+    mdTable.rows.forEach((row, idx) => {
+      if (row.length >= 2) {
+        const lId = String.fromCharCode(65 + idx);
+        const rId = String(idx + 1);
+        tLeft.push({ id: lId, text: stripLeadingMarker(row[0]) });
+        tRight.push({ id: rId, text: stripLeadingMarker(row[1]) });
+      }
+    });
+    if (tLeft.length >= 2) {
+      return {
+        left: tLeft,
+        right: tRight,
+        leftTitle: mdTable.headers[0],
+        rightTitle: mdTable.headers[1],
+      };
     }
   }
 

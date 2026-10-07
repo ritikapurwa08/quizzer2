@@ -6,10 +6,14 @@ import { StatementReasonRenderer } from "./StatementReasonRenderer";
 import { SequenceRenderer } from "./SequenceRenderer";
 import { TableRenderer } from "./TableRenderer";
 
-/** The authoritative 6 canonical question types */
+/** The authoritative canonical question types and backward-compatible aliases */
 export const QUESTION_RENDERERS: Record<string, React.ComponentType<QuestionRendererProps>> = {
   mcq: McqRenderer,
+  match: MatchFollowingRenderer,
+  matching: MatchFollowingRenderer,
   match_following: MatchFollowingRenderer,
+  match_the_following: MatchFollowingRenderer,
+  assertion: AssertionReasonRenderer,
   assertion_reason: AssertionReasonRenderer,
   statement_reason: StatementReasonRenderer,
   sequence: SequenceRenderer,

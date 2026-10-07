@@ -71,16 +71,22 @@ function isTableOrItemLine(line: string): boolean {
   const trimmed = line.trim();
   if (!trimmed) return false;
 
-  // Standalone list header: e.g. "सूची-I                 सूची-II", "सूची-I:", "List-I List-II", "Column A"
+  // Standalone markdown table lines
+  if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
+    return true;
+  }
+
+  // Standalone list header: e.g. "सूची-I                 सूची-II", "सूची-I:", "सूची-1", "सूची-२", "List-I List-II", "Column A"
   // but NOT instruction sentences like "सूची-I को सूची-II से सुमेलित कीजिए"
-  if (/(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB])\b/i.test(trimmed)) {
+  if (/(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB]|\u0967|\u0968)\b/i.test(trimmed)) {
     if (!isInstructionLine(trimmed)) {
       return true;
     }
   }
 
-  // List bullet items: "A. ...", "(A) ...", "1. ...", "(i) ...", "i. ...", "(क) ..."
-  if (/^(?:(?:\([A-Ea-e1-5\divxlc\u0915-\u0918]+\))|(?:[A-Ea-e1-5\divxlc\u0915-\u0918]+[\.\):]))\s+/i.test(trimmed)) {
+  // List bullet items: "A. ...", "(A) ...", "1. ...", "(i) ...", "i. ...", "(क) ...", "(अ) ...", "(१) ...", "अ. ..."
+  // Covers English letters A-E, 1-5, roman numerals, Devanagari markers (अ, ब, स, द, क-झ), and Devanagari digits (१-५)
+  if (/^(?:(?:\([A-Ea-e1-5\divxlc\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f]+\))|(?:[A-Ea-e1-5\divxlc\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f]+[\.\):]))\s+/i.test(trimmed)) {
     return true;
   }
 
@@ -92,6 +98,14 @@ function isTableOrItemLine(line: string): boolean {
   return false;
 }
 
+const MATCH_QUESTION_TYPES = new Set([
+  "match",
+  "matching",
+  "match_following",
+  "match_the_following",
+  "table",
+]);
+
 /**
  * For match_following (and similar list-based) questions, questionText often contains
  * both the instruction prompt and the raw text lists (List I / List II / सूची-I / सूची-II).
@@ -99,7 +113,7 @@ function isTableOrItemLine(line: string): boolean {
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  if (type && type !== "match_following") {
+  if (type && !MATCH_QUESTION_TYPES.has(type)) {
     return text;
   }
 

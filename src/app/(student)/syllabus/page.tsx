@@ -1,8 +1,8 @@
 import { SyllabusTracker } from "@/components/syllabus/SyllabusTracker";
 
 export const metadata = {
-  title: "परीक्षा पाठ्यक्रम ट्रैकर",
-  description: "वरिष्ठ अध्यापक (2nd Grade) एवं RSMSSB CET का संपूर्ण पाठ्यक्रम, उभयनिष्ठ टॉपिक्स और प्रगति ट्रैकर।",
+  title: "Syllabus Tracker | Quizzer",
+  description: "RPSC Senior Teacher (2nd Grade) Paper-1 syllabus coverage and preparation progress tracker.",
 };
 
 export default function SyllabusPage() {

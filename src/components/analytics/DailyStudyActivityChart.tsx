@@ -108,7 +108,8 @@ export function DailyStudyActivityChart({
   }, [data]);
 
   const dateRangeText = useMemo(() => {
-    if (!data || data.length === 0) return `Last ${rangeDays} Days`;
+    if (!data || data.length === 0) return rangeDays === 1 ? "Today" : `Last ${rangeDays} Days`;
+    if (rangeDays === 1) return `Today (${formatDisplayDate(data[0].day)})`;
     const start = formatDisplayDate(data[0].day);
     const end = formatDisplayDate(data[data.length - 1].day);
     return `Last ${rangeDays} Days (${start} – ${end})`;

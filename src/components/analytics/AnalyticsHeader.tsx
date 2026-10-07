@@ -4,7 +4,7 @@ import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { cn } from "@/lib/utils";
 import { Calendar } from "lucide-react";
 
-export type RangeDays = 7 | 15 | 30;
+export type RangeDays = 1 | 7 | 15 | 30;
 
 interface AnalyticsHeaderProps {
   rangeDays: RangeDays;
@@ -12,6 +12,7 @@ interface AnalyticsHeaderProps {
 }
 
 const RANGE_OPTIONS: { label: string; value: RangeDays; sublabel: string }[] = [
+  { label: "Today", value: 1, sublabel: "1D" },
   { label: "7 Days", value: 7, sublabel: "7D" },
   { label: "15 Days", value: 15, sublabel: "15D" },
   { label: "30 Days", value: 30, sublabel: "30D" },

@@ -270,12 +270,14 @@ export const dashboardStats = query({
       };
     });
 
+    const validDaysSet = new Set(allDays.map((d) => d.day));
+
     for (const attempt of attempts) {
       if (!attempt.submittedAt) continue;
-      const attemptLocalMs = attempt.submittedAt - tzOffsetMs;
-      const daysDiff = (nowLocalMs - attemptLocalMs) / (1000 * 60 * 60 * 24);
-      if (daysDiff > rangeDays || daysDiff < -0.1) continue;
+      const attemptDay = toLocalDayString(attempt.submittedAt);
+      if (!validDaysSet.has(attemptDay)) continue;
 
+      const attemptLocalMs = attempt.submittedAt - tzOffsetMs;
       const localDate = new Date(attemptLocalMs);
       const hour = localDate.getUTCHours();
       if (hour >= 0 && hour < 24) {

@@ -22,6 +22,8 @@ import {
   Moon,
   Monitor,
   Sparkles,
+  BookOpen,
+  ListChecks,
 } from "lucide-react";
 
 import { api } from "../../../convex/_generated/api";
@@ -72,6 +74,53 @@ export function Navbar() {
               Quizzer
             </span>
           </Link>
+
+          <nav className="hidden md:flex items-center gap-1 text-xs font-semibold">
+            <Link
+              href="/dashboard"
+              className={cn(
+                "px-3 py-1.5 rounded-lg transition-colors",
+                pathname === "/dashboard"
+                  ? "bg-muted text-foreground font-bold"
+                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+              )}
+            >
+              Dashboard
+            </Link>
+            <Link
+              href="/subjects"
+              className={cn(
+                "px-3 py-1.5 rounded-lg transition-colors",
+                pathname?.startsWith("/subjects")
+                  ? "bg-muted text-foreground font-bold"
+                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+              )}
+            >
+              Subjects
+            </Link>
+            <Link
+              href="/syllabus"
+              className={cn(
+                "px-3 py-1.5 rounded-lg transition-colors",
+                pathname === "/syllabus"
+                  ? "bg-muted text-foreground font-bold"
+                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+              )}
+            >
+              Syllabus
+            </Link>
+            <Link
+              href="/analytics"
+              className={cn(
+                "px-3 py-1.5 rounded-lg transition-colors",
+                pathname === "/analytics"
+                  ? "bg-muted text-foreground font-bold"
+                  : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+              )}
+            >
+              Analytics
+            </Link>
+          </nav>
         </div>
 
         {/* ── Right side: Profile Menu with Integrated Theme Switcher ── */}
@@ -235,7 +284,19 @@ export function Navbar() {
 
                   {/* 3. Main Navigation Links (English) */}
                   <div className="p-1.5 space-y-0.5">
-
+                    <Link
+                      href="/syllabus"
+                      onClick={() => setProfileOpen(false)}
+                      className={cn(
+                        "flex items-center gap-2.5 px-3 py-2 text-xs font-medium rounded-lg transition-colors",
+                        pathname === "/syllabus"
+                          ? "bg-muted text-foreground font-semibold"
+                          : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                      )}
+                    >
+                      <ListChecks className="h-4 w-4" />
+                      Syllabus Tracker
+                    </Link>
 
                     <Link
                       href="/analytics"

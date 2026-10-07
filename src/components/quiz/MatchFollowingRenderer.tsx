@@ -50,8 +50,8 @@ export function MatchFollowingRenderer({
       };
     }
     if (typeof item === "string") {
-      // Parse "A. text" or "(A) text" or "1. text" or "(क) text" etc.
-      const m = item.match(/^(?:\(([A-Ea-e1-5\u0915-\u0918])\)|([A-Ea-e1-5\u0915-\u0918])\s*[.)\-:])\s*(.*)/);
+      // Parse "A. text" or "(A) text" or "1. text" or "(क) text" or "(अ) text" or "अ. text" etc.
+      const m = item.match(/^(?:\(([A-Ea-e1-5\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f])\)|([A-Ea-e1-5\u0905\u092c\u0938\u0926\u0915-\u092e\u0967-\u096f])\s*[.)\-:])\s*(.*)/);
       if (m) {
         const id = (m[1] || m[2] || "").trim().toUpperCase();
         const text = stripLeadingMarker(m[3] || "");
