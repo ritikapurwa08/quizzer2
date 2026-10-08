@@ -31,13 +31,13 @@ async function main() {
   const allCanonicalQuestions = new Map<string, { topicId: number; q: DDDQuestion }>();
   let totalCanonicalCount = 0;
 
-  for (let id = 1; id <= 73; id++) {
+  for (let id = 1; id <= MASTER_TOPICS.size; id++) {
     if (!MASTER_TOPICS.has(id)) {
       issues.push({
         type: "ERROR",
         code: "UNKNOWN_MASTER_TOPIC_ID",
         topicId: id,
-        message: `Topic ID ${id} is not in authoritative Master Topics (1-73)`,
+        message: `Topic ID ${id} is not in authoritative Master Topics (1-${MASTER_TOPICS.size})`,
       });
     }
 
@@ -54,16 +54,17 @@ async function main() {
 
       for (const q of topicData.questions) {
         totalCanonicalCount++;
-        if (allCanonicalQuestions.has(q.id)) {
-          const prev = allCanonicalQuestions.get(q.id)!;
+        const qid = String(q.id);
+        if (allCanonicalQuestions.has(qid)) {
+          const prev = allCanonicalQuestions.get(qid)!;
           issues.push({
             type: "ERROR",
             code: "DUPLICATE_DDD_ID_ACROSS_TOPICS",
-            questionId: q.id,
-            message: `Question ID ${q.id} appears in both Topic ${prev.topicId} and Topic ${id}`,
+            questionId: qid,
+            message: `Question ID ${qid} appears in both Topic ${prev.topicId} and Topic ${id}`,
           });
         } else {
-          allCanonicalQuestions.set(q.id, { topicId: id, q });
+          allCanonicalQuestions.set(qid, { topicId: id, q });
         }
       }
     } catch {
@@ -116,7 +117,7 @@ async function main() {
   }
 
   if (poolState) {
-    for (let id = 1; id <= 73; id++) {
+    for (let id = 1; id <= MASTER_TOPICS.size; id++) {
       const ts = poolState.topics?.[String(id)];
       if (!ts) {
         issues.push({
@@ -289,7 +290,7 @@ async function main() {
   const warnings = issues.filter((i) => i.type === "WARNING");
 
   console.log("=== VALIDATION AUDIT RESULTS ===");
-  console.log(`Canonical Questions in 73 Topics: ${totalCanonicalCount.toLocaleString()}`);
+  console.log(`Canonical Questions in ${MASTER_TOPICS.size} Topics: ${totalCanonicalCount.toLocaleString()}`);
   console.log(`Question-Level Split Unassigned: ${splitCount.toLocaleString()}`);
   console.log(`Total Master Questions Accounted: ${(totalCanonicalCount + splitCount).toLocaleString()}`);
   console.log(`Total Final Sets Inspected: ${seenSetIds.size}`);

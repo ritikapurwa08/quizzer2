@@ -3,7 +3,7 @@ import path from "path";
 import { RAJASTHAN_GK_MASTER_SECTIONS } from "../src/lib/constants/rajasthanGkMasterTopics";
 import { comparePoolQuestions } from "../src/lib/pool/sortQuestions";
 
-// Master Topics Map (1 to 73)
+// Master Topics Map (1 to 55)
 const masterTopicsMap = new Map<number, { id: number; nameHindi: string; nameEnglish: string }>();
 for (const sec of RAJASTHAN_GK_MASTER_SECTIONS) {
   for (const top of sec.topics) {
@@ -160,8 +160,8 @@ async function main() {
     topics: {},
   };
 
-  // Write each topic queue file (01_....json to 73_....json)
-  for (let id = 1; id <= 73; id++) {
+  // Write each topic queue file (01_....json to 55_....json)
+  for (let id = 1; id <= masterTopicsMap.size; id++) {
     const info = masterTopicsMap.get(id);
     const topicNameHindi = info?.nameHindi || `Topic ${id}`;
     const qList = questionsByTopic.get(id) || [];
@@ -224,7 +224,7 @@ async function main() {
     questionsIncludedInMasterPool: rawCount,
     masterTopicAssignedCount: topicAssignedList.length,
     questionLevelSplitCount: questionLevelSplitList.length,
-    masterTopicCount: 73,
+    masterTopicCount: masterTopicsMap.size,
     topicsWithQuestions,
     topicsWithoutQuestions: topicsWithoutQuestions.map((t) => `#${t.id} ${t.nameHindi}`),
     removedBecauseOfOld420: 0,

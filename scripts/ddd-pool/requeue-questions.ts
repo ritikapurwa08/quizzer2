@@ -1,4 +1,4 @@
-import { loadPoolState, savePoolState } from "./utils";
+import { loadPoolState, savePoolState, MASTER_TOPICS } from "./utils";
 import { RequeuedEntry } from "./types";
 
 function parseArgs() {
@@ -31,8 +31,8 @@ function parseArgs() {
 async function main() {
   const { topicId, releaseCandidates, idsToRequeue, reason } = parseArgs();
 
-  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > 73) {
-    console.error("Error: Please specify a valid Master Topic ID (1-73) using --topic <id>");
+  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > MASTER_TOPICS.size) {
+    console.error(`Error: Please specify a valid Master Topic ID (1-${MASTER_TOPICS.size}) using --topic <id>`);
     process.exit(1);
   }
 

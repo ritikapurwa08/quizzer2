@@ -21,9 +21,9 @@ export async function GET(request: NextRequest) {
     }
 
     const masterTopicId = parseInt(topicIdParam, 10);
-    if (isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 75) {
+    if (isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > MASTER_TOPICS_LIST.length) {
       return NextResponse.json(
-        { success: false, message: "Invalid masterTopicId (must be 1-75)" },
+        { success: false, message: `Invalid masterTopicId (must be 1-${MASTER_TOPICS_LIST.length})` },
         { status: 400 }
       );
     }
@@ -154,6 +154,8 @@ export async function GET(request: NextRequest) {
     // Format clean questions for prompt
     const promptQuestions = candidateQuestions.map((q) => ({
       id: q.id,
+      topic: topicHindi,
+      masterTopicId,
       question: q.question,
       options: q.options,
       answer: q.answer,
@@ -206,6 +208,7 @@ ${countRule}
 7. 'id' (जैसे "${candidateQuestions[0]?.id || "rg_000001"}") को EXACTLY वही रखें जो मूल प्रश्न में दिया गया है। इसे बदलें नहीं।
 8. अपनी ओर से कोई नया प्रश्न न बनाएँ। केवल दिए गए उम्मीदवार प्रश्नों को ही सुधारें।
 9. उद्धरण चिह्नों की JSON सुरक्षा (CRITICAL Quotes Escaping Rule): यदि किसी प्रश्न (question), विकल्प (options) या व्याख्या (explanation) में कोई कथन, नारा, पुस्तक या उपाधि उद्धृत हो (जैसे "मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ"), तो JSON स्ट्रिंग के भीतर कभी भी कच्चा अनएस्केप्ड डबल कोट (") न छोड़ें। उद्धरण के लिए या तो एकल उद्धरण चिन्ह ('...') या स्मार्ट उद्धरण (‘...’ / “...”) का प्रयोग करें अथवा \\" से उचित रूप से एस्केप करें। कच्चा डबल कोट JSON पार्सिंग को पूरी तरह क्रैश कर देता है।
+10. प्रत्येक प्रश्न में 'topic' ("${topicHindi}") एवं 'masterTopicId' (${masterTopicId}) शामिल रखें।
 
 ==================================================
 उम्मीदवार प्रश्न (Candidate Questions):
@@ -220,6 +223,8 @@ ${JSON.stringify(promptQuestions, null, 2)}
 [
   {
     "id": "${candidateQuestions[0]?.id || "rg_000001"}",
+    "topic": "${topicHindi}",
+    "masterTopicId": ${masterTopicId},
     "question": "शुद्ध प्रामाणिक प्रश्न पाठ (कथन हेतु '...' या \\\"...\\\" का प्रयोग करें)...",
     "options": [
       "विकल्प 1",

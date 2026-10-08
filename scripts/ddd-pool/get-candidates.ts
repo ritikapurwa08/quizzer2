@@ -7,6 +7,7 @@ import {
   loadPoolState,
   loadTopicQuestions,
   savePoolState,
+  MASTER_TOPICS,
 } from "./utils";
 import { DDDQuestion } from "./types";
 
@@ -41,8 +42,8 @@ async function main() {
   ensurePoolDirectories();
   const { topicId, count, dryRun, forceNew } = parseArgs();
 
-  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > 73) {
-    console.error("Error: Please provide a valid Master Topic ID (1-73) using --topic <id>");
+  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > MASTER_TOPICS.size) {
+    console.error(`Error: Please provide a valid Master Topic ID (1-${MASTER_TOPICS.size}) using --topic <id>`);
     console.error("Example: bun run scripts/ddd-pool/get-candidates.ts --topic 17 --count 25");
     process.exit(1);
   }

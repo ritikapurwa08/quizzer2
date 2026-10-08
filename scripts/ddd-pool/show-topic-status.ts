@@ -87,7 +87,7 @@ async function main() {
   let grandRej = 0;
   let grandSets = 0;
 
-  for (let id = 1; id <= 73; id++) {
+  for (let id = 1; id <= MASTER_TOPICS.size; id++) {
     const topicState = state.topics[String(id)];
     const info = MASTER_TOPICS.get(id);
     const nameHindi = topicState?.masterTopic || info?.nameHindi || `Topic ${id}`;
@@ -122,7 +122,7 @@ async function main() {
 
   console.log("-----------------------------------------------------------------------------------------");
   console.log(
-    `TOTAL| ${"All 73 Master Topics".padEnd(36)} | ${String(grandTotal).padStart(5)} | ${String(grandAvail).padStart(5)} | ${String(grandCand).padStart(4)} | ${String(grandUsed).padStart(4)} | ${String(grandReq).padStart(4)} | ${String(grandRej).padStart(4)} | ${grandSets}`
+    `TOTAL| ${`All ${MASTER_TOPICS.size} Master Topics`.padEnd(36)} | ${String(grandTotal).padStart(5)} | ${String(grandAvail).padStart(5)} | ${String(grandCand).padStart(4)} | ${String(grandUsed).padStart(4)} | ${String(grandReq).padStart(4)} | ${String(grandRej).padStart(4)} | ${grandSets}`
   );
   console.log("=========================================================================================\n");
 }

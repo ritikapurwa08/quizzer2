@@ -21,7 +21,7 @@ export function ensurePoolDirectories(): void {
   fs.mkdirSync(HISTORY_DIR, { recursive: true });
 }
 
-// Master Topics Map (1 to 73)
+// Master Topics Map (1 to 55)
 export const MASTER_TOPICS = new Map<number, { id: number; nameHindi: string; nameEnglish: string }>();
 for (const sec of RAJASTHAN_GK_MASTER_SECTIONS) {
   for (const top of sec.topics) {

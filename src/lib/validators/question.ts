@@ -563,6 +563,8 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
       ...(raw.source ? { source: String(raw.source).trim() } : {}),
       ...(raw.masterTopicId ? { masterTopicId: Number(raw.masterTopicId) } : {}),
       ...(raw.masterTopic ? { masterTopic: String(raw.masterTopic).trim() } : {}),
+      ...(raw.topic ? { topic: String(raw.topic).trim() } : {}),
+      ...(raw.topicId ? { topicId: Number(raw.topicId) } : {}),
       ...(raw.sourceTopic ? { sourceTopic: String(raw.sourceTopic).trim() } : {}),
       ...(sourceType ? { sourceType } : {}),
       ...(sourceQuestionId !== undefined ? { sourceQuestionId } : {}),

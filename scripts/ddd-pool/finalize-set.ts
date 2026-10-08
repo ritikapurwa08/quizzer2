@@ -8,6 +8,7 @@ import {
   SETS_DIR,
   HISTORY_DIR,
   getId,
+  MASTER_TOPICS,
 } from "./utils";
 import { DDDQuestion, RequeuedEntry, UsedEntry, RejectedEntry } from "./types";
 
@@ -44,8 +45,8 @@ async function main() {
   ensurePoolDirectories();
   const { topicId, setNumber, inputPath, allowPartial } = parseArgs();
 
-  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > 73) {
-    console.error("Error: Please provide a valid Master Topic ID (1-73) using --topic <id>");
+  if (!topicId || isNaN(topicId) || topicId < 1 || topicId > MASTER_TOPICS.size) {
+    console.error(`Error: Please provide a valid Master Topic ID (1-${MASTER_TOPICS.size}) using --topic <id>`);
     process.exit(1);
   }
 

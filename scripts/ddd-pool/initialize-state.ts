@@ -26,7 +26,7 @@ async function main() {
   const newTopics: Record<string, TopicQueueState> = {};
   let totalAssigned = 0;
 
-  for (let id = 1; id <= 73; id++) {
+  for (let id = 1; id <= MASTER_TOPICS.size; id++) {
     const info = MASTER_TOPICS.get(id);
     const nameHindi = info?.nameHindi || `Topic ${id}`;
     let qData: any = { questions: [] };
@@ -88,7 +88,7 @@ async function main() {
   };
 
   savePoolState(poolState);
-  console.log(`✓ pool-state.json successfully synchronized across 73 topics.`);
+  console.log(`✓ pool-state.json successfully synchronized across ${MASTER_TOPICS.size} topics.`);
   console.log(`  Total Master Topic Assigned: ${totalAssigned}`);
   console.log(`  Question-Level Split: 195`);
   console.log(`  Total Master Pool: 16,032`);

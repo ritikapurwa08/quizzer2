@@ -3,6 +3,8 @@ export interface DDDQuestion {
   source: string;
   sourceTopicId: number | null;
   sourceTopic: string | null;
+  topic?: string | null;
+  topicId?: number | null;
   masterTopicId: number | null;
   masterTopic: string | null;
   question: string;

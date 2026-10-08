@@ -1,15 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
+import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { masterTopicId, setNumber, selectedQuestionIds, questions } = body;
 
-    if (!masterTopicId || isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > 75) {
+    if (!masterTopicId || isNaN(masterTopicId) || masterTopicId < 1 || masterTopicId > MASTER_TOPICS_LIST.length) {
       return NextResponse.json(
-        { success: false, message: "Invalid masterTopicId (must be 1-75)" },
+        { success: false, message: `Invalid masterTopicId (must be 1-${MASTER_TOPICS_LIST.length})` },
         { status: 400 }
       );
     }
