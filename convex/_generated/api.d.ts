@@ -17,6 +17,7 @@ import type * as leaderboard from "../leaderboard.js";
 import type * as lib_permissions from "../lib/permissions.js";
 import type * as lib_scoring from "../lib/scoring.js";
 import type * as lib_validators from "../lib/validators.js";
+import type * as migrations from "../migrations.js";
 import type * as notes from "../notes.js";
 import type * as questions from "../questions.js";
 import type * as search from "../search.js";
@@ -43,6 +44,7 @@ declare const fullApi: ApiFromModules<{
   "lib/permissions": typeof lib_permissions;
   "lib/scoring": typeof lib_scoring;
   "lib/validators": typeof lib_validators;
+  migrations: typeof migrations;
   notes: typeof notes;
   questions: typeof questions;
   search: typeof search;

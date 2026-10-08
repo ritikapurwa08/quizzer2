@@ -45,4 +45,5 @@ next-env.d.ts
 /src/xdata/topics
 /src/xdata/.cache*
 /src/xdata/rajasthan_selected_topics_question_15000.json
+*.zip
 
