@@ -1,0 +1,59 @@
+{
+  "topicId": 22,
+  "websiteTopicId": 462,
+  "topic": "Question tag",
+  "topicHindi": "प्रश्न पुछल्ले (Question Tags)",
+  "totalAvailable": 2,
+  "questions": [
+    {
+      "id": "rg_eng_002093",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 462,
+      "sourceTopic": "Question tag",
+      "topicId": 22,
+      "topic": "Question tag",
+      "topicHindi": "प्रश्न पुछल्ले (Question Tags)",
+      "masterTopicId": 22,
+      "masterTopic": "Question tag",
+      "question": "Choose the most appropriate option to correct the following sentence:\nHe has been to Amrapalli, <u>did he?</u>",
+      "options": [
+        "should he?",
+        "hadn’t he?",
+        "didn’t he?",
+        "hasn’t he?"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "exam": "RSSB Fourth Class Exam 2024 (20 Sep. 2025 1st Shift)",
+      "year": 2024,
+      "explanation": null,
+      "rawPosition": 1,
+      "pageStart": 0
+    },
+    {
+      "id": "rg_eng_002094",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 462,
+      "sourceTopic": "Question tag",
+      "topicId": 22,
+      "topic": "Question tag",
+      "topicHindi": "प्रश्न पुछल्ले (Question Tags)",
+      "masterTopicId": 22,
+      "masterTopic": "Question tag",
+      "question": "The correct ‘Question tag’ to complete the sentence is -\nI am a profound nature lover.",
+      "options": [
+        "isn’t it?",
+        "ain’t I?",
+        "weren’t I?",
+        "don’t I?"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "exam": "RSMSSB House Keeper 2022",
+      "year": 2022,
+      "explanation": null,
+      "rawPosition": 2,
+      "pageStart": 0
+    }
+  ]
+}

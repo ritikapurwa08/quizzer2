@@ -1,0 +1,59 @@
+{
+  "topicId": 27,
+  "websiteTopicId": 600,
+  "topic": "Subject-Verb Agreement",
+  "topicHindi": "कर्ता-क्रिया सामंजस्य (Subject-Verb Agreement)",
+  "totalAvailable": 2,
+  "questions": [
+    {
+      "id": "rg_eng_002136",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 600,
+      "sourceTopic": "Subject-Verb Agreement",
+      "topicId": 27,
+      "topic": "Subject-Verb Agreement",
+      "topicHindi": "कर्ता-क्रिया सामंजस्य (Subject-Verb Agreement)",
+      "masterTopicId": 27,
+      "masterTopic": "Subject-Verb Agreement",
+      "question": "Choose the most appropriate option to fill in the blanks -\nI can’t do this job alone. I need ____ to help me; in fact ____ will do, as I just need ____ to assist me.",
+      "options": [
+        "somebody, anyone, someone",
+        "anybody, nobody, anyone",
+        "nobody, noone, anyone",
+        "anything, nobody, anybody"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "exam": "CET 2024 (12th Level) 24 October Shift-I",
+      "year": 2024,
+      "explanation": null,
+      "rawPosition": 1,
+      "pageStart": 0
+    },
+    {
+      "id": "rg_eng_002137",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 600,
+      "sourceTopic": "Subject-Verb Agreement",
+      "topicId": 27,
+      "topic": "Subject-Verb Agreement",
+      "topicHindi": "कर्ता-क्रिया सामंजस्य (Subject-Verb Agreement)",
+      "masterTopicId": 27,
+      "masterTopic": "Subject-Verb Agreement",
+      "question": "Choose the most appropriate options to fill in the blanks:\n_____ my friends are busy tonight. ______  of them are writing an exam the next day, but ____ of them were still ready to party and so far _____ of them have confirmed.",
+      "options": [
+        "none, most, all, none",
+        "All, most, some, none",
+        "Some, some, some, all",
+        "most, none, all, some"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "exam": "CET 2024 (12th Level) 22 October Shift-II",
+      "year": 2024,
+      "explanation": null,
+      "rawPosition": 2,
+      "pageStart": 0
+    }
+  ]
+}

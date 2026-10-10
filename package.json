@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prepare:english-pool": "bun run scripts/prepare-english-pool.ts"
   },
   "dependencies": {
     "@auth/core": "0.41.1",
