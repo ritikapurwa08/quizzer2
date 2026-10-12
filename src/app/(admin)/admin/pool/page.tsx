@@ -45,7 +45,7 @@ interface TopicOverviewItem {
   id: number;
   name: string;
   nameHindi: string;
-  subjectId: number;
+  subjectId: string;
   subjectTitle: string;
   subjectEnglish: string;
   poolTotal: number;
@@ -77,7 +77,7 @@ interface OverviewData {
   };
   topics: TopicOverviewItem[];
   sections: Array<{
-    id: number;
+    id: string;
     title: string;
     titleEnglish: string;
     topicCount: number;
@@ -90,7 +90,7 @@ export default function AdminPoolOverviewPage() {
   const [error, setError] = useState<string | null>(null);
 
   // Filters & Search
-  const [selectedSubject, setSelectedSubject] = useState<number | null>(null);
+  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState<"all" | "completed" | "in_progress" | "not_started">("all");
   const [sortBy, setSortBy] = useState<"id_asc" | "id_desc" | "pool_desc" | "remaining_desc" | "progress_desc">("id_asc");
@@ -212,8 +212,12 @@ export default function AdminPoolOverviewPage() {
       </div>
     );
   }
+ 
+  if (!data) {
+    return null;
+  }
 
-  const { summary } = data!;
+  const { summary } = data;
 
   return (
     <div className="space-y-6 max-w-6xl mx-auto pb-16">

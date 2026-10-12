@@ -24,6 +24,7 @@ import {
   Sparkles,
   BookOpen,
   ListChecks,
+  Database,
 } from "lucide-react";
 
 import { api } from "../../../convex/_generated/api";

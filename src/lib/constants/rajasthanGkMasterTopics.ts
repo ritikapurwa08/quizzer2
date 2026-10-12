@@ -12,6 +12,8 @@ export interface MasterTopic {
 
 export interface MasterSection {
   code: "A" | "B" | "C" | "D";
+  id?: string;
+  title?: string;
   titleHindi: string;
   titleEnglish: string;
   slug: string;
@@ -21,6 +23,8 @@ export interface MasterSection {
 export const RAJASTHAN_GK_MASTER_SECTIONS: MasterSection[] = [
   {
     code: "A",
+    id: "A",
+    title: "राजस्थान सामान्य ज्ञान एवं भूगोल",
     titleHindi: "राजस्थान सामान्य ज्ञान एवं भूगोल",
     titleEnglish: "Rajasthan General Knowledge & Geography",
     slug: "rajasthan-general-knowledge-geography",
@@ -44,6 +48,8 @@ export const RAJASTHAN_GK_MASTER_SECTIONS: MasterSection[] = [
   },
   {
     code: "B",
+    id: "B",
+    title: "राजस्थान का इतिहास",
     titleHindi: "राजस्थान का इतिहास",
     titleEnglish: "Rajasthan History",
     slug: "rajasthan-history",
@@ -62,6 +68,8 @@ export const RAJASTHAN_GK_MASTER_SECTIONS: MasterSection[] = [
   },
   {
     code: "C",
+    id: "C",
+    title: "राजस्थान कला एवं संस्कृति",
     titleHindi: "राजस्थान कला एवं संस्कृति",
     titleEnglish: "Rajasthan Art & Culture",
     slug: "rajasthan-art-culture",
@@ -85,6 +93,8 @@ export const RAJASTHAN_GK_MASTER_SECTIONS: MasterSection[] = [
   },
   {
     code: "D",
+    id: "D",
+    title: "राजस्थान राजव्यवस्था एवं प्रशासन",
     titleHindi: "राजस्थान राजव्यवस्था एवं प्रशासन",
     titleEnglish: "Rajasthan Polity & Administration",
     slug: "rajasthan-polity-administration",
