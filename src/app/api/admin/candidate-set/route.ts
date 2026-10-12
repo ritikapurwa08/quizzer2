@@ -97,47 +97,66 @@ export async function GET(request: NextRequest) {
           }
 
           // Authoritative sync: Query Convex directly so any question already imported in DB is NEVER served as candidate
+          // Query both production Convex and local NEXT_PUBLIC_CONVEX_URL to catch all existing questions
           try {
-            const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL || "https://shiny-wildcat-270.convex.cloud";
+            const urlsToCheck = Array.from(new Set([
+              "https://shiny-wildcat-270.convex.cloud",
+              process.env.NEXT_PUBLIC_CONVEX_URL,
+            ])).filter(Boolean) as string[];
+
             const checkIds = allQuestions.map((q) => String(q.id));
-            const convexRes = await fetch(`${convexUrl}/api/query`, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                path: "questions:checkExistingProvenance",
-                args: { sourceQuestionIds: checkIds },
-              }),
-            });
-            if (convexRes.ok) {
-              const convexData = await convexRes.json();
-              if (Array.isArray(convexData.value?.existingSourceIds)) {
-                for (const exId of convexData.value.existingSourceIds) {
-                  usedSet.add(String(exId));
+            for (const cUrl of urlsToCheck) {
+              try {
+                const convexRes = await fetch(`${cUrl}/api/query`, {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({
+                    path: "questions:checkExistingProvenance",
+                    args: { sourceQuestionIds: checkIds },
+                  }),
+                });
+                if (convexRes.ok) {
+                  const convexData = await convexRes.json();
+                  if (Array.isArray(convexData.value?.existingSourceIds)) {
+                    for (const exId of convexData.value.existingSourceIds) {
+                      usedSet.add(String(exId));
+                    }
+                  }
                 }
+              } catch {
+                // Ignore individual connection errors
               }
             }
           } catch (convexErr) {
             console.error("Convex check in candidate-set:", convexErr);
           }
 
-          const candidateDrawCount = batchSize === 20 ? 25 : Math.round(batchSize * 1.25);
-          if (topicState?.candidate && topicState.candidate.length > 0) {
-            targetIds = topicState.candidate.filter((id: string) => !usedSet.has(id));
-          } else if (topicState?.available && topicState.available.length > 0) {
-            const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
-            targetIds = freshAvailable.slice(0, Math.min(freshAvailable.length, candidateDrawCount));
-          } else {
-            targetIds = [...allQuestions]
-              .sort(comparePoolQuestions)
-              .map((q) => String(q.id))
-              .filter((id) => !usedSet.has(id))
-              .slice(0, candidateDrawCount);
+          // If disk file had candidateQuestions, filter them against usedSet
+          if (candidateQuestions.length > 0) {
+            candidateQuestions = candidateQuestions.filter((q) => !usedSet.has(String(q.id)));
           }
 
-          for (const qid of targetIds) {
-            const q = questionMap.get(String(qid));
-            if (q) candidateQuestions.push(q);
+          if (candidateQuestions.length === 0) {
+            const candidateDrawCount = batchSize === 20 ? 25 : Math.round(batchSize * 1.25);
+            if (topicState?.candidate && topicState.candidate.length > 0) {
+              targetIds = topicState.candidate.filter((id: string) => !usedSet.has(id));
+            } else if (topicState?.available && topicState.available.length > 0) {
+              const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
+              targetIds = freshAvailable.slice(0, Math.min(freshAvailable.length, candidateDrawCount));
+            } else {
+              targetIds = [...allQuestions]
+                .sort(comparePoolQuestions)
+                .map((q) => String(q.id))
+                .filter((id) => !usedSet.has(id))
+                .slice(0, candidateDrawCount);
+            }
+
+            for (const qid of targetIds) {
+              const q = questionMap.get(String(qid));
+              if (q) candidateQuestions.push(q);
+            }
           }
+
 
           candidateQuestions.sort(comparePoolQuestions);
         }

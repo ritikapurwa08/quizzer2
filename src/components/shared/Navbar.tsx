@@ -239,6 +239,19 @@ export function Navbar() {
                             Admin Overview
                           </Link>
                           <Link
+                            href="/admin/pool"
+                            onClick={() => setProfileOpen(false)}
+                            className={cn(
+                              "flex items-center gap-2.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors",
+                              pathname === "/admin/pool"
+                                ? "bg-muted text-foreground font-semibold"
+                                : "text-muted-foreground hover:bg-muted/60 hover:text-foreground"
+                            )}
+                          >
+                            <Database className="h-3.5 w-3.5" />
+                            55 Topics Question Pool
+                          </Link>
+                          <Link
                             href="/admin/import"
                             onClick={() => setProfileOpen(false)}
                             className={cn(

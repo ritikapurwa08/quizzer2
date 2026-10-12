@@ -78,7 +78,18 @@ export default function AdminOverviewPage() {
         <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
           Management Sections
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <Link href="/admin/pool">
+            <Card className="flex items-center gap-3 p-3.5 hover:border-primary/50 hover:shadow-xs transition-all rounded-xl group bg-card border border-primary/20">
+              <div className="p-2.5 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors shrink-0">
+                <Layers className="h-4 w-4" />
+              </div>
+              <div className="min-w-0">
+                <p className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate">55 Topics Pool & Inventory</p>
+                <p className="text-[11px] text-muted-foreground truncate">15,949 Qs master pool & sets</p>
+              </div>
+            </Card>
+          </Link>
           <Link href="/admin/questions">
             <Card className="flex items-center gap-3 p-3.5 hover:border-foreground/30 hover:shadow-xs transition-all rounded-xl group bg-card border border-border/80">
               <div className="p-2.5 rounded-lg bg-muted text-foreground group-hover:bg-foreground group-hover:text-background transition-colors shrink-0">
