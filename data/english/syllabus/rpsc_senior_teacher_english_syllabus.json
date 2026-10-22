@@ -1,0 +1,281 @@
+{
+  "exam": "RPSC Senior Teacher (2nd Grade) Competitive Examination",
+  "department": "Secondary Education Department, Rajasthan",
+  "paper": "Paper-II: Subject – English",
+  "totalParts": 3,
+  "parts": [
+    {
+      "partId": "part_1",
+      "partNumber": "Part – I",
+      "title": "Secondary and Senior Secondary Standard",
+      "titleHindi": "माध्यमिक एवं उच्च माध्यमिक स्तर (व्याकरण एवं प्रयोग)",
+      "weightageMarks": 180,
+      "sections": [
+        {
+          "sectionId": "grammar_and_usage",
+          "title": "Grammar and Usage",
+          "topics": [
+            {
+              "topicId": "1.i",
+              "slug": "parts-of-speech",
+              "title": "Parts of Speech",
+              "subtopics": [
+                { "slug": "nouns", "title": "Nouns" },
+                { "slug": "verbs", "title": "Verbs" },
+                { "slug": "adjectives", "title": "Adjectives" },
+                { "slug": "adverbs", "title": "Adverbs" }
+              ]
+            },
+            {
+              "topicId": "1.ii",
+              "slug": "articles-and-determiners",
+              "title": "Use of Articles and Determiners",
+              "subtopics": ["Definite and Indefinite Articles", "Quantifiers and Determiners"]
+            },
+            {
+              "topicId": "1.iii",
+              "slug": "tenses",
+              "title": "Tenses",
+              "subtopics": ["Present", "Past", "Future", "Sequence of Tenses"]
+            },
+            {
+              "topicId": "1.iv",
+              "slug": "prepositions",
+              "title": "Use of Prepositions",
+              "subtopics": ["Prepositions of Place", "Prepositions of Time", "Prepositions of Direction", "Fixed Prepositions"]
+            },
+            {
+              "topicId": "1.v",
+              "slug": "modal-auxiliaries",
+              "title": "Modal Auxiliaries",
+              "subtopics": ["Can, Could, May, Might, Must, Ought to, Shall, Should, Will, Would, Need, Dare, Used to"]
+            },
+            {
+              "topicId": "1.vi",
+              "slug": "degrees-of-adjectives",
+              "title": "Degrees of Adjectives – Comparative and Superlative Degrees",
+              "subtopics": ["Positive Degree", "Comparative Degree", "Superlative Degree", "Interchange of Degrees"]
+            },
+            {
+              "topicId": "1.vii",
+              "slug": "subordination-and-coordination",
+              "title": "Subordination and Coordination – Compound and Complex Sentences",
+              "subtopics": ["Coordinating Conjunctions", "Subordinating Conjunctions", "Compound Sentences", "Complex Sentences"]
+            },
+            {
+              "topicId": "1.viii",
+              "slug": "transformation-of-sentences",
+              "title": "Transformation of Sentences",
+              "subtopics": [
+                { "code": "a", "title": "Affirmative, Negative, Interrogative, and Imperative Sentences" },
+                { "code": "b", "title": "Active and Passive Voice" },
+                { "code": "c", "title": "Direct and Indirect Speech" }
+              ]
+            },
+            {
+              "topicId": "1.ix",
+              "slug": "phrasal-verbs",
+              "title": "Phrasal Verbs",
+              "subtopics": ["High Frequency Exam Phrasal Verbs with Particles"]
+            },
+            {
+              "topicId": "1.x",
+              "slug": "proverbs-idiomatic-expressions",
+              "title": "Proverbs and Idiomatic Expressions",
+              "subtopics": ["Common English Proverbs", "Idiomatic Phrases & Usages"]
+            },
+            {
+              "topicId": "1.xi",
+              "slug": "words-often-misspelt-confused",
+              "title": "Words Often Misspelt and Confused",
+              "subtopics": ["Homophones", "Confusable Words", "Spelling Rules"]
+            },
+            {
+              "topicId": "1.xii",
+              "slug": "one-word-substitution",
+              "title": "One Word Substitution",
+              "subtopics": ["High Yield Vocabulary & Phrase Replacements"]
+            },
+            {
+              "topicId": "1.xiii",
+              "slug": "synonyms-and-antonyms",
+              "title": "Synonyms and Antonyms",
+              "subtopics": ["Exam Core Vocabulary Sets", "Contextual Meanings", "Collocations"]
+            },
+            {
+              "topicId": "1.xiv",
+              "slug": "phonetic-transcription",
+              "title": "Phonetic Transcription",
+              "subtopics": ["IPA Symbols", "Vowel and Consonant Sounds", "Diphthongs", "Stress Patterns"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "partId": "part_2",
+      "partNumber": "Part – II",
+      "title": "Graduation Standard",
+      "titleHindi": "स्नातक स्तर (व्याकरण, भाषा एवं अंग्रेजी साहित्य)",
+      "weightageMarks": 80,
+      "sections": [
+        {
+          "sectionId": "advanced_grammar_and_literature",
+          "title": "Grammar, Usage, and Literature",
+          "topics": [
+            {
+              "topicId": "2.i",
+              "slug": "basic-sentence-patterns",
+              "title": "Basic Sentence Patterns",
+              "subtopics": ["SV, SVO, SVOO, SVC, SVOA, SVOC"]
+            },
+            {
+              "topicId": "2.ii",
+              "slug": "clause-analysis-svoca",
+              "title": "Clause Analysis (in terms of SVOCA)",
+              "subtopics": ["Subject", "Verb", "Object", "Complement", "Adjunct", "Noun Clauses", "Adverbial Clauses", "Relative Clauses"]
+            },
+            {
+              "topicId": "2.iii",
+              "slug": "reading-comprehension-vocabulary",
+              "title": "Reading Comprehension and Vocabulary",
+              "subtopics": ["Unseen Prose Passages", "Contextual Vocabulary", "Inference & Fact Analysis"]
+            },
+            {
+              "topicId": "2.iv",
+              "slug": "poetry-appreciation",
+              "title": "Poetry Appreciation",
+              "subtopics": ["Rhyme Scheme", "Rhythm and Meter", "Tone", "Imagery and Symbolism"]
+            }
+          ]
+        },
+        {
+          "sectionId": "literary_forms_and_devices",
+          "title": "Literary Forms / Devices / Techniques",
+          "devices": [
+            "Simile",
+            "Metaphor",
+            "Personification",
+            "Pun",
+            "Hyperbole",
+            "Alliteration",
+            "Onomatopoeia",
+            "Sonnet",
+            "Ode",
+            "Elegy",
+            "Ballad",
+            "Soliloquy",
+            "Dramatic Monologue",
+            "Stream of Consciousness"
+          ]
+        },
+        {
+          "sectionId": "major_literary_periods",
+          "title": "Major Literary Periods",
+          "periods": [
+            "Renaissance",
+            "Metaphysical",
+            "Jacobean",
+            "Neoclassical",
+            "Romantic",
+            "Victorian",
+            "Modern"
+          ]
+        },
+        {
+          "sectionId": "major_literary_movements",
+          "title": "Major Literary Movements",
+          "movements": [
+            "Romanticism",
+            "Gothic",
+            "Pre-Raphaelite Movement",
+            "Realism",
+            "Existentialism"
+          ]
+        },
+        {
+          "sectionId": "prescribed_texts",
+          "title": "Prescribed Texts (Poetry, Prose, Fiction, Drama)",
+          "poetry": [
+            { "author": "William Shakespeare", "work": "When to the Sessions (Sonnet 30)" },
+            { "author": "John Milton", "work": "On His Having Arrived at the Age of Twenty-Three" },
+            { "author": "John Donne", "work": "The Sunne Rising" },
+            { "author": "John Dryden", "work": "A Song for St. Cecilia’s Day" },
+            { "author": "William Wordsworth", "work": "The Solitary Reaper" },
+            { "author": "John Keats", "work": "A Thing of Beauty" },
+            { "author": "Robert Browning", "work": "The Last Ride Together" },
+            { "author": "Alfred Lord Tennyson", "work": "Ulysses" },
+            { "author": "T. S. Eliot", "work": "The Love Song of J. Alfred Prufrock" },
+            { "author": "Pablo Neruda", "work": "Keeping Quiet" },
+            { "author": "Nissim Ezekiel", "work": "The Night of the Scorpion" },
+            { "author": "Kamala Das", "work": "My Mother at Sixty-Six" },
+            { "author": "Arun Kolatkar", "work": "The Bus" },
+            { "author": "Sri Aurobindo", "work": "The Pilgrim of Night" },
+            { "author": "Toru Dutt", "work": "Our Casuarina Tree" }
+          ],
+          "prose": [
+            { "author": "Francis Bacon", "work": "Of Studies" },
+            { "author": "Joseph Addison", "work": "Meditations in Westminster Abbey" },
+            { "author": "Charles Lamb", "work": "My Relations" },
+            { "author": "George Bernard Shaw", "work": "Freedom" },
+            { "author": "Alphonse Daudet", "work": "The Last Lesson" },
+            { "author": "Pearl S. Buck", "work": "The Enemy" }
+          ],
+          "fiction": [
+            { "author": "Charles Dickens", "work": "A Tale of Two Cities" },
+            { "author": "R. K. Narayan", "work": "Malgudi Days" }
+          ],
+          "drama": [
+            { "author": "William Shakespeare", "work": "Macbeth" },
+            { "author": "Anton Chekhov", "work": "A Marriage Proposal" }
+          ]
+        }
+      ]
+    },
+    {
+      "partId": "part_3",
+      "partNumber": "Part – III",
+      "title": "Teaching Methods",
+      "titleHindi": "शिक्षण विधियाँ (English Language Teaching)",
+      "weightageMarks": 40,
+      "topics": [
+        {
+          "topicId": "3.i",
+          "slug": "basic-principles-second-language-teaching",
+          "title": "Basic Principles of Second Language Teaching",
+          "subtopics": ["Principles of Selection, Gradation, Presentation, Habit Formation, Motivation, and Individual Differences"]
+        },
+        {
+          "topicId": "3.ii",
+          "slug": "four-language-skills-lsrw",
+          "title": "Developing the Four Language Skills (LSRW)",
+          "subtopics": ["Listening Skills", "Speaking Skills", "Reading Skills (Skimming, Scanning, Intensive, Extensive)", "Writing Skills"]
+        },
+        {
+          "topicId": "3.iii",
+          "slug": "teaching-of-language-forms",
+          "title": "Teaching of Language Forms",
+          "subtopics": ["Teaching of Prose", "Teaching of Poetry", "Teaching of Grammar (Deductive vs Inductive)", "Teaching of Composition"]
+        },
+        {
+          "topicId": "3.iv",
+          "slug": "approaches-and-methods-elt",
+          "title": "Approaches and Methods of English Language Teaching",
+          "methods": [
+            "Grammar Translation Method (GTM)",
+            "Direct Method",
+            "Structural Method",
+            "Audio-Lingual Method",
+            "Communicative Language Teaching (CLT)"
+          ]
+        },
+        {
+          "topicId": "3.v",
+          "slug": "evaluation-in-english-language",
+          "title": "Evaluation in English Language",
+          "subtopics": ["Continuous and Comprehensive Evaluation (CCE)", "Types of Tests (Diagnostic, Remedial, Achievement)", "Characteristics of a Good Test (Validity, Reliability, Objectivity, Usability)"]
+        }
+      ]
+    }
+  ]
+}

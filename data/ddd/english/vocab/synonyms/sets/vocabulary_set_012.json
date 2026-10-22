@@ -1,0 +1,2263 @@
+{
+  "setId": "vocabulary_set_012",
+  "setNumber": 12,
+  "title": "Vocabulary Set 012 — Revamp to Menacing",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 276,
+      "word": "revamp",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "सुधारिा",
+        "संवारिा",
+        "मरम्मि करिा"
+      ],
+      "englishDefinition": "(Mnemonic: Ramp",
+      "pronunciation": {
+        "ipa": "/revamp/",
+        "simple": "REV-amp"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to revamp the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सुधारिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disperse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सुधारिा",
+            "संवारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disperse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disperse था।"
+            }
+          ]
+        },
+        {
+          "word": "fiddle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सुधारिा",
+            "संवारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fiddle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fiddle था।"
+            }
+          ]
+        },
+        {
+          "word": "profane",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सुधारिा",
+            "संवारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profane था।"
+            }
+          ]
+        },
+        {
+          "word": "ameliorate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सुधारिा",
+            "संवारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ameliorate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ameliorate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 277,
+      "word": "rectify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ठीक करि",
+        "सुध रि"
+      ],
+      "englishDefinition": "(Mnemonic: Correct) To set right; to correct.",
+      "pronunciation": {
+        "ipa": "/rectify/",
+        "simple": "REC-tify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to rectify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ठीक करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fiddle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठीक करि",
+            "सुध रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fiddle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fiddle था।"
+            }
+          ]
+        },
+        {
+          "word": "profane",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठीक करि",
+            "सुध रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profane था।"
+            }
+          ]
+        },
+        {
+          "word": "ameliorate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठीक करि",
+            "सुध रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ameliorate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ameliorate था।"
+            }
+          ]
+        },
+        {
+          "word": "revamp",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठीक करि",
+            "सुध रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was revamp.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण revamp था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 278,
+      "word": "ratify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "पुस्ष्ट करि",
+        "मांजूर करि"
+      ],
+      "englishDefinition": "To approve and sanction formally.",
+      "pronunciation": {
+        "ipa": "/ratify/",
+        "simple": "RAT-ify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ratify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को पुस्ष्ट करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "profane",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "मांजूर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profane था।"
+            }
+          ]
+        },
+        {
+          "word": "ameliorate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "मांजूर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ameliorate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ameliorate था।"
+            }
+          ]
+        },
+        {
+          "word": "revamp",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "मांजूर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was revamp.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण revamp था।"
+            }
+          ]
+        },
+        {
+          "word": "rectify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "मांजूर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rectify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rectify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 279,
+      "word": "overhaul",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "क य पलट करि",
+        "मरम्मत करि"
+      ],
+      "englishDefinition": "To examine thoroughly and repair.",
+      "pronunciation": {
+        "ipa": "/overhaul/",
+        "simple": "OVER-haul"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to overhaul the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को क य पलट करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ameliorate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "क य पलट करि",
+            "मरम्मत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ameliorate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ameliorate था।"
+            }
+          ]
+        },
+        {
+          "word": "revamp",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "क य पलट करि",
+            "मरम्मत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was revamp.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण revamp था।"
+            }
+          ]
+        },
+        {
+          "word": "rectify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "क य पलट करि",
+            "मरम्मत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rectify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rectify था।"
+            }
+          ]
+        },
+        {
+          "word": "ratify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "क य पलट करि",
+            "मरम्मत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ratify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ratify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 280,
+      "word": "exacerbate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बदतर करि",
+        "स्बग ड़ि"
+      ],
+      "englishDefinition": "To make more violent, bitter, or severe.",
+      "pronunciation": {
+        "ipa": "/exacerbate/",
+        "simple": "EXACE-rbate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to exacerbate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बदतर करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "revamp",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदतर करि",
+            "स्बग ड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was revamp.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण revamp था।"
+            }
+          ]
+        },
+        {
+          "word": "rectify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदतर करि",
+            "स्बग ड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rectify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rectify था।"
+            }
+          ]
+        },
+        {
+          "word": "ratify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदतर करि",
+            "स्बग ड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ratify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ratify था।"
+            }
+          ]
+        },
+        {
+          "word": "overhaul",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदतर करि",
+            "स्बग ड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overhaul.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overhaul था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 281,
+      "word": "aplomb",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "आत्मनवश्वास",
+        "संिुलि",
+        "शालीििा"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/aplomb/",
+        "simple": "APL-omb"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of aplomb in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आत्मनवश्वास के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rectify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आत्मनवश्वास",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rectify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rectify था।"
+            }
+          ]
+        },
+        {
+          "word": "ratify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आत्मनवश्वास",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ratify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ratify था।"
+            }
+          ]
+        },
+        {
+          "word": "overhaul",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आत्मनवश्वास",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overhaul.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overhaul था।"
+            }
+          ]
+        },
+        {
+          "word": "exacerbate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आत्मनवश्वास",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exacerbate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exacerbate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 282,
+      "word": "equanimity",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "नचत्त की नस्थरिा",
+        "संिुलि",
+        "शांनि"
+      ],
+      "englishDefinition": "(Mnemonic: Equal",
+      "pronunciation": {
+        "ipa": "/equanimity/",
+        "simple": "EQUAN-imity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of equanimity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में नचत्त की नस्थरिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ratify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नचत्त की नस्थरिा",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ratify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ratify था।"
+            }
+          ]
+        },
+        {
+          "word": "overhaul",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नचत्त की नस्थरिा",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overhaul.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overhaul था।"
+            }
+          ]
+        },
+        {
+          "word": "exacerbate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नचत्त की नस्थरिा",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exacerbate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exacerbate था।"
+            }
+          ]
+        },
+        {
+          "word": "aplomb",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नचत्त की नस्थरिा",
+            "संिुलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aplomb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aplomb था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 283,
+      "word": "sangfroid",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Sangfroid"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/sangfroid/",
+        "simple": "SANG-froid"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sangfroid in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Sangfroid के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "overhaul",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Sangfroid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overhaul.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overhaul था।"
+            }
+          ]
+        },
+        {
+          "word": "exacerbate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Sangfroid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exacerbate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exacerbate था।"
+            }
+          ]
+        },
+        {
+          "word": "aplomb",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Sangfroid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aplomb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aplomb था।"
+            }
+          ]
+        },
+        {
+          "word": "equanimity",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Sangfroid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was equanimity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण equanimity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 284,
+      "word": "phlegmatic",
+      "partOfSpeech": [
+        "n",
+        "adj"
+      ],
+      "hindiMeaning": [
+        "शांि",
+        "अनवकारी",
+        "भावहीि"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/phlegmatic/",
+        "simple": "PHLEG-matic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably phlegmatic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से शांि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exacerbate",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांि",
+            "अनवकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exacerbate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exacerbate था।"
+            }
+          ]
+        },
+        {
+          "word": "aplomb",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांि",
+            "अनवकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aplomb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aplomb था।"
+            }
+          ]
+        },
+        {
+          "word": "equanimity",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांि",
+            "अनवकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was equanimity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण equanimity था।"
+            }
+          ]
+        },
+        {
+          "word": "sangfroid",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांि",
+            "अनवकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sangfroid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sangfroid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 285,
+      "word": "beneficial",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ल भद यक",
+        "स्हतक री"
+      ],
+      "englishDefinition": "Conducive to personal or social well-being.",
+      "pronunciation": {
+        "ipa": "/beneficial/",
+        "simple": "BENEF-icial"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably beneficial.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ल भद यक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "aplomb",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ल भद यक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aplomb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aplomb था।"
+            }
+          ]
+        },
+        {
+          "word": "equanimity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ल भद यक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was equanimity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण equanimity था।"
+            }
+          ]
+        },
+        {
+          "word": "sangfroid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ल भद यक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sangfroid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sangfroid था।"
+            }
+          ]
+        },
+        {
+          "word": "phlegmatic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ल भद यक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was phlegmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण phlegmatic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 286,
+      "word": "beneficiary",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "लाभाथी (आनथयक मदद पािे वाला)"
+      ],
+      "englishDefinition": "One that receives a benefit (like financial aid).",
+      "pronunciation": {
+        "ipa": "/beneficiary/",
+        "simple": "BENEF-iciary"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of beneficiary in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में लाभाथी (आनथयक मदद पािे वाला) के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "equanimity",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाभाथी (आनथयक मदद पािे वाला)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was equanimity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण equanimity था।"
+            }
+          ]
+        },
+        {
+          "word": "sangfroid",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाभाथी (आनथयक मदद पािे वाला)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sangfroid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sangfroid था।"
+            }
+          ]
+        },
+        {
+          "word": "phlegmatic",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाभाथी (आनथयक मदद पािे वाला)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was phlegmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण phlegmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficial",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाभाथी (आनथयक मदद पािे वाला)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficial था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 287,
+      "word": "salubrious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्वास्थ्यवधयक",
+        "हेल्दी"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/salubrious/",
+        "simple": "SALUB-rious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably salubrious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्वास्थ्यवधयक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sangfroid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्वास्थ्यवधयक",
+            "हेल्दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sangfroid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sangfroid था।"
+            }
+          ]
+        },
+        {
+          "word": "phlegmatic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्वास्थ्यवधयक",
+            "हेल्दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was phlegmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण phlegmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्वास्थ्यवधयक",
+            "हेल्दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficial था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficiary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्वास्थ्यवधयक",
+            "हेल्दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficiary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficiary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 288,
+      "word": "salutary",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "फायदेमंद",
+        "स्वास्थ्यवधयक"
+      ],
+      "englishDefinition": "(Mnemonic: Salute",
+      "pronunciation": {
+        "ipa": "/salutary/",
+        "simple": "SALU-tary"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably salutary.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से फायदेमंद थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "phlegmatic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "फायदेमंद",
+            "स्वास्थ्यवधयक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was phlegmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण phlegmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "फायदेमंद",
+            "स्वास्थ्यवधयक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficial था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficiary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "फायदेमंद",
+            "स्वास्थ्यवधयक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficiary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficiary था।"
+            }
+          ]
+        },
+        {
+          "word": "salubrious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "फायदेमंद",
+            "स्वास्थ्यवधयक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salubrious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salubrious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 289,
+      "word": "lucrative",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "लाभदायक",
+        "आकर्यक"
+      ],
+      "englishDefinition": "(Mnemonic: Lucent",
+      "pronunciation": {
+        "ipa": "/lucrative/",
+        "simple": "LUCR-ative"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably lucrative.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से लाभदायक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "beneficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "लाभदायक",
+            "आकर्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficial था।"
+            }
+          ]
+        },
+        {
+          "word": "beneficiary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "लाभदायक",
+            "आकर्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficiary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficiary था।"
+            }
+          ]
+        },
+        {
+          "word": "salubrious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "लाभदायक",
+            "आकर्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salubrious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salubrious था।"
+            }
+          ]
+        },
+        {
+          "word": "salutary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "लाभदायक",
+            "आकर्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salutary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salutary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 290,
+      "word": "opportune",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "उपयुि",
+        "समय अिुकू ल"
+      ],
+      "englishDefinition": "Suitable or convenient for a particular occurrence.",
+      "pronunciation": {
+        "ipa": "/opportune/",
+        "simple": "OPPO-rtune"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably opportune.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से उपयुि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "beneficiary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उपयुि",
+            "समय अिुकू ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beneficiary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beneficiary था।"
+            }
+          ]
+        },
+        {
+          "word": "salubrious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उपयुि",
+            "समय अिुकू ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salubrious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salubrious था।"
+            }
+          ]
+        },
+        {
+          "word": "salutary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उपयुि",
+            "समय अिुकू ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salutary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salutary था।"
+            }
+          ]
+        },
+        {
+          "word": "lucrative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उपयुि",
+            "समय अिुकू ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucrative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucrative था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 291,
+      "word": "innocuous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अहानिकारक",
+        "मासूम"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/innocuous/",
+        "simple": "INNO-cuous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably innocuous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अहानिकारक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "salubrious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अहानिकारक",
+            "मासूम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salubrious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salubrious था।"
+            }
+          ]
+        },
+        {
+          "word": "salutary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अहानिकारक",
+            "मासूम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salutary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salutary था।"
+            }
+          ]
+        },
+        {
+          "word": "lucrative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अहानिकारक",
+            "मासूम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucrative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucrative था।"
+            }
+          ]
+        },
+        {
+          "word": "opportune",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अहानिकारक",
+            "मासूम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opportune.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opportune था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 292,
+      "word": "wholesome",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "पौस्ष्टक",
+        "स्हतक री"
+      ],
+      "englishDefinition": "Promoting health or well-being of mind or spirit.",
+      "pronunciation": {
+        "ipa": "/wholesome/",
+        "simple": "WHOL-esome"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably wholesome.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से पौस्ष्टक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "salutary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पौस्ष्टक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was salutary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण salutary था।"
+            }
+          ]
+        },
+        {
+          "word": "lucrative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पौस्ष्टक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucrative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucrative था।"
+            }
+          ]
+        },
+        {
+          "word": "opportune",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पौस्ष्टक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opportune.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opportune था।"
+            }
+          ]
+        },
+        {
+          "word": "innocuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पौस्ष्टक",
+            "स्हतक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was innocuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण innocuous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 293,
+      "word": "noxious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ह स्िक रक",
+        "स्र्वषैल"
+      ],
+      "englishDefinition": "Physically harmful or destructive to living beings.",
+      "pronunciation": {
+        "ipa": "/noxious/",
+        "simple": "NOX-ious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably noxious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ह स्िक रक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lucrative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ह स्िक रक",
+            "स्र्वषैल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucrative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucrative था।"
+            }
+          ]
+        },
+        {
+          "word": "opportune",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ह स्िक रक",
+            "स्र्वषैल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opportune.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opportune था।"
+            }
+          ]
+        },
+        {
+          "word": "innocuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ह स्िक रक",
+            "स्र्वषैल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was innocuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण innocuous था।"
+            }
+          ]
+        },
+        {
+          "word": "wholesome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ह स्िक रक",
+            "स्र्वषैल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wholesome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wholesome था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 294,
+      "word": "detrimental",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "हानिकारक"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/detrimental/",
+        "simple": "DETRI-mental"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably detrimental.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से हानिकारक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "opportune",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हानिकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opportune.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opportune था।"
+            }
+          ]
+        },
+        {
+          "word": "innocuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हानिकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was innocuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण innocuous था।"
+            }
+          ]
+        },
+        {
+          "word": "wholesome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हानिकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wholesome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wholesome था।"
+            }
+          ]
+        },
+        {
+          "word": "noxious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हानिकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noxious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noxious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 295,
+      "word": "baleful",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्िष्टक री",
+        "ह स्िक रक"
+      ],
+      "englishDefinition": "Foreboding or threatening evil.",
+      "pronunciation": {
+        "ipa": "/baleful/",
+        "simple": "BAL-eful"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably baleful.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्िष्टक री थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "wholesome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िष्टक री",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wholesome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wholesome था।"
+            }
+          ]
+        },
+        {
+          "word": "noxious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िष्टक री",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noxious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noxious था।"
+            }
+          ]
+        },
+        {
+          "word": "detrimental",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िष्टक री",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was detrimental.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण detrimental था।"
+            }
+          ]
+        },
+        {
+          "word": "bane",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िष्टक री",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bane था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 296,
+      "word": "noisome",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बदबूद र",
+        "ह स्िक रक"
+      ],
+      "englishDefinition": "Offensive to the senses and especially to the sense of smell; harmful.",
+      "pronunciation": {
+        "ipa": "/noisome/",
+        "simple": "NOI-some"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably noisome.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बदबूद र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "noxious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बदबूद र",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noxious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noxious था।"
+            }
+          ]
+        },
+        {
+          "word": "detrimental",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बदबूद र",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was detrimental.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण detrimental था।"
+            }
+          ]
+        },
+        {
+          "word": "bane",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बदबूद र",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bane था।"
+            }
+          ]
+        },
+        {
+          "word": "baleful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बदबूद र",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was baleful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण baleful था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 297,
+      "word": "perilous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "खिरिाक"
+      ],
+      "englishDefinition": "(Mnemonic: Parlor",
+      "pronunciation": {
+        "ipa": "/perilous/",
+        "simple": "PERI-lous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably perilous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से खिरिाक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "detrimental",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was detrimental.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण detrimental था।"
+            }
+          ]
+        },
+        {
+          "word": "bane",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bane था।"
+            }
+          ]
+        },
+        {
+          "word": "baleful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was baleful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण baleful था।"
+            }
+          ]
+        },
+        {
+          "word": "noisome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisome था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 298,
+      "word": "hazardous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "खिरिाक"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/hazardous/",
+        "simple": "HAZA-rdous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably hazardous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से खिरिाक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "bane",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bane था।"
+            }
+          ]
+        },
+        {
+          "word": "baleful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was baleful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण baleful था।"
+            }
+          ]
+        },
+        {
+          "word": "noisome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisome था।"
+            }
+          ]
+        },
+        {
+          "word": "perilous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perilous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perilous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 299,
+      "word": "jeopardous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "खिरिाक",
+        "जोनखम भरा"
+      ],
+      "englishDefinition": "(Mnemonic: Jio) Dangerous; risky.",
+      "pronunciation": {
+        "ipa": "/jeopardous/",
+        "simple": "JEOPA-rdous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably jeopardous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से खिरिाक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "baleful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was baleful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण baleful था।"
+            }
+          ]
+        },
+        {
+          "word": "noisome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisome था।"
+            }
+          ]
+        },
+        {
+          "word": "perilous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perilous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perilous था।"
+            }
+          ]
+        },
+        {
+          "word": "hazardous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hazardous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hazardous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 300,
+      "word": "menacing",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Menacing"
+      ],
+      "englishDefinition": "(Mnemonic: Men",
+      "pronunciation": {
+        "ipa": "/menacing/",
+        "simple": "MENA-cing"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably menacing.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Menacing थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "noisome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Menacing"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisome था।"
+            }
+          ]
+        },
+        {
+          "word": "perilous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Menacing"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perilous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perilous था।"
+            }
+          ]
+        },
+        {
+          "word": "hazardous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Menacing"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hazardous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hazardous था।"
+            }
+          ]
+        },
+        {
+          "word": "jeopardous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Menacing"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jeopardous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jeopardous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

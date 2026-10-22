@@ -1,0 +1,2225 @@
+{
+  "setId": "vocabulary_set_049",
+  "setNumber": 49,
+  "title": "Vocabulary Set 049 — Overweening to Hillbilly",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1201,
+      "word": "overweening",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अत्यनधक अनभमािी-आत्मनवश्वासी"
+      ],
+      "englishDefinition": "Showing excessive confidence or pride.",
+      "pronunciation": {
+        "ipa": "/overweening/",
+        "simple": "OVERW-eening"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably overweening.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अत्यनधक अनभमािी-आत्मनवश्वासी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "snob",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यनधक अनभमािी-आत्मनवश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was snob.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण snob था।"
+            }
+          ]
+        },
+        {
+          "word": "conceited",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यनधक अनभमािी-आत्मनवश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conceited.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conceited था।"
+            }
+          ]
+        },
+        {
+          "word": "condescending",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यनधक अनभमािी-आत्मनवश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condescending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condescending था।"
+            }
+          ]
+        },
+        {
+          "word": "uppish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यनधक अनभमािी-आत्मनवश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uppish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uppish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1202,
+      "word": "chesty",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "घमांडी (ि ती फु ल कर िलिे र्व ल )"
+      ],
+      "englishDefinition": "Arrogant or conceited.",
+      "pronunciation": {
+        "ipa": "/chesty/",
+        "simple": "CHE-sty"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably chesty.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से घमांडी (ि ती फु ल कर िलिे र्व ल ) थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "conceited",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी (ि ती फु ल कर िलिे र्व ल )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conceited.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conceited था।"
+            }
+          ]
+        },
+        {
+          "word": "condescending",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी (ि ती फु ल कर िलिे र्व ल )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condescending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condescending था।"
+            }
+          ]
+        },
+        {
+          "word": "uppish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी (ि ती फु ल कर िलिे र्व ल )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uppish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uppish था।"
+            }
+          ]
+        },
+        {
+          "word": "overweening",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी (ि ती फु ल कर िलिे र्व ल )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overweening.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overweening था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1203,
+      "word": "humble",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "नविम्र"
+      ],
+      "englishDefinition": "Having or showing a modest or low estimate of one's own",
+      "pronunciation": {
+        "ipa": "/humble/",
+        "simple": "HUM-ble"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably humble.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से नविम्र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "condescending",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नविम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condescending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condescending था।"
+            }
+          ]
+        },
+        {
+          "word": "uppish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नविम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uppish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uppish था।"
+            }
+          ]
+        },
+        {
+          "word": "overweening",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नविम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overweening.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overweening था।"
+            }
+          ]
+        },
+        {
+          "word": "chesty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नविम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chesty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chesty था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1204,
+      "word": "unassuming",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्र्विम्र",
+        "सीध -स ध"
+      ],
+      "englishDefinition": "Not pretentious or arrogant; modest.",
+      "pronunciation": {
+        "ipa": "/unassuming/",
+        "simple": "UNASS-uming"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably unassuming.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्र्विम्र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "uppish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्र",
+            "सीध -स ध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uppish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uppish था।"
+            }
+          ]
+        },
+        {
+          "word": "overweening",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्र",
+            "सीध -स ध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overweening.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overweening था।"
+            }
+          ]
+        },
+        {
+          "word": "chesty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्र",
+            "सीध -स ध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chesty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chesty था।"
+            }
+          ]
+        },
+        {
+          "word": "humble",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्र",
+            "सीध -स ध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humble था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1205,
+      "word": "lowly",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "दीि",
+        "स्र्विम्र"
+      ],
+      "englishDefinition": "Low in status or importance; humble.",
+      "pronunciation": {
+        "ipa": "/lowly/",
+        "simple": "LO-wly"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably lowly.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से दीि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "overweening",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दीि",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overweening.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overweening था।"
+            }
+          ]
+        },
+        {
+          "word": "chesty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दीि",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chesty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chesty था।"
+            }
+          ]
+        },
+        {
+          "word": "humble",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दीि",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humble था।"
+            }
+          ]
+        },
+        {
+          "word": "unassuming",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दीि",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unassuming.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unassuming था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1206,
+      "word": "give",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "िौकरी से निकालिा"
+      ],
+      "englishDefinition": "oneself airs (idiom) To act in a way that shows one thinks one is better than other",
+      "pronunciation": {
+        "ipa": "/give/",
+        "simple": "GIVE"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of give in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िौकरी से निकालिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chesty",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "िौकरी से निकालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chesty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chesty था।"
+            }
+          ]
+        },
+        {
+          "word": "humble",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "िौकरी से निकालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humble था।"
+            }
+          ]
+        },
+        {
+          "word": "unassuming",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "िौकरी से निकालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unassuming.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unassuming था।"
+            }
+          ]
+        },
+        {
+          "word": "lowly",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "िौकरी से निकालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lowly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lowly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1207,
+      "word": "swollen-headed",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "घमांडी"
+      ],
+      "englishDefinition": "Conceited; arrogant.",
+      "pronunciation": {
+        "ipa": "/swollen-headed/",
+        "simple": "SWOLLEN--headed"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably swollen-headed.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से घमांडी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "humble",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humble था।"
+            }
+          ]
+        },
+        {
+          "word": "unassuming",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unassuming.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unassuming था।"
+            }
+          ]
+        },
+        {
+          "word": "lowly",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lowly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lowly था।"
+            }
+          ]
+        },
+        {
+          "word": "give",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was give.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण give था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1208,
+      "word": "full",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "आत्ममुग्ध",
+        "घमांडी"
+      ],
+      "englishDefinition": "of oneself (idiom) Very proud; thinking only of oneself.",
+      "pronunciation": {
+        "ipa": "/full/",
+        "simple": "FULL"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of full in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आत्ममुग्ध के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unassuming",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आत्ममुग्ध",
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unassuming.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unassuming था।"
+            }
+          ]
+        },
+        {
+          "word": "lowly",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आत्ममुग्ध",
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lowly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lowly था।"
+            }
+          ]
+        },
+        {
+          "word": "give",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आत्ममुग्ध",
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was give.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण give था।"
+            }
+          ]
+        },
+        {
+          "word": "swollen-headed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आत्ममुग्ध",
+            "घमांडी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swollen-headed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swollen-headed था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1209,
+      "word": "high",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "घमांडी",
+        "रोबद र"
+      ],
+      "englishDefinition": "and mighty (idiom) Important and influential (often used ironically); arrogant.",
+      "pronunciation": {
+        "ipa": "/high/",
+        "simple": "HIGH"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of high in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में घमांडी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lowly",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "रोबद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lowly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lowly था।"
+            }
+          ]
+        },
+        {
+          "word": "give",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "रोबद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was give.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण give था।"
+            }
+          ]
+        },
+        {
+          "word": "swollen-headed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "रोबद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swollen-headed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swollen-headed था।"
+            }
+          ]
+        },
+        {
+          "word": "full",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "रोबद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was full.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण full था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1210,
+      "word": "toffy-nosed",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "घमांडी",
+        "ि क-भौं स्सकोड़िे र्व ल"
+      ],
+      "englishDefinition": "Snobbish; supercilious.",
+      "pronunciation": {
+        "ipa": "/toffy-nosed/",
+        "simple": "TOFFY--nosed"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably toffy-nosed.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से घमांडी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "give",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "ि क-भौं स्सकोड़िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was give.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण give था।"
+            }
+          ]
+        },
+        {
+          "word": "swollen-headed",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "ि क-भौं स्सकोड़िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swollen-headed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swollen-headed था।"
+            }
+          ]
+        },
+        {
+          "word": "full",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "ि क-भौं स्सकोड़िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was full.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण full था।"
+            }
+          ]
+        },
+        {
+          "word": "high",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घमांडी",
+            "ि क-भौं स्सकोड़िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was high.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण high था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1211,
+      "word": "ride",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "घमांड में होि"
+      ],
+      "englishDefinition": "a high horse (idiom) To behave in an arrogant or superior way.",
+      "pronunciation": {
+        "ipa": "/ride/",
+        "simple": "RIDE"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ride in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में घमांड में होि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "swollen-headed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांड में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swollen-headed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swollen-headed था।"
+            }
+          ]
+        },
+        {
+          "word": "full",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांड में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was full.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण full था।"
+            }
+          ]
+        },
+        {
+          "word": "high",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांड में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was high.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण high था।"
+            }
+          ]
+        },
+        {
+          "word": "toffy-nosed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घमांड में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toffy-nosed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toffy-nosed था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1212,
+      "word": "eat",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "म फी म ांगि",
+        "स्र्विम्र होि"
+      ],
+      "englishDefinition": "humble pie (idiom) To make a humble apology and accept humiliation.",
+      "pronunciation": {
+        "ipa": "/eat/",
+        "simple": "EAT"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of eat in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में म फी म ांगि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "full",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "म फी म ांगि",
+            "स्र्विम्र होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was full.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण full था।"
+            }
+          ]
+        },
+        {
+          "word": "high",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "म फी म ांगि",
+            "स्र्विम्र होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was high.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण high था।"
+            }
+          ]
+        },
+        {
+          "word": "toffy-nosed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "म फी म ांगि",
+            "स्र्विम्र होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toffy-nosed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toffy-nosed था।"
+            }
+          ]
+        },
+        {
+          "word": "ride",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "म फी म ांगि",
+            "स्र्विम्र होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ride था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1213,
+      "word": "hat",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "स्र्विम्रत पूर्विक"
+      ],
+      "englishDefinition": "in hand (idiom) Humbly or respectfully.",
+      "pronunciation": {
+        "ipa": "/hat/",
+        "simple": "HAT"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hat in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्र्विम्रत पूर्विक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "high",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्रत पूर्विक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was high.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण high था।"
+            }
+          ]
+        },
+        {
+          "word": "toffy-nosed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्रत पूर्विक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toffy-nosed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toffy-nosed था।"
+            }
+          ]
+        },
+        {
+          "word": "ride",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्रत पूर्विक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ride था।"
+            }
+          ]
+        },
+        {
+          "word": "eat",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्विम्रत पूर्विक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eat था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1214,
+      "word": "boorish",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गर्व र",
+        "असभ्य"
+      ],
+      "englishDefinition": "Rough and bad-mannered; coarse.",
+      "pronunciation": {
+        "ipa": "/boorish/",
+        "simple": "BOO-rish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably boorish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गर्व र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "toffy-nosed",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toffy-nosed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toffy-nosed था।"
+            }
+          ]
+        },
+        {
+          "word": "ride",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ride था।"
+            }
+          ]
+        },
+        {
+          "word": "eat",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eat था।"
+            }
+          ]
+        },
+        {
+          "word": "hat",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hat था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1215,
+      "word": "rustic",
+      "partOfSpeech": [
+        "adj",
+        "n"
+      ],
+      "hindiMeaning": [
+        "Rustic"
+      ],
+      "englishDefinition": "Relating to the countryside; rural; an unsophisticated country",
+      "pronunciation": {
+        "ipa": "/rustic/",
+        "simple": "RUS-tic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably rustic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Rustic थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ride",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "Rustic"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ride था।"
+            }
+          ]
+        },
+        {
+          "word": "eat",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "Rustic"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eat था।"
+            }
+          ]
+        },
+        {
+          "word": "hat",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "Rustic"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hat था।"
+            }
+          ]
+        },
+        {
+          "word": "boorish",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "Rustic"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boorish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boorish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1216,
+      "word": "awkward",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अजीब",
+        "बेढांग"
+      ],
+      "englishDefinition": "Causing difficulty; hard to do or deal with; clumsy.",
+      "pronunciation": {
+        "ipa": "/awkward/",
+        "simple": "AWK-ward"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably awkward.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अजीब थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hat",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अजीब",
+            "बेढांग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hat था।"
+            }
+          ]
+        },
+        {
+          "word": "boorish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अजीब",
+            "बेढांग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boorish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boorish था।"
+            }
+          ]
+        },
+        {
+          "word": "rustic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अजीब",
+            "बेढांग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rustic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rustic था।"
+            }
+          ]
+        },
+        {
+          "word": "clumsy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अजीब",
+            "बेढांग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clumsy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clumsy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1217,
+      "word": "yokel",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Yokel"
+      ],
+      "englishDefinition": "An uneducated and unsophisticated person from the",
+      "pronunciation": {
+        "ipa": "/yokel/",
+        "simple": "YO-kel"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of yokel in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Yokel के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "boorish",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Yokel"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boorish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boorish था।"
+            }
+          ]
+        },
+        {
+          "word": "rustic",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Yokel"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rustic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rustic था।"
+            }
+          ]
+        },
+        {
+          "word": "clumsy",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Yokel"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clumsy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clumsy था।"
+            }
+          ]
+        },
+        {
+          "word": "awkward",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Yokel"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was awkward.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण awkward था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1218,
+      "word": "unrefined",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Unrefined"
+      ],
+      "englishDefinition": "Not processed to remove impurities or unwanted elements; (of a",
+      "pronunciation": {
+        "ipa": "/unrefined/",
+        "simple": "UNRE-fined"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably unrefined.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Unrefined थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rustic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Unrefined"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rustic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rustic था।"
+            }
+          ]
+        },
+        {
+          "word": "clumsy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Unrefined"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clumsy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clumsy था।"
+            }
+          ]
+        },
+        {
+          "word": "awkward",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Unrefined"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was awkward.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण awkward था।"
+            }
+          ]
+        },
+        {
+          "word": "yokel",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Unrefined"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was yokel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण yokel था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1219,
+      "word": "loutish",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गर्व र",
+        "असभ्य (लोट )"
+      ],
+      "englishDefinition": "(Of a man or boy) uncouth and aggressive.",
+      "pronunciation": {
+        "ipa": "/loutish/",
+        "simple": "LOU-tish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably loutish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गर्व र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "clumsy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य (लोट )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clumsy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clumsy था।"
+            }
+          ]
+        },
+        {
+          "word": "awkward",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य (लोट )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was awkward.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण awkward था।"
+            }
+          ]
+        },
+        {
+          "word": "yokel",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य (लोट )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was yokel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण yokel था।"
+            }
+          ]
+        },
+        {
+          "word": "unrefined",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गर्व र",
+            "असभ्य (लोट )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unrefined.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unrefined था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1220,
+      "word": "uncouth",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Uncouth"
+      ],
+      "englishDefinition": "(Of a person or their appearance or behavior) lacking good",
+      "pronunciation": {
+        "ipa": "/uncouth/",
+        "simple": "UNC-outh"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably uncouth.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Uncouth थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "awkward",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Uncouth"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was awkward.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण awkward था।"
+            }
+          ]
+        },
+        {
+          "word": "yokel",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Uncouth"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was yokel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण yokel था।"
+            }
+          ]
+        },
+        {
+          "word": "unrefined",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Uncouth"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unrefined.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unrefined था।"
+            }
+          ]
+        },
+        {
+          "word": "loutish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Uncouth"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was loutish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण loutish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1221,
+      "word": "benighted",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अज्ञ िी",
+        "अिपढ़"
+      ],
+      "englishDefinition": "In a state of moral or intellectual darkness; ignorant.",
+      "pronunciation": {
+        "ipa": "/benighted/",
+        "simple": "BENI-ghted"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably benighted.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अज्ञ िी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "yokel",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "अिपढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was yokel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण yokel था।"
+            }
+          ]
+        },
+        {
+          "word": "unrefined",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "अिपढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unrefined.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unrefined था।"
+            }
+          ]
+        },
+        {
+          "word": "loutish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "अिपढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was loutish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण loutish था।"
+            }
+          ]
+        },
+        {
+          "word": "uncouth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "अिपढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uncouth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uncouth था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1222,
+      "word": "cultured",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "संस्कृ ि",
+        "नशष्ट",
+        "सभ्य"
+      ],
+      "englishDefinition": "Characterized by refined taste and manners and good education.",
+      "pronunciation": {
+        "ipa": "/cultured/",
+        "simple": "CULT-ured"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably cultured.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से संस्कृ ि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unrefined",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "संस्कृ ि",
+            "नशष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unrefined.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unrefined था।"
+            }
+          ]
+        },
+        {
+          "word": "loutish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "संस्कृ ि",
+            "नशष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was loutish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण loutish था।"
+            }
+          ]
+        },
+        {
+          "word": "uncouth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "संस्कृ ि",
+            "नशष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uncouth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uncouth था।"
+            }
+          ]
+        },
+        {
+          "word": "benighted",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "संस्कृ ि",
+            "नशष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was benighted.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण benighted था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1223,
+      "word": "wild",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "जांगली",
+        "असभ्य"
+      ],
+      "englishDefinition": "and woolly (idiom) Uncivilized; untamed.",
+      "pronunciation": {
+        "ipa": "/wild/",
+        "simple": "WILD"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of wild in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में जांगली के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "loutish",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "जांगली",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was loutish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण loutish था।"
+            }
+          ]
+        },
+        {
+          "word": "uncouth",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "जांगली",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uncouth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uncouth था।"
+            }
+          ]
+        },
+        {
+          "word": "benighted",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "जांगली",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was benighted.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण benighted था।"
+            }
+          ]
+        },
+        {
+          "word": "cultured",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "जांगली",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cultured.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cultured था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1224,
+      "word": "rough",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "Rough"
+      ],
+      "englishDefinition": "diamond (idiom) A person who is generally of good character but lacks manners,",
+      "pronunciation": {
+        "ipa": "/rough/",
+        "simple": "RO-ugh"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of rough in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Rough के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "uncouth",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Rough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uncouth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uncouth था।"
+            }
+          ]
+        },
+        {
+          "word": "benighted",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Rough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was benighted.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण benighted था।"
+            }
+          ]
+        },
+        {
+          "word": "cultured",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Rough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cultured.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cultured था।"
+            }
+          ]
+        },
+        {
+          "word": "wild",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Rough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wild था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1225,
+      "word": "hillbilly",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Hillbilly"
+      ],
+      "englishDefinition": "An unsophisticated country person, associated originally with",
+      "pronunciation": {
+        "ipa": "/hillbilly/",
+        "simple": "HILL-billy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hillbilly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Hillbilly के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "benighted",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hillbilly"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was benighted.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण benighted था।"
+            }
+          ]
+        },
+        {
+          "word": "cultured",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hillbilly"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cultured.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cultured था।"
+            }
+          ]
+        },
+        {
+          "word": "wild",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hillbilly"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wild था।"
+            }
+          ]
+        },
+        {
+          "word": "rough",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hillbilly"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rough.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rough था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

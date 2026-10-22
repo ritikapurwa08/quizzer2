@@ -1,0 +1,2224 @@
+{
+  "setId": "vocabulary_set_017",
+  "setNumber": 17,
+  "title": "Vocabulary Set 017 — Privileged to Incessant",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 401,
+      "word": "privileged",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्र्वशेष स्धक र प्र प्त",
+        "सौभ ग्यश ली"
+      ],
+      "englishDefinition": "Having special rights or advantages.",
+      "pronunciation": {
+        "ipa": "/privileged/",
+        "simple": "PRIVI-leged"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably privileged.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्र्वशेष स्धक र प्र प्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "miserable",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वशेष स्धक र प्र प्त",
+            "सौभ ग्यश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was miserable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण miserable था।"
+            }
+          ]
+        },
+        {
+          "word": "abject",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वशेष स्धक र प्र प्त",
+            "सौभ ग्यश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abject.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abject था।"
+            }
+          ]
+        },
+        {
+          "word": "woeful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वशेष स्धक र प्र प्त",
+            "सौभ ग्यश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was woeful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण woeful था।"
+            }
+          ]
+        },
+        {
+          "word": "wretched",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वशेष स्धक र प्र प्त",
+            "सौभ ग्यश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wretched.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wretched था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 402,
+      "word": "fortunate",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Fortunate"
+      ],
+      "englishDefinition": "Receiving good from uncertain or unexpected sources :",
+      "pronunciation": {
+        "ipa": "/fortunate/",
+        "simple": "FORT-unate"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably fortunate.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Fortunate थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "abject",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Fortunate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abject.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abject था।"
+            }
+          ]
+        },
+        {
+          "word": "woeful",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Fortunate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was woeful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण woeful था।"
+            }
+          ]
+        },
+        {
+          "word": "wretched",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Fortunate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wretched.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wretched था।"
+            }
+          ]
+        },
+        {
+          "word": "privileged",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Fortunate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was privileged.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण privileged था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 403,
+      "word": "impasse",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Impasse"
+      ],
+      "englishDefinition": "(Mnemonic: Im-pass/No pass) A predicament affording no obvious escape; a",
+      "pronunciation": {
+        "ipa": "/impasse/",
+        "simple": "IMP-asse"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impasse in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Impasse के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "woeful",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impasse"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was woeful.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण woeful था।"
+            }
+          ]
+        },
+        {
+          "word": "wretched",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impasse"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wretched.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wretched था।"
+            }
+          ]
+        },
+        {
+          "word": "privileged",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impasse"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was privileged.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण privileged था।"
+            }
+          ]
+        },
+        {
+          "word": "fortunate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impasse"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fortunate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fortunate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 404,
+      "word": "deadlock",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Deadlock"
+      ],
+      "englishDefinition": "A state of inaction or neutralization resulting from the",
+      "pronunciation": {
+        "ipa": "/deadlock/",
+        "simple": "DEAD-lock"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of deadlock in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Deadlock के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "wretched",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Deadlock"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wretched.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wretched था।"
+            }
+          ]
+        },
+        {
+          "word": "privileged",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Deadlock"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was privileged.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण privileged था।"
+            }
+          ]
+        },
+        {
+          "word": "fortunate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Deadlock"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fortunate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fortunate था।"
+            }
+          ]
+        },
+        {
+          "word": "impasse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Deadlock"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impasse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impasse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 405,
+      "word": "standstill",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "ठहर र्व",
+        "स्र्वर म"
+      ],
+      "englishDefinition": "A state of cessation of movement or action.",
+      "pronunciation": {
+        "ipa": "/standstill/",
+        "simple": "STAND-still"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of standstill in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ठहर र्व के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "privileged",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was privileged.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण privileged था।"
+            }
+          ]
+        },
+        {
+          "word": "fortunate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fortunate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fortunate था।"
+            }
+          ]
+        },
+        {
+          "word": "impasse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impasse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impasse था।"
+            }
+          ]
+        },
+        {
+          "word": "deadlock",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deadlock.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deadlock था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 406,
+      "word": "stalemate",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Stalemate"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/stalemate/",
+        "simple": "STAL-emate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stalemate in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Stalemate के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fortunate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stalemate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fortunate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fortunate था।"
+            }
+          ]
+        },
+        {
+          "word": "impasse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stalemate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impasse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impasse था।"
+            }
+          ]
+        },
+        {
+          "word": "deadlock",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stalemate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deadlock.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deadlock था।"
+            }
+          ]
+        },
+        {
+          "word": "standstill",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stalemate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was standstill.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण standstill था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 407,
+      "word": "halt",
+      "partOfSpeech": [
+        "n",
+        "v"
+      ],
+      "hindiMeaning": [
+        "पड़ र्व",
+        "रुकि"
+      ],
+      "englishDefinition": "A stop or pause.",
+      "pronunciation": {
+        "ipa": "/halt/",
+        "simple": "HALT"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to halt the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को पड़ र्व करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impasse",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "पड़ र्व",
+            "रुकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impasse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impasse था।"
+            }
+          ]
+        },
+        {
+          "word": "deadlock",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "पड़ र्व",
+            "रुकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deadlock.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deadlock था।"
+            }
+          ]
+        },
+        {
+          "word": "standstill",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "पड़ र्व",
+            "रुकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was standstill.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण standstill था।"
+            }
+          ]
+        },
+        {
+          "word": "stalemate",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "पड़ र्व",
+            "रुकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stalemate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stalemate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 408,
+      "word": "cessation",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "सम स्प्त",
+        "स्र्वर म"
+      ],
+      "englishDefinition": "(Mnemonic: Cease/Stop) A temporary or final ceasing (as of action).",
+      "pronunciation": {
+        "ipa": "/cessation/",
+        "simple": "CESS-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of cessation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सम स्प्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "deadlock",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सम स्प्त",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deadlock.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deadlock था।"
+            }
+          ]
+        },
+        {
+          "word": "standstill",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सम स्प्त",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was standstill.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण standstill था।"
+            }
+          ]
+        },
+        {
+          "word": "stalemate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सम स्प्त",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stalemate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stalemate था।"
+            }
+          ]
+        },
+        {
+          "word": "halt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सम स्प्त",
+            "स्र्वर म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was halt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण halt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 409,
+      "word": "recess",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Recess"
+      ],
+      "englishDefinition": "A suspension of business or procedure often for rest or",
+      "pronunciation": {
+        "ipa": "/recess/",
+        "simple": "REC-ess"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of recess in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Recess के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "standstill",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Recess"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was standstill.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण standstill था।"
+            }
+          ]
+        },
+        {
+          "word": "stalemate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Recess"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stalemate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stalemate था।"
+            }
+          ]
+        },
+        {
+          "word": "halt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Recess"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was halt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण halt था।"
+            }
+          ]
+        },
+        {
+          "word": "cessation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Recess"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cessation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cessation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 410,
+      "word": "stand-off",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Stand-off"
+      ],
+      "englishDefinition": "A stalemate or deadlock between two equally matched",
+      "pronunciation": {
+        "ipa": "/stand-off/",
+        "simple": "STAN-d-off"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stand-off in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Stand-off के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stalemate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stand-off"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stalemate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stalemate था।"
+            }
+          ]
+        },
+        {
+          "word": "halt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stand-off"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was halt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण halt था।"
+            }
+          ]
+        },
+        {
+          "word": "cessation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stand-off"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cessation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cessation था।"
+            }
+          ]
+        },
+        {
+          "word": "recess",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Stand-off"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recess.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recess था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 411,
+      "word": "breakthrough",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Breakthrough"
+      ],
+      "englishDefinition": "An act or instance of removing or surpassing an",
+      "pronunciation": {
+        "ipa": "/breakthrough/",
+        "simple": "BREAKT-hrough"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of breakthrough in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Breakthrough के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "halt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Breakthrough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was halt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण halt था।"
+            }
+          ]
+        },
+        {
+          "word": "cessation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Breakthrough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cessation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cessation था।"
+            }
+          ]
+        },
+        {
+          "word": "recess",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Breakthrough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recess.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recess था।"
+            }
+          ]
+        },
+        {
+          "word": "stand-off",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Breakthrough"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stand-off.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stand-off था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 412,
+      "word": "headway",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "प्रगस्त",
+        "आगे बढ़ि"
+      ],
+      "englishDefinition": "Motion or rate of motion in a forward direction.",
+      "pronunciation": {
+        "ipa": "/headway/",
+        "simple": "HEA-dway"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of headway in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रगस्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cessation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रगस्त",
+            "आगे बढ़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cessation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cessation था।"
+            }
+          ]
+        },
+        {
+          "word": "recess",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रगस्त",
+            "आगे बढ़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recess.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recess था।"
+            }
+          ]
+        },
+        {
+          "word": "stand-off",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रगस्त",
+            "आगे बढ़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stand-off.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stand-off था।"
+            }
+          ]
+        },
+        {
+          "word": "breakthrough",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रगस्त",
+            "आगे बढ़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was breakthrough.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण breakthrough था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 413,
+      "word": "imperative",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्िर्व यि",
+        "अस्त आर्वश्यक"
+      ],
+      "englishDefinition": "(Mnemonic: Important) Not to be avoided or evaded : necessary.",
+      "pronunciation": {
+        "ipa": "/imperative/",
+        "simple": "IMPER-ative"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably imperative.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्िर्व यि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "recess",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "अस्त आर्वश्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recess.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recess था।"
+            }
+          ]
+        },
+        {
+          "word": "stand-off",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "अस्त आर्वश्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stand-off.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stand-off था।"
+            }
+          ]
+        },
+        {
+          "word": "breakthrough",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "अस्त आर्वश्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was breakthrough.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण breakthrough था।"
+            }
+          ]
+        },
+        {
+          "word": "headway",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "अस्त आर्वश्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was headway.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण headway था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 414,
+      "word": "mandatory",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्िर्व यि",
+        "आदेश त्मक"
+      ],
+      "englishDefinition": "Required by a law or rule.",
+      "pronunciation": {
+        "ipa": "/mandatory/",
+        "simple": "MAND-atory"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably mandatory.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्िर्व यि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stand-off",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "आदेश त्मक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stand-off.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stand-off था।"
+            }
+          ]
+        },
+        {
+          "word": "breakthrough",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "आदेश त्मक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was breakthrough.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण breakthrough था।"
+            }
+          ]
+        },
+        {
+          "word": "headway",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "आदेश त्मक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was headway.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण headway था।"
+            }
+          ]
+        },
+        {
+          "word": "imperative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "आदेश त्मक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imperative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imperative था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 415,
+      "word": "compulsory",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्िर्व यि"
+      ],
+      "englishDefinition": "Mandatory, enforced.",
+      "pronunciation": {
+        "ipa": "/compulsory/",
+        "simple": "COMPU-lsory"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably compulsory.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्िर्व यि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "breakthrough",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was breakthrough.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण breakthrough था।"
+            }
+          ]
+        },
+        {
+          "word": "headway",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was headway.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण headway था।"
+            }
+          ]
+        },
+        {
+          "word": "imperative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imperative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imperative था।"
+            }
+          ]
+        },
+        {
+          "word": "mandatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mandatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mandatory था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 416,
+      "word": "obligatory",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्िर्व यि",
+        "ब ध्यक री"
+      ],
+      "englishDefinition": "Binding in law or conscience.",
+      "pronunciation": {
+        "ipa": "/obligatory/",
+        "simple": "OBLIG-atory"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably obligatory.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्िर्व यि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "headway",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "ब ध्यक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was headway.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण headway था।"
+            }
+          ]
+        },
+        {
+          "word": "imperative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "ब ध्यक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imperative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imperative था।"
+            }
+          ]
+        },
+        {
+          "word": "mandatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "ब ध्यक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mandatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mandatory था।"
+            }
+          ]
+        },
+        {
+          "word": "compulsory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्िर्व यि",
+            "ब ध्यक री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsory था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 417,
+      "word": "incumbent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Incumbent"
+      ],
+      "englishDefinition": "Imposed as a duty : obligatory; (n) the holder of an",
+      "pronunciation": {
+        "ipa": "/incumbent/",
+        "simple": "INCU-mbent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably incumbent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Incumbent थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "imperative",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incumbent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imperative.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imperative था।"
+            }
+          ]
+        },
+        {
+          "word": "mandatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incumbent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mandatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mandatory था।"
+            }
+          ]
+        },
+        {
+          "word": "compulsory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incumbent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsory था।"
+            }
+          ]
+        },
+        {
+          "word": "obligatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incumbent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligatory था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 418,
+      "word": "requisite",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अपेस्क्षत",
+        "जरूरी"
+      ],
+      "englishDefinition": "Needed for a particular purpose.",
+      "pronunciation": {
+        "ipa": "/requisite/",
+        "simple": "REQU-isite"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably requisite.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अपेस्क्षत थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mandatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अपेस्क्षत",
+            "जरूरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mandatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mandatory था।"
+            }
+          ]
+        },
+        {
+          "word": "compulsory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अपेस्क्षत",
+            "जरूरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsory था।"
+            }
+          ]
+        },
+        {
+          "word": "obligatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अपेस्क्षत",
+            "जरूरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligatory था।"
+            }
+          ]
+        },
+        {
+          "word": "incumbent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अपेस्क्षत",
+            "जरूरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incumbent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incumbent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 419,
+      "word": "urgent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अस्त आर्वश्यक",
+        "तुरांत"
+      ],
+      "englishDefinition": "Calling for immediate attention.",
+      "pronunciation": {
+        "ipa": "/urgent/",
+        "simple": "URG-ent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably urgent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अस्त आर्वश्यक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "compulsory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्त आर्वश्यक",
+            "तुरांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsory था।"
+            }
+          ]
+        },
+        {
+          "word": "obligatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्त आर्वश्यक",
+            "तुरांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligatory था।"
+            }
+          ]
+        },
+        {
+          "word": "incumbent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्त आर्वश्यक",
+            "तुरांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incumbent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incumbent था।"
+            }
+          ]
+        },
+        {
+          "word": "requisite",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अस्त आर्वश्यक",
+            "तुरांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was requisite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण requisite था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 420,
+      "word": "indispensable",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Indispensable"
+      ],
+      "englishDefinition": "(Mnemonic: Dispense",
+      "pronunciation": {
+        "ipa": "/indispensable/",
+        "simple": "INDISP-ensable"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably indispensable.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Indispensable थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obligatory",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Indispensable"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligatory.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligatory था।"
+            }
+          ]
+        },
+        {
+          "word": "incumbent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Indispensable"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incumbent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incumbent था।"
+            }
+          ]
+        },
+        {
+          "word": "requisite",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Indispensable"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was requisite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण requisite था।"
+            }
+          ]
+        },
+        {
+          "word": "urgent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Indispensable"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was urgent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण urgent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 421,
+      "word": "optional",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "र्वैकस्ल्पक",
+        "ऐस्च्िक"
+      ],
+      "englishDefinition": "Involving an option : not compulsory.",
+      "pronunciation": {
+        "ipa": "/optional/",
+        "simple": "OPTI-onal"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably optional.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से र्वैकस्ल्पक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "incumbent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वैकस्ल्पक",
+            "ऐस्च्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incumbent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incumbent था।"
+            }
+          ]
+        },
+        {
+          "word": "requisite",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वैकस्ल्पक",
+            "ऐस्च्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was requisite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण requisite था।"
+            }
+          ]
+        },
+        {
+          "word": "urgent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वैकस्ल्पक",
+            "ऐस्च्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was urgent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण urgent था।"
+            }
+          ]
+        },
+        {
+          "word": "indispensable",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वैकस्ल्पक",
+            "ऐस्च्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indispensable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indispensable था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 422,
+      "word": "discretionary",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Discretionary"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/discretionary/",
+        "simple": "DISCRE-tionary"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably discretionary.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Discretionary थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "requisite",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Discretionary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was requisite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण requisite था।"
+            }
+          ]
+        },
+        {
+          "word": "urgent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Discretionary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was urgent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण urgent था।"
+            }
+          ]
+        },
+        {
+          "word": "indispensable",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Discretionary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indispensable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indispensable था।"
+            }
+          ]
+        },
+        {
+          "word": "optional",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Discretionary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was optional.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण optional था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 423,
+      "word": "voluntary",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Voluntary"
+      ],
+      "englishDefinition": "Proceeding from the will or from one's own choice or",
+      "pronunciation": {
+        "ipa": "/voluntary/",
+        "simple": "VOLU-ntary"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably voluntary.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Voluntary थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "urgent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Voluntary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was urgent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण urgent था।"
+            }
+          ]
+        },
+        {
+          "word": "indispensable",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Voluntary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indispensable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indispensable था।"
+            }
+          ]
+        },
+        {
+          "word": "optional",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Voluntary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was optional.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण optional था।"
+            }
+          ]
+        },
+        {
+          "word": "discretionary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Voluntary"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discretionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discretionary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 424,
+      "word": "intentional",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ज िबूझकर",
+        "इर दे से"
+      ],
+      "englishDefinition": "Done by intention or design.",
+      "pronunciation": {
+        "ipa": "/intentional/",
+        "simple": "INTEN-tional"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably intentional.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ज िबूझकर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "indispensable",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ज िबूझकर",
+            "इर दे से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indispensable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indispensable था।"
+            }
+          ]
+        },
+        {
+          "word": "optional",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ज िबूझकर",
+            "इर दे से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was optional.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण optional था।"
+            }
+          ]
+        },
+        {
+          "word": "discretionary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ज िबूझकर",
+            "इर दे से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discretionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discretionary था।"
+            }
+          ]
+        },
+        {
+          "word": "voluntary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ज िबूझकर",
+            "इर दे से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluntary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluntary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 425,
+      "word": "incessant",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Incessant"
+      ],
+      "englishDefinition": "(Mnemonic: In-cess/Non-",
+      "pronunciation": {
+        "ipa": "/incessant/",
+        "simple": "INCE-ssant"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably incessant.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Incessant थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "optional",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incessant"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was optional.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण optional था।"
+            }
+          ]
+        },
+        {
+          "word": "discretionary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incessant"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discretionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discretionary था।"
+            }
+          ]
+        },
+        {
+          "word": "voluntary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incessant"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluntary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluntary था।"
+            }
+          ]
+        },
+        {
+          "word": "intentional",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Incessant"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intentional.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intentional था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

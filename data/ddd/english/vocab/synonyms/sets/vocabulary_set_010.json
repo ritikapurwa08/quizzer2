@@ -1,0 +1,2255 @@
+{
+  "setId": "vocabulary_set_010",
+  "setNumber": 10,
+  "title": "Vocabulary Set 010 — Reservation to Imposter",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 226,
+      "word": "reservation",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "सांदेह",
+        "स्हिस्कि हट"
+      ],
+      "englishDefinition": "A limiting condition or a doubt.",
+      "pronunciation": {
+        "ipa": "/reservation/",
+        "simple": "RESER-vation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of reservation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांदेह के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "virtuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "स्हिस्कि हट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was virtuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण virtuous था।"
+            }
+          ]
+        },
+        {
+          "word": "scrupulous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "स्हिस्कि हट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrupulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrupulous था।"
+            }
+          ]
+        },
+        {
+          "word": "unscrupulous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "स्हिस्कि हट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unscrupulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unscrupulous था।"
+            }
+          ]
+        },
+        {
+          "word": "conscience",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "स्हिस्कि हट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conscience.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conscience था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 227,
+      "word": "imbecile",
+      "partOfSpeech": [
+        "n",
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मंदबुनद्ध",
+        "महामूखय"
+      ],
+      "englishDefinition": "A stupid person; foolish.",
+      "pronunciation": {
+        "ipa": "/imbecile/",
+        "simple": "IMBE-cile"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably imbecile.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मंदबुनद्ध थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scrupulous",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मंदबुनद्ध",
+            "महामूखय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrupulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrupulous था।"
+            }
+          ]
+        },
+        {
+          "word": "unscrupulous",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मंदबुनद्ध",
+            "महामूखय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unscrupulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unscrupulous था।"
+            }
+          ]
+        },
+        {
+          "word": "conscience",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मंदबुनद्ध",
+            "महामूखय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conscience.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conscience था।"
+            }
+          ]
+        },
+        {
+          "word": "reservation",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मंदबुनद्ध",
+            "महामूखय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reservation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reservation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 228,
+      "word": "asinine",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मूखित पूर्ि",
+        "गधे जैस"
+      ],
+      "englishDefinition": "Extremely stupid or foolish.",
+      "pronunciation": {
+        "ipa": "/asinine/",
+        "simple": "ASI-nine"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably asinine.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मूखित पूर्ि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unscrupulous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मूखित पूर्ि",
+            "गधे जैस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unscrupulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unscrupulous था।"
+            }
+          ]
+        },
+        {
+          "word": "conscience",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मूखित पूर्ि",
+            "गधे जैस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conscience.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conscience था।"
+            }
+          ]
+        },
+        {
+          "word": "reservation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मूखित पूर्ि",
+            "गधे जैस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reservation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reservation था।"
+            }
+          ]
+        },
+        {
+          "word": "imbecile",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मूखित पूर्ि",
+            "गधे जैस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imbecile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imbecile था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 229,
+      "word": "fatuous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मांदबुस्द्",
+        "मूखि"
+      ],
+      "englishDefinition": "Silly and pointless.",
+      "pronunciation": {
+        "ipa": "/fatuous/",
+        "simple": "FAT-uous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably fatuous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मांदबुस्द् थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "conscience",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was conscience.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण conscience था।"
+            }
+          ]
+        },
+        {
+          "word": "reservation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reservation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reservation था।"
+            }
+          ]
+        },
+        {
+          "word": "imbecile",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imbecile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imbecile था।"
+            }
+          ]
+        },
+        {
+          "word": "asinine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was asinine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण asinine था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 230,
+      "word": "dunce",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "मूखय",
+        "बुनद्धहीि व्यनक्त"
+      ],
+      "englishDefinition": "A person who is slow at learning; a stupid person.",
+      "pronunciation": {
+        "ipa": "/dunce/",
+        "simple": "DU-nce"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of dunce in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूखय के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "reservation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reservation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reservation था।"
+            }
+          ]
+        },
+        {
+          "word": "imbecile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imbecile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imbecile था।"
+            }
+          ]
+        },
+        {
+          "word": "asinine",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was asinine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण asinine था।"
+            }
+          ]
+        },
+        {
+          "word": "fatuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fatuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fatuous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 231,
+      "word": "nincompoop",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "स्िकम्म",
+        "बेर्वकू फ"
+      ],
+      "englishDefinition": "A foolish or stupid person.",
+      "pronunciation": {
+        "ipa": "/nincompoop/",
+        "simple": "NINCO-mpoop"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of nincompoop in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िकम्म के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "imbecile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्िकम्म",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imbecile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imbecile था।"
+            }
+          ]
+        },
+        {
+          "word": "asinine",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्िकम्म",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was asinine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण asinine था।"
+            }
+          ]
+        },
+        {
+          "word": "fatuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्िकम्म",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fatuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fatuous था।"
+            }
+          ]
+        },
+        {
+          "word": "dunce",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्िकम्म",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dunce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dunce था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 232,
+      "word": "simplet",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "सीध -स ध  (मूखि)"
+      ],
+      "englishDefinition": "A simple or foolish person.",
+      "pronunciation": {
+        "ipa": "/simplet/",
+        "simple": "SIM-plet"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of simplet in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सीध -स ध  (मूखि) के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "asinine",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सीध -स ध  (मूखि)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was asinine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण asinine था।"
+            }
+          ]
+        },
+        {
+          "word": "fatuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सीध -स ध  (मूखि)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fatuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fatuous था।"
+            }
+          ]
+        },
+        {
+          "word": "dunce",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सीध -स ध  (मूखि)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dunce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dunce था।"
+            }
+          ]
+        },
+        {
+          "word": "nincompoop",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सीध -स ध  (मूखि)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nincompoop.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nincompoop था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 233,
+      "word": "ignoramus",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "अज्ञ िी",
+        "मूखि"
+      ],
+      "englishDefinition": "An ignorant or stupid person.",
+      "pronunciation": {
+        "ipa": "/ignoramus/",
+        "simple": "IGNO-ramus"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ignoramus in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अज्ञ िी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fatuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fatuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fatuous था।"
+            }
+          ]
+        },
+        {
+          "word": "dunce",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dunce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dunce था।"
+            }
+          ]
+        },
+        {
+          "word": "nincompoop",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nincompoop.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nincompoop था।"
+            }
+          ]
+        },
+        {
+          "word": "simplet",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अज्ञ िी",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simplet.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simplet था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 234,
+      "word": "obtuse",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मांदबुस्द्",
+        "कुां द"
+      ],
+      "englishDefinition": "Annoyingly insensitive or slow to understand.",
+      "pronunciation": {
+        "ipa": "/obtuse/",
+        "simple": "OBT-use"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably obtuse.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मांदबुस्द् थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dunce",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "कुां द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dunce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dunce था।"
+            }
+          ]
+        },
+        {
+          "word": "nincompoop",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "कुां द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nincompoop.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nincompoop था।"
+            }
+          ]
+        },
+        {
+          "word": "simplet",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "कुां द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simplet.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simplet था।"
+            }
+          ]
+        },
+        {
+          "word": "ignoramus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मांदबुस्द्",
+            "कुां द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ignoramus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ignoramus था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 235,
+      "word": "oaf",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "गांर्व र",
+        "मूखि"
+      ],
+      "englishDefinition": "A stupid, uncultured, or clumsy person.",
+      "pronunciation": {
+        "ipa": "/oaf/",
+        "simple": "OAF"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of oaf in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गांर्व र के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "nincompoop",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "गांर्व र",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nincompoop.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nincompoop था।"
+            }
+          ]
+        },
+        {
+          "word": "simplet",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "गांर्व र",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simplet.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simplet था।"
+            }
+          ]
+        },
+        {
+          "word": "ignoramus",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "गांर्व र",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ignoramus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ignoramus था।"
+            }
+          ]
+        },
+        {
+          "word": "obtuse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "गांर्व र",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obtuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obtuse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 236,
+      "word": "crass",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बेर्वकू फ",
+        "असभ्य"
+      ],
+      "englishDefinition": "Lacking sensitivity, refinement, or intelligence.",
+      "pronunciation": {
+        "ipa": "/crass/",
+        "simple": "CR-ass"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably crass.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बेर्वकू फ थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "simplet",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेर्वकू फ",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simplet.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simplet था।"
+            }
+          ]
+        },
+        {
+          "word": "ignoramus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेर्वकू फ",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ignoramus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ignoramus था।"
+            }
+          ]
+        },
+        {
+          "word": "obtuse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेर्वकू फ",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obtuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obtuse था।"
+            }
+          ]
+        },
+        {
+          "word": "oaf",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेर्वकू फ",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oaf.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oaf था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 237,
+      "word": "dolt",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "मूखि"
+      ],
+      "englishDefinition": "A stupid person.",
+      "pronunciation": {
+        "ipa": "/dolt/",
+        "simple": "DOLT"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of dolt in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूखि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ignoramus",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ignoramus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ignoramus था।"
+            }
+          ]
+        },
+        {
+          "word": "obtuse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obtuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obtuse था।"
+            }
+          ]
+        },
+        {
+          "word": "oaf",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oaf.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oaf था।"
+            }
+          ]
+        },
+        {
+          "word": "crass",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crass था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 238,
+      "word": "numbskull",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "मूखि",
+        "मांदबुस्द्"
+      ],
+      "englishDefinition": "A stupid or foolish person.",
+      "pronunciation": {
+        "ipa": "/numbskull/",
+        "simple": "NUMB-skull"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of numbskull in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूखि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obtuse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "मांदबुस्द्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obtuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obtuse था।"
+            }
+          ]
+        },
+        {
+          "word": "oaf",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "मांदबुस्द्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oaf.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oaf था।"
+            }
+          ]
+        },
+        {
+          "word": "crass",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "मांदबुस्द्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crass था।"
+            }
+          ]
+        },
+        {
+          "word": "dolt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "मांदबुस्द्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dolt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dolt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 239,
+      "word": "blockhead",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "मूखि"
+      ],
+      "englishDefinition": "A stupid person.",
+      "pronunciation": {
+        "ipa": "/blockhead/",
+        "simple": "BLOC-khead"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of blockhead in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूखि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "oaf",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oaf.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oaf था।"
+            }
+          ]
+        },
+        {
+          "word": "crass",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crass था।"
+            }
+          ]
+        },
+        {
+          "word": "dolt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dolt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dolt था।"
+            }
+          ]
+        },
+        {
+          "word": "numbskull",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was numbskull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण numbskull था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 240,
+      "word": "acute",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "तीव्र",
+        "कु श ग्र",
+        "तेज"
+      ],
+      "englishDefinition": "Having or showing a perceptive understanding or insight; sharp/severe.",
+      "pronunciation": {
+        "ipa": "/acute/",
+        "simple": "AC-ute"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably acute.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से तीव्र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "crass",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीव्र",
+            "कु श ग्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crass था।"
+            }
+          ]
+        },
+        {
+          "word": "dolt",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीव्र",
+            "कु श ग्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dolt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dolt था।"
+            }
+          ]
+        },
+        {
+          "word": "numbskull",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीव्र",
+            "कु श ग्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was numbskull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण numbskull था।"
+            }
+          ]
+        },
+        {
+          "word": "blockhead",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीव्र",
+            "कु श ग्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blockhead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blockhead था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 241,
+      "word": "sapient",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बुस्द्म ि",
+        "समझद र"
+      ],
+      "englishDefinition": "Wise, or attempting to appear wise.",
+      "pronunciation": {
+        "ipa": "/sapient/",
+        "simple": "SAP-ient"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sapient.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बुस्द्म ि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "numbskull",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बुस्द्म ि",
+            "समझद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was numbskull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण numbskull था।"
+            }
+          ]
+        },
+        {
+          "word": "blockhead",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बुस्द्म ि",
+            "समझद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blockhead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blockhead था।"
+            }
+          ]
+        },
+        {
+          "word": "acute",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बुस्द्म ि",
+            "समझद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acute.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acute था।"
+            }
+          ]
+        },
+        {
+          "word": "acumen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बुस्द्म ि",
+            "समझद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acumen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acumen था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 242,
+      "word": "street-smart",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Street-smart"
+      ],
+      "englishDefinition": "Having the experience and knowledge necessary to deal with the",
+      "pronunciation": {
+        "ipa": "/street-smart/",
+        "simple": "STREET--smart"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably street-smart.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Street-smart थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "blockhead",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Street-smart"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blockhead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blockhead था।"
+            }
+          ]
+        },
+        {
+          "word": "acute",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Street-smart"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acute.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acute था।"
+            }
+          ]
+        },
+        {
+          "word": "acumen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Street-smart"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acumen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acumen था।"
+            }
+          ]
+        },
+        {
+          "word": "sapient",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Street-smart"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sapient.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sapient था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 243,
+      "word": "encyclopedia",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "ज्ञ ि क  भांड र"
+      ],
+      "englishDefinition": "A person who is very knowledgeable (metaphor).",
+      "pronunciation": {
+        "ipa": "/encyclopedia/",
+        "simple": "ENCYCL-opedia"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of encyclopedia in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ज्ञ ि क  भांड र के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "acute",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ज्ञ ि क  भांड र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acute.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acute था।"
+            }
+          ]
+        },
+        {
+          "word": "acumen",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ज्ञ ि क  भांड र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acumen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acumen था।"
+            }
+          ]
+        },
+        {
+          "word": "sapient",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ज्ञ ि क  भांड र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sapient.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sapient था।"
+            }
+          ]
+        },
+        {
+          "word": "street-smart",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ज्ञ ि क  भांड र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was street-smart.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण street-smart था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 244,
+      "word": "mendacious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "धोखेब ज",
+        "झूठ"
+      ],
+      "englishDefinition": "Not telling the truth; lying.",
+      "pronunciation": {
+        "ipa": "/mendacious/",
+        "simple": "MENDA-cious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably mendacious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से धोखेब ज थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "acumen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acumen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acumen था।"
+            }
+          ]
+        },
+        {
+          "word": "sapient",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sapient.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sapient था।"
+            }
+          ]
+        },
+        {
+          "word": "street-smart",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was street-smart.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण street-smart था।"
+            }
+          ]
+        },
+        {
+          "word": "encyclopedia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was encyclopedia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण encyclopedia था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 245,
+      "word": "fallacious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "भ्र मक",
+        "गलत"
+      ],
+      "englishDefinition": "Based on a mistaken belief.",
+      "pronunciation": {
+        "ipa": "/fallacious/",
+        "simple": "FALLA-cious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably fallacious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से भ्र मक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sapient",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भ्र मक",
+            "गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sapient.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sapient था।"
+            }
+          ]
+        },
+        {
+          "word": "street-smart",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भ्र मक",
+            "गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was street-smart.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण street-smart था।"
+            }
+          ]
+        },
+        {
+          "word": "encyclopedia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भ्र मक",
+            "गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was encyclopedia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण encyclopedia था।"
+            }
+          ]
+        },
+        {
+          "word": "mendacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भ्र मक",
+            "गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mendacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mendacious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 246,
+      "word": "fabricate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गढ़ि",
+        "झूठी कह िी बि ि"
+      ],
+      "englishDefinition": "To invent or concoct (something), typically with deceitful intent.",
+      "pronunciation": {
+        "ipa": "/fabricate/",
+        "simple": "FABR-icate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to fabricate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गढ़ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "street-smart",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गढ़ि",
+            "झूठी कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was street-smart.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण street-smart था।"
+            }
+          ]
+        },
+        {
+          "word": "encyclopedia",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गढ़ि",
+            "झूठी कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was encyclopedia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण encyclopedia था।"
+            }
+          ]
+        },
+        {
+          "word": "mendacious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गढ़ि",
+            "झूठी कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mendacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mendacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fallacious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गढ़ि",
+            "झूठी कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fallacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fallacious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 247,
+      "word": "specious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ऊपर से सही पर र्व थतर्व में गलत"
+      ],
+      "englishDefinition": "Superficially plausible, but actually wrong.",
+      "pronunciation": {
+        "ipa": "/specious/",
+        "simple": "SPEC-ious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably specious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ऊपर से सही पर र्व थतर्व में गलत थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "encyclopedia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ऊपर से सही पर र्व थतर्व में गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was encyclopedia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण encyclopedia था।"
+            }
+          ]
+        },
+        {
+          "word": "mendacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ऊपर से सही पर र्व थतर्व में गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mendacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mendacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fallacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ऊपर से सही पर र्व थतर्व में गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fallacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fallacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fabricate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ऊपर से सही पर र्व थतर्व में गलत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fabricate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fabricate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 248,
+      "word": "rogue",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "दुष्ट",
+        "धोखेब ज"
+      ],
+      "englishDefinition": "A dishonest or unprincipled man.",
+      "pronunciation": {
+        "ipa": "/rogue/",
+        "simple": "RO-gue"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of rogue in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दुष्ट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mendacious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "दुष्ट",
+            "धोखेब ज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mendacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mendacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fallacious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "दुष्ट",
+            "धोखेब ज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fallacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fallacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fabricate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "दुष्ट",
+            "धोखेब ज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fabricate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fabricate था।"
+            }
+          ]
+        },
+        {
+          "word": "specious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "दुष्ट",
+            "धोखेब ज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was specious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण specious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 249,
+      "word": "guile",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "िल-कपट",
+        "ि ल की"
+      ],
+      "englishDefinition": "Sly or cunning intelligence.",
+      "pronunciation": {
+        "ipa": "/guile/",
+        "simple": "GU-ile"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of guile in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िल-कपट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fallacious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िल-कपट",
+            "ि ल की"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fallacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fallacious था।"
+            }
+          ]
+        },
+        {
+          "word": "fabricate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िल-कपट",
+            "ि ल की"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fabricate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fabricate था।"
+            }
+          ]
+        },
+        {
+          "word": "specious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िल-कपट",
+            "ि ल की"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was specious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण specious था।"
+            }
+          ]
+        },
+        {
+          "word": "rogue",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िल-कपट",
+            "ि ल की"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rogue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rogue था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 250,
+      "word": "imposter",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Imposter"
+      ],
+      "englishDefinition": "A person who pretends to be someone else in order to deceive others,",
+      "pronunciation": {
+        "ipa": "/imposter/",
+        "simple": "IMPO-ster"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of imposter in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Imposter के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fabricate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Imposter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fabricate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fabricate था।"
+            }
+          ]
+        },
+        {
+          "word": "specious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Imposter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was specious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण specious था।"
+            }
+          ]
+        },
+        {
+          "word": "rogue",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Imposter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rogue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rogue था।"
+            }
+          ]
+        },
+        {
+          "word": "guile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Imposter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guile था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

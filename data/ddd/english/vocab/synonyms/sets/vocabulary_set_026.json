@@ -1,0 +1,2255 @@
+{
+  "setId": "vocabulary_set_026",
+  "setNumber": 26,
+  "title": "Vocabulary Set 026 — Debase to Circumvent",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 626,
+      "word": "debase",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "मूल्य घट ि",
+        "भ्रष्ट करि"
+      ],
+      "englishDefinition": "To lower in status, esteem, quality, or character.",
+      "pronunciation": {
+        "ipa": "/debase/",
+        "simple": "DEB-ase"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to debase the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को मूल्य घट ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ridicule",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मूल्य घट ि",
+            "भ्रष्ट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ridicule.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ridicule था।"
+            }
+          ]
+        },
+        {
+          "word": "humiliate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मूल्य घट ि",
+            "भ्रष्ट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humiliate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humiliate था।"
+            }
+          ]
+        },
+        {
+          "word": "belittle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मूल्य घट ि",
+            "भ्रष्ट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was belittle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण belittle था।"
+            }
+          ]
+        },
+        {
+          "word": "demean",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मूल्य घट ि",
+            "भ्रष्ट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demean था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 627,
+      "word": "deride",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "उपह स करि",
+        "मज क उड़ ि"
+      ],
+      "englishDefinition": "(Mnemonic: Ride insult) To laugh at or insult contemptuously.",
+      "pronunciation": {
+        "ipa": "/deride/",
+        "simple": "DER-ide"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to deride the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को उपह स करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "humiliate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "उपह स करि",
+            "मज क उड़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humiliate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humiliate था।"
+            }
+          ]
+        },
+        {
+          "word": "belittle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "उपह स करि",
+            "मज क उड़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was belittle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण belittle था।"
+            }
+          ]
+        },
+        {
+          "word": "demean",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "उपह स करि",
+            "मज क उड़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demean था।"
+            }
+          ]
+        },
+        {
+          "word": "debase",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "उपह स करि",
+            "मज क उड़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debase.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debase था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 628,
+      "word": "satirize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "व्यांग्य करि"
+      ],
+      "englishDefinition": "To censure or ridicule by means of satire.",
+      "pronunciation": {
+        "ipa": "/satirize/",
+        "simple": "SATI-rize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to satirize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को व्यांग्य करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "belittle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "व्यांग्य करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was belittle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण belittle था।"
+            }
+          ]
+        },
+        {
+          "word": "demean",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "व्यांग्य करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demean था।"
+            }
+          ]
+        },
+        {
+          "word": "debase",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "व्यांग्य करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debase.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debase था।"
+            }
+          ]
+        },
+        {
+          "word": "deride",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "व्यांग्य करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deride था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 629,
+      "word": "disdain",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्तरथक र करि"
+      ],
+      "englishDefinition": "To look on with scorn.",
+      "pronunciation": {
+        "ipa": "/disdain/",
+        "simple": "DIS-dain"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disdain the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्तरथक र करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "demean",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्तरथक र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demean था।"
+            }
+          ]
+        },
+        {
+          "word": "debase",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्तरथक र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debase.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debase था।"
+            }
+          ]
+        },
+        {
+          "word": "deride",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्तरथक र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deride था।"
+            }
+          ]
+        },
+        {
+          "word": "satirize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्तरथक र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was satirize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण satirize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 630,
+      "word": "denigrate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बदि म करि",
+        "िीि  स्दख ि"
+      ],
+      "englishDefinition": "(Mnemonic: Deny great) To attack the reputation of : defame.",
+      "pronunciation": {
+        "ipa": "/denigrate/",
+        "simple": "DENI-grate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to denigrate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बदि म करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "debase",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदि म करि",
+            "िीि  स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debase.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debase था।"
+            }
+          ]
+        },
+        {
+          "word": "deride",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदि म करि",
+            "िीि  स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deride था।"
+            }
+          ]
+        },
+        {
+          "word": "satirize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदि म करि",
+            "िीि  स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was satirize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण satirize था।"
+            }
+          ]
+        },
+        {
+          "word": "disdain",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बदि म करि",
+            "िीि  स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disdain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disdain था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 631,
+      "word": "disparage",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "निरस्कार करिा",
+        "अपमानिि करिा"
+      ],
+      "englishDefinition": "(Mnemonic: Para/Rage) To depreciate by indirect means (such as invidious comparison)",
+      "pronunciation": {
+        "ipa": "/disparage/",
+        "simple": "DISP-arage"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disparage the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को निरस्कार करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "deride",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "निरस्कार करिा",
+            "अपमानिि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deride.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deride था।"
+            }
+          ]
+        },
+        {
+          "word": "satirize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "निरस्कार करिा",
+            "अपमानिि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was satirize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण satirize था।"
+            }
+          ]
+        },
+        {
+          "word": "disdain",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "निरस्कार करिा",
+            "अपमानिि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disdain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disdain था।"
+            }
+          ]
+        },
+        {
+          "word": "denigrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "निरस्कार करिा",
+            "अपमानिि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was denigrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण denigrate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 632,
+      "word": "stigmatize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "कलांस्कत करि"
+      ],
+      "englishDefinition": "(Mnemonic: Social stigma) To describe or identify in opprobrious terms.",
+      "pronunciation": {
+        "ipa": "/stigmatize/",
+        "simple": "STIGM-atize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to stigmatize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को कलांस्कत करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "satirize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कलांस्कत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was satirize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण satirize था।"
+            }
+          ]
+        },
+        {
+          "word": "disdain",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कलांस्कत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disdain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disdain था।"
+            }
+          ]
+        },
+        {
+          "word": "denigrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कलांस्कत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was denigrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण denigrate था।"
+            }
+          ]
+        },
+        {
+          "word": "disparage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कलांस्कत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disparage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disparage था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 633,
+      "word": "scoff",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "हांसी उड़ ि",
+        "त ि  म रि"
+      ],
+      "englishDefinition": "(Mnemonic: Khauf) To show contempt by derisive acts or language.",
+      "pronunciation": {
+        "ipa": "/scoff/",
+        "simple": "SC-off"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to scoff the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को हांसी उड़ ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disdain",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "हांसी उड़ ि",
+            "त ि  म रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disdain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disdain था।"
+            }
+          ]
+        },
+        {
+          "word": "denigrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "हांसी उड़ ि",
+            "त ि  म रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was denigrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण denigrate था।"
+            }
+          ]
+        },
+        {
+          "word": "disparage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "हांसी उड़ ि",
+            "त ि  म रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disparage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disparage था।"
+            }
+          ]
+        },
+        {
+          "word": "stigmatize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "हांसी उड़ ि",
+            "त ि  म रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stigmatize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stigmatize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 634,
+      "word": "scorn",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Scorn"
+      ],
+      "englishDefinition": "To treat with scorn : reject or dismiss as contemptible or",
+      "pronunciation": {
+        "ipa": "/scorn/",
+        "simple": "SC-orn"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to scorn the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Scorn करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "denigrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Scorn"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was denigrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण denigrate था।"
+            }
+          ]
+        },
+        {
+          "word": "disparage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Scorn"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disparage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disparage था।"
+            }
+          ]
+        },
+        {
+          "word": "stigmatize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Scorn"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stigmatize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stigmatize था।"
+            }
+          ]
+        },
+        {
+          "word": "scoff",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Scorn"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scoff.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scoff था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 635,
+      "word": "eulogize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "प्रशांस  करि",
+        "गुर्ग ि करि"
+      ],
+      "englishDefinition": "To speak or write in high praise of.",
+      "pronunciation": {
+        "ipa": "/eulogize/",
+        "simple": "EULO-gize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to eulogize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को प्रशांस  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disparage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disparage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disparage था।"
+            }
+          ]
+        },
+        {
+          "word": "stigmatize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stigmatize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stigmatize था।"
+            }
+          ]
+        },
+        {
+          "word": "scoff",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scoff.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scoff था।"
+            }
+          ]
+        },
+        {
+          "word": "scorn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scorn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scorn था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 636,
+      "word": "panegyrize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "थतुस्त करि",
+        "गुर्ग ि करि"
+      ],
+      "englishDefinition": "To speak or write a panegyric about : praise highly.",
+      "pronunciation": {
+        "ipa": "/panegyrize/",
+        "simple": "PANEG-yrize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to panegyrize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को थतुस्त करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stigmatize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "थतुस्त करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stigmatize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stigmatize था।"
+            }
+          ]
+        },
+        {
+          "word": "scoff",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "थतुस्त करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scoff.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scoff था।"
+            }
+          ]
+        },
+        {
+          "word": "scorn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "थतुस्त करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scorn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scorn था।"
+            }
+          ]
+        },
+        {
+          "word": "eulogize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "थतुस्त करि",
+            "गुर्ग ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eulogize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eulogize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 637,
+      "word": "aggrandize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गुर्ग ि करि",
+        "बढ़ ि"
+      ],
+      "englishDefinition": "To praise highly.",
+      "pronunciation": {
+        "ipa": "/aggrandize/",
+        "simple": "AGGRA-ndize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to aggrandize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गुर्ग ि करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scoff",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुर्ग ि करि",
+            "बढ़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scoff.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scoff था।"
+            }
+          ]
+        },
+        {
+          "word": "scorn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुर्ग ि करि",
+            "बढ़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scorn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scorn था।"
+            }
+          ]
+        },
+        {
+          "word": "eulogize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुर्ग ि करि",
+            "बढ़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eulogize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eulogize था।"
+            }
+          ]
+        },
+        {
+          "word": "panegyrize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुर्ग ि करि",
+            "बढ़ ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was panegyrize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण panegyrize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 638,
+      "word": "glorify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "मनहमा करिा",
+        "गुणगाि करिा"
+      ],
+      "englishDefinition": "To bestow honor, praise, or admiration on.",
+      "pronunciation": {
+        "ipa": "/glorify/",
+        "simple": "GLO-rify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to glorify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को मनहमा करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scorn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मनहमा करिा",
+            "गुणगाि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scorn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scorn था।"
+            }
+          ]
+        },
+        {
+          "word": "eulogize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मनहमा करिा",
+            "गुणगाि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eulogize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eulogize था।"
+            }
+          ]
+        },
+        {
+          "word": "panegyrize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मनहमा करिा",
+            "गुणगाि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was panegyrize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण panegyrize था।"
+            }
+          ]
+        },
+        {
+          "word": "aggrandize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मनहमा करिा",
+            "गुणगाि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aggrandize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aggrandize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 639,
+      "word": "dignify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गररम  बढ़ ि",
+        "सम्म स्ित करि"
+      ],
+      "englishDefinition": "To give distinction to : ennoble.",
+      "pronunciation": {
+        "ipa": "/dignify/",
+        "simple": "DIG-nify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to dignify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गररम  बढ़ ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "eulogize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गररम  बढ़ ि",
+            "सम्म स्ित करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eulogize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eulogize था।"
+            }
+          ]
+        },
+        {
+          "word": "panegyrize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गररम  बढ़ ि",
+            "सम्म स्ित करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was panegyrize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण panegyrize था।"
+            }
+          ]
+        },
+        {
+          "word": "aggrandize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गररम  बढ़ ि",
+            "सम्म स्ित करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aggrandize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aggrandize था।"
+            }
+          ]
+        },
+        {
+          "word": "glorify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गररम  बढ़ ि",
+            "सम्म स्ित करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glorify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glorify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 640,
+      "word": "extol",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "प्रशांस  करि"
+      ],
+      "englishDefinition": "To praise highly.",
+      "pronunciation": {
+        "ipa": "/extol/",
+        "simple": "EX-tol"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to extol the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को प्रशांस  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "panegyrize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was panegyrize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण panegyrize था।"
+            }
+          ]
+        },
+        {
+          "word": "aggrandize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aggrandize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aggrandize था।"
+            }
+          ]
+        },
+        {
+          "word": "glorify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glorify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glorify था।"
+            }
+          ]
+        },
+        {
+          "word": "dignify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रशांस  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dignify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dignify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 641,
+      "word": "adore",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "पूज  करि",
+        "बहुत पसांद करि"
+      ],
+      "englishDefinition": "To regard with loving admiration and devotion.",
+      "pronunciation": {
+        "ipa": "/adore/",
+        "simple": "AD-ore"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to adore the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को पूज  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "aggrandize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पूज  करि",
+            "बहुत पसांद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aggrandize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aggrandize था।"
+            }
+          ]
+        },
+        {
+          "word": "glorify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पूज  करि",
+            "बहुत पसांद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glorify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glorify था।"
+            }
+          ]
+        },
+        {
+          "word": "dignify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पूज  करि",
+            "बहुत पसांद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dignify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dignify था।"
+            }
+          ]
+        },
+        {
+          "word": "extol",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "पूज  करि",
+            "बहुत पसांद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extol था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 642,
+      "word": "dodge",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "चकमा देिा",
+        "बचकर निकलिा"
+      ],
+      "englishDefinition": "(Mnemonic: Dodgeball/Dog) To avoid (someone or something) by moving quickly or",
+      "pronunciation": {
+        "ipa": "/dodge/",
+        "simple": "DO-dge"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to dodge the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को चकमा देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "glorify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "चकमा देिा",
+            "बचकर निकलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glorify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glorify था।"
+            }
+          ]
+        },
+        {
+          "word": "dignify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "चकमा देिा",
+            "बचकर निकलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dignify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dignify था।"
+            }
+          ]
+        },
+        {
+          "word": "extol",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "चकमा देिा",
+            "बचकर निकलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extol था।"
+            }
+          ]
+        },
+        {
+          "word": "adore",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "चकमा देिा",
+            "बचकर निकलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adore था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 643,
+      "word": "avoid",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बिि",
+        "ट लि"
+      ],
+      "englishDefinition": "To keep away from.",
+      "pronunciation": {
+        "ipa": "/avoid/",
+        "simple": "AV-oid"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to avoid the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बिि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dignify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dignify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dignify था।"
+            }
+          ]
+        },
+        {
+          "word": "extol",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extol था।"
+            }
+          ]
+        },
+        {
+          "word": "adore",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adore था।"
+            }
+          ]
+        },
+        {
+          "word": "dodge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dodge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dodge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 644,
+      "word": "elude",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बि स्िकलि",
+        "ह ि ि आि"
+      ],
+      "englishDefinition": "(Mnemonic: Ludo/Illu) To avoid adroitly : evade.",
+      "pronunciation": {
+        "ipa": "/elude/",
+        "simple": "EL-ude"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to elude the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बि स्िकलि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "extol",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बि स्िकलि",
+            "ह ि ि आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extol था।"
+            }
+          ]
+        },
+        {
+          "word": "adore",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बि स्िकलि",
+            "ह ि ि आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adore था।"
+            }
+          ]
+        },
+        {
+          "word": "dodge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बि स्िकलि",
+            "ह ि ि आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dodge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dodge था।"
+            }
+          ]
+        },
+        {
+          "word": "avoid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बि स्िकलि",
+            "ह ि ि आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avoid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 645,
+      "word": "evade",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बिि",
+        "ट लि  (कर िोरी)"
+      ],
+      "englishDefinition": "(Mnemonic: Tax evasion) To take refuge in escape or avoidance.",
+      "pronunciation": {
+        "ipa": "/evade/",
+        "simple": "EV-ade"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to evade the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बिि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "adore",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि  (कर िोरी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adore था।"
+            }
+          ]
+        },
+        {
+          "word": "dodge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि  (कर िोरी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dodge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dodge था।"
+            }
+          ]
+        },
+        {
+          "word": "avoid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि  (कर िोरी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avoid था।"
+            }
+          ]
+        },
+        {
+          "word": "elude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बिि",
+            "ट लि  (कर िोरी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elude था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 646,
+      "word": "exclude",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ब हर रखि",
+        "स्िक लि"
+      ],
+      "englishDefinition": "To prevent or restrict the entrance of.",
+      "pronunciation": {
+        "ipa": "/exclude/",
+        "simple": "EXC-lude"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to exclude the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ब हर रखि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dodge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब हर रखि",
+            "स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dodge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dodge था।"
+            }
+          ]
+        },
+        {
+          "word": "avoid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब हर रखि",
+            "स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avoid था।"
+            }
+          ]
+        },
+        {
+          "word": "elude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब हर रखि",
+            "स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elude था।"
+            }
+          ]
+        },
+        {
+          "word": "evade",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब हर रखि",
+            "स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was evade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण evade था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 647,
+      "word": "eschew",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बचिा",
+        "त्यागिा",
+        "परहेज करिा"
+      ],
+      "englishDefinition": "(Mnemonic: Chewing gum) To avoid habitually especially on moral or practical grounds.",
+      "pronunciation": {
+        "ipa": "/eschew/",
+        "simple": "ESC-hew"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to eschew the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बचिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "elude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बचिा",
+            "त्यागिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elude था।"
+            }
+          ]
+        },
+        {
+          "word": "evade",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बचिा",
+            "त्यागिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was evade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण evade था।"
+            }
+          ]
+        },
+        {
+          "word": "exclude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बचिा",
+            "त्यागिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exclude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exclude था।"
+            }
+          ]
+        },
+        {
+          "word": "avert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बचिा",
+            "त्यागिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avert था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 648,
+      "word": "obviate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Obviate"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/obviate/",
+        "simple": "OBV-iate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to obviate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Obviate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "evade",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Obviate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was evade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण evade था।"
+            }
+          ]
+        },
+        {
+          "word": "exclude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Obviate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exclude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exclude था।"
+            }
+          ]
+        },
+        {
+          "word": "avert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Obviate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avert था।"
+            }
+          ]
+        },
+        {
+          "word": "eschew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Obviate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eschew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eschew था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 649,
+      "word": "preclude",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "रोकिा",
+        "बानधि करिा"
+      ],
+      "englishDefinition": "To make impossible by necessary consequence : rule out in",
+      "pronunciation": {
+        "ipa": "/preclude/",
+        "simple": "PREC-lude"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to preclude the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को रोकिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exclude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "रोकिा",
+            "बानधि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exclude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exclude था।"
+            }
+          ]
+        },
+        {
+          "word": "avert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "रोकिा",
+            "बानधि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avert था।"
+            }
+          ]
+        },
+        {
+          "word": "eschew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "रोकिा",
+            "बानधि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eschew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eschew था।"
+            }
+          ]
+        },
+        {
+          "word": "obviate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "रोकिा",
+            "बानधि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obviate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obviate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 650,
+      "word": "circumvent",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गस्तरोध से बिि",
+        "घेरि  (िल की से)"
+      ],
+      "englishDefinition": "(Mnemonic: Circle) To manage to get around especially by ingenuity or stratagem.",
+      "pronunciation": {
+        "ipa": "/circumvent/",
+        "simple": "CIRCU-mvent"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to circumvent the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गस्तरोध से बिि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "avert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गस्तरोध से बिि",
+            "घेरि  (िल की से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was avert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण avert था।"
+            }
+          ]
+        },
+        {
+          "word": "eschew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गस्तरोध से बिि",
+            "घेरि  (िल की से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eschew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eschew था।"
+            }
+          ]
+        },
+        {
+          "word": "obviate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गस्तरोध से बिि",
+            "घेरि  (िल की से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obviate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obviate था।"
+            }
+          ]
+        },
+        {
+          "word": "preclude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गस्तरोध से बिि",
+            "घेरि  (िल की से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was preclude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण preclude था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2226 @@
+{
+  "setId": "vocabulary_set_011",
+  "setNumber": 11,
+  "title": "Vocabulary Set 011 — Perjury to Ameliorate",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 251,
+      "word": "perjury",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Perjury"
+      ],
+      "englishDefinition": "The offense of willfully telling an untruth in a court after having taken an",
+      "pronunciation": {
+        "ipa": "/perjury/",
+        "simple": "PER-jury"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of perjury in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Perjury के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "specious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Perjury"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was specious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण specious था।"
+            }
+          ]
+        },
+        {
+          "word": "rogue",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Perjury"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rogue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rogue था।"
+            }
+          ]
+        },
+        {
+          "word": "guile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Perjury"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guile था।"
+            }
+          ]
+        },
+        {
+          "word": "imposter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Perjury"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imposter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imposter था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 252,
+      "word": "quack",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "िीम-हकीम",
+        "झोल ि प डॉक्टर"
+      ],
+      "englishDefinition": "A fraudulent or ignorant pretender to medical skill.",
+      "pronunciation": {
+        "ipa": "/quack/",
+        "simple": "QU-ack"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of quack in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िीम-हकीम के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rogue",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िीम-हकीम",
+            "झोल ि प डॉक्टर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rogue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rogue था।"
+            }
+          ]
+        },
+        {
+          "word": "guile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िीम-हकीम",
+            "झोल ि प डॉक्टर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guile था।"
+            }
+          ]
+        },
+        {
+          "word": "imposter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िीम-हकीम",
+            "झोल ि प डॉक्टर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imposter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imposter था।"
+            }
+          ]
+        },
+        {
+          "word": "perjury",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िीम-हकीम",
+            "झोल ि प डॉक्टर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjury.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjury था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 253,
+      "word": "chicanery",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "धोखाधड़ी",
+        "कपिीपि"
+      ],
+      "englishDefinition": "The use of trickery to achieve a political, financial, or legal purpose.",
+      "pronunciation": {
+        "ipa": "/chicanery/",
+        "simple": "CHIC-anery"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of chicanery in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में धोखाधड़ी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "guile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखाधड़ी",
+            "कपिीपि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guile था।"
+            }
+          ]
+        },
+        {
+          "word": "imposter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखाधड़ी",
+            "कपिीपि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imposter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imposter था।"
+            }
+          ]
+        },
+        {
+          "word": "perjury",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखाधड़ी",
+            "कपिीपि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjury.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjury था।"
+            }
+          ]
+        },
+        {
+          "word": "quack",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखाधड़ी",
+            "कपिीपि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quack.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quack था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 254,
+      "word": "mountebank",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Mountebank"
+      ],
+      "englishDefinition": "A person who deceives others, especially in order to trick them out of",
+      "pronunciation": {
+        "ipa": "/mountebank/",
+        "simple": "MOUNT-ebank"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of mountebank in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Mountebank के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "imposter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Mountebank"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imposter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imposter था।"
+            }
+          ]
+        },
+        {
+          "word": "perjury",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Mountebank"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjury.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjury था।"
+            }
+          ]
+        },
+        {
+          "word": "quack",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Mountebank"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quack.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quack था।"
+            }
+          ]
+        },
+        {
+          "word": "chicanery",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Mountebank"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chicanery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chicanery था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 255,
+      "word": "quixotic",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अव्यावहाररक",
+        "काल्पनिक",
+        "व्यथय"
+      ],
+      "englishDefinition": "(Mnemonic: Don",
+      "pronunciation": {
+        "ipa": "/quixotic/",
+        "simple": "QUIX-otic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably quixotic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अव्यावहाररक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perjury",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अव्यावहाररक",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjury.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjury था।"
+            }
+          ]
+        },
+        {
+          "word": "quack",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अव्यावहाररक",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quack.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quack था।"
+            }
+          ]
+        },
+        {
+          "word": "chicanery",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अव्यावहाररक",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chicanery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chicanery था।"
+            }
+          ]
+        },
+        {
+          "word": "mountebank",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अव्यावहाररक",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mountebank.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mountebank था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 256,
+      "word": "hallucination",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Hallucination"
+      ],
+      "englishDefinition": "An experience involving the apparent perception of something not",
+      "pronunciation": {
+        "ipa": "/hallucination/",
+        "simple": "HALLUC-ination"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hallucination in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Hallucination के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quack",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hallucination"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quack.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quack था।"
+            }
+          ]
+        },
+        {
+          "word": "chicanery",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hallucination"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chicanery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chicanery था।"
+            }
+          ]
+        },
+        {
+          "word": "mountebank",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hallucination"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mountebank.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mountebank था।"
+            }
+          ]
+        },
+        {
+          "word": "quixotic",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hallucination"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quixotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quixotic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 257,
+      "word": "utopia",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "र मर ज्य",
+        "आदर्श लोक"
+      ],
+      "englishDefinition": "An imagined place or state of things in which everything is perfect.",
+      "pronunciation": {
+        "ipa": "/utopia/",
+        "simple": "UTO-pia"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of utopia in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में र मर ज्य के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chicanery",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "र मर ज्य",
+            "आदर्श लोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chicanery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chicanery था।"
+            }
+          ]
+        },
+        {
+          "word": "mountebank",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "र मर ज्य",
+            "आदर्श लोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mountebank.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mountebank था।"
+            }
+          ]
+        },
+        {
+          "word": "quixotic",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "र मर ज्य",
+            "आदर्श लोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quixotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quixotic था।"
+            }
+          ]
+        },
+        {
+          "word": "hallucination",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "र मर ज्य",
+            "आदर्श लोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hallucination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hallucination था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 258,
+      "word": "chimerical",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "काल्पनिक",
+        "मिगढंि",
+        "असंभव"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/chimerical/",
+        "simple": "CHIME-rical"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably chimerical.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से काल्पनिक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mountebank",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "काल्पनिक",
+            "मिगढंि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mountebank.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mountebank था।"
+            }
+          ]
+        },
+        {
+          "word": "quixotic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "काल्पनिक",
+            "मिगढंि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quixotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quixotic था।"
+            }
+          ]
+        },
+        {
+          "word": "hallucination",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "काल्पनिक",
+            "मिगढंि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hallucination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hallucination था।"
+            }
+          ]
+        },
+        {
+          "word": "utopia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "काल्पनिक",
+            "मिगढंि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopia था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 259,
+      "word": "amass",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "जमा करिा",
+        "इकट्ठा करिा"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/amass/",
+        "simple": "AM-ass"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to amass the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को जमा करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quixotic",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जमा करिा",
+            "इकट्ठा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quixotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quixotic था।"
+            }
+          ]
+        },
+        {
+          "word": "hallucination",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जमा करिा",
+            "इकट्ठा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hallucination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hallucination था।"
+            }
+          ]
+        },
+        {
+          "word": "utopia",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जमा करिा",
+            "इकट्ठा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopia था।"
+            }
+          ]
+        },
+        {
+          "word": "chimerical",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जमा करिा",
+            "इकट्ठा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chimerical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chimerical था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 260,
+      "word": "collate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "सांकलि करि",
+        "स्मल ि करि"
+      ],
+      "englishDefinition": "To collect, compare, and arrange data.",
+      "pronunciation": {
+        "ipa": "/collate/",
+        "simple": "COL-late"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to collate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सांकलि करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hallucination",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांकलि करि",
+            "स्मल ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hallucination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hallucination था।"
+            }
+          ]
+        },
+        {
+          "word": "utopia",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांकलि करि",
+            "स्मल ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopia था।"
+            }
+          ]
+        },
+        {
+          "word": "chimerical",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांकलि करि",
+            "स्मल ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chimerical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chimerical था।"
+            }
+          ]
+        },
+        {
+          "word": "amass",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांकलि करि",
+            "स्मल ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amass था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 261,
+      "word": "garner",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "संग्रह करिा",
+        "जमा करिा"
+      ],
+      "englishDefinition": "(Mnemonic: Garnier",
+      "pronunciation": {
+        "ipa": "/garner/",
+        "simple": "GAR-ner"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to garner the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को संग्रह करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "utopia",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संग्रह करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopia था।"
+            }
+          ]
+        },
+        {
+          "word": "chimerical",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संग्रह करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chimerical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chimerical था।"
+            }
+          ]
+        },
+        {
+          "word": "amass",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संग्रह करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amass था।"
+            }
+          ]
+        },
+        {
+          "word": "collate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संग्रह करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was collate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण collate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 262,
+      "word": "hoard",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "जम खोरी करि",
+        "ढेर लग ि"
+      ],
+      "englishDefinition": "To collect and hide a large amount of something.",
+      "pronunciation": {
+        "ipa": "/hoard/",
+        "simple": "HO-ard"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to hoard the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को जम खोरी करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chimerical",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जम खोरी करि",
+            "ढेर लग ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chimerical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chimerical था।"
+            }
+          ]
+        },
+        {
+          "word": "amass",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जम खोरी करि",
+            "ढेर लग ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amass था।"
+            }
+          ]
+        },
+        {
+          "word": "collate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जम खोरी करि",
+            "ढेर लग ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was collate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण collate था।"
+            }
+          ]
+        },
+        {
+          "word": "garner",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जम खोरी करि",
+            "ढेर लग ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was garner.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण garner था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 263,
+      "word": "marshal",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Marshal"
+      ],
+      "englishDefinition": "(Mnemonic: Air",
+      "pronunciation": {
+        "ipa": "/marshal/",
+        "simple": "MAR-shal"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to marshal the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Marshal करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "collate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Marshal"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was collate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण collate था।"
+            }
+          ]
+        },
+        {
+          "word": "garner",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Marshal"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was garner.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण garner था।"
+            }
+          ]
+        },
+        {
+          "word": "hoard",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Marshal"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoard.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoard था।"
+            }
+          ]
+        },
+        {
+          "word": "accrue",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Marshal"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accrue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accrue था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 264,
+      "word": "congregate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "इकट्ठा होिा (धानमयक उद्देश्य से)"
+      ],
+      "englishDefinition": "To collect into a group or crowd.",
+      "pronunciation": {
+        "ipa": "/congregate/",
+        "simple": "CONGR-egate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to congregate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को इकट्ठा होिा (धानमयक उद्देश्य से) करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "garner",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा होिा (धानमयक उद्देश्य से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was garner.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण garner था।"
+            }
+          ]
+        },
+        {
+          "word": "hoard",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा होिा (धानमयक उद्देश्य से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoard.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoard था।"
+            }
+          ]
+        },
+        {
+          "word": "accrue",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा होिा (धानमयक उद्देश्य से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accrue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accrue था।"
+            }
+          ]
+        },
+        {
+          "word": "marshal",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा होिा (धानमयक उद्देश्य से)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was marshal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण marshal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 265,
+      "word": "pile",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "ढेर लगािा",
+        "जमा करिा"
+      ],
+      "englishDefinition": "up (Phr v) To accumulate.",
+      "pronunciation": {
+        "ipa": "/pile/",
+        "simple": "PILE"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pile in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ढेर लगािा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hoard",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढेर लगािा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoard.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoard था।"
+            }
+          ]
+        },
+        {
+          "word": "accrue",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढेर लगािा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accrue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accrue था।"
+            }
+          ]
+        },
+        {
+          "word": "marshal",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढेर लगािा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was marshal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण marshal था।"
+            }
+          ]
+        },
+        {
+          "word": "congregate",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढेर लगािा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congregate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congregate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 266,
+      "word": "muster",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "इकट्ठा करिा",
+        "जमा करिा"
+      ],
+      "englishDefinition": "(Mnemonic: Mustard",
+      "pronunciation": {
+        "ipa": "/muster/",
+        "simple": "MUS-ter"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to muster the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को इकट्ठा करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "accrue",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accrue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accrue था।"
+            }
+          ]
+        },
+        {
+          "word": "marshal",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was marshal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण marshal था।"
+            }
+          ]
+        },
+        {
+          "word": "congregate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congregate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congregate था।"
+            }
+          ]
+        },
+        {
+          "word": "pile",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pile था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 267,
+      "word": "accumulate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "संचय करिा",
+        "जमा करिा"
+      ],
+      "englishDefinition": "To gather or pile up especially little by little.",
+      "pronunciation": {
+        "ipa": "/accumulate/",
+        "simple": "ACCUM-ulate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to accumulate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को संचय करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "marshal",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संचय करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was marshal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण marshal था।"
+            }
+          ]
+        },
+        {
+          "word": "congregate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संचय करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congregate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congregate था।"
+            }
+          ]
+        },
+        {
+          "word": "pile",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संचय करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pile था।"
+            }
+          ]
+        },
+        {
+          "word": "muster",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "संचय करिा",
+            "जमा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muster था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 268,
+      "word": "squander",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गांर्व ि",
+        "बब िद करि"
+      ],
+      "englishDefinition": "To spend extravagantly or foolishly.",
+      "pronunciation": {
+        "ipa": "/squander/",
+        "simple": "SQUA-nder"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to squander the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गांर्व ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "congregate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गांर्व ि",
+            "बब िद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congregate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congregate था।"
+            }
+          ]
+        },
+        {
+          "word": "pile",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गांर्व ि",
+            "बब िद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pile था।"
+            }
+          ]
+        },
+        {
+          "word": "muster",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गांर्व ि",
+            "बब िद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muster था।"
+            }
+          ]
+        },
+        {
+          "word": "accumulate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गांर्व ि",
+            "बब िद करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accumulate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accumulate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 269,
+      "word": "fritter",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Fritter"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/fritter/",
+        "simple": "FRI-tter"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to fritter the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Fritter करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pile",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Fritter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pile था।"
+            }
+          ]
+        },
+        {
+          "word": "muster",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Fritter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muster था।"
+            }
+          ]
+        },
+        {
+          "word": "accumulate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Fritter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accumulate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accumulate था।"
+            }
+          ]
+        },
+        {
+          "word": "squander",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Fritter"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was squander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण squander था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 270,
+      "word": "dissipate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Dissipate"
+      ],
+      "englishDefinition": "(Mnemonic: Desi",
+      "pronunciation": {
+        "ipa": "/dissipate/",
+        "simple": "DISS-ipate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to dissipate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Dissipate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "muster",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Dissipate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muster था।"
+            }
+          ]
+        },
+        {
+          "word": "accumulate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Dissipate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accumulate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accumulate था।"
+            }
+          ]
+        },
+        {
+          "word": "squander",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Dissipate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was squander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण squander था।"
+            }
+          ]
+        },
+        {
+          "word": "fritter",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Dissipate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fritter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fritter था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 271,
+      "word": "disseminate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Disseminate"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/disseminate/",
+        "simple": "DISSE-minate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disseminate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Disseminate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "accumulate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disseminate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was accumulate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण accumulate था।"
+            }
+          ]
+        },
+        {
+          "word": "squander",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disseminate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was squander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण squander था।"
+            }
+          ]
+        },
+        {
+          "word": "fritter",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disseminate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fritter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fritter था।"
+            }
+          ]
+        },
+        {
+          "word": "dissipate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disseminate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissipate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 272,
+      "word": "disperse",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्ततर-स्बतर करि"
+      ],
+      "englishDefinition": "(Mnemonic: Purse) To cause to break up; to spread or distribute.",
+      "pronunciation": {
+        "ipa": "/disperse/",
+        "simple": "DISP-erse"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disperse the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्ततर-स्बतर करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "squander",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्ततर-स्बतर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was squander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण squander था।"
+            }
+          ]
+        },
+        {
+          "word": "fritter",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्ततर-स्बतर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fritter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fritter था।"
+            }
+          ]
+        },
+        {
+          "word": "dissipate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्ततर-स्बतर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissipate था।"
+            }
+          ]
+        },
+        {
+          "word": "disseminate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्ततर-स्बतर करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disseminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disseminate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 273,
+      "word": "fiddle",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "Fiddle"
+      ],
+      "englishDefinition": "away (Phr v) (Mnemonic:",
+      "pronunciation": {
+        "ipa": "/fiddle/",
+        "simple": "FID-dle"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of fiddle in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Fiddle के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fritter",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Fiddle"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fritter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fritter था।"
+            }
+          ]
+        },
+        {
+          "word": "dissipate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Fiddle"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissipate था।"
+            }
+          ]
+        },
+        {
+          "word": "disseminate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Fiddle"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disseminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disseminate था।"
+            }
+          ]
+        },
+        {
+          "word": "disperse",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "Fiddle"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disperse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disperse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 274,
+      "word": "profane",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Profane"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/profane/",
+        "simple": "PRO-fane"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably profane.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Profane थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dissipate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Profane"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissipate था।"
+            }
+          ]
+        },
+        {
+          "word": "disseminate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Profane"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disseminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disseminate था।"
+            }
+          ]
+        },
+        {
+          "word": "disperse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Profane"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disperse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disperse था।"
+            }
+          ]
+        },
+        {
+          "word": "fiddle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Profane"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fiddle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fiddle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 275,
+      "word": "ameliorate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Ameliorate"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/ameliorate/",
+        "simple": "AMELI-orate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ameliorate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Ameliorate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disseminate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Ameliorate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disseminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disseminate था।"
+            }
+          ]
+        },
+        {
+          "word": "disperse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Ameliorate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disperse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disperse था।"
+            }
+          ]
+        },
+        {
+          "word": "fiddle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Ameliorate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fiddle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fiddle था।"
+            }
+          ]
+        },
+        {
+          "word": "profane",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Ameliorate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profane था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

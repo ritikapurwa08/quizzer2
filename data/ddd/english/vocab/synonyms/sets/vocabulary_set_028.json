@@ -1,0 +1,2244 @@
+{
+  "setId": "vocabulary_set_028",
+  "setNumber": 28,
+  "title": "Vocabulary Set 028 — Ponder to Disassemble",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 676,
+      "word": "ponder",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्र्वि र करि",
+        "सोिि"
+      ],
+      "englishDefinition": "(Mnemonic: Pond) To weigh in the mind : think about.",
+      "pronunciation": {
+        "ipa": "/ponder/",
+        "simple": "PON-der"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ponder the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्र्वि र करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "allege",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि",
+            "सोिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was allege.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण allege था।"
+            }
+          ]
+        },
+        {
+          "word": "allegation",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि",
+            "सोिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was allegation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण allegation था।"
+            }
+          ]
+        },
+        {
+          "word": "emancipate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि",
+            "सोिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was emancipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण emancipate था।"
+            }
+          ]
+        },
+        {
+          "word": "contemplate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि",
+            "सोिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemplate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemplate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 677,
+      "word": "mull",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "गहि नवचार करिा"
+      ],
+      "englishDefinition": "over (Phr v) To consider at length : ponder.",
+      "pronunciation": {
+        "ipa": "/mull/",
+        "simple": "MULL"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of mull in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गहि नवचार करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "allegation",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "गहि नवचार करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was allegation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण allegation था।"
+            }
+          ]
+        },
+        {
+          "word": "emancipate",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "गहि नवचार करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was emancipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण emancipate था।"
+            }
+          ]
+        },
+        {
+          "word": "contemplate",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "गहि नवचार करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemplate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemplate था।"
+            }
+          ]
+        },
+        {
+          "word": "ponder",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "गहि नवचार करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponder.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponder था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 678,
+      "word": "brood",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्िांत  करि",
+        "अांडे सेि"
+      ],
+      "englishDefinition": "(Mnemonic: Bread/Brother) To think anxiously or gloomily about : ponder.",
+      "pronunciation": {
+        "ipa": "/brood/",
+        "simple": "BR-ood"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to brood the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्िांत  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "emancipate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांत  करि",
+            "अांडे सेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was emancipate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण emancipate था।"
+            }
+          ]
+        },
+        {
+          "word": "contemplate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांत  करि",
+            "अांडे सेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemplate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemplate था।"
+            }
+          ]
+        },
+        {
+          "word": "ponder",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांत  करि",
+            "अांडे सेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponder.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponder था।"
+            }
+          ]
+        },
+        {
+          "word": "mull",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांत  करि",
+            "अांडे सेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mull था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 679,
+      "word": "meditate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ध्य ि करि",
+        "स्िांति करि"
+      ],
+      "englishDefinition": "To engage in contemplation or reflection.",
+      "pronunciation": {
+        "ipa": "/meditate/",
+        "simple": "MEDI-tate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to meditate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ध्य ि करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "contemplate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि करि",
+            "स्िांति करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemplate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemplate था।"
+            }
+          ]
+        },
+        {
+          "word": "ponder",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि करि",
+            "स्िांति करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponder.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponder था।"
+            }
+          ]
+        },
+        {
+          "word": "mull",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि करि",
+            "स्िांति करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mull था।"
+            }
+          ]
+        },
+        {
+          "word": "brood",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि करि",
+            "स्िांति करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brood.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brood था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 680,
+      "word": "muse",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ध्य ि मग्ि होि",
+        "स्र्वि र करि"
+      ],
+      "englishDefinition": "(Mnemonic: Music/Mouse) To become absorbed in thought.",
+      "pronunciation": {
+        "ipa": "/muse/",
+        "simple": "MUSE"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to muse the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ध्य ि मग्ि होि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ponder",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि मग्ि होि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponder.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponder था।"
+            }
+          ]
+        },
+        {
+          "word": "mull",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि मग्ि होि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mull था।"
+            }
+          ]
+        },
+        {
+          "word": "brood",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि मग्ि होि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brood.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brood था।"
+            }
+          ]
+        },
+        {
+          "word": "meditate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ध्य ि मग्ि होि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meditate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meditate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 681,
+      "word": "cogitate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "सोिि",
+        "स्र्वि र करि"
+      ],
+      "englishDefinition": "(Mnemonic: Colgate/Gita) To ponder or meditate on usually intently.",
+      "pronunciation": {
+        "ipa": "/cogitate/",
+        "simple": "COGI-tate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to cogitate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सोिि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mull",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोिि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mull था।"
+            }
+          ]
+        },
+        {
+          "word": "brood",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोिि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brood.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brood था।"
+            }
+          ]
+        },
+        {
+          "word": "meditate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोिि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meditate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meditate था।"
+            }
+          ]
+        },
+        {
+          "word": "muse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोिि",
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 682,
+      "word": "ruminate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्िांति करि",
+        "जुग ली करि"
+      ],
+      "englishDefinition": "(Mnemonic: Roommate) To go over in the mind repeatedly and often casually or slowly.",
+      "pronunciation": {
+        "ipa": "/ruminate/",
+        "simple": "RUMI-nate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ruminate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्िांति करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brood",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांति करि",
+            "जुग ली करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brood.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brood था।"
+            }
+          ]
+        },
+        {
+          "word": "meditate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांति करि",
+            "जुग ली करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meditate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meditate था।"
+            }
+          ]
+        },
+        {
+          "word": "muse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांति करि",
+            "जुग ली करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muse था।"
+            }
+          ]
+        },
+        {
+          "word": "cogitate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांति करि",
+            "जुग ली करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogitate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 683,
+      "word": "dwell",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "बहुत देर तक सोिि",
+        "ध्य ि देि"
+      ],
+      "englishDefinition": "on (Phr v) To speak or write insistently about.",
+      "pronunciation": {
+        "ipa": "/dwell/",
+        "simple": "DW-ell"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of dwell in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बहुत देर तक सोिि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "meditate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुत देर तक सोिि",
+            "ध्य ि देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meditate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meditate था।"
+            }
+          ]
+        },
+        {
+          "word": "muse",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुत देर तक सोिि",
+            "ध्य ि देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muse था।"
+            }
+          ]
+        },
+        {
+          "word": "cogitate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुत देर तक सोिि",
+            "ध्य ि देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogitate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruminate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुत देर तक सोिि",
+            "ध्य ि देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruminate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 684,
+      "word": "chew",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "स्र्वि र-स्र्वमशि करि"
+      ],
+      "englishDefinition": "over (Phr v) To think about (something) carefully.",
+      "pronunciation": {
+        "ipa": "/chew/",
+        "simple": "CHEW"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of chew in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्र्वि र-स्र्वमशि करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "muse",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र-स्र्वमशि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was muse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण muse था।"
+            }
+          ]
+        },
+        {
+          "word": "cogitate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र-स्र्वमशि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogitate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruminate",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र-स्र्वमशि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruminate था।"
+            }
+          ]
+        },
+        {
+          "word": "dwell",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र-स्र्वमशि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dwell.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dwell था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 685,
+      "word": "perpend",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्र्वि र करि"
+      ],
+      "englishDefinition": "(Mnemonic: Perpendicular) To weigh in the mind : ponder.",
+      "pronunciation": {
+        "ipa": "/perpend/",
+        "simple": "PER-pend"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to perpend the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्र्वि र करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cogitate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogitate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruminate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruminate था।"
+            }
+          ]
+        },
+        {
+          "word": "dwell",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dwell.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dwell था।"
+            }
+          ]
+        },
+        {
+          "word": "chew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्र्वि र करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chew था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 686,
+      "word": "unify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "एक करि",
+        "स्मल ि"
+      ],
+      "englishDefinition": "To make into a unit or a coherent whole : unite.",
+      "pronunciation": {
+        "ipa": "/unify/",
+        "simple": "UN-ify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to unify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को एक करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ruminate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "एक करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruminate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruminate था।"
+            }
+          ]
+        },
+        {
+          "word": "dwell",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "एक करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dwell.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dwell था।"
+            }
+          ]
+        },
+        {
+          "word": "chew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "एक करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chew था।"
+            }
+          ]
+        },
+        {
+          "word": "perpend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "एक करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perpend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perpend था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 687,
+      "word": "fuse",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्पघल ि",
+        "स्मल ि"
+      ],
+      "englishDefinition": "(Mnemonic: Fusion) To reduce to a liquid or plastic state by heat; to blend.",
+      "pronunciation": {
+        "ipa": "/fuse/",
+        "simple": "FUSE"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to fuse the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्पघल ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dwell",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्पघल ि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dwell.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dwell था।"
+            }
+          ]
+        },
+        {
+          "word": "chew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्पघल ि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chew था।"
+            }
+          ]
+        },
+        {
+          "word": "perpend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्पघल ि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perpend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perpend था।"
+            }
+          ]
+        },
+        {
+          "word": "unify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्पघल ि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 688,
+      "word": "amalgamate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्मस्श्रत करि",
+        "स्मल ि"
+      ],
+      "englishDefinition": "To unite in or as if in an amalgam.",
+      "pronunciation": {
+        "ipa": "/amalgamate/",
+        "simple": "AMALG-amate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to amalgamate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्मस्श्रत करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chew",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मस्श्रत करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chew था।"
+            }
+          ]
+        },
+        {
+          "word": "perpend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मस्श्रत करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perpend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perpend था।"
+            }
+          ]
+        },
+        {
+          "word": "unify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मस्श्रत करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unify था।"
+            }
+          ]
+        },
+        {
+          "word": "fuse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मस्श्रत करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fuse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 689,
+      "word": "coalesce",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "सस्म्मस्लत होि",
+        "एकजुट होि"
+      ],
+      "englishDefinition": "(Mnemonic: Coalition) To grow together; to unite into a whole.",
+      "pronunciation": {
+        "ipa": "/coalesce/",
+        "simple": "COAL-esce"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to coalesce the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सस्म्मस्लत होि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perpend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सस्म्मस्लत होि",
+            "एकजुट होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perpend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perpend था।"
+            }
+          ]
+        },
+        {
+          "word": "unify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सस्म्मस्लत होि",
+            "एकजुट होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unify था।"
+            }
+          ]
+        },
+        {
+          "word": "fuse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सस्म्मस्लत होि",
+            "एकजुट होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fuse था।"
+            }
+          ]
+        },
+        {
+          "word": "amalgamate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सस्म्मस्लत होि",
+            "एकजुट होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amalgamate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amalgamate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 690,
+      "word": "integrate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Integrate"
+      ],
+      "englishDefinition": "To form, coordinate, or blend into a functioning or unified",
+      "pronunciation": {
+        "ipa": "/integrate/",
+        "simple": "INTE-grate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to integrate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Integrate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Integrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unify था।"
+            }
+          ]
+        },
+        {
+          "word": "fuse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Integrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fuse था।"
+            }
+          ]
+        },
+        {
+          "word": "amalgamate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Integrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amalgamate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amalgamate था।"
+            }
+          ]
+        },
+        {
+          "word": "coalesce",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Integrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coalesce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coalesce था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 691,
+      "word": "blend",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्मल ि",
+        "स्मश्रर् बि ि"
+      ],
+      "englishDefinition": "To mix so that the constituent parts are indistinguishable.",
+      "pronunciation": {
+        "ipa": "/blend/",
+        "simple": "BL-end"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to blend the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्मल ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fuse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मल ि",
+            "स्मश्रर् बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fuse था।"
+            }
+          ]
+        },
+        {
+          "word": "amalgamate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मल ि",
+            "स्मश्रर् बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amalgamate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amalgamate था।"
+            }
+          ]
+        },
+        {
+          "word": "coalesce",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मल ि",
+            "स्मश्रर् बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coalesce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coalesce था।"
+            }
+          ]
+        },
+        {
+          "word": "integrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मल ि",
+            "स्मश्रर् बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was integrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण integrate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 692,
+      "word": "synthesize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "सांश्लेषर् करि",
+        "स्मल ि"
+      ],
+      "englishDefinition": "To combine or produce by synthesis.",
+      "pronunciation": {
+        "ipa": "/synthesize/",
+        "simple": "SYNTH-esize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to synthesize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सांश्लेषर् करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "amalgamate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांश्लेषर् करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was amalgamate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण amalgamate था।"
+            }
+          ]
+        },
+        {
+          "word": "coalesce",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांश्लेषर् करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coalesce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coalesce था।"
+            }
+          ]
+        },
+        {
+          "word": "integrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांश्लेषर् करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was integrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण integrate था।"
+            }
+          ]
+        },
+        {
+          "word": "blend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "सांश्लेषर् करि",
+            "स्मल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blend था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 693,
+      "word": "mingle",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्मलि",
+        "घुलि -स्मलि"
+      ],
+      "englishDefinition": "To bring or mix together or with something else.",
+      "pronunciation": {
+        "ipa": "/mingle/",
+        "simple": "MIN-gle"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to mingle the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्मलि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "coalesce",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मलि",
+            "घुलि -स्मलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coalesce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coalesce था।"
+            }
+          ]
+        },
+        {
+          "word": "integrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मलि",
+            "घुलि -स्मलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was integrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण integrate था।"
+            }
+          ]
+        },
+        {
+          "word": "blend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मलि",
+            "घुलि -स्मलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blend था।"
+            }
+          ]
+        },
+        {
+          "word": "synthesize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्मलि",
+            "घुलि -स्मलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was synthesize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण synthesize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 694,
+      "word": "homogenize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Homogenize"
+      ],
+      "englishDefinition": "To blend (diverse elements) into a mixture that is the same",
+      "pronunciation": {
+        "ipa": "/homogenize/",
+        "simple": "HOMOG-enize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to homogenize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Homogenize करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "integrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Homogenize"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was integrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण integrate था।"
+            }
+          ]
+        },
+        {
+          "word": "blend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Homogenize"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blend था।"
+            }
+          ]
+        },
+        {
+          "word": "synthesize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Homogenize"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was synthesize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण synthesize था।"
+            }
+          ]
+        },
+        {
+          "word": "mingle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Homogenize"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mingle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mingle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 695,
+      "word": "split",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "िीरि",
+        "अलग करि"
+      ],
+      "englishDefinition": "To divide lengthwise usually along a grain or seam or by layers.",
+      "pronunciation": {
+        "ipa": "/split/",
+        "simple": "SP-lit"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to split the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को िीरि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "blend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िीरि",
+            "अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blend था।"
+            }
+          ]
+        },
+        {
+          "word": "synthesize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िीरि",
+            "अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was synthesize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण synthesize था।"
+            }
+          ]
+        },
+        {
+          "word": "mingle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िीरि",
+            "अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mingle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mingle था।"
+            }
+          ]
+        },
+        {
+          "word": "homogenize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िीरि",
+            "अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was homogenize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण homogenize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 696,
+      "word": "disunite",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "अलग करि",
+        "फू ट ड लि"
+      ],
+      "englishDefinition": "To destroy the unity of : divide.",
+      "pronunciation": {
+        "ipa": "/disunite/",
+        "simple": "DISU-nite"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disunite the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अलग करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "synthesize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "फू ट ड लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was synthesize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण synthesize था।"
+            }
+          ]
+        },
+        {
+          "word": "mingle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "फू ट ड लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mingle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mingle था।"
+            }
+          ]
+        },
+        {
+          "word": "homogenize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "फू ट ड लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was homogenize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण homogenize था।"
+            }
+          ]
+        },
+        {
+          "word": "split",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "फू ट ड लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was split.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण split था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 697,
+      "word": "sequester",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "अलग करि",
+        "एक ांत में रखि"
+      ],
+      "englishDefinition": "To set apart : segregate.",
+      "pronunciation": {
+        "ipa": "/sequester/",
+        "simple": "SEQU-ester"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to sequester the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अलग करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mingle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "एक ांत में रखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mingle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mingle था।"
+            }
+          ]
+        },
+        {
+          "word": "homogenize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "एक ांत में रखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was homogenize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण homogenize था।"
+            }
+          ]
+        },
+        {
+          "word": "split",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "एक ांत में रखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was split.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण split था।"
+            }
+          ]
+        },
+        {
+          "word": "disunite",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग करि",
+            "एक ांत में रखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disunite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disunite था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 698,
+      "word": "disintegrate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "Disintegrate"
+      ],
+      "englishDefinition": "To break or decompose into constituent elements, parts, or",
+      "pronunciation": {
+        "ipa": "/disintegrate/",
+        "simple": "DISINT-egrate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disintegrate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को Disintegrate करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "homogenize",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disintegrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was homogenize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण homogenize था।"
+            }
+          ]
+        },
+        {
+          "word": "split",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disintegrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was split.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण split था।"
+            }
+          ]
+        },
+        {
+          "word": "disunite",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disintegrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disunite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disunite था।"
+            }
+          ]
+        },
+        {
+          "word": "sequester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "Disintegrate"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sequester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sequester था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 699,
+      "word": "bifurcate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "दो भ गों में ब ांटि"
+      ],
+      "englishDefinition": "To divide into two branches or parts.",
+      "pronunciation": {
+        "ipa": "/bifurcate/",
+        "simple": "BIFU-rcate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to bifurcate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को दो भ गों में ब ांटि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "split",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दो भ गों में ब ांटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was split.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण split था।"
+            }
+          ]
+        },
+        {
+          "word": "disunite",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दो भ गों में ब ांटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disunite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disunite था।"
+            }
+          ]
+        },
+        {
+          "word": "sequester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दो भ गों में ब ांटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sequester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sequester था।"
+            }
+          ]
+        },
+        {
+          "word": "disintegrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दो भ गों में ब ांटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disintegrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disintegrate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 700,
+      "word": "disassemble",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "अलग-अलग करि"
+      ],
+      "englishDefinition": "To take apart.",
+      "pronunciation": {
+        "ipa": "/disassemble/",
+        "simple": "DISAS-semble"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disassemble the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अलग-अलग करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disunite",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग-अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disunite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disunite था।"
+            }
+          ]
+        },
+        {
+          "word": "sequester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग-अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sequester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sequester था।"
+            }
+          ]
+        },
+        {
+          "word": "disintegrate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग-अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disintegrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disintegrate था।"
+            }
+          ]
+        },
+        {
+          "word": "bifurcate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अलग-अलग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bifurcate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bifurcate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

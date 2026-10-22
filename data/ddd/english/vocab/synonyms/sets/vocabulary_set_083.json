@@ -1,0 +1,2285 @@
+{
+  "setId": "vocabulary_set_083",
+  "setNumber": 83,
+  "title": "Vocabulary Set 083 — Righteous to Precursive",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2051,
+      "word": "righteous",
+      "partOfSpeech": [
+        "Morally"
+      ],
+      "hindiMeaning": [
+        "ध स्मिक",
+        "न्य यसांगत"
+      ],
+      "englishDefinition": "right or justifiable; acting in an upright or moral way. 82",
+      "pronunciation": {
+        "ipa": "/righteous/",
+        "simple": "RIGH-teous"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of righteous in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ध स्मिक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "jeremiad",
+          "partOfSpeech": [
+            "Morally"
+          ],
+          "hindiMeaning": [
+            "ध स्मिक",
+            "न्य यसांगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jeremiad.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jeremiad था।"
+            }
+          ]
+        },
+        {
+          "word": "reprove",
+          "partOfSpeech": [
+            "Morally"
+          ],
+          "hindiMeaning": [
+            "ध स्मिक",
+            "न्य यसांगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reprove.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reprove था।"
+            }
+          ]
+        },
+        {
+          "word": "honest",
+          "partOfSpeech": [
+            "Morally"
+          ],
+          "hindiMeaning": [
+            "ध स्मिक",
+            "न्य यसांगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was honest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण honest था।"
+            }
+          ]
+        },
+        {
+          "word": "ethical",
+          "partOfSpeech": [
+            "Morally"
+          ],
+          "hindiMeaning": [
+            "ध स्मिक",
+            "न्य यसांगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ethical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ethical था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2052,
+      "word": "prudish",
+      "partOfSpeech": [
+        "Excessively"
+      ],
+      "hindiMeaning": [
+        "अनि-संकोची",
+        "लज्जाशील"
+      ],
+      "englishDefinition": "concerned with propriety or modesty (often overly",
+      "pronunciation": {
+        "ipa": "/prudish/",
+        "simple": "PRU-dish"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to prudish the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अनि-संकोची करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "reprove",
+          "partOfSpeech": [
+            "Excessively"
+          ],
+          "hindiMeaning": [
+            "अनि-संकोची",
+            "लज्जाशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reprove.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reprove था।"
+            }
+          ]
+        },
+        {
+          "word": "honest",
+          "partOfSpeech": [
+            "Excessively"
+          ],
+          "hindiMeaning": [
+            "अनि-संकोची",
+            "लज्जाशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was honest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण honest था।"
+            }
+          ]
+        },
+        {
+          "word": "ethical",
+          "partOfSpeech": [
+            "Excessively"
+          ],
+          "hindiMeaning": [
+            "अनि-संकोची",
+            "लज्जाशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ethical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ethical था।"
+            }
+          ]
+        },
+        {
+          "word": "righteous",
+          "partOfSpeech": [
+            "Excessively"
+          ],
+          "hindiMeaning": [
+            "अनि-संकोची",
+            "लज्जाशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was righteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण righteous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2053,
+      "word": "priggish",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "अहंकारी",
+        "स्व-धमी"
+      ],
+      "englishDefinition": "Self-righteously moralistic and superior (strongly negative",
+      "pronunciation": {
+        "ipa": "/priggish/",
+        "simple": "PRIG-gish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably priggish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अहंकारी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "honest",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "अहंकारी",
+            "स्व-धमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was honest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण honest था।"
+            }
+          ]
+        },
+        {
+          "word": "ethical",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "अहंकारी",
+            "स्व-धमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ethical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ethical था।"
+            }
+          ]
+        },
+        {
+          "word": "righteous",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "अहंकारी",
+            "स्व-धमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was righteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण righteous था।"
+            }
+          ]
+        },
+        {
+          "word": "prudish",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "अहंकारी",
+            "स्व-धमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prudish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prudish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2054,
+      "word": "stupid",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "मूखय",
+        "बुनद्धहीि"
+      ],
+      "englishDefinition": "or showing a great lack of intelligence or common sense.",
+      "pronunciation": {
+        "ipa": "/stupid/",
+        "simple": "STU-pid"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to stupid the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को मूखय करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ethical",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ethical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ethical था।"
+            }
+          ]
+        },
+        {
+          "word": "righteous",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was righteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण righteous था।"
+            }
+          ]
+        },
+        {
+          "word": "prudish",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prudish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prudish था।"
+            }
+          ]
+        },
+        {
+          "word": "priggish",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "मूखय",
+            "बुनद्धहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was priggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण priggish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2055,
+      "word": "silly",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "िादाि",
+        "मूखयिापूणय"
+      ],
+      "englishDefinition": "or showing a lack of common sense or judgment; foolish.",
+      "pronunciation": {
+        "ipa": "/silly/",
+        "simple": "SI-lly"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to silly the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को िादाि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "righteous",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "िादाि",
+            "मूखयिापूणय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was righteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण righteous था।"
+            }
+          ]
+        },
+        {
+          "word": "prudish",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "िादाि",
+            "मूखयिापूणय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prudish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prudish था।"
+            }
+          ]
+        },
+        {
+          "word": "priggish",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "िादाि",
+            "मूखयिापूणय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was priggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण priggish था।"
+            }
+          ]
+        },
+        {
+          "word": "stupid",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "िादाि",
+            "मूखयिापूणय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stupid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stupid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2056,
+      "word": "foolish",
+      "partOfSpeech": [
+        "Lacking"
+      ],
+      "hindiMeaning": [
+        "मूखि",
+        "स्र्वर्वेकहीि"
+      ],
+      "englishDefinition": "good sense or judgment; unwise. 90",
+      "pronunciation": {
+        "ipa": "/foolish/",
+        "simple": "FOO-lish"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of foolish in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूखि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "prudish",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "स्र्वर्वेकहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prudish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prudish था।"
+            }
+          ]
+        },
+        {
+          "word": "priggish",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "स्र्वर्वेकहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was priggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण priggish था।"
+            }
+          ]
+        },
+        {
+          "word": "stupid",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "स्र्वर्वेकहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stupid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stupid था।"
+            }
+          ]
+        },
+        {
+          "word": "silly",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "मूखि",
+            "स्र्वर्वेकहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was silly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण silly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2057,
+      "word": "dumb",
+      "partOfSpeech": [
+        "Temporarily"
+      ],
+      "hindiMeaning": [
+        "गूांग  (श स्ब्दक)",
+        "मूखि"
+      ],
+      "englishDefinition": "speechless; or, stupid. 93",
+      "pronunciation": {
+        "ipa": "/dumb/",
+        "simple": "DUMB"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of dumb in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गूांग  (श स्ब्दक) के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "priggish",
+          "partOfSpeech": [
+            "Temporarily"
+          ],
+          "hindiMeaning": [
+            "गूांग  (श स्ब्दक)",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was priggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण priggish था।"
+            }
+          ]
+        },
+        {
+          "word": "stupid",
+          "partOfSpeech": [
+            "Temporarily"
+          ],
+          "hindiMeaning": [
+            "गूांग  (श स्ब्दक)",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stupid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stupid था।"
+            }
+          ]
+        },
+        {
+          "word": "silly",
+          "partOfSpeech": [
+            "Temporarily"
+          ],
+          "hindiMeaning": [
+            "गूांग  (श स्ब्दक)",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was silly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण silly था।"
+            }
+          ]
+        },
+        {
+          "word": "foolish",
+          "partOfSpeech": [
+            "Temporarily"
+          ],
+          "hindiMeaning": [
+            "गूांग  (श स्ब्दक)",
+            "मूखि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was foolish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण foolish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2058,
+      "word": "inane",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "सारहीि",
+        "बेिुका"
+      ],
+      "englishDefinition": "Silly; senseless; lacking sense or substance. 94",
+      "pronunciation": {
+        "ipa": "/inane/",
+        "simple": "IN-ane"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of inane in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सारहीि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stupid",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "सारहीि",
+            "बेिुका"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stupid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stupid था।"
+            }
+          ]
+        },
+        {
+          "word": "silly",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "सारहीि",
+            "बेिुका"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was silly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण silly था।"
+            }
+          ]
+        },
+        {
+          "word": "foolish",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "सारहीि",
+            "बेिुका"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was foolish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण foolish था।"
+            }
+          ]
+        },
+        {
+          "word": "dumb",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "सारहीि",
+            "बेिुका"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dumb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dumb था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2059,
+      "word": "idiotic",
+      "partOfSpeech": [
+        "Relating"
+      ],
+      "hindiMeaning": [
+        "मह मूखि",
+        "बेर्वकू फ"
+      ],
+      "englishDefinition": "to an idiot; extremely stupid or foolish. 95",
+      "pronunciation": {
+        "ipa": "/idiotic/",
+        "simple": "IDI-otic"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of idiotic in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मह मूखि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "silly",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मह मूखि",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was silly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण silly था।"
+            }
+          ]
+        },
+        {
+          "word": "foolish",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मह मूखि",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was foolish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण foolish था।"
+            }
+          ]
+        },
+        {
+          "word": "dumb",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मह मूखि",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dumb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dumb था।"
+            }
+          ]
+        },
+        {
+          "word": "inane",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मह मूखि",
+            "बेर्वकू फ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inane था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2060,
+      "word": "doltish",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "जड़बुस्द्",
+        "मांद"
+      ],
+      "englishDefinition": "Stupid; dull-witted. 96",
+      "pronunciation": {
+        "ipa": "/doltish/",
+        "simple": "DOL-tish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably doltish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जड़बुस्द् थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "foolish",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "जड़बुस्द्",
+            "मांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was foolish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण foolish था।"
+            }
+          ]
+        },
+        {
+          "word": "dumb",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "जड़बुस्द्",
+            "मांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dumb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dumb था।"
+            }
+          ]
+        },
+        {
+          "word": "inane",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "जड़बुस्द्",
+            "मांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inane था।"
+            }
+          ]
+        },
+        {
+          "word": "idiotic",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "जड़बुस्द्",
+            "मांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idiotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idiotic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2061,
+      "word": "puerile",
+      "partOfSpeech": [
+        "Childishly"
+      ],
+      "hindiMeaning": [
+        "बिक ि",
+        "तुच्ि"
+      ],
+      "englishDefinition": "silly and trivial; immature. 97",
+      "pronunciation": {
+        "ipa": "/puerile/",
+        "simple": "PUE-rile"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of puerile in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बिक ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dumb",
+          "partOfSpeech": [
+            "Childishly"
+          ],
+          "hindiMeaning": [
+            "बिक ि",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dumb.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dumb था।"
+            }
+          ]
+        },
+        {
+          "word": "inane",
+          "partOfSpeech": [
+            "Childishly"
+          ],
+          "hindiMeaning": [
+            "बिक ि",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inane था।"
+            }
+          ]
+        },
+        {
+          "word": "idiotic",
+          "partOfSpeech": [
+            "Childishly"
+          ],
+          "hindiMeaning": [
+            "बिक ि",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idiotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idiotic था।"
+            }
+          ]
+        },
+        {
+          "word": "doltish",
+          "partOfSpeech": [
+            "Childishly"
+          ],
+          "hindiMeaning": [
+            "बिक ि",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doltish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doltish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2062,
+      "word": "simpleton",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "सीधा-सादा मूखय",
+        "भोला-भाला व्यनक्त"
+      ],
+      "englishDefinition": "person lacking common sense; a fool. 100",
+      "pronunciation": {
+        "ipa": "/simpleton/",
+        "simple": "SIMP-leton"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of simpleton in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सीधा-सादा मूखय के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inane",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सीधा-सादा मूखय",
+            "भोला-भाला व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inane.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inane था।"
+            }
+          ]
+        },
+        {
+          "word": "idiotic",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सीधा-सादा मूखय",
+            "भोला-भाला व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idiotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idiotic था।"
+            }
+          ]
+        },
+        {
+          "word": "doltish",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सीधा-सादा मूखय",
+            "भोला-भाला व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doltish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doltish था।"
+            }
+          ]
+        },
+        {
+          "word": "puerile",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सीधा-सादा मूखय",
+            "भोला-भाला व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was puerile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण puerile था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2063,
+      "word": "jerk",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "घस्टय  आदमी",
+        "िीि व्यस्ि"
+      ],
+      "englishDefinition": "contemptibly foolish or obnoxious person. 101",
+      "pronunciation": {
+        "ipa": "/jerk/",
+        "simple": "JERK"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of jerk in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में घस्टय  आदमी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "idiotic",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "घस्टय  आदमी",
+            "िीि व्यस्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idiotic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idiotic था।"
+            }
+          ]
+        },
+        {
+          "word": "doltish",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "घस्टय  आदमी",
+            "िीि व्यस्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doltish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doltish था।"
+            }
+          ]
+        },
+        {
+          "word": "puerile",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "घस्टय  आदमी",
+            "िीि व्यस्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was puerile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण puerile था।"
+            }
+          ]
+        },
+        {
+          "word": "simpleton",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "घस्टय  आदमी",
+            "िीि व्यस्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simpleton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simpleton था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2064,
+      "word": "nerd",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "नकिाबी कीड़ा",
+        "अजीब व्यनक्त"
+      ],
+      "englishDefinition": "foolish/contemptible person; or, an unstylish, studious person.",
+      "pronunciation": {
+        "ipa": "/nerd/",
+        "simple": "NERD"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of nerd in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में नकिाबी कीड़ा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "doltish",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "नकिाबी कीड़ा",
+            "अजीब व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doltish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doltish था।"
+            }
+          ]
+        },
+        {
+          "word": "puerile",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "नकिाबी कीड़ा",
+            "अजीब व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was puerile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण puerile था।"
+            }
+          ]
+        },
+        {
+          "word": "simpleton",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "नकिाबी कीड़ा",
+            "अजीब व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simpleton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simpleton था।"
+            }
+          ]
+        },
+        {
+          "word": "jerk",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "नकिाबी कीड़ा",
+            "अजीब व्यनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jerk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jerk था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2065,
+      "word": "recreate",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पुिः सृस्जत करि",
+        "दोब र  बि ि"
+      ],
+      "englishDefinition": "create again or anew; to make or do something again. 105",
+      "pronunciation": {
+        "ipa": "/recreate/",
+        "simple": "RECR-eate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of recreate in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुिः सृस्जत करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "puerile",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिः सृस्जत करि",
+            "दोब र  बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was puerile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण puerile था।"
+            }
+          ]
+        },
+        {
+          "word": "simpleton",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिः सृस्जत करि",
+            "दोब र  बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simpleton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simpleton था।"
+            }
+          ]
+        },
+        {
+          "word": "jerk",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिः सृस्जत करि",
+            "दोब र  बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jerk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jerk था।"
+            }
+          ]
+        },
+        {
+          "word": "nerd",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिः सृस्जत करि",
+            "दोब र  बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nerd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nerd था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2066,
+      "word": "reproduce",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "प्रजिि करिा",
+        "प्रनिकृ नि बिािा"
+      ],
+      "englishDefinition": "produce a copy or representation of; to generate offspring; to",
+      "pronunciation": {
+        "ipa": "/reproduce/",
+        "simple": "REPR-oduce"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of reproduce in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रजिि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "simpleton",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रजिि करिा",
+            "प्रनिकृ नि बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was simpleton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण simpleton था।"
+            }
+          ]
+        },
+        {
+          "word": "jerk",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रजिि करिा",
+            "प्रनिकृ नि बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jerk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jerk था।"
+            }
+          ]
+        },
+        {
+          "word": "nerd",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रजिि करिा",
+            "प्रनिकृ नि बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nerd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nerd था।"
+            }
+          ]
+        },
+        {
+          "word": "recreate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रजिि करिा",
+            "प्रनिकृ नि बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recreate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recreate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2067,
+      "word": "rebuild",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पुिनियमायण करिा",
+        "दोबारा बिािा"
+      ],
+      "englishDefinition": "build (something) again after it has been damaged or",
+      "pronunciation": {
+        "ipa": "/rebuild/",
+        "simple": "REB-uild"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of rebuild in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुिनियमायण करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "jerk",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिनियमायण करिा",
+            "दोबारा बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was jerk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण jerk था।"
+            }
+          ]
+        },
+        {
+          "word": "nerd",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिनियमायण करिा",
+            "दोबारा बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nerd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nerd था।"
+            }
+          ]
+        },
+        {
+          "word": "recreate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिनियमायण करिा",
+            "दोबारा बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recreate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recreate था।"
+            }
+          ]
+        },
+        {
+          "word": "reproduce",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिनियमायण करिा",
+            "दोबारा बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproduce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproduce था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2068,
+      "word": "renew",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "िर्वीिीकृ त करि",
+        "त ज़  करि"
+      ],
+      "englishDefinition": "resume (an activity); to re-establish; to extend validity. 109",
+      "pronunciation": {
+        "ipa": "/renew/",
+        "simple": "RE-new"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of renew in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िर्वीिीकृ त करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "nerd",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "िर्वीिीकृ त करि",
+            "त ज़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nerd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nerd था।"
+            }
+          ]
+        },
+        {
+          "word": "recreate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "िर्वीिीकृ त करि",
+            "त ज़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recreate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recreate था।"
+            }
+          ]
+        },
+        {
+          "word": "reproduce",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "िर्वीिीकृ त करि",
+            "त ज़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproduce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproduce था।"
+            }
+          ]
+        },
+        {
+          "word": "rebuild",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "िर्वीिीकृ त करि",
+            "त ज़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rebuild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rebuild था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2069,
+      "word": "resuscitate",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पुिजीवि देिा",
+        "बेहोशी से उठािा"
+      ],
+      "englishDefinition": "revive from unconsciousness or apparent death; to make",
+      "pronunciation": {
+        "ipa": "/resuscitate/",
+        "simple": "RESUS-citate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of resuscitate in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुिजीवि देिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "recreate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीवि देिा",
+            "बेहोशी से उठािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recreate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recreate था।"
+            }
+          ]
+        },
+        {
+          "word": "reproduce",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीवि देिा",
+            "बेहोशी से उठािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproduce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproduce था।"
+            }
+          ]
+        },
+        {
+          "word": "rebuild",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीवि देिा",
+            "बेहोशी से उठािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rebuild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rebuild था।"
+            }
+          ]
+        },
+        {
+          "word": "renew",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीवि देिा",
+            "बेहोशी से उठािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was renew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण renew था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2070,
+      "word": "resurrect",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पुिजीनवि करिा",
+        "स्मृनि िाज़ा करिा"
+      ],
+      "englishDefinition": "bring back to life; to revive the practice/memory of",
+      "pronunciation": {
+        "ipa": "/resurrect/",
+        "simple": "RESU-rrect"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of resurrect in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुिजीनवि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "reproduce",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीनवि करिा",
+            "स्मृनि िाज़ा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproduce.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproduce था।"
+            }
+          ]
+        },
+        {
+          "word": "rebuild",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीनवि करिा",
+            "स्मृनि िाज़ा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rebuild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rebuild था।"
+            }
+          ]
+        },
+        {
+          "word": "renew",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीनवि करिा",
+            "स्मृनि िाज़ा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was renew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण renew था।"
+            }
+          ]
+        },
+        {
+          "word": "resuscitate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुिजीनवि करिा",
+            "स्मृनि िाज़ा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resuscitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resuscitate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2071,
+      "word": "elementary",
+      "partOfSpeech": [
+        "Relating"
+      ],
+      "hindiMeaning": [
+        "मूलभूि",
+        "प्रारंनभक",
+        "मौनलक"
+      ],
+      "englishDefinition": "to the basic elements or principles; rudimentary; basic.",
+      "pronunciation": {
+        "ipa": "/elementary/",
+        "simple": "ELEME-ntary"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of elementary in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मूलभूि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rebuild",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मूलभूि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rebuild.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rebuild था।"
+            }
+          ]
+        },
+        {
+          "word": "renew",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मूलभूि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was renew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण renew था।"
+            }
+          ]
+        },
+        {
+          "word": "resuscitate",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मूलभूि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resuscitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resuscitate था।"
+            }
+          ]
+        },
+        {
+          "word": "resurrect",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "मूलभूि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resurrect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resurrect था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2072,
+      "word": "nascent",
+      "partOfSpeech": [
+        "Just"
+      ],
+      "hindiMeaning": [
+        "िवजाि",
+        "प्रारंनभक"
+      ],
+      "englishDefinition": "coming into existence and beginning to display signs of",
+      "pronunciation": {
+        "ipa": "/nascent/",
+        "simple": "NAS-cent"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of nascent in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िवजाि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "renew",
+          "partOfSpeech": [
+            "Just"
+          ],
+          "hindiMeaning": [
+            "िवजाि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was renew.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण renew था।"
+            }
+          ]
+        },
+        {
+          "word": "resuscitate",
+          "partOfSpeech": [
+            "Just"
+          ],
+          "hindiMeaning": [
+            "िवजाि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resuscitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resuscitate था।"
+            }
+          ]
+        },
+        {
+          "word": "resurrect",
+          "partOfSpeech": [
+            "Just"
+          ],
+          "hindiMeaning": [
+            "िवजाि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resurrect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resurrect था।"
+            }
+          ]
+        },
+        {
+          "word": "elementary",
+          "partOfSpeech": [
+            "Just"
+          ],
+          "hindiMeaning": [
+            "िवजाि",
+            "प्रारंनभक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elementary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elementary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2073,
+      "word": "beginning",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "प्र रांभ",
+        "शुरुआत"
+      ],
+      "englishDefinition": "point in time or space at which something starts. 114",
+      "pronunciation": {
+        "ipa": "/beginning/",
+        "simple": "BEGI-nning"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of beginning in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्र रांभ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "resuscitate",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्र रांभ",
+            "शुरुआत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resuscitate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resuscitate था।"
+            }
+          ]
+        },
+        {
+          "word": "resurrect",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्र रांभ",
+            "शुरुआत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resurrect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resurrect था।"
+            }
+          ]
+        },
+        {
+          "word": "elementary",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्र रांभ",
+            "शुरुआत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elementary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elementary था।"
+            }
+          ]
+        },
+        {
+          "word": "nascent",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्र रांभ",
+            "शुरुआत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nascent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nascent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2074,
+      "word": "developing",
+      "partOfSpeech": [
+        "Growing"
+      ],
+      "hindiMeaning": [
+        "स्र्वक सशील",
+        "उभरत  हुआ"
+      ],
+      "englishDefinition": "or becoming more mature, advanced, or elaborate. 115",
+      "pronunciation": {
+        "ipa": "/developing/",
+        "simple": "DEVEL-oping"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of developing in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्र्वक सशील के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "resurrect",
+          "partOfSpeech": [
+            "Growing"
+          ],
+          "hindiMeaning": [
+            "स्र्वक सशील",
+            "उभरत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was resurrect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण resurrect था।"
+            }
+          ]
+        },
+        {
+          "word": "elementary",
+          "partOfSpeech": [
+            "Growing"
+          ],
+          "hindiMeaning": [
+            "स्र्वक सशील",
+            "उभरत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elementary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elementary था।"
+            }
+          ]
+        },
+        {
+          "word": "nascent",
+          "partOfSpeech": [
+            "Growing"
+          ],
+          "hindiMeaning": [
+            "स्र्वक सशील",
+            "उभरत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nascent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nascent था।"
+            }
+          ]
+        },
+        {
+          "word": "beginning",
+          "partOfSpeech": [
+            "Growing"
+          ],
+          "hindiMeaning": [
+            "स्र्वक सशील",
+            "उभरत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beginning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beginning था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2075,
+      "word": "precursive",
+      "partOfSpeech": [
+        "Indicating"
+      ],
+      "hindiMeaning": [
+        "पूर्विग मी",
+        "सूिक"
+      ],
+      "englishDefinition": "an approach; preliminary or introductory. 116",
+      "pronunciation": {
+        "ipa": "/precursive/",
+        "simple": "PRECU-rsive"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of precursive in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पूर्विग मी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "elementary",
+          "partOfSpeech": [
+            "Indicating"
+          ],
+          "hindiMeaning": [
+            "पूर्विग मी",
+            "सूिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was elementary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण elementary था।"
+            }
+          ]
+        },
+        {
+          "word": "nascent",
+          "partOfSpeech": [
+            "Indicating"
+          ],
+          "hindiMeaning": [
+            "पूर्विग मी",
+            "सूिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nascent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nascent था।"
+            }
+          ]
+        },
+        {
+          "word": "beginning",
+          "partOfSpeech": [
+            "Indicating"
+          ],
+          "hindiMeaning": [
+            "पूर्विग मी",
+            "सूिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beginning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beginning था।"
+            }
+          ]
+        },
+        {
+          "word": "developing",
+          "partOfSpeech": [
+            "Indicating"
+          ],
+          "hindiMeaning": [
+            "पूर्विग मी",
+            "सूिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was developing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण developing था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

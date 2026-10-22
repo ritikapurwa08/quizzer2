@@ -1691,3 +1691,494 @@ export function getMergedCommonTopics(): MergedCommonTopic[] {
 
   return results;
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 3. RPSC Senior Teacher (2nd Grade) Paper-II: Subject – English Syllabus
+// ─────────────────────────────────────────────────────────────────────────────
+export const SENIOR_TEACHER_ENGLISH_SYLLABUS: SyllabusTopicItem[] = [
+  // PART – I: Secondary and Senior Secondary Standard (Grammar and Usage)
+  {
+    id: "st-eng-pos-nouns",
+    titleHindi: "शब्द भेद: संज्ञा (Parts of Speech – Nouns)",
+    titleEnglish: "Parts of Speech – Nouns",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "1. Parts of Speech",
+    subTopics: [
+      { id: "sub-pos-noun-1", titleHindi: "संज्ञा के प्रकार (Proper, Common, Collective, Abstract, Material)", titleEnglish: "Classification of Nouns" },
+      { id: "sub-pos-noun-2", titleHindi: "एकवचन एवं बहुवचन के नियम (Singular & Plural Rules)", titleEnglish: "Number Rules & Irregular Plurals" },
+      { id: "sub-pos-noun-3", titleHindi: "लिंग एवं कारक (Gender & Possessive Cases)", titleEnglish: "Gender & Possessive/Genitive Case" },
+      { id: "sub-pos-noun-4", titleHindi: "गणना योग्य एवं अगणनीय संज्ञाएँ (Countable vs Uncountable)", titleEnglish: "Countable vs Uncountable Nouns" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-pos-verbs",
+    titleHindi: "शब्द भेद: क्रिया (Parts of Speech – Verbs)",
+    titleEnglish: "Parts of Speech – Verbs",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "1. Parts of Speech",
+    subTopics: [
+      { id: "sub-pos-verb-1", titleHindi: "सकर्मक एवं अकर्मक क्रियाएँ (Transitive & Intransitive)", titleEnglish: "Transitive & Intransitive Verbs" },
+      { id: "sub-pos-verb-2", titleHindi: "सीमित एवं असीमित क्रियाएँ (Finite & Non-Finite Verbs)", titleEnglish: "Finite & Non-Finite Verbs" },
+      { id: "sub-pos-verb-3", titleHindi: "कृदंत, जेरंड एवं इन्फिनिटिव (Gerunds, Participles, Infinitives)", titleEnglish: "Gerunds, Participles & Infinitives" },
+      { id: "sub-pos-verb-4", titleHindi: "सहायक एवं संयोजक क्रियाएँ (Linking & Auxiliary Verbs)", titleEnglish: "Linking & Auxiliary Verbs" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-pos-adj",
+    titleHindi: "शब्द भेद: विशेषण (Parts of Speech – Adjectives)",
+    titleEnglish: "Parts of Speech – Adjectives",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "1. Parts of Speech",
+    subTopics: [
+      { id: "sub-pos-adj-1", titleHindi: "विशेषण के प्रकार (Qualitative, Quantitative, Demonstrative)", titleEnglish: "Kinds of Adjectives" },
+      { id: "sub-pos-adj-2", titleHindi: "स्थान एवं क्रम (Order of Adjectives in Sentences)", titleEnglish: "Order of Adjectives" },
+      { id: "sub-pos-adj-3", titleHindi: "विशेषण बनाम क्रियाविशेषण (Adjectives vs Adverbs Distinction)", titleEnglish: "Adjectives vs Adverbs Confusion" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-pos-adv",
+    titleHindi: "शब्द भेद: क्रियाविशेषण (Parts of Speech – Adverbs)",
+    titleEnglish: "Parts of Speech – Adverbs",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "1. Parts of Speech",
+    subTopics: [
+      { id: "sub-pos-adv-1", titleHindi: "क्रियाविशेषण के प्रकार (Manner, Place, Time, Degree, Frequency)", titleEnglish: "Types of Adverbs" },
+      { id: "sub-pos-adv-2", titleHindi: "वाक्य में स्थिति एवं व्युत्क्रम (Position & Inversion of Adverbs)", titleEnglish: "Position and Inversion of Adverbs" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-articles-determiners",
+    titleHindi: "उपपद एवं निर्धारक (Articles and Determiners)",
+    titleEnglish: "Use of Articles and Determiners",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "2. Articles and Determiners",
+    subTopics: [
+      { id: "sub-art-1", titleHindi: "A, An, The के नियम एवं अपवाद (Rules of A, An, The)", titleEnglish: "Definite & Indefinite Articles" },
+      { id: "sub-art-2", titleHindi: "आर्टिकल का लोप (Omission of Articles / Zero Article)", titleEnglish: "Omission of Articles" },
+      { id: "sub-art-3", titleHindi: "मात्रा सूचक (Some, Any, Much, Many, Little, Few)", titleEnglish: "Quantifiers and Determiners" }
+    ],
+    isCommon: true,
+    commonKey: "eng-articles-determiners",
+    commonNotes: "CET एवं LDC दोनों में भी प्रमुखता से पूछा जाता है।",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-tenses",
+    titleHindi: "काल एवं अनुक्रम (Tenses & Sequence of Tenses)",
+    titleEnglish: "Tenses & Sequence of Tenses",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "3. Tenses",
+    subTopics: [
+      { id: "sub-tense-1", titleHindi: "वर्तमान, भूत एवं भविष्य काल (12 Tense Forms & Time Markers)", titleEnglish: "12 Tense Forms & Temporal Adverbials" },
+      { id: "sub-tense-2", titleHindi: "काल का अनुक्रम (Sequence of Tenses Rules)", titleEnglish: "Sequence of Tenses" },
+      { id: "sub-tense-3", titleHindi: "शर्त वाले वाक्य (Conditional Sentences Type 0, 1, 2, 3)", titleEnglish: "Conditional Clauses" }
+    ],
+    isCommon: true,
+    commonKey: "eng-tenses",
+    commonNotes: "CET में भी शामिल है।",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-prepositions",
+    titleHindi: "संबंधबोधक अव्यय (Use of Prepositions)",
+    titleEnglish: "Use of Prepositions",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "4. Prepositions",
+    subTopics: [
+      { id: "sub-prep-1", titleHindi: "स्थान, समय एवं दिशा सूचक (Prepositions of Place, Time, Direction)", titleEnglish: "Prepositions of Place, Time & Direction" },
+      { id: "sub-prep-2", titleHindi: "निश्चित संबंधबोधक (Fixed Prepositions with Verbs, Adjectives & Nouns)", titleEnglish: "Fixed Prepositions" }
+    ],
+    isCommon: true,
+    commonKey: "eng-prepositions",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-modals",
+    titleHindi: "सहायक क्रियाएँ (Modal Auxiliaries)",
+    titleEnglish: "Modal Auxiliaries",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "5. Modal Auxiliaries",
+    subTopics: [
+      { id: "sub-mod-1", titleHindi: "Can, Could, May, Might, Must, Ought to", titleEnglish: "Ability, Permission, Possibility & Obligation" },
+      { id: "sub-mod-2", titleHindi: "Shall, Should, Will, Would, Need, Dare, Used to", titleEnglish: "Conditionals, Habits & Semi-Modals" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-degrees",
+    titleHindi: "विशेषण की तुलनात्मक अवस्थाएँ (Degrees of Adjectives)",
+    titleEnglish: "Degrees of Adjectives – Comparative & Superlative",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "6. Degrees of Adjectives",
+    subTopics: [
+      { id: "sub-deg-1", titleHindi: "Positive, Comparative, Superlative रूपांतरण", titleEnglish: "Interchange of Degrees of Comparison" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-subordination-coordination",
+    titleHindi: "संयुक्त एवं मिश्रित वाक्य (Subordination and Coordination)",
+    titleEnglish: "Subordination and Coordination – Compound and Complex Sentences",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "7. Subordination and Coordination",
+    subTopics: [
+      { id: "sub-subord-1", titleHindi: "समानार्थी एवं अधीनस्थ संयोजक (Coordinating & Subordinating Conjunctions)", titleEnglish: "Conjunctions" },
+      { id: "sub-subord-2", titleHindi: "संयुक्त एवं मिश्रित वाक्य (Compound & Complex Sentences)", titleEnglish: "Compound and Complex Sentences" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-trans-voice",
+    titleHindi: "वाच्य परिवर्तन (Transformation: Active and Passive Voice)",
+    titleEnglish: "Transformation of Sentences – Active and Passive Voice",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "8. Transformation of Sentences",
+    subTopics: [
+      { id: "sub-voice-1", titleHindi: "सभी काल एवं आज्ञासूचक वाक्य (Tenses & Imperative Passives)", titleEnglish: "Tenses & Imperative Passives" },
+      { id: "sub-voice-2", titleHindi: "द्विकर्मक एवं पूर्वनिर्धारित प्रिपोजिशन (Double Objects & Prepositional Verbs)", titleEnglish: "Double Objects & Impersonal Passives" }
+    ],
+    isCommon: true,
+    commonKey: "eng-voice",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-trans-narration",
+    titleHindi: "प्रत्यक्ष एवं अप्रत्यक्ष कथन (Direct and Indirect Speech)",
+    titleEnglish: "Transformation of Sentences – Direct and Indirect Speech",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "8. Transformation of Sentences",
+    subTopics: [
+      { id: "sub-nar-1", titleHindi: "साधारण एवं प्रश्नवाचक वाक्य (Assertive & Interrogative Sentences)", titleEnglish: "Assertive & Interrogative Sentences" },
+      { id: "sub-nar-2", titleHindi: "आज्ञासूचक एवं विस्मयादिबोधक वाक्य (Imperative & Exclamatory Sentences)", titleEnglish: "Imperative, Optative & Exclamatory Sentences" }
+    ],
+    isCommon: true,
+    commonKey: "eng-narration",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-trans-types",
+    titleHindi: "सकारात्मक, नकारात्मक, प्रश्नवाचक एवं आज्ञासूचक रूपांतरण",
+    titleEnglish: "Transformation – Affirmative, Negative, Interrogative & Imperative",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "8. Transformation of Sentences",
+    subTopics: [
+      { id: "sub-trans-types-1", titleHindi: "अर्थ बदले बिना वाक्य रूपांतरण (Transformation without changing meaning)", titleEnglish: "Interchange of Sentence Types" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-phrasal-verbs",
+    titleHindi: "संयुक्त क्रियाएँ (Phrasal Verbs)",
+    titleEnglish: "Phrasal Verbs",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "9. Phrasal Verbs",
+    subTopics: [
+      { id: "sub-pv-1", titleHindi: "Break, Bring, Call, Come, Get, Give, Go, Look, Make, Put, Run, Set, Take, Turn", titleEnglish: "High Frequency Exam Phrasal Verbs" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-idioms-proverbs",
+    titleHindi: "कहावतें एवं मुहावरे (Proverbs and Idiomatic Expressions)",
+    titleEnglish: "Proverbs and Idiomatic Expressions",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "10. Proverbs and Idiomatic Expressions",
+    subTopics: [
+      { id: "sub-idm-1", titleHindi: "परीक्षा-उपयोगी मुहावरे (Exam High Yield Idioms)", titleEnglish: "Idiomatic Expressions" },
+      { id: "sub-idm-2", titleHindi: "प्रसिद्ध अंग्रेजी कहावतें (Famous English Proverbs)", titleEnglish: "Proverbs & Meanings" }
+    ],
+    isCommon: true,
+    commonKey: "eng-idioms",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-confusable-words",
+    titleHindi: "भ्रामक एवं अशुद्ध वर्तनी वाले शब्द (Words Often Misspelt and Confused)",
+    titleEnglish: "Words Often Misspelt and Confused",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "11. Words Often Misspelt and Confused",
+    subTopics: [
+      { id: "sub-sp-1", titleHindi: "समान ध्वनि वाले भ्रामक शब्द (Homophones & Confusable Pairs)", titleEnglish: "Homophones and Paronyms" },
+      { id: "sub-sp-2", titleHindi: "वर्तनी शुद्धि नियम (Common Spelling Traps & Rules)", titleEnglish: "Spelling Correction" }
+    ],
+    isCommon: true,
+    commonKey: "eng-confusable",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-one-word",
+    titleHindi: "वाक्यांश के लिए एक शब्द (One Word Substitution)",
+    titleEnglish: "One Word Substitution",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "12. One Word Substitution",
+    subTopics: [
+      { id: "sub-ows-1", titleHindi: "परीक्षा-आधारित एक शब्द (High Yield One Word Substitutions)", titleEnglish: "One Word Substitutions" }
+    ],
+    isCommon: true,
+    commonKey: "eng-one-word",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-syn-ant",
+    titleHindi: "समानार्थी एवं विलोम शब्द (Synonyms and Antonyms)",
+    titleEnglish: "Synonyms and Antonyms (Master Vocabulary)",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "13. Synonyms and Antonyms",
+    subTopics: [
+      { id: "sub-syn-1", titleHindi: "2500 मास्टर वोकैब सेट्स (2500 Master Vocabulary Sets 01-104)", titleEnglish: "2500 Master Vocab Bank" },
+      { id: "sub-syn-2", titleHindi: "समानार्थी शब्द (High Yield Synonyms with Hindi Meanings)", titleEnglish: "Synonyms Practice" },
+      { id: "sub-syn-3", titleHindi: "विलोम शब्द (High Yield Antonyms with Context)", titleEnglish: "Antonyms Practice" }
+    ],
+    isCommon: true,
+    commonKey: "eng-syn-ant",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-phonetics",
+    titleHindi: "ध्वन्यात्मक प्रतिलेखन (Phonetic Transcription)",
+    titleEnglish: "Phonetic Transcription & Phonology",
+    section: "Part – I: Secondary & Senior Secondary Standard",
+    subSection: "14. Phonetic Transcription",
+    subTopics: [
+      { id: "sub-ph-1", titleHindi: "44 ध्वनियाँ: 12 शुद्ध स्वर एवं 8 द्विस्वर (20 Vowels & Diphthongs)", titleEnglish: "Vowels & Diphthongs IPA Symbols" },
+      { id: "sub-ph-2", titleHindi: "24 व्यंजन ध्वनियाँ (24 Consonant Sounds)", titleEnglish: "Consonants IPA Symbols" },
+      { id: "sub-ph-3", titleHindi: "शब्दाघात एवं उच्चारण (Word Stress & Primary Accent)", titleEnglish: "Word Stress & Syllable Division" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+
+  // PART – II: Graduation Standard (Grammar, Usage, and Literature)
+  {
+    id: "st-eng-grad-patterns",
+    titleHindi: "मूल वाक्य संरचना (Basic Sentence Patterns)",
+    titleEnglish: "Basic Sentence Patterns (SV, SVO, SVOO, SVC, SVOA, SVOC)",
+    section: "Part – II: Graduation Standard",
+    subSection: "2. Grammar, Usage, and Literature",
+    subTopics: [
+      { id: "sub-pat-1", titleHindi: "वाक्य पैटर्न की पहचान (SV, SVO, SVOO, SVC, SVOA, SVOC, SVA)", titleEnglish: "7 Kernel Sentence Patterns" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-svoca",
+    titleHindi: "उपवाक्य विश्लेषण: SVOCA (Clause Analysis)",
+    titleEnglish: "Clause Analysis (in terms of SVOCA)",
+    section: "Part – II: Graduation Standard",
+    subSection: "2. Grammar, Usage, and Literature",
+    subTopics: [
+      { id: "sub-svoca-1", titleHindi: "Subject, Verb, Object, Complement, Adjunct की पहचान", titleEnglish: "SVOCA Elements Identification" },
+      { id: "sub-svoca-2", titleHindi: "संज्ञा, विशेषण एवं क्रियाविशेषण उपवाक्य (Noun, Relative, Adverb Clauses)", titleEnglish: "Clause Classification" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-rc",
+    titleHindi: "अपठित गद्यांश एवं शब्दावली (Reading Comprehension & Vocabulary)",
+    titleEnglish: "Reading Comprehension and Vocabulary",
+    section: "Part – II: Graduation Standard",
+    subSection: "2. Grammar, Usage, and Literature",
+    subTopics: [
+      { id: "sub-rc-1", titleHindi: "गद्यांश आधारित तथ्य एवं निष्कर्ष (Factual & Inferential Questions)", titleEnglish: "Unseen Passages" },
+      { id: "sub-rc-2", titleHindi: "संदर्भगत शब्दावली (Contextual Vocabulary & Tone)", titleEnglish: "Contextual Vocabulary" }
+    ],
+    isCommon: true,
+    commonKey: "eng-rc",
+    examScope: "BOTH",
+  },
+  {
+    id: "st-eng-grad-poetry-appreciation",
+    titleHindi: "काव्य रसास्वादन (Poetry Appreciation)",
+    titleEnglish: "Poetry Appreciation",
+    section: "Part – II: Graduation Standard",
+    subSection: "2. Grammar, Usage, and Literature",
+    subTopics: [
+      { id: "sub-pa-1", titleHindi: "तुकबंदी योजना एवं छंद (Rhyme Scheme, Rhythm & Meter)", titleEnglish: "Meter & Rhyme Scheme" },
+      { id: "sub-pa-2", titleHindi: "काव्यगत सौंदर्य एवं प्रतीक (Imagery, Symbolism & Tone)", titleEnglish: "Poetic Tone & Imagery" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-literary-devices",
+    titleHindi: "साहित्यिक विधाएँ / युक्तियाँ (Literary Forms / Devices / Techniques)",
+    titleEnglish: "Literary Forms / Devices / Techniques",
+    section: "Part – II: Graduation Standard",
+    subSection: "3. Literary Devices",
+    subTopics: [
+      { id: "sub-ld-1", titleHindi: "अलंकार: Simile, Metaphor, Personification, Pun, Hyperbole, Alliteration, Onomatopoeia", titleEnglish: "Figures of Speech" },
+      { id: "sub-ld-2", titleHindi: "काव्य रूप: Sonnet, Ode, Elegy, Ballad", titleEnglish: "Poetic Forms" },
+      { id: "sub-ld-3", titleHindi: "नाट्य एवं कथा तकनीक: Soliloquy, Dramatic Monologue, Stream of Consciousness", titleEnglish: "Dramatic & Narrative Techniques" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-literary-periods",
+    titleHindi: "प्रमुख साहित्यिक काल (Major Literary Periods)",
+    titleEnglish: "Major Literary Periods",
+    section: "Part – II: Graduation Standard",
+    subSection: "4. Major Literary Periods",
+    subTopics: [
+      { id: "sub-lp-1", titleHindi: "पुनर्जागरण, मेटाफिजिकल, जैकोबियन (Renaissance, Metaphysical, Jacobean)", titleEnglish: "Early Modern Periods" },
+      { id: "sub-lp-2", titleHindi: "नियोक्लासिकल, रोमांटिक, विक्टोरियन, आधुनिक (Neoclassical, Romantic, Victorian, Modern)", titleEnglish: "Neoclassical to Modern Periods" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-literary-movements",
+    titleHindi: "प्रमुख साहित्यिक आंदोलन (Major Literary Movements)",
+    titleEnglish: "Major Literary Movements",
+    section: "Part – II: Graduation Standard",
+    subSection: "5. Major Literary Movements",
+    subTopics: [
+      { id: "sub-lm-1", titleHindi: "रोमांटिसिज्म एवं गोथिक (Romanticism & Gothic)", titleEnglish: "Romanticism & Gothic Movement" },
+      { id: "sub-lm-2", titleHindi: "प्री-राफेलाइट, यथार्थवाद, अस्तित्ववाद (Pre-Raphaelite, Realism, Existentialism)", titleEnglish: "Pre-Raphaelite, Realism, Existentialism" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-prescribed-poetry",
+    titleHindi: "निर्धारित कविताएँ (Prescribed Poetry – 15 Poems)",
+    titleEnglish: "Prescribed Poetry (15 Works)",
+    section: "Part – II: Graduation Standard",
+    subSection: "6. Prescribed Texts",
+    subTopics: [
+      { id: "sub-pp-1", titleHindi: "Shakespeare (Sonnet 30), Milton, Donne, Dryden", titleEnglish: "Classical & Metaphysical Poets" },
+      { id: "sub-pp-2", titleHindi: "Wordsworth (Solitary Reaper), Keats (Thing of Beauty), Browning, Tennyson", titleEnglish: "Romantic & Victorian Poets" },
+      { id: "sub-pp-3", titleHindi: "T.S. Eliot (Prufrock), Pablo Neruda (Keeping Quiet)", titleEnglish: "Modern & World Poets" },
+      { id: "sub-pp-4", titleHindi: "Nissim Ezekiel, Kamala Das, Arun Kolatkar, Sri Aurobindo, Toru Dutt", titleEnglish: "Indian English Poets" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-prescribed-prose",
+    titleHindi: "निर्धारित गद्य (Prescribed Prose – 6 Essays/Stories)",
+    titleEnglish: "Prescribed Prose (6 Works)",
+    section: "Part – II: Graduation Standard",
+    subSection: "7. Prescribed Texts",
+    subTopics: [
+      { id: "sub-pr-1", titleHindi: "Bacon (Of Studies), Addison (Meditations in Westminster Abbey), Charles Lamb (My Relations)", titleEnglish: "Bacon, Addison & Lamb" },
+      { id: "sub-pr-2", titleHindi: "G.B. Shaw (Freedom), Alphonse Daudet (The Last Lesson), Pearl S. Buck (The Enemy)", titleEnglish: "Shaw, Daudet & Pearl S. Buck" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-prescribed-fiction",
+    titleHindi: "निर्धारित उपन्यास / कथा साहित्य (Prescribed Fiction)",
+    titleEnglish: "Prescribed Fiction (A Tale of Two Cities & Malgudi Days)",
+    section: "Part – II: Graduation Standard",
+    subSection: "8. Prescribed Texts",
+    subTopics: [
+      { id: "sub-fic-1", titleHindi: "Charles Dickens – A Tale of Two Cities", titleEnglish: "Charles Dickens – A Tale of Two Cities" },
+      { id: "sub-fic-2", titleHindi: "R. K. Narayan – Malgudi Days", titleEnglish: "R. K. Narayan – Malgudi Days" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-grad-prescribed-drama",
+    titleHindi: "निर्धारित नाटक (Prescribed Drama: Macbeth & A Marriage Proposal)",
+    titleEnglish: "Prescribed Drama (Macbeth & A Marriage Proposal)",
+    section: "Part – II: Graduation Standard",
+    subSection: "9. Prescribed Texts",
+    subTopics: [
+      { id: "sub-dr-1", titleHindi: "William Shakespeare – Macbeth", titleEnglish: "William Shakespeare – Macbeth" },
+      { id: "sub-dr-2", titleHindi: "Anton Chekhov – A Marriage Proposal", titleEnglish: "Anton Chekhov – A Marriage Proposal" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+
+  // PART – III: Teaching Methods (English Language Teaching)
+  {
+    id: "st-eng-methods-principles",
+    titleHindi: "द्वितीय भाषा शिक्षण के मूल सिद्धांत (Basic Principles of Second Language Teaching)",
+    titleEnglish: "Basic Principles of Second Language Teaching",
+    section: "Part – III: Teaching Methods",
+    subSection: "1. ELT Principles",
+    subTopics: [
+      { id: "sub-elp-1", titleHindi: "चयन, श्रेणीकरण, प्रस्तुतीकरण एवं आदत निर्माण के सिद्धांत", titleEnglish: "Principles of Selection, Gradation & Habit Formation" },
+      { id: "sub-elp-2", titleHindi: "अभिप्रेरणा एवं व्यक्तिगत विभिन्नताएँ (Motivation & Individual Differences)", titleEnglish: "Principles of Motivation & Accuracy" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-methods-lsrw",
+    titleHindi: "चार भाषाई कौशल: LSRW (Developing the Four Language Skills)",
+    titleEnglish: "Developing the Four Language Skills (LSRW)",
+    section: "Part – III: Teaching Methods",
+    subSection: "2. Four Language Skills",
+    subTopics: [
+      { id: "sub-lsrw-1", titleHindi: "श्रवण एवं वाचन कौशल (Listening & Speaking Skills Development)", titleEnglish: "Listening & Speaking Sub-skills" },
+      { id: "sub-lsrw-2", titleHindi: "पठन कौशल: Skimming, Scanning, Intensive, Extensive Reading", titleEnglish: "Reading Skills & Techniques" },
+      { id: "sub-lsrw-3", titleHindi: "लेखन कौशल: Mechanics of Writing & Composition Types", titleEnglish: "Writing Skills & Guided Composition" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-methods-forms",
+    titleHindi: "भाषाई रूपों का शिक्षण: गद्य, पद्य, व्याकरण व रचना",
+    titleEnglish: "Teaching of Language Forms (Prose, Poetry, Grammar & Composition)",
+    section: "Part – III: Teaching Methods",
+    subSection: "3. Teaching of Language Forms",
+    subTopics: [
+      { id: "sub-tlf-1", titleHindi: "गद्य एवं पद्य शिक्षण (Teaching of Prose vs Poetry)", titleEnglish: "Teaching of Prose & Poetry" },
+      { id: "sub-tlf-2", titleHindi: "व्याकरण एवं रचना शिक्षण (Inductive/Deductive Grammar & Composition)", titleEnglish: "Teaching of Grammar & Composition" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-methods-approaches",
+    titleHindi: "अंग्रेजी शिक्षण के दृष्टिकोण एवं विधियाँ (Approaches and Methods of ELT)",
+    titleEnglish: "Approaches and Methods of English Language Teaching",
+    section: "Part – III: Teaching Methods",
+    subSection: "4. Approaches and Methods of ELT",
+    subTopics: [
+      { id: "sub-elt-1", titleHindi: "व्याकरण अनुवाद विधि (Grammar Translation Method - GTM)", titleEnglish: "Grammar Translation Method" },
+      { id: "sub-elt-2", titleHindi: "प्रत्यक्ष विधि (Direct Method / Natural Method)", titleEnglish: "Direct Method" },
+      { id: "sub-elt-3", titleHindi: "संरचनात्मक दृष्टिकोण (Structural Method & Substitution Tables)", titleEnglish: "Structural Method" },
+      { id: "sub-elt-4", titleHindi: "श्रव्य-भाषाई विधि (Audio-Lingual Method / Army Method)", titleEnglish: "Audio-Lingual Method" },
+      { id: "sub-elt-5", titleHindi: "संप्रेषणात्मक भाषा शिक्षण (Communicative Language Teaching - CLT)", titleEnglish: "Communicative Language Teaching (CLT)" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  },
+  {
+    id: "st-eng-methods-evaluation",
+    titleHindi: "अंग्रेजी भाषा में मूल्यांकन (Evaluation in English Language)",
+    titleEnglish: "Evaluation in English Language",
+    section: "Part – III: Teaching Methods",
+    subSection: "5. Evaluation & Testing",
+    subTopics: [
+      { id: "sub-ev-1", titleHindi: "सतत एवं व्यापक मूल्यांकन (Continuous and Comprehensive Evaluation - CCE)", titleEnglish: "CCE in English" },
+      { id: "sub-ev-2", titleHindi: "निदानात्मक एवं उपचारात्मक शिक्षण (Diagnostic & Remedial Teaching)", titleEnglish: "Diagnostic & Remedial Teaching" },
+      { id: "sub-ev-3", titleHindi: "उत्कृष्ट परीक्षण के लक्षण: वैधता, विश्वसनीयता, वस्तुनिष्ठता (Validity, Reliability, Objectivity)", titleEnglish: "Characteristics of a Good Test" }
+    ],
+    isCommon: false,
+    examScope: "SENIOR_TEACHER",
+  }
+];
+

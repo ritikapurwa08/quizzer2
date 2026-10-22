@@ -47,3 +47,9 @@ next-env.d.ts
 /src/xdata/rajasthan_selected_topics_question_15000.json
 *.zip
 
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+

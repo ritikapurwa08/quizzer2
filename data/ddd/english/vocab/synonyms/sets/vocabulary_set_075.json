@@ -1,0 +1,2286 @@
+{
+  "setId": "vocabulary_set_075",
+  "setNumber": 75,
+  "title": "Vocabulary Set 075 — Recent to Torment",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1851,
+      "word": "recent",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "ह ल क",
+        "त ज़",
+        "स्िकट क"
+      ],
+      "englishDefinition": "happened, begun, or been done not long ago. 91",
+      "pronunciation": {
+        "ipa": "/recent/",
+        "simple": "REC-ent"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to recent the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ह ल क करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "primordial",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "ह ल क",
+            "त ज़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was primordial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण primordial था।"
+            }
+          ]
+        },
+        {
+          "word": "original",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "ह ल क",
+            "त ज़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was original.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण original था।"
+            }
+          ]
+        },
+        {
+          "word": "novel",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "ह ल क",
+            "त ज़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was novel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण novel था।"
+            }
+          ]
+        },
+        {
+          "word": "current",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "ह ल क",
+            "त ज़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was current.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण current था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1852,
+      "word": "trending",
+      "partOfSpeech": [
+        "Currently"
+      ],
+      "hindiMeaning": [
+        "िलि में",
+        "प्रिस्लत"
+      ],
+      "englishDefinition": "popular or widely discussed, esp. on social media. 92",
+      "pronunciation": {
+        "ipa": "/trending/",
+        "simple": "TREN-ding"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of trending in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िलि में के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "original",
+          "partOfSpeech": [
+            "Currently"
+          ],
+          "hindiMeaning": [
+            "िलि में",
+            "प्रिस्लत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was original.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण original था।"
+            }
+          ]
+        },
+        {
+          "word": "novel",
+          "partOfSpeech": [
+            "Currently"
+          ],
+          "hindiMeaning": [
+            "िलि में",
+            "प्रिस्लत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was novel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण novel था।"
+            }
+          ]
+        },
+        {
+          "word": "current",
+          "partOfSpeech": [
+            "Currently"
+          ],
+          "hindiMeaning": [
+            "िलि में",
+            "प्रिस्लत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was current.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण current था।"
+            }
+          ]
+        },
+        {
+          "word": "recent",
+          "partOfSpeech": [
+            "Currently"
+          ],
+          "hindiMeaning": [
+            "िलि में",
+            "प्रिस्लत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1853,
+      "word": "new",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "िया",
+        "िवीि"
+      ],
+      "englishDefinition": "existing before; produced, introduced, or discovered",
+      "pronunciation": {
+        "ipa": "/new/",
+        "simple": "NEW"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of new in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िया के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "novel",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "िवीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was novel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण novel था।"
+            }
+          ]
+        },
+        {
+          "word": "current",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "िवीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was current.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण current था।"
+            }
+          ]
+        },
+        {
+          "word": "recent",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "िवीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recent था।"
+            }
+          ]
+        },
+        {
+          "word": "trending",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "िवीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trending था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1854,
+      "word": "unique",
+      "partOfSpeech": [
+        "Being"
+      ],
+      "hindiMeaning": [
+        "अस्द्वतीय",
+        "अिोख"
+      ],
+      "englishDefinition": "the only one of its kind; unusually special. 95",
+      "pronunciation": {
+        "ipa": "/unique/",
+        "simple": "UNI-que"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of unique in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अस्द्वतीय के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "current",
+          "partOfSpeech": [
+            "Being"
+          ],
+          "hindiMeaning": [
+            "अस्द्वतीय",
+            "अिोख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was current.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण current था।"
+            }
+          ]
+        },
+        {
+          "word": "recent",
+          "partOfSpeech": [
+            "Being"
+          ],
+          "hindiMeaning": [
+            "अस्द्वतीय",
+            "अिोख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recent था।"
+            }
+          ]
+        },
+        {
+          "word": "trending",
+          "partOfSpeech": [
+            "Being"
+          ],
+          "hindiMeaning": [
+            "अस्द्वतीय",
+            "अिोख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trending था।"
+            }
+          ]
+        },
+        {
+          "word": "new",
+          "partOfSpeech": [
+            "Being"
+          ],
+          "hindiMeaning": [
+            "अस्द्वतीय",
+            "अिोख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was new.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण new था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1855,
+      "word": "contemporary",
+      "partOfSpeech": [
+        "Belonging"
+      ],
+      "hindiMeaning": [
+        "समक लीि",
+        "र्वतिम ि"
+      ],
+      "englishDefinition": "to or occurring in the present. 96",
+      "pronunciation": {
+        "ipa": "/contemporary/",
+        "simple": "CONTEM-porary"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of contemporary in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में समक लीि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "recent",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "समक लीि",
+            "र्वतिम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recent था।"
+            }
+          ]
+        },
+        {
+          "word": "trending",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "समक लीि",
+            "र्वतिम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trending था।"
+            }
+          ]
+        },
+        {
+          "word": "new",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "समक लीि",
+            "र्वतिम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was new.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण new था।"
+            }
+          ]
+        },
+        {
+          "word": "unique",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "समक लीि",
+            "र्वतिम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unique था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1856,
+      "word": "discharge",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "मुक्त करिा",
+        "ररहा करिा"
+      ],
+      "englishDefinition": "allow to flow out; to dismiss, release, or free from a duty. 97",
+      "pronunciation": {
+        "ipa": "/discharge/",
+        "simple": "DISC-harge"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of discharge in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मुक्त करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "trending",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "मुक्त करिा",
+            "ररहा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trending.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trending था।"
+            }
+          ]
+        },
+        {
+          "word": "new",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "मुक्त करिा",
+            "ररहा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was new.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण new था।"
+            }
+          ]
+        },
+        {
+          "word": "unique",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "मुक्त करिा",
+            "ररहा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unique था।"
+            }
+          ]
+        },
+        {
+          "word": "contemporary",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "मुक्त करिा",
+            "ररहा करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemporary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemporary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1857,
+      "word": "acquittal",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "बरी होिा",
+        "दोर्मुनक्त"
+      ],
+      "englishDefinition": "judgment that a person is not guilty of the crime. 98",
+      "pronunciation": {
+        "ipa": "/acquittal/",
+        "simple": "ACQU-ittal"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of acquittal in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बरी होिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "new",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "बरी होिा",
+            "दोर्मुनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was new.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण new था।"
+            }
+          ]
+        },
+        {
+          "word": "unique",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "बरी होिा",
+            "दोर्मुनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unique था।"
+            }
+          ]
+        },
+        {
+          "word": "contemporary",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "बरी होिा",
+            "दोर्मुनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemporary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemporary था।"
+            }
+          ]
+        },
+        {
+          "word": "discharge",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "बरी होिा",
+            "दोर्मुनक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discharge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discharge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1858,
+      "word": "liberation",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "मुनक्त",
+        "आज़ादी"
+      ],
+      "englishDefinition": "act of setting someone free from imprisonment or",
+      "pronunciation": {
+        "ipa": "/liberation/",
+        "simple": "LIBER-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of liberation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मुनक्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unique",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "मुनक्त",
+            "आज़ादी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unique था।"
+            }
+          ]
+        },
+        {
+          "word": "contemporary",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "मुनक्त",
+            "आज़ादी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemporary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemporary था।"
+            }
+          ]
+        },
+        {
+          "word": "discharge",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "मुनक्त",
+            "आज़ादी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discharge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discharge था।"
+            }
+          ]
+        },
+        {
+          "word": "acquittal",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "मुनक्त",
+            "आज़ादी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acquittal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acquittal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1859,
+      "word": "disengagement",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "अलग होिा",
+        "संबंध नवच्छेद"
+      ],
+      "englishDefinition": "action or process of withdrawing from involvement;",
+      "pronunciation": {
+        "ipa": "/disengagement/",
+        "simple": "DISENG-agement"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of disengagement in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अलग होिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "contemporary",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अलग होिा",
+            "संबंध नवच्छेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was contemporary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण contemporary था।"
+            }
+          ]
+        },
+        {
+          "word": "discharge",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अलग होिा",
+            "संबंध नवच्छेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discharge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discharge था।"
+            }
+          ]
+        },
+        {
+          "word": "acquittal",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अलग होिा",
+            "संबंध नवच्छेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acquittal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acquittal था।"
+            }
+          ]
+        },
+        {
+          "word": "liberation",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अलग होिा",
+            "संबंध नवच्छेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was liberation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण liberation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1860,
+      "word": "release",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "ररहा करिा",
+        "छोड़िा"
+      ],
+      "englishDefinition": "allow or enable to escape from confinement or restriction. 101",
+      "pronunciation": {
+        "ipa": "/release/",
+        "simple": "REL-ease"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of release in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ररहा करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "discharge",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ररहा करिा",
+            "छोड़िा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discharge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discharge था।"
+            }
+          ]
+        },
+        {
+          "word": "acquittal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ररहा करिा",
+            "छोड़िा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acquittal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acquittal था।"
+            }
+          ]
+        },
+        {
+          "word": "liberation",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ररहा करिा",
+            "छोड़िा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was liberation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण liberation था।"
+            }
+          ]
+        },
+        {
+          "word": "disengagement",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ररहा करिा",
+            "छोड़िा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disengagement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disengagement था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1861,
+      "word": "exoneration",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "दोर्मुनक्त",
+        "बरी करिा"
+      ],
+      "englishDefinition": "action of officially absolving someone from blame. 102",
+      "pronunciation": {
+        "ipa": "/exoneration/",
+        "simple": "EXONE-ration"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of exoneration in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दोर्मुनक्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "acquittal",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दोर्मुनक्त",
+            "बरी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acquittal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acquittal था।"
+            }
+          ]
+        },
+        {
+          "word": "liberation",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दोर्मुनक्त",
+            "बरी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was liberation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण liberation था।"
+            }
+          ]
+        },
+        {
+          "word": "disengagement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दोर्मुनक्त",
+            "बरी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disengagement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disengagement था।"
+            }
+          ]
+        },
+        {
+          "word": "release",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दोर्मुनक्त",
+            "बरी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was release.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण release था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1862,
+      "word": "ejection",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्िरक सि",
+        "ब हर स्िक लि"
+      ],
+      "englishDefinition": "act of forcing or throwing something out. 103",
+      "pronunciation": {
+        "ipa": "/ejection/",
+        "simple": "EJEC-tion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ejection in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िरक सि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "liberation",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्िरक सि",
+            "ब हर स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was liberation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण liberation था।"
+            }
+          ]
+        },
+        {
+          "word": "disengagement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्िरक सि",
+            "ब हर स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disengagement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disengagement था।"
+            }
+          ]
+        },
+        {
+          "word": "release",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्िरक सि",
+            "ब हर स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was release.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण release था।"
+            }
+          ]
+        },
+        {
+          "word": "exoneration",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्िरक सि",
+            "ब हर स्िक लि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exoneration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exoneration था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1863,
+      "word": "vindication",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "समििि",
+        "सफ ई"
+      ],
+      "englishDefinition": "action of clearing someone of blame; proof of being right. 104",
+      "pronunciation": {
+        "ipa": "/vindication/",
+        "simple": "VINDI-cation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of vindication in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में समििि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disengagement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "समििि",
+            "सफ ई"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disengagement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disengagement था।"
+            }
+          ]
+        },
+        {
+          "word": "release",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "समििि",
+            "सफ ई"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was release.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण release था।"
+            }
+          ]
+        },
+        {
+          "word": "exoneration",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "समििि",
+            "सफ ई"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exoneration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exoneration था।"
+            }
+          ]
+        },
+        {
+          "word": "ejection",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "समििि",
+            "सफ ई"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ejection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ejection था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1864,
+      "word": "abruptly",
+      "partOfSpeech": [
+        "Suddenly"
+      ],
+      "hindiMeaning": [
+        "अचािक",
+        "सहसा",
+        "एकाएक"
+      ],
+      "englishDefinition": "and unexpectedly; quickly and without warning;",
+      "pronunciation": {
+        "ipa": "/abruptly/",
+        "simple": "ABRU-ptly"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of abruptly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अचािक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "release",
+          "partOfSpeech": [
+            "Suddenly"
+          ],
+          "hindiMeaning": [
+            "अचािक",
+            "सहसा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was release.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण release था।"
+            }
+          ]
+        },
+        {
+          "word": "exoneration",
+          "partOfSpeech": [
+            "Suddenly"
+          ],
+          "hindiMeaning": [
+            "अचािक",
+            "सहसा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exoneration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exoneration था।"
+            }
+          ]
+        },
+        {
+          "word": "ejection",
+          "partOfSpeech": [
+            "Suddenly"
+          ],
+          "hindiMeaning": [
+            "अचािक",
+            "सहसा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ejection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ejection था।"
+            }
+          ]
+        },
+        {
+          "word": "vindication",
+          "partOfSpeech": [
+            "Suddenly"
+          ],
+          "hindiMeaning": [
+            "अचािक",
+            "सहसा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindication.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindication था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1865,
+      "word": "suddenly",
+      "partOfSpeech": [
+        "Quickly"
+      ],
+      "hindiMeaning": [
+        "अि िक",
+        "एक एक"
+      ],
+      "englishDefinition": "and unexpectedly. 106",
+      "pronunciation": {
+        "ipa": "/suddenly/",
+        "simple": "SUDD-enly"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of suddenly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अि िक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exoneration",
+          "partOfSpeech": [
+            "Quickly"
+          ],
+          "hindiMeaning": [
+            "अि िक",
+            "एक एक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exoneration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exoneration था।"
+            }
+          ]
+        },
+        {
+          "word": "ejection",
+          "partOfSpeech": [
+            "Quickly"
+          ],
+          "hindiMeaning": [
+            "अि िक",
+            "एक एक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ejection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ejection था।"
+            }
+          ]
+        },
+        {
+          "word": "vindication",
+          "partOfSpeech": [
+            "Quickly"
+          ],
+          "hindiMeaning": [
+            "अि िक",
+            "एक एक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindication.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindication था।"
+            }
+          ]
+        },
+        {
+          "word": "abruptly",
+          "partOfSpeech": [
+            "Quickly"
+          ],
+          "hindiMeaning": [
+            "अि िक",
+            "एक एक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abruptly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abruptly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1866,
+      "word": "impetuously",
+      "partOfSpeech": [
+        "Acting"
+      ],
+      "hindiMeaning": [
+        "आर्वेग में आकर",
+        "जल्दब जी से"
+      ],
+      "englishDefinition": "or done quickly and without thought or care; rashly. 107",
+      "pronunciation": {
+        "ipa": "/impetuously/",
+        "simple": "IMPET-uously"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impetuously in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आर्वेग में आकर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ejection",
+          "partOfSpeech": [
+            "Acting"
+          ],
+          "hindiMeaning": [
+            "आर्वेग में आकर",
+            "जल्दब जी से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ejection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ejection था।"
+            }
+          ]
+        },
+        {
+          "word": "vindication",
+          "partOfSpeech": [
+            "Acting"
+          ],
+          "hindiMeaning": [
+            "आर्वेग में आकर",
+            "जल्दब जी से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindication.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindication था।"
+            }
+          ]
+        },
+        {
+          "word": "abruptly",
+          "partOfSpeech": [
+            "Acting"
+          ],
+          "hindiMeaning": [
+            "आर्वेग में आकर",
+            "जल्दब जी से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abruptly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abruptly था।"
+            }
+          ]
+        },
+        {
+          "word": "suddenly",
+          "partOfSpeech": [
+            "Acting"
+          ],
+          "hindiMeaning": [
+            "आर्वेग में आकर",
+            "जल्दब जी से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suddenly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suddenly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1867,
+      "word": "brusquely",
+      "partOfSpeech": [
+        "Abruptly"
+      ],
+      "hindiMeaning": [
+        "अक्खड़त  से",
+        "रूखेपि से"
+      ],
+      "englishDefinition": "or offhand in speech or manner; curtly. 108",
+      "pronunciation": {
+        "ipa": "/brusquely/",
+        "simple": "BRUS-quely"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of brusquely in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अक्खड़त  से के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vindication",
+          "partOfSpeech": [
+            "Abruptly"
+          ],
+          "hindiMeaning": [
+            "अक्खड़त  से",
+            "रूखेपि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindication.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindication था।"
+            }
+          ]
+        },
+        {
+          "word": "abruptly",
+          "partOfSpeech": [
+            "Abruptly"
+          ],
+          "hindiMeaning": [
+            "अक्खड़त  से",
+            "रूखेपि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abruptly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abruptly था।"
+            }
+          ]
+        },
+        {
+          "word": "suddenly",
+          "partOfSpeech": [
+            "Abruptly"
+          ],
+          "hindiMeaning": [
+            "अक्खड़त  से",
+            "रूखेपि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suddenly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suddenly था।"
+            }
+          ]
+        },
+        {
+          "word": "impetuously",
+          "partOfSpeech": [
+            "Abruptly"
+          ],
+          "hindiMeaning": [
+            "अक्खड़त  से",
+            "रूखेपि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impetuously.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impetuously था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1868,
+      "word": "instantly",
+      "partOfSpeech": [
+        "At"
+      ],
+      "hindiMeaning": [
+        "तुरांत",
+        "फौरि"
+      ],
+      "englishDefinition": "once; immediately. 109",
+      "pronunciation": {
+        "ipa": "/instantly/",
+        "simple": "INST-antly"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of instantly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में तुरांत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "abruptly",
+          "partOfSpeech": [
+            "At"
+          ],
+          "hindiMeaning": [
+            "तुरांत",
+            "फौरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abruptly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abruptly था।"
+            }
+          ]
+        },
+        {
+          "word": "suddenly",
+          "partOfSpeech": [
+            "At"
+          ],
+          "hindiMeaning": [
+            "तुरांत",
+            "फौरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suddenly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suddenly था।"
+            }
+          ]
+        },
+        {
+          "word": "impetuously",
+          "partOfSpeech": [
+            "At"
+          ],
+          "hindiMeaning": [
+            "तुरांत",
+            "फौरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impetuously.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impetuously था।"
+            }
+          ]
+        },
+        {
+          "word": "brusquely",
+          "partOfSpeech": [
+            "At"
+          ],
+          "hindiMeaning": [
+            "तुरांत",
+            "फौरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brusquely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brusquely था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1869,
+      "word": "haphazardly",
+      "partOfSpeech": [
+        "In"
+      ],
+      "hindiMeaning": [
+        "बेतरतीबी से",
+        "यि सांभर्व"
+      ],
+      "englishDefinition": "a manner lacking organization; carelessly. 110",
+      "pronunciation": {
+        "ipa": "/haphazardly/",
+        "simple": "HAPHA-zardly"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of haphazardly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बेतरतीबी से के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "suddenly",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "बेतरतीबी से",
+            "यि सांभर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suddenly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suddenly था।"
+            }
+          ]
+        },
+        {
+          "word": "impetuously",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "बेतरतीबी से",
+            "यि सांभर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impetuously.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impetuously था।"
+            }
+          ]
+        },
+        {
+          "word": "brusquely",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "बेतरतीबी से",
+            "यि सांभर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brusquely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brusquely था।"
+            }
+          ]
+        },
+        {
+          "word": "instantly",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "बेतरतीबी से",
+            "यि सांभर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instantly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instantly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1870,
+      "word": "hastily",
+      "partOfSpeech": [
+        "With"
+      ],
+      "hindiMeaning": [
+        "जल्दब जी से",
+        "शीघ्रत  से"
+      ],
+      "englishDefinition": "excessive speed or urgency; quickly. 111",
+      "pronunciation": {
+        "ipa": "/hastily/",
+        "simple": "HAS-tily"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hastily in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में जल्दब जी से के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impetuously",
+          "partOfSpeech": [
+            "With"
+          ],
+          "hindiMeaning": [
+            "जल्दब जी से",
+            "शीघ्रत  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impetuously.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impetuously था।"
+            }
+          ]
+        },
+        {
+          "word": "brusquely",
+          "partOfSpeech": [
+            "With"
+          ],
+          "hindiMeaning": [
+            "जल्दब जी से",
+            "शीघ्रत  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brusquely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brusquely था।"
+            }
+          ]
+        },
+        {
+          "word": "instantly",
+          "partOfSpeech": [
+            "With"
+          ],
+          "hindiMeaning": [
+            "जल्दब जी से",
+            "शीघ्रत  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instantly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instantly था।"
+            }
+          ]
+        },
+        {
+          "word": "haphazardly",
+          "partOfSpeech": [
+            "With"
+          ],
+          "hindiMeaning": [
+            "जल्दब जी से",
+            "शीघ्रत  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was haphazardly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण haphazardly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1871,
+      "word": "unexpectedly",
+      "partOfSpeech": [
+        "In"
+      ],
+      "hindiMeaning": [
+        "अप्रत्य स्शत रूप से",
+        "अि िक"
+      ],
+      "englishDefinition": "a way that was not expected or foreseen. 112",
+      "pronunciation": {
+        "ipa": "/unexpectedly/",
+        "simple": "UNEXPE-ctedly"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of unexpectedly in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अप्रत्य स्शत रूप से के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brusquely",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "अप्रत्य स्शत रूप से",
+            "अि िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brusquely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brusquely था।"
+            }
+          ]
+        },
+        {
+          "word": "instantly",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "अप्रत्य स्शत रूप से",
+            "अि िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instantly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instantly था।"
+            }
+          ]
+        },
+        {
+          "word": "haphazardly",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "अप्रत्य स्शत रूप से",
+            "अि िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was haphazardly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण haphazardly था।"
+            }
+          ]
+        },
+        {
+          "word": "hastily",
+          "partOfSpeech": [
+            "In"
+          ],
+          "hindiMeaning": [
+            "अप्रत्य स्शत रूप से",
+            "अि िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hastily.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hastily था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1872,
+      "word": "agonize",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "अत्यस्धक कष्ट देि",
+        "तड़पि"
+      ],
+      "englishDefinition": "suffer great pain; to struggle/wrestle (with a problem). 113",
+      "pronunciation": {
+        "ipa": "/agonize/",
+        "simple": "AGO-nize"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of agonize in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अत्यस्धक कष्ट देि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "instantly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक कष्ट देि",
+            "तड़पि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instantly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instantly था।"
+            }
+          ]
+        },
+        {
+          "word": "haphazardly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक कष्ट देि",
+            "तड़पि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was haphazardly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण haphazardly था।"
+            }
+          ]
+        },
+        {
+          "word": "hastily",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक कष्ट देि",
+            "तड़पि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hastily.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hastily था।"
+            }
+          ]
+        },
+        {
+          "word": "unexpectedly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक कष्ट देि",
+            "तड़पि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unexpectedly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unexpectedly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1873,
+      "word": "torture",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "याििा देिा",
+        "कष्ट देिा"
+      ],
+      "englishDefinition": "inflict severe pain on someone as punishment or force. 114",
+      "pronunciation": {
+        "ipa": "/torture/",
+        "simple": "TOR-ture"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of torture in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में याििा देिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "haphazardly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "कष्ट देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was haphazardly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण haphazardly था।"
+            }
+          ]
+        },
+        {
+          "word": "hastily",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "कष्ट देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hastily.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hastily था।"
+            }
+          ]
+        },
+        {
+          "word": "unexpectedly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "कष्ट देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unexpectedly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unexpectedly था।"
+            }
+          ]
+        },
+        {
+          "word": "agonize",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "कष्ट देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agonize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agonize था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1874,
+      "word": "wring",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "स्ििोड़ि",
+        "ऐ ांठि"
+      ],
+      "englishDefinition": "squeeze/twist to extract liquid; to twist forcefully. 115",
+      "pronunciation": {
+        "ipa": "/wring/",
+        "simple": "WR-ing"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of wring in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्ििोड़ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hastily",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्ििोड़ि",
+            "ऐ ांठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hastily.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hastily था।"
+            }
+          ]
+        },
+        {
+          "word": "unexpectedly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्ििोड़ि",
+            "ऐ ांठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unexpectedly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unexpectedly था।"
+            }
+          ]
+        },
+        {
+          "word": "agonize",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्ििोड़ि",
+            "ऐ ांठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agonize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agonize था।"
+            }
+          ]
+        },
+        {
+          "word": "torture",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्ििोड़ि",
+            "ऐ ांठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torture.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torture था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1875,
+      "word": "torment",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "याििा देिा",
+        "पीड़ा देिा"
+      ],
+      "englishDefinition": "inflict severe physical or mental suffering on. 116",
+      "pronunciation": {
+        "ipa": "/torment/",
+        "simple": "TOR-ment"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of torment in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में याििा देिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unexpectedly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "पीड़ा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unexpectedly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unexpectedly था।"
+            }
+          ]
+        },
+        {
+          "word": "agonize",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "पीड़ा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agonize.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agonize था।"
+            }
+          ]
+        },
+        {
+          "word": "torture",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "पीड़ा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torture.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torture था।"
+            }
+          ]
+        },
+        {
+          "word": "wring",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "याििा देिा",
+            "पीड़ा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wring.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wring था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2224 @@
+{
+  "setId": "vocabulary_set_067",
+  "setNumber": 67,
+  "title": "Vocabulary Set 067 — Of to Stab",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1651,
+      "word": "of",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "बेकार",
+        "कोई फ यद  िहीं"
+      ],
+      "englishDefinition": "no avail (phr) Useless; without success (Avail-use/benefit).",
+      "pronunciation": {
+        "ipa": "/of/",
+        "simple": "OF"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of of in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बेकार के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "flogging",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "कोई फ यद  िहीं"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flogging.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flogging था।"
+            }
+          ]
+        },
+        {
+          "word": "fool's",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "कोई फ यद  िहीं"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fool's.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fool's था।"
+            }
+          ]
+        },
+        {
+          "word": "fall",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "कोई फ यद  िहीं"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fall.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fall था।"
+            }
+          ]
+        },
+        {
+          "word": "end",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "कोई फ यद  िहीं"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was end.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण end था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1652,
+      "word": "perjure",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "झूठी गवाही देिा",
+        "शपथ भंग करिा"
+      ],
+      "englishDefinition": "To wilfully tell an untruth or commit perjury.",
+      "pronunciation": {
+        "ipa": "/perjure/",
+        "simple": "PER-jure"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to perjure the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को झूठी गवाही देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fool's",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठी गवाही देिा",
+            "शपथ भंग करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fool's.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fool's था।"
+            }
+          ]
+        },
+        {
+          "word": "fall",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठी गवाही देिा",
+            "शपथ भंग करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fall.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fall था।"
+            }
+          ]
+        },
+        {
+          "word": "end",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठी गवाही देिा",
+            "शपथ भंग करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was end.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण end था।"
+            }
+          ]
+        },
+        {
+          "word": "mislead",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठी गवाही देिा",
+            "शपथ भंग करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mislead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mislead था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1653,
+      "word": "mislead",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "गुमराह करिा",
+        "भिकािा"
+      ],
+      "englishDefinition": "To cause (someone) to have a wrong idea or impression about",
+      "pronunciation": {
+        "ipa": "/mislead/",
+        "simple": "MIS-lead"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to mislead the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को गुमराह करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fall",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुमराह करिा",
+            "भिकािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fall.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fall था।"
+            }
+          ]
+        },
+        {
+          "word": "end",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुमराह करिा",
+            "भिकािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was end.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण end था।"
+            }
+          ]
+        },
+        {
+          "word": "perjure",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुमराह करिा",
+            "भिकािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjure था।"
+            }
+          ]
+        },
+        {
+          "word": "falsify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "गुमराह करिा",
+            "भिकािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was falsify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण falsify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1654,
+      "word": "falsify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "झूठ  स स्बत करि",
+        "धोख  देि"
+      ],
+      "englishDefinition": "To alter (information or evidence) so as to mislead.",
+      "pronunciation": {
+        "ipa": "/falsify/",
+        "simple": "FAL-sify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to falsify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को झूठ  स स्बत करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "end",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठ  स स्बत करि",
+            "धोख  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was end.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण end था।"
+            }
+          ]
+        },
+        {
+          "word": "perjure",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठ  स स्बत करि",
+            "धोख  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjure था।"
+            }
+          ]
+        },
+        {
+          "word": "mislead",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठ  स स्बत करि",
+            "धोख  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mislead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mislead था।"
+            }
+          ]
+        },
+        {
+          "word": "disguise",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "झूठ  स स्बत करि",
+            "धोख  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disguise.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disguise था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1655,
+      "word": "disguise",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "भेर् बदलिा",
+        "नछपािा"
+      ],
+      "englishDefinition": "To give (someone or oneself) a different appearance in order to",
+      "pronunciation": {
+        "ipa": "/disguise/",
+        "simple": "DISG-uise"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to disguise the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को भेर् बदलिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perjure",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "भेर् बदलिा",
+            "नछपािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjure था।"
+            }
+          ]
+        },
+        {
+          "word": "mislead",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "भेर् बदलिा",
+            "नछपािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mislead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mislead था।"
+            }
+          ]
+        },
+        {
+          "word": "falsify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "भेर् बदलिा",
+            "नछपािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was falsify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण falsify था।"
+            }
+          ]
+        },
+        {
+          "word": "blessing",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "भेर् बदलिा",
+            "नछपािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blessing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blessing था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1656,
+      "word": "blessing",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "स्िप  हुआ र्वरद ि"
+      ],
+      "englishDefinition": "in disguise (idiom) An apparent misfortune that eventually has good results.",
+      "pronunciation": {
+        "ipa": "/blessing/",
+        "simple": "BLES-sing"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of blessing in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िप  हुआ र्वरद ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perjure",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ र्वरद ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perjure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perjure था।"
+            }
+          ]
+        },
+        {
+          "word": "mislead",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ र्वरद ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mislead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mislead था।"
+            }
+          ]
+        },
+        {
+          "word": "falsify",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ र्वरद ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was falsify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण falsify था।"
+            }
+          ]
+        },
+        {
+          "word": "disguise",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ र्वरद ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disguise.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disguise था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1657,
+      "word": "red-tapism",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "लाल फीिाशाही"
+      ],
+      "englishDefinition": "Excessive bureaucracy or adherence to official rules and",
+      "pronunciation": {
+        "ipa": "/red-tapism/",
+        "simple": "RED-T-apism"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of red-tapism in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में लाल फीिाशाही के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mislead",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाल फीिाशाही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mislead.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mislead था।"
+            }
+          ]
+        },
+        {
+          "word": "falsify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाल फीिाशाही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was falsify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण falsify था।"
+            }
+          ]
+        },
+        {
+          "word": "disguise",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाल फीिाशाही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disguise.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disguise था।"
+            }
+          ]
+        },
+        {
+          "word": "blessing",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "लाल फीिाशाही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blessing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blessing था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1658,
+      "word": "cook",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "मिगढ़ांत कह िी बि ि"
+      ],
+      "englishDefinition": "up (phr v) To invent or fabricate (a story or excuse).",
+      "pronunciation": {
+        "ipa": "/cook/",
+        "simple": "COOK"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of cook in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मिगढ़ांत कह िी बि ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "falsify",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मिगढ़ांत कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was falsify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण falsify था।"
+            }
+          ]
+        },
+        {
+          "word": "disguise",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मिगढ़ांत कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disguise.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disguise था।"
+            }
+          ]
+        },
+        {
+          "word": "blessing",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मिगढ़ांत कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blessing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blessing था।"
+            }
+          ]
+        },
+        {
+          "word": "red-tapism",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मिगढ़ांत कह िी बि ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was red-tapism.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण red-tapism था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1659,
+      "word": "hoodwink",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "धोख  देि",
+        "ठगि  (आँख म रकर)"
+      ],
+      "englishDefinition": "To deceive or trick (someone).",
+      "pronunciation": {
+        "ipa": "/hoodwink/",
+        "simple": "HOOD-wink"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to hoodwink the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को धोख  देि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "disguise",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोख  देि",
+            "ठगि  (आँख म रकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disguise.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disguise था।"
+            }
+          ]
+        },
+        {
+          "word": "blessing",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोख  देि",
+            "ठगि  (आँख म रकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blessing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blessing था।"
+            }
+          ]
+        },
+        {
+          "word": "red-tapism",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोख  देि",
+            "ठगि  (आँख म रकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was red-tapism.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण red-tapism था।"
+            }
+          ]
+        },
+        {
+          "word": "cook",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोख  देि",
+            "ठगि  (आँख म रकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cook.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cook था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1660,
+      "word": "swindle",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ठगिा",
+        "धोखा देिा"
+      ],
+      "englishDefinition": "To use deception to deprive (someone) of money or",
+      "pronunciation": {
+        "ipa": "/swindle/",
+        "simple": "SWI-ndle"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to swindle the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ठगिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "blessing",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठगिा",
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blessing.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blessing था।"
+            }
+          ]
+        },
+        {
+          "word": "red-tapism",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठगिा",
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was red-tapism.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण red-tapism था।"
+            }
+          ]
+        },
+        {
+          "word": "cook",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठगिा",
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cook.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cook था।"
+            }
+          ]
+        },
+        {
+          "word": "hoodwink",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ठगिा",
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoodwink.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoodwink था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1661,
+      "word": "inundate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ब ढ़ आि",
+        "भर ज ि"
+      ],
+      "englishDefinition": "To flood (Inundated with talent/work).",
+      "pronunciation": {
+        "ipa": "/inundate/",
+        "simple": "INUN-date"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to inundate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ब ढ़ आि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "red-tapism",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब ढ़ आि",
+            "भर ज ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was red-tapism.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण red-tapism था।"
+            }
+          ]
+        },
+        {
+          "word": "cook",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब ढ़ आि",
+            "भर ज ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cook.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cook था।"
+            }
+          ]
+        },
+        {
+          "word": "hoodwink",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब ढ़ आि",
+            "भर ज ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoodwink.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoodwink था।"
+            }
+          ]
+        },
+        {
+          "word": "swindle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ब ढ़ आि",
+            "भर ज ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1662,
+      "word": "diluge",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "ब ढ़"
+      ],
+      "englishDefinition": "A severe flood.",
+      "pronunciation": {
+        "ipa": "/diluge/",
+        "simple": "DIL-uge"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of diluge in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ब ढ़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cook",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cook.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cook था।"
+            }
+          ]
+        },
+        {
+          "word": "hoodwink",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoodwink.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoodwink था।"
+            }
+          ]
+        },
+        {
+          "word": "swindle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindle था।"
+            }
+          ]
+        },
+        {
+          "word": "inundate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inundate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inundate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1663,
+      "word": "assassinate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "र जिीस्तक हत्य  करि"
+      ],
+      "englishDefinition": "To murder (an important person) for political reasons.",
+      "pronunciation": {
+        "ipa": "/assassinate/",
+        "simple": "ASSAS-sinate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to assassinate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को र जिीस्तक हत्य  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hoodwink",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "र जिीस्तक हत्य  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hoodwink.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hoodwink था।"
+            }
+          ]
+        },
+        {
+          "word": "swindle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "र जिीस्तक हत्य  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindle था।"
+            }
+          ]
+        },
+        {
+          "word": "inundate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "र जिीस्तक हत्य  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inundate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inundate था।"
+            }
+          ]
+        },
+        {
+          "word": "diluge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "र जिीस्तक हत्य  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diluge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1664,
+      "word": "ruse",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "धोख",
+        "ि ल"
+      ],
+      "englishDefinition": "An action intended to deceive someone; a trick.",
+      "pronunciation": {
+        "ipa": "/ruse/",
+        "simple": "RUSE"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ruse in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में धोख के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "swindle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोख",
+            "ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindle था।"
+            }
+          ]
+        },
+        {
+          "word": "inundate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोख",
+            "ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inundate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inundate था।"
+            }
+          ]
+        },
+        {
+          "word": "diluge",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोख",
+            "ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diluge था।"
+            }
+          ]
+        },
+        {
+          "word": "assassinate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोख",
+            "ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assassinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assassinate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1665,
+      "word": "dupe",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "धोखा देिा",
+        "मूखय बिािा"
+      ],
+      "englishDefinition": "To deceive or trick (someone).",
+      "pronunciation": {
+        "ipa": "/dupe/",
+        "simple": "DUPE"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to dupe the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को धोखा देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inundate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "मूखय बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inundate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inundate था।"
+            }
+          ]
+        },
+        {
+          "word": "diluge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "मूखय बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diluge था।"
+            }
+          ]
+        },
+        {
+          "word": "assassinate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "मूखय बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assassinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assassinate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "मूखय बिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1666,
+      "word": "cousin",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में)"
+      ],
+      "englishDefinition": "(v - Contextual) To cheat or deceive (Taught as 'Cousin ne dhokha diya').",
+      "pronunciation": {
+        "ipa": "/cousin/",
+        "simple": "COU-sin"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of cousin in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में) के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "diluge",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diluge था।"
+            }
+          ]
+        },
+        {
+          "word": "assassinate",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assassinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assassinate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruse",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruse था।"
+            }
+          ]
+        },
+        {
+          "word": "dupe",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोख  देि  (कस्ज़ि भ ई-बहि के  सांदभि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dupe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dupe था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1667,
+      "word": "swindler",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "धोखेबाज",
+        "ठग"
+      ],
+      "englishDefinition": "A person who uses deception to deprive someone of money or",
+      "pronunciation": {
+        "ipa": "/swindler/",
+        "simple": "SWIN-dler"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of swindler in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में धोखेबाज के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "assassinate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखेबाज",
+            "ठग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assassinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assassinate था।"
+            }
+          ]
+        },
+        {
+          "word": "ruse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखेबाज",
+            "ठग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruse था।"
+            }
+          ]
+        },
+        {
+          "word": "dupe",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखेबाज",
+            "ठग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dupe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dupe था।"
+            }
+          ]
+        },
+        {
+          "word": "cousin",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "धोखेबाज",
+            "ठग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cousin.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cousin था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1668,
+      "word": "bamboozle",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "धोखा देिा",
+        "चकाचौंध में डालिा"
+      ],
+      "englishDefinition": "To fool or cheat (someone).",
+      "pronunciation": {
+        "ipa": "/bamboozle/",
+        "simple": "BAMB-oozle"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to bamboozle the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को धोखा देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ruse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "चकाचौंध में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruse था।"
+            }
+          ]
+        },
+        {
+          "word": "dupe",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "चकाचौंध में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dupe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dupe था।"
+            }
+          ]
+        },
+        {
+          "word": "cousin",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "चकाचौंध में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cousin.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cousin था।"
+            }
+          ]
+        },
+        {
+          "word": "swindler",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "चकाचौंध में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindler.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindler था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1669,
+      "word": "feint",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "नदखाविी चाल"
+      ],
+      "englishDefinition": "A deceptive or pretended blow, thrust, or other movement,",
+      "pronunciation": {
+        "ipa": "/feint/",
+        "simple": "FE-int"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of feint in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में नदखाविी चाल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dupe",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नदखाविी चाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dupe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dupe था।"
+            }
+          ]
+        },
+        {
+          "word": "cousin",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नदखाविी चाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cousin.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cousin था।"
+            }
+          ]
+        },
+        {
+          "word": "swindler",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नदखाविी चाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindler.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindler था।"
+            }
+          ]
+        },
+        {
+          "word": "bamboozle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "नदखाविी चाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bamboozle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bamboozle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1670,
+      "word": "fast",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "ल परर्व ही से क म करि  (धोख  देि )"
+      ],
+      "englishDefinition": "and loose (idiom) To behave carelessly and irresponsibly.",
+      "pronunciation": {
+        "ipa": "/fast/",
+        "simple": "FAST"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of fast in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ल परर्व ही से क म करि  (धोख  देि ) के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cousin",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ल परर्व ही से क म करि  (धोख  देि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cousin.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cousin था।"
+            }
+          ]
+        },
+        {
+          "word": "swindler",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ल परर्व ही से क म करि  (धोख  देि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindler.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindler था।"
+            }
+          ]
+        },
+        {
+          "word": "bamboozle",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ल परर्व ही से क म करि  (धोख  देि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bamboozle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bamboozle था।"
+            }
+          ]
+        },
+        {
+          "word": "feint",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ल परर्व ही से क म करि  (धोख  देि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feint था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1671,
+      "word": "peevish",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "नचड़नचड़ा"
+      ],
+      "englishDefinition": "Easily irritated, especially by unimportant things. (Context: Rues",
+      "pronunciation": {
+        "ipa": "/peevish/",
+        "simple": "PEE-vish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably peevish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से नचड़नचड़ा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "swindler",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नचड़नचड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swindler.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swindler था।"
+            }
+          ]
+        },
+        {
+          "word": "bamboozle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नचड़नचड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bamboozle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bamboozle था।"
+            }
+          ]
+        },
+        {
+          "word": "feint",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नचड़नचड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feint था।"
+            }
+          ]
+        },
+        {
+          "word": "fast",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नचड़नचड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fast.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fast था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1672,
+      "word": "vindicate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "दोर्मुक्त करिा",
+        "सही ठहरािा"
+      ],
+      "englishDefinition": "To clear (someone) of blame or suspicion; to justify (opposite of",
+      "pronunciation": {
+        "ipa": "/vindicate/",
+        "simple": "VIND-icate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to vindicate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को दोर्मुक्त करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "bamboozle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दोर्मुक्त करिा",
+            "सही ठहरािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bamboozle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bamboozle था।"
+            }
+          ]
+        },
+        {
+          "word": "feint",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दोर्मुक्त करिा",
+            "सही ठहरािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feint था।"
+            }
+          ]
+        },
+        {
+          "word": "fast",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दोर्मुक्त करिा",
+            "सही ठहरािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fast.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fast था।"
+            }
+          ]
+        },
+        {
+          "word": "peevish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "दोर्मुक्त करिा",
+            "सही ठहरािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peevish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peevish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1673,
+      "word": "authenticat",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "प्रम स्र्त करि"
+      ],
+      "englishDefinition": "To prove that something is genuine or true.",
+      "pronunciation": {
+        "ipa": "/authenticat/",
+        "simple": "AUTHE-nticat"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to authenticat the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को प्रम स्र्त करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "feint",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रम स्र्त करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feint था।"
+            }
+          ]
+        },
+        {
+          "word": "fast",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रम स्र्त करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fast.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fast था।"
+            }
+          ]
+        },
+        {
+          "word": "peevish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रम स्र्त करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peevish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peevish था।"
+            }
+          ]
+        },
+        {
+          "word": "vindicate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "प्रम स्र्त करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindicate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindicate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1674,
+      "word": "enlighten",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ज्ञाि देिा"
+      ],
+      "englishDefinition": "To give (someone) greater knowledge and understanding about",
+      "pronunciation": {
+        "ipa": "/enlighten/",
+        "simple": "ENLI-ghten"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to enlighten the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ज्ञाि देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fast",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ज्ञाि देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fast.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fast था।"
+            }
+          ]
+        },
+        {
+          "word": "peevish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ज्ञाि देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peevish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peevish था।"
+            }
+          ]
+        },
+        {
+          "word": "vindicate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ज्ञाि देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindicate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindicate था।"
+            }
+          ]
+        },
+        {
+          "word": "authenticat",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ज्ञाि देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was authenticat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण authenticat था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1675,
+      "word": "stab",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "धोखा देिा"
+      ],
+      "englishDefinition": "someone in the back (idiom) To betray someone.",
+      "pronunciation": {
+        "ipa": "/stab/",
+        "simple": "STAB"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stab in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में धोखा देिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "peevish",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peevish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peevish था।"
+            }
+          ]
+        },
+        {
+          "word": "vindicate",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vindicate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vindicate था।"
+            }
+          ]
+        },
+        {
+          "word": "authenticat",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was authenticat.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण authenticat था।"
+            }
+          ]
+        },
+        {
+          "word": "enlighten",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was enlighten.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण enlighten था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

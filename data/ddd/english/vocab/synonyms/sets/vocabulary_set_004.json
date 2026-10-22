@@ -1,0 +1,4476 @@
+{
+  "setId": "vocabulary_set_004",
+  "setNumber": 4,
+  "title": "Vocabulary Set 004 — Composed to Differ",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 76,
+      "word": "composed",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "शांतचित्त",
+        "संयमित"
+      ],
+      "englishDefinition": "Calm and in control of one's emotions.",
+      "pronunciation": {
+        "ipa": "/kəmˈpəʊzd/",
+        "simple": "kuhm-POHZD"
+      },
+      "examples": [
+        {
+          "sentence": "Despite the difficult question, she remained composed.",
+          "hindiTranslation": "कठिन प्रश्न के बावजूद वह शांतचित्त रही।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "calm",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably calm.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से calm था।"
+            }
+          ]
+        },
+        {
+          "word": "collected",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संयमित"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably collected.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से collected था।"
+            }
+          ]
+        },
+        {
+          "word": "poised",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संतुलित",
+            "आत्मविश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably poised.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से poised था।"
+            }
+          ]
+        },
+        {
+          "word": "self-possessed",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आत्मसंयमी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably self-possessed.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से self-possessed था।"
+            }
+          ]
+        },
+        {
+          "word": "unruffled",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अविचलित"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unruffled.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unruffled था।"
+            }
+          ]
+        },
+        {
+          "word": "serene",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शांत",
+            "प्रसन्न"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably serene.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से serene था।"
+            }
+          ]
+        },
+        {
+          "word": "placid",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शांत स्वभाव वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably placid.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से placid था।"
+            }
+          ]
+        },
+        {
+          "word": "tranquil",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably tranquil.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से tranquil था।"
+            }
+          ]
+        },
+        {
+          "word": "equable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "समचित्त"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably equable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से equable था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "agitated",
+          "hindiMeaning": [
+            "उत्तेजित",
+            "व्याकुल"
+          ]
+        },
+        {
+          "word": "flustered",
+          "hindiMeaning": [
+            "घबराया हुआ"
+          ]
+        },
+        {
+          "word": "anxious",
+          "hindiMeaning": [
+            "चिंतित",
+            "व्यग्र"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 77,
+      "word": "concern",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "चिंता",
+        "सरोकार",
+        "संबंधित होना"
+      ],
+      "englishDefinition": "Worry about something or an issue that matters to someone.",
+      "pronunciation": {
+        "ipa": "/kənˈsɜːn/",
+        "simple": "kuhn-SURN"
+      },
+      "examples": [
+        {
+          "sentence": "Her main concern was her family's safety.",
+          "hindiTranslation": "उसकी मुख्य चिंता अपने परिवार की सुरक्षा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "worry",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चिंता"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to worry the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को worry करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "anxiety",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "व्याकुलता"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to anxiety the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को anxiety करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "apprehension",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आशंका"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to apprehension the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को apprehension करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "unease",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "बेचैनी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to unease the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को unease करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "solicitude",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चिंतापूर्ण देखभाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to solicitude the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को solicitude करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "care",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "परवाह"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to care the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को care करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "regard",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सरोकार"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to regard the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को regard करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "interest",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "रुचि",
+            "सरोकार"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to interest the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को interest करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "matter",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मामला",
+            "संबंध"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to matter the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को matter करने के लिए मतदान किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "indifference",
+          "hindiMeaning": [
+            "उदासीनता",
+            "लापरवाही"
+          ]
+        },
+        {
+          "word": "unconcern",
+          "hindiMeaning": [
+            "बेपरवाही"
+          ]
+        },
+        {
+          "word": "apathy",
+          "hindiMeaning": [
+            "उदासीनता"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 78,
+      "word": "concise",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "संक्षिप्त",
+        "सारगर्भित"
+      ],
+      "englishDefinition": "Giving a lot of information clearly in few words.",
+      "pronunciation": {
+        "ipa": "/kənˈsaɪs/",
+        "simple": "kuhn-SYS"
+      },
+      "examples": [
+        {
+          "sentence": "Write a concise summary of the chapter.",
+          "hindiTranslation": "अध्याय का संक्षिप्त सार लिखें।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brief",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संक्षिप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed brief during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने संक्षिप्त दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "succinct",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "कम शब्दों में स्पष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  succinct during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने कम शब्दों में स्पष्ट दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "terse",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संक्षिप्त और रूखा"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  terse during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने संक्षिप्त और रूखा दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "compact",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संक्षिप्त",
+            "सघन"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  compact during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने संक्षिप्त/सघन दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "short",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "छोटा"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  short during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने छोटा दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "pithy",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सारगर्भित"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  pithy during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने सारगर्भित दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "crisp",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट और संक्षिप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  crisp during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने स्पष्ट और संक्षिप्त दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "condensed",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संक्षेपित"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  condensed during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने संक्षेपित दिखाया।"
+            }
+          ]
+        },
+        {
+          "word": "laconic",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बहुत कम शब्दों वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The team showed  laconic during the difficult task.",
+              "hindiTranslation": "कठिन काम के दौरान टीम ने बहुत कम शब्दों वाला दिखाया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "wordy",
+          "hindiMeaning": [
+            "वाचाल",
+            "शब्दबहुल"
+          ]
+        },
+        {
+          "word": "verbose",
+          "hindiMeaning": [
+            "विस्तृत",
+            "शब्दाडंबरपूर्ण"
+          ]
+        },
+        {
+          "word": "lengthy",
+          "hindiMeaning": [
+            "लंबा-चौड़ा"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 79,
+      "word": "conduct",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "आचरण",
+        "व्यवहार",
+        "संचालन करना"
+      ],
+      "englishDefinition": "A person's behaviour; or to organize and carry out an activity.",
+      "pronunciation": {
+        "ipa": "/ˈkɒn.dʌkt/",
+        "simple": "KON-dukt"
+      },
+      "examples": [
+        {
+          "sentence": "The teacher praised the student's conduct.",
+          "hindiTranslation": "शिक्षक ने विद्यार्थी के आचरण की प्रशंसा की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "behavior",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "व्यवहार"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to behavior the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को behavior करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "demeanor",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "हावभाव",
+            "व्यवहार"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to demeanor the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को demeanor करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "deportment",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आचरण"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to deportment the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को deportment करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "bearing",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "व्यवहार",
+            "ठाठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to bearing the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को bearing करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "carriage",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आचरण",
+            "ढंग"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to carriage the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को carriage करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "manage",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "प्रबंध करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to manage the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को manage करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "direct",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निर्देशन करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to direct the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को direct करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "administer",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संचालित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to administer the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को administer करने के लिए मतदान किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "misconduct",
+          "hindiMeaning": [
+            "कदाचार",
+            "बुरा आचरण"
+          ]
+        },
+        {
+          "word": "impropriety",
+          "hindiMeaning": [
+            "अनुचितता"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 80,
+      "word": "confession",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "स्वीकारोक्ति",
+        "अपराध स्वीकार करना"
+      ],
+      "englishDefinition": "A statement admitting that something is true, especially a mistake or wrongdoing.",
+      "pronunciation": {
+        "ipa": "/kənˈfeʃ.ən/",
+        "simple": "kuhn-FESH-uhn"
+      },
+      "examples": [
+        {
+          "sentence": "His confession helped the police solve the case.",
+          "hindiTranslation": "उसकी स्वीकारोक्ति से पुलिस को मामला सुलझाने में मदद मिली।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "admission",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्वीकारोक्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable admission throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय admission का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "acknowledgment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्वीकार करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable acknowledgment throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय acknowledgment का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "avowal",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "खुली स्वीकारोक्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable avowal throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय avowal का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "declaration",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घोषणा"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable declaration throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय declaration का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "disclosure",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "खुलासा"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable disclosure throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय disclosure का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "profession",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घोषित विश्वास",
+            "स्वीकार"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable profession throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय profession का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "owning up",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "गलती स्वीकार करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable owning up throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय owning up का प्रदर्शन किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "denial",
+          "hindiMeaning": [
+            "इनकार",
+            "खंडन"
+          ]
+        },
+        {
+          "word": "refusal",
+          "hindiMeaning": [
+            "अस्वीकृति"
+          ]
+        },
+        {
+          "word": "concealment",
+          "hindiMeaning": [
+            "छिपाव",
+            "गोपनीयता"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 81,
+      "word": "conflict",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "संघर्ष",
+        "टकराव",
+        "विरोध"
+      ],
+      "englishDefinition": "A serious disagreement or clash between opposing interests.",
+      "pronunciation": {
+        "ipa": "/ˈkɒn.flɪkt/",
+        "simple": "KON-flikt"
+      },
+      "examples": [
+        {
+          "sentence": "The conflict between the two teams intensified.",
+          "hindiTranslation": "दोनों टीमों के बीच संघर्ष बढ़ गया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "clash",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "टकराव"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to clash the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को clash करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "dispute",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विवाद"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to dispute the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को dispute करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "strife",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कलह",
+            "संघर्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to strife the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को strife करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "confrontation",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आमना-सामना"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to confrontation the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को confrontation करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "collision",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "टक्कर"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to collision the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को collision करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "discord",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "असहमति"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to discord the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को discord करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "contention",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विवाद"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to contention the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को contention करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "opposition",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विरोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to opposition the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को opposition करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "warfare",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "युद्ध"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to warfare the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को warfare करने के लिए मतदान किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "agreement",
+          "hindiMeaning": [
+            "सहमति",
+            "समझौता"
+          ]
+        },
+        {
+          "word": "harmony",
+          "hindiMeaning": [
+            "तालमेल",
+            "सद्भाव"
+          ]
+        },
+        {
+          "word": "peace",
+          "hindiMeaning": [
+            "शांति"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 82,
+      "word": "conquer",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "जीतना",
+        "विजय प्राप्त करना",
+        "वश में करना"
+      ],
+      "englishDefinition": "To defeat an opponent or gain control over something.",
+      "pronunciation": {
+        "ipa": "/ˈkɒŋ.kər/",
+        "simple": "KONG-ker"
+      },
+      "examples": [
+        {
+          "sentence": "She worked hard to conquer her fear of public speaking.",
+          "hindiTranslation": "उसने सार्वजनिक भाषण के डर पर विजय पाने के लिए मेहनत की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "defeat",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "हराना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will defeat the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को हराना।"
+            }
+          ]
+        },
+        {
+          "word": "overcome",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "काबू पाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  overcome the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को काबू पाना।"
+            }
+          ]
+        },
+        {
+          "word": "vanquish",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "परास्त करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  vanquish the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को परास्त करना।"
+            }
+          ]
+        },
+        {
+          "word": "subdue",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "वश में करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  subdue the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को वश में करना।"
+            }
+          ]
+        },
+        {
+          "word": "triumph over",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पर विजय पाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  triumph over the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को पर विजय पाना।"
+            }
+          ]
+        },
+        {
+          "word": "subjugate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अधीन करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  subjugate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को अधीन करना।"
+            }
+          ]
+        },
+        {
+          "word": "master",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "महारत हासिल करना",
+            "काबू पाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  master the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को महारत हासिल करना/काबू पाना।"
+            }
+          ]
+        },
+        {
+          "word": "beat",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "हराना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  beat the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को हराना।"
+            }
+          ]
+        },
+        {
+          "word": "prevail over",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विजयी होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  prevail over the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को विजयी होना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "surrender",
+          "hindiMeaning": [
+            "आत्मसमर्पण करना"
+          ]
+        },
+        {
+          "word": "lose",
+          "hindiMeaning": [
+            "हारना"
+          ]
+        },
+        {
+          "word": "succumb",
+          "hindiMeaning": [
+            "घुटने टेकना",
+            "वश में होना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 83,
+      "word": "conspiracy",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "साज़िश",
+        "षड्यंत्र"
+      ],
+      "englishDefinition": "A secret plan made by a group to do something harmful or unlawful.",
+      "pronunciation": {
+        "ipa": "/kənˈspɪr.ə.si/",
+        "simple": "kuhn-SPEER-uh-see"
+      },
+      "examples": [
+        {
+          "sentence": "The investigators uncovered a conspiracy to steal public funds.",
+          "hindiTranslation": "जाँचकर्ताओं ने सार्वजनिक धन चुराने की साज़िश उजागर की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "plot",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "षड्यंत्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable plot throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय plot का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "scheme",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "योजना",
+            "साज़िश"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable scheme throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय scheme का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "intrigue",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "गुप्त साज़िश"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable intrigue throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय intrigue का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "collusion",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "मिलीभगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable collusion throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय collusion का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "machination",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कुटिल चाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable machination throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय machination का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "cabal",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "गुप्त षड्यंत्रकारी समूह"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable cabal throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय cabal का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "connivance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "मिलीभगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable connivance throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय connivance का प्रदर्शन किया।"
+            }
+          ]
+        },
+        {
+          "word": "secret plan",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "गुप्त योजना"
+          ],
+          "examples": [
+            {
+              "sentence": "The official demonstrated remarkable secret plan throughout the proceedings.",
+              "hindiTranslation": "अधिकारी ने पूरी कार्यवाही के दौरान उल्लेखनीय secret plan का प्रदर्शन किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "loyalty",
+          "hindiMeaning": [
+            "वफादारी",
+            "निष्ठा"
+          ]
+        },
+        {
+          "word": "honesty",
+          "hindiMeaning": [
+            "ईमानदारी"
+          ]
+        },
+        {
+          "word": "openness",
+          "hindiMeaning": [
+            "खुलापन"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 84,
+      "word": "contain",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "समाहित करना",
+        "अपने भीतर रखना",
+        "नियंत्रित करना"
+      ],
+      "englishDefinition": "To hold something within limits or include it as a part.",
+      "pronunciation": {
+        "ipa": "/kənˈteɪn/",
+        "simple": "kuhn-TAYN"
+      },
+      "examples": [
+        {
+          "sentence": "This bottle can contain one litre of water.",
+          "hindiTranslation": "इस बोतल में एक लीटर पानी आ सकता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hold",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "धारण करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will hold the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को धारण करना।"
+            }
+          ]
+        },
+        {
+          "word": "include",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "शामिल करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  include the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को शामिल करना।"
+            }
+          ]
+        },
+        {
+          "word": "comprise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "से मिलकर बना होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  comprise the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को से मिलकर बना होना।"
+            }
+          ]
+        },
+        {
+          "word": "encompass",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "समेटना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  encompass the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को समेटना।"
+            }
+          ]
+        },
+        {
+          "word": "accommodate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "जगह देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  accommodate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को जगह देना।"
+            }
+          ]
+        },
+        {
+          "word": "enclose",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "घेरकर रखना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  enclose the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को घेरकर रखना।"
+            }
+          ]
+        },
+        {
+          "word": "restrain",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "नियंत्रित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  restrain the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को नियंत्रित करना।"
+            }
+          ]
+        },
+        {
+          "word": "control",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "काबू रखना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  control the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को काबू रखना।"
+            }
+          ]
+        },
+        {
+          "word": "consist of",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "से बना होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  consist of the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को से बना होना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "exclude",
+          "hindiMeaning": [
+            "बाहर निकालना",
+            "शामिल न करना"
+          ]
+        },
+        {
+          "word": "release",
+          "hindiMeaning": [
+            "मुक्त करना",
+            "छोड़ना"
+          ]
+        },
+        {
+          "word": "discharge",
+          "hindiMeaning": [
+            "उत्सर्जित करना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 85,
+      "word": "contemptuous",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "तिरस्कारपूर्ण",
+        "अवमाननापूर्ण"
+      ],
+      "englishDefinition": "Showing that someone or something is considered worthless or beneath respect.",
+      "pronunciation": {
+        "ipa": "/kənˈtemp.tʃu.əs/",
+        "simple": "kuhn-TEMP-choo-uhs"
+      },
+      "examples": [
+        {
+          "sentence": "He gave a contemptuous laugh at the suggestion.",
+          "hindiTranslation": "उसने उस सुझाव पर तिरस्कारपूर्ण हँसी हँसी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scornful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "तिरस्कारपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably scornful.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से scornful था।"
+            }
+          ]
+        },
+        {
+          "word": "disdainful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "उपेक्षापूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably disdainful.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से disdainful था।"
+            }
+          ]
+        },
+        {
+          "word": "derisive",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "उपहासपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably derisive.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से derisive था।"
+            }
+          ]
+        },
+        {
+          "word": "mocking",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मज़ाक उड़ाने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably mocking.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से mocking था।"
+            }
+          ]
+        },
+        {
+          "word": "disrespectful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अनादरपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably disrespectful.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से disrespectful था।"
+            }
+          ]
+        },
+        {
+          "word": "insulting",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अपमानजनक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably insulting.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से insulting था।"
+            }
+          ]
+        },
+        {
+          "word": "sneering",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "तिरस्कारपूर्ण",
+            "व्यंग्यात्मक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably sneering.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से sneering था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "respectful",
+          "hindiMeaning": [
+            "आदरपूर्ण",
+            "सम्मानजनक"
+          ]
+        },
+        {
+          "word": "admiring",
+          "hindiMeaning": [
+            "प्रशंसक",
+            "सराहनीय"
+          ]
+        },
+        {
+          "word": "reverent",
+          "hindiMeaning": [
+            "श्रद्धावान"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 86,
+      "word": "contradict",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "खंडन करना",
+        "विरोधाभास करना"
+      ],
+      "englishDefinition": "To state the opposite of a claim or show that it is wrong.",
+      "pronunciation": {
+        "ipa": "/ˌkɒn.trəˈdɪkt/",
+        "simple": "kon-truh-DIKT"
+      },
+      "examples": [
+        {
+          "sentence": "The new evidence contradicts his earlier statement.",
+          "hindiTranslation": "नया साक्ष्य उसके पहले के बयान का खंडन करता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "refute",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "तर्क",
+            "प्रमाण से गलत साबित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will refute the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को तर्क/प्रमाण से गलत साबित करना।"
+            }
+          ]
+        },
+        {
+          "word": "confute",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "तर्क से गलत साबित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  confute the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को तर्क से गलत साबित करना।"
+            }
+          ]
+        },
+        {
+          "word": "rebut",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "खंडन करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  rebut the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को खंडन करना।"
+            }
+          ]
+        },
+        {
+          "word": "counter",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "जवाबी तर्क देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  counter the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को जवाबी तर्क देना।"
+            }
+          ]
+        },
+        {
+          "word": "dispute",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चुनौती देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  dispute the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को चुनौती देना।"
+            }
+          ]
+        },
+        {
+          "word": "deny",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "इनकार करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  deny the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को इनकार करना।"
+            }
+          ]
+        },
+        {
+          "word": "oppose",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विरोध करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  oppose the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को विरोध करना।"
+            }
+          ]
+        },
+        {
+          "word": "gainsay",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "खंडन करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  gainsay the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को खंडन करना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "confirm",
+          "hindiMeaning": [
+            "पुष्टि करना"
+          ]
+        },
+        {
+          "word": "corroborate",
+          "hindiMeaning": [
+            "समर्थन करना",
+            "प्रमाणित करना"
+          ]
+        },
+        {
+          "word": "agree",
+          "hindiMeaning": [
+            "सहमत होना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 87,
+      "word": "contribute",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "योगदान देना",
+        "अंशदान करना"
+      ],
+      "englishDefinition": "To give or add something toward a shared effort or result.",
+      "pronunciation": {
+        "ipa": "/kənˈtrɪb.juːt/",
+        "simple": "kuhn-TRIB-yoot"
+      },
+      "examples": [
+        {
+          "sentence": "Everyone contributed ideas to the project.",
+          "hindiTranslation": "सभी ने परियोजना में विचारों का योगदान दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "donate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दान देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will donate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को दान देना।"
+            }
+          ]
+        },
+        {
+          "word": "give",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  give the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को देना।"
+            }
+          ]
+        },
+        {
+          "word": "provide",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "उपलब्ध कराना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  provide the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को उपलब्ध कराना।"
+            }
+          ]
+        },
+        {
+          "word": "supply",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आपूर्ति करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  supply the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को आपूर्ति करना।"
+            }
+          ]
+        },
+        {
+          "word": "add",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "जोड़ना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  add the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को जोड़ना।"
+            }
+          ]
+        },
+        {
+          "word": "assist",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सहायता करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  assist the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को सहायता करना।"
+            }
+          ]
+        },
+        {
+          "word": "aid",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मदद करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  aid the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मदद करना।"
+            }
+          ]
+        },
+        {
+          "word": "help",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मदद करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  help the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मदद करना।"
+            }
+          ]
+        },
+        {
+          "word": "share",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "साझा करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  share the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को साझा करना।"
+            }
+          ]
+        },
+        {
+          "word": "subscribe",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अंशदान देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  subscribe the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को अंशदान देना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "withhold",
+          "hindiMeaning": [
+            "रोक कर रखना"
+          ]
+        },
+        {
+          "word": "take",
+          "hindiMeaning": [
+            "लेना"
+          ]
+        },
+        {
+          "word": "withdraw",
+          "hindiMeaning": [
+            "वापस लेना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 88,
+      "word": "convict",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "दोषसिद्ध अपराधी",
+        "दोषी ठहराना"
+      ],
+      "englishDefinition": "A person found guilty of a crime; or to prove guilt in court.",
+      "pronunciation": {
+        "ipa": "/kənˈvɪkt/",
+        "simple": "kuhn-VIKT"
+      },
+      "examples": [
+        {
+          "sentence": "The convict was transferred to another prison.",
+          "hindiTranslation": "दोषसिद्ध अपराधी को दूसरी जेल में भेज दिया गया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "offender",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अपराधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to offender the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को offender करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "lawbreaker",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कानून तोड़ने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to lawbreaker the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को lawbreaker करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "criminal",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अपराधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to criminal the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को criminal करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "felon",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "गंभीर अपराध का दोषी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to felon the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को felon करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "culprit",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दोषी व्यक्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to culprit the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को culprit करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "prisoner",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कैदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to prisoner the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को prisoner करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "inmate",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "जेल",
+            "संस्थान में रहने वाला व्यक्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to inmate the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को inmate करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "wrongdoer",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "गलत काम करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to wrongdoer the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को wrongdoer करने के लिए मतदान किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "acquit",
+          "hindiMeaning": [
+            "बरी करना",
+            "दोषमुक्त करना"
+          ]
+        },
+        {
+          "word": "exonerate",
+          "hindiMeaning": [
+            "निर्दोष ठहराना"
+          ]
+        },
+        {
+          "word": "pardon",
+          "hindiMeaning": [
+            "क्षमा करना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 89,
+      "word": "cordial",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "हार्दिक",
+        "मित्रवत",
+        "सौहार्दपूर्ण"
+      ],
+      "englishDefinition": "Warm, friendly, and sincere.",
+      "pronunciation": {
+        "ipa": "/ˈkɔː.di.əl/",
+        "simple": "KOR-dee-uhl"
+      },
+      "examples": [
+        {
+          "sentence": "The two leaders had a cordial conversation.",
+          "hindiTranslation": "दोनों नेताओं के बीच सौहार्दपूर्ण बातचीत हुई।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "warm",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "गर्मजोशी भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably warm.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से warm था।"
+            }
+          ]
+        },
+        {
+          "word": "friendly",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मित्रवत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably friendly.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से friendly था।"
+            }
+          ]
+        },
+        {
+          "word": "genial",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मिलनसार"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably genial.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से genial था।"
+            }
+          ]
+        },
+        {
+          "word": "affable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विनम्र और मिलनसार"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably affable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से affable था।"
+            }
+          ]
+        },
+        {
+          "word": "amiable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सौम्य",
+            "मित्रवत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably amiable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से amiable था।"
+            }
+          ]
+        },
+        {
+          "word": "gracious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शिष्ट",
+            "दयालु"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably gracious.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से gracious था।"
+            }
+          ]
+        },
+        {
+          "word": "welcoming",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्वागतपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably welcoming.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से welcoming था।"
+            }
+          ]
+        },
+        {
+          "word": "heartfelt",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हार्दिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably heartfelt.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से heartfelt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "hostile",
+          "hindiMeaning": [
+            "शत्रुतापूर्ण",
+            "विरोधी"
+          ]
+        },
+        {
+          "word": "aloof",
+          "hindiMeaning": [
+            "अलग-थलग",
+            "उदासीन"
+          ]
+        },
+        {
+          "word": "unfriendly",
+          "hindiMeaning": [
+            "रूखा",
+            "अमित्रवत"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 90,
+      "word": "credible",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "विश्वसनीय",
+        "भरोसेमंद"
+      ],
+      "englishDefinition": "Able to be believed or trusted.",
+      "pronunciation": {
+        "ipa": "/ˈkred.ə.bəl/",
+        "simple": "KRED-uh-buhl"
+      },
+      "examples": [
+        {
+          "sentence": "The journalist relied on credible sources.",
+          "hindiTranslation": "पत्रकार ने विश्वसनीय स्रोतों पर भरोसा किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "believable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विश्वास करने योग्य"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably believable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से believable था।"
+            }
+          ]
+        },
+        {
+          "word": "trustworthy",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भरोसेमंद"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably trustworthy.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से trustworthy था।"
+            }
+          ]
+        },
+        {
+          "word": "reliable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विश्वसनीय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably reliable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से reliable था।"
+            }
+          ]
+        },
+        {
+          "word": "dependable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भरोसेमंद"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably dependable.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से dependable था।"
+            }
+          ]
+        },
+        {
+          "word": "plausible",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संभव प्रतीत होने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably plausible.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से plausible था।"
+            }
+          ]
+        },
+        {
+          "word": "convincing",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विश्वास दिलाने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably convincing.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से convincing था।"
+            }
+          ]
+        },
+        {
+          "word": "authentic",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "प्रामाणिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably authentic.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से authentic था।"
+            }
+          ]
+        },
+        {
+          "word": "sound",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "ठोस",
+            "विश्वसनीय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably sound.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से sound था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "incredible",
+          "hindiMeaning": [
+            "अविश्वसनीय"
+          ]
+        },
+        {
+          "word": "implausible",
+          "hindiMeaning": [
+            "असंभाव्य",
+            "संदिग्ध"
+          ]
+        },
+        {
+          "word": "unreliable",
+          "hindiMeaning": [
+            "गैर-भरोसेमंद"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 91,
+      "word": "crude",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "कच्चा",
+        "अपरिष्कृत",
+        "असभ्य"
+      ],
+      "englishDefinition": "In a natural or unprocessed state; rough or lacking refinement.",
+      "pronunciation": {
+        "ipa": "/kruːd/",
+        "simple": "KROOD"
+      },
+      "examples": [
+        {
+          "sentence": "The factory processes crude oil into fuel.",
+          "hindiTranslation": "कारखाना कच्चे तेल को ईंधन में बदलता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unrefined",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अपरिष्कृत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unrefined.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unrefined था।"
+            }
+          ]
+        },
+        {
+          "word": "raw",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "कच्चा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably raw.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से raw था।"
+            }
+          ]
+        },
+        {
+          "word": "rough",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "खुरदरा",
+            "अपरिष्कृत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably rough.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से rough था।"
+            }
+          ]
+        },
+        {
+          "word": "unsophisticated",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अपरिष्कृत",
+            "अनगढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unsophisticated.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unsophisticated था।"
+            }
+          ]
+        },
+        {
+          "word": "primitive",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आदिम",
+            "प्रारंभिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably primitive.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से primitive था।"
+            }
+          ]
+        },
+        {
+          "word": "coarse",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भद्दा",
+            "मोटा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably coarse.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से coarse था।"
+            }
+          ]
+        },
+        {
+          "word": "rudimentary",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "प्रारंभिक",
+            "अविकसित"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably rudimentary.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से rudimentary था।"
+            }
+          ]
+        },
+        {
+          "word": "unpolished",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अपरिष्कृत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unpolished.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unpolished था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "refined",
+          "hindiMeaning": [
+            "परिष्कृत",
+            "सभ्य"
+          ]
+        },
+        {
+          "word": "sophisticated",
+          "hindiMeaning": [
+            "जटिल",
+            "सुरुचिपूर्ण"
+          ]
+        },
+        {
+          "word": "polished",
+          "hindiMeaning": [
+            "चमकदार",
+            "तराशा हुआ"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 92,
+      "word": "cruel",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "क्रूर",
+        "निर्दयी"
+      ],
+      "englishDefinition": "Causing pain or suffering without concern for others.",
+      "pronunciation": {
+        "ipa": "/ˈkruː.əl/",
+        "simple": "KROO-uhl"
+      },
+      "examples": [
+        {
+          "sentence": "It was cruel to abandon the injured dog.",
+          "hindiTranslation": "घायल कुत्ते को छोड़ देना निर्दयी था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brutal",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्दयी",
+            "क्रूर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably brutal.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से brutal था।"
+            }
+          ]
+        },
+        {
+          "word": "heartless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्दय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably heartless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से heartless था।"
+            }
+          ]
+        },
+        {
+          "word": "merciless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बेरहम"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably merciless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से merciless था।"
+            }
+          ]
+        },
+        {
+          "word": "ruthless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निष्ठुर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably ruthless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से ruthless था।"
+            }
+          ]
+        },
+        {
+          "word": "callous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संवेदनहीन"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably callous.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से callous था।"
+            }
+          ]
+        },
+        {
+          "word": "inhumane",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अमानवीय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably inhumane.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से inhumane था।"
+            }
+          ]
+        },
+        {
+          "word": "savage",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बर्बर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably savage.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से savage था।"
+            }
+          ]
+        },
+        {
+          "word": "harsh",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "कठोर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably harsh.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से harsh था।"
+            }
+          ]
+        },
+        {
+          "word": "pitiless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्दय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably pitiless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से pitiless था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "kind",
+          "hindiMeaning": [
+            "दयालु",
+            "कृपालु"
+          ]
+        },
+        {
+          "word": "merciful",
+          "hindiMeaning": [
+            "दयावान",
+            "रहमदिल"
+          ]
+        },
+        {
+          "word": "compassionate",
+          "hindiMeaning": [
+            "सहानुभूतिपूर्ण"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 93,
+      "word": "cunning",
+      "partOfSpeech": [
+        "adjective",
+        "noun"
+      ],
+      "hindiMeaning": [
+        "धूर्त",
+        "चालाक",
+        "धूर्तता"
+      ],
+      "englishDefinition": "Clever at achieving aims, often by using deception.",
+      "pronunciation": {
+        "ipa": "/ˈkʌn.ɪŋ/",
+        "simple": "KUN-ing"
+      },
+      "examples": [
+        {
+          "sentence": "The cunning thief escaped through a hidden door.",
+          "hindiTranslation": "धूर्त चोर छिपे हुए दरवाज़े से भाग निकला।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "crafty",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "धूर्त"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably crafty.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से crafty था।"
+            }
+          ]
+        },
+        {
+          "word": "sly",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चालाक",
+            "कपटी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably sly.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से sly था।"
+            }
+          ]
+        },
+        {
+          "word": "artful",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चतुर",
+            "कपटी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably artful.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से artful था।"
+            }
+          ]
+        },
+        {
+          "word": "wily",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "धूर्त"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably wily.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से wily था।"
+            }
+          ]
+        },
+        {
+          "word": "shrewd",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चतुर",
+            "समझदार"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably shrewd.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से shrewd था।"
+            }
+          ]
+        },
+        {
+          "word": "devious",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कुटिल"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably devious.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से devious था।"
+            }
+          ]
+        },
+        {
+          "word": "scheming",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "षड्यंत्रकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably scheming.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से scheming था।"
+            }
+          ]
+        },
+        {
+          "word": "tricky",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चालाक",
+            "पेचीदा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably tricky.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से tricky था।"
+            }
+          ]
+        },
+        {
+          "word": "guileful",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कपटपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably guileful.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से guileful था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "naive",
+          "hindiMeaning": [
+            "सीधा-सादा",
+            "भोला"
+          ]
+        },
+        {
+          "word": "artless",
+          "hindiMeaning": [
+            "निष्कपट",
+            "सहज"
+          ]
+        },
+        {
+          "word": "candid",
+          "hindiMeaning": [
+            "स्पष्टवादी",
+            "सच्चा"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 94,
+      "word": "curtail",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "कम करना",
+        "सीमित करना"
+      ],
+      "englishDefinition": "To reduce or limit something.",
+      "pronunciation": {
+        "ipa": "/kəˈteɪl/",
+        "simple": "ker-TAYL"
+      },
+      "examples": [
+        {
+          "sentence": "The school curtailed unnecessary expenses.",
+          "hindiTranslation": "विद्यालय ने अनावश्यक खर्चों में कटौती की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "reduce",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कम करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will reduce the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को कम करना।"
+            }
+          ]
+        },
+        {
+          "word": "diminish",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "घटाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  diminish the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को घटाना।"
+            }
+          ]
+        },
+        {
+          "word": "lessen",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कम करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  lessen the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को कम करना।"
+            }
+          ]
+        },
+        {
+          "word": "shorten",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "छोटा करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  shorten the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को छोटा करना।"
+            }
+          ]
+        },
+        {
+          "word": "cut back",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कटौती करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  cut back the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को कटौती करना।"
+            }
+          ]
+        },
+        {
+          "word": "restrict",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सीमित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  restrict the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को सीमित करना।"
+            }
+          ]
+        },
+        {
+          "word": "limit",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सीमा तय करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  limit the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को सीमा तय करना।"
+            }
+          ]
+        },
+        {
+          "word": "abate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कम होना",
+            "करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  abate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को कम होना/करना।"
+            }
+          ]
+        },
+        {
+          "word": "trim",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "काटकर कम करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  trim the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को काटकर कम करना।"
+            }
+          ]
+        },
+        {
+          "word": "abbreviate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संक्षिप्त करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  abbreviate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को संक्षिप्त करना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "extend",
+          "hindiMeaning": [
+            "बढ़ाना",
+            "विस्तार करना"
+          ]
+        },
+        {
+          "word": "lengthen",
+          "hindiMeaning": [
+            "लंबा करना"
+          ]
+        },
+        {
+          "word": "expand",
+          "hindiMeaning": [
+            "फैलाना",
+            "प्रसारित करना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 95,
+      "word": "dauntless",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "निर्भीक",
+        "साहसी"
+      ],
+      "englishDefinition": "Showing courage and determination despite danger or difficulty.",
+      "pronunciation": {
+        "ipa": "/ˈdɔːnt.ləs/",
+        "simple": "DAWNT-luhs"
+      },
+      "examples": [
+        {
+          "sentence": "The dauntless firefighter entered the burning building.",
+          "hindiTranslation": "निर्भीक अग्निशामक जलती इमारत में घुस गया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fearless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निडर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably fearless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से fearless था।"
+            }
+          ]
+        },
+        {
+          "word": "bold",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "साहसी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably bold.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से bold था।"
+            }
+          ]
+        },
+        {
+          "word": "brave",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बहादुर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably brave.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से brave था।"
+            }
+          ]
+        },
+        {
+          "word": "courageous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "साहसी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably courageous.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से courageous था।"
+            }
+          ]
+        },
+        {
+          "word": "intrepid",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निडर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably intrepid.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से intrepid था।"
+            }
+          ]
+        },
+        {
+          "word": "valiant",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "वीर",
+            "बहादुर"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably valiant.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से valiant था।"
+            }
+          ]
+        },
+        {
+          "word": "audacious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दुस्साहसी",
+            "साहसी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably audacious.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से audacious था।"
+            }
+          ]
+        },
+        {
+          "word": "undaunted",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अविचलित"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably undaunted.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से undaunted था।"
+            }
+          ]
+        },
+        {
+          "word": "plucky",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हिम्मती"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably plucky.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से plucky था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "fearful",
+          "hindiMeaning": [
+            "भयभीत",
+            "डरपोक"
+          ]
+        },
+        {
+          "word": "timid",
+          "hindiMeaning": [
+            "दब्बू",
+            "संकोची"
+          ]
+        },
+        {
+          "word": "cowardly",
+          "hindiMeaning": [
+            "कायर",
+            "डरपोक"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 96,
+      "word": "dead",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "मृत",
+        "निर्जीव"
+      ],
+      "englishDefinition": "No longer alive; without life.",
+      "pronunciation": {
+        "ipa": "/ded/",
+        "simple": "DED"
+      },
+      "examples": [
+        {
+          "sentence": "The plant was dead after weeks without water.",
+          "hindiTranslation": "कई सप्ताह पानी न मिलने के बाद पौधा मर गया था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lifeless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्जीव"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably lifeless.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से lifeless था।"
+            }
+          ]
+        },
+        {
+          "word": "deceased",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मृत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably deceased.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से deceased था।"
+            }
+          ]
+        },
+        {
+          "word": "defunct",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निष्क्रिय",
+            "समाप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably defunct.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से defunct था।"
+            }
+          ]
+        },
+        {
+          "word": "expired",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मृत",
+            "अवधि समाप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably expired.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से expired था।"
+            }
+          ]
+        },
+        {
+          "word": "departed",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दिवंगत"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably departed.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से departed था।"
+            }
+          ]
+        },
+        {
+          "word": "inanimate",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्जीव"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably inanimate.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से inanimate था।"
+            }
+          ]
+        },
+        {
+          "word": "extinct",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विलुप्त (प्रजाति)"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably extinct.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से extinct था।"
+            }
+          ]
+        },
+        {
+          "word": "nonliving",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निर्जीव"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably nonliving.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से nonliving था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "alive",
+          "hindiMeaning": [
+            "जीवित",
+            "जिंदा"
+          ]
+        },
+        {
+          "word": "living",
+          "hindiMeaning": [
+            "सजीव",
+            "प्राणवान"
+          ]
+        },
+        {
+          "word": "vibrant",
+          "hindiMeaning": [
+            "ऊर्जावान",
+            "सक्रिय"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 97,
+      "word": "deadly",
+      "partOfSpeech": [
+        "adjective",
+        "adverb"
+      ],
+      "hindiMeaning": [
+        "घातक",
+        "जानलेवा"
+      ],
+      "englishDefinition": "Able to cause death or great harm.",
+      "pronunciation": {
+        "ipa": "/ˈded.li/",
+        "simple": "DED-lee"
+      },
+      "examples": [
+        {
+          "sentence": "The snake's bite can be deadly.",
+          "hindiTranslation": "साँप का काटना जानलेवा हो सकता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lethal",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "घातक"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to lethal the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को lethal करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "fatal",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "प्राणघातक"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to fatal the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को fatal करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "mortal",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "मृत्युकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to mortal the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को mortal करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "life-threatening",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "जीवन के लिए खतरनाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to life-threatening the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को life-threatening करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "murderous",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "घातक",
+            "हत्या करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to murderous the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को murderous करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "destructive",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "विनाशकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to destructive the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को destructive करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "dangerous",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "खतरनाक"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to dangerous the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को dangerous करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "pernicious",
+          "partOfSpeech": [
+            "adjective",
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "हानिकारक",
+            "विनाशकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee voted to pernicious the initiative.",
+              "hindiTranslation": "समिति ने इस पहल को pernicious करने के लिए मतदान किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "harmless",
+          "hindiMeaning": [
+            "अहानिकर",
+            "हानिरहित"
+          ]
+        },
+        {
+          "word": "innocuous",
+          "hindiMeaning": [
+            "सुरक्षित",
+            "सीधा"
+          ]
+        },
+        {
+          "word": "curative",
+          "hindiMeaning": [
+            "उपचारात्मक",
+            "आरोग्यकारी"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 98,
+      "word": "dear",
+      "partOfSpeech": [
+        "adjective",
+        "noun"
+      ],
+      "hindiMeaning": [
+        "प्रिय",
+        "महँगा"
+      ],
+      "englishDefinition": "Loved or valued; or costing a lot.",
+      "pronunciation": {
+        "ipa": "/dɪər/",
+        "simple": "DEER"
+      },
+      "examples": [
+        {
+          "sentence": "This watch is dear to me, though it was inexpensive.",
+          "hindiTranslation": "यह घड़ी मुझे प्रिय है, हालाँकि यह महँगी नहीं थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "beloved",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably beloved.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से beloved था।"
+            }
+          ]
+        },
+        {
+          "word": "cherished",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "संजोया हुआ",
+            "प्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably cherished.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से cherished था।"
+            }
+          ]
+        },
+        {
+          "word": "treasured",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुमूल्य",
+            "प्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably treasured.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से treasured था।"
+            }
+          ]
+        },
+        {
+          "word": "precious",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कीमती"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably precious.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से precious था।"
+            }
+          ]
+        },
+        {
+          "word": "adored",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बहुत प्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably adored.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से adored था।"
+            }
+          ]
+        },
+        {
+          "word": "costly",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "महँगा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably costly.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से costly था।"
+            }
+          ]
+        },
+        {
+          "word": "expensive",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "महँगा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably expensive.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से expensive था।"
+            }
+          ]
+        },
+        {
+          "word": "pricey",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "महँगा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably pricey.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से pricey था।"
+            }
+          ]
+        },
+        {
+          "word": "valued",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "मूल्यवान"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably valued.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से valued था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "hated",
+          "hindiMeaning": [
+            "घृणित"
+          ]
+        },
+        {
+          "word": "cheap",
+          "hindiMeaning": [
+            "सस्ता"
+          ]
+        },
+        {
+          "word": "valueless",
+          "hindiMeaning": [
+            "मूल्यहीन"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 99,
+      "word": "decide",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "निर्णय लेना",
+        "तय करना"
+      ],
+      "englishDefinition": "To make a choice or reach a conclusion.",
+      "pronunciation": {
+        "ipa": "/dɪˈsaɪd/",
+        "simple": "di-SYD"
+      },
+      "examples": [
+        {
+          "sentence": "We must decide before the deadline.",
+          "hindiTranslation": "हमें समय-सीमा से पहले निर्णय लेना होगा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "determine",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निर्धारित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will determine the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को निर्धारित करना।"
+            }
+          ]
+        },
+        {
+          "word": "resolve",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निश्चय करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  resolve the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को निश्चय करना।"
+            }
+          ]
+        },
+        {
+          "word": "settle",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "तय करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  settle the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को तय करना।"
+            }
+          ]
+        },
+        {
+          "word": "choose",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चुनना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  choose the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को चुनना।"
+            }
+          ]
+        },
+        {
+          "word": "select",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चयन करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  select the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को चयन करना।"
+            }
+          ]
+        },
+        {
+          "word": "conclude",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निष्कर्ष निकालना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  conclude the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को निष्कर्ष निकालना।"
+            }
+          ]
+        },
+        {
+          "word": "finalize",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अंतिम रूप देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  finalize the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को अंतिम रूप देना।"
+            }
+          ]
+        },
+        {
+          "word": "make up one's mind",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मन बना लेना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  make up one's mind the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मन बना लेना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "hesitate",
+          "hindiMeaning": [
+            "संकोच करना",
+            "हिचकिचाना"
+          ]
+        },
+        {
+          "word": "waver",
+          "hindiMeaning": [
+            "डगमगाना",
+            "अनिर्णय में रहना"
+          ]
+        },
+        {
+          "word": "vacillate",
+          "hindiMeaning": [
+            "झूलना",
+            "डोलना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 100,
+      "word": "differ",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "भिन्न होना",
+        "असहमत होना"
+      ],
+      "englishDefinition": "To be unlike something or to disagree with someone.",
+      "pronunciation": {
+        "ipa": "/ˈdɪf.ər/",
+        "simple": "DIF-er"
+      },
+      "examples": [
+        {
+          "sentence": "Their opinions differ on this issue.",
+          "hindiTranslation": "इस मुद्दे पर उनकी राय अलग-अलग है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vary",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "भिन्न होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will vary the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को भिन्न होना।"
+            }
+          ]
+        },
+        {
+          "word": "diverge",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अलग दिशा में जाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  diverge the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को अलग दिशा में जाना।"
+            }
+          ]
+        },
+        {
+          "word": "disagree",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "असहमत होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  disagree the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को असहमत होना।"
+            }
+          ]
+        },
+        {
+          "word": "contrast",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अंतर दिखाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  contrast the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को अंतर दिखाना।"
+            }
+          ]
+        },
+        {
+          "word": "deviate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "विचलित",
+            "अलग होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  deviate the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को विचलित/अलग होना।"
+            }
+          ]
+        },
+        {
+          "word": "be unlike",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "के समान न होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  be unlike the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को के समान न होना।"
+            }
+          ]
+        },
+        {
+          "word": "conflict",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "टकराना",
+            "विरोध में होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  conflict the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को टकराना/विरोध में होना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "agree",
+          "hindiMeaning": [
+            "सहमत होना"
+          ]
+        },
+        {
+          "word": "concur",
+          "hindiMeaning": [
+            "एकमत होना"
+          ]
+        },
+        {
+          "word": "match",
+          "hindiMeaning": [
+            "मेल खाना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2283 @@
+{
+  "setId": "vocabulary_set_092",
+  "setNumber": 92,
+  "title": "Vocabulary Set 092 — Monotonous to Evince",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2276,
+      "word": "monotonous",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "एक जैस",
+        "उब ऊ",
+        "िीरस"
+      ],
+      "englishDefinition": "Dull, tedious, and repetitious.",
+      "pronunciation": {
+        "ipa": "/monotonous/",
+        "simple": "MONOT-onous"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of monotonous in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में एक जैस के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "charm",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "एक जैस",
+            "उब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was charm.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण charm था।"
+            }
+          ]
+        },
+        {
+          "word": "prosaic",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "एक जैस",
+            "उब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prosaic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prosaic था।"
+            }
+          ]
+        },
+        {
+          "word": "vapid",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "एक जैस",
+            "उब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vapid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vapid था।"
+            }
+          ]
+        },
+        {
+          "word": "dull",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "एक जैस",
+            "उब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dull था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2277,
+      "word": "boring",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "उब ऊ",
+        "िीरस"
+      ],
+      "englishDefinition": "interesting; tedious.",
+      "pronunciation": {
+        "ipa": "/boring/",
+        "simple": "BOR-ing"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of boring in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में उब ऊ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "prosaic",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "उब ऊ",
+            "िीरस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prosaic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prosaic था।"
+            }
+          ]
+        },
+        {
+          "word": "vapid",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "उब ऊ",
+            "िीरस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vapid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vapid था।"
+            }
+          ]
+        },
+        {
+          "word": "dull",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "उब ऊ",
+            "िीरस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dull था।"
+            }
+          ]
+        },
+        {
+          "word": "monotonous",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "उब ऊ",
+            "िीरस"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was monotonous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण monotonous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2278,
+      "word": "lackluster",
+      "partOfSpeech": [
+        "Lacking"
+      ],
+      "hindiMeaning": [
+        "फीक",
+        "निस्तेज",
+        "ऊज िहीि"
+      ],
+      "englishDefinition": "in vitality, force, or conviction.",
+      "pronunciation": {
+        "ipa": "/lackluster/",
+        "simple": "LACKL-uster"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of lackluster in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में फीक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vapid",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "फीक",
+            "निस्तेज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vapid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vapid था।"
+            }
+          ]
+        },
+        {
+          "word": "dull",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "फीक",
+            "निस्तेज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dull था।"
+            }
+          ]
+        },
+        {
+          "word": "monotonous",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "फीक",
+            "निस्तेज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was monotonous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण monotonous था।"
+            }
+          ]
+        },
+        {
+          "word": "boring",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "फीक",
+            "निस्तेज"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boring.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boring था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2279,
+      "word": "humdrum",
+      "partOfSpeech": [
+        "Lacking"
+      ],
+      "hindiMeaning": [
+        "िीरस",
+        "स ध रर्",
+        "स्घस -स्पट"
+      ],
+      "englishDefinition": "excitement or variety; dull.",
+      "pronunciation": {
+        "ipa": "/humdrum/",
+        "simple": "HUM-drum"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of humdrum in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िीरस के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dull",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "िीरस",
+            "स ध रर्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dull.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dull था।"
+            }
+          ]
+        },
+        {
+          "word": "monotonous",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "िीरस",
+            "स ध रर्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was monotonous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण monotonous था।"
+            }
+          ]
+        },
+        {
+          "word": "boring",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "िीरस",
+            "स ध रर्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boring.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boring था।"
+            }
+          ]
+        },
+        {
+          "word": "lackluster",
+          "partOfSpeech": [
+            "Lacking"
+          ],
+          "hindiMeaning": [
+            "िीरस",
+            "स ध रर्"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackluster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackluster था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2280,
+      "word": "tedious",
+      "partOfSpeech": [
+        "Too"
+      ],
+      "hindiMeaning": [
+        "िक ऊ",
+        "ऊब ऊ"
+      ],
+      "englishDefinition": "long, slow, or dull; tiresome.",
+      "pronunciation": {
+        "ipa": "/tedious/",
+        "simple": "TED-ious"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of tedious in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िक ऊ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "monotonous",
+          "partOfSpeech": [
+            "Too"
+          ],
+          "hindiMeaning": [
+            "िक ऊ",
+            "ऊब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was monotonous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण monotonous था।"
+            }
+          ]
+        },
+        {
+          "word": "boring",
+          "partOfSpeech": [
+            "Too"
+          ],
+          "hindiMeaning": [
+            "िक ऊ",
+            "ऊब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boring.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boring था।"
+            }
+          ]
+        },
+        {
+          "word": "lackluster",
+          "partOfSpeech": [
+            "Too"
+          ],
+          "hindiMeaning": [
+            "िक ऊ",
+            "ऊब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackluster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackluster था।"
+            }
+          ]
+        },
+        {
+          "word": "humdrum",
+          "partOfSpeech": [
+            "Too"
+          ],
+          "hindiMeaning": [
+            "िक ऊ",
+            "ऊब ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humdrum.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humdrum था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2281,
+      "word": "terminal",
+      "partOfSpeech": [
+        "Relating"
+      ],
+      "hindiMeaning": [
+        "अांस्तम",
+        "सम स्प्त क"
+      ],
+      "englishDefinition": "to or forming the end; final.",
+      "pronunciation": {
+        "ipa": "/terminal/",
+        "simple": "TERM-inal"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of terminal in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अांस्तम के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "boring",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "अांस्तम",
+            "सम स्प्त क"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was boring.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण boring था।"
+            }
+          ]
+        },
+        {
+          "word": "lackluster",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "अांस्तम",
+            "सम स्प्त क"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackluster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackluster था।"
+            }
+          ]
+        },
+        {
+          "word": "humdrum",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "अांस्तम",
+            "सम स्प्त क"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humdrum.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humdrum था।"
+            }
+          ]
+        },
+        {
+          "word": "tedious",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "अांस्तम",
+            "सम स्प्त क"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tedious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tedious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2282,
+      "word": "culminating",
+      "partOfSpeech": [
+        "Reaching"
+      ],
+      "hindiMeaning": [
+        "चरमोत्कर्य पर पहुुँचिे वाला"
+      ],
+      "englishDefinition": "a point of highest development.",
+      "pronunciation": {
+        "ipa": "/culminating/",
+        "simple": "CULMI-nating"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of culminating in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चरमोत्कर्य पर पहुुँचिे वाला के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lackluster",
+          "partOfSpeech": [
+            "Reaching"
+          ],
+          "hindiMeaning": [
+            "चरमोत्कर्य पर पहुुँचिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackluster.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackluster था।"
+            }
+          ]
+        },
+        {
+          "word": "humdrum",
+          "partOfSpeech": [
+            "Reaching"
+          ],
+          "hindiMeaning": [
+            "चरमोत्कर्य पर पहुुँचिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humdrum.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humdrum था।"
+            }
+          ]
+        },
+        {
+          "word": "tedious",
+          "partOfSpeech": [
+            "Reaching"
+          ],
+          "hindiMeaning": [
+            "चरमोत्कर्य पर पहुुँचिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tedious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tedious था।"
+            }
+          ]
+        },
+        {
+          "word": "terminal",
+          "partOfSpeech": [
+            "Reaching"
+          ],
+          "hindiMeaning": [
+            "चरमोत्कर्य पर पहुुँचिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was terminal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण terminal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2283,
+      "word": "winding-up",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "सम पि",
+        "बांद होिे र्व ल"
+      ],
+      "englishDefinition": "process of bringing a business to an end.",
+      "pronunciation": {
+        "ipa": "/winding-up/",
+        "simple": "WINDI-ng-up"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of winding-up in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सम पि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "humdrum",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम पि",
+            "बांद होिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was humdrum.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण humdrum था।"
+            }
+          ]
+        },
+        {
+          "word": "tedious",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम पि",
+            "बांद होिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tedious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tedious था।"
+            }
+          ]
+        },
+        {
+          "word": "terminal",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम पि",
+            "बांद होिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was terminal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण terminal था।"
+            }
+          ]
+        },
+        {
+          "word": "culminating",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम पि",
+            "बांद होिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culminating.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culminating था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2284,
+      "word": "tumble",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "स्गरि",
+        "लुढ़कि"
+      ],
+      "englishDefinition": "fall suddenly, clumsily; to fall in value.",
+      "pronunciation": {
+        "ipa": "/tumble/",
+        "simple": "TUM-ble"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of tumble in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्गरि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "tedious",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गरि",
+            "लुढ़कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tedious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tedious था।"
+            }
+          ]
+        },
+        {
+          "word": "terminal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गरि",
+            "लुढ़कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was terminal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण terminal था।"
+            }
+          ]
+        },
+        {
+          "word": "culminating",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गरि",
+            "लुढ़कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culminating.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culminating था।"
+            }
+          ]
+        },
+        {
+          "word": "winding-up",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गरि",
+            "लुढ़कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding-up.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding-up था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2285,
+      "word": "plunge",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "गोत  लग ि",
+        "तेजी से स्गरि"
+      ],
+      "englishDefinition": "jump or dive quickly; to fall straight down.",
+      "pronunciation": {
+        "ipa": "/plunge/",
+        "simple": "PLU-nge"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of plunge in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गोत  लग ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "terminal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "गोत  लग ि",
+            "तेजी से स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was terminal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण terminal था।"
+            }
+          ]
+        },
+        {
+          "word": "culminating",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "गोत  लग ि",
+            "तेजी से स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culminating.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culminating था।"
+            }
+          ]
+        },
+        {
+          "word": "winding-up",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "गोत  लग ि",
+            "तेजी से स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding-up.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding-up था।"
+            }
+          ]
+        },
+        {
+          "word": "tumble",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "गोत  लग ि",
+            "तेजी से स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tumble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tumble था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2286,
+      "word": "cascade",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "झरिे की तरह स्गरि"
+      ],
+      "englishDefinition": "pour or fall downwards like a waterfall.",
+      "pronunciation": {
+        "ipa": "/cascade/",
+        "simple": "CAS-cade"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of cascade in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में झरिे की तरह स्गरि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "culminating",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "झरिे की तरह स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culminating.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culminating था।"
+            }
+          ]
+        },
+        {
+          "word": "winding-up",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "झरिे की तरह स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding-up.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding-up था।"
+            }
+          ]
+        },
+        {
+          "word": "tumble",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "झरिे की तरह स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tumble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tumble था।"
+            }
+          ]
+        },
+        {
+          "word": "plunge",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "झरिे की तरह स्गरि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plunge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plunge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2287,
+      "word": "topple",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "स्गर पड़ि",
+        "स्गर  देि"
+      ],
+      "englishDefinition": "lose balance and fall; to cause to fall.",
+      "pronunciation": {
+        "ipa": "/topple/",
+        "simple": "TOP-ple"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of topple in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्गर पड़ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "winding-up",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर पड़ि",
+            "स्गर  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding-up.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding-up था।"
+            }
+          ]
+        },
+        {
+          "word": "tumble",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर पड़ि",
+            "स्गर  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tumble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tumble था।"
+            }
+          ]
+        },
+        {
+          "word": "plunge",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर पड़ि",
+            "स्गर  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plunge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plunge था।"
+            }
+          ]
+        },
+        {
+          "word": "cascade",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर पड़ि",
+            "स्गर  देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cascade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cascade था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2288,
+      "word": "slump",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "स्गर ि",
+        "मांदी आि"
+      ],
+      "englishDefinition": "fall heavily; to undergo a sudden fall in value.",
+      "pronunciation": {
+        "ipa": "/slump/",
+        "simple": "SL-ump"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of slump in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्गर ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "tumble",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर ि",
+            "मांदी आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tumble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tumble था।"
+            }
+          ]
+        },
+        {
+          "word": "plunge",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर ि",
+            "मांदी आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plunge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plunge था।"
+            }
+          ]
+        },
+        {
+          "word": "cascade",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर ि",
+            "मांदी आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cascade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cascade था।"
+            }
+          ]
+        },
+        {
+          "word": "topple",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्गर ि",
+            "मांदी आि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was topple.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण topple था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2289,
+      "word": "obese",
+      "partOfSpeech": [
+        "Grossly"
+      ],
+      "hindiMeaning": [
+        "अत्यस्धक मोट",
+        "थिूलक य"
+      ],
+      "englishDefinition": "fat or overweight.",
+      "pronunciation": {
+        "ipa": "/obese/",
+        "simple": "OB-ese"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of obese in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अत्यस्धक मोट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "plunge",
+          "partOfSpeech": [
+            "Grossly"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक मोट",
+            "थिूलक य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plunge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plunge था।"
+            }
+          ]
+        },
+        {
+          "word": "cascade",
+          "partOfSpeech": [
+            "Grossly"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक मोट",
+            "थिूलक य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cascade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cascade था।"
+            }
+          ]
+        },
+        {
+          "word": "topple",
+          "partOfSpeech": [
+            "Grossly"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक मोट",
+            "थिूलक य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was topple.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण topple था।"
+            }
+          ]
+        },
+        {
+          "word": "slump",
+          "partOfSpeech": [
+            "Grossly"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक मोट",
+            "थिूलक य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slump.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slump था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2290,
+      "word": "corpulent",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "मोिा",
+        "स्थूल",
+        "फू ला हुआ"
+      ],
+      "englishDefinition": "(Of a person) fat.",
+      "pronunciation": {
+        "ipa": "/corpulent/",
+        "simple": "CORP-ulent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably corpulent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मोिा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cascade",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cascade.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cascade था।"
+            }
+          ]
+        },
+        {
+          "word": "topple",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was topple.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण topple था।"
+            }
+          ]
+        },
+        {
+          "word": "slump",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slump.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slump था।"
+            }
+          ]
+        },
+        {
+          "word": "obese",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obese.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obese था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2291,
+      "word": "glutton",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "पेटू",
+        "ख ऊ",
+        "ल लिी"
+      ],
+      "englishDefinition": "excessively greedy eater.",
+      "pronunciation": {
+        "ipa": "/glutton/",
+        "simple": "GLU-tton"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of glutton in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पेटू के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "topple",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पेटू",
+            "ख ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was topple.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण topple था।"
+            }
+          ]
+        },
+        {
+          "word": "slump",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पेटू",
+            "ख ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slump.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slump था।"
+            }
+          ]
+        },
+        {
+          "word": "obese",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पेटू",
+            "ख ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obese.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obese था।"
+            }
+          ]
+        },
+        {
+          "word": "corpulent",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पेटू",
+            "ख ऊ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was corpulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण corpulent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2292,
+      "word": "edacious",
+      "partOfSpeech": [
+        "Relating"
+      ],
+      "hindiMeaning": [
+        "ख ऊ",
+        "पेटू",
+        "भक्षक"
+      ],
+      "englishDefinition": "to or given to eating; greedy.",
+      "pronunciation": {
+        "ipa": "/edacious/",
+        "simple": "EDAC-ious"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of edacious in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ख ऊ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "slump",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "ख ऊ",
+            "पेटू"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slump.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slump था।"
+            }
+          ]
+        },
+        {
+          "word": "obese",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "ख ऊ",
+            "पेटू"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obese.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obese था।"
+            }
+          ]
+        },
+        {
+          "word": "corpulent",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "ख ऊ",
+            "पेटू"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was corpulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण corpulent था।"
+            }
+          ]
+        },
+        {
+          "word": "glutton",
+          "partOfSpeech": [
+            "Relating"
+          ],
+          "hindiMeaning": [
+            "ख ऊ",
+            "पेटू"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glutton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glutton था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2293,
+      "word": "portly",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "मोिा",
+        "स्थूल",
+        "िंदुरुस्ि"
+      ],
+      "englishDefinition": "(Of a man) rather heavy or fat.",
+      "pronunciation": {
+        "ipa": "/portly/",
+        "simple": "POR-tly"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably portly.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मोिा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obese",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obese.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obese था।"
+            }
+          ]
+        },
+        {
+          "word": "corpulent",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was corpulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण corpulent था।"
+            }
+          ]
+        },
+        {
+          "word": "glutton",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glutton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glutton था।"
+            }
+          ]
+        },
+        {
+          "word": "edacious",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "स्थूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was edacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण edacious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2294,
+      "word": "stout",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "मोिा",
+        "मज़बूि",
+        "िगड़ा"
+      ],
+      "englishDefinition": "(Of a person) rather fat or heavily built.",
+      "pronunciation": {
+        "ipa": "/stout/",
+        "simple": "ST-out"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stout in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मोिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "corpulent",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "मज़बूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was corpulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण corpulent था।"
+            }
+          ]
+        },
+        {
+          "word": "glutton",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "मज़बूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glutton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glutton था।"
+            }
+          ]
+        },
+        {
+          "word": "edacious",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "मज़बूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was edacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण edacious था।"
+            }
+          ]
+        },
+        {
+          "word": "portly",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "मोिा",
+            "मज़बूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was portly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण portly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2295,
+      "word": "underpinning",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "आध र",
+        "बुस्िय द",
+        "सह र"
+      ],
+      "englishDefinition": "solid foundation or basis; support structure.",
+      "pronunciation": {
+        "ipa": "/underpinning/",
+        "simple": "UNDERP-inning"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of underpinning in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आध र के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "glutton",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आध र",
+            "बुस्िय द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was glutton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण glutton था।"
+            }
+          ]
+        },
+        {
+          "word": "edacious",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आध र",
+            "बुस्िय द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was edacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण edacious था।"
+            }
+          ]
+        },
+        {
+          "word": "portly",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आध र",
+            "बुस्िय द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was portly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण portly था।"
+            }
+          ]
+        },
+        {
+          "word": "stout",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आध र",
+            "बुस्िय द"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stout.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stout था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2296,
+      "word": "sustain",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "बिाए रखिा",
+        "सहारा देिा"
+      ],
+      "englishDefinition": "support physically or mentally; to uphold.",
+      "pronunciation": {
+        "ipa": "/sustain/",
+        "simple": "SUS-tain"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sustain in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बिाए रखिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "edacious",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बिाए रखिा",
+            "सहारा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was edacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण edacious था।"
+            }
+          ]
+        },
+        {
+          "word": "portly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बिाए रखिा",
+            "सहारा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was portly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण portly था।"
+            }
+          ]
+        },
+        {
+          "word": "stout",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बिाए रखिा",
+            "सहारा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stout.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stout था।"
+            }
+          ]
+        },
+        {
+          "word": "underpinning",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बिाए रखिा",
+            "सहारा देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was underpinning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण underpinning था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2297,
+      "word": "reveal",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "प्रकि करिा",
+        "रहस्य खोलिा"
+      ],
+      "englishDefinition": "make known; to allow to be seen.",
+      "pronunciation": {
+        "ipa": "/reveal/",
+        "simple": "REV-eal"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of reveal in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रकि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "portly",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रकि करिा",
+            "रहस्य खोलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was portly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण portly था।"
+            }
+          ]
+        },
+        {
+          "word": "stout",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रकि करिा",
+            "रहस्य खोलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stout.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stout था।"
+            }
+          ]
+        },
+        {
+          "word": "underpinning",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रकि करिा",
+            "रहस्य खोलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was underpinning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण underpinning था।"
+            }
+          ]
+        },
+        {
+          "word": "sustain",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रकि करिा",
+            "रहस्य खोलिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sustain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sustain था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2298,
+      "word": "demonstrate",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "प्रदस्शित करि",
+        "स स्बत करि"
+      ],
+      "englishDefinition": "clearly show the existence or truth of.",
+      "pronunciation": {
+        "ipa": "/demonstrate/",
+        "simple": "DEMON-strate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of demonstrate in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रदस्शित करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stout",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "स स्बत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stout.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stout था।"
+            }
+          ]
+        },
+        {
+          "word": "underpinning",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "स स्बत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was underpinning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण underpinning था।"
+            }
+          ]
+        },
+        {
+          "word": "sustain",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "स स्बत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sustain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sustain था।"
+            }
+          ]
+        },
+        {
+          "word": "reveal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "स स्बत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reveal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reveal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2299,
+      "word": "disclose",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "खुलासा करिा",
+        "प्रकि करिा"
+      ],
+      "englishDefinition": "make (secret information) known.",
+      "pronunciation": {
+        "ipa": "/disclose/",
+        "simple": "DISC-lose"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of disclose in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में खुलासा करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "underpinning",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "खुलासा करिा",
+            "प्रकि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was underpinning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण underpinning था।"
+            }
+          ]
+        },
+        {
+          "word": "sustain",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "खुलासा करिा",
+            "प्रकि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sustain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sustain था।"
+            }
+          ]
+        },
+        {
+          "word": "reveal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "खुलासा करिा",
+            "प्रकि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reveal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reveal था।"
+            }
+          ]
+        },
+        {
+          "word": "demonstrate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "खुलासा करिा",
+            "प्रकि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demonstrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demonstrate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2300,
+      "word": "evince",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "प्रदस्शित करि",
+        "प्रकट करि"
+      ],
+      "englishDefinition": "reveal the presence of; to indicate.",
+      "pronunciation": {
+        "ipa": "/evince/",
+        "simple": "EVI-nce"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of evince in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रदस्शित करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sustain",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "प्रकट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sustain.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sustain था।"
+            }
+          ]
+        },
+        {
+          "word": "reveal",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "प्रकट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reveal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reveal था।"
+            }
+          ]
+        },
+        {
+          "word": "demonstrate",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "प्रकट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was demonstrate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण demonstrate था।"
+            }
+          ]
+        },
+        {
+          "word": "disclose",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "प्रदस्शित करि",
+            "प्रकट करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was disclose.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण disclose था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

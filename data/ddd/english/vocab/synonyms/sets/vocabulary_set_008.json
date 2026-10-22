@@ -1,0 +1,2267 @@
+{
+  "setId": "vocabulary_set_008",
+  "setNumber": 8,
+  "title": "Vocabulary Set 008 — Ghastly to Persecute",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 176,
+      "word": "ghastly",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "डर र्वि",
+        "भय िक"
+      ],
+      "englishDefinition": "Terrifyingly horrible to the senses; intense (mnemonic: ghost).",
+      "pronunciation": {
+        "ipa": "/ghastly/",
+        "simple": "GHA-stly"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably ghastly.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से डर र्वि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "veracity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "डर र्वि",
+            "भय िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veracity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veracity था।"
+            }
+          ]
+        },
+        {
+          "word": "comely",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "डर र्वि",
+            "भय िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comely था।"
+            }
+          ]
+        },
+        {
+          "word": "pulchritudinous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "डर र्वि",
+            "भय िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pulchritudinous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pulchritudinous था।"
+            }
+          ]
+        },
+        {
+          "word": "hideous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "डर र्वि",
+            "भय िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hideous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hideous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 177,
+      "word": "adulation",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "अनि-प्रशंसा",
+        "चापलूसी"
+      ],
+      "englishDefinition": "Excessive or slavish admiration or flattery.",
+      "pronunciation": {
+        "ipa": "/adulation/",
+        "simple": "ADUL-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of adulation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अनि-प्रशंसा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "comely",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनि-प्रशंसा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comely था।"
+            }
+          ]
+        },
+        {
+          "word": "pulchritudinous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनि-प्रशंसा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pulchritudinous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pulchritudinous था।"
+            }
+          ]
+        },
+        {
+          "word": "hideous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनि-प्रशंसा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hideous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hideous था।"
+            }
+          ]
+        },
+        {
+          "word": "ghastly",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनि-प्रशंसा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ghastly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ghastly था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 178,
+      "word": "adulteration",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "स्मल र्वट"
+      ],
+      "englishDefinition": "The process of making something impure by adding inferior ingredients.",
+      "pronunciation": {
+        "ipa": "/adulteration/",
+        "simple": "ADULTE-ration"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of adulteration in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्मल र्वट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pulchritudinous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्मल र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pulchritudinous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pulchritudinous था।"
+            }
+          ]
+        },
+        {
+          "word": "hideous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्मल र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hideous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hideous था।"
+            }
+          ]
+        },
+        {
+          "word": "ghastly",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्मल र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ghastly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ghastly था।"
+            }
+          ]
+        },
+        {
+          "word": "adulation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "स्मल र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 179,
+      "word": "obsequious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ि पलूस (कत र में खड़े होकर)"
+      ],
+      "englishDefinition": "Marked by or exhibiting a fawning attentiveness.",
+      "pronunciation": {
+        "ipa": "/obsequious/",
+        "simple": "OBSEQ-uious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably obsequious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ि पलूस (कत र में खड़े होकर) थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hideous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ि पलूस (कत र में खड़े होकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hideous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hideous था।"
+            }
+          ]
+        },
+        {
+          "word": "ghastly",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ि पलूस (कत र में खड़े होकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ghastly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ghastly था।"
+            }
+          ]
+        },
+        {
+          "word": "adulation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ि पलूस (कत र में खड़े होकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulation था।"
+            }
+          ]
+        },
+        {
+          "word": "adulteration",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ि पलूस (कत र में खड़े होकर)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulteration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulteration था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 180,
+      "word": "coax",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "फु सलािा",
+        "चापलूसी करिा",
+        "मिािा"
+      ],
+      "englishDefinition": "To influence or gently urge by caressing or flattering.",
+      "pronunciation": {
+        "ipa": "/coax/",
+        "simple": "COAX"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to coax the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को फु सलािा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ghastly",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "फु सलािा",
+            "चापलूसी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ghastly.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ghastly था।"
+            }
+          ]
+        },
+        {
+          "word": "adulation",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "फु सलािा",
+            "चापलूसी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulation था।"
+            }
+          ]
+        },
+        {
+          "word": "adulteration",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "फु सलािा",
+            "चापलूसी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulteration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulteration था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "फु सलािा",
+            "चापलूसी करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 181,
+      "word": "sycophancy",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "चापलूसी",
+        "खुशामद"
+      ],
+      "englishDefinition": "The character or behavior of a self-seeking flatterer.",
+      "pronunciation": {
+        "ipa": "/sycophancy/",
+        "simple": "SYCOP-hancy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sycophancy in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चापलूसी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "adulation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चापलूसी",
+            "खुशामद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulation था।"
+            }
+          ]
+        },
+        {
+          "word": "adulteration",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चापलूसी",
+            "खुशामद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulteration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulteration था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चापलूसी",
+            "खुशामद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequious था।"
+            }
+          ]
+        },
+        {
+          "word": "coax",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चापलूसी",
+            "खुशामद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coax था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 182,
+      "word": "fawning",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ि पलूसी करि  (हर्व",
+        "पांख  करि )"
+      ],
+      "englishDefinition": "Seeking or used to seek approval or favor by means of flattery.",
+      "pronunciation": {
+        "ipa": "/fawning/",
+        "simple": "FAW-ning"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to fawning the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ि पलूसी करि  (हर्व करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "adulteration",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि पलूसी करि  (हर्व",
+            "पांख  करि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was adulteration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण adulteration था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि पलूसी करि  (हर्व",
+            "पांख  करि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequious था।"
+            }
+          ]
+        },
+        {
+          "word": "coax",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि पलूसी करि  (हर्व",
+            "पांख  करि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coax था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophancy",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि पलूसी करि  (हर्व",
+            "पांख  करि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophancy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophancy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 183,
+      "word": "blandish",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "मीठी ब तों से स्मल ि",
+        "ि पलूसी"
+      ],
+      "englishDefinition": "To coax with flattery or sweet talk.",
+      "pronunciation": {
+        "ipa": "/blandish/",
+        "simple": "BLAN-dish"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to blandish the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को मीठी ब तों से स्मल ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obsequious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मीठी ब तों से स्मल ि",
+            "ि पलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequious था।"
+            }
+          ]
+        },
+        {
+          "word": "coax",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मीठी ब तों से स्मल ि",
+            "ि पलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coax था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophancy",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मीठी ब तों से स्मल ि",
+            "ि पलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophancy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophancy था।"
+            }
+          ]
+        },
+        {
+          "word": "fawning",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मीठी ब तों से स्मल ि",
+            "ि पलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fawning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fawning था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 184,
+      "word": "wheedle",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "खुश मद करके  ब त मिर्व ि"
+      ],
+      "englishDefinition": "To influence or entice by soft words or flattery.",
+      "pronunciation": {
+        "ipa": "/wheedle/",
+        "simple": "WHE-edle"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to wheedle the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को खुश मद करके  ब त मिर्व ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "coax",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "खुश मद करके  ब त मिर्व ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coax था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophancy",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "खुश मद करके  ब त मिर्व ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophancy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophancy था।"
+            }
+          ]
+        },
+        {
+          "word": "fawning",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "खुश मद करके  ब त मिर्व ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fawning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fawning था।"
+            }
+          ]
+        },
+        {
+          "word": "blandish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "खुश मद करके  ब त मिर्व ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blandish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blandish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 185,
+      "word": "bootlicking",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "जूिे चाििा",
+        "चापलूसी"
+      ],
+      "englishDefinition": "To behave like a sycophant toward someone.",
+      "pronunciation": {
+        "ipa": "/bootlicking/",
+        "simple": "BOOTL-icking"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of bootlicking in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में जूिे चाििा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sycophancy",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "जूिे चाििा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophancy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophancy था।"
+            }
+          ]
+        },
+        {
+          "word": "fawning",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "जूिे चाििा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fawning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fawning था।"
+            }
+          ]
+        },
+        {
+          "word": "blandish",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "जूिे चाििा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blandish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blandish था।"
+            }
+          ]
+        },
+        {
+          "word": "wheedle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "जूिे चाििा",
+            "चापलूसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wheedle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wheedle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 186,
+      "word": "toady",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "चािुकार",
+        "खुशामदी"
+      ],
+      "englishDefinition": "One who flatters in the hope of gaining favors.",
+      "pronunciation": {
+        "ipa": "/toady/",
+        "simple": "TO-ady"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of toady in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चािुकार के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fawning",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चािुकार",
+            "खुशामदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fawning.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fawning था।"
+            }
+          ]
+        },
+        {
+          "word": "blandish",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चािुकार",
+            "खुशामदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blandish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blandish था।"
+            }
+          ]
+        },
+        {
+          "word": "wheedle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चािुकार",
+            "खुशामदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wheedle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wheedle था।"
+            }
+          ]
+        },
+        {
+          "word": "bootlicking",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "चािुकार",
+            "खुशामदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bootlicking.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bootlicking था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 187,
+      "word": "ingratiate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "कृ प  प ि बिि",
+        "खुश करि"
+      ],
+      "englishDefinition": "To gain favor or favorable acceptance for oneself by deliberate effort.",
+      "pronunciation": {
+        "ipa": "/ingratiate/",
+        "simple": "INGRA-tiate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ingratiate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को कृ प  प ि बिि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "blandish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कृ प  प ि बिि",
+            "खुश करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was blandish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण blandish था।"
+            }
+          ]
+        },
+        {
+          "word": "wheedle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कृ प  प ि बिि",
+            "खुश करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wheedle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wheedle था।"
+            }
+          ]
+        },
+        {
+          "word": "bootlicking",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कृ प  प ि बिि",
+            "खुश करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bootlicking.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bootlicking था।"
+            }
+          ]
+        },
+        {
+          "word": "toady",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कृ प  प ि बिि",
+            "खुश करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toady.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toady था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 188,
+      "word": "chide",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ड ांटि",
+        "फटक रि"
+      ],
+      "englishDefinition": "To voice disapproval to: reproach in a mild or constructive manner.",
+      "pronunciation": {
+        "ipa": "/chide/",
+        "simple": "CH-ide"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to chide the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ड ांटि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "wheedle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ड ांटि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wheedle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wheedle था।"
+            }
+          ]
+        },
+        {
+          "word": "bootlicking",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ड ांटि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bootlicking.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bootlicking था।"
+            }
+          ]
+        },
+        {
+          "word": "toady",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ड ांटि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toady.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toady था।"
+            }
+          ]
+        },
+        {
+          "word": "ingratiate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ड ांटि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ingratiate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ingratiate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 189,
+      "word": "berate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "जोर से ड ांटि",
+        "स्िांद  करि"
+      ],
+      "englishDefinition": "To scold or condemn vehemently and at length.",
+      "pronunciation": {
+        "ipa": "/berate/",
+        "simple": "BER-ate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to berate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को जोर से ड ांटि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "bootlicking",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जोर से ड ांटि",
+            "स्िांद  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bootlicking.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bootlicking था।"
+            }
+          ]
+        },
+        {
+          "word": "toady",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जोर से ड ांटि",
+            "स्िांद  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toady.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toady था।"
+            }
+          ]
+        },
+        {
+          "word": "ingratiate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जोर से ड ांटि",
+            "स्िांद  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ingratiate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ingratiate था।"
+            }
+          ]
+        },
+        {
+          "word": "chide",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जोर से ड ांटि",
+            "स्िांद  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chide.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chide था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 190,
+      "word": "aspersion",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कलांक",
+        "स्िांद  (बदि मी)"
+      ],
+      "englishDefinition": "A false or misleading charge meant to harm someone's reputation.",
+      "pronunciation": {
+        "ipa": "/aspersion/",
+        "simple": "ASPE-rsion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of aspersion in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कलांक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "toady",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कलांक",
+            "स्िांद  (बदि मी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toady.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toady था।"
+            }
+          ]
+        },
+        {
+          "word": "ingratiate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कलांक",
+            "स्िांद  (बदि मी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ingratiate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ingratiate था।"
+            }
+          ]
+        },
+        {
+          "word": "chide",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कलांक",
+            "स्िांद  (बदि मी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chide.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chide था।"
+            }
+          ]
+        },
+        {
+          "word": "berate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कलांक",
+            "स्िांद  (बदि मी)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was berate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण berate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 191,
+      "word": "upbraid",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्धक्क रि",
+        "फटक रि"
+      ],
+      "englishDefinition": "To criticize severely: find fault with.",
+      "pronunciation": {
+        "ipa": "/upbraid/",
+        "simple": "UPB-raid"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to upbraid the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्धक्क रि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ingratiate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्धक्क रि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ingratiate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ingratiate था।"
+            }
+          ]
+        },
+        {
+          "word": "chide",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्धक्क रि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chide.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chide था।"
+            }
+          ]
+        },
+        {
+          "word": "berate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्धक्क रि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was berate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण berate था।"
+            }
+          ]
+        },
+        {
+          "word": "aspersion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्धक्क रि",
+            "फटक रि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aspersion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aspersion था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 192,
+      "word": "condemn",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्िांद  करि",
+        "दोषी ठहर ि"
+      ],
+      "englishDefinition": "To declare to be reprehensible, wrong, or evil.",
+      "pronunciation": {
+        "ipa": "/condemn/",
+        "simple": "CON-demn"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to condemn the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्िांद  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chide",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांद  करि",
+            "दोषी ठहर ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chide.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chide था।"
+            }
+          ]
+        },
+        {
+          "word": "berate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांद  करि",
+            "दोषी ठहर ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was berate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण berate था।"
+            }
+          ]
+        },
+        {
+          "word": "aspersion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांद  करि",
+            "दोषी ठहर ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aspersion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aspersion था।"
+            }
+          ]
+        },
+        {
+          "word": "upbraid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्िांद  करि",
+            "दोषी ठहर ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was upbraid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण upbraid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 193,
+      "word": "reproach",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "नधक्कारिा",
+        "निंदा"
+      ],
+      "englishDefinition": "To express disappointment in or displeasure with (a person) for conduct",
+      "pronunciation": {
+        "ipa": "/reproach/",
+        "simple": "REPR-oach"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to reproach the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को नधक्कारिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "berate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "नधक्कारिा",
+            "निंदा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was berate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण berate था।"
+            }
+          ]
+        },
+        {
+          "word": "aspersion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "नधक्कारिा",
+            "निंदा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aspersion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aspersion था।"
+            }
+          ]
+        },
+        {
+          "word": "upbraid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "नधक्कारिा",
+            "निंदा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was upbraid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण upbraid था।"
+            }
+          ]
+        },
+        {
+          "word": "condemn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "नधक्कारिा",
+            "निंदा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condemn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condemn था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 194,
+      "word": "opprobrium",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "अपम ि",
+        "स्िांद"
+      ],
+      "englishDefinition": "Something that brings disgrace.",
+      "pronunciation": {
+        "ipa": "/opprobrium/",
+        "simple": "OPPRO-brium"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of opprobrium in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अपम ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "aspersion",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अपम ि",
+            "स्िांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aspersion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aspersion था।"
+            }
+          ]
+        },
+        {
+          "word": "upbraid",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अपम ि",
+            "स्िांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was upbraid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण upbraid था।"
+            }
+          ]
+        },
+        {
+          "word": "condemn",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अपम ि",
+            "स्िांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condemn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condemn था।"
+            }
+          ]
+        },
+        {
+          "word": "reproach",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अपम ि",
+            "स्िांद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproach.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproach था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 195,
+      "word": "pester",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "परेश ि करि",
+        "ि क में दम करि"
+      ],
+      "englishDefinition": "To harass with petty irritations : annoy.",
+      "pronunciation": {
+        "ipa": "/pester/",
+        "simple": "PES-ter"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to pester the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को परेश ि करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "upbraid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "ि क में दम करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was upbraid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण upbraid था।"
+            }
+          ]
+        },
+        {
+          "word": "condemn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "ि क में दम करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condemn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condemn था।"
+            }
+          ]
+        },
+        {
+          "word": "reproach",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "ि क में दम करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproach.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproach था।"
+            }
+          ]
+        },
+        {
+          "word": "opprobrium",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "ि क में दम करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opprobrium.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opprobrium था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 196,
+      "word": "vex",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "िंग करिा",
+        "सिािा",
+        "नचढािा"
+      ],
+      "englishDefinition": "To bring trouble, distress, or agitation to.",
+      "pronunciation": {
+        "ipa": "/vex/",
+        "simple": "VEX"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to vex the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को िंग करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "condemn",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िंग करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condemn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condemn था।"
+            }
+          ]
+        },
+        {
+          "word": "reproach",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िंग करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproach.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproach था।"
+            }
+          ]
+        },
+        {
+          "word": "opprobrium",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िंग करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opprobrium.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opprobrium था।"
+            }
+          ]
+        },
+        {
+          "word": "pester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िंग करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pester था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 197,
+      "word": "nettle",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "ि र ज करि",
+        "तांग करि"
+      ],
+      "englishDefinition": "To arouse to sharp but transitory annoyance or anger.",
+      "pronunciation": {
+        "ipa": "/nettle/",
+        "simple": "NET-tle"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to nettle the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ि र ज करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "reproach",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि र ज करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was reproach.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण reproach था।"
+            }
+          ]
+        },
+        {
+          "word": "opprobrium",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि र ज करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opprobrium.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opprobrium था।"
+            }
+          ]
+        },
+        {
+          "word": "pester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि र ज करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pester था।"
+            }
+          ]
+        },
+        {
+          "word": "vex",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "ि र ज करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vex था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 198,
+      "word": "badger",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "तांग करि  (पीिे पड़ ज ि )"
+      ],
+      "englishDefinition": "To harass or annoy persistently.",
+      "pronunciation": {
+        "ipa": "/badger/",
+        "simple": "BAD-ger"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to badger the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को तांग करि  (पीिे पड़ ज ि ) करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "opprobrium",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "तांग करि  (पीिे पड़ ज ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opprobrium.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opprobrium था।"
+            }
+          ]
+        },
+        {
+          "word": "pester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "तांग करि  (पीिे पड़ ज ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pester था।"
+            }
+          ]
+        },
+        {
+          "word": "vex",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "तांग करि  (पीिे पड़ ज ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vex था।"
+            }
+          ]
+        },
+        {
+          "word": "nettle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "तांग करि  (पीिे पड़ ज ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nettle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nettle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 199,
+      "word": "beleaguer",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "घेर बांदी करि",
+        "परेश ि करि"
+      ],
+      "englishDefinition": "To trouble or harass.",
+      "pronunciation": {
+        "ipa": "/beleaguer/",
+        "simple": "BELE-aguer"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to beleaguer the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को घेर बांदी करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pester",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घेर बांदी करि",
+            "परेश ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pester.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pester था।"
+            }
+          ]
+        },
+        {
+          "word": "vex",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घेर बांदी करि",
+            "परेश ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vex था।"
+            }
+          ]
+        },
+        {
+          "word": "nettle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घेर बांदी करि",
+            "परेश ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nettle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nettle था।"
+            }
+          ]
+        },
+        {
+          "word": "badger",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घेर बांदी करि",
+            "परेश ि करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was badger.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण badger था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 200,
+      "word": "persecute",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "अत्याचार करिा",
+        "सिािा",
+        "पीनड़ि करिा"
+      ],
+      "englishDefinition": "To harass or punish in a manner designed to injure, grieve, or afflict.",
+      "pronunciation": {
+        "ipa": "/persecute/",
+        "simple": "PERS-ecute"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to persecute the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अत्याचार करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vex",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अत्याचार करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vex था।"
+            }
+          ]
+        },
+        {
+          "word": "nettle",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अत्याचार करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was nettle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण nettle था।"
+            }
+          ]
+        },
+        {
+          "word": "badger",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अत्याचार करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was badger.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण badger था।"
+            }
+          ]
+        },
+        {
+          "word": "beleaguer",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "अत्याचार करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was beleaguer.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण beleaguer था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

@@ -1,0 +1,2303 @@
+{
+  "setId": "vocabulary_set_098",
+  "setNumber": 98,
+  "title": "Vocabulary Set 098 — Duress to Recondite",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2426,
+      "word": "duress",
+      "partOfSpeech": [
+        "N"
+      ],
+      "hindiMeaning": [
+        "दबाव",
+        "ज़ोर",
+        "बाध्यिा"
+      ],
+      "englishDefinition": "Threats, violence, constraints used to force someone to do",
+      "pronunciation": {
+        "ipa": "/duress/",
+        "simple": "DUR-ess"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of duress in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दबाव के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scheme",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ज़ोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scheme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scheme था।"
+            }
+          ]
+        },
+        {
+          "word": "artifice",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ज़ोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was artifice.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण artifice था।"
+            }
+          ]
+        },
+        {
+          "word": "compulsion",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ज़ोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsion था।"
+            }
+          ]
+        },
+        {
+          "word": "obligation",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ज़ोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2427,
+      "word": "pressure",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "दबाव",
+        "ििाव",
+        "ज़ोर"
+      ],
+      "englishDefinition": "use of persuasion, influence, or intimidation to make",
+      "pronunciation": {
+        "ipa": "/pressure/",
+        "simple": "PRES-sure"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pressure in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दबाव के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "artifice",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ििाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was artifice.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण artifice था।"
+            }
+          ]
+        },
+        {
+          "word": "compulsion",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ििाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsion था।"
+            }
+          ]
+        },
+        {
+          "word": "obligation",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ििाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligation था।"
+            }
+          ]
+        },
+        {
+          "word": "duress",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "दबाव",
+            "ििाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was duress.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण duress था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2428,
+      "word": "coercion",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "जबरदस्िी",
+        "दबाव",
+        "बल प्रयोग"
+      ],
+      "englishDefinition": "practice of persuading someone to do something by using",
+      "pronunciation": {
+        "ipa": "/coercion/",
+        "simple": "COER-cion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of coercion in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में जबरदस्िी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "compulsion",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "जबरदस्िी",
+            "दबाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compulsion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compulsion था।"
+            }
+          ]
+        },
+        {
+          "word": "obligation",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "जबरदस्िी",
+            "दबाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligation था।"
+            }
+          ]
+        },
+        {
+          "word": "duress",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "जबरदस्िी",
+            "दबाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was duress.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण duress था।"
+            }
+          ]
+        },
+        {
+          "word": "pressure",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "जबरदस्िी",
+            "दबाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pressure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pressure था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2429,
+      "word": "constraint",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "ब ध्यत",
+        "अर्वरोध",
+        "स्ियांिर्"
+      ],
+      "englishDefinition": "limitation or restriction; compulsion by force. 10",
+      "pronunciation": {
+        "ipa": "/constraint/",
+        "simple": "CONST-raint"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of constraint in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ब ध्यत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obligation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ब ध्यत",
+            "अर्वरोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obligation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obligation था।"
+            }
+          ]
+        },
+        {
+          "word": "duress",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ब ध्यत",
+            "अर्वरोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was duress.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण duress था।"
+            }
+          ]
+        },
+        {
+          "word": "pressure",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ब ध्यत",
+            "अर्वरोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pressure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pressure था।"
+            }
+          ]
+        },
+        {
+          "word": "coercion",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ब ध्यत",
+            "अर्वरोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coercion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coercion था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2430,
+      "word": "enforcement",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "प्रवियि",
+        "लागू करिा",
+        "बलपूवयक पालि करािा"
+      ],
+      "englishDefinition": "act of compelling observance of or compliance with a law or",
+      "pronunciation": {
+        "ipa": "/enforcement/",
+        "simple": "ENFOR-cement"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of enforcement in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रवियि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "duress",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्रवियि",
+            "लागू करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was duress.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण duress था।"
+            }
+          ]
+        },
+        {
+          "word": "pressure",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्रवियि",
+            "लागू करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pressure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pressure था।"
+            }
+          ]
+        },
+        {
+          "word": "coercion",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्रवियि",
+            "लागू करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coercion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coercion था।"
+            }
+          ]
+        },
+        {
+          "word": "constraint",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "प्रवियि",
+            "लागू करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was constraint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण constraint था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2431,
+      "word": "necessity",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "आवश्यकिा",
+        "अनिवाययिा",
+        "मजबूरी"
+      ],
+      "englishDefinition": "fact of being required or indispensable; compulsion due to",
+      "pronunciation": {
+        "ipa": "/necessity/",
+        "simple": "NECE-ssity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of necessity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आवश्यकिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pressure",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "आवश्यकिा",
+            "अनिवाययिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pressure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pressure था।"
+            }
+          ]
+        },
+        {
+          "word": "coercion",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "आवश्यकिा",
+            "अनिवाययिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coercion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coercion था।"
+            }
+          ]
+        },
+        {
+          "word": "constraint",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "आवश्यकिा",
+            "अनिवाययिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was constraint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण constraint था।"
+            }
+          ]
+        },
+        {
+          "word": "enforcement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "आवश्यकिा",
+            "अनिवाययिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was enforcement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण enforcement था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2432,
+      "word": "fetter",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "बाुँधिा",
+        "रोकिा",
+        "जंजीर डालिा"
+      ],
+      "englishDefinition": "restrain with shackles; to confine or restrict. 13",
+      "pronunciation": {
+        "ipa": "/fetter/",
+        "simple": "FET-ter"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of fetter in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बाुँधिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "coercion",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बाुँधिा",
+            "रोकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was coercion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण coercion था।"
+            }
+          ]
+        },
+        {
+          "word": "constraint",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बाुँधिा",
+            "रोकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was constraint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण constraint था।"
+            }
+          ]
+        },
+        {
+          "word": "enforcement",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बाुँधिा",
+            "रोकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was enforcement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण enforcement था।"
+            }
+          ]
+        },
+        {
+          "word": "necessity",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "बाुँधिा",
+            "रोकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was necessity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण necessity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2433,
+      "word": "incongruity",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "असंगनि",
+        "अिौनचत्य",
+        "नवरूपिा"
+      ],
+      "englishDefinition": "state of being out of keeping or out of place; inappropriate.",
+      "pronunciation": {
+        "ipa": "/incongruity/",
+        "simple": "INCON-gruity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of incongruity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असंगनि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "constraint",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "अिौनचत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was constraint.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण constraint था।"
+            }
+          ]
+        },
+        {
+          "word": "enforcement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "अिौनचत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was enforcement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण enforcement था।"
+            }
+          ]
+        },
+        {
+          "word": "necessity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "अिौनचत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was necessity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण necessity था।"
+            }
+          ]
+        },
+        {
+          "word": "fetter",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "अिौनचत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fetter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fetter था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2434,
+      "word": "dissimilarity",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "असम ित",
+        "भेद",
+        "अांतर"
+      ],
+      "englishDefinition": "quality or state of being dissimilar; difference. 16",
+      "pronunciation": {
+        "ipa": "/dissimilarity/",
+        "simple": "DISSIM-ilarity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of dissimilarity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असम ित के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "enforcement",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असम ित",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was enforcement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण enforcement था।"
+            }
+          ]
+        },
+        {
+          "word": "necessity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असम ित",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was necessity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण necessity था।"
+            }
+          ]
+        },
+        {
+          "word": "fetter",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असम ित",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fetter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fetter था।"
+            }
+          ]
+        },
+        {
+          "word": "incongruity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असम ित",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incongruity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incongruity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2435,
+      "word": "discordance",
+      "partOfSpeech": [
+        "Lack"
+      ],
+      "hindiMeaning": [
+        "असांगस्त",
+        "त लमेल क  अभ र्व",
+        "अिबि"
+      ],
+      "englishDefinition": "of agreement or harmony. 17",
+      "pronunciation": {
+        "ipa": "/discordance/",
+        "simple": "DISCO-rdance"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of discordance in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असांगस्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "necessity",
+          "partOfSpeech": [
+            "Lack"
+          ],
+          "hindiMeaning": [
+            "असांगस्त",
+            "त लमेल क  अभ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was necessity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण necessity था।"
+            }
+          ]
+        },
+        {
+          "word": "fetter",
+          "partOfSpeech": [
+            "Lack"
+          ],
+          "hindiMeaning": [
+            "असांगस्त",
+            "त लमेल क  अभ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fetter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fetter था।"
+            }
+          ]
+        },
+        {
+          "word": "incongruity",
+          "partOfSpeech": [
+            "Lack"
+          ],
+          "hindiMeaning": [
+            "असांगस्त",
+            "त लमेल क  अभ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incongruity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incongruity था।"
+            }
+          ]
+        },
+        {
+          "word": "dissimilarity",
+          "partOfSpeech": [
+            "Lack"
+          ],
+          "hindiMeaning": [
+            "असांगस्त",
+            "त लमेल क  अभ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissimilarity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissimilarity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2436,
+      "word": "difference",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "अांतर",
+        "भेद",
+        "असम ित"
+      ],
+      "englishDefinition": "state or result of being different; a point of unlikeness. 18",
+      "pronunciation": {
+        "ipa": "/difference/",
+        "simple": "DIFFE-rence"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of difference in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अांतर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fetter",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अांतर",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fetter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fetter था।"
+            }
+          ]
+        },
+        {
+          "word": "incongruity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अांतर",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incongruity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incongruity था।"
+            }
+          ]
+        },
+        {
+          "word": "dissimilarity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अांतर",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissimilarity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissimilarity था।"
+            }
+          ]
+        },
+        {
+          "word": "discordance",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अांतर",
+            "भेद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discordance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discordance था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2437,
+      "word": "variance",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "नभन्ििा",
+        "अंिर",
+        "नवरोध"
+      ],
+      "englishDefinition": "fact or quality of being different, divergent, or inconsistent.",
+      "pronunciation": {
+        "ipa": "/variance/",
+        "simple": "VARI-ance"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of variance in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में नभन्ििा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "incongruity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "नभन्ििा",
+            "अंिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incongruity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incongruity था।"
+            }
+          ]
+        },
+        {
+          "word": "dissimilarity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "नभन्ििा",
+            "अंिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissimilarity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissimilarity था।"
+            }
+          ]
+        },
+        {
+          "word": "discordance",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "नभन्ििा",
+            "अंिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discordance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discordance था।"
+            }
+          ]
+        },
+        {
+          "word": "difference",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "नभन्ििा",
+            "अंिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was difference.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण difference था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2438,
+      "word": "inconsistency",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "असंगनि",
+        "नवसंगनि"
+      ],
+      "englishDefinition": "state or fact of being inconsistent; lack of agreement or",
+      "pronunciation": {
+        "ipa": "/inconsistency/",
+        "simple": "INCONS-istency"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of inconsistency in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असंगनि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dissimilarity",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "नवसंगनि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dissimilarity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dissimilarity था।"
+            }
+          ]
+        },
+        {
+          "word": "discordance",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "नवसंगनि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discordance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discordance था।"
+            }
+          ]
+        },
+        {
+          "word": "difference",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "नवसंगनि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was difference.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण difference था।"
+            }
+          ]
+        },
+        {
+          "word": "variance",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "असंगनि",
+            "नवसंगनि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was variance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण variance था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2439,
+      "word": "devious",
+      "partOfSpeech": [
+        "Showing"
+      ],
+      "hindiMeaning": [
+        "कु स्टल",
+        "घुम र्वद र",
+        "िली"
+      ],
+      "englishDefinition": "a skilful use of underhand tactics to achieve goals. 22",
+      "pronunciation": {
+        "ipa": "/devious/",
+        "simple": "DEV-ious"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of devious in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कु स्टल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "discordance",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "कु स्टल",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discordance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discordance था।"
+            }
+          ]
+        },
+        {
+          "word": "difference",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "कु स्टल",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was difference.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण difference था।"
+            }
+          ]
+        },
+        {
+          "word": "variance",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "कु स्टल",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was variance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण variance था।"
+            }
+          ]
+        },
+        {
+          "word": "inconsistency",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "कु स्टल",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inconsistency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inconsistency था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2440,
+      "word": "rambling",
+      "partOfSpeech": [
+        "N"
+      ],
+      "hindiMeaning": [
+        "असंगि",
+        "भिकिे वाला",
+        "अनियनमि"
+      ],
+      "englishDefinition": "(Of speech/writing) lengthy and confused; wandering in course.",
+      "pronunciation": {
+        "ipa": "/rambling/",
+        "simple": "RAMB-ling"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of rambling in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असंगि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "difference",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "असंगि",
+            "भिकिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was difference.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण difference था।"
+            }
+          ]
+        },
+        {
+          "word": "variance",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "असंगि",
+            "भिकिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was variance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण variance था।"
+            }
+          ]
+        },
+        {
+          "word": "inconsistency",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "असंगि",
+            "भिकिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inconsistency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inconsistency था।"
+            }
+          ]
+        },
+        {
+          "word": "devious",
+          "partOfSpeech": [
+            "N"
+          ],
+          "hindiMeaning": [
+            "असंगि",
+            "भिकिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2441,
+      "word": "indirect",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "अप्रत्यक्ष",
+        "घुम र्वद र"
+      ],
+      "englishDefinition": "directly caused by or resulting from a thing; not straight. 26",
+      "pronunciation": {
+        "ipa": "/indirect/",
+        "simple": "INDI-rect"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of indirect in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अप्रत्यक्ष के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "variance",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अप्रत्यक्ष",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was variance.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण variance था।"
+            }
+          ]
+        },
+        {
+          "word": "inconsistency",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अप्रत्यक्ष",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inconsistency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inconsistency था।"
+            }
+          ]
+        },
+        {
+          "word": "devious",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अप्रत्यक्ष",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devious था।"
+            }
+          ]
+        },
+        {
+          "word": "rambling",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अप्रत्यक्ष",
+            "घुम र्वद र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rambling.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rambling था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2442,
+      "word": "winding",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "घुम र्वद र",
+        "टेढ़  मेढ़"
+      ],
+      "englishDefinition": "many turns and twists. 27",
+      "pronunciation": {
+        "ipa": "/winding/",
+        "simple": "WIN-ding"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to winding the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को घुम र्वद र करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inconsistency",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "घुम र्वद र",
+            "टेढ़  मेढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inconsistency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inconsistency था।"
+            }
+          ]
+        },
+        {
+          "word": "devious",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "घुम र्वद र",
+            "टेढ़  मेढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devious था।"
+            }
+          ]
+        },
+        {
+          "word": "rambling",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "घुम र्वद र",
+            "टेढ़  मेढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rambling.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rambling था।"
+            }
+          ]
+        },
+        {
+          "word": "indirect",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "घुम र्वद र",
+            "टेढ़  मेढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indirect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indirect था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2443,
+      "word": "stealth",
+      "partOfSpeech": [
+        "Cautious"
+      ],
+      "hindiMeaning": [
+        "गोपिीयिा",
+        "चुपके  से",
+        "गुप्तिा"
+      ],
+      "englishDefinition": "and surreptitious action or movement; secretiveness. 30",
+      "pronunciation": {
+        "ipa": "/stealth/",
+        "simple": "STE-alth"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stealth in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गोपिीयिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "devious",
+          "partOfSpeech": [
+            "Cautious"
+          ],
+          "hindiMeaning": [
+            "गोपिीयिा",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devious था।"
+            }
+          ]
+        },
+        {
+          "word": "rambling",
+          "partOfSpeech": [
+            "Cautious"
+          ],
+          "hindiMeaning": [
+            "गोपिीयिा",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rambling.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rambling था।"
+            }
+          ]
+        },
+        {
+          "word": "indirect",
+          "partOfSpeech": [
+            "Cautious"
+          ],
+          "hindiMeaning": [
+            "गोपिीयिा",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indirect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indirect था।"
+            }
+          ]
+        },
+        {
+          "word": "winding",
+          "partOfSpeech": [
+            "Cautious"
+          ],
+          "hindiMeaning": [
+            "गोपिीयिा",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2444,
+      "word": "private",
+      "partOfSpeech": [
+        "Belonging"
+      ],
+      "hindiMeaning": [
+        "स्िजी",
+        "व्यस्िगत",
+        "गुप्त"
+      ],
+      "englishDefinition": "to one particular person/group; kept secret. 31",
+      "pronunciation": {
+        "ipa": "/private/",
+        "simple": "PRI-vate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of private in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िजी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rambling",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "स्िजी",
+            "व्यस्िगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rambling.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rambling था।"
+            }
+          ]
+        },
+        {
+          "word": "indirect",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "स्िजी",
+            "व्यस्िगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indirect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indirect था।"
+            }
+          ]
+        },
+        {
+          "word": "winding",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "स्िजी",
+            "व्यस्िगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding था।"
+            }
+          ]
+        },
+        {
+          "word": "stealth",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "स्िजी",
+            "व्यस्िगत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealth था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2445,
+      "word": "confiscate",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "ज़ब्त करि",
+        "अस्धक र में लेि"
+      ],
+      "englishDefinition": "take or seize (property) with authority. 32",
+      "pronunciation": {
+        "ipa": "/confiscate/",
+        "simple": "CONFI-scate"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of confiscate in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ज़ब्त करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "indirect",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ज़ब्त करि",
+            "अस्धक र में लेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indirect.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indirect था।"
+            }
+          ]
+        },
+        {
+          "word": "winding",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ज़ब्त करि",
+            "अस्धक र में लेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding था।"
+            }
+          ]
+        },
+        {
+          "word": "stealth",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ज़ब्त करि",
+            "अस्धक र में लेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealth था।"
+            }
+          ]
+        },
+        {
+          "word": "private",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ज़ब्त करि",
+            "अस्धक र में लेि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was private.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण private था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2446,
+      "word": "classified",
+      "partOfSpeech": [
+        "Designated"
+      ],
+      "hindiMeaning": [
+        "वगीकृ ि",
+        "गुप्त"
+      ],
+      "englishDefinition": "as officially secret and accessible only to authorized",
+      "pronunciation": {
+        "ipa": "/classified/",
+        "simple": "CLASS-ified"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of classified in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में वगीकृ ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "winding",
+          "partOfSpeech": [
+            "Designated"
+          ],
+          "hindiMeaning": [
+            "वगीकृ ि",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was winding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण winding था।"
+            }
+          ]
+        },
+        {
+          "word": "stealth",
+          "partOfSpeech": [
+            "Designated"
+          ],
+          "hindiMeaning": [
+            "वगीकृ ि",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealth था।"
+            }
+          ]
+        },
+        {
+          "word": "private",
+          "partOfSpeech": [
+            "Designated"
+          ],
+          "hindiMeaning": [
+            "वगीकृ ि",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was private.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण private था।"
+            }
+          ]
+        },
+        {
+          "word": "confiscate",
+          "partOfSpeech": [
+            "Designated"
+          ],
+          "hindiMeaning": [
+            "वगीकृ ि",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confiscate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confiscate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2447,
+      "word": "concealed",
+      "partOfSpeech": [
+        "Kept"
+      ],
+      "hindiMeaning": [
+        "स्िप  हुआ",
+        "गुप्त",
+        "अप्रकट"
+      ],
+      "englishDefinition": "secret or hidden; put out of sight. 35",
+      "pronunciation": {
+        "ipa": "/concealed/",
+        "simple": "CONC-ealed"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of concealed in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िप  हुआ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stealth",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealth था।"
+            }
+          ]
+        },
+        {
+          "word": "private",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was private.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण private था।"
+            }
+          ]
+        },
+        {
+          "word": "confiscate",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confiscate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confiscate था।"
+            }
+          ]
+        },
+        {
+          "word": "classified",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was classified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण classified था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2448,
+      "word": "secret",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "रहस्यमय",
+        "भेद"
+      ],
+      "englishDefinition": "known or seen or not meant to be known/seen by others. 36",
+      "pronunciation": {
+        "ipa": "/secret/",
+        "simple": "SEC-ret"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of secret in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गुप्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "private",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "रहस्यमय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was private.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण private था।"
+            }
+          ]
+        },
+        {
+          "word": "confiscate",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "रहस्यमय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confiscate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confiscate था।"
+            }
+          ]
+        },
+        {
+          "word": "classified",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "रहस्यमय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was classified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण classified था।"
+            }
+          ]
+        },
+        {
+          "word": "concealed",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "रहस्यमय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was concealed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण concealed था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2449,
+      "word": "hidden",
+      "partOfSpeech": [
+        "Kept"
+      ],
+      "hindiMeaning": [
+        "स्िप  हुआ",
+        "गुप्त"
+      ],
+      "englishDefinition": "out of sight; concealed. 38",
+      "pronunciation": {
+        "ipa": "/hidden/",
+        "simple": "HID-den"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hidden in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िप  हुआ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "confiscate",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confiscate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confiscate था।"
+            }
+          ]
+        },
+        {
+          "word": "classified",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was classified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण classified था।"
+            }
+          ]
+        },
+        {
+          "word": "concealed",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was concealed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण concealed था।"
+            }
+          ]
+        },
+        {
+          "word": "secret",
+          "partOfSpeech": [
+            "Kept"
+          ],
+          "hindiMeaning": [
+            "स्िप  हुआ",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secret.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secret था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2450,
+      "word": "recondite",
+      "partOfSpeech": [
+        "Little"
+      ],
+      "hindiMeaning": [
+        "गहि",
+        "गूढ़",
+        "दुरूह"
+      ],
+      "englishDefinition": "known; abstruse (of a subject or knowledge). 41",
+      "pronunciation": {
+        "ipa": "/recondite/",
+        "simple": "RECO-ndite"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of recondite in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गहि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "classified",
+          "partOfSpeech": [
+            "Little"
+          ],
+          "hindiMeaning": [
+            "गहि",
+            "गूढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was classified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण classified था।"
+            }
+          ]
+        },
+        {
+          "word": "concealed",
+          "partOfSpeech": [
+            "Little"
+          ],
+          "hindiMeaning": [
+            "गहि",
+            "गूढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was concealed.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण concealed था।"
+            }
+          ]
+        },
+        {
+          "word": "secret",
+          "partOfSpeech": [
+            "Little"
+          ],
+          "hindiMeaning": [
+            "गहि",
+            "गूढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secret.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secret था।"
+            }
+          ]
+        },
+        {
+          "word": "hidden",
+          "partOfSpeech": [
+            "Little"
+          ],
+          "hindiMeaning": [
+            "गहि",
+            "गूढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hidden.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hidden था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

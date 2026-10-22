@@ -4,6 +4,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import {
   SENIOR_TEACHER_SYLLABUS,
+  SENIOR_TEACHER_ENGLISH_SYLLABUS,
   CET_SYLLABUS,
   getSubTopicsForTopic,
   SyllabusTopicItem,
@@ -29,7 +30,7 @@ import {
 import { cn } from "@/lib/utils";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 
-type ExamTab = "senior-teacher" | "cet";
+type ExamTab = "senior-teacher" | "senior-teacher-english" | "cet";
 type StatusFilter = "all" | "completed" | "pending";
 
 interface SyllabusTrackerProps {
@@ -118,6 +119,7 @@ export function SyllabusTracker({
   // Active dataset based on chosen tab
   const activeDataset = useMemo(() => {
     if (activeTab === "senior-teacher") return SENIOR_TEACHER_SYLLABUS;
+    if (activeTab === "senior-teacher-english") return SENIOR_TEACHER_ENGLISH_SYLLABUS;
     return CET_SYLLABUS;
   }, [activeTab]);
 
@@ -211,7 +213,7 @@ export function SyllabusTracker({
       )}
 
       {/* 2. Exam Selector Segmented Tabs */}
-      <div className="flex items-center gap-2 border-b border-border/70 pb-3">
+      <div className="flex items-center gap-2 border-b border-border/70 pb-3 overflow-x-auto">
         <button
           type="button"
           onClick={() => {
@@ -219,13 +221,29 @@ export function SyllabusTracker({
             setSelectedSection("all");
           }}
           className={cn(
-            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none",
+            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap",
             activeTab === "senior-teacher"
               ? "bg-primary text-primary-foreground shadow-xs font-bold"
               : "bg-muted/60 text-muted-foreground hover:text-foreground hover:bg-muted"
           )}
         >
-          Senior Teacher (2nd Grade)
+          Senior Teacher Paper-I (GK)
+        </button>
+
+        <button
+          type="button"
+          onClick={() => {
+            setActiveTab("senior-teacher-english");
+            setSelectedSection("all");
+          }}
+          className={cn(
+            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap",
+            activeTab === "senior-teacher-english"
+              ? "bg-primary text-primary-foreground shadow-xs font-bold"
+              : "bg-muted/60 text-muted-foreground hover:text-foreground hover:bg-muted"
+          )}
+        >
+          Senior Teacher Paper-II (English)
         </button>
 
         <button
@@ -235,7 +253,7 @@ export function SyllabusTracker({
             setSelectedSection("all");
           }}
           className={cn(
-            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none",
+            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap",
             activeTab === "cet"
               ? "bg-primary text-primary-foreground shadow-xs font-bold"
               : "bg-muted/60 text-muted-foreground hover:text-foreground hover:bg-muted"

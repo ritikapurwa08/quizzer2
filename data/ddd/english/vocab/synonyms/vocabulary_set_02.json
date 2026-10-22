@@ -1,0 +1,2989 @@
+{
+  "setId": "vocabulary_set_02",
+  "title": "Synonyms Set 02 — Altitude to Banish",
+  "language": "en-hi",
+  "wordCount": 26,
+  "words": [
+    {
+      "id": 26,
+      "word": "altitude",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "ऊँचाई; समुद्र तल से ऊँचाई"
+      ],
+      "englishDefinition": "The height of a place or object, especially measured from sea level.",
+      "pronunciation": {
+        "ipa": "/ˈæl.tɪ.tjuːd/",
+        "simple": "AL-ti-tyood"
+      },
+      "examples": [
+        {
+          "sentence": "The aircraft reached an altitude of 10,000 metres.",
+          "hindiTranslation": "विमान 10,000 मीटर की ऊँचाई पर पहुँचा."
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "height",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "ऊँचाई"
+          ],
+          "examples": [
+            {
+              "sentence": "The height of the tower is 50 metres.",
+              "hindiTranslation": "मीनार की ऊँचाई 50 मीटर है।"
+            }
+          ]
+        },
+        {
+          "word": "elevation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "ऊँचाई; ऊँचा स्तर"
+          ],
+          "examples": [
+            {
+              "sentence": "The town lies at an elevation of 1,500 metres.",
+              "hindiTranslation": "यह कस्बा 1,500 मीटर की ऊँचाई पर है।"
+            }
+          ]
+        },
+        {
+          "word": "loftiness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "ऊँचाई; उन्नतता"
+          ],
+          "examples": [
+            {
+              "sentence": "The loftiness of the cliffs made climbing difficult.",
+              "hindiTranslation": "चट्टानों की ऊँचाई के कारण चढ़ना कठिन था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "depth",
+          "hindiMeaning": [
+            "गहराई"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified",
+      "usageNote": "Loftiness is less common and can also mean nobility or grandness."
+    },
+    {
+      "id": 27,
+      "word": "altruistic",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "परोपकारी; निःस्वार्थ; जनहितैषी"
+      ],
+      "englishDefinition": "Showing selfless concern for the well-being of others.",
+      "pronunciation": {
+        "ipa": "/ˌæl.truˈɪs.tɪk/",
+        "simple": "al-troo-IS-tik"
+      },
+      "examples": [
+        {
+          "sentence": "Her altruistic work improved many children's lives.",
+          "hindiTranslation": "उसके परोपकारी कार्य ने कई बच्चों का जीवन बेहतर बनाया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "selfless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निःस्वार्थ"
+          ],
+          "examples": [
+            {
+              "sentence": "He made a selfless sacrifice for his family.",
+              "hindiTranslation": "उसने परिवार के लिए निःस्वार्थ त्याग किया।"
+            }
+          ]
+        },
+        {
+          "word": "charitable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दानशील; परोपकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The charitable organisation provides food to families.",
+              "hindiTranslation": "दानशील संस्था परिवारों को भोजन देती है।"
+            }
+          ]
+        },
+        {
+          "word": "philanthropic",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मानव-कल्याणकारी; परोपकार से संबंधित"
+          ],
+          "examples": [
+            {
+              "sentence": "They funded a philanthropic project for rural schools.",
+              "hindiTranslation": "उन्होंने ग्रामीण स्कूलों की परोपकारी परियोजना को धन दिया।"
+            }
+          ]
+        },
+        {
+          "word": "benevolent",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दयालु; हितैषी"
+          ],
+          "examples": [
+            {
+              "sentence": "A benevolent neighbour helped the elderly couple.",
+              "hindiTranslation": "एक दयालु पड़ोसी ने बुज़ुर्ग दंपति की मदद की।"
+            }
+          ]
+        },
+        {
+          "word": "unselfish",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निःस्वार्थ"
+          ],
+          "examples": [
+            {
+              "sentence": "It was unselfish of her to share her resources.",
+              "hindiTranslation": "अपने संसाधन बाँटना उसका निःस्वार्थ व्यवहार था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "selfish",
+          "hindiMeaning": [
+            "स्वार्थी"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "altruism",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "परोपकार",
+            "निःस्वार्थता"
+          ]
+        },
+        {
+          "word": "benefactor",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "हितकारी; सहायता देने वाला"
+          ]
+        },
+        {
+          "word": "beneficiary",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "लाभार्थी"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Philanthropic means devoted to human welfare/charity, not 'principled'. Benefactor gives help; beneficiary receives a benefit."
+    },
+    {
+      "id": 28,
+      "word": "amicable",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "मैत्रीपूर्ण; सौहार्दपूर्ण"
+      ],
+      "englishDefinition": "Friendly and peaceful, especially when resolving disagreement.",
+      "pronunciation": {
+        "ipa": "/ˈæm.ɪ.kə.bəl/",
+        "simple": "AM-i-kuh-buhl"
+      },
+      "examples": [
+        {
+          "sentence": "They reached an amicable agreement after the dispute.",
+          "hindiTranslation": "विवाद के बाद वे सौहार्दपूर्ण समझौते पर पहुँचे।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cordial",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हार्दिक; सौहार्दपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "The leaders exchanged cordial greetings.",
+              "hindiTranslation": "नेताओं ने हार्दिक अभिवादन किया।"
+            }
+          ]
+        },
+        {
+          "word": "friendly",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मित्रवत"
+          ],
+          "examples": [
+            {
+              "sentence": "The staff were friendly and helpful.",
+              "hindiTranslation": "कर्मचारी मित्रवत और मददगार थे।"
+            }
+          ]
+        },
+        {
+          "word": "affable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मिलनसार"
+          ],
+          "examples": [
+            {
+              "sentence": "The affable teacher made everyone feel welcome.",
+              "hindiTranslation": "मिलनसार शिक्षक ने सबको अपनापन महसूस कराया।"
+            }
+          ]
+        },
+        {
+          "word": "harmonious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सौहार्दपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "The neighbours maintained a harmonious relationship.",
+              "hindiTranslation": "पड़ोसियों ने सौहार्दपूर्ण संबंध बनाए रखे।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "hostile",
+          "hindiMeaning": [
+            "शत्रुतापूर्ण"
+          ]
+        },
+        {
+          "word": "antagonistic",
+          "hindiMeaning": [
+            "विरोधी"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified",
+      "usageNote": "Familiar means known or well-acquainted; it is not a general synonym for amicable."
+    },
+    {
+      "id": 29,
+      "word": "amnesty",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "आम माफी; सामूहिक क्षमादान"
+      ],
+      "englishDefinition": "An official pardon, often granted to a group of people.",
+      "pronunciation": {
+        "ipa": "/ˈæm.nə.sti/",
+        "simple": "AM-nuh-stee"
+      },
+      "examples": [
+        {
+          "sentence": "The government announced an amnesty for certain prisoners.",
+          "hindiTranslation": "सरकार ने कुछ कैदियों के लिए आम माफी घोषित की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pardon",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "क्षमा; माफ़ करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The president granted a pardon to the prisoner.",
+              "hindiTranslation": "राष्ट्रपति ने कैदी को क्षमादान दिया।"
+            }
+          ]
+        },
+        {
+          "word": "reprieve",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अस्थायी राहत; दंड टलना"
+          ],
+          "examples": [
+            {
+              "sentence": "The court granted him a reprieve from execution.",
+              "hindiTranslation": "अदालत ने उसकी फाँसी पर अस्थायी रोक लगाई।"
+            }
+          ]
+        },
+        {
+          "word": "forgiveness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "क्षमा"
+          ],
+          "examples": [
+            {
+              "sentence": "She asked for forgiveness after the argument.",
+              "hindiTranslation": "बहस के बाद उसने माफ़ी माँगी।"
+            }
+          ]
+        },
+        {
+          "word": "immunity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कानूनी छूट; प्रतिरक्षा"
+          ],
+          "examples": [
+            {
+              "sentence": "The witness was granted immunity from prosecution.",
+              "hindiTranslation": "गवाह को अभियोजन से कानूनी छूट मिली।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "prosecution",
+          "hindiMeaning": [
+            "अभियोजन"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "amnestied",
+          "partOfSpeech": [
+            "adjective/verb"
+          ],
+          "hindiMeaning": [
+            "आम माफी प्राप्त; आम माफी देना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Amnesty is usually official and collective. Reprieve delays punishment; immunity is not an exact synonym."
+    },
+    {
+      "id": 30,
+      "word": "anger",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "क्रोध; गुस्सा; क्रोधित करना"
+      ],
+      "englishDefinition": "A strong feeling of displeasure or hostility.",
+      "pronunciation": {
+        "ipa": "/ˈæŋ.ɡər/",
+        "simple": "ANG-ger"
+      },
+      "examples": [
+        {
+          "sentence": "His careless remark caused anger among the workers.",
+          "hindiTranslation": "उसकी लापरवाह टिप्पणी से कर्मचारियों में गुस्सा फैल गया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rage",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "प्रचंड क्रोध"
+          ],
+          "examples": [
+            {
+              "sentence": "He struggled to control his rage.",
+              "hindiTranslation": "उसने अपने प्रचंड क्रोध को नियंत्रित करने की कोशिश की।"
+            }
+          ]
+        },
+        {
+          "word": "fury",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "भयंकर क्रोध"
+          ],
+          "examples": [
+            {
+              "sentence": "She was trembling with fury.",
+              "hindiTranslation": "वह भयंकर क्रोध से काँप रही थी।"
+            }
+          ]
+        },
+        {
+          "word": "ire",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "रोष; क्रोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The decision drew the ire of residents.",
+              "hindiTranslation": "इस निर्णय ने निवासियों का रोष भड़का दिया।"
+            }
+          ]
+        },
+        {
+          "word": "wrath",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रकोप; तीव्र क्रोध"
+          ],
+          "examples": [
+            {
+              "sentence": "The minister faced the wrath of angry voters.",
+              "hindiTranslation": "मंत्री को नाराज़ मतदाताओं के तीव्र आक्रोश का सामना करना पड़ा।"
+            }
+          ]
+        },
+        {
+          "word": "indignation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अन्याय पर आक्रोश"
+          ],
+          "examples": [
+            {
+              "sentence": "The unfair treatment sparked public indignation.",
+              "hindiTranslation": "अनुचित व्यवहार से जनता में आक्रोश फैल गया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "calm",
+          "hindiMeaning": [
+            "शांति"
+          ]
+        },
+        {
+          "word": "contentment",
+          "hindiMeaning": [
+            "संतोष"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 31,
+      "word": "annoyance",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "झुंझलाहट; खीज; नाराज़गी"
+      ],
+      "englishDefinition": "A feeling of irritation or mild anger.",
+      "pronunciation": {
+        "ipa": "/əˈnɔɪ.əns/",
+        "simple": "uh-NOY-uhns"
+      },
+      "examples": [
+        {
+          "sentence": "To his annoyance, the bus arrived late again.",
+          "hindiTranslation": "उसकी झुंझलाहट के लिए बस फिर देर से आई।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "irritation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चिढ़; झुंझलाहट"
+          ],
+          "examples": [
+            {
+              "sentence": "The constant noise caused irritation.",
+              "hindiTranslation": "लगातार शोर से झुंझलाहट हुई।"
+            }
+          ]
+        },
+        {
+          "word": "exasperation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बेहद खीज"
+          ],
+          "examples": [
+            {
+              "sentence": "She sighed in exasperation at the repeated mistakes.",
+              "hindiTranslation": "बार-बार की गलतियों पर उसने खीजकर आह भरी।"
+            }
+          ]
+        },
+        {
+          "word": "vexation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "खीज; मानसिक परेशानी"
+          ],
+          "examples": [
+            {
+              "sentence": "The delay was a source of vexation.",
+              "hindiTranslation": "देरी खीज का कारण बनी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "pleasure",
+          "hindiMeaning": [
+            "आनंद"
+          ]
+        },
+        {
+          "word": "delight",
+          "hindiMeaning": [
+            "प्रसन्नता"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "annoy",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "परेशान करना",
+            "चिढ़ाना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 32,
+      "word": "anticipate",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "पूर्वानुमान लगाना; पहले से अपेक्षा करना"
+      ],
+      "englishDefinition": "To expect or predict something before it happens.",
+      "pronunciation": {
+        "ipa": "/ænˈtɪs.ɪ.peɪt/",
+        "simple": "an-TIS-i-payt"
+      },
+      "examples": [
+        {
+          "sentence": "We anticipate heavy traffic during the festival.",
+          "hindiTranslation": "हमें त्योहार के दौरान भारी यातायात की आशंका है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "foresee",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पूर्वानुमान लगाना"
+          ],
+          "examples": [
+            {
+              "sentence": "Few people foresaw the scale of the crisis.",
+              "hindiTranslation": "बहुत कम लोगों ने संकट के पैमाने का पूर्वानुमान लगाया था।"
+            }
+          ]
+        },
+        {
+          "word": "predict",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अनुमान लगाना; भविष्यवाणी करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Experts predict a rise in demand.",
+              "hindiTranslation": "विशेषज्ञ माँग बढ़ने का अनुमान लगाते हैं।"
+            }
+          ]
+        },
+        {
+          "word": "expect",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "उम्मीद करना"
+          ],
+          "examples": [
+            {
+              "sentence": "We expect the results tomorrow.",
+              "hindiTranslation": "हमें कल परिणाम आने की उम्मीद है।"
+            }
+          ]
+        },
+        {
+          "word": "envisage",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "परिकल्पना करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The plan envisages major changes in education.",
+              "hindiTranslation": "योजना शिक्षा में बड़े बदलावों की परिकल्पना करती है।"
+            }
+          ]
+        },
+        {
+          "word": "speculate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अटकल लगाना"
+          ],
+          "examples": [
+            {
+              "sentence": "Analysts speculated about the cause of the delay.",
+              "hindiTranslation": "विश्लेषकों ने देरी के कारण पर अटकलें लगाईं।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "doubt",
+          "hindiMeaning": [
+            "संदेह"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "anticipation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पूर्वानुमान",
+            "उत्सुक प्रतीक्षा"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Speculate means to guess or theorise with uncertainty; it is related but not an exact synonym."
+    },
+    {
+      "id": 33,
+      "word": "antipathy",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "द्वेष; गहरी अरुचि; विरोध की भावना"
+      ],
+      "englishDefinition": "A strong feeling of dislike or opposition.",
+      "pronunciation": {
+        "ipa": "/ænˈtɪp.ə.θi/",
+        "simple": "an-TIP-uh-thee"
+      },
+      "examples": [
+        {
+          "sentence": "She felt a deep antipathy toward dishonesty.",
+          "hindiTranslation": "उसे बेईमानी से गहरी घृणा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "aversion",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "तीव्र अरुचि; घृणा"
+          ],
+          "examples": [
+            {
+              "sentence": "He has an aversion to cruelty.",
+              "hindiTranslation": "उसे क्रूरता से घृणा है।"
+            }
+          ]
+        },
+        {
+          "word": "hostility",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "शत्रुता"
+          ],
+          "examples": [
+            {
+              "sentence": "There was open hostility between the groups.",
+              "hindiTranslation": "समूहों के बीच खुली शत्रुता थी।"
+            }
+          ]
+        },
+        {
+          "word": "antagonism",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "विरोध; वैरभाव"
+          ],
+          "examples": [
+            {
+              "sentence": "Their disagreement developed into mutual antagonism.",
+              "hindiTranslation": "उनकी असहमति आपसी वैरभाव में बदल गई।"
+            }
+          ]
+        },
+        {
+          "word": "dislike",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "नापसंदगी"
+          ],
+          "examples": [
+            {
+              "sentence": "His dislike of waste was well known.",
+              "hindiTranslation": "फिजूलखर्ची के प्रति उसकी नापसंदगी सबको पता थी।"
+            }
+          ]
+        },
+        {
+          "word": "loathing",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "तीव्र घृणा"
+          ],
+          "examples": [
+            {
+              "sentence": "She spoke with loathing about corruption.",
+              "hindiTranslation": "उसने भ्रष्टाचार के बारे में तीव्र घृणा से बात की।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "affinity",
+          "hindiMeaning": [
+            "लगाव"
+          ]
+        },
+        {
+          "word": "fondness",
+          "hindiMeaning": [
+            "स्नेह; पसंद"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 34,
+      "word": "apologetic",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा"
+      ],
+      "englishDefinition": "Showing or expressing regret for having done something wrong.",
+      "pronunciation": {
+        "ipa": "/əˌpɒl.əˈdʒet.ɪk/",
+        "simple": "uh-pol-uh-JET-ik"
+      },
+      "examples": [
+        {
+          "sentence": "He looked apologetic after interrupting the speaker.",
+          "hindiTranslation": "वक्ता की बात काटने के बाद वह क्षमाप्रार्थी दिख रहा था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "contrite",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "पश्चाताप से भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The contrite student apologised to the teacher.",
+              "hindiTranslation": "पश्चाताप से भरे विद्यार्थी ने शिक्षक से माफी माँगी।"
+            }
+          ]
+        },
+        {
+          "word": "remorseful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "पश्चाताप करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "She felt remorseful about her harsh words.",
+              "hindiTranslation": "उसे अपने कठोर शब्दों पर पश्चाताप हुआ।"
+            }
+          ]
+        },
+        {
+          "word": "regretful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "खेद व्यक्त करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "He was regretful about missing the ceremony.",
+              "hindiTranslation": "उसे समारोह में शामिल न हो पाने का खेद था।"
+            }
+          ]
+        },
+        {
+          "word": "penitent",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "पश्चातापी"
+          ],
+          "examples": [
+            {
+              "sentence": "The penitent man asked for forgiveness.",
+              "hindiTranslation": "पश्चातापी व्यक्ति ने क्षमा माँगी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "unrepentant",
+          "hindiMeaning": [
+            "पश्चाताप न करने वाला"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "apologise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "माफी माँगना"
+          ]
+        },
+        {
+          "word": "remorse",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पश्चाताप"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Exculpatory means tending to clear someone from blame or guilt; it is not a synonym of apologetic."
+    },
+    {
+      "id": 35,
+      "word": "apology",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "क्षमा-याचना; माफी; खेद की अभिव्यक्ति"
+      ],
+      "englishDefinition": "A statement expressing regret for a mistake or offence.",
+      "pronunciation": {
+        "ipa": "/əˈpɒl.ə.dʒi/",
+        "simple": "uh-POL-uh-jee"
+      },
+      "examples": [
+        {
+          "sentence": "She offered an apology for arriving late.",
+          "hindiTranslation": "उसने देर से आने के लिए माफी माँगी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "expression of regret",
+          "partOfSpeech": [
+            "noun phrase"
+          ],
+          "hindiMeaning": [
+            "खेद की अभिव्यक्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The letter included an expression of regret.",
+              "hindiTranslation": "पत्र में खेद की अभिव्यक्ति शामिल थी।"
+            }
+          ]
+        },
+        {
+          "word": "contrition",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पश्चाताप"
+          ],
+          "examples": [
+            {
+              "sentence": "His contrition was clear from his words.",
+              "hindiTranslation": "उसके शब्दों से उसका पश्चाताप स्पष्ट था।"
+            }
+          ]
+        },
+        {
+          "word": "amends",
+          "partOfSpeech": [
+            "plural noun"
+          ],
+          "hindiMeaning": [
+            "गलती सुधारने का प्रयास; क्षतिपूर्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "He tried to make amends for the damage.",
+              "hindiTranslation": "उसने नुकसान की भरपाई करने की कोशिश की।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "justification",
+          "hindiMeaning": [
+            "औचित्य सिद्ध करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "apologise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "माफी माँगना"
+          ]
+        },
+        {
+          "word": "apologetic",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "क्षमाप्रार्थी"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "‘Excuse me’ is used to get attention, interrupt, or ask for repetition; it is not always an apology."
+    },
+    {
+      "id": 36,
+      "word": "apparent",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "स्पष्ट; प्रकट; दिखाई देने वाला"
+      ],
+      "englishDefinition": "Easy to see or understand; seeming to be true.",
+      "pronunciation": {
+        "ipa": "/əˈpær.ənt/",
+        "simple": "uh-PAIR-uhnt"
+      },
+      "examples": [
+        {
+          "sentence": "It became apparent that the plan would fail.",
+          "hindiTranslation": "यह स्पष्ट हो गया कि योजना असफल होगी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obvious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The answer was obvious to everyone.",
+              "hindiTranslation": "उत्तर सभी के लिए स्पष्ट था।"
+            }
+          ]
+        },
+        {
+          "word": "clear",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट; साफ"
+          ],
+          "examples": [
+            {
+              "sentence": "There was clear evidence of improvement.",
+              "hindiTranslation": "सुधार के स्पष्ट प्रमाण थे।"
+            }
+          ]
+        },
+        {
+          "word": "evident",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट; प्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "Her disappointment was evident.",
+              "hindiTranslation": "उसकी निराशा स्पष्ट थी।"
+            }
+          ]
+        },
+        {
+          "word": "conspicuous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आसानी से दिखाई देने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The bright sign was conspicuous from a distance.",
+              "hindiTranslation": "चमकीला संकेत दूर से साफ दिखाई दे रहा था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "obscure",
+          "hindiMeaning": [
+            "अस्पष्ट"
+          ]
+        },
+        {
+          "word": "hidden",
+          "hindiMeaning": [
+            "छिपा हुआ"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "apparently",
+          "partOfSpeech": [
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "जाहिर तौर पर",
+            "प्रतीत होता है कि"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Evident is an adjective meaning clear; evidence is the noun meaning proof."
+    },
+    {
+      "id": 37,
+      "word": "appear",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "दिखाई देना; प्रकट होना; प्रतीत होना"
+      ],
+      "englishDefinition": "To become visible, come into view, or seem to be a certain way.",
+      "pronunciation": {
+        "ipa": "/əˈpɪər/",
+        "simple": "uh-PEER"
+      },
+      "examples": [
+        {
+          "sentence": "New problems appeared during the project.",
+          "hindiTranslation": "परियोजना के दौरान नई समस्याएँ सामने आईं।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "seem",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "प्रतीत होना"
+          ],
+          "examples": [
+            {
+              "sentence": "The task seems difficult at first.",
+              "hindiTranslation": "शुरू में यह काम कठिन लगता है।"
+            }
+          ]
+        },
+        {
+          "word": "emerge",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "उभरना; सामने आना"
+          ],
+          "examples": [
+            {
+              "sentence": "New details emerged during the investigation.",
+              "hindiTranslation": "जाँच के दौरान नए विवरण सामने आए।"
+            }
+          ]
+        },
+        {
+          "word": "materialise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "साकार होना; वास्तविक रूप में सामने आना"
+          ],
+          "examples": [
+            {
+              "sentence": "The promised opportunity never materialised.",
+              "hindiTranslation": "वादा किया गया अवसर कभी साकार नहीं हुआ।"
+            }
+          ]
+        },
+        {
+          "word": "come into view",
+          "partOfSpeech": [
+            "verb phrase"
+          ],
+          "hindiMeaning": [
+            "दिखाई देने लगना"
+          ],
+          "examples": [
+            {
+              "sentence": "The mountains came into view at sunrise.",
+              "hindiTranslation": "सूर्योदय पर पहाड़ दिखाई देने लगे।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "vanish",
+          "hindiMeaning": [
+            "गायब होना"
+          ]
+        },
+        {
+          "word": "disappear",
+          "hindiMeaning": [
+            "लुप्त होना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "appearance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दिखावट",
+            "उपस्थिति"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Say ‘new problems emerged/appeared’; ‘are emerged’ is generally incorrect."
+    },
+    {
+      "id": 38,
+      "word": "articulate",
+      "partOfSpeech": [
+        "verb",
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु"
+      ],
+      "englishDefinition": "To express ideas clearly; also, able to speak clearly and effectively.",
+      "pronunciation": {
+        "ipa": "/ɑːˈtɪk.jə.lət/",
+        "simple": "ar-TIK-yuh-layt (verb); ar-TIK-yuh-luht (adjective)"
+      },
+      "examples": [
+        {
+          "sentence": "She articulated her concerns clearly.",
+          "hindiTranslation": "उसने अपनी चिंताओं को स्पष्ट रूप से व्यक्त किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "express",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "व्यक्त करना"
+          ],
+          "examples": [
+            {
+              "sentence": "He expressed his opinion calmly.",
+              "hindiTranslation": "उसने अपनी राय शांतिपूर्वक व्यक्त की।"
+            }
+          ]
+        },
+        {
+          "word": "verbalise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "शब्दों में व्यक्त करना"
+          ],
+          "examples": [
+            {
+              "sentence": "It can be difficult to verbalise complex feelings.",
+              "hindiTranslation": "जटिल भावनाओं को शब्दों में व्यक्त करना कठिन हो सकता है।"
+            }
+          ]
+        },
+        {
+          "word": "enunciate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट उच्चारण करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Please enunciate each word carefully.",
+              "hindiTranslation": "कृपया प्रत्येक शब्द का स्पष्ट उच्चारण करें।"
+            }
+          ]
+        },
+        {
+          "word": "eloquent",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "वाक्पटु; प्रभावशाली ढंग से बोलने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her eloquent speech moved the audience.",
+              "hindiTranslation": "उसके प्रभावशाली भाषण ने श्रोताओं को प्रभावित किया।"
+            }
+          ]
+        },
+        {
+          "word": "intelligible",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "समझने योग्य; बोधगम्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The recording was clear and intelligible.",
+              "hindiTranslation": "रिकॉर्डिंग स्पष्ट और समझने योग्य थी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "inarticulate",
+          "hindiMeaning": [
+            "स्पष्ट रूप से व्यक्त न कर पाने वाला"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "articulation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट अभिव्यक्ति",
+            "उच्चारण"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Distinct means clearly different; it is not the closest synonym for articulate."
+    },
+    {
+      "id": 39,
+      "word": "assemblage",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह"
+      ],
+      "englishDefinition": "A collection or gathering of people or things.",
+      "pronunciation": {
+        "ipa": "/əˈsem.blɪdʒ/",
+        "simple": "uh-SEM-blij"
+      },
+      "examples": [
+        {
+          "sentence": "The museum displayed an assemblage of ancient tools.",
+          "hindiTranslation": "संग्रहालय ने प्राचीन औजारों का संग्रह प्रदर्शित किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "collection",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "संग्रह"
+          ],
+          "examples": [
+            {
+              "sentence": "The library has a collection of rare books.",
+              "hindiTranslation": "पुस्तकालय में दुर्लभ पुस्तकों का संग्रह है।"
+            }
+          ]
+        },
+        {
+          "word": "gathering",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सभा; जमावड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "A large gathering attended the public meeting.",
+              "hindiTranslation": "एक बड़ी सभा ने सार्वजनिक बैठक में भाग लिया।"
+            }
+          ]
+        },
+        {
+          "word": "assembly",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सभा; एकत्रीकरण"
+          ],
+          "examples": [
+            {
+              "sentence": "The school held a morning assembly.",
+              "hindiTranslation": "विद्यालय में सुबह की सभा हुई।"
+            }
+          ]
+        },
+        {
+          "word": "congregation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "धार्मिक सभा; उपासकों का समूह"
+          ],
+          "examples": [
+            {
+              "sentence": "The congregation gathered for prayer.",
+              "hindiTranslation": "प्रार्थना के लिए उपासक इकट्ठा हुए।"
+            }
+          ]
+        },
+        {
+          "word": "throng",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "भीड़; भीड़ लगाना"
+          ],
+          "examples": [
+            {
+              "sentence": "A throng of fans waited outside the stadium.",
+              "hindiTranslation": "प्रशंसकों की भीड़ स्टेडियम के बाहर इंतज़ार कर रही थी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "scattering",
+          "hindiMeaning": [
+            "बिखराव"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "assemble",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करना",
+            "जोड़ना"
+          ]
+        },
+        {
+          "word": "congregate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "एकत्र होना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Congregation often refers to a religious group; assemblage can refer to things as well as people."
+    },
+    {
+      "id": 40,
+      "word": "assertive",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर"
+      ],
+      "englishDefinition": "Confidently expressing one's views or needs without being aggressive.",
+      "pronunciation": {
+        "ipa": "/əˈsɜː.tɪv/",
+        "simple": "uh-SUR-tiv"
+      },
+      "examples": [
+        {
+          "sentence": "Be assertive when explaining your needs, but remain respectful.",
+          "hindiTranslation": "अपनी ज़रूरतें बताते समय दृढ़ रहो, लेकिन सम्मानजनक बने रहो।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "confident",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आत्मविश्वासी"
+          ],
+          "examples": [
+            {
+              "sentence": "She gave a confident answer.",
+              "hindiTranslation": "उसने आत्मविश्वास से उत्तर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "self-assured",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आत्मविश्वास से भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "He sounded self-assured during the interview.",
+              "hindiTranslation": "साक्षात्कार में वह आत्मविश्वास से भरा लगा।"
+            }
+          ]
+        },
+        {
+          "word": "forceful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "प्रभावशाली; दृढ़"
+          ],
+          "examples": [
+            {
+              "sentence": "She made a forceful argument for reform.",
+              "hindiTranslation": "उसने सुधार के पक्ष में प्रभावशाली तर्क दिया।"
+            }
+          ]
+        },
+        {
+          "word": "firm",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दृढ़; अटल"
+          ],
+          "examples": [
+            {
+              "sentence": "He remained firm in his decision.",
+              "hindiTranslation": "वह अपने निर्णय पर दृढ़ रहा।"
+            }
+          ]
+        },
+        {
+          "word": "domineering",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दूसरों पर हावी होने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "His domineering manner discouraged discussion.",
+              "hindiTranslation": "उसके हावी होने वाले रवैये ने चर्चा को हतोत्साहित किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "passive",
+          "hindiMeaning": [
+            "निष्क्रिय; दब्बू"
+          ]
+        },
+        {
+          "word": "timid",
+          "hindiMeaning": [
+            "डरपोक; संकोची"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "assertiveness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दृढ़तापूर्वक अपनी बात रखने की क्षमता"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Domineering is often negative; assertive means expressing oneself confidently without necessarily controlling others."
+    },
+    {
+      "id": 41,
+      "word": "assiduous",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "परिश्रमी; लगनशील; मेहनती"
+      ],
+      "englishDefinition": "Showing great care, effort, and persistence in doing something.",
+      "pronunciation": {
+        "ipa": "/əˈsɪdʒ.u.əs/",
+        "simple": "uh-SIJ-oo-uhs"
+      },
+      "examples": [
+        {
+          "sentence": "Her assiduous preparation helped her pass the examination.",
+          "hindiTranslation": "उसकी लगनशील तैयारी ने परीक्षा पास करने में मदद की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "diligent",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मेहनती; कर्तव्यनिष्ठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The diligent student reviewed every lesson.",
+              "hindiTranslation": "मेहनती विद्यार्थी ने हर पाठ दोहराया।"
+            }
+          ]
+        },
+        {
+          "word": "industrious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "परिश्रमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The industrious team completed the work early.",
+              "hindiTranslation": "परिश्रमी टीम ने काम जल्दी पूरा किया।"
+            }
+          ]
+        },
+        {
+          "word": "hard-working",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "मेहनती"
+          ],
+          "examples": [
+            {
+              "sentence": "He is a hard-working candidate.",
+              "hindiTranslation": "वह मेहनती अभ्यर्थी है।"
+            }
+          ]
+        },
+        {
+          "word": "painstaking",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बहुत सावधानी और मेहनत से काम करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "She carried out a painstaking review of the data.",
+              "hindiTranslation": "उसने आँकड़ों की बहुत सावधानी से समीक्षा की।"
+            }
+          ]
+        },
+        {
+          "word": "sedulous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "लगनशील; निरंतर मेहनत करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "His sedulous efforts eventually paid off.",
+              "hindiTranslation": "उसके निरंतर परिश्रम का अंततः फल मिला।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "lazy",
+          "hindiMeaning": [
+            "आलसी"
+          ]
+        },
+        {
+          "word": "negligent",
+          "hindiMeaning": [
+            "लापरवाह"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "assiduously",
+          "partOfSpeech": [
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "लगनपूर्वक"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Sedulous is useful for exams but less common in everyday conversation."
+    },
+    {
+      "id": 42,
+      "word": "atrocity",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "अत्याचार; जघन्य हिंसक कृत्य; बर्बरता"
+      ],
+      "englishDefinition": "An extremely cruel or violent act, especially against people.",
+      "pronunciation": {
+        "ipa": "/əˈtrɒs.ə.ti/",
+        "simple": "uh-TROS-uh-tee"
+      },
+      "examples": [
+        {
+          "sentence": "The report documented atrocities committed against civilians.",
+          "hindiTranslation": "रिपोर्ट में नागरिकों पर किए गए अत्याचारों का विवरण था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brutality",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "क्रूरता; बर्बरता"
+          ],
+          "examples": [
+            {
+              "sentence": "The investigation exposed police brutality.",
+              "hindiTranslation": "जाँच ने पुलिस की क्रूरता उजागर की।"
+            }
+          ]
+        },
+        {
+          "word": "barbarity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बर्बरता"
+          ],
+          "examples": [
+            {
+              "sentence": "The attack was condemned as an act of barbarity.",
+              "hindiTranslation": "हमले की बर्बर कृत्य के रूप में निंदा की गई।"
+            }
+          ]
+        },
+        {
+          "word": "outrage",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "जघन्य कृत्य; आक्रोश"
+          ],
+          "examples": [
+            {
+              "sentence": "The massacre was an outrage against humanity.",
+              "hindiTranslation": "नरसंहार मानवता के विरुद्ध जघन्य कृत्य था।"
+            }
+          ]
+        },
+        {
+          "word": "cruelty",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "निर्दयता; क्रूरता"
+          ],
+          "examples": [
+            {
+              "sentence": "The law seeks to prevent cruelty to animals.",
+              "hindiTranslation": "कानून पशुओं के प्रति क्रूरता रोकना चाहता है।"
+            }
+          ]
+        },
+        {
+          "word": "heinous act",
+          "partOfSpeech": [
+            "noun phrase"
+          ],
+          "hindiMeaning": [
+            "जघन्य कृत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The court described the crime as a heinous act.",
+              "hindiTranslation": "अदालत ने अपराध को जघन्य कृत्य बताया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "kindness",
+          "hindiMeaning": [
+            "दयालुता"
+          ]
+        },
+        {
+          "word": "humanity",
+          "hindiMeaning": [
+            "मानवता; करुणा"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "atrocious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "जघन्य",
+            "अत्यंत बुरा"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Violence, crime, killing and evil are related but broader terms, not exact synonyms in every context."
+    },
+    {
+      "id": 43,
+      "word": "audacious",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "साहसी; निडर; दुस्साहसी"
+      ],
+      "englishDefinition": "Showing bold willingness to take risks; sometimes recklessly bold.",
+      "pronunciation": {
+        "ipa": "/ɔːˈdeɪ.ʃəs/",
+        "simple": "aw-DAY-shuhs"
+      },
+      "examples": [
+        {
+          "sentence": "It was an audacious plan to cross the desert alone.",
+          "hindiTranslation": "अकेले रेगिस्तान पार करने की योजना दुस्साहसिक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "daring",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "साहसी; जोखिम उठाने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The daring rescue saved three lives.",
+              "hindiTranslation": "साहसी बचाव अभियान ने तीन लोगों की जान बचाई।"
+            }
+          ]
+        },
+        {
+          "word": "bold",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निडर; साहसी"
+          ],
+          "examples": [
+            {
+              "sentence": "She made a bold decision to start her own business.",
+              "hindiTranslation": "उसने अपना व्यवसाय शुरू करने का साहसी निर्णय लिया।"
+            }
+          ]
+        },
+        {
+          "word": "fearless",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निडर"
+          ],
+          "examples": [
+            {
+              "sentence": "The fearless climber continued despite the storm.",
+              "hindiTranslation": "निडर पर्वतारोही तूफान के बावजूद आगे बढ़ता रहा।"
+            }
+          ]
+        },
+        {
+          "word": "foolhardy",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "लापरवाह दुस्साहसी"
+          ],
+          "examples": [
+            {
+              "sentence": "Driving that fast on ice was foolhardy.",
+              "hindiTranslation": "बर्फ पर इतनी तेज़ गाड़ी चलाना लापरवाह दुस्साहस था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "timid",
+          "hindiMeaning": [
+            "डरपोक"
+          ]
+        },
+        {
+          "word": "cautious",
+          "hindiMeaning": [
+            "सावधान"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "audacity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दुस्साहस",
+            "निर्भीकता"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Audacious can be positive (bold) or negative (recklessly daring), depending on context."
+    },
+    {
+      "id": 44,
+      "word": "authentic",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "प्रामाणिक; असली; विश्वसनीय"
+      ],
+      "englishDefinition": "Genuine, real, or reliable as being what it claims to be.",
+      "pronunciation": {
+        "ipa": "/ɔːˈθen.tɪk/",
+        "simple": "aw-THEN-tik"
+      },
+      "examples": [
+        {
+          "sentence": "The museum verified that the painting was authentic.",
+          "hindiTranslation": "संग्रहालय ने पुष्टि की कि चित्र असली था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "genuine",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "असली; वास्तविक"
+          ],
+          "examples": [
+            {
+              "sentence": "The shop sells genuine leather products.",
+              "hindiTranslation": "दुकान असली चमड़े के उत्पाद बेचती है।"
+            }
+          ]
+        },
+        {
+          "word": "real",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "वास्तविक; असली"
+          ],
+          "examples": [
+            {
+              "sentence": "They wanted real evidence, not rumours.",
+              "hindiTranslation": "वे अफवाहें नहीं, वास्तविक प्रमाण चाहते थे।"
+            }
+          ]
+        },
+        {
+          "word": "bona fide",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "वास्तविक; प्रामाणिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Only bona fide applicants will be considered.",
+              "hindiTranslation": "केवल वास्तविक/पात्र आवेदकों पर विचार होगा।"
+            }
+          ]
+        },
+        {
+          "word": "legitimate",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "वैध; उचित"
+          ],
+          "examples": [
+            {
+              "sentence": "The officer checked whether the document was legitimate.",
+              "hindiTranslation": "अधिकारी ने जाँचा कि दस्तावेज़ वैध था या नहीं।"
+            }
+          ]
+        },
+        {
+          "word": "credible",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विश्वसनीय"
+          ],
+          "examples": [
+            {
+              "sentence": "The witness gave a credible account of events.",
+              "hindiTranslation": "गवाह ने घटनाओं का विश्वसनीय विवरण दिया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "fake",
+          "hindiMeaning": [
+            "नकली"
+          ]
+        },
+        {
+          "word": "counterfeit",
+          "hindiMeaning": [
+            "जाली; नकली"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "authenticity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रामाणिकता"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Accurate means correct or exact; authentic means genuine or original."
+    },
+    {
+      "id": 45,
+      "word": "autocratic",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी"
+      ],
+      "englishDefinition": "Exercising power without allowing meaningful participation by others.",
+      "pronunciation": {
+        "ipa": "/ˌɔː.təˈkræt.ɪk/",
+        "simple": "aw-tuh-KRAT-ik"
+      },
+      "examples": [
+        {
+          "sentence": "The leader was criticised for his autocratic style of management.",
+          "hindiTranslation": "नेता की निरंकुश प्रबंधन शैली की आलोचना हुई।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "authoritarian",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सत्तावादी; कठोर नियंत्रण वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The country was ruled by an authoritarian regime.",
+              "hindiTranslation": "देश पर सत्तावादी शासन का नियंत्रण था।"
+            }
+          ]
+        },
+        {
+          "word": "dictatorial",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "तानाशाही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager's dictatorial approach upset the staff.",
+              "hindiTranslation": "प्रबंधक के तानाशाही रवैये से कर्मचारी नाराज़ थे।"
+            }
+          ]
+        },
+        {
+          "word": "despotic",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निरंकुश; मनमाना शासन करने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The king was remembered as a despotic ruler.",
+              "hindiTranslation": "राजा को निरंकुश शासक के रूप में याद किया गया।"
+            }
+          ]
+        },
+        {
+          "word": "tyrannical",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अत्याचारी; दमनकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The tyrannical ruler silenced his opponents.",
+              "hindiTranslation": "अत्याचारी शासक ने विरोधियों को चुप करा दिया।"
+            }
+          ]
+        },
+        {
+          "word": "oppressive",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दमनकारी"
+          ],
+          "examples": [
+            {
+              "sentence": "The people protested against oppressive laws.",
+              "hindiTranslation": "लोगों ने दमनकारी कानूनों का विरोध किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "democratic",
+          "hindiMeaning": [
+            "लोकतांत्रिक"
+          ]
+        },
+        {
+          "word": "egalitarian",
+          "hindiMeaning": [
+            "समानतावादी"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "autocracy",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "निरंकुश शासन"
+          ]
+        }
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 46,
+      "word": "autonomy",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार"
+      ],
+      "englishDefinition": "The right or ability to govern oneself or make independent decisions.",
+      "pronunciation": {
+        "ipa": "/ɔːˈtɒn.ə.mi/",
+        "simple": "aw-TON-uh-mee"
+      },
+      "examples": [
+        {
+          "sentence": "The region was granted greater political autonomy.",
+          "hindiTranslation": "क्षेत्र को अधिक राजनीतिक स्वायत्तता दी गई।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "independence",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्वतंत्रता"
+          ],
+          "examples": [
+            {
+              "sentence": "The country gained independence after a long struggle.",
+              "hindiTranslation": "लंबे संघर्ष के बाद देश को स्वतंत्रता मिली।"
+            }
+          ]
+        },
+        {
+          "word": "self-government",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्वशासन"
+          ],
+          "examples": [
+            {
+              "sentence": "The territory demanded self-government.",
+              "hindiTranslation": "क्षेत्र ने स्वशासन की माँग की।"
+            }
+          ]
+        },
+        {
+          "word": "self-rule",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "स्वशासन"
+          ],
+          "examples": [
+            {
+              "sentence": "The movement campaigned for self-rule.",
+              "hindiTranslation": "आंदोलन ने स्वशासन के लिए अभियान चलाया।"
+            }
+          ]
+        },
+        {
+          "word": "sovereignty",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "संप्रभुता; सर्वोच्च स्वतंत्र सत्ता"
+          ],
+          "examples": [
+            {
+              "sentence": "The constitution recognises the sovereignty of the state.",
+              "hindiTranslation": "संविधान राज्य की संप्रभुता को मान्यता देता है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "dependence",
+          "hindiMeaning": [
+            "निर्भरता"
+          ]
+        },
+        {
+          "word": "subordination",
+          "hindiMeaning": [
+            "अधीनता"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "autonomous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्वायत्त"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Sovereignty usually means supreme authority, especially of a state. Monotony means lack of variety; it is unrelated to autonomy."
+    },
+    {
+      "id": 47,
+      "word": "avarice",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "घोर लालच; धन का अत्यधिक लोभ"
+      ],
+      "englishDefinition": "An excessive desire to accumulate wealth or possessions.",
+      "pronunciation": {
+        "ipa": "/ˈæv.ər.ɪs/",
+        "simple": "AV-uh-ris"
+      },
+      "examples": [
+        {
+          "sentence": "The novel portrays the destructive effects of avarice.",
+          "hindiTranslation": "उपन्यास घोर लालच के विनाशकारी प्रभाव दिखाता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "greed",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "लालच; लोभ"
+          ],
+          "examples": [
+            {
+              "sentence": "Greed can damage relationships.",
+              "hindiTranslation": "लालच रिश्तों को नुकसान पहुँचा सकता है।"
+            }
+          ]
+        },
+        {
+          "word": "cupidity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "धन-लोभ"
+          ],
+          "examples": [
+            {
+              "sentence": "The story warns against cupidity.",
+              "hindiTranslation": "कहानी धन के लालच के विरुद्ध चेतावनी देती है।"
+            }
+          ]
+        },
+        {
+          "word": "covetousness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दूसरों की वस्तु पाने का लोभ"
+          ],
+          "examples": [
+            {
+              "sentence": "His covetousness made him resent his neighbour's success.",
+              "hindiTranslation": "दूसरों की वस्तु पाने के लोभ से वह पड़ोसी की सफलता से जलता था।"
+            }
+          ]
+        },
+        {
+          "word": "rapacity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अत्यधिक लालच; लूटने की प्रवृत्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "The report condemned the company's rapacity.",
+              "hindiTranslation": "रिपोर्ट ने कंपनी की अत्यधिक लालचपूर्ण प्रवृत्ति की निंदा की।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "generosity",
+          "hindiMeaning": [
+            "उदारता"
+          ]
+        },
+        {
+          "word": "contentment",
+          "hindiMeaning": [
+            "संतोष"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "avaricious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "लोभी",
+            "धन का अत्यधिक लालच रखने वाला"
+          ]
+        }
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 48,
+      "word": "aversion",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "तीव्र अरुचि; घृणा; विरक्ति"
+      ],
+      "englishDefinition": "A strong dislike or unwillingness to do or experience something.",
+      "pronunciation": {
+        "ipa": "/əˈvɜː.ʃən/",
+        "simple": "uh-VUR-zhuhn"
+      },
+      "examples": [
+        {
+          "sentence": "He has a strong aversion to dishonesty.",
+          "hindiTranslation": "उसे बेईमानी से बहुत घृणा है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "antipathy",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "द्वेष; गहरी अरुचि"
+          ],
+          "examples": [
+            {
+              "sentence": "She felt antipathy toward cruelty.",
+              "hindiTranslation": "उसे क्रूरता से गहरी घृणा थी।"
+            }
+          ]
+        },
+        {
+          "word": "loathing",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "तीव्र घृणा"
+          ],
+          "examples": [
+            {
+              "sentence": "He spoke of corruption with loathing.",
+              "hindiTranslation": "उसने भ्रष्टाचार के प्रति तीव्र घृणा व्यक्त की।"
+            }
+          ]
+        },
+        {
+          "word": "dislike",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "नापसंदगी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her dislike of crowds was well known.",
+              "hindiTranslation": "भीड़ के प्रति उसकी नापसंदगी सबको पता थी।"
+            }
+          ]
+        },
+        {
+          "word": "repugnance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "तीव्र घृणा; वितृष्णा"
+          ],
+          "examples": [
+            {
+              "sentence": "He felt repugnance at the cruel act.",
+              "hindiTranslation": "उसे उस क्रूर कृत्य से वितृष्णा हुई।"
+            }
+          ]
+        },
+        {
+          "word": "detestation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "घोर घृणा"
+          ],
+          "examples": [
+            {
+              "sentence": "Her detestation of injustice was clear.",
+              "hindiTranslation": "अन्याय के प्रति उसकी घोर घृणा स्पष्ट थी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "affinity",
+          "hindiMeaning": [
+            "लगाव"
+          ]
+        },
+        {
+          "word": "inclination",
+          "hindiMeaning": [
+            "झुकाव; रुचि"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "averse",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अनिच्छुक",
+            "विरक्त"
+          ]
+        }
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 49,
+      "word": "avert",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "टाल देना; रोकना; दिशा मोड़ना"
+      ],
+      "englishDefinition": "To prevent something bad from happening or to turn away.",
+      "pronunciation": {
+        "ipa": "/əˈvɜːt/",
+        "simple": "uh-VURT"
+      },
+      "examples": [
+        {
+          "sentence": "Quick action helped avert a serious accident.",
+          "hindiTranslation": "त्वरित कार्रवाई ने गंभीर दुर्घटना टालने में मदद की।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "prevent",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "रोकना"
+          ],
+          "examples": [
+            {
+              "sentence": "Regular maintenance can prevent breakdowns.",
+              "hindiTranslation": "नियमित रखरखाव खराबी रोक सकता है।"
+            }
+          ]
+        },
+        {
+          "word": "avoid",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "बचना; टालना"
+          ],
+          "examples": [
+            {
+              "sentence": "They left early to avoid traffic.",
+              "hindiTranslation": "वे यातायात से बचने के लिए जल्दी निकले।"
+            }
+          ]
+        },
+        {
+          "word": "ward off",
+          "partOfSpeech": [
+            "phrasal verb"
+          ],
+          "hindiMeaning": [
+            "दूर रखना; टालना"
+          ],
+          "examples": [
+            {
+              "sentence": "The vaccine helps ward off serious disease.",
+              "hindiTranslation": "टीका गंभीर बीमारी से बचाव में मदद करता है।"
+            }
+          ]
+        },
+        {
+          "word": "forestall",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पहले ही रोक देना"
+          ],
+          "examples": [
+            {
+              "sentence": "The team acted early to forestall criticism.",
+              "hindiTranslation": "टीम ने आलोचना रोकने के लिए पहले ही कार्रवाई की।"
+            }
+          ]
+        },
+        {
+          "word": "deflect",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दिशा मोड़ना"
+          ],
+          "examples": [
+            {
+              "sentence": "The shield deflected the impact.",
+              "hindiTranslation": "ढाल ने प्रहार की दिशा मोड़ दी।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "cause",
+          "hindiMeaning": [
+            "कारण बनना"
+          ]
+        },
+        {
+          "word": "provoke",
+          "hindiMeaning": [
+            "उकसाना; भड़काना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 50,
+      "word": "bane",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "अभिशाप; हानि का कारण; कष्टदायक चीज़"
+      ],
+      "englishDefinition": "A cause of great distress, annoyance, or harm.",
+      "pronunciation": {
+        "ipa": "/beɪn/",
+        "simple": "bayn"
+      },
+      "examples": [
+        {
+          "sentence": "Mosquitoes are the bane of summer evenings.",
+          "hindiTranslation": "मच्छर गर्मियों की शामों की बड़ी परेशानी हैं।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "curse",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अभिशाप; शाप देना"
+          ],
+          "examples": [
+            {
+              "sentence": "He considered his temper a curse.",
+              "hindiTranslation": "वह अपने गुस्से को अभिशाप मानता था।"
+            }
+          ]
+        },
+        {
+          "word": "scourge",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "विनाशकारी विपत्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "Disease was a scourge for the poor community.",
+              "hindiTranslation": "बीमारी गरीब समुदाय के लिए विनाशकारी विपत्ति थी।"
+            }
+          ]
+        },
+        {
+          "word": "affliction",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "कष्ट; पीड़ा देने वाली स्थिति"
+          ],
+          "examples": [
+            {
+              "sentence": "The illness became a lifelong affliction.",
+              "hindiTranslation": "बीमारी जीवनभर का कष्ट बन गई।"
+            }
+          ]
+        },
+        {
+          "word": "plague",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संकट; लगातार परेशान करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Traffic jams are the bane of commuters.",
+              "hindiTranslation": "यातायात जाम रोज़ यात्रा करने वालों की बड़ी परेशानी हैं।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "blessing",
+          "hindiMeaning": [
+            "वरदान; आशीर्वाद"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "baneful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हानिकारक",
+            "विनाशकारी"
+          ]
+        }
+      ],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 51,
+      "word": "banish",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "निर्वासित करना; किसी स्थान से निकाल देना; दूर करना"
+      ],
+      "englishDefinition": "To send someone away from a place or to get rid of a thought or feeling.",
+      "pronunciation": {
+        "ipa": "/ˈbæn.ɪʃ/",
+        "simple": "BAN-ish"
+      },
+      "examples": [
+        {
+          "sentence": "The ruler banished his rival from the kingdom.",
+          "hindiTranslation": "शासक ने अपने प्रतिद्वंद्वी को राज्य से निर्वासित कर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exile",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "निर्वासित करना; निर्वासन"
+          ],
+          "examples": [
+            {
+              "sentence": "The king exiled the rebel leader.",
+              "hindiTranslation": "राजा ने विद्रोही नेता को निर्वासित कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "expel",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निकाल देना; निष्कासित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The school expelled the student for repeated misconduct.",
+              "hindiTranslation": "विद्यालय ने बार-बार अनुशासनहीनता के कारण विद्यार्थी को निष्कासित कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "deport",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कानूनी रूप से देश से निकालना"
+          ],
+          "examples": [
+            {
+              "sentence": "The authorities deported the foreign national after the legal process.",
+              "hindiTranslation": "कानूनी प्रक्रिया के बाद अधिकारियों ने विदेशी नागरिक को देश से निकाल दिया।"
+            }
+          ]
+        },
+        {
+          "word": "eject",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "बाहर निकालना"
+          ],
+          "examples": [
+            {
+              "sentence": "Security staff ejected the disruptive visitor.",
+              "hindiTranslation": "सुरक्षा कर्मचारियों ने व्यवधान डालने वाले आगंतुक को बाहर निकाल दिया।"
+            }
+          ]
+        },
+        {
+          "word": "drive out",
+          "partOfSpeech": [
+            "verb phrase"
+          ],
+          "hindiMeaning": [
+            "बाहर खदेड़ना"
+          ],
+          "examples": [
+            {
+              "sentence": "The villagers drove the attackers out.",
+              "hindiTranslation": "गाँव वालों ने हमलावरों को खदेड़ दिया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "admit",
+          "hindiMeaning": [
+            "प्रवेश देना; स्वीकार करना"
+          ]
+        },
+        {
+          "word": "welcome",
+          "hindiMeaning": [
+            "स्वागत करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "banishment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "निर्वासन"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "usageNote": "Transport means to carry from one place to another; it is not a general synonym for banish."
+    }
+  ]
+}

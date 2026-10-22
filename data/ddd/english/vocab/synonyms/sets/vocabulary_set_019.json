@@ -1,0 +1,2225 @@
+{
+  "setId": "vocabulary_set_019",
+  "setNumber": 19,
+  "title": "Vocabulary Set 019 — Intrinsic to Seize",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 451,
+      "word": "intrinsic",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "आंिररक",
+        "मूलभूि"
+      ],
+      "englishDefinition": "Belonging to the essential nature or constitution of a",
+      "pronunciation": {
+        "ipa": "/intrinsic/",
+        "simple": "INTR-insic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably intrinsic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से आंिररक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ingrained",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आंिररक",
+            "मूलभूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ingrained.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ingrained था।"
+            }
+          ]
+        },
+        {
+          "word": "instinctive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आंिररक",
+            "मूलभूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instinctive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instinctive था।"
+            }
+          ]
+        },
+        {
+          "word": "intuitive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आंिररक",
+            "मूलभूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intuitive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intuitive था।"
+            }
+          ]
+        },
+        {
+          "word": "inherent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आंिररक",
+            "मूलभूि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inherent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inherent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 452,
+      "word": "extrinsic",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ब हरी"
+      ],
+      "englishDefinition": "(Antonym) Not forming part of or belonging to a thing : external.",
+      "pronunciation": {
+        "ipa": "/extrinsic/",
+        "simple": "EXTR-insic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably extrinsic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ब हरी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "instinctive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब हरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was instinctive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण instinctive था।"
+            }
+          ]
+        },
+        {
+          "word": "intuitive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब हरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intuitive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intuitive था।"
+            }
+          ]
+        },
+        {
+          "word": "inherent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब हरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inherent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inherent था।"
+            }
+          ]
+        },
+        {
+          "word": "intrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब हरी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intrinsic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 453,
+      "word": "inbred",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "जन्मजाि"
+      ],
+      "englishDefinition": "(Mnemonic: In breed/Janm",
+      "pronunciation": {
+        "ipa": "/inbred/",
+        "simple": "INB-red"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably inbred.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जन्मजाि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "intuitive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intuitive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intuitive था।"
+            }
+          ]
+        },
+        {
+          "word": "inherent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inherent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inherent था।"
+            }
+          ]
+        },
+        {
+          "word": "intrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "extrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extrinsic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 454,
+      "word": "congenital",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "जन्मजाि (रोग",
+        "गुण)"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/congenital/",
+        "simple": "CONGE-nital"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably congenital.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जन्मजाि (रोग थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inherent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि (रोग",
+            "गुण)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inherent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inherent था।"
+            }
+          ]
+        },
+        {
+          "word": "intrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि (रोग",
+            "गुण)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "extrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि (रोग",
+            "गुण)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "inbred",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जन्मजाि (रोग",
+            "गुण)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inbred.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inbred था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 455,
+      "word": "imminent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्िकटथि",
+        "स्सर पर आय  हुआ"
+      ],
+      "englishDefinition": "Ready to take place; happening soon (often bad).",
+      "pronunciation": {
+        "ipa": "/imminent/",
+        "simple": "IMMI-nent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably imminent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्िकटथि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "intrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िकटथि",
+            "स्सर पर आय  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was intrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण intrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "extrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िकटथि",
+            "स्सर पर आय  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "inbred",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िकटथि",
+            "स्सर पर आय  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inbred.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inbred था।"
+            }
+          ]
+        },
+        {
+          "word": "congenital",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िकटथि",
+            "स्सर पर आय  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congenital.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congenital था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 456,
+      "word": "immanent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अंिनियनहि",
+        "आंिररक"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/immanent/",
+        "simple": "IMMA-nent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably immanent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अंिनियनहि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "extrinsic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अंिनियनहि",
+            "आंिररक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was extrinsic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण extrinsic था।"
+            }
+          ]
+        },
+        {
+          "word": "inbred",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अंिनियनहि",
+            "आंिररक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inbred.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inbred था।"
+            }
+          ]
+        },
+        {
+          "word": "congenital",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अंिनियनहि",
+            "आंिररक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congenital.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congenital था।"
+            }
+          ]
+        },
+        {
+          "word": "imminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अंिनियनहि",
+            "आंिररक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imminent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 457,
+      "word": "eminent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रनसद्ध",
+        "उत्कृ ष्ट",
+        "माििीय"
+      ],
+      "englishDefinition": "Exhibiting eminence especially in standing or success.",
+      "pronunciation": {
+        "ipa": "/eminent/",
+        "simple": "EMI-nent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably eminent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रनसद्ध थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inbred",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रनसद्ध",
+            "उत्कृ ष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inbred.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inbred था।"
+            }
+          ]
+        },
+        {
+          "word": "congenital",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रनसद्ध",
+            "उत्कृ ष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congenital.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congenital था।"
+            }
+          ]
+        },
+        {
+          "word": "imminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रनसद्ध",
+            "उत्कृ ष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imminent था।"
+            }
+          ]
+        },
+        {
+          "word": "immanent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रनसद्ध",
+            "उत्कृ ष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was immanent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण immanent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 458,
+      "word": "superficial",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Superficial"
+      ],
+      "englishDefinition": "Presenting only an appearance without substance or",
+      "pronunciation": {
+        "ipa": "/superficial/",
+        "simple": "SUPER-ficial"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably superficial.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Superficial थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "congenital",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Superficial"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was congenital.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण congenital था।"
+            }
+          ]
+        },
+        {
+          "word": "imminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Superficial"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imminent था।"
+            }
+          ]
+        },
+        {
+          "word": "immanent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Superficial"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was immanent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण immanent था।"
+            }
+          ]
+        },
+        {
+          "word": "eminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Superficial"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eminent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 459,
+      "word": "onerous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Onerous"
+      ],
+      "englishDefinition": "(Mnemonic: Onus/One-",
+      "pronunciation": {
+        "ipa": "/onerous/",
+        "simple": "ONE-rous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably onerous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Onerous थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "imminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Onerous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was imminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण imminent था।"
+            }
+          ]
+        },
+        {
+          "word": "immanent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Onerous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was immanent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण immanent था।"
+            }
+          ]
+        },
+        {
+          "word": "eminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Onerous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eminent था।"
+            }
+          ]
+        },
+        {
+          "word": "superficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Onerous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superficial था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 460,
+      "word": "onus",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Onus"
+      ],
+      "englishDefinition": "A burden; a disagreeable necessity;",
+      "pronunciation": {
+        "ipa": "/onus/",
+        "simple": "ONUS"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of onus in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Onus के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "immanent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Onus"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was immanent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण immanent था।"
+            }
+          ]
+        },
+        {
+          "word": "eminent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Onus"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eminent था।"
+            }
+          ]
+        },
+        {
+          "word": "superficial",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Onus"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superficial था।"
+            }
+          ]
+        },
+        {
+          "word": "onerous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Onus"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onerous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onerous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 461,
+      "word": "burdensome",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बोस्झल",
+        "भ री"
+      ],
+      "englishDefinition": "Imposing or constituting a burden : oppressive.",
+      "pronunciation": {
+        "ipa": "/burdensome/",
+        "simple": "BURDE-nsome"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably burdensome.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बोस्झल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "eminent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बोस्झल",
+            "भ री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was eminent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण eminent था।"
+            }
+          ]
+        },
+        {
+          "word": "superficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बोस्झल",
+            "भ री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superficial था।"
+            }
+          ]
+        },
+        {
+          "word": "onerous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बोस्झल",
+            "भ री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onerous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onerous था।"
+            }
+          ]
+        },
+        {
+          "word": "onus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बोस्झल",
+            "भ री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onus था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 462,
+      "word": "cumbersome",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Cumbersome"
+      ],
+      "englishDefinition": "(Mnemonic: Cucumber",
+      "pronunciation": {
+        "ipa": "/cumbersome/",
+        "simple": "CUMBE-rsome"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably cumbersome.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Cumbersome थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "superficial",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cumbersome"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superficial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superficial था।"
+            }
+          ]
+        },
+        {
+          "word": "onerous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cumbersome"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onerous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onerous था।"
+            }
+          ]
+        },
+        {
+          "word": "onus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cumbersome"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onus था।"
+            }
+          ]
+        },
+        {
+          "word": "burdensome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cumbersome"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was burdensome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण burdensome था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 463,
+      "word": "ponderous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Ponderous"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/ponderous/",
+        "simple": "POND-erous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably ponderous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Ponderous थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "onerous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ponderous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onerous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onerous था।"
+            }
+          ]
+        },
+        {
+          "word": "onus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ponderous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onus था।"
+            }
+          ]
+        },
+        {
+          "word": "burdensome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ponderous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was burdensome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण burdensome था।"
+            }
+          ]
+        },
+        {
+          "word": "cumbersome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ponderous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cumbersome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cumbersome था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 464,
+      "word": "weighty",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "र्वजिी"
+      ],
+      "englishDefinition": "Having much weight : heavy.",
+      "pronunciation": {
+        "ipa": "/weighty/",
+        "simple": "WEI-ghty"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably weighty.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से र्वजिी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "onus",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वजिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onus.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onus था।"
+            }
+          ]
+        },
+        {
+          "word": "burdensome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वजिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was burdensome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण burdensome था।"
+            }
+          ]
+        },
+        {
+          "word": "cumbersome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वजिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cumbersome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cumbersome था।"
+            }
+          ]
+        },
+        {
+          "word": "ponderous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "र्वजिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponderous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponderous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 465,
+      "word": "facile",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Facile"
+      ],
+      "englishDefinition": "(Mnemonic: Face/Easy) Easily accomplished or attained (sometimes too",
+      "pronunciation": {
+        "ipa": "/facile/",
+        "simple": "FAC-ile"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably facile.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Facile थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "burdensome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Facile"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was burdensome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण burdensome था।"
+            }
+          ]
+        },
+        {
+          "word": "cumbersome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Facile"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cumbersome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cumbersome था।"
+            }
+          ]
+        },
+        {
+          "word": "ponderous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Facile"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponderous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponderous था।"
+            }
+          ]
+        },
+        {
+          "word": "weighty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Facile"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was weighty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण weighty था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 466,
+      "word": "effortless",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अि य स",
+        "सरल"
+      ],
+      "englishDefinition": "Showing or requiring little or no effort.",
+      "pronunciation": {
+        "ipa": "/effortless/",
+        "simple": "EFFOR-tless"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably effortless.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अि य स थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cumbersome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अि य स",
+            "सरल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cumbersome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cumbersome था।"
+            }
+          ]
+        },
+        {
+          "word": "ponderous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अि य स",
+            "सरल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponderous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponderous था।"
+            }
+          ]
+        },
+        {
+          "word": "weighty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अि य स",
+            "सरल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was weighty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण weighty था।"
+            }
+          ]
+        },
+        {
+          "word": "facile",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अि य स",
+            "सरल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was facile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण facile था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 467,
+      "word": "slaughter",
+      "partOfSpeech": [
+        "n",
+        "v"
+      ],
+      "hindiMeaning": [
+        "र्वध",
+        "हत्य"
+      ],
+      "englishDefinition": "The killing of animals for food; killing of people.",
+      "pronunciation": {
+        "ipa": "/slaughter/",
+        "simple": "SLAU-ghter"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to slaughter the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को र्वध करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ponderous",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "र्वध",
+            "हत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ponderous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ponderous था।"
+            }
+          ]
+        },
+        {
+          "word": "weighty",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "र्वध",
+            "हत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was weighty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण weighty था।"
+            }
+          ]
+        },
+        {
+          "word": "facile",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "र्वध",
+            "हत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was facile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण facile था।"
+            }
+          ]
+        },
+        {
+          "word": "effortless",
+          "partOfSpeech": [
+            "n",
+            "v"
+          ],
+          "hindiMeaning": [
+            "र्वध",
+            "हत्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effortless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effortless था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 468,
+      "word": "abattoir",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कस ईख ि"
+      ],
+      "englishDefinition": "A place where animals are butchered.",
+      "pronunciation": {
+        "ipa": "/abattoir/",
+        "simple": "ABAT-toir"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of abattoir in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कस ईख ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "weighty",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कस ईख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was weighty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण weighty था।"
+            }
+          ]
+        },
+        {
+          "word": "facile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कस ईख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was facile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण facile था।"
+            }
+          ]
+        },
+        {
+          "word": "effortless",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कस ईख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effortless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effortless था।"
+            }
+          ]
+        },
+        {
+          "word": "slaughter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कस ईख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slaughter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slaughter था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 469,
+      "word": "onslaught",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "हमल",
+        "ध र्व"
+      ],
+      "englishDefinition": "(Mnemonic: Slot/Attack) An especially fierce attack.",
+      "pronunciation": {
+        "ipa": "/onslaught/",
+        "simple": "ONSL-aught"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of onslaught in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में हमल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "facile",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "ध र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was facile.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण facile था।"
+            }
+          ]
+        },
+        {
+          "word": "effortless",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "ध र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effortless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effortless था।"
+            }
+          ]
+        },
+        {
+          "word": "slaughter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "ध र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slaughter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slaughter था।"
+            }
+          ]
+        },
+        {
+          "word": "abattoir",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "ध र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abattoir.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abattoir था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 470,
+      "word": "assault",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "हमल",
+        "प्रह र"
+      ],
+      "englishDefinition": "A violent physical or verbal attack.",
+      "pronunciation": {
+        "ipa": "/assault/",
+        "simple": "ASS-ault"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of assault in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में हमल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "effortless",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "प्रह र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effortless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effortless था।"
+            }
+          ]
+        },
+        {
+          "word": "slaughter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "प्रह र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slaughter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slaughter था।"
+            }
+          ]
+        },
+        {
+          "word": "abattoir",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "प्रह र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abattoir.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abattoir था।"
+            }
+          ]
+        },
+        {
+          "word": "onslaught",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "हमल",
+            "प्रह र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onslaught.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onslaught था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 471,
+      "word": "invasion",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Invasion"
+      ],
+      "englishDefinition": "An act of invading; especially : incursion of an army",
+      "pronunciation": {
+        "ipa": "/invasion/",
+        "simple": "INVA-sion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of invasion in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Invasion के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "slaughter",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Invasion"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slaughter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slaughter था।"
+            }
+          ]
+        },
+        {
+          "word": "abattoir",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Invasion"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abattoir.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abattoir था।"
+            }
+          ]
+        },
+        {
+          "word": "onslaught",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Invasion"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onslaught.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onslaught था।"
+            }
+          ]
+        },
+        {
+          "word": "assault",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Invasion"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assault.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assault था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 472,
+      "word": "bombardment",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "बमब री"
+      ],
+      "englishDefinition": "To attack especially with artillery or bombers.",
+      "pronunciation": {
+        "ipa": "/bombardment/",
+        "simple": "BOMBA-rdment"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of bombardment in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बमब री के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "abattoir",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बमब री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abattoir.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abattoir था।"
+            }
+          ]
+        },
+        {
+          "word": "onslaught",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बमब री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onslaught.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onslaught था।"
+            }
+          ]
+        },
+        {
+          "word": "assault",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बमब री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assault.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assault था।"
+            }
+          ]
+        },
+        {
+          "word": "invasion",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बमब री"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was invasion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण invasion था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 473,
+      "word": "apprehend",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "स्गरफ्त र करि",
+        "समझि"
+      ],
+      "englishDefinition": "(Mnemonic: Hands up) To arrest or seize; to understand/grasp.",
+      "pronunciation": {
+        "ipa": "/apprehend/",
+        "simple": "APPR-ehend"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to apprehend the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को स्गरफ्त र करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "onslaught",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्गरफ्त र करि",
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was onslaught.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण onslaught था।"
+            }
+          ]
+        },
+        {
+          "word": "assault",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्गरफ्त र करि",
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assault.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assault था।"
+            }
+          ]
+        },
+        {
+          "word": "invasion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्गरफ्त र करि",
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was invasion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण invasion था।"
+            }
+          ]
+        },
+        {
+          "word": "bombardment",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "स्गरफ्त र करि",
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bombardment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bombardment था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 474,
+      "word": "comprehend",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "समझि"
+      ],
+      "englishDefinition": "To grasp the nature, significance, or meaning of.",
+      "pronunciation": {
+        "ipa": "/comprehend/",
+        "simple": "COMPR-ehend"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to comprehend the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को समझि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "assault",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assault.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assault था।"
+            }
+          ]
+        },
+        {
+          "word": "invasion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was invasion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण invasion था।"
+            }
+          ]
+        },
+        {
+          "word": "bombardment",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bombardment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bombardment था।"
+            }
+          ]
+        },
+        {
+          "word": "apprehend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "समझि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apprehend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apprehend था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 475,
+      "word": "seize",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "जब्त करि",
+        "पकड़ि"
+      ],
+      "englishDefinition": "To take possession of.",
+      "pronunciation": {
+        "ipa": "/seize/",
+        "simple": "SE-ize"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to seize the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को जब्त करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "invasion",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जब्त करि",
+            "पकड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was invasion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण invasion था।"
+            }
+          ]
+        },
+        {
+          "word": "bombardment",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जब्त करि",
+            "पकड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bombardment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bombardment था।"
+            }
+          ]
+        },
+        {
+          "word": "apprehend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जब्त करि",
+            "पकड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apprehend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apprehend था।"
+            }
+          ]
+        },
+        {
+          "word": "comprehend",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "जब्त करि",
+            "पकड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comprehend.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comprehend था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

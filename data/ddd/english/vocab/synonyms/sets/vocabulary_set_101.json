@@ -1,0 +1,2299 @@
+{
+  "setId": "vocabulary_set_101",
+  "setNumber": 101,
+  "title": "Vocabulary Set 101 — Zenith to Upbraiding",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2501,
+      "word": "zenith",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्शरोस्बांदु",
+        "उत्कषि",
+        "िरम सीम"
+      ],
+      "englishDefinition": "time at which something is most powerful or successful. 130",
+      "pronunciation": {
+        "ipa": "/zenith/",
+        "simple": "ZEN-ith"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of zenith in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्शरोस्बांदु के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "culmination",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शरोस्बांदु",
+            "उत्कषि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culmination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culmination था।"
+            }
+          ]
+        },
+        {
+          "word": "vertex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शरोस्बांदु",
+            "उत्कषि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vertex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vertex था।"
+            }
+          ]
+        },
+        {
+          "word": "summit",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शरोस्बांदु",
+            "उत्कषि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was summit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण summit था।"
+            }
+          ]
+        },
+        {
+          "word": "crest",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शरोस्बांदु",
+            "उत्कषि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crest था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2502,
+      "word": "utopian",
+      "partOfSpeech": [
+        "Modeled"
+      ],
+      "hindiMeaning": [
+        "क ल्पस्िक",
+        "आदर्शलोक सांबांधी"
+      ],
+      "englishDefinition": "on a state where everything is perfect; impractical. 131",
+      "pronunciation": {
+        "ipa": "/utopian/",
+        "simple": "UTO-pian"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of utopian in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में क ल्पस्िक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vertex",
+          "partOfSpeech": [
+            "Modeled"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "आदर्शलोक सांबांधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vertex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vertex था।"
+            }
+          ]
+        },
+        {
+          "word": "summit",
+          "partOfSpeech": [
+            "Modeled"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "आदर्शलोक सांबांधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was summit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण summit था।"
+            }
+          ]
+        },
+        {
+          "word": "crest",
+          "partOfSpeech": [
+            "Modeled"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "आदर्शलोक सांबांधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crest था।"
+            }
+          ]
+        },
+        {
+          "word": "zenith",
+          "partOfSpeech": [
+            "Modeled"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "आदर्शलोक सांबांधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was zenith.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण zenith था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2503,
+      "word": "idealistic",
+      "partOfSpeech": [
+        "Unrealistically"
+      ],
+      "hindiMeaning": [
+        "आदर्शर्व दी",
+        "क ल्पस्िक",
+        "अव्य र्वह ररक"
+      ],
+      "englishDefinition": "aiming for perfection. 132",
+      "pronunciation": {
+        "ipa": "/idealistic/",
+        "simple": "IDEAL-istic"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of idealistic in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आदर्शर्व दी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "summit",
+          "partOfSpeech": [
+            "Unrealistically"
+          ],
+          "hindiMeaning": [
+            "आदर्शर्व दी",
+            "क ल्पस्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was summit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण summit था।"
+            }
+          ]
+        },
+        {
+          "word": "crest",
+          "partOfSpeech": [
+            "Unrealistically"
+          ],
+          "hindiMeaning": [
+            "आदर्शर्व दी",
+            "क ल्पस्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crest था।"
+            }
+          ]
+        },
+        {
+          "word": "zenith",
+          "partOfSpeech": [
+            "Unrealistically"
+          ],
+          "hindiMeaning": [
+            "आदर्शर्व दी",
+            "क ल्पस्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was zenith.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण zenith था।"
+            }
+          ]
+        },
+        {
+          "word": "utopian",
+          "partOfSpeech": [
+            "Unrealistically"
+          ],
+          "hindiMeaning": [
+            "आदर्शर्व दी",
+            "क ल्पस्िक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopian.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopian था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2504,
+      "word": "fictitious",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "क ल्पस्िक",
+        "झूठ",
+        "मिगढ़ांत"
+      ],
+      "englishDefinition": "real or true; imaginary or false. 134",
+      "pronunciation": {
+        "ipa": "/fictitious/",
+        "simple": "FICTI-tious"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of fictitious in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में क ल्पस्िक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "crest",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crest.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crest था।"
+            }
+          ]
+        },
+        {
+          "word": "zenith",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was zenith.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण zenith था।"
+            }
+          ]
+        },
+        {
+          "word": "utopian",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopian.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopian था।"
+            }
+          ]
+        },
+        {
+          "word": "idealistic",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "क ल्पस्िक",
+            "झूठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idealistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idealistic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2505,
+      "word": "visionary",
+      "partOfSpeech": [
+        "Thinking"
+      ],
+      "hindiMeaning": [
+        "दूरदशी",
+        "काल्पनिक",
+        "कल्पिाशील"
+      ],
+      "englishDefinition": "about the future with imagination; having impractical",
+      "pronunciation": {
+        "ipa": "/visionary/",
+        "simple": "VISI-onary"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of visionary in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दूरदशी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "zenith",
+          "partOfSpeech": [
+            "Thinking"
+          ],
+          "hindiMeaning": [
+            "दूरदशी",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was zenith.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण zenith था।"
+            }
+          ]
+        },
+        {
+          "word": "utopian",
+          "partOfSpeech": [
+            "Thinking"
+          ],
+          "hindiMeaning": [
+            "दूरदशी",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopian.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopian था।"
+            }
+          ]
+        },
+        {
+          "word": "idealistic",
+          "partOfSpeech": [
+            "Thinking"
+          ],
+          "hindiMeaning": [
+            "दूरदशी",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idealistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idealistic था।"
+            }
+          ]
+        },
+        {
+          "word": "fictitious",
+          "partOfSpeech": [
+            "Thinking"
+          ],
+          "hindiMeaning": [
+            "दूरदशी",
+            "काल्पनिक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fictitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fictitious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2506,
+      "word": "impossible",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "असांभर्व",
+        "ि मुमस्कि"
+      ],
+      "englishDefinition": "able to be done; not able to exist or happen. 137",
+      "pronunciation": {
+        "ipa": "/impossible/",
+        "simple": "IMPOS-sible"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impossible in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में असांभर्व के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "utopian",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "असांभर्व",
+            "ि मुमस्कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was utopian.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण utopian था।"
+            }
+          ]
+        },
+        {
+          "word": "idealistic",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "असांभर्व",
+            "ि मुमस्कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idealistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idealistic था।"
+            }
+          ]
+        },
+        {
+          "word": "fictitious",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "असांभर्व",
+            "ि मुमस्कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fictitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fictitious था।"
+            }
+          ]
+        },
+        {
+          "word": "visionary",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "असांभर्व",
+            "ि मुमस्कि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was visionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण visionary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2507,
+      "word": "pragmatic",
+      "partOfSpeech": [
+        "Dealing"
+      ],
+      "hindiMeaning": [
+        "व्यर्वह ररक",
+        "तथ्यपरक",
+        "व्य र्वह ररक"
+      ],
+      "englishDefinition": "with things sensibly and realistically. 138",
+      "pronunciation": {
+        "ipa": "/pragmatic/",
+        "simple": "PRAG-matic"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pragmatic in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में व्यर्वह ररक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "idealistic",
+          "partOfSpeech": [
+            "Dealing"
+          ],
+          "hindiMeaning": [
+            "व्यर्वह ररक",
+            "तथ्यपरक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idealistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idealistic था।"
+            }
+          ]
+        },
+        {
+          "word": "fictitious",
+          "partOfSpeech": [
+            "Dealing"
+          ],
+          "hindiMeaning": [
+            "व्यर्वह ररक",
+            "तथ्यपरक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fictitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fictitious था।"
+            }
+          ]
+        },
+        {
+          "word": "visionary",
+          "partOfSpeech": [
+            "Dealing"
+          ],
+          "hindiMeaning": [
+            "व्यर्वह ररक",
+            "तथ्यपरक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was visionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण visionary था।"
+            }
+          ]
+        },
+        {
+          "word": "impossible",
+          "partOfSpeech": [
+            "Dealing"
+          ],
+          "hindiMeaning": [
+            "व्यर्वह ररक",
+            "तथ्यपरक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impossible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impossible था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2508,
+      "word": "empirical",
+      "partOfSpeech": [
+        "Based"
+      ],
+      "hindiMeaning": [
+        "अिुभर्व स्श्रत",
+        "प्रयोग ध ररत"
+      ],
+      "englishDefinition": "on observation or experience rather than theory. 139",
+      "pronunciation": {
+        "ipa": "/empirical/",
+        "simple": "EMPI-rical"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of empirical in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अिुभर्व स्श्रत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "fictitious",
+          "partOfSpeech": [
+            "Based"
+          ],
+          "hindiMeaning": [
+            "अिुभर्व स्श्रत",
+            "प्रयोग ध ररत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was fictitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण fictitious था।"
+            }
+          ]
+        },
+        {
+          "word": "visionary",
+          "partOfSpeech": [
+            "Based"
+          ],
+          "hindiMeaning": [
+            "अिुभर्व स्श्रत",
+            "प्रयोग ध ररत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was visionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण visionary था।"
+            }
+          ]
+        },
+        {
+          "word": "impossible",
+          "partOfSpeech": [
+            "Based"
+          ],
+          "hindiMeaning": [
+            "अिुभर्व स्श्रत",
+            "प्रयोग ध ररत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impossible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impossible था।"
+            }
+          ]
+        },
+        {
+          "word": "pragmatic",
+          "partOfSpeech": [
+            "Based"
+          ],
+          "hindiMeaning": [
+            "अिुभर्व स्श्रत",
+            "प्रयोग ध ररत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pragmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pragmatic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2509,
+      "word": "realistic",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "र्व थतस्र्वक",
+        "यि ििर्व दी",
+        "तथ्यपूर्ि"
+      ],
+      "englishDefinition": "a sensible and practical idea of what can be achieved. 140",
+      "pronunciation": {
+        "ipa": "/realistic/",
+        "simple": "REAL-istic"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to realistic the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को र्व थतस्र्वक करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "visionary",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "र्व थतस्र्वक",
+            "यि ििर्व दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was visionary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण visionary था।"
+            }
+          ]
+        },
+        {
+          "word": "impossible",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "र्व थतस्र्वक",
+            "यि ििर्व दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impossible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impossible था।"
+            }
+          ]
+        },
+        {
+          "word": "pragmatic",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "र्व थतस्र्वक",
+            "यि ििर्व दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pragmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pragmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "empirical",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "र्व थतस्र्वक",
+            "यि ििर्व दी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empirical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empirical था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2510,
+      "word": "plausible",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "नवश्वसिीय",
+        "संभाव्य",
+        "प्रिीि होिे वाला"
+      ],
+      "englishDefinition": "(Of an argument or statement) seeming reasonable or probable.",
+      "pronunciation": {
+        "ipa": "/plausible/",
+        "simple": "PLAU-sible"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably plausible.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से नवश्वसिीय थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impossible",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "नवश्वसिीय",
+            "संभाव्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impossible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impossible था।"
+            }
+          ]
+        },
+        {
+          "word": "pragmatic",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "नवश्वसिीय",
+            "संभाव्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pragmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pragmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "empirical",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "नवश्वसिीय",
+            "संभाव्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empirical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empirical था।"
+            }
+          ]
+        },
+        {
+          "word": "realistic",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "नवश्वसिीय",
+            "संभाव्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was realistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण realistic था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2511,
+      "word": "feasible",
+      "partOfSpeech": [
+        "Possible"
+      ],
+      "hindiMeaning": [
+        "सांभर्व",
+        "व्यर्वह यि",
+        "उपयुि"
+      ],
+      "englishDefinition": "to do easily or conveniently; practicable. 142",
+      "pronunciation": {
+        "ipa": "/feasible/",
+        "simple": "FEAS-ible"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of feasible in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांभर्व के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pragmatic",
+          "partOfSpeech": [
+            "Possible"
+          ],
+          "hindiMeaning": [
+            "सांभर्व",
+            "व्यर्वह यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pragmatic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pragmatic था।"
+            }
+          ]
+        },
+        {
+          "word": "empirical",
+          "partOfSpeech": [
+            "Possible"
+          ],
+          "hindiMeaning": [
+            "सांभर्व",
+            "व्यर्वह यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empirical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empirical था।"
+            }
+          ]
+        },
+        {
+          "word": "realistic",
+          "partOfSpeech": [
+            "Possible"
+          ],
+          "hindiMeaning": [
+            "सांभर्व",
+            "व्यर्वह यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was realistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण realistic था।"
+            }
+          ]
+        },
+        {
+          "word": "plausible",
+          "partOfSpeech": [
+            "Possible"
+          ],
+          "hindiMeaning": [
+            "सांभर्व",
+            "व्यर्वह यि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plausible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plausible था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2512,
+      "word": "probable",
+      "partOfSpeech": [
+        "Likely"
+      ],
+      "hindiMeaning": [
+        "सांभ स्र्वत",
+        "प्र स्यक",
+        "सांभर्व"
+      ],
+      "englishDefinition": "to happen or be the case. 143",
+      "pronunciation": {
+        "ipa": "/probable/",
+        "simple": "PROB-able"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of probable in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांभ स्र्वत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "empirical",
+          "partOfSpeech": [
+            "Likely"
+          ],
+          "hindiMeaning": [
+            "सांभ स्र्वत",
+            "प्र स्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empirical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empirical था।"
+            }
+          ]
+        },
+        {
+          "word": "realistic",
+          "partOfSpeech": [
+            "Likely"
+          ],
+          "hindiMeaning": [
+            "सांभ स्र्वत",
+            "प्र स्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was realistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण realistic था।"
+            }
+          ]
+        },
+        {
+          "word": "plausible",
+          "partOfSpeech": [
+            "Likely"
+          ],
+          "hindiMeaning": [
+            "सांभ स्र्वत",
+            "प्र स्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plausible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plausible था।"
+            }
+          ]
+        },
+        {
+          "word": "feasible",
+          "partOfSpeech": [
+            "Likely"
+          ],
+          "hindiMeaning": [
+            "सांभ स्र्वत",
+            "प्र स्यक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feasible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feasible था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2513,
+      "word": "bother",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "परेश ि करि",
+        "तांग करि"
+      ],
+      "englishDefinition": "take the trouble to do something; to annoy. 146",
+      "pronunciation": {
+        "ipa": "/bother/",
+        "simple": "BOT-her"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of bother in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में परेश ि करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "realistic",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was realistic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण realistic था।"
+            }
+          ]
+        },
+        {
+          "word": "plausible",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plausible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plausible था।"
+            }
+          ]
+        },
+        {
+          "word": "feasible",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feasible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feasible था।"
+            }
+          ]
+        },
+        {
+          "word": "probable",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेश ि करि",
+            "तांग करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was probable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण probable था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2514,
+      "word": "tease",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "स्िढ़ ि",
+        "िेड़ि",
+        "सत ि"
+      ],
+      "englishDefinition": "make fun of or attempt to provoke in a playful way. 147",
+      "pronunciation": {
+        "ipa": "/tease/",
+        "simple": "TE-ase"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of tease in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िढ़ ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "plausible",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्िढ़ ि",
+            "िेड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plausible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plausible था।"
+            }
+          ]
+        },
+        {
+          "word": "feasible",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्िढ़ ि",
+            "िेड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feasible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feasible था।"
+            }
+          ]
+        },
+        {
+          "word": "probable",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्िढ़ ि",
+            "िेड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was probable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण probable था।"
+            }
+          ]
+        },
+        {
+          "word": "bother",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "स्िढ़ ि",
+            "िेड़ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bother.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bother था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2515,
+      "word": "heckle",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "ब ध  ड लि",
+        "सर्व ल जर्व ब करि"
+      ],
+      "englishDefinition": "interrupt a public speaker with aggressive comments. 148",
+      "pronunciation": {
+        "ipa": "/heckle/",
+        "simple": "HEC-kle"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of heckle in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ब ध  ड लि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "feasible",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ब ध  ड लि",
+            "सर्व ल जर्व ब करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was feasible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण feasible था।"
+            }
+          ]
+        },
+        {
+          "word": "probable",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ब ध  ड लि",
+            "सर्व ल जर्व ब करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was probable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण probable था।"
+            }
+          ]
+        },
+        {
+          "word": "bother",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ब ध  ड लि",
+            "सर्व ल जर्व ब करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bother.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bother था।"
+            }
+          ]
+        },
+        {
+          "word": "tease",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ब ध  ड लि",
+            "सर्व ल जर्व ब करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tease.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tease था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2516,
+      "word": "harass",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "परेशाि करिा",
+        "सिािा",
+        "छेड़िा"
+      ],
+      "englishDefinition": "subject to aggressive pressure or intimidation. 151",
+      "pronunciation": {
+        "ipa": "/harass/",
+        "simple": "HAR-ass"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of harass in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में परेशाि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "probable",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेशाि करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was probable.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण probable था।"
+            }
+          ]
+        },
+        {
+          "word": "bother",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेशाि करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bother.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bother था।"
+            }
+          ]
+        },
+        {
+          "word": "tease",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेशाि करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tease.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tease था।"
+            }
+          ]
+        },
+        {
+          "word": "heckle",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "परेशाि करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was heckle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण heckle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2517,
+      "word": "hound",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पीछा करिा",
+        "सिािा"
+      ],
+      "englishDefinition": "harass, persecute, or pursue relentlessly. 152",
+      "pronunciation": {
+        "ipa": "/hound/",
+        "simple": "HO-und"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hound in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पीछा करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "bother",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पीछा करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bother.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bother था।"
+            }
+          ]
+        },
+        {
+          "word": "tease",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पीछा करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tease.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tease था।"
+            }
+          ]
+        },
+        {
+          "word": "heckle",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पीछा करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was heckle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण heckle था।"
+            }
+          ]
+        },
+        {
+          "word": "harass",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पीछा करिा",
+            "सिािा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was harass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण harass था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2518,
+      "word": "obsequiousness",
+      "partOfSpeech": [
+        "Excessive"
+      ],
+      "hindiMeaning": [
+        "ि टुक ररत",
+        "खुश मद"
+      ],
+      "englishDefinition": "eagerness to please or obey; servile compliance. 154",
+      "pronunciation": {
+        "ipa": "/obsequiousness/",
+        "simple": "OBSEQUI-ousness"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to obsequiousness the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को ि टुक ररत करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "tease",
+          "partOfSpeech": [
+            "Excessive"
+          ],
+          "hindiMeaning": [
+            "ि टुक ररत",
+            "खुश मद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was tease.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण tease था।"
+            }
+          ]
+        },
+        {
+          "word": "heckle",
+          "partOfSpeech": [
+            "Excessive"
+          ],
+          "hindiMeaning": [
+            "ि टुक ररत",
+            "खुश मद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was heckle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण heckle था।"
+            }
+          ]
+        },
+        {
+          "word": "harass",
+          "partOfSpeech": [
+            "Excessive"
+          ],
+          "hindiMeaning": [
+            "ि टुक ररत",
+            "खुश मद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was harass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण harass था।"
+            }
+          ]
+        },
+        {
+          "word": "hound",
+          "partOfSpeech": [
+            "Excessive"
+          ],
+          "hindiMeaning": [
+            "ि टुक ररत",
+            "खुश मद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hound.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hound था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2519,
+      "word": "sycophant",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "ि टुक र",
+        "खुश मदी"
+      ],
+      "englishDefinition": "person who acts obsequiously toward someone important. 158",
+      "pronunciation": {
+        "ipa": "/sycophant/",
+        "simple": "SYCO-phant"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sycophant in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ि टुक र के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "heckle",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ि टुक र",
+            "खुश मदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was heckle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण heckle था।"
+            }
+          ]
+        },
+        {
+          "word": "harass",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ि टुक र",
+            "खुश मदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was harass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण harass था।"
+            }
+          ]
+        },
+        {
+          "word": "hound",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ि टुक र",
+            "खुश मदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hound.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hound था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequiousness",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ि टुक र",
+            "खुश मदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequiousness.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequiousness था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2520,
+      "word": "flatter",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "चापलूसी करिा",
+        "खुशामद करिा"
+      ],
+      "englishDefinition": "praise insincerely or excessively to please someone. 159",
+      "pronunciation": {
+        "ipa": "/flatter/",
+        "simple": "FLA-tter"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of flatter in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चापलूसी करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "harass",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "चापलूसी करिा",
+            "खुशामद करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was harass.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण harass था।"
+            }
+          ]
+        },
+        {
+          "word": "hound",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "चापलूसी करिा",
+            "खुशामद करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hound.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hound था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequiousness",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "चापलूसी करिा",
+            "खुशामद करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequiousness.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequiousness था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophant",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "चापलूसी करिा",
+            "खुशामद करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2521,
+      "word": "obloquy",
+      "partOfSpeech": [
+        "Strong"
+      ],
+      "hindiMeaning": [
+        "स्िांद",
+        "अपम ि",
+        "स्तरथक र"
+      ],
+      "englishDefinition": "public criticism or verbal abuse; disgrace. 161",
+      "pronunciation": {
+        "ipa": "/obloquy/",
+        "simple": "OBL-oquy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of obloquy in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्िांद के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hound",
+          "partOfSpeech": [
+            "Strong"
+          ],
+          "hindiMeaning": [
+            "स्िांद",
+            "अपम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hound.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hound था।"
+            }
+          ]
+        },
+        {
+          "word": "obsequiousness",
+          "partOfSpeech": [
+            "Strong"
+          ],
+          "hindiMeaning": [
+            "स्िांद",
+            "अपम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequiousness.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequiousness था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophant",
+          "partOfSpeech": [
+            "Strong"
+          ],
+          "hindiMeaning": [
+            "स्िांद",
+            "अपम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophant था।"
+            }
+          ]
+        },
+        {
+          "word": "flatter",
+          "partOfSpeech": [
+            "Strong"
+          ],
+          "hindiMeaning": [
+            "स्िांद",
+            "अपम ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flatter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flatter था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2522,
+      "word": "chiding",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "फटक र",
+        "ड ँटि",
+        "स्झड़की"
+      ],
+      "englishDefinition": "act of scolding or rebuking. 162",
+      "pronunciation": {
+        "ipa": "/chiding/",
+        "simple": "CHI-ding"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of chiding in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में फटक र के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obsequiousness",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "फटक र",
+            "ड ँटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obsequiousness.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obsequiousness था।"
+            }
+          ]
+        },
+        {
+          "word": "sycophant",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "फटक र",
+            "ड ँटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophant था।"
+            }
+          ]
+        },
+        {
+          "word": "flatter",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "फटक र",
+            "ड ँटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flatter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flatter था।"
+            }
+          ]
+        },
+        {
+          "word": "obloquy",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "फटक र",
+            "ड ँटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obloquy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obloquy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2523,
+      "word": "stricture",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "आलोिि",
+        "फटक र",
+        "सांकोिि"
+      ],
+      "englishDefinition": "restriction on a person/activity; a severe criticism. 163",
+      "pronunciation": {
+        "ipa": "/stricture/",
+        "simple": "STRI-cture"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stricture in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आलोिि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sycophant",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आलोिि",
+            "फटक र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sycophant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sycophant था।"
+            }
+          ]
+        },
+        {
+          "word": "flatter",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आलोिि",
+            "फटक र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flatter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flatter था।"
+            }
+          ]
+        },
+        {
+          "word": "obloquy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आलोिि",
+            "फटक र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obloquy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obloquy था।"
+            }
+          ]
+        },
+        {
+          "word": "chiding",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "आलोिि",
+            "फटक र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chiding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chiding था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2524,
+      "word": "vituperating",
+      "partOfSpeech": [
+        "Censuring"
+      ],
+      "hindiMeaning": [
+        "गाली देिा",
+        "बुरा-भला कहिा"
+      ],
+      "englishDefinition": "or criticizing in a harsh or abusive manner. 164",
+      "pronunciation": {
+        "ipa": "/vituperating/",
+        "simple": "VITUPE-rating"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of vituperating in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गाली देिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "flatter",
+          "partOfSpeech": [
+            "Censuring"
+          ],
+          "hindiMeaning": [
+            "गाली देिा",
+            "बुरा-भला कहिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flatter.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flatter था।"
+            }
+          ]
+        },
+        {
+          "word": "obloquy",
+          "partOfSpeech": [
+            "Censuring"
+          ],
+          "hindiMeaning": [
+            "गाली देिा",
+            "बुरा-भला कहिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obloquy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obloquy था।"
+            }
+          ]
+        },
+        {
+          "word": "chiding",
+          "partOfSpeech": [
+            "Censuring"
+          ],
+          "hindiMeaning": [
+            "गाली देिा",
+            "बुरा-भला कहिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chiding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chiding था।"
+            }
+          ]
+        },
+        {
+          "word": "stricture",
+          "partOfSpeech": [
+            "Censuring"
+          ],
+          "hindiMeaning": [
+            "गाली देिा",
+            "बुरा-भला कहिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stricture.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stricture था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2525,
+      "word": "upbraiding",
+      "partOfSpeech": [
+        "Finding"
+      ],
+      "hindiMeaning": [
+        "डाुँििा",
+        "फिकारिा",
+        "निरस्कार करिा"
+      ],
+      "englishDefinition": "fault with; scolding. 165",
+      "pronunciation": {
+        "ipa": "/upbraiding/",
+        "simple": "UPBRA-iding"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of upbraiding in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में डाुँििा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "obloquy",
+          "partOfSpeech": [
+            "Finding"
+          ],
+          "hindiMeaning": [
+            "डाुँििा",
+            "फिकारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was obloquy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण obloquy था।"
+            }
+          ]
+        },
+        {
+          "word": "chiding",
+          "partOfSpeech": [
+            "Finding"
+          ],
+          "hindiMeaning": [
+            "डाुँििा",
+            "फिकारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was chiding.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण chiding था।"
+            }
+          ]
+        },
+        {
+          "word": "stricture",
+          "partOfSpeech": [
+            "Finding"
+          ],
+          "hindiMeaning": [
+            "डाुँििा",
+            "फिकारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stricture.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stricture था।"
+            }
+          ]
+        },
+        {
+          "word": "vituperating",
+          "partOfSpeech": [
+            "Finding"
+          ],
+          "hindiMeaning": [
+            "डाुँििा",
+            "फिकारिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vituperating.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vituperating था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

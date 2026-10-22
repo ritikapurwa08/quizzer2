@@ -1,0 +1,4596 @@
+{
+  "setId": "revision_quiz_master_01_03",
+  "totalQuestions": 255,
+  "questions": [
+    {
+      "id": "rev_set01_syn_001",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "abandon",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ABANDON**",
+      "options": [
+        "advance",
+        "adverse",
+        "forsake",
+        "keep"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "forsake",
+      "hindiMeaning": "छोड़ देना, त्याग देना",
+      "explanation": "**'Abandon'** का अर्थ है: **छोड़ देना, त्याग देना** (To leave someone or something behind, or to give up a plan or activity.)\n• सही Synonym: **'forsake'** (अर्थ: छोड़ देना, त्याग देना)\n• Antonyms: keep, retain"
+    },
+    {
+      "id": "rev_set01_syn_002",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "abrogate",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ABROGATE**",
+      "options": [
+        "repeal",
+        "enact",
+        "adept",
+        "adopt"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "repeal",
+      "hindiMeaning": "औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना",
+      "explanation": "**'Abrogate'** का अर्थ है: **औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना** (To formally repeal, annul, or do away with a law, agreement, or obligation.)\n• सही Synonym: **'repeal'** (अर्थ: औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना)\n• Antonyms: enact, establish"
+    },
+    {
+      "id": "rev_set01_syn_003",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "abundant",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ABUNDANT**",
+      "options": [
+        "plentiful",
+        "accoutrements",
+        "scarce",
+        "advance"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "plentiful",
+      "hindiMeaning": "प्रचुर, भरपूर, बहुत अधिक मात्रा में",
+      "explanation": "**'Abundant'** का अर्थ है: **प्रचुर, भरपूर, बहुत अधिक मात्रा में** (Existing or available in large quantities.)\n• सही Synonym: **'plentiful'** (अर्थ: प्रचुर, भरपूर, बहुत अधिक मात्रा में)\n• Antonyms: scarce, sparse"
+    },
+    {
+      "id": "rev_set01_syn_004",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "abduct",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ABDUCT**",
+      "options": [
+        "kidnap",
+        "acumen",
+        "advance",
+        "adverse"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "kidnap",
+      "hindiMeaning": "अपहरण करना, बलपूर्वक ले जाना",
+      "explanation": "**'Abduct'** का अर्थ है: **अपहरण करना, बलपूर्वक ले जाना** (To take someone away illegally and usually by force.)\n• सही Synonym: **'kidnap'** (अर्थ: अपहरण करना, बलपूर्वक ले जाना)"
+    },
+    {
+      "id": "rev_set01_syn_005",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "abide",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ABIDE**",
+      "options": [
+        "dwell",
+        "disobey",
+        "aid",
+        "alert"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "dwell",
+      "hindiMeaning": "रहना, पालन करना, सहन करना",
+      "explanation": "**'Abide'** का अर्थ है: **रहना, पालन करना, सहन करना** (To remain in a place; to accept or act according to a rule; or, in the phrase cannot abide, to tolerate.)\n• सही Synonym: **'dwell'** (अर्थ: रहना, पालन करना, सहन करना)\n• Antonyms: disobey, depart"
+    },
+    {
+      "id": "rev_set01_syn_006",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "accede",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACCEDE**",
+      "options": [
+        "abide",
+        "refuse",
+        "consent",
+        "advance"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "consent",
+      "hindiMeaning": "सहमति देना, अनुरोध मान लेना, पद ग्रहण करना",
+      "explanation": "**'Accede'** का अर्थ है: **सहमति देना, अनुरोध मान लेना, पद ग्रहण करना** (To agree to a request or demand, or to assume an office or position.)\n• सही Synonym: **'consent'** (अर्थ: सहमति देना, अनुरोध मान लेना, पद ग्रहण करना)\n• Antonyms: refuse, dissent"
+    },
+    {
+      "id": "rev_set01_syn_007",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "access",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACCESS**",
+      "options": [
+        "inaccessibility",
+        "adorn",
+        "accrue",
+        "entry"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "entry",
+      "hindiMeaning": "पहुँच, प्रवेश, प्राप्त करना या खोलना",
+      "explanation": "**'Access'** का अर्थ है: **पहुँच, प्रवेश, प्राप्त करना या खोलना** (The means or right to enter or use something; as a verb, to obtain or use information or a system.)\n• सही Synonym: **'entry'** (अर्थ: पहुँच, प्रवेश, प्राप्त करना या खोलना)\n• Antonyms: inaccessibility"
+    },
+    {
+      "id": "rev_set01_syn_008",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "accoutrements",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACCOUTREMENTS**",
+      "options": [
+        "abduct",
+        "accede",
+        "adept",
+        "accessories"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "accessories",
+      "hindiMeaning": "साज-सामान, सहायक उपकरण, किसी गतिविधि से जुड़ी वस्तुएँ",
+      "explanation": "**'Accoutrements'** का अर्थ है: **साज-सामान, सहायक उपकरण, किसी गतिविधि से जुड़ी वस्तुएँ** (Additional items or equipment associated with a particular activity, role, or task.)\n• सही Synonym: **'accessories'** (अर्थ: साज-सामान, सहायक उपकरण, किसी गतिविधि से जुड़ी वस्तुएँ)"
+    },
+    {
+      "id": "rev_set01_syn_009",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "accrue",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACCRUE**",
+      "options": [
+        "accoutrements",
+        "decrease",
+        "accumulate",
+        "adverse"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "accumulate",
+      "hindiMeaning": "धीरे-धीरे जमा होना, समय के साथ प्राप्त होना",
+      "explanation": "**'Accrue'** का अर्थ है: **धीरे-धीरे जमा होना, समय के साथ प्राप्त होना** (To accumulate or be received gradually over time.)\n• सही Synonym: **'accumulate'** (अर्थ: धीरे-धीरे जमा होना, समय के साथ प्राप्त होना)\n• Antonyms: decrease, dissipate"
+    },
+    {
+      "id": "rev_set01_syn_010",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "accused",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACCUSED**",
+      "options": [
+        "defendant",
+        "allege",
+        "alter",
+        "abide"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "defendant",
+      "hindiMeaning": "आरोपी, जिस पर आरोप लगाया गया हो",
+      "explanation": "**'Accused'** का अर्थ है: **आरोपी, जिस पर आरोप लगाया गया हो** (A person alleged to have committed an offence; also used to describe someone who has been accused.)\n• सही Synonym: **'defendant'** (अर्थ: आरोपी, जिस पर आरोप लगाया गया हो)"
+    },
+    {
+      "id": "rev_set01_syn_011",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "acumen",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ACUMEN**",
+      "options": [
+        "insight",
+        "affluence",
+        "ineptitude",
+        "agony"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "insight",
+      "hindiMeaning": "तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता",
+      "explanation": "**'Acumen'** का अर्थ है: **तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता** (The ability to make good judgments and quick, accurate decisions, especially in a particular field.)\n• सही Synonym: **'insight'** (अर्थ: तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता)\n• Antonyms: ineptitude, naivety"
+    },
+    {
+      "id": "rev_set01_syn_012",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "adept",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADEPT**",
+      "options": [
+        "alert",
+        "inept",
+        "skilled",
+        "abide"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "skilled",
+      "hindiMeaning": "कुशल, निपुण",
+      "explanation": "**'Adept'** का अर्थ है: **कुशल, निपुण** (Very skilled or proficient at doing something.)\n• सही Synonym: **'skilled'** (अर्थ: कुशल, निपुण)\n• Antonyms: inept, incompetent"
+    },
+    {
+      "id": "rev_set01_syn_013",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "admonish",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADMONISH**",
+      "options": [
+        "praise",
+        "adorn",
+        "affluence",
+        "rebuke"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "rebuke",
+      "hindiMeaning": "चेतावनी देना, समझाकर डाँटना, फटकारना",
+      "explanation": "**'Admonish'** का अर्थ है: **चेतावनी देना, समझाकर डाँटना, फटकारना** (To warn or reprimand someone firmly, often to correct behaviour.)\n• सही Synonym: **'rebuke'** (अर्थ: चेतावनी देना, समझाकर डाँटना, फटकारना)\n• Antonyms: praise, commend"
+    },
+    {
+      "id": "rev_set01_syn_014",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "adopt",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADOPT**",
+      "options": [
+        "reject",
+        "affirm",
+        "alter",
+        "embrace"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "embrace",
+      "hindiMeaning": "अपनाना, स्वीकार करना, गोद लेना",
+      "explanation": "**'Adopt'** का अर्थ है: **अपनाना, स्वीकार करना, गोद लेना** (To take up an idea, method, or attitude; or legally take another person's child into one's family.)\n• सही Synonym: **'embrace'** (अर्थ: अपनाना, स्वीकार करना, गोद लेना)\n• Antonyms: reject, abandon"
+    },
+    {
+      "id": "rev_set01_syn_015",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "adorn",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADORN**",
+      "options": [
+        "abrogate",
+        "deface",
+        "adopt",
+        "decorate"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "decorate",
+      "hindiMeaning": "सजाना, अलंकृत करना",
+      "explanation": "**'Adorn'** का अर्थ है: **सजाना, अलंकृत करना** (To decorate or make something more attractive.)\n• सही Synonym: **'decorate'** (अर्थ: सजाना, अलंकृत करना)\n• Antonyms: deface, disfigure"
+    },
+    {
+      "id": "rev_set01_syn_016",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "advance",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADVANCE**",
+      "options": [
+        "progress",
+        "alarm",
+        "retreat",
+        "admonish"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "progress",
+      "hindiMeaning": "आगे बढ़ना, प्रगति करना, आगे बढ़ाना",
+      "explanation": "**'Advance'** का अर्थ है: **आगे बढ़ना, प्रगति करना, आगे बढ़ाना** (To move forward, make progress, or help something develop.)\n• सही Synonym: **'progress'** (अर्थ: आगे बढ़ना, प्रगति करना, आगे बढ़ाना)\n• Antonyms: retreat, regress"
+    },
+    {
+      "id": "rev_set01_syn_017",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "adverse",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ADVERSE**",
+      "options": [
+        "unfavourable",
+        "favourable",
+        "access",
+        "alter"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "unfavourable",
+      "hindiMeaning": "प्रतिकूल, हानिकारक, अनुकूल न होने वाला",
+      "explanation": "**'Adverse'** का अर्थ है: **प्रतिकूल, हानिकारक, अनुकूल न होने वाला** (Preventing success or creating difficulties; unfavourable or harmful.)\n• सही Synonym: **'unfavourable'** (अर्थ: प्रतिकूल, हानिकारक, अनुकूल न होने वाला)\n• Antonyms: favourable, beneficial"
+    },
+    {
+      "id": "rev_set01_syn_018",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "affirm",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AFFIRM**",
+      "options": [
+        "assert",
+        "deny",
+        "adept",
+        "allege"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "assert",
+      "hindiMeaning": "दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना",
+      "explanation": "**'Affirm'** का अर्थ है: **दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना** (To state firmly that something is true, or to confirm it.)\n• सही Synonym: **'assert'** (अर्थ: दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना)\n• Antonyms: deny, contradict"
+    },
+    {
+      "id": "rev_set01_syn_019",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "affluence",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AFFLUENCE**",
+      "options": [
+        "wealth",
+        "accused",
+        "alter",
+        "poverty"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "wealth",
+      "hindiMeaning": "धन-संपन्नता, समृद्धि, अमीरी",
+      "explanation": "**'Affluence'** का अर्थ है: **धन-संपन्नता, समृद्धि, अमीरी** (The state of having a great deal of money or material wealth.)\n• सही Synonym: **'wealth'** (अर्थ: धन-संपन्नता, समृद्धि, अमीरी)\n• Antonyms: poverty, destitution"
+    },
+    {
+      "id": "rev_set01_syn_020",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "agony",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AGONY**",
+      "options": [
+        "abundant",
+        "adverse",
+        "comfort",
+        "anguish"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "anguish",
+      "hindiMeaning": "अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना",
+      "explanation": "**'Agony'** का अर्थ है: **अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना** (Extreme physical pain or intense mental suffering.)\n• सही Synonym: **'anguish'** (अर्थ: अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना)\n• Antonyms: comfort, relief"
+    },
+    {
+      "id": "rev_set01_syn_021",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "aid",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AID**",
+      "options": [
+        "help",
+        "accoutrements",
+        "hindrance",
+        "alert"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "help",
+      "hindiMeaning": "सहायता, मदद करना",
+      "explanation": "**'Aid'** का अर्थ है: **सहायता, मदद करना** (Help or support; as a verb, to help someone or something.)\n• सही Synonym: **'help'** (अर्थ: सहायता, मदद करना)\n• Antonyms: hindrance, obstruction"
+    },
+    {
+      "id": "rev_set01_syn_022",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "alarm",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALARM**",
+      "options": [
+        "agony",
+        "adverse",
+        "calm",
+        "warning"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "warning",
+      "hindiMeaning": "चेतावनी, घबराहट, भयभीत करना",
+      "explanation": "**'Alarm'** का अर्थ है: **चेतावनी, घबराहट, भयभीत करना** (A warning signal or feeling of sudden fear; as a verb, to make someone afraid or worried.)\n• सही Synonym: **'warning'** (अर्थ: चेतावनी, घबराहट, भयभीत करना)\n• Antonyms: calm, reassurance"
+    },
+    {
+      "id": "rev_set01_syn_023",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "alert",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALERT**",
+      "options": [
+        "vigilant",
+        "abduct",
+        "access",
+        "inattentive"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "vigilant",
+      "hindiMeaning": "सतर्क, चौकन्ना, चेतावनी, सचेत करना",
+      "explanation": "**'Alert'** का अर्थ है: **सतर्क, चौकन्ना, चेतावनी, सचेत करना** (Watchful and ready to respond; a warning; or to warn someone.)\n• सही Synonym: **'vigilant'** (अर्थ: सतर्क, चौकन्ना, चेतावनी, सचेत करना)\n• Antonyms: inattentive, unaware"
+    },
+    {
+      "id": "rev_set01_syn_024",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "alter",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALTER**",
+      "options": [
+        "change",
+        "preserve",
+        "accrue",
+        "abduct"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "change",
+      "hindiMeaning": "बदलना, संशोधित करना",
+      "explanation": "**'Alter'** का अर्थ है: **बदलना, संशोधित करना** (To change something, usually partly, without necessarily replacing it completely.)\n• सही Synonym: **'change'** (अर्थ: बदलना, संशोधित करना)\n• Antonyms: preserve, maintain"
+    },
+    {
+      "id": "rev_set01_syn_025",
+      "type": "synonym",
+      "setNumber": 1,
+      "targetWord": "allege",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALLEGE**",
+      "options": [
+        "deny",
+        "acumen",
+        "advance",
+        "claim"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "claim",
+      "hindiMeaning": "आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना",
+      "explanation": "**'Allege'** का अर्थ है: **आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना** (To claim that someone has done something wrong, usually without having yet proved it.)\n• सही Synonym: **'claim'** (अर्थ: आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना)\n• Antonyms: deny, exonerate"
+    },
+    {
+      "id": "rev_set01_ant_026",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "abandon",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ABANDON**",
+      "options": [
+        "desert",
+        "forsake",
+        "keep",
+        "accrue"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "keep",
+      "hindiMeaning": "छोड़ देना, त्याग देना",
+      "explanation": "**'Abandon'** का अर्थ है: **छोड़ देना, त्याग देना**\n• सही Antonym (विलोम): **'keep'**\n• इसके Synonyms हैं: forsake, desert, ditch"
+    },
+    {
+      "id": "rev_set01_ant_027",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "abrogate",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ABROGATE**",
+      "options": [
+        "adorn",
+        "enact",
+        "revoke",
+        "repeal"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "enact",
+      "hindiMeaning": "औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना",
+      "explanation": "**'Abrogate'** का अर्थ है: **औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना**\n• सही Antonym (विलोम): **'enact'**\n• इसके Synonyms हैं: repeal, revoke, rescind"
+    },
+    {
+      "id": "rev_set01_ant_028",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "abundant",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ABUNDANT**",
+      "options": [
+        "adopt",
+        "scarce",
+        "plentiful",
+        "copious"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "scarce",
+      "hindiMeaning": "प्रचुर, भरपूर, बहुत अधिक मात्रा में",
+      "explanation": "**'Abundant'** का अर्थ है: **प्रचुर, भरपूर, बहुत अधिक मात्रा में**\n• सही Antonym (विलोम): **'scarce'**\n• इसके Synonyms हैं: plentiful, copious, profuse"
+    },
+    {
+      "id": "rev_set01_ant_029",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "abide",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ABIDE**",
+      "options": [
+        "dwell",
+        "reside",
+        "disobey",
+        "affirm"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "disobey",
+      "hindiMeaning": "रहना, पालन करना, सहन करना",
+      "explanation": "**'Abide'** का अर्थ है: **रहना, पालन करना, सहन करना**\n• सही Antonym (विलोम): **'disobey'**\n• इसके Synonyms हैं: dwell, reside, stay"
+    },
+    {
+      "id": "rev_set01_ant_030",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "accede",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ACCEDE**",
+      "options": [
+        "alter",
+        "agree",
+        "refuse",
+        "consent"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "refuse",
+      "hindiMeaning": "सहमति देना, अनुरोध मान लेना, पद ग्रहण करना",
+      "explanation": "**'Accede'** का अर्थ है: **सहमति देना, अनुरोध मान लेना, पद ग्रहण करना**\n• सही Antonym (विलोम): **'refuse'**\n• इसके Synonyms हैं: consent, agree, assent"
+    },
+    {
+      "id": "rev_set01_ant_031",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "access",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ACCESS**",
+      "options": [
+        "entry",
+        "inaccessibility",
+        "admission",
+        "accused"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "inaccessibility",
+      "hindiMeaning": "पहुँच, प्रवेश, प्राप्त करना या खोलना",
+      "explanation": "**'Access'** का अर्थ है: **पहुँच, प्रवेश, प्राप्त करना या खोलना**\n• सही Antonym (विलोम): **'inaccessibility'**\n• इसके Synonyms हैं: entry, admission, approach"
+    },
+    {
+      "id": "rev_set01_ant_032",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "accrue",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ACCRUE**",
+      "options": [
+        "affluence",
+        "decrease",
+        "accumulate",
+        "amass"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "decrease",
+      "hindiMeaning": "धीरे-धीरे जमा होना, समय के साथ प्राप्त होना",
+      "explanation": "**'Accrue'** का अर्थ है: **धीरे-धीरे जमा होना, समय के साथ प्राप्त होना**\n• सही Antonym (विलोम): **'decrease'**\n• इसके Synonyms हैं: accumulate, amass, build up"
+    },
+    {
+      "id": "rev_set01_ant_033",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "acumen",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ACUMEN**",
+      "options": [
+        "insight",
+        "adept",
+        "ineptitude",
+        "shrewdness"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "ineptitude",
+      "hindiMeaning": "तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता",
+      "explanation": "**'Acumen'** का अर्थ है: **तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता**\n• सही Antonym (विलोम): **'ineptitude'**\n• इसके Synonyms हैं: insight, shrewdness, discernment"
+    },
+    {
+      "id": "rev_set01_ant_034",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "adept",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADEPT**",
+      "options": [
+        "proficient",
+        "skilled",
+        "inept",
+        "affluence"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "inept",
+      "hindiMeaning": "कुशल, निपुण",
+      "explanation": "**'Adept'** का अर्थ है: **कुशल, निपुण**\n• सही Antonym (विलोम): **'inept'**\n• इसके Synonyms हैं: skilled, proficient, dexterous"
+    },
+    {
+      "id": "rev_set01_ant_035",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "admonish",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADMONISH**",
+      "options": [
+        "praise",
+        "acumen",
+        "rebuke",
+        "reprimand"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "praise",
+      "hindiMeaning": "चेतावनी देना, समझाकर डाँटना, फटकारना",
+      "explanation": "**'Admonish'** का अर्थ है: **चेतावनी देना, समझाकर डाँटना, फटकारना**\n• सही Antonym (विलोम): **'praise'**\n• इसके Synonyms हैं: rebuke, reprimand, reproach"
+    },
+    {
+      "id": "rev_set01_ant_036",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "adopt",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADOPT**",
+      "options": [
+        "reject",
+        "embrace",
+        "accept",
+        "admonish"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "reject",
+      "hindiMeaning": "अपनाना, स्वीकार करना, गोद लेना",
+      "explanation": "**'Adopt'** का अर्थ है: **अपनाना, स्वीकार करना, गोद लेना**\n• सही Antonym (विलोम): **'reject'**\n• इसके Synonyms हैं: embrace, accept, take up"
+    },
+    {
+      "id": "rev_set01_ant_037",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "adorn",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADORN**",
+      "options": [
+        "embellish",
+        "decorate",
+        "deface",
+        "adept"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "deface",
+      "hindiMeaning": "सजाना, अलंकृत करना",
+      "explanation": "**'Adorn'** का अर्थ है: **सजाना, अलंकृत करना**\n• सही Antonym (विलोम): **'deface'**\n• इसके Synonyms हैं: decorate, embellish, beautify"
+    },
+    {
+      "id": "rev_set01_ant_038",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "advance",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADVANCE**",
+      "options": [
+        "progress",
+        "retreat",
+        "proceed",
+        "alarm"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "retreat",
+      "hindiMeaning": "आगे बढ़ना, प्रगति करना, आगे बढ़ाना",
+      "explanation": "**'Advance'** का अर्थ है: **आगे बढ़ना, प्रगति करना, आगे बढ़ाना**\n• सही Antonym (विलोम): **'retreat'**\n• इसके Synonyms हैं: progress, proceed, move forward"
+    },
+    {
+      "id": "rev_set01_ant_039",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "adverse",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ADVERSE**",
+      "options": [
+        "detrimental",
+        "favourable",
+        "unfavourable",
+        "accede"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "favourable",
+      "hindiMeaning": "प्रतिकूल, हानिकारक, अनुकूल न होने वाला",
+      "explanation": "**'Adverse'** का अर्थ है: **प्रतिकूल, हानिकारक, अनुकूल न होने वाला**\n• सही Antonym (विलोम): **'favourable'**\n• इसके Synonyms हैं: unfavourable, detrimental, disadvantageous"
+    },
+    {
+      "id": "rev_set01_ant_040",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "affirm",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AFFIRM**",
+      "options": [
+        "deny",
+        "confirm",
+        "access",
+        "assert"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "deny",
+      "hindiMeaning": "दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना",
+      "explanation": "**'Affirm'** का अर्थ है: **दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना**\n• सही Antonym (विलोम): **'deny'**\n• इसके Synonyms हैं: assert, confirm, declare"
+    },
+    {
+      "id": "rev_set01_ant_041",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "affluence",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AFFLUENCE**",
+      "options": [
+        "poverty",
+        "admonish",
+        "wealth",
+        "riches"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "poverty",
+      "hindiMeaning": "धन-संपन्नता, समृद्धि, अमीरी",
+      "explanation": "**'Affluence'** का अर्थ है: **धन-संपन्नता, समृद्धि, अमीरी**\n• सही Antonym (विलोम): **'poverty'**\n• इसके Synonyms हैं: wealth, riches, prosperity"
+    },
+    {
+      "id": "rev_set01_ant_042",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "agony",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AGONY**",
+      "options": [
+        "adverse",
+        "torment",
+        "anguish",
+        "comfort"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "comfort",
+      "hindiMeaning": "अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना",
+      "explanation": "**'Agony'** का अर्थ है: **अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना**\n• सही Antonym (विलोम): **'comfort'**\n• इसके Synonyms हैं: anguish, torment, distress"
+    },
+    {
+      "id": "rev_set01_ant_043",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "aid",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AID**",
+      "options": [
+        "assistance",
+        "affluence",
+        "help",
+        "hindrance"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "hindrance",
+      "hindiMeaning": "सहायता, मदद करना",
+      "explanation": "**'Aid'** का अर्थ है: **सहायता, मदद करना**\n• सही Antonym (विलोम): **'hindrance'**\n• इसके Synonyms हैं: help, assistance, support"
+    },
+    {
+      "id": "rev_set01_ant_044",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "alarm",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALARM**",
+      "options": [
+        "warning",
+        "calm",
+        "fright",
+        "accede"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "calm",
+      "hindiMeaning": "चेतावनी, घबराहट, भयभीत करना",
+      "explanation": "**'Alarm'** का अर्थ है: **चेतावनी, घबराहट, भयभीत करना**\n• सही Antonym (विलोम): **'calm'**\n• इसके Synonyms हैं: warning, fright, fear"
+    },
+    {
+      "id": "rev_set01_ant_045",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "alert",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALERT**",
+      "options": [
+        "vigilant",
+        "accoutrements",
+        "inattentive",
+        "watchful"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "inattentive",
+      "hindiMeaning": "सतर्क, चौकन्ना, चेतावनी, सचेत करना",
+      "explanation": "**'Alert'** का अर्थ है: **सतर्क, चौकन्ना, चेतावनी, सचेत करना**\n• सही Antonym (विलोम): **'inattentive'**\n• इसके Synonyms हैं: vigilant, watchful, attentive"
+    },
+    {
+      "id": "rev_set01_ant_046",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "alter",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALTER**",
+      "options": [
+        "modify",
+        "change",
+        "access",
+        "preserve"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "preserve",
+      "hindiMeaning": "बदलना, संशोधित करना",
+      "explanation": "**'Alter'** का अर्थ है: **बदलना, संशोधित करना**\n• सही Antonym (विलोम): **'preserve'**\n• इसके Synonyms हैं: change, modify, adjust"
+    },
+    {
+      "id": "rev_set01_ant_047",
+      "type": "antonym",
+      "setNumber": 1,
+      "targetWord": "allege",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALLEGE**",
+      "options": [
+        "accused",
+        "assert",
+        "claim",
+        "deny"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "deny",
+      "hindiMeaning": "आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना",
+      "explanation": "**'Allege'** का अर्थ है: **आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना**\n• सही Antonym (विलोम): **'deny'**\n• इसके Synonyms हैं: claim, assert, accuse"
+    },
+    {
+      "id": "rev_set01_ctx_048",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "abandon",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"He __________ his plan to move abroad.\"",
+      "options": [
+        "abandoned",
+        "aid",
+        "affirm",
+        "advance"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "abandoned",
+      "hindiMeaning": "छोड़ देना, त्याग देना",
+      "explanation": "सही उत्तर: **'abandoned'**\nवाक्य का हिंदी अनुवाद: उसने विदेश जाने की अपनी योजना छोड़ दी।\nअर्थ: **abandon** = छोड़ देना, त्याग देना"
+    },
+    {
+      "id": "rev_set01_ctx_049",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "abundant",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The region has __________ natural resources.\"",
+      "options": [
+        "abundant",
+        "adverse",
+        "adopt",
+        "adorn"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "abundant",
+      "hindiMeaning": "प्रचुर, भरपूर, बहुत अधिक मात्रा में",
+      "explanation": "सही उत्तर: **'abundant'**\nवाक्य का हिंदी अनुवाद: इस क्षेत्र में प्राकृतिक संसाधन प्रचुर मात्रा में हैं।\nअर्थ: **abundant** = प्रचुर, भरपूर, बहुत अधिक मात्रा में"
+    },
+    {
+      "id": "rev_set01_ctx_050",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "abide",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"All students must __________ by the rules.\"",
+      "options": [
+        "abrogate",
+        "abandon",
+        "adorn",
+        "abide"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "abide",
+      "hindiMeaning": "रहना, पालन करना, सहन करना",
+      "explanation": "सही उत्तर: **'abide'**\nवाक्य का हिंदी अनुवाद: सभी विद्यार्थियों को नियमों का पालन करना चाहिए.\nअर्थ: **abide** = रहना, पालन करना, सहन करना"
+    },
+    {
+      "id": "rev_set01_ctx_051",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "access",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Students have __________ to the library.\"",
+      "options": [
+        "access",
+        "alert",
+        "adverse",
+        "alter"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "access",
+      "hindiMeaning": "पहुँच, प्रवेश, प्राप्त करना या खोलना",
+      "explanation": "सही उत्तर: **'access'**\nवाक्य का हिंदी अनुवाद: विद्यार्थियों को पुस्तकालय तक पहुँच प्राप्त है।\nअर्थ: **access** = पहुँच, प्रवेश, प्राप्त करना या खोलना"
+    },
+    {
+      "id": "rev_set01_ctx_052",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "accrue",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Interest will __________ on your savings.\"",
+      "options": [
+        "acumen",
+        "affluence",
+        "accrue",
+        "alter"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "accrue",
+      "hindiMeaning": "धीरे-धीरे जमा होना, समय के साथ प्राप्त होना",
+      "explanation": "सही उत्तर: **'accrue'**\nवाक्य का हिंदी अनुवाद: तुम्हारी बचत पर समय के साथ ब्याज जमा होगा।\nअर्थ: **accrue** = धीरे-धीरे जमा होना, समय के साथ प्राप्त होना"
+    },
+    {
+      "id": "rev_set01_ctx_053",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "acumen",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"She has excellent business __________.\"",
+      "options": [
+        "acumen",
+        "admonish",
+        "adopt",
+        "adverse"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "acumen",
+      "hindiMeaning": "तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता",
+      "explanation": "सही उत्तर: **'acumen'**\nवाक्य का हिंदी अनुवाद: उसमें व्यावसायिक सूझबूझ बहुत अच्छी है।\nअर्थ: **acumen** = तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता"
+    },
+    {
+      "id": "rev_set01_ctx_054",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "admonish",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The teacher __________ the students for being late.\"",
+      "options": [
+        "affirm",
+        "access",
+        "admonished",
+        "abandon"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "admonished",
+      "hindiMeaning": "चेतावनी देना, समझाकर डाँटना, फटकारना",
+      "explanation": "सही उत्तर: **'admonished'**\nवाक्य का हिंदी अनुवाद: शिक्षक ने देर से आने पर विद्यार्थियों को फटकारा।\nअर्थ: **admonish** = चेतावनी देना, समझाकर डाँटना, फटकारना"
+    },
+    {
+      "id": "rev_set01_ctx_055",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "adorn",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Flowers __________ the entrance.\"",
+      "options": [
+        "abundant",
+        "adorned",
+        "alter",
+        "abandon"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "adorned",
+      "hindiMeaning": "सजाना, अलंकृत करना",
+      "explanation": "सही उत्तर: **'adorned'**\nवाक्य का हिंदी अनुवाद: फूलों ने प्रवेश-द्वार को सजा दिया।\nअर्थ: **adorn** = सजाना, अलंकृत करना"
+    },
+    {
+      "id": "rev_set01_ctx_056",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "adverse",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The team succeeded despite __________ conditions.\"",
+      "options": [
+        "advance",
+        "accoutrements",
+        "adopt",
+        "adverse"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "adverse",
+      "hindiMeaning": "प्रतिकूल, हानिकारक, अनुकूल न होने वाला",
+      "explanation": "सही उत्तर: **'adverse'**\nवाक्य का हिंदी अनुवाद: टीम प्रतिकूल परिस्थितियों के बावजूद सफल हुई।\nअर्थ: **adverse** = प्रतिकूल, हानिकारक, अनुकूल न होने वाला"
+    },
+    {
+      "id": "rev_set01_ctx_057",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "affluence",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The region is known for its __________.\"",
+      "options": [
+        "affluence",
+        "advance",
+        "access",
+        "alert"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "affluence",
+      "hindiMeaning": "धन-संपन्नता, समृद्धि, अमीरी",
+      "explanation": "सही उत्तर: **'affluence'**\nवाक्य का हिंदी अनुवाद: यह क्षेत्र अपनी समृद्धि के लिए जाना जाता है।\nअर्थ: **affluence** = धन-संपन्नता, समृद्धि, अमीरी"
+    },
+    {
+      "id": "rev_set01_ctx_058",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "aid",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The organization provided __________ to the victims.\"",
+      "options": [
+        "abundant",
+        "admonish",
+        "aid",
+        "alarm"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "aid",
+      "hindiMeaning": "सहायता, मदद करना",
+      "explanation": "सही उत्तर: **'aid'**\nवाक्य का हिंदी अनुवाद: संस्था ने पीड़ितों को सहायता दी।\nअर्थ: **aid** = सहायता, मदद करना"
+    },
+    {
+      "id": "rev_set01_ctx_059",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "alert",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Drivers must remain __________ on busy roads.\"",
+      "options": [
+        "alert",
+        "admonish",
+        "accoutrements",
+        "acumen"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "alert",
+      "hindiMeaning": "सतर्क, चौकन्ना, चेतावनी, सचेत करना",
+      "explanation": "सही उत्तर: **'alert'**\nवाक्य का हिंदी अनुवाद: व्यस्त सड़कों पर चालकों को सतर्क रहना चाहिए।\nअर्थ: **alert** = सतर्क, चौकन्ना, चेतावनी, सचेत करना"
+    },
+    {
+      "id": "rev_set01_ctx_060",
+      "type": "context_fill_in",
+      "setNumber": 1,
+      "targetWord": "allege",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Prosecutors __________ that the company broke the law.\"",
+      "options": [
+        "acumen",
+        "alert",
+        "adept",
+        "allege"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "allege",
+      "hindiMeaning": "आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना",
+      "explanation": "सही उत्तर: **'allege'**\nवाक्य का हिंदी अनुवाद: अभियोजकों का आरोप है कि कंपनी ने कानून तोड़ा।\nअर्थ: **allege** = आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना"
+    },
+    {
+      "id": "rev_set02_syn_001",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "altitude",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALTITUDE**",
+      "options": [
+        "height",
+        "bane",
+        "antipathy",
+        "depth"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "height",
+      "hindiMeaning": "ऊँचाई; समुद्र तल से ऊँचाई",
+      "explanation": "**'Altitude'** का अर्थ है: **ऊँचाई; समुद्र तल से ऊँचाई** (The height of a place or object, especially measured from sea level.)\n• सही Synonym: **'height'** (अर्थ: ऊँचाई; समुद्र तल से ऊँचाई)\n• Antonyms: depth"
+    },
+    {
+      "id": "rev_set02_syn_002",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "altruistic",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ALTRUISTIC**",
+      "options": [
+        "selfless",
+        "selfish",
+        "autocratic",
+        "anger"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "selfless",
+      "hindiMeaning": "परोपकारी; निःस्वार्थ; जनहितैषी",
+      "explanation": "**'Altruistic'** का अर्थ है: **परोपकारी; निःस्वार्थ; जनहितैषी** (Showing selfless concern for the well-being of others.)\n• सही Synonym: **'selfless'** (अर्थ: परोपकारी; निःस्वार्थ; जनहितैषी)\n• Antonyms: selfish"
+    },
+    {
+      "id": "rev_set02_syn_003",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "amicable",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AMICABLE**",
+      "options": [
+        "assertive",
+        "cordial",
+        "appear",
+        "hostile"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "cordial",
+      "hindiMeaning": "मैत्रीपूर्ण; सौहार्दपूर्ण",
+      "explanation": "**'Amicable'** का अर्थ है: **मैत्रीपूर्ण; सौहार्दपूर्ण** (Friendly and peaceful, especially when resolving disagreement.)\n• सही Synonym: **'cordial'** (अर्थ: मैत्रीपूर्ण; सौहार्दपूर्ण)\n• Antonyms: hostile, antagonistic"
+    },
+    {
+      "id": "rev_set02_syn_004",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "amnesty",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AMNESTY**",
+      "options": [
+        "appear",
+        "assemblage",
+        "pardon",
+        "prosecution"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "pardon",
+      "hindiMeaning": "आम माफी; सामूहिक क्षमादान",
+      "explanation": "**'Amnesty'** का अर्थ है: **आम माफी; सामूहिक क्षमादान** (An official pardon, often granted to a group of people.)\n• सही Synonym: **'pardon'** (अर्थ: आम माफी; सामूहिक क्षमादान)\n• Antonyms: prosecution"
+    },
+    {
+      "id": "rev_set02_syn_005",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "anger",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ANGER**",
+      "options": [
+        "calm",
+        "rage",
+        "assemblage",
+        "authentic"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "rage",
+      "hindiMeaning": "क्रोध; गुस्सा; क्रोधित करना",
+      "explanation": "**'Anger'** का अर्थ है: **क्रोध; गुस्सा; क्रोधित करना** (A strong feeling of displeasure or hostility.)\n• सही Synonym: **'rage'** (अर्थ: क्रोध; गुस्सा; क्रोधित करना)\n• Antonyms: calm, contentment"
+    },
+    {
+      "id": "rev_set02_syn_006",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "annoyance",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ANNOYANCE**",
+      "options": [
+        "assertive",
+        "amicable",
+        "pleasure",
+        "irritation"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "irritation",
+      "hindiMeaning": "झुंझलाहट; खीज; नाराज़गी",
+      "explanation": "**'Annoyance'** का अर्थ है: **झुंझलाहट; खीज; नाराज़गी** (A feeling of irritation or mild anger.)\n• सही Synonym: **'irritation'** (अर्थ: झुंझलाहट; खीज; नाराज़गी)\n• Antonyms: pleasure, delight"
+    },
+    {
+      "id": "rev_set02_syn_007",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "anticipate",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ANTICIPATE**",
+      "options": [
+        "annoyance",
+        "foresee",
+        "assiduous",
+        "doubt"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "foresee",
+      "hindiMeaning": "पूर्वानुमान लगाना; पहले से अपेक्षा करना",
+      "explanation": "**'Anticipate'** का अर्थ है: **पूर्वानुमान लगाना; पहले से अपेक्षा करना** (To expect or predict something before it happens.)\n• सही Synonym: **'foresee'** (अर्थ: पूर्वानुमान लगाना; पहले से अपेक्षा करना)\n• Antonyms: doubt"
+    },
+    {
+      "id": "rev_set02_syn_008",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "antipathy",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ANTIPATHY**",
+      "options": [
+        "anger",
+        "affinity",
+        "altitude",
+        "aversion"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "aversion",
+      "hindiMeaning": "द्वेष; गहरी अरुचि; विरोध की भावना",
+      "explanation": "**'Antipathy'** का अर्थ है: **द्वेष; गहरी अरुचि; विरोध की भावना** (A strong feeling of dislike or opposition.)\n• सही Synonym: **'aversion'** (अर्थ: द्वेष; गहरी अरुचि; विरोध की भावना)\n• Antonyms: affinity, fondness"
+    },
+    {
+      "id": "rev_set02_syn_009",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "apologetic",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**APOLOGETIC**",
+      "options": [
+        "apparent",
+        "contrite",
+        "unrepentant",
+        "assiduous"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "contrite",
+      "hindiMeaning": "क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा",
+      "explanation": "**'Apologetic'** का अर्थ है: **क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा** (Showing or expressing regret for having done something wrong.)\n• सही Synonym: **'contrite'** (अर्थ: क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा)\n• Antonyms: unrepentant"
+    },
+    {
+      "id": "rev_set02_syn_010",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "apology",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**APOLOGY**",
+      "options": [
+        "expression of regret",
+        "justification",
+        "authentic",
+        "avarice"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "expression of regret",
+      "hindiMeaning": "क्षमा-याचना; माफी; खेद की अभिव्यक्ति",
+      "explanation": "**'Apology'** का अर्थ है: **क्षमा-याचना; माफी; खेद की अभिव्यक्ति** (A statement expressing regret for a mistake or offence.)\n• सही Synonym: **'expression of regret'** (अर्थ: क्षमा-याचना; माफी; खेद की अभिव्यक्ति)\n• Antonyms: justification"
+    },
+    {
+      "id": "rev_set02_syn_011",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "apparent",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**APPARENT**",
+      "options": [
+        "obvious",
+        "altruistic",
+        "autocratic",
+        "obscure"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "obvious",
+      "hindiMeaning": "स्पष्ट; प्रकट; दिखाई देने वाला",
+      "explanation": "**'Apparent'** का अर्थ है: **स्पष्ट; प्रकट; दिखाई देने वाला** (Easy to see or understand; seeming to be true.)\n• सही Synonym: **'obvious'** (अर्थ: स्पष्ट; प्रकट; दिखाई देने वाला)\n• Antonyms: obscure, hidden"
+    },
+    {
+      "id": "rev_set02_syn_012",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "appear",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**APPEAR**",
+      "options": [
+        "autonomy",
+        "seem",
+        "avert",
+        "vanish"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "seem",
+      "hindiMeaning": "दिखाई देना; प्रकट होना; प्रतीत होना",
+      "explanation": "**'Appear'** का अर्थ है: **दिखाई देना; प्रकट होना; प्रतीत होना** (To become visible, come into view, or seem to be a certain way.)\n• सही Synonym: **'seem'** (अर्थ: दिखाई देना; प्रकट होना; प्रतीत होना)\n• Antonyms: vanish, disappear"
+    },
+    {
+      "id": "rev_set02_syn_013",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "articulate",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ARTICULATE**",
+      "options": [
+        "apologetic",
+        "express",
+        "inarticulate",
+        "audacious"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "express",
+      "hindiMeaning": "स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु",
+      "explanation": "**'Articulate'** का अर्थ है: **स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु** (To express ideas clearly; also, able to speak clearly and effectively.)\n• सही Synonym: **'express'** (अर्थ: स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु)\n• Antonyms: inarticulate"
+    },
+    {
+      "id": "rev_set02_syn_014",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "assemblage",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ASSEMBLAGE**",
+      "options": [
+        "collection",
+        "antipathy",
+        "scattering",
+        "authentic"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "collection",
+      "hindiMeaning": "संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह",
+      "explanation": "**'Assemblage'** का अर्थ है: **संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह** (A collection or gathering of people or things.)\n• सही Synonym: **'collection'** (अर्थ: संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह)\n• Antonyms: scattering"
+    },
+    {
+      "id": "rev_set02_syn_015",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "assertive",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ASSERTIVE**",
+      "options": [
+        "apologetic",
+        "amnesty",
+        "passive",
+        "confident"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "confident",
+      "hindiMeaning": "आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर",
+      "explanation": "**'Assertive'** का अर्थ है: **आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर** (Confidently expressing one's views or needs without being aggressive.)\n• सही Synonym: **'confident'** (अर्थ: आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर)\n• Antonyms: passive, timid"
+    },
+    {
+      "id": "rev_set02_syn_016",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "assiduous",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ASSIDUOUS**",
+      "options": [
+        "diligent",
+        "authentic",
+        "banish",
+        "lazy"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "diligent",
+      "hindiMeaning": "परिश्रमी; लगनशील; मेहनती",
+      "explanation": "**'Assiduous'** का अर्थ है: **परिश्रमी; लगनशील; मेहनती** (Showing great care, effort, and persistence in doing something.)\n• सही Synonym: **'diligent'** (अर्थ: परिश्रमी; लगनशील; मेहनती)\n• Antonyms: lazy, negligent"
+    },
+    {
+      "id": "rev_set02_syn_017",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "atrocity",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ATROCITY**",
+      "options": [
+        "aversion",
+        "annoyance",
+        "kindness",
+        "brutality"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "brutality",
+      "hindiMeaning": "अत्याचार; जघन्य हिंसक कृत्य; बर्बरता",
+      "explanation": "**'Atrocity'** का अर्थ है: **अत्याचार; जघन्य हिंसक कृत्य; बर्बरता** (An extremely cruel or violent act, especially against people.)\n• सही Synonym: **'brutality'** (अर्थ: अत्याचार; जघन्य हिंसक कृत्य; बर्बरता)\n• Antonyms: kindness, humanity"
+    },
+    {
+      "id": "rev_set02_syn_018",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "audacious",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AUDACIOUS**",
+      "options": [
+        "atrocity",
+        "daring",
+        "timid",
+        "authentic"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "daring",
+      "hindiMeaning": "साहसी; निडर; दुस्साहसी",
+      "explanation": "**'Audacious'** का अर्थ है: **साहसी; निडर; दुस्साहसी** (Showing bold willingness to take risks; sometimes recklessly bold.)\n• सही Synonym: **'daring'** (अर्थ: साहसी; निडर; दुस्साहसी)\n• Antonyms: timid, cautious"
+    },
+    {
+      "id": "rev_set02_syn_019",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "authentic",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AUTHENTIC**",
+      "options": [
+        "genuine",
+        "fake",
+        "autonomy",
+        "banish"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "genuine",
+      "hindiMeaning": "प्रामाणिक; असली; विश्वसनीय",
+      "explanation": "**'Authentic'** का अर्थ है: **प्रामाणिक; असली; विश्वसनीय** (Genuine, real, or reliable as being what it claims to be.)\n• सही Synonym: **'genuine'** (अर्थ: प्रामाणिक; असली; विश्वसनीय)\n• Antonyms: fake, counterfeit"
+    },
+    {
+      "id": "rev_set02_syn_020",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "autocratic",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AUTOCRATIC**",
+      "options": [
+        "autonomy",
+        "avarice",
+        "authoritarian",
+        "democratic"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "authoritarian",
+      "hindiMeaning": "निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी",
+      "explanation": "**'Autocratic'** का अर्थ है: **निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी** (Exercising power without allowing meaningful participation by others.)\n• सही Synonym: **'authoritarian'** (अर्थ: निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी)\n• Antonyms: democratic, egalitarian"
+    },
+    {
+      "id": "rev_set02_syn_021",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "autonomy",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AUTONOMY**",
+      "options": [
+        "independence",
+        "avarice",
+        "dependence",
+        "appear"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "independence",
+      "hindiMeaning": "स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार",
+      "explanation": "**'Autonomy'** का अर्थ है: **स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार** (The right or ability to govern oneself or make independent decisions.)\n• सही Synonym: **'independence'** (अर्थ: स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार)\n• Antonyms: dependence, subordination"
+    },
+    {
+      "id": "rev_set02_syn_022",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "avarice",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AVARICE**",
+      "options": [
+        "generosity",
+        "aversion",
+        "greed",
+        "annoyance"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "greed",
+      "hindiMeaning": "घोर लालच; धन का अत्यधिक लोभ",
+      "explanation": "**'Avarice'** का अर्थ है: **घोर लालच; धन का अत्यधिक लोभ** (An excessive desire to accumulate wealth or possessions.)\n• सही Synonym: **'greed'** (अर्थ: घोर लालच; धन का अत्यधिक लोभ)\n• Antonyms: generosity, contentment"
+    },
+    {
+      "id": "rev_set02_syn_023",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "aversion",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AVERSION**",
+      "options": [
+        "atrocity",
+        "autocratic",
+        "antipathy",
+        "affinity"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "antipathy",
+      "hindiMeaning": "तीव्र अरुचि; घृणा; विरक्ति",
+      "explanation": "**'Aversion'** का अर्थ है: **तीव्र अरुचि; घृणा; विरक्ति** (A strong dislike or unwillingness to do or experience something.)\n• सही Synonym: **'antipathy'** (अर्थ: तीव्र अरुचि; घृणा; विरक्ति)\n• Antonyms: affinity, inclination"
+    },
+    {
+      "id": "rev_set02_syn_024",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "avert",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**AVERT**",
+      "options": [
+        "apparent",
+        "amicable",
+        "cause",
+        "prevent"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "prevent",
+      "hindiMeaning": "टाल देना; रोकना; दिशा मोड़ना",
+      "explanation": "**'Avert'** का अर्थ है: **टाल देना; रोकना; दिशा मोड़ना** (To prevent something bad from happening or to turn away.)\n• सही Synonym: **'prevent'** (अर्थ: टाल देना; रोकना; दिशा मोड़ना)\n• Antonyms: cause, provoke"
+    },
+    {
+      "id": "rev_set02_syn_025",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "bane",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BANE**",
+      "options": [
+        "blessing",
+        "curse",
+        "avarice",
+        "authentic"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "curse",
+      "hindiMeaning": "अभिशाप; हानि का कारण; कष्टदायक चीज़",
+      "explanation": "**'Bane'** का अर्थ है: **अभिशाप; हानि का कारण; कष्टदायक चीज़** (A cause of great distress, annoyance, or harm.)\n• सही Synonym: **'curse'** (अर्थ: अभिशाप; हानि का कारण; कष्टदायक चीज़)\n• Antonyms: blessing"
+    },
+    {
+      "id": "rev_set02_syn_026",
+      "type": "synonym",
+      "setNumber": 2,
+      "targetWord": "banish",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BANISH**",
+      "options": [
+        "avert",
+        "anger",
+        "exile",
+        "admit"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "exile",
+      "hindiMeaning": "निर्वासित करना; किसी स्थान से निकाल देना; दूर करना",
+      "explanation": "**'Banish'** का अर्थ है: **निर्वासित करना; किसी स्थान से निकाल देना; दूर करना** (To send someone away from a place or to get rid of a thought or feeling.)\n• सही Synonym: **'exile'** (अर्थ: निर्वासित करना; किसी स्थान से निकाल देना; दूर करना)\n• Antonyms: admit, welcome"
+    },
+    {
+      "id": "rev_set02_ant_027",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "altitude",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALTITUDE**",
+      "options": [
+        "autocratic",
+        "depth",
+        "height",
+        "elevation"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "depth",
+      "hindiMeaning": "ऊँचाई; समुद्र तल से ऊँचाई",
+      "explanation": "**'Altitude'** का अर्थ है: **ऊँचाई; समुद्र तल से ऊँचाई**\n• सही Antonym (विलोम): **'depth'**\n• इसके Synonyms हैं: height, elevation, loftiness"
+    },
+    {
+      "id": "rev_set02_ant_028",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "altruistic",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ALTRUISTIC**",
+      "options": [
+        "annoyance",
+        "selfless",
+        "charitable",
+        "selfish"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "selfish",
+      "hindiMeaning": "परोपकारी; निःस्वार्थ; जनहितैषी",
+      "explanation": "**'Altruistic'** का अर्थ है: **परोपकारी; निःस्वार्थ; जनहितैषी**\n• सही Antonym (विलोम): **'selfish'**\n• इसके Synonyms हैं: selfless, charitable, philanthropic"
+    },
+    {
+      "id": "rev_set02_ant_029",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "amicable",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AMICABLE**",
+      "options": [
+        "friendly",
+        "apparent",
+        "cordial",
+        "hostile"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "hostile",
+      "hindiMeaning": "मैत्रीपूर्ण; सौहार्दपूर्ण",
+      "explanation": "**'Amicable'** का अर्थ है: **मैत्रीपूर्ण; सौहार्दपूर्ण**\n• सही Antonym (विलोम): **'hostile'**\n• इसके Synonyms हैं: cordial, friendly, affable"
+    },
+    {
+      "id": "rev_set02_ant_030",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "amnesty",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AMNESTY**",
+      "options": [
+        "reprieve",
+        "pardon",
+        "apologetic",
+        "prosecution"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "prosecution",
+      "hindiMeaning": "आम माफी; सामूहिक क्षमादान",
+      "explanation": "**'Amnesty'** का अर्थ है: **आम माफी; सामूहिक क्षमादान**\n• सही Antonym (विलोम): **'prosecution'**\n• इसके Synonyms हैं: pardon, reprieve, forgiveness"
+    },
+    {
+      "id": "rev_set02_ant_031",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "anger",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ANGER**",
+      "options": [
+        "audacious",
+        "fury",
+        "rage",
+        "calm"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "calm",
+      "hindiMeaning": "क्रोध; गुस्सा; क्रोधित करना",
+      "explanation": "**'Anger'** का अर्थ है: **क्रोध; गुस्सा; क्रोधित करना**\n• सही Antonym (विलोम): **'calm'**\n• इसके Synonyms हैं: rage, fury, ire"
+    },
+    {
+      "id": "rev_set02_ant_032",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "annoyance",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ANNOYANCE**",
+      "options": [
+        "irritation",
+        "exasperation",
+        "anger",
+        "pleasure"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "pleasure",
+      "hindiMeaning": "झुंझलाहट; खीज; नाराज़गी",
+      "explanation": "**'Annoyance'** का अर्थ है: **झुंझलाहट; खीज; नाराज़गी**\n• सही Antonym (विलोम): **'pleasure'**\n• इसके Synonyms हैं: irritation, exasperation, vexation"
+    },
+    {
+      "id": "rev_set02_ant_033",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "anticipate",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ANTICIPATE**",
+      "options": [
+        "assemblage",
+        "foresee",
+        "predict",
+        "doubt"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "doubt",
+      "hindiMeaning": "पूर्वानुमान लगाना; पहले से अपेक्षा करना",
+      "explanation": "**'Anticipate'** का अर्थ है: **पूर्वानुमान लगाना; पहले से अपेक्षा करना**\n• सही Antonym (विलोम): **'doubt'**\n• इसके Synonyms हैं: foresee, predict, expect"
+    },
+    {
+      "id": "rev_set02_ant_034",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "antipathy",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ANTIPATHY**",
+      "options": [
+        "autonomy",
+        "affinity",
+        "aversion",
+        "hostility"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "affinity",
+      "hindiMeaning": "द्वेष; गहरी अरुचि; विरोध की भावना",
+      "explanation": "**'Antipathy'** का अर्थ है: **द्वेष; गहरी अरुचि; विरोध की भावना**\n• सही Antonym (विलोम): **'affinity'**\n• इसके Synonyms हैं: aversion, hostility, antagonism"
+    },
+    {
+      "id": "rev_set02_ant_035",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "apologetic",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**APOLOGETIC**",
+      "options": [
+        "unrepentant",
+        "remorseful",
+        "assemblage",
+        "contrite"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "unrepentant",
+      "hindiMeaning": "क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा",
+      "explanation": "**'Apologetic'** का अर्थ है: **क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा**\n• सही Antonym (विलोम): **'unrepentant'**\n• इसके Synonyms हैं: contrite, remorseful, regretful"
+    },
+    {
+      "id": "rev_set02_ant_036",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "apology",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**APOLOGY**",
+      "options": [
+        "expression of regret",
+        "avarice",
+        "justification",
+        "contrition"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "justification",
+      "hindiMeaning": "क्षमा-याचना; माफी; खेद की अभिव्यक्ति",
+      "explanation": "**'Apology'** का अर्थ है: **क्षमा-याचना; माफी; खेद की अभिव्यक्ति**\n• सही Antonym (विलोम): **'justification'**\n• इसके Synonyms हैं: expression of regret, contrition, amends"
+    },
+    {
+      "id": "rev_set02_ant_037",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "apparent",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**APPARENT**",
+      "options": [
+        "obscure",
+        "clear",
+        "obvious",
+        "aversion"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "obscure",
+      "hindiMeaning": "स्पष्ट; प्रकट; दिखाई देने वाला",
+      "explanation": "**'Apparent'** का अर्थ है: **स्पष्ट; प्रकट; दिखाई देने वाला**\n• सही Antonym (विलोम): **'obscure'**\n• इसके Synonyms हैं: obvious, clear, evident"
+    },
+    {
+      "id": "rev_set02_ant_038",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "appear",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**APPEAR**",
+      "options": [
+        "seem",
+        "emerge",
+        "vanish",
+        "amicable"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "vanish",
+      "hindiMeaning": "दिखाई देना; प्रकट होना; प्रतीत होना",
+      "explanation": "**'Appear'** का अर्थ है: **दिखाई देना; प्रकट होना; प्रतीत होना**\n• सही Antonym (विलोम): **'vanish'**\n• इसके Synonyms हैं: seem, emerge, materialise"
+    },
+    {
+      "id": "rev_set02_ant_039",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "articulate",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ARTICULATE**",
+      "options": [
+        "anticipate",
+        "inarticulate",
+        "express",
+        "verbalise"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "inarticulate",
+      "hindiMeaning": "स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु",
+      "explanation": "**'Articulate'** का अर्थ है: **स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु**\n• सही Antonym (विलोम): **'inarticulate'**\n• इसके Synonyms हैं: express, verbalise, enunciate"
+    },
+    {
+      "id": "rev_set02_ant_040",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "assemblage",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ASSEMBLAGE**",
+      "options": [
+        "collection",
+        "scattering",
+        "gathering",
+        "avarice"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "scattering",
+      "hindiMeaning": "संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह",
+      "explanation": "**'Assemblage'** का अर्थ है: **संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह**\n• सही Antonym (विलोम): **'scattering'**\n• इसके Synonyms हैं: collection, gathering, assembly"
+    },
+    {
+      "id": "rev_set02_ant_041",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "assertive",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ASSERTIVE**",
+      "options": [
+        "assemblage",
+        "confident",
+        "self-assured",
+        "passive"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "passive",
+      "hindiMeaning": "आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर",
+      "explanation": "**'Assertive'** का अर्थ है: **आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर**\n• सही Antonym (विलोम): **'passive'**\n• इसके Synonyms हैं: confident, self-assured, forceful"
+    },
+    {
+      "id": "rev_set02_ant_042",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "assiduous",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ASSIDUOUS**",
+      "options": [
+        "diligent",
+        "authentic",
+        "industrious",
+        "lazy"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "lazy",
+      "hindiMeaning": "परिश्रमी; लगनशील; मेहनती",
+      "explanation": "**'Assiduous'** का अर्थ है: **परिश्रमी; लगनशील; मेहनती**\n• सही Antonym (विलोम): **'lazy'**\n• इसके Synonyms हैं: diligent, industrious, hard-working"
+    },
+    {
+      "id": "rev_set02_ant_043",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "atrocity",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ATROCITY**",
+      "options": [
+        "brutality",
+        "assiduous",
+        "kindness",
+        "barbarity"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "kindness",
+      "hindiMeaning": "अत्याचार; जघन्य हिंसक कृत्य; बर्बरता",
+      "explanation": "**'Atrocity'** का अर्थ है: **अत्याचार; जघन्य हिंसक कृत्य; बर्बरता**\n• सही Antonym (विलोम): **'kindness'**\n• इसके Synonyms हैं: brutality, barbarity, outrage"
+    },
+    {
+      "id": "rev_set02_ant_044",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "audacious",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AUDACIOUS**",
+      "options": [
+        "daring",
+        "bold",
+        "authentic",
+        "timid"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "timid",
+      "hindiMeaning": "साहसी; निडर; दुस्साहसी",
+      "explanation": "**'Audacious'** का अर्थ है: **साहसी; निडर; दुस्साहसी**\n• सही Antonym (विलोम): **'timid'**\n• इसके Synonyms हैं: daring, bold, fearless"
+    },
+    {
+      "id": "rev_set02_ant_045",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "authentic",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AUTHENTIC**",
+      "options": [
+        "real",
+        "fake",
+        "avert",
+        "genuine"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "fake",
+      "hindiMeaning": "प्रामाणिक; असली; विश्वसनीय",
+      "explanation": "**'Authentic'** का अर्थ है: **प्रामाणिक; असली; विश्वसनीय**\n• सही Antonym (विलोम): **'fake'**\n• इसके Synonyms हैं: genuine, real, bona fide"
+    },
+    {
+      "id": "rev_set02_ant_046",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "autocratic",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AUTOCRATIC**",
+      "options": [
+        "democratic",
+        "authoritarian",
+        "dictatorial",
+        "articulate"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "democratic",
+      "hindiMeaning": "निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी",
+      "explanation": "**'Autocratic'** का अर्थ है: **निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी**\n• सही Antonym (विलोम): **'democratic'**\n• इसके Synonyms हैं: authoritarian, dictatorial, despotic"
+    },
+    {
+      "id": "rev_set02_ant_047",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "autonomy",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AUTONOMY**",
+      "options": [
+        "independence",
+        "altruistic",
+        "self-government",
+        "dependence"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "dependence",
+      "hindiMeaning": "स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार",
+      "explanation": "**'Autonomy'** का अर्थ है: **स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार**\n• सही Antonym (विलोम): **'dependence'**\n• इसके Synonyms हैं: independence, self-government, self-rule"
+    },
+    {
+      "id": "rev_set02_ant_048",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "avarice",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AVARICE**",
+      "options": [
+        "greed",
+        "generosity",
+        "assertive",
+        "cupidity"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "generosity",
+      "hindiMeaning": "घोर लालच; धन का अत्यधिक लोभ",
+      "explanation": "**'Avarice'** का अर्थ है: **घोर लालच; धन का अत्यधिक लोभ**\n• सही Antonym (विलोम): **'generosity'**\n• इसके Synonyms हैं: greed, cupidity, covetousness"
+    },
+    {
+      "id": "rev_set02_ant_049",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "aversion",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AVERSION**",
+      "options": [
+        "loathing",
+        "altitude",
+        "antipathy",
+        "affinity"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "affinity",
+      "hindiMeaning": "तीव्र अरुचि; घृणा; विरक्ति",
+      "explanation": "**'Aversion'** का अर्थ है: **तीव्र अरुचि; घृणा; विरक्ति**\n• सही Antonym (विलोम): **'affinity'**\n• इसके Synonyms हैं: antipathy, loathing, dislike"
+    },
+    {
+      "id": "rev_set02_ant_050",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "avert",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**AVERT**",
+      "options": [
+        "avoid",
+        "cause",
+        "apology",
+        "prevent"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "cause",
+      "hindiMeaning": "टाल देना; रोकना; दिशा मोड़ना",
+      "explanation": "**'Avert'** का अर्थ है: **टाल देना; रोकना; दिशा मोड़ना**\n• सही Antonym (विलोम): **'cause'**\n• इसके Synonyms हैं: prevent, avoid, ward off"
+    },
+    {
+      "id": "rev_set02_ant_051",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "bane",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BANE**",
+      "options": [
+        "scourge",
+        "anger",
+        "blessing",
+        "curse"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "blessing",
+      "hindiMeaning": "अभिशाप; हानि का कारण; कष्टदायक चीज़",
+      "explanation": "**'Bane'** का अर्थ है: **अभिशाप; हानि का कारण; कष्टदायक चीज़**\n• सही Antonym (विलोम): **'blessing'**\n• इसके Synonyms हैं: curse, scourge, affliction"
+    },
+    {
+      "id": "rev_set02_ant_052",
+      "type": "antonym",
+      "setNumber": 2,
+      "targetWord": "banish",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BANISH**",
+      "options": [
+        "admit",
+        "exile",
+        "expel",
+        "autocratic"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "admit",
+      "hindiMeaning": "निर्वासित करना; किसी स्थान से निकाल देना; दूर करना",
+      "explanation": "**'Banish'** का अर्थ है: **निर्वासित करना; किसी स्थान से निकाल देना; दूर करना**\n• सही Antonym (विलोम): **'admit'**\n• इसके Synonyms हैं: exile, expel, deport"
+    },
+    {
+      "id": "rev_set02_ctx_053",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "altitude",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The aircraft reached an __________ of 10,000 metres.\"",
+      "options": [
+        "amnesty",
+        "assiduous",
+        "altitude",
+        "articulate"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "altitude",
+      "hindiMeaning": "ऊँचाई; समुद्र तल से ऊँचाई",
+      "explanation": "सही उत्तर: **'altitude'**\nवाक्य का हिंदी अनुवाद: विमान 10,000 मीटर की ऊँचाई पर पहुँचा.\nअर्थ: **altitude** = ऊँचाई; समुद्र तल से ऊँचाई"
+    },
+    {
+      "id": "rev_set02_ctx_054",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "amicable",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"They reached an __________ agreement after the dispute.\"",
+      "options": [
+        "amicable",
+        "apology",
+        "apologetic",
+        "apparent"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "amicable",
+      "hindiMeaning": "मैत्रीपूर्ण; सौहार्दपूर्ण",
+      "explanation": "सही उत्तर: **'amicable'**\nवाक्य का हिंदी अनुवाद: विवाद के बाद वे सौहार्दपूर्ण समझौते पर पहुँचे।\nअर्थ: **amicable** = मैत्रीपूर्ण; सौहार्दपूर्ण"
+    },
+    {
+      "id": "rev_set02_ctx_055",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "anger",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"His careless remark caused __________ among the workers.\"",
+      "options": [
+        "anticipate",
+        "articulate",
+        "antipathy",
+        "anger"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "anger",
+      "hindiMeaning": "क्रोध; गुस्सा; क्रोधित करना",
+      "explanation": "सही उत्तर: **'anger'**\nवाक्य का हिंदी अनुवाद: उसकी लापरवाह टिप्पणी से कर्मचारियों में गुस्सा फैल गया।\nअर्थ: **anger** = क्रोध; गुस्सा; क्रोधित करना"
+    },
+    {
+      "id": "rev_set02_ctx_056",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "anticipate",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"We __________ heavy traffic during the festival.\"",
+      "options": [
+        "banish",
+        "anticipate",
+        "audacious",
+        "antipathy"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "anticipate",
+      "hindiMeaning": "पूर्वानुमान लगाना; पहले से अपेक्षा करना",
+      "explanation": "सही उत्तर: **'anticipate'**\nवाक्य का हिंदी अनुवाद: हमें त्योहार के दौरान भारी यातायात की आशंका है।\nअर्थ: **anticipate** = पूर्वानुमान लगाना; पहले से अपेक्षा करना"
+    },
+    {
+      "id": "rev_set02_ctx_057",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "apologetic",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"He looked __________ after interrupting the speaker.\"",
+      "options": [
+        "atrocity",
+        "apologetic",
+        "authentic",
+        "banish"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "apologetic",
+      "hindiMeaning": "क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा",
+      "explanation": "सही उत्तर: **'apologetic'**\nवाक्य का हिंदी अनुवाद: वक्ता की बात काटने के बाद वह क्षमाप्रार्थी दिख रहा था।\nअर्थ: **apologetic** = क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा"
+    },
+    {
+      "id": "rev_set02_ctx_058",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "apparent",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"It became __________ that the plan would fail.\"",
+      "options": [
+        "apparent",
+        "articulate",
+        "amicable",
+        "altitude"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "apparent",
+      "hindiMeaning": "स्पष्ट; प्रकट; दिखाई देने वाला",
+      "explanation": "सही उत्तर: **'apparent'**\nवाक्य का हिंदी अनुवाद: यह स्पष्ट हो गया कि योजना असफल होगी।\nअर्थ: **apparent** = स्पष्ट; प्रकट; दिखाई देने वाला"
+    },
+    {
+      "id": "rev_set02_ctx_059",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "articulate",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"She __________ her concerns clearly.\"",
+      "options": [
+        "apologetic",
+        "amicable",
+        "articulated",
+        "atrocity"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "articulated",
+      "hindiMeaning": "स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु",
+      "explanation": "सही उत्तर: **'articulated'**\nवाक्य का हिंदी अनुवाद: उसने अपनी चिंताओं को स्पष्ट रूप से व्यक्त किया।\nअर्थ: **articulate** = स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु"
+    },
+    {
+      "id": "rev_set02_ctx_060",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "assertive",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Be __________ when explaining your needs, but remain respectful.\"",
+      "options": [
+        "avert",
+        "assertive",
+        "annoyance",
+        "banish"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "assertive",
+      "hindiMeaning": "आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर",
+      "explanation": "सही उत्तर: **'assertive'**\nवाक्य का हिंदी अनुवाद: अपनी ज़रूरतें बताते समय दृढ़ रहो, लेकिन सम्मानजनक बने रहो।\nअर्थ: **assertive** = आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर"
+    },
+    {
+      "id": "rev_set02_ctx_061",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "atrocity",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The report documented __________ committed against civilians.\"",
+      "options": [
+        "atrocities",
+        "autonomy",
+        "authentic",
+        "anticipate"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "atrocities",
+      "hindiMeaning": "अत्याचार; जघन्य हिंसक कृत्य; बर्बरता",
+      "explanation": "सही उत्तर: **'atrocities'**\nवाक्य का हिंदी अनुवाद: रिपोर्ट में नागरिकों पर किए गए अत्याचारों का विवरण था।\nअर्थ: **atrocity** = अत्याचार; जघन्य हिंसक कृत्य; बर्बरता"
+    },
+    {
+      "id": "rev_set02_ctx_062",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "authentic",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The museum verified that the painting was __________.\"",
+      "options": [
+        "altruistic",
+        "aversion",
+        "amicable",
+        "authentic"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "authentic",
+      "hindiMeaning": "प्रामाणिक; असली; विश्वसनीय",
+      "explanation": "सही उत्तर: **'authentic'**\nवाक्य का हिंदी अनुवाद: संग्रहालय ने पुष्टि की कि चित्र असली था।\nअर्थ: **authentic** = प्रामाणिक; असली; विश्वसनीय"
+    },
+    {
+      "id": "rev_set02_ctx_063",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "autonomy",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The region was granted greater political __________.\"",
+      "options": [
+        "assemblage",
+        "anticipate",
+        "autonomy",
+        "articulate"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "autonomy",
+      "hindiMeaning": "स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार",
+      "explanation": "सही उत्तर: **'autonomy'**\nवाक्य का हिंदी अनुवाद: क्षेत्र को अधिक राजनीतिक स्वायत्तता दी गई।\nअर्थ: **autonomy** = स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार"
+    },
+    {
+      "id": "rev_set02_ctx_064",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "aversion",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"He has a strong __________ to dishonesty.\"",
+      "options": [
+        "aversion",
+        "assertive",
+        "apologetic",
+        "autocratic"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "aversion",
+      "hindiMeaning": "तीव्र अरुचि; घृणा; विरक्ति",
+      "explanation": "सही उत्तर: **'aversion'**\nवाक्य का हिंदी अनुवाद: उसे बेईमानी से बहुत घृणा है।\nअर्थ: **aversion** = तीव्र अरुचि; घृणा; विरक्ति"
+    },
+    {
+      "id": "rev_set02_ctx_065",
+      "type": "context_fill_in",
+      "setNumber": 2,
+      "targetWord": "bane",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Mosquitoes are the __________ of summer evenings.\"",
+      "options": [
+        "bane",
+        "assertive",
+        "annoyance",
+        "anticipate"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "bane",
+      "hindiMeaning": "अभिशाप; हानि का कारण; कष्टदायक चीज़",
+      "explanation": "सही उत्तर: **'bane'**\nवाक्य का हिंदी अनुवाद: मच्छर गर्मियों की शामों की बड़ी परेशानी हैं।\nअर्थ: **bane** = अभिशाप; हानि का कारण; कष्टदायक चीज़"
+    },
+    {
+      "id": "rev_set03_syn_001",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "barren",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BARREN**",
+      "options": [
+        "complex",
+        "infertile",
+        "fertile",
+        "contribute"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "infertile",
+      "hindiMeaning": "अनुपजाऊ, बाँझ, वीरान",
+      "explanation": "**'Barren'** का अर्थ है: **अनुपजाऊ, बाँझ, वीरान** (Unable to produce crops or offspring; empty and lifeless.)\n• सही Synonym: **'infertile'** (अर्थ: अनुपजाऊ, बाँझ, वीरान)\n• Antonyms: fertile, productive, fruitful"
+    },
+    {
+      "id": "rev_set03_syn_002",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "barrier",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BARRIER**",
+      "options": [
+        "opening",
+        "contradict",
+        "obstacle",
+        "change"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "obstacle",
+      "hindiMeaning": "बाधा, रुकावट",
+      "explanation": "**'Barrier'** का अर्थ है: **बाधा, रुकावट** (Something that blocks movement, access, or progress.)\n• सही Synonym: **'obstacle'** (अर्थ: बाधा, रुकावट)\n• Antonyms: opening, passage, aid"
+    },
+    {
+      "id": "rev_set03_syn_003",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "battle",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BATTLE**",
+      "options": [
+        "cordial",
+        "fight",
+        "peace",
+        "decide"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "fight",
+      "hindiMeaning": "युद्ध, लड़ाई, संघर्ष करना",
+      "explanation": "**'Battle'** का अर्थ है: **युद्ध, लड़ाई, संघर्ष करना** (A fight between opposing forces; to struggle against something.)\n• सही Synonym: **'fight'** (अर्थ: युद्ध, लड़ाई, संघर्ष करना)\n• Antonyms: peace, truce, harmony"
+    },
+    {
+      "id": "rev_set03_syn_004",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "bear",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BEAR**",
+      "options": [
+        "cordial",
+        "reject",
+        "endure",
+        "dead"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "endure",
+      "hindiMeaning": "सहन करना, झेलना, वहन करना",
+      "explanation": "**'Bear'** का अर्थ है: **सहन करना, झेलना, वहन करना** (To endure, tolerate, carry, or support something.)\n• सही Synonym: **'endure'** (अर्थ: सहन करना, झेलना, वहन करना)\n• Antonyms: reject, refuse, surrender"
+    },
+    {
+      "id": "rev_set03_syn_005",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "beautiful",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BEAUTIFUL**",
+      "options": [
+        "build",
+        "attractive",
+        "ugly",
+        "conduct"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "attractive",
+      "hindiMeaning": "सुंदर, खूबसूरत",
+      "explanation": "**'Beautiful'** का अर्थ है: **सुंदर, खूबसूरत** (Pleasing to the senses or mind.)\n• सही Synonym: **'attractive'** (अर्थ: सुंदर, खूबसूरत)\n• Antonyms: ugly, hideous, unattractive"
+    },
+    {
+      "id": "rev_set03_syn_006",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "beckon",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BECKON**",
+      "options": [
+        "signal",
+        "barren",
+        "conspiracy",
+        "repel"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "signal",
+      "hindiMeaning": "इशारे से बुलाना, संकेत करना",
+      "explanation": "**'Beckon'** का अर्थ है: **इशारे से बुलाना, संकेत करना** (To signal someone to approach, usually with a gesture.)\n• सही Synonym: **'signal'** (अर्थ: इशारे से बुलाना, संकेत करना)\n• Antonyms: repel, dismiss, deter"
+    },
+    {
+      "id": "rev_set03_syn_007",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "behavior",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BEHAVIOR**",
+      "options": [
+        "conduct",
+        "concise",
+        "misbehavior",
+        "decide"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "conduct",
+      "hindiMeaning": "व्यवहार, आचरण, बर्ताव",
+      "explanation": "**'Behavior'** का अर्थ है: **व्यवहार, आचरण, बर्ताव** (The way a person acts or conducts themselves.)\n• सही Synonym: **'conduct'** (अर्थ: व्यवहार, आचरण, बर्ताव)\n• Antonyms: misbehavior, misconduct"
+    },
+    {
+      "id": "rev_set03_syn_008",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "belief",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BELIEF**",
+      "options": [
+        "faith",
+        "build",
+        "disbelief",
+        "deadly"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "faith",
+      "hindiMeaning": "विश्वास, धारणा",
+      "explanation": "**'Belief'** का अर्थ है: **विश्वास, धारणा** (An acceptance that something is true or exists.)\n• सही Synonym: **'faith'** (अर्थ: विश्वास, धारणा)\n• Antonyms: disbelief, doubt, skepticism"
+    },
+    {
+      "id": "rev_set03_syn_009",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "bliss",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BLISS**",
+      "options": [
+        "happiness",
+        "casual",
+        "ceremonial",
+        "misery"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "happiness",
+      "hindiMeaning": "परम आनंद, अपार सुख",
+      "explanation": "**'Bliss'** का अर्थ है: **परम आनंद, अपार सुख** (Perfect happiness or joy.)\n• सही Synonym: **'happiness'** (अर्थ: परम आनंद, अपार सुख)\n• Antonyms: misery, sorrow, grief"
+    },
+    {
+      "id": "rev_set03_syn_010",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "benefit",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BENEFIT**",
+      "options": [
+        "confession",
+        "harm",
+        "curtail",
+        "advantage"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "advantage",
+      "hindiMeaning": "लाभ, फायदा, लाभ पहुँचाना",
+      "explanation": "**'Benefit'** का अर्थ है: **लाभ, फायदा, लाभ पहुँचाना** (An advantage or helpful effect; to help someone.)\n• सही Synonym: **'advantage'** (अर्थ: लाभ, फायदा, लाभ पहुँचाना)\n• Antonyms: harm, disadvantage, detriment"
+    },
+    {
+      "id": "rev_set03_syn_011",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "build",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**BUILD**",
+      "options": [
+        "casual",
+        "construct",
+        "crude",
+        "destroy"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "construct",
+      "hindiMeaning": "बनाना, निर्माण करना",
+      "explanation": "**'Build'** का अर्थ है: **बनाना, निर्माण करना** (To construct or develop something.)\n• सही Synonym: **'construct'** (अर्थ: बनाना, निर्माण करना)\n• Antonyms: destroy, demolish, ruin"
+    },
+    {
+      "id": "rev_set03_syn_012",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cancel",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CANCEL**",
+      "options": [
+        "confirm",
+        "deadly",
+        "call off",
+        "differ"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "call off",
+      "hindiMeaning": "रद्द करना, निरस्त करना",
+      "explanation": "**'Cancel'** का अर्थ है: **रद्द करना, निरस्त करना** (To decide that something planned or arranged will not happen.)\n• सही Synonym: **'call off'** (अर्थ: रद्द करना, निरस्त करना)\n• Antonyms: confirm, approve, ratify"
+    },
+    {
+      "id": "rev_set03_syn_013",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "candid",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CANDID**",
+      "options": [
+        "frank",
+        "concise",
+        "composed",
+        "deceitful"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "frank",
+      "hindiMeaning": "स्पष्टवादी, निष्कपट, ईमानदार",
+      "explanation": "**'Candid'** का अर्थ है: **स्पष्टवादी, निष्कपट, ईमानदार** (Honest and direct, even when the truth may be uncomfortable.)\n• सही Synonym: **'frank'** (अर्थ: स्पष्टवादी, निष्कपट, ईमानदार)\n• Antonyms: deceitful, evasive, guarded"
+    },
+    {
+      "id": "rev_set03_syn_014",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cantankerous",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CANTANKEROUS**",
+      "options": [
+        "affable",
+        "quarrelsome",
+        "contain",
+        "change"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "quarrelsome",
+      "hindiMeaning": "झगड़ालू, चिड़चिड़ा",
+      "explanation": "**'Cantankerous'** का अर्थ है: **झगड़ालू, चिड़चिड़ा** (Bad-tempered, argumentative, and difficult to deal with.)\n• सही Synonym: **'quarrelsome'** (अर्थ: झगड़ालू, चिड़चिड़ा)\n• Antonyms: affable, amiable, good-natured"
+    },
+    {
+      "id": "rev_set03_syn_015",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "casual",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CASUAL**",
+      "options": [
+        "bear",
+        "conduct",
+        "informal",
+        "formal"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "informal",
+      "hindiMeaning": "अनौपचारिक, सहज, कभी-कभी, आकस्मिक",
+      "explanation": "**'Casual'** का अर्थ है: **अनौपचारिक, सहज, कभी-कभी, आकस्मिक** (Relaxed or informal; occurring without being planned or regular.)\n• सही Synonym: **'informal'** (अर्थ: अनौपचारिक, सहज, कभी-कभी, आकस्मिक)\n• Antonyms: formal, serious, planned"
+    },
+    {
+      "id": "rev_set03_syn_016",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cease",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CEASE**",
+      "options": [
+        "commence",
+        "stop",
+        "belief",
+        "battle"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "stop",
+      "hindiMeaning": "रुकना, बंद करना, समाप्त होना",
+      "explanation": "**'Cease'** का अर्थ है: **रुकना, बंद करना, समाप्त होना** (To stop or bring something to an end.)\n• सही Synonym: **'stop'** (अर्थ: रुकना, बंद करना, समाप्त होना)\n• Antonyms: commence, continue, originate"
+    },
+    {
+      "id": "rev_set03_syn_017",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "ceremonial",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CEREMONIAL**",
+      "options": [
+        "conduct",
+        "informal",
+        "battle",
+        "formal"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "formal",
+      "hindiMeaning": "समारोह-संबंधी, औपचारिक",
+      "explanation": "**'Ceremonial'** का अर्थ है: **समारोह-संबंधी, औपचारिक** (Related to a ceremony or performed as part of a formal occasion.)\n• सही Synonym: **'formal'** (अर्थ: समारोह-संबंधी, औपचारिक)\n• Antonyms: informal, casual"
+    },
+    {
+      "id": "rev_set03_syn_018",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "change",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CHANGE**",
+      "options": [
+        "alter",
+        "remain",
+        "convict",
+        "colossal"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "alter",
+      "hindiMeaning": "बदलना, परिवर्तन",
+      "explanation": "**'Change'** का अर्थ है: **बदलना, परिवर्तन** (To make or become different; an alteration.)\n• सही Synonym: **'alter'** (अर्थ: बदलना, परिवर्तन)\n• Antonyms: remain, stagnate, stabilize"
+    },
+    {
+      "id": "rev_set03_syn_019",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "clumsy",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CLUMSY**",
+      "options": [
+        "graceful",
+        "awkward",
+        "contradict",
+        "contain"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "awkward",
+      "hindiMeaning": "भद्दा, बेढंगा, अनाड़ी",
+      "explanation": "**'Clumsy'** का अर्थ है: **भद्दा, बेढंगा, अनाड़ी** (Awkward in movement or lacking skill and grace.)\n• सही Synonym: **'awkward'** (अर्थ: भद्दा, बेढंगा, अनाड़ी)\n• Antonyms: graceful, adroit, deft"
+    },
+    {
+      "id": "rev_set03_syn_020",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "colossal",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COLOSSAL**",
+      "options": [
+        "tiny",
+        "dead",
+        "gigantic",
+        "composed"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "gigantic",
+      "hindiMeaning": "विशाल, बहुत बड़ा",
+      "explanation": "**'Colossal'** का अर्थ है: **विशाल, बहुत बड़ा** (Extremely large or great.)\n• सही Synonym: **'gigantic'** (अर्थ: विशाल, बहुत बड़ा)\n• Antonyms: tiny, minute, miniature"
+    },
+    {
+      "id": "rev_set03_syn_021",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "command",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COMMAND**",
+      "options": [
+        "dauntless",
+        "order",
+        "cancel",
+        "obey"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "order",
+      "hindiMeaning": "आदेश देना, नियंत्रण, अधिकार",
+      "explanation": "**'Command'** का अर्थ है: **आदेश देना, नियंत्रण, अधिकार** (To give an authoritative order; authority or control.)\n• सही Synonym: **'order'** (अर्थ: आदेश देना, नियंत्रण, अधिकार)\n• Antonyms: obey, follow, submit"
+    },
+    {
+      "id": "rev_set03_syn_022",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "compassion",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COMPASSION**",
+      "options": [
+        "sympathy",
+        "concern",
+        "decide",
+        "cruelty"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "sympathy",
+      "hindiMeaning": "करुणा, सहानुभूति",
+      "explanation": "**'Compassion'** का अर्थ है: **करुणा, सहानुभूति** (Sympathetic concern for another person's suffering.)\n• सही Synonym: **'sympathy'** (अर्थ: करुणा, सहानुभूति)\n• Antonyms: cruelty, indifference, callousness"
+    },
+    {
+      "id": "rev_set03_syn_023",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "complex",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COMPLEX**",
+      "options": [
+        "simple",
+        "complicated",
+        "fortify",
+        "composed"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "complicated",
+      "hindiMeaning": "जटिल, पेचीदा",
+      "explanation": "**'Complex'** का अर्थ है: **जटिल, पेचीदा** (Consisting of many connected parts and therefore difficult to understand.)\n• सही Synonym: **'complicated'** (अर्थ: जटिल, पेचीदा)\n• Antonyms: simple, lucid, straightforward"
+    },
+    {
+      "id": "rev_set03_syn_024",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "complimentary",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COMPLIMENTARY**",
+      "options": [
+        "cordial",
+        "cease",
+        "praising",
+        "critical"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "praising",
+      "hindiMeaning": "प्रशंसात्मक, निःशुल्क",
+      "explanation": "**'Complimentary'** का अर्थ है: **प्रशंसात्मक, निःशुल्क** (Expressing praise; or provided free of charge.)\n• सही Synonym: **'praising'** (अर्थ: प्रशंसात्मक, निःशुल्क)\n• Antonyms: critical, derogatory, disparaging"
+    },
+    {
+      "id": "rev_set03_syn_025",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "composed",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**COMPOSED**",
+      "options": [
+        "credible",
+        "calm",
+        "agitated",
+        "dead"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "calm",
+      "hindiMeaning": "शांतचित्त, संयमित",
+      "explanation": "**'Composed'** का अर्थ है: **शांतचित्त, संयमित** (Calm and in control of one's emotions.)\n• सही Synonym: **'calm'** (अर्थ: शांतचित्त, संयमित)\n• Antonyms: agitated, flustered, anxious"
+    },
+    {
+      "id": "rev_set03_syn_026",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "concern",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONCERN**",
+      "options": [
+        "casual",
+        "indifference",
+        "worry",
+        "benefit"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "worry",
+      "hindiMeaning": "चिंता, सरोकार, संबंधित होना",
+      "explanation": "**'Concern'** का अर्थ है: **चिंता, सरोकार, संबंधित होना** (Worry about something or an issue that matters to someone.)\n• सही Synonym: **'worry'** (अर्थ: चिंता, सरोकार, संबंधित होना)\n• Antonyms: indifference, unconcern, apathy"
+    },
+    {
+      "id": "rev_set03_syn_027",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "concise",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONCISE**",
+      "options": [
+        "dauntless",
+        "wordy",
+        "brief",
+        "cruel"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "brief",
+      "hindiMeaning": "संक्षिप्त, सारगर्भित",
+      "explanation": "**'Concise'** का अर्थ है: **संक्षिप्त, सारगर्भित** (Giving a lot of information clearly in few words.)\n• सही Synonym: **'brief'** (अर्थ: संक्षिप्त, सारगर्भित)\n• Antonyms: wordy, verbose, lengthy"
+    },
+    {
+      "id": "rev_set03_syn_028",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "conduct",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONDUCT**",
+      "options": [
+        "battle",
+        "behavior",
+        "cancel",
+        "misconduct"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "behavior",
+      "hindiMeaning": "आचरण, व्यवहार, संचालन करना",
+      "explanation": "**'Conduct'** का अर्थ है: **आचरण, व्यवहार, संचालन करना** (A person's behaviour; or to organize and carry out an activity.)\n• सही Synonym: **'behavior'** (अर्थ: आचरण, व्यवहार, संचालन करना)\n• Antonyms: misconduct, impropriety"
+    },
+    {
+      "id": "rev_set03_syn_029",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "confession",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONFESSION**",
+      "options": [
+        "admission",
+        "compassion",
+        "denial",
+        "behavior"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "admission",
+      "hindiMeaning": "स्वीकारोक्ति, अपराध स्वीकार करना",
+      "explanation": "**'Confession'** का अर्थ है: **स्वीकारोक्ति, अपराध स्वीकार करना** (A statement admitting that something is true, especially a mistake or wrongdoing.)\n• सही Synonym: **'admission'** (अर्थ: स्वीकारोक्ति, अपराध स्वीकार करना)\n• Antonyms: denial, refusal, concealment"
+    },
+    {
+      "id": "rev_set03_syn_030",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "conflict",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONFLICT**",
+      "options": [
+        "clash",
+        "build",
+        "agreement",
+        "curtail"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "clash",
+      "hindiMeaning": "संघर्ष, टकराव, विरोध",
+      "explanation": "**'Conflict'** का अर्थ है: **संघर्ष, टकराव, विरोध** (A serious disagreement or clash between opposing interests.)\n• सही Synonym: **'clash'** (अर्थ: संघर्ष, टकराव, विरोध)\n• Antonyms: agreement, harmony, peace"
+    },
+    {
+      "id": "rev_set03_syn_031",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "conquer",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONQUER**",
+      "options": [
+        "defeat",
+        "surrender",
+        "crude",
+        "colossal"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "defeat",
+      "hindiMeaning": "जीतना, विजय प्राप्त करना, वश में करना",
+      "explanation": "**'Conquer'** का अर्थ है: **जीतना, विजय प्राप्त करना, वश में करना** (To defeat an opponent or gain control over something.)\n• सही Synonym: **'defeat'** (अर्थ: जीतना, विजय प्राप्त करना, वश में करना)\n• Antonyms: surrender, lose, succumb"
+    },
+    {
+      "id": "rev_set03_syn_032",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "conspiracy",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONSPIRACY**",
+      "options": [
+        "barren",
+        "plot",
+        "loyalty",
+        "conflict"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "plot",
+      "hindiMeaning": "साज़िश, षड्यंत्र",
+      "explanation": "**'Conspiracy'** का अर्थ है: **साज़िश, षड्यंत्र** (A secret plan made by a group to do something harmful or unlawful.)\n• सही Synonym: **'plot'** (अर्थ: साज़िश, षड्यंत्र)\n• Antonyms: loyalty, honesty, openness"
+    },
+    {
+      "id": "rev_set03_syn_033",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "contain",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONTAIN**",
+      "options": [
+        "belief",
+        "conflict",
+        "exclude",
+        "hold"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "hold",
+      "hindiMeaning": "समाहित करना, अपने भीतर रखना, नियंत्रित करना",
+      "explanation": "**'Contain'** का अर्थ है: **समाहित करना, अपने भीतर रखना, नियंत्रित करना** (To hold something within limits or include it as a part.)\n• सही Synonym: **'hold'** (अर्थ: समाहित करना, अपने भीतर रखना, नियंत्रित करना)\n• Antonyms: exclude, release, discharge"
+    },
+    {
+      "id": "rev_set03_syn_034",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "contemptuous",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONTEMPTUOUS**",
+      "options": [
+        "respectful",
+        "behavior",
+        "bear",
+        "scornful"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "scornful",
+      "hindiMeaning": "तिरस्कारपूर्ण, अवमाननापूर्ण",
+      "explanation": "**'Contemptuous'** का अर्थ है: **तिरस्कारपूर्ण, अवमाननापूर्ण** (Showing that someone or something is considered worthless or beneath respect.)\n• सही Synonym: **'scornful'** (अर्थ: तिरस्कारपूर्ण, अवमाननापूर्ण)\n• Antonyms: respectful, admiring, reverent"
+    },
+    {
+      "id": "rev_set03_syn_035",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "contradict",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONTRADICT**",
+      "options": [
+        "confirm",
+        "confession",
+        "bear",
+        "refute"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "refute",
+      "hindiMeaning": "खंडन करना, विरोधाभास करना",
+      "explanation": "**'Contradict'** का अर्थ है: **खंडन करना, विरोधाभास करना** (To state the opposite of a claim or show that it is wrong.)\n• सही Synonym: **'refute'** (अर्थ: खंडन करना, विरोधाभास करना)\n• Antonyms: confirm, corroborate, agree"
+    },
+    {
+      "id": "rev_set03_syn_036",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "contribute",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONTRIBUTE**",
+      "options": [
+        "clumsy",
+        "cruel",
+        "withhold",
+        "donate"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "donate",
+      "hindiMeaning": "योगदान देना, अंशदान करना",
+      "explanation": "**'Contribute'** का अर्थ है: **योगदान देना, अंशदान करना** (To give or add something toward a shared effort or result.)\n• सही Synonym: **'donate'** (अर्थ: योगदान देना, अंशदान करना)\n• Antonyms: withhold, take, withdraw"
+    },
+    {
+      "id": "rev_set03_syn_037",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "convict",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CONVICT**",
+      "options": [
+        "offender",
+        "decide",
+        "acquit",
+        "credible"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "offender",
+      "hindiMeaning": "दोषसिद्ध अपराधी, दोषी ठहराना",
+      "explanation": "**'Convict'** का अर्थ है: **दोषसिद्ध अपराधी, दोषी ठहराना** (A person found guilty of a crime; or to prove guilt in court.)\n• सही Synonym: **'offender'** (अर्थ: दोषसिद्ध अपराधी, दोषी ठहराना)\n• Antonyms: acquit, exonerate, pardon"
+    },
+    {
+      "id": "rev_set03_syn_038",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cordial",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CORDIAL**",
+      "options": [
+        "hostile",
+        "cancel",
+        "convict",
+        "warm"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "warm",
+      "hindiMeaning": "हार्दिक, मित्रवत, सौहार्दपूर्ण",
+      "explanation": "**'Cordial'** का अर्थ है: **हार्दिक, मित्रवत, सौहार्दपूर्ण** (Warm, friendly, and sincere.)\n• सही Synonym: **'warm'** (अर्थ: हार्दिक, मित्रवत, सौहार्दपूर्ण)\n• Antonyms: hostile, aloof, unfriendly"
+    },
+    {
+      "id": "rev_set03_syn_039",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "credible",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CREDIBLE**",
+      "options": [
+        "benefit",
+        "incredible",
+        "contain",
+        "believable"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "believable",
+      "hindiMeaning": "विश्वसनीय, भरोसेमंद",
+      "explanation": "**'Credible'** का अर्थ है: **विश्वसनीय, भरोसेमंद** (Able to be believed or trusted.)\n• सही Synonym: **'believable'** (अर्थ: विश्वसनीय, भरोसेमंद)\n• Antonyms: incredible, implausible, unreliable"
+    },
+    {
+      "id": "rev_set03_syn_040",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "crude",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CRUDE**",
+      "options": [
+        "cunning",
+        "refined",
+        "contradict",
+        "unrefined"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "unrefined",
+      "hindiMeaning": "कच्चा, अपरिष्कृत, असभ्य",
+      "explanation": "**'Crude'** का अर्थ है: **कच्चा, अपरिष्कृत, असभ्य** (In a natural or unprocessed state; rough or lacking refinement.)\n• सही Synonym: **'unrefined'** (अर्थ: कच्चा, अपरिष्कृत, असभ्य)\n• Antonyms: refined, sophisticated, polished"
+    },
+    {
+      "id": "rev_set03_syn_041",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cruel",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CRUEL**",
+      "options": [
+        "convict",
+        "brutal",
+        "kind",
+        "barren"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "brutal",
+      "hindiMeaning": "क्रूर, निर्दयी",
+      "explanation": "**'Cruel'** का अर्थ है: **क्रूर, निर्दयी** (Causing pain or suffering without concern for others.)\n• सही Synonym: **'brutal'** (अर्थ: क्रूर, निर्दयी)\n• Antonyms: kind, merciful, compassionate"
+    },
+    {
+      "id": "rev_set03_syn_042",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "cunning",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CUNNING**",
+      "options": [
+        "crafty",
+        "differ",
+        "battle",
+        "naive"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "crafty",
+      "hindiMeaning": "धूर्त, चालाक, धूर्तता",
+      "explanation": "**'Cunning'** का अर्थ है: **धूर्त, चालाक, धूर्तता** (Clever at achieving aims, often by using deception.)\n• सही Synonym: **'crafty'** (अर्थ: धूर्त, चालाक, धूर्तता)\n• Antonyms: naive, artless, candid"
+    },
+    {
+      "id": "rev_set03_syn_043",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "curtail",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**CURTAIL**",
+      "options": [
+        "reduce",
+        "change",
+        "extend",
+        "conspiracy"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "reduce",
+      "hindiMeaning": "कम करना, सीमित करना",
+      "explanation": "**'Curtail'** का अर्थ है: **कम करना, सीमित करना** (To reduce or limit something.)\n• सही Synonym: **'reduce'** (अर्थ: कम करना, सीमित करना)\n• Antonyms: extend, lengthen, expand"
+    },
+    {
+      "id": "rev_set03_syn_044",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "dauntless",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DAUNTLESS**",
+      "options": [
+        "fearless",
+        "credible",
+        "fearful",
+        "cease"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "fearless",
+      "hindiMeaning": "निर्भीक, साहसी",
+      "explanation": "**'Dauntless'** का अर्थ है: **निर्भीक, साहसी** (Showing courage and determination despite danger or difficulty.)\n• सही Synonym: **'fearless'** (अर्थ: निर्भीक, साहसी)\n• Antonyms: fearful, timid, cowardly"
+    },
+    {
+      "id": "rev_set03_syn_045",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "dead",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DEAD**",
+      "options": [
+        "original",
+        "decide",
+        "alive",
+        "lifeless"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "lifeless",
+      "hindiMeaning": "मृत, निर्जीव",
+      "explanation": "**'Dead'** का अर्थ है: **मृत, निर्जीव** (No longer alive; without life.)\n• सही Synonym: **'lifeless'** (अर्थ: मृत, निर्जीव)\n• Antonyms: alive, living, vibrant"
+    },
+    {
+      "id": "rev_set03_syn_046",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "deadly",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DEADLY**",
+      "options": [
+        "harmless",
+        "contain",
+        "cruel",
+        "lethal"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "lethal",
+      "hindiMeaning": "घातक, जानलेवा",
+      "explanation": "**'Deadly'** का अर्थ है: **घातक, जानलेवा** (Able to cause death or great harm.)\n• सही Synonym: **'lethal'** (अर्थ: घातक, जानलेवा)\n• Antonyms: harmless, innocuous, curative"
+    },
+    {
+      "id": "rev_set03_syn_047",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "dear",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DEAR**",
+      "options": [
+        "concern",
+        "hated",
+        "benefit",
+        "beloved"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "beloved",
+      "hindiMeaning": "प्रिय, महँगा",
+      "explanation": "**'Dear'** का अर्थ है: **प्रिय, महँगा** (Loved or valued; or costing a lot.)\n• सही Synonym: **'beloved'** (अर्थ: प्रिय, महँगा)\n• Antonyms: hated, cheap, valueless"
+    },
+    {
+      "id": "rev_set03_syn_048",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "decide",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DECIDE**",
+      "options": [
+        "hesitate",
+        "original",
+        "determine",
+        "complex"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "determine",
+      "hindiMeaning": "निर्णय लेना, तय करना",
+      "explanation": "**'Decide'** का अर्थ है: **निर्णय लेना, तय करना** (To make a choice or reach a conclusion.)\n• सही Synonym: **'determine'** (अर्थ: निर्णय लेना, तय करना)\n• Antonyms: hesitate, waver, vacillate"
+    },
+    {
+      "id": "rev_set03_syn_049",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "differ",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**DIFFER**",
+      "options": [
+        "contribute",
+        "vary",
+        "cancel",
+        "agree"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "vary",
+      "hindiMeaning": "भिन्न होना, असहमत होना",
+      "explanation": "**'Differ'** का अर्थ है: **भिन्न होना, असहमत होना** (To be unlike something or to disagree with someone.)\n• सही Synonym: **'vary'** (अर्थ: भिन्न होना, असहमत होना)\n• Antonyms: agree, concur, match"
+    },
+    {
+      "id": "rev_set03_syn_050",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "fortify",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**FORTIFY**",
+      "options": [
+        "complex",
+        "strengthen",
+        "original",
+        "weaken"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "strengthen",
+      "hindiMeaning": "मज़बूत करना, किलेबंदी करना",
+      "explanation": "**'Fortify'** का अर्थ है: **मज़बूत करना, किलेबंदी करना** (To strengthen or protect a place, person, or idea.)\n• सही Synonym: **'strengthen'** (अर्थ: मज़बूत करना, किलेबंदी करना)\n• Antonyms: weaken, undermine, enfeeble"
+    },
+    {
+      "id": "rev_set03_syn_051",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "fortuitous",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**FORTUITOUS**",
+      "options": [
+        "chance",
+        "cruel",
+        "conflict",
+        "deliberate"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "chance",
+      "hindiMeaning": "संयोगवश हुआ, अक्सर सौभाग्यपूर्ण",
+      "explanation": "**'Fortuitous'** का अर्थ है: **संयोगवश हुआ, अक्सर सौभाग्यपूर्ण** (Happening by chance, often with a fortunate result.)\n• सही Synonym: **'chance'** (अर्थ: संयोगवश हुआ, अक्सर सौभाग्यपूर्ण)\n• Antonyms: deliberate, planned, intentional"
+    },
+    {
+      "id": "rev_set03_syn_052",
+      "type": "synonym",
+      "setNumber": 3,
+      "targetWord": "original",
+      "question": "Select the most appropriate SYNONYM of the given word:\n\n**ORIGINAL**",
+      "options": [
+        "initial",
+        "candid",
+        "conflict",
+        "imitation"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "initial",
+      "hindiMeaning": "मूल, मौलिक, असली",
+      "explanation": "**'Original'** का अर्थ है: **मूल, मौलिक, असली** (Existing first; not copied; or creative and novel.)\n• सही Synonym: **'initial'** (अर्थ: मूल, मौलिक, असली)\n• Antonyms: imitation, derivative, copy"
+    },
+    {
+      "id": "rev_set03_ant_053",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "barren",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BARREN**",
+      "options": [
+        "sterile",
+        "infertile",
+        "fertile",
+        "battle"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "fertile",
+      "hindiMeaning": "अनुपजाऊ, बाँझ, वीरान",
+      "explanation": "**'Barren'** का अर्थ है: **अनुपजाऊ, बाँझ, वीरान**\n• सही Antonym (विलोम): **'fertile'**\n• इसके Synonyms हैं: infertile, sterile, unproductive"
+    },
+    {
+      "id": "rev_set03_ant_054",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "barrier",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BARRIER**",
+      "options": [
+        "compassion",
+        "opening",
+        "obstacle",
+        "hindrance"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "opening",
+      "hindiMeaning": "बाधा, रुकावट",
+      "explanation": "**'Barrier'** का अर्थ है: **बाधा, रुकावट**\n• सही Antonym (विलोम): **'opening'**\n• इसके Synonyms हैं: obstacle, hindrance, obstruction"
+    },
+    {
+      "id": "rev_set03_ant_055",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "battle",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BATTLE**",
+      "options": [
+        "combat",
+        "fight",
+        "contain",
+        "peace"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "peace",
+      "hindiMeaning": "युद्ध, लड़ाई, संघर्ष करना",
+      "explanation": "**'Battle'** का अर्थ है: **युद्ध, लड़ाई, संघर्ष करना**\n• सही Antonym (विलोम): **'peace'**\n• इसके Synonyms हैं: fight, combat, conflict"
+    },
+    {
+      "id": "rev_set03_ant_056",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "bear",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BEAR**",
+      "options": [
+        "tolerate",
+        "reject",
+        "change",
+        "endure"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "reject",
+      "hindiMeaning": "सहन करना, झेलना, वहन करना",
+      "explanation": "**'Bear'** का अर्थ है: **सहन करना, झेलना, वहन करना**\n• सही Antonym (विलोम): **'reject'**\n• इसके Synonyms हैं: endure, tolerate, withstand"
+    },
+    {
+      "id": "rev_set03_ant_057",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "beautiful",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BEAUTIFUL**",
+      "options": [
+        "complex",
+        "attractive",
+        "ugly",
+        "lovely"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "ugly",
+      "hindiMeaning": "सुंदर, खूबसूरत",
+      "explanation": "**'Beautiful'** का अर्थ है: **सुंदर, खूबसूरत**\n• सही Antonym (विलोम): **'ugly'**\n• इसके Synonyms हैं: attractive, lovely, gorgeous"
+    },
+    {
+      "id": "rev_set03_ant_058",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "beckon",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BECKON**",
+      "options": [
+        "dauntless",
+        "repel",
+        "summon",
+        "signal"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "repel",
+      "hindiMeaning": "इशारे से बुलाना, संकेत करना",
+      "explanation": "**'Beckon'** का अर्थ है: **इशारे से बुलाना, संकेत करना**\n• सही Antonym (विलोम): **'repel'**\n• इसके Synonyms हैं: signal, summon, gesture"
+    },
+    {
+      "id": "rev_set03_ant_059",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "behavior",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BEHAVIOR**",
+      "options": [
+        "conduct",
+        "ceremonial",
+        "manners",
+        "misbehavior"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "misbehavior",
+      "hindiMeaning": "व्यवहार, आचरण, बर्ताव",
+      "explanation": "**'Behavior'** का अर्थ है: **व्यवहार, आचरण, बर्ताव**\n• सही Antonym (विलोम): **'misbehavior'**\n• इसके Synonyms हैं: conduct, manners, demeanor"
+    },
+    {
+      "id": "rev_set03_ant_060",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "belief",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BELIEF**",
+      "options": [
+        "faith",
+        "beautiful",
+        "disbelief",
+        "trust"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "disbelief",
+      "hindiMeaning": "विश्वास, धारणा",
+      "explanation": "**'Belief'** का अर्थ है: **विश्वास, धारणा**\n• सही Antonym (विलोम): **'disbelief'**\n• इसके Synonyms हैं: faith, trust, conviction"
+    },
+    {
+      "id": "rev_set03_ant_061",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "bliss",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BLISS**",
+      "options": [
+        "happiness",
+        "misery",
+        "joy",
+        "crude"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "misery",
+      "hindiMeaning": "परम आनंद, अपार सुख",
+      "explanation": "**'Bliss'** का अर्थ है: **परम आनंद, अपार सुख**\n• सही Antonym (विलोम): **'misery'**\n• इसके Synonyms हैं: happiness, joy, delight"
+    },
+    {
+      "id": "rev_set03_ant_062",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "benefit",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BENEFIT**",
+      "options": [
+        "gain",
+        "harm",
+        "curtail",
+        "advantage"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "harm",
+      "hindiMeaning": "लाभ, फायदा, लाभ पहुँचाना",
+      "explanation": "**'Benefit'** का अर्थ है: **लाभ, फायदा, लाभ पहुँचाना**\n• सही Antonym (विलोम): **'harm'**\n• इसके Synonyms हैं: advantage, gain, profit"
+    },
+    {
+      "id": "rev_set03_ant_063",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "build",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**BUILD**",
+      "options": [
+        "destroy",
+        "construct",
+        "beautiful",
+        "erect"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "destroy",
+      "hindiMeaning": "बनाना, निर्माण करना",
+      "explanation": "**'Build'** का अर्थ है: **बनाना, निर्माण करना**\n• सही Antonym (विलोम): **'destroy'**\n• इसके Synonyms हैं: construct, erect, make"
+    },
+    {
+      "id": "rev_set03_ant_064",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cancel",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CANCEL**",
+      "options": [
+        "call off",
+        "annul",
+        "confirm",
+        "cruel"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "confirm",
+      "hindiMeaning": "रद्द करना, निरस्त करना",
+      "explanation": "**'Cancel'** का अर्थ है: **रद्द करना, निरस्त करना**\n• सही Antonym (विलोम): **'confirm'**\n• इसके Synonyms हैं: call off, annul, revoke"
+    },
+    {
+      "id": "rev_set03_ant_065",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "candid",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CANDID**",
+      "options": [
+        "behavior",
+        "honest",
+        "frank",
+        "deceitful"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "deceitful",
+      "hindiMeaning": "स्पष्टवादी, निष्कपट, ईमानदार",
+      "explanation": "**'Candid'** का अर्थ है: **स्पष्टवादी, निष्कपट, ईमानदार**\n• सही Antonym (विलोम): **'deceitful'**\n• इसके Synonyms हैं: frank, honest, forthright"
+    },
+    {
+      "id": "rev_set03_ant_066",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cantankerous",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CANTANKEROUS**",
+      "options": [
+        "quarrelsome",
+        "affable",
+        "argumentative",
+        "convict"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "affable",
+      "hindiMeaning": "झगड़ालू, चिड़चिड़ा",
+      "explanation": "**'Cantankerous'** का अर्थ है: **झगड़ालू, चिड़चिड़ा**\n• सही Antonym (विलोम): **'affable'**\n• इसके Synonyms हैं: quarrelsome, argumentative, irritable"
+    },
+    {
+      "id": "rev_set03_ant_067",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "casual",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CASUAL**",
+      "options": [
+        "relaxed",
+        "formal",
+        "informal",
+        "behavior"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "formal",
+      "hindiMeaning": "अनौपचारिक, सहज, कभी-कभी, आकस्मिक",
+      "explanation": "**'Casual'** का अर्थ है: **अनौपचारिक, सहज, कभी-कभी, आकस्मिक**\n• सही Antonym (विलोम): **'formal'**\n• इसके Synonyms हैं: informal, relaxed, unconcerned"
+    },
+    {
+      "id": "rev_set03_ant_068",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cease",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CEASE**",
+      "options": [
+        "stop",
+        "commence",
+        "dead",
+        "end"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "commence",
+      "hindiMeaning": "रुकना, बंद करना, समाप्त होना",
+      "explanation": "**'Cease'** का अर्थ है: **रुकना, बंद करना, समाप्त होना**\n• सही Antonym (विलोम): **'commence'**\n• इसके Synonyms हैं: stop, end, halt"
+    },
+    {
+      "id": "rev_set03_ant_069",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "ceremonial",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CEREMONIAL**",
+      "options": [
+        "informal",
+        "ritual",
+        "battle",
+        "formal"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "informal",
+      "hindiMeaning": "समारोह-संबंधी, औपचारिक",
+      "explanation": "**'Ceremonial'** का अर्थ है: **समारोह-संबंधी, औपचारिक**\n• सही Antonym (विलोम): **'informal'**\n• इसके Synonyms हैं: formal, ritual, official"
+    },
+    {
+      "id": "rev_set03_ant_070",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "change",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CHANGE**",
+      "options": [
+        "alter",
+        "modify",
+        "contradict",
+        "remain"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "remain",
+      "hindiMeaning": "बदलना, परिवर्तन",
+      "explanation": "**'Change'** का अर्थ है: **बदलना, परिवर्तन**\n• सही Antonym (विलोम): **'remain'**\n• इसके Synonyms हैं: alter, modify, amend"
+    },
+    {
+      "id": "rev_set03_ant_071",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "clumsy",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CLUMSY**",
+      "options": [
+        "curtail",
+        "ungainly",
+        "graceful",
+        "awkward"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "graceful",
+      "hindiMeaning": "भद्दा, बेढंगा, अनाड़ी",
+      "explanation": "**'Clumsy'** का अर्थ है: **भद्दा, बेढंगा, अनाड़ी**\n• सही Antonym (विलोम): **'graceful'**\n• इसके Synonyms हैं: awkward, ungainly, inept"
+    },
+    {
+      "id": "rev_set03_ant_072",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "colossal",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COLOSSAL**",
+      "options": [
+        "gigantic",
+        "tiny",
+        "dauntless",
+        "huge"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "tiny",
+      "hindiMeaning": "विशाल, बहुत बड़ा",
+      "explanation": "**'Colossal'** का अर्थ है: **विशाल, बहुत बड़ा**\n• सही Antonym (विलोम): **'tiny'**\n• इसके Synonyms हैं: gigantic, huge, enormous"
+    },
+    {
+      "id": "rev_set03_ant_073",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "command",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COMMAND**",
+      "options": [
+        "order",
+        "obey",
+        "beckon",
+        "direct"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "obey",
+      "hindiMeaning": "आदेश देना, नियंत्रण, अधिकार",
+      "explanation": "**'Command'** का अर्थ है: **आदेश देना, नियंत्रण, अधिकार**\n• सही Antonym (विलोम): **'obey'**\n• इसके Synonyms हैं: order, direct, instruct"
+    },
+    {
+      "id": "rev_set03_ant_074",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "compassion",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COMPASSION**",
+      "options": [
+        "sympathy",
+        "contradict",
+        "cruelty",
+        "empathy"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "cruelty",
+      "hindiMeaning": "करुणा, सहानुभूति",
+      "explanation": "**'Compassion'** का अर्थ है: **करुणा, सहानुभूति**\n• सही Antonym (विलोम): **'cruelty'**\n• इसके Synonyms हैं: sympathy, empathy, kindness"
+    },
+    {
+      "id": "rev_set03_ant_075",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "complex",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COMPLEX**",
+      "options": [
+        "intricate",
+        "fortify",
+        "complicated",
+        "simple"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "simple",
+      "hindiMeaning": "जटिल, पेचीदा",
+      "explanation": "**'Complex'** का अर्थ है: **जटिल, पेचीदा**\n• सही Antonym (विलोम): **'simple'**\n• इसके Synonyms हैं: complicated, intricate, involved"
+    },
+    {
+      "id": "rev_set03_ant_076",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "complimentary",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COMPLIMENTARY**",
+      "options": [
+        "praising",
+        "credible",
+        "critical",
+        "laudatory"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "critical",
+      "hindiMeaning": "प्रशंसात्मक, निःशुल्क",
+      "explanation": "**'Complimentary'** का अर्थ है: **प्रशंसात्मक, निःशुल्क**\n• सही Antonym (विलोम): **'critical'**\n• इसके Synonyms हैं: praising, laudatory, appreciative"
+    },
+    {
+      "id": "rev_set03_ant_077",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "composed",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**COMPOSED**",
+      "options": [
+        "agitated",
+        "calm",
+        "fortify",
+        "collected"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "agitated",
+      "hindiMeaning": "शांतचित्त, संयमित",
+      "explanation": "**'Composed'** का अर्थ है: **शांतचित्त, संयमित**\n• सही Antonym (विलोम): **'agitated'**\n• इसके Synonyms हैं: calm, collected, poised"
+    },
+    {
+      "id": "rev_set03_ant_078",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "concern",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONCERN**",
+      "options": [
+        "conduct",
+        "worry",
+        "anxiety",
+        "indifference"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "indifference",
+      "hindiMeaning": "चिंता, सरोकार, संबंधित होना",
+      "explanation": "**'Concern'** का अर्थ है: **चिंता, सरोकार, संबंधित होना**\n• सही Antonym (विलोम): **'indifference'**\n• इसके Synonyms हैं: worry, anxiety, apprehension"
+    },
+    {
+      "id": "rev_set03_ant_079",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "concise",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONCISE**",
+      "options": [
+        "cancel",
+        "brief",
+        "wordy",
+        "succinct"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "wordy",
+      "hindiMeaning": "संक्षिप्त, सारगर्भित",
+      "explanation": "**'Concise'** का अर्थ है: **संक्षिप्त, सारगर्भित**\n• सही Antonym (विलोम): **'wordy'**\n• इसके Synonyms हैं: brief, succinct, terse"
+    },
+    {
+      "id": "rev_set03_ant_080",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "conduct",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONDUCT**",
+      "options": [
+        "curtail",
+        "demeanor",
+        "behavior",
+        "misconduct"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "misconduct",
+      "hindiMeaning": "आचरण, व्यवहार, संचालन करना",
+      "explanation": "**'Conduct'** का अर्थ है: **आचरण, व्यवहार, संचालन करना**\n• सही Antonym (विलोम): **'misconduct'**\n• इसके Synonyms हैं: behavior, demeanor, deportment"
+    },
+    {
+      "id": "rev_set03_ant_081",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "confession",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONFESSION**",
+      "options": [
+        "admission",
+        "denial",
+        "acknowledgment",
+        "contribute"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "denial",
+      "hindiMeaning": "स्वीकारोक्ति, अपराध स्वीकार करना",
+      "explanation": "**'Confession'** का अर्थ है: **स्वीकारोक्ति, अपराध स्वीकार करना**\n• सही Antonym (विलोम): **'denial'**\n• इसके Synonyms हैं: admission, acknowledgment, avowal"
+    },
+    {
+      "id": "rev_set03_ant_082",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "conflict",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONFLICT**",
+      "options": [
+        "agreement",
+        "dispute",
+        "clash",
+        "contemptuous"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "agreement",
+      "hindiMeaning": "संघर्ष, टकराव, विरोध",
+      "explanation": "**'Conflict'** का अर्थ है: **संघर्ष, टकराव, विरोध**\n• सही Antonym (विलोम): **'agreement'**\n• इसके Synonyms हैं: clash, dispute, strife"
+    },
+    {
+      "id": "rev_set03_ant_083",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "conquer",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONQUER**",
+      "options": [
+        "defeat",
+        "candid",
+        "overcome",
+        "surrender"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "surrender",
+      "hindiMeaning": "जीतना, विजय प्राप्त करना, वश में करना",
+      "explanation": "**'Conquer'** का अर्थ है: **जीतना, विजय प्राप्त करना, वश में करना**\n• सही Antonym (विलोम): **'surrender'**\n• इसके Synonyms हैं: defeat, overcome, vanquish"
+    },
+    {
+      "id": "rev_set03_ant_084",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "conspiracy",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONSPIRACY**",
+      "options": [
+        "plot",
+        "loyalty",
+        "scheme",
+        "contemptuous"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "loyalty",
+      "hindiMeaning": "साज़िश, षड्यंत्र",
+      "explanation": "**'Conspiracy'** का अर्थ है: **साज़िश, षड्यंत्र**\n• सही Antonym (विलोम): **'loyalty'**\n• इसके Synonyms हैं: plot, scheme, intrigue"
+    },
+    {
+      "id": "rev_set03_ant_085",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "contain",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONTAIN**",
+      "options": [
+        "include",
+        "conquer",
+        "exclude",
+        "hold"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "exclude",
+      "hindiMeaning": "समाहित करना, अपने भीतर रखना, नियंत्रित करना",
+      "explanation": "**'Contain'** का अर्थ है: **समाहित करना, अपने भीतर रखना, नियंत्रित करना**\n• सही Antonym (विलोम): **'exclude'**\n• इसके Synonyms हैं: hold, include, comprise"
+    },
+    {
+      "id": "rev_set03_ant_086",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "contemptuous",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONTEMPTUOUS**",
+      "options": [
+        "respectful",
+        "scornful",
+        "disdainful",
+        "clumsy"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "respectful",
+      "hindiMeaning": "तिरस्कारपूर्ण, अवमाननापूर्ण",
+      "explanation": "**'Contemptuous'** का अर्थ है: **तिरस्कारपूर्ण, अवमाननापूर्ण**\n• सही Antonym (विलोम): **'respectful'**\n• इसके Synonyms हैं: scornful, disdainful, derisive"
+    },
+    {
+      "id": "rev_set03_ant_087",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "contradict",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONTRADICT**",
+      "options": [
+        "beckon",
+        "confirm",
+        "confute",
+        "refute"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "confirm",
+      "hindiMeaning": "खंडन करना, विरोधाभास करना",
+      "explanation": "**'Contradict'** का अर्थ है: **खंडन करना, विरोधाभास करना**\n• सही Antonym (विलोम): **'confirm'**\n• इसके Synonyms हैं: refute, confute, rebut"
+    },
+    {
+      "id": "rev_set03_ant_088",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "contribute",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONTRIBUTE**",
+      "options": [
+        "withhold",
+        "cruel",
+        "donate",
+        "give"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "withhold",
+      "hindiMeaning": "योगदान देना, अंशदान करना",
+      "explanation": "**'Contribute'** का अर्थ है: **योगदान देना, अंशदान करना**\n• सही Antonym (विलोम): **'withhold'**\n• इसके Synonyms हैं: donate, give, provide"
+    },
+    {
+      "id": "rev_set03_ant_089",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "convict",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CONVICT**",
+      "options": [
+        "clumsy",
+        "offender",
+        "lawbreaker",
+        "acquit"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "acquit",
+      "hindiMeaning": "दोषसिद्ध अपराधी, दोषी ठहराना",
+      "explanation": "**'Convict'** का अर्थ है: **दोषसिद्ध अपराधी, दोषी ठहराना**\n• सही Antonym (विलोम): **'acquit'**\n• इसके Synonyms हैं: offender, lawbreaker, criminal"
+    },
+    {
+      "id": "rev_set03_ant_090",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cordial",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CORDIAL**",
+      "options": [
+        "hostile",
+        "friendly",
+        "curtail",
+        "warm"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "hostile",
+      "hindiMeaning": "हार्दिक, मित्रवत, सौहार्दपूर्ण",
+      "explanation": "**'Cordial'** का अर्थ है: **हार्दिक, मित्रवत, सौहार्दपूर्ण**\n• सही Antonym (विलोम): **'hostile'**\n• इसके Synonyms हैं: warm, friendly, genial"
+    },
+    {
+      "id": "rev_set03_ant_091",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "credible",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CREDIBLE**",
+      "options": [
+        "believable",
+        "concise",
+        "trustworthy",
+        "incredible"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "incredible",
+      "hindiMeaning": "विश्वसनीय, भरोसेमंद",
+      "explanation": "**'Credible'** का अर्थ है: **विश्वसनीय, भरोसेमंद**\n• सही Antonym (विलोम): **'incredible'**\n• इसके Synonyms हैं: believable, trustworthy, reliable"
+    },
+    {
+      "id": "rev_set03_ant_092",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "crude",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CRUDE**",
+      "options": [
+        "unrefined",
+        "refined",
+        "complimentary",
+        "raw"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "refined",
+      "hindiMeaning": "कच्चा, अपरिष्कृत, असभ्य",
+      "explanation": "**'Crude'** का अर्थ है: **कच्चा, अपरिष्कृत, असभ्य**\n• सही Antonym (विलोम): **'refined'**\n• इसके Synonyms हैं: unrefined, raw, rough"
+    },
+    {
+      "id": "rev_set03_ant_093",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cruel",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CRUEL**",
+      "options": [
+        "kind",
+        "brutal",
+        "heartless",
+        "concern"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "kind",
+      "hindiMeaning": "क्रूर, निर्दयी",
+      "explanation": "**'Cruel'** का अर्थ है: **क्रूर, निर्दयी**\n• सही Antonym (विलोम): **'kind'**\n• इसके Synonyms हैं: brutal, heartless, merciless"
+    },
+    {
+      "id": "rev_set03_ant_094",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "cunning",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CUNNING**",
+      "options": [
+        "naive",
+        "sly",
+        "complimentary",
+        "crafty"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "naive",
+      "hindiMeaning": "धूर्त, चालाक, धूर्तता",
+      "explanation": "**'Cunning'** का अर्थ है: **धूर्त, चालाक, धूर्तता**\n• सही Antonym (विलोम): **'naive'**\n• इसके Synonyms हैं: crafty, sly, artful"
+    },
+    {
+      "id": "rev_set03_ant_095",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "curtail",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**CURTAIL**",
+      "options": [
+        "diminish",
+        "reduce",
+        "concern",
+        "extend"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "extend",
+      "hindiMeaning": "कम करना, सीमित करना",
+      "explanation": "**'Curtail'** का अर्थ है: **कम करना, सीमित करना**\n• सही Antonym (विलोम): **'extend'**\n• इसके Synonyms हैं: reduce, diminish, lessen"
+    },
+    {
+      "id": "rev_set03_ant_096",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "dauntless",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DAUNTLESS**",
+      "options": [
+        "fearless",
+        "bold",
+        "fearful",
+        "benefit"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "fearful",
+      "hindiMeaning": "निर्भीक, साहसी",
+      "explanation": "**'Dauntless'** का अर्थ है: **निर्भीक, साहसी**\n• सही Antonym (विलोम): **'fearful'**\n• इसके Synonyms हैं: fearless, bold, brave"
+    },
+    {
+      "id": "rev_set03_ant_097",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "dead",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DEAD**",
+      "options": [
+        "casual",
+        "alive",
+        "lifeless",
+        "deceased"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "alive",
+      "hindiMeaning": "मृत, निर्जीव",
+      "explanation": "**'Dead'** का अर्थ है: **मृत, निर्जीव**\n• सही Antonym (विलोम): **'alive'**\n• इसके Synonyms हैं: lifeless, deceased, defunct"
+    },
+    {
+      "id": "rev_set03_ant_098",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "deadly",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DEADLY**",
+      "options": [
+        "cancel",
+        "lethal",
+        "harmless",
+        "fatal"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "harmless",
+      "hindiMeaning": "घातक, जानलेवा",
+      "explanation": "**'Deadly'** का अर्थ है: **घातक, जानलेवा**\n• सही Antonym (विलोम): **'harmless'**\n• इसके Synonyms हैं: lethal, fatal, mortal"
+    },
+    {
+      "id": "rev_set03_ant_099",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "dear",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DEAR**",
+      "options": [
+        "cherished",
+        "beloved",
+        "hated",
+        "cease"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "hated",
+      "hindiMeaning": "प्रिय, महँगा",
+      "explanation": "**'Dear'** का अर्थ है: **प्रिय, महँगा**\n• सही Antonym (विलोम): **'hated'**\n• इसके Synonyms हैं: beloved, cherished, treasured"
+    },
+    {
+      "id": "rev_set03_ant_100",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "decide",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DECIDE**",
+      "options": [
+        "hesitate",
+        "resolve",
+        "determine",
+        "contribute"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "hesitate",
+      "hindiMeaning": "निर्णय लेना, तय करना",
+      "explanation": "**'Decide'** का अर्थ है: **निर्णय लेना, तय करना**\n• सही Antonym (विलोम): **'hesitate'**\n• इसके Synonyms हैं: determine, resolve, settle"
+    },
+    {
+      "id": "rev_set03_ant_101",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "differ",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**DIFFER**",
+      "options": [
+        "agree",
+        "vary",
+        "diverge",
+        "convict"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "agree",
+      "hindiMeaning": "भिन्न होना, असहमत होना",
+      "explanation": "**'Differ'** का अर्थ है: **भिन्न होना, असहमत होना**\n• सही Antonym (विलोम): **'agree'**\n• इसके Synonyms हैं: vary, diverge, disagree"
+    },
+    {
+      "id": "rev_set03_ant_102",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "fortify",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**FORTIFY**",
+      "options": [
+        "reinforce",
+        "dauntless",
+        "strengthen",
+        "weaken"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "weaken",
+      "hindiMeaning": "मज़बूत करना, किलेबंदी करना",
+      "explanation": "**'Fortify'** का अर्थ है: **मज़बूत करना, किलेबंदी करना**\n• सही Antonym (विलोम): **'weaken'**\n• इसके Synonyms हैं: strengthen, reinforce, secure"
+    },
+    {
+      "id": "rev_set03_ant_103",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "fortuitous",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**FORTUITOUS**",
+      "options": [
+        "chance",
+        "deliberate",
+        "accidental",
+        "deadly"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "deliberate",
+      "hindiMeaning": "संयोगवश हुआ, अक्सर सौभाग्यपूर्ण",
+      "explanation": "**'Fortuitous'** का अर्थ है: **संयोगवश हुआ, अक्सर सौभाग्यपूर्ण**\n• सही Antonym (विलोम): **'deliberate'**\n• इसके Synonyms हैं: chance, accidental, coincidental"
+    },
+    {
+      "id": "rev_set03_ant_104",
+      "type": "antonym",
+      "setNumber": 3,
+      "targetWord": "original",
+      "question": "Select the most appropriate ANTONYM of the given word:\n\n**ORIGINAL**",
+      "options": [
+        "dear",
+        "initial",
+        "imitation",
+        "first"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "imitation",
+      "hindiMeaning": "मूल, मौलिक, असली",
+      "explanation": "**'Original'** का अर्थ है: **मूल, मौलिक, असली**\n• सही Antonym (विलोम): **'imitation'**\n• इसके Synonyms हैं: initial, first, primary"
+    },
+    {
+      "id": "rev_set03_ctx_105",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "barren",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The farmers abandoned the __________ land.\"",
+      "options": [
+        "barren",
+        "command",
+        "candid",
+        "credible"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "barren",
+      "hindiMeaning": "अनुपजाऊ, बाँझ, वीरान",
+      "explanation": "सही उत्तर: **'barren'**\nवाक्य का हिंदी अनुवाद: किसानों ने अनुपजाऊ भूमि छोड़ दी।\nअर्थ: **barren** = अनुपजाऊ, बाँझ, वीरान"
+    },
+    {
+      "id": "rev_set03_ctx_106",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "battle",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The soldiers fought a fierce __________.\"",
+      "options": [
+        "battle",
+        "clumsy",
+        "ceremonial",
+        "deadly"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "battle",
+      "hindiMeaning": "युद्ध, लड़ाई, संघर्ष करना",
+      "explanation": "सही उत्तर: **'battle'**\nवाक्य का हिंदी अनुवाद: सैनिकों ने भीषण युद्ध लड़ा।\nअर्थ: **battle** = युद्ध, लड़ाई, संघर्ष करना"
+    },
+    {
+      "id": "rev_set03_ctx_107",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "beautiful",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The valley looked __________ after the rain.\"",
+      "options": [
+        "crude",
+        "cordial",
+        "contribute",
+        "beautiful"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "beautiful",
+      "hindiMeaning": "सुंदर, खूबसूरत",
+      "explanation": "सही उत्तर: **'beautiful'**\nवाक्य का हिंदी अनुवाद: बारिश के बाद घाटी सुंदर लग रही थी।\nअर्थ: **beautiful** = सुंदर, खूबसूरत"
+    },
+    {
+      "id": "rev_set03_ctx_108",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "behavior",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"His __________ during the meeting was professional.\"",
+      "options": [
+        "convict",
+        "contradict",
+        "casual",
+        "behavior"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "behavior",
+      "hindiMeaning": "व्यवहार, आचरण, बर्ताव",
+      "explanation": "सही उत्तर: **'behavior'**\nवाक्य का हिंदी अनुवाद: बैठक के दौरान उसका व्यवहार पेशेवर था।\nअर्थ: **behavior** = व्यवहार, आचरण, बर्ताव"
+    },
+    {
+      "id": "rev_set03_ctx_109",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "bliss",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"They spent the evening in domestic __________.\"",
+      "options": [
+        "belief",
+        "contradict",
+        "bliss",
+        "deadly"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "bliss",
+      "hindiMeaning": "परम आनंद, अपार सुख",
+      "explanation": "सही उत्तर: **'bliss'**\nवाक्य का हिंदी अनुवाद: उन्होंने शाम पारिवारिक आनंद में बिताई।\nअर्थ: **bliss** = परम आनंद, अपार सुख"
+    },
+    {
+      "id": "rev_set03_ctx_110",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "build",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"They plan to __________ a new library.\"",
+      "options": [
+        "ceremonial",
+        "beckon",
+        "crude",
+        "build"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "build",
+      "hindiMeaning": "बनाना, निर्माण करना",
+      "explanation": "सही उत्तर: **'build'**\nवाक्य का हिंदी अनुवाद: वे एक नया पुस्तकालय बनाने की योजना बना रहे हैं।\nअर्थ: **build** = बनाना, निर्माण करना"
+    },
+    {
+      "id": "rev_set03_ctx_111",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "candid",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Please give me your __________ opinion.\"",
+      "options": [
+        "cruel",
+        "candid",
+        "belief",
+        "conflict"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "candid",
+      "hindiMeaning": "स्पष्टवादी, निष्कपट, ईमानदार",
+      "explanation": "सही उत्तर: **'candid'**\nवाक्य का हिंदी अनुवाद: कृपया मुझे अपनी स्पष्टवादी राय दें।\nअर्थ: **candid** = स्पष्टवादी, निष्कपट, ईमानदार"
+    },
+    {
+      "id": "rev_set03_ctx_112",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "casual",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The office allows __________ clothes on Fridays.\"",
+      "options": [
+        "build",
+        "conspiracy",
+        "candid",
+        "casual"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "casual",
+      "hindiMeaning": "अनौपचारिक, सहज, कभी-कभी, आकस्मिक",
+      "explanation": "सही उत्तर: **'casual'**\nवाक्य का हिंदी अनुवाद: कार्यालय में शुक्रवार को अनौपचारिक कपड़े पहनने की अनुमति है।\nअर्थ: **casual** = अनौपचारिक, सहज, कभी-कभी, आकस्मिक"
+    },
+    {
+      "id": "rev_set03_ctx_113",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "ceremonial",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The mayor wore __________ robes.\"",
+      "options": [
+        "credible",
+        "ceremonial",
+        "contradict",
+        "conspiracy"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "ceremonial",
+      "hindiMeaning": "समारोह-संबंधी, औपचारिक",
+      "explanation": "सही उत्तर: **'ceremonial'**\nवाक्य का हिंदी अनुवाद: महापौर ने समारोह के औपचारिक वस्त्र पहने।\nअर्थ: **ceremonial** = समारोह-संबंधी, औपचारिक"
+    },
+    {
+      "id": "rev_set03_ctx_114",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "clumsy",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"His __________ attempt knocked over the glass.\"",
+      "options": [
+        "fortify",
+        "clumsy",
+        "build",
+        "concern"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "clumsy",
+      "hindiMeaning": "भद्दा, बेढंगा, अनाड़ी",
+      "explanation": "सही उत्तर: **'clumsy'**\nवाक्य का हिंदी अनुवाद: उसकी अनाड़ी कोशिश से गिलास गिर गया।\nअर्थ: **clumsy** = भद्दा, बेढंगा, अनाड़ी"
+    },
+    {
+      "id": "rev_set03_ctx_115",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "command",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The officer __________ the troops to advance.\"",
+      "options": [
+        "commanded",
+        "conduct",
+        "cunning",
+        "beckon"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "commanded",
+      "hindiMeaning": "आदेश देना, नियंत्रण, अधिकार",
+      "explanation": "सही उत्तर: **'commanded'**\nवाक्य का हिंदी अनुवाद: अधिकारी ने सैनिकों को आगे बढ़ने का आदेश दिया।\nअर्थ: **command** = आदेश देना, नियंत्रण, अधिकार"
+    },
+    {
+      "id": "rev_set03_ctx_116",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "complex",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The instructions were too __________ for beginners.\"",
+      "options": [
+        "casual",
+        "complex",
+        "colossal",
+        "cantankerous"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "complex",
+      "hindiMeaning": "जटिल, पेचीदा",
+      "explanation": "सही उत्तर: **'complex'**\nवाक्य का हिंदी अनुवाद: निर्देश शुरुआती विद्यार्थियों के लिए बहुत जटिल थे।\nअर्थ: **complex** = जटिल, पेचीदा"
+    },
+    {
+      "id": "rev_set03_ctx_117",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "composed",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Despite the difficult question, she remained __________.\"",
+      "options": [
+        "original",
+        "composed",
+        "complimentary",
+        "contain"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "correctWord": "composed",
+      "hindiMeaning": "शांतचित्त, संयमित",
+      "explanation": "सही उत्तर: **'composed'**\nवाक्य का हिंदी अनुवाद: कठिन प्रश्न के बावजूद वह शांतचित्त रही।\nअर्थ: **composed** = शांतचित्त, संयमित"
+    },
+    {
+      "id": "rev_set03_ctx_118",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "concise",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Write a __________ summary of the chapter.\"",
+      "options": [
+        "concise",
+        "confession",
+        "contradict",
+        "change"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "concise",
+      "hindiMeaning": "संक्षिप्त, सारगर्भित",
+      "explanation": "सही उत्तर: **'concise'**\nवाक्य का हिंदी अनुवाद: अध्याय का संक्षिप्त सार लिखें।\nअर्थ: **concise** = संक्षिप्त, सारगर्भित"
+    },
+    {
+      "id": "rev_set03_ctx_119",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "confession",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"His __________ helped the police solve the case.\"",
+      "options": [
+        "cease",
+        "contain",
+        "confession",
+        "concise"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "confession",
+      "hindiMeaning": "स्वीकारोक्ति, अपराध स्वीकार करना",
+      "explanation": "सही उत्तर: **'confession'**\nवाक्य का हिंदी अनुवाद: उसकी स्वीकारोक्ति से पुलिस को मामला सुलझाने में मदद मिली।\nअर्थ: **confession** = स्वीकारोक्ति, अपराध स्वीकार करना"
+    },
+    {
+      "id": "rev_set03_ctx_120",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "conquer",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"She worked hard to __________ her fear of public speaking.\"",
+      "options": [
+        "concern",
+        "cordial",
+        "conquer",
+        "conflict"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "conquer",
+      "hindiMeaning": "जीतना, विजय प्राप्त करना, वश में करना",
+      "explanation": "सही उत्तर: **'conquer'**\nवाक्य का हिंदी अनुवाद: उसने सार्वजनिक भाषण के डर पर विजय पाने के लिए मेहनत की।\nअर्थ: **conquer** = जीतना, विजय प्राप्त करना, वश में करना"
+    },
+    {
+      "id": "rev_set03_ctx_121",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "contain",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"This bottle can __________ one litre of water.\"",
+      "options": [
+        "ceremonial",
+        "decide",
+        "belief",
+        "contain"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "contain",
+      "hindiMeaning": "समाहित करना, अपने भीतर रखना, नियंत्रित करना",
+      "explanation": "सही उत्तर: **'contain'**\nवाक्य का हिंदी अनुवाद: इस बोतल में एक लीटर पानी आ सकता है।\nअर्थ: **contain** = समाहित करना, अपने भीतर रखना, नियंत्रित करना"
+    },
+    {
+      "id": "rev_set03_ctx_122",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "contradict",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The new evidence __________ his earlier statement.\"",
+      "options": [
+        "original",
+        "barren",
+        "concise",
+        "contradicts"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "contradicts",
+      "hindiMeaning": "खंडन करना, विरोधाभास करना",
+      "explanation": "सही उत्तर: **'contradicts'**\nवाक्य का हिंदी अनुवाद: नया साक्ष्य उसके पहले के बयान का खंडन करता है।\nअर्थ: **contradict** = खंडन करना, विरोधाभास करना"
+    },
+    {
+      "id": "rev_set03_ctx_123",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "convict",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The __________ was transferred to another prison.\"",
+      "options": [
+        "barrier",
+        "barren",
+        "convict",
+        "dauntless"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "convict",
+      "hindiMeaning": "दोषसिद्ध अपराधी, दोषी ठहराना",
+      "explanation": "सही उत्तर: **'convict'**\nवाक्य का हिंदी अनुवाद: दोषसिद्ध अपराधी को दूसरी जेल में भेज दिया गया।\nअर्थ: **convict** = दोषसिद्ध अपराधी, दोषी ठहराना"
+    },
+    {
+      "id": "rev_set03_ctx_124",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "credible",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The journalist relied on __________ sources.\"",
+      "options": [
+        "credible",
+        "change",
+        "cease",
+        "original"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "credible",
+      "hindiMeaning": "विश्वसनीय, भरोसेमंद",
+      "explanation": "सही उत्तर: **'credible'**\nवाक्य का हिंदी अनुवाद: पत्रकार ने विश्वसनीय स्रोतों पर भरोसा किया।\nअर्थ: **credible** = विश्वसनीय, भरोसेमंद"
+    },
+    {
+      "id": "rev_set03_ctx_125",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "cruel",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"It was __________ to abandon the injured dog.\"",
+      "options": [
+        "cruel",
+        "cordial",
+        "contemptuous",
+        "beckon"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "cruel",
+      "hindiMeaning": "क्रूर, निर्दयी",
+      "explanation": "सही उत्तर: **'cruel'**\nवाक्य का हिंदी अनुवाद: घायल कुत्ते को छोड़ देना निर्दयी था।\nअर्थ: **cruel** = क्रूर, निर्दयी"
+    },
+    {
+      "id": "rev_set03_ctx_126",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "curtail",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The school __________ unnecessary expenses.\"",
+      "options": [
+        "conquer",
+        "command",
+        "curtailed",
+        "deadly"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "curtailed",
+      "hindiMeaning": "कम करना, सीमित करना",
+      "explanation": "सही उत्तर: **'curtailed'**\nवाक्य का हिंदी अनुवाद: विद्यालय ने अनावश्यक खर्चों में कटौती की।\nअर्थ: **curtail** = कम करना, सीमित करना"
+    },
+    {
+      "id": "rev_set03_ctx_127",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "dead",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"The plant was __________ after weeks without water.\"",
+      "options": [
+        "fortify",
+        "dauntless",
+        "casual",
+        "dead"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "dead",
+      "hindiMeaning": "मृत, निर्जीव",
+      "explanation": "सही उत्तर: **'dead'**\nवाक्य का हिंदी अनुवाद: कई सप्ताह पानी न मिलने के बाद पौधा मर गया था।\nअर्थ: **dead** = मृत, निर्जीव"
+    },
+    {
+      "id": "rev_set03_ctx_128",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "dear",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"This watch is __________ to me, though it was inexpensive.\"",
+      "options": [
+        "dear",
+        "clumsy",
+        "contribute",
+        "behavior"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "correctWord": "dear",
+      "hindiMeaning": "प्रिय, महँगा",
+      "explanation": "सही उत्तर: **'dear'**\nवाक्य का हिंदी अनुवाद: यह घड़ी मुझे प्रिय है, हालाँकि यह महँगी नहीं थी।\nअर्थ: **dear** = प्रिय, महँगा"
+    },
+    {
+      "id": "rev_set03_ctx_129",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "differ",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"Their opinions __________ on this issue.\"",
+      "options": [
+        "barren",
+        "crude",
+        "differ",
+        "benefit"
+      ],
+      "answer": "C",
+      "answerIndex": 2,
+      "correctWord": "differ",
+      "hindiMeaning": "भिन्न होना, असहमत होना",
+      "explanation": "सही उत्तर: **'differ'**\nवाक्य का हिंदी अनुवाद: इस मुद्दे पर उनकी राय अलग-अलग है।\nअर्थ: **differ** = भिन्न होना, असहमत होना"
+    },
+    {
+      "id": "rev_set03_ctx_130",
+      "type": "context_fill_in",
+      "setNumber": 3,
+      "targetWord": "fortuitous",
+      "question": "Select the most appropriate word to fill in the blank:\n\n\"A __________ meeting led to a useful job offer.\"",
+      "options": [
+        "change",
+        "conflict",
+        "curtail",
+        "fortuitous"
+      ],
+      "answer": "D",
+      "answerIndex": 3,
+      "correctWord": "fortuitous",
+      "hindiMeaning": "संयोगवश हुआ, अक्सर सौभाग्यपूर्ण",
+      "explanation": "सही उत्तर: **'fortuitous'**\nवाक्य का हिंदी अनुवाद: संयोगवश हुई मुलाकात से नौकरी का अच्छा प्रस्ताव मिला।\nअर्थ: **fortuitous** = संयोगवश हुआ, अक्सर सौभाग्यपूर्ण"
+    }
+  ]
+}

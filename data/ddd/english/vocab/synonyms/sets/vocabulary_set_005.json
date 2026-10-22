@@ -1,0 +1,2514 @@
+{
+  "setId": "vocabulary_set_005",
+  "setNumber": 5,
+  "title": "Vocabulary Set 005 — Fortify to Soporific",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 101,
+      "word": "fortify",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "मज़बूत करना",
+        "किलेबंदी करना"
+      ],
+      "englishDefinition": "To strengthen or protect a place, person, or idea.",
+      "pronunciation": {
+        "ipa": "/ˈfɔː.tɪ.faɪ/",
+        "simple": "FOR-ti-fy"
+      },
+      "examples": [
+        {
+          "sentence": "They fortified the old city walls.",
+          "hindiTranslation": "उन्होंने पुराने शहर की दीवारों को मज़बूत किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "strengthen",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मज़बूत करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will strengthen the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मज़बूत करना।"
+            }
+          ]
+        },
+        {
+          "word": "reinforce",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सुदृढ़ करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  reinforce the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को सुदृढ़ करना।"
+            }
+          ]
+        },
+        {
+          "word": "secure",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सुरक्षित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  secure the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को सुरक्षित करना।"
+            }
+          ]
+        },
+        {
+          "word": "bolster",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मज़बूती देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  bolster the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मज़बूती देना।"
+            }
+          ]
+        },
+        {
+          "word": "support",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "समर्थन देना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  support the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को समर्थन देना।"
+            }
+          ]
+        },
+        {
+          "word": "toughen",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मज़बूत बनाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  toughen the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को मज़बूत बनाना।"
+            }
+          ]
+        },
+        {
+          "word": "protect",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "रक्षा करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  protect the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को रक्षा करना।"
+            }
+          ]
+        },
+        {
+          "word": "entrench",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "किलेबंद करना"
+          ],
+          "examples": [
+            {
+              "sentence": "They will  entrench the problem after careful discussion.",
+              "hindiTranslation": "वे चर्चा के बाद समस्या को किलेबंद करना।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "weaken",
+          "hindiMeaning": [
+            "कमजोर करना"
+          ]
+        },
+        {
+          "word": "undermine",
+          "hindiMeaning": [
+            "खोखला करना"
+          ]
+        },
+        {
+          "word": "enfeeble",
+          "hindiMeaning": [
+            "दुर्बल बनाना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 102,
+      "word": "fortuitous",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "संयोगवश हुआ",
+        "अक्सर सौभाग्यपूर्ण"
+      ],
+      "englishDefinition": "Happening by chance, often with a fortunate result.",
+      "pronunciation": {
+        "ipa": "/fɔːˈtjuː.ɪ.təs/",
+        "simple": "for-TOO-i-tuhs"
+      },
+      "examples": [
+        {
+          "sentence": "A fortuitous meeting led to a useful job offer.",
+          "hindiTranslation": "संयोगवश हुई मुलाकात से नौकरी का अच्छा प्रस्ताव मिला।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "chance",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संयोगवश"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably chance.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से chance था।"
+            }
+          ]
+        },
+        {
+          "word": "accidental",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आकस्मिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably accidental.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से accidental था।"
+            }
+          ]
+        },
+        {
+          "word": "coincidental",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "संयोगपूर्ण"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably coincidental.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से coincidental था।"
+            }
+          ]
+        },
+        {
+          "word": "unexpected",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अप्रत्याशित"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unexpected.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unexpected था।"
+            }
+          ]
+        },
+        {
+          "word": "serendipitous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सुखद संयोग से हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably serendipitous.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से serendipitous था।"
+            }
+          ]
+        },
+        {
+          "word": "unplanned",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बिना योजना का"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unplanned.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unplanned था।"
+            }
+          ]
+        },
+        {
+          "word": "random",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "यादृच्छिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably random.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से random था।"
+            }
+          ]
+        },
+        {
+          "word": "lucky",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भाग्यशाली"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably lucky.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से lucky था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "deliberate",
+          "hindiMeaning": [
+            "जानबूझकर किया गया"
+          ]
+        },
+        {
+          "word": "planned",
+          "hindiMeaning": [
+            "नियोजित"
+          ]
+        },
+        {
+          "word": "intentional",
+          "hindiMeaning": [
+            "इरादतन"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 103,
+      "word": "original",
+      "partOfSpeech": [
+        "adjective",
+        "noun"
+      ],
+      "hindiMeaning": [
+        "मूल",
+        "मौलिक",
+        "असली"
+      ],
+      "englishDefinition": "Existing first; not copied; or creative and novel.",
+      "pronunciation": {
+        "ipa": "/əˈrɪdʒ.ən.əl/",
+        "simple": "uh-RIJ-uh-nuhl"
+      },
+      "examples": [
+        {
+          "sentence": "The student presented an original idea.",
+          "hindiTranslation": "विद्यार्थी ने एक मौलिक विचार प्रस्तुत किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "initial",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रारंभिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably initial.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से initial था।"
+            }
+          ]
+        },
+        {
+          "word": "first",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पहला"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably first.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से first था।"
+            }
+          ]
+        },
+        {
+          "word": "primary",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "मूल",
+            "प्राथमिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably primary.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से primary था।"
+            }
+          ]
+        },
+        {
+          "word": "authentic",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "असली",
+            "प्रामाणिक"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably authentic.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से authentic था।"
+            }
+          ]
+        },
+        {
+          "word": "genuine",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "असली"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably genuine.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से genuine था।"
+            }
+          ]
+        },
+        {
+          "word": "novel",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "नया",
+            "नवीन"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably novel.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से novel था।"
+            }
+          ]
+        },
+        {
+          "word": "inventive",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आविष्कारशील"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably inventive.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से inventive था।"
+            }
+          ]
+        },
+        {
+          "word": "innovative",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "नवोन्मेषी"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably innovative.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से innovative था।"
+            }
+          ]
+        },
+        {
+          "word": "unprecedented",
+          "partOfSpeech": [
+            "adjective",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अभूतपूर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "Her approach to solving the problem was remarkably unprecedented.",
+              "hindiTranslation": "समस्या को हल करने का उनका दृष्टिकोण उल्लेखनीय रूप से unprecedented था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "imitation",
+          "hindiMeaning": [
+            "नकल",
+            "नकली"
+          ]
+        },
+        {
+          "word": "derivative",
+          "hindiMeaning": [
+            "उद्धृत",
+            "अप्रासंगिक"
+          ]
+        },
+        {
+          "word": "copy",
+          "hindiMeaning": [
+            "प्रतिलिपि"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 104,
+      "word": "quiescent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्थिर",
+        "निष्क्रिय",
+        "शांत"
+      ],
+      "englishDefinition": "Marked by inactivity or repose; tranquilly at rest.",
+      "pronunciation": {
+        "ipa": "/quiescent/",
+        "simple": "QUIE-scent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably quiescent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्थिर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lethargic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्थिर",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lethargic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lethargic था।"
+            }
+          ]
+        },
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्थिर",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्थिर",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्थिर",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 105,
+      "word": "lethargic",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "सुस्त",
+        "आलसी"
+      ],
+      "englishDefinition": "Of, relating to, or characterized by laziness or lack of energy.",
+      "pronunciation": {
+        "ipa": "/lethargic/",
+        "simple": "LETH-argic"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably lethargic.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सुस्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quiescent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quiescent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quiescent था।"
+            }
+          ]
+        },
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 106,
+      "word": "idle",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बेकार",
+        "निठल्ला"
+      ],
+      "englishDefinition": "Not occupied or employed; having no employment.",
+      "pronunciation": {
+        "ipa": "/idle/",
+        "simple": "IDLE"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably idle.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बेकार थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quiescent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "निठल्ला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quiescent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quiescent था।"
+            }
+          ]
+        },
+        {
+          "word": "lethargic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "निठल्ला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lethargic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lethargic था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "निठल्ला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बेकार",
+            "निठल्ला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 107,
+      "word": "idol",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Idol"
+      ],
+      "englishDefinition": "An image or representation of a god used as an object of worship; a role",
+      "pronunciation": {
+        "ipa": "/idol/",
+        "simple": "IDOL"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of idol in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Idol के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quiescent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Idol"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quiescent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quiescent था।"
+            }
+          ]
+        },
+        {
+          "word": "lethargic",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Idol"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lethargic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lethargic था।"
+            }
+          ]
+        },
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Idol"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Idol"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 108,
+      "word": "ideal",
+      "partOfSpeech": [
+        "n",
+        "adj"
+      ],
+      "hindiMeaning": [
+        "आदर्श",
+        "सिद्धांत",
+        "सर्वोत्तम"
+      ],
+      "englishDefinition": "A standard of perfection or excellence; a principle to be aimed at.",
+      "pronunciation": {
+        "ipa": "/ideal/",
+        "simple": "ID-eal"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably ideal.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से आदर्श थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "quiescent",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आदर्श",
+            "सिद्धांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was quiescent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण quiescent था।"
+            }
+          ]
+        },
+        {
+          "word": "lethargic",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आदर्श",
+            "सिद्धांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lethargic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lethargic था।"
+            }
+          ]
+        },
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आदर्श",
+            "सिद्धांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "आदर्श",
+            "सिद्धांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 109,
+      "word": "inert",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "निष्क्रिय",
+        "अक्रिय"
+      ],
+      "englishDefinition": "Lacking the power to move; chemically inactive.",
+      "pronunciation": {
+        "ipa": "/inert/",
+        "simple": "IN-ert"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably inert.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से निष्क्रिय थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lethargic",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निष्क्रिय",
+            "अक्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lethargic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lethargic था।"
+            }
+          ]
+        },
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निष्क्रिय",
+            "अक्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निष्क्रिय",
+            "अक्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निष्क्रिय",
+            "अक्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 110,
+      "word": "sedentary",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गतिहीन",
+        "बैठे रहने वाला"
+      ],
+      "englishDefinition": "Doing or requiring much sitting; not physically active.",
+      "pronunciation": {
+        "ipa": "/sedentary/",
+        "simple": "SEDE-ntary"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sedentary.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गतिहीन थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "idle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गतिहीन",
+            "बैठे रहने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idle था।"
+            }
+          ]
+        },
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गतिहीन",
+            "बैठे रहने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गतिहीन",
+            "बैठे रहने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        },
+        {
+          "word": "inert",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गतिहीन",
+            "बैठे रहने वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inert था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 111,
+      "word": "sluggish",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "सुस्त",
+        "धीमा"
+      ],
+      "englishDefinition": "Averse to activity or exertion; slow to respond (mnemonic: lag).",
+      "pronunciation": {
+        "ipa": "/sluggish/",
+        "simple": "SLUG-gish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sluggish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सुस्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "idol",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "धीमा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was idol.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण idol था।"
+            }
+          ]
+        },
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "धीमा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        },
+        {
+          "word": "inert",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "धीमा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inert था।"
+            }
+          ]
+        },
+        {
+          "word": "sedentary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्त",
+            "धीमा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedentary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedentary था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 112,
+      "word": "sloth",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "आलस्य",
+        "सुस्ती"
+      ],
+      "englishDefinition": "Disinclination to action or labor; spiritual apathy.",
+      "pronunciation": {
+        "ipa": "/sloth/",
+        "simple": "SL-oth"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sloth in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आलस्य के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ideal",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आलस्य",
+            "सुस्ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ideal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ideal था।"
+            }
+          ]
+        },
+        {
+          "word": "inert",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आलस्य",
+            "सुस्ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inert था।"
+            }
+          ]
+        },
+        {
+          "word": "sedentary",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आलस्य",
+            "सुस्ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedentary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedentary था।"
+            }
+          ]
+        },
+        {
+          "word": "sluggish",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "आलस्य",
+            "सुस्ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sluggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sluggish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 113,
+      "word": "torpid",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Torpid"
+      ],
+      "englishDefinition": "Having lost motion or the power of exertion or feeling (mnemonic:",
+      "pronunciation": {
+        "ipa": "/torpid/",
+        "simple": "TOR-pid"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably torpid.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Torpid थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inert",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Torpid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inert था।"
+            }
+          ]
+        },
+        {
+          "word": "sedentary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Torpid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedentary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedentary था।"
+            }
+          ]
+        },
+        {
+          "word": "sluggish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Torpid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sluggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sluggish था।"
+            }
+          ]
+        },
+        {
+          "word": "sloth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Torpid"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sloth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sloth था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 114,
+      "word": "dormant",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रसुप्त",
+        "निष्क्रिय"
+      ],
+      "englishDefinition": "Asleep; inactive; suspended animation (e.g., volcano, account).",
+      "pronunciation": {
+        "ipa": "/dormant/",
+        "simple": "DOR-mant"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably dormant.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रसुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sedentary",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रसुप्त",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedentary.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedentary था।"
+            }
+          ]
+        },
+        {
+          "word": "sluggish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रसुप्त",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sluggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sluggish था।"
+            }
+          ]
+        },
+        {
+          "word": "sloth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रसुप्त",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sloth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sloth था।"
+            }
+          ]
+        },
+        {
+          "word": "torpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रसुप्त",
+            "निष्क्रिय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torpid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 115,
+      "word": "listless",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "उद सीि",
+        "थका हुआ"
+      ],
+      "englishDefinition": "Characterized by lack of interest, energy, or spirit.",
+      "pronunciation": {
+        "ipa": "/listless/",
+        "simple": "LIST-less"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably listless.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से उद सीि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sluggish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उद सीि",
+            "थका हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sluggish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sluggish था।"
+            }
+          ]
+        },
+        {
+          "word": "sloth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उद सीि",
+            "थका हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sloth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sloth था।"
+            }
+          ]
+        },
+        {
+          "word": "torpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उद सीि",
+            "थका हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torpid था।"
+            }
+          ]
+        },
+        {
+          "word": "dormant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "उद सीि",
+            "थका हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dormant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dormant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 116,
+      "word": "lackadaisical",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "भावुक",
+        "निरुत्साही",
+        "आलसी"
+      ],
+      "englishDefinition": "Lacking life, spirit, or zest.",
+      "pronunciation": {
+        "ipa": "/lackadaisical/",
+        "simple": "LACKAD-aisical"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably lackadaisical.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से भावुक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sloth",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक",
+            "निरुत्साही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sloth.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sloth था।"
+            }
+          ]
+        },
+        {
+          "word": "torpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक",
+            "निरुत्साही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torpid था।"
+            }
+          ]
+        },
+        {
+          "word": "dormant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक",
+            "निरुत्साही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dormant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dormant था।"
+            }
+          ]
+        },
+        {
+          "word": "listless",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक",
+            "निरुत्साही"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was listless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण listless था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 117,
+      "word": "languid",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "सुस्ि",
+        "मंद",
+        "थका हुआ"
+      ],
+      "englishDefinition": "Drooping or flagging from or as if from exhaustion.",
+      "pronunciation": {
+        "ipa": "/languid/",
+        "simple": "LAN-guid"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably languid.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सुस्ि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "torpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्ि",
+            "मंद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was torpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण torpid था।"
+            }
+          ]
+        },
+        {
+          "word": "dormant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्ि",
+            "मंद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dormant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dormant था।"
+            }
+          ]
+        },
+        {
+          "word": "listless",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्ि",
+            "मंद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was listless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण listless था।"
+            }
+          ]
+        },
+        {
+          "word": "lackadaisical",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्ि",
+            "मंद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackadaisical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackadaisical था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 118,
+      "word": "indolent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अकर्मण्य",
+        "आलसी"
+      ],
+      "englishDefinition": "Averse to activity, effort, or movement; habitually lazy.",
+      "pronunciation": {
+        "ipa": "/indolent/",
+        "simple": "INDO-lent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably indolent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अकर्मण्य थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dormant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अकर्मण्य",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was dormant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण dormant था।"
+            }
+          ]
+        },
+        {
+          "word": "listless",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अकर्मण्य",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was listless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण listless था।"
+            }
+          ]
+        },
+        {
+          "word": "lackadaisical",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अकर्मण्य",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackadaisical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackadaisical था।"
+            }
+          ]
+        },
+        {
+          "word": "languid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अकर्मण्य",
+            "आलसी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was languid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण languid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 119,
+      "word": "inertia",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Inertia"
+      ],
+      "englishDefinition": "A property of matter by which it remains at rest or in uniform motion",
+      "pronunciation": {
+        "ipa": "/inertia/",
+        "simple": "INE-rtia"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of inertia in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Inertia के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "listless",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Inertia"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was listless.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण listless था।"
+            }
+          ]
+        },
+        {
+          "word": "lackadaisical",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Inertia"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackadaisical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackadaisical था।"
+            }
+          ]
+        },
+        {
+          "word": "languid",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Inertia"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was languid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण languid था।"
+            }
+          ]
+        },
+        {
+          "word": "indolent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Inertia"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indolent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 120,
+      "word": "slumbering",
+      "partOfSpeech": [
+        "adj",
+        "v"
+      ],
+      "hindiMeaning": [
+        "सोत  हुआ"
+      ],
+      "englishDefinition": "Sleeping; being in a state of negligence or inactivity.",
+      "pronunciation": {
+        "ipa": "/slumbering/",
+        "simple": "SLUMB-ering"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably slumbering.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सोत  हुआ थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lackadaisical",
+          "partOfSpeech": [
+            "adj",
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lackadaisical.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lackadaisical था।"
+            }
+          ]
+        },
+        {
+          "word": "languid",
+          "partOfSpeech": [
+            "adj",
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was languid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण languid था।"
+            }
+          ]
+        },
+        {
+          "word": "indolent",
+          "partOfSpeech": [
+            "adj",
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indolent था।"
+            }
+          ]
+        },
+        {
+          "word": "inertia",
+          "partOfSpeech": [
+            "adj",
+            "v"
+          ],
+          "hindiMeaning": [
+            "सोत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inertia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inertia था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 121,
+      "word": "passive",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Passive"
+      ],
+      "englishDefinition": "Receiving or subjected to an action without responding or initiating an",
+      "pronunciation": {
+        "ipa": "/passive/",
+        "simple": "PAS-sive"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably passive.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Passive थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "languid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Passive"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was languid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण languid था।"
+            }
+          ]
+        },
+        {
+          "word": "indolent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Passive"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indolent था।"
+            }
+          ]
+        },
+        {
+          "word": "inertia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Passive"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inertia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inertia था।"
+            }
+          ]
+        },
+        {
+          "word": "slumbering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Passive"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slumbering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slumbering था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 122,
+      "word": "comatose",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Comatose"
+      ],
+      "englishDefinition": "Of, resembling, or affecting with coma; characterized by lethargic",
+      "pronunciation": {
+        "ipa": "/comatose/",
+        "simple": "COMA-tose"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably comatose.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Comatose थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "indolent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comatose"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indolent था।"
+            }
+          ]
+        },
+        {
+          "word": "inertia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comatose"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inertia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inertia था।"
+            }
+          ]
+        },
+        {
+          "word": "slumbering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comatose"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slumbering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slumbering था।"
+            }
+          ]
+        },
+        {
+          "word": "passive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comatose"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was passive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण passive था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 123,
+      "word": "supine",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Supine"
+      ],
+      "englishDefinition": "Lying on the back or with the face upward; failing to act (mnemonic:",
+      "pronunciation": {
+        "ipa": "/supine/",
+        "simple": "SUP-ine"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably supine.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Supine थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inertia",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Supine"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inertia.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inertia था।"
+            }
+          ]
+        },
+        {
+          "word": "slumbering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Supine"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slumbering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slumbering था।"
+            }
+          ]
+        },
+        {
+          "word": "passive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Supine"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was passive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण passive था।"
+            }
+          ]
+        },
+        {
+          "word": "comatose",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Supine"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comatose.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comatose था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 124,
+      "word": "somnolent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्िद्र लु",
+        "ऊां घत  हुआ"
+      ],
+      "englishDefinition": "Of a kind likely to induce sleep; inclined to or heavy with sleep.",
+      "pronunciation": {
+        "ipa": "/somnolent/",
+        "simple": "SOMN-olent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably somnolent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्िद्र लु थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "slumbering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िद्र लु",
+            "ऊां घत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was slumbering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण slumbering था।"
+            }
+          ]
+        },
+        {
+          "word": "passive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िद्र लु",
+            "ऊां घत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was passive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण passive था।"
+            }
+          ]
+        },
+        {
+          "word": "comatose",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िद्र लु",
+            "ऊां घत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comatose.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comatose था।"
+            }
+          ]
+        },
+        {
+          "word": "supine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िद्र लु",
+            "ऊां घत  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supine था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 125,
+      "word": "soporific",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "िींद ल िे र्व ल"
+      ],
+      "englishDefinition": "Causing or tending to cause sleep.",
+      "pronunciation": {
+        "ipa": "/soporific/",
+        "simple": "SOPO-rific"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably soporific.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से िींद ल िे र्व ल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "passive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िींद ल िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was passive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण passive था।"
+            }
+          ]
+        },
+        {
+          "word": "comatose",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िींद ल िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comatose.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comatose था।"
+            }
+          ]
+        },
+        {
+          "word": "supine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िींद ल िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supine था।"
+            }
+          ]
+        },
+        {
+          "word": "somnolent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िींद ल िे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was somnolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण somnolent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

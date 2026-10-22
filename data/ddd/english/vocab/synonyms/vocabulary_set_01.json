@@ -1,0 +1,3151 @@
+{
+  "setId": "vocabulary_set_01",
+  "title": "Synonyms Set 01",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1,
+      "word": "abandon",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "छोड़ देना",
+        "त्याग देना"
+      ],
+      "englishDefinition": "To leave someone or something behind, or to give up a plan or activity.",
+      "examples": [
+        {
+          "sentence": "He abandoned his plan to move abroad.",
+          "hindiTranslation": "उसने विदेश जाने की अपनी योजना छोड़ दी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "forsake",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "त्याग देना",
+            "साथ छोड़ देना"
+          ],
+          "examples": [
+            {
+              "sentence": "He refused to forsake his principles.",
+              "hindiTranslation": "उसने अपने सिद्धांतों को त्यागने से इनकार कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "desert",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "छोड़ देना",
+            "साथ छोड़ देना"
+          ],
+          "examples": [
+            {
+              "sentence": "The soldiers did not desert their post.",
+              "hindiTranslation": "सैनिकों ने अपनी चौकी नहीं छोड़ी।"
+            }
+          ]
+        },
+        {
+          "word": "ditch",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "छोड़ देना",
+            "छुटकारा पा लेना"
+          ],
+          "register": "informal",
+          "examples": [
+            {
+              "sentence": "They ditched the old plan and tried a new one.",
+              "hindiTranslation": "उन्होंने पुरानी योजना छोड़कर नई योजना अपनाई।"
+            }
+          ]
+        },
+        {
+          "word": "relinquish",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "त्याग देना",
+            "अधिकार छोड़ देना"
+          ],
+          "examples": [
+            {
+              "sentence": "She refused to relinquish control of the project.",
+              "hindiTranslation": "उसने परियोजना पर अपना नियंत्रण छोड़ने से इनकार कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "dispose of",
+          "partOfSpeech": [
+            "phrasal verb"
+          ],
+          "hindiMeaning": [
+            "निपटारा करना",
+            "हटा देना"
+          ],
+          "usageNote": "Not a general synonym for abandon; use for getting rid of something.",
+          "examples": [
+            {
+              "sentence": "Please dispose of the damaged equipment safely.",
+              "hindiTranslation": "कृपया खराब उपकरण का सुरक्षित तरीके से निपटारा करें।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "keep",
+          "hindiMeaning": [
+            "रखना",
+            "बनाए रखना"
+          ]
+        },
+        {
+          "word": "retain",
+          "hindiMeaning": [
+            "अपने पास रखना",
+            "बनाए रखना"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈbæn.dən/",
+        "simple": "uh-BAN-duhn"
+      }
+    },
+    {
+      "id": 2,
+      "word": "abrogate",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "औपचारिक रूप से समाप्त करना",
+        "कानून या समझौता रद्द करना"
+      ],
+      "englishDefinition": "To formally repeal, annul, or do away with a law, agreement, or obligation.",
+      "examples": [
+        {
+          "sentence": "The legislature voted to abrogate the outdated law.",
+          "hindiTranslation": "विधानमंडल ने पुराने कानून को रद्द करने के पक्ष में मतदान किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "repeal",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कानून रद्द करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Parliament voted to repeal the law.",
+              "hindiTranslation": "संसद ने कानून रद्द करने के लिए मतदान किया।"
+            }
+          ]
+        },
+        {
+          "word": "revoke",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "रद्द करना",
+            "वापस लेना"
+          ],
+          "examples": [
+            {
+              "sentence": "The authority revoked his licence.",
+              "hindiTranslation": "प्राधिकरण ने उसका लाइसेंस रद्द कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "rescind",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "औपचारिक रूप से वापस लेना या रद्द करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The company rescinded its earlier offer.",
+              "hindiTranslation": "कंपनी ने अपना पिछला प्रस्ताव वापस ले लिया।"
+            }
+          ]
+        },
+        {
+          "word": "annul",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अवैध या अमान्य घोषित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The court annulled the agreement.",
+              "hindiTranslation": "अदालत ने समझौते को अमान्य घोषित कर दिया।"
+            }
+          ]
+        },
+        {
+          "word": "eliminate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "हटा देना",
+            "समाप्त करना"
+          ],
+          "usageNote": "Broader in meaning; not always interchangeable with abrogate.",
+          "examples": [
+            {
+              "sentence": "The new process eliminated unnecessary steps.",
+              "hindiTranslation": "नई प्रक्रिया ने अनावश्यक चरण हटा दिए।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "enact",
+          "hindiMeaning": [
+            "कानून बनाना",
+            "लागू करना"
+          ]
+        },
+        {
+          "word": "establish",
+          "hindiMeaning": [
+            "स्थापित करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "abrogation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "औपचारिक निरस्तीकरण"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæb.rə.ɡeɪt/",
+        "simple": "AB-ruh-gayt"
+      }
+    },
+    {
+      "id": 3,
+      "word": "abundant",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "प्रचुर",
+        "भरपूर",
+        "बहुत अधिक मात्रा में"
+      ],
+      "englishDefinition": "Existing or available in large quantities.",
+      "examples": [
+        {
+          "sentence": "The region has abundant natural resources.",
+          "hindiTranslation": "इस क्षेत्र में प्राकृतिक संसाधन प्रचुर मात्रा में हैं।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "plentiful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भरपूर",
+            "प्रचुर"
+          ],
+          "examples": [
+            {
+              "sentence": "Fresh water is plentiful after the monsoon.",
+              "hindiTranslation": "मानसून के बाद ताजा पानी भरपूर होता है।"
+            }
+          ]
+        },
+        {
+          "word": "copious",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बहुत अधिक मात्रा में"
+          ],
+          "examples": [
+            {
+              "sentence": "She took copious notes during the lecture.",
+              "hindiTranslation": "उसने व्याख्यान के दौरान बहुत विस्तृत नोट्स बनाए।"
+            }
+          ]
+        },
+        {
+          "word": "profuse",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "बहुतायत में"
+          ],
+          "examples": [
+            {
+              "sentence": "The host offered profuse thanks to the guests.",
+              "hindiTranslation": "मेजबान ने मेहमानों को भरपूर धन्यवाद दिया।"
+            }
+          ]
+        },
+        {
+          "word": "ample",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "पर्याप्त से अधिक",
+            "भरपूर"
+          ],
+          "examples": [
+            {
+              "sentence": "We have ample time to finish the task.",
+              "hindiTranslation": "कार्य पूरा करने के लिए हमारे पास पर्याप्त से अधिक समय है।"
+            }
+          ]
+        },
+        {
+          "word": "rich",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "समृद्ध",
+            "प्रचुर"
+          ],
+          "usageNote": "Works in contexts such as rich in minerals or rich in detail.",
+          "examples": [
+            {
+              "sentence": "The soil is rich in minerals.",
+              "hindiTranslation": "मिट्टी खनिजों से समृद्ध है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "scarce",
+          "hindiMeaning": [
+            "दुर्लभ",
+            "कम उपलब्ध"
+          ]
+        },
+        {
+          "word": "sparse",
+          "hindiMeaning": [
+            "विरल",
+            "कम घना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "abundance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रचुरता"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈbʌn.dənt/",
+        "simple": "uh-BUN-duhnt"
+      }
+    },
+    {
+      "id": 4,
+      "word": "abduct",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "अपहरण करना",
+        "बलपूर्वक ले जाना"
+      ],
+      "englishDefinition": "To take someone away illegally and usually by force.",
+      "examples": [
+        {
+          "sentence": "The child was abducted from outside the school.",
+          "hindiTranslation": "बच्चे का स्कूल के बाहर से अपहरण कर लिया गया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "kidnap",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अपहरण करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The gang planned to kidnap the businessman.",
+              "hindiTranslation": "गिरोह ने व्यवसायी का अपहरण करने की योजना बनाई।"
+            }
+          ]
+        },
+        {
+          "word": "carry off",
+          "partOfSpeech": [
+            "phrasal verb"
+          ],
+          "hindiMeaning": [
+            "उठाकर या बलपूर्वक ले जाना"
+          ],
+          "usageNote": "Context matters; this phrase has other meanings too.",
+          "examples": [
+            {
+              "sentence": "The attackers carried off the captive.",
+              "hindiTranslation": "हमलावर बंदी को उठाकर ले गए।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [
+        {
+          "word": "abduction",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अपहरण"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/æbˈdʌkt/",
+        "simple": "ab-DUKT"
+      }
+    },
+    {
+      "id": 5,
+      "word": "abide",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "रहना",
+        "पालन करना",
+        "सहन करना"
+      ],
+      "englishDefinition": "To remain in a place; to accept or act according to a rule; or, in the phrase cannot abide, to tolerate.",
+      "examples": [
+        {
+          "sentence": "All students must abide by the rules.",
+          "hindiTranslation": "सभी विद्यार्थियों को नियमों का पालन करना चाहिए."
+        },
+        {
+          "sentence": "I cannot abide dishonesty.",
+          "hindiTranslation": "मैं बेईमानी बिल्कुल सहन नहीं कर सकता।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "dwell",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निवास करना",
+            "रहना"
+          ],
+          "usageNote": "A formal or literary word for living in a place.",
+          "examples": [
+            {
+              "sentence": "Few people dwell in this remote valley.",
+              "hindiTranslation": "इस दूरस्थ घाटी में बहुत कम लोग रहते हैं।"
+            }
+          ]
+        },
+        {
+          "word": "reside",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निवास करना"
+          ],
+          "examples": [
+            {
+              "sentence": "She resides in Jaipur.",
+              "hindiTranslation": "वह जयपुर में रहती है।"
+            }
+          ]
+        },
+        {
+          "word": "stay",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "ठहरना",
+            "रुकना"
+          ],
+          "examples": [
+            {
+              "sentence": "We stayed at a small hotel.",
+              "hindiTranslation": "हम एक छोटे होटल में ठहरे।"
+            }
+          ]
+        },
+        {
+          "word": "comply with",
+          "partOfSpeech": [
+            "verb phrase"
+          ],
+          "hindiMeaning": [
+            "पालन करना",
+            "अनुपालन करना"
+          ],
+          "usageNote": "A synonym specifically for abide by rules or requirements.",
+          "examples": [
+            {
+              "sentence": "The company must comply with safety standards.",
+              "hindiTranslation": "कंपनी को सुरक्षा मानकों का पालन करना होगा।"
+            }
+          ]
+        },
+        {
+          "word": "tolerate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सहन करना"
+          ],
+          "usageNote": "Fits the phrase cannot abide.",
+          "examples": [
+            {
+              "sentence": "She cannot tolerate rude behaviour.",
+              "hindiTranslation": "वह अशिष्ट व्यवहार सहन नहीं कर सकती।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "disobey",
+          "hindiMeaning": [
+            "अवज्ञा करना"
+          ]
+        },
+        {
+          "word": "depart",
+          "hindiMeaning": [
+            "चले जाना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "abiding",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "स्थायी",
+            "दीर्घकालिक"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈbaɪd/",
+        "simple": "uh-BYD"
+      }
+    },
+    {
+      "id": 6,
+      "word": "accede",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "सहमति देना",
+        "अनुरोध मान लेना",
+        "पद ग्रहण करना"
+      ],
+      "englishDefinition": "To agree to a request or demand, or to assume an office or position.",
+      "examples": [
+        {
+          "sentence": "The manager acceded to our request.",
+          "hindiTranslation": "प्रबंधक ने हमारा अनुरोध मान लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "consent",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सहमति देना",
+            "सहमति"
+          ],
+          "examples": [
+            {
+              "sentence": "She consented to the proposal.",
+              "hindiTranslation": "उसने प्रस्ताव पर सहमति दे दी।"
+            }
+          ]
+        },
+        {
+          "word": "agree",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सहमत होना"
+          ],
+          "examples": [
+            {
+              "sentence": "They agreed to the new terms.",
+              "hindiTranslation": "वे नई शर्तों पर सहमत हो गए।"
+            }
+          ]
+        },
+        {
+          "word": "assent",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "औपचारिक सहमति देना",
+            "सहमति"
+          ],
+          "examples": [
+            {
+              "sentence": "The committee assented to the recommendation.",
+              "hindiTranslation": "समिति ने सिफारिश को औपचारिक सहमति दी।"
+            }
+          ]
+        },
+        {
+          "word": "concur",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सहमत होना"
+          ],
+          "examples": [
+            {
+              "sentence": "I concur with your assessment.",
+              "hindiTranslation": "मैं तुम्हारे आकलन से सहमत हूँ।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "refuse",
+          "hindiMeaning": [
+            "इनकार करना"
+          ]
+        },
+        {
+          "word": "dissent",
+          "hindiMeaning": [
+            "असहमति जताना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "accession",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पद ग्रहण करना",
+            "अधिकार प्राप्त करना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əkˈsiːd/",
+        "simple": "uhk-SEED"
+      }
+    },
+    {
+      "id": 7,
+      "word": "access",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "पहुँच",
+        "प्रवेश",
+        "प्राप्त करना या खोलना"
+      ],
+      "englishDefinition": "The means or right to enter or use something; as a verb, to obtain or use information or a system.",
+      "examples": [
+        {
+          "sentence": "Students have access to the library.",
+          "hindiTranslation": "विद्यार्थियों को पुस्तकालय तक पहुँच प्राप्त है।"
+        },
+        {
+          "sentence": "You can access the file online.",
+          "hindiTranslation": "तुम ऑनलाइन फाइल खोल सकते हो।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "entry",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रवेश"
+          ],
+          "examples": [
+            {
+              "sentence": "Entry to the museum is free today.",
+              "hindiTranslation": "आज संग्रहालय में प्रवेश निःशुल्क है।"
+            }
+          ]
+        },
+        {
+          "word": "admission",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रवेश",
+            "प्रवेश की अनुमति"
+          ],
+          "examples": [
+            {
+              "sentence": "Admission to the hall requires a ticket.",
+              "hindiTranslation": "हॉल में प्रवेश के लिए टिकट चाहिए।"
+            }
+          ]
+        },
+        {
+          "word": "approach",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "निकट पहुँच",
+            "तरीका"
+          ],
+          "usageNote": "Related only in some contexts; not a general synonym for access.",
+          "examples": [
+            {
+              "sentence": "The village is difficult to approach in winter.",
+              "hindiTranslation": "सर्दियों में गाँव तक पहुँचना कठिन होता है।"
+            }
+          ]
+        },
+        {
+          "word": "reach",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पहुँचना",
+            "पहुँच"
+          ],
+          "examples": [
+            {
+              "sentence": "The service helps rural students reach educational resources.",
+              "hindiTranslation": "यह सेवा ग्रामीण विद्यार्थियों को शैक्षिक संसाधनों तक पहुँचने में मदद करती है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "inaccessibility",
+          "hindiMeaning": [
+            "पहुँच का अभाव"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "accessible",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "सुलभ",
+            "पहुँच योग्य"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæk.ses/",
+        "simple": "AK-sess"
+      }
+    },
+    {
+      "id": 8,
+      "word": "accoutrements",
+      "partOfSpeech": [
+        "noun",
+        "plural"
+      ],
+      "hindiMeaning": [
+        "साज-सामान",
+        "सहायक उपकरण",
+        "किसी गतिविधि से जुड़ी वस्तुएँ"
+      ],
+      "englishDefinition": "Additional items or equipment associated with a particular activity, role, or task.",
+      "examples": [
+        {
+          "sentence": "The soldiers checked their accoutrements before departure.",
+          "hindiTranslation": "सैनिकों ने रवाना होने से पहले अपना साज-सामान जाँचा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "accessories",
+          "partOfSpeech": [
+            "plural noun"
+          ],
+          "hindiMeaning": [
+            "सहायक वस्तुएँ",
+            "साज-सज्जा की चीजें"
+          ],
+          "examples": [
+            {
+              "sentence": "The camera accessories were packed separately.",
+              "hindiTranslation": "कैमरे के सहायक उपकरण अलग पैक किए गए।"
+            }
+          ]
+        },
+        {
+          "word": "equipment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "उपकरण",
+            "सामान"
+          ],
+          "examples": [
+            {
+              "sentence": "The team inspected its safety equipment.",
+              "hindiTranslation": "टीम ने अपने सुरक्षा उपकरणों की जाँच की।"
+            }
+          ]
+        },
+        {
+          "word": "paraphernalia",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "किसी गतिविधि से जुड़ा सामान"
+          ],
+          "examples": [
+            {
+              "sentence": "The artist packed her painting paraphernalia.",
+              "hindiTranslation": "कलाकार ने पेंटिंग का सारा सामान पैक किया।"
+            }
+          ]
+        },
+        {
+          "word": "trappings",
+          "partOfSpeech": [
+            "plural noun"
+          ],
+          "hindiMeaning": [
+            "बाहरी साज-सामान",
+            "पद या स्थिति से जुड़ी दिखावटी चीजें"
+          ],
+          "examples": [
+            {
+              "sentence": "He enjoyed the trappings of office.",
+              "hindiTranslation": "उसे पद से जुड़ी बाहरी सुविधाओं और ठाठ-बाट का आनंद मिलता था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈkuː.trə.mənts/",
+        "simple": "uh-KOO-truh-muhnts"
+      }
+    },
+    {
+      "id": 9,
+      "word": "accrue",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "धीरे-धीरे जमा होना",
+        "समय के साथ प्राप्त होना"
+      ],
+      "englishDefinition": "To accumulate or be received gradually over time.",
+      "examples": [
+        {
+          "sentence": "Interest will accrue on your savings.",
+          "hindiTranslation": "तुम्हारी बचत पर समय के साथ ब्याज जमा होगा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "accumulate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करना",
+            "जमा होना"
+          ],
+          "examples": [
+            {
+              "sentence": "Dust accumulated on the unused shelves.",
+              "hindiTranslation": "इस्तेमाल न की गई अलमारियों पर धूल जमा हो गई।"
+            }
+          ]
+        },
+        {
+          "word": "amass",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "बड़ी मात्रा में इकट्ठा करना"
+          ],
+          "examples": [
+            {
+              "sentence": "She amassed a large collection of books.",
+              "hindiTranslation": "उसने किताबों का बड़ा संग्रह इकट्ठा किया।"
+            }
+          ]
+        },
+        {
+          "word": "build up",
+          "partOfSpeech": [
+            "phrasal verb"
+          ],
+          "hindiMeaning": [
+            "धीरे-धीरे बढ़ना या जमा होना"
+          ],
+          "examples": [
+            {
+              "sentence": "Small savings can build up over time.",
+              "hindiTranslation": "छोटी बचत समय के साथ जमा हो सकती है।"
+            }
+          ]
+        },
+        {
+          "word": "gather",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "इकट्ठा करना"
+          ],
+          "usageNote": "A broad synonym; not always interchangeable with accrue.",
+          "examples": [
+            {
+              "sentence": "The researchers gathered evidence over several months.",
+              "hindiTranslation": "शोधकर्ताओं ने कई महीनों तक साक्ष्य इकट्ठा किए।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "decrease",
+          "hindiMeaning": [
+            "कम होना",
+            "घटना"
+          ]
+        },
+        {
+          "word": "dissipate",
+          "hindiMeaning": [
+            "बिखर जाना",
+            "धीरे-धीरे समाप्त होना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "accrual",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "समय के साथ जमा होना",
+            "संचय"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈkruː/",
+        "simple": "uh-KROO"
+      }
+    },
+    {
+      "id": 10,
+      "word": "accused",
+      "partOfSpeech": [
+        "noun",
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "आरोपी",
+        "जिस पर आरोप लगाया गया हो"
+      ],
+      "englishDefinition": "A person alleged to have committed an offence; also used to describe someone who has been accused.",
+      "examples": [
+        {
+          "sentence": "The accused denied the charges.",
+          "hindiTranslation": "आरोपी ने आरोपों से इनकार किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "defendant",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रतिवादी",
+            "अभियुक्त"
+          ],
+          "usageNote": "A person formally facing a case in court; legal context matters.",
+          "examples": [
+            {
+              "sentence": "The defendant appeared before the court.",
+              "hindiTranslation": "प्रतिवादी अदालत के सामने उपस्थित हुआ।"
+            }
+          ]
+        },
+        {
+          "word": "suspect",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संदिग्ध व्यक्ति",
+            "संदेह करना"
+          ],
+          "usageNote": "A suspect is not necessarily formally charged.",
+          "examples": [
+            {
+              "sentence": "Police questioned the suspect.",
+              "hindiTranslation": "पुलिस ने संदिग्ध व्यक्ति से पूछताछ की।"
+            }
+          ]
+        },
+        {
+          "word": "alleged offender",
+          "partOfSpeech": [
+            "noun phrase"
+          ],
+          "hindiMeaning": [
+            "कथित अपराधी"
+          ],
+          "examples": [
+            {
+              "sentence": "The alleged offender has not been convicted.",
+              "hindiTranslation": "कथित अपराधी को अभी दोषी नहीं ठहराया गया है।"
+            }
+          ]
+        },
+        {
+          "word": "indicted person",
+          "partOfSpeech": [
+            "noun phrase"
+          ],
+          "hindiMeaning": [
+            "औपचारिक अभियोग लगाया गया व्यक्ति"
+          ],
+          "usageNote": "More specific than accused; indictment is a formal legal accusation in some jurisdictions.",
+          "examples": [
+            {
+              "sentence": "The indicted person pleaded not guilty.",
+              "hindiTranslation": "औपचारिक अभियोग झेल रहे व्यक्ति ने खुद को निर्दोष बताया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [
+        {
+          "word": "accuse",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आरोप लगाना"
+          ]
+        },
+        {
+          "word": "accusation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आरोप"
+          ]
+        },
+        {
+          "word": "indict",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "औपचारिक अभियोग लगाना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈkjuːzd/",
+        "simple": "uh-KYOODZ"
+      }
+    },
+    {
+      "id": 11,
+      "word": "acumen",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "तीक्ष्ण समझ",
+        "सूझबूझ",
+        "व्यावहारिक निर्णय क्षमता"
+      ],
+      "englishDefinition": "The ability to make good judgments and quick, accurate decisions, especially in a particular field.",
+      "examples": [
+        {
+          "sentence": "She has excellent business acumen.",
+          "hindiTranslation": "उसमें व्यावसायिक सूझबूझ बहुत अच्छी है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "insight",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अंतर्दृष्टि",
+            "गहरी समझ"
+          ],
+          "examples": [
+            {
+              "sentence": "His insight helped solve the problem.",
+              "hindiTranslation": "उसकी गहरी समझ ने समस्या हल करने में मदद की।"
+            }
+          ]
+        },
+        {
+          "word": "shrewdness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चतुराई",
+            "तीक्ष्ण व्यावहारिक समझ"
+          ],
+          "examples": [
+            {
+              "sentence": "Her shrewdness helped her negotiate a fair deal.",
+              "hindiTranslation": "उसकी व्यावहारिक चतुराई ने उचित सौदा करने में मदद की।"
+            }
+          ]
+        },
+        {
+          "word": "discernment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सही-गलत पहचानने की क्षमता",
+            "विवेक"
+          ],
+          "examples": [
+            {
+              "sentence": "Good discernment is essential for a judge.",
+              "hindiTranslation": "एक न्यायाधीश के लिए सही निर्णय-विवेक आवश्यक है।"
+            }
+          ]
+        },
+        {
+          "word": "good judgment",
+          "partOfSpeech": [
+            "noun phrase"
+          ],
+          "hindiMeaning": [
+            "उचित निर्णय क्षमता"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager showed good judgment under pressure.",
+              "hindiTranslation": "प्रबंधक ने दबाव में भी उचित निर्णय क्षमता दिखाई।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "ineptitude",
+          "hindiMeaning": [
+            "अकुशलता"
+          ]
+        },
+        {
+          "word": "naivety",
+          "hindiMeaning": [
+            "भोलेपन के कारण अनुभव या समझ की कमी"
+          ]
+        }
+      ],
+      "relatedWords": [],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæk.jə.mən/",
+        "simple": "AK-yoo-muhn"
+      }
+    },
+    {
+      "id": 12,
+      "word": "adept",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "कुशल",
+        "निपुण"
+      ],
+      "englishDefinition": "Very skilled or proficient at doing something.",
+      "examples": [
+        {
+          "sentence": "He is adept at solving difficult problems.",
+          "hindiTranslation": "वह कठिन समस्याएँ हल करने में निपुण है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "skilled",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "कुशल"
+          ],
+          "examples": [
+            {
+              "sentence": "A skilled mechanic repaired the engine.",
+              "hindiTranslation": "एक कुशल मैकेनिक ने इंजन ठीक किया।"
+            }
+          ]
+        },
+        {
+          "word": "proficient",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "दक्ष",
+            "निपुण"
+          ],
+          "examples": [
+            {
+              "sentence": "She is proficient in English.",
+              "hindiTranslation": "वह अंग्रेज़ी में दक्ष है।"
+            }
+          ]
+        },
+        {
+          "word": "dexterous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हाथ के काम में कुशल",
+            "फुर्तीला"
+          ],
+          "examples": [
+            {
+              "sentence": "The dexterous craftsman carved the wood carefully.",
+              "hindiTranslation": "कुशल कारीगर ने लकड़ी पर सावधानी से नक्काशी की।"
+            }
+          ]
+        },
+        {
+          "word": "expert",
+          "partOfSpeech": [
+            "noun",
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "विशेषज्ञ",
+            "बहुत कुशल"
+          ],
+          "examples": [
+            {
+              "sentence": "She is an expert at data analysis.",
+              "hindiTranslation": "वह डेटा विश्लेषण में विशेषज्ञ है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "inept",
+          "hindiMeaning": [
+            "अकुशल",
+            "अनाड़ी"
+          ]
+        },
+        {
+          "word": "incompetent",
+          "hindiMeaning": [
+            "अयोग्य",
+            "अक्षम"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "adeptness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "निपुणता"
+          ]
+        },
+        {
+          "word": "adapt",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "परिस्थिति के अनुसार ढलना"
+          ]
+        },
+        {
+          "word": "adopt",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अपनाना",
+            "गोद लेना"
+          ]
+        },
+        {
+          "word": "apt",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "उपयुक्त",
+            "योग्य"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈdept/",
+        "simple": "uh-DEPT"
+      }
+    },
+    {
+      "id": 13,
+      "word": "admonish",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "चेतावनी देना",
+        "समझाकर डाँटना",
+        "फटकारना"
+      ],
+      "englishDefinition": "To warn or reprimand someone firmly, often to correct behaviour.",
+      "examples": [
+        {
+          "sentence": "The teacher admonished the students for being late.",
+          "hindiTranslation": "शिक्षक ने देर से आने पर विद्यार्थियों को फटकारा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rebuke",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "फटकारना",
+            "फटकार"
+          ],
+          "examples": [
+            {
+              "sentence": "The coach rebuked the player for ignoring instructions.",
+              "hindiTranslation": "कोच ने निर्देशों की अनदेखी करने पर खिलाड़ी को फटकारा।"
+            }
+          ]
+        },
+        {
+          "word": "reprimand",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "औपचारिक रूप से डाँटना",
+            "फटकार"
+          ],
+          "examples": [
+            {
+              "sentence": "The officer reprimanded the employee.",
+              "hindiTranslation": "अधिकारी ने कर्मचारी को फटकार लगाई।"
+            }
+          ]
+        },
+        {
+          "word": "reproach",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दोष देना",
+            "उलाहना देना"
+          ],
+          "examples": [
+            {
+              "sentence": "She reproached him for breaking his promise.",
+              "hindiTranslation": "उसने वादा तोड़ने के लिए उसे उलाहना दिया।"
+            }
+          ]
+        },
+        {
+          "word": "reprove",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "गलती पर फटकारना",
+            "समझाना"
+          ],
+          "examples": [
+            {
+              "sentence": "The parent gently reproved the child.",
+              "hindiTranslation": "माता-पिता ने बच्चे को प्यार से गलती समझाई।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "praise",
+          "hindiMeaning": [
+            "प्रशंसा करना"
+          ]
+        },
+        {
+          "word": "commend",
+          "hindiMeaning": [
+            "सराहना करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "admonition",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चेतावनी",
+            "फटकार"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ədˈmɒn.ɪʃ/",
+        "simple": "uhd-MON-ish"
+      }
+    },
+    {
+      "id": 14,
+      "word": "adopt",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "अपनाना",
+        "स्वीकार करना",
+        "गोद लेना"
+      ],
+      "englishDefinition": "To take up an idea, method, or attitude; or legally take another person's child into one's family.",
+      "examples": [
+        {
+          "sentence": "The school adopted a new teaching method.",
+          "hindiTranslation": "विद्यालय ने शिक्षण की नई पद्धति अपनाई।"
+        },
+        {
+          "sentence": "They decided to adopt a child.",
+          "hindiTranslation": "उन्होंने एक बच्चे को गोद लेने का निर्णय किया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "embrace",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अपनाना",
+            "स्वीकार करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The team embraced the new strategy.",
+              "hindiTranslation": "टीम ने नई रणनीति अपनाई।"
+            }
+          ]
+        },
+        {
+          "word": "accept",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "स्वीकार करना"
+          ],
+          "examples": [
+            {
+              "sentence": "She accepted the invitation.",
+              "hindiTranslation": "उसने निमंत्रण स्वीकार किया।"
+            }
+          ]
+        },
+        {
+          "word": "take up",
+          "partOfSpeech": [
+            "phrasal verb"
+          ],
+          "hindiMeaning": [
+            "शुरू करना",
+            "अपनाना"
+          ],
+          "examples": [
+            {
+              "sentence": "He took up meditation last year.",
+              "hindiTranslation": "उसने पिछले साल ध्यान करना शुरू किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "reject",
+          "hindiMeaning": [
+            "अस्वीकार करना"
+          ]
+        },
+        {
+          "word": "abandon",
+          "hindiMeaning": [
+            "छोड़ देना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "adoption",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अपनाना",
+            "गोद लेना"
+          ]
+        },
+        {
+          "word": "adapt",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "ढलना",
+            "अनुकूल बनाना"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈdɒpt/",
+        "simple": "uh-DOPT"
+      }
+    },
+    {
+      "id": 15,
+      "word": "adorn",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "सजाना",
+        "अलंकृत करना"
+      ],
+      "englishDefinition": "To decorate or make something more attractive.",
+      "examples": [
+        {
+          "sentence": "Flowers adorned the entrance.",
+          "hindiTranslation": "फूलों ने प्रवेश-द्वार को सजा दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "decorate",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सजाना"
+          ],
+          "examples": [
+            {
+              "sentence": "They decorated the room with lights.",
+              "hindiTranslation": "उन्होंने कमरे को रोशनी से सजाया।"
+            }
+          ]
+        },
+        {
+          "word": "embellish",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सजावट जोड़ना",
+            "अलंकृत करना"
+          ],
+          "examples": [
+            {
+              "sentence": "She embellished the dress with embroidery.",
+              "hindiTranslation": "उसने कढ़ाई से पोशाक को सजाया।"
+            }
+          ]
+        },
+        {
+          "word": "beautify",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सुंदर बनाना"
+          ],
+          "examples": [
+            {
+              "sentence": "The city planted trees to beautify the road.",
+              "hindiTranslation": "शहर ने सड़क को सुंदर बनाने के लिए पेड़ लगाए।"
+            }
+          ]
+        },
+        {
+          "word": "ornament",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अलंकृत करना",
+            "आभूषण"
+          ],
+          "examples": [
+            {
+              "sentence": "Carvings ornament the wooden door.",
+              "hindiTranslation": "नक्काशी लकड़ी के दरवाज़े को अलंकृत करती है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "deface",
+          "hindiMeaning": [
+            "रूप बिगाड़ना",
+            "विकृत करना"
+          ]
+        },
+        {
+          "word": "disfigure",
+          "hindiMeaning": [
+            "विकृत करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "adornment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सजावट",
+            "आभूषण"
+          ]
+        },
+        {
+          "word": "embellishment",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अलंकरण",
+            "सजावट"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈdɔːn/",
+        "simple": "uh-DORN"
+      }
+    },
+    {
+      "id": 16,
+      "word": "advance",
+      "partOfSpeech": [
+        "verb",
+        "noun"
+      ],
+      "hindiMeaning": [
+        "आगे बढ़ना",
+        "प्रगति करना",
+        "आगे बढ़ाना"
+      ],
+      "englishDefinition": "To move forward, make progress, or help something develop.",
+      "examples": [
+        {
+          "sentence": "Regular practice will advance your English skills.",
+          "hindiTranslation": "नियमित अभ्यास तुम्हारी अंग्रेज़ी की क्षमता को आगे बढ़ाएगा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "progress",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रगति करना",
+            "प्रगति"
+          ],
+          "examples": [
+            {
+              "sentence": "The project progressed faster than expected.",
+              "hindiTranslation": "परियोजना ने अपेक्षा से अधिक तेजी से प्रगति की।"
+            }
+          ]
+        },
+        {
+          "word": "proceed",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आगे बढ़ना",
+            "जारी रखना"
+          ],
+          "examples": [
+            {
+              "sentence": "Please proceed to the next question.",
+              "hindiTranslation": "कृपया अगले प्रश्न पर जाएँ।"
+            }
+          ]
+        },
+        {
+          "word": "move forward",
+          "partOfSpeech": [
+            "verb phrase"
+          ],
+          "hindiMeaning": [
+            "आगे बढ़ना"
+          ],
+          "examples": [
+            {
+              "sentence": "We need to move forward with the plan.",
+              "hindiTranslation": "हमें योजना के साथ आगे बढ़ना चाहिए।"
+            }
+          ]
+        },
+        {
+          "word": "further",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आगे बढ़ाना",
+            "प्रोत्साहित करना"
+          ],
+          "usageNote": "As a verb, it means to promote progress; not the same as the adjective further.",
+          "examples": [
+            {
+              "sentence": "The grant will further scientific research.",
+              "hindiTranslation": "यह अनुदान वैज्ञानिक अनुसंधान को आगे बढ़ाएगा।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "retreat",
+          "hindiMeaning": [
+            "पीछे हटना"
+          ]
+        },
+        {
+          "word": "regress",
+          "hindiMeaning": [
+            "पिछड़ना",
+            "उलटी दिशा में जाना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "advancement",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "प्रगति",
+            "उन्नति"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ədˈvɑːns/",
+        "simple": "uhd-VAHNS"
+      }
+    },
+    {
+      "id": 17,
+      "word": "adverse",
+      "partOfSpeech": [
+        "adjective"
+      ],
+      "hindiMeaning": [
+        "प्रतिकूल",
+        "हानिकारक",
+        "अनुकूल न होने वाला"
+      ],
+      "englishDefinition": "Preventing success or creating difficulties; unfavourable or harmful.",
+      "examples": [
+        {
+          "sentence": "The team succeeded despite adverse conditions.",
+          "hindiTranslation": "टीम प्रतिकूल परिस्थितियों के बावजूद सफल हुई।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unfavourable",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "प्रतिकूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The match was cancelled because of unfavourable weather.",
+              "hindiTranslation": "प्रतिकूल मौसम के कारण मैच रद्द कर दिया गया।"
+            }
+          ]
+        },
+        {
+          "word": "detrimental",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "हानिकारक"
+          ],
+          "examples": [
+            {
+              "sentence": "Smoking is detrimental to health.",
+              "hindiTranslation": "धूम्रपान स्वास्थ्य के लिए हानिकारक है।"
+            }
+          ]
+        },
+        {
+          "word": "disadvantageous",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "नुकसानदेह",
+            "प्रतिकूल"
+          ],
+          "examples": [
+            {
+              "sentence": "The deal was disadvantageous to small businesses.",
+              "hindiTranslation": "यह सौदा छोटे व्यवसायों के लिए नुकसानदेह था।"
+            }
+          ]
+        },
+        {
+          "word": "hostile",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "शत्रुतापूर्ण",
+            "विरोधी"
+          ],
+          "usageNote": "Fits contexts involving an unfriendly person, environment, or attitude.",
+          "examples": [
+            {
+              "sentence": "They worked in a hostile environment.",
+              "hindiTranslation": "उन्होंने शत्रुतापूर्ण वातावरण में काम किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "favourable",
+          "hindiMeaning": [
+            "अनुकूल"
+          ]
+        },
+        {
+          "word": "beneficial",
+          "hindiMeaning": [
+            "लाभकारी"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "adversity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "विपत्ति",
+            "कठिन परिस्थिति"
+          ]
+        },
+        {
+          "word": "adversely",
+          "partOfSpeech": [
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "प्रतिकूल रूप से"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæd.vɜːs/",
+        "simple": "AD-vers"
+      }
+    },
+    {
+      "id": 18,
+      "word": "affirm",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "दृढ़तापूर्वक कहना",
+        "पुष्टि करना",
+        "समर्थन करना"
+      ],
+      "englishDefinition": "To state firmly that something is true, or to confirm it.",
+      "examples": [
+        {
+          "sentence": "She affirmed that the information was correct.",
+          "hindiTranslation": "उसने पुष्टि की कि जानकारी सही थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "assert",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दृढ़तापूर्वक कहना",
+            "दावा करना"
+          ],
+          "examples": [
+            {
+              "sentence": "He asserted that he had followed the rules.",
+              "hindiTranslation": "उसने दृढ़ता से कहा कि उसने नियमों का पालन किया था।"
+            }
+          ]
+        },
+        {
+          "word": "confirm",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पुष्टि करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Please confirm your attendance by Friday.",
+              "hindiTranslation": "कृपया शुक्रवार तक अपनी उपस्थिति की पुष्टि करें।"
+            }
+          ]
+        },
+        {
+          "word": "declare",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "घोषित करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The judge declared the meeting open.",
+              "hindiTranslation": "न्यायाधीश ने बैठक शुरू होने की घोषणा की।"
+            }
+          ]
+        },
+        {
+          "word": "maintain",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कायम रखना",
+            "दृढ़तापूर्वक कहना"
+          ],
+          "usageNote": "Synonym when it means continuing to claim that something is true.",
+          "examples": [
+            {
+              "sentence": "She maintained that she had done nothing wrong.",
+              "hindiTranslation": "वह लगातार कहती रही कि उसने कुछ गलत नहीं किया।"
+            }
+          ]
+        },
+        {
+          "word": "endorse",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "समर्थन करना",
+            "अनुमोदन देना"
+          ],
+          "usageNote": "Related, but usually means to approve or support rather than simply affirm.",
+          "examples": [
+            {
+              "sentence": "The committee endorsed the proposal.",
+              "hindiTranslation": "समिति ने प्रस्ताव का समर्थन किया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "deny",
+          "hindiMeaning": [
+            "इनकार करना"
+          ]
+        },
+        {
+          "word": "contradict",
+          "hindiMeaning": [
+            "खंडन करना",
+            "विरोधाभास दिखाना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "affirmation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "पुष्टि",
+            "दृढ़ कथन"
+          ]
+        },
+        {
+          "word": "assertion",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दृढ़ कथन",
+            "दावा"
+          ]
+        },
+        {
+          "word": "endorsement",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "समर्थन",
+            "अनुमोदन"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈfɜːm/",
+        "simple": "uh-FURM"
+      }
+    },
+    {
+      "id": 19,
+      "word": "affluence",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "धन-संपन्नता",
+        "समृद्धि",
+        "अमीरी"
+      ],
+      "englishDefinition": "The state of having a great deal of money or material wealth.",
+      "examples": [
+        {
+          "sentence": "The region is known for its affluence.",
+          "hindiTranslation": "यह क्षेत्र अपनी समृद्धि के लिए जाना जाता है।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "wealth",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "धन",
+            "संपत्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "Wealth does not always guarantee happiness.",
+              "hindiTranslation": "धन हमेशा खुशी की गारंटी नहीं देता।"
+            }
+          ]
+        },
+        {
+          "word": "riches",
+          "partOfSpeech": [
+            "plural noun"
+          ],
+          "hindiMeaning": [
+            "धन-दौलत",
+            "संपत्ति"
+          ],
+          "examples": [
+            {
+              "sentence": "He donated much of his riches to charity.",
+              "hindiTranslation": "उसने अपनी काफी संपत्ति दान कर दी।"
+            }
+          ]
+        },
+        {
+          "word": "prosperity",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "समृद्धि",
+            "खुशहाली"
+          ],
+          "examples": [
+            {
+              "sentence": "Education can contribute to national prosperity.",
+              "hindiTranslation": "शिक्षा राष्ट्रीय समृद्धि में योगदान दे सकती है।"
+            }
+          ]
+        },
+        {
+          "word": "opulence",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "ऐश्वर्य",
+            "भव्य समृद्धि"
+          ],
+          "examples": [
+            {
+              "sentence": "The palace was decorated with opulence.",
+              "hindiTranslation": "महल को भव्य ऐश्वर्य के साथ सजाया गया था।"
+            }
+          ]
+        },
+        {
+          "word": "richness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "समृद्धि",
+            "प्रचुरता"
+          ],
+          "usageNote": "Can refer to wealth, but also to richness of flavour, colour, or detail.",
+          "examples": [
+            {
+              "sentence": "The richness of the soil supports farming.",
+              "hindiTranslation": "मिट्टी की उर्वर समृद्धि खेती को सहारा देती है।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "poverty",
+          "hindiMeaning": [
+            "गरीबी"
+          ]
+        },
+        {
+          "word": "destitution",
+          "hindiMeaning": [
+            "अत्यंत निर्धनता"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "affluent",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "धनवान",
+            "समृद्ध"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæf.lu.əns/",
+        "simple": "AF-loo-uhns"
+      }
+    },
+    {
+      "id": 20,
+      "word": "agony",
+      "partOfSpeech": [
+        "noun"
+      ],
+      "hindiMeaning": [
+        "अत्यधिक पीड़ा",
+        "असहनीय दर्द",
+        "गहरी मानसिक वेदना"
+      ],
+      "englishDefinition": "Extreme physical pain or intense mental suffering.",
+      "examples": [
+        {
+          "sentence": "He was in agony after the accident.",
+          "hindiTranslation": "दुर्घटना के बाद वह असहनीय पीड़ा में था।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "anguish",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "गहरी मानसिक पीड़ा",
+            "वेदना"
+          ],
+          "examples": [
+            {
+              "sentence": "She watched in anguish as the boat drifted away.",
+              "hindiTranslation": "नाव को दूर बहते देखकर वह गहरी पीड़ा में देखती रही।"
+            }
+          ]
+        },
+        {
+          "word": "torment",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "तीव्र पीड़ा",
+            "यातना देना"
+          ],
+          "examples": [
+            {
+              "sentence": "The uncertainty caused him great torment.",
+              "hindiTranslation": "अनिश्चितता ने उसे बहुत पीड़ा दी।"
+            }
+          ]
+        },
+        {
+          "word": "distress",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "कष्ट",
+            "व्याकुलता"
+          ],
+          "examples": [
+            {
+              "sentence": "The news caused considerable distress.",
+              "hindiTranslation": "इस खबर से काफी व्याकुलता हुई।"
+            }
+          ]
+        },
+        {
+          "word": "pangs",
+          "partOfSpeech": [
+            "plural noun"
+          ],
+          "hindiMeaning": [
+            "अचानक उठने वाली तीव्र पीड़ा",
+            "कसक"
+          ],
+          "examples": [
+            {
+              "sentence": "He felt pangs of guilt after lying.",
+              "hindiTranslation": "झूठ बोलने के बाद उसे अपराधबोध की कसक हुई।"
+            }
+          ]
+        },
+        {
+          "word": "pain",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दर्द",
+            "पीड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The injury caused severe pain.",
+              "hindiTranslation": "चोट से गंभीर दर्द हुआ।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "comfort",
+          "hindiMeaning": [
+            "आराम",
+            "सांत्वना"
+          ]
+        },
+        {
+          "word": "relief",
+          "hindiMeaning": [
+            "राहत"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "agonise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "गहरी चिंता या पीड़ा में रहना"
+          ]
+        },
+        {
+          "word": "agonising",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "अत्यंत पीड़ादायक"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈæɡ.ə.ni/",
+        "simple": "AG-uh-nee"
+      }
+    },
+    {
+      "id": 21,
+      "word": "aid",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "सहायता",
+        "मदद करना"
+      ],
+      "englishDefinition": "Help or support; as a verb, to help someone or something.",
+      "examples": [
+        {
+          "sentence": "The organization provided aid to the victims.",
+          "hindiTranslation": "संस्था ने पीड़ितों को सहायता दी।"
+        },
+        {
+          "sentence": "These notes will aid your revision.",
+          "hindiTranslation": "ये नोट्स तुम्हारी पुनरावृत्ति में मदद करेंगे।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "help",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "मदद",
+            "सहायता करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Thank you for your help.",
+              "hindiTranslation": "तुम्हारी मदद के लिए धन्यवाद।"
+            }
+          ]
+        },
+        {
+          "word": "assistance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सहायता"
+          ],
+          "examples": [
+            {
+              "sentence": "The students requested assistance with the task.",
+              "hindiTranslation": "विद्यार्थियों ने कार्य में सहायता माँगी।"
+            }
+          ]
+        },
+        {
+          "word": "support",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "सहारा",
+            "समर्थन देना"
+          ],
+          "examples": [
+            {
+              "sentence": "Her family supported her education.",
+              "hindiTranslation": "उसके परिवार ने उसकी शिक्षा में सहयोग दिया।"
+            }
+          ]
+        },
+        {
+          "word": "relief",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "राहत",
+            "कष्ट में कमी"
+          ],
+          "usageNote": "A synonym in contexts such as emergency aid or aid that reduces suffering.",
+          "examples": [
+            {
+              "sentence": "Relief supplies reached the flood-hit village.",
+              "hindiTranslation": "बाढ़ प्रभावित गाँव में राहत सामग्री पहुँची।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "hindrance",
+          "hindiMeaning": [
+            "बाधा"
+          ]
+        },
+        {
+          "word": "obstruction",
+          "hindiMeaning": [
+            "अवरोध"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "aid worker",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सहायता कर्मी"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/eɪd/",
+        "simple": "AYD"
+      }
+    },
+    {
+      "id": 22,
+      "word": "alarm",
+      "partOfSpeech": [
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "चेतावनी",
+        "घबराहट",
+        "भयभीत करना"
+      ],
+      "englishDefinition": "A warning signal or feeling of sudden fear; as a verb, to make someone afraid or worried.",
+      "examples": [
+        {
+          "sentence": "The sudden noise alarmed everyone.",
+          "hindiTranslation": "अचानक हुई आवाज़ ने सबको डरा दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "warning",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "चेतावनी",
+            "चेतावनी देना"
+          ],
+          "examples": [
+            {
+              "sentence": "The sign gives a warning about falling rocks.",
+              "hindiTranslation": "यह संकेत गिरते पत्थरों के बारे में चेतावनी देता है।"
+            }
+          ]
+        },
+        {
+          "word": "fright",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "अचानक लगा डर"
+          ],
+          "examples": [
+            {
+              "sentence": "The loud crash gave me a fright.",
+              "hindiTranslation": "जोरदार धमाके से मैं अचानक डर गया।"
+            }
+          ]
+        },
+        {
+          "word": "fear",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "डर",
+            "डरना"
+          ],
+          "examples": [
+            {
+              "sentence": "Fear spread through the crowd.",
+              "hindiTranslation": "भीड़ में डर फैल गया।"
+            }
+          ]
+        },
+        {
+          "word": "panic",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "अचानक तीव्र घबराहट",
+            "घबरा जाना"
+          ],
+          "examples": [
+            {
+              "sentence": "Do not panic during an emergency.",
+              "hindiTranslation": "आपातकाल में घबराओ मत।"
+            }
+          ]
+        },
+        {
+          "word": "dread",
+          "partOfSpeech": [
+            "noun",
+            "verb"
+          ],
+          "hindiMeaning": [
+            "भय",
+            "आशंका",
+            "डरना"
+          ],
+          "examples": [
+            {
+              "sentence": "She felt dread before the examination.",
+              "hindiTranslation": "परीक्षा से पहले उसे भय महसूस हुआ।"
+            }
+          ]
+        },
+        {
+          "word": "terror",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "भीषण भय",
+            "आतंक"
+          ],
+          "examples": [
+            {
+              "sentence": "The sudden explosion filled the area with terror.",
+              "hindiTranslation": "अचानक हुए विस्फोट से क्षेत्र में आतंक फैल गया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "calm",
+          "hindiMeaning": [
+            "शांति",
+            "शांत करना"
+          ]
+        },
+        {
+          "word": "reassurance",
+          "hindiMeaning": [
+            "आश्वासन"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "alarming",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "चिंताजनक",
+            "भय पैदा करने वाला"
+          ]
+        },
+        {
+          "word": "dreadful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "भयानक",
+            "बहुत बुरा"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈlɑːm/",
+        "simple": "uh-LAHRM"
+      }
+    },
+    {
+      "id": 23,
+      "word": "alert",
+      "partOfSpeech": [
+        "adjective",
+        "noun",
+        "verb"
+      ],
+      "hindiMeaning": [
+        "सतर्क",
+        "चौकन्ना",
+        "चेतावनी",
+        "सचेत करना"
+      ],
+      "englishDefinition": "Watchful and ready to respond; a warning; or to warn someone.",
+      "examples": [
+        {
+          "sentence": "Drivers must remain alert on busy roads.",
+          "hindiTranslation": "व्यस्त सड़कों पर चालकों को सतर्क रहना चाहिए।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vigilant",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "चौकन्ना",
+            "सतर्क"
+          ],
+          "examples": [
+            {
+              "sentence": "The guards remained vigilant throughout the night.",
+              "hindiTranslation": "रक्षक पूरी रात चौकन्ने रहे।"
+            }
+          ]
+        },
+        {
+          "word": "watchful",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "निगरानी रखने वाला",
+            "सतर्क"
+          ],
+          "examples": [
+            {
+              "sentence": "A watchful parent noticed the open gate.",
+              "hindiTranslation": "सतर्क अभिभावक ने खुला फाटक देख लिया।"
+            }
+          ]
+        },
+        {
+          "word": "attentive",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "ध्यान देने वाला",
+            "सावधान"
+          ],
+          "examples": [
+            {
+              "sentence": "The attentive student noticed the mistake.",
+              "hindiTranslation": "ध्यान देने वाले विद्यार्थी ने गलती देख ली।"
+            }
+          ]
+        },
+        {
+          "word": "observant",
+          "partOfSpeech": [
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "बारीकी से देखने वाला",
+            "चौकस"
+          ],
+          "examples": [
+            {
+              "sentence": "An observant reader spotted the clue.",
+              "hindiTranslation": "एक सूक्ष्म निरीक्षण करने वाले पाठक ने संकेत पहचान लिया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "inattentive",
+          "hindiMeaning": [
+            "असावधान",
+            "ध्यान न देने वाला"
+          ]
+        },
+        {
+          "word": "unaware",
+          "hindiMeaning": [
+            "अनजान",
+            "अनभिज्ञ"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "alertness",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "सतर्कता"
+          ]
+        },
+        {
+          "word": "vigilance",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "चौकसी",
+            "सतर्कता"
+          ]
+        },
+        {
+          "word": "vigilante",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "ऐसा व्यक्ति जो औपचारिक अधिकार के बिना स्वयं कानून लागू करने की कोशिश करे"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈlɜːt/",
+        "simple": "uh-LURT"
+      }
+    },
+    {
+      "id": 24,
+      "word": "alter",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "बदलना",
+        "संशोधित करना"
+      ],
+      "englishDefinition": "To change something, usually partly, without necessarily replacing it completely.",
+      "examples": [
+        {
+          "sentence": "You may alter your answer before submitting the test.",
+          "hindiTranslation": "परीक्षा जमा करने से पहले तुम अपना उत्तर बदल सकते हो।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "change",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "बदलना",
+            "परिवर्तन"
+          ],
+          "examples": [
+            {
+              "sentence": "We need to change our approach.",
+              "hindiTranslation": "हमें अपना तरीका बदलना होगा।"
+            }
+          ]
+        },
+        {
+          "word": "modify",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संशोधित करना",
+            "थोड़ा बदलना"
+          ],
+          "examples": [
+            {
+              "sentence": "The engineer modified the design.",
+              "hindiTranslation": "इंजीनियर ने डिजाइन में संशोधन किया।"
+            }
+          ]
+        },
+        {
+          "word": "adjust",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "समायोजित करना",
+            "अनुकूल बदलाव करना"
+          ],
+          "examples": [
+            {
+              "sentence": "Please adjust the seat height.",
+              "hindiTranslation": "कृपया सीट की ऊँचाई समायोजित करें।"
+            }
+          ]
+        },
+        {
+          "word": "revise",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "संशोधित करना",
+            "पुनरीक्षण करना"
+          ],
+          "examples": [
+            {
+              "sentence": "The author revised the final paragraph.",
+              "hindiTranslation": "लेखक ने अंतिम अनुच्छेद संशोधित किया।"
+            }
+          ]
+        },
+        {
+          "word": "transform",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "पूरी तरह बदल देना"
+          ],
+          "usageNote": "Usually implies a more substantial change than alter.",
+          "examples": [
+            {
+              "sentence": "The renovation transformed the old building.",
+              "hindiTranslation": "नवीनीकरण ने पुरानी इमारत का रूप पूरी तरह बदल दिया।"
+            }
+          ]
+        },
+        {
+          "word": "vary",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "बदलना",
+            "भिन्न होना"
+          ],
+          "usageNote": "Often means to differ or change across cases.",
+          "examples": [
+            {
+              "sentence": "Prices vary from shop to shop.",
+              "hindiTranslation": "दुकान-दुकान पर कीमतें अलग-अलग होती हैं।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "preserve",
+          "hindiMeaning": [
+            "बनाए रखना",
+            "संरक्षित करना"
+          ]
+        },
+        {
+          "word": "maintain",
+          "hindiMeaning": [
+            "बनाए रखना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "alteration",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "परिवर्तन",
+            "संशोधन"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/ˈɔːl.tər/",
+        "simple": "AWL-ter"
+      }
+    },
+    {
+      "id": 25,
+      "word": "allege",
+      "partOfSpeech": [
+        "verb"
+      ],
+      "hindiMeaning": [
+        "आरोप लगाना",
+        "बिना पूर्ण प्रमाण के दावा करना"
+      ],
+      "englishDefinition": "To claim that someone has done something wrong, usually without having yet proved it.",
+      "examples": [
+        {
+          "sentence": "Prosecutors allege that the company broke the law.",
+          "hindiTranslation": "अभियोजकों का आरोप है कि कंपनी ने कानून तोड़ा।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "claim",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "दावा करना",
+            "दावा"
+          ],
+          "examples": [
+            {
+              "sentence": "He claimed that he was at home.",
+              "hindiTranslation": "उसने दावा किया कि वह घर पर था।"
+            }
+          ]
+        },
+        {
+          "word": "assert",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "दृढ़तापूर्वक कहना",
+            "दावा करना"
+          ],
+          "usageNote": "A broader synonym; it does not necessarily imply an accusation.",
+          "examples": [
+            {
+              "sentence": "She asserted that the report was inaccurate.",
+              "hindiTranslation": "उसने दृढ़ता से कहा कि रिपोर्ट गलत थी।"
+            }
+          ]
+        },
+        {
+          "word": "accuse",
+          "partOfSpeech": [
+            "verb"
+          ],
+          "hindiMeaning": [
+            "आरोप लगाना"
+          ],
+          "usageNote": "More directly means to accuse someone of wrongdoing.",
+          "examples": [
+            {
+              "sentence": "They accused him of cheating.",
+              "hindiTranslation": "उन्होंने उस पर धोखाधड़ी का आरोप लगाया।"
+            }
+          ]
+        },
+        {
+          "word": "charge",
+          "partOfSpeech": [
+            "verb",
+            "noun"
+          ],
+          "hindiMeaning": [
+            "औपचारिक आरोप लगाना",
+            "आरोप"
+          ],
+          "usageNote": "Often used for formal legal accusations.",
+          "examples": [
+            {
+              "sentence": "Police charged him with theft.",
+              "hindiTranslation": "पुलिस ने उस पर चोरी का औपचारिक आरोप लगाया।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [
+        {
+          "word": "deny",
+          "hindiMeaning": [
+            "इनकार करना"
+          ]
+        },
+        {
+          "word": "exonerate",
+          "hindiMeaning": [
+            "दोषमुक्त करना"
+          ]
+        }
+      ],
+      "relatedWords": [
+        {
+          "word": "allegation",
+          "partOfSpeech": [
+            "noun"
+          ],
+          "hindiMeaning": [
+            "आरोप"
+          ]
+        },
+        {
+          "word": "allegedly",
+          "partOfSpeech": [
+            "adverb"
+          ],
+          "hindiMeaning": [
+            "कथित रूप से"
+          ]
+        },
+        {
+          "word": "accused",
+          "partOfSpeech": [
+            "noun",
+            "adjective"
+          ],
+          "hindiMeaning": [
+            "आरोपी"
+          ]
+        }
+      ],
+      "reviewStatus": "verified",
+      "pronunciation": {
+        "ipa": "/əˈledʒ/",
+        "simple": "uh-LEJ"
+      }
+    }
+  ]
+}

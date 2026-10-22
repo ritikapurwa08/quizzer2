@@ -1,0 +1,2263 @@
+{
+  "setId": "vocabulary_set_007",
+  "setNumber": 7,
+  "title": "Vocabulary Set 007 — Umpteen to Hideous",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 151,
+      "word": "umpteen",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "असंख्य",
+        "अगनणि",
+        "बहुिेरे"
+      ],
+      "englishDefinition": "Very many; indefinitely numerous (mnemonic: empty tin).",
+      "pronunciation": {
+        "ipa": "/umpteen/",
+        "simple": "UMP-teen"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably umpteen.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से असंख्य थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "galore",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अगनणि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was galore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण galore था।"
+            }
+          ]
+        },
+        {
+          "word": "inordinate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अगनणि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inordinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inordinate था।"
+            }
+          ]
+        },
+        {
+          "word": "surfeit",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अगनणि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surfeit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surfeit था।"
+            }
+          ]
+        },
+        {
+          "word": "myriad",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अगनणि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was myriad.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण myriad था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 152,
+      "word": "rampant",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अनियंनत्रि रूप से फै ला हुआ"
+      ],
+      "englishDefinition": "Marked by a menacing wildness, extravagance, or absence of restraint",
+      "pronunciation": {
+        "ipa": "/rampant/",
+        "simple": "RAM-pant"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably rampant.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अनियंनत्रि रूप से फै ला हुआ थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "inordinate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अनियंनत्रि रूप से फै ला हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inordinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inordinate था।"
+            }
+          ]
+        },
+        {
+          "word": "surfeit",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अनियंनत्रि रूप से फै ला हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surfeit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surfeit था।"
+            }
+          ]
+        },
+        {
+          "word": "myriad",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अनियंनत्रि रूप से फै ला हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was myriad.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण myriad था।"
+            }
+          ]
+        },
+        {
+          "word": "umpteen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अनियंनत्रि रूप से फै ला हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was umpteen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण umpteen था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 153,
+      "word": "ramify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "श ख ओां में ब ांटि",
+        "फै ल ि"
+      ],
+      "englishDefinition": "To split up into branches or constituent parts.",
+      "pronunciation": {
+        "ipa": "/ramify/",
+        "simple": "RAM-ify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to ramify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को श ख ओां में ब ांटि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "surfeit",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "श ख ओां में ब ांटि",
+            "फै ल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surfeit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surfeit था।"
+            }
+          ]
+        },
+        {
+          "word": "myriad",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "श ख ओां में ब ांटि",
+            "फै ल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was myriad.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण myriad था।"
+            }
+          ]
+        },
+        {
+          "word": "umpteen",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "श ख ओां में ब ांटि",
+            "फै ल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was umpteen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण umpteen था।"
+            }
+          ]
+        },
+        {
+          "word": "rampant",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "श ख ओां में ब ांटि",
+            "फै ल ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rampant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rampant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 154,
+      "word": "opulent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Opulent"
+      ],
+      "englishDefinition": "Amply or plentifully provided or fashioned often to the point of",
+      "pronunciation": {
+        "ipa": "/opulent/",
+        "simple": "OPU-lent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably opulent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Opulent थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "myriad",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Opulent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was myriad.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण myriad था।"
+            }
+          ]
+        },
+        {
+          "word": "umpteen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Opulent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was umpteen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण umpteen था।"
+            }
+          ]
+        },
+        {
+          "word": "rampant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Opulent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rampant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rampant था।"
+            }
+          ]
+        },
+        {
+          "word": "ramify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Opulent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ramify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ramify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 155,
+      "word": "profuse",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रचुर",
+        "अनधक",
+        "अत्यनधक"
+      ],
+      "englishDefinition": "Pouring forth liberally; extravagant.",
+      "pronunciation": {
+        "ipa": "/profuse/",
+        "simple": "PRO-fuse"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably profuse.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रचुर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "umpteen",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "अनधक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was umpteen.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण umpteen था।"
+            }
+          ]
+        },
+        {
+          "word": "rampant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "अनधक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rampant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rampant था।"
+            }
+          ]
+        },
+        {
+          "word": "ramify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "अनधक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ramify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ramify था।"
+            }
+          ]
+        },
+        {
+          "word": "opulent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "अनधक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opulent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 156,
+      "word": "copious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रचुर",
+        "काफी",
+        "अनधक"
+      ],
+      "englishDefinition": "Yielding something abundantly; plentiful in number (mnemonic: copy).",
+      "pronunciation": {
+        "ipa": "/copious/",
+        "simple": "COP-ious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably copious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रचुर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rampant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "काफी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rampant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rampant था।"
+            }
+          ]
+        },
+        {
+          "word": "ramify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "काफी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ramify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ramify था।"
+            }
+          ]
+        },
+        {
+          "word": "opulent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "काफी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opulent था।"
+            }
+          ]
+        },
+        {
+          "word": "profuse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुर",
+            "काफी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profuse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 157,
+      "word": "deluge",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "ब ढ़",
+        "जलप्रलय"
+      ],
+      "englishDefinition": "An overflowing of the land by water; a drenching rain (mnemonic: huge).",
+      "pronunciation": {
+        "ipa": "/deluge/",
+        "simple": "DEL-uge"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of deluge in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ब ढ़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ramify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़",
+            "जलप्रलय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ramify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ramify था।"
+            }
+          ]
+        },
+        {
+          "word": "opulent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़",
+            "जलप्रलय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opulent था।"
+            }
+          ]
+        },
+        {
+          "word": "profuse",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़",
+            "जलप्रलय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profuse था।"
+            }
+          ]
+        },
+        {
+          "word": "copious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "ब ढ़",
+            "जलप्रलय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was copious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण copious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 158,
+      "word": "delude",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "धोखा देिा",
+        "भ्रम में डालिा"
+      ],
+      "englishDefinition": "To mislead the mind or judgment of; deceive (mnemonic: Delhi dude).",
+      "pronunciation": {
+        "ipa": "/delude/",
+        "simple": "DEL-ude"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to delude the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को धोखा देिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "opulent",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "भ्रम में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was opulent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण opulent था।"
+            }
+          ]
+        },
+        {
+          "word": "profuse",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "भ्रम में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profuse था।"
+            }
+          ]
+        },
+        {
+          "word": "copious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "भ्रम में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was copious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण copious था।"
+            }
+          ]
+        },
+        {
+          "word": "deluge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "धोखा देिा",
+            "भ्रम में डालिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deluge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 159,
+      "word": "verdant",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "हर -भर"
+      ],
+      "englishDefinition": "Green in tint or color; green with growing plants (mnemonic: vardan).",
+      "pronunciation": {
+        "ipa": "/verdant/",
+        "simple": "VER-dant"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably verdant.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से हर -भर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "profuse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was profuse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण profuse था।"
+            }
+          ]
+        },
+        {
+          "word": "copious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was copious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण copious था।"
+            }
+          ]
+        },
+        {
+          "word": "deluge",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deluge था।"
+            }
+          ]
+        },
+        {
+          "word": "delude",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was delude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण delude था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 160,
+      "word": "lush",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "रसील",
+        "हर -भर"
+      ],
+      "englishDefinition": "Growing vigorously especially with luxuriant foliage.",
+      "pronunciation": {
+        "ipa": "/lush/",
+        "simple": "LUSH"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably lush.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से रसील थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "copious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रसील",
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was copious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण copious था।"
+            }
+          ]
+        },
+        {
+          "word": "deluge",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रसील",
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deluge था।"
+            }
+          ]
+        },
+        {
+          "word": "delude",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रसील",
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was delude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण delude था।"
+            }
+          ]
+        },
+        {
+          "word": "verdant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रसील",
+            "हर -भर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verdant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verdant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 161,
+      "word": "luxuriate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "आिांद लेि",
+        "प्रिुर म ि  में होि"
+      ],
+      "englishDefinition": "To grow profusely; to indulge oneself.",
+      "pronunciation": {
+        "ipa": "/luxuriate/",
+        "simple": "LUXU-riate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to luxuriate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को आिांद लेि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "deluge",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "आिांद लेि",
+            "प्रिुर म ि  में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was deluge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण deluge था।"
+            }
+          ]
+        },
+        {
+          "word": "delude",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "आिांद लेि",
+            "प्रिुर म ि  में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was delude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण delude था।"
+            }
+          ]
+        },
+        {
+          "word": "verdant",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "आिांद लेि",
+            "प्रिुर म ि  में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verdant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verdant था।"
+            }
+          ]
+        },
+        {
+          "word": "lush",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "आिांद लेि",
+            "प्रिुर म ि  में होि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lush.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lush था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 162,
+      "word": "voluminous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्र्वश ल",
+        "भ री-भरकम"
+      ],
+      "englishDefinition": "Having or marked by great volume or bulk.",
+      "pronunciation": {
+        "ipa": "/voluminous/",
+        "simple": "VOLUM-inous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably voluminous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्र्वश ल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "delude",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वश ल",
+            "भ री-भरकम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was delude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण delude था।"
+            }
+          ]
+        },
+        {
+          "word": "verdant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वश ल",
+            "भ री-भरकम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verdant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verdant था।"
+            }
+          ]
+        },
+        {
+          "word": "lush",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वश ल",
+            "भ री-भरकम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lush.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lush था।"
+            }
+          ]
+        },
+        {
+          "word": "luxuriate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्र्वश ल",
+            "भ री-भरकम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was luxuriate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण luxuriate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 163,
+      "word": "voluble",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ब तूिी",
+        "र्व ि ल"
+      ],
+      "englishDefinition": "Characterized by ready or rapid speech (mnemonic: volume).",
+      "pronunciation": {
+        "ipa": "/voluble/",
+        "simple": "VOL-uble"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably voluble.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ब तूिी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "verdant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब तूिी",
+            "र्व ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verdant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verdant था।"
+            }
+          ]
+        },
+        {
+          "word": "lush",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब तूिी",
+            "र्व ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lush.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lush था।"
+            }
+          ]
+        },
+        {
+          "word": "luxuriate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब तूिी",
+            "र्व ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was luxuriate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण luxuriate था।"
+            }
+          ]
+        },
+        {
+          "word": "voluminous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ब तूिी",
+            "र्व ि ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluminous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluminous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 164,
+      "word": "affectation",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "बिावि",
+        "नदखावा"
+      ],
+      "englishDefinition": "Speech or conduct not natural to one's self: an unnatural form of",
+      "pronunciation": {
+        "ipa": "/affectation/",
+        "simple": "AFFEC-tation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of affectation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बिावि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lush",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बिावि",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lush.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lush था।"
+            }
+          ]
+        },
+        {
+          "word": "luxuriate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बिावि",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was luxuriate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण luxuriate था।"
+            }
+          ]
+        },
+        {
+          "word": "voluminous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बिावि",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluminous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluminous था।"
+            }
+          ]
+        },
+        {
+          "word": "voluble",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बिावि",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluble था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 165,
+      "word": "affection",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "थिेह",
+        "लग र्व"
+      ],
+      "englishDefinition": "A feeling of liking and caring for someone or something.",
+      "pronunciation": {
+        "ipa": "/affection/",
+        "simple": "AFFE-ction"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of affection in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में थिेह के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "luxuriate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "थिेह",
+            "लग र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was luxuriate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण luxuriate था।"
+            }
+          ]
+        },
+        {
+          "word": "voluminous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "थिेह",
+            "लग र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluminous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluminous था।"
+            }
+          ]
+        },
+        {
+          "word": "voluble",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "थिेह",
+            "लग र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluble था।"
+            }
+          ]
+        },
+        {
+          "word": "affectation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "थिेह",
+            "लग र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affectation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affectation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 166,
+      "word": "swanky",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "भड़कील",
+        "स्दख र्वटी"
+      ],
+      "englishDefinition": "Fashionably elegant or ostentatious (mnemonic: swaang/drama).",
+      "pronunciation": {
+        "ipa": "/swanky/",
+        "simple": "SWA-nky"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably swanky.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से भड़कील थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "voluminous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भड़कील",
+            "स्दख र्वटी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluminous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluminous था।"
+            }
+          ]
+        },
+        {
+          "word": "voluble",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भड़कील",
+            "स्दख र्वटी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluble था।"
+            }
+          ]
+        },
+        {
+          "word": "affectation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भड़कील",
+            "स्दख र्वटी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affectation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affectation था।"
+            }
+          ]
+        },
+        {
+          "word": "affection",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भड़कील",
+            "स्दख र्वटी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affection था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 167,
+      "word": "flaunt",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "इतर ि",
+        "श ि स्दख ि"
+      ],
+      "englishDefinition": "To display or obtrude oneself to public notice.",
+      "pronunciation": {
+        "ipa": "/flaunt/",
+        "simple": "FLA-unt"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to flaunt the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को इतर ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "voluble",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इतर ि",
+            "श ि स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was voluble.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण voluble था।"
+            }
+          ]
+        },
+        {
+          "word": "affectation",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इतर ि",
+            "श ि स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affectation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affectation था।"
+            }
+          ]
+        },
+        {
+          "word": "affection",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इतर ि",
+            "श ि स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affection था।"
+            }
+          ]
+        },
+        {
+          "word": "swanky",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "इतर ि",
+            "श ि स्दख ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swanky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swanky था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 168,
+      "word": "sham",
+      "partOfSpeech": [
+        "n",
+        "adj"
+      ],
+      "hindiMeaning": [
+        "ढोंग",
+        "नदखावा",
+        "िकली"
+      ],
+      "englishDefinition": "Something that is not what it purports to be; a fraud (mnemonic:",
+      "pronunciation": {
+        "ipa": "/sham/",
+        "simple": "SHAM"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sham.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से ढोंग थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "affectation",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ढोंग",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affectation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affectation था।"
+            }
+          ]
+        },
+        {
+          "word": "affection",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ढोंग",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affection था।"
+            }
+          ]
+        },
+        {
+          "word": "swanky",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ढोंग",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swanky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swanky था।"
+            }
+          ]
+        },
+        {
+          "word": "flaunt",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "ढोंग",
+            "नदखावा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flaunt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flaunt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 169,
+      "word": "pretense",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "बह ि",
+        "ढोंग"
+      ],
+      "englishDefinition": "A claim made or implied; especially one not supported by fact.",
+      "pronunciation": {
+        "ipa": "/pretense/",
+        "simple": "PRET-ense"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pretense in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बह ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "affection",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बह ि",
+            "ढोंग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affection.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affection था।"
+            }
+          ]
+        },
+        {
+          "word": "swanky",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बह ि",
+            "ढोंग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swanky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swanky था।"
+            }
+          ]
+        },
+        {
+          "word": "flaunt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बह ि",
+            "ढोंग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flaunt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flaunt था।"
+            }
+          ]
+        },
+        {
+          "word": "sham",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बह ि",
+            "ढोंग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sham.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sham था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 170,
+      "word": "sophistry",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कु तकि",
+        "स्मथ्य  तकि  (स्दख र्व )"
+      ],
+      "englishDefinition": "Subtly deceptive reasoning or argumentation.",
+      "pronunciation": {
+        "ipa": "/sophistry/",
+        "simple": "SOPH-istry"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sophistry in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कु तकि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "swanky",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कु तकि",
+            "स्मथ्य  तकि  (स्दख र्व )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was swanky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण swanky था।"
+            }
+          ]
+        },
+        {
+          "word": "flaunt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कु तकि",
+            "स्मथ्य  तकि  (स्दख र्व )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flaunt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flaunt था।"
+            }
+          ]
+        },
+        {
+          "word": "sham",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कु तकि",
+            "स्मथ्य  तकि  (स्दख र्व )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sham.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sham था।"
+            }
+          ]
+        },
+        {
+          "word": "pretense",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कु तकि",
+            "स्मथ्य  तकि  (स्दख र्व )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pretense.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pretense था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 171,
+      "word": "ostentation",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "तड़क-भड़क",
+        "िुम इश"
+      ],
+      "englishDefinition": "Excessive display (mnemonic: 10/10 marks).",
+      "pronunciation": {
+        "ipa": "/ostentation/",
+        "simple": "OSTEN-tation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ostentation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में तड़क-भड़क के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "flaunt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "तड़क-भड़क",
+            "िुम इश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was flaunt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण flaunt था।"
+            }
+          ]
+        },
+        {
+          "word": "sham",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "तड़क-भड़क",
+            "िुम इश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sham.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sham था।"
+            }
+          ]
+        },
+        {
+          "word": "pretense",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "तड़क-भड़क",
+            "िुम इश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pretense.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pretense था।"
+            }
+          ]
+        },
+        {
+          "word": "sophistry",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "तड़क-भड़क",
+            "िुम इश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sophistry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sophistry था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 172,
+      "word": "veracity",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "सच्ि ई",
+        "सत्यर्व स्दत"
+      ],
+      "englishDefinition": "Devotion to the truth; truthfulness.",
+      "pronunciation": {
+        "ipa": "/veracity/",
+        "simple": "VERA-city"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of veracity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सच्ि ई के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sham",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सच्ि ई",
+            "सत्यर्व स्दत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sham.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sham था।"
+            }
+          ]
+        },
+        {
+          "word": "pretense",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सच्ि ई",
+            "सत्यर्व स्दत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pretense.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pretense था।"
+            }
+          ]
+        },
+        {
+          "word": "sophistry",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सच्ि ई",
+            "सत्यर्व स्दत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sophistry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sophistry था।"
+            }
+          ]
+        },
+        {
+          "word": "ostentation",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "सच्ि ई",
+            "सत्यर्व स्दत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ostentation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ostentation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 173,
+      "word": "comely",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Comely"
+      ],
+      "englishDefinition": "Pleasurably conforming to notions of good appearance, suitability, or",
+      "pronunciation": {
+        "ipa": "/comely/",
+        "simple": "COM-ely"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably comely.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Comely थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pretense",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comely"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pretense.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pretense था।"
+            }
+          ]
+        },
+        {
+          "word": "sophistry",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comely"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sophistry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sophistry था।"
+            }
+          ]
+        },
+        {
+          "word": "ostentation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comely"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ostentation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ostentation था।"
+            }
+          ]
+        },
+        {
+          "word": "veracity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Comely"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veracity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veracity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 174,
+      "word": "pulchritudinous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अत्यांत सुांदर"
+      ],
+      "englishDefinition": "Marked by physical beauty (mnemonic: Pulkit/flower).",
+      "pronunciation": {
+        "ipa": "/pulchritudinous/",
+        "simple": "PULCHRI-tudinous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably pulchritudinous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अत्यांत सुांदर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sophistry",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत सुांदर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sophistry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sophistry था।"
+            }
+          ]
+        },
+        {
+          "word": "ostentation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत सुांदर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ostentation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ostentation था।"
+            }
+          ]
+        },
+        {
+          "word": "veracity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत सुांदर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veracity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veracity था।"
+            }
+          ]
+        },
+        {
+          "word": "comely",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत सुांदर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comely था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 175,
+      "word": "hideous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Hideous"
+      ],
+      "englishDefinition": "Offensive to the senses and especially to sight; exceedingly ugly",
+      "pronunciation": {
+        "ipa": "/hideous/",
+        "simple": "HID-eous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably hideous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Hideous थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ostentation",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Hideous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ostentation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ostentation था।"
+            }
+          ]
+        },
+        {
+          "word": "veracity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Hideous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veracity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veracity था।"
+            }
+          ]
+        },
+        {
+          "word": "comely",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Hideous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comely.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comely था।"
+            }
+          ]
+        },
+        {
+          "word": "pulchritudinous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Hideous"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pulchritudinous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pulchritudinous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

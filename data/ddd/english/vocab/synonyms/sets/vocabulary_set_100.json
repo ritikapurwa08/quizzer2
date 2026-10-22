@@ -1,0 +1,2308 @@
+{
+  "setId": "vocabulary_set_100",
+  "setNumber": 100,
+  "title": "Vocabulary Set 100 — Unchaste to Crest",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2476,
+      "word": "unchaste",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "अशुद्ध",
+        "चररत्रहीि",
+        "व्यनभचारी"
+      ],
+      "englishDefinition": "chaste; sexually immoral. 97",
+      "pronunciation": {
+        "ipa": "/unchaste/",
+        "simple": "UNCH-aste"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of unchaste in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अशुद्ध के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lascivious",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अशुद्ध",
+            "चररत्रहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lascivious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lascivious था।"
+            }
+          ]
+        },
+        {
+          "word": "libertine",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अशुद्ध",
+            "चररत्रहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was libertine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण libertine था।"
+            }
+          ]
+        },
+        {
+          "word": "wanton",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अशुद्ध",
+            "चररत्रहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wanton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wanton था।"
+            }
+          ]
+        },
+        {
+          "word": "ribald",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अशुद्ध",
+            "चररत्रहीि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ribald.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ribald था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2477,
+      "word": "lewd",
+      "partOfSpeech": [
+        "Crude"
+      ],
+      "hindiMeaning": [
+        "कामुक",
+        "अश्लील",
+        "भद्दा"
+      ],
+      "englishDefinition": "and offensive in a sexual way. 98",
+      "pronunciation": {
+        "ipa": "/lewd/",
+        "simple": "LEWD"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of lewd in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कामुक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "libertine",
+          "partOfSpeech": [
+            "Crude"
+          ],
+          "hindiMeaning": [
+            "कामुक",
+            "अश्लील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was libertine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण libertine था।"
+            }
+          ]
+        },
+        {
+          "word": "wanton",
+          "partOfSpeech": [
+            "Crude"
+          ],
+          "hindiMeaning": [
+            "कामुक",
+            "अश्लील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wanton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wanton था।"
+            }
+          ]
+        },
+        {
+          "word": "ribald",
+          "partOfSpeech": [
+            "Crude"
+          ],
+          "hindiMeaning": [
+            "कामुक",
+            "अश्लील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ribald.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ribald था।"
+            }
+          ]
+        },
+        {
+          "word": "unchaste",
+          "partOfSpeech": [
+            "Crude"
+          ],
+          "hindiMeaning": [
+            "कामुक",
+            "अश्लील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unchaste.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unchaste था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2478,
+      "word": "suave",
+      "partOfSpeech": [
+        "Adj"
+      ],
+      "hindiMeaning": [
+        "स्शष्ट",
+        "स्र्विम्र",
+        "मधुरभ षी"
+      ],
+      "englishDefinition": "Charming, confident, and elegant (especially of a man). 100",
+      "pronunciation": {
+        "ipa": "/suave/",
+        "simple": "SU-ave"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably suave.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्शष्ट थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "wanton",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "स्शष्ट",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was wanton.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण wanton था।"
+            }
+          ]
+        },
+        {
+          "word": "ribald",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "स्शष्ट",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ribald.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ribald था।"
+            }
+          ]
+        },
+        {
+          "word": "unchaste",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "स्शष्ट",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unchaste.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unchaste था।"
+            }
+          ]
+        },
+        {
+          "word": "lewd",
+          "partOfSpeech": [
+            "Adj"
+          ],
+          "hindiMeaning": [
+            "स्शष्ट",
+            "स्र्विम्र"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lewd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lewd था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2479,
+      "word": "civilized",
+      "partOfSpeech": [
+        "Having"
+      ],
+      "hindiMeaning": [
+        "सभ्य",
+        "स्शष्ट",
+        "सांथक री"
+      ],
+      "englishDefinition": "an advanced culture; polite and well-mannered. 103",
+      "pronunciation": {
+        "ipa": "/civilized/",
+        "simple": "CIVI-lized"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to civilized the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को सभ्य करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ribald",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "सभ्य",
+            "स्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ribald.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ribald था।"
+            }
+          ]
+        },
+        {
+          "word": "unchaste",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "सभ्य",
+            "स्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unchaste.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unchaste था।"
+            }
+          ]
+        },
+        {
+          "word": "lewd",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "सभ्य",
+            "स्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lewd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lewd था।"
+            }
+          ]
+        },
+        {
+          "word": "suave",
+          "partOfSpeech": [
+            "Having"
+          ],
+          "hindiMeaning": [
+            "सभ्य",
+            "स्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suave.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suave था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2480,
+      "word": "impudent",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "ढीठ",
+        "अस्शष्ट",
+        "बेशमि"
+      ],
+      "englishDefinition": "showing due respect for another person; impertinent. 108",
+      "pronunciation": {
+        "ipa": "/impudent/",
+        "simple": "IMPU-dent"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impudent in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ढीठ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "unchaste",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अस्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was unchaste.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण unchaste था।"
+            }
+          ]
+        },
+        {
+          "word": "lewd",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अस्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lewd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lewd था।"
+            }
+          ]
+        },
+        {
+          "word": "suave",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अस्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suave.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suave था।"
+            }
+          ]
+        },
+        {
+          "word": "civilized",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अस्शष्ट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was civilized.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण civilized था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2481,
+      "word": "rude",
+      "partOfSpeech": [
+        "Offensively"
+      ],
+      "hindiMeaning": [
+        "अस्शष्ट",
+        "असभ्य",
+        "अभद्र"
+      ],
+      "englishDefinition": "impolite or ill-mannered. 109",
+      "pronunciation": {
+        "ipa": "/rude/",
+        "simple": "RUDE"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to rude the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अस्शष्ट करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lewd",
+          "partOfSpeech": [
+            "Offensively"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lewd.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lewd था।"
+            }
+          ]
+        },
+        {
+          "word": "suave",
+          "partOfSpeech": [
+            "Offensively"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suave.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suave था।"
+            }
+          ]
+        },
+        {
+          "word": "civilized",
+          "partOfSpeech": [
+            "Offensively"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was civilized.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण civilized था।"
+            }
+          ]
+        },
+        {
+          "word": "impudent",
+          "partOfSpeech": [
+            "Offensively"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impudent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impudent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2482,
+      "word": "impolite",
+      "partOfSpeech": [
+        "Not"
+      ],
+      "hindiMeaning": [
+        "अस्शष्ट",
+        "असभ्य",
+        "अभद्र"
+      ],
+      "englishDefinition": "polite; rude. 111",
+      "pronunciation": {
+        "ipa": "/impolite/",
+        "simple": "IMPO-lite"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impolite in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अस्शष्ट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "suave",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was suave.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण suave था।"
+            }
+          ]
+        },
+        {
+          "word": "civilized",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was civilized.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण civilized था।"
+            }
+          ]
+        },
+        {
+          "word": "impudent",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impudent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impudent था।"
+            }
+          ]
+        },
+        {
+          "word": "rude",
+          "partOfSpeech": [
+            "Not"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rude था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2483,
+      "word": "impertinent",
+      "partOfSpeech": [
+        "Rude"
+      ],
+      "hindiMeaning": [
+        "गुस्िाख़",
+        "ढीठ",
+        "असंबद्ध"
+      ],
+      "englishDefinition": "and disrespectful; not showing proper respect. 112",
+      "pronunciation": {
+        "ipa": "/impertinent/",
+        "simple": "IMPER-tinent"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impertinent in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गुस्िाख़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "civilized",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was civilized.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण civilized था।"
+            }
+          ]
+        },
+        {
+          "word": "impudent",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impudent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impudent था।"
+            }
+          ]
+        },
+        {
+          "word": "rude",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rude था।"
+            }
+          ]
+        },
+        {
+          "word": "impolite",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impolite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impolite था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2484,
+      "word": "discourteous",
+      "partOfSpeech": [
+        "Showing"
+      ],
+      "hindiMeaning": [
+        "अस्शष्ट",
+        "असभ्य",
+        "उद्दांड"
+      ],
+      "englishDefinition": "rudeness and a lack of consideration. 113",
+      "pronunciation": {
+        "ipa": "/discourteous/",
+        "simple": "DISCOU-rteous"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of discourteous in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अस्शष्ट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impudent",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impudent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impudent था।"
+            }
+          ]
+        },
+        {
+          "word": "rude",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rude था।"
+            }
+          ]
+        },
+        {
+          "word": "impolite",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impolite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impolite था।"
+            }
+          ]
+        },
+        {
+          "word": "impertinent",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "अस्शष्ट",
+            "असभ्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impertinent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impertinent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2485,
+      "word": "insolent",
+      "partOfSpeech": [
+        "Showing"
+      ],
+      "hindiMeaning": [
+        "उद्दांड",
+        "ढीठ",
+        "घमांडी"
+      ],
+      "englishDefinition": "a rude and arrogant lack of respect. 114",
+      "pronunciation": {
+        "ipa": "/insolent/",
+        "simple": "INSO-lent"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of insolent in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में उद्दांड के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "rude",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "उद्दांड",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was rude.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण rude था।"
+            }
+          ]
+        },
+        {
+          "word": "impolite",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "उद्दांड",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impolite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impolite था।"
+            }
+          ]
+        },
+        {
+          "word": "impertinent",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "उद्दांड",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impertinent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impertinent था।"
+            }
+          ]
+        },
+        {
+          "word": "discourteous",
+          "partOfSpeech": [
+            "Showing"
+          ],
+          "hindiMeaning": [
+            "उद्दांड",
+            "ढीठ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discourteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discourteous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2486,
+      "word": "cheeky",
+      "partOfSpeech": [
+        "Impertinently"
+      ],
+      "hindiMeaning": [
+        "गुस्िाख़",
+        "शरारिी",
+        "बेअदब"
+      ],
+      "englishDefinition": "bold; saucy. 115",
+      "pronunciation": {
+        "ipa": "/cheeky/",
+        "simple": "CHE-eky"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of cheeky in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में गुस्िाख़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impolite",
+          "partOfSpeech": [
+            "Impertinently"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "शरारिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impolite.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impolite था।"
+            }
+          ]
+        },
+        {
+          "word": "impertinent",
+          "partOfSpeech": [
+            "Impertinently"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "शरारिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impertinent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impertinent था।"
+            }
+          ]
+        },
+        {
+          "word": "discourteous",
+          "partOfSpeech": [
+            "Impertinently"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "शरारिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discourteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discourteous था।"
+            }
+          ]
+        },
+        {
+          "word": "insolent",
+          "partOfSpeech": [
+            "Impertinently"
+          ],
+          "hindiMeaning": [
+            "गुस्िाख़",
+            "शरारिी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insolent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2487,
+      "word": "effrontery",
+      "partOfSpeech": [
+        "Rude"
+      ],
+      "hindiMeaning": [
+        "बेशमी",
+        "धृष्टिा",
+        "गुस्िाख़ी"
+      ],
+      "englishDefinition": "and disrespectful behavior; shameless boldness. 116",
+      "pronunciation": {
+        "ipa": "/effrontery/",
+        "simple": "EFFRO-ntery"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of effrontery in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बेशमी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impertinent",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "बेशमी",
+            "धृष्टिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impertinent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impertinent था।"
+            }
+          ]
+        },
+        {
+          "word": "discourteous",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "बेशमी",
+            "धृष्टिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discourteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discourteous था।"
+            }
+          ]
+        },
+        {
+          "word": "insolent",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "बेशमी",
+            "धृष्टिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insolent था।"
+            }
+          ]
+        },
+        {
+          "word": "cheeky",
+          "partOfSpeech": [
+            "Rude"
+          ],
+          "hindiMeaning": [
+            "बेशमी",
+            "धृष्टिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cheeky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cheeky था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2488,
+      "word": "brash",
+      "partOfSpeech": [
+        "Word"
+      ],
+      "hindiMeaning": [
+        "ढीठ",
+        "अक्खड़",
+        "अहांक री"
+      ],
+      "englishDefinition": "Self-assertive in a rude, noisy, or overbearing way. 117",
+      "pronunciation": {
+        "ipa": "/brash/",
+        "simple": "BR-ash"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of brash in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ढीठ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "discourteous",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अक्खड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was discourteous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण discourteous था।"
+            }
+          ]
+        },
+        {
+          "word": "insolent",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अक्खड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insolent था।"
+            }
+          ]
+        },
+        {
+          "word": "cheeky",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अक्खड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cheeky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cheeky था।"
+            }
+          ]
+        },
+        {
+          "word": "effrontery",
+          "partOfSpeech": [
+            "Word"
+          ],
+          "hindiMeaning": [
+            "ढीठ",
+            "अक्खड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effrontery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effrontery था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2489,
+      "word": "apogee",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "पर क ष्ठ",
+        "िरम सीम",
+        "सर्वोच्ि स्बांदु"
+      ],
+      "englishDefinition": "highest point in the development; a climax. 118",
+      "pronunciation": {
+        "ipa": "/apogee/",
+        "simple": "APO-gee"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of apogee in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पर क ष्ठ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "insolent",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पर क ष्ठ",
+            "िरम सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insolent था।"
+            }
+          ]
+        },
+        {
+          "word": "cheeky",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पर क ष्ठ",
+            "िरम सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cheeky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cheeky था।"
+            }
+          ]
+        },
+        {
+          "word": "effrontery",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पर क ष्ठ",
+            "िरम सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effrontery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effrontery था।"
+            }
+          ]
+        },
+        {
+          "word": "brash",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पर क ष्ठ",
+            "िरम सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brash था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2490,
+      "word": "pinnacle",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्शखर",
+        "िरम स्बांदु",
+        "पर क ष्ठ"
+      ],
+      "englishDefinition": "most successful point; a climax. 119",
+      "pronunciation": {
+        "ipa": "/pinnacle/",
+        "simple": "PINN-acle"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pinnacle in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्शखर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cheeky",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cheeky.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cheeky था।"
+            }
+          ]
+        },
+        {
+          "word": "effrontery",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effrontery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effrontery था।"
+            }
+          ]
+        },
+        {
+          "word": "brash",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brash था।"
+            }
+          ]
+        },
+        {
+          "word": "apogee",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apogee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apogee था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2491,
+      "word": "climax",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "चरम सीमा",
+        "पराकाष्ठा",
+        "उत्कर्य"
+      ],
+      "englishDefinition": "most intense, exciting, or important point. 120",
+      "pronunciation": {
+        "ipa": "/climax/",
+        "simple": "CLI-max"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of climax in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चरम सीमा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "effrontery",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चरम सीमा",
+            "पराकाष्ठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was effrontery.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण effrontery था।"
+            }
+          ]
+        },
+        {
+          "word": "brash",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चरम सीमा",
+            "पराकाष्ठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brash था।"
+            }
+          ]
+        },
+        {
+          "word": "apogee",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चरम सीमा",
+            "पराकाष्ठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apogee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apogee था।"
+            }
+          ]
+        },
+        {
+          "word": "pinnacle",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चरम सीमा",
+            "पराकाष्ठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pinnacle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pinnacle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2492,
+      "word": "supreme",
+      "partOfSpeech": [
+        "Superior"
+      ],
+      "hindiMeaning": [
+        "सर्वोच्ि",
+        "परम",
+        "श्रेष्ठतम"
+      ],
+      "englishDefinition": "to all others; highest in authority or rank. 121",
+      "pronunciation": {
+        "ipa": "/supreme/",
+        "simple": "SUP-reme"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of supreme in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सर्वोच्ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "brash",
+          "partOfSpeech": [
+            "Superior"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "परम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was brash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण brash था।"
+            }
+          ]
+        },
+        {
+          "word": "apogee",
+          "partOfSpeech": [
+            "Superior"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "परम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apogee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apogee था।"
+            }
+          ]
+        },
+        {
+          "word": "pinnacle",
+          "partOfSpeech": [
+            "Superior"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "परम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pinnacle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pinnacle था।"
+            }
+          ]
+        },
+        {
+          "word": "climax",
+          "partOfSpeech": [
+            "Superior"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "परम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was climax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण climax था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2493,
+      "word": "peak",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "िोटी",
+        "स्शखर",
+        "उत्कषि"
+      ],
+      "englishDefinition": "point of highest level, value, or achievement. 122",
+      "pronunciation": {
+        "ipa": "/peak/",
+        "simple": "PEAK"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of peak in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िोटी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "apogee",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "िोटी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apogee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apogee था।"
+            }
+          ]
+        },
+        {
+          "word": "pinnacle",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "िोटी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pinnacle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pinnacle था।"
+            }
+          ]
+        },
+        {
+          "word": "climax",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "िोटी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was climax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण climax था।"
+            }
+          ]
+        },
+        {
+          "word": "supreme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "िोटी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supreme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supreme था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2494,
+      "word": "apex",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्शखर",
+        "िोक",
+        "िरम स्बांदु"
+      ],
+      "englishDefinition": "top or highest part of something; the climax. 123",
+      "pronunciation": {
+        "ipa": "/apex/",
+        "simple": "APEX"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of apex in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्शखर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pinnacle",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pinnacle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pinnacle था।"
+            }
+          ]
+        },
+        {
+          "word": "climax",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was climax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण climax था।"
+            }
+          ]
+        },
+        {
+          "word": "supreme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supreme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supreme था।"
+            }
+          ]
+        },
+        {
+          "word": "peak",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "िोक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peak.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peak था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2495,
+      "word": "paramount",
+      "partOfSpeech": [
+        "More"
+      ],
+      "hindiMeaning": [
+        "सर्वोच्ि",
+        "प्रध ि",
+        "अस्त महत्र्वपूर्ि"
+      ],
+      "englishDefinition": "important than anything else; supreme. 124",
+      "pronunciation": {
+        "ipa": "/paramount/",
+        "simple": "PARA-mount"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of paramount in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सर्वोच्ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "climax",
+          "partOfSpeech": [
+            "More"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "प्रध ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was climax.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण climax था।"
+            }
+          ]
+        },
+        {
+          "word": "supreme",
+          "partOfSpeech": [
+            "More"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "प्रध ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supreme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supreme था।"
+            }
+          ]
+        },
+        {
+          "word": "peak",
+          "partOfSpeech": [
+            "More"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "प्रध ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peak.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peak था।"
+            }
+          ]
+        },
+        {
+          "word": "apex",
+          "partOfSpeech": [
+            "More"
+          ],
+          "hindiMeaning": [
+            "सर्वोच्ि",
+            "प्रध ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apex था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2496,
+      "word": "acme",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "उत्कषि",
+        "िरम स्बांदु",
+        "पर क ष्ठ"
+      ],
+      "englishDefinition": "point at which something is best or most developed. 125",
+      "pronunciation": {
+        "ipa": "/acme/",
+        "simple": "ACME"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of acme in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में उत्कषि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "supreme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "उत्कषि",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supreme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supreme था।"
+            }
+          ]
+        },
+        {
+          "word": "peak",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "उत्कषि",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peak.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peak था।"
+            }
+          ]
+        },
+        {
+          "word": "apex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "उत्कषि",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apex था।"
+            }
+          ]
+        },
+        {
+          "word": "paramount",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "उत्कषि",
+            "िरम स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paramount.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paramount था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2497,
+      "word": "culmination",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "पराकाष्ठा",
+        "निष्कर्य",
+        "समापि"
+      ],
+      "englishDefinition": "highest or climactic point, especially after a long time. 126",
+      "pronunciation": {
+        "ipa": "/culmination/",
+        "simple": "CULMI-nation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of culmination in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पराकाष्ठा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "peak",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पराकाष्ठा",
+            "निष्कर्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was peak.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण peak था।"
+            }
+          ]
+        },
+        {
+          "word": "apex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पराकाष्ठा",
+            "निष्कर्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apex था।"
+            }
+          ]
+        },
+        {
+          "word": "paramount",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पराकाष्ठा",
+            "निष्कर्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paramount.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paramount था।"
+            }
+          ]
+        },
+        {
+          "word": "acme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "पराकाष्ठा",
+            "निष्कर्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acme था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2498,
+      "word": "vertex",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्शखर",
+        "शीषि स्बांदु"
+      ],
+      "englishDefinition": "highest point or top of a hill or structure. 127",
+      "pronunciation": {
+        "ipa": "/vertex/",
+        "simple": "VER-tex"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of vertex in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्शखर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "apex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "शीषि स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was apex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण apex था।"
+            }
+          ]
+        },
+        {
+          "word": "paramount",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "शीषि स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paramount.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paramount था।"
+            }
+          ]
+        },
+        {
+          "word": "acme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "शीषि स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acme था।"
+            }
+          ]
+        },
+        {
+          "word": "culmination",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्शखर",
+            "शीषि स्बांदु"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culmination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culmination था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2499,
+      "word": "summit",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "चोिी",
+        "नशखर",
+        "सम्मेलि"
+      ],
+      "englishDefinition": "highest point of a hill/mountain; meeting of heads of govt.",
+      "pronunciation": {
+        "ipa": "/summit/",
+        "simple": "SUM-mit"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of summit in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में चोिी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "paramount",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चोिी",
+            "नशखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paramount.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paramount था।"
+            }
+          ]
+        },
+        {
+          "word": "acme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चोिी",
+            "नशखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acme था।"
+            }
+          ]
+        },
+        {
+          "word": "culmination",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चोिी",
+            "नशखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culmination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culmination था।"
+            }
+          ]
+        },
+        {
+          "word": "vertex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "चोिी",
+            "नशखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vertex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vertex था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2500,
+      "word": "crest",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "कलँगी",
+        "स्शखर",
+        "िोटी"
+      ],
+      "englishDefinition": "top of a mountain or hill. 129",
+      "pronunciation": {
+        "ipa": "/crest/",
+        "simple": "CR-est"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of crest in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कलँगी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "acme",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "कलँगी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was acme.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण acme था।"
+            }
+          ]
+        },
+        {
+          "word": "culmination",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "कलँगी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was culmination.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण culmination था।"
+            }
+          ]
+        },
+        {
+          "word": "vertex",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "कलँगी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vertex.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vertex था।"
+            }
+          ]
+        },
+        {
+          "word": "summit",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "कलँगी",
+            "स्शखर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was summit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण summit था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

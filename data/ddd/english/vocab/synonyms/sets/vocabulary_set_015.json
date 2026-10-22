@@ -1,0 +1,2266 @@
+{
+  "setId": "vocabulary_set_015",
+  "setNumber": 15,
+  "title": "Vocabulary Set 015 — Perspicuous to Circumlocution",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 351,
+      "word": "perspicuous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "सुस्पष्ट",
+        "बोधगम्य",
+        "साफ"
+      ],
+      "englishDefinition": "(Mnemonic: Pic) Plain to the understanding especially because of clarity and precision of",
+      "pronunciation": {
+        "ipa": "/perspicuous/",
+        "simple": "PERSP-icuous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably perspicuous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सुस्पष्ट थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "turbid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्पष्ट",
+            "बोधगम्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was turbid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण turbid था।"
+            }
+          ]
+        },
+        {
+          "word": "comprehensible",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्पष्ट",
+            "बोधगम्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comprehensible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comprehensible था।"
+            }
+          ]
+        },
+        {
+          "word": "limpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्पष्ट",
+            "बोधगम्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was limpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण limpid था।"
+            }
+          ]
+        },
+        {
+          "word": "lucid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सुस्पष्ट",
+            "बोधगम्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 352,
+      "word": "pellucid",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "पारदशी",
+        "निमयल",
+        "स्पष्ट"
+      ],
+      "englishDefinition": "Easy to understand.",
+      "pronunciation": {
+        "ipa": "/pellucid/",
+        "simple": "PELL-ucid"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably pellucid.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से पारदशी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "comprehensible",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पारदशी",
+            "निमयल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comprehensible.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comprehensible था।"
+            }
+          ]
+        },
+        {
+          "word": "limpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पारदशी",
+            "निमयल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was limpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण limpid था।"
+            }
+          ]
+        },
+        {
+          "word": "lucid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पारदशी",
+            "निमयल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucid था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पारदशी",
+            "निमयल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicuous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 353,
+      "word": "explicit",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्पष्ट",
+        "साफ-साफ",
+        "प्रत्यक्ष"
+      ],
+      "englishDefinition": "Fully revealed or expressed without vagueness.",
+      "pronunciation": {
+        "ipa": "/explicit/",
+        "simple": "EXPL-icit"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably explicit.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्पष्ट थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "limpid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट",
+            "साफ-साफ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was limpid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण limpid था।"
+            }
+          ]
+        },
+        {
+          "word": "lucid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट",
+            "साफ-साफ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucid था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट",
+            "साफ-साफ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicuous था।"
+            }
+          ]
+        },
+        {
+          "word": "pellucid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्पष्ट",
+            "साफ-साफ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pellucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pellucid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 354,
+      "word": "captive",
+      "partOfSpeech": [
+        "n",
+        "adj"
+      ],
+      "hindiMeaning": [
+        "बांदी",
+        "गुल म"
+      ],
+      "englishDefinition": "(Mnemonic: Kapti) Taken and held as or as if a prisoner.",
+      "pronunciation": {
+        "ipa": "/captive/",
+        "simple": "CAP-tive"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably captive.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से बांदी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "lucid",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बांदी",
+            "गुल म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lucid था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicuous",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बांदी",
+            "गुल म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicuous था।"
+            }
+          ]
+        },
+        {
+          "word": "pellucid",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बांदी",
+            "गुल म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pellucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pellucid था।"
+            }
+          ]
+        },
+        {
+          "word": "explicit",
+          "partOfSpeech": [
+            "n",
+            "adj"
+          ],
+          "hindiMeaning": [
+            "बांदी",
+            "गुल म"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was explicit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण explicit था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 355,
+      "word": "captivity",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कै द",
+        "गुल मी"
+      ],
+      "englishDefinition": "The state of being kept as a captive.",
+      "pronunciation": {
+        "ipa": "/captivity/",
+        "simple": "CAPT-ivity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of captivity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कै द के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perspicuous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "गुल मी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicuous था।"
+            }
+          ]
+        },
+        {
+          "word": "pellucid",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "गुल मी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pellucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pellucid था।"
+            }
+          ]
+        },
+        {
+          "word": "explicit",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "गुल मी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was explicit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण explicit था।"
+            }
+          ]
+        },
+        {
+          "word": "captive",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "गुल मी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captive था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 356,
+      "word": "captivate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "मोस्हत करि",
+        "मांिमुग्ध करि"
+      ],
+      "englishDefinition": "To influence and dominate by some special charm.",
+      "pronunciation": {
+        "ipa": "/captivate/",
+        "simple": "CAPT-ivate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to captivate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को मोस्हत करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pellucid",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मोस्हत करि",
+            "मांिमुग्ध करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pellucid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pellucid था।"
+            }
+          ]
+        },
+        {
+          "word": "explicit",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मोस्हत करि",
+            "मांिमुग्ध करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was explicit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण explicit था।"
+            }
+          ]
+        },
+        {
+          "word": "captive",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मोस्हत करि",
+            "मांिमुग्ध करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captive था।"
+            }
+          ]
+        },
+        {
+          "word": "captivity",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "मोस्हत करि",
+            "मांिमुग्ध करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 357,
+      "word": "bondage",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "द सत",
+        "बांधि"
+      ],
+      "englishDefinition": "(Mnemonic: Bond) The state of being under the control of another.",
+      "pronunciation": {
+        "ipa": "/bondage/",
+        "simple": "BON-dage"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of bondage in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में द सत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "explicit",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "द सत",
+            "बांधि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was explicit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण explicit था।"
+            }
+          ]
+        },
+        {
+          "word": "captive",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "द सत",
+            "बांधि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captive था।"
+            }
+          ]
+        },
+        {
+          "word": "captivity",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "द सत",
+            "बांधि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivity था।"
+            }
+          ]
+        },
+        {
+          "word": "captivate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "द सत",
+            "बांधि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 358,
+      "word": "incarceration",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Incarceration"
+      ],
+      "englishDefinition": "(Mnemonic: In",
+      "pronunciation": {
+        "ipa": "/incarceration/",
+        "simple": "INCARC-eration"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of incarceration in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Incarceration के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "captive",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Incarceration"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captive था।"
+            }
+          ]
+        },
+        {
+          "word": "captivity",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Incarceration"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivity था।"
+            }
+          ]
+        },
+        {
+          "word": "captivate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Incarceration"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivate था।"
+            }
+          ]
+        },
+        {
+          "word": "bondage",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Incarceration"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bondage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bondage था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 359,
+      "word": "confinement",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कै द",
+        "सीम"
+      ],
+      "englishDefinition": "The state of being confined; restriction.",
+      "pronunciation": {
+        "ipa": "/confinement/",
+        "simple": "CONFI-nement"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of confinement in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कै द के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "captivity",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivity था।"
+            }
+          ]
+        },
+        {
+          "word": "captivate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivate था।"
+            }
+          ]
+        },
+        {
+          "word": "bondage",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bondage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bondage था।"
+            }
+          ]
+        },
+        {
+          "word": "incarceration",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कै द",
+            "सीम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incarceration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incarceration था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 360,
+      "word": "serfdom",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Serfdom"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/serfdom/",
+        "simple": "SER-fdom"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of serfdom in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Serfdom के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "captivate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Serfdom"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was captivate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण captivate था।"
+            }
+          ]
+        },
+        {
+          "word": "bondage",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Serfdom"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bondage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bondage था।"
+            }
+          ]
+        },
+        {
+          "word": "incarceration",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Serfdom"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incarceration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incarceration था।"
+            }
+          ]
+        },
+        {
+          "word": "confinement",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Serfdom"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confinement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confinement था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 361,
+      "word": "impoundment",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Impoundment"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/impoundment/",
+        "simple": "IMPOU-ndment"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of impoundment in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Impoundment के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "bondage",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impoundment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was bondage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण bondage था।"
+            }
+          ]
+        },
+        {
+          "word": "incarceration",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impoundment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incarceration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incarceration था।"
+            }
+          ]
+        },
+        {
+          "word": "confinement",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impoundment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confinement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confinement था।"
+            }
+          ]
+        },
+        {
+          "word": "serfdom",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Impoundment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was serfdom.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण serfdom था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 362,
+      "word": "internment",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Internment"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/internment/",
+        "simple": "INTER-nment"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of internment in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Internment के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "incarceration",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Internment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was incarceration.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण incarceration था।"
+            }
+          ]
+        },
+        {
+          "word": "confinement",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Internment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confinement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confinement था।"
+            }
+          ]
+        },
+        {
+          "word": "serfdom",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Internment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was serfdom.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण serfdom था।"
+            }
+          ]
+        },
+        {
+          "word": "impoundment",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Internment"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impoundment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impoundment था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 363,
+      "word": "hostage",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "Hostage"
+      ],
+      "englishDefinition": "A person held by one party in a conflict as a pledge that promises will be",
+      "pronunciation": {
+        "ipa": "/hostage/",
+        "simple": "HOS-tage"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hostage in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में Hostage के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "confinement",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hostage"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confinement.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confinement था।"
+            }
+          ]
+        },
+        {
+          "word": "serfdom",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hostage"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was serfdom.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण serfdom था।"
+            }
+          ]
+        },
+        {
+          "word": "impoundment",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hostage"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impoundment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impoundment था।"
+            }
+          ]
+        },
+        {
+          "word": "internment",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "Hostage"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was internment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण internment था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 364,
+      "word": "clandestine",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "नछपा हुआ",
+        "चोरी-नछपे"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/clandestine/",
+        "simple": "CLAND-estine"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably clandestine.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "serfdom",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "नछपा हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was serfdom.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण serfdom था।"
+            }
+          ]
+        },
+        {
+          "word": "impoundment",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "नछपा हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impoundment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impoundment था।"
+            }
+          ]
+        },
+        {
+          "word": "internment",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "नछपा हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was internment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण internment था।"
+            }
+          ]
+        },
+        {
+          "word": "hostage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "नछपा हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hostage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hostage था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 365,
+      "word": "surreptitious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "चुपके  से",
+        "नछपा हुआ"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/surreptitious/",
+        "simple": "SURREP-titious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably surreptitious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "impoundment",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was impoundment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण impoundment था।"
+            }
+          ]
+        },
+        {
+          "word": "internment",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was internment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण internment था।"
+            }
+          ]
+        },
+        {
+          "word": "hostage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hostage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hostage था।"
+            }
+          ]
+        },
+        {
+          "word": "clandestine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clandestine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clandestine था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 366,
+      "word": "stealthy",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "िुपके  से"
+      ],
+      "englishDefinition": "(Mnemonic: Steal) Slow, deliberate, and secret in action or character.",
+      "pronunciation": {
+        "ipa": "/stealthy/",
+        "simple": "STEA-lthy"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably stealthy.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "internment",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "िुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was internment.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण internment था।"
+            }
+          ]
+        },
+        {
+          "word": "hostage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "िुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hostage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hostage था।"
+            }
+          ]
+        },
+        {
+          "word": "clandestine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "िुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clandestine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clandestine था।"
+            }
+          ]
+        },
+        {
+          "word": "surreptitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "िुपके  से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surreptitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surreptitious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 367,
+      "word": "covert",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "अप्रकि",
+        "नछपा हुआ"
+      ],
+      "englishDefinition": "(Mnemonic: Cover) Not openly shown, engaged in, or avowed.",
+      "pronunciation": {
+        "ipa": "/covert/",
+        "simple": "COV-ert"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably covert.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hostage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "अप्रकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hostage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hostage था।"
+            }
+          ]
+        },
+        {
+          "word": "clandestine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "अप्रकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clandestine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clandestine था।"
+            }
+          ]
+        },
+        {
+          "word": "surreptitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "अप्रकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surreptitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surreptitious था।"
+            }
+          ]
+        },
+        {
+          "word": "stealthy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "अप्रकि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealthy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealthy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 368,
+      "word": "furtive",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "गुप्त",
+        "चुपके  से नकया गया",
+        "नछपा हुआ"
+      ],
+      "englishDefinition": "(Mnemonic: Fur) Done in a quiet and secretive way to avoid being noticed.",
+      "pronunciation": {
+        "ipa": "/furtive/",
+        "simple": "FUR-tive"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably furtive.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से गुप्त थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "clandestine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से नकया गया"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was clandestine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण clandestine था।"
+            }
+          ]
+        },
+        {
+          "word": "surreptitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से नकया गया"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surreptitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surreptitious था।"
+            }
+          ]
+        },
+        {
+          "word": "stealthy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से नकया गया"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealthy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealthy था।"
+            }
+          ]
+        },
+        {
+          "word": "covert",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "गुप्त",
+            "चुपके  से नकया गया"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was covert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण covert था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 369,
+      "word": "ulterior",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Ulterior"
+      ],
+      "englishDefinition": "Going beyond what is openly said or shown and especially what is",
+      "pronunciation": {
+        "ipa": "/ulterior/",
+        "simple": "ULTE-rior"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably ulterior.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Ulterior थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "surreptitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ulterior"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surreptitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surreptitious था।"
+            }
+          ]
+        },
+        {
+          "word": "stealthy",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ulterior"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealthy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealthy था।"
+            }
+          ]
+        },
+        {
+          "word": "covert",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ulterior"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was covert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण covert था।"
+            }
+          ]
+        },
+        {
+          "word": "furtive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Ulterior"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was furtive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण furtive था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 370,
+      "word": "camouflage",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "िल र्वरर्",
+        "स्िप ि"
+      ],
+      "englishDefinition": "To hide or disguise the presence of.",
+      "pronunciation": {
+        "ipa": "/camouflage/",
+        "simple": "CAMOU-flage"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to camouflage the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को िल र्वरर् करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stealthy",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िल र्वरर्",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stealthy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stealthy था।"
+            }
+          ]
+        },
+        {
+          "word": "covert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िल र्वरर्",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was covert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण covert था।"
+            }
+          ]
+        },
+        {
+          "word": "furtive",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िल र्वरर्",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was furtive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण furtive था।"
+            }
+          ]
+        },
+        {
+          "word": "ulterior",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िल र्वरर्",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ulterior.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ulterior था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 371,
+      "word": "veil",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "घूांघट ड लि",
+        "स्िप ि"
+      ],
+      "englishDefinition": "To cover, provide, obscure, or conceal with or as if with a veil.",
+      "pronunciation": {
+        "ipa": "/veil/",
+        "simple": "VEIL"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to veil the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को घूांघट ड लि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "covert",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घूांघट ड लि",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was covert.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण covert था।"
+            }
+          ]
+        },
+        {
+          "word": "furtive",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घूांघट ड लि",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was furtive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण furtive था।"
+            }
+          ]
+        },
+        {
+          "word": "ulterior",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घूांघट ड लि",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ulterior.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ulterior था।"
+            }
+          ]
+        },
+        {
+          "word": "camouflage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घूांघट ड लि",
+            "स्िप ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was camouflage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण camouflage था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 372,
+      "word": "lurk",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "घ त लग ि",
+        "स्िपे रहि"
+      ],
+      "englishDefinition": "To lie in wait in a place of concealment especially for an evil purpose.",
+      "pronunciation": {
+        "ipa": "/lurk/",
+        "simple": "LURK"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to lurk the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को घ त लग ि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "furtive",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घ त लग ि",
+            "स्िपे रहि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was furtive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण furtive था।"
+            }
+          ]
+        },
+        {
+          "word": "ulterior",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घ त लग ि",
+            "स्िपे रहि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ulterior.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ulterior था।"
+            }
+          ]
+        },
+        {
+          "word": "camouflage",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घ त लग ि",
+            "स्िपे रहि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was camouflage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण camouflage था।"
+            }
+          ]
+        },
+        {
+          "word": "veil",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "घ त लग ि",
+            "स्िपे रहि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veil.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veil था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 373,
+      "word": "overt",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "खुल",
+        "प्रत्यक्ष"
+      ],
+      "englishDefinition": "Open to view or knowledge; not concealed or secret.",
+      "pronunciation": {
+        "ipa": "/overt/",
+        "simple": "OV-ert"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably overt.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से खुल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ulterior",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खुल",
+            "प्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ulterior.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ulterior था।"
+            }
+          ]
+        },
+        {
+          "word": "camouflage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खुल",
+            "प्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was camouflage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण camouflage था।"
+            }
+          ]
+        },
+        {
+          "word": "veil",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खुल",
+            "प्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veil.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veil था।"
+            }
+          ]
+        },
+        {
+          "word": "lurk",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खुल",
+            "प्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lurk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lurk था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 374,
+      "word": "aboveboard",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "स्िरकपट",
+        "थपष्ट (खुल  खेल)"
+      ],
+      "englishDefinition": "Free from all traces of deception or duplicity.",
+      "pronunciation": {
+        "ipa": "/aboveboard/",
+        "simple": "ABOVE-board"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably aboveboard.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से स्िरकपट थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "camouflage",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िरकपट",
+            "थपष्ट (खुल  खेल)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was camouflage.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण camouflage था।"
+            }
+          ]
+        },
+        {
+          "word": "veil",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िरकपट",
+            "थपष्ट (खुल  खेल)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veil.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veil था।"
+            }
+          ]
+        },
+        {
+          "word": "lurk",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िरकपट",
+            "थपष्ट (खुल  खेल)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lurk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lurk था।"
+            }
+          ]
+        },
+        {
+          "word": "overt",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "स्िरकपट",
+            "थपष्ट (खुल  खेल)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 375,
+      "word": "circumlocution",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "घुमावदार बाि",
+        "वाक् -जाल"
+      ],
+      "englishDefinition": "(Mnemonic:",
+      "pronunciation": {
+        "ipa": "/circumlocution/",
+        "simple": "CIRCUML-ocution"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of circumlocution in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में घुमावदार बाि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "veil",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "घुमावदार बाि",
+            "वाक् -जाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was veil.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण veil था।"
+            }
+          ]
+        },
+        {
+          "word": "lurk",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "घुमावदार बाि",
+            "वाक् -जाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was lurk.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण lurk था।"
+            }
+          ]
+        },
+        {
+          "word": "overt",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "घुमावदार बाि",
+            "वाक् -जाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was overt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण overt था।"
+            }
+          ]
+        },
+        {
+          "word": "aboveboard",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "घुमावदार बाि",
+            "वाक् -जाल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was aboveboard.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण aboveboard था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

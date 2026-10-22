@@ -1,0 +1,2290 @@
+{
+  "setId": "vocabulary_set_074",
+  "setNumber": 74,
+  "title": "Vocabulary Set 074 — Confirm to Current",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1826,
+      "word": "confirm",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "पुस्ष्ट करि",
+        "सत्य स्पत करि"
+      ],
+      "englishDefinition": "establish the truth or correctness of something; to verify. 56",
+      "pronunciation": {
+        "ipa": "/confirm/",
+        "simple": "CON-firm"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of confirm in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुस्ष्ट करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ensure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "सत्य स्पत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ensure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ensure था।"
+            }
+          ]
+        },
+        {
+          "word": "assure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "सत्य स्पत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assure था।"
+            }
+          ]
+        },
+        {
+          "word": "verified",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "सत्य स्पत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verified था।"
+            }
+          ]
+        },
+        {
+          "word": "insure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "पुस्ष्ट करि",
+            "सत्य स्पत करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insure था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1827,
+      "word": "guarantee",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "ग रांटी देि",
+        "ज़म ित देि"
+      ],
+      "englishDefinition": "provide a formal promise/assurance; to secure. 57",
+      "pronunciation": {
+        "ipa": "/guarantee/",
+        "simple": "GUAR-antee"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of guarantee in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ग रांटी देि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "assure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ग रांटी देि",
+            "ज़म ित देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assure था।"
+            }
+          ]
+        },
+        {
+          "word": "verified",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ग रांटी देि",
+            "ज़म ित देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verified था।"
+            }
+          ]
+        },
+        {
+          "word": "insure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ग रांटी देि",
+            "ज़म ित देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insure था।"
+            }
+          ]
+        },
+        {
+          "word": "confirm",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "ग रांटी देि",
+            "ज़म ित देि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confirm.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confirm था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1828,
+      "word": "verify",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "सत्यानपि करिा",
+        "जाुँचिा"
+      ],
+      "englishDefinition": "make sure or demonstrate that something is true or accurate.",
+      "pronunciation": {
+        "ipa": "/verify/",
+        "simple": "VER-ify"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of verify in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सत्यानपि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "verified",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सत्यानपि करिा",
+            "जाुँचिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verified.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verified था।"
+            }
+          ]
+        },
+        {
+          "word": "insure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सत्यानपि करिा",
+            "जाुँचिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insure था।"
+            }
+          ]
+        },
+        {
+          "word": "confirm",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सत्यानपि करिा",
+            "जाुँचिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confirm.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confirm था।"
+            }
+          ]
+        },
+        {
+          "word": "guarantee",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सत्यानपि करिा",
+            "जाुँचिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guarantee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guarantee था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1829,
+      "word": "secure",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "सुरस्क्षत करि",
+        "ह स्सल करि"
+      ],
+      "englishDefinition": "fix/attach firmly; to obtain with effort; to protect. 59",
+      "pronunciation": {
+        "ipa": "/secure/",
+        "simple": "SEC-ure"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of secure in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सुरस्क्षत करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "insure",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सुरस्क्षत करि",
+            "ह स्सल करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was insure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण insure था।"
+            }
+          ]
+        },
+        {
+          "word": "confirm",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सुरस्क्षत करि",
+            "ह स्सल करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confirm.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confirm था।"
+            }
+          ]
+        },
+        {
+          "word": "guarantee",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सुरस्क्षत करि",
+            "ह स्सल करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guarantee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guarantee था।"
+            }
+          ]
+        },
+        {
+          "word": "verify",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "सुरस्क्षत करि",
+            "ह स्सल करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1830,
+      "word": "condolence",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "शोक व्यक्त करिा",
+        "संवेदिा"
+      ],
+      "englishDefinition": "expression of sympathy, especially on the occasion of death.",
+      "pronunciation": {
+        "ipa": "/condolence/",
+        "simple": "CONDO-lence"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of condolence in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शोक व्यक्त करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "confirm",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "शोक व्यक्त करिा",
+            "संवेदिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was confirm.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण confirm था।"
+            }
+          ]
+        },
+        {
+          "word": "guarantee",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "शोक व्यक्त करिा",
+            "संवेदिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guarantee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guarantee था।"
+            }
+          ]
+        },
+        {
+          "word": "verify",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "शोक व्यक्त करिा",
+            "संवेदिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verify था।"
+            }
+          ]
+        },
+        {
+          "word": "secure",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "शोक व्यक्त करिा",
+            "संवेदिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secure था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1831,
+      "word": "mollification",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "शांत करि",
+        "िोध भ र्व"
+      ],
+      "englishDefinition": "action of appeasing anger or anxiety; soothing. 62",
+      "pronunciation": {
+        "ipa": "/mollification/",
+        "simple": "MOLLIF-ication"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of mollification in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शांत करि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "guarantee",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "िोध भ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was guarantee.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण guarantee था।"
+            }
+          ]
+        },
+        {
+          "word": "verify",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "िोध भ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verify था।"
+            }
+          ]
+        },
+        {
+          "word": "secure",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "िोध भ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secure था।"
+            }
+          ]
+        },
+        {
+          "word": "condolence",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "िोध भ र्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condolence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condolence था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1832,
+      "word": "sympathy",
+      "partOfSpeech": [
+        "Feelings"
+      ],
+      "hindiMeaning": [
+        "सह िुभूस्त",
+        "दय"
+      ],
+      "englishDefinition": "of pity and sorrow for someone else's misfortune. 63",
+      "pronunciation": {
+        "ipa": "/sympathy/",
+        "simple": "SYMP-athy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of sympathy in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सह िुभूस्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "verify",
+          "partOfSpeech": [
+            "Feelings"
+          ],
+          "hindiMeaning": [
+            "सह िुभूस्त",
+            "दय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was verify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण verify था।"
+            }
+          ]
+        },
+        {
+          "word": "secure",
+          "partOfSpeech": [
+            "Feelings"
+          ],
+          "hindiMeaning": [
+            "सह िुभूस्त",
+            "दय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secure था।"
+            }
+          ]
+        },
+        {
+          "word": "condolence",
+          "partOfSpeech": [
+            "Feelings"
+          ],
+          "hindiMeaning": [
+            "सह िुभूस्त",
+            "दय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condolence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condolence था।"
+            }
+          ]
+        },
+        {
+          "word": "mollification",
+          "partOfSpeech": [
+            "Feelings"
+          ],
+          "hindiMeaning": [
+            "सह िुभूस्त",
+            "दय"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollification.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollification था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1833,
+      "word": "empathy",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "सम िुभूस्त",
+        "तद्रूपत"
+      ],
+      "englishDefinition": "ability to understand and share the feelings of another. 64",
+      "pronunciation": {
+        "ipa": "/empathy/",
+        "simple": "EMP-athy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of empathy in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सम िुभूस्त के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "secure",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम िुभूस्त",
+            "तद्रूपत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was secure.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण secure था।"
+            }
+          ]
+        },
+        {
+          "word": "condolence",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम िुभूस्त",
+            "तद्रूपत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condolence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condolence था।"
+            }
+          ]
+        },
+        {
+          "word": "mollification",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम िुभूस्त",
+            "तद्रूपत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollification.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollification था।"
+            }
+          ]
+        },
+        {
+          "word": "sympathy",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "सम िुभूस्त",
+            "तद्रूपत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sympathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sympathy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1834,
+      "word": "comfort",
+      "partOfSpeech": [
+        "State"
+      ],
+      "hindiMeaning": [
+        "आर म",
+        "स ांत्र्वि"
+      ],
+      "englishDefinition": "of ease and freedom from pain; consolation. 66",
+      "pronunciation": {
+        "ipa": "/comfort/",
+        "simple": "COM-fort"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of comfort in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आर म के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "condolence",
+          "partOfSpeech": [
+            "State"
+          ],
+          "hindiMeaning": [
+            "आर म",
+            "स ांत्र्वि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was condolence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण condolence था।"
+            }
+          ]
+        },
+        {
+          "word": "mollification",
+          "partOfSpeech": [
+            "State"
+          ],
+          "hindiMeaning": [
+            "आर म",
+            "स ांत्र्वि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollification.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollification था।"
+            }
+          ]
+        },
+        {
+          "word": "sympathy",
+          "partOfSpeech": [
+            "State"
+          ],
+          "hindiMeaning": [
+            "आर म",
+            "स ांत्र्वि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sympathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sympathy था।"
+            }
+          ]
+        },
+        {
+          "word": "empathy",
+          "partOfSpeech": [
+            "State"
+          ],
+          "hindiMeaning": [
+            "आर म",
+            "स ांत्र्वि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empathy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1835,
+      "word": "soothe",
+      "partOfSpeech": [
+        "To"
+      ],
+      "hindiMeaning": [
+        "शांि करिा",
+        "आराम देिा"
+      ],
+      "englishDefinition": "gently calm a person or feelings; to relieve pain. 68",
+      "pronunciation": {
+        "ipa": "/soothe/",
+        "simple": "SOO-the"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of soothe in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शांि करिा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mollification",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "शांि करिा",
+            "आराम देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollification.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollification था।"
+            }
+          ]
+        },
+        {
+          "word": "sympathy",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "शांि करिा",
+            "आराम देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sympathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sympathy था।"
+            }
+          ]
+        },
+        {
+          "word": "empathy",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "शांि करिा",
+            "आराम देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empathy था।"
+            }
+          ]
+        },
+        {
+          "word": "comfort",
+          "partOfSpeech": [
+            "To"
+          ],
+          "hindiMeaning": [
+            "शांि करिा",
+            "आराम देिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comfort.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comfort था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1836,
+      "word": "vestige",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "अर्वशेष",
+        "स्िह्न",
+        "स्िश ि"
+      ],
+      "englishDefinition": "trace of something disappearing or that no longer exists. 69",
+      "pronunciation": {
+        "ipa": "/vestige/",
+        "simple": "VES-tige"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of vestige in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अर्वशेष के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sympathy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "स्िह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sympathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sympathy था।"
+            }
+          ]
+        },
+        {
+          "word": "empathy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "स्िह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empathy था।"
+            }
+          ]
+        },
+        {
+          "word": "comfort",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "स्िह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comfort.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comfort था।"
+            }
+          ]
+        },
+        {
+          "word": "soothe",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "स्िह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soothe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soothe था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1837,
+      "word": "trace",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "निशाि",
+        "पदनचह्न",
+        "थोड़ी मात्रा"
+      ],
+      "englishDefinition": "mark, object, or indication of existence; a very small amount. 70",
+      "pronunciation": {
+        "ipa": "/trace/",
+        "simple": "TR-ace"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of trace in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में निशाि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "empathy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "निशाि",
+            "पदनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was empathy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण empathy था।"
+            }
+          ]
+        },
+        {
+          "word": "comfort",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "निशाि",
+            "पदनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comfort.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comfort था।"
+            }
+          ]
+        },
+        {
+          "word": "soothe",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "निशाि",
+            "पदनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soothe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soothe था।"
+            }
+          ]
+        },
+        {
+          "word": "vestige",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "निशाि",
+            "पदनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vestige.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vestige था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1838,
+      "word": "ruins",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "खांडहर",
+        "अर्वशेष"
+      ],
+      "englishDefinition": "remains of a building that has suffered much damage. 71",
+      "pronunciation": {
+        "ipa": "/ruins/",
+        "simple": "RU-ins"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of ruins in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में खांडहर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "comfort",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "खांडहर",
+            "अर्वशेष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was comfort.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण comfort था।"
+            }
+          ]
+        },
+        {
+          "word": "soothe",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "खांडहर",
+            "अर्वशेष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soothe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soothe था।"
+            }
+          ]
+        },
+        {
+          "word": "vestige",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "खांडहर",
+            "अर्वशेष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vestige.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vestige था।"
+            }
+          ]
+        },
+        {
+          "word": "trace",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "खांडहर",
+            "अर्वशेष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trace.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trace था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1839,
+      "word": "remains",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "अवशेर्",
+        "बचे हुए भाग"
+      ],
+      "englishDefinition": "parts of something left over after others have been removed.",
+      "pronunciation": {
+        "ipa": "/remains/",
+        "simple": "REM-ains"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of remains in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अवशेर् के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "soothe",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बचे हुए भाग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soothe.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soothe था।"
+            }
+          ]
+        },
+        {
+          "word": "vestige",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बचे हुए भाग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vestige.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vestige था।"
+            }
+          ]
+        },
+        {
+          "word": "trace",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बचे हुए भाग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trace.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trace था।"
+            }
+          ]
+        },
+        {
+          "word": "ruins",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बचे हुए भाग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruins.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruins था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1840,
+      "word": "remnants",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "अर्वशेष",
+        "बि  हुआ भ ग"
+      ],
+      "englishDefinition": "small remaining quantity of something; a surviving trace. 73",
+      "pronunciation": {
+        "ipa": "/remnants/",
+        "simple": "REMN-ants"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of remnants in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अर्वशेष के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "vestige",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "बि  हुआ भ ग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was vestige.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण vestige था।"
+            }
+          ]
+        },
+        {
+          "word": "trace",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "बि  हुआ भ ग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trace.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trace था।"
+            }
+          ]
+        },
+        {
+          "word": "ruins",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "बि  हुआ भ ग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruins.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruins था।"
+            }
+          ]
+        },
+        {
+          "word": "remains",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अर्वशेष",
+            "बि  हुआ भ ग"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remains था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1841,
+      "word": "signs",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "नचह्न",
+        "संके ि"
+      ],
+      "englishDefinition": "object/quality/event whose presence indicates something",
+      "pronunciation": {
+        "ipa": "/signs/",
+        "simple": "SI-gns"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of signs in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में नचह्न के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "trace",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "नचह्न",
+            "संके ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was trace.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण trace था।"
+            }
+          ]
+        },
+        {
+          "word": "ruins",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "नचह्न",
+            "संके ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruins.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruins था।"
+            }
+          ]
+        },
+        {
+          "word": "remains",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "नचह्न",
+            "संके ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remains था।"
+            }
+          ]
+        },
+        {
+          "word": "remnants",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "नचह्न",
+            "संके ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remnants.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remnants था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1842,
+      "word": "relics",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "पुरावशेर्",
+        "स्मृनिनचह्न"
+      ],
+      "englishDefinition": "object surviving from an earlier time, esp. of historical",
+      "pronunciation": {
+        "ipa": "/relics/",
+        "simple": "REL-ics"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of relics in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पुरावशेर् के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ruins",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पुरावशेर्",
+            "स्मृनिनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ruins.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ruins था।"
+            }
+          ]
+        },
+        {
+          "word": "remains",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पुरावशेर्",
+            "स्मृनिनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remains था।"
+            }
+          ]
+        },
+        {
+          "word": "remnants",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पुरावशेर्",
+            "स्मृनिनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remnants.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remnants था।"
+            }
+          ]
+        },
+        {
+          "word": "signs",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "पुरावशेर्",
+            "स्मृनिनचह्न"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was signs.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण signs था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1843,
+      "word": "debris",
+      "partOfSpeech": [
+        "Scattered"
+      ],
+      "hindiMeaning": [
+        "मलबा",
+        "िुकड़े"
+      ],
+      "englishDefinition": "fragments, typically of something wrecked or",
+      "pronunciation": {
+        "ipa": "/debris/",
+        "simple": "DEB-ris"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of debris in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मलबा के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "remains",
+          "partOfSpeech": [
+            "Scattered"
+          ],
+          "hindiMeaning": [
+            "मलबा",
+            "िुकड़े"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remains था।"
+            }
+          ]
+        },
+        {
+          "word": "remnants",
+          "partOfSpeech": [
+            "Scattered"
+          ],
+          "hindiMeaning": [
+            "मलबा",
+            "िुकड़े"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remnants.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remnants था।"
+            }
+          ]
+        },
+        {
+          "word": "signs",
+          "partOfSpeech": [
+            "Scattered"
+          ],
+          "hindiMeaning": [
+            "मलबा",
+            "िुकड़े"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was signs.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण signs था।"
+            }
+          ]
+        },
+        {
+          "word": "relics",
+          "partOfSpeech": [
+            "Scattered"
+          ],
+          "hindiMeaning": [
+            "मलबा",
+            "िुकड़े"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was relics.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण relics था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1844,
+      "word": "scrap",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "टुकड़",
+        "अांश"
+      ],
+      "englishDefinition": "small piece or amount of something left over. 77",
+      "pronunciation": {
+        "ipa": "/scrap/",
+        "simple": "SC-rap"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of scrap in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में टुकड़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "remnants",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "टुकड़",
+            "अांश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was remnants.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण remnants था।"
+            }
+          ]
+        },
+        {
+          "word": "signs",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "टुकड़",
+            "अांश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was signs.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण signs था।"
+            }
+          ]
+        },
+        {
+          "word": "relics",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "टुकड़",
+            "अांश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was relics.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण relics था।"
+            }
+          ]
+        },
+        {
+          "word": "debris",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "टुकड़",
+            "अांश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debris.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debris था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1845,
+      "word": "residue",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "अवशेर्",
+        "बाकी"
+      ],
+      "englishDefinition": "small amount of something that remains after the main part",
+      "pronunciation": {
+        "ipa": "/residue/",
+        "simple": "RES-idue"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of residue in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अवशेर् के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "signs",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बाकी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was signs.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण signs था।"
+            }
+          ]
+        },
+        {
+          "word": "relics",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बाकी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was relics.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण relics था।"
+            }
+          ]
+        },
+        {
+          "word": "debris",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बाकी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debris.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debris था।"
+            }
+          ]
+        },
+        {
+          "word": "scrap",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "अवशेर्",
+            "बाकी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrap.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrap था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1846,
+      "word": "native",
+      "partOfSpeech": [
+        "Associated"
+      ],
+      "hindiMeaning": [
+        "देशी",
+        "जन्मजाि",
+        "मूल"
+      ],
+      "englishDefinition": "with the place of birth; belonging to a place by birth.",
+      "pronunciation": {
+        "ipa": "/native/",
+        "simple": "NAT-ive"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of native in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में देशी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "relics",
+          "partOfSpeech": [
+            "Associated"
+          ],
+          "hindiMeaning": [
+            "देशी",
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was relics.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण relics था।"
+            }
+          ]
+        },
+        {
+          "word": "debris",
+          "partOfSpeech": [
+            "Associated"
+          ],
+          "hindiMeaning": [
+            "देशी",
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debris.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debris था।"
+            }
+          ]
+        },
+        {
+          "word": "scrap",
+          "partOfSpeech": [
+            "Associated"
+          ],
+          "hindiMeaning": [
+            "देशी",
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrap.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrap था।"
+            }
+          ]
+        },
+        {
+          "word": "residue",
+          "partOfSpeech": [
+            "Associated"
+          ],
+          "hindiMeaning": [
+            "देशी",
+            "जन्मजाि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was residue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण residue था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1847,
+      "word": "indigenous",
+      "partOfSpeech": [
+        "Originating"
+      ],
+      "hindiMeaning": [
+        "देशज",
+        "मूल स्िर्व सी"
+      ],
+      "englishDefinition": "or occurring naturally in a particular place; native. 83",
+      "pronunciation": {
+        "ipa": "/indigenous/",
+        "simple": "INDIG-enous"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of indigenous in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में देशज के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "debris",
+          "partOfSpeech": [
+            "Originating"
+          ],
+          "hindiMeaning": [
+            "देशज",
+            "मूल स्िर्व सी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was debris.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण debris था।"
+            }
+          ]
+        },
+        {
+          "word": "scrap",
+          "partOfSpeech": [
+            "Originating"
+          ],
+          "hindiMeaning": [
+            "देशज",
+            "मूल स्िर्व सी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrap.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrap था।"
+            }
+          ]
+        },
+        {
+          "word": "residue",
+          "partOfSpeech": [
+            "Originating"
+          ],
+          "hindiMeaning": [
+            "देशज",
+            "मूल स्िर्व सी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was residue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण residue था।"
+            }
+          ]
+        },
+        {
+          "word": "native",
+          "partOfSpeech": [
+            "Originating"
+          ],
+          "hindiMeaning": [
+            "देशज",
+            "मूल स्िर्व सी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was native.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण native था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1848,
+      "word": "primordial",
+      "partOfSpeech": [
+        "Existing"
+      ],
+      "hindiMeaning": [
+        "आस्दम",
+        "मौस्लक",
+        "मूल"
+      ],
+      "englishDefinition": "at or from the very beginning; basic and fundamental. 85",
+      "pronunciation": {
+        "ipa": "/primordial/",
+        "simple": "PRIMO-rdial"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of primordial in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आस्दम के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scrap",
+          "partOfSpeech": [
+            "Existing"
+          ],
+          "hindiMeaning": [
+            "आस्दम",
+            "मौस्लक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scrap.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scrap था।"
+            }
+          ]
+        },
+        {
+          "word": "residue",
+          "partOfSpeech": [
+            "Existing"
+          ],
+          "hindiMeaning": [
+            "आस्दम",
+            "मौस्लक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was residue.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण residue था।"
+            }
+          ]
+        },
+        {
+          "word": "native",
+          "partOfSpeech": [
+            "Existing"
+          ],
+          "hindiMeaning": [
+            "आस्दम",
+            "मौस्लक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was native.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण native था।"
+            }
+          ]
+        },
+        {
+          "word": "indigenous",
+          "partOfSpeech": [
+            "Existing"
+          ],
+          "hindiMeaning": [
+            "आस्दम",
+            "मौस्लक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indigenous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indigenous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1849,
+      "word": "novel",
+      "partOfSpeech": [
+        "New"
+      ],
+      "hindiMeaning": [
+        "िया",
+        "अिूठा",
+        "अिोखा"
+      ],
+      "englishDefinition": "and not resembling something formerly known; original or",
+      "pronunciation": {
+        "ipa": "/novel/",
+        "simple": "NO-vel"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of novel in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िया के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "native",
+          "partOfSpeech": [
+            "New"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "अिूठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was native.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण native था।"
+            }
+          ]
+        },
+        {
+          "word": "indigenous",
+          "partOfSpeech": [
+            "New"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "अिूठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indigenous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indigenous था।"
+            }
+          ]
+        },
+        {
+          "word": "primordial",
+          "partOfSpeech": [
+            "New"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "अिूठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was primordial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण primordial था।"
+            }
+          ]
+        },
+        {
+          "word": "original",
+          "partOfSpeech": [
+            "New"
+          ],
+          "hindiMeaning": [
+            "िया",
+            "अिूठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was original.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण original था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1850,
+      "word": "current",
+      "partOfSpeech": [
+        "Belonging"
+      ],
+      "hindiMeaning": [
+        "र्वतिम ि",
+        "मौजूद",
+        "त ज़"
+      ],
+      "englishDefinition": "to the present time; happening or being used now. 90",
+      "pronunciation": {
+        "ipa": "/current/",
+        "simple": "CUR-rent"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of current in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में र्वतिम ि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "indigenous",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "र्वतिम ि",
+            "मौजूद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was indigenous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण indigenous था।"
+            }
+          ]
+        },
+        {
+          "word": "primordial",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "र्वतिम ि",
+            "मौजूद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was primordial.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण primordial था।"
+            }
+          ]
+        },
+        {
+          "word": "original",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "र्वतिम ि",
+            "मौजूद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was original.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण original था।"
+            }
+          ]
+        },
+        {
+          "word": "novel",
+          "partOfSpeech": [
+            "Belonging"
+          ],
+          "hindiMeaning": [
+            "र्वतिम ि",
+            "मौजूद"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was novel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण novel था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

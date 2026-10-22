@@ -1,0 +1,2297 @@
+{
+  "setId": "vocabulary_set_094",
+  "setNumber": 94,
+  "title": "Vocabulary Set 094 — Twinge to Nefarious",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 2326,
+      "word": "twinge",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "तीख  ददि",
+        "िुभि"
+      ],
+      "englishDefinition": "sudden, sharp localized pain.",
+      "pronunciation": {
+        "ipa": "/twinge/",
+        "simple": "TWI-nge"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of twinge in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में तीख  ददि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "ache",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "तीख  ददि",
+            "िुभि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ache.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ache था।"
+            }
+          ]
+        },
+        {
+          "word": "sorrow",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "तीख  ददि",
+            "िुभि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sorrow.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sorrow था।"
+            }
+          ]
+        },
+        {
+          "word": "pang",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "तीख  ददि",
+            "िुभि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pang.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pang था।"
+            }
+          ]
+        },
+        {
+          "word": "anguish",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "तीख  ददि",
+            "िुभि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was anguish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण anguish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2327,
+      "word": "affliction",
+      "partOfSpeech": [
+        "Something"
+      ],
+      "hindiMeaning": [
+        "कष्ट",
+        "पीड़",
+        "रोग"
+      ],
+      "englishDefinition": "that causes pain or suffering.",
+      "pronunciation": {
+        "ipa": "/affliction/",
+        "simple": "AFFLI-ction"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of affliction in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कष्ट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sorrow",
+          "partOfSpeech": [
+            "Something"
+          ],
+          "hindiMeaning": [
+            "कष्ट",
+            "पीड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sorrow.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sorrow था।"
+            }
+          ]
+        },
+        {
+          "word": "pang",
+          "partOfSpeech": [
+            "Something"
+          ],
+          "hindiMeaning": [
+            "कष्ट",
+            "पीड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pang.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pang था।"
+            }
+          ]
+        },
+        {
+          "word": "anguish",
+          "partOfSpeech": [
+            "Something"
+          ],
+          "hindiMeaning": [
+            "कष्ट",
+            "पीड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was anguish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण anguish था।"
+            }
+          ]
+        },
+        {
+          "word": "twinge",
+          "partOfSpeech": [
+            "Something"
+          ],
+          "hindiMeaning": [
+            "कष्ट",
+            "पीड़"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was twinge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण twinge था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2328,
+      "word": "calamity",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "आपद",
+        "स्र्वपस्त्त",
+        "सांकट"
+      ],
+      "englishDefinition": "event causing great and sudden damage.",
+      "pronunciation": {
+        "ipa": "/calamity/",
+        "simple": "CALA-mity"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of calamity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में आपद के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pang",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "आपद",
+            "स्र्वपस्त्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pang.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pang था।"
+            }
+          ]
+        },
+        {
+          "word": "anguish",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "आपद",
+            "स्र्वपस्त्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was anguish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण anguish था।"
+            }
+          ]
+        },
+        {
+          "word": "twinge",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "आपद",
+            "स्र्वपस्त्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was twinge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण twinge था।"
+            }
+          ]
+        },
+        {
+          "word": "affliction",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "आपद",
+            "स्र्वपस्त्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affliction.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affliction था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2329,
+      "word": "grief",
+      "partOfSpeech": [
+        "Deep"
+      ],
+      "hindiMeaning": [
+        "शोक",
+        "दुःख",
+        "स्र्वल प"
+      ],
+      "englishDefinition": "and poignant distress caused by bereavement.",
+      "pronunciation": {
+        "ipa": "/grief/",
+        "simple": "GR-ief"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of grief in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शोक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "anguish",
+          "partOfSpeech": [
+            "Deep"
+          ],
+          "hindiMeaning": [
+            "शोक",
+            "दुःख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was anguish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण anguish था।"
+            }
+          ]
+        },
+        {
+          "word": "twinge",
+          "partOfSpeech": [
+            "Deep"
+          ],
+          "hindiMeaning": [
+            "शोक",
+            "दुःख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was twinge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण twinge था।"
+            }
+          ]
+        },
+        {
+          "word": "affliction",
+          "partOfSpeech": [
+            "Deep"
+          ],
+          "hindiMeaning": [
+            "शोक",
+            "दुःख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affliction.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affliction था।"
+            }
+          ]
+        },
+        {
+          "word": "calamity",
+          "partOfSpeech": [
+            "Deep"
+          ],
+          "hindiMeaning": [
+            "शोक",
+            "दुःख"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was calamity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण calamity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2330,
+      "word": "recession",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "मांदी",
+        "आस्ििक स्गर र्वट"
+      ],
+      "englishDefinition": "period of temporary economic decline.",
+      "pronunciation": {
+        "ipa": "/recession/",
+        "simple": "RECE-ssion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of recession in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में मांदी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "twinge",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "मांदी",
+            "आस्ििक स्गर र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was twinge.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण twinge था।"
+            }
+          ]
+        },
+        {
+          "word": "affliction",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "मांदी",
+            "आस्ििक स्गर र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affliction.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affliction था।"
+            }
+          ]
+        },
+        {
+          "word": "calamity",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "मांदी",
+            "आस्ििक स्गर र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was calamity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण calamity था।"
+            }
+          ]
+        },
+        {
+          "word": "grief",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "मांदी",
+            "आस्ििक स्गर र्वट"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was grief.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण grief था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2331,
+      "word": "downturn",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "स्गर र्वट",
+        "मांदी"
+      ],
+      "englishDefinition": "decline in economic or business activity.",
+      "pronunciation": {
+        "ipa": "/downturn/",
+        "simple": "DOWN-turn"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of downturn in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्गर र्वट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "affliction",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "मांदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was affliction.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण affliction था।"
+            }
+          ]
+        },
+        {
+          "word": "calamity",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "मांदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was calamity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण calamity था।"
+            }
+          ]
+        },
+        {
+          "word": "grief",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "मांदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was grief.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण grief था।"
+            }
+          ]
+        },
+        {
+          "word": "recession",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "मांदी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recession.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recession था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2332,
+      "word": "decline",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "स्गर र्वट",
+        "अर्विस्त"
+      ],
+      "englishDefinition": "gradual and continuous loss of strength/value.",
+      "pronunciation": {
+        "ipa": "/decline/",
+        "simple": "DEC-line"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of decline in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्गर र्वट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "calamity",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "अर्विस्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was calamity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण calamity था।"
+            }
+          ]
+        },
+        {
+          "word": "grief",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "अर्विस्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was grief.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण grief था।"
+            }
+          ]
+        },
+        {
+          "word": "recession",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "अर्विस्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recession.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recession था।"
+            }
+          ]
+        },
+        {
+          "word": "downturn",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "स्गर र्वट",
+            "अर्विस्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was downturn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण downturn था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2333,
+      "word": "stagnation",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "ठहर र्व",
+        "स्थिरत",
+        "गस्तरोध"
+      ],
+      "englishDefinition": "state of no growth or activity.",
+      "pronunciation": {
+        "ipa": "/stagnation/",
+        "simple": "STAGN-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of stagnation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में ठहर र्व के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "grief",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्थिरत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was grief.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण grief था।"
+            }
+          ]
+        },
+        {
+          "word": "recession",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्थिरत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recession.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recession था।"
+            }
+          ]
+        },
+        {
+          "word": "downturn",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्थिरत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was downturn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण downturn था।"
+            }
+          ]
+        },
+        {
+          "word": "decline",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "ठहर र्व",
+            "स्थिरत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was decline.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण decline था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2334,
+      "word": "crash",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "भयांकर स्गर र्वट",
+        "पति"
+      ],
+      "englishDefinition": "sudden disastrous fall in value/price.",
+      "pronunciation": {
+        "ipa": "/crash/",
+        "simple": "CR-ash"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of crash in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में भयांकर स्गर र्वट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "recession",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "भयांकर स्गर र्वट",
+            "पति"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was recession.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण recession था।"
+            }
+          ]
+        },
+        {
+          "word": "downturn",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "भयांकर स्गर र्वट",
+            "पति"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was downturn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण downturn था।"
+            }
+          ]
+        },
+        {
+          "word": "decline",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "भयांकर स्गर र्वट",
+            "पति"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was decline.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण decline था।"
+            }
+          ]
+        },
+        {
+          "word": "stagnation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "भयांकर स्गर र्वट",
+            "पति"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stagnation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stagnation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2335,
+      "word": "commotion",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "हलिल",
+        "उपद्रर्व",
+        "गड़बड़ी"
+      ],
+      "englishDefinition": "state of confused and noisy disturbance.",
+      "pronunciation": {
+        "ipa": "/commotion/",
+        "simple": "COMM-otion"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of commotion in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में हलिल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "downturn",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हलिल",
+            "उपद्रर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was downturn.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण downturn था।"
+            }
+          ]
+        },
+        {
+          "word": "decline",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हलिल",
+            "उपद्रर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was decline.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण decline था।"
+            }
+          ]
+        },
+        {
+          "word": "stagnation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हलिल",
+            "उपद्रर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stagnation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stagnation था।"
+            }
+          ]
+        },
+        {
+          "word": "crash",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हलिल",
+            "उपद्रर्व"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crash था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2336,
+      "word": "noisy",
+      "partOfSpeech": [
+        "Making"
+      ],
+      "hindiMeaning": [
+        "शोरगुल र्व ल",
+        "कोल हलपूर्ि"
+      ],
+      "englishDefinition": "or characterized by a loud or unpleasant sound.",
+      "pronunciation": {
+        "ipa": "/noisy/",
+        "simple": "NO-isy"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of noisy in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शोरगुल र्व ल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "decline",
+          "partOfSpeech": [
+            "Making"
+          ],
+          "hindiMeaning": [
+            "शोरगुल र्व ल",
+            "कोल हलपूर्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was decline.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण decline था।"
+            }
+          ]
+        },
+        {
+          "word": "stagnation",
+          "partOfSpeech": [
+            "Making"
+          ],
+          "hindiMeaning": [
+            "शोरगुल र्व ल",
+            "कोल हलपूर्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stagnation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stagnation था।"
+            }
+          ]
+        },
+        {
+          "word": "crash",
+          "partOfSpeech": [
+            "Making"
+          ],
+          "hindiMeaning": [
+            "शोरगुल र्व ल",
+            "कोल हलपूर्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crash था।"
+            }
+          ]
+        },
+        {
+          "word": "commotion",
+          "partOfSpeech": [
+            "Making"
+          ],
+          "hindiMeaning": [
+            "शोरगुल र्व ल",
+            "कोल हलपूर्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was commotion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण commotion था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2337,
+      "word": "turbulence",
+      "partOfSpeech": [
+        "Violent"
+      ],
+      "hindiMeaning": [
+        "अश ांस्त",
+        "उिल-पुिल"
+      ],
+      "englishDefinition": "or unsteady movement; state of conflict.",
+      "pronunciation": {
+        "ipa": "/turbulence/",
+        "simple": "TURBU-lence"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to turbulence the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को अश ांस्त करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "stagnation",
+          "partOfSpeech": [
+            "Violent"
+          ],
+          "hindiMeaning": [
+            "अश ांस्त",
+            "उिल-पुिल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was stagnation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण stagnation था।"
+            }
+          ]
+        },
+        {
+          "word": "crash",
+          "partOfSpeech": [
+            "Violent"
+          ],
+          "hindiMeaning": [
+            "अश ांस्त",
+            "उिल-पुिल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crash था।"
+            }
+          ]
+        },
+        {
+          "word": "commotion",
+          "partOfSpeech": [
+            "Violent"
+          ],
+          "hindiMeaning": [
+            "अश ांस्त",
+            "उिल-पुिल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was commotion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण commotion था।"
+            }
+          ]
+        },
+        {
+          "word": "noisy",
+          "partOfSpeech": [
+            "Violent"
+          ],
+          "hindiMeaning": [
+            "अश ांस्त",
+            "उिल-पुिल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisy था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2338,
+      "word": "uproar",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "हांग म",
+        "शोर",
+        "उपद्रर्व"
+      ],
+      "englishDefinition": "loud and confused noise or disturbance.",
+      "pronunciation": {
+        "ipa": "/uproar/",
+        "simple": "UPR-oar"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of uproar in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में हांग म के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "crash",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हांग म",
+            "शोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was crash.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण crash था।"
+            }
+          ]
+        },
+        {
+          "word": "commotion",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हांग म",
+            "शोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was commotion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण commotion था।"
+            }
+          ]
+        },
+        {
+          "word": "noisy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हांग म",
+            "शोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisy था।"
+            }
+          ]
+        },
+        {
+          "word": "turbulence",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "हांग म",
+            "शोर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was turbulence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण turbulence था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2339,
+      "word": "hubbub",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "कोल हल",
+        "गड़बड़ी"
+      ],
+      "englishDefinition": "loud, confused noise, esp. by many voices.",
+      "pronunciation": {
+        "ipa": "/hubbub/",
+        "simple": "HUB-bub"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hubbub in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कोल हल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "commotion",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "कोल हल",
+            "गड़बड़ी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was commotion.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण commotion था।"
+            }
+          ]
+        },
+        {
+          "word": "noisy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "कोल हल",
+            "गड़बड़ी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisy था।"
+            }
+          ]
+        },
+        {
+          "word": "turbulence",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "कोल हल",
+            "गड़बड़ी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was turbulence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण turbulence था।"
+            }
+          ]
+        },
+        {
+          "word": "uproar",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "कोल हल",
+            "गड़बड़ी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uproar.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uproar था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2340,
+      "word": "racket",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "शोरगुल",
+        "गोलम ल"
+      ],
+      "englishDefinition": "loud, unpleasant noise.",
+      "pronunciation": {
+        "ipa": "/racket/",
+        "simple": "RAC-ket"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of racket in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में शोरगुल के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "noisy",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "शोरगुल",
+            "गोलम ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was noisy.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण noisy था।"
+            }
+          ]
+        },
+        {
+          "word": "turbulence",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "शोरगुल",
+            "गोलम ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was turbulence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण turbulence था।"
+            }
+          ]
+        },
+        {
+          "word": "uproar",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "शोरगुल",
+            "गोलम ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uproar.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uproar था।"
+            }
+          ]
+        },
+        {
+          "word": "hubbub",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "शोरगुल",
+            "गोलम ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hubbub.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hubbub था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2341,
+      "word": "agitation",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "उत्तेजि",
+        "आांदोलि"
+      ],
+      "englishDefinition": "state of anxiety or nervous excitement.",
+      "pronunciation": {
+        "ipa": "/agitation/",
+        "simple": "AGIT-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of agitation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में उत्तेजि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "turbulence",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "उत्तेजि",
+            "आांदोलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was turbulence.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण turbulence था।"
+            }
+          ]
+        },
+        {
+          "word": "uproar",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "उत्तेजि",
+            "आांदोलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uproar.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uproar था।"
+            }
+          ]
+        },
+        {
+          "word": "hubbub",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "उत्तेजि",
+            "आांदोलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hubbub.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hubbub था।"
+            }
+          ]
+        },
+        {
+          "word": "racket",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "उत्तेजि",
+            "आांदोलि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was racket.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण racket था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2342,
+      "word": "persevering",
+      "partOfSpeech": [
+        "Continuing"
+      ],
+      "hindiMeaning": [
+        "दृढ़",
+        "लग त र प्रय स करिे र्व ल"
+      ],
+      "englishDefinition": "in a course of action despite difficulty.",
+      "pronunciation": {
+        "ipa": "/persevering/",
+        "simple": "PERSE-vering"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of persevering in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में दृढ़ के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "uproar",
+          "partOfSpeech": [
+            "Continuing"
+          ],
+          "hindiMeaning": [
+            "दृढ़",
+            "लग त र प्रय स करिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was uproar.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण uproar था।"
+            }
+          ]
+        },
+        {
+          "word": "hubbub",
+          "partOfSpeech": [
+            "Continuing"
+          ],
+          "hindiMeaning": [
+            "दृढ़",
+            "लग त र प्रय स करिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hubbub.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hubbub था।"
+            }
+          ]
+        },
+        {
+          "word": "racket",
+          "partOfSpeech": [
+            "Continuing"
+          ],
+          "hindiMeaning": [
+            "दृढ़",
+            "लग त र प्रय स करिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was racket.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण racket था।"
+            }
+          ]
+        },
+        {
+          "word": "agitation",
+          "partOfSpeech": [
+            "Continuing"
+          ],
+          "hindiMeaning": [
+            "दृढ़",
+            "लग त र प्रय स करिे र्व ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agitation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2343,
+      "word": "scruples",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "सांकोि",
+        "दुस्र्वध",
+        "िैस्तक स्झझक"
+      ],
+      "englishDefinition": "feeling of doubt with regard to morality.",
+      "pronunciation": {
+        "ipa": "/scruples/",
+        "simple": "SCRU-ples"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of scruples in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांकोि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "hubbub",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "दुस्र्वध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hubbub.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hubbub था।"
+            }
+          ]
+        },
+        {
+          "word": "racket",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "दुस्र्वध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was racket.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण racket था।"
+            }
+          ]
+        },
+        {
+          "word": "agitation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "दुस्र्वध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agitation था।"
+            }
+          ]
+        },
+        {
+          "word": "persevering",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "दुस्र्वध"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was persevering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण persevering था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2344,
+      "word": "doubt",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "सांदेह",
+        "शक",
+        "दुस्र्वध"
+      ],
+      "englishDefinition": "feeling of uncertainty or lack of conviction.",
+      "pronunciation": {
+        "ipa": "/doubt/",
+        "simple": "DO-ubt"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of doubt in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांदेह के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "racket",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "शक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was racket.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण racket था।"
+            }
+          ]
+        },
+        {
+          "word": "agitation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "शक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agitation था।"
+            }
+          ]
+        },
+        {
+          "word": "persevering",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "शक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was persevering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण persevering था।"
+            }
+          ]
+        },
+        {
+          "word": "scruples",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सांदेह",
+            "शक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scruples.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scruples था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2345,
+      "word": "qualms",
+      "partOfSpeech": [
+        "An"
+      ],
+      "hindiMeaning": [
+        "सांकोि",
+        "स्झझक",
+        "स्िांत"
+      ],
+      "englishDefinition": "uneasy feeling of doubt or worry.",
+      "pronunciation": {
+        "ipa": "/qualms/",
+        "simple": "QUA-lms"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of qualms in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सांकोि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "agitation",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "स्झझक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was agitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण agitation था।"
+            }
+          ]
+        },
+        {
+          "word": "persevering",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "स्झझक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was persevering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण persevering था।"
+            }
+          ]
+        },
+        {
+          "word": "scruples",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "स्झझक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scruples.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scruples था।"
+            }
+          ]
+        },
+        {
+          "word": "doubt",
+          "partOfSpeech": [
+            "An"
+          ],
+          "hindiMeaning": [
+            "सांकोि",
+            "स्झझक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doubt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doubt था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2346,
+      "word": "queries",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "प्रश्न",
+        "पूित ि",
+        "सन्देह"
+      ],
+      "englishDefinition": "question expressing doubt.",
+      "pronunciation": {
+        "ipa": "/queries/",
+        "simple": "QUE-ries"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of queries in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रश्न के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "persevering",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "प्रश्न",
+            "पूित ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was persevering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण persevering था।"
+            }
+          ]
+        },
+        {
+          "word": "scruples",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "प्रश्न",
+            "पूित ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scruples.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scruples था।"
+            }
+          ]
+        },
+        {
+          "word": "doubt",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "प्रश्न",
+            "पूित ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doubt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doubt था।"
+            }
+          ]
+        },
+        {
+          "word": "qualms",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "प्रश्न",
+            "पूित ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was qualms.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण qualms था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2347,
+      "word": "misgivings",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "सन्देह",
+        "अस्र्वश्व स",
+        "शक"
+      ],
+      "englishDefinition": "feeling of doubt or apprehension.",
+      "pronunciation": {
+        "ipa": "/misgivings/",
+        "simple": "MISGI-vings"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of misgivings in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में सन्देह के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scruples",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सन्देह",
+            "अस्र्वश्व स"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scruples.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scruples था।"
+            }
+          ]
+        },
+        {
+          "word": "doubt",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सन्देह",
+            "अस्र्वश्व स"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doubt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doubt था।"
+            }
+          ]
+        },
+        {
+          "word": "qualms",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सन्देह",
+            "अस्र्वश्व स"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was qualms.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण qualms था।"
+            }
+          ]
+        },
+        {
+          "word": "queries",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "सन्देह",
+            "अस्र्वश्व स"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was queries.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण queries था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2348,
+      "word": "hesitation",
+      "partOfSpeech": [
+        "The"
+      ],
+      "hindiMeaning": [
+        "स्झझक",
+        "सांकोि",
+        "स्र्वलम्ब"
+      ],
+      "englishDefinition": "action of pausing before saying/doing something.",
+      "pronunciation": {
+        "ipa": "/hesitation/",
+        "simple": "HESIT-ation"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of hesitation in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में स्झझक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "doubt",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्झझक",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was doubt.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण doubt था।"
+            }
+          ]
+        },
+        {
+          "word": "qualms",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्झझक",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was qualms.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण qualms था।"
+            }
+          ]
+        },
+        {
+          "word": "queries",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्झझक",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was queries.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण queries था।"
+            }
+          ]
+        },
+        {
+          "word": "misgivings",
+          "partOfSpeech": [
+            "The"
+          ],
+          "hindiMeaning": [
+            "स्झझक",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was misgivings.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण misgivings था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2349,
+      "word": "compunction",
+      "partOfSpeech": [
+        "A"
+      ],
+      "hindiMeaning": [
+        "पश्च त प",
+        "सांकोि"
+      ],
+      "englishDefinition": "feeling of guilt or moral scruple.",
+      "pronunciation": {
+        "ipa": "/compunction/",
+        "simple": "COMPU-nction"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of compunction in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में पश्च त प के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "qualms",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "पश्च त प",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was qualms.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण qualms था।"
+            }
+          ]
+        },
+        {
+          "word": "queries",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "पश्च त प",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was queries.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण queries था।"
+            }
+          ]
+        },
+        {
+          "word": "misgivings",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "पश्च त प",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was misgivings.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण misgivings था।"
+            }
+          ]
+        },
+        {
+          "word": "hesitation",
+          "partOfSpeech": [
+            "A"
+          ],
+          "hindiMeaning": [
+            "पश्च त प",
+            "सांकोि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hesitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hesitation था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 2350,
+      "word": "nefarious",
+      "partOfSpeech": [
+        "Wicked"
+      ],
+      "hindiMeaning": [
+        "अस्त दुष्ट",
+        "अधमी",
+        "प पी"
+      ],
+      "englishDefinition": "or criminal.",
+      "pronunciation": {
+        "ipa": "/nefarious/",
+        "simple": "NEFA-rious"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of nefarious in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अस्त दुष्ट के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "queries",
+          "partOfSpeech": [
+            "Wicked"
+          ],
+          "hindiMeaning": [
+            "अस्त दुष्ट",
+            "अधमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was queries.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण queries था।"
+            }
+          ]
+        },
+        {
+          "word": "misgivings",
+          "partOfSpeech": [
+            "Wicked"
+          ],
+          "hindiMeaning": [
+            "अस्त दुष्ट",
+            "अधमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was misgivings.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण misgivings था।"
+            }
+          ]
+        },
+        {
+          "word": "hesitation",
+          "partOfSpeech": [
+            "Wicked"
+          ],
+          "hindiMeaning": [
+            "अस्त दुष्ट",
+            "अधमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was hesitation.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण hesitation था।"
+            }
+          ]
+        },
+        {
+          "word": "compunction",
+          "partOfSpeech": [
+            "Wicked"
+          ],
+          "hindiMeaning": [
+            "अस्त दुष्ट",
+            "अधमी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was compunction.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण compunction था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

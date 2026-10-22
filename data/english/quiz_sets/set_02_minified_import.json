@@ -1,0 +1,847 @@
+[
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALTITUDE**",
+    "o": [
+      "height",
+      "bane",
+      "antipathy",
+      "depth"
+    ],
+    "a": 0,
+    "e": "**'Altitude'** का अर्थ है: **ऊँचाई; समुद्र तल से ऊँचाई** (The height of a place or object, especially measured from sea level.)\n• सही Synonym: **'height'** (अर्थ: ऊँचाई; समुद्र तल से ऊँचाई)\n• Antonyms: depth",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALTRUISTIC**",
+    "o": [
+      "selfless",
+      "selfish",
+      "autocratic",
+      "anger"
+    ],
+    "a": 0,
+    "e": "**'Altruistic'** का अर्थ है: **परोपकारी; निःस्वार्थ; जनहितैषी** (Showing selfless concern for the well-being of others.)\n• सही Synonym: **'selfless'** (अर्थ: परोपकारी; निःस्वार्थ; जनहितैषी)\n• Antonyms: selfish",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AMICABLE**",
+    "o": [
+      "assertive",
+      "cordial",
+      "appear",
+      "hostile"
+    ],
+    "a": 1,
+    "e": "**'Amicable'** का अर्थ है: **मैत्रीपूर्ण; सौहार्दपूर्ण** (Friendly and peaceful, especially when resolving disagreement.)\n• सही Synonym: **'cordial'** (अर्थ: मैत्रीपूर्ण; सौहार्दपूर्ण)\n• Antonyms: hostile, antagonistic",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AMNESTY**",
+    "o": [
+      "appear",
+      "assemblage",
+      "pardon",
+      "prosecution"
+    ],
+    "a": 2,
+    "e": "**'Amnesty'** का अर्थ है: **आम माफी; सामूहिक क्षमादान** (An official pardon, often granted to a group of people.)\n• सही Synonym: **'pardon'** (अर्थ: आम माफी; सामूहिक क्षमादान)\n• Antonyms: prosecution",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ANGER**",
+    "o": [
+      "calm",
+      "rage",
+      "assemblage",
+      "authentic"
+    ],
+    "a": 1,
+    "e": "**'Anger'** का अर्थ है: **क्रोध; गुस्सा; क्रोधित करना** (A strong feeling of displeasure or hostility.)\n• सही Synonym: **'rage'** (अर्थ: क्रोध; गुस्सा; क्रोधित करना)\n• Antonyms: calm, contentment",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ANNOYANCE**",
+    "o": [
+      "assertive",
+      "amicable",
+      "pleasure",
+      "irritation"
+    ],
+    "a": 3,
+    "e": "**'Annoyance'** का अर्थ है: **झुंझलाहट; खीज; नाराज़गी** (A feeling of irritation or mild anger.)\n• सही Synonym: **'irritation'** (अर्थ: झुंझलाहट; खीज; नाराज़गी)\n• Antonyms: pleasure, delight",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ANTICIPATE**",
+    "o": [
+      "annoyance",
+      "foresee",
+      "assiduous",
+      "doubt"
+    ],
+    "a": 1,
+    "e": "**'Anticipate'** का अर्थ है: **पूर्वानुमान लगाना; पहले से अपेक्षा करना** (To expect or predict something before it happens.)\n• सही Synonym: **'foresee'** (अर्थ: पूर्वानुमान लगाना; पहले से अपेक्षा करना)\n• Antonyms: doubt",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ANTIPATHY**",
+    "o": [
+      "anger",
+      "affinity",
+      "altitude",
+      "aversion"
+    ],
+    "a": 3,
+    "e": "**'Antipathy'** का अर्थ है: **द्वेष; गहरी अरुचि; विरोध की भावना** (A strong feeling of dislike or opposition.)\n• सही Synonym: **'aversion'** (अर्थ: द्वेष; गहरी अरुचि; विरोध की भावना)\n• Antonyms: affinity, fondness",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**APOLOGETIC**",
+    "o": [
+      "apparent",
+      "contrite",
+      "unrepentant",
+      "assiduous"
+    ],
+    "a": 1,
+    "e": "**'Apologetic'** का अर्थ है: **क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा** (Showing or expressing regret for having done something wrong.)\n• सही Synonym: **'contrite'** (अर्थ: क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा)\n• Antonyms: unrepentant",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**APOLOGY**",
+    "o": [
+      "expression of regret",
+      "justification",
+      "authentic",
+      "avarice"
+    ],
+    "a": 0,
+    "e": "**'Apology'** का अर्थ है: **क्षमा-याचना; माफी; खेद की अभिव्यक्ति** (A statement expressing regret for a mistake or offence.)\n• सही Synonym: **'expression of regret'** (अर्थ: क्षमा-याचना; माफी; खेद की अभिव्यक्ति)\n• Antonyms: justification",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**APPARENT**",
+    "o": [
+      "obvious",
+      "altruistic",
+      "autocratic",
+      "obscure"
+    ],
+    "a": 0,
+    "e": "**'Apparent'** का अर्थ है: **स्पष्ट; प्रकट; दिखाई देने वाला** (Easy to see or understand; seeming to be true.)\n• सही Synonym: **'obvious'** (अर्थ: स्पष्ट; प्रकट; दिखाई देने वाला)\n• Antonyms: obscure, hidden",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**APPEAR**",
+    "o": [
+      "autonomy",
+      "seem",
+      "avert",
+      "vanish"
+    ],
+    "a": 1,
+    "e": "**'Appear'** का अर्थ है: **दिखाई देना; प्रकट होना; प्रतीत होना** (To become visible, come into view, or seem to be a certain way.)\n• सही Synonym: **'seem'** (अर्थ: दिखाई देना; प्रकट होना; प्रतीत होना)\n• Antonyms: vanish, disappear",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ARTICULATE**",
+    "o": [
+      "apologetic",
+      "express",
+      "inarticulate",
+      "audacious"
+    ],
+    "a": 1,
+    "e": "**'Articulate'** का अर्थ है: **स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु** (To express ideas clearly; also, able to speak clearly and effectively.)\n• सही Synonym: **'express'** (अर्थ: स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु)\n• Antonyms: inarticulate",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ASSEMBLAGE**",
+    "o": [
+      "collection",
+      "antipathy",
+      "scattering",
+      "authentic"
+    ],
+    "a": 0,
+    "e": "**'Assemblage'** का अर्थ है: **संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह** (A collection or gathering of people or things.)\n• सही Synonym: **'collection'** (अर्थ: संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह)\n• Antonyms: scattering",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ASSERTIVE**",
+    "o": [
+      "apologetic",
+      "amnesty",
+      "passive",
+      "confident"
+    ],
+    "a": 3,
+    "e": "**'Assertive'** का अर्थ है: **आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर** (Confidently expressing one's views or needs without being aggressive.)\n• सही Synonym: **'confident'** (अर्थ: आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर)\n• Antonyms: passive, timid",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ASSIDUOUS**",
+    "o": [
+      "diligent",
+      "authentic",
+      "banish",
+      "lazy"
+    ],
+    "a": 0,
+    "e": "**'Assiduous'** का अर्थ है: **परिश्रमी; लगनशील; मेहनती** (Showing great care, effort, and persistence in doing something.)\n• सही Synonym: **'diligent'** (अर्थ: परिश्रमी; लगनशील; मेहनती)\n• Antonyms: lazy, negligent",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ATROCITY**",
+    "o": [
+      "aversion",
+      "annoyance",
+      "kindness",
+      "brutality"
+    ],
+    "a": 3,
+    "e": "**'Atrocity'** का अर्थ है: **अत्याचार; जघन्य हिंसक कृत्य; बर्बरता** (An extremely cruel or violent act, especially against people.)\n• सही Synonym: **'brutality'** (अर्थ: अत्याचार; जघन्य हिंसक कृत्य; बर्बरता)\n• Antonyms: kindness, humanity",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AUDACIOUS**",
+    "o": [
+      "atrocity",
+      "daring",
+      "timid",
+      "authentic"
+    ],
+    "a": 1,
+    "e": "**'Audacious'** का अर्थ है: **साहसी; निडर; दुस्साहसी** (Showing bold willingness to take risks; sometimes recklessly bold.)\n• सही Synonym: **'daring'** (अर्थ: साहसी; निडर; दुस्साहसी)\n• Antonyms: timid, cautious",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AUTHENTIC**",
+    "o": [
+      "genuine",
+      "fake",
+      "autonomy",
+      "banish"
+    ],
+    "a": 0,
+    "e": "**'Authentic'** का अर्थ है: **प्रामाणिक; असली; विश्वसनीय** (Genuine, real, or reliable as being what it claims to be.)\n• सही Synonym: **'genuine'** (अर्थ: प्रामाणिक; असली; विश्वसनीय)\n• Antonyms: fake, counterfeit",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AUTOCRATIC**",
+    "o": [
+      "autonomy",
+      "avarice",
+      "authoritarian",
+      "democratic"
+    ],
+    "a": 2,
+    "e": "**'Autocratic'** का अर्थ है: **निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी** (Exercising power without allowing meaningful participation by others.)\n• सही Synonym: **'authoritarian'** (अर्थ: निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी)\n• Antonyms: democratic, egalitarian",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AUTONOMY**",
+    "o": [
+      "independence",
+      "avarice",
+      "dependence",
+      "appear"
+    ],
+    "a": 0,
+    "e": "**'Autonomy'** का अर्थ है: **स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार** (The right or ability to govern oneself or make independent decisions.)\n• सही Synonym: **'independence'** (अर्थ: स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार)\n• Antonyms: dependence, subordination",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AVARICE**",
+    "o": [
+      "generosity",
+      "aversion",
+      "greed",
+      "annoyance"
+    ],
+    "a": 2,
+    "e": "**'Avarice'** का अर्थ है: **घोर लालच; धन का अत्यधिक लोभ** (An excessive desire to accumulate wealth or possessions.)\n• सही Synonym: **'greed'** (अर्थ: घोर लालच; धन का अत्यधिक लोभ)\n• Antonyms: generosity, contentment",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AVERSION**",
+    "o": [
+      "atrocity",
+      "autocratic",
+      "antipathy",
+      "affinity"
+    ],
+    "a": 2,
+    "e": "**'Aversion'** का अर्थ है: **तीव्र अरुचि; घृणा; विरक्ति** (A strong dislike or unwillingness to do or experience something.)\n• सही Synonym: **'antipathy'** (अर्थ: तीव्र अरुचि; घृणा; विरक्ति)\n• Antonyms: affinity, inclination",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AVERT**",
+    "o": [
+      "apparent",
+      "amicable",
+      "cause",
+      "prevent"
+    ],
+    "a": 3,
+    "e": "**'Avert'** का अर्थ है: **टाल देना; रोकना; दिशा मोड़ना** (To prevent something bad from happening or to turn away.)\n• सही Synonym: **'prevent'** (अर्थ: टाल देना; रोकना; दिशा मोड़ना)\n• Antonyms: cause, provoke",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**BANE**",
+    "o": [
+      "blessing",
+      "curse",
+      "avarice",
+      "authentic"
+    ],
+    "a": 1,
+    "e": "**'Bane'** का अर्थ है: **अभिशाप; हानि का कारण; कष्टदायक चीज़** (A cause of great distress, annoyance, or harm.)\n• सही Synonym: **'curse'** (अर्थ: अभिशाप; हानि का कारण; कष्टदायक चीज़)\n• Antonyms: blessing",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**BANISH**",
+    "o": [
+      "avert",
+      "anger",
+      "exile",
+      "admit"
+    ],
+    "a": 2,
+    "e": "**'Banish'** का अर्थ है: **निर्वासित करना; किसी स्थान से निकाल देना; दूर करना** (To send someone away from a place or to get rid of a thought or feeling.)\n• सही Synonym: **'exile'** (अर्थ: निर्वासित करना; किसी स्थान से निकाल देना; दूर करना)\n• Antonyms: admit, welcome",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALTITUDE**",
+    "o": [
+      "autocratic",
+      "depth",
+      "height",
+      "elevation"
+    ],
+    "a": 1,
+    "e": "**'Altitude'** का अर्थ है: **ऊँचाई; समुद्र तल से ऊँचाई**\n• सही Antonym (विलोम): **'depth'**\n• इसके Synonyms हैं: height, elevation, loftiness",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALTRUISTIC**",
+    "o": [
+      "annoyance",
+      "selfless",
+      "charitable",
+      "selfish"
+    ],
+    "a": 3,
+    "e": "**'Altruistic'** का अर्थ है: **परोपकारी; निःस्वार्थ; जनहितैषी**\n• सही Antonym (विलोम): **'selfish'**\n• इसके Synonyms हैं: selfless, charitable, philanthropic",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AMICABLE**",
+    "o": [
+      "friendly",
+      "apparent",
+      "cordial",
+      "hostile"
+    ],
+    "a": 3,
+    "e": "**'Amicable'** का अर्थ है: **मैत्रीपूर्ण; सौहार्दपूर्ण**\n• सही Antonym (विलोम): **'hostile'**\n• इसके Synonyms हैं: cordial, friendly, affable",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AMNESTY**",
+    "o": [
+      "reprieve",
+      "pardon",
+      "apologetic",
+      "prosecution"
+    ],
+    "a": 3,
+    "e": "**'Amnesty'** का अर्थ है: **आम माफी; सामूहिक क्षमादान**\n• सही Antonym (विलोम): **'prosecution'**\n• इसके Synonyms हैं: pardon, reprieve, forgiveness",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ANGER**",
+    "o": [
+      "audacious",
+      "fury",
+      "rage",
+      "calm"
+    ],
+    "a": 3,
+    "e": "**'Anger'** का अर्थ है: **क्रोध; गुस्सा; क्रोधित करना**\n• सही Antonym (विलोम): **'calm'**\n• इसके Synonyms हैं: rage, fury, ire",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ANNOYANCE**",
+    "o": [
+      "irritation",
+      "exasperation",
+      "anger",
+      "pleasure"
+    ],
+    "a": 3,
+    "e": "**'Annoyance'** का अर्थ है: **झुंझलाहट; खीज; नाराज़गी**\n• सही Antonym (विलोम): **'pleasure'**\n• इसके Synonyms हैं: irritation, exasperation, vexation",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ANTICIPATE**",
+    "o": [
+      "assemblage",
+      "foresee",
+      "predict",
+      "doubt"
+    ],
+    "a": 3,
+    "e": "**'Anticipate'** का अर्थ है: **पूर्वानुमान लगाना; पहले से अपेक्षा करना**\n• सही Antonym (विलोम): **'doubt'**\n• इसके Synonyms हैं: foresee, predict, expect",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ANTIPATHY**",
+    "o": [
+      "autonomy",
+      "affinity",
+      "aversion",
+      "hostility"
+    ],
+    "a": 1,
+    "e": "**'Antipathy'** का अर्थ है: **द्वेष; गहरी अरुचि; विरोध की भावना**\n• सही Antonym (विलोम): **'affinity'**\n• इसके Synonyms हैं: aversion, hostility, antagonism",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**APOLOGETIC**",
+    "o": [
+      "unrepentant",
+      "remorseful",
+      "assemblage",
+      "contrite"
+    ],
+    "a": 0,
+    "e": "**'Apologetic'** का अर्थ है: **क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा**\n• सही Antonym (विलोम): **'unrepentant'**\n• इसके Synonyms हैं: contrite, remorseful, regretful",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**APOLOGY**",
+    "o": [
+      "expression of regret",
+      "avarice",
+      "justification",
+      "contrition"
+    ],
+    "a": 2,
+    "e": "**'Apology'** का अर्थ है: **क्षमा-याचना; माफी; खेद की अभिव्यक्ति**\n• सही Antonym (विलोम): **'justification'**\n• इसके Synonyms हैं: expression of regret, contrition, amends",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**APPARENT**",
+    "o": [
+      "obscure",
+      "clear",
+      "obvious",
+      "aversion"
+    ],
+    "a": 0,
+    "e": "**'Apparent'** का अर्थ है: **स्पष्ट; प्रकट; दिखाई देने वाला**\n• सही Antonym (विलोम): **'obscure'**\n• इसके Synonyms हैं: obvious, clear, evident",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**APPEAR**",
+    "o": [
+      "seem",
+      "emerge",
+      "vanish",
+      "amicable"
+    ],
+    "a": 2,
+    "e": "**'Appear'** का अर्थ है: **दिखाई देना; प्रकट होना; प्रतीत होना**\n• सही Antonym (विलोम): **'vanish'**\n• इसके Synonyms हैं: seem, emerge, materialise",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ARTICULATE**",
+    "o": [
+      "anticipate",
+      "inarticulate",
+      "express",
+      "verbalise"
+    ],
+    "a": 1,
+    "e": "**'Articulate'** का अर्थ है: **स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु**\n• सही Antonym (विलोम): **'inarticulate'**\n• इसके Synonyms हैं: express, verbalise, enunciate",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ASSEMBLAGE**",
+    "o": [
+      "collection",
+      "scattering",
+      "gathering",
+      "avarice"
+    ],
+    "a": 1,
+    "e": "**'Assemblage'** का अर्थ है: **संग्रह; समूह; एकत्रित वस्तुओं/लोगों का समूह**\n• सही Antonym (विलोम): **'scattering'**\n• इसके Synonyms हैं: collection, gathering, assembly",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ASSERTIVE**",
+    "o": [
+      "assemblage",
+      "confident",
+      "self-assured",
+      "passive"
+    ],
+    "a": 3,
+    "e": "**'Assertive'** का अर्थ है: **आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर**\n• सही Antonym (विलोम): **'passive'**\n• इसके Synonyms हैं: confident, self-assured, forceful",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ASSIDUOUS**",
+    "o": [
+      "diligent",
+      "authentic",
+      "industrious",
+      "lazy"
+    ],
+    "a": 3,
+    "e": "**'Assiduous'** का अर्थ है: **परिश्रमी; लगनशील; मेहनती**\n• सही Antonym (विलोम): **'lazy'**\n• इसके Synonyms हैं: diligent, industrious, hard-working",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ATROCITY**",
+    "o": [
+      "brutality",
+      "assiduous",
+      "kindness",
+      "barbarity"
+    ],
+    "a": 2,
+    "e": "**'Atrocity'** का अर्थ है: **अत्याचार; जघन्य हिंसक कृत्य; बर्बरता**\n• सही Antonym (विलोम): **'kindness'**\n• इसके Synonyms हैं: brutality, barbarity, outrage",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AUDACIOUS**",
+    "o": [
+      "daring",
+      "bold",
+      "authentic",
+      "timid"
+    ],
+    "a": 3,
+    "e": "**'Audacious'** का अर्थ है: **साहसी; निडर; दुस्साहसी**\n• सही Antonym (विलोम): **'timid'**\n• इसके Synonyms हैं: daring, bold, fearless",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AUTHENTIC**",
+    "o": [
+      "real",
+      "fake",
+      "avert",
+      "genuine"
+    ],
+    "a": 1,
+    "e": "**'Authentic'** का अर्थ है: **प्रामाणिक; असली; विश्वसनीय**\n• सही Antonym (विलोम): **'fake'**\n• इसके Synonyms हैं: genuine, real, bona fide",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AUTOCRATIC**",
+    "o": [
+      "democratic",
+      "authoritarian",
+      "dictatorial",
+      "articulate"
+    ],
+    "a": 0,
+    "e": "**'Autocratic'** का अर्थ है: **निरंकुश; तानाशाही प्रवृत्ति वाला; स्वेच्छाचारी**\n• सही Antonym (विलोम): **'democratic'**\n• इसके Synonyms हैं: authoritarian, dictatorial, despotic",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AUTONOMY**",
+    "o": [
+      "independence",
+      "altruistic",
+      "self-government",
+      "dependence"
+    ],
+    "a": 3,
+    "e": "**'Autonomy'** का अर्थ है: **स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार**\n• सही Antonym (विलोम): **'dependence'**\n• इसके Synonyms हैं: independence, self-government, self-rule",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AVARICE**",
+    "o": [
+      "greed",
+      "generosity",
+      "assertive",
+      "cupidity"
+    ],
+    "a": 1,
+    "e": "**'Avarice'** का अर्थ है: **घोर लालच; धन का अत्यधिक लोभ**\n• सही Antonym (विलोम): **'generosity'**\n• इसके Synonyms हैं: greed, cupidity, covetousness",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AVERSION**",
+    "o": [
+      "loathing",
+      "altitude",
+      "antipathy",
+      "affinity"
+    ],
+    "a": 3,
+    "e": "**'Aversion'** का अर्थ है: **तीव्र अरुचि; घृणा; विरक्ति**\n• सही Antonym (विलोम): **'affinity'**\n• इसके Synonyms हैं: antipathy, loathing, dislike",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AVERT**",
+    "o": [
+      "avoid",
+      "cause",
+      "apology",
+      "prevent"
+    ],
+    "a": 1,
+    "e": "**'Avert'** का अर्थ है: **टाल देना; रोकना; दिशा मोड़ना**\n• सही Antonym (विलोम): **'cause'**\n• इसके Synonyms हैं: prevent, avoid, ward off",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**BANE**",
+    "o": [
+      "scourge",
+      "anger",
+      "blessing",
+      "curse"
+    ],
+    "a": 2,
+    "e": "**'Bane'** का अर्थ है: **अभिशाप; हानि का कारण; कष्टदायक चीज़**\n• सही Antonym (विलोम): **'blessing'**\n• इसके Synonyms हैं: curse, scourge, affliction",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**BANISH**",
+    "o": [
+      "admit",
+      "exile",
+      "expel",
+      "autocratic"
+    ],
+    "a": 0,
+    "e": "**'Banish'** का अर्थ है: **निर्वासित करना; किसी स्थान से निकाल देना; दूर करना**\n• सही Antonym (विलोम): **'admit'**\n• इसके Synonyms हैं: exile, expel, deport",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The aircraft reached an __________ of 10,000 metres.\"",
+    "o": [
+      "amnesty",
+      "assiduous",
+      "altitude",
+      "articulate"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'altitude'**\nवाक्य का हिंदी अनुवाद: विमान 10,000 मीटर की ऊँचाई पर पहुँचा.\nअर्थ: **altitude** = ऊँचाई; समुद्र तल से ऊँचाई",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"They reached an __________ agreement after the dispute.\"",
+    "o": [
+      "amicable",
+      "apology",
+      "apologetic",
+      "apparent"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'amicable'**\nवाक्य का हिंदी अनुवाद: विवाद के बाद वे सौहार्दपूर्ण समझौते पर पहुँचे।\nअर्थ: **amicable** = मैत्रीपूर्ण; सौहार्दपूर्ण",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"His careless remark caused __________ among the workers.\"",
+    "o": [
+      "anticipate",
+      "articulate",
+      "antipathy",
+      "anger"
+    ],
+    "a": 3,
+    "e": "सही उत्तर: **'anger'**\nवाक्य का हिंदी अनुवाद: उसकी लापरवाह टिप्पणी से कर्मचारियों में गुस्सा फैल गया।\nअर्थ: **anger** = क्रोध; गुस्सा; क्रोधित करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"We __________ heavy traffic during the festival.\"",
+    "o": [
+      "banish",
+      "anticipate",
+      "audacious",
+      "antipathy"
+    ],
+    "a": 1,
+    "e": "सही उत्तर: **'anticipate'**\nवाक्य का हिंदी अनुवाद: हमें त्योहार के दौरान भारी यातायात की आशंका है।\nअर्थ: **anticipate** = पूर्वानुमान लगाना; पहले से अपेक्षा करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"He looked __________ after interrupting the speaker.\"",
+    "o": [
+      "atrocity",
+      "apologetic",
+      "authentic",
+      "banish"
+    ],
+    "a": 1,
+    "e": "सही उत्तर: **'apologetic'**\nवाक्य का हिंदी अनुवाद: वक्ता की बात काटने के बाद वह क्षमाप्रार्थी दिख रहा था।\nअर्थ: **apologetic** = क्षमाप्रार्थी; खेद प्रकट करने वाला; शर्मिंदा",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"It became __________ that the plan would fail.\"",
+    "o": [
+      "apparent",
+      "articulate",
+      "amicable",
+      "altitude"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'apparent'**\nवाक्य का हिंदी अनुवाद: यह स्पष्ट हो गया कि योजना असफल होगी।\nअर्थ: **apparent** = स्पष्ट; प्रकट; दिखाई देने वाला",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"She __________ her concerns clearly.\"",
+    "o": [
+      "apologetic",
+      "amicable",
+      "articulated",
+      "atrocity"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'articulated'**\nवाक्य का हिंदी अनुवाद: उसने अपनी चिंताओं को स्पष्ट रूप से व्यक्त किया।\nअर्थ: **articulate** = स्पष्ट रूप से व्यक्त करना; सुस्पष्ट; वाक्पटु",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Be __________ when explaining your needs, but remain respectful.\"",
+    "o": [
+      "avert",
+      "assertive",
+      "annoyance",
+      "banish"
+    ],
+    "a": 1,
+    "e": "सही उत्तर: **'assertive'**\nवाक्य का हिंदी अनुवाद: अपनी ज़रूरतें बताते समय दृढ़ रहो, लेकिन सम्मानजनक बने रहो।\nअर्थ: **assertive** = आत्मविश्वास से अपनी बात रखने वाला; दृढ़; मुखर",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The report documented __________ committed against civilians.\"",
+    "o": [
+      "atrocities",
+      "autonomy",
+      "authentic",
+      "anticipate"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'atrocities'**\nवाक्य का हिंदी अनुवाद: रिपोर्ट में नागरिकों पर किए गए अत्याचारों का विवरण था।\nअर्थ: **atrocity** = अत्याचार; जघन्य हिंसक कृत्य; बर्बरता",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The museum verified that the painting was __________.\"",
+    "o": [
+      "altruistic",
+      "aversion",
+      "amicable",
+      "authentic"
+    ],
+    "a": 3,
+    "e": "सही उत्तर: **'authentic'**\nवाक्य का हिंदी अनुवाद: संग्रहालय ने पुष्टि की कि चित्र असली था।\nअर्थ: **authentic** = प्रामाणिक; असली; विश्वसनीय",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The region was granted greater political __________.\"",
+    "o": [
+      "assemblage",
+      "anticipate",
+      "autonomy",
+      "articulate"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'autonomy'**\nवाक्य का हिंदी अनुवाद: क्षेत्र को अधिक राजनीतिक स्वायत्तता दी गई।\nअर्थ: **autonomy** = स्वायत्तता; स्वशासन; स्वतंत्र निर्णय का अधिकार",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"He has a strong __________ to dishonesty.\"",
+    "o": [
+      "aversion",
+      "assertive",
+      "apologetic",
+      "autocratic"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'aversion'**\nवाक्य का हिंदी अनुवाद: उसे बेईमानी से बहुत घृणा है।\nअर्थ: **aversion** = तीव्र अरुचि; घृणा; विरक्ति",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Mosquitoes are the __________ of summer evenings.\"",
+    "o": [
+      "bane",
+      "assertive",
+      "annoyance",
+      "anticipate"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'bane'**\nवाक्य का हिंदी अनुवाद: मच्छर गर्मियों की शामों की बड़ी परेशानी हैं।\nअर्थ: **bane** = अभिशाप; हानि का कारण; कष्टदायक चीज़",
+    "t": "mcq",
+    "d": "medium"
+  }
+]

@@ -1,0 +1,2263 @@
+{
+  "setId": "vocabulary_set_053",
+  "setNumber": 53,
+  "title": "Vocabulary Set 053 — Magnify to Rash",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 1301,
+      "word": "magnify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "बड़  करि"
+      ],
+      "englishDefinition": "To make (something) appear larger than it is.",
+      "pronunciation": {
+        "ipa": "/magnify/",
+        "simple": "MAG-nify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to magnify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को बड़  करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "kudos",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बड़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was kudos.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण kudos था।"
+            }
+          ]
+        },
+        {
+          "word": "laconic",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बड़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laconic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laconic था।"
+            }
+          ]
+        },
+        {
+          "word": "libel",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बड़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was libel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण libel था।"
+            }
+          ]
+        },
+        {
+          "word": "locquacious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "बड़  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was locquacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण locquacious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1302,
+      "word": "mal",
+      "partOfSpeech": [
+        "root"
+      ],
+      "hindiMeaning": [
+        "बुर",
+        "खर ब"
+      ],
+      "englishDefinition": "Bad, evil.",
+      "pronunciation": {
+        "ipa": "/mal/",
+        "simple": "MAL"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of mal in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बुर के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "laconic",
+          "partOfSpeech": [
+            "root"
+          ],
+          "hindiMeaning": [
+            "बुर",
+            "खर ब"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laconic.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laconic था।"
+            }
+          ]
+        },
+        {
+          "word": "libel",
+          "partOfSpeech": [
+            "root"
+          ],
+          "hindiMeaning": [
+            "बुर",
+            "खर ब"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was libel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण libel था।"
+            }
+          ]
+        },
+        {
+          "word": "locquacious",
+          "partOfSpeech": [
+            "root"
+          ],
+          "hindiMeaning": [
+            "बुर",
+            "खर ब"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was locquacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण locquacious था।"
+            }
+          ]
+        },
+        {
+          "word": "magnify",
+          "partOfSpeech": [
+            "root"
+          ],
+          "hindiMeaning": [
+            "बुर",
+            "खर ब"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was magnify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण magnify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1303,
+      "word": "malign",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "दुभ िर्वि पूर्ि",
+        "ह स्िक रक"
+      ],
+      "englishDefinition": "Evil in nature or effect; harmful.",
+      "pronunciation": {
+        "ipa": "/malign/",
+        "simple": "MAL-ign"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably malign.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से दुभ िर्वि पूर्ि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "libel",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दुभ िर्वि पूर्ि",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was libel.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण libel था।"
+            }
+          ]
+        },
+        {
+          "word": "locquacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दुभ िर्वि पूर्ि",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was locquacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण locquacious था।"
+            }
+          ]
+        },
+        {
+          "word": "magnify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दुभ िर्वि पूर्ि",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was magnify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण magnify था।"
+            }
+          ]
+        },
+        {
+          "word": "mal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "दुभ िर्वि पूर्ि",
+            "ह स्िक रक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mal था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1304,
+      "word": "mawkish",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "भावुक (िक र त्मक अिि में)"
+      ],
+      "englishDefinition": "Excessively and unpleasantly sentimental.",
+      "pronunciation": {
+        "ipa": "/mawkish/",
+        "simple": "MAW-kish"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably mawkish.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से भावुक (िक र त्मक अिि में) थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "locquacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक (िक र त्मक अिि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was locquacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण locquacious था।"
+            }
+          ]
+        },
+        {
+          "word": "magnify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक (िक र त्मक अिि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was magnify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण magnify था।"
+            }
+          ]
+        },
+        {
+          "word": "mal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक (िक र त्मक अिि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mal था।"
+            }
+          ]
+        },
+        {
+          "word": "malign",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "भावुक (िक र त्मक अिि में)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was malign.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण malign था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1305,
+      "word": "meandering",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "घुमावदार",
+        "िहलिे वाला",
+        "आवारा"
+      ],
+      "englishDefinition": "Following a winding course.",
+      "pronunciation": {
+        "ipa": "/meandering/",
+        "simple": "MEAND-ering"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably meandering.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से घुमावदार थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "magnify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घुमावदार",
+            "िहलिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was magnify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण magnify था।"
+            }
+          ]
+        },
+        {
+          "word": "mal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घुमावदार",
+            "िहलिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mal था।"
+            }
+          ]
+        },
+        {
+          "word": "malign",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घुमावदार",
+            "िहलिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was malign.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण malign था।"
+            }
+          ]
+        },
+        {
+          "word": "mawkish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "घुमावदार",
+            "िहलिे वाला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mawkish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mawkish था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1306,
+      "word": "mellifluous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मधुर",
+        "मीठा",
+        "कणयनप्रय"
+      ],
+      "englishDefinition": "Sweet or musical; pleasant to hear.",
+      "pronunciation": {
+        "ipa": "/mellifluous/",
+        "simple": "MELLI-fluous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably mellifluous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मधुर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mal",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "मीठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mal.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mal था।"
+            }
+          ]
+        },
+        {
+          "word": "malign",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "मीठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was malign.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण malign था।"
+            }
+          ]
+        },
+        {
+          "word": "mawkish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "मीठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mawkish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mawkish था।"
+            }
+          ]
+        },
+        {
+          "word": "meandering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "मीठा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meandering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meandering था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1307,
+      "word": "melodious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मधुर",
+        "सुरीला"
+      ],
+      "englishDefinition": "Of, producing, or having a pleasant tune or sound.",
+      "pronunciation": {
+        "ipa": "/melodious/",
+        "simple": "MELO-dious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably melodious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मधुर थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "malign",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "सुरीला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was malign.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण malign था।"
+            }
+          ]
+        },
+        {
+          "word": "mawkish",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "सुरीला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mawkish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mawkish था।"
+            }
+          ]
+        },
+        {
+          "word": "meandering",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "सुरीला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meandering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meandering था।"
+            }
+          ]
+        },
+        {
+          "word": "mellifluous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मधुर",
+            "सुरीला"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mellifluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mellifluous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1308,
+      "word": "mitigate",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "कम करि",
+        "हल्क  करि"
+      ],
+      "englishDefinition": "To make less severe, serious, or painful.",
+      "pronunciation": {
+        "ipa": "/mitigate/",
+        "simple": "MITI-gate"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to mitigate the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को कम करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mawkish",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कम करि",
+            "हल्क  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mawkish.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mawkish था।"
+            }
+          ]
+        },
+        {
+          "word": "meandering",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कम करि",
+            "हल्क  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meandering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meandering था।"
+            }
+          ]
+        },
+        {
+          "word": "mellifluous",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कम करि",
+            "हल्क  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mellifluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mellifluous था।"
+            }
+          ]
+        },
+        {
+          "word": "melodious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "कम करि",
+            "हल्क  करि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was melodious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण melodious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1309,
+      "word": "mollify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "शांत करि",
+        "कम करि  (गुथस )"
+      ],
+      "englishDefinition": "To appease the anger or anxiety of (someone).",
+      "pronunciation": {
+        "ipa": "/mollify/",
+        "simple": "MOL-lify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to mollify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को शांत करि करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "meandering",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "कम करि  (गुथस )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meandering.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meandering था।"
+            }
+          ]
+        },
+        {
+          "word": "mellifluous",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "कम करि  (गुथस )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mellifluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mellifluous था।"
+            }
+          ]
+        },
+        {
+          "word": "melodious",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "कम करि  (गुथस )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was melodious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण melodious था।"
+            }
+          ]
+        },
+        {
+          "word": "mitigate",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांत करि",
+            "कम करि  (गुथस )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mitigate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mitigate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1310,
+      "word": "neophyte",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "िौस्सस्खय",
+        "िर्वप्रर्वेशी"
+      ],
+      "englishDefinition": "A person who is new to a subject, skill, or belief.",
+      "pronunciation": {
+        "ipa": "/neophyte/",
+        "simple": "NEOP-hyte"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of neophyte in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िौस्सस्खय के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mellifluous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िौस्सस्खय",
+            "िर्वप्रर्वेशी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mellifluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mellifluous था।"
+            }
+          ]
+        },
+        {
+          "word": "melodious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िौस्सस्खय",
+            "िर्वप्रर्वेशी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was melodious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण melodious था।"
+            }
+          ]
+        },
+        {
+          "word": "mitigate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िौस्सस्खय",
+            "िर्वप्रर्वेशी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mitigate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mitigate था।"
+            }
+          ]
+        },
+        {
+          "word": "mollify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िौस्सस्खय",
+            "िर्वप्रर्वेशी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1311,
+      "word": "newbie",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "िय  सदथय",
+        "स्बगिर"
+      ],
+      "englishDefinition": "A person who is new to a particular activity or place.",
+      "pronunciation": {
+        "ipa": "/newbie/",
+        "simple": "NEW-bie"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of newbie in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में िय  सदथय के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "melodious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िय  सदथय",
+            "स्बगिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was melodious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण melodious था।"
+            }
+          ]
+        },
+        {
+          "word": "mitigate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िय  सदथय",
+            "स्बगिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mitigate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mitigate था।"
+            }
+          ]
+        },
+        {
+          "word": "mollify",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िय  सदथय",
+            "स्बगिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollify था।"
+            }
+          ]
+        },
+        {
+          "word": "neophyte",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "िय  सदथय",
+            "स्बगिर"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was neophyte.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण neophyte था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1312,
+      "word": "oblique",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "निरछा",
+        "अप्रत्यक्ष",
+        "अस्पष्ट"
+      ],
+      "englishDefinition": "Not explicit or direct in addressing a point.",
+      "pronunciation": {
+        "ipa": "/oblique/",
+        "simple": "OBL-ique"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably oblique.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से निरछा थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mitigate",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निरछा",
+            "अप्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mitigate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mitigate था।"
+            }
+          ]
+        },
+        {
+          "word": "mollify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निरछा",
+            "अप्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollify था।"
+            }
+          ]
+        },
+        {
+          "word": "neophyte",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निरछा",
+            "अप्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was neophyte.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण neophyte था।"
+            }
+          ]
+        },
+        {
+          "word": "newbie",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "निरछा",
+            "अप्रत्यक्ष"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was newbie.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण newbie था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1313,
+      "word": "occur",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "रहस्यमय",
+        "गुप्त",
+        "अस्पष्ट"
+      ],
+      "englishDefinition": "Obscure, mysterious, or hidden (unclear).",
+      "pronunciation": {
+        "ipa": "/occur/",
+        "simple": "OC-cur"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably occur.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से रहस्यमय थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "mollify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रहस्यमय",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was mollify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण mollify था।"
+            }
+          ]
+        },
+        {
+          "word": "neophyte",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रहस्यमय",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was neophyte.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण neophyte था।"
+            }
+          ]
+        },
+        {
+          "word": "newbie",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रहस्यमय",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was newbie.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण newbie था।"
+            }
+          ]
+        },
+        {
+          "word": "oblique",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रहस्यमय",
+            "गुप्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oblique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oblique था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1314,
+      "word": "omnipresent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "सर्विव्य पी (हर जगह मौजूद)"
+      ],
+      "englishDefinition": "Present everywhere at the same time.",
+      "pronunciation": {
+        "ipa": "/omnipresent/",
+        "simple": "OMNIP-resent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably omnipresent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से सर्विव्य पी (हर जगह मौजूद) थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "neophyte",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सर्विव्य पी (हर जगह मौजूद)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was neophyte.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण neophyte था।"
+            }
+          ]
+        },
+        {
+          "word": "newbie",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सर्विव्य पी (हर जगह मौजूद)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was newbie.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण newbie था।"
+            }
+          ]
+        },
+        {
+          "word": "oblique",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सर्विव्य पी (हर जगह मौजूद)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oblique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oblique था।"
+            }
+          ]
+        },
+        {
+          "word": "occur",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "सर्विव्य पी (हर जगह मौजूद)"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was occur.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण occur था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1315,
+      "word": "pacify",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "शांि करिा"
+      ],
+      "englishDefinition": "To quell the anger, agitation, or excitement of.",
+      "pronunciation": {
+        "ipa": "/pacify/",
+        "simple": "PAC-ify"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to pacify the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को शांि करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "newbie",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was newbie.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण newbie था।"
+            }
+          ]
+        },
+        {
+          "word": "oblique",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oblique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oblique था।"
+            }
+          ]
+        },
+        {
+          "word": "occur",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was occur.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण occur था।"
+            }
+          ]
+        },
+        {
+          "word": "omnipresent",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "शांि करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was omnipresent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण omnipresent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1316,
+      "word": "pander",
+      "partOfSpeech": [
+        "v"
+      ],
+      "hindiMeaning": [
+        "िुष्ट करिा",
+        "खुश करिा"
+      ],
+      "englishDefinition": "To gratify or indulge (an immoral or distasteful desire, need, or",
+      "pronunciation": {
+        "ipa": "/pander/",
+        "simple": "PAN-der"
+      },
+      "examples": [
+        {
+          "sentence": "The committee decided to pander the proposal.",
+          "hindiTranslation": "समिति ने प्रस्ताव को िुष्ट करिा करने का निर्णय लिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "oblique",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िुष्ट करिा",
+            "खुश करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was oblique.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण oblique था।"
+            }
+          ]
+        },
+        {
+          "word": "occur",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िुष्ट करिा",
+            "खुश करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was occur.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण occur था।"
+            }
+          ]
+        },
+        {
+          "word": "omnipresent",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िुष्ट करिा",
+            "खुश करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was omnipresent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण omnipresent था।"
+            }
+          ]
+        },
+        {
+          "word": "pacify",
+          "partOfSpeech": [
+            "v"
+          ],
+          "hindiMeaning": [
+            "िुष्ट करिा",
+            "खुश करिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pacify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pacify था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1317,
+      "word": "perfidious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "धोखेब ज",
+        "स्र्वश्व सघ ती"
+      ],
+      "englishDefinition": "Deceitful and untrustworthy.",
+      "pronunciation": {
+        "ipa": "/perfidious/",
+        "simple": "PERFI-dious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably perfidious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से धोखेब ज थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "occur",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "स्र्वश्व सघ ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was occur.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण occur था।"
+            }
+          ]
+        },
+        {
+          "word": "omnipresent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "स्र्वश्व सघ ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was omnipresent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण omnipresent था।"
+            }
+          ]
+        },
+        {
+          "word": "pacify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "स्र्वश्व सघ ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pacify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pacify था।"
+            }
+          ]
+        },
+        {
+          "word": "pander",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "धोखेब ज",
+            "स्र्वश्व सघ ती"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pander था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1318,
+      "word": "perspicacious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "तीक्ष्र् बुस्द्",
+        "एक्सपटि"
+      ],
+      "englishDefinition": "Having a ready insight into and understanding of things.",
+      "pronunciation": {
+        "ipa": "/perspicacious/",
+        "simple": "PERSPI-cacious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably perspicacious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से तीक्ष्र् बुस्द् थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "omnipresent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीक्ष्र् बुस्द्",
+            "एक्सपटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was omnipresent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण omnipresent था।"
+            }
+          ]
+        },
+        {
+          "word": "pacify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीक्ष्र् बुस्द्",
+            "एक्सपटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pacify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pacify था।"
+            }
+          ]
+        },
+        {
+          "word": "pander",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीक्ष्र् बुस्द्",
+            "एक्सपटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pander था।"
+            }
+          ]
+        },
+        {
+          "word": "perfidious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "तीक्ष्र् बुस्द्",
+            "एक्सपटि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perfidious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perfidious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1319,
+      "word": "pervasive",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "व्य पक",
+        "हर जगह फै ल  हुआ"
+      ],
+      "englishDefinition": "Spreading widely throughout an area or a group of people.",
+      "pronunciation": {
+        "ipa": "/pervasive/",
+        "simple": "PERV-asive"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably pervasive.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से व्य पक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pacify",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "व्य पक",
+            "हर जगह फै ल  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pacify.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pacify था।"
+            }
+          ]
+        },
+        {
+          "word": "pander",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "व्य पक",
+            "हर जगह फै ल  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pander था।"
+            }
+          ]
+        },
+        {
+          "word": "perfidious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "व्य पक",
+            "हर जगह फै ल  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perfidious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perfidious था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "व्य पक",
+            "हर जगह फै ल  हुआ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicacious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1320,
+      "word": "placid",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "शांत"
+      ],
+      "englishDefinition": "Not easily upset or excited; calm.",
+      "pronunciation": {
+        "ipa": "/placid/",
+        "simple": "PLA-cid"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably placid.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से शांत थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pander",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pander.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pander था।"
+            }
+          ]
+        },
+        {
+          "word": "perfidious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perfidious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perfidious था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicacious था।"
+            }
+          ]
+        },
+        {
+          "word": "pervasive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "शांत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pervasive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pervasive था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1321,
+      "word": "precarious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "खिरिाक",
+        "जोनखम भरा"
+      ],
+      "englishDefinition": "Not securely held or in position; dependent on chance;",
+      "pronunciation": {
+        "ipa": "/precarious/",
+        "simple": "PRECA-rious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably precarious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से खिरिाक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perfidious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perfidious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perfidious था।"
+            }
+          ]
+        },
+        {
+          "word": "perspicacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicacious था।"
+            }
+          ]
+        },
+        {
+          "word": "pervasive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pervasive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pervasive था।"
+            }
+          ]
+        },
+        {
+          "word": "placid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "खिरिाक",
+            "जोनखम भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was placid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण placid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1322,
+      "word": "prevalent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रिस्लत",
+        "व्य पक"
+      ],
+      "englishDefinition": "Widespread in a particular area or at a particular time.",
+      "pronunciation": {
+        "ipa": "/prevalent/",
+        "simple": "PREV-alent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably prevalent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रिस्लत थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "perspicacious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रिस्लत",
+            "व्य पक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was perspicacious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण perspicacious था।"
+            }
+          ]
+        },
+        {
+          "word": "pervasive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रिस्लत",
+            "व्य पक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pervasive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pervasive था।"
+            }
+          ]
+        },
+        {
+          "word": "placid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रिस्लत",
+            "व्य पक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was placid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण placid था।"
+            }
+          ]
+        },
+        {
+          "word": "precarious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रिस्लत",
+            "व्य पक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was precarious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण precarious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1323,
+      "word": "propitious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अिुकू ल",
+        "शुभ"
+      ],
+      "englishDefinition": "Giving or indicating a good chance of success; favourable.",
+      "pronunciation": {
+        "ipa": "/propitious/",
+        "simple": "PROPI-tious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably propitious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अिुकू ल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pervasive",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिुकू ल",
+            "शुभ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pervasive.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pervasive था।"
+            }
+          ]
+        },
+        {
+          "word": "placid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिुकू ल",
+            "शुभ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was placid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण placid था।"
+            }
+          ]
+        },
+        {
+          "word": "precarious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिुकू ल",
+            "शुभ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was precarious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण precarious था।"
+            }
+          ]
+        },
+        {
+          "word": "prevalent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिुकू ल",
+            "शुभ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prevalent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prevalent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1324,
+      "word": "ramshackle",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "जजिर (िष्ट करि",
+        "स्बग ड़ि )"
+      ],
+      "englishDefinition": "In a state of severe disrepair (to destroy).",
+      "pronunciation": {
+        "ipa": "/ramshackle/",
+        "simple": "RAMSH-ackle"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably ramshackle.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जजिर (िष्ट करि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "placid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जजिर (िष्ट करि",
+            "स्बग ड़ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was placid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण placid था।"
+            }
+          ]
+        },
+        {
+          "word": "precarious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जजिर (िष्ट करि",
+            "स्बग ड़ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was precarious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण precarious था।"
+            }
+          ]
+        },
+        {
+          "word": "prevalent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जजिर (िष्ट करि",
+            "स्बग ड़ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prevalent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prevalent था।"
+            }
+          ]
+        },
+        {
+          "word": "propitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जजिर (िष्ट करि",
+            "स्बग ड़ि )"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was propitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण propitious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 1325,
+      "word": "rash",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "जल्दबाजी वाला",
+        "लापरवाह"
+      ],
+      "englishDefinition": "Acting or done without careful consideration of the possible",
+      "pronunciation": {
+        "ipa": "/rash/",
+        "simple": "RASH"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably rash.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जल्दबाजी वाला थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "precarious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जल्दबाजी वाला",
+            "लापरवाह"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was precarious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण precarious था।"
+            }
+          ]
+        },
+        {
+          "word": "prevalent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जल्दबाजी वाला",
+            "लापरवाह"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was prevalent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण prevalent था।"
+            }
+          ]
+        },
+        {
+          "word": "propitious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जल्दबाजी वाला",
+            "लापरवाह"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was propitious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण propitious था।"
+            }
+          ]
+        },
+        {
+          "word": "ramshackle",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जल्दबाजी वाला",
+            "लापरवाह"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was ramshackle.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण ramshackle था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

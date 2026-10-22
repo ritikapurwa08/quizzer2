@@ -1,0 +1,2297 @@
+{
+  "setId": "vocabulary_set_006",
+  "setNumber": 6,
+  "title": "Vocabulary Set 006 — Strenuous to Myriad",
+  "language": "en-hi",
+  "wordCount": 25,
+  "words": [
+    {
+      "id": 126,
+      "word": "strenuous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "जोरद र",
+        "कस्ठि",
+        "श्रमस ध्य"
+      ],
+      "englishDefinition": "Vigorously active; energetic.",
+      "pronunciation": {
+        "ipa": "/strenuous/",
+        "simple": "STRE-nuous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably strenuous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से जोरद र थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "supine",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जोरद र",
+            "कस्ठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was supine.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण supine था।"
+            }
+          ]
+        },
+        {
+          "word": "somnolent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जोरद र",
+            "कस्ठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was somnolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण somnolent था।"
+            }
+          ]
+        },
+        {
+          "word": "soporific",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जोरद र",
+            "कस्ठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soporific.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soporific था।"
+            }
+          ]
+        },
+        {
+          "word": "assiduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "जोरद र",
+            "कस्ठि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assiduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assiduous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 127,
+      "word": "arduous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "कनठि",
+        "श्रमसाध्य",
+        "थकाऊ"
+      ],
+      "englishDefinition": "Hard to accomplish or achieve; marked by great labor or effort.",
+      "pronunciation": {
+        "ipa": "/arduous/",
+        "simple": "ARD-uous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably arduous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से कनठि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "somnolent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "कनठि",
+            "श्रमसाध्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was somnolent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण somnolent था।"
+            }
+          ]
+        },
+        {
+          "word": "soporific",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "कनठि",
+            "श्रमसाध्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soporific.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soporific था।"
+            }
+          ]
+        },
+        {
+          "word": "assiduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "कनठि",
+            "श्रमसाध्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assiduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assiduous था।"
+            }
+          ]
+        },
+        {
+          "word": "strenuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "कनठि",
+            "श्रमसाध्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was strenuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण strenuous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 128,
+      "word": "diligent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "पररश्रमी",
+        "मेहििी"
+      ],
+      "englishDefinition": "Characterized by steady, earnest, and energetic effort (mnemonic: Delhi",
+      "pronunciation": {
+        "ipa": "/diligent/",
+        "simple": "DILI-gent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably diligent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से पररश्रमी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "soporific",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "मेहििी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was soporific.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण soporific था।"
+            }
+          ]
+        },
+        {
+          "word": "assiduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "मेहििी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assiduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assiduous था।"
+            }
+          ]
+        },
+        {
+          "word": "strenuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "मेहििी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was strenuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण strenuous था।"
+            }
+          ]
+        },
+        {
+          "word": "arduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "मेहििी"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was arduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण arduous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 129,
+      "word": "cogent",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "Cogent"
+      ],
+      "englishDefinition": "Appealing forcibly to the mind or reason; convincing (mnemonic: co-",
+      "pronunciation": {
+        "ipa": "/cogent/",
+        "simple": "COG-ent"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably cogent.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से Cogent थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "assiduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cogent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was assiduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण assiduous था।"
+            }
+          ]
+        },
+        {
+          "word": "strenuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cogent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was strenuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण strenuous था।"
+            }
+          ]
+        },
+        {
+          "word": "arduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cogent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was arduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण arduous था।"
+            }
+          ]
+        },
+        {
+          "word": "diligent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "Cogent"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diligent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diligent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 130,
+      "word": "toilsome",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "श्रमसाध्य",
+        "मेहिि भरा"
+      ],
+      "englishDefinition": "Marked by or characterized by toil; laborious (mnemonic: oil extracted).",
+      "pronunciation": {
+        "ipa": "/toilsome/",
+        "simple": "TOIL-some"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably toilsome.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से श्रमसाध्य थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "strenuous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "मेहिि भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was strenuous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण strenuous था।"
+            }
+          ]
+        },
+        {
+          "word": "arduous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "मेहिि भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was arduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण arduous था।"
+            }
+          ]
+        },
+        {
+          "word": "diligent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "मेहिि भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diligent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diligent था।"
+            }
+          ]
+        },
+        {
+          "word": "cogent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "मेहिि भरा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogent था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 131,
+      "word": "pains",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "प्रय स",
+        "कोस्शश"
+      ],
+      "englishDefinition": "Great care or effort taken to accomplish something.",
+      "pronunciation": {
+        "ipa": "/pains/",
+        "simple": "PA-ins"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of pains in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में प्रय स के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "arduous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रय स",
+            "कोस्शश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was arduous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण arduous था।"
+            }
+          ]
+        },
+        {
+          "word": "diligent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रय स",
+            "कोस्शश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diligent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diligent था।"
+            }
+          ]
+        },
+        {
+          "word": "cogent",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रय स",
+            "कोस्शश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogent था।"
+            }
+          ]
+        },
+        {
+          "word": "toilsome",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "प्रय स",
+            "कोस्शश"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toilsome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toilsome था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 132,
+      "word": "sedulous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "पररश्रमी",
+        "लगिशील"
+      ],
+      "englishDefinition": "Involving or accomplished with careful perseverance (mnemonic:",
+      "pronunciation": {
+        "ipa": "/sedulous/",
+        "simple": "SEDU-lous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sedulous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से पररश्रमी थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "diligent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "लगिशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was diligent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण diligent था।"
+            }
+          ]
+        },
+        {
+          "word": "cogent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "लगिशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogent था।"
+            }
+          ]
+        },
+        {
+          "word": "toilsome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "लगिशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toilsome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toilsome था।"
+            }
+          ]
+        },
+        {
+          "word": "pains",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "पररश्रमी",
+            "लगिशील"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pains था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 133,
+      "word": "laborious",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "श्रमसाध्य",
+        "कष्टदायक"
+      ],
+      "englishDefinition": "Devoted to labor; industrious.",
+      "pronunciation": {
+        "ipa": "/laborious/",
+        "simple": "LABO-rious"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably laborious.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से श्रमसाध्य थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "cogent",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "कष्टदायक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was cogent.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण cogent था।"
+            }
+          ]
+        },
+        {
+          "word": "toilsome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "कष्टदायक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toilsome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toilsome था।"
+            }
+          ]
+        },
+        {
+          "word": "pains",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "कष्टदायक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pains था।"
+            }
+          ]
+        },
+        {
+          "word": "sedulous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "श्रमसाध्य",
+            "कष्टदायक"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedulous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 134,
+      "word": "herculean",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अत्यांत कस्ठि",
+        "बलश ली"
+      ],
+      "englishDefinition": "Of extraordinary power, extent, intensity, or difficulty.",
+      "pronunciation": {
+        "ipa": "/herculean/",
+        "simple": "HERC-ulean"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably herculean.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अत्यांत कस्ठि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "toilsome",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत कस्ठि",
+            "बलश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was toilsome.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण toilsome था।"
+            }
+          ]
+        },
+        {
+          "word": "pains",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत कस्ठि",
+            "बलश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pains था।"
+            }
+          ]
+        },
+        {
+          "word": "sedulous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत कस्ठि",
+            "बलश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedulous था।"
+            }
+          ]
+        },
+        {
+          "word": "laborious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यांत कस्ठि",
+            "बलश ली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laborious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laborious था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 135,
+      "word": "exigency",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "अस्त-आर्वश्यकत",
+        "आप तक ल"
+      ],
+      "englishDefinition": "A state of affairs that makes urgent demands (mnemonic: emergency).",
+      "pronunciation": {
+        "ipa": "/exigency/",
+        "simple": "EXIG-ency"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of exigency in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अस्त-आर्वश्यकत के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "pains",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अस्त-आर्वश्यकत",
+            "आप तक ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was pains.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण pains था।"
+            }
+          ]
+        },
+        {
+          "word": "sedulous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अस्त-आर्वश्यकत",
+            "आप तक ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedulous था।"
+            }
+          ]
+        },
+        {
+          "word": "laborious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अस्त-आर्वश्यकत",
+            "आप तक ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laborious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laborious था।"
+            }
+          ]
+        },
+        {
+          "word": "herculean",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अस्त-आर्वश्यकत",
+            "आप तक ल"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was herculean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण herculean था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 136,
+      "word": "exiguous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अत्यल्प",
+        "म मूली",
+        "कमी"
+      ],
+      "englishDefinition": "Excessively scanty; inadequate (mnemonic: ex gone/shortage).",
+      "pronunciation": {
+        "ipa": "/exiguous/",
+        "simple": "EXIG-uous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably exiguous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अत्यल्प थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sedulous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यल्प",
+            "म मूली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sedulous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sedulous था।"
+            }
+          ]
+        },
+        {
+          "word": "laborious",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यल्प",
+            "म मूली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laborious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laborious था।"
+            }
+          ]
+        },
+        {
+          "word": "herculean",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यल्प",
+            "म मूली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was herculean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण herculean था।"
+            }
+          ]
+        },
+        {
+          "word": "exigency",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यल्प",
+            "म मूली"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exigency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exigency था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 137,
+      "word": "paucity",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "कमी",
+        "अभाव",
+        "अल्पिा"
+      ],
+      "englishDefinition": "Smallness of number or quantity (mnemonic: paav-city).",
+      "pronunciation": {
+        "ipa": "/paucity/",
+        "simple": "PAU-city"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of paucity in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में कमी के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "laborious",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कमी",
+            "अभाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was laborious.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण laborious था।"
+            }
+          ]
+        },
+        {
+          "word": "herculean",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कमी",
+            "अभाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was herculean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण herculean था।"
+            }
+          ]
+        },
+        {
+          "word": "exigency",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कमी",
+            "अभाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exigency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exigency था।"
+            }
+          ]
+        },
+        {
+          "word": "exiguous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "कमी",
+            "अभाव"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exiguous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exiguous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 138,
+      "word": "scanty",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अल्प",
+        "कम",
+        "थोड़ा"
+      ],
+      "englishDefinition": "Limited or less than sufficient in degree, quantity, or extent.",
+      "pronunciation": {
+        "ipa": "/scanty/",
+        "simple": "SCA-nty"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably scanty.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अल्प थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "herculean",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was herculean.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण herculean था।"
+            }
+          ]
+        },
+        {
+          "word": "exigency",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exigency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exigency था।"
+            }
+          ]
+        },
+        {
+          "word": "exiguous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exiguous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exiguous था।"
+            }
+          ]
+        },
+        {
+          "word": "paucity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paucity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paucity था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 139,
+      "word": "sparse",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "नवरल",
+        "कम",
+        "नछिराया हुआ"
+      ],
+      "englishDefinition": "Of few and scattered elements; not thickly grown or settled (mnemonic:",
+      "pronunciation": {
+        "ipa": "/sparse/",
+        "simple": "SPA-rse"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably sparse.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से नवरल थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exigency",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नवरल",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exigency.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exigency था।"
+            }
+          ]
+        },
+        {
+          "word": "exiguous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नवरल",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exiguous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exiguous था।"
+            }
+          ]
+        },
+        {
+          "word": "paucity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नवरल",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paucity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paucity था।"
+            }
+          ]
+        },
+        {
+          "word": "scanty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "नवरल",
+            "कम"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scanty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scanty था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 140,
+      "word": "meager",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अल्प",
+        "थोड़ा",
+        "क्षीण"
+      ],
+      "englishDefinition": "Deficient in quality or quantity (mnemonic: my ghar/home is small).",
+      "pronunciation": {
+        "ipa": "/meager/",
+        "simple": "MEA-ger"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably meager.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अल्प थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "exiguous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "थोड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was exiguous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण exiguous था।"
+            }
+          ]
+        },
+        {
+          "word": "paucity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "थोड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paucity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paucity था।"
+            }
+          ]
+        },
+        {
+          "word": "scanty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "थोड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scanty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scanty था।"
+            }
+          ]
+        },
+        {
+          "word": "sparse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अल्प",
+            "थोड़ा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sparse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sparse था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 141,
+      "word": "devoid",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "रनहि",
+        "शून्य",
+        "वंनचि"
+      ],
+      "englishDefinition": "Being without a usual, typical, or expected attribute.",
+      "pronunciation": {
+        "ipa": "/devoid/",
+        "simple": "DEV-oid"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably devoid.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से रनहि थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "paucity",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रनहि",
+            "शून्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paucity.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paucity था।"
+            }
+          ]
+        },
+        {
+          "word": "scanty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रनहि",
+            "शून्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scanty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scanty था।"
+            }
+          ]
+        },
+        {
+          "word": "sparse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रनहि",
+            "शून्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sparse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sparse था।"
+            }
+          ]
+        },
+        {
+          "word": "meager",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "रनहि",
+            "शून्य"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meager.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meager था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 142,
+      "word": "paltry",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "मामूली",
+        "िुच्छ",
+        "अल्प"
+      ],
+      "englishDefinition": "Inferior, trashy; mean, despicable.",
+      "pronunciation": {
+        "ipa": "/paltry/",
+        "simple": "PAL-try"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably paltry.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से मामूली थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "scanty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मामूली",
+            "िुच्छ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was scanty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण scanty था।"
+            }
+          ]
+        },
+        {
+          "word": "sparse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मामूली",
+            "िुच्छ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sparse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sparse था।"
+            }
+          ]
+        },
+        {
+          "word": "meager",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मामूली",
+            "िुच्छ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meager.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meager था।"
+            }
+          ]
+        },
+        {
+          "word": "devoid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "मामूली",
+            "िुच्छ"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devoid था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 143,
+      "word": "petty",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "िोट",
+        "तुच्ि"
+      ],
+      "englishDefinition": "Having secondary rank or importance; minor.",
+      "pronunciation": {
+        "ipa": "/petty/",
+        "simple": "PE-tty"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably petty.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से िोट थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "sparse",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िोट",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was sparse.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण sparse था।"
+            }
+          ]
+        },
+        {
+          "word": "meager",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िोट",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was meager.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण meager था।"
+            }
+          ]
+        },
+        {
+          "word": "devoid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िोट",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devoid था।"
+            }
+          ]
+        },
+        {
+          "word": "paltry",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "िोट",
+            "तुच्ि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paltry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paltry था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 144,
+      "word": "redundant",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अिावश्यक",
+        "अनिररक्त",
+        "व्यथय"
+      ],
+      "englishDefinition": "Exceeding what is necessary or normal; superficial.",
+      "pronunciation": {
+        "ipa": "/redundant/",
+        "simple": "REDU-ndant"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably redundant.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अिावश्यक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "devoid",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was devoid.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण devoid था।"
+            }
+          ]
+        },
+        {
+          "word": "paltry",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paltry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paltry था।"
+            }
+          ]
+        },
+        {
+          "word": "petty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was petty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण petty था।"
+            }
+          ]
+        },
+        {
+          "word": "abundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abundant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 145,
+      "word": "superfluous",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अिावश्यक",
+        "अनिररक्त"
+      ],
+      "englishDefinition": "Exceeding what is sufficient or necessary.",
+      "pronunciation": {
+        "ipa": "/superfluous/",
+        "simple": "SUPER-fluous"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably superfluous.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अिावश्यक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "paltry",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was paltry.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण paltry था।"
+            }
+          ]
+        },
+        {
+          "word": "petty",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was petty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण petty था।"
+            }
+          ]
+        },
+        {
+          "word": "abundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abundant था।"
+            }
+          ]
+        },
+        {
+          "word": "redundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अिावश्यक",
+            "अनिररक्त"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was redundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण redundant था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 146,
+      "word": "plethora",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "बहुिायि",
+        "अनधकिा",
+        "भरपूर मात्रा"
+      ],
+      "englishDefinition": "A bodily condition characterized by an excess of blood;",
+      "pronunciation": {
+        "ipa": "/plethora/",
+        "simple": "PLET-hora"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of plethora in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में बहुिायि के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "petty",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बहुिायि",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was petty.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण petty था।"
+            }
+          ]
+        },
+        {
+          "word": "abundant",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बहुिायि",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abundant था।"
+            }
+          ]
+        },
+        {
+          "word": "redundant",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बहुिायि",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was redundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण redundant था।"
+            }
+          ]
+        },
+        {
+          "word": "superfluous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "बहुिायि",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superfluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superfluous था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 147,
+      "word": "galore",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "प्रचुरिा से",
+        "बहुिायि से"
+      ],
+      "englishDefinition": "Abundant; plentiful (mnemonic: Bangalore/gallery).",
+      "pronunciation": {
+        "ipa": "/galore/",
+        "simple": "GAL-ore"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably galore.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से प्रचुरिा से थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "abundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुरिा से",
+            "बहुिायि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was abundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण abundant था।"
+            }
+          ]
+        },
+        {
+          "word": "redundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुरिा से",
+            "बहुिायि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was redundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण redundant था।"
+            }
+          ]
+        },
+        {
+          "word": "superfluous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुरिा से",
+            "बहुिायि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superfluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superfluous था।"
+            }
+          ]
+        },
+        {
+          "word": "plethora",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "प्रचुरिा से",
+            "बहुिायि से"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plethora.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plethora था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 148,
+      "word": "inordinate",
+      "partOfSpeech": [
+        "adj"
+      ],
+      "hindiMeaning": [
+        "अत्यस्धक",
+        "असीस्मत"
+      ],
+      "englishDefinition": "Exceeding reasonable limits.",
+      "pronunciation": {
+        "ipa": "/inordinate/",
+        "simple": "INORD-inate"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably inordinate.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से अत्यस्धक थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "redundant",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक",
+            "असीस्मत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was redundant.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण redundant था।"
+            }
+          ]
+        },
+        {
+          "word": "superfluous",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक",
+            "असीस्मत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superfluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superfluous था।"
+            }
+          ]
+        },
+        {
+          "word": "plethora",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक",
+            "असीस्मत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plethora.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plethora था।"
+            }
+          ]
+        },
+        {
+          "word": "galore",
+          "partOfSpeech": [
+            "adj"
+          ],
+          "hindiMeaning": [
+            "अत्यस्धक",
+            "असीस्मत"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was galore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण galore था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 149,
+      "word": "surfeit",
+      "partOfSpeech": [
+        "n"
+      ],
+      "hindiMeaning": [
+        "अनिरेक",
+        "अनधकिा",
+        "भरमार"
+      ],
+      "englishDefinition": "An overabundant supply; excess (mnemonic: sur to feet).",
+      "pronunciation": {
+        "ipa": "/surfeit/",
+        "simple": "SUR-feit"
+      },
+      "examples": [
+        {
+          "sentence": "The official emphasized the importance of surfeit in administration.",
+          "hindiTranslation": "अधिकारी ने प्रशासन में अनिरेक के महत्व पर जोर दिया।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "superfluous",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनिरेक",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was superfluous.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण superfluous था।"
+            }
+          ]
+        },
+        {
+          "word": "plethora",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनिरेक",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plethora.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plethora था।"
+            }
+          ]
+        },
+        {
+          "word": "galore",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनिरेक",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was galore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण galore था।"
+            }
+          ]
+        },
+        {
+          "word": "inordinate",
+          "partOfSpeech": [
+            "n"
+          ],
+          "hindiMeaning": [
+            "अनिरेक",
+            "अनधकिा"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inordinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inordinate था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    },
+    {
+      "id": 150,
+      "word": "myriad",
+      "partOfSpeech": [
+        "adj",
+        "n"
+      ],
+      "hindiMeaning": [
+        "असंख्य",
+        "अिनगिि",
+        "नवनभन्ि"
+      ],
+      "englishDefinition": "A great number (mnemonic: Riyadh).",
+      "pronunciation": {
+        "ipa": "/myriad/",
+        "simple": "MYR-iad"
+      },
+      "examples": [
+        {
+          "sentence": "Her response to the situation was remarkably myriad.",
+          "hindiTranslation": "स्थिति के प्रति उनकी प्रतिक्रिया उल्लेखनीय रूप से असंख्य थी।"
+        }
+      ],
+      "synonyms": [
+        {
+          "word": "plethora",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अिनगिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was plethora.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण plethora था।"
+            }
+          ]
+        },
+        {
+          "word": "galore",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अिनगिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was galore.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण galore था।"
+            }
+          ]
+        },
+        {
+          "word": "inordinate",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अिनगिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was inordinate.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण inordinate था।"
+            }
+          ]
+        },
+        {
+          "word": "surfeit",
+          "partOfSpeech": [
+            "adj",
+            "n"
+          ],
+          "hindiMeaning": [
+            "असंख्य",
+            "अिनगिि"
+          ],
+          "examples": [
+            {
+              "sentence": "The manager noted that the approach was surfeit.",
+              "hindiTranslation": "प्रबंधक ने पाया कि यह दृष्टिकोण surfeit था।"
+            }
+          ]
+        }
+      ],
+      "antonyms": [],
+      "relatedWords": [],
+      "reviewStatus": "verified"
+    }
+  ]
+}

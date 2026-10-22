@@ -1,0 +1,782 @@
+[
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ABANDON**",
+    "o": [
+      "advance",
+      "adverse",
+      "forsake",
+      "keep"
+    ],
+    "a": 2,
+    "e": "**'Abandon'** का अर्थ है: **छोड़ देना, त्याग देना** (To leave someone or something behind, or to give up a plan or activity.)\n• सही Synonym: **'forsake'** (अर्थ: छोड़ देना, त्याग देना)\n• Antonyms: keep, retain",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ABROGATE**",
+    "o": [
+      "repeal",
+      "enact",
+      "adept",
+      "adopt"
+    ],
+    "a": 0,
+    "e": "**'Abrogate'** का अर्थ है: **औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना** (To formally repeal, annul, or do away with a law, agreement, or obligation.)\n• सही Synonym: **'repeal'** (अर्थ: औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना)\n• Antonyms: enact, establish",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ABUNDANT**",
+    "o": [
+      "plentiful",
+      "accoutrements",
+      "scarce",
+      "advance"
+    ],
+    "a": 0,
+    "e": "**'Abundant'** का अर्थ है: **प्रचुर, भरपूर, बहुत अधिक मात्रा में** (Existing or available in large quantities.)\n• सही Synonym: **'plentiful'** (अर्थ: प्रचुर, भरपूर, बहुत अधिक मात्रा में)\n• Antonyms: scarce, sparse",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ABDUCT**",
+    "o": [
+      "kidnap",
+      "acumen",
+      "advance",
+      "adverse"
+    ],
+    "a": 0,
+    "e": "**'Abduct'** का अर्थ है: **अपहरण करना, बलपूर्वक ले जाना** (To take someone away illegally and usually by force.)\n• सही Synonym: **'kidnap'** (अर्थ: अपहरण करना, बलपूर्वक ले जाना)",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ABIDE**",
+    "o": [
+      "dwell",
+      "disobey",
+      "aid",
+      "alert"
+    ],
+    "a": 0,
+    "e": "**'Abide'** का अर्थ है: **रहना, पालन करना, सहन करना** (To remain in a place; to accept or act according to a rule; or, in the phrase cannot abide, to tolerate.)\n• सही Synonym: **'dwell'** (अर्थ: रहना, पालन करना, सहन करना)\n• Antonyms: disobey, depart",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACCEDE**",
+    "o": [
+      "abide",
+      "refuse",
+      "consent",
+      "advance"
+    ],
+    "a": 2,
+    "e": "**'Accede'** का अर्थ है: **सहमति देना, अनुरोध मान लेना, पद ग्रहण करना** (To agree to a request or demand, or to assume an office or position.)\n• सही Synonym: **'consent'** (अर्थ: सहमति देना, अनुरोध मान लेना, पद ग्रहण करना)\n• Antonyms: refuse, dissent",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACCESS**",
+    "o": [
+      "inaccessibility",
+      "adorn",
+      "accrue",
+      "entry"
+    ],
+    "a": 3,
+    "e": "**'Access'** का अर्थ है: **पहुँच, प्रवेश, प्राप्त करना या खोलना** (The means or right to enter or use something; as a verb, to obtain or use information or a system.)\n• सही Synonym: **'entry'** (अर्थ: पहुँच, प्रवेश, प्राप्त करना या खोलना)\n• Antonyms: inaccessibility",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACCOUTREMENTS**",
+    "o": [
+      "abduct",
+      "accede",
+      "adept",
+      "accessories"
+    ],
+    "a": 3,
+    "e": "**'Accoutrements'** का अर्थ है: **साज-सामान, सहायक उपकरण, किसी गतिविधि से जुड़ी वस्तुएँ** (Additional items or equipment associated with a particular activity, role, or task.)\n• सही Synonym: **'accessories'** (अर्थ: साज-सामान, सहायक उपकरण, किसी गतिविधि से जुड़ी वस्तुएँ)",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACCRUE**",
+    "o": [
+      "accoutrements",
+      "decrease",
+      "accumulate",
+      "adverse"
+    ],
+    "a": 2,
+    "e": "**'Accrue'** का अर्थ है: **धीरे-धीरे जमा होना, समय के साथ प्राप्त होना** (To accumulate or be received gradually over time.)\n• सही Synonym: **'accumulate'** (अर्थ: धीरे-धीरे जमा होना, समय के साथ प्राप्त होना)\n• Antonyms: decrease, dissipate",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACCUSED**",
+    "o": [
+      "defendant",
+      "allege",
+      "alter",
+      "abide"
+    ],
+    "a": 0,
+    "e": "**'Accused'** का अर्थ है: **आरोपी, जिस पर आरोप लगाया गया हो** (A person alleged to have committed an offence; also used to describe someone who has been accused.)\n• सही Synonym: **'defendant'** (अर्थ: आरोपी, जिस पर आरोप लगाया गया हो)",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ACUMEN**",
+    "o": [
+      "insight",
+      "affluence",
+      "ineptitude",
+      "agony"
+    ],
+    "a": 0,
+    "e": "**'Acumen'** का अर्थ है: **तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता** (The ability to make good judgments and quick, accurate decisions, especially in a particular field.)\n• सही Synonym: **'insight'** (अर्थ: तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता)\n• Antonyms: ineptitude, naivety",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADEPT**",
+    "o": [
+      "alert",
+      "inept",
+      "skilled",
+      "abide"
+    ],
+    "a": 2,
+    "e": "**'Adept'** का अर्थ है: **कुशल, निपुण** (Very skilled or proficient at doing something.)\n• सही Synonym: **'skilled'** (अर्थ: कुशल, निपुण)\n• Antonyms: inept, incompetent",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADMONISH**",
+    "o": [
+      "praise",
+      "adorn",
+      "affluence",
+      "rebuke"
+    ],
+    "a": 3,
+    "e": "**'Admonish'** का अर्थ है: **चेतावनी देना, समझाकर डाँटना, फटकारना** (To warn or reprimand someone firmly, often to correct behaviour.)\n• सही Synonym: **'rebuke'** (अर्थ: चेतावनी देना, समझाकर डाँटना, फटकारना)\n• Antonyms: praise, commend",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADOPT**",
+    "o": [
+      "reject",
+      "affirm",
+      "alter",
+      "embrace"
+    ],
+    "a": 3,
+    "e": "**'Adopt'** का अर्थ है: **अपनाना, स्वीकार करना, गोद लेना** (To take up an idea, method, or attitude; or legally take another person's child into one's family.)\n• सही Synonym: **'embrace'** (अर्थ: अपनाना, स्वीकार करना, गोद लेना)\n• Antonyms: reject, abandon",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADORN**",
+    "o": [
+      "abrogate",
+      "deface",
+      "adopt",
+      "decorate"
+    ],
+    "a": 3,
+    "e": "**'Adorn'** का अर्थ है: **सजाना, अलंकृत करना** (To decorate or make something more attractive.)\n• सही Synonym: **'decorate'** (अर्थ: सजाना, अलंकृत करना)\n• Antonyms: deface, disfigure",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADVANCE**",
+    "o": [
+      "progress",
+      "alarm",
+      "retreat",
+      "admonish"
+    ],
+    "a": 0,
+    "e": "**'Advance'** का अर्थ है: **आगे बढ़ना, प्रगति करना, आगे बढ़ाना** (To move forward, make progress, or help something develop.)\n• सही Synonym: **'progress'** (अर्थ: आगे बढ़ना, प्रगति करना, आगे बढ़ाना)\n• Antonyms: retreat, regress",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ADVERSE**",
+    "o": [
+      "unfavourable",
+      "favourable",
+      "access",
+      "alter"
+    ],
+    "a": 0,
+    "e": "**'Adverse'** का अर्थ है: **प्रतिकूल, हानिकारक, अनुकूल न होने वाला** (Preventing success or creating difficulties; unfavourable or harmful.)\n• सही Synonym: **'unfavourable'** (अर्थ: प्रतिकूल, हानिकारक, अनुकूल न होने वाला)\n• Antonyms: favourable, beneficial",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AFFIRM**",
+    "o": [
+      "assert",
+      "deny",
+      "adept",
+      "allege"
+    ],
+    "a": 0,
+    "e": "**'Affirm'** का अर्थ है: **दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना** (To state firmly that something is true, or to confirm it.)\n• सही Synonym: **'assert'** (अर्थ: दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना)\n• Antonyms: deny, contradict",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AFFLUENCE**",
+    "o": [
+      "wealth",
+      "accused",
+      "alter",
+      "poverty"
+    ],
+    "a": 0,
+    "e": "**'Affluence'** का अर्थ है: **धन-संपन्नता, समृद्धि, अमीरी** (The state of having a great deal of money or material wealth.)\n• सही Synonym: **'wealth'** (अर्थ: धन-संपन्नता, समृद्धि, अमीरी)\n• Antonyms: poverty, destitution",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AGONY**",
+    "o": [
+      "abundant",
+      "adverse",
+      "comfort",
+      "anguish"
+    ],
+    "a": 3,
+    "e": "**'Agony'** का अर्थ है: **अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना** (Extreme physical pain or intense mental suffering.)\n• सही Synonym: **'anguish'** (अर्थ: अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना)\n• Antonyms: comfort, relief",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**AID**",
+    "o": [
+      "help",
+      "accoutrements",
+      "hindrance",
+      "alert"
+    ],
+    "a": 0,
+    "e": "**'Aid'** का अर्थ है: **सहायता, मदद करना** (Help or support; as a verb, to help someone or something.)\n• सही Synonym: **'help'** (अर्थ: सहायता, मदद करना)\n• Antonyms: hindrance, obstruction",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALARM**",
+    "o": [
+      "agony",
+      "adverse",
+      "calm",
+      "warning"
+    ],
+    "a": 3,
+    "e": "**'Alarm'** का अर्थ है: **चेतावनी, घबराहट, भयभीत करना** (A warning signal or feeling of sudden fear; as a verb, to make someone afraid or worried.)\n• सही Synonym: **'warning'** (अर्थ: चेतावनी, घबराहट, भयभीत करना)\n• Antonyms: calm, reassurance",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALERT**",
+    "o": [
+      "vigilant",
+      "abduct",
+      "access",
+      "inattentive"
+    ],
+    "a": 0,
+    "e": "**'Alert'** का अर्थ है: **सतर्क, चौकन्ना, चेतावनी, सचेत करना** (Watchful and ready to respond; a warning; or to warn someone.)\n• सही Synonym: **'vigilant'** (अर्थ: सतर्क, चौकन्ना, चेतावनी, सचेत करना)\n• Antonyms: inattentive, unaware",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALTER**",
+    "o": [
+      "change",
+      "preserve",
+      "accrue",
+      "abduct"
+    ],
+    "a": 0,
+    "e": "**'Alter'** का अर्थ है: **बदलना, संशोधित करना** (To change something, usually partly, without necessarily replacing it completely.)\n• सही Synonym: **'change'** (अर्थ: बदलना, संशोधित करना)\n• Antonyms: preserve, maintain",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate SYNONYM of the given word:\n\n**ALLEGE**",
+    "o": [
+      "deny",
+      "acumen",
+      "advance",
+      "claim"
+    ],
+    "a": 3,
+    "e": "**'Allege'** का अर्थ है: **आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना** (To claim that someone has done something wrong, usually without having yet proved it.)\n• सही Synonym: **'claim'** (अर्थ: आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना)\n• Antonyms: deny, exonerate",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ABANDON**",
+    "o": [
+      "desert",
+      "forsake",
+      "keep",
+      "accrue"
+    ],
+    "a": 2,
+    "e": "**'Abandon'** का अर्थ है: **छोड़ देना, त्याग देना**\n• सही Antonym (विलोम): **'keep'**\n• इसके Synonyms हैं: forsake, desert, ditch",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ABROGATE**",
+    "o": [
+      "adorn",
+      "enact",
+      "revoke",
+      "repeal"
+    ],
+    "a": 1,
+    "e": "**'Abrogate'** का अर्थ है: **औपचारिक रूप से समाप्त करना, कानून या समझौता रद्द करना**\n• सही Antonym (विलोम): **'enact'**\n• इसके Synonyms हैं: repeal, revoke, rescind",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ABUNDANT**",
+    "o": [
+      "adopt",
+      "scarce",
+      "plentiful",
+      "copious"
+    ],
+    "a": 1,
+    "e": "**'Abundant'** का अर्थ है: **प्रचुर, भरपूर, बहुत अधिक मात्रा में**\n• सही Antonym (विलोम): **'scarce'**\n• इसके Synonyms हैं: plentiful, copious, profuse",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ABIDE**",
+    "o": [
+      "dwell",
+      "reside",
+      "disobey",
+      "affirm"
+    ],
+    "a": 2,
+    "e": "**'Abide'** का अर्थ है: **रहना, पालन करना, सहन करना**\n• सही Antonym (विलोम): **'disobey'**\n• इसके Synonyms हैं: dwell, reside, stay",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ACCEDE**",
+    "o": [
+      "alter",
+      "agree",
+      "refuse",
+      "consent"
+    ],
+    "a": 2,
+    "e": "**'Accede'** का अर्थ है: **सहमति देना, अनुरोध मान लेना, पद ग्रहण करना**\n• सही Antonym (विलोम): **'refuse'**\n• इसके Synonyms हैं: consent, agree, assent",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ACCESS**",
+    "o": [
+      "entry",
+      "inaccessibility",
+      "admission",
+      "accused"
+    ],
+    "a": 1,
+    "e": "**'Access'** का अर्थ है: **पहुँच, प्रवेश, प्राप्त करना या खोलना**\n• सही Antonym (विलोम): **'inaccessibility'**\n• इसके Synonyms हैं: entry, admission, approach",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ACCRUE**",
+    "o": [
+      "affluence",
+      "decrease",
+      "accumulate",
+      "amass"
+    ],
+    "a": 1,
+    "e": "**'Accrue'** का अर्थ है: **धीरे-धीरे जमा होना, समय के साथ प्राप्त होना**\n• सही Antonym (विलोम): **'decrease'**\n• इसके Synonyms हैं: accumulate, amass, build up",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ACUMEN**",
+    "o": [
+      "insight",
+      "adept",
+      "ineptitude",
+      "shrewdness"
+    ],
+    "a": 2,
+    "e": "**'Acumen'** का अर्थ है: **तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता**\n• सही Antonym (विलोम): **'ineptitude'**\n• इसके Synonyms हैं: insight, shrewdness, discernment",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADEPT**",
+    "o": [
+      "proficient",
+      "skilled",
+      "inept",
+      "affluence"
+    ],
+    "a": 2,
+    "e": "**'Adept'** का अर्थ है: **कुशल, निपुण**\n• सही Antonym (विलोम): **'inept'**\n• इसके Synonyms हैं: skilled, proficient, dexterous",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADMONISH**",
+    "o": [
+      "praise",
+      "acumen",
+      "rebuke",
+      "reprimand"
+    ],
+    "a": 0,
+    "e": "**'Admonish'** का अर्थ है: **चेतावनी देना, समझाकर डाँटना, फटकारना**\n• सही Antonym (विलोम): **'praise'**\n• इसके Synonyms हैं: rebuke, reprimand, reproach",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADOPT**",
+    "o": [
+      "reject",
+      "embrace",
+      "accept",
+      "admonish"
+    ],
+    "a": 0,
+    "e": "**'Adopt'** का अर्थ है: **अपनाना, स्वीकार करना, गोद लेना**\n• सही Antonym (विलोम): **'reject'**\n• इसके Synonyms हैं: embrace, accept, take up",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADORN**",
+    "o": [
+      "embellish",
+      "decorate",
+      "deface",
+      "adept"
+    ],
+    "a": 2,
+    "e": "**'Adorn'** का अर्थ है: **सजाना, अलंकृत करना**\n• सही Antonym (विलोम): **'deface'**\n• इसके Synonyms हैं: decorate, embellish, beautify",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADVANCE**",
+    "o": [
+      "progress",
+      "retreat",
+      "proceed",
+      "alarm"
+    ],
+    "a": 1,
+    "e": "**'Advance'** का अर्थ है: **आगे बढ़ना, प्रगति करना, आगे बढ़ाना**\n• सही Antonym (विलोम): **'retreat'**\n• इसके Synonyms हैं: progress, proceed, move forward",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ADVERSE**",
+    "o": [
+      "detrimental",
+      "favourable",
+      "unfavourable",
+      "accede"
+    ],
+    "a": 1,
+    "e": "**'Adverse'** का अर्थ है: **प्रतिकूल, हानिकारक, अनुकूल न होने वाला**\n• सही Antonym (विलोम): **'favourable'**\n• इसके Synonyms हैं: unfavourable, detrimental, disadvantageous",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AFFIRM**",
+    "o": [
+      "deny",
+      "confirm",
+      "access",
+      "assert"
+    ],
+    "a": 0,
+    "e": "**'Affirm'** का अर्थ है: **दृढ़तापूर्वक कहना, पुष्टि करना, समर्थन करना**\n• सही Antonym (विलोम): **'deny'**\n• इसके Synonyms हैं: assert, confirm, declare",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AFFLUENCE**",
+    "o": [
+      "poverty",
+      "admonish",
+      "wealth",
+      "riches"
+    ],
+    "a": 0,
+    "e": "**'Affluence'** का अर्थ है: **धन-संपन्नता, समृद्धि, अमीरी**\n• सही Antonym (विलोम): **'poverty'**\n• इसके Synonyms हैं: wealth, riches, prosperity",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AGONY**",
+    "o": [
+      "adverse",
+      "torment",
+      "anguish",
+      "comfort"
+    ],
+    "a": 3,
+    "e": "**'Agony'** का अर्थ है: **अत्यधिक पीड़ा, असहनीय दर्द, गहरी मानसिक वेदना**\n• सही Antonym (विलोम): **'comfort'**\n• इसके Synonyms हैं: anguish, torment, distress",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**AID**",
+    "o": [
+      "assistance",
+      "affluence",
+      "help",
+      "hindrance"
+    ],
+    "a": 3,
+    "e": "**'Aid'** का अर्थ है: **सहायता, मदद करना**\n• सही Antonym (विलोम): **'hindrance'**\n• इसके Synonyms हैं: help, assistance, support",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALARM**",
+    "o": [
+      "warning",
+      "calm",
+      "fright",
+      "accede"
+    ],
+    "a": 1,
+    "e": "**'Alarm'** का अर्थ है: **चेतावनी, घबराहट, भयभीत करना**\n• सही Antonym (विलोम): **'calm'**\n• इसके Synonyms हैं: warning, fright, fear",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALERT**",
+    "o": [
+      "vigilant",
+      "accoutrements",
+      "inattentive",
+      "watchful"
+    ],
+    "a": 2,
+    "e": "**'Alert'** का अर्थ है: **सतर्क, चौकन्ना, चेतावनी, सचेत करना**\n• सही Antonym (विलोम): **'inattentive'**\n• इसके Synonyms हैं: vigilant, watchful, attentive",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALTER**",
+    "o": [
+      "modify",
+      "change",
+      "access",
+      "preserve"
+    ],
+    "a": 3,
+    "e": "**'Alter'** का अर्थ है: **बदलना, संशोधित करना**\n• सही Antonym (विलोम): **'preserve'**\n• इसके Synonyms हैं: change, modify, adjust",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate ANTONYM of the given word:\n\n**ALLEGE**",
+    "o": [
+      "accused",
+      "assert",
+      "claim",
+      "deny"
+    ],
+    "a": 3,
+    "e": "**'Allege'** का अर्थ है: **आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना**\n• सही Antonym (विलोम): **'deny'**\n• इसके Synonyms हैं: claim, assert, accuse",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"He __________ his plan to move abroad.\"",
+    "o": [
+      "abandoned",
+      "aid",
+      "affirm",
+      "advance"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'abandoned'**\nवाक्य का हिंदी अनुवाद: उसने विदेश जाने की अपनी योजना छोड़ दी।\nअर्थ: **abandon** = छोड़ देना, त्याग देना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The region has __________ natural resources.\"",
+    "o": [
+      "abundant",
+      "adverse",
+      "adopt",
+      "adorn"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'abundant'**\nवाक्य का हिंदी अनुवाद: इस क्षेत्र में प्राकृतिक संसाधन प्रचुर मात्रा में हैं।\nअर्थ: **abundant** = प्रचुर, भरपूर, बहुत अधिक मात्रा में",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"All students must __________ by the rules.\"",
+    "o": [
+      "abrogate",
+      "abandon",
+      "adorn",
+      "abide"
+    ],
+    "a": 3,
+    "e": "सही उत्तर: **'abide'**\nवाक्य का हिंदी अनुवाद: सभी विद्यार्थियों को नियमों का पालन करना चाहिए.\nअर्थ: **abide** = रहना, पालन करना, सहन करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Students have __________ to the library.\"",
+    "o": [
+      "access",
+      "alert",
+      "adverse",
+      "alter"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'access'**\nवाक्य का हिंदी अनुवाद: विद्यार्थियों को पुस्तकालय तक पहुँच प्राप्त है।\nअर्थ: **access** = पहुँच, प्रवेश, प्राप्त करना या खोलना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Interest will __________ on your savings.\"",
+    "o": [
+      "acumen",
+      "affluence",
+      "accrue",
+      "alter"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'accrue'**\nवाक्य का हिंदी अनुवाद: तुम्हारी बचत पर समय के साथ ब्याज जमा होगा।\nअर्थ: **accrue** = धीरे-धीरे जमा होना, समय के साथ प्राप्त होना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"She has excellent business __________.\"",
+    "o": [
+      "acumen",
+      "admonish",
+      "adopt",
+      "adverse"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'acumen'**\nवाक्य का हिंदी अनुवाद: उसमें व्यावसायिक सूझबूझ बहुत अच्छी है।\nअर्थ: **acumen** = तीक्ष्ण समझ, सूझबूझ, व्यावहारिक निर्णय क्षमता",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The teacher __________ the students for being late.\"",
+    "o": [
+      "affirm",
+      "access",
+      "admonished",
+      "abandon"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'admonished'**\nवाक्य का हिंदी अनुवाद: शिक्षक ने देर से आने पर विद्यार्थियों को फटकारा।\nअर्थ: **admonish** = चेतावनी देना, समझाकर डाँटना, फटकारना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Flowers __________ the entrance.\"",
+    "o": [
+      "abundant",
+      "adorned",
+      "alter",
+      "abandon"
+    ],
+    "a": 1,
+    "e": "सही उत्तर: **'adorned'**\nवाक्य का हिंदी अनुवाद: फूलों ने प्रवेश-द्वार को सजा दिया।\nअर्थ: **adorn** = सजाना, अलंकृत करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The team succeeded despite __________ conditions.\"",
+    "o": [
+      "advance",
+      "accoutrements",
+      "adopt",
+      "adverse"
+    ],
+    "a": 3,
+    "e": "सही उत्तर: **'adverse'**\nवाक्य का हिंदी अनुवाद: टीम प्रतिकूल परिस्थितियों के बावजूद सफल हुई।\nअर्थ: **adverse** = प्रतिकूल, हानिकारक, अनुकूल न होने वाला",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The region is known for its __________.\"",
+    "o": [
+      "affluence",
+      "advance",
+      "access",
+      "alert"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'affluence'**\nवाक्य का हिंदी अनुवाद: यह क्षेत्र अपनी समृद्धि के लिए जाना जाता है।\nअर्थ: **affluence** = धन-संपन्नता, समृद्धि, अमीरी",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"The organization provided __________ to the victims.\"",
+    "o": [
+      "abundant",
+      "admonish",
+      "aid",
+      "alarm"
+    ],
+    "a": 2,
+    "e": "सही उत्तर: **'aid'**\nवाक्य का हिंदी अनुवाद: संस्था ने पीड़ितों को सहायता दी।\nअर्थ: **aid** = सहायता, मदद करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Drivers must remain __________ on busy roads.\"",
+    "o": [
+      "alert",
+      "admonish",
+      "accoutrements",
+      "acumen"
+    ],
+    "a": 0,
+    "e": "सही उत्तर: **'alert'**\nवाक्य का हिंदी अनुवाद: व्यस्त सड़कों पर चालकों को सतर्क रहना चाहिए।\nअर्थ: **alert** = सतर्क, चौकन्ना, चेतावनी, सचेत करना",
+    "t": "mcq",
+    "d": "medium"
+  },
+  {
+    "q": "Select the most appropriate word to fill in the blank:\n\n\"Prosecutors __________ that the company broke the law.\"",
+    "o": [
+      "acumen",
+      "alert",
+      "adept",
+      "allege"
+    ],
+    "a": 3,
+    "e": "सही उत्तर: **'allege'**\nवाक्य का हिंदी अनुवाद: अभियोजकों का आरोप है कि कंपनी ने कानून तोड़ा।\nअर्थ: **allege** = आरोप लगाना, बिना पूर्ण प्रमाण के दावा करना",
+    "t": "mcq",
+    "d": "medium"
+  }
+]
