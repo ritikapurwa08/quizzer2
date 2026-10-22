@@ -54,15 +54,15 @@ export default function DashboardPage() {
         </div>
 
         {subjects === undefined ? (
-          /* Exactly 6 subject-card skeleton placeholders matching real 2-row dimensions */
+          /* Exactly 5 subject-card skeleton placeholders matching 5 canonical subjects */
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
-            {Array.from({ length: 6 }).map((_, i) => (
+            {Array.from({ length: 5 }).map((_, i) => (
               <Card
                 key={i}
                 className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card min-h-[3.5rem] rounded-xl will-change-opacity shadow-none"
               >
                 <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                  <Skeleton className="h-7 w-7 rounded-lg shrink-0" />
+                  <Skeleton className="h-8 w-8 rounded-lg shrink-0" />
                   <Skeleton className="h-4 w-32 sm:w-40 rounded" />
                 </div>
                 <Skeleton className="h-4 w-4 rounded-full shrink-0 ml-2" />
@@ -99,18 +99,57 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {/* 2. Supporting Stat Cards — Compact 2-col on mobile, 4-col on desktop */}
-      {stats && (
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
-          <StatCard icon={ListChecks} label="Tests Taken" value={stats.testsAttempted} />
-          <StatCard icon={CheckCircle2} label="Questions Solved" value={stats.questionsSolved} />
-          <StatCard icon={Percent} label="Accuracy" value={formatAccuracy(stats.overallAccuracy)} />
-          <StatCard icon={Bookmark} label="Bookmarks" value={stats.bookmarkCount} />
-        </div>
-      )}
+      {/* 2. Supporting Stat Cards — 2-col on mobile, 4-col on desktop */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3 min-h-[3.5rem]">
+        {stats === undefined ? (
+          Array.from({ length: 4 }).map((_, i) => (
+            <Card
+              key={i}
+              className="flex flex-row items-center justify-between gap-3 p-3.5 rounded-xl border border-border/80 bg-card min-h-[3.5rem] shadow-none"
+            >
+              <div className="flex items-center gap-3 min-w-0 flex-1">
+                <Skeleton className="h-9 w-9 rounded-lg shrink-0" />
+                <Skeleton className="h-3.5 w-16 sm:w-20 rounded" />
+              </div>
+              <Skeleton className="h-5 w-8 rounded shrink-0 ml-2" />
+            </Card>
+          ))
+        ) : (
+          <>
+            <StatCard icon={ListChecks} label="Tests Taken" value={stats.testsAttempted} />
+            <StatCard icon={CheckCircle2} label="Questions Solved" value={stats.questionsSolved} />
+            <StatCard icon={Percent} label="Accuracy" value={formatAccuracy(stats.overallAccuracy)} />
+            <StatCard icon={Bookmark} label="Bookmarks" value={stats.bookmarkCount} />
+          </>
+        )}
+      </div>
 
       {/* 3. Expanded Full-Width Weak Areas & Subject Mastery Diagnosis */}
-      {stats && (
+      {stats === undefined ? (
+        <Card className="p-4 sm:p-5 rounded-2xl border border-border/80 bg-card shadow-xs space-y-4">
+          <div className="flex items-center justify-between border-b border-border/60 pb-3">
+            <div className="space-y-1.5">
+              <div className="flex items-center gap-2">
+                <Skeleton className="h-7 w-7 rounded-lg" />
+                <Skeleton className="h-5 w-48 rounded" />
+              </div>
+              <Skeleton className="h-3.5 w-64 rounded" />
+            </div>
+            <Skeleton className="h-4 w-28 rounded hidden sm:block" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {Array.from({ length: 3 }).map((_, i) => (
+              <div key={i} className="p-3.5 rounded-xl border border-border/60 bg-muted/20 space-y-3">
+                <div className="flex items-center justify-between">
+                  <Skeleton className="h-4 w-28 rounded" />
+                  <Skeleton className="h-10 w-10 rounded-full" />
+                </div>
+                <Skeleton className="h-3 w-20 rounded" />
+              </div>
+            ))}
+          </div>
+        </Card>
+      ) : (
         <WeakSubjectsCard
           breakdown={stats.subjectBreakdown}
           subjects={stats.weakSubjects}
@@ -131,15 +170,27 @@ export default function DashboardPage() {
             View All History <ArrowRight className="h-3 w-3" />
           </Link>
         </div>
-        {recent && recent.length === 0 && (
+        {recent === undefined ? (
+          <div className="space-y-2">
+            <div className="flex items-center justify-between p-3.5 rounded-xl border border-border/60 bg-muted/15">
+              <div className="flex items-center gap-3">
+                <Skeleton className="h-8 w-8 rounded-lg" />
+                <div className="space-y-1.5">
+                  <Skeleton className="h-3.5 w-36 rounded" />
+                  <Skeleton className="h-2.5 w-20 rounded" />
+                </div>
+              </div>
+              <Skeleton className="h-5 w-14 rounded-full" />
+            </div>
+          </div>
+        ) : recent.length === 0 ? (
           <EmptyState
             icon={ListChecks}
             title="No tests attempted yet"
             description="Start practicing test sets from any subject above to evaluate your preparation."
             className="py-4"
           />
-        )}
-        {recent && recent.length > 0 && (
+        ) : (
           <ul className="space-y-2">
             {recent.map((a: any) => (
               <li key={a._id}>
