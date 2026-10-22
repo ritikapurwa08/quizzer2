@@ -109,9 +109,9 @@ export const seedSyllabus = mutation({
     let subjectCount = 0;
     let topicCount = 0;
 
-    const validSubjectSlugs = new Set(SYLLABUS_DATA.map((s) => s.slug));
+    const validSubjectSlugs = new Set([...SYLLABUS_DATA.map((s) => s.slug), "english"]);
 
-    // 1. Remove non-canonical subjects (e.g. World GK, India GK, English)
+    // 1. Remove non-canonical subjects (e.g. World GK, India GK)
     const existingSubjects = await ctx.db.query("subjects").collect();
     for (const oldSub of existingSubjects) {
       if (!validSubjectSlugs.has(oldSub.slug)) {
@@ -522,6 +522,117 @@ export const seedSampleNotes = mutation({
     } else {
       return await ctx.db.insert("topicNotes", notePayload);
     }
+  },
+});
+
+export const ENGLISH_SYLLABUS_TOPICS = [
+  // Part I: Secondary & Sr. Secondary Standard (Grammar and Usage)
+  { name: "Parts of Speech – Nouns", nameHindi: "शब्द भेद: संज्ञा (Nouns)" },
+  { name: "Parts of Speech – Verbs", nameHindi: "शब्द भेद: क्रिया (Verbs)" },
+  { name: "Parts of Speech – Adjectives", nameHindi: "शब्द भेद: विशेषण (Adjectives)" },
+  { name: "Parts of Speech – Adverbs", nameHindi: "शब्द भेद: क्रियाविशेषण (Adverbs)" },
+  { name: "Articles and Determiners", nameHindi: "उपपद एवं निर्धारक (Articles & Determiners)" },
+  { name: "Tenses & Sequence of Tenses", nameHindi: "काल एवं अनुक्रम (Tenses & Sequence of Tenses)" },
+  { name: "Prepositions", nameHindi: "संबंधबोधक अव्यय (Prepositions)" },
+  { name: "Modal Auxiliaries", nameHindi: "सहायक क्रियाएँ (Modal Auxiliaries)" },
+  { name: "Degrees of Adjectives", nameHindi: "विशेषण की अवस्थाएँ (Degrees of Adjectives)" },
+  { name: "Subordination and Coordination", nameHindi: "संयुक्त एवं मिश्रित वाक्य (Subordination & Coordination)" },
+  { name: "Transformation of Sentences", nameHindi: "वाक्य रूपांतरण (Transformation of Sentences)" },
+  { name: "Phrasal Verbs", nameHindi: "संयुक्त क्रियाएँ (Phrasal Verbs)" },
+  { name: "Proverbs and Idiomatic Expressions", nameHindi: "कहावतें एवं मुहावरे (Proverbs & Idioms)" },
+  { name: "Words Often Misspelt and Confused", nameHindi: "भ्रामक एवं अशुद्ध वर्तनी वाले शब्द (Confusable & Misspelt Words)" },
+  { name: "One Word Substitution", nameHindi: "वाक्यांश के लिए एक शब्द (One Word Substitution)" },
+  { name: "Synonyms and Antonyms", nameHindi: "समानार्थी एवं विलोम शब्द (Synonyms and Antonyms)" },
+  { name: "Phonetic Transcription", nameHindi: "ध्वन्यात्मक प्रतिलेखन (Phonetic Transcription)" },
+  // Part II: Graduation Standard (Grammar, Usage & Literature)
+  { name: "Basic Sentence Patterns", nameHindi: "मूल वाक्य प्रतिरूप (Basic Sentence Patterns)" },
+  { name: "Clause Analysis (SPOCA / SVOCA)", nameHindi: "उपवाक्य विश्लेषण (Clause Analysis)" },
+  { name: "Reading Comprehension and Vocabulary", nameHindi: "अपठित गद्यांश एवं शब्दावली (Reading Comprehension)" },
+  { name: "Poetry Appreciation", nameHindi: "काव्य रसास्वादन (Poetry Appreciation)" },
+  { name: "Literary Forms Devices and Figures of Speech", nameHindi: "साहित्यिक रूप एवं अलंकार (Literary Forms & Devices)" },
+  { name: "Major Literary Periods", nameHindi: "प्रमुख साहित्यिक काल (Major Literary Periods)" },
+  { name: "Major Literary Movements", nameHindi: "प्रमुख साहित्यिक आंदोलन (Literary Movements)" },
+  { name: "Prescribed Poetry", nameHindi: "निर्धारित कविताएँ (Prescribed Poetry – 15 Works)" },
+  { name: "Prescribed Prose", nameHindi: "निर्धारित गद्य (Prescribed Prose – 6 Works)" },
+  { name: "Prescribed Fiction", nameHindi: "निर्धारित कथा साहित्य (Prescribed Fiction)" },
+  { name: "Prescribed Drama", nameHindi: "निर्धारित नाटक (Prescribed Drama)" },
+  // Part III: Teaching Methods (ELT)
+  { name: "Basic Principles of Second Language Teaching", nameHindi: "द्वितीय भाषा शिक्षण के मूल सिद्धांत (ELT Principles)" },
+  { name: "Developing Four Language Skills (LSRW)", nameHindi: "चार भाषाई कौशल: LSRW (Language Skills)" },
+  { name: "Teaching of Language Forms", nameHindi: "भाषाई रूपों का शिक्षण: गद्य, पद्य, व्याकरण व रचना" },
+  { name: "Approaches and Methods of ELT", nameHindi: "अंग्रेजी शिक्षण के दृष्टिकोण एवं विधियाँ (ELT Methods)" },
+  { name: "Evaluation in English Language", nameHindi: "अंग्रेजी भाषा में मूल्यांकन एवं परीक्षण (Evaluation & Testing)" },
+];
+
+export const seedEnglishSyllabus = mutation({
+  args: {},
+  handler: async (ctx) => {
+    // 1. Upsert English Subject
+    let subject = await ctx.db
+      .query("subjects")
+      .withIndex("by_slug", (q) => q.eq("slug", "english"))
+      .unique();
+
+    let subjectId;
+    if (subject) {
+      subjectId = subject._id;
+      await ctx.db.patch(subjectId, {
+        name: "English (Paper-II)",
+        nameHindi: "अंग्रेजी (Paper-II)",
+        description: "RPSC Senior Teacher (2nd Grade) Paper-II: Grammar & Usage, Literature & ELT Methods",
+        order: 4,
+      });
+    } else {
+      subjectId = await ctx.db.insert("subjects", {
+        name: "English (Paper-II)",
+        nameHindi: "अंग्रेजी (Paper-II)",
+        slug: "english",
+        description: "RPSC Senior Teacher (2nd Grade) Paper-II: Grammar & Usage, Literature & ELT Methods",
+        order: 4,
+      });
+    }
+
+    // 2. Upsert English Topics
+    let topicsAdded = 0;
+    let topicsUpdated = 0;
+
+    for (let i = 0; i < ENGLISH_SYLLABUS_TOPICS.length; i++) {
+      const top = ENGLISH_SYLLABUS_TOPICS[i];
+      const topicSlug = slugify(top.name);
+
+      const existingTopic = await ctx.db
+        .query("topics")
+        .withIndex("by_subject_slug", (q) =>
+          q.eq("subjectId", subjectId).eq("slug", topicSlug)
+        )
+        .unique();
+
+      if (existingTopic) {
+        await ctx.db.patch(existingTopic._id, {
+          name: top.name,
+          nameHindi: top.nameHindi,
+          order: i,
+        });
+        topicsUpdated++;
+      } else {
+        await ctx.db.insert("topics", {
+          subjectId,
+          name: top.name,
+          nameHindi: top.nameHindi,
+          slug: topicSlug,
+          order: i,
+        });
+        topicsAdded++;
+      }
+    }
+
+    return {
+      message: "English (Paper-II) syllabus seeded successfully",
+      subjectId,
+      topicsAdded,
+      topicsUpdated,
+      totalTopics: ENGLISH_SYLLABUS_TOPICS.length,
+    };
   },
 });
 
