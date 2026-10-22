@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { Id } from "../../../../../convex/_generated/dataModel";
 import { api } from "../../../../../convex/_generated/api";
-import { cn, getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { cn, getSubjectDisplayName, getTopicDisplayName, containsDevanagari } from "@/lib/utils";
 
 type SubjectTab = "quiz" | "pdf" | "tricks" | "images";
 
@@ -298,7 +298,12 @@ export default function SubjectDetailPage() {
                           )}
                         </span>
                         <div className="min-w-0 flex-1">
-                          <p className="font-semibold text-xs sm:text-sm transition-colors truncate font-hindi text-foreground group-hover:text-primary">
+                          <p
+                            className={cn(
+                              "font-semibold text-xs sm:text-sm transition-colors truncate text-foreground group-hover:text-primary",
+                              containsDevanagari(getTopicDisplayName(t)) && "font-hindi"
+                            )}
+                          >
                             {getTopicDisplayName(t)}
                           </p>
 
