@@ -119,16 +119,24 @@ export function QuestionImportEditor({
     if (initialMasterTopicId) {
       return MASTER_TOPICS_LIST.find((mt) => mt.id === initialMasterTopicId) || null;
     }
-    if (!topicName) return null;
+    if (!topic && !topicName) return null;
+
+    const tName = topic?.name || topicName || "";
+    const tHindi = topic?.nameHindi || topicName || "";
+    const lowerName = tName.toLowerCase();
+
     return (
       MASTER_TOPICS_LIST.find(
         (mt) =>
-          mt.nameHindi === topicName ||
-          topicName.includes(mt.nameHindi) ||
-          mt.nameHindi.includes(topicName)
+          mt.nameHindi === tHindi ||
+          mt.nameHindi === tName ||
+          mt.nameEnglish === tName ||
+          mt.nameEnglish.toLowerCase() === lowerName ||
+          (mt.nameHindi && tHindi && (tHindi.includes(mt.nameHindi) || mt.nameHindi.includes(tHindi))) ||
+          (mt.nameEnglish && tName && (lowerName.includes(mt.nameEnglish.toLowerCase()) || mt.nameEnglish.toLowerCase().includes(lowerName)))
       ) || null
     );
-  }, [topicName, initialMasterTopicId]);
+  }, [topic, topicName, initialMasterTopicId]);
 
   const activeMasterTopicId = initialMasterTopicId || masterTopicInfo?.id;
 

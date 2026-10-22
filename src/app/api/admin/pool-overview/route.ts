@@ -8,8 +8,10 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   try {
     const cwd = process.cwd();
-    const topicsDir = path.join(cwd, "data", "ddd", "topics");
+    const gkTopicsDir = path.join(cwd, "data", "ddd", "topics");
+    const engTopicsDir = path.join(cwd, "data", "ddd", "english", "topics");
     const poolStateFile = path.join(cwd, "data", "ddd", "pool-state.json");
+    const engPoolStateFile = path.join(cwd, "data", "ddd", "english", "pool-state.json");
 
     let poolState: any = null;
     if (fs.existsSync(poolStateFile)) {
@@ -20,48 +22,70 @@ export async function GET() {
       }
     }
 
-    // Fetch live inventory from prod Convex
+    let engPoolState: any = null;
+    if (fs.existsSync(engPoolStateFile)) {
+      try {
+        engPoolState = JSON.parse(fs.readFileSync(engPoolStateFile, "utf-8"));
+      } catch (err) {
+        console.error("Error reading english pool-state.json:", err);
+      }
+    }
+
+    // Fetch live inventory from prod / local Convex
     let liveInventory: any = null;
     let duplicateAudit: any = null;
 
     try {
-      const prodUrl = "https://shiny-wildcat-270.convex.cloud";
-      const [invRes, dupRes] = await Promise.all([
-        fetch(`${prodUrl}/api/query`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ path: "audit:getLiveInventory", args: {} }),
-        }),
-        fetch(`${prodUrl}/api/query`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ path: "audit:auditDuplicates", args: {} }),
-        }),
-      ]);
+      const urlsToCheck = Array.from(new Set([
+        "https://shiny-wildcat-270.convex.cloud",
+        process.env.NEXT_PUBLIC_CONVEX_URL,
+      ])).filter(Boolean) as string[];
 
-      if (invRes.ok) {
-        const invJson = await invRes.json();
-        liveInventory = invJson.value;
-      }
-      if (dupRes.ok) {
-        const dupJson = await dupRes.json();
-        duplicateAudit = dupJson.value;
+      for (const prodUrl of urlsToCheck) {
+        try {
+          const [invRes, dupRes] = await Promise.all([
+            fetch(`${prodUrl}/api/query`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ path: "audit:getLiveInventory", args: {} }),
+            }),
+            fetch(`${prodUrl}/api/query`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ path: "audit:auditDuplicates", args: {} }),
+            }),
+          ]);
+
+          if (invRes.ok) {
+            const invJson = await invRes.json();
+            if (invJson.value) liveInventory = invJson.value;
+          }
+          if (dupRes.ok) {
+            const dupJson = await dupRes.json();
+            if (dupJson.value) duplicateAudit = dupJson.value;
+          }
+          if (liveInventory) break;
+        } catch {
+          // Try next url
+        }
       }
     } catch (convexErr) {
       console.error("Error fetching live inventory from Convex:", convexErr);
     }
 
-    // Map live topics by nameHindi
+    // Map live topics by nameHindi, name, and slug
     const liveTopicMap = new Map<string, any>();
     if (liveInventory?.subjects) {
       for (const sub of liveInventory.subjects) {
         for (const top of sub.topics) {
-          liveTopicMap.set(top.nameHindi, top);
+          if (top.nameHindi) liveTopicMap.set(top.nameHindi, top);
+          if (top.name) liveTopicMap.set(top.name, top);
+          if (top.slug) liveTopicMap.set(top.slug, top);
         }
       }
     }
 
-    // Build 55 topic overview
+    // Build topic overview for all canonical sections (A, B, C, D, E)
     const topicsList: any[] = [];
     let grandPoolTotal = 0;
     let grandLiveQuestions = 0;
@@ -69,6 +93,9 @@ export async function GET() {
     let grandUniqueUsed = 0;
 
     for (const sec of RAJASTHAN_GK_MASTER_SECTIONS) {
+      const isEnglish = sec.code === "E";
+      const targetDir = isEnglish ? engTopicsDir : gkTopicsDir;
+
       for (const top of sec.topics) {
         const padId = String(top.id).padStart(2, "0");
         let poolCount = 0;
@@ -76,35 +103,40 @@ export async function GET() {
 
         // Read local JSON file
         try {
-          if (fs.existsSync(topicsDir)) {
-            const files = fs.readdirSync(topicsDir);
+          if (fs.existsSync(targetDir)) {
+            const files = fs.readdirSync(targetDir);
             const fileName = files.find((f) => f.startsWith(`${padId}_`) && f.endsWith(".json"));
             if (fileName) {
-              const fileData = JSON.parse(fs.readFileSync(path.join(topicsDir, fileName), "utf-8"));
+              const fileData = JSON.parse(fs.readFileSync(path.join(targetDir, fileName), "utf-8"));
               const questions: any[] = fileData.questions || [];
               poolCount = questions.length;
 
-              const srcMap = new Map<string, number>();
-              for (const q of questions) {
-                const sName = q.sourceTopic || "सामान्य";
-                srcMap.set(sName, (srcMap.get(sName) || 0) + 1);
+              if (Array.isArray(fileData.subtopics) && fileData.subtopics.length > 0) {
+                subtopics = fileData.subtopics;
+              } else {
+                const srcMap = new Map<string, number>();
+                for (const q of questions) {
+                  const sName = q.sourceTopic || "सामान्य";
+                  srcMap.set(sName, (srcMap.get(sName) || 0) + 1);
+                }
+                subtopics = Array.from(srcMap.entries())
+                  .map(([name, count]) => ({ name, count }))
+                  .sort((a, b) => b.count - a.count);
               }
-
-              subtopics = Array.from(srcMap.entries())
-                .map(([name, count]) => ({ name, count }))
-                .sort((a, b) => b.count - a.count);
             }
           }
         } catch (err) {
           console.error(`Error reading topic file for ${top.id}:`, err);
         }
 
-        const liveData = liveTopicMap.get(top.nameHindi) || {
-          setCount: 0,
-          questionCount: 0,
-          uniqueUsedSourceCount: 0,
-          sets: [],
-        };
+        const liveData =
+          liveTopicMap.get(top.nameHindi) ||
+          liveTopicMap.get(top.name) || {
+            setCount: 0,
+            questionCount: 0,
+            uniqueUsedSourceCount: 0,
+            sets: [],
+          };
 
         const liveSetsCount = liveData.setCount || 0;
         const liveQuestionsCount = liveData.questionCount || 0;
@@ -139,8 +171,8 @@ export async function GET() {
     return NextResponse.json({
       success: true,
       summary: {
-        totalMasterTopics: 55,
-        totalSubjects: 4,
+        totalMasterTopics: topicsList.length,
+        totalSubjects: RAJASTHAN_GK_MASTER_SECTIONS.length,
         totalPoolQuestions: grandPoolTotal,
         totalLiveQuestions: grandLiveQuestions,
         totalLiveSets: grandLiveSets,

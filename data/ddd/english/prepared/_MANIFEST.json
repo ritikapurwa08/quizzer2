@@ -1,202 +1,241 @@
 {
-  "source": "RajasthanGyan",
-  "subject": "English",
-  "rawCount": 2153,
-  "questionsIncludedInMasterPool": 2153,
-  "totalTopics": 28,
-  "topicsWithQuestions": 28,
-  "examStats": {
-    "totalWithExams": 1755,
-    "totalWithYears": 1468,
-    "totalWithoutExams": 398,
-    "yearDistribution": {
-      "2006": 1,
-      "2008": 11,
-      "2011": 79,
-      "2012": 3,
-      "2013": 34,
-      "2015": 3,
-      "2016": 9,
-      "2018": 63,
-      "2020": 53,
-      "2021": 158,
-      "2022": 314,
-      "2023": 99,
-      "2024": 515,
-      "2025": 51,
-      "2026": 75
-    }
-  },
+  "source": "RajasthanGyan & Master Vocab Ecosystem",
+  "subject": "English (Paper-II)",
+  "totalQuestions": 2508,
+  "totalTopics": 33,
+  "topicsWithQuestions": 15,
   "topicBreakdown": [
     {
-      "topicId": 1,
-      "name": "Tense",
-      "count": 155,
-      "file": "01_Tense.json"
+      "id": 56,
+      "name": "Parts of Speech – Nouns",
+      "nameHindi": "संज्ञा (Nouns)",
+      "count": 0,
+      "file": "56_Parts_of_Speech_–_Nouns.json"
     },
     {
-      "topicId": 2,
-      "name": "Active - Passive Voice",
-      "count": 161,
-      "file": "02_Active_-_Passive_Voice.json"
+      "id": 57,
+      "name": "Parts of Speech – Verbs",
+      "nameHindi": "क्रिया (Verbs)",
+      "count": 78,
+      "file": "57_Parts_of_Speech_–_Verbs.json"
     },
     {
-      "topicId": 3,
-      "name": "Direct - Indirect",
-      "count": 288,
-      "file": "03_Direct_-_Indirect.json"
-    },
-    {
-      "topicId": 4,
-      "name": "Articles",
-      "count": 95,
-      "file": "04_Articles.json"
-    },
-    {
-      "topicId": 5,
-      "name": "Adjective",
+      "id": 58,
+      "name": "Parts of Speech – Adjectives",
+      "nameHindi": "विशेषण (Adjectives)",
       "count": 4,
-      "file": "05_Adjective.json"
+      "file": "58_Parts_of_Speech_–_Adjectives.json"
     },
     {
-      "topicId": 6,
-      "name": "Synonym",
-      "count": 123,
-      "file": "06_Synonym.json"
+      "id": 59,
+      "name": "Parts of Speech – Adverbs",
+      "nameHindi": "क्रियाविशेषण (Adverbs)",
+      "count": 0,
+      "file": "59_Parts_of_Speech_–_Adverbs.json"
     },
     {
-      "topicId": 7,
-      "name": "Determiner",
-      "count": 82,
-      "file": "07_Determiner.json"
+      "id": 60,
+      "name": "Articles and Determiners",
+      "nameHindi": "उपपद एवं निर्धारक (Articles & Determiners)",
+      "count": 177,
+      "file": "60_Articles_and_Determiners.json"
     },
     {
-      "topicId": 8,
-      "name": "Preposition",
+      "id": 61,
+      "name": "Tenses & Sequence of Tenses",
+      "nameHindi": "काल एवं कालक्रम (Tenses)",
+      "count": 155,
+      "file": "61_Tenses_&_Sequence_of_Tenses.json"
+    },
+    {
+      "id": 62,
+      "name": "Prepositions",
+      "nameHindi": "संबंधबोधक अव्यय (Prepositions)",
       "count": 139,
-      "file": "08_Preposition.json"
+      "file": "62_Prepositions.json"
     },
     {
-      "topicId": 9,
-      "name": "Glossary of official and technical terms",
-      "count": 85,
-      "file": "09_Glossary_of_official_and_technical_terms.json"
+      "id": 63,
+      "name": "Modal Auxiliaries",
+      "nameHindi": "रूपात्मक सहायक क्रियाएँ (Modal Auxiliaries)",
+      "count": 16,
+      "file": "63_Modal_Auxiliaries.json"
     },
     {
-      "topicId": 10,
-      "name": "Translation",
-      "count": 76,
-      "file": "10_Translation.json"
-    },
-    {
-      "topicId": 11,
-      "name": "Prefixes and Suffixes",
-      "count": 57,
-      "file": "11_Prefixes_and_Suffixes.json"
-    },
-    {
-      "topicId": 12,
-      "name": "Reading Comprehension",
-      "count": 228,
-      "file": "12_Reading_Comprehension.json"
-    },
-    {
-      "topicId": 13,
-      "name": "Letter Writing",
-      "count": 58,
-      "file": "13_Letter_Writing.json"
-    },
-    {
-      "topicId": 14,
-      "name": "Antonym",
-      "count": 113,
-      "file": "14_Antonym.json"
-    },
-    {
-      "topicId": 15,
-      "name": "One Word",
-      "count": 99,
-      "file": "15_One_Word.json"
-    },
-    {
-      "topicId": 16,
-      "name": "Verb",
-      "count": 76,
-      "file": "16_Verb.json"
-    },
-    {
-      "topicId": 17,
-      "name": "Idiom or phrase",
-      "count": 72,
-      "file": "17_Idiom_or_phrase.json"
-    },
-    {
-      "topicId": 18,
-      "name": "Conjunctions",
-      "count": 31,
-      "file": "18_Conjunctions.json"
-    },
-    {
-      "topicId": 19,
-      "name": "Degree of Comparison",
+      "id": 64,
+      "name": "Degrees of Adjectives",
+      "nameHindi": "विशेषण की अवस्थाएँ (Degrees of Adjectives)",
       "count": 11,
-      "file": "19_Degree_of_Comparison.json"
+      "file": "64_Degrees_of_Adjectives.json"
     },
     {
-      "topicId": 20,
-      "name": "Correction of Sentences",
-      "count": 83,
-      "file": "20_Correction_of_Sentences.json"
+      "id": 65,
+      "name": "Subordination and Coordination",
+      "nameHindi": "आश्रित एवं समानपदीय उपवाक्य (Subordination & Coordination)",
+      "count": 31,
+      "file": "65_Subordination_and_Coordination.json"
     },
     {
-      "topicId": 21,
-      "name": "Confusable Words",
-      "count": 56,
-      "file": "21_Confusable_Words.json"
+      "id": 66,
+      "name": "Transformation of Sentences",
+      "nameHindi": "वाक्य रूपांतरण (Transformation of Sentences)",
+      "count": 451,
+      "file": "66_Transformation_of_Sentences.json"
     },
     {
-      "topicId": 22,
-      "name": "Question tag",
-      "count": 2,
-      "file": "22_Question_tag.json"
+      "id": 67,
+      "name": "Phrasal Verbs",
+      "nameHindi": "संयुक्त क्रियाएँ (Phrasal Verbs)",
+      "count": 100,
+      "file": "67_Phrasal_Verbs.json"
     },
     {
-      "topicId": 23,
-      "name": "Modals",
-      "count": 16,
-      "file": "23_Modals.json"
+      "id": 68,
+      "name": "Proverbs and Idiomatic Expressions",
+      "nameHindi": "कहावतें एवं मुहावरे (Proverbs & Idioms)",
+      "count": 72,
+      "file": "68_Proverbs_and_Idiomatic_Expressions.json"
     },
     {
-      "topicId": 24,
-      "name": "Spellings",
-      "count": 5,
-      "file": "24_Spellings.json"
+      "id": 69,
+      "name": "Words Often Misspelt and Confused",
+      "nameHindi": "भ्रामक एवं अशुद्ध वर्तनी वाले शब्द (Confusable & Misspelt Words)",
+      "count": 61,
+      "file": "69_Words_Often_Misspelt_and_Confused.json"
     },
     {
-      "topicId": 25,
-      "name": "Error Spotting",
-      "count": 10,
-      "file": "25_Error_Spotting.json"
+      "id": 70,
+      "name": "One Word Substitution",
+      "nameHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
+      "count": 99,
+      "file": "70_One_Word_Substitution.json"
     },
     {
-      "topicId": 26,
-      "name": "Tender",
-      "count": 10,
-      "file": "26_Tender.json"
+      "id": 71,
+      "name": "Synonyms and Antonyms",
+      "nameHindi": "समानार्थी एवं विलोम शब्द (Synonyms and Antonyms)",
+      "count": 491,
+      "file": "71_Synonyms_and_Antonyms.json"
     },
     {
-      "topicId": 27,
-      "name": "Subject-Verb Agreement",
-      "count": 2,
-      "file": "27_Subject-Verb_Agreement.json"
+      "id": 72,
+      "name": "Phonetic Transcription",
+      "nameHindi": "ध्वन्यात्मक प्रतिलेखन (Phonetic Transcription)",
+      "count": 0,
+      "file": "72_Phonetic_Transcription.json"
     },
     {
-      "topicId": 28,
-      "name": "Punctuation",
-      "count": 16,
-      "file": "28_Punctuation.json"
+      "id": 73,
+      "name": "Basic Sentence Patterns",
+      "nameHindi": "मूल वाक्य प्रतिरूप (Basic Sentence Patterns)",
+      "count": 0,
+      "file": "73_Basic_Sentence_Patterns.json"
+    },
+    {
+      "id": 74,
+      "name": "Clause Analysis (SPOCA / SVOCA)",
+      "nameHindi": "उपवाक्य विश्लेषण (Clause Analysis)",
+      "count": 0,
+      "file": "74_Clause_Analysis_(SPOCA___SVOCA).json"
+    },
+    {
+      "id": 75,
+      "name": "Reading Comprehension and Vocabulary",
+      "nameHindi": "अपठित गद्यांश एवं शब्दावली (Reading Comprehension)",
+      "count": 623,
+      "file": "75_Reading_Comprehension_and_Vocabulary.json"
+    },
+    {
+      "id": 76,
+      "name": "Poetry Appreciation",
+      "nameHindi": "काव्य रसास्वादन (Poetry Appreciation)",
+      "count": 0,
+      "file": "76_Poetry_Appreciation.json"
+    },
+    {
+      "id": 77,
+      "name": "Literary Forms Devices and Figures of Speech",
+      "nameHindi": "साहित्यिक रूप एवं अलंकार (Literary Forms & Devices)",
+      "count": 0,
+      "file": "77_Literary_Forms_Devices_and_Figures_of_Speech.json"
+    },
+    {
+      "id": 78,
+      "name": "Major Literary Periods",
+      "nameHindi": "प्रमुख साहित्यिक काल (Major Literary Periods)",
+      "count": 0,
+      "file": "78_Major_Literary_Periods.json"
+    },
+    {
+      "id": 79,
+      "name": "Major Literary Movements",
+      "nameHindi": "प्रमुख साहित्यिक आंदोलन (Literary Movements)",
+      "count": 0,
+      "file": "79_Major_Literary_Movements.json"
+    },
+    {
+      "id": 80,
+      "name": "Prescribed Poetry",
+      "nameHindi": "निर्धारित कविताएँ (Prescribed Poetry – 15 Works)",
+      "count": 0,
+      "file": "80_Prescribed_Poetry.json"
+    },
+    {
+      "id": 81,
+      "name": "Prescribed Prose",
+      "nameHindi": "निर्धारित गद्य (Prescribed Prose – 6 Works)",
+      "count": 0,
+      "file": "81_Prescribed_Prose.json"
+    },
+    {
+      "id": 82,
+      "name": "Prescribed Fiction",
+      "nameHindi": "निर्धारित कथा साहित्य (Prescribed Fiction)",
+      "count": 0,
+      "file": "82_Prescribed_Fiction.json"
+    },
+    {
+      "id": 83,
+      "name": "Prescribed Drama",
+      "nameHindi": "निर्धारित नाटक (Prescribed Drama)",
+      "count": 0,
+      "file": "83_Prescribed_Drama.json"
+    },
+    {
+      "id": 84,
+      "name": "Basic Principles of Second Language Teaching",
+      "nameHindi": "द्वितीय भाषा शिक्षण के मूल सिद्धांत (ELT Principles)",
+      "count": 0,
+      "file": "84_Basic_Principles_of_Second_Language_Teaching.json"
+    },
+    {
+      "id": 85,
+      "name": "Developing Four Language Skills (LSRW)",
+      "nameHindi": "चार भाषाई कौशल: LSRW (Language Skills)",
+      "count": 0,
+      "file": "85_Developing_Four_Language_Skills_(LSRW).json"
+    },
+    {
+      "id": 86,
+      "name": "Teaching of Language Forms",
+      "nameHindi": "भाषाई रूपों का शिक्षण: गद्य, पद्य, व्याकरण व रचना",
+      "count": 0,
+      "file": "86_Teaching_of_Language_Forms.json"
+    },
+    {
+      "id": 87,
+      "name": "Approaches and Methods of ELT",
+      "nameHindi": "अंग्रेजी शिक्षण के दृष्टिकोण एवं विधियाँ (ELT Methods)",
+      "count": 0,
+      "file": "87_Approaches_and_Methods_of_ELT.json"
+    },
+    {
+      "id": 88,
+      "name": "Evaluation in English Language",
+      "nameHindi": "अंग्रेजी भाषा में मूल्यांकन एवं परीक्षण (Evaluation & Testing)",
+      "count": 0,
+      "file": "88_Evaluation_in_English_Language.json"
     }
   ],
-  "generatedAt": "2026-10-10T05:12:31.199Z",
-  "architecture": "LOCAL_MASTER_POOL"
+  "generatedAt": "2026-10-22T13:24:05.898Z"
 }

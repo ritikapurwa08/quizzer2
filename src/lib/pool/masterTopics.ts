@@ -69,14 +69,50 @@ export const MASTER_TOPICS_LIST: MasterTopicInfo[] = [
   { id: 53, nameHindi: "राजस्थान राज्य विधिक सेवा प्राधिकरण (RSLA / RSLSA)", nameEnglish: "Rajasthan State Legal Services Authority", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 54, nameHindi: "राजस्थान लोकायुक्त एवं उप-लोकायुक्त", nameEnglish: "Lokayukta and Up-Lokayukta of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
   { id: 55, nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र", nameEnglish: "Major Research and Study Centers of Rajasthan", subjectHindi: "राजस्थान राजव्यवस्था / प्रशासन", subjectName: "Rajasthan Polity & Administration" },
+
+  // E. अंग्रेजी (Paper-II) (56-88)
+  { id: 56, nameHindi: "संज्ञा (Nouns)", nameEnglish: "Parts of Speech – Nouns", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 57, nameHindi: "क्रिया (Verbs)", nameEnglish: "Parts of Speech – Verbs", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 58, nameHindi: "विशेषण (Adjectives)", nameEnglish: "Parts of Speech – Adjectives", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 59, nameHindi: "क्रियाविशेषण (Adverbs)", nameEnglish: "Parts of Speech – Adverbs", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 60, nameHindi: "उपपद एवं निर्धारक (Articles & Determiners)", nameEnglish: "Articles and Determiners", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 61, nameHindi: "काल एवं कालक्रम (Tenses)", nameEnglish: "Tenses & Sequence of Tenses", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 62, nameHindi: "संबंधबोधक अव्यय (Prepositions)", nameEnglish: "Prepositions", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 63, nameHindi: "रूपात्मक सहायक क्रियाएँ (Modal Auxiliaries)", nameEnglish: "Modal Auxiliaries", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 64, nameHindi: "विशेषण की अवस्थाएँ (Degrees of Adjectives)", nameEnglish: "Degrees of Adjectives", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 65, nameHindi: "आश्रित एवं समानपदीय उपवाक्य (Subordination & Coordination)", nameEnglish: "Subordination and Coordination", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 66, nameHindi: "वाक्य रूपांतरण (Transformation of Sentences)", nameEnglish: "Transformation of Sentences", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 67, nameHindi: "संयुक्त क्रियाएँ (Phrasal Verbs)", nameEnglish: "Phrasal Verbs", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 68, nameHindi: "कहावतें एवं मुहावरे (Proverbs & Idioms)", nameEnglish: "Proverbs and Idiomatic Expressions", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 69, nameHindi: "भ्रामक एवं अशुद्ध वर्तनी वाले शब्द (Confusable & Misspelt Words)", nameEnglish: "Words Often Misspelt and Confused", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 70, nameHindi: "वाक्यांश के लिए एक शब्द (One Word Substitution)", nameEnglish: "One Word Substitution", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 71, nameHindi: "समानार्थी एवं विलोम शब्द (Synonyms and Antonyms)", nameEnglish: "Synonyms and Antonyms", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 72, nameHindi: "ध्वन्यात्मक प्रतिलेखन (Phonetic Transcription)", nameEnglish: "Phonetic Transcription", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 73, nameHindi: "मूल वाक्य प्रतिरूप (Basic Sentence Patterns)", nameEnglish: "Basic Sentence Patterns", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 74, nameHindi: "उपवाक्य विश्लेषण (Clause Analysis)", nameEnglish: "Clause Analysis (SPOCA / SVOCA)", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 75, nameHindi: "अपठित गद्यांश एवं शब्दावली (Reading Comprehension)", nameEnglish: "Reading Comprehension and Vocabulary", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 76, nameHindi: "काव्य रसास्वादन (Poetry Appreciation)", nameEnglish: "Poetry Appreciation", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 77, nameHindi: "साहित्यिक रूप एवं अलंकार (Literary Forms & Devices)", nameEnglish: "Literary Forms Devices and Figures of Speech", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 78, nameHindi: "प्रमुख साहित्यिक काल (Major Literary Periods)", nameEnglish: "Major Literary Periods", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 79, nameHindi: "प्रमुख साहित्यिक आंदोलन (Literary Movements)", nameEnglish: "Major Literary Movements", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 80, nameHindi: "निर्धारित कविताएँ (Prescribed Poetry – 15 Works)", nameEnglish: "Prescribed Poetry", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 81, nameHindi: "निर्धारित गद्य (Prescribed Prose – 6 Works)", nameEnglish: "Prescribed Prose", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 82, nameHindi: "निर्धारित कथा साहित्य (Prescribed Fiction)", nameEnglish: "Prescribed Fiction", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 83, nameHindi: "निर्धारित नाटक (Prescribed Drama)", nameEnglish: "Prescribed Drama", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 84, nameHindi: "द्वितीय भाषा शिक्षण के मूल सिद्धांत (ELT Principles)", nameEnglish: "Basic Principles of Second Language Teaching", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 85, nameHindi: "चार भाषाई कौशल: LSRW (Language Skills)", nameEnglish: "Developing Four Language Skills (LSRW)", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 86, nameHindi: "भाषाई रूपों का शिक्षण: गद्य, पद्य, व्याकरण व रचना", nameEnglish: "Teaching of Language Forms", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 87, nameHindi: "अंग्रेजी शिक्षण के दृष्टिकोण एवं विधियाँ (ELT Methods)", nameEnglish: "Approaches and Methods of ELT", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
+  { id: 88, nameHindi: "अंग्रेजी भाषा में मूल्यांकन एवं परीक्षण (Evaluation & Testing)", nameEnglish: "Evaluation in English Language", subjectHindi: "अंग्रेजी (Paper-II)", subjectName: "English (Paper-II)" },
 ];
 
 export function getTopicById(id: number): MasterTopicInfo | undefined {
   return MASTER_TOPICS_LIST.find((t) => t.id === id);
 }
 
-export function getTopicByName(nameHindi: string): MasterTopicInfo | undefined {
-  const clean = nameHindi.trim().replace(/_/g, "/");
+export function getTopicByName(name: string): MasterTopicInfo | undefined {
+  if (!name) return undefined;
+  const clean = name.trim().replace(/_/g, "/");
   if (clean === "राजस्थान पंचायती राज एवं स्थानीय स्वशासन" || clean === "राजस्थान पंचायती राज") {
     return MASTER_TOPICS_LIST.find((t) => t.id === 46);
   }
@@ -89,7 +125,18 @@ export function getTopicByName(nameHindi: string): MasterTopicInfo | undefined {
   if (clean === "राजस्थान के प्रमुख स्थानों के उपनाम") {
     return MASTER_TOPICS_LIST.find((t) => t.id === 1);
   }
+
+  // Exact or partial match on Hindi or English
+  const lowerClean = clean.toLowerCase();
   return MASTER_TOPICS_LIST.find(
-    (t) => t.nameHindi === clean || t.nameHindi === nameHindi.trim()
+    (t) =>
+      t.nameHindi === clean ||
+      t.nameHindi === name.trim() ||
+      t.nameEnglish === clean ||
+      t.nameEnglish.toLowerCase() === lowerClean ||
+      t.nameHindi.includes(clean) ||
+      clean.includes(t.nameHindi) ||
+      t.nameEnglish.toLowerCase().includes(lowerClean) ||
+      lowerClean.includes(t.nameEnglish.toLowerCase())
   );
 }

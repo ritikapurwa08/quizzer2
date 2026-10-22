@@ -34,15 +34,25 @@ export async function GET(request: NextRequest) {
     const padTopic = String(masterTopicId).padStart(2, "0");
     const padSet = String(setNumber).padStart(3, "0");
 
+    const isEnglish = masterTopicId >= 56 && masterTopicId <= 88;
     const projectRoot = process.cwd();
+
     // Support both topic-01 and topic-1 folder naming conventions
-    const candidatesDirPad = path.join(projectRoot, "data", "ddd", "candidates", `topic-${padTopic}`);
-    const candidatesDirRaw = path.join(projectRoot, "data", "ddd", "candidates", `topic-${masterTopicId}`);
+    const candidatesDirPad = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "candidates", `topic-${padTopic}`)
+      : path.join(projectRoot, "data", "ddd", "candidates", `topic-${padTopic}`);
+    const candidatesDirRaw = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "candidates", `topic-${masterTopicId}`)
+      : path.join(projectRoot, "data", "ddd", "candidates", `topic-${masterTopicId}`);
     const candidateFilePad = path.join(candidatesDirPad, `candidate-set-${padSet}.json`);
     const candidateFileRaw = path.join(candidatesDirRaw, `candidate-set-${padSet}.json`);
 
-    const poolStateFile = path.join(projectRoot, "data", "ddd", "pool-state.json");
-    const topicsDir = path.join(projectRoot, "data", "ddd", "topics");
+    const poolStateFile = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "pool-state.json")
+      : path.join(projectRoot, "data", "ddd", "pool-state.json");
+    const topicsDir = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "topics")
+      : path.join(projectRoot, "data", "ddd", "topics");
 
     let candidateQuestions: any[] = [];
 
@@ -65,7 +75,7 @@ export async function GET(request: NextRequest) {
     // 2. If no candidate file on disk, read dynamically from pool-state.json excluding any USED questions
     if (candidateQuestions.length === 0 && fs.existsSync(topicsDir)) {
       try {
-        // Find topic file in data/ddd/topics/
+        // Find topic file in topicsDir
         const files = fs.readdirSync(topicsDir);
         const prefix = `${padTopic}_`;
         const topicFileName = files.find((f) => f.startsWith(prefix) && f.endsWith(".json"));
@@ -97,7 +107,6 @@ export async function GET(request: NextRequest) {
           }
 
           // Authoritative sync: Query Convex directly so any question already imported in DB is NEVER served as candidate
-          // Query both production Convex and local NEXT_PUBLIC_CONVEX_URL to catch all existing questions
           try {
             const urlsToCheck = Array.from(new Set([
               "https://shiny-wildcat-270.convex.cloud",
@@ -157,7 +166,6 @@ export async function GET(request: NextRequest) {
             }
           }
 
-
           candidateQuestions.sort(comparePoolQuestions);
         }
       } catch (err) {
@@ -168,12 +176,14 @@ export async function GET(request: NextRequest) {
     }
 
     const topicHindi = topicInfo?.nameHindi || `Topic ${masterTopicId}`;
-    const subjectHindi = topicInfo?.subjectHindi || "राजस्थान सामान्य ज्ञान";
+    const topicEnglish = topicInfo?.nameEnglish || `Topic ${masterTopicId}`;
+    const subjectHindi = topicInfo?.subjectHindi || (isEnglish ? "अंग्रेजी (Paper-II)" : "राजस्थान सामान्य ज्ञान");
 
     // Format clean questions for prompt
     const promptQuestions = candidateQuestions.map((q) => ({
       id: q.id,
-      topic: topicHindi,
+      topic: topicEnglish,
+      topicHindi,
       masterTopicId,
       question: q.question,
       options: q.options,
@@ -183,29 +193,99 @@ export async function GET(request: NextRequest) {
       year: q.year || null,
     }));
 
-    const isFinalTopicSet = candidateQuestions.length < batchSize;
+    const isFinalTopicSet = candidateQuestions.length > 0 && candidateQuestions.length < batchSize;
     const targetCount = isFinalTopicSet ? candidateQuestions.length : batchSize;
-    const setCount = Math.ceil(targetCount / 20);
+    const setCount = Math.max(1, Math.ceil(targetCount / 20));
 
-    const setName =
-      setCount > 1
+    const setName = isEnglish
+      ? setCount > 1
+        ? `${topicEnglish} Part ${setNumber} to Part ${setNumber + setCount - 1} (${setCount} Sets × 20 Questions)`
+        : `${topicEnglish} Part ${setNumber}`
+      : setCount > 1
         ? `${topicHindi} भाग ${setNumber} से भाग ${setNumber + setCount - 1} (${setCount} सेट्स × 20 प्रश्न)`
         : `${topicHindi} भाग ${setNumber}`;
 
-    const taskDescription = isFinalTopicSet
-      ? `यह इस टॉपिक का अंतिम सेट (Final Set) है। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
-      : setCount > 1
-        ? `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} सर्वश्रेष्ठ प्रश्नों का सेट तैयार करना है (${setCount} सेट्स × 20 प्रश्न)।`
-        : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
+    let geminiPrompt = "";
 
-    const countRule = isFinalTopicSet
-      ? `1. ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही पुराने सेट्स से कोई प्रश्न जोड़ें।`
-      : setCount > 1
-        ? `1. ठीक ${targetCount} प्रश्न चुनें (Select EXACTLY ${targetCount} questions - 20-20 प्रश्नों के ${setCount} सेट्स हेतु)।`
-        : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
+    if (isEnglish) {
+      const taskDescription = candidateQuestions.length > 0
+        ? `Below are ${candidateQuestions.length} candidate questions drawn from authentic Rajasthan examinations and master vocabulary banks. Your task is to review, repair, polish, and verify these questions into EXACTLY ${targetCount} high-yield RPSC Senior Teacher (2nd Grade) examination questions.`
+        : `Generate EXACTLY ${targetCount} authoritative, high-yield examination questions adhering to the RPSC Senior Teacher (2nd Grade) competitive syllabus for "${topicEnglish}".`;
 
-    // Build the Authoritative Gemini Prompt
-    const geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
+      geminiPrompt = `You are the CHIEF EXAMINER & LEAD QUESTION SETTER for the Rajasthan Public Service Commission (RPSC), Ajmer, specializing in the Senior Teacher (2nd Grade) Competitive Examination (Department of Secondary Education, Paper-II: English).
+
+SUBJECT: English (Paper-II)
+TOPIC (Master Topic #${masterTopicId}): ${topicEnglish} (${topicHindi})
+SET: ${setName}${isFinalTopicSet ? " (Final Set)" : ""}
+CANDIDATE QUESTIONS PROVIDED: ${candidateQuestions.length}
+
+${taskDescription}
+
+================================================================================
+EXAMINATION STANDARDS & MANDATORY GUIDELINES:
+================================================================================
+1. EXACT COUNT:
+   - Provide EXACTLY ${targetCount} questions. No more, no less.
+2. STANDARD BRITISH ENGLISH & RPSC EXAM CONVENTIONS:
+   - Reflect authentic RPSC question stems ("Fill in the blank with the most appropriate option...", "The correct passive form of...", "Which of the following is grammatically correct?", "Identify the sentence pattern...", etc.).
+   - Distractors must represent plausible, intelligent misconceptions or classic exam traps (e.g. subject-verb proximity traps, indirect speech word-order inversion traps, fixed preposition traps, homophone/confusable traps).
+3. RIGOROUS 4-OPTION MCQ:
+   - Every question must have exactly 4 grammatically parallel options.
+   - Never use "None of the above" or "All of the above".
+4. SINGLE DEFINITIVE CORRECT ANSWER:
+   - Provide single unambiguous correct answer. "answer": 0 | 1 | 2 | 3 (0-indexed integer corresponding to options array).
+5. DUAL-LAYER BILINGUAL EXPLANATIONS ("explanation"):
+   Every explanation MUST contain:
+   - **Rule**: Formal citation of the English grammatical rule, syntactic formula, or literary source text.
+   - **हिंदी व्याख्या**: Lucid explanation in Hindi (नियम, वाक्य का अर्थ, एवं सही विकल्प चुनने का ठोस कारण).
+   - **RPSC Exam Alert**: Explicit warning highlighting the exact distractor trap.
+6. PROVENANCE ID PRESERVATION:
+   ${candidateQuestions.length > 0 ? `- Retain the provided 'id' (e.g. "${candidateQuestions[0]?.id || "rg_eng_000001"}") EXACTLY as provided for provenance tracking.` : `- Assign IDs starting from "rg_eng_top${masterTopicId}_${String(setNumber).padStart(2, "0")}_01".`}
+7. JSON QUOTES SAFETY:
+   - If quotes appear inside questions, options, or explanations, use single quotes ('...') or escape them properly (\\"). Never leave raw unescaped double quotes.
+
+${candidateQuestions.length > 0 ? `================================================================================
+CANDIDATE QUESTIONS:
+================================================================================
+${JSON.stringify(promptQuestions, null, 2)}
+` : ""}
+================================================================================
+STRICT OUTPUT FORMAT:
+================================================================================
+Return ONLY a valid, raw JSON array of objects. Do NOT include markdown code fence wrappers or extraneous commentary:
+
+[
+  {
+    "id": "${candidateQuestions[0]?.id || `rg_eng_top${masterTopicId}_01`}",
+    "topic": "${topicEnglish}",
+    "masterTopicId": ${masterTopicId},
+    "question": "Question text here with **bold** key terms...",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C",
+      "Option D"
+    ],
+    "answer": 0,
+    "explanation": "**Rule**: [English rule]\\n**हिंदी व्याख्या**: [विस्तृत हिंदी विश्लेषण]\\n**RPSC Exam Alert**: [परीक्षा अलर्ट व ट्रैप]",
+    "exam": "RPSC 2nd Grade English",
+    "year": 2024
+  }
+]`;
+    } else {
+      const taskDescription = isFinalTopicSet
+        ? `यह इस टॉपिक का अंतिम सेट (Final Set) है। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
+        : setCount > 1
+          ? `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} सर्वश्रेष्ठ प्रश्नों का सेट तैयार करना है (${setCount} सेट्स × 20 प्रश्न)।`
+          : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
+
+      const countRule = isFinalTopicSet
+        ? `1. ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही पुराने सेट्स से कोई प्रश्न जोड़ें।`
+        : setCount > 1
+          ? `1. ठीक ${targetCount} प्रश्न चुनें (Select EXACTLY ${targetCount} questions - 20-20 प्रश्नों के ${setCount} सेट्स हेतु)।`
+          : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
+
+      geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
 
 विषय: ${subjectHindi}
 शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
@@ -257,11 +337,14 @@ ${JSON.stringify(promptQuestions, null, 2)}
     "year": 2021
   }
 ]`;
+    }
 
     return NextResponse.json({
       success: true,
       masterTopicId,
-      masterTopic: topicHindi,
+      masterTopic: isEnglish ? topicEnglish : topicHindi,
+      masterTopicHindi: topicHindi,
+      masterTopicEnglish: topicEnglish,
       subjectName: subjectHindi,
       setNumber,
       setName,

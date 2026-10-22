@@ -66,7 +66,9 @@ export function ImportWizard() {
       const match = subjects.find(
         (s) =>
           s.nameHindi === urlMasterTopic.subjectHindi ||
-          s.name === urlMasterTopic.subjectName
+          s.name === urlMasterTopic.subjectName ||
+          (urlMasterTopic.subjectName.includes("English") && s.name.includes("English")) ||
+          (urlMasterTopic.subjectHindi && s.nameHindi && s.nameHindi.includes(urlMasterTopic.subjectHindi))
       );
       if (match) {
         urlMatchedSubjectRef.current = true;
@@ -82,7 +84,9 @@ export function ImportWizard() {
       const match = topics.find(
         (t) =>
           t.nameHindi === urlMasterTopic.nameHindi ||
-          (t.nameHindi && urlMasterTopic.nameHindi.includes(t.nameHindi))
+          (t.nameHindi && urlMasterTopic.nameHindi && (urlMasterTopic.nameHindi.includes(t.nameHindi) || t.nameHindi.includes(urlMasterTopic.nameHindi))) ||
+          t.name === urlMasterTopic.nameEnglish ||
+          (urlMasterTopic.nameEnglish && t.name && (t.name.toLowerCase().includes(urlMasterTopic.nameEnglish.toLowerCase()) || urlMasterTopic.nameEnglish.toLowerCase().includes(t.name.toLowerCase())))
       );
       if (match) {
         urlMatchedTopicRef.current = true;

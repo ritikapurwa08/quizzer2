@@ -22,14 +22,21 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    const isEnglish = masterTopicId >= 56 && masterTopicId <= 88;
     const projectRoot = process.cwd();
-    const poolStateFile = path.join(projectRoot, "data", "ddd", "pool-state.json");
-    const setsDir = path.join(projectRoot, "data", "ddd", "sets");
-    const historyDir = path.join(projectRoot, "data", "ddd", "history");
+    const poolStateFile = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "pool-state.json")
+      : path.join(projectRoot, "data", "ddd", "pool-state.json");
+    const setsDir = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "sets")
+      : path.join(projectRoot, "data", "ddd", "sets");
+    const historyDir = isEnglish
+      ? path.join(projectRoot, "data", "ddd", "english", "history")
+      : path.join(projectRoot, "data", "ddd", "history");
 
     if (!fs.existsSync(poolStateFile)) {
       return NextResponse.json(
-        { success: false, message: "data/ddd/pool-state.json not found" },
+        { success: false, message: `${isEnglish ? "data/ddd/english/" : "data/ddd/"}pool-state.json not found` },
         { status: 500 }
       );
     }

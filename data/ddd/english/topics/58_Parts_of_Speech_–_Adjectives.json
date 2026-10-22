@@ -1,0 +1,98 @@
+{
+  "masterTopicId": 58,
+  "topicId": 58,
+  "order": 2,
+  "name": "Parts of Speech – Adjectives",
+  "nameHindi": "विशेषण (Adjectives)",
+  "slug": "parts-of-speech-adjectives",
+  "part": "Part-I (Grammar & Usage)",
+  "totalAvailable": 4,
+  "subtopics": [
+    {
+      "name": "Adjective",
+      "count": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "rg_eng_000700",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 190,
+      "sourceTopic": "Adjective",
+      "masterTopicId": 58,
+      "masterTopic": "Parts of Speech – Adjectives",
+      "question": "Choose the most appropriate option to fill in the blank with the degree of adjective.\nSilver isn't ____ as Gold.",
+      "options": [
+        "more expensive",
+        "as expensive",
+        "expensive",
+        "the most expensive"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "exam": "Supervisor(Women) - 2024",
+      "year": 2024,
+      "explanation": null
+    },
+    {
+      "id": "rg_eng_000701",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 190,
+      "sourceTopic": "Adjective",
+      "masterTopicId": 58,
+      "masterTopic": "Parts of Speech – Adjectives",
+      "question": "Given below are the sentences in which degrees of adjectives have been used. Select the correct sentences.\n1. He is the strongest man.\n2. No other musician was better than him.\n3. The crocodile is the largest of all reptiles.\n4. This place is near to my home.\nChoose the correct answer from the options given below :",
+      "options": [
+        "1, 2 and 3",
+        "2 and 3",
+        "2 and 4",
+        "3 and 4"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
+      "year": 2023,
+      "explanation": null
+    },
+    {
+      "id": "rg_eng_000702",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 190,
+      "sourceTopic": "Adjective",
+      "masterTopicId": 58,
+      "masterTopic": "Parts of Speech – Adjectives",
+      "question": "Fill in the blank with the correct degree of adjective from the given options :\nShe is _____ than clever.",
+      "options": [
+        "braver",
+        "more brave",
+        "brave",
+        "more braver"
+      ],
+      "answer": "B",
+      "answerIndex": 1,
+      "exam": "Supervisor(Women)(Anganwari Quota) Exam 2018",
+      "year": 2018,
+      "explanation": null
+    },
+    {
+      "id": "rg_eng_000703",
+      "source": "RajasthanGyan",
+      "sourceTopicId": 190,
+      "sourceTopic": "Adjective",
+      "masterTopicId": 58,
+      "masterTopic": "Parts of Speech – Adjectives",
+      "question": "Select correct suffix to make adjective of the following:\nHazard",
+      "options": [
+        "ous",
+        "ly",
+        "y",
+        "ing"
+      ],
+      "answer": "A",
+      "answerIndex": 0,
+      "exam": "SCHOOL LECTURER Exam 2015(GK)",
+      "year": 2015,
+      "explanation": null
+    }
+  ]
+}

@@ -229,15 +229,15 @@ export default function AdminPoolOverviewPage() {
               RPSC 2nd Grade Syllabus
             </span>
             <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-500/10 text-emerald-500 border border-emerald-500/20">
-              55 Canonical Topics
+              {summary.totalMasterTopics} Canonical Topics
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground flex items-center gap-2.5">
             <Database className="h-7 w-7 text-primary" />
-            राजस्थान सामान्य ज्ञान — क्वेश्चन पूल एवं इन्वेंट्री
+            क्वेश्चन पूल एवं इन्वेंट्री (Question Pool & Inventory)
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-            मास्टर पूल (15,949 प्रश्न), लाइव टेस्ट सेट्स एवं विषयवार प्रगति का आधिकारिक डैशबोर्ड
+            मास्टर पूल ({summary.totalPoolQuestions.toLocaleString()} प्रश्न), लाइव टेस्ट सेट्स एवं विषयवार प्रगति का आधिकारिक डैशबोर्ड
           </p>
         </div>
 
@@ -444,7 +444,7 @@ export default function AdminPoolOverviewPage() {
               : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
           }`}
         >
-          सभी 55 टॉपिक्स (15,949 Qs)
+          सभी {summary.totalMasterTopics} टॉपिक्स ({summary.totalPoolQuestions.toLocaleString()} Qs)
         </button>
 
         {data.sections.map((sec) => {
