@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { CheckCircle2, XCircle } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { cn, formatScore } from "@/lib/utils";
 
 interface ResultHistoryItemProps {
@@ -28,10 +30,8 @@ export function ResultHistoryItem({
   const maxScore = totalQuestions * 2;
 
   return (
-    <Link
-      href={`/quiz/${testSetId}/results`}
-      className="flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-xl border border-border/80 bg-card hover:bg-muted/40 hover:border-primary/50 transition-all group select-none"
-    >
+    <Link href={`/quiz/${testSetId}/results`} className="block focus-visible:outline-hidden">
+      <Card className="flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-xl border border-border/80 bg-card hover:bg-muted/40 hover:border-primary/50 transition-all group select-none">
       {/* Left: indicator + name + date */}
       <div className="flex items-center gap-3 min-w-0">
         <span
@@ -65,20 +65,22 @@ export function ResultHistoryItem({
 
       {/* Right: accuracy badge + score */}
       <div className="flex items-center gap-1.5 shrink-0">
-        <span
+        <Badge
+          variant="outline"
           className={cn(
             "text-[11px] font-bold px-2 py-0.5 rounded-full tabular-nums font-hindi",
             isPassed
-              ? "bg-green-500/10 text-green-600 border border-green-500/20"
-              : "bg-destructive/10 text-destructive border border-destructive/20",
+              ? "bg-green-500/10 text-green-600 border-green-500/20"
+              : "bg-destructive/10 text-destructive border-destructive/20"
           )}
         >
           {accuracy.toFixed(0)}%
-        </span>
-        <span className="hidden sm:inline text-[11px] font-bold px-2 py-1 rounded-lg bg-muted text-foreground tabular-nums font-hindi">
+        </Badge>
+        <Badge variant="secondary" className="hidden sm:inline-flex text-[11px] font-bold px-2 py-0.5 rounded-md tabular-nums font-hindi">
           {formatScore(score ?? 0)}/{maxScore}
-        </span>
+        </Badge>
       </div>
-    </Link>
+    </Card>
+  </Link>
   );
 }

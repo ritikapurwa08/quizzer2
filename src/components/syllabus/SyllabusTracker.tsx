@@ -14,6 +14,13 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   CheckCircle2,
   Circle,
   Search,
@@ -337,19 +344,30 @@ export function SyllabusTracker({
           {/* Section dropdown */}
           <div className="flex items-center gap-1.5">
             <Filter className="h-3.5 w-3.5 text-muted-foreground hidden sm:inline" />
-            <select
-              value={selectedSection}
-              onChange={(e) => setSelectedSection(e.target.value)}
-              aria-label="Filter by section"
-              className="h-9 px-2.5 rounded-xl border border-border/80 bg-background text-xs font-medium text-foreground cursor-pointer focus:outline-hidden"
-            >
-              <option value="all">All Sections ({totalCount})</option>
-              {availableSections.map((sec) => (
-                <option key={sec} value={sec}>
-                  {sec}
-                </option>
-              ))}
-            </select>
+            <Select value={selectedSection} onValueChange={(val) => setSelectedSection(val || "all")}>
+              <SelectTrigger
+                id="syllabus-section-filter"
+                size="sm"
+                className="h-9 px-3 rounded-xl border border-border/80 bg-background text-xs font-medium text-foreground min-w-36 max-w-56"
+                aria-label="Filter by section"
+              >
+                <SelectValue placeholder="All Sections">
+                  {(value: string | null) =>
+                    value === "all" || !value ? `All Sections (${totalCount})` : value
+                  }
+                </SelectValue>
+              </SelectTrigger>
+              <SelectContent className="bg-popover border-border max-h-60">
+                <SelectItem value="all" className="text-xs">
+                  All Sections ({totalCount})
+                </SelectItem>
+                {availableSections.map((sec) => (
+                  <SelectItem key={sec} value={sec} className="text-xs">
+                    {sec}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
 
           {/* Status filter toggle pills */}

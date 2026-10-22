@@ -9,6 +9,8 @@ import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Badge } from "@/components/ui/badge";
 import {
   Layers,
   ChevronRight,
@@ -265,11 +267,17 @@ export default function SubjectDetailPage() {
 
           {topics === undefined ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-              {Array.from({ length: 9 }).map((_, i) => (
-                <div
+              {Array.from({ length: 6 }).map((_, i) => (
+                <Card
                   key={i}
-                  className="h-16 rounded-xl border border-border/80 bg-card p-4 animate-pulse"
-                />
+                  className="h-16 rounded-xl border border-border/80 bg-card p-3.5 shadow-none flex items-center gap-3"
+                >
+                  <Skeleton className="h-7 w-7 rounded-lg shrink-0" />
+                  <div className="space-y-1.5 flex-1">
+                    <Skeleton className="h-4 w-32 sm:w-40 rounded" />
+                    <Skeleton className="h-3 w-16 rounded" />
+                  </div>
+                </Card>
               ))}
             </div>
           ) : topics.length === 0 ? (
@@ -287,8 +295,8 @@ export default function SubjectDetailPage() {
                 const isInProgress = progress?.status === "in_progress";
 
                 return (
-                  <Link key={t._id} href={`/subjects/${id}/${t._id}`}>
-                    <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group min-h-[4rem] rounded-xl select-none">
+                  <Link key={t._id} href={`/subjects/${id}/${t._id}`} className="block focus-visible:outline-hidden">
+                    <Card className="flex flex-row items-center justify-between p-3.5 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group min-h-[4rem] rounded-xl select-none">
                       <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                         <span className="flex h-7 w-7 items-center justify-center rounded-lg text-xs font-semibold shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background">
                           {isCompleted ? (
@@ -331,7 +339,7 @@ export default function SubjectDetailPage() {
                         </div>
                       </div>
                       <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
-                    </div>
+                    </Card>
                   </Link>
                 );
               })}

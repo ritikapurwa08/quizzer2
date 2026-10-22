@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface PaginationProps {
   /** Current 0-based page index. */
@@ -24,39 +25,38 @@ export function Pagination({
   className,
 }: PaginationProps) {
   return (
-    <div
-      className={cn(
-        "flex items-center justify-center gap-3 py-2",
-        className,
-      )}
-    >
-      <button
+    <div className={cn("flex items-center justify-center gap-3 py-2", className)}>
+      <Button
         id="pagination-prev"
         type="button"
+        variant="outline"
+        size="sm"
         onClick={onPrev}
         disabled={page === 0}
-        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none"
+        className="h-8 px-3 rounded-lg text-xs font-semibold gap-1"
         aria-label="Previous page"
       >
         <ChevronLeft className="h-3.5 w-3.5" />
         Previous
-      </button>
+      </Button>
 
       <span className="text-xs font-semibold text-muted-foreground tabular-nums select-none">
         {label ?? `Page ${page + 1}`}
       </span>
 
-      <button
+      <Button
         id="pagination-next"
         type="button"
+        variant="outline"
+        size="sm"
         onClick={onNext}
         disabled={isLastPage}
-        className="flex items-center gap-1 h-8 px-3 rounded-lg border border-border bg-card text-xs font-medium text-foreground hover:bg-muted/60 hover:border-primary/40 transition-all disabled:opacity-40 disabled:pointer-events-none"
+        className="h-8 px-3 rounded-lg text-xs font-semibold gap-1"
         aria-label="Next page"
       >
         Next
         <ChevronRight className="h-3.5 w-3.5" />
-      </button>
+      </Button>
     </div>
   );
 }

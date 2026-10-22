@@ -7,6 +7,7 @@ import { StatCard } from "@/components/dashboard/StatCard";
 import { WeakSubjectsCard } from "@/components/dashboard/WeakSubjectsCard";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { Card } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { CheckCircle2, ListChecks, Percent, Bookmark, History, ArrowRight, BookOpen } from "lucide-react";
@@ -14,6 +15,7 @@ import { formatAccuracy, getSubjectDisplayName } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { api } from "../../../../convex/_generated/api";
 import { SyllabusOverviewCard } from "@/components/dashboard/SyllabusOverviewCard";
+import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 
 export default function DashboardPage() {
   const stats = useQuery(api.analytics.dashboardStats, {});
@@ -52,21 +54,19 @@ export default function DashboardPage() {
         </div>
 
         {subjects === undefined ? (
-          /* Exactly 12 subject-card skeleton placeholders matching real dimensions */
+          /* Exactly 6 subject-card skeleton placeholders matching real 2-row dimensions */
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
-            {Array.from({ length: 12 }).map((_, i) => (
-              <div
+            {Array.from({ length: 6 }).map((_, i) => (
+              <Card
                 key={i}
-                className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card min-h-[3.5rem] rounded-xl animate-pulse"
+                className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card min-h-[3.5rem] rounded-xl will-change-opacity shadow-none"
               >
                 <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-muted text-muted-foreground/50 text-xs font-bold shrink-0">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <div className="h-4 w-32 sm:w-40 rounded bg-muted" />
+                  <Skeleton className="h-7 w-7 rounded-lg shrink-0" />
+                  <Skeleton className="h-4 w-32 sm:w-40 rounded" />
                 </div>
-                <div className="h-4 w-4 rounded-full bg-muted shrink-0 ml-2" />
-              </div>
+                <Skeleton className="h-4 w-4 rounded-full shrink-0 ml-2" />
+              </Card>
             ))}
           </div>
         ) : subjects.length === 0 ? (
@@ -77,21 +77,24 @@ export default function DashboardPage() {
           />
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3">
-            {subjects.map((s, idx) => (
-              <Link key={s._id} href={`/subjects/${s._id}`}>
-                <div className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all group min-h-[3.5rem] rounded-xl select-none">
-                  <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-muted text-foreground text-xs font-bold shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors duration-200">
-                      {String(idx + 1).padStart(2, "0")}
-                    </span>
-                    <h3 className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate font-hindi">
-                      {getSubjectDisplayName(s)}
-                    </h3>
-                  </div>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
-                </div>
-              </Link>
-            ))}
+            {subjects.map((s) => {
+              const SectionIcon = getSubjectSectionIcon(s.slug || s.name);
+              return (
+                <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden">
+                  <Card className="flex flex-row items-center justify-between p-3.5 border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all group min-h-[3.5rem] rounded-xl select-none">
+                    <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
+                      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-muted text-foreground shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors duration-200">
+                        <SectionIcon className="h-4.5 w-4.5 transition-colors" />
+                      </div>
+                      <h3 className="font-semibold text-xs sm:text-sm text-foreground transition-colors truncate font-hindi">
+                        {getSubjectDisplayName(s)}
+                      </h3>
+                    </div>
+                    <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-2" />
+                  </Card>
+                </Link>
+              );
+            })}
           </div>
         )}
       </div>

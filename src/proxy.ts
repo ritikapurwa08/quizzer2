@@ -1,10 +1,30 @@
-import { convexAuthNextjsMiddleware } from "@convex-dev/auth/nextjs/server";
+import {
+  convexAuthNextjsMiddleware,
+  createRouteMatcher,
+  nextjsMiddlewareRedirect,
+} from "@convex-dev/auth/nextjs/server";
+
+const isSignInPage = createRouteMatcher(["/login"]);
+const isProtectedRoute = createRouteMatcher([
+  "/dashboard(.*)",
+  "/subjects(.*)",
+  "/quiz(.*)",
+  "/analytics(.*)",
+  "/notes(.*)",
+  "/syllabus(.*)",
+  "/bookmarks(.*)",
+  "/history(.*)",
+  "/admin(.*)",
+]);
 
 export default convexAuthNextjsMiddleware(
-  (_request, _ctx) => {
-    // Route protection is handled by AuthGuard on the client.
-    // This proxy exists solely to refresh auth cookies on every request
-    // and to set the cookie maxAge so the session persists for 7 days.
+  async (request, { convexAuth }) => {
+    if (isSignInPage(request) && (await convexAuth.isAuthenticated())) {
+      return nextjsMiddlewareRedirect(request, "/dashboard");
+    }
+    if (isProtectedRoute(request) && !(await convexAuth.isAuthenticated())) {
+      return nextjsMiddlewareRedirect(request, "/login");
+    }
   },
   { cookieConfig: { maxAge: 60 * 60 * 24 * 7 } }, // 7 days
 );

@@ -7,6 +7,10 @@ import { useQuery } from "convex/react";
 import { api } from "../../../../../convex/_generated/api";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
+import { Card } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Input } from "@/components/ui/input";
+import { Badge } from "@/components/ui/badge";
 import {
   FileText,
   Sparkles,
@@ -82,13 +86,13 @@ export default function SubjectNotesDirectoryPage() {
           {topics && <span className="tabular-nums">({topics.length})</span>}
         </h2>
         <div className="relative w-full sm:w-64">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
-          <input
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none z-10" />
+          <Input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search topics…"
-            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground transition-colors"
+            className="w-full pl-9 pr-3 h-8.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80"
           />
         </div>
       </div>
@@ -96,11 +100,17 @@ export default function SubjectNotesDirectoryPage() {
       {/* Topics Listing */}
       {topics === undefined ? (
         <div className="space-y-2.5">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <div
+          {Array.from({ length: 6 }).map((_, i) => (
+            <Card
               key={i}
-              className="h-16 rounded-xl border border-border/80 bg-card p-4 animate-pulse"
-            />
+              className="h-16 rounded-xl border border-border/80 bg-card p-4 shadow-none flex items-center justify-between"
+            >
+              <div className="flex items-center gap-3">
+                <Skeleton className="h-7 w-7 rounded-lg" />
+                <Skeleton className="h-4 w-40 sm:w-56 rounded" />
+              </div>
+              <Skeleton className="h-5 w-16 rounded" />
+            </Card>
           ))}
         </div>
       ) : filteredTopics && filteredTopics.length === 0 ? (
@@ -122,9 +132,9 @@ export default function SubjectNotesDirectoryPage() {
               <Link
                 key={topic._id}
                 href={`/notes/${subjectSlug}/${topic.slug}`}
-                className="block group select-none"
+                className="block group select-none focus-visible:outline-hidden"
               >
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 sm:p-4 rounded-xl border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all">
+                <Card className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 sm:p-4 rounded-xl border border-border/80 bg-card hover:border-foreground/30 hover:shadow-xs transition-all">
                   <div className="flex items-center gap-3 min-w-0 flex-1">
                     <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-muted text-foreground text-xs font-bold shrink-0 group-hover:bg-foreground group-hover:text-background transition-colors">
                       {String(idx + 1).padStart(2, "0")}
@@ -145,35 +155,35 @@ export default function SubjectNotesDirectoryPage() {
                   {/* Resource Badges */}
                   <div className="flex items-center gap-1.5 shrink-0 flex-wrap">
                     {hasPdf && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-primary/10 text-primary text-[10px] font-bold">
+                      <Badge variant="secondary" className="gap-1 px-2 py-0.5 text-[10px] font-bold bg-primary/10 text-primary border-transparent">
                         <FileText className="h-3 w-3" />
                         PDF
-                      </span>
+                      </Badge>
                     )}
 
                     {hasContent && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-success/15 text-success text-[10px] font-bold">
+                      <Badge variant="secondary" className="gap-1 px-2 py-0.5 text-[10px] font-bold bg-success/15 text-success border-transparent">
                         <Sparkles className="h-3 w-3" />
                         Notes
-                      </span>
+                      </Badge>
                     )}
 
                     {hasImages && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-muted text-muted-foreground text-[10px] font-medium">
+                      <Badge variant="outline" className="gap-1 px-2 py-0.5 text-[10px] font-medium text-muted-foreground border-border/60">
                         <ImageIcon className="h-3 w-3" />
                         Images
-                      </span>
+                      </Badge>
                     )}
 
                     {setsCount > 0 && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-muted text-foreground text-[10px] font-bold tabular-nums">
+                      <Badge variant="secondary" className="gap-1 px-2 py-0.5 text-[10px] font-bold tabular-nums">
                         {setsCount} {setsCount === 1 ? "Test Set" : "Test Sets"}
-                      </span>
+                      </Badge>
                     )}
 
                     <ChevronRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all ml-1 shrink-0 hidden sm:inline" />
                   </div>
-                </div>
+                </Card>
               </Link>
             );
           })}

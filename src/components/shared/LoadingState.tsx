@@ -15,7 +15,7 @@ export function LoadingSpinner({ className, size = "md" }: LoadingSpinnerProps) 
   return (
     <div
       className={cn(
-        "rounded-full border-primary/20 border-t-primary animate-spin shrink-0",
+        "rounded-full border-primary/20 border-t-primary animate-spin shrink-0 will-change-transform transform-gpu",
         sizeMap[size],
         className
       )}
@@ -93,7 +93,7 @@ export function AppLoadingScreen() {
         <span className="text-2xl font-bold text-primary">Q</span>
         {/* Subtle rotating ring */}
         <div
-          className="absolute inset-0 rounded-2xl border-2 border-transparent border-t-primary/50 animate-spin [animation-duration:1.4s]"
+          className="absolute inset-0 rounded-2xl border-2 border-transparent border-t-primary/50 animate-spin [animation-duration:1.4s] will-change-transform transform-gpu"
           aria-hidden="true"
         />
       </div>

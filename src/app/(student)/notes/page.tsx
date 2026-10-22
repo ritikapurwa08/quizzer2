@@ -8,6 +8,8 @@ import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
   BookOpen,
   ArrowRight,
@@ -20,15 +22,7 @@ import {
   Search,
 } from "lucide-react";
 import { getSubjectDisplayName } from "@/lib/utils";
-
-// Distinct visual icons for each canonical subject
-const SUBJECT_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
-  "rajasthan-general-knowledge-geography": Compass,
-  "rajasthan-art-culture": Palette,
-  "rajasthan-ancient-medieval-history": Landmark,
-  "modern-rajasthan-freedom-movement": GraduationCap,
-  "rajasthan-polity-administration": Scale,
-};
+import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 
 export default function NotesLandingPage() {
   const subjects = useQuery(api.subjects.list);
@@ -84,13 +78,13 @@ export default function NotesLandingPage() {
           {subjects && <span className="tabular-nums">({subjects.length})</span>}
         </h2>
         <div className="relative w-full sm:w-64">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none" />
-          <input
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground pointer-events-none z-10" />
+          <Input
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search subjects…"
-            className="w-full pl-8.5 pr-3 py-1.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary placeholder:text-muted-foreground transition-colors"
+            className="w-full pl-9 pr-3 h-8.5 text-xs sm:text-sm bg-card rounded-xl border border-border/80"
           />
         </div>
       </div>
@@ -99,14 +93,14 @@ export default function NotesLandingPage() {
       {subjects === undefined ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
           {Array.from({ length: 5 }).map((_, i) => (
-            <div
+            <Card
               key={i}
-              className="h-44 rounded-2xl border border-border/80 bg-card p-5 animate-pulse space-y-3"
+              className="h-44 rounded-2xl border border-border/80 bg-card p-5 space-y-3 shadow-none"
             >
-              <div className="h-9 w-9 rounded-xl bg-muted" />
-              <div className="h-5 w-48 rounded bg-muted" />
-              <div className="h-4 w-full rounded bg-muted" />
-            </div>
+              <Skeleton className="h-9 w-9 rounded-xl" />
+              <Skeleton className="h-5 w-48 rounded" />
+              <Skeleton className="h-4 w-full rounded" />
+            </Card>
           ))}
         </div>
       ) : filteredSubjects && filteredSubjects.length === 0 ? (
@@ -118,7 +112,7 @@ export default function NotesLandingPage() {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
           {filteredSubjects?.map((subject, idx) => {
-            const IconComponent = SUBJECT_ICONS[subject.slug] || BookOpen;
+            const IconComponent = getSubjectSectionIcon(subject.slug || subject.name);
 
             return (
               <Link key={subject._id} href={`/notes/${subject.slug}`} className="group">

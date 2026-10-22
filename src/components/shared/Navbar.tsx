@@ -30,6 +30,7 @@ import {
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
 import { isUserAdmin } from "@/lib/constants";
+import { QuizzerLogoIcon } from "@/components/icons/QuizzerIcons";
 
 export function Navbar() {
   const me = useQuery(api.users.me);
@@ -67,10 +68,8 @@ export function Navbar() {
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-2.5">
         {/* ── Brand / Logo ── */}
         <div className="flex items-center gap-6">
-          <Link href="/dashboard" className="flex items-center gap-2.5 font-semibold shrink-0 group">
-            <div className="p-1.5 rounded-lg bg-primary/10 text-primary transition-all group-hover:bg-primary group-hover:text-primary-foreground">
-              <GraduationCap className="h-5 w-5" />
-            </div>
+          <Link href="/dashboard" className="flex items-center gap-2 font-semibold shrink-0 group">
+            <QuizzerLogoIcon className="h-7 w-7 transition-transform group-hover:scale-105" />
             <span className="font-semibold text-base tracking-tight text-foreground group-hover:text-primary transition-colors">
               Quizzer
             </span>

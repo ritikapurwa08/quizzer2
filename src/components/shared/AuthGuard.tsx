@@ -1,7 +1,6 @@
 "use client";
 
 import { useConvexAuth, useQuery } from "convex/react";
-
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { api } from "../../../convex/_generated/api";
@@ -14,30 +13,30 @@ interface AuthGuardProps {
 
 export function AuthGuard({ children, requireAdmin = false }: AuthGuardProps) {
   const { isLoading: authLoading, isAuthenticated } = useConvexAuth();
-  const user = useQuery(api.users.me, isAuthenticated ? {} : "skip");
+  // Only query api.users.me if requireAdmin check is explicitly requested
+  const user = useQuery(api.users.me, requireAdmin && isAuthenticated ? {} : "skip");
   const router = useRouter();
 
   useEffect(() => {
     if (!authLoading && !isAuthenticated) {
       router.replace("/login");
-    } else if (!authLoading && isAuthenticated && user !== undefined && user !== null) {
-      if (requireAdmin && user?.role !== "admin") {
+    } else if (requireAdmin && !authLoading && isAuthenticated && user !== undefined && user !== null) {
+      if (user?.role !== "admin") {
         router.replace("/dashboard");
       }
     }
   }, [authLoading, isAuthenticated, user, requireAdmin, router]);
 
-  if (authLoading || (isAuthenticated && user === undefined)) {
+  // For admin routes, wait for role verification
+  if (requireAdmin && (authLoading || user === undefined)) {
     return <AppLoadingScreen />;
   }
 
-  if (!isAuthenticated) {
+  // If user is definitively logged out on the client, unmount children while redirecting
+  if (!authLoading && !isAuthenticated) {
     return null;
   }
 
-  if (requireAdmin && user?.role !== "admin") {
-    return null;
-  }
-
+  // For normal student routes, render children immediately (instant SSR + skeleton shell)
   return <>{children}</>;
 }

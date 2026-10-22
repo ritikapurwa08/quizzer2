@@ -191,8 +191,8 @@ export default function TopicDetailPage() {
                 {testSets.map((set) => {
                   const isDone = completedSet.has(set._id);
                   return (
-                    <Link key={set._id} href={`/quiz/${set._id}`}>
-                      <div className="flex flex-row items-center justify-between p-4 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group rounded-xl min-h-[4rem] select-none">
+                    <Link key={set._id} href={`/quiz/${set._id}`} className="block focus-visible:outline-hidden">
+                      <Card className="flex flex-row items-center justify-between p-4 border border-border/80 hover:border-foreground/30 bg-card hover:shadow-xs transition-all group rounded-xl min-h-[4rem] select-none">
                         <div className="flex flex-row items-center gap-3 min-w-0 flex-1">
                           <div className="p-2 rounded-lg shrink-0 transition-all duration-200 bg-muted text-foreground group-hover:bg-foreground group-hover:text-background">
                             {isDone ? (
@@ -213,7 +213,7 @@ export default function TopicDetailPage() {
                           <Play className="h-3.5 w-3.5 fill-current" />
                           <span>{isDone ? "Retake" : "Start"}</span>
                         </div>
-                      </div>
+                      </Card>
                     </Link>
                   );
                 })}
