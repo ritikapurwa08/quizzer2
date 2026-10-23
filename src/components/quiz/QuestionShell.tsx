@@ -85,34 +85,37 @@ export function QuestionShell({
           <QuestionSourceMeta reference={reference} meta={meta} />
         </div>
 
-        {/* 4. Bookmark: fixed / non-shrinking on right */}
-        <Tooltip>
-          <TooltipTrigger
-            onClick={handleBookmarkClick}
-            aria-label={isBookmarked ? "Remove bookmark" : "Save question"}
-            className={cn(
-              "flex h-7 sm:h-8 shrink-0 items-center gap-1.5 rounded-lg border px-2 sm:px-2.5 text-[11px] sm:text-xs font-medium",
-              "transition-colors active:scale-[0.98] cursor-pointer",
-              isBookmarked
-                ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
-                : "border-border text-muted-foreground hover:bg-muted hover:text-foreground"
-            )}
-          >
-            <Bookmark className={cn("h-3.5 w-3.5", isBookmarked && "fill-current text-primary-foreground")} />
-            <span className="hidden sm:inline">
-              {isBookmarked ? "Saved" : "Bookmark"}
-            </span>
-          </TooltipTrigger>
-          <TooltipContent side="left">
-            {isBookmarked ? "Remove bookmark" : "Save for revision"}
-          </TooltipContent>
-        </Tooltip>
+        {/* 4. Bookmark: fixed / non-shrinking on right (hidden in print) */}
+        <div className="print:hidden">
+          <Tooltip>
+            <TooltipTrigger
+              onClick={handleBookmarkClick}
+              aria-label={isBookmarked ? "Remove bookmark" : "Save question"}
+              className={cn(
+                "flex h-7 sm:h-8 shrink-0 items-center gap-1.5 rounded-lg border px-2 sm:px-2.5 text-[11px] sm:text-xs font-medium",
+                "transition-colors active:scale-[0.98] cursor-pointer",
+                isBookmarked
+                  ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
+                  : "border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+              )}
+            >
+              <Bookmark className={cn("h-3.5 w-3.5", isBookmarked && "fill-current text-primary-foreground")} />
+              <span className="hidden sm:inline">
+                {isBookmarked ? "Saved" : "Bookmark"}
+              </span>
+            </TooltipTrigger>
+            <TooltipContent side="left">
+              {isBookmarked ? "Remove bookmark" : "Save for revision"}
+            </TooltipContent>
+          </Tooltip>
+        </div>
       </div>
 
       {cleanedText ? (
         <p
           className={cn(
             "mb-3.5 sm:mb-4 text-[0.95rem] leading-relaxed font-medium text-foreground sm:text-[1.025rem] sm:leading-8 whitespace-pre-wrap",
+            "print:text-xs print:font-semibold print:leading-snug print:mb-2",
             isHindi && "font-hindi"
           )}
         >

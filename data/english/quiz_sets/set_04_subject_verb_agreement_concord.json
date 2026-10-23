@@ -1,0 +1,4000 @@
+{
+  "name": "Subject-Verb Agreement & Concord Practice",
+  "topicName": "Parts of Speech – Verbs",
+  "subjectName": "English (Paper-II)",
+  "questionCount": 105,
+  "durationMinutes": 79,
+  "negativeMarking": true,
+  "questions": [
+    {
+      "id": "eng_sva_0001",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the correct option.\nMy dues of seven thousand rupees ..... to him.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have paid"
+        },
+        {
+          "id": "opt2",
+          "text": "had paid"
+        },
+        {
+          "id": "opt3",
+          "text": "been paid"
+        },
+        {
+          "id": "opt4",
+          "text": "has been paid"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब कोई निश्चित धनराशि (seven thousand rupees) एकमुश्त इकाई (single unit/sum) के रूप में देखी जाती है, तो क्रिया एकवचन (singular) होती है। साथ ही, वाक्य पैसिव वॉइस (Passive Voice) में है क्योंकि बकाया राशि का भुगतान किया गया है (has been paid)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'have paid' और 'had paid' एक्टिव वॉइस हैं (dues खुद भुगतान नहीं कर सकते)। 'been paid' बिना सहायक क्रिया के अधूरा है। अतः 'has been paid' सही है।",
+      "difficulty": "easy",
+      "reference": "III Grade (Sans. Edu.) English-15.02.2023",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0001",
+        "originalId": 1,
+        "exam": "III Grade (Sans. Edu.) English-15.02.2023",
+        "year": 2023,
+        "concept": "जब कोई निश्चित धनराशि (seven thousand rupees) एकमुश्त इकाई (single unit/sum) के रूप में देखी जाती है, तो क्रिया एकवचन (singular) होती है। साथ ही, वाक्य पैसिव वॉइस (Passive Voice) में है क्योंकि बकाया राशि का भुगतान किया गया है (has been paid)।",
+        "elimination_logic": "'have paid' और 'had paid' एक्टिव वॉइस हैं (dues खुद भुगतान नहीं कर सकते)। 'been paid' बिना सहायक क्रिया के अधूरा है। अतः 'has been paid' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0002",
+      "type": "mcq",
+      "questionText": "Everyone of the boys ..... to ride a bike.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "loving"
+        },
+        {
+          "id": "opt2",
+          "text": "love"
+        },
+        {
+          "id": "opt3",
+          "text": "loves"
+        },
+        {
+          "id": "opt4",
+          "text": "are loving"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Everyone of' के बाद संज्ञा बहुवचन (boys) आती है, लेकिन वास्तविक कर्ता 'Everyone' होता है जो हमेशा Singular होता है। अतः इसके साथ Singular Verb (V1 + s/es) का प्रयोग होगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'boys' को देखकर छात्र भ्रमित होकर 'love' चुनते हैं, जो गलत है। 'loving' बिना aux verb के नहीं आ सकता और 'are loving' बहुवचन है।",
+      "difficulty": "easy",
+      "reference": "II Grade (English) 23.12.2022",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0002",
+        "originalId": 2,
+        "exam": "II Grade (English) 23.12.2022",
+        "year": 2022,
+        "concept": "'Everyone of' के बाद संज्ञा बहुवचन (boys) आती है, लेकिन वास्तविक कर्ता 'Everyone' होता है जो हमेशा Singular होता है। अतः इसके साथ Singular Verb (V1 + s/es) का प्रयोग होगा।",
+        "elimination_logic": "'boys' को देखकर छात्र भ्रमित होकर 'love' चुनते हैं, जो गलत है। 'loving' बिना aux verb के नहीं आ सकता और 'are loving' बहुवचन है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0003",
+      "type": "mcq",
+      "questionText": "Choose the grammatically correct option (Any dictionary...):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Any dictionaries will give you the meaning of these words."
+        },
+        {
+          "id": "opt2",
+          "text": "Any dictionary will gives you the meaning of these words."
+        },
+        {
+          "id": "opt3",
+          "text": "Any dictionary will give you the meaning of these words."
+        },
+        {
+          "id": "opt4",
+          "text": "Any dictionary is give you the meaning of these words."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nमोडल वर्ब (Modal Verb जैसे will/shall/can) के तुरंत बाद क्रिया का मूल रूप (Bare Infinitive - V1) आता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(b) में modal 'will' के बाद 'gives' (s-form) का गलत प्रयोग है। (d) में 'is give' संरचना अमान्य है। (a) में 'Any' के साथ सामान्य संदर्भ में singular countable noun 'dictionary' बेहतर है।",
+      "difficulty": "easy",
+      "reference": "II Grade (English) 23.12.2022",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0003",
+        "originalId": 3,
+        "exam": "II Grade (English) 23.12.2022",
+        "year": 2022,
+        "concept": "मोडल वर्ब (Modal Verb जैसे will/shall/can) के तुरंत बाद क्रिया का मूल रूप (Bare Infinitive - V1) आता है।",
+        "elimination_logic": "(b) में modal 'will' के बाद 'gives' (s-form) का गलत प्रयोग है। (d) में 'is give' संरचना अमान्य है। (a) में 'Any' के साथ सामान्य संदर्भ में singular countable noun 'dictionary' बेहतर है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0004",
+      "type": "mcq",
+      "questionText": "Choose the grammatically correct option (Many a flower...):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Many a flowers is born to blush unseens."
+        },
+        {
+          "id": "opt2",
+          "text": "Many a flowers are born to blush unseen."
+        },
+        {
+          "id": "opt3",
+          "text": "Many a flower is born to blush unseen."
+        },
+        {
+          "id": "opt4",
+          "text": "Many a flower are born to blush unseen."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'Many a / an + Singular Countable Noun + Singular Verb'।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(a) और (b) में 'Many a' के बाद 'flowers' (plural) लगाया गया है जो गलत है। (d) में 'flower' के साथ plural verb 'are' का प्रयोग हुआ है, इसलिए गलत है।",
+      "difficulty": "easy",
+      "reference": "II Grade (English) 23.12.2022",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0004",
+        "originalId": 4,
+        "exam": "II Grade (English) 23.12.2022",
+        "year": 2022,
+        "concept": "नियम: 'Many a / an + Singular Countable Noun + Singular Verb'।",
+        "elimination_logic": "(a) और (b) में 'Many a' के बाद 'flowers' (plural) लगाया गया है जो गलत है। (d) में 'flower' के साथ plural verb 'are' का प्रयोग हुआ है, इसलिए गलत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0005",
+      "type": "mcq",
+      "questionText": "Pick the correct sentence from the options given:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Nobody lives forever."
+        },
+        {
+          "id": "opt2",
+          "text": "Nobody lives for ever."
+        },
+        {
+          "id": "opt3",
+          "text": "Everyone lives forever."
+        },
+        {
+          "id": "opt4",
+          "text": "Nobody wants to live ever."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nIndefinite Pronoun 'Nobody' एकवचन (singular) होता है, जिसके साथ क्रिया 'lives' और मानक एडवर्ब 'forever' (एक शब्द) आता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(b) में 'for ever' दो अलग शब्दों में लिखा है जो कम मानक है। (c) अर्थ की दृष्टि से असत्य है। (a) व्याकरण और मुहावरेदार रूप से सटीक है।",
+      "difficulty": "easy",
+      "reference": "High Court LDC - 19.03.2023",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0005",
+        "originalId": 5,
+        "exam": "High Court LDC - 19.03.2023",
+        "year": 2023,
+        "concept": "Indefinite Pronoun 'Nobody' एकवचन (singular) होता है, जिसके साथ क्रिया 'lives' और मानक एडवर्ब 'forever' (एक शब्द) आता है।",
+        "elimination_logic": "(b) में 'for ever' दो अलग शब्दों में लिखा है जो कम मानक है। (c) अर्थ की दृष्टि से असत्य है। (a) व्याकरण और मुहावरेदार रूप से सटीक है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0006",
+      "type": "mcq",
+      "questionText": "Choose the correct answer from the following options determining whether subject agrees in number with the verb:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Just around the corner is a fantastic bakery and a small supermarket."
+        },
+        {
+          "id": "opt2",
+          "text": "After all the gardening we did, the sun shining on the flowerbeds make a beautiful sight."
+        },
+        {
+          "id": "opt3",
+          "text": "Jack, along with some of his closest friends, is sharing a car to attend a wedding."
+        },
+        {
+          "id": "opt4",
+          "text": "There is according to my doctor, many courses of treatment available to me."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब दो कर्ता 'along with', 'with', 'together with', 'as well as' से जुड़ते हैं, तो क्रिया हमेशा पहले कर्ता (Jack - Singular) के अनुसार आती है। इसलिए 'is' सही है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(a) में दो चीजें हैं (bakery and supermarket), इसलिए 'are' होना चाहिए। (b) में मुख्य कर्ता 'the sun shining' (singular) है अतः 'makes' होना चाहिए। (d) में 'many courses' (plural) के लिए 'there are' होना चाहिए।",
+      "difficulty": "easy",
+      "reference": "महिला पर्यवेक्षक परीक्षा 06.01.2019",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0006",
+        "originalId": 6,
+        "exam": "महिला पर्यवेक्षक परीक्षा 06.01.2019",
+        "year": 2019,
+        "concept": "जब दो कर्ता 'along with', 'with', 'together with', 'as well as' से जुड़ते हैं, तो क्रिया हमेशा पहले कर्ता (Jack - Singular) के अनुसार आती है। इसलिए 'is' सही है।",
+        "elimination_logic": "(a) में दो चीजें हैं (bakery and supermarket), इसलिए 'are' होना चाहिए। (b) में मुख्य कर्ता 'the sun shining' (singular) है अतः 'makes' होना चाहिए। (d) में 'many courses' (plural) के लिए 'there are' होना चाहिए।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0007",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the correct option:\nEither the boy or the girl ..... at fault.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Either... or' या 'Neither... nor' में क्रिया निकटतम कर्ता (Proximity rule) के अनुसार आती है। यहाँ निकटतम कर्ता 'the girl' (Singular) है, अतः Singular Verb आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'were', 'are', और 'have been' तीनों बहुवचन (Plural) क्रियाएँ हैं। एकमात्र Singular विकल्प 'was' है।",
+      "difficulty": "easy",
+      "reference": "LDC 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0007",
+        "originalId": 7,
+        "exam": "LDC 2018",
+        "year": 2018,
+        "concept": "'Either... or' या 'Neither... nor' में क्रिया निकटतम कर्ता (Proximity rule) के अनुसार आती है। यहाँ निकटतम कर्ता 'the girl' (Singular) है, अतः Singular Verb आएगी।",
+        "elimination_logic": "'were', 'are', और 'have been' तीनों बहुवचन (Plural) क्रियाएँ हैं। एकमात्र Singular विकल्प 'was' है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0008",
+      "type": "mcq",
+      "questionText": "Ram as well as his brothers ..... coming today.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'as well as' से जुड़ने पर क्रिया पहले कर्ता के अनुसार प्रयुक्त होती है। पहला कर्ता 'Ram' (Singular) है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nनिकटवर्ती शब्द 'his brothers' को देखकर छात्र 'are' चुनते हैं, परंतु नियम के अनुसार क्रिया प्रथम कर्ता 'Ram' के अनुसार 'is' होगी।",
+      "difficulty": "easy",
+      "reference": "LDC 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0008",
+        "originalId": 8,
+        "exam": "LDC 2018",
+        "year": 2018,
+        "concept": "'as well as' से जुड़ने पर क्रिया पहले कर्ता के अनुसार प्रयुक्त होती है। पहला कर्ता 'Ram' (Singular) है।",
+        "elimination_logic": "निकटवर्ती शब्द 'his brothers' को देखकर छात्र 'are' चुनते हैं, परंतु नियम के अनुसार क्रिया प्रथम कर्ता 'Ram' के अनुसार 'is' होगी।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0009",
+      "type": "mcq",
+      "questionText": "John as well as Tom ..... waiting for you.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "have been"
+        },
+        {
+          "id": "opt4",
+          "text": "are"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'as well as' से जुड़े होने के कारण प्रथम कर्ता 'John' (Singular) के अनुसार Singular Verb आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'were', 'have been' और 'are' सभी Plural Verbs हैं, जो सीधे एलिमिनेट हो जाते हैं।",
+      "difficulty": "easy",
+      "reference": "II Grade 2013",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0009",
+        "originalId": 9,
+        "exam": "II Grade 2013",
+        "year": 2013,
+        "concept": "'as well as' से जुड़े होने के कारण प्रथम कर्ता 'John' (Singular) के अनुसार Singular Verb आएगी।",
+        "elimination_logic": "'were', 'have been' और 'are' सभी Plural Verbs हैं, जो सीधे एलिमिनेट हो जाते हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0010",
+      "type": "mcq",
+      "questionText": "Each of the girl Scouts ..... a community project.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "does"
+        },
+        {
+          "id": "opt2",
+          "text": "do"
+        },
+        {
+          "id": "opt3",
+          "text": "participates"
+        },
+        {
+          "id": "opt4",
+          "text": "participate"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Each of + Plural Noun' के साथ Singular Verb का प्रयोग होता है। किसी प्रोजेक्ट को 'करने' के संदर्भ में क्रिया 'does' उपयुक्त है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'participates' के बाद preposition 'in' अनिवार्य होता है (participates in a project), अतः बिना 'in' के 'does' ही व्याकरण सम्मत है।",
+      "difficulty": "easy",
+      "reference": "LDC 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0010",
+        "originalId": 10,
+        "exam": "LDC 2018",
+        "year": 2018,
+        "concept": "'Each of + Plural Noun' के साथ Singular Verb का प्रयोग होता है। किसी प्रोजेक्ट को 'करने' के संदर्भ में क्रिया 'does' उपयुक्त है।",
+        "elimination_logic": "'participates' के बाद preposition 'in' अनिवार्य होता है (participates in a project), अतः बिना 'in' के 'does' ही व्याकरण सम्मत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0011",
+      "type": "mcq",
+      "questionText": "My friend, philosopher and guide ..... going abroad.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "am"
+        },
+        {
+          "id": "opt4",
+          "text": "being"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nयदि एक ही व्यक्ति के लिए कई उपाधियों या संज्ञाओं का प्रयोग हो और केवल पहले शब्द के पूर्व possessive/article (My friend) लगा हो, तो वह एक ही व्यक्ति को दर्शाता है। अतः क्रिया Singular होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nयहाँ तीन अलग-अलग व्यक्ति नहीं हैं, बल्कि एक ही मित्र है जो दार्शनिक और मार्गदर्शक भी है। इसलिए 'are' गलत है और 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0011",
+        "originalId": 11,
+        "exam": "LDC HC 2017",
+        "year": 2017,
+        "concept": "यदि एक ही व्यक्ति के लिए कई उपाधियों या संज्ञाओं का प्रयोग हो और केवल पहले शब्द के पूर्व possessive/article (My friend) लगा हो, तो वह एक ही व्यक्ति को दर्शाता है। अतः क्रिया Singular होगी।",
+        "elimination_logic": "यहाँ तीन अलग-अलग व्यक्ति नहीं हैं, बल्कि एक ही मित्र है जो दार्शनिक और मार्गदर्शक भी है। इसलिए 'are' गलत है और 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0012",
+      "type": "mcq",
+      "questionText": "A variety of beverages ..... flooded the market.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has"
+        },
+        {
+          "id": "opt2",
+          "text": "had't"
+        },
+        {
+          "id": "opt3",
+          "text": "have"
+        },
+        {
+          "id": "opt4",
+          "text": "would"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'A variety of + Plural Noun' को व्याकरण में बहुवचन (Plural) माना जाता है, इसलिए इसके साथ Plural Verb 'have' आती है। (नोट: 'The variety of' के साथ singular verb आती है)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'has' का प्रयोग 'The variety of' के साथ होता है। यहाँ 'A variety of' होने से 'have' चुना जाएगा।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0012",
+        "originalId": 12,
+        "exam": "LDC HC 2017",
+        "year": 2017,
+        "concept": "'A variety of + Plural Noun' को व्याकरण में बहुवचन (Plural) माना जाता है, इसलिए इसके साथ Plural Verb 'have' आती है। (नोट: 'The variety of' के साथ singular verb आती है)।",
+        "elimination_logic": "'has' का प्रयोग 'The variety of' के साथ होता है। यहाँ 'A variety of' होने से 'have' चुना जाएगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0013",
+      "type": "mcq",
+      "questionText": "A hundred and twenty kilometers an hour ..... much too fast.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "am"
+        },
+        {
+          "id": "opt4",
+          "text": "being"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nगति (Speed), दूरी (Distance) या समय की निश्चित माप जब एक संयुक्त इकाई (Single measurement) के रूप में व्यक्त की जाती है, तो वह Singular Verb लेती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'kilometers' प्लूरल देखकर 'are' लगाना एक सामान्य जाल (trap) है। गति एक इकाई है, अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0013",
+        "originalId": 13,
+        "exam": "LDC HC 2017",
+        "year": 2017,
+        "concept": "गति (Speed), दूरी (Distance) या समय की निश्चित माप जब एक संयुक्त इकाई (Single measurement) के रूप में व्यक्त की जाती है, तो वह Singular Verb लेती है।",
+        "elimination_logic": "'kilometers' प्लूरल देखकर 'are' लगाना एक सामान्य जाल (trap) है। गति एक इकाई है, अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0014",
+      "type": "mcq",
+      "questionText": "Choose the correct sentence (One of these candidates...):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "One of these candidates are sure to be selected."
+        },
+        {
+          "id": "opt2",
+          "text": "One of these candidates is sure to be selected."
+        },
+        {
+          "id": "opt3",
+          "text": "One of these candidates were sure to be selected."
+        },
+        {
+          "id": "opt4",
+          "text": "One of these candidates have sure to be selected."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'One of + Plural Noun' में वास्तविक कर्ता 'One' (Singular) होता है, अतः इसके साथ Singular Verb 'is' आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(a) और (c) में क्रमशः 'are' और 'were' (Plural) हैं। (d) में 'have sure' व्याकरण सम्मत नहीं है।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2015",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0014",
+        "originalId": 14,
+        "exam": "LDC HC 2015",
+        "year": 2015,
+        "concept": "'One of + Plural Noun' में वास्तविक कर्ता 'One' (Singular) होता है, अतः इसके साथ Singular Verb 'is' आएगी।",
+        "elimination_logic": "(a) और (c) में क्रमशः 'are' और 'were' (Plural) हैं। (d) में 'have sure' व्याकरण सम्मत नहीं है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0015",
+      "type": "mcq",
+      "questionText": "Choose the correct sentence (The class divided in opinions):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The class had divided in their opinions."
+        },
+        {
+          "id": "opt2",
+          "text": "The class have divided in their opinions."
+        },
+        {
+          "id": "opt3",
+          "text": "The class were divided in their opinions."
+        },
+        {
+          "id": "opt4",
+          "text": "The class being divided in their opinions."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nCollective Noun (जैसे class, jury, committee) जब विभाजित हो या उसके सदस्यों के अलग-अलग विचार हों (Noun of Multitude), तो क्रिया और सर्वनाम दोनों बहुवचन (Plural) होते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविभाजित अवस्था में 'were divided' सटीक पैसिव अवस्था को दर्शाता है। 'have divided' की जगह अवस्था दर्शाने के लिए 'were divided in their opinions' मानक प्रयोग है।",
+      "difficulty": "hard",
+      "reference": "LDC HC 2015",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0015",
+        "originalId": 15,
+        "exam": "LDC HC 2015",
+        "year": 2015,
+        "concept": "Collective Noun (जैसे class, jury, committee) जब विभाजित हो या उसके सदस्यों के अलग-अलग विचार हों (Noun of Multitude), तो क्रिया और सर्वनाम दोनों बहुवचन (Plural) होते हैं।",
+        "elimination_logic": "विभाजित अवस्था में 'were divided' सटीक पैसिव अवस्था को दर्शाता है। 'have divided' की जगह अवस्था दर्शाने के लिए 'were divided in their opinions' मानक प्रयोग है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0016",
+      "type": "mcq",
+      "questionText": "One of my friends ..... going abroad.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "been"
+        },
+        {
+          "id": "opt4",
+          "text": "being"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'One of + Plural Pronoun/Noun' में कर्ता 'One' होने के कारण Singular Verb 'is' का प्रयोग होगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'friends' को देखकर 'are' लगाना गलत है। 'been' और 'being' बिना सहायक क्रिया के नहीं आ सकते।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2015",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0016",
+        "originalId": 16,
+        "exam": "LDC HC 2015",
+        "year": 2015,
+        "concept": "'One of + Plural Pronoun/Noun' में कर्ता 'One' होने के कारण Singular Verb 'is' का प्रयोग होगा।",
+        "elimination_logic": "'friends' को देखकर 'are' लगाना गलत है। 'been' और 'being' बिना सहायक क्रिया के नहीं आ सकते।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0017",
+      "type": "mcq",
+      "questionText": "Every boy and girl ..... (be) ready to appear for the examination.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "being"
+        },
+        {
+          "id": "opt4",
+          "text": "been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nयदि दो संज्ञाएँ 'and' से जुड़ी हों लेकिन उनके पहले 'Each' या 'Every' लगा हो, तो वह हमेशा Singular माना जाता है और Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'boy and girl' देखकर 'were' लगाना गलत है। 'Every' के प्रभाव से क्रिया Singular 'was' होगी।",
+      "difficulty": "medium",
+      "reference": "LDC HC 2015",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0017",
+        "originalId": 17,
+        "exam": "LDC HC 2015",
+        "year": 2015,
+        "concept": "यदि दो संज्ञाएँ 'and' से जुड़ी हों लेकिन उनके पहले 'Each' या 'Every' लगा हो, तो वह हमेशा Singular माना जाता है और Singular Verb लेता है।",
+        "elimination_logic": "'boy and girl' देखकर 'were' लगाना गलत है। 'Every' के प्रभाव से क्रिया Singular 'was' होगी।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0018",
+      "type": "mcq",
+      "questionText": "Politics ..... an interesting subject.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nविषयों के नाम जो अंत में '-s' रखते हैं (जैसे Politics, Mathematics, Physics), वे अर्थ में एकवचन होते हैं और Singular Verb लेते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nदिखने में plural होने के बावजूद विषय का नाम होने से 'are/were' हट जाते हैं। सही उत्तर 'is' है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0018",
+        "originalId": 18,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "विषयों के नाम जो अंत में '-s' रखते हैं (जैसे Politics, Mathematics, Physics), वे अर्थ में एकवचन होते हैं और Singular Verb लेते हैं।",
+        "elimination_logic": "दिखने में plural होने के बावजूद विषय का नाम होने से 'are/were' हट जाते हैं। सही उत्तर 'is' है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0019",
+      "type": "mcq",
+      "questionText": "Eighty pounds a week ..... not a good wage.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nवेतन या धनराशि (Eighty pounds a week) जब एक निश्चित राशि/दर के रूप में संदर्भित हो, तो वह एकवचन मानी जाती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'pounds' बहुवचन है, लेकिन 'a week' के साथ मिलकर यह एक निश्चित मजदूरी (a good wage) की बात कर रहा है, अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0019",
+        "originalId": 19,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "वेतन या धनराशि (Eighty pounds a week) जब एक निश्चित राशि/दर के रूप में संदर्भित हो, तो वह एकवचन मानी जाती है।",
+        "elimination_logic": "'pounds' बहुवचन है, लेकिन 'a week' के साथ मिलकर यह एक निश्चित मजदूरी (a good wage) की बात कर रहा है, अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0020",
+      "type": "mcq",
+      "questionText": "The workers ..... worried about their jobs.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nसाधारण बहुवचन कर्ता 'The workers' (Plural Subject) के साथ Plural Verb 'are' का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'is' और 'was' एकवचन हैं। 'have worried' का अर्थ बदल जाता है, यहाँ 'worried' विशेषण (adjective) के रूप में स्थिति बता रहा है (are worried)।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0020",
+        "originalId": 20,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "साधारण बहुवचन कर्ता 'The workers' (Plural Subject) के साथ Plural Verb 'are' का प्रयोग होता है।",
+        "elimination_logic": "'is' और 'was' एकवचन हैं। 'have worried' का अर्थ बदल जाता है, यहाँ 'worried' विशेषण (adjective) के रूप में स्थिति बता रहा है (are worried)।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0021",
+      "type": "mcq",
+      "questionText": "The jeans you sent me ..... fit me.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "wasn't"
+        },
+        {
+          "id": "opt2",
+          "text": "doesn't"
+        },
+        {
+          "id": "opt3",
+          "text": "don't"
+        },
+        {
+          "id": "opt4",
+          "text": "isn't"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nकपड़ों और औजारों के दो भागों वाले नाम (Jeans, Trousers, Scissors, Pliers) हमेशा Plural माने जाते हैं और Plural Verb लेते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'wasn't', 'doesn't', और 'isn't' तीनों Singular हैं। 'Jeans' प्लूरल है और V1 'fit' के साथ नकारात्मक में 'don't fit' आएगा।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0021",
+        "originalId": 21,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "कपड़ों और औजारों के दो भागों वाले नाम (Jeans, Trousers, Scissors, Pliers) हमेशा Plural माने जाते हैं और Plural Verb लेते हैं।",
+        "elimination_logic": "'wasn't', 'doesn't', और 'isn't' तीनों Singular हैं। 'Jeans' प्लूरल है और V1 'fit' के साथ नकारात्मक में 'don't fit' आएगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0022",
+      "type": "mcq",
+      "questionText": "Twelve hundred rupees ..... our sales price.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनिश्चित कीमत (sales price) के रूप में धनराशि एकवचन मानी जाती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'rupees' के आधार पर 'are' चुनना परीक्षक का मुख्य ट्रैप है। पूरक शब्द 'our sales price' स्पष्ट करता है कि यह एक इकाई है, अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0022",
+        "originalId": 22,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "निश्चित कीमत (sales price) के रूप में धनराशि एकवचन मानी जाती है।",
+        "elimination_logic": "'rupees' के आधार पर 'are' चुनना परीक्षक का मुख्य ट्रैप है। पूरक शब्द 'our sales price' स्पष्ट करता है कि यह एक इकाई है, अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0023",
+      "type": "mcq",
+      "questionText": "Either the mayor or his deputy ..... bound to come.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Either... or' में क्रिया निकटतम कर्ता के अनुसार आती है। 'his deputy' Singular है, अतः Singular Verb आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'are', 'were' और 'have' सभी बहुवचन हैं, इसलिए सीधे बाहर हो जाते हैं।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0023",
+        "originalId": 23,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "'Either... or' में क्रिया निकटतम कर्ता के अनुसार आती है। 'his deputy' Singular है, अतः Singular Verb आएगी।",
+        "elimination_logic": "'are', 'were' और 'have' सभी बहुवचन हैं, इसलिए सीधे बाहर हो जाते हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0024",
+      "type": "mcq",
+      "questionText": "One of the boys ..... gone home.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "has"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'One of the + Plural Noun' के साथ Singular Verb आती है। वाक्य में V3 'gone' है, इसलिए 'has' का प्रयोग होगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'gone' (V3) के पहले 'are' या 'were' एक्टिव अर्थ में नहीं आ सकते। 'have' बहुवचन है, अतः 'has' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0024",
+        "originalId": 24,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "'One of the + Plural Noun' के साथ Singular Verb आती है। वाक्य में V3 'gone' है, इसलिए 'has' का प्रयोग होगा।",
+        "elimination_logic": "'gone' (V3) के पहले 'are' या 'were' एक्टिव अर्थ में नहीं आ सकते। 'have' बहुवचन है, अतः 'has' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0025",
+      "type": "mcq",
+      "questionText": "Renu, with her mother and sister ..... spending a month in London.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'with' से जुड़े रहने पर क्रिया मुख्य कर्ता 'Renu' (Singular) के अनुसार Singular होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nकोमा के बीच का भाग 'with her mother and sister' अतिरिक्त जानकारी (parenthetical) है, मुख्य कर्ता Renu है, अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0025",
+        "originalId": 25,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "'with' से जुड़े रहने पर क्रिया मुख्य कर्ता 'Renu' (Singular) के अनुसार Singular होगी।",
+        "elimination_logic": "कोमा के बीच का भाग 'with her mother and sister' अतिरिक्त जानकारी (parenthetical) है, मुख्य कर्ता Renu है, अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0026",
+      "type": "mcq",
+      "questionText": "What I say and what I think ..... my own affairs.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब दो Noun Clauses 'and' से जुड़कर दो अलग-अलग विचारों या कार्यों को दर्शाते हैं, तो क्रिया Plural होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nयहाँ दो अलग पहलू हैं: 'कहना' और 'सोचना'। 'affairs' (plural) भी संकेत देता है कि क्रिया Plural 'are' होगी।",
+      "difficulty": "medium",
+      "reference": "II Grade 2018",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0026",
+        "originalId": 26,
+        "exam": "II Grade 2018",
+        "year": 2018,
+        "concept": "जब दो Noun Clauses 'and' से जुड़कर दो अलग-अलग विचारों या कार्यों को दर्शाते हैं, तो क्रिया Plural होती है।",
+        "elimination_logic": "यहाँ दो अलग पहलू हैं: 'कहना' और 'सोचना'। 'affairs' (plural) भी संकेत देता है कि क्रिया Plural 'are' होगी।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0027",
+      "type": "mcq",
+      "questionText": "The news ..... true.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "had"
+        },
+        {
+          "id": "opt4",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'News' एक Uncountable Singular Noun है। अंत में 's' होने पर भी यह हमेशा Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'are' और 'have' बहुवचन हैं। 'had' के बाद 'true' (adjective) जोड़ने पर अर्थ अधूरा रहता है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0027",
+        "originalId": 27,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "'News' एक Uncountable Singular Noun है। अंत में 's' होने पर भी यह हमेशा Singular Verb लेता है।",
+        "elimination_logic": "'are' और 'have' बहुवचन हैं। 'had' के बाद 'true' (adjective) जोड़ने पर अर्थ अधूरा रहता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0028",
+      "type": "mcq",
+      "questionText": "Their means ..... simple.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "has"
+        },
+        {
+          "id": "opt4",
+          "text": "had"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब 'Means' का अर्थ 'आय/संसाधन' (wealth/resources/income) होता है, तो यह हमेशा Plural माना जाता है और Plural Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nयदि 'means' का अर्थ 'तरीका' (method/way) हो तब यह singular हो सकता है (e.g., this means of transport is...)। यहाँ जीवनयापन के साधन/संसाधनों की बात है, अतः 'are' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0028",
+        "originalId": 28,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "जब 'Means' का अर्थ 'आय/संसाधन' (wealth/resources/income) होता है, तो यह हमेशा Plural माना जाता है और Plural Verb लेता है।",
+        "elimination_logic": "यदि 'means' का अर्थ 'तरीका' (method/way) हो तब यह singular हो सकता है (e.g., this means of transport is...)। यहाँ जीवनयापन के साधन/संसाधनों की बात है, अतः 'are' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0029",
+      "type": "mcq",
+      "questionText": "A bunch of keys ..... lying on the table.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nCollective Noun 'A bunch of + Plural Noun' में गुच्छा (bunch) एक है, अतः क्रिया Singular होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'keys' को देखकर छात्र भ्रमित होते हैं, लेकिन कर्ता 'A bunch' है, इसलिए 'is' आएगा।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0029",
+        "originalId": 29,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "Collective Noun 'A bunch of + Plural Noun' में गुच्छा (bunch) एक है, अतः क्रिया Singular होगी।",
+        "elimination_logic": "'keys' को देखकर छात्र भ्रमित होते हैं, लेकिन कर्ता 'A bunch' है, इसलिए 'is' आएगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0030",
+      "type": "mcq",
+      "questionText": "All citrus fruits ..... a rich source of vitamin C.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "is"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'All citrus fruits' एक स्पष्ट बहुवचन कर्ता (Plural Subject) है, जो Plural Verb की मांग करता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'is', 'has', 'was' तीनों Singular हैं, इसलिए एकमात्र उपयुक्त विकल्प 'are' है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0030",
+        "originalId": 30,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "'All citrus fruits' एक स्पष्ट बहुवचन कर्ता (Plural Subject) है, जो Plural Verb की मांग करता है।",
+        "elimination_logic": "'is', 'has', 'was' तीनों Singular हैं, इसलिए एकमात्र उपयुक्त विकल्प 'are' है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0031",
+      "type": "mcq",
+      "questionText": "..... is lying on the table.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "A new pair of glasses"
+        },
+        {
+          "id": "opt2",
+          "text": "A new pair of glass"
+        },
+        {
+          "id": "opt3",
+          "text": "A new pairs of glass"
+        },
+        {
+          "id": "opt4",
+          "text": "New pair of glass"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nचश्मे के लिए 'glasses' शब्द का प्रयोग होता है (glass केवल सामग्री या कांच है)। 'A pair of' एकवचन को दर्शाता है, जो दी गई क्रिया 'is' के अनुकूल है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(b), (c), और (d) में 'glass' का गलत रूप प्रयुक्त है। सही शब्द 'glasses' केवल विकल्प (a) में है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0031",
+        "originalId": 31,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "चश्मे के लिए 'glasses' शब्द का प्रयोग होता है (glass केवल सामग्री या कांच है)। 'A pair of' एकवचन को दर्शाता है, जो दी गई क्रिया 'is' के अनुकूल है।",
+        "elimination_logic": "(b), (c), और (d) में 'glass' का गलत रूप प्रयुक्त है। सही शब्द 'glasses' केवल विकल्प (a) में है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0032",
+      "type": "mcq",
+      "questionText": "Neither of the students ..... interested in extra classes.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "have been"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "is"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither of + Plural Noun' औपचारिक मानक व्याकरण में हमेशा Singular माना जाता है और Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'were', 'have been' और 'are' तीनों Plural क्रियाएँ हैं। एकमात्र Singular विकल्प 'is' है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2017",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0032",
+        "originalId": 32,
+        "exam": "II Grade 2017",
+        "year": 2017,
+        "concept": "'Neither of + Plural Noun' औपचारिक मानक व्याकरण में हमेशा Singular माना जाता है और Singular Verb लेता है।",
+        "elimination_logic": "'were', 'have been' और 'are' तीनों Plural क्रियाएँ हैं। एकमात्र Singular विकल्प 'is' है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0033",
+      "type": "mcq",
+      "questionText": "One of my books ..... missing.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "has"
+        },
+        {
+          "id": "opt4",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'One of my books' में कर्ता 'One' है। वर्तमान स्थिति दर्शाने के लिए 'is missing' मानक प्रयोग है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'books' देखकर 'are' नहीं आएगा। 'has missing' व्याकरण की दृष्टि से अशुद्ध है। 'is' सबसे उपयुक्त है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2013",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0033",
+        "originalId": 33,
+        "exam": "II Grade 2013",
+        "year": 2013,
+        "concept": "'One of my books' में कर्ता 'One' है। वर्तमान स्थिति दर्शाने के लिए 'is missing' मानक प्रयोग है।",
+        "elimination_logic": "'books' देखकर 'are' नहीं आएगा। 'has missing' व्याकरण की दृष्टि से अशुद्ध है। 'is' सबसे उपयुक्त है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0034",
+      "type": "mcq",
+      "questionText": "The house with all its contents ..... insured.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'with' से जुड़े वाक्यांश (with all its contents) मुख्य कर्ता को प्रभावित नहीं करते। मुख्य कर्ता 'The house' (Singular) है, अतः Singular Verb 'was' आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'contents' (plural) को देखकर 'were' या 'are' लगाना परीक्षक का जाल है। कर्ता 'The house' होने से 'was' सही है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2013",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0034",
+        "originalId": 34,
+        "exam": "II Grade 2013",
+        "year": 2013,
+        "concept": "'with' से जुड़े वाक्यांश (with all its contents) मुख्य कर्ता को प्रभावित नहीं करते। मुख्य कर्ता 'The house' (Singular) है, अतः Singular Verb 'was' आएगी।",
+        "elimination_logic": "'contents' (plural) को देखकर 'were' या 'are' लगाना परीक्षक का जाल है। कर्ता 'The house' होने से 'was' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0035",
+      "type": "mcq",
+      "questionText": "Either he or I ..... mistaken.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "am"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "is"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Either... or' में जब दो अलग-अलग Person के सर्वनाम जुड़ते हैं, तो क्रिया निकटतम सर्वनाम (Nearest Subject - I) के अनुसार आती है। 'I' के साथ 'am' लगता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nनिकटतम कर्ता 'I' है, अतः 'is' या 'are' नहीं आ सकते। नियम के अनुसार 'am' ही सही उत्तर है।",
+      "difficulty": "medium",
+      "reference": "II Grade 2013",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0035",
+        "originalId": 35,
+        "exam": "II Grade 2013",
+        "year": 2013,
+        "concept": "'Either... or' में जब दो अलग-अलग Person के सर्वनाम जुड़ते हैं, तो क्रिया निकटतम सर्वनाम (Nearest Subject - I) के अनुसार आती है। 'I' के साथ 'am' लगता है।",
+        "elimination_logic": "निकटतम कर्ता 'I' है, अतः 'is' या 'are' नहीं आ सकते। नियम के अनुसार 'am' ही सही उत्तर है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0036",
+      "type": "mcq",
+      "questionText": "Fill in the blank in the sentence below choosing the most appropriate verb from the options given.\nEach of the students ..... responsible for maintaining the school garden.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "must"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "were"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Each of + Plural Noun' की संरचना में वास्तविक कर्ता 'Each' (एकवचन) होता है, जिसके साथ हमेशा Singular Verb का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'students' बहुवचन देखकर 'are' या 'were' चुनना गलत है। 'must' के बाद 'be' आवश्यक होता (must be responsible), अतः केवल 'is' व्याकरण सम्मत है।",
+      "difficulty": "medium",
+      "reference": "LDC 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0036",
+        "originalId": 36,
+        "exam": "LDC 2024",
+        "year": 2024,
+        "concept": "'Each of + Plural Noun' की संरचना में वास्तविक कर्ता 'Each' (एकवचन) होता है, जिसके साथ हमेशा Singular Verb का प्रयोग होता है।",
+        "elimination_logic": "'students' बहुवचन देखकर 'are' या 'were' चुनना गलत है। 'must' के बाद 'be' आवश्यक होता (must be responsible), अतः केवल 'is' व्याकरण सम्मत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0037",
+      "type": "mcq",
+      "questionText": "Select the most appropriate verb form to fill in the blank in the following sentence.\nNeither she nor I ..... getting the Trophy this year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "am"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither... nor' संयोजन में क्रिया निकटतम कर्ता (Proximity rule) के अनुसार प्रयुक्त होती है। यहाँ रिक्त स्थान के सबसे निकट कर्ता 'I' है, अतः 'am' आएगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'this year' वर्तमान संदर्भ को दर्शाता है, इसलिए 'was' नहीं आएगा। निकटतम कर्ता 'I' होने के कारण 'are' और 'is' सीधे बाहर हो जाते हैं।",
+      "difficulty": "medium",
+      "reference": "LDC 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0037",
+        "originalId": 37,
+        "exam": "LDC 2024",
+        "year": 2024,
+        "concept": "'Neither... nor' संयोजन में क्रिया निकटतम कर्ता (Proximity rule) के अनुसार प्रयुक्त होती है। यहाँ रिक्त स्थान के सबसे निकट कर्ता 'I' है, अतः 'am' आएगा।",
+        "elimination_logic": "'this year' वर्तमान संदर्भ को दर्शाता है, इसलिए 'was' नहीं आएगा। निकटतम कर्ता 'I' होने के कारण 'are' और 'is' सीधे बाहर हो जाते हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0038",
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence.\nThe judge concluded that (a)/ either the maid or the driver were (b)/ responsible for the murder. (c)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(c) only"
+        },
+        {
+          "id": "opt2",
+          "text": "No error"
+        },
+        {
+          "id": "opt3",
+          "text": "(a) only"
+        },
+        {
+          "id": "opt4",
+          "text": "(b) only"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Either... or' से जुड़े दो एकवचन कर्ताओं (the maid / the driver) में निकटतम कर्ता 'the driver' एकवचन है, इसलिए बहुवचन क्रिया 'were' के स्थान पर 'was' होना चाहिए।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nभाग (b) में 'were' का प्रयोग अशुद्ध है। अतः उत्तर विकल्प (D) है।",
+      "difficulty": "medium",
+      "reference": "LDC 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0038",
+        "originalId": 38,
+        "exam": "LDC 2024",
+        "year": 2024,
+        "concept": "'Either... or' से जुड़े दो एकवचन कर्ताओं (the maid / the driver) में निकटतम कर्ता 'the driver' एकवचन है, इसलिए बहुवचन क्रिया 'were' के स्थान पर 'was' होना चाहिए।",
+        "elimination_logic": "भाग (b) में 'were' का प्रयोग अशुद्ध है। अतः उत्तर विकल्प (D) है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0039",
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence.\nThe dazzle and glamour (a)/ of money and success (b)/ have gone to her head. (c)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(c) only"
+        },
+        {
+          "id": "opt2",
+          "text": "No error"
+        },
+        {
+          "id": "opt3",
+          "text": "(a) only"
+        },
+        {
+          "id": "opt4",
+          "text": "(b) only"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'The dazzle and glamour' एक ही समग्र विचार/प्रभाव (Single idea/notion) को व्यक्त करते हैं। जब दो संज्ञाएँ मिलकर एक ही भाव दर्शाती हैं, तो क्रिया एकवचन होती है। अतः 'have gone' की जगह 'has gone' आएगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nत्रुटि भाग (c) में क्रिया 'have gone' में है। आधिकारिक उत्तर कुंजी में (c) को अशुद्ध खंड माना गया है।",
+      "difficulty": "medium",
+      "reference": "LDC 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0039",
+        "originalId": 39,
+        "exam": "LDC 2024",
+        "year": 2024,
+        "concept": "'The dazzle and glamour' एक ही समग्र विचार/प्रभाव (Single idea/notion) को व्यक्त करते हैं। जब दो संज्ञाएँ मिलकर एक ही भाव दर्शाती हैं, तो क्रिया एकवचन होती है। अतः 'have gone' की जगह 'has gone' आएगा।",
+        "elimination_logic": "त्रुटि भाग (c) में क्रिया 'have gone' में है। आधिकारिक उत्तर कुंजी में (c) को अशुद्ध खंड माना गया है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0040",
+      "type": "mcq",
+      "questionText": "Choose the correct plural word from the list below.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "womans"
+        },
+        {
+          "id": "opt2",
+          "text": "mothers-in-law"
+        },
+        {
+          "id": "opt3",
+          "text": "sheeps"
+        },
+        {
+          "id": "opt4",
+          "text": "childrens"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nCompound Noun का बहुवचन बनाते समय मुख्य शब्द (Root word) में 's' जोड़ा जाता है (mother -> mothers-in-law)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'woman' का बहुवचन 'women' होता है। 'sheep' का बहुवचन 'sheep' ही रहता है। 'children' स्वयं बहुवचन है, अतः उसमें 's' नहीं लगता।",
+      "difficulty": "medium",
+      "reference": "Patwar 17 Aug, 2025, Shift-01",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0040",
+        "originalId": 40,
+        "exam": "Patwar 17 Aug, 2025, Shift-01",
+        "year": 2025,
+        "concept": "Compound Noun का बहुवचन बनाते समय मुख्य शब्द (Root word) में 's' जोड़ा जाता है (mother -> mothers-in-law)।",
+        "elimination_logic": "'woman' का बहुवचन 'women' होता है। 'sheep' का बहुवचन 'sheep' ही रहता है। 'children' स्वयं बहुवचन है, अतः उसमें 's' नहीं लगता।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0041",
+      "type": "mcq",
+      "questionText": "Choose the correct sentence in which the verb is in agreement with the subject -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The President and the Secretary was arrested."
+        },
+        {
+          "id": "opt2",
+          "text": "Patience as well as perseverance are necessary for success."
+        },
+        {
+          "id": "opt3",
+          "text": "Neither he nor his friends has broken the window pane."
+        },
+        {
+          "id": "opt4",
+          "text": "The wages of sin is death."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'The wages of sin is death' एक प्रसिद्ध बाइबिल संबंधी कहावत है जहाँ 'wages' का अर्थ 'परिणाम/फल' (result/consequence) होता है और यह Singular Verb 'is' लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प 1 में दो अलग व्यक्ति हैं ('The President and the Secretary'), अतः 'were' होना चाहिए। विकल्प 2 में 'as well as' के कारण 'Patience' के अनुसार 'is' होना चाहिए। विकल्प 3 में निकटतम कर्ता 'his friends' (Plural) होने से 'have' आना चाहिए।",
+      "difficulty": "medium",
+      "reference": "Grade 2nd Sanskrit dpt. 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0041",
+        "originalId": 41,
+        "exam": "Grade 2nd Sanskrit dpt. 2025",
+        "year": 2025,
+        "concept": "'The wages of sin is death' एक प्रसिद्ध बाइबिल संबंधी कहावत है जहाँ 'wages' का अर्थ 'परिणाम/फल' (result/consequence) होता है और यह Singular Verb 'is' लेता है।",
+        "elimination_logic": "विकल्प 1 में दो अलग व्यक्ति हैं ('The President and the Secretary'), अतः 'were' होना चाहिए। विकल्प 2 में 'as well as' के कारण 'Patience' के अनुसार 'is' होना चाहिए। विकल्प 3 में निकटतम कर्ता 'his friends' (Plural) होने से 'have' आना चाहिए।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0042",
+      "type": "mcq",
+      "questionText": "Choose the sentence with the correct subject-verb agreement -",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The Committee have made its decision."
+        },
+        {
+          "id": "opt2",
+          "text": "The Committee has made its decision."
+        },
+        {
+          "id": "opt3",
+          "text": "The Committee has made their decision."
+        },
+        {
+          "id": "opt4",
+          "text": "The Committee have made their decision."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब Collective Noun (Committee) एक इकाई (Unitary body) के रूप में सर्वसम्मति से निर्णय लेती है, तो क्रिया (has) और सर्वनाम (its) दोनों Singular होते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प 1 में Plural verb 'have' के साथ Singular pronoun 'its' का असंगत मेल है। विकल्प 3 में 'has' के साथ 'their' का असंगत मेल है।",
+      "difficulty": "medium",
+      "reference": "Grade 2nd Sanskrit dpt. 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0042",
+        "originalId": 42,
+        "exam": "Grade 2nd Sanskrit dpt. 2025",
+        "year": 2025,
+        "concept": "जब Collective Noun (Committee) एक इकाई (Unitary body) के रूप में सर्वसम्मति से निर्णय लेती है, तो क्रिया (has) और सर्वनाम (its) दोनों Singular होते हैं।",
+        "elimination_logic": "विकल्प 1 में Plural verb 'have' के साथ Singular pronoun 'its' का असंगत मेल है। विकल्प 3 में 'has' के साथ 'their' का असंगत मेल है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0043",
+      "type": "mcq",
+      "questionText": "Which sentence has the correct subject-verb agreement?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Neither of the boys has completed their homework."
+        },
+        {
+          "id": "opt2",
+          "text": "Neither of the boys has completed his homework."
+        },
+        {
+          "id": "opt3",
+          "text": "Neither of the boys have completed their homework."
+        },
+        {
+          "id": "opt4",
+          "text": "Neither of the boy has completed their homework."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither of + Plural Noun' औपचारिक व्याकरण में Singular माना जाता है, इसलिए इसके साथ Singular Verb 'has' और Singular Pronoun 'his' का ही प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प 1 में 'has' के साथ Plural pronoun 'their' गलत है। विकल्प 4 में 'of the' के बाद 'boy' (Singular) लिखना व्याकरण की दृष्टि से अशुद्ध है।",
+      "difficulty": "medium",
+      "reference": "Grade 2nd Sanskrit dpt. 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0043",
+        "originalId": 43,
+        "exam": "Grade 2nd Sanskrit dpt. 2025",
+        "year": 2025,
+        "concept": "'Neither of + Plural Noun' औपचारिक व्याकरण में Singular माना जाता है, इसलिए इसके साथ Singular Verb 'has' और Singular Pronoun 'his' का ही प्रयोग होता है।",
+        "elimination_logic": "विकल्प 1 में 'has' के साथ Plural pronoun 'their' गलत है। विकल्प 4 में 'of the' के बाद 'boy' (Singular) लिखना व्याकरण की दृष्टि से अशुद्ध है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0044",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the Verb that agrees with the subject in the sentence below-\nThe hammer and sickle ..... from a tall flag post.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was flew"
+        },
+        {
+          "id": "opt2",
+          "text": "is flying"
+        },
+        {
+          "id": "opt3",
+          "text": "was flying"
+        },
+        {
+          "id": "opt4",
+          "text": "has flew"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Hammer and sickle' एक संयुक्त प्रतीक (Single emblem/symbol) को दर्शाता है, अतः यह Singular Subject है और Singular Verb लेता है। आधिकारिक कुंजी के अनुसार 'is flying' मान्य किया गया है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'was flew' और 'has flew' दोनों अशुद्ध रूप हैं ('flew' V2 है, जबकि passive में V3 'flown' चाहिए)।",
+      "difficulty": "medium",
+      "reference": "Grade 2nd Sanskrit dpt. 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0044",
+        "originalId": 44,
+        "exam": "Grade 2nd Sanskrit dpt. 2025",
+        "year": 2025,
+        "concept": "'Hammer and sickle' एक संयुक्त प्रतीक (Single emblem/symbol) को दर्शाता है, अतः यह Singular Subject है और Singular Verb लेता है। आधिकारिक कुंजी के अनुसार 'is flying' मान्य किया गया है।",
+        "elimination_logic": "'was flew' और 'has flew' दोनों अशुद्ध रूप हैं ('flew' V2 है, जबकि passive में V3 'flown' चाहिए)।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0045",
+      "type": "mcq",
+      "questionText": "Choose the sentence that is grammatically correct:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Neither the students nor the teachers has completed his work."
+        },
+        {
+          "id": "opt2",
+          "text": "Neither the students nor the teacher have completed their work."
+        },
+        {
+          "id": "opt3",
+          "text": "Neither the students nor the teacher has completed the work."
+        },
+        {
+          "id": "opt4",
+          "text": "Neither the students nor the teacher have completed its work."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither... nor' में क्रिया निकटतम कर्ता के अनुसार आती है। 'the teacher' (Singular) होने के कारण Singular Verb 'has completed' सही है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प B और D में 'the teacher' के साथ plural verb 'have' लगाई गई है जो अशुद्ध है। विकल्प A में 'teachers' (Plural) के साथ 'has' लगाया गया है।",
+      "difficulty": "medium",
+      "reference": "NHM Pharma Assistant 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0045",
+        "originalId": 45,
+        "exam": "NHM Pharma Assistant 2025",
+        "year": 2025,
+        "concept": "'Neither... nor' में क्रिया निकटतम कर्ता के अनुसार आती है। 'the teacher' (Singular) होने के कारण Singular Verb 'has completed' सही है।",
+        "elimination_logic": "विकल्प B और D में 'the teacher' के साथ plural verb 'have' लगाई गई है जो अशुद्ध है। विकल्प A में 'teachers' (Plural) के साथ 'has' लगाया गया है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0046",
+      "type": "mcq",
+      "questionText": "Identify the sentence with correct subject verb concord-",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He go to temple every morning."
+        },
+        {
+          "id": "opt2",
+          "text": "They plays chess every night."
+        },
+        {
+          "id": "opt3",
+          "text": "The ironsmith beats the iron daily."
+        },
+        {
+          "id": "opt4",
+          "text": "They will study yesterday."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nThird Person Singular Subject ('The ironsmith') के साथ Present Indefinite में V1 + s/es ('beats') का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प A में 'He' के साथ 'goes' होना चाहिए। विकल्प B में 'They' के साथ 'play' होना चाहिए। विकल्प D में 'yesterday' के साथ 'will study' काल दोष (tense error) है।",
+      "difficulty": "easy",
+      "reference": "PTET 2 years 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0046",
+        "originalId": 46,
+        "exam": "PTET 2 years 2025",
+        "year": 2025,
+        "concept": "Third Person Singular Subject ('The ironsmith') के साथ Present Indefinite में V1 + s/es ('beats') का प्रयोग होता है।",
+        "elimination_logic": "विकल्प A में 'He' के साथ 'goes' होना चाहिए। विकल्प B में 'They' के साथ 'play' होना चाहिए। विकल्प D में 'yesterday' के साथ 'will study' काल दोष (tense error) है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0047",
+      "type": "mcq",
+      "questionText": "Select the part of the sentence that contains grammatical error -\nNew furniture were ordered for the primary classes.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "for the"
+        },
+        {
+          "id": "opt2",
+          "text": "primary classes"
+        },
+        {
+          "id": "opt3",
+          "text": "New furniture"
+        },
+        {
+          "id": "opt4",
+          "text": "were ordered"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Furniture' एक Uncountable Noun है, इसका बहुवचन नहीं बनता और यह सदैव Singular Verb लेता है। अतः 'were ordered' की जगह 'was ordered' होना चाहिए।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nत्रुटि सहायक क्रिया 'were ordered' में है, अतः विकल्प (D) सही उत्तर है।",
+      "difficulty": "medium",
+      "reference": "BSTC Paper-2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0047",
+        "originalId": 47,
+        "exam": "BSTC Paper-2024",
+        "year": 2024,
+        "concept": "'Furniture' एक Uncountable Noun है, इसका बहुवचन नहीं बनता और यह सदैव Singular Verb लेता है। अतः 'were ordered' की जगह 'was ordered' होना चाहिए।",
+        "elimination_logic": "त्रुटि सहायक क्रिया 'were ordered' में है, अतः विकल्प (D) सही उत्तर है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0048",
+      "type": "mcq",
+      "questionText": "Fill in the blanks with the most appropriate pair of words:\nBread and butter ..... a soldier's food while honour and glory ..... the reward he awaits.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are, are"
+        },
+        {
+          "id": "opt2",
+          "text": "was, is"
+        },
+        {
+          "id": "opt3",
+          "text": "is, is"
+        },
+        {
+          "id": "opt4",
+          "text": "is, were"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब 'and' से जुड़ी दो संज्ञाएँ मिलकर एक ही वस्तु, आहार या अमूर्त विचार व्यक्त करती हैं (जैसे Bread and butter = भोजन, Honour and glory = एक पुरस्कार), तो दोनों के साथ Singular Verb का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'food' और 'the reward' दोनों पूरक शब्द (complements) एकवचन हैं, जो स्पष्ट करते हैं कि दोनों खंडों में 'is, is' ही आएगा।",
+      "difficulty": "medium",
+      "reference": "संविदा लेखा सहायक भर्ती परीक्षा 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0048",
+        "originalId": 48,
+        "exam": "संविदा लेखा सहायक भर्ती परीक्षा 2024",
+        "year": 2024,
+        "concept": "जब 'and' से जुड़ी दो संज्ञाएँ मिलकर एक ही वस्तु, आहार या अमूर्त विचार व्यक्त करती हैं (जैसे Bread and butter = भोजन, Honour and glory = एक पुरस्कार), तो दोनों के साथ Singular Verb का प्रयोग होता है।",
+        "elimination_logic": "'food' और 'the reward' दोनों पूरक शब्द (complements) एकवचन हैं, जो स्पष्ट करते हैं कि दोनों खंडों में 'is, is' ही आएगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0049",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the correct option:\nEither you or she ..... presenting a paper.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "is to"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "is being"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Either... or' में क्रिया निकटतम कर्ता ('she' - Singular) के अनुसार Singular होगी। Continuous tense में 'is presenting' शुद्ध रूप है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'are' निकटतम कर्ता के अनुसार नहीं है। 'is to' के बाद V1 आता है (presenting नहीं)। अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "Grade 2nd Sanskrit dpt. 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0049",
+        "originalId": 49,
+        "exam": "Grade 2nd Sanskrit dpt. 2025",
+        "year": 2025,
+        "concept": "'Either... or' में क्रिया निकटतम कर्ता ('she' - Singular) के अनुसार Singular होगी। Continuous tense में 'is presenting' शुद्ध रूप है।",
+        "elimination_logic": "'are' निकटतम कर्ता के अनुसार नहीं है। 'is to' के बाद V1 आता है (presenting नहीं)। अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0050",
+      "type": "mcq",
+      "questionText": "..... is an incorrect sentence.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "He loved his work."
+        },
+        {
+          "id": "opt2",
+          "text": "It would be his last work."
+        },
+        {
+          "id": "opt3",
+          "text": "His arms grown heavy."
+        },
+        {
+          "id": "opt4",
+          "text": "He worked till his hands began to tremble."
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nअंग्रेजी वाक्य संरचना में Past Participle (grown - V3) बिना किसी सहायक क्रिया (auxiliary verb जैसे had/were) के मुख्य क्रिया के रूप में सीधा प्रयुक्त नहीं हो सकता। यहाँ 'grew' (V2) होना चाहिए।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प C में फाइनाइट वर्ब (finite verb) गायब होने के कारण वाक्य व्याकरण की दृष्टि से अमान्य है।",
+      "difficulty": "medium",
+      "reference": "REET (L1) 2024",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0050",
+        "originalId": 50,
+        "exam": "REET (L1) 2024",
+        "year": 2024,
+        "concept": "अंग्रेजी वाक्य संरचना में Past Participle (grown - V3) बिना किसी सहायक क्रिया (auxiliary verb जैसे had/were) के मुख्य क्रिया के रूप में सीधा प्रयुक्त नहीं हो सकता। यहाँ 'grew' (V2) होना चाहिए।",
+        "elimination_logic": "विकल्प C में फाइनाइट वर्ब (finite verb) गायब होने के कारण वाक्य व्याकरण की दृष्टि से अमान्य है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0051",
+      "type": "mcq",
+      "questionText": "Which of the following sentence is not correct?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "We had swum across the river before the sunset."
+        },
+        {
+          "id": "opt2",
+          "text": "The bus was hired by the ladies for its picnic."
+        },
+        {
+          "id": "opt3",
+          "text": "Our country needs a number of self-sacrificing and devoted political leaders."
+        },
+        {
+          "id": "opt4",
+          "text": "At last he was married to a poor girl."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nPronoun-Antecedent Agreement: यहाँ पिकनिक 'the ladies' (Plural, सजीव) की है, इसलिए सर्वनाम 'its' (निर्जीव/एकवचन) का प्रयोग गलत है; इसके स्थान पर 'their' होना चाहिए।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प B में सर्वनाम संबंधी अशुद्धि होने के कारण यह वाक्य सही नहीं है।",
+      "difficulty": "hard",
+      "reference": "BSTC Paper-2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0051",
+        "originalId": 51,
+        "exam": "BSTC Paper-2025",
+        "year": 2025,
+        "concept": "Pronoun-Antecedent Agreement: यहाँ पिकनिक 'the ladies' (Plural, सजीव) की है, इसलिए सर्वनाम 'its' (निर्जीव/एकवचन) का प्रयोग गलत है; इसके स्थान पर 'their' होना चाहिए।",
+        "elimination_logic": "विकल्प B में सर्वनाम संबंधी अशुद्धि होने के कारण यह वाक्य सही नहीं है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0052",
+      "type": "mcq",
+      "questionText": "Which is a correct sentence?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "I worked hard that fails."
+        },
+        {
+          "id": "opt2",
+          "text": "Failure resulted by working long."
+        },
+        {
+          "id": "opt3",
+          "text": "She and her mother is late."
+        },
+        {
+          "id": "opt4",
+          "text": "She as well as her brother is late."
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'as well as' से जुड़ने पर क्रिया प्रथम कर्ता ('She' - Singular) के अनुसार Singular 'is' होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प C में 'and' से दो कर्ता जुड़े हैं, अतः 'are' होना चाहिए था। विकल्प A और B व्याकरण और अर्थ की दृष्टि से असंगत हैं।",
+      "difficulty": "medium",
+      "reference": "BSTC Paper-2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0052",
+        "originalId": 52,
+        "exam": "BSTC Paper-2025",
+        "year": 2025,
+        "concept": "'as well as' से जुड़ने पर क्रिया प्रथम कर्ता ('She' - Singular) के अनुसार Singular 'is' होती है।",
+        "elimination_logic": "विकल्प C में 'and' से दो कर्ता जुड़े हैं, अतः 'are' होना चाहिए था। विकल्प A और B व्याकरण और अर्थ की दृष्टि से असंगत हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0053",
+      "type": "mcq",
+      "questionText": "Which of the following sentences is correct?",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "They decided to talk it over at dinner."
+        },
+        {
+          "id": "opt2",
+          "text": "He picked up the books and put it on the table."
+        },
+        {
+          "id": "opt3",
+          "text": "He will not escape punishment unless he does not speak the truth."
+        },
+        {
+          "id": "opt4",
+          "text": "Milk is the most perfect food in the world."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Talk it over' एक मान्य Phrasal Verb है जिसका अर्थ किसी विषय पर चर्चा करना होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nविकल्प B में 'books' (Plural) के लिए सर्वनाम 'it' लगाया गया है (them होना चाहिए)। विकल्प C में 'unless' के साथ 'does not' का दोहरा नकारात्मक प्रयोग (double negative) गलत है।",
+      "difficulty": "medium",
+      "reference": "BSTC Paper-2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0053",
+        "originalId": 53,
+        "exam": "BSTC Paper-2025",
+        "year": 2025,
+        "concept": "'Talk it over' एक मान्य Phrasal Verb है जिसका अर्थ किसी विषय पर चर्चा करना होता है।",
+        "elimination_logic": "विकल्प B में 'books' (Plural) के लिए सर्वनाम 'it' लगाया गया है (them होना चाहिए)। विकल्प C में 'unless' के साथ 'does not' का दोहरा नकारात्मक प्रयोग (double negative) गलत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0054",
+      "type": "mcq",
+      "questionText": "Choose the correct pairs from the options given below:\n(a) Thief - thieves\n(b) Loaf - Loafs\n(c) Piano - Pianoes\n(d) Lorry - Lorries\n(e) Syllabus - Syllabi",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(c), (d) and (e) Only"
+        },
+        {
+          "id": "opt2",
+          "text": "(a), (b) and (c) Only"
+        },
+        {
+          "id": "opt3",
+          "text": "(b), (c) and (d) Only"
+        },
+        {
+          "id": "opt4",
+          "text": "(a), (d) and (e) Only"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nसंज्ञाओं के बहुवचन रूप: Thief -> thieves, Lorry -> lorries, Syllabus -> syllabi मान्य हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Loaf' का बहुवचन 'loaves' होता है (Loafs गलत है) और 'Piano' का 'pianos' होता है (Pianoes गलत है)। अतः (b) और (c) अशुद्ध हैं।",
+      "difficulty": "medium",
+      "reference": "Conductor Exam 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0054",
+        "originalId": 54,
+        "exam": "Conductor Exam 2025",
+        "year": 2025,
+        "concept": "संज्ञाओं के बहुवचन रूप: Thief -> thieves, Lorry -> lorries, Syllabus -> syllabi मान्य हैं।",
+        "elimination_logic": "'Loaf' का बहुवचन 'loaves' होता है (Loafs गलत है) और 'Piano' का 'pianos' होता है (Pianoes गलत है)। अतः (b) और (c) अशुद्ध हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0055",
+      "type": "mcq",
+      "questionText": "Fill in the correct form of the Noun:\nOur ..... are wearing their new jerseys.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "team's"
+        },
+        {
+          "id": "opt2",
+          "text": "team"
+        },
+        {
+          "id": "opt3",
+          "text": "teamings"
+        },
+        {
+          "id": "opt4",
+          "text": "teems"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nCollective Noun 'team' जब अपने अलग-अलग सदस्यों के रूप में कार्य करती है (Noun of Multitude - 'their new jerseys' से स्पष्ट है), तो यह बहुवचन क्रिया 'are' लेती है, परंतु संज्ञा का रूप 'team' ही रहता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'team's' संबंध कारक (Possessive) है जिसकी यहाँ आवश्यकता नहीं है। 'teamings' कोई शब्द नहीं है और 'teems' एक क्रिया (verb) है।",
+      "difficulty": "hard",
+      "reference": "Raj. Assistant Professor 2025",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0055",
+        "originalId": 55,
+        "exam": "Raj. Assistant Professor 2025",
+        "year": 2025,
+        "concept": "Collective Noun 'team' जब अपने अलग-अलग सदस्यों के रूप में कार्य करती है (Noun of Multitude - 'their new jerseys' से स्पष्ट है), तो यह बहुवचन क्रिया 'are' लेती है, परंतु संज्ञा का रूप 'team' ही रहता है।",
+        "elimination_logic": "'team's' संबंध कारक (Possessive) है जिसकी यहाँ आवश्यकता नहीं है। 'teamings' कोई शब्द नहीं है और 'teems' एक क्रिया (verb) है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0056",
+      "type": "mcq",
+      "questionText": "Pick the correct form of possessive case:",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The table's leg"
+        },
+        {
+          "id": "opt2",
+          "text": "Childrens' books"
+        },
+        {
+          "id": "opt3",
+          "text": "Girls' school"
+        },
+        {
+          "id": "opt4",
+          "text": "The Bhutan's King's Visit"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nबहुवचन शब्द जो '-s' पर समाप्त होते हैं, उनमें सम्बन्ध कारक (Possessive) दर्शाने के लिए केवल अंत में apostrophe (') लगाया जाता है (Girls -> Girls')।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nनिर्जीव वस्तुओं के साथ apostrophe s नहीं लगता ('The leg of the table' सही होता)। 'Children' में 's' नहीं होता, अतः 'Children's' लिखा जाता है।",
+      "difficulty": "medium",
+      "reference": "REET Mains/Grade 3rd L-2 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0056",
+        "originalId": 56,
+        "exam": "REET Mains/Grade 3rd L-2 2026",
+        "year": 2026,
+        "concept": "बहुवचन शब्द जो '-s' पर समाप्त होते हैं, उनमें सम्बन्ध कारक (Possessive) दर्शाने के लिए केवल अंत में apostrophe (') लगाया जाता है (Girls -> Girls')।",
+        "elimination_logic": "निर्जीव वस्तुओं के साथ apostrophe s नहीं लगता ('The leg of the table' सही होता)। 'Children' में 's' नहीं होता, अतः 'Children's' लिखा जाता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0057",
+      "type": "mcq",
+      "questionText": "Identify the incorrect form of word:\nBEGIN\n(a) Beginning (gerund)\n(b) Beginner (noun)\n(c) Beginning (noun)\n(d) Began (participle)\n(e) Begun (past participle)",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(b), (c) only"
+        },
+        {
+          "id": "opt2",
+          "text": "(a), (c) only"
+        },
+        {
+          "id": "opt3",
+          "text": "(d), (e) only"
+        },
+        {
+          "id": "opt4",
+          "text": "(d) only"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Began' क्रिया का Past Tense (V2) रूप है, यह Participle (कृदंत) नहीं है। Past Participle रूप 'Begun' (V3) होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nकेवल (d) में 'Began' को participle कहा गया है जो व्याकरण सम्मत नहीं है।",
+      "difficulty": "medium",
+      "reference": "REET Mains/Grade 3rd L-2 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0057",
+        "originalId": 57,
+        "exam": "REET Mains/Grade 3rd L-2 2026",
+        "year": 2026,
+        "concept": "'Began' क्रिया का Past Tense (V2) रूप है, यह Participle (कृदंत) नहीं है। Past Participle रूप 'Begun' (V3) होता है।",
+        "elimination_logic": "केवल (d) में 'Began' को participle कहा गया है जो व्याकरण सम्मत नहीं है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0058",
+      "type": "mcq",
+      "questionText": "He said, \"no sooner, .....\n(a) the station\n(b) reached\n(c) I\n(d) had\n(e) than the train departed.\"",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(d), (c), (b), ( ), (a)"
+        },
+        {
+          "id": "opt2",
+          "text": "(c), (d), (b), (a), (e)"
+        },
+        {
+          "id": "opt3",
+          "text": "(d), (c), (b), (a), (e)"
+        },
+        {
+          "id": "opt4",
+          "text": "(c), (d), (b), (e), (a)"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'No sooner' से वाक्य शुरू होने पर Inversion होता है (No sooner + had + Subject + V3 + object + than...)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nक्रम 'had (d) + I (c) + reached (b) + the station (a) + than the train departed (e)' बनेगा।",
+      "difficulty": "hard",
+      "reference": "REET Mains/Grade 3rd L-2 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0058",
+        "originalId": 58,
+        "exam": "REET Mains/Grade 3rd L-2 2026",
+        "year": 2026,
+        "concept": "नियम: 'No sooner' से वाक्य शुरू होने पर Inversion होता है (No sooner + had + Subject + V3 + object + than...)।",
+        "elimination_logic": "क्रम 'had (d) + I (c) + reached (b) + the station (a) + than the train departed (e)' बनेगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0059",
+      "type": "mcq",
+      "questionText": "I begged .....\n(a) some\n(b) of\n(c) for\n(d) him\n(e) rice",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "(b), (d), (c), (a), (e)"
+        },
+        {
+          "id": "opt2",
+          "text": "(c), (a), (e), (b), (d)"
+        },
+        {
+          "id": "opt3",
+          "text": "(d), (c), (a), (b), (e)"
+        },
+        {
+          "id": "opt4",
+          "text": "(a), (b), (e), (c), (d)"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nमानक मुहावरेदार प्रयोग: 'to beg of someone for something'। क्रम होगा: begged of (b) + him (d) + for (c) + some (a) + rice (e)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nसंरचना 'begged of him for some rice' विकल्प (A) के क्रम को संतुष्ट करती है।",
+      "difficulty": "medium",
+      "reference": "REET Mains/Grade 3rd L-2 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0059",
+        "originalId": 59,
+        "exam": "REET Mains/Grade 3rd L-2 2026",
+        "year": 2026,
+        "concept": "मानक मुहावरेदार प्रयोग: 'to beg of someone for something'। क्रम होगा: begged of (b) + him (d) + for (c) + some (a) + rice (e)।",
+        "elimination_logic": "संरचना 'begged of him for some rice' विकल्प (A) के क्रम को संतुष्ट करती है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0060",
+      "type": "mcq",
+      "questionText": "Fill in the blank with correct option:\nThe news ..... true. The ship, with its crew, ..... lost.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are, was"
+        },
+        {
+          "id": "opt2",
+          "text": "is, were"
+        },
+        {
+          "id": "opt3",
+          "text": "are, were"
+        },
+        {
+          "id": "opt4",
+          "text": "is, was"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'News' Uncountable Noun होने के कारण 'is' लेगा। दूसरे वाक्य में 'with its crew' मुख्य कर्ता 'The ship' (Singular) को नहीं बदलता, अतः क्रिया 'was' आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nदोनों ही रिक्त स्थानों में Singular Verbs (is, was) की आवश्यकता है, जो केवल विकल्प (D) में उपलब्ध है।",
+      "difficulty": "medium",
+      "reference": "REET Mains/Grade 3rd L-2 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0060",
+        "originalId": 60,
+        "exam": "REET Mains/Grade 3rd L-2 2026",
+        "year": 2026,
+        "concept": "'News' Uncountable Noun होने के कारण 'is' लेगा। दूसरे वाक्य में 'with its crew' मुख्य कर्ता 'The ship' (Singular) को नहीं बदलता, अतः क्रिया 'was' आएगी।",
+        "elimination_logic": "दोनों ही रिक्त स्थानों में Singular Verbs (is, was) की आवश्यकता है, जो केवल विकल्प (D) में उपलब्ध है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0061",
+      "type": "mcq",
+      "questionText": "Fill in the blank with appropriate verb in agreement with its subject -\nMany a man ..... done so.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have"
+        },
+        {
+          "id": "opt2",
+          "text": "had"
+        },
+        {
+          "id": "opt3",
+          "text": "having"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'Many a + Singular Noun + Singular Verb'। अतः 'Many a man' के साथ 'has' का प्रयोग होगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'have' बहुवचन है। सामान्य वर्तमान पूर्ण काल (Present Perfect) के संदर्भ में 'has' सर्वाधिक उपयुक्त विकल्प है।",
+      "difficulty": "medium",
+      "reference": "1st grade (English) 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0061",
+        "originalId": 61,
+        "exam": "1st grade (English) 2026",
+        "year": 2026,
+        "concept": "नियम: 'Many a + Singular Noun + Singular Verb'। अतः 'Many a man' के साथ 'has' का प्रयोग होगा।",
+        "elimination_logic": "'have' बहुवचन है। सामान्य वर्तमान पूर्ण काल (Present Perfect) के संदर्भ में 'has' सर्वाधिक उपयुक्त विकल्प है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0062",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the correct option -\nOne in ten ..... drugs.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "take"
+        },
+        {
+          "id": "opt2",
+          "text": "has taken"
+        },
+        {
+          "id": "opt3",
+          "text": "takes"
+        },
+        {
+          "id": "opt4",
+          "text": "does take"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'One in ten' या 'One out of ten' में मुख्य कर्ता 'One' (Singular) होता है, जिसके साथ Singular Verb (V1 + s/es) का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'ten' को देखकर 'take' (Plural) चुनना आम गलती है। नियमित आदत/तथ्य दर्शाने के लिए Present Indefinite में 'takes' शुद्ध है।",
+      "difficulty": "medium",
+      "reference": "1st grade (English) 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0062",
+        "originalId": 62,
+        "exam": "1st grade (English) 2026",
+        "year": 2026,
+        "concept": "'One in ten' या 'One out of ten' में मुख्य कर्ता 'One' (Singular) होता है, जिसके साथ Singular Verb (V1 + s/es) का प्रयोग होता है।",
+        "elimination_logic": "'ten' को देखकर 'take' (Plural) चुनना आम गलती है। नियमित आदत/तथ्य दर्शाने के लिए Present Indefinite में 'takes' शुद्ध है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0063",
+      "type": "mcq",
+      "questionText": "Select the most appropriate plural of 'child'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Childs"
+        },
+        {
+          "id": "opt2",
+          "text": "Childrens"
+        },
+        {
+          "id": "opt3",
+          "text": "Children"
+        },
+        {
+          "id": "opt4",
+          "text": "Childes"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Child' का Irregular Plural रूप 'Children' होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Childs', 'Childrens' और 'Childes' अमान्य शब्द रूप हैं।",
+      "difficulty": "easy",
+      "reference": "LDC 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0063",
+        "originalId": 63,
+        "exam": "LDC 2026",
+        "year": 2026,
+        "concept": "'Child' का Irregular Plural रूप 'Children' होता है।",
+        "elimination_logic": "'Childs', 'Childrens' और 'Childes' अमान्य शब्द रूप हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0064",
+      "type": "mcq",
+      "questionText": "Which of the following sentences are grammatically correct?\na. Each of the players was given a prize.\nb. Each of the players were given a prize.\nc. Each player was given a prize.\nd. Each players was given a prize.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a and d"
+        },
+        {
+          "id": "opt2",
+          "text": "a and c"
+        },
+        {
+          "id": "opt3",
+          "text": "a, c and d"
+        },
+        {
+          "id": "opt4",
+          "text": "b only"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Each of the + Plural Noun + Singular Verb' (वाक्य a सही है)। 'Each + Singular Noun + Singular Verb' (वाक्य c सही है)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nवाक्य b में 'were' (Plural verb) गलत है। वाक्य d में 'Each' के तुरंत बाद 'players' (Plural noun) का प्रयोग गलत है।",
+      "difficulty": "medium",
+      "reference": "LDC 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0064",
+        "originalId": 64,
+        "exam": "LDC 2026",
+        "year": 2026,
+        "concept": "'Each of the + Plural Noun + Singular Verb' (वाक्य a सही है)। 'Each + Singular Noun + Singular Verb' (वाक्य c सही है)।",
+        "elimination_logic": "वाक्य b में 'were' (Plural verb) गलत है। वाक्य d में 'Each' के तुरंत बाद 'players' (Plural noun) का प्रयोग गलत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0065",
+      "type": "mcq",
+      "questionText": "Select the sentences that are grammatically correct.\na. Hardly he had reached the station when the train left.\nb. Hardly had he reached the station when the train left.\nc. The train left before he reached the station hardly.\nd. No sooner had he reached the station than the train left.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "a, c and d"
+        },
+        {
+          "id": "opt2",
+          "text": "b, c and d"
+        },
+        {
+          "id": "opt3",
+          "text": "a, b and d"
+        },
+        {
+          "id": "opt4",
+          "text": "b and d"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनकारात्मक संयोजनों (Hardly/No sooner) से वाक्य प्रारंभ होने पर Inversion (Auxiliary verb + Subject) अनिवार्य होता है। Hardly के साथ 'when' और No sooner के साथ 'than' का जोड़ा बनता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nवाक्य a में inversion नहीं हुआ है (Hardly he had गलत है)। वाक्य c में Hardly का स्थान अनुचित है। अतः केवल b और d सही हैं।",
+      "difficulty": "hard",
+      "reference": "LDC 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0065",
+        "originalId": 65,
+        "exam": "LDC 2026",
+        "year": 2026,
+        "concept": "नकारात्मक संयोजनों (Hardly/No sooner) से वाक्य प्रारंभ होने पर Inversion (Auxiliary verb + Subject) अनिवार्य होता है। Hardly के साथ 'when' और No sooner के साथ 'than' का जोड़ा बनता है।",
+        "elimination_logic": "वाक्य a में inversion नहीं हुआ है (Hardly he had गलत है)। वाक्य c में Hardly का स्थान अनुचित है। अतः केवल b और d सही हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0066",
+      "type": "mcq",
+      "questionText": "Rohit as well as my sister ..... in college now.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "am"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'as well as' से जुड़ने पर क्रिया प्रथम कर्ता ('Rohit' - Singular) के अनुसार प्रयुक्त होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Rohit' एकवचन है, अतः 'is' सही है। 'has' के बाद 'in college' स्थिति नहीं दर्शाता।",
+      "difficulty": "easy",
+      "reference": "PTET 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0066",
+        "originalId": 66,
+        "exam": "PTET 2026",
+        "year": 2026,
+        "concept": "'as well as' से जुड़ने पर क्रिया प्रथम कर्ता ('Rohit' - Singular) के अनुसार प्रयुक्त होती है।",
+        "elimination_logic": "'Rohit' एकवचन है, अतः 'is' सही है। 'has' के बाद 'in college' स्थिति नहीं दर्शाता।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0067",
+      "type": "mcq",
+      "questionText": "Add suitable form of \"Be\" Verb -\nNeither Seema nor Mohan ..... there.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "being"
+        },
+        {
+          "id": "opt4",
+          "text": "been"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither... nor' में निकटतम कर्ता 'Mohan' (Singular) होने के कारण क्रिया एकवचन 'was' होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'were' बहुवचन है। 'being' और 'been' बिना सहायक क्रिया के मुख्य क्रिया नहीं बन सकते।",
+      "difficulty": "medium",
+      "reference": "PTET 2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0067",
+        "originalId": 67,
+        "exam": "PTET 2026",
+        "year": 2026,
+        "concept": "'Neither... nor' में निकटतम कर्ता 'Mohan' (Singular) होने के कारण क्रिया एकवचन 'was' होगी।",
+        "elimination_logic": "'were' बहुवचन है। 'being' और 'been' बिना सहायक क्रिया के मुख्य क्रिया नहीं बन सकते।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0068",
+      "type": "mcq",
+      "questionText": "Which of the following countable nouns have the same form for both singular and plural?\ni. sheep\nii. bison\niii. mouse\niv. salmon",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Only ii"
+        },
+        {
+          "id": "opt2",
+          "text": "i and ii"
+        },
+        {
+          "id": "opt3",
+          "text": "ii and iii"
+        },
+        {
+          "id": "opt4",
+          "text": "i, ii and iv"
+        }
+      ],
+      "correctAnswer": "opt4",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nSheep, bison और salmon ऐसी संज्ञाएँ हैं जिनका एकवचन और बहुवचन रूप समान रहता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'mouse' का बहुवचन 'mice' होता है (समान नहीं रहता)। अतः iii को छोड़कर शेष सभी (i, ii, iv) सही हैं।",
+      "difficulty": "medium",
+      "reference": "2nd grade English, 17.07.2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0068",
+        "originalId": 68,
+        "exam": "2nd grade English, 17.07.2026",
+        "year": 2026,
+        "concept": "Sheep, bison और salmon ऐसी संज्ञाएँ हैं जिनका एकवचन और बहुवचन रूप समान रहता है।",
+        "elimination_logic": "'mouse' का बहुवचन 'mice' होता है (समान नहीं रहता)। अतः iii को छोड़कर शेष सभी (i, ii, iv) सही हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0069",
+      "type": "mcq",
+      "questionText": "Choose the correct sentences from the options given below:\nA. He gave me an advice.\nB. He gave me some advice.\nC. The sceneries here are very good.\nD. The scenery here is very good.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "B and D"
+        },
+        {
+          "id": "opt2",
+          "text": "A and D"
+        },
+        {
+          "id": "opt3",
+          "text": "C and D"
+        },
+        {
+          "id": "opt4",
+          "text": "A and C"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Advice' और 'Scenery' दोनों Uncountable Nouns हैं। इनके साथ 'an' या बहुवचन '-ies' (sceneries) का प्रयोग अमान्य है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nवाक्य A में 'an advice' गलत है। वाक्य C में 'sceneries' गलत है। इसलिए केवल B और D शुद्ध हैं।",
+      "difficulty": "medium",
+      "reference": "2nd grade English, 17.07.2026",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0069",
+        "originalId": 69,
+        "exam": "2nd grade English, 17.07.2026",
+        "year": 2026,
+        "concept": "'Advice' और 'Scenery' दोनों Uncountable Nouns हैं। इनके साथ 'an' या बहुवचन '-ies' (sceneries) का प्रयोग अमान्य है।",
+        "elimination_logic": "वाक्य A में 'an advice' गलत है। वाक्य C में 'sceneries' गलत है। इसलिए केवल B और D शुद्ध हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0070",
+      "type": "mcq",
+      "questionText": "Fill in the blank with the correct option:\nNeither the teacher nor the students ..... convinced by the new grading policy.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither... nor' संयोजन में क्रिया हमेशा निकटतम कर्ता (Proximity rule) के अनुसार आती है। यहाँ रिक्त स्थान के सबसे करीब 'the students' (Plural Noun) है, अतः Plural Verb का प्रयोग होगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'was', 'is' और 'has been' तीनों Singular Verbs हैं। निकटतम कर्ता बहुवचन होने के कारण केवल 'were' ही व्याकरण सम्मत है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0070",
+        "originalId": 70,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Neither... nor' संयोजन में क्रिया हमेशा निकटतम कर्ता (Proximity rule) के अनुसार आती है। यहाँ रिक्त स्थान के सबसे करीब 'the students' (Plural Noun) है, अतः Plural Verb का प्रयोग होगा।",
+        "elimination_logic": "'was', 'is' और 'has been' तीनों Singular Verbs हैं। निकटतम कर्ता बहुवचन होने के कारण केवल 'were' ही व्याकरण सम्मत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0071",
+      "type": "mcq",
+      "questionText": "Choose the grammatically correct option:\nNot only the principal but also the lecturers ..... present at the seminar.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Not only... but also' में भी क्रिया 'but also' के बाद आने वाले निकटतम कर्ता के अनुसार तय होती है। 'lecturers' बहुवचन है, अतः Plural Verb आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'principal' (Singular) को देखकर 'was' या 'is' लगाना परीक्षार्थी के लिए मुख्य ट्रैप है। नियम निकटतम कर्ता का है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0071",
+        "originalId": 71,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Not only... but also' में भी क्रिया 'but also' के बाद आने वाले निकटतम कर्ता के अनुसार तय होती है। 'lecturers' बहुवचन है, अतः Plural Verb आएगी।",
+        "elimination_logic": "'principal' (Singular) को देखकर 'was' या 'is' लगाना परीक्षार्थी के लिए मुख्य ट्रैप है। नियम निकटतम कर्ता का है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0072",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nMore than one officer ..... found guilty of negligence in duty.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'More than one + Singular Noun + Singular Verb'। भले ही अर्थ बहुवचन का निकले, वाक्य का रूप (form) एकवचन का होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nपरीक्षार्थी अर्थ 'एक से अधिक' समझकर 'were' चुनते हैं, परंतु व्याकरणिक रूप से 'More than one officer was' ही मान्य है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0072",
+        "originalId": 72,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "नियम: 'More than one + Singular Noun + Singular Verb'। भले ही अर्थ बहुवचन का निकले, वाक्य का रूप (form) एकवचन का होता है।",
+        "elimination_logic": "परीक्षार्थी अर्थ 'एक से अधिक' समझकर 'were' चुनते हैं, परंतु व्याकरणिक रूप से 'More than one officer was' ही मान्य है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0073",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nMore officers than one ..... involved in the scandal.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'More + Plural Noun + than one + Plural Verb'। यहाँ मुख्य कर्ता 'More officers' है, अतः क्रिया बहुवचन होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nरिक्त स्थान से ठीक पहले 'one' देखकर छात्र 'was' चुन लेते हैं, जबकि मुख्य कर्ता 'More officers' बहुवचन है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0073",
+        "originalId": 73,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "नियम: 'More + Plural Noun + than one + Plural Verb'। यहाँ मुख्य कर्ता 'More officers' है, अतः क्रिया बहुवचन होगी।",
+        "elimination_logic": "रिक्त स्थान से ठीक पहले 'one' देखकर छात्र 'was' चुन लेते हैं, जबकि मुख्य कर्ता 'More officers' बहुवचन है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0074",
+      "type": "mcq",
+      "questionText": "Select the correct option:\nThe percentage of successful candidates ..... increased significantly this year.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have"
+        },
+        {
+          "id": "opt2",
+          "text": "has"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "were"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'The percentage of' के बाद चाहे Noun plural हो, मुख्य कर्ता 'percentage' (एकवचन) होता है और यह हमेशा Singular Verb लेता है। (नोट: केवल 'A percent of' में संज्ञा के अनुसार क्रिया बदलती है)।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'candidates' बहुवचन होने के बावजूद कर्ता 'The percentage' है, अतः 'have/are/were' सीधे बाहर हो जाते हैं।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0074",
+        "originalId": 74,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'The percentage of' के बाद चाहे Noun plural हो, मुख्य कर्ता 'percentage' (एकवचन) होता है और यह हमेशा Singular Verb लेता है। (नोट: केवल 'A percent of' में संज्ञा के अनुसार क्रिया बदलती है)।",
+        "elimination_logic": "'candidates' बहुवचन होने के बावजूद कर्ता 'The percentage' है, अतः 'have/are/were' सीधे बाहर हो जाते हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0075",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nTen percent of the equipment ..... damaged during transit.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nप्रतिशत या अंश (Percentage / Fraction) वाले वाक्यों में 'of' के बाद आने वाली संज्ञा के अनुसार क्रिया आती है। 'Equipment' एक Uncountable Noun है, अतः क्रिया Singular होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Ten percent' देखकर छात्र बहुवचन समझ लेते हैं, लेकिन मात्रा Uncountable Noun (equipment) की है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0075",
+        "originalId": 75,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "प्रतिशत या अंश (Percentage / Fraction) वाले वाक्यों में 'of' के बाद आने वाली संज्ञा के अनुसार क्रिया आती है। 'Equipment' एक Uncountable Noun है, अतः क्रिया Singular होगी।",
+        "elimination_logic": "'Ten percent' देखकर छात्र बहुवचन समझ लेते हैं, लेकिन मात्रा Uncountable Noun (equipment) की है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0076",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nA number of rare artifacts ..... stolen from the museum.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'A number of + Plural Noun' का अर्थ 'कई' (Many) होता है, इसलिए यह हमेशा Plural Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'The number of' निश्चित संख्या दर्शाता है और Singular लेता है, जबकि 'A number of' अनिश्चित बहुवचन दर्शाता है और Plural लेता है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0076",
+        "originalId": 76,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'A number of + Plural Noun' का अर्थ 'कई' (Many) होता है, इसलिए यह हमेशा Plural Verb लेता है।",
+        "elimination_logic": "'The number of' निश्चित संख्या दर्शाता है और Singular लेता है, जबकि 'A number of' अनिश्चित बहुवचन दर्शाता है और Plural लेता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0077",
+      "type": "mcq",
+      "questionText": "Choose the correct verb:\nThe number of applicants for the post ..... astonishingly high.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'The number of + Plural Noun' एक निश्चित संख्या (Single figure) को दर्शाता है, अतः यह Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'applicants' को देखकर 'are/were' चुनना गलत है। मुख्य कर्ता 'The number' (एकवचन) है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0077",
+        "originalId": 77,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'The number of + Plural Noun' एक निश्चित संख्या (Single figure) को दर्शाता है, अतः यह Singular Verb लेता है।",
+        "elimination_logic": "'applicants' को देखकर 'are/were' चुनना गलत है। मुख्य कर्ता 'The number' (एकवचन) है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0078",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nHe is one of the doctors who ..... relentlessly for poor patients.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "works"
+        },
+        {
+          "id": "opt2",
+          "text": "work"
+        },
+        {
+          "id": "opt3",
+          "text": "working"
+        },
+        {
+          "id": "opt4",
+          "text": "is working"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nRelative Pronoun (who/which/that) के बाद आने वाली क्रिया उसके पूर्ववर्ती (Antecedent) के अनुसार होती है। यहाँ 'who' का Antecedent 'doctors' (Plural) है, अतः Plural Verb 'work' (V1) आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nशुरुआत में 'He is one' देखकर छात्र 'works' चुनते हैं, लेकिन Relative Pronoun 'who' यहाँ 'doctors' को संदर्भित करता है।",
+      "difficulty": "hard",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0078",
+        "originalId": 78,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "Relative Pronoun (who/which/that) के बाद आने वाली क्रिया उसके पूर्ववर्ती (Antecedent) के अनुसार होती है। यहाँ 'who' का Antecedent 'doctors' (Plural) है, अतः Plural Verb 'work' (V1) आएगी।",
+        "elimination_logic": "शुरुआत में 'He is one' देखकर छात्र 'works' चुनते हैं, लेकिन Relative Pronoun 'who' यहाँ 'doctors' को संदर्भित करता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0079",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nThis is the only one of his books that ..... worth reading.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nयदि 'one of' से पहले 'the only' लग जाए ('the only one of... that'), तो Relative Pronoun के बाद क्रिया हमेशा Singular होती है क्योंकि बात केवल उस एकमात्र वस्तु की हो रही है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'books' प्लूरल होने पर भी 'the only one' के विशिष्ट नियम के तहत क्रिया 'is' होगी।",
+      "difficulty": "hard",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0079",
+        "originalId": 79,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "यदि 'one of' से पहले 'the only' लग जाए ('the only one of... that'), तो Relative Pronoun के बाद क्रिया हमेशा Singular होती है क्योंकि बात केवल उस एकमात्र वस्तु की हो रही है।",
+        "elimination_logic": "'books' प्लूरल होने पर भी 'the only one' के विशिष्ट नियम के तहत क्रिया 'is' होगी।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0080",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nEach boy and each girl ..... given a certificate of merit.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nयदि दो संज्ञाएँ 'and' से जुड़ी हों और दोनों के आगे 'Each' या 'Every' लगा हो, तो पूरा संयुक्त कर्ता एकवचन माना जाता है और Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nदो संज्ञाएँ 'and' से जुड़ी देखकर 'were' या 'are' लगाना गलत है। 'Each' का प्रभाव क्रिया को Singular बनाता है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0080",
+        "originalId": 80,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "यदि दो संज्ञाएँ 'and' से जुड़ी हों और दोनों के आगे 'Each' या 'Every' लगा हो, तो पूरा संयुक्त कर्ता एकवचन माना जाता है और Singular Verb लेता है।",
+        "elimination_logic": "दो संज्ञाएँ 'and' से जुड़ी देखकर 'were' या 'are' लगाना गलत है। 'Each' का प्रभाव क्रिया को Singular बनाता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0081",
+      "type": "mcq",
+      "questionText": "Choose the correct sentence (The jury divided in opinions):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "The jury was divided in their opinions regarding the verdict."
+        },
+        {
+          "id": "opt2",
+          "text": "The jury were divided in their opinions regarding the verdict."
+        },
+        {
+          "id": "opt3",
+          "text": "The jury has divided in their opinions regarding the verdict."
+        },
+        {
+          "id": "opt4",
+          "text": "The jury were divided in its opinion regarding the verdict."
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब Collective Noun (Jury) के सदस्य परस्पर विभाजित हों (Noun of Multitude), तो क्रिया और Pronoun दोनों Plural होते हैं ('were divided' और 'their opinions')।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n(a) में 'was' (Singular) और 'their' (Plural) का विरोधाभास है। (d) में 'were' (Plural) के साथ 'its' (Singular) का गलत मेल है।",
+      "difficulty": "hard",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0081",
+        "originalId": 81,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "जब Collective Noun (Jury) के सदस्य परस्पर विभाजित हों (Noun of Multitude), तो क्रिया और Pronoun दोनों Plural होते हैं ('were divided' और 'their opinions')।",
+        "elimination_logic": "(a) में 'was' (Singular) और 'their' (Plural) का विरोधाभास है। (d) में 'were' (Plural) के साथ 'its' (Singular) का गलत मेल है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0082",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nFifty miles ..... a long distance to travel on foot.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "seem"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nदूरी, वजन, राशि या समय की निश्चित इकाई जब समग्र रूप से एक मात्रा (Single unit) समझी जाए, तो क्रिया Singular होती है। 'a long distance' (पूरक) इसका स्पष्ट प्रमाण है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'miles' बहुवचन देखकर 'are' या 'seem' चुनना परीक्षा का सामान्य ट्रैप है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0082",
+        "originalId": 82,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "दूरी, वजन, राशि या समय की निश्चित इकाई जब समग्र रूप से एक मात्रा (Single unit) समझी जाए, तो क्रिया Singular होती है। 'a long distance' (पूरक) इसका स्पष्ट प्रमाण है।",
+        "elimination_logic": "'miles' बहुवचन देखकर 'are' या 'seem' चुनना परीक्षा का सामान्य ट्रैप है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0083",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nThe rich ..... not always happy with their lavish lifestyle.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'The + Adjective' (जैसे The rich, The poor, The blind) उस पूरे वर्ग या समुदाय के लोगों को दर्शाता है और यह Plural Noun की तरह कार्य करता है, अतः क्रिया Plural आएगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'The rich' दिखने में एकवचन जैसा लगता है परंतु यह 'all rich people' को व्यक्त करता है, अतः 'is' गलत है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0083",
+        "originalId": 83,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'The + Adjective' (जैसे The rich, The poor, The blind) उस पूरे वर्ग या समुदाय के लोगों को दर्शाता है और यह Plural Noun की तरह कार्य करता है, अतः क्रिया Plural आएगी।",
+        "elimination_logic": "'The rich' दिखने में एकवचन जैसा लगता है परंतु यह 'all rich people' को व्यक्त करता है, अतः 'is' गलत है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0084",
+      "type": "mcq",
+      "questionText": "Choose the correct option:\nThe police ..... investigating the sudden disappearance of the documents.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Police', 'Cattle', 'Gentry', 'Poultry', 'Peasantry' ऐसे संज्ञा शब्द हैं जो बिना '-s' के भी हमेशा बहुवचन होते हैं और Plural Verb लेते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Police' को छात्र एक विभाग समझकर 'is' लगा देते हैं, जबकि व्याकरण में 'Police' Plural Subject है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0084",
+        "originalId": 84,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Police', 'Cattle', 'Gentry', 'Poultry', 'Peasantry' ऐसे संज्ञा शब्द हैं जो बिना '-s' के भी हमेशा बहुवचन होते हैं और Plural Verb लेते हैं।",
+        "elimination_logic": "'Police' को छात्र एक विभाग समझकर 'is' लगा देते हैं, जबकि व्याकरण में 'Police' Plural Subject है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0085",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nNone of the counterfeit money ..... recovered by the enforcement team.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'None of + Uncountable Noun' के साथ हमेशा Singular Verb का प्रयोग होता है। 'Money' एक Uncountable Noun है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'None' को देखकर कई छात्र 'were' लगा देते हैं, परंतु 'money' अगणनीय होने के कारण 'was' ही सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0085",
+        "originalId": 85,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'None of + Uncountable Noun' के साथ हमेशा Singular Verb का प्रयोग होता है। 'Money' एक Uncountable Noun है।",
+        "elimination_logic": "'None' को देखकर कई छात्र 'were' लगा देते हैं, परंतु 'money' अगणनीय होने के कारण 'was' ही सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0086",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nNone of the tourists ..... willing to change their schedule.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'None of + Plural Countable Noun' के साथ जब संदर्भ बहुवचन व्यक्तियों का हो और आगे सर्वनाम 'their' आया हो, तो Plural Verb 'were' उपयुक्त और मानक होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nवाक्य में आगे 'their schedule' का प्रयोग स्पष्ट करता है कि कर्ता को बहुवचन माना गया है, अतः 'were' सही उत्तर है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0086",
+        "originalId": 86,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'None of + Plural Countable Noun' के साथ जब संदर्भ बहुवचन व्यक्तियों का हो और आगे सर्वनाम 'their' आया हो, तो Plural Verb 'were' उपयुक्त और मानक होती है।",
+        "elimination_logic": "वाक्य में आगे 'their schedule' का प्रयोग स्पष्ट करता है कि कर्ता को बहुवचन माना गया है, अतः 'were' सही उत्तर है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0087",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nTwo-thirds of the heritage building ..... completely renovated.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has been"
+        },
+        {
+          "id": "opt2",
+          "text": "have been"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "are"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nभिन्न (Fraction) के बाद यदि 'of' के साथ Singular Noun ('the heritage building') आए, तो क्रिया Singular होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Two-thirds' देखकर छात्र भ्रमित होकर Plural Verb चुनते हैं, लेकिन यह एक ही इमारत का हिस्सा है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0087",
+        "originalId": 87,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "भिन्न (Fraction) के बाद यदि 'of' के साथ Singular Noun ('the heritage building') आए, तो क्रिया Singular होती है।",
+        "elimination_logic": "'Two-thirds' देखकर छात्र भ्रमित होकर Plural Verb चुनते हैं, लेकिन यह एक ही इमारत का हिस्सा है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0088",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nThree-fourths of the questions ..... extremely challenging.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nभिन्न (Fraction) के बाद यदि 'of' के साथ Plural Countable Noun ('the questions') आए, तो क्रिया Plural होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'questions' गणनीय बहुवचन है, अतः Singular Verbs (is, was, has been) सभी खारिज हो जाते हैं।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0088",
+        "originalId": 88,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "भिन्न (Fraction) के बाद यदि 'of' के साथ Plural Countable Noun ('the questions') आए, तो क्रिया Plural होती है।",
+        "elimination_logic": "'questions' गणनीय बहुवचन है, अतः Singular Verbs (is, was, has been) सभी खारिज हो जाते हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0089",
+      "type": "mcq",
+      "questionText": "Choose the correct verb form:\nSlow and steady ..... the race.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "win"
+        },
+        {
+          "id": "opt2",
+          "text": "wins"
+        },
+        {
+          "id": "opt3",
+          "text": "won"
+        },
+        {
+          "id": "opt4",
+          "text": "are winning"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब दो शब्द मिलकर एक ही गुण या संयुक्त धारणा (Single concept) बनाते हैं, तो वे एकवचन माने जाते हैं और V1 + s/es लेते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nयह एक सार्वभौमिक कहावत है, 'win' (Plural) नहीं आ सकता। वर्तमान आदत/नियम दर्शाने के लिए 'wins' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0089",
+        "originalId": 89,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "जब दो शब्द मिलकर एक ही गुण या संयुक्त धारणा (Single concept) बनाते हैं, तो वे एकवचन माने जाते हैं और V1 + s/es लेते हैं।",
+        "elimination_logic": "यह एक सार्वभौमिक कहावत है, 'win' (Plural) नहीं आ सकता। वर्तमान आदत/नियम दर्शाने के लिए 'wins' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0090",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nTime and tide ..... for none.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "wait"
+        },
+        {
+          "id": "opt2",
+          "text": "waits"
+        },
+        {
+          "id": "opt3",
+          "text": "is waiting"
+        },
+        {
+          "id": "opt4",
+          "text": "waited"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nपारंपरिक और आधुनिक व्याकरण में 'Time' और 'Tide' दो अलग-अलग प्राकृतिक शक्तियों के रूप में देखे जाते हैं, अतः मानक रूप में Plural Verb 'wait' का प्रयोग सर्वमान्य है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nयद्यपि कुछ पुरानी पुस्तकों में 'waits' मिलता है, प्रमुख प्रतियोगी परीक्षाओं में 'wait' को ही सही कुंजी माना जाता है क्योंकि दोनों स्वतंत्र सत्ताएँ हैं।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0090",
+        "originalId": 90,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "पारंपरिक और आधुनिक व्याकरण में 'Time' और 'Tide' दो अलग-अलग प्राकृतिक शक्तियों के रूप में देखे जाते हैं, अतः मानक रूप में Plural Verb 'wait' का प्रयोग सर्वमान्य है।",
+        "elimination_logic": "यद्यपि कुछ पुरानी पुस्तकों में 'waits' मिलता है, प्रमुख प्रतियोगी परीक्षाओं में 'wait' को ही सही कुंजी माना जाता है क्योंकि दोनों स्वतंत्र सत्ताएँ हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0091",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nDrinking and driving ..... a major cause of highway accidents.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nदो Gerunds (Drinking and driving) जब एक ही संयुक्त कृत्य/अपराध का बोध कराते हैं, तो वे Singular Subject माने जाते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'a major cause' (Singular Complement) यह सिद्ध करता है कि दोनों क्रियाएँ अलग-अलग नहीं, बल्कि एक अपराध के रूप में 'is' लेंगी।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0091",
+        "originalId": 91,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "दो Gerunds (Drinking and driving) जब एक ही संयुक्त कृत्य/अपराध का बोध कराते हैं, तो वे Singular Subject माने जाते हैं।",
+        "elimination_logic": "'a major cause' (Singular Complement) यह सिद्ध करता है कि दोनों क्रियाएँ अलग-अलग नहीं, बल्कि एक अपराध के रूप में 'is' लेंगी।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0092",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nThe Arabian Nights ..... still widely appreciated across the globe.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nकिसी पुस्तक, उपन्यास या फिल्म का शीर्षक (Title) भले ही बहुवचन रूप में हो (Nights), वह एक ही कृति को दर्शाता है, अतः Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Nights' बहुवचन देखकर 'are/were' लगाना परीक्षक का जाल है। पुस्तक का नाम होने से 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0092",
+        "originalId": 92,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "किसी पुस्तक, उपन्यास या फिल्म का शीर्षक (Title) भले ही बहुवचन रूप में हो (Nights), वह एक ही कृति को दर्शाता है, अतः Singular Verb लेता है।",
+        "elimination_logic": "'Nights' बहुवचन देखकर 'are/were' लगाना परीक्षक का जाल है। पुस्तक का नाम होने से 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0093",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nHis mathematics ..... remarkably sharp, enabling him to solve complex problems effortlessly.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब किसी विषय (Mathematics, Statistics, Politics) के पहले Possessive Adjective (his, my, their) या Article 'the' लग जाए, तो उसका अर्थ विषय न रहकर 'गणनाएँ' या 'सिद्धांत' हो जाता है और यह Plural Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nसामान्यतः 'Mathematics is a tough subject' होता है, परंतु 'His mathematics' का अर्थ 'his calculations' है, अतः 'are' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0093",
+        "originalId": 93,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "जब किसी विषय (Mathematics, Statistics, Politics) के पहले Possessive Adjective (his, my, their) या Article 'the' लग जाए, तो उसका अर्थ विषय न रहकर 'गणनाएँ' या 'सिद्धांत' हो जाता है और यह Plural Verb लेता है।",
+        "elimination_logic": "सामान्यतः 'Mathematics is a tough subject' होता है, परंतु 'His mathematics' का अर्थ 'his calculations' है, अतः 'are' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0094",
+      "type": "mcq",
+      "questionText": "Select the correct option:\nThe acoustics of this modern auditorium ..... exceptional.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Acoustics' जब किसी कमरे या हॉल की ध्वनि विशेषताओं (Acoustic properties) को दर्शाता है, तो यह हमेशा Plural Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nकेवल एक वैज्ञानिक विषय के रूप में यह Singular होता है। भवन की ध्वनि-गुणवत्ता के रूप में 'are' ही मान्य है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0094",
+        "originalId": 94,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Acoustics' जब किसी कमरे या हॉल की ध्वनि विशेषताओं (Acoustic properties) को दर्शाता है, तो यह हमेशा Plural Verb लेता है।",
+        "elimination_logic": "केवल एक वैज्ञानिक विषय के रूप में यह Singular होता है। भवन की ध्वनि-गुणवत्ता के रूप में 'are' ही मान्य है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0095",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nA pair of scissors ..... kept in the upper drawer of the desk.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nयद्यपि 'Scissors' हमेशा बहुवचन होता है, लेकिन यदि उसके आगे 'A pair of' जुड़ जाए, तो कर्ता 'A pair' (एकवचन) बन जाता है और Singular Verb लेता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nकेवल 'Scissors' होता तो 'are' आता, लेकिन 'A pair of' के कारण 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0095",
+        "originalId": 95,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "यद्यपि 'Scissors' हमेशा बहुवचन होता है, लेकिन यदि उसके आगे 'A pair of' जुड़ जाए, तो कर्ता 'A pair' (एकवचन) बन जाता है और Singular Verb लेता है।",
+        "elimination_logic": "केवल 'Scissors' होता तो 'are' आता, लेकिन 'A pair of' के कारण 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0096",
+      "type": "mcq",
+      "questionText": "Choose the correct verb:\nAll the apparatus ..... thoroughly sanitized before the experiment.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has"
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Apparatus' मानक अंग्रेजी में मुख्य रूप से Uncountable Noun के रूप में प्रयुक्त होता है (उपकरण/सामग्री), अतः 'All the apparatus' के साथ Singular Verb 'was' का प्रयोग मान्य है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Apparatus' का बहुवचन रूप भी 'apparatus' या 'apparatuses' हो सकता है, लेकिन सामूहिक सामग्री के अर्थ में Singular Verb को प्राथमिकता दी जाती है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0096",
+        "originalId": 96,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Apparatus' मानक अंग्रेजी में मुख्य रूप से Uncountable Noun के रूप में प्रयुक्त होता है (उपकरण/सामग्री), अतः 'All the apparatus' के साथ Singular Verb 'was' का प्रयोग मान्य है।",
+        "elimination_logic": "'Apparatus' का बहुवचन रूप भी 'apparatus' या 'apparatuses' हो सकता है, लेकिन सामूहिक सामग्री के अर्थ में Singular Verb को प्राथमिकता दी जाती है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0097",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nPlenty of milk ..... required to prepare sweets for the festival.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt3",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Plenty of / A lot of' के बाद यदि Uncountable Noun ('milk') आए, तो क्रिया Singular होती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Plenty of' गणनीय संज्ञा के साथ Plural और अगणनीय संज्ञा के साथ Singular लेता है। दूध अगणनीय है, अतः 'is' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0097",
+        "originalId": 97,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Plenty of / A lot of' के बाद यदि Uncountable Noun ('milk') आए, तो क्रिया Singular होती है।",
+        "elimination_logic": "'Plenty of' गणनीय संज्ञा के साथ Plural और अगणनीय संज्ञा के साथ Singular लेता है। दूध अगणनीय है, अतः 'is' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0098",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nPlenty of job opportunities ..... available in the IT sector.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "is"
+        },
+        {
+          "id": "opt2",
+          "text": "are"
+        },
+        {
+          "id": "opt3",
+          "text": "was"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Plenty of + Plural Countable Noun' ('job opportunities') के साथ Plural Verb 'are' का प्रयोग होता है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'opportunities' गणनीय बहुवचन है, अतः Singular क्रियाएँ (is, was, has been) स्वतः हट जाती हैं।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0098",
+        "originalId": 98,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Plenty of + Plural Countable Noun' ('job opportunities') के साथ Plural Verb 'are' का प्रयोग होता है।",
+        "elimination_logic": "'opportunities' गणनीय बहुवचन है, अतः Singular क्रियाएँ (is, was, has been) स्वतः हट जाती हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0099",
+      "type": "mcq",
+      "questionText": "Identify the correct option:\nThe commander, accompanied by his troops, ..... successfully captured the fort.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have"
+        },
+        {
+          "id": "opt2",
+          "text": "has"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "are"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nजब कर्ता 'accompanied by', 'together with', 'in addition to' से जुड़ा हो, तो क्रिया प्रथम कर्ता ('The commander' - Singular) के अनुसार आती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'his troops' (Plural) को देखकर 'have/were' चुनना गलत है। मुख्य कर्ता 'The commander' होने से 'has' आएगा।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0099",
+        "originalId": 99,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "जब कर्ता 'accompanied by', 'together with', 'in addition to' से जुड़ा हो, तो क्रिया प्रथम कर्ता ('The commander' - Singular) के अनुसार आती है।",
+        "elimination_logic": "'his troops' (Plural) को देखकर 'have/were' चुनना गलत है। मुख्य कर्ता 'The commander' होने से 'has' आएगा।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0100",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nMany a soldier ..... laid down their life for the country.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "have"
+        },
+        {
+          "id": "opt2",
+          "text": "has"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "are"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nनियम: 'Many a + Singular Countable Noun + Singular Verb'। अतः 'Many a soldier' के साथ 'has' आएगा।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nअर्थ भले ही 'अनेक' हो, परंतु संरचनात्मक रूप से 'has' ही सही है। 'have/were/are' बहुवचन रूप हैं।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0100",
+        "originalId": 100,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "नियम: 'Many a + Singular Countable Noun + Singular Verb'। अतः 'Many a soldier' के साथ 'has' आएगा।",
+        "elimination_logic": "अर्थ भले ही 'अनेक' हो, परंतु संरचनात्मक रूप से 'has' ही सही है। 'have/were/are' बहुवचन रूप हैं।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0101",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nA great many students ..... registered for the crash course.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "has"
+        },
+        {
+          "id": "opt2",
+          "text": "have"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'A great many / A good many + Plural Noun' हमेशा Plural Verb लेते हैं।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'Many a' के विपरीत, 'A great many' पूरी तरह बहुवचन संरचना है। अतः 'have' सही है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0101",
+        "originalId": 101,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'A great many / A good many + Plural Noun' हमेशा Plural Verb लेते हैं।",
+        "elimination_logic": "'Many a' के विपरीत, 'A great many' पूरी तरह बहुवचन संरचना है। अतः 'have' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0102",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nNeither the quality nor the prices of the imported items ..... satisfactory.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "was"
+        },
+        {
+          "id": "opt2",
+          "text": "were"
+        },
+        {
+          "id": "opt3",
+          "text": "is"
+        },
+        {
+          "id": "opt4",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'Neither... nor' में निकटतम कर्ता 'the prices' (बहुवचन) है। (नोट: 'of the imported items' केवल एक Prepositional Phrase है)। निकटतम कर्ता बहुवचन होने से क्रिया 'were' होगी।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nप्रथम कर्ता 'quality' को देखकर 'was' या 'is' लगाना गलत होगा क्योंकि नियम निकटतम कर्ता का है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0102",
+        "originalId": 102,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'Neither... nor' में निकटतम कर्ता 'the prices' (बहुवचन) है। (नोट: 'of the imported items' केवल एक Prepositional Phrase है)। निकटतम कर्ता बहुवचन होने से क्रिया 'were' होगी।",
+        "elimination_logic": "प्रथम कर्ता 'quality' को देखकर 'was' या 'is' लगाना गलत होगा क्योंकि नियम निकटतम कर्ता का है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0103",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nUnder the shady banyan tree ..... sitting an old saint.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "were"
+        },
+        {
+          "id": "opt2",
+          "text": "was"
+        },
+        {
+          "id": "opt3",
+          "text": "are"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\nInversion Rule: जब वाक्य किसी स्थान-सूचक Prepositional Phrase से प्रारंभ हो, तो क्रिया वाक्य के वास्तविक कर्ता के अनुसार आती है जो क्रिया के बाद आता है। यहाँ वास्तविक कर्ता 'an old saint' (Singular) है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nवाक्य की शुरुआत देखकर छात्र क्रिया नहीं चुन सकते। कर्ता बाद में है ('an old saint'), अतः 'was' सही है।",
+      "difficulty": "hard",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0103",
+        "originalId": 103,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "Inversion Rule: जब वाक्य किसी स्थान-सूचक Prepositional Phrase से प्रारंभ हो, तो क्रिया वाक्य के वास्तविक कर्ता के अनुसार आती है जो क्रिया के बाद आता है। यहाँ वास्तविक कर्ता 'an old saint' (Singular) है।",
+        "elimination_logic": "वाक्य की शुरुआत देखकर छात्र क्रिया नहीं चुन सकते। कर्ता बाद में है ('an old saint'), अतः 'was' सही है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0104",
+      "type": "mcq",
+      "questionText": "Choose the correct sentence (What we urgently need...):",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "What we urgently need are more trained teachers."
+        },
+        {
+          "id": "opt2",
+          "text": "What we urgently need is more trained teachers."
+        },
+        {
+          "id": "opt3",
+          "text": "What we urgently need have been more trained teachers."
+        },
+        {
+          "id": "opt4",
+          "text": "What we urgently needs are more trained teachers."
+        }
+      ],
+      "correctAnswer": "opt1",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'What-clause' जब पूरक (Complement) के रूप में एक Plural Noun ('more trained teachers') से जुड़ता है, तो क्रिया अक्सर बहुवचन 'are' ली जाती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\nआधुनिक औपचारिक अंग्रेजी में यदि Complement बहुवचन हो, तो What-clause के साथ 'are' को प्राथमिक मानक माना जाता है।",
+      "difficulty": "hard",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0104",
+        "originalId": 104,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'What-clause' जब पूरक (Complement) के रूप में एक Plural Noun ('more trained teachers') से जुड़ता है, तो क्रिया अक्सर बहुवचन 'are' ली जाती है।",
+        "elimination_logic": "आधुनिक औपचारिक अंग्रेजी में यदि Complement बहुवचन हो, तो What-clause के साथ 'are' को प्राथमिक मानक माना जाता है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    },
+    {
+      "id": "eng_sva_0105",
+      "type": "mcq",
+      "questionText": "Fill in the blank:\nNo news ..... good news.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "are"
+        },
+        {
+          "id": "opt2",
+          "text": "is"
+        },
+        {
+          "id": "opt3",
+          "text": "were"
+        },
+        {
+          "id": "opt4",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "opt2",
+      "explanation": "**नियम / अवधारणा (Grammar Concept):**\n'News' Uncountable Noun है और यह प्रसिद्ध कहावत 'No news is good news' में हमेशा Singular Verb लेती है।\n\n**विकल्प विश्लेषण (Elimination Logic):**\n'news' के अंत में 's' देखकर बहुवचन मानना सबसे आम भूल है।",
+      "difficulty": "medium",
+      "reference": "RPSC / REET Target Mock",
+      "meta": {
+        "source": "RPSC & State Exams PYQ / Target Mock",
+        "sourceQuestionId": "eng_sva_0105",
+        "originalId": 105,
+        "exam": "RPSC / REET Target Mock",
+        "year": 2026,
+        "concept": "'News' Uncountable Noun है और यह प्रसिद्ध कहावत 'No news is good news' में हमेशा Singular Verb लेती है।",
+        "elimination_logic": "'news' के अंत में 's' देखकर बहुवचन मानना सबसे आम भूल है।",
+        "topic": "Subject-Verb Agreement",
+        "masterTopicId": 57
+      }
+    }
+  ]
+}

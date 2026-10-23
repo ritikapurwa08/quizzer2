@@ -8,6 +8,8 @@ import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
 import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
+import { PrintableReportHeader } from "@/components/quiz/PrintableReportHeader";
+import { ShareResultModal } from "@/components/quiz/ShareResultModal";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore } from "@/lib/utils";
@@ -19,6 +21,8 @@ import {
   Minus,
   LayoutList,
   RotateCcw,
+  Printer,
+  Share2,
 } from "lucide-react";
 
 export default function ResultsPage() {
@@ -29,6 +33,15 @@ export default function ResultsPage() {
   const data = useQuery(api.attempts.latestSubmittedForTestSet, { testSetId: id });
   const toggleBookmark = useMutation(api.bookmarks.toggle);
   const currentSet = useQuery(api.testSets.get, { id });
+  const topic = useQuery(
+    api.topics.get,
+    currentSet?.topicId ? { id: currentSet.topicId } : "skip"
+  );
+  const subject = useQuery(
+    api.subjects.get,
+    topic?.subjectId ? { id: topic.subjectId } : "skip"
+  );
+
   const siblingSets = useQuery(
     api.testSets.listByTopic,
     currentSet?.topicId ? { topicId: currentSet.topicId } : "skip"
@@ -37,6 +50,7 @@ export default function ResultsPage() {
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
+  const [shareModalOpen, setShareModalOpen] = useState(false);
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
@@ -98,19 +112,50 @@ export default function ResultsPage() {
     toggleBookmark({ questionId: questionId as Id<"questions"> });
   }
 
+  const handlePrint = (filter?: ReviewFilter) => {
+    if (filter && filter !== reviewFilter) {
+      setReviewFilter(filter);
+      setTimeout(() => {
+        window.print();
+      }, 150);
+    } else {
+      window.print();
+    }
+  };
+
   return (
-    <div className="space-y-5 pb-12">
-      {/* Back to dashboard */}
+    <div className="space-y-5 pb-12 print:space-y-3 print:pb-0">
+      {/* ── Back to dashboard (screen only) ── */}
       <Link
         href="/dashboard"
-        className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors"
+        className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors print:hidden"
       >
         <ArrowLeft className="h-3.5 w-3.5" />
         Back to Dashboard
       </Link>
 
-      {/* Score summary card */}
-      <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
+      {/* ── Print-only Dedicated Report Header ── */}
+      <PrintableReportHeader
+        testSetName={currentSet?.name || "Test Result"}
+        subjectName={subject?.name || "English (Paper-II)"}
+        topicName={topic?.name}
+        score={attempt.score ?? 0}
+        totalQuestions={attempt.totalQuestions}
+        correctCount={correctCount}
+        incorrectCount={incorrectCount}
+        unansweredCount={unansweredCount}
+        submittedAt={attempt.submittedAt}
+        filterLabel={
+          reviewFilter === "all"
+            ? "Complete Question Review"
+            : reviewFilter === "incorrect"
+            ? "Mistake Revision Sheet (Incorrect Only)"
+            : "Correct Answers Only"
+        }
+      />
+
+      {/* ── Score summary card (screen only) ── */}
+      <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card print:hidden">
         <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3">
           Test Result
         </p>
@@ -124,12 +169,12 @@ export default function ResultsPage() {
         </p>
 
         {/* Stats: correct / incorrect / unanswered */}
-        <div className="flex items-center justify-center gap-4 mb-2 text-xs">
-          <span className="flex items-center gap-1 font-semibold text-success">
+        <div className="flex items-center justify-center gap-4 mb-2 text-xs flex-wrap">
+          <span className="flex items-center gap-1 font-semibold text-emerald-700 dark:text-emerald-400">
             <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
             {correctCount} Correct (+{correctCount * 2})
           </span>
-          <span className="flex items-center gap-1 font-semibold text-destructive">
+          <span className="flex items-center gap-1 font-semibold text-rose-700 dark:text-rose-400">
             <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
             {incorrectCount} Incorrect (-{((incorrectCount * 2) / 3).toFixed(2)})
           </span>
@@ -146,9 +191,8 @@ export default function ResultsPage() {
           Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
         </p>
 
-
-        {/* Action buttons: retest + next set (or subjects fallback) */}
-        <div className="flex flex-col sm:flex-row justify-center gap-3">
+        {/* Action buttons: retest, next set, print PDF & share */}
+        <div className="flex flex-wrap items-center justify-center gap-2.5">
           <Button
             asChild
             variant="outline"
@@ -182,29 +226,76 @@ export default function ResultsPage() {
               </Link>
             </Button>
           )}
+
+          <div className="h-5 w-px bg-border hidden sm:block mx-0.5" />
+
+          {/* Print / PDF Button */}
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => handlePrint()}
+            className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
+            title="Download formatted PDF or print results"
+          >
+            <Printer className="h-3.5 w-3.5 text-primary" />
+            Print / Save PDF
+          </Button>
+
+          {/* Share Button */}
+          <Button
+            type="button"
+            variant="outline"
+            onClick={() => setShareModalOpen(true)}
+            className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
+            title="Share scorecard summary or link"
+          >
+            <Share2 className="h-3.5 w-3.5 text-primary" />
+            Share Result
+          </Button>
         </div>
       </Card>
 
-      {/* Question Review section */}
-      <div className="space-y-4">
-        {/* Header row: title + count + filter */}
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
+      {/* ── Question Review section ── */}
+      <div className="space-y-4 print:space-y-3">
+        {/* Header row: title + count + filter + print shortcut */}
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5 print:hidden">
           <div className="flex items-center gap-3 flex-wrap">
             <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
               Question Review
             </h2>
             <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
-              {questions.length} Questions
+              {filteredQuestionsWithIndex.length} of {questions.length} Questions
             </span>
           </div>
-          <QuestionReviewFilter
-            value={reviewFilter}
-            onChange={setReviewFilter}
-            counts={filterCounts}
-          />
+
+          <div className="flex items-center gap-2 flex-wrap">
+            <QuestionReviewFilter
+              value={reviewFilter}
+              onChange={setReviewFilter}
+              counts={filterCounts}
+            />
+
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              onClick={() => handlePrint()}
+              className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
+              title="Print current review list"
+            >
+              <Printer className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">
+                {reviewFilter === "all"
+                  ? "Print All"
+                  : reviewFilter === "incorrect"
+                  ? "Print Mistakes"
+                  : "Print Correct"}
+              </span>
+            </Button>
+          </div>
         </div>
 
-        {/* Filtered question list — original question number (originalIndex + 1) preserved */}
+        {/* Filtered question list — original question number preserved */}
         {filteredQuestionsWithIndex.length === 0 ? (
           <p className="text-sm text-muted-foreground text-center py-10">
             {reviewFilter === "correct"
@@ -224,7 +315,26 @@ export default function ResultsPage() {
             />
           ))
         )}
+
+        {/* ── Print-only document footer ── */}
+        <div className="hidden print:block text-center text-[10px] text-neutral-500 pt-5 mt-5 border-t border-neutral-300">
+          <p className="font-semibold text-neutral-700">Quizzer • Rajasthan Exam Study & Practice Portal</p>
+          <p className="text-[9px] text-neutral-400 mt-0.5">https://quizzer2.vercel.app • Keep Revising & Excel!</p>
+        </div>
       </div>
+
+      {/* ── Share Modal ── */}
+      <ShareResultModal
+        open={shareModalOpen}
+        onOpenChange={setShareModalOpen}
+        testSetName={currentSet?.name || "Test Result"}
+        subjectName={subject?.name || "English (Paper-II)"}
+        topicName={topic?.name}
+        score={attempt.score ?? 0}
+        totalQuestions={attempt.totalQuestions}
+        correctCount={correctCount}
+        incorrectCount={incorrectCount}
+      />
     </div>
   );
 }
