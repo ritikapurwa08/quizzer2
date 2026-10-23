@@ -28,6 +28,13 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface Subtopic {
   name: string;
@@ -495,31 +502,39 @@ export default function AdminPoolOverviewPage() {
         </div>
 
         {/* Filters and Sort */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap">
           {/* Status Filter */}
-          <select
+          <Select
             value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value as any)}
-            className="h-9 px-2.5 rounded-xl border border-border bg-background text-xs font-medium text-foreground cursor-pointer focus:outline-none focus:ring-1 focus:ring-primary"
+            onValueChange={(val: string | null) => val && setStatusFilter(val as any)}
           >
-            <option value="all">सभी स्थितियाँ</option>
-            <option value="completed">पूर्ण (100%)</option>
-            <option value="in_progress">प्रगति पर (&gt;0%)</option>
-            <option value="not_started">शुरू नहीं (0%)</option>
-          </select>
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-36">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectItem value="all">सभी स्थितियाँ</SelectItem>
+              <SelectItem value="completed">पूर्ण (100%)</SelectItem>
+              <SelectItem value="in_progress">प्रगति पर (&gt;0%)</SelectItem>
+              <SelectItem value="not_started">शुरू नहीं (0%)</SelectItem>
+            </SelectContent>
+          </Select>
 
           {/* Sort By */}
-          <select
+          <Select
             value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as any)}
-            className="h-9 px-2.5 rounded-xl border border-border bg-background text-xs font-medium text-foreground cursor-pointer focus:outline-none focus:ring-1 focus:ring-primary"
+            onValueChange={(val: string | null) => val && setSortBy(val as any)}
           >
-            <option value="id_asc">टॉपिक # (1 से 55)</option>
-            <option value="id_desc">टॉपिक # (55 से 1)</option>
-            <option value="pool_desc">सबसे बड़ा पूल (प्रश्न संख्या)</option>
-            <option value="remaining_desc">सर्वाधिक शेष प्रश्न</option>
-            <option value="progress_desc">प्रगति प्रतिशत (%)</option>
-          </select>
+            <SelectTrigger className="h-9 px-3 rounded-xl border border-border bg-card text-xs font-medium min-w-44">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent className="bg-popover border-border">
+              <SelectItem value="id_asc">टॉपिक # (1 से 55)</SelectItem>
+              <SelectItem value="id_desc">टॉपिक # (55 से 1)</SelectItem>
+              <SelectItem value="pool_desc">सबसे बड़ा पूल (प्रश्न संख्या)</SelectItem>
+              <SelectItem value="remaining_desc">सर्वाधिक शेष प्रश्न</SelectItem>
+              <SelectItem value="progress_desc">प्रगति प्रतिशत (%)</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </div>
 

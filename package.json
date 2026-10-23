@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prepare:english-pool": "bun run scripts/prepare-english-pool.ts"
+    "prepare:english-pool": "bun run scripts/prepare-english-pool.ts",
+    "generate:pwa-assets": "bun run scripts/generate-pwa-assets.ts"
   },
   "dependencies": {
     "@auth/core": "0.41.1",

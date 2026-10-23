@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="hi" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>आप ऑफलाइन हैं | Quizzer</title>
+  <meta name="theme-color" content="#09090b" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #09090b;
+      color: #f4f4f5;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      background: rgba(24, 24, 27, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1.5rem;
+      padding: 2.5rem 2rem;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 30px rgba(14, 165, 233, 0.15);
+      backdrop-filter: blur(16px);
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #0ea5e9, #fbbf24, transparent);
+    }
+    .icon-wrapper {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1.5rem;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.3);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #38bdf8;
+      animation: pulse-glow 3s infinite;
+    }
+    @keyframes pulse-glow {
+      0%, 100% {
+        box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.4);
+      }
+      50% {
+        box-shadow: 0 0 0 16px rgba(14, 165, 233, 0);
+      }
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #f8fafc;
+      letter-spacing: -0.02em;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      margin-bottom: 1.25rem;
+    }
+    p {
+      color: #a1a1aa;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .features-list {
+      background: rgba(9, 9, 11, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 0.75rem;
+      padding: 1rem;
+      text-align: left;
+      font-size: 0.85rem;
+      color: #d4d4d8;
+      margin-bottom: 1.75rem;
+    }
+    .features-list li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .features-list li:last-child {
+      margin-bottom: 0;
+    }
+    .bullet {
+      color: #10b981;
+      font-weight: bold;
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 0.75rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+    }
+    .btn-primary {
+      background: #0284c7;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+    }
+    .btn-primary:hover {
+      background: #0369a1;
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      background: rgba(39, 39, 42, 0.8);
+      color: #e4e4e7;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .btn-secondary:hover {
+      background: rgba(63, 63, 70, 0.8);
+    }
+    .status-toast {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: #71717a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ef4444;
+      display: inline-block;
+    }
+    .online .status-dot {
+      background: #10b981;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-wrapper">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="1" y1="1" x2="23" y2="23"></line>
+        <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"></path>
+        <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"></path>
+        <path d="M10.71 5.05A16 16 0 0 1 22.58 9"></path>
+        <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"></path>
+        <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+        <line x1="12" y1="20" x2="12.01" y2="20"></line>
+      </svg>
+    </div>
+
+    <span class="badge">ऑफ़लाइन मोड (Offline Mode)</span>
+    <h1>इंटरनेट कनेक्शन नहीं है</h1>
+    <p>चिंता न करें! Quizzer PWA में आपके द्वारा पहले खोले गए पेजेस और रिवीज़न डेटा आपके डिवाइस में सुरक्षित हैं।</p>
+
+    <div class="features-list">
+      <li><span class="bullet">✓</span> पहले से खुले 55 टॉपिक्स और प्रश्न सुरक्षित हैं</li>
+      <li><span class="bullet">✓</span> इंटरनेट जुड़ते ही ऐप अपने आप सिंक हो जाएगा</li>
+      <li><span class="bullet">✓</span> कोई भी प्रगति या स्कोर नष्ट नहीं होगा</li>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" onclick="retryConnection()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+        पुनः प्रयास करें (Retry)
+      </button>
+      <a href="/dashboard" class="btn btn-secondary">
+        डैशबोर्ड पर जाएँ (Cached Dashboard)
+      </a>
+    </div>
+
+    <div id="statusToast" class="status-toast">
+      <span class="status-dot"></span>
+      <span id="statusText">ऑफ़लाइन स्थिति की निगरानी जारी है...</span>
+    </div>
+  </div>
+
+  <script>
+    function updateOnlineStatus() {
+      const isOnline = navigator.onLine;
+      const statusToast = document.getElementById('statusToast');
+      const statusText = document.getElementById('statusText');
+
+      if (isOnline) {
+        statusToast.classList.add('online');
+        statusText.textContent = 'नेटवर्क पुनः जुड़ गया! पेज लोड हो रहा है...';
+        statusText.style.color = '#10b981';
+        setTimeout(() => {
+          window.location.reload();
+        }, 1200);
+      } else {
+        statusToast.classList.remove('online');
+        statusText.textContent = 'ऑफ़लाइन स्थिति • नेटवर्क की प्रतीक्षा है...';
+        statusText.style.color = '#71717a';
+      }
+    }
+
+    function retryConnection() {
+      const statusText = document.getElementById('statusText');
+      statusText.textContent = 'जांच हो रही है...';
+      if (navigator.onLine) {
+        window.location.reload();
+      } else {
+        setTimeout(() => {
+          statusText.textContent = 'अभी भी ऑफलाइन है, कृपया डेटा या वाई-फाई जांचें।';
+        }, 600);
+      }
+    }
+
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    updateOnlineStatus();
+  </script>
+</body>
+</html>

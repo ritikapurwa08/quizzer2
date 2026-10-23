@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
 import { Clock, Loader2, Pause, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useWakeLock } from "@/hooks/useWakeLock";
 
 function formatTime(seconds: number): string {
   const mins = Math.floor(seconds / 60);
@@ -48,6 +49,9 @@ export default function QuizPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Keep screen active throughout the quiz session to prevent sleep timeouts
+  useWakeLock(true);
 
 
   const current = questions[currentIndex];

@@ -26,7 +26,7 @@ interface WeakSubjectsCardProps {
 }
 
 function AccuracyRing({ percentage, status }: { percentage: number; status: string }) {
-  const radius = 16;
+  const radius = 18;
   const circumference = 2 * Math.PI * radius;
   const strokeDashoffset =
     circumference * (1 - Math.min(100, Math.max(0, percentage)) / 100);
@@ -34,35 +34,35 @@ function AccuracyRing({ percentage, status }: { percentage: number; status: stri
 
   const strokeColor =
     status === "weak"
-      ? "stroke-destructive"
+      ? "stroke-rose-500"
       : status === "moderate"
       ? "stroke-amber-500"
       : "stroke-emerald-500";
 
   return (
-    <div className="relative flex items-center justify-center h-11 w-11 shrink-0 select-none">
-      <svg className="h-11 w-11" viewBox="0 0 42 42">
+    <div className="relative flex items-center justify-center h-12 w-12 shrink-0 select-none">
+      <svg className="h-12 w-12" viewBox="0 0 44 44">
         <circle
-          cx="21"
-          cy="21"
+          cx="22"
+          cy="22"
           r={radius}
           strokeWidth="3.5"
-          className="stroke-muted/40 fill-none"
+          className="stroke-muted/30 fill-none"
         />
         <circle
-          cx="21"
-          cy="21"
+          cx="22"
+          cy="22"
           r={radius}
           strokeWidth="3.5"
           strokeDasharray={circumference}
           strokeDashoffset={strokeDashoffset}
           strokeLinecap="round"
-          transform="rotate(-90 21 21)"
+          transform="rotate(-90 22 22)"
           className={cn("fill-none transition-all duration-500 ease-out", strokeColor)}
         />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <span className="text-[10px] font-bold text-foreground leading-none tabular-nums tracking-tighter">
+        <span className="text-[11px] font-bold text-foreground leading-none tabular-nums tracking-tight">
           {formatted}%
         </span>
       </div>
@@ -71,7 +71,6 @@ function AccuracyRing({ percentage, status }: { percentage: number; status: stri
 }
 
 export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps) {
-  // Normalize data: prefer breakdown if provided, otherwise convert subjects array
   const items: SubjectDiagnosticItem[] = breakdown && breakdown.length > 0
     ? breakdown
     : (subjects || []).map((s, idx) => ({
@@ -89,24 +88,24 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
 
   return (
     <Card className="p-4 sm:p-5 rounded-2xl border border-border/80 bg-card shadow-xs space-y-4">
-      {/* Section Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border/60 pb-3">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border/50 pb-3">
         <div>
           <div className="flex items-center gap-2">
-            <div className="p-1.5 rounded-lg bg-destructive/10 text-destructive shrink-0">
+            <div className="p-1.5 rounded-lg bg-primary/10 text-primary shrink-0">
               <Target className="h-4 w-4" />
             </div>
-            <h2 className="text-base font-bold text-foreground tracking-tight">
-              Weak Areas & Subject Mastery
+            <h2 className="text-sm sm:text-base font-bold text-foreground tracking-tight">
+              Subject Mastery & Accuracy
             </h2>
             {weakCount > 0 && (
-              <Badge variant="destructive" className="text-[10.5px] px-2 py-0.5 rounded-full">
-                {weakCount} {weakCount === 1 ? "Subject Needs Focus" : "Subjects Need Focus"}
+              <Badge variant="destructive" className="text-[10px] sm:text-[11px] px-2 py-0.5 rounded-full font-semibold">
+                {weakCount} {weakCount === 1 ? "Needs Focus" : "Need Focus"}
               </Badge>
             )}
           </div>
           <p className="text-xs text-muted-foreground mt-0.5">
-            Subject-wise accuracy diagnosis across all canonical syllabus subjects.
+            राजस्थान GK के 4 मुख्य विषयों में सटीकता एवं प्रदर्शन विश्लेषण
           </p>
         </div>
 
@@ -119,7 +118,6 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
         </Link>
       </div>
 
-      {/* Grid: 3-column on desktop, 2 on tablet, 1 on mobile */}
       {items.length === 0 ? (
         <EmptyState
           icon={Target}
@@ -128,7 +126,7 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
           className="py-6"
         />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
           {items.map((item, idx) => {
             const displayName = item.nameHindi || item.name;
 
@@ -136,95 +134,111 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
               <div
                 key={item.subjectId}
                 className={cn(
-                  "p-3.5 rounded-xl border transition-all flex flex-col justify-between gap-3 bg-card",
+                  "p-4 rounded-xl border transition-all flex flex-col justify-between gap-3.5 bg-card/60 hover:bg-card relative overflow-hidden group shadow-xs",
                   item.status === "weak"
-                    ? "border-destructive/30 hover:border-destructive/60 hover:shadow-xs"
+                    ? "border-rose-500/30 hover:border-rose-500/60"
                     : item.status === "moderate"
-                    ? "border-amber-500/25 hover:border-amber-500/50 hover:shadow-xs"
+                    ? "border-amber-500/30 hover:border-amber-500/60"
                     : item.status === "strong"
-                    ? "border-emerald-500/25 hover:border-emerald-500/50 hover:shadow-xs"
+                    ? "border-emerald-500/30 hover:border-emerald-500/60"
                     : "border-border/70 hover:border-border"
                 )}
               >
-                {/* Header row: Index number + Subject Hindi Title */}
-                <div className="flex items-start gap-2.5 min-w-0">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-muted text-[11px] font-bold text-muted-foreground shrink-0 mt-0.5">
-                    {String(idx + 1).padStart(2, "0")}
-                  </span>
-                  <div className="min-w-0 flex-1">
-                    <h3 className="font-semibold text-xs sm:text-sm text-foreground font-hindi leading-snug line-clamp-2">
+                {/* Top: Index + Subject Title + Status Badge */}
+                <div className="flex items-start justify-between gap-2">
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-md bg-muted text-[11px] font-bold text-muted-foreground shrink-0 tabular-nums">
+                      {String(idx + 1).padStart(2, "0")}
+                    </span>
+                    <h3 className="font-semibold text-xs sm:text-sm text-foreground font-hindi leading-snug truncate">
                       {displayName}
                     </h3>
                   </div>
-                </div>
 
-                {/* Body row: Progress / Accuracy & Status */}
-                <div className="flex items-center justify-between gap-3 pt-1 border-t border-border/40">
-                  {item.isAttempted ? (
-                    <>
-                      <div className="space-y-1 min-w-0">
-                        <div className="flex items-center gap-1.5">
-                          {item.status === "weak" && (
-                            <span className="inline-flex items-center gap-1 text-[10.5px] font-bold text-destructive bg-destructive/10 px-2 py-0.5 rounded-full border border-destructive/20">
-                              <AlertTriangle className="h-3 w-3" /> Needs Practice
-                            </span>
-                          )}
-                          {item.status === "moderate" && (
-                            <span className="inline-flex items-center gap-1 text-[10.5px] font-bold text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
-                              <Clock className="h-3 w-3" /> On Track
-                            </span>
-                          )}
-                          {item.status === "strong" && (
-                            <span className="inline-flex items-center gap-1 text-[10.5px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
-                              <CheckCircle2 className="h-3 w-3" /> Mastered
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-[11px] text-muted-foreground tabular-nums">
-                          {item.correctQuestions} of {item.totalQuestionsAttempted} correct
-                        </p>
-                      </div>
-                      <AccuracyRing percentage={item.accuracy} status={item.status} />
-                    </>
-                  ) : (
-                    <div className="flex items-center justify-between w-full py-1">
-                      <span className="text-xs text-muted-foreground italic flex items-center gap-1.5">
-                        <BookOpen className="h-3.5 w-3.5 text-muted-foreground/60" />
-                        Not attempted yet
-                      </span>
+                  {item.isAttempted && (
+                    <div className="shrink-0">
+                      {item.status === "weak" && (
+                        <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-rose-400 bg-rose-500/10 px-2 py-0.5 rounded-full border border-rose-500/20">
+                          <AlertTriangle className="h-3 w-3" /> Needs Practice
+                        </span>
+                      )}
+                      {item.status === "moderate" && (
+                        <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
+                          <Clock className="h-3 w-3" /> On Track
+                        </span>
+                      )}
+                      {item.status === "strong" && (
+                        <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
+                          <CheckCircle2 className="h-3 w-3" /> Mastered
+                        </span>
+                      )}
                     </div>
                   )}
                 </div>
 
-                {/* Footer Action: Quick Link */}
+                {/* Middle: Progress stats & Accuracy Ring */}
+                {item.isAttempted ? (
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-3 pt-1">
+                      <div>
+                        <div className="text-base font-bold text-foreground tabular-nums tracking-tight">
+                          {item.correctQuestions}{" "}
+                          <span className="text-xs font-normal text-muted-foreground">
+                            of {item.totalQuestionsAttempted} correct
+                          </span>
+                        </div>
+                        <p className="text-[11px] text-muted-foreground mt-0.5">
+                          Accuracy: <strong className="text-foreground">{Math.round(item.accuracy)}%</strong>
+                        </p>
+                      </div>
+                      <AccuracyRing percentage={item.accuracy} status={item.status} />
+                    </div>
+
+                    {/* Subtle Horizontal Mastery Line */}
+                    <div className="w-full h-1.5 rounded-full bg-muted/40 overflow-hidden">
+                      <div
+                        className={cn(
+                          "h-full rounded-full transition-all duration-500",
+                          item.status === "weak"
+                            ? "bg-rose-500"
+                            : item.status === "moderate"
+                            ? "bg-amber-500"
+                            : "bg-emerald-500"
+                        )}
+                        style={{ width: `${Math.min(100, Math.max(0, item.accuracy))}%` }}
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground italic">
+                    <BookOpen className="h-4 w-4 text-muted-foreground/60" />
+                    <span>अभी तक कोई टेस्ट नहीं दिया गया</span>
+                  </div>
+                )}
+
+                {/* Bottom Action Button */}
                 <Button
                   asChild
-                  variant={item.status === "weak" ? "destructive" : "outline"}
+                  variant="outline"
                   size="sm"
                   className={cn(
-                    "w-full h-8 rounded-lg text-xs font-semibold gap-1.5 mt-0.5",
+                    "w-full h-8.5 rounded-xl text-xs font-semibold gap-1.5 transition-all cursor-pointer mt-1 border",
                     item.status === "weak"
-                      ? "bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                      : "border-border hover:bg-muted"
+                      ? "border-rose-500/30 hover:bg-rose-500/10 text-rose-300 hover:text-rose-200"
+                      : item.status === "moderate"
+                      ? "border-amber-500/30 hover:bg-amber-500/10 text-amber-300 hover:text-amber-200"
+                      : "border-border/80 hover:bg-muted text-foreground"
                   )}
                 >
                   <Link href={`/subjects/${item.subjectId}`}>
-                    {item.status === "weak" ? (
-                      <>
-                        <span>Practice Weak Topics</span>
-                        <ArrowRight className="h-3 w-3" />
-                      </>
-                    ) : item.isAttempted ? (
-                      <>
-                        <span>Practice More</span>
-                        <ArrowRight className="h-3 w-3" />
-                      </>
-                    ) : (
-                      <>
-                        <span>Start Test</span>
-                        <ArrowRight className="h-3 w-3" />
-                      </>
-                    )}
+                    <span>
+                      {item.status === "weak"
+                        ? "Practice Weak Topics"
+                        : item.isAttempted
+                        ? "Practice More"
+                        : "Start Test"}
+                    </span>
+                    <ArrowRight className="h-3 w-3 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                 </Button>
               </div>

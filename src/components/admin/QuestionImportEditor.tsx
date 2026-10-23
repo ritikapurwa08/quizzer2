@@ -21,6 +21,13 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { useToast } from "@/components/ui/Toast";
 import {
   Copy,
@@ -562,18 +569,38 @@ export function QuestionImportEditor({
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
                 Batch Size (Sets)
               </Label>
-              <select
-                value={batchSize}
-                onChange={(e) => setBatchSize(Number(e.target.value))}
+              <Select
+                value={String(batchSize)}
+                onValueChange={(val: string | null) => val && setBatchSize(Number(val))}
                 disabled={!selectedTopicId}
-                className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                <option value={20}>20 Questions (1 Set)</option>
-                <option value={40}>40 Questions (2 Sets)</option>
-                <option value={60}>60 Questions (3 Sets)</option>
-                <option value={80}>80 Questions (4 Sets)</option>
-                <option value={100}>100 Questions (5 Sets)</option>
-              </select>
+                <SelectTrigger className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium">
+                  <SelectValue placeholder="20 Questions (1 Set)">
+                    {(val: any) => {
+                      const num = Number(val || batchSize);
+                      const sets = Math.ceil(num / 20);
+                      return `${num} Questions (${sets} ${sets === 1 ? "Set" : "Sets"})`;
+                    }}
+                  </SelectValue>
+                </SelectTrigger>
+                <SelectContent className="bg-popover border-border">
+                  <SelectItem value="20" className="cursor-pointer font-medium">
+                    20 Questions (1 Set)
+                  </SelectItem>
+                  <SelectItem value="40" className="cursor-pointer font-medium">
+                    40 Questions (2 Sets)
+                  </SelectItem>
+                  <SelectItem value="60" className="cursor-pointer font-medium">
+                    60 Questions (3 Sets)
+                  </SelectItem>
+                  <SelectItem value="80" className="cursor-pointer font-medium">
+                    80 Questions (4 Sets)
+                  </SelectItem>
+                  <SelectItem value="100" className="cursor-pointer font-medium">
+                    100 Questions (5 Sets)
+                  </SelectItem>
+                </SelectContent>
+              </Select>
             </div>
             <div>
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
