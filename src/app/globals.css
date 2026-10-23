@@ -269,7 +269,7 @@ pre {
 @media print {
   @page {
     size: A4 portrait;
-    margin: 10mm 10mm 12mm 10mm;
+    margin: 8mm 9mm 10mm 9mm;
   }
 
   /* Force exact color reproduction for green/red answer states */
@@ -292,27 +292,32 @@ pre {
     --card-foreground: #0f172a !important;
     --muted: #f8fafc !important;
     --muted-foreground: #475569 !important;
-    --border: #e2e8f0 !important;
+    --border: #cbd5e1 !important;
   }
 
   html,
   body {
     background: #ffffff !important;
     color: #0f172a !important;
-    font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif !important;
-    font-size: 10.5pt !important;
+    font-family: var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif !important;
+    font-size: 9pt !important;
     line-height: 1.35 !important;
+    margin: 0 !important;
+    padding: 0 !important;
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Hide interactive web chrome during print */
+  /* Hide interactive web chrome and screen-only elements during print */
   header,
   nav,
   footer,
+  aside,
+  #screen-results-view,
   .screen-only,
   [data-screen-only],
   .no-print,
-  [role="tooltip"] {
+  [role="tooltip"],
+  [role="dialog"]:not(.print-dialog) {
     display: none !important;
   }
 
@@ -320,15 +325,47 @@ pre {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
+    width: 100% !important;
   }
 
-  /* Prevent question cards from splitting midway across page seams */
-  article,
-  .print-card,
-  [data-print-card],
-  .print\:break-inside-avoid {
-    break-inside: avoid !important;
+  /* Ensure the printable report is shown exclusively during print */
+  #printable-assessment-report,
+  .pdf-document-root {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  /* Professional A4 Two-Column Question Layout */
+  .pdf-two-column-layout {
+    display: block !important;
+    column-count: 2 !important;
+    column-gap: 5mm !important;
+    column-fill: auto !important;
+    width: 100% !important;
+    margin-top: 2mm !important;
+    margin-bottom: 2mm !important;
+  }
+
+  /* Question Card pagination and sizing */
+  .pdf-question-card {
+    break-inside: avoid-page !important;
     page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 2.5mm !important;
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+
+  .pdf-closing-summary {
+    break-inside: avoid-page !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
 
   /* Suppress default link URL expansion (e.g. href="...") */

@@ -8,8 +8,9 @@ import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
 import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
-import { PrintableReportHeader } from "@/components/quiz/PrintableReportHeader";
 import { ShareResultModal } from "@/components/quiz/ShareResultModal";
+import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
+import { PdfPreviewModal } from "@/components/quiz/pdf/PdfPreviewModal";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore } from "@/lib/utils";
@@ -23,6 +24,7 @@ import {
   RotateCcw,
   Printer,
   Share2,
+  Eye,
 } from "lucide-react";
 
 export default function ResultsPage() {
@@ -51,6 +53,7 @@ export default function ResultsPage() {
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
   const [shareModalOpen, setShareModalOpen] = useState(false);
+  const [pdfPreviewOpen, setPdfPreviewOpen] = useState(false);
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
@@ -123,19 +126,219 @@ export default function ResultsPage() {
     }
   };
 
-  return (
-    <div className="space-y-5 pb-12 print:space-y-3 print:pb-0">
-      {/* ── Back to dashboard (screen only) ── */}
-      <Link
-        href="/dashboard"
-        className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors print:hidden"
-      >
-        <ArrowLeft className="h-3.5 w-3.5" />
-        Back to Dashboard
-      </Link>
+  // Formatted evaluated questions for the publication-grade PDF report
+  const evaluatedQuestions = useMemo(() => {
+    return filteredQuestionsWithIndex.map(({ question, answer, badge, originalIndex }) => ({
+      question,
+      answer,
+      status: badge as "correct" | "incorrect" | "unanswered",
+      originalIndex,
+    }));
+  }, [filteredQuestionsWithIndex]);
 
-      {/* ── Print-only Dedicated Report Header ── */}
-      <PrintableReportHeader
+  return (
+    <>
+      {/* ── Screen UI View (Hidden completely during Print) ── */}
+      <div id="screen-results-view" className="space-y-5 pb-12 print:hidden">
+        {/* Back to dashboard */}
+        <Link
+          href="/dashboard"
+          className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeft className="h-3.5 w-3.5" />
+          Back to Dashboard
+        </Link>
+
+        {/* Score summary card (screen only) */}
+        <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
+          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3">
+            Test Result
+          </p>
+
+          {/* Score */}
+          <p className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground tabular-nums mb-3">
+            {formatScore(attempt.score ?? 0)}
+            <span className="text-lg sm:text-xl text-muted-foreground font-semibold">
+              {" "}/ {attempt.totalQuestions * 2} pts
+            </span>
+          </p>
+
+          {/* Stats: correct / incorrect / unanswered */}
+          <div className="flex items-center justify-center gap-4 mb-2 text-xs flex-wrap">
+            <span className="flex items-center gap-1 font-semibold text-emerald-700 dark:text-emerald-400">
+              <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
+              {correctCount} Correct (+{correctCount * 2})
+            </span>
+            <span className="flex items-center gap-1 font-semibold text-rose-700 dark:text-rose-400">
+              <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
+              {incorrectCount} Incorrect (-{((incorrectCount * 2) / 3).toFixed(2)})
+            </span>
+            {unansweredCount > 0 && (
+              <span className="flex items-center gap-1 font-semibold text-muted-foreground">
+                <Minus className="h-3.5 w-3.5" aria-hidden="true" />
+                {unansweredCount} Skipped (0)
+              </span>
+            )}
+          </div>
+
+          {/* Canonical Scoring Rule Note */}
+          <p className="text-[11px] text-muted-foreground mb-5">
+            Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
+          </p>
+
+          {/* Action buttons: retest, next set, preview PDF, print PDF & share */}
+          <div className="flex flex-wrap items-center justify-center gap-2.5">
+            <Button
+              asChild
+              variant="outline"
+              className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
+            >
+              <Link href={`/quiz/${id}`}>
+                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+                Retake Test
+              </Link>
+            </Button>
+
+            {nextSet ? (
+              <Button
+                asChild
+                className="font-bold text-xs h-10 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer"
+              >
+                <Link href={`/quiz/${nextSet._id}`}>
+                  Next Test Set
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                </Link>
+              </Button>
+            ) : (
+              <Button
+                asChild
+                variant="outline"
+                className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
+              >
+                <Link href="/subjects">
+                  <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
+                  View All Subjects
+                </Link>
+              </Button>
+            )}
+
+            <div className="h-5 w-px bg-border hidden sm:block mx-0.5" />
+
+            {/* Preview PDF Button */}
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => setPdfPreviewOpen(true)}
+              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
+              title="Preview official A4 PDF report"
+            >
+              <Eye className="h-3.5 w-3.5 text-primary" />
+              Preview PDF
+            </Button>
+
+            {/* Print / Save PDF Button */}
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => handlePrint()}
+              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
+              title="Print or save as A4 two-column PDF"
+            >
+              <Printer className="h-3.5 w-3.5 text-primary" />
+              Print / Save PDF
+            </Button>
+
+            {/* Share Button */}
+            <Button
+              type="button"
+              variant="outline"
+              onClick={() => setShareModalOpen(true)}
+              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
+              title="Share scorecard summary or link"
+            >
+              <Share2 className="h-3.5 w-3.5 text-primary" />
+              Share Result
+            </Button>
+          </div>
+        </Card>
+
+        {/* ── Question Review section (screen interactive list) ── */}
+        <div className="space-y-4">
+          {/* Header row: title + count + filter + print shortcut */}
+          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
+            <div className="flex items-center gap-3 flex-wrap">
+              <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
+                Question Review
+              </h2>
+              <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
+                {filteredQuestionsWithIndex.length} of {questions.length} Questions
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2 flex-wrap">
+              <QuestionReviewFilter
+                value={reviewFilter}
+                onChange={setReviewFilter}
+                counts={filterCounts}
+              />
+
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => setPdfPreviewOpen(true)}
+                className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
+                title="Preview PDF"
+              >
+                <Eye className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Preview PDF</span>
+              </Button>
+
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={() => handlePrint()}
+                className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
+                title="Print current review list"
+              >
+                <Printer className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">
+                  {reviewFilter === "all"
+                    ? "Print All"
+                    : reviewFilter === "incorrect"
+                    ? "Print Mistakes"
+                    : "Print Correct"}
+                </span>
+              </Button>
+            </div>
+          </div>
+
+          {/* Filtered question list — original question number preserved */}
+          {filteredQuestionsWithIndex.length === 0 ? (
+            <p className="text-sm text-muted-foreground text-center py-10">
+              {reviewFilter === "correct"
+                ? "No correct answers found."
+                : "No incorrect answers found."}
+            </p>
+          ) : (
+            filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex }) => (
+              <QuestionReviewCard
+                key={q._id}
+                number={originalIndex + 1}
+                question={q}
+                selectedAnswer={answer?.selected}
+                isBookmarked={bookmarked.has(q._id)}
+                onToggleBookmark={() => handleToggleBookmark(q._id)}
+                reviewBadge={badge as "correct" | "incorrect" | "unanswered"}
+              />
+            ))
+          )}
+        </div>
+      </div>
+
+      {/* ── Official A4 Two-Column Assessment Report (Shown ONLY during Print) ── */}
+      <PrintableAssessmentReport
         testSetName={currentSet?.name || "Test Result"}
         subjectName={subject?.name || "English (Paper-II)"}
         topicName={topic?.name}
@@ -152,176 +355,31 @@ export default function ResultsPage() {
             ? "Mistake Revision Sheet (Incorrect Only)"
             : "Correct Answers Only"
         }
+        questions={evaluatedQuestions}
       />
 
-      {/* ── Score summary card (screen only) ── */}
-      <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card print:hidden">
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3">
-          Test Result
-        </p>
-
-        {/* Score */}
-        <p className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground tabular-nums mb-3">
-          {formatScore(attempt.score ?? 0)}
-          <span className="text-lg sm:text-xl text-muted-foreground font-semibold">
-            {" "}/ {attempt.totalQuestions * 2} pts
-          </span>
-        </p>
-
-        {/* Stats: correct / incorrect / unanswered */}
-        <div className="flex items-center justify-center gap-4 mb-2 text-xs flex-wrap">
-          <span className="flex items-center gap-1 font-semibold text-emerald-700 dark:text-emerald-400">
-            <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
-            {correctCount} Correct (+{correctCount * 2})
-          </span>
-          <span className="flex items-center gap-1 font-semibold text-rose-700 dark:text-rose-400">
-            <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
-            {incorrectCount} Incorrect (-{((incorrectCount * 2) / 3).toFixed(2)})
-          </span>
-          {unansweredCount > 0 && (
-            <span className="flex items-center gap-1 font-semibold text-muted-foreground">
-              <Minus className="h-3.5 w-3.5" aria-hidden="true" />
-              {unansweredCount} Skipped (0)
-            </span>
-          )}
-        </div>
-
-        {/* Canonical Scoring Rule Note */}
-        <p className="text-[11px] text-muted-foreground mb-5">
-          Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
-        </p>
-
-        {/* Action buttons: retest, next set, print PDF & share */}
-        <div className="flex flex-wrap items-center justify-center gap-2.5">
-          <Button
-            asChild
-            variant="outline"
-            className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
-          >
-            <Link href={`/quiz/${id}`}>
-              <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-              Retake Test
-            </Link>
-          </Button>
-
-          {nextSet ? (
-            <Button
-              asChild
-              className="font-bold text-xs h-10 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer"
-            >
-              <Link href={`/quiz/${nextSet._id}`}>
-                Next Test Set
-                <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-              </Link>
-            </Button>
-          ) : (
-            <Button
-              asChild
-              variant="outline"
-              className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
-            >
-              <Link href="/subjects">
-                <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                View All Subjects
-              </Link>
-            </Button>
-          )}
-
-          <div className="h-5 w-px bg-border hidden sm:block mx-0.5" />
-
-          {/* Print / PDF Button */}
-          <Button
-            type="button"
-            variant="outline"
-            onClick={() => handlePrint()}
-            className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
-            title="Download formatted PDF or print results"
-          >
-            <Printer className="h-3.5 w-3.5 text-primary" />
-            Print / Save PDF
-          </Button>
-
-          {/* Share Button */}
-          <Button
-            type="button"
-            variant="outline"
-            onClick={() => setShareModalOpen(true)}
-            className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
-            title="Share scorecard summary or link"
-          >
-            <Share2 className="h-3.5 w-3.5 text-primary" />
-            Share Result
-          </Button>
-        </div>
-      </Card>
-
-      {/* ── Question Review section ── */}
-      <div className="space-y-4 print:space-y-3">
-        {/* Header row: title + count + filter + print shortcut */}
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5 print:hidden">
-          <div className="flex items-center gap-3 flex-wrap">
-            <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
-              Question Review
-            </h2>
-            <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
-              {filteredQuestionsWithIndex.length} of {questions.length} Questions
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2 flex-wrap">
-            <QuestionReviewFilter
-              value={reviewFilter}
-              onChange={setReviewFilter}
-              counts={filterCounts}
-            />
-
-            <Button
-              type="button"
-              variant="outline"
-              size="sm"
-              onClick={() => handlePrint()}
-              className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
-              title="Print current review list"
-            >
-              <Printer className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">
-                {reviewFilter === "all"
-                  ? "Print All"
-                  : reviewFilter === "incorrect"
-                  ? "Print Mistakes"
-                  : "Print Correct"}
-              </span>
-            </Button>
-          </div>
-        </div>
-
-        {/* Filtered question list — original question number preserved */}
-        {filteredQuestionsWithIndex.length === 0 ? (
-          <p className="text-sm text-muted-foreground text-center py-10">
-            {reviewFilter === "correct"
-              ? "No correct answers found."
-              : "No incorrect answers found."}
-          </p>
-        ) : (
-          filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex }) => (
-            <QuestionReviewCard
-              key={q._id}
-              number={originalIndex + 1}
-              question={q}
-              selectedAnswer={answer?.selected}
-              isBookmarked={bookmarked.has(q._id)}
-              onToggleBookmark={() => handleToggleBookmark(q._id)}
-              reviewBadge={badge as "correct" | "incorrect" | "unanswered"}
-            />
-          ))
-        )}
-
-        {/* ── Print-only document footer ── */}
-        <div className="hidden print:block text-center text-[10px] text-neutral-500 pt-5 mt-5 border-t border-neutral-300">
-          <p className="font-semibold text-neutral-700">Quizzer • Rajasthan Exam Study & Practice Portal</p>
-          <p className="text-[9px] text-neutral-400 mt-0.5">https://quizzer2.vercel.app • Keep Revising & Excel!</p>
-        </div>
-      </div>
+      {/* ── PDF Preview Modal (Screen only interactive preview) ── */}
+      <PdfPreviewModal
+        open={pdfPreviewOpen}
+        onOpenChange={setPdfPreviewOpen}
+        testSetName={currentSet?.name || "Test Result"}
+        subjectName={subject?.name || "English (Paper-II)"}
+        topicName={topic?.name}
+        score={attempt.score ?? 0}
+        totalQuestions={attempt.totalQuestions}
+        correctCount={correctCount}
+        incorrectCount={incorrectCount}
+        unansweredCount={unansweredCount}
+        submittedAt={attempt.submittedAt}
+        filterLabel={
+          reviewFilter === "all"
+            ? "Complete Question Review"
+            : reviewFilter === "incorrect"
+            ? "Mistake Revision Sheet (Incorrect Only)"
+            : "Correct Answers Only"
+        }
+        questions={evaluatedQuestions}
+      />
 
       {/* ── Share Modal ── */}
       <ShareResultModal
@@ -335,6 +393,7 @@ export default function ResultsPage() {
         correctCount={correctCount}
         incorrectCount={incorrectCount}
       />
-    </div>
+    </>
   );
 }
+
