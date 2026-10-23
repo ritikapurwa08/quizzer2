@@ -8,9 +8,7 @@ import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
 import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
-import { ShareResultModal } from "@/components/quiz/ShareResultModal";
 import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
-import { PdfPreviewModal } from "@/components/quiz/pdf/PdfPreviewModal";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore } from "@/lib/utils";
@@ -23,8 +21,6 @@ import {
   LayoutList,
   RotateCcw,
   Printer,
-  Share2,
-  Eye,
 } from "lucide-react";
 
 export default function ResultsPage() {
@@ -52,8 +48,6 @@ export default function ResultsPage() {
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  const [shareModalOpen, setShareModalOpen] = useState(false);
-  const [pdfPreviewOpen, setPdfPreviewOpen] = useState(false);
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
@@ -64,13 +58,12 @@ export default function ResultsPage() {
   }, [siblingSets, currentSet, id]);
 
   // Derived: filtered questions with their original indices.
-  // Must be above the early return — will safely return [] when data is not yet available.
   const filteredQuestionsWithIndex = useMemo(() => {
     if (!data) return [];
     const { attempt, questions } = data;
-    return questions
+    return (questions || [])
       .map((q, i) => {
-        const answer = attempt.answers.find((a) => a.questionId === q._id);
+        const answer = (attempt.answers || []).find((a) => a.questionId === q._id);
         const badge = !answer ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
         return { question: q, answer, badge, originalIndex: i };
       })
@@ -81,8 +74,18 @@ export default function ResultsPage() {
       });
   }, [data, reviewFilter]);
 
+  // Formatted evaluated questions for the publication-grade PDF report
+  const evaluatedQuestions = useMemo(() => {
+    return filteredQuestionsWithIndex.map(({ question, answer, badge, originalIndex }) => ({
+      question,
+      answer,
+      status: badge as "correct" | "incorrect" | "unanswered",
+      originalIndex,
+    }));
+  }, [filteredQuestionsWithIndex]);
+
   // ── Loading state ──
-  if (data === undefined || data === null) {
+  if (data === undefined) {
     return (
       <div className="w-full space-y-4 pt-1">
         <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
@@ -91,13 +94,34 @@ export default function ResultsPage() {
     );
   }
 
+  // ── Empty / Unattempted state ──
+  if (data === null) {
+    return (
+      <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
+        <p className="text-base font-bold text-foreground mb-2">No Test Results Found</p>
+        <p className="text-xs text-muted-foreground mb-6">
+          You haven&apos;t completed this test set yet, or your attempt is still in progress.
+        </p>
+        <div className="flex justify-center gap-3">
+          <Button asChild className="rounded-xl">
+            <Link href={`/quiz/${id}`}>Start Test Now</Link>
+          </Button>
+          <Button asChild variant="outline" className="rounded-xl">
+            <Link href="/dashboard">Back to Dashboard</Link>
+          </Button>
+        </div>
+      </Card>
+    );
+  }
+
   const { attempt, questions } = data;
-  const correctCount = attempt.answers.filter((a) => a.isCorrect).length;
-  const incorrectCount = attempt.answers.filter((a) => !a.isCorrect).length;
-  const unansweredCount = attempt.totalQuestions - attempt.answers.length;
+  const answersList = attempt.answers || [];
+  const correctCount = answersList.filter((a) => a.isCorrect).length;
+  const incorrectCount = answersList.filter((a) => !a.isCorrect).length;
+  const unansweredCount = Math.max(0, attempt.totalQuestions - answersList.length);
 
   const filterCounts = {
-    all: questions.length,
+    all: questions?.length || 0,
     correct: correctCount,
     incorrect: incorrectCount,
   };
@@ -125,16 +149,6 @@ export default function ResultsPage() {
       window.print();
     }
   };
-
-  // Formatted evaluated questions for the publication-grade PDF report
-  const evaluatedQuestions = useMemo(() => {
-    return filteredQuestionsWithIndex.map(({ question, answer, badge, originalIndex }) => ({
-      question,
-      answer,
-      status: badge as "correct" | "incorrect" | "unanswered",
-      originalIndex,
-    }));
-  }, [filteredQuestionsWithIndex]);
 
   return (
     <>
@@ -186,12 +200,12 @@ export default function ResultsPage() {
             Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
           </p>
 
-          {/* Action buttons: retest, next set, preview PDF, print PDF & share */}
-          <div className="flex flex-wrap items-center justify-center gap-2.5">
+          {/* Action buttons: Retake Test, Print / Save PDF in Middle, Next Test Set */}
+          <div className="flex flex-wrap items-center justify-center gap-3">
             <Button
               asChild
               variant="outline"
-              className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
+              className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
             >
               <Link href={`/quiz/${id}`}>
                 <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
@@ -199,10 +213,22 @@ export default function ResultsPage() {
               </Link>
             </Button>
 
+            {/* Print / Save PDF Button — CENTERED & PROMINENT */}
+            <Button
+              type="button"
+              onClick={() => handlePrint()}
+              className="font-bold text-xs h-10 px-6 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
+              title="Download publication-grade A4 PDF or print evaluation report"
+            >
+              <Printer className="h-3.5 w-3.5" />
+              Print / Save PDF
+            </Button>
+
             {nextSet ? (
               <Button
                 asChild
-                className="font-bold text-xs h-10 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer"
+                variant="outline"
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
               >
                 <Link href={`/quiz/${nextSet._id}`}>
                   Next Test Set
@@ -213,7 +239,7 @@ export default function ResultsPage() {
               <Button
                 asChild
                 variant="outline"
-                className="font-semibold text-xs h-10 rounded-xl border-border gap-1.5 cursor-pointer"
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
               >
                 <Link href="/subjects">
                   <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
@@ -221,44 +247,6 @@ export default function ResultsPage() {
                 </Link>
               </Button>
             )}
-
-            <div className="h-5 w-px bg-border hidden sm:block mx-0.5" />
-
-            {/* Preview PDF Button */}
-            <Button
-              type="button"
-              variant="outline"
-              onClick={() => setPdfPreviewOpen(true)}
-              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
-              title="Preview official A4 PDF report"
-            >
-              <Eye className="h-3.5 w-3.5 text-primary" />
-              Preview PDF
-            </Button>
-
-            {/* Print / Save PDF Button */}
-            <Button
-              type="button"
-              variant="outline"
-              onClick={() => handlePrint()}
-              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
-              title="Print or save as A4 two-column PDF"
-            >
-              <Printer className="h-3.5 w-3.5 text-primary" />
-              Print / Save PDF
-            </Button>
-
-            {/* Share Button */}
-            <Button
-              type="button"
-              variant="outline"
-              onClick={() => setShareModalOpen(true)}
-              className="font-semibold text-xs h-10 rounded-xl border-border hover:bg-muted/80 gap-1.5 cursor-pointer shadow-xs"
-              title="Share scorecard summary or link"
-            >
-              <Share2 className="h-3.5 w-3.5 text-primary" />
-              Share Result
-            </Button>
           </div>
         </Card>
 
@@ -281,18 +269,6 @@ export default function ResultsPage() {
                 onChange={setReviewFilter}
                 counts={filterCounts}
               />
-
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={() => setPdfPreviewOpen(true)}
-                className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
-                title="Preview PDF"
-              >
-                <Eye className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline">Preview PDF</span>
-              </Button>
 
               <Button
                 type="button"
@@ -357,43 +333,6 @@ export default function ResultsPage() {
         }
         questions={evaluatedQuestions}
       />
-
-      {/* ── PDF Preview Modal (Screen only interactive preview) ── */}
-      <PdfPreviewModal
-        open={pdfPreviewOpen}
-        onOpenChange={setPdfPreviewOpen}
-        testSetName={currentSet?.name || "Test Result"}
-        subjectName={subject?.name || "English (Paper-II)"}
-        topicName={topic?.name}
-        score={attempt.score ?? 0}
-        totalQuestions={attempt.totalQuestions}
-        correctCount={correctCount}
-        incorrectCount={incorrectCount}
-        unansweredCount={unansweredCount}
-        submittedAt={attempt.submittedAt}
-        filterLabel={
-          reviewFilter === "all"
-            ? "Complete Question Review"
-            : reviewFilter === "incorrect"
-            ? "Mistake Revision Sheet (Incorrect Only)"
-            : "Correct Answers Only"
-        }
-        questions={evaluatedQuestions}
-      />
-
-      {/* ── Share Modal ── */}
-      <ShareResultModal
-        open={shareModalOpen}
-        onOpenChange={setShareModalOpen}
-        testSetName={currentSet?.name || "Test Result"}
-        subjectName={subject?.name || "English (Paper-II)"}
-        topicName={topic?.name}
-        score={attempt.score ?? 0}
-        totalQuestions={attempt.totalQuestions}
-        correctCount={correctCount}
-        incorrectCount={incorrectCount}
-      />
     </>
   );
 }
-
