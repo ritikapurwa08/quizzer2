@@ -1,0 +1,320 @@
+[
+  {
+    "question_number": 21,
+    "incomingText": "\"Hello, Jim, I didn't expect to see you today. Sonia said you ........ ill.\"",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 5)] Fill in the blank with the correct option: 'Hello, Jim, I didn't expect to see you today. Sonia said you ________ ill.'"
+  },
+  {
+    "question_number": 26,
+    "incomingText": "Ajay......... to Gurgaon last week to visit his parents.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 5)] Fill in the correct tense choosing from the options: Ajay ________ to Gurgaon last week to visit his parents."
+  },
+  {
+    "question_number": 31,
+    "incomingText": "I ...... (write) a letter this morning.",
+    "matchType": "Identical Options (4/4) + Keyword Overlap (3 words)",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Fill in the blank with the correct tense choosing from the options given below: I ________ a letter this morning."
+  },
+  {
+    "question_number": 32,
+    "incomingText": "The temperature tomorrow ...... much the same as today.",
+    "matchType": "Core Sentence Substring + 4 Options Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Choose the correct option to fill in the blank space: Temperature tomorrow ________ much the same as today."
+  },
+  {
+    "question_number": 33,
+    "incomingText": "Cattle ........ driven all over the fields.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Pick the correct option to fill in the blank: Cattle ________ driven all over the fields."
+  },
+  {
+    "question_number": 35,
+    "incomingText": "If he ...... what are we to do?",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Fill in the blank choosing the correct tense form from the given options: If he ________, what are we to do?"
+  },
+  {
+    "question_number": 40,
+    "incomingText": "Her father accompanied by all her uncles..... late.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Fill in the blank with the correct option: Her father accompanied by all her uncles ________ late."
+  },
+  {
+    "question_number": 41,
+    "incomingText": "Identify the correct form of tense in the underlined part of the given sentence. When I arrived, Tom was talking on the phone.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Identify the correct form of tense in the underlined part of the given sentence: When I arrived, Tom was talking on the phone."
+  },
+  {
+    "question_number": 44,
+    "incomingText": "Fill in the blank with the correct option:- I ....... a play by Pinter.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 4)] Fill in the blank with the most appropriate option: I ________ a play by Pinter."
+  },
+  {
+    "question_number": 46,
+    "incomingText": "Fill in the blank choosing the correct tense form from the given options. I..... to call on you yesterday evening, but it rained.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Local 61_Tenses.json] Fill in the blank choosing the correct tense form from the given options: I ------- to call on you yesterday evening, but it rained."
+  },
+  {
+    "question_number": 50,
+    "incomingText": "The teacher taught us that the earth....... round.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Fill in the blank with the correct option.  The teacher taught us that the earth ______ round."
+  },
+  {
+    "question_number": 51,
+    "incomingText": "Choose the correct tense of the verb given in the bracket. Do you (speak) English?",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Local 61_Tenses.json] Choose the correct tense of the verb given in the bracket.  Do you (speak) English ?"
+  },
+  {
+    "question_number": 52,
+    "incomingText": "He gave the picture to me because he ..... me.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Complete the following sentence by choosing the correct tense form from the given options: He gave the picture to me because he ___ me."
+  },
+  {
+    "question_number": 54,
+    "incomingText": "Fill in the correct word: Both Mansi and Milli ..... the answer.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Local 61_Tenses.json] Fill in the correct word : Both Mansi and Milli ___ the answer."
+  },
+  {
+    "question_number": 60,
+    "incomingText": "Prakash ......... tennis for an hour when the news of his selection came in.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 5)] Fill in the blank using the appropriate option: Prakash ________ tennis for an hour when the news of his selection came in."
+  },
+  {
+    "question_number": 61,
+    "incomingText": "Sita told them that they ......... wrong.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Choose the correct tense of the verb from the given options. Sita told them that they ........... wrong."
+  },
+  {
+    "question_number": 62,
+    "incomingText": "Raman saw that the clock ........",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Fill in the blank with the correct form of verb. Raman saw that the clock ............ ."
+  },
+  {
+    "question_number": 63,
+    "incomingText": "It is time you ............. (stop) playing.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Choose the correct tense form of the verb given in bracket from the option given below to fill in the blank - It is time you .........(stop) playing."
+  },
+  {
+    "question_number": 64,
+    "incomingText": "Before the bell rang, the class was..... to go home.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Local 61_Tenses.json] Use the correct word in the following - Before the bell rang, the class was ........... to go home."
+  },
+  {
+    "question_number": 68,
+    "incomingText": "Either the boy or the girl ........ at fault.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 5)] Fill in the blank with the correct option: Either the boy or the girl ________ at fault."
+  },
+  {
+    "question_number": 79,
+    "incomingText": "Choose the correct option for the underlined part of the sentence. We have had his speech yesterday.",
+    "matchType": "Identical Options (4/4) + Keyword Overlap (8 words)",
+    "matchedWith": "[Local 61_Tenses.json] Choose the correct option for the underlined part of the sentence: We <u>have had</u> his speech yesterday."
+  },
+  {
+    "question_number": 81,
+    "incomingText": "Complete the given sentence choosing the most appropriate word from the options below: She remarked that she ........ annoyed with him for his lack of sympathy for the victim.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Complete the given sentence by choosing the most appropriate option: She remarked that she ________ annoyed with him for his lack of sympathy for the victim."
+  },
+  {
+    "question_number": 82,
+    "incomingText": "Choose the most appropriate option to complete the given sentence. They withheld his results. He ........ the proof of his age.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to complete the given sentence: They withheld his results. He ________ the proof of his age."
+  },
+  {
+    "question_number": 83,
+    "incomingText": "Choose the most appropriate word to complete the given sentence: If you ........ a skeleton in the cellar, don't mention it to anyone.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate word to complete the conditional sentence: If you ________ a skeleton in the cellar, don't mention it to anyone."
+  },
+  {
+    "question_number": 84,
+    "incomingText": "Choose the most appropriate word to fill in the blank in the given sentence: If they ........ that picture lower, people would be able to see it.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate verb form to fill in the blank in the given sentence: If they ________ that picture lower, people would be able to see it."
+  },
+  {
+    "question_number": 85,
+    "incomingText": "Choose the most appropriate option to fill in the blank: When my friend came to collect her books, I was a little embarrassed as I ........ only one out of the five books that I had borrowed.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blank: When my friend came to collect her books, I was a little embarrassed as I ________ only one out of the five books that I had borrowed."
+  },
+  {
+    "question_number": 86,
+    "incomingText": "Choose the most appropriate option to fill in the blank: The police officer stopped us and asked us where ........",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blank: The police officer stopped us and asked us where ________."
+  },
+  {
+    "question_number": 90,
+    "incomingText": "Choose the most appropriate option to fill in the blanks: I ........ her ........ a long time, ........ she was a child.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blanks: I ________ her ________ a long time, ________ she was a child."
+  },
+  {
+    "question_number": 91,
+    "incomingText": "Choose the most appropriate option to fill in the blank: Aditi has been working here ........",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate prepositional time phrase to complete the sentence: Aditi has been working here ________."
+  },
+  {
+    "question_number": 92,
+    "incomingText": "Choose the most appropriate passive form of the word: 'declare\" to fill in the blank- The old houses in town ........ unsafe by the authorities.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Fill in the blank with the most appropriate passive tense form of the verb 'declare': The old houses in town ________ unsafe by the authorities."
+  },
+  {
+    "question_number": 93,
+    "incomingText": "Choose the most appropriate option to fill in the blank: \"Is dad in?\" \"No, he isn't. He ........ home an hour ago. He ........ yet.\"",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blanks: 'Is dad in?' 'No, he isn't. He ________ home an hour ago. He ________ yet.'"
+  },
+  {
+    "question_number": 94,
+    "incomingText": "Choose the most appropriate option to fill in the blank: By tomorrow afternoon, the plane carrying medicines for war victims ........",
+    "matchType": "Core Sentence Substring + 4 Options Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blank: By tomorrow afternoon, the plane carrying medicines for war victims ________ off for Ukraine."
+  },
+  {
+    "question_number": 95,
+    "incomingText": "Select the most appropriate option to fill in the blank in the sentence given below: By the end of March, I ........ doing this job for six years.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Select the most appropriate option to fill in the blank: By the end of March, I ________ doing this job for six years."
+  },
+  {
+    "question_number": 96,
+    "incomingText": "Select the most appropriate option to fill in the correct form of verb in the following sentence: By November, next year she ........ her second book of poems.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Select the most appropriate option to fill in the correct form of the verb: By November next year, she ________ her second book of poems."
+  },
+  {
+    "question_number": 98,
+    "incomingText": "Fill in the blank in the sentence below choosing the most appropriate verb from the options given. Many researchers ........ conducted this experiment to prove their point.",
+    "matchType": "Identical Options (4/4) + Keyword Overlap (2 words)",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 7)] Choose the verb form that agrees with the subject: Many a man ________ succumbed to this temptation."
+  },
+  {
+    "question_number": 100,
+    "incomingText": "Choose the most appropriate option to fill in the blank: Rita didn't see me wave to her. She ........ in the other direction.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Choose the most appropriate option to fill in the blank: Rita didn't see me wave to her. She ________ in the other direction."
+  },
+  {
+    "question_number": 101,
+    "incomingText": "Choose the most appropriate option to fill in the blanks: The accident victim ........ by the time they ........ him to the hospital.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Choose the most appropriate option to fill in the blanks: The accident victim ________ by the time they ________ him to the hospital."
+  },
+  {
+    "question_number": 103,
+    "incomingText": "Choose the most appropriate option to fill in the blank. After months of recession the economy ........ picking up.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Choose the most appropriate option to fill in the blank: After months of recession, the economy ________ picking up."
+  },
+  {
+    "question_number": 105,
+    "incomingText": "Choose the most appropriate tense form to complete the sentence: Newton discovered that the force of gravity ........ apples fall.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate tense form to complete the sentence: Newton discovered that the force of gravity ________ apples fall."
+  },
+  {
+    "question_number": 106,
+    "incomingText": "Choose the most appropriate tense form to complete the sentence: He rested his horse, as it ........",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate tense form to complete the sentence: He rested his horse, as it ________."
+  },
+  {
+    "question_number": 108,
+    "incomingText": "Choose the most appropriate tense form to complete the sentence: Now that we ........ safe we paused to take a breath.",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate tense form to complete the sentence: Now that we ________ safe, we paused to take a breath."
+  },
+  {
+    "question_number": 111,
+    "incomingText": "Fill in the blank in the given sentence by choosing the most appropriate word from the options given below: The secret of her fitness is that she ........ up before sunrise for an hour's speed walk.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Fill in the blank with the most appropriate form of the verb: The secret of her fitness is that she ________ up before sunrise for an hour's speed walk."
+  },
+  {
+    "question_number": 112,
+    "incomingText": "Choose the most appropriate option to fill in the blank in the given sentence. You're out of breath. ........ ?",
+    "matchType": "Exact Normalized Text Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 2)] Choose the most appropriate option to fill in the blank in the given sentence: You're out of breath. ________?"
+  },
+  {
+    "question_number": 113,
+    "incomingText": "Fill in the blank in the following sentence with the correct tense: I ........ for jobs on jobhunt.com these days with the hope that I might get called for interviews.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the correct tense form: I ________ for jobs on jobhunt.com these days with the hope that I might get called for interviews."
+  },
+  {
+    "question_number": 114,
+    "incomingText": "Fill in the blank in the following sentence with the correct tense: If he sticks to his exercise regime, he ........ his ideal weight by the end of this year.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the correct tense form: If he sticks to his exercise regime, he ________ his ideal weight by the end of this year."
+  },
+  {
+    "question_number": 115,
+    "incomingText": "Fill in the blank in the following sentence with the correct tense: Jubin ........ the plum cake by this time tomorrow.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the correct tense form: Jubin ________ the plum cake by this time tomorrow."
+  },
+  {
+    "question_number": 116,
+    "incomingText": "Fill in the blank in the following sentence with the most appropriate tense form: The radio ........ since 10 p.m. yesterday. The neighbours were getting disturbed because of it.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the most appropriate tense form: The radio ________ since 10 p.m. yesterday. The neighbours were getting disturbed because of it."
+  },
+  {
+    "question_number": 148,
+    "incomingText": "Very unwillingly he......... (turn) down the sound of the TV and .........(go) to answer the door bell.",
+    "matchType": "Identical Options (4/4) + Keyword Overlap (6 words)",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Select the correct form of the tense from the verbs given in brackets: Very unwillingly he (turn) down the sound of the TV and (go) to answer the doorbell."
+  },
+  {
+    "question_number": 158,
+    "incomingText": "Fill in the blank by choosing the most appropriate answer from the options given below: He hinted that he ........ some pocket money.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank by choosing the most appropriate option: He hinted that he ________ some pocket money."
+  },
+  {
+    "question_number": 161,
+    "incomingText": "Fill the blank in the following sentence by choosing the correct tense from the options given below: It ........ since early morning.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank by choosing the correct tense from the options given below: It ________ since early morning."
+  },
+  {
+    "question_number": 171,
+    "incomingText": "Fill in the blank with the correct form of Tense. I'm ....... that you have time to do a lot of research.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the most appropriate tense form: I'm ________ that you have time to do a lot of research."
+  },
+  {
+    "question_number": 172,
+    "incomingText": "Fill in the blank with the correct form of Tense- I met him in New Delhi in 1990, I ........ him last, five years before.",
+    "matchType": "Core Sentence Exact Match",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Fill in the blank with the correct form of the verb: I met him in New Delhi in 1990. I ________ him last, five years before."
+  },
+  {
+    "question_number": 180,
+    "incomingText": "Select the most appropriate sentence which correctly uses the past tense.",
+    "matchType": "Identical Options (4/4) + Keyword Overlap (4 words)",
+    "matchedWith": "[Convex (Tenses & Sequence of Tenses भाग 1)] Which of the following sentences correctly illustrates the use of the Past Simple Tense?"
+  }
+]

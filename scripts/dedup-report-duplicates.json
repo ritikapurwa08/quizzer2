@@ -1,0 +1,346 @@
+[
+  {
+    "incNum": 21,
+    "incText": "\"Hello, Jim, I didn't expect to see you today. Sonia said you ........ ill.\"",
+    "matchId": "rg_eng_000103",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "“Hello, Jim, I didn’t expect to see you today. Sonia said you ____ ill.”  Fill in the blank with correct option:",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 26,
+    "incText": "Ajay......... to Gurgaon last week to visit his parents.",
+    "matchId": "k5748sb55ct4f6q3p7s7f6wn298gxmvx",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 5)",
+    "matchText": "Fill in the correct tense choosing from the options: Ajay ________ to Gurgaon last week to visit his parents.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 31,
+    "incText": "I ...... (write) a letter this morning.",
+    "matchId": "rg_eng_000087",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the correct tense choosing from the options given below: I ------- (write) a letter this morning.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 41,
+    "incText": "Identify the correct form of tense in the underlined part of the given sentence. When I arrived, Tom was talking on the phone.",
+    "matchId": "k576c4s83f01zny2ghbssabbd18gwvck",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 4)",
+    "matchText": "Identify the correct form of tense in the underlined part of the given sentence: When I arrived, Tom was talking on the phone.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 44,
+    "incText": "Fill in the blank with the correct option:- I ....... a play by Pinter.",
+    "matchId": "rg_eng_000083",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank with the correct option: I _____ a play by Pinter.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 46,
+    "incText": "Fill in the blank choosing the correct tense form from the given options. I..... to call on you yesterday evening, but it rained.",
+    "matchId": "rg_eng_000082",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank choosing the correct tense form from the given options: I ------- to call on you yesterday evening, but it rained.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 51,
+    "incText": "Choose the correct tense of the verb given in the bracket. Do you (speak) English?",
+    "matchId": "rg_eng_000079",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the correct tense of the verb given in the bracket.  Do you (speak) English ?",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 52,
+    "incText": "He gave the picture to me because he ..... me.",
+    "matchId": "rg_eng_000076",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Complete the following sentence by choosing the correct tense form from the given options: He gave the picture to me because he ___ me.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 54,
+    "incText": "Fill in the correct word: Both Mansi and Milli ..... the answer.",
+    "matchId": "rg_eng_000078",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the correct word : Both Mansi and Milli ___ the answer.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 61,
+    "incText": "Sita told them that they ......... wrong.",
+    "matchId": "rg_eng_000141",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the correct tense of the verb from the given options. Sita told them that they ........... wrong.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 63,
+    "incText": "It is time you ............. (stop) playing.",
+    "matchId": "rg_eng_000139",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the correct tense form of the verb given in bracket from the option given below to fill in the blank - It is time you .........(stop) playing.",
+    "matchType": "Core Sentence Substring + Options Match (3 options)"
+  },
+  {
+    "incNum": 64,
+    "incText": "Before the bell rang, the class was..... to go home.",
+    "matchId": "rg_eng_000138",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Use the correct word in the following - Before the bell rang, the class was ........... to go home.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 81,
+    "incText": "Complete the given sentence choosing the most appropriate word from the options below: She remarked that she ........ annoyed with him for his lack of sympathy for the victim.",
+    "matchId": "rg_eng_000033",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Complete the given sentence choosing the most appropriate word from the options below: She remarked that she ________ annoyed with him for his lack of sympathy for the victim.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 82,
+    "incText": "Choose the most appropriate option to complete the given sentence. They withheld his results. He ........ the proof of his age.",
+    "matchId": "k572jn24r345nnzhq2yg0prfs58gwpft",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to complete the given sentence: They withheld his results. He ________ the proof of his age.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 83,
+    "incText": "Choose the most appropriate word to complete the given sentence: If you ........ a skeleton in the cellar, don't mention it to anyone.",
+    "matchId": "rg_eng_000031",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the most appropriate word to complete the given sentence: If you ____ a skeleton in the cellar, don't mention it to anyone.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 84,
+    "incText": "Choose the most appropriate word to fill in the blank in the given sentence: If they ........ that picture lower, people would be able to see it.",
+    "matchId": "k57e17kgtx4ea3av1xc4jrfnw58gx1yb",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate verb form to fill in the blank in the given sentence: If they ________ that picture lower, people would be able to see it.",
+    "matchType": "Core Sentence Exact Match"
+  },
+  {
+    "incNum": 85,
+    "incText": "Choose the most appropriate option to fill in the blank: When my friend came to collect her books, I was a little embarrassed as I ........ only one out of the five books that I had borrowed.",
+    "matchId": "k5797tt51s0yb6ax179e7va9ns8gxnat",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to fill in the blank: When my friend came to collect her books, I was a little embarrassed as I ________ only one out of the five books that I had borrowed.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 86,
+    "incText": "Choose the most appropriate option to fill in the blank: The police officer stopped us and asked us where ........",
+    "matchId": "k573b9h1vjh3kww1mrxqyjksnd8gweym",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to fill in the blank: The police officer stopped us and asked us where ________.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 90,
+    "incText": "Choose the most appropriate option to fill in the blanks: I ........ her ........ a long time, ........ she was a child.",
+    "matchId": "k570hawszmnzs8wmf27ah60yxx8gwg4n",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to fill in the blanks: I ________ her ________ a long time, ________ she was a child.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 91,
+    "incText": "Choose the most appropriate option to fill in the blank: Aditi has been working here ........",
+    "matchId": "rg_eng_000027",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the most appropriate option to fill in the blank: Aditi has been working here ______ .",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 92,
+    "incText": "Choose the most appropriate passive form of the word: 'declare\" to fill in the blank- The old houses in town ........ unsafe by the authorities.",
+    "matchId": "rg_eng_000026",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the most appropriate passive form of the word: ‘declare’ to fill in the blank- The old houses in town _______ unsafe by the authorities.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 93,
+    "incText": "Choose the most appropriate option to fill in the blank: \"Is dad in?\" \"No, he isn't. He ........ home an hour ago. He ........ yet.\"",
+    "matchId": "rg_eng_000025",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Choose the most appropriate option to fill in the blank:  “Is dad in?” “No, he isn’t. He _____ home an hour ago. He ___ yet.”",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 94,
+    "incText": "Choose the most appropriate option to fill in the blank: By tomorrow afternoon, the plane carrying medicines for war victims ........",
+    "matchId": "k579j9jdd3dhherwf08z76q89h8gxkqd",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to fill in the blank: By tomorrow afternoon, the plane carrying medicines for war victims ________ off for Ukraine.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 95,
+    "incText": "Select the most appropriate option to fill in the blank in the sentence given below: By the end of March, I ........ doing this job for six years.",
+    "matchId": "rg_eng_000038",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Select the most appropriate option to fill in the blank in the sentence given below : By the end of March, I ____ doing this job for six years.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 96,
+    "incText": "Select the most appropriate option to fill in the correct form of verb in the following sentence: By November, next year she ........ her second book of poems.",
+    "matchId": "rg_eng_000037",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Select the most appropriate option to fill in the correct form of verb in the following sentence : By November, next year she ______ her second book of poems.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 100,
+    "incText": "Choose the most appropriate option to fill in the blank: Rita didn't see me wave to her. She ........ in the other direction.",
+    "matchId": "k57emrjv7xm6wvqm70xd87np0h8gx0kd",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 1)",
+    "matchText": "Choose the most appropriate option to fill in the blank: Rita didn't see me wave to her. She ________ in the other direction.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 101,
+    "incText": "Choose the most appropriate option to fill in the blanks: The accident victim ........ by the time they ........ him to the hospital.",
+    "matchId": "k576gx528v7vvx89ryrnyjwwmn8gxxsb",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 1)",
+    "matchText": "Choose the most appropriate option to fill in the blanks: The accident victim ________ by the time they ________ him to the hospital.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 103,
+    "incText": "Choose the most appropriate option to fill in the blank. After months of recession the economy ........ picking up.",
+    "matchId": "k5734ajv5gvs0v7bwfj9dbe5mn8gxez7",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 1)",
+    "matchText": "Choose the most appropriate option to fill in the blank: After months of recession, the economy ________ picking up.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 105,
+    "incText": "Choose the most appropriate tense form to complete the sentence: Newton discovered that the force of gravity ........ apples fall.",
+    "matchId": "k578ckmcww4veetvzexe7qxps58gxpcd",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate tense form to complete the sentence: Newton discovered that the force of gravity ________ apples fall.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 106,
+    "incText": "Choose the most appropriate tense form to complete the sentence: He rested his horse, as it ........",
+    "matchId": "k579s244we8d3havz3rg8k7x858gxjas",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate tense form to complete the sentence: He rested his horse, as it ________.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 108,
+    "incText": "Choose the most appropriate tense form to complete the sentence: Now that we ........ safe we paused to take a breath.",
+    "matchId": "k571yr5mnwmk1kv3s2xbpv74wh8gw948",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate tense form to complete the sentence: Now that we ________ safe, we paused to take a breath.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 111,
+    "incText": "Fill in the blank in the given sentence by choosing the most appropriate word from the options given below: The secret of her fitness is that she ........ up before sunrise for an hour's speed walk.",
+    "matchId": "rg_eng_000048",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank in the given sentence by choosing the most appropriate word from the options given below : The secret of her fitness is that she ____ up before sunrise for an hour’s speed walk.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 112,
+    "incText": "Choose the most appropriate option to fill in the blank in the given sentence. You're out of breath. ........ ?",
+    "matchId": "k57bwejz5qr498v5m71nmnjm2h8gx0hb",
+    "matchSource": "Convex (Tenses & Sequence of Tenses भाग 2)",
+    "matchText": "Choose the most appropriate option to fill in the blank in the given sentence: You're out of breath. ________?",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 113,
+    "incText": "Fill in the blank in the following sentence with the correct tense: I ........ for jobs on jobhunt.com these days with the hope that I might get called for interviews.",
+    "matchId": "rg_eng_000011",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank in the following sentence with the correct tense : I ____ for jobs on jobhunt.com these days with the hope that I might get called for interviews.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 114,
+    "incText": "Fill in the blank in the following sentence with the correct tense: If he sticks to his exercise regime, he ........ his ideal weight by the end of this year.",
+    "matchId": "rg_eng_000013",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank in the following sentence with the correct tense: If he sticks to his exercise regime, he _____ his ideal weight by the end of this year.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 115,
+    "incText": "Fill in the blank in the following sentence with the correct tense: Jubin ........ the plum cake by this time tomorrow.",
+    "matchId": "rg_eng_000012",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank in the following sentence with the correct tense: Jubin ______ the plum cake by this time tomorrow.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 116,
+    "incText": "Fill in the blank in the following sentence with the most appropriate tense form: The radio ........ since 10 p.m. yesterday. The neighbours were getting disturbed because of it.",
+    "matchId": "rg_eng_000009",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank in the following sentence with the most appropriate tense form: The radio ___ since 10 p.m. yesterday. The neighbours were getting disturbed because of it.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 148,
+    "incText": "Very unwillingly he......... (turn) down the sound of the TV and .........(go) to answer the door bell.",
+    "matchId": "rg_eng_000018",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Select the correct form of the tense from the verbs given in the brackets - Very unwillingly he (turn) down the sound of the TV and (go) to answer the door bell.",
+    "matchType": "Core Sentence Substring + Options Match (4 options)"
+  },
+  {
+    "incNum": 158,
+    "incText": "Fill in the blank by choosing the most appropriate answer from the options given below: He hinted that he ........ some pocket money.",
+    "matchId": "rg_eng_000014",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank by choosing the most appropriate answer from the options given  below : He hinted that he ____ some pocket money.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 161,
+    "incText": "Fill the blank in the following sentence by choosing the correct tense from the options given below: It ........ since early morning.",
+    "matchId": "rg_eng_000008",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill the blank in the following sentence by choosing the correct tense from the options given below : It ____ since early morning.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 171,
+    "incText": "Fill in the blank with the correct form of Tense. I'm ....... that you have time to do a lot of research.",
+    "matchId": "rg_eng_000002",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank with the correct form of Tense. I’m ____ that you have time to do a lot of research.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 172,
+    "incText": "Fill in the blank with the correct form of Tense- I met him in New Delhi in 1990, I ........ him last, five years before.",
+    "matchId": "rg_eng_000001",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Fill in the blank with the correct form of Tense - I met him in New Delhi in 1990. I __________ him last, five years before.",
+    "matchType": "Exact Normalized Text Match"
+  },
+  {
+    "incNum": 180,
+    "incText": "Select the most appropriate sentence which correctly uses the past tense.",
+    "matchId": "rg_eng_000003",
+    "matchSource": "Local 61_Tenses.json",
+    "matchText": "Select the most appropriate sentence which correctly uses the past tense.",
+    "matchType": "Exact Normalized Text Match"
+  }
+]
