@@ -285,7 +285,7 @@ export function AppSidebar() {
       )}
 
       {/* ── DESKTOP PERSISTENT SIDEBAR ── */}
-      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-r border-border bg-card">
+      <aside className="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0 z-30 border-r border-border bg-card print:hidden">
         {/* Brand header */}
         <div className="p-4 border-b border-border/80 flex items-center justify-between">
           <Link href="/dashboard" className="flex items-center gap-2.5 group">

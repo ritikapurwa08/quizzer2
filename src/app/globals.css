@@ -297,12 +297,14 @@ pre {
     --muted: #f8fafc !important;
     --muted-foreground: #475569 !important;
     --border: #cbd5e1 !important;
+    color-scheme: light !important;
   }
 
   html,
   body {
     background: #ffffff !important;
     color: #0f172a !important;
+    color-scheme: light !important;
     font-family: var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif !important;
     font-size: 8.5pt !important;
     line-height: 1.3 !important;
