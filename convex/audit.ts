@@ -261,6 +261,23 @@ export const getLatestAttemptsForInspection = query({
   },
 });
 
+export const getAttemptForAudit = query({
+  args: { attemptId: v.id("attempts") },
+  handler: async (ctx, args) => {
+    return await ctx.db.get(args.attemptId);
+  },
+});
+
+export const getQuestionsForAudit = query({
+  args: { testSetId: v.id("testSets") },
+  handler: async (ctx, args) => {
+    return await ctx.db
+      .query("questions")
+      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
+      .collect();
+  },
+});
+
 
 
 

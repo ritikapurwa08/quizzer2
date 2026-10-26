@@ -12,14 +12,20 @@ interface PdfEndSummaryProps {
 }
 
 export function PdfEndSummary({
-  score = 0,
+  score,
   totalQuestions,
-  correctCount = 0,
-  incorrectCount = 0,
-  unansweredCount = 0,
+  correctCount,
+  incorrectCount,
+  unansweredCount,
 }: PdfEndSummaryProps) {
-  const maxScore = totalQuestions * 2;
-  const percentage = maxScore > 0 ? ((score / maxScore) * 100).toFixed(1) : "0";
+  const safeScore = score ?? 0;
+  const safeTotal = Math.max(1, totalQuestions || 0);
+  const safeCorrect = correctCount ?? 0;
+  const safeIncorrect = incorrectCount ?? 0;
+  const safeUnanswered = unansweredCount ?? 0;
+
+  const maxScore = safeTotal * 2;
+  const percentage = maxScore > 0 ? ((safeScore / maxScore) * 100).toFixed(1) : "0";
 
   return (
     <div className="pdf-closing-summary mt-2 pt-2 border-t border-slate-200 text-slate-800 break-inside-avoid page-break-inside-avoid bg-white">
@@ -34,7 +40,7 @@ export function PdfEndSummary({
             </span>
           </div>
           <p className="text-[6.8pt] text-slate-600 mt-1 leading-normal">
-            Final Result: <strong>{formatScore(score)} / {maxScore} pts ({percentage}%)</strong> • Solved: <strong>{correctCount} Correct</strong>, <strong>{incorrectCount} Incorrect</strong>{unansweredCount > 0 ? `, ${unansweredCount} Skipped` : ""}.
+            Final Result: <strong>{formatScore(safeScore)} / {maxScore} pts ({percentage}%)</strong> • Solved: <strong>{safeCorrect} Correct</strong>, <strong>{safeIncorrect} Incorrect</strong>{safeUnanswered > 0 ? `, ${safeUnanswered} Skipped` : ""}.
           </p>
         </div>
 

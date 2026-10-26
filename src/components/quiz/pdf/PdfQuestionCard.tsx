@@ -28,8 +28,8 @@ interface PdfQuestionCardProps {
 /**
  * Parses markdown bold (**bold**) into strong tags for clean print typesetting
  */
-function renderInlineMarkdown(text: string): React.ReactNode[] {
-  if (!text) return [];
+function renderInlineMarkdown(text?: string | null): React.ReactNode[] {
+  if (typeof text !== "string" || !text) return [];
   const parts: React.ReactNode[] = [];
   const regex = /\*\*(.*?)\*\*/g;
   let lastIndex = 0;
@@ -57,16 +57,19 @@ function renderInlineMarkdown(text: string): React.ReactNode[] {
 /**
  * Splits explanation into Concept and Elimination logic parts if available
  */
-function parseExplanationParts(explanation?: string, meta?: any) {
-  if (meta?.concept || meta?.elimination_logic) {
+function parseExplanationParts(explanation?: unknown, meta?: any) {
+  const metaConcept = typeof meta?.concept === "string" ? meta.concept : null;
+  const metaElim = typeof meta?.elimination_logic === "string" ? meta.elimination_logic : null;
+
+  if (metaConcept || metaElim) {
     return {
-      concept: meta.concept || null,
-      elimination: meta.elimination_logic || null,
+      concept: metaConcept,
+      elimination: metaElim,
       generic: null,
     };
   }
 
-  if (!explanation) return null;
+  if (typeof explanation !== "string" || !explanation.trim()) return null;
 
   // Check for dual-section markers in raw explanation
   const conceptMatch = explanation.match(
@@ -161,12 +164,12 @@ export function PdfQuestionCard({
         </div>
 
         {/* ── Options List ── */}
-        {question.options && question.options.length > 0 && (
+        {Array.isArray(question.options) && question.options.length > 0 && (
           <div className="space-y-0.5 mb-1.5">
-            {question.options.map((opt, idx) => {
+            {question.options.filter(Boolean).map((opt, idx) => {
               const letter = String.fromCharCode(65 + idx);
-              const isCorrect = opt.id === correctOptId;
-              const isSelected = opt.id === userOptId;
+              const isCorrect = Boolean(correctOptId && opt?.id === correctOptId);
+              const isSelected = Boolean(userOptId && opt?.id === userOptId);
 
               let rowClasses = "border-transparent bg-slate-50/40 text-slate-700";
               let letterClasses = "border-slate-200 bg-slate-100 text-slate-600 font-semibold";

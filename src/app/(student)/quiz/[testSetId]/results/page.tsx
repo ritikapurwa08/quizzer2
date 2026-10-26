@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
@@ -78,6 +78,28 @@ export function getSuggestedPdfFileName({
   return baseName;
 }
 
+class PdfReportErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+  componentDidCatch(error: any) {
+    console.error("Printable assessment report render error:", error);
+  }
+  render() {
+    if (this.state.hasError) {
+      return null;
+    }
+    return this.props.children;
+  }
+}
+
 export default function ResultsPage() {
   const { testSetId } = useParams<{ testSetId: string }>();
   const id = testSetId as Id<"testSets">;
@@ -143,6 +165,25 @@ export default function ResultsPage() {
       originalIndex,
     }));
   }, [filteredQuestionsWithIndex]);
+
+  // Derived suggested file name for print / Save As PDF (declared before any early returns)
+  const suggestedFileName = useMemo(() => {
+    return getSuggestedPdfFileName({
+      setName: currentSet?.name,
+      setOrder: currentSet?.order,
+      topicName: topic?.name,
+      topicSlug: topic?.slug,
+      filter: reviewFilter,
+    });
+  }, [currentSet, topic, reviewFilter]);
+
+  // Keep document.title synchronized so the browser automatically populates
+  // the exact test name in Windows "Save Print Output As" / "Save As PDF"
+  useEffect(() => {
+    if (suggestedFileName) {
+      document.title = suggestedFileName;
+    }
+  }, [suggestedFileName]);
 
   // ── Loading state ──
   if (data === undefined || currentSet === undefined) {
@@ -222,25 +263,6 @@ export default function ResultsPage() {
     });
     toggleBookmark({ questionId: questionId as Id<"questions"> });
   }
-
-  // Derived suggested file name for print / Save As PDF
-  const suggestedFileName = useMemo(() => {
-    return getSuggestedPdfFileName({
-      setName: currentSet?.name,
-      setOrder: currentSet?.order,
-      topicName: topic?.name,
-      topicSlug: topic?.slug,
-      filter: reviewFilter,
-    });
-  }, [currentSet, topic, reviewFilter]);
-
-  // Keep document.title synchronized so the browser automatically populates
-  // the exact test name in Windows "Save Print Output As" / "Save As PDF"
-  useEffect(() => {
-    if (suggestedFileName) {
-      document.title = suggestedFileName;
-    }
-  }, [suggestedFileName]);
 
   const handlePrint = (filter?: ReviewFilter) => {
     const activeFilter = filter ?? reviewFilter;
@@ -436,25 +458,27 @@ export default function ResultsPage() {
       </div>
 
       {/* ── Official A4 Two-Column Assessment Report (Shown ONLY during Print) ── */}
-      <PrintableAssessmentReport
-        testSetName={currentSet?.name || "Assessment Report"}
-        subjectName={subject?.name}
-        topicName={topic?.name}
-        score={attempt.score ?? 0}
-        totalQuestions={attempt.totalQuestions}
-        correctCount={correctCount}
-        incorrectCount={incorrectCount}
-        unansweredCount={unansweredCount}
-        submittedAt={attempt.submittedAt}
-        filterLabel={
-          reviewFilter === "all"
-            ? "Complete Question Review"
-            : reviewFilter === "incorrect"
-            ? "Mistake Revision Sheet (Incorrect Only)"
-            : "Correct Answers Only"
-        }
-        questions={evaluatedQuestions}
-      />
+      <PdfReportErrorBoundary>
+        <PrintableAssessmentReport
+          testSetName={currentSet?.name || "Assessment Report"}
+          subjectName={subject?.name}
+          topicName={topic?.name}
+          score={attempt.score ?? 0}
+          totalQuestions={attempt.totalQuestions}
+          correctCount={correctCount}
+          incorrectCount={incorrectCount}
+          unansweredCount={unansweredCount}
+          submittedAt={attempt.submittedAt}
+          filterLabel={
+            reviewFilter === "all"
+              ? "Complete Question Review"
+              : reviewFilter === "incorrect"
+              ? "Mistake Revision Sheet (Incorrect Only)"
+              : "Correct Answers Only"
+          }
+          questions={evaluatedQuestions}
+        />
+      </PdfReportErrorBoundary>
     </>
   );
 }

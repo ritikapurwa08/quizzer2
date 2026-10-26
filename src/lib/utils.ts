@@ -13,15 +13,18 @@ export function slugify(input: string): string {
     .replace(/(^-|-$)/g, "");
 }
 
-export function formatAccuracy(accuracy: number): string {
+export function formatAccuracy(accuracy?: number | null): string {
+  if (accuracy == null || isNaN(accuracy)) return "0.0%";
   return `${accuracy.toFixed(1)}%`;
 }
 
-export function formatScore(score: number): string {
+export function formatScore(score?: number | null): string {
+  if (score == null || isNaN(score)) return "0";
   return Number.isInteger(score) ? String(score) : score.toFixed(2);
 }
 
-export function containsDevanagari(text: string): boolean {
+export function containsDevanagari(text?: string | null): boolean {
+  if (typeof text !== "string") return false;
   return /[\u0900-\u097F]/.test(text);
 }
 

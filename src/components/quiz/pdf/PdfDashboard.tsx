@@ -12,21 +12,25 @@ interface PdfDashboardProps {
 }
 
 export function PdfDashboard({
-  score = 0,
+  score,
   totalQuestions,
-  correctCount = 0,
-  incorrectCount = 0,
-  unansweredCount = 0,
+  correctCount,
+  incorrectCount,
+  unansweredCount,
 }: PdfDashboardProps) {
-  const maxScore = totalQuestions * 2;
-  const accuracy =
-    totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
-  const percentage =
-    maxScore > 0 ? ((score / maxScore) * 100).toFixed(1) : "0";
+  const safeScore = score ?? 0;
+  const safeTotal = Math.max(1, totalQuestions || 0);
+  const safeCorrect = correctCount ?? 0;
+  const safeIncorrect = incorrectCount ?? 0;
+  const safeUnanswered = unansweredCount ?? 0;
 
-  const correctPoints = correctCount * 2;
-  const incorrectPoints = ((incorrectCount * 2) / 3).toFixed(2);
-  const hasSkipped = unansweredCount > 0;
+  const maxScore = safeTotal * 2;
+  const accuracy = Math.round((safeCorrect / safeTotal) * 100);
+  const percentage = maxScore > 0 ? ((safeScore / maxScore) * 100).toFixed(1) : "0";
+
+  const correctPoints = safeCorrect * 2;
+  const incorrectPoints = ((safeIncorrect * 2) / 3).toFixed(2);
+  const hasSkipped = safeUnanswered > 0;
 
   return (
     <div className="pdf-dashboard mb-2 text-slate-900 bg-white">
@@ -38,7 +42,7 @@ export function PdfDashboard({
             TOTAL SCORE
           </p>
           <p className="text-[10pt] font-black text-slate-900 leading-tight tracking-tight mt-0.5">
-            {formatScore(score)}{" "}
+            {formatScore(safeScore)}{" "}
             <span className="text-[6.5pt] font-semibold text-slate-500">
               / {maxScore} ({percentage}%)
             </span>
@@ -51,7 +55,7 @@ export function PdfDashboard({
             CORRECT
           </p>
           <p className="text-[10pt] font-black text-emerald-600 leading-tight tracking-tight mt-0.5">
-            {correctCount}{" "}
+            {safeCorrect}{" "}
             <span className="text-[6.5pt] font-semibold text-emerald-600">
               (+{correctPoints})
             </span>
@@ -64,7 +68,7 @@ export function PdfDashboard({
             INCORRECT
           </p>
           <p className="text-[10pt] font-black text-rose-600 leading-tight tracking-tight mt-0.5">
-            {incorrectCount}{" "}
+            {safeIncorrect}{" "}
             <span className="text-[6.5pt] font-semibold text-rose-600">
               (-{incorrectPoints})
             </span>
@@ -78,7 +82,7 @@ export function PdfDashboard({
               SKIPPED
             </p>
             <p className="text-[10pt] font-black text-slate-600 leading-tight tracking-tight mt-0.5">
-              {unansweredCount}{" "}
+              {safeUnanswered}{" "}
               <span className="text-[6.5pt] font-medium text-slate-500">
                 (0.0)
               </span>
@@ -94,7 +98,7 @@ export function PdfDashboard({
           <p className="text-[10pt] font-black text-blue-700 leading-tight tracking-tight mt-0.5">
             {accuracy}%{" "}
             <span className="text-[6.5pt] font-medium text-slate-500">
-              ({correctCount}/{totalQuestions})
+              ({safeCorrect}/{safeTotal})
             </span>
           </p>
         </div>

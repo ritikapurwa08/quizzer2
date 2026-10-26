@@ -19,19 +19,19 @@ export function PdfHeader({
   submittedAt,
   filterLabel,
 }: PdfHeaderProps) {
-  const formattedDate = submittedAt
-    ? new Date(submittedAt).toLocaleDateString("en-IN", {
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-      })
-    : new Date().toLocaleDateString("en-IN", {
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-      });
+  let formattedDate = "";
+  try {
+    const d = submittedAt && !isNaN(Number(submittedAt)) ? new Date(Number(submittedAt)) : new Date();
+    formattedDate = d.toLocaleDateString("en-IN", {
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+      hour: submittedAt ? "2-digit" : undefined,
+      minute: submittedAt ? "2-digit" : undefined,
+    });
+  } catch {
+    formattedDate = new Date().toLocaleDateString("en-IN");
+  }
 
   const subjectTopicLine = [subjectName, topicName, examReference].filter(Boolean).join(" · ");
 
