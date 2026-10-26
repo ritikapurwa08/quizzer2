@@ -71,7 +71,8 @@ export const dashboardStats = query({
         .query("wrongQuestions")
         .withIndex("by_user_resolved", (q) => q.eq("userId", user._id).eq("resolved", false))
         .collect(),
-      ctx.db.query("subjects").collect(),
+      (await ctx.db.query("subjects").collect())
+        .filter((s) => !s.slug?.includes("english") && !s.name?.toLowerCase().includes("english") && !s.nameHindi?.includes("अंग्रेजी")),
       ctx.db.query("topics").collect(),
       ctx.db.query("testSets").collect(),
     ]);

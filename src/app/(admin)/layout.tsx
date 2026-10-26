@@ -1,7 +1,8 @@
 "use client";
 
-import { Navbar } from "@/components/shared/Navbar";
+import { AppSidebar } from "@/components/shared/AppSidebar";
 import { useAdminGuard } from "@/hooks/useAdminGuard";
+import { AuthGuard } from "@/components/shared/AuthGuard";
 import { ToastProvider } from "@/components/ui/Toast";
 import { LoadingState } from "@/components/shared/LoadingState";
 
@@ -11,20 +12,24 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
-        <LoadingState message="Loading Admin Console..." />
+        <LoadingState message="Verifying Admin Privileges..." />
       </div>
     );
   }
   if (!isAdmin) return null;
 
   return (
-    <ToastProvider>
-      <div className="min-h-screen bg-background text-foreground">
-        <Navbar />
-        <main className="mx-auto max-w-5xl px-3 sm:px-4 md:px-6 py-5 sm:py-6 min-w-0">{children}</main>
-      </div>
-    </ToastProvider>
+    <AuthGuard>
+      <ToastProvider>
+        <div className="min-h-screen bg-background text-foreground flex flex-col md:flex-row">
+          <AppSidebar />
+          <div className="flex-1 min-w-0 md:pl-64 flex flex-col">
+            <main className="mx-auto max-w-6xl w-full px-3.5 sm:px-6 md:px-8 py-5 sm:py-7 min-w-0">
+              {children}
+            </main>
+          </div>
+        </div>
+      </ToastProvider>
+    </AuthGuard>
   );
 }
-
-

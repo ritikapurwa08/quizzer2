@@ -84,10 +84,10 @@ export default function HistoryPage() {
       {/* Header with Horizontal Right-Aligned Filters */}
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-6">
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
             Test History
           </h1>
-          <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
+          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
             Complete record of all test attempts, ordered newest to oldest.
           </p>
         </div>
@@ -103,7 +103,7 @@ export default function HistoryPage() {
             onTopicChange={handleTopicChange}
           />
           {result && (
-            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-zinc-800/80 text-zinc-300 border border-zinc-700/50 whitespace-nowrap">
+            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-muted/80 text-muted-foreground border border-border/80 whitespace-nowrap">
               {filtered.length} {filtered.length === 1 ? "attempt" : "attempts"}
             </div>
           )}

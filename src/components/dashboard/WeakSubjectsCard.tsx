@@ -105,7 +105,7 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
             )}
           </div>
           <p className="text-xs text-muted-foreground mt-0.5">
-            राजस्थान GK के 4 मुख्य विषयों में सटीकता एवं प्रदर्शन विश्लेषण
+            Accuracy and performance breakdown across the 4 core Rajasthan GK subjects
           </p>
         </div>
 
@@ -212,7 +212,7 @@ export function WeakSubjectsCard({ breakdown, subjects }: WeakSubjectsCardProps)
                 ) : (
                   <div className="flex items-center gap-2 py-3 text-xs text-muted-foreground italic">
                     <BookOpen className="h-4 w-4 text-muted-foreground/60" />
-                    <span>अभी तक कोई टेस्ट नहीं दिया गया</span>
+                    <span>No tests attempted yet</span>
                   </div>
                 )}
 

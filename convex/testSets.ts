@@ -135,3 +135,150 @@ export const remove = mutation({
     await ctx.db.delete(args.id);
   },
 });
+
+/**
+ * Returns 2-3 next recommended test sets for the user:
+ * - If user attempted Set 5 of a topic, recommends Set 6!
+ * - If user has an in-progress attempt, recommends resuming it!
+ * - Otherwise recommends fresh unattempted sets from topics.
+ */
+export const nextRecommendedSets = query({
+  args: { limit: v.optional(v.number()) },
+  handler: async (ctx, args) => {
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [];
+    }
+
+    const limit = args.limit ?? 3;
+
+    // 1. Check for any in-progress attempt first (resume)
+    const inProgressAttempts = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "in_progress"))
+      .order("desc")
+      .take(limit);
+
+    // 2. Fetch submitted attempts (newest first)
+    const submittedAttempts = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
+      .order("desc")
+      .take(20);
+
+    const completedSetIds = new Set(submittedAttempts.map((a) => a.testSetId as string));
+    const recommendations: Array<{
+      testSetId: Id<"testSets">;
+      testSetName: string;
+      topicId: Id<"topics">;
+      topicName: string;
+      subjectId: Id<"subjects">;
+      subjectName: string;
+      questionCount: number;
+      badgeText: string;
+      type: "resume" | "next_in_topic" | "new_topic";
+    }> = [];
+
+    const addedSetIds = new Set<string>();
+
+    // Add in-progress attempts first
+    for (const inProgress of inProgressAttempts) {
+      if (recommendations.length >= limit) break;
+      const testSet = await ctx.db.get(inProgress.testSetId);
+      if (!testSet) continue;
+      const topic = await ctx.db.get(testSet.topicId);
+      if (!topic) continue;
+      const subject = await ctx.db.get(topic.subjectId);
+      if (!subject) continue;
+
+      recommendations.push({
+        testSetId: testSet._id,
+        testSetName: testSet.name,
+        topicId: topic._id,
+        topicName: topic.nameHindi || topic.name,
+        subjectId: subject._id,
+        subjectName: subject.nameHindi || subject.name,
+        questionCount: testSet.questionCount,
+        badgeText: "Resume Test",
+        type: "resume",
+      });
+      addedSetIds.add(testSet._id as string);
+    }
+
+    // Now look at recently submitted attempts to find next set in the same topic
+    const seenTopicIds = new Set<string>();
+    for (const sub of submittedAttempts) {
+      if (recommendations.length >= limit) break;
+      const testSet = await ctx.db.get(sub.testSetId);
+      if (!testSet) continue;
+      const topicId = testSet.topicId as string;
+      if (seenTopicIds.has(topicId)) continue;
+      seenTopicIds.add(topicId);
+
+      // Find sibling sets in this topic ordered by order
+      const siblingSets = await ctx.db
+        .query("testSets")
+        .withIndex("by_topic", (q) => q.eq("topicId", testSet.topicId))
+        .collect();
+      siblingSets.sort((a, b) => a.order - b.order);
+
+      // Find the first sibling set with order > current set's order that hasn't been completed
+      const nextSet = siblingSets.find(
+        (s) => s.order > testSet.order && !completedSetIds.has(s._id as string) && !addedSetIds.has(s._id as string)
+      );
+      if (nextSet) {
+        const topic = await ctx.db.get(nextSet.topicId);
+        if (topic) {
+          const subject = await ctx.db.get(topic.subjectId);
+          if (subject) {
+            recommendations.push({
+              testSetId: nextSet._id,
+              testSetName: nextSet.name,
+              topicId: topic._id,
+              topicName: topic.nameHindi || topic.name,
+              subjectId: subject._id,
+              subjectName: subject.nameHindi || subject.name,
+              questionCount: nextSet.questionCount,
+              badgeText: "Next in Topic",
+              type: "next_in_topic",
+            });
+            addedSetIds.add(nextSet._id as string);
+          }
+        }
+      }
+    }
+
+    // If still need more to reach limit, recommend fresh unattempted sets
+    if (recommendations.length < limit) {
+      const allSets = await ctx.db.query("testSets").take(30);
+      for (const set of allSets) {
+        if (recommendations.length >= limit) break;
+        if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
+          const topic = await ctx.db.get(set.topicId);
+          if (topic) {
+            const subject = await ctx.db.get(topic.subjectId);
+            if (subject) {
+              recommendations.push({
+                testSetId: set._id,
+                testSetName: set.name,
+                topicId: topic._id,
+                topicName: topic.nameHindi || topic.name,
+                subjectId: subject._id,
+                subjectName: subject.nameHindi || subject.name,
+                questionCount: set.questionCount,
+                badgeText: "Recommended Practice",
+                type: "new_topic",
+              });
+              addedSetIds.add(set._id as string);
+            }
+          }
+        }
+      }
+    }
+
+    return recommendations;
+  },
+});
+

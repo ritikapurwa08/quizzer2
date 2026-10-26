@@ -28,7 +28,7 @@ export function ResultHistoryItem({
   const isPassed = accuracy >= 60;
   const maxScore = totalQuestions * 2;
 
-  const formattedDate = new Date(submittedAt).toLocaleDateString("hi-IN", {
+  const formattedDate = new Date(submittedAt).toLocaleDateString("en-IN", {
     day: "numeric",
     month: "short",
     year: "numeric",

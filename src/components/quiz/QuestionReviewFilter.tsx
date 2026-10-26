@@ -37,7 +37,7 @@ export function QuestionReviewFilter({
       role="group"
       aria-label="Question Filter"
       className={cn(
-        "inline-flex items-center p-1 bg-zinc-900/80 border border-zinc-800 rounded-xl gap-1",
+        "inline-flex items-center p-1 bg-muted/60 border border-border/80 rounded-xl gap-1 shadow-2xs",
         className
       )}
     >
@@ -47,19 +47,19 @@ export function QuestionReviewFilter({
         onClick={() => onChange("all")}
         aria-pressed={value === "all"}
         className={cn(
-          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none",
           value === "all"
-            ? "bg-zinc-800 text-white shadow-sm"
-            : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/40"
+            ? "bg-background text-foreground shadow-2xs border border-border/60"
+            : "text-muted-foreground hover:text-foreground hover:bg-muted"
         )}
       >
         <span>All</span>
         <span
           className={cn(
-            "px-1.5 py-0.5 rounded-md text-[11px] font-semibold tabular-nums",
+            "px-1.5 py-0.5 rounded-md text-[11px] font-bold tabular-nums",
             value === "all"
-              ? "bg-zinc-700 text-zinc-100"
-              : "bg-zinc-800/80 text-zinc-400"
+              ? "bg-muted text-foreground"
+              : "bg-muted/80 text-muted-foreground"
           )}
         >
           {counts.all}
@@ -72,14 +72,14 @@ export function QuestionReviewFilter({
         onClick={() => onChange("correct")}
         aria-pressed={value === "correct"}
         className={cn(
-          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none",
           value === "correct"
-            ? "bg-emerald-500/15 text-emerald-400 border border-emerald-500/20"
-            : "text-zinc-400 hover:text-emerald-300 hover:bg-zinc-800/40"
+            ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 shadow-2xs"
+            : "text-muted-foreground hover:text-emerald-600 dark:hover:text-emerald-300 hover:bg-muted"
         )}
       >
         <span>Correct</span>
-        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-emerald-500/20 text-emerald-300 font-semibold tabular-nums">
+        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 font-bold tabular-nums">
           {counts.correct}
         </span>
       </button>
@@ -90,14 +90,14 @@ export function QuestionReviewFilter({
         onClick={() => onChange("incorrect")}
         aria-pressed={value === "incorrect"}
         className={cn(
-          "flex items-center gap-2 px-3 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer select-none",
+          "flex items-center gap-2 px-3 py-1.5 text-xs font-semibold rounded-lg transition-all cursor-pointer select-none",
           value === "incorrect"
-            ? "bg-rose-500/15 text-rose-400 border border-rose-500/20"
-            : "text-zinc-400 hover:text-rose-300 hover:bg-zinc-800/40"
+            ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-500/30 shadow-2xs"
+            : "text-muted-foreground hover:text-rose-600 dark:hover:text-rose-300 hover:bg-muted"
         )}
       >
         <span>Incorrect</span>
-        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-rose-500/20 text-rose-300 font-semibold tabular-nums">
+        <span className="px-1.5 py-0.5 rounded-md text-[11px] bg-rose-500/20 text-rose-700 dark:text-rose-300 font-bold tabular-nums">
           {counts.incorrect}
         </span>
       </button>

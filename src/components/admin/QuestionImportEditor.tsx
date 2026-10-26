@@ -541,7 +541,7 @@ export function QuestionImportEditor({
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-4">
-          <div className="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
             <div>
               <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
                 Subject
@@ -610,7 +610,7 @@ export function QuestionImportEditor({
                 value={subtopicName}
                 onChange={(e) => onSubtopicNameChange(e.target.value)}
                 disabled={!selectedTopicId}
-                placeholder={selectedTopicId ? "e.g. राजस्थान मेरे लिए भाग 1" : "Select a topic first"}
+                placeholder={selectedTopicId ? "e.g. राजस्थान की जलवायु भाग 1" : "Select a topic first"}
                 className={cn(
                   "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
                   isDuplicateSetName

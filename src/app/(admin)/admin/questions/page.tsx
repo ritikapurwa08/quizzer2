@@ -246,23 +246,23 @@ export default function AdminQuestionsPage() {
 
       {/* ── Results Area ── */}
       {!hasFilterActive ? (
-        <p className="text-sm text-muted-foreground py-12 text-center font-hindi">
-          प्रश्न खोजने के लिए ऊपर खोजें या विषय / टॉपिक फ़िल्टर चुनें।
+        <p className="text-sm text-muted-foreground py-12 text-center">
+          Use the search bar above or choose a subject/topic filter to find questions.
         </p>
       ) : isSearching ? (
-        <div className="flex items-center justify-center py-14 text-sm text-muted-foreground gap-2.5 font-hindi">
+        <div className="flex items-center justify-center py-14 text-sm text-muted-foreground gap-2.5">
           <LoadingSpinner size="sm" />
-          <span>खोज रहे हैं…</span>
+          <span>Searching question bank…</span>
         </div>
       ) : (
         <div className="space-y-4">
           <div className="flex items-center justify-between text-xs text-muted-foreground px-1">
             <span>
-              कुल परिणाम: <strong className="text-foreground">{results.length}</strong>
+              Total Results: <strong className="text-foreground">{results.length}</strong>
             </span>
             {totalPages > 1 && (
               <span>
-                पृष्ठ {page + 1} / {totalPages}
+                Page {page + 1} of {totalPages}
               </span>
             )}
           </div>
@@ -270,7 +270,7 @@ export default function AdminQuestionsPage() {
           <DataTable
             rows={paginatedResults}
             rowKey={(q) => q._id}
-            emptyMessage="कोई प्रश्न नहीं मिला।"
+            emptyMessage="No questions found matching your criteria."
             columns={[
               {
                 header: "Question",
@@ -363,7 +363,7 @@ export default function AdminQuestionsPage() {
               isLastPage={page >= totalPages - 1}
               onPrev={() => setPage((p) => Math.max(0, p - 1))}
               onNext={() => setPage((p) => Math.min(totalPages - 1, p + 1))}
-              label={`पृष्ठ ${page + 1} / ${totalPages}`}
+              label={`Page ${page + 1} of ${totalPages}`}
             />
           )}
         </div>

@@ -111,21 +111,21 @@ export default function WrongQuestionsPage() {
         items={[{ label: "Dashboard", href: "/dashboard" }, { label: "Wrong Questions" }]}
       />
 
-      {/* Header with Horizontal Responsive Filters */}
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-6">
-        {/* Left: Title & Subtitle */}
-        <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
-            Wrong Questions Practice
-          </h1>
-          <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
-            Questions answered incorrectly in tests are automatically saved here for targeted revision.
-          </p>
-        </div>
+      {/* Header */}
+      <div>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
+          Wrong Questions Practice
+        </h1>
+        <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+          Questions answered incorrectly in tests are automatically saved here for targeted revision.
+        </p>
+      </div>
 
-        {/* Right: Responsive Filter Toolbar */}
-        <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
+      {/* Dedicated Aligned Filter Toolbar */}
+      <div className="p-3 sm:p-3.5 rounded-2xl border border-border/80 bg-card shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div className="flex-1 min-w-0">
           <FilterBar
+            className="w-full grid grid-cols-1 sm:grid-cols-3 gap-2.5"
             subjects={subjectOptions}
             selectedSubject={selectedSubjectId}
             onSubjectChange={handleSubjectChange}
@@ -136,12 +136,13 @@ export default function WrongQuestionsPage() {
             selectedSort={sortBy}
             onSortChange={handleSortChange}
           />
-          {data && (
-            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-zinc-800/80 text-zinc-300 border border-zinc-700/50 whitespace-nowrap">
-              {filteredAndSorted.length} {filteredAndSorted.length === 1 ? "question" : "questions"}
-            </div>
-          )}
         </div>
+
+        {data && (
+          <div className="inline-flex items-center justify-center px-3 py-2 rounded-xl text-xs font-semibold bg-muted text-foreground border border-border/80 self-start md:self-center shrink-0 tabular-nums whitespace-nowrap">
+            {filteredAndSorted.length} {filteredAndSorted.length === 1 ? "question" : "questions"}
+          </div>
+        )}
       </div>
 
       {/* Loading state */}

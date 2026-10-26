@@ -568,7 +568,7 @@ export const seedEnglishSyllabus = mutation({
   args: {},
   handler: async (ctx) => {
     // 1. Upsert English Subject
-    let subject = await ctx.db
+    const subject = await ctx.db
       .query("subjects")
       .withIndex("by_slug", (q) => q.eq("slug", "english"))
       .unique();

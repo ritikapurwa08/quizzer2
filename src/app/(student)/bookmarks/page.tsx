@@ -80,10 +80,10 @@ export default function BookmarksPage() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-6">
         {/* Left: Title & Subtitle */}
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
+          <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
             Saved Bookmarks
           </h1>
-          <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
+          <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
             Important questions saved by you for quick revision.
           </p>
         </div>
@@ -99,7 +99,7 @@ export default function BookmarksPage() {
             onTopicChange={handleTopicChange}
           />
           {allBookmarks && (
-            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-zinc-800/80 text-zinc-300 border border-zinc-700/50 whitespace-nowrap">
+            <div className="inline-flex items-center px-2.5 py-1.5 rounded-lg text-xs font-medium bg-muted/80 text-muted-foreground border border-border/80 whitespace-nowrap">
               {filtered.length} {filtered.length === 1 ? "bookmark" : "bookmarks"}
             </div>
           )}

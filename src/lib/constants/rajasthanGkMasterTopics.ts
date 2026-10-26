@@ -163,5 +163,4 @@ export const RAJASTHAN_GK_MASTER_SECTIONS: MasterSection[] = [
       { id: 55, name: "Major Research and Study Centers of Rajasthan", nameHindi: "राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र" },
     ],
   },
-  ENGLISH_MASTER_SECTION,
 ];

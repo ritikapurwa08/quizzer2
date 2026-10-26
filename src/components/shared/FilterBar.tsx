@@ -50,11 +50,11 @@ export function FilterBar({
   return (
     <div className={cn("flex flex-wrap items-center gap-2 sm:gap-2.5", className)}>
       {/* Subject filter */}
-      <div className="w-full sm:w-auto min-w-[160px] max-w-[220px]">
+      <div className="w-full min-w-0 flex-1">
         <Select value={selectedSubject} onValueChange={(v) => onSubjectChange(v ?? selectedSubject)}>
           <SelectTrigger
             id="filter-subject"
-            className="h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
+            className="h-9.5 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
             aria-label="Select Subject"
           >
             <SelectValue placeholder="Select Subject" className="truncate">
@@ -76,7 +76,7 @@ export function FilterBar({
 
       {/* Topic filter — placeholder with disabled state to avoid sudden layout jump */}
       {onTopicChange && (
-        <div className="w-full sm:w-auto min-w-[160px] max-w-[220px]">
+        <div className="w-full min-w-0 flex-1">
           <Select
             value={isTopicDisabled ? "all" : (selectedTopic ?? "all")}
             onValueChange={(v) => onTopicChange(v ?? "all")}
@@ -85,7 +85,7 @@ export function FilterBar({
             <SelectTrigger
               id="filter-topic"
               className={cn(
-                "h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer",
+                "h-9.5 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer",
                 isTopicDisabled && "opacity-50 cursor-not-allowed"
               )}
               aria-label="Select Topic"
@@ -114,14 +114,14 @@ export function FilterBar({
 
       {/* Sort options */}
       {sortOptions && sortOptions.length > 0 && onSortChange && (
-        <div className="w-full sm:w-auto min-w-[140px] max-w-[180px]">
+        <div className="w-full min-w-0 flex-1">
           <Select
             value={selectedSort ?? sortOptions[0].value}
             onValueChange={(v) => onSortChange(v ?? sortOptions[0].value)}
           >
             <SelectTrigger
               id="filter-sort"
-              className="h-9 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
+              className="h-9.5 w-full text-xs sm:text-sm font-medium rounded-xl border-border bg-card shadow-xs truncate cursor-pointer"
               aria-label="Sort By"
             >
               <SelectValue placeholder="Sort By" className="truncate">

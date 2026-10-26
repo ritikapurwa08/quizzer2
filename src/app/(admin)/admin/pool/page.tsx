@@ -129,10 +129,11 @@ export default function AdminPoolOverviewPage() {
   }, []);
 
   // Filtered and Sorted Topics
+  const topics = data?.topics;
   const filteredTopics = useMemo(() => {
-    if (!data?.topics) return [];
+    if (!topics) return [];
 
-    let list = [...data.topics];
+    let list = [...topics];
 
     // Subject Filter
     if (selectedSubject !== null) {
@@ -180,7 +181,7 @@ export default function AdminPoolOverviewPage() {
     });
 
     return list;
-  }, [data?.topics, selectedSubject, statusFilter, searchQuery, sortBy]);
+  }, [topics, selectedSubject, statusFilter, searchQuery, sortBy]);
 
   if (loading && !data) {
     return (
@@ -211,15 +212,15 @@ export default function AdminPoolOverviewPage() {
         <div className="p-3 w-14 h-14 mx-auto rounded-full bg-destructive/10 text-destructive flex items-center justify-center">
           <AlertTriangle className="h-7 w-7" />
         </div>
-        <h2 className="text-xl font-bold text-foreground">डेटा लोड करने में असमर्थ</h2>
+        <h2 className="text-xl font-bold text-foreground">Unable to Load Data</h2>
         <p className="text-sm text-muted-foreground">{error}</p>
         <Button onClick={fetchOverview} className="gap-2">
-          <RefreshCw className="h-4 w-4" /> पुनः प्रयास करें
+          <RefreshCw className="h-4 w-4" /> Retry
         </Button>
       </div>
     );
   }
- 
+
   if (!data) {
     return null;
   }
@@ -241,10 +242,10 @@ export default function AdminPoolOverviewPage() {
           </div>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-foreground flex items-center gap-2.5">
             <Database className="h-7 w-7 text-primary" />
-            क्वेश्चन पूल एवं इन्वेंट्री (Question Pool & Inventory)
+            Question Pool & Inventory
           </h1>
           <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-            मास्टर पूल ({summary.totalPoolQuestions.toLocaleString()} प्रश्न), लाइव टेस्ट सेट्स एवं विषयवार प्रगति का आधिकारिक डैशबोर्ड
+            Master pool ({summary.totalPoolQuestions.toLocaleString()} questions), live test sets, and official topic inventory dashboard
           </p>
         </div>
 
@@ -257,13 +258,13 @@ export default function AdminPoolOverviewPage() {
             className="text-xs h-9 gap-1.5 rounded-xl cursor-pointer"
           >
             <RefreshCw className={`h-3.5 w-3.5 ${loading ? "animate-spin" : ""}`} />
-            रीफ्रेश
+            Refresh
           </Button>
 
           <Link href="/admin/import">
             <Button size="sm" className="text-xs h-9 gap-1.5 rounded-xl shadow-xs cursor-pointer">
               <PlusCircle className="h-4 w-4" />
-              नया सेट इम्पोर्ट
+              Import New Set
             </Button>
           </Link>
         </div>
@@ -275,7 +276,7 @@ export default function AdminPoolOverviewPage() {
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
-              मास्टर पूल (कुल)
+              Master Pool (Total)
             </span>
             <div className="p-2 rounded-xl bg-primary/10 text-primary">
               <Database className="h-4 w-4" />
@@ -285,7 +286,7 @@ export default function AdminPoolOverviewPage() {
             <div className="text-2xl sm:text-3xl font-black text-foreground tabular-nums">
               {summary.totalPoolQuestions.toLocaleString()}
             </div>
-            <p className="text-[11px] text-muted-foreground mt-0.5">55 कैनोनिकल टॉपिक्स में</p>
+            <p className="text-[11px] text-muted-foreground mt-0.5">Across 55 canonical topics</p>
           </div>
         </Card>
 
@@ -293,7 +294,7 @@ export default function AdminPoolOverviewPage() {
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
-              लाइव टेस्ट सेट्स
+              Live Test Sets
             </span>
             <div className="p-2 rounded-xl bg-blue-500/10 text-blue-500">
               <Layers className="h-4 w-4" />
@@ -301,10 +302,10 @@ export default function AdminPoolOverviewPage() {
           </div>
           <div className="mt-2">
             <div className="text-2xl sm:text-3xl font-black text-foreground tabular-nums">
-              {summary.totalLiveSets} <span className="text-sm font-semibold text-muted-foreground">सेट्स</span>
+              {summary.totalLiveSets} <span className="text-sm font-semibold text-muted-foreground">Sets</span>
             </div>
             <p className="text-[11px] text-muted-foreground mt-0.5">
-              {summary.totalLiveQuestions.toLocaleString()} प्रश्न डेटाबेस में
+              {summary.totalLiveQuestions.toLocaleString()} questions in database
             </p>
           </div>
         </Card>
@@ -313,7 +314,7 @@ export default function AdminPoolOverviewPage() {
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
-              यूनिक प्रश्न इम्पोर्ट
+              Unique Questions Imported
             </span>
             <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500">
               <CheckCircle2 className="h-4 w-4" />
@@ -324,7 +325,7 @@ export default function AdminPoolOverviewPage() {
               {summary.totalUniqueUsed.toLocaleString()}
             </div>
             <p className="text-[11px] text-muted-foreground mt-0.5">
-              {Math.round((summary.totalUniqueUsed / summary.totalPoolQuestions) * 100)}% मास्टर पूल तैयार
+              {Math.round((summary.totalUniqueUsed / summary.totalPoolQuestions) * 100)}% master pool deployed
             </p>
           </div>
         </Card>
@@ -333,7 +334,7 @@ export default function AdminPoolOverviewPage() {
         <Card className="p-4 bg-card border border-border/80 rounded-2xl shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
-              शेष प्रश्न (पूल में)
+              Unused Questions (In Pool)
             </span>
             <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500">
               <Clock className="h-4 w-4" />
@@ -344,7 +345,7 @@ export default function AdminPoolOverviewPage() {
               {summary.totalRemaining.toLocaleString()}
             </div>
             <p className="text-[11px] text-muted-foreground mt-0.5">
-              लगभग ~{Math.round(summary.totalRemaining / 20)} नए सेट्स उपलब्ध
+              ~{Math.round(summary.totalRemaining / 20)} new sets available
             </p>
           </div>
         </Card>
@@ -360,7 +361,7 @@ export default function AdminPoolOverviewPage() {
         >
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-              डुप्लिकेट स्थिति
+              Duplicate Status
             </span>
             <div
               className={`p-2 rounded-xl ${
@@ -381,7 +382,7 @@ export default function AdminPoolOverviewPage() {
               {summary.totalDuplicatesInDb}
             </div>
             <p className="text-[11px] text-muted-foreground mt-0.5 flex items-center gap-1 font-medium underline">
-              विस्तार देखें व ऑडिट <ChevronRight className="h-3 w-3" />
+              View Audit Details <ChevronRight className="h-3 w-3" />
             </p>
           </div>
         </Card>
@@ -396,7 +397,7 @@ export default function AdminPoolOverviewPage() {
           <div className="space-y-1.5 flex-1 min-w-0">
             <div className="flex items-center justify-between">
               <h3 className="text-sm font-bold text-foreground">
-                सिलेबस अनुबंध एवं टॉपिक मैपिंग ऑडिट (Syllabus Integrity Contract)
+                Syllabus Integrity Contract & Topic Audit
               </h3>
               <Button
                 variant="ghost"
@@ -404,35 +405,35 @@ export default function AdminPoolOverviewPage() {
                 onClick={() => setShowContractInfo(!showContractInfo)}
                 className="text-xs h-7 px-2 text-primary hover:text-primary hover:bg-primary/10"
               >
-                {showContractInfo ? "संक्षिप्त करें" : "विस्तृत विवरण देखें"}
+                {showContractInfo ? "Collapse" : "View Details"}
                 <ChevronDown className={`h-3.5 w-3.5 ml-1 transition-transform ${showContractInfo ? "rotate-180" : ""}`} />
               </Button>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              सभी 15,949 प्रश्न RPSC 2nd Grade के आधिकारिक पाठ्यक्रम के अनुसार 55 मास्टर टॉपिक्स में व्यवस्थित हैं। किसी भी टॉपिक में असंबंधित प्रश्न नहीं जोड़े गए हैं।
+              All 15,949 questions are organized across 55 master topics strictly aligned with the official RPSC 2nd Grade syllabus contract. Clutter, science & tech, and extraneous budget topics have been eliminated.
             </p>
 
             {showContractInfo && (
               <div className="mt-3 pt-3 border-t border-border/80 grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-muted-foreground animate-in fade-in-50 duration-200">
                 <div className="p-3 rounded-xl bg-card border border-border/60">
                   <span className="font-bold text-foreground block mb-1">
-                    1. टॉपिक 1 (सामान्य ज्ञान) vs टॉपिक 8 (वन्यजीव)
+                    1. Topic 1 (General Knowledge) vs Topic 8 (Wildlife)
                   </span>
-                  टॉपिक 1 में केवल राजस्थान के आधिकारिक <strong>प्रतीक चिन्ह</strong> (खेजड़ी, रोहिड़ा, गोडावण) व 33 जिलों के आधिकारिक <strong>वन्यजीव शुभंकर</strong> हैं। राष्ट्रीय उद्यान व अभयारण्य के सभी 716 प्रश्न टॉपिक 8 में सुरक्षित हैं।
+                  Topic 1 contains only official Rajasthan state symbols and district mascots. National parks, sanctuaries, and conservation reserves are strictly organized under Topic 8.
                 </div>
 
                 <div className="p-3 rounded-xl bg-card border border-border/60">
                   <span className="font-bold text-foreground block mb-1">
-                    2. टॉपिक 2 में 1,075 प्रश्न क्यों हैं?
+                    2. Topic 2 Pool Size (1,075 Questions)
                   </span>
-                  राजस्थान का भौतिक भूगोल सबसे विस्तृत विषय है (भौतिक स्वरूप 574 Qs + विशेषताएं 159 Qs + सीमा 148 Qs + मरुस्थलीकरण 98 Qs + जिले व संभाग 96 Qs)। कुल 54 सेट्स बनते हैं।
+                  Physical Geography is the most extensive section (Physical Features 574 Qs + Characteristics 159 Qs + Borders 148 Qs + Desertification 98 Qs + Districts & Divisions 96 Qs), yielding ~54 sets.
                 </div>
 
                 <div className="p-3 rounded-xl bg-card border border-border/60">
                   <span className="font-bold text-foreground block mb-1">
-                    3. 73 से 55 टॉपिक्स का रूपांतरण
+                    3. Rationalization from 73 to 55 Topics
                   </span>
-                  इतिहास में अलग-अलग बिखरे 9 राजपूत राजवंशों को आधिकारिक सिलेबस टॉपिक 17 (राजपूत राजवंश व प्रशासन) में एक साथ रखा गया है। असंबंधित विषय (साइंस व बजट) हटाए गए हैं।
+                  Nine scattered Rajput dynasties have been unified under official syllabus Topic 17 (Rajput Dynasties & Administration). Extraneous non-GK content has been eliminated.
                 </div>
               </div>
             )}
@@ -451,7 +452,7 @@ export default function AdminPoolOverviewPage() {
               : "bg-muted/60 text-muted-foreground hover:bg-muted hover:text-foreground"
           }`}
         >
-          सभी {summary.totalMasterTopics} टॉपिक्स ({summary.totalPoolQuestions.toLocaleString()} Qs)
+          All {summary.totalMasterTopics} Topics ({summary.totalPoolQuestions.toLocaleString()} Qs)
         </button>
 
         {data.sections.map((sec) => {
@@ -488,7 +489,7 @@ export default function AdminPoolOverviewPage() {
           <Input
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="टॉपिक नाम, सब-टॉपिक या संख्या से खोजें (उदा. 'भौतिक', 'मेले', 'Topic 2')..."
+            placeholder="Search by topic name, sub-topic, or topic number..."
             className="pl-9 h-9 text-xs rounded-xl border-border bg-background"
           />
           {searchQuery && (
@@ -512,10 +513,10 @@ export default function AdminPoolOverviewPage() {
               <SelectValue />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
-              <SelectItem value="all">सभी स्थितियाँ</SelectItem>
-              <SelectItem value="completed">पूर्ण (100%)</SelectItem>
-              <SelectItem value="in_progress">प्रगति पर (&gt;0%)</SelectItem>
-              <SelectItem value="not_started">शुरू नहीं (0%)</SelectItem>
+              <SelectItem value="all">All Statuses</SelectItem>
+              <SelectItem value="completed">Completed (100%)</SelectItem>
+              <SelectItem value="in_progress">In Progress (&gt;0%)</SelectItem>
+              <SelectItem value="not_started">Not Started (0%)</SelectItem>
             </SelectContent>
           </Select>
 
@@ -528,11 +529,11 @@ export default function AdminPoolOverviewPage() {
               <SelectValue />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
-              <SelectItem value="id_asc">टॉपिक # (1 से 55)</SelectItem>
-              <SelectItem value="id_desc">टॉपिक # (55 से 1)</SelectItem>
-              <SelectItem value="pool_desc">सबसे बड़ा पूल (प्रश्न संख्या)</SelectItem>
-              <SelectItem value="remaining_desc">सर्वाधिक शेष प्रश्न</SelectItem>
-              <SelectItem value="progress_desc">प्रगति प्रतिशत (%)</SelectItem>
+              <SelectItem value="id_asc">Topic # (1 to 55)</SelectItem>
+              <SelectItem value="id_desc">Topic # (55 to 1)</SelectItem>
+              <SelectItem value="pool_desc">Largest Pool (Questions)</SelectItem>
+              <SelectItem value="remaining_desc">Most Unused Questions</SelectItem>
+              <SelectItem value="progress_desc">Completion Progress (%)</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -542,16 +543,16 @@ export default function AdminPoolOverviewPage() {
       <div className="space-y-3">
         <div className="flex items-center justify-between text-xs text-muted-foreground px-1">
           <span>
-            प्रदर्शित टॉपिक्स: <strong>{filteredTopics.length}</strong> / 55
+            Displayed Topics: <strong>{filteredTopics.length}</strong> / 55
           </span>
-          <span>क्लिक करके सब-टॉपिक ब्रेकडाउन व टेस्ट सेट्स देखें</span>
+          <span>Click topic to view subtopic breakdown & test sets</span>
         </div>
 
         {filteredTopics.length === 0 ? (
           <div className="text-center py-12 bg-card rounded-2xl border border-border p-6 space-y-2">
             <HelpCircle className="h-8 w-8 text-muted-foreground mx-auto" />
-            <p className="text-sm font-semibold text-foreground">कोई टॉपिक नहीं मिला</p>
-            <p className="text-xs text-muted-foreground">अपनी खोज या फ़िल्टर शर्तें बदलें।</p>
+            <p className="text-sm font-semibold text-foreground">No topics found</p>
+            <p className="text-xs text-muted-foreground">Try adjusting your search query or status filter.</p>
           </div>
         ) : (
           filteredTopics.map((topic) => {
@@ -587,12 +588,12 @@ export default function AdminPoolOverviewPage() {
                         </span>
                         {hasDuplicates && (
                           <Badge variant="destructive" className="text-[10px] px-1.5 py-0 h-4">
-                            डुप्लिकेट चिन्हित
+                            Duplicates Flagged
                           </Badge>
                         )}
                         {topic.percentComplete === 100 && (
                           <Badge className="text-[10px] px-1.5 py-0 h-4 bg-emerald-500 hover:bg-emerald-600 text-white">
-                            100% पूर्ण
+                            100% Complete
                           </Badge>
                         )}
                       </div>
@@ -609,14 +610,14 @@ export default function AdminPoolOverviewPage() {
                     {/* Compact Metrics Pills */}
                     <div className="flex items-center gap-2 text-xs">
                       <div className="text-right">
-                        <span className="text-[10px] text-muted-foreground block font-medium">पूल</span>
+                        <span className="text-[10px] text-muted-foreground block font-medium">Pool</span>
                         <strong className="text-foreground tabular-nums">{topic.poolTotal}</strong>
                       </div>
 
                       <div className="h-6 w-px bg-border/80" />
 
                       <div className="text-right">
-                        <span className="text-[10px] text-muted-foreground block font-medium">लाइव सेट्स</span>
+                        <span className="text-[10px] text-muted-foreground block font-medium">Live Sets</span>
                         <strong className="text-foreground tabular-nums">
                           {topic.liveSetsCount} <span className="text-[10px] text-muted-foreground">({topic.liveQuestionsCount} Qs)</span>
                         </strong>
@@ -625,7 +626,7 @@ export default function AdminPoolOverviewPage() {
                       <div className="h-6 w-px bg-border/80" />
 
                       <div className="text-right">
-                        <span className="text-[10px] text-muted-foreground block font-medium">शेष प्रश्न</span>
+                        <span className="text-[10px] text-muted-foreground block font-medium">Unused Qs</span>
                         <strong
                           className={`tabular-nums ${
                             topic.remaining > 0 ? "text-amber-500 font-bold" : "text-emerald-500 font-bold"
@@ -675,7 +676,7 @@ export default function AdminPoolOverviewPage() {
                       <div className="space-y-2">
                         <h4 className="text-xs font-bold text-foreground uppercase tracking-wider flex items-center gap-1.5">
                           <FolderTree className="h-3.5 w-3.5 text-primary" />
-                          सब-टॉपिक / स्त्रोत विवरण (Subtopic Question Sources)
+                          Subtopic Question Sources
                         </h4>
                         <div className="flex flex-wrap gap-1.5">
                           {topic.subtopics.map((sub, sIdx) => (
@@ -697,16 +698,16 @@ export default function AdminPoolOverviewPage() {
                         <div className="flex items-center justify-between">
                           <h4 className="text-xs font-bold text-foreground uppercase tracking-wider flex items-center gap-1.5">
                             <Layers className="h-3.5 w-3.5 text-blue-500" />
-                            लाइव सेट्स ({topic.sets.length} सेट्स)
+                            Live Sets ({topic.sets.length} Sets)
                           </h4>
                           <span className="text-[11px] text-muted-foreground">
-                            यूनिक प्रश्न: {topic.uniqueUsed} / {topic.poolTotal}
+                            Unique Qs: {topic.uniqueUsed} / {topic.poolTotal}
                           </span>
                         </div>
 
                         {topic.sets.length === 0 ? (
                           <div className="p-3 rounded-xl bg-card border border-border text-xs text-muted-foreground text-center">
-                            इस टॉपिक के लिए अभी कोई टेस्ट सेट इम्पोर्ट नहीं हुआ है।
+                            No test sets have been imported for this topic yet.
                           </div>
                         ) : (
                           <div className="max-h-36 overflow-y-auto space-y-1 pr-1 scrollbar-thin">
@@ -717,7 +718,7 @@ export default function AdminPoolOverviewPage() {
                               >
                                 <span className="font-medium text-foreground truncate pr-2">{s.name}</span>
                                 <Badge variant="secondary" className="text-[10px] px-1.5 h-5 shrink-0">
-                                  {s.count} प्रश्न
+                                  {s.count} Qs
                                 </Badge>
                               </div>
                             ))}
@@ -731,13 +732,13 @@ export default function AdminPoolOverviewPage() {
                       <div className="text-xs text-muted-foreground">
                         {topic.remaining > 0 ? (
                           <span>
-                            पूल में <strong>{topic.remaining}</strong> प्रश्न शेष हैं (~
-                            {Math.ceil(topic.remaining / 20)} और सेट्स बन सकते हैं)
+                            <strong>{topic.remaining}</strong> questions remaining in pool (~
+                            {Math.ceil(topic.remaining / 20)} sets available)
                           </span>
                         ) : (
                           <span className="text-emerald-500 font-bold flex items-center gap-1">
                             <CheckCircle2 className="h-3.5 w-3.5" />
-                            यह टॉपिक 100% इम्पोर्ट हो चुका है!
+                            Topic is 100% imported!
                           </span>
                         )}
                       </div>
@@ -747,7 +748,7 @@ export default function AdminPoolOverviewPage() {
                           <Link href={`/admin/import?masterTopicId=${topic.id}`}>
                             <Button size="sm" className="h-8 text-xs gap-1.5 rounded-xl cursor-pointer">
                               <PlusCircle className="h-3.5 w-3.5" />
-                              अगला सेट इम्पोर्ट करें
+                              Import Next Set
                             </Button>
                           </Link>
                         )}
@@ -771,15 +772,15 @@ export default function AdminPoolOverviewPage() {
                   <AlertTriangle className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="text-base font-bold text-foreground">डुप्लिकेट प्रश्न ऑडिट रिपोर्ट</h3>
+                  <h3 className="text-base font-bold text-foreground">Duplicate Questions Audit Report</h3>
                   <p className="text-xs text-muted-foreground">
-                    डेटाबेस में कुल 200 डुप्लिकेट प्रश्न चिन्हित हुए हैं (52 टॉपिक्स में 0 डुप्लिकेट हैं)
+                    A total of 200 duplicate questions were flagged in legacy imports (52 topics have 0 duplicates).
                   </p>
                 </div>
               </div>
               <button
                 onClick={() => setShowDuplicateModal(false)}
-                className="text-muted-foreground hover:text-foreground text-sm p-1"
+                className="text-muted-foreground hover:text-foreground text-sm p-1 cursor-pointer"
               >
                 ✕
               </button>
@@ -788,45 +789,45 @@ export default function AdminPoolOverviewPage() {
             <div className="space-y-3 text-xs leading-relaxed text-muted-foreground">
               <div className="p-3.5 rounded-2xl bg-destructive/5 border border-destructive/20 space-y-2">
                 <span className="font-bold text-destructive block text-sm">
-                  1. टॉपिक 2 (राजस्थान का भौतिक स्वरूप) — 100 डुप्लिकेट
+                  1. Topic 2 (Physical Geography) — 100 duplicates
                 </span>
                 <p>
-                  <strong>कारण:</strong> पूर्व में अपलोड किए गए <strong>Part 1 से Part 5</strong> (100 प्रश्न) को आज दोबारा <strong>भाग 6 से भाग 11</strong> के रूप में अपलोड कर दिया गया था। भाग 12 से 32 पूर्णतः नए और यूनिक प्रश्न हैं।
+                  <strong>Cause:</strong> Previously uploaded Parts 1 to 5 (100 Qs) were re-uploaded in legacy runs as Parts 6 to 11. Parts 12 through 32 are 100% fresh and unique.
                 </p>
                 <p className="text-foreground">
-                  <strong>समाधान:</strong> कैंडिडेट सेट जनरेटर को अपडेट कर दिया गया है ताकि वह कभी भी प्रयुक्त प्रश्नों को दोबारा न चुने।
+                  <strong>Resolution:</strong> Candidate set generator was updated to strictly exclude previously used questions.
                 </p>
               </div>
 
               <div className="p-3.5 rounded-2xl bg-amber-500/5 border border-amber-500/20 space-y-2">
                 <span className="font-bold text-amber-500 block text-sm">
-                  2. टॉपिक 6 (नदियाँ एवं झीलें) — 80 डुप्लिकेट
+                  2. Topic 6 (Drainage & Lakes) — 80 duplicates
                 </span>
                 <p>
-                  <strong>कारण:</strong> पुराने री-मैप किए गए सेट्स <em>"राजस्थान की नदियाँ एवं जल संसाधन Part 1-4"</em> और वर्तमान सेट्स <em>"राजस्थान का अपवाह तंत्र, नदियाँ एवं झीलें Part 1-6"</em> के बीच 80 प्रश्न ओवरलैप हैं।
+                  <strong>Cause:</strong> 80 questions overlap between legacy sets <em>&quot;Rajasthan Rivers &amp; Water Resources Parts 1-4&quot;</em> and current sets <em>&quot;Rajasthan Drainage System, Rivers &amp; Lakes Parts 1-6&quot;</em>.
                 </p>
               </div>
 
               <div className="p-3.5 rounded-2xl bg-muted border border-border/80 space-y-1">
                 <span className="font-bold text-foreground block text-sm">
-                  3. टॉपिक 27 (त्योहार) — 20 डुप्लिकेट
+                  3. Topic 27 (Festivals) — 20 duplicates
                 </span>
-                <p>Part 3 और Parts 1-2 के मध्य 20 प्रश्न ओवरलैप हैं।</p>
+                <p>20 questions overlap between Part 3 and Parts 1-2.</p>
               </div>
 
               <div className="p-3.5 rounded-2xl bg-emerald-500/5 border border-emerald-500/20 text-emerald-500">
                 <span className="font-bold block text-sm">
-                  ✓ शेष 52 टॉपिक्स में 0 डुप्लिकेट (100% क्लीन)
+                  ✓ Remaining 52 Topics: 0 Duplicates (100% Clean)
                 </span>
                 <p className="text-muted-foreground mt-0.5">
-                  बाकी सभी 52 टॉपिक्स में कोई डुप्लीकेशन नहीं है और सभी प्रश्न यूनिक हैं।
+                  All remaining 52 topics have zero duplication; all questions are unique.
                 </p>
               </div>
             </div>
 
             <div className="flex justify-end pt-2">
-              <Button onClick={() => setShowDuplicateModal(false)} className="rounded-xl text-xs">
-                समझ गया (Close)
+              <Button onClick={() => setShowDuplicateModal(false)} className="rounded-xl text-xs cursor-pointer">
+                Close
               </Button>
             </div>
           </div>

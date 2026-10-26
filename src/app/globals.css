@@ -215,14 +215,17 @@ pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-::selection {
-  background: rgb(0 0 0 / 8%);
-  color: var(--foreground);
+/* ── Text Selection Highlighter (Warm Study Glow) ── */
+::selection,
+::-moz-selection {
+  background-color: #fef08a;
+  color: #18181b;
 }
 
-.dark ::selection {
-  background: rgb(255 255 255 / 12%);
-  color: var(--foreground);
+.dark ::selection,
+.dark ::-moz-selection {
+  background-color: rgba(245, 158, 11, 0.42);
+  color: #ffffff;
 }
 
 :focus-visible {

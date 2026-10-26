@@ -53,7 +53,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="hi" suppressHydrationWarning className={googleSans.variable}>
+      <html lang="en" suppressHydrationWarning className={googleSans.variable}>
         <body>
           <ThemeProvider
             attribute="class"

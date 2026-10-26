@@ -40,7 +40,7 @@ export function SyllabusSelect({
 }: SyllabusSelectProps) {
   return (
     <Select
-      value={value || undefined}
+      value={value ?? ""}
       onValueChange={(v: string | null) => onValueChange(v ?? "")}
       disabled={disabled}
     >

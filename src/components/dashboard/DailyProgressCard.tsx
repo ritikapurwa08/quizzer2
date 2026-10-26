@@ -25,29 +25,29 @@ interface Subject {
   nameHindi?: string;
 }
 
-const HINDI_MONTHS: Record<number, string> = {
-  0: "जन",
-  1: "फर",
-  2: "मार्च",
-  3: "अप्रै",
-  4: "मई",
-  5: "जून",
-  6: "जुला",
-  7: "अग",
-  8: "सित",
-  9: "अक्टू",
-  10: "नव",
-  11: "दिस",
+const MONTH_NAMES: Record<number, string> = {
+  0: "Jan",
+  1: "Feb",
+  2: "Mar",
+  3: "Apr",
+  4: "May",
+  5: "Jun",
+  6: "Jul",
+  7: "Aug",
+  8: "Sep",
+  9: "Oct",
+  10: "Nov",
+  11: "Dec",
 };
 
-function formatHindiDate(isoDate: string): { label: string; tooltip: string } {
+function formatDate(isoDate: string): { label: string; tooltip: string } {
   try {
     const parts = isoDate.split("-");
     if (parts.length === 3) {
       const year = parseInt(parts[0], 10);
       const month = parseInt(parts[1], 10) - 1;
       const day = parseInt(parts[2], 10);
-      const monthName = HINDI_MONTHS[month] ?? `${month + 1}`;
+      const monthName = MONTH_NAMES[month] ?? `${month + 1}`;
       return {
         label: `${day}`,
         tooltip: `${day} ${monthName} ${year}`,
@@ -62,9 +62,9 @@ function formatHindiDate(isoDate: string): { label: string; tooltip: string } {
 type Period = "today" | "7" | "30";
 
 const PERIOD_LABELS: Record<Period, string> = {
-  today: "आज",
-  "7": "7 दिन",
-  "30": "30 दिन",
+  today: "Today",
+  "7": "7 Days",
+  "30": "30 Days",
 };
 
 interface DailyProgressCardProps {
@@ -109,19 +109,19 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
           <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary/10 text-primary shrink-0">
             <TrendingUp className="h-4 w-4" />
           </div>
-          <h2 className="text-sm font-bold text-foreground font-hindi">
-            दैनिक अभ्यास प्रगति
+          <h2 className="text-sm font-bold text-foreground">
+            Daily Practice Progress
           </h2>
         </div>
 
         {filtered.length > 0 && (
-          <div className="flex items-center gap-2 font-hindi text-xs">
+          <div className="flex items-center gap-2 text-xs">
             <span className="flex items-center gap-1 text-warning font-semibold bg-warning/10 px-2 py-0.5 rounded-full border border-warning/20">
               <Flame className="h-3 w-3 fill-current" />
-              {activeDays} सक्रिय दिन
+              {activeDays} {activeDays === 1 ? "Active Day" : "Active Days"}
             </span>
             <span className="text-muted-foreground font-medium hidden xs:inline">
-              कुल {totalSolved} प्रश्न
+              {totalSolved} {totalSolved === 1 ? "Question" : "Questions"} Solved
             </span>
           </div>
         )}
@@ -137,7 +137,7 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
               type="button"
               onClick={() => setPeriod(p)}
               className={cn(
-                "px-2.5 text-[11px] font-semibold transition-colors h-full font-hindi",
+                "px-2.5 text-[11px] font-semibold transition-colors h-full cursor-pointer",
                 period === p
                   ? "bg-primary text-primary-foreground"
                   : "bg-card text-muted-foreground hover:text-foreground hover:bg-muted/60",
@@ -154,21 +154,21 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
             <SelectTrigger
               id="daily-progress-subject"
               size="sm"
-              className="h-7 w-auto min-w-28 max-w-44 text-[11px] font-medium font-hindi rounded-lg"
-              aria-label="विषय फ़िल्टर"
+              className="h-7 w-auto min-w-28 max-w-44 text-[11px] font-medium rounded-lg"
+              aria-label="Filter by Subject"
             >
-              <SelectValue placeholder="सभी विषय">
+              <SelectValue placeholder="All Subjects">
                 {(v: string | null) => {
-                  if (!v || v === "all") return "सभी विषय";
+                  if (!v || v === "all") return "All Subjects";
                   const s = subjects.find((x) => x._id === v);
-                  return s ? getSubjectDisplayName(s) : "सभी विषय";
+                  return s ? getSubjectDisplayName(s) : "All Subjects";
                 }}
               </SelectValue>
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
-              <SelectItem value="all" className="text-[11px] font-hindi">सभी विषय</SelectItem>
+              <SelectItem value="all" className="text-[11px]">All Subjects</SelectItem>
               {subjects.map((s) => (
-                <SelectItem key={s._id} value={s._id} className="text-[11px] font-hindi">
+                <SelectItem key={s._id} value={s._id} className="text-[11px]">
                   {getSubjectDisplayName(s)}
                 </SelectItem>
               ))}
@@ -180,27 +180,27 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
       {filtered.length === 0 ? (
         <EmptyState
           icon={TrendingUp}
-          title="इस अवधि में कोई अभ्यास नहीं"
-          description="प्रतिदिन प्रश्न हल करके अपनी अध्ययन निरंतरता बनाए रखें।"
+          title="No practice recorded in this period"
+          description="Solve questions daily to maintain your study streak."
           className="py-4"
         />
       ) : (
         <div className="relative pt-6">
           {/* Hover Tooltip */}
-          <div className="h-6 mb-1.5 flex items-center justify-center text-xs font-hindi">
+          <div className="h-6 mb-1.5 flex items-center justify-center text-xs">
             {hoveredIdx !== null && filtered[hoveredIdx] ? (
               <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-md bg-muted/80 border border-border text-foreground animate-in fade-in-0 duration-150">
                 <span className="font-semibold text-primary">
-                  {formatHindiDate(filtered[hoveredIdx].day).tooltip}
+                  {formatDate(filtered[hoveredIdx].day).tooltip}
                 </span>
                 <span className="text-muted-foreground">•</span>
                 <span className="font-bold text-foreground">
-                  {filtered[hoveredIdx].count} प्रश्न हल किए
+                  {filtered[hoveredIdx].count} {filtered[hoveredIdx].count === 1 ? "question" : "questions"} solved
                 </span>
               </div>
             ) : (
               <span className="text-[11px] text-muted-foreground/60 select-none">
-                किसी दिन का विवरण देखने के लिए बार पर होवर करें
+                Hover over a bar to view daily details
               </span>
             )}
           </div>
@@ -208,7 +208,7 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
           {/* Bar Chart */}
           <div className="flex items-end gap-1 sm:gap-2 h-28 sm:h-32 px-1">
             {filtered.map((d, idx) => {
-              const { label, tooltip } = formatHindiDate(d.day);
+              const { label, tooltip } = formatDate(d.day);
               const heightPercent = Math.max(8, Math.round((d.count / max) * 100));
               const isHovered = hoveredIdx === idx;
               const hasActivity = d.count > 0;
@@ -219,7 +219,7 @@ export function DailyProgressCard({ data, subjects = [] }: DailyProgressCardProp
                   className="flex-1 flex flex-col items-center gap-1.5 h-full justify-end cursor-pointer select-none group"
                   onMouseEnter={() => setHoveredIdx(idx)}
                   onMouseLeave={() => setHoveredIdx((prev) => (prev === idx ? null : prev))}
-                  title={`${tooltip}: ${d.count} प्रश्न`}
+                  title={`${tooltip}: ${d.count} questions`}
                 >
                   <div className="w-full flex items-end justify-center h-full">
                     <div

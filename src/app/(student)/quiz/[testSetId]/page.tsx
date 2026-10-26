@@ -32,6 +32,7 @@ export default function QuizPage() {
 
   const testSet = useQuery(api.testSets.get, { id });
   const {
+    attempt,
     questions,
     localAnswers,
     selectAnswer,
@@ -53,6 +54,12 @@ export default function QuizPage() {
   // Keep screen active throughout the quiz session to prevent sleep timeouts
   useWakeLock(true);
 
+  // Auto-redirect to results when test attempt status becomes "submitted" (manual or timer expiration)
+  useEffect(() => {
+    if (attempt?.status === "submitted") {
+      router.push(`/quiz/${id}/results`);
+    }
+  }, [attempt?.status, id, router]);
 
   const current = questions[currentIndex];
 
