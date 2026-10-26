@@ -119,16 +119,16 @@ export function PdfQuestionCard({
   const expParts = parseExplanationParts(question.explanation, question.meta);
 
   return (
-    <div className="pdf-question-card flex flex-col justify-between rounded-md border border-slate-200 bg-white p-2 text-slate-900 break-inside-avoid page-break-inside-avoid shadow-none">
+    <div className="pdf-question-card flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-3 text-slate-900 break-inside-avoid page-break-inside-avoid shadow-xs">
       <div>
-        {/* ── Card Header: Number + Reference + Status ── */}
-        <div className="flex items-center justify-between pb-1 mb-1.5 border-b border-slate-100">
+        {/* ── Card Header: QUESTION 01 + Reference + Status Pill ── */}
+        <div className="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-100">
           <div className="flex items-center gap-1.5">
-            <span className="text-[7.5pt] font-black text-blue-700 uppercase tracking-wider">
-              Q{String(number).padStart(2, "0")}
+            <span className="text-[8.5pt] font-black text-blue-600 uppercase tracking-wider">
+              QUESTION {String(number).padStart(2, "0")}
             </span>
             {examRef && (
-              <span className="max-w-[110px] truncate rounded border border-slate-200 bg-slate-50 px-1 py-0.2 text-[6.2pt] font-medium text-slate-500">
+              <span className="max-w-[120px] truncate rounded border border-slate-200 bg-slate-50 px-1.5 py-0.2 text-[6.5pt] font-medium text-slate-500">
                 {examRef}
               </span>
             )}
@@ -136,17 +136,17 @@ export function PdfQuestionCard({
 
           <div className="flex items-center gap-1">
             {status === "correct" && (
-              <span className="inline-flex items-center gap-0.5 rounded border border-emerald-200 bg-emerald-50/80 px-1.5 py-0.2 text-[6.5pt] font-bold text-emerald-700 leading-none">
+              <span className="inline-flex items-center gap-0.5 rounded-md border border-emerald-200 bg-emerald-50/80 px-2 py-0.5 text-[6.8pt] font-extrabold text-emerald-700 leading-none">
                 ✓ CORRECT · +2.0
               </span>
             )}
             {status === "incorrect" && (
-              <span className="inline-flex items-center gap-0.5 rounded border border-rose-200 bg-rose-50/80 px-1.5 py-0.2 text-[6.5pt] font-bold text-rose-600 leading-none">
+              <span className="inline-flex items-center gap-0.5 rounded-md border border-rose-200 bg-rose-50/80 px-2 py-0.5 text-[6.8pt] font-extrabold text-rose-600 leading-none">
                 ✕ INCORRECT · -0.67
               </span>
             )}
             {status === "unanswered" && (
-              <span className="inline-flex items-center gap-0.5 rounded border border-slate-200 bg-slate-100 px-1.5 py-0.2 text-[6.5pt] font-bold text-slate-600 leading-none">
+              <span className="inline-flex items-center gap-0.5 rounded-md border border-slate-200 bg-slate-100 px-2 py-0.5 text-[6.8pt] font-extrabold text-slate-600 leading-none">
                 ○ SKIPPED · 0.0
               </span>
             )}
@@ -156,56 +156,45 @@ export function PdfQuestionCard({
         {/* ── Question Statement ── */}
         <div
           className={cn(
-            "text-[8pt] font-bold text-slate-900 leading-snug mb-1.5 whitespace-pre-wrap",
+            "text-[8.8pt] font-bold text-slate-900 leading-snug mb-2 whitespace-pre-wrap",
             isHindi && "font-hindi"
           )}
         >
           {cleanedText || question.questionText}
         </div>
 
-        {/* ── Options List ── */}
+        {/* ── Options List Matching Image 2 ── */}
         {Array.isArray(question.options) && question.options.length > 0 && (
-          <div className="space-y-0.5 mb-1.5">
+          <div className="space-y-1 mb-2">
             {question.options.filter(Boolean).map((opt, idx) => {
               const letter = String.fromCharCode(65 + idx);
               const isCorrect = Boolean(correctOptId && opt?.id === correctOptId);
               const isSelected = Boolean(userOptId && opt?.id === userOptId);
 
-              let rowClasses = "border-transparent bg-slate-50/40 text-slate-700";
-              let letterClasses = "border-slate-200 bg-slate-100 text-slate-600 font-semibold";
-              let badge: React.ReactNode = null;
+              let rowClasses = "border-slate-200 bg-white text-slate-800";
+              let letterClasses = "border-slate-200 bg-slate-100 text-slate-600 font-bold";
 
               if (isCorrect) {
                 rowClasses =
-                  "border-emerald-300 bg-emerald-50/80 text-emerald-950 font-semibold";
+                  "border-emerald-300 bg-emerald-50/70 text-emerald-950 font-medium";
                 letterClasses = "bg-emerald-600 text-white font-bold border-transparent";
-                badge = (
-                  <span className="ml-auto text-[6.2pt] font-extrabold uppercase text-emerald-700 tracking-wider shrink-0 pl-1">
-                    ✓ Correct
-                  </span>
-                );
               } else if (isSelected && status === "incorrect") {
                 rowClasses =
-                  "border-rose-200 bg-rose-50/80 text-rose-950 font-medium";
+                  "border-rose-300 bg-rose-50/70 text-rose-950 font-medium";
                 letterClasses = "bg-rose-600 text-white font-bold border-transparent";
-                badge = (
-                  <span className="ml-auto text-[6.2pt] font-extrabold uppercase text-rose-600 tracking-wider shrink-0 pl-1">
-                    ✕ Your Choice
-                  </span>
-                );
               }
 
               return (
                 <div
                   key={opt.id}
                   className={cn(
-                    "flex items-center gap-1.5 rounded border px-1.5 py-0.5 text-[7.5pt] leading-tight",
+                    "flex items-center gap-2.5 rounded-xl border px-2.5 py-1.5 text-[8pt] leading-tight",
                     rowClasses
                   )}
                 >
                   <span
                     className={cn(
-                      "flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded text-[6.5pt] leading-none border",
+                      "flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full text-[7pt] leading-none border",
                       letterClasses
                     )}
                   >
@@ -220,8 +209,6 @@ export function PdfQuestionCard({
                   >
                     {opt.text}
                   </span>
-
-                  {badge}
                 </div>
               );
             })}
@@ -229,10 +216,10 @@ export function PdfQuestionCard({
         )}
       </div>
 
-      {/* ── Rule & Explanation Box ── */}
+      {/* ── Rule & Explanation Box Matching Image 2 ── */}
       {expParts && (expParts.concept || expParts.elimination || expParts.generic) && (
-        <div className="mt-0.5 rounded border border-slate-200 bg-slate-50/90 p-1.5 text-[7pt] text-slate-700 leading-normal">
-          <span className="block text-[6.2pt] font-extrabold text-slate-900 uppercase tracking-wider mb-0.5">
+        <div className="mt-1 rounded-xl border border-slate-200 bg-slate-50/90 p-2 text-[7.2pt] text-slate-700 leading-relaxed">
+          <span className="block text-[6.5pt] font-black text-slate-600 uppercase tracking-wider mb-0.5">
             RULE & EXPLANATION
           </span>
 

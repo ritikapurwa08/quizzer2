@@ -30,78 +30,81 @@ export function PdfDashboard({
 
   const correctPoints = safeCorrect * 2;
   const incorrectPoints = ((safeIncorrect * 2) / 3).toFixed(2);
-  const hasSkipped = safeUnanswered > 0;
 
   return (
-    <div className="pdf-dashboard mb-2 text-slate-900 bg-white">
-      {/* ── Compact Editorial KPI Ribbon ── */}
-      <div className="rounded-md border border-slate-200 bg-slate-50/60 py-1.5 px-3 flex items-center justify-between divide-x divide-slate-200 text-slate-800">
-        {/* Total Score */}
-        <div className="flex-1 text-center px-1">
-          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+    <div className="pdf-dashboard mb-3 text-slate-900 bg-white">
+      {/* ── 4 Distinct KPI Dashboard Cards ── */}
+      <div className="grid grid-cols-4 gap-2.5">
+        {/* Total Score Card */}
+        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
+          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
             TOTAL SCORE
-          </p>
-          <p className="text-[10pt] font-black text-slate-900 leading-tight tracking-tight mt-0.5">
-            {formatScore(safeScore)}{" "}
-            <span className="text-[6.5pt] font-semibold text-slate-500">
-              / {maxScore} ({percentage}%)
+          </span>
+          <div className="flex items-baseline gap-1 leading-none">
+            <span className="text-[13pt] font-black text-slate-900 tracking-tight">
+              {formatScore(safeScore)}
             </span>
-          </p>
-        </div>
-
-        {/* Correct Answers */}
-        <div className="flex-1 text-center px-1">
-          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
-            CORRECT
-          </p>
-          <p className="text-[10pt] font-black text-emerald-600 leading-tight tracking-tight mt-0.5">
-            {safeCorrect}{" "}
-            <span className="text-[6.5pt] font-semibold text-emerald-600">
-              (+{correctPoints})
+            <span className="text-[8pt] font-bold text-slate-400">
+              / {maxScore}
             </span>
-          </p>
-        </div>
-
-        {/* Incorrect Answers */}
-        <div className="flex-1 text-center px-1">
-          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
-            INCORRECT
-          </p>
-          <p className="text-[10pt] font-black text-rose-600 leading-tight tracking-tight mt-0.5">
-            {safeIncorrect}{" "}
-            <span className="text-[6.5pt] font-semibold text-rose-600">
-              (-{incorrectPoints})
-            </span>
-          </p>
-        </div>
-
-        {/* Skipped Answers */}
-        {hasSkipped && (
-          <div className="flex-1 text-center px-1">
-            <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
-              SKIPPED
-            </p>
-            <p className="text-[10pt] font-black text-slate-600 leading-tight tracking-tight mt-0.5">
-              {safeUnanswered}{" "}
-              <span className="text-[6.5pt] font-medium text-slate-500">
-                (0.0)
-              </span>
-            </p>
           </div>
-        )}
-
-        {/* Accuracy */}
-        <div className="flex-1 text-center px-1">
-          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
-            ACCURACY
-          </p>
-          <p className="text-[10pt] font-black text-blue-700 leading-tight tracking-tight mt-0.5">
-            {accuracy}%{" "}
-            <span className="text-[6.5pt] font-medium text-slate-500">
-              ({safeCorrect}/{safeTotal})
-            </span>
-          </p>
+          <span className="text-[6.8pt] font-semibold text-slate-400 block mt-1 leading-none">
+            {percentage}% marks
+          </span>
         </div>
+
+        {/* Correct Answers Card */}
+        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
+          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+            CORRECT
+          </span>
+          <div className="leading-none">
+            <span className="text-[13pt] font-black text-emerald-600 tracking-tight">
+              {safeCorrect}
+            </span>
+          </div>
+          <span className="text-[6.8pt] font-bold text-emerald-600 block mt-1 leading-none">
+            +{correctPoints} points
+          </span>
+        </div>
+
+        {/* Incorrect Answers Card */}
+        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
+          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+            INCORRECT
+          </span>
+          <div className="leading-none">
+            <span className="text-[13pt] font-black text-rose-600 tracking-tight">
+              {safeIncorrect}
+            </span>
+          </div>
+          <span className="text-[6.8pt] font-bold text-rose-600 block mt-1 leading-none">
+            −{incorrectPoints} points
+          </span>
+        </div>
+
+        {/* Accuracy Card */}
+        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
+          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+            ACCURACY
+          </span>
+          <div className="leading-none">
+            <span className="text-[13pt] font-black text-blue-600 tracking-tight">
+              {accuracy}%
+            </span>
+          </div>
+          <span className="text-[6.8pt] font-semibold text-slate-400 block mt-1 leading-none">
+            {safeCorrect} of {safeTotal} questions
+          </span>
+        </div>
+      </div>
+
+      {/* ── Blue Progress/Accent Bar Underneath KPIs ── */}
+      <div className="w-full h-1 bg-slate-100 rounded-full mt-2.5 mb-1 overflow-hidden">
+        <div
+          className="h-full bg-blue-600 rounded-full transition-all"
+          style={{ width: `${Math.min(100, Math.max(15, accuracy))}%` }}
+        />
       </div>
     </div>
   );

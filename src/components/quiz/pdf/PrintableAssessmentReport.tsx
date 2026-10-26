@@ -142,15 +142,15 @@ export function PrintableAssessmentReport({
                   )}
 
                   {/* Section Label: Questions to Revise / Question Review */}
-                  <div className="flex items-center justify-between pb-0.5 mb-1.5 border-b border-slate-200">
-                    <span className="text-[7.8pt] font-extrabold text-slate-900 uppercase tracking-wide">
+                  <div className="flex items-center justify-between pb-0.5 mb-2">
+                    <span className="text-[9.5pt] font-black text-slate-900 tracking-tight">
                       {filterLabel?.toLowerCase().includes("incorrect") ||
                       filterLabel?.toLowerCase().includes("mistake")
-                        ? "Questions to Revise"
+                        ? "Questions to revise"
                         : "Question Review"}
                     </span>
-                    <span className="text-[6.8pt] font-medium text-slate-500">
-                      Page 1 of {totalPages}
+                    <span className="text-[7pt] font-semibold text-slate-400">
+                      Page 1 · 4 questions per page
                     </span>
                   </div>
                 </>

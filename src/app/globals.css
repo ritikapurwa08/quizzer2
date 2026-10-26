@@ -367,17 +367,18 @@ pre {
   .pdf-question-grid {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 2.5mm 3.5mm !important;
+    gap: 3mm 3.8mm !important;
     align-items: stretch !important;
   }
 
-  /* Question Card */
+  /* Question Card Matching Image 2 Aesthetic */
   .pdf-question-card {
     break-inside: avoid-page !important;
     page-break-inside: avoid !important;
     break-inside: avoid !important;
     background: #ffffff !important;
-    border: 1px solid #cbd5e1 !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 14px !important;
   }
 
   .pdf-running-header,

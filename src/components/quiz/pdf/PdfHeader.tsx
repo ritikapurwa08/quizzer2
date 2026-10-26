@@ -26,62 +26,75 @@ export function PdfHeader({
       day: "2-digit",
       month: "short",
       year: "numeric",
-      hour: submittedAt ? "2-digit" : undefined,
-      minute: submittedAt ? "2-digit" : undefined,
     });
   } catch {
     formattedDate = new Date().toLocaleDateString("en-IN");
   }
 
-  const subjectTopicLine = [subjectName, topicName, examReference].filter(Boolean).join(" · ");
+  const subjectTopicLine = [subjectName, topicName].filter(Boolean).join(" · ");
+  const examLine = examReference || "RPSC Senior Teacher (2nd Grade)";
 
   return (
-    <div className="pdf-header border-b border-slate-200 pb-1.5 mb-2 text-slate-900 bg-white">
+    <div className="pdf-header text-slate-900 bg-white mb-2.5">
       {/* ── Top Branding & Performance Report Ribbon ── */}
-      <div className="flex items-center justify-between pb-1 mb-1.5 border-b border-slate-100">
-        <div className="flex items-center gap-1.5">
+      <div className="flex items-center justify-between pb-1">
+        <div className="flex items-center gap-2.5">
           {/* Logo Badge */}
-          <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded bg-blue-600 text-white font-black text-[7.5pt] tracking-tight">
+          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-blue-600 text-white font-black text-[12pt] shadow-xs">
             Q
           </div>
-          <div className="flex items-center gap-1.5 leading-none">
-            <span className="text-[9.5pt] font-black tracking-tight text-slate-900">
-              QUIZZER
-            </span>
-            <span className="text-[8pt] font-light text-slate-300">/</span>
-            <span className="text-[7.5pt] font-bold text-slate-700 tracking-wide uppercase">
-              EXAM REVISION
-            </span>
+          <div className="leading-tight">
+            <div className="flex items-center gap-1.5">
+              <span className="text-[11pt] font-black tracking-tight text-slate-900 leading-none">
+                QUIZZER
+              </span>
+              <span className="text-[9pt] font-light text-slate-300 leading-none">/</span>
+              <span className="text-[8.5pt] font-extrabold text-slate-600 tracking-wide uppercase leading-none">
+                EXAM REVISION
+              </span>
+            </div>
+            <p className="text-[6.8pt] font-medium text-slate-400 mt-0.5 leading-none">
+              Rajasthan Exam Study & Practice Portal
+            </p>
           </div>
         </div>
 
-        <div className="text-right flex items-center gap-2 leading-tight">
-          <span className="text-[6.5pt] font-bold text-slate-600 uppercase tracking-wider">
+        <div className="text-right leading-tight">
+          <span className="text-[7.5pt] font-black text-slate-700 uppercase tracking-wider block">
             PERFORMANCE REPORT
           </span>
-          <span className="text-[6.5pt] text-slate-400">·</span>
-          <span className="text-[6.5pt] text-slate-500">
-            {formattedDate}
+          <span className="text-[6.8pt] font-medium text-slate-400 mt-0.5 block">
+            Generated: {formattedDate}
           </span>
+          {subjectTopicLine && (
+            <span className="text-[6.8pt] font-medium text-slate-400 mt-0.5 block max-w-[240px] truncate">
+              {subjectTopicLine}
+            </span>
+          )}
         </div>
       </div>
 
-      {/* ── Prominent Exam Title & Metadata Row + Filter Pill ── */}
-      <div className="flex items-start justify-between gap-2.5">
+      {/* ── Full Width Accent Divider Line ── */}
+      <div className="w-full h-[1.5px] bg-slate-200 mt-2 mb-2.5 relative">
+        <div className="absolute left-0 top-[-0.5px] h-[2.5px] w-28 bg-blue-600 rounded-full" />
+      </div>
+
+      {/* ── Prominent Title & Filter Pill Row ── */}
+      <div className="flex items-start justify-between gap-3">
         <div className="min-w-0 flex-1">
-          <h1 className="text-[12pt] font-extrabold text-slate-900 leading-tight tracking-tight">
+          <h1 className="text-[14pt] font-black text-slate-900 leading-tight tracking-tight">
             {testSetName}
           </h1>
-          {subjectTopicLine && (
-            <p className="text-[7.2pt] font-medium text-slate-600 mt-0.5 leading-normal">
-              {subjectTopicLine}
-            </p>
-          )}
+          <p className="text-[7.5pt] font-medium text-slate-500 mt-0.5 leading-normal">
+            {filterLabel?.toLowerCase().includes("mistake") || filterLabel?.toLowerCase().includes("incorrect")
+              ? `Mistake Revision Sheet · ${examLine}`
+              : `Comprehensive Revision Assessment · ${examLine}`}
+          </p>
         </div>
 
         {filterLabel && (
           <div className="shrink-0 pt-0.5">
-            <span className="inline-block rounded-full border border-blue-200 bg-blue-50/80 px-2 py-0.5 text-[6.5pt] font-extrabold text-blue-700 uppercase tracking-wider">
+            <span className="inline-block rounded-full border border-blue-200 bg-blue-50/90 px-3 py-1 text-[6.8pt] font-extrabold text-blue-700 uppercase tracking-wider shadow-xs">
               {filterLabel}
             </span>
           </div>
