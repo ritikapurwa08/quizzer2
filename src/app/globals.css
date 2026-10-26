@@ -343,9 +343,11 @@ pre {
     color: #0f172a !important;
   }
 
-  /* Individual A4 Page Section for Print */
+  /* Individual A4 Page Section for Print — Exactly 284mm printable height */
   .pdf-page {
     width: 100% !important;
+    height: 284mm !important;
+    max-height: 284mm !important;
     box-sizing: border-box !important;
     page-break-after: always !important;
     break-after: page !important;
@@ -356,6 +358,7 @@ pre {
     justify-content: space-between !important;
     background: #ffffff !important;
     color: #0f172a !important;
+    overflow: hidden !important;
   }
 
   .pdf-page:last-child {
@@ -363,15 +366,26 @@ pre {
     break-after: auto !important;
   }
 
-  /* Exactly 4 per full page: 2-column grid */
+  .pdf-page-main {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+  }
+
+  /* Exactly 4 per full page: 2-column × 2-row grid expanding to fill 100% vertical space */
   .pdf-question-grid {
     display: grid !important;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    gap: 3mm 3.8mm !important;
+    grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+    gap: 3.5mm 4mm !important;
     align-items: stretch !important;
+    height: 100% !important;
+    flex: 1 1 auto !important;
   }
 
-  /* Question Card Matching Image 2 Aesthetic */
+  /* Question Card Matching Image 2 Aesthetic & Completely Filling Height */
   .pdf-question-card {
     break-inside: avoid-page !important;
     page-break-inside: avoid !important;
@@ -379,6 +393,11 @@ pre {
     background: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
     border-radius: 14px !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    box-sizing: border-box !important;
   }
 
   .pdf-running-header,

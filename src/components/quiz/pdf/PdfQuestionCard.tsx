@@ -119,10 +119,10 @@ export function PdfQuestionCard({
   const expParts = parseExplanationParts(question.explanation, question.meta);
 
   return (
-    <div className="pdf-question-card flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-3 text-slate-900 break-inside-avoid page-break-inside-avoid shadow-xs">
-      <div>
+    <div className="pdf-question-card h-full flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-3 text-slate-900 break-inside-avoid page-break-inside-avoid shadow-xs box-border">
+      <div className="flex-1 flex flex-col min-h-0">
         {/* ── Card Header: QUESTION 01 + Reference + Status Pill ── */}
-        <div className="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-100">
+        <div className="flex items-center justify-between pb-1.5 mb-1.5 border-b border-slate-100 shrink-0">
           <div className="flex items-center gap-1.5">
             <span className="text-[8.5pt] font-black text-blue-600 uppercase tracking-wider">
               QUESTION {String(number).padStart(2, "0")}
@@ -156,7 +156,7 @@ export function PdfQuestionCard({
         {/* ── Question Statement ── */}
         <div
           className={cn(
-            "text-[8.8pt] font-bold text-slate-900 leading-snug mb-2 whitespace-pre-wrap",
+            "text-[8.8pt] font-bold text-slate-900 leading-snug mb-2 whitespace-pre-wrap shrink-0",
             isHindi && "font-hindi"
           )}
         >
@@ -165,7 +165,7 @@ export function PdfQuestionCard({
 
         {/* ── Options List Matching Image 2 ── */}
         {Array.isArray(question.options) && question.options.length > 0 && (
-          <div className="space-y-1 mb-2">
+          <div className="space-y-1 my-auto pb-1">
             {question.options.filter(Boolean).map((opt, idx) => {
               const letter = String.fromCharCode(65 + idx);
               const isCorrect = Boolean(correctOptId && opt?.id === correctOptId);

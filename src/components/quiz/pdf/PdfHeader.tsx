@@ -35,7 +35,7 @@ export function PdfHeader({
   const examLine = examReference || "RPSC Senior Teacher (2nd Grade)";
 
   return (
-    <div className="pdf-header text-slate-900 bg-white mb-2.5">
+    <div className="pdf-header text-slate-900 bg-white mb-2">
       {/* ── Top Branding & Performance Report Ribbon ── */}
       <div className="flex items-center justify-between pb-1">
         <div className="flex items-center gap-2.5">
@@ -45,7 +45,7 @@ export function PdfHeader({
           </div>
           <div className="leading-tight">
             <div className="flex items-center gap-1.5">
-              <span className="text-[11pt] font-black tracking-tight text-slate-900 leading-none">
+              <span className="text-[11.5pt] font-black tracking-tight text-slate-900 leading-none">
                 QUIZZER
               </span>
               <span className="text-[9pt] font-light text-slate-300 leading-none">/</span>
@@ -60,29 +60,29 @@ export function PdfHeader({
         </div>
 
         <div className="text-right leading-tight">
-          <span className="text-[7.5pt] font-black text-slate-700 uppercase tracking-wider block">
+          <span className="text-[7.8pt] font-black text-slate-700 uppercase tracking-wider block">
             PERFORMANCE REPORT
           </span>
           <span className="text-[6.8pt] font-medium text-slate-400 mt-0.5 block">
             Generated: {formattedDate}
           </span>
           {subjectTopicLine && (
-            <span className="text-[6.8pt] font-medium text-slate-400 mt-0.5 block max-w-[240px] truncate">
+            <span className="text-[6.8pt] font-medium text-slate-400 mt-0.5 block max-w-[260px] truncate">
               {subjectTopicLine}
             </span>
           )}
         </div>
       </div>
 
-      {/* ── Full Width Accent Divider Line ── */}
-      <div className="w-full h-[1.5px] bg-slate-200 mt-2 mb-2.5 relative">
+      {/* ── Full Width Accent Divider Line with vibrant blue anchor ── */}
+      <div className="w-full h-[1.5px] bg-slate-200 mt-1.5 mb-2 relative">
         <div className="absolute left-0 top-[-0.5px] h-[2.5px] w-28 bg-blue-600 rounded-full" />
       </div>
 
       {/* ── Prominent Title & Filter Pill Row ── */}
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0 flex-1">
-          <h1 className="text-[14pt] font-black text-slate-900 leading-tight tracking-tight">
+          <h1 className="text-[13.5pt] font-black text-slate-900 leading-tight tracking-tight">
             {testSetName}
           </h1>
           <p className="text-[7.5pt] font-medium text-slate-500 mt-0.5 leading-normal">
