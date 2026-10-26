@@ -4,19 +4,19 @@ import React from "react";
 import { formatScore } from "@/lib/utils";
 
 interface PdfDashboardProps {
-  score: number;
+  score?: number;
   totalQuestions: number;
-  correctCount: number;
-  incorrectCount: number;
-  unansweredCount: number;
+  correctCount?: number;
+  incorrectCount?: number;
+  unansweredCount?: number;
 }
 
 export function PdfDashboard({
-  score,
+  score = 0,
   totalQuestions,
-  correctCount,
-  incorrectCount,
-  unansweredCount,
+  correctCount = 0,
+  incorrectCount = 0,
+  unansweredCount = 0,
 }: PdfDashboardProps) {
   const maxScore = totalQuestions * 2;
   const accuracy =
@@ -24,130 +24,79 @@ export function PdfDashboard({
   const percentage =
     maxScore > 0 ? ((score / maxScore) * 100).toFixed(1) : "0";
 
-  const correctPct = totalQuestions > 0 ? (correctCount / totalQuestions) * 100 : 0;
-  const incorrectPct = totalQuestions > 0 ? (incorrectCount / totalQuestions) * 100 : 0;
-  const unansweredPct = totalQuestions > 0 ? (unansweredCount / totalQuestions) * 100 : 0;
-
-  // Strategic revision insight based on accuracy
-  let revisionInsight = "Systematic revision of core rules recommended.";
-  if (accuracy >= 80) {
-    revisionInsight = `High Proficiency — Mastered ${correctCount}/${totalQuestions} questions. Review the ${incorrectCount} incorrect questions below to eliminate edge-case errors.`;
-  } else if (accuracy >= 60) {
-    revisionInsight = `Moderate Proficiency — ${correctCount} correct, ${incorrectCount} mistakes. Prioritize the rule concepts highlighted in the incorrect questions below.`;
-  } else {
-    revisionInsight = `Targeted Revision Required — High mistake count (${incorrectCount}). Review grammar concepts thoroughly before attempting the next test set.`;
-  }
+  const correctPoints = correctCount * 2;
+  const incorrectPoints = ((incorrectCount * 2) / 3).toFixed(2);
+  const hasSkipped = unansweredCount > 0;
 
   return (
-    <div className="mb-3 text-slate-900">
-      {/* ── 5 Metric KPI Ribbon ── */}
-      <div className="grid grid-cols-5 gap-1.5 rounded-md border border-slate-300 bg-slate-50/90 p-2 text-center shadow-xs">
+    <div className="pdf-dashboard mb-2 text-slate-900 bg-white">
+      {/* ── Compact Editorial KPI Ribbon ── */}
+      <div className="rounded-md border border-slate-200 bg-slate-50/60 py-1.5 px-3 flex items-center justify-between divide-x divide-slate-200 text-slate-800">
         {/* Total Score */}
-        <div className="border-r border-slate-200 pr-1">
-          <p className="text-[7pt] font-bold text-slate-500 uppercase tracking-wider">
-            Total Score
+        <div className="flex-1 text-center px-1">
+          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+            TOTAL SCORE
           </p>
-          <p className="text-[12pt] font-black text-slate-900 mt-0.5 leading-none">
-            {formatScore(score)}
-            <span className="text-[7.5pt] font-semibold text-slate-500 ml-0.5">
-              / {maxScore}
+          <p className="text-[10pt] font-black text-slate-900 leading-tight tracking-tight mt-0.5">
+            {formatScore(score)}{" "}
+            <span className="text-[6.5pt] font-semibold text-slate-500">
+              / {maxScore} ({percentage}%)
             </span>
           </p>
-          <span className="text-[7pt] font-bold text-slate-600 mt-0.5 block">
-            {percentage}% Marks
-          </span>
         </div>
 
         {/* Correct Answers */}
-        <div className="border-r border-slate-200 pr-1">
-          <p className="text-[7pt] font-bold text-emerald-800 uppercase tracking-wider">
-            Correct (+2.0)
+        <div className="flex-1 text-center px-1">
+          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+            CORRECT
           </p>
-          <p className="text-[12pt] font-black text-emerald-700 mt-0.5 leading-none">
-            {correctCount}
+          <p className="text-[10pt] font-black text-emerald-600 leading-tight tracking-tight mt-0.5">
+            {correctCount}{" "}
+            <span className="text-[6.5pt] font-semibold text-emerald-600">
+              (+{correctPoints})
+            </span>
           </p>
-          <span className="text-[7pt] font-bold text-emerald-800 mt-0.5 block">
-            +{correctCount * 2} pts
-          </span>
         </div>
 
         {/* Incorrect Answers */}
-        <div className="border-r border-slate-200 pr-1">
-          <p className="text-[7pt] font-bold text-rose-800 uppercase tracking-wider">
-            Incorrect (-1/3)
+        <div className="flex-1 text-center px-1">
+          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+            INCORRECT
           </p>
-          <p className="text-[12pt] font-black text-rose-700 mt-0.5 leading-none">
-            {incorrectCount}
+          <p className="text-[10pt] font-black text-rose-600 leading-tight tracking-tight mt-0.5">
+            {incorrectCount}{" "}
+            <span className="text-[6.5pt] font-semibold text-rose-600">
+              (-{incorrectPoints})
+            </span>
           </p>
-          <span className="text-[7pt] font-bold text-rose-800 mt-0.5 block">
-            -{((incorrectCount * 2) / 3).toFixed(2)} pts
-          </span>
         </div>
 
-        {/* Skipped */}
-        <div className="border-r border-slate-200 pr-1">
-          <p className="text-[7pt] font-bold text-slate-500 uppercase tracking-wider">
-            Skipped
-          </p>
-          <p className="text-[12pt] font-black text-slate-700 mt-0.5 leading-none">
-            {unansweredCount}
-          </p>
-          <span className="text-[7pt] font-bold text-slate-500 mt-0.5 block">
-            0 pts
-          </span>
-        </div>
+        {/* Skipped Answers */}
+        {hasSkipped && (
+          <div className="flex-1 text-center px-1">
+            <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+              SKIPPED
+            </p>
+            <p className="text-[10pt] font-black text-slate-600 leading-tight tracking-tight mt-0.5">
+              {unansweredCount}{" "}
+              <span className="text-[6.5pt] font-medium text-slate-500">
+                (0.0)
+              </span>
+            </p>
+          </div>
+        )}
 
         {/* Accuracy */}
-        <div>
-          <p className="text-[7pt] font-bold text-blue-900 uppercase tracking-wider">
-            Accuracy
+        <div className="flex-1 text-center px-1">
+          <p className="text-[6pt] font-bold text-slate-500 uppercase tracking-wider">
+            ACCURACY
           </p>
-          <p className="text-[12pt] font-black text-blue-800 mt-0.5 leading-none">
-            {accuracy}%
+          <p className="text-[10pt] font-black text-blue-700 leading-tight tracking-tight mt-0.5">
+            {accuracy}%{" "}
+            <span className="text-[6.5pt] font-medium text-slate-500">
+              ({correctCount}/{totalQuestions})
+            </span>
           </p>
-          <span className="text-[7pt] font-bold text-blue-900 mt-0.5 block">
-            {correctCount}/{totalQuestions} Qs
-          </span>
-        </div>
-      </div>
-
-      {/* ── Visual Performance Distribution Bar ── */}
-      <div className="mt-1.5 mb-1.5 flex h-2 w-full overflow-hidden rounded border border-slate-200 bg-slate-100">
-        {correctPct > 0 && (
-          <div
-            style={{ width: `${correctPct}%` }}
-            className="bg-emerald-600 transition-all"
-            title={`Correct: ${correctCount} (${correctPct.toFixed(1)}%)`}
-          />
-        )}
-        {incorrectPct > 0 && (
-          <div
-            style={{ width: `${incorrectPct}%` }}
-            className="bg-rose-600 transition-all"
-            title={`Incorrect: ${incorrectCount} (${incorrectPct.toFixed(1)}%)`}
-          />
-        )}
-        {unansweredPct > 0 && (
-          <div
-            style={{ width: `${unansweredPct}%` }}
-            className="bg-slate-400 transition-all"
-            title={`Skipped: ${unansweredCount} (${unansweredPct.toFixed(1)}%)`}
-          />
-        )}
-      </div>
-
-      {/* ── Scoring Rules & Revision Priority Banner ── */}
-      <div className="flex items-center justify-between gap-3 text-[7.5pt] text-slate-600 bg-white border border-slate-200 rounded px-2 py-1">
-        <div>
-          <span className="font-bold text-slate-800">Scoring Formula: </span>
-          <span>
-            ({correctCount} × 2.0) - ({incorrectCount} × 0.67) ={" "}
-            <strong className="text-slate-900">{formatScore(score)} Marks</strong>
-          </span>
-        </div>
-        <div className="text-right">
-          <span className="font-bold text-slate-800">Revision Note: </span>
-          <span className="text-slate-700">{revisionInsight}</span>
         </div>
       </div>
     </div>

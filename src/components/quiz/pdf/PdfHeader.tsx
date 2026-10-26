@@ -33,54 +33,55 @@ export function PdfHeader({
         year: "numeric",
       });
 
+  const subjectTopicLine = [subjectName, topicName, examReference].filter(Boolean).join(" · ");
+
   return (
-    <div className="border-b-2 border-slate-900 pb-2.5 mb-3 text-slate-900">
-      {/* ── Top Official Institution Ribbon ── */}
-      <div className="flex items-center justify-between border-b border-slate-200 pb-2 mb-2">
-        <div className="flex items-center gap-2.5">
-          <div className="flex h-7 w-7 items-center justify-center rounded-md bg-slate-900 text-white font-bold text-sm tracking-tight shadow-xs">
+    <div className="pdf-header border-b border-slate-200 pb-1.5 mb-2 text-slate-900 bg-white">
+      {/* ── Top Branding & Performance Report Ribbon ── */}
+      <div className="flex items-center justify-between pb-1 mb-1.5 border-b border-slate-100">
+        <div className="flex items-center gap-1.5">
+          {/* Logo Badge */}
+          <div className="flex h-5 w-5 shrink-0 items-center justify-center rounded bg-blue-600 text-white font-black text-[7.5pt] tracking-tight">
             Q
           </div>
-          <div>
-            <div className="flex items-center gap-1.5">
-              <span className="text-[13pt] font-black tracking-tight text-slate-900 leading-none">
-                QUIZZER
-              </span>
-              <span className="text-[7.5pt] font-bold text-slate-500 uppercase tracking-wider">
-                • Examination Revision Engine
-              </span>
-            </div>
-            <p className="text-[7.5pt] text-slate-600 font-medium">
-              Rajasthan Exam Study & Practice Portal • RPSC 2nd Grade / REET / Patwar
-            </p>
+          <div className="flex items-center gap-1.5 leading-none">
+            <span className="text-[9.5pt] font-black tracking-tight text-slate-900">
+              QUIZZER
+            </span>
+            <span className="text-[8pt] font-light text-slate-300">/</span>
+            <span className="text-[7.5pt] font-bold text-slate-700 tracking-wide uppercase">
+              EXAM REVISION
+            </span>
           </div>
         </div>
 
-        <div className="text-right flex flex-col items-end">
-          <span className="inline-block rounded border border-blue-200 bg-blue-50/80 px-2 py-0.5 text-[7.5pt] font-bold text-blue-900 uppercase tracking-wide">
-            Official Performance Report & Evaluation Key
+        <div className="text-right flex items-center gap-2 leading-tight">
+          <span className="text-[6.5pt] font-bold text-slate-600 uppercase tracking-wider">
+            PERFORMANCE REPORT
           </span>
-          <span className="text-[7pt] text-slate-500 font-medium mt-0.5">
-            Attempted: {formattedDate}
+          <span className="text-[6.5pt] text-slate-400">·</span>
+          <span className="text-[6.5pt] text-slate-500">
+            {formattedDate}
           </span>
         </div>
       </div>
 
-      {/* ── Test Title & Subject Details ── */}
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <h1 className="text-[12pt] font-extrabold text-slate-900 leading-snug">
+      {/* ── Prominent Exam Title & Metadata Row + Filter Pill ── */}
+      <div className="flex items-start justify-between gap-2.5">
+        <div className="min-w-0 flex-1">
+          <h1 className="text-[12pt] font-extrabold text-slate-900 leading-tight tracking-tight">
             {testSetName}
           </h1>
-          <p className="text-[8.5pt] font-semibold text-slate-700 mt-0.5">
-            {subjectName || "Subject"} {topicName ? `• ${topicName}` : ""}
-            {examReference ? ` • ${examReference}` : " • Target: RPSC Senior Teacher (2nd Grade)"}
-          </p>
+          {subjectTopicLine && (
+            <p className="text-[7.2pt] font-medium text-slate-600 mt-0.5 leading-normal">
+              {subjectTopicLine}
+            </p>
+          )}
         </div>
 
         {filterLabel && (
-          <div className="shrink-0 text-right">
-            <span className="text-[7.5pt] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 border border-slate-300 px-2 py-0.5 rounded">
+          <div className="shrink-0 pt-0.5">
+            <span className="inline-block rounded-full border border-blue-200 bg-blue-50/80 px-2 py-0.5 text-[6.5pt] font-extrabold text-blue-700 uppercase tracking-wider">
               {filterLabel}
             </span>
           </div>

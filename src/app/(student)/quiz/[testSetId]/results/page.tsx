@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
@@ -22,6 +22,61 @@ import {
   RotateCcw,
   Printer,
 } from "lucide-react";
+
+/**
+ * Automatically derives a clean, filesystem-safe filename for PDF printing
+ * so the browser's "Save Print Output As" dialog automatically pre-fills the name.
+ */
+export function getSuggestedPdfFileName({
+  setName,
+  setOrder,
+  topicName,
+  topicSlug,
+  filter,
+}: {
+  setName?: string;
+  setOrder?: number;
+  topicName?: string;
+  topicSlug?: string;
+  filter?: ReviewFilter;
+}): string {
+  // Extract number from test set name (e.g., "भाग 13" -> 13, "Set 7" -> 7) or order
+  const numberMatch =
+    setName?.match(/(?:भाग|part|set|test|quiz|\#)\s*(\d+)/i) ||
+    setName?.match(/\b(\d+)\b/);
+  const num = numberMatch ? numberMatch[1] : (setOrder !== undefined && setOrder > 0 ? String(setOrder) : "");
+
+  let baseName = "";
+
+  const isTense =
+    topicSlug?.toLowerCase().includes("tense") ||
+    topicName?.toLowerCase().includes("tense") ||
+    setName?.toLowerCase().includes("tense");
+
+  if (isTense && num) {
+    baseName = `tense-${num}`;
+  } else if (setName) {
+    baseName = setName;
+  } else if (topicName && num) {
+    baseName = `${topicName} - Part ${num}`;
+  } else if (topicName) {
+    baseName = topicName;
+  } else {
+    baseName = "Quizzer-Assessment-Report";
+  }
+
+  // Sanitize Windows illegal file characters: \ / : * ? " < > |
+  baseName = baseName.replace(/[<>:"/\\|?*]/g, "-").replace(/\s+/g, " ").trim();
+
+  // If filtering for mistakes only:
+  if (filter === "incorrect") {
+    baseName += " - Mistakes";
+  } else if (filter === "correct") {
+    baseName += " - Correct";
+  }
+
+  return baseName;
+}
 
 export default function ResultsPage() {
   const { testSetId } = useParams<{ testSetId: string }>();
@@ -139,10 +194,41 @@ export default function ResultsPage() {
     toggleBookmark({ questionId: questionId as Id<"questions"> });
   }
 
+  // Derived suggested file name for print / Save As PDF
+  const suggestedFileName = useMemo(() => {
+    return getSuggestedPdfFileName({
+      setName: currentSet?.name,
+      setOrder: currentSet?.order,
+      topicName: topic?.name,
+      topicSlug: topic?.slug,
+      filter: reviewFilter,
+    });
+  }, [currentSet, topic, reviewFilter]);
+
+  // Keep document.title synchronized so the browser automatically populates
+  // the exact test name in Windows "Save Print Output As" / "Save As PDF"
+  useEffect(() => {
+    if (suggestedFileName) {
+      document.title = suggestedFileName;
+    }
+  }, [suggestedFileName]);
+
   const handlePrint = (filter?: ReviewFilter) => {
+    const activeFilter = filter ?? reviewFilter;
+    const printFileName = getSuggestedPdfFileName({
+      setName: currentSet?.name,
+      setOrder: currentSet?.order,
+      topicName: topic?.name,
+      topicSlug: topic?.slug,
+      filter: activeFilter,
+    });
+
+    document.title = printFileName;
+
     if (filter && filter !== reviewFilter) {
       setReviewFilter(filter);
       setTimeout(() => {
+        document.title = printFileName;
         window.print();
       }, 150);
     } else {
@@ -213,16 +299,23 @@ export default function ResultsPage() {
               </Link>
             </Button>
 
-            {/* Print / Save PDF Button — CENTERED & PROMINENT */}
-            <Button
-              type="button"
-              onClick={() => handlePrint()}
-              className="font-bold text-xs h-10 px-6 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
-              title="Download publication-grade A4 PDF or print evaluation report"
-            >
-              <Printer className="h-3.5 w-3.5" />
-              Print / Save PDF
-            </Button>
+            {/* Print / Save PDF Button — CENTERED & PROMINENT with auto-naming indicator */}
+            <div className="flex flex-col items-center gap-1.5">
+              <Button
+                type="button"
+                onClick={() => handlePrint()}
+                className="font-bold text-xs h-10 px-6 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
+                title={`Quick Save: ${suggestedFileName}.pdf`}
+              >
+                <Printer className="h-3.5 w-3.5" />
+                Print / Save PDF
+              </Button>
+              {suggestedFileName && (
+                <span className="text-[10.5px] text-muted-foreground font-medium flex items-center gap-1">
+                  Save as: <code className="bg-muted px-1.5 py-0.5 rounded text-foreground font-mono font-semibold">{suggestedFileName}.pdf</code>
+                </span>
+              )}
+            </div>
 
             {nextSet ? (
               <Button
@@ -315,8 +408,8 @@ export default function ResultsPage() {
 
       {/* ── Official A4 Two-Column Assessment Report (Shown ONLY during Print) ── */}
       <PrintableAssessmentReport
-        testSetName={currentSet?.name || "Test Result"}
-        subjectName={subject?.name || "English (Paper-II)"}
+        testSetName={currentSet?.name || "Assessment Report"}
+        subjectName={subject?.name}
         topicName={topic?.name}
         score={attempt.score ?? 0}
         totalQuestions={attempt.totalQuestions}
