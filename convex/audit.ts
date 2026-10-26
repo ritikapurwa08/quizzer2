@@ -233,13 +233,34 @@ export const deleteTestSetWithQuestions = mutation({
     }
 
     await ctx.db.delete(args.testSetId);
-
     return {
       deletedSetId: args.testSetId,
       deletedQuestionsCount: questions.length,
     };
   },
 });
+
+export const getLatestAttemptsForInspection = query({
+  args: {},
+  handler: async (ctx) => {
+    const attempts = await ctx.db
+      .query("attempts")
+      .order("desc")
+      .take(10);
+
+    return attempts.map((a) => ({
+      _id: a._id,
+      userId: a.userId,
+      testSetId: a.testSetId,
+      status: a.status,
+      score: a.score,
+      totalQuestions: a.totalQuestions,
+      startedAt: a.startedAt,
+      submittedAt: a.submittedAt,
+    }));
+  },
+});
+
 
 
 

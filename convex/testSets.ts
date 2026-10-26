@@ -71,8 +71,14 @@ export const siteStats = query({
 });
 
 export const get = query({
-  args: { id: v.id("testSets") },
-  handler: async (ctx, args) => await ctx.db.get(args.id),
+  args: { id: v.union(v.id("testSets"), v.string()) },
+  handler: async (ctx, args) => {
+    try {
+      return await ctx.db.get(args.id as Id<"testSets">);
+    } catch {
+      return null;
+    }
+  },
 });
 
 export const getByTopicAndName = query({

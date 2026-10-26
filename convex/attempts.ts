@@ -1,5 +1,6 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
+import { Id } from "./_generated/dataModel";
 import { requireUser } from "./lib/permissions";
 import {
   calculateQuestionScore,
@@ -288,29 +289,39 @@ export const getWithQuestions = query({
 });
 
 export const latestSubmittedForTestSet = query({
-  args: { testSetId: v.id("testSets") },
+  args: { testSetId: v.union(v.id("testSets"), v.string()) },
   handler: async (ctx, args) => {
-    const user = await requireUser(ctx);
-    // Use index + desc order to get the newest submitted attempt in O(1) reads.
-    const latest = await ctx.db
-      .query("attempts")
-      .withIndex("by_user_test_set_status", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "submitted"),
-      )
-      .order("desc")
-      .first();
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return null;
+    }
 
-    if (!latest) return null;
+    try {
+      // Use index + desc order to get the newest submitted attempt in O(1) reads.
+      const latest = await ctx.db
+        .query("attempts")
+        .withIndex("by_user_test_set_status", (q) =>
+          q.eq("userId", user._id).eq("testSetId", args.testSetId as Id<"testSets">).eq("status", "submitted"),
+        )
+        .order("desc")
+        .first();
 
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
-      .collect();
+      if (!latest) return null;
 
-    return {
-      attempt: latest,
-      questions: questions.sort((a, b) => a.order - b.order),
-    };
+      const questions = await ctx.db
+        .query("questions")
+        .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId as Id<"testSets">))
+        .collect();
+
+      return {
+        attempt: latest,
+        questions: (questions || []).sort((a, b) => (a.order ?? 0) - (b.order ?? 0)),
+      };
+    } catch {
+      return null;
+    }
   },
 });
 

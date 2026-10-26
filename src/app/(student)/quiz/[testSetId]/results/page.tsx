@@ -132,20 +132,45 @@ export default function ResultsPage() {
   // Formatted evaluated questions for the publication-grade PDF report
   const evaluatedQuestions = useMemo(() => {
     return filteredQuestionsWithIndex.map(({ question, answer, badge, originalIndex }) => ({
-      question,
+      question: question || {
+        type: "mcq",
+        questionText: "Question details unavailable",
+        options: [],
+        correctAnswer: "",
+      },
       answer,
-      status: badge as "correct" | "incorrect" | "unanswered",
+      status: (badge || "unanswered") as "correct" | "incorrect" | "unanswered",
       originalIndex,
     }));
   }, [filteredQuestionsWithIndex]);
 
   // ── Loading state ──
-  if (data === undefined) {
+  if (data === undefined || currentSet === undefined) {
     return (
       <div className="w-full space-y-4 pt-1">
         <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
         <QuestionShellSkeleton />
       </div>
+    );
+  }
+
+  // ── Test Set Not Found & No Results ──
+  if (currentSet === null && data === null) {
+    return (
+      <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
+        <p className="text-base font-bold text-foreground mb-2">Test Set Not Found</p>
+        <p className="text-xs text-muted-foreground mb-6">
+          This test set does not exist or may have been updated.
+        </p>
+        <div className="flex justify-center gap-3">
+          <Button asChild className="rounded-xl">
+            <Link href="/dashboard">Back to Dashboard</Link>
+          </Button>
+          <Button asChild variant="outline" className="rounded-xl">
+            <Link href="/subjects">Browse All Subjects</Link>
+          </Button>
+        </div>
+      </Card>
     );
   }
 
@@ -158,10 +183,12 @@ export default function ResultsPage() {
           You haven&apos;t completed this test set yet, or your attempt is still in progress.
         </p>
         <div className="flex justify-center gap-3">
-          <Button asChild className="rounded-xl">
-            <Link href={`/quiz/${id}`}>Start Test Now</Link>
-          </Button>
-          <Button asChild variant="outline" className="rounded-xl">
+          {currentSet ? (
+            <Button asChild className="rounded-xl">
+              <Link href={`/quiz/${id}`}>Start Test Now</Link>
+            </Button>
+          ) : null}
+          <Button asChild variant={currentSet ? "outline" : "default"} className="rounded-xl">
             <Link href="/dashboard">Back to Dashboard</Link>
           </Button>
         </div>
@@ -170,13 +197,15 @@ export default function ResultsPage() {
   }
 
   const { attempt, questions } = data;
-  const answersList = attempt.answers || [];
+  const questionsList = questions || [];
+  const answersList = attempt?.answers || [];
   const correctCount = answersList.filter((a) => a.isCorrect).length;
   const incorrectCount = answersList.filter((a) => !a.isCorrect).length;
-  const unansweredCount = Math.max(0, attempt.totalQuestions - answersList.length);
+  const totalQCount = attempt?.totalQuestions ?? questionsList.length;
+  const unansweredCount = Math.max(0, totalQCount - answersList.length);
 
   const filterCounts = {
-    all: questions?.length || 0,
+    all: questionsList.length,
     correct: correctCount,
     incorrect: incorrectCount,
   };
@@ -352,7 +381,7 @@ export default function ResultsPage() {
                 Question Review
               </h2>
               <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
-                {filteredQuestionsWithIndex.length} of {questions.length} Questions
+                {filteredQuestionsWithIndex.length} of {questionsList.length} Questions
               </span>
             </div>
 
