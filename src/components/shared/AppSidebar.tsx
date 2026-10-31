@@ -25,6 +25,8 @@ import {
   X,
   Sparkles,
   ChevronRight,
+  FileText,
+  Search,
 } from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -44,6 +46,8 @@ interface NavItem {
 const STUDENT_NAV_ITEMS: NavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
+  { label: "Study Notes", href: "/notes", icon: FileText },
+  { label: "Search Questions", href: "/search", icon: Search },
   { label: "Syllabus Tracker", href: "/syllabus", icon: ListChecks, exact: true },
   { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
   { label: "Test History", href: "/history", icon: History, exact: true },
@@ -71,6 +75,18 @@ export function AppSidebar() {
     setMounted(true);
   }, []);
 
+  // Global ⌘K / Ctrl+K shortcut to navigate to question search
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        router.push("/search");
+      }
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [router]);
+
   // Close mobile drawer on route change
   useEffect(() => {
     setMobileOpen(false);
@@ -79,6 +95,9 @@ export function AppSidebar() {
   const isAdmin = isUserAdmin(me);
   const displayName = me?.name || me?.email?.split("@")[0] || "Student";
   const initials = displayName.slice(0, 2).toUpperCase();
+
+  // In active quiz session, hide mobile top bar to avoid double-stacking headers (Focus Mode)
+  const isQuizActive = Boolean(pathname?.startsWith("/quiz/") && !pathname?.includes("/results"));
 
   async function handleSignOut() {
     await signOut();
@@ -181,42 +200,44 @@ export function AppSidebar() {
 
   return (
     <>
-      {/* ── MOBILE TOP BAR (hidden on md and above) ── */}
-      <header className="sticky top-0 z-40 flex md:hidden items-center justify-between border-b border-border bg-card/90 backdrop-blur-md px-4 py-2.5">
-        <Link href="/dashboard" className="flex items-center gap-2 font-bold text-foreground">
-          <QuizzerLogoIcon className="h-6 w-6" />
-          <span className="text-base font-bold tracking-tight">Quizzer</span>
-        </Link>
+      {/* ── MOBILE TOP BAR (hidden on md and above, and hidden in active quiz Focus Mode) ── */}
+      {!isQuizActive && (
+        <header className="sticky top-0 z-40 flex md:hidden items-center justify-between border-b border-border bg-card/90 backdrop-blur-md px-4 py-2.5">
+          <Link href="/dashboard" className="flex items-center gap-2 font-bold text-foreground">
+            <QuizzerLogoIcon className="h-6 w-6" />
+            <span className="text-base font-bold tracking-tight">Quizzer</span>
+          </Link>
 
-        <div className="flex items-center gap-2">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="h-8 w-8 rounded-xl"
-            aria-label="Toggle theme"
-          >
-            {!mounted ? (
-              <span className="h-4 w-4 inline-block" />
-            ) : (
-              <>
-                <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-              </>
-            )}
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className="h-10 w-10 rounded-xl"
+              aria-label="Toggle theme"
+            >
+              {!mounted ? (
+                <span className="h-4 w-4 inline-block" />
+              ) : (
+                <>
+                  <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                  <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                </>
+              )}
+            </Button>
 
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="h-8.5 w-8.5 rounded-xl border-border cursor-pointer"
-            aria-label="Open menu"
-          >
-            {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-          </Button>
-        </div>
-      </header>
+            <Button
+              variant="outline"
+              size="icon"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              className="h-10 w-10 rounded-xl border-border cursor-pointer"
+              aria-label="Open menu"
+            >
+              {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+            </Button>
+          </div>
+        </header>
+      )}
 
       {/* ── MOBILE SLIDEOVER DRAWER ── */}
       {mobileOpen && (
@@ -295,7 +316,7 @@ export function AppSidebar() {
                 Quizzer
               </span>
               <span className="text-[10px] font-medium text-muted-foreground block">
-                RPSC 2nd Grade Paper-1
+                RPSC 2nd Grade GK
               </span>
             </div>
           </Link>

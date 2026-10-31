@@ -21,7 +21,19 @@ import {
   LayoutList,
   RotateCcw,
   Printer,
+  ChevronDown,
+  Sun,
+  Moon,
+  FileText,
 } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 /**
  * Automatically derives a clean, filesystem-safe filename for PDF printing
@@ -125,6 +137,7 @@ export default function ResultsPage() {
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
+  const [pdfTheme, setPdfTheme] = useState<"dark" | "light">("dark");
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
@@ -264,8 +277,17 @@ export default function ResultsPage() {
     toggleBookmark({ questionId: questionId as Id<"questions"> });
   }
 
-  const handlePrint = (filter?: ReviewFilter) => {
+  const handlePrint = async (filter?: ReviewFilter, themeOverride?: "dark" | "light") => {
     const activeFilter = filter ?? reviewFilter;
+    const activeTheme = themeOverride ?? pdfTheme;
+
+    if (themeOverride && themeOverride !== pdfTheme) {
+      setPdfTheme(themeOverride);
+    }
+    if (filter && filter !== reviewFilter) {
+      setReviewFilter(filter);
+    }
+
     const printFileName = getSuggestedPdfFileName({
       setName: currentSet?.name,
       setOrder: currentSet?.order,
@@ -276,15 +298,16 @@ export default function ResultsPage() {
 
     document.title = printFileName;
 
-    if (filter && filter !== reviewFilter) {
-      setReviewFilter(filter);
-      setTimeout(() => {
-        document.title = printFileName;
-        window.print();
-      }, 150);
-    } else {
-      window.print();
+    // Ensure DOM layout and custom web fonts are fully rendered before print dialog
+    if (typeof document !== "undefined" && document.fonts) {
+      await document.fonts.ready;
     }
+    await new Promise<void>((resolve) => {
+      requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+    });
+
+    document.title = printFileName;
+    window.print();
   };
 
   return (
@@ -334,10 +357,10 @@ export default function ResultsPage() {
 
           {/* Canonical Scoring Rule Note */}
           <p className="text-[11px] text-muted-foreground mb-5">
-            Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.66 per incorrect)
+            Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
           </p>
 
-          {/* Action buttons: Retake Test, Print / Save PDF in Middle, Next Test Set */}
+          {/* Action buttons: Retake Test, Unified Print Dropdown, Next Test Set */}
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Button
               asChild
@@ -350,23 +373,66 @@ export default function ResultsPage() {
               </Link>
             </Button>
 
-            {/* Print / Save PDF Button — CENTERED & PROMINENT with auto-naming indicator */}
-            <div className="flex flex-col items-center gap-1.5">
-              <Button
-                type="button"
-                onClick={() => handlePrint()}
-                className="font-bold text-xs h-10 px-6 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
-                title={`Quick Save: ${suggestedFileName}.pdf`}
-              >
-                <Printer className="h-3.5 w-3.5" />
-                Print / Save PDF
-              </Button>
-              {suggestedFileName && (
-                <span className="text-[10.5px] text-muted-foreground font-medium flex items-center gap-1">
-                  Save as: <code className="bg-muted px-1.5 py-0.5 rounded text-foreground font-mono font-semibold">{suggestedFileName}.pdf</code>
-                </span>
-              )}
-            </div>
+            {/* Print / Save PDF Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  type="button"
+                  className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
+                  title={`Print / Save: ${suggestedFileName}.pdf`}
+                >
+                  <Printer className="h-3.5 w-3.5" />
+                  Print / Save PDF
+                  <ChevronDown className="h-3 w-3 opacity-70" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="center" className="w-56 rounded-xl border-border">
+                <DropdownMenuLabel className="text-[10px] uppercase font-bold tracking-wider text-muted-foreground">
+                  Dark Report (Default)
+                </DropdownMenuLabel>
+                <DropdownMenuItem
+                  className="text-xs font-medium cursor-pointer gap-2"
+                  onClick={() => handlePrint("all", "dark")}
+                >
+                  <Moon className="h-3.5 w-3.5 text-muted-foreground" />
+                  Print All Questions
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  className="text-xs font-medium cursor-pointer gap-2"
+                  onClick={() => handlePrint("incorrect", "dark")}
+                >
+                  <XCircle className="h-3.5 w-3.5 text-rose-500" />
+                  Print Mistakes Only
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  className="text-xs font-medium cursor-pointer gap-2"
+                  onClick={() => handlePrint("correct", "dark")}
+                >
+                  <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
+                  Print Correct Only
+                </DropdownMenuItem>
+
+                <DropdownMenuSeparator />
+
+                <DropdownMenuLabel className="text-[10px] uppercase font-bold tracking-wider text-muted-foreground">
+                  Light (Ink-Saver Mode)
+                </DropdownMenuLabel>
+                <DropdownMenuItem
+                  className="text-xs font-medium cursor-pointer gap-2"
+                  onClick={() => handlePrint("all", "light")}
+                >
+                  <Sun className="h-3.5 w-3.5 text-amber-500" />
+                  Print All (Light)
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  className="text-xs font-medium cursor-pointer gap-2"
+                  onClick={() => handlePrint("incorrect", "light")}
+                >
+                  <FileText className="h-3.5 w-3.5 text-muted-foreground" />
+                  Print Mistakes (Light)
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             {nextSet ? (
               <Button
@@ -477,6 +543,7 @@ export default function ResultsPage() {
               : "Correct Answers Only"
           }
           questions={evaluatedQuestions}
+          theme={pdfTheme}
         />
       </PdfReportErrorBoundary>
     </>

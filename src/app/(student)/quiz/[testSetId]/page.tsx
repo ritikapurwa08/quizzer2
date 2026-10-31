@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
 import { api } from "../../../../../convex/_generated/api";
@@ -14,8 +14,9 @@ import {
 } from "@/components/quiz";
 import { QuestionPaletteToggle } from "@/components/quiz/QuestionPaletteToggle";
 import { Button } from "@/components/ui/button";
-import { ConfirmDialog } from "@/components/admin/ConfirmDialog";
-import { Clock, Loader2, Pause, Play } from "lucide-react";
+import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
+import { useToast } from "@/components/ui/Toast";
+import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useWakeLock } from "@/hooks/useWakeLock";
 
@@ -47,12 +48,28 @@ export default function QuizPage() {
     isLoading,
   } = useQuizSession(id);
 
+  const { showToast } = useToast();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Keep screen active throughout the quiz session to prevent sleep timeouts
   useWakeLock(true);
+
+  // Timer warnings at 5 mins (300s) and 1 min (60s)
+  const warned5m = useRef(false);
+  const warned1m = useRef(false);
+
+  useEffect(() => {
+    if (remainingSeconds <= 300 && remainingSeconds > 290 && !warned5m.current) {
+      warned5m.current = true;
+      showToast("5 minutes remaining! Review your unanswered questions.", "warning");
+    }
+    if (remainingSeconds <= 60 && remainingSeconds > 50 && !warned1m.current) {
+      warned1m.current = true;
+      showToast("Final 1 minute remaining! Submit your answers shortly.", "warning");
+    }
+  }, [remainingSeconds, showToast]);
 
   // Auto-redirect to results when test attempt status becomes "submitted" (manual or timer expiration)
   useEffect(() => {
@@ -66,11 +83,23 @@ export default function QuizPage() {
   // Keyboard shortcuts: 1-4/A-D for options, ArrowLeft/Right for nav, Enter to advance/submit
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
+      // 1. Never handle options or shortcuts while paused
+      if (isPaused) return;
+
+      // 2. Ignore browser/OS shortcuts with modifiers (e.g. Ctrl+C, Cmd+A, Alt+Tab)
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+
+      // 3. Ignore typing in inputs or when modal is open
       if (
         e.target instanceof HTMLInputElement ||
         e.target instanceof HTMLTextAreaElement ||
         confirmSubmitOpen
       ) {
+        return;
+      }
+
+      // 4. If focus is on a button and user hits Enter, let button handle it natively
+      if (e.key === "Enter" && e.target instanceof HTMLButtonElement) {
         return;
       }
 
@@ -104,7 +133,7 @@ export default function QuizPage() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, questions.length, current, selectAnswer, confirmSubmitOpen]);
+  }, [currentIndex, questions.length, current, selectAnswer, confirmSubmitOpen, isPaused]);
 
   if (isLoading || questions.length === 0) {
     return (
@@ -138,6 +167,7 @@ export default function QuizPage() {
       router.push(`/quiz/${id}/results`);
     } catch (err) {
       console.error("Submit failed:", err);
+      showToast("Failed to submit test. Please check your connection and try again.", "warning");
       setIsSubmitting(false);
     }
   }
@@ -145,7 +175,7 @@ export default function QuizPage() {
   return (
     <div className="flex flex-col lg:flex-row gap-6">
       {/* ── Main question column ── */}
-      <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0">
+      <div className="flex-1 space-y-3 min-w-0 pb-28 lg:pb-0">
 
         {/* ── Mobile Header: name + countdown timer + pause button ── */}
         <div className="flex lg:hidden items-center justify-between gap-2 bg-card px-3 py-2.5 rounded-xl border border-border">
@@ -236,29 +266,41 @@ export default function QuizPage() {
         )}
 
 
-        {/* ── Mobile navigation row: ← prev | answered/total | next/submit → ── */}
-        <div className="flex lg:hidden items-center gap-2 pt-1">
+        {/* ── Mobile Question Palette — collapsible ── */}
+        <div className="block lg:hidden pt-2">
+          <QuestionPaletteToggle
+            questions={paletteQuestions}
+            currentIndex={currentIndex}
+            onJump={setCurrentIndex}
+          />
+        </div>
+
+        {/* ── Fixed Mobile Bottom Action Bar (Safe Area Compliant) ── */}
+        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-4 py-2.5 shadow-lg safe-bottom flex items-center justify-between gap-3">
           <Button
             variant="outline"
+            size="sm"
             onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
             disabled={currentIndex === 0}
-            className="h-10 px-3 font-semibold text-xs rounded-xl border-border cursor-pointer shrink-0"
+            className="h-10 px-3.5 font-semibold text-xs rounded-xl border-border cursor-pointer shrink-0"
             aria-label="Previous question"
           >
-            ← Prev
+            <ChevronLeft className="h-4 w-4 mr-0.5" />
+            Prev
           </Button>
 
-          {/* Compact answered/total count — center */}
-          <span className="flex-1 text-center text-xs font-semibold tabular-nums text-muted-foreground">
+          {/* Answered progress pill in center */}
+          <span className="text-center text-xs font-semibold tabular-nums text-muted-foreground truncate">
             {answeredCount}&thinsp;/&thinsp;{questions.length} answered
           </span>
 
           {/* Next or Submit */}
           {isLastQuestion ? (
             <Button
+              size="sm"
               onClick={() => setConfirmSubmitOpen(true)}
               disabled={isSubmitting}
-              className="h-10 px-3 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
+              className="h-10 px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-1.5">
@@ -266,27 +308,23 @@ export default function QuizPage() {
                   <span>Submitting...</span>
                 </span>
               ) : (
-                "Submit ✓"
+                <>
+                  <Check className="h-3.5 w-3.5" />
+                  <span>Submit</span>
+                </>
               )}
             </Button>
           ) : (
             <Button
+              size="sm"
               onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
-              className="h-10 px-3 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
+              className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
               aria-label="Next question"
             >
-              Next →
+              Next
+              <ChevronRight className="h-4 w-4 ml-0.5" />
             </Button>
           )}
-        </div>
-
-        {/* ── Mobile Question Palette — collapsible ── */}
-        <div className="block lg:hidden">
-          <QuestionPaletteToggle
-            questions={paletteQuestions}
-            currentIndex={currentIndex}
-            onJump={setCurrentIndex}
-          />
         </div>
       </div>
 
@@ -412,11 +450,18 @@ export default function QuizPage() {
           if (!isSubmitting) setConfirmSubmitOpen(open);
         }}
         title="Submit Test?"
-        description={`You have answered ${answeredCount} of ${questions.length} questions. Are you sure you want to finish the test?`}
+        description="Are you sure you want to finish the test? Your final score and answer evaluation will be recorded."
+        stats={{
+          total: questions.length,
+          answered: answeredCount,
+          unanswered: Math.max(0, questions.length - answeredCount),
+          bookmarked: bookmarkedIds.size,
+        }}
         onConfirm={handleSubmit}
         isLoading={isSubmitting}
         confirmLabel="Yes, Submit Test"
         loadingLabel="Submitting..."
+        variant="primary"
       />
     </div>
   );

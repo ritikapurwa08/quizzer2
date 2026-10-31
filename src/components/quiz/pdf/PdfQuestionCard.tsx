@@ -23,6 +23,9 @@ interface PdfQuestionCardProps {
   };
   selectedAnswer?: string | string[];
   status: "correct" | "incorrect" | "unanswered";
+  isFullWidth?: boolean;
+  isCompact?: boolean;
+  className?: string;
 }
 
 /**
@@ -40,7 +43,7 @@ function renderInlineMarkdown(text?: string | null): React.ReactNode[] {
       parts.push(text.substring(lastIndex, match.index));
     }
     parts.push(
-      <strong key={`b-${match.index}`} className="font-bold text-slate-900">
+      <strong key={`b-${match.index}`} className="font-bold" style={{ color: "var(--pdf-text)" }}>
         {match[1]}
       </strong>
     );
@@ -99,6 +102,9 @@ export function PdfQuestionCard({
   question,
   selectedAnswer,
   status,
+  isFullWidth = false,
+  isCompact = false,
+  className,
 }: PdfQuestionCardProps) {
   const cleanedText = cleanQuestionPrompt(question.questionText, question.type);
   const isHindi = containsDevanagari(cleanedText || question.questionText);
@@ -119,80 +125,161 @@ export function PdfQuestionCard({
   const expParts = parseExplanationParts(question.explanation, question.meta);
 
   return (
-    <div className="pdf-question-card rounded-2xl border border-slate-200 bg-white p-3.5 text-slate-900 break-inside-avoid page-break-inside-avoid shadow-xs box-border flex flex-col justify-between h-full">
+    <article
+      className={cn(
+        "pdf-question-card rounded-xl border p-3 break-inside-avoid box-border flex flex-col justify-between",
+        className
+      )}
+      style={{
+        background: "var(--pdf-surface)",
+        borderColor: "var(--pdf-border)",
+        color: "var(--pdf-text)",
+      }}
+      lang={isHindi ? "hi" : "en"}
+    >
       {/* ── Card Top: Header, Question & Options ── */}
       <div className="flex-1 min-h-0 flex flex-col">
-        {/* ── Card Header: QUESTION NUMBER + Status Badge (Matching Image 2) ── */}
-        <div className="flex items-center justify-between pb-1.5 mb-2 border-b border-slate-100 shrink-0">
-          <span className="text-[9.5pt] font-black text-blue-600 uppercase tracking-wider">
-            QUESTION {String(number).padStart(2, "0")}
-          </span>
+        {/* ── Card Header: Number chip, source chip, status chip ── */}
+        <div
+          className="flex items-center justify-between pb-1.5 mb-2 border-b shrink-0"
+          style={{ borderColor: "var(--pdf-border)" }}
+        >
           <div className="flex items-center gap-1.5">
+            <span
+              className="text-[9pt] font-black tracking-wider uppercase px-1.5 py-0.5 rounded"
+              style={{
+                background: "var(--pdf-surface-2)",
+                color: "var(--pdf-text)",
+              }}
+            >
+              Q {String(number).padStart(2, "0")}
+            </span>
             {examRef && (
-              <span className="max-w-[140px] truncate rounded-md border border-slate-200 bg-slate-50 px-1.5 py-0.5 text-[6.8pt] font-semibold text-slate-500">
+              <span
+                className="max-w-[130px] truncate rounded border px-1.5 py-0.5 text-[6.8pt] font-semibold"
+                style={{
+                  background: "var(--pdf-surface-2)",
+                  borderColor: "var(--pdf-border)",
+                  color: "var(--pdf-muted)",
+                }}
+              >
                 {examRef}
               </span>
             )}
+          </div>
+
+          <div className="flex items-center gap-1.5">
             {status === "correct" && (
-              <span className="inline-flex items-center gap-0.5 rounded-md border border-emerald-200 bg-emerald-50/90 px-2 py-0.5 text-[7pt] font-extrabold text-emerald-600 leading-none">
+              <span
+                className="inline-flex items-center gap-0.5 rounded border px-1.5 py-0.5 text-[7pt] font-extrabold leading-none"
+                style={{
+                  background: "var(--pdf-ok-bg)",
+                  borderColor: "var(--pdf-ok-border)",
+                  color: "var(--pdf-ok)",
+                }}
+              >
                 ✓ CORRECT · +2.0
               </span>
             )}
             {status === "incorrect" && (
-              <span className="inline-flex items-center gap-0.5 rounded-md border border-rose-200 bg-rose-50/90 px-2 py-0.5 text-[7pt] font-extrabold text-rose-600 leading-none">
+              <span
+                className="inline-flex items-center gap-0.5 rounded border px-1.5 py-0.5 text-[7pt] font-extrabold leading-none"
+                style={{
+                  background: "var(--pdf-bad-bg)",
+                  borderColor: "var(--pdf-bad-border)",
+                  color: "var(--pdf-bad)",
+                }}
+              >
                 ✕ INCORRECT · -0.67
               </span>
             )}
             {status === "unanswered" && (
-              <span className="inline-flex items-center gap-0.5 rounded-md border border-slate-200 bg-slate-100 px-2 py-0.5 text-[7pt] font-extrabold text-slate-600 leading-none">
+              <span
+                className="inline-flex items-center gap-0.5 rounded border px-1.5 py-0.5 text-[7pt] font-extrabold leading-none"
+                style={{
+                  background: "var(--pdf-surface-2)",
+                  borderColor: "var(--pdf-border)",
+                  color: "var(--pdf-muted)",
+                }}
+              >
                 ○ SKIPPED · 0.0
               </span>
             )}
           </div>
         </div>
 
-        {/* ── Question Statement ── */}
+        {/* ── Question Statement (9pt font, 1.6 line-height for Devanagari) ── */}
         <div
           className={cn(
-            "text-[9.2pt] font-bold text-slate-900 leading-snug mb-2 whitespace-pre-wrap shrink-0",
-            isHindi && "font-hindi"
+            "text-[9pt] font-bold leading-snug mb-2 whitespace-pre-wrap shrink-0",
+            isHindi && "font-hindi leading-[1.6]"
           )}
+          style={{ color: "var(--pdf-text)" }}
         >
           {cleanedText || question.questionText}
         </div>
 
-        {/* ── 4 Options List (Clean Circular Letter Badge Matching Image 2) ── */}
+        {/* ── 4 Options List (8.5pt font, rounded rows, circular letter badges) ── */}
         {Array.isArray(question.options) && question.options.length > 0 && (
-          <div className="space-y-1.5 mb-2 flex-1">
+          <div
+            className={cn(
+              "gap-1.5 mb-2 flex-1",
+              isFullWidth ? "grid grid-cols-2" : "flex flex-col space-y-1.5"
+            )}
+          >
             {question.options.filter(Boolean).map((opt, idx) => {
               const letter = String.fromCharCode(65 + idx);
               const isCorrect = Boolean(correctOptId && opt?.id === correctOptId);
               const isUserWrong = Boolean(userOptId && opt?.id === userOptId && !isCorrect);
+              const optIsHindi = containsDevanagari(opt.text);
 
-              let rowClasses = "border-slate-200 bg-white text-slate-800";
-              let letterClasses = "border-slate-200 bg-slate-100 text-slate-600 font-bold";
+              let rowStyle: React.CSSProperties = {
+                background: "var(--pdf-surface-2)",
+                borderColor: "var(--pdf-border)",
+                color: "var(--pdf-text)",
+              };
+              let letterStyle: React.CSSProperties = {
+                background: "var(--pdf-surface)",
+                borderColor: "var(--pdf-border)",
+                color: "var(--pdf-muted)",
+              };
 
               if (isCorrect) {
-                rowClasses = "border-emerald-400 bg-emerald-50/70 text-emerald-950 font-medium";
-                letterClasses = "bg-emerald-600 text-white font-bold border-transparent";
+                rowStyle = {
+                  background: "var(--pdf-ok-bg)",
+                  borderColor: "var(--pdf-ok-border)",
+                  color: "var(--pdf-ok)",
+                };
+                letterStyle = {
+                  background: "var(--pdf-ok)",
+                  borderColor: "transparent",
+                  color: "var(--pdf-ok-bg)",
+                  fontWeight: "bold",
+                };
               } else if (isUserWrong) {
-                rowClasses = "border-rose-300 bg-rose-50/70 text-rose-950 font-medium";
-                letterClasses = "bg-rose-600 text-white font-bold border-transparent";
+                rowStyle = {
+                  background: "var(--pdf-bad-bg)",
+                  borderColor: "var(--pdf-bad-border)",
+                  color: "var(--pdf-bad)",
+                };
+                letterStyle = {
+                  background: "var(--pdf-bad)",
+                  borderColor: "transparent",
+                  color: "var(--pdf-bad-bg)",
+                  fontWeight: "bold",
+                };
               }
 
               return (
                 <div
                   key={opt.id}
-                  className={cn(
-                    "flex items-center gap-2.5 rounded-xl border px-3 py-1.5 text-[8.5pt] leading-tight",
-                    rowClasses
-                  )}
+                  className="flex items-center gap-2 rounded-lg border px-2.5 py-1.5 text-[8.5pt] leading-tight"
+                  style={rowStyle}
+                  lang={optIsHindi ? "hi" : "en"}
                 >
                   <span
-                    className={cn(
-                      "flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[7.5pt] leading-none border",
-                      letterClasses
-                    )}
+                    className="flex h-4.5 w-4.5 shrink-0 items-center justify-center rounded-full text-[7.5pt] leading-none border font-bold"
+                    style={letterStyle}
                   >
                     {letter}
                   </span>
@@ -200,11 +287,34 @@ export function PdfQuestionCard({
                   <span
                     className={cn(
                       "flex-1 min-w-0 leading-normal",
-                      containsDevanagari(opt.text) && "font-hindi"
+                      optIsHindi && "font-hindi leading-[1.5]"
                     )}
                   >
                     {opt.text}
                   </span>
+
+                  {isUserWrong && (
+                    <span
+                      className="text-[6.5pt] font-extrabold uppercase tracking-wider px-1 py-0.5 rounded shrink-0 ml-1"
+                      style={{
+                        background: "var(--pdf-bad)",
+                        color: "var(--pdf-bad-bg)",
+                      }}
+                    >
+                      Your choice
+                    </span>
+                  )}
+                  {isCorrect && (
+                    <span
+                      className="text-[6.5pt] font-extrabold uppercase tracking-wider px-1 py-0.5 rounded shrink-0 ml-1"
+                      style={{
+                        background: "var(--pdf-ok)",
+                        color: "var(--pdf-ok-bg)",
+                      }}
+                    >
+                      Correct
+                    </span>
+                  )}
                 </div>
               );
             })}
@@ -212,15 +322,32 @@ export function PdfQuestionCard({
         )}
       </div>
 
-      {/* ── Rule & Explanation Box (Pinned to Bottom of Card) ── */}
+      {/* ── Rule & Explanation Box (Surface-2, 2px left accent border, min 7.8pt, 1.6 line-height) ── */}
       {expParts && (expParts.concept || expParts.elimination || expParts.generic) && (
-        <div className="mt-2 rounded-xl border border-slate-200 bg-slate-50/90 p-2.5 text-[7.6pt] text-slate-700 leading-relaxed shrink-0">
-          <span className="block text-[6.8pt] font-black text-slate-500 uppercase tracking-wider mb-1">
-            RULE & EXPLANATION
+        <div
+          className={cn(
+            "mt-2 rounded-lg border border-l-2 p-2 shrink-0 leading-relaxed",
+            isCompact ? "text-[7.5pt]" : "text-[7.8pt]"
+          )}
+          style={{
+            background: "var(--pdf-surface-2)",
+            borderColor: "var(--pdf-border)",
+            borderLeftColor: "var(--pdf-accent)",
+          }}
+        >
+          <span
+            className="block text-[6.8pt] font-black uppercase tracking-wider mb-1"
+            style={{ color: "var(--pdf-muted)" }}
+          >
+            RULE &amp; EXPLANATION
           </span>
 
           {expParts.concept && (
-            <div className={cn("text-slate-800 font-medium mb-1", containsDevanagari(expParts.concept) && "font-hindi")}>
+            <div
+              className={cn("font-medium mb-1", containsDevanagari(expParts.concept) && "font-hindi leading-[1.6]")}
+              style={{ color: "var(--pdf-text)" }}
+              lang={containsDevanagari(expParts.concept) ? "hi" : "en"}
+            >
               {renderInlineMarkdown(expParts.concept)}
             </div>
           )}
@@ -228,22 +355,30 @@ export function PdfQuestionCard({
           {expParts.elimination && (
             <div
               className={cn(
-                "text-slate-700",
-                expParts.concept && "pt-1 border-t border-slate-200 mt-1",
-                containsDevanagari(expParts.elimination) && "font-hindi"
+                "pt-1 border-t mt-1",
+                containsDevanagari(expParts.elimination) && "font-hindi leading-[1.6]"
               )}
+              style={{
+                borderColor: "var(--pdf-border)",
+                color: "var(--pdf-muted)",
+              }}
+              lang={containsDevanagari(expParts.elimination) ? "hi" : "en"}
             >
               {renderInlineMarkdown(expParts.elimination)}
             </div>
           )}
 
           {expParts.generic && !expParts.concept && !expParts.elimination && (
-            <div className={cn("text-slate-800 font-medium", containsDevanagari(expParts.generic) && "font-hindi")}>
+            <div
+              className={cn("font-medium", containsDevanagari(expParts.generic) && "font-hindi leading-[1.6]")}
+              style={{ color: "var(--pdf-text)" }}
+              lang={containsDevanagari(expParts.generic) ? "hi" : "en"}
+            >
               {renderInlineMarkdown(expParts.generic)}
             </div>
           )}
         </div>
       )}
-    </div>
+    </article>
   );
 }

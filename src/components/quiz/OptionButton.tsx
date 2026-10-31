@@ -40,7 +40,7 @@ export function OptionButton({
         !selected && !correctness &&
           "border-border bg-card hover:border-foreground/30 hover:bg-muted/40",
         selected && !correctness &&
-          "border-foreground bg-neutral-100 dark:bg-neutral-900 shadow-xs",
+          "border-primary bg-secondary shadow-xs font-medium",
         correctness === "correct" &&
           "border-success/60 bg-success/10 shadow-sm shadow-success/10",
         correctness === "incorrect" &&
@@ -90,33 +90,24 @@ export function OptionButton({
         {text}
       </span>
 
-      {/* Screen icon / badge */}
-      <span className="flex h-5 w-5 shrink-0 items-center justify-center print:hidden" aria-hidden="true">
-        {correctness === "correct" ? (
-          <span className="flex h-5 w-5 items-center justify-center rounded-full bg-success text-success-foreground">
-            <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
-              <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </span>
-        ) : correctness === "incorrect" ? (
-          <span className="flex h-5 w-5 items-center justify-center rounded-full bg-destructive text-destructive-foreground">
-            <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
-              <path d="M3 3l6 6M9 3l-6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-          </span>
-        ) : (
-          <span
-            className={cn(
-              "flex h-5 w-5 items-center justify-center rounded-full border transition-colors",
-              selected
-                ? "border-foreground bg-foreground"
-                : "border-border bg-background group-hover:border-foreground/40"
-            )}
-          >
-            {selected && <span className="h-2 w-2 rounded-full bg-background" />}
-          </span>
-        )}
-      </span>
+      {/* Screen status icon (rendered only during review evaluation) */}
+      {correctness && (
+        <span className="flex h-5 w-5 shrink-0 items-center justify-center print:hidden" aria-hidden="true">
+          {correctness === "correct" ? (
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-success text-success-foreground">
+              <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </span>
+          ) : (
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-destructive text-destructive-foreground">
+              <svg viewBox="0 0 12 12" className="h-3 w-3" fill="none">
+                <path d="M3 3l6 6M9 3l-6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+            </span>
+          )}
+        </span>
+      )}
 
       {/* Print-only explicit status labels */}
       {correctness === "correct" && (

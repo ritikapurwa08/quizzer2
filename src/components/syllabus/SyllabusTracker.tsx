@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
+import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 import { MASTER_TOPICS_LIST, MasterTopicInfo } from "@/lib/pool/masterTopics";
 import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 
@@ -45,6 +46,7 @@ const CANONICAL_SECTIONS = [
 export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProps) {
   const [completedTopicIds, setCompletedTopicIds] = useState<Set<number>>(new Set());
   const [expandedTopicIds, setExpandedTopicIds] = useState<Set<number>>(new Set());
+  const [confirmResetOpen, setConfirmResetOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSection, setSelectedSection] = useState<string>("all");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
@@ -84,17 +86,14 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
     });
   };
 
-  const resetAllProgress = () => {
-    if (typeof window !== "undefined") {
-      const confirmed = window.confirm("Are you sure you want to reset all tracked syllabus progress?");
-      if (!confirmed) return;
-    }
+  const handleConfirmReset = () => {
     setCompletedTopicIds(new Set());
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch (e) {
       console.error("Failed to clear syllabus progress", e);
     }
+    setConfirmResetOpen(false);
   };
 
   const toggleExpandTopic = (id: number) => {
@@ -168,7 +167,7 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
             <Button
               variant="outline"
               size="sm"
-              onClick={resetAllProgress}
+              onClick={() => setConfirmResetOpen(true)}
               className="rounded-xl text-xs font-semibold h-8.5 text-muted-foreground hover:text-destructive hover:border-destructive/40 transition-colors self-start sm:self-auto cursor-pointer"
             >
               <RotateCcw className="h-3.5 w-3.5 mr-1.5" />
@@ -390,6 +389,17 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
           })}
         </div>
       )}
+
+      {/* Reset Confirmation Dialog */}
+      <ConfirmDialog
+        open={confirmResetOpen}
+        onOpenChange={setConfirmResetOpen}
+        title="Reset Syllabus Progress?"
+        description="Are you sure you want to reset all tracked topics? All marked completions and progress will be cleared."
+        onConfirm={handleConfirmReset}
+        confirmLabel="Yes, Reset All"
+        variant="destructive"
+      />
     </div>
   );
 }

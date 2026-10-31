@@ -7,7 +7,7 @@ import { useConvexAuth } from "convex/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { GraduationCap, User, Mail, Lock, Shield, AlertCircle, Loader2 } from "lucide-react";
+import { GraduationCap, User, Mail, Lock, Shield, AlertCircle, Loader2, Eye, EyeOff } from "lucide-react";
 
 export default function LoginPage() {
   const { isAuthenticated, isLoading } = useConvexAuth();
@@ -22,6 +22,7 @@ export default function LoginPage() {
   const [role, setRole] = useState<"student" | "admin">("student");
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   useEffect(() => {
     if (!isLoading && isAuthenticated) {
@@ -129,6 +130,7 @@ export default function LoginPage() {
               <Input
                 id="name"
                 type="text"
+                autoComplete="name"
                 placeholder="Jane Doe"
                 required
                 className="pl-9 h-11 rounded-lg border-border bg-background"
@@ -146,6 +148,7 @@ export default function LoginPage() {
             <Input
               id="email"
               type="email"
+              autoComplete="email"
               placeholder="you@example.com"
               required
               className="pl-9 h-11 rounded-lg border-border bg-background"
@@ -161,13 +164,22 @@ export default function LoginPage() {
             <Lock className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
             <Input
               id="password"
-              type="password"
+              type={showPassword ? "text" : "password"}
+              autoComplete={mode === "signIn" ? "current-password" : "new-password"}
               placeholder="••••••••"
               required
-              className="pl-9 h-11 rounded-lg border-border bg-background"
+              className="pl-9 pr-10 h-11 rounded-lg border-border bg-background"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute right-3 top-3 text-muted-foreground hover:text-foreground cursor-pointer"
+              aria-label={showPassword ? "Hide password" : "Show password"}
+            >
+              {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+            </button>
           </div>
         </div>
 
@@ -179,10 +191,11 @@ export default function LoginPage() {
                 <Lock className="absolute left-3 top-3 h-4 w-4 text-muted-foreground pointer-events-none" />
                 <Input
                   id="confirmPassword"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
+                  autoComplete="new-password"
                   placeholder="••••••••"
                   required
-                  className="pl-9 h-11 rounded-lg border-border bg-background"
+                  className="pl-9 pr-10 h-11 rounded-lg border-border bg-background"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />
@@ -236,7 +249,11 @@ export default function LoginPage() {
         )}
 
         {error && (
-          <div className="flex items-center gap-2.5 p-3 rounded-lg bg-destructive/10 border border-destructive/20 text-destructive text-sm font-medium">
+          <div
+            role="alert"
+            aria-live="assertive"
+            className="flex items-center gap-2.5 p-3 rounded-lg bg-destructive/10 border border-destructive/20 text-destructive text-sm font-medium"
+          >
             <AlertCircle className="h-4 w-4 shrink-0" />
             {error}
           </div>

@@ -32,78 +32,144 @@ export function PdfDashboard({
   const incorrectPoints = ((safeIncorrect * 2) / 3).toFixed(2);
 
   return (
-    <div className="pdf-dashboard mb-3 text-slate-900 bg-white">
+    <div className="pdf-dashboard mb-3" style={{ color: "var(--pdf-text)" }}>
       {/* ── 4 Distinct KPI Dashboard Cards ── */}
       <div className="grid grid-cols-4 gap-2.5">
         {/* Total Score Card */}
-        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
-          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+        <div
+          className="rounded-xl border p-2.5"
+          style={{
+            background: "var(--pdf-surface)",
+            borderColor: "var(--pdf-border)",
+          }}
+        >
+          <span
+            className="text-[6.5pt] font-bold uppercase tracking-wider block mb-1"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             TOTAL SCORE
           </span>
           <div className="flex items-baseline gap-1 leading-none">
-            <span className="text-[13pt] font-black text-slate-900 tracking-tight">
+            <span
+              className="text-[13pt] font-black tracking-tight"
+              style={{ color: "var(--pdf-text)" }}
+            >
               {formatScore(safeScore)}
             </span>
-            <span className="text-[8pt] font-bold text-slate-400">
+            <span className="text-[8pt] font-bold" style={{ color: "var(--pdf-muted)" }}>
               / {maxScore}
             </span>
           </div>
-          <span className="text-[6.8pt] font-semibold text-slate-400 block mt-1 leading-none">
+          <span
+            className="text-[6.8pt] font-semibold block mt-1 leading-none"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             {percentage}% marks
           </span>
         </div>
 
         {/* Correct Answers Card */}
-        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
-          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+        <div
+          className="rounded-xl border p-2.5"
+          style={{
+            background: "var(--pdf-surface)",
+            borderColor: "var(--pdf-border)",
+          }}
+        >
+          <span
+            className="text-[6.5pt] font-bold uppercase tracking-wider block mb-1"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             CORRECT
           </span>
           <div className="leading-none">
-            <span className="text-[13pt] font-black text-emerald-600 tracking-tight">
+            <span
+              className="text-[13pt] font-black tracking-tight"
+              style={{ color: "var(--pdf-ok)" }}
+            >
               {safeCorrect}
             </span>
           </div>
-          <span className="text-[6.8pt] font-bold text-emerald-600 block mt-1 leading-none">
+          <span
+            className="text-[6.8pt] font-bold block mt-1 leading-none"
+            style={{ color: "var(--pdf-ok)" }}
+          >
             +{correctPoints} points
           </span>
         </div>
 
         {/* Incorrect Answers Card */}
-        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
-          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+        <div
+          className="rounded-xl border p-2.5"
+          style={{
+            background: "var(--pdf-surface)",
+            borderColor: "var(--pdf-border)",
+          }}
+        >
+          <span
+            className="text-[6.5pt] font-bold uppercase tracking-wider block mb-1"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             INCORRECT
           </span>
           <div className="leading-none">
-            <span className="text-[13pt] font-black text-rose-600 tracking-tight">
+            <span
+              className="text-[13pt] font-black tracking-tight"
+              style={{ color: "var(--pdf-bad)" }}
+            >
               {safeIncorrect}
             </span>
           </div>
-          <span className="text-[6.8pt] font-bold text-rose-600 block mt-1 leading-none">
+          <span
+            className="text-[6.8pt] font-bold block mt-1 leading-none"
+            style={{ color: "var(--pdf-bad)" }}
+          >
             −{incorrectPoints} points
           </span>
         </div>
 
         {/* Accuracy Card */}
-        <div className="rounded-xl border border-slate-200 bg-white p-2.5 shadow-xs">
-          <span className="text-[6.5pt] font-bold text-slate-400 uppercase tracking-wider block mb-1">
+        <div
+          className="rounded-xl border p-2.5"
+          style={{
+            background: "var(--pdf-surface)",
+            borderColor: "var(--pdf-border)",
+          }}
+        >
+          <span
+            className="text-[6.5pt] font-bold uppercase tracking-wider block mb-1"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             ACCURACY
           </span>
           <div className="leading-none">
-            <span className="text-[13pt] font-black text-blue-600 tracking-tight">
+            <span
+              className="text-[13pt] font-black tracking-tight"
+              style={{ color: "var(--pdf-text)" }}
+            >
               {accuracy}%
             </span>
           </div>
-          <span className="text-[6.8pt] font-semibold text-slate-400 block mt-1 leading-none">
+          <span
+            className="text-[6.8pt] font-semibold block mt-1 leading-none"
+            style={{ color: "var(--pdf-muted)" }}
+          >
             {safeCorrect} of {safeTotal} questions
           </span>
         </div>
       </div>
 
-      {/* ── Blue Progress/Accent Bar Underneath KPIs ── */}
-      <div className="w-full h-1 bg-slate-100 rounded-full mt-2.5 mb-1 overflow-hidden">
+      {/* ── Progress Bar Underneath KPIs ── */}
+      <div
+        className="w-full h-1 rounded-full mt-2.5 mb-1 overflow-hidden"
+        style={{ background: "var(--pdf-surface-2)" }}
+      >
         <div
-          className="h-full bg-blue-600 rounded-full transition-all"
-          style={{ width: `${Math.min(100, Math.max(15, accuracy))}%` }}
+          className="h-full rounded-full transition-all"
+          style={{
+            background: "var(--pdf-accent)",
+            width: `${Math.min(100, Math.max(10, accuracy))}%`,
+          }}
         />
       </div>
     </div>

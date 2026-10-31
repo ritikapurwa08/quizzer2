@@ -4,6 +4,7 @@ import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { ToastProvider } from "@/components/ui/Toast";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegistrar } from "@/components/shared/PwaRegistrar";
 
@@ -63,7 +64,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           >
             <ConvexClientProvider>
               <PwaRegistrar />
-              <TooltipProvider delay={300}>{children}</TooltipProvider>
+              <TooltipProvider delay={300}>
+                <ToastProvider>{children}</ToastProvider>
+              </TooltipProvider>
             </ConvexClientProvider>
           </ThemeProvider>
         </body>
