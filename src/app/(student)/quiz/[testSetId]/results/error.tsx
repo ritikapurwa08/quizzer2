@@ -36,7 +36,13 @@ export default function ResultsError({
 
         <div className="flex items-center justify-center gap-3 pt-2">
           <Button
-            onClick={() => reset()}
+            onClick={() => {
+              try {
+                reset();
+              } catch {
+                window.location.reload();
+              }
+            }}
             variant="default"
             className="rounded-xl font-bold text-xs h-10 px-4 gap-1.5 cursor-pointer"
           >

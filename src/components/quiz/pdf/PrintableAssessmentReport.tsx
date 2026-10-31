@@ -83,142 +83,163 @@ export function PrintableAssessmentReport({
 
   // Planned pages after dynamic measurement
   const [plannedPages, setPlannedPages] = useState<PdfPagePlan[] | null>(null);
+  const isMountedRef = useRef<boolean>(true);
 
   // Measure card heights and compute optimal dynamic pagination
   const calculatePagination = () => {
-    if (!questions || questions.length === 0) {
-      setPlannedPages([]);
-      return;
-    }
+    try {
+      if (!isMountedRef.current) return;
+      if (!questions || questions.length === 0) {
+        setPlannedPages([]);
+        return;
+      }
 
-    const rulerEl = measureRulerRef.current;
-    const header1El = measureHeader1Ref.current;
-    const runningHeaderEl = measureRunningHeaderRef.current;
-    const footerEl = measureFooterRef.current;
-    const summaryEl = measureSummaryRef.current;
+      const rulerEl = measureRulerRef.current;
+      const header1El = measureHeader1Ref.current;
+      const runningHeaderEl = measureRunningHeaderRef.current;
+      const footerEl = measureFooterRef.current;
+      const summaryEl = measureSummaryRef.current;
 
-    if (!rulerEl || !header1El || !runningHeaderEl || !footerEl || !summaryEl) {
-      return;
-    }
+      if (!rulerEl || !header1El || !runningHeaderEl || !footerEl || !summaryEl) {
+        return;
+      }
 
-    const pageHeightPx = rulerEl.offsetHeight || 1118;
-    // 20mm total padding (10mm top + 10mm bottom)
-    const paddingPx = (20 / 296) * pageHeightPx;
-    const gapPx = (3.5 / 296) * pageHeightPx;
+      const pageHeightPx = rulerEl.offsetHeight || 1118;
+      // 20mm total padding (10mm top + 10mm bottom)
+      const paddingPx = (20 / 296) * pageHeightPx;
+      const gapPx = (3.5 / 296) * pageHeightPx;
 
-    const hHeader1 = header1El.offsetHeight || 220;
-    const hRunningHeader = runningHeaderEl.offsetHeight || 38;
-    const hFooter = footerEl.offsetHeight || 28;
-    const hSummary = summaryEl.offsetHeight || 90;
+      const hHeader1 = header1El.offsetHeight || 220;
+      const hRunningHeader = runningHeaderEl.offsetHeight || 38;
+      const hFooter = footerEl.offsetHeight || 28;
+      const hSummary = summaryEl.offsetHeight || 90;
 
-    // Safety margin of 12px for sub-pixel anti-aliasing in print engines
-    const safetyMargin = 12;
+      // Safety margin of 12px for sub-pixel anti-aliasing in print engines
+      const safetyMargin = 12;
 
-    const body1Height = pageHeightPx - paddingPx - hHeader1 - hFooter - safetyMargin;
-    const bodyNHeight = pageHeightPx - paddingPx - hRunningHeader - hFooter - safetyMargin;
+      const body1Height = Math.max(200, pageHeightPx - paddingPx - hHeader1 - hFooter - safetyMargin);
+      const bodyNHeight = Math.max(200, pageHeightPx - paddingPx - hRunningHeader - hFooter - safetyMargin);
 
-    const pages: PdfPagePlan[] = [];
-    let currentRows: PdfRow[] = [];
-    let currentRemaining = body1Height;
-    let i = 0;
+      const pages: PdfPagePlan[] = [];
+      let currentRows: PdfRow[] = [];
+      let currentRemaining = body1Height;
+      let i = 0;
 
-    while (i < questions.length) {
-      const isPage1 = pages.length === 0;
-      const maxPageBody = isPage1 ? body1Height : bodyNHeight;
+      while (i < questions.length) {
+        const isPage1 = pages.length === 0;
+        const maxPageBody = isPage1 ? body1Height : bodyNHeight;
 
-      const q1 = questions[i];
-      const colEl1 = cardColRefs.current[i];
-      const fullEl1 = cardFullRefs.current[i];
-      const hCol1 = colEl1?.offsetHeight || 240;
-      const hFull1 = fullEl1?.offsetHeight || 200;
+        const q1 = questions[i];
+        const colEl1 = cardColRefs.current[i];
+        const fullEl1 = cardFullRefs.current[i];
+        const hCol1 = colEl1?.offsetHeight || 240;
+        const hFull1 = fullEl1?.offsetHeight || 200;
 
-      // Card is taller than ~46% of page body -> promote to full width
-      const isTall = hCol1 > maxPageBody * 0.46;
+        // Card is taller than ~46% of page body -> promote to full width
+        const isTall = hCol1 > maxPageBody * 0.46;
 
-      if (isTall) {
-        const isTooTallEvenForPage = hFull1 > maxPageBody;
-        const isCompact = isTooTallEvenForPage;
-        const effectiveRowHeight = isCompact ? hFull1 * 0.88 : hFull1;
+        if (isTall) {
+          const isTooTallEvenForPage = hFull1 > maxPageBody;
+          const isCompact = isTooTallEvenForPage;
+          const effectiveRowHeight = isCompact ? hFull1 * 0.88 : hFull1;
 
-        if (currentRows.length > 0 && currentRemaining < effectiveRowHeight + gapPx) {
-          pages.push({ rows: currentRows });
-          currentRows = [];
-          currentRemaining = bodyNHeight;
-        }
-
-        currentRows.push({
-          isFullWidth: true,
-          items: [q1],
-          isCompact,
-        });
-        currentRemaining -= effectiveRowHeight + gapPx;
-        i += 1;
-      } else {
-        // Standard 2-column packing
-        const q2 = i + 1 < questions.length ? questions[i + 1] : null;
-        const colEl2 = q2 ? cardColRefs.current[i + 1] : null;
-        const hCol2 = colEl2?.offsetHeight || 240;
-        const q2IsTall = q2 ? hCol2 > maxPageBody * 0.46 : false;
-
-        if (q2 && !q2IsTall) {
-          const rowHeight = Math.max(hCol1, hCol2);
-          if (currentRows.length > 0 && currentRemaining < rowHeight + gapPx) {
+          if (currentRows.length > 0 && currentRemaining < effectiveRowHeight + gapPx) {
             pages.push({ rows: currentRows });
             currentRows = [];
             currentRemaining = bodyNHeight;
           }
+
           currentRows.push({
-            isFullWidth: false,
-            items: [q1, q2],
-          });
-          currentRemaining -= rowHeight + gapPx;
-          i += 2;
-        } else {
-          // Single card in row
-          const rowHeight = hCol1;
-          if (currentRows.length > 0 && currentRemaining < rowHeight + gapPx) {
-            pages.push({ rows: currentRows });
-            currentRows = [];
-            currentRemaining = bodyNHeight;
-          }
-          currentRows.push({
-            isFullWidth: false,
+            isFullWidth: true,
             items: [q1],
+            isCompact,
           });
-          currentRemaining -= rowHeight + gapPx;
+          currentRemaining -= effectiveRowHeight + gapPx;
           i += 1;
-        }
-      }
-    }
-
-    if (currentRows.length > 0) {
-      pages.push({ rows: currentRows });
-    }
-
-    // Check if EndSummary fits on the last page
-    if (pages.length > 0) {
-      const lastPage = pages[pages.length - 1];
-      if (currentRemaining < hSummary + 8) {
-        if (lastPage.rows.length > 1) {
-          const poppedRow = lastPage.rows.pop()!;
-          pages.push({ rows: [poppedRow] });
         } else {
-          pages.push({ rows: [] });
+          // Standard 2-column packing
+          const q2 = i + 1 < questions.length ? questions[i + 1] : null;
+          const colEl2 = q2 ? cardColRefs.current[i + 1] : null;
+          const hCol2 = colEl2?.offsetHeight || 240;
+          const q2IsTall = q2 ? hCol2 > maxPageBody * 0.46 : false;
+
+          if (q2 && !q2IsTall) {
+            const rowHeight = Math.max(hCol1, hCol2);
+            if (currentRows.length > 0 && currentRemaining < rowHeight + gapPx) {
+              pages.push({ rows: currentRows });
+              currentRows = [];
+              currentRemaining = bodyNHeight;
+            }
+            currentRows.push({
+              isFullWidth: false,
+              items: [q1, q2],
+            });
+            currentRemaining -= rowHeight + gapPx;
+            i += 2;
+          } else {
+            // Single card in row
+            const rowHeight = hCol1;
+            if (currentRows.length > 0 && currentRemaining < rowHeight + gapPx) {
+              pages.push({ rows: currentRows });
+              currentRows = [];
+              currentRemaining = bodyNHeight;
+            }
+            currentRows.push({
+              isFullWidth: false,
+              items: [q1],
+            });
+            currentRemaining -= rowHeight + gapPx;
+            i += 1;
+          }
         }
       }
-    }
 
-    setPlannedPages(pages);
+      if (currentRows.length > 0) {
+        pages.push({ rows: currentRows });
+      }
+
+      // Check if EndSummary fits on the last page
+      if (pages.length > 0) {
+        const lastPage = pages[pages.length - 1];
+        if (currentRemaining < hSummary + 8) {
+          if (lastPage.rows.length > 1) {
+            const poppedRow = lastPage.rows.pop()!;
+            pages.push({ rows: [poppedRow] });
+          } else {
+            pages.push({ rows: [] });
+          }
+        }
+      }
+
+      if (isMountedRef.current) {
+        setPlannedPages(pages);
+      }
+    } catch (err) {
+      console.warn("calculatePagination measurement warning (falling back):", err);
+    }
   };
 
-  useLayoutEffect(() => {
+  useEffect(() => {
+    isMountedRef.current = true;
     if (typeof document !== "undefined" && document.fonts) {
-      document.fonts.ready.then(() => {
-        calculatePagination();
-      });
+      document.fonts.ready
+        .then(() => {
+          if (isMountedRef.current) {
+            calculatePagination();
+          }
+        })
+        .catch(() => {
+          if (isMountedRef.current) {
+            calculatePagination();
+          }
+        });
     } else {
       calculatePagination();
     }
+
+    return () => {
+      isMountedRef.current = false;
+    };
   }, [questions]);
 
   // Fallback initial chunking while measurement executes
@@ -276,11 +297,11 @@ export function PrintableAssessmentReport({
 
   return (
     <>
-      {/* ── Off-screen Measurement Container ── */}
+      {/* ── Off-screen Measurement Container (Strictly ignored in print) ── */}
       <div
         ref={measureContainerRef}
         aria-hidden="true"
-        className={cn(theme === "light" && "pdf-theme-light")}
+        className={cn("print:hidden pointer-events-none", theme === "light" && "pdf-theme-light")}
         data-pdf-theme={theme}
         style={{
           position: "fixed",

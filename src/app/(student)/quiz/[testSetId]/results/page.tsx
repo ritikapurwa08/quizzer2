@@ -11,7 +11,7 @@ import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/Quest
 import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { formatScore } from "@/lib/utils";
+import { formatScore, cn } from "@/lib/utils";
 import {
   ArrowLeft,
   ArrowRight,
@@ -21,19 +21,9 @@ import {
   LayoutList,
   RotateCcw,
   Printer,
-  ChevronDown,
   Sun,
   Moon,
-  FileText,
 } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 /**
  * Automatically derives a clean, filesystem-safe filename for PDF printing
@@ -278,36 +268,59 @@ export default function ResultsPage() {
   }
 
   const handlePrint = async (filter?: ReviewFilter, themeOverride?: "dark" | "light") => {
-    const activeFilter = filter ?? reviewFilter;
-    const activeTheme = themeOverride ?? pdfTheme;
+    try {
+      const activeFilter = filter ?? reviewFilter;
+      const activeTheme = themeOverride ?? pdfTheme;
 
-    if (themeOverride && themeOverride !== pdfTheme) {
-      setPdfTheme(themeOverride);
+      if (themeOverride && themeOverride !== pdfTheme) {
+        setPdfTheme(themeOverride);
+      }
+      if (filter && filter !== reviewFilter) {
+        setReviewFilter(filter);
+      }
+
+      const printFileName = getSuggestedPdfFileName({
+        setName: currentSet?.name,
+        setOrder: currentSet?.order,
+        topicName: topic?.name,
+        topicSlug: topic?.slug,
+        filter: activeFilter,
+      });
+
+      if (typeof document !== "undefined") {
+        document.title = printFileName;
+        if (document.fonts) {
+          try {
+            await document.fonts.ready;
+          } catch {
+            // Non-critical font ready failure
+          }
+        }
+      }
+
+      await new Promise<void>((resolve) => {
+        if (typeof window !== "undefined" && window.requestAnimationFrame) {
+          window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => resolve());
+          });
+        } else {
+          setTimeout(resolve, 60);
+        }
+      });
+
+      if (typeof window !== "undefined" && typeof window.print === "function") {
+        window.print();
+      }
+    } catch (err) {
+      console.error("Print execution error:", err);
+      try {
+        if (typeof window !== "undefined" && typeof window.print === "function") {
+          window.print();
+        }
+      } catch (innerErr) {
+        console.error("Direct fallback print failed:", innerErr);
+      }
     }
-    if (filter && filter !== reviewFilter) {
-      setReviewFilter(filter);
-    }
-
-    const printFileName = getSuggestedPdfFileName({
-      setName: currentSet?.name,
-      setOrder: currentSet?.order,
-      topicName: topic?.name,
-      topicSlug: topic?.slug,
-      filter: activeFilter,
-    });
-
-    document.title = printFileName;
-
-    // Ensure DOM layout and custom web fonts are fully rendered before print dialog
-    if (typeof document !== "undefined" && document.fonts) {
-      await document.fonts.ready;
-    }
-    await new Promise<void>((resolve) => {
-      requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
-    });
-
-    document.title = printFileName;
-    window.print();
   };
 
   return (
@@ -360,102 +373,111 @@ export default function ResultsPage() {
             Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
           </p>
 
-          {/* Action buttons: Retake Test, Unified Print Dropdown, Next Test Set */}
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <Button
-              asChild
-              variant="outline"
-              className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-            >
-              <Link href={`/quiz/${id}`}>
-                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-                Retake Test
-              </Link>
-            </Button>
+          {/* Action buttons: Retake Test, Direct Print, Dark/Light Mode Toggle, Mistakes sheet, Next Set */}
+          <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-wrap items-center justify-center gap-2.5">
+              <Button
+                asChild
+                variant="outline"
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
+              >
+                <Link href={`/quiz/${id}`}>
+                  <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+                  Retake Test
+                </Link>
+              </Button>
 
-            {/* Print / Save PDF Dropdown */}
-            <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              {/* Direct Print / Save PDF Button */}
+              <Button
+                type="button"
+                onClick={() => handlePrint()}
+                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
+                title={`Print / Save: ${suggestedFileName}.pdf (${pdfTheme === "dark" ? "Dark Report" : "Light Ink-Saver"})`}
+              >
+                <Printer className="h-3.5 w-3.5" />
+                Print / Save PDF
+              </Button>
+
+              {/* Ink-Saver Light / Dark Theme Selector Pill */}
+              <div
+                className="inline-flex items-center rounded-xl border border-border bg-muted/40 p-1 text-xs"
+                role="group"
+                aria-label="PDF Theme"
+              >
+                <button
+                  type="button"
+                  onClick={() => setPdfTheme("dark")}
+                  className={cn(
+                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
+                    pdfTheme === "dark"
+                      ? "bg-card text-foreground shadow-xs border border-border/60"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                  title="Dark PDF Report (Default zinc theme)"
+                >
+                  <Moon className="h-3 w-3" />
+                  <span>Dark</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPdfTheme("light")}
+                  className={cn(
+                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
+                    pdfTheme === "light"
+                      ? "bg-card text-foreground shadow-xs border border-border/60"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                  title="Light PDF Report (Ink-Saver mode)"
+                >
+                  <Sun className="h-3 w-3" />
+                  <span>Light</span>
+                </button>
+              </div>
+
+              {/* Quick Mistakes Revision Sheet Button */}
+              {incorrectCount > 0 && (
                 <Button
                   type="button"
-                  className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
-                  title={`Print / Save: ${suggestedFileName}.pdf`}
+                  variant="outline"
+                  onClick={() => handlePrint("incorrect")}
+                  className="font-semibold text-xs h-10 px-3.5 rounded-xl border-border gap-1.5 cursor-pointer text-rose-600 dark:text-rose-400 hover:bg-rose-500/10"
+                  title="One-click Print: Mistake Revision Sheet"
                 >
-                  <Printer className="h-3.5 w-3.5" />
-                  Print / Save PDF
-                  <ChevronDown className="h-3 w-3 opacity-70" />
+                  <XCircle className="h-3.5 w-3.5" />
+                  <span>Mistakes Sheet ({incorrectCount})</span>
                 </Button>
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-56 rounded-xl border-border">
-                <DropdownMenuLabel className="text-[10px] uppercase font-bold tracking-wider text-muted-foreground">
-                  Dark Report (Default)
-                </DropdownMenuLabel>
-                <DropdownMenuItem
-                  className="text-xs font-medium cursor-pointer gap-2"
-                  onClick={() => handlePrint("all", "dark")}
-                >
-                  <Moon className="h-3.5 w-3.5 text-muted-foreground" />
-                  Print All Questions
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  className="text-xs font-medium cursor-pointer gap-2"
-                  onClick={() => handlePrint("incorrect", "dark")}
-                >
-                  <XCircle className="h-3.5 w-3.5 text-rose-500" />
-                  Print Mistakes Only
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  className="text-xs font-medium cursor-pointer gap-2"
-                  onClick={() => handlePrint("correct", "dark")}
-                >
-                  <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
-                  Print Correct Only
-                </DropdownMenuItem>
+              )}
 
-                <DropdownMenuSeparator />
-
-                <DropdownMenuLabel className="text-[10px] uppercase font-bold tracking-wider text-muted-foreground">
-                  Light (Ink-Saver Mode)
-                </DropdownMenuLabel>
-                <DropdownMenuItem
-                  className="text-xs font-medium cursor-pointer gap-2"
-                  onClick={() => handlePrint("all", "light")}
+              {nextSet ? (
+                <Button
+                  asChild
+                  variant="outline"
+                  className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
                 >
-                  <Sun className="h-3.5 w-3.5 text-amber-500" />
-                  Print All (Light)
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                  className="text-xs font-medium cursor-pointer gap-2"
-                  onClick={() => handlePrint("incorrect", "light")}
+                  <Link href={`/quiz/${nextSet._id}`}>
+                    Next Test Set
+                    <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </Button>
+              ) : (
+                <Button
+                  asChild
+                  variant="outline"
+                  className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
                 >
-                  <FileText className="h-3.5 w-3.5 text-muted-foreground" />
-                  Print Mistakes (Light)
-                </DropdownMenuItem>
-              </DropdownMenuContent>
-            </DropdownMenu>
+                  <Link href="/subjects">
+                    <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
+                    View All Subjects
+                  </Link>
+                </Button>
+              )}
+            </div>
 
-            {nextSet ? (
-              <Button
-                asChild
-                variant="outline"
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-              >
-                <Link href={`/quiz/${nextSet._id}`}>
-                  Next Test Set
-                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                </Link>
-              </Button>
-            ) : (
-              <Button
-                asChild
-                variant="outline"
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-              >
-                <Link href="/subjects">
-                  <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                  View All Subjects
-                </Link>
-              </Button>
+            {suggestedFileName && (
+              <span className="text-[10.5px] text-muted-foreground font-medium flex items-center gap-1">
+                Save as: <code className="bg-muted px-1.5 py-0.5 rounded text-foreground font-mono font-semibold">{suggestedFileName}.pdf</code>
+                <span className="text-muted-foreground/60 text-[9.5px]">({pdfTheme === "dark" ? "Dark Theme" : "Light Ink-Saver"})</span>
+              </span>
             )}
           </div>
         </Card>

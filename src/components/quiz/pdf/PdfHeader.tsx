@@ -36,7 +36,7 @@ export function PdfHeader({
   const examLine = examReference || "RPSC Senior Teacher (2nd Grade)";
 
   return (
-    <header className="pdf-header mb-3" style={{ color: "var(--pdf-text)" }}>
+    <div className="pdf-header mb-3" style={{ color: "var(--pdf-text)" }}>
       {/* ── Top Branding & Performance Report Ribbon ── */}
       <div className="flex items-center justify-between pb-1.5">
         <div className="flex items-center gap-2.5">
@@ -146,6 +146,6 @@ export function PdfHeader({
           </div>
         )}
       </div>
-    </header>
+    </div>
   );
 }

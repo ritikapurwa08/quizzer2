@@ -22,7 +22,9 @@ function DropdownMenuTrigger({
     return (
       <MenuPrimitive.Trigger
         data-slot="dropdown-menu-trigger"
-        render={children as React.ReactElement}
+        render={(triggerProps) =>
+          React.cloneElement(children as React.ReactElement<any>, triggerProps)
+        }
         {...props}
       />
     )
