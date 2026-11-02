@@ -71,8 +71,7 @@ export const dashboardStats = query({
         .query("wrongQuestions")
         .withIndex("by_user_resolved", (q) => q.eq("userId", user._id).eq("resolved", false))
         .collect(),
-      (await ctx.db.query("subjects").collect())
-        .filter((s) => !s.slug?.includes("english") && !s.name?.toLowerCase().includes("english") && !s.nameHindi?.includes("अंग्रेजी")),
+      ctx.db.query("subjects").collect(),
       ctx.db.query("topics").collect(),
       ctx.db.query("testSets").collect(),
     ]);
@@ -151,8 +150,9 @@ export const dashboardStats = query({
       subjectStats.set(topic.subjectId, ss);
 
       // Accumulate daily progress
-      if (!attempt.submittedAt) continue;
-      const day = toLocalDayString(attempt.submittedAt);
+      const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
+      if (!attemptTimestamp) continue;
+      const day = toLocalDayString(attemptTimestamp);
       const existing = dailyMap.get(day) ?? { count: 0, tests: 0 };
       dailyMap.set(day, {
         count: existing.count + attemptAnsweredCount,
@@ -274,11 +274,12 @@ export const dashboardStats = query({
     const validDaysSet = new Set(allDays.map((d) => d.day));
 
     for (const attempt of attempts) {
-      if (!attempt.submittedAt) continue;
-      const attemptDay = toLocalDayString(attempt.submittedAt);
+      const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
+      if (!attemptTimestamp) continue;
+      const attemptDay = toLocalDayString(attemptTimestamp);
       if (!validDaysSet.has(attemptDay)) continue;
 
-      const attemptLocalMs = attempt.submittedAt - tzOffsetMs;
+      const attemptLocalMs = attemptTimestamp - tzOffsetMs;
       const localDate = new Date(attemptLocalMs);
       const hour = localDate.getUTCHours();
       if (hour >= 0 && hour < 24) {
@@ -325,8 +326,8 @@ export const dashboardStats = query({
     // Sort submitted attempts descending by submittedAt, take 10, then sort ascending
     // so chronological flow displays older -> newest from left to right on the bar chart.
     const sortedSubmitted = [...attempts]
-      .filter((a) => typeof a.submittedAt === "number")
-      .sort((a, b) => (b.submittedAt ?? 0) - (a.submittedAt ?? 0))
+      .filter((a) => typeof (a.submittedAt ?? a.completedAt) === "number")
+      .sort((a, b) => ((b.submittedAt ?? b.completedAt) ?? 0) - ((a.submittedAt ?? a.completedAt) ?? 0))
       .slice(0, 10);
 
     const recentAttempts = sortedSubmitted.reverse().map((a) => {
@@ -357,7 +358,7 @@ export const dashboardStats = query({
         correctCount: correct,
         incorrectCount: incorrect,
         unansweredCount: unanswered,
-        submittedAt: a.submittedAt ?? 0,
+        submittedAt: a.submittedAt ?? a.completedAt ?? 0,
       };
     });
 

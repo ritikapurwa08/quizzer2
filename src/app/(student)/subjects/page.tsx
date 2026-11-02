@@ -23,7 +23,7 @@ export default function SubjectsPage() {
       <div>
         <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">All Subjects</h1>
         <p className="text-sm text-muted-foreground mt-0.5">
-          Select a subject to access practice test sets, PDF notes, memory tricks, and visual diagrams.
+          Select a subject to access quiz-based practice test sets and master topics.
         </p>
       </div>
 

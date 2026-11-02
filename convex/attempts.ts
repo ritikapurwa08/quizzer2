@@ -79,6 +79,19 @@ export const saveAnswer = mutation({
     if (!attempt || attempt.userId !== user._id) throw new Error("Attempt not found");
     if (attempt.status !== "in_progress") throw new Error("Attempt already submitted");
 
+    // No-op check: If this exact answer is already stored, return early without database I/O
+    const existing = attempt.answers.find((a) => a.questionId === args.questionId);
+    if (existing) {
+      const isSame =
+        Array.isArray(args.selected) && Array.isArray(existing.selected)
+          ? args.selected.length === existing.selected.length &&
+            args.selected.every((v, i) => v === (existing.selected as string[])[i])
+          : existing.selected === args.selected;
+      if (isSame) {
+        return;
+      }
+    }
+
     const answers = attempt.answers.filter((a) => a.questionId !== args.questionId);
     answers.push({ questionId: args.questionId, selected: args.selected });
     await ctx.db.patch(args.attemptId, { answers });

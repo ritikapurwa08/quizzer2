@@ -1,9 +1,11 @@
 import { query, mutation } from "./_generated/server";
 import { v } from "convex/values";
+import { requireAdmin } from "./lib/permissions";
 
 export const auditDuplicates = query({
   args: {},
   handler: async (ctx) => {
+    await requireAdmin(ctx);
     const allTopics = await ctx.db.query("topics").collect();
     const topicMap = new Map(allTopics.map((t) => [t._id as string, t]));
 
@@ -91,6 +93,7 @@ export const auditDuplicates = query({
 export const getLiveInventory = query({
   args: {},
   handler: async (ctx) => {
+    await requireAdmin(ctx);
     const subjects = await ctx.db.query("subjects").collect();
     subjects.sort((a, b) => a.order - b.order);
 
@@ -172,6 +175,7 @@ export const getLiveInventory = query({
 export const getAllUsedSourceQuestionIds = query({
   args: {},
   handler: async (ctx) => {
+    await requireAdmin(ctx);
     const allQuestions = await ctx.db.query("questions").collect();
     const allSets = await ctx.db.query("testSets").collect();
     const setMap = new Map(allSets.map((s) => [s._id as string, s]));

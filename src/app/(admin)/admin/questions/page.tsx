@@ -212,9 +212,6 @@ export default function AdminQuestionsPage() {
               <SelectItem value="PYQ_MODIFIED" className="text-xs font-semibold">
                 ✎ PYQ Modified
               </SelectItem>
-              <SelectItem value="AI_NEW" className="text-xs font-semibold">
-                ✦ AI Generated
-              </SelectItem>
             </SelectContent>
           </Select>
 

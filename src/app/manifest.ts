@@ -137,10 +137,10 @@ export default function manifest(): MetadataRoute.Manifest {
         ],
       },
       {
-        name: "सहेजे गए प्रश्न (Bookmarks)",
-        short_name: "बुकमार्क",
+        name: "सहेजे गए प्रश्न (Saved Questions)",
+        short_name: "सहेजे गए",
         description: "कठिन व महत्वपूर्ण प्रश्नों का अभ्यास",
-        url: "/bookmarks",
+        url: "/saved-questions",
         icons: [
           {
             src: "/icons/shortcut-bookmarks.png",

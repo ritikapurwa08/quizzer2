@@ -12,7 +12,6 @@ import {
   ListChecks,
   BarChart2,
   History,
-  AlertCircle,
   Bookmark,
   Shield,
   Database,
@@ -23,10 +22,6 @@ import {
   Moon,
   Menu,
   X,
-  Sparkles,
-  ChevronRight,
-  FileText,
-  Search,
 } from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -46,13 +41,10 @@ interface NavItem {
 const STUDENT_NAV_ITEMS: NavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
-  { label: "Study Notes", href: "/notes", icon: FileText },
-  { label: "Search Questions", href: "/search", icon: Search },
   { label: "Syllabus Tracker", href: "/syllabus", icon: ListChecks, exact: true },
   { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
   { label: "Test History", href: "/history", icon: History, exact: true },
-  { label: "Wrong Questions", href: "/wrong-questions", icon: AlertCircle, exact: true },
-  { label: "Bookmarks", href: "/bookmarks", icon: Bookmark, exact: true },
+  { label: "Saved Questions", href: "/saved-questions", icon: Bookmark },
 ];
 
 const ADMIN_NAV_ITEMS: NavItem[] = [
@@ -74,18 +66,6 @@ export function AppSidebar() {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  // Global ⌘K / Ctrl+K shortcut to navigate to question search
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
-        e.preventDefault();
-        router.push("/search");
-      }
-    }
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [router]);
 
   // Close mobile drawer on route change
   useEffect(() => {
@@ -278,28 +258,49 @@ export function AppSidebar() {
               {renderNavLinks()}
             </div>
 
-            {/* Footer Profile & Logout */}
+            {/* Footer Profile, Compact Theme Toggle & Logout */}
             <div className="pt-3 border-t border-border/80 flex items-center justify-between gap-2">
               <div className="flex items-center gap-2.5 min-w-0">
-                <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-primary text-primary-foreground font-bold text-xs shrink-0">
+                <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-foreground text-background font-bold text-xs shrink-0 shadow-2xs">
                   {initials}
                 </div>
                 <div className="min-w-0">
                   <p className="text-xs font-bold text-foreground truncate">{displayName}</p>
                   <p className="text-[10px] text-muted-foreground truncate">
-                    {isAdmin ? "Administrator" : "Candidate"}
+                    {isAdmin ? "Admin User" : "Student"}
                   </p>
                 </div>
               </div>
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={handleSignOut}
-                className="h-8 w-8 rounded-lg text-muted-foreground hover:text-destructive"
-                title="Sign Out"
-              >
-                <LogOut className="h-4 w-4" />
-              </Button>
+
+              <div className="flex items-center gap-1 shrink-0">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                  className="h-8 w-8 rounded-lg text-muted-foreground hover:text-foreground cursor-pointer"
+                  title={theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode"}
+                  aria-label="Toggle theme"
+                >
+                  {!mounted ? (
+                    <span className="h-4 w-4 inline-block" />
+                  ) : theme === "dark" ? (
+                    <Sun className="h-4 w-4" />
+                  ) : (
+                    <Moon className="h-4 w-4" />
+                  )}
+                </Button>
+
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  onClick={handleSignOut}
+                  className="h-8 w-8 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 cursor-pointer"
+                  title="Sign Out"
+                  aria-label="Sign Out"
+                >
+                  <LogOut className="h-4 w-4" />
+                </Button>
+              </div>
             </div>
           </div>
         </div>
@@ -327,33 +328,9 @@ export function AppSidebar() {
           {renderNavLinks()}
         </div>
 
-        {/* Footer: User profile, theme toggle & sign out */}
-        <div className="p-3.5 border-t border-border/80 space-y-3 bg-muted/20">
-          <div className="flex items-center justify-between">
-            <span className="text-[11px] font-semibold text-muted-foreground">Appearance</span>
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="h-7 px-2 text-xs rounded-lg border-border gap-1.5 cursor-pointer"
-            >
-              {!mounted ? (
-                <>
-                  <span className="h-3 w-3 inline-block" /> Theme
-                </>
-              ) : theme === "dark" ? (
-                <>
-                  <Moon className="h-3 w-3" /> Dark
-                </>
-              ) : (
-                <>
-                  <Sun className="h-3 w-3" /> Light
-                </>
-              )}
-            </Button>
-          </div>
-
-          <div className="flex items-center justify-between gap-2 pt-1 border-t border-border/50">
+        {/* Footer: User profile, compact theme toggle & sign out */}
+        <div className="p-3 border-t border-border/80 bg-muted/20">
+          <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2.5 min-w-0">
               <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-foreground text-background font-bold text-xs shrink-0 shadow-2xs">
                 {initials}
@@ -366,15 +343,35 @@ export function AppSidebar() {
               </div>
             </div>
 
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={handleSignOut}
-              className="h-8 w-8 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 cursor-pointer"
-              title="Sign Out"
-            >
-              <LogOut className="h-4 w-4" />
-            </Button>
+            <div className="flex items-center gap-1 shrink-0">
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="h-8 w-8 rounded-lg text-muted-foreground hover:text-foreground cursor-pointer"
+                title={theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode"}
+                aria-label="Toggle theme"
+              >
+                {!mounted ? (
+                  <span className="h-4 w-4 inline-block" />
+                ) : theme === "dark" ? (
+                  <Sun className="h-4 w-4" />
+                ) : (
+                  <Moon className="h-4 w-4" />
+                )}
+              </Button>
+
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={handleSignOut}
+                className="h-8 w-8 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 cursor-pointer"
+                title="Sign Out"
+                aria-label="Sign Out"
+              >
+                <LogOut className="h-4 w-4" />
+              </Button>
+            </div>
           </div>
         </div>
       </aside>

@@ -7,19 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
-  CheckCircle2,
   Circle,
   Search,
   BookOpen,
-  ChevronDown,
-  ChevronUp,
   Target,
   RotateCcw,
-  Layers,
   ArrowRight,
-  Filter,
   Check,
-  Sparkles,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
@@ -28,6 +22,7 @@ import { MASTER_TOPICS_LIST, MasterTopicInfo } from "@/lib/pool/masterTopics";
 import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 
 type StatusFilter = "all" | "completed" | "pending";
+type SyllabusScope = "rajasthan_gk" | "english" | "all";
 
 interface SyllabusTrackerProps {
   isStandalonePage?: boolean;
@@ -35,7 +30,7 @@ interface SyllabusTrackerProps {
 
 const STORAGE_KEY = "quizzer_syllabus_completed_v2";
 
-const CANONICAL_SECTIONS = [
+const RAJASTHAN_GK_SECTIONS = [
   { id: "all", title: "All 55 Topics", count: 55 },
   { id: "geography", title: "सामान्य ज्ञान एवं भूगोल", count: 15, match: "भूगोल" },
   { id: "history", title: "इतिहास", count: 10, match: "इतिहास" },
@@ -43,11 +38,18 @@ const CANONICAL_SECTIONS = [
   { id: "polity", title: "राजव्यवस्था एवं प्रशासन", count: 15, match: "राजव्यवस्था" },
 ];
 
+const ENGLISH_SECTIONS = [
+  { id: "all", title: "All 33 Topics", count: 33 },
+  { id: "grammar", title: "Grammar & Usage (Sec. Std)", count: 19, minId: 56, maxId: 74 },
+  { id: "literature", title: "Literature & Vocab (Grad. Std)", count: 9, minId: 75, maxId: 83 },
+  { id: "pedagogy", title: "Teaching Methods (ELT)", count: 5, minId: 84, maxId: 88 },
+];
+
 export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProps) {
   const [completedTopicIds, setCompletedTopicIds] = useState<Set<number>>(new Set());
-  const [expandedTopicIds, setExpandedTopicIds] = useState<Set<number>>(new Set());
   const [confirmResetOpen, setConfirmResetOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [scope, setScope] = useState<SyllabusScope>("rajasthan_gk");
   const [selectedSection, setSelectedSection] = useState<string>("all");
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [isClient, setIsClient] = useState(false);
@@ -60,13 +62,19 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
       if (stored) {
         const parsed = JSON.parse(stored);
         if (Array.isArray(parsed)) {
-          setCompletedTopicIds(new Set(parsed));
+          setCompletedTopicIds(new Set(parsed.map(Number)));
         }
       }
     } catch (e) {
       console.error("Failed to load syllabus progress", e);
     }
   }, []);
+
+  // When changing scope, reset section filter to "all"
+  const handleScopeChange = (newScope: SyllabusScope) => {
+    setScope(newScope);
+    setSelectedSection("all");
+  };
 
   // Toggle completion of a single topic
   const toggleTopic = (id: number) => {
@@ -96,26 +104,35 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
     setConfirmResetOpen(false);
   };
 
-  const toggleExpandTopic = (id: number) => {
-    setExpandedTopicIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  };
+  // Topics within the currently selected scope
+  const scopedTopics = useMemo(() => {
+    if (scope === "rajasthan_gk") {
+      return MASTER_TOPICS_LIST.filter((t) => t.id <= 55);
+    }
+    if (scope === "english") {
+      return MASTER_TOPICS_LIST.filter((t) => t.id > 55);
+    }
+    return MASTER_TOPICS_LIST;
+  }, [scope]);
 
-  // Overall statistics
-  const totalCount = MASTER_TOPICS_LIST.length;
+  // Overall statistics for the selected scope
+  const totalCount = scopedTopics.length;
   const completedCount = useMemo(() => {
-    return MASTER_TOPICS_LIST.filter((t) => completedTopicIds.has(t.id)).length;
-  }, [completedTopicIds]);
+    return scopedTopics.filter((t) => completedTopicIds.has(t.id)).length;
+  }, [scopedTopics, completedTopicIds]);
   const progressPercent = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
   const pendingCount = totalCount - completedCount;
 
+  // Active section tabs based on scope
+  const sectionTabs = useMemo(() => {
+    if (scope === "rajasthan_gk") return RAJASTHAN_GK_SECTIONS;
+    if (scope === "english") return ENGLISH_SECTIONS;
+    return [{ id: "all", title: "All 88 Topics", count: 88 }];
+  }, [scope]);
+
   // Filter topics
   const filteredTopics = useMemo(() => {
-    return MASTER_TOPICS_LIST.filter((topic) => {
+    return scopedTopics.filter((topic) => {
       // 1. Search filter
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
@@ -127,9 +144,18 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
 
       // 2. Section filter
       if (selectedSection !== "all") {
-        const targetSec = CANONICAL_SECTIONS.find((s) => s.id === selectedSection);
-        if (targetSec?.match && !topic.subjectHindi.includes(targetSec.match)) {
-          return false;
+        if (scope === "rajasthan_gk") {
+          const targetSec = RAJASTHAN_GK_SECTIONS.find((s) => s.id === selectedSection);
+          if (targetSec?.match && !topic.subjectHindi.includes(targetSec.match)) {
+            return false;
+          }
+        } else if (scope === "english") {
+          const targetSec = ENGLISH_SECTIONS.find((s) => s.id === selectedSection);
+          if (targetSec?.minId && targetSec?.maxId) {
+            if (topic.id < targetSec.minId || topic.id > targetSec.maxId) {
+              return false;
+            }
+          }
         }
       }
 
@@ -140,7 +166,7 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
 
       return true;
     });
-  }, [searchQuery, selectedSection, statusFilter, completedTopicIds]);
+  }, [scopedTopics, searchQuery, selectedSection, statusFilter, completedTopicIds, scope]);
 
   return (
     <div className="space-y-5">
@@ -160,7 +186,7 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
                 Syllabus Tracker
               </h1>
               <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
-                Authoritative 55 Master Topics for RPSC Senior Teacher (2nd Grade) Paper-1.
+                Authoritative Master Topics tracking for RPSC Senior Teacher (2nd Grade).
               </p>
             </div>
 
@@ -177,15 +203,66 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
         </div>
       )}
 
+      {/* ── Subject / Scope Segmented Switcher ── */}
+      <div className="flex items-center gap-1 p-1 bg-muted/40 rounded-2xl border border-border/70 self-start">
+        <button
+          type="button"
+          onClick={() => handleScopeChange("rajasthan_gk")}
+          className={cn(
+            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5",
+            scope === "rajasthan_gk"
+              ? "bg-card text-foreground font-bold shadow-xs border border-border/80"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
+          <span>राजस्थान GK (Paper-I)</span>
+          <span className="text-[10px] px-1.5 py-0.2 rounded-full font-bold bg-primary/10 text-primary">
+            55
+          </span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleScopeChange("english")}
+          className={cn(
+            "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5",
+            scope === "english"
+              ? "bg-card text-foreground font-bold shadow-xs border border-border/80"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
+          <span>English (Paper-II)</span>
+          <span className="text-[10px] px-1.5 py-0.2 rounded-full font-bold bg-primary/10 text-primary">
+            33
+          </span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => handleScopeChange("all")}
+          className={cn(
+            "px-3 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none flex items-center gap-1.5",
+            scope === "all"
+              ? "bg-card text-foreground font-bold shadow-xs border border-border/80"
+              : "text-muted-foreground hover:text-foreground"
+          )}
+        >
+          <span>All Topics</span>
+          <span className="text-[10px] px-1.5 py-0.2 rounded-full font-bold bg-muted text-muted-foreground">
+            88
+          </span>
+        </button>
+      </div>
+
       {/* 2. Preparation Progress Banner Card */}
       <Card className="p-4 sm:p-5 rounded-2xl border border-border/80 shadow-xs bg-card space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <div className="space-y-1">
             <span className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider">
-              Total Syllabus
+              {scope === "rajasthan_gk" ? "Rajasthan GK Total" : scope === "english" ? "English Total" : "Combined Total"}
             </span>
             <p className="text-xl sm:text-2xl font-black text-foreground tabular-nums">
-              55 Topics
+              {totalCount} Topics
             </p>
           </div>
 
@@ -219,9 +296,15 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
 
         <div className="space-y-1.5">
           <div className="flex items-center justify-between text-xs text-muted-foreground font-medium">
-            <span>Overall Syllabus Completion</span>
+            <span>
+              {scope === "rajasthan_gk"
+                ? "Rajasthan GK Preparation Progress"
+                : scope === "english"
+                  ? "English Preparation Progress"
+                  : "Total Syllabus Completion"}
+            </span>
             <span className="font-bold text-foreground tabular-nums">
-              {isClient ? `${progressPercent}%` : "0%"}
+              {isClient ? `${completedCount} / ${totalCount} (${progressPercent}%)` : "0%"}
             </span>
           </div>
           <div className="h-2.5 w-full rounded-full bg-muted overflow-hidden">
@@ -234,34 +317,36 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
       </Card>
 
       {/* 3. Section Selector Filter Tabs */}
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-        {CANONICAL_SECTIONS.map((sec) => {
-          const isActive = selectedSection === sec.id;
-          return (
-            <button
-              key={sec.id}
-              type="button"
-              onClick={() => setSelectedSection(sec.id)}
-              className={cn(
-                "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5",
-                isActive
-                  ? "bg-foreground text-background shadow-xs font-bold"
-                  : "bg-muted/70 text-muted-foreground hover:text-foreground hover:bg-muted"
-              )}
-            >
-              <span>{sec.title}</span>
-              <span
+      {sectionTabs.length > 1 && (
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+          {sectionTabs.map((sec) => {
+            const isActive = selectedSection === sec.id;
+            return (
+              <button
+                key={sec.id}
+                type="button"
+                onClick={() => setSelectedSection(sec.id)}
                 className={cn(
-                  "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
-                  isActive ? "bg-background text-foreground" : "bg-card text-muted-foreground"
+                  "px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-all cursor-pointer select-none whitespace-nowrap flex items-center gap-1.5",
+                  isActive
+                    ? "bg-foreground text-background shadow-xs font-bold"
+                    : "bg-muted/70 text-muted-foreground hover:text-foreground hover:bg-muted"
                 )}
               >
-                {sec.count}
-              </span>
-            </button>
-          );
-        })}
-      </div>
+                <span>{sec.title}</span>
+                <span
+                  className={cn(
+                    "text-[10px] px-1.5 py-0.2 rounded-full font-bold",
+                    isActive ? "bg-background text-foreground" : "bg-card text-muted-foreground"
+                  )}
+                >
+                  {sec.count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {/* 4. Search and Status Filter Row */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-card p-3 rounded-2xl border border-border/80 shadow-2xs">
@@ -338,7 +423,7 @@ export function SyllabusTracker({ isStandalonePage = true }: SyllabusTrackerProp
                     )}
                     aria-label={`Mark topic ${topic.id} as ${isDone ? "pending" : "completed"}`}
                   >
-                    {isDone ? <Check className="h-3.5 w-3.5 stroke-[3]" /> : <Circle className="h-2 w-2 text-transparent" />}
+                    {isDone ? <Check className="h-3.5 w-3.5 stroke-3" /> : <Circle className="h-2 w-2 text-transparent" />}
                   </button>
 
                   <div className="min-w-0 space-y-0.5 flex-1">
