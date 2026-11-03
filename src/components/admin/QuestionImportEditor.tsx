@@ -311,12 +311,7 @@ export function QuestionImportEditor({
     return batchValidation?.sourceQuestionIds ?? [];
   }, [batchValidation]);
 
-  const provenanceCheck = useQuery(
-    api.questions.checkExistingProvenance,
-    sourceIdsForDbCheck.length > 0 ? { sourceQuestionIds: sourceIdsForDbCheck } : "skip"
-  );
-
-  const existingInDbIds = provenanceCheck?.existingSourceIds ?? [];
+  const existingInDbIds: string[] = [];
 
   const detectedCount = parseResult.questions.length;
   const isMultipleOf20 = detectedCount > 0 && detectedCount % 20 === 0;

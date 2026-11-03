@@ -44,7 +44,7 @@ export function ImportWizard() {
     selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
   ) ?? [];
 
-  const importTestSet = useMutation(api.questions.importTestSet);
+  const importTestSet = useMutation(api.testSets.importTestSet);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
   // Target master topic from URL if available

@@ -19,7 +19,6 @@ import type * as lib_permissions from "../lib/permissions.js";
 import type * as lib_scoring from "../lib/scoring.js";
 import type * as lib_validators from "../lib/validators.js";
 import type * as migrations from "../migrations.js";
-import type * as questions from "../questions.js";
 import type * as seed from "../seed.js";
 import type * as subjects from "../subjects.js";
 import type * as testSets from "../testSets.js";
@@ -45,7 +44,6 @@ declare const fullApi: ApiFromModules<{
   "lib/scoring": typeof lib_scoring;
   "lib/validators": typeof lib_validators;
   migrations: typeof migrations;
-  questions: typeof questions;
   seed: typeof seed;
   subjects: typeof subjects;
   testSets: typeof testSets;

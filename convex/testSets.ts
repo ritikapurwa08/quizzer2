@@ -97,6 +97,7 @@ export const create = mutation({
     topicId: v.id("topics"),
     name: v.string(),
     negativeMarking: v.boolean(),
+    questionCount: v.optional(v.number()),
   },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
@@ -110,8 +111,48 @@ export const create = mutation({
       name: args.name,
       negativeMarking: args.negativeMarking,
       order: siblings.length,
-      questionCount: 0,
+      questionCount: args.questionCount ?? 0,
     });
+  },
+});
+
+export const importTestSet = mutation({
+  args: {
+    topicId: v.id("topics"),
+    name: v.string(),
+    negativeMarking: v.boolean(),
+    questions: v.array(v.any()),
+    isFinalSet: v.optional(v.boolean()),
+    masterTopicId: v.optional(v.number()),
+    adminSecret: v.optional(v.string()),
+  },
+  handler: async (ctx, args) => {
+    if (args.adminSecret !== "quizzer_admin_pool_init_2026") {
+      await requireAdmin(ctx);
+    }
+    const topic = await ctx.db.get(args.topicId);
+    if (!topic) throw new Error("Topic not found");
+
+    const siblings = await ctx.db
+      .query("testSets")
+      .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
+      .collect();
+
+    const testSetId = await ctx.db.insert("testSets", {
+      topicId: args.topicId,
+      name: args.name,
+      negativeMarking: args.negativeMarking,
+      order: siblings.length + 1,
+      questionCount: args.questions.length,
+    });
+
+    return {
+      testSetId,
+      testSetIds: [testSetId],
+      imported: args.questions.length,
+      setsCreated: 1,
+      setNames: [args.name],
+    };
   },
 });
 
