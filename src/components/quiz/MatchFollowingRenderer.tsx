@@ -172,30 +172,41 @@ export function MatchFollowingRenderer({
           Select Correct Option / Code:
         </h4>
         <div className="space-y-2">
-          {question.options.map((option) => {
-            const isSelected = selectedValue === option.id;
-            let correctness: "correct" | "incorrect" | "neutral" | undefined =
-              undefined;
+          {(question.options || []).map((opt: any, i: number) => {
+            const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
+            const optText = typeof opt === "string" ? opt : opt?.text || "";
+
+            const isSelected = selectedValue === optId || selectedValue === optText;
+            let correctness: "correct" | "incorrect" | "neutral" | undefined = undefined;
 
             if (isReview) {
-              if (option.id === question.correctAnswer) {
-                correctness = "correct";
-              } else if (isSelected && option.id !== question.correctAnswer) {
-                correctness = "incorrect";
-              } else {
-                correctness = "neutral";
-              }
+              const rawCorrect = String(question.correctAnswer || "").trim();
+              const isThisCorrect =
+                rawCorrect === optId ||
+                rawCorrect === optText ||
+                (rawCorrect.toUpperCase() === "A" && i === 0) ||
+                (rawCorrect.toUpperCase() === "B" && i === 1) ||
+                (rawCorrect.toUpperCase() === "C" && i === 2) ||
+                (rawCorrect.toUpperCase() === "D" && i === 3) ||
+                (rawCorrect === "1" && i === 0) ||
+                (rawCorrect === "2" && i === 1) ||
+                (rawCorrect === "3" && i === 2) ||
+                (rawCorrect === "4" && i === 3);
+
+              if (isThisCorrect) correctness = "correct";
+              else if (isSelected) correctness = "incorrect";
+              else correctness = "neutral";
             }
 
             return (
               <OptionButton
-                key={option.id}
-                id={option.id}
-                text={option.text}
+                key={optId}
+                id={optId}
+                text={optText}
                 selected={isSelected}
                 disabled={isReview}
                 correctness={correctness}
-                onClick={() => onSelect(option.id)}
+                onClick={() => !isReview && onSelect(optId)}
               />
             );
           })}

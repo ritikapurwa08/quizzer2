@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 
 export const dynamic = "force-dynamic";
 
@@ -40,10 +41,11 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
       const sets: any[] = JSON.parse(fs.readFileSync(publishedSetsPath, "utf-8"));
       for (const s of sets) {
         if (Array.isArray(s.questions)) {
-          for (const q of s.questions) {
+          for (const rawQ of s.questions) {
+            const q = enrichQuestionStructure(rawQ);
             const normalized: NormalizedQuestion = {
-              _id: q._id || q.id,
-              id: q.id || q._id,
+              _id: q._id || q.id || q.canonicalId || q.convexId,
+              id: q.id || q.canonicalId || q._id,
               testSetId: q.testSetId || s.id || s._id,
               topicId: q.topicId || s.topicId,
               subjectId: q.subjectId || s.subjectId,
@@ -63,6 +65,8 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
 
             if (q._id) map.set(q._id, normalized);
             if (q.id) map.set(q.id, normalized);
+            if (q.canonicalId) map.set(q.canonicalId, normalized);
+            if (q.convexId) map.set(q.convexId, normalized);
             if (q.sourceQuestionId) map.set(String(q.sourceQuestionId), normalized);
             if (q.meta?.sourceQuestionId) map.set(String(q.meta.sourceQuestionId), normalized);
           }
@@ -73,21 +77,24 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
     const masterPoolPath = path.join(cwd, "data", "master-pool", "master-pool.json");
     if (fs.existsSync(masterPoolPath)) {
       const pool: any[] = JSON.parse(fs.readFileSync(masterPoolPath, "utf-8"));
-      for (const p of pool) {
-        if (!p.id) continue;
+      for (const rawP of pool) {
+        if (!rawP.id) continue;
+        const p = enrichQuestionStructure(rawP);
         const normalized: NormalizedQuestion = {
           _id: p.id,
           id: p.id,
-          type: "mcq",
-          questionText: p.question || "",
+          type: p.type || "mcq",
+          questionText: p.questionText || p.question || "",
           options: Array.isArray(p.options)
             ? p.options.map((opt: any, i: number) =>
                 typeof opt === "string" ? { id: `opt${i + 1}`, text: opt } : opt
               )
             : [],
-          correctAnswer: p.answerIndex !== undefined ? `opt${p.answerIndex + 1}` : "opt1",
+          correctAnswer: p.correctAnswer || (p.answerIndex !== undefined ? `opt${p.answerIndex + 1}` : "opt1"),
           explanation: p.explanation || "",
-          difficulty: "medium",
+          difficulty: p.difficulty || "medium",
+          reference: p.exam ? `📌 ${p.exam}${p.year ? ` (${p.year})` : ""}` : "",
+          meta: p.meta,
         };
 
         if (!map.has(p.id)) {

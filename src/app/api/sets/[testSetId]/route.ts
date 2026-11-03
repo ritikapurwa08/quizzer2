@@ -1,13 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 
 export const dynamic = "force-dynamic";
 
 // In-memory cache for published sets to provide sub-millisecond responses
 let _setsCache: Map<string, any> | null = null;
 
-function normalizeQuestion(q: any, i: number) {
+function normalizeQuestion(rawQ: any, i: number) {
+  const q = enrichQuestionStructure(rawQ);
   const qId = q._id || q.id || q.convexId || q.canonicalId || `q_${i + 1}`;
   const options = (q.options || []).map((opt: any, optIdx: number) => {
     if (typeof opt === "string") {

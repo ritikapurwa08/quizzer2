@@ -73,7 +73,7 @@ export function getOptionLabel(indexOrId?: number | string | null): string {
 }
 
 function isInstructionLine(line: string): boolean {
-  return /(?:सुमेलित|मिलान|कीजिए|करें|चुनिए|उत्तर|match|following|select|below|code|कूट|(?:को|से|with|and)\s*(?:सूची|List|Column))/i.test(line);
+  return /(?:सुमेलित|मिलान|कीजिए|कीजिये|करें|चुनिए|चुनिये|उत्तर|match|following|select|below|code|कूट|कोड|(?:को|से|with|and)\s*(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table))/i.test(line);
 }
 
 function isTableOrItemLine(line: string): boolean {
@@ -85,9 +85,9 @@ function isTableOrItemLine(line: string): boolean {
     return true;
   }
 
-  // Standalone list header: e.g. "सूची-I                 सूची-II", "सूची-I:", "सूची-1", "सूची-२", "List-I List-II", "Column A"
+  // Standalone list/table header: e.g. "सूची-I सूची-II", "तालिका-I तालिका-II", "सारणी-1 सारणी-2", "List-I List-II", "Column A"
   // but NOT instruction sentences like "सूची-I को सूची-II से सुमेलित कीजिए"
-  if (/(?:सूची|List|Column)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB]|\u0967|\u0968)\b/i.test(trimmed)) {
+  if (/(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:I{1,3}|[12]|[AB]|\u0967|\u0968)\b/i.test(trimmed)) {
     if (!isInstructionLine(trimmed)) {
       return true;
     }
@@ -100,7 +100,7 @@ function isTableOrItemLine(line: string): boolean {
   }
 
   // Standalone "कूट:" / "Codes:"
-  if (/^(?:कूट|Codes?)\s*[:=]?$/i.test(trimmed)) {
+  if (/^(?:कूट|कोड|Codes?)\s*[:=]?$/i.test(trimmed)) {
     return true;
   }
 
@@ -112,35 +112,51 @@ const MATCH_QUESTION_TYPES = new Set([
   "matching",
   "match_following",
   "match_the_following",
+  "sequence",
   "table",
 ]);
 
 /**
- * For match_following (and similar list-based) questions, questionText often contains
- * both the instruction prompt and the raw text lists (List I / List II / सूची-I / सूची-II).
+ * For match_following, sequence, table (and similar list-based) questions, questionText often contains
+ * both the instruction prompt and the raw text lists/tables (List I / List II / सूची-I / तालिका / सारणी).
  * This function strips out the embedded raw text lists so only the clean instruction prompt is shown above the rendered boxes.
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  if (type && !MATCH_QUESTION_TYPES.has(type)) {
+  const isMatchOrTable = type ? MATCH_QUESTION_TYPES.has(type) : /(?:सुमेलित|मिलान|तालिका|सारणी|सूची\s*[-–—:]*\s*[1I]|match.*following)/i.test(text);
+  if (!isMatchOrTable) {
     return text;
   }
 
   const lines = text.split(/\r?\n/);
-  const promptLines: string[] = [];
-
-  for (const line of lines) {
-    const trimmed = line.trim();
-    if (!trimmed) continue;
-
-    if (isTableOrItemLine(trimmed)) {
-      break;
+  if (lines.length > 1) {
+    const promptLines: string[] = [];
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed) continue;
+      if (isTableOrItemLine(trimmed)) {
+        break;
+      }
+      promptLines.push(trimmed);
     }
-    promptLines.push(trimmed);
+    const promptResult = promptLines.join("\n").trim();
+    if (promptResult) return promptResult;
   }
 
-  const promptResult = promptLines.join("\n").trim();
-  return promptResult || text;
+  // Handle single-line run-on questions: extract prompt up to table headers / first item markers
+  const headerCut = text.search(/[-–—:]\s*(?:(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:\([a-zA-Z0-9\u0900-\u097f]+\)|[0-9a-zA-Z\u0905\u092c\u0938\u0926][.)\-:]))/i);
+  if (headerCut > 15) {
+    const candidate = text.slice(0, headerCut).trim().replace(/[-–—:]\s*$/, '').trim();
+    if (candidate) return candidate.endsWith(':') || candidate.endsWith('।') || candidate.endsWith('?') ? candidate : `${candidate} :`;
+  }
+
+  const promptEndM = text.match(/(?:सुमेलित\s*(?:कीजिए|कीजिये|करें)|मिलान\s*(?:कीजिए|कीजिये|करें)|(?:सही\s*(?:उत्तर|विकल्प)\s*का\s*(?:चयन|चुनाव)\s*(?:कीजिए|कीजिये|करें|चुनिए|चुनिये))|(?:उपयुक्त\s*उत्तर\s*(?:का\s*चयन\s*कीजिए|का\s*चयन\s*कीजिये|चुनें|चुनिए|चुनिये))|(?:उत्तर\s*(?:दें|दीजिए|दीजिये|चुनिए|चुनिये)))\s*[:\-–—\s]*/i);
+  if (promptEndM && promptEndM.index !== undefined) {
+    const candidate = text.slice(0, promptEndM.index + promptEndM[0].length).trim().replace(/[-–—:]\s*$/, '').trim();
+    if (candidate) return candidate.endsWith(':') || candidate.endsWith('।') || candidate.endsWith('?') ? candidate : `${candidate} :`;
+  }
+
+  return text;
 }
 
 /**
