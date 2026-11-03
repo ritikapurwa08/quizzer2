@@ -1,11 +1,17 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
+import { Doc, Id } from "./_generated/dataModel";
 import { requireUser } from "./lib/permissions";
 
 export const listByUser = query({
   args: {},
   handler: async (ctx) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [];
+    }
     const bookmarks = await ctx.db
       .query("bookmarks")
       .withIndex("by_user", (q) => q.eq("userId", user._id))
@@ -26,7 +32,12 @@ export const listByUser = query({
 export const listQuestionIdsByUser = query({
   args: {},
   handler: async (ctx) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [];
+    }
     const bookmarks = await ctx.db
       .query("bookmarks")
       .withIndex("by_user", (q) => q.eq("userId", user._id))
@@ -43,7 +54,12 @@ export const listQuestionIdsByUser = query({
 export const listByUserWithMeta = query({
   args: {},
   handler: async (ctx) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [];
+    }
     const bookmarks = await ctx.db
       .query("bookmarks")
       .withIndex("by_user", (q) => q.eq("userId", user._id))
@@ -107,13 +123,18 @@ export const listByUserWithMeta = query({
 });
 
 export const isBookmarked = query({
-  args: { questionId: v.id("questions") },
+  args: { questionId: v.union(v.id("questions"), v.string()) },
   handler: async (ctx, args) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return false;
+    }
     const existing = await ctx.db
       .query("bookmarks")
       .withIndex("by_user_question", (q) =>
-        q.eq("userId", user._id).eq("questionId", args.questionId),
+        q.eq("userId", user._id).eq("questionId", args.questionId as any),
       )
       .unique();
     return existing !== null;
@@ -121,13 +142,17 @@ export const isBookmarked = query({
 });
 
 export const toggle = mutation({
-  args: { questionId: v.id("questions") },
+  args: {
+    questionId: v.union(v.id("questions"), v.string()),
+    topicId: v.optional(v.union(v.id("topics"), v.string())),
+    subjectId: v.optional(v.union(v.id("subjects"), v.string())),
+  },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
     const existing = await ctx.db
       .query("bookmarks")
       .withIndex("by_user_question", (q) =>
-        q.eq("userId", user._id).eq("questionId", args.questionId),
+        q.eq("userId", user._id).eq("questionId", args.questionId as any),
       )
       .unique();
 
@@ -136,23 +161,27 @@ export const toggle = mutation({
       return { bookmarked: false };
     }
 
-    const question = await ctx.db.get(args.questionId);
-    let topicId: any = undefined;
-    let subjectId: any = undefined;
-    if (question) {
-      const testSet = await ctx.db.get(question.testSetId);
-      if (testSet) {
-        topicId = testSet.topicId;
-        const topic = await ctx.db.get(testSet.topicId);
-        if (topic) {
-          subjectId = topic.subjectId;
+    let topicId: any = args.topicId;
+    let subjectId: any = args.subjectId;
+    try {
+      const question = (await ctx.db.get(args.questionId as any)) as Doc<"questions"> | null;
+      if (question) {
+        const testSet = (await ctx.db.get(question.testSetId)) as Doc<"testSets"> | null;
+        if (testSet) {
+          topicId = testSet.topicId;
+          const topic = (await ctx.db.get(testSet.topicId)) as Doc<"topics"> | null;
+          if (topic) {
+            subjectId = topic.subjectId;
+          }
         }
       }
+    } catch {
+      // String questionId
     }
 
     await ctx.db.insert("bookmarks", {
       userId: user._id,
-      questionId: args.questionId,
+      questionId: args.questionId as any,
       subjectId,
       topicId,
       createdAt: Date.now(),

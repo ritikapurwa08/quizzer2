@@ -1,7 +1,7 @@
 {
   "masterTopicId": 35,
   "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-  "totalAvailable": 306,
+  "totalAvailable": 272,
   "questions": [
     {
       "id": "rg_002739",
@@ -529,27 +529,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002771",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "उस कवयित्री का नाम जो कृष्ण को समर्पित थी और जिसे ‘वागड़ की मीरा’ के नाम से भी जाना जाता था -",
-      "options": [
-        "गौरा धाय",
-        "पन्ना धाय",
-        "मीरा बाई",
-        "गवरी बाई"
-      ],
-      "answer": "D",
-      "exam": "Rajasthan Patwar Exam 2nd Shift",
-      "year": 2025,
-      "explanation": "गवरी बाई (18वीं शताब्दी) को कृष्ण भक्ति के कारण “वागड़ की मीरा” कहा जाता है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002772",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -844,27 +823,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002783",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "लांगुरिया गीत किस लोक देवी से सम्बन्धित है -",
-      "options": [
-        "जल देवी",
-        "शीतला माता",
-        "कैला देवी",
-        "जीण माता"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (ICTSM) Exam",
-      "year": 2024,
-      "explanation": "लांगुरिया गीत राजस्थान में कैला देवी (करौली) के भक्तों द्वारा गाए जाते हैं। ये गीत भक्ति और लोक परंपरा का हिस्सा हैं और कैला माता की स्तुति में गाए जाते हैं।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002784",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -928,27 +886,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002808",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "राजस्थान के किस क्षेत्र में ‘नड़’ वाद्ययंत्र अधिकतर प्रयुक्त होता है -",
-      "options": [
-        "जयपुर",
-        "कोटा",
-        "जैसलमेर",
-        "अजमेर"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (RAT) Exam",
-      "year": 2024,
-      "explanation": "नड़ चरवाहों व भोपों का प्रमुख वाद्य है। जैसलमेर क्षेत्र में अधिक प्रचलित।प्रसिद्ध वादक – करणा भील।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002809",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -1008,48 +945,6 @@
       "exam": "CET (Graduate) 28 September Shift-1",
       "year": 2024,
       "explanation": "अल्लाह जिलाई बाई राजस्थान की एक प्रसिद्ध लोक गायिका थीं जो विशेष रूप से ‘मांड गायन’ के लिए प्रसिद्ध थीं। मांड राजस्थान का शास्त्रीय लोक संगीत है, जिसे शाही दरबारों में गाया जाता था।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002813",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "अल्लाह जिलाई बाई की लोकप्रियता का मुख्य कारण क्या है -",
-      "options": [
-        "रावण हत्था",
-        "नृत्य",
-        "मांड गायन",
-        "कुर्जा गायन"
-      ],
-      "answer": "C",
-      "exam": "Hostel Supt(Minority Affairs)",
-      "year": 2024,
-      "explanation": "अल्लाह जिलाई बाई राजस्थान के मांड गायन की प्रसिद्ध गायिका थीं। उन्होंने लोक संगीत को अंतरराष्ट्रीय पहचान दिलाई।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002814",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "पटेलिया, बिछियों और लालार क्या हैं -",
-      "options": [
-        "वाद्य यंत्र",
-        "लोक गीत",
-        "लोक नृत्य",
-        "लोक नाटक"
-      ],
-      "answer": "B",
-      "exam": "Stenographer Exam (Paper - I)",
-      "year": 2024,
-      "explanation": "वाड़ क्षेत्र के मुख्य लोक गीत पटेल्या, बीछियो, लालर, माछर, नोखीला, थारी ऊँटा री असवारी, नावरी असवारी, शिकार आदि है।",
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -1432,27 +1327,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002832",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "साकर खान को 2012 में पद्मश्री से सम्मानित किया गया क्योंकि वे ____ लोक वाद्य के सबसे बड़े प्रवक्ता थे-",
-      "options": [
-        "खड़ताल",
-        "कामायचा",
-        "सारंगी",
-        "मोरचंग"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 11 February Shift-1",
-      "year": 2023,
-      "explanation": "साकर खान एक प्रसिद्ध राजस्थानी लोक संगीतकार थे, जिन्हें कामायचा (Kamaicha) वाद्य यंत्र के लिए जाना जाता है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002833",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -1659,27 +1533,6 @@
       "exam": "Food Safety Officer -",
       "year": 2022,
       "explanation": "सारंगियों के वादन में जैसलमेर बाड़मेर के लंगा जाती के लोग, मेवाड़ के गडरियों के भाट व मरुक्षेत्र के जोगी दक्ष होते है। जोगी इन सारंगियों से गोपीचंद, सुलतान निहालदे, भरथरी आदि के ख़याल गाते है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002826",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "अल्लाह जिलाई बाई की लोकप्रियता का कारण क्या है -",
-      "options": [
-        "मांड गायन",
-        "लोक नृत्य",
-        "कुर्जा गायन",
-        "रावण हत्था"
-      ],
-      "answer": "A",
-      "exam": "RPSC EO/ RO Exam Shift-1",
-      "year": 2022,
-      "explanation": null,
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -1999,27 +1852,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002850",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्न में से कौनसा सुषिर वाद्य नहीं है -",
-      "options": [
-        "अलगोज़ा",
-        "रवाज़",
-        "मशक",
-        "नड़"
-      ],
-      "answer": "B",
-      "exam": "A.R.O. (GK and Plant Pathology)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002856",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -2037,27 +1869,6 @@
       "exam": "Forest Guard Exam (11 DEC ) (evening shift)",
       "year": 2022,
       "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002857",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "राजस्थान संगीत नाटक अकादमी कहाँ स्थित है -",
-      "options": [
-        "जयपुर",
-        "बीकानेर",
-        "अजमेर",
-        "जोधपुर"
-      ],
-      "answer": "D",
-      "exam": "Forest Guard Exam (11 DEC ) (evening shift)",
-      "year": 2022,
-      "explanation": "राजस्थान संगीत नाटक अकादमी की स्थापना 1957 में जोधपुर में हुई थी।",
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -2776,27 +2587,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002867",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "किसे ‘वागड़ की मीरा’ भी कहा जाता है -",
-      "options": [
-        "कर्माबाई",
-        "गवरीबाई",
-        "कालीबाई",
-        "लिछमाबाई"
-      ],
-      "answer": "B",
-      "exam": "Forester Exam Shift 1",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002868",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -3112,48 +2902,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002931",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "‘राजस्थान कबीर यात्रा’ का संबंध निम्नलिखित में से किस क्षेत्र से है -",
-      "options": [
-        "गायन",
-        "चित्रण",
-        "लेखन",
-        "वानिकी"
-      ],
-      "answer": "A",
-      "exam": "Agriculture Supervisor Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002932",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "राजस्थान के निम्नलिखित में से किस शहर में होली के दौरान ‘रम्मत’ का आयोजन किया जाता है -",
-      "options": [
-        "करौली",
-        "जोधपुर",
-        "जैमलमेर",
-        "बीकानेर"
-      ],
-      "answer": "D",
-      "exam": "Agriculture Supervisor Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002978",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -3192,27 +2940,6 @@
       "exam": "RAS/RTS Comb. Comp. (Pre) Exam",
       "year": 2018,
       "explanation": "बीकानेर से अल्लाह जिलई बाई (लोक संगीत में पद्म श्री-1982 और संगीत नाटक अकादमी पुरस्कार-1988 से सम्मानित), उदयपुर से मांगी बाई आर्य (लोक संगीत में संगीत नाटक अकादमी पुरस्कार -2008 से सम्मानित), और जोधपुर से गवरी बाई (लोक संगीत में संगीत नाटक अकादमी पुरस्कार-1975-76 और 1986 द्वारा सम्मानित) माण्ड गायकों में शामिल हैं।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002991",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "‘बागड़ की मीरा’ के नाम से निम्न में से कौन प्रसिद्ध है -",
-      "options": [
-        "गवरी बाई",
-        "भंवरी बाई",
-        "करमा बाई",
-        "ज्ञानमती बाई"
-      ],
-      "answer": "A",
-      "exam": "COMPILER Exam",
-      "year": 2016,
-      "explanation": null,
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -3336,27 +3063,6 @@
         "वाद्य यंत्र"
       ],
       "answer": "D",
-      "exam": "Lect. College Edu. EXAM (GK)",
-      "year": 2014,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002997",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "मोरचंग है -",
-      "options": [
-        "नृत्य शैली",
-        "गायन शैली",
-        "वाद्य यंत्र",
-        "चित्र शैली"
-      ],
-      "answer": "C",
       "exam": "Lect. College Edu. EXAM (GK)",
       "year": 2014,
       "explanation": null,
@@ -3511,48 +3217,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002982",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्न में से कौनसा तत् वाद्य नहीं है -",
-      "options": [
-        "रावणहत्था",
-        "जन्तर",
-        "अलगोजा",
-        "कामायचा"
-      ],
-      "answer": "C",
-      "exam": "Raj Jail Warder (21-10-18) Shift 1",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002983",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "चारबैत, जो राजस्थान की प्रचलित लोक गायन शैली है, कहां प्रसिद्ध है -",
-      "options": [
-        "टोंक",
-        "जैसलमेर",
-        "बांसवाडा",
-        "श्रीगंगानगर"
-      ],
-      "answer": "A",
-      "exam": "Raj Jail Warder (28-10-18) Shift 3",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002984",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -3574,27 +3238,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002985",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "ऐसा लोकवाद्य जिसका निर्माण आधे कटे नारियल की कटोरी से होता है-",
-      "options": [
-        "िंगी",
-        "भपंग",
-        "रावण हत्था",
-        "अलगोजा"
-      ],
-      "answer": "C",
-      "exam": "Raj Jail Warder (27-10-18) Shift 3",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002986",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -3610,27 +3253,6 @@
       ],
       "answer": "D",
       "exam": "Raj Jail Warder (21-10-18) Shift 2",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002987",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्न में से कौनसा तत् वाद्य नहीं है -",
-      "options": [
-        "रवाज",
-        "चौतारा",
-        "सतारा",
-        "जन्तर"
-      ],
-      "answer": "C",
-      "exam": "Raj Jail Warder (21-10-18) Shift 1",
       "year": null,
       "explanation": null,
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
@@ -3994,27 +3616,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002871",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौन सा सुषिर वाद्य है -",
-      "options": [
-        "अलगोजा",
-        "कामायचा",
-        "तंदूरा",
-        "रावणहत्था"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002894",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -4162,27 +3763,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002905",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "राजस्थान के पंडित विश्व मोहन भट्ट का संबंध किस वाद्य यत्र से स्थापित किया जा सकता है -",
-      "options": [
-        "मोहनवीणा",
-        "ड्रम सेट",
-        "सितार",
-        "सरोद"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "मोहनवीणा संगीत वाद्ययंत्र राजस्थान के पंडित विश्व मोहन भट्ट के साथ जुड़ा हुआ है। भट्ट ने 1994 में ग्रैमी पुरस्कार जीता।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002906",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -4284,27 +3864,6 @@
       "exam": null,
       "year": null,
       "explanation": "तालबंदी गायिकी : राजस्थान के पूर्वी अंचल (भरतपुर, अलवर, करौली एवं सवाईमाधोपुर) में प्रचलित ब्रजभके पद गायन की ऐसी शास्त्रीय परम्परा है, जिसमें राग-रागनियों से निबद्ध प्राचीन कवियों की पदावलियाँ सामूहिक रूप गायी जाती हैं, साथ ही गायन से पहले जिस राग में पद गाया गया उसी की संक्षिप्त अलापचारी की जाती है। इसमें प्रमु वाद्य सारंगी, हारमोनियम, ढोलक, तबला व झाँझ है एवं बीच-बीच में नगाड़ा (बंब) भी बजाते हैं। तालबंदी गायकी द्विताल, दादर, धमार, एकताल, झपताल अधिक प्रचलित है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002914",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "रावणहत्था क्या है -",
-      "options": [
-        "एक प्रकार का नृत्य",
-        "वाद्ययंत्र",
-        "एक पुस्तक का शीर्षक",
-        "स्थान का नाम"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -4498,69 +4057,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002925",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "हेला खयाल लोकसंगीत राजस्थान के निम्नलिखित में से किस क्षेत्र से संबंधित है -",
-      "options": [
-        "ीकर-झुन्झुनू",
-        "ौसा-सवाई माधोपुर",
-        "भीलवाड़ा-चित्तौड़",
-        "डूंगरपुर-बांसवाड़ा"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002926",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "वाद्य यंत्र टामक राजस्थान के किस सांस्कृतिक क्षेत्र से सम्बंधित है -",
-      "options": [
-        "मेवात",
-        "मेवाड़",
-        "मारवाड़",
-        "मेरवाड़ा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002927",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "किस लोकवाद्य में महारथ होने से साकर खान को 2012 में पद्मश्री से सम्मानित किया गया -",
-      "options": [
-        "कामायचा",
-        "ारंगी",
-        "मोरचंग",
-        "खडताल"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002933",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -4599,27 +4095,6 @@
       "exam": null,
       "year": null,
       "explanation": "राजस्थान के टोंक में प्रचलित चार बैत लोक गायन शैली में कव्वाल धाप बजाते हुए कव्वालों की तरह घुटनों के बल खड़े होकर भाव पूर्ण गीत गाते हैं। कुछ गायक ऊंची कूद और चादर को उछालते हुए भी गाते हैं। यह शैली मूल रूप से पठानी मूल का एक काव्य रूप है, जिसे पहले पश्तो भाषा में गाया जाता था।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002935",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौनसा तत् वाद्य नहीं है -",
-      "options": [
-        "रावण हत्था",
-        "जन्तर",
-        "अलगोजा",
-        "कामायचा"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
       "topicId": 35
     },
@@ -4764,48 +4239,6 @@
         "झांझ"
       ],
       "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002943",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "रावणहत्था क्या है -",
-      "options": [
-        "एक प्रकार का नृत्य",
-        "पुस्तक का नाम",
-        "वाद्ययंत्र",
-        "स्थान का नाम"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002944",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "लोक वाद्य यंत्र ‘टामक’ राजस्थान के किस सांस्कृतिक क्षेत्र से सम्बंधित है -",
-      "options": [
-        "मेवाड़",
-        "वागड़",
-        "मेवात",
-        "मेरवाड़ा"
-      ],
-      "answer": "C",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -4974,48 +4407,6 @@
         "रोशनआरा बेगम"
       ],
       "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002953",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "पटेल्या, बीछीयों एवं लालर हैं -",
-      "options": [
-        "राजस्थानी आभूषण",
-        "राजस्थानी लोकगीत",
-        "राजस्थानी लोक वाद्य",
-        "राजस्थानी लोक नाट्य"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002954",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "तार लगा वाद्ययंत्र है -",
-      "options": [
-        "अलगोजा",
-        "खड़ताल",
-        "डेंरू",
-        "जन्तर"
-      ],
-      "answer": "D",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -5443,48 +4834,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_002981",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "किस प्रसिद्ध मांड गायिका को कला के क्षेत्र में योगदान के लिए 1982 में पद्मश्री से सम्मानित किया गया -",
-      "options": [
-        "अल्ला जिलाई बाई",
-        "गवरी बाई",
-        "उषा चौहान",
-        "मांगी बाई"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "अल्लाह जिलई बाई को एक प्रसिद्ध माण्ड गायिका के रूप में जाना जाता है। 1982 में, भारत सरकार ने उन्हें सर्वोच्च नागरिक पुरस्कारों में से एक, कला क्षेत्र में पद्म श्री से सम्मानित किया । उन्हें लोक संगीत के लिए 1988 में संगीत नाटक अकादमी पुरस्कार से भी सम्मानित किया गया है।",
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_002992",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "वाद्य यंत्र ‘टामक’ का सम्बंध .......... क्षेत्र से है -",
-      "options": [
-        "मेवात",
-        "मारवाड़",
-        "मेरवाड़ा",
-        "मेवाड़"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_002995",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -5653,27 +5002,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_003008",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "अग्नि नृत्य का उद्गम किस जिले में हुआ -",
-      "options": [
-        "जोधपुर",
-        "बाड़मेर",
-        "बीकानेर",
-        "चूरू"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_003009",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -5800,27 +5128,6 @@
       "topicId": 35
     },
     {
-      "id": "rg_003015",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "लांगूरिया गीत का सम्बन्ध है -",
-      "options": [
-        "शिलादेवी",
-        "कैला देवी",
-        "करणी माता",
-        "राणी सती"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
       "id": "rg_003016",
       "source": "RajasthanGyan",
       "sourceTopicId": 31,
@@ -5898,27 +5205,6 @@
         "भैंरूजी से"
       ],
       "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "topicId": 35
-    },
-    {
-      "id": "rg_003020",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 31,
-      "sourceTopic": "राजस्थान में संगीत एवं लोकगीत",
-      "masterTopicId": 35,
-      "masterTopic": "राजस्थान का लोक संगीत एवं लोकगीत",
-      "question": "निम्नलिखित में से कौन सा तत् वाद्य नहीं है-",
-      "options": [
-        "रावणहत्था",
-        "कामायचा",
-        "अलगोजा",
-        "जन्तर"
-      ],
-      "answer": "C",
       "exam": null,
       "year": null,
       "explanation": null,

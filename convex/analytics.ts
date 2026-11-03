@@ -32,7 +32,53 @@ export const dashboardStats = query({
     timezoneOffset: v.optional(v.number()), // Client offset in minutes (default -330 for IST)
   },
   handler: async (ctx, args) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return {
+        testsAttempted: 0,
+        questionsSolved: 0,
+        overallAccuracy: 0,
+        bookmarkCount: 0,
+        wrongQuestionCount: 0,
+        dailyProgress: [],
+        hourlyActivity: Array.from({ length: 24 }, (_, h) => {
+          let label = "12 AM";
+          if (h === 0) label = "12 AM";
+          else if (h < 12) label = `${h} AM`;
+          else if (h === 12) label = "12 PM";
+          else label = `${h - 12} PM`;
+          return {
+            hour: h,
+            hourLabel: label,
+            correct: 0,
+            incorrect: 0,
+            total: 0,
+            tests: 0,
+          };
+        }),
+        subjectBreakdown: [],
+        weakSubjects: [],
+        subjectAccuracy: [],
+        answerBreakdown: {
+          correct: 0,
+          incorrect: 0,
+          unanswered: 0,
+          totalQuestions: 0,
+          answeredCount: 0,
+          accuracy: 0,
+        },
+        recentAttempts: [],
+        insights: {
+          strongestSubject: null,
+          weakestSubject: null,
+          activeDays: 0,
+          totalPeriodQuestions: 0,
+          totalPeriodTests: 0,
+        },
+      };
+    }
 
     const attempts = await ctx.db
       .query("attempts")

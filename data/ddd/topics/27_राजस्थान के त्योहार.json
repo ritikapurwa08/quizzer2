@@ -1,7 +1,7 @@
 {
   "masterTopicId": 27,
   "masterTopic": "राजस्थान के त्योहार",
-  "totalAvailable": 182,
+  "totalAvailable": 152,
   "questions": [
     {
       "id": "rg_001136",
@@ -298,27 +298,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001153",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "हरियाली तीज का त्यौहार किस माह में मनाया जाता है -",
-      "options": [
-        "भाद्रपद माह",
-        "श्रावण माह",
-        "कार्तिक माह",
-        "फाल्गुन माह"
-      ],
-      "answer": "B",
-      "exam": "Junior Instructor (Wireman) Exam",
-      "year": 2024,
-      "explanation": "हरियाली तीज श्रावण मास में शुक्ल पक्ष में तृतीया को मनाई जाती है, जो पति की लंबी आयु के लिए महिलाओं द्वारा मनाया जाता है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001161",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -399,48 +378,6 @@
       "exam": "Junior Instructor(CLIT) Exam",
       "year": 2024,
       "explanation": "भारतीय कैलेंडर के अनुसार, बसंत ऋतु फाल्गुन और चैत्र (मार्च-अप्रैल) महीनों में आती है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001165",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "बूंदी में कजली तीज का त्यौहार किस माह में मनाया जाता है -",
-      "options": [
-        "श्रावण",
-        "भाद्रपद",
-        "फाल्गुन",
-        "चैत्र"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 24 October Shift-II",
-      "year": 2024,
-      "explanation": "कजली तीज राजस्थान के बूंदी में भाद्रपद महीने में बड़े हर्षोल्लास के साथ मनाई जाती है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001166",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "किस महीने में कजली तीज का त्योहार बूंदी में मनाया जाता है -",
-      "options": [
-        "श्रावण",
-        "फाल्गुन",
-        "भाद्रपद",
-        "चैत्र"
-      ],
-      "answer": "C",
-      "exam": "CET (Graduate) 28 September Shift-2",
-      "year": 2024,
-      "explanation": "कजली तीज भाद्रपद माह के कृष्ण पक्ष की तृतीया (जुलाई अगस्त) को मनाई जाती है।",
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
     },
@@ -676,27 +613,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001178",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "‘हरियाली अमावस्या’ का पर्व किस तिथि को मनाया जाता है -",
-      "options": [
-        "आषाढ़ अमावस्या",
-        "श्रावण अमावस्या",
-        "फालगुन अमावस्या",
-        "कार्तिक अमावस्या"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 11 February Shift-1",
-      "year": 2023,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001179",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -714,27 +630,6 @@
       "exam": "High Court LDC (12 March )",
       "year": 2023,
       "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001180",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान में “अबूझ सावा” किस दिन मनाते हैं -",
-      "options": [
-        "गणगौर",
-        "बसंत पंचमी",
-        "कार्तिक पूर्णिमा",
-        "आखा तीज"
-      ],
-      "answer": "D",
-      "exam": "High Court LDC (12 March )",
-      "year": 2023,
-      "explanation": "आखा तीज वैशाख शुक्ल तृतीया को मनायी जाती है। इस दिन ‘अबूझ सावा’ होता है।",
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
     },
@@ -865,69 +760,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001177",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "‘कजली तीज’ का त्योहार कहाँ मनाया जाता है -",
-      "options": [
-        "ाड़मेर",
-        "बूँदी",
-        "जयपुर",
-        "जोधपुर"
-      ],
-      "answer": "B",
-      "exam": "Sr. Teacher Gr II Comp. Exam - (G.K. & Edu. Psychology) Group C",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001181",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान में त्योहारों की शुरूआत श्रावणी तीज से होती है और अंत _____ से होता है।",
-      "options": [
-        "चटड़ा चौथ",
-        "शीतला अष्टमी",
-        "गणगौर",
-        "हरियाली तीज"
-      ],
-      "answer": "C",
-      "exam": "3rd Grade Teacher Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001182",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान के कौन से क्षेत्र में गुलाबी गणगौर चैत्र शुक्ल पंचमी को मनाई जाती है -",
-      "options": [
-        "पुष्कर",
-        "नाथद्वारा",
-        "जयपुर",
-        "उदयपुर"
-      ],
-      "answer": "B",
-      "exam": "3rd Grade Teacher Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001183",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -943,48 +775,6 @@
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Hindi L2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001184",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "निम्न में से विवाह के लिए राजस्थान का सबसे महत्वपूर्ण अबूझ सावा कौन सा है -",
-      "options": [
-        "शरद पूर्णिमा",
-        "आखा तीज",
-        "निर्जला एकादशी",
-        "चौथ करवा"
-      ],
-      "answer": "B",
-      "exam": "3rd Grade Teacher Social Studies L2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001185",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "कजली तीज का त्योहार कहाँ मनाया जाता है -",
-      "options": [
-        "जयपुर",
-        "जोधपुर",
-        "उदयपुर",
-        "बूंदी"
-      ],
-      "answer": "D",
-      "exam": "3rd Grade Teacher L1",
       "year": 2022,
       "explanation": null,
       "topic": "राजस्थान के त्योहार",
@@ -1264,27 +1054,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001201",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "किस हिन्दू माह में गणगौर त्यौहार मनाया जाता है -",
-      "options": [
-        "चैत्र",
-        "वैशाख",
-        "फाल्गुन",
-        "श्रावण"
-      ],
-      "answer": "A",
-      "exam": "Lab Assistant Exam (Home Science)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001202",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -1364,27 +1133,6 @@
       "answer": "D",
       "exam": "JEN : Electrical Diploma (GK)",
       "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001205",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "“कजली तीज” का त्यौहार किस तिथि को मनाया जाता है -",
-      "options": [
-        "भाद्रपद कृष्ण तृतीया",
-        "आषाढ़ कृष्ण तृतीया",
-        "श्रावण शुक्ल तृतीया",
-        "चैत्र शुक्ल तृतीया"
-      ],
-      "answer": "A",
-      "exam": "Police SI 14 September (Gk)",
-      "year": 2021,
       "explanation": null,
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
@@ -1495,27 +1243,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001196",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "बूंदी में ‘कजली तीज’ का त्योहार किस महीने में मनाया जाता है -",
-      "options": [
-        "चैत्र",
-        "कार्तिक",
-        "श्रावण",
-        "भाद्रपद"
-      ],
-      "answer": "D",
-      "exam": "Forester Exam Shift 1",
-      "year": 2020,
-      "explanation": "भाद्रपद माह के कृष्ण पक्ष की तृतीया को आयोजित होने वाली कजली तीज, सातुडी तीज, बड़ी तीज और भादवा की तीज भी कही जाती है। यह महिलाओं के सौलह श्रृंगार और पति-पत्नि के प्रेम का प्रतीक है। हाडौती में कजली तीज विख्यात है। बूंदी जिले में नगर परिषद द्वारा दो दिवसीय तीज सवारी निकाली जाती है तथा मेला लगता है। जिसमे विभिन्न कलाकारों द्वारा रंगारंग कार्यक्रम की प्रस्तुति की जाती है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001207",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -1600,27 +1327,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001255",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान के कौन से क्षेत्र में चैत्र शुक्ल 5 को गुलाबी गणगौर मनायी जाती है -",
-      "options": [
-        "नाथद्वारा",
-        "उदयपुर",
-        "बूंदी",
-        "जोधपुर"
-      ],
-      "answer": "A",
-      "exam": "Lab Assistant Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001264",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -1680,27 +1386,6 @@
       "exam": "RPSC Clerk GR-II Exam Paper I",
       "year": 2016,
       "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001256",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान में कौनसे क्षेत्र में चेत्रशुक्ल पंचमी को गुलाबी गणगौर मनायी जाती है -",
-      "options": [
-        "नाथद्वारा",
-        "कोटा",
-        "बुन्दी",
-        "जोधपुर"
-      ],
-      "answer": "A",
-      "exam": "Asstt. Agriculture Officer(TSP) Exam Paper 1",
-      "year": 2015,
-      "explanation": "गुलाबी गणगौर चैत्र शुक्ल पंचमी को मनाया जाता है। गुलाबी गणगौर नाथद्वारा में मनाया जाता है।",
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
     },
@@ -2146,27 +1831,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001217",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान का निम्नलिखित में से कौनसा शहर 'पत्थर मार होली’ के लिए प्रसिद्ध है -",
-      "options": [
-        "्यावर",
-        "बाड़मेर",
-        "किशनगढ़",
-        "भरतपुर"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001218",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -2179,27 +1843,6 @@
         "1-A, 2-C, 3-B, 4-D",
         "1-D, 2-C, 3-B, 4-A",
         "1-D, 2-B, 3-C, 4-A"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001219",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "शीतला अष्टमी किस दिन मनाई जाती है -",
-      "options": [
-        "आश्विन शुक्ल अष्टमी",
-        "चैत्र कृष्ण अष्टमी",
-        "चैत्र शुक्ल अष्टमी",
-        "भाद्रपद शुक्ल अष्टमी"
       ],
       "answer": "B",
       "exam": null,
@@ -2223,27 +1866,6 @@
         "आषाढ़ शुक्ल एकादशी"
       ],
       "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001221",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "हिण्डोला महोत्सव किस जगह मनाया जाता है -",
-      "options": [
-        "कोलायत",
-        "अलवर",
-        "माउट आबू",
-        "पुष्कर"
-      ],
-      "answer": "D",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -2482,27 +2104,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001236",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "हिन्दू पंचांग के अनुसार छोटी तीज का त्यौहार किस माह में मनाया जाता है -",
-      "options": [
-        "श्रावण",
-        "चैत्र",
-        "बैसाख",
-        "भाद्रपद"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "छोटी तीज को हरियाली तीज कहते हैं और यह सावन के महीने में मनाई जाती है",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001238",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -2517,27 +2118,6 @@
         "दशहरा"
       ],
       "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001239",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "विक्रम संवत् पंचांग के अनुसार गणगौर त्यौहार किस दिन मनाया जाता है -",
-      "options": [
-        "चैत्र शुक्ल तृतीय",
-        "चैत्र कृष्ण तृतीय",
-        "श्रावण शुक्ल सप्तमी",
-        "कार्तिक कृष्ण अष्टमी"
-      ],
-      "answer": "A",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -2692,48 +2272,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001251",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान के कौन से क्षेत्र में चैत्र-शुक्ल पंचमी को ‘गुलाबी गणगौर’ मनायी जाती है -",
-      "options": [
-        "नाथद्वारा",
-        "उदयपुर",
-        "बूंदी",
-        "जोधपुर"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001252",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "कौन से महीने में तीज का त्यौहार मनाया जाता है -",
-      "options": [
-        "श्रावण",
-        "चैत्र",
-        "बैशाख",
-        "माघ"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": "श्रावण मास के शुक्ल पक्ष की तृतीया को श्रावणी तीज कहते हैं।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001259",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -2755,27 +2293,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001260",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "निम्न में से कौन सा स्थान पत्थरमार होली के लिए प्रसिद्ध है -",
-      "options": [
-        "महावीरजी",
-        "भरतपुर",
-        "ब्यावर",
-        "बाड़मेर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001261",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -2790,27 +2307,6 @@
         "श्रावण के शुक्ल पक्ष की नवमी को"
       ],
       "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001263",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान में निम्न में से कौन सा त्यौहार श्रावण मास में नहीं आता है -",
-      "options": [
-        "रक्षाबन्धन",
-        "जन्माष्टमी",
-        "नाग पंचमी",
-        "तीज"
-      ],
-      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -2919,27 +2415,6 @@
       "exam": null,
       "year": null,
       "explanation": "घुड़ला त्यौहार चैत्र कृष्ण अष्टमी से चैत्र शुक्ल तृतीया को मनाया जाता है। मारवाड़ में घुड़ला त्योहार मनाया जाता है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001275",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "राजस्थान में कजली तीज का त्यौहार व मेला कहां का प्रसिद्ध है -",
-      "options": [
-        "जयपुर",
-        "बूंदी",
-        "शेखावटी",
-        "जोधपुर"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
     },
@@ -3175,27 +2650,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001287",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "ईस्टर के त्योहार के पीछे ईसाइयों की भावना है-",
-      "options": [
-        "इस दिन ईसा ने उपदेश दिया",
-        "इस दिन ईसा पुनर्जीवित हुए",
-        "ईसा ने संसार से विदा ली",
-        "ईसा नजरथ में गए"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001288",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -3301,27 +2755,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001293",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "छोटी तीज का त्यौहार किस माह में मनाया जाता है -",
-      "options": [
-        "चैत्र",
-        "श्रावण",
-        "भाद्रपद",
-        "कार्तिक"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001294",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -3406,48 +2839,6 @@
       "topicId": 27
     },
     {
-      "id": "rg_001298",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "गुरू गोविन्द सिंह जयन्ती कब मनाई जाती है-",
-      "options": [
-        "पोष शुक्ला सप्तमी",
-        "माद्य कृष्णा सप्तमी",
-        "माद्य शुक्ला सप्तमी",
-        "पोष कृष्णा सप्तमी"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001299",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "किस दिन नेवलों की पूजा की जाती है-",
-      "options": [
-        "निडरी नवमी",
-        "गुरू पूर्णिमा",
-        "योगिनी एकादशी",
-        "नेवलाष्टमी"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
       "id": "rg_001300",
       "source": "RajasthanGyan",
       "sourceTopicId": 26,
@@ -3465,27 +2856,6 @@
       "exam": null,
       "year": null,
       "explanation": "शेखावटी क्षेत्र में ऊब छठ को चाना छठ कहा जाता है। ऊब छठ का व्रत और पूजा विवाहित स्त्रियां पति की लंबी आयु के लिए तथा कुंआरी लड़कियां अच्छे पति कामना में करती है।",
-      "topic": "राजस्थान के त्योहार",
-      "topicId": 27
-    },
-    {
-      "id": "rg_001301",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 26,
-      "sourceTopic": "राजस्थान में त्यौहार",
-      "masterTopicId": 27,
-      "masterTopic": "राजस्थान के त्योहार",
-      "question": "जल झुलनी ग्यारस कब मनायी जाती है-",
-      "options": [
-        "कार्तिक शुक्ला",
-        "चैत्र कृष्णा एकादशी",
-        "माद्य कृष्णा एकादशी",
-        "भाद्रपद शुक्ल एकादशी"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के त्योहार",
       "topicId": 27
     },

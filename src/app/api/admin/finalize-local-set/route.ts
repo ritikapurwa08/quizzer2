@@ -148,6 +148,54 @@ export async function POST(request: NextRequest) {
       fs.writeFileSync(setFilePath, JSON.stringify(setPayload, null, 2), "utf-8");
     }
 
+    // 5.5 Sync with data/master-pool/published-sets.json for local-first retrieval
+    try {
+      const pubPath = path.join(projectRoot, "data", "master-pool", "published-sets.json");
+      if (fs.existsSync(pubPath)) {
+        const publishedSets = JSON.parse(fs.readFileSync(pubPath, "utf-8"));
+        const existingIdx = publishedSets.findIndex((s: any) => s.id === setId || s.setId === setId);
+        let convexTopicId = String(masterTopicId);
+        try {
+          const tmapPath = path.join(projectRoot, "data", "master-pool", "topic-id-mapping.json");
+          if (fs.existsSync(tmapPath)) {
+            const tmap = JSON.parse(fs.readFileSync(tmapPath, "utf-8"));
+            if (tmap[String(masterTopicId)]) {
+              convexTopicId = tmap[String(masterTopicId)];
+            }
+          }
+        } catch {}
+
+        const setEntry = {
+          id: setId,
+          setId,
+          name: `${topicState.masterTopic} भाग ${setNumber}`,
+          topicId: convexTopicId,
+          negativeMarking: true,
+          order: Number(setNumber),
+          questionCount: Array.isArray(questions) ? questions.length : selectedIds.length,
+          questions: (questions || []).map((q: any, i: number) => ({
+            order: i,
+            canonicalId: q.meta?.sourceQuestionId || q.sourceQuestionId || q.id,
+            questionText: q.questionText,
+            options: q.options || [],
+            correctAnswer: q.correctAnswer,
+            explanation: q.explanation || null,
+            type: q.type || "mcq",
+            meta: q.meta || {},
+            reference: q.reference || null,
+          })),
+        };
+        if (existingIdx >= 0) {
+          publishedSets[existingIdx] = setEntry;
+        } else {
+          publishedSets.push(setEntry);
+        }
+        fs.writeFileSync(pubPath, JSON.stringify(publishedSets, null, 2), "utf-8");
+      }
+    } catch (pubErr) {
+      console.warn("Could not sync to published-sets.json:", pubErr);
+    }
+
     // 6. Save audit history
     const topicHistoryDir = path.join(historyDir, `topic-${padTopic}`);
     fs.mkdirSync(topicHistoryDir, { recursive: true });

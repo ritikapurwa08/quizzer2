@@ -23,6 +23,9 @@ import {
   PieChart,
   HelpCircle,
   FolderTree,
+  HardDrive,
+  Download,
+  Check,
 } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -35,6 +38,11 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import {
+  getLocalGkCount,
+  getImportMeta,
+  importGkPoolFromServer,
+} from "@/lib/localdb/gkQuestions";
 
 interface Subtopic {
   name: string;
@@ -107,6 +115,44 @@ export default function AdminPoolOverviewPage() {
   const [showDuplicateModal, setShowDuplicateModal] = useState(false);
   const [showContractInfo, setShowContractInfo] = useState(false);
 
+  // Local DB State
+  const [localDbCount, setLocalDbCount] = useState<number | null>(null);
+  const [localDbMeta, setLocalDbMeta] = useState<{ importedAt: number; totalCount: number } | null>(null);
+  const [isImportingLocal, setIsImportingLocal] = useState(false);
+  const [importProgress, setImportProgress] = useState<{ done: number; total: number } | null>(null);
+  const [localImportSuccess, setLocalImportSuccess] = useState(false);
+
+  const loadLocalDbStatus = async () => {
+    try {
+      const [cnt, meta] = await Promise.all([getLocalGkCount(), getImportMeta()]);
+      setLocalDbCount(cnt);
+      setLocalDbMeta(meta);
+    } catch (e) {
+      console.error("Local DB status error:", e);
+    }
+  };
+
+  const handleImportToLocalDb = async () => {
+    setIsImportingLocal(true);
+    setLocalImportSuccess(false);
+    setImportProgress({ done: 0, total: 13919 });
+    try {
+      const res = await importGkPoolFromServer((done, total) => {
+        setImportProgress({ done, total });
+      });
+      setLocalDbCount(res.total);
+      setLocalDbMeta({ importedAt: res.importedAt, totalCount: res.total });
+      setLocalImportSuccess(true);
+      setTimeout(() => setLocalImportSuccess(false), 5000);
+    } catch (err: any) {
+      console.error("Failed to import to local DB:", err);
+      alert(`Local DB import failed: ${err.message}`);
+    } finally {
+      setIsImportingLocal(false);
+      setImportProgress(null);
+    }
+  };
+
   const fetchOverview = async () => {
     setLoading(true);
     setError(null);
@@ -126,6 +172,7 @@ export default function AdminPoolOverviewPage() {
 
   useEffect(() => {
     fetchOverview();
+    loadLocalDbStatus();
   }, []);
 
   // Filtered and Sorted Topics
@@ -270,6 +317,65 @@ export default function AdminPoolOverviewPage() {
         </div>
       </div>
 
+      {/* ── Local-First Question Bank Status Card ── */}
+      <Card className="p-4 sm:p-5 rounded-2xl bg-card border border-border/80 shadow-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-start gap-3.5">
+            <div className="p-2.5 rounded-xl bg-primary/10 text-primary shrink-0 mt-0.5">
+              <HardDrive className="h-5 w-5" />
+            </div>
+            <div className="space-y-0.5">
+              <div className="flex items-center gap-2">
+                <h3 className="text-sm font-bold text-foreground">Local Question Database (IndexedDB)</h3>
+                <Badge variant={localDbCount && localDbCount > 0 ? "secondary" : "outline"} className="text-[10px] h-4.5 px-2">
+                  {localDbCount && localDbCount > 0 ? "Ready Offline" : "Not Initialized"}
+                </Badge>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                {localDbCount !== null
+                  ? `${localDbCount.toLocaleString()} questions cached locally on this device`
+                  : "Checking local database..."}
+                {localDbMeta?.importedAt
+                  ? ` · Last imported: ${new Date(localDbMeta.importedAt).toLocaleDateString()} ${new Date(localDbMeta.importedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
+                  : ""}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2.5 shrink-0">
+            {isImportingLocal && importProgress && (
+              <span className="text-xs font-semibold tabular-nums text-primary animate-pulse">
+                Importing {importProgress.done.toLocaleString()} / {importProgress.total.toLocaleString()}...
+              </span>
+            )}
+            {localImportSuccess && (
+              <span className="text-xs font-bold text-emerald-500 flex items-center gap-1">
+                <Check className="h-4 w-4" /> Imported!
+              </span>
+            )}
+            <Button
+              size="sm"
+              variant={localDbCount && localDbCount > 0 ? "outline" : "default"}
+              onClick={handleImportToLocalDb}
+              disabled={isImportingLocal}
+              className="text-xs h-9 gap-1.5 rounded-xl cursor-pointer"
+            >
+              {isImportingLocal ? (
+                <>
+                  <RefreshCw className="h-3.5 w-3.5 animate-spin" />
+                  Importing...
+                </>
+              ) : (
+                <>
+                  <Download className="h-3.5 w-3.5" />
+                  {localDbCount && localDbCount > 0 ? "Sync / Reimport Local DB" : "Import GK Pool to Local DB"}
+                </>
+              )}
+            </Button>
+          </div>
+        </div>
+      </Card>
+
       {/* ── KPI Summary Cards ── */}
       <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
         {/* Card 1: Total Pool */}
@@ -410,7 +516,7 @@ export default function AdminPoolOverviewPage() {
               </Button>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              All 15,949 questions are organized across 55 master topics strictly aligned with the official RPSC 2nd Grade syllabus contract. Clutter, science & tech, and extraneous budget topics have been eliminated.
+              All {summary.totalPoolQuestions.toLocaleString()} questions are organized across 55 master topics strictly aligned with the official RPSC 2nd Grade syllabus contract. Clutter, science & tech, and extraneous budget topics have been eliminated.
             </p>
 
             {showContractInfo && (

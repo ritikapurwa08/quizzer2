@@ -40,11 +40,32 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     };
   }, [testSetId, start]);
 
-  // 2. Fetch attempt & questions from Convex
+  // 2. Fetch attempt & questions from Convex (with static published-sets fallback)
   const data = useQuery(
     api.attempts.getWithQuestions,
     attemptId ? { attemptId } : "skip"
   );
+
+  const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
+
+  useEffect(() => {
+    // If Convex questions table doesn't have the questions, fetch from static published sets
+    if (data && (!data.questions || data.questions.length === 0)) {
+      fetch(`/api/sets/${testSetId}`)
+        .then((res) => res.json())
+        .then((json) => {
+          if (json.success && json.set?.questions) {
+            setLocalSetQuestions(json.set.questions);
+          }
+        })
+        .catch((e) => console.error("Local set fetch error:", e));
+    }
+  }, [data, testSetId]);
+
+  const resolvedQuestions =
+    data?.questions && data.questions.length > 0
+      ? data.questions
+      : localSetQuestions;
 
   const attempt = data?.attempt;
   const isPaused = Boolean(attempt?.isPaused);
@@ -196,12 +217,46 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     Object.values(debounceTimers.current).forEach(clearTimeout);
     debounceTimers.current = {};
 
-    return await submitAttempt({ attemptId });
-  }, [attemptId, submitAttempt]);
+    // Prepare evaluations from resolved questions
+    const evaluations = resolvedQuestions.map((q) => {
+      const qid = q._id || q.id || q.canonicalId;
+      const selected = localAnswers[qid];
+      const isAttempted =
+        selected !== undefined &&
+        selected !== null &&
+        selected !== "" &&
+        (!Array.isArray(selected) || selected.length > 0);
+
+      let isCorrect = false;
+      if (isAttempted && q.correctAnswer) {
+        if (Array.isArray(q.correctAnswer)) {
+          isCorrect =
+            Array.isArray(selected) &&
+            selected.length === q.correctAnswer.length &&
+            q.correctAnswer.every(
+              (c: any, i: number) =>
+                String(c).trim().toUpperCase() === String(selected[i]).trim().toUpperCase()
+            );
+        } else {
+          isCorrect =
+            String(q.correctAnswer).trim().toUpperCase() ===
+            String(selected).trim().toUpperCase();
+        }
+      }
+
+      return {
+        questionId: String(qid),
+        selected,
+        isCorrect,
+      };
+    });
+
+    return await submitAttempt({ attemptId, evaluations });
+  }, [attemptId, resolvedQuestions, localAnswers, submitAttempt]);
 
   return {
     attemptId,
-    questions: data?.questions ?? [],
+    questions: resolvedQuestions,
     attempt,
     localAnswers,
     selectAnswer,

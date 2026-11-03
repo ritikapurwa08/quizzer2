@@ -1,6 +1,6 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
-import { Id } from "./_generated/dataModel";
+import { Doc, Id } from "./_generated/dataModel";
 import { requireUser } from "./lib/permissions";
 import {
   calculateQuestionScore,
@@ -13,19 +13,36 @@ export const MARKS_PER_QUESTION = DEFAULT_MARKS_PER_QUESTION;
 export const DEFAULT_NEGATIVE_MARK_VALUE = MARKS_PER_QUESTION * NEGATIVE_PENALTY_RATIO; // 2/3 ≈ 0.6667
 
 export const start = mutation({
-  args: { testSetId: v.id("testSets") },
+  args: {
+    testSetId: v.union(v.id("testSets"), v.string()),
+    totalQuestions: v.optional(v.number()),
+  },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
 
-    const testSet = await ctx.db.get(args.testSetId);
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId))
-      .collect();
+    let testSet: Doc<"testSets"> | null = null;
+    try {
+      testSet = (await ctx.db.get(args.testSetId as any)) as Doc<"testSets"> | null;
+    } catch {
+      // String testSetId
+    }
+
+    let questionsCount = testSet?.questionCount ?? args.totalQuestions ?? 20;
+    try {
+      const qDocs = await ctx.db
+        .query("questions")
+        .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId as any))
+        .collect();
+      if (qDocs.length > 0) {
+        questionsCount = qDocs.length;
+      }
+    } catch {
+      // String testSetId
+    }
 
     // Configured duration or default 1 minute per question (minimum 10 minutes)
     const durationMinutes =
-      testSet?.durationMinutes ?? (questions.length > 0 ? Math.max(10, questions.length) : 15);
+      testSet?.durationMinutes ?? Math.max(10, questionsCount);
     const totalDurationSeconds = durationMinutes * 60;
 
     // Resume an in-progress attempt for this test set if one exists,
@@ -33,7 +50,7 @@ export const start = mutation({
     const inProgress = await ctx.db
       .query("attempts")
       .withIndex("by_user_test_set_status", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId).eq("status", "in_progress"),
+        q.eq("userId", user._id).eq("testSetId", args.testSetId as any).eq("status", "in_progress"),
       )
       .unique();
 
@@ -52,10 +69,10 @@ export const start = mutation({
     const now = Date.now();
     return await ctx.db.insert("attempts", {
       userId: user._id,
-      testSetId: args.testSetId,
+      testSetId: args.testSetId as any,
       startedAt: now,
       answers: [],
-      totalQuestions: questions.length,
+      totalQuestions: questionsCount,
       status: "in_progress",
       totalDurationSeconds,
       elapsedSeconds: 0,
@@ -70,7 +87,7 @@ export const start = mutation({
 export const saveAnswer = mutation({
   args: {
     attemptId: v.id("attempts"),
-    questionId: v.id("questions"),
+    questionId: v.union(v.id("questions"), v.string()),
     selected: v.union(v.string(), v.array(v.string())),
   },
   handler: async (ctx, args) => {
@@ -93,7 +110,7 @@ export const saveAnswer = mutation({
     }
 
     const answers = attempt.answers.filter((a) => a.questionId !== args.questionId);
-    answers.push({ questionId: args.questionId, selected: args.selected });
+    answers.push({ questionId: args.questionId as any, selected: args.selected });
     await ctx.db.patch(args.attemptId, { answers });
   },
 });
@@ -114,94 +131,171 @@ function answersMatch(correct: string | string[], selected: string | string[] | 
  * Unanswered/Skipped questions do NOT incur negative marks.
  */
 export const submit = mutation({
-  args: { attemptId: v.id("attempts") },
+  args: {
+    attemptId: v.id("attempts"),
+    evaluations: v.optional(
+      v.array(
+        v.object({
+          questionId: v.string(),
+          isCorrect: v.boolean(),
+          selected: v.optional(v.union(v.string(), v.array(v.string()))),
+        })
+      )
+    ),
+  },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
     const attempt = await ctx.db.get(args.attemptId);
     if (!attempt || attempt.userId !== user._id) throw new Error("Attempt not found");
     if (attempt.status !== "in_progress") throw new Error("Attempt already submitted");
 
-    const testSet = await ctx.db.get(attempt.testSetId);
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId))
-      .collect();
+    let testSet: Doc<"testSets"> | null = null;
+    try {
+      testSet = (await ctx.db.get(attempt.testSetId as any)) as Doc<"testSets"> | null;
+    } catch {
+      // String testSetId
+    }
+
+    let questions: any[] = [];
+    try {
+      questions = await ctx.db
+        .query("questions")
+        .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId as any))
+        .collect();
+    } catch {
+      // Local set
+    }
 
     let correctCount = 0;
     let wrongCount = 0;
-    const scoredAnswers = [];
+    const scoredAnswers: any[] = [];
 
     let wrongTopicId: any = undefined;
     let wrongSubjectId: any = undefined;
     if (testSet) {
       wrongTopicId = testSet.topicId;
-      const topic = await ctx.db.get(testSet.topicId);
-      if (topic) {
-        wrongSubjectId = topic.subjectId;
+      try {
+        const topic = (await ctx.db.get(testSet.topicId)) as Doc<"topics"> | null;
+        if (topic) {
+          wrongSubjectId = topic.subjectId;
+        }
+      } catch {}
+    }
+
+    if (questions.length > 0) {
+      for (const question of questions) {
+        const answer = attempt.answers.find((a) => a.questionId === question._id);
+        const isAttempted =
+          answer !== undefined &&
+          answer.selected !== undefined &&
+          answer.selected !== null &&
+          answer.selected !== "" &&
+          (!Array.isArray(answer.selected) || answer.selected.length > 0);
+
+        const isCorrect = isAttempted
+          ? answersMatch(question.correctAnswer, answer.selected)
+          : false;
+
+        if (answer) {
+          scoredAnswers.push({ ...answer, isCorrect });
+        }
+
+        if (isAttempted) {
+          if (isCorrect) {
+            correctCount++;
+          } else {
+            wrongCount++;
+            try {
+              const existingWrong = await ctx.db
+                .query("wrongQuestions")
+                .withIndex("by_user_question", (q) =>
+                  q.eq("userId", user._id).eq("questionId", question._id as any),
+                )
+                .unique();
+
+              if (existingWrong) {
+                await ctx.db.patch(existingWrong._id, {
+                  lastMissedAt: Date.now(),
+                  missCount: existingWrong.missCount + 1,
+                  resolved: false,
+                  ...(existingWrong.subjectId ? {} : { subjectId: wrongSubjectId }),
+                  ...(existingWrong.topicId ? {} : { topicId: wrongTopicId }),
+                });
+              } else {
+                await ctx.db.insert("wrongQuestions", {
+                  userId: user._id,
+                  questionId: question._id,
+                  subjectId: wrongSubjectId,
+                  topicId: wrongTopicId,
+                  lastMissedAt: Date.now(),
+                  missCount: 1,
+                  resolved: false,
+                });
+              }
+            } catch {}
+          }
+        }
+      }
+    } else if (args.evaluations && args.evaluations.length > 0) {
+      for (const item of args.evaluations) {
+        const isAttempted =
+          item.selected !== undefined &&
+          item.selected !== null &&
+          item.selected !== "" &&
+          (!Array.isArray(item.selected) || item.selected.length > 0);
+
+        scoredAnswers.push({
+          questionId: item.questionId,
+          selected: item.selected,
+          isCorrect: isAttempted ? item.isCorrect : false,
+        });
+
+        if (isAttempted) {
+          if (item.isCorrect) {
+            correctCount++;
+          } else {
+            wrongCount++;
+            try {
+              const existingWrong = await ctx.db
+                .query("wrongQuestions")
+                .withIndex("by_user_question", (q) =>
+                  q.eq("userId", user._id).eq("questionId", item.questionId as any),
+                )
+                .unique();
+
+              if (existingWrong) {
+                await ctx.db.patch(existingWrong._id, {
+                  lastMissedAt: Date.now(),
+                  missCount: existingWrong.missCount + 1,
+                  resolved: false,
+                });
+              } else {
+                await ctx.db.insert("wrongQuestions", {
+                  userId: user._id,
+                  questionId: item.questionId as any,
+                  subjectId: wrongSubjectId,
+                  topicId: wrongTopicId,
+                  lastMissedAt: Date.now(),
+                  missCount: 1,
+                  resolved: false,
+                });
+              }
+            } catch {}
+          }
+        }
       }
     }
 
-    for (const question of questions) {
-      const answer = attempt.answers.find((a) => a.questionId === question._id);
-      const isAttempted =
-        answer !== undefined &&
-        answer.selected !== undefined &&
-        answer.selected !== null &&
-        answer.selected !== "" &&
-        (!Array.isArray(answer.selected) || answer.selected.length > 0);
-
-      const isCorrect = isAttempted
-        ? answersMatch(question.correctAnswer, answer.selected)
-        : false;
-
-      if (answer) {
-        scoredAnswers.push({ ...answer, isCorrect });
-      }
-
-      if (isAttempted) {
-        if (isCorrect) {
-          correctCount++;
-        } else {
-          wrongCount++;
-        }
-      }
-
-      // Upsert wrong questions bank for missed questions
-      if (isAttempted && !isCorrect) {
-        const existingWrong = await ctx.db
-          .query("wrongQuestions")
-          .withIndex("by_user_question", (q) =>
-            q.eq("userId", user._id).eq("questionId", question._id),
-          )
-          .unique();
-
-        if (existingWrong) {
-          await ctx.db.patch(existingWrong._id, {
-            lastMissedAt: Date.now(),
-            missCount: existingWrong.missCount + 1,
-            resolved: false,
-            ...(existingWrong.subjectId ? {} : { subjectId: wrongSubjectId }),
-            ...(existingWrong.topicId ? {} : { topicId: wrongTopicId }),
-          });
-        } else {
-          await ctx.db.insert("wrongQuestions", {
-            userId: user._id,
-            questionId: question._id,
-            subjectId: wrongSubjectId,
-            topicId: wrongTopicId,
-            lastMissedAt: Date.now(),
-            missCount: 1,
-            resolved: false,
-          });
-        }
-      }
-    }
+    const totalQuestionsCount =
+      questions.length > 0
+        ? questions.length
+        : attempt.totalQuestions || scoredAnswers.length || 20;
 
     // Authoritative Canonical Scoring calculation (1/3 negative penalty):
     const scoring = calculateQuestionScore({
       correctCount,
       wrongCount,
-      totalQuestions: questions.length,
+      totalQuestions: totalQuestionsCount,
       marksPerQuestion: MARKS_PER_QUESTION,
       negativeMarkingEnabled: testSet?.negativeMarking !== false,
     });
@@ -341,7 +435,12 @@ export const latestSubmittedForTestSet = query({
 export const recentByUser = query({
   args: { limit: v.optional(v.number()) },
   handler: async (ctx, args) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return [];
+    }
     const limit = args.limit ?? 5;
     // Use by_user_status index (newest-first) and take only what we need.
     const sorted = await ctx.db
@@ -394,7 +493,12 @@ export const listByUser = query({
 export const historyByUser = query({
   args: { paginationOpts: v.object({ numItems: v.number(), cursor: v.union(v.string(), v.null()) }) },
   handler: async (ctx, args) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return { page: [], isDone: true, continueCursor: "" };
+    }
     const { numItems, cursor } = args.paginationOpts;
 
     // Use by_user_status index, newest-first

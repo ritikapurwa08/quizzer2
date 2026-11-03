@@ -1,7 +1,7 @@
 {
   "masterTopicId": 14,
   "masterTopic": "राजस्थान का परिवहन",
-  "totalAvailable": 182,
+  "totalAvailable": 151,
   "questions": [
     {
       "id": "rg_010589",
@@ -21,27 +21,6 @@
       "exam": "Lab Assistant Exam (Science)",
       "year": 2026,
       "explanation": "नए राष्ट्रीय राजमार्ग (National Highway) नंबरों के लागू होने के बाद, NH-11 राजस्थान का सबसे लंबा राजमार्ग बन गया है। यह जैसलमेर (राजस्थान) और रेवाड़ी (हरियाणा) को जोड़ता है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010590",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान राज्य सड़क परिवहन निगम किस वर्ष में स्थापित किया गया था?",
-      "options": [
-        "1960",
-        "1962",
-        "1964",
-        "1966"
-      ],
-      "answer": "C",
-      "exam": "Lab Assistant Exam (Geography)",
-      "year": 2026,
-      "explanation": "राजस्थान राज्य सड़क परिवहन निगम (Rajasthan State Road Transport Corporation - RSRTC) की स्थापना सड़क परिवहन निगम अधिनियम, 1950 के तहत 1 अक्टूबर 1964 को की गई थी। इसका मुख्यालय जयपुर में है।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -340,27 +319,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010611",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "भारत के उत्तर-पश्चिम रेलवे मंडल (ज़ोन) का मुख्यालय, निम्नलिखित में से किस स्थान पर स्थित है -",
-      "options": [
-        "जोधपुर",
-        "जयपुर",
-        "अजमेर",
-        "बीकानेर"
-      ],
-      "answer": "B",
-      "exam": "RSSB Fourth Class Exam (19 Sep. 1st Shift)",
-      "year": 2025,
-      "explanation": "उत्तर-पश्चिम रेलवे ज़ोन का मुख्यालय जयपुर में स्थित है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010612",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -550,27 +508,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010623",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘राजस्थान राज्य पथ परिवहन निगम’ (आरएसआरटीसी) की स्थापना वर्ष ______ में की गई।",
-      "options": [
-        "1970",
-        "1968",
-        "1964",
-        "1966"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (SWT) Exam",
-      "year": 2024,
-      "explanation": "राजस्थान राज्य पथ परिवहन निगम (RSRTC) की स्थापना 1 अक्टूबर 1964 को हुई थी।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010624",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -588,27 +525,6 @@
       "exam": "Junior Instructor (PLM) Exam",
       "year": 2024,
       "explanation": "जोधपुर का हवाई अड्डा रातानाड़ा में स्थित है। डबोक उदयपुर में, सांगानेर जयपुर में, और नाल बीकानेर में है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010625",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान राज्य सड़क परिवहन निगम की स्थापना की गई:",
-      "options": [
-        "1968 में",
-        "1964 में",
-        "1966 में",
-        "1962 में"
-      ],
-      "answer": "B",
-      "exam": "Junior Instructor (MMV) Exam",
-      "year": 2024,
-      "explanation": "राजस्थान राज्य सड़क परिवहन निगम (RSRTC) की स्थापना 1 अक्टूबर 1964 को हुई थी। निगम की स्थापना सड़क परिवहन अधिनियम 1950 के तहत राज्य में यात्रा करने वाले लोगों को किफायती, पर्याप्त, समयनिष्ठ और कुशल सेवाएं प्रदान करने के उद्देश्य से की गई थी।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -802,27 +718,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010641",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "उत्तर-पश्चिमी रेलवे का मुख्यालय कहाँ है -",
-      "options": [
-        "अलवर",
-        "कोटा",
-        "जयपुर",
-        "अजमेर"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (EC) Exam",
-      "year": 2024,
-      "explanation": "उत्तर-पश्चिम रेलवे (NWR) का मुख्यालय जयपुर में स्थित है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010642",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -861,27 +756,6 @@
       "exam": "Hostel Supt(Minority Affairs)",
       "year": 2024,
       "explanation": "स्वर्णिम चतुर्भुज परियोजना भारत के चार महानगरों (दिल्ली, मुंबई, कोलकाता, और चेन्नई) को जोड़ने के लिए शुरू की गई थी। इसी के तहत जयपुर-अजमेर राष्ट्रीय राजमार्ग को 6 लेन में परिवर्तित किया गया।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010615",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "निम्नलिखित में से कौन-सा राष्ट्रीय राजमार्ग राजस्थान से होकर गुज़रता है -",
-      "options": [
-        "राष्ट्रीय राजमार्ग संख्या -73",
-        "राष्ट्रीय राजमार्ग संख्या-83",
-        "राष्ट्रीय राजमार्ग संख्या-11",
-        "राष्ट्रीय राजमार्ग संख्या - 40"
-      ],
-      "answer": "C",
-      "exam": "Animal Attendant Exam (December 3 Shift II)",
-      "year": 2023,
-      "explanation": "राज्य का सबसे लंबा राष्ट्रीय राजमार्ग, राष्ट्रीय राजमार्ग 11 (पुराना NH15) है।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -991,27 +865,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010634",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "निम्नलिखित में से कौन-सा राष्ट्रीय राजमार्ग राजस्थान राज्य से होकर गुजरता है -निम्नलिखित विकल्पों में से सर्वाधिक उपयुक्त उत्तर चुनें:",
-      "options": [
-        "राष्ट्रीय राजमार्ग संख्या - 2",
-        "राष्ट्रीय राजमार्ग संख्या - 37",
-        "राष्ट्रीय राजमार्ग संख्या - 11",
-        "राष्ट्रीय राजमार्ग संख्या - 13"
-      ],
-      "answer": "C",
-      "exam": "Animal Attendant Exam (December 1 Shift II)",
-      "year": 2023,
-      "explanation": "NH-11 (अब NH-48 का हिस्सा) राजस्थान से गुजरता है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010635",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -1050,27 +903,6 @@
       "exam": "Animal Attendant Exam (December 1 Shift I)",
       "year": 2023,
       "explanation": "चरण-1A (9.6 किमी) मानसरोवर से चांदपोल तक 2015 में शुरू हुआ।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010637",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "कौन-सा राष्ट्रीय राजमार्ग राजस्थान से होकर नहीं गुजरता है -नीचे दिए गए विकल्पों में से सबसे उपयुक्त उत्तर चुनें:",
-      "options": [
-        "राष्ट्रीय राजमार्ग संख्या - 10",
-        "राष्ट्रीय राजमार्ग संख्या - 44",
-        "राष्ट्रीय राजमार्ग संख्या - 23",
-        "राष्ट्रीय राजमार्ग संख्या - 11"
-      ],
-      "answer": "A",
-      "exam": "Animal Attendant Exam (December 1 Shift I)",
-      "year": 2023,
-      "explanation": "NH-10 दिल्ली से पंजाब और हरियाणा होते हुए जाता है, पर राजस्थान से नहीं गुजरता।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -1159,27 +991,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010646",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘राजस्थान राज्य पथ परिवहन निगम’ की स्थापना किस वर्ष की गई -",
-      "options": [
-        "1964",
-        "1972",
-        "1973",
-        "1952"
-      ],
-      "answer": "A",
-      "exam": "3rd Grade Teacher Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
-      "year": 2022,
-      "explanation": "राजस्थान राज्य पथ परिवहन निगम की स्थापना 1 अक्टूबर 1964 को की गई। निगम की स्थापना सड़क परिवहन अधिनियम 1950 के तहत राज्य में यात्रा करने वाले लोगों को किफायती, पर्याप्त, समयनिष्ठ और कुशल सेवाएं प्रदान करने के उद्देश्य से की गई थी।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010647",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -1197,27 +1008,6 @@
       "exam": "3rd Grade Teacher Punjabi L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
       "year": 2022,
       "explanation": "रोड़ इन्फ्रास्ट्रक्चर डेवलपमेंट कम्पनी ऑफ राजस्थान लिमिटेड (RIDCOR) को राजस्थान सरकार (GoR) और इंफ्रास्ट्रक्चर लीजिंग एंड फाइनेंशियल सर्विसेज लिमिटेड की 50:50 की संयुक्त भागीदारी के साथ बनाया गया था।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010648",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "किशनगढ़ (अजमेर) हवाई अड्डे का उद्घाटन कब किया गया था -",
-      "options": [
-        "अक्टूबर, 2017",
-        "िसंबर, 2017",
-        "मार्च, 2017",
-        "जून, 2017"
-      ],
-      "answer": "A",
-      "exam": "3rd Grade Teacher Urdu L2 (राजस्थान सामान्य ज्ञान व शैक्षिक परिदृश्य)",
-      "year": 2022,
-      "explanation": null,
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -1365,27 +1155,6 @@
       "exam": "School Lecturer Gk (G-A)",
       "year": 2022,
       "explanation": "राजस्थान का रेल नेटवर्क उत्तर पश्चिम रेलवे के अंतर्गत आता है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010658",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "उत्तर-दक्षिण गलियारा राजस्थान के किस जिले से गुजरता है -",
-      "options": [
-        "जयपुर",
-        "ौसा",
-        "धौलपुर",
-        "सवाई माधोपुर"
-      ],
-      "answer": "C",
-      "exam": "Forest Guard Exam Shift 4",
-      "year": 2022,
-      "explanation": null,
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -1600,48 +1369,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010674",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "उत्तर-पश्चिम रेलवे मण्डल का मुख्यालय स्थित है –",
-      "options": [
-        "जयपुर",
-        "अजमेर",
-        "कोटा",
-        "जोधपुर"
-      ],
-      "answer": "A",
-      "exam": "REET- Level 2 (सामाजिक अध्ययन) Shift-IV",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010675",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘राजस्थान राज्य पथ परिवहन निगम’ (आरएसआरटीसी) की स्थापना वर्ष ___ में की गई थी -",
-      "options": [
-        "1966",
-        "1960",
-        "1962",
-        "1964"
-      ],
-      "answer": "D",
-      "exam": "Lab Assistant Exam (Science) 28 June Paper-1",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010676",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -1699,48 +1426,6 @@
       ],
       "answer": "A",
       "exam": "Forester Exam Shift 2",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010661",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘डबोक’ हवाई अड्डा ___ जिले में स्थित है।",
-      "options": [
-        "राजसमंद",
-        "उदयपुर",
-        "बांसवाड़ा",
-        "डूंगरपुर"
-      ],
-      "answer": "B",
-      "exam": "Forester Exam Shift 2",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010662",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "उत्तर-पश्चिमी रेलवे मंडल का मुख्यालय स्थित है –",
-      "options": [
-        "कोटा में",
-        "जोधपुर में",
-        "उदयपुर में",
-        "जयपुर में"
-      ],
-      "answer": "D",
-      "exam": "Forester Exam Shift 1",
       "year": 2020,
       "explanation": null,
       "topic": "राजस्थान का परिवहन",
@@ -2020,27 +1705,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010708",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान राज्य पथ परिवहन निगम की स्थापना कब हुई -",
-      "options": [
-        "1979",
-        "1964",
-        "1961",
-        "1971"
-      ],
-      "answer": "B",
-      "exam": "Informatics Assistant Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010738",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -2247,27 +1911,6 @@
       "exam": "Junior Instructor(fitter)",
       "year": null,
       "explanation": "नम्रता भट्ट राजस्थान की पहली महिला पायलट थीं।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010726",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "किशनगढ़ हवाई अड्डे का उद्घाटन कब किया गया -",
-      "options": [
-        "अक्टूबर, 2017",
-        "अक्टूबर, 2018",
-        "िसम्बर, 2017",
-        "दिसम्बर, 2018"
-      ],
-      "answer": "A",
-      "exam": "Junior Instructor(copa)",
-      "year": null,
-      "explanation": "किशनगढ़ हवाई अड्डे का उद्घाटन 11 अक्टूबर, 2017 को हुआ था। इस हवाई अड्डे का संचालन भारतीय विमानपत्तन प्राधिकरण (एएआई) करता है। राजस्थान की पहली उड़ान प्रशिक्षण अकादमी अजमेर जिले के किशनगढ़ हवाई अड्डे पर शुरू की गई है।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -2692,27 +2335,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010694",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राष्ट्रीय राजमार्ग-44 राजस्थान के किस जिले से निकलता है -",
-      "options": [
-        "ौसा",
-        "धौलपुर",
-        "करौली",
-        "सवाई माधोपुर"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010695",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -2755,69 +2377,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010697",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘डबोक’ हवाई अड्डा राजस्थान के किस जिले में अवस्थित है -",
-      "options": [
-        "ीकानेर",
-        "जोधपुर",
-        "उदयपुर",
-        "अजमेर"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010698",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान राज्य पथ परिवहन निगम की स्थापना किस वर्ष की गई -",
-      "options": [
-        "1962",
-        "1964",
-        "1966",
-        "1968"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "राजस्थान राज्य पथ परिवहन निगम की स्थापना 1 अक्टुबर 1964 को हुई इसका मुख्यालय जयपुर में है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010699",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "किशनगढ़(अजमेर) हवाई अड्डे का उद्घाटन कब कया गया -",
-      "options": [
-        "अक्टूबर, 2015",
-        "अक्टूबर, 2017",
-        "अक्टूबर, 2018",
-        "अक्टूबर, 2019"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010700",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -2835,27 +2394,6 @@
       "exam": null,
       "year": null,
       "explanation": "अलवर जिले की यह सुरंग राजस्थान की पहली सडक़ यातायात सुरंग है। इस सुरंग के निर्माण में तीन साल लगे, यह सुरंग 1996 से 1999 के बीच बनी। तीन साल जिंदोली घाटी के पहाड़ को काटकर इस सुरंग को बनाया गया था।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010701",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राज्य/राजस्थान सरकार की सड़क तंत्र के विकास के लिए दीर्घकालीन योजना ......... है -",
-      "options": [
-        "राजस्थान रोड़ विजन - 2020",
-        "राजस्थान रोड़ विजन - 2022",
-        "राजस्थान रोड़ विजन - 2025",
-        "राजस्थान रोड़ विजन - 2027"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -2923,27 +2461,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010705",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान भू-क्षेत्र में सबसे लम्बा राष्ट्रीय राजमार्ग कौन-सा है -",
-      "options": [
-        "राष्ट्रीय राजमार्ग संख्या 11",
-        "राष्ट्रीय राजमार्ग संख्या 15",
-        "राष्ट्रीय राजमार्ग संख्या 12",
-        "राष्ट्रीय राजमार्ग संख्या 8"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010709",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -2986,27 +2503,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010711",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राज्य में सड़कों के विकास के लिए राज्य सरकार की दीर्घावधीक योजना है -",
-      "options": [
-        "राजस्थान रोड विजन-2010",
-        "राजस्थान रोड मास्टर प्लान-2025",
-        "राजस्थान रोड मास्टर प्लान-2021",
-        "राजस्थान रोड विजन-2025"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": "राजस्थान रोड विजन 2025 का आरंभ राज्य में सड़क प्रणाली की स्थितियों में सुधार के लिए किया गया। जोधपुर और जयपुर जैसे मुख्य शहरों में अत्यधिक सड़कें सुनिर्मित हैं, जबकि इन राज्यों के आंतरिक हिस्सों में सड़कों की गुणवत्ता बहुत खराब है। इस परियोजना का उद्देश्य इन आंतरिक क्षेत्रों में सड़कों की गुणवत्ता में सुधार करना है। इस परियोजना का आरंभ राज्य के लोक निर्माण विभाग द्वारा इक्कीसवीं सदी के पहले 25 वर्षों के दौरान सड़कों के विकास और रखरखाव के लिए किया गया था। यह परियोजना दो चरणों में कार्यान्वित की गई है: 1) परियोजना के पहले 15 वर्षों के दौरान, सभी गांवों को अधिगम सड़कों के साथ जोड़ा जाएगा। 2) अगले 10 वर्षों के दौरान पर्यटन, खनन और उद्योगों के विकास की दिशा में फ्लाई-ओवर, राजमार्ग, चार लेनों और अन्य सुविधाओं के विकास पर महत्व दिया जाएगा।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010712",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -3042,48 +2538,6 @@
         "एन एच 15"
       ],
       "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010714",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "उत्तरी पश्चिमी रेलवे का मुख्यालय कहां है -",
-      "options": [
-        "अलवर",
-        "भरतपुर",
-        "कोटा",
-        "जयपुर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": "उत्तर पश्चिम रेलवे (NWR) का मुख्यालय जयपुर, राजस्थान में है।",
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010715",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "‘राजस्थान राज्य पथ परिवहन निगम’ (आर. एस. आर. टी. सी.) की स्थापना किस वर्ष की गई थी -",
-      "options": [
-        "1956",
-        "1960",
-        "1964",
-        "1972"
-      ],
-      "answer": "C",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -3154,27 +2608,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010719",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान में पाक सीमा का सबसे करीबी स्टेशन मुनाबाव किस जिले में स्थित है -",
-      "options": [
-        "जैसलमेर",
-        "बाड़मेर",
-        "बीकानेर",
-        "गंगानगर"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010720",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -3192,27 +2625,6 @@
       "exam": null,
       "year": null,
       "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010729",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "डबोक हवाईअड्डा है -",
-      "options": [
-        "ीकानेर",
-        "जोधपुर",
-        "किशनगढ़",
-        "उदयपुर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": "महाराणा प्रताप हवाई अड्डा या उदयपुर हवाई अड्डा या दाबोक हवाई अड्डा (आईएटीए: UDR, आईसीएओ: VAUD) उदयपुर में स्थित एक घरेलू हवाई अड्डा है।",
       "topic": "राजस्थान का परिवहन",
       "topicId": 14
     },
@@ -3679,27 +3091,6 @@
       "topicId": 14
     },
     {
-      "id": "rg_010764",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "राजस्थान राज्य पथ परिवहन निगम का स्थापना वर्ष है -",
-      "options": [
-        "1960",
-        "1964",
-        "1968",
-        "1972"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
       "id": "rg_010765",
       "source": "RajasthanGyan",
       "sourceTopicId": 146,
@@ -3714,27 +3105,6 @@
         "2008"
       ],
       "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010766",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "मुख्यमंत्री सड़क योजना के प्रारंभ होने का वर्ष है -",
-      "options": [
-        "2000",
-        "2005",
-        "2008",
-        "2015"
-      ],
-      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -3798,27 +3168,6 @@
         "अजमेर जंक्शन"
       ],
       "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान का परिवहन",
-      "topicId": 14
-    },
-    {
-      "id": "rg_010770",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 146,
-      "sourceTopic": "राजस्थान में परिवहन",
-      "masterTopicId": 14,
-      "masterTopic": "राजस्थान का परिवहन",
-      "question": "पश्चिमी रेलवे क्षेत्रीय प्रशिक्षण केन्द्र स्थित है -",
-      "options": [
-        "उदयपुर में",
-        "जयपुर में",
-        "अजमेर में",
-        "कोटा में"
-      ],
-      "answer": "A",
       "exam": null,
       "year": null,
       "explanation": null,

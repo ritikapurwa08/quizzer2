@@ -127,7 +127,26 @@ export default function ResultsPage() {
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  const [pdfTheme, setPdfTheme] = useState<"dark" | "light">("dark");
+  const [pdfTheme, setPdfTheme] = useState<"dark" | "light">("light");
+  const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
+
+  useEffect(() => {
+    if (data && (!data.questions || data.questions.length === 0)) {
+      fetch(`/api/sets/${id}`)
+        .then((res) => res.json())
+        .then((json) => {
+          if (json.success && json.set?.questions) {
+            setLocalSetQuestions(json.set.questions);
+          }
+        })
+        .catch((e) => console.error("Local set fetch error:", e));
+    }
+  }, [data, id]);
+
+  const resolvedQuestions =
+    data?.questions && data.questions.length > 0
+      ? data.questions
+      : localSetQuestions;
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
@@ -140,8 +159,8 @@ export default function ResultsPage() {
   // Derived: filtered questions with their original indices.
   const filteredQuestionsWithIndex = useMemo(() => {
     if (!data) return [];
-    const { attempt, questions } = data;
-    return (questions || [])
+    const { attempt } = data;
+    return (resolvedQuestions || [])
       .map((q, i) => {
         const answer = (attempt.answers || []).find((a) => a.questionId === q._id);
         const badge = !answer ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
@@ -152,7 +171,7 @@ export default function ResultsPage() {
         if (reviewFilter === "incorrect") return badge === "incorrect";
         return true; // "all"
       });
-  }, [data, reviewFilter]);
+  }, [data, resolvedQuestions, reviewFilter]);
 
   // Formatted evaluated questions for the publication-grade PDF report
   const evaluatedQuestions = useMemo(() => {
@@ -240,8 +259,8 @@ export default function ResultsPage() {
     );
   }
 
-  const { attempt, questions } = data;
-  const questionsList = questions || [];
+  const { attempt } = data;
+  const questionsList = resolvedQuestions || [];
   const answersList = attempt?.answers || [];
   const correctCount = answersList.filter((a) => a.isCorrect).length;
   const incorrectCount = answersList.filter((a) => !a.isCorrect).length;
@@ -373,26 +392,15 @@ export default function ResultsPage() {
             Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
           </p>
 
-          {/* Action buttons: Retake Test, Direct Print, Dark/Light Mode Toggle, Mistakes sheet, Next Set */}
+          {/* Action buttons: Print PDF, Theme Toggle, Mistakes Sheet, Next Set/Retake */}
           <div className="flex flex-col items-center gap-3">
             <div className="flex flex-wrap items-center justify-center gap-2.5">
-              <Button
-                asChild
-                variant="outline"
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-              >
-                <Link href={`/quiz/${id}`}>
-                  <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-                  Retake Test
-                </Link>
-              </Button>
-
               {/* Direct Print / Save PDF Button */}
               <Button
                 type="button"
                 onClick={() => handlePrint()}
                 className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
-                title={`Print / Save: ${suggestedFileName}.pdf (${pdfTheme === "dark" ? "Dark Report" : "Light Ink-Saver"})`}
+                title={`Print / Save: ${suggestedFileName}.pdf (${pdfTheme === "light" ? "Light Ink-Saver" : "Dark Report"})`}
               >
                 <Printer className="h-3.5 w-3.5" />
                 Print / Save PDF
@@ -406,20 +414,6 @@ export default function ResultsPage() {
               >
                 <button
                   type="button"
-                  onClick={() => setPdfTheme("dark")}
-                  className={cn(
-                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
-                    pdfTheme === "dark"
-                      ? "bg-card text-foreground shadow-xs border border-border/60"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="Dark PDF Report (Default zinc theme)"
-                >
-                  <Moon className="h-3 w-3" />
-                  <span>Dark</span>
-                </button>
-                <button
-                  type="button"
                   onClick={() => setPdfTheme("light")}
                   className={cn(
                     "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
@@ -431,6 +425,20 @@ export default function ResultsPage() {
                 >
                   <Sun className="h-3 w-3" />
                   <span>Light</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPdfTheme("dark")}
+                  className={cn(
+                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
+                    pdfTheme === "dark"
+                      ? "bg-card text-foreground shadow-xs border border-border/60"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                  title="Dark PDF Report"
+                >
+                  <Moon className="h-3 w-3" />
+                  <span>Dark</span>
                 </button>
               </div>
 
@@ -471,12 +479,23 @@ export default function ResultsPage() {
                   </Link>
                 </Button>
               )}
+
+              <Button
+                asChild
+                variant="outline"
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
+              >
+                <Link href={`/quiz/${id}`}>
+                  <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+                  Retake Test
+                </Link>
+              </Button>
             </div>
 
             {suggestedFileName && (
               <span className="text-[10.5px] text-muted-foreground font-medium flex items-center gap-1">
                 Save as: <code className="bg-muted px-1.5 py-0.5 rounded text-foreground font-mono font-semibold">{suggestedFileName}.pdf</code>
-                <span className="text-muted-foreground/60 text-[9.5px]">({pdfTheme === "dark" ? "Dark Theme" : "Light Ink-Saver"})</span>
+                <span className="text-muted-foreground/60 text-[9.5px]">({pdfTheme === "light" ? "Light Ink-Saver" : "Dark Theme"})</span>
               </span>
             )}
           </div>
@@ -484,7 +503,7 @@ export default function ResultsPage() {
 
         {/* ── Question Review section (screen interactive list) ── */}
         <div className="space-y-4">
-          {/* Header row: title + count + filter + print shortcut */}
+          {/* Header row: title + count + filter */}
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
             <div className="flex items-center gap-3 flex-wrap">
               <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
@@ -501,24 +520,6 @@ export default function ResultsPage() {
                 onChange={setReviewFilter}
                 counts={filterCounts}
               />
-
-              <Button
-                type="button"
-                variant="outline"
-                size="sm"
-                onClick={() => handlePrint()}
-                className="h-8 text-xs font-semibold rounded-lg gap-1.5 text-muted-foreground hover:text-foreground hover:bg-muted/80 cursor-pointer"
-                title="Print current review list"
-              >
-                <Printer className="h-3.5 w-3.5" />
-                <span className="hidden sm:inline">
-                  {reviewFilter === "all"
-                    ? "Print All"
-                    : reviewFilter === "incorrect"
-                    ? "Print Mistakes"
-                    : "Print Correct"}
-                </span>
-              </Button>
             </div>
           </div>
 

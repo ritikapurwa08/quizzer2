@@ -1,7 +1,7 @@
 {
   "masterTopicId": 40,
   "masterTopic": "राजस्थानी मुहावरे एवं लोकोक्तियाँ",
-  "totalAvailable": 82,
+  "totalAvailable": 81,
   "questions": [
     {
       "id": "rg_015529",
@@ -1675,27 +1675,6 @@
         "यहाँ दाल नहीं गलेगी",
         "सब संभव है",
         "सफलता निश्चित है"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थानी मुहावरे एवं लोकोक्तियाँ",
-      "topicId": 40
-    },
-    {
-      "id": "rg_015609",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 646,
-      "sourceTopic": "राजस्थानी मुहावरे,कहावतें और लोकोक्तियाँ",
-      "masterTopicId": 40,
-      "masterTopic": "राजस्थानी मुहावरे एवं लोकोक्तियाँ",
-      "question": "“आँख्याँ देखी परसराम, कदे न झूठी होय” का सही अर्थ क्या है?",
-      "options": [
-        "ुनी-सुनाई बात",
-        "प्रत्यक्ष देखी बात सत्य होती है",
-        "कल्पना सत्य होती है",
-        "अनुमान सही होता है"
       ],
       "answer": "B",
       "exam": null,

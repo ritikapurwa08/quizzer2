@@ -1,7 +1,7 @@
 {
   "masterTopicId": 36,
   "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-  "totalAvailable": 377,
+  "totalAvailable": 314,
   "questions": [
     {
       "id": "rg_009907",
@@ -886,27 +886,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_009917",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का कौन-सा प्रसिद्ध नृत्य 2010 में यूनेस्को सूची में सम्मिलित किया गया था?",
-      "options": [
-        "घूमर",
-        "वालर",
-        "कालबेलिया",
-        "भवाई"
-      ],
-      "answer": "C",
-      "exam": "वाहन चालक सीधी भर्ती-",
-      "year": 2024,
-      "explanation": "कालबेलिया नृत्य को 2010 में यूनेस्को की अमूर्त सांस्कृतिक धरोहर सूची में शामिल किया गया।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_009918",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -1008,27 +987,6 @@
       "exam": "CHEMIST(ARCHIVES DEPT.) COMP. EXAM -",
       "year": 2024,
       "explanation": "गवरी/राई नृत्य सावन-भादो में किया जाता हैै। यह पुरूष प्रधान लोक नृत्य है। इसकी शुरुआत एक अनुष्ठान से होती है जिसमें देवी पार्वती को भीलों की बहन के रूप में जोड़ा जाता है। माता पार्वती के पात्र गौरी के कारण इसका नाम गवरी पडा, माता पार्वती के पात्र को राई कहते है। शिव को पुरिया / बुढिया (नृत्य का मुख्य पात्र) कहते है। झामट्या नाम का पात्र - कविता बोलता है उसे दोहराने वाला पात्र खटकडिया कहलाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_009953",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का शिकार नृत्य संबंधित है",
-      "options": [
-        "हरिया",
-        "गरासिया",
-        "कालबेलिया",
-        "भील"
-      ],
-      "answer": "C",
-      "exam": "REET- PL-2 (LEVEL-2) SHIFT-3",
-      "year": 2024,
-      "explanation": "शिकारी नृत्य सहरिया का व्यक्तिगत नृत्य है। यह बारां जिले का प्रसिद्ध लोक नृत्य है।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -1285,48 +1243,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010004",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गींदड़ नृत्य का संबंध राजस्थान के किस क्षेत्र से है? (निम्न में से सबसे उपयुक्त विकल्प चुनेः)",
-      "options": [
-        "मारवाड़",
-        "शेखावाटी",
-        "बाड़मेर",
-        "मेवाड़"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 24 October Shift-I",
-      "year": 2024,
-      "explanation": "गींदड़ राजस्थान के शेखावाटी अंचल का एक प्रसिद्ध लोकनृत्य है। इसका आयोजन होली के पर्व पर किया जाता है। यह गुजरात के गरबा नृत्य से काफी हद तक मिलता–जुलता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010005",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "‘कच्ची घोड़ी’ नृत्य किस अवसर से संबंधित है?निम्न में से सबसे उपयुक्त विकल्प चुनें।",
-      "options": [
-        "तीज",
-        "विवाह",
-        "नवरात्र",
-        "होली"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level) 22 October Shift-II",
-      "year": 2024,
-      "explanation": "कच्छी घोड़ी लोकनृत्य का उद्भव शेखावाटी में माना जाता है। जो मुख्यतः शादियों और खुशी के अन्य अवसरों पर प्रस्तुत किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010006",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -1407,48 +1323,6 @@
       "exam": "CET (Graduate) 27 September Shift-1",
       "year": 2024,
       "explanation": "कूचामणी ख्याल प्रसिद्ध लोक नाट्यकार लच्छी राम द्वारा शुरू किया गया था। इसमें ढोल, सारंगी, शहनाई और ढोलक मुख्य वाद्य होते हैं। चाँद नीलगिरी, राव रिदमल और मीरा मंगल इसके प्रमुख ख्याल हैं। यह एक खुले मंच पर किया जाता है। इस प्रदर्शन में पर्दे का उपयोग नहीं किया जाता है, इसलिए विकल्प c गलत है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010010",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से किस प्रसिद्ध कलाकार ने भारत उत्सव में ‘बहरूपिया कला’ में राजस्थान का प्रतिनिधित्व किया?",
-      "options": [
-        "अमर सिंह राठीड़",
-        "जय सिंह राठीड़",
-        "जमना लाल भट्ट",
-        "जानकी लाल भांड"
-      ],
-      "answer": "D",
-      "exam": "CET (Graduate) 27 September Shift-1",
-      "year": 2024,
-      "explanation": "जानकी लाल भांड ने ‘बहरूपिया कला’ में राजस्थान का प्रतिनिधित्व किया। बहरूपिया कला राजस्थान की लोककला का महत्वपूर्ण हिस्सा है, जिसमें कलाकार विभिन्न वेशभूषा और चरित्रों में प्रस्तुत होते हैं।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010011",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "UNESCO ने किस वर्ष में कालबेलिया नृत्य को अपनी अमूर्त सांस्कृतिक विरासत सूची में सम्मिलित किया है -",
-      "options": [
-        "2011",
-        "2010",
-        "2008",
-        "2009"
-      ],
-      "answer": "B",
-      "exam": "Hostel Supt(Minority Affairs)",
-      "year": 2024,
-      "explanation": "राजस्थान के प्रसिद्ध कालबेलिया नृत्य को 2010 में UNESCO की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया था।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -2020,48 +1894,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010020",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से कौनसे क्षेत्र में रतवाई लोकगीत गाए जाते हैं -",
-      "options": [
-        "मेवाड़",
-        "मेवाती",
-        "रामदी",
-        "हाड़ौती"
-      ],
-      "answer": "B",
-      "exam": "Computor Exam",
-      "year": 2023,
-      "explanation": "रतवई नृत्य मेवात क्षेत्र में लोकप्रिय है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010021",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "“गीदड़ नृत्य” राजस्थान के कौन से क्षेत्र में किया जाता है -",
-      "options": [
-        "ागड़",
-        "हाड़ोती",
-        "शेखावाटी",
-        "मेवाड़"
-      ],
-      "answer": "C",
-      "exam": "Junior Accountant & Tehsil Revenue Accountant Exam (Paper 1)",
-      "year": 2023,
-      "explanation": "गीदड़ नृत्य राजस्थान का प्रसिद्ध लोक नृत्य है। यह नृत्य राजस्थान के शेखावटी क्षेत्र में प्रसिद्ध है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010022",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -2121,48 +1953,6 @@
       "exam": "CET (12th Level)05 February Shift-2",
       "year": 2023,
       "explanation": "रम्मत लोकनाट्य बीकानेर का है। इस नाटक की उत्पत्ति लगभग 140 वर्ष पूर्व बीकानेर क्षेत्र में एक लोक-कविता प्रतियोगिता के माध्यम से हुई थी। इस प्रकार का नाटक अधिकतर बीकानेर, जैसलमेर और फलौदी क्षेत्रों में किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010040",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "प्रसिद्ध ‘बम नृत्य’ राज्य के किस जिले से सम्बन्धित है -",
-      "options": [
-        "जयपुर",
-        "भरतपुर",
-        "बीकानेर",
-        "जालौर"
-      ],
-      "answer": "B",
-      "exam": "CET (12th Level)05 February Shift-2",
-      "year": 2023,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010041",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "‘तेरहताली’ नृत्य लोक देवता की स्तुति में किया जाता है -",
-      "options": [
-        "मल्लीनाथजी",
-        "तेजाजी",
-        "रामदेवजी",
-        "गोगाजी"
-      ],
-      "answer": "C",
-      "exam": "CET (12th Level) 05 February Shift-1",
-      "year": 2023,
-      "explanation": "लोक देवता रामदेवजी की स्तुति में ‘तेरहताली’ नृत्य किया जाता है। यह राजस्थान का प्रसिद्ध लोकनृत्य है।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -2356,27 +2146,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010019",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "पुरुषों और महिलाओं द्वारा किया जाने वाला निम्नलिखित में से कौन सा नृत्य सिरोही क्षेत्र के गरासिया जनजाति का प्रसिद्ध नृत्य है -",
-      "options": [
-        "तेरह ताली नृत्य",
-        "अग्नि नृत्य",
-        "वालर नृत्य",
-        "बम नृत्य"
-      ],
-      "answer": "C",
-      "exam": "Assistant Engineer - Civil (Local Self Govt. Deptt.) Comp. Exam -",
-      "year": 2022,
-      "explanation": "वालर, राजस्थान की गरासिया आदिवासी जनजाति का एक सुंदर और उत्साही नृत्य है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010025",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -2419,48 +2188,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010027",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "चार बैंत ____ का प्रसिद्ध लोक नाटक है।",
-      "options": [
-        "जैसलमेर",
-        "कोटा",
-        "ौसा",
-        "टोंक"
-      ],
-      "answer": "D",
-      "exam": "RPSC EO/ RO Exam Shift-2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010028",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गींदड नृत्य किस क्षेत्र से संबंधित है -",
-      "options": [
-        "शेखावटी",
-        "बाड़मेर",
-        "मेवाड़",
-        "मारवाड़"
-      ],
-      "answer": "A",
-      "exam": "RPSC EO/ RO Exam Shift-2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010029",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -2476,27 +2203,6 @@
       ],
       "answer": "B",
       "exam": "Senior Physical Education Teacher Exam - (Paper-I GK And Others)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010030",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान के किस सम्प्रदाय में पुरुषों द्वारा अग्नि नृत्य किया जाता है -",
-      "options": [
-        "जसनाथी सिद्ध",
-        "रामस्नेही सम्प्रदाय",
-        "बिश्नोई सम्प्रदाय",
-        "दादूपंथ"
-      ],
-      "answer": "A",
-      "exam": "Sr. Teacher Gr II Comp. Exam - (Sanskrit Edu.) Group B",
       "year": 2022,
       "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
@@ -2713,27 +2419,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010052",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गिरासिया जनजाति का प्रमुख नृत्य कौन-सा है -",
-      "options": [
-        "गैर नृत्य",
-        "गवरी नृत्य",
-        "वालर नृत्य",
-        "घुडला नृत्य"
-      ],
-      "answer": "C",
-      "exam": "3rd Grade Teacher Sanskrit L2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010053",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -2772,27 +2457,6 @@
       "exam": "3rd Grade Teacher Hindi L2",
       "year": 2022,
       "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010055",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान राज्य का आधिकारिक नृत्य है -",
-      "options": [
-        "कठपुतली",
-        "गैर",
-        "घूमर",
-        "भवई"
-      ],
-      "answer": "C",
-      "exam": "3rd Grade Teacher L1",
-      "year": 2022,
-      "explanation": "घूमर नृत्य राजस्थान का नृत्य रूप है जो सबसे पहले भील जनजाति नामक एक आदिवासी समूह द्वारा देवी सरस्वती की पूजा करने के लिए किया जाता था। यह राजस्थान का राजकीय नृत्य है।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -3385,27 +3049,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010105",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "वर्ष 2010 से यूनेस्को की मानवता की सांस्कृतिक विरासत की सूची में कौन-सा नृत्य शामिल किया गया है -",
-      "options": [
-        "कालबेलिया",
-        "कच्ची घोड़ी",
-        "भवाई",
-        "घूमर"
-      ],
-      "answer": "A",
-      "exam": "Police Constable Exam (02 July ) (Re Exam)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010106",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -3679,27 +3322,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010113",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "“गींदड़ नृत्य” राजस्थान के किस क्षेत्र में किया जाता है -",
-      "options": [
-        "हाड़ौती",
-        "बागड़",
-        "शेखावटी",
-        "मेवाड़"
-      ],
-      "answer": "C",
-      "exam": "Police SI 13 September (Gk)",
-      "year": 2021,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010117",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -3805,27 +3427,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010123",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "लोकनाट्य चारबैत किस शहर से संबंधित है -",
-      "options": [
-        "भरतपुर",
-        "टोंक",
-        "उदयपुर",
-        "अलवर"
-      ],
-      "answer": "B",
-      "exam": "VDO Exam 1st Shift 27 Dec",
-      "year": 2021,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010130",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -3843,48 +3444,6 @@
       "exam": "Rajasthan Patwar (24 Oct ) 2nd shift",
       "year": 2021,
       "explanation": "चरी नृत्य अजमेर जिले के किशनगढ़ में किया जाता है। यह गुर्जर जाति का लोकप्रिय नृत्य है। इसमें नृत्यकार सिर पर चरी रखकर तथा सबसे ऊपर की चरी में काकड़ा (कपास) के बीज में तेल डालकर आग लगता है तथा नृत्य प्रदर्शित करता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010131",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान में, निम्न में से कौन सा नृत्य केवल पुरुषों द्वारा किया जाता है -",
-      "options": [
-        "कत्थक",
-        "घूमर",
-        "कच्छी घोड़ी",
-        "तेरह ताली"
-      ],
-      "answer": "C",
-      "exam": "Rajasthan Patwar (24 Oct ) 1st shift",
-      "year": 2021,
-      "explanation": "राजस्थान में, कच्छी घोड़ी नृत्य केवल पुरुषों द्वारा किया जाता है। केवल धोती-कुर्ता और पगड़ी पहने और विस्तृत रूप से सजाए गए डमी घोड़े की सवारी करने वाले पुरुष ही इस नृत्य को करते हैं, जो शौर्य और बहादुरी का प्रतीक है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010132",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गरासिया जनजाति द्वारा किया जाने वाला नृत्य है -",
-      "options": [
-        "वालर",
-        "शंकरिया",
-        "घुड़ला",
-        "पणिहारी"
-      ],
-      "answer": "A",
-      "exam": "Rajasthan Patwar (23 Oct ) 2nd shift",
-      "year": 2021,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -3910,27 +3469,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010146",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "तेरहताली नृत्य में किस लोकदेवता का यशोगान किया जाता है -",
-      "options": [
-        "तेजाजी",
-        "रामदेवजी",
-        "ेवनारायणजी",
-        "पाबूजी"
-      ],
-      "answer": "B",
-      "exam": "VDO Exam 2nd Shift 28 Dec",
-      "year": 2021,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010149",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -3948,48 +3486,6 @@
       "exam": "Stenographer Pre Exam (21 March ) (Paper I)",
       "year": 2021,
       "explanation": "राजस्थान का प्रसिद्ध लोकनृत्य कालबेलिया नृत्य को ही आमतौर पर ‘स्नैक चार्मर डांस’ के नाम से जाना जाता है। इस नृत्य का संबंध कालबेलिया जनजाति से है, जो परंपरागत रूप से साँप पकड़ने और उनके जहर को निकालने का काम करती थी।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010152",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से कौन से लोक नृत्य में किसी वाद्य यंत्र का प्रयोग नहीं होता है -",
-      "options": [
-        "गवरी नृत्य",
-        "बम नृत्य",
-        "अग्नि नृत्य",
-        "वालर नृत्य"
-      ],
-      "answer": "D",
-      "exam": "RPSC ACF FRO",
-      "year": 2021,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010153",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "अल बक्षी खयाल कौन से क्षेत्र में प्रचलित लोक नाट्य शैली है -",
-      "options": [
-        "करौली",
-        "चिड़ावा",
-        "अलवर",
-        "चित्तौड़"
-      ],
-      "answer": "C",
-      "exam": "RPSC ACF FRO",
-      "year": 2021,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -4015,27 +3511,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010081",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "तेरहताली नृत्य किस देवता को समर्पित है -",
-      "options": [
-        "जंभोजी",
-        "गोगाजी",
-        "तेजाजी",
-        "रामदेवजी"
-      ],
-      "answer": "D",
-      "exam": "Forester Exam Shift 2",
-      "year": 2020,
-      "explanation": "तेरहताली नृत्य रामदेवजी को समर्पित है। तेरह ताली नृत्य जटिल नृत्यों में से एक है और साथ ही राजस्थान का एक उत्कृष्ट लोक नृत्य है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010082",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -4051,27 +3526,6 @@
       ],
       "answer": "B",
       "exam": "ASSISTANT PROFESSOR (COLLEGE EDUCATION DEPTT.) EXAM",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010124",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान के निम्नलिखित में से किस लोक नृत्य को यूनेस्को (UNESCO) द्वारा विरासत सूची में सूचीबद्ध किया गया है?",
-      "options": [
-        "भवई नृत्य",
-        "तेराताली नृत्य",
-        "घूमर नृत्य",
-        "कालबेलिया नृत्य"
-      ],
-      "answer": "D",
-      "exam": "Raj Police Constable Exam (8 Nov S-1)",
       "year": 2020,
       "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
@@ -4204,48 +3658,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010024",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "कुचामनी ख्याल के प्रवर्तक कौन थे -",
-      "options": [
-        "लच्छीराम",
-        "अली बक्श",
-        "नानूराम",
-        "दुलिया राणा"
-      ],
-      "answer": "A",
-      "exam": "Veterinary Officer Exam",
-      "year": 2019,
-      "explanation": "कुचामनी ख्याल के प्रवर्तक लच्छीराम है। इनमें पुरुष पात्र ही स्त्री चरित्र का अभिनय करते हैं। इनमें नर्तक ही गाना गाते हैं। कुचामणि ख्याल का रूप एक संगीत नाटक या ओपेरा की तरह है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010204",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से कौनसी राजस्थान की लोक नाट्य(नृत्य) शैली नहीं है -",
-      "options": [
-        "्वांग",
-        "रम्मत",
-        "ढाडी",
-        "ख्याल"
-      ],
-      "answer": "C",
-      "exam": "JSA Toxicology-(Rajasthan Gk)",
-      "year": 2019,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010036",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -4305,27 +3717,6 @@
       "exam": "Junior Instructor (WC&S)",
       "year": 2018,
       "explanation": "जयपुर का रामप्रकाश थिएटर हिंदीभाषी प्रदेश का पहला नाटक भवन था जिसे महाराजा सवाई रामसिंह द्वितीय ने 1878 में बनवाया था।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010104",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान में लच्छीराम द्वारा किस ख्याल का प्रवर्तन किया गया -",
-      "options": [
-        "तुर्रा कलंगी ख्याल",
-        "शेखावाटी ख्याल",
-        "जयपुरी ख्याल",
-        "कुचामनी ख्याल"
-      ],
-      "answer": "D",
-      "exam": "Computor Exam",
-      "year": 2018,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -4414,27 +3805,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010205",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "तुर्रा और कलंगी लोकनाट्य में तुर्रा और कलंगी प्रतीक हैं -",
-      "options": [
-        "कृष्ण और रूक्मणी के",
-        "राम और सीता के",
-        "राजा और रानी के",
-        "शिव और पार्वती के"
-      ],
-      "answer": "D",
-      "exam": "College Lecturer (Sarangi Instrument) Exam (G.K.)",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010206",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -4515,27 +3885,6 @@
       "exam": "Supervisor (women empowerment) Exam",
       "year": 2018,
       "explanation": "पणिहारी नृत्य- महिला व पुरूष दोनों द्वारा युगल रूप में किया जाने वाला नृत्य है। यह नृत्य कालबेलिया जाति के स्त्री-पुरुषों द्वारा किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010220",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान के निम्नलिखित में से किस शहर में होली के दौरान ‘रम्मत’ का आयोजन किया जाता है -",
-      "options": [
-        "करौली",
-        "जोधपुर",
-        "जैसलमेर",
-        "बीकानेर"
-      ],
-      "answer": "D",
-      "exam": "Agriculture Supervisor Exam",
-      "year": 2018,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -4645,69 +3994,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010245",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान में लच्छीराम द्वारा किस ख्याल का प्रवर्तन किया गया -",
-      "options": [
-        "शेखावटी ख्याल",
-        "जयपुरी ख्याल",
-        "कुचामनी ख्याल",
-        "तुर्रा कलंगी ख्याल"
-      ],
-      "answer": "C",
-      "exam": "Computor Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010154",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का कौनसा नृत्य रूप 2010 में यूनेस्को की अमूर्त सांस्कृतिक धरोहर में सम्मिलित किया गया है -",
-      "options": [
-        "गींदड़",
-        "कालबेलिया",
-        "भवाई",
-        "कच्छी घोड़ी"
-      ],
-      "answer": "B",
-      "exam": "Reet level-2 SST",
-      "year": 2017,
-      "explanation": "कालबेलिया को 2010 में यूनेस्को की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया था।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010144",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "‘बम-नृत्य’ कहां का प्रसिद्ध नृत्य है -",
-      "options": [
-        "अलवर-भरतपुर",
-        "जैसलमेर-बाड़मेर",
-        "जयपुर-अजमेर",
-        "उदयपुर-सिरोही"
-      ],
-      "answer": "A",
-      "exam": "Gram Sevak",
-      "year": 2016,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010234",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -4767,111 +4053,6 @@
       "exam": "Asstt. Agriculture Officer(TSP) Exam Paper 1",
       "year": 2015,
       "explanation": "तेरहताली नृत्य(Terahtali Nritya) पाली व रामदेवरा (जैसलमेर) का प्रसिद्ध है। तेरहताली नृत्य का उद्गम पादरला गाँव (पाली) में हुआ। यह कामड़ जाति के द्वारा रामदेव जी की आराधना में आयोजित किया जाता है। यह नृत्य केवल महिलाओं द्वारा बैठकर किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010232",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "नृत्य, जो सरगड़ा और भील समुदाय के पुरूषों द्वारा विवाह के अवसर पर किया जाता है -",
-      "options": [
-        "अग्निनृत्य",
-        "गींदड़नृत्य",
-        "बम नृत्य",
-        "ढोल नृत्य"
-      ],
-      "answer": "D",
-      "exam": "Asstt. Agriculture Officer(TSP) Exam Paper 1",
-      "year": 2015,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010233",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "ख्याल, जो संत पीर शाहवली और तुकनगीर ने मेवाड़ क्षेत्र में रचा -",
-      "options": [
-        "ख्याल भारमली",
-        "चांद नीलगिरी",
-        "तुर्रा कलंगी",
-        "मीरा मंगल"
-      ],
-      "answer": "C",
-      "exam": "Asstt. Agriculture Officer(TSP) Exam Paper 1",
-      "year": 2015,
-      "explanation": "मेवाड़ की शाहली और तुकनगरी नाम के संत पीर ने 400 साल पहले तुर्रा कलंगी की रचना की थी। तुर्रा को ‘शिव’ का प्रतीक माना जाता है और कलंगी को ‘पार्वती’ का प्रतीक माना जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010242",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "वालर नृत्य किस जनजाति का नृत्य माना जाता है -",
-      "options": [
-        "हरिया",
-        "गरासिया",
-        "कालबेलिया",
-        "भील"
-      ],
-      "answer": "B",
-      "exam": "Sr Teacher Gr II Special Edu. Comp. Exam (G.K.)",
-      "year": 2015,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010248",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "नृत्य, जिसमें किसी भी वाद्य यंत्र का उपयोग संगत के लिए नहीं किया जाता है -",
-      "options": [
-        "वालर नृत्य",
-        "घूमर नृत्य",
-        "चंग नृत्य",
-        "तेरहताली नृत्य"
-      ],
-      "answer": "A",
-      "exam": "Asstt. Agriculture Officer Exam Paper 1",
-      "year": 2015,
-      "explanation": "वालर नृत्य बिना किसी वाद्य यंत्र के अत्यन्त धीमी गति से किया जाता है। इसमें नर्तकों द्वारा ताल पर सरल गोलाकार गतियां शामिल होती हैं।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010254",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "मुगल सम्राट शाहजहां के समय से ही प्रसिद्ध “नाहर नृत्य” की खेलने परम्परा कहां प्रचलित है-",
-      "options": [
-        "माण्डल",
-        "चौमू",
-        "चाकसू",
-        "किशनगढ़"
-      ],
-      "answer": "A",
-      "exam": "Patwar Main Exam",
-      "year": 2015,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -4977,27 +4158,6 @@
       "exam": "RPSC LDC Exam Paper I",
       "year": 2011,
       "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010077",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "कुचामनी ख्याल के प्रवर्तक हैं -",
-      "options": [
-        "नानू राम",
-        "तेज कवि",
-        "शाह अली",
-        "लच्छीराम"
-      ],
-      "answer": "D",
-      "exam": "Head Master (Sanskrit Edu.) - 20211 (PAPER-I)",
-      "year": null,
-      "explanation": "कुचामनी ख्याल के प्रवर्तक लच्छीराम है। इनमें पुरुष पात्र ही स्त्री चरित्र का अभिनय करते हैं। इसके प्रमुख कलाकार चेतराम, हमीद बेग, ताराचन्द हैं। इनमें नर्तक ही गाना गाते हैं।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -5191,48 +4351,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010223",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "जयपुर में रामप्रकाश थियेटर की स्थापना किस महाराजा के काल में हुई -",
-      "options": [
-        "महाराजा विजय सिंह",
-        "महाराजा मानसिंह",
-        "महाराजा ईश्वरीसिंह",
-        "महाराजा रामसिंह-2"
-      ],
-      "answer": "D",
-      "exam": "Raj Jail Warder (27-10-18) Shift 3",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010224",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "नृत्य जो केवल पुरूषों द्वारा किया जाता है -",
-      "options": [
-        "घूमर",
-        "तेरहताली",
-        "कच्छी घोड़ी",
-        "कत्थक"
-      ],
-      "answer": "C",
-      "exam": "Raj Jail Warder (27-10-18) Shift 1",
-      "year": null,
-      "explanation": "कच्छी घोड़ी नृत्य शेखावाटी, कुचामन, परबतसर, डीडवाना आदि क्षेत्रों में विवाह व व्यावसायिक मनोरंजन हेतु किया जाने वाला प्रसिद्ध लोगनृत्य है। इसमें नर्तक कागज की लुगदी अथवा बांस का नकली घोडा अपनी कमर पर बाँध कर दूल्हे का वेश बना हाथ में नकली तलवार लिए नकली लड़ाई का स्वांग करता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010225",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -5248,27 +4366,6 @@
       ],
       "answer": "B",
       "exam": "Raj Jail Warder (21-10-18) Shift 3",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010226",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "भीलों का प्रसिद्ध लोक नाट्य कौनसा है -",
-      "options": [
-        "्वांग",
-        "रम्मत",
-        "तमाशा",
-        "गवरी"
-      ],
-      "answer": "D",
-      "exam": "Raj Jail Warder (21-10-18) Shift 2",
       "year": null,
       "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
@@ -5313,27 +4410,6 @@
       "exam": "Raj Jail Warder (20-10-18) Shift 2",
       "year": null,
       "explanation": "वालर नृत्य गणगौर के दिनों में महिला पुरुष द्वारा प्रदर्शित किया जाता है। इस नृत्य का प्रारम्भ पुरूष द्वारा हाथ में तलवार/छाता लेकर, वाद्ययंत्र के बिना, धीमी गति से किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010230",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से राजस्थान के किस क्षेत्र से अलीबख्श ख्याल सम्बद्ध है -",
-      "options": [
-        "अलवर",
-        "करौली",
-        "चित्तौड़",
-        "चिडावा"
-      ],
-      "answer": "A",
-      "exam": "Raj Jail Warder (20-10-18) Shift 1",
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -5800,48 +4876,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010115",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "मुगल सम्राट शाहजहां के समय से ही प्रसिद्ध ‘नाहर नृत्य’ की खेलने की परम्परा कहां प्रचलित है -",
-      "options": [
-        "माण्डल",
-        "चौमू",
-        "चाकसू",
-        "किशनगढ़"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010116",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान के लोक नृत्य एवं उसके प्रचलन क्षेत्र के संबंध में निम्नलिखत में कौनसा युग्म सही नहीं है -",
-      "options": [
-        "गींदड़ नृत्य - शेखावाटी",
-        "ढोल नृत्य - जालौर",
-        "बमरसिया नृत्य - बीकानेर",
-        "डांडिया नृत्य - मारवाड़"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010122",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -5905,27 +4939,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010134",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से कौन सा नृत्य जसनाथी संप्रदाय अनुयायियों द्वारा किया जाता है -",
-      "options": [
-        "अग्नि नृत्य",
-        "घूमर नृत्य",
-        "बम नृत्य",
-        "ढोल नृत्य"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010135",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -5961,27 +4974,6 @@
         "1 - A, 2 - C, 3 - B"
       ],
       "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010137",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गींदड़ नृत्य राजस्थान के किस क्षेत्र का लोक नृत्य है -",
-      "options": [
-        "मारवाड़",
-        "शेखावाटी",
-        "मेवाड़",
-        "कोटा"
-      ],
-      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -6069,27 +5061,6 @@
       "exam": null,
       "year": null,
       "explanation": "स्त्री-पुरुषों द्वारा किये जाने वाला वालर/वालार सिरोही क्षेत्र के गरासियों का प्रसिद्ध नृत्य है। इस धीमी गति के नृत्य में किसी वाद्य का प्रयोग नहीं होता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010142",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का निम्नलिखित में से कौन सा नृत्य यूनेस्को की अमूर्त सांस्कृतिक विरासत में सूचीबद्ध है -",
-      "options": [
-        "चारी",
-        "भवाई",
-        "कालबेलिया",
-        "इनमे से कोई भी नहीं"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": "राजस्थान के कालबेलिया नृत्य रूप को UNESCO की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया है। इसे सपेरा डांस या स्नेक चार्मर डांस के नाम से जाना जाता है। यह मुख्य रूप से कालबेलिया नामक राजस्थानी जनजाति द्वारा किया जाता है। यह वर्ष 2010 से मानवता की अमूर्त सांस्कृतिक विरासत की UNESCO की प्रतिनिधि सूची के अंतर्गत सूचीबद्ध है।",
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -6199,27 +5170,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010163",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "मेवाड़ के अरावली क्षेत्र की भील जाति का लोकनाट्य है -",
-      "options": [
-        "गन्धर्व",
-        "गवरी",
-        "भवाई",
-        "रम्मत"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010164",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -6279,48 +5229,6 @@
       "exam": null,
       "year": null,
       "explanation": "डांग नृत्य नाथ द्वारा (राजसमंद) को लोकप्रियय नृत्य है। होली के अवसर पर स्त्री व पुरूषों द्वारा किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010167",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "रम्मत नामक रंगमंच/नाट्य किस क्षेत्र से संबंधित है -",
-      "options": [
-        "भरतपुर",
-        "मेवाड़",
-        "बीकानेर",
-        "धौलपुर व करौली"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010168",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "ख्याल के जयपुर घराने के प्रवर्तक कौन थे -",
-      "options": [
-        "नसीरूद्दीन खां",
-        "ुल्लू खां",
-        "मनरंग",
-        "हररंग"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -6661,27 +5569,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010185",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गीदड़ नृत्य किस क्षेत्र का है -",
-      "options": [
-        "शेखावाटी",
-        "मारवाड़",
-        "मेवाड़",
-        "नाथद्वारा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010186",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -6997,27 +5884,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010210",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "भीलों का प्रसिद्ध लोक नाट्य कौन सा है -",
-      "options": [
-        "गवरी",
-        "्वांग",
-        "तमाशा",
-        "रम्मत"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010211",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -7161,27 +6027,6 @@
       "exam": null,
       "year": null,
       "explanation": "दौसा जिले के लालसोट में गणगौर पर 272 साल से हेला ख्याल दंगल की परंपरा है। हेला ख्याल दंगल अपनी अनूठी गायन शैली व लोक गायकी के लिए प्रसिद्ध है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010218",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्नलिखित में से राजस्थान के किस क्षेत्र से अलीबक्षी ख्याल सम्बद्ध है -",
-      "options": [
-        "करौली",
-        "चिड़ावा",
-        "अलवर",
-        "चित्तौड़"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     },
@@ -7438,27 +6283,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010261",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का शंकरिया नृत्य किससे संबंधित है?",
-      "options": [
-        "हरिया",
-        "भील",
-        "कालबेलिया",
-        "गरासिया"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010262",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -7480,27 +6304,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010263",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "निम्न में से कौन सा नृत्य कालबेलिया का नहीं है",
-      "options": [
-        "शंकरिया",
-        "चरी",
-        "चकरी",
-        "पणिहारी"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "चरी लोक नृत्य किशनगढ़ के गुर्जर समुदाय से संबंध रखता है और इस नृत्य में केवल महिलाएं ही प्रदर्शन करती हैं।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010264",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -7515,48 +6318,6 @@
         "तेरहताली"
       ],
       "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010265",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान के लोक नृत्य एवं उनके प्रचलन क्षेत्र के संबंध में निम्नलिखित में से कौन सा युग्म सही नहीं है",
-      "options": [
-        "गीदड़ नृत्य शेखावाटी",
-        "बम रसिया नृत्य बीकानेर",
-        "ढोल नृत्य जालोर",
-        "डांडिया नृत्य मारवाड़"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010266",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "गीदड़ नृत्य का संबंध किस क्षेत्र से क्षेत्र से है",
-      "options": [
-        "ढूंढाड़",
-        "शेखावाटी",
-        "हाडोती",
-        "मेवाड़"
-      ],
-      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -7641,27 +6402,6 @@
         "अजमेर"
       ],
       "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010271",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का शंकरिया नृत्य किससे संबंधित है?",
-      "options": [
-        "कालबेलिया",
-        "हरिया",
-        "भील",
-        "गुर्जर"
-      ],
-      "answer": "A",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -7816,27 +6556,6 @@
       "topicId": 36
     },
     {
-      "id": "rg_010279",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "‘बम नृत्य’ कहाँ का प्रसिद्ध नृत्य है -",
-      "options": [
-        "जयपुर - अजमेर",
-        "अलवर - भरतपुर",
-        "जैसलमेर - बाड़मेर",
-        "उदयपुर - सिरोही"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": "बमरसिया या ‘बम नृत्य’ राजस्थान के अलवर और भरतपुर क्षेत्र का प्रमुख लोक नृत्य है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
       "id": "rg_010280",
       "source": "RajasthanGyan",
       "sourceTopicId": 143,
@@ -7875,48 +6594,6 @@
       "exam": null,
       "year": null,
       "explanation": "बगड़िया नृत्य - यह नृत्य महिलाओं द्वारा केवल भीख मांगते समय किया जाता है।",
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010282",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राजस्थान का राज्य नृत्य कौन-सा हैं ?",
-      "options": [
-        "गरबा",
-        "गीदड़",
-        "घूमर",
-        "बम"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "topicId": 36
-    },
-    {
-      "id": "rg_010283",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 143,
-      "sourceTopic": "राजस्थान में नृत्य",
-      "masterTopicId": 36,
-      "masterTopic": "राजस्थान के लोक नृत्य एवं नाट्य",
-      "question": "राज्य का लोक नृत्य हैं -",
-      "options": [
-        "भांगड़ा",
-        "गरबा",
-        "छेहू",
-        "घूमर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान के लोक नृत्य एवं नाट्य",
       "topicId": 36
     }

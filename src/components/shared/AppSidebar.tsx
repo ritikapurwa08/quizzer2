@@ -22,6 +22,7 @@ import {
   Moon,
   Menu,
   X,
+  GitCompare,
 } from "lucide-react";
 import { api } from "../../../convex/_generated/api";
 import { cn } from "@/lib/utils";
@@ -38,6 +39,16 @@ interface NavItem {
   badge?: string | number;
 }
 
+// 5 items for mobile bottom nav bar (Saved Questions confirmed by user)
+const BOTTOM_NAV_ITEMS: NavItem[] = [
+  { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
+  { label: "Subjects", href: "/subjects", icon: BookOpen },
+  { label: "Analytics", href: "/analytics", icon: BarChart2, exact: true },
+  { label: "History", href: "/history", icon: History, exact: true },
+  { label: "Saved", href: "/saved-questions", icon: Bookmark },
+];
+
+// Full student nav for desktop sidebar & mobile slideover drawer
 const STUDENT_NAV_ITEMS: NavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
@@ -50,6 +61,7 @@ const STUDENT_NAV_ITEMS: NavItem[] = [
 const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Admin Overview", href: "/admin", icon: Shield, exact: true },
   { label: "Question Pool", href: "/admin/pool", icon: Database, exact: true },
+  { label: "Dedup Review", href: "/admin/dedup", icon: GitCompare, exact: true },
   { label: "Import Sets", href: "/admin/import", icon: FileUp, exact: true },
   { label: "Question Bank", href: "/admin/questions", icon: HelpCircle, exact: true },
 ];
@@ -76,7 +88,7 @@ export function AppSidebar() {
   const displayName = me?.name || me?.email?.split("@")[0] || "Student";
   const initials = displayName.slice(0, 2).toUpperCase();
 
-  // In active quiz session, hide mobile top bar to avoid double-stacking headers (Focus Mode)
+  // In active quiz session, hide mobile UI to avoid double-stacking headers (Focus Mode)
   const isQuizActive = Boolean(pathname?.startsWith("/quiz/") && !pathname?.includes("/results"));
 
   async function handleSignOut() {
@@ -304,6 +316,51 @@ export function AppSidebar() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* ── MOBILE BOTTOM NAVIGATION BAR (hidden on md and above, hidden in quiz) ── */}
+      {!isQuizActive && (
+        <nav
+          className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-border bg-card/95 backdrop-blur-md safe-bottom print:hidden"
+          aria-label="Mobile navigation"
+        >
+          <div className="flex items-center justify-around px-1 py-1">
+            {BOTTOM_NAV_ITEMS.map((item) => {
+              const active = isItemActive(item);
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    "flex flex-col items-center justify-center gap-0.5 px-2 py-1.5 rounded-xl min-w-0 flex-1 transition-all select-none",
+                    active
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                  aria-current={active ? "page" : undefined}
+                >
+                  <div
+                    className={cn(
+                      "p-1 rounded-lg transition-all",
+                      active ? "bg-foreground/10" : ""
+                    )}
+                  >
+                    <Icon className={cn("h-5 w-5 shrink-0", active ? "text-foreground" : "text-muted-foreground")} />
+                  </div>
+                  <span
+                    className={cn(
+                      "text-[10px] font-semibold truncate max-w-full",
+                      active ? "text-foreground" : "text-muted-foreground"
+                    )}
+                  >
+                    {item.label}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
       )}
 
       {/* ── DESKTOP PERSISTENT SIDEBAR ── */}

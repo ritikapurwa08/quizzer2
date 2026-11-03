@@ -3,6 +3,7 @@ import path from "path";
 import fs from "fs";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 import { comparePoolQuestions } from "@/lib/pool/sortQuestions";
+import { hasConvexBackup, getBackupExistingQuestionIds } from "@/lib/convex-backup";
 
 export async function GET(request: NextRequest) {
   try {
@@ -106,38 +107,46 @@ export async function GET(request: NextRequest) {
             }
           }
 
-          // Authoritative sync: Query Convex directly so any question already imported in DB is NEVER served as candidate
-          try {
-            const urlsToCheck = Array.from(new Set([
-              "https://shiny-wildcat-270.convex.cloud",
-              process.env.NEXT_PUBLIC_CONVEX_URL,
-            ])).filter(Boolean) as string[];
+          // Authoritative sync: Prioritize local convex backup to prevent exhausting live Convex Cloud quota
+          if (hasConvexBackup()) {
+            const backupExisting = getBackupExistingQuestionIds();
+            for (const id of backupExisting) {
+              usedSet.add(id);
+            }
+          } else {
+            // Only fallback to Convex Cloud if local backup does not exist
+            try {
+              const urlsToCheck = Array.from(new Set([
+                "https://shiny-wildcat-270.convex.cloud",
+                process.env.NEXT_PUBLIC_CONVEX_URL,
+              ])).filter(Boolean) as string[];
 
-            const checkIds = allQuestions.map((q) => String(q.id));
-            for (const cUrl of urlsToCheck) {
-              try {
-                const convexRes = await fetch(`${cUrl}/api/query`, {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({
-                    path: "questions:checkExistingProvenance",
-                    args: { sourceQuestionIds: checkIds },
-                  }),
-                });
-                if (convexRes.ok) {
-                  const convexData = await convexRes.json();
-                  if (Array.isArray(convexData.value?.existingSourceIds)) {
-                    for (const exId of convexData.value.existingSourceIds) {
-                      usedSet.add(String(exId));
+              const checkIds = allQuestions.map((q) => String(q.id));
+              for (const cUrl of urlsToCheck) {
+                try {
+                  const convexRes = await fetch(`${cUrl}/api/query`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      path: "questions:checkExistingProvenance",
+                      args: { sourceQuestionIds: checkIds },
+                    }),
+                  });
+                  if (convexRes.ok) {
+                    const convexData = await convexRes.json();
+                    if (Array.isArray(convexData.value?.existingSourceIds)) {
+                      for (const exId of convexData.value.existingSourceIds) {
+                        usedSet.add(String(exId));
+                      }
                     }
                   }
+                } catch {
+                  // Ignore individual connection errors
                 }
-              } catch {
-                // Ignore individual connection errors
               }
+            } catch (convexErr) {
+              console.error("Convex check in candidate-set:", convexErr);
             }
-          } catch (convexErr) {
-            console.error("Convex check in candidate-set:", convexErr);
           }
 
           // If disk file had candidateQuestions, filter them against usedSet

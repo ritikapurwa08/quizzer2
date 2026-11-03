@@ -16,7 +16,7 @@ import { QuestionPaletteToggle } from "@/components/quiz/QuestionPaletteToggle";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 import { useToast } from "@/components/ui/Toast";
-import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check } from "lucide-react";
+import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check, DoorOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useWakeLock } from "@/hooks/useWakeLock";
 
@@ -52,6 +52,7 @@ export default function QuizPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [confirmExitOpen, setConfirmExitOpen] = useState(false);
 
   // Keep screen active throughout the quiz session to prevent sleep timeouts
   useWakeLock(true);
@@ -172,6 +173,11 @@ export default function QuizPage() {
     }
   }
 
+  async function handleExit() {
+    // Navigate to /subjects — attempt stays in_progress, user can resume from dashboard
+    router.push("/subjects");
+  }
+
   return (
     <div className="flex flex-col lg:flex-row gap-6">
       {/* ── Main question column ── */}
@@ -183,6 +189,15 @@ export default function QuizPage() {
             {testSet?.name}
           </h1>
           <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              onClick={() => setConfirmExitOpen(true)}
+              className="p-1 rounded-lg border border-border bg-muted hover:bg-muted/80 text-muted-foreground cursor-pointer transition-colors"
+              title="Exit Test"
+              aria-label="Exit Test"
+            >
+              <DoorOpen className="h-3.5 w-3.5" />
+            </button>
             <button
               type="button"
               onClick={() => (isPaused ? resume() : pause())}
@@ -289,9 +304,13 @@ export default function QuizPage() {
             Prev
           </Button>
 
-          {/* Answered progress pill in center */}
-          <span className="text-center text-xs font-semibold tabular-nums text-muted-foreground truncate">
-            {answeredCount}&thinsp;/&thinsp;{questions.length} answered
+          {/* Compact answered / unanswered / current pill */}
+          <span className="text-center text-xs font-bold tabular-nums flex items-center gap-1.5 shrink-0">
+            <span className="text-emerald-600 dark:text-emerald-400">✓&thinsp;{answeredCount}</span>
+            <span className="text-muted-foreground">·</span>
+            <span className="text-muted-foreground">○&thinsp;{questions.length - answeredCount}</span>
+            <span className="text-muted-foreground">·</span>
+            <span className="text-foreground font-black">#{currentIndex + 1}</span>
           </span>
 
           {/* Next or Submit */}
@@ -439,6 +458,15 @@ export default function QuizPage() {
                 "Submit Test"
               )}
             </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setConfirmExitOpen(true)}
+              className="w-full h-8 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground gap-1.5 cursor-pointer"
+            >
+              <DoorOpen className="h-3.5 w-3.5" />
+              Exit Test
+            </Button>
           </div>
         </div>
       </div>
@@ -462,6 +490,24 @@ export default function QuizPage() {
         confirmLabel="Yes, Submit Test"
         loadingLabel="Submitting..."
         variant="primary"
+      />
+
+      {/* Exit Test confirmation dialog */}
+      <ConfirmDialog
+        open={confirmExitOpen}
+        onOpenChange={setConfirmExitOpen}
+        title="Exit Test?"
+        description="Your answers so far are saved. You can resume this test later from the dashboard. The test will NOT be submitted."
+        stats={{
+          total: questions.length,
+          answered: answeredCount,
+          unanswered: Math.max(0, questions.length - answeredCount),
+          bookmarked: bookmarkedIds.size,
+        }}
+        onConfirm={handleExit}
+        isLoading={false}
+        confirmLabel="Exit Test"
+        variant="destructive"
       />
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "masterTopicId": 9,
   "masterTopic": "राजस्थान की कृषि",
-  "totalAvailable": 409,
+  "totalAvailable": 358,
   "questions": [
     {
       "id": "rg_005312",
@@ -823,27 +823,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005353",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘नरमा’ ___ की एक किस्म है।",
-      "options": [
-        "मक्का",
-        "चावल",
-        "गन्ना",
-        "कपास"
-      ],
-      "answer": "D",
-      "exam": "Junior Instructor (MMV) Exam",
-      "year": 2024,
-      "explanation": "नरमा कपास की एक उन्नत किस्म है, जो विशेष रूप से भारत में उगाई जाती है।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005354",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -1008,27 +987,6 @@
       "exam": "Junior Instructor (RAT) Exam",
       "year": 2024,
       "explanation": "नरमा कपास एक लंबे रेशे वाली कपास की किस्म है जो अपने मजबूत और टिकाऊ रेशों के लिए जानी जाती है। यह भारत के उत्तर-पश्चिमी भाग में, विशेषकर पंजाब, हरियाणा और राजस्थान राज्यों में एक लोकप्रिय फसल है।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005367",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान राज्य को _____ जलवायु कृषि-प्रदेशों में विभक्त किया गया है।",
-      "options": [
-        "7",
-        "9",
-        "5",
-        "10"
-      ],
-      "answer": "D",
-      "exam": "Junior Instructor (MDE) Exam",
-      "year": 2024,
-      "explanation": "राजस्थान को जलवायु के आधार पर 10 कृषि-जलवायु प्रदेशों में विभाजित किया गया है, जिससे कृषि की संभावनाओं का विश्लेषण किया जाता है।",
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -1222,27 +1180,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005379",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "कृषि के उद्देश्य से, राजस्थान राज्य को कितने कृषि जलवायु क्षेत्रों में विभाजित किया गया है?",
-      "options": [
-        "20",
-        "8",
-        "10",
-        "12"
-      ],
-      "answer": "C",
-      "exam": "CET (Graduate) 28 September Shift-2",
-      "year": 2024,
-      "explanation": "राजस्थान को कृषि के लिए 10 जलवायु क्षेत्रों में विभाजित किया गया है।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005380",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -1344,27 +1281,6 @@
       "exam": "CET (Graduate) 27 September Shift-2",
       "year": 2024,
       "explanation": "कपास और तम्बाकू को राजस्थान की नगदी फसलें माना जाता है क्योंकि ये नकद लाभ प्रदान करती हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005385",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘नरमा’ राजस्थान की किस फसल से सम्बन्धित है -",
-      "options": [
-        "चाय",
-        "कॉफी",
-        "जूट",
-        "कपास"
-      ],
-      "answer": "D",
-      "exam": "CET (Graduate) 27 September Shift-1",
-      "year": 2024,
-      "explanation": "‘नरमा’ राजस्थान में कपास की एक प्रसिद्ध किस्म है। यह मुख्य रूप से श्रीगंगानगर, हनुमानगढ़ और आसपास के क्षेत्रों में उगाई जाती है।",
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -2125,27 +2041,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005455",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान का सबसे बड़ा कृषि - जलवायु प्रदेश कौनसा है -",
-      "options": [
-        "आंतरिक प्रवाह का शुष्क क्षेत्र",
-        "शुष्क पश्चिमी मैदान",
-        "उप आर्द्र दक्षिणी मैदान",
-        "अति शुष्क आंशिक सिंचित क्षेत्र"
-      ],
-      "answer": "D",
-      "exam": "CET (Graduate) 07 January Shift-1",
-      "year": 2023,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005456",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -2503,27 +2398,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005436",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘नरमा’ किस फसल की किस्म है -",
-      "options": [
-        "चावल",
-        "कपास",
-        "मक्का",
-        "गेहूँ"
-      ],
-      "answer": "B",
-      "exam": "3rd Grade Teacher Hindi L2",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005437",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -2671,27 +2545,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005444",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के किस संभाग में सर्वाधिक मक्का उत्पादन होता है -",
-      "options": [
-        "जोधपुर",
-        "उदयपुर",
-        "कोटा",
-        "बीकानेर"
-      ],
-      "answer": "B",
-      "exam": "3rd Grade Teacher L1",
-      "year": 2022,
-      "explanation": "मक्का के प्रमुख उत्पादक चित्तौड़गढ़, भीलवाड़ा, राजसमंद, बांसवाड़ा, डूंगरपुर जिले आदि हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005448",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -2772,27 +2625,6 @@
       "exam": "School Lecturer Gk (G-A)",
       "year": 2022,
       "explanation": "जालोर, सिरोही और बाड़मेर राजस्थान के प्रमुख ईसबगोल उत्पादक जिलों में शामिल हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005460",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान को कितने कृषि-जलवायु प्रदेशों में बांटा गया है -",
-      "options": [
-        "9",
-        "10",
-        "15",
-        "20"
-      ],
-      "answer": "B",
-      "exam": "Forest Guard Exam Shift 4",
-      "year": 2022,
-      "explanation": null,
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -2923,27 +2755,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005489",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "जयपुर, दौसा और अजमेर राजस्थान के किस कृषि-जलवायु प्रदेश में सम्मिलित हैं -",
-      "options": [
-        "ाढ़ प्रभावित पूर्वी मैदान",
-        "अर्द्ध शुष्क पूर्वी मैदान",
-        "अर्द्ध आर्द्र दक्षिणी मैदान",
-        "आर्द्र दक्षिणी मैदान"
-      ],
-      "answer": "B",
-      "exam": "JEN : Civil Degree (GK)",
-      "year": 2022,
-      "explanation": "अजमेर कृषि-जलवायु क्षेत्र III ‘ए’ अर्ध-शुष्क-पूर्वी मैदानी क्षेत्र में आता है जिसमें अजमेर, जयपुर, दौसा और टोंक जिले शामिल हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005490",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -2980,27 +2791,6 @@
       ],
       "answer": "A",
       "exam": "Lab Assistant Exam (Home Science)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005492",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में सबसे बड़ा कृषि-जलवायु प्रदेश है -",
-      "options": [
-        "IA - शुष्क पश्चिमी मैदान",
-        "IC - अति शुष्क आंशिक सिंचित क्षेत्र",
-        "IIA - आंतरिक जल निकासी शुष्क क्षेत्र",
-        "IV A - उप-आर्द्र दक्षिणी मैदान"
-      ],
-      "answer": "B",
-      "exam": "Lab Assistant Exam (Geography)",
       "year": 2022,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -3070,48 +2860,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005496",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में निम्न में से कौन सी रबी की फसल नहीं है -",
-      "options": [
-        "गेहूं",
-        "चना",
-        "जौ",
-        "बाजरा"
-      ],
-      "answer": "D",
-      "exam": "Lab Assistant Exam (Geography)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005498",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के किस भाग में वालरा कृषि की जाती है -",
-      "options": [
-        "उत्तरी",
-        "क्षिणी",
-        "पूर्वी",
-        "पश्चिमी"
-      ],
-      "answer": "D",
-      "exam": "Lab Assistant Exam (Science) 29 June Paper-1",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005500",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -3124,27 +2872,6 @@
         "मारवाड़",
         "गोडवार",
         "ढूंढाड़"
-      ],
-      "answer": "A",
-      "exam": "Lab Assistant Exam (Science) 29 June Paper-1",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005501",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘केन्द्रीय शुष्क बागवानी संस्थां’ कहाँ स्थित है -",
-      "options": [
-        "ीकानेर",
-        "बाड़मेर",
-        "जोधपुर",
-        "जैसलमेर"
       ],
       "answer": "A",
       "exam": "Lab Assistant Exam (Science) 29 June Paper-1",
@@ -3196,27 +2923,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005505",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान राज्य का सबसे छोटा कृषि जलवायु क्षेत्र है:",
-      "options": [
-        "आर्द्र दक्षिणी मैदान",
-        "अन्तः प्रवाह शुष्क क्षेत्र",
-        "उपार्द्र दक्षिणी मैदान",
-        "आर्द्र दक्षिण-पूर्वी मैदान"
-      ],
-      "answer": "A",
-      "exam": "Lab Assistant Exam (Science) 28 June Paper-1",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005507",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -3253,27 +2959,6 @@
       ],
       "answer": "A",
       "exam": "Police Constable Exam (02 July ) (Re Exam)",
-      "year": 2022,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005509",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के निम्नलिखित किस जिले को ‘राजस्थान की खाद्य टोकरी’ के रूप में जाना जाता है -",
-      "options": [
-        "रन",
-        "श्री गंगानगर",
-        "बूंदी",
-        "हनुमानगढ़"
-      ],
-      "answer": "B",
-      "exam": "Police Constable Exam (13 May Shift-2)",
       "year": 2022,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -3402,27 +3087,6 @@
       "exam": "RPSC ACF FRO",
       "year": 2021,
       "explanation": "सीकर, झुंझुनू एवं नागौर जिले अर्थात शेखावाटी क्षेत्र II-A (अंतः प्रवाही मैदान) जोन के अंतर्गत आते हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005480",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के किस जिले में सेम की समस्या द्वारा कृषि को क्षति पहुँची है -",
-      "options": [
-        "कोटा",
-        "अलवर",
-        "हनुमानगढ़",
-        "बांसवाड़ा"
-      ],
-      "answer": "C",
-      "exam": "Asst. Statistical Officer",
-      "year": 2021,
-      "explanation": null,
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -3742,27 +3406,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005464",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में, प्रधानमंत्री कृषि सिंचाई योजना (पी.एम.के.एस.वाई.) का केन्द्र एवं राज्य के बीच वित्त पोषण अनुपात है -",
-      "options": [
-        "60:40",
-        "75:25",
-        "50:50",
-        "70:30"
-      ],
-      "answer": "A",
-      "exam": "Evaluation Officer",
-      "year": 2020,
-      "explanation": "पीएमकेएसवाई एक केंद्र प्रायोजित योजना है और इस योजना के तहत धन केंद्र सरकार और राज्य सरकार के बीच 60:40 के अनुपात में साझा किया जाता है।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005465",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -3777,27 +3420,6 @@
         "जालौर - अलवर"
       ],
       "answer": "A",
-      "exam": "Evaluation Officer",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005466",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान का प्रमुख मक्का उत्पादक क्षेत्र है -",
-      "options": [
-        "उत्तरी भाग",
-        "क्षिणी भाग",
-        "पूर्वी भाग",
-        "पश्चिमी भाग"
-      ],
-      "answer": "D",
       "exam": "Evaluation Officer",
       "year": 2020,
       "explanation": null,
@@ -3820,27 +3442,6 @@
       ],
       "answer": "A",
       "exam": "Evaluation Officer",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005468",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘माही सुगंधा’ ___ फसल की किस्म है -",
-      "options": [
-        "गेहूँ",
-        "मक्का",
-        "चावल",
-        "कपास"
-      ],
-      "answer": "C",
-      "exam": "Forester Exam Shift 2",
       "year": 2020,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -3883,27 +3484,6 @@
       ],
       "answer": "B",
       "exam": "Forester Exam Shift 2",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005471",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान राज्य को कितने कृषि-जलवायु प्रदेशों में वर्गीकृत किया गया है -",
-      "options": [
-        "5",
-        "10",
-        "8",
-        "15"
-      ],
-      "answer": "B",
-      "exam": "Forester Exam Shift 1",
       "year": 2020,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -4120,27 +3700,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005538",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान का कौन सा जिला चने का सबसे बड़ा उत्पादक है -",
-      "options": [
-        "हनुमानगढ़",
-        "जयपुर",
-        "उदयपुर",
-        "झालावाड़"
-      ],
-      "answer": "A",
-      "exam": "Raj Police Constable Exam (8 Nov S-1)",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005539",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -4156,48 +3715,6 @@
       ],
       "answer": "A",
       "exam": "Rajasthan High Court LDC",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005540",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान राज्य बीज निगम लिमिटेड (RSSCL) की स्थापना राष्ट्रीय बीज परियोजना के तहत ___ में की गई थी -",
-      "options": [
-        "1978",
-        "1987",
-        "2019",
-        "2001"
-      ],
-      "answer": "A",
-      "exam": "Raj Police Constable Exam (7 Nov S-2)",
-      "year": 2020,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005541",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान भारत का ‘सरसों का राज्य’ क्यों कहलाता है -",
-      "options": [
-        "क्योंकि सरसों के उत्पादन में राष्ट्रीय स्तर पर इसका प्रथम स्थान है",
-        "क्योंकि सरसों की खपत में राष्ट्रीय स्तर पर इसका प्रथम स्थान है",
-        "क्योंकि सरसों का फूल राजस्थान का राजकीय पुष्प है",
-        "क्योंकि राजस्थान में खाना पकाने हेतु केवल सरसों के तेल का ही उपयोग किया जाता है"
-      ],
-      "answer": "A",
-      "exam": "Raj Police Constable Exam (7 Nov S-1)",
       "year": 2020,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -4414,27 +3931,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005627",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘राष्ट्रीय शुष्क बागवानी अनुसंधान संस्थान’ निम्नलिखित में से किस स्थान पर स्थित है -",
-      "options": [
-        "जोधपुर",
-        "जैसलमेर",
-        "बाड़मेर",
-        "बीकानेर"
-      ],
-      "answer": "D",
-      "exam": "JSA Chemistry-(Rajasthan Gk)",
-      "year": 2019,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005628",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -4456,27 +3952,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005481",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘खस’ का सर्वाधिक उत्पादन राजस्थान के किस बैल्ट से होता है -",
-      "options": [
-        "कोटा, बूंदी और झालावाड़",
-        "धौलपुर, करौली और अलवर",
-        "अजमेर, भीलवाड़ा और चित्तौड़गढ़",
-        "सवाई माधोपुर, भरतपुर और टोंक"
-      ],
-      "answer": "C",
-      "exam": "Junior Instructor (WC&S)",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005586",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -4492,48 +3967,6 @@
       ],
       "answer": "C",
       "exam": "Agriculture Supervisor Exam",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005587",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "केन्द्रीय मरू क्षेत्र अनुसंधान संस्थान _________ में स्थित है -",
-      "options": [
-        "अजमेर",
-        "बाडमेर",
-        "बिकानेर",
-        "जोधपुर"
-      ],
-      "answer": "D",
-      "exam": "Agriculture Supervisor Exam",
-      "year": 2018,
-      "explanation": "केन्द्रीय शुष्क क्षेत्र अनुसंधान संस्थान, जोधपुरः भारत सरकार के कृषि एवं कृषक कल्याण मंत्रालय के अधीन भारतीय कृषि अनुसंधान परिषद्, एक स्वायत संगठन्, के अन्तर्गत कार्यरत संस्थान है।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005588",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "भारत में राष्ट्रीय शुष्क बागवानी अनुसंधान केन्द्र (एनआरसीएएच) अवस्थित है -",
-      "options": [
-        "ीकानेर",
-        "जोधपुर",
-        "जैसलमेर",
-        "बाड़मेर"
-      ],
-      "answer": "A",
-      "exam": "Librarian Grade III",
       "year": 2018,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -4597,27 +4030,6 @@
       ],
       "answer": "B",
       "exam": "College Lecturer (Sarangi Instrument) Exam (G.K.)",
-      "year": 2018,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005629",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "केंद्रीय शुष्क बागवानी संस्थान स्थित है -",
-      "options": [
-        "जोधपुर",
-        "श्रीगंगानगर",
-        "सवाई माधोपुर",
-        "बीकानेर"
-      ],
-      "answer": "D",
-      "exam": "Asst. Agriculture Officer - (Paper-1)",
       "year": 2018,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
@@ -4750,48 +4162,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005564",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में अन्ध एवं धूसर क्षेत्रों की बढ़ती हुई संख्या के मद्देनजर भारत के केन्द्रीय भू-जल प्राधिकरण ने राज्य के किन प्रशासनिक खण्डों में भूमिगत जलदोहन पर पूर्ण रोक लगा दी है -",
-      "options": [
-        "भीनमाल, टोडाभीम, टोडा रायसिंह",
-        "बहरोड़, भीनमाल, सूरजगढ़, धोंड़, श्रीमाधोपुर",
-        "सुरजगढ़, देसूरी, देवली",
-        "बहरोड़, ओसियां, महुवा"
-      ],
-      "answer": "B",
-      "exam": "Gram Sevak",
-      "year": 2016,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005643",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के दो अग्रणी कपास उत्पादक जिले हैं -",
-      "options": [
-        "अलवर और भरतपुर",
-        "कोटा और बारां",
-        "जयपुर और दौसा",
-        "गंगानगर और हनुमानगढ़"
-      ],
-      "answer": "D",
-      "exam": "COMPILER Exam",
-      "year": 2016,
-      "explanation": "राजस्थान में प्रमुख कपास उत्पादक क्षेत्रों में हनुमानगढ़ और श्री गंगानगर शामिल हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005644",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -4918,27 +4288,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005687",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में राष्ट्रीय खाद्य सुरक्षा मिशन में किन फसलों को सम्मिलित किया गया है-",
-      "options": [
-        "केवल गेहूं को",
-        "केवल गेहूं व दालों को",
-        "केवल गेहूं व मोटे अनाज को",
-        "गेहूं, दालों, मोटे अनाज और व्यापारिक फसलों को"
-      ],
-      "answer": "D",
-      "exam": "RPSC Clerk GR-II Exam Paper I",
-      "year": 2016,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005688",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -4976,27 +4325,6 @@
       "answer": "B",
       "exam": "RPSC Clerk GR-II Exam Paper I",
       "year": 2016,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005639",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में मरूस्थल विकास कार्यक्रम किस वर्ष में प्रारम्भ किया गया -",
-      "options": [
-        "1991-92",
-        "1974-75",
-        "1984-85",
-        "1977-78"
-      ],
-      "answer": "D",
-      "exam": "Asstt. Agriculture Officer(TSP) Exam Paper 1",
-      "year": 2015,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
       "topicId": 9
@@ -5249,27 +4577,6 @@
       "answer": "C",
       "exam": "Asstt. Jailor Exam (paper-II)",
       "year": 2013,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005565",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के किस जिले में अमेरिकन कपास का उत्पादन होता है -",
-      "options": [
-        "कोटा",
-        "चित्तोड़गढ़",
-        "उदयपुर",
-        "गंगानगर"
-      ],
-      "answer": "D",
-      "exam": "Stenographer Comp. Exam - (Paper I)",
-      "year": 2011,
       "explanation": null,
       "topic": "राजस्थान की कृषि",
       "topicId": 9
@@ -5716,27 +5023,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005664",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "निम्न में से कौनसी रबी की फसल नहीं है -",
-      "options": [
-        "जौ",
-        "मसूर",
-        "चावल",
-        "गेहूँ"
-      ],
-      "answer": "C",
-      "exam": "RSMSSB LDC (09-09-18) Paper-1",
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005665",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -5989,27 +5275,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005429",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "माही कंचन’ और ‘माही धवल’ किस फ़सल की किस्म हैं -",
-      "options": [
-        "ाजरा",
-        "ज्वार",
-        "मक्का",
-        "चना"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005478",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -6094,27 +5359,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005499",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "कृषि अनुसंधान केंद्र बांसवाड़ा की ओर से विकसित संकुल किस्म ‘माही कंचन’ किस फसल से संबंधित है -",
-      "options": [
-        "चावल",
-        "मक्का",
-        "ज्वार",
-        "गेहूँ"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005502",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -6136,48 +5380,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005506",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में माही कंचन, माही धवल और मेघा किस्में हैं -",
-      "options": [
-        "मक्का की",
-        "चना की",
-        "गेहूं की",
-        "चावल की"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005510",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "सूची-1 को सूची-2 से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करते हुए उत्तर दीजिए - सूची-1(फसल) सूची-2(उच्च उपज किस्म)अ. गेहूं 1. माही कंचनब. जौ 2. आरएचबी-30स. बाजरा 3. आरडी-2035द. मक्का 4. राज-3077कूट - अ, ब, स, द",
-      "options": [
-        "4, 3, 2, 1",
-        "3, 4, 1, 2",
-        "1, 2, 4, 3",
-        "2, 1, 3, 4"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005516",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -6192,27 +5394,6 @@
         "झालावाड़"
       ],
       "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005518",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "क्षेत्रफल की दृष्टि से राजस्थान का सबसे बड़ा कृषि - जलवायु खण्ड कौनसा है -",
-      "options": [
-        "आर्द्र दक्षिणी मैदानी खण्ड",
-        "शुष्क पश्चिमी मैदानी खण्ड",
-        "बाढ़ संभाव्य पूर्वी मैदानी खण्ड",
-        "सिंचित उत्तर-पश्चिमी मैदानी खण्ड"
-      ],
-      "answer": "B",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -6258,27 +5439,6 @@
       "exam": null,
       "year": null,
       "explanation": "मिट्टी और कृषि-जलवायु परिस्थितियों के आधार पर राज्य को मोटे तौर पर तीन प्रमुख कपास उगाने वाले क्षेत्रों, उत्तर, मध्य और दक्षिणी क्षेत्र में विभाजित किया जा सकता है। उत्तर क्षेत्र में श्रीगंगानगर, हनुमानगढ़ और बीकानेर जिले शामिल हैं, जो राज्य में कपास उगाने वाले प्रमुख क्षेत्र हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005522",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "संतरा उत्पादन की दृष्टि से राजस्थान का कौनसा जिला अग्रणी है -",
-      "options": [
-        "झालावाड़",
-        "भतरपुर",
-        "अजमेर",
-        "भीलवाड़ा"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -6346,27 +5506,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005531",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के कौनसे जिले ‘आर्द्र दक्षिणी-पूर्वी मैदान’ कृषि-जलवायु प्रदेश के अन्तर्गत आते हैं -",
-      "options": [
-        "डूंगरपुर तथा बांसवाड़ा",
-        "डूंगरपुर, बांसवाड़ा तथा प्रतापगढ़",
-        "राजसमंद, भीलवाड़ा तथा चित्तौड़गढ़",
-        "कोटा, बूंदी, बारां, झालावाड़ तथा सवाईमाधोपुर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": "कोटा, बूँदी, बारां, और झालावाड़ ‘आर्द्र दक्षिण-पूर्वी मैदान’ कृषि-जलवायु क्षेत्र के अंतर्गत आते हैं।",
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005532",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -6381,27 +5520,6 @@
         "1974 में"
       ],
       "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005545",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान का कौन सा जिला चने का सबसे बड़ा उत्पादक है -",
-      "options": [
-        "हनुमानगढ़",
-        "जयपुर",
-        "उदयपुर",
-        "झालावाड"
-      ],
-      "answer": "A",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -6913,27 +6031,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005574",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान का कौन सा जिला ‘आर्द्र दक्षिण पूर्वी मैदान’ के कृषि-जलवायु प्रदेश में शामिल नहीं है -",
-      "options": [
-        "ूंदी",
-        "कोटा",
-        "उदयपुर",
-        "बारां"
-      ],
-      "answer": "C",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005575",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -6951,27 +6048,6 @@
       "exam": null,
       "year": null,
       "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005576",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘केंद्रीय शुष्क बागवानी संस्थान’ कहां स्थित है -",
-      "options": [
-        "ाड़मेर",
-        "अजमेर",
-        "जोधपुर",
-        "बीकानेर"
-      ],
-      "answer": "D",
-      "exam": null,
-      "year": null,
-      "explanation": "‘केंद्रीय शुष्क बागवानी संस्थान’ राजस्थान के बीकानेर जिले में स्थित है। यह संस्थान 1993 से बागवानी फल एवं सब्जी के अनुसंधान एवं विकास कार्य में लगी हुई है।",
       "topic": "राजस्थान की कृषि",
       "topicId": 9
     },
@@ -7102,27 +6178,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005592",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "साधु सीताराम दास किस कृषक आन्दोलन से सम्बन्धित था -",
-      "options": [
-        "िजौलिया",
-        "शेखावाटी",
-        "सीकर",
-        "बून्दी"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005593",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -7207,27 +6262,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005597",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में सबसे छोटा कृषि जलवायु प्रदेश है -",
-      "options": [
-        "शुष्क पश्चिमी मैदान",
-        "आर्द्र दक्षिणी मैदान",
-        "अर्ध शुष्क पूर्वी मैदान",
-        "आर्द्र दक्षिणी-पूर्वी मैदान"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005598",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -7303,27 +6337,6 @@
         "राजकीय कर",
         "सार्वजनिक भवन",
         "धार्मिक कर"
-      ],
-      "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005602",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘माही धवल’ राजस्थान की किस मुख्य फसल की एक किस्म है -",
-      "options": [
-        "मक्का",
-        "ज्वार",
-        "गेहूं",
-        "चना"
       ],
       "answer": "A",
       "exam": null,
@@ -7627,27 +6640,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005650",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "क्षेत्रफल की दृष्टि से राजस्थान का सबसे बड़ा कृषि-जलवायु खण्ड कौनसा है -",
-      "options": [
-        "आर्द्र दक्षिणी मैदानी खण्ड",
-        "शुष्क पश्चिमी मैदानी खण्ड",
-        "बाढ़ संभाव्य पूर्वी मैदानी खण्ड",
-        "सिंचित उत्तर-पश्चिमी मैदानी खण्ड"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005651",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -7795,27 +6787,6 @@
       "topicId": 9
     },
     {
-      "id": "rg_005672",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "‘स्थानान्तरित कृषि’ को राजस्थान में किस नाम से जाना जाता है -",
-      "options": [
-        "झूमिंग",
-        "वालरा",
-        "कुमारी",
-        "चेना"
-      ],
-      "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
       "id": "rg_005674",
       "source": "RajasthanGyan",
       "sourceTopicId": 55,
@@ -7935,27 +6906,6 @@
         "खनन"
       ],
       "answer": "B",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005690",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान के निम्न कृषि तथ्यों पर विचार कर गलत तथ्य की पहचान करें-",
-      "options": [
-        "कपास का सर्वाधिक उत्पादन गंगानगर एवं हनुमानगढ़ में होता है",
-        "बाजरे के उत्पादन में राजस्थान का देश में प्रथम स्थान है",
-        "परम्परागत रूप से राज्य में गेहूं खरीफ की फसल है",
-        "राज्य की कृषि मानसून पर निर्भर करती है"
-      ],
-      "answer": "C",
       "exam": null,
       "year": null,
       "explanation": null,
@@ -8124,27 +7074,6 @@
         "कोटा"
       ],
       "answer": "A",
-      "exam": null,
-      "year": null,
-      "explanation": null,
-      "topic": "राजस्थान की कृषि",
-      "topicId": 9
-    },
-    {
-      "id": "rg_005699",
-      "source": "RajasthanGyan",
-      "sourceTopicId": 55,
-      "sourceTopic": "राजस्थान में कृषि",
-      "masterTopicId": 9,
-      "masterTopic": "राजस्थान की कृषि",
-      "question": "राजस्थान में कृषि विश्वविधालय स्थित है -",
-      "options": [
-        "जयपुर",
-        "जोधपुर",
-        "झालावाड़",
-        "बीकानेर"
-      ],
-      "answer": "D",
       "exam": null,
       "year": null,
       "explanation": null,

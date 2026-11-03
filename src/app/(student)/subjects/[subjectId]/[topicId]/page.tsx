@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useQuery } from "convex/react";
@@ -24,12 +25,39 @@ export default function TopicDetailPage() {
   const subject = useQuery(api.subjects.get, { id: sId });
   const topic = useQuery(api.topics.get, { id: tId });
   const testSets = useQuery(api.testSets.listByTopic, { topicId: tId });
+  const [localTopicSets, setLocalTopicSets] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch(`/api/sets/by-topic/${tId}`)
+      .then((res) => res.json())
+      .then((json) => {
+        if (json.success && json.sets) {
+          setLocalTopicSets(json.sets);
+        }
+      })
+      .catch((e) => console.error("Error loading local topic sets:", e));
+  }, [tId]);
+
+  // Merge convex sets with local published sets (by _id / id)
+  const allTopicSets = useMemo(() => {
+    const map = new Map<string, any>();
+    for (const s of testSets || []) {
+      map.set(s._id, s);
+    }
+    for (const s of localTopicSets) {
+      if (!map.has(s._id)) {
+        map.set(s._id, s);
+      }
+    }
+    return Array.from(map.values()).sort((a, b) => (a.order ?? 0) - (b.order ?? 0));
+  }, [testSets, localTopicSets]);
+
   const topicProgress = useQuery(api.topics.getProgress, { topicId: tId });
   const completedIds = useQuery(api.testSets.completedSetIds) ?? [];
 
   const completedSet = new Set(completedIds);
-  const totalSets = testSets?.length ?? 0;
-  const completedCount = testSets?.filter((s) => completedSet.has(s._id)).length ?? 0;
+  const totalSets = allTopicSets.length;
+  const completedCount = allTopicSets.filter((s) => completedSet.has(s._id)).length;
   const isTopicCompleted = topicProgress?.status === "completed";
 
   const subjectTitle = getSubjectDisplayName(subject) || "Subject";
@@ -74,7 +102,7 @@ export default function TopicDetailPage() {
       </div>
 
       {/* ── Quiz Sets List ───────────────────────────────────────────────── */}
-      {testSets && testSets.length === 0 && (
+      {testSets !== undefined && allTopicSets.length === 0 && (
         <EmptyState
           icon={FileText}
           title="No practice sets available yet"
@@ -82,7 +110,7 @@ export default function TopicDetailPage() {
         />
       )}
 
-      {testSets && testSets.length > 0 && (
+      {allTopicSets.length > 0 && (
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">
@@ -97,7 +125,7 @@ export default function TopicDetailPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {testSets.map((set) => {
+            {allTopicSets.map((set) => {
               const isDone = completedSet.has(set._id);
               return (
                 <Link key={set._id} href={`/quiz/${set._id}`} className="block focus-visible:outline-hidden">

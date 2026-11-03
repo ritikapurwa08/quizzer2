@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { RAJASTHAN_GK_MASTER_SECTIONS } from "@/lib/constants/rajasthanGkMasterTopics";
+import { hasConvexBackup, getBackupInventory } from "@/lib/convex-backup";
 
 export const dynamic = "force-dynamic";
 
@@ -9,9 +10,7 @@ export async function GET() {
   try {
     const cwd = process.cwd();
     const gkTopicsDir = path.join(cwd, "data", "ddd", "topics");
-    const engTopicsDir = path.join(cwd, "data", "ddd", "english", "topics");
     const poolStateFile = path.join(cwd, "data", "ddd", "pool-state.json");
-    const engPoolStateFile = path.join(cwd, "data", "ddd", "english", "pool-state.json");
 
     let poolState: any = null;
     if (fs.existsSync(poolStateFile)) {
@@ -22,55 +21,60 @@ export async function GET() {
       }
     }
 
-    let engPoolState: any = null;
-    if (fs.existsSync(engPoolStateFile)) {
-      try {
-        engPoolState = JSON.parse(fs.readFileSync(engPoolStateFile, "utf-8"));
-      } catch (err) {
-        console.error("Error reading english pool-state.json:", err);
-      }
-    }
-
-    // Fetch live inventory from prod / local Convex
+    // Prioritize local convex backup to prevent exhausting live Convex Cloud quota
     let liveInventory: any = null;
     let duplicateAudit: any = null;
 
-    try {
-      const urlsToCheck = Array.from(new Set([
-        "https://shiny-wildcat-270.convex.cloud",
-        process.env.NEXT_PUBLIC_CONVEX_URL,
-      ])).filter(Boolean) as string[];
-
-      for (const prodUrl of urlsToCheck) {
-        try {
-          const [invRes, dupRes] = await Promise.all([
-            fetch(`${prodUrl}/api/query`, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ path: "audit:getLiveInventory", args: {} }),
-            }),
-            fetch(`${prodUrl}/api/query`, {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ path: "audit:auditDuplicates", args: {} }),
-            }),
-          ]);
-
-          if (invRes.ok) {
-            const invJson = await invRes.json();
-            if (invJson.value) liveInventory = invJson.value;
-          }
-          if (dupRes.ok) {
-            const dupJson = await dupRes.json();
-            if (dupJson.value) duplicateAudit = dupJson.value;
-          }
-          if (liveInventory) break;
-        } catch {
-          // Try next url
-        }
+    if (hasConvexBackup()) {
+      const backupData = getBackupInventory();
+      if (backupData) {
+        liveInventory = { subjects: backupData.subjects };
+        duplicateAudit = {
+          totalDuplicates: backupData.totalDuplicates,
+          report: backupData.duplicateReport,
+        };
       }
-    } catch (convexErr) {
-      console.error("Error fetching live inventory from Convex:", convexErr);
+    }
+
+    // Only fallback to Convex Cloud if local backup is missing
+    if (!liveInventory) {
+      try {
+        const urlsToCheck = Array.from(new Set([
+          "https://shiny-wildcat-270.convex.cloud",
+          process.env.NEXT_PUBLIC_CONVEX_URL,
+        ])).filter(Boolean) as string[];
+
+        for (const prodUrl of urlsToCheck) {
+          try {
+            const [invRes, dupRes] = await Promise.all([
+              fetch(`${prodUrl}/api/query`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ path: "audit:getLiveInventory", args: {} }),
+              }),
+              fetch(`${prodUrl}/api/query`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ path: "audit:auditDuplicates", args: {} }),
+              }),
+            ]);
+
+            if (invRes.ok) {
+              const invJson = await invRes.json();
+              if (invJson.value) liveInventory = invJson.value;
+            }
+            if (dupRes.ok) {
+              const dupJson = await dupRes.json();
+              if (dupJson.value) duplicateAudit = dupJson.value;
+            }
+            if (liveInventory) break;
+          } catch {
+            // Try next url
+          }
+        }
+      } catch (convexErr) {
+        console.error("Error fetching live inventory from Convex:", convexErr);
+      }
     }
 
     // Map live topics by nameHindi, name, and slug
@@ -85,16 +89,17 @@ export async function GET() {
       }
     }
 
-    // Build topic overview for all canonical sections (A, B, C, D, E)
+    // Build topic overview for canonical GK sections only (A, B, C, D) — English (E) excluded
     const topicsList: any[] = [];
     let grandPoolTotal = 0;
     let grandLiveQuestions = 0;
     let grandLiveSets = 0;
     let grandUniqueUsed = 0;
 
-    for (const sec of RAJASTHAN_GK_MASTER_SECTIONS) {
-      const isEnglish = sec.code === "E";
-      const targetDir = isEnglish ? engTopicsDir : gkTopicsDir;
+    const GK_SECTIONS = RAJASTHAN_GK_MASTER_SECTIONS.filter((s) => s.code !== "E");
+
+    for (const sec of GK_SECTIONS) {
+      const targetDir = gkTopicsDir;
 
       for (const top of sec.topics) {
         const padId = String(top.id).padStart(2, "0");
