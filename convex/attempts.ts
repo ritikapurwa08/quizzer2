@@ -28,17 +28,6 @@ export const start = mutation({
     }
 
     let questionsCount = testSet?.questionCount ?? args.totalQuestions ?? 20;
-    try {
-      const qDocs = await ctx.db
-        .query("questions")
-        .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId as any))
-        .collect();
-      if (qDocs.length > 0) {
-        questionsCount = qDocs.length;
-      }
-    } catch {
-      // String testSetId
-    }
 
     // Configured duration or default 1 minute per question (minimum 10 minutes)
     const durationMinutes =
@@ -87,7 +76,7 @@ export const start = mutation({
 export const saveAnswer = mutation({
   args: {
     attemptId: v.id("attempts"),
-    questionId: v.union(v.id("questions"), v.string()),
+    questionId: v.string(),
     selected: v.union(v.string(), v.array(v.string())),
   },
   handler: async (ctx, args) => {
@@ -156,16 +145,6 @@ export const submit = mutation({
       // String testSetId
     }
 
-    let questions: any[] = [];
-    try {
-      questions = await ctx.db
-        .query("questions")
-        .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId as any))
-        .collect();
-    } catch {
-      // Local set
-    }
-
     let correctCount = 0;
     let wrongCount = 0;
     const scoredAnswers: any[] = [];
@@ -182,61 +161,7 @@ export const submit = mutation({
       } catch {}
     }
 
-    if (questions.length > 0) {
-      for (const question of questions) {
-        const answer = attempt.answers.find((a) => a.questionId === question._id);
-        const isAttempted =
-          answer !== undefined &&
-          answer.selected !== undefined &&
-          answer.selected !== null &&
-          answer.selected !== "" &&
-          (!Array.isArray(answer.selected) || answer.selected.length > 0);
-
-        const isCorrect = isAttempted
-          ? answersMatch(question.correctAnswer, answer.selected)
-          : false;
-
-        if (answer) {
-          scoredAnswers.push({ ...answer, isCorrect });
-        }
-
-        if (isAttempted) {
-          if (isCorrect) {
-            correctCount++;
-          } else {
-            wrongCount++;
-            try {
-              const existingWrong = await ctx.db
-                .query("wrongQuestions")
-                .withIndex("by_user_question", (q) =>
-                  q.eq("userId", user._id).eq("questionId", question._id as any),
-                )
-                .unique();
-
-              if (existingWrong) {
-                await ctx.db.patch(existingWrong._id, {
-                  lastMissedAt: Date.now(),
-                  missCount: existingWrong.missCount + 1,
-                  resolved: false,
-                  ...(existingWrong.subjectId ? {} : { subjectId: wrongSubjectId }),
-                  ...(existingWrong.topicId ? {} : { topicId: wrongTopicId }),
-                });
-              } else {
-                await ctx.db.insert("wrongQuestions", {
-                  userId: user._id,
-                  questionId: question._id,
-                  subjectId: wrongSubjectId,
-                  topicId: wrongTopicId,
-                  lastMissedAt: Date.now(),
-                  missCount: 1,
-                  resolved: false,
-                });
-              }
-            } catch {}
-          }
-        }
-      }
-    } else if (args.evaluations && args.evaluations.length > 0) {
+    if (args.evaluations && args.evaluations.length > 0) {
       for (const item of args.evaluations) {
         const isAttempted =
           item.selected !== undefined &&
@@ -268,6 +193,8 @@ export const submit = mutation({
                   lastMissedAt: Date.now(),
                   missCount: existingWrong.missCount + 1,
                   resolved: false,
+                  ...(existingWrong.subjectId ? {} : { subjectId: wrongSubjectId }),
+                  ...(existingWrong.topicId ? {} : { topicId: wrongTopicId }),
                 });
               } else {
                 await ctx.db.insert("wrongQuestions", {
@@ -284,12 +211,17 @@ export const submit = mutation({
           }
         }
       }
+    } else {
+      // Fallback: copy existing answers
+      for (const ans of attempt.answers) {
+        scoredAnswers.push(ans);
+        if (ans.isCorrect) correctCount++;
+        else if (ans.selected) wrongCount++;
+      }
     }
 
     const totalQuestionsCount =
-      questions.length > 0
-        ? questions.length
-        : attempt.totalQuestions || scoredAnswers.length || 20;
+      attempt.totalQuestions || scoredAnswers.length || 20;
 
     // Authoritative Canonical Scoring calculation (1/3 negative penalty):
     const scoring = calculateQuestionScore({
@@ -324,7 +256,7 @@ export const submit = mutation({
       rawScore: scoring.rawScore,
       correctCount,
       wrongCount,
-      total: questions.length,
+      total: totalQuestionsCount,
       penaltyMarks: scoring.penaltyMarks,
       penaltyPerWrong: scoring.penaltyPerWrong,
     };
@@ -383,14 +315,9 @@ export const getWithQuestions = query({
     const attempt = await ctx.db.get(args.attemptId);
     if (!attempt || attempt.userId !== user._id) return null;
 
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", attempt.testSetId))
-      .collect();
-
     return {
       attempt,
-      questions: questions.sort((a, b) => a.order - b.order),
+      questions: [],
     };
   },
 });
@@ -417,14 +344,9 @@ export const latestSubmittedForTestSet = query({
 
       if (!latest) return null;
 
-      const questions = await ctx.db
-        .query("questions")
-        .withIndex("by_test_set", (q) => q.eq("testSetId", args.testSetId as Id<"testSets">))
-        .collect();
-
       return {
         attempt: latest,
-        questions: (questions || []).sort((a, b) => (a.order ?? 0) - (b.order ?? 0)),
+        questions: [],
       };
     } catch {
       return null;

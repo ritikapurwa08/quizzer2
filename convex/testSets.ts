@@ -133,11 +133,6 @@ export const remove = mutation({
   args: { id: v.id("testSets") },
   handler: async (ctx, args) => {
     await requireAdmin(ctx);
-    const questions = await ctx.db
-      .query("questions")
-      .withIndex("by_test_set", (q) => q.eq("testSetId", args.id))
-      .collect();
-    for (const question of questions) await ctx.db.delete(question._id);
     await ctx.db.delete(args.id);
   },
 });

@@ -354,21 +354,7 @@ export const seedQuestions = mutation({
       }
     ];
 
-    for (let i = 0; i < questionsData.length; i++) {
-      const q = questionsData[i];
-      if (!q) continue;
-      await ctx.db.insert("questions", {
-        testSetId,
-        type: q.type as any,
-        questionText: q.questionText,
-        options: q.options,
-        correctAnswer: q.correctAnswer,
-        explanation: q.explanation,
-        difficulty: q.difficulty as any,
-        order: i,
-        meta: q.meta,
-      });
-    }
+    // Questions are served local-first via published-sets.json and master pool
 
     return {
       testSetId,

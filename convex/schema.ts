@@ -38,50 +38,6 @@ export default defineSchema({
     durationMinutes: v.optional(v.number()),
   }).index("by_topic", ["topicId"]),
 
-  questions: defineTable({
-    testSetId: v.id("testSets"),
-    topicId: v.optional(v.id("topics")),
-    subjectId: v.optional(v.id("subjects")),
-    status: v.optional(v.string()),
-    // Promoted from meta for indexed provenance lookups (avoids full table scan).
-    // Stores the canonical string form of meta.sourceQuestionId.
-    sourceQuestionId: v.optional(v.string()),
-    // Exactly 6 canonical question types
-    type: v.union(
-      v.literal("mcq"),
-      v.literal("match"),
-      v.literal("match_following"),
-      v.literal("match_the_following"),
-      v.literal("matching"),
-      v.literal("assertion"),
-      v.literal("assertion_reason"),
-      v.literal("statement_reason"),
-      v.literal("sequence"),
-      v.literal("table"),
-    ),
-    questionText: v.string(),
-    options: v.array(
-      v.object({
-        id: v.string(),
-        text: v.string(),
-      }),
-    ),
-    correctAnswer: v.union(v.string(), v.array(v.string())),
-    explanation: v.optional(v.string()),
-    reference: v.optional(v.string()),
-    difficulty: v.union(v.literal("easy"), v.literal("medium"), v.literal("hard")),
-    order: v.number(),
-    meta: v.optional(v.any()),
-  })
-    .index("by_test_set", ["testSetId"])
-    // Enables O(1) provenance check: sourceQuestionId → existing question
-    // without scanning the full questions table.
-    .index("by_source_question_id", ["sourceQuestionId"])
-    .index("by_topic", ["topicId"])
-    .index("by_subject", ["subjectId"])
-    .index("by_difficulty", ["difficulty"])
-    .index("by_status", ["status"]),
-
   attempts: defineTable({
     userId: v.id("users"),
     testSetId: v.id("testSets"),
@@ -90,7 +46,7 @@ export default defineSchema({
     completedAt: v.optional(v.number()),
     answers: v.array(
       v.object({
-        questionId: v.id("questions"),
+        questionId: v.string(),
         selected: v.optional(v.union(v.string(), v.array(v.string()))),
         isCorrect: v.optional(v.boolean()),
       }),
@@ -118,7 +74,7 @@ export default defineSchema({
 
   bookmarks: defineTable({
     userId: v.id("users"),
-    questionId: v.id("questions"),
+    questionId: v.string(),
     subjectId: v.optional(v.id("subjects")),
     topicId: v.optional(v.id("topics")),
     createdAt: v.number(),
@@ -130,7 +86,7 @@ export default defineSchema({
 
   wrongQuestions: defineTable({
     userId: v.id("users"),
-    questionId: v.id("questions"),
+    questionId: v.string(),
     subjectId: v.optional(v.id("subjects")),
     topicId: v.optional(v.id("topics")),
     lastMissedAt: v.number(),
@@ -178,5 +134,3 @@ export default defineSchema({
     .index("by_slug", ["slug"])
     .index("by_subject_slug", ["subjectId", "slug"]),
 });
-
-

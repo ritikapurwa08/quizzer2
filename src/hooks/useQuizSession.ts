@@ -177,7 +177,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         if (!attemptId) return;
         saveAnswer({
           attemptId,
-          questionId: questionId as Id<"questions">,
+          questionId,
           selected: value,
         });
       }, SAVE_DEBOUNCE_MS);
@@ -194,7 +194,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         else next.add(questionId);
         return next;
       });
-      await toggleBookmarkRemote({ questionId: questionId as Id<"questions"> });
+      await toggleBookmarkRemote({ questionId });
     },
     [toggleBookmarkRemote]
   );

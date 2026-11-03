@@ -77,7 +77,7 @@ export default function AdminQuestionsPage() {
   );
 
   const isSearching = hasFilterActive && rawResults === undefined;
-  const results = rawResults ?? [];
+  const results = (rawResults ?? []) as Question[];
 
   // Pagination
   const totalPages = Math.ceil(results.length / PAGE_SIZE);
@@ -88,11 +88,11 @@ export default function AdminQuestionsPage() {
 
   const removeQuestion = useMutation(api.questions.remove);
 
-  const [deleteTarget, setDeleteTarget] = useState<Id<"questions"> | null>(null);
+  const [deleteTarget, setDeleteTarget] = useState<string | null>(null);
   const [editTarget, setEditTarget] = useState<Question | null>(null);
 
-  function openEdit(q: (typeof results)[number]) {
-    setEditTarget(q as Question);
+  function openEdit(q: Question) {
+    setEditTarget(q);
   }
 
   function handleSubjectChange(val: string | null) {

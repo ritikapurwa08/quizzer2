@@ -100,11 +100,6 @@ export const remove = mutation({
         .withIndex("by_topic", (q) => q.eq("topicId", topic._id))
         .collect();
       for (const set of sets) {
-        const questions = await ctx.db
-          .query("questions")
-          .withIndex("by_test_set", (q) => q.eq("testSetId", set._id))
-          .collect();
-        for (const question of questions) await ctx.db.delete(question._id);
         await ctx.db.delete(set._id);
       }
       await ctx.db.delete(topic._id);

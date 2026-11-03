@@ -1,15 +1,12 @@
 import { v } from "convex/values";
 import { paginationOptsValidator } from "convex/server";
 import { query, mutation } from "./_generated/server";
+import { Id } from "./_generated/dataModel";
 import { requireUser } from "./lib/permissions";
 
 /**
  * Paginated wrong-questions query.
- *
- * sortBy:
- *   "latest"      — newest missed first  (uses by_user_last_missed index, O(page) reads)
- *   "most_missed" — highest missCount first (full collect, sorted; fine for revision bank size)
- *   "oldest"      — oldest missed first   (uses by_user_last_missed, ascending)
+ * Returns wrong questions metadata with questionId for local-first question resolution.
  */
 export const listByUserPaginated = query({
   args: {
@@ -68,15 +65,11 @@ export const listByUserPaginated = query({
       const page = all.slice(startIdx, startIdx + numItems);
       const isDone = startIdx + numItems >= all.length;
 
-      const withQuestions = await Promise.all(
-        page.map(async (w) => ({
-          wrongQuestion: w,
-          question: await ctx.db.get(w.questionId),
-        })),
-      );
-
       return {
-        page: withQuestions.filter((w) => w.question !== null),
+        page: page.map((w) => ({
+          wrongQuestion: w,
+          questionId: w.questionId,
+        })),
         isDone,
         continueCursor: isDone ? null : String(startIdx + numItems),
       };
@@ -110,21 +103,17 @@ export const listByUserPaginated = query({
 
     const result = await ordered.paginate(args.paginationOpts);
 
-    const withQuestions = await Promise.all(
-      result.page.map(async (w) => ({
-        wrongQuestion: w,
-        question: await ctx.db.get(w.questionId),
-      })),
-    );
-
     return {
       ...result,
-      page: withQuestions.filter((w) => w.question !== null),
+      page: result.page.map((w) => ({
+        wrongQuestion: w,
+        questionId: w.questionId,
+      })),
     };
   },
 });
 
-/** Backward-compat shim — used by the quiz submit flow. Not called from UI. */
+/** Backward-compat shim — used by the quiz submit flow. */
 export const listByUser = query({
   args: {},
   handler: async (ctx) => {
@@ -136,14 +125,10 @@ export const listByUser = query({
       .order("desc")
       .collect();
 
-    const withQuestions = await Promise.all(
-      wrong.map(async (w) => ({
-        wrongQuestion: w,
-        question: await ctx.db.get(w.questionId),
-      })),
-    );
-
-    return withQuestions.filter((w) => w.question !== null);
+    return wrong.map((w) => ({
+      wrongQuestion: w,
+      questionId: w.questionId,
+    }));
   },
 });
 
@@ -165,7 +150,13 @@ export const markResolved = mutation({
 export const listByUserWithMeta = query({
   args: {},
   handler: async (ctx) => {
-    const user = await requireUser(ctx);
+    let user;
+    try {
+      user = await requireUser(ctx);
+    } catch {
+      return { items: [], subjectsWithCounts: [] };
+    }
+
     const wrong = await ctx.db
       .query("wrongQuestions")
       .withIndex("by_user_resolved", (q) =>
@@ -174,78 +165,70 @@ export const listByUserWithMeta = query({
       .order("desc")
       .collect();
 
-    // Cache chains to avoid N+1 across repeated testSets/topics/subjects
-    const testSetCache = new Map<string, { topicId: string; name: string } | null>();
-    const topicCache = new Map<string, { subjectId: string; name: string; nameHindi?: string } | null>();
-    const subjectCache = new Map<string, { name: string; nameHindi?: string } | null>();
+    const subjects = await ctx.db.query("subjects").collect();
+    const subMap = new Map<string, { subjectId: string; name: string; nameHindi?: string; count: number }>();
+    for (const s of subjects) {
+      subMap.set(s._id, {
+        subjectId: s._id,
+        name: s.name,
+        nameHindi: s.nameHindi,
+        count: 0,
+      });
+    }
 
-    const subjectCountMap = new Map<string, { subjectId: string; name: string; nameHindi?: string; count: number }>();
-
-    const items = await Promise.all(
-      wrong.map(async (w) => {
-        const question = await ctx.db.get(w.questionId);
-        if (!question) return null;
-
-        let topicId: string | null = (w.topicId as string) ?? null;
-        let subjectId: string | null = (w.subjectId as string) ?? null;
-
-        // If topicId or subjectId are missing on older records, resolve via testSet chain
-        if (!topicId || !subjectId) {
-          const tsId = question.testSetId as string;
-          if (!testSetCache.has(tsId)) {
-            const ts = await ctx.db.get(question.testSetId);
-            testSetCache.set(tsId, ts ? { topicId: ts.topicId as string, name: ts.name } : null);
-          }
-          const testSet = testSetCache.get(tsId);
-
-          if (testSet) {
-            topicId = testSet.topicId;
-            if (!topicCache.has(testSet.topicId)) {
-              const t = await ctx.db.get(testSet.topicId as any);
-              const tTyped = t as { subjectId: string; name: string; nameHindi?: string } | null;
-              topicCache.set(
-                testSet.topicId,
-                tTyped ? { subjectId: tTyped.subjectId as string, name: tTyped.name, nameHindi: tTyped.nameHindi } : null
-              );
-            }
-            const topic = topicCache.get(testSet.topicId);
-            if (topic) {
-              subjectId = topic.subjectId;
-            }
-          }
-        }
-
-        if (subjectId) {
-          if (!subjectCache.has(subjectId)) {
-            const s = await ctx.db.get(subjectId as any);
-            const sTyped = s as { name: string; nameHindi?: string } | null;
-            subjectCache.set(subjectId, sTyped ? { name: sTyped.name, nameHindi: sTyped.nameHindi } : null);
-          }
-          const subject = subjectCache.get(subjectId);
-          if (subject) {
-            const existing = subjectCountMap.get(subjectId) || {
-              subjectId,
-              name: subject.name,
-              nameHindi: subject.nameHindi,
-              count: 0,
-            };
-            existing.count += 1;
-            subjectCountMap.set(subjectId, existing);
-          }
-        }
-
-        return {
-          wrongQuestion: w,
-          question,
-          topicId,
-          subjectId,
-        };
-      })
-    );
+    for (const w of wrong) {
+      if (w.subjectId && subMap.has(w.subjectId)) {
+        subMap.get(w.subjectId)!.count += 1;
+      }
+    }
 
     return {
-      items: items.filter((i): i is NonNullable<typeof i> => i !== null && i.question !== null),
-      subjectsWithCounts: Array.from(subjectCountMap.values()),
+      items: wrong.map((w) => ({
+        wrongQuestion: w,
+        questionId: w.questionId,
+        subjectId: w.subjectId ?? null,
+        topicId: w.topicId ?? null,
+      })),
+      subjectsWithCounts: Array.from(subMap.values()).filter((s) => s.count > 0),
     };
+  },
+});
+
+export const recordWrong = mutation({
+  args: {
+    questionId: v.string(),
+    subjectId: v.optional(v.union(v.id("subjects"), v.string())),
+    topicId: v.optional(v.union(v.id("topics"), v.string())),
+  },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+    const existing = await ctx.db
+      .query("wrongQuestions")
+      .withIndex("by_user_question", (q) =>
+        q.eq("userId", user._id).eq("questionId", args.questionId),
+      )
+      .unique();
+
+    if (existing) {
+      await ctx.db.patch(existing._id, {
+        lastMissedAt: Date.now(),
+        missCount: existing.missCount + 1,
+        resolved: false,
+      });
+      return existing._id;
+    }
+
+    const insertSubjectId = args.subjectId && args.subjectId.length === 32 ? (args.subjectId as Id<"subjects">) : undefined;
+    const insertTopicId = args.topicId && args.topicId.length === 32 ? (args.topicId as Id<"topics">) : undefined;
+
+    return await ctx.db.insert("wrongQuestions", {
+      userId: user._id,
+      questionId: args.questionId,
+      subjectId: insertSubjectId,
+      topicId: insertTopicId,
+      lastMissedAt: Date.now(),
+      missCount: 1,
+      resolved: false,
+    });
   },
 });

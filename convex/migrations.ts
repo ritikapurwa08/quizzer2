@@ -253,39 +253,7 @@ export const remapOrphanedTestSets = mutation({
       });
       updatedSetsCount++;
 
-      // 2. Update all questions belonging to this testSet
-      const questions = await ctx.db
-        .query("questions")
-        .withIndex("by_test_set", (q) => q.eq("testSetId", item.set._id))
-        .collect();
-
-      for (const q of questions) {
-        await ctx.db.patch(q._id, {
-          topicId: targetTopicId,
-          subjectId: targetSubjectId,
-        });
-        updatedQuestionsCount++;
-
-        // 3. Update bookmarks pointing to this question
-        const bms = bookmarksByQuestion.get(q._id as string) ?? [];
-        for (const bm of bms) {
-          await ctx.db.patch(bm._id, {
-            topicId: targetTopicId,
-            subjectId: targetSubjectId,
-          });
-          updatedBookmarksCount++;
-        }
-
-        // 4. Update wrongQuestions pointing to this question
-        const wrs = wrongByQuestion.get(q._id as string) ?? [];
-        for (const wq of wrs) {
-          await ctx.db.patch(wq._id, {
-            topicId: targetTopicId,
-            subjectId: targetSubjectId,
-          });
-          updatedWrongCount++;
-        }
-      }
+      // Questions are managed local-first via data/master-pool
     }
 
     return {

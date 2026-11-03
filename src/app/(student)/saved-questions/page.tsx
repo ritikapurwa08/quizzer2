@@ -12,6 +12,8 @@ import { Pagination } from "@/components/shared/Pagination";
 import { AlertCircle, Bookmark, CheckCircle2 } from "lucide-react";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
 import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
+import { resolveQuestions } from "@/lib/questionsClient";
+import { Question } from "@/types";
 
 const WRONG_PAGE_SIZE = 15;
 const BOOKMARK_PAGE_SIZE = 10;
@@ -160,6 +162,31 @@ function SavedQuestionsContent() {
   const totalWrongCount = wrongData?.items?.length ?? 0;
   const totalBmCount = bmData?.length ?? 0;
 
+  // ── Local-First Question Resolution ──
+  const [resolvedQuestions, setResolvedQuestions] = useState<Record<string, Question>>({});
+
+  const currentBatchIds = useMemo(() => {
+    const ids: string[] = [];
+    if (activeTab === "wrong") {
+      for (const item of pageWrongItems) {
+        if (item.questionId) ids.push(item.questionId);
+      }
+    } else {
+      for (const item of pageBmItems) {
+        if (item.questionId) ids.push(item.questionId);
+      }
+    }
+    return ids;
+  }, [activeTab, pageWrongItems, pageBmItems]);
+
+  useEffect(() => {
+    if (currentBatchIds.length > 0) {
+      resolveQuestions(currentBatchIds).then((res) => {
+        setResolvedQuestions((prev) => ({ ...prev, ...res }));
+      });
+    }
+  }, [currentBatchIds]);
+
   return (
     <div className="space-y-6 pb-12">
       <BreadcrumbNav
@@ -286,21 +313,26 @@ function SavedQuestionsContent() {
           ) : (
             <>
               <div className="space-y-4">
-                {pageWrongItems.map(({ wrongQuestion, question }, idx) =>
-                  question ? (
+                {pageWrongItems.map(({ wrongQuestion, questionId }, idx) => {
+                  const question = resolvedQuestions[questionId];
+                  return question ? (
                     <QuestionReviewCard
                       key={wrongQuestion._id}
                       number={safeWrongPage * WRONG_PAGE_SIZE + idx + 1}
                       question={question}
                       selectedAnswer={undefined}
-                      isBookmarked={bookmarkedIds.has(question._id)}
+                      isBookmarked={bookmarkedIds.has(questionId)}
                       onToggleBookmark={() => {
-                        toggleBookmark({ questionId: question._id });
+                        toggleBookmark({ questionId });
                       }}
                       missCount={wrongQuestion.missCount}
                     />
-                  ) : null
-                )}
+                  ) : (
+                    <div key={wrongQuestion._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                      Loading question...
+                    </div>
+                  );
+                })}
               </div>
 
               {filteredWrongQuestions.length > WRONG_PAGE_SIZE && (
@@ -365,8 +397,9 @@ function SavedQuestionsContent() {
           ) : (
             <>
               <div className="space-y-4">
-                {pageBmItems.map(({ bookmark, question }, idx) =>
-                  question ? (
+                {pageBmItems.map(({ bookmark, questionId }, idx) => {
+                  const question = resolvedQuestions[questionId];
+                  return question ? (
                     <QuestionReviewCard
                       key={bookmark._id}
                       number={safeBmPage * BOOKMARK_PAGE_SIZE + idx + 1}
@@ -374,11 +407,15 @@ function SavedQuestionsContent() {
                       selectedAnswer={undefined}
                       isBookmarked={true}
                       onToggleBookmark={() => {
-                        toggleBookmark({ questionId: question._id });
+                        toggleBookmark({ questionId });
                       }}
                     />
-                  ) : null
-                )}
+                  ) : (
+                    <div key={bookmark._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                      Loading bookmark...
+                    </div>
+                  );
+                })}
               </div>
 
               {filteredBookmarks.length > BOOKMARK_PAGE_SIZE && (

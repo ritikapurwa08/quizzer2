@@ -283,7 +283,7 @@ export default function ResultsPage() {
       }
       return next;
     });
-    toggleBookmark({ questionId: questionId as Id<"questions"> });
+    toggleBookmark({ questionId });
   }
 
   const handlePrint = async (filter?: ReviewFilter, themeOverride?: "dark" | "light") => {
