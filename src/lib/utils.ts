@@ -53,17 +53,23 @@ export function getTopicDisplayName(topic?: { name: string; nameHindi?: string }
  * 0 → A, 1 → B, 2 → C, 3 → D, 4 → E, etc.
  * Also handles "opt1".."opt5" ID strings.
  */
-export function getOptionLabel(indexOrId: number | string): string {
+export function getOptionLabel(indexOrId?: number | string | null): string {
   if (typeof indexOrId === "number") {
     return String.fromCharCode(65 + indexOrId);
   }
+  if (!indexOrId || typeof indexOrId !== "string") {
+    return "";
+  }
   // Handle "opt1" → 0, "opt2" → 1, etc.
-  const match = indexOrId.match(/^opt(\d+)$/);
+  const match = indexOrId.match(/^opt(\d+)$/i);
   if (match && match[1]) {
     const idx = parseInt(match[1], 10) - 1;
     if (idx >= 0 && idx < 26) return String.fromCharCode(65 + idx);
   }
-  return indexOrId;
+  if (/^[A-Za-z]$/.test(indexOrId)) {
+    return indexOrId.toUpperCase();
+  }
+  return String(indexOrId);
 }
 
 function isInstructionLine(line: string): boolean {

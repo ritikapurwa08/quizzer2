@@ -162,10 +162,13 @@ export default function ResultsPage() {
     const { attempt } = data;
     return (resolvedQuestions || [])
       .map((q, i) => {
-        const answer = (attempt.answers || []).find((a) => a.questionId === q._id);
+        if (!q) return null;
+        const qId = q._id || q.id || q.convexId || q.canonicalId;
+        const answer = (attempt.answers || []).find((a) => a.questionId === qId || a.questionId === q._id);
         const badge = !answer ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
-        return { question: q, answer, badge, originalIndex: i };
+        return { question: q, answer, badge, originalIndex: i, questionId: qId };
       })
+      .filter((item): item is NonNullable<typeof item> => item !== null)
       .filter(({ badge }) => {
         if (reviewFilter === "correct") return badge === "correct";
         if (reviewFilter === "incorrect") return badge === "incorrect";
@@ -531,17 +534,20 @@ export default function ResultsPage() {
                 : "No incorrect answers found."}
             </p>
           ) : (
-            filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex }) => (
-              <QuestionReviewCard
-                key={q._id}
-                number={originalIndex + 1}
-                question={q}
-                selectedAnswer={answer?.selected}
-                isBookmarked={bookmarked.has(q._id)}
-                onToggleBookmark={() => handleToggleBookmark(q._id)}
-                reviewBadge={badge as "correct" | "incorrect" | "unanswered"}
-              />
-            ))
+            filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex, questionId }) => {
+              const safeId = questionId || q?._id || `q_${originalIndex}`;
+              return (
+                <QuestionReviewCard
+                  key={safeId}
+                  number={originalIndex + 1}
+                  question={q}
+                  selectedAnswer={answer?.selected}
+                  isBookmarked={bookmarked.has(safeId)}
+                  onToggleBookmark={() => handleToggleBookmark(safeId)}
+                  reviewBadge={badge as "correct" | "incorrect" | "unanswered"}
+                />
+              );
+            })
           )}
         </div>
       </div>

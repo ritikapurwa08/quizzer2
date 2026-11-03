@@ -162,10 +162,10 @@ function SavedQuestionsContent() {
   const totalWrongCount = wrongData?.items?.length ?? 0;
   const totalBmCount = bmData?.length ?? 0;
 
-  // ── Local-First Question Resolution ──
+  // ── Local-First Question Resolution (Optimized with stable batch key & zero duplicate renders) ──
   const [resolvedQuestions, setResolvedQuestions] = useState<Record<string, Question>>({});
 
-  const currentBatchIds = useMemo(() => {
+  const batchKey = useMemo(() => {
     const ids: string[] = [];
     if (activeTab === "wrong") {
       for (const item of pageWrongItems) {
@@ -176,16 +176,21 @@ function SavedQuestionsContent() {
         if (item.questionId) ids.push(item.questionId);
       }
     }
-    return ids;
+    return ids.join(",");
   }, [activeTab, pageWrongItems, pageBmItems]);
 
   useEffect(() => {
-    if (currentBatchIds.length > 0) {
-      resolveQuestions(currentBatchIds).then((res) => {
+    if (!batchKey) return;
+    const ids = batchKey.split(",").filter(Boolean);
+    const missing = ids.filter((id) => !resolvedQuestions[id]);
+    if (missing.length === 0) return;
+
+    resolveQuestions(missing).then((res) => {
+      if (Object.keys(res).length > 0) {
         setResolvedQuestions((prev) => ({ ...prev, ...res }));
-      });
-    }
-  }, [currentBatchIds]);
+      }
+    });
+  }, [batchKey, resolvedQuestions]);
 
   return (
     <div className="space-y-6 pb-12">

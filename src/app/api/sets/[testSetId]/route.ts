@@ -7,6 +7,31 @@ export const dynamic = "force-dynamic";
 // In-memory cache for published sets to provide sub-millisecond responses
 let _setsCache: Map<string, any> | null = null;
 
+function normalizeQuestion(q: any, i: number) {
+  const qId = q._id || q.id || q.convexId || q.canonicalId || `q_${i + 1}`;
+  const options = (q.options || []).map((opt: any, optIdx: number) => {
+    if (typeof opt === "string") {
+      return { id: `opt${optIdx + 1}`, text: opt };
+    }
+    return {
+      id: opt?.id || `opt${optIdx + 1}`,
+      text: opt?.text || "",
+    };
+  });
+
+  return {
+    ...q,
+    _id: qId,
+    id: qId,
+    type: q.type || "mcq",
+    questionText: q.questionText || q.question || "",
+    options,
+    correctAnswer: q.correctAnswer || (q.answerIndex !== undefined ? `opt${q.answerIndex + 1}` : "opt1"),
+    explanation: q.explanation || "",
+    difficulty: q.difficulty || "medium",
+  };
+}
+
 function getPublishedSetsMap(): Map<string, any> {
   if (_setsCache) return _setsCache;
 
@@ -17,10 +42,16 @@ function getPublishedSetsMap(): Map<string, any> {
     try {
       const raw = fs.readFileSync(setsFilePath, "utf-8");
       const sets: any[] = JSON.parse(raw);
-      for (const s of sets) {
-        if (s.id) map.set(s.id, s);
-        if (s.setId) map.set(s.setId, s);
-        if (s._id) map.set(s._id, s);
+      for (const rawSet of sets) {
+        const normalizedQuestions = (rawSet.questions || []).map(normalizeQuestion);
+        const set = {
+          ...rawSet,
+          questions: normalizedQuestions,
+        };
+
+        if (set.id) map.set(set.id, set);
+        if (set.setId) map.set(set.setId, set);
+        if (set._id) map.set(set._id, set);
       }
     } catch (e) {
       console.error("Error loading published-sets.json:", e);
