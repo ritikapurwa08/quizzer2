@@ -16,7 +16,6 @@ import {
   Shield,
   Database,
   FileUp,
-  HelpCircle,
   LogOut,
   Sun,
   Moon,
@@ -39,7 +38,7 @@ interface NavItem {
   badge?: string | number;
 }
 
-// 5 items for mobile bottom nav bar (Saved Questions confirmed by user)
+// 5 items for mobile bottom nav bar for all users
 const BOTTOM_NAV_ITEMS: NavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
@@ -48,7 +47,7 @@ const BOTTOM_NAV_ITEMS: NavItem[] = [
   { label: "Saved", href: "/saved-questions", icon: Bookmark },
 ];
 
-// Full student nav for desktop sidebar & mobile slideover drawer
+// Full student nav for desktop sidebar
 const STUDENT_NAV_ITEMS: NavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid, exact: true },
   { label: "Subjects", href: "/subjects", icon: BookOpen },
@@ -58,12 +57,12 @@ const STUDENT_NAV_ITEMS: NavItem[] = [
   { label: "Saved Questions", href: "/saved-questions", icon: Bookmark },
 ];
 
+// Admin navigation items
 const ADMIN_NAV_ITEMS: NavItem[] = [
   { label: "Admin Overview", href: "/admin", icon: Shield, exact: true },
-  { label: "Question Pool", href: "/admin/pool", icon: Database, exact: true },
+  { label: "55 Topics Pool", href: "/admin/pool", icon: Database, exact: true },
   { label: "Dedup Review", href: "/admin/dedup", icon: GitCompare, exact: true },
   { label: "Import Sets", href: "/admin/import", icon: FileUp, exact: true },
-  { label: "Question Bank", href: "/admin/questions", icon: HelpCircle, exact: true },
 ];
 
 export function AppSidebar() {
@@ -72,23 +71,23 @@ export function AppSidebar() {
   const me = useQuery(api.users.me);
   const { signOut } = useAuthActions();
   const { theme, setTheme } = useTheme();
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [adminMenuOpen, setAdminMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Close mobile drawer on route change
+  // Close admin bottom sheet on route change
   useEffect(() => {
-    setMobileOpen(false);
+    setAdminMenuOpen(false);
   }, [pathname]);
 
   const isAdmin = isUserAdmin(me);
   const displayName = me?.name || me?.email?.split("@")[0] || "Student";
   const initials = displayName.slice(0, 2).toUpperCase();
 
-  // In active quiz session, hide mobile UI to avoid double-stacking headers (Focus Mode)
+  // In active quiz session, hide mobile UI to avoid distractions (Focus Mode)
   const isQuizActive = Boolean(pathname?.startsWith("/quiz/") && !pathname?.includes("/results"));
 
   async function handleSignOut() {
@@ -101,7 +100,7 @@ export function AppSidebar() {
     return pathname?.startsWith(item.href);
   }
 
-  const renderNavLinks = () => (
+  const renderDesktopNavLinks = () => (
     <div className="space-y-6">
       {/* Student Navigation */}
       <div className="space-y-1">
@@ -146,7 +145,7 @@ export function AppSidebar() {
         </nav>
       </div>
 
-      {/* Admin Navigation (conditional) */}
+      {/* Admin Navigation (Desktop, only for Admin) */}
       {isAdmin && (
         <div className="space-y-1.5 pt-3 border-t border-border/80">
           <div className="flex items-center justify-between px-3 mb-1">
@@ -192,125 +191,115 @@ export function AppSidebar() {
 
   return (
     <>
-      {/* ── MOBILE TOP BAR (hidden on md and above, and hidden in active quiz Focus Mode) ── */}
-      {!isQuizActive && (
-        <header className="sticky top-0 z-40 flex md:hidden items-center justify-between border-b border-border bg-card/90 backdrop-blur-md px-4 py-2.5">
-          <Link href="/dashboard" className="flex items-center gap-2 font-bold text-foreground">
-            <QuizzerLogoIcon className="h-6 w-6" />
-            <span className="text-base font-bold tracking-tight">Quizzer</span>
-          </Link>
-
-          <div className="flex items-center gap-2">
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="h-10 w-10 rounded-xl"
-              aria-label="Toggle theme"
-            >
-              {!mounted ? (
-                <span className="h-4 w-4 inline-block" />
-              ) : (
-                <>
-                  <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                  <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-                </>
-              )}
-            </Button>
-
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="h-10 w-10 rounded-xl border-border cursor-pointer"
-              aria-label="Open menu"
-            >
-              {mobileOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-            </Button>
-          </div>
-        </header>
-      )}
-
-      {/* ── MOBILE SLIDEOVER DRAWER ── */}
-      {mobileOpen && (
-        <div className="fixed inset-0 z-50 md:hidden flex">
+      {/* ── MOBILE ADMIN BOTTOM SHEET (Admin only, slides from bottom to top) ── */}
+      {isAdmin && adminMenuOpen && (
+        <div className="fixed inset-0 z-50 md:hidden flex flex-col justify-end">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-black/60 backdrop-blur-xs animate-in fade-in-0 duration-200"
-            onClick={() => setMobileOpen(false)}
+            onClick={() => setAdminMenuOpen(false)}
           />
 
-          {/* Drawer content */}
-          <div className="relative flex flex-col w-72 max-w-[80vw] bg-card border-r border-border h-full p-4 shadow-xl animate-in slide-in-from-left duration-200">
+          {/* Bottom Sheet Drawer */}
+          <div className="relative z-10 w-full max-h-[85vh] bg-card border-t border-border rounded-t-3xl p-5 shadow-2xl animate-in slide-in-from-bottom duration-250 flex flex-col">
+            {/* Grab handle pill */}
+            <div className="w-10 h-1 bg-muted-foreground/30 rounded-full mx-auto mb-3 shrink-0" />
+
             {/* Header */}
-            <div className="flex items-center justify-between pb-4 border-b border-border/80">
-              <Link href="/dashboard" className="flex items-center gap-2">
-                <QuizzerLogoIcon className="h-7 w-7" />
+            <div className="flex items-center justify-between pb-3 border-b border-border/80 shrink-0">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500 border border-amber-500/20">
+                  <Shield className="h-4 w-4" />
+                </div>
                 <div>
-                  <span className="font-bold text-base tracking-tight text-foreground block leading-tight">
-                    Quizzer
-                  </span>
-                  <span className="text-[10px] font-medium text-muted-foreground block">
-                    RPSC 2nd Grade GK
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-bold text-sm tracking-tight text-foreground">Admin Menu</span>
+                    <Badge variant="outline" className="text-[9px] px-1.5 py-0 font-bold bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/30">
+                      ADMIN
+                    </Badge>
+                  </div>
+                  <span className="text-[11px] text-muted-foreground truncate block max-w-[200px]">
+                    {me?.email}
                   </span>
                 </div>
-              </Link>
+              </div>
               <Button
                 variant="ghost"
                 size="icon"
-                onClick={() => setMobileOpen(false)}
-                className="h-8 w-8 rounded-lg"
+                onClick={() => setAdminMenuOpen(false)}
+                className="h-8 w-8 rounded-full hover:bg-muted text-muted-foreground hover:text-foreground cursor-pointer"
               >
                 <X className="h-4 w-4" />
               </Button>
             </div>
 
-            {/* Scrollable links */}
-            <div className="flex-1 overflow-y-auto py-4">
-              {renderNavLinks()}
+            {/* Admin Links */}
+            <div className="py-3.5 space-y-1.5 overflow-y-auto">
+              <span className="px-1 text-[10px] font-bold uppercase tracking-wider text-muted-foreground/80">
+                Management Modules
+              </span>
+              {ADMIN_NAV_ITEMS.map((item) => {
+                const active = isItemActive(item);
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setAdminMenuOpen(false)}
+                    className={cn(
+                      "flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all group",
+                      active
+                        ? "bg-foreground text-background shadow-xs font-bold"
+                        : "text-muted-foreground hover:bg-muted/70 hover:text-foreground"
+                    )}
+                  >
+                    <div className="flex items-center gap-3">
+                      <Icon className={cn("h-4 w-4", active ? "text-background" : "text-amber-500")} />
+                      <span>{item.label}</span>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
 
-            {/* Footer Profile, Compact Theme Toggle & Logout */}
-            <div className="pt-3 border-t border-border/80 flex items-center justify-between gap-2">
+            {/* Footer Profile, Theme Toggle & Logout */}
+            <div className="pt-3 border-t border-border/80 flex items-center justify-between gap-2 shrink-0">
               <div className="flex items-center gap-2.5 min-w-0">
                 <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-foreground text-background font-bold text-xs shrink-0 shadow-2xs">
                   {initials}
                 </div>
                 <div className="min-w-0">
                   <p className="text-xs font-bold text-foreground truncate">{displayName}</p>
-                  <p className="text-[10px] text-muted-foreground truncate">
-                    {isAdmin ? "Admin User" : "Student"}
-                  </p>
+                  <p className="text-[10px] text-muted-foreground">Admin Account</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-1 shrink-0">
+              <div className="flex items-center gap-1.5 shrink-0">
                 <Button
-                  variant="ghost"
+                  variant="outline"
                   size="icon"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  className="h-8 w-8 rounded-lg text-muted-foreground hover:text-foreground cursor-pointer"
-                  title={theme === "dark" ? "Switch to Light mode" : "Switch to Dark mode"}
+                  className="h-8 w-8 rounded-xl border-border cursor-pointer"
+                  title="Toggle theme"
                   aria-label="Toggle theme"
                 >
                   {!mounted ? (
-                    <span className="h-4 w-4 inline-block" />
+                    <span className="h-3.5 w-3.5 inline-block" />
                   ) : theme === "dark" ? (
-                    <Sun className="h-4 w-4" />
+                    <Sun className="h-3.5 w-3.5" />
                   ) : (
-                    <Moon className="h-4 w-4" />
+                    <Moon className="h-3.5 w-3.5" />
                   )}
                 </Button>
 
                 <Button
                   variant="ghost"
-                  size="icon"
+                  size="sm"
                   onClick={handleSignOut}
-                  className="h-8 w-8 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 cursor-pointer"
-                  title="Sign Out"
-                  aria-label="Sign Out"
+                  className="h-8 px-2.5 rounded-xl text-xs font-semibold text-destructive hover:bg-destructive/10 cursor-pointer"
                 >
-                  <LogOut className="h-4 w-4" />
+                  <LogOut className="h-3.5 w-3.5 mr-1" />
+                  Sign Out
                 </Button>
               </div>
             </div>
@@ -318,7 +307,7 @@ export function AppSidebar() {
         </div>
       )}
 
-      {/* ── MOBILE BOTTOM NAVIGATION BAR (hidden on md and above, hidden in quiz) ── */}
+      {/* ── MOBILE BOTTOM NAVIGATION BAR ── */}
       {!isQuizActive && (
         <nav
           className="fixed bottom-0 left-0 right-0 z-40 md:hidden border-t border-border bg-card/95 backdrop-blur-md safe-bottom print:hidden"
@@ -333,7 +322,7 @@ export function AppSidebar() {
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    "flex flex-col items-center justify-center gap-0.5 px-2 py-1.5 rounded-xl min-w-0 flex-1 transition-all select-none",
+                    "flex flex-col items-center justify-center gap-0.5 px-1.5 py-1.5 rounded-xl min-w-0 flex-1 transition-all select-none",
                     active
                       ? "text-foreground"
                       : "text-muted-foreground hover:text-foreground"
@@ -359,6 +348,33 @@ export function AppSidebar() {
                 </Link>
               );
             })}
+
+            {/* Admin Hamburger Button: ONLY shown if user is Admin */}
+            {isAdmin && (
+              <button
+                type="button"
+                onClick={() => setAdminMenuOpen((prev) => !prev)}
+                className={cn(
+                  "flex flex-col items-center justify-center gap-0.5 px-1.5 py-1.5 rounded-xl min-w-0 flex-1 transition-all select-none cursor-pointer",
+                  adminMenuOpen || pathname?.startsWith("/admin")
+                    ? "text-amber-500 font-bold"
+                    : "text-muted-foreground hover:text-foreground"
+                )}
+                aria-label="Admin Menu"
+              >
+                <div
+                  className={cn(
+                    "p-1 rounded-lg transition-all",
+                    adminMenuOpen || pathname?.startsWith("/admin") ? "bg-amber-500/15 text-amber-500" : ""
+                  )}
+                >
+                  <Menu className="h-5 w-5 shrink-0" />
+                </div>
+                <span className="text-[10px] font-semibold truncate max-w-full">
+                  Admin
+                </span>
+              </button>
+            )}
           </div>
         </nav>
       )}
@@ -382,7 +398,7 @@ export function AppSidebar() {
 
         {/* Scrollable Navigation */}
         <div className="flex-1 overflow-y-auto p-3.5 scrollbar-thin">
-          {renderNavLinks()}
+          {renderDesktopNavLinks()}
         </div>
 
         {/* Footer: User profile, compact theme toggle & sign out */}
