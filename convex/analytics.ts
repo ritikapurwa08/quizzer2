@@ -246,6 +246,38 @@ export const dashboardStats = query({
       });
     }
 
+    const validDaysSet = new Set(allDays.map((d) => d.day));
+
+    // Calculate period-specific accuracy, questions, and answers strictly for the selected range
+    let periodCorrect = 0;
+    let periodIncorrect = 0;
+    let periodAnswered = 0;
+    let periodQuestionSlots = 0;
+    let periodTests = 0;
+
+    for (const attempt of attempts) {
+      const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
+      if (!attemptTimestamp) continue;
+      const attemptDay = toLocalDayString(attemptTimestamp);
+      if (!validDaysSet.has(attemptDay)) continue;
+
+      periodTests += 1;
+      periodQuestionSlots += attempt.totalQuestions;
+      for (const answer of attempt.answers) {
+        if (isAnswerAttempted(answer)) {
+          periodAnswered += 1;
+          if (answer.isCorrect) {
+            periodCorrect += 1;
+          } else {
+            periodIncorrect += 1;
+          }
+        }
+      }
+    }
+
+    const periodUnanswered = Math.max(0, periodQuestionSlots - periodAnswered);
+    const periodAccuracy = periodAnswered > 0 ? (periodCorrect / periodAnswered) * 100 : 0;
+
     // ── Pool counts ────────────────────────────────────────────────────────
     const subjectAvailableQuestions = new Map<string, number>();
     for (const ts of allTestSets) {
@@ -316,8 +348,6 @@ export const dashboardStats = query({
         tests: 0,
       };
     });
-
-    const validDaysSet = new Set(allDays.map((d) => d.day));
 
     for (const attempt of attempts) {
       const attemptTimestamp = attempt.submittedAt ?? attempt.completedAt;
@@ -408,10 +438,22 @@ export const dashboardStats = query({
       };
     });
 
+    // Use range-specific metrics if rangeDays is passed, otherwise lifetime
+    const activeTestsCount = args.rangeDays !== undefined ? periodTests : testsAttempted;
+    const activeQuestionsCount = args.rangeDays !== undefined ? periodAnswered : totalAnswered;
+    const activeAccuracy = args.rangeDays !== undefined ? periodAccuracy : overallAccuracy;
+    const activeCorrect = args.rangeDays !== undefined ? periodCorrect : totalCorrect;
+    const activeIncorrect = args.rangeDays !== undefined ? periodIncorrect : totalIncorrect;
+    const activeUnanswered = args.rangeDays !== undefined ? periodUnanswered : totalUnanswered;
+    const activeTotalQuestions = args.rangeDays !== undefined ? periodQuestionSlots : totalQuestionSlots;
+
     return {
-      testsAttempted,
-      questionsSolved: totalAnswered,
-      overallAccuracy: Math.round(overallAccuracy * 10) / 10,
+      testsAttempted: activeTestsCount,
+      questionsSolved: activeQuestionsCount,
+      overallAccuracy: Math.round(activeAccuracy * 10) / 10,
+      lifetimeAccuracy: Math.round(overallAccuracy * 10) / 10,
+      lifetimeTestsAttempted: testsAttempted,
+      lifetimeQuestionsSolved: totalAnswered,
       bookmarkCount: bookmarks.length,
       wrongQuestionCount: wrongQuestions.length,
       dailyProgress: allDays,
@@ -420,12 +462,12 @@ export const dashboardStats = query({
       weakSubjects,
       subjectAccuracy,
       answerBreakdown: {
-        correct: totalCorrect,
-        incorrect: totalIncorrect,
-        unanswered: totalUnanswered,
-        totalQuestions: totalQuestionSlots,
-        answeredCount: totalAnswered,
-        accuracy: Math.round(overallAccuracy * 10) / 10,
+        correct: activeCorrect,
+        incorrect: activeIncorrect,
+        unanswered: activeUnanswered,
+        totalQuestions: activeTotalQuestions,
+        answeredCount: activeQuestionsCount,
+        accuracy: Math.round(activeAccuracy * 10) / 10,
       },
       recentAttempts,
       insights: {

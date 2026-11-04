@@ -63,12 +63,18 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
               meta: q.meta,
             };
 
-            if (q._id) map.set(q._id, normalized);
-            if (q.id) map.set(q.id, normalized);
-            if (q.canonicalId) map.set(q.canonicalId, normalized);
-            if (q.convexId) map.set(q.convexId, normalized);
-            if (q.sourceQuestionId) map.set(String(q.sourceQuestionId), normalized);
-            if (q.meta?.sourceQuestionId) map.set(String(q.meta.sourceQuestionId), normalized);
+            const indexKey = (k: string) => {
+              map.set(k, normalized);
+              map.set(k.toLowerCase(), normalized);
+              map.set(k.toUpperCase(), normalized);
+            };
+
+            if (q._id) indexKey(String(q._id));
+            if (q.id) indexKey(String(q.id));
+            if (q.canonicalId) indexKey(String(q.canonicalId));
+            if (q.convexId) indexKey(String(q.convexId));
+            if (q.sourceQuestionId) indexKey(String(q.sourceQuestionId));
+            if (q.meta?.sourceQuestionId) indexKey(String(q.meta.sourceQuestionId));
           }
         }
       }
@@ -97,14 +103,21 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
           meta: p.meta,
         };
 
-        if (!map.has(p.id)) {
-          map.set(p.id, normalized);
-        }
+        const indexPoolKey = (k: string) => {
+          map.set(k, normalized);
+          map.set(k.toLowerCase(), normalized);
+          map.set(k.toUpperCase(), normalized);
+        };
+
+        indexPoolKey(String(p.id));
         if (Array.isArray(p.convexIds)) {
           for (const cid of p.convexIds) {
-            if (!map.has(cid)) {
-              map.set(cid, normalized);
-            }
+            indexPoolKey(String(cid));
+          }
+        }
+        if (Array.isArray(p.variantIds)) {
+          for (const vid of p.variantIds) {
+            indexPoolKey(String(vid));
           }
         }
       }
@@ -142,7 +155,7 @@ export async function POST(request: NextRequest) {
     for (const rawId of ids) {
       if (!rawId) continue;
       const id = String(rawId);
-      const q = cache.get(id);
+      const q = cache.get(id) || cache.get(id.toLowerCase()) || cache.get(id.toUpperCase());
       if (q) {
         resolved[id] = q;
       }

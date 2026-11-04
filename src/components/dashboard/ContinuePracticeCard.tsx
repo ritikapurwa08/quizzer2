@@ -55,39 +55,39 @@ export function ContinuePracticeCard() {
           return (
             <Card
               key={rec.testSetId}
-              className="p-4 rounded-2xl border border-border/80 bg-card hover:border-primary/40 hover:shadow-sm transition-all flex flex-col justify-between gap-3 group relative overflow-hidden"
+              className="p-3.5 rounded-xl border border-border/80 bg-card hover:border-primary/40 hover:shadow-xs transition-all flex flex-col justify-between gap-2.5 group relative overflow-hidden"
             >
               {/* Header: Subject & Badge */}
               <div className="flex items-center justify-between gap-2">
                 <div className="flex items-center gap-1.5 min-w-0">
                   <SectionIcon className="h-3.5 w-3.5 text-muted-foreground shrink-0" />
-                  <span className="text-[11px] font-semibold text-muted-foreground truncate">
+                  <span className="text-[11px] font-semibold text-muted-foreground truncate font-hindi">
                     {rec.subjectName}
                   </span>
                 </div>
 
                 <Badge
                   variant={rec.type === "resume" ? "default" : "outline"}
-                  className="text-[10px] px-2 py-0.5 rounded-full font-bold shrink-0 tracking-tight"
+                  className="text-[10px] px-2 py-0.2 rounded-full font-bold shrink-0 tracking-tight"
                 >
                   {rec.badgeText}
                 </Badge>
               </div>
 
               {/* Title & Topic info */}
-              <div className="space-y-1">
-                <h3 className="font-bold text-sm sm:text-base text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-1">
+              <div className="space-y-0.5">
+                <h3 className="font-bold text-xs sm:text-sm text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-1">
                   {rec.testSetName}
                 </h3>
-                <div className="flex items-center gap-2 text-xs text-muted-foreground font-hindi">
+                <div className="flex items-center gap-1.5 text-[11px] text-muted-foreground font-hindi">
                   <span className="truncate">{rec.topicName}</span>
                   <span className="text-border">·</span>
-                  <span className="tabular-nums shrink-0">{rec.questionCount} Questions</span>
+                  <span className="tabular-nums shrink-0">{rec.questionCount} Qs</span>
                 </div>
               </div>
 
               {/* Action Button */}
-              <Button asChild className="w-full h-8.5 rounded-xl text-xs font-bold shadow-2xs gap-1.5 mt-1">
+              <Button asChild className="w-full h-8 rounded-lg text-xs font-bold shadow-2xs gap-1.5 mt-0.5 cursor-pointer">
                 <Link href={`/quiz/${rec.testSetId}`}>
                   {rec.type === "resume" ? (
                     <>

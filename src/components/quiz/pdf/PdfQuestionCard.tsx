@@ -156,7 +156,7 @@ export function PdfQuestionCard({
             </span>
             {examRef && (
               <span
-                className="max-w-[130px] truncate rounded border px-1.5 py-0.5 text-[6.8pt] font-semibold"
+                className="max-w-32.5 truncate rounded border px-1.5 py-0.5 text-[6.8pt] font-semibold"
                 style={{
                   background: "var(--pdf-surface-2)",
                   borderColor: "var(--pdf-border)",
@@ -218,6 +218,79 @@ export function PdfQuestionCard({
         >
           {cleanedText || question.questionText}
         </div>
+
+        {/* ── Match Lists (Side-by-side 2-column table for Print/PDF) ── */}
+        {question.meta?.left && question.meta?.right && question.meta.left.length > 0 && (
+          <div
+            className="rounded-lg border mb-2 overflow-hidden text-[7.5pt] shrink-0"
+            style={{ borderColor: "var(--pdf-border)", background: "var(--pdf-surface-2)" }}
+          >
+            <div
+              className="grid grid-cols-2 border-b font-bold divide-x py-1 px-2.5"
+              style={{ borderColor: "var(--pdf-border)", color: "var(--pdf-muted)" }}
+            >
+              <div>{question.meta.leftTitle || (isHindi ? "सूची – I" : "List – I")}</div>
+              <div>{question.meta.rightTitle || (isHindi ? "सूची – II" : "List – II")}</div>
+            </div>
+            <div className="divide-y" style={{ borderColor: "var(--pdf-border)" }}>
+              {Array.from({ length: Math.max(question.meta.left.length, question.meta.right.length) }).map((_, idx) => {
+                const leftItem = question.meta.left[idx];
+                const rightItem = question.meta.right[idx];
+                return (
+                  <div key={idx} className="grid grid-cols-2 divide-x py-1 px-2.5" style={{ borderColor: "var(--pdf-border)" }}>
+                    <div className="pr-1.5 flex gap-1 items-start">
+                      {leftItem && (
+                        <>
+                          <span className="font-bold opacity-80 shrink-0">{leftItem.id}.</span>
+                          <span className={cn("leading-normal", isHindi && "font-hindi")}>{leftItem.text}</span>
+                        </>
+                      )}
+                    </div>
+                    <div className="pl-1.5 flex gap-1 items-start">
+                      {rightItem && (
+                        <>
+                          <span className="font-bold opacity-80 shrink-0">{rightItem.id}.</span>
+                          <span className={cn("leading-normal", isHindi && "font-hindi")}>{rightItem.text}</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* ── Table (Clean tabular layout for Print/PDF) ── */}
+        {question.meta?.headers && question.meta?.rows && question.meta.headers.length > 0 && (
+          <div
+            className="rounded-lg border mb-2 overflow-hidden text-[7.5pt] shrink-0"
+            style={{ borderColor: "var(--pdf-border)", background: "var(--pdf-surface-2)" }}
+          >
+            <table className="w-full text-left border-collapse">
+              <thead className="border-b" style={{ borderColor: "var(--pdf-border)" }}>
+                <tr>
+                  {question.meta.headers.map((h: string, i: number) => (
+                    <th key={i} className="py-1 px-2.5 font-bold" style={{ color: "var(--pdf-muted)" }}>
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y" style={{ borderColor: "var(--pdf-border)" }}>
+                {question.meta.rows.map((row: string[], rIdx: number) => (
+                  <tr key={rIdx}>
+                    {row.map((cell: string, cIdx: number) => (
+                      <td key={cIdx} className="py-1 px-2.5">
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
 
         {/* ── 4 Options List (8.5pt font, rounded rows, circular letter badges) ── */}
         {Array.isArray(question.options) && question.options.length > 0 && (

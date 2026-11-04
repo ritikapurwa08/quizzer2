@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Google_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -8,13 +8,10 @@ import { ToastProvider } from "@/components/ui/Toast";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegistrar } from "@/components/shared/PwaRegistrar";
 
-const googleSans = Google_Sans({
-  subsets: ["latin", "devanagari"],
-  weight: ["400", "500", "600"],
+const inter = Inter({
+  subsets: ["latin"],
   variable: "--font-google-sans",
   display: "swap",
-  adjustFontFallback: false,
-  fallback: ["system-ui", "-apple-system", "sans-serif"],
 });
 
 export const metadata: Metadata = {
@@ -54,7 +51,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="en" suppressHydrationWarning className={googleSans.variable}>
+      <html lang="en" suppressHydrationWarning className={inter.variable}>
         <body>
           <ThemeProvider
             attribute="class"

@@ -232,41 +232,58 @@ export function enrichQuestionStructure(q: any): any {
   let meta = { ...(q.meta || {}) };
   const rawText = meta.rawQuestionText || q.questionText || q.question || "";
   let type = q.type || "mcq";
-  let questionText = rawText;
+  let questionText = q.questionText || q.question || rawText;
 
-  // 1. Markdown Table Check
-  if (rawText.includes("|") && (!meta.headers || meta.headers.length === 0)) {
-    const parsedTable = tryParseMarkdownTable(rawText);
-    if (parsedTable && parsedTable.headers.length >= 2) {
-      type = "table";
-      meta.headers = parsedTable.headers;
-      meta.rows = parsedTable.rows;
-      meta.rawQuestionText = rawText;
-      if (parsedTable.remainingText) {
-        questionText = parsedTable.remainingText;
+  // 1. Markdown Table Check (Always retain table type if headers & rows present)
+  if (rawText.includes("|") || type === "table" || (meta.headers && meta.headers.length >= 2)) {
+    if (!meta.headers || meta.headers.length === 0) {
+      const parsedTable = tryParseMarkdownTable(rawText);
+      if (parsedTable && parsedTable.headers.length >= 2) {
+        type = "table";
+        meta.headers = parsedTable.headers;
+        meta.rows = parsedTable.rows;
+        meta.rawQuestionText = rawText;
+        if (parsedTable.remainingText) {
+          questionText = parsedTable.remainingText;
+        }
       }
+    }
+    if (meta.headers && meta.headers.length >= 2 && meta.rows && meta.rows.length >= 1) {
+      type = "table";
+      return {
+        ...q,
+        type: "table",
+        questionText: questionText || meta.rawQuestionText || rawText,
+        question: questionText || meta.rawQuestionText || rawText,
+        meta,
+      };
     }
   }
 
   // 2. Match Question Check
+  const hasExistingMatchMeta = Boolean(meta.left && meta.left.length >= 2 && meta.right && meta.right.length >= 2);
   const isMatchCandidate =
+    hasExistingMatchMeta ||
     type === "match_following" ||
     type === "match" ||
-    Boolean(meta.rawQuestionText) ||
-    /(?:(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:सुमेलित\s*(?:कीजिए|कीजिये|करें)))/i.test(
+    /(?:(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:सुमेलित\s*(?:कीजिए|कीजिये|करें))|(?:मिलान\s*(?:कीजिए|कीजिये|करें))|(?:मिलाएं|मिलाइये|मिलाइए))/i.test(
       rawText
     );
 
   if (isMatchCandidate) {
-    const extractedMatch = extractMatchQuestionData(rawText);
-    if (extractedMatch) {
+    if (hasExistingMatchMeta) {
       type = "match_following";
-      meta.left = extractedMatch.left;
-      meta.right = extractedMatch.right;
-      meta.leftTitle = extractedMatch.leftTitle;
-      meta.rightTitle = extractedMatch.rightTitle;
-      meta.rawQuestionText = rawText;
-      questionText = extractedMatch.cleanPrompt;
+    } else {
+      const extractedMatch = extractMatchQuestionData(rawText);
+      if (extractedMatch && extractedMatch.left.length >= 2 && extractedMatch.right.length >= 2) {
+        type = "match_following";
+        meta.left = extractedMatch.left;
+        meta.right = extractedMatch.right;
+        meta.leftTitle = extractedMatch.leftTitle;
+        meta.rightTitle = extractedMatch.rightTitle;
+        meta.rawQuestionText = rawText;
+        questionText = extractedMatch.cleanPrompt;
+      }
     }
   }
 

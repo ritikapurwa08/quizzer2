@@ -16054,7 +16054,7 @@
     "topicHindi": "काल (Tense)",
     "masterTopicId": 1,
     "masterTopic": "Tense",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match Column-I with Column II.\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-II, b-I, c-IV, d-III",
       "a-I, b-II, c-IV, d-III",
@@ -16083,8 +16083,8 @@
     "convexTestSetIds": [
       "kd7ez0mrqwey84pe2j0j5apxas8gx19a"
     ],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match Column-I with Column II.\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "Column-I (Tense)",
@@ -16108,44 +16108,6 @@
           "IV. She is writing a letter"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Present |"
-        },
-        {
-          "id": "b",
-          "text": "Past |"
-        },
-        {
-          "id": "c",
-          "text": "Future |"
-        },
-        {
-          "id": "d",
-          "text": "Present Continuous |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "She writes a letter. |\n|"
-        },
-        {
-          "id": "II",
-          "text": "She will write a letter. |\n|"
-        },
-        {
-          "id": "III",
-          "text": "She wrote a letter. |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "She is writing a letter |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Tense)",
-      "rightTitle": "List – II (Sentence)",
       "rawQuestionText": "Match Column-I with Column II.\n| Column-I (Tense) | Column-II (Sentence) |\n| --- | --- |\n| a. Present | I. She writes a letter. |\n| b. Past | II. She will write a letter. |\n| c. Future | III. She wrote a letter. |\n| d. Present Continuous | IV. She is writing a letter |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -31525,7 +31487,7 @@
     "topicHindi": "उपसर्ग एवं प्रत्यय (Prefixes & Suffixes)",
     "masterTopicId": 11,
     "masterTopic": "Prefixes and Suffixes",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the prefixes under Column A with the words under Column B :",
     "options": [
       "a-(iv), b-(iii), c-(ii), d-(i)",
       "a-(iii), b-(iv), c-(ii), d-(i)",
@@ -31550,8 +31512,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the prefixes under Column A with the words under Column B :",
     "meta": {
       "headers": [
         "Column A",
@@ -31575,40 +31537,6 @@
           "(iv) code"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "mis |"
-        },
-        {
-          "id": "i",
-          "text": "tie |\n|"
-        },
-        {
-          "id": "b",
-          "text": "de |"
-        }
-      ],
-      "right": [
-        {
-          "id": "ii",
-          "text": "content |\n|"
-        },
-        {
-          "id": "c",
-          "text": "un |"
-        },
-        {
-          "id": "iii",
-          "text": "conduct |\n|"
-        },
-        {
-          "id": "d",
-          "text": "dis |"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the prefixes under Column A with the words under Column B :\n| Column A | Column B |\n| --- | --- |\n| a. mis | (i) tie |\n| b. de | (ii) content |\n| c. un | (iii) conduct |\n| d. dis | (iv) code |"
     }
   },
@@ -31817,7 +31745,7 @@
     "topicHindi": "उपसर्ग एवं प्रत्यय (Prefixes & Suffixes)",
     "masterTopicId": 11,
     "masterTopic": "Prefixes and Suffixes",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the underlined words in List - I with most suitable Suffixes from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(iv), (b)-(iii), (c)-(ii), (d)-(i)",
@@ -31842,8 +31770,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the underlined words in List - I with most suitable Suffixes from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List - I",
@@ -31867,44 +31795,6 @@
           "(iv) ridden"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "A country that needs to be taken care of is poverty _____. |"
-        },
-        {
-          "id": "b",
-          "text": "A person who can be depended upon is trust _____. |"
-        },
-        {
-          "id": "c",
-          "text": "A bullet _____ vehicle saves lives. |"
-        },
-        {
-          "id": "d",
-          "text": "Businessmen are very money _____. |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "proof |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "conscious |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "worthy |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "ridden |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the underlined words in List - I with most suitable Suffixes from List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) A country that needs to be taken care of is poverty _____. | (i) proof |\n| (b) A person who can be depended upon is trust _____. | (ii) conscious |\n| (c) A bullet _____ vehicle saves lives. | (iii) worthy |\n| (d) Businessmen are very money _____. | (iv) ridden |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -31918,7 +31808,7 @@
     "topicHindi": "उपसर्ग एवं प्रत्यय (Prefixes & Suffixes)",
     "masterTopicId": 11,
     "masterTopic": "Prefixes and Suffixes",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Complete the sentence in List - I by choosing the most appropriate prefixes from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(ii), (b)-(i), (c)-(iv), (d)-(iii)",
       "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -31943,8 +31833,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Complete the sentence in List - I by choosing the most appropriate prefixes from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List - I",
@@ -31968,52 +31858,6 @@
           "(iv) ill"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "The committee met to _____ appraise its members  about the indiscipline cases in the schoo"
-        },
-        {
-          "id": "i",
-          "text": "mis |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "de |\n|"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "d",
-          "text": "I was _____ informed about the case as I was fed  inaccurate details. |"
-        }
-      ],
-      "right": [
-        {
-          "id": "l",
-          "text": "|"
-        },
-        {
-          "id": "b",
-          "text": "The Covid research is now _____ classified information. |"
-        },
-        {
-          "id": "c",
-          "text": "I hope you do not nurse any _____ conceptions about m"
-        },
-        {
-          "id": "iii",
-          "text": "re |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "ill |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Complete the sentence in List - I by choosing the most appropriate prefixes from List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) The committee met to _____ appraise its members  about the indiscipline cases in the school. | (i) mis |\n| (b) The Covid research is now _____ classified information. | (ii) de |\n| (c) I hope you do not nurse any _____ conceptions about me. | (iii) re |\n| (d) I was _____ informed about the case as I was fed  inaccurate details. | (iv) ill |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -35063,7 +34907,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - II, b - I, d - III, d - IV",
       "a -I, b - II, c - IV, d - III",
@@ -35088,8 +34932,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Fields)",
@@ -35113,44 +34957,6 @@
           "IV. Disbursing loansy"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Medicine |"
-        },
-        {
-          "id": "b",
-          "text": "Banking |"
-        },
-        {
-          "id": "c",
-          "text": "Criminology |"
-        },
-        {
-          "id": "d",
-          "text": "Meteorology |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Predicting natural catastrophies |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Identifying Potential criminals |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Interpreting ultrasound images |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Fields)",
-      "rightTitle": "List – II (Application of AI)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -35164,7 +34970,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-IIChoose the most appropriate answer from the options given below:",
     "options": [
       "a - III, b - Il, c - IV, d - I",
       "a - II, b - IV, c - I, d - III",
@@ -35189,8 +34995,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-IIChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Words)",
@@ -35214,44 +35020,6 @@
           "IV. with not much say in important matters."
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Entrenched |"
-        },
-        {
-          "id": "b",
-          "text": "Marginalised |"
-        },
-        {
-          "id": "c",
-          "text": "Predictive |"
-        },
-        {
-          "id": "d",
-          "text": "Ethnic |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "ability of show future happenings |\n|"
-        },
-        {
-          "id": "II",
-          "text": "established strongly |\n|"
-        },
-        {
-          "id": "III",
-          "text": "People that share the same cultural traditions |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "with not much say in important matters. |"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Meanings)",
       "rawQuestionText": "Match List-I with List-IIChoose the most appropriate answer from the options given below:\n| List-I (Words) | List-II (Meanings) |\n| --- | --- |\n| a. Entrenched | I. ability of show future happenings |\n| b. Marginalised | II. established strongly |\n| c. Predictive | III. People that share the same cultural traditions |\n| d. Ethnic | IV. with not much say in important matters. |"
     }
   },
@@ -35343,7 +35111,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-II, b-IV, c-III, d-I",
       "a-I, b-IV, c-II, d-III",
@@ -35368,8 +35136,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I",
@@ -35393,44 +35161,6 @@
           "IV. Opposed to sudden social change"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Conservative |"
-        },
-        {
-          "id": "b",
-          "text": "Arsenal |"
-        },
-        {
-          "id": "c",
-          "text": "Innovative |"
-        },
-        {
-          "id": "d",
-          "text": "Fortify |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Using new ideas |\n|"
-        },
-        {
-          "id": "II",
-          "text": "To feel stronger |\n|"
-        },
-        {
-          "id": "III",
-          "text": "A collection of weapons |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Opposed to sudden social change |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II\n| List-I | List-II |\n| --- | --- |\n| a. Conservative | I. Using new ideas |\n| b. Arsenal | II. To feel stronger |\n| c. Innovative | III. A collection of weapons |\n| d. Fortify | IV. Opposed to sudden social change |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -35600,7 +35330,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - I, b - II, c - III, d - IV",
       "a - II, b - IV, c - I, d - III",
@@ -35625,8 +35355,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Words)",
@@ -35650,44 +35380,6 @@
           "IV. repairs"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "alleviate |"
-        },
-        {
-          "id": "b",
-          "text": "impairs |"
-        },
-        {
-          "id": "c",
-          "text": "exacerbate |"
-        },
-        {
-          "id": "d",
-          "text": "rapidly |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "assuage |\n|"
-        },
-        {
-          "id": "II",
-          "text": "aggravate |\n|"
-        },
-        {
-          "id": "III",
-          "text": "leisurely |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "repairs |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Antonyms)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Antonyms) |\n| --- | --- |\n| a. alleviate | I. assuage |\n| b. impairs | II. aggravate |\n| c. exacerbate | III. leisurely |\n| d. rapidly | IV. repairs |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -35857,7 +35549,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-III, b-IV, c-II, d-I",
       "a-IV, b-III, c-II, d-I",
@@ -35882,8 +35574,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Words)",
@@ -35907,44 +35599,6 @@
           "IV. Something that is suggested"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Unprecedented |"
-        },
-        {
-          "id": "b",
-          "text": "Implications |"
-        },
-        {
-          "id": "c",
-          "text": "Sinks |"
-        },
-        {
-          "id": "d",
-          "text": "Scare mongering |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Forests land, which absorbs carbon-dioxide from the air |\n|"
-        },
-        {
-          "id": "II",
-          "text": "That which has never happened before |\n|"
-        },
-        {
-          "id": "III",
-          "text": "The deliberate spreading of frightening rumours |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Something that is suggested |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Meaning)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Meaning) |\n| --- | --- |\n| a. Unprecedented | I. Forests land, which absorbs carbon-dioxide from the air |\n| b. Implications | II. That which has never happened before |\n| c. Sinks | III. The deliberate spreading of frightening rumours |\n| d. Scare mongering | IV. Something that is suggested |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -36465,7 +36119,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II: \n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - IV, b - I, c - III, d - II",
       "a - IV, b - III, c - I, d - II",
@@ -36490,8 +36144,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II: \n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-IWords",
@@ -36515,44 +36169,6 @@
           "IV. Water that falls"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Endeavour |"
-        },
-        {
-          "id": "b",
-          "text": "Crooked |"
-        },
-        {
-          "id": "c",
-          "text": "Cataracts |"
-        },
-        {
-          "id": "d",
-          "text": "Antidote |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Dishonest |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Anything that prevents |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Effort |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Water that falls |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I",
-      "rightTitle": "सूची – II",
       "rawQuestionText": "Match List-I with List-II: \n| List-IWords | List-IISynonyms |\n| --- | --- |\n| a. Endeavour | I. Dishonest |\n| b. Crooked | II. Anything that prevents |\n| c. Cataracts | III. Effort |\n| d. Antidote | IV. Water that falls |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -37268,7 +36884,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II  :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(i), (b) - (ii), (c) - (iv), (d) - (iii)",
       "(i), (b) - (iii), (c) - (ii), (d) - (iv)",
@@ -37293,8 +36909,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II  :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I Words",
@@ -37318,44 +36934,6 @@
           "(iv) quick and light in action"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "nondescript |"
-        },
-        {
-          "id": "b",
-          "text": "nimble |"
-        },
-        {
-          "id": "c",
-          "text": "acumen |"
-        },
-        {
-          "id": "d",
-          "text": "virtuoso |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "one skilled in music |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "sharpness |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "lacking in interesting characteristics |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "quick and light in action |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I",
-      "rightTitle": "सूची – II",
       "rawQuestionText": "Match List-I with List-II  :\n| List-I Words | List-IISynonyms |\n| --- | --- |\n| (a) nondescript | (i) one skilled in music |\n| (b) nimble | (ii) sharpness |\n| (c) acumen | (iii) lacking in interesting characteristics |\n| (d) virtuoso | (iv) quick and light in action |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -37447,7 +37025,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
       "(i), (b)-(ii), (c)-(iii), (d)-(iv)",
@@ -37472,8 +37050,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List-I",
@@ -37497,44 +37075,6 @@
           "(iv) Showing good judgement"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Chocolatiers |"
-        },
-        {
-          "id": "b",
-          "text": "Artisanal |"
-        },
-        {
-          "id": "c",
-          "text": "Discerning |"
-        },
-        {
-          "id": "d",
-          "text": "Ingredients |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Items combined to make a particular food or drink |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Those who make and sell chocolates |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Skilled |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Showing good judgement |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II.\n| List-I | List-II |\n| --- | --- |\n| (a) Chocolatiers | (i) Items combined to make a particular food or drink |\n| (b) Artisanal | (ii) Those who make and sell chocolates |\n| (c) Discerning | (iii) Skilled |\n| (d) Ingredients | (iv) Showing good judgement |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -39642,7 +39182,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List I with List II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-III, c-I, d-IV",
@@ -39667,8 +39207,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List I with List II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List I (Words)",
@@ -39692,44 +39232,6 @@
           "IV. Pleasure"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Humidity |"
-        },
-        {
-          "id": "b",
-          "text": "Pain |"
-        },
-        {
-          "id": "c",
-          "text": "Better |"
-        },
-        {
-          "id": "d",
-          "text": "Flexible |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Rigid |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Worse |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Dryness |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Pleasure |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Antonyms)",
       "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Antonyms) |\n| --- | --- |\n| a. Humidity | I. Rigid |\n| b. Pain | II. Worse |\n| c. Better | III. Dryness |\n| d. Flexible | IV. Pleasure |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -39938,7 +39440,7 @@
     "topicHindi": "अपठित गद्यांश (Reading Comprehension)",
     "masterTopicId": 12,
     "masterTopic": "Reading Comprehension",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List I with List II :\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-III, c-I, d-IV",
@@ -39963,8 +39465,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List I with List II :\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I (Words)",
@@ -39988,44 +39490,6 @@
           "IV. Government of one ruler"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Flora |"
-        },
-        {
-          "id": "b",
-          "text": "Lofty |"
-        },
-        {
-          "id": "c",
-          "text": "Monarchy |"
-        },
-        {
-          "id": "d",
-          "text": "Ethos |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Of great height |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Culture |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Plant life |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Government of one ruler |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Meaning)",
       "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Meaning) |\n| --- | --- |\n| a. Flora | I. Of great height |\n| b. Lofty | II. Culture |\n| c. Monarchy | III. Plant life |\n| d. Ethos | IV. Government of one ruler |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -46630,7 +46094,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(ii), (c)-(i), (d)-(iii)",
       "(iii), (b)-(i), (c)-(ii), (d)-(iv)",
@@ -46655,8 +46119,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I (Word)",
@@ -46680,44 +46144,6 @@
           "(iv) Praise"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Abundant |"
-        },
-        {
-          "id": "b",
-          "text": "Vague |"
-        },
-        {
-          "id": "c",
-          "text": "Admonish |"
-        },
-        {
-          "id": "d",
-          "text": "Sensitive |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Callous |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Scarce |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Clear |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Praise |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Antonyms)",
       "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Abundant | (i) Callous |\n| (b) Vague | (ii) Scarce |\n| (c) Admonish | (iii) Clear |\n| (d) Sensitive | (iv) Praise |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -46731,7 +46157,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(iii), (c)-(ii), (d)-(i)",
       "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -46756,8 +46182,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I (Word)",
@@ -46781,44 +46207,6 @@
           "(iv) Gloomy"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Munificent |"
-        },
-        {
-          "id": "b",
-          "text": "Jubilant |"
-        },
-        {
-          "id": "c",
-          "text": "Accept |"
-        },
-        {
-          "id": "d",
-          "text": "Homogenous |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Decline |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Heterogenous |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Miserly |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Gloomy |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Antonyms)",
       "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Munificent | (i) Decline |\n| (b) Jubilant | (ii) Heterogenous |\n| (c) Accept | (iii) Miserly |\n| (d) Homogenous | (iv) Gloomy |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -46832,7 +46220,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropirate answer from the options given below:",
     "options": [
       "a - IV, b - II, c - III, d - I",
       "a - I, b - III, c - IV, d - II",
@@ -46857,8 +46245,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropirate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Word)",
@@ -46882,44 +46270,6 @@
           "IV. Repulsive"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Discourage |"
-        },
-        {
-          "id": "b",
-          "text": "Attractive |"
-        },
-        {
-          "id": "c",
-          "text": "Strict |"
-        },
-        {
-          "id": "d",
-          "text": "Denounce |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Lax |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Encourage |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Accept |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Repulsive |\n\nChoose the most appropirate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Opposite)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Word) | List-II (Opposite) |\n| --- | --- |\n| a. Discourage | I. Lax |\n| b. Attractive | II. Encourage |\n| c. Strict | III. Accept |\n| d. Denounce | IV. Repulsive |\n\nChoose the most appropirate answer from the options given below:"
     }
   },
@@ -46933,7 +46283,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-II, b-III, c-IV, d-I",
       "a-IV, b-I, c-II, d-III",
@@ -46958,8 +46308,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-IWord",
@@ -46983,44 +46333,6 @@
           "IV. apparent"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "peevish |"
-        },
-        {
-          "id": "b",
-          "text": "generous |"
-        },
-        {
-          "id": "c",
-          "text": "latent |"
-        },
-        {
-          "id": "d",
-          "text": "vanity |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "humility |\n|"
-        },
-        {
-          "id": "II",
-          "text": "genial |\n|"
-        },
-        {
-          "id": "III",
-          "text": "stingy |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "apparent |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| a. peevish | I. humility |\n| b. generous | II. genial |\n| c. latent | III. stingy |\n| d. vanity | IV. apparent |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -47073,7 +46385,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
       "(iii), (b)-(i), (c)-(iv), (d)-(ii)",
@@ -47098,8 +46410,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I Word",
@@ -47123,44 +46435,6 @@
           "(iv) Plenty"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Approve |"
-        },
-        {
-          "id": "b",
-          "text": "Scarce |"
-        },
-        {
-          "id": "c",
-          "text": "Modern |"
-        },
-        {
-          "id": "d",
-          "text": "Opaque |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Orthodox |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Transparent |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Disapprove |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Plenty |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (Word)",
-      "rightTitle": "सूची – II (Antonyms)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II Antonyms |\n| --- | --- |\n| (a) Approve | (i) Orthodox |\n| (b) Scarce | (ii) Transparent |\n| (c) Modern | (iii) Disapprove |\n| (d) Opaque | (iv) Plenty |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -47174,7 +46448,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(ii), (b)-(iii), (c)-(iv), (d)-(i)",
@@ -47199,8 +46473,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-IWord",
@@ -47224,44 +46498,6 @@
           "(iv) fertile"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "barren |"
-        },
-        {
-          "id": "b",
-          "text": "despair |"
-        },
-        {
-          "id": "c",
-          "text": "flexible |"
-        },
-        {
-          "id": "d",
-          "text": "humble |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "hope |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "rigid |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "arrogant |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "fertile |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I",
-      "rightTitle": "सूची – II",
       "rawQuestionText": "Match List-I with List-II :\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| (a) barren | (i) hope |\n| (b) despair | (ii) rigid |\n| (c) flexible | (iii) arrogant |\n| (d) humble | (iv) fertile |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -47571,7 +46807,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the given words of List I with their opposites in List II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-III, c-I, d-IV",
@@ -47596,8 +46832,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the given words of List I with their opposites in List II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I",
@@ -47621,44 +46857,6 @@
           "IV. Public"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Interior |"
-        },
-        {
-          "id": "b",
-          "text": "Simple |"
-        },
-        {
-          "id": "c",
-          "text": "Stationary |"
-        },
-        {
-          "id": "d",
-          "text": "Private |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Complex |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Mobile |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Exterior |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Public |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the given words of List I with their opposites in List II.\n| List I | List II |\n| --- | --- |\n| a. Interior | I. Complex |\n| b. Simple | II. Mobile |\n| c. Stationary | III. Exterior |\n| d. Private | IV. Public |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -48382,7 +47580,7 @@
     "topicHindi": "विलोम शब्द (Antonyms)",
     "masterTopicId": 14,
     "masterTopic": "Antonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words in column I to their antonyms in column II –",
     "options": [
       "a-(iv), b-(i), c-(iii), d-(ii)",
       "a-(iv), b-(iii), c-(i), d-(ii)",
@@ -48407,8 +47605,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words in column I to their antonyms in column II –",
     "meta": {
       "headers": [
         "Column-I",
@@ -48432,44 +47630,6 @@
           "(iv) original"
         ]
       ],
-      "left": [
-        {
-          "id": "A",
-          "text": "conceal |"
-        },
-        {
-          "id": "B",
-          "text": "hedonist |"
-        },
-        {
-          "id": "C",
-          "text": "hackneyed |"
-        },
-        {
-          "id": "D",
-          "text": "ephemeral |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "ascetic |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "permanent |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "reveal |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "original |"
-        }
-      ],
-      "leftTitle": "सूची – I (to)",
-      "rightTitle": "सूची – II (–)",
       "rawQuestionText": "Match the words in column I to their antonyms in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) conceal | (i) ascetic |\n| (B) hedonist | (ii) permanent |\n| (C) hackneyed | (iii) reveal |\n| (D) ephemeral | (iv) original |"
     }
   },
@@ -50331,7 +49491,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-II, b-III, c-IV, d-I",
       "a-I, b-II, c-III, d-IV",
@@ -50356,8 +49516,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Word)",
@@ -50381,56 +49541,6 @@
           "IV. A person who loves mankind."
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Misanthrope |"
-        },
-        {
-          "id": "I",
-          "text": "Aperson who always thinks bad things will happen. |\n|"
-        },
-        {
-          "id": "b",
-          "text": "Optimist |"
-        },
-        {
-          "id": "II",
-          "text": "A person who hates mankin"
-        },
-        {
-          "id": "d",
-          "text": "|\n|"
-        }
-      ],
-      "right": [
-        {
-          "id": "c",
-          "text": "Philanthropist |"
-        },
-        {
-          "id": "III",
-          "text": "A person who expects goo"
-        },
-        {
-          "id": "d",
-          "text": "|\n|"
-        },
-        {
-          "id": "d",
-          "text": "Pessimist |"
-        },
-        {
-          "id": "IV",
-          "text": "A person who loves mankin"
-        },
-        {
-          "id": "d",
-          "text": "|\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Meaning)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Word) | List-II (Meaning) |\n| --- | --- |\n| a. Misanthrope | I. Aperson who always thinks bad things will happen. |\n| b. Optimist | II. A person who hates mankind. |\n| c. Philanthropist | III. A person who expects good. |\n| d. Pessimist | IV. A person who loves mankind. |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -51029,7 +50139,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b) - (ii), (c) - (i), (d) - (iii)",
       "(i), (b) - (ii), (c) - (iii), (d) - (iv)",
@@ -51054,8 +50164,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-IFears",
@@ -51079,44 +50189,6 @@
           "(iv) Fear of being confined to small places"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Hedonophobia |"
-        },
-        {
-          "id": "b",
-          "text": "Kleptomania |"
-        },
-        {
-          "id": "c",
-          "text": "Claustrophobia |"
-        },
-        {
-          "id": "d",
-          "text": "Bibliophobia |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Fear of books |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Fear of pleasure |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Compulsive desire to steal |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Fear of being confined to small places |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I",
-      "rightTitle": "सूची – II",
       "rawQuestionText": "Match List-I with List-II :\n| List-IFears | List-IIArea |\n| --- | --- |\n| (a) Hedonophobia | (i) Fear of books |\n| (b) Kleptomania | (ii) Fear of pleasure |\n| (c) Claustrophobia | (iii) Compulsive desire to steal |\n| (d) Bibliophobia | (iv) Fear of being confined to small places |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -51247,7 +50319,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words in List - I with their definitions in List - II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
       "(i), (b)-(iii), (c)-(iv), (d)-(ii)",
@@ -51272,8 +50344,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words in List - I with their definitions in List - II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List - I",
@@ -51297,44 +50369,6 @@
           "(iv) Genetic modification of plants"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Ergonomics |"
-        },
-        {
-          "id": "b",
-          "text": "Biotechnology |"
-        },
-        {
-          "id": "c",
-          "text": "Artificial Intelligence |"
-        },
-        {
-          "id": "d",
-          "text": "Bluetooth |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Automatic translation by identification systems |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Connecting electronic devices to each other with no wires |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Design of environments for people to work efficiently and comfortably |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Genetic modification of plants |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the words in List - I with their definitions in List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) Ergonomics | (i) Automatic translation by identification systems |\n| (b) Biotechnology | (ii) Connecting electronic devices to each other with no wires |\n| (c) Artificial Intelligence | (iii) Design of environments for people to work efficiently and comfortably |\n| (d) Bluetooth | (iv) Genetic modification of plants |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -51426,7 +50460,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(i), (b)-(iii), (c)-(ii), (d)-(iv)",
       "(iii), (b)-(i), (c)-(iv), (d)-(ii)",
@@ -51451,8 +50485,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I",
@@ -51476,44 +50510,6 @@
           "(iv) By birth"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Anarchy |"
-        },
-        {
-          "id": "b",
-          "text": "Ornithology |"
-        },
-        {
-          "id": "c",
-          "text": "Congenital |"
-        },
-        {
-          "id": "d",
-          "text": "Hydrophobia |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Study of birds |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Fear of water |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Absence of rule, law and order |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "By birth |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Anarchy | (i) Study of birds |\n| (b) Ornithology | (ii) Fear of water |\n| (c) Congenital | (iii) Absence of rule, law and order |\n| (d) Hydrophobia | (iv) By birth |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -51527,7 +50523,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(ii), (b)-(i), (c)-(iv), (d)-(iii)",
       "(i), (b)-(ii), (c)-(iii), (d)-(iv)",
@@ -51552,8 +50548,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I",
@@ -51577,44 +50573,6 @@
           "(iv) One who believes in the existence of God"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Manuscript |"
-        },
-        {
-          "id": "b",
-          "text": "Theism |"
-        },
-        {
-          "id": "c",
-          "text": "Utopia |"
-        },
-        {
-          "id": "d",
-          "text": "Stoic |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "A state of highest perfection |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Book written by hand |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "One who is indifferent to pain or pleasure |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "One who believes in the existence of God |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Manuscript | (i) A state of highest perfection |\n| (b) Theism | (ii) Book written by hand |\n| (c) Utopia | (iii) One who is indifferent to pain or pleasure |\n| (d) Stoic | (iv) One who believes in the existence of God |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -51702,7 +50660,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the phrases of List I with the corresponding words of List II :\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-III, b-I, c-II, d-IV",
@@ -51727,8 +50685,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the phrases of List I with the corresponding words of List II :\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I",
@@ -51752,44 +50710,6 @@
           "IV. Claustrophobia"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Severe shortage of food |"
-        },
-        {
-          "id": "b",
-          "text": "A retired person retaining honorary title |"
-        },
-        {
-          "id": "c",
-          "text": "Fear of water |"
-        },
-        {
-          "id": "d",
-          "text": "Abnormal fear of confined place |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Emeritus |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Hydrophobia |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Famine |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Claustrophobia |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the phrases of List I with the corresponding words of List II :\n| List I | List II |\n| --- | --- |\n| a. Severe shortage of food | I. Emeritus |\n| b. A retired person retaining honorary title | II. Hydrophobia |\n| c. Fear of water | III. Famine |\n| d. Abnormal fear of confined place | IV. Claustrophobia |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -52930,7 +51850,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match words in column I with their meanings in column II –",
     "options": [
       "a-(i), b-(ii), c-(iii), d-(iv)",
       "a-(iv), b-(i), c-(iii), d-(ii)",
@@ -52955,8 +51875,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match words in column I with their meanings in column II –",
     "meta": {
       "headers": [
         "Column-I",
@@ -52980,44 +51900,6 @@
           "(iv) strange and out of place"
         ]
       ],
-      "left": [
-        {
-          "id": "A",
-          "text": "incongruous |"
-        },
-        {
-          "id": "B",
-          "text": "resilient |"
-        },
-        {
-          "id": "C",
-          "text": "obsolete |"
-        },
-        {
-          "id": "D",
-          "text": "omniscient |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "recover quickly from difficult situation |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "one who knows everything |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "that which is no longer in use |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "strange and out of place |"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (–)",
       "rawQuestionText": "Match words in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) incongruous | (i) recover quickly from difficult situation |\n| (B) resilient | (ii) one who knows everything |\n| (C) obsolete | (iii) that which is no longer in use |\n| (D) omniscient | (iv) strange and out of place |"
     }
   },
@@ -53335,7 +52217,7 @@
     "topicHindi": "वाक्यांश के लिए एक शब्द (One Word Substitution)",
     "masterTopicId": 15,
     "masterTopic": "One Word",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the idioms in Column A with their meanings in Column B -",
     "options": [
       "A-3, B-1, C-4, D-2",
       "A-1, B-3, C-2, D-4",
@@ -53358,8 +52240,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the idioms in Column A with their meanings in Column B -",
     "meta": {
       "headers": [
         "Column A",
@@ -53383,48 +52265,6 @@
           "4. A policy or attitude of accepting absolutely none of some kind of behavior or activity."
         ]
       ],
-      "left": [
-        {
-          "id": "A",
-          "text": "you can't make an omelette without breaking a few eggs |"
-        },
-        {
-          "id": "1",
-          "text": "the time at which a usually significant or notable event is scheduled to take plac"
-        },
-        {
-          "id": "e",
-          "text": "|\n|"
-        },
-        {
-          "id": "B",
-          "text": "zero hour |"
-        }
-      ],
-      "right": [
-        {
-          "id": "2",
-          "text": "young, fresh, or vigorous new people, ideas, attitudes |\n|"
-        },
-        {
-          "id": "C",
-          "text": "zero tolerance |"
-        },
-        {
-          "id": "3",
-          "text": "to have to go through something seemingly not nice for a good result |\n|"
-        },
-        {
-          "id": "D",
-          "text": "youngblood |"
-        },
-        {
-          "id": "4",
-          "text": "A policy or attitude of accepting absolutely none of some kind of behavior or activity. |"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (-)",
       "rawQuestionText": "Match the idioms in Column A with their meanings in Column B - \n| Column A | Column B |\n| --- | --- |\n| A. you can't make an omelette without breaking a few eggs | 1. the time at which a usually significant or notable event is scheduled to take place. |\n| B. zero hour | 2. young, fresh, or vigorous new people, ideas, attitudes |\n| C. zero tolerance | 3. to have to go through something seemingly not nice for a good result |\n| D.youngblood | 4. A policy or attitude of accepting absolutely none of some kind of behavior or activity. |"
     }
   },
@@ -54662,7 +53502,7 @@
     "topicHindi": "क्रिया (Verbs)",
     "masterTopicId": 16,
     "masterTopic": "Verb",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List I with List II: \n\n Choose the most appropriate answer from the options given below:",
     "options": [
       "a-II, b-I, c-III, d-IV",
       "a-IV, b-III, c-II, d-I",
@@ -54687,8 +53527,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List I with List II: \n\n Choose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List I",
@@ -54712,44 +53552,6 @@
           "IV. Verb"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Table |"
-        },
-        {
-          "id": "b",
-          "text": "Hot |"
-        },
-        {
-          "id": "c",
-          "text": "Cut |"
-        },
-        {
-          "id": "d",
-          "text": "He |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Adjective |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Noun |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Pronoun |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Verb |\n\n Choose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List I with List II: \n| List I | List II |\n| --- | --- |\n| a. Table | I. Adjective |\n| b. Hot | II. Noun |\n| c. Cut | III. Pronoun |\n| d. He | IV. Verb |\n\n Choose the most appropriate answer from the options given below:"
     }
   },
@@ -58072,7 +56874,7 @@
     "topicHindi": "मुहावरे एवं लोकोक्तियाँ (Idioms & Phrases)",
     "masterTopicId": 17,
     "masterTopic": "Idiom or phrase",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the idioms in column I with their meanings in column II –",
     "options": [
       "i-(C), ii-(D), iii-(B), iv-(A)",
       "i-(D), ii-(C), iii-(B), iv-(A)",
@@ -58097,8 +56899,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the idioms in column I with their meanings in column II –",
     "meta": {
       "headers": [
         "Column-I",
@@ -58122,44 +56924,6 @@
           "(D) to stop work or another activity"
         ]
       ],
-      "left": [
-        {
-          "id": "i",
-          "text": "Call it a day |"
-        },
-        {
-          "id": "ii",
-          "text": "Feeling under the weather |"
-        },
-        {
-          "id": "iii",
-          "text": "Spill the beans |"
-        },
-        {
-          "id": "iv",
-          "text": "Break a leg |"
-        }
-      ],
-      "right": [
-        {
-          "id": "A",
-          "text": "saying good luck to someone |\n|"
-        },
-        {
-          "id": "B",
-          "text": "to leak a secret |\n|"
-        },
-        {
-          "id": "C",
-          "text": "not very well |\n|"
-        },
-        {
-          "id": "D",
-          "text": "to stop work or another activity |"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (–)",
       "rawQuestionText": "Match the idioms in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (i) Call it a day | (A) saying good luck to someone |\n| (ii) Feeling under the weather | (B) to leak a secret |\n| (iii) Spill the beans | (C) not very well |\n| (iv) Break a leg | (D) to stop work or another activity |"
     }
   },
@@ -88929,7 +87693,7 @@
     "topicHindi": "उपपद (Articles)",
     "masterTopicId": 4,
     "masterTopic": "Articles",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List I with List II:\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-III, b-II, c-I, d-IV",
       "a-IV, b-III, c-II, d-I",
@@ -88954,8 +87718,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List I with List II:\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List I",
@@ -88979,44 +87743,6 @@
           "IV. Verb"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "To |"
-        },
-        {
-          "id": "b",
-          "text": "An |"
-        },
-        {
-          "id": "c",
-          "text": "Camel |"
-        },
-        {
-          "id": "d",
-          "text": "Gone |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Article |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Noun |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Preposition |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Verb |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List I with List II:\n| List I | List II |\n| --- | --- |\n| a. To | I. Article |\n| b. An | II. Noun |\n| c. Camel | III. Preposition |\n| d. Gone | IV. Verb |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -89147,7 +87873,7 @@
     "topicHindi": "उपपद (Articles)",
     "masterTopicId": 4,
     "masterTopic": "Articles",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List I with List II -\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - I, b - III, c - II",
       "a - III, b - II, c - I",
@@ -89172,8 +87898,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List I with List II -\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List I (Sentences)",
@@ -89193,40 +87919,6 @@
           "III. the"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "He won ___ Tony award last year. |"
-        },
-        {
-          "id": "I",
-          "text": "a |\n|"
-        },
-        {
-          "id": "b",
-          "text": "German is _____ difficult languag"
-        }
-      ],
-      "right": [
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "II",
-          "text": "an |\n|"
-        },
-        {
-          "id": "c",
-          "text": "Prince Vikramaditya is ____ amiable person. |"
-        },
-        {
-          "id": "III",
-          "text": "the |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Sentences)",
-      "rightTitle": "List – II (Articles)",
       "rawQuestionText": "Match List I with List II -\n| List I (Sentences) | List II (Articles) |\n| --- | --- |\n| a. He won ___ Tony award last year. | I. a |\n| b. German is _____ difficult language. | II. an |\n| c. Prince Vikramaditya is ____ amiable person. | III. the |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -90244,7 +88936,7 @@
     "topicHindi": "उपपद (Articles)",
     "masterTopicId": 4,
     "masterTopic": "Articles",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Fill in the correct article/ determiner in the sentences of List I, selecting from List II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-II, b-IV, c-I, d-III",
       "a-I, b-II, c-IV, d-III",
@@ -90269,8 +88961,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Fill in the correct article/ determiner in the sentences of List I, selecting from List II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I",
@@ -90294,52 +88986,6 @@
           "IV. an"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Hari knew ___ man who was killed yesterday. |"
-        },
-        {
-          "id": "b",
-          "text": "Sri Lanka is ___ islan"
-        },
-        {
-          "id": "II",
-          "text": "the |\n|"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "d",
-          "text": "January is ___ first month of the year. |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "a |\n|"
-        },
-        {
-          "id": "d",
-          "text": "|"
-        },
-        {
-          "id": "c",
-          "text": "My mother teaches in ____ colleg"
-        },
-        {
-          "id": "III",
-          "text": "the |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "an |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Fill in the correct article/ determiner in the sentences of List I, selecting from List II.\n| List I | List II |\n| --- | --- |\n| a. Hari knew ___ man who was killed yesterday. | I. a |\n| b. Sri Lanka is ___ island. | II. the |\n| c. My mother teaches in ____ college. | III. the |\n| d. January is ___ first month of the year. | IV. an |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -92791,7 +91437,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-I, c-III, d-IV",
@@ -92816,8 +91462,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "Column-I (Word)",
@@ -92841,44 +91487,6 @@
           "IV. Quiet"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Honest |"
-        },
-        {
-          "id": "b",
-          "text": "Ancient |"
-        },
-        {
-          "id": "c",
-          "text": "Quick |"
-        },
-        {
-          "id": "d",
-          "text": "Silent |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Rapid |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Truthful |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Old |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Quiet |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Synonym)",
       "rawQuestionText": "Match List-I with List-II\n| Column-I (Word) | Column-II (Synonym) |\n| --- | --- |\n| a. Honest | I. Rapid |\n| b. Ancient | II. Truthful |\n| c. Quick | III. Old |\n| d. Silent | IV. Quiet |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -92970,7 +91578,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words in List - I with their synonyms in List - II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-ii, b-iii, c-iv, d-i",
       "a-iii, b-i, c-ii, d-iv",
@@ -92995,8 +91603,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words in List - I with their synonyms in List - II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List - I",
@@ -93020,44 +91628,6 @@
           "iv. Wither"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Heretic |"
-        },
-        {
-          "id": "b",
-          "text": "Slander |"
-        },
-        {
-          "id": "c",
-          "text": "Wilt |"
-        },
-        {
-          "id": "d",
-          "text": "Rescind |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Revoke |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Non-Conformist |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Defame |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Wither |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the words in List - I with their synonyms in List - II.\n| List - I | List - II |\n| --- | --- |\n| a. Heretic | i. Revoke |\n| b. Slander | ii. Non-Conformist |\n| c. Wilt | iii. Defame |\n| d. Rescind | iv. Wither |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -93071,7 +91641,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words in Column A with their meaning/synonyms in Column B :",
     "options": [
       "a-(ii), b-(iv), c-(i), d-(iii)",
       "a-(iv), b-(ii), c-(iii), d-(i)",
@@ -93096,8 +91666,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words in Column A with their meaning/synonyms in Column B :",
     "meta": {
       "headers": [
         "Column A",
@@ -93121,44 +91691,6 @@
           "(iv) colour by dipping in liquid"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "dying |"
-        },
-        {
-          "id": "b",
-          "text": "dyeing |"
-        },
-        {
-          "id": "c",
-          "text": "reign |"
-        },
-        {
-          "id": "d",
-          "text": "rein |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "rule |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "ceasing to be alive |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "means of control |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "colour by dipping in liquid |"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the words in Column A with their meaning/synonyms in Column B :\n| Column A | Column B |\n| --- | --- |\n| a. dying | (i) rule |\n| b. dyeing | (ii) ceasing to be alive |\n| c. reign | (iii) means of control |\n| d. rein | (iv) colour by dipping in liquid |"
     }
   },
@@ -93679,7 +92211,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II:\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - IV, b - I, c - II, d - III",
       "a - II, b - III, c - IV, d - I",
@@ -93704,8 +92236,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II:\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Words)",
@@ -93729,44 +92261,6 @@
           "IV. charitable"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "generous |"
-        },
-        {
-          "id": "b",
-          "text": "honour |"
-        },
-        {
-          "id": "c",
-          "text": "absurd |"
-        },
-        {
-          "id": "d",
-          "text": "accomplish |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "esteem |\n|"
-        },
-        {
-          "id": "II",
-          "text": "ridiculous |\n|"
-        },
-        {
-          "id": "III",
-          "text": "achieve |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "charitable |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Synonyms)",
       "rawQuestionText": "Match List-I with List-II:\n| List-I (Words) | List-II (Synonyms) |\n| --- | --- |\n| a. generous | I. esteem |\n| b. honour | II. ridiculous |\n| c. absurd | III. achieve |\n| d. accomplish | IV. charitable |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -94053,7 +92547,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
       "(i), (b)-(iii), (c)-(iv), (d)-(ii)",
@@ -94078,8 +92572,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I (Word)",
@@ -94103,44 +92597,6 @@
           "(iv) Indolent"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Lethargic |"
-        },
-        {
-          "id": "b",
-          "text": "Ploy |"
-        },
-        {
-          "id": "c",
-          "text": "Trail |"
-        },
-        {
-          "id": "d",
-          "text": "Latent |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Tactic |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Drag |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Dormant |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Indolent |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Word)",
-      "rightTitle": "List – II (Synonyms)",
       "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Synonyms) |\n| --- | --- |\n| (a)  Lethargic | (i) Tactic |\n| (b) Ploy | (ii)  Drag |\n| (c) Trail | (iii) Dormant |\n| (d) Latent | (iv) Indolent |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -94193,7 +92649,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II \n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - II, b - III, c - I, d - IV",
       "a - IV, b - I, c - II, d - III",
@@ -94218,8 +92674,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II \n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I",
@@ -94243,44 +92699,6 @@
           "IV. Laud"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Extole / Extol |"
-        },
-        {
-          "id": "b",
-          "text": "Obscure |"
-        },
-        {
-          "id": "c",
-          "text": "Thrifty |"
-        },
-        {
-          "id": "d",
-          "text": "Enigmatic |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Vague |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Frugal |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Mysterious |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Laud |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II \n| List-I | List-II |\n| --- | --- |\n| a. Extole / Extol | I. Vague |\n| b. Obscure | II. Frugal |\n| c. Thrifty | III. Mysterious |\n| d. Enigmatic | IV. Laud |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -94489,7 +92907,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(ii), (b)-(i), (c)-(iii), (d)-(iv)",
       "(iv), (b)-(iii), (c)-(i), (d)-(ii)",
@@ -94514,8 +92932,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I Word",
@@ -94539,44 +92957,6 @@
           "(iv) Deviation"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Aberration |"
-        },
-        {
-          "id": "b",
-          "text": "Perpetual |"
-        },
-        {
-          "id": "c",
-          "text": "Redundant |"
-        },
-        {
-          "id": "d",
-          "text": "Abundant |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "Unnecessary |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "Plentiful |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "Constant |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "Deviation |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (Word)",
-      "rightTitle": "सूची – II (Synonyms)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II Synonyms |\n| --- | --- |\n| (a) Aberration | (i) Unnecessary |\n| (b) Perpetual | (ii) Plentiful |\n| (c) Redundant | (iii) Constant |\n| (d) Abundant | (iv) Deviation |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -94590,7 +92970,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iv), (b)-(iii), (c)-(ii), (d)-(i)",
       "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -94615,8 +92995,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I Word",
@@ -94640,44 +93020,6 @@
           "(iv) friendly"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "accomplish |"
-        },
-        {
-          "id": "b",
-          "text": "cordial |"
-        },
-        {
-          "id": "c",
-          "text": "arrogant |"
-        },
-        {
-          "id": "d",
-          "text": "absurd |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "rude |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "foolish |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "achieve |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "friendly |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (Word)",
-      "rightTitle": "सूची – II (Synonyms)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II  Synonyms |\n| --- | --- |\n| (a) accomplish | (i) rude |\n| (b) cordial | (ii) foolish |\n| (c) arrogant | (iii) achieve |\n| (d) absurd | (iv) friendly |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -95024,7 +93366,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words of List I with the word having a similar meaning in List II\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-III, c-IV, d-I",
@@ -95049,8 +93391,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words of List I with the word having a similar meaning in List II\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I (Words)",
@@ -95074,44 +93416,6 @@
           "IV. Unusual"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Inception |"
-        },
-        {
-          "id": "b",
-          "text": "Bizarre |"
-        },
-        {
-          "id": "c",
-          "text": "Notion |"
-        },
-        {
-          "id": "d",
-          "text": "Liquidate |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Idea |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Dissolve |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Beginning |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Unusual |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "List – I (Words)",
-      "rightTitle": "List – II (Synonyms)",
       "rawQuestionText": "Match the words of List I with the word having a similar meaning in List II\n| List I (Words) | List II (Synonyms) |\n| --- | --- |\n| a. Inception | I. Idea |\n| b. Bizarre | II. Dissolve |\n| c. Notion | III. Beginning |\n| d. Liquidate | IV. Unusual |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -96168,7 +94472,7 @@
     "topicHindi": "समानार्थी शब्द (Synonyms)",
     "masterTopicId": 6,
     "masterTopic": "Synonym",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the words given in Column A with their similar meanings in Column B -",
     "options": [
       "A-2, B-1, C-4, D-3",
       "A-3, B-4, C-2, D-1",
@@ -96191,8 +94495,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the words given in Column A with their similar meanings in Column B -",
     "meta": {
       "headers": [
         "Column A",
@@ -96216,44 +94520,6 @@
           "4. laugh"
         ]
       ],
-      "left": [
-        {
-          "id": "A",
-          "text": "awful |"
-        },
-        {
-          "id": "B",
-          "text": "excellent |"
-        },
-        {
-          "id": "C",
-          "text": "giggle |"
-        },
-        {
-          "id": "D",
-          "text": "rough |"
-        }
-      ],
-      "right": [
-        {
-          "id": "1",
-          "text": "good |\n|"
-        },
-        {
-          "id": "2",
-          "text": "terrible |\n|"
-        },
-        {
-          "id": "3",
-          "text": "coarse |\n|"
-        },
-        {
-          "id": "4",
-          "text": "laugh |"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (-)",
       "rawQuestionText": "Match the words given in Column A with their similar meanings in Column B - \n| Column A | Column B |\n| --- | --- |\n| A. awful | 1. good |\n| B. excellent | 2. terrible |\n| C.giggle | 3. coarse |\n| D. rough | 4. laugh |"
     }
   },
@@ -101369,7 +99635,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II:\n\nChoose the correct answer from the options provided:",
     "options": [
       "a-I, b- IV, c - II, d - III",
       "a - III, b - I, c - IV, d - II",
@@ -101394,8 +99660,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II:\n\nChoose the correct answer from the options provided:",
     "meta": {
       "headers": [
         "List-I (Sentences)",
@@ -101419,52 +99685,6 @@
           "IV. to"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Prem was sentenced ____ death by the Judg"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "I",
-          "text": "over |\n|"
-        },
-        {
-          "id": "b",
-          "text": "For lack ___ money, he could not continue his education. |"
-        },
-        {
-          "id": "II",
-          "text": "on |\n|"
-        }
-      ],
-      "right": [
-        {
-          "id": "c",
-          "text": "The cat jumped ___ the fenc"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "III",
-          "text": "of |\n|"
-        },
-        {
-          "id": "d",
-          "text": "The doctor decided to operate ___ his arm immediately. |"
-        },
-        {
-          "id": "IV",
-          "text": "to |\n\nChoose the correct answer from the options provide"
-        }
-      ],
-      "leftTitle": "List – I (Sentences)",
-      "rightTitle": "List – II (Preposition)",
       "rawQuestionText": "Match List-I with List-II:\n| List-I (Sentences) | List-II (Preposition) |\n| --- | --- |\n| a. Prem was sentenced ____ death by the Judge. | I. over |\n| b. For lack ___ money, he could not continue his education. | II. on |\n| c. The cat jumped ___ the fence. | III. of |\n| d. The doctor decided to operate ___ his arm immediately. | IV. to |\n\nChoose the correct answer from the options provided:"
     }
   },
@@ -101517,7 +99737,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Fill in the blanks by matching List-I with List-II :\n\nChoose the correct answer from the options given below :",
     "options": [
       "(iv), (b)-(iii), (c)-(i), (d)-(ii)",
       "(iv), (b)-(i), (c)-(ii), (d)-(iii)",
@@ -101542,8 +99762,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Fill in the blanks by matching List-I with List-II :\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List-I",
@@ -101567,44 +99787,6 @@
           "(iv) by"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "They will return ____ 6 p.m. |"
-        },
-        {
-          "id": "b",
-          "text": "You must atone ____ your sins. |"
-        },
-        {
-          "id": "c",
-          "text": "They live ____ us. |"
-        },
-        {
-          "id": "d",
-          "text": "He studied ____ 11 p.m. |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "below |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "till |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "for |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "by |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Fill in the blanks by matching List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) They will return ____ 6 p.m. | (i) below |\n| (b) You must atone ____ your sins. | (ii) till |\n| (c) They live ____ us. | (iii) for |\n| (d) He studied ____ 11 p.m. | (iv) by |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -101657,7 +99839,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the following sentences (given in list I) with the appropriate prepositions (given in list II) in order to fill in the blank of the respective sentence:\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-IV, b-I, c-III, d-II",
       "a-III, b-IV, c-I, d-II",
@@ -101682,8 +99864,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the following sentences (given in list I) with the appropriate prepositions (given in list II) in order to fill in the blank of the respective sentence:\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List I (Sentences)",
@@ -101707,52 +99889,6 @@
           "IV. upon"
         ]
       ],
-      "left": [
-        {
-          "id": "e",
-          "text": "| List I (Sentences) | List II (Prepositions) |\n| --- | --- |\n|"
-        },
-        {
-          "id": "a",
-          "text": "Do not rob me ____ my dignity by asking such a question. |"
-        },
-        {
-          "id": "I",
-          "text": "above |\n|"
-        },
-        {
-          "id": "b",
-          "text": "He threw the book ___ the tabl"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        }
-      ],
-      "right": [
-        {
-          "id": "II",
-          "text": "to |\n|"
-        },
-        {
-          "id": "c",
-          "text": "The flags waved ____ our heads. |"
-        },
-        {
-          "id": "III",
-          "text": "of |\n|"
-        },
-        {
-          "id": "d",
-          "text": "Terrorists are a menace ____ the security of this country. |"
-        },
-        {
-          "id": "IV",
-          "text": "upon |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I",
-      "rightTitle": "सूची – II",
       "rawQuestionText": "Match the following sentences (given in list I) with the appropriate prepositions (given in list II) in order to fill in the blank of the respective sentence:\n| List I (Sentences) | List II (Prepositions) |\n| --- | --- |\n| a. Do not rob me ____ my dignity by asking such a question. | I. above |\n| b. He threw the book ___ the table. | II. to |\n| c. The flags waved ____ our heads. | III. of |\n| d. Terrorists are a menace ____ the security of this country. | IV. upon |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -102195,7 +100331,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a - II, b - IV, c - III, d - I",
       "a - I, b - II, c - III, d - IV",
@@ -102220,8 +100356,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I",
@@ -102245,48 +100381,6 @@
           "IV. while"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Munich is a large city ____ the south of Germany. |"
-        },
-        {
-          "id": "I",
-          "text": "at |\n|"
-        },
-        {
-          "id": "b",
-          "text": "Were there many people ____ the concert on Friday? |"
-        },
-        {
-          "id": "II",
-          "text": "during |\n|"
-        }
-      ],
-      "right": [
-        {
-          "id": "c",
-          "text": "We shouldn’t speak ____ eating. |"
-        },
-        {
-          "id": "III",
-          "text": "in |\n|"
-        },
-        {
-          "id": "d",
-          "text": "We didn’t speak ____ the mea"
-        },
-        {
-          "id": "l",
-          "text": "|"
-        },
-        {
-          "id": "IV",
-          "text": "while |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "सूची – I (with)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match List-I with List-II\n| List-I | List-II |\n| --- | --- |\n| a. Munich is a large city ____ the south of Germany. | I. at |\n| b. Were there many people ____ the concert on Friday? | II. during |\n| c. We shouldn’t speak ____ eating. | III. in |\n| d. We didn’t speak ____ the meal. | IV. while |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -102534,7 +100628,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(i), (b) - (ii), (c) - (iii), (d) - (iv)",
       "(iv), (b) - (iii), (c) - (i), (d) - (ii)",
@@ -102559,8 +100653,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II :\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List-I Phrases",
@@ -102584,44 +100678,6 @@
           "(iv) about"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "incapable  __ something |"
-        },
-        {
-          "id": "b",
-          "text": "belong __ someone |"
-        },
-        {
-          "id": "c",
-          "text": "depend __ someone |"
-        },
-        {
-          "id": "d",
-          "text": "discuss __ something |"
-        }
-      ],
-      "right": [
-        {
-          "id": "i",
-          "text": "to |\n|"
-        },
-        {
-          "id": "ii",
-          "text": "on |\n|"
-        },
-        {
-          "id": "iii",
-          "text": "of |\n|"
-        },
-        {
-          "id": "iv",
-          "text": "about |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (Phrases)",
-      "rightTitle": "सूची – II (Prepositions)",
       "rawQuestionText": "Match List-I with List-II :\n| List-I Phrases | List-II Prepositions |\n| --- | --- |\n| (a) incapable  __ something | (i) to |\n| (b) belong __ someone | (ii) on |\n| (c) depend __ someone | (iii) of |\n| (d) discuss __ something | (iv) about |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -102830,7 +100886,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the blanks in List - I with the most suitable Preposition from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "options": [
       "(iii), (b)-(i), (c)-(iv), (d)-(ii)",
       "(iii), (b)-(iv), (c)-(i), (d)-(ii)",
@@ -102855,8 +100911,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the blanks in List - I with the most suitable Preposition from List - II.\n\nChoose the most appropriate answer from the options given below :",
     "meta": {
       "headers": [
         "List - I",
@@ -102880,48 +100936,6 @@
           "(iv) of"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "I often use honey as a substitute ___ sugar in my te"
-        },
-        {
-          "id": "a",
-          "text": "|"
-        },
-        {
-          "id": "i",
-          "text": "upon |\n|"
-        },
-        {
-          "id": "b",
-          "text": "His style is faintly reminiscent ___ Piccaso. |"
-        }
-      ],
-      "right": [
-        {
-          "id": "ii",
-          "text": "to |\n|"
-        },
-        {
-          "id": "c",
-          "text": "She is intent ___ tarnishing my reputation. |"
-        },
-        {
-          "id": "iii",
-          "text": "for |\n|"
-        },
-        {
-          "id": "d",
-          "text": "He had to reconcile ___ the fact that his father would never return. |"
-        },
-        {
-          "id": "iv",
-          "text": "of |\n\nChoose the most appropriate answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the blanks in List - I with the most suitable Preposition from List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) I often use honey as a substitute ___ sugar in my tea. | (i) upon |\n| (b) His style is faintly reminiscent ___ Piccaso. | (ii) to |\n| (c) She is intent ___ tarnishing my reputation. | (iii) for |\n| (d) He had to reconcile ___ the fact that his father would never return. | (iv) of |\n\nChoose the most appropriate answer from the options given below :"
     }
   },
@@ -103471,7 +101485,7 @@
     "topicHindi": "संबंधबोधक (Prepositions)",
     "masterTopicId": 8,
     "masterTopic": "Preposition",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Fill in the appropriate prepositions in the blanks of List I from List II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-III, b-IV, c-II, d-I",
@@ -103496,8 +101510,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Fill in the appropriate prepositions in the blanks of List I from List II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I",
@@ -103521,56 +101535,6 @@
           "IV. off"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "He is blind ___ one ey"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        },
-        {
-          "id": "I",
-          "text": "into |\n|"
-        },
-        {
-          "id": "b",
-          "text": "The boy fell ___ his bik"
-        },
-        {
-          "id": "e",
-          "text": "|"
-        }
-      ],
-      "right": [
-        {
-          "id": "II",
-          "text": "of |\n|"
-        },
-        {
-          "id": "c",
-          "text": "Rohit is fond ___ children. |"
-        },
-        {
-          "id": "III",
-          "text": "in |\n|"
-        },
-        {
-          "id": "d",
-          "text": "The lion jumped ___ the we"
-        },
-        {
-          "id": "ll",
-          "text": "|"
-        },
-        {
-          "id": "IV",
-          "text": "off |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Fill in the appropriate prepositions in the blanks of List I from List II.\n| List I | List II |\n| --- | --- |\n| a. He is blind ___ one eye. | I. into |\n| b. The boy fell ___ his bike. | II. of |\n| c. Rohit is fond ___ children. | III. in |\n| d. The lion jumped ___ the well. | IV. off |\n\nChoose the correct answer from the options given below :"
     }
   },
@@ -106858,7 +104822,7 @@
     "topicHindi": "पारिभाषिक शब्दावली (Official & Technical Terms)",
     "masterTopicId": 9,
     "masterTopic": "Glossary of official and technical terms",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "options": [
       "a-I, b-III, c-II, d-IV",
       "a-I, b-II, c-IV, d-III",
@@ -106883,8 +104847,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match List-I with List-II\n\nChoose the most appropriate answer from the options given below:",
     "meta": {
       "headers": [
         "List-I (Word in Hindi)",
@@ -106908,44 +104872,6 @@
           "IV. Lecturer"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "प्राध्यापक |"
-        },
-        {
-          "id": "b",
-          "text": "संकाय |"
-        },
-        {
-          "id": "c",
-          "text": "अनुबंध |"
-        },
-        {
-          "id": "d",
-          "text": "शोध-प्रबंध |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "Faculty |\n|"
-        },
-        {
-          "id": "II",
-          "text": "Contract |\n|"
-        },
-        {
-          "id": "III",
-          "text": "Dissertation |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "Lecturer |\n\nChoose the most appropriate answer from the options given below:"
-        }
-      ],
-      "leftTitle": "List – I (Word in Hindi)",
-      "rightTitle": "List – II (English equivalent)",
       "rawQuestionText": "Match List-I with List-II\n| List-I (Word in Hindi) | List-II (English equivalent) |\n| --- | --- |\n| a. प्राध्यापक | I. Faculty |\n| b. संकाय | II. Contract |\n| c. अनुबंध | III. Dissertation |\n| d. शोध-प्रबंध | IV. Lecturer |\n\nChoose the most appropriate answer from the options given below:"
     }
   },
@@ -108133,7 +106059,7 @@
     "topicHindi": "पारिभाषिक शब्दावली (Official & Technical Terms)",
     "masterTopicId": 9,
     "masterTopic": "Glossary of official and technical terms",
-    "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "question": "Match the given words of List I with their corresponding words in List II.\n\nChoose the correct answer from the options given below :",
     "options": [
       "a-I, b-II, c-III, d-IV",
       "a-II, b-III, c-IV, d-I",
@@ -108158,8 +106084,8 @@
     "inConvex": false,
     "convexIds": [],
     "convexTestSetIds": [],
-    "type": "match_following",
-    "questionText": "सूची-I को सूची-II से सुमेलित कीजिए :",
+    "type": "table",
+    "questionText": "Match the given words of List I with their corresponding words in List II.\n\nChoose the correct answer from the options given below :",
     "meta": {
       "headers": [
         "List I",
@@ -108183,44 +106109,6 @@
           "IV. लेखाकार"
         ]
       ],
-      "left": [
-        {
-          "id": "a",
-          "text": "Director |"
-        },
-        {
-          "id": "b",
-          "text": "Accountant |"
-        },
-        {
-          "id": "c",
-          "text": "Insubordination |"
-        },
-        {
-          "id": "d",
-          "text": "Resources |"
-        }
-      ],
-      "right": [
-        {
-          "id": "I",
-          "text": "अवज्ञा |\n|"
-        },
-        {
-          "id": "II",
-          "text": "संसाधन |\n|"
-        },
-        {
-          "id": "III",
-          "text": "निदेशक |\n|"
-        },
-        {
-          "id": "IV",
-          "text": "लेखाकार |\n\nChoose the correct answer from the options given below :"
-        }
-      ],
-      "leftTitle": "सूची – I (|)",
-      "rightTitle": "सूची – II (|)",
       "rawQuestionText": "Match the given words of List I with their corresponding words in List II.\n| List I | List II |\n| --- | --- |\n| a. Director | I. अवज्ञा |\n| b. Accountant | II. संसाधन |\n| c. Insubordination | III. निदेशक |\n| d. Resources | IV. लेखाकार |\n\nChoose the correct answer from the options given below :"
     }
   },

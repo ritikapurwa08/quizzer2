@@ -1,4 +1,5 @@
 import { v } from "convex/values";
+import { Doc } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 
@@ -207,8 +208,14 @@ export const getProgress = query({
 });
 
 export const get = query({
-  args: { id: v.id("topics") },
-  handler: async (ctx, args) => await ctx.db.get(args.id),
+  args: { id: v.union(v.id("topics"), v.string()) },
+  handler: async (ctx, args): Promise<Doc<"topics"> | null> => {
+    try {
+      return (await ctx.db.get(args.id as any)) as Doc<"topics"> | null;
+    } catch {
+      return null;
+    }
+  },
 });
 
 export const getBySlug = query({

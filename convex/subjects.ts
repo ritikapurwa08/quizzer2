@@ -1,4 +1,5 @@
 import { v } from "convex/values";
+import { Doc } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin } from "./lib/permissions";
 
@@ -36,8 +37,14 @@ export const setCountsAllSubjects = query({
 });
 
 export const get = query({
-  args: { id: v.id("subjects") },
-  handler: async (ctx, args) => await ctx.db.get(args.id),
+  args: { id: v.union(v.id("subjects"), v.string()) },
+  handler: async (ctx, args): Promise<Doc<"subjects"> | null> => {
+    try {
+      return (await ctx.db.get(args.id as any)) as Doc<"subjects"> | null;
+    } catch {
+      return null;
+    }
+  },
 });
 
 export const getBySlug = query({

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { useQuery } from "convex/react";
 import { api } from "../../../../../convex/_generated/api";
@@ -12,11 +12,11 @@ import {
   QuestionPalette,
   QuestionShellSkeleton,
 } from "@/components/quiz";
-import { QuestionPaletteToggle } from "@/components/quiz/QuestionPaletteToggle";
+import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 import { useToast } from "@/components/ui/Toast";
-import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check, DoorOpen } from "lucide-react";
+import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check, DoorOpen, LayoutGrid, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useWakeLock } from "@/hooks/useWakeLock";
 
@@ -53,6 +53,7 @@ export default function QuizPage() {
   const [confirmSubmitOpen, setConfirmSubmitOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [confirmExitOpen, setConfirmExitOpen] = useState(false);
+  const [paletteOpen, setPaletteOpen] = useState(false);
 
   // Keep screen active throughout the quiz session to prevent sleep timeouts
   useWakeLock(true);
@@ -80,12 +81,28 @@ export default function QuizPage() {
   }, [attempt?.status, id, router]);
 
   const current = questions[currentIndex];
+  const enrichedCurrent = useMemo(() => {
+    if (!current) return current;
+    if (
+      (!current.meta?.left || current.meta.left.length === 0) &&
+      (!current.meta?.rows || current.meta.rows.length === 0)
+    ) {
+      return enrichQuestionStructure(current);
+    }
+    return current;
+  }, [current]);
 
   // Keyboard shortcuts: 1-4/A-D for options, ArrowLeft/Right for nav, Enter to advance/submit
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
       // 1. Never handle options or shortcuts while paused
       if (isPaused) return;
+
+      // Close palette on Escape if open
+      if (e.key === "Escape" && paletteOpen) {
+        setPaletteOpen(false);
+        return;
+      }
 
       // 2. Ignore browser/OS shortcuts with modifiers (e.g. Ctrl+C, Cmd+A, Alt+Tab)
       if (e.ctrlKey || e.metaKey || e.altKey) return;
@@ -117,7 +134,7 @@ export default function QuizPage() {
         } else {
           setConfirmSubmitOpen(true);
         }
-      } else if (current && current.options) {
+      } else if (enrichedCurrent && enrichedCurrent.options) {
         const key = e.key.toLowerCase();
         let targetOptIdx = -1;
         if (key === "1" || key === "a") targetOptIdx = 0;
@@ -125,16 +142,16 @@ export default function QuizPage() {
         else if (key === "3" || key === "c") targetOptIdx = 2;
         else if (key === "4" || key === "d") targetOptIdx = 3;
 
-        if (targetOptIdx >= 0 && current.options[targetOptIdx]) {
+        if (targetOptIdx >= 0 && enrichedCurrent.options[targetOptIdx]) {
           e.preventDefault();
-          selectAnswer(current._id, current.options[targetOptIdx].id);
+          selectAnswer(enrichedCurrent._id, enrichedCurrent.options[targetOptIdx].id);
         }
       }
     }
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, questions.length, current, selectAnswer, confirmSubmitOpen, isPaused]);
+  }, [currentIndex, questions.length, enrichedCurrent, selectAnswer, confirmSubmitOpen, isPaused, paletteOpen]);
 
   if (isLoading || questions.length === 0) {
     return (
@@ -149,7 +166,7 @@ export default function QuizPage() {
     );
   }
 
-  const Renderer = current ? QUESTION_RENDERERS[current.type] : null;
+  const Renderer = enrichedCurrent ? (QUESTION_RENDERERS[enrichedCurrent.type] || QUESTION_RENDERERS.mcq) : null;
   const answeredCount = Object.keys(localAnswers).length;
 
   // Shared palette data — avoid duplicating the map call
@@ -183,45 +200,60 @@ export default function QuizPage() {
       {/* ── Main question column ── */}
       <div className="flex-1 space-y-3 min-w-0 pb-28 lg:pb-0">
 
-        {/* ── Mobile Header: name + countdown timer + pause button ── */}
-        <div className="flex lg:hidden items-center justify-between gap-2 bg-card px-3 py-2.5 rounded-xl border border-border">
-          <h1 className="font-semibold text-sm text-foreground font-hindi truncate min-w-0">
+        {/* ── Mobile Header: title + pause/resume + stable timer + exit (Rock-stable layout) ── */}
+        <div className="flex lg:hidden items-center justify-between gap-2 bg-card px-3 py-1.5 rounded-2xl border border-border/80 shadow-2xs h-11 min-w-0 shrink-0">
+          <h1
+            className="font-semibold text-xs sm:text-sm text-foreground font-hindi truncate min-w-0 flex-1 pr-1"
+            title={testSet?.name}
+          >
             {testSet?.name}
           </h1>
           <div className="flex items-center gap-1.5 shrink-0">
+            {/* Pause / Resume Button Capsule */}
+            <button
+              type="button"
+              onClick={() => (isPaused ? resume() : pause())}
+              className={cn(
+                "h-8 w-8 rounded-xl border flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0",
+                isPaused
+                  ? "bg-primary text-primary-foreground border-primary shadow-2xs"
+                  : "border-border/80 bg-muted/50 hover:bg-muted text-foreground"
+              )}
+              title={isPaused ? "Resume Test" : "Pause Test"}
+              aria-label={isPaused ? "Resume Test" : "Pause Test"}
+            >
+              {isPaused ? (
+                <Play className="h-3.5 w-3.5 fill-current" />
+              ) : (
+                <Pause className="h-3.5 w-3.5" />
+              )}
+            </button>
+
+            {/* Stable Countdown Timer Capsule (constant width, zero layout shift) */}
+            <div
+              className={cn(
+                "inline-flex items-center justify-center gap-1.5 h-8 px-2.5 rounded-xl font-mono text-xs font-bold tabular-nums shrink-0 transition-colors border",
+                remainingSeconds < 120
+                  ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
+                  : "bg-muted/50 text-foreground border-border/80"
+              )}
+              style={{ minWidth: "76px" }}
+              title="Remaining Time"
+            >
+              <Clock className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
+              <span className="tabular-nums tracking-tight">{formatTime(remainingSeconds)}</span>
+            </div>
+
+            {/* Exit Test Button Capsule */}
             <button
               type="button"
               onClick={() => setConfirmExitOpen(true)}
-              className="p-1 rounded-lg border border-border bg-muted hover:bg-muted/80 text-muted-foreground cursor-pointer transition-colors"
+              className="h-8 w-8 rounded-xl border border-border/80 bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0"
               title="Exit Test"
               aria-label="Exit Test"
             >
               <DoorOpen className="h-3.5 w-3.5" />
             </button>
-            <button
-              type="button"
-              onClick={() => (isPaused ? resume() : pause())}
-              className="p-1 rounded-lg border border-border bg-muted hover:bg-muted/80 text-foreground cursor-pointer transition-colors"
-              title={isPaused ? "Resume Test" : "Pause Test"}
-              aria-label={isPaused ? "Resume Test" : "Pause Test"}
-            >
-              {isPaused ? (
-                <Play className="h-3.5 w-3.5 fill-current text-primary" />
-              ) : (
-                <Pause className="h-3.5 w-3.5" />
-              )}
-            </button>
-            <div
-              className={cn(
-                "flex items-center gap-1.5 px-2.5 py-1 rounded-lg font-mono text-xs font-bold shrink-0 transition-colors",
-                remainingSeconds < 120
-                  ? "bg-destructive/15 text-destructive border border-destructive/30 animate-pulse"
-                  : "bg-muted text-foreground"
-              )}
-            >
-              <Clock className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
-              <span>{formatTime(remainingSeconds)}</span>
-            </div>
           </div>
         </div>
 
@@ -259,67 +291,66 @@ export default function QuizPage() {
             </Button>
           </div>
         ) : (
-          /* ── Active question ── */
-          current && Renderer && (
+          /* ── Active question (Maximized screen space, no in-page clutter) ── */
+          enrichedCurrent && Renderer && (
             <QuestionShell
               number={currentIndex + 1}
-              type={current.type}
-              questionText={current.questionText}
-              isBookmarked={bookmarkedIds.has(current._id)}
-              onToggleBookmark={() => toggleBookmark(current._id)}
-              reference={current.reference}
-              meta={current.meta}
+              type={enrichedCurrent.type}
+              questionText={enrichedCurrent.questionText}
+              isBookmarked={bookmarkedIds.has(enrichedCurrent._id)}
+              onToggleBookmark={() => toggleBookmark(enrichedCurrent._id)}
+              reference={enrichedCurrent.reference}
+              meta={enrichedCurrent.meta}
             >
               <Renderer
-                question={current}
-                selected={localAnswers[current._id]}
-                onSelect={(value) => selectAnswer(current._id, value)}
+                question={enrichedCurrent}
+                selected={localAnswers[enrichedCurrent._id]}
+                onSelect={(value) => selectAnswer(enrichedCurrent._id, value)}
                 mode="quiz"
               />
             </QuestionShell>
           )
         )}
 
-
-        {/* ── Mobile Question Palette — collapsible ── */}
-        <div className="block lg:hidden pt-2">
-          <QuestionPaletteToggle
-            questions={paletteQuestions}
-            currentIndex={currentIndex}
-            onJump={setCurrentIndex}
-          />
-        </div>
-
         {/* ── Fixed Mobile Bottom Action Bar (Safe Area Compliant) ── */}
-        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-4 py-2.5 shadow-lg safe-bottom flex items-center justify-between gap-3">
+        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-3.5 py-2.5 shadow-lg safe-bottom flex items-center justify-between gap-2.5">
+          {/* Previous Button */}
           <Button
             variant="outline"
             size="sm"
             onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
             disabled={currentIndex === 0}
-            className="h-10 px-3.5 font-semibold text-xs rounded-xl border-border cursor-pointer shrink-0"
+            className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0"
             aria-label="Previous question"
           >
             <ChevronLeft className="h-4 w-4 mr-0.5" />
             Prev
           </Button>
 
-          {/* Compact answered / unanswered / current pill */}
-          <span className="text-center text-xs font-bold tabular-nums flex items-center gap-1.5 shrink-0">
-            <span className="text-emerald-600 dark:text-emerald-400">✓&thinsp;{answeredCount}</span>
-            <span className="text-muted-foreground">·</span>
-            <span className="text-muted-foreground">○&thinsp;{questions.length - answeredCount}</span>
-            <span className="text-muted-foreground">·</span>
-            <span className="text-foreground font-black">#{currentIndex + 1}</span>
-          </span>
+          {/* Navigation Capsule — Opens Palette Modal */}
+          <button
+            type="button"
+            onClick={() => setPaletteOpen(true)}
+            className="inline-flex items-center justify-center gap-1.5 h-10 px-3 sm:px-4 rounded-xl border border-border/80 bg-muted/60 hover:bg-muted text-foreground text-xs font-bold transition-all cursor-pointer select-none active:scale-95 shadow-2xs min-w-0"
+            aria-label="Open question navigation palette"
+            title="Open Question Palette"
+          >
+            <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
+            <span className="tabular-nums font-mono font-bold tracking-tight text-foreground">
+              {currentIndex + 1}/{questions.length}
+            </span>
+            <span className="text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded-full tabular-nums shrink-0">
+              {answeredCount}✓
+            </span>
+          </button>
 
-          {/* Next or Submit */}
+          {/* Next or Submit Button */}
           {isLastQuestion ? (
             <Button
               size="sm"
               onClick={() => setConfirmSubmitOpen(true)}
               disabled={isSubmitting}
-              className="h-10 px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5"
+              className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs"
             >
               {isSubmitting ? (
                 <span className="flex items-center gap-1.5">
@@ -337,7 +368,7 @@ export default function QuizPage() {
             <Button
               size="sm"
               onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
-              className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0"
+              className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs"
               aria-label="Next question"
             >
               Next
@@ -345,6 +376,64 @@ export default function QuizPage() {
             </Button>
           )}
         </div>
+
+        {/* ── Mobile Question Palette Bottom Sheet / Modal Drawer ── */}
+        {paletteOpen && (
+          <>
+            <div
+              className="fixed inset-0 z-40 bg-background/80 backdrop-blur-xs transition-opacity lg:hidden animate-in fade-in-0 duration-200"
+              onClick={() => setPaletteOpen(false)}
+              aria-hidden="true"
+            />
+            <div
+              role="dialog"
+              aria-modal="true"
+              aria-label="Question Navigation Palette"
+              className="fixed inset-x-0 bottom-0 z-50 lg:hidden rounded-t-3xl border-t border-border bg-card p-4 pb-7 shadow-2xl safe-bottom max-h-[85vh] flex flex-col animate-in slide-in-from-bottom duration-200"
+            >
+              {/* Drag handle */}
+              <div className="h-1 w-12 rounded-full bg-muted-foreground/30 mx-auto mb-3 shrink-0" />
+
+              {/* Header */}
+              <div className="flex items-center justify-between pb-3 border-b border-border/60 shrink-0">
+                <div className="min-w-0 pr-2">
+                  <h2 className="text-sm font-bold text-foreground">
+                    Question Navigation
+                  </h2>
+                  <p className="text-[11px] text-muted-foreground mt-0.5 truncate">
+                    Tap any question to jump directly to it
+                  </p>
+                </div>
+                <div className="flex items-center gap-2 shrink-0">
+                  <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-full tabular-nums">
+                    {answeredCount} / {questions.length} Solved
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setPaletteOpen(false)}
+                    className="h-7 w-7 rounded-lg border border-border/80 bg-muted/60 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center cursor-pointer transition-colors"
+                    aria-label="Close question palette"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Palette grid (scrollable if lots of questions) */}
+              <div className="overflow-y-auto py-3 max-h-[60vh] overscroll-contain">
+                <QuestionPalette
+                  questions={paletteQuestions}
+                  currentIndex={currentIndex}
+                  onJump={(index) => {
+                    setCurrentIndex(index);
+                    setPaletteOpen(false);
+                  }}
+                  className="border-0 shadow-none p-0 bg-transparent"
+                />
+              </div>
+            </div>
+          </>
+        )}
       </div>
 
       {/* ── Desktop Sidebar: progress, timer, palette, navigation, submit ── */}

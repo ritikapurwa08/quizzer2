@@ -7,7 +7,7 @@ import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
-import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
+import { type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
 import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -21,8 +21,7 @@ import {
   LayoutList,
   RotateCcw,
   Printer,
-  Sun,
-  Moon,
+  FileDown,
 } from "lucide-react";
 
 /**
@@ -42,7 +41,6 @@ export function getSuggestedPdfFileName({
   topicSlug?: string;
   filter?: ReviewFilter;
 }): string {
-  // Extract number from test set name (e.g., "भाग 13" -> 13, "Set 7" -> 7) or order
   const numberMatch =
     setName?.match(/(?:भाग|part|set|test|quiz|\#)\s*(\d+)/i) ||
     setName?.match(/\b(\d+)\b/);
@@ -70,7 +68,6 @@ export function getSuggestedPdfFileName({
   // Sanitize Windows illegal file characters: \ / : * ? " < > |
   baseName = baseName.replace(/[<>:"/\\|?*]/g, "-").replace(/\s+/g, " ").trim();
 
-  // If filtering for mistakes only:
   if (filter === "incorrect") {
     baseName += " - Mistakes";
   } else if (filter === "correct") {
@@ -126,22 +123,26 @@ export default function ResultsPage() {
 
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [activeCapsuleTab, setActiveCapsuleTab] = useState<"review" | "mistakes">("review");
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  const [pdfTheme, setPdfTheme] = useState<"dark" | "light">("light");
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
+  const [localSetMeta, setLocalSetMeta] = useState<any>(null);
 
   useEffect(() => {
-    if (data && (!data.questions || data.questions.length === 0)) {
+    if ((!currentSet || !data?.questions || data.questions.length === 0) && id) {
       fetch(`/api/sets/${id}`)
         .then((res) => res.json())
         .then((json) => {
-          if (json.success && json.set?.questions) {
-            setLocalSetQuestions(json.set.questions);
+          if (json.success && json.set) {
+            if (json.set.questions) setLocalSetQuestions(json.set.questions);
+            setLocalSetMeta(json.set);
           }
         })
         .catch((e) => console.error("Local set fetch error:", e));
     }
-  }, [data, id]);
+  }, [currentSet, data, id]);
+
+  const effectiveSet = currentSet || localSetMeta;
 
   const resolvedQuestions =
     data?.questions && data.questions.length > 0
@@ -150,15 +151,15 @@ export default function ResultsPage() {
 
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
-    if (!siblingSets || !currentSet) return null;
+    if (!siblingSets || !effectiveSet) return null;
     const currentIndex = siblingSets.findIndex((s) => s._id === id);
     if (currentIndex === -1 || currentIndex === siblingSets.length - 1) return null;
     return siblingSets[currentIndex + 1];
-  }, [siblingSets, currentSet, id]);
+  }, [siblingSets, effectiveSet, id]);
 
   // Derived: filtered questions with their original indices.
   const filteredQuestionsWithIndex = useMemo(() => {
-    if (!data) return [];
+    if (!data?.attempt) return [];
     const { attempt } = data;
     return (resolvedQuestions || [])
       .map((q, i) => {
@@ -191,16 +192,16 @@ export default function ResultsPage() {
     }));
   }, [filteredQuestionsWithIndex]);
 
-  // Derived suggested file name for print / Save As PDF (declared before any early returns)
+  // Derived suggested file name for print / Save As PDF
   const suggestedFileName = useMemo(() => {
     return getSuggestedPdfFileName({
-      setName: currentSet?.name,
-      setOrder: currentSet?.order,
+      setName: effectiveSet?.name,
+      setOrder: effectiveSet?.order,
       topicName: topic?.name,
       topicSlug: topic?.slug,
       filter: reviewFilter,
     });
-  }, [currentSet, topic, reviewFilter]);
+  }, [effectiveSet, topic, reviewFilter]);
 
   // Keep document.title synchronized so the browser automatically populates
   // the exact test name in Windows "Save Print Output As" / "Save As PDF"
@@ -211,7 +212,7 @@ export default function ResultsPage() {
   }, [suggestedFileName]);
 
   // ── Loading state ──
-  if (data === undefined || currentSet === undefined) {
+  if (data === undefined && currentSet === undefined && !localSetMeta) {
     return (
       <div className="w-full space-y-4 pt-1">
         <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
@@ -221,7 +222,7 @@ export default function ResultsPage() {
   }
 
   // ── Test Set Not Found & No Results ──
-  if (currentSet === null && data === null) {
+  if (effectiveSet === null && data === null) {
     return (
       <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
         <p className="text-base font-bold text-foreground mb-2">Test Set Not Found</p>
@@ -241,7 +242,7 @@ export default function ResultsPage() {
   }
 
   // ── Empty / Unattempted state ──
-  if (data === null) {
+  if (!data || !data.attempt) {
     return (
       <Card className="p-8 border border-border rounded-2xl text-center bg-card max-w-md mx-auto my-12 shadow-sm">
         <p className="text-base font-bold text-foreground mb-2">No Test Results Found</p>
@@ -249,12 +250,12 @@ export default function ResultsPage() {
           You haven&apos;t completed this test set yet, or your attempt is still in progress.
         </p>
         <div className="flex justify-center gap-3">
-          {currentSet ? (
+          {effectiveSet ? (
             <Button asChild className="rounded-xl">
               <Link href={`/quiz/${id}`}>Start Test Now</Link>
             </Button>
           ) : null}
-          <Button asChild variant={currentSet ? "outline" : "default"} className="rounded-xl">
+          <Button asChild variant={effectiveSet ? "outline" : "default"} className="rounded-xl">
             <Link href="/dashboard">Back to Dashboard</Link>
           </Button>
         </div>
@@ -264,17 +265,11 @@ export default function ResultsPage() {
 
   const { attempt } = data;
   const questionsList = resolvedQuestions || [];
-  const answersList = attempt?.answers || [];
-  const correctCount = answersList.filter((a) => a.isCorrect).length;
-  const incorrectCount = answersList.filter((a) => !a.isCorrect).length;
-  const totalQCount = attempt?.totalQuestions ?? questionsList.length;
-  const unansweredCount = Math.max(0, totalQCount - answersList.length);
-
-  const filterCounts = {
-    all: questionsList.length,
-    correct: correctCount,
-    incorrect: incorrectCount,
-  };
+  const answersList = attempt.answers || [];
+  const correctCount = answersList.filter((a: any) => a.isCorrect).length;
+  const incorrectCount = answersList.filter((a: any) => !a.isCorrect && a.selected !== undefined).length;
+  const totalQCount = attempt.totalQuestions ?? questionsList.length;
+  const unansweredCount = Math.max(0, totalQCount - (correctCount + incorrectCount));
 
   function handleToggleBookmark(questionId: string) {
     setBookmarked((prev) => {
@@ -289,21 +284,13 @@ export default function ResultsPage() {
     toggleBookmark({ questionId });
   }
 
-  const handlePrint = async (filter?: ReviewFilter, themeOverride?: "dark" | "light") => {
+  const handlePrint = async (filter?: ReviewFilter) => {
     try {
       const activeFilter = filter ?? reviewFilter;
-      const activeTheme = themeOverride ?? pdfTheme;
-
-      if (themeOverride && themeOverride !== pdfTheme) {
-        setPdfTheme(themeOverride);
-      }
-      if (filter && filter !== reviewFilter) {
-        setReviewFilter(filter);
-      }
 
       const printFileName = getSuggestedPdfFileName({
-        setName: currentSet?.name,
-        setOrder: currentSet?.order,
+        setName: effectiveSet?.name,
+        setOrder: effectiveSet?.order,
         topicName: topic?.name,
         topicSlug: topic?.slug,
         filter: activeFilter,
@@ -314,9 +301,7 @@ export default function ResultsPage() {
         if (document.fonts) {
           try {
             await document.fonts.ready;
-          } catch {
-            // Non-critical font ready failure
-          }
+          } catch {}
         }
       }
 
@@ -348,7 +333,7 @@ export default function ResultsPage() {
   return (
     <>
       {/* ── Screen UI View (Hidden completely during Print) ── */}
-      <div id="screen-results-view" className="space-y-5 pb-12 print:hidden">
+      <div id="screen-results-view" className="space-y-6 pb-12 print:hidden">
         {/* Back to dashboard */}
         <Link
           href="/dashboard"
@@ -358,17 +343,17 @@ export default function ResultsPage() {
           Back to Dashboard
         </Link>
 
-        {/* Score summary card (screen only) */}
+        {/* ── Score Summary Card ── */}
         <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
-          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-3">
-            Test Result
+          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-2 font-hindi">
+            {effectiveSet?.name || "Test Result"}
           </p>
 
           {/* Score */}
           <p className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground tabular-nums mb-3">
             {formatScore(attempt.score ?? 0)}
             <span className="text-lg sm:text-xl text-muted-foreground font-semibold">
-              {" "}/ {attempt.totalQuestions * 2} pts
+              {" "}/ {(attempt.totalQuestions || 20) * 2} pts
             </span>
           </p>
 
@@ -391,147 +376,136 @@ export default function ResultsPage() {
           </div>
 
           {/* Canonical Scoring Rule Note */}
-          <p className="text-[11px] text-muted-foreground mb-5">
+          <p className="text-[11px] text-muted-foreground mb-6">
             Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
           </p>
 
-          {/* Action buttons: Print PDF, Theme Toggle, Mistakes Sheet, Next Set/Retake */}
-          <div className="flex flex-col items-center gap-3">
-            <div className="flex flex-wrap items-center justify-center gap-2.5">
-              {/* Direct Print / Save PDF Button */}
-              <Button
-                type="button"
-                onClick={() => handlePrint()}
-                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-sm"
-                title={`Print / Save: ${suggestedFileName}.pdf (${pdfTheme === "light" ? "Light Ink-Saver" : "Dark Report"})`}
-              >
-                <Printer className="h-3.5 w-3.5" />
-                Print / Save PDF
-              </Button>
-
-              {/* Ink-Saver Light / Dark Theme Selector Pill */}
-              <div
-                className="inline-flex items-center rounded-xl border border-border bg-muted/40 p-1 text-xs"
-                role="group"
-                aria-label="PDF Theme"
-              >
-                <button
-                  type="button"
-                  onClick={() => setPdfTheme("light")}
-                  className={cn(
-                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
-                    pdfTheme === "light"
-                      ? "bg-card text-foreground shadow-xs border border-border/60"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="Light PDF Report (Ink-Saver mode)"
-                >
-                  <Sun className="h-3 w-3" />
-                  <span>Light</span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setPdfTheme("dark")}
-                  className={cn(
-                    "flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer",
-                    pdfTheme === "dark"
-                      ? "bg-card text-foreground shadow-xs border border-border/60"
-                      : "text-muted-foreground hover:text-foreground"
-                  )}
-                  title="Dark PDF Report"
-                >
-                  <Moon className="h-3 w-3" />
-                  <span>Dark</span>
-                </button>
-              </div>
-
-              {/* Quick Mistakes Revision Sheet Button */}
-              {incorrectCount > 0 && (
-                <Button
-                  type="button"
-                  variant="outline"
-                  onClick={() => handlePrint("incorrect")}
-                  className="font-semibold text-xs h-10 px-3.5 rounded-xl border-border gap-1.5 cursor-pointer text-rose-600 dark:text-rose-400 hover:bg-rose-500/10"
-                  title="One-click Print: Mistake Revision Sheet"
-                >
-                  <XCircle className="h-3.5 w-3.5" />
-                  <span>Mistakes Sheet ({incorrectCount})</span>
-                </Button>
-              )}
-
-              {nextSet ? (
-                <Button
-                  asChild
-                  variant="outline"
-                  className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-                >
-                  <Link href={`/quiz/${nextSet._id}`}>
-                    Next Test Set
-                    <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                  </Link>
-                </Button>
-              ) : (
-                <Button
-                  asChild
-                  variant="outline"
-                  className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
-                >
-                  <Link href="/subjects">
-                    <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                    View All Subjects
-                  </Link>
-                </Button>
-              )}
-
+          {/* ── ONLY Two Primary Action Buttons: Next Set & Retake ── */}
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            {nextSet ? (
               <Button
                 asChild
-                variant="outline"
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80"
+                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
               >
-                <Link href={`/quiz/${id}`}>
-                  <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-                  Retake Test
+                <Link href={`/quiz/${nextSet._id}`}>
+                  Next Test Set
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
               </Button>
-            </div>
-
-            {suggestedFileName && (
-              <span className="text-[10.5px] text-muted-foreground font-medium flex items-center gap-1">
-                Save as: <code className="bg-muted px-1.5 py-0.5 rounded text-foreground font-mono font-semibold">{suggestedFileName}.pdf</code>
-                <span className="text-muted-foreground/60 text-[9.5px]">({pdfTheme === "light" ? "Light Ink-Saver" : "Dark Theme"})</span>
-              </span>
+            ) : (
+              <Button
+                asChild
+                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
+              >
+                <Link href="/subjects">
+                  <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
+                  View All Subjects
+                </Link>
+              </Button>
             )}
+
+            <Button
+              asChild
+              variant="outline"
+              className="font-semibold text-xs h-10 px-5 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
+            >
+              <Link href={`/quiz/${id}`}>
+                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+                Retake Test
+              </Link>
+            </Button>
           </div>
         </Card>
 
-        {/* ── Question Review section (screen interactive list) ── */}
-        <div className="space-y-4">
-          {/* Header row: title + count + filter */}
-          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-2.5">
-            <div className="flex items-center gap-3 flex-wrap">
-              <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground">
-                Question Review
-              </h2>
-              <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-1 rounded-full tabular-nums">
-                {filteredQuestionsWithIndex.length} of {questionsList.length} Questions
-              </span>
-            </div>
-
-            <div className="flex items-center gap-2 flex-wrap">
-              <QuestionReviewFilter
-                value={reviewFilter}
-                onChange={setReviewFilter}
-                counts={filterCounts}
-              />
-            </div>
+        {/* ── Modern Capsule Navigation (4 Options: Question Review, Mistake Sheet, Print, PDF) ── */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+          <div className="flex items-center gap-2.5">
+            <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground font-hindi">
+              {activeCapsuleTab === "mistakes" ? "Mistake Revision Sheet" : "Question Review"}
+            </h2>
+            <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-0.5 rounded-full tabular-nums">
+              {filteredQuestionsWithIndex.length} of {questionsList.length} Questions
+            </span>
           </div>
 
-          {/* Filtered question list — original question number preserved */}
+          {/* Segmented 4-Option Capsule with stable dimensions */}
+          <div
+            role="group"
+            aria-label="Result Actions"
+            className="inline-flex items-center h-9 p-1 bg-muted/60 border border-border/80 rounded-xl gap-0.5 self-start sm:self-auto shadow-2xs"
+          >
+            {/* 1. Question Review */}
+            <button
+              type="button"
+              onClick={() => {
+                setActiveCapsuleTab("review");
+                setReviewFilter("all");
+              }}
+              className={cn(
+                "h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
+                activeCapsuleTab === "review"
+                  ? "bg-card text-foreground shadow-2xs font-bold border border-border/60"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              <LayoutList className="h-3.5 w-3.5" />
+              <span>Question Review</span>
+            </button>
+
+            {/* 2. Mistake Sheet */}
+            <button
+              type="button"
+              onClick={() => {
+                setActiveCapsuleTab("mistakes");
+                setReviewFilter("incorrect");
+              }}
+              className={cn(
+                "h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
+                activeCapsuleTab === "mistakes"
+                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 font-bold border border-rose-500/30 shadow-2xs"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+            >
+              <XCircle className="h-3.5 w-3.5 text-rose-500" />
+              <span>Mistake Sheet</span>
+              {incorrectCount > 0 && (
+                <span className="ml-0.5 px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-rose-500/20 text-rose-600 dark:text-rose-400 tabular-nums">
+                  {incorrectCount}
+                </span>
+              )}
+            </button>
+
+            {/* 3. Print */}
+            <button
+              type="button"
+              onClick={() => handlePrint(reviewFilter)}
+              className="h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all cursor-pointer whitespace-nowrap"
+              title="Print Questions"
+            >
+              <Printer className="h-3.5 w-3.5" />
+              <span>Print</span>
+            </button>
+
+            {/* 4. PDF */}
+            <button
+              type="button"
+              onClick={() => handlePrint(reviewFilter)}
+              className="h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all cursor-pointer whitespace-nowrap"
+              title={`Save as ${suggestedFileName}.pdf`}
+            >
+              <FileDown className="h-3.5 w-3.5" />
+              <span>PDF</span>
+            </button>
+          </div>
+        </div>
+
+        {/* ── Question List (Screen interactive view) ── */}
+        <div className="space-y-4">
           {filteredQuestionsWithIndex.length === 0 ? (
-            <p className="text-sm text-muted-foreground text-center py-10">
-              {reviewFilter === "correct"
-                ? "No correct answers found."
-                : "No incorrect answers found."}
+            <p className="text-sm text-muted-foreground text-center py-10 font-hindi">
+              {reviewFilter === "incorrect"
+                ? "शाबाश! आपने इस टेस्ट में कोई गलत उत्तर नहीं दिया।"
+                : "कोई प्रश्न उपलब्ध नहीं है।"}
             </p>
           ) : (
             filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex, questionId }) => {
@@ -552,27 +526,25 @@ export default function ResultsPage() {
         </div>
       </div>
 
-      {/* ── Official A4 Two-Column Assessment Report (Shown ONLY during Print) ── */}
+      {/* ── Official A4 Two-Column Assessment Report (Pure Light Mode Print ONLY) ── */}
       <PdfReportErrorBoundary>
         <PrintableAssessmentReport
-          testSetName={currentSet?.name || "Assessment Report"}
+          testSetName={effectiveSet?.name || "Assessment Report"}
           subjectName={subject?.name}
           topicName={topic?.name}
           score={attempt.score ?? 0}
-          totalQuestions={attempt.totalQuestions}
+          totalQuestions={attempt.totalQuestions || 20}
           correctCount={correctCount}
           incorrectCount={incorrectCount}
           unansweredCount={unansweredCount}
           submittedAt={attempt.submittedAt}
           filterLabel={
-            reviewFilter === "all"
-              ? "Complete Question Review"
-              : reviewFilter === "incorrect"
+            reviewFilter === "incorrect"
               ? "Mistake Revision Sheet (Incorrect Only)"
-              : "Correct Answers Only"
+              : "Complete Question Review"
           }
           questions={evaluatedQuestions}
-          theme={pdfTheme}
+          theme="light"
         />
       </PdfReportErrorBoundary>
     </>

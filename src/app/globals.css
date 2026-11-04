@@ -167,12 +167,15 @@ button {
 
 .font-hindi,
 :lang(hi),
-[lang="hi"] {
-  font-family: var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif;
-  letter-spacing: 0;
-  word-spacing: 0.025em;
+[lang="hi"],
+.font-hindi *,
+[lang="hi"] * {
+  font-family: var(--font-google-sans), "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", "Segoe UI", sans-serif;
+  letter-spacing: normal !important;
   line-height: 1.65;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1 !important;
+  font-variant-ligatures: normal !important;
+  text-rendering: optimizeLegibility !important;
 }
 
 /* Typography weight normalization: Quizzer uses a restrained 400/500/600 scale.
@@ -270,8 +273,27 @@ pre {
   }
 }
 
-/* ── PDF Publication Theme Tokens ── */
-:root {
+/* ── PDF Publication Theme Tokens (Default Pure Light Mode) ── */
+:root,
+[data-pdf-theme="light"],
+.pdf-theme-light {
+  --pdf-bg: #ffffff;
+  --pdf-surface: #ffffff;
+  --pdf-surface-2: #f8fafc;
+  --pdf-border: #e2e8f0;
+  --pdf-text: #09090b;
+  --pdf-muted: #475569;
+  --pdf-accent: #0f172a;
+  --pdf-ok: #15803d;
+  --pdf-ok-bg: #f0fdf4;
+  --pdf-ok-border: #bbf7d0;
+  --pdf-bad: #b91c1c;
+  --pdf-bad-bg: #fef2f2;
+  --pdf-bad-border: #fecaca;
+}
+
+[data-pdf-theme="dark"],
+.pdf-theme-dark {
   --pdf-bg: #09090b;
   --pdf-surface: #111113;
   --pdf-surface-2: #18181b;
@@ -287,30 +309,36 @@ pre {
   --pdf-bad-border: #881337;
 }
 
-[data-pdf-theme="light"],
-.pdf-theme-light {
-  --pdf-bg: #ffffff;
-  --pdf-surface: #ffffff;
-  --pdf-surface-2: #f8fafc;
-  --pdf-border: #e2e8f0;
-  --pdf-text: #09090b;
-  --pdf-muted: #64748b;
-  --pdf-accent: #09090b;
-  --pdf-ok: #059669;
-  --pdf-ok-bg: #ecfdf5;
-  --pdf-ok-border: #a7f3d0;
-  --pdf-bad: #e11d48;
-  --pdf-bad-bg: #fff1f2;
-  --pdf-bad-border: #fecdd3;
-}
-
 @media print {
   @page {
     size: A4 portrait;
     margin: 0;
   }
 
-  /* Force exact color reproduction for green/red answer states and dark backgrounds */
+  /* Force pure light mode tokens during print regardless of active screen theme */
+  :root,
+  html,
+  body,
+  .dark,
+  [data-pdf-theme] {
+    --pdf-bg: #ffffff !important;
+    --pdf-surface: #ffffff !important;
+    --pdf-surface-2: #f8fafc !important;
+    --pdf-border: #e2e8f0 !important;
+    --pdf-text: #09090b !important;
+    --pdf-muted: #475569 !important;
+    --pdf-accent: #0f172a !important;
+    --pdf-ok: #15803d !important;
+    --pdf-ok-bg: #f0fdf4 !important;
+    --pdf-ok-border: #bbf7d0 !important;
+    --pdf-bad: #b91c1c !important;
+    --pdf-bad-bg: #fef2f2 !important;
+    --pdf-bad-border: #fecaca !important;
+    background: #ffffff !important;
+    color: #09090b !important;
+  }
+
+  /* Force exact color reproduction for green/red answer states */
   *,
   *::before,
   *::after {
@@ -323,9 +351,9 @@ pre {
 
   html,
   body {
-    background: var(--pdf-bg) !important;
-    color: var(--pdf-text) !important;
-    font-family: var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif !important;
+    background: #ffffff !important;
+    color: #09090b !important;
+    font-family: var(--font-google-sans), "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", system-ui, sans-serif !important;
     margin: 0 !important;
     padding: 0 !important;
     -webkit-print-color-adjust: exact !important;

@@ -185,16 +185,16 @@ export function CombinedStudyActivityPanel({
             </CardDescription>
           </div>
 
-          <div className="flex items-center gap-2 self-start sm:self-auto">
+          <div className="flex flex-wrap items-center gap-2 self-start sm:self-auto">
             {/* Main Mode Toggle: Activity vs Recent Tests */}
-            <div className="flex items-center bg-muted/70 p-0.5 rounded-xl border border-border/60">
+            <div className="inline-flex items-center h-8 bg-muted/60 p-0.5 rounded-xl border border-border/70">
               <button
                 type="button"
                 onClick={() => setPanelTab("activity")}
                 className={cn(
-                  "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer",
+                  "h-7 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
                   panelTab === "activity"
-                    ? "bg-background text-foreground shadow-2xs font-bold"
+                    ? "bg-card text-foreground shadow-2xs font-bold border border-border/40"
                     : "text-muted-foreground hover:text-foreground"
                 )}
               >
@@ -204,9 +204,9 @@ export function CombinedStudyActivityPanel({
                 type="button"
                 onClick={() => setPanelTab("recent")}
                 className={cn(
-                  "px-2.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer",
+                  "h-7 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
                   panelTab === "recent"
-                    ? "bg-background text-foreground shadow-2xs font-bold"
+                    ? "bg-card text-foreground shadow-2xs font-bold border border-border/40"
                     : "text-muted-foreground hover:text-foreground"
                 )}
               >
@@ -216,14 +216,14 @@ export function CombinedStudyActivityPanel({
 
             {/* Sub-toggle for Activity: Daily vs Hourly */}
             {panelTab === "activity" && (
-              <div className="flex items-center bg-muted/50 p-0.5 rounded-lg border border-border/40 text-[11px]">
+              <div className="inline-flex items-center h-8 bg-muted/40 p-0.5 rounded-xl border border-border/50 text-xs">
                 <button
                   type="button"
                   onClick={() => setActivitySubView("daily")}
                   className={cn(
-                    "px-2 py-0.5 font-semibold rounded transition-all cursor-pointer",
+                    "h-7 px-2.5 font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
                     activitySubView === "daily"
-                      ? "bg-card text-foreground font-bold shadow-2xs"
+                      ? "bg-card text-foreground font-bold shadow-2xs border border-border/40"
                       : "text-muted-foreground hover:text-foreground"
                   )}
                   title="Daily timeline"
@@ -234,9 +234,9 @@ export function CombinedStudyActivityPanel({
                   type="button"
                   onClick={() => setActivitySubView("hourly")}
                   className={cn(
-                    "px-2 py-0.5 font-semibold rounded transition-all cursor-pointer",
+                    "h-7 px-2.5 font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
                     activitySubView === "hourly"
-                      ? "bg-card text-foreground font-bold shadow-2xs"
+                      ? "bg-card text-foreground font-bold shadow-2xs border border-border/40"
                       : "text-muted-foreground hover:text-foreground"
                   )}
                   title="24-Hour peak study pattern"

@@ -54,12 +54,17 @@ export default function DashboardPage() {
         </Button>
       </div>
 
-      {/* ── 1. Continue Practice / Next Recommended Test Sets (Primary Action) ── */}
+      {/* ── 1. Syllabus Tracker Overview (Top Priority) ── */}
+      <section aria-label="Syllabus Overview" className="pt-1">
+        <SyllabusOverviewCard />
+      </section>
+
+      {/* ── 2. Continue Practice / Next Recommended Test Sets (Primary Action) ── */}
       <section aria-label="Continue Practice">
         <ContinuePracticeCard />
       </section>
 
-      {/* ── 2. Performance Summary Stat Cards (4-col on desktop, 2-col on mobile) ── */}
+      {/* ── 3. Performance Summary Stat Cards (4-col on desktop, 2-col on mobile) ── */}
       <section aria-label="Key Statistics">
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3 min-h-[3.5rem]">
           {stats === undefined ? (
@@ -86,7 +91,7 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* ── 3. Subjects Grid (Canonical Study Areas) ── */}
+      {/* ── 4. Subjects Grid (Canonical Study Areas) ── */}
       <section aria-label="Subjects" className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-bold text-muted-foreground uppercase tracking-wider flex items-center gap-2">
@@ -149,7 +154,7 @@ export default function DashboardPage() {
         )}
       </section>
 
-      {/* ── 4. Recent Test Attempts ── */}
+      {/* ── 5. Recent Test Attempts ── */}
       <section aria-label="Recent Attempts">
         <Card className="p-4 sm:p-5 rounded-2xl border border-border shadow-xs">
           <div className="flex items-center justify-between mb-3.5">
@@ -202,11 +207,6 @@ export default function DashboardPage() {
             </ul>
           )}
         </Card>
-      </section>
-
-      {/* ── 5. Syllabus Tracker Summary Card ── */}
-      <section aria-label="Syllabus Overview" className="pt-1">
-        <SyllabusOverviewCard />
       </section>
     </div>
   );

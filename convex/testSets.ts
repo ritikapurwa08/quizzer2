@@ -1,16 +1,20 @@
 import { v } from "convex/values";
-import { Id } from "./_generated/dataModel";
+import { Id, Doc } from "./_generated/dataModel";
 import { mutation, query } from "./_generated/server";
 import { requireAdmin, requireUser } from "./lib/permissions";
 
 export const listByTopic = query({
-  args: { topicId: v.id("topics") },
+  args: { topicId: v.union(v.id("topics"), v.string()) },
   handler: async (ctx, args) => {
-    const sets = await ctx.db
-      .query("testSets")
-      .withIndex("by_topic", (q) => q.eq("topicId", args.topicId))
-      .collect();
-    return sets.sort((a, b) => a.order - b.order);
+    try {
+      const sets = await ctx.db
+        .query("testSets")
+        .withIndex("by_topic", (q) => q.eq("topicId", args.topicId as any))
+        .collect();
+      return sets.sort((a, b) => a.order - b.order);
+    } catch {
+      return [];
+    }
   },
 });
 
@@ -72,9 +76,9 @@ export const siteStats = query({
 
 export const get = query({
   args: { id: v.union(v.id("testSets"), v.string()) },
-  handler: async (ctx, args) => {
+  handler: async (ctx, args): Promise<Doc<"testSets"> | null> => {
     try {
-      return await ctx.db.get(args.id as Id<"testSets">);
+      return (await ctx.db.get(args.id as Id<"testSets">)) as Doc<"testSets"> | null;
     } catch {
       return null;
     }

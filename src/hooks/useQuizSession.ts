@@ -7,6 +7,73 @@ import { Id } from "../../convex/_generated/dataModel";
 
 const SAVE_DEBOUNCE_MS = 300;
 
+/**
+ * Robust Answer Matcher: Resolves options by id ("opt1".."opt4"), letter ("A".."D"),
+ * numeric digit (1..4), or full text, with multi-select array support.
+ */
+export function checkAnswerMatch(
+  correctAnswer: any,
+  selected: any,
+  options?: any[]
+): boolean {
+  if (selected === undefined || selected === null || selected === "") return false;
+  if (!correctAnswer) return false;
+
+  // Array comparison (e.g. matching or multi-select questions)
+  if (Array.isArray(correctAnswer)) {
+    if (!Array.isArray(selected) || selected.length !== correctAnswer.length) return false;
+    return correctAnswer.every((c, i) => checkAnswerMatch(c, selected[i], options));
+  }
+
+  const selStr = String(selected).trim().toUpperCase();
+  const corStr = String(correctAnswer).trim().toUpperCase();
+
+  // Direct match: "A" === "A", "opt1" === "opt1"
+  if (selStr === corStr) return true;
+
+  // Determine selected option index (0 for opt1/A/1, 1 for opt2/B/2, etc.)
+  let selIdx = -1;
+  const optMatch = selStr.match(/^OPT([1-9]\d*)$/);
+  if (optMatch) {
+    selIdx = parseInt(optMatch[1], 10) - 1;
+  } else if (/^[A-D]$/.test(selStr)) {
+    selIdx = selStr.charCodeAt(0) - 65;
+  } else if (/^[1-4]$/.test(selStr)) {
+    selIdx = parseInt(selStr, 10) - 1;
+  }
+
+  // Determine correct option index
+  let corIdx = -1;
+  const corOptMatch = corStr.match(/^OPT([1-9]\d*)$/);
+  if (corOptMatch) {
+    corIdx = parseInt(corOptMatch[1], 10) - 1;
+  } else if (/^[A-D]$/.test(corStr)) {
+    corIdx = corStr.charCodeAt(0) - 65;
+  } else if (/^[1-4]$/.test(corStr)) {
+    corIdx = parseInt(corStr, 10) - 1;
+  }
+
+  if (selIdx !== -1 && corIdx !== -1 && selIdx === corIdx) {
+    return true;
+  }
+
+  // If options array is provided, match by option text
+  if (Array.isArray(options) && options.length > 0) {
+    if (selIdx !== -1 && selIdx < options.length) {
+      const opt = options[selIdx];
+      const optText = (typeof opt === "string" ? opt : opt?.text || "").trim().toUpperCase();
+      if (optText === corStr) return true;
+    }
+    if (corIdx !== -1 && corIdx < options.length) {
+      const opt = options[corIdx];
+      const optText = (typeof opt === "string" ? opt : opt?.text || "").trim().toUpperCase();
+      if (optText === selStr) return true;
+    }
+  }
+
+  return false;
+}
+
 export function useQuizSession(testSetId: Id<"testSets">) {
   const start = useMutation(api.attempts.start);
   const pauseAttempt = useMutation(api.attempts.pause);
@@ -16,8 +83,18 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const toggleBookmarkRemote = useMutation(api.bookmarks.toggle);
   const userBookmarkIds = useQuery(api.bookmarks.listQuestionIdsByUser);
 
+  const storageKey = `quiz_answers_${String(testSetId)}`;
+
   const [attemptId, setAttemptId] = useState<Id<"attempts"> | null>(null);
-  const [localAnswers, setLocalAnswers] = useState<Record<string, string | string[]>>({});
+  const [localAnswers, setLocalAnswers] = useState<Record<string, string | string[]>>(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const cached = localStorage.getItem(storageKey);
+        if (cached) return JSON.parse(cached);
+      } catch {}
+    }
+    return {};
+  });
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
 
   // Fixed duration pausable timer states
@@ -71,7 +148,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const isPaused = Boolean(attempt?.isPaused);
   const isSubmitted = attempt?.status === "submitted";
 
-  // 3. Hydrate saved answers from server when attempt data arrives
+  // 3. Hydrate saved answers from server when attempt data arrives & merge with local storage
   useEffect(() => {
     if (attempt?.answers && !isInitializedRef.current) {
       const initial: Record<string, string | string[]> = {};
@@ -80,10 +157,18 @@ export function useQuizSession(testSetId: Id<"testSets">) {
           initial[item.questionId] = item.selected;
         }
       }
-      setLocalAnswers(initial);
+      setLocalAnswers((prev) => {
+        const merged = { ...initial, ...prev };
+        if (typeof window !== "undefined") {
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(merged));
+          } catch {}
+        }
+        return merged;
+      });
       isInitializedRef.current = true;
     }
-  }, [attempt]);
+  }, [attempt, storageKey]);
 
   // 4. Hydrate user bookmarks from Convex
   useEffect(() => {
@@ -162,13 +247,20 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     submitAttempt,
   ]);
 
-  // 7. Select answer handler
+  // 7. Select answer handler (instant local persistence + debounced server sync)
   const selectAnswer = useCallback(
     (questionId: string, value: string | string[]) => {
-      // Disallow answering while paused
       if (attempt?.isPaused) return;
 
-      setLocalAnswers((prev) => ({ ...prev, [questionId]: value }));
+      setLocalAnswers((prev) => {
+        const next = { ...prev, [questionId]: value };
+        if (typeof window !== "undefined") {
+          try {
+            localStorage.setItem(storageKey, JSON.stringify(next));
+          } catch {}
+        }
+        return next;
+      });
 
       if (debounceTimers.current[questionId]) {
         clearTimeout(debounceTimers.current[questionId]);
@@ -182,7 +274,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         });
       }, SAVE_DEBOUNCE_MS);
     },
-    [attemptId, attempt?.isPaused, saveAnswer]
+    [attemptId, attempt?.isPaused, saveAnswer, storageKey]
   );
 
   // 8. Toggle bookmark handler
@@ -211,7 +303,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     await resumeAttempt({ attemptId });
   }, [attemptId, isPaused, isSubmitted, resumeAttempt]);
 
-  // 11. Submit test handler
+  // 11. Submit test handler (evaluates answers and cleans up localStorage on success)
   const submit = useCallback(async () => {
     if (!attemptId) return null;
     Object.values(debounceTimers.current).forEach(clearTimeout);
@@ -219,8 +311,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
     // Prepare evaluations from resolved questions
     const evaluations = resolvedQuestions.map((q) => {
-      const qid = q._id || q.id || q.canonicalId;
-      const selected = localAnswers[qid];
+      const qid = q._id || q.id || q.canonicalId || q.convexId;
+      const selected =
+        localAnswers[String(q._id)] ??
+        localAnswers[String(q.id)] ??
+        localAnswers[String(q.canonicalId)] ??
+        localAnswers[String(q.convexId)] ??
+        localAnswers[String(qid)];
+
       const isAttempted =
         selected !== undefined &&
         selected !== null &&
@@ -229,19 +327,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
       let isCorrect = false;
       if (isAttempted && q.correctAnswer) {
-        if (Array.isArray(q.correctAnswer)) {
-          isCorrect =
-            Array.isArray(selected) &&
-            selected.length === q.correctAnswer.length &&
-            q.correctAnswer.every(
-              (c: any, i: number) =>
-                String(c).trim().toUpperCase() === String(selected[i]).trim().toUpperCase()
-            );
-        } else {
-          isCorrect =
-            String(q.correctAnswer).trim().toUpperCase() ===
-            String(selected).trim().toUpperCase();
-        }
+        isCorrect = checkAnswerMatch(q.correctAnswer, selected, q.options);
       }
 
       return {
@@ -251,8 +337,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       };
     });
 
-    return await submitAttempt({ attemptId, evaluations });
-  }, [attemptId, resolvedQuestions, localAnswers, submitAttempt]);
+    const res = await submitAttempt({ attemptId, evaluations });
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.removeItem(storageKey);
+      } catch {}
+    }
+    return res;
+  }, [attemptId, resolvedQuestions, localAnswers, submitAttempt, storageKey]);
 
   return {
     attemptId,

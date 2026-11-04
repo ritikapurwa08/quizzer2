@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect, Suspense } from "react";
+import { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
@@ -164,6 +164,7 @@ function SavedQuestionsContent() {
 
   // ── Local-First Question Resolution (Optimized with stable batch key & zero duplicate renders) ──
   const [resolvedQuestions, setResolvedQuestions] = useState<Record<string, Question>>({});
+  const requestedIdsRef = useRef<Set<string>>(new Set());
 
   const batchKey = useMemo(() => {
     const ids: string[] = [];
@@ -182,15 +183,22 @@ function SavedQuestionsContent() {
   useEffect(() => {
     if (!batchKey) return;
     const ids = batchKey.split(",").filter(Boolean);
-    const missing = ids.filter((id) => !resolvedQuestions[id]);
-    if (missing.length === 0) return;
+    const toFetch = ids.filter((id) => !requestedIdsRef.current.has(id));
+    if (toFetch.length === 0) return;
 
-    resolveQuestions(missing).then((res) => {
-      if (Object.keys(res).length > 0) {
+    // Immediately mark as requested to prevent duplicate fetches or infinite loops
+    for (const id of toFetch) {
+      requestedIdsRef.current.add(id);
+    }
+
+    resolveQuestions(toFetch).then((res) => {
+      if (res && Object.keys(res).length > 0) {
         setResolvedQuestions((prev) => ({ ...prev, ...res }));
       }
+    }).catch((err) => {
+      console.error("Failed to resolve batch questions:", err);
     });
-  }, [batchKey, resolvedQuestions]);
+  }, [batchKey]);
 
   return (
     <div className="space-y-6 pb-12">
