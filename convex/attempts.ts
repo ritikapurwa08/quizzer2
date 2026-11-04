@@ -347,14 +347,17 @@ export const latestSubmittedForTestSet = query({
       }
 
       if (!latest) {
-        latest = await ctx.db
+        const recentSubmitted = await ctx.db
           .query("attempts")
           .withIndex("by_user_status", (q) =>
             q.eq("userId", user._id).eq("status", "submitted"),
           )
-          .filter((q) => q.eq(q.field("testSetId"), args.testSetId))
           .order("desc")
-          .first();
+          .take(50);
+        latest =
+          recentSubmitted.find(
+            (a) => String(a.testSetId) === String(args.testSetId)
+          ) ?? null;
       }
 
       if (!latest) return null;

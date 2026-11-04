@@ -35,14 +35,18 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
           <ol className="space-y-2">
             {items.map((item, idx) => {
               const isHindi = containsDevanagari(item.text);
+              const displayBadge =
+                item.id && !item.id.startsWith("item-")
+                  ? item.id.toUpperCase()
+                  : String(idx + 1).padStart(2, "0");
               return (
                 <li
                   key={item.id}
                   className="flex items-start gap-3 rounded-lg border border-border/70 bg-card px-3.5 py-2.5"
                 >
-                  {/* Sequence number badge */}
+                  {/* Sequence number / marker badge */}
                   <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary text-[11px] font-bold mt-0.5">
-                    {String(idx + 1).padStart(2, "0")}
+                    {displayBadge}
                   </span>
                   {/* Item text */}
                   <span

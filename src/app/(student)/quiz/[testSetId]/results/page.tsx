@@ -106,13 +106,27 @@ export default function ResultsPage() {
   const { testSetId } = useParams<{ testSetId: string }>();
   const id = testSetId as Id<"testSets">;
 
-  // ── Data queries — all hooks must be declared before any early returns ──
-  const data = useQuery(api.attempts.latestSubmittedForTestSet, { testSetId: id });
+  // ── Local state — declared first so localSetMeta can inform queries ──
+  const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
+  const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
+  const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
+  const [localSetMeta, setLocalSetMeta] = useState<any>(null);
+  const { showToast } = useToast();
+
+  // ── Data queries — guarded with "skip" when id is not yet available ──
+  const data = useQuery(
+    api.attempts.latestSubmittedForTestSet,
+    id ? { testSetId: id } : "skip"
+  );
   const toggleBookmark = useMutation(api.bookmarks.toggle);
-  const currentSet = useQuery(api.testSets.get, { id });
+  const currentSet = useQuery(api.testSets.get, id ? { id } : "skip");
+
+  const effectiveSet = currentSet || localSetMeta;
+  const topicId = currentSet?.topicId || localSetMeta?.topicId;
+
   const topic = useQuery(
     api.topics.get,
-    currentSet?.topicId ? { id: currentSet.topicId } : "skip"
+    topicId ? { id: topicId } : "skip"
   );
   const subject = useQuery(
     api.subjects.get,
@@ -121,15 +135,8 @@ export default function ResultsPage() {
 
   const siblingSets = useQuery(
     api.testSets.listByTopic,
-    currentSet?.topicId ? { topicId: currentSet.topicId } : "skip"
+    topicId ? { topicId } : "skip"
   );
-
-  // ── Local state — also before any early returns ──
-  const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
-  const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
-  const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
-  const [localSetMeta, setLocalSetMeta] = useState<any>(null);
-  const { showToast } = useToast();
 
   useEffect(() => {
     if ((!currentSet || !data?.questions || data.questions.length === 0) && id) {
@@ -145,8 +152,6 @@ export default function ResultsPage() {
     }
   }, [currentSet, data, id]);
 
-  const effectiveSet = currentSet || localSetMeta;
-
   const resolvedQuestions =
     data?.questions && data.questions.length > 0
       ? data.questions
@@ -155,7 +160,7 @@ export default function ResultsPage() {
   // Next-set logic: find the next set by order within the same topic
   const nextSet = useMemo(() => {
     if (!siblingSets || !effectiveSet) return null;
-    const currentIndex = siblingSets.findIndex((s) => s._id === id);
+    const currentIndex = siblingSets.findIndex((s) => s._id === id || (s as any).id === id);
     if (currentIndex === -1 || currentIndex === siblingSets.length - 1) return null;
     return siblingSets[currentIndex + 1];
   }, [siblingSets, effectiveSet, id]);
@@ -254,7 +259,7 @@ export default function ResultsPage() {
   }, [suggestedFileName]);
 
   // ── Loading state ──
-  if (data === undefined && currentSet === undefined && !localSetMeta) {
+  if (data === undefined || (currentSet === undefined && !localSetMeta)) {
     return (
       <div className="w-full space-y-4 pt-1">
         <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
@@ -514,7 +519,7 @@ export default function ResultsPage() {
                 asChild
                 className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
               >
-                <Link href={`/quiz/${nextSet._id}`}>
+                <Link href={`/quiz/${nextSet._id || (nextSet as any).id}`}>
                   Next Set
                   <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
