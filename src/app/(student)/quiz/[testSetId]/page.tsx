@@ -16,7 +16,7 @@ import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog";
 import { useToast } from "@/components/ui/Toast";
-import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check, DoorOpen, LayoutGrid, X } from "lucide-react";
+import { Clock, Loader2, Pause, Play, ChevronLeft, ChevronRight, Check, DoorOpen, LayoutGrid, X, CheckCircle2, MinusCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useWakeLock } from "@/hooks/useWakeLock";
 
@@ -236,6 +236,7 @@ export default function QuizPage() {
   }, [questions, localAnswers]);
 
   const answeredCount = answeredSet.size;
+  const unansweredCount = Math.max(0, questions.length - answeredCount);
 
   // Shared palette data — using exact same single source of truth
   const paletteQuestions = useMemo(() => {
@@ -291,7 +292,7 @@ export default function QuizPage() {
   return (
     <div className="flex flex-col lg:flex-row gap-6">
       {/* ── Main question column (Top is 100% clean, question starts immediately) ── */}
-      <div className="flex-1 space-y-3 min-w-0 pb-36 lg:pb-0">
+      <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0">
 
         {/* ── Desktop Header: title below border (Hidden on mobile) ── */}
         <div className="hidden lg:block border-b border-border/60 pb-2">
@@ -364,118 +365,55 @@ export default function QuizPage() {
           )
         )}
 
-        {/* ── Fixed Mobile Bottom Control Dock: Header Strip + Navigation Controls ── */}
-        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-3.5 pt-2 pb-2.5 shadow-xl safe-bottom space-y-2">
-          {/* Tier 1: Header Strip — Only rendered when palette is closed to avoid duplicate controls */}
-          {!paletteOpen && (
-            <div className="flex items-center justify-between gap-2 min-w-0">
-              <h1
-                className="font-semibold text-xs text-foreground font-hindi truncate min-w-0 flex-1 pr-1"
-                title={testSet?.name}
-              >
-                {testSet?.name}
-              </h1>
-              <div className="flex items-center gap-1.5 shrink-0">
-                {/* Pause / Resume Button Capsule */}
-                <button
-                  type="button"
-                  onClick={() => (isPaused ? resume() : pause())}
-                  className={cn(
-                    "h-7 w-7 rounded-lg border flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0",
-                    isPaused
-                      ? "bg-primary text-primary-foreground border-primary shadow-2xs"
-                      : "border-border/80 bg-muted/50 hover:bg-muted text-foreground"
-                  )}
-                  title={isPaused ? "Resume Test" : "Pause Test"}
-                  aria-label={isPaused ? "Resume Test" : "Pause Test"}
-                >
-                  {isPaused ? (
-                    <Play className="h-3 w-3 fill-current" />
-                  ) : (
-                    <Pause className="h-3 w-3" />
-                  )}
-                </button>
-
-                {/* Compact Alternating Timer Capsule (Fixed Dimensions: min-w-[80px]) */}
-                <button
-                  type="button"
-                  onClick={() => setTimerDisplayMode((prev) => (prev === "time" ? "status" : "time"))}
-                  className={cn(
-                    "inline-flex items-center justify-center gap-1.5 h-7 px-2 rounded-lg font-mono text-[11px] font-bold tabular-nums shrink-0 transition-colors border select-none cursor-pointer",
-                    isPaused
-                      ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
-                      : remainingSeconds < 120
-                      ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
-                      : "bg-muted/50 text-foreground border-border/80 hover:bg-muted"
-                  )}
-                  style={{ width: "80px", minWidth: "80px" }}
-                  title={isPaused ? "Test Paused" : "Click to toggle Time / Status"}
-                  aria-label="Timer capsule"
-                >
-                  {isPaused ? (
-                    <>
-                      <Pause className="h-3 w-3 text-amber-500 shrink-0" />
-                      <span className="tracking-tight text-[10px] font-extrabold">PAUSED</span>
-                    </>
-                  ) : remainingSeconds < 120 || timerDisplayMode === "time" ? (
-                    <>
-                      <Clock className="h-3 w-3 text-primary shrink-0" aria-hidden="true" />
-                      <span className="tabular-nums tracking-tight">{formatTime(remainingSeconds)}</span>
-                    </>
-                  ) : (
-                    <>
-                      <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-                      <span className="tabular-nums tracking-tight text-[10px]">
-                        {Math.ceil(remainingSeconds / 60)}m left
-                      </span>
-                    </>
-                  )}
-                </button>
-
-                {/* Exit Test Button Capsule */}
-                <button
-                  type="button"
-                  onClick={() => setConfirmExitOpen(true)}
-                  className="h-7 w-7 rounded-lg border border-border/80 bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0"
-                  title="Exit Test"
-                  aria-label="Exit Test"
-                >
-                  <DoorOpen className="h-3 w-3" />
-                </button>
-              </div>
-            </div>
-          )}
-
-          {/* Tier 2: Question Navigation Action Bar (Prev + Modern Capsule + Next/Submit) */}
-          <div className="flex items-center justify-between gap-2.5 pt-1 border-t border-border/40">
+        {/* ── Fixed Mobile Bottom Control Dock: Single Sleek Row (Prev + Expanded Capsule + Next/Submit) ── */}
+        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-3 sm:px-4 py-2.5 shadow-xl safe-bottom">
+          <div className="flex items-center justify-between gap-2 sm:gap-2.5">
             {/* Previous Button — Disabled when paused */}
             <Button
               variant="outline"
               size="sm"
               onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
               disabled={isPaused || currentIndex === 0}
-              className="h-9 px-3 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0 disabled:opacity-50 disabled:cursor-not-allowed shadow-2xs"
               aria-label="Previous question"
             >
               <ChevronLeft className="h-4 w-4 mr-0.5" />
               Prev
             </Button>
 
-            {/* Modern Question Navigation Capsule */}
+            {/* Modern Expanded Question Navigation Capsule with Attempted & Skipped status */}
             <button
               type="button"
               onClick={() => setPaletteOpen(true)}
-              className="inline-flex items-center justify-center gap-1.5 h-9 px-3 sm:px-3.5 rounded-xl border border-border/80 bg-muted/70 hover:bg-muted text-foreground text-xs font-bold transition-all cursor-pointer select-none active:scale-95 shadow-2xs min-w-0"
+              className="inline-flex items-center justify-center gap-2 sm:gap-2.5 h-10 px-3 sm:px-3.5 rounded-2xl border border-border/80 bg-muted/60 hover:bg-muted text-foreground transition-all cursor-pointer select-none active:scale-95 shadow-2xs flex-1 max-w-[240px] min-w-0"
               aria-label="Open question navigation palette"
               title="Open Question Palette"
             >
-              <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
-              <span className="tabular-nums font-mono font-bold tracking-tight text-foreground">
-                {currentIndex + 1}/{questions.length}
-              </span>
-              <span className="text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded-full tabular-nums shrink-0">
-                {answeredCount}✓
-              </span>
+              {/* Question Index with Grid Icon */}
+              <div className="flex items-center gap-1.5 font-mono font-bold text-xs tracking-tight text-foreground shrink-0">
+                <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
+                <span>{currentIndex + 1}/{questions.length}</span>
+              </div>
+
+              <span className="h-3.5 w-px bg-border/80 shrink-0" />
+
+              {/* Attempted Status Badge with CheckCircle2 */}
+              <div
+                className="flex items-center gap-1 text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/25 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
+                title={`${answeredCount} Attempted`}
+              >
+                <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500 shrink-0" />
+                <span>{answeredCount}</span>
+              </div>
+
+              {/* Skipped / Unanswered Status Badge with MinusCircle */}
+              <div
+                className="flex items-center gap-1 text-[11px] font-bold text-muted-foreground bg-muted border border-border/80 px-1.5 sm:px-2 py-0.5 rounded-lg tabular-nums shrink-0"
+                title={`${unansweredCount} Skipped / Unanswered`}
+              >
+                <MinusCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
+                <span>{unansweredCount}</span>
+              </div>
             </button>
 
             {/* Next or Submit Button — Disabled when paused */}
@@ -484,7 +422,7 @@ export default function QuizPage() {
                 size="sm"
                 onClick={() => setConfirmSubmitOpen(true)}
                 disabled={isPaused || isSubmitting}
-                className="h-9 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
+                className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <span className="flex items-center gap-1.5">
@@ -503,7 +441,7 @@ export default function QuizPage() {
                 size="sm"
                 onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
                 disabled={isPaused}
-                className="h-9 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
+                className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
                 aria-label="Next question"
               >
                 Next

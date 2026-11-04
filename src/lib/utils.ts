@@ -123,7 +123,9 @@ const MATCH_QUESTION_TYPES = new Set([
  */
 export function cleanQuestionPrompt(text: string, type?: string): string {
   if (!text) return "";
-  const isMatchOrTable = type ? MATCH_QUESTION_TYPES.has(type) : /(?:सुमेलित|मिलान|तालिका|सारणी|सूची\s*[-–—:]*\s*[1I]|match.*following)/i.test(text);
+  const isMatchOrTable =
+    (type ? MATCH_QUESTION_TYPES.has(type) : false) ||
+    /(?:सुमेलित|मिलान|तालिका|सारणी|सूची\s*[-–—:]*\s*[1I]|match.*following)/i.test(text);
   if (!isMatchOrTable) {
     return text;
   }

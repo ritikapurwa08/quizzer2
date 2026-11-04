@@ -1,9 +1,39 @@
 "use client";
 
+import React, { useMemo } from "react";
 import { OptionButton } from "./OptionButton";
 import { QuestionRendererProps } from "@/types";
+import { MatchFollowingRenderer } from "./MatchFollowingRenderer";
+import { TableRenderer } from "./TableRenderer";
+import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 
-export function McqRenderer({ question, selected, onSelect, mode }: QuestionRendererProps) {
+export function McqRenderer(props: QuestionRendererProps) {
+  const { question, selected, onSelect, mode } = props;
+
+  // Bulletproof safety fallback: If this question has match lists or table rows,
+  // or contains match-the-following / table markers, delegate directly to the specialized renderer.
+  const meta = (question?.meta as any) || {};
+  if (meta.left && Array.isArray(meta.left) && meta.left.length > 0) {
+    return <MatchFollowingRenderer {...props} />;
+  }
+  if (meta.rows && Array.isArray(meta.rows) && meta.rows.length > 0) {
+    return <TableRenderer {...props} />;
+  }
+
+  const qText = (question as any)?.questionText || (question as any)?.question || "";
+  if (
+    qText &&
+    /(?:सुमेलित|मिलान|तालिका|सारणी|सूची\s*[-–—:]*\s*[1I]|match.*following)/i.test(qText)
+  ) {
+    const enriched = enrichQuestionStructure(question);
+    if (enriched.type === "match_following" && enriched.meta?.left?.length) {
+      return <MatchFollowingRenderer {...props} question={enriched} />;
+    }
+    if (enriched.type === "table" && enriched.meta?.rows?.length) {
+      return <TableRenderer {...props} question={enriched} />;
+    }
+  }
+
   const isReview = mode === "review";
   const rawCorrect = String(question.correctAnswer || "").trim();
 
