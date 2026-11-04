@@ -265,15 +265,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
       const keys: string[] = [];
       if (typeof questionOrId === "object" && questionOrId !== null) {
+        if (questionOrId.canonicalId) keys.push(String(questionOrId.canonicalId));
         if (questionOrId._id) keys.push(String(questionOrId._id));
         if (questionOrId.id) keys.push(String(questionOrId.id));
-        if (questionOrId.canonicalId) keys.push(String(questionOrId.canonicalId));
         if (questionOrId.convexId) keys.push(String(questionOrId.convexId));
         if (questionOrId.sourceQuestionId) keys.push(String(questionOrId.sourceQuestionId));
         if (questionOrId.meta?.sourceQuestionId) keys.push(String(questionOrId.meta.sourceQuestionId));
         if (questionOrId.order !== undefined) {
-          keys.push(`q_${questionOrId.order}`);
-          keys.push(`q_${questionOrId.order + 1}`);
+          keys.push(`q_idx_${questionOrId.order}`);
         }
       } else if (questionOrId) {
         keys.push(String(questionOrId));
@@ -358,13 +357,13 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     // Prepare evaluations from resolved questions
     const evaluations = resolvedQuestions.map((q, idx) => {
       const candidates = [
+        q.canonicalId,
         q._id,
         q.id,
-        q.canonicalId,
         q.convexId,
         q.sourceQuestionId,
         q.meta?.sourceQuestionId,
-        `q_${idx + 1}`,
+        `q_idx_${idx}`,
       ];
 
       let selected: any = undefined;
@@ -393,7 +392,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         isCorrect = checkAnswerMatch(correctAnswer, selected, q.options);
       }
 
-      const primaryQId = String(q._id || q.convexId || q.id || q.canonicalId || `q_${idx + 1}`);
+      const primaryQId = String(q.canonicalId || q._id || q.convexId || q.id || `q_idx_${idx}`);
 
       return {
         questionId: primaryQId,

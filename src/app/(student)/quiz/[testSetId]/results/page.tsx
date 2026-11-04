@@ -112,6 +112,7 @@ export default function ResultsPage() {
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
   const [localSetMeta, setLocalSetMeta] = useState<any>(null);
+  const [isLoadingLocalQuestions, setIsLoadingLocalQuestions] = useState<boolean>(true);
   const { showToast } = useToast();
 
   // ── Data queries — guarded with "skip" when id is not yet available ──
@@ -140,18 +141,27 @@ export default function ResultsPage() {
   );
 
   useEffect(() => {
-    if ((!currentSet || !data?.questions || data.questions.length === 0) && id) {
+    let isMounted = true;
+    if (id) {
+      setIsLoadingLocalQuestions(true);
       fetch(`/api/sets/${id}`)
         .then((res) => res.json())
         .then((json) => {
+          if (!isMounted) return;
           if (json.success && json.set) {
             if (json.set.questions) setLocalSetQuestions(json.set.questions);
             setLocalSetMeta(json.set);
           }
         })
-        .catch((e) => console.error("Local set fetch error:", e));
+        .catch((e) => console.error("Local set fetch error:", e))
+        .finally(() => {
+          if (isMounted) setIsLoadingLocalQuestions(false);
+        });
     }
-  }, [currentSet, data, id]);
+    return () => {
+      isMounted = false;
+    };
+  }, [id]);
 
   const resolvedQuestions =
     data?.questions && data.questions.length > 0
@@ -175,14 +185,13 @@ export default function ResultsPage() {
       .map((q, i) => {
         if (!q) return null;
         const candidates = [
+          q.canonicalId,
           q._id,
           q.convexId,
-          q.canonicalId,
           q.id,
           q.sourceQuestionId,
           q.meta?.sourceQuestionId,
-          `q_${i}`,
-          `q_${i + 1}`,
+          `q_idx_${i}`,
         ]
           .filter(Boolean)
           .map(String);
@@ -213,7 +222,7 @@ export default function ResultsPage() {
           answer: isAttempted ? answer : undefined,
           badge,
           originalIndex: i,
-          questionId: candidates[0] || `q_${i}`,
+          questionId: candidates[0] || `q_idx_${i}`,
         };
       })
       .filter((item): item is NonNullable<typeof item> => item !== null)
@@ -259,8 +268,44 @@ export default function ResultsPage() {
     }
   }, [suggestedFileName]);
 
+  // ── Global unconditioned calculations & hooks (Strictly BEFORE any early returns) ──
+  const attempt = data?.attempt;
+  const questionsList = resolvedQuestions || [];
+  const answersList = useMemo(() => (attempt?.answers || []).filter(Boolean), [attempt?.answers]);
+  const correctCount = useMemo(
+    () => answersList.filter((a: any) => Boolean(a?.isCorrect)).length,
+    [answersList]
+  );
+  const incorrectCount = useMemo(
+    () =>
+      answersList.filter(
+        (a: any) =>
+          !a?.isCorrect &&
+          a?.selected !== undefined &&
+          a?.selected !== null &&
+          a?.selected !== "" &&
+          (!Array.isArray(a?.selected) || a?.selected.length > 0)
+      ).length,
+    [answersList]
+  );
+  const totalQCount = attempt?.totalQuestions ?? (questionsList.length || 20);
+  const unansweredCount = Math.max(0, totalQCount - (correctCount + incorrectCount));
+
+  const filterCounts = useMemo(() => {
+    return {
+      all: questionsList.length,
+      correct: correctCount,
+      incorrect: incorrectCount,
+      unattempted: unansweredCount,
+    };
+  }, [questionsList.length, correctCount, incorrectCount, unansweredCount]);
+
   // ── Loading state ──
-  if (data === undefined || (currentSet === undefined && !localSetMeta)) {
+  if (
+    data === undefined ||
+    (currentSet === undefined && !localSetMeta) ||
+    ((!data?.questions || data.questions.length === 0) && localSetQuestions.length === 0 && isLoadingLocalQuestions)
+  ) {
     return (
       <div className="w-full space-y-4 pt-1">
         <div className="h-48 rounded-2xl border border-border bg-card/60 p-6 animate-pulse" />
@@ -311,29 +356,8 @@ export default function ResultsPage() {
     );
   }
 
-  const { attempt } = data;
-  const questionsList = resolvedQuestions || [];
-  const answersList = (attempt.answers || []).filter(Boolean);
-  const correctCount = answersList.filter((a: any) => Boolean(a?.isCorrect)).length;
-  const incorrectCount = answersList.filter(
-    (a: any) =>
-      !a?.isCorrect &&
-      a?.selected !== undefined &&
-      a?.selected !== null &&
-      a?.selected !== "" &&
-      (!Array.isArray(a?.selected) || a?.selected.length > 0)
-  ).length;
-  const totalQCount = attempt.totalQuestions ?? (questionsList.length || 20);
-  const unansweredCount = Math.max(0, totalQCount - (correctCount + incorrectCount));
-
-  const filterCounts = useMemo(() => {
-    return {
-      all: questionsList.length,
-      correct: correctCount,
-      incorrect: incorrectCount,
-      unattempted: unansweredCount,
-    };
-  }, [questionsList.length, correctCount, incorrectCount, unansweredCount]);
+  // Guaranteed attempt object after early returns
+  const safeAttempt = attempt!;
 
   function handleToggleBookmark(questionId: string) {
     setBookmarked((prev) => {

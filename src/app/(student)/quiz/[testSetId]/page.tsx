@@ -33,14 +33,13 @@ function formatTime(seconds: number): string {
 function getQuestionAnswer(q: any, answers: Record<string, any>, index?: number) {
   if (!q || !answers) return undefined;
   const candidates = [
+    q.canonicalId,
     q._id,
     q.id,
-    q.canonicalId,
     q.convexId,
     q.sourceQuestionId,
     q.meta?.sourceQuestionId,
-    index !== undefined ? `q_${index}` : undefined,
-    index !== undefined ? `q_${index + 1}` : undefined,
+    index !== undefined ? `q_idx_${index}` : undefined,
   ].filter(Boolean);
 
   for (const cid of candidates) {
@@ -86,7 +85,7 @@ export default function QuizPage() {
           const idx = parseInt(saved, 10);
           if (!isNaN(idx) && idx >= 0) return idx;
         }
-      } catch {}
+      } catch { }
     }
     return 0;
   });
@@ -98,7 +97,7 @@ export default function QuizPage() {
         if (typeof window !== "undefined") {
           try {
             localStorage.setItem(indexStorageKey, String(next));
-          } catch {}
+          } catch { }
         }
         return next;
       });
@@ -251,7 +250,7 @@ export default function QuizPage() {
   // Shared palette data — using exact same single source of truth
   const paletteQuestions = useMemo(() => {
     return questions.map((q, idx) => {
-      const qKey = q._id || q.convexId || q.canonicalId || q.id || `q_${idx}`;
+      const qKey = q.canonicalId || q._id || q.convexId || q.id || `q_idx_${idx}`;
       return {
         id: qKey,
         answered: answeredIndices.has(idx),
@@ -287,7 +286,7 @@ export default function QuizPage() {
       if (typeof window !== "undefined") {
         try {
           localStorage.removeItem(indexStorageKey);
-        } catch {}
+        } catch { }
       }
       router.push(`/quiz/${id}/results`);
     } catch (err) {
@@ -371,11 +370,11 @@ export default function QuizPage() {
               )}
               onToggleBookmark={() => {
                 const targetKey =
+                  enrichedCurrent.canonicalId ||
                   enrichedCurrent._id ||
                   enrichedCurrent.convexId ||
-                  enrichedCurrent.canonicalId ||
                   enrichedCurrent.id ||
-                  `q_${currentIndex}`;
+                  `q_idx_${currentIndex}`;
                 toggleBookmark(targetKey);
               }}
               reference={enrichedCurrent.reference}
@@ -547,8 +546,8 @@ export default function QuizPage() {
                       isPaused
                         ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
                         : remainingSeconds < 120
-                        ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
-                        : "bg-card text-foreground border-border/80 hover:bg-muted"
+                          ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
+                          : "bg-card text-foreground border-border/80 hover:bg-muted"
                     )}
                     style={{ minWidth: "96px" }}
                     title={isPaused ? "Test Paused" : "Click to toggle Time / Status"}
@@ -643,7 +642,7 @@ export default function QuizPage() {
               <div className="overflow-y-auto py-3 max-h-[45vh] overscroll-contain">
                 <div className="grid grid-cols-5 gap-2">
                   {questions.map((q, i) => {
-                    const qKey = q._id || q.convexId || q.canonicalId || q.id || `q_${i}`;
+                    const qKey = q.canonicalId || q._id || q.convexId || q.id || `q_idx_${i}`;
                     const isCurrent = i === currentIndex;
                     const isAnswered = answeredIndices.has(i);
                     const isBookmarked =
@@ -667,10 +666,10 @@ export default function QuizPage() {
                           isPaused
                             ? "opacity-50 cursor-not-allowed border-border/60 bg-muted/30"
                             : isCurrent
-                            ? "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30 cursor-pointer active:scale-95"
-                            : isAnswered
-                            ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30 hover:bg-emerald-500/25 cursor-pointer active:scale-95"
-                            : "bg-muted/50 text-muted-foreground border-border hover:bg-muted hover:text-foreground cursor-pointer active:scale-95"
+                              ? "bg-primary text-primary-foreground border-primary shadow-sm ring-2 ring-primary/30 cursor-pointer active:scale-95"
+                              : isAnswered
+                                ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border-emerald-500/30 hover:bg-emerald-500/25 cursor-pointer active:scale-95"
+                                : "bg-muted/50 text-muted-foreground border-border hover:bg-muted hover:text-foreground cursor-pointer active:scale-95"
                         )}
                         aria-label={`Jump to question ${i + 1}`}
                       >
@@ -689,7 +688,7 @@ export default function QuizPage() {
       </div>
 
       {/* ── Desktop Sidebar: progress, timer, palette, navigation, submit ── */}
-      <div className="hidden lg:block w-[272px] shrink-0">
+      <div className="hidden lg:block w-68 shrink-0">
         <div className="sticky top-20 space-y-3">
 
           {/* Progress & Timer card */}
