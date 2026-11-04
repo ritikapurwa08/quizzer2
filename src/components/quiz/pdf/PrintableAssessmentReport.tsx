@@ -90,7 +90,7 @@ export function PrintableAssessmentReport({
     try {
       if (!isMountedRef.current) return;
       if (!questions || questions.length === 0) {
-        setPlannedPages([]);
+        setPlannedPages(null);
         return;
       }
 
@@ -260,11 +260,14 @@ export function PrintableAssessmentReport({
     return res;
   }, [questions]);
 
-  const activePages = plannedPages || fallbackPages;
+  const activePages =
+    plannedPages && plannedPages.length > 0
+      ? plannedPages
+      : fallbackPages;
   const totalPages = Math.max(1, activePages.length);
 
-  // If no questions are available
-  if (activePages.length === 0) {
+  // If literally no questions are provided to this report
+  if (!questions || questions.length === 0) {
     return (
       <div
         id="printable-assessment-report"

@@ -103,8 +103,9 @@ class PdfReportErrorBoundary extends React.Component<
 }
 
 export default function ResultsPage() {
-  const { testSetId } = useParams<{ testSetId: string }>();
-  const id = testSetId as Id<"testSets">;
+  const params = useParams<{ testSetId: string }>();
+  const rawId = Array.isArray(params?.testSetId) ? params.testSetId[0] : params?.testSetId;
+  const id = (rawId || "") as Id<"testSets">;
 
   // ── Local state — declared first so localSetMeta can inform queries ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());

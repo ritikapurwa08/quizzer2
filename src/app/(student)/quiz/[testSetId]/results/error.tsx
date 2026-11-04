@@ -32,6 +32,11 @@ export default function ResultsError({
             इस टेस्ट सेट का परिणाम लोड नहीं हो सका। आपका टेस्ट डेटा सुरक्षित है।
             कृपया पुनः प्रयास करें या डैशबोर्ड पर जाकर टेस्ट हिस्ट्री देखें।
           </p>
+          {error?.message && (
+            <p className="text-[11px] font-mono text-destructive/90 bg-destructive/10 p-2.5 rounded-xl break-all mt-2">
+              {error.message}
+            </p>
+          )}
         </div>
 
         <div className="flex items-center justify-center gap-3 pt-2">

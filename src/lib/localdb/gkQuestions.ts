@@ -83,9 +83,14 @@ export async function unmarkLocalDuplicate(duplicateId: string, preferredId: str
 }
 
 export async function getLocalDuplicatesForQuestion(questionSourceId: string): Promise<string[]> {
-  const db = getLocalDB();
-  const results = await db.localDuplicates
-    .where("duplicateId").equals(questionSourceId)
-    .toArray();
-  return results.map((r) => r.preferredId);
+  try {
+    if (typeof window === "undefined") return [];
+    const db = getLocalDB();
+    const results = await db.localDuplicates
+      .where("duplicateId").equals(questionSourceId)
+      .toArray();
+    return results.map((r) => r.preferredId);
+  } catch {
+    return [];
+  }
 }
