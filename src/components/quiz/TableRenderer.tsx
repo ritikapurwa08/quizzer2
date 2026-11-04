@@ -18,12 +18,19 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
   let headers = meta.headers;
   let rows = meta.rows;
 
-  // Fallback: If headers/rows not in meta, try parsing from questionText
-  if ((!headers || headers.length === 0) && question.questionText) {
-    const parsed = tryParseMarkdownTable(question.questionText);
-    if (parsed) {
-      headers = parsed.headers;
-      rows = parsed.rows;
+  // Fallback: If headers/rows not in meta, try parsing from questionText or rawQuestionText
+  if ((!headers || headers.length === 0)) {
+    const raw =
+      (meta.rawQuestionText as string) ||
+      question.questionText ||
+      (question as any)?.question ||
+      "";
+    if (raw) {
+      const parsed = tryParseMarkdownTable(raw);
+      if (parsed) {
+        headers = parsed.headers;
+        rows = parsed.rows;
+      }
     }
   }
 

@@ -132,6 +132,51 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
         }
       }
     }
+
+    // 4. Index individual topic files for any unassigned questions
+    const topicsDir = path.join(cwd, "data", "ddd", "topics");
+    if (fs.existsSync(topicsDir)) {
+      const topicFiles = fs.readdirSync(topicsDir).filter((f) => f.endsWith(".json"));
+      for (const tf of topicFiles) {
+        try {
+          const tp = path.join(topicsDir, tf);
+          const tData = JSON.parse(fs.readFileSync(tp, "utf-8"));
+          if (Array.isArray(tData.questions)) {
+            for (const rawQ of tData.questions) {
+              if (!rawQ.id) continue;
+              if (map.has(rawQ.id)) continue;
+              const q = enrichQuestionStructure(rawQ);
+              const normalized: NormalizedQuestion = {
+                _id: q._id || q.id,
+                id: q.id || q._id,
+                type: q.type || "mcq",
+                questionText: q.questionText || q.question || "",
+                options: Array.isArray(q.options)
+                  ? q.options.map((opt: any, i: number) =>
+                      typeof opt === "string" ? { id: `opt${i + 1}`, text: opt } : opt
+                    )
+                  : [],
+                correctAnswer:
+                  q.correctAnswer ||
+                  q.answer ||
+                  (q.answerIndex !== undefined ? `opt${q.answerIndex + 1}` : "opt1"),
+                explanation: q.explanation || "",
+                difficulty: q.difficulty || "medium",
+                reference: q.exam ? `📌 ${q.exam}${q.year ? ` (${q.year})` : ""}` : "",
+                meta: q.meta,
+              };
+              const indexKey = (k: string) => {
+                map.set(k, normalized);
+                map.set(k.toLowerCase(), normalized);
+                map.set(k.toUpperCase(), normalized);
+              };
+              indexKey(String(q.id));
+              if (q._id) indexKey(String(q._id));
+            }
+          }
+        } catch {}
+      }
+    }
   } catch (err) {
     console.error("Error building questions lookup cache:", err);
   }

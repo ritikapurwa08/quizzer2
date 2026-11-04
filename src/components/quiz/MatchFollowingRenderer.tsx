@@ -4,6 +4,7 @@ import { cn, containsDevanagari } from "@/lib/utils";
 import { QuestionRendererProps } from "@/types";
 import { OptionButton } from "./OptionButton";
 import { extractMatchListsFromText, stripLeadingMarker } from "@/lib/validators/question";
+import { extractMatchQuestionData } from "@/lib/matchQuestionParser";
 
 interface MatchItem {
   id: string;
@@ -24,13 +25,28 @@ export function MatchFollowingRenderer({
   let leftHeader = metaObj.leftTitle ? String(metaObj.leftTitle) : undefined;
   let rightHeader = metaObj.rightTitle ? String(metaObj.rightTitle) : undefined;
 
-  // Fallback: if meta lists are missing/empty, extract from questionText
-  if ((!rawLeft || rawLeft.length === 0) && (!rawRight || rawRight.length === 0) && question.questionText) {
-    const extracted = extractMatchListsFromText(question.questionText);
-    if (extracted.left.length > 0) rawLeft = extracted.left;
-    if (extracted.right.length > 0) rawRight = extracted.right;
-    if (extracted.leftTitle && !leftHeader) leftHeader = extracted.leftTitle;
-    if (extracted.rightTitle && !rightHeader) rightHeader = extracted.rightTitle;
+  // Fallback: if meta lists are missing/empty, extract from questionText or raw text
+  if ((!rawLeft || rawLeft.length === 0) && (!rawRight || rawRight.length === 0)) {
+    const rawText =
+      (metaObj.rawQuestionText as string) ||
+      question.questionText ||
+      (question as any)?.question ||
+      "";
+    if (rawText) {
+      const matchData = extractMatchQuestionData(rawText);
+      if (matchData && matchData.left.length >= 2 && matchData.right.length >= 2) {
+        rawLeft = matchData.left;
+        rawRight = matchData.right;
+        if (matchData.leftTitle && !leftHeader) leftHeader = matchData.leftTitle;
+        if (matchData.rightTitle && !rightHeader) rightHeader = matchData.rightTitle;
+      } else {
+        const extracted = extractMatchListsFromText(rawText);
+        if (extracted.left.length > 0) rawLeft = extracted.left;
+        if (extracted.right.length > 0) rawRight = extracted.right;
+        if (extracted.leftTitle && !leftHeader) leftHeader = extracted.leftTitle;
+        if (extracted.rightTitle && !rightHeader) rightHeader = extracted.rightTitle;
+      }
+    }
   }
 
   const isDevanagari = containsDevanagari(question.questionText || "");

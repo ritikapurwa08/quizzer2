@@ -40,7 +40,10 @@ export function checkAnswerMatch(
     selIdx = selStr.charCodeAt(0) - 65;
   } else if (/^[1-4]$/.test(selStr)) {
     selIdx = parseInt(selStr, 10) - 1;
-  }
+  } else if (selStr === "अ") selIdx = 0;
+  else if (selStr === "ब") selIdx = 1;
+  else if (selStr === "स") selIdx = 2;
+  else if (selStr === "द") selIdx = 3;
 
   // Determine correct option index
   let corIdx = -1;
@@ -51,7 +54,10 @@ export function checkAnswerMatch(
     corIdx = corStr.charCodeAt(0) - 65;
   } else if (/^[1-4]$/.test(corStr)) {
     corIdx = parseInt(corStr, 10) - 1;
-  }
+  } else if (corStr === "अ") corIdx = 0;
+  else if (corStr === "ब") corIdx = 1;
+  else if (corStr === "स") corIdx = 2;
+  else if (corStr === "द") corIdx = 3;
 
   if (selIdx !== -1 && corIdx !== -1 && selIdx === corIdx) {
     return true;
@@ -95,6 +101,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     }
     return {};
   });
+  const answersRef = useRef<Record<string, string | string[]>>(localAnswers);
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
 
   // Fixed duration pausable timer states
@@ -105,6 +112,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const isInitializedRef = useRef(false);
   const hasAutoSubmittedRef = useRef(false);
   const debounceTimers = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
+  const submitRef = useRef<(() => Promise<any>) | null>(null);
 
   // 1. Start or resume attempt
   useEffect(() => {
@@ -159,6 +167,7 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       }
       setLocalAnswers((prev) => {
         const merged = { ...initial, ...prev };
+        answersRef.current = merged;
         if (typeof window !== "undefined") {
           try {
             localStorage.setItem(storageKey, JSON.stringify(merged));
@@ -229,7 +238,9 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       if (times.remaining <= 0 && !hasAutoSubmittedRef.current) {
         hasAutoSubmittedRef.current = true;
         clearInterval(interval);
-        if (attemptId) {
+        if (submitRef.current) {
+          submitRef.current().catch(console.error);
+        } else if (attemptId) {
           submitAttempt({ attemptId }).catch(console.error);
         }
       }
@@ -249,11 +260,34 @@ export function useQuizSession(testSetId: Id<"testSets">) {
 
   // 7. Select answer handler (instant local persistence + debounced server sync)
   const selectAnswer = useCallback(
-    (questionId: string, value: string | string[]) => {
+    (questionOrId: any, value: string | string[]) => {
       if (attempt?.isPaused) return;
 
+      const keys: string[] = [];
+      if (typeof questionOrId === "object" && questionOrId !== null) {
+        if (questionOrId._id) keys.push(String(questionOrId._id));
+        if (questionOrId.id) keys.push(String(questionOrId.id));
+        if (questionOrId.canonicalId) keys.push(String(questionOrId.canonicalId));
+        if (questionOrId.convexId) keys.push(String(questionOrId.convexId));
+        if (questionOrId.sourceQuestionId) keys.push(String(questionOrId.sourceQuestionId));
+        if (questionOrId.meta?.sourceQuestionId) keys.push(String(questionOrId.meta.sourceQuestionId));
+        if (questionOrId.order !== undefined) {
+          keys.push(`q_${questionOrId.order}`);
+          keys.push(`q_${questionOrId.order + 1}`);
+        }
+      } else if (questionOrId) {
+        keys.push(String(questionOrId));
+      }
+
+      if (keys.length === 0) return;
+      const primaryId = keys[0];
+
       setLocalAnswers((prev) => {
-        const next = { ...prev, [questionId]: value };
+        const next = { ...prev };
+        for (const k of keys) {
+          next[k] = value;
+        }
+        answersRef.current = next;
         if (typeof window !== "undefined") {
           try {
             localStorage.setItem(storageKey, JSON.stringify(next));
@@ -262,14 +296,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         return next;
       });
 
-      if (debounceTimers.current[questionId]) {
-        clearTimeout(debounceTimers.current[questionId]);
+      if (debounceTimers.current[primaryId]) {
+        clearTimeout(debounceTimers.current[primaryId]);
       }
-      debounceTimers.current[questionId] = setTimeout(() => {
+      debounceTimers.current[primaryId] = setTimeout(() => {
         if (!attemptId) return;
         saveAnswer({
           attemptId,
-          questionId,
+          questionId: primaryId,
           selected: value,
         });
       }, SAVE_DEBOUNCE_MS);
@@ -309,15 +343,43 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     Object.values(debounceTimers.current).forEach(clearTimeout);
     debounceTimers.current = {};
 
+    // Get authoritative answers merged across state, sync ref, and localStorage
+    let effectiveAnswers: Record<string, any> = { ...localAnswers, ...answersRef.current };
+    if (typeof window !== "undefined") {
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          effectiveAnswers = { ...parsed, ...effectiveAnswers };
+        }
+      } catch {}
+    }
+
     // Prepare evaluations from resolved questions
-    const evaluations = resolvedQuestions.map((q) => {
-      const qid = q._id || q.id || q.canonicalId || q.convexId;
-      const selected =
-        localAnswers[String(q._id)] ??
-        localAnswers[String(q.id)] ??
-        localAnswers[String(q.canonicalId)] ??
-        localAnswers[String(q.convexId)] ??
-        localAnswers[String(qid)];
+    const evaluations = resolvedQuestions.map((q, idx) => {
+      const candidates = [
+        q._id,
+        q.id,
+        q.canonicalId,
+        q.convexId,
+        q.sourceQuestionId,
+        q.meta?.sourceQuestionId,
+        `q_${idx + 1}`,
+      ];
+
+      let selected: any = undefined;
+      for (const cid of candidates) {
+        if (
+          cid &&
+          effectiveAnswers[String(cid)] !== undefined &&
+          effectiveAnswers[String(cid)] !== null &&
+          effectiveAnswers[String(cid)] !== ""
+        ) {
+          if (Array.isArray(effectiveAnswers[String(cid)]) && effectiveAnswers[String(cid)].length === 0) continue;
+          selected = effectiveAnswers[String(cid)];
+          break;
+        }
+      }
 
       const isAttempted =
         selected !== undefined &&
@@ -325,13 +387,16 @@ export function useQuizSession(testSetId: Id<"testSets">) {
         selected !== "" &&
         (!Array.isArray(selected) || selected.length > 0);
 
+      const correctAnswer = q.correctAnswer ?? q.answer;
       let isCorrect = false;
-      if (isAttempted && q.correctAnswer) {
-        isCorrect = checkAnswerMatch(q.correctAnswer, selected, q.options);
+      if (isAttempted && correctAnswer) {
+        isCorrect = checkAnswerMatch(correctAnswer, selected, q.options);
       }
 
+      const primaryQId = String(q._id || q.convexId || q.id || q.canonicalId || `q_${idx + 1}`);
+
       return {
-        questionId: String(qid),
+        questionId: primaryQId,
         selected,
         isCorrect,
       };
@@ -345,6 +410,11 @@ export function useQuizSession(testSetId: Id<"testSets">) {
     }
     return res;
   }, [attemptId, resolvedQuestions, localAnswers, submitAttempt, storageKey]);
+
+  // Keep submitRef updated for background timer callback
+  useEffect(() => {
+    submitRef.current = submit;
+  }, [submit]);
 
   return {
     attemptId,

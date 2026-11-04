@@ -7,11 +7,12 @@ import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
 import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
-import { type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
+import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
 import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { formatScore, cn } from "@/lib/utils";
+import { useToast } from "@/components/ui/Toast";
 import {
   ArrowLeft,
   ArrowRight,
@@ -20,8 +21,8 @@ import {
   Minus,
   LayoutList,
   RotateCcw,
-  Printer,
   FileDown,
+  Share2,
 } from "lucide-react";
 
 /**
@@ -72,6 +73,8 @@ export function getSuggestedPdfFileName({
     baseName += " - Mistakes";
   } else if (filter === "correct") {
     baseName += " - Correct";
+  } else if (filter === "unattempted") {
+    baseName += " - Unattempted";
   }
 
   return baseName;
@@ -123,10 +126,10 @@ export default function ResultsPage() {
 
   // ── Local state — also before any early returns ──
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
-  const [activeCapsuleTab, setActiveCapsuleTab] = useState<"review" | "mistakes">("review");
   const [reviewFilter, setReviewFilter] = useState<ReviewFilter>("all");
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
   const [localSetMeta, setLocalSetMeta] = useState<any>(null);
+  const { showToast } = useToast();
 
   useEffect(() => {
     if ((!currentSet || !data?.questions || data.questions.length === 0) && id) {
@@ -157,24 +160,61 @@ export default function ResultsPage() {
     return siblingSets[currentIndex + 1];
   }, [siblingSets, effectiveSet, id]);
 
-  // Derived: filtered questions with their original indices.
+  // Derived: filtered questions with their original indices and multi-alias resolution
   const filteredQuestionsWithIndex = useMemo(() => {
     if (!data?.attempt) return [];
     const { attempt } = data;
+    const answers = attempt.answers || [];
     return (resolvedQuestions || [])
       .map((q, i) => {
         if (!q) return null;
-        const qId = q._id || q.id || q.convexId || q.canonicalId;
-        const answer = (attempt.answers || []).find(
-          (a: any) => a && (a.questionId === qId || a.questionId === q._id || a.questionId === q.canonicalId)
-        );
-        const badge = !answer || answer.selected === undefined ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
-        return { question: q, answer, badge, originalIndex: i, questionId: qId };
+        const candidates = [
+          q._id,
+          q.convexId,
+          q.canonicalId,
+          q.id,
+          q.sourceQuestionId,
+          q.meta?.sourceQuestionId,
+          `q_${i}`,
+          `q_${i + 1}`,
+        ]
+          .filter(Boolean)
+          .map(String);
+
+        const answer =
+          answers.find(
+            (a: any) =>
+              a &&
+              (candidates.includes(String(a.questionId)) ||
+                (a.orderIndex !== undefined && a.orderIndex === i))
+          ) || answers[i];
+
+        const isAttempted =
+          answer &&
+          answer.selected !== undefined &&
+          answer.selected !== null &&
+          answer.selected !== "" &&
+          (!Array.isArray(answer.selected) || answer.selected.length > 0);
+
+        const badge = !isAttempted
+          ? "unanswered"
+          : answer.isCorrect
+          ? "correct"
+          : "incorrect";
+
+        return {
+          question: q,
+          answer: isAttempted ? answer : undefined,
+          badge,
+          originalIndex: i,
+          questionId: candidates[0] || `q_${i}`,
+        };
       })
       .filter((item): item is NonNullable<typeof item> => item !== null)
       .filter(({ badge }) => {
         if (reviewFilter === "correct") return badge === "correct";
         if (reviewFilter === "incorrect") return badge === "incorrect";
+        if (reviewFilter === "unattempted") return badge === "unanswered";
         return true; // "all"
       });
   }, [data, resolvedQuestions, reviewFilter]);
@@ -269,9 +309,25 @@ export default function ResultsPage() {
   const questionsList = resolvedQuestions || [];
   const answersList = (attempt.answers || []).filter(Boolean);
   const correctCount = answersList.filter((a: any) => Boolean(a?.isCorrect)).length;
-  const incorrectCount = answersList.filter((a: any) => !a?.isCorrect && a?.selected !== undefined && a?.selected !== null && a?.selected !== "").length;
+  const incorrectCount = answersList.filter(
+    (a: any) =>
+      !a?.isCorrect &&
+      a?.selected !== undefined &&
+      a?.selected !== null &&
+      a?.selected !== "" &&
+      (!Array.isArray(a?.selected) || a?.selected.length > 0)
+  ).length;
   const totalQCount = attempt.totalQuestions ?? (questionsList.length || 20);
   const unansweredCount = Math.max(0, totalQCount - (correctCount + incorrectCount));
+
+  const filterCounts = useMemo(() => {
+    return {
+      all: questionsList.length,
+      correct: correctCount,
+      incorrect: incorrectCount,
+      unattempted: unansweredCount,
+    };
+  }, [questionsList.length, correctCount, incorrectCount, unansweredCount]);
 
   function handleToggleBookmark(questionId: string) {
     setBookmarked((prev) => {
@@ -285,6 +341,37 @@ export default function ResultsPage() {
     });
     toggleBookmark({ questionId });
   }
+
+  const handleShareResult = async () => {
+    const title = effectiveSet?.name || "Quizzer Test Result";
+    const totalMarks = (attempt.totalQuestions || 20) * 2;
+    const userScore = formatScore(attempt.score ?? 0);
+    const shareText = `मैंने QuizzER 2 पर "${title}" में ${userScore}/${totalMarks} अंक प्राप्त किए! (${correctCount} सही, ${incorrectCount} गलत)।`;
+    const shareUrl = typeof window !== "undefined" ? window.location.href : "";
+
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({
+          title,
+          text: shareText,
+          url: shareUrl,
+        });
+        return;
+      } catch (err: any) {
+        if (err?.name === "AbortError") return;
+      }
+    }
+
+    if (typeof navigator !== "undefined" && navigator.clipboard) {
+      try {
+        await navigator.clipboard.writeText(`${shareText}\n${shareUrl}`);
+        showToast("Result summary copied to clipboard!", "success");
+        return;
+      } catch {}
+    }
+
+    showToast("Sharing not supported on this browser.", "info");
+  };
 
   const handlePrint = async (filter?: ReviewFilter) => {
     try {
@@ -382,15 +469,53 @@ export default function ResultsPage() {
             Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
           </p>
 
-          {/* ── ONLY Two Primary Action Buttons: Next Set & Retake ── */}
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          {/* ── EXACTLY FOUR ACTION BUTTONS: Retake (Left) | PDF | Share Result | Next Set (Right) ── */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
+            {/* 1. Left side: Retake Test */}
+            <Button
+              asChild
+              variant="outline"
+              className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
+            >
+              <Link href={`/quiz/${id}`}>
+                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+                Retake Test
+              </Link>
+            </Button>
+
+            {/* 2 & 3. Middle: PDF & Share Result */}
+            <div className="flex items-center gap-2">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => handlePrint(reviewFilter)}
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs text-foreground"
+                title={`Export ${reviewFilter === "incorrect" ? "Mistakes" : reviewFilter === "correct" ? "Correct" : reviewFilter === "unattempted" ? "Unattempted" : "All"} as PDF`}
+              >
+                <FileDown className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
+                <span>PDF</span>
+              </Button>
+
+              <Button
+                type="button"
+                variant="outline"
+                onClick={handleShareResult}
+                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs text-foreground"
+                title="Share test result"
+              >
+                <Share2 className="h-3.5 w-3.5 text-muted-foreground" aria-hidden="true" />
+                <span>Share Result</span>
+              </Button>
+            </div>
+
+            {/* 4. Right side: Next Set */}
             {nextSet ? (
               <Button
                 asChild
                 className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
               >
                 <Link href={`/quiz/${nextSet._id}`}>
-                  Next Test Set
+                  Next Set
                   <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
               </Button>
@@ -401,104 +526,36 @@ export default function ResultsPage() {
               >
                 <Link href="/subjects">
                   <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                  View All Subjects
+                  Next Set
                 </Link>
               </Button>
             )}
-
-            <Button
-              asChild
-              variant="outline"
-              className="font-semibold text-xs h-10 px-5 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
-            >
-              <Link href={`/quiz/${id}`}>
-                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-                Retake Test
-              </Link>
-            </Button>
           </div>
         </Card>
 
-        {/* ── Modern Capsule Navigation (4 Options: Question Review, Mistake Sheet, Print, PDF) ── */}
+        {/* ── Question Review Section Header with 4-Option Filter Capsule ── */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
           <div className="flex items-center gap-2.5">
             <h2 className="text-base sm:text-lg font-bold tracking-tight text-foreground font-hindi">
-              {activeCapsuleTab === "mistakes" ? "Mistake Revision Sheet" : "Question Review"}
+              {reviewFilter === "incorrect"
+                ? "Mistake Revision Sheet"
+                : reviewFilter === "correct"
+                ? "Correct Answers Review"
+                : reviewFilter === "unattempted"
+                ? "Unattempted Questions"
+                : "Question Review"}
             </h2>
             <span className="text-xs font-semibold text-muted-foreground bg-muted px-2.5 py-0.5 rounded-full tabular-nums">
               {filteredQuestionsWithIndex.length} of {questionsList.length} Questions
             </span>
           </div>
 
-          {/* Segmented 4-Option Capsule with stable dimensions */}
-          <div
-            role="group"
-            aria-label="Result Actions"
-            className="inline-flex items-center h-9 p-1 bg-muted/60 border border-border/80 rounded-xl gap-0.5 self-start sm:self-auto shadow-2xs"
-          >
-            {/* 1. Question Review */}
-            <button
-              type="button"
-              onClick={() => {
-                setActiveCapsuleTab("review");
-                setReviewFilter("all");
-              }}
-              className={cn(
-                "h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                activeCapsuleTab === "review"
-                  ? "bg-card text-foreground shadow-2xs font-bold border border-border/60"
-                  : "text-muted-foreground hover:text-foreground"
-              )}
-            >
-              <LayoutList className="h-3.5 w-3.5" />
-              <span>Question Review</span>
-            </button>
-
-            {/* 2. Mistake Sheet */}
-            <button
-              type="button"
-              onClick={() => {
-                setActiveCapsuleTab("mistakes");
-                setReviewFilter("incorrect");
-              }}
-              className={cn(
-                "h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap",
-                activeCapsuleTab === "mistakes"
-                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400 font-bold border border-rose-500/30 shadow-2xs"
-                  : "text-muted-foreground hover:text-foreground"
-              )}
-            >
-              <XCircle className="h-3.5 w-3.5 text-rose-500" />
-              <span>Mistake Sheet</span>
-              {incorrectCount > 0 && (
-                <span className="ml-0.5 px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-rose-500/20 text-rose-600 dark:text-rose-400 tabular-nums">
-                  {incorrectCount}
-                </span>
-              )}
-            </button>
-
-            {/* 3. Print */}
-            <button
-              type="button"
-              onClick={() => handlePrint(reviewFilter)}
-              className="h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all cursor-pointer whitespace-nowrap"
-              title="Print Questions"
-            >
-              <Printer className="h-3.5 w-3.5" />
-              <span>Print</span>
-            </button>
-
-            {/* 4. PDF */}
-            <button
-              type="button"
-              onClick={() => handlePrint(reviewFilter)}
-              className="h-7 flex items-center gap-1.5 px-3 text-xs font-semibold rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all cursor-pointer whitespace-nowrap"
-              title={`Save as ${suggestedFileName}.pdf`}
-            >
-              <FileDown className="h-3.5 w-3.5" />
-              <span>PDF</span>
-            </button>
-          </div>
+          {/* Authoritative 4-Option Filter Control: All | Correct | Incorrect | Unattempted */}
+          <QuestionReviewFilter
+            value={reviewFilter}
+            onChange={setReviewFilter}
+            counts={filterCounts}
+          />
         </div>
 
         {/* ── Question List (Screen interactive view) ── */}
@@ -507,6 +564,10 @@ export default function ResultsPage() {
             <p className="text-sm text-muted-foreground text-center py-10 font-hindi">
               {reviewFilter === "incorrect"
                 ? "शाबाश! आपने इस टेस्ट में कोई गलत उत्तर नहीं दिया।"
+                : reviewFilter === "correct"
+                ? "इस टेस्ट में कोई सही उत्तर नहीं है।"
+                : reviewFilter === "unattempted"
+                ? "शाबाश! आपने सभी प्रश्नों के उत्तर दिए हैं।"
                 : "कोई प्रश्न उपलब्ध नहीं है।"}
             </p>
           ) : (
@@ -543,6 +604,10 @@ export default function ResultsPage() {
           filterLabel={
             reviewFilter === "incorrect"
               ? "Mistake Revision Sheet (Incorrect Only)"
+              : reviewFilter === "correct"
+              ? "Correct Answers Only"
+              : reviewFilter === "unattempted"
+              ? "Unattempted Questions"
               : "Complete Question Review"
           }
           questions={evaluatedQuestions}

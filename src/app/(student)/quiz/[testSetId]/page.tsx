@@ -30,9 +30,19 @@ function formatTime(seconds: number): string {
  * Single source of truth helper: safely checks candidate question IDs
  * against local answers map, ensuring empty strings / arrays count as unattempted.
  */
-function getQuestionAnswer(q: any, answers: Record<string, any>) {
+function getQuestionAnswer(q: any, answers: Record<string, any>, index?: number) {
   if (!q || !answers) return undefined;
-  const candidates = [q._id, q.id, q.canonicalId, q.convexId, q.sourceQuestionId];
+  const candidates = [
+    q._id,
+    q.id,
+    q.canonicalId,
+    q.convexId,
+    q.sourceQuestionId,
+    q.meta?.sourceQuestionId,
+    index !== undefined ? `q_${index}` : undefined,
+    index !== undefined ? `q_${index + 1}` : undefined,
+  ].filter(Boolean);
+
   for (const cid of candidates) {
     if (cid && answers[cid] !== undefined && answers[cid] !== null && answers[cid] !== "") {
       if (Array.isArray(answers[cid]) && answers[cid].length === 0) continue;
@@ -215,7 +225,7 @@ export default function QuizPage() {
 
         if (targetOptIdx >= 0 && enrichedCurrent.options[targetOptIdx]) {
           e.preventDefault();
-          selectAnswer(enrichedCurrent._id, enrichedCurrent.options[targetOptIdx].id);
+          selectAnswer(enrichedCurrent, enrichedCurrent.options[targetOptIdx].id);
         }
       }
     }
@@ -224,28 +234,31 @@ export default function QuizPage() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [currentIndex, questions.length, enrichedCurrent, selectAnswer, confirmSubmitOpen, isPaused, paletteOpen, setCurrentIndex]);
 
-  // Single Source of Truth for answered status:
-  const answeredSet = useMemo(() => {
-    const set = new Set<string>();
-    for (const q of questions) {
-      if (getQuestionAnswer(q, localAnswers) !== undefined) {
-        set.add(q._id);
+  // Single Source of Truth for answered status by question index (100% resilient across ID schemas):
+  const answeredIndices = useMemo(() => {
+    const set = new Set<number>();
+    questions.forEach((q, idx) => {
+      if (getQuestionAnswer(q, localAnswers, idx) !== undefined) {
+        set.add(idx);
       }
-    }
+    });
     return set;
   }, [questions, localAnswers]);
 
-  const answeredCount = answeredSet.size;
+  const answeredCount = answeredIndices.size;
   const unansweredCount = Math.max(0, questions.length - answeredCount);
 
   // Shared palette data — using exact same single source of truth
   const paletteQuestions = useMemo(() => {
-    return questions.map((q) => ({
-      id: q._id,
-      answered: answeredSet.has(q._id),
-      bookmarked: bookmarkedIds.has(q._id),
-    }));
-  }, [questions, answeredSet, bookmarkedIds]);
+    return questions.map((q, idx) => {
+      const qKey = q._id || q.convexId || q.canonicalId || q.id || `q_${idx}`;
+      return {
+        id: qKey,
+        answered: answeredIndices.has(idx),
+        bookmarked: bookmarkedIds.has(qKey) || (q._id && bookmarkedIds.has(q._id)),
+      };
+    });
+  }, [questions, answeredIndices, bookmarkedIds]);
 
   if (isLoading || questions.length === 0) {
     return (
@@ -350,15 +363,28 @@ export default function QuizPage() {
               number={currentIndex + 1}
               type={enrichedCurrent.type}
               questionText={enrichedCurrent.questionText}
-              isBookmarked={bookmarkedIds.has(enrichedCurrent._id)}
-              onToggleBookmark={() => toggleBookmark(enrichedCurrent._id)}
+              isBookmarked={Boolean(
+                (enrichedCurrent._id && bookmarkedIds.has(enrichedCurrent._id)) ||
+                (enrichedCurrent.convexId && bookmarkedIds.has(enrichedCurrent.convexId)) ||
+                (enrichedCurrent.canonicalId && bookmarkedIds.has(enrichedCurrent.canonicalId)) ||
+                (enrichedCurrent.id && bookmarkedIds.has(enrichedCurrent.id))
+              )}
+              onToggleBookmark={() => {
+                const targetKey =
+                  enrichedCurrent._id ||
+                  enrichedCurrent.convexId ||
+                  enrichedCurrent.canonicalId ||
+                  enrichedCurrent.id ||
+                  `q_${currentIndex}`;
+                toggleBookmark(targetKey);
+              }}
               reference={enrichedCurrent.reference}
               meta={enrichedCurrent.meta}
             >
               <Renderer
                 question={enrichedCurrent}
-                selected={getQuestionAnswer(enrichedCurrent, localAnswers)}
-                onSelect={(value) => selectAnswer(enrichedCurrent._id, value)}
+                selected={getQuestionAnswer(enrichedCurrent, localAnswers, currentIndex)}
+                onSelect={(value) => selectAnswer(enrichedCurrent, value)}
                 mode="quiz"
               />
             </QuestionShell>
@@ -617,13 +643,18 @@ export default function QuizPage() {
               <div className="overflow-y-auto py-3 max-h-[45vh] overscroll-contain">
                 <div className="grid grid-cols-5 gap-2">
                   {questions.map((q, i) => {
+                    const qKey = q._id || q.convexId || q.canonicalId || q.id || `q_${i}`;
                     const isCurrent = i === currentIndex;
-                    const isAnswered = answeredSet.has(q._id);
-                    const isBookmarked = bookmarkedIds.has(q._id);
+                    const isAnswered = answeredIndices.has(i);
+                    const isBookmarked =
+                      bookmarkedIds.has(qKey) ||
+                      Boolean(q._id && bookmarkedIds.has(q._id)) ||
+                      Boolean(q.convexId && bookmarkedIds.has(q.convexId)) ||
+                      Boolean(q.canonicalId && bookmarkedIds.has(q.canonicalId));
 
                     return (
                       <button
-                        key={q._id}
+                        key={qKey}
                         type="button"
                         disabled={isPaused}
                         onClick={() => {
