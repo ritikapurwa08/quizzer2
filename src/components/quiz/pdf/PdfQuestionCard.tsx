@@ -220,7 +220,7 @@ export function PdfQuestionCard({
         </div>
 
         {/* ── Match Lists (Side-by-side 2-column table for Print/PDF) ── */}
-        {question.meta?.left && question.meta?.right && question.meta.left.length > 0 && (
+        {Array.isArray(question.meta?.left) && Array.isArray(question.meta?.right) && question.meta.left.length > 0 && (
           <div
             className="rounded-lg border mb-2 overflow-hidden text-[7.5pt] shrink-0"
             style={{ borderColor: "var(--pdf-border)", background: "var(--pdf-surface-2)" }}
@@ -262,7 +262,7 @@ export function PdfQuestionCard({
         )}
 
         {/* ── Table (Clean tabular layout for Print/PDF) ── */}
-        {question.meta?.headers && question.meta?.rows && question.meta.headers.length > 0 && (
+        {Array.isArray(question.meta?.headers) && Array.isArray(question.meta?.rows) && question.meta.headers.length > 0 && (
           <div
             className="rounded-lg border mb-2 overflow-hidden text-[7.5pt] shrink-0"
             style={{ borderColor: "var(--pdf-border)", background: "var(--pdf-surface-2)" }}
@@ -278,13 +278,19 @@ export function PdfQuestionCard({
                 </tr>
               </thead>
               <tbody className="divide-y" style={{ borderColor: "var(--pdf-border)" }}>
-                {question.meta.rows.map((row: string[], rIdx: number) => (
+                {question.meta.rows.map((row: any, rIdx: number) => (
                   <tr key={rIdx}>
-                    {row.map((cell: string, cIdx: number) => (
-                      <td key={cIdx} className="py-1 px-2.5">
-                        {cell}
+                    {Array.isArray(row) ? (
+                      row.map((cell: string, cIdx: number) => (
+                        <td key={cIdx} className="py-1 px-2.5">
+                          {cell}
+                        </td>
+                      ))
+                    ) : (
+                      <td colSpan={question.meta.headers.length} className="py-1 px-2.5">
+                        {String(row)}
                       </td>
-                    ))}
+                    )}
                   </tr>
                 ))}
               </tbody>

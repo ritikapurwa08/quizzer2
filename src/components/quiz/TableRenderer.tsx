@@ -45,13 +45,19 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
               </tr>
             </thead>
             <tbody className="divide-y divide-border/60">
-              {rows.map((row, i) => (
+              {rows.map((row: any, i) => (
                 <tr key={i} className="hover:bg-muted/20 transition-colors">
-                  {row.map((cell, j) => (
-                    <td key={j} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
-                      {cell}
+                  {Array.isArray(row) ? (
+                    row.map((cell: any, j) => (
+                      <td key={j} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
+                        {String(cell ?? "")}
+                      </td>
+                    ))
+                  ) : (
+                    <td colSpan={headers?.length || 1} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
+                      {String(row ?? "")}
                     </td>
-                  ))}
+                  )}
                 </tr>
               ))}
             </tbody>

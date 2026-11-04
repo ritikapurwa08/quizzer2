@@ -333,14 +333,29 @@ export const latestSubmittedForTestSet = query({
     }
 
     try {
-      // Use index + desc order to get the newest submitted attempt in O(1) reads.
-      const latest = await ctx.db
-        .query("attempts")
-        .withIndex("by_user_test_set_status", (q) =>
-          q.eq("userId", user._id).eq("testSetId", args.testSetId as Id<"testSets">).eq("status", "submitted"),
-        )
-        .order("desc")
-        .first();
+      let latest: any = null;
+      try {
+        latest = await ctx.db
+          .query("attempts")
+          .withIndex("by_user_test_set_status", (q) =>
+            q.eq("userId", user._id).eq("testSetId", args.testSetId as Id<"testSets">).eq("status", "submitted"),
+          )
+          .order("desc")
+          .first();
+      } catch {
+        // withIndex may throw if args.testSetId is not a Convex Id<"testSets">
+      }
+
+      if (!latest) {
+        latest = await ctx.db
+          .query("attempts")
+          .withIndex("by_user_status", (q) =>
+            q.eq("userId", user._id).eq("status", "submitted"),
+          )
+          .filter((q) => q.eq(q.field("testSetId"), args.testSetId))
+          .order("desc")
+          .first();
+      }
 
       if (!latest) return null;
 

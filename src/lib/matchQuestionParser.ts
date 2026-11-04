@@ -48,7 +48,7 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
     let content = next ? text.slice(cur.index + cur.length, next.index) : text.slice(cur.index + cur.length);
     content = content
       .replace(
-        /(?:[\s\-–—]+(?:कूट|कोड|codes?)|(?<!त्रि|चित्र)(?:कूट|कोड)\s*[:\-–—]|नीचे\s*दिए\s*गए|निम्न\s*में\s*से|उपयुक्त\s*विकल्प|1\s*,\s*2\s*,\s*3\s*,\s*4).*$/i,
+        /(?:[\s\-–—]+(?:कूट|कोड|codes?)|(?<!त्रि|चित्र)(?:कूट|कोड)\s*[:\-–—]|नीचे\s*दिए\s*गए|निम्न\s*में\s*से|उपयुक्त\s*विकल्प|1\s*,\s*2\s*,\s*3\s*,\s*4|[अa]\s*,\s*[बb]\s*,\s*[सc]\s*,\s*[दd]).*$/i,
         ""
       )
       .trim();
@@ -138,7 +138,7 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
   // Extract clean prompt sentence from headerPart
   let prompt = "";
   const promptEndM = headerPart.match(
-    /(?:सुमेलित\s*(?:कीजिए|कीजिये|करें)|मिलान\s*(?:कीजिए|कीजिये|करें)|(?:सही\s*(?:उत्तर|विकल्प)\s*का\s*(?:चयन|चुनाव)\s*(?:कीजिए|कीजिये|करें|चुनिए|चुनिये))|(?:उपयुक्त\s*उत्तर\s*(?:का\s*चयन\s*कीजिए|का\s*चयन\s*कीजिये|चुनें|चुनिए|चुनिये))|(?:उत्तर\s*(?:दें|दीजिए|दीजिये|चुनिए|चुनिये)))\s*[:\-–—\s]*/i
+    /(?:सुमेलित\s*(?:कीजिए|कीजिये|किजीए|करें)|मिलान\s*(?:कीजिए|कीजिये|किजीए|करें)|(?:सही\s*(?:उत्तर|विकल्प)\s*का\s*(?:चयन|चुनाव)\s*(?:कीजिए|कीजिये|किजीए|करें|चुनिए|चुनिये))|(?:उपयुक्त\s*उत्तर\s*(?:का\s*चयन\s*कीजिए|का\s*चयन\s*कीजिये|चुनें|चुनिए|चुनिये))|(?:उत्तर\s*(?:दें|दीजिए|दीजिये|चुनिए|चुनिये)))\s*[:\-–—\s]*/i
   );
 
   if (promptEndM && promptEndM.index !== undefined) {
@@ -266,7 +266,7 @@ export function enrichQuestionStructure(q: any): any {
     hasExistingMatchMeta ||
     type === "match_following" ||
     type === "match" ||
-    /(?:(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:सुमेलित\s*(?:कीजिए|कीजिये|करें))|(?:मिलान\s*(?:कीजिए|कीजिये|करें))|(?:मिलाएं|मिलाइये|मिलाइए))/i.test(
+    /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table|सुमेलित|मिलान|मिलाएं|मिलाइये|मिलाइए)/i.test(
       rawText
     );
 

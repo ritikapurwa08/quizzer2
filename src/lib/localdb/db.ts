@@ -12,6 +12,9 @@ export interface LocalGkQuestion {
   explanation?: string;
   inConvex: boolean;
   repeatCount: number;
+  type?: string;
+  questionText?: string;
+  meta?: any;
 }
 
 export interface ImportMeta {

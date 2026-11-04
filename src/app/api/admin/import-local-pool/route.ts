@@ -32,7 +32,8 @@ export async function GET(request: NextRequest) {
       id: String(q.id),
       masterTopicId: Number(q.masterTopicId) || 0,
       masterTopic: q.masterTopic || q.topic || "",
-      question: q.question || "",
+      question: q.questionText || q.question || "",
+      questionText: q.questionText || q.question || "",
       options: Array.isArray(q.options) ? q.options : [],
       answer: q.answer || "A",
       exam: q.exam || undefined,
@@ -40,6 +41,8 @@ export async function GET(request: NextRequest) {
       explanation: q.explanation || undefined,
       inConvex: Boolean(q.inConvex),
       repeatCount: Number(q.repeatCount) || 0,
+      type: q.type || "mcq",
+      meta: q.meta || {},
     }));
 
     return NextResponse.json({

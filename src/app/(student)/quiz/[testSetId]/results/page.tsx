@@ -165,8 +165,10 @@ export default function ResultsPage() {
       .map((q, i) => {
         if (!q) return null;
         const qId = q._id || q.id || q.convexId || q.canonicalId;
-        const answer = (attempt.answers || []).find((a) => a.questionId === qId || a.questionId === q._id);
-        const badge = !answer ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
+        const answer = (attempt.answers || []).find(
+          (a: any) => a && (a.questionId === qId || a.questionId === q._id || a.questionId === q.canonicalId)
+        );
+        const badge = !answer || answer.selected === undefined ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
         return { question: q, answer, badge, originalIndex: i, questionId: qId };
       })
       .filter((item): item is NonNullable<typeof item> => item !== null)
@@ -265,10 +267,10 @@ export default function ResultsPage() {
 
   const { attempt } = data;
   const questionsList = resolvedQuestions || [];
-  const answersList = attempt.answers || [];
-  const correctCount = answersList.filter((a: any) => a.isCorrect).length;
-  const incorrectCount = answersList.filter((a: any) => !a.isCorrect && a.selected !== undefined).length;
-  const totalQCount = attempt.totalQuestions ?? questionsList.length;
+  const answersList = (attempt.answers || []).filter(Boolean);
+  const correctCount = answersList.filter((a: any) => Boolean(a?.isCorrect)).length;
+  const incorrectCount = answersList.filter((a: any) => !a?.isCorrect && a?.selected !== undefined && a?.selected !== null && a?.selected !== "").length;
+  const totalQCount = attempt.totalQuestions ?? (questionsList.length || 20);
   const unansweredCount = Math.max(0, totalQCount - (correctCount + incorrectCount));
 
   function handleToggleBookmark(questionId: string) {

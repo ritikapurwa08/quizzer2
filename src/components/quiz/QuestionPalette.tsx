@@ -12,6 +12,7 @@ interface QuestionPaletteProps {
   questions: PaletteQuestion[];
   currentIndex: number;
   onJump: (index: number) => void;
+  disabled?: boolean;
   className?: string;
 }
 
@@ -19,6 +20,7 @@ export function QuestionPalette({
   questions,
   currentIndex,
   onJump,
+  disabled = false,
   className,
 }: QuestionPaletteProps) {
   return (
@@ -27,6 +29,7 @@ export function QuestionPalette({
       aria-label="Question Navigation Palette"
       className={cn(
         "grid grid-cols-5 gap-2 sm:gap-2.5 p-3 rounded-2xl border border-border bg-card shadow-xs",
+        disabled && "opacity-60 pointer-events-none select-none",
         className
       )}
     >
@@ -43,12 +46,15 @@ export function QuestionPalette({
           <button
             key={q.id}
             type="button"
-            onClick={() => onJump(i)}
+            disabled={disabled}
+            onClick={() => !disabled && onJump(i)}
+            aria-disabled={disabled ? "true" : undefined}
             aria-current={isCurrent ? "true" : undefined}
             aria-label={`Question ${i + 1} (${statusLabel}${bookmarkLabel})`}
-            title={`Question ${i + 1}: ${statusLabel}`}
+            title={disabled ? "Test is paused" : `Question ${i + 1}: ${statusLabel}`}
             className={cn(
-              "relative flex h-10 w-full min-w-9 items-center justify-center rounded-xl border text-xs sm:text-sm font-semibold tabular-nums transition-colors select-none cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+              "relative flex h-10 w-full min-w-9 items-center justify-center rounded-xl border text-xs sm:text-sm font-semibold tabular-nums transition-colors select-none outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-1",
+              disabled ? "cursor-not-allowed opacity-75" : "cursor-pointer active:scale-95",
               // Current Active Question
               isCurrent
                 ? "border-primary bg-primary text-primary-foreground shadow-xs font-bold"
