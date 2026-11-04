@@ -54,6 +54,24 @@ export default function QuizPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [confirmExitOpen, setConfirmExitOpen] = useState(false);
   const [paletteOpen, setPaletteOpen] = useState(false);
+  const [timerDisplayMode, setTimerDisplayMode] = useState<"time" | "status">("time");
+
+  // Alternating display mode for timer capsule: alternates between formatted time and status every 4.5 seconds
+  useEffect(() => {
+    if (isPaused) {
+      setTimerDisplayMode("status");
+      return;
+    }
+    if (remainingSeconds < 120) {
+      setTimerDisplayMode("time");
+      return;
+    }
+    const interval = setInterval(() => {
+      setTimerDisplayMode((prev) => (prev === "time" ? "status" : "time"));
+    }, 4500);
+
+    return () => clearInterval(interval);
+  }, [isPaused, remainingSeconds]);
 
   // Keep screen active throughout the quiz session to prevent sleep timeouts
   useWakeLock(true);
@@ -197,67 +215,10 @@ export default function QuizPage() {
 
   return (
     <div className="flex flex-col lg:flex-row gap-6">
-      {/* ── Main question column ── */}
-      <div className="flex-1 space-y-3 min-w-0 pb-28 lg:pb-0">
+      {/* ── Main question column (Top is 100% clean, question starts immediately) ── */}
+      <div className="flex-1 space-y-3 min-w-0 pb-36 lg:pb-0">
 
-        {/* ── Mobile Header: title + pause/resume + stable timer + exit (Rock-stable layout) ── */}
-        <div className="flex lg:hidden items-center justify-between gap-2 bg-card px-3 py-1.5 rounded-2xl border border-border/80 shadow-2xs h-11 min-w-0 shrink-0">
-          <h1
-            className="font-semibold text-xs sm:text-sm text-foreground font-hindi truncate min-w-0 flex-1 pr-1"
-            title={testSet?.name}
-          >
-            {testSet?.name}
-          </h1>
-          <div className="flex items-center gap-1.5 shrink-0">
-            {/* Pause / Resume Button Capsule */}
-            <button
-              type="button"
-              onClick={() => (isPaused ? resume() : pause())}
-              className={cn(
-                "h-8 w-8 rounded-xl border flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0",
-                isPaused
-                  ? "bg-primary text-primary-foreground border-primary shadow-2xs"
-                  : "border-border/80 bg-muted/50 hover:bg-muted text-foreground"
-              )}
-              title={isPaused ? "Resume Test" : "Pause Test"}
-              aria-label={isPaused ? "Resume Test" : "Pause Test"}
-            >
-              {isPaused ? (
-                <Play className="h-3.5 w-3.5 fill-current" />
-              ) : (
-                <Pause className="h-3.5 w-3.5" />
-              )}
-            </button>
-
-            {/* Stable Countdown Timer Capsule (constant width, zero layout shift) */}
-            <div
-              className={cn(
-                "inline-flex items-center justify-center gap-1.5 h-8 px-2.5 rounded-xl font-mono text-xs font-bold tabular-nums shrink-0 transition-colors border",
-                remainingSeconds < 120
-                  ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
-                  : "bg-muted/50 text-foreground border-border/80"
-              )}
-              style={{ minWidth: "76px" }}
-              title="Remaining Time"
-            >
-              <Clock className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
-              <span className="tabular-nums tracking-tight">{formatTime(remainingSeconds)}</span>
-            </div>
-
-            {/* Exit Test Button Capsule */}
-            <button
-              type="button"
-              onClick={() => setConfirmExitOpen(true)}
-              className="h-8 w-8 rounded-xl border border-border/80 bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0"
-              title="Exit Test"
-              aria-label="Exit Test"
-            >
-              <DoorOpen className="h-3.5 w-3.5" />
-            </button>
-          </div>
-        </div>
-
-        {/* ── Desktop Header: title below border ── */}
+        {/* ── Desktop Header: title below border (Hidden on mobile) ── */}
         <div className="hidden lg:block border-b border-border/60 pb-2">
           <h1 className="font-semibold text-lg tracking-tight text-foreground font-hindi">
             {testSet?.name}
@@ -291,7 +252,7 @@ export default function QuizPage() {
             </Button>
           </div>
         ) : (
-          /* ── Active question (Maximized screen space, no in-page clutter) ── */
+          /* ── Active question (Maximized screen space, starts directly at top on mobile) ── */
           enrichedCurrent && Renderer && (
             <QuestionShell
               number={currentIndex + 1}
@@ -312,76 +273,157 @@ export default function QuizPage() {
           )
         )}
 
-        {/* ── Fixed Mobile Bottom Action Bar (Safe Area Compliant) ── */}
-        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-3.5 py-2.5 shadow-lg safe-bottom flex items-center justify-between gap-2.5">
-          {/* Previous Button */}
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
-            disabled={currentIndex === 0}
-            className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0"
-            aria-label="Previous question"
-          >
-            <ChevronLeft className="h-4 w-4 mr-0.5" />
-            Prev
-          </Button>
-
-          {/* Navigation Capsule — Opens Palette Modal */}
-          <button
-            type="button"
-            onClick={() => setPaletteOpen(true)}
-            className="inline-flex items-center justify-center gap-1.5 h-10 px-3 sm:px-4 rounded-xl border border-border/80 bg-muted/60 hover:bg-muted text-foreground text-xs font-bold transition-all cursor-pointer select-none active:scale-95 shadow-2xs min-w-0"
-            aria-label="Open question navigation palette"
-            title="Open Question Palette"
-          >
-            <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
-            <span className="tabular-nums font-mono font-bold tracking-tight text-foreground">
-              {currentIndex + 1}/{questions.length}
-            </span>
-            <span className="text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded-full tabular-nums shrink-0">
-              {answeredCount}✓
-            </span>
-          </button>
-
-          {/* Next or Submit Button */}
-          {isLastQuestion ? (
-            <Button
-              size="sm"
-              onClick={() => setConfirmSubmitOpen(true)}
-              disabled={isSubmitting}
-              className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs"
+        {/* ── Fixed Mobile Bottom Control Dock: Header Strip + Navigation Controls ── */}
+        <div className="fixed bottom-0 left-0 right-0 z-30 lg:hidden border-t border-border bg-card/95 backdrop-blur-md px-3.5 pt-2 pb-2.5 shadow-xl safe-bottom space-y-2">
+          {/* Tier 1: Header Strip (Directly above navigation controls) */}
+          <div className="flex items-center justify-between gap-2 min-w-0">
+            <h1
+              className="font-semibold text-xs text-foreground font-hindi truncate min-w-0 flex-1 pr-1"
+              title={testSet?.name}
             >
-              {isSubmitting ? (
-                <span className="flex items-center gap-1.5">
-                  <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" aria-hidden="true" />
-                  <span>Submitting...</span>
-                </span>
-              ) : (
-                <>
-                  <Check className="h-3.5 w-3.5" />
-                  <span>Submit</span>
-                </>
-              )}
-            </Button>
-          ) : (
+              {testSet?.name}
+            </h1>
+            <div className="flex items-center gap-1.5 shrink-0">
+              {/* Pause / Resume Button Capsule */}
+              <button
+                type="button"
+                onClick={() => (isPaused ? resume() : pause())}
+                className={cn(
+                  "h-7 w-7 rounded-lg border flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0",
+                  isPaused
+                    ? "bg-primary text-primary-foreground border-primary shadow-2xs"
+                    : "border-border/80 bg-muted/50 hover:bg-muted text-foreground"
+                )}
+                title={isPaused ? "Resume Test" : "Pause Test"}
+                aria-label={isPaused ? "Resume Test" : "Pause Test"}
+              >
+                {isPaused ? (
+                  <Play className="h-3 w-3 fill-current" />
+                ) : (
+                  <Pause className="h-3 w-3" />
+                )}
+              </button>
+
+              {/* Compact Alternating Timer Capsule (Fixed Dimensions: min-w-[80px]) */}
+              <button
+                type="button"
+                onClick={() => setTimerDisplayMode((prev) => (prev === "time" ? "status" : "time"))}
+                className={cn(
+                  "inline-flex items-center justify-center gap-1.5 h-7 px-2 rounded-lg font-mono text-[11px] font-bold tabular-nums shrink-0 transition-colors border select-none cursor-pointer",
+                  isPaused
+                    ? "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30"
+                    : remainingSeconds < 120
+                    ? "bg-destructive/15 text-destructive border-destructive/30 animate-pulse"
+                    : "bg-muted/50 text-foreground border-border/80 hover:bg-muted"
+                )}
+                style={{ width: "80px", minWidth: "80px" }}
+                title={isPaused ? "Test Paused" : "Click to toggle Time / Status"}
+                aria-label="Timer capsule"
+              >
+                {isPaused ? (
+                  <>
+                    <Pause className="h-3 w-3 text-amber-500 shrink-0" />
+                    <span className="tracking-tight text-[10px] font-extrabold">PAUSED</span>
+                  </>
+                ) : remainingSeconds < 120 || timerDisplayMode === "time" ? (
+                  <>
+                    <Clock className="h-3 w-3 text-primary shrink-0" aria-hidden="true" />
+                    <span className="tabular-nums tracking-tight">{formatTime(remainingSeconds)}</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+                    <span className="tabular-nums tracking-tight text-[10px]">
+                      {Math.ceil(remainingSeconds / 60)}m left
+                    </span>
+                  </>
+                )}
+              </button>
+
+              {/* Exit Test Button Capsule */}
+              <button
+                type="button"
+                onClick={() => setConfirmExitOpen(true)}
+                className="h-7 w-7 rounded-lg border border-border/80 bg-muted/50 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center transition-all cursor-pointer active:scale-95 shrink-0"
+                title="Exit Test"
+                aria-label="Exit Test"
+              >
+                <DoorOpen className="h-3 w-3" />
+              </button>
+            </div>
+          </div>
+
+          {/* Tier 2: Question Navigation Action Bar (Prev + Modern Capsule + Next/Submit) */}
+          <div className="flex items-center justify-between gap-2.5 pt-1 border-t border-border/40">
+            {/* Previous Button */}
             <Button
+              variant="outline"
               size="sm"
-              onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
-              className="h-10 px-3 sm:px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs"
-              aria-label="Next question"
+              onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
+              disabled={currentIndex === 0}
+              className="h-9 px-3 font-semibold text-xs rounded-xl border-border/80 bg-background hover:bg-muted cursor-pointer shrink-0"
+              aria-label="Previous question"
             >
-              Next
-              <ChevronRight className="h-4 w-4 ml-0.5" />
+              <ChevronLeft className="h-4 w-4 mr-0.5" />
+              Prev
             </Button>
-          )}
+
+            {/* Modern Question Navigation Capsule */}
+            <button
+              type="button"
+              onClick={() => setPaletteOpen(true)}
+              className="inline-flex items-center justify-center gap-1.5 h-9 px-3 sm:px-3.5 rounded-xl border border-border/80 bg-muted/70 hover:bg-muted text-foreground text-xs font-bold transition-all cursor-pointer select-none active:scale-95 shadow-2xs min-w-0"
+              aria-label="Open question navigation palette"
+              title="Open Question Palette"
+            >
+              <LayoutGrid className="h-3.5 w-3.5 text-primary shrink-0" aria-hidden="true" />
+              <span className="tabular-nums font-mono font-bold tracking-tight text-foreground">
+                {currentIndex + 1}/{questions.length}
+              </span>
+              <span className="text-[10px] font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded-full tabular-nums shrink-0">
+                {answeredCount}✓
+              </span>
+            </button>
+
+            {/* Next or Submit Button */}
+            {isLastQuestion ? (
+              <Button
+                size="sm"
+                onClick={() => setConfirmSubmitOpen(true)}
+                disabled={isSubmitting}
+                className="h-9 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs"
+              >
+                {isSubmitting ? (
+                  <span className="flex items-center gap-1.5">
+                    <Loader2 className="h-3.5 w-3.5 animate-spin shrink-0" aria-hidden="true" />
+                    <span>Submitting...</span>
+                  </span>
+                ) : (
+                  <>
+                    <Check className="h-3.5 w-3.5" />
+                    <span>Submit</span>
+                  </>
+                )}
+              </Button>
+            ) : (
+              <Button
+                size="sm"
+                onClick={() => setCurrentIndex((i) => Math.min(questions.length - 1, i + 1))}
+                className="h-9 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs"
+                aria-label="Next question"
+              >
+                Next
+                <ChevronRight className="h-4 w-4 ml-0.5" />
+              </Button>
+            )}
+          </div>
         </div>
 
-        {/* ── Mobile Question Palette Bottom Sheet / Modal Drawer ── */}
+        {/* ── Redesigned Question Navigation Panel (Bottom Sheet Drawer) ── */}
         {paletteOpen && (
           <>
             <div
-              className="fixed inset-0 z-40 bg-background/80 backdrop-blur-xs transition-opacity lg:hidden animate-in fade-in-0 duration-200"
+              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-xs transition-opacity lg:hidden animate-in fade-in-0 duration-200"
               onClick={() => setPaletteOpen(false)}
               aria-hidden="true"
             />
@@ -389,47 +431,93 @@ export default function QuizPage() {
               role="dialog"
               aria-modal="true"
               aria-label="Question Navigation Palette"
-              className="fixed inset-x-0 bottom-0 z-50 lg:hidden rounded-t-3xl border-t border-border bg-card p-4 pb-7 shadow-2xl safe-bottom max-h-[85vh] flex flex-col animate-in slide-in-from-bottom duration-200"
+              className="fixed inset-x-0 bottom-0 z-50 lg:hidden rounded-t-3xl border-t border-border bg-card p-4 pb-6 shadow-2xl safe-bottom max-h-[70vh] flex flex-col animate-in slide-in-from-bottom duration-250"
             >
-              {/* Drag handle */}
-              <div className="h-1 w-12 rounded-full bg-muted-foreground/30 mx-auto mb-3 shrink-0" />
+              {/* Drag Handle */}
+              <div className="h-1 w-10 rounded-full bg-muted-foreground/30 mx-auto mb-2.5 shrink-0" />
 
-              {/* Header */}
-              <div className="flex items-center justify-between pb-3 border-b border-border/60 shrink-0">
+              {/* Compact Header */}
+              <div className="flex items-center justify-between pb-2.5 border-b border-border/60 shrink-0">
                 <div className="min-w-0 pr-2">
                   <h2 className="text-sm font-bold text-foreground">
                     Question Navigation
                   </h2>
                   <p className="text-[11px] text-muted-foreground mt-0.5 truncate">
-                    Tap any question to jump directly to it
+                    {answeredCount} of {questions.length} answered · Tap to jump
                   </p>
                 </div>
-                <div className="flex items-center gap-2 shrink-0">
-                  <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-1 rounded-full tabular-nums">
-                    {answeredCount} / {questions.length} Solved
+                <div className="flex items-center gap-1.5 shrink-0">
+                  <span className="text-xs font-bold text-primary bg-primary/10 px-2.5 py-0.5 rounded-full tabular-nums">
+                    {Math.round((answeredCount / questions.length) * 100)}%
                   </span>
                   <button
                     type="button"
                     onClick={() => setPaletteOpen(false)}
-                    className="h-7 w-7 rounded-lg border border-border/80 bg-muted/60 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center cursor-pointer transition-colors"
-                    aria-label="Close question palette"
+                    className="h-7 w-7 rounded-lg border border-border/70 bg-muted/60 hover:bg-muted text-muted-foreground hover:text-foreground flex items-center justify-center cursor-pointer transition-colors"
+                    aria-label="Close question navigation"
                   >
                     <X className="h-4 w-4" />
                   </button>
                 </div>
               </div>
 
-              {/* Palette grid (scrollable if lots of questions) */}
-              <div className="overflow-y-auto py-3 max-h-[60vh] overscroll-contain">
-                <QuestionPalette
-                  questions={paletteQuestions}
-                  currentIndex={currentIndex}
-                  onJump={(index) => {
-                    setCurrentIndex(index);
-                    setPaletteOpen(false);
-                  }}
-                  className="border-0 shadow-none p-0 bg-transparent"
-                />
+              {/* Compact Status Legend */}
+              <div className="flex items-center justify-between text-[10px] text-muted-foreground py-2 border-b border-border/40 px-1 shrink-0 select-none flex-wrap gap-1">
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-sm bg-primary shrink-0" />
+                  <span>Current</span>
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-sm bg-emerald-500/30 border border-emerald-500/50 shrink-0" />
+                  <span>Answered</span>
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-sm bg-muted border border-border shrink-0" />
+                  <span>Unanswered</span>
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="h-2 w-2 rounded-full bg-amber-500 shrink-0" />
+                  <span>Flagged</span>
+                </span>
+              </div>
+
+              {/* Grid of Rounded Question Buttons */}
+              <div className="overflow-y-auto py-3 max-h-[50vh] overscroll-contain">
+                <div className="grid grid-cols-5 gap-2">
+                  {questions.map((q, i) => {
+                    const isCurrent = i === currentIndex;
+                    const isAnswered = localAnswers[q._id] !== undefined;
+                    const isBookmarked = bookmarkedIds.has(q._id);
+
+                    return (
+                      <button
+                        key={q._id}
+                        type="button"
+                        onClick={() => {
+                          setCurrentIndex(i);
+                          setPaletteOpen(false);
+                        }}
+                        className={cn(
+                          "relative flex h-10 w-full items-center justify-center rounded-xl border text-xs font-bold tabular-nums transition-all select-none cursor-pointer active:scale-95",
+                          isCurrent
+                            ? "border-primary bg-primary text-primary-foreground shadow-xs ring-2 ring-primary/20 scale-[1.02]"
+                            : isAnswered
+                            ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 font-bold hover:bg-emerald-500/25"
+                            : "border-border/70 bg-muted/30 text-muted-foreground hover:bg-muted hover:text-foreground"
+                        )}
+                        aria-label={`Question ${i + 1}${isCurrent ? " (Current)" : isAnswered ? " (Answered)" : " (Unanswered)"}`}
+                      >
+                        {i + 1}
+                        {isBookmarked && (
+                          <span
+                            className="absolute -top-1 -right-1 h-2.5 w-2.5 rounded-full bg-amber-500 ring-2 ring-card shadow-xs"
+                            aria-hidden="true"
+                          />
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </>
