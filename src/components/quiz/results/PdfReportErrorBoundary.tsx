@@ -23,3 +23,4 @@ export class PdfReportErrorBoundary extends React.Component<
     return this.props.children;
   }
 }
+

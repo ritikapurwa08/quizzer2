@@ -17,3 +17,4 @@ export const ENGLISH_SECTIONS = [
   { id: "literature", title: "Literature & Vocab (Grad. Std)", count: 9, minId: 75, maxId: 83 },
   { id: "pedagogy", title: "Teaching Methods (ELT)", count: 5, minId: 84, maxId: 88 },
 ];
+

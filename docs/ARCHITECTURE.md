@@ -119,3 +119,4 @@ Quizzer employs a strict dual-font typography contract:
 1. **No Breaking Changes**: Existing student quiz workflows, Dexie database sync, and Convex auth guards must remain strictly intact.
 2. **Zero Regressions in Syllabus**: The 55 topic IDs and 4 canonical subjects are immutable contracts.
 3. **Incremental Verification**: Every refactoring chunk must pass `bun run build` with 0 TypeScript and Turbopack errors before proceeding.
+

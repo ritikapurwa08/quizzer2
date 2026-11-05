@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, useCallback } from "react";
-import { useQuery } from "convex/react";
-import { api } from "../../../convex/_generated/api";
 import {
   ImportJson,
   QuestionInput,
@@ -14,32 +12,17 @@ import {
   parsePlainTextQuestions,
 } from "@/lib/importParser";
 
-import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
-import { getSubjectDisplayName, getTopicDisplayName, cn } from "@/lib/utils";
+import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { useToast } from "@/components/ui/Toast";
 import {
-  Copy,
-  Check,
   AlertCircle,
   CheckCircle2,
-  XCircle,
   Loader2,
   Layers,
-  Sparkles,
   FileCode,
-  ShieldCheck,
 } from "lucide-react";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 import {
@@ -48,6 +31,12 @@ import {
   extractBaseTopicName,
   getNextPartNumber,
 } from "@/lib/setNumbering";
+import {
+  TargetConfigSection,
+  GeminiPromptSection,
+  QualityGateChecklist,
+  ImportErrorAlert,
+} from "./import";
 
 interface Option {
   _id: string;
@@ -306,11 +295,6 @@ export function QuestionImportEditor({
     });
   }, [code, parseResult.questions, isFinalSet]);
 
-  // Server-side duplicate provenance check (query Convex)
-  const sourceIdsForDbCheck = useMemo(() => {
-    return batchValidation?.sourceQuestionIds ?? [];
-  }, [batchValidation]);
-
   const existingInDbIds: string[] = [];
 
   const detectedCount = parseResult.questions.length;
@@ -536,101 +520,20 @@ export function QuestionImportEditor({
           </div>
         </CardHeader>
         <CardContent className="p-4 sm:p-6 space-y-4">
-          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
-            <div>
-              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-                Subject
-              </Label>
-              <SyllabusSelect
-                options={subjectsList}
-                value={selectedSubjectId}
-                onValueChange={onSubjectChangeId}
-                placeholder="Select Subject..."
-              />
-            </div>
-            <div>
-              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-                Master Topic
-              </Label>
-              <SyllabusSelect
-                options={topicsList}
-                value={selectedTopicId}
-                onValueChange={onTopicChangeId}
-                disabled={!selectedSubjectId}
-                placeholder="Select Master Topic..."
-              />
-            </div>
-            <div>
-              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-                Batch Size (Sets)
-              </Label>
-              <Select
-                value={String(batchSize)}
-                onValueChange={(val: string | null) => val && setBatchSize(Number(val))}
-                disabled={!selectedTopicId}
-              >
-                <SelectTrigger className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium">
-                  <SelectValue placeholder="20 Questions (1 Set)">
-                    {(val: any) => {
-                      const num = Number(val || batchSize);
-                      const sets = Math.ceil(num / 20);
-                      return `${num} Questions (${sets} ${sets === 1 ? "Set" : "Sets"})`;
-                    }}
-                  </SelectValue>
-                </SelectTrigger>
-                <SelectContent className="bg-popover border-border">
-                  <SelectItem value="20" className="cursor-pointer font-medium">
-                    20 Questions (1 Set)
-                  </SelectItem>
-                  <SelectItem value="40" className="cursor-pointer font-medium">
-                    40 Questions (2 Sets)
-                  </SelectItem>
-                  <SelectItem value="60" className="cursor-pointer font-medium">
-                    60 Questions (3 Sets)
-                  </SelectItem>
-                  <SelectItem value="80" className="cursor-pointer font-medium">
-                    80 Questions (4 Sets)
-                  </SelectItem>
-                  <SelectItem value="100" className="cursor-pointer font-medium">
-                    100 Questions (5 Sets)
-                  </SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-            <div>
-              <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-                Set / Part Name
-              </Label>
-              <input
-                value={subtopicName}
-                onChange={(e) => onSubtopicNameChange(e.target.value)}
-                disabled={!selectedTopicId}
-                placeholder={selectedTopicId ? "e.g. राजस्थान की जलवायु भाग 1" : "Select a topic first"}
-                className={cn(
-                  "mt-0.5 h-10 w-full rounded-xl border bg-card px-3.5 text-sm font-medium focus:outline-hidden focus:ring-2 focus:ring-ring transition-colors disabled:opacity-50 disabled:cursor-not-allowed",
-                  isDuplicateSetName
-                    ? "border-destructive text-destructive focus:ring-destructive"
-                    : "border-input"
-                )}
-              />
-              {isDuplicateSetName && (
-                <p className="text-[11px] font-medium text-destructive mt-1">
-                  ⚠️ A test set in this batch already exists under this topic.
-                </p>
-              )}
-            </div>
-          </div>
-
-          {plannedSetNames.length > 1 && (
-            <div className="flex items-center gap-2 flex-wrap text-xs bg-muted/40 p-2.5 rounded-xl border border-border/50">
-              <span className="font-semibold text-muted-foreground">Sets to create ({plannedSetNames.length}):</span>
-              {plannedSetNames.map((name, idx) => (
-                <Badge key={idx} variant="outline" className="text-[11px] font-medium bg-background">
-                  {name}
-                </Badge>
-              ))}
-            </div>
-          )}
+          <TargetConfigSection
+            subjectsList={subjectsList}
+            topicsList={topicsList}
+            selectedSubjectId={selectedSubjectId}
+            selectedTopicId={selectedTopicId}
+            onSubjectChangeId={onSubjectChangeId}
+            onTopicChangeId={onTopicChangeId}
+            batchSize={batchSize}
+            onBatchSizeChange={setBatchSize}
+            subtopicName={subtopicName}
+            onSubtopicNameChange={onSubtopicNameChange}
+            isDuplicateSetName={isDuplicateSetName}
+            plannedSetNames={plannedSetNames}
+          />
 
           {code.trim().length > 0 && (!selectedTopicId || !subtopicName.trim()) && (
             <div className="flex items-center gap-2.5 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs">
@@ -646,73 +549,15 @@ export function QuestionImportEditor({
           )}
 
           {/* Gemini AI Action Row */}
-          <div className="pt-3 border-t border-border/40 space-y-3">
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5">
-              <p className="text-xs text-muted-foreground">
-                {loadingCandidates
-                  ? "Fetching candidate questions from the pool, please wait..."
-                  : candidateData
-                    ? `Candidate questions ready (${candidateData.candidateCount} questions). Copy prompt for Gemini review.`
-                    : candidateError
-                      ? "Could not load candidate questions. Please verify your selection or retry."
-                      : "Select a Subject and Master Topic above to load candidate questions from the pool."}
-              </p>
-
-              <div className="flex items-center gap-2 shrink-0">
-                {candidateData?.geminiPrompt && (
-                  <Button
-                    type="button"
-                    variant="outline"
-                    size="sm"
-                    onClick={() => setPromptOpen(!promptOpen)}
-                    disabled={loadingCandidates}
-                    className="h-9 px-3 text-xs font-semibold rounded-xl text-muted-foreground hover:text-foreground cursor-pointer"
-                  >
-                    {promptOpen ? "Hide Prompt Preview" : "Show Prompt Preview"}
-                  </Button>
-                )}
-
-                <Button
-                  type="button"
-                  size="sm"
-                  onClick={handleCopyForGemini}
-                  disabled={!candidateData?.geminiPrompt || loadingCandidates}
-                  className="h-9 px-4 text-xs font-semibold rounded-xl gap-2 shadow-xs cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {loadingCandidates ? (
-                    <>
-                      <Loader2 className="h-3.5 w-3.5 animate-spin" />
-                      <span>Fetching...</span>
-                    </>
-                  ) : copiedPrompt ? (
-                    <>
-                      <Check className="h-3.5 w-3.5 text-success" />
-                      <span>Prompt Copied!</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="h-3.5 w-3.5" />
-                      <span>Copy Gemini Prompt</span>
-                    </>
-                  )}
-                </Button>
-              </div>
-            </div>
-
-            {candidateError && (
-              <div className="flex items-center gap-2 p-3 rounded-xl bg-destructive/10 border border-destructive/30 text-destructive text-xs font-medium animate-in fade-in-0 duration-150">
-                <AlertCircle className="h-4 w-4 shrink-0" />
-                <span>{candidateError}</span>
-              </div>
-            )}
-
-            {/* Collapsible preview: takes 0 space unless promptOpen */}
-            {promptOpen && candidateData?.geminiPrompt && (
-              <pre className="max-h-56 overflow-auto whitespace-pre-wrap rounded-xl bg-muted/60 border border-border/50 p-3.5 font-mono text-[11px] leading-relaxed text-muted-foreground animate-in fade-in-0 duration-150">
-                {candidateData.geminiPrompt}
-              </pre>
-            )}
-          </div>
+          <GeminiPromptSection
+            loadingCandidates={loadingCandidates}
+            candidateData={candidateData}
+            candidateError={candidateError}
+            promptOpen={promptOpen}
+            onTogglePrompt={() => setPromptOpen(!promptOpen)}
+            copiedPrompt={copiedPrompt}
+            onCopyPrompt={handleCopyForGemini}
+          />
         </CardContent>
       </Card>
 
@@ -788,7 +633,6 @@ export function QuestionImportEditor({
           {code.trim().length > 0 && (
             <div className="space-y-3 pt-2 border-t border-border/40">
               {canImport ? (
-                /* Compact Single-Line Quality Gate when all pass */
                 <div className="flex items-center justify-between gap-2 p-3 rounded-xl bg-success/15 border border-success/30 text-success text-xs font-semibold animate-in fade-in-0 duration-150">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="h-4 w-4 shrink-0" />
@@ -801,125 +645,22 @@ export function QuestionImportEditor({
                   </Badge>
                 </div>
               ) : (
-                /* Full breakdown when checks fail or are incomplete */
                 <>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-medium">
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {isCountValid ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>
-                        {isFinalSet
-                          ? `Final set accepted (${detectedCount} questions)`
-                          : isMultipleOf20
-                            ? `${detectedCount} questions verified (${setCountToCreate} Sets × 20 questions)`
-                            : `Batches of 20 required (${detectedCount} questions)`}
-                      </span>
-                    </div>
+                  <QualityGateChecklist
+                    isCountValid={isCountValid}
+                    isFinalSet={isFinalSet}
+                    isMultipleOf20={isMultipleOf20}
+                    detectedCount={detectedCount}
+                    setCountToCreate={setCountToCreate}
+                    batchValidation={batchValidation}
+                    hasNoDbCollisions={hasNoDbCollisions}
+                    isDuplicateSetName={isDuplicateSetName}
+                    selectedSubjectId={selectedSubjectId}
+                    selectedTopicId={selectedTopicId}
+                    subtopicName={subtopicName}
+                  />
 
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.validStructure ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Valid question and option structure (4 options)</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.uniqueOptions ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Unique options per question</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.validAnswers ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Valid correct answer verified</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.explanationsPresent ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Authentic explanations required</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.noDuplicateQuestions ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>No duplicate questions within set</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {batchValidation?.checklist.noDuplicateSourceIds ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Unique source IDs within set</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40">
-                      {hasNoDbCollisions && !isDuplicateSetName ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-destructive shrink-0" />
-                      )}
-                      <span>Unique in database (no Convex duplicates)</span>
-                    </div>
-
-                    <div className="flex items-center gap-2 p-2 rounded-lg bg-muted/40 border border-border/40 sm:col-span-2">
-                      {Boolean(selectedTopicId && subtopicName.trim() && !isDuplicateSetName) ? (
-                        <CheckCircle2 className="h-3.5 w-3.5 text-success shrink-0" />
-                      ) : (
-                        <XCircle className="h-3.5 w-3.5 text-amber-500 shrink-0" />
-                      )}
-                      <span>
-                        {!selectedSubjectId
-                          ? "Step 1 required: Select a Subject above"
-                          : !selectedTopicId
-                            ? "Step 1 required: Select a Master Topic above"
-                            : !subtopicName.trim()
-                              ? "Step 1 required: Enter a Set / Part Name above"
-                              : isDuplicateSetName
-                                ? "Step 1 error: Duplicate Set Name"
-                                : "Step 1 complete: Subject, Topic & Set Name assigned"}
-                      </span>
-                    </div>
-                  </div>
-
-                  {allErrors.length > 0 && (
-                    <Alert variant="destructive" className="rounded-xl border-destructive/30 bg-destructive/10 py-2.5">
-                      <AlertCircle className="h-4 w-4" />
-                      <AlertTitle className="text-xs font-bold">
-                        Cannot Import — Please fix the following errors:
-                      </AlertTitle>
-                      <AlertDescription className="mt-1.5 text-xs">
-                        <ul className="list-disc pl-4 space-y-0.5">
-                          {allErrors.slice(0, 6).map((err, i) => (
-                            <li key={i}>{err}</li>
-                          ))}
-                          {allErrors.length > 6 && (
-                            <li>...and {allErrors.length - 6} more errors.</li>
-                          )}
-                        </ul>
-                      </AlertDescription>
-                    </Alert>
-                  )}
+                  <ImportErrorAlert errors={allErrors} />
                 </>
               )}
             </div>

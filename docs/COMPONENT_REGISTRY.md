@@ -168,6 +168,10 @@ Performance charts and revision metrics for students.
 | `DataTable` | `src/components/admin/DataTable.tsx` | Generic tabular data view with sort and pagination | Yes | Admin question pool |
 | `ImportWizard` | `src/components/admin/ImportWizard.tsx` | Multi-step question import modal | Feature | `/admin/import` |
 | `QuestionImportEditor` | `src/components/admin/QuestionImportEditor.tsx` | Interactive validator and editor for parsed questions | Feature | Admin import pipeline |
+| `TargetConfigSection` | `src/components/admin/import/TargetConfigSection.tsx` | Target subject, topic, batch size selector & set name | Feature | `QuestionImportEditor` |
+| `GeminiPromptSection` | `src/components/admin/import/GeminiPromptSection.tsx` | Candidate count badge, preview toggle & copy button | Feature | `QuestionImportEditor` |
+| `QualityGateChecklist` | `src/components/admin/import/QualityGateChecklist.tsx` | 8-point validation checklist for question sets | Feature | `QuestionImportEditor` |
+| `ImportErrorAlert` | `src/components/admin/import/ImportErrorAlert.tsx` | Destructive error banner with detailed message list | Feature | `QuestionImportEditor` |
 
 ---
 

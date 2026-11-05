@@ -105,3 +105,4 @@ export function DesktopNavSection({ isAdmin, isItemActive }: DesktopNavSectionPr
     </div>
   );
 }
+

@@ -15,7 +15,8 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 | **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - reduced from 649 to 440 lines) & PDF integration | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - reduced from 490 to 240 lines) component modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - reduced from 453 to 140 lines) navigation & state separation | **COMPLETED & VERIFIED** | 2026-11-05 |
-| **Phase 2 — Chunk 5** | Admin Pool & Dedup monolithic tools (`admin/dedup/page.tsx`, `admin/pool/page.tsx`) | **PENDING** | - |
+| **Phase 2 — Chunk 5** | Question Import Editor (`src/components/admin/QuestionImportEditor.tsx` - reduced from 974 to 475 lines) modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
+| **Phase 2 — Chunk 6** | Admin Dedup Tool (`src/app/(admin)/admin/dedup/page.tsx` - 1,752 lines) decomposition | **PENDING** | - |
 
 ---
 
@@ -119,4 +120,22 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 - **Verification**:
   - `bun run build` compiled in 1.9s with 0 errors across 22 routes.
   - Mobile bottom navigation, theme toggling, admin role checks, and desktop links verified intact.
+- **Status**: **COMPLETED & VERIFIED**
+
+---
+
+### Phase 2: Chunk 5 — Question Import Editor Modularization
+- **Target File**: `src/components/admin/QuestionImportEditor.tsx` (974 lines)
+- **Problem Identified**:
+  - The Question Import Editor was one of the largest components in the admin console. It handled subject/topic assignment, batch size estimation, local candidate API fetching, Gemini prompt copying, JSON/plain-text isolation, 8-point Quality Gate validation, and set creation dispatching.
+- **What Was Changed**:
+  - Extracted sub-components into `src/components/admin/import/`:
+    - `TargetConfigSection.tsx`: Subject, Master Topic, Batch Size selector, Set Name input, and planned set badges.
+    - `GeminiPromptSection.tsx`: Candidate load status, prompt preview toggle, and "Copy Gemini Prompt" button.
+    - `QualityGateChecklist.tsx`: 8-point validation checklist (structure, unique options, valid answers, explanations, duplicate checks, Convex collisions).
+    - `ImportErrorAlert.tsx`: Detailed error message list for validation failures.
+  - Reduced `QuestionImportEditor.tsx` from 974 lines to 475 lines (51% reduction in line count).
+- **Verification**:
+  - `bun run build` compiled in 2.1s with 0 errors across 22 routes.
+  - Validation rules, candidate loading, auto-detection, and payload propagation verified intact.
 - **Status**: **COMPLETED & VERIFIED**

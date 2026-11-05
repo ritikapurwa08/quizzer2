@@ -91,3 +91,4 @@ export function SyllabusProgressBanner({
     </Card>
   );
 }
+
