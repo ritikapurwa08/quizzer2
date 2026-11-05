@@ -8,7 +8,6 @@ export const DATA_PATHS = {
   englishDir: path.join(cwd, "data", "questions", "english"),
   englishTopicsDir: path.join(cwd, "data", "questions", "english", "topics"),
   englishVocabDir: path.join(cwd, "data", "questions", "english", "vocab"),
-  masterPool: path.join(cwd, "data", "questions", "master-pool.json"),
 
   // Sets & State
   setsDir: path.join(cwd, "data", "sets"),

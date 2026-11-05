@@ -1,75 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
-import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
-import { healOptionText } from "@/lib/optionTextHealer";
-import { DATA_PATHS } from "@/lib/dataPaths";
+import { getHydratedPublishedSet } from "@/lib/questionPool";
 
 export const dynamic = "force-dynamic";
-
-// In-memory cache for published sets to provide sub-millisecond responses
-let _setsCache: Map<string, any> | null = null;
-
-function normalizeQuestion(rawQ: any, i: number) {
-  const q = enrichQuestionStructure(rawQ);
-  const qId = q._id || q.id || q.convexId || q.canonicalId || `q_${i + 1}`;
-  const options = (q.options || []).map((opt: any, optIdx: number) => {
-    const rawText = typeof opt === "string" ? opt : opt?.text || "";
-    const healed = healOptionText(rawText);
-    if (typeof opt === "string") {
-      return { id: `opt${optIdx + 1}`, text: healed };
-    }
-    return {
-      id: opt?.id || `opt${optIdx + 1}`,
-      text: healed,
-    };
-  });
-
-  const rawQText = q.questionText || q.question || "";
-  const healedQText = healOptionText(rawQText);
-
-  return {
-    ...q,
-    _id: qId,
-    id: qId,
-    type: q.type || "mcq",
-    questionText: healedQText,
-    options,
-    correctAnswer: q.correctAnswer || (q.answerIndex !== undefined ? `opt${q.answerIndex + 1}` : "opt1"),
-    explanation: q.explanation || "",
-    difficulty: q.difficulty || "medium",
-  };
-}
-
-function getPublishedSetsMap(): Map<string, any> {
-  if (_setsCache) return _setsCache;
-
-  const map = new Map<string, any>();
-  const setsFilePath = DATA_PATHS.publishedSets;
-
-  if (fs.existsSync(setsFilePath)) {
-    try {
-      const raw = fs.readFileSync(setsFilePath, "utf-8");
-      const sets: any[] = JSON.parse(raw);
-      for (const rawSet of sets) {
-        const normalizedQuestions = (rawSet.questions || []).map(normalizeQuestion);
-        const set = {
-          ...rawSet,
-          questions: normalizedQuestions,
-        };
-
-        if (set.id) map.set(set.id, set);
-        if (set.setId) map.set(set.setId, set);
-        if (set._id) map.set(set._id, set);
-      }
-    } catch (e) {
-      console.error("Error loading published-sets.json:", e);
-    }
-  }
-
-  _setsCache = map;
-  return map;
-}
 
 export async function GET(
   request: NextRequest,
@@ -81,8 +13,7 @@ export async function GET(
       return NextResponse.json({ success: false, error: "Missing testSetId" }, { status: 400 });
     }
 
-    const setsMap = getPublishedSetsMap();
-    const set = setsMap.get(testSetId);
+    const set = getHydratedPublishedSet(testSetId);
 
     if (!set) {
       return NextResponse.json({ success: false, error: "Set not found in published pool" }, { status: 404 });

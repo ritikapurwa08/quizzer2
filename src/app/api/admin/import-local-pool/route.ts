@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import { DATA_PATHS } from "@/lib/dataPaths";
+import { getAllGkQuestions } from "@/lib/questionPool";
 
 export const dynamic = "force-dynamic";
 
@@ -10,17 +9,7 @@ export async function GET(request: NextRequest) {
     const page = Math.max(0, parseInt(searchParams.get("page") || "0", 10));
     const pageSize = Math.min(1000, Math.max(50, parseInt(searchParams.get("pageSize") || "500", 10)));
 
-    const poolPath = DATA_PATHS.masterPool;
-    if (!fs.existsSync(poolPath)) {
-      return NextResponse.json({ success: false, error: "master-pool.json not found" }, { status: 404 });
-    }
-
-    const raw = fs.readFileSync(poolPath, "utf-8");
-    const allData: any = JSON.parse(raw);
-    const questions: any[] = Array.isArray(allData) ? allData : allData.questions || [];
-
-    // Filter GK only
-    const gkOnly = questions.filter((q: any) => q.subject === "gk");
+    const gkOnly = getAllGkQuestions();
 
     const start = page * pageSize;
     const slice = gkOnly.slice(start, start + pageSize);
@@ -50,8 +39,7 @@ export async function GET(request: NextRequest) {
       questions: mapped,
     });
   } catch (err: any) {
-    console.error("import-local-pool error:", err);
+    console.error("Error loading local pool:", err);
     return NextResponse.json({ success: false, error: err.message }, { status: 500 });
   }
 }
-

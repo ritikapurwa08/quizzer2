@@ -139,12 +139,11 @@ export async function POST(request: NextRequest) {
         completedAt: now,
         questionCount: selectedIds.length,
         questionIds: selectedIds,
-        questions: questions || [],
       };
       fs.writeFileSync(setFilePath, JSON.stringify(setPayload, null, 2), "utf-8");
     }
 
-    // 5.5 Sync with published-sets.json for local-first retrieval
+    // 5.5 Sync with published-sets.json for local-first retrieval (Manifest format, zero duplication)
     try {
       const pubPath = DATA_PATHS.publishedSets;
       if (fs.existsSync(pubPath)) {
@@ -163,23 +162,13 @@ export async function POST(request: NextRequest) {
 
         const setEntry = {
           id: setId,
-          setId,
           name: `${topicState.masterTopic} भाग ${setNumber}`,
           topicId: convexTopicId,
+          masterTopicId,
           negativeMarking: true,
           order: Number(setNumber),
-          questionCount: Array.isArray(questions) ? questions.length : selectedIds.length,
-          questions: (questions || []).map((q: any, i: number) => ({
-            order: i,
-            canonicalId: q.meta?.sourceQuestionId || q.sourceQuestionId || q.id,
-            questionText: q.questionText,
-            options: q.options || [],
-            correctAnswer: q.correctAnswer,
-            explanation: q.explanation || null,
-            type: q.type || "mcq",
-            meta: q.meta || {},
-            reference: q.reference || null,
-          })),
+          questionCount: selectedIds.length,
+          questionIds: selectedIds,
         };
         if (existingIdx >= 0) {
           publishedSets[existingIdx] = setEntry;

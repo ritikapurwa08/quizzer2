@@ -77,7 +77,7 @@ export async function GET() {
       }
 
       if (masterTopicId !== null) {
-        const qCount = s.questionCount || (Array.isArray(s.questions) ? s.questions.length : 20);
+        const qCount = s.questionCount || (Array.isArray(s.questionIds) ? s.questionIds.length : (Array.isArray(s.questions) ? s.questions.length : 20));
         const existing = liveStatsByMasterTopic.get(masterTopicId) || {
           setCount: 0,
           questionCount: 0,

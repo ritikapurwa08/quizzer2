@@ -4434,6 +4434,1339 @@
       "type": "mcq",
       "questionText": "राजस्थान के निम्न में से किस कस्बे को प्राचीन स्रोतों में ‘चम्पावती’ के नाम से जाना जाता है -",
       "meta": {}
+    },
+    {
+      "id": "rg_015630",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'थाळी का बैंगन' से क्या तात्पर्य है?",
+      "options": [
+        "स्वादिष्ट एवं पौष्टिक भोजन",
+        "अस्थिर विचार वाला अथवा बिना सिद्धांत का ऐसा व्यक्ति जिसका कोई निश्चित पक्ष न हो",
+        "पूर्णतः निष्कपट और ईमानदार व्यक्ति",
+        "सभी का मान-सम्मान करने वाला व्यक्ति"
+      ],
+      "answer": "B",
+      "explanation": "थाली में रखा गोल बैंगन किसी भी तरफ लुढ़क सकता है। इसी प्रकार अवसरवादी और अस्थिर चित्त वाले व्यक्ति को 'थाली का बैंगन' कहते हैं।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57050wpnvchn1ndcvvqeekvms8fmkxq"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'थाळी का बैंगन' से क्या तात्पर्य है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015612",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'ऊँट रै गळै में घंटड़ी' का सही आशय क्या है?",
+      "options": [
+        "पशुओं का सुंदर पारंपरिक शृंगार करना",
+        "विशाल और भद्दे प्राणी या वस्तु के साथ अत्यंत छोटी व बेमेल वस्तु का जुड़ना",
+        "सभी वस्तुओं का पूर्णतः संतुलित मिश्रण होना",
+        "विपत्ति के समय सबको सतर्क करना"
+      ],
+      "answer": "B",
+      "explanation": "विशालकाय ऊँट के गले में छोटी सी घंटी लटकना बेमेल और अनुपयुक्त प्रतीत होता है। यह लोकोक्ति बेमेल संयोग को दर्शाती है।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k570ebqmd6drnxpje9hr07h3p58fnxr3"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'ऊँट रै गळै में घंटड़ी' का सही आशय क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_013071_alt",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "विश्व पर्यावरण दिवस (5 जून 1988) के अवसर पर राजस्थान के किस वृक्ष पर 60 पैसे का डाक टिकट जारी किया गया था?",
+      "options": [
+        "खेजड़ी",
+        "रोहिड़ा",
+        "पीपल",
+        "बरगद"
+      ],
+      "answer": "A",
+      "explanation": "5 जून 1988 को भारत सरकार द्वारा राजस्थान के राज्य वृक्ष खेजड़ी पर 60 पैसे का डाक टिकट जारी किया गया था।",
+      "exam": "📌 PYQ",
+      "year": null,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5726rwgw1pcpd7f07ekknz28s8eq276"
+      ],
+      "convexTestSetIds": [
+        "kd71h1am6ehy4s0qsgwdr6yq7s8epp6q"
+      ],
+      "type": "mcq",
+      "questionText": "विश्व पर्यावरण दिवस (5 जून 1988) के अवसर पर राजस्थान के किस वृक्ष पर 60 पैसे का डाक टिकट जारी किया गया था?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015613",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी कहावत 'ऊँट किसै करवट बैठै' का सटीक भावार्थ क्या है?",
+      "options": [
+        "पशु की विश्राम करने की शारीरिक मुद्रा",
+        "अनिश्चित परिस्थिति में अंततः क्या परिणाम निकलेगा, यह देखने योग्य होना",
+        "किसी भी कार्य का निश्चित परिणाम पूर्व ज्ञात होना",
+        "परिस्थितियों का पूर्णतः नियंत्रण में होना"
+      ],
+      "answer": "B",
+      "explanation": "ऊँट किस करवट बैठेगा, यह पहले से नहीं कहा जा सकता। इसी प्रकार जब किसी अनिश्चित स्थिति के अंतिम परिणाम का इंतजार हो, तब यह कहा जाता है।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k572bxzd0a8450w8fmdqe465td8fnm1b"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी कहावत 'ऊँट किसै करवट बैठै' का सटीक भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_013072_alt",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "खेजड़ी के वृक्ष पर लगने वाले फूल को स्थानीय राजस्थानी भाषा में क्या कहा जाता है?",
+      "options": [
+        "मींझर",
+        "सांगरी",
+        "खोखा",
+        "लूम"
+      ],
+      "answer": "A",
+      "explanation": "खेजड़ी के फूल को मींझर, कच्ची फली को सांगरी, सूखी फली को खोखा और हरी पत्तियों को लूम कहा जाता है।",
+      "exam": "📌 PYQ",
+      "year": null,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k572c55yn2q1fdv1vdsgp1x6eh8ep6fx"
+      ],
+      "convexTestSetIds": [
+        "kd71h1am6ehy4s0qsgwdr6yq7s8epp6q"
+      ],
+      "type": "mcq",
+      "questionText": "खेजड़ी के वृक्ष पर लगने वाले फूल को स्थानीय राजस्थानी भाषा में क्या कहा जाता है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015631",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'दांत काटी रोटी' का सही भावार्थ क्या है?",
+      "options": [
+        "अन्न का अभाव होना",
+        "अत्यधिक प्रगाढ़, घनिष्ठ एवं अटूट मित्रता होना",
+        "मित्रों के मध्य गंभीर विवाद हो जाना",
+        "कठोर परिश्रम से आजीविका कमाना"
+      ],
+      "answer": "B",
+      "explanation": "'दांत काटी रोटी' दो व्यक्तियों के बीच परस्पर अटूट प्रेम, अभिन्नता और घनिष्ठ आत्मीयता का प्रतीक मुहावरा है।",
+      "exam": "RSMSSB VDO",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k572gr0ph4nnp8kjjjevvy4rxn8fnqbe"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'दांत काटी रोटी' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015646",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'हाथ कंगन नै आरसी क्या' का सही अर्थ क्या है?",
+      "options": [
+        "पारंपरिक आभूषणों का शृंगार करना",
+        "प्रत्यक्ष व अकाट्य प्रमाण के सामने किसी अन्य गवाह या तर्क की आवश्यकता नहीं होती",
+        "दर्पण में अपना प्रतिबिंब देखना",
+        "धन का अनुचित प्रदर्शन करना"
+      ],
+      "answer": "B",
+      "explanation": "'आरसी' दर्पण को कहते हैं। हाथ में पहने कंगन को देखने के लिए आईने की जरूरत नहीं होती, अर्थात् प्रत्यक्ष सत्य स्वतः सिद्ध होता है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k572t2mrbpmnr6g4d0f30rs28s8fm0bw"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'हाथ कंगन नै आरसी क्या' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015636",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'फूंक-फूंक कै पग धरणौ' का सही अर्थ क्या है?",
+      "options": [
+        "अत्यधिक भयभीत होकर भाग जाना",
+        "अत्यधिक सावधानी, सतर्कता और सोच-विचार कर कार्य करना",
+        "बिना सोचे समझे तीव्रता से कदम उठाना",
+        "मार्ग की बाधाओं से घबरा जाना"
+      ],
+      "answer": "B",
+      "explanation": "विपत्ति या नुकसान के अंदेशे को देखते हुए प्रत्येक कदम को अत्यंत सतर्कता, विवेक और चौकसी से आगे बढ़ाना।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5739zts0bs6zv0s1h5jrfsn1h8fma4h"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'फूंक-फूंक कै पग धरणौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015643",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी लोकोक्ति 'रोवै धाय, खोवै आपरा ही नैण' का क्या अर्थ है?",
+      "options": [
+        "धाय माता का बच्चे के प्रति अगाध प्रेम होना",
+        "पराई चिंता या व्यर्थ के प्रलाप में अपना ही शारीरिक व मानसिक नुकसान करना",
+        "नेत्रों के संक्रामक रोग से ग्रस्त होना",
+        "पारिवारिक सुख की निरंतर कामना करना"
+      ],
+      "answer": "B",
+      "explanation": "पराई संतान के लिए धाय रो-रोकर अपने ही नेत्र गँवाती है। अर्थात् व्यर्थ के पराए झंझट में अपना ही अहित कर बैठना।",
+      "exam": "RPSC College Lecturer",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k573bj8b22ndwhy1t9sjmwz1ps8fmmxj"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी लोकोक्ति 'रोवै धाय, खोवै आपरा ही नैण' का क्या अर्थ है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015648",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'हुक्का पाणी बंद करणौ' का सही आशय क्या है?",
+      "options": [
+        "मादक पदार्थों के सेवन पर पूर्ण प्रतिबंध लगाना",
+        "समाज या जाति बिरादरी से किसी का पूर्ण सामाजिक बहिष्कार कर देना",
+        "अतिथियों का सत्कार करने से मना करना",
+        "जल संकट का सामना करना"
+      ],
+      "answer": "B",
+      "explanation": "जातीय पंचायत द्वारा किसी व्यक्ति या परिवार से मिलना-जुलना और खान-पान बंद कर उसे बहिष्कृत करना 'हुक्का-पानी बंद करना' कहलाता है।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57432sg8p4j8ae0yz03x6wv1n8fmg1r"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'हुक्का पाणी बंद करणौ' का सही आशय क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015634",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'पापड़ बेलणा' का सही तात्पर्य क्या है?",
+      "options": [
+        "स्वादिष्ट पारंपरिक पकवान बनाना",
+        "जीवन-यापन या सफलता के लिए नाना प्रकार के कठिन कष्ट और संघर्ष झेलना",
+        "आलस्य में समय बिताना",
+        "सरल मार्ग से धन कमाना"
+      ],
+      "answer": "B",
+      "explanation": "सफलता पाने के लिए अनेक कठिनाइयों, असफलताओं और झंझटों से गुजरने को 'पापड़ बेलना' कहा जाता है।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5743z5c7xsg3cxpaxcmqyrp6s8fmy4p"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'पापड़ बेलणा' का सही तात्पर्य क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015647",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "कहावत 'हथेली पर सरसों नीं उगै' का वास्तविक भावार्थ क्या है?",
+      "options": [
+        "कृषि कार्य में वैज्ञानिक पद्धतियों का प्रयोग करना",
+        "किसी भी महत्वपूर्ण एवं स्थायी कार्य के संपन्न होने में उसका स्वाभाविक समय लगता है, वह तुरंत नहीं होता",
+        "कठिन प्रयासों से बंजर भूमि में भी फसल उगाना",
+        "समय का सदुपयोग न करना"
+      ],
+      "answer": "B",
+      "explanation": "सरसों खेत में स्वाभाविक प्रक्रिया से ही उगती है, हथेली पर नहीं। कोई भी बड़ा कार्य अपनी समयावधि और धैर्य से ही सिद्ध होता है।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57466etqw2yyganp7n60rgadx8fn1k5"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "कहावत 'हथेली पर सरसों नीं उगै' का वास्तविक भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015618",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी कहावत 'खोदियो पहाड़, निकळ्यो उंदरो' का सही भावार्थ है—",
+      "options": [
+        "पहाड़ों पर कठिन खनन कार्य करना",
+        "अत्यधिक कठोर परिश्रम करने पर भी अत्यंत नगण्य या तुच्छ फल की प्राप्ति होना",
+        "अल्प परिश्रम से ही विशाल सफलता प्राप्त होना",
+        "कार्य के आरंभ में ही भारी विपत्ति आ जाना"
+      ],
+      "answer": "B",
+      "explanation": "'उंदरो' का अर्थ चूहा है। पहाड़ खोदने जितना भारी परिश्रम करने पर केवल एक चूहा निकलना; अर्थात् भारी मेहनत का नगण्य प्रतिफल मिलना।",
+      "exam": "RSMSSB Patwar",
+      "year": 2015,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5752wpdm9m292g4hfm0z2tnq18fn5z9"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी कहावत 'खोदियो पहाड़, निकळ्यो उंदरो' का सही भावार्थ है—",
+      "meta": {}
+    },
+    {
+      "id": "rg_015615",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'काळी पीळी आँख करणी' का सही अर्थ है—",
+      "options": [
+        "नेत्रों का गंभीर संक्रामक रोग होना",
+        "अत्यधिक क्रोधित होकर आँखें तरेरना व गुस्सा प्रकट करना",
+        "गहरी नींद या आलस्य में होना",
+        "किसी के प्रति अगाध प्रेम प्रकट करना"
+      ],
+      "answer": "B",
+      "explanation": "'आँखें लाल-पीली करना' या 'काळी पीळी आँख करणी' का अर्थ अत्यधिक क्रोध में आकर डरावनी मुद्रा बनाना या डाँटना है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k575qjh50djma1vc9zhe25q8m58fmk6z"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'काळी पीळी आँख करणी' का सही अर्थ है—",
+      "meta": {}
+    },
+    {
+      "id": "rg_015644",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'लहू पसीनो एक करणौ' का सही भावार्थ है—",
+      "options": [
+        "भीषण गर्मी में प्यास से व्याकुल होना",
+        "किसी लक्ष्य की प्राप्ति हेतु जी-तोड़ एवं अत्यधिक कठोर परिश्रम करना",
+        "युद्धभूमि में घायल हो जाना",
+        "शारीरिक दुर्बलता का शिकार होना"
+      ],
+      "answer": "B",
+      "explanation": "खून-पसीना एक करना अर्थात् अपने सामर्थ्य की अंतिम सीमा तक जाकर बिना रुके दिन-रात कठिन मेहनत करना।",
+      "exam": "RPSC RAS Pre",
+      "year": 2013,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5767x3mmawy9thcnj8nhsdh798fndgj"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'लहू पसीनो एक करणौ' का सही भावार्थ है—",
+      "meta": {}
+    },
+    {
+      "id": "rg_015628",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
+      "options": [
+        "कृषि में अधिक उपज प्राप्त करना",
+        "किसी अत्यंत छोटी या साधारण सी बात को बहुत अधिक तूल देकर बड़ा बना देना",
+        "विवाद को शांतिपूर्वक निपटाना",
+        "असंभव कार्य को संभव कर दिखाना"
+      ],
+      "answer": "B",
+      "explanation": "तिल जैसी सूक्ष्म बात को ताड़ के पेड़ जितना विशाल बना देना; अर्थात् छोटी सी घटना को बढ़ा-चढ़ाकर बड़ा विवाद खड़ा कर देना।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2019,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5769rc732nagaa5j1pjatrsb98fnndc"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'तिल को ताड़ बणाणौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015623",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
+      "options": [
+        "अन्न की पिसाई करना",
+        "किसी के बिल्कुल सामने रहकर उसे निरंतर अत्यधिक कष्ट व संताप देना",
+        "अतिथियों का मान-सम्मान करना",
+        "शारीरिक व्यायाम करना"
+      ],
+      "answer": "B",
+      "explanation": "सामने उपस्थित रहकर जान-बूझकर ऐसे कार्य करना जिससे विरोधी या परिजन को निरंतर मानसिक क्लेश और संताप हो।",
+      "exam": "RPSC Sub Inspector",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k576fzfhdvnf6ehm4vg07rpkkd8fn67v"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'छाती माथै मूंग दळणा' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015624",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'जीभ माथै सरस्वती बैठणी' का सही भावार्थ क्या है?",
+      "options": [
+        "अत्यधिक मौन साधना करना",
+        "मुख से निकली हुई भविष्यवाणी या बात का अक्षरशः सत्य सिद्ध हो जाना",
+        "मीठे शब्दों से दूसरों को भ्रमित करना",
+        "गीत-संगीत में निपुणता हासिल करना"
+      ],
+      "answer": "B",
+      "explanation": "जब किसी व्यक्ति द्वारा अनायास कही गई शुभ या अशुभ बात सत्य घटित हो जाती है, तो माना जाता है कि उस समय उसकी जीभ पर सरस्वती का वास था।",
+      "exam": "REET Level 2",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k576r71xqam7e1ctzetfjh0tm98fm5mb"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'जीभ माथै सरस्वती बैठणी' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015651",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'उलटी गंगा बहावणी' का सही अर्थ क्या है?",
+      "options": [
+        "प्राकृतिक नदियों के प्रवाह को मोड़ना",
+        "स्थापित परंपरा, नीति, नियम या रीति के सर्वथा विपरीत आचरण करना",
+        "तीर्थ स्थलों पर जाकर धार्मिक अनुष्ठान करना",
+        "कठिन मार्ग का चयन करना"
+      ],
+      "answer": "B",
+      "explanation": "गंगा का प्रवाह स्वाभाविक दिशा में होता है; यदि कोई उल्टी गंगा बहाता है तो इसका अर्थ है लोक-परंपरा और नियम के प्रतिकूल चलना।",
+      "exam": "RSMSSB Patwar",
+      "year": 2015,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k576yxpjz8bbvspedamrxpxm458fneng"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'उलटी गंगा बहावणी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015616",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "कहावत 'कुत्तां नै खीर पचै कोनी' का सही अर्थ क्या है?",
+      "options": [
+        "पशुओं को सादा भोजन ही देना चाहिए",
+        "ओछे, नीच या अयोग्य व्यक्ति को उच्च पद, सम्मान या सुख पचता नहीं है",
+        "स्वादिष्ट भोजन सभी को अत्यंत प्रिय होता है",
+        "स्वास्थ्य बिगड़ने पर परहेज रखना आवश्यक है"
+      ],
+      "answer": "B",
+      "explanation": "कुत्ते को घी-खीर खिलाने से उसका हाजमा खराब हो जाता है। इसी प्रकार अधम या अयोग्य व्यक्ति को मिला उच्च सम्मान उससे संभाला नहीं जाता।",
+      "exam": "RPSC Sub Inspector",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k5777ef19b6b3ej69qvxmd9zwd8fmyks"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "कहावत 'कुत्तां नै खीर पचै कोनी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015633",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'नौ दिन चलै अढ़ाई कोस' का सही अर्थ क्या है?",
+      "options": [
+        "अत्यधिक तीव्र गति से यात्रा पूरी करना",
+        "अत्यंत धीमी गति और सुस्ती से कार्य करना",
+        "कठिन मार्ग पर निरंतर चलते रहना",
+        "नियमित रूप से व्यायाम करना"
+      ],
+      "answer": "B",
+      "explanation": "नौ दिन में मात्र ढाई कोस की दूरी तय करना; अर्थात् बहुत अधिक समय लेने के बाद भी अत्यंत अल्प या नगण्य कार्य होना।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k577cbzd1ey087e3f19jp83nc58fmpp7"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'नौ दिन चलै अढ़ाई कोस' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015637",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी कहावत 'बंदर की पूंछ बारै बरस नळी में राखी तौ ई टेढ़ी की टेढ़ी' का क्या अर्थ है?",
+      "options": [
+        "पशुओं का स्वभाव सुधारना",
+        "दुष्ट या कुटिल व्यक्ति को कितने भी सुधार के उपाय किए जाएँ, उसका मूल स्वभाव कभी नहीं बदलता",
+        "कठिन प्रयासों से असाध्य कार्य भी संभव हो जाता है",
+        "समय बीतने पर दुर्गुण स्वतः समाप्त हो जाते हैं"
+      ],
+      "answer": "B",
+      "explanation": "कुत्ते या बंदर की पूंछ नली में रखने पर भी सीधी नहीं होती। दुर्जन व्यक्ति अपनी कुटिलता और जन्मजात दुर्गुणों का कभी त्याग नहीं करता।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k577hbvw0z85g84gwsfjt5j2kx8fm73g"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी कहावत 'बंदर की पूंछ बारै बरस नळी में राखी तौ ई टेढ़ी की टेढ़ी' का क्या अर्थ है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015619",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
+      "options": [
+        "स्वयं के बाहुबल पर निर्भर रहना",
+        "किसी बड़े, प्रभावशाली अथवा समर्थ संरक्षक का बल या सहारा होना",
+        "पशुओं को बाँधने की अटूट रस्सी",
+        "अत्यधिक कमजोर सहारा होना"
+      ],
+      "answer": "B",
+      "explanation": "बछड़ा खूँटे के बल पर ही कूदता है। जब किसी व्यक्ति को किसी शक्तिशाली सत्ता, नेता या संरक्षक का वरदहस्त प्राप्त होता है, तो उसे 'खूंटा रो बळ' कहते हैं।",
+      "exam": "RPSC RAS Pre",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k577qqz5p2xhrf392gckqv0vcx8fmwng"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'खूंटा रो बळ' का सटीक अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015621",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
+      "options": [
+        "घड़े को शीतल जल से भरना",
+        "अत्यंत लज्जित या शर्मिंदा हो जाना",
+        "प्यास से व्याकुल होना",
+        "धार्मिक उत्सव पर कलश स्थापित करना"
+      ],
+      "answer": "B",
+      "explanation": "'घड़ों पानी पड़ना' का अर्थ है किसी अनुचित कृत्य या भेद खुल जाने पर ग्लानि और लज्जा से पानी-पानी हो जाना।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57825a8fc93kzh130a56yq3cn8fmddz"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'घड़ै पांणी पड़णौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015625",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी कहावत 'टाट में पैबंद' का सही अर्थ क्या है?",
+      "options": [
+        "वस्त्रों का सुंदर निर्माण करना",
+        "बेमेल अथवा अनमेल वस्तुओं का एक साथ जोड़ा जाना",
+        "अत्यधिक धन का प्रदर्शन करना",
+        "पुरानी वस्तुओं को संभालकर रखना"
+      ],
+      "answer": "B",
+      "explanation": "टाट (मोटे बोरे) पर रेशम या मखमल का पैबंद लगाना सर्वथा बेमेल और हास्यास्पद होता है। यह लोकोक्ति बेमेल संयोग को दर्शाती है।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k579mntyetk8t7v92y2v2g9d6d8fn7sp"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी कहावत 'टाट में पैबंद' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015639",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'बाड़ ही खेत नै खावै' का सही भावार्थ क्या है?",
+      "options": [
+        "खेत की बाड़ मजबूत बनाना",
+        "जब रक्षक या संरक्षक ही स्वयं भक्षक और शोषक बन जाए",
+        "कृषि में अत्यधिक लाभ अर्जित करना",
+        "प्राकृतिक आपदा से फसल नष्ट होना"
+      ],
+      "answer": "B",
+      "explanation": "जिस बाड़ का निर्माण फसल की सुरक्षा के लिए किया गया हो, यदि वही खेत को नष्ट करने लगे अर्थात् रक्षक ही विनाशक बन जाए।",
+      "exam": "RPSC Sub Inspector",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57a2xmb2abmk5t0cy133769g58fn704"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'बाड़ ही खेत नै खावै' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015614",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'कळपतो काळजो' से क्या तात्पर्य है?",
+      "options": [
+        "मन में अत्यधिक उमंग और उत्साह का होना",
+        "गहरे दुख, वियोग या घोर अन्याय से पीड़ित व तड़पता हुआ हृदय",
+        "स्वास्थ्य का पूर्ण रूप से ठीक होना",
+        "मन में अचानक बदले की भीषण भावना जागना"
+      ],
+      "answer": "B",
+      "explanation": "'कळपना' का अर्थ विलाप करना या तड़पना है। किसी आघात या शोक से पीड़ित दुखी अंतःकरण को 'कळपतो काळजो' कहा जाता है।",
+      "exam": "RPSC College Lecturer",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57a4yfydrrxjyy8j5tr7p28f58fm9t0"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'कळपतो काळजो' से क्या तात्पर्य है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015620",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'घर का भेदी लंका ढावै' का सही भावार्थ क्या है?",
+      "options": [
+        "घर का निर्माण मजबूती से कराना",
+        "आपसी फूट और घर के भेदिए द्वारा शत्रु से मिल जाने पर सर्वनाश निश्चित होना",
+        "पड़ोसियों से मधुर संबंध बनाए रखना",
+        "परिवार के सभी सदस्यों का आज्ञाकारी होना"
+      ],
+      "answer": "B",
+      "explanation": "रामायण के संदर्भ से विभीषण के रहस्योद्घाटन पर आधारित यह लोकोक्ति बताती है कि आंतरिक रहस्य जानने वाला गद्दार विनाश का कारण बनता है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57avjtnbqmf5tzqbxyy8y55px8fnawd"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'घर का भेदी लंका ढावै' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015611",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'उड़ती चिड़कली पिछाणणी' का सही अर्थ क्या है?",
+      "options": [
+        "पक्षियों के स्वभाव का विस्तृत अध्ययन करना",
+        "अत्यंत चतुर व अनुभवी होना जो मनुष्य के हाव-भाव से ही उसका मन भाँप ले",
+        "आकाश में उड़ते हुए पक्षियों का सटीक शिकार करना",
+        "व्यर्थ की बातों में अपनी ऊर्जा नष्ट करना"
+      ],
+      "answer": "B",
+      "explanation": "'उड़ती चिड़िया पहचानना' का अर्थ है किसी व्यक्ति के चेहरे, चेष्टा या बात से ही उसके मन के गुप्त भाव या नीयत को तुरंत समझ लेना।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2019,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57b6wekxsgh9tk3tp5n67yqa98fnmtm"
+      ],
+      "convexTestSetIds": [
+        "kd7cwp4ncs55565xsjns1t3m6s8fnqg4"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'उड़ती चिड़कली पिछाणणी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015626",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'डांग रै बळै' का वास्तविक अर्थ क्या है?",
+      "options": [
+        "बुद्धि और युक्ति के सहारे",
+        "लाठी अथवा शारीरिक शक्ति व जोर-जबरदस्ती के दम पर",
+        "कानून और न्याय की सहायता से",
+        "पारस्परिक प्रेम और विश्वास से"
+      ],
+      "answer": "B",
+      "explanation": "'डांग' राजस्थानी में लाठी या डंडे को कहते हैं। 'डांग के बल' का अर्थ बाहुबल या लट्ठ के जोर पर अपना कार्य सिद्ध कराना है।",
+      "exam": "RSMSSB Forest Guard",
+      "year": 2020,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57c09yssgtwm3txy6bfvtxydh8fngbn"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'डांग रै बळै' का वास्तविक अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015622",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'चमड़ी जाय पण दमड़ी न जाय' का सही आशय क्या है?",
+      "options": [
+        "शारीरिक कष्टों से घबरा जाना",
+        "अत्यधिक कंजूस होना जो भारी शारीरिक यातना सह ले परंतु धन न खर्चे",
+        "धन की तुलना में मान-सम्मान को अधिक महत्व देना",
+        "अपनी संपत्ति का सहर्ष दान कर देना"
+      ],
+      "answer": "B",
+      "explanation": "यह लोकोक्ति चरम कंजूसी को रेखांकित करती है, जहाँ व्यक्ति प्राण या शरीर का संकट तो झेल सकता है किंतु धन का त्याग नहीं कर सकता।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57c2gw4y31n8fkxqp9g1mz8418fn9mc"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'चमड़ी जाय पण दमड़ी न जाय' का सही आशय क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015617",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'कोड्यां रै भाव बिकणौ' का सही तात्पर्य है—",
+      "options": [
+        "अत्यधिक ऊँचे दामों पर बिकना",
+        "पूर्णतः मूल्यहीन होकर बहुत ही सस्ते या रद्दी दामों पर बिकना",
+        "विदेशी मुद्रा में लेन-देन होना",
+        "मूल्यवान वस्तु का अचानक खो जाना"
+      ],
+      "answer": "B",
+      "explanation": "कौड़ी सबसे छोटी और नगण्य मुद्रा मानी जाती थी। कौड़ियों के भाव बिकना अर्थात् वस्तु की प्रतिष्ठा या मूल्य का एकदम समाप्त हो जाना।",
+      "exam": "RSMSSB VDO",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57c41kqhz4w8m0y2rk09eze5h8fm3w4"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'कोड्यां रै भाव बिकणौ' का सही तात्पर्य है—",
+      "meta": {}
+    },
+    {
+      "id": "rg_015649",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी लोकोक्ति 'अेक म्यान में दो तलवार कोनी समावै' का क्या अर्थ है?",
+      "options": [
+        "शस्त्रों का सुरक्षित भंडारण करना",
+        "एक ही पद, स्थान या अधिकार क्षेत्र में दो समान प्रबल या महत्वाकांक्षी व्यक्ति साथ नहीं रह सकते",
+        "युद्ध में दोनों हाथों से प्रहार करना",
+        "शक्तिशाली शासकों के मध्य संधि होना"
+      ],
+      "answer": "B",
+      "explanation": "एक म्यान में दो तलवारें नहीं रह सकतीं। एक ही अधिकार क्षेत्र पर दो शक्तिशाली प्रभुत्वशाली व्यक्तियों का एक साथ टिकना असंभव है।",
+      "exam": "RPSC 1st Grade",
+      "year": 2020,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57ccm8bm56859n7mmxc5hngx18fm3mh"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी लोकोक्ति 'अेक म्यान में दो तलवार कोनी समावै' का क्या अर्थ है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015641",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "कहावत 'रंग में भंग पड़णौ' का सही अर्थ क्या है?",
+      "options": [
+        "होली के उत्सव का उल्लासपूर्वक आयोजन होना",
+        "हर्ष, उल्लास या आनंद के अवसर पर अकस्मात कोई अप्रिय विघ्न आ पड़ना",
+        "विवाद में किसी तीसरे पक्ष का हस्तक्षेप होना",
+        "उत्सव की भव्यता में वृद्धि होना"
+      ],
+      "answer": "B",
+      "explanation": "खुशी और उल्लास के वातावरण में किसी अनपेक्षित बुरी घटना या विघ्न के आ जाने से सारा आनंद किरकिरा हो जाना।",
+      "exam": "RSMSSB Patwar",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57cq0sq1ngbaad7rhhst4vp1h8fm09g"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "कहावत 'रंग में भंग पड़णौ' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015638",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'बगळा भगत' से क्या आशय है?",
+      "options": [
+        "नदी किनारे साधना करने वाला सच्चा तपस्वी",
+        "ऊपर से सज्जन व धार्मिक दिखने वाला किंतु भीतर से अत्यंत कुटिल व पाखंडी व्यक्ति",
+        "सदा परोपकार में लीन रहने वाला व्यक्ति",
+        "पशु-पक्षियों से प्रेम करने वाला व्यक्ति"
+      ],
+      "answer": "B",
+      "explanation": "बगुला एक पैर पर आँख मूँदकर ध्यानमग्न दिखता है परंतु उसका ध्यान मछली शिकार पर होता है। ढोंगी व कपटी मनुष्य को 'बगला भगत' कहते हैं।",
+      "exam": "RPSC 2nd Grade",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57cqb6fx6r94qwnktkghhvb7d8fmm6z"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'बगळा भगत' से क्या आशय है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015650",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
+      "options": [
+        "संसार में केवल अपने स्वार्थ को प्राथमिकता देना",
+        "जो व्यक्ति स्वयं भला, निष्कपट और सदाचारी होता है, उसे सारा संसार ही अच्छा प्रतीत होता है",
+        "दूसरों की भलाई के लिए स्वयं कष्ट सहना",
+        "संसार के सभी लोग एक समान स्वभाव के होते हैं"
+      ],
+      "answer": "B",
+      "explanation": "मनुष्य की अपनी दृष्टि और आचरण जैसा होता है, उसे बाह्य जगत भी वैसा ही दिखाई देता है। स्वयं नेक होने पर सभी भले लगते हैं।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57cy8r1ce8tfqkc05mj84mp6x8fmxh3"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'आप भला तो जग भला' का सही भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015645",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'सांप निकल गयो, लीक पीटण सूं कांई फायदो' का क्या आशय है?",
+      "options": [
+        "विषैले जीवों से सदा सतर्क रहना",
+        "अवसर हाथ से निकल जाने के बाद व्यर्थ का विलाप या प्रयास करने से कोई लाभ नहीं होता",
+        "संकट टल जाने पर उत्सव मनाना",
+        "मार्ग की बाधाओं को समय रहते दूर करना"
+      ],
+      "answer": "B",
+      "explanation": "साँप के भाग जाने के बाद उसकी लकीर पर लाठी पीटना व्यर्थ है। समय बीत जाने पर की गई चिंता या पश्चाताप निष्फल होता है।",
+      "exam": "RSMSSB VDO",
+      "year": 2022,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57d0c0jvcvw4veegewkxv1pd58fmns9"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'सांप निकल गयो, लीक पीटण सूं कांई फायदो' का क्या आशय है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015640",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
+      "options": [
+        "शारीरिक शृंगार करना",
+        "गर्व, ऐंठ अथवा अहंकार का प्रदर्शन करना",
+        "भयभीत होकर पराजय स्वीकार करना",
+        "दूसरों के सामने याचना करना"
+      ],
+      "answer": "B",
+      "explanation": "'मूंछ मरोड़ना' पौरुष, गर्व या घमंड का प्रदर्शन करने का प्रतीक मुहावरा है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57d6vnm632drk7zyr45q1zc8h8fmm9g"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी मुहावरे 'मूंछ मरोड़णी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015635",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "लोकोक्ति 'पीर बावरिया आपै ही मूंतै, आपै ही पाँव धोवै' का भावार्थ क्या है?",
+      "options": [
+        "धार्मिक अनुष्ठान पूर्ण विधि से करना",
+        "स्वयं ही नियम या व्यवस्था बिगाड़ना और फिर स्वयं ही उसका बनावटी सुधार करना",
+        "सदा स्वच्छता का विशेष ध्यान रखना",
+        "दूसरों के दोषों का सुधार करना"
+      ],
+      "answer": "B",
+      "explanation": "यह लोकोक्ति उन ढोंगी व्यक्तियों पर व्यंग्य करती है जो पहले स्वयं अव्यवस्था और गंदगी फैलाते हैं और फिर स्वयं ही सुधारक बनने का नाटक करते हैं।",
+      "exam": "RPSC College Lecturer",
+      "year": 2021,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57dj678y0kv28kxgsmdhjetwd8fnfd0"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "लोकोक्ति 'पीर बावरिया आपै ही मूंतै, आपै ही पाँव धोवै' का भावार्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015632",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
+      "options": [
+        "शरीर के अंग में गंभीर चोट लगना",
+        "समाज या कुल में भारी बदनामी, अपयश और प्रतिष्ठा की हानि होना",
+        "दूसरों का मान-सम्मान बढ़ाना",
+        "अचानक कोई गंभीर रोग होना"
+      ],
+      "answer": "B",
+      "explanation": "नाक मान-प्रतिष्ठा की प्रतीक होती है। नाक कटना अर्थात् किसी निंदनीय कृत्य के कारण समाज में कुल की मर्यादा और मान का नष्ट हो जाना।",
+      "exam": "RPSC 1st Grade",
+      "year": 2020,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57dns0ccxk9y4s5bxp50v9hh98fnrk0"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'नाक कटणी' का सही अर्थ क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015629",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी कहावत 'तेल देखौ, तेल की धार देखौ' का सही तात्पर्य है—",
+      "options": [
+        "तिलहनों की गुणवत्ता की परख करना",
+        "धैर्यपूर्वक परिस्थितियों के रुख और आगामी परिणाम को देखना-समझना",
+        "बिना सोचे-समझे शीघ्रता से निर्णय लेना",
+        "व्यापार में तत्काल बड़ा पूँजी निवेश करना"
+      ],
+      "answer": "B",
+      "explanation": "कोई भी जल्दबाजी किए बिना पहले कार्य के प्रवाह, परिस्थिति के मिजाज और रुख को गहराई से परखना इसका मुख्य संदेश है।",
+      "exam": "RPSC RAS Pre",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57e69bst47hbsjckx950tdvj58fnks5"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी कहावत 'तेल देखौ, तेल की धार देखौ' का सही तात्पर्य है—",
+      "meta": {}
+    },
+    {
+      "id": "rg_015642",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "मुहावरे 'राई का पहाड़ बणाणौ' का सटीक तात्पर्य क्या है?",
+      "options": [
+        "कठोर परिश्रम से बंजर भूमि को उपजाऊ बनाना",
+        "अत्यंत छोटी सी बात को बहुत अधिक बढ़ा-चढ़ाकर प्रस्तुत करना",
+        "पहाड़ों पर औषधीय पौधे लगाना",
+        "विवाद को विवेकपूर्वक शांत करना"
+      ],
+      "answer": "B",
+      "explanation": "राई दाने जितनी नगण्य बात को पहाड़ जैसी विशाल विपदा बना देना; अर्थात् अतिशयोक्तिपूर्ण ढंग से मामले को तूल देना।",
+      "exam": "RSMSSB CET",
+      "year": 2023,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57fhew77k4k56s954ct873m398fnxqq"
+      ],
+      "convexTestSetIds": [
+        "kd740kwfs2k6hs089b6ye76r358fm7j5"
+      ],
+      "type": "mcq",
+      "questionText": "मुहावरे 'राई का पहाड़ बणाणौ' का सटीक तात्पर्य क्या है?",
+      "meta": {}
+    },
+    {
+      "id": "rg_015627",
+      "source": "Convex Live Set",
+      "sourceTopic": "General Knowledge",
+      "masterTopicId": 1,
+      "masterTopic": "General Knowledge",
+      "question": "राजस्थानी लोकोक्ति 'ढाक रा तीन पात' का सही आशय क्या है?",
+      "options": [
+        "वृक्षों का संरक्षण करना",
+        "सदा एक सी दयनीय स्थिति बने रहना, कोई सकारात्मक परिवर्तन न होना",
+        "अत्यधिक उन्नति और विकास होना",
+        "समय के साथ सब कुछ बदल जाना"
+      ],
+      "answer": "B",
+      "explanation": "ढाक (पलाश) के पत्ते सदा तीन ही होते हैं। कितने भी प्रयास कर लिए जाएँ, यदि परिणाम सदा अपरिवर्तित और निष्फल रहे तो यह कहा जाता है।",
+      "exam": "RSMSSB LDC",
+      "year": 2018,
+      "subject": "gk",
+      "repeatCount": 1,
+      "variantIds": [],
+      "inConvex": true,
+      "convexIds": [
+        "k57fswa9ncrqvjmk4gaxnmw3x58fmvw5"
+      ],
+      "convexTestSetIds": [
+        "kd7baxbj7sxd1h7vevd58jcxed8fm4sp"
+      ],
+      "type": "mcq",
+      "questionText": "राजस्थानी लोकोक्ति 'ढाक रा तीन पात' का सही आशय क्या है?",
+      "meta": {}
     }
   ]
 }

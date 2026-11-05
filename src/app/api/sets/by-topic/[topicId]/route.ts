@@ -48,7 +48,7 @@ export async function GET(
       name: s.name,
       topicId: s.topicId,
       order: s.order ?? 0,
-      questionCount: s.questionCount ?? (s.questions ? s.questions.length : 20),
+      questionCount: s.questionCount ?? (s.questionIds ? s.questionIds.length : (s.questions ? s.questions.length : 20)),
       negativeMarking: s.negativeMarking !== false,
       isLocal: true,
     }));

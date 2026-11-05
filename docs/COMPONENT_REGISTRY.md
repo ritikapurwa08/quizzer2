@@ -172,6 +172,11 @@ Performance charts and revision metrics for students.
 | `GeminiPromptSection` | `src/components/admin/import/GeminiPromptSection.tsx` | Candidate count badge, preview toggle & copy button | Feature | `QuestionImportEditor` |
 | `QualityGateChecklist` | `src/components/admin/import/QualityGateChecklist.tsx` | 8-point validation checklist for question sets | Feature | `QuestionImportEditor` |
 | `ImportErrorAlert` | `src/components/admin/import/ImportErrorAlert.tsx` | Destructive error banner with detailed message list | Feature | `QuestionImportEditor` |
+| `DedupStatsCards` | `src/components/admin/dedup/DedupStatsCards.tsx` | 4 KPI metric cards for question pool dedup and review | Feature | `/admin/dedup` |
+| `DedupToolbar` | `src/components/admin/dedup/DedupToolbar.tsx` | Mode tabs, filters, search, display style, and page size | Feature | `/admin/dedup` |
+| `GroupCard` | `src/components/admin/dedup/GroupCard.tsx` | Canonical question card with duplicate variants inspection | Feature | `/admin/dedup` |
+| `PairReviewCard` | `src/components/admin/dedup/PairReviewCard.tsx` | Question A vs B side-by-side comparison with decision buttons | Feature | `/admin/dedup` |
+| `ImportAiReviewDialog` | `src/components/admin/dedup/ImportAiReviewDialog.tsx` | Dialog for importing external AI review batches JSON | Feature | `/admin/dedup` |
 
 ---
 
@@ -184,11 +189,11 @@ Performance charts and revision metrics for students.
 ---
 
 ## Summary Metrics
-- **Total Components Documented**: 78
+- **Total Components Documented**: 83
 - **Core UI Primitives**: 23
 - **Shared Components**: 14
 - **Quiz Engine Components**: 15
 - **PDF Print Engine Components**: 5
 - **Analytics & Dashboard Components**: 9
-- **Syllabus & Admin Components**: 11
+- **Syllabus & Admin Components**: 16
 - **Icons**: 1

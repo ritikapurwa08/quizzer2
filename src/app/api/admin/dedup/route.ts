@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { DATA_PATHS } from "@/lib/dataPaths";
+import { getAllQuestions } from "@/lib/questionPool";
 
 const DEDUP_DIR = path.join(process.cwd(), "data", "sets", "dedup");
 const REVIEWS_FILE = path.join(DEDUP_DIR, "user-reviews.json");
@@ -40,16 +41,13 @@ export async function GET(req: NextRequest) {
       });
     }
     if (exportType === "master") {
-      const masterFile = DATA_PATHS.masterPool;
-      if (fs.existsSync(masterFile)) {
-        const content = fs.readFileSync(masterFile, "utf-8");
-        return new Response(content, {
-          headers: {
-            "Content-Type": "application/json",
-            "Content-Disposition": 'attachment; filename="master-pool.json"',
-          },
-        });
-      }
+      const allQ = getAllQuestions();
+      return new Response(JSON.stringify(allQ, null, 2), {
+        headers: {
+          "Content-Type": "application/json",
+          "Content-Disposition": 'attachment; filename="master-pool.json"',
+        },
+      });
     }
     if (exportType === "reviews" && fs.existsSync(REVIEWS_FILE)) {
       const content = fs.readFileSync(REVIEWS_FILE, "utf-8");
