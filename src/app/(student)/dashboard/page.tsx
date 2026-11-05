@@ -293,16 +293,13 @@ export default function DashboardPage() {
           {recent === undefined ? (
             <div className="space-y-2">
               {Array.from({ length: 3 }).map((_, i) => (
-                <div key={i} className="flex items-center justify-between p-3.5 rounded-xl border border-border/60 bg-muted/15">
-                  <div className="flex items-center gap-3 min-w-0 flex-1">
-                    <Skeleton className="h-8 w-8 rounded-lg shrink-0" />
-                    <div className="space-y-1.5 min-w-0 flex-1">
-                      <Skeleton className="h-3.5 w-36 rounded" />
-                      <Skeleton className="h-2.5 w-20 rounded" />
-                    </div>
+                <div key={i} className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-border/60 bg-muted/15">
+                  <div className="space-y-1 min-w-0 flex-1">
+                    <Skeleton className="h-3.5 w-44 rounded" />
+                    <Skeleton className="h-2.5 w-24 rounded" />
                   </div>
                   <div className="flex items-center gap-2 shrink-0">
-                    <Skeleton className="h-5 w-12 rounded-md" />
+                    <Skeleton className="h-5 w-11 rounded-md" />
                     <Skeleton className="h-5 w-14 rounded-md" />
                     <Skeleton className="h-3.5 w-3.5 rounded" />
                   </div>

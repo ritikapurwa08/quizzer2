@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { cn, formatScore } from "@/lib/utils";
 
 interface ResultHistoryItemProps {
@@ -17,10 +17,15 @@ interface ResultHistoryItemProps {
 function parseTitleAndPart(name: string) {
   const match = name.match(/(?:भाग|Part|Set)\s*(\d+)/i);
   const partLabel = match ? (name.includes("भाग") ? `भाग ${match[1]}` : `Part ${match[1]}`) : "";
-  const cleanTitle = name
+  let cleanTitle = name
     .replace(/(?:भाग|Part|Set)\s*\d+/i, "")
     .replace(/[-–—:]\s*$/, "")
     .trim();
+
+  // Strip redundant leading "राजस्थान का / के / की " if long (>24 chars) so core topic name fits cleanly on 1 line
+  if (cleanTitle.length > 24) {
+    cleanTitle = cleanTitle.replace(/^राजस्थान (?:का|के|की)\s+/i, "");
+  }
 
   return { cleanTitle: cleanTitle || name, partLabel };
 }
@@ -51,46 +56,31 @@ export function ResultHistoryItem({
       href={`/quiz/${testSetId}/results`}
       className="block focus-visible:outline-hidden group"
     >
-      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3.5 sm:px-4 py-2.5 sm:py-3 rounded-xl border border-border/70 bg-card hover:bg-muted/30 hover:border-primary/40 transition-all select-none shadow-2xs">
-        {/* Left Side: Status Icon (Green Check / Red Cross) + Title & Meta */}
-        <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
-          {/* Circular Indicator Icon (Red Circle for Fail, Green Circle for Pass) */}
-          <div
-            className={cn(
-              "flex h-8 w-8 shrink-0 items-center justify-center rounded-lg transition-transform group-hover:scale-105",
-              isPassed
-                ? "bg-emerald-500/15 text-emerald-500 border border-emerald-500/25"
-                : "bg-destructive/15 text-destructive border border-destructive/25"
-            )}
-          >
-            {isPassed ? (
-              <CheckCircle2 className="h-4 w-4" />
-            ) : (
-              <XCircle className="h-4 w-4" />
+      <div className="flex items-center justify-between gap-2.5 sm:gap-3 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl border border-border/70 bg-card hover:bg-muted/30 hover:border-primary/40 transition-all select-none shadow-2xs">
+        {/* Left Side: Title & Meta Info (Maximum Horizontal Space — Left Icon Removed) */}
+        <div className="min-w-0 flex-1 space-y-0.5">
+          {/* Line 1: Title + Part Badge with Full Horizontal Room */}
+          <div className="flex items-center gap-1.5 min-w-0">
+            <h4
+              className="text-xs sm:text-sm font-bold text-foreground truncate group-hover:text-primary transition-colors font-hindi leading-snug"
+              title={cleanTitle}
+            >
+              {cleanTitle}
+            </h4>
+            {partLabel && (
+              <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-foreground border border-border/70 font-mono">
+                {partLabel}
+              </span>
             )}
           </div>
 
-          {/* Middle: Full Title (No Aggressive Truncation, Wraps Cleanly) + Part Badge */}
-          <div className="min-w-0 flex-1 space-y-0.5">
-            <div className="flex items-center gap-1.5 min-w-0 flex-wrap">
-              <h4 className="text-xs sm:text-sm font-bold text-foreground group-hover:text-primary transition-colors font-hindi leading-snug line-clamp-2">
-                {cleanTitle}
-              </h4>
-              {partLabel && (
-                <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-muted text-foreground border border-border/70 font-mono">
-                  {partLabel}
-                </span>
-              )}
-            </div>
-
-            {/* Line 2: Date on mobile; Date · Total Qs · Correct on Desktop */}
-            <div className="flex items-center gap-1.5 text-[10.5px] sm:text-[11px] text-muted-foreground leading-tight">
-              <span>{formattedDate}</span>
-              <span className="hidden sm:inline text-border">·</span>
-              <span className="hidden sm:inline tabular-nums">{totalQuestions} प्रश्न</span>
-              <span className="hidden sm:inline text-border">·</span>
-              <span className="hidden sm:inline tabular-nums font-medium text-foreground/85">{correctCount} सही</span>
-            </div>
+          {/* Line 2: Date on mobile; Date · Total Qs & Correct on Desktop */}
+          <div className="flex items-center gap-1.5 text-[10.5px] sm:text-[11px] text-muted-foreground leading-tight">
+            <span>{formattedDate}</span>
+            <span className="hidden sm:inline text-border">·</span>
+            <span className="hidden sm:inline tabular-nums">{totalQuestions} प्रश्न</span>
+            <span className="hidden sm:inline text-border">·</span>
+            <span className="hidden sm:inline tabular-nums font-medium text-foreground/85">{correctCount} सही</span>
           </div>
         </div>
 
