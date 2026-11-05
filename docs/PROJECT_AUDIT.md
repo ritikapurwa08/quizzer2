@@ -9,13 +9,14 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 
 | Phase | Description | Status | Verification Date |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | Local Utsaah Hindi font setup (`public/utsaah/`, `layout.tsx`, `globals.css`) | **COMPLETED & VERIFIED** | 2026-11-05 |
+| **Phase 1** | Unified Typography: Google Sans across UI & Devanagari, Utsaah removed per design requirement | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Foundation** | Component Registry (`docs/COMPONENT_REGISTRY.md`), System Architecture (`docs/ARCHITECTURE.md`), and Audit Setup | **COMPLETED** | 2026-11-05 |
 | **Phase 2 — Chunk 1** | Monolithic Quiz Screen (`src/app/(student)/quiz/[testSetId]/page.tsx` - reduced from 855 to 365 lines) decomposition | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - reduced from 649 to 440 lines) & PDF integration | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - reduced from 490 to 240 lines) component modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - reduced from 453 to 140 lines) navigation & state separation | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 5** | Question Import Editor (`src/components/admin/QuestionImportEditor.tsx` - reduced from 974 to 475 lines) modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
+| **Phase 2 — Data Unification** | Data cleanup & single source of truth: 13,974 GK questions in `topic_01.json`..`topic_55.json`, purge loose batch files, retire `ddd` & `master-pool` | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 6** | Admin Dedup Tool (`src/app/(admin)/admin/dedup/page.tsx` - 1,752 lines) decomposition | **PENDING** | - |
 
 ---
