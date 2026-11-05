@@ -70,10 +70,10 @@ export function ResultHistoryItem({
             )}
           </div>
 
-          {/* Middle: Clean Title & Part Badge (Line 1) + Date & Correct Count (Line 2) */}
+          {/* Middle: Full Title (No Aggressive Truncation, Wraps Cleanly) + Part Badge */}
           <div className="min-w-0 flex-1 space-y-0.5">
-            <div className="flex items-center gap-1.5 min-w-0">
-              <h4 className="text-xs sm:text-sm font-bold text-foreground truncate group-hover:text-primary transition-colors font-hindi leading-snug">
+            <div className="flex items-center gap-1.5 min-w-0 flex-wrap">
+              <h4 className="text-xs sm:text-sm font-bold text-foreground group-hover:text-primary transition-colors font-hindi leading-snug line-clamp-2">
                 {cleanTitle}
               </h4>
               {partLabel && (
@@ -83,12 +83,13 @@ export function ResultHistoryItem({
               )}
             </div>
 
+            {/* Line 2: Date on mobile; Date · Total Qs · Correct on Desktop */}
             <div className="flex items-center gap-1.5 text-[10.5px] sm:text-[11px] text-muted-foreground leading-tight">
               <span>{formattedDate}</span>
-              <span className="text-border">·</span>
-              <span className="tabular-nums">{totalQuestions} प्रश्न</span>
-              <span className="text-border">·</span>
-              <span className="tabular-nums font-medium text-foreground/85">{correctCount} सही</span>
+              <span className="hidden sm:inline text-border">·</span>
+              <span className="hidden sm:inline tabular-nums">{totalQuestions} प्रश्न</span>
+              <span className="hidden sm:inline text-border">·</span>
+              <span className="hidden sm:inline tabular-nums font-medium text-foreground/85">{correctCount} सही</span>
             </div>
           </div>
         </div>
