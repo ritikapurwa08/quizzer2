@@ -142,3 +142,4 @@ if (fs.existsSync(topicsDir)) {
 }
 
 console.log("Batch successfully applied to all stores!");
+

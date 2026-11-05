@@ -90,8 +90,9 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
   }
 
   // Mask out headers like सूची-1, सूची-2, तालिका-1, तालिका-2, सारणी-1, List-1, etc.
+  // Note: ensure parenthesized group does not swallow single-marker letters like (a) or (i)
   const masked = text.replace(
-    /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:[12]|I{1,2}|[AB])(?:\s*\([^)]*\))?/gi,
+    /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:[12]|I{1,2}|[AB])(?:\s*\((?![a-eA-E1-8\u0905-\u0926ivxlcIVXLC]\))[^\)]+\))?/gi,
     (m) => " ".repeat(m.length)
   );
 
@@ -102,7 +103,7 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
   // 4. Roman numeral markers: i., ii., iii., iv., I., II., III., IV.
   // 5. Bare digit marker: 1..5 followed by space and Devanagari text
   const markerRegex =
-    /(?:\(([1-8ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f])\)|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([1-8\u0967-\u096f])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])((?:[ivxlc]{1,4}|[IVXLC]{1,4}))[.)\-:]|(?<=\s|^|[)\]:\-–—\u0900-\u097f])([1-5])\s+(?=[\u0900-\u097f]))/gu;
+    /(?:\(([1-8ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f]+)\)|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([1-8\u0967-\u096f])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])((?:[ivxlc]{1,4}|[IVXLC]{1,4}))[.)\-:]|(?<=\s|^|[)\]:\-–—\u0900-\u097f])([1-5])\s+(?=[\u0900-\u097f]))/gu;
 
   const markers: Array<{ token: string; id: string; index: number; length: number }> = [];
   let m: RegExpExecArray | null;

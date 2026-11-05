@@ -16,11 +16,23 @@ export const STATEMENT_EVALUATION_REGEX =
 export function isStatementOptions(options?: Array<{ id: string; text: string } | string>): boolean {
   if (!options || options.length === 0) return false;
   const optTexts = options.map((o) => (typeof o === "string" ? o : o?.text || "").trim());
-  return optTexts.some((text) =>
+
+  // 1. Explicit statement evaluation words: सही, गलत, सत्य, केवल, और, etc. (without pairing markers)
+  const hasStatementKeyword = optTexts.some((text) =>
     /(?:सही|गलत|सत्य|असत्य|केवल|तथा|both|only|all\s+of|none\s+of|(?:^|\s)और(?:\s|$)|(?:^|\s)व(?:\s|$))/iu.test(
       text
     ) && !/[-–—:]\s*(?:[1-9]|I{1,3}|[ivxlc]+|[अ-द])/iu.test(text)
   );
+  if (hasStatementKeyword) return true;
+
+  // 2. Comma/space-separated subset of statement identifiers without pairing dashes:
+  // e.g. 'a, b, c', '(a), (b)', 'A, B, D', '1, 2, 3'
+  const isSubsetList = optTexts.every((text) => {
+    if (/[-–—:]\s*(?:[1-9]|I{1,3}|[ivxlc]+|[अ-द])/iu.test(text)) return false;
+    return /^[(\s]*[a-eA-E1-5\u0905-\u0914\u0967-\u096b][)\s]*(?:[,،\s]+[(\s]*[a-eA-E1-5\u0905-\u0914\u0967-\u096b][)\s]*)+$/iu.test(text);
+  });
+
+  return isSubsetList;
 }
 
 /**
