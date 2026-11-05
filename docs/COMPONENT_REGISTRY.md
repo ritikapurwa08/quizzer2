@@ -56,6 +56,11 @@ Application-wide structural and operational components.
 | Component | Path | Responsibility | Reusable? | Consumers | Modification Constraints |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `AppSidebar` | `src/components/shared/AppSidebar.tsx` | Main navigation sidebar (Desktop & Mobile drawer) | Feature | Root app shell, layouts | Do not remove canonical links (`/dashboard`, `/subjects`, `/syllabus`, `/admin`). |
+| `MobileBottomNavBar` | `src/components/shared/navigation/MobileBottomNavBar.tsx` | Fixed 5-tab bottom navigation dock for mobile devices | Feature | `AppSidebar` | Displays Dashboard, Subjects, Analytics, History, Saved + Admin. |
+| `MobileAdminBottomSheet` | `src/components/shared/navigation/MobileAdminBottomSheet.tsx` | Slide-up modal drawer for mobile admin management | Feature | `AppSidebar` | Protected by admin role check (`isUserAdmin`). |
+| `DesktopNavSection` | `src/components/shared/navigation/DesktopNavSection.tsx` | Sidebar link categories for Student and Admin | Feature | `AppSidebar` | Renders Learning & Practice and Admin Console groups. |
+| `SidebarUserProfile` | `src/components/shared/navigation/SidebarUserProfile.tsx` | User avatar, account label, theme switcher & sign out | Feature | `AppSidebar` | Reusable sidebar footer widget. |
+| `navItems` | `src/components/shared/navigation/navItems.ts` | Static navigation link configurations | Utility | Navigation components | `STUDENT_NAV_ITEMS`, `ADMIN_NAV_ITEMS`, `BOTTOM_NAV_ITEMS`. |
 | `AuthGuard` | `src/components/shared/AuthGuard.tsx` | Enforces authentication and role verification | Feature | Protected app routes | Must preserve public bypass for preview mode. |
 | `BreadcrumbNav` | `src/components/shared/BreadcrumbNav.tsx` | Renders dynamic breadcrumb path from URL segments | Yes | Subject, Topic, and Quiz pages | Keep schema-aligned topic names. |
 | `ConfirmDialog` | `src/components/shared/ConfirmDialog.tsx` | Destructive action confirmation modal | Yes | Admin, Quiz exit actions | Preserve callback execution. |

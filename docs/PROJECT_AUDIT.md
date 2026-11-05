@@ -14,7 +14,7 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 | **Phase 2 — Chunk 1** | Monolithic Quiz Screen (`src/app/(student)/quiz/[testSetId]/page.tsx` - reduced from 855 to 365 lines) decomposition | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - reduced from 649 to 440 lines) & PDF integration | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - reduced from 490 to 240 lines) component modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
-| **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - 453 lines) navigation & state separation | **PENDING** | - |
+| **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - reduced from 453 to 140 lines) navigation & state separation | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 5** | Admin Pool & Dedup monolithic tools (`admin/dedup/page.tsx`, `admin/pool/page.tsx`) | **PENDING** | - |
 
 ---
@@ -100,4 +100,23 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 - **Verification**:
   - `bun run build` compiled in 1.8s with 0 errors across 22 routes.
   - LocalStorage progress persistence and 55 RPSC Master Topics contract verified intact.
+- **Status**: **COMPLETED & VERIFIED**
+
+---
+
+### Phase 2: Chunk 4 — App Navigation & Sidebar Decomposition
+- **Target File**: `src/components/shared/AppSidebar.tsx` (453 lines)
+- **Problem Identified**:
+  - The main app navigation component bundled desktop sidebar rendering, mobile bottom bar dock, mobile admin bottom sheet drawer, theme switching, and user authentication in a single file.
+- **What Was Changed**:
+  - Extracted sub-components into `src/components/shared/navigation/`:
+    - `MobileBottomNavBar.tsx`: Responsive 5-item mobile bottom navigation dock with focus-mode auto-hiding during tests.
+    - `MobileAdminBottomSheet.tsx`: Protected slide-up bottom drawer for mobile admins.
+    - `DesktopNavSection.tsx`: Desktop navigation link lists (Learning & Practice + Admin Console).
+    - `SidebarUserProfile.tsx`: User initials avatar, account level badge, theme toggler, and sign-out button.
+    - `navItems.ts`: Static route configurations with exact matching rules.
+  - Reduced `AppSidebar.tsx` from 453 lines to 140 lines (69% reduction in line count).
+- **Verification**:
+  - `bun run build` compiled in 1.9s with 0 errors across 22 routes.
+  - Mobile bottom navigation, theme toggling, admin role checks, and desktop links verified intact.
 - **Status**: **COMPLETED & VERIFIED**
