@@ -52,8 +52,8 @@ export function FormattedExplanation({ text, className, compact = false }: Forma
   return (
     <div
       className={cn(
-        "space-y-2 text-foreground/90 leading-relaxed",
-        isHindi ? "font-hindi text-sm sm:text-[1.025rem] leading-relaxed" : "text-xs sm:text-sm",
+        "space-y-2 text-foreground/90 text-xs sm:text-sm leading-relaxed",
+        isHindi && "font-hindi",
         className
       )}
     >

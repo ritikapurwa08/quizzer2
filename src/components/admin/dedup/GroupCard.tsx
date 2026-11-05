@@ -161,3 +161,4 @@ export const GroupCard: React.FC<GroupCardProps> = ({ group }) => {
     </div>
   );
 };
+

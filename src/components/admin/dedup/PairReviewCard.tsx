@@ -271,3 +271,4 @@ export const PairReviewCard: React.FC<PairReviewCardProps> = ({
     </div>
   );
 };
+

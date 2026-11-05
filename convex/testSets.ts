@@ -198,7 +198,7 @@ export const nextRecommendedSets = query({
       return [];
     }
 
-    const limit = args.limit ?? 3;
+    const limit = args.limit ?? 6;
 
     // 1. Check for any in-progress attempt first (resume)
     const inProgressAttempts = await ctx.db
@@ -212,7 +212,7 @@ export const nextRecommendedSets = query({
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .order("desc")
-      .take(20);
+      .take(30);
 
     const completedSetIds = new Set(submittedAttempts.map((a) => a.testSetId as string));
     const recommendations: Array<{
@@ -247,7 +247,7 @@ export const nextRecommendedSets = query({
         subjectId: subject._id,
         subjectName: subject.nameHindi || subject.name,
         questionCount: testSet.questionCount,
-        badgeText: "Resume Test",
+        badgeText: "Resume Attempt",
         type: "resume",
       });
       addedSetIds.add(testSet._id as string);
@@ -287,7 +287,7 @@ export const nextRecommendedSets = query({
               subjectId: subject._id,
               subjectName: subject.nameHindi || subject.name,
               questionCount: nextSet.questionCount,
-              badgeText: "Next in Topic",
+              badgeText: "Next in Sequence",
               type: "next_in_topic",
             });
             addedSetIds.add(nextSet._id as string);
@@ -298,7 +298,7 @@ export const nextRecommendedSets = query({
 
     // If still need more to reach limit, recommend fresh unattempted sets
     if (recommendations.length < limit) {
-      const allSets = await ctx.db.query("testSets").take(30);
+      const allSets = await ctx.db.query("testSets").take(100);
       for (const set of allSets) {
         if (recommendations.length >= limit) break;
         if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
