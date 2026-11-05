@@ -229,7 +229,7 @@ export const nextRecommendedSets = query({
 
     const addedSetIds = new Set<string>();
 
-    // Add up to 2 most recent in-progress attempts first (so other slots can show next parts & fresh sets)
+    // Add up to 2 most recent in-progress attempts first (so user can easily resume them)
     const maxResume = Math.min(2, limit);
     for (const inProgress of inProgressAttempts) {
       if (recommendations.length >= maxResume) break;
@@ -254,15 +254,19 @@ export const nextRecommendedSets = query({
       addedSetIds.add(testSet._id as string);
     }
 
-    // Now look at recently submitted attempts to find next set in the same topic
+    // Track topics already represented to ensure diverse recommendations across different topics
     const seenTopicIds = new Set<string>();
+    for (const rec of recommendations) {
+      seenTopicIds.add(rec.topicId as string);
+    }
+
+    // Now look at recently submitted attempts to find the next sequential set in that topic
     for (const sub of submittedAttempts) {
       if (recommendations.length >= limit) break;
       const testSet = await ctx.db.get(sub.testSetId);
       if (!testSet) continue;
       const topicId = testSet.topicId as string;
       if (seenTopicIds.has(topicId)) continue;
-      seenTopicIds.add(topicId);
 
       // Find sibling sets in this topic ordered by order
       const siblingSets = await ctx.db
@@ -292,16 +296,23 @@ export const nextRecommendedSets = query({
               type: "next_in_topic",
             });
             addedSetIds.add(nextSet._id as string);
+            seenTopicIds.add(topic._id as string);
           }
         }
       }
     }
 
     // If still need more to reach limit, recommend fresh unattempted sets
+    // Pass 1: Prioritize sets from topics NOT YET shown (enforces topic diversity, avoids duplicate parts)
     if (recommendations.length < limit) {
-      const allSets = await ctx.db.query("testSets").take(100);
+      const allSets = await ctx.db.query("testSets").take(150);
+
+      // Diverse topic pass
       for (const set of allSets) {
         if (recommendations.length >= limit) break;
+        const topicId = set.topicId as string;
+        if (seenTopicIds.has(topicId)) continue;
+
         if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
           const topic = await ctx.db.get(set.topicId);
           if (topic) {
@@ -319,6 +330,34 @@ export const nextRecommendedSets = query({
                 type: "new_topic",
               });
               addedSetIds.add(set._id as string);
+              seenTopicIds.add(topic._id as string);
+            }
+          }
+        }
+      }
+
+      // Pass 2: Fallback if under limit (rare case where all available topics already have a card)
+      if (recommendations.length < limit) {
+        for (const set of allSets) {
+          if (recommendations.length >= limit) break;
+          if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
+            const topic = await ctx.db.get(set.topicId);
+            if (topic) {
+              const subject = await ctx.db.get(topic.subjectId);
+              if (subject) {
+                recommendations.push({
+                  testSetId: set._id,
+                  testSetName: set.name,
+                  topicId: topic._id,
+                  topicName: topic.nameHindi || topic.name,
+                  subjectId: subject._id,
+                  subjectName: subject.nameHindi || subject.name,
+                  questionCount: set.questionCount,
+                  badgeText: "Recommended Practice",
+                  type: "new_topic",
+                });
+                addedSetIds.add(set._id as string);
+              }
             }
           }
         }

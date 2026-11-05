@@ -109,19 +109,12 @@ export function ResultHistoryItem({
           </Badge>
 
           {score !== undefined && (
-            <span className="hidden sm:inline-flex text-[10.5px] font-semibold text-muted-foreground bg-muted/60 px-2 py-0.5 rounded-md border border-border/50 tabular-nums">
+            <span className="text-[10.5px] font-semibold text-muted-foreground bg-muted/60 px-2 py-0.5 rounded-md border border-border/50 tabular-nums">
               {formatScore(score)} / {maxScore}
             </span>
           )}
 
-          <Button
-            size="sm"
-            variant="ghost"
-            className="h-7 px-2 text-[11px] font-semibold rounded-lg text-muted-foreground group-hover:text-foreground group-hover:bg-muted gap-1 hidden xs:inline-flex cursor-pointer"
-          >
-            <span>Review</span>
-            <ArrowRight className="h-3 w-3" />
-          </Button>
+          <ArrowRight className="h-4 w-4 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-150 shrink-0" />
         </div>
       </div>
     </Link>

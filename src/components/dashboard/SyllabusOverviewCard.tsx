@@ -56,7 +56,7 @@ export function SyllabusOverviewCard() {
           </p>
         </div>
 
-        <Button asChild size="sm" className="rounded-xl shrink-0 h-9 px-3.5 text-xs font-semibold shadow-xs cursor-pointer">
+        <Button asChild variant="outline" size="sm" className="rounded-xl shrink-0 h-9 px-3.5 text-xs font-semibold shadow-2xs cursor-pointer border-border/80 bg-background hover:bg-muted text-foreground">
           <Link href="/syllabus" className="inline-flex items-center gap-1.5">
             Open Syllabus Tracker <ArrowRight className="h-3.5 w-3.5" />
           </Link>

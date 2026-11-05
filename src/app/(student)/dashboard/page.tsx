@@ -27,41 +27,51 @@ import { getSubjectSectionIcon } from "@/components/icons/QuizzerIcons";
 function getSubjectTheme(name: string) {
   if (name.includes("भूगोल") || name.includes("सामान्य ज्ञान")) {
     return {
-      accent: "text-emerald-500",
+      accent: "text-emerald-400",
       bg: "bg-emerald-500/10",
-      hoverBg: "group-hover:bg-emerald-500 group-hover:text-white",
+      border: "border-emerald-500/20 hover:border-emerald-500/40",
+      gradient: "from-emerald-500/[0.04] to-card/50",
       badge: "15 Topics",
+      badgeStyle: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20",
     };
   }
   if (name.includes("इतिहास")) {
     return {
-      accent: "text-amber-500",
+      accent: "text-amber-400",
       bg: "bg-amber-500/10",
-      hoverBg: "group-hover:bg-amber-500 group-hover:text-white",
+      border: "border-amber-500/20 hover:border-amber-500/40",
+      gradient: "from-amber-500/[0.04] to-card/50",
       badge: "10 Topics",
+      badgeStyle: "bg-amber-500/10 text-amber-400 border-amber-500/20",
     };
   }
   if (name.includes("कला") || name.includes("संस्कृति")) {
     return {
       accent: "text-purple-400",
       bg: "bg-purple-500/10",
-      hoverBg: "group-hover:bg-purple-500 group-hover:text-white",
+      border: "border-purple-500/20 hover:border-purple-500/40",
+      gradient: "from-purple-500/[0.04] to-card/50",
       badge: "15 Topics",
+      badgeStyle: "bg-purple-500/10 text-purple-400 border-purple-500/20",
     };
   }
   if (name.includes("राजव्यवस्था") || name.includes("प्रशासन")) {
     return {
       accent: "text-blue-400",
       bg: "bg-blue-500/10",
-      hoverBg: "group-hover:bg-blue-500 group-hover:text-white",
+      border: "border-blue-500/20 hover:border-blue-500/40",
+      gradient: "from-blue-500/[0.04] to-card/50",
       badge: "15 Topics",
+      badgeStyle: "bg-blue-500/10 text-blue-400 border-blue-500/20",
     };
   }
   return {
     accent: "text-cyan-400",
     bg: "bg-cyan-500/10",
-    hoverBg: "group-hover:bg-cyan-500 group-hover:text-white",
+    border: "border-cyan-500/20 hover:border-cyan-500/40",
+    gradient: "from-cyan-500/[0.04] to-card/50",
     badge: "Paper-II",
+    badgeStyle: "bg-cyan-500/10 text-cyan-400 border-cyan-500/20",
   };
 }
 
@@ -88,7 +98,7 @@ export default function DashboardPage() {
             Continue your RPSC 2nd Grade GK exam revision and practice tests.
           </p>
         </div>
-        <Button asChild className="rounded-xl shrink-0 shadow-xs h-9 px-4 text-xs sm:text-sm font-semibold">
+        <Button asChild variant="outline" className="rounded-xl shrink-0 shadow-2xs h-9 px-4 text-xs sm:text-sm font-semibold border-border/80 bg-card hover:bg-muted text-foreground">
           <Link href="/subjects" className="inline-flex items-center gap-1.5">
             Browse All Subjects <ArrowRight className="h-3.5 w-3.5" />
           </Link>
@@ -120,10 +130,13 @@ export default function DashboardPage() {
             {Array.from({ length: 5 }).map((_, i) => (
               <Card
                 key={i}
-                className="p-3.5 border border-border/80 bg-card rounded-xl space-y-2.5 shadow-none"
+                className="p-4 border border-border/80 bg-card rounded-2xl space-y-3 shadow-none"
               >
-                <Skeleton className="h-8 w-8 rounded-lg" />
-                <Skeleton className="h-4 w-full rounded" />
+                <div className="flex items-center justify-between">
+                  <Skeleton className="h-8 w-8 rounded-lg" />
+                  <Skeleton className="h-4 w-14 rounded-md" />
+                </div>
+                <Skeleton className="h-8 w-full rounded" />
                 <Skeleton className="h-3 w-16 rounded" />
               </Card>
             ))}
@@ -143,35 +156,46 @@ export default function DashboardPage() {
 
               return (
                 <Link key={s._id} href={`/subjects/${s._id}`} className="block focus-visible:outline-hidden group">
-                  <Card className="p-3.5 border border-border/80 bg-card hover:border-primary/50 hover:shadow-xs transition-all flex flex-col justify-between gap-3 h-full rounded-xl select-none relative overflow-hidden">
-                    {/* Top Row: Icon + Badge */}
+                  <Card
+                    className={cn(
+                      "p-4 border bg-gradient-to-b transition-all flex flex-col justify-between gap-3 h-full rounded-2xl select-none relative overflow-hidden shadow-2xs hover:shadow-xs",
+                      theme.border,
+                      theme.gradient
+                    )}
+                  >
+                    {/* Top Row: Themed Icon + Themed Badge */}
                     <div className="flex items-center justify-between gap-2">
                       <div
                         className={cn(
-                          "flex h-8 w-8 items-center justify-center rounded-lg transition-colors duration-200 shrink-0",
+                          "flex h-8 w-8 items-center justify-center rounded-xl border transition-colors duration-200 shrink-0",
                           theme.bg,
                           theme.accent,
-                          theme.hoverBg
+                          theme.border
                         )}
                       >
-                        <SectionIcon className="h-4.5 w-4.5" />
+                        <SectionIcon className="h-4 w-4" />
                       </div>
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-muted text-muted-foreground font-mono group-hover:text-foreground transition-colors">
+                      <span
+                        className={cn(
+                          "text-[10px] font-bold px-2 py-0.5 rounded-lg border font-mono tracking-tight transition-colors",
+                          theme.badgeStyle
+                        )}
+                      >
                         {theme.badge}
                       </span>
                     </div>
 
                     {/* Middle: Fully Readable 2-Line Title (No Truncation) */}
-                    <div className="space-y-0.5 min-h-[2.5rem]">
-                      <h3 className="font-semibold text-xs sm:text-[13px] text-foreground leading-snug group-hover:text-primary transition-colors font-hindi line-clamp-2">
+                    <div className="min-h-[2.5rem] flex items-center">
+                      <h3 className="font-bold text-xs sm:text-[13px] text-foreground leading-snug group-hover:text-primary transition-colors font-hindi line-clamp-2">
                         {displayName}
                       </h3>
                     </div>
 
                     {/* Bottom: Explore Link */}
-                    <div className="flex items-center justify-between pt-1 border-t border-border/50 text-[11px] font-medium text-muted-foreground group-hover:text-foreground transition-colors">
+                    <div className="flex items-center justify-between pt-2 border-t border-border/40 text-[11px] font-medium text-muted-foreground group-hover:text-foreground transition-colors">
                       <span>Explore</span>
-                      <ArrowRight className="h-3.5 w-3.5 text-muted-foreground/60 group-hover:text-foreground group-hover:translate-x-0.5 transition-all duration-200" />
+                      <ArrowRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-foreground group-hover:translate-x-1 transition-transform duration-200" />
                     </div>
                   </Card>
                 </Link>
@@ -205,21 +229,44 @@ export default function DashboardPage() {
             Array.from({ length: 4 }).map((_, i) => (
               <Card
                 key={i}
-                className="flex flex-row items-center justify-between gap-3 p-3.5 rounded-xl border border-border/80 bg-card min-h-[3.5rem] shadow-none"
+                className="p-4 rounded-2xl border border-border/80 bg-card space-y-3 shadow-none"
               >
-                <div className="flex items-center gap-3 min-w-0 flex-1">
-                  <Skeleton className="h-9 w-9 rounded-lg shrink-0" />
-                  <Skeleton className="h-3.5 w-16 sm:w-20 rounded" />
+                <div className="flex items-center justify-between">
+                  <Skeleton className="h-3.5 w-24 rounded" />
+                  <Skeleton className="h-7 w-7 rounded-lg" />
                 </div>
-                <Skeleton className="h-5 w-8 rounded shrink-0 ml-2" />
+                <div className="space-y-1.5">
+                  <Skeleton className="h-8 w-16 rounded" />
+                  <Skeleton className="h-3 w-28 rounded" />
+                </div>
               </Card>
             ))
           ) : (
             <>
-              <StatCard icon={ListChecks} label="Tests Taken" value={stats.testsAttempted} />
-              <StatCard icon={CheckCircle2} label="Questions Solved" value={stats.questionsSolved} />
-              <StatCard icon={Percent} label="Accuracy" value={formatAccuracy(stats.overallAccuracy)} />
-              <StatCard icon={Bookmark} label="Bookmarks" value={stats.bookmarkCount} />
+              <StatCard
+                icon={ListChecks}
+                label="Tests Taken"
+                value={stats.testsAttempted}
+                subtitle="Completed practice tests"
+              />
+              <StatCard
+                icon={CheckCircle2}
+                label="Questions Solved"
+                value={stats.questionsSolved.toLocaleString("en-IN")}
+                subtitle="Across 5 subjects"
+              />
+              <StatCard
+                icon={Percent}
+                label="Accuracy"
+                value={formatAccuracy(stats.overallAccuracy)}
+                subtitle="Overall score rate"
+              />
+              <StatCard
+                icon={Bookmark}
+                label="Bookmarks"
+                value={stats.bookmarkCount}
+                subtitle="Saved for revision"
+              />
             </>
           )}
         </div>

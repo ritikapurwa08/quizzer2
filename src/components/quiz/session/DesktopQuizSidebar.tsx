@@ -140,7 +140,7 @@ export function DesktopQuizSidebar({
             </Button>
           </div>
           <Button
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs h-10 rounded-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs h-10 rounded-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed shadow-md shadow-emerald-950/30 transition-colors"
             onClick={onSubmit}
             disabled={isPaused || isSubmitting}
           >

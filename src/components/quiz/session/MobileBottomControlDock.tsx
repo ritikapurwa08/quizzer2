@@ -87,7 +87,7 @@ export function MobileBottomControlDock({
             size="sm"
             onClick={onSubmit}
             disabled={isPaused || isSubmitting}
-            className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 gap-1.5 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
+            className="h-10 px-3.5 sm:px-4 font-bold text-xs rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white cursor-pointer shrink-0 gap-1.5 shadow-md shadow-emerald-950/30 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
             {isSubmitting ? (
               <span className="flex items-center gap-1.5">
@@ -106,7 +106,7 @@ export function MobileBottomControlDock({
             size="sm"
             onClick={onNext}
             disabled={isPaused}
-            className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed"
+            className="h-10 px-3.5 font-semibold text-xs rounded-xl bg-zinc-800 text-zinc-100 border border-zinc-700 hover:bg-zinc-700 hover:text-white cursor-pointer shrink-0 shadow-2xs disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             aria-label="Next question"
           >
             Next

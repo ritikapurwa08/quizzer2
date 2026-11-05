@@ -142,7 +142,7 @@ export function ContinuePracticeCard() {
                 </div>
 
                 {/* Title & Topic Details */}
-                <div className="space-y-1 my-auto">
+                <div className="my-auto min-h-[2.5rem] flex items-center">
                   <h3
                     className="font-bold text-xs sm:text-[13px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
                     title={rec.testSetName}
@@ -151,36 +151,41 @@ export function ContinuePracticeCard() {
                   </h3>
                 </div>
 
-                {/* Bottom Action Row: Harmonious Dark Design (NO blinding white buttons) */}
-                <div className="flex items-center justify-between gap-2 pt-2 border-t border-border/40">
-                  <div className="flex items-center gap-1.5 text-[11px]">
-                    <span className="tabular-nums font-semibold text-muted-foreground">{rec.questionCount} Qs</span>
-                    <span className="text-border">·</span>
-                    {isResume ? (
-                      <span className="text-amber-400 font-semibold flex items-center gap-1 text-[10.5px]">
-                        <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
-                        In Progress
-                      </span>
-                    ) : rec.type === "next_in_topic" ? (
-                      <span className="text-emerald-400 font-semibold text-[10.5px]">Up Next</span>
-                    ) : (
-                      <span className="text-muted-foreground text-[10.5px]">Practice</span>
-                    )}
-                  </div>
-
-                  {/* Sleek, Dark-Mode Action Pill */}
+                {/* Status Meta Row */}
+                <div className="flex items-center justify-between text-[11px] pt-1">
+                  <span className="tabular-nums font-semibold text-muted-foreground">{rec.questionCount} Qs</span>
                   {isResume ? (
-                    <div className="inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/30 group-hover:bg-amber-500/25 group-hover:text-amber-300 transition-colors shadow-2xs">
-                      <RotateCcw className="h-3 w-3" />
-                      <span>Resume</span>
-                    </div>
+                    <span className="text-amber-400 font-semibold flex items-center gap-1.5 text-[10.5px]">
+                      <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+                      In Progress
+                    </span>
+                  ) : rec.type === "next_in_topic" ? (
+                    <span className="text-emerald-400 font-semibold flex items-center gap-1 text-[10.5px]">
+                      <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                      Up Next
+                    </span>
                   ) : (
-                    <div className="inline-flex items-center justify-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-muted/60 text-foreground border border-border/70 group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all duration-200 shadow-2xs">
-                      <Play className="h-2.5 w-2.5 fill-current" />
-                      <span>Start</span>
-                    </div>
+                    <span className="text-muted-foreground text-[10.5px]">Practice</span>
                   )}
                 </div>
+
+                {/* Full-Width Sleek Action Button — Zero Collision, Dark-Mode Native */}
+                {isResume ? (
+                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-amber-500/15 text-amber-300 border border-amber-500/30 group-hover:bg-amber-500 group-hover:text-black transition-all duration-150 shadow-2xs">
+                    <RotateCcw className="h-3 w-3" />
+                    <span>Resume Attempt</span>
+                  </div>
+                ) : rec.type === "next_in_topic" ? (
+                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-black transition-all duration-150 shadow-2xs">
+                    <Play className="h-2.5 w-2.5 fill-current" />
+                    <span>Start Next Part</span>
+                  </div>
+                ) : (
+                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-muted/70 text-foreground border border-border/80 group-hover:bg-foreground group-hover:text-background transition-all duration-150 shadow-2xs">
+                    <Play className="h-2.5 w-2.5 fill-current" />
+                    <span>Start Test</span>
+                  </div>
+                )}
               </Card>
             </Link>
           );
