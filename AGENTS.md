@@ -75,4 +75,38 @@ The application and question bank are strictly and exclusively dedicated to Raja
 54. राजस्थान लोकायुक्त एवं उप-लोकायुक्त
 55. राजस्थान के प्रमुख अनुसंधान एवं अध्ययन केंद्र
 
+---
+
+# Authoritative Infrastructure & Free-Tier Quota Protection Contract (Vercel & Convex)
+
+The application operates on the **Vercel Hobby (Free)** and **Convex Free Tier**. All features, API routes, database queries, and architectural refactoring MUST STRICTLY COMPLY with the following quota protection rules. Under NO circumstances should any change burn through these quotas.
+
+### A. Convex Free-Tier Limits & Hard Constraints
+1. **Database I/O (Monthly Cap: 6 GB · Target: < 2 GB)**:
+   - **Rule**: NEVER store heavy question bodies (texts, 4 options, full explanations) in the Convex database. Question data must remain **local-first** in static JSON files (`data/questions/rajasthan-gk/topic_XX.json`) and served via Next.js API routes.
+   - **Rule**: Convex database stores ONLY lightweight user state: user profile, test attempts (testSetId, answers, score, submittedAt), bookmarks, and syllabus checklists.
+   - **Rule**: Avoid unbounded queries. Never call `.collect()` on large tables without index filtering or pagination. Always use indexed queries with `.take(limit)`.
+2. **Deployments (Monthly Cap: 40 deployments · Target: < 20)**:
+   - **Rule**: Do NOT execute `npx convex deploy` automatically in build scripts or commit hooks. Backend schema pushes must be deliberate, manual, and strictly batched.
+3. **Database Storage (Monthly Cap: 3 GB · Target: < 100 MB)**:
+   - **Rule**: Keep Convex storage slim (currently ~20.5 MB). No raw assets, images, or redundant copies.
+4. **Function Calls (Monthly Cap: 6 Million · Target: < 1 Million)**:
+   - **Rule**: Rely on Convex WebSocket reactivity instead of HTTP polling.
+   - **Rule**: Debounce all frequent writes (e.g., student answer selection debounced via `SAVE_DEBOUNCE_MS = 300ms`).
+
+### B. Vercel Hobby / Free-Tier Limits & Hard Constraints
+1. **Functions Storage (Monthly Cap: 10 GB · Target: < 4 GB)**:
+   - **Rule**: Serverless lambda bundle size must be kept minimal. In `next.config.ts`, `outputFileTracingIncludes` must trace `./data/**/*` ONLY for `/api/**/*`, NEVER for frontend static pages (`/**/*`).
+   - **Rule**: Keep the `data/` folder lean (< 25 MB total). Never retain duplicate copies (`master-pool.json` deleted, `published-sets.json` minified to 282 KB manifests). Never leave unneeded batch JSON files in the workspace.
+2. **Fluid Active CPU (Monthly Cap: 4 Hours · Target: < 1.5 Hours)**:
+   - **Rule**: Serverless API routes must execute in milliseconds (< 50ms). Use in-memory module caching in `src/lib/questionPool.ts` so file parsing runs only once per lambda lifecycle.
+   - **Rule**: Avoid heavy synchronous CPU loops, unbounded regex processing, or expensive AST parsing inside API requests.
+3. **Deployment Storage (Monthly Cap: 10 GB · Target: < 3 GB)**:
+   - **Rule**: Clean build artifacts (`.next/`) before builds. Do not commit media blobs or redundant cache files to the Git repository.
+4. **Fast Origin Transfer (Monthly Cap: 10 GB · Target: < 2 GB)**:
+   - **Rule**: Keep HTTP payloads lightweight. API routes return only required fields. Static assets have 1-year immutable caching (`max-age=31536000`).
+5. **Function Invocations (Monthly Cap: 1 Million · Target: < 250K)**:
+   - **Rule**: Maximize static page pre-rendering (`○ Static`). Only dynamic data fetching uses API routes or Convex client queries.
+
+
 

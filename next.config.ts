@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   compress: true,
   outputFileTracingIncludes: {
     "/api/**/*": ["./data/**/*"],
-    "/**/*": ["./data/**/*"],
   },
   experimental: {
     optimizePackageImports: ["lucide-react", "recharts"],
