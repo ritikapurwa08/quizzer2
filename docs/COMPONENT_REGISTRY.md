@@ -98,6 +98,10 @@ Components responsible for rendering interactive tests, questions, options, and 
 | `MobileQuestionPaletteModal` | `src/components/quiz/session/MobileQuestionPaletteModal.tsx` | Bottom sheet palette modal with quiz header on mobile | Feature | Quiz page (`/quiz/[testSetId]`) | Grid jump buttons, timer capsule, pause/resume, exit. |
 | `DesktopQuizSidebar` | `src/components/quiz/session/DesktopQuizSidebar.tsx` | Sticky desktop sidebar for quiz session | Feature | Quiz page (`/quiz/[testSetId]`) | Timer countdown, progress, palette, nav buttons, submit. |
 | `quizHelpers` | `src/components/quiz/session/quizHelpers.ts` | Shared quiz formatters and candidate answer resolvers | Utility | Quiz session components | `formatTime`, `getQuestionAnswer`. |
+| `ScoreSummaryCard` | `src/components/quiz/results/ScoreSummaryCard.tsx` | Summary score card with 4-button action layout | Feature | Results page (`/quiz/[testSetId]/results`) | Retake, PDF export, Share, and Next Set buttons. |
+| `ReviewQuestionList` | `src/components/quiz/results/ReviewQuestionList.tsx` | Filtered list of questions with answers and bookmarks | Feature | Results page (`/quiz/[testSetId]/results`) | Renders `QuestionReviewCard` items and Hindi empty states. |
+| `PdfReportErrorBoundary` | `src/components/quiz/results/PdfReportErrorBoundary.tsx` | Error boundary wrapping printable assessment report | Utility | Results page (`/quiz/[testSetId]/results`) | Prevents print layout errors from crashing the UI. |
+| `resultPdfUtils` | `src/components/quiz/results/resultPdfUtils.ts` | Generates standardized, clean PDF filename for print | Utility | Results page, print actions | `getSuggestedPdfFileName`. |
 
 ---
 

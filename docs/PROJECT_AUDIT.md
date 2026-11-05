@@ -12,7 +12,7 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 | **Phase 1** | Local Utsaah Hindi font setup (`public/utsaah/`, `layout.tsx`, `globals.css`) | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Foundation** | Component Registry (`docs/COMPONENT_REGISTRY.md`), System Architecture (`docs/ARCHITECTURE.md`), and Audit Setup | **COMPLETED** | 2026-11-05 |
 | **Phase 2 — Chunk 1** | Monolithic Quiz Screen (`src/app/(student)/quiz/[testSetId]/page.tsx` - reduced from 855 to 365 lines) decomposition | **COMPLETED & VERIFIED** | 2026-11-05 |
-| **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - 649 lines) & PDF integration | **PENDING** | - |
+| **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - reduced from 649 to 440 lines) & PDF integration | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - 490 lines) component modularization | **PENDING** | - |
 | **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - 453 lines) navigation & state separation | **PENDING** | - |
 | **Phase 2 — Chunk 5** | Admin Pool & Dedup monolithic tools (`admin/dedup/page.tsx`, `admin/pool/page.tsx`) | **PENDING** | - |
@@ -62,4 +62,24 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 - **Verification**:
   - `bun run build` compiled in 1.7s with 0 errors across 22 routes.
   - All test attempt state, timer countdown, pause/resume, and submission workflows verified intact.
+- **Status**: **COMPLETED & VERIFIED**
+
+---
+
+### Phase 2: Chunk 2 — Student Results Screen Modularization
+- **Target File**: `src/app/(student)/quiz/[testSetId]/results/page.tsx` (649 lines)
+- **Problem Identified**:
+  - Results page mixed scoring summary, 4-button action bar, review question listing, PDF error boundary, and filename derivation logic in a single file.
+  - Risk of hook order violations (React error #310) when editing results logic.
+- **What Was Changed**:
+  - Extracted sub-components into `src/components/quiz/results/`:
+    - `ScoreSummaryCard.tsx`: Dedicated score hero card with RPSC scoring details and 4 actions (Retake, PDF, Share, Next Set).
+    - `ReviewQuestionList.tsx`: Handles list rendering and Hindi feedback for empty review states.
+    - `PdfReportErrorBoundary.tsx`: Encapsulates print report error boundary.
+    - `resultPdfUtils.ts`: Pure helper for `getSuggestedPdfFileName`.
+  - Maintained all 23 top-level hooks unconditionally in `page.tsx` (guaranteeing zero hook order bugs).
+  - Reduced `page.tsx` from 649 lines to 440 lines.
+- **Verification**:
+  - `bun run build` compiled in 1.8s with 0 errors across 22 routes.
+  - Verified PDF export, score display, and question review filtering.
 - **Status**: **COMPLETED & VERIFIED**

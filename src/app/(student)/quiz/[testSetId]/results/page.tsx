@@ -6,101 +6,22 @@ import { useParams } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
-import { QuestionReviewCard, QuestionShellSkeleton } from "@/components/quiz";
+import { QuestionShellSkeleton } from "@/components/quiz";
 import { QuestionReviewFilter, type ReviewFilter } from "@/components/quiz/QuestionReviewFilter";
 import { PrintableAssessmentReport } from "@/components/quiz/pdf/PrintableAssessmentReport";
+import {
+  ScoreSummaryCard,
+  ReviewQuestionList,
+  PdfReportErrorBoundary,
+  getSuggestedPdfFileName,
+} from "@/components/quiz/results";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { formatScore, cn } from "@/lib/utils";
+import { formatScore } from "@/lib/utils";
 import { useToast } from "@/components/ui/Toast";
-import {
-  ArrowLeft,
-  ArrowRight,
-  CheckCircle2,
-  XCircle,
-  Minus,
-  LayoutList,
-  RotateCcw,
-  FileDown,
-  Share2,
-} from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
-/**
- * Automatically derives a clean, filesystem-safe filename for PDF printing
- * so the browser's "Save Print Output As" dialog automatically pre-fills the name.
- */
-export function getSuggestedPdfFileName({
-  setName,
-  setOrder,
-  topicName,
-  topicSlug,
-  filter,
-}: {
-  setName?: string;
-  setOrder?: number;
-  topicName?: string;
-  topicSlug?: string;
-  filter?: ReviewFilter;
-}): string {
-  const numberMatch =
-    setName?.match(/(?:भाग|part|set|test|quiz|\#)\s*(\d+)/i) ||
-    setName?.match(/\b(\d+)\b/);
-  const num = numberMatch ? numberMatch[1] : (setOrder !== undefined && setOrder > 0 ? String(setOrder) : "");
-
-  let baseName = "";
-
-  const isTense =
-    topicSlug?.toLowerCase().includes("tense") ||
-    topicName?.toLowerCase().includes("tense") ||
-    setName?.toLowerCase().includes("tense");
-
-  if (isTense && num) {
-    baseName = `tense-${num}`;
-  } else if (setName) {
-    baseName = setName;
-  } else if (topicName && num) {
-    baseName = `${topicName} - Part ${num}`;
-  } else if (topicName) {
-    baseName = topicName;
-  } else {
-    baseName = "Quizzer-Assessment-Report";
-  }
-
-  // Sanitize Windows illegal file characters: \ / : * ? " < > |
-  baseName = baseName.replace(/[<>:"/\\|?*]/g, "-").replace(/\s+/g, " ").trim();
-
-  if (filter === "incorrect") {
-    baseName += " - Mistakes";
-  } else if (filter === "correct") {
-    baseName += " - Correct";
-  } else if (filter === "unattempted") {
-    baseName += " - Unattempted";
-  }
-
-  return baseName;
-}
-
-class PdfReportErrorBoundary extends React.Component<
-  { children: React.ReactNode },
-  { hasError: boolean }
-> {
-  constructor(props: { children: React.ReactNode }) {
-    super(props);
-    this.state = { hasError: false };
-  }
-  static getDerivedStateFromError() {
-    return { hasError: true };
-  }
-  componentDidCatch(error: any) {
-    console.error("Printable assessment report render error:", error);
-  }
-  render() {
-    if (this.state.hasError) {
-      return null;
-    }
-    return this.props.children;
-  }
-}
+export { getSuggestedPdfFileName };
 
 export default function ResultsPage() {
   const params = useParams<{ testSetId: string }>();
@@ -230,7 +151,7 @@ export default function ResultsPage() {
         if (reviewFilter === "correct") return badge === "correct";
         if (reviewFilter === "incorrect") return badge === "incorrect";
         if (reviewFilter === "unattempted") return badge === "unanswered";
-        return true; // "all"
+        return true;
       });
   }, [data, resolvedQuestions, reviewFilter]);
 
@@ -356,9 +277,6 @@ export default function ResultsPage() {
     );
   }
 
-  // Guaranteed attempt object after early returns
-  const safeAttempt = attempt!;
-
   function handleToggleBookmark(questionId: string) {
     setBookmarked((prev) => {
       const next = new Set(prev);
@@ -463,105 +381,19 @@ export default function ResultsPage() {
         </Link>
 
         {/* ── Score Summary Card ── */}
-        <Card className="p-5 sm:p-6 border border-border shadow-xs rounded-2xl text-center bg-card">
-          <p className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-2 font-hindi">
-            {effectiveSet?.name || "Test Result"}
-          </p>
-
-          {/* Score */}
-          <p className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground tabular-nums mb-3">
-            {formatScore(attempt.score ?? 0)}
-            <span className="text-lg sm:text-xl text-muted-foreground font-semibold">
-              {" "}/ {(attempt.totalQuestions || 20) * 2} pts
-            </span>
-          </p>
-
-          {/* Stats: correct / incorrect / unanswered */}
-          <div className="flex items-center justify-center gap-4 mb-2 text-xs flex-wrap">
-            <span className="flex items-center gap-1 font-semibold text-emerald-700 dark:text-emerald-400">
-              <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
-              {correctCount} Correct (+{correctCount * 2})
-            </span>
-            <span className="flex items-center gap-1 font-semibold text-rose-700 dark:text-rose-400">
-              <XCircle className="h-3.5 w-3.5" aria-hidden="true" />
-              {incorrectCount} Incorrect (-{((incorrectCount * 2) / 3).toFixed(2)})
-            </span>
-            {unansweredCount > 0 && (
-              <span className="flex items-center gap-1 font-semibold text-muted-foreground">
-                <Minus className="h-3.5 w-3.5" aria-hidden="true" />
-                {unansweredCount} Skipped (0)
-              </span>
-            )}
-          </div>
-
-          {/* Canonical Scoring Rule Note */}
-          <p className="text-[11px] text-muted-foreground mb-6">
-            Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
-          </p>
-
-          {/* ── EXACTLY FOUR ACTION BUTTONS: Retake (Left) | PDF | Share Result | Next Set (Right) ── */}
-          <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
-            {/* 1. Left side: Retake Test */}
-            <Button
-              asChild
-              variant="outline"
-              className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
-            >
-              <Link href={`/quiz/${id}`}>
-                <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-                Retake Test
-              </Link>
-            </Button>
-
-            {/* 2 & 3. Middle: PDF & Share Result */}
-            <div className="flex items-center gap-2">
-              <Button
-                type="button"
-                variant="outline"
-                onClick={() => handlePrint(reviewFilter)}
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs text-foreground"
-                title={`Export ${reviewFilter === "incorrect" ? "Mistakes" : reviewFilter === "correct" ? "Correct" : reviewFilter === "unattempted" ? "Unattempted" : "All"} as PDF`}
-              >
-                <FileDown className="h-3.5 w-3.5 text-primary" aria-hidden="true" />
-                <span>PDF</span>
-              </Button>
-
-              <Button
-                type="button"
-                variant="outline"
-                onClick={handleShareResult}
-                className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs text-foreground"
-                title="Share test result"
-              >
-                <Share2 className="h-3.5 w-3.5 text-muted-foreground" aria-hidden="true" />
-                <span>Share Result</span>
-              </Button>
-            </div>
-
-            {/* 4. Right side: Next Set */}
-            {nextSet ? (
-              <Button
-                asChild
-                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
-              >
-                <Link href={`/quiz/${nextSet._id || (nextSet as any).id}`}>
-                  Next Set
-                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
-                </Link>
-              </Button>
-            ) : (
-              <Button
-                asChild
-                className="font-bold text-xs h-10 px-5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 gap-1.5 cursor-pointer shadow-xs"
-              >
-                <Link href="/subjects">
-                  <LayoutList className="h-3.5 w-3.5" aria-hidden="true" />
-                  Next Set
-                </Link>
-              </Button>
-            )}
-          </div>
-        </Card>
+        <ScoreSummaryCard
+          setName={effectiveSet?.name}
+          score={attempt.score ?? 0}
+          totalQuestions={attempt.totalQuestions || 20}
+          correctCount={correctCount}
+          incorrectCount={incorrectCount}
+          unansweredCount={unansweredCount}
+          testSetId={id}
+          nextSet={nextSet}
+          activeFilter={reviewFilter}
+          onPrint={() => handlePrint(reviewFilter)}
+          onShare={handleShareResult}
+        />
 
         {/* ── Question Review Section Header with 4-Option Filter Capsule ── */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
@@ -580,7 +412,6 @@ export default function ResultsPage() {
             </span>
           </div>
 
-          {/* Authoritative 4-Option Filter Control: All | Correct | Incorrect | Unattempted */}
           <QuestionReviewFilter
             value={reviewFilter}
             onChange={setReviewFilter}
@@ -589,34 +420,12 @@ export default function ResultsPage() {
         </div>
 
         {/* ── Question List (Screen interactive view) ── */}
-        <div className="space-y-4">
-          {filteredQuestionsWithIndex.length === 0 ? (
-            <p className="text-sm text-muted-foreground text-center py-10 font-hindi">
-              {reviewFilter === "incorrect"
-                ? "शाबाश! आपने इस टेस्ट में कोई गलत उत्तर नहीं दिया।"
-                : reviewFilter === "correct"
-                ? "इस टेस्ट में कोई सही उत्तर नहीं है।"
-                : reviewFilter === "unattempted"
-                ? "शाबाश! आपने सभी प्रश्नों के उत्तर दिए हैं।"
-                : "कोई प्रश्न उपलब्ध नहीं है।"}
-            </p>
-          ) : (
-            filteredQuestionsWithIndex.map(({ question: q, answer, badge, originalIndex, questionId }) => {
-              const safeId = questionId || q?._id || `q_${originalIndex}`;
-              return (
-                <QuestionReviewCard
-                  key={safeId}
-                  number={originalIndex + 1}
-                  question={q}
-                  selectedAnswer={answer?.selected}
-                  isBookmarked={bookmarked.has(safeId)}
-                  onToggleBookmark={() => handleToggleBookmark(safeId)}
-                  reviewBadge={badge as "correct" | "incorrect" | "unanswered"}
-                />
-              );
-            })
-          )}
-        </div>
+        <ReviewQuestionList
+          filteredQuestionsWithIndex={filteredQuestionsWithIndex}
+          reviewFilter={reviewFilter}
+          bookmarked={bookmarked}
+          onToggleBookmark={handleToggleBookmark}
+        />
       </div>
 
       {/* ── Official A4 Two-Column Assessment Report (Pure Light Mode Print ONLY) ── */}
