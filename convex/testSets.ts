@@ -229,9 +229,10 @@ export const nextRecommendedSets = query({
 
     const addedSetIds = new Set<string>();
 
-    // Add in-progress attempts first
+    // Add up to 2 most recent in-progress attempts first (so other slots can show next parts & fresh sets)
+    const maxResume = Math.min(2, limit);
     for (const inProgress of inProgressAttempts) {
-      if (recommendations.length >= limit) break;
+      if (recommendations.length >= maxResume) break;
       const testSet = await ctx.db.get(inProgress.testSetId);
       if (!testSet) continue;
       const topic = await ctx.db.get(testSet.topicId);

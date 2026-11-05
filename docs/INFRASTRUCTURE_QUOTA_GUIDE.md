@@ -82,3 +82,4 @@ The goal is to ensure the platform operates continuously, efficiently, and at li
 4. ❌ **NEVER add `/**/*` to `outputFileTracingIncludes`** in `next.config.ts`. Only API endpoints that genuinely read files should trace `./data/`.
 5. ❌ **NEVER implement polling `setInterval` loops** on the client to fetch server state. Use Convex WebSocket subscriptions or React Query.
 6. ✅ **ALWAYS run `bun run build`** and verify bundle sizes and warnings before pushing to `master`.
+
