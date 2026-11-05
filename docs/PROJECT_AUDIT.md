@@ -13,7 +13,7 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 | **Phase 2 — Foundation** | Component Registry (`docs/COMPONENT_REGISTRY.md`), System Architecture (`docs/ARCHITECTURE.md`), and Audit Setup | **COMPLETED** | 2026-11-05 |
 | **Phase 2 — Chunk 1** | Monolithic Quiz Screen (`src/app/(student)/quiz/[testSetId]/page.tsx` - reduced from 855 to 365 lines) decomposition | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 2** | Monolithic Results Screen (`src/app/(student)/quiz/[testSetId]/results/page.tsx` - reduced from 649 to 440 lines) & PDF integration | **COMPLETED & VERIFIED** | 2026-11-05 |
-| **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - 490 lines) component modularization | **PENDING** | - |
+| **Phase 2 — Chunk 3** | Monolithic Syllabus Tracker (`src/components/syllabus/SyllabusTracker.tsx` - reduced from 490 to 240 lines) component modularization | **COMPLETED & VERIFIED** | 2026-11-05 |
 | **Phase 2 — Chunk 4** | App Sidebar (`src/components/shared/AppSidebar.tsx` - 453 lines) navigation & state separation | **PENDING** | - |
 | **Phase 2 — Chunk 5** | Admin Pool & Dedup monolithic tools (`admin/dedup/page.tsx`, `admin/pool/page.tsx`) | **PENDING** | - |
 
@@ -82,4 +82,22 @@ This document serves as the persistent audit tracker for the Quizzer codebase im
 - **Verification**:
   - `bun run build` compiled in 1.8s with 0 errors across 22 routes.
   - Verified PDF export, score display, and question review filtering.
+- **Status**: **COMPLETED & VERIFIED**
+
+---
+
+### Phase 2: Chunk 3 — Syllabus Tracker Modularization
+- **Target File**: `src/components/syllabus/SyllabusTracker.tsx` (490 lines)
+- **Problem Identified**:
+  - The syllabus tracker combined localStorage synchronization, segmented scope switching, section filter chips, search input, status toggles, overall completion calculation, and individual topic item markup in a single monolithic component.
+- **What Was Changed**:
+  - Extracted sub-components into `src/components/syllabus/`:
+    - `SyllabusProgressBanner.tsx`: Scope-aware progress card showing total topics, completed count, remaining count, and progress bar.
+    - `SyllabusFilterControls.tsx`: Scope switcher (Rajasthan GK / English / All), category filter chips, search input, and status pills.
+    - `TopicChecklistItem.tsx`: Individual topic row with completion toggle, ID badge, subject icon, and practice action.
+    - `syllabusTypes.ts`: Section mappings and localStorage key constants.
+  - Reduced `SyllabusTracker.tsx` from 490 lines to 240 lines (51% reduction in line count).
+- **Verification**:
+  - `bun run build` compiled in 1.8s with 0 errors across 22 routes.
+  - LocalStorage progress persistence and 55 RPSC Master Topics contract verified intact.
 - **Status**: **COMPLETED & VERIFIED**

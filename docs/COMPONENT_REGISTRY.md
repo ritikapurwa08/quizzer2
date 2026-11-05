@@ -149,6 +149,9 @@ Performance charts and revision metrics for students.
 | Component | Path | Responsibility | Reusable? | Consumers | Constraints |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `SyllabusTracker` | `src/components/syllabus/SyllabusTracker.tsx` | Interactive syllabus matrix with 55 Master Topics | Feature | `/syllabus` page, Subject drilldown | Must strictly adhere to the 55 authoritative RPSC topics contract. |
+| `SyllabusProgressBanner` | `src/components/syllabus/SyllabusProgressBanner.tsx` | Summary KPI banner and preparation progress bar | Feature | `SyllabusTracker` | Scope-aware (Rajasthan GK / English / Combined). |
+| `SyllabusFilterControls` | `src/components/syllabus/SyllabusFilterControls.tsx` | Scope switcher, section pills, search, status pills | Feature | `SyllabusTracker` | Synchronized with 55 canonical topic categories. |
+| `TopicChecklistItem` | `src/components/syllabus/TopicChecklistItem.tsx` | Individual topic item with checkbox, Hindi title, and link | Feature | `SyllabusTracker` | Applies Utsaah font and Devanagari typography. |
 
 ---
 
