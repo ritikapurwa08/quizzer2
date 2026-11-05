@@ -139,3 +139,4 @@ if (fs.existsSync(topicsDir)) {
 }
 
 console.log("All batch 1 questions applied successfully!");
+
