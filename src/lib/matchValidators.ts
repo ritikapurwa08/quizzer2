@@ -25,7 +25,14 @@ export function isStatementOptions(options?: Array<{ id: string; text: string } 
   );
   if (hasStatementKeyword) return true;
 
-  // 2. Comma/space-separated subset of statement identifiers without pairing dashes:
+  // 2. Four-digit / 4-item permutation matching codes (e.g. '2 3 4 1', '4 1 2 3', '2, 3, 4, 1')
+  // These represent classic matching answer codes for A, B, C, D — NOT statement selections!
+  const isPermutationCode = optTexts.every((text) =>
+    /^\s*[1-5ivxlcIVXLC]\s*[, ]\s*[1-5ivxlcIVXLC]\s*[, ]\s*[1-5ivxlcIVXLC]\s*[, ]\s*[1-5ivxlcIVXLC]\s*$/i.test(text)
+  );
+  if (isPermutationCode) return false;
+
+  // 3. Comma/space-separated subset of statement identifiers without pairing dashes:
   // e.g. 'a, b, c', '(a), (b)', 'A, B, D', '1, 2, 3'
   const isSubsetList = optTexts.every((text) => {
     if (/[-–—:]\s*(?:[1-9]|I{1,3}|[ivxlc]+|[अ-द])/iu.test(text)) return false;
