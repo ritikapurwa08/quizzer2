@@ -1,6 +1,7 @@
 "use client";
 
 import { cn, containsDevanagari, getOptionLabel } from "@/lib/utils";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 interface OptionButtonProps {
   id: string;
@@ -20,7 +21,8 @@ export function OptionButton({
   correctness,
 }: OptionButtonProps) {
   const badgeLabel = getOptionLabel(id);
-  const isHindi = containsDevanagari(text);
+  const healedText = healOptionText(text);
+  const isHindi = containsDevanagari(healedText);
 
   return (
     <button
@@ -82,12 +84,14 @@ export function OptionButton({
 
       <span
         className={cn(
-          "min-w-0 flex-1 text-[0.95rem] leading-7 font-normal text-foreground sm:text-base sm:leading-7",
-          "print:text-xs print:leading-snug",
-          isHindi && "font-hindi"
+          "min-w-0 flex-1 text-foreground",
+          isHindi
+            ? "font-hindi text-[1.025rem] sm:text-[1.125rem] leading-relaxed font-normal"
+            : "text-[0.95rem] leading-7 font-normal sm:text-base sm:leading-7",
+          "print:text-xs print:leading-snug"
         )}
       >
-        {text}
+        {healedText}
       </span>
 
       {/* Screen status icon (rendered only during review evaluation) */}

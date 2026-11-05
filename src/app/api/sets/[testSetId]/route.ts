@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 export const dynamic = "force-dynamic";
 
@@ -12,21 +13,26 @@ function normalizeQuestion(rawQ: any, i: number) {
   const q = enrichQuestionStructure(rawQ);
   const qId = q._id || q.id || q.convexId || q.canonicalId || `q_${i + 1}`;
   const options = (q.options || []).map((opt: any, optIdx: number) => {
+    const rawText = typeof opt === "string" ? opt : opt?.text || "";
+    const healed = healOptionText(rawText);
     if (typeof opt === "string") {
-      return { id: `opt${optIdx + 1}`, text: opt };
+      return { id: `opt${optIdx + 1}`, text: healed };
     }
     return {
       id: opt?.id || `opt${optIdx + 1}`,
-      text: opt?.text || "",
+      text: healed,
     };
   });
+
+  const rawQText = q.questionText || q.question || "";
+  const healedQText = healOptionText(rawQText);
 
   return {
     ...q,
     _id: qId,
     id: qId,
     type: q.type || "mcq",
-    questionText: q.questionText || q.question || "",
+    questionText: healedQText,
     options,
     correctAnswer: q.correctAnswer || (q.answerIndex !== undefined ? `opt${q.answerIndex + 1}` : "opt1"),
     explanation: q.explanation || "",

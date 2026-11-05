@@ -43,7 +43,7 @@
   --font-sans: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   --font-heading: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   --font-utsaah: var(--font-utsaah), "Utsaah", system-ui, sans-serif;
-  --font-hindi: var(--font-utsaah), "Utsaah", var(--font-anek-devanagari), "Anek Devanagari", var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-hindi: var(--font-utsaah), "Utsaah", var(--font-google-sans), "Google Sans", system-ui, sans-serif;
 }
 
 /* ── Local Utsaah Font-Face Fallback Declarations ── */
@@ -54,6 +54,7 @@
   font-weight: 400 500;
   font-style: normal;
   font-display: swap;
+  size-adjust: 130%;
 }
 
 @font-face {
@@ -63,6 +64,7 @@
   font-weight: 600 700 800 900;
   font-style: normal;
   font-display: swap;
+  size-adjust: 130%;
 }
 
 @font-face {
@@ -72,6 +74,7 @@
   font-weight: 400 500;
   font-style: italic;
   font-display: swap;
+  size-adjust: 130%;
 }
 
 @font-face {
@@ -81,6 +84,7 @@
   font-weight: 600 700 800 900;
   font-style: italic;
   font-display: swap;
+  size-adjust: 130%;
 }
 
 :root {
@@ -180,7 +184,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-google-sans), var(--font-utsaah), "Google Sans", "Utsaah", var(--font-anek-devanagari), "Anek Devanagari", system-ui, sans-serif;
+  font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -204,13 +208,11 @@ button {
 }
 
 .font-hindi,
-:lang(hi),
-[lang="hi"],
-.font-hindi *,
-[lang="hi"] * {
-  font-family: var(--font-utsaah), "Utsaah", var(--font-anek-devanagari), var(--font-google-sans), "Anek Devanagari", "Google Sans", "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+.font-hindi * {
+  font-family: var(--font-utsaah), "Utsaah", var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", "Nirmala UI", sans-serif;
   letter-spacing: normal !important;
-  line-height: 1.65;
+  line-height: 1.75;
+  font-size: 1.1em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1 !important;
   font-variant-ligatures: normal !important;
   text-rendering: optimizeLegibility !important;
@@ -232,7 +234,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-google-sans), var(--font-utsaah), "Google Sans", "Utsaah", var(--font-anek-devanagari), "Anek Devanagari", system-ui, sans-serif;
+  font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   font-weight: 600;
   letter-spacing: -0.015em;
 }

@@ -152,10 +152,10 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "सूची I को सूची II से सुमेलित करें :",
       "options": [
-        "II, b-I, c-III, d-IV",
-        "II, b-I, c-IV, d-III",
-        "I, b-II, c-III, d-IV",
-        "I, b-II, c-IV, d-III"
+        "a-II, b-I, c-III, d-IV",
+        "a-II, b-I, c-IV, d-III",
+        "a-I, b-II, c-III, d-IV",
+        "a-I, b-II, c-IV, d-III"
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Sanskrit ( L-2 )",
@@ -384,10 +384,10 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "सूची I को सूची II से सुमेलित करे :",
       "options": [
-        "III, b-IV, c-I, d-II",
-        "II, b-III, c-I, d-IV",
-        "IV, b-III, c-II, d-I",
-        "I, b-II, c-III, d-IV"
+        "a-III, b-IV, c-I, d-II",
+        "a-II, b-III, c-I, d-IV",
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-II, c-III, d-IV"
       ],
       "answer": "A",
       "exam": "3rd Grade Teacher Social Studies (L-2 )",
@@ -536,10 +536,10 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "सूची-I को सूची-II से सुमेलित कीजिए :",
       "options": [
-        "II, b - IV, c - I, d - III",
-        "IV, b - II, c - I, d - III",
-        "III, b - II, c - IV, d - I",
-        "II, b - III, c - IV, d - I"
+        "a-II, b - IV, c - I, d - III",
+        "a-IV, b - II, c - I, d - III",
+        "a-III, b - II, c - IV, d - I",
+        "a-II, b - III, c - IV, d - I"
       ],
       "answer": "A",
       "exam": "Village Development Officer Exam",
@@ -1816,7 +1816,7 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "मारवाड़ी कठै री मुख्य बोली नीं है -",
       "options": [
-        "िरोही",
+        "सिरोही",
         "जोधपुर",
         "भरतपुर",
         "अजमेर"
@@ -2272,7 +2272,7 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "हिंदी बोलने वालों की संख्या की दृष्टि से राजस्थान देश में ______ स्थान पर है, जो इस रेगिस्तानी राज्य को हिंदी पट्टी का ‘हृदय’ बनाता है।",
       "options": [
-        "ूसरे",
+        "दूसरे",
         "तीसरे",
         "चौथे",
         "पांचवें"
@@ -2865,7 +2865,7 @@
       "question": "राजस्थान के निम्न में से किस जिले में मेवाती भाषा बोली जाती है-",
       "options": [
         "डूंगरपुर",
-        "ीकर",
+        "सीकर",
         "अलवर",
         "भीलवाड़ा"
       ],
@@ -4440,7 +4440,7 @@
       "masterTopic": "राजस्थानी भाषा एवं बोलियाँ",
       "question": "निम्नलिखित में से किस स्थान पर ढंूढाडी नहीं बाली जाती है -",
       "options": [
-        "ीकर",
+        "सीकर",
         "किशनगढ़",
         "जयपुर का अधिकांश भाग",
         "टोंक"

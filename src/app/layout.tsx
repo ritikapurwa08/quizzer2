@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Google_Sans, Anek_Devanagari } from "next/font/google";
+import { Google_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
@@ -13,13 +13,6 @@ const googleSans = Google_Sans({
   subsets: ["latin", "devanagari"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-google-sans",
-  display: "swap",
-});
-
-const anekDevanagari = Anek_Devanagari({
-  subsets: ["devanagari", "latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-anek-devanagari",
   display: "swap",
 });
 
@@ -100,7 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html
         lang="hi"
         suppressHydrationWarning
-        className={`${googleSans.variable} ${anekDevanagari.variable} ${utsaah.variable}`}
+        className={`${googleSans.variable} ${utsaah.variable}`}
       >
         <body>
           <ThemeProvider
