@@ -42,7 +42,7 @@
 
   --font-sans: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   --font-heading: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
-  --font-hindi: var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-hindi: var(--font-anek-devanagari), var(--font-google-sans), "Anek Devanagari", "Google Sans", "Noto Sans Devanagari", system-ui, sans-serif;
 }
 
 :root {
@@ -142,7 +142,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
+  font-family: var(--font-google-sans), var(--font-anek-devanagari), "Google Sans", "Anek Devanagari", system-ui, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -170,7 +170,7 @@ button {
 [lang="hi"],
 .font-hindi *,
 [lang="hi"] * {
-  font-family: var(--font-google-sans), "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", "Segoe UI", sans-serif;
+  font-family: var(--font-anek-devanagari), var(--font-google-sans), "Anek Devanagari", "Google Sans", "Noto Sans Devanagari", "Nirmala UI", sans-serif;
   letter-spacing: normal !important;
   line-height: 1.65;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1 !important;
@@ -194,7 +194,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
+  font-family: var(--font-google-sans), var(--font-anek-devanagari), "Google Sans", "Anek Devanagari", system-ui, sans-serif;
   font-weight: 600;
   letter-spacing: -0.015em;
 }
@@ -353,7 +353,7 @@ pre {
   body {
     background: #ffffff !important;
     color: #09090b !important;
-    font-family: var(--font-google-sans), "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", system-ui, sans-serif !important;
+    font-family: var(--font-google-sans), var(--font-anek-devanagari), "Google Sans", "Anek Devanagari", "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", system-ui, sans-serif !important;
     margin: 0 !important;
     padding: 0 !important;
     -webkit-print-color-adjust: exact !important;

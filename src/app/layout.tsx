@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Google_Sans, Anek_Devanagari } from "next/font/google";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -8,9 +8,17 @@ import { ToastProvider } from "@/components/ui/Toast";
 import { ThemeProvider } from "@/components/theme-provider";
 import { PwaRegistrar } from "@/components/shared/PwaRegistrar";
 
-const inter = Inter({
-  subsets: ["latin"],
+const googleSans = Google_Sans({
+  subsets: ["latin", "devanagari"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-google-sans",
+  display: "swap",
+});
+
+const anekDevanagari = Anek_Devanagari({
+  subsets: ["devanagari", "latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-anek-devanagari",
   display: "swap",
 });
 
@@ -51,7 +59,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ConvexAuthNextjsServerProvider>
-      <html lang="en" suppressHydrationWarning className={inter.variable}>
+      <html
+        lang="hi"
+        suppressHydrationWarning
+        className={`${googleSans.variable} ${anekDevanagari.variable}`}
+      >
         <body>
           <ThemeProvider
             attribute="class"
