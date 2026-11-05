@@ -1,6 +1,8 @@
 import { z } from "zod";
 import { sanitizeLlmArtifacts } from "../sanitizer";
 import { formatExamDisplay } from "../utils";
+import { isStatementOptions, hasCorruptedMatchMeta } from "../matchValidators";
+export { isStatementOptions, hasCorruptedMatchMeta };
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
  *  Supports both v2 canonical types and the new minified AI prompt schema:
@@ -54,6 +56,23 @@ export const questionSchema = z
           code: z.ZodIssueCode.custom,
           message: `correctAnswer "${q.correctAnswer}" not found in options`,
           path: ["correctAnswer"],
+        });
+      }
+    }
+
+    if (q.type === "match_following") {
+      if (isStatementOptions(q.options)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: 'Questions with statement evaluation options cannot be "match_following". Must be "mcq".',
+          path: ["type"],
+        });
+      }
+      if (hasCorruptedMatchMeta(q.meta)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: 'Match question has corrupted left/right lists or invalid numeric markers in lists.',
+          path: ["meta"],
         });
       }
     }
@@ -348,8 +367,11 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     const rawType: string = String(raw.t ?? raw.type ?? "").toLowerCase().trim();
     let type: AcceptedQuestionType = MINIFIED_TYPE_MAP[rawType] ?? (questionTypeSchema.options.includes(rawType as any) ? (rawType as AcceptedQuestionType) : "mcq");
 
-    // Auto-detect match questions if type is generic mcq or omitted
-    if (type === "mcq") {
+    // Guard: Statement evaluation options (e.g. "a और d", "1 और 2 सही हैं", "केवल 1") should NEVER be match_following
+    const hasStatementOpts = isStatementOptions(options);
+
+    // Auto-detect match questions if type is generic mcq or omitted (only if NOT statement options)
+    if (type === "mcq" && !hasStatementOpts) {
       const isMatchLike =
         /(?:सूची\s*[-–—:\s]*(?:I|1|A)|List\s*[-–—:\s]*(?:I|1|A)|सुमेलित\s*(?:करें|कीजिए)|सुमेलन)/i.test(questionText) ||
         (Array.isArray(options) && options.length === 4 && options.every(o => /[a-dA-D\d]\s*[-–—:]\s*[I-Vi-v\d]/.test(o.text)));
@@ -425,34 +447,51 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     // Meta handling for match questions
     let meta: any = raw.meta ?? undefined;
     if (type === "match_following") {
-      const existingLeft = meta?.left ?? meta?.columnA;
-      const existingRight = meta?.right ?? meta?.columnB;
-
-      // Check if existing meta has valid, non-empty lists
-      const hasValidMeta =
-        Array.isArray(existingLeft) && existingLeft.length > 0 &&
-        Array.isArray(existingRight) && existingRight.length > 0;
-
-      if (hasValidMeta) {
-        // Normalize existing lists to { id, text } format
-        meta = {
-          ...(meta || {}),
-          left: normalizeMetaList(existingLeft, "left"),
-          right: normalizeMetaList(existingRight, "right"),
-        };
+      if (hasStatementOpts) {
+        type = "mcq";
+        if (meta) {
+          delete meta.left;
+          delete meta.right;
+          delete meta.leftTitle;
+          delete meta.rightTitle;
+        }
       } else {
-        // Extract from questionText
-        const extracted = extractMatchListsFromText(questionText);
-        if (extracted.left.length > 0 || extracted.right.length > 0) {
+        const existingLeft = meta?.left ?? meta?.columnA;
+        const existingRight = meta?.right ?? meta?.columnB;
+
+        // Check if existing meta has valid, non-empty lists
+        const hasValidMeta =
+          Array.isArray(existingLeft) && existingLeft.length > 0 &&
+          Array.isArray(existingRight) && existingRight.length > 0 &&
+          !hasCorruptedMatchMeta({ left: existingLeft, right: existingRight });
+
+        if (hasValidMeta) {
+          // Normalize existing lists to { id, text } format
           meta = {
             ...(meta || {}),
-            left: extracted.left,
-            right: extracted.right,
-            ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
-            ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
+            left: normalizeMetaList(existingLeft, "left"),
+            right: normalizeMetaList(existingRight, "right"),
           };
         } else {
-          meta = { ...(meta || {}), left: [], right: [] };
+          // Extract from questionText
+          const extracted = extractMatchListsFromText(questionText);
+          if ((extracted.left.length >= 2 || extracted.right.length >= 2) && !hasCorruptedMatchMeta(extracted)) {
+            meta = {
+              ...(meta || {}),
+              left: extracted.left,
+              right: extracted.right,
+              ...(extracted.leftTitle ? { leftTitle: extracted.leftTitle } : {}),
+              ...(extracted.rightTitle ? { rightTitle: extracted.rightTitle } : {}),
+            };
+          } else {
+            type = "mcq";
+            if (meta) {
+              delete meta.left;
+              delete meta.right;
+              delete meta.leftTitle;
+              delete meta.rightTitle;
+            }
+          }
         }
       }
     }
@@ -584,6 +623,16 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
         computedReference = `📌 RajasthanGyan`;
       } else if (sourceType !== "AI_NEW") {
         computedReference = `📌 ${sourceType}`;
+      }
+    }
+
+    if (type === "match_following" && (hasStatementOpts || hasCorruptedMatchMeta(meta))) {
+      type = "mcq";
+      if (meta) {
+        delete meta.left;
+        delete meta.right;
+        delete meta.leftTitle;
+        delete meta.rightTitle;
       }
     }
 

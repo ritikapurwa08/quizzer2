@@ -8,8 +8,18 @@ export interface ExtractedMatch {
   right: Array<{ id: string; text: string }>;
 }
 
-export const SEQUENCE_KEYWORDS_REGEX =
-  /(?:arrangement|arrange|rearrange|meaningful sentence|chronological|order of the following|कालक्रमानुसार|कालानुक्रम|कालक्रम|व्यवस्थित\s*(?:कीजिए|कीजिये|किजीए|करें)|अवरोही\s*क्रम|आरोही\s*क्रम|सही\s*(?:भौगोलिक\s*)?क्रम|बढ़ते\s*क्रम|घटते\s*क्रम)/i;
+export {
+  SEQUENCE_KEYWORDS_REGEX,
+  STATEMENT_EVALUATION_REGEX,
+  isStatementOptions,
+  hasCorruptedMatchMeta,
+} from "./matchValidators";
+import {
+  SEQUENCE_KEYWORDS_REGEX,
+  STATEMENT_EVALUATION_REGEX,
+  isStatementOptions,
+  hasCorruptedMatchMeta,
+} from "./matchValidators";
 
 function filterProgressiveMarkers(
   markers: Array<{ token: string; id: string; index: number; length: number }>
@@ -70,6 +80,15 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
     return null;
   }
 
+  // If text is a statement evaluation question and lacks explicit match table headers, it is NOT a match question
+  const hasExplicitMatchHeader =
+    /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:सुमेलित\s*(?:करें|कीजिए|कीजिये|किजीए)|मिलान\s*(?:करें|कीजिए|कीजिये|किजीए))/iu.test(
+      text
+    );
+  if (STATEMENT_EVALUATION_REGEX.test(text) && !hasExplicitMatchHeader) {
+    return null;
+  }
+
   // Mask out headers like सूची-1, सूची-2, तालिका-1, तालिका-2, सारणी-1, List-1, etc.
   const masked = text.replace(
     /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:[12]|I{1,2}|[AB])(?:\s*\([^)]*\))?/gi,
@@ -77,13 +96,13 @@ export function extractMatchQuestionData(rawText: string): ExtractedMatch | null
   );
 
   // Regex to find markers:
-  // 1. Bracketed markers: (1), (a), (अ), (i), (I)
+  // 1. Bracketed markers: (1..8), (a..e), (अ..द), (i..viii), (I..VIII)
   // 2. Letter markers: अ., ब., स., द., a., b., c., d.
-  // 3. Digit markers: 1., 2., 3., 4., 5.
+  // 3. Digit markers: 1..8 ONLY (never multi-digit numbers like 921.)
   // 4. Roman numeral markers: i., ii., iii., iv., I., II., III., IV.
   // 5. Bare digit marker: 1..5 followed by space and Devanagari text
   const markerRegex =
-    /(?:\(([0-9ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f]+)\)|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([0-9\u0967-\u096f]+)[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])((?:[ivxlc]+|[IVXLC]+))[.)\-:]|(?<=\s|^|[)\]:\-–—\u0900-\u097f])([1-5])\s+(?=[\u0900-\u097f]))/g;
+    /(?:\(([1-8ivxlcIVXLCa-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918\u0967-\u096f])\)|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([a-eA-E\u0905\u092c\u0938\u0926\u0915-\u0918])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])([1-8\u0967-\u096f])[.)\-:]|(?<=^|\s|[\n\r:\-–—\u0900-\u097f])((?:[ivxlc]{1,4}|[IVXLC]{1,4}))[.)\-:]|(?<=\s|^|[)\]:\-–—\u0900-\u097f])([1-5])\s+(?=[\u0900-\u097f]))/gu;
 
   const markers: Array<{ token: string; id: string; index: number; length: number }> = [];
   let m: RegExpExecArray | null;
@@ -351,7 +370,39 @@ export function enrichQuestionStructure(q: any): any {
     }
   }
 
-  // 3. Match Question Check
+  // 3. Statement MCQ Quality Gate Guard
+  // Questions with statement evaluation options ('1 और 2 सही हैं', 'a और d', 'केवल 1') or corrupted meta
+  // MUST NEVER be treated as match questions! Revert immediately to pure MCQ.
+  const isStatementMcq =
+    isStatementOptions(q.options) ||
+    hasCorruptedMatchMeta(meta) ||
+    (STATEMENT_EVALUATION_REGEX.test(rawText) &&
+      !/(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table)\s*[-–—:\s]*(?:1|I|A)|(?:सुमेलित\s*(?:करें|कीजिए|कीजिये)|मिलान\s*(?:करें|कीजिए|कीजिये))/iu.test(
+        rawText
+      ));
+
+  if (isStatementMcq) {
+    if (meta.rawQuestionText) {
+      questionText = meta.rawQuestionText;
+    }
+    delete meta.left;
+    delete meta.right;
+    delete meta.leftTitle;
+    delete meta.rightTitle;
+    delete meta.headers;
+    delete meta.rows;
+    delete meta.items;
+
+    return {
+      ...q,
+      type: "mcq",
+      questionText,
+      question: questionText,
+      meta,
+    };
+  }
+
+  // 4. Match Question Check
   const hasExistingMatchMeta = Boolean(meta.left && meta.left.length >= 2 && meta.right && meta.right.length >= 2);
   const isMatchCandidate =
     hasExistingMatchMeta ||

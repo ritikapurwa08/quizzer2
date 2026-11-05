@@ -97,6 +97,7 @@ export default function QuizPage() {
         if (typeof window !== "undefined") {
           try {
             localStorage.setItem(indexStorageKey, String(next));
+            window.scrollTo({ top: 0, behavior: "instant" });
           } catch { }
         }
         return next;
@@ -302,9 +303,9 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6">
+    <div className="flex flex-col lg:flex-row items-start gap-6">
       {/* ── Main question column (Top is 100% clean, question starts immediately) ── */}
-      <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0">
+      <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0 min-h-[580px]">
 
         {/* ── Desktop Header: title below border (Hidden on mobile) ── */}
         <div className="hidden lg:block border-b border-border/60 pb-2">

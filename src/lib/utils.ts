@@ -162,6 +162,80 @@ export function cleanQuestionPrompt(text: string, type?: string): string {
 }
 
 /**
+ * Formats question stems for readability by injecting clean double linebreaks (\n\n)
+ * before Assertion, Reason, numbered statements, and closing prompts.
+ * Fixes single run-on paragraph text in assertion-reason and multi-statement questions.
+ */
+export function formatReadableQuestionText(text?: string | null, type?: string): string {
+  if (!text) return "";
+  let formatted = text.trim();
+
+  // If it's a match question and already handled by QuestionShell/cleanQuestionPrompt, preserve text
+  if (type === "match_following") {
+    return formatted;
+  }
+
+  // 1. Separate actual Assertion statement: e.g. ';अभिकथन A:' or '।अभिकथन (A):'
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(अभिकथन\s*(?:\([A-Za-z0-9]+\)|[A-Za-z0-9]+)?\s*[:\-–—])/g,
+    "$1\n\n$2 "
+  );
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(Assertion\s*(?:\([A-Za-z0-9]+\)|[A-Za-z0-9]+)?\s*[:\-–—])/gi,
+    "$1\n\n$2 "
+  );
+
+  // 2. Separate Reason statement: e.g. '।कारण R:' or ';कारण (R):'
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(कारण\s*(?:\([A-Za-z0-9]+\)|[A-Za-z0-9]+)?\s*[:\-–—])/g,
+    "$1\n\n$2 "
+  );
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(Reason\s*(?:\([A-Za-z0-9]+\)|[A-Za-z0-9]+)?\s*[:\-–—])/gi,
+    "$1\n\n$2 "
+  );
+
+  // 3. Separate numbered/roman statements: e.g. '।कथन I:', '।कथन (1):'
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(कथन\s*(?:\([I-Vi-v0-9A-Za-z]+\)|[I-Vi-v0-9A-Za-z]+)\s*[:\-–—])/g,
+    "$1\n\n$2 "
+  );
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(Statement\s*(?:\([I-Vi-v0-9A-Za-z]+\)|[I-Vi-v0-9A-Za-z]+)\s*[:\-–—])/gi,
+    "$1\n\n$2 "
+  );
+
+  // 4. Parenthesized markers or numbered markers: e.g. '।(1)', '।(i)'
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(\((?:[1-9]|10|[iIvVxX]{1,4}|[A-Da-d\u0915-\u0918])\)\s*)/g,
+    "$1\n\n$2 "
+  );
+
+  // 5. Separate list items e.g. "-1. ", " 1. ", "। 1. "
+  formatted = formatted.replace(
+    /([;।.—–-]|\s)\s*([1-9]\s*[.)\-:]\s+)/g,
+    "$1\n$2"
+  );
+
+  // 6. Separate conclusion prompt: e.g. 'उपरोक्त कथन के आलोक में...'
+  formatted = formatted.replace(
+    /([;।.]|\s)\s*(उपरोक्त\s*कथन(?:ों)?\s*के\s*आलोक\s*में|उपर्युक्त\s*कथन(?:ों)?\s*के\s*आलोक\s*में|उपरोक्त\s*में\s*से\s*कौन|उपर्युक्त\s*में\s*से\s*कौन|In\s*the\s*light\s*of\s*the\s*above\s*statements?|Choose\s*the\s*(?:most\s*)?appropriate\s*answer|नीचे\s*दिए\s*(?:हुए|गए)\s*(?:कूट|कूटों|विकल्प|विकल्पों))/gi,
+    "$1\n\n$2"
+  );
+
+  // Clean semicolons followed by double newlines to colons: e.g. "रूप में;\n\n" -> "रूप में:\n\n"
+  formatted = formatted.replace(/;\s*\n\n/g, ":\n\n");
+
+  // Clean excessive spaces and newlines
+  formatted = formatted
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+  return formatted;
+}
+
+/**
  * Intelligently shuffles options and balances correct answer distribution
  * across an entire set of questions, eliminating repetitive answer keys.
  * Supports both 4-option and 5-option questions dynamically.
