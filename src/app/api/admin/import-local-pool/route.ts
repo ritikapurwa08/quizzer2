@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
-import path from "path";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
@@ -10,10 +10,7 @@ export async function GET(request: NextRequest) {
     const page = Math.max(0, parseInt(searchParams.get("page") || "0", 10));
     const pageSize = Math.min(1000, Math.max(50, parseInt(searchParams.get("pageSize") || "500", 10)));
 
-    let poolPath = path.join(process.cwd(), "data", "master-pool", "master-pool.json");
-    if (!fs.existsSync(poolPath)) {
-      poolPath = path.join(process.cwd(), "data", "ddd", "dedup", "master-pool-final.json");
-    }
+    const poolPath = DATA_PATHS.masterPool;
     if (!fs.existsSync(poolPath)) {
       return NextResponse.json({ success: false, error: "master-pool.json not found" }, { status: 404 });
     }

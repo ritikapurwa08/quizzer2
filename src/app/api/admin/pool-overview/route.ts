@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { RAJASTHAN_GK_MASTER_SECTIONS } from "@/lib/constants/rajasthanGkMasterTopics";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
@@ -10,9 +11,8 @@ let _publishedSetsData: any[] | null = null;
 let _topicIdMapping: Record<string, string> | null = null;
 
 function loadLocalSetsData() {
-  const cwd = process.cwd();
   if (!_publishedSetsData) {
-    const publishedPath = path.join(cwd, "data", "master-pool", "published-sets.json");
+    const publishedPath = DATA_PATHS.publishedSets;
     if (fs.existsSync(publishedPath)) {
       try {
         _publishedSetsData = JSON.parse(fs.readFileSync(publishedPath, "utf-8"));
@@ -26,7 +26,7 @@ function loadLocalSetsData() {
   }
 
   if (!_topicIdMapping) {
-    const mapPath = path.join(cwd, "data", "master-pool", "topic-id-mapping.json");
+    const mapPath = DATA_PATHS.topicIdMapping;
     if (fs.existsSync(mapPath)) {
       try {
         _topicIdMapping = JSON.parse(fs.readFileSync(mapPath, "utf-8"));
@@ -44,9 +44,8 @@ function loadLocalSetsData() {
 
 export async function GET() {
   try {
-    const cwd = process.cwd();
-    const gkTopicsDir = path.join(cwd, "data", "ddd", "topics");
-    const poolStateFile = path.join(cwd, "data", "ddd", "pool-state.json");
+    const gkTopicsDir = DATA_PATHS.gkTopicsDir;
+    const poolStateFile = DATA_PATHS.poolState;
 
     let poolState: any = null;
     if (fs.existsSync(poolStateFile)) {
@@ -115,7 +114,7 @@ export async function GET() {
         try {
           if (fs.existsSync(gkTopicsDir)) {
             const files = fs.readdirSync(gkTopicsDir);
-            const fileName = files.find((f) => f.startsWith(`${padId}_`) && f.endsWith(".json"));
+            const fileName = files.find((f) => (f === `topic_${padId}.json` || f.startsWith(`${padId}_`)) && f.endsWith(".json"));
             if (fileName) {
               const fileData = JSON.parse(fs.readFileSync(path.join(gkTopicsDir, fileName), "utf-8"));
               const questions: any[] = fileData.questions || [];

@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Google_Sans } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -13,43 +12,6 @@ const googleSans = Google_Sans({
   subsets: ["latin", "devanagari"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-google-sans",
-  display: "swap",
-});
-
-const utsaah = localFont({
-  src: [
-    {
-      path: "../../public/utsaah/utsaah.woff",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../public/utsaah/utsaah.woff",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../public/utsaah/utsaahb.woff",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../public/utsaah/utsaahb.woff",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../../public/utsaah/utsaahi.woff",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../../public/utsaah/utsaahbi.woff",
-      weight: "700",
-      style: "italic",
-    },
-  ],
-  variable: "--font-utsaah",
   display: "swap",
 });
 
@@ -93,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html
         lang="hi"
         suppressHydrationWarning
-        className={`${googleSans.variable} ${utsaah.variable}`}
+        className={googleSans.variable}
       >
         <body>
           <ThemeProvider

@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
 import { healOptionText } from "@/lib/optionTextHealer";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
@@ -44,7 +45,7 @@ function getPublishedSetsMap(): Map<string, any> {
   if (_setsCache) return _setsCache;
 
   const map = new Map<string, any>();
-  const setsFilePath = path.join(process.cwd(), "data", "master-pool", "published-sets.json");
+  const setsFilePath = DATA_PATHS.publishedSets;
 
   if (fs.existsSync(setsFilePath)) {
     try {

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
@@ -36,7 +37,7 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
   const cwd = process.cwd();
 
   try {
-    const publishedSetsPath = path.join(cwd, "data", "master-pool", "published-sets.json");
+    const publishedSetsPath = DATA_PATHS.publishedSets;
     if (fs.existsSync(publishedSetsPath)) {
       const sets: any[] = JSON.parse(fs.readFileSync(publishedSetsPath, "utf-8"));
       for (const s of sets) {
@@ -80,7 +81,7 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
       }
     }
 
-    const masterPoolPath = path.join(cwd, "data", "master-pool", "master-pool.json");
+    const masterPoolPath = DATA_PATHS.masterPool;
     if (fs.existsSync(masterPoolPath)) {
       const pool: any[] = JSON.parse(fs.readFileSync(masterPoolPath, "utf-8"));
       for (const rawP of pool) {
@@ -123,7 +124,7 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
       }
     }
 
-    const idMappingPath = path.join(cwd, "data", "master-pool", "id-mapping.json");
+    const idMappingPath = DATA_PATHS.idMapping;
     if (fs.existsSync(idMappingPath)) {
       const idMap: Record<string, string> = JSON.parse(fs.readFileSync(idMappingPath, "utf-8"));
       for (const [k, v] of Object.entries(idMap)) {
@@ -134,7 +135,7 @@ function getQuestionsCache(): Map<string, NormalizedQuestion> {
     }
 
     // 4. Index individual topic files for any unassigned questions
-    const topicsDir = path.join(cwd, "data", "ddd", "topics");
+    const topicsDir = DATA_PATHS.gkTopicsDir;
     if (fs.existsSync(topicsDir)) {
       const topicFiles = fs.readdirSync(topicsDir).filter((f) => f.endsWith(".json"));
       for (const tf of topicFiles) {

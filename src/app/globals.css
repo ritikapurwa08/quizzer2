@@ -42,49 +42,7 @@
 
   --font-sans: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   --font-heading: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
-  --font-utsaah: var(--font-utsaah), "Utsaah", system-ui, sans-serif;
-  --font-hindi: var(--font-utsaah), "Utsaah", var(--font-google-sans), "Google Sans", system-ui, sans-serif;
-}
-
-/* ── Local Utsaah Font-Face Fallback Declarations ── */
-@font-face {
-  font-family: "Utsaah";
-  src: url("/utsaah/utsaah.woff") format("woff"),
-       url("/utsaah/utsaah.ttf") format("truetype");
-  font-weight: 400 500;
-  font-style: normal;
-  font-display: swap;
-  size-adjust: 130%;
-}
-
-@font-face {
-  font-family: "Utsaah";
-  src: url("/utsaah/utsaahb.woff") format("woff"),
-       url("/utsaah/utsaahb.ttf") format("truetype");
-  font-weight: 600 700 800 900;
-  font-style: normal;
-  font-display: swap;
-  size-adjust: 130%;
-}
-
-@font-face {
-  font-family: "Utsaah";
-  src: url("/utsaah/utsaahi.woff") format("woff"),
-       url("/utsaah/utsaahi.ttf") format("truetype");
-  font-weight: 400 500;
-  font-style: italic;
-  font-display: swap;
-  size-adjust: 130%;
-}
-
-@font-face {
-  font-family: "Utsaah";
-  src: url("/utsaah/utsaahbi.woff") format("woff"),
-       url("/utsaah/utsaahbi.ttf") format("truetype");
-  font-weight: 600 700 800 900;
-  font-style: italic;
-  font-display: swap;
-  size-adjust: 130%;
+  --font-hindi: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
 }
 
 :root {
@@ -209,10 +167,9 @@ button {
 
 .font-hindi,
 .font-hindi * {
-  font-family: var(--font-utsaah), "Utsaah", var(--font-google-sans), "Google Sans", "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+  font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif;
   letter-spacing: normal !important;
   line-height: 1.75;
-  font-size: 1.1em;
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1 !important;
   font-variant-ligatures: normal !important;
   text-rendering: optimizeLegibility !important;
@@ -393,7 +350,7 @@ pre {
   body {
     background: #ffffff !important;
     color: #09090b !important;
-    font-family: var(--font-utsaah), "Utsaah", var(--font-google-sans), "Google Sans", var(--font-anek-devanagari), "Anek Devanagari", "Noto Sans Devanagari", "Noto Sans", "Nirmala UI", system-ui, sans-serif !important;
+    font-family: var(--font-google-sans), "Google Sans", system-ui, sans-serif !important;
     margin: 0 !important;
     padding: 0 !important;
     -webkit-print-color-adjust: exact !important;

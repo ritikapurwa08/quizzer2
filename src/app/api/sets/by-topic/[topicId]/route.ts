@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export const dynamic = "force-dynamic";
 
@@ -9,7 +10,7 @@ let _setsListCache: any[] | null = null;
 function getPublishedSetsList(): any[] {
   if (_setsListCache) return _setsListCache;
 
-  const setsFilePath = path.join(process.cwd(), "data", "master-pool", "published-sets.json");
+  const setsFilePath = DATA_PATHS.publishedSets;
   if (fs.existsSync(setsFilePath)) {
     try {
       const raw = fs.readFileSync(setsFilePath, "utf-8");

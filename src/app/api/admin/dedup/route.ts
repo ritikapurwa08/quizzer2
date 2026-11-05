@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
-const DEDUP_DIR = path.join(process.cwd(), "data", "ddd", "dedup");
+const DEDUP_DIR = path.join(process.cwd(), "data", "sets", "dedup");
 const REVIEWS_FILE = path.join(DEDUP_DIR, "user-reviews.json");
 const REVIEW_PAIRS_FILE = path.join(DEDUP_DIR, "review-pairs.json");
 const DEDUP_GROUPS_FILE = path.join(DEDUP_DIR, "dedup-groups.json");
@@ -39,7 +40,7 @@ export async function GET(req: NextRequest) {
       });
     }
     if (exportType === "master") {
-      const masterFile = path.join(process.cwd(), "data", "master-pool", "master-pool.json");
+      const masterFile = DATA_PATHS.masterPool;
       if (fs.existsSync(masterFile)) {
         const content = fs.readFileSync(masterFile, "utf-8");
         return new Response(content, {

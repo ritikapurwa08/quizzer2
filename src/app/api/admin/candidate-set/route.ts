@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+import { DATA_PATHS } from "@/lib/dataPaths";
 import { comparePoolQuestions } from "@/lib/pool/sortQuestions";
 import { hasConvexBackup, getBackupExistingQuestionIds } from "@/lib/convex-backup";
 
@@ -49,11 +50,11 @@ export async function GET(request: NextRequest) {
     const candidateFileRaw = path.join(candidatesDirRaw, `candidate-set-${padSet}.json`);
 
     const poolStateFile = isEnglish
-      ? path.join(projectRoot, "data", "ddd", "english", "pool-state.json")
-      : path.join(projectRoot, "data", "ddd", "pool-state.json");
+      ? path.join(DATA_PATHS.englishDir, "pool-state.json")
+      : DATA_PATHS.poolState;
     const topicsDir = isEnglish
-      ? path.join(projectRoot, "data", "ddd", "english", "topics")
-      : path.join(projectRoot, "data", "ddd", "topics");
+      ? path.join(DATA_PATHS.englishDir, "topics")
+      : DATA_PATHS.gkTopicsDir;
 
     let candidateQuestions: any[] = [];
 
@@ -79,7 +80,9 @@ export async function GET(request: NextRequest) {
         // Find topic file in topicsDir
         const files = fs.readdirSync(topicsDir);
         const prefix = `${padTopic}_`;
-        const topicFileName = files.find((f) => f.startsWith(prefix) && f.endsWith(".json"));
+        const topicFileName = files.find(
+          (f) => (f === `topic_${padTopic}.json` || f.startsWith(prefix)) && f.endsWith(".json")
+        );
 
         if (topicFileName) {
           const topicFilePath = path.join(topicsDir, topicFileName);

@@ -1464,7 +1464,7 @@ export default function DedupReviewStationPage() {
                 {/* Submit & Next Button */}
                 <div className="flex items-center justify-between pt-1">
                   <span className="text-[11px] text-muted-foreground">
-                    Persists directly to <code>data/ddd/dedup/user-reviews.json</code>
+                    Persists directly to <code>data/sets/dedup/user-reviews.json</code>
                   </span>
                   <Button
                     type="button"
@@ -1672,7 +1672,7 @@ export default function DedupReviewStationPage() {
               <DialogDescription className="text-xs text-muted-foreground">
                 Paste the JSON array response received from ChatGPT, Claude, or Gemini for any batch from{" "}
                 <code className="text-primary font-mono text-[11px] bg-muted px-1.5 py-0.5 rounded">
-                  data/ddd/dedup/ai_batches/
+                  data/sets/dedup/ai_batches/
                 </code>
                 .
               </DialogDescription>

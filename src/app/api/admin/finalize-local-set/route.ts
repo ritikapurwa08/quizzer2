@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
+import { DATA_PATHS } from "@/lib/dataPaths";
 
 export async function POST(request: NextRequest) {
   try {
@@ -23,20 +24,15 @@ export async function POST(request: NextRequest) {
     }
 
     const isEnglish = masterTopicId >= 56 && masterTopicId <= 88;
-    const projectRoot = process.cwd();
     const poolStateFile = isEnglish
-      ? path.join(projectRoot, "data", "ddd", "english", "pool-state.json")
-      : path.join(projectRoot, "data", "ddd", "pool-state.json");
-    const setsDir = isEnglish
-      ? path.join(projectRoot, "data", "ddd", "english", "sets")
-      : path.join(projectRoot, "data", "ddd", "sets");
-    const historyDir = isEnglish
-      ? path.join(projectRoot, "data", "ddd", "english", "history")
-      : path.join(projectRoot, "data", "ddd", "history");
+      ? path.join(DATA_PATHS.englishDir, "pool-state.json")
+      : DATA_PATHS.poolState;
+    const setsDir = DATA_PATHS.setsDir;
+    const historyDir = path.join(DATA_PATHS.setsDir, "history");
 
     if (!fs.existsSync(poolStateFile)) {
       return NextResponse.json(
-        { success: false, message: `${isEnglish ? "data/ddd/english/" : "data/ddd/"}pool-state.json not found` },
+        { success: false, message: `pool-state.json not found at ${poolStateFile}` },
         { status: 500 }
       );
     }
@@ -148,15 +144,15 @@ export async function POST(request: NextRequest) {
       fs.writeFileSync(setFilePath, JSON.stringify(setPayload, null, 2), "utf-8");
     }
 
-    // 5.5 Sync with data/master-pool/published-sets.json for local-first retrieval
+    // 5.5 Sync with published-sets.json for local-first retrieval
     try {
-      const pubPath = path.join(projectRoot, "data", "master-pool", "published-sets.json");
+      const pubPath = DATA_PATHS.publishedSets;
       if (fs.existsSync(pubPath)) {
         const publishedSets = JSON.parse(fs.readFileSync(pubPath, "utf-8"));
         const existingIdx = publishedSets.findIndex((s: any) => s.id === setId || s.setId === setId);
         let convexTopicId = String(masterTopicId);
         try {
-          const tmapPath = path.join(projectRoot, "data", "master-pool", "topic-id-mapping.json");
+          const tmapPath = DATA_PATHS.topicIdMapping;
           if (fs.existsSync(tmapPath)) {
             const tmap = JSON.parse(fs.readFileSync(tmapPath, "utf-8"));
             if (tmap[String(masterTopicId)]) {
