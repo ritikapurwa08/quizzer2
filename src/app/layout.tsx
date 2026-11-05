@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Google_Sans, Anek_Devanagari } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { ConvexClientProvider } from "@/components/shared/ConvexClientProvider";
 import { ConvexAuthNextjsServerProvider } from "@convex-dev/auth/nextjs/server";
@@ -19,6 +20,43 @@ const anekDevanagari = Anek_Devanagari({
   subsets: ["devanagari", "latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-anek-devanagari",
+  display: "swap",
+});
+
+const utsaah = localFont({
+  src: [
+    {
+      path: "../../public/utsaah/utsaah.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/utsaah/utsaah.woff",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../public/utsaah/utsaahb.woff",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../public/utsaah/utsaahb.woff",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../public/utsaah/utsaahi.woff",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../../public/utsaah/utsaahbi.woff",
+      weight: "700",
+      style: "italic",
+    },
+  ],
+  variable: "--font-utsaah",
   display: "swap",
 });
 
@@ -62,7 +100,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <html
         lang="hi"
         suppressHydrationWarning
-        className={`${googleSans.variable} ${anekDevanagari.variable}`}
+        className={`${googleSans.variable} ${anekDevanagari.variable} ${utsaah.variable}`}
       >
         <body>
           <ThemeProvider
