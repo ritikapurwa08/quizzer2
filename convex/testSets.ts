@@ -200,22 +200,27 @@ export const nextRecommendedSets = query({
 
     const limit = args.limit ?? 6;
 
-    // 1. Check for any in-progress attempt first (resume)
+    // Helper to identify English subject vs Rajasthan GK
+    const isEnglishSubject = (name: string) => /english|अंग्रेजी/i.test(name);
+
+    // 1. Fetch user in-progress attempts (newest first)
     const inProgressAttempts = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "in_progress"))
       .order("desc")
-      .take(limit);
+      .take(10);
 
     // 2. Fetch submitted attempts (newest first)
     const submittedAttempts = await ctx.db
       .query("attempts")
       .withIndex("by_user_status", (q) => q.eq("userId", user._id).eq("status", "submitted"))
       .order("desc")
-      .take(30);
+      .take(40);
 
     const completedSetIds = new Set(submittedAttempts.map((a) => a.testSetId as string));
-    const recommendations: Array<{
+    const addedSetIds = new Set<string>();
+
+    type RecommendedItem = {
       testSetId: Id<"testSets">;
       testSetName: string;
       topicId: Id<"topics">;
@@ -225,48 +230,63 @@ export const nextRecommendedSets = query({
       questionCount: number;
       badgeText: string;
       type: "resume" | "next_in_topic" | "new_topic";
-    }> = [];
+    };
 
-    const addedSetIds = new Set<string>();
+    const gkRecommendations: RecommendedItem[] = [];
+    const englishRecommendations: RecommendedItem[] = [];
+    const seenGkTopics = new Set<string>();
+    const seenEnglishTopics = new Set<string>();
 
-    // Add up to 2 most recent in-progress attempts first (so user can easily resume them)
-    const maxResume = Math.min(2, limit);
+    // ── STEP 1: RESUME IN-PROGRESS ATTEMPTS ──
     for (const inProgress of inProgressAttempts) {
-      if (recommendations.length >= maxResume) break;
       const testSet = await ctx.db.get(inProgress.testSetId);
+      if (!testSet || addedSetIds.has(testSet._id as string)) continue;
+      const topic = await ctx.db.get(testSet.topicId);
+      if (!topic) continue;
+      const subject = await ctx.db.get(topic.subjectId);
+      if (!subject) continue;
+
+      const subName = subject.nameHindi || subject.name;
+      const isEng = isEnglishSubject(subName);
+
+      const item: RecommendedItem = {
+        testSetId: testSet._id,
+        testSetName: testSet.name,
+        topicId: topic._id,
+        topicName: topic.nameHindi || topic.name,
+        subjectId: subject._id,
+        subjectName: subName,
+        questionCount: testSet.questionCount,
+        badgeText: "Resume Attempt",
+        type: "resume",
+      };
+
+      if (isEng && englishRecommendations.length < 1) {
+        englishRecommendations.push(item);
+        addedSetIds.add(testSet._id as string);
+        seenEnglishTopics.add(topic._id as string);
+      } else if (!isEng && gkRecommendations.length < 2) {
+        gkRecommendations.push(item);
+        addedSetIds.add(testSet._id as string);
+        seenGkTopics.add(topic._id as string);
+      }
+    }
+
+    // ── STEP 2: NEXT IN SEQUENCE FOR RECENTLY SUBMITTED TOPICS ──
+    for (const sub of submittedAttempts) {
+      if (gkRecommendations.length >= 5 && englishRecommendations.length >= 1) break;
+      const testSet = await ctx.db.get(sub.testSetId);
       if (!testSet) continue;
       const topic = await ctx.db.get(testSet.topicId);
       if (!topic) continue;
       const subject = await ctx.db.get(topic.subjectId);
       if (!subject) continue;
 
-      recommendations.push({
-        testSetId: testSet._id,
-        testSetName: testSet.name,
-        topicId: topic._id,
-        topicName: topic.nameHindi || topic.name,
-        subjectId: subject._id,
-        subjectName: subject.nameHindi || subject.name,
-        questionCount: testSet.questionCount,
-        badgeText: "Resume Attempt",
-        type: "resume",
-      });
-      addedSetIds.add(testSet._id as string);
-    }
+      const subName = subject.nameHindi || subject.name;
+      const isEng = isEnglishSubject(subName);
 
-    // Track topics already represented to ensure diverse recommendations across different topics
-    const seenTopicIds = new Set<string>();
-    for (const rec of recommendations) {
-      seenTopicIds.add(rec.topicId as string);
-    }
-
-    // Now look at recently submitted attempts to find the next sequential set in that topic
-    for (const sub of submittedAttempts) {
-      if (recommendations.length >= limit) break;
-      const testSet = await ctx.db.get(sub.testSetId);
-      if (!testSet) continue;
-      const topicId = testSet.topicId as string;
-      if (seenTopicIds.has(topicId)) continue;
+      if (isEng && englishRecommendations.length >= 1) continue;
+      if (!isEng && (gkRecommendations.length >= 5 || seenGkTopics.has(topic._id as string))) continue;
 
       // Find sibling sets in this topic ordered by order
       const siblingSets = await ctx.db
@@ -275,96 +295,117 @@ export const nextRecommendedSets = query({
         .collect();
       siblingSets.sort((a, b) => a.order - b.order);
 
-      // Find the first sibling set with order > current set's order that hasn't been completed
       const nextSet = siblingSets.find(
         (s) => s.order > testSet.order && !completedSetIds.has(s._id as string) && !addedSetIds.has(s._id as string)
       );
+
       if (nextSet) {
-        const topic = await ctx.db.get(nextSet.topicId);
-        if (topic) {
-          const subject = await ctx.db.get(topic.subjectId);
-          if (subject) {
-            recommendations.push({
-              testSetId: nextSet._id,
-              testSetName: nextSet.name,
-              topicId: topic._id,
-              topicName: topic.nameHindi || topic.name,
-              subjectId: subject._id,
-              subjectName: subject.nameHindi || subject.name,
-              questionCount: nextSet.questionCount,
-              badgeText: "Next in Sequence",
-              type: "next_in_topic",
-            });
-            addedSetIds.add(nextSet._id as string);
-            seenTopicIds.add(topic._id as string);
-          }
+        const item: RecommendedItem = {
+          testSetId: nextSet._id,
+          testSetName: nextSet.name,
+          topicId: topic._id,
+          topicName: topic.nameHindi || topic.name,
+          subjectId: subject._id,
+          subjectName: subName,
+          questionCount: nextSet.questionCount,
+          badgeText: "Next in Sequence",
+          type: "next_in_topic",
+        };
+
+        if (isEng && englishRecommendations.length < 1) {
+          englishRecommendations.push(item);
+          addedSetIds.add(nextSet._id as string);
+          seenEnglishTopics.add(topic._id as string);
+        } else if (!isEng && gkRecommendations.length < 5) {
+          gkRecommendations.push(item);
+          addedSetIds.add(nextSet._id as string);
+          seenGkTopics.add(topic._id as string);
         }
       }
     }
 
-    // If still need more to reach limit, recommend fresh unattempted sets
-    // Pass 1: Prioritize sets from topics NOT YET shown (enforces topic diversity, avoids duplicate parts)
-    if (recommendations.length < limit) {
-      const allSets = await ctx.db.query("testSets").take(150);
+    // ── STEP 3: FRESH UNATTEMPTED SETS (TARGET: 4-5 GK + 1 ENGLISH) ──
+    const targetGkCount = 5;
+    if (gkRecommendations.length < targetGkCount || englishRecommendations.length < 1) {
+      const allSets = await ctx.db.query("testSets").take(200);
 
-      // Diverse topic pass
+      // Pass 3A: Diverse topics pass
       for (const set of allSets) {
-        if (recommendations.length >= limit) break;
-        const topicId = set.topicId as string;
-        if (seenTopicIds.has(topicId)) continue;
+        if (gkRecommendations.length >= targetGkCount && englishRecommendations.length >= 1) break;
+        if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0) {
+          continue;
+        }
 
-        if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
-          const topic = await ctx.db.get(set.topicId);
-          if (topic) {
-            const subject = await ctx.db.get(topic.subjectId);
-            if (subject) {
-              recommendations.push({
-                testSetId: set._id,
-                testSetName: set.name,
-                topicId: topic._id,
-                topicName: topic.nameHindi || topic.name,
-                subjectId: subject._id,
-                subjectName: subject.nameHindi || subject.name,
-                questionCount: set.questionCount,
-                badgeText: "Recommended Practice",
-                type: "new_topic",
-              });
-              addedSetIds.add(set._id as string);
-              seenTopicIds.add(topic._id as string);
-            }
-          }
+        const topic = await ctx.db.get(set.topicId);
+        if (!topic) continue;
+        const subject = await ctx.db.get(topic.subjectId);
+        if (!subject) continue;
+
+        const subName = subject.nameHindi || subject.name;
+        const isEng = isEnglishSubject(subName);
+
+        if (isEng && englishRecommendations.length < 1) {
+          englishRecommendations.push({
+            testSetId: set._id,
+            testSetName: set.name,
+            topicId: topic._id,
+            topicName: topic.nameHindi || topic.name,
+            subjectId: subject._id,
+            subjectName: subName,
+            questionCount: set.questionCount,
+            badgeText: "Recommended Practice",
+            type: "new_topic",
+          });
+          addedSetIds.add(set._id as string);
+          seenEnglishTopics.add(topic._id as string);
+        } else if (!isEng && gkRecommendations.length < targetGkCount && !seenGkTopics.has(topic._id as string)) {
+          gkRecommendations.push({
+            testSetId: set._id,
+            testSetName: set.name,
+            topicId: topic._id,
+            topicName: topic.nameHindi || topic.name,
+            subjectId: subject._id,
+            subjectName: subName,
+            questionCount: set.questionCount,
+            badgeText: "Recommended Practice",
+            type: "new_topic",
+          });
+          addedSetIds.add(set._id as string);
+          seenGkTopics.add(topic._id as string);
         }
       }
 
-      // Pass 2: Fallback if under limit (rare case where all available topics already have a card)
-      if (recommendations.length < limit) {
+      // Pass 3B: Fallback if GK still under 4 (allows non-distinct GK topics if catalog is small)
+      if (gkRecommendations.length < 4) {
         for (const set of allSets) {
-          if (recommendations.length >= limit) break;
-          if (!completedSetIds.has(set._id as string) && !addedSetIds.has(set._id as string) && set.questionCount > 0) {
-            const topic = await ctx.db.get(set.topicId);
-            if (topic) {
-              const subject = await ctx.db.get(topic.subjectId);
-              if (subject) {
-                recommendations.push({
-                  testSetId: set._id,
-                  testSetName: set.name,
-                  topicId: topic._id,
-                  topicName: topic.nameHindi || topic.name,
-                  subjectId: subject._id,
-                  subjectName: subject.nameHindi || subject.name,
-                  questionCount: set.questionCount,
-                  badgeText: "Recommended Practice",
-                  type: "new_topic",
-                });
-                addedSetIds.add(set._id as string);
-              }
-            }
+          if (gkRecommendations.length >= targetGkCount) break;
+          if (completedSetIds.has(set._id as string) || addedSetIds.has(set._id as string) || set.questionCount === 0) {
+            continue;
           }
+          const topic = await ctx.db.get(set.topicId);
+          if (!topic) continue;
+          const subject = await ctx.db.get(topic.subjectId);
+          if (!subject || isEnglishSubject(subject.nameHindi || subject.name)) continue;
+
+          gkRecommendations.push({
+            testSetId: set._id,
+            testSetName: set.name,
+            topicId: topic._id,
+            topicName: topic.nameHindi || topic.name,
+            subjectId: subject._id,
+            subjectName: subject.nameHindi || subject.name,
+            questionCount: set.questionCount,
+            badgeText: "Recommended Practice",
+            type: "new_topic",
+          });
+          addedSetIds.add(set._id as string);
         }
       }
     }
 
-    return recommendations;
+    // Combine: 4-5 Rajasthan GK sets first, plus 1 English set
+    // Total: 5 sets (3 in row 1, 2 in row 2) or 6 sets (3 in row 1, 3 in row 2)
+    return [...gkRecommendations, ...englishRecommendations].slice(0, limit);
   },
 });
 

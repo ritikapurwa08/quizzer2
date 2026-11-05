@@ -53,15 +53,19 @@ export function ContinuePracticeCard() {
         <div className="flex items-center justify-between">
           <Skeleton className="h-4 w-52 rounded" />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
           {Array.from({ length: 6 }).map((_, i) => (
-            <Card key={i} className="p-3.5 rounded-2xl border border-border/70 bg-card space-y-2.5">
+            <Card key={i} className="p-4 sm:p-4.5 rounded-2xl border border-border/70 bg-card space-y-3">
               <div className="flex items-center justify-between">
-                <Skeleton className="h-4 w-16 rounded" />
-                <Skeleton className="h-4 w-12 rounded" />
+                <Skeleton className="h-4 w-20 rounded" />
+                <Skeleton className="h-4 w-14 rounded" />
               </div>
-              <Skeleton className="h-8 w-full rounded" />
-              <Skeleton className="h-7.5 w-full rounded-lg" />
+              <Skeleton className="h-9 w-full rounded" />
+              <div className="flex items-center justify-between">
+                <Skeleton className="h-3.5 w-12 rounded" />
+                <Skeleton className="h-3.5 w-16 rounded" />
+              </div>
+              <Skeleton className="h-8.5 w-full rounded-xl" />
             </Card>
           ))}
         </div>
@@ -90,8 +94,8 @@ export function ContinuePracticeCard() {
         </Link>
       </div>
 
-      {/* 5-6 Columns Responsive Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+      {/* 3-Column Responsive Grid (3 in Row 1, 2 or 3 in Row 2 — Spacious & No Collision) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-4">
         {recommendations.map((rec) => {
           const SectionIcon = getSubjectSectionIcon(rec.subjectName);
           const shortSubject = getShortSubjectTag(rec.subjectName);
@@ -106,23 +110,23 @@ export function ContinuePracticeCard() {
             >
               <Card
                 className={cn(
-                  "p-3.5 rounded-2xl border transition-all flex flex-col justify-between gap-2.5 h-full relative select-none",
+                  "p-4 sm:p-4.5 rounded-2xl border transition-all flex flex-col justify-between gap-3 h-full relative select-none",
                   isResume
                     ? "border-amber-500/30 bg-amber-500/[0.03] hover:border-amber-500/50 hover:bg-amber-500/[0.06]"
-                    : "border-border/80 bg-card/80 hover:border-primary/50 hover:bg-card",
+                    : "border-border/80 bg-card hover:border-primary/40 hover:bg-card/90",
                   "shadow-2xs hover:shadow-xs"
                 )}
               >
-                {/* Top Row: Short Subject Tag + Prominent Part Pill */}
-                <div className="flex items-center justify-between gap-1.5">
-                  <div className="flex items-center gap-1.5 min-w-0">
+                {/* Top Row: Subject Tag + Section Icon + Part Badge */}
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-2 min-w-0">
                     <SectionIcon
                       className={cn(
-                        "h-3.5 w-3.5 shrink-0 transition-colors",
+                        "h-4 w-4 shrink-0 transition-colors",
                         isResume ? "text-amber-400" : "text-muted-foreground group-hover:text-primary"
                       )}
                     />
-                    <span className="text-[11px] font-semibold text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
+                    <span className="text-xs font-semibold text-muted-foreground group-hover:text-foreground transition-colors font-hindi truncate">
                       {shortSubject}
                     </span>
                   </div>
@@ -130,7 +134,7 @@ export function ContinuePracticeCard() {
                   {partLabel && (
                     <span
                       className={cn(
-                        "shrink-0 text-[10.5px] font-bold px-2 py-0.5 rounded-md font-mono tracking-tight border transition-colors",
+                        "shrink-0 text-[11px] font-bold px-2 py-0.5 rounded-md font-mono tracking-tight border transition-colors",
                         isResume
                           ? "bg-amber-500/15 text-amber-400 border-amber-500/30"
                           : "bg-muted text-foreground border-border/70 group-hover:border-primary/40"
@@ -141,10 +145,10 @@ export function ContinuePracticeCard() {
                   )}
                 </div>
 
-                {/* Title & Topic Details */}
+                {/* Title & Topic Details (Ample 2-Line Height) */}
                 <div className="my-auto min-h-[2.5rem] flex items-center">
                   <h3
-                    className="font-bold text-xs sm:text-[13px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
+                    className="font-bold text-sm sm:text-[14.5px] leading-snug text-foreground group-hover:text-primary transition-colors font-hindi line-clamp-2"
                     title={rec.testSetName}
                   >
                     {cleanTitle}
@@ -152,38 +156,38 @@ export function ContinuePracticeCard() {
                 </div>
 
                 {/* Status Meta Row */}
-                <div className="flex items-center justify-between text-[11px] pt-1">
-                  <span className="tabular-nums font-semibold text-muted-foreground">{rec.questionCount} Qs</span>
+                <div className="flex items-center justify-between text-xs pt-1 border-t border-border/40">
+                  <span className="tabular-nums font-semibold text-muted-foreground">{rec.questionCount} Questions</span>
                   {isResume ? (
-                    <span className="text-amber-400 font-semibold flex items-center gap-1.5 text-[10.5px]">
+                    <span className="text-amber-400 font-semibold flex items-center gap-1.5 text-xs">
                       <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
                       In Progress
                     </span>
                   ) : rec.type === "next_in_topic" ? (
-                    <span className="text-emerald-400 font-semibold flex items-center gap-1 text-[10.5px]">
+                    <span className="text-emerald-400 font-semibold flex items-center gap-1 text-xs">
                       <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
                       Up Next
                     </span>
                   ) : (
-                    <span className="text-muted-foreground text-[10.5px]">Practice</span>
+                    <span className="text-muted-foreground text-xs">New Practice</span>
                   )}
                 </div>
 
-                {/* Full-Width Sleek Action Button — Zero Collision, Dark-Mode Native */}
+                {/* Full-Width Sleek Action Button — Clean, Dark-Mode Native */}
                 {isResume ? (
-                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-amber-500/15 text-amber-300 border border-amber-500/30 group-hover:bg-amber-500 group-hover:text-black transition-all duration-150 shadow-2xs">
-                    <RotateCcw className="h-3 w-3" />
+                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-amber-500/15 text-amber-300 border border-amber-500/30 group-hover:bg-amber-500 group-hover:text-black transition-all duration-150 shadow-2xs">
+                    <RotateCcw className="h-3.5 w-3.5" />
                     <span>Resume Attempt</span>
                   </div>
                 ) : rec.type === "next_in_topic" ? (
-                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-black transition-all duration-150 shadow-2xs">
-                    <Play className="h-2.5 w-2.5 fill-current" />
+                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-black transition-all duration-150 shadow-2xs">
+                    <Play className="h-3 w-3 fill-current" />
                     <span>Start Next Part</span>
                   </div>
                 ) : (
-                  <div className="w-full h-8 rounded-xl font-semibold text-xs flex items-center justify-center gap-1.5 bg-muted/70 text-foreground border border-border/80 group-hover:bg-foreground group-hover:text-background transition-all duration-150 shadow-2xs">
-                    <Play className="h-2.5 w-2.5 fill-current" />
-                    <span>Start Test</span>
+                  <div className="w-full h-8.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2 bg-muted/70 text-foreground border border-border/80 group-hover:bg-foreground group-hover:text-background transition-all duration-150 shadow-2xs">
+                    <Play className="h-3 w-3 fill-current" />
+                    <span>Start Practice Test</span>
                   </div>
                 )}
               </Card>
