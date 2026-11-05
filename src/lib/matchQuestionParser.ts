@@ -407,7 +407,6 @@ export function enrichQuestionStructure(q: any): any {
   const isMatchCandidate =
     hasExistingMatchMeta ||
     type === "match_following" ||
-    type === "match" ||
     /(?:सूची|तालिका|सारणी|स्तंभ|कॉलम|List|Column|Table|सुमेलित|मिलान|मिलाएं|मिलाइये|मिलाइए)/i.test(
       rawText
     );

@@ -1,14 +1,18 @@
 import { v } from "convex/values";
 
-/** Shared Convex validators mirroring the JSON import spec (v2). */
+/** Shared Convex validators mirroring the JSON import spec (v2).
+ *  Strictly the 6 canonical question types:
+ *  - mcq
+ *  - match_following
+ *  - assertion_reason
+ *  - statement_reason
+ *  - sequence
+ *  - table
+ */
 
 export const questionTypeValidator = v.union(
   v.literal("mcq"),
-  v.literal("match"),
   v.literal("match_following"),
-  v.literal("match_the_following"),
-  v.literal("matching"),
-  v.literal("assertion"),
   v.literal("assertion_reason"),
   v.literal("statement_reason"),
   v.literal("sequence"),

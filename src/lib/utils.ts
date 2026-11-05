@@ -108,10 +108,7 @@ function isTableOrItemLine(line: string): boolean {
 }
 
 const MATCH_QUESTION_TYPES = new Set([
-  "match",
-  "matching",
   "match_following",
-  "match_the_following",
   "sequence",
   "table",
 ]);
