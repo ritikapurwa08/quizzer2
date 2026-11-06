@@ -5,6 +5,7 @@ import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
 import { DATA_PATHS } from "@/lib/dataPaths";
 import { comparePoolQuestions } from "@/lib/pool/sortQuestions";
 import { hasConvexBackup, getBackupExistingQuestionIds } from "@/lib/convex-backup";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 export async function GET(request: NextRequest) {
   try {
@@ -191,14 +192,16 @@ export async function GET(request: NextRequest) {
     const topicEnglish = topicInfo?.nameEnglish || `Topic ${masterTopicId}`;
     const subjectHindi = topicInfo?.subjectHindi || (isEnglish ? "अंग्रेजी (Paper-II)" : "राजस्थान सामान्य ज्ञान");
 
-    // Format clean questions for prompt
+    // Format clean questions for prompt, ensuring candidate option text is pre-healed
     const promptQuestions = candidateQuestions.map((q) => ({
       id: q.id,
       topic: topicEnglish,
       topicHindi,
       masterTopicId,
       question: q.question,
-      options: q.options,
+      options: Array.isArray(q.options)
+        ? q.options.map((opt: any) => healOptionText(typeof opt === "string" ? opt : opt?.text || ""))
+        : q.options,
       answer: q.answer,
       explanation: q.explanation || "",
       exam: q.exam || null,
@@ -244,18 +247,28 @@ EXAMINATION STANDARDS & MANDATORY GUIDELINES:
 3. RIGOROUS 4-OPTION MCQ:
    - Every question must have exactly 4 grammatically parallel options.
    - Never use "None of the above" or "All of the above".
+   - DO NOT prefix options with letters or numbers inside the string (e.g. write "She has been waiting", NOT "A. She has been waiting" or "1. She has been waiting").
 4. SINGLE DEFINITIVE CORRECT ANSWER & BALANCED DISTRIBUTION (CRITICAL):
-   - Provide a single unambiguous correct answer: "answer": 0 | 1 | 2 | 3 (0-indexed integer corresponding to options array).
-   - ANSWER KEY BALANCE MANDATE: Across the questions in this batch, distribute the correct answers roughly equally among indices 0, 1, 2, and 3 (approx. 25% each). NEVER default all or most answers to 0 (Option A).
-   - FOR MATCHING / LIST QUESTIONS: First determine the true factual pairing (e.g. List-I a, b, c, d with List-II I, II, III, IV). Then examine all 4 generated options ('a-II, b-IV, c-I, d-III'), find the EXACT index (0, 1, 2, or 3) that holds this correct combination, and assign that index to "answer". Place the correct combination randomly among the options (do not always place it at index 0).
-5. DUAL-LAYER BILINGUAL EXPLANATIONS ("explanation"):
+   - Provide a single unambiguous correct answer: "answer": 0 | 1 | 2 | 3 (0-indexed integer corresponding to options array: 0=A, 1=B, 2=C, 3=D).
+   - ANSWER KEY BALANCE MANDATE: Across the questions in this batch, distribute the correct answers roughly equally among indices 0, 1, 2, and 3 (approx. 25% each, ~4-6 per option). NEVER default all or most answers to 0 (Option A).
+   - FOR MATCHING / LIST QUESTIONS (ZERO-TOLERANCE MATCHING ACCURACY):
+     * List-I items must use (a, b, c, d) and List-II items must use (I, II, III, IV).
+     * Standardize option format strictly: 'a-II, b-IV, c-I, d-III' or '(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)'.
+     * Determine the true grammatical / literary match first.
+     * In explanation, explicitly write the arrow pairs: 'Item a → Match II | Item b → Match IV...'.
+     * Carefully inspect all 4 options, find which exact index (0, 1, 2, or 3) holds this true combination, and assign that index to "answer".
+     * Randomize the position of the correct match combination across 0, 1, 2, and 3. Never default to 0!
+5. SEQUENCE & CHRONOLOGICAL QUESTIONS:
+   - Provide clear directives in stem ("Arrange in the correct sequence...").
+   - Format permutation options cleanly: 'd, b, a, c' or '4, 2, 1, 3'.
+6. DUAL-LAYER BILINGUAL EXPLANATIONS ("explanation"):
    Every explanation MUST contain:
    - **Rule**: Formal citation of the English grammatical rule, syntactic formula, or literary source text.
    - **हिंदी व्याख्या**: Lucid explanation in Hindi (नियम, वाक्य का अर्थ, एवं सही विकल्प चुनने का ठोस कारण).
    - **RPSC Exam Alert**: Explicit warning highlighting the exact distractor trap.
-6. PROVENANCE ID PRESERVATION:
+7. PROVENANCE ID PRESERVATION:
    ${candidateQuestions.length > 0 ? `- Retain the provided 'id' (e.g. "${candidateQuestions[0]?.id || "rg_eng_000001"}") EXACTLY as provided for provenance tracking.` : `- Assign IDs starting from "rg_eng_top${masterTopicId}_${String(setNumber).padStart(2, "0")}_01".`}
-7. JSON QUOTES SAFETY:
+8. JSON QUOTES SAFETY:
    - If quotes appear inside questions, options, or explanations, use single quotes ('...') or escape them properly (\\"). Never leave raw unescaped double quotes.
 
 ${candidateQuestions.length > 0 ? `================================================================================
@@ -299,7 +312,7 @@ Return ONLY a valid, raw JSON array of objects. Do NOT include markdown code fen
           ? `1. ठीक ${targetCount} प्रश्न चुनें (Select EXACTLY ${targetCount} questions - 20-20 प्रश्नों के ${setCount} सेट्स हेतु)।`
           : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
 
-      geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के वरिष्ठ परीक्षा विशेषज्ञ हैं।
+      geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के मुख्य प्रश्न-पत्र निर्माता एवं वरिष्ठ परीक्षा विशेषज्ञ (Lead Question Setter & Chief Examiner) हैं।
 
 विषय: ${subjectHindi}
 शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
@@ -309,26 +322,79 @@ Return ONLY a valid, raw JSON array of objects. Do NOT include markdown code fen
 नीचे हमारे स्थानीय प्रश्न-पूल से ${candidateQuestions.length} उम्मीदवार प्रश्न दिए गए हैं।
 ${taskDescription}
 
-==================================================
-कड़े नियम एवं निर्देश:
-==================================================
+================================================================================
+कड़े नियम एवं अनिवार्य परीक्षा मानक (STRICT EXAMINATION STANDARDS):
+================================================================================
 ${countRule}
-2. व्याकरण, वर्तनी एवं देवनागरी लिपि की त्रुटियाँ ठीक करें।
-3. विकल्पों की स्पष्टता जाँचें: प्रत्येक प्रश्न में ठीक 4 विकल्प होने चाहिए। कोई विकल्प खाली या पुनरावृत्त (duplicate) न हो।
-4. सही उत्तर (0-आधारित सूचकांक: 0, 1, 2, या 3) एवं संतुलित वितरण (CRITICAL):
-   - सेट के कुल 20 प्रश्नों में उत्तर कुंजी (0, 1, 2, 3) का वितरण लगभग समान (प्रति विकल्प 4-6 प्रश्न) होना चाहिए। कभी भी सभी या अधिकांश प्रश्नों में 0 (विकल्प A) न रखें।
-   - सुमेलित प्रश्न (Match the Following):
-     * सूची-I के मदों को (a, b, c, d) और सूची-II के मदों को (I, II, III, IV) से दर्शाएँ।
-     * चारों विकल्पों का प्रारूप हमेशा मानक रखें: 'a-II, b-IV, c-I, d-III' या '(a)-(ii), (b)-(iv), (c)-(i), (d)-(iii)'।
-     * CRITICAL ANSWER RULE: सुमेलित प्रश्नों में कभी भी आँख मूँद कर 'answer': 0 न लिखें! पहले व्याख्या और ऐतिहासिक/भौगोलिक तथ्यों से वास्तविक मिलान ज्ञात करें। फिर चारों विकल्पों को देखें कि वह सही कूट किस विकल्प (0 = A, 1 = B, 2 = C, 3 = D) में है, और 'answer' में ठीक वही इंडेक्स दर्ज करें। सही कूट को 0, 1, 2, 3 में यादृच्छिक (randomly) रखें।
-5. प्रत्येक प्रश्न की 1-2 पंक्तियों की प्रामाणिक एवं विस्तृत हिंदी व्याख्या (Explanation) लिखें।
-6. सेट के भीतर कोई दोहराव (intra-set repetition) न हो। यदि दो प्रश्न एक ही तथ्य पर हों, तो केवल एक सबसे अच्छा प्रश्न रखें।
-7. 'id' (जैसे "${candidateQuestions[0]?.id || "rg_000001"}") को EXACTLY वही रखें जो मूल प्रश्न में दिया गया है। इसे बदलें नहीं।
-8. अपनी ओर से कोई नया प्रश्न न बनाएँ। केवल दिए गए उम्मीदवार प्रश्नों को ही सुधारें।
-9. उद्धरण चिह्नों की JSON सुरक्षा (CRITICAL Quotes Escaping Rule): यदि किसी प्रश्न (question), विकल्प (options) या व्याख्या (explanation) में कोई कथन, नारा, पुस्तक या उपाधि उद्धृत हो (जैसे "मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ"), तो JSON स्ट्रिंग के भीतर कभी भी कच्चा अनएस्केप्ड डबल कोट (") न छोड़ें। उद्धरण के लिए या तो एकल उद्धरण चिन्ह ('...') या स्मार्ट उद्धरण (‘...’ / “...”) का प्रयोग करें अथवा \\" से उचित रूप से एस्केप करें। कच्चा डबल कोट JSON पार्सिंग को पूरी तरह क्रैश कर देता है।
-10. प्रत्येक प्रश्न में 'topic' ("${topicHindi}") एवं 'masterTopicId' (${masterTopicId}) शामिल रखें।
-11. बहु-कथनी प्रश्न (Multi-Statement MCQs) एवं अभिकथन-कारण (Assertion-Reason): यदि प्रश्न में 'कथनों पर विचार कीजिए' या 'अभिकथन (Assertion) A और कारण (Reason) R' हो, तो सभी कथनों को प्रश्न (question) के भीतर ही स्पष्ट लाइन ब्रेक (\\n\\n) के साथ सुपाठ्य रखें (जैसे: "नीचे दो कथन दिए गए हैं...\\n\\nअभिकथन A: ...\\n\\nकारण R: ...\\n\\nउपर्युक्त कथनों के आलोक में सही विकल्प चुनिए -")। ऐसे प्रश्नों को कभी भी सूची मिलान (Match Question) के रूप में न तोड़ें। विकल्पों में केवल कूट (जैसे: 'केवल 1 और 2 सही हैं', 'A और R दोनों सही हैं') ही रखें।
-12. सुमेलित प्रश्न (Match Questions): केवल तभी सूची सुमेलन का प्रयोग करें जब दो वास्तविक स्वतंत्र सूचियाँ (सूची-I और सूची-II) हों और विकल्प केवल जोड़ियों के कूट हों (जैसे: '(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)')। सामान्य वाक्यों को टुकड़ों में काटकर सूची-I और सूची-II कभी न बनाएँ।
+2. व्याकरण, वर्तनी एवं देवनागरी लिपि की पूर्ण शुद्धता:
+   - सभी प्रश्न एवं विकल्प मानक देवनागरी में शुद्ध व्याकरण एवं वर्तनी युक्त होने चाहिए।
+   - OCR या तकनीकी कारणों से टूटे शब्दों को पूर्णतः ठीक करें।
+
+3. विकल्पों के पाठ की अखंडता (CRITICAL ZERO-LETTER-STRIPPING RULE):
+   - किसी भी शब्द का पहला अक्षर या मात्रा कभी न काटें!
+     * उदाहरण: 'दक्षिणी सिरा' को कभी भी 'क्षिणी सिरा' न लिखें (शुद्ध 'दक्षिणी' लिखें)।
+     * 'बीकानेर' को 'ीकानेर' नहीं; 'सिरोही' को 'िरोही' नहीं; 'अनुच्छेद' को 'नुच्छेद' नहीं; 'अधिनियम' को 'धिनियम' नहीं; 'अध्यक्ष' को 'ध्यक्ष' नहीं; 'अक्टूबर' को 'क्टूबर' नहीं।
+     * यदि उम्मीदवार प्रश्न में कोई शब्द कटा हुआ दिखे, तो उसे तुरंत शुद्ध व पूर्ण रूप में पुनर्स्थापित करें।
+   - विकल्पों के भीतर 'A.', 'B.', 'C.', 'D.' या '1.', '2.', '3.', '4.' या 'अ.', 'ब.', 'स.', 'द.' जैसे उपसर्ग (prefixes) कतई न लिखें। केवल शुद्ध विकल्प पाठ लिखें।
+
+4. उत्तर कुंजी का संतुलित वितरण (ANSWER KEY BALANCE MANDATE - CRITICAL):
+   - सेट के 20 प्रश्नों में उत्तर (0, 1, 2, 3) का वितरण लगभग समान होना चाहिए (प्रति विकल्प लगभग 4 से 6 प्रश्न: ~25% A, ~25% B, ~25% C, ~25% D)।
+   - कभी भी अधिकांश या सभी प्रश्नों का उत्तर 0 (विकल्प A) न रखें। ऑप्शन A को डिफ़ॉल्ट बनाने की आलसी प्रवृत्ति सख्त वर्जित है।
+
+5. सुमेलित प्रश्न (MATCH THE FOLLOWING - ZERO-TOLERANCE ACCURACY & FORMAT):
+   - सूची-I के मदों को छोटे अंग्रेजी अक्षरों (a, b, c, d) से तथा सूची-II के मदों को रोमन अंकों (I, II, III, IV) से दर्शाएँ।
+   - चारों विकल्पों का प्रारूप अनिवार्य रूप से मानक रखें:
+     'a-I, b-II, c-III, d-IV' या 'a-II, b-I, c-IV, d-III'
+   - किसी विकल्प में से 'a-' छोड़ना सख्त मना है (जैसे 'III, b-I, c-IV, d-II' कभी न लिखें, हमेशा 'a-III, b-I, c-IV, d-II' लिखें)।
+   - विकल्पों में हिंदी अक्षरों ('अ-1, ब-2') का प्रयोग न करें; सर्वदा 'a-I, b-II, c-III, d-IV' का ही उपयोग करें।
+   - उत्तर निर्धारण का कड़ा नियम (HOW TO ASSIGN 'answer' ACCURATELY):
+     * चरण 1: पहले ऐतिहासिक/भौगोलिक तथ्यों के आधार पर सूची-I (a, b, c, d) और सूची-II (I, II, III, IV) का सही मिलान ज्ञात करें।
+     * चरण 2: व्याख्या (explanation) में तीर (→) के साथ सभी जोड़ियों को स्पष्ट लिखें, जैसे:
+       'सोनियाना सिरामिक → चित्तौड़गढ़ (II) | हैण्डिक्राफ्ट पार्क → जोधपुर (III) | स्टोन पार्क → कोटा (IV) | गजनेर सिरामिक → बीकानेर (I)'
+     * चरण 3: इससे वास्तविक कूट बनता है: 'a-II, b-III, c-IV, d-I'।
+     * चरण 4: अब अपने चारों विकल्पों (options[0], options[1], options[2], options[3]) को देखें कि यह सही कूट किस इंडेक्स पर स्थित है:
+       - यदि यह कूट options[0] में है → 'answer': 0 (विकल्प A)
+       - यदि यह कूट options[1] में है → 'answer': 1 (विकल्प B)
+       - यदि यह कूट options[2] में है → 'answer': 2 (विकल्प C)
+       - यदि यह कूट options[3] में है → 'answer': 3 (विकल्प D)
+     * सही कूट को विकल्पों में चारों स्थानों (0, 1, 2, 3) पर यादृच्छिक रूप से (randomly) रखें। कभी भी आँख मूँद कर 'answer': 0 न लिखें!
+
+6. क्रम निर्धारण प्रश्न (SEQUENCE / CHRONOLOGICAL QUESTIONS):
+   - प्रश्न में स्पष्ट निर्देश दें (जैसे: 'राजस्थान के निम्नलिखित दुर्गों को निर्माण कालक्रमानुसार प्राचीन से नवीन के सही क्रम में व्यवस्थित कीजिए:' या 'जिलों को क्षेत्रफल के अनुसार अवरोही क्रम में व्यवस्थित कीजिए:')।
+   - विकल्पों में स्पष्ट कूट दें (जैसे: 'd, b, a, c' या '4, 2, 1, 3')।
+   - व्याख्या में प्रत्येक मद का सही वर्ष / मान स्पष्ट लिखें जिससे क्रम का सत्यापन हो सके।
+
+7. अभिकथन एवं कारण प्रश्न (ASSERTION & REASON QUESTIONS):
+   - प्रश्न पाठ (question text) को स्पष्ट डबल लाइन ब्रेक (\\n\\n) के साथ प्रारूपित करें:
+     "नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) कहा गया है:\\n\\nअभिकथन (A): [कथन]\\n\\nकारण (R): [कारण]\\n\\nउपर्युक्त कथनों के आलोक में निम्नलिखित में से सबसे उपयुक्त उत्तर चुनें:"
+   - मानक 4 विकल्प होने चाहिए:
+     [
+       "A और R दोनों सही हैं और R, A की सही व्याख्या है।",
+       "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।",
+       "A सही है लेकिन R गलत है।",
+       "A गलत है लेकिन R सही है।"
+     ]
+   - यदि A सही है और R गलत है → 'answer': 2 (विकल्प C)
+   - यदि A गलत है और R सही है → 'answer': 3 (विकल्प D)
+   - वास्तविक सत्यता के अनुसार ही सही इंडेक्स असाइन करें; आँख मूँद कर 0 न लिखें।
+
+8. बहु-कथनी प्रश्न (MULTI-STATEMENT MCQs):
+   - कथनों पर विचार कीजिए वाले प्रश्नों में कथनों को प्रश्न पाठ में ही \\n\\n से स्पष्ट रखें (1. [कथन 1]\\n2. [कथन 2])।
+   - विकल्पों में केवल कूट रखें ('केवल 1 और 2', 'केवल 2 और 3', '1, 2 और 3')। ऐसे प्रश्नों को कभी भी सूची मिलान (Match Question) के रूप में न तोड़ें।
+
+9. विस्तृत एवं प्रामाणिक व्याख्या (DETAILED EXPLANATION):
+   - प्रत्येक प्रश्न की 2-4 पंक्तियों की प्रामाणिक व्याख्या लिखें, जिसमें तथ्य, संदर्भ, एवं अन्य विकल्पों के असत्य होने का कारण स्पष्ट हो।
+
+10. सेट के भीतर कोई दोहराव (INTRA-SET REPETITION) न हो:
+    - यदि दो प्रश्न एक ही तथ्य पर आधारित हों, तो उनमें से केवल एक सर्वश्रेष्ठ प्रश्न रखें।
+
+11. मूल पहचान (ID) की अखंडता:
+    - 'id' (जैसे "${candidateQuestions[0]?.id || "rg_000001"}") को मूल प्रश्न से अक्षुण्ण रखें। इसे बदलें नहीं।
+
+12. उद्धरण चिह्नों की JSON सुरक्षा (CRITICAL QUOTES ESCAPING RULE):
+    - यदि किसी प्रश्न (question), विकल्प (options) या व्याख्या (explanation) में कोई कथन, नारा, पुस्तक या उपाधि उद्धृत हो (जैसे 'मैं अपने डेथ वारंट पर हस्ताक्षर कर रहा हूँ'), तो JSON स्ट्रिंग के भीतर कभी भी कच्चा अनएस्केप्ड डबल कोट (") न छोड़ें। उद्धरण के लिए या तो एकल उद्धरण चिन्ह ('...') या स्मार्ट उद्धरण (‘...’ / “...”) का प्रयोग करें अथवा \\" से उचित रूप से एस्केप करें। कच्चा डबल कोट JSON पार्सिंग को पूरी तरह क्रैश कर देता है।
+
+13. 'topic' ("${topicHindi}") एवं 'masterTopicId' (${masterTopicId}) शामिल रखें।
 
 ==================================================
 उम्मीदवार प्रश्न (Candidate Questions):

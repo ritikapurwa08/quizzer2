@@ -3,6 +3,7 @@
 import { OptionButton } from "./OptionButton";
 import { QuestionRendererProps } from "@/types";
 import { tryParseMarkdownTable } from "@/lib/validators/question";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 interface TableMeta {
   headers?: string[];
@@ -12,7 +13,7 @@ interface TableMeta {
 
 export function TableRenderer({ question, selected, onSelect, mode }: QuestionRendererProps) {
   const isReview = mode === "review";
-  const rawCorrect = String(question.correctAnswer || "").trim();
+  const rawCorrect = String(question.correctAnswer || question.answer || "").trim();
   const meta = (question.meta as TableMeta) || {};
 
   let headers = meta.headers;
@@ -57,12 +58,12 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
                   {Array.isArray(row) ? (
                     row.map((cell: any, j) => (
                       <td key={j} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
-                        {String(cell ?? "")}
+                        {healOptionText(String(cell ?? ""))}
                       </td>
                     ))
                   ) : (
                     <td colSpan={headers?.length || 1} className="px-3.5 py-2.5 text-foreground font-normal font-hindi">
-                      {String(row ?? "")}
+                      {healOptionText(String(row ?? ""))}
                     </td>
                   )}
                 </tr>
@@ -75,7 +76,7 @@ export function TableRenderer({ question, selected, onSelect, mode }: QuestionRe
       <div className="space-y-2">
         {(question.options || []).map((opt: any, i: number) => {
           const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
-          const optText = typeof opt === "string" ? opt : opt?.text || "";
+          const optText = healOptionText(typeof opt === "string" ? opt : opt?.text || "");
 
           let correctness: "correct" | "incorrect" | "neutral" | undefined;
           if (isReview) {

@@ -87,7 +87,7 @@ export function checkAnswerDistribution(questions: any[]): {
   }
 
   const percentage = Math.round((aCount / questions.length) * 100);
-  const hasSkew = percentage > 45; // in a balanced 20-question test, Option A should be ~25% (max 40%)
+  const hasSkew = percentage > 40; // In authentic 20-question tests, Option A should be ~25% (threshold: max 40%)
 
   return {
     hasSkew,
@@ -95,17 +95,154 @@ export function checkAnswerDistribution(questions: any[]): {
     total: questions.length,
     percentage,
     message: hasSkew
-      ? `AI Answer Key Skew Detected: ${aCount}/${questions.length} (${percentage}%) questions have Option A as the answer. Please ensure answer keys are authentic and balanced across A, B, C, D.`
+      ? `AI Answer Key Skew Detected: ${aCount}/${questions.length} (${percentage}%) questions have Option A as the answer. In authentic exams, answers are distributed roughly equally (~25% each) across A, B, C, D. Please verify that answers were not defaulted to Option A.`
       : undefined,
   };
 }
 
-const ROMAN_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI'];
-const ENG_ALPHA = ['a', 'b', 'c', 'd', 'e'];
+const ROMAN_MAP: Record<string, number> = {
+  i: 0, ii: 1, iii: 2, iv: 3, v: 4, vi: 5,
+  "1": 0, "2": 1, "3": 2, "4": 3, "5": 4, "6": 5,
+};
+
+const ALPHA_MAP: Record<string, number> = {
+  a: 0, b: 1, c: 2, d: 3, e: 4,
+  "अ": 0, "ब": 1, "स": 2, "द": 3,
+};
+
+function normalizeDevanagari(str: string): string {
+  if (!str) return "";
+  return str
+    .normalize("NFC")
+    .replace(/\u095c/g, "\u0921\u093c")
+    .replace(/\u095d/g, "\u0922\u093c")
+    .replace(/\u0921\u093c/g, "ड")
+    .replace(/\u0922\u093c/g, "ढ")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
+/**
+ * Parses match pairing strings from an option.
+ * Supports:
+ * - 'a-II, b-IV, c-I, d-III'
+ * - '(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)'
+ * - 'a-(2), b-(4), c-(1), d-(3)'
+ * - '2, 4, 1, 3' or '2 4 1 3' or 'ii, iv, i, iii'
+ */
+export function parseOptionPairings(optStr: string): Record<number, number> {
+  const pairings: Record<number, number> = {};
+  if (!optStr || typeof optStr !== "string") return pairings;
+
+  // 1. Explicit pairing markers: a-II, (a)-(iv), a-(2), a-2, (A)-I
+  const pairRegex = /(?:[\(\[]?([a-eA-E\u0905\u092c\u0938\u0926])[\)\]]?\s*[-–—:]\s*[\(\[]?([iIvVxX\d]+)[\)\]]?)/g;
+  let match;
+  let count = 0;
+  while ((match = pairRegex.exec(optStr)) !== null) {
+    const lKey = match[1].toLowerCase();
+    const rKey = match[2].toLowerCase();
+    const lIdx = ALPHA_MAP[lKey];
+    const rIdx = ROMAN_MAP[rKey];
+    if (lIdx !== undefined && rIdx !== undefined) {
+      pairings[lIdx] = rIdx;
+      count++;
+    }
+  }
+  if (count >= 2) return pairings;
+
+  // 2. Permutation format: e.g. '2 4 1 3' or '2, 4, 1, 3' or 'ii, iv, i, iii'
+  const tokens = optStr.split(/[\s,–—\-]+/).map((t) => t.trim().toLowerCase()).filter(Boolean);
+  if (tokens.length >= 3 && tokens.every((t) => ROMAN_MAP[t] !== undefined)) {
+    tokens.forEach((t, i) => {
+      pairings[i] = ROMAN_MAP[t];
+    });
+    return pairings;
+  }
+
+  return pairings;
+}
+
+/**
+ * Robustly extracts left-to-right factual pairings from question explanation text.
+ */
+function extractPairsFromExplanation(
+  expl: string,
+  left: any[],
+  right: any[]
+): Record<number, number> {
+  const pairs: Record<number, number> = {};
+  if (!expl || !left || !right || !Array.isArray(left) || !Array.isArray(right)) return pairs;
+
+  const cleanLeft = left.map((item, idx) => {
+    const raw = typeof item === "string" ? item : item?.text || "";
+    const clean = normalizeDevanagari(raw);
+    return { idx, raw, clean, words: clean.split(/\s+/).filter((w) => w.length >= 2) };
+  });
+
+  const cleanRight = right.map((item, idx) => {
+    const raw = typeof item === "string" ? item : item?.text || "";
+    const clean = normalizeDevanagari(raw);
+    return { idx, raw, clean, words: clean.split(/\s+/).filter((w) => w.length >= 2) };
+  });
+
+  // Strategy 1: Segment explanation by sentences, lines, bullets, pipes, or closing paren before word
+  const segments = expl
+    .replace(/\)\s*(?=[\u0900-\u097F\w])/gu, ")\n")
+    .split(/[।\n\r;•|]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  for (const seg of segments) {
+    const segClean = normalizeDevanagari(seg);
+    for (const l of cleanLeft) {
+      const lMatch =
+        l.words.length > 0 &&
+        l.words.some((w) => segClean.includes(w)) &&
+        (segClean.includes(l.clean) || l.words.filter((w) => segClean.includes(w)).length >= Math.ceil(l.words.length * 0.5));
+      if (!lMatch) continue;
+
+      for (const r of cleanRight) {
+        const rMatch =
+          r.words.length > 0 &&
+          r.words.some((w) => segClean.includes(w)) &&
+          (segClean.includes(r.clean) || r.words.filter((w) => segClean.includes(w)).length >= Math.ceil(r.words.length * 0.5));
+        if (rMatch) {
+          pairs[l.idx] = r.idx;
+        }
+      }
+    }
+  }
+
+  // Strategy 2: Explicit arrows (X → Y)
+  const arrowRegex = /([^।\n\r;•|]+?)(?:→|->|–|—)([^।\n\r;•|]+)/g;
+  let aMatch;
+  while ((aMatch = arrowRegex.exec(expl)) !== null) {
+    const partAClean = normalizeDevanagari(aMatch[1]);
+    const partBClean = normalizeDevanagari(aMatch[2]);
+
+    for (const l of cleanLeft) {
+      const lInA = l.clean.length >= 2 && partAClean.includes(l.clean);
+      const lInB = l.clean.length >= 2 && partBClean.includes(l.clean);
+      if (!lInA && !lInB) continue;
+
+      for (const r of cleanRight) {
+        const rInA = r.clean.length >= 2 && partAClean.includes(r.clean);
+        const rInB = r.clean.length >= 2 && partBClean.includes(r.clean);
+
+        if ((lInA && rInB) || (lInB && rInA)) {
+          pairs[l.idx] = r.idx;
+        }
+      }
+    }
+  }
+
+  return pairs;
+}
 
 /**
  * Validates whether the selected correctAnswer for a match_following question
- * matches the pairings in its explanation (e.g. arrows X → Y).
+ * matches the pairings in its explanation.
  */
 export function verifyMatchAnswerConsistency(q: any): {
   isConsistent: boolean;
@@ -125,42 +262,15 @@ export function verifyMatchAnswerConsistency(q: any): {
     return { isConsistent: true };
   }
 
-  // Look for arrow patterns: X → Y
-  const arrowRegex = /([^।\n\r;]+?)(?:→|->)([^।\n\r;]+)/g;
-  let match;
-  const pairs: Record<string, string> = {};
-
-  while ((match = arrowRegex.exec(expl)) !== null) {
-    const partA = match[1].toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
-    const partB = match[2].toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
-
-    for (let l = 0; l < left.length; l++) {
-      const lText = (left[l].text || left[l] || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
-      if (lText.length < 2) continue;
-      const lInA = partA.includes(lText) || lText.includes(partA);
-      const lInB = partB.includes(lText) || lText.includes(partB);
-
-      for (let r = 0; r < right.length; r++) {
-        const rText = (right[r].text || right[r] || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
-        if (rText.length < 2) continue;
-        const rInA = partA.includes(rText) || rText.includes(partA);
-        const rInB = partB.includes(rText) || rText.includes(partB);
-
-        if ((lInA && rInB) || (lInB && rInA)) {
-          pairs[ENG_ALPHA[l]] = ROMAN_NUMERALS[r];
-        }
-      }
-    }
-  }
-
+  const pairs = extractPairsFromExplanation(expl, left, right);
   const pCount = Object.keys(pairs).length;
   if (pCount < 2) return { isConsistent: true };
 
-  // Score options
   const scores = options.map((optStr: string) => {
+    const optPairings = parseOptionPairings(optStr);
     let m = 0;
-    for (const [l, r] of Object.entries(pairs)) {
-      if (new RegExp(`\\b${l}-${r}\\b`, "i").test(optStr)) m++;
+    for (const [lIdx, rIdx] of Object.entries(pairs)) {
+      if (optPairings[Number(lIdx)] === rIdx) m++;
     }
     return m;
   });
@@ -172,18 +282,19 @@ export function verifyMatchAnswerConsistency(q: any): {
     const rawAns = q.correctAnswer !== undefined ? q.correctAnswer : q.a !== undefined ? q.a : q.answer;
     let selectedIdx = -1;
     if (typeof rawAns === "number") selectedIdx = rawAns;
-    else if (rawAns === "opt1" || rawAns === "A") selectedIdx = 0;
-    else if (rawAns === "opt2" || rawAns === "B") selectedIdx = 1;
-    else if (rawAns === "opt3" || rawAns === "C") selectedIdx = 2;
-    else if (rawAns === "opt4" || rawAns === "D") selectedIdx = 3;
+    else if (rawAns === "opt1" || rawAns === "A" || rawAns === "0") selectedIdx = 0;
+    else if (rawAns === "opt2" || rawAns === "B" || rawAns === "1") selectedIdx = 1;
+    else if (rawAns === "opt3" || rawAns === "C" || rawAns === "2") selectedIdx = 2;
+    else if (rawAns === "opt4" || rawAns === "D" || rawAns === "3") selectedIdx = 3;
 
     if (selectedIdx !== -1 && selectedIdx !== bestIdx && scores[selectedIdx] < maxScore) {
       const targetOptLetter = ["A", "B", "C", "D"][bestIdx];
+      const selectedOptLetter = ["A", "B", "C", "D"][selectedIdx];
       return {
         isConsistent: false,
         suggestedAnswer: `opt${bestIdx + 1}`,
         matchedPairsCount: maxScore,
-        message: `Explanation clearly proves Option ${targetOptLetter} (${options[bestIdx]}) is the correct match, but Option ${["A", "B", "C", "D"][selectedIdx]} was selected.`,
+        message: `Explanation clearly proves Option ${targetOptLetter} (${options[bestIdx]}) is the correct match (score: ${maxScore}/${pCount} pairs), but Option ${selectedOptLetter} was selected.`,
       };
     }
   }

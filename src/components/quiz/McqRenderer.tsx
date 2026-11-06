@@ -6,6 +6,7 @@ import { QuestionRendererProps } from "@/types";
 import { MatchFollowingRenderer } from "./MatchFollowingRenderer";
 import { TableRenderer } from "./TableRenderer";
 import { enrichQuestionStructure } from "@/lib/matchQuestionParser";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 export function McqRenderer(props: QuestionRendererProps) {
   const { question, selected, onSelect, mode } = props;
@@ -35,13 +36,13 @@ export function McqRenderer(props: QuestionRendererProps) {
   }
 
   const isReview = mode === "review";
-  const rawCorrect = String(question.correctAnswer || "").trim();
+  const rawCorrect = String(question.correctAnswer || question.answer || "").trim();
 
   return (
     <div className="space-y-2">
       {(question.options || []).map((opt: any, i: number) => {
         const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
-        const optText = typeof opt === "string" ? opt : opt?.text || "";
+        const optText = healOptionText(typeof opt === "string" ? opt : opt?.text || "");
 
         let correctness: "correct" | "incorrect" | "neutral" | undefined;
         if (isReview) {

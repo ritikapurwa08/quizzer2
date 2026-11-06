@@ -95,7 +95,7 @@ function SavedQuestionsContent() {
       return true;
     });
 
-    return [...filtered].sort((a, b) => {
+    const sorted = [...filtered].sort((a, b) => {
       if (wrongSortBy === "most_missed") {
         if (b.wrongQuestion.missCount !== a.wrongQuestion.missCount) {
           return b.wrongQuestion.missCount - a.wrongQuestion.missCount;
@@ -107,6 +107,17 @@ function SavedQuestionsContent() {
       }
       return b.wrongQuestion.lastMissedAt - a.wrongQuestion.lastMissedAt;
     });
+
+    // Deduplicate by questionId
+    const seen = new Set<string>();
+    const deduped: typeof sorted = [];
+    for (const item of sorted) {
+      const qId = String(item.questionId || "").trim();
+      if (!qId || seen.has(qId)) continue;
+      seen.add(qId);
+      deduped.push(item);
+    }
+    return deduped;
   }, [wrongData, wrongSubjectId, wrongTopicId, wrongSortBy]);
 
   const totalWrongPages = Math.max(1, Math.ceil(filteredWrongQuestions.length / WRONG_PAGE_SIZE));
@@ -144,11 +155,22 @@ function SavedQuestionsContent() {
 
   const filteredBookmarks = useMemo(() => {
     if (!bmData) return [];
-    return bmData.filter((item) => {
+    const filtered = bmData.filter((item) => {
       if (bmSubjectId !== "all" && item.subjectId !== bmSubjectId) return false;
       if (bmTopicId !== "all" && item.topicId !== bmTopicId) return false;
       return true;
     });
+
+    // Deduplicate by questionId
+    const seen = new Set<string>();
+    const deduped: typeof filtered = [];
+    for (const item of filtered) {
+      const qId = String(item.questionId || "").trim();
+      if (!qId || seen.has(qId)) continue;
+      seen.add(qId);
+      deduped.push(item);
+    }
+    return deduped;
   }, [bmData, bmSubjectId, bmTopicId]);
 
   const totalBmPages = Math.max(1, Math.ceil(filteredBookmarks.length / BOOKMARK_PAGE_SIZE));
@@ -326,26 +348,36 @@ function SavedQuestionsContent() {
           ) : (
             <>
               <div className="space-y-4">
-                {pageWrongItems.map(({ wrongQuestion, questionId }, idx) => {
-                  const question = resolvedQuestions[questionId];
-                  return question ? (
-                    <QuestionReviewCard
-                      key={wrongQuestion._id}
-                      number={safeWrongPage * WRONG_PAGE_SIZE + idx + 1}
-                      question={question}
-                      selectedAnswer={undefined}
-                      isBookmarked={bookmarkedIds.has(questionId)}
-                      onToggleBookmark={() => {
-                        toggleBookmark({ questionId });
-                      }}
-                      missCount={wrongQuestion.missCount}
-                    />
-                  ) : (
-                    <div key={wrongQuestion._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
-                      Loading question...
-                    </div>
-                  );
-                })}
+                {(() => {
+                  const seenCanonical = new Set<string>();
+                  return pageWrongItems.map(({ wrongQuestion, questionId }, idx) => {
+                    const question = resolvedQuestions[questionId];
+                    if (!question) {
+                      return (
+                        <div key={wrongQuestion._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                          Loading question...
+                        </div>
+                      );
+                    }
+                    const canonicalKey = question.canonicalId || question._id || question.id || question.questionText;
+                    if (canonicalKey && seenCanonical.has(canonicalKey)) return null;
+                    if (canonicalKey) seenCanonical.add(canonicalKey);
+
+                    return (
+                      <QuestionReviewCard
+                        key={wrongQuestion._id}
+                        number={safeWrongPage * WRONG_PAGE_SIZE + idx + 1}
+                        question={question}
+                        selectedAnswer={undefined}
+                        isBookmarked={bookmarkedIds.has(questionId)}
+                        onToggleBookmark={() => {
+                          toggleBookmark({ questionId });
+                        }}
+                        missCount={wrongQuestion.missCount}
+                      />
+                    );
+                  });
+                })()}
               </div>
 
               {filteredWrongQuestions.length > WRONG_PAGE_SIZE && (
@@ -410,25 +442,35 @@ function SavedQuestionsContent() {
           ) : (
             <>
               <div className="space-y-4">
-                {pageBmItems.map(({ bookmark, questionId }, idx) => {
-                  const question = resolvedQuestions[questionId];
-                  return question ? (
-                    <QuestionReviewCard
-                      key={bookmark._id}
-                      number={safeBmPage * BOOKMARK_PAGE_SIZE + idx + 1}
-                      question={question}
-                      selectedAnswer={undefined}
-                      isBookmarked={true}
-                      onToggleBookmark={() => {
-                        toggleBookmark({ questionId });
-                      }}
-                    />
-                  ) : (
-                    <div key={bookmark._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
-                      Loading bookmark...
-                    </div>
-                  );
-                })}
+                {(() => {
+                  const seenCanonical = new Set<string>();
+                  return pageBmItems.map(({ bookmark, questionId }, idx) => {
+                    const question = resolvedQuestions[questionId];
+                    if (!question) {
+                      return (
+                        <div key={bookmark._id} className="p-4 rounded-xl border border-border/50 bg-card/50 text-xs text-muted-foreground animate-pulse">
+                          Loading bookmark...
+                        </div>
+                      );
+                    }
+                    const canonicalKey = question.canonicalId || question._id || question.id || question.questionText;
+                    if (canonicalKey && seenCanonical.has(canonicalKey)) return null;
+                    if (canonicalKey) seenCanonical.add(canonicalKey);
+
+                    return (
+                      <QuestionReviewCard
+                        key={bookmark._id}
+                        number={safeBmPage * BOOKMARK_PAGE_SIZE + idx + 1}
+                        question={question}
+                        selectedAnswer={undefined}
+                        isBookmarked={true}
+                        onToggleBookmark={() => {
+                          toggleBookmark({ questionId });
+                        }}
+                      />
+                    );
+                  });
+                })()}
               </div>
 
               {filteredBookmarks.length > BOOKMARK_PAGE_SIZE && (

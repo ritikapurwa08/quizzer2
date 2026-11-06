@@ -5,6 +5,7 @@ import { QuestionRendererProps } from "@/types";
 import { OptionButton } from "./OptionButton";
 import { extractMatchListsFromText, stripLeadingMarker } from "@/lib/validators/question";
 import { extractMatchQuestionData } from "@/lib/matchQuestionParser";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 interface MatchItem {
   id: string;
@@ -62,7 +63,7 @@ export function MatchFollowingRenderer({
       const rawText = String(itemObj.text ?? itemObj.value ?? "");
       return {
         id,
-        text: stripLeadingMarker(rawText),
+        text: healOptionText(stripLeadingMarker(rawText)),
       };
     }
     if (typeof item === "string") {
@@ -71,11 +72,11 @@ export function MatchFollowingRenderer({
       if (m) {
         const id = (m[1] || m[2] || "").trim().toUpperCase();
         const text = stripLeadingMarker(m[3] || "");
-        if (id && text) return { id, text };
+        if (id && text) return { id, text: healOptionText(text) };
       }
-      return { id: defaultId, text: stripLeadingMarker(item) };
+      return { id: defaultId, text: healOptionText(stripLeadingMarker(item)) };
     }
-    return { id: defaultId, text: stripLeadingMarker(String(item ?? "")) };
+    return { id: defaultId, text: healOptionText(stripLeadingMarker(String(item ?? ""))) };
   });
 
   // Normalize columnB items to { id, text } without duplicated prefixes
@@ -87,7 +88,7 @@ export function MatchFollowingRenderer({
       const rawText = String(itemObj.text ?? itemObj.value ?? "");
       return {
         id,
-        text: stripLeadingMarker(rawText),
+        text: healOptionText(stripLeadingMarker(rawText)),
       };
     }
     if (typeof item === "string") {
@@ -96,11 +97,11 @@ export function MatchFollowingRenderer({
       if (m) {
         const id = (m[1] || m[2] || "").trim();
         const text = stripLeadingMarker(m[3] || "");
-        if (id && text) return { id, text };
+        if (id && text) return { id, text: healOptionText(text) };
       }
-      return { id: defaultId, text: stripLeadingMarker(item) };
+      return { id: defaultId, text: healOptionText(stripLeadingMarker(item)) };
     }
-    return { id: defaultId, text: stripLeadingMarker(String(item ?? "")) };
+    return { id: defaultId, text: healOptionText(stripLeadingMarker(String(item ?? ""))) };
   });
 
   const selectedValue = typeof selected === "string" ? selected : "";
@@ -190,13 +191,13 @@ export function MatchFollowingRenderer({
         <div className="space-y-2">
           {(question.options || []).map((opt: any, i: number) => {
             const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
-            const optText = typeof opt === "string" ? opt : opt?.text || "";
+            const optText = healOptionText(typeof opt === "string" ? opt : opt?.text || "");
 
             const isSelected = selectedValue === optId || selectedValue === optText;
             let correctness: "correct" | "incorrect" | "neutral" | undefined = undefined;
 
             if (isReview) {
-              const rawCorrect = String(question.correctAnswer || "").trim();
+              const rawCorrect = String(question.correctAnswer || question.answer || "").trim();
               const isThisCorrect =
                 rawCorrect === optId ||
                 rawCorrect === optText ||

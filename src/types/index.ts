@@ -7,6 +7,10 @@ export interface QuestionOption {
 
 export interface Question {
   _id: string;
+  id?: string;
+  canonicalId?: string;
+  answer?: string;
+  question?: string;
   _creationTime?: number;
   testSetId?: string;
   topicId?: string;
@@ -22,6 +26,7 @@ export interface Question {
   difficulty?: "easy" | "medium" | "hard";
   order?: number;
   meta?: any;
+  [key: string]: any;
 }
 
 export type Subject = Doc<"subjects">;

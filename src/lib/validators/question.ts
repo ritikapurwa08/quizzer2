@@ -2,6 +2,7 @@ import { z } from "zod";
 import { sanitizeLlmArtifacts } from "../sanitizer";
 import { formatExamDisplay } from "../utils";
 import { isStatementOptions, hasCorruptedMatchMeta, checkAnswerDistribution, verifyMatchAnswerConsistency } from "../matchValidators";
+import { healOptionText } from "../optionTextHealer";
 export { isStatementOptions, hasCorruptedMatchMeta, checkAnswerDistribution, verifyMatchAnswerConsistency };
 
 /** Client-side mirror of convex/lib/validators.ts, used by the JSON import wizard.
@@ -350,13 +351,14 @@ export function normalizeMinifiedQuestion(rawInput: Record<string, any>): Questi
     const rawOptions = raw.options ?? raw.o;
     if (Array.isArray(rawOptions)) {
       options = rawOptions.map((item: any, i: number) => {
-        if (typeof item === "string") {
-          return { id: `opt${i + 1}`, text: item.trim() };
-        }
-        if (item && typeof item === "object") {
-          return { id: item.id || `opt${i + 1}`, text: String(item.text ?? "").trim() };
-        }
-        return { id: `opt${i + 1}`, text: String(item ?? "").trim() };
+        let rawText = typeof item === "string" ? item : item && typeof item === "object" ? String(item.text ?? "") : String(item ?? "");
+        rawText = rawText.trim();
+        // Safe prefix label stripping: only if followed by punctuation delimiter and space
+        rawText = rawText.replace(/^[A-Da-d1-4अ-द][.)\-:]\s+/, "");
+        // Heal stripped consonants, orphan matras, missing 'a-' prefix
+        const text = healOptionText(rawText);
+        const optId = (item && typeof item === "object" && item.id) ? item.id : `opt${i + 1}`;
+        return { id: optId, text };
       });
     }
 
@@ -947,6 +949,19 @@ export function validateBatchQuality(questions: QuestionInput[]): {
               severity: "warning",
               code: "LENGTH_SKEW",
               message: `Q${qNum} correct option is significantly longer than distractors (${correctLen} vs avg ${Math.round(avgDistractorLen)} chars), making it predictable.`,
+            });
+          }
+        }
+
+        // 6. Check for orphan matras or corrupted prefix stripping in options
+        for (const opt of q.options) {
+          if (/^[\u093e-\u094c\u0902]/.test(opt.text.trim())) {
+            issues.push({
+              questionIndex: idx,
+              questionText: q.questionText,
+              severity: "warning",
+              code: "EMPTY_FIELD",
+              message: `Q${qNum} option "${opt.text}" begins with an orphan matra; leading consonant was likely stripped.`,
             });
           }
         }

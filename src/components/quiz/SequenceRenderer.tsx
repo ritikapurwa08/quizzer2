@@ -3,6 +3,7 @@
 import { cn, containsDevanagari } from "@/lib/utils";
 import { QuestionRendererProps } from "@/types";
 import { OptionButton } from "./OptionButton";
+import { healOptionText } from "@/lib/optionTextHealer";
 
 interface SeqItem {
   id: string;
@@ -17,9 +18,9 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
   // Normalize items array
   const items: SeqItem[] = rawItems.map((item: any, idx: number) => {
     if (typeof item === "string") {
-      return { id: `item-${idx + 1}`, text: item };
+      return { id: `item-${idx + 1}`, text: healOptionText(item) };
     }
-    return { id: item.id || `item-${idx + 1}`, text: item.text || String(item) };
+    return { id: item.id || `item-${idx + 1}`, text: healOptionText(item.text || String(item)) };
   });
 
   const selectedValue = typeof selected === "string" ? selected : "";
@@ -72,13 +73,13 @@ export function SequenceRenderer({ question, selected, onSelect, mode }: Questio
           </h4>
           {(question.options || []).map((opt: any, i: number) => {
             const optId = typeof opt === "string" ? `opt${i + 1}` : opt?.id || `opt${i + 1}`;
-            const optText = typeof opt === "string" ? opt : opt?.text || "";
+            const optText = healOptionText(typeof opt === "string" ? opt : opt?.text || "");
 
             const isSelected = selectedValue === optId || selectedValue === optText;
             let correctness: "correct" | "incorrect" | "neutral" | undefined = undefined;
 
             if (isReview) {
-              const rawCorrect = String(question.correctAnswer || "").trim();
+              const rawCorrect = String(question.correctAnswer || question.answer || "").trim();
               const isThisCorrect =
                 rawCorrect === optId ||
                 rawCorrect === optText ||
