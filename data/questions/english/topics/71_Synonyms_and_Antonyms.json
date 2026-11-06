@@ -76,7 +76,33 @@
       "answerIndex": 3,
       "exam": "LDC Grade II / Junior Assistant Exam 2026",
       "year": 2026,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I (Word)",
+          "Column-II (Synonym)"
+        ],
+        "rows": [
+          [
+            "a. Honest",
+            "I. Rapid"
+          ],
+          [
+            "b. Ancient",
+            "II. Truthful"
+          ],
+          [
+            "c. Quick",
+            "III. Old"
+          ],
+          [
+            "d. Silent",
+            "IV. Quiet"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| Column-I (Word) | Column-II (Synonym) |\n| --- | --- |\n| a. Honest | I. Rapid |\n| b. Ancient | II. Truthful |\n| c. Quick | III. Old |\n| d. Silent | IV. Quiet |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001555",
@@ -176,7 +202,33 @@
       "answerIndex": 0,
       "exam": "Rajasthan Patwar Exam 2025 1st Shift",
       "year": 2025,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List - I",
+          "List - II"
+        ],
+        "rows": [
+          [
+            "a. Heretic",
+            "i. Revoke"
+          ],
+          [
+            "b. Slander",
+            "ii. Non-Conformist"
+          ],
+          [
+            "c. Wilt",
+            "iii. Defame"
+          ],
+          [
+            "d. Rescind",
+            "iv. Wither"
+          ]
+        ],
+        "rawQuestionText": "Match the words in List - I with their synonyms in List - II.\n| List - I | List - II |\n| --- | --- |\n| a. Heretic | i. Revoke |\n| b. Slander | ii. Non-Conformist |\n| c. Wilt | iii. Defame |\n| d. Rescind | iv. Wither |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001552",
@@ -236,7 +288,33 @@
       "answerIndex": 1,
       "exam": "Lecturer & Coach (Sec. Edu. Deptt.) Comp. Exam-2025 (Group-A)",
       "year": 2025,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column (A)",
+          "Column (B)"
+        ],
+        "rows": [
+          [
+            "(a) Accord",
+            "(i) Liability"
+          ],
+          [
+            "(b) Asset",
+            "(ii) Misery"
+          ],
+          [
+            "(c) Bold",
+            "(iii) Dissent"
+          ],
+          [
+            "(d) Bliss",
+            "(iv) Timid"
+          ]
+        ],
+        "rawQuestionText": "Match the words in Column (A) with their antonyms in Column (B) -\n| Column (A) | Column (B) |\n| --- | --- |\n| (a) Accord | (i) Liability |\n| (b) Asset | (ii) Misery |\n| (c) Bold | (iii) Dissent |\n| (d) Bliss | (iv) Timid |"
+      }
     },
     {
       "id": "rg_eng_001558",
@@ -5436,7 +5514,33 @@
       "answerIndex": 0,
       "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-E)",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column A",
+          "Column B"
+        ],
+        "rows": [
+          [
+            "a. dying",
+            "(i) rule"
+          ],
+          [
+            "b. dyeing",
+            "(ii) ceasing to be alive"
+          ],
+          [
+            "c. reign",
+            "(iii) means of control"
+          ],
+          [
+            "d. rein",
+            "(iv) colour by dipping in liquid"
+          ]
+        ],
+        "rawQuestionText": "Match the words in Column A with their meaning/synonyms in Column B :\n| Column A | Column B |\n| --- | --- |\n| a. dying | (i) rule |\n| b. dyeing | (ii) ceasing to be alive |\n| c. reign | (iii) means of control |\n| d. rein | (iv) colour by dipping in liquid |"
+      }
     },
     {
       "id": "rg_eng_000711",
@@ -5716,7 +5820,33 @@
       "answerIndex": 0,
       "exam": "CET 2024 (Graduate) 27 September 2024 Shift-1",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Synonyms)"
+        ],
+        "rows": [
+          [
+            "a. generous",
+            "I. esteem"
+          ],
+          [
+            "b. honour",
+            "II. ridiculous"
+          ],
+          [
+            "c. absurd",
+            "III. achieve"
+          ],
+          [
+            "d. accomplish",
+            "IV. charitable"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II:\n| List-I (Words) | List-II (Synonyms) |\n| --- | --- |\n| a. generous | I. esteem |\n| b. honour | II. ridiculous |\n| c. absurd | III. achieve |\n| d. accomplish | IV. charitable |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000725",
@@ -5876,7 +6006,33 @@
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Synonyms)"
+        ],
+        "rows": [
+          [
+            "(a)  Lethargic",
+            "(i) Tactic"
+          ],
+          [
+            "(b) Ploy",
+            "(ii)  Drag"
+          ],
+          [
+            "(c) Trail",
+            "(iii) Dormant"
+          ],
+          [
+            "(d) Latent",
+            "(iv) Indolent"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Synonyms) |\n| --- | --- |\n| (a)  Lethargic | (i) Tactic |\n| (b) Ploy | (ii)  Drag |\n| (c) Trail | (iii) Dormant |\n| (d) Latent | (iv) Indolent |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_000733",
@@ -5916,7 +6072,33 @@
       "answerIndex": 1,
       "exam": "Hostel Superintendent Grade-II(SJED)-2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "a. Extole / Extol",
+            "I. Vague"
+          ],
+          [
+            "b. Obscure",
+            "II. Frugal"
+          ],
+          [
+            "c. Thrifty",
+            "III. Mysterious"
+          ],
+          [
+            "d. Enigmatic",
+            "IV. Laud"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II \n| List-I | List-II |\n| --- | --- |\n| a. Extole / Extol | I. Vague |\n| b. Obscure | II. Frugal |\n| c. Thrifty | III. Mysterious |\n| d. Enigmatic | IV. Laud |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000735",
@@ -5976,7 +6158,33 @@
       "answerIndex": 1,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Word",
+          "List-II Synonyms"
+        ],
+        "rows": [
+          [
+            "(a) Aberration",
+            "(i) Unnecessary"
+          ],
+          [
+            "(b) Perpetual",
+            "(ii) Plentiful"
+          ],
+          [
+            "(c) Redundant",
+            "(iii) Constant"
+          ],
+          [
+            "(d) Abundant",
+            "(iv) Deviation"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II Synonyms |\n| --- | --- |\n| (a) Aberration | (i) Unnecessary |\n| (b) Perpetual | (ii) Plentiful |\n| (c) Redundant | (iii) Constant |\n| (d) Abundant | (iv) Deviation |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_000741",
@@ -5996,7 +6204,33 @@
       "answerIndex": 1,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Word",
+          "List-II  Synonyms"
+        ],
+        "rows": [
+          [
+            "(a) accomplish",
+            "(i) rude"
+          ],
+          [
+            "(b) cordial",
+            "(ii) foolish"
+          ],
+          [
+            "(c) arrogant",
+            "(iii) achieve"
+          ],
+          [
+            "(d) absurd",
+            "(iv) friendly"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II  Synonyms |\n| --- | --- |\n| (a) accomplish | (i) rude |\n| (b) cordial | (ii) foolish |\n| (c) arrogant | (iii) achieve |\n| (d) absurd | (iv) friendly |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001559",
@@ -6416,7 +6650,33 @@
       "answerIndex": 3,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "(a) Abundant",
+            "(i) Callous"
+          ],
+          [
+            "(b) Vague",
+            "(ii) Scarce"
+          ],
+          [
+            "(c) Admonish",
+            "(iii) Clear"
+          ],
+          [
+            "(d) Sensitive",
+            "(iv) Praise"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Abundant | (i) Callous |\n| (b) Vague | (ii) Scarce |\n| (c) Admonish | (iii) Clear |\n| (d) Sensitive | (iv) Praise |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001582",
@@ -6436,7 +6696,33 @@
       "answerIndex": 1,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "(a) Munificent",
+            "(i) Decline"
+          ],
+          [
+            "(b) Jubilant",
+            "(ii) Heterogenous"
+          ],
+          [
+            "(c) Accept",
+            "(iii) Miserly"
+          ],
+          [
+            "(d) Homogenous",
+            "(iv) Gloomy"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Munificent | (i) Decline |\n| (b) Jubilant | (ii) Heterogenous |\n| (c) Accept | (iii) Miserly |\n| (d) Homogenous | (iv) Gloomy |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001583",
@@ -6456,7 +6742,33 @@
       "answerIndex": 2,
       "exam": "Hostel Superintendent Grade-II(SJED)-2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Opposite)"
+        ],
+        "rows": [
+          [
+            "a. Discourage",
+            "I. Lax"
+          ],
+          [
+            "b. Attractive",
+            "II. Encourage"
+          ],
+          [
+            "c. Strict",
+            "III. Accept"
+          ],
+          [
+            "d. Denounce",
+            "IV. Repulsive"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Word) | List-II (Opposite) |\n| --- | --- |\n| a. Discourage | I. Lax |\n| b. Attractive | II. Encourage |\n| c. Strict | III. Accept |\n| d. Denounce | IV. Repulsive |\n\nChoose the most appropirate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001584",
@@ -6476,7 +6788,33 @@
       "answerIndex": 0,
       "exam": "Supervisor(Women) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWord",
+          "List-IIAntonyms"
+        ],
+        "rows": [
+          [
+            "a. peevish",
+            "I. humility"
+          ],
+          [
+            "b. generous",
+            "II. genial"
+          ],
+          [
+            "c. latent",
+            "III. stingy"
+          ],
+          [
+            "d. vanity",
+            "IV. apparent"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| a. peevish | I. humility |\n| b. generous | II. genial |\n| c. latent | III. stingy |\n| d. vanity | IV. apparent |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001586",
@@ -6496,7 +6834,33 @@
       "answerIndex": 0,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Word",
+          "List-II Antonyms"
+        ],
+        "rows": [
+          [
+            "(a) Approve",
+            "(i) Orthodox"
+          ],
+          [
+            "(b) Scarce",
+            "(ii) Transparent"
+          ],
+          [
+            "(c) Modern",
+            "(iii) Disapprove"
+          ],
+          [
+            "(d) Opaque",
+            "(iv) Plenty"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II Antonyms |\n| --- | --- |\n| (a) Approve | (i) Orthodox |\n| (b) Scarce | (ii) Transparent |\n| (c) Modern | (iii) Disapprove |\n| (d) Opaque | (iv) Plenty |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001587",
@@ -6516,7 +6880,33 @@
       "answerIndex": 2,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWord",
+          "List-IIAntonyms"
+        ],
+        "rows": [
+          [
+            "(a) barren",
+            "(i) hope"
+          ],
+          [
+            "(b) despair",
+            "(ii) rigid"
+          ],
+          [
+            "(c) flexible",
+            "(iii) arrogant"
+          ],
+          [
+            "(d) humble",
+            "(iv) fertile"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| (a) barren | (i) hope |\n| (b) despair | (ii) rigid |\n| (c) flexible | (iii) arrogant |\n| (d) humble | (iv) fertile |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_000751",
@@ -6536,7 +6926,33 @@
       "answerIndex": 2,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Words)",
+          "List II (Synonyms)"
+        ],
+        "rows": [
+          [
+            "a. Inception",
+            "I. Idea"
+          ],
+          [
+            "b. Bizarre",
+            "II. Dissolve"
+          ],
+          [
+            "c. Notion",
+            "III. Beginning"
+          ],
+          [
+            "d. Liquidate",
+            "IV. Unusual"
+          ]
+        ],
+        "rawQuestionText": "Match the words of List I with the word having a similar meaning in List II\n| List I (Words) | List II (Synonyms) |\n| --- | --- |\n| a. Inception | I. Idea |\n| b. Bizarre | II. Dissolve |\n| c. Notion | III. Beginning |\n| d. Liquidate | IV. Unusual |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001596",
@@ -6556,7 +6972,33 @@
       "answerIndex": 3,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Interior",
+            "I. Complex"
+          ],
+          [
+            "b. Simple",
+            "II. Mobile"
+          ],
+          [
+            "c. Stationary",
+            "III. Exterior"
+          ],
+          [
+            "d. Private",
+            "IV. Public"
+          ]
+        ],
+        "rawQuestionText": "Match the given words of List I with their opposites in List II.\n| List I | List II |\n| --- | --- |\n| a. Interior | I. Complex |\n| b. Simple | II. Mobile |\n| c. Stationary | III. Exterior |\n| d. Private | IV. Public |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_000754",
@@ -7136,7 +7578,33 @@
       "answerIndex": 3,
       "exam": "RSMSSB VDO Mains 2022",
       "year": 2022,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I",
+          "Column-II"
+        ],
+        "rows": [
+          [
+            "(A) conceal",
+            "(i) ascetic"
+          ],
+          [
+            "(B) hedonist",
+            "(ii) permanent"
+          ],
+          [
+            "(C) hackneyed",
+            "(iii) reveal"
+          ],
+          [
+            "(D) ephemeral",
+            "(iv) original"
+          ]
+        ],
+        "rawQuestionText": "Match the words in column I to their antonyms in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) conceal | (i) ascetic |\n| (B) hedonist | (ii) permanent |\n| (C) hackneyed | (iii) reveal |\n| (D) ephemeral | (iv) original |"
+      }
     },
     {
       "id": "rg_eng_000765",
@@ -9156,7 +9624,33 @@
       "answerIndex": 0,
       "exam": null,
       "year": null,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column A",
+          "Column B"
+        ],
+        "rows": [
+          [
+            "A. awful",
+            "1. good"
+          ],
+          [
+            "B. excellent",
+            "2. terrible"
+          ],
+          [
+            "C.giggle",
+            "3. coarse"
+          ],
+          [
+            "D. rough",
+            "4. laugh"
+          ]
+        ],
+        "rawQuestionText": "Match the words given in Column A with their similar meanings in Column B - \n| Column A | Column B |\n| --- | --- |\n| A. awful | 1. good |\n| B. excellent | 2. terrible |\n| C.giggle | 3. coarse |\n| D. rough | 4. laugh |"
+      }
     },
     {
       "id": "rg_eng_000780",

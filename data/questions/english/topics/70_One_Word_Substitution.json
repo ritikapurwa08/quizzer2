@@ -32,7 +32,33 @@
       "answerIndex": 0,
       "exam": "LDC Grade II / Junior Assistant Exam 2026",
       "year": 2026,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Meaning)"
+        ],
+        "rows": [
+          [
+            "a. Misanthrope",
+            "I. Aperson who always thinks bad things will happen."
+          ],
+          [
+            "b. Optimist",
+            "II. A person who hates mankind."
+          ],
+          [
+            "c. Philanthropist",
+            "III. A person who expects good."
+          ],
+          [
+            "d. Pessimist",
+            "IV. A person who loves mankind."
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Word) | List-II (Meaning) |\n| --- | --- |\n| a. Misanthrope | I. Aperson who always thinks bad things will happen. |\n| b. Optimist | II. A person who hates mankind. |\n| c. Philanthropist | III. A person who expects good. |\n| d. Pessimist | IV. A person who loves mankind. |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001666",
@@ -352,7 +378,33 @@
       "answerIndex": 2,
       "exam": "Stenographer Exam 2024 (Paper - II)",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IFears",
+          "List-IIArea"
+        ],
+        "rows": [
+          [
+            "(a) Hedonophobia",
+            "(i) Fear of books"
+          ],
+          [
+            "(b) Kleptomania",
+            "(ii) Fear of pleasure"
+          ],
+          [
+            "(c) Claustrophobia",
+            "(iii) Compulsive desire to steal"
+          ],
+          [
+            "(d) Bibliophobia",
+            "(iv) Fear of being confined to small places"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-IFears | List-IIArea |\n| --- | --- |\n| (a) Hedonophobia | (i) Fear of books |\n| (b) Kleptomania | (ii) Fear of pleasure |\n| (c) Claustrophobia | (iii) Compulsive desire to steal |\n| (d) Bibliophobia | (iv) Fear of being confined to small places |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001682",
@@ -432,7 +484,33 @@
       "answerIndex": 3,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List - I",
+          "List - II"
+        ],
+        "rows": [
+          [
+            "(a) Ergonomics",
+            "(i) Automatic translation by identification systems"
+          ],
+          [
+            "(b) Biotechnology",
+            "(ii) Connecting electronic devices to each other with no wires"
+          ],
+          [
+            "(c) Artificial Intelligence",
+            "(iii) Design of environments for people to work efficiently and comfortably"
+          ],
+          [
+            "(d) Bluetooth",
+            "(iv) Genetic modification of plants"
+          ]
+        ],
+        "rawQuestionText": "Match the words in List - I with their definitions in List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) Ergonomics | (i) Automatic translation by identification systems |\n| (b) Biotechnology | (ii) Connecting electronic devices to each other with no wires |\n| (c) Artificial Intelligence | (iii) Design of environments for people to work efficiently and comfortably |\n| (d) Bluetooth | (iv) Genetic modification of plants |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001688",
@@ -452,7 +530,33 @@
       "answerIndex": 1,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "(a) Anarchy",
+            "(i) Study of birds"
+          ],
+          [
+            "(b) Ornithology",
+            "(ii) Fear of water"
+          ],
+          [
+            "(c) Congenital",
+            "(iii) Absence of rule, law and order"
+          ],
+          [
+            "(d) Hydrophobia",
+            "(iv) By birth"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Anarchy | (i) Study of birds |\n| (b) Ornithology | (ii) Fear of water |\n| (c) Congenital | (iii) Absence of rule, law and order |\n| (d) Hydrophobia | (iv) By birth |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001689",
@@ -472,7 +576,33 @@
       "answerIndex": 3,
       "exam": "Supervisor(Women)(Anganwadi Worker) - 2024",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "(a) Manuscript",
+            "(i) A state of highest perfection"
+          ],
+          [
+            "(b) Theism",
+            "(ii) Book written by hand"
+          ],
+          [
+            "(c) Utopia",
+            "(iii) One who is indifferent to pain or pleasure"
+          ],
+          [
+            "(d) Stoic",
+            "(iv) One who believes in the existence of God"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I | List-II |\n| --- | --- |\n| (a) Manuscript | (i) A state of highest perfection |\n| (b) Theism | (ii) Book written by hand |\n| (c) Utopia | (iii) One who is indifferent to pain or pleasure |\n| (d) Stoic | (iv) One who believes in the existence of God |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001692",
@@ -492,7 +622,33 @@
       "answerIndex": 1,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Severe shortage of food",
+            "I. Emeritus"
+          ],
+          [
+            "b. A retired person retaining honorary title",
+            "II. Hydrophobia"
+          ],
+          [
+            "c. Fear of water",
+            "III. Famine"
+          ],
+          [
+            "d. Abnormal fear of confined place",
+            "IV. Claustrophobia"
+          ]
+        ],
+        "rawQuestionText": "Match the phrases of List I with the corresponding words of List II :\n| List I | List II |\n| --- | --- |\n| a. Severe shortage of food | I. Emeritus |\n| b. A retired person retaining honorary title | II. Hydrophobia |\n| c. Fear of water | III. Famine |\n| d. Abnormal fear of confined place | IV. Claustrophobia |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001696",
@@ -952,7 +1108,33 @@
       "answerIndex": 1,
       "exam": "RSMSSB VDO Mains 2022",
       "year": 2022,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I",
+          "Column-II"
+        ],
+        "rows": [
+          [
+            "(A) incongruous",
+            "(i) recover quickly from difficult situation"
+          ],
+          [
+            "(B) resilient",
+            "(ii) one who knows everything"
+          ],
+          [
+            "(C) obsolete",
+            "(iii) that which is no longer in use"
+          ],
+          [
+            "(D) omniscient",
+            "(iv) strange and out of place"
+          ]
+        ],
+        "rawQuestionText": "Match words in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) incongruous | (i) recover quickly from difficult situation |\n| (B) resilient | (ii) one who knows everything |\n| (C) obsolete | (iii) that which is no longer in use |\n| (D) omniscient | (iv) strange and out of place |"
+      }
     },
     {
       "id": "rg_eng_001721",
@@ -1752,7 +1934,33 @@
       "answerIndex": 0,
       "exam": null,
       "year": null,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column A",
+          "Column B"
+        ],
+        "rows": [
+          [
+            "A. you can't make an omelette without breaking a few eggs",
+            "1. the time at which a usually significant or notable event is scheduled to take place."
+          ],
+          [
+            "B. zero hour",
+            "2. young, fresh, or vigorous new people, ideas, attitudes"
+          ],
+          [
+            "C. zero tolerance",
+            "3. to have to go through something seemingly not nice for a good result"
+          ],
+          [
+            "D.youngblood",
+            "4. A policy or attitude of accepting absolutely none of some kind of behavior or activity."
+          ]
+        ],
+        "rawQuestionText": "Match the idioms in Column A with their meanings in Column B - \n| Column A | Column B |\n| --- | --- |\n| A. you can't make an omelette without breaking a few eggs | 1. the time at which a usually significant or notable event is scheduled to take place. |\n| B. zero hour | 2. young, fresh, or vigorous new people, ideas, attitudes |\n| C. zero tolerance | 3. to have to go through something seemingly not nice for a good result |\n| D.youngblood | 4. A policy or attitude of accepting absolutely none of some kind of behavior or activity. |"
+      }
     },
     {
       "id": "rg_eng_001732",

@@ -142,18 +142,20 @@
       "masterTopic": "Error Spotting",
       "question": "Select the most appropriate option to identify the incorrect segment in the following sentence.\n| The judge concluded that | / either the maid or the driver were | / responsible for the murder. |\n| --- | --- | --- |\n| a | b | c |",
       "options": [
-        "only",
-        "only",
-        "a-NO, b-ERROR",
-        "only"
+        "(b) only",
+        "(a) only",
+        "(c) only",
+        "No error"
       ],
       "answer": "A",
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null,
+      "explanation": "Subject-verb agreement error: When two singular subjects (\"the maid\", \"the driver\") are connected by \"either... or\", the verb must be singular (\"was\", not \"were\"). Therefore, segment (b) is incorrect.",
       "rawPosition": 6,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence:\n\nThe judge concluded that (a) / either the maid or the driver were (b) / responsible for the murder (c)."
     },
     {
       "id": "rg_eng_002122",
@@ -167,18 +169,20 @@
       "masterTopic": "Error Spotting",
       "question": "Select the most appropriate option to identify the incorrect segment in the following sentence.\n| The dazzle and glamour | / of money and success | / have gone to her head. |\n| --- | --- | --- |\n| (a) | (b) | (c) |",
       "options": [
-        "only",
-        "only",
-        "a-NO, b-ERROR",
-        "only"
+        "(c) only",
+        "(a) only",
+        "(b) only",
+        "No error"
       ],
       "answer": "A",
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null,
+      "explanation": "Subject-verb agreement error: \"The dazzle and glamour\" is treated as a single unified concept/idea, which requires a singular verb (\"has gone\", not \"have gone\"). Therefore, segment (c) is incorrect.",
       "rawPosition": 7,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence:\n\nThe dazzle and glamour (a) / of money and success (b) / have gone to her head (c)."
     },
     {
       "id": "rg_eng_002123",

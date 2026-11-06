@@ -92,10 +92,10 @@
       "masterTopic": "Confusable Words",
       "question": "Match the following often confused words with their appropriate meanings.\n| i. Breach | A. a piece of jewellery with a pin on the back. |\n| --- | --- |\n| ii. Breech | B. failure to do something that must be done. |\n| iii. Broach | C. talking about a subject that is embarrassing. |\n| iv. Brooch | D. The part of a gun where bullets are loaded. |\n\n i ii iii iv",
       "options": [
-        "a-III, d-II",
-        "b-IV, c-I",
-        "a-III, b-IV",
-        "b-I, c-IV"
+        "a-II, b-III, c-IV, d-I",
+        "a-II, b-IV, c-III, d-I",
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-II, d-I"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -103,7 +103,29 @@
       "year": 2025,
       "explanation": null,
       "rawPosition": 2,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "i. Breach",
+          "A. a piece of jewellery with a pin on the back."
+        ],
+        "rows": [
+          [
+            "ii. Breech",
+            "B. failure to do something that must be done."
+          ],
+          [
+            "iii. Broach",
+            "C. talking about a subject that is embarrassing."
+          ],
+          [
+            "iv. Brooch",
+            "D. The part of a gun where bullets are loaded."
+          ]
+        ],
+        "rawQuestionText": "Match the following often confused words with their appropriate meanings.\n| i. Breach | A. a piece of jewellery with a pin on the back. |\n| --- | --- |\n| ii. Breech | B. failure to do something that must be done. |\n| iii. Broach | C. talking about a subject that is embarrassing. |\n| iv. Brooch | D. The part of a gun where bullets are loaded. |\n\n i ii iii iv"
+      }
     },
     {
       "id": "rg_eng_002048",

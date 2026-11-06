@@ -28,7 +28,33 @@
       "year": 2026,
       "explanation": null,
       "rawPosition": 1,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word in Hindi)",
+          "List-II (English equivalent)"
+        ],
+        "rows": [
+          [
+            "a. प्राध्यापक",
+            "I. Faculty"
+          ],
+          [
+            "b. संकाय",
+            "II. Contract"
+          ],
+          [
+            "c. अनुबंध",
+            "III. Dissertation"
+          ],
+          [
+            "d. शोध-प्रबंध",
+            "IV. Lecturer"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Word in Hindi) | List-II (English equivalent) |\n| --- | --- |\n| a. प्राध्यापक | I. Faculty |\n| b. संकाय | II. Contract |\n| c. अनुबंध | III. Dissertation |\n| d. शोध-प्रबंध | IV. Lecturer |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001049",
@@ -803,7 +829,33 @@
       "year": 2023,
       "explanation": null,
       "rawPosition": 2,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Director",
+            "I. अवज्ञा"
+          ],
+          [
+            "b. Accountant",
+            "II. संसाधन"
+          ],
+          [
+            "c. Insubordination",
+            "III. निदेशक"
+          ],
+          [
+            "d. Resources",
+            "IV. लेखाकार"
+          ]
+        ],
+        "rawQuestionText": "Match the given words of List I with their corresponding words in List II.\n| List I | List II |\n| --- | --- |\n| a. Director | I. अवज्ञा |\n| b. Accountant | II. संसाधन |\n| c. Insubordination | III. निदेशक |\n| d. Resources | IV. लेखाकार |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001084",

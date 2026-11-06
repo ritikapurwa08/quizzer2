@@ -228,7 +228,33 @@
       "year": 2026,
       "explanation": null,
       "rawPosition": 1,
-      "pageStart": 10
+      "pageStart": 10,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I (Sentence Type)",
+          "Column-II (Example)"
+        ],
+        "rows": [
+          [
+            "a. Assertive",
+            "I. She is happy."
+          ],
+          [
+            "b. Interrogative",
+            "II. Where are you going?"
+          ],
+          [
+            "c. Imperative",
+            "III. Close the door."
+          ],
+          [
+            "d. Exclamatory",
+            "IV. What a beautiful day!"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| Column-I (Sentence Type) | Column-II (Example) |\n| --- | --- |\n| a. Assertive | I. She is happy. |\n| b. Interrogative | II. Where are you going? |\n| c. Imperative | III. Close the door. |\n| d. Exclamatory | IV. What a beautiful day! |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000317",

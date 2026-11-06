@@ -103,7 +103,33 @@
       "year": 2026,
       "explanation": null,
       "rawPosition": 6,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I (Tense)",
+          "Column-II (Sentence)"
+        ],
+        "rows": [
+          [
+            "a. Present",
+            "I. She writes a letter."
+          ],
+          [
+            "b. Past",
+            "II. She will write a letter."
+          ],
+          [
+            "c. Future",
+            "III. She wrote a letter."
+          ],
+          [
+            "d. Present Continuous",
+            "IV. She is writing a letter"
+          ]
+        ],
+        "rawQuestionText": "Match Column-I with Column II.\n| Column-I (Tense) | Column-II (Sentence) |\n| --- | --- |\n| a. Present | I. She writes a letter. |\n| b. Past | II. She will write a letter. |\n| c. Future | III. She wrote a letter. |\n| d. Present Continuous | IV. She is writing a letter |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000007",

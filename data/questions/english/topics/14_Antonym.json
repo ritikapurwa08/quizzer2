@@ -153,7 +153,33 @@
       "year": 2025,
       "explanation": null,
       "rawPosition": 3,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column (A)",
+          "Column (B)"
+        ],
+        "rows": [
+          [
+            "(a) Accord",
+            "(i) Liability"
+          ],
+          [
+            "(b) Asset",
+            "(ii) Misery"
+          ],
+          [
+            "(c) Bold",
+            "(iii) Dissent"
+          ],
+          [
+            "(d) Bliss",
+            "(iv) Timid"
+          ]
+        ],
+        "rawQuestionText": "Match the words in Column (A) with their antonyms in Column (B) -\n| Column (A) | Column (B) |\n| --- | --- |\n| (a) Accord | (i) Liability |\n| (b) Asset | (ii) Misery |\n| (c) Bold | (iii) Dissent |\n| (d) Bliss | (iv) Timid |"
+      }
     },
     {
       "id": "rg_eng_001558",
@@ -753,7 +779,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 10,
-      "pageStart": 20
+      "pageStart": 20,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "(a) Abundant",
+            "(i) Callous"
+          ],
+          [
+            "(b) Vague",
+            "(ii) Scarce"
+          ],
+          [
+            "(c) Admonish",
+            "(iii) Clear"
+          ],
+          [
+            "(d) Sensitive",
+            "(iv) Praise"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Abundant | (i) Callous |\n| (b) Vague | (ii) Scarce |\n| (c) Admonish | (iii) Clear |\n| (d) Sensitive | (iv) Praise |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001582",
@@ -778,7 +830,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 1,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "(a) Munificent",
+            "(i) Decline"
+          ],
+          [
+            "(b) Jubilant",
+            "(ii) Heterogenous"
+          ],
+          [
+            "(c) Accept",
+            "(iii) Miserly"
+          ],
+          [
+            "(d) Homogenous",
+            "(iv) Gloomy"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I (Word) | List-II (Antonyms) |\n| --- | --- |\n| (a) Munificent | (i) Decline |\n| (b) Jubilant | (ii) Heterogenous |\n| (c) Accept | (iii) Miserly |\n| (d) Homogenous | (iv) Gloomy |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001583",
@@ -803,7 +881,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 2,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word)",
+          "List-II (Opposite)"
+        ],
+        "rows": [
+          [
+            "a. Discourage",
+            "I. Lax"
+          ],
+          [
+            "b. Attractive",
+            "II. Encourage"
+          ],
+          [
+            "c. Strict",
+            "III. Accept"
+          ],
+          [
+            "d. Denounce",
+            "IV. Repulsive"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Word) | List-II (Opposite) |\n| --- | --- |\n| a. Discourage | I. Lax |\n| b. Attractive | II. Encourage |\n| c. Strict | III. Accept |\n| d. Denounce | IV. Repulsive |\n\nChoose the most appropirate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001584",
@@ -828,7 +932,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 3,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWord",
+          "List-IIAntonyms"
+        ],
+        "rows": [
+          [
+            "a. peevish",
+            "I. humility"
+          ],
+          [
+            "b. generous",
+            "II. genial"
+          ],
+          [
+            "c. latent",
+            "III. stingy"
+          ],
+          [
+            "d. vanity",
+            "IV. apparent"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| a. peevish | I. humility |\n| b. generous | II. genial |\n| c. latent | III. stingy |\n| d. vanity | IV. apparent |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001586",
@@ -853,7 +983,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Word",
+          "List-II Antonyms"
+        ],
+        "rows": [
+          [
+            "(a) Approve",
+            "(i) Orthodox"
+          ],
+          [
+            "(b) Scarce",
+            "(ii) Transparent"
+          ],
+          [
+            "(c) Modern",
+            "(iii) Disapprove"
+          ],
+          [
+            "(d) Opaque",
+            "(iv) Plenty"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-I Word | List-II Antonyms |\n| --- | --- |\n| (a) Approve | (i) Orthodox |\n| (b) Scarce | (ii) Transparent |\n| (c) Modern | (iii) Disapprove |\n| (d) Opaque | (iv) Plenty |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001587",
@@ -878,7 +1034,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 6,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWord",
+          "List-IIAntonyms"
+        ],
+        "rows": [
+          [
+            "(a) barren",
+            "(i) hope"
+          ],
+          [
+            "(b) despair",
+            "(ii) rigid"
+          ],
+          [
+            "(c) flexible",
+            "(iii) arrogant"
+          ],
+          [
+            "(d) humble",
+            "(iv) fertile"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II :\n| List-IWord | List-IIAntonyms |\n| --- | --- |\n| (a) barren | (i) hope |\n| (b) despair | (ii) rigid |\n| (c) flexible | (iii) arrogant |\n| (d) humble | (iv) fertile |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001596",
@@ -903,7 +1085,33 @@
       "year": 2023,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 40
+      "pageStart": 40,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Interior",
+            "I. Complex"
+          ],
+          [
+            "b. Simple",
+            "II. Mobile"
+          ],
+          [
+            "c. Stationary",
+            "III. Exterior"
+          ],
+          [
+            "d. Private",
+            "IV. Public"
+          ]
+        ],
+        "rawQuestionText": "Match the given words of List I with their opposites in List II.\n| List I | List II |\n| --- | --- |\n| a. Interior | I. Complex |\n| b. Simple | II. Mobile |\n| c. Stationary | III. Exterior |\n| d. Private | IV. Public |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001599",
@@ -1303,7 +1511,33 @@
       "year": 2022,
       "explanation": null,
       "rawPosition": 4,
-      "pageStart": 60
+      "pageStart": 60,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I",
+          "Column-II"
+        ],
+        "rows": [
+          [
+            "(A) conceal",
+            "(i) ascetic"
+          ],
+          [
+            "(B) hedonist",
+            "(ii) permanent"
+          ],
+          [
+            "(C) hackneyed",
+            "(iii) reveal"
+          ],
+          [
+            "(D) ephemeral",
+            "(iv) original"
+          ]
+        ],
+        "rawQuestionText": "Match the words in column I to their antonyms in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (A) conceal | (i) ascetic |\n| (B) hedonist | (ii) permanent |\n| (C) hackneyed | (iii) reveal |\n| (D) ephemeral | (iv) original |"
+      }
     },
     {
       "id": "rg_eng_001614",

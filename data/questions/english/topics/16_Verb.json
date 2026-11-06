@@ -178,7 +178,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Table",
+            "I. Adjective"
+          ],
+          [
+            "b. Hot",
+            "II. Noun"
+          ],
+          [
+            "c. Cut",
+            "III. Pronoun"
+          ],
+          [
+            "d. He",
+            "IV. Verb"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II: \n| List I | List II |\n| --- | --- |\n| a. Table | I. Adjective |\n| b. Hot | II. Noun |\n| c. Cut | III. Pronoun |\n| d. He | IV. Verb |\n\n Choose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001771",

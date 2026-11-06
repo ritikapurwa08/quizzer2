@@ -1092,10 +1092,10 @@
       "masterTopic": "Idiom or phrase",
       "question": "Match the idioms in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (i) Call it a day | (A) saying good luck to someone |\n| (ii) Feeling under the weather | (B) to leak a secret |\n| (iii) Spill the beans | (C) not very well |\n| (iv) Break a leg | (D) to stop work or another activity |",
       "options": [
-        "i-(C), ii-(D), iii-(B), iv-(A)",
-        "i-(D), ii-(C), iii-(B), iv-(A)",
-        "i-(A), ii-(C), iii-(B), iv-(D)",
-        "i-(D), ii-(C), iii-(A), iv-(B)"
+        "a-III, b-IV, c-II, d-I",
+        "a-IV, b-III, c-II, d-I",
+        "a-I, b-III, c-II, d-IV",
+        "a-IV, b-III, c-I, d-II"
       ],
       "answer": "B",
       "answerIndex": 1,
@@ -1103,7 +1103,33 @@
       "year": 2022,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 40
+      "pageStart": 40,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column-I",
+          "Column-II"
+        ],
+        "rows": [
+          [
+            "(i) Call it a day",
+            "(A) saying good luck to someone"
+          ],
+          [
+            "(ii) Feeling under the weather",
+            "(B) to leak a secret"
+          ],
+          [
+            "(iii) Spill the beans",
+            "(C) not very well"
+          ],
+          [
+            "(iv) Break a leg",
+            "(D) to stop work or another activity"
+          ]
+        ],
+        "rawQuestionText": "Match the idioms in column I with their meanings in column II –\n| Column-I | Column-II |\n| --- | --- |\n| (i) Call it a day | (A) saying good luck to someone |\n| (ii) Feeling under the weather | (B) to leak a secret |\n| (iii) Spill the beans | (C) not very well |\n| (iv) Break a leg | (D) to stop work or another activity |"
+      }
     },
     {
       "id": "rg_eng_001885",

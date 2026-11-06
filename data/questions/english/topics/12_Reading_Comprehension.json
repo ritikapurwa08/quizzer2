@@ -767,7 +767,7 @@
       "masterTopic": "Reading Comprehension",
       "question": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a-II, b-I, d-IV",
+        "a-II, b-I, c-III, d-IV",
         "a-I, b-II, c-IV, d-III",
         "a-III, b-IV, c-II, d-I",
         "a-IV, b-III, c-I, d-II"
@@ -778,7 +778,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 1,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Fields)",
+          "List-II (Application of AI)"
+        ],
+        "rows": [
+          [
+            "a. Medicine",
+            "I. Predicting natural catastrophies"
+          ],
+          [
+            "b. Banking",
+            "II. Identifying Potential criminals"
+          ],
+          [
+            "c. Criminology",
+            "III. Interpreting ultrasound images"
+          ],
+          [
+            "d. Meteorology",
+            "IV. Disbursing loansy"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001297",
@@ -803,7 +829,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 2,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Meanings)"
+        ],
+        "rows": [
+          [
+            "a. Entrenched",
+            "I. ability of show future happenings"
+          ],
+          [
+            "b. Marginalised",
+            "II. established strongly"
+          ],
+          [
+            "c. Predictive",
+            "III. People that share the same cultural traditions"
+          ],
+          [
+            "d. Ethnic",
+            "IV. with not much say in important matters."
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-IIChoose the most appropriate answer from the options given below:\n| List-I (Words) | List-II (Meanings) |\n| --- | --- |\n| a. Entrenched | I. ability of show future happenings |\n| b. Marginalised | II. established strongly |\n| c. Predictive | III. People that share the same cultural traditions |\n| d. Ethnic | IV. with not much say in important matters. |"
+      }
     },
     {
       "id": "rg_eng_001298",
@@ -878,7 +930,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "a. Conservative",
+            "I. Using new ideas"
+          ],
+          [
+            "b. Arsenal",
+            "II. To feel stronger"
+          ],
+          [
+            "c. Innovative",
+            "III. A collection of weapons"
+          ],
+          [
+            "d. Fortify",
+            "IV. Opposed to sudden social change"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I | List-II |\n| --- | --- |\n| a. Conservative | I. Using new ideas |\n| b. Arsenal | II. To feel stronger |\n| c. Innovative | III. A collection of weapons |\n| d. Fortify | IV. Opposed to sudden social change |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001301",
@@ -1003,7 +1081,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 10,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "a. alleviate",
+            "I. assuage"
+          ],
+          [
+            "b. impairs",
+            "II. aggravate"
+          ],
+          [
+            "c. exacerbate",
+            "III. leisurely"
+          ],
+          [
+            "d. rapidly",
+            "IV. repairs"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Antonyms) |\n| --- | --- |\n| a. alleviate | I. assuage |\n| b. impairs | II. aggravate |\n| c. exacerbate | III. leisurely |\n| d. rapidly | IV. repairs |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001306",
@@ -1128,7 +1232,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 5,
-      "pageStart": 40
+      "pageStart": 40,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Meaning)"
+        ],
+        "rows": [
+          [
+            "a. Unprecedented",
+            "I. Forests land, which absorbs carbon-dioxide from the air"
+          ],
+          [
+            "b. Implications",
+            "II. That which has never happened before"
+          ],
+          [
+            "c. Sinks",
+            "III. The deliberate spreading of frightening rumours"
+          ],
+          [
+            "d. Scare mongering",
+            "IV. Something that is suggested"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Meaning) |\n| --- | --- |\n| a. Unprecedented | I. Forests land, which absorbs carbon-dioxide from the air |\n| b. Implications | II. That which has never happened before |\n| c. Sinks | III. The deliberate spreading of frightening rumours |\n| d. Scare mongering | IV. Something that is suggested |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001311",
@@ -1478,7 +1608,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 9,
-      "pageStart": 50
+      "pageStart": 50,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWords",
+          "List-IISynonyms"
+        ],
+        "rows": [
+          [
+            "a. Endeavour",
+            "I. Dishonest"
+          ],
+          [
+            "b. Crooked",
+            "II. Anything that prevents"
+          ],
+          [
+            "c. Cataracts",
+            "III. Effort"
+          ],
+          [
+            "d. Antidote",
+            "IV. Water that falls"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II: \n| List-IWords | List-IISynonyms |\n| --- | --- |\n| a. Endeavour | I. Dishonest |\n| b. Crooked | II. Anything that prevents |\n| c. Cataracts | III. Effort |\n| d. Antidote | IV. Water that falls |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001325",
@@ -1953,7 +2109,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 8,
-      "pageStart": 70
+      "pageStart": 70,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Words",
+          "List-IISynonyms"
+        ],
+        "rows": [
+          [
+            "(a) nondescript",
+            "(i) one skilled in music"
+          ],
+          [
+            "(b) nimble",
+            "(ii) sharpness"
+          ],
+          [
+            "(c) acumen",
+            "(iii) lacking in interesting characteristics"
+          ],
+          [
+            "(d) virtuoso",
+            "(iv) quick and light in action"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II  :\n| List-I Words | List-IISynonyms |\n| --- | --- |\n| (a) nondescript | (i) one skilled in music |\n| (b) nimble | (ii) sharpness |\n| (c) acumen | (iii) lacking in interesting characteristics |\n| (d) virtuoso | (iv) quick and light in action |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001344",
@@ -2028,7 +2210,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 1,
-      "pageStart": 80
+      "pageStart": 80,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "(a) Chocolatiers",
+            "(i) Items combined to make a particular food or drink"
+          ],
+          [
+            "(b) Artisanal",
+            "(ii) Those who make and sell chocolates"
+          ],
+          [
+            "(c) Discerning",
+            "(iii) Skilled"
+          ],
+          [
+            "(d) Ingredients",
+            "(iv) Showing good judgement"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I | List-II |\n| --- | --- |\n| (a) Chocolatiers | (i) Items combined to make a particular food or drink |\n| (b) Artisanal | (ii) Those who make and sell chocolates |\n| (c) Discerning | (iii) Skilled |\n| (d) Ingredients | (iv) Showing good judgement |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001347",
@@ -2328,7 +2536,33 @@
       "year": 2023,
       "explanation": null,
       "rawPosition": 8,
-      "pageStart": 130
+      "pageStart": 130,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Words)",
+          "List II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "a. Humidity",
+            "I. Rigid"
+          ],
+          [
+            "b. Pain",
+            "II. Worse"
+          ],
+          [
+            "c. Better",
+            "III. Dryness"
+          ],
+          [
+            "d. Flexible",
+            "IV. Pleasure"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Antonyms) |\n| --- | --- |\n| a. Humidity | I. Rigid |\n| b. Pain | II. Worse |\n| c. Better | III. Dryness |\n| d. Flexible | IV. Pleasure |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001404",
@@ -2478,7 +2712,33 @@
       "year": 2023,
       "explanation": null,
       "rawPosition": 4,
-      "pageStart": 140
+      "pageStart": 140,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Words)",
+          "List II (Meaning)"
+        ],
+        "rows": [
+          [
+            "a. Flora",
+            "I. Of great height"
+          ],
+          [
+            "b. Lofty",
+            "II. Culture"
+          ],
+          [
+            "c. Monarchy",
+            "III. Plant life"
+          ],
+          [
+            "d. Ethos",
+            "IV. Government of one ruler"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Meaning) |\n| --- | --- |\n| a. Flora | I. Of great height |\n| b. Lofty | II. Culture |\n| c. Monarchy | III. Plant life |\n| d. Ethos | IV. Government of one ruler |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001410",

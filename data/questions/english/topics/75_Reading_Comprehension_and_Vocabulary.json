@@ -64,7 +64,33 @@
       "answerIndex": 2,
       "exam": "LDC Grade II / Junior Assistant Exam 2026",
       "year": 2026,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Word in Hindi)",
+          "List-II (English equivalent)"
+        ],
+        "rows": [
+          [
+            "a. प्राध्यापक",
+            "I. Faculty"
+          ],
+          [
+            "b. संकाय",
+            "II. Contract"
+          ],
+          [
+            "c. अनुबंध",
+            "III. Dissertation"
+          ],
+          [
+            "d. शोध-प्रबंध",
+            "IV. Lecturer"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Word in Hindi) | List-II (English equivalent) |\n| --- | --- |\n| a. प्राध्यापक | I. Faculty |\n| b. संकाय | II. Contract |\n| c. अनुबंध | III. Dissertation |\n| d. शोध-प्रबंध | IV. Lecturer |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001049",
@@ -2144,7 +2170,33 @@
       "answerIndex": 2,
       "exam": "SCHOOL LECTURER (SCHOOL EDU.) 2024 GA and GS (G-B)",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "Column A",
+          "Column B"
+        ],
+        "rows": [
+          [
+            "a. mis",
+            "(i) tie"
+          ],
+          [
+            "b. de",
+            "(ii) content"
+          ],
+          [
+            "c. un",
+            "(iii) conduct"
+          ],
+          [
+            "d. dis",
+            "(iv)"
+          ]
+        ],
+        "rawQuestionText": "Match the prefixes under Column A with the words under Column B :\n| Column A | Column B |\n| --- | --- |\n| a. mis | (i) tie |\n| b. de | (ii) content |\n| c. un | (iii) conduct |\n| d. dis | (iv) code |"
+      }
     },
     {
       "id": "rg_eng_001211",
@@ -2264,7 +2316,33 @@
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List - I",
+          "List - II"
+        ],
+        "rows": [
+          [
+            "(a) A country that needs to be taken care of is poverty _____.",
+            "(i) proof"
+          ],
+          [
+            "(b) A person who can be depended upon is trust _____.",
+            "(ii) conscious"
+          ],
+          [
+            "(c) A bullet _____ vehicle saves lives.",
+            "(iii) worthy"
+          ],
+          [
+            "(d) Businessmen are very money _____.",
+            "(iv) ridden"
+          ]
+        ],
+        "rawQuestionText": "Match the underlined words in List - I with most suitable Suffixes from List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) A country that needs to be taken care of is poverty _____. | (i) proof |\n| (b) A person who can be depended upon is trust _____. | (ii) conscious |\n| (c) A bullet _____ vehicle saves lives. | (iii) worthy |\n| (d) Businessmen are very money _____. | (iv) ridden |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001217",
@@ -2284,7 +2362,33 @@
       "answerIndex": 3,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List - I",
+          "List - II"
+        ],
+        "rows": [
+          [
+            "(a) The committee met to _____ appraise its members  about the indiscipline cases in the school.",
+            "(i) mis"
+          ],
+          [
+            "(b) The Covid research is now _____ classified information.",
+            "(ii) de"
+          ],
+          [
+            "(c) I hope you do not nurse any _____ conceptions about me.",
+            "(iii) re"
+          ],
+          [
+            "(d) I was _____ informed about the case as I was fed  inaccurate details.",
+            "(iv) ill"
+          ]
+        ],
+        "rawQuestionText": "Complete the sentence in List - I by choosing the most appropriate prefixes from List - II.\n| List - I | List - II |\n| --- | --- |\n| (a) The committee met to _____ appraise its members  about the indiscipline cases in the school. | (i) mis |\n| (b) The Covid research is now _____ classified information. | (ii) de |\n| (c) I hope you do not nurse any _____ conceptions about me. | (iii) re |\n| (d) I was _____ informed about the case as I was fed  inaccurate details. | (iv) ill |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001218",
@@ -2615,7 +2719,7 @@
       "masterTopic": "Reading Comprehension and Vocabulary",
       "question": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:",
       "options": [
-        "a-II, b-I, d-IV",
+        "a-II, b-I, c-III, d-IV",
         "a-I, b-II, c-IV, d-III",
         "a-III, b-IV, c-II, d-I",
         "a-IV, b-III, c-I, d-II"
@@ -2624,7 +2728,33 @@
       "answerIndex": 2,
       "exam": "CET 2024 (12th Level) 24 October Shift-I",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Fields)",
+          "List-II (Application of AI)"
+        ],
+        "rows": [
+          [
+            "a. Medicine",
+            "I. Predicting natural catastrophies"
+          ],
+          [
+            "b. Banking",
+            "II. Identifying Potential criminals"
+          ],
+          [
+            "c. Criminology",
+            "III. Interpreting ultrasound images"
+          ],
+          [
+            "d. Meteorology",
+            "IV. Disbursing loansy"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Fields) | List-II (Application of AI) |\n| --- | --- |\n| a. Medicine | I. Predicting natural catastrophies |\n| b. Banking | II. Identifying Potential criminals |\n| c. Criminology | III. Interpreting ultrasound images |\n| d. Meteorology | IV. Disbursing loansy |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001297",
@@ -2644,7 +2774,33 @@
       "answerIndex": 1,
       "exam": "CET 2024 (12th Level) 24 October Shift-I",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Meanings)"
+        ],
+        "rows": [
+          [
+            "a. Entrenched",
+            "I. ability of show future happenings"
+          ],
+          [
+            "b. Marginalised",
+            "II. established strongly"
+          ],
+          [
+            "c. Predictive",
+            "III. People that share the same cultural traditions"
+          ],
+          [
+            "d. Ethnic",
+            "IV. with not much say in important matters."
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-IIChoose the most appropriate answer from the options given below:\n| List-I (Words) | List-II (Meanings) |\n| --- | --- |\n| a. Entrenched | I. ability of show future happenings |\n| b. Marginalised | II. established strongly |\n| c. Predictive | III. People that share the same cultural traditions |\n| d. Ethnic | IV. with not much say in important matters. |"
+      }
     },
     {
       "id": "rg_eng_001298",
@@ -2704,7 +2860,33 @@
       "answerIndex": 3,
       "exam": "CET 2024 (12th Level) 23 October Shift-II",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "a. Conservative",
+            "I. Using new ideas"
+          ],
+          [
+            "b. Arsenal",
+            "II. To feel stronger"
+          ],
+          [
+            "c. Innovative",
+            "III. A collection of weapons"
+          ],
+          [
+            "d. Fortify",
+            "IV. Opposed to sudden social change"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I | List-II |\n| --- | --- |\n| a. Conservative | I. Using new ideas |\n| b. Arsenal | II. To feel stronger |\n| c. Innovative | III. A collection of weapons |\n| d. Fortify | IV. Opposed to sudden social change |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001301",
@@ -2804,7 +2986,33 @@
       "answerIndex": 1,
       "exam": "CET 2024 (12th Level) 23 October Shift-I",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "a. alleviate",
+            "I. assuage"
+          ],
+          [
+            "b. impairs",
+            "II. aggravate"
+          ],
+          [
+            "c. exacerbate",
+            "III. leisurely"
+          ],
+          [
+            "d. rapidly",
+            "IV. repairs"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Antonyms) |\n| --- | --- |\n| a. alleviate | I. assuage |\n| b. impairs | II. aggravate |\n| c. exacerbate | III. leisurely |\n| d. rapidly | IV. repairs |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001306",
@@ -2904,7 +3112,33 @@
       "answerIndex": 3,
       "exam": "CET 2024 (12th Level) 22 October Shift-II",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I (Words)",
+          "List-II (Meaning)"
+        ],
+        "rows": [
+          [
+            "a. Unprecedented",
+            "I. Forests land, which absorbs carbon-dioxide from the air"
+          ],
+          [
+            "b. Implications",
+            "II. That which has never happened before"
+          ],
+          [
+            "c. Sinks",
+            "III. The deliberate spreading of frightening rumours"
+          ],
+          [
+            "d. Scare mongering",
+            "IV. Something that is suggested"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II\n| List-I (Words) | List-II (Meaning) |\n| --- | --- |\n| a. Unprecedented | I. Forests land, which absorbs carbon-dioxide from the air |\n| b. Implications | II. That which has never happened before |\n| c. Sinks | III. The deliberate spreading of frightening rumours |\n| d. Scare mongering | IV. Something that is suggested |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001311",
@@ -3184,7 +3418,33 @@
       "answerIndex": 3,
       "exam": "CET 2024 (Graduate) 28 September 2024 Shift-1",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-IWords",
+          "List-IISynonyms"
+        ],
+        "rows": [
+          [
+            "a. Endeavour",
+            "I. Dishonest"
+          ],
+          [
+            "b. Crooked",
+            "II. Anything that prevents"
+          ],
+          [
+            "c. Cataracts",
+            "III. Effort"
+          ],
+          [
+            "d. Antidote",
+            "IV. Water that falls"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II: \n| List-IWords | List-IISynonyms |\n| --- | --- |\n| a. Endeavour | I. Dishonest |\n| b. Crooked | II. Anything that prevents |\n| c. Cataracts | III. Effort |\n| d. Antidote | IV. Water that falls |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_001325",
@@ -3564,7 +3824,33 @@
       "answerIndex": 2,
       "exam": "Stenographer Exam 2024 (Paper - II)",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I Words",
+          "List-IISynonyms"
+        ],
+        "rows": [
+          [
+            "(a) nondescript",
+            "(i) one skilled in music"
+          ],
+          [
+            "(b) nimble",
+            "(ii) sharpness"
+          ],
+          [
+            "(c) acumen",
+            "(iii) lacking in interesting characteristics"
+          ],
+          [
+            "(d) virtuoso",
+            "(iv) quick and light in action"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II  :\n| List-I Words | List-IISynonyms |\n| --- | --- |\n| (a) nondescript | (i) one skilled in music |\n| (b) nimble | (ii) sharpness |\n| (c) acumen | (iii) lacking in interesting characteristics |\n| (d) virtuoso | (iv) quick and light in action |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001344",
@@ -3624,7 +3910,33 @@
       "answerIndex": 3,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List-I",
+          "List-II"
+        ],
+        "rows": [
+          [
+            "(a) Chocolatiers",
+            "(i) Items combined to make a particular food or drink"
+          ],
+          [
+            "(b) Artisanal",
+            "(ii) Those who make and sell chocolates"
+          ],
+          [
+            "(c) Discerning",
+            "(iii) Skilled"
+          ],
+          [
+            "(d) Ingredients",
+            "(iv) Showing good judgement"
+          ]
+        ],
+        "rawQuestionText": "Match List-I with List-II.\n| List-I | List-II |\n| --- | --- |\n| (a) Chocolatiers | (i) Items combined to make a particular food or drink |\n| (b) Artisanal | (ii) Those who make and sell chocolates |\n| (c) Discerning | (iii) Skilled |\n| (d) Ingredients | (iv) Showing good judgement |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001347",
@@ -4435,16 +4747,18 @@
       "masterTopic": "Reading Comprehension and Vocabulary",
       "question": "Select the most appropriate option to identify the incorrect segment in the following sentence.\n| The judge concluded that | / either the maid or the driver were | / responsible for the murder. |\n| --- | --- | --- |\n| a | b | c |",
       "options": [
-        "only",
-        "only",
-        "a-NO, b-ERROR",
-        "only"
+        "(b) only",
+        "(a) only",
+        "(c) only",
+        "No error"
       ],
       "answer": "A",
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": "Subject-verb agreement error: When two singular subjects (\"the maid\", \"the driver\") are connected by \"either... or\", the verb must be singular (\"was\", not \"were\"). Therefore, segment (b) is incorrect.",
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence:\n\nThe judge concluded that (a) / either the maid or the driver were (b) / responsible for the murder (c)."
     },
     {
       "id": "rg_eng_002122",
@@ -4455,16 +4769,18 @@
       "masterTopic": "Reading Comprehension and Vocabulary",
       "question": "Select the most appropriate option to identify the incorrect segment in the following sentence.\n| The dazzle and glamour | / of money and success | / have gone to her head. |\n| --- | --- | --- |\n| (a) | (b) | (c) |",
       "options": [
-        "only",
-        "only",
-        "a-NO, b-ERROR",
-        "only"
+        "(c) only",
+        "(a) only",
+        "(b) only",
+        "No error"
       ],
       "answer": "A",
       "answerIndex": 0,
       "exam": "Clerk Grade-II/ Jr. Asst. 2024 Paper -IInd",
       "year": 2024,
-      "explanation": null
+      "explanation": "Subject-verb agreement error: \"The dazzle and glamour\" is treated as a single unified concept/idea, which requires a singular verb (\"has gone\", not \"have gone\"). Therefore, segment (c) is incorrect.",
+      "type": "mcq",
+      "questionText": "Select the most appropriate option to identify the incorrect segment in the following sentence:\n\nThe dazzle and glamour (a) / of money and success (b) / have gone to her head (c)."
     },
     {
       "id": "rg_eng_002130",
@@ -4624,7 +4940,33 @@
       "answerIndex": 2,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Director",
+            "I. अवज्ञा"
+          ],
+          [
+            "b. Accountant",
+            "II. संसाधन"
+          ],
+          [
+            "c. Insubordination",
+            "III. निदेशक"
+          ],
+          [
+            "d. Resources",
+            "IV. लेखाकार"
+          ]
+        ],
+        "rawQuestionText": "Match the given words of List I with their corresponding words in List II.\n| List I | List II |\n| --- | --- |\n| a. Director | I. अवज्ञा |\n| b. Accountant | II. संसाधन |\n| c. Insubordination | III. निदेशक |\n| d. Resources | IV. लेखाकार |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001165",
@@ -4704,7 +5046,33 @@
       "answerIndex": 3,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Words)",
+          "List II (Antonyms)"
+        ],
+        "rows": [
+          [
+            "a. Humidity",
+            "I. Rigid"
+          ],
+          [
+            "b. Pain",
+            "II. Worse"
+          ],
+          [
+            "c. Better",
+            "III. Dryness"
+          ],
+          [
+            "d. Flexible",
+            "IV. Pleasure"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Antonyms) |\n| --- | --- |\n| a. Humidity | I. Rigid |\n| b. Pain | II. Worse |\n| c. Better | III. Dryness |\n| d. Flexible | IV. Pleasure |\n\nChoose the most appropriate answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001404",
@@ -4824,7 +5192,33 @@
       "answerIndex": 2,
       "exam": "Junior Accountant & Tehsil Revenue Accountant  Exam 2023 (Paper 1)",
       "year": 2023,
-      "explanation": null
+      "explanation": null,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Words)",
+          "List II (Meaning)"
+        ],
+        "rows": [
+          [
+            "a. Flora",
+            "I. Of great height"
+          ],
+          [
+            "b. Lofty",
+            "II. Culture"
+          ],
+          [
+            "c. Monarchy",
+            "III. Plant life"
+          ],
+          [
+            "d. Ethos",
+            "IV. Government of one ruler"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II :\n| List I (Words) | List II (Meaning) |\n| --- | --- |\n| a. Flora | I. Of great height |\n| b. Lofty | II. Culture |\n| c. Monarchy | III. Plant life |\n| d. Ethos | IV. Government of one ruler |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_001410",

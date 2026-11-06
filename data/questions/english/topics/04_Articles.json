@@ -153,7 +153,33 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 6,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. To",
+            "I. Article"
+          ],
+          [
+            "b. An",
+            "II. Noun"
+          ],
+          [
+            "c. Camel",
+            "III. Preposition"
+          ],
+          [
+            "d. Gone",
+            "IV. Verb"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II:\n| List I | List II |\n| --- | --- |\n| a. To | I. Article |\n| b. An | II. Noun |\n| c. Camel | III. Preposition |\n| d. Gone | IV. Verb |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000611",
@@ -253,7 +279,29 @@
       "year": 2024,
       "explanation": null,
       "rawPosition": 10,
-      "pageStart": 0
+      "pageStart": 0,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I (Sentences)",
+          "List II (Articles)"
+        ],
+        "rows": [
+          [
+            "a. He won ___ Tony award last year.",
+            "I. a"
+          ],
+          [
+            "b. German is _____ difficult language.",
+            "II. an"
+          ],
+          [
+            "c. Prince Vikramaditya is ____ amiable person.",
+            "III. the"
+          ]
+        ],
+        "rawQuestionText": "Match List I with List II -\n| List I (Sentences) | List II (Articles) |\n| --- | --- |\n| a. He won ___ Tony award last year. | I. a |\n| b. German is _____ difficult language. | II. an |\n| c. Prince Vikramaditya is ____ amiable person. | III. the |\n\nChoose the most appropriate answer from the options given below:"
+      }
     },
     {
       "id": "rg_eng_000615",
@@ -803,7 +851,33 @@
       "year": 2023,
       "explanation": null,
       "rawPosition": 8,
-      "pageStart": 30
+      "pageStart": 30,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "List I",
+          "List II"
+        ],
+        "rows": [
+          [
+            "a. Hari knew ___ man who was killed yesterday.",
+            "I. a"
+          ],
+          [
+            "b. Sri Lanka is ___ island.",
+            "II. the"
+          ],
+          [
+            "c. My mother teaches in ____ college.",
+            "III. the"
+          ],
+          [
+            "d. January is ___ first month of the year.",
+            "IV. an"
+          ]
+        ],
+        "rawQuestionText": "Fill in the correct article/ determiner in the sentences of List I, selecting from List II.\n| List I | List II |\n| --- | --- |\n| a. Hari knew ___ man who was killed yesterday. | I. a |\n| b. Sri Lanka is ___ island. | II. the |\n| c. My mother teaches in ____ college. | III. the |\n| d. January is ___ first month of the year. | IV. an |\n\nChoose the correct answer from the options given below :"
+      }
     },
     {
       "id": "rg_eng_000645",
@@ -1867,10 +1941,10 @@
       "masterTopic": "Articles",
       "question": "Match the following-\n| (A) Sentences | (B) Articles |\n| --- | --- |\n| (i) We will go to Calcutta by ........... Rajdhani Express. | (a) a |\n| (ii) The child was happy to see .......... aeroplane. | (b) no article |\n| (iii) He has gone for ......... holiday. | (c) an |\n| (iv) ............ Milk is good for health. | (d)the |",
       "options": [
-        "(i)-(d), (ii)-(c), (iii)-(a), (iv)-(b)",
-        "(i)-(d), (ii)-(a), (iii)-(b), (iv)-(c)",
-        "(i)-(c), (ii)-(d), (iii)-(a), (iv)-(b)",
-        "a-(i)-(b), (ii)-(c), (iii)-(d), (iv)-(a)"
+        "a-IV, b-III, c-I, d-II",
+        "a-IV, b-I, c-II, d-III",
+        "a-III, b-IV, c-I, d-II",
+        "a-II, b-III, c-IV, d-I"
       ],
       "answer": "A",
       "answerIndex": 0,
@@ -1878,7 +1952,33 @@
       "year": null,
       "explanation": null,
       "rawPosition": 7,
-      "pageStart": 40
+      "pageStart": 40,
+      "type": "table",
+      "meta": {
+        "headers": [
+          "(A) Sentences",
+          "(B) Articles"
+        ],
+        "rows": [
+          [
+            "(i) We will go to Calcutta by ........... Rajdhani Express.",
+            "(a) a"
+          ],
+          [
+            "(ii) The child was happy to see .......... aeroplane.",
+            "(b) no article"
+          ],
+          [
+            "(iii) He has gone for ......... holiday.",
+            "(c) an"
+          ],
+          [
+            "(iv) ............ Milk is good for health.",
+            "(d)the"
+          ]
+        ],
+        "rawQuestionText": "Match the following-\n| (A) Sentences | (B) Articles |\n| --- | --- |\n| (i) We will go to Calcutta by ........... Rajdhani Express. | (a) a |\n| (ii) The child was happy to see .......... aeroplane. | (b) no article |\n| (iii) He has gone for ......... holiday. | (c) an |\n| (iv) ............ Milk is good for health. | (d)the |"
+      }
     },
     {
       "id": "rg_eng_000657",
