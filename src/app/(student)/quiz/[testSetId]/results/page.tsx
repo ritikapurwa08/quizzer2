@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../../../convex/_generated/api";
 import { Id } from "../../../../../../convex/_generated/dataModel";
@@ -24,6 +24,7 @@ import { ArrowLeft } from "lucide-react";
 export { getSuggestedPdfFileName };
 
 export default function ResultsPage() {
+  const router = useRouter();
   const params = useParams<{ testSetId: string }>();
   const rawId = Array.isArray(params?.testSetId) ? params.testSetId[0] : params?.testSetId;
   const id = (rawId || "") as Id<"testSets">;
@@ -34,6 +35,7 @@ export default function ResultsPage() {
   const [localSetQuestions, setLocalSetQuestions] = useState<any[]>([]);
   const [localSetMeta, setLocalSetMeta] = useState<any>(null);
   const [isLoadingLocalQuestions, setIsLoadingLocalQuestions] = useState<boolean>(true);
+  const [isDiscarding, setIsDiscarding] = useState<boolean>(false);
   const { showToast } = useToast();
 
   // ── Data queries — guarded with "skip" when id is not yet available ──
@@ -42,6 +44,7 @@ export default function ResultsPage() {
     id ? { testSetId: id } : "skip"
   );
   const toggleBookmark = useMutation(api.bookmarks.toggle);
+  const removeZeroScoreAttempts = useMutation(api.attempts.removeZeroScoreAttempts);
   const currentSet = useQuery(api.testSets.get, id ? { id } : "skip");
 
   const effectiveSet = currentSet || localSetMeta;
@@ -321,6 +324,20 @@ export default function ResultsPage() {
     showToast("Sharing not supported on this browser.", "info");
   };
 
+  const handleDiscardAttempt = async () => {
+    if (!attempt?._id) return;
+    try {
+      setIsDiscarding(true);
+      await removeZeroScoreAttempts({ attemptId: attempt._id });
+      showToast("0-score attempt removed! Analytics restored.", "success");
+      router.push(`/quiz/${id}?retake=true`);
+    } catch (e: any) {
+      showToast(e.message || "Failed to discard attempt", "warning");
+    } finally {
+      setIsDiscarding(false);
+    }
+  };
+
   const handlePrint = async (filter?: ReviewFilter) => {
     try {
       const activeFilter = filter ?? reviewFilter;
@@ -393,6 +410,8 @@ export default function ResultsPage() {
           activeFilter={reviewFilter}
           onPrint={() => handlePrint(reviewFilter)}
           onShare={handleShareResult}
+          onDiscardAttempt={handleDiscardAttempt}
+          isDiscarding={isDiscarding}
         />
 
         {/* ── Question Review Section Header with 4-Option Filter Capsule ── */}

@@ -36,10 +36,40 @@ export async function GET(
       return NextResponse.json({ success: false, error: "Missing topicId" }, { status: 400 });
     }
 
+    let targetConvexId = topicId;
+    let targetMasterId: string | null = null;
+
+    // Load topicId mapping if available to resolve between numeric masterTopicId and Convex topicId
+    const mapPath = DATA_PATHS.topicIdMapping;
+    let topicMap: Record<string, string> = {};
+    if (fs.existsSync(mapPath)) {
+      try {
+        topicMap = JSON.parse(fs.readFileSync(mapPath, "utf-8"));
+      } catch (err) {
+        console.error("Error reading topicIdMapping:", err);
+      }
+    }
+
+    if (/^\d+$/.test(topicId)) {
+      targetMasterId = topicId;
+      if (topicMap[topicId]) {
+        targetConvexId = topicMap[topicId];
+      }
+    } else {
+      for (const [mId, cId] of Object.entries(topicMap)) {
+        if (cId === topicId) {
+          targetMasterId = mId;
+          break;
+        }
+      }
+    }
+
     const sets = getPublishedSetsList();
-    const matchingSets = sets.filter(
-      (s) => s.topicId === topicId || String(s.masterTopicId) === topicId
-    );
+    const matchingSets = sets.filter((s) => {
+      if (s.topicId === topicId || s.topicId === targetConvexId) return true;
+      if (targetMasterId && String(s.masterTopicId) === targetMasterId) return true;
+      return false;
+    });
 
     // Return lightweight set headers (without heavy question bodies)
     const setHeaders = matchingSets.map((s) => ({

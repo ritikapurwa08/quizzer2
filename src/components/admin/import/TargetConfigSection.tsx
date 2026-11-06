@@ -3,6 +3,7 @@
 import { SyllabusSelect } from "@/components/shared/SyllabusSelect";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
+import { CheckCircle2 } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -31,6 +32,10 @@ interface TargetConfigSectionProps {
   onSubtopicNameChange: (name: string) => void;
   isDuplicateSetName: boolean;
   plannedSetNames: string[];
+  remainingCount?: number;
+  isComplete?: boolean;
+  isFinalTopicSet?: boolean;
+  maxSetsAvailable?: number;
 }
 
 export function TargetConfigSection({
@@ -46,6 +51,10 @@ export function TargetConfigSection({
   onSubtopicNameChange,
   isDuplicateSetName,
   plannedSetNames,
+  remainingCount,
+  isComplete,
+  isFinalTopicSet,
+  maxSetsAvailable = 5,
 }: TargetConfigSectionProps) {
   return (
     <div className="space-y-4">
@@ -61,10 +70,23 @@ export function TargetConfigSection({
             placeholder="Select Subject..."
           />
         </div>
+
         <div>
-          <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-            Master Topic
-          </Label>
+          <div className="flex items-center justify-between mb-1.5">
+            <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
+              Master Topic
+            </Label>
+            {isComplete && (
+              <Badge variant="outline" className="text-emerald-500 border-emerald-500/30 bg-emerald-500/10 text-[10px] py-0 px-2 font-bold">
+                ✓ 100% Imported
+              </Badge>
+            )}
+            {!isComplete && remainingCount !== undefined && remainingCount > 0 && (
+              <span className="text-[11px] font-medium text-primary">
+                {remainingCount} questions left in pool
+              </span>
+            )}
+          </div>
           <SyllabusSelect
             options={topicsList}
             value={selectedTopicId}
@@ -73,43 +95,72 @@ export function TargetConfigSection({
             placeholder="Select Master Topic..."
           />
         </div>
+
         <div>
-          <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
-            Batch Size (Sets)
-          </Label>
+          <div className="flex items-center justify-between mb-1.5">
+            <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block">
+              Batch Size (Sets)
+            </Label>
+            {isFinalTopicSet && remainingCount !== undefined && (
+              <Badge variant="outline" className="text-amber-500 border-amber-500/30 bg-amber-500/10 text-[10px] py-0 px-1.5 font-bold">
+                Final Set
+              </Badge>
+            )}
+          </div>
           <Select
             value={String(batchSize)}
             onValueChange={(val: string | null) => val && onBatchSizeChange(Number(val))}
-            disabled={!selectedTopicId}
+            disabled={!selectedTopicId || isComplete}
           >
             <SelectTrigger className="mt-0.5 h-10 w-full rounded-xl border border-input bg-card px-3 text-sm font-medium">
-              <SelectValue placeholder="20 Questions (1 Set)">
+              <SelectValue placeholder={isComplete ? "0 Questions (Topic Complete)" : "20 Questions (1 Set)"}>
                 {(val: any) => {
+                  if (isComplete) return "0 Questions (Topic 100% Complete)";
                   const num = Number(val || batchSize);
+                  if (isFinalTopicSet && remainingCount && num < 20) {
+                    return `${num} Questions (Final Partial Set)`;
+                  }
                   const sets = Math.ceil(num / 20);
                   return `${num} Questions (${sets} ${sets === 1 ? "Set" : "Sets"})`;
                 }}
               </SelectValue>
             </SelectTrigger>
             <SelectContent className="bg-popover border-border">
-              <SelectItem value="20" className="cursor-pointer font-medium">
-                20 Questions (1 Set)
-              </SelectItem>
-              <SelectItem value="40" className="cursor-pointer font-medium">
-                40 Questions (2 Sets)
-              </SelectItem>
-              <SelectItem value="60" className="cursor-pointer font-medium">
-                60 Questions (3 Sets)
-              </SelectItem>
-              <SelectItem value="80" className="cursor-pointer font-medium">
-                80 Questions (4 Sets)
-              </SelectItem>
-              <SelectItem value="100" className="cursor-pointer font-medium">
-                100 Questions (5 Sets)
-              </SelectItem>
+              {isFinalTopicSet && remainingCount && remainingCount < 20 ? (
+                <SelectItem value={String(remainingCount)} className="cursor-pointer font-medium">
+                  {remainingCount} Questions (Final Partial Set)
+                </SelectItem>
+              ) : (
+                <>
+                  <SelectItem value="20" className="cursor-pointer font-medium">
+                    20 Questions (1 Set)
+                  </SelectItem>
+                  {maxSetsAvailable >= 2 && (
+                    <SelectItem value="40" className="cursor-pointer font-medium">
+                      40 Questions (2 Sets)
+                    </SelectItem>
+                  )}
+                  {maxSetsAvailable >= 3 && (
+                    <SelectItem value="60" className="cursor-pointer font-medium">
+                      60 Questions (3 Sets)
+                    </SelectItem>
+                  )}
+                  {maxSetsAvailable >= 4 && (
+                    <SelectItem value="80" className="cursor-pointer font-medium">
+                      80 Questions (4 Sets)
+                    </SelectItem>
+                  )}
+                  {maxSetsAvailable >= 5 && (
+                    <SelectItem value="100" className="cursor-pointer font-medium">
+                      100 Questions (5 Sets)
+                    </SelectItem>
+                  )}
+                </>
+              )}
             </SelectContent>
           </Select>
         </div>
+
         <div>
           <Label className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-1.5 block">
             Set / Part Name
@@ -134,6 +185,15 @@ export function TargetConfigSection({
         </div>
       </div>
 
+      {isComplete && (
+        <div className="flex items-center gap-2.5 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-medium">
+          <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-500" />
+          <span>
+            Topic is 100% imported! All questions in this topic pool have already been curated into live sets.
+          </span>
+        </div>
+      )}
+
       {plannedSetNames.length > 1 && (
         <div className="flex items-center gap-2 flex-wrap text-xs bg-muted/40 p-2.5 rounded-xl border border-border/50">
           <span className="font-semibold text-muted-foreground">Sets to create ({plannedSetNames.length}):</span>
@@ -147,4 +207,3 @@ export function TargetConfigSection({
     </div>
   );
 }
-

@@ -64,6 +64,16 @@ export async function GET() {
       convexToMasterId.set(cId, parseInt(mId, 10));
     }
 
+    // Collect all unique published question IDs to accurately compute unassigned questions
+    const allPublishedQuestionIds = new Set<string>();
+    for (const s of publishedSets || []) {
+      if (Array.isArray(s.questionIds)) {
+        for (const qid of s.questionIds) {
+          allPublishedQuestionIds.add(String(qid));
+        }
+      }
+    }
+
     // Aggregate sets and questions per master topic ID
     const liveStatsByMasterTopic = new Map<
       number,
@@ -109,8 +119,9 @@ export async function GET() {
         const padId = String(top.id).padStart(2, "0");
         let poolCount = 0;
         let subtopics: Array<{ name: string; count: number }> = [];
+        let unassignedCount = 0;
 
-        // Read local JSON file from data/ddd/topics/
+        // Read local JSON file from data/questions/rajasthan-gk/
         try {
           if (fs.existsSync(gkTopicsDir)) {
             const files = fs.readdirSync(gkTopicsDir);
@@ -119,6 +130,12 @@ export async function GET() {
               const fileData = JSON.parse(fs.readFileSync(path.join(gkTopicsDir, fileName), "utf-8"));
               const questions: any[] = fileData.questions || [];
               poolCount = questions.length;
+
+              for (const q of questions) {
+                if (!allPublishedQuestionIds.has(String(q.id))) {
+                  unassignedCount++;
+                }
+              }
 
               if (Array.isArray(fileData.subtopics) && fileData.subtopics.length > 0) {
                 subtopics = fileData.subtopics;
@@ -146,8 +163,8 @@ export async function GET() {
 
         const liveSetsCount = liveData.setCount || 0;
         const liveQuestionsCount = liveData.questionCount || 0;
-        const uniqueUsed = liveQuestionsCount; // Each set in published-sets has curated unique questions
-        const remaining = Math.max(0, poolCount - uniqueUsed);
+        const remaining = unassignedCount;
+        const uniqueUsed = Math.max(0, poolCount - remaining);
         const percentComplete = poolCount > 0 ? Math.min(100, Math.round((uniqueUsed / poolCount) * 100)) : 0;
 
         grandPoolTotal += poolCount;

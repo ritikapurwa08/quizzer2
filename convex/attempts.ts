@@ -16,6 +16,7 @@ export const start = mutation({
   args: {
     testSetId: v.union(v.id("testSets"), v.string()),
     totalQuestions: v.optional(v.number()),
+    retake: v.optional(v.boolean()),
   },
   handler: async (ctx, args) => {
     const user = await requireUser(ctx);
@@ -34,25 +35,47 @@ export const start = mutation({
       testSet?.durationMinutes ?? Math.max(10, questionsCount);
     const totalDurationSeconds = durationMinutes * 60;
 
-    // Resume an in-progress attempt for this test set if one exists,
-    // rather than creating duplicates.
-    const inProgress = await ctx.db
-      .query("attempts")
-      .withIndex("by_user_test_set_status", (q) =>
-        q.eq("userId", user._id).eq("testSetId", args.testSetId as any).eq("status", "in_progress"),
-      )
-      .unique();
-
-    if (inProgress) {
-      if (!inProgress.totalDurationSeconds) {
-        await ctx.db.patch(inProgress._id, {
-          totalDurationSeconds,
-          elapsedSeconds: inProgress.elapsedSeconds ?? 0,
-          isPaused: inProgress.isPaused ?? false,
-          lastResumedAt: inProgress.lastResumedAt ?? inProgress.startedAt,
-        });
+    // If retake is explicitly requested, purge any stale in_progress attempts for this set
+    if (args.retake) {
+      const existing = await ctx.db
+        .query("attempts")
+        .withIndex("by_user_test_set_status", (q) =>
+          q.eq("userId", user._id).eq("testSetId", args.testSetId as any).eq("status", "in_progress"),
+        )
+        .collect();
+      for (const a of existing) {
+        await ctx.db.delete(a._id);
       }
-      return inProgress._id;
+    } else {
+      // Resume an in-progress attempt for this test set if one exists and is valid
+      const inProgress = await ctx.db
+        .query("attempts")
+        .withIndex("by_user_test_set_status", (q) =>
+          q.eq("userId", user._id).eq("testSetId", args.testSetId as any).eq("status", "in_progress"),
+        )
+        .unique();
+
+      if (inProgress) {
+        const duration = inProgress.totalDurationSeconds || totalDurationSeconds;
+        let currentElapsed = inProgress.elapsedSeconds ?? 0;
+        if (!inProgress.isPaused && inProgress.lastResumedAt) {
+          currentElapsed += Math.max(0, Math.floor((Date.now() - inProgress.lastResumedAt) / 1000));
+        }
+
+        // If the attempt expired while the user was away, discard it and start fresh!
+        if (currentElapsed >= duration) {
+          await ctx.db.delete(inProgress._id);
+        } else {
+          // Valid attempt: resume with fresh lastResumedAt so elapsed continues from now
+          await ctx.db.patch(inProgress._id, {
+            totalDurationSeconds: duration,
+            elapsedSeconds: Math.min(duration, inProgress.elapsedSeconds ?? 0),
+            isPaused: false,
+            lastResumedAt: Date.now(),
+          });
+          return inProgress._id;
+        }
+      }
     }
 
     const now = Date.now();
@@ -306,6 +329,146 @@ export const resume = mutation({
     return { success: true, isPaused: false };
   },
 });
+
+/**
+ * Remove 0-score attempts (especially auto-submitted or abandoned attempts)
+ * to prevent them from depressing analytics and cluttering test history.
+ */
+export const removeZeroScoreAttempts = mutation({
+  args: {
+    attemptId: v.optional(v.id("attempts")),
+    testSetId: v.optional(v.union(v.id("testSets"), v.string())),
+    deleteAllZero: v.optional(v.boolean()),
+  },
+  handler: async (ctx, args) => {
+    const user = await requireUser(ctx);
+
+    // If specific attemptId is passed, delete it
+    if (args.attemptId) {
+      const attempt = await ctx.db.get(args.attemptId);
+      if (!attempt || attempt.userId !== user._id) {
+        return { deletedCount: 0, message: "Attempt not found" };
+      }
+      await ctx.db.delete(args.attemptId);
+      return { deletedCount: 1, message: "Attempt deleted successfully" };
+    }
+
+    // Query all submitted attempts for this user
+    const submittedAttempts = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_status", (q) =>
+        q.eq("userId", user._id).eq("status", "submitted")
+      )
+      .collect();
+
+    let deletedCount = 0;
+    for (const a of submittedAttempts) {
+      if (args.testSetId && String(a.testSetId) !== String(args.testSetId)) {
+        continue;
+      }
+
+      const score = a.score ?? 0;
+      const isZeroOrNegative = score <= 0;
+
+      const answeredCount = a.answers
+        ? a.answers.filter(
+            (ans: any) =>
+              ans.selected !== undefined &&
+              ans.selected !== null &&
+              ans.selected !== "" &&
+              (!Array.isArray(ans.selected) || ans.selected.length > 0)
+          ).length
+        : 0;
+
+      // When deleteAllZero is true, remove any attempt with score <= 0.
+      // Otherwise, remove attempts with score <= 0 where 0 questions were answered.
+      const shouldDelete =
+        args.deleteAllZero ?? true ? isZeroOrNegative : isZeroOrNegative && answeredCount === 0;
+
+      if (shouldDelete) {
+        await ctx.db.delete(a._id);
+        deletedCount++;
+      }
+    }
+
+    // Also purge abandoned in-progress attempts for this user (where answers is empty)
+    const inProgressAttempts = await ctx.db
+      .query("attempts")
+      .withIndex("by_user_status", (q) =>
+        q.eq("userId", user._id).eq("status", "in_progress")
+      )
+      .collect();
+
+    for (const a of inProgressAttempts) {
+      if (args.testSetId && String(a.testSetId) !== String(args.testSetId)) {
+        continue;
+      }
+      const answeredCount = a.answers
+        ? a.answers.filter(
+            (ans: any) =>
+              ans.selected !== undefined &&
+              ans.selected !== null &&
+              ans.selected !== "" &&
+              (!Array.isArray(ans.selected) || ans.selected.length > 0)
+          ).length
+        : 0;
+      if (answeredCount === 0) {
+        await ctx.db.delete(a._id);
+        deletedCount++;
+      }
+    }
+
+    return {
+      deletedCount,
+      message: `Cleaned ${deletedCount} zero-score / abandoned attempt(s)`,
+    };
+  },
+});
+
+/**
+ * Admin / batch cleaner to purge zero-score attempts across all users without session guards.
+ */
+export const purgeZeroScoreAttemptsAdmin = mutation({
+  args: {
+    deleteAllZero: v.optional(v.boolean()),
+  },
+  handler: async (ctx, args) => {
+    const allAttempts = await ctx.db.query("attempts").collect();
+    let deletedCount = 0;
+
+    for (const a of allAttempts) {
+      const score = a.score ?? 0;
+      const answeredCount = a.answers
+        ? a.answers.filter(
+            (ans: any) =>
+              ans.selected !== undefined &&
+              ans.selected !== null &&
+              ans.selected !== "" &&
+              (!Array.isArray(ans.selected) || ans.selected.length > 0)
+          ).length
+        : 0;
+
+      let shouldDelete = false;
+      if (a.status === "submitted") {
+        if (args.deleteAllZero ?? true) {
+          shouldDelete = score <= 0;
+        } else {
+          shouldDelete = score <= 0 && answeredCount === 0;
+        }
+      } else if (a.status === "in_progress") {
+        shouldDelete = answeredCount === 0;
+      }
+
+      if (shouldDelete) {
+        await ctx.db.delete(a._id);
+        deletedCount++;
+      }
+    }
+
+    return { deletedCount };
+  },
+});
+
 
 
 export const getWithQuestions = query({

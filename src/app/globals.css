@@ -135,6 +135,7 @@
 html {
   color-scheme: light dark;
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -233,9 +234,18 @@ pre {
   outline-offset: 2px;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(161, 161, 170, 0.3) transparent;
+}
+
+.dark * {
+  scrollbar-color: rgba(63, 63, 70, 0.45) transparent;
+}
+
 ::-webkit-scrollbar {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -243,20 +253,33 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d4d4d4;
+  background: rgba(161, 161, 170, 0.32);
   border-radius: 999px;
+  transition: background-color 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a3a3a3;
+  background: rgba(161, 161, 170, 0.6);
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: rgba(63, 63, 70, 0.45);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: rgba(113, 113, 122, 0.65);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
 }
 
 @media (prefers-reduced-motion: reduce) {

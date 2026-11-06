@@ -94,6 +94,14 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const [attemptId, setAttemptId] = useState<Id<"attempts"> | null>(null);
   const [localAnswers, setLocalAnswers] = useState<Record<string, string | string[]>>(() => {
     if (typeof window !== "undefined") {
+      const isRetake = window.location.search.includes("retake=true");
+      if (isRetake) {
+        try {
+          localStorage.removeItem(storageKey);
+          localStorage.removeItem(`quiz_current_index_${String(testSetId)}`);
+        } catch {}
+        return {};
+      }
       try {
         const cached = localStorage.getItem(storageKey);
         if (cached) return JSON.parse(cached);
@@ -114,16 +122,23 @@ export function useQuizSession(testSetId: Id<"testSets">) {
   const debounceTimers = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
   const submitRef = useRef<(() => Promise<any>) | null>(null);
 
-  // 1. Start or resume attempt
+  // 1. Start or resume attempt (handles retake flag and clears local cache on retake)
   useEffect(() => {
     let isMounted = true;
-    start({ testSetId }).then((id) => {
+    const isRetake = typeof window !== "undefined" && window.location.search.includes("retake=true");
+    if (isRetake && typeof window !== "undefined") {
+      try {
+        localStorage.removeItem(storageKey);
+        localStorage.removeItem(`quiz_current_index_${String(testSetId)}`);
+      } catch {}
+    }
+    start({ testSetId, retake: isRetake }).then((id) => {
       if (isMounted) setAttemptId(id);
     });
     return () => {
       isMounted = false;
     };
-  }, [testSetId, start]);
+  }, [testSetId, start, storageKey]);
 
   // 2. Fetch attempt & questions from Convex (with static published-sets fallback)
   const data = useQuery(
@@ -235,7 +250,8 @@ export function useQuizSession(testSetId: Id<"testSets">) {
       setRemainingSeconds(times.remaining);
 
       // Auto-submit when time reaches zero
-      if (times.remaining <= 0 && !hasAutoSubmittedRef.current) {
+      // Strict guard: Never auto-submit on initial mount or before timer has actively progressed
+      if (times.remaining <= 0 && times.elapsed > 2 && isInitializedRef.current && !hasAutoSubmittedRef.current) {
         hasAutoSubmittedRef.current = true;
         clearInterval(interval);
         if (submitRef.current) {

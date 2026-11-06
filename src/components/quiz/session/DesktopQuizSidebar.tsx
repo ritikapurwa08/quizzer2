@@ -44,8 +44,8 @@ export function DesktopQuizSidebar({
   onExit,
 }: DesktopQuizSidebarProps) {
   return (
-    <div className="hidden lg:block w-68 shrink-0">
-      <div className="sticky top-20 space-y-3">
+    <div className="hidden lg:block w-68 shrink-0 self-stretch">
+      <div className="sticky top-6 space-y-3 max-h-[calc(100vh-2rem)] overflow-y-auto scrollbar-none pb-2">
         {/* Progress & Timer card */}
         <div className="rounded-xl border border-border bg-card p-4 space-y-3">
           <div className="flex items-center justify-between">

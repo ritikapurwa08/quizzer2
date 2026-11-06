@@ -99,6 +99,11 @@ export function QuestionImportEditor({
     batchSize?: number;
     setCount?: number;
     targetCount?: number;
+    remainingCount?: number;
+    maxSetsAvailable?: number;
+    isFinalTopicSet?: boolean;
+    isComplete?: boolean;
+    message?: string;
     questions: any[];
     geminiPrompt: string;
   } | null>(null);
@@ -159,9 +164,12 @@ export function QuestionImportEditor({
       );
       if (res.ok) {
         const data = await res.json();
-        if (data.success && data.geminiPrompt) {
+        if (data.success) {
           setCandidateData(data);
           setCandidateError(null);
+          if (data.isFinalTopicSet && data.remainingCount && data.remainingCount < batchSize) {
+            setBatchSize(data.remainingCount);
+          }
         } else {
           setCandidateData(null);
           setCandidateError(data.message || data.error || "Failed to load candidate questions.");
@@ -190,6 +198,10 @@ export function QuestionImportEditor({
 
   // Handle "Copy for Gemini"
   const handleCopyForGemini = () => {
+    if (candidateData?.isComplete) {
+      showToast("Topic is 100% complete! No unassigned questions remaining to import.", "info");
+      return;
+    }
     if (!candidateData || !candidateData.geminiPrompt) {
       showToast("Candidate questions are loading, please wait...", "warning");
       return;
@@ -503,6 +515,10 @@ export function QuestionImportEditor({
                   <Loader2 className="h-3 w-3 animate-spin" />
                   Candidates: Fetching...
                 </Badge>
+              ) : candidateData?.isComplete ? (
+                <Badge className="bg-emerald-500/15 text-emerald-500 border-emerald-500/30 text-[11px] font-semibold">
+                  Pool Status: 100% Imported
+                </Badge>
               ) : candidateData ? (
                 <Badge className="bg-success/15 text-success border-success/30 text-[11px] font-semibold">
                   Candidates: {candidateData.candidateCount} loaded ({batchSize} Target / {Math.ceil(batchSize / 20)} Sets)
@@ -533,6 +549,10 @@ export function QuestionImportEditor({
             onSubtopicNameChange={onSubtopicNameChange}
             isDuplicateSetName={isDuplicateSetName}
             plannedSetNames={plannedSetNames}
+            remainingCount={candidateData?.remainingCount}
+            isComplete={candidateData?.isComplete}
+            isFinalTopicSet={candidateData?.isFinalTopicSet}
+            maxSetsAvailable={candidateData?.maxSetsAvailable}
           />
 
           {code.trim().length > 0 && (!selectedTopicId || !subtopicName.trim()) && (

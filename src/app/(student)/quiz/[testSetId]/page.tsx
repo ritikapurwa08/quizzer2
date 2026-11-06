@@ -269,7 +269,7 @@ export default function QuizPage() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row items-start gap-6">
+    <div className="flex flex-col lg:flex-row items-start lg:items-stretch gap-6">
       {/* ── Main question column ── */}
       <div className="flex-1 space-y-3 min-w-0 pb-20 lg:pb-0 min-h-[580px]">
         {/* Desktop Header */}

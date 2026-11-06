@@ -8,6 +8,10 @@ interface GeminiPromptSectionProps {
   candidateData: {
     candidateCount: number;
     geminiPrompt: string;
+    isComplete?: boolean;
+    isFinalTopicSet?: boolean;
+    remainingCount?: number;
+    message?: string;
   } | null;
   candidateError: string | null;
   promptOpen: boolean;
@@ -31,6 +35,10 @@ export function GeminiPromptSection({
         <p className="text-xs text-muted-foreground">
           {loadingCandidates
             ? "Fetching candidate questions from the pool, please wait..."
+            : candidateData?.isComplete
+            ? "✓ This topic is 100% complete! All questions have already been published into live sets."
+            : candidateData?.isFinalTopicSet
+            ? `⚡ Final Partial Set ready (${candidateData.candidateCount} questions remaining in pool). Copy prompt for Gemini review.`
             : candidateData
             ? `Candidate questions ready (${candidateData.candidateCount} questions). Copy prompt for Gemini review.`
             : candidateError

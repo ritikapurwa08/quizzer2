@@ -160,20 +160,49 @@ export async function POST(request: NextRequest) {
           }
         } catch {}
 
-        const setEntry = {
-          id: setId,
-          name: `${topicState.masterTopic} भाग ${setNumber}`,
-          topicId: convexTopicId,
-          masterTopicId,
-          negativeMarking: true,
-          order: Number(setNumber),
-          questionCount: selectedIds.length,
-          questionIds: selectedIds,
-        };
-        if (existingIdx >= 0) {
-          publishedSets[existingIdx] = setEntry;
+        if (setCount > 1 && Array.isArray(questions) && questions.length > 20) {
+          for (let sIdx = 0; sIdx < setCount; sIdx++) {
+            const curSetNum = startSet + sIdx;
+            const curPadSet = String(curSetNum).padStart(3, "0");
+            const curSetId = `topic-${masterTopicId}-set-${curPadSet}`;
+            const chunkQs = questions.slice(sIdx * 20, (sIdx + 1) * 20);
+            const chunkIds = chunkQs
+              .map((q: any) => q.meta?.sourceQuestionId || q.sourceQuestionId || q.id)
+              .filter(Boolean);
+
+            const sEntry = {
+              id: curSetId,
+              name: `${topicState.masterTopic} भाग ${curSetNum}`,
+              topicId: convexTopicId,
+              masterTopicId,
+              negativeMarking: true,
+              order: Number(curSetNum),
+              questionCount: chunkQs.length,
+              questionIds: chunkIds,
+            };
+            const idx = publishedSets.findIndex((s: any) => s.id === curSetId || s.setId === curSetId);
+            if (idx >= 0) {
+              publishedSets[idx] = sEntry;
+            } else {
+              publishedSets.push(sEntry);
+            }
+          }
         } else {
-          publishedSets.push(setEntry);
+          const setEntry = {
+            id: setId,
+            name: `${topicState.masterTopic} भाग ${setNumber}`,
+            topicId: convexTopicId,
+            masterTopicId,
+            negativeMarking: true,
+            order: Number(setNumber),
+            questionCount: selectedIds.length,
+            questionIds: selectedIds,
+          };
+          if (existingIdx >= 0) {
+            publishedSets[existingIdx] = setEntry;
+          } else {
+            publishedSets.push(setEntry);
+          }
         }
         fs.writeFileSync(pubPath, JSON.stringify(publishedSets, null, 2), "utf-8");
       }

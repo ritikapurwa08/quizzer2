@@ -13,6 +13,7 @@ import {
   CheckCircle2,
   XCircle,
   Minus,
+  Trash2,
 } from "lucide-react";
 
 interface ScoreSummaryCardProps {
@@ -27,6 +28,8 @@ interface ScoreSummaryCardProps {
   activeFilter?: string;
   onPrint: () => void;
   onShare: () => void;
+  onDiscardAttempt?: () => void;
+  isDiscarding?: boolean;
 }
 
 export function ScoreSummaryCard({
@@ -41,6 +44,8 @@ export function ScoreSummaryCard({
   activeFilter,
   onPrint,
   onShare,
+  onDiscardAttempt,
+  isDiscarding,
 }: ScoreSummaryCardProps) {
   const totalMarks = totalQuestions * 2;
 
@@ -82,19 +87,35 @@ export function ScoreSummaryCard({
         Standard RPSC Scoring: +2 marks per correct answer · 1/3 negative marking (-0.67 per incorrect)
       </p>
 
-      {/* EXACTLY FOUR ACTION BUTTONS: Retake (Left) | PDF | Share Result | Next Set (Right) */}
+      {/* ACTION BUTTONS: Retake (Left) | Discard (if 0-score) | PDF | Share Result | Next Set (Right) */}
       <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
-        {/* 1. Left side: Retake Test */}
-        <Button
-          asChild
-          variant="outline"
-          className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
-        >
-          <Link href={`/quiz/${testSetId}`}>
-            <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-            Retake Test
-          </Link>
-        </Button>
+        {/* 1. Left side: Retake Test & Discard Attempt */}
+        <div className="flex items-center gap-2">
+          <Button
+            asChild
+            variant="outline"
+            className="font-semibold text-xs h-10 px-4 rounded-xl border-border gap-1.5 cursor-pointer hover:bg-muted/80 shadow-2xs"
+          >
+            <Link href={`/quiz/${testSetId}?retake=true`}>
+              <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
+              Retake Test
+            </Link>
+          </Button>
+
+          {onDiscardAttempt && score <= 0 && unansweredCount === totalQuestions && (
+            <Button
+              type="button"
+              variant="outline"
+              onClick={onDiscardAttempt}
+              disabled={isDiscarding}
+              className="font-semibold text-xs h-10 px-3 rounded-xl border-rose-500/30 text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 gap-1.5 cursor-pointer shadow-2xs"
+              title="Discard this abandoned 0-score attempt so it doesn't affect your analytics"
+            >
+              <Trash2 className="h-3.5 w-3.5" aria-hidden="true" />
+              {isDiscarding ? "Discarding..." : "Discard Result"}
+            </Button>
+          )}
+        </div>
 
         {/* 2 & 3. Middle: PDF & Share Result */}
         <div className="flex items-center gap-2">

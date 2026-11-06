@@ -13,7 +13,7 @@ import { CheckCircle2, Play, Plus, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { MASTER_TOPICS_LIST } from "@/lib/pool/masterTopics";
-import { calculateNextSetName } from "@/lib/setNumbering";
+import { calculateNextSetName, extractBaseTopicName, calculateBatchSetNames } from "@/lib/setNumbering";
 
 export function ImportWizard() {
   const searchParams = useSearchParams();
@@ -44,6 +44,9 @@ export function ImportWizard() {
     selectedTopicId ? { topicId: selectedTopicId as Id<"topics"> } : "skip"
   ) ?? [];
 
+  // Local published sets fetched from /api/sets/by-topic/[topicId]
+  const [localSets, setLocalSets] = useState<Array<{ id: string; name: string }>>([]);
+
   const importTestSet = useMutation(api.testSets.importTestSet);
   const seedFixedSyllabus = useMutation(api.seed.seedFixedSyllabus);
 
@@ -53,6 +56,44 @@ export function ImportWizard() {
     const num = parseInt(masterTopicIdParam, 10);
     return MASTER_TOPICS_LIST.find((mt) => mt.id === num);
   }, [masterTopicIdParam]);
+
+  // Fetch local published sets whenever selectedTopicId or urlMasterTopic changes
+  const refreshLocalSets = useCallback(async () => {
+    const targetQueryId = selectedTopicId || (urlMasterTopic ? String(urlMasterTopic.id) : "");
+    if (!targetQueryId) {
+      setLocalSets([]);
+      return;
+    }
+
+    try {
+      const res = await fetch(`/api/sets/by-topic/${encodeURIComponent(targetQueryId)}`);
+      const data = await res.json();
+      if (data.success && Array.isArray(data.sets)) {
+        setLocalSets(data.sets);
+      }
+    } catch (err) {
+      console.error("Error loading local sets for topic:", err);
+    }
+  }, [selectedTopicId, urlMasterTopic]);
+
+  useEffect(() => {
+    refreshLocalSets();
+  }, [refreshLocalSets]);
+
+  // Combine Convex sets and local published sets into a single authoritative list
+  const allExistingSets = useMemo(() => {
+    const merged: Array<{ name: string; _id?: string; id?: string }> = [...existingTestSets];
+    const seenNames = new Set(merged.map((s) => s.name.trim().toLowerCase()));
+
+    for (const ls of localSets) {
+      const lower = ls.name.trim().toLowerCase();
+      if (!seenNames.has(lower)) {
+        seenNames.add(lower);
+        merged.push({ name: ls.name, id: ls.id, _id: ls.id });
+      }
+    }
+    return merged;
+  }, [existingTestSets, localSets]);
 
   // Auto-seed default syllabus if empty
   useEffect(() => {
@@ -100,16 +141,17 @@ export function ImportWizard() {
   const activeTopicDisplay = getTopicDisplayName(activeTopic);
   const existingCount = existingTestSets.length;
 
-  // Auto-increment / default subtopic name based on existing test sets under the topic
+  // Auto-increment / default subtopic name based on combined test sets under the topic
   const userEditedSubtopicRef = useRef(false);
   useEffect(() => {
-    if (!userEditedSubtopicRef.current && selectedTopicId && activeTopicDisplay) {
-      const { fullName } = calculateNextSetName(existingTestSets, activeTopicDisplay);
+    const topicDisplayName = activeTopicDisplay || urlMasterTopic?.nameHindi || urlMasterTopic?.nameEnglish || "";
+    if (!userEditedSubtopicRef.current && (selectedTopicId || urlMasterTopic) && topicDisplayName) {
+      const { fullName } = calculateNextSetName(allExistingSets, topicDisplayName);
       setSubtopicName((prev) => (prev === fullName ? prev : fullName));
-    } else if (!selectedTopicId) {
+    } else if (!selectedTopicId && !urlMasterTopic) {
       setSubtopicName("");
     }
-  }, [existingTestSets, selectedTopicId, activeTopicDisplay]);
+  }, [allExistingSets, selectedTopicId, activeTopicDisplay, urlMasterTopic]);
 
   function handleSubjectChangeId(subjectId: string) {
     setSelectedSubjectId(subjectId as Id<"subjects">);
@@ -148,28 +190,53 @@ export function ImportWizard() {
 
     setIsImporting(true);
     const startTime = Date.now();
+    const totalQCount = parsed.questions.length;
+    const isMultiSet = totalQCount > 20 && !options?.isFinalSet;
+    const setsCount = isMultiSet ? Math.ceil(totalQCount / 20) : 1;
+
+    const match = subtopicName.match(/(?:Part|भाग|Set|सेट)[\s\-–—:]*(\d+)/i) || subtopicName.match(/(\d+)/);
+    const startSetNum = match ? parseInt(match[1], 10) : 1;
+    const baseName = extractBaseTopicName(subtopicName) || activeTopicDisplay || "Set";
+    const plannedNames = calculateBatchSetNames(baseName, startSetNum, setsCount);
+
+    let firstTestSetId: Id<"testSets"> | null = null;
+    const createdNames: string[] = [];
 
     try {
-      // Import the set atomically into Convex, updating the persistent pool queue in the same transaction
-      const result = await importTestSet({
-        topicId: selectedTopicId as Id<"topics">,
-        name: subtopicName.trim(),
-        negativeMarking: true,
-        questions: parsed.questions,
-        isFinalSet: options?.isFinalSet,
-        masterTopicId: options?.masterTopicId,
-      });
-      const testSetId = result.testSetId;
+      if (setsCount > 1) {
+        for (let sIdx = 0; sIdx < setsCount; sIdx++) {
+          const chunkQs = parsed.questions.slice(sIdx * 20, (sIdx + 1) * 20);
+          const chunkName = plannedNames[sIdx];
+          const res = await importTestSet({
+            topicId: selectedTopicId as Id<"topics">,
+            name: chunkName,
+            negativeMarking: true,
+            questions: chunkQs,
+            isFinalSet: sIdx === setsCount - 1 ? options?.isFinalSet : false,
+            masterTopicId: options?.masterTopicId,
+          });
+          if (sIdx === 0) firstTestSetId = res.testSetId;
+          createdNames.push(chunkName);
+        }
+      } else {
+        const res = await importTestSet({
+          topicId: selectedTopicId as Id<"topics">,
+          name: subtopicName.trim(),
+          negativeMarking: true,
+          questions: parsed.questions,
+          isFinalSet: options?.isFinalSet,
+          masterTopicId: options?.masterTopicId,
+        });
+        firstTestSetId = res.testSetId;
+        createdNames.push(subtopicName.trim());
+      }
+
       const elapsed = Math.max(0.1, (Date.now() - startTime) / 1000);
 
       // Automatically sync local pool state so local queue advances and questions are marked USED
       if (options?.masterTopicId) {
         try {
-          const match = subtopicName.match(/(?:Part|भाग|Set)[\s\-–—:]*(\d+)/i);
-          const startSetNum = match ? parseInt(match[1], 10) : 1;
-          const setsCount = (result as any).setsCreated || Math.ceil(parsed.questions.length / 20);
           const highestSetNum = startSetNum + setsCount - 1;
-
           await fetch("/api/admin/finalize-local-set", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -190,25 +257,30 @@ export function ImportWizard() {
       }
 
       // Feedback
-      const setsCreated = (result as any).setsCreated || 1;
-      const setNamesStr = (result as any).setNames?.length
-        ? ` (${(result as any).setNames.join(", ")})`
-        : "";
       showToast(
-        `✅ ${result.imported} questions imported successfully across ${setsCreated} set(s)${setNamesStr}. Local pool state updated.`,
+        `✅ ${totalQCount} questions imported successfully across ${setsCount} set(s) (${createdNames.join(", ")}). Local pool state updated.`,
         "success"
       );
 
-      setLastImportedSet({
-        id: testSetId,
-        count: result.imported,
-        timeSeconds: parseFloat(elapsed.toFixed(1)),
-      });
+      if (firstTestSetId) {
+        setLastImportedSet({
+          id: firstTestSetId,
+          count: totalQCount,
+          timeSeconds: parseFloat(elapsed.toFixed(1)),
+        });
+      }
 
-      // Clear the editor and auto-advance to next set
+      // Smart auto-advance: Calculate the NEXT set name!
+      const nextSetNumber = startSetNum + setsCount;
+      const nextSetName = `${baseName} भाग ${nextSetNumber}`;
+
       userEditedSubtopicRef.current = false;
+      setSubtopicName(nextSetName);
       setResetKey((k) => k + 1);
       setParsed(null);
+
+      // Refresh local sets immediately
+      await refreshLocalSets();
     } catch (err: any) {
       const errMsg = err?.data ?? err?.message ?? "Failed to import questions. Your text has been preserved.";
       showToast(errMsg, "warning");
@@ -276,7 +348,7 @@ export function ImportWizard() {
         isImporting={isImporting}
         onImportClick={handleImport}
         initialMasterTopicId={urlMasterTopic ? urlMasterTopic.id : undefined}
-        existingTestSets={existingTestSets}
+        existingTestSets={allExistingSets as any}
       />
     </div>
   );

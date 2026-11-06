@@ -1,17 +1,19 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { useQuery } from "convex/react";
+import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { EmptyState } from "@/components/shared/EmptyState";
 import { LoadingState } from "@/components/shared/LoadingState";
 import { FilterBar } from "@/components/shared/FilterBar";
 import { Pagination } from "@/components/shared/Pagination";
 import { ResultHistoryItem } from "@/components/shared/ResultHistoryItem";
 import { BreadcrumbNav } from "@/components/shared/BreadcrumbNav";
-import { ListChecks } from "lucide-react";
+import { ListChecks, Trash2 } from "lucide-react";
 import { getSubjectDisplayName, getTopicDisplayName } from "@/lib/utils";
+import { useToast } from "@/components/ui/Toast";
 
 const PAGE_SIZE = 15;
 
@@ -19,6 +21,22 @@ export default function HistoryPage() {
   const [selectedSubjectId, setSelectedSubjectId] = useState("all");
   const [selectedTopicId, setSelectedTopicId] = useState("all");
   const [page, setPage] = useState(0);
+  const [isCleaning, setIsCleaning] = useState(false);
+  const { showToast } = useToast();
+
+  const removeZeroScoreAttempts = useMutation(api.attempts.removeZeroScoreAttempts);
+
+  const handleCleanZeroScore = async () => {
+    try {
+      setIsCleaning(true);
+      const res = await removeZeroScoreAttempts({ deleteAllZero: true });
+      showToast(res.message || "0-score attempts cleared!", "success");
+    } catch (err: any) {
+      showToast(err.message || "Failed to clean attempts", "warning");
+    } finally {
+      setIsCleaning(false);
+    }
+  };
 
   const subjects = useQuery(api.subjects.list) ?? [];
 
@@ -107,6 +125,17 @@ export default function HistoryPage() {
               {filtered.length} {filtered.length === 1 ? "attempt" : "attempts"}
             </div>
           )}
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleCleanZeroScore}
+            disabled={isCleaning}
+            className="text-xs h-9 px-3 rounded-lg border-border gap-1.5 hover:bg-destructive/10 hover:text-destructive hover:border-destructive/30 cursor-pointer"
+            title="Clean all zero-score abandoned attempts to restore analytics"
+          >
+            <Trash2 className="h-3.5 w-3.5 text-rose-500" />
+            {isCleaning ? "Cleaning..." : "Clean 0-Score Tests"}
+          </Button>
         </div>
       </div>
 

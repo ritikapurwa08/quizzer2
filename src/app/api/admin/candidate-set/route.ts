@@ -58,6 +58,7 @@ export async function GET(request: NextRequest) {
       : DATA_PATHS.gkTopicsDir;
 
     let candidateQuestions: any[] = [];
+    let totalRemainingCount = 0;
 
     // 1. If candidate file already exists on disk, load it
     const existingCandidateFile = fs.existsSync(candidateFilePad)
@@ -111,6 +112,23 @@ export async function GET(request: NextRequest) {
             }
           }
 
+          // Authoritative sync: Read all published questions from local published-sets.json
+          const publishedPath = DATA_PATHS.publishedSets;
+          if (fs.existsSync(publishedPath)) {
+            try {
+              const pubSets = JSON.parse(fs.readFileSync(publishedPath, "utf-8"));
+              for (const s of pubSets) {
+                if (Array.isArray(s.questionIds)) {
+                  for (const qid of s.questionIds) {
+                    usedSet.add(String(qid));
+                  }
+                }
+              }
+            } catch (err) {
+              console.error("Error reading published sets for candidate-set:", err);
+            }
+          }
+
           // Authoritative sync: Prioritize local convex backup to prevent exhausting live Convex Cloud quota
           if (hasConvexBackup()) {
             const backupExisting = getBackupExistingQuestionIds();
@@ -158,25 +176,21 @@ export async function GET(request: NextRequest) {
             candidateQuestions = candidateQuestions.filter((q) => !usedSet.has(String(q.id)));
           }
 
-          if (candidateQuestions.length === 0) {
-            const candidateDrawCount = batchSize === 20 ? 25 : Math.round(batchSize * 1.25);
-            if (topicState?.candidate && topicState.candidate.length > 0) {
-              targetIds = topicState.candidate.filter((id: string) => !usedSet.has(id));
-            } else if (topicState?.available && topicState.available.length > 0) {
-              const freshAvailable = topicState.available.filter((id: string) => !usedSet.has(id));
-              targetIds = freshAvailable.slice(0, Math.min(freshAvailable.length, candidateDrawCount));
-            } else {
-              targetIds = [...allQuestions]
-                .sort(comparePoolQuestions)
-                .map((q) => String(q.id))
-                .filter((id) => !usedSet.has(id))
-                .slice(0, candidateDrawCount);
-            }
+          // Fresh unassigned questions in pool
+          const freshAvailable = allQuestions
+            .filter((q) => !usedSet.has(String(q.id)))
+            .sort(comparePoolQuestions);
 
-            for (const qid of targetIds) {
-              const q = questionMap.get(String(qid));
-              if (q) candidateQuestions.push(q);
-            }
+          totalRemainingCount = freshAvailable.length;
+
+          if (candidateQuestions.length === 0 && freshAvailable.length > 0) {
+            const isFinalDraw = freshAvailable.length < batchSize;
+            const targetBatch = isFinalDraw ? freshAvailable.length : batchSize;
+            const candidateDrawCount = isFinalDraw
+              ? freshAvailable.length
+              : Math.min(freshAvailable.length, targetBatch === 20 ? 25 : Math.round(targetBatch * 1.25));
+
+            candidateQuestions = freshAvailable.slice(0, candidateDrawCount);
           }
 
           candidateQuestions.sort(comparePoolQuestions);
@@ -191,6 +205,30 @@ export async function GET(request: NextRequest) {
     const topicHindi = topicInfo?.nameHindi || `Topic ${masterTopicId}`;
     const topicEnglish = topicInfo?.nameEnglish || `Topic ${masterTopicId}`;
     const subjectHindi = topicInfo?.subjectHindi || (isEnglish ? "अंग्रेजी (Paper-II)" : "राजस्थान सामान्य ज्ञान");
+
+    if (candidateQuestions.length === 0) {
+      return NextResponse.json({
+        success: true,
+        isComplete: true,
+        masterTopicId,
+        masterTopic: isEnglish ? topicEnglish : topicHindi,
+        masterTopicHindi: topicHindi,
+        masterTopicEnglish: topicEnglish,
+        subjectName: subjectHindi,
+        setNumber,
+        setName: isEnglish ? `${topicEnglish} Part ${setNumber}` : `${topicHindi} भाग ${setNumber}`,
+        batchSize,
+        setCount: 0,
+        targetCount: 0,
+        candidateCount: 0,
+        remainingCount: 0,
+        maxSetsAvailable: 0,
+        isFinalTopicSet: false,
+        message: `Topic #${masterTopicId} (${topicHindi}) is 100% complete! All questions have already been published into live sets. No unassigned questions remain in the pool.`,
+        questions: [],
+        geminiPrompt: "",
+      });
+    }
 
     // Format clean questions for prompt, ensuring candidate option text is pre-healed
     const promptQuestions = candidateQuestions.map((q) => ({
@@ -223,24 +261,34 @@ export async function GET(request: NextRequest) {
     let geminiPrompt = "";
 
     if (isEnglish) {
-      const taskDescription = candidateQuestions.length > 0
-        ? `Below are ${candidateQuestions.length} candidate questions drawn from authentic Rajasthan examinations and master vocabulary banks. Your task is to review, repair, polish, and verify these questions into EXACTLY ${targetCount} high-yield RPSC Senior Teacher (2nd Grade) examination questions.`
-        : `Generate EXACTLY ${targetCount} authoritative, high-yield examination questions adhering to the RPSC Senior Teacher (2nd Grade) competitive syllabus for "${topicEnglish}".`;
+      const taskDescription = isFinalTopicSet
+        ? `This is the final set for this topic. Exactly ${targetCount} questions remain in the pool. Your task is to review, repair, and verify all ${targetCount} questions into the final set.`
+        : setCount > 1
+          ? `Below are ${candidateQuestions.length} candidate questions. Your task is to review, repair, and output EXACTLY ${targetCount} high-yield questions (${setCount} Sets × 20 Questions = ${targetCount} Questions). The remaining ${candidateQuestions.length - targetCount} buffer questions must be discarded.`
+          : `Below are ${candidateQuestions.length} candidate questions. Your task is to review, repair, and output EXACTLY 20 high-yield questions. The remaining ${candidateQuestions.length - 20} buffer questions must be discarded.`;
+
+      const countRule = isFinalTopicSet
+        ? `1. 🚨 STRICT COUNT: Provide EXACTLY ${targetCount} questions.`
+        : `1. 🚨 STRICT EXACT COUNT MANDATE (ZERO TOLERANCE FOR OVER/UNDER GENERATION):
+   - Output EXACTLY ${targetCount} questions in the JSON array!
+   - Not ${targetCount - 1}, not ${targetCount + 1}, not 73, and NOT all ${candidateQuestions.length}! The JSON array length must be EXACTLY ${targetCount}.
+   - NOTE: You have been provided with ${candidateQuestions.length} candidate items to give you a quality selection buffer. You must discard the weakest ${candidateQuestions.length - targetCount} items.
+   - Stop generation immediately once exactly ${targetCount} questions are produced. Any extra items will fail validation.`;
 
       geminiPrompt = `You are the CHIEF EXAMINER & LEAD QUESTION SETTER for the Rajasthan Public Service Commission (RPSC), Ajmer, specializing in the Senior Teacher (2nd Grade) Competitive Examination (Department of Secondary Education, Paper-II: English).
 
 SUBJECT: English (Paper-II)
 TOPIC (Master Topic #${masterTopicId}): ${topicEnglish} (${topicHindi})
 SET: ${setName}${isFinalTopicSet ? " (Final Set)" : ""}
-CANDIDATE QUESTIONS PROVIDED: ${candidateQuestions.length}
+TARGET QUESTION COUNT REQUIRED: EXACTLY ${targetCount} (Array Length = ${targetCount})
+CANDIDATE QUESTIONS PROVIDED IN BUFFER: ${candidateQuestions.length}
 
 ${taskDescription}
 
 ================================================================================
 EXAMINATION STANDARDS & MANDATORY GUIDELINES:
 ================================================================================
-1. EXACT COUNT:
-   - Provide EXACTLY ${targetCount} questions. No more, no less.
+${countRule}
 2. STANDARD BRITISH ENGLISH & RPSC EXAM CONVENTIONS:
    - Reflect authentic RPSC question stems ("Fill in the blank with the most appropriate option...", "The correct passive form of...", "Which of the following is grammatically correct?", "Identify the sentence pattern...", etc.).
    - Distractors must represent plausible, intelligent misconceptions or classic exam traps (e.g. subject-verb proximity traps, indirect speech word-order inversion traps, fixed preposition traps, homophone/confusable traps).
@@ -301,23 +349,27 @@ Return ONLY a valid, raw JSON array of objects. Do NOT include markdown code fen
 ]`;
     } else {
       const taskDescription = isFinalTopicSet
-        ? `यह इस टॉपिक का अंतिम सेट (Final Set) है। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
+        ? `यह इस टॉपिक का अंतिम सेट (Final Partial Set) है। पूल में केवल ${targetCount} प्रश्न शेष हैं। आपका कार्य दिए गए सभी ${targetCount} प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} प्रश्नों का अंतिम सेट तैयार करना है। अपनी ओर से कोई अन्य प्रश्न न जोड़ें।`
         : setCount > 1
-          ? `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक ${targetCount} सर्वश्रेष्ठ प्रश्नों का सेट तैयार करना है (${setCount} सेट्स × 20 प्रश्न)।`
-          : `आपका कार्य इन प्रश्नों की गुणवत्ता समीक्षा (Review & Repair) करके ठीक 20 सर्वश्रेष्ठ प्रश्नों का अंतिम सेट तैयार करना है।`;
+          ? `नीचे आपको ${candidateQuestions.length} कैंडिडेट प्रश्न दिए गए हैं। आपका कार्य इनमें से ठीक और केवल ठीक ${targetCount} सर्वश्रेष्ठ प्रश्न चुनना और सुधारना है (${setCount} सेट्स × 20 प्रश्न = ${targetCount} प्रश्न)। शेष ${candidateQuestions.length - targetCount} प्रश्नों को छाँटकर बाहर (discard) कर देना है।`
+          : `नीचे आपको ${candidateQuestions.length} कैंडिडेट प्रश्न दिए गए हैं। आपका कार्य इनमें से ठीक और केवल ठीक 20 सर्वश्रेष्ठ प्रश्न चुनना और सुधारना है। शेष ${candidateQuestions.length - 20} प्रश्नों को छाँटकर बाहर (discard) कर देना है।`;
 
       const countRule = isFinalTopicSet
-        ? `1. ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही पुराने सेट्स से कोई प्रश्न जोड़ें।`
-        : setCount > 1
-          ? `1. ठीक ${targetCount} प्रश्न चुनें (Select EXACTLY ${targetCount} questions - 20-20 प्रश्नों के ${setCount} सेट्स हेतु)।`
-          : `1. ठीक 20 प्रश्न चुनें (Select EXACTLY 20 questions)। न 19, न 21।`;
+        ? `1. 🚨 अनिवार्य गणना नियम: ठीक ${targetCount} प्रश्न दें (Select ALL ${targetCount} provided questions)। दिए गए सभी ${targetCount} प्रश्नों को सुधारें। कोई नया प्रश्न न बनाएँ और न ही कोई प्रश्न छोड़ें।`
+        : `1. 🚨 सख्त गणना नियम (STRICT EXACT COUNT MANDATE - ZERO TOLERANCE FOR OVER-GENERATION):
+   - आउटपुट JSON में ठीक और केवल ठीक ${targetCount} प्रश्न होने चाहिए (EXACTLY ${targetCount} QUESTIONS)!
+   - न एक कम (${targetCount - 1}), न एक ज्यादा (${targetCount + 1}), और न ही कैंडिडेट सूची के सभी प्रश्न (जैसे 73 या ${candidateQuestions.length})!
+   - ध्यान दें: नीचे दी गई सूची में ${candidateQuestions.length} प्रश्न इसलिए दिए गए हैं ताकि आप उनमें से कमजोर या अशुद्ध प्रश्नों को अस्वीकार (Filter Out) कर सकें। यह केवल एक चयन बफ़र (Selection Buffer) है।
+   - आपको दिए गए सभी ${candidateQuestions.length} प्रश्न वापस नहीं करने हैं! केवल सर्वश्रेष्ठ ${targetCount} प्रश्न ही चुनकर लौटाएँ।
+   - जैसे ही आपके ठीक ${targetCount} प्रश्न पूरे हों, तुरंत रुक जाएँ! आउटपुट JSON array की कुल लंबाई (Length) अनिवार्य रूप से ठीक ${targetCount} ही होनी चाहिए।`;
 
       geminiPrompt = `आप राजस्थान प्रतियोगी परीक्षाओं (RPSC, RSMSSB, RAS, REET, पटवार, CET) के मुख्य प्रश्न-पत्र निर्माता एवं वरिष्ठ परीक्षा विशेषज्ञ (Lead Question Setter & Chief Examiner) हैं।
 
 विषय: ${subjectHindi}
 शीर्षक (Master Topic #${masterTopicId}): ${topicHindi}
 सेट: ${setName}${isFinalTopicSet ? " (अंतिम सेट / Final Set)" : ""}
-कैंडिडेट प्रश्नों की संख्या: ${candidateQuestions.length}
+अनिवार्य प्रश्न संख्या (Target Count Required): ठीक और केवल ठीक ${targetCount} प्रश्न (Array Length = ${targetCount})
+कैंडिडेट बफ़र में उपलब्ध प्रश्न: ${candidateQuestions.length} (इनमें से केवल सर्वश्रेष्ठ ${targetCount} चुनें, शेष ${candidateQuestions.length - targetCount} को छोड़ दें)
 
 नीचे हमारे स्थानीय प्रश्न-पूल से ${candidateQuestions.length} उम्मीदवार प्रश्न दिए गए हैं।
 ${taskDescription}
@@ -404,7 +456,8 @@ ${JSON.stringify(promptQuestions, null, 2)}
 ==================================================
 अपेक्षित आउटपुट प्रारूप (Strict Output Format):
 ==================================================
-केवल और केवल शुद्ध JSON Array वापस करें। कोई अतिरिक्त वाक्य, मार्कडाउन या चैट वार्तालाप न जोड़ें:
+केवल और केवल शुद्ध JSON Array वापस करें जिसमें ठीक और केवल ठीक ${targetCount} प्रश्न ऑब्जेक्ट्स हों (Array Length = ${targetCount})।
+न ${targetCount - 1}, न 73, न ${candidateQuestions.length}! ठीक ${targetCount} प्रश्नों के बाद तुरंत रुक जाएँ। कोई अतिरिक्त वाक्य, मार्कडाउन या चैट वार्तालाप न जोड़ें:
 
 [
   {
@@ -439,6 +492,10 @@ ${JSON.stringify(promptQuestions, null, 2)}
       setCount,
       targetCount,
       candidateCount: candidateQuestions.length,
+      remainingCount: totalRemainingCount,
+      maxSetsAvailable: Math.max(1, Math.ceil(totalRemainingCount / 20)),
+      isFinalTopicSet,
+      isComplete: false,
       questions: promptQuestions,
       geminiPrompt,
     });
